@@ -1,0 +1,138 @@
+{
+  "pdf_page": 63,
+  "book_page": 33,
+  "entries": [
+    {
+      "root": {
+        "name": "Ardha",
+        "lang": "Old Persian",
+        "refs": "BQT:1445",
+        "gloss": "swept, moved, pushed"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Old Persian",
+          "refs": "NYB:23,76; BQT:1445",
+          "words": [
+            {"translit": "fra-ardha, frârdha, frârdha-van", "gloss": "pushed forward, correct, right", "script": null, "see": ["Per 1"]},
+            {"translit": "apa-ardha", "gloss": "pushed back, backward, wrong", "script": null, "see": ["Apo"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "BQT:1445,2246; NYB:23,76",
+          "words": [
+            {"translit": "frârôn", "gloss": "right, honest, upright", "script": null},
+            {"translit": "apârôn", "gloss": "wrong, bad, upside down", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "MON:2499",
+          "words": [
+            {"translit": "frârŭn", "gloss": "correct, honest", "script": "فرارون"}
+          ],
+          "script_extra": "فریرون ، فیرون",
+          "note": null,
+          "quote": {
+            "text": "حسودت در ید بهرام فیرون - نظرزی تو ز برجیس فرارون",
+            "poet": "Daqîqî"
+          }
+        },
+        {
+          "id": 4,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "MON:4941",
+          "words": [
+            {"translit": "vârŭn", "gloss": "upside down, wrong, evil", "script": "وارون"}
+          ],
+          "script_extra": "وارونه",
+          "note": null,
+          "quote": {
+            "text": "پس ابلیس وارونه آن ژرف چاه - به خاشاک پوشید و بسترد راه",
+            "poet": "Ferdowsî"
+          }
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Are",
+        "redirect": "Ar"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "A`.r.f, Ta`rîf",
+        "lang": "Arabic",
+        "refs": "KLN:1573; AHD:1317",
+        "gloss": "to know; information"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "FVA:267",
+          "words": [
+            {"translit": "erfân", "gloss": "knowledge, gnosticism", "script": "عرفان"},
+            {"translit": "ta`refeh", "gloss": "a list of duties imposed on imports or exports", "script": "تعرفه"}
+          ],
+          "script_extra": "عارف ، معرفت ، عُرف ، عرفات ، تعریف؛ معروف ، مُعرّف ، تعارف ، متعارف ، اعتراف",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Turkish",
+          "refs": "AHD",
+          "words": [
+            {"translit": "ta`rifa", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Spanish",
+          "refs": null,
+          "words": [
+            {"translit": "tariff", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "English",
+          "refs": "AHD:1317",
+          "words": [
+            {"translit": "tariff", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

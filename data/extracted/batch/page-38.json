@@ -1,0 +1,105 @@
+{
+  "pdf_page": 38,
+  "book_page": 8,
+  "entries": [
+    {
+      "root": {
+        "name": "Ahu",
+        "lang": "Avestan",
+        "refs": "BQT:72",
+        "gloss": "defect, fault"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "BQT:72",
+          "words": [
+            {"translit": "ahŭk 2", "gloss": "fault", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BRT:345",
+          "words": [
+            {"translit": "âhŭ 2", "gloss": "defect", "script": "آهو۲"}
+          ],
+          "note": "FAF:38 claims this word is from AV \"a-hu: not good\".",
+          "quote": {"text": "زگیتی بی آهو نیابی کسی - اگر چند دارد هنر ها بسی", "poet": "Vîs-o-Râmîn"}
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "BQT:72; FAF:36; KNT:167",
+          "words": [
+            {"translit": "âhita", "gloss": "dirty, faulty", "script": null},
+            {"translit": "an-âhita", "gloss": "not dirty, clean, innocent, spotless", "script": null, "see": ["Ne 1"]}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Persian",
+          "refs": "FAF:36",
+          "words": [
+            {"translit": "Ânâhîta", "gloss": "\"innocent, clean\", a female name", "script": "آناهیتا"},
+            {"translit": "Nâhîd", "gloss": "\"innocent, clean\", a female name, a bright star", "script": "ناهید"}
+          ],
+          "note": null,
+          "quote": {"text": "از آن ترس کو هوش و زور آفرید - درخشنده ناهید و هور آفرید", "poet": "Ferdowsî"}
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Ai",
+        "lang": "Indo-European",
+        "refs": "POK:10",
+        "gloss": "to give"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:10",
+          "words": [
+            {"translit": "aěta", "gloss": "share", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "AHD",
+          "words": [
+            {"translit": "dia-ithan", "gloss": "to decide on one's life", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "diet", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

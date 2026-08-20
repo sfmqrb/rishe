@@ -1,0 +1,222 @@
+{
+  "pdf_page": 58,
+  "book_page": 28,
+  "entries": [
+    {
+      "root": {
+        "name": "Ap 2",
+        "lang": "Indo-European",
+        "refs": "POK:50",
+        "gloss": "to take, receive, reach, attain"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "POK:50; SNS:14; FFD:82",
+          "words": [
+            {"translit": "ap 1, af, ab", "gloss": "to receive", "script": null},
+            {"translit": "apayeiti", "gloss": "received", "script": null},
+            {"translit": "abi-âp, abi-âf", "gloss": "to detain", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "BQT:2254; SNS:14",
+          "words": [
+            {"translit": "apâm, avâm", "gloss": "loan, something received.", "script": null}
+          ],
+          "note": "HRN:31 does not agree with this derivation",
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "SNS:14; BQT:2254; AEF:173",
+          "words": [
+            {"translit": "vâm", "gloss": "loan", "script": "وام"},
+            {"translit": "avâm", "gloss": "loan", "script": "اوام"}
+          ],
+          "script_extra": "فام ۲، آوام",
+          "note": null,
+          "quote": {
+            "text": "درم خواست فام از پی شهریار - برو انجمن شد بسی مایه دار",
+            "poet": "Ferdowsî"
+          }
+        },
+        {
+          "id": 4,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "FFD:82",
+          "words": [
+            {"translit": "ayâf, ayâb", "gloss": "to find", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Persian",
+          "refs": "BQT:2419; FFD:82",
+          "words": [
+            {"translit": "yâftan", "gloss": "to find", "script": "یافتن"},
+            {"translit": "yâbîdan", "gloss": "to find", "script": "یابیدن"}
+          ],
+          "script_extra": "یافت، یاب",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "POK:50; AHD; KLN:22,24,96",
+          "words": [
+            {"translit": "apere", "gloss": "to bind, attach, reach", "script": null},
+            {"translit": "aptus", "gloss": "fit, suited", "script": null},
+            {"translit": "ad-apt-are", "gloss": "to fit, adapt", "script": null},
+            {"translit": "ad-eptus", "gloss": "reached", "script": null},
+            {"translit": "apex", "gloss": "something, reached, apex", "script": null},
+            {"translit": "co-apere", "gloss": "bond together, couple", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "English",
+          "refs": "AHD; KLN:96",
+          "words": [
+            {"translit": "apt, aptitude", "gloss": null, "script": null},
+            {"translit": "adapt, adept, inept", "gloss": null, "script": null},
+            {"translit": "apex, attitude", "gloss": null, "script": null},
+            {"translit": "couple", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Apâ",
+        "redirect": "Apo"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Apânk",
+        "lang": "Avestan",
+        "refs": "SYN:873",
+        "gloss": "turned backwards, north"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "SYN:870; BQT:99; FSF:58",
+          "words": [
+            {"translit": "apâxtar", "gloss": "north, north star", "script": null},
+            {"translit": "axtar", "gloss": "star", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:99; FSF:58",
+          "words": [
+            {"translit": "bâxtar", "gloss": "north", "script": "باختر"},
+            {"translit": "axtar", "gloss": "star, fate", "script": "اختر"}
+          ],
+          "script_extra": "اخترشناس",
+          "note": "IEC:260 links \"axtar\" to \"setareh: star\". See root \"Ster 2\"",
+          "quote": {
+            "text": "نبینم همی اختر خویش بد - ندانم چرا برسرم بد رسد",
+            "poet": "Ferdowsî"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "MON5:275; BQT:297",
+          "words": [
+            {"translit": "bâxtri, bâxr, balx", "gloss": "a city north of the ancient Iran", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Persian",
+          "refs": "MON5:247",
+          "words": [
+            {"translit": "balx", "gloss": "an ancient city in Iran famous for its rose-red ruby gems", "script": "بلخ"}
+          ],
+          "script_extra": "بلخش، بدخشان",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Arabic",
+          "refs": "AHD:101",
+          "words": [
+            {"translit": "balaxš", "gloss": "ruby", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "Old French",
+          "refs": "AHD:101",
+          "words": [
+            {"translit": "balais", "gloss": "ruby", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "English",
+          "refs": "AHD:101",
+          "words": [
+            {"translit": "balas", "gloss": "a rose-red gem", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 8,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:39",
+          "words": [
+            {"translit": "anxar, `ngr", "gloss": "star", "script": null}
+          ],
+          "note": "This may be a cognate rather than a derivative of the Avestan \"apânk\"",
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

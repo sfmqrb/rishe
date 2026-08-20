@@ -1,0 +1,67 @@
+{
+  "pdf_page": 32,
+  "book_page": 2,
+  "entries": [
+    {
+      "root": {
+        "name": "Ab 1, Ap 1",
+        "lang": "Indo-European",
+        "refs": "POK:1",
+        "gloss": "water"
+      },
+      "part": 2,
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan / Pahlavi",
+          "refs": "KLN:2",
+          "words": [
+            {"translit": "âp", "gloss": "water", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "HRN:1; AEF:2",
+          "words": [
+            {"translit": "âb", "gloss": "glitter (as on water surface)", "script": "آب ۲"},
+            {"translit": "âberŭ", "gloss": "\"facial shine\", good reputation", "script": "آبرو"},
+            {"translit": "âftâb", "gloss": "\"glitter shine\", sun", "script": "آفتاب"}
+          ],
+          "note": null,
+          "quote": {
+            "text": "چو آمد به برج حمل آفتاب - جهان گشت با فرّ و آیین و آب",
+            "poet": "Ferdowsî"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Arabic",
+          "refs": "AFM:7; FVF:11",
+          "words": [
+            {"translit": "âb-bahâ", "gloss": "\"glittering shine\", elegance", "script": null},
+            {"translit": "abboha", "gloss": "magnificence, elegance", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Persian",
+          "refs": "MON:131",
+          "words": [
+            {"translit": "obbohat", "gloss": "elegance", "script": "أبهت"}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

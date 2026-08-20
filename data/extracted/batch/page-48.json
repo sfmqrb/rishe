@@ -1,0 +1,64 @@
+{
+  "pdf_page": 48,
+  "book_page": 18,
+  "entries": [
+    {
+      "root": {
+        "name": "Al 4, Âlĕiô, Âleŭos",
+        "lang": "Indo-European",
+        "refs": "POK:27; AHD:1505; IEC:14",
+        "gloss": "to wander, roam, rove"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "IEC:14",
+          "words": [
+            {"translit": "âvâreh", "gloss": "homeless, wanderer, exiled", "script": "آواره"}
+          ],
+          "script_extra": "آوار",
+          "note": null,
+          "quote": {
+            "text": "هوای کوی تو از سر نمی رود ما را - غریب را دل آواره در وطن باشد",
+            "poet": "Hâfez"
+          }
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "AHD:1505",
+          "words": [
+            {"translit": "ulâre", "gloss": "to wander", "script": null},
+            {"translit": "amb-ulâre", "gloss": "to walk around", "script": null, "see": ["Ambhi"]},
+            {"translit": "ex-ul", "gloss": "wandering outside, exile", "script": null, "see": ["Ei"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "alley, preamble, ambulate, exile", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Âlĕiô",
+        "redirect": "Al 4"
+      },
+      "nodes": []
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+<title>Wordroots</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans:wght@500;700;800&family=Vazirmatn:wght@400;700&family=Amiri:ital@0;1&display=swap">
+<style>
+  :root {
+    --bg: #f6f1e5;
+    --panel: #fdfaf3;
+    --panel-2: #f0e9d8;
+    --ink: #2a2318;
+    --muted: #7d7261;
+    --line: #ddd3bd;
+    --accent: #26619c;
+    --accent-ink: #fdfaf3;
+    --fam-iranian: #14807a;
+    --fam-ie: #26619c;
+    --fam-semitic: #a03d36;
+    --fam-turkic: #6d7a2e;
+    --fam-other: #6e6353;
+    --quote-bg: #f1ead9;
+    --shadow: 0 1px 3px rgba(42,35,24,.10), 0 8px 24px rgba(42,35,24,.06);
+    --serif: "Spectral", Georgia, serif;
+    --sans: "Alegreya Sans", "Segoe UI", sans-serif;
+    --fa: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
+    --fa-verse: "Amiri", "Vazirmatn", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151b26;
+      --panel: #1d2534;
+      --panel-2: #232d40;
+      --ink: #ece4d2;
+      --muted: #98917f;
+      --line: #2e3950;
+      --accent: #78aede;
+      --accent-ink: #10151f;
+      --fam-iranian: #43bfae;
+      --fam-ie: #78aede;
+      --fam-semitic: #dd8a76;
+      --fam-turkic: #a9b45e;
+      --fam-other: #9a917f;
+      --quote-bg: #1a2130;
+      --shadow: 0 1px 3px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.25);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151b26;
+    --panel: #1d2534;
+    --panel-2: #232d40;
+    --ink: #ece4d2;
+    --muted: #98917f;
+    --line: #2e3950;
+    --accent: #78aede;
+    --accent-ink: #10151f;
+    --fam-iranian: #43bfae;
+    --fam-ie: #78aede;
+    --fam-semitic: #dd8a76;
+    --fam-turkic: #a9b45e;
+    --fam-other: #9a917f;
+    --quote-bg: #1a2130;
+    --shadow: 0 1px 3px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #app { display: flex; flex-direction: column; height: 100vh; }
+
+  header.bar {
+    display: flex; align-items: baseline; gap: 14px;
+    padding: 12px 20px 10px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel);
+    flex-wrap: wrap;
+  }
+  .wordmark { display: flex; align-items: baseline; gap: 10px; }
+  .wordmark .lat-name { font-family: var(--serif); font-weight: 700; font-size: 23px; letter-spacing: .01em; }
+  .wordmark .lat-name::first-letter { color: var(--accent); }
+  .tagline { font-family: var(--serif); font-style: italic; color: var(--muted); font-size: 14px; }
+  header .spacer { flex: 1; }
+
+  .layout { display: flex; flex: 1; min-height: 0; }
+
+  aside {
+    width: 300px; min-width: 240px;
+    border-right: 1px solid var(--line);
+    background: var(--panel);
+    display: flex; flex-direction: column;
+  }
+  .searchbox { padding: 12px; border-bottom: 1px solid var(--line); }
+  .searchbox input {
+    width: 100%;
+    font-family: var(--fa);
+    font-size: 15px;
+    padding: 8px 12px;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  .searchbox input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+  .list { overflow-y: auto; flex: 1; padding: 6px 0 20px; }
+  .list-head {
+    font-family: var(--sans); font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--muted); padding: 12px 14px 4px;
+  }
+  .rootitem, .hit {
+    display: block; width: 100%; text-align: left;
+    background: none; border: none; cursor: pointer;
+    padding: 7px 14px; color: var(--ink);
+    font-family: var(--serif); font-size: 15px;
+    border-left: 3px solid transparent;
+  }
+  .rootitem:hover, .hit:hover { background: var(--panel-2); }
+  .rootitem:focus-visible, .hit:focus-visible, .seechip:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .rootitem.active { border-left-color: var(--accent); background: var(--panel-2); }
+  .rootitem .rname { font-weight: 700; }
+  .rootitem .rlang { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
+  .rootitem .rgloss { display: block; font-style: italic; color: var(--muted); font-size: 13px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hit .h-word { font-weight: 700; }
+  .hit .h-fa { font-family: var(--fa); float: right; direction: rtl; }
+  .hit .h-meta { display: block; font-size: 12.5px; color: var(--muted); font-style: italic; }
+  .nores { padding: 16px 14px; color: var(--muted); font-style: italic; }
+
+  main { flex: 1; overflow: auto; padding: 26px 34px 80px; }
+  .chart { max-width: 980px; }
+
+  .rootcard {
+    background: var(--ink); color: var(--bg);
+    border-radius: 10px; padding: 14px 20px 12px;
+    box-shadow: var(--shadow);
+    display: inline-block; min-width: 320px; max-width: 100%;
+  }
+  :root[data-theme="dark"] .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); }
+  }
+  .rootcard .r-lang { font-family: var(--sans); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; opacity: .75; }
+  .rootcard .r-name { font-family: var(--sans); font-weight: 800; font-size: 26px; letter-spacing: .02em; }
+  .rootcard .r-gloss { font-style: italic; font-size: 15px; opacity: .9; max-width: 60ch; }
+  .rootcard .r-refs, .node .refs { font-family: var(--sans); font-size: 11px; letter-spacing: .08em; color: inherit; opacity: .55; }
+  .part-note { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 10px 2px 0; }
+
+  .children { margin-left: 22px; padding-left: 22px; border-left: 2px solid var(--line); }
+  .chart > .children { margin-top: 10px; }
+  .node { position: relative; margin: 14px 0; }
+  .node::before {
+    content: ""; position: absolute; left: -22px; top: 22px;
+    width: 16px; height: 2px; background: var(--line);
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    display: inline-block; min-width: 280px; max-width: 100%;
+    overflow: hidden;
+  }
+  .card .head {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 6px 14px 5px;
+    border-bottom: 1px solid var(--line);
+    border-left: 4px solid var(--famc, var(--fam-other));
+    background: color-mix(in srgb, var(--famc, var(--fam-other)) 7%, var(--panel));
+  }
+  .card .lang { font-family: var(--sans); font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--famc, var(--fam-other)); }
+  .card .body { padding: 8px 14px 10px; }
+  .wordrow { display: flex; align-items: baseline; gap: 8px 14px; flex-wrap: wrap; margin: 2px 0; }
+  .w-lat { font-weight: 700; font-size: 16.5px; }
+  .w-gloss { font-style: italic; color: var(--muted); font-size: 14.5px; }
+  .w-fa { font-family: var(--fa); font-size: 18px; direction: rtl; margin-left: auto; padding-left: 10px; }
+  .fa-extra { font-family: var(--fa); direction: rtl; text-align: right; color: var(--muted); font-size: 16px; margin-top: 2px; }
+  .seechip {
+    font-family: var(--sans); font-size: 11.5px; font-weight: 700; letter-spacing: .06em;
+    color: var(--accent); background: none;
+    border: 1px solid var(--accent); border-radius: 999px;
+    padding: 0 8px 1px; cursor: pointer; vertical-align: 2px;
+  }
+  .seechip:hover { background: var(--accent); color: var(--accent-ink); }
+  .seechip[disabled] { opacity: .45; cursor: default; }
+  .seechip[disabled]:hover { background: none; color: var(--accent); }
+  .note { font-size: 13.5px; font-style: italic; color: var(--muted); max-width: 58ch; margin-top: 6px; }
+  .quote {
+    background: var(--quote-bg);
+    border-radius: 8px;
+    padding: 8px 14px 6px;
+    margin-top: 8px;
+  }
+  .quote .verse {
+    font-family: var(--fa-verse);
+    font-size: 19px; line-height: 2;
+    direction: rtl; text-align: right;
+  }
+  .quote .poet { font-family: var(--sans); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  mark { background: color-mix(in srgb, var(--accent) 25%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
+
+  .iconbtn {
+    font-family: var(--sans); font-size: 12.5px; font-weight: 700; letter-spacing: .06em;
+    color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px;
+    padding: 3px 12px; cursor: pointer;
+  }
+  .iconbtn:hover { color: var(--accent); border-color: var(--accent); }
+  .iconbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .tog {
+    font-family: var(--sans); font-size: 11px; font-weight: 700;
+    color: var(--muted); background: var(--panel-2);
+    border-radius: 999px; padding: 0 8px; margin-left: auto;
+    user-select: none; white-space: nowrap;
+  }
+  .card .head.has-kids { cursor: pointer; }
+  .card .head.has-kids:hover .tog { color: var(--accent); }
+  .node.collapsed > .children { display: none; }
+  .node.collapsed > .card { opacity: .92; }
+  .pageref { margin-top: 30px; font-family: var(--sans); font-size: 12px; color: var(--muted); letter-spacing: .05em; }
+  .empty { color: var(--muted); font-style: italic; padding: 60px 0; text-align: center; }
+
+  @media (max-width: 760px) {
+    .layout { flex-direction: column; }
+    aside { width: 100%; max-height: 40vh; border-right: none; border-bottom: 1px solid var(--line); }
+    main { padding: 18px 14px 60px; }
+    .children { margin-left: 10px; padding-left: 14px; }
+    .node::before { left: -14px; width: 10px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .card, .rootcard { transition: box-shadow .15s ease; }
+  }
+</style>
+
+<div id="app">
+  <header class="bar">
+    <span class="wordmark"><span class="lat-name">Wordroots</span></span>
+    <span class="tagline">tracing Persian &amp; English words to their common roots — after Ali Nourai’s dictionary</span>
+    <span class="spacer"></span>
+    <span class="tagline" id="count"></span>
+    <button class="iconbtn" id="rand" type="button">Random root</button>
+    <button class="iconbtn" id="theme" type="button" title="Cycle color theme">Theme</button>
+  </header>
+  <div class="layout">
+    <aside>
+      <div class="searchbox">
+        <input id="q" type="search" placeholder="Search a word — emerald, barq, برق…" autocomplete="off" aria-label="Search words and roots">
+      </div>
+      <nav class="list" id="list" aria-label="Roots"></nav>
+    </aside>
+    <main id="main"><div class="empty">Select a root, or search for a word.</div></main>
+  </div>
+</div>
+
+<script>
+window.ETYM_DATA = /*__DATA__*/;
+(function () {
+  "use strict";
+  const IRANIAN = new Set(["persian","avestan","pahlavi","old persian","middle persian","sogdian","kurdish","ossetic","parthian","indo-scythian","indo-schythian","old iranian","baluchi","tajik"]);
+  const IE = new Set(["indo-european","english","greek","latin","french","old french","german","germanic","old english","middle english","sanskrit","spanish","italian","portuguese","russian","armenian","dutch","norwegian","swedish","danish","old norse","gothic","hittite","tokharian","lithuanian","polish","celtic","irish","welsh","hindustani","hindi","urdu","bengali","romanian","czech","slavic","old slavic","church slavonic","prakrit","pali","frankish","old high german","middle high german","middle low german","middle dutch","provençal","provencal","norman french","anglo-french","medieval latin","late latin","vulgar latin","new latin","modern latin"]);
+  const SEMITIC = new Set(["semitic","arabic","hebrew","akkadian","aramaic","syriac","phoenician","assyrian","babylonian","ethiopian","egyptian"]);
+  const TURKIC = new Set(["turkish","turkic","altaic","mongolian","tatar","uighur","chagatai","ottoman turkish"]);
+  function famOf(lang) {
+    if (!lang) return "other";
+    const parts = String(lang).toLowerCase().split("/").map(s => s.trim());
+    for (const p of parts) {
+      if (IRANIAN.has(p)) return "iranian";
+      if (SEMITIC.has(p)) return "semitic";
+      if (TURKIC.has(p)) return "turkic";
+      if (IE.has(p)) return "ie";
+    }
+    return "other";
+  }
+  const FAMVAR = { iranian: "var(--fam-iranian)", ie: "var(--fam-ie)", semitic: "var(--fam-semitic)", turkic: "var(--fam-turkic)", other: "var(--fam-other)" };
+
+  const pages = (window.ETYM_DATA && window.ETYM_DATA.pages) || [];
+  const all = [];
+  pages.forEach(pg => (pg.entries || []).forEach(e => {
+    if (!e.root || !e.root.name) return;
+    e._page = pg.book_page;
+    all.push(e);
+  }));
+
+  function normFa(s) {
+    return String(s).replace(/[ً-ْٰـ]/g, "")
+      .replace(/[يئ]/g, "ی").replace(/ك/g, "ک").replace(/[أإآ]/g, "ا").replace(/ة/g, "ه");
+  }
+  function normLat(s) {
+    return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  }
+  const groups = [];
+  const gByKey = {};
+  all.filter(e => !e.root.redirect).forEach(e => {
+    const key = normLat(e.root.name) + "|" + normLat(e.root.lang || "");
+    if (key in gByKey) groups[gByKey[key]].entries.push(e);
+    else { gByKey[key] = groups.length; groups.push({ root: e.root, entries: [e] }); }
+  });
+  groups.forEach(g => g.entries.sort((a, b) => (a.part || 1) - (b.part || 1)));
+  groups.sort((a, b) => a.root.name.localeCompare(b.root.name));
+
+  const index = [];
+  groups.forEach((g, ei) => {
+    index.push({ ei, kind: "root", lat: normLat(g.root.name), fa: "", label: g.root.name, sub: g.root.gloss || "", lang: g.root.lang || "" });
+    g.entries.forEach(e => (e.nodes || []).forEach(n => (n.words || []).forEach(w => {
+      index.push({
+        ei, kind: "word",
+        lat: normLat((w.translit || "") + " " + (w.gloss || "")),
+        fa: normFa((w.script || "") + " " + (n.script_extra || "")),
+        label: w.translit || w.script || "?", faLabel: w.script || "",
+        sub: (w.gloss ? w.gloss + " · " : "") + (n.lang || "") + " → root " + g.root.name,
+        lang: n.lang || ""
+      });
+    })));
+  });
+
+  const $list = document.getElementById("list");
+  const $main = document.getElementById("main");
+  const $q = document.getElementById("q");
+  document.getElementById("count").textContent =
+    groups.length + " roots · " + index.filter(i => i.kind === "word").length + " words";
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+  let activeEi = -1;
+  function renderList(filter) {
+    $list.innerHTML = "";
+    if (!filter) {
+      const h = document.createElement("div"); h.className = "list-head"; h.textContent = "Roots"; $list.appendChild(h);
+      groups.forEach((g, ei) => {
+        const b = document.createElement("button");
+        b.className = "rootitem" + (ei === activeEi ? " active" : "");
+        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(g.root.lang || "") + "</span>" +
+          (g.root.gloss ? '<span class="rgloss">' + esc(g.root.gloss) + "</span>" : "");
+        b.addEventListener("click", () => { show(ei); });
+        $list.appendChild(b);
+      });
+      return;
+    }
+    const ql = normLat(filter), qf = normFa(filter);
+    const hits = index.filter(it => (ql && it.lat.includes(ql)) || (qf && it.fa && it.fa.includes(qf))).slice(0, 80);
+    const h = document.createElement("div"); h.className = "list-head";
+    h.textContent = hits.length ? "Matches" : ""; $list.appendChild(h);
+    if (!hits.length) { const d = document.createElement("div"); d.className = "nores"; d.textContent = "Nothing found."; $list.appendChild(d); return; }
+    hits.forEach(it => {
+      const b = document.createElement("button"); b.className = "hit";
+      b.innerHTML = '<span class="h-word">' + esc(it.label) + "</span>" +
+        (it.faLabel ? '<span class="h-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
+        '<span class="h-meta">' + esc(it.sub) + "</span>";
+      b.addEventListener("click", () => { show(it.ei, filter); });
+      $list.appendChild(b);
+    });
+  }
+
+  const byName = {};
+  groups.forEach((g, ei) => {
+    const full = normLat(g.root.name);
+    byName[full] = ei;
+    full.split(",").map(s => s.trim()).forEach(n => { if (n && !(n in byName)) byName[n] = ei; });
+  });
+  const redirects = {};
+  all.filter(e => e.root.redirect).forEach(e => {
+    normLat(e.root.name).split(",").map(s => s.trim()).forEach(n => { if (n) redirects[n] = normLat(e.root.redirect); });
+  });
+  function findRoot(name) {
+    let n = normLat(name).trim();
+    for (let hop = 0; hop < 4; hop++) {
+      if (n in byName) return byName[n];
+      if (n in redirects) { n = redirects[n]; continue; }
+      break;
+    }
+    const k = Object.keys(byName).find(k2 => k2.startsWith(n) || n.startsWith(k2));
+    return k === undefined ? -1 : byName[k];
+  }
+
+  function hi(text, needle) {
+    if (!needle) return esc(text);
+    const t = String(text);
+    const nl = normLat(t), nn = normLat(needle);
+    let i = nl.indexOf(nn);
+    if (i < 0) { const nf = normFa(t), qf = normFa(needle); i = qf ? nf.indexOf(qf) : -1; if (i < 0) return esc(t); return esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + qf.length)) + "</mark>" + esc(t.slice(i + qf.length)); }
+    return esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + nn.length)) + "</mark>" + esc(t.slice(i + nn.length));
+  }
+
+  function seeChips(arr) {
+    if (!arr || !arr.length) return "";
+    return arr.map(s => {
+      const t = findRoot(s);
+      return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? " disabled title=\"root not in this preview\"" : "") + ">☞ " + esc(s) + "</button>";
+    }).join(" ");
+  }
+
+  function nodeHtml(e, n, needle, nDesc) {
+    const fam = FAMVAR[famOf(n.lang)];
+    let words = "";
+    (n.words || []).forEach(w => {
+      words += '<div class="wordrow">' +
+        (w.translit ? '<span class="w-lat">' + hi(w.translit, needle) + "</span>" : "") +
+        (w.gloss ? '<span class="w-gloss">' + hi(w.gloss, needle) + "</span>" : "") +
+        seeChips(w.see) +
+        (w.script ? '<span class="w-fa" lang="fa">' + hi(w.script, needle) + "</span>" : "") +
+        "</div>";
+    });
+    const extra = n.script_extra ? '<div class="fa-extra" lang="fa">' + hi(n.script_extra, needle) + "</div>" : "";
+    const note = n.note ? '<div class="note">' + esc(n.note) + "</div>" : "";
+    const quote = n.quote && n.quote.text
+      ? '<div class="quote"><div class="verse" lang="fa">' + esc(n.quote.text) + '</div>' +
+        (n.quote.poet ? '<div class="poet">' + esc(n.quote.poet) + "</div>" : "") + "</div>"
+      : "";
+    return '<div class="card" style="--famc:' + fam + '">' +
+      '<div class="head' + (nDesc ? ' has-kids" role="button" tabindex="0" aria-expanded="true' : '') + '">' +
+      '<span class="lang">' + esc(n.lang || "?") + "</span>" +
+      (n.refs ? '<span class="refs">' + esc(n.refs) + "</span>" : "") +
+      (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") + "</div>" +
+      '<div class="body">' + words + extra + note + quote + "</div></div>";
+  }
+
+  function show(ei, needle) {
+    activeEi = ei;
+    const g = groups[ei];
+    if (!g) return;
+    const r = g.root;
+    let html = '<div class="chart"><div class="rootcard">' +
+      '<div class="r-lang">' + esc(r.lang || "") + "</div>" +
+      '<div class="r-name">' + esc(r.name) + "</div>" +
+      (r.gloss ? '<div class="r-gloss">' + esc(r.gloss) + "</div>" : "") +
+      (r.refs ? '<div class="r-refs">' + esc(r.refs) + "</div>" : "") +
+      "</div>";
+    g.entries.forEach((e, i) => {
+      const kids = {};
+      (e.nodes || []).forEach(n => { const p = n.parent || 0; (kids[p] = kids[p] || []).push(n); });
+      const desc = id => (kids[id] || []).reduce((s, n) => s + 1 + desc(n.id), 0);
+      const branch = pid => {
+        const c = kids[pid];
+        if (!c || !c.length) return "";
+        return '<div class="children">' + c.map(n =>
+          '<div class="node">' + nodeHtml(e, n, needle, desc(n.id)) + branch(n.id) + "</div>").join("") + "</div>";
+      };
+      if (g.entries.length > 1) html += '<div class="part-note">Part ' + esc(e.part || i + 1) + "</div>";
+      html += branch(0);
+    });
+    html += '<div class="pageref">Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p. ' +
+      esc(g.entries.map(e => e._page).join(", ")) + "</div></div>";
+    $main.innerHTML = html;
+    $main.scrollTop = 0;
+    if (!$q.value) renderList("");
+    $main.querySelectorAll(".seechip[data-goto]").forEach(b => {
+      b.addEventListener("click", () => { const t = findRoot(b.dataset.goto); if (t >= 0) { $q.value = ""; renderList(""); show(t); } });
+    });
+    suppressHash = true;
+    location.hash = "r=" + encodeURIComponent(r.name);
+  }
+
+  $main.addEventListener("click", ev => {
+    if (ev.target.closest(".seechip")) return;
+    const h = ev.target.closest(".head.has-kids");
+    if (!h) return;
+    const node = h.closest(".node");
+    const closed = node.classList.toggle("collapsed");
+    h.setAttribute("aria-expanded", String(!closed));
+    const t = h.querySelector(".tog");
+    if (t) t.textContent = (closed ? "▸ " : "▾ ") + t.textContent.slice(2);
+  });
+  $main.addEventListener("keydown", ev => {
+    if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("has-kids")) {
+      ev.preventDefault(); ev.target.click();
+    }
+  });
+
+  const THEME_LABEL = { "": "Theme: Auto", dark: "Theme: Dark", light: "Theme: Light" };
+  const $theme = document.getElementById("theme");
+  let themePref = "";
+  try { themePref = localStorage.getItem("wr-theme") || ""; } catch (e) {}
+  function applyTheme() {
+    if (themePref) document.documentElement.setAttribute("data-theme", themePref);
+    else document.documentElement.removeAttribute("data-theme");
+    $theme.textContent = THEME_LABEL[themePref] || THEME_LABEL[""];
+  }
+  $theme.addEventListener("click", () => {
+    themePref = themePref === "" ? "dark" : themePref === "dark" ? "light" : "";
+    try { localStorage.setItem("wr-theme", themePref); } catch (e) {}
+    applyTheme();
+  });
+  applyTheme();
+
+  document.getElementById("rand").addEventListener("click", () => {
+    if (!groups.length) return;
+    $q.value = ""; renderList("");
+    show(Math.floor(Math.random() * groups.length));
+  });
+
+  let suppressHash = false;
+  function openFromHash() {
+    const m = location.hash.match(/^#r=(.+)$/);
+    if (!m) return false;
+    const t = findRoot(decodeURIComponent(m[1]));
+    if (t >= 0) { show(t); return true; }
+    return false;
+  }
+  window.addEventListener("hashchange", () => {
+    if (suppressHash) { suppressHash = false; return; }
+    openFromHash();
+  });
+
+  $q.addEventListener("input", () => renderList($q.value.trim()));
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "/" && document.activeElement !== $q) { ev.preventDefault(); $q.focus(); }
+  });
+
+  renderList("");
+  if (!openFromHash() && groups.length) show(0);
+})();
+</script>
