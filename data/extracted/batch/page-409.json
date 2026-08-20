@@ -1,0 +1,125 @@
+{
+  "pdf_page": 409,
+  "book_page": 379,
+  "entries": [
+    {
+      "root": {
+        "name": "Pulâka",
+        "lang": "Sanskrit",
+        "refs": "KLN:1185",
+        "gloss": "ball of rice"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "KLN:1185; HJB:710; MON:810",
+          "words": [
+            {"translit": "polow", "gloss": "cooked rice", "script": "پلو ( پلاو ، پلا )"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Turkish",
+          "refs": "KLN:1185; DEV:186",
+          "words": [
+            {"translit": "pilâw", "gloss": "cooked rice", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "English",
+          "refs": "LKT:132",
+          "words": [
+            {"translit": "pilau, pilaf, pilaff", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 2,
+          "lang": "French",
+          "refs": "DEV:186",
+          "words": [
+            {"translit": "pilau", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Pwt",
+        "lang": "Sogdian",
+        "refs": "SOD:332; SLW:94",
+        "gloss": "Buddha, also used to mean an idol. According to SLW:94, this word has a Chinese / Indian root."
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "BQT",
+          "words": [
+            {"translit": "bôt", "gloss": "idol", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:472; BQT:234; SLW:94",
+          "words": [
+            {"translit": "bot", "gloss": "idol", "script": "بُت ( بت پرست )"},
+            {"translit": "bot-kadeh", "gloss": "idol house, prayer house", "script": "بتکده ( بتخانه )"}
+          ],
+          "note": "See \"Bheu 3\" for another possible root.",
+          "quote": {
+            "text": "این همه جنگ و جدل حاصل کوته نظری است - گر نظر پاک کنی کعبه و بتخانه یکیست",
+            "poet": "Emâd Khorâsânî"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Hindustani",
+          "refs": null,
+          "words": [],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Portuguese",
+          "refs": null,
+          "words": [],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "English",
+          "refs": "SKT:366; LKT:30; AID:233",
+          "words": [
+            {"translit": "pagoda", "gloss": "prayer house", "script": null}
+          ],
+          "note": "See HJB:652 for a discussion on this word.",
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

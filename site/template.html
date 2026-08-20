@@ -2,21 +2,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans:wght@500;700;800&family=Vazirmatn:wght@400;700&family=Amiri:ital@0;1&display=swap">
 <style>
   :root {
-    --bg: #f6f1e5;
-    --panel: #fdfaf3;
-    --panel-2: #f0e9d8;
-    --ink: #2a2318;
-    --muted: #7d7261;
-    --line: #ddd3bd;
-    --accent: #26619c;
-    --accent-ink: #fdfaf3;
-    --fam-iranian: #14807a;
-    --fam-ie: #26619c;
-    --fam-semitic: #a03d36;
-    --fam-turkic: #6d7a2e;
-    --fam-other: #6e6353;
-    --quote-bg: #f1ead9;
-    --shadow: 0 1px 3px rgba(42,35,24,.10), 0 8px 24px rgba(42,35,24,.06);
+    --bg: #e9e1cc;
+    --panel: #f2ecdb;
+    --panel-2: #e0d6ba;
+    --ink: #33291a;
+    --muted: #7c6f55;
+    --line: #cfc3a0;
+    --accent: #2a5d97;
+    --accent-ink: #f4efe1;
+    --gold: #9a7422;
+    --gold-soft: #b98f31;
+    --fam-iranian: #058e7d;
+    --fam-ie: #2a5d97;
+    --fam-semitic: #ab3f26;
+    --fam-turkic: #8a6f1c;
+    --fam-other: #7c4f9e;
+    --quote-bg: #e9dfc2;
+    --shadow: 0 1px 3px rgba(51,41,26,.12), 0 8px 24px rgba(51,41,26,.07);
     --serif: "Spectral", Georgia, serif;
     --sans: "Alegreya Sans", "Segoe UI", sans-serif;
     --fa: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
@@ -24,39 +26,43 @@
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #151b26;
-      --panel: #1d2534;
-      --panel-2: #232d40;
-      --ink: #ece4d2;
-      --muted: #98917f;
-      --line: #2e3950;
-      --accent: #78aede;
-      --accent-ink: #10151f;
-      --fam-iranian: #43bfae;
-      --fam-ie: #78aede;
-      --fam-semitic: #dd8a76;
-      --fam-turkic: #a9b45e;
-      --fam-other: #9a917f;
-      --quote-bg: #1a2130;
-      --shadow: 0 1px 3px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.25);
+      --bg: #17130c;
+      --panel: #201a11;
+      --panel-2: #2b2314;
+      --ink: #e9ddc0;
+      --muted: #9c8d6c;
+      --line: #3b3220;
+      --accent: #c9a353;
+      --accent-ink: #1c160d;
+      --gold: #c9a353;
+      --gold-soft: #a5882c;
+      --fam-iranian: #1fa896;
+      --fam-ie: #5b93d6;
+      --fam-semitic: #cc6a4b;
+      --fam-turkic: #a5882c;
+      --fam-other: #b078dd;
+      --quote-bg: #191510;
+      --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
     }
   }
   :root[data-theme="dark"] {
-    --bg: #151b26;
-    --panel: #1d2534;
-    --panel-2: #232d40;
-    --ink: #ece4d2;
-    --muted: #98917f;
-    --line: #2e3950;
-    --accent: #78aede;
-    --accent-ink: #10151f;
-    --fam-iranian: #43bfae;
-    --fam-ie: #78aede;
-    --fam-semitic: #dd8a76;
-    --fam-turkic: #a9b45e;
-    --fam-other: #9a917f;
-    --quote-bg: #1a2130;
-    --shadow: 0 1px 3px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.25);
+    --bg: #17130c;
+    --panel: #201a11;
+    --panel-2: #2b2314;
+    --ink: #e9ddc0;
+    --muted: #9c8d6c;
+    --line: #3b3220;
+    --accent: #c9a353;
+    --accent-ink: #1c160d;
+    --gold: #c9a353;
+    --gold-soft: #a5882c;
+    --fam-iranian: #1fa896;
+    --fam-ie: #5b93d6;
+    --fam-semitic: #cc6a4b;
+    --fam-turkic: #a5882c;
+    --fam-other: #b078dd;
+    --quote-bg: #191510;
+    --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; }
@@ -68,23 +74,46 @@
     font-size: 16px;
     line-height: 1.5;
   }
-  #app { display: flex; flex-direction: column; height: 100vh; }
-
+  #app { display: flex; flex-direction: column; height: 100vh; position: relative; }
+  #frieze {
+    position: fixed; left: 0; right: 0; bottom: 0; height: 110px;
+    pointer-events: none; opacity: .13; z-index: 0;
+    background-repeat: repeat-x; background-position: bottom left;
+  }
   header.bar {
     display: flex; align-items: baseline; gap: 14px;
-    padding: 12px 20px 10px;
-    border-bottom: 1px solid var(--line);
+    padding: 10px 20px 0;
+    border-bottom: 2px solid var(--gold-soft);
     background: var(--panel);
-    flex-wrap: wrap;
+    flex-wrap: wrap; position: relative; z-index: 2;
   }
-  .wordmark { display: flex; align-items: baseline; gap: 10px; }
   .wordmark .lat-name { font-family: var(--serif); font-weight: 700; font-size: 23px; letter-spacing: .01em; }
-  .wordmark .lat-name::first-letter { color: var(--accent); }
-  .tagline { font-family: var(--serif); font-style: italic; color: var(--muted); font-size: 14px; }
+  .wordmark .lat-name::first-letter { color: var(--gold); }
+  .tagline { font-style: italic; color: var(--muted); font-size: 13.5px; }
   header .spacer { flex: 1; }
+  nav.tabs { display: flex; gap: 2px; align-self: flex-end; flex-wrap: wrap; }
+  nav.tabs button {
+    font-family: var(--sans); font-weight: 700; font-size: 12.5px; letter-spacing: .12em; text-transform: uppercase;
+    background: none; border: none; border-bottom: 3px solid transparent;
+    color: var(--muted); cursor: pointer; padding: 8px 12px 9px;
+  }
+  nav.tabs button:hover { color: var(--ink); }
+  nav.tabs button.on { color: var(--ink); border-bottom-color: var(--gold); }
+  nav.tabs button:focus-visible, .iconbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .hdr-tools { display: flex; gap: 8px; align-items: center; padding-bottom: 8px; }
+  .iconbtn {
+    font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: .06em;
+    color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px;
+    padding: 3px 12px; cursor: pointer;
+  }
+  .iconbtn:hover { color: var(--accent); border-color: var(--accent); }
+  .count-note { font-family: var(--sans); font-size: 12px; color: var(--muted); letter-spacing: .04em; }
 
-  .layout { display: flex; flex: 1; min-height: 0; }
+  .view { flex: 1; min-height: 0; display: none; position: relative; z-index: 1; }
+  .view.on { display: flex; }
 
+  /* ============ ROOTS VIEW ============ */
+  #view-roots { flex-direction: row; }
   aside {
     width: 300px; min-width: 240px;
     border-right: 1px solid var(--line);
@@ -92,19 +121,14 @@
     display: flex; flex-direction: column;
   }
   .searchbox { padding: 12px; border-bottom: 1px solid var(--line); }
-  .searchbox input {
-    width: 100%;
-    font-family: var(--fa);
-    font-size: 15px;
-    padding: 8px 12px;
-    color: var(--ink);
-    background: var(--bg);
-    border: 1px solid var(--line);
-    border-radius: 8px;
+  .searchbox input, .pick input {
+    width: 100%; font-family: var(--fa); font-size: 15px;
+    padding: 8px 12px; color: var(--ink);
+    background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
   }
-  .searchbox input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
-  .list { overflow-y: auto; flex: 1; padding: 6px 0 20px; }
-  .list-head {
+  .searchbox input:focus, .pick input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+  .list { overflow-y: auto; flex: 1; padding: 6px 0 120px; }
+  .list-head, .panel-head {
     font-family: var(--sans); font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
     color: var(--muted); padding: 12px 14px 4px;
   }
@@ -117,7 +141,7 @@
   }
   .rootitem:hover, .hit:hover { background: var(--panel-2); }
   .rootitem:focus-visible, .hit:focus-visible, .seechip:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-  .rootitem.active { border-left-color: var(--accent); background: var(--panel-2); }
+  .rootitem.active { border-left-color: var(--gold); background: var(--panel-2); }
   .rootitem .rname { font-weight: 700; }
   .rootitem .rlang { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
   .rootitem .rgloss { display: block; font-style: italic; color: var(--muted); font-size: 13px;
@@ -127,24 +151,23 @@
   .hit .h-meta { display: block; font-size: 12.5px; color: var(--muted); font-style: italic; }
   .nores { padding: 16px 14px; color: var(--muted); font-style: italic; }
 
-  main { flex: 1; overflow: auto; padding: 26px 34px 80px; }
+  main { flex: 1; overflow: auto; padding: 26px 34px 140px; }
   .chart { max-width: 980px; }
-
   .rootcard {
     background: var(--ink); color: var(--bg);
     border-radius: 10px; padding: 14px 20px 12px;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow); border-top: 3px solid var(--gold);
     display: inline-block; min-width: 320px; max-width: 100%;
   }
-  :root[data-theme="dark"] .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); }
+  :root[data-theme="dark"] .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); border-top: 3px solid var(--gold); }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); }
+    :root:not([data-theme="light"]) .rootcard { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); border-top: 3px solid var(--gold); }
   }
   .rootcard .r-lang { font-family: var(--sans); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; opacity: .75; }
   .rootcard .r-name { font-family: var(--sans); font-weight: 800; font-size: 26px; letter-spacing: .02em; }
   .rootcard .r-gloss { font-style: italic; font-size: 15px; opacity: .9; max-width: 60ch; }
   .rootcard .r-refs, .node .refs { font-family: var(--sans); font-size: 11px; letter-spacing: .08em; color: inherit; opacity: .55; }
-  .part-note { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 10px 2px 0; }
+  .part-note { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 14px 2px 0; }
 
   .children { margin-left: 22px; padding-left: 22px; border-left: 2px solid var(--line); }
   .chart > .children { margin-top: 10px; }
@@ -166,7 +189,7 @@
     padding: 6px 14px 5px;
     border-bottom: 1px solid var(--line);
     border-left: 4px solid var(--famc, var(--fam-other));
-    background: color-mix(in srgb, var(--famc, var(--fam-other)) 7%, var(--panel));
+    background: color-mix(in srgb, var(--famc, var(--fam-other)) 8%, var(--panel));
   }
   .card .lang { font-family: var(--sans); font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--famc, var(--fam-other)); }
   .card .body { padding: 8px 14px 10px; }
@@ -185,27 +208,10 @@
   .seechip[disabled] { opacity: .45; cursor: default; }
   .seechip[disabled]:hover { background: none; color: var(--accent); }
   .note { font-size: 13.5px; font-style: italic; color: var(--muted); max-width: 58ch; margin-top: 6px; }
-  .quote {
-    background: var(--quote-bg);
-    border-radius: 8px;
-    padding: 8px 14px 6px;
-    margin-top: 8px;
-  }
-  .quote .verse {
-    font-family: var(--fa-verse);
-    font-size: 19px; line-height: 2;
-    direction: rtl; text-align: right;
-  }
+  .quote { background: var(--quote-bg); border-radius: 8px; padding: 8px 14px 6px; margin-top: 8px; }
+  .quote .verse { font-family: var(--fa-verse); font-size: 19px; line-height: 2; direction: rtl; text-align: right; }
   .quote .poet { font-family: var(--sans); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
-  mark { background: color-mix(in srgb, var(--accent) 25%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
-
-  .iconbtn {
-    font-family: var(--sans); font-size: 12.5px; font-weight: 700; letter-spacing: .06em;
-    color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px;
-    padding: 3px 12px; cursor: pointer;
-  }
-  .iconbtn:hover { color: var(--accent); border-color: var(--accent); }
-  .iconbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  mark { background: color-mix(in srgb, var(--gold) 32%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
   .tog {
     font-family: var(--sans); font-size: 11px; font-weight: 700;
     color: var(--muted); background: var(--panel-2);
@@ -215,16 +221,135 @@
   .card .head.has-kids { cursor: pointer; }
   .card .head.has-kids:hover .tog { color: var(--accent); }
   .node.collapsed > .children { display: none; }
-  .node.collapsed > .card { opacity: .92; }
   .pageref { margin-top: 30px; font-family: var(--sans); font-size: 12px; color: var(--muted); letter-spacing: .05em; }
   .empty { color: var(--muted); font-style: italic; padding: 60px 0; text-align: center; }
 
+  /* ============ MAP VIEW ============ */
+  #view-map { flex-direction: column; }
+  #mapwrap { flex: 1; position: relative; min-height: 0; }
+  #mapcanvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; }
+  #mapcanvas.dragging { cursor: grabbing; }
+  .maplegend {
+    position: absolute; top: 14px; right: 16px;
+    background: color-mix(in srgb, var(--panel) 88%, transparent);
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 10px 14px; font-family: var(--sans); font-size: 12.5px;
+    box-shadow: var(--shadow);
+  }
+  .maplegend .lg-title { font-weight: 800; letter-spacing: .1em; text-transform: uppercase; font-size: 10.5px; color: var(--muted); margin-bottom: 5px; }
+  .maplegend .lg-row { display: flex; align-items: center; gap: 7px; margin: 3px 0; }
+  .maplegend .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .mapheadline {
+    position: absolute; left: 20px; top: 14px; max-width: 420px; pointer-events: none;
+  }
+  .mapheadline h1 { font-family: var(--serif); font-weight: 700; font-size: 26px; margin: 0 0 4px; text-wrap: balance; }
+  .mapheadline p { margin: 0; color: var(--muted); font-size: 14px; font-style: italic; }
+  #maptip {
+    position: absolute; display: none; pointer-events: none; z-index: 5;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: 7px 12px; box-shadow: var(--shadow); max-width: 260px;
+  }
+  #maptip .t-name { font-weight: 700; }
+  #maptip .t-sub { font-family: var(--sans); font-size: 12px; color: var(--muted); }
+  .maphint { position: absolute; bottom: 118px; left: 20px; font-family: var(--sans); font-size: 12px; color: var(--muted); pointer-events: none; }
+
+  /* ============ PATH VIEW ============ */
+  #view-path { flex-direction: column; overflow: auto; }
+  .pathpanel { max-width: 880px; margin: 0 auto; padding: 30px 24px 160px; width: 100%; }
+  .path-title { font-family: var(--serif); font-weight: 700; font-size: 26px; margin: 0 0 2px; }
+  .path-sub { color: var(--muted); font-style: italic; margin: 0 0 18px; }
+  .pickrow { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 8px; }
+  .pick { position: relative; flex: 1; min-width: 220px; }
+  .pick label { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 4px; }
+  .sugg {
+    position: absolute; left: 0; right: 0; top: 100%; z-index: 6;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 0 0 10px 10px;
+    box-shadow: var(--shadow); max-height: 300px; overflow-y: auto; display: none;
+  }
+  .sugg button { display: block; width: 100%; text-align: left; background: none; border: none; cursor: pointer;
+    padding: 6px 12px; font-family: var(--serif); font-size: 14.5px; color: var(--ink); }
+  .sugg button:hover, .sugg button.sel { background: var(--panel-2); }
+  .sugg .s-fa { font-family: var(--fa); float: right; direction: rtl; }
+  .sugg .s-meta { display: block; font-size: 12px; color: var(--muted); font-style: italic; }
+  .swapbtn { align-self: flex-end; }
+  .famouspairs { margin: 6px 0 20px; }
+  .famouspairs .pairchip {
+    font-family: var(--sans); font-size: 12.5px; font-weight: 700;
+    background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 999px;
+    padding: 3px 12px; cursor: pointer; margin: 0 6px 6px 0;
+  }
+  .famouspairs .pairchip:hover { border-color: var(--gold); color: var(--gold); }
+  .verdict {
+    border-left: 4px solid var(--gold); background: var(--panel);
+    border-radius: 0 10px 10px 0; box-shadow: var(--shadow);
+    padding: 12px 18px; margin: 12px 0 22px; font-size: 17px;
+  }
+  .verdict b { color: var(--gold); }
+  .pathchain { position: relative; }
+  .pstep { display: flex; gap: 14px; align-items: stretch; }
+  .prail { width: 34px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+  .prail .pdot { width: 12px; height: 12px; border-radius: 50%; background: var(--famc, var(--muted)); margin-top: 20px; flex-shrink: 0; border: 2px solid var(--bg); box-shadow: 0 0 0 2px var(--famc, var(--muted)); }
+  .prail .pline { width: 2px; flex: 1; background: var(--line); }
+  .pstep:last-child .prail .pline { display: none; }
+  .pcard { margin: 6px 0 16px; flex: 1; min-width: 0; }
+  .pcard .card { display: block; max-width: 620px; }
+  .p-root .rootcard { min-width: 0; display: block; max-width: 620px; }
+  .nopath { padding: 20px; color: var(--muted); font-style: italic; }
+
+  /* ============ FLOWS VIEW ============ */
+  #view-flows { flex-direction: column; overflow: auto; }
+  .flowpanel { max-width: 1020px; margin: 0 auto; padding: 30px 24px 160px; width: 100%; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 30px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; box-shadow: var(--shadow); }
+  .tile .t-num { font-family: var(--serif); font-weight: 700; font-size: 30px; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .tile .t-lbl { font-family: var(--sans); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
+  .sankeywrap { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 18px 20px; overflow-x: auto; }
+  .sankeywrap h2, .flowpanel h2 { font-family: var(--serif); font-size: 20px; font-weight: 700; margin: 0 0 2px; }
+  .chart-sub { color: var(--muted); font-style: italic; font-size: 13.5px; margin: 0 0 14px; }
+  .sk-label { font-family: var(--sans); font-size: 12.5px; font-weight: 700; fill: var(--ink); }
+  .sk-sub { font-family: var(--sans); font-size: 11px; fill: var(--muted); }
+  .flowtable { margin-top: 16px; font-family: var(--sans); font-size: 13px; }
+  .flowtable summary { cursor: pointer; color: var(--muted); }
+  .flowtable table { border-collapse: collapse; margin-top: 8px; }
+  .flowtable td, .flowtable th { border: 1px solid var(--line); padding: 4px 10px; text-align: left; font-variant-numeric: tabular-nums; }
+
+  /* ============ JOURNEY VIEW ============ */
+  #view-journey { flex-direction: column; overflow: auto; }
+  .jpanel { max-width: 1020px; margin: 0 auto; padding: 26px 24px 160px; width: 100%; }
+  .jhead { display: flex; gap: 14px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 14px; }
+  .jhead .pick { max-width: 340px; }
+  #jmapwrap { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 8px; overflow-x: auto; }
+  #jmap { display: block; width: 100%; height: auto; }
+  .j-land { fill: color-mix(in srgb, var(--ink) 7%, var(--panel)); stroke: color-mix(in srgb, var(--ink) 22%, var(--panel)); stroke-width: 1.4; stroke-linejoin: round; }
+  .j-sea { fill: none; }
+  .j-route { fill: none; stroke: var(--gold); stroke-width: 2.4; stroke-dasharray: 7 6; stroke-linecap: round; }
+  .j-station { fill: var(--panel); stroke-width: 2.5; }
+  .j-stlbl { font-family: var(--sans); font-size: 12.5px; font-weight: 700; fill: var(--ink); }
+  .j-stsub { font-family: var(--sans); font-size: 10.5px; fill: var(--muted); }
+  .j-walker { fill: var(--gold); stroke: var(--panel); stroke-width: 2; }
+  .jcaption {
+    min-height: 58px; margin-top: 10px; padding: 10px 16px;
+    background: var(--panel); border-left: 4px solid var(--gold);
+    border-radius: 0 10px 10px 0; box-shadow: var(--shadow);
+  }
+  .jcaption .jc-era { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .jcaption .jc-word { font-size: 18px; }
+  .jcaption .jc-word .fa-part { font-family: var(--fa); direction: rtl; }
+  .jtimeline { margin-top: 12px; position: relative; height: 46px; }
+  .jt-axis { position: absolute; left: 0; right: 0; top: 20px; height: 2px; background: var(--line); }
+  .jt-tick { position: absolute; top: 12px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--panel); border: 2.5px solid var(--muted); }
+  .jt-tick.done { border-color: var(--gold); background: var(--gold); }
+  .jt-lbl { position: absolute; top: 30px; transform: translateX(-50%); font-family: var(--sans); font-size: 10.5px; color: var(--muted); white-space: nowrap; }
+  .jstations { margin-top: 14px; }
+  .jstations .card { display: block; max-width: 640px; margin-bottom: 10px; }
+
   @media (max-width: 760px) {
-    .layout { flex-direction: column; }
+    #view-roots { flex-direction: column; }
     aside { width: 100%; max-height: 40vh; border-right: none; border-bottom: 1px solid var(--line); }
-    main { padding: 18px 14px 60px; }
+    main { padding: 18px 14px 140px; }
     .children { margin-left: 10px; padding-left: 14px; }
     .node::before { left: -14px; width: 10px; }
+    .mapheadline { max-width: 60%; }
   }
   @media (prefers-reduced-motion: no-preference) {
     .card, .rootcard { transition: box-shadow .15s ease; }
@@ -232,15 +357,39 @@
 </style>
 
 <div id="app">
+  <div id="frieze" aria-hidden="true"></div>
   <header class="bar">
     <span class="wordmark"><span class="lat-name">Wordroots</span></span>
     <span class="tagline">tracing Persian &amp; English words to their common roots — after Ali Nourai’s dictionary</span>
     <span class="spacer"></span>
-    <span class="tagline" id="count"></span>
-    <button class="iconbtn" id="rand" type="button">Random root</button>
-    <button class="iconbtn" id="theme" type="button" title="Cycle color theme">Theme</button>
+    <nav class="tabs" aria-label="Views">
+      <button data-v="map">Map</button>
+      <button data-v="roots">Roots</button>
+      <button data-v="path">Pathfinder</button>
+      <button data-v="flows">Flows</button>
+      <button data-v="journey">Journey</button>
+    </nav>
+    <span class="hdr-tools">
+      <span class="count-note" id="count"></span>
+      <button class="iconbtn" id="rand" type="button">Random root</button>
+      <button class="iconbtn" id="theme" type="button" title="Cycle color theme">Theme</button>
+    </span>
   </header>
-  <div class="layout">
+
+  <section class="view" id="view-map">
+    <div id="mapwrap">
+      <canvas id="mapcanvas"></canvas>
+      <div class="mapheadline">
+        <h1>The root constellation of Persian</h1>
+        <p>Every star is a root family; its size is the number of words that grew from it. Click a root to open its tree.</p>
+      </div>
+      <div class="maplegend" id="maplegend"></div>
+      <div id="maptip"></div>
+      <div class="maphint">drag to pan · scroll to zoom · click a root to open it</div>
+    </div>
+  </section>
+
+  <section class="view" id="view-roots">
     <aside>
       <div class="searchbox">
         <input id="q" type="search" placeholder="Search a word — emerald, barq, برق…" autocomplete="off" aria-label="Search words and roots">
@@ -248,16 +397,60 @@
       <nav class="list" id="list" aria-label="Roots"></nav>
     </aside>
     <main id="main"><div class="empty">Select a root, or search for a word.</div></main>
-  </div>
+  </section>
+
+  <section class="view" id="view-path">
+    <div class="pathpanel">
+      <h1 class="path-title">How are these two words related?</h1>
+      <p class="path-sub">Pick any two words — Persian or English — and walk the road between them.</p>
+      <div class="pickrow">
+        <div class="pick" id="pickA"><label>First word</label><input type="text" placeholder="barq · برق" autocomplete="off"><div class="sugg"></div></div>
+        <button class="iconbtn swapbtn" id="swapAB" title="Swap the two words">⇄ swap</button>
+        <div class="pick" id="pickB"><label>Second word</label><input type="text" placeholder="emerald" autocomplete="off"><div class="sugg"></div></div>
+      </div>
+      <div class="famouspairs" id="famouspairs"></div>
+      <div id="pathout"></div>
+    </div>
+  </section>
+
+  <section class="view" id="view-flows">
+    <div class="flowpanel">
+      <h1 class="path-title">Where Persian words come from</h1>
+      <p class="path-sub">Counted from the root charts extracted so far.</p>
+      <div class="tiles" id="tiles"></div>
+      <div class="sankeywrap">
+        <h2>Borrowing routes into Persian</h2>
+        <p class="chart-sub">Each ribbon is a group of Persian words: from the family of their ultimate root, through the route they travelled.</p>
+        <div id="sankey"></div>
+        <details class="flowtable"><summary>View as table</summary><div id="flowtablebody"></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-journey">
+    <div class="jpanel">
+      <h1 class="path-title">A word’s journey</h1>
+      <p class="path-sub">Choose a word and watch it travel across lands and centuries.</p>
+      <div class="jhead">
+        <div class="pick" id="pickJ"><label>Word</label><input type="text" placeholder="paradise · پردیس" autocomplete="off"><div class="sugg"></div></div>
+        <button class="iconbtn" id="jplay" type="button">▶ Replay</button>
+      </div>
+      <div id="jmapwrap"><svg id="jmap" viewBox="0 0 1000 560" role="img" aria-label="Schematic map of the word's journey"></svg></div>
+      <div class="jcaption" id="jcaption"><span class="jc-era">Pick a word above</span></div>
+      <div class="jtimeline" id="jtimeline"></div>
+      <details class="flowtable"><summary>All stations as text</summary><div class="jstations" id="jstations"></div></details>
+    </div>
+  </section>
 </div>
 
 <script>
 window.ETYM_DATA = /*__DATA__*/;
 (function () {
   "use strict";
-  const IRANIAN = new Set(["persian","avestan","pahlavi","old persian","middle persian","sogdian","kurdish","ossetic","parthian","indo-scythian","indo-schythian","old iranian","baluchi","tajik"]);
-  const IE = new Set(["indo-european","english","greek","latin","french","old french","german","germanic","old english","middle english","sanskrit","spanish","italian","portuguese","russian","armenian","dutch","norwegian","swedish","danish","old norse","gothic","hittite","tokharian","lithuanian","polish","celtic","irish","welsh","hindustani","hindi","urdu","bengali","romanian","czech","slavic","old slavic","church slavonic","prakrit","pali","frankish","old high german","middle high german","middle low german","middle dutch","provençal","provencal","norman french","anglo-french","medieval latin","late latin","vulgar latin","new latin","modern latin"]);
-  const SEMITIC = new Set(["semitic","arabic","hebrew","akkadian","aramaic","syriac","phoenician","assyrian","babylonian","ethiopian","egyptian"]);
+  /* ---------------- helpers ---------------- */
+  const IRANIAN = new Set(["persian","avestan","pahlavi","old persian","middle persian","sogdian","kurdish","ossetic","parthian","indo-scythian","indo-schythian","old iranian","iranian","baluchi","tajik","khotanese","scythian"]);
+  const IE = new Set(["indo-european","english","greek","latin","french","old french","german","germanic","old english","middle english","sanskrit","spanish","italian","portuguese","russian","armenian","dutch","norwegian","swedish","danish","old norse","gothic","hittite","tokharian","lithuanian","polish","celtic","irish","welsh","hindustani","hindi","urdu","bengali","romanian","czech","slavic","old slavic","old russian","church slavonic","prakrit","pali","frankish","old high german","middle high german","middle low german","middle german","middle dutch","provençal","provencal","norman french","anglo-french","medieval latin","late latin","vulgar latin","new latin","modern latin","middle latin"]);
+  const SEMITIC = new Set(["semitic","arabic","hebrew","akkadian","aramaic","syriac","phoenician","assyrian","babylonian","ethiopian","egyptian","sumerian"]);
   const TURKIC = new Set(["turkish","turkic","altaic","mongolian","tatar","uighur","chagatai","ottoman turkish"]);
   function famOf(lang) {
     if (!lang) return "other";
@@ -271,7 +464,18 @@ window.ETYM_DATA = /*__DATA__*/;
     return "other";
   }
   const FAMVAR = { iranian: "var(--fam-iranian)", ie: "var(--fam-ie)", semitic: "var(--fam-semitic)", turkic: "var(--fam-turkic)", other: "var(--fam-other)" };
+  const FAMLBL = { iranian: "Iranian", ie: "Indo-European", semitic: "Semitic", turkic: "Turkic & Altaic", other: "Other origins" };
+  function famColor(f) { return getComputedStyle(document.documentElement).getPropertyValue("--fam-" + f).trim() || "#888"; }
+  function tokColor(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+  function normFa(s) {
+    return String(s).replace(/[ً-ْٰـ]/g, "")
+      .replace(/[يئ]/g, "ی").replace(/ك/g, "ک").replace(/[أإآ]/g, "ا").replace(/ة/g, "ه");
+  }
+  function normLat(s) { return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---------------- data prep ---------------- */
   const pages = (window.ETYM_DATA && window.ETYM_DATA.pages) || [];
   const all = [];
   pages.forEach(pg => (pg.entries || []).forEach(e => {
@@ -279,14 +483,6 @@ window.ETYM_DATA = /*__DATA__*/;
     e._page = pg.book_page;
     all.push(e);
   }));
-
-  function normFa(s) {
-    return String(s).replace(/[ً-ْٰـ]/g, "")
-      .replace(/[يئ]/g, "ی").replace(/ك/g, "ک").replace(/[أإآ]/g, "ا").replace(/ة/g, "ه");
-  }
-  function normLat(s) {
-    return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  }
   const groups = [];
   const gByKey = {};
   all.filter(e => !e.root.redirect).forEach(e => {
@@ -296,59 +492,12 @@ window.ETYM_DATA = /*__DATA__*/;
   });
   groups.forEach(g => g.entries.sort((a, b) => (a.part || 1) - (b.part || 1)));
   groups.sort((a, b) => a.root.name.localeCompare(b.root.name));
-
-  const index = [];
-  groups.forEach((g, ei) => {
-    index.push({ ei, kind: "root", lat: normLat(g.root.name), fa: "", label: g.root.name, sub: g.root.gloss || "", lang: g.root.lang || "" });
-    g.entries.forEach(e => (e.nodes || []).forEach(n => (n.words || []).forEach(w => {
-      index.push({
-        ei, kind: "word",
-        lat: normLat((w.translit || "") + " " + (w.gloss || "")),
-        fa: normFa((w.script || "") + " " + (n.script_extra || "")),
-        label: w.translit || w.script || "?", faLabel: w.script || "",
-        sub: (w.gloss ? w.gloss + " · " : "") + (n.lang || "") + " → root " + g.root.name,
-        lang: n.lang || ""
-      });
-    })));
+  groups.forEach(g => {
+    g.fam = famOf(g.root.lang);
+    let wc = 0;
+    g.entries.forEach(e => (e.nodes || []).forEach(n => { wc += (n.words || []).length || (n.script_extra ? 1 : 0); }));
+    g.wc = wc;
   });
-
-  const $list = document.getElementById("list");
-  const $main = document.getElementById("main");
-  const $q = document.getElementById("q");
-  document.getElementById("count").textContent =
-    groups.length + " roots · " + index.filter(i => i.kind === "word").length + " words";
-
-  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
-
-  let activeEi = -1;
-  function renderList(filter) {
-    $list.innerHTML = "";
-    if (!filter) {
-      const h = document.createElement("div"); h.className = "list-head"; h.textContent = "Roots"; $list.appendChild(h);
-      groups.forEach((g, ei) => {
-        const b = document.createElement("button");
-        b.className = "rootitem" + (ei === activeEi ? " active" : "");
-        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(g.root.lang || "") + "</span>" +
-          (g.root.gloss ? '<span class="rgloss">' + esc(g.root.gloss) + "</span>" : "");
-        b.addEventListener("click", () => { show(ei); });
-        $list.appendChild(b);
-      });
-      return;
-    }
-    const ql = normLat(filter), qf = normFa(filter);
-    const hits = index.filter(it => (ql && it.lat.includes(ql)) || (qf && it.fa && it.fa.includes(qf))).slice(0, 80);
-    const h = document.createElement("div"); h.className = "list-head";
-    h.textContent = hits.length ? "Matches" : ""; $list.appendChild(h);
-    if (!hits.length) { const d = document.createElement("div"); d.className = "nores"; d.textContent = "Nothing found."; $list.appendChild(d); return; }
-    hits.forEach(it => {
-      const b = document.createElement("button"); b.className = "hit";
-      b.innerHTML = '<span class="h-word">' + esc(it.label) + "</span>" +
-        (it.faLabel ? '<span class="h-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
-        '<span class="h-meta">' + esc(it.sub) + "</span>";
-      b.addEventListener("click", () => { show(it.ei, filter); });
-      $list.appendChild(b);
-    });
-  }
 
   const byName = {};
   groups.forEach((g, ei) => {
@@ -371,6 +520,135 @@ window.ETYM_DATA = /*__DATA__*/;
     return k === undefined ? -1 : byName[k];
   }
 
+  /* word index + path graph */
+  const index = [];
+  const adj = new Map();      // vid -> [vid]
+  const vinfo = new Map();    // vid -> {gi, root:true} | {gi, e, n}
+  const ggEdges = [];         // constellation links between groups
+  function addEdge(a, b) {
+    if (!adj.has(a)) adj.set(a, []);
+    if (!adj.has(b)) adj.set(b, []);
+    adj.get(a).push(b); adj.get(b).push(a);
+  }
+  groups.forEach((g, gi) => {
+    const rv = "g" + gi;
+    vinfo.set(rv, { gi, root: true });
+    index.push({ ei: gi, kind: "root", vid: rv, lat: normLat(g.root.name), fa: "", label: g.root.name, sub: g.root.gloss || "", lang: g.root.lang || "" });
+    g.entries.forEach((e, eIdx) => {
+      const idmap = {};
+      (e.nodes || []).forEach(n => {
+        const nv = "n" + gi + "_" + eIdx + "_" + n.id;
+        idmap[n.id] = nv;
+        vinfo.set(nv, { gi, e, n });
+      });
+      (e.nodes || []).forEach(n => {
+        const nv = idmap[n.id];
+        const p = n.parent || 0;
+        addEdge(nv, p && idmap[p] ? idmap[p] : rv);
+        (n.words || []).forEach((w, wi) => {
+          index.push({
+            ei: gi, kind: "word", vid: nv, wi,
+            lat: normLat((w.translit || "") + " " + (w.gloss || "")),
+            fa: normFa((w.script || "") + " " + (n.script_extra || "")),
+            label: w.translit || w.script || "?", faLabel: w.script || "",
+            sub: (w.gloss ? w.gloss + " · " : "") + (n.lang || "") + " → root " + g.root.name,
+            lang: n.lang || ""
+          });
+          (w.see || []).forEach(s => {
+            const t = findRoot(s);
+            if (t >= 0 && t !== gi) { addEdge(nv, "g" + t); ggEdges.push([gi, t]); }
+          });
+        });
+      });
+    });
+  });
+
+  document.getElementById("count").textContent =
+    groups.length + " roots · " + index.filter(i => i.kind === "word").length + " words";
+
+  function searchIndex(qraw, wordsOnly) {
+    const ql = normLat(qraw), qf = normFa(qraw);
+    if (!ql && !qf) return [];
+    const hits = index.filter(it => (wordsOnly ? it.kind === "word" : true) &&
+      ((ql && it.lat.includes(ql)) || (qf && it.fa && it.fa.includes(qf))));
+    const score = it => {
+      const lbl = normLat(it.label || "");
+      const fal = normFa(it.faLabel || "");
+      if (lbl === ql || (qf && fal === qf)) return 0;
+      if (lbl.split(/[ ,]+/).includes(ql)) return 1;
+      if (lbl.startsWith(ql)) return 2;
+      if (qf && fal.includes(qf)) return 3;
+      return 4;
+    };
+    return hits.sort((a, b) => score(a) - score(b));
+  }
+
+  /* ---------------- view manager ---------------- */
+  const views = ["map", "roots", "path", "flows", "journey"];
+  const tabs = document.querySelectorAll("nav.tabs button");
+  let curView = "";
+  const onShowView = {};
+  function setView(v, skipHash) {
+    if (!views.includes(v)) v = "map";
+    curView = v;
+    views.forEach(x => document.getElementById("view-" + x).classList.toggle("on", x === v));
+    tabs.forEach(b => b.classList.toggle("on", b.dataset.v === v));
+    if (onShowView[v]) onShowView[v]();
+    if (!skipHash) setHash();
+  }
+  tabs.forEach(b => b.addEventListener("click", () => setView(b.dataset.v)));
+
+  let suppressHash = false;
+  let hashExtra = "";
+  function setHash() {
+    suppressHash = true;
+    location.hash = curView + (hashExtra ? "/" + hashExtra : "");
+  }
+  window.addEventListener("hashchange", () => {
+    if (suppressHash) { suppressHash = false; return; }
+    routeFromHash();
+  });
+  function routeFromHash() {
+    const h = decodeURIComponent(location.hash.replace(/^#/, ""));
+    const [v, rest] = [h.split("/")[0], h.split("/").slice(1).join("/")];
+    if (v === "roots" && rest) { const t = findRoot(rest); if (t >= 0) { show(t, undefined, true); } }
+    setView(views.includes(v) ? v : "map", true);
+  }
+
+  /* ---------------- ROOTS view (explorer) ---------------- */
+  const $list = document.getElementById("list");
+  const $main = document.getElementById("main");
+  const $q = document.getElementById("q");
+  let activeEi = -1;
+
+  function renderList(filter) {
+    $list.innerHTML = "";
+    if (!filter) {
+      const h = document.createElement("div"); h.className = "list-head"; h.textContent = "Roots"; $list.appendChild(h);
+      groups.forEach((g, ei) => {
+        const b = document.createElement("button");
+        b.className = "rootitem" + (ei === activeEi ? " active" : "");
+        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(g.root.lang || "") + "</span>" +
+          (g.root.gloss ? '<span class="rgloss">' + esc(g.root.gloss) + "</span>" : "");
+        b.addEventListener("click", () => { show(ei); });
+        $list.appendChild(b);
+      });
+      return;
+    }
+    const hits = searchIndex(filter, false).slice(0, 80);
+    const h = document.createElement("div"); h.className = "list-head";
+    h.textContent = hits.length ? "Matches" : ""; $list.appendChild(h);
+    if (!hits.length) { const d = document.createElement("div"); d.className = "nores"; d.textContent = "Nothing found."; $list.appendChild(d); return; }
+    hits.forEach(it => {
+      const b = document.createElement("button"); b.className = "hit";
+      b.innerHTML = '<span class="h-word">' + esc(it.label) + "</span>" +
+        (it.faLabel ? '<span class="h-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
+        '<span class="h-meta">' + esc(it.sub) + "</span>";
+      b.addEventListener("click", () => { show(it.ei, filter); });
+      $list.appendChild(b);
+    });
+  }
+
   function hi(text, needle) {
     if (!needle) return esc(text);
     const t = String(text);
@@ -379,15 +657,13 @@ window.ETYM_DATA = /*__DATA__*/;
     if (i < 0) { const nf = normFa(t), qf = normFa(needle); i = qf ? nf.indexOf(qf) : -1; if (i < 0) return esc(t); return esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + qf.length)) + "</mark>" + esc(t.slice(i + qf.length)); }
     return esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + nn.length)) + "</mark>" + esc(t.slice(i + nn.length));
   }
-
   function seeChips(arr) {
     if (!arr || !arr.length) return "";
     return arr.map(s => {
       const t = findRoot(s);
-      return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? " disabled title=\"root not in this preview\"" : "") + ">☞ " + esc(s) + "</button>";
+      return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? " disabled title=\"root not yet extracted\"" : "") + ">☞ " + esc(s) + "</button>";
     }).join(" ");
   }
-
   function nodeHtml(e, n, needle, nDesc) {
     const fam = FAMVAR[famOf(n.lang)];
     let words = "";
@@ -412,18 +688,19 @@ window.ETYM_DATA = /*__DATA__*/;
       (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") + "</div>" +
       '<div class="body">' + words + extra + note + quote + "</div></div>";
   }
-
-  function show(ei, needle) {
-    activeEi = ei;
-    const g = groups[ei];
-    if (!g) return;
-    const r = g.root;
-    let html = '<div class="chart"><div class="rootcard">' +
+  function rootCardHtml(r) {
+    return '<div class="rootcard">' +
       '<div class="r-lang">' + esc(r.lang || "") + "</div>" +
       '<div class="r-name">' + esc(r.name) + "</div>" +
       (r.gloss ? '<div class="r-gloss">' + esc(r.gloss) + "</div>" : "") +
       (r.refs ? '<div class="r-refs">' + esc(r.refs) + "</div>" : "") +
       "</div>";
+  }
+  function show(ei, needle, skipHash) {
+    activeEi = ei;
+    const g = groups[ei];
+    if (!g) return;
+    let html = '<div class="chart">' + rootCardHtml(g.root);
     g.entries.forEach((e, i) => {
       const kids = {};
       (e.nodes || []).forEach(n => { const p = n.parent || 0; (kids[p] = kids[p] || []).push(n); });
@@ -445,10 +722,9 @@ window.ETYM_DATA = /*__DATA__*/;
     $main.querySelectorAll(".seechip[data-goto]").forEach(b => {
       b.addEventListener("click", () => { const t = findRoot(b.dataset.goto); if (t >= 0) { $q.value = ""; renderList(""); show(t); } });
     });
-    suppressHash = true;
-    location.hash = "r=" + encodeURIComponent(r.name);
+    hashExtra = g.root.name;
+    if (!skipHash) { curView = "roots"; setView("roots", true); setHash(); }
   }
-
   $main.addEventListener("click", ev => {
     if (ev.target.closest(".seechip")) return;
     const h = ev.target.closest(".head.has-kids");
@@ -464,15 +740,692 @@ window.ETYM_DATA = /*__DATA__*/;
       ev.preventDefault(); ev.target.click();
     }
   });
+  $q.addEventListener("input", () => renderList($q.value.trim()));
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "/" && curView === "roots" && document.activeElement !== $q) { ev.preventDefault(); $q.focus(); }
+  });
+  document.getElementById("rand").addEventListener("click", () => {
+    if (!groups.length) return;
+    $q.value = ""; renderList("");
+    show(Math.floor(Math.random() * groups.length));
+  });
+  onShowView.roots = () => { hashExtra = activeEi >= 0 ? groups[activeEi].root.name : ""; };
 
+  /* ---------------- suggestion picker ---------------- */
+  function makePicker(rootEl, onPick) {
+    const input = rootEl.querySelector("input");
+    const list = rootEl.querySelector(".sugg");
+    let items = [];
+    function close() { list.style.display = "none"; }
+    function render() {
+      list.innerHTML = "";
+      items.forEach(it => {
+        const b = document.createElement("button");
+        b.innerHTML = '<span>' + esc(it.label) + '</span>' +
+          (it.faLabel ? '<span class="s-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
+          '<span class="s-meta">' + esc(it.sub) + "</span>";
+        b.addEventListener("mousedown", ev => {
+          ev.preventDefault();
+          input.value = it.label + (it.faLabel ? " · " + it.faLabel : "");
+          close();
+          onPick(it);
+        });
+        list.appendChild(b);
+      });
+      list.style.display = items.length ? "block" : "none";
+    }
+    input.addEventListener("input", () => {
+      const q = input.value.trim();
+      items = q ? searchIndex(q, true).slice(0, 12) : [];
+      render();
+    });
+    input.addEventListener("blur", () => setTimeout(close, 150));
+    input.addEventListener("focus", () => { if (items.length) list.style.display = "block"; });
+    return {
+      set(it) { input.value = it.label + (it.faLabel ? " · " + it.faLabel : ""); onPick(it); },
+      input
+    };
+  }
+
+  /* ---------------- PATHFINDER ---------------- */
+  const $pathout = document.getElementById("pathout");
+  let pA = null, pB = null;
+  const pickA = makePicker(document.getElementById("pickA"), it => { pA = it; runPath(); });
+  const pickB = makePicker(document.getElementById("pickB"), it => { pB = it; runPath(); });
+  document.getElementById("swapAB").addEventListener("click", () => {
+    const t = pA; pA = pB; pB = t;
+    const ti = pickA.input.value; pickA.input.value = pickB.input.value; pickB.input.value = ti;
+    runPath();
+  });
+  function bfs(a, b) {
+    if (a === b) return [a];
+    const prev = new Map([[a, null]]);
+    let frontier = [a];
+    while (frontier.length) {
+      const next = [];
+      for (const v of frontier) {
+        for (const w of adj.get(v) || []) {
+          if (prev.has(w)) continue;
+          prev.set(w, v);
+          if (w === b) {
+            const path = [b];
+            let c = b;
+            while (prev.get(c) !== null) { c = prev.get(c); path.push(c); }
+            return path.reverse();
+          }
+          next.push(w);
+        }
+      }
+      frontier = next;
+      if (prev.size > 60000) break;
+    }
+    return null;
+  }
+  function vertexCard(vid, highlight) {
+    const vi = vinfo.get(vid);
+    if (!vi) return "";
+    if (vi.root) {
+      const g = groups[vi.gi];
+      return '<div class="pstep"><div class="prail"><div class="pdot" style="--famc:var(--gold)"></div><div class="pline"></div></div>' +
+        '<div class="pcard p-root">' + rootCardHtml(g.root) + "</div></div>";
+    }
+    const n = vi.n;
+    const fam = FAMVAR[famOf(n.lang)];
+    let words = "";
+    (n.words || []).slice(0, 4).forEach((w, wi) => {
+      const strong = highlight !== undefined && wi === highlight;
+      words += '<div class="wordrow">' +
+        (w.translit ? '<span class="w-lat">' + (strong ? "<mark>" + esc(w.translit) + "</mark>" : esc(w.translit)) + "</span>" : "") +
+        (w.gloss ? '<span class="w-gloss">' + esc(w.gloss) + "</span>" : "") +
+        (w.script ? '<span class="w-fa" lang="fa">' + (strong ? "<mark>" + esc(w.script) + "</mark>" : esc(w.script)) + "</span>" : "") +
+        "</div>";
+    });
+    if (!words && n.script_extra) words = '<div class="fa-extra" lang="fa">' + esc(n.script_extra) + "</div>";
+    return '<div class="pstep"><div class="prail"><div class="pdot" style="--famc:' + fam + '"></div><div class="pline"></div></div>' +
+      '<div class="pcard"><div class="card" style="--famc:' + fam + '">' +
+      '<div class="head"><span class="lang">' + esc(n.lang || "?") + "</span></div>" +
+      '<div class="body">' + words + "</div></div></div></div>";
+  }
+  function runPath() {
+    if (!pA || !pB) return;
+    const path = bfs(pA.vid, pB.vid);
+    if (!path) {
+      $pathout.innerHTML = '<div class="nopath">No recorded road between <b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
+        "</b> in the charts extracted so far — they grow from different roots (" +
+        esc(groups[pA.ei].root.name) + " and " + esc(groups[pB.ei].root.name) + ").</div>";
+      return;
+    }
+    const rootsOn = path.filter(v => vinfo.get(v).root).map(v => groups[vinfo.get(v).gi].root.name);
+    let verdict;
+    if (rootsOn.length === 1) {
+      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are cousins — both grew from the root <b>" +
+        esc(rootsOn[0]) + "</b> (" + esc(groups[vinfo.get(path.find(v => vinfo.get(v).root)).gi].root.lang || "") + ").";
+    } else if (rootsOn.length > 1) {
+      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are related through " + rootsOn.length +
+        " linked roots: <b>" + rootsOn.map(esc).join("</b> ☞ <b>") + "</b>.";
+    } else {
+      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> sit on the same branch.";
+    }
+    let html = '<div class="verdict">' + verdict + " <span style='color:var(--muted)'>(" + (path.length - 1) + " steps)</span></div><div class='pathchain'>";
+    path.forEach(v => {
+      const hlA = v === pA.vid ? pA.wi : undefined;
+      const hl = v === pB.vid ? pB.wi : hlA;
+      html += vertexCard(v, hl);
+    });
+    html += "</div>";
+    $pathout.innerHTML = html;
+  }
+  const FAMOUS = [
+    ["barq", "emerald"], ["pardîs", "paradise"], ["šâh", "checkmate"], ["doxtar", "daughter"],
+    ["mŭš", "muscle"], ["qand", "candy"], ["dorŭğ", "dream"], ["kamar", "camera"],
+    ["gonâh", "nectar"], ["mordan", "murder"], ["hezâr", "kilo"], ["daftar", "literature"]
+  ];
+  (function buildFamous() {
+    const box = document.getElementById("famouspairs");
+    FAMOUS.forEach(([a, b]) => {
+      const ia = searchIndex(a, true)[0], ib = searchIndex(b, true)[0];
+      if (!ia || !ib) return;
+      if (!bfs(ia.vid, ib.vid)) return;
+      const btn = document.createElement("button");
+      btn.className = "pairchip";
+      btn.textContent = ia.label + " ↔ " + ib.label;
+      btn.addEventListener("click", () => { pickA.set(ia); pickB.set(ib); });
+      box.appendChild(btn);
+    });
+  })();
+  onShowView.path = () => {};
+
+  /* ---------------- UNIVERSE MAP ---------------- */
+  const cv = document.getElementById("mapcanvas");
+  const ctx = cv.getContext("2d");
+  const tip = document.getElementById("maptip");
+  let mapNodes = null, mapLinks = null, simFrames = 0, mapReady = false;
+  let cam = { x: 0, y: 0, k: 1 };
+  function mapInit() {
+    const W = 1200, H = 800;
+    const anchors = {
+      ie: [W * .32, H * .40], iranian: [W * .64, H * .34],
+      semitic: [W * .55, H * .68], turkic: [W * .80, H * .58], other: [W * .20, H * .72]
+    };
+    mapNodes = groups.map((g, gi) => {
+      const [ax, ay] = anchors[g.fam];
+      const a = Math.random() * Math.PI * 2, d = 50 + Math.random() * 280;
+      return { gi, x: ax + Math.cos(a) * d, y: ay + Math.sin(a) * d, vx: 0, vy: 0,
+        r: Math.min(26, 3.5 + Math.sqrt(g.wc || 1) * 2.1), fam: g.fam, ax, ay,
+        name: g.root.name, big: false };
+    });
+    const seen = new Set();
+    mapLinks = [];
+    ggEdges.forEach(([a, b]) => {
+      const k = a < b ? a + "-" + b : b + "-" + a;
+      if (seen.has(k)) return;
+      seen.add(k); mapLinks.push([a, b]);
+    });
+    const bySize = mapNodes.slice().sort((a, b) => b.r - a.r);
+    bySize.slice(0, 26).forEach(n => n.big = true);
+    simFrames = reduceMotion ? 0 : 140;
+    for (let i = 0; i < (reduceMotion ? 260 : 60); i++) simStep();
+  }
+  function simStep() {
+    const cell = 60, gridm = new Map();
+    mapNodes.forEach(n => {
+      const k = Math.floor(n.x / cell) + "," + Math.floor(n.y / cell);
+      if (!gridm.has(k)) gridm.set(k, []);
+      gridm.get(k).push(n);
+    });
+    mapNodes.forEach(n => {
+      let fx = (n.ax - n.x) * 0.012, fy = (n.ay - n.y) * 0.012;
+      const cx = Math.floor(n.x / cell), cy = Math.floor(n.y / cell);
+      for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
+        const cellNodes = gridm.get((cx + dx) + "," + (cy + dy));
+        if (!cellNodes) continue;
+        for (const m of cellNodes) {
+          if (m === n) continue;
+          let ddx = n.x - m.x, ddy = n.y - m.y;
+          let d2 = ddx * ddx + ddy * ddy;
+          if (d2 < 1) { ddx = Math.random() - .5; ddy = Math.random() - .5; d2 = 1; }
+          const min = n.r + m.r + 6;
+          if (d2 < min * min * 4) {
+            const d = Math.sqrt(d2);
+            const push = Math.min(4, (min * 2 - d) * 0.06);
+            if (push > 0) { fx += (ddx / d) * push; fy += (ddy / d) * push; }
+          }
+        }
+      }
+      n.vx = (n.vx + fx) * 0.82; n.vy = (n.vy + fy) * 0.82;
+    });
+    mapNodes.forEach(n => { n.x += n.vx; n.y += n.vy; });
+  }
+  function mapResize() {
+    const r = cv.parentElement.getBoundingClientRect();
+    cv.width = r.width * devicePixelRatio;
+    cv.height = r.height * devicePixelRatio;
+  }
+  function worldToScreen(x, y) { return [(x - cam.x) * cam.k, (y - cam.y) * cam.k]; }
+  function mapDraw() {
+    if (!mapNodes) return;
+    const w = cv.width / devicePixelRatio, h = cv.height / devicePixelRatio;
+    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+    const colors = {}; Object.keys(FAMVAR).forEach(f => colors[f] = famColor(f));
+    const gold = tokColor("--gold") || "#b98f31";
+    const inkMuted = tokColor("--muted") || "#888";
+    ctx.save();
+    ctx.translate(-cam.x * cam.k, -cam.y * cam.k);
+    ctx.scale(cam.k, cam.k);
+    ctx.globalAlpha = 0.16;
+    ctx.strokeStyle = gold; ctx.lineWidth = 1 / cam.k;
+    ctx.beginPath();
+    mapLinks.forEach(([a, b]) => {
+      const na = mapNodes[a], nb = mapNodes[b];
+      ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y);
+    });
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+    mapNodes.forEach(n => {
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+      ctx.fillStyle = colors[n.fam];
+      ctx.globalAlpha = 0.88;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    });
+    ctx.fillStyle = inkMuted;
+    ctx.font = "600 " + Math.max(10, 11 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', sans-serif";
+    ctx.textAlign = "center";
+    mapNodes.forEach(n => {
+      if (n.big || cam.k > 1.8) ctx.fillText(n.name, n.x, n.y - n.r - 4);
+    });
+    ctx.restore();
+  }
+  function mapLoop() {
+    if (curView !== "map") return;
+    if (simFrames > 0) { simStep(); simFrames--; }
+    mapDraw();
+    if (simFrames > 0) requestAnimationFrame(mapLoop);
+  }
+  function nodeAt(mx, my) {
+    const wx = mx / cam.k + cam.x, wy = my / cam.k + cam.y;
+    for (let i = mapNodes.length - 1; i >= 0; i--) {
+      const n = mapNodes[i];
+      const dx = wx - n.x, dy = wy - n.y;
+      if (dx * dx + dy * dy < (n.r + 3) * (n.r + 3)) return n;
+    }
+    return null;
+  }
+  let dragging = false, lastM = null, movedDist = 0;
+  cv.addEventListener("mousedown", e => { dragging = true; movedDist = 0; lastM = [e.offsetX, e.offsetY]; cv.classList.add("dragging"); });
+  window.addEventListener("mouseup", () => { dragging = false; cv.classList.remove("dragging"); });
+  cv.addEventListener("mousemove", e => {
+    if (dragging) {
+      cam.x -= (e.offsetX - lastM[0]) / cam.k;
+      cam.y -= (e.offsetY - lastM[1]) / cam.k;
+      movedDist += Math.abs(e.offsetX - lastM[0]) + Math.abs(e.offsetY - lastM[1]);
+      lastM = [e.offsetX, e.offsetY];
+      mapDraw();
+      return;
+    }
+    const n = nodeAt(e.offsetX, e.offsetY);
+    if (n) {
+      const g = groups[n.gi];
+      tip.style.display = "block";
+      tip.style.left = (e.offsetX + 16) + "px";
+      tip.style.top = (e.offsetY + 8) + "px";
+      tip.innerHTML = '<div class="t-name">' + esc(g.root.name) + "</div>" +
+        (g.root.gloss ? '<div style="font-style:italic">' + esc(g.root.gloss) + "</div>" : "") +
+        '<div class="t-sub">' + esc(FAMLBL[g.fam]) + " · " + g.wc + " words</div>";
+      cv.style.cursor = "pointer";
+    } else {
+      tip.style.display = "none";
+      cv.style.cursor = dragging ? "grabbing" : "grab";
+    }
+  });
+  cv.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  cv.addEventListener("click", e => {
+    if (movedDist > 6) return;
+    const n = nodeAt(e.offsetX, e.offsetY);
+    if (n) { show(n.gi); }
+  });
+  cv.addEventListener("wheel", e => {
+    e.preventDefault();
+    const f = e.deltaY < 0 ? 1.14 : 1 / 1.14;
+    const mx = e.offsetX, my = e.offsetY;
+    const wx = mx / cam.k + cam.x, wy = my / cam.k + cam.y;
+    cam.k = Math.min(6, Math.max(0.3, cam.k * f));
+    cam.x = wx - mx / cam.k;
+    cam.y = wy - my / cam.k;
+    mapDraw();
+  }, { passive: false });
+  (function legend() {
+    const lg = document.getElementById("maplegend");
+    lg.innerHTML = '<div class="lg-title">Origin of the root</div>' +
+      Object.keys(FAMLBL).map(f =>
+        '<div class="lg-row"><span class="dot" style="background:' + FAMVAR[f].replace("var(", "").replace(")", "") + ';background:var(--fam-' + f + ')"></span>' +
+        esc(FAMLBL[f]) + " · " + groups.filter(g => g.fam === f).length + "</div>").join("");
+  })();
+  onShowView.map = () => {
+    mapResize();
+    if (!mapReady) {
+      mapInit();
+      const w = cv.width / devicePixelRatio, h = cv.height / devicePixelRatio;
+      cam.k = Math.min(w / 1300, h / 880);
+      cam.x = 600 - w / (2 * cam.k); cam.y = 400 - h / (2 * cam.k);
+      mapReady = true;
+    }
+    requestAnimationFrame(mapLoop);
+  };
+  window.addEventListener("resize", () => { if (curView === "map") { mapResize(); mapDraw(); } });
+
+  /* ---------------- FLOWS ---------------- */
+  const EURO = new Set(["french","old french","latin","medieval latin","late latin","middle latin","vulgar latin","greek","english","old english","italian","spanish","portuguese","russian","german","germanic","dutch"]);
+  const SEMI = new Set(["arabic","aramaic","syriac","akkadian","hebrew","semitic"]);
+  const TURK = new Set(["turkish","turkic","mongolian","altaic","ottoman turkish"]);
+  let flowsBuilt = false;
+  function buildFlows() {
+    if (flowsBuilt) return; flowsBuilt = true;
+    const flows = {}; // origin -> route -> count
+    let perWords = 0, engWords = 0, sharedRoots = 0, perToEng = 0;
+    groups.forEach(g => {
+      const origin = FAMLBL[g.fam];
+      let hasP = false, hasE = false;
+      g.entries.forEach(e => {
+        const byId = {}; (e.nodes || []).forEach(n => byId[n.id] = n);
+        (e.nodes || []).forEach(n => {
+          const lang = String(n.lang || "").toLowerCase();
+          const isP = lang.includes("persian") && !lang.includes("old persian") && !lang.includes("middle persian");
+          const isE = /\benglish\b/.test(lang) && !lang.includes("old english") && !lang.includes("middle english");
+          const wc = (n.words || []).reduce((s, w) => s + (w.translit ? w.translit.split(",").length : 1), 0) || (n.script_extra ? 1 : 0);
+          if (isP) { hasP = true; perWords += wc; }
+          if (isE) { hasE = true; engWords += wc; }
+          if (!isP && !isE) return;
+          // ancestors
+          const chain = [];
+          let p = n.parent || 0, guard = 0;
+          while (p && byId[p] && guard++ < 60) { chain.push(String(byId[p].lang || "").toLowerCase()); p = byId[p].parent || 0; }
+          if (isE && chain.some(l => l.split("/").some(x => IRANIAN.has(x.trim())))) perToEng += wc;
+          if (isP) {
+            const parts = chain.flatMap(l => l.split("/").map(x => x.trim()));
+            let route;
+            if (parts.some(x => SEMI.has(x))) route = "via Arabic & Semitic";
+            else if (parts.some(x => EURO.has(x))) route = "via European languages";
+            else if (parts.some(x => TURK.has(x)) || g.fam === "turkic") route = "via Turkic";
+            else route = "inherited directly";
+            if (g.fam === "semitic" && route === "inherited directly") route = "via Arabic & Semitic";
+            (flows[origin] = flows[origin] || {})[route] = (flows[origin][route] || 0) + wc;
+          }
+        });
+      });
+      if (hasP && hasE) sharedRoots++;
+    });
+    // tiles
+    document.getElementById("tiles").innerHTML = [
+      [groups.length, "root families"],
+      [perWords, "Persian words"],
+      [engWords, "English words"],
+      [sharedRoots, "roots shared by both"],
+      [perToEng, "English words with a Persian ancestor"]
+    ].map(([n, l]) => '<div class="tile"><div class="t-num">' + n.toLocaleString("en") + '</div><div class="t-lbl">' + l + "</div></div>").join("");
+    drawSankey(flows);
+  }
+  function drawSankey(flows) {
+    const origins = ["Indo-European", "Semitic", "Turkic & Altaic", "Iranian", "Other origins"].filter(o => flows[o]);
+    const routeOrder = ["inherited directly", "via Arabic & Semitic", "via European languages", "via Turkic"];
+    const routes = routeOrder.filter(r => origins.some(o => flows[o][r]));
+    const famOfOrigin = { "Indo-European": "ie", "Semitic": "semitic", "Turkic & Altaic": "turkic", "Iranian": "iranian", "Other origins": "other" };
+    const total = origins.reduce((s, o) => s + Object.values(flows[o]).reduce((a, b) => a + b, 0), 0);
+    if (!total) return;
+    const W = 860, H = 430, padY = 14, barW = 14, x0 = 210, x1 = W - 240;
+    const scale = (H - padY * (Math.max(origins.length, routes.length) + 1)) / total;
+    let y = padY;
+    const oPos = {};
+    origins.forEach(o => {
+      const v = Object.values(flows[o]).reduce((a, b) => a + b, 0);
+      oPos[o] = { y, h: v * scale, off: 0, v };
+      y += v * scale + padY;
+    });
+    y = padY;
+    const rPos = {};
+    routes.forEach(r => {
+      const v = origins.reduce((s, o) => s + (flows[o][r] || 0), 0);
+      rPos[r] = { y, h: v * scale, off: 0, v };
+      y += v * scale + padY;
+    });
+    let svg = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block" role="img" aria-label="Sankey diagram of borrowing routes into Persian">';
+    origins.forEach(o => {
+      routeOrder.forEach(r => {
+        const v = flows[o][r]; if (!v) return;
+        const h = v * scale;
+        const sy = oPos[o].y + oPos[o].off, ty = rPos[r].y + rPos[r].off;
+        oPos[o].off += h; rPos[r].off += h;
+        const c = famColor(famOfOrigin[o]);
+        const mx = (x0 + x1) / 2;
+        svg += '<path d="M' + (x0 + barW) + " " + sy + " C" + mx + " " + sy + " " + mx + " " + ty + " " + x1 + " " + ty +
+          " L" + x1 + " " + (ty + h) + " C" + mx + " " + (ty + h) + " " + mx + " " + (sy + h) + " " + (x0 + barW) + " " + (sy + h) +
+          ' Z" fill="' + c + '" opacity="0.45"><title>' + esc(o) + " → " + esc(r) + ": " + v + " words</title></path>";
+      });
+    });
+    origins.forEach(o => {
+      const p = oPos[o], c = famColor(famOfOrigin[o]);
+      svg += '<rect x="' + x0 + '" y="' + p.y + '" width="' + barW + '" height="' + Math.max(2, p.h) + '" rx="4" fill="' + c + '"/>';
+      svg += '<text class="sk-label" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 1) + '" text-anchor="end">' + esc(o) + "</text>";
+      svg += '<text class="sk-sub" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 14) + '" text-anchor="end">' + p.v.toLocaleString("en") + " words</text>";
+    });
+    routes.forEach(r => {
+      const p = rPos[r];
+      svg += '<rect x="' + x1 + '" y="' + p.y + '" width="' + barW + '" height="' + Math.max(2, p.h) + '" rx="4" fill="var(--muted)"/>';
+      svg += '<text class="sk-label" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 1) + '">' + esc(r) + "</text>";
+      svg += '<text class="sk-sub" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 14) + '">' + p.v.toLocaleString("en") + " words</text>";
+    });
+    svg += "</svg>";
+    document.getElementById("sankey").innerHTML = svg;
+    let tbl = "<table><tr><th>Root origin</th>";
+    routes.forEach(r => tbl += "<th>" + esc(r) + "</th>");
+    tbl += "</tr>";
+    origins.forEach(o => {
+      tbl += "<tr><td>" + esc(o) + "</td>";
+      routes.forEach(r => tbl += "<td>" + (flows[o][r] || 0) + "</td>");
+      tbl += "</tr>";
+    });
+    tbl += "</table>";
+    document.getElementById("flowtablebody").innerHTML = tbl;
+  }
+  onShowView.flows = buildFlows;
+
+  /* ---------------- JOURNEY ---------------- */
+  const STATIONS = {
+    "indo-european": [560, 140, -4500, "Pontic Steppe"],
+    "sanskrit": [745, 300, -1200, "India"], "pali": [745, 305, -300, "India"], "prakrit": [745, 305, -300, "India"],
+    "hindustani": [740, 295, 1500, "India"], "hindi": [740, 295, 1600, "India"], "urdu": [735, 290, 1600, "India"],
+    "avestan": [668, 232, -1000, "Bactria"],
+    "old persian": [628, 292, -500, "Persis"],
+    "pahlavi": [618, 278, 300, "Iran"], "middle persian": [618, 278, 300, "Iran"],
+    "persian": [630, 275, 1000, "Iran"],
+    "parthian": [640, 258, -100, "Parthia"], "old iranian": [648, 250, -800, "Iran"], "iranian": [648, 250, -800, "Iran"],
+    "indo-scythian": [690, 210, -200, "Scythia"], "indo-schythian": [690, 210, -200, "Scythia"],
+    "sogdian": [692, 198, 500, "Sogdiana"], "khotanese": [740, 230, 500, "Khotan"],
+    "kurdish": [560, 255, 1400, "Kurdistan"], "baluchi": [670, 310, 1400, "Balochistan"],
+    "semitic": [528, 318, -3000, "Near East"], "akkadian": [552, 298, -2000, "Mesopotamia"],
+    "aramaic": [482, 295, -700, "Levant"], "syriac": [500, 285, 200, "Levant"],
+    "hebrew": [462, 308, -1000, "Judea"], "phoenician": [465, 298, -1000, "Phoenicia"],
+    "arabic": [520, 378, 650, "Arabia"], "egyptian": [440, 392, -2000, "Egypt"], "sumerian": [555, 305, -3000, "Sumer"],
+    "greek": [332, 288, -700, "Greece"], "latin": [287, 318, -100, "Rome"],
+    "medieval latin": [287, 318, 900, "Rome"], "middle latin": [287, 318, 900, "Rome"],
+    "late latin": [287, 318, 400, "Rome"], "vulgar latin": [287, 318, 400, "Rome"], "new latin": [287, 318, 1600, "Rome"],
+    "old french": [217, 253, 1100, "France"], "french": [222, 250, 1650, "France"],
+    "norman french": [200, 230, 1100, "Normandy"], "anglo-french": [190, 205, 1200, "England"],
+    "provençal": [230, 285, 1200, "Provence"], "provencal": [230, 285, 1200, "Provence"],
+    "spanish": [140, 318, 1250, "Iberia"], "portuguese": [108, 325, 1300, "Iberia"], "italian": [282, 330, 1300, "Italy"],
+    "germanic": [272, 208, -300, "Germania"], "german": [277, 203, 1500, "Germany"],
+    "old high german": [277, 208, 900, "Germany"], "middle high german": [277, 208, 1200, "Germany"],
+    "middle low german": [262, 198, 1300, "Germany"], "middle german": [272, 205, 1200, "Germany"],
+    "dutch": [228, 213, 1500, "Low Countries"], "middle dutch": [228, 213, 1300, "Low Countries"], "frankish": [235, 225, 600, "Francia"],
+    "old english": [176, 184, 900, "Britain"], "middle english": [174, 183, 1300, "Britain"], "english": [172, 182, 1600, "England"],
+    "old norse": [282, 118, 950, "Scandinavia"], "norwegian": [270, 110, 1500, "Norway"], "swedish": [300, 115, 1500, "Sweden"], "danish": [258, 165, 1500, "Denmark"], "gothic": [340, 200, 300, "Gothia"],
+    "russian": [520, 138, 1300, "Rus"], "old russian": [505, 145, 1100, "Rus"], "slavic": [420, 195, 700, "Slavic lands"], "old slavic": [420, 195, 700, "Slavic lands"], "church slavonic": [430, 200, 900, "Slavic lands"], "polish": [370, 175, 1300, "Poland"], "lithuanian": [365, 155, 1300, "Baltics"], "czech": [330, 195, 1300, "Bohemia"],
+    "turkish": [432, 252, 1300, "Anatolia"], "ottoman turkish": [432, 252, 1500, "Anatolia"],
+    "turkic": [700, 148, 800, "Turkic Steppe"], "altaic": [755, 140, -500, "Altai"],
+    "mongolian": [782, 148, 1250, "Mongolia"], "tatar": [600, 150, 1300, "Tatary"],
+    "chinese": [878, 222, -500, "China"], "armenian": [502, 248, 400, "Armenia"], "hittite": [445, 240, -1600, "Anatolia"],
+    "celtic": [200, 215, -300, "Gaul"], "irish": [140, 165, 800, "Ireland"], "welsh": [155, 190, 800, "Wales"]
+  };
+  function stationFor(lang) {
+    if (!lang) return null;
+    const parts = String(lang).toLowerCase().split("/").map(s => s.trim());
+    for (const p of parts) if (STATIONS[p]) return { key: p, s: STATIONS[p] };
+    for (const p of parts) for (const k in STATIONS) if (p.includes(k)) return { key: k, s: STATIONS[k] };
+    return null;
+  }
+  function eraLabel(y) { return y < 0 ? Math.abs(y).toLocaleString("en") + " BCE" : y + " CE"; }
+  const LAND = "M95 330 L110 288 L138 252 L152 234 L182 224 L214 210 L248 192 L256 148 L286 96 L330 74 L362 100 L342 150 L302 180 L360 150 L420 112 L560 86 L700 96 L880 120 L948 180 L944 258 L882 300 L820 322 L772 300 L756 368 L722 330 L692 312 L642 330 L602 344 L562 330 L546 398 L502 420 L472 372 L456 340 L450 300 L402 280 L352 284 L332 300 L312 280 L292 290 L302 320 L282 342 L266 316 L252 292 L202 300 L162 320 L122 348 Z";
+  const AFRICA = "M95 372 L200 362 L300 372 L408 380 L446 402 L470 428 L470 560 L60 560 L60 400 Z";
+  const BRITAIN = "M162 196 L156 176 L168 158 L184 166 L190 186 L178 200 Z";
+  let jItem = null, jAnim = null;
+  const pickJ = makePicker(document.getElementById("pickJ"), it => { jItem = it; runJourney(); });
+  function journeyChain(it) {
+    // vertices from root down to the word's node
+    const path = [];
+    let v = it.vid;
+    const seen = new Set();
+    while (v && !seen.has(v)) {
+      seen.add(v);
+      path.push(v);
+      if (vinfo.get(v).root) break;
+      const vi = vinfo.get(v);
+      const p = vi.n.parent || 0;
+      v = p ? "n" + vi.gi + "_" + groups[vi.gi].entries.indexOf(vi.e) + "_" + p : "g" + vi.gi;
+    }
+    return path.reverse();
+  }
+  function runJourney() {
+    if (!jItem) return;
+    if (jAnim) { cancelAnimationFrame(jAnim); jAnim = null; }
+    const chain = journeyChain(jItem);
+    const stops = [];
+    chain.forEach(v => {
+      const vi = vinfo.get(v);
+      const lang = vi.root ? groups[vi.gi].root.lang : vi.n.lang;
+      const st = stationFor(lang);
+      if (!st) return;
+      let word, script, gloss;
+      if (vi.root) { word = groups[vi.gi].root.name; gloss = groups[vi.gi].root.gloss; }
+      else {
+        const w = (v === jItem.vid && vi.n.words[jItem.wi]) ? vi.n.words[jItem.wi] : (vi.n.words || [])[0];
+        word = w ? w.translit : null; script = w ? w.script : (vi.n.script_extra || null); gloss = w ? w.gloss : null;
+      }
+      const last = stops[stops.length - 1];
+      let [x, y, era, place] = st.s;
+      if (last && last.lang === (lang || "?") && Math.abs(last.x - x) < 16 && Math.abs(last.y - y) < 16) {
+        if (word && last.word && word !== last.word) last.word = last.word + " → " + word;
+        if (script && !last.script) last.script = script;
+        if (gloss) last.gloss = gloss;
+        return;
+      }
+      if (last && Math.abs(last.x - x) < 14 && Math.abs(last.y - y) < 14) { x += 18; y -= 14; }
+      stops.push({ x, y, era, place, lang: lang || "?", word, script, gloss, fam: famOf(lang) });
+    });
+    if (!stops.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
+    stops.sort((a, b) => 0); // keep derivation order
+    // svg
+    let svg = '<path class="j-land" d="' + LAND + '"/>' +
+      '<path class="j-land" d="' + AFRICA + '"/>' +
+      '<path class="j-land" d="' + BRITAIN + '"/>';
+    let routeD = "";
+    stops.forEach((s, i) => {
+      if (i === 0) routeD = "M" + s.x + " " + s.y;
+      else {
+        const p = stops[i - 1];
+        const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(50, Math.hypot(s.x - p.x, s.y - p.y) * 0.22);
+        routeD += " Q" + mx + " " + my + " " + s.x + " " + s.y;
+      }
+    });
+    svg += '<path class="j-route" id="jroute" d="' + routeD + '"/>';
+    stops.forEach((s, i) => {
+      svg += '<circle class="j-station jst" data-i="' + i + '" cx="' + s.x + '" cy="' + s.y + '" r="7" stroke="var(--fam-' + s.fam + ')"/>';
+      const above = i % 2 === 0;
+      svg += '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 14 : s.y + 24) + '" text-anchor="middle">' + esc(s.lang) + "</text>";
+      svg += '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 27 : s.y + 36) + '" text-anchor="middle">' + esc(s.place) + " · " + eraLabel(s.era) + "</text>";
+    });
+    svg += '<circle class="j-walker" id="jwalker" r="8" cx="' + stops[0].x + '" cy="' + stops[0].y + '"/>';
+    document.getElementById("jmap").innerHTML = svg;
+    // timeline
+    const tl = document.getElementById("jtimeline");
+    const eras = stops.map(s => s.era);
+    const eMin = Math.min(...eras), eMax = Math.max(...eras);
+    const span = Math.max(1, eMax - eMin);
+    tl.innerHTML = '<div class="jt-axis"></div>' + stops.map((s, i) => {
+      const pct = 4 + 92 * ((s.era - eMin) / span);
+      return '<div class="jt-tick" data-i="' + i + '" style="left:' + pct + '%"></div>' +
+        '<div class="jt-lbl" style="left:' + pct + '%">' + eraLabel(s.era) + "</div>";
+    }).join("");
+    // stations text
+    document.getElementById("jstations").innerHTML = stops.map(s =>
+      '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(s.lang) + '</span><span class="tog">' + esc(s.place) + " · " + eraLabel(s.era) + "</span></div>" +
+      '<div class="body"><div class="wordrow">' + (s.word ? '<span class="w-lat">' + esc(s.word) + "</span>" : "") +
+      (s.gloss ? '<span class="w-gloss">' + esc(s.gloss) + "</span>" : "") +
+      (s.script ? '<span class="w-fa" lang="fa">' + esc(s.script) + "</span>" : "") + "</div></div></div>").join("");
+    animateJourney(stops);
+  }
+  function caption(s) {
+    document.getElementById("jcaption").innerHTML =
+      '<div class="jc-era">' + eraLabel(s.era) + " — " + esc(s.lang) + " · " + esc(s.place) + "</div>" +
+      '<div class="jc-word">' + (s.word ? "<b>" + esc(s.word) + "</b>" : "") +
+      (s.gloss ? ' <i style="color:var(--muted)">' + esc(s.gloss) + "</i>" : "") +
+      (s.script ? ' <span class="fa-part" lang="fa">' + esc(s.script) + "</span>" : "") + "</div>";
+  }
+  function animateJourney(stops) {
+    const route = document.getElementById("jroute");
+    const walker = document.getElementById("jwalker");
+    const ticks = Array.from(document.querySelectorAll(".jt-tick"));
+    const dots = Array.from(document.querySelectorAll(".jst"));
+    if (reduceMotion || stops.length < 2) {
+      ticks.forEach(t => t.classList.add("done"));
+      caption(stops[stops.length - 1]);
+      return;
+    }
+    const total = route.getTotalLength();
+    // measure cumulative lengths at stations
+    const marks = stops.map(s => {
+      let best = 0, bd = 1e9;
+      for (let l = 0; l <= total; l += total / 300) {
+        const p = route.getPointAtLength(l);
+        const d = Math.hypot(p.x - s.x, p.y - s.y);
+        if (d < bd) { bd = d; best = l; }
+      }
+      return best;
+    });
+    marks[0] = 0; marks[marks.length - 1] = total;
+    const dur = Math.min(9000, 1600 + stops.length * 1100);
+    const t0 = performance.now();
+    let lastStop = -1;
+    function frame(t) {
+      const u = Math.min(1, (t - t0) / dur);
+      const L = u * total;
+      const p = route.getPointAtLength(L);
+      walker.setAttribute("cx", p.x); walker.setAttribute("cy", p.y);
+      let si = 0;
+      while (si < marks.length - 1 && L >= marks[si + 1] - 1) si++;
+      if (L >= marks[si] - 1 && si !== lastStop) {
+        lastStop = si;
+        caption(stops[si]);
+        ticks.forEach((tk, i) => tk.classList.toggle("done", i <= si));
+      }
+      if (u < 1) jAnim = requestAnimationFrame(frame);
+      else { caption(stops[stops.length - 1]); ticks.forEach(tk => tk.classList.add("done")); jAnim = null; }
+    }
+    jAnim = requestAnimationFrame(frame);
+  }
+  document.getElementById("jplay").addEventListener("click", () => { if (jItem) runJourney(); });
+  onShowView.journey = () => {
+    if (!jItem) {
+      const seed = searchIndex("pardis", true)[0] || searchIndex("paradise", true)[0] || index.find(i => i.kind === "word");
+      if (seed) pickJ.set(seed);
+    }
+  };
+
+  /* ---------------- theme + frieze ---------------- */
   const THEME_LABEL = { "": "Theme: Auto", dark: "Theme: Dark", light: "Theme: Light" };
   const $theme = document.getElementById("theme");
   let themePref = "";
   try { themePref = localStorage.getItem("wr-theme") || ""; } catch (e) {}
+  function drawFrieze() {
+    const h = 110, unit = 92;
+    const c = document.createElement("canvas");
+    c.width = unit; c.height = h;
+    const x = c.getContext("2d");
+    const col = tokColor("--ink") || "#333";
+    x.fillStyle = col;
+    // spear
+    x.fillRect(14, 12, 3, 94);
+    x.beginPath(); x.moveTo(15.5, 0); x.lineTo(9, 16); x.lineTo(22, 16); x.closePath(); x.fill();
+    // fluted cap
+    for (let i = 0; i < 5; i++) x.fillRect(34 + i * 5, 16, 3.4, 8);
+    x.fillRect(32, 23, 28, 9);
+    // head + beard (facing left)
+    x.beginPath();
+    x.moveTo(32, 32); x.lineTo(60, 32); x.lineTo(60, 44); x.lineTo(52, 56);
+    x.lineTo(40, 56); x.lineTo(36, 48); x.lineTo(30, 44); x.lineTo(32, 38);
+    x.closePath(); x.fill();
+    // body robe
+    x.beginPath();
+    x.moveTo(34, 56); x.lineTo(58, 56); x.lineTo(64, 102); x.lineTo(28, 102);
+    x.closePath(); x.fill();
+    // arm to spear
+    x.fillRect(16, 62, 22, 7);
+    // hem folds (carve out)
+    x.globalCompositeOperation = "destination-out";
+    x.fillRect(38, 74, 2, 28); x.fillRect(46, 74, 2, 28); x.fillRect(54, 74, 2, 28);
+    x.globalCompositeOperation = "source-over";
+    // feet
+    x.fillRect(30, 102, 12, 5); x.fillRect(48, 102, 14, 5);
+    // ground line
+    x.fillRect(0, 108, unit, 2);
+    document.getElementById("frieze").style.backgroundImage = "url(" + c.toDataURL() + ")";
+  }
   function applyTheme() {
     if (themePref) document.documentElement.setAttribute("data-theme", themePref);
     else document.documentElement.removeAttribute("data-theme");
     $theme.textContent = THEME_LABEL[themePref] || THEME_LABEL[""];
+    requestAnimationFrame(() => { drawFrieze(); if (curView === "map") mapDraw(); });
   }
   $theme.addEventListener("click", () => {
     themePref = themePref === "" ? "dark" : themePref === "dark" ? "light" : "";
@@ -480,32 +1433,12 @@ window.ETYM_DATA = /*__DATA__*/;
     applyTheme();
   });
   applyTheme();
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => applyTheme());
 
-  document.getElementById("rand").addEventListener("click", () => {
-    if (!groups.length) return;
-    $q.value = ""; renderList("");
-    show(Math.floor(Math.random() * groups.length));
-  });
-
-  let suppressHash = false;
-  function openFromHash() {
-    const m = location.hash.match(/^#r=(.+)$/);
-    if (!m) return false;
-    const t = findRoot(decodeURIComponent(m[1]));
-    if (t >= 0) { show(t); return true; }
-    return false;
-  }
-  window.addEventListener("hashchange", () => {
-    if (suppressHash) { suppressHash = false; return; }
-    openFromHash();
-  });
-
-  $q.addEventListener("input", () => renderList($q.value.trim()));
-  document.addEventListener("keydown", ev => {
-    if (ev.key === "/" && document.activeElement !== $q) { ev.preventDefault(); $q.focus(); }
-  });
-
+  /* ---------------- boot ---------------- */
   renderList("");
-  if (!openFromHash() && groups.length) show(0);
+  if (groups.length && activeEi < 0) { activeEi = 0; show(0, undefined, true); }
+  if (location.hash) routeFromHash();
+  else setView("map", true);
 })();
 </script>

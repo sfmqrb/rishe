@@ -1,0 +1,302 @@
+{
+  "pdf_page": 400,
+  "book_page": 370,
+  "entries": [
+    {
+      "root": {
+        "name": "Pet 1",
+        "lang": "Indo-European",
+        "refs": "POK:825",
+        "gloss": "to fly, to fall"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "POK:825; HRN:22",
+          "words": [
+            {"translit": "ptâta, tâta", "gloss": "falling", "script": null},
+            {"translit": "ava-pat", "gloss": "to fall down", "script": null, "see": ["Au 2"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "BQT:145",
+          "words": [
+            {"translit": "oftâtan", "gloss": "to fall down", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:145",
+          "words": [
+            {"translit": "oftâdan", "gloss": "to fall down", "script": "افتادن"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 1,
+          "lang": "Avestan",
+          "refs": "AEF:382; HUB:41",
+          "words": [
+            {"translit": "patta", "gloss": "fallen, low, inferior", "script": null}
+          ],
+          "script_extra": null,
+          "note": "HRN:70 claims it is from a different root.",
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Persian",
+          "refs": "AEF:382",
+          "words": [
+            {"translit": "past 1", "gloss": "low, inferior", "script": "پَست ۱"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:825",
+          "words": [
+            {"translit": "pataiti, patayeiti", "gloss": "flies", "script": null},
+            {"translit": "patareta", "gloss": "flying", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "Avestan",
+          "refs": "POK:825",
+          "words": [
+            {"translit": "fra-ptaražât", "gloss": "bird", "script": null, "see": ["Per 1"]},
+            {"translit": "paiti-pasti", "gloss": "approach, step", "script": null, "see": ["Per 3"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 8,
+          "parent": 0,
+          "lang": "Old Persian",
+          "refs": "POK:825; KNT:194",
+          "words": [
+            {"translit": "pat", "gloss": "to fly", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 9,
+          "parent": 8,
+          "lang": "Old Persian",
+          "refs": "POK:825; KNT:194",
+          "words": [
+            {"translit": "ud-pat", "gloss": "rise up, rebel", "script": null, "see": ["Ud 1"]},
+            {"translit": "ud-a-pat-atâ", "gloss": "arose, rose up", "script": null, "see": ["Ud 1"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 10,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "POK:825; BRT:458",
+          "words": [
+            {"translit": "karši-ptan", "gloss": "swift flying (bird)", "script": null, "see": ["Ôku"]}
+          ],
+          "script_extra": null,
+          "note": "Compare with Latin \"acu-pedius\"",
+          "quote": null
+        },
+        {
+          "id": 11,
+          "parent": 10,
+          "lang": "Pahlavi",
+          "refs": "HRN:191",
+          "words": [
+            {"translit": "karšift", "gloss": "a fast bird", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 12,
+          "parent": 11,
+          "lang": "Persian",
+          "refs": "BQT:1659; HRN:191",
+          "words": [
+            {"translit": "kašak", "gloss": "a fast bird, magpie", "script": "کَشَک"}
+          ],
+          "script_extra": "کَبَک ، کَشکِرک",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 13,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "AHD",
+          "words": [
+            {"translit": "fethro", "gloss": "feather", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 14,
+          "parent": 13,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "feather", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 15,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "AHD; BRT:458",
+          "words": [
+            {"translit": "petere", "gloss": "to go forward", "script": null},
+            {"translit": "piter", "gloss": "fly", "script": null},
+            {"translit": "acci-piter, acu-pedius", "gloss": "a swift flying bird, falcon", "script": null, "see": ["Ôku"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 16,
+          "parent": 15,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "compete, repeat", "gloss": null, "script": null},
+            {"translit": "accipiter", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 17,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "AHD",
+          "words": [
+            {"translit": "petron", "gloss": "wing", "script": null},
+            {"translit": "helik-pter", "gloss": "spiral wing", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 18,
+          "parent": 17,
+          "lang": "French",
+          "refs": "AHD:611",
+          "words": [
+            {"translit": "helîcopter", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 19,
+          "parent": 18,
+          "lang": "Persian",
+          "refs": "MON:5165",
+          "words": [
+            {"translit": "helîcopter", "gloss": "helicopter", "script": "هلیکوپتر"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 20,
+          "parent": 18,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "helicopter", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 21,
+          "parent": 0,
+          "lang": "Sanskrit",
+          "refs": "POK:825",
+          "words": [
+            {"translit": "patita", "gloss": "fallen, low", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 22,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "AHD",
+          "words": [
+            {"translit": "pipo", "gloss": "to fall", "script": null},
+            {"translit": "potamos", "gloss": "falling water, river", "script": null},
+            {"translit": "hipos ho potamios", "gloss": "river horse, hippopotamus", "script": null, "see": ["Ekwos"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 23,
+          "parent": 22,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "hippopotamus", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

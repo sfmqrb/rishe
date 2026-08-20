@@ -1,0 +1,139 @@
+{
+  "pdf_page": 371,
+  "book_page": 341,
+  "entries": [
+    {
+      "root": {
+        "name": "N.w.r",
+        "lang": "Semitic",
+        "refs": "KLN:982",
+        "gloss": "to shine, light up"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "KLN:963,982",
+          "words": [
+            {"translit": "nŭr", "gloss": "light", "script": null},
+            {"translit": "nâr", "gloss": "fire", "script": null},
+            {"translit": "manâreh", "gloss": "candlestick, lighthouse, minaret", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON; SAP:1734; FVA:418",
+          "words": [
+            {"translit": "nŭr", "gloss": "light", "script": "نور (انوار ، انور)"},
+            {"translit": "manâr", "gloss": "minaret", "script": "منار (مناره)"},
+            {"translit": "nâr", "gloss": "fire", "script": "نار"}
+          ],
+          "script_extra": "نورانی ، تیره ، مُنیر ، منوّر ، تنویر",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "English",
+          "refs": "KLN:982",
+          "words": [
+            {"translit": "minaret", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Hebrew",
+          "refs": "KLN:963",
+          "words": [
+            {"translit": "měnôrâh", "gloss": "candlestick", "script": null},
+            {"translit": "ab-ner", "gloss": "my father is light", "script": null, "see": ["Ab 2"]}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "menorah, Abner", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Nyâka, Nyâkâ",
+        "lang": "Avestan / Old Persian",
+        "refs": "SYN:110; KNT:194",
+        "gloss": "grand parent"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "BQT:2221; UNV:52",
+          "words": [
+            {"translit": "niyâk, niyâkân", "gloss": "grandparents", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:2221; HRN:238",
+          "words": [
+            {"translit": "nîyâ", "gloss": "ancestor", "script": "نیا ، نیاکان"}
+          ],
+          "note": null,
+          "quote": {
+            "text": "چنین بود رسم نیاکان تو - سرافراز و دیندار و پاکان تو",
+            "poet": "Ferdowsî"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "KNT:168",
+          "words": [
+            {"translit": "apa-nyâka", "gloss": "great grandfather, ancestor", "script": null, "see": ["Apo"]}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": null,
+          "refs": null,
+          "words": [],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Nyâkâ",
+        "redirect": "Nyâka"
+      },
+      "nodes": []
+    }
+  ]
+}
