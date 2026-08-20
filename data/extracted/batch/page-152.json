@@ -1,0 +1,218 @@
+{
+  "pdf_page": 152,
+  "book_page": 122,
+  "entries": [
+    {
+      "root": {
+        "name": "El 2, Elk, Eln",
+        "lang": "Indo-European",
+        "refs": "POK:302; KLN:509",
+        "gloss": "red or brown used in animal and tree names"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:302",
+          "words": [
+            {"translit": "auruša", "gloss": "pale red, white", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "BQT:55",
+          "words": [
+            {"translit": "arŭs", "gloss": "white", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:55; MON:80",
+          "words": [
+            {"translit": "âl", "gloss": "pale red, pink", "script": "آل ۱"},
+            {"translit": "âlgŭneh", "gloss": "a pinkish face powder", "script": "آلگونه"}
+          ],
+          "script_extra": "آله ، آلک ، آلا",
+          "note": null,
+          "quote": {
+            "text": "آن بناگوش کز صفا گویی - برکشیده است آلگونه به سیم",
+            "poet": "Balkhî"
+          }
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "AHD",
+          "words": [
+            {"translit": "elmo, almo, elwa", "gloss": "red, brown", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "elm, alder, elk", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "KLN:860",
+          "words": [
+            {"translit": "lambiz", "gloss": "lamb", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "English",
+          "refs": "KLN:860",
+          "words": [
+            {"translit": "lamb", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "El 3, Elei, Lei, Olěna",
+        "lang": "Indo-European",
+        "refs": "POK:308; KLN:509",
+        "gloss": "to bend, elbow"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:308",
+          "words": [
+            {"translit": "arethna", "gloss": "arm, elbow", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MPP:79",
+          "words": [
+            {"translit": "âryšnug", "gloss": "elbow", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:32; MPP:79",
+          "words": [
+            {"translit": "ârenj", "gloss": "elbow", "script": "آرنج"}
+          ],
+          "script_extra": "آرن ، آران ، آرنگ",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 1,
+          "lang": "Avestan",
+          "refs": "POK:308",
+          "words": [
+            {"translit": "frâ-râthni", "gloss": "forearm", "script": null, "see": ["Per 1"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Old Persian",
+          "refs": "MPP:79",
+          "words": [
+            {"translit": "arašni", "gloss": "elbow", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "AHD",
+          "words": [
+            {"translit": "alino", "gloss": "forearm", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "elbow", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {"name": "Elei", "redirect": "El 3"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Elk", "redirect": "El 2"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Eln", "redirect": "El 2"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Elu", "redirect": "Yb"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Elu-ephas", "redirect": "Yb"},
+      "nodes": []
+    }
+  ]
+}

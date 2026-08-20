@@ -1,0 +1,97 @@
+{
+  "pdf_page": 170,
+  "book_page": 140,
+  "entries": [
+    {
+      "root": {
+        "name": "Geme, Gem",
+        "lang": "Indo-European",
+        "refs": "POK:369",
+        "gloss": "to marry"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:369; HRN:117; IEC:402",
+          "words": [
+            {"translit": "jâma", "gloss": "kinship (daughter)", "script": null},
+            {"translit": "zâmâ-tar", "gloss": "son-in-law", "script": null, "see": ["Ter 3"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "MON:1487",
+          "words": [
+            {"translit": "dâmât", "gloss": "bride groom", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:817",
+          "words": [
+            {"translit": "dâmâd", "gloss": "son-in-law, bride groom", "script": "داماد"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Sanskrit",
+          "refs": "IEC:402",
+          "words": [
+            {"translit": "jâmâ", "gloss": "daughter", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "AHD",
+          "words": [
+            {"translit": "gamos", "gloss": "wedding", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "-gamy, gamo-, polygamy", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {"name": "Geme-tar", "redirect": "Ter 3"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Gen", "redirect": "Gnô"},
+      "nodes": []
+    }
+  ]
+}

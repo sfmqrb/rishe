@@ -1,0 +1,177 @@
+{
+  "pdf_page": 144,
+  "book_page": 114,
+  "entries": [
+    {
+      "root": {
+        "name": "D.v.r",
+        "lang": "Arabic",
+        "refs": "KLN:397; FVA:146",
+        "gloss": "to turn, go around, encircle"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "FVA:146; KLN:108,397",
+          "words": [
+            {"translit": "dâîrah", "gloss": "circle", "script": null},
+            {"translit": "dâr", "gloss": "house, originally surrounding a court", "script": null},
+            {"translit": "dahr", "gloss": "a round of (long) time", "script": null},
+            {"translit": "dâr-as-sanâ`", "gloss": "house of construction, factory", "script": null, "see": ["S.n.`a"]}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "FVA:146",
+          "words": [
+            {"translit": "dowr", "gloss": "around, perimeter", "script": "دور ۲"},
+            {"translit": "dâr 1", "gloss": "house", "script": "دار ۱ ( دیار ، دیّار )"},
+            {"translit": "dahr", "gloss": "a long time, world, fortune", "script": "دهر"}
+          ],
+          "script_extra": "دوره ، دوران ، دایر ، دایره ، داریه\nدوّار ، مدوّر ، مَدار ، اداره ، مدیر",
+          "note": null,
+          "quote": {"text": "مرو به خانهٔ ارباب بی مروّتِ دهر - که کنج عافیتت در سرای خویشتن است", "poet": "Hâfez"}
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "Greek",
+          "refs": "KLN:108",
+          "words": [
+            {"translit": "arsonalos", "gloss": "factory, workshop", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Italian",
+          "refs": "AHD:74; KLN:108",
+          "words": [
+            {"translit": "darsena, arsenale", "gloss": "naval dockyard", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "English",
+          "refs": "AHD:74",
+          "words": [
+            {"translit": "arsenal", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Dwei, Dvei",
+        "lang": "Indo-European",
+        "refs": "POK:227",
+        "gloss": "to fear"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:228; KLN:454",
+          "words": [
+            {"translit": "dvaĕtha", "gloss": "threat, menace", "script": null},
+            {"translit": "dvaĕš, tbaĕš", "gloss": "sick, ill", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "POK:228",
+          "words": [
+            {"translit": "běš 1", "gloss": "sorrow", "script": null}
+          ],
+          "note": "See \"Weis\" for an alternative root.",
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "MON:627",
+          "words": [
+            {"translit": "bîš 2", "gloss": "a poisonous plant", "script": "بیش ۲"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:138",
+          "words": [
+            {"translit": "db`yš", "gloss": "enmity, harm", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "AHD",
+          "words": [
+            {"translit": "dîrus", "gloss": "horrible", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "dire", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "KLN:451",
+          "words": [
+            {"translit": "deinos", "gloss": "dreadful", "script": null},
+            {"translit": "deinos-saura", "gloss": "dreadful lizard", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 8,
+          "parent": 7,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "dinosaur", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}
