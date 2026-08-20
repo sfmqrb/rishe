@@ -322,11 +322,13 @@
   #jmap { display: block; width: 100%; height: auto; }
   .j-land { fill: color-mix(in srgb, var(--ink) 7%, var(--panel)); stroke: color-mix(in srgb, var(--ink) 22%, var(--panel)); stroke-width: 1.4; stroke-linejoin: round; }
   .j-sea { fill: none; }
-  .j-route { fill: none; stroke: var(--gold); stroke-width: 2.4; stroke-dasharray: 7 6; stroke-linecap: round; }
-  .j-station { fill: var(--panel); stroke-width: 2.5; }
-  .j-stlbl { font-family: var(--sans); font-size: 12.5px; font-weight: 700; fill: var(--ink); }
-  .j-stsub { font-family: var(--sans); font-size: 10.5px; fill: var(--muted); }
-  .j-walker { fill: var(--gold); stroke: var(--panel); stroke-width: 2; }
+  .j-route { fill: none; stroke: var(--gold-soft); stroke-width: 1.8; stroke-linecap: round; opacity: .55; }
+  .j-route.main { stroke: var(--gold); stroke-width: 3.2; opacity: 1; }
+  .j-station { fill: var(--panel); stroke-width: 2.5; cursor: pointer; }
+  .j-station.target { stroke-width: 4; }
+  .j-stlbl { font-family: var(--sans); font-size: 11.5px; font-weight: 700; fill: var(--ink); pointer-events: none; }
+  .j-stsub { font-family: var(--sans); font-size: 9.5px; fill: var(--muted); pointer-events: none; }
+  .j-anim .j-route, .j-anim .j-st-grp { transition-property: stroke-dashoffset, opacity; transition-timing-function: ease; }
   .jcaption {
     min-height: 58px; margin-top: 10px; padding: 10px 16px;
     background: var(--panel); border-left: 4px solid var(--gold);
@@ -430,7 +432,7 @@
   <section class="view" id="view-journey">
     <div class="jpanel">
       <h1 class="path-title">A word’s journey</h1>
-      <p class="path-sub">Choose a word and watch it travel across lands and centuries.</p>
+      <p class="path-sub">Choose a word and watch its whole family fan out across lands and centuries — your word’s own road in bright gold.</p>
       <div class="jhead">
         <div class="pick" id="pickJ"><label>Word</label><input type="text" placeholder="paradise · پردیس" autocomplete="off"><div class="sugg"></div></div>
         <button class="iconbtn" id="jplay" type="button">▶ Replay</button>
@@ -1239,140 +1241,162 @@ window.ETYM_DATA = /*__DATA__*/;
   const LAND = "M95 330 L110 288 L138 252 L152 234 L182 224 L214 210 L248 192 L256 148 L286 96 L330 74 L362 100 L342 150 L302 180 L360 150 L420 112 L560 86 L700 96 L880 120 L948 180 L944 258 L882 300 L820 322 L772 300 L756 368 L722 330 L692 312 L642 330 L602 344 L562 330 L546 398 L502 420 L472 372 L456 340 L450 300 L402 280 L352 284 L332 300 L312 280 L292 290 L302 320 L282 342 L266 316 L252 292 L202 300 L162 320 L122 348 Z";
   const AFRICA = "M95 372 L200 362 L300 372 L408 380 L446 402 L470 428 L470 560 L60 560 L60 400 Z";
   const BRITAIN = "M162 196 L156 176 L168 158 L184 166 L190 186 L178 200 Z";
-  let jItem = null, jAnim = null;
+  let jItem = null, jTimers = [];
   const pickJ = makePicker(document.getElementById("pickJ"), it => { jItem = it; runJourney(); });
-  function journeyChain(it) {
-    // vertices from root down to the word's node
-    const path = [];
-    let v = it.vid;
-    const seen = new Set();
-    while (v && !seen.has(v)) {
-      seen.add(v);
-      path.push(v);
-      if (vinfo.get(v).root) break;
-      const vi = vinfo.get(v);
-      const p = vi.n.parent || 0;
-      v = p ? "n" + vi.gi + "_" + groups[vi.gi].entries.indexOf(vi.e) + "_" + p : "g" + vi.gi;
+  function journeyTree(it) {
+    const gi = it.ei, g = groups[gi];
+    const stations = [], key2idx = new Map();
+    function addStation(stKey, s, parentIdx, info) {
+      const k = stKey + "|" + (parentIdx == null ? -1 : parentIdx);
+      if (key2idx.has(k)) {
+        const st = stations[key2idx.get(k)];
+        if (info.word && st.words.indexOf(info.word) < 0 && st.words.length < 4) st.words.push(info.word);
+        if (info.script && !st.script) st.script = info.script;
+        if (info.gloss && !st.gloss) st.gloss = info.gloss;
+        if (info.isTarget) { st.isTarget = true; if (info.word) { st.words = [info.word]; st.script = info.script; st.gloss = info.gloss; } }
+        return key2idx.get(k);
+      }
+      const idx = stations.length;
+      stations.push({
+        x: s[0], y: s[1], era: s[2], place: s[3], lang: info.lang || "?",
+        words: info.word ? [info.word] : [], script: info.script || null, gloss: info.gloss || null,
+        fam: famOf(info.lang), parent: parentIdx,
+        depth: parentIdx == null ? 0 : stations[parentIdx].depth + 1,
+        isTarget: !!info.isTarget
+      });
+      key2idx.set(k, idx);
+      return idx;
     }
-    return path.reverse();
-  }
-  function runJourney() {
-    if (!jItem) return;
-    if (jAnim) { cancelAnimationFrame(jAnim); jAnim = null; }
-    const chain = journeyChain(jItem);
-    const stops = [];
-    chain.forEach(v => {
-      const vi = vinfo.get(v);
-      const lang = vi.root ? groups[vi.gi].root.lang : vi.n.lang;
-      const st = stationFor(lang);
-      if (!st) return;
-      let word, script, gloss;
-      if (vi.root) { word = groups[vi.gi].root.name; gloss = groups[vi.gi].root.gloss; }
-      else {
-        const w = (v === jItem.vid && vi.n.words[jItem.wi]) ? vi.n.words[jItem.wi] : (vi.n.words || [])[0];
-        word = w ? w.translit : null; script = w ? w.script : (vi.n.script_extra || null); gloss = w ? w.gloss : null;
+    const rootSt = stationFor(g.root.lang);
+    let rootIdx = null;
+    if (rootSt) rootIdx = addStation(rootSt.key, rootSt.s, null, { lang: g.root.lang, word: g.root.name, gloss: g.root.gloss });
+    g.entries.forEach((e, eIdx) => {
+      const byId = {}; (e.nodes || []).forEach(n => byId[n.id] = n);
+      const memo = {};
+      function resolve(nid) {
+        if (!nid || !byId[nid]) return rootIdx;
+        if (nid in memo) return memo[nid];
+        memo[nid] = rootIdx; // cycle guard
+        const n = byId[nid];
+        const parentIdx = resolve(n.parent || 0);
+        const st = stationFor(n.lang);
+        if (!st) { memo[nid] = parentIdx; return parentIdx; }
+        const isTarget = ("n" + gi + "_" + eIdx + "_" + n.id) === it.vid;
+        const w = (isTarget && n.words[it.wi]) ? n.words[it.wi] : (n.words || [])[0];
+        const idx = addStation(st.key, st.s, parentIdx, {
+          lang: n.lang, word: w ? w.translit : null,
+          script: w && w.script ? w.script : (n.script_extra || null),
+          gloss: w ? w.gloss : null, isTarget
+        });
+        memo[nid] = idx;
+        return idx;
       }
-      const last = stops[stops.length - 1];
-      let [x, y, era, place] = st.s;
-      if (last && last.lang === (lang || "?") && Math.abs(last.x - x) < 16 && Math.abs(last.y - y) < 16) {
-        if (word && last.word && word !== last.word) last.word = last.word + " → " + word;
-        if (script && !last.script) last.script = script;
-        if (gloss) last.gloss = gloss;
-        return;
-      }
-      if (last && Math.abs(last.x - x) < 14 && Math.abs(last.y - y) < 14) { x += 18; y -= 14; }
-      stops.push({ x, y, era, place, lang: lang || "?", word, script, gloss, fam: famOf(lang) });
+      (e.nodes || []).forEach(n => resolve(n.id));
     });
-    if (!stops.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
-    stops.sort((a, b) => 0); // keep derivation order
-    // svg
-    let svg = '<path class="j-land" d="' + LAND + '"/>' +
-      '<path class="j-land" d="' + AFRICA + '"/>' +
-      '<path class="j-land" d="' + BRITAIN + '"/>';
-    let routeD = "";
-    stops.forEach((s, i) => {
-      if (i === 0) routeD = "M" + s.x + " " + s.y;
-      else {
-        const p = stops[i - 1];
-        const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(50, Math.hypot(s.x - p.x, s.y - p.y) * 0.22);
-        routeD += " Q" + mx + " " + my + " " + s.x + " " + s.y;
-      }
+    // spread stations that share coordinates
+    const spots = {};
+    stations.forEach(s => {
+      const k = Math.round(s.x / 14) + "," + Math.round(s.y / 14);
+      const i = (spots[k] = (spots[k] || 0) + 1) - 1;
+      if (i > 0) { const a = i * 2.4; s.x += Math.cos(a) * 15 * Math.ceil(i / 2); s.y += Math.sin(a) * 13 * Math.ceil(i / 2); }
     });
-    svg += '<path class="j-route" id="jroute" d="' + routeD + '"/>';
-    stops.forEach((s, i) => {
-      svg += '<circle class="j-station jst" data-i="' + i + '" cx="' + s.x + '" cy="' + s.y + '" r="7" stroke="var(--fam-' + s.fam + ')"/>';
-      const above = i % 2 === 0;
-      svg += '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 14 : s.y + 24) + '" text-anchor="middle">' + esc(s.lang) + "</text>";
-      svg += '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 27 : s.y + 36) + '" text-anchor="middle">' + esc(s.place) + " · " + eraLabel(s.era) + "</text>";
-    });
-    svg += '<circle class="j-walker" id="jwalker" r="8" cx="' + stops[0].x + '" cy="' + stops[0].y + '"/>';
-    document.getElementById("jmap").innerHTML = svg;
-    // timeline
-    const tl = document.getElementById("jtimeline");
-    const eras = stops.map(s => s.era);
-    const eMin = Math.min(...eras), eMax = Math.max(...eras);
-    const span = Math.max(1, eMax - eMin);
-    tl.innerHTML = '<div class="jt-axis"></div>' + stops.map((s, i) => {
-      const pct = 4 + 92 * ((s.era - eMin) / span);
-      return '<div class="jt-tick" data-i="' + i + '" style="left:' + pct + '%"></div>' +
-        '<div class="jt-lbl" style="left:' + pct + '%">' + eraLabel(s.era) + "</div>";
-    }).join("");
-    // stations text
-    document.getElementById("jstations").innerHTML = stops.map(s =>
-      '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(s.lang) + '</span><span class="tog">' + esc(s.place) + " · " + eraLabel(s.era) + "</span></div>" +
-      '<div class="body"><div class="wordrow">' + (s.word ? '<span class="w-lat">' + esc(s.word) + "</span>" : "") +
-      (s.gloss ? '<span class="w-gloss">' + esc(s.gloss) + "</span>" : "") +
-      (s.script ? '<span class="w-fa" lang="fa">' + esc(s.script) + "</span>" : "") + "</div></div></div>").join("");
-    animateJourney(stops);
+    return stations;
   }
   function caption(s) {
     document.getElementById("jcaption").innerHTML =
       '<div class="jc-era">' + eraLabel(s.era) + " — " + esc(s.lang) + " · " + esc(s.place) + "</div>" +
-      '<div class="jc-word">' + (s.word ? "<b>" + esc(s.word) + "</b>" : "") +
+      '<div class="jc-word">' + (s.words && s.words.length ? "<b>" + esc(s.words.join(", ")) + "</b>" : "") +
       (s.gloss ? ' <i style="color:var(--muted)">' + esc(s.gloss) + "</i>" : "") +
       (s.script ? ' <span class="fa-part" lang="fa">' + esc(s.script) + "</span>" : "") + "</div>";
   }
-  function animateJourney(stops) {
-    const route = document.getElementById("jroute");
-    const walker = document.getElementById("jwalker");
+  function runJourney() {
+    if (!jItem) return;
+    jTimers.forEach(clearTimeout); jTimers = [];
+    const stations = journeyTree(jItem);
+    if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
+    // the chosen word's own road
+    const onPath = new Set();
+    stations.forEach((s, i) => { if (s.isTarget) { let c = i; while (c != null) { onPath.add(c); c = stations[c].parent; } } });
+    const maxDepth = Math.max(...stations.map(s => s.depth));
+    let svg = '<path class="j-land" d="' + LAND + '"/><path class="j-land" d="' + AFRICA + '"/><path class="j-land" d="' + BRITAIN + '"/>';
+    // edges under stations
+    stations.forEach((s, i) => {
+      if (s.parent == null) return;
+      const p = stations[s.parent];
+      const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(46, Math.hypot(s.x - p.x, s.y - p.y) * 0.2);
+      const main = onPath.has(i) && onPath.has(s.parent);
+      svg += '<path class="j-route' + (main ? " main" : "") + ' jedge" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
+    });
+    stations.forEach((s, i) => {
+      const above = (s.depth + i) % 2 === 0;
+      svg += '<g class="j-st-grp" data-d="' + s.depth + '" data-i="' + i + '">' +
+        '<circle class="j-station jst' + (s.isTarget ? " target" : "") + '" data-i="' + i + '" cx="' + s.x + '" cy="' + s.y + '" r="' + (s.isTarget ? 8.5 : 6.5) + '" stroke="var(--fam-' + s.fam + ')"/>' +
+        '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 13 : s.y + 23) + '" text-anchor="middle">' + esc(s.lang) + "</text>" +
+        '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 24 : s.y + 34) + '" text-anchor="middle">' + esc(s.place) + " · " + eraLabel(s.era) + "</text></g>";
+    });
+    const jm = document.getElementById("jmap");
+    jm.innerHTML = svg;
+    jm.classList.add("j-anim");
+    // timeline: unique eras
+    const eras = Array.from(new Set(stations.map(s => s.era))).sort((a, b) => a - b);
+    const eMin = eras[0], eMax = eras[eras.length - 1], span = Math.max(1, eMax - eMin);
+    document.getElementById("jtimeline").innerHTML = '<div class="jt-axis"></div>' + eras.map(e => {
+      const pct = 4 + 92 * ((e - eMin) / span);
+      const dep = Math.min(...stations.filter(s => s.era === e).map(s => s.depth));
+      return '<div class="jt-tick" data-d="' + dep + '" style="left:' + pct + '%"></div>' +
+        (eras.length <= 7 || e === eMin || e === eMax
+          ? '<div class="jt-lbl" style="left:' + pct + '%">' + eraLabel(e) + "</div>" : "");
+    }).join("");
+    // stations as text (chronological)
+    document.getElementById("jstations").innerHTML = stations.slice().sort((a, b) => a.era - b.era).map(s =>
+      '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(s.lang) + '</span><span class="tog">' + esc(s.place) + " · " + eraLabel(s.era) + "</span></div>" +
+      '<div class="body"><div class="wordrow">' + (s.words.length ? '<span class="w-lat">' + esc(s.words.join(", ")) + "</span>" : "") +
+      (s.gloss ? '<span class="w-gloss">' + esc(s.gloss) + "</span>" : "") +
+      (s.script ? '<span class="w-fa" lang="fa">' + esc(s.script) + "</span>" : "") + "</div></div></div>").join("");
+    // hover → caption
+    jm.querySelectorAll(".jst").forEach(c => {
+      c.addEventListener("pointerenter", () => caption(stations[+c.dataset.i]));
+    });
+    // reveal animation, staggered by depth
+    const edges = Array.from(jm.querySelectorAll(".jedge"));
+    const grps = Array.from(jm.querySelectorAll(".j-st-grp"));
     const ticks = Array.from(document.querySelectorAll(".jt-tick"));
-    const dots = Array.from(document.querySelectorAll(".jst"));
-    if (reduceMotion || stops.length < 2) {
+    const stepMs = 620;
+    if (reduceMotion) {
       ticks.forEach(t => t.classList.add("done"));
-      caption(stops[stops.length - 1]);
+      caption(stations[stations.length - 1]);
+      const tgt = stations.findIndex(s => s.isTarget);
+      if (tgt >= 0) caption(stations[tgt]);
       return;
     }
-    const total = route.getTotalLength();
-    // measure cumulative lengths at stations
-    const marks = stops.map(s => {
-      let best = 0, bd = 1e9;
-      for (let l = 0; l <= total; l += total / 300) {
-        const p = route.getPointAtLength(l);
-        const d = Math.hypot(p.x - s.x, p.y - s.y);
-        if (d < bd) { bd = d; best = l; }
-      }
-      return best;
+    edges.forEach(el => {
+      const L = el.getTotalLength();
+      el.style.strokeDasharray = L;
+      el.style.strokeDashoffset = L;
+      el.style.transitionDuration = ".55s";
+      el.style.transitionDelay = ((+el.dataset.d - 1) * stepMs + 150) / 1000 + "s";
     });
-    marks[0] = 0; marks[marks.length - 1] = total;
-    const dur = Math.min(9000, 1600 + stops.length * 1100);
-    const t0 = performance.now();
-    let lastStop = -1;
-    function frame(t) {
-      const u = Math.min(1, (t - t0) / dur);
-      const L = u * total;
-      const p = route.getPointAtLength(L);
-      walker.setAttribute("cx", p.x); walker.setAttribute("cy", p.y);
-      let si = 0;
-      while (si < marks.length - 1 && L >= marks[si + 1] - 1) si++;
-      if (L >= marks[si] - 1 && si !== lastStop) {
-        lastStop = si;
-        caption(stops[si]);
-        ticks.forEach((tk, i) => tk.classList.toggle("done", i <= si));
-      }
-      if (u < 1) jAnim = requestAnimationFrame(frame);
-      else { caption(stops[stops.length - 1]); ticks.forEach(tk => tk.classList.add("done")); jAnim = null; }
+    grps.forEach(el => {
+      el.style.opacity = 0;
+      el.style.transitionDuration = ".4s";
+      el.style.transitionDelay = (+el.dataset.d * stepMs) / 1000 + "s";
+    });
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      edges.forEach(el => el.style.strokeDashoffset = 0);
+      grps.forEach(el => el.style.opacity = 1);
+    }));
+    for (let d = 0; d <= maxDepth; d++) {
+      jTimers.push(setTimeout(() => {
+        ticks.forEach(tk => { if (+tk.dataset.d <= d) tk.classList.add("done"); });
+        const here = stations.filter(s => s.depth === d);
+        const pick = here.find(s => s.isTarget) || here.find((s, idx) => onPath.has(stations.indexOf(s))) || here[0];
+        if (pick) caption(pick);
+      }, d * stepMs + 250));
     }
-    jAnim = requestAnimationFrame(frame);
+    jTimers.push(setTimeout(() => {
+      const tgt = stations.find(s => s.isTarget);
+      if (tgt) caption(tgt);
+    }, (maxDepth + 1) * stepMs + 350));
   }
   document.getElementById("jplay").addEventListener("click", () => { if (jItem) runJourney(); });
   onShowView.journey = () => {
