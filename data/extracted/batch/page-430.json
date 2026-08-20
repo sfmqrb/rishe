@@ -1,0 +1,151 @@
+{
+  "pdf_page": 430,
+  "book_page": 400,
+  "entries": [
+    {
+      "root": {
+        "name": "Salîbâ",
+        "lang": "Aramaic",
+        "refs": "BQT:656; MON:1310",
+        "gloss": "cross"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "MON:1310; BQT:656",
+          "words": [
+            {"translit": "čalîpâ", "gloss": "cross", "script": "چلیپا"}
+          ],
+          "script_extra": "چلیپایی",
+          "note": null,
+          "quote": {"text": "تا مایۀ ایمان بود شهادت - تا قبلۀ ترسا بود چلیپا", "poet": "Farrokhî"}
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "MON:1310,2161",
+          "words": [
+            {"translit": "salîb", "gloss": "cross", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "MON:2161",
+          "words": [
+            {"translit": "salîb", "gloss": "cross", "script": "صلیب"}
+          ],
+          "script_extra": "مصلوب",
+          "note": null,
+          "quote": {"text": "آنجا که کار صومعه را جلوه میدهند - ناقوس دیر راهب و نام صلیب هست", "poet": "Hâfez"}
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:126",
+          "words": [
+            {"translit": "clyb`", "gloss": "cross", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Šalla",
+        "lang": "Arabic",
+        "refs": "SAP:818",
+        "gloss": "to paralyze (hand)"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "BQT:1287",
+          "words": [
+            {"translit": "šal 2", "gloss": "lame, crippled", "script": "شَل ۲"},
+            {"translit": "šalîdan", "gloss": "to lame", "script": "شلیدن"}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {"name": "Sam", "redirect": "Sem 2"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Šamšěr", "redirect": "Šfšyr"},
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Sarâpu, Sarpu",
+        "lang": "Akkadian",
+        "refs": "AHD:1206; KLN:1445",
+        "gloss": "Sarâpu: to melt, refine. Sarpu: refined silver."
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "KLN:1445",
+          "words": [
+            {"translit": "s.r.f", "gloss": "to purify silver", "script": null},
+            {"translit": "sarrâf", "gloss": "coin and money exchanger", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:2144",
+          "words": [
+            {"translit": "sarrâf", "gloss": "money exchanger", "script": "صرّاف"}
+          ],
+          "note": null,
+          "quote": {"text": "خموش حافظ و این نکته های زر سرخ - نگاهدار که قلاب شهر صرّافست", "poet": "Hâfez"}
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Old English",
+          "refs": "AHD:1206",
+          "words": [
+            {"translit": "seolfor", "gloss": "silver coin", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "silver", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {"name": "Sarpu", "redirect": "Sarâpu"},
+      "nodes": []
+    }
+  ]
+}

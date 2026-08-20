@@ -295,6 +295,11 @@
   .pcard .card { display: block; max-width: 620px; }
   .p-root .rootcard { min-width: 0; display: block; max-width: 620px; }
   .nopath { padding: 20px; color: var(--muted); font-style: italic; }
+  .see-note {
+    font-family: var(--sans); font-size: 12.5px; color: var(--muted); font-style: italic;
+    margin: -4px 0 12px 48px; padding: 4px 12px;
+    border-left: 2px dashed var(--gold-soft);
+  }
 
   /* ============ FLOWS VIEW ============ */
   #view-flows { flex-direction: column; overflow: auto; }
@@ -328,7 +333,7 @@
   .j-station.target { stroke-width: 4; }
   .j-stlbl { font-family: var(--sans); font-size: 11.5px; font-weight: 700; fill: var(--ink); pointer-events: none; }
   .j-stsub { font-family: var(--sans); font-size: 9.5px; fill: var(--muted); pointer-events: none; }
-  .j-anim .j-route, .j-anim .j-st-grp { transition-property: stroke-dashoffset, opacity; transition-timing-function: ease; }
+  .j-walker { fill: var(--gold); stroke: var(--panel); stroke-width: 2; opacity: 0; }
   .jcaption {
     min-height: 58px; margin-top: 10px; padding: 10px 16px;
     background: var(--panel); border-left: 4px solid var(--gold);
@@ -436,6 +441,7 @@
       <div class="jhead">
         <div class="pick" id="pickJ"><label>Word</label><input type="text" placeholder="paradise · پردیس" autocomplete="off"><div class="sugg"></div></div>
         <button class="iconbtn" id="jplay" type="button">▶ Replay</button>
+        <button class="iconbtn" id="jrand" type="button">⚄ Random word</button>
       </div>
       <div id="jmapwrap"><svg id="jmap" viewBox="0 0 1000 560" role="img" aria-label="Schematic map of the word's journey"></svg></div>
       <div class="jcaption" id="jcaption"><span class="jc-era">Pick a word above</span></div>
@@ -524,14 +530,18 @@ window.ETYM_DATA = /*__DATA__*/;
 
   /* word index + path graph */
   const index = [];
-  const adj = new Map();      // vid -> [vid]
+  const adj = new Map();      // true derivation edges (within a chart)
+  const adjSee = new Map();   // ☞ cross-reference edges (margin notes, not ancestry)
+  const seeSet = new Set();
   const vinfo = new Map();    // vid -> {gi, root:true} | {gi, e, n}
   const ggEdges = [];         // constellation links between groups
-  function addEdge(a, b) {
-    if (!adj.has(a)) adj.set(a, []);
-    if (!adj.has(b)) adj.set(b, []);
-    adj.get(a).push(b); adj.get(b).push(a);
+  function pushEdge(m, a, b) {
+    if (!m.has(a)) m.set(a, []);
+    if (!m.has(b)) m.set(b, []);
+    m.get(a).push(b); m.get(b).push(a);
   }
+  function addEdge(a, b) { pushEdge(adj, a, b); }
+  function addSeeEdge(a, b) { pushEdge(adjSee, a, b); seeSet.add(a + "|" + b); seeSet.add(b + "|" + a); }
   groups.forEach((g, gi) => {
     const rv = "g" + gi;
     vinfo.set(rv, { gi, root: true });
@@ -558,7 +568,7 @@ window.ETYM_DATA = /*__DATA__*/;
           });
           (w.see || []).forEach(s => {
             const t = findRoot(s);
-            if (t >= 0 && t !== gi) { addEdge(nv, "g" + t); ggEdges.push([gi, t]); }
+            if (t >= 0 && t !== gi) { addSeeEdge(nv, "g" + t); ggEdges.push([gi, t]); }
           });
         });
       });
@@ -823,6 +833,48 @@ window.ETYM_DATA = /*__DATA__*/;
     }
     return null;
   }
+  function bfsWithSee(a, b, maxSee) {
+    // BFS over (vertex, ☞-hops-used); real derivation edges are free, ☞ edges are counted and capped
+    const key = (v, u) => v + "#" + u;
+    if (a === b) return { path: [a] };
+    const prev = new Map([[key(a, 0), null]]);
+    let frontier = [[a, 0]];
+    let steps = 0;
+    while (frontier.length && steps++ < 40) {
+      const next = [];
+      for (const [v, u] of frontier) {
+        const expand = (w, nu) => {
+          if (nu > maxSee || prev.has(key(w, nu))) return false;
+          prev.set(key(w, nu), key(v, u));
+          if (w === b) {
+            const path = [];
+            let c = key(w, nu);
+            while (c !== null) { path.push(c.split("#")[0]); c = prev.get(c); }
+            return true;
+          }
+          next.push([w, nu]);
+          return false;
+        };
+        for (const w of adj.get(v) || []) {
+          if (expand(w, u)) {
+            const path = []; let c = key(w, u);
+            while (c !== null) { path.push(c.split("#")[0]); c = prev.get(c); }
+            return { path: path.reverse() };
+          }
+        }
+        for (const w of adjSee.get(v) || []) {
+          if (expand(w, u + 1)) {
+            const path = []; let c = key(w, u + 1);
+            while (c !== null) { path.push(c.split("#")[0]); c = prev.get(c); }
+            return { path: path.reverse() };
+          }
+        }
+      }
+      frontier = next;
+      if (prev.size > 120000) break;
+    }
+    return null;
+  }
   function vertexCard(vid, highlight) {
     const vi = vinfo.get(vid);
     if (!vi) return "";
@@ -848,34 +900,46 @@ window.ETYM_DATA = /*__DATA__*/;
       '<div class="head"><span class="lang">' + esc(n.lang || "?") + "</span></div>" +
       '<div class="body">' + words + "</div></div></div></div>";
   }
-  function runPath() {
-    if (!pA || !pB) return;
-    const path = bfs(pA.vid, pB.vid);
-    if (!path) {
-      $pathout.innerHTML = '<div class="nopath">No recorded road between <b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
-        "</b> in the charts extracted so far — they grow from different roots (" +
-        esc(groups[pA.ei].root.name) + " and " + esc(groups[pB.ei].root.name) + ").</div>";
-      return;
-    }
-    const rootsOn = path.filter(v => vinfo.get(v).root).map(v => groups[vinfo.get(v).gi].root.name);
-    let verdict;
-    if (rootsOn.length === 1) {
-      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are cousins — both grew from the root <b>" +
-        esc(rootsOn[0]) + "</b> (" + esc(groups[vinfo.get(path.find(v => vinfo.get(v).root)).gi].root.lang || "") + ").";
-    } else if (rootsOn.length > 1) {
-      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are related through " + rootsOn.length +
-        " linked roots: <b>" + rootsOn.map(esc).join("</b> ☞ <b>") + "</b>.";
-    } else {
-      verdict = "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> sit on the same branch.";
-    }
-    let html = '<div class="verdict">' + verdict + " <span style='color:var(--muted)'>(" + (path.length - 1) + " steps)</span></div><div class='pathchain'>";
-    path.forEach(v => {
+  function renderChain(path) {
+    let html = "<div class='pathchain'>";
+    path.forEach((v, i) => {
+      if (i > 0 && seeSet.has(path[i - 1] + "|" + v)) {
+        html += '<div class="see-note">☞ cross-reference in the book — a margin note (often one element of a compound), not a line of descent</div>';
+      }
       const hlA = v === pA.vid ? pA.wi : undefined;
       const hl = v === pB.vid ? pB.wi : hlA;
       html += vertexCard(v, hl);
     });
-    html += "</div>";
-    $pathout.innerHTML = html;
+    return html + "</div>";
+  }
+  function runPath() {
+    if (!pA || !pB) return;
+    // kinship = a genuine shared root: only real derivation arrows count
+    const path = bfs(pA.vid, pB.vid);
+    if (path) {
+      const rootV = path.find(v => vinfo.get(v).root);
+      const rootG = rootV ? groups[vinfo.get(rootV).gi] : groups[pA.ei];
+      const verdict = rootV
+        ? "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are cousins — both grew from the root <b>" +
+          esc(rootG.root.name) + "</b> (" + esc(rootG.root.lang || "") + ")."
+        : "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> sit on the same branch of <b>" + esc(rootG.root.name) + "</b>.";
+      $pathout.innerHTML = '<div class="verdict">' + verdict + " <span style='color:var(--muted)'>(" + (path.length - 1) + " steps)</span></div>" + renderChain(path);
+      return;
+    }
+    // no common ancestor — offer the book's ☞ cross-reference trail, honestly labeled, capped at 2 hops
+    const seeRes = bfsWithSee(pA.vid, pB.vid, 2);
+    if (seeRes) {
+      const nSee = seeRes.path.reduce((s, v, i) => s + (i > 0 && seeSet.has(seeRes.path[i - 1] + "|" + v) ? 1 : 0), 0);
+      $pathout.innerHTML = '<div class="verdict"><b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
+        "</b> share <b>no common root</b> in the charts — they are not cognates. " +
+        "The book's margin notes do connect their charts through " + nSee + " ☞ cross-reference" + (nSee > 1 ? "s" : "") +
+        " (shown below), but a ☞ marks a borrowed compound element or a “see also”, not shared ancestry.</div>" +
+        renderChain(seeRes.path);
+      return;
+    }
+    $pathout.innerHTML = '<div class="nopath">No recorded connection between <b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
+      "</b> in the charts extracted so far — they grow from unrelated roots (" +
+      esc(groups[pA.ei].root.name) + " and " + esc(groups[pB.ei].root.name) + ").</div>";
   }
   const FAMOUS = [
     ["barq", "emerald"], ["pardîs", "paradise"], ["šâh", "checkmate"], ["doxtar", "daughter"],
@@ -1241,7 +1305,7 @@ window.ETYM_DATA = /*__DATA__*/;
   const LAND = "M95 330 L110 288 L138 252 L152 234 L182 224 L214 210 L248 192 L256 148 L286 96 L330 74 L362 100 L342 150 L302 180 L360 150 L420 112 L560 86 L700 96 L880 120 L948 180 L944 258 L882 300 L820 322 L772 300 L756 368 L722 330 L692 312 L642 330 L602 344 L562 330 L546 398 L502 420 L472 372 L456 340 L450 300 L402 280 L352 284 L332 300 L312 280 L292 290 L302 320 L282 342 L266 316 L252 292 L202 300 L162 320 L122 348 Z";
   const AFRICA = "M95 372 L200 362 L300 372 L408 380 L446 402 L470 428 L470 560 L60 560 L60 400 Z";
   const BRITAIN = "M162 196 L156 176 L168 158 L184 166 L190 186 L178 200 Z";
-  let jItem = null, jTimers = [];
+  let jItem = null, jAnimId = null;
   const pickJ = makePicker(document.getElementById("pickJ"), it => { jItem = it; runJourney(); });
   function journeyTree(it) {
     const gi = it.ei, g = groups[gi];
@@ -1319,7 +1383,7 @@ window.ETYM_DATA = /*__DATA__*/;
       const e = edges.get(targetChain[i - 1] + ">" + si);
       if (e) e.main = true;
     });
-    return { stations, edges: Array.from(edges.values()), onPath };
+    return { stations, edges: Array.from(edges.values()), onPath, chain: targetChain || [] };
   }
   function caption(s) {
     document.getElementById("jcaption").innerHTML =
@@ -1330,15 +1394,14 @@ window.ETYM_DATA = /*__DATA__*/;
   }
   function runJourney() {
     if (!jItem) return;
-    jTimers.forEach(clearTimeout); jTimers = [];
-    const { stations, edges, onPath } = journeyTree(jItem);
+    if (jAnimId) { clearTimeout(jAnimId); jAnimId = null; }
+    const { stations, edges, onPath, chain } = journeyTree(jItem);
     if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
-    const maxDepth = Math.max(...stations.map(s => s.depth));
     let svg = '<path class="j-land" d="' + LAND + '"/><path class="j-land" d="' + AFRICA + '"/><path class="j-land" d="' + BRITAIN + '"/>';
     edges.forEach(ed => {
       const p = stations[ed.a], s = stations[ed.b];
       const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(46, Math.hypot(s.x - p.x, s.y - p.y) * 0.2);
-      svg += '<path class="j-route' + (ed.main ? " main" : "") + ' jedge" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
+      svg += '<path class="j-route' + (ed.main ? " main" : "") + ' jedge" data-k="' + ed.a + ">" + ed.b + '" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
     });
     stations.forEach((s, i) => {
       const above = (s.depth + i) % 2 === 0;
@@ -1349,14 +1412,12 @@ window.ETYM_DATA = /*__DATA__*/;
     });
     const jm = document.getElementById("jmap");
     jm.innerHTML = svg;
-    jm.classList.add("j-anim");
     // timeline: unique eras
     const eras = Array.from(new Set(stations.map(s => s.era))).sort((a, b) => a - b);
     const eMin = eras[0], eMax = eras[eras.length - 1], span = Math.max(1, eMax - eMin);
     document.getElementById("jtimeline").innerHTML = '<div class="jt-axis"></div>' + eras.map(e => {
       const pct = 4 + 92 * ((e - eMin) / span);
-      const dep = Math.min(...stations.filter(s => s.era === e).map(s => s.depth));
-      return '<div class="jt-tick" data-d="' + dep + '" style="left:' + pct + '%"></div>' +
+      return '<div class="jt-tick" data-era="' + e + '" style="left:' + pct + '%"></div>' +
         (eras.length <= 7 || e === eMin || e === eMax
           ? '<div class="jt-lbl" style="left:' + pct + '%">' + eraLabel(e) + "</div>" : "");
     }).join("");
@@ -1370,48 +1431,90 @@ window.ETYM_DATA = /*__DATA__*/;
     jm.querySelectorAll(".jst").forEach(c => {
       c.addEventListener("pointerenter", () => caption(stations[+c.dataset.i]));
     });
-    // reveal animation, staggered by depth
-    const edgeEls = Array.from(jm.querySelectorAll(".jedge"));
+    // ---- deterministic rAF animation: gold road first, then the family fans out ----
+    const edgeMap = {};
+    jm.querySelectorAll(".jedge").forEach(el => { edgeMap[el.dataset.k] = el; });
     const grps = Array.from(jm.querySelectorAll(".j-st-grp"));
+    const stByIdx = {};
+    grps.forEach(g => { stByIdx[+g.dataset.i] = g; });
     const ticks = Array.from(document.querySelectorAll(".jt-tick"));
-    const stepMs = 620;
-    if (reduceMotion) {
-      ticks.forEach(t => t.classList.add("done"));
-      caption(stations[stations.length - 1]);
-      const tgt = stations.findIndex(s => s.isTarget);
-      if (tgt >= 0) caption(stations[tgt]);
-      return;
+    const walker = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    walker.setAttribute("class", "j-walker");
+    walker.setAttribute("r", "7");
+    jm.appendChild(walker);
+    const tgtStation = stations.find(s => s.isTarget);
+    function finishAll() {
+      jm.querySelectorAll(".jedge").forEach(el => { el.style.strokeDasharray = "none"; el.style.strokeDashoffset = 0; });
+      grps.forEach(g => g.style.opacity = 1);
+      ticks.forEach(tk => tk.classList.add("done"));
+      walker.style.opacity = 0;
+      caption(tgtStation || stations[stations.length - 1]);
     }
-    edgeEls.forEach(el => {
-      const L = el.getTotalLength();
-      el.style.strokeDasharray = L;
-      el.style.strokeDashoffset = L;
-      el.style.transitionDuration = ".55s";
-      el.style.transitionDelay = ((+el.dataset.d - 1) * stepMs + 150) / 1000 + "s";
-    });
-    grps.forEach(el => {
-      el.style.opacity = 0;
-      el.style.transitionDuration = ".4s";
-      el.style.transitionDelay = (+el.dataset.d * stepMs) / 1000 + "s";
-    });
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      edgeEls.forEach(el => el.style.strokeDashoffset = 0);
-      grps.forEach(el => el.style.opacity = 1);
-    }));
-    for (let d = 0; d <= maxDepth; d++) {
-      jTimers.push(setTimeout(() => {
-        ticks.forEach(tk => { if (+tk.dataset.d <= d) tk.classList.add("done"); });
-        const here = stations.filter(s => s.depth === d);
-        const pick = here.find(s => s.isTarget) || here.find((s, idx) => onPath.has(stations.indexOf(s))) || here[0];
-        if (pick) caption(pick);
-      }, d * stepMs + 250));
+    if (reduceMotion) { finishAll(); return; }
+    const mainEdges = [];
+    for (let i = 1; i < chain.length; i++) {
+      const el = edgeMap[chain[i - 1] + ">" + chain[i]];
+      if (el) mainEdges.push({ el, L: el.getTotalLength(), to: chain[i] });
     }
-    jTimers.push(setTimeout(() => {
-      const tgt = stations.find(s => s.isTarget);
-      if (tgt) caption(tgt);
-    }, (maxDepth + 1) * stepMs + 350));
+    const others = Array.from(jm.querySelectorAll(".jedge")).filter(el => !el.classList.contains("main"))
+      .map(el => ({ el, L: el.getTotalLength(), d: Math.max(1, +el.dataset.d) }));
+    const maxD = Math.max(1, ...others.map(o => o.d), ...stations.map(s => Math.max(1, s.depth)));
+    mainEdges.concat(others).forEach(o => { o.el.style.strokeDasharray = o.L; o.el.style.strokeDashoffset = o.L; });
+    grps.forEach(g => g.style.opacity = 0);
+    if (chain.length && stByIdx[chain[0]]) stByIdx[chain[0]].style.opacity = 1;
+    if (chain.length) caption(stations[chain[0]]);
+    const MAIN_MS = 850, FAN_MS = 480;
+    const T1 = 300 + mainEdges.length * MAIN_MS;
+    const T2 = T1 + maxD * FAN_MS + 500;
+    let capIdx = -1;
+    const t0 = performance.now();
+    function frame(now) {
+      const t = now - t0;
+      mainEdges.forEach((o, i) => {
+        const p = Math.max(0, Math.min(1, (t - 300 - i * MAIN_MS) / MAIN_MS));
+        o.el.style.strokeDashoffset = o.L * (1 - p);
+        if (p > 0 && p < 1) {
+          const pt = o.el.getPointAtLength(o.L * p);
+          walker.setAttribute("cx", pt.x); walker.setAttribute("cy", pt.y);
+          walker.style.opacity = 1;
+        }
+        if (p >= 1) {
+          if (stByIdx[o.to]) stByIdx[o.to].style.opacity = 1;
+          if (i > capIdx) {
+            capIdx = i;
+            const st = stations[o.to];
+            caption(st);
+            ticks.forEach(tk => { if (+tk.dataset.era <= st.era) tk.classList.add("done"); });
+          }
+        }
+      });
+      if (t > T1) {
+        walker.style.opacity = 0;
+        others.forEach(o => {
+          const p = Math.max(0, Math.min(1, (t - T1 - (o.d - 1) * FAN_MS) / FAN_MS));
+          o.el.style.strokeDashoffset = o.L * (1 - p);
+        });
+        grps.forEach(g => {
+          const st = stations[+g.dataset.i];
+          const start = T1 + (Math.max(1, st.depth) - 1) * FAN_MS + FAN_MS * 0.45;
+          if (t > start) g.style.opacity = Math.min(1, (t - start) / 300);
+        });
+      }
+      return t < T2;
+    }
+    function loop() {
+      if (frame(performance.now())) jAnimId = setTimeout(loop, 33);
+      else { finishAll(); jAnimId = null; }
+    }
+    jAnimId = setTimeout(loop, 40);
   }
   document.getElementById("jplay").addEventListener("click", () => { if (jItem) runJourney(); });
+  document.getElementById("jrand").addEventListener("click", () => {
+    const words = index.filter(i => i.kind === "word" && i.faLabel);
+    const pool = words.length ? words : index.filter(i => i.kind === "word");
+    if (!pool.length) return;
+    pickJ.set(pool[Math.floor(Math.random() * pool.length)]);
+  });
   onShowView.journey = () => {
     if (!jItem) {
       const seed = searchIndex("pardis", true)[0] || searchIndex("paradise", true)[0] || index.find(i => i.kind === "word");
