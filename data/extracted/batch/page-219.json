@@ -1,0 +1,161 @@
+{
+  "pdf_page": 219,
+  "book_page": 189,
+  "entries": [
+    {
+      "root": {
+        "name": "Habl",
+        "lang": "Aramaic",
+        "refs": "VDQ:176",
+        "gloss": "rope"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "KLN:216",
+          "words": [
+            {"translit": "habl", "gloss": "rope, cable", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "FVA:89",
+          "words": [
+            {"translit": "habl", "gloss": "rope", "script": "حَبل"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": {"text": "کله دلو کرد آن پسندیده کیش - چو حبل اندرآن بست دستار خویش", "poet": "Sa`dî"}
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "Portuguese",
+          "refs": "KLN:216",
+          "words": [
+            {"translit": "cable", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": "KLN:216 claims this is a blend of Arabic \"habl: rope\" and Latin \"caplum: a halter for cattle\". AHD and FSD drive it from Latin (See \"Kap\").",
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "French",
+          "refs": "KLN:216",
+          "words": [
+            {"translit": "kâbl", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Persian",
+          "refs": "MON:2777",
+          "words": [
+            {"translit": "kâbl", "gloss": "cable", "script": "کابل"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 4,
+          "lang": "English",
+          "refs": "KLN:216",
+          "words": [
+            {"translit": "cable", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": "See root \"Kap\" for another possible root.",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Haem, Haya",
+        "lang": "Avestan",
+        "refs": "HRN:114; FVS:168,179",
+        "gloss": "character, nature"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "PHD:94; HRN:114",
+          "words": [
+            {"translit": "xîm", "gloss": "temper, nature", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:804; HRN:114; FSF:168,179",
+          "words": [
+            {"translit": "xîm", "gloss": "temper, nature", "script": "خیم"},
+            {"translit": "dožxîm", "gloss": "bad tempered", "script": "دژخیم", "see": ["Dus"]}
+          ],
+          "script_extra": "بدخیم ، خوش خیم",
+          "note": null,
+          "quote": {"text": "دگر خوی را آنک خوانیم خیم - که با او ندارد دل از دیو بیم", "poet": "Ferdowsî"}
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Hâvana",
+        "lang": "Avestan",
+        "refs": "MON:5095",
+        "gloss": "mortar"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "MON:5095",
+          "words": [
+            {"translit": "hâvan", "gloss": "mortar", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:2312; HRN:244",
+          "words": [
+            {"translit": "hâvan", "gloss": "mortar", "script": "هاون"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": {"text": "نه پیش من دواوین بود و دفتر - نه عیسی را عقاقیر است و هاون", "poet": "Marzbân Nâmeh"}
+        }
+      ]
+    },
+    {
+      "root": {"name": "Haya", "redirect": "Haem"},
+      "nodes": []
+    }
+  ]
+}

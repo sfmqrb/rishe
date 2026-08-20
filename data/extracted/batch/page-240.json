@@ -1,0 +1,276 @@
+{
+  "pdf_page": 240,
+  "book_page": 210,
+  "entries": [
+    {
+      "root": {
+        "name": "Kânŭnu",
+        "lang": "Akkadian",
+        "refs": "MON:2875; BQT:1580",
+        "gloss": "fireplace"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Syriac",
+          "refs": "MON:2875",
+          "words": [],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Arabic",
+          "refs": "MON:2875",
+          "words": [],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:1580; MON:2875",
+          "words": [
+            {"translit": "kânŭn", "gloss": "fireplace, hart", "script": "کانون ۱"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": {
+            "text": "چو گیرد آتش خشم تو بالا - نیابد از دو عالم نیم کانون",
+            "poet": "Anvarî"
+          }
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kap, Qap",
+        "lang": "Indo-European",
+        "refs": "POK:527",
+        "gloss": "grasp"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Old Persian",
+          "refs": "BQT:636",
+          "words": [
+            {"translit": "čifsati", "gloss": "attach", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "POK:527; HRN:98; IEC:473",
+          "words": [
+            {"translit": "časbîdan", "gloss": "to attach", "script": "چسبیدن"}
+          ],
+          "script_extra": "چسپیدن ، چپسیدن ، چفسیدن ، چسب",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Old Persian",
+          "refs": "POK:527; HUB:89",
+          "words": [
+            {"translit": "kapithe", "gloss": "a box for measuring grain", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Pahlavi",
+          "refs": "MON:3010",
+          "words": [
+            {"translit": "kapîč", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Persian",
+          "refs": "MON:3010",
+          "words": [
+            {"translit": "kavîz", "gloss": "a measure of capacity", "script": "کویز"}
+          ],
+          "script_extra": "کویژ ، کفیز ، قفیز",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": null,
+          "words": [
+            {"translit": "kapsa", "gloss": "box, cage", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "Arabic",
+          "refs": "MON:2700",
+          "words": [],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 8,
+          "parent": 7,
+          "lang": "Persian",
+          "refs": "BQT:1534",
+          "words": [
+            {"translit": "qafas", "gloss": "cage", "script": "قفس"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 9,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "POK:524",
+          "words": [
+            {"translit": "capere", "gloss": "to take", "script": null},
+            {"translit": "capsa", "gloss": "case, box", "script": null},
+            {"translit": "for-ceps", "gloss": "fire tongs", "script": null, "see": ["Gwher"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 10,
+          "parent": 9,
+          "lang": "French",
+          "refs": null,
+          "words": [],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 11,
+          "parent": 10,
+          "lang": "Persian",
+          "refs": "MON:1997,2777,2896",
+          "words": [],
+          "script_extra": "کپسول ، کابل ، شاسی",
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 12,
+          "parent": 10,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "case, capsule, cable, chassis", "gloss": null, "script": null},
+            {"translit": "catch, receive, deceive, forceps", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": "See root \"Habl: rope\" for another possible root for \"cable\".",
+          "quote": null
+        },
+        {
+          "id": 13,
+          "parent": 9,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "capstan, caption, captive, accept, except", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 14,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "AHD",
+          "words": [
+            {"translit": "hâben", "gloss": "to have", "script": null},
+            {"translit": "hafigaz", "gloss": "containing something, heavy", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 15,
+          "parent": 14,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "have, heavy", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kapastay, Kapasti",
+        "lang": "Old Persian / Avestan",
+        "refs": "BRT:436",
+        "gloss": "poison, a bitter plant"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "HRN:187",
+          "words": [
+            {"translit": "kapast", "gloss": "poison", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:1588",
+          "words": [
+            {"translit": "kabast", "gloss": "poison", "script": "کَبست"}
+          ],
+          "script_extra": "کَبستو",
+          "note": null,
+          "quote": {
+            "text": "چرا کشت باید درختی بدست - که بارش بود زهر و بیخش کبست",
+            "poet": "Ferdowsî"
+          }
+        }
+      ]
+    }
+  ]
+}

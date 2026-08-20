@@ -1,0 +1,189 @@
+{
+  "pdf_page": 232,
+  "book_page": 202,
+  "entries": [
+    {
+      "root": {
+        "name": "Kâd 1",
+        "lang": "Indo-European",
+        "refs": "POK:517",
+        "gloss": "sorrow, hatred"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:517",
+          "words": [
+            {"translit": "sâdra", "gloss": "pain, grief", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:1069; MON:1790",
+          "words": [
+            {"translit": "sâr", "gloss": "grief, pain", "script": "سار ۲"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "AHD",
+          "words": [
+            {"translit": "hatiz", "gloss": "hate", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "hate", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kad 2",
+        "lang": "Indo-European",
+        "refs": "POK:516",
+        "gloss": "to fall"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "POK:516; AHD",
+          "words": [
+            {"translit": "cadentia", "gloss": "a fall, a chance", "script": null},
+            {"translit": "ob-cad-ere, occâsiô", "gloss": "to fall down as an opportunity, occasion", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "French",
+          "refs": "AHD",
+          "words": [],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "VOP:56,234",
+          "words": [
+            {"translit": "čâns", "gloss": "chance", "script": "شانس"},
+            {"translit": "okâzîon", "gloss": "opportunity", "script": "اکازیون"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 2,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "chance, occasion", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Latin",
+          "refs": "POK:516; AHD",
+          "words": [
+            {"translit": "cad-ere", "gloss": "to fall", "script": null},
+            {"translit": "ad-cad-ere, accidere", "gloss": "to fall upon, accident", "script": null},
+            {"translit": "in-cad-ere, incidere", "gloss": "to fall upon, incident", "script": null},
+            {"translit": "casicare", "gloss": "to fall (cascade)", "script": null},
+            {"translit": "de-cad-ere", "gloss": "to fall down, decay", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "accident", "gloss": null, "script": null},
+            {"translit": "incident", "gloss": null, "script": null},
+            {"translit": "cascade", "gloss": null, "script": null},
+            {"translit": "decay", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kafa",
+        "lang": "Avestan",
+        "refs": "HRN:192; KGW:281",
+        "gloss": "foam",
+        "note": "This is cognate with Sanskrit \"kapha\" and Russian \"kaplja: drops\""
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "MON:2997",
+          "words": [
+            {"translit": "kaf", "gloss": "froth, foam", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:1658; MON:2997,3002",
+          "words": [
+            {"translit": "kaf", "gloss": "foam, froth, lather", "script": "کف"},
+            {"translit": "kafč-lîz", "gloss": "a ladle for removing scum or foam from liquids", "script": "کفچلیز"}
+          ],
+          "script_extra": "کف آلود ، کفچ",
+          "note": "IEC:481 derives Persian \"kofč: ladle\" from Indo-European root \"Kauks: shell, bowl, cup\"",
+          "quote": {"text": "تو در این جوشش چو معمار منی - کفچلیزم زن که بس خوش میزنی", "poet": "Molavî"}
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:199",
+          "words": [
+            {"translit": "kwb", "gloss": "foam", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

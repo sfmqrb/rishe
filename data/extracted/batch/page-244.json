@@ -1,0 +1,158 @@
+{
+  "pdf_page": 244,
+  "book_page": 214,
+  "entries": [
+    {
+      "root": {
+        "name": "Karšvar",
+        "lang": "Avestan / Old Persian",
+        "refs": "BRT:459; HRN:191",
+        "gloss": "a \"circle\" of land, country"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "BRT:459",
+          "words": [
+            {"translit": "kîšvar", "gloss": "country", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "BQT:1656; BRT:459",
+          "words": [
+            {"translit": "kešvar", "gloss": "country", "script": "کشور"}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kas 1",
+        "redirect": "Kes 1"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Kâs 2",
+        "lang": "Indo-European",
+        "refs": "POK:533; WLD1:358",
+        "gloss": "to direct, command"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "POK:533; BRT:1574; SYN:1338; BQT:354",
+          "words": [
+            {"translit": "sâs 1, sâh 1", "gloss": "command", "script": null},
+            {"translit": "sâsta, sâstar", "gloss": "ruler, oppressor", "script": null},
+            {"translit": "sâxvan, sâsnâ", "gloss": "instructions, teachings", "script": null},
+            {"translit": "paiti-sahva", "gloss": "return of speech, answer", "script": null, "see": ["Per 3"]}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "BQT:354,1573; MON:1843",
+          "words": [
+            {"translit": "sâstâr", "gloss": "ruler, oppressor", "script": null},
+            {"translit": "sâstâreh", "gloss": "bad domination", "script": null},
+            {"translit": "soxvan", "gloss": "instructions, speech", "script": null},
+            {"translit": "passaxv, pasux", "gloss": "answer", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:354,1072,1107; HRN:160; MON:1796; FSF:99",
+          "words": [
+            {"translit": "sâstâ", "gloss": "oppressor, demon", "script": "ساستا"},
+            {"translit": "soxan", "gloss": "speech", "script": "سخن"},
+            {"translit": "pâsox", "gloss": "answer", "script": "پاسخ"}
+          ],
+          "script_extra": "ساستار",
+          "note": "See \"Kens\" for another possible root of \"soxan\". See \"Wegwh\" for another possible root of \"pâsox\"",
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kasyapa",
+        "lang": "Avestan",
+        "refs": "MON:2987; SOD:204; BQT:1651",
+        "gloss": "tortoise",
+        "note": "Cognate with Sanskrit \"kačyâpa\""
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "MON:2987; BQT:1651; HRN:191",
+          "words": [
+            {"translit": "kašaf", "gloss": "tortoise", "script": "کَشَف"}
+          ],
+          "note": null,
+          "quote": {
+            "text": "چون کَشَف انبوه غوغایی بدید - بانگ وژخ مردمان، خشم آفرید",
+            "poet": "Rŭdakî"
+          }
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:204",
+          "words": [
+            {"translit": "kyšf", "gloss": "tortoise", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Kâtara",
+        "lang": "Sanskrit",
+        "refs": "BQT:1555",
+        "gloss": "shy, disoriented, wandering"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "BQT:1555",
+          "words": [
+            {"translit": "kâtŭreh", "gloss": "wandering, disoriented, dizziness", "script": "کاتوره"}
+          ],
+          "script_extra": "کاتور",
+          "note": "Persian words may be cognates with rather than derivatives from Sanskrit",
+          "quote": {
+            "text": "هیچ راحت می نبینم در سرود و رود تو - جزکه ازفریاد و زخمه ات خلق را کاتوره خاست",
+            "poet": "Rŭdakî"
+          }
+        }
+      ]
+    }
+  ]
+}
