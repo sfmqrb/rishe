@@ -1,0 +1,204 @@
+{
+  "pdf_page": 321,
+  "book_page": 291,
+  "entries": [
+    {
+      "root": {
+        "name": "Mantellum, Mantil",
+        "lang": "Latin",
+        "refs": "SYN:417; KLN:932",
+        "gloss": "cloak, towel; cloak"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "KLN:932",
+          "words": [
+            {"translit": "mandîl", "gloss": "turban, napkin", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:4389",
+          "words": [
+            {"translit": "mandîl", "gloss": "napkin, turban", "script": "منديل"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "English",
+          "refs": "KLN:932",
+          "words": [
+            {"translit": "mandil", "gloss": "turban", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "French",
+          "refs": "KLN:934",
+          "words": [
+            {"translit": "manteau", "gloss": "cloak", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "Persian",
+          "refs": "MON:3718",
+          "words": [
+            {"translit": "mânto", "gloss": "manteau", "script": "مانتو"}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 4,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "manteau", "gloss": null, "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Mantil",
+        "redirect": "Mantellum"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Manu",
+        "redirect": "Men 1"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Manus",
+        "redirect": "Men 1"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Mareğâ",
+        "lang": "Avestan",
+        "refs": "BQT:1990",
+        "gloss": "grass",
+        "note": "EAV:866 indicates that this word is related to the Greek word \"amorphous: shepherd\"."
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "BQT:1990; MON:4019",
+          "words": [
+            {"translit": "marğ", "gloss": "grass, a kind of fast growing weed", "script": "مَرغ ۲"},
+            {"translit": "marğzâr", "gloss": "meadow", "script": "مرغزار", "see": ["Kwel"]}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": {"text": "بیاسود چندی زبهر شکار - همی گشت در کوه و در مرغزار", "poet": "Ferdowsî"}
+        },
+        {
+          "id": 2,
+          "parent": 0,
+          "lang": "Sogdian",
+          "refs": "SOD:216",
+          "words": [
+            {"translit": "mrğ", "gloss": "meadow", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Mašakah",
+        "lang": "Sanskrit",
+        "refs": "KLN:1018",
+        "gloss": "animal skin used for carrying water"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Pahlavi",
+          "refs": "BQT:2014",
+          "words": [
+            {"translit": "mašk", "gloss": "leather", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:4147; BQT:2014",
+          "words": [
+            {"translit": "mašk", "gloss": "animal skin for carrying water", "script": "مَشک ۳"},
+            {"translit": "maškŭ", "gloss": "(royal) tent", "script": "مَشکو ۲"}
+          ],
+          "script_extra": "مَشکو ۱ ، مَشکول ، مَشکوله",
+          "note": null,
+          "quote": {"text": "فغستان چو آمد به مَشکوی شاه - یکی تاج بر سر زمشک سیاه", "poet": "Ferdowsî"}
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Hindustani",
+          "refs": "KLN:1018",
+          "words": [
+            {"translit": "masak", "gloss": "animal skin for carrying water", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "English",
+          "refs": "KLN:1018",
+          "words": [
+            {"translit": "mussuck, mussuk", "gloss": "animal skin for carrying water", "script": null}
+          ],
+          "script_extra": null,
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

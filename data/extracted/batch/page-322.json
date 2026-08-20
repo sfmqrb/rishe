@@ -1,0 +1,182 @@
+{
+  "pdf_page": 322,
+  "book_page": 292,
+  "entries": [
+    {
+      "root": {
+        "name": "Masgdâ",
+        "lang": "Aramaic",
+        "refs": "KLN:1007; VDQ:379",
+        "gloss": "place of worship"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Arabic",
+          "refs": "KLN:1007",
+          "words": [
+            {"translit": "masjed", "gloss": "mosque", "script": null},
+            {"translit": "s.j.d", "gloss": "to prostrate, pray to God", "script": null}
+          ],
+          "note": "FVF:638 claims that Arabic \"masjed\" is from Persian \"mazget\"",
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "FVA:185",
+          "words": [
+            {"translit": "sojŭd", "gloss": "prostration", "script": "سجود ( سجده )"},
+            {"translit": "sâjed", "gloss": "one who prays to God", "script": "ساجد ( سجّاد ، سجّاده )"},
+            {"translit": "masjed", "gloss": "place of prayers, mosque", "script": "مسجد"}
+          ],
+          "note": null,
+          "quote": {
+            "text": "همه کس طالب یارند چه هشیار و چه مست - همه جا خانهٔ عشقست چه مسجد چه کِنِشت",
+            "poet": "Hâfez"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "Spanish",
+          "refs": "KLN:1007",
+          "words": [
+            {"translit": "mesquita", "gloss": "mosque", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Italian",
+          "refs": null,
+          "words": [
+            {"translit": "moschea", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "lang": "French",
+          "refs": "KLN:1007",
+          "words": [
+            {"translit": "mosquee", "gloss": "mosque", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "English",
+          "refs": "KLN:1007",
+          "words": [
+            {"translit": "mosque", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "BQT:2001; FVF:638; MON:4063",
+          "words": [
+            {"translit": "mazget", "gloss": "mosque", "script": null}
+          ],
+          "script_extra": "مزگت ، مزکت",
+          "note": null,
+          "quote": {
+            "text": "سخن دوزخی را بهشتی کند - سخن مزگتی را کنشتی کند",
+            "poet": "Asadî"
+          }
+        }
+      ]
+    },
+    {
+      "root": {"name": "Massa", "redirect": "M.s.s"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Mâ-ter", "redirect": "Mâ"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Mazaxa", "redirect": "Madhaxa"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Mbh", "redirect": "Nobh"},
+      "nodes": []
+    },
+    {
+      "root": {"name": "Mbhi", "redirect": "Ambhi"},
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Mě 1",
+        "lang": "Indo-European",
+        "refs": "POK:703; KNT:210",
+        "gloss": "no, not"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan / Old Persian",
+          "refs": "POK:703; KNT:201",
+          "words": [
+            {"translit": "mâ 2", "gloss": "no, not", "script": null},
+            {"translit": "mâ-tya", "gloss": "that not, lest", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:3677",
+          "words": [
+            {"translit": "ma-", "gloss": "a prefix negating verbs", "script": "مَ-"}
+          ],
+          "script_extra": "مرو ، مگو ، مباد",
+          "note": null,
+          "quote": {
+            "text": "پس از مرگ جوانان گل مماناد - پس از گل درچمن بلبل مخواناد",
+            "poet": "Qabfahî"
+          }
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Sanskrit",
+          "refs": "POK:703",
+          "words": [
+            {"translit": "mâ", "gloss": "no, not", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "POK:703",
+          "words": [
+            {"translit": "mě", "gloss": "no, not", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}
