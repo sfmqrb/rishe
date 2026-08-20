@@ -1199,9 +1199,9 @@ window.ETYM_DATA = /*__DATA__*/;
     "sanskrit": [745, 300, -1200, "India"], "pali": [745, 305, -300, "India"], "prakrit": [745, 305, -300, "India"],
     "hindustani": [740, 295, 1500, "India"], "hindi": [740, 295, 1600, "India"], "urdu": [735, 290, 1600, "India"],
     "avestan": [668, 232, -1000, "Bactria"],
-    "old persian": [628, 292, -500, "Persis"],
-    "pahlavi": [618, 278, 300, "Iran"], "middle persian": [618, 278, 300, "Iran"],
-    "persian": [630, 275, 1000, "Iran"],
+    "old persian": [640, 300, -500, "Persis"],
+    "pahlavi": [604, 282, 300, "Iran"], "middle persian": [604, 282, 300, "Iran"],
+    "persian": [626, 268, 1000, "Iran"],
     "parthian": [640, 258, -100, "Parthia"], "old iranian": [648, 250, -800, "Iran"], "iranian": [648, 250, -800, "Iran"],
     "indo-scythian": [690, 210, -200, "Scythia"], "indo-schythian": [690, 210, -200, "Scythia"],
     "sogdian": [692, 198, 500, "Sogdiana"], "khotanese": [740, 230, 500, "Khotan"],
@@ -1245,62 +1245,81 @@ window.ETYM_DATA = /*__DATA__*/;
   const pickJ = makePicker(document.getElementById("pickJ"), it => { jItem = it; runJourney(); });
   function journeyTree(it) {
     const gi = it.ei, g = groups[gi];
-    const stations = [], key2idx = new Map();
-    function addStation(stKey, s, parentIdx, info) {
-      const k = stKey + "|" + (parentIdx == null ? -1 : parentIdx);
-      if (key2idx.has(k)) {
-        const st = stations[key2idx.get(k)];
-        if (info.word && st.words.indexOf(info.word) < 0 && st.words.length < 4) st.words.push(info.word);
-        if (info.script && !st.script) st.script = info.script;
-        if (info.gloss && !st.gloss) st.gloss = info.gloss;
+    const stations = [], key2idx = new Map(), edges = new Map();
+    function addStation(stKey, s, info) {
+      if (key2idx.has(stKey)) {
+        const st = stations[key2idx.get(stKey)];
         if (info.isTarget) { st.isTarget = true; if (info.word) { st.words = [info.word]; st.script = info.script; st.gloss = info.gloss; } }
-        return key2idx.get(k);
+        else {
+          if (info.word && st.words.indexOf(info.word) < 0 && st.words.length < 4 && !st.isTarget) st.words.push(info.word);
+          if (info.script && !st.script) st.script = info.script;
+          if (info.gloss && !st.gloss) st.gloss = info.gloss;
+        }
+        return key2idx.get(stKey);
       }
       const idx = stations.length;
       stations.push({
         x: s[0], y: s[1], era: s[2], place: s[3], lang: info.lang || "?",
         words: info.word ? [info.word] : [], script: info.script || null, gloss: info.gloss || null,
-        fam: famOf(info.lang), parent: parentIdx,
-        depth: parentIdx == null ? 0 : stations[parentIdx].depth + 1,
-        isTarget: !!info.isTarget
+        fam: famOf(info.lang), depth: 99, isTarget: !!info.isTarget
       });
-      key2idx.set(k, idx);
+      key2idx.set(stKey, idx);
       return idx;
+    }
+    function addEdge(a, b) {
+      if (a == null || b == null || a === b) return;
+      edges.set(a + ">" + b, { a, b, main: false });
     }
     const rootSt = stationFor(g.root.lang);
     let rootIdx = null;
-    if (rootSt) rootIdx = addStation(rootSt.key, rootSt.s, null, { lang: g.root.lang, word: g.root.name, gloss: g.root.gloss });
+    if (rootSt) { rootIdx = addStation(rootSt.key, rootSt.s, { lang: g.root.lang, word: g.root.name, gloss: g.root.gloss }); stations[rootIdx].depth = 0; }
+    let targetChain = null;
     g.entries.forEach((e, eIdx) => {
       const byId = {}; (e.nodes || []).forEach(n => byId[n.id] = n);
       const memo = {};
       function resolve(nid) {
         if (!nid || !byId[nid]) return rootIdx;
         if (nid in memo) return memo[nid];
-        memo[nid] = rootIdx; // cycle guard
+        memo[nid] = rootIdx;
         const n = byId[nid];
         const parentIdx = resolve(n.parent || 0);
         const st = stationFor(n.lang);
         if (!st) { memo[nid] = parentIdx; return parentIdx; }
         const isTarget = ("n" + gi + "_" + eIdx + "_" + n.id) === it.vid;
         const w = (isTarget && n.words[it.wi]) ? n.words[it.wi] : (n.words || [])[0];
-        const idx = addStation(st.key, st.s, parentIdx, {
+        const idx = addStation(st.key, st.s, {
           lang: n.lang, word: w ? w.translit : null,
           script: w && w.script ? w.script : (n.script_extra || null),
           gloss: w ? w.gloss : null, isTarget
         });
+        addEdge(parentIdx, idx);
+        if (parentIdx != null) stations[idx].depth = Math.min(stations[idx].depth, stations[parentIdx].depth + 1);
         memo[nid] = idx;
         return idx;
       }
       (e.nodes || []).forEach(n => resolve(n.id));
+      // reconstruct the chosen word's own road through this entry
+      (e.nodes || []).forEach(n => {
+        if (("n" + gi + "_" + eIdx + "_" + n.id) !== it.vid) return;
+        const chain = [];
+        let cur = n.id, guard = 0;
+        while (cur && byId[cur] && guard++ < 80) {
+          const si = memo[cur];
+          if (si != null && chain[chain.length - 1] !== si) chain.push(si);
+          cur = byId[cur].parent || 0;
+        }
+        if (rootIdx != null && chain[chain.length - 1] !== rootIdx) chain.push(rootIdx);
+        targetChain = chain.reverse();
+      });
     });
-    // spread stations that share coordinates
-    const spots = {};
-    stations.forEach(s => {
-      const k = Math.round(s.x / 14) + "," + Math.round(s.y / 14);
-      const i = (spots[k] = (spots[k] || 0) + 1) - 1;
-      if (i > 0) { const a = i * 2.4; s.x += Math.cos(a) * 15 * Math.ceil(i / 2); s.y += Math.sin(a) * 13 * Math.ceil(i / 2); }
+    stations.forEach(s => { if (s.depth === 99) s.depth = 1; });
+    const onPath = new Set(targetChain || []);
+    (targetChain || []).forEach((si, i) => {
+      if (i === 0) return;
+      const e = edges.get(targetChain[i - 1] + ">" + si);
+      if (e) e.main = true;
     });
-    return stations;
+    return { stations, edges: Array.from(edges.values()), onPath };
   }
   function caption(s) {
     document.getElementById("jcaption").innerHTML =
@@ -1312,20 +1331,14 @@ window.ETYM_DATA = /*__DATA__*/;
   function runJourney() {
     if (!jItem) return;
     jTimers.forEach(clearTimeout); jTimers = [];
-    const stations = journeyTree(jItem);
+    const { stations, edges, onPath } = journeyTree(jItem);
     if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
-    // the chosen word's own road
-    const onPath = new Set();
-    stations.forEach((s, i) => { if (s.isTarget) { let c = i; while (c != null) { onPath.add(c); c = stations[c].parent; } } });
     const maxDepth = Math.max(...stations.map(s => s.depth));
     let svg = '<path class="j-land" d="' + LAND + '"/><path class="j-land" d="' + AFRICA + '"/><path class="j-land" d="' + BRITAIN + '"/>';
-    // edges under stations
-    stations.forEach((s, i) => {
-      if (s.parent == null) return;
-      const p = stations[s.parent];
+    edges.forEach(ed => {
+      const p = stations[ed.a], s = stations[ed.b];
       const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(46, Math.hypot(s.x - p.x, s.y - p.y) * 0.2);
-      const main = onPath.has(i) && onPath.has(s.parent);
-      svg += '<path class="j-route' + (main ? " main" : "") + ' jedge" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
+      svg += '<path class="j-route' + (ed.main ? " main" : "") + ' jedge" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
     });
     stations.forEach((s, i) => {
       const above = (s.depth + i) % 2 === 0;
@@ -1358,7 +1371,7 @@ window.ETYM_DATA = /*__DATA__*/;
       c.addEventListener("pointerenter", () => caption(stations[+c.dataset.i]));
     });
     // reveal animation, staggered by depth
-    const edges = Array.from(jm.querySelectorAll(".jedge"));
+    const edgeEls = Array.from(jm.querySelectorAll(".jedge"));
     const grps = Array.from(jm.querySelectorAll(".j-st-grp"));
     const ticks = Array.from(document.querySelectorAll(".jt-tick"));
     const stepMs = 620;
@@ -1369,7 +1382,7 @@ window.ETYM_DATA = /*__DATA__*/;
       if (tgt >= 0) caption(stations[tgt]);
       return;
     }
-    edges.forEach(el => {
+    edgeEls.forEach(el => {
       const L = el.getTotalLength();
       el.style.strokeDasharray = L;
       el.style.strokeDashoffset = L;
@@ -1382,7 +1395,7 @@ window.ETYM_DATA = /*__DATA__*/;
       el.style.transitionDelay = (+el.dataset.d * stepMs) / 1000 + "s";
     });
     requestAnimationFrame(() => requestAnimationFrame(() => {
-      edges.forEach(el => el.style.strokeDashoffset = 0);
+      edgeEls.forEach(el => el.style.strokeDashoffset = 0);
       grps.forEach(el => el.style.opacity = 1);
     }));
     for (let d = 0; d <= maxDepth; d++) {
