@@ -1,4 +1,4 @@
-<title>Wordroots</title>
+<title>Rishe</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans:wght@500;700;800&family=Vazirmatn:wght@400;700&family=Amiri:ital@0;1&display=swap">
 <style>
   :root {
@@ -87,8 +87,14 @@
     background: var(--panel);
     flex-wrap: wrap; position: relative; z-index: 2;
   }
+  .wordmark { display: flex; align-items: center; gap: 8px; }
   .wordmark .lat-name { font-family: var(--serif); font-weight: 700; font-size: 23px; letter-spacing: .01em; }
   .wordmark .lat-name::first-letter { color: var(--gold); }
+  .logo { width: 34px; height: 34px; flex-shrink: 0; }
+  .logo path, .logo line { fill: none; stroke-width: 3.4; stroke-linecap: round; }
+  .logo .lg-h { stroke: var(--muted); stroke-width: 2.4; }
+  .logo .lg-plant path { stroke: var(--fam-iranian); }
+  .logo .lg-root path { stroke: var(--gold); }
   .tagline { font-style: italic; color: var(--muted); font-size: 13.5px; }
   header .spacer { flex: 1; }
   nav.tabs { display: flex; gap: 2px; align-self: flex-end; flex-wrap: wrap; }
@@ -323,6 +329,15 @@
   .flowtable table { border-collapse: collapse; margin-top: 8px; }
   .flowtable td, .flowtable th { border: 1px solid var(--line); padding: 4px 10px; text-align: left; font-variant-numeric: tabular-nums; }
 
+  /* ============ ABOUT VIEW ============ */
+  #view-about { overflow: auto; display: none; }
+  #view-about.on { display: block; }
+  .aboutpanel { max-width: 660px; margin: 0 auto; padding: 44px 24px 170px; font-size: 17px; line-height: 1.65; }
+  .aboutpanel p { margin: 0 0 16px; }
+  .aboutpanel h2 { font-family: var(--sans); font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin: 30px 0 8px; }
+  .aboutpanel a { color: var(--accent); }
+  .about-epigraph { font-family: var(--fa-verse); font-size: 26px; direction: rtl; text-align: center; color: var(--gold); margin: 0 0 6px; }
+
   /* ============ JOURNEY VIEW ============ */
   #view-journey { flex-direction: column; overflow: auto; }
   .jpanel { max-width: 1020px; margin: 0 auto; padding: 26px 24px 160px; width: 100%; }
@@ -371,8 +386,28 @@
 <div id="app">
   <div id="frieze" aria-hidden="true"></div>
   <header class="bar">
-    <span class="wordmark"><span class="lat-name">Wordroots</span></span>
-    <span class="tagline">tracing Persian &amp; English words to their common roots — after Ali Nourai’s dictionary</span>
+    <span class="wordmark">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <line class="lg-h" x1="13" y1="31" x2="51" y2="31"/>
+        <g class="lg-plant">
+          <path d="M32 31 V13"/>
+          <path d="M32 22 C28 18 25 16 21 14"/>
+          <path d="M32 22 C36 18 39 16 43 14"/>
+          <path d="M32 17 C30 14 28.5 12.5 26 11"/>
+        </g>
+        <g class="lg-root">
+          <path d="M32 31 V42"/>
+          <path d="M32 35 C26 38 22 41 17 47"/>
+          <path d="M32 35 C38 38 42 41 47 47"/>
+          <path d="M32 42 C29 47 27 49 25 54"/>
+          <path d="M32 42 C35 47 37 49 39 54"/>
+          <path d="M24 41 C21 43 19.5 45 18 48" />
+          <path d="M40 41 C43 43 44.5 45 46 48" />
+        </g>
+      </svg>
+      <span class="lat-name">Rishe</span>
+    </span>
+    <span class="tagline">ریشه · the roots of Persian &amp; English — after Ali Nourai’s dictionary</span>
     <span class="spacer"></span>
     <nav class="tabs" aria-label="Views">
       <button data-v="map">Map</button>
@@ -380,6 +415,7 @@
       <button data-v="path">Pathfinder</button>
       <button data-v="flows">Flows</button>
       <button data-v="journey">Journey</button>
+      <button data-v="about">About</button>
     </nav>
     <span class="hdr-tools">
       <span class="count-note" id="count"></span>
@@ -436,6 +472,52 @@
         <div id="sankey"></div>
         <details class="flowtable"><summary>View as table</summary><div id="flowtablebody"></div></details>
       </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-about">
+    <div class="aboutpanel">
+      <p class="about-epigraph" lang="fa">«فارسی شکر است»</p>
+      <h1 class="path-title">About Rishe</h1>
+      <p><b>Rishe</b> (ریشه) is the Persian word for <i>root</i>.
+      I made this because I love Farsi — the language I think and feel in — and I wanted to
+      <em>see</em> how deep its roots go. Every Persian word carries centuries of travel in it:
+      down from the steppe through Avestan and Old Persian, in and out of Arabic, Greek, and
+      Turkish, sometimes all the way into English and back again. A dictionary tells you this
+      one entry at a time; I wanted a place where you could wander it — follow برق to
+      <em>emerald</em>, watch پردیس become <em>paradise</em>, and see the whole ancestry of a
+      language laid out like a night sky.</p>
+
+      <h2>The source</h2>
+      <p>Everything here is drawn from <b>Ali Nourai’s</b>
+      <i>An Etymological Dictionary of Persian, English and other Indo-European Languages</i> —
+      a remarkable labor of love charting over 1,600 shared roots of some 4,700 Persian and
+      3,300 English words. This site is an interactive rendition of his hand-drawn charts;
+      all the scholarship is his, and every chart links back to a scan of the printed page it
+      came from. The book is freely available at the
+      <a href="https://archive.org/details/AnEtymologicalDictionaryOfPersianEnglishAndOtherIndo-europeanLanguages"
+         target="_blank" rel="noopener">Internet Archive</a>.</p>
+
+      <h2>How the text was extracted</h2>
+      <p>The book exists only as a scanned image — no digital text — and ordinary OCR destroys
+      its hand-drawn charts. So the extraction was done by a fleet of <b>Claude</b> (Anthropic)
+      vision-model agents working page by page: each of the 541 chart pages was rendered at
+      200&nbsp;DPI, every box was read with the Perso-Arabic script transcribed character by
+      character from magnified crops (diacritics included), the drawn arrows were traced to
+      reconstruct each derivation tree, and the results were checked structurally — every
+      parent link, page number, and script field validated — with disputed glyphs re-read
+      against classical verse where the charts quote Ferdowsî, Hâfez, or Sa‘dî.</p>
+
+      <h2>A note on accuracy</h2>
+      <p>Even so, small transcription slips are possible — when something matters, press
+      <i>“View scanned page”</i> under any chart and check the original. Cross-references
+      marked ☞ are the book’s own margin notes (usually one element of a compound), not
+      claims of shared ancestry.</p>
+
+      <h2>Who</h2>
+      <p>Built by <a href="https://www.cs.toronto.edu/~smaghrebi/" target="_blank" rel="noopener">Sajad
+      F. Maghrebi</a>. The data and code live on
+      <a href="https://github.com/sfmqrb/wordroot" target="_blank" rel="noopener">GitHub</a>.</p>
     </div>
   </section>
 
@@ -601,7 +683,7 @@ window.ETYM_DATA = /*__DATA__*/;
   }
 
   /* ---------------- view manager ---------------- */
-  const views = ["map", "roots", "path", "flows", "journey"];
+  const views = ["map", "roots", "path", "flows", "journey", "about"];
   const tabs = document.querySelectorAll("nav.tabs button");
   let curView = "";
   const onShowView = {};
