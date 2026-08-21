@@ -1,0 +1,134 @@
+{
+  "pdf_page": 558,
+  "book_page": 528,
+  "entries": [
+    {
+      "root": {
+        "name": "Xac 1",
+        "lang": "Sanskrit",
+        "refs": "SYN:620",
+        "gloss": "shine through"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Sanskrit",
+          "refs": "SYN:620; BQT:1556",
+          "words": [
+            {"translit": "kâca", "gloss": "glass, pearl", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "MON:2834 BQT:1556,1568",
+          "words": [
+            {"translit": "kâč", "gloss": "glass, pearl", "script": "کاچ"},
+            {"translit": "kâčî", "gloss": "a thin glazed tile", "script": "کاچی"}
+          ],
+          "script_extra": "کاشی",
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {"name": "Xâč 2", "redirect": "Khâč"},
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Xad, Xasta",
+        "lang": "Indo-Schythian",
+        "refs": "ISS:60",
+        "gloss": "to beat, to wound; beaten"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "ISS:60; FFD:50",
+          "words": [
+            {"translit": "vi-xada", "gloss": "beaten", "script": null},
+            {"translit": "xad 2, xas", "gloss": "to tear, beat", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "ISS:60",
+          "words": [
+            {"translit": "xvastan", "gloss": "to beat", "script": null},
+            {"translit": "xastak", "gloss": "beaten", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "ISS:60; BQT:747",
+          "words": [
+            {"translit": "xastan", "gloss": "to beat", "script": "خستن"},
+            {"translit": "xasteh", "gloss": "beaten, tired", "script": "خسته"}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Xâk",
+        "lang": "Pahlavi",
+        "refs": "BQT:701",
+        "gloss": "dust, soil, earth"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Persian",
+          "refs": "MON:1390",
+          "words": [
+            {"translit": "xâk", "gloss": "dust, earth, country", "script": "خاک"}
+          ],
+          "script_extra": "خاکی ، خاک انداز خاکبیز ، خاکدان ، خاکسار ، خاکستر",
+          "note": null,
+          "quote": {"text": "مرغ باغ ملکوتم نیم از عالم خاک - دو سه روزی قفسی ساخته اند از بدنم", "poet": "Nezâmî"}
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Hindustani",
+          "refs": "AHD:719; KLN:844",
+          "words": [
+            {"translit": "xâkî, khaki", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lang": "English",
+          "refs": "AHD:719; KLN:844",
+          "words": [
+            {"translit": "khaki", "gloss": "dust-colored (clothes)", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    }
+  ]
+}

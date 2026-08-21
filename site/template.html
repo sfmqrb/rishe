@@ -222,6 +222,11 @@
   .card .head.has-kids:hover .tog { color: var(--accent); }
   .node.collapsed > .children { display: none; }
   .pageref { margin-top: 30px; font-family: var(--sans); font-size: 12px; color: var(--muted); letter-spacing: .05em; }
+  .scanrow { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .scanpanel { margin-top: 12px; }
+  .scanpanel img { display: block; max-width: min(100%, 860px); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); background: #f5f2ea; }
+  .scanfall { font-family: var(--sans); font-size: 13px; color: var(--muted); padding: 10px 0; }
+  .scanfall a { color: var(--accent); }
   .empty { color: var(--muted); font-style: italic; padding: 60px 0; text-align: center; }
 
   /* ============ MAP VIEW ============ */
@@ -726,9 +731,31 @@ window.ETYM_DATA = /*__DATA__*/;
       if (g.entries.length > 1) html += '<div class="part-note">Part ' + esc(e.part || i + 1) + "</div>";
       html += branch(0);
     });
+    const bookPages = Array.from(new Set(g.entries.map(e => e._page))).filter(p => p != null);
     html += '<div class="pageref">Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p. ' +
-      esc(g.entries.map(e => e._page).join(", ")) + "</div></div>";
+      esc(bookPages.join(", ")) + "</div>" +
+      '<div class="scanrow">' + bookPages.map(p =>
+        '<button class="iconbtn scanbtn" data-b="' + p + '" data-p="' + (p + 30) + '">📖 View scanned page ' + p + "</button>").join("") +
+      '</div><div class="scanpanel" id="scanpanel"></div></div>';
     $main.innerHTML = html;
+    const panel = document.getElementById("scanpanel");
+    $main.querySelectorAll(".scanbtn").forEach(b => {
+      b.addEventListener("click", () => {
+        const pdf = b.dataset.p, bk = b.dataset.b;
+        if (panel.dataset.open === pdf) { panel.innerHTML = ""; panel.dataset.open = ""; return; }
+        panel.dataset.open = pdf;
+        const img = new Image();
+        img.loading = "lazy";
+        img.alt = "Scanned book page " + bk;
+        img.src = "pages/" + pdf + ".jpg";
+        img.onerror = () => {
+          panel.innerHTML = '<div class="scanfall">The page scans aren’t bundled into this preview. ' +
+            '<a href="https://raw.githubusercontent.com/sfmqrb/wordroot/main/site/pages/' + pdf + '.jpg" target="_blank" rel="noopener">Open the scan of page ' + bk + ' on GitHub ↗</a></div>';
+        };
+        panel.innerHTML = "";
+        panel.appendChild(img);
+      });
+    });
     $main.scrollTop = 0;
     if (!$q.value) renderList("");
     $main.querySelectorAll(".seechip[data-goto]").forEach(b => {
