@@ -9,10 +9,10 @@ The data was extracted from a scan of Nourai's dictionary by vision models, so
 occasional slips — a wrong diacritic, a misread letter, a mis-traced arrow — are
 possible.
 
-1. In the [live site](https://sfmqrb.github.io/wordroot/), open the root in the
+1. In the [live site](https://sfmqrb.github.io/rishe/), open the root in the
    **Roots** tab and press **“View scanned page”** to compare against the original
    print.
-2. [Open an issue](https://github.com/sfmqrb/wordroot/issues/new) including:
+2. [Open an issue](https://github.com/sfmqrb/rishe/issues/new) including:
    - the **root name** (e.g. `B.r.q`) and the **book page number** shown under the chart,
    - **what is printed** in the scan vs. **what the site shows**,
    - a screenshot crop if it's a subtle glyph.

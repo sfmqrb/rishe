@@ -2,7 +2,7 @@
 
 **The roots of Persian & English, laid out like a night sky.**
 
-**Live site → https://sfmqrb.github.io/wordroot/**
+**Live site → https://sfmqrb.github.io/rishe/**
 
 ![The root constellation of Persian](docs/screenshot.jpg)
 
@@ -75,7 +75,7 @@ python3 tools/build_site.py data/extracted/batch -o site/risheh.html
 ## Found a mistake?
 
 Transcriptions were made from a scan and slips are possible. Please
-[open an issue](https://github.com/sfmqrb/wordroot/issues) — see
+[open an issue](https://github.com/sfmqrb/rishe/issues) — see
 [CONTRIBUTING.md](CONTRIBUTING.md) for what to include. The *View scanned page*
 button under every chart makes verifying against the original easy.
 
