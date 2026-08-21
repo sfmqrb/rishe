@@ -965,8 +965,9 @@ window.ETYM_DATA = /*__DATA__*/;
   const cv = document.getElementById("mapcanvas");
   const ctx = cv.getContext("2d");
   const tip = document.getElementById("maptip");
-  let mapNodes = null, mapLinks = null, simFrames = 0, mapReady = false;
+  let mapNodes = null, mapLinks = null, mapNbr = null, simFrames = 0, mapReady = false;
   let cam = { x: 0, y: 0, k: 1 };
+  let hoverGi = -1;
   function mapInit() {
     const W = 1200, H = 800;
     const anchors = {
@@ -987,6 +988,8 @@ window.ETYM_DATA = /*__DATA__*/;
       if (seen.has(k)) return;
       seen.add(k); mapLinks.push([a, b]);
     });
+    mapNbr = mapNodes.map(() => new Set());
+    mapLinks.forEach(([a, b]) => { mapNbr[a].add(b); mapNbr[b].add(a); });
     const bySize = mapNodes.slice().sort((a, b) => b.r - a.r);
     bySize.slice(0, 26).forEach(n => n.big = true);
     simFrames = reduceMotion ? 0 : 140;
@@ -1039,28 +1042,52 @@ window.ETYM_DATA = /*__DATA__*/;
     ctx.save();
     ctx.translate(-cam.x * cam.k, -cam.y * cam.k);
     ctx.scale(cam.k, cam.k);
-    ctx.globalAlpha = 0.16;
+    const focus = hoverGi >= 0;
+    const inFocus = gi => !focus || gi === hoverGi || mapNbr[hoverGi].has(gi);
+    // links: faint by default; incident links bright gold when a node is hovered
     ctx.strokeStyle = gold; ctx.lineWidth = 1 / cam.k;
+    ctx.globalAlpha = focus ? 0.05 : 0.16;
     ctx.beginPath();
     mapLinks.forEach(([a, b]) => {
+      if (focus && (a === hoverGi || b === hoverGi)) return;
       const na = mapNodes[a], nb = mapNodes[b];
       ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y);
     });
     ctx.stroke();
-    ctx.globalAlpha = 1;
-    mapNodes.forEach(n => {
+    if (focus) {
+      ctx.globalAlpha = 0.85;
+      ctx.lineWidth = 2 / cam.k;
+      ctx.beginPath();
+      mapLinks.forEach(([a, b]) => {
+        if (a !== hoverGi && b !== hoverGi) return;
+        const na = mapNodes[a], nb = mapNodes[b];
+        ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y);
+      });
+      ctx.stroke();
+    }
+    mapNodes.forEach((n, gi) => {
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
       ctx.fillStyle = colors[n.fam];
-      ctx.globalAlpha = 0.88;
+      ctx.globalAlpha = inFocus(gi) ? 0.95 : 0.14;
       ctx.fill();
-      ctx.globalAlpha = 1;
     });
+    if (focus) {
+      const h = mapNodes[hoverGi];
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = gold;
+      ctx.lineWidth = 2.5 / cam.k;
+      ctx.beginPath();
+      ctx.arc(h.x, h.y, h.r + 3 / cam.k, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
     ctx.fillStyle = inkMuted;
     ctx.font = "600 " + Math.max(10, 11 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', sans-serif";
     ctx.textAlign = "center";
-    mapNodes.forEach(n => {
-      if (n.big || cam.k > 1.8) ctx.fillText(n.name, n.x, n.y - n.r - 4);
+    mapNodes.forEach((n, gi) => {
+      const show = focus ? inFocus(gi) : (n.big || cam.k > 1.8);
+      if (show) ctx.fillText(n.name, n.x, n.y - n.r - 4);
     });
     ctx.restore();
   }
@@ -1092,21 +1119,25 @@ window.ETYM_DATA = /*__DATA__*/;
       return;
     }
     const n = nodeAt(e.offsetX, e.offsetY);
+    const newHover = n ? n.gi : -1;
+    if (newHover !== hoverGi) { hoverGi = newHover; mapDraw(); }
     if (n) {
       const g = groups[n.gi];
+      const nLinks = mapNbr && mapNbr[n.gi] ? mapNbr[n.gi].size : 0;
       tip.style.display = "block";
       tip.style.left = (e.offsetX + 16) + "px";
       tip.style.top = (e.offsetY + 8) + "px";
       tip.innerHTML = '<div class="t-name">' + esc(g.root.name) + "</div>" +
         (g.root.gloss ? '<div style="font-style:italic">' + esc(g.root.gloss) + "</div>" : "") +
-        '<div class="t-sub">' + esc(FAMLBL[g.fam]) + " · " + g.wc + " words</div>";
+        '<div class="t-sub">' + esc(FAMLBL[g.fam]) + " · " + g.wc + " words" +
+        (nLinks ? " · ☞ linked to " + nLinks + " root" + (nLinks > 1 ? "s" : "") : "") + "</div>";
       cv.style.cursor = "pointer";
     } else {
       tip.style.display = "none";
       cv.style.cursor = dragging ? "grabbing" : "grab";
     }
   });
-  cv.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  cv.addEventListener("mouseleave", () => { tip.style.display = "none"; if (hoverGi !== -1) { hoverGi = -1; mapDraw(); } });
   cv.addEventListener("click", e => {
     if (movedDist > 6) return;
     const n = nodeAt(e.offsetX, e.offsetY);

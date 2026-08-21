@@ -1,0 +1,200 @@
+{
+  "pdf_page": 492,
+  "book_page": 462,
+  "entries": [
+    {
+      "root": {
+        "name": "Swep, Sup 1",
+        "lang": "Indo-European",
+        "refs": "POK:1048",
+        "gloss": "to sleep"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:1048; HRN:107; FFD:50",
+          "words": [
+            {"translit": "xwap, xvap, xwaf", "gloss": "to sleep", "script": null},
+            {"translit": "xvafna, xwafsa", "gloss": "sleep", "script": null},
+            {"translit": "hufsa", "gloss": "to sleep", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Pahlavi",
+          "refs": "FFD:50",
+          "words": [
+            {"translit": "xwâb, xuft", "gloss": "sleep", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 3,
+          "parent": 1,
+          "lang": "Sogdian",
+          "refs": "SOD:173",
+          "words": [
+            {"translit": "xwbn", "gloss": "dream", "script": null},
+            {"translit": "`wbs", "gloss": "to sleep", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 2,
+          "lang": "Persian",
+          "refs": "BQT:746,760,780; HUB:56; MON:1431",
+          "words": [
+            {"translit": "xâb", "gloss": "sleep, dream", "script": "خواب ( خوابیدن )"},
+            {"translit": "xoftan", "gloss": "to sleep", "script": "خُفتن ( خُسبیدن ، خسپیدن )"},
+            {"translit": "xoftak", "gloss": "nightmare", "script": "خُفتَک ( خُفتو ، بَختَک )"},
+            {"translit": "xafj", "gloss": "nightmare", "script": "خَفج ( خَفجا )"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Greek",
+          "refs": "AHD",
+          "words": [
+            {"translit": "hupnos", "gloss": "sleep", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "French",
+          "refs": null,
+          "words": [],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lang": "Persian",
+          "refs": "AMD:1985",
+          "words": [
+            {"translit": "hîpnotîsm", "gloss": "hypnotism", "script": "هیپنوتیسم"}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 8,
+          "parent": 5,
+          "lang": "English",
+          "refs": "AHD",
+          "words": [
+            {"translit": "hypnotism", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Swer",
+        "lang": "Indo-European",
+        "refs": "POK:1050; IEC:1348",
+        "gloss": "to press, cut, hurt"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "POK:1050; KLN:1554",
+          "words": [
+            {"translit": "xvara", "gloss": "thorn, to pierce", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lang": "Persian",
+          "refs": "HRN:109; BQT:766; DMO:110",
+          "words": [
+            {"translit": "xalîdan", "gloss": "to pierce, dip in water", "script": "خلیدن"},
+            {"translit": "xaleh", "gloss": "thorn, also an oar", "script": "خَله"},
+            {"translit": "xale-bân", "gloss": "pilot, originally one who rows a boat", "script": "خلبان"}
+          ],
+          "note": null,
+          "quote": {"text": "خونی که گرفت گردنت را - خاری که خلید دامنت را", "poet": "Nezâmî"}
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "lang": "Avestan",
+          "refs": "IEC:1348",
+          "words": [
+            {"translit": "xwarô", "gloss": "wound", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lang": "Persian",
+          "refs": "IEC:1348",
+          "words": [
+            {"translit": "xoreh", "gloss": "gangrene, leprosy, corruption", "script": "خوره"}
+          ],
+          "note": "MON:1455 derives this from Persian \"xordan: to eat\". See Swel 1.",
+          "quote": null
+        },
+        {
+          "id": 5,
+          "parent": 0,
+          "lang": "Germanic",
+          "refs": "KLN:1554; AHD",
+          "words": [
+            {"translit": "swerdam", "gloss": "sword", "script": null}
+          ],
+          "note": null,
+          "quote": null
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lang": "English",
+          "refs": null,
+          "words": [
+            {"translit": "sword", "gloss": null, "script": null}
+          ],
+          "note": null,
+          "quote": null
+        }
+      ]
+    },
+    {
+      "root": {
+        "name": "Swer",
+        "redirect": "Wer 6"
+      },
+      "nodes": []
+    },
+    {
+      "root": {
+        "name": "Swe-sor",
+        "redirect": "Seu 1"
+      },
+      "nodes": []
+    }
+  ]
+}
