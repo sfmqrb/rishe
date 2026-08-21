@@ -88,7 +88,8 @@
     background: var(--panel);
     flex-wrap: wrap; position: relative; z-index: 2;
   }
-  .wordmark { display: flex; align-items: center; gap: 8px; }
+  .wordmark { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+  .wordmark:hover .lat-name { color: var(--gold); }
   .wordmark .lat-name { font-family: var(--serif); font-weight: 700; font-size: 23px; letter-spacing: .01em; }
   .wordmark .lat-name::first-letter { color: var(--gold); }
   .logo { width: 34px; height: 34px; flex-shrink: 0; }
@@ -387,7 +388,7 @@
 <div id="app">
   <div id="frieze" aria-hidden="true"></div>
   <header class="bar">
-    <span class="wordmark">
+    <span class="wordmark" id="homebtn" role="button" tabindex="0" title="Back to the start" aria-label="Reload Rishe">
       <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
         <line class="lg-h" x1="13" y1="31" x2="51" y2="31"/>
         <g class="lg-plant">
@@ -697,6 +698,10 @@ window.ETYM_DATA = /*__DATA__*/;
     if (!skipHash) setHash();
   }
   tabs.forEach(b => b.addEventListener("click", () => setView(b.dataset.v)));
+  const $home = document.getElementById("homebtn");
+  function goHome() { location.replace(location.pathname + location.search); }
+  $home.addEventListener("click", goHome);
+  $home.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); goHome(); } });
 
   let suppressHash = false;
   let hashExtra = "";
