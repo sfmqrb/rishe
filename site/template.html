@@ -1,4 +1,5 @@
 <title>Rishe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2213%22%20y1%3D%2231%22%20x2%3D%2251%22%20y2%3D%2231%22%20stroke%3D%22%238a7f66%22%20stroke-width%3D%223%22%2F%3E%3Cg%20stroke%3D%22%231fa896%22%20stroke-width%3D%224.5%22%3E%3Cpath%20d%3D%22M32%2031%20V13%22%2F%3E%3Cpath%20d%3D%22M32%2022%20C28%2018%2025%2016%2021%2014%22%2F%3E%3Cpath%20d%3D%22M32%2022%20C36%2018%2039%2016%2043%2014%22%2F%3E%3C%2Fg%3E%3Cg%20stroke%3D%22%23c9a353%22%20stroke-width%3D%224.5%22%3E%3Cpath%20d%3D%22M32%2031%20V42%22%2F%3E%3Cpath%20d%3D%22M32%2035%20C26%2038%2022%2041%2017%2047%22%2F%3E%3Cpath%20d%3D%22M32%2035%20C38%2038%2042%2041%2047%2047%22%2F%3E%3Cpath%20d%3D%22M32%2042%20C29%2047%2027%2049%2025%2054%22%2F%3E%3Cpath%20d%3D%22M32%2042%20C35%2047%2037%2049%2039%2054%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans:wght@500;700;800&family=Vazirmatn:wght@400;700&family=Amiri:ital@0;1&display=swap">
 <style>
@@ -373,12 +374,41 @@
   .jstations .card { display: block; max-width: 640px; margin-bottom: 10px; }
 
   @media (max-width: 760px) {
+    header.bar { padding: 8px 12px 0; gap: 8px; }
+    .tagline, .count-note { display: none; }
+    .wordmark .lat-name { font-size: 20px; }
+    .logo { width: 28px; height: 28px; }
+    .hdr-tools { margin-left: auto; padding-bottom: 4px; }
+    .iconbtn { font-size: 11px; padding: 2px 9px; }
+    nav.tabs { order: 5; width: 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    nav.tabs::-webkit-scrollbar { display: none; }
+    nav.tabs button { padding: 8px 10px 9px; font-size: 11.5px; flex-shrink: 0; }
+    #frieze { height: 60px; opacity: .10; }
     #view-roots { flex-direction: column; }
-    aside { width: 100%; max-height: 40vh; border-right: none; border-bottom: 1px solid var(--line); }
-    main { padding: 18px 14px 140px; }
-    .children { margin-left: 10px; padding-left: 14px; }
-    .node::before { left: -14px; width: 10px; }
-    .mapheadline { max-width: 60%; }
+    aside { width: 100%; max-height: 38vh; border-right: none; border-bottom: 1px solid var(--line); }
+    .list { padding-bottom: 20px; }
+    main { padding: 16px 12px 110px; }
+    .children { margin-left: 8px; padding-left: 12px; }
+    .node::before { left: -12px; width: 8px; }
+    .rootcard, .card { min-width: 0; display: block; }
+    .rootcard .r-name { font-size: 22px; }
+    .quote .verse { font-size: 17px; }
+    .mapheadline { max-width: 62%; }
+    .mapheadline h1 { font-size: 19px; }
+    .mapheadline p { font-size: 12px; }
+    .maplegend { top: auto; bottom: 76px; right: 10px; padding: 7px 10px; font-size: 11px; }
+    .maphint { display: none; }
+    .pathpanel, .flowpanel, .jpanel, .aboutpanel { padding-left: 14px; padding-right: 14px; padding-bottom: 120px; }
+    .path-title { font-size: 22px; }
+    .verdict { font-size: 15px; padding: 10px 14px; }
+    .see-note { margin-left: 24px; }
+    .prail { width: 26px; }
+    #jmap { min-width: 640px; }
+    .jcaption .jc-word { font-size: 16px; }
+    .tiles { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; }
+    .tile .t-num { font-size: 24px; }
+    .aboutpanel { font-size: 16px; padding-top: 26px; }
+    .about-epigraph { font-size: 22px; }
   }
   @media (prefers-reduced-motion: no-preference) {
     .card, .rootcard { transition: box-shadow .15s ease; }
@@ -1222,9 +1252,43 @@ window.ETYM_DATA = /*__DATA__*/;
     return null;
   }
   let dragging = false, lastM = null, movedDist = 0;
-  cv.addEventListener("mousedown", e => { dragging = true; movedDist = 0; lastM = [e.offsetX, e.offsetY]; cv.classList.add("dragging"); });
-  window.addEventListener("mouseup", () => { dragging = false; cv.classList.remove("dragging"); });
-  cv.addEventListener("mousemove", e => {
+  const pointers = new Map();
+  let pinchDist = 0;
+  cv.style.touchAction = "none";
+  cv.addEventListener("pointerdown", e => {
+    cv.setPointerCapture(e.pointerId);
+    pointers.set(e.pointerId, [e.offsetX, e.offsetY]);
+    if (pointers.size === 1) { dragging = true; movedDist = 0; lastM = [e.offsetX, e.offsetY]; cv.classList.add("dragging"); }
+    else if (pointers.size === 2) {
+      const pts = Array.from(pointers.values());
+      pinchDist = Math.hypot(pts[0][0] - pts[1][0], pts[0][1] - pts[1][1]);
+      dragging = false;
+    }
+  });
+  function endPointer(e) {
+    pointers.delete(e.pointerId);
+    if (pointers.size < 2) pinchDist = 0;
+    if (pointers.size === 0) { dragging = false; cv.classList.remove("dragging"); }
+  }
+  cv.addEventListener("pointerup", endPointer);
+  cv.addEventListener("pointercancel", endPointer);
+  cv.addEventListener("pointermove", e => {
+    if (pointers.has(e.pointerId)) pointers.set(e.pointerId, [e.offsetX, e.offsetY]);
+    if (pointers.size === 2) {
+      const pts = Array.from(pointers.values());
+      const d = Math.hypot(pts[0][0] - pts[1][0], pts[0][1] - pts[1][1]);
+      const mx = (pts[0][0] + pts[1][0]) / 2, my = (pts[0][1] + pts[1][1]) / 2;
+      if (pinchDist > 0 && d > 0) {
+        const wx = mx / cam.k + cam.x, wy = my / cam.k + cam.y;
+        cam.k = Math.min(6, Math.max(0.3, cam.k * (d / pinchDist)));
+        cam.x = wx - mx / cam.k;
+        cam.y = wy - my / cam.k;
+        mapDraw();
+      }
+      pinchDist = d;
+      movedDist += 10;
+      return;
+    }
     if (dragging) {
       cam.x -= (e.offsetX - lastM[0]) / cam.k;
       cam.y -= (e.offsetY - lastM[1]) / cam.k;
@@ -1233,6 +1297,7 @@ window.ETYM_DATA = /*__DATA__*/;
       mapDraw();
       return;
     }
+    if (e.pointerType !== "mouse") return;
     const n = nodeAt(e.offsetX, e.offsetY);
     const newHover = n ? n.gi : -1;
     if (newHover !== hoverGi) { hoverGi = newHover; mapDraw(); }
@@ -1249,10 +1314,10 @@ window.ETYM_DATA = /*__DATA__*/;
       cv.style.cursor = "pointer";
     } else {
       tip.style.display = "none";
-      cv.style.cursor = dragging ? "grabbing" : "grab";
+      cv.style.cursor = "grab";
     }
   });
-  cv.addEventListener("mouseleave", () => { tip.style.display = "none"; if (hoverGi !== -1) { hoverGi = -1; mapDraw(); } });
+  cv.addEventListener("pointerleave", () => { tip.style.display = "none"; if (hoverGi !== -1) { hoverGi = -1; mapDraw(); } });
   cv.addEventListener("click", e => {
     if (movedDist > 6) return;
     const n = nodeAt(e.offsetX, e.offsetY);
