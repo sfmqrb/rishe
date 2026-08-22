@@ -436,6 +436,13 @@
   html[lang="fa"] .rtable th { text-transform: none; letter-spacing: 0; }
   .rtable .fa-cell { font-family: var(--fa); direction: rtl; }
   .rchart { margin: 12px 0; overflow-x: auto; direction: ltr; }
+  .gjcell { cursor: pointer; }
+  .gjcell:hover { stroke: var(--ink); stroke-width: 1.2; }
+  .gjtip { position: fixed; z-index: 60; max-width: 280px; padding: 7px 11px; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow);
+    font-family: var(--sans); font-size: 12.5px; line-height: 1.55; color: var(--ink); pointer-events: none; }
+  .gjtip .w { font-family: var(--fa); font-size: 15px; }
+  .gjtip .m { color: var(--muted); font-size: 11.5px; }
   .rc-lbl { font-family: var(--sans); font-size: 12px; fill: var(--ink); }
   .rc-sub2 { font-family: var(--sans); font-size: 10.5px; fill: var(--muted); }
   .rc-axis { stroke: var(--line); stroke-width: 1; }
@@ -781,6 +788,9 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     sankeyAria: ["Sankey diagram of borrowing routes into Persian", "نمودار سانکی راه‌های ورود واژه‌ها به فارسی"],
     viewTable: ["View as table", "نمایش به‌صورت جدول"],
     tblOrigin: ["Root origin", "تبار ریشه"],
+    gjFirstAtt: ["first attested", "نخستین گواهی"],
+    gjUses: ["uses", "بار"],
+    gjClickHint: ["click to open its root", "برای دیدن ریشه کلیک کنید"],
     route_direct: ["inherited directly", "به ارث رسیده"],
     route_semitic: ["via Arabic & Semitic", "از راه عربی و سامی"],
     route_euro: ["via European languages", "از راه زبان‌های اروپایی"],
@@ -2630,10 +2640,9 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
         '<line x1="' + x0 + '" y1="' + (L.base + 1.5) + '" x2="' + (x1 - 60) + '" y2="' + (L.base + 1.5) + '" stroke="var(--muted)" stroke-width="0.7" opacity="0.5"/>';
       for (const b in L.g) L.g[b].forEach((w, i) => {
         const cx2 = bx(+b) + (i % cols) * pitch, cy2 = L.base - (Math.floor(i / cols) + 1) * pitch + (pitch - cell);
-        s += "<g><title>" + esc(w.s) + " [" + esc(w.w) + "] — " + esc(tData(w.g) || "") + " · " +
-          rr("first attested", "نخستین گواهی") + " " + fmtNum(w.y) + " (" + esc(w.p) + ") · " + fmtNum(w.n) + " " + rr("uses", "بار") + "</title>" +
-          '<rect x="' + cx2 + '" y="' + cy2 + '" width="' + cell + '" height="' + cell + '" rx="1" fill="' + col +
-          '" opacity="' + (+b <= 1000 ? 0.4 : 0.9) + '"/></g>';
+        s += '<rect class="gjcell" x="' + cx2 + '" y="' + cy2 + '" width="' + cell + '" height="' + cell + '" rx="1" fill="' + col +
+          '" opacity="' + (+b <= 1000 ? 0.4 : 0.9) + '" data-s="' + esc(w.s) + '" data-w="' + esc(w.w) + '" data-g="' + esc(w.g) +
+          '" data-y="' + w.y + '" data-p="' + esc(w.p) + '" data-n="' + w.n + '"/>';
       });
       /* label a few famous squares: top by use, one bucket each, plus the top post-1850 word */
       const flat = (words.filter(w => w.r === L.r)).slice().sort((a, c) => c.n - a.n);
@@ -2657,15 +2666,15 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
         lastR = lx + wpx / 2;
         s += '<text class="rc-sub2" x="' + lx + '" y="' + (topY - 5) + '" text-anchor="middle" lang="fa">' + esc(name) + "</text>" +
           '<line x1="' + lx + '" y1="' + (topY - 3) + '" x2="' + (cx2 + cell / 2) + '" y2="' + cy2 + '" stroke="var(--muted)" stroke-width="0.6" opacity="0.5"/>' +
-          '<rect x="' + (cx2 - cell / 2 - 1) + '" y="' + (cy2 - 1) + '" width="' + (cell + 2) + '" height="' + (cell + 2) + '" rx="1.5" fill="none" stroke="var(--gold)" stroke-width="1"/>';
+          '<rect x="' + (cx2 - cell / 2 - 1) + '" y="' + (cy2 - 1) + '" width="' + (cell + 2) + '" height="' + (cell + 2) + '" rx="1.5" fill="none" stroke="var(--gold)" stroke-width="1" pointer-events="none"/>';
       });
     });
     s += '<line class="rc-axis" x1="' + x0 + '" y1="' + axisY + '" x2="' + x1 + '" y2="' + axisY + '"/>';
     for (let y = 900; y <= 1900; y += 200)
       s += '<text class="rc-sub2" x="' + bx(y) + '" y="' + (axisY + 14) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
     s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 6) + '" text-anchor="middle">' +
-      rr("each square is one borrowed word, placed at its first attestation in the corpus — hover a square to see the word",
-         "هر مربع یک وام‌واژه است، در جای نخستین گواهی‌اش در پیکره — برای دیدن واژه روی مربع بایستید") + "</text>";
+      rr("each square is one borrowed word, placed at its first attestation — hover to see the word, click to open its root",
+         "هر مربع یک وام‌واژه است، در جای نخستین گواهی‌اش — برای دیدن واژه روی مربع بایستید و برای ریشه‌اش کلیک کنید") + "</text>";
     return '<div class="rchart">' + s + "</svg></div>";
   }
   function ganjFieldChart(fields) {
@@ -2984,6 +2993,33 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     if (!b) return;
     const t2 = findRoot(b.dataset.goto);
     if (t2 >= 0) { $q.value = ""; renderList(""); show(t2); }
+  });
+  /* instant tooltip + click-through for the arrival chart's word squares */
+  const gjtip = document.createElement("div");
+  gjtip.className = "gjtip"; gjtip.hidden = true;
+  document.body.appendChild(gjtip);
+  document.addEventListener("mousemove", ev => {
+    const c = ev.target.closest ? ev.target.closest(".gjcell") : null;
+    if (!c) { if (!gjtip.hidden) gjtip.hidden = true; return; }
+    const d = c.dataset;
+    gjtip.innerHTML = '<span class="w">' + esc(d.s) + "</span> <b>" + esc(d.w) + "</b>" +
+      (d.g ? " — " + esc(tData(d.g)) : "") + '<br><span class="m">' +
+      t("gjFirstAtt") + " " + (isFa() ? (+d.y).toLocaleString("fa-IR", { useGrouping: false }) : d.y) + " · " +
+      esc(isFa() && GJ ? ((GJ.poets.find(p => p.en === d.p) || {}).fa || d.p) : d.p) + " · " + fmtNum(+d.n) + " " + t("gjUses") +
+      " · " + t("gjClickHint") + "</span>";
+    gjtip.hidden = false;
+    const tw = gjtip.offsetWidth, th = gjtip.offsetHeight;
+    let lx = ev.clientX + 14, ly = ev.clientY + 14;
+    if (lx + tw > window.innerWidth - 8) lx = ev.clientX - tw - 14;
+    if (ly + th > window.innerHeight - 8) ly = ev.clientY - th - 14;
+    gjtip.style.left = lx + "px"; gjtip.style.top = ly + "px";
+  });
+  document.getElementById("rpanel").addEventListener("click", ev => {
+    const c = ev.target.closest(".gjcell");
+    if (!c) return;
+    gjtip.hidden = true;
+    const hit = faLookup(normFa(c.dataset.s));
+    if (hit !== null) { $q.value = ""; renderList(""); show(wordEiFa.get(hit), hit); }
   });
   onShowView.research = buildResearch;
 
