@@ -289,6 +289,12 @@ def analyze(db_path, dirs):
                     key=lambda x: (x[0], x[1]))
     examples["euro_modern"] = [{"w": lex[lk]["t"], "s": lk, "g": lex[lk]["g"],
                                 "year": y, "poet": poet} for y, _, poet, lk in modern[:10]]
+    # every borrowed word with its arrival, for the per-word unit chart
+    words_borrowed = sorted(({"s": lk, "w": lex[lk]["t"], "g": lex[lk]["g"],
+                              "r": lemma_route[lk], "y": y, "p": poet, "n": lemma_tokens[lk]}
+                             for lk, (y, poet) in lemma_first.items()
+                             if lemma_route[lk] != "direct"),
+                            key=lambda x: (x["y"], -x["n"]))
 
     # ---- 3. frequency weighting ----
     tok_total = sum(lemma_tokens.values())
@@ -337,6 +343,7 @@ def analyze(db_path, dirs):
         "poets": poet_rows,
         "influx": influx_rows,
         "influx_examples": examples,
+        "words": words_borrowed,
         "weighted": {
             "token_total": tok_total, "token_borrowed": tok_borrowed,
             "token_share": round(tok_borrowed / max(1, tok_total), 4),
