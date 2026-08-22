@@ -492,8 +492,17 @@
     nav.tabs button { padding: 8px 10px 9px; font-size: 11.5px; flex-shrink: 0; }
     #frieze { height: 60px; opacity: .10; }
     #view-roots { flex-direction: column; }
-    aside { width: 100%; max-height: 38vh; border-inline-end: none; border-bottom: 1px solid var(--line); }
-    .list { padding-bottom: 20px; }
+    /* The sidebar collapses to a slim search bar; the roots list opens as a
+       dropdown over the chart while the search box has focus (aside.open). */
+    aside { width: 100%; max-height: none; flex: none; border-inline-end: none; border-bottom: 1px solid var(--line); position: relative; overflow: visible; }
+    .searchbox { padding: 8px 10px; border-bottom: none; }
+    .searchbox input { font-size: 14px; padding: 6px 10px; }
+    .list {
+      display: none; position: absolute; top: 100%; inset-inline: 0; z-index: 30;
+      background: var(--panel); border-bottom: 1px solid var(--line); box-shadow: var(--shadow);
+      max-height: 60vh; padding: 0 0 12px;
+    }
+    aside.open .list { display: block; }
     main { padding: 16px 12px 110px; }
     .children { margin-inline-start: 8px; padding-inline-start: 12px; }
     .rootcard, .card { min-width: 0; display: block; }
@@ -1144,7 +1153,16 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
   const $list = document.getElementById("list");
   const $main = document.getElementById("main");
   const $q = document.getElementById("q");
+  const $aside = document.querySelector("#view-roots aside");
   let activeEi = -1;
+
+  // On narrow screens the roots list is a dropdown (see the mobile CSS for
+  // aside.open); the class is harmless on wide screens where the list is
+  // always visible.
+  $q.addEventListener("focus", () => $aside.classList.add("open"));
+  document.addEventListener("pointerdown", ev => {
+    if (!ev.target.closest("#view-roots aside")) $aside.classList.remove("open");
+  });
 
   function renderList(filter) {
     $list.innerHTML = "";
@@ -1328,6 +1346,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     activeEi = ei;
     const g = groups[ei];
     if (!g) return;
+    $aside.classList.remove("open");
     let html = '<div class="chart">' + rootCardHtml(g.root);
     g.entries.forEach((e, i) => {
       const kids = {};
