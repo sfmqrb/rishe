@@ -14,6 +14,11 @@ its hand-drawn derivation charts into structured data and a website.
 
 ## What's inside
 
+- **English / فارسی** — the whole site is bilingual. The header toggle (or
+  [`?lang=fa`](https://sfmqrb.github.io/rishe/?lang=fa)) switches every label,
+  chart gloss, and note into Persian and mirrors the entire layout right-to-left;
+  the ~7,100 English glosses and margin notes from the book were translated into
+  Persian (`data/translations/fa.json`) and are baked into the same single file.
 - **Map** — every root family as a star in a zoomable constellation, clustered by
   origin (Indo-European, Semitic, Iranian, Turkic), sized by its descendants.
   Hover a root to light up its cross-referenced neighbors.
@@ -57,6 +62,7 @@ scan itself).
 ```
 data/EXTRACTION_SPEC.md      # the schema & rules the extraction agents followed
 data/extracted/batch/        # one JSON per book page — the structured dictionary
+data/translations/fa.json    # Persian translations of the glosses & notes
 data/ANOMALIES.md            # source-scan defects
 site/template.html           # the whole app (HTML+CSS+JS, data injected at build)
 site/pages/                  # compressed scans of every chart page

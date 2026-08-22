@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "site" / "template.html"
+FA_TRANSLATIONS = ROOT / "data" / "translations" / "fa.json"
 
 
 def splice_empty(entry):
@@ -57,8 +58,15 @@ def main(argv):
     html = TEMPLATE.read_text(encoding="utf-8")
     assert html.count("/*__DATA__*/;") == 1, "data placeholder not found in template"
     html = html.replace("/*__DATA__*/;", data + ";", 1)
+    assert html.count("/*__I18N__*/{};") == 1, "i18n placeholder not found in template"
+    n_fa = 0
+    if FA_TRANSLATIONS.exists():
+        fa = json.loads(FA_TRANSLATIONS.read_text(encoding="utf-8"))
+        n_fa = len(fa)
+        html = html.replace("/*__I18N__*/{};",
+                            json.dumps(fa, ensure_ascii=False, separators=(",", ":")) + ";", 1)
     out.write_text(html, encoding="utf-8")
-    print(f"{out}: {len(pages)} pages, {n_entries} entries, {out.stat().st_size/1024:.0f} KB")
+    print(f"{out}: {len(pages)} pages, {n_entries} entries, {n_fa} fa strings, {out.stat().st_size/1024:.0f} KB")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,34 @@
-<title>Rishe</title>
+<!doctype html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<title>Rishe · ریشه — Etymology of Persian &amp; English | ریشه‌شناسی واژه‌های فارسی و انگلیسی</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rishe (ریشه): the shared roots of Persian and English words as an interactive constellation, family trees, and word journeys — after Ali Nourai’s etymological dictionary. | ریشه: فرهنگ ریشه‌شناسی تعاملی واژه‌های فارسی و انگلیسی — ریشهٔ مشترک واژه‌ها، درخت خانوادهٔ هر ریشه و سفر تاریخی هر واژه، بر پایهٔ فرهنگ ریشه‌شناختی علی نورائی. اتیمولوژی و ریشه‌یابی کلمات فارسی.">
+<link rel="canonical" href="https://sfmqrb.github.io/rishe/">
+<link rel="alternate" hreflang="en" href="https://sfmqrb.github.io/rishe/">
+<link rel="alternate" hreflang="fa" href="https://sfmqrb.github.io/rishe/?lang=fa">
+<link rel="alternate" hreflang="x-default" href="https://sfmqrb.github.io/rishe/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rishe · ریشه">
+<meta property="og:title" content="Rishe · ریشه — the shared roots of Persian &amp; English | ریشه‌شناسی واژه‌های فارسی و انگلیسی">
+<meta property="og:description" content="An interactive etymological map of Persian and English — 1,600+ shared root families from Ali Nourai’s dictionary. | نقشهٔ تعاملی ریشه‌شناسی واژه‌های فارسی و انگلیسی بر پایهٔ فرهنگ علی نورائی.">
+<meta property="og:url" content="https://sfmqrb.github.io/rishe/">
+<meta property="og:image" content="https://raw.githubusercontent.com/sfmqrb/rishe/main/docs/screenshot.jpg">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fa_IR">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Rishe","alternateName":["ریشه","فرهنگ ریشه‌شناسی فارسی و انگلیسی","Rishe Etymology"],"url":"https://sfmqrb.github.io/rishe/","inLanguage":["en","fa"],"description":"The shared roots of Persian and English words, interactive — after Ali Nourai’s An Etymological Dictionary of Persian, English and other Indo-European Languages. ریشه‌شناسی تعاملی واژه‌های فارسی و انگلیسی بر پایهٔ فرهنگ ریشه‌شناختی علی نورائی.","author":{"@type":"Person","name":"Sajad F. Maghrebi","url":"https://www.cs.toronto.edu/~smaghrebi/"}}
+</script>
+<script>
+(function () {
+  var l = "";
+  try {
+    l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("rishe-lang") ||
+        ((navigator.language || "").toLowerCase().indexOf("fa") === 0 ? "fa" : "");
+  } catch (e) {}
+  if (l === "fa") { document.documentElement.lang = "fa"; document.documentElement.dir = "rtl"; }
+})();
+</script>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2213%22%20y1%3D%2231%22%20x2%3D%2251%22%20y2%3D%2231%22%20stroke%3D%22%238a7f66%22%20stroke-width%3D%223%22%2F%3E%3Cg%20stroke%3D%22%231fa896%22%20stroke-width%3D%224.5%22%3E%3Cpath%20d%3D%22M32%2031%20V13%22%2F%3E%3Cpath%20d%3D%22M32%2022%20C28%2018%2025%2016%2021%2014%22%2F%3E%3Cpath%20d%3D%22M32%2022%20C36%2018%2039%2016%2043%2014%22%2F%3E%3C%2Fg%3E%3Cg%20stroke%3D%22%23c9a353%22%20stroke-width%3D%224.5%22%3E%3Cpath%20d%3D%22M32%2031%20V42%22%2F%3E%3Cpath%20d%3D%22M32%2035%20C26%2038%2022%2041%2017%2047%22%2F%3E%3Cpath%20d%3D%22M32%2035%20C38%2038%2042%2041%2047%2047%22%2F%3E%3Cpath%20d%3D%22M32%2042%20C29%2047%2027%2049%2025%2054%22%2F%3E%3Cpath%20d%3D%22M32%2042%20C35%2047%2037%2049%2039%2054%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans:wght@500;700;800&family=Vazirmatn:wght@400;700&family=Amiri:ital@0;1&display=swap">
 <style>
@@ -125,7 +154,7 @@
   #view-roots { flex-direction: row; }
   aside {
     width: 300px; min-width: 240px;
-    border-right: 1px solid var(--line);
+    border-inline-end: 1px solid var(--line);
     background: var(--panel);
     display: flex; flex-direction: column;
   }
@@ -142,21 +171,21 @@
     color: var(--muted); padding: 12px 14px 4px;
   }
   .rootitem, .hit {
-    display: block; width: 100%; text-align: left;
+    display: block; width: 100%; text-align: start;
     background: none; border: none; cursor: pointer;
     padding: 7px 14px; color: var(--ink);
     font-family: var(--serif); font-size: 15px;
-    border-left: 3px solid transparent;
+    border-inline-start: 3px solid transparent;
   }
   .rootitem:hover, .hit:hover { background: var(--panel-2); }
   .rootitem:focus-visible, .hit:focus-visible, .seechip:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-  .rootitem.active { border-left-color: var(--gold); background: var(--panel-2); }
+  .rootitem.active { border-inline-start-color: var(--gold); background: var(--panel-2); }
   .rootitem .rname { font-weight: 700; }
-  .rootitem .rlang { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
+  .rootitem .rlang { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-inline-start: 8px; }
   .rootitem .rgloss { display: block; font-style: italic; color: var(--muted); font-size: 13px;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .hit .h-word { font-weight: 700; }
-  .hit .h-fa { font-family: var(--fa); float: right; direction: rtl; }
+  .hit .h-fa { font-family: var(--fa); float: inline-end; direction: rtl; }
   .hit .h-meta { display: block; font-size: 12.5px; color: var(--muted); font-style: italic; }
   .nores { padding: 16px 14px; color: var(--muted); font-style: italic; }
 
@@ -178,11 +207,11 @@
   .rootcard .r-refs, .node .refs { font-family: var(--sans); font-size: 11px; letter-spacing: .08em; color: inherit; opacity: .55; }
   .part-note { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 14px 2px 0; }
 
-  .children { margin-left: 22px; padding-left: 22px; border-left: 2px solid var(--line); }
+  .children { margin-inline-start: 22px; padding-inline-start: 22px; border-inline-start: 2px solid var(--line); }
   .chart > .children { margin-top: 10px; }
   .node { position: relative; margin: 14px 0; }
   .node::before {
-    content: ""; position: absolute; left: -22px; top: 22px;
+    content: ""; position: absolute; inset-inline-start: -22px; top: 22px;
     width: 16px; height: 2px; background: var(--line);
   }
   .card {
@@ -197,7 +226,7 @@
     display: flex; align-items: baseline; gap: 10px;
     padding: 6px 14px 5px;
     border-bottom: 1px solid var(--line);
-    border-left: 4px solid var(--famc, var(--fam-other));
+    border-inline-start: 4px solid var(--famc, var(--fam-other));
     background: color-mix(in srgb, var(--famc, var(--fam-other)) 8%, var(--panel));
   }
   .card .lang { font-family: var(--sans); font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--famc, var(--fam-other)); }
@@ -205,7 +234,7 @@
   .wordrow { display: flex; align-items: baseline; gap: 8px 14px; flex-wrap: wrap; margin: 2px 0; }
   .w-lat { font-weight: 700; font-size: 16.5px; }
   .w-gloss { font-style: italic; color: var(--muted); font-size: 14.5px; }
-  .w-fa { font-family: var(--fa); font-size: 18px; direction: rtl; margin-left: auto; padding-left: 10px; }
+  .w-fa { font-family: var(--fa); font-size: 18px; direction: rtl; margin-inline-start: auto; padding-inline-start: 10px; }
   .fa-extra { font-family: var(--fa); direction: rtl; text-align: right; color: var(--muted); font-size: 16px; margin-top: 2px; white-space: pre-line; }
   .seechip {
     font-family: var(--sans); font-size: 11.5px; font-weight: 700; letter-spacing: .06em;
@@ -224,7 +253,7 @@
   .tog {
     font-family: var(--sans); font-size: 11px; font-weight: 700;
     color: var(--muted); background: var(--panel-2);
-    border-radius: 999px; padding: 0 8px; margin-left: auto;
+    border-radius: 999px; padding: 0 8px; margin-inline-start: auto;
     user-select: none; white-space: nowrap;
   }
   .card .head.has-kids { cursor: pointer; }
@@ -244,7 +273,7 @@
   #mapcanvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; }
   #mapcanvas.dragging { cursor: grabbing; }
   .maplegend {
-    position: absolute; top: 14px; right: 16px;
+    position: absolute; top: 14px; inset-inline-end: 16px;
     background: color-mix(in srgb, var(--panel) 88%, transparent);
     border: 1px solid var(--line); border-radius: 10px;
     padding: 10px 14px; font-family: var(--sans); font-size: 12.5px;
@@ -254,7 +283,7 @@
   .maplegend .lg-row { display: flex; align-items: center; gap: 7px; margin: 3px 0; }
   .maplegend .dot { width: 10px; height: 10px; border-radius: 50%; }
   .mapheadline {
-    position: absolute; left: 20px; top: 14px; max-width: 420px; pointer-events: none;
+    position: absolute; inset-inline-start: 20px; top: 14px; max-width: 420px; pointer-events: none;
   }
   .mapheadline h1 { font-family: var(--serif); font-weight: 700; font-size: 26px; margin: 0 0 4px; text-wrap: balance; }
   .mapheadline p { margin: 0; color: var(--muted); font-size: 14px; font-style: italic; }
@@ -265,7 +294,7 @@
   }
   #maptip .t-name { font-weight: 700; }
   #maptip .t-sub { font-family: var(--sans); font-size: 12px; color: var(--muted); }
-  .maphint { position: absolute; bottom: 118px; left: 20px; font-family: var(--sans); font-size: 12px; color: var(--muted); pointer-events: none; }
+  .maphint { position: absolute; bottom: 118px; inset-inline-start: 20px; font-family: var(--sans); font-size: 12px; color: var(--muted); pointer-events: none; }
 
   /* ============ PATH VIEW ============ */
   #view-path { flex-direction: column; overflow: auto; }
@@ -280,10 +309,10 @@
     background: var(--panel); border: 1px solid var(--line); border-radius: 0 0 10px 10px;
     box-shadow: var(--shadow); max-height: 300px; overflow-y: auto; display: none;
   }
-  .sugg button { display: block; width: 100%; text-align: left; background: none; border: none; cursor: pointer;
+  .sugg button { display: block; width: 100%; text-align: start; background: none; border: none; cursor: pointer;
     padding: 6px 12px; font-family: var(--serif); font-size: 14.5px; color: var(--ink); }
   .sugg button:hover, .sugg button.sel { background: var(--panel-2); }
-  .sugg .s-fa { font-family: var(--fa); float: right; direction: rtl; }
+  .sugg .s-fa { font-family: var(--fa); float: inline-end; direction: rtl; }
   .sugg .s-meta { display: block; font-size: 12px; color: var(--muted); font-style: italic; }
   .swapbtn { align-self: flex-end; }
   .famouspairs { margin: 6px 0 20px; }
@@ -294,8 +323,10 @@
   }
   .famouspairs .pairchip:hover { border-color: var(--gold); color: var(--gold); }
   .verdict {
-    border-left: 4px solid var(--gold); background: var(--panel);
-    border-radius: 0 10px 10px 0; box-shadow: var(--shadow);
+    border-inline-start: 4px solid var(--gold); background: var(--panel);
+    border-start-start-radius: 0; border-end-start-radius: 0;
+    border-start-end-radius: 10px; border-end-end-radius: 10px;
+    box-shadow: var(--shadow);
     padding: 12px 18px; margin: 12px 0 22px; font-size: 17px;
   }
   .verdict b { color: var(--gold); }
@@ -311,8 +342,8 @@
   .nopath { padding: 20px; color: var(--muted); font-style: italic; }
   .see-note {
     font-family: var(--sans); font-size: 12.5px; color: var(--muted); font-style: italic;
-    margin: -4px 0 12px 48px; padding: 4px 12px;
-    border-left: 2px dashed var(--gold-soft);
+    margin: -4px 0 12px; margin-inline-start: 48px; padding: 4px 12px;
+    border-inline-start: 2px dashed var(--gold-soft);
   }
 
   /* ============ FLOWS VIEW ============ */
@@ -330,7 +361,7 @@
   .flowtable { margin-top: 16px; font-family: var(--sans); font-size: 13px; }
   .flowtable summary { cursor: pointer; color: var(--muted); }
   .flowtable table { border-collapse: collapse; margin-top: 8px; }
-  .flowtable td, .flowtable th { border: 1px solid var(--line); padding: 4px 10px; text-align: left; font-variant-numeric: tabular-nums; }
+  .flowtable td, .flowtable th { border: 1px solid var(--line); padding: 4px 10px; text-align: start; font-variant-numeric: tabular-nums; }
 
   /* ============ ABOUT VIEW ============ */
   #view-about { overflow: auto; display: none; }
@@ -359,8 +390,10 @@
   .j-walker { fill: var(--gold); stroke: var(--panel); stroke-width: 2; opacity: 0; }
   .jcaption {
     min-height: 58px; margin-top: 10px; padding: 10px 16px;
-    background: var(--panel); border-left: 4px solid var(--gold);
-    border-radius: 0 10px 10px 0; box-shadow: var(--shadow);
+    background: var(--panel); border-inline-start: 4px solid var(--gold);
+    border-start-start-radius: 0; border-end-start-radius: 0;
+    border-start-end-radius: 10px; border-end-end-radius: 10px;
+    box-shadow: var(--shadow);
   }
   .jcaption .jc-era { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
   .jcaption .jc-word { font-size: 18px; }
@@ -373,23 +406,43 @@
   .jstations { margin-top: 14px; }
   .jstations .card { display: block; max-width: 640px; margin-bottom: 10px; }
 
+  /* ============ FARSI MODE (RTL) ============ */
+  html[lang="fa"] {
+    --serif: "Vazirmatn", "Spectral", Tahoma, serif;
+    --sans: "Vazirmatn", "Alegreya Sans", "Segoe UI", Tahoma, sans-serif;
+  }
+  html[lang="fa"] * { letter-spacing: 0 !important; }
+  html[lang="fa"] .tagline, html[lang="fa"] .rgloss, html[lang="fa"] .w-gloss, html[lang="fa"] .note,
+  html[lang="fa"] .path-sub, html[lang="fa"] .chart-sub, html[lang="fa"] .h-meta, html[lang="fa"] .s-meta,
+  html[lang="fa"] .nores, html[lang="fa"] .empty, html[lang="fa"] .rootcard .r-gloss,
+  html[lang="fa"] .see-note, html[lang="fa"] .nopath, html[lang="fa"] .mapheadline p { font-style: normal; }
+  html[lang="fa"] .w-lat, html[lang="fa"] .rootcard .r-name, html[lang="fa"] .rootitem .rname,
+  html[lang="fa"] .wordmark .lat-name, html[lang="fa"] .hit .h-word, html[lang="fa"] .rootcard .r-refs,
+  html[lang="fa"] .node .refs, html[lang="fa"] .pairchip { direction: ltr; unicode-bidi: isolate; }
+  html[lang="fa"] .sankeywrap svg { direction: ltr; }
+  html[lang="fa"] nav.tabs button { font-size: 13.5px; text-transform: none; }
+  html[lang="fa"] .list-head, html[lang="fa"] .panel-head, html[lang="fa"] .pick label,
+  html[lang="fa"] .tile .t-lbl, html[lang="fa"] .maplegend .lg-title, html[lang="fa"] .part-note,
+  html[lang="fa"] .card .lang, html[lang="fa"] .rootcard .r-lang, html[lang="fa"] .quote .poet,
+  html[lang="fa"] .jcaption .jc-era, html[lang="fa"] .aboutpanel h2 { text-transform: none; }
+
   @media (max-width: 760px) {
     header.bar { padding: 8px 12px 0; gap: 8px; }
     .tagline, .count-note { display: none; }
     .wordmark .lat-name { font-size: 20px; }
     .logo { width: 28px; height: 28px; }
-    .hdr-tools { margin-left: auto; padding-bottom: 4px; }
+    .hdr-tools { margin-inline-start: auto; padding-bottom: 4px; }
     .iconbtn { font-size: 11px; padding: 2px 9px; }
     nav.tabs { order: 5; width: 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     nav.tabs::-webkit-scrollbar { display: none; }
     nav.tabs button { padding: 8px 10px 9px; font-size: 11.5px; flex-shrink: 0; }
     #frieze { height: 60px; opacity: .10; }
     #view-roots { flex-direction: column; }
-    aside { width: 100%; max-height: 38vh; border-right: none; border-bottom: 1px solid var(--line); }
+    aside { width: 100%; max-height: 38vh; border-inline-end: none; border-bottom: 1px solid var(--line); }
     .list { padding-bottom: 20px; }
     main { padding: 16px 12px 110px; }
-    .children { margin-left: 8px; padding-left: 12px; }
-    .node::before { left: -12px; width: 8px; }
+    .children { margin-inline-start: 8px; padding-inline-start: 12px; }
+    .node::before { inset-inline-start: -12px; width: 8px; }
     .rootcard, .card { min-width: 0; display: block; }
     .rootcard .r-name { font-size: 22px; }
     .quote .verse { font-size: 17px; }
@@ -401,7 +454,7 @@
     .pathpanel, .flowpanel, .jpanel, .aboutpanel { padding-left: 14px; padding-right: 14px; padding-bottom: 120px; }
     .path-title { font-size: 22px; }
     .verdict { font-size: 15px; padding: 10px 14px; }
-    .see-note { margin-left: 24px; }
+    .see-note { margin-inline-start: 24px; }
     .prail { width: 26px; }
     #jmap { min-width: 640px; }
     .jcaption .jc-word { font-size: 16px; }
@@ -453,6 +506,7 @@
       <span class="count-note" id="count"></span>
       <button class="iconbtn" id="rand" type="button">Random root</button>
       <button class="iconbtn" id="theme" type="button" title="Cycle color theme">Theme</button>
+      <button class="iconbtn" id="langbtn" type="button" title="فارسی / English" aria-label="Switch language">فارسی</button>
     </span>
   </header>
 
@@ -572,6 +626,7 @@
 
 <script>
 window.ETYM_DATA = /*__DATA__*/;
+window.ETYM_FA = /*__I18N__*/{};
 (function () {
   "use strict";
   /* ---------------- helpers ---------------- */
@@ -591,7 +646,8 @@ window.ETYM_DATA = /*__DATA__*/;
     return "other";
   }
   const FAMVAR = { iranian: "var(--fam-iranian)", ie: "var(--fam-ie)", semitic: "var(--fam-semitic)", turkic: "var(--fam-turkic)", other: "var(--fam-other)" };
-  const FAMLBL = { iranian: "Iranian", ie: "Indo-European", semitic: "Semitic", turkic: "Turkic & Altaic", other: "Other origins" };
+  const FAMS = ["iranian", "ie", "semitic", "turkic", "other"];
+  function famLbl(f) { return t("fam_" + f); }
   function famColor(f) { return getComputedStyle(document.documentElement).getPropertyValue("--fam-" + f).trim() || "#888"; }
   function tokColor(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
   function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
@@ -601,6 +657,139 @@ window.ETYM_DATA = /*__DATA__*/;
   }
   function normLat(s) { return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------------- i18n ---------------- */
+  const FA_DATA = window.ETYM_FA || {};
+  let lang = document.documentElement.lang === "fa" ? "fa" : "en";
+  const isFa = () => lang === "fa";
+  const UI = {
+    docTitle: ["Rishe · ریشه — the shared roots of Persian & English words",
+               "ریشه — فرهنگ ریشه‌شناسی واژه‌های فارسی و انگلیسی"],
+    metaDesc: ["Rishe (ریشه): the shared roots of Persian and English words as an interactive constellation, family trees, and word journeys — after Ali Nourai’s etymological dictionary.",
+               "ریشه: فرهنگ ریشه‌شناسی تعاملی واژه‌های فارسی و انگلیسی — ریشهٔ مشترک واژه‌ها، درخت خانوادهٔ هر ریشه و سفر تاریخی هر واژه، بر پایهٔ فرهنگ ریشه‌شناختی علی نورایی. ریشه‌یابی و اتیمولوژی کلمات فارسی."],
+    tagline: ["ریشه · the roots of Persian & English — after Ali Nourai’s dictionary",
+              "ریشه‌های مشترک واژه‌های فارسی و انگلیسی — بر پایهٔ فرهنگ علی نورایی"],
+    tabMap: ["Map", "نقشه"], tabRoots: ["Roots", "ریشه‌ها"], tabPath: ["Pathfinder", "رهیاب"],
+    tabFlows: ["Flows", "سرچشمه‌ها"], tabJourney: ["Journey", "سفر واژه"], tabAbout: ["About", "درباره"],
+    randRoot: ["Random root", "ریشهٔ تصادفی"],
+    homeTitle: ["Back to the start", "بازگشت به آغاز"],
+    themeLbl: { "": ["Theme: Auto", "پوسته: خودکار"], dark: ["Theme: Dark", "پوسته: تیره"], light: ["Theme: Light", "پوسته: روشن"] },
+    themeTitle: ["Cycle color theme", "تغییر پوستهٔ رنگی"],
+    langBtn: ["فارسی", "English"],
+    roots: ["roots", "ریشه"], words: ["words", "واژه"],
+    mapH1: ["The root constellation of Persian", "صورت فلکی ریشه‌های فارسی"],
+    mapP: ["Every star is a root family; its size is the number of words that grew from it. Click a root to open its tree.",
+           "هر ستاره یک خانوادهٔ ریشه است و اندازه‌اش شمار واژه‌هایی که از آن روییده‌اند. روی ریشه‌ای کلیک کنید تا درختش باز شود."],
+    mapHint: ["drag to pan · scroll to zoom · click a root to open it",
+              "برای جابه‌جایی بکشید · برای بزرگ‌نمایی اسکرول کنید · برای گشودن، روی ریشه کلیک کنید"],
+    legendTitle: ["Origin of the root", "تبار ریشه"],
+    fam_iranian: ["Iranian", "ایرانی"], fam_ie: ["Indo-European", "هندواروپایی"],
+    fam_semitic: ["Semitic", "سامی"], fam_turkic: ["Turkic & Altaic", "ترکی و آلتایی"],
+    fam_other: ["Other origins", "تبارهای دیگر"],
+    linkedTo: ["☞ linked to", "☞ پیوسته به"], rootsSuffix: ["roots", "ریشه"],
+    searchPh: ["Search a word — emerald, barq, برق…", "واژه‌ای بجویید — برق، barq یا emerald…"],
+    searchAria: ["Search words and roots", "جست‌وجوی واژه‌ها و ریشه‌ها"],
+    listRoots: ["Roots", "ریشه‌ها"], listMatches: ["Matches", "یافته‌ها"],
+    noResults: ["Nothing found.", "چیزی یافت نشد."],
+    emptyMain: ["Select a root, or search for a word.", "ریشه‌ای برگزینید، یا واژه‌ای جست‌وجو کنید."],
+    part: ["Part", "بخش"],
+    pageRef: ["Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p.",
+              "نورایی، فرهنگ ریشه‌شناختی زبان‌های فارسی، انگلیسی و دیگر زبان‌های هندواروپایی — ص"],
+    viewScan: ["📖 View scanned page", "📖 دیدن تصویر صفحهٔ"],
+    scanAlt: ["Scanned book page", "تصویر صفحهٔ کتاب —"],
+    scanFallPre: ["The page scans aren’t bundled into this preview.", "تصویر صفحه‌ها در این پیش‌نمایش گنجانده نشده است."],
+    scanFallLink: ["Open the scan of page", "دیدن تصویر صفحهٔ"],
+    scanFallPost: ["on GitHub ↗", "در گیت‌هاب ↗"],
+    notExtracted: ["root not yet extracted", "این ریشه هنوز استخراج نشده است"],
+    rootOf: ["root", "ریشهٔ"],
+    pathH1: ["How are these two words related?", "این دو واژه چه نسبتی با هم دارند؟"],
+    pathSub: ["Pick any two words — Persian or English — and walk the road between them.",
+              "دو واژه برگزینید — فارسی یا انگلیسی — و راهِ میانشان را گام‌به‌گام بپیمایید."],
+    firstWord: ["First word", "واژهٔ نخست"], secondWord: ["Second word", "واژهٔ دوم"],
+    swap: ["⇄ swap", "⇄ جابه‌جا"], swapTitle: ["Swap the two words", "جابه‌جایی دو واژه"],
+    phA: ["barq · برق", "برق · barq"], phB: ["emerald", "emerald · زمرد"],
+    steps: ["steps", "گام"],
+    seeNote: ["☞ cross-reference in the book — a margin note (often one element of a compound), not a line of descent",
+              "☞ ارجاع حاشیه‌ای کتاب — یادداشتی در حاشیه (اغلب یکی از اجزای واژه‌ای مرکّب)، نه نشانهٔ هم‌تباری"],
+    flowsH1: ["Where Persian words come from", "واژه‌های فارسی از کجا آمده‌اند؟"],
+    flowsSub: ["Counted from the root charts extracted so far.", "برشمرده از نمودارهای ریشه که تاکنون استخراج شده‌اند."],
+    tileRoots: ["root families", "خانوادهٔ ریشه"], tilePersian: ["Persian words", "واژهٔ فارسی"],
+    tileEnglish: ["English words", "واژهٔ انگلیسی"], tileShared: ["roots shared by both", "ریشهٔ مشترک هر دو زبان"],
+    tilePerToEng: ["English words with a Persian ancestor", "واژهٔ انگلیسی با نیای فارسی"],
+    sankeyH2: ["Borrowing routes into Persian", "راه‌های ورود واژه‌ها به فارسی"],
+    sankeySub: ["Each ribbon is a group of Persian words: from the family of their ultimate root, through the route they travelled.",
+                "هر نوار دسته‌ای از واژه‌های فارسی است: از خانوادهٔ ریشهٔ نهایی‌شان، از راهی که پیموده‌اند."],
+    sankeyAria: ["Sankey diagram of borrowing routes into Persian", "نمودار سانکی راه‌های ورود واژه‌ها به فارسی"],
+    viewTable: ["View as table", "نمایش به‌صورت جدول"],
+    tblOrigin: ["Root origin", "تبار ریشه"],
+    route_direct: ["inherited directly", "به ارث رسیده"],
+    route_semitic: ["via Arabic & Semitic", "از راه عربی و سامی"],
+    route_euro: ["via European languages", "از راه زبان‌های اروپایی"],
+    route_turkic: ["via Turkic", "از راه ترکی"],
+    journeyH1: ["A word’s journey", "سفرِ یک واژه"],
+    journeySub: ["Choose a word and watch its whole family fan out across lands and centuries — your word’s own road in bright gold.",
+                 "واژه‌ای برگزینید و ببینید خانواده‌اش چگونه در سرزمین‌ها و سده‌ها پراکنده می‌شود — راهِ واژهٔ شما به رنگ زر."],
+    wordLbl: ["Word", "واژه"], replay: ["▶ Replay", "▶ پخش دوباره"], randWord: ["⚄ Random word", "⚄ واژهٔ تصادفی"],
+    phJ: ["paradise · پردیس", "پردیس · paradise"],
+    pickWordAbove: ["Pick a word above", "بالا واژه‌ای برگزینید"],
+    allStations: ["All stations as text", "همهٔ ایستگاه‌ها به‌صورت متن"],
+    noStations: ["No mapped stations for this word.", "برای این واژه ایستگاهی روی نقشه ثبت نشده است."],
+    jmapAria: ["Schematic map of the word's journey", "نقشهٔ نمادین سفر واژه"]
+  };
+  function t(k) { const v = UI[k]; return v ? v[isFa() ? 1 : 0] : k; }
+  function tData(s) { return (isFa() && s && FA_DATA[s]) || s; }
+  const LANGFA = {
+    "persian": "فارسی", "avestan": "اوستایی", "pahlavi": "پهلوی", "old persian": "فارسی باستان",
+    "middle persian": "فارسی میانه", "sogdian": "سغدی", "kurdish": "کردی", "ossetic": "آسی",
+    "parthian": "پارتی", "indo-scythian": "هندوسکایی", "indo-schythian": "هندوسکایی",
+    "old iranian": "ایرانی باستان", "iranian": "ایرانی", "baluchi": "بلوچی", "tajik": "تاجیکی",
+    "khotanese": "ختنی", "scythian": "سکایی",
+    "indo-european": "هندواروپایی", "english": "انگلیسی", "greek": "یونانی", "middle greek": "یونانی میانه",
+    "latin": "لاتین", "french": "فرانسوی", "old french": "فرانسوی کهن", "german": "آلمانی",
+    "germanic": "ژرمنی", "old english": "انگلیسی کهن", "middle english": "انگلیسی میانه",
+    "sanskrit": "سانسکریت", "spanish": "اسپانیایی", "italian": "ایتالیایی", "portuguese": "پرتغالی",
+    "russian": "روسی", "armenian": "ارمنی", "dutch": "هلندی", "norwegian": "نروژی", "swedish": "سوئدی",
+    "danish": "دانمارکی", "old norse": "نورس کهن", "gothic": "گوتی", "hittite": "هیتی",
+    "tokharian": "تخاری", "lithuanian": "لیتوانیایی", "polish": "لهستانی", "celtic": "سلتی",
+    "irish": "ایرلندی", "old irish": "ایرلندی کهن", "welsh": "ولزی", "hindustani": "هندوستانی",
+    "hindi": "هندی", "urdu": "اردو", "bengali": "بنگالی", "romanian": "رومانیایی", "czech": "چکی",
+    "slavic": "اسلاوی", "old slavic": "اسلاوی کهن", "old russian": "روسی کهن",
+    "church slavonic": "اسلاوی کلیسایی", "prakrit": "پراکریت", "pali": "پالی", "frankish": "فرانکی",
+    "old high german": "آلمانی علیای کهن", "middle high german": "آلمانی علیای میانه",
+    "middle low german": "آلمانی سفلای میانه", "middle german": "آلمانی میانه",
+    "middle dutch": "هلندی میانه", "provençal": "پرووانسی", "provencal": "پرووانسی",
+    "norman french": "فرانسوی نورمن", "anglo-french": "انگلو-فرانسوی",
+    "medieval latin": "لاتین سده‌های میانه", "late latin": "لاتین متأخر", "vulgar latin": "لاتین عامیانه",
+    "new latin": "لاتین نو", "modern latin": "لاتین جدید", "middle latin": "لاتین میانه",
+    "semitic": "سامی", "arabic": "عربی", "arab": "عربی", "hebrew": "عبری", "akkadian": "اکدی",
+    "aramaic": "آرامی", "syriac": "سریانی", "phoenician": "فنیقی", "assyrian": "آشوری",
+    "babylonian": "بابلی", "ethiopian": "حبشی", "egyptian": "مصری", "sumerian": "سومری",
+    "turkish": "ترکی", "turkic": "ترکی", "altaic": "آلتایی", "mongolian": "مغولی", "tatar": "تاتاری",
+    "uighur": "اویغوری", "chagatai": "جغتایی", "ottoman turkish": "ترکی عثمانی",
+    "chinese": "چینی", "caribian": "کاراییبی", "malaysian": "مالایی", "tamil": "تامیلی",
+    "medit": "مدیترانه‌ای", "different languages": "زبان‌های گوناگون", "‼unclear": "‼ناخوانا"
+  };
+  function tLang(l) {
+    if (!isFa() || !l) return l;
+    return String(l).split("/").map(p => LANGFA[p.trim().toLowerCase()] || p.trim()).join(" / ");
+  }
+  const PLACEFA = {
+    "Pontic Steppe": "دشت پونتیک", "India": "هند", "Bactria": "باختر", "Persis": "پارس",
+    "Iran": "ایران", "Parthia": "پارت", "Scythia": "سرزمین سکاها", "Sogdiana": "سغد",
+    "Khotan": "ختن", "Kurdistan": "کردستان", "Balochistan": "بلوچستان", "Near East": "خاور نزدیک",
+    "Mesopotamia": "میان‌رودان", "Levant": "شام", "Judea": "یهودیه", "Phoenicia": "فنیقیه",
+    "Arabia": "عربستان", "Egypt": "مصر", "Sumer": "سومر", "Greece": "یونان", "Rome": "روم",
+    "France": "فرانسه", "Normandy": "نرماندی", "England": "انگلستان", "Provence": "پرووانس",
+    "Iberia": "ایبری", "Italy": "ایتالیا", "Germania": "ژرمانیا", "Germany": "آلمان",
+    "Low Countries": "سرزمین‌های پست", "Francia": "سرزمین فرانک‌ها", "Britain": "بریتانیا",
+    "Scandinavia": "اسکاندیناوی", "Norway": "نروژ", "Sweden": "سوئد", "Denmark": "دانمارک",
+    "Gothia": "سرزمین گوت‌ها", "Rus": "روس", "Slavic lands": "سرزمین‌های اسلاوی",
+    "Poland": "لهستان", "Baltics": "بالتیک", "Bohemia": "بوهم", "Anatolia": "آناتولی",
+    "Turkic Steppe": "دشت ترکان", "Altai": "آلتای", "Mongolia": "مغولستان", "Tatary": "تاتارستان",
+    "China": "چین", "Armenia": "ارمنستان", "Gaul": "گُل", "Ireland": "ایرلند", "Wales": "ولز"
+  };
+  function tPlace(p) { return (isFa() && PLACEFA[p]) || p; }
+  function fmtNum(n) { return n.toLocaleString(isFa() ? "fa-IR" : "en"); }
 
   /* ---------------- data prep ---------------- */
   const pages = (window.ETYM_DATA && window.ETYM_DATA.pages) || [];
@@ -682,7 +871,7 @@ window.ETYM_DATA = /*__DATA__*/;
             lat: normLat((w.translit || "") + " " + (w.gloss || "")),
             fa: normFa((w.script || "") + " " + (n.script_extra || "")),
             label: w.translit || w.script || "?", faLabel: w.script || "",
-            sub: (w.gloss ? w.gloss + " · " : "") + (n.lang || "") + " → root " + g.root.name,
+            gloss: w.gloss || "", rootName: g.root.name,
             lang: n.lang || ""
           });
           (w.see || []).forEach(s => {
@@ -694,8 +883,19 @@ window.ETYM_DATA = /*__DATA__*/;
     });
   });
 
-  document.getElementById("count").textContent =
-    groups.length + " roots · " + index.filter(i => i.kind === "word").length + " words";
+  const nWords = index.filter(i => i.kind === "word").length;
+  function updateCount() {
+    document.getElementById("count").textContent =
+      fmtNum(groups.length) + " " + t("roots") + " · " + fmtNum(nWords) + " " + t("words");
+  }
+  updateCount();
+  function subOf(it) {
+    if (it.kind === "root") return tData(it.sub || "");
+    const g = it.gloss ? tData(it.gloss) + " · " : "";
+    return isFa()
+      ? g + tLang(it.lang) + " · از ریشهٔ " + it.rootName
+      : g + it.lang + " → root " + it.rootName;
+  }
 
   function searchIndex(qraw, wordsOnly) {
     const ql = normLat(qraw), qf = normFa(qraw);
@@ -759,12 +959,12 @@ window.ETYM_DATA = /*__DATA__*/;
   function renderList(filter) {
     $list.innerHTML = "";
     if (!filter) {
-      const h = document.createElement("div"); h.className = "list-head"; h.textContent = "Roots"; $list.appendChild(h);
+      const h = document.createElement("div"); h.className = "list-head"; h.textContent = t("listRoots"); $list.appendChild(h);
       groups.forEach((g, ei) => {
         const b = document.createElement("button");
         b.className = "rootitem" + (ei === activeEi ? " active" : "");
-        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(g.root.lang || "") + "</span>" +
-          (g.root.gloss ? '<span class="rgloss">' + esc(g.root.gloss) + "</span>" : "");
+        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(tLang(g.root.lang) || "") + "</span>" +
+          (g.root.gloss ? '<span class="rgloss">' + esc(tData(g.root.gloss)) + "</span>" : "");
         b.addEventListener("click", () => { show(ei); });
         $list.appendChild(b);
       });
@@ -772,13 +972,13 @@ window.ETYM_DATA = /*__DATA__*/;
     }
     const hits = searchIndex(filter, false).slice(0, 80);
     const h = document.createElement("div"); h.className = "list-head";
-    h.textContent = hits.length ? "Matches" : ""; $list.appendChild(h);
-    if (!hits.length) { const d = document.createElement("div"); d.className = "nores"; d.textContent = "Nothing found."; $list.appendChild(d); return; }
+    h.textContent = hits.length ? t("listMatches") : ""; $list.appendChild(h);
+    if (!hits.length) { const d = document.createElement("div"); d.className = "nores"; d.textContent = t("noResults"); $list.appendChild(d); return; }
     hits.forEach(it => {
       const b = document.createElement("button"); b.className = "hit";
       b.innerHTML = '<span class="h-word">' + esc(it.label) + "</span>" +
         (it.faLabel ? '<span class="h-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
-        '<span class="h-meta">' + esc(it.sub) + "</span>";
+        '<span class="h-meta">' + esc(subOf(it)) + "</span>";
       b.addEventListener("click", () => { show(it.ei, filter); });
       $list.appendChild(b);
     });
@@ -796,7 +996,7 @@ window.ETYM_DATA = /*__DATA__*/;
     if (!arr || !arr.length) return "";
     return arr.map(s => {
       const t = findRoot(s);
-      return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? " disabled title=\"root not yet extracted\"" : "") + ">☞ " + esc(s) + "</button>";
+      return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? ' disabled title="' + esc(UI.notExtracted[isFa() ? 1 : 0]) + '"' : "") + ">☞ " + esc(s) + "</button>";
     }).join(" ");
   }
   function nodeHtml(e, n, needle, nDesc) {
@@ -805,29 +1005,29 @@ window.ETYM_DATA = /*__DATA__*/;
     (n.words || []).forEach(w => {
       words += '<div class="wordrow">' +
         (w.translit ? '<span class="w-lat">' + hi(w.translit, needle) + "</span>" : "") +
-        (w.gloss ? '<span class="w-gloss">' + hi(w.gloss, needle) + "</span>" : "") +
+        (w.gloss ? '<span class="w-gloss">' + hi(tData(w.gloss), needle) + "</span>" : "") +
         seeChips(w.see) +
         (w.script ? '<span class="w-fa" lang="fa">' + hi(w.script, needle) + "</span>" : "") +
         "</div>";
     });
     const extra = n.script_extra ? '<div class="fa-extra" lang="fa">' + hi(n.script_extra, needle) + "</div>" : "";
-    const note = n.note ? '<div class="note">' + esc(n.note) + "</div>" : "";
+    const note = n.note ? '<div class="note">' + esc(tData(n.note)) + "</div>" : "";
     const quote = n.quote && n.quote.text
       ? '<div class="quote"><div class="verse" lang="fa">' + esc(n.quote.text) + '</div>' +
         (n.quote.poet ? '<div class="poet">' + esc(n.quote.poet) + "</div>" : "") + "</div>"
       : "";
     return '<div class="card" style="--famc:' + fam + '">' +
       '<div class="head' + (nDesc ? ' has-kids" role="button" tabindex="0" aria-expanded="true' : '') + '">' +
-      '<span class="lang">' + esc(n.lang || "?") + "</span>" +
+      '<span class="lang">' + esc(tLang(n.lang) || "?") + "</span>" +
       (n.refs ? '<span class="refs">' + esc(n.refs) + "</span>" : "") +
       (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") + "</div>" +
       '<div class="body">' + words + extra + note + quote + "</div></div>";
   }
   function rootCardHtml(r) {
     return '<div class="rootcard">' +
-      '<div class="r-lang">' + esc(r.lang || "") + "</div>" +
+      '<div class="r-lang">' + esc(tLang(r.lang) || "") + "</div>" +
       '<div class="r-name">' + esc(r.name) + "</div>" +
-      (r.gloss ? '<div class="r-gloss">' + esc(r.gloss) + "</div>" : "") +
+      (r.gloss ? '<div class="r-gloss">' + esc(tData(r.gloss)) + "</div>" : "") +
       (r.refs ? '<div class="r-refs">' + esc(r.refs) + "</div>" : "") +
       "</div>";
   }
@@ -846,14 +1046,17 @@ window.ETYM_DATA = /*__DATA__*/;
         return '<div class="children">' + c.map(n =>
           '<div class="node">' + nodeHtml(e, n, needle, desc(n.id)) + branch(n.id) + "</div>").join("") + "</div>";
       };
-      if (g.entries.length > 1) html += '<div class="part-note">Part ' + esc(e.part || i + 1) + "</div>";
+      if (g.entries.length > 1) {
+        const pn = e.part || i + 1;
+        html += '<div class="part-note">' + t("part") + " " + (typeof pn === "number" ? fmtNum(pn) : esc(pn)) + "</div>";
+      }
       html += branch(0);
     });
     const bookPages = Array.from(new Set(g.entries.map(e => e._page))).filter(p => p != null);
-    html += '<div class="pageref">Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p. ' +
-      esc(bookPages.join(", ")) + "</div>" +
+    html += '<div class="pageref">' + t("pageRef") + " " +
+      esc(bookPages.map(p => fmtNum(p)).join(isFa() ? "، " : ", ")) + "</div>" +
       '<div class="scanrow">' + bookPages.map(p =>
-        '<button class="iconbtn scanbtn" data-b="' + p + '" data-p="' + (p + 30) + '">📖 View scanned page ' + p + "</button>").join("") +
+        '<button class="iconbtn scanbtn" data-b="' + p + '" data-p="' + (p + 30) + '">' + t("viewScan") + " " + fmtNum(p) + "</button>").join("") +
       '</div><div class="scanpanel" id="scanpanel"></div></div>';
     $main.innerHTML = html;
     const panel = document.getElementById("scanpanel");
@@ -864,11 +1067,12 @@ window.ETYM_DATA = /*__DATA__*/;
         panel.dataset.open = pdf;
         const img = new Image();
         img.loading = "lazy";
-        img.alt = "Scanned book page " + bk;
+        img.alt = t("scanAlt") + " " + fmtNum(+bk);
         img.src = "pages/" + pdf + ".jpg";
         img.onerror = () => {
-          panel.innerHTML = '<div class="scanfall">The page scans aren’t bundled into this preview. ' +
-            '<a href="https://raw.githubusercontent.com/sfmqrb/rishe/main/site/pages/' + pdf + '.jpg" target="_blank" rel="noopener">Open the scan of page ' + bk + ' on GitHub ↗</a></div>';
+          panel.innerHTML = '<div class="scanfall">' + t("scanFallPre") + " " +
+            '<a href="https://raw.githubusercontent.com/sfmqrb/rishe/main/site/pages/' + pdf + '.jpg" target="_blank" rel="noopener">' +
+            t("scanFallLink") + " " + fmtNum(+bk) + " " + t("scanFallPost") + "</a></div>";
         };
         panel.innerHTML = "";
         panel.appendChild(img);
@@ -920,7 +1124,7 @@ window.ETYM_DATA = /*__DATA__*/;
         const b = document.createElement("button");
         b.innerHTML = '<span>' + esc(it.label) + '</span>' +
           (it.faLabel ? '<span class="s-fa" lang="fa">' + esc(it.faLabel) + "</span>" : "") +
-          '<span class="s-meta">' + esc(it.sub) + "</span>";
+          '<span class="s-meta">' + esc(subOf(it)) + "</span>";
         b.addEventListener("mousedown", ev => {
           ev.preventDefault();
           input.value = it.label + (it.faLabel ? " · " + it.faLabel : "");
@@ -1035,21 +1239,21 @@ window.ETYM_DATA = /*__DATA__*/;
       const strong = highlight !== undefined && wi === highlight;
       words += '<div class="wordrow">' +
         (w.translit ? '<span class="w-lat">' + (strong ? "<mark>" + esc(w.translit) + "</mark>" : esc(w.translit)) + "</span>" : "") +
-        (w.gloss ? '<span class="w-gloss">' + esc(w.gloss) + "</span>" : "") +
+        (w.gloss ? '<span class="w-gloss">' + esc(tData(w.gloss)) + "</span>" : "") +
         (w.script ? '<span class="w-fa" lang="fa">' + (strong ? "<mark>" + esc(w.script) + "</mark>" : esc(w.script)) + "</span>" : "") +
         "</div>";
     });
     if (!words && n.script_extra) words = '<div class="fa-extra" lang="fa">' + esc(n.script_extra) + "</div>";
     return '<div class="pstep"><div class="prail"><div class="pdot" style="--famc:' + fam + '"></div><div class="pline"></div></div>' +
       '<div class="pcard"><div class="card" style="--famc:' + fam + '">' +
-      '<div class="head"><span class="lang">' + esc(n.lang || "?") + "</span></div>" +
+      '<div class="head"><span class="lang">' + esc(tLang(n.lang) || "?") + "</span></div>" +
       '<div class="body">' + words + "</div></div></div></div>";
   }
   function renderChain(path) {
     let html = "<div class='pathchain'>";
     path.forEach((v, i) => {
       if (i > 0 && seeSet.has(path[i - 1] + "|" + v)) {
-        html += '<div class="see-note">☞ cross-reference in the book — a margin note (often one element of a compound), not a line of descent</div>';
+        html += '<div class="see-note">' + esc(t("seeNote")) + "</div>";
       }
       const hlA = v === pA.vid ? pA.wi : undefined;
       const hl = v === pB.vid ? pB.wi : hlA;
@@ -1065,26 +1269,40 @@ window.ETYM_DATA = /*__DATA__*/;
       const rootV = path.find(v => vinfo.get(v).root);
       const rootG = rootV ? groups[vinfo.get(rootV).gi] : groups[pA.ei];
       const verdict = rootV
-        ? "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are cousins — both grew from the root <b>" +
-          esc(rootG.root.name) + "</b> (" + esc(rootG.root.lang || "") + ")."
-        : "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> sit on the same branch of <b>" + esc(rootG.root.name) + "</b>.";
-      $pathout.innerHTML = '<div class="verdict">' + verdict + " <span style='color:var(--muted)'>(" + (path.length - 1) + " steps)</span></div>" + renderChain(path);
+        ? (isFa()
+          ? "<b>" + esc(pA.label) + "</b> و <b>" + esc(pB.label) + "</b> خویشاوندند — هر دو از ریشهٔ <b>" +
+            esc(rootG.root.name) + "</b> (" + esc(tLang(rootG.root.lang) || "") + ") روییده‌اند."
+          : "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> are cousins — both grew from the root <b>" +
+            esc(rootG.root.name) + "</b> (" + esc(rootG.root.lang || "") + ").")
+        : (isFa()
+          ? "<b>" + esc(pA.label) + "</b> و <b>" + esc(pB.label) + "</b> بر یک شاخه از <b>" + esc(rootG.root.name) + "</b> نشسته‌اند."
+          : "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) + "</b> sit on the same branch of <b>" + esc(rootG.root.name) + "</b>.");
+      $pathout.innerHTML = '<div class="verdict">' + verdict + " <span style='color:var(--muted)'>(" + fmtNum(path.length - 1) + " " + t("steps") + ")</span></div>" + renderChain(path);
       return;
     }
     // no common ancestor — offer the book's ☞ cross-reference trail, honestly labeled, capped at 2 hops
     const seeRes = bfsWithSee(pA.vid, pB.vid, 2);
     if (seeRes) {
       const nSee = seeRes.path.reduce((s, v, i) => s + (i > 0 && seeSet.has(seeRes.path[i - 1] + "|" + v) ? 1 : 0), 0);
-      $pathout.innerHTML = '<div class="verdict"><b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
-        "</b> share <b>no common root</b> in the charts — they are not cognates. " +
-        "The book's margin notes do connect their charts through " + nSee + " ☞ cross-reference" + (nSee > 1 ? "s" : "") +
-        " (shown below), but a ☞ marks a borrowed compound element or a “see also”, not shared ancestry.</div>" +
+      $pathout.innerHTML = '<div class="verdict">' + (isFa()
+        ? "<b>" + esc(pA.label) + "</b> و <b>" + esc(pB.label) +
+          "</b> در نمودارها <b>هیچ ریشهٔ مشترکی</b> ندارند — هم‌ریشه نیستند. " +
+          "اما یادداشت‌های حاشیهٔ کتاب نمودارهایشان را با " + fmtNum(nSee) + " ارجاعِ ☞ به هم می‌رساند " +
+          "(در زیر)، و ☞ نشان یک جزء وام‌گرفته در واژه‌ای مرکّب یا «نیز ببینید» است، نه هم‌تباری."
+        : "<b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
+          "</b> share <b>no common root</b> in the charts — they are not cognates. " +
+          "The book's margin notes do connect their charts through " + nSee + " ☞ cross-reference" + (nSee > 1 ? "s" : "") +
+          " (shown below), but a ☞ marks a borrowed compound element or a “see also”, not shared ancestry.") + "</div>" +
         renderChain(seeRes.path);
       return;
     }
-    $pathout.innerHTML = '<div class="nopath">No recorded connection between <b>' + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
-      "</b> in the charts extracted so far — they grow from unrelated roots (" +
-      esc(groups[pA.ei].root.name) + " and " + esc(groups[pB.ei].root.name) + ").</div>";
+    $pathout.innerHTML = '<div class="nopath">' + (isFa()
+      ? "میان <b>" + esc(pA.label) + "</b> و <b>" + esc(pB.label) +
+        "</b> در نمودارهایی که تاکنون استخراج شده پیوندی ثبت نشده است — از ریشه‌هایی جدا می‌رویند (" +
+        esc(groups[pA.ei].root.name) + " و " + esc(groups[pB.ei].root.name) + ")."
+      : "No recorded connection between <b>" + esc(pA.label) + "</b> and <b>" + esc(pB.label) +
+        "</b> in the charts extracted so far — they grow from unrelated roots (" +
+        esc(groups[pA.ei].root.name) + " and " + esc(groups[pB.ei].root.name) + ").") + "</div>";
   }
   const FAMOUS = [
     ["barq", "emerald"], ["pardîs", "paradise"], ["šâh", "checkmate"], ["doxtar", "daughter"],
@@ -1308,9 +1526,11 @@ window.ETYM_DATA = /*__DATA__*/;
       tip.style.left = (e.offsetX + 16) + "px";
       tip.style.top = (e.offsetY + 8) + "px";
       tip.innerHTML = '<div class="t-name">' + esc(g.root.name) + "</div>" +
-        (g.root.gloss ? '<div style="font-style:italic">' + esc(g.root.gloss) + "</div>" : "") +
-        '<div class="t-sub">' + esc(FAMLBL[g.fam]) + " · " + g.wc + " words" +
-        (nLinks ? " · ☞ linked to " + nLinks + " root" + (nLinks > 1 ? "s" : "") : "") + "</div>";
+        (g.root.gloss ? '<div style="font-style:' + (isFa() ? "normal" : "italic") + '">' + esc(tData(g.root.gloss)) + "</div>" : "") +
+        '<div class="t-sub">' + esc(famLbl(g.fam)) + " · " + fmtNum(g.wc) + " " + t("words") +
+        (nLinks ? (isFa()
+          ? " · " + t("linkedTo") + " " + fmtNum(nLinks) + " " + t("rootsSuffix")
+          : " · ☞ linked to " + nLinks + " root" + (nLinks > 1 ? "s" : "")) : "") + "</div>";
       cv.style.cursor = "pointer";
     } else {
       tip.style.display = "none";
@@ -1333,13 +1553,14 @@ window.ETYM_DATA = /*__DATA__*/;
     cam.y = wy - my / cam.k;
     mapDraw();
   }, { passive: false });
-  (function legend() {
+  function renderLegend() {
     const lg = document.getElementById("maplegend");
-    lg.innerHTML = '<div class="lg-title">Origin of the root</div>' +
-      Object.keys(FAMLBL).map(f =>
-        '<div class="lg-row"><span class="dot" style="background:' + FAMVAR[f].replace("var(", "").replace(")", "") + ';background:var(--fam-' + f + ')"></span>' +
-        esc(FAMLBL[f]) + " · " + groups.filter(g => g.fam === f).length + "</div>").join("");
-  })();
+    lg.innerHTML = '<div class="lg-title">' + esc(t("legendTitle")) + "</div>" +
+      FAMS.map(f =>
+        '<div class="lg-row"><span class="dot" style="background:var(--fam-' + f + ')"></span>' +
+        esc(famLbl(f)) + " · " + fmtNum(groups.filter(g => g.fam === f).length) + "</div>").join("");
+  }
+  renderLegend();
   onShowView.map = () => {
     mapResize();
     if (!mapReady) {
@@ -1360,10 +1581,10 @@ window.ETYM_DATA = /*__DATA__*/;
   let flowsBuilt = false;
   function buildFlows() {
     if (flowsBuilt) return; flowsBuilt = true;
-    const flows = {}; // origin -> route -> count
+    const flows = {}; // origin fam code -> route code -> count
     let perWords = 0, engWords = 0, sharedRoots = 0, perToEng = 0;
     groups.forEach(g => {
-      const origin = FAMLBL[g.fam];
+      const origin = g.fam;
       let hasP = false, hasE = false;
       g.entries.forEach(e => {
         const byId = {}; (e.nodes || []).forEach(n => byId[n.id] = n);
@@ -1383,11 +1604,11 @@ window.ETYM_DATA = /*__DATA__*/;
           if (isP) {
             const parts = chain.flatMap(l => l.split("/").map(x => x.trim()));
             let route;
-            if (parts.some(x => SEMI.has(x))) route = "via Arabic & Semitic";
-            else if (parts.some(x => EURO.has(x))) route = "via European languages";
-            else if (parts.some(x => TURK.has(x)) || g.fam === "turkic") route = "via Turkic";
-            else route = "inherited directly";
-            if (g.fam === "semitic" && route === "inherited directly") route = "via Arabic & Semitic";
+            if (parts.some(x => SEMI.has(x))) route = "semitic";
+            else if (parts.some(x => EURO.has(x))) route = "euro";
+            else if (parts.some(x => TURK.has(x)) || g.fam === "turkic") route = "turkic";
+            else route = "direct";
+            if (g.fam === "semitic" && route === "direct") route = "semitic";
             (flows[origin] = flows[origin] || {})[route] = (flows[origin][route] || 0) + wc;
           }
         });
@@ -1396,19 +1617,18 @@ window.ETYM_DATA = /*__DATA__*/;
     });
     // tiles
     document.getElementById("tiles").innerHTML = [
-      [groups.length, "root families"],
-      [perWords, "Persian words"],
-      [engWords, "English words"],
-      [sharedRoots, "roots shared by both"],
-      [perToEng, "English words with a Persian ancestor"]
-    ].map(([n, l]) => '<div class="tile"><div class="t-num">' + n.toLocaleString("en") + '</div><div class="t-lbl">' + l + "</div></div>").join("");
+      [groups.length, t("tileRoots")],
+      [perWords, t("tilePersian")],
+      [engWords, t("tileEnglish")],
+      [sharedRoots, t("tileShared")],
+      [perToEng, t("tilePerToEng")]
+    ].map(([n, l]) => '<div class="tile"><div class="t-num">' + fmtNum(n) + '</div><div class="t-lbl">' + esc(l) + "</div></div>").join("");
     drawSankey(flows);
   }
   function drawSankey(flows) {
-    const origins = ["Indo-European", "Semitic", "Turkic & Altaic", "Iranian", "Other origins"].filter(o => flows[o]);
-    const routeOrder = ["inherited directly", "via Arabic & Semitic", "via European languages", "via Turkic"];
+    const origins = ["ie", "semitic", "turkic", "iranian", "other"].filter(o => flows[o]);
+    const routeOrder = ["direct", "semitic", "euro", "turkic"];
     const routes = routeOrder.filter(r => origins.some(o => flows[o][r]));
-    const famOfOrigin = { "Indo-European": "ie", "Semitic": "semitic", "Turkic & Altaic": "turkic", "Iranian": "iranian", "Other origins": "other" };
     const total = origins.reduce((s, o) => s + Object.values(flows[o]).reduce((a, b) => a + b, 0), 0);
     if (!total) return;
     const W = 860, H = 430, padY = 14, barW = 14, x0 = 210, x1 = W - 240;
@@ -1427,40 +1647,40 @@ window.ETYM_DATA = /*__DATA__*/;
       rPos[r] = { y, h: v * scale, off: 0, v };
       y += v * scale + padY;
     });
-    let svg = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block" role="img" aria-label="Sankey diagram of borrowing routes into Persian">';
+    let svg = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block" role="img" aria-label="' + esc(t("sankeyAria")) + '">';
     origins.forEach(o => {
       routeOrder.forEach(r => {
         const v = flows[o][r]; if (!v) return;
         const h = v * scale;
         const sy = oPos[o].y + oPos[o].off, ty = rPos[r].y + rPos[r].off;
         oPos[o].off += h; rPos[r].off += h;
-        const c = famColor(famOfOrigin[o]);
+        const c = famColor(o);
         const mx = (x0 + x1) / 2;
         svg += '<path d="M' + (x0 + barW) + " " + sy + " C" + mx + " " + sy + " " + mx + " " + ty + " " + x1 + " " + ty +
           " L" + x1 + " " + (ty + h) + " C" + mx + " " + (ty + h) + " " + mx + " " + (sy + h) + " " + (x0 + barW) + " " + (sy + h) +
-          ' Z" fill="' + c + '" opacity="0.45"><title>' + esc(o) + " → " + esc(r) + ": " + v + " words</title></path>";
+          ' Z" fill="' + c + '" opacity="0.45"><title>' + esc(famLbl(o)) + " → " + esc(t("route_" + r)) + ": " + fmtNum(v) + " " + t("words") + "</title></path>";
       });
     });
     origins.forEach(o => {
-      const p = oPos[o], c = famColor(famOfOrigin[o]);
+      const p = oPos[o], c = famColor(o);
       svg += '<rect x="' + x0 + '" y="' + p.y + '" width="' + barW + '" height="' + Math.max(2, p.h) + '" rx="4" fill="' + c + '"/>';
-      svg += '<text class="sk-label" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 1) + '" text-anchor="end">' + esc(o) + "</text>";
-      svg += '<text class="sk-sub" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 14) + '" text-anchor="end">' + p.v.toLocaleString("en") + " words</text>";
+      svg += '<text class="sk-label" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 1) + '" text-anchor="end">' + esc(famLbl(o)) + "</text>";
+      svg += '<text class="sk-sub" x="' + (x0 - 10) + '" y="' + (p.y + p.h / 2 + 14) + '" text-anchor="end">' + fmtNum(p.v) + " " + t("words") + "</text>";
     });
     routes.forEach(r => {
       const p = rPos[r];
       svg += '<rect x="' + x1 + '" y="' + p.y + '" width="' + barW + '" height="' + Math.max(2, p.h) + '" rx="4" fill="var(--muted)"/>';
-      svg += '<text class="sk-label" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 1) + '">' + esc(r) + "</text>";
-      svg += '<text class="sk-sub" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 14) + '">' + p.v.toLocaleString("en") + " words</text>";
+      svg += '<text class="sk-label" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 1) + '">' + esc(t("route_" + r)) + "</text>";
+      svg += '<text class="sk-sub" x="' + (x1 + barW + 10) + '" y="' + (p.y + p.h / 2 + 14) + '">' + fmtNum(p.v) + " " + t("words") + "</text>";
     });
     svg += "</svg>";
     document.getElementById("sankey").innerHTML = svg;
-    let tbl = "<table><tr><th>Root origin</th>";
-    routes.forEach(r => tbl += "<th>" + esc(r) + "</th>");
+    let tbl = "<table><tr><th>" + esc(t("tblOrigin")) + "</th>";
+    routes.forEach(r => tbl += "<th>" + esc(t("route_" + r)) + "</th>");
     tbl += "</tr>";
     origins.forEach(o => {
-      tbl += "<tr><td>" + esc(o) + "</td>";
-      routes.forEach(r => tbl += "<td>" + (flows[o][r] || 0) + "</td>");
+      tbl += "<tr><td>" + esc(famLbl(o)) + "</td>";
+      routes.forEach(r => tbl += "<td>" + fmtNum(flows[o][r] || 0) + "</td>");
       tbl += "</tr>";
     });
     tbl += "</table>";
@@ -1512,7 +1732,10 @@ window.ETYM_DATA = /*__DATA__*/;
     for (const p of parts) for (const k in STATIONS) if (p.includes(k)) return { key: k, s: STATIONS[k] };
     return null;
   }
-  function eraLabel(y) { return y < 0 ? Math.abs(y).toLocaleString("en") + " BCE" : y + " CE"; }
+  function eraLabel(y) {
+    if (isFa()) return y < 0 ? fmtNum(Math.abs(y)) + " پ.م." : fmtNum(y) + " م.";
+    return y < 0 ? Math.abs(y).toLocaleString("en") + " BCE" : y + " CE";
+  }
   const LAND = "M95 330 L110 288 L138 252 L152 234 L182 224 L214 210 L248 192 L256 148 L286 96 L330 74 L362 100 L342 150 L302 180 L360 150 L420 112 L560 86 L700 96 L880 120 L948 180 L944 258 L882 300 L820 322 L772 300 L756 368 L722 330 L692 312 L642 330 L602 344 L562 330 L546 398 L502 420 L472 372 L456 340 L450 300 L402 280 L352 284 L332 300 L312 280 L292 290 L302 320 L282 342 L266 316 L252 292 L202 300 L162 320 L122 348 Z";
   const AFRICA = "M95 372 L200 362 L300 372 L408 380 L446 402 L470 428 L470 560 L60 560 L60 400 Z";
   const BRITAIN = "M162 196 L156 176 L168 158 L184 166 L190 186 L178 200 Z";
@@ -1598,16 +1821,16 @@ window.ETYM_DATA = /*__DATA__*/;
   }
   function caption(s) {
     document.getElementById("jcaption").innerHTML =
-      '<div class="jc-era">' + eraLabel(s.era) + " — " + esc(s.lang) + " · " + esc(s.place) + "</div>" +
+      '<div class="jc-era">' + eraLabel(s.era) + " — " + esc(tLang(s.lang)) + " · " + esc(tPlace(s.place)) + "</div>" +
       '<div class="jc-word">' + (s.words && s.words.length ? "<b>" + esc(s.words.join(", ")) + "</b>" : "") +
-      (s.gloss ? ' <i style="color:var(--muted)">' + esc(s.gloss) + "</i>" : "") +
+      (s.gloss ? ' <i style="color:var(--muted);font-style:' + (isFa() ? "normal" : "italic") + '">' + esc(tData(s.gloss)) + "</i>" : "") +
       (s.script ? ' <span class="fa-part" lang="fa">' + esc(s.script) + "</span>" : "") + "</div>";
   }
   function runJourney() {
     if (!jItem) return;
     if (jAnimId) { clearTimeout(jAnimId); jAnimId = null; }
     const { stations, edges, onPath, chain } = journeyTree(jItem);
-    if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">No mapped stations for this word.</span>'; return; }
+    if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">' + esc(t("noStations")) + "</span>"; return; }
     let svg = '<path class="j-land" d="' + LAND + '"/><path class="j-land" d="' + AFRICA + '"/><path class="j-land" d="' + BRITAIN + '"/>';
     edges.forEach(ed => {
       const p = stations[ed.a], s = stations[ed.b];
@@ -1618,8 +1841,8 @@ window.ETYM_DATA = /*__DATA__*/;
       const above = (s.depth + i) % 2 === 0;
       svg += '<g class="j-st-grp" data-d="' + s.depth + '" data-i="' + i + '">' +
         '<circle class="j-station jst' + (s.isTarget ? " target" : "") + '" data-i="' + i + '" cx="' + s.x + '" cy="' + s.y + '" r="' + (s.isTarget ? 8.5 : 6.5) + '" stroke="var(--fam-' + s.fam + ')"/>' +
-        '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 13 : s.y + 23) + '" text-anchor="middle">' + esc(s.lang) + "</text>" +
-        '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 24 : s.y + 34) + '" text-anchor="middle">' + esc(s.place) + " · " + eraLabel(s.era) + "</text></g>";
+        '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 13 : s.y + 23) + '" text-anchor="middle">' + esc(tLang(s.lang)) + "</text>" +
+        '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 24 : s.y + 34) + '" text-anchor="middle">' + esc(tPlace(s.place)) + " · " + eraLabel(s.era) + "</text></g>";
     });
     const jm = document.getElementById("jmap");
     jm.innerHTML = svg;
@@ -1634,9 +1857,9 @@ window.ETYM_DATA = /*__DATA__*/;
     }).join("");
     // stations as text (chronological)
     document.getElementById("jstations").innerHTML = stations.slice().sort((a, b) => a.era - b.era).map(s =>
-      '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(s.lang) + '</span><span class="tog">' + esc(s.place) + " · " + eraLabel(s.era) + "</span></div>" +
+      '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(tLang(s.lang)) + '</span><span class="tog">' + esc(tPlace(s.place)) + " · " + eraLabel(s.era) + "</span></div>" +
       '<div class="body"><div class="wordrow">' + (s.words.length ? '<span class="w-lat">' + esc(s.words.join(", ")) + "</span>" : "") +
-      (s.gloss ? '<span class="w-gloss">' + esc(s.gloss) + "</span>" : "") +
+      (s.gloss ? '<span class="w-gloss">' + esc(tData(s.gloss)) + "</span>" : "") +
       (s.script ? '<span class="w-fa" lang="fa">' + esc(s.script) + "</span>" : "") + "</div></div></div>").join("");
     // hover → caption
     jm.querySelectorAll(".jst").forEach(c => {
@@ -1726,15 +1949,15 @@ window.ETYM_DATA = /*__DATA__*/;
     if (!pool.length) return;
     pickJ.set(pool[Math.floor(Math.random() * pool.length)]);
   });
+  let jDirty = false;
   onShowView.journey = () => {
     if (!jItem) {
       const seed = searchIndex("pardis", true)[0] || searchIndex("paradise", true)[0] || index.find(i => i.kind === "word");
       if (seed) pickJ.set(seed);
-    }
+    } else if (jDirty) { jDirty = false; runJourney(); }
   };
 
   /* ---------------- theme + frieze ---------------- */
-  const THEME_LABEL = { "": "Theme: Auto", dark: "Theme: Dark", light: "Theme: Light" };
   const $theme = document.getElementById("theme");
   let themePref = "";
   try { themePref = localStorage.getItem("wr-theme") || ""; } catch (e) {}
@@ -1775,7 +1998,7 @@ window.ETYM_DATA = /*__DATA__*/;
   function applyTheme() {
     if (themePref) document.documentElement.setAttribute("data-theme", themePref);
     else document.documentElement.removeAttribute("data-theme");
-    $theme.textContent = THEME_LABEL[themePref] || THEME_LABEL[""];
+    $theme.textContent = (UI.themeLbl[themePref] || UI.themeLbl[""])[isFa() ? 1 : 0];
     requestAnimationFrame(() => { drawFrieze(); if (curView === "map") mapDraw(); });
   }
   $theme.addEventListener("click", () => {
@@ -1786,10 +2009,112 @@ window.ETYM_DATA = /*__DATA__*/;
   applyTheme();
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => applyTheme());
 
+  /* ---------------- language toggle ---------------- */
+  const $langbtn = document.getElementById("langbtn");
+  const $aboutpanel = document.querySelector(".aboutpanel");
+  const ABOUT_EN = $aboutpanel.innerHTML;
+  const ABOUT_FA = '<p class="about-epigraph" lang="fa">«فارسی شکر است»</p>' +
+    '<h1 class="path-title">دربارهٔ ریشه</h1>' +
+    '<p>این تارنما را از سرِ عشق به فارسی ساخته‌ام — زبانی که با آن فکر می‌کنم و حس می‌کنم — چون می‌خواستم <b>ببینم</b> ' +
+    'ریشه‌های این زبان تا کجا فرو می‌روند. هر واژهٔ فارسی سده‌ها سفر را در خود دارد: از دشت‌های اوراسیا تا اوستایی و ' +
+    'فارسی باستان، در رفت‌وآمد با عربی و یونانی و ترکی، و گاه تا انگلیسی و دوباره بازگشت. فرهنگ لغت این داستان را ' +
+    'مدخل‌به‌مدخل می‌گوید؛ من جایی می‌خواستم که بشود در آن پرسه زد — «برق» را تا <span dir="ltr">emerald</span> دنبال کرد، ' +
+    'دید «پردیس» چگونه <span dir="ltr">paradise</span> می‌شود، و تبارِ یک زبان را مانند آسمان شب یک‌جا تماشا کرد.</p>' +
+    '<h2>سرچشمه</h2>' +
+    '<p>همهٔ داده‌های این تارنما برگرفته از کتاب <b>علی نورایی</b>، ' +
+    '<i dir="ltr">An Etymological Dictionary of Persian, English and other Indo-European Languages</i> است — ' +
+    'کاری کم‌نظیر و عاشقانه که بیش از ۱٬۶۰۰ ریشهٔ مشترکِ نزدیک به ۴٬۷۰۰ واژهٔ فارسی و ۳٬۳۰۰ واژهٔ انگلیسی را ترسیم می‌کند. ' +
+    'این تارنما بازآفرینی تعاملی نمودارهای دست‌کشیدهٔ اوست؛ همهٔ دانش از آنِ اوست و هر نمودار به تصویر صفحهٔ چاپیِ ' +
+    'همان مدخل پیوند دارد. کتاب به‌رایگان در ' +
+    '<a href="https://archive.org/details/AnEtymologicalDictionaryOfPersianEnglishAndOtherIndo-europeanLanguages" target="_blank" rel="noopener">اینترنت آرشیو</a> در دسترس است.</p>' +
+    '<h2>متن چگونه استخراج شد</h2>' +
+    '<p>از کتاب تنها نسخهٔ اسکن‌شده در دست است — بدون متن دیجیتال — و OCR معمولی نمودارهای دست‌کشیده را از میان می‌برد. ' +
+    'پس استخراج را گروهی از عامل‌های بیناییِ <b>Claude</b> (ساخت Anthropic) صفحه‌به‌صفحه انجام دادند: هر یک از ' +
+    '۵۴۱ صفحهٔ نمودار با وضوح ۲۰۰ DPI پردازش شد، متن هر کادر حرف‌به‌حرف از برش‌های بزرگ‌نمایی‌شده خوانده شد ' +
+    '(با حرکت‌گذاری‌ها)، پیکان‌های کشیده‌شده برای بازسازی درخت اشتقاق دنبال شدند و نتیجه‌ها از نظر ساختاری آزموده شدند — ' +
+    'هر پیوند والد، شمارهٔ صفحه و متن فارسی وارسی شد و حرف‌های موردتردید با ابیات فردوسی، حافظ و سعدی که کتاب ' +
+    'نقل می‌کند مقابله شدند.</p>' +
+    '<h2>دربارهٔ دقت</h2>' +
+    '<p>با این‌همه، لغزش‌های کوچک در نویسه‌گردانی ممکن است. هرجا موضوع مهم بود، دکمهٔ «دیدن تصویر صفحه» را زیر ' +
+    'هر نمودار بزنید و با اصل کتاب مقابله کنید. ارجاع‌های با نشان ☞ یادداشت‌های حاشیهٔ خودِ کتاب‌اند (اغلب یکی از ' +
+    'اجزای واژه‌ای مرکّب)، نه ادعای هم‌تباری.</p>' +
+    '<h2>سازنده</h2>' +
+    '<p>ساختهٔ <a href="https://www.cs.toronto.edu/~smaghrebi/" target="_blank" rel="noopener" dir="ltr">Sajad F. Maghrebi</a>. ' +
+    'داده‌ها و کد در <a href="https://github.com/sfmqrb/rishe" target="_blank" rel="noopener">گیت‌هاب</a> در دسترس‌اند.</p>';
+  function applyStatic() {
+    const fa = isFa();
+    document.title = t("docTitle");
+    const md = document.querySelector('meta[name="description"]');
+    if (md) md.setAttribute("content", t("metaDesc"));
+    const can = document.querySelector('link[rel="canonical"]');
+    if (can) can.setAttribute("href", "https://sfmqrb.github.io/rishe/" + (fa ? "?lang=fa" : ""));
+    document.querySelector(".tagline").textContent = t("tagline");
+    const tabT = { map: "tabMap", roots: "tabRoots", path: "tabPath", flows: "tabFlows", journey: "tabJourney", about: "tabAbout" };
+    tabs.forEach(b => { b.textContent = t(tabT[b.dataset.v]); });
+    document.getElementById("rand").textContent = t("randRoot");
+    $theme.title = t("themeTitle");
+    $home.title = t("homeTitle");
+    $langbtn.textContent = t("langBtn");
+    document.querySelector("#view-map .mapheadline h1").textContent = t("mapH1");
+    document.querySelector("#view-map .mapheadline p").textContent = t("mapP");
+    document.querySelector("#view-map .maphint").textContent = t("mapHint");
+    $q.placeholder = t("searchPh");
+    $q.setAttribute("aria-label", t("searchAria"));
+    const emptyDiv = $main.querySelector(".empty");
+    if (emptyDiv) emptyDiv.textContent = t("emptyMain");
+    document.querySelector("#view-path .path-title").textContent = t("pathH1");
+    document.querySelector("#view-path .path-sub").textContent = t("pathSub");
+    document.querySelector("#pickA label").textContent = t("firstWord");
+    document.querySelector("#pickB label").textContent = t("secondWord");
+    document.querySelector("#pickA input").placeholder = t("phA");
+    document.querySelector("#pickB input").placeholder = t("phB");
+    const swapBtn = document.getElementById("swapAB");
+    swapBtn.textContent = t("swap"); swapBtn.title = t("swapTitle");
+    document.querySelector("#view-flows .path-title").textContent = t("flowsH1");
+    document.querySelector("#view-flows .path-sub").textContent = t("flowsSub");
+    document.querySelector(".sankeywrap h2").textContent = t("sankeyH2");
+    document.querySelector(".sankeywrap .chart-sub").textContent = t("sankeySub");
+    document.querySelector("#view-flows .flowtable summary").textContent = t("viewTable");
+    document.querySelector("#view-journey .path-title").textContent = t("journeyH1");
+    document.querySelector("#view-journey .path-sub").textContent = t("journeySub");
+    document.querySelector("#pickJ label").textContent = t("wordLbl");
+    document.querySelector("#pickJ input").placeholder = t("phJ");
+    document.getElementById("jplay").textContent = t("replay");
+    document.getElementById("jrand").textContent = t("randWord");
+    document.querySelector("#view-journey .flowtable summary").textContent = t("allStations");
+    document.getElementById("jmap").setAttribute("aria-label", t("jmapAria"));
+    if (!jItem) document.getElementById("jcaption").innerHTML = '<span class="jc-era">' + esc(t("pickWordAbove")) + "</span>";
+    $aboutpanel.innerHTML = fa ? ABOUT_FA : ABOUT_EN;
+  }
+  function applyLang() {
+    document.documentElement.lang = isFa() ? "fa" : "en";
+    document.documentElement.dir = isFa() ? "rtl" : "ltr";
+    applyStatic();
+    updateCount();
+    renderLegend();
+    renderList($q.value.trim());
+    if (activeEi >= 0 && !$main.querySelector(".empty")) show(activeEi, undefined, true);
+    flowsBuilt = false;
+    if (curView === "flows") buildFlows();
+    if (pA && pB) runPath();
+    if (jItem) { if (curView === "journey") runJourney(); else jDirty = true; }
+    applyTheme();
+  }
+  $langbtn.addEventListener("click", () => {
+    lang = isFa() ? "en" : "fa";
+    try { localStorage.setItem("rishe-lang", lang); } catch (e) {}
+    const qs = new URLSearchParams(location.search);
+    if (isFa()) qs.set("lang", "fa"); else qs.delete("lang");
+    const q = qs.toString();
+    history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
+    applyLang();
+  });
+
   /* ---------------- boot ---------------- */
   renderList("");
   if (groups.length && activeEi < 0) { activeEi = 0; show(0, undefined, true); }
   if (location.hash) routeFromHash();
   else setView("map", true);
+  applyLang();
 })();
 </script>
