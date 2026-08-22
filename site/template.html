@@ -2490,8 +2490,10 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     const crules = D2.rules.filter(x => !x.vowel && x.n >= 3);
     let rulesTbl = '<div class="rtable"><table><tr><th>' + rr("Inherited sound", "آوای موروثی") + "</th><th>" + rr("Borrowed shape", "شکل وامی") + "</th><th>n</th><th>" + rr("Examples", "نمونه‌ها") + "</th></tr>";
     crules.forEach(x => {
+      const seenEx = new Set();
       rulesTbl += "<tr><td><b>" + esc(x.a) + "</b></td><td><b>" + esc(x.b) + "</b></td><td>" + fmtNum(x.n) + "</td><td>" +
-        x.ex.map(e => esc(e[0]) + " → " + esc(e[1])).join(" · ") + "</td></tr>";
+        x.ex.filter(e => { const k = e[0] + "→" + e[1]; if (seenEx.has(k)) return false; seenEx.add(k); return true; })
+            .map(e => linkLat(e[0]) + " → " + linkLat(e[1])).join(" · ") + "</td></tr>";
     });
     rulesTbl += "</table></div>";
     let dblTbl = '<div class="rtable"><table><tr><th>' + rr("Root", "ریشه") + "</th><th>" + rr("Inherited form", "شکل موروثی") + "</th><th>" + rr("Re-borrowed form", "شکل دوباره‌وام‌گرفته") + "</th><th>" + rr("Meaning", "معنا") + "</th></tr>";
@@ -2562,8 +2564,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
         '<div class="rstat"><div class="v">' + (isFa() ? fmtNum(N.assortativity) : N.assortativity) + '</div><div class="l">' + rr("family assortativity", "هم‌گروه‌گرایی تباری") + "</div></div>" +
       "</div>" + hubsTbl +
       '<div class="rfinding">' + rr(
-        "The network is a hub-and-spoke system, not a mesh: " + pct(N.isolates / N.nodes, 0) + " of roots have no cross-references at all, while a handful of grammatical-core roots (" + esc(N.hubs[0].root) + ", " + esc(N.hubs[1].root) + "…) hold the giant component together. Mixing between families is strongly assortative (r = " + N.assortativity + "): only " + fmtNum(iesem) + " edges bridge the Indo-European and Semitic clusters — the seam along which the two lexicons touch.",
-        "شبکه چرخ‌وپره‌ای است، نه تور: " + pct(N.isolates / N.nodes, 0) + " از ریشه‌ها هیچ ارجاعی ندارند و تنها مشتی ریشهٔ هسته‌ای (" + esc(N.hubs[0].root) + "، " + esc(N.hubs[1].root) + "…) مؤلفهٔ غول‌پیکر را سرپا نگه می‌دارند. آمیزش تبارها به‌شدت هم‌گروه‌گراست (r = " + fmtNum(N.assortativity) + "): فقط " + fmtNum(iesem) + " یال خوشهٔ هندواروپایی و سامی را به هم می‌دوزد — درزی که دو واژگان در آن به هم می‌رسند.") + "</div>",
+        "The network is a hub-and-spoke system, not a mesh: " + pct(N.isolates / N.nodes, 0) + " of roots have no cross-references at all, while a handful of grammatical-core roots (" + rootChip(N.hubs[0].root) + ", " + rootChip(N.hubs[1].root) + "…) hold the giant component together. Mixing between families is strongly assortative (r = " + N.assortativity + "): only " + fmtNum(iesem) + " edges bridge the Indo-European and Semitic clusters — the seam along which the two lexicons touch.",
+        "شبکه چرخ‌وپره‌ای است، نه تور: " + pct(N.isolates / N.nodes, 0) + " از ریشه‌ها هیچ ارجاعی ندارند و تنها مشتی ریشهٔ هسته‌ای (" + rootChip(N.hubs[0].root) + "، " + rootChip(N.hubs[1].root) + "…) مؤلفهٔ غول‌پیکر را سرپا نگه می‌دارند. آمیزش تبارها به‌شدت هم‌گروه‌گراست (r = " + fmtNum(N.assortativity) + "): فقط " + fmtNum(iesem) + " یال خوشهٔ هندواروپایی و سامی را به هم می‌دوزد — درزی که دو واژگان در آن به هم می‌رسند.") + "</div>",
       rr("An edge is a deduplicated ☞ margin reference between two root charts — an editorial link, usually a shared element of a compound, not a claim of common descent. Components and degrees are computed directly; clustering is averaged over nodes of degree ≥ 2 (" + N.clustering + "); family mixing uses Newman’s categorical assortativity; and bridge roots are ranked by exact Brandes betweenness on the giant component.",
          "هر یال یک ارجاع ☞ حاشیه‌ای میان دو نمودار ریشه است — پیوندی ویراستارانه، معمولاً جزء مشترکِ واژه‌ای مرکب، نه ادعای هم‌تباری. مؤلفه‌ها و درجه‌ها مستقیم محاسبه شده‌اند؛ خوشه‌بندی روی گره‌های درجه ≥ ۲ میانگین گرفته شده (" + fmtNum(N.clustering) + ")؛ آمیزش تبارها با هم‌گروه‌گرایی رسته‌ایِ نیومن سنجیده شده؛ و ریشه‌های پل با بینابینیِ دقیق برندیز روی مؤلفهٔ غول‌پیکر رتبه‌بندی شده‌اند."));
     /* ---- six degrees ---- */
