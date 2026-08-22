@@ -516,6 +516,24 @@
     .aboutpanel { font-size: 16px; padding-top: 26px; }
     .about-epigraph { font-size: 22px; }
   }
+  @media (min-width: 1200px) {
+    /* Wide screens: let the chart breathe — top-level branches sit side by side
+       like a genealogy chart instead of one long vertical column. */
+    aside { width: clamp(300px, 21vw, 380px); }
+    main { padding: 30px 44px 140px; }
+    .chart { max-width: none; }
+    .chart > .children {
+      display: flex; flex-flow: row wrap; align-items: flex-start;
+      gap: 10px 44px;
+      margin-top: 4px; margin-inline-start: 14px;
+      padding-inline-start: 0; border-inline-start: none;
+    }
+    .chart > .children > .node { margin: 0 0 18px; max-width: 100%; padding-top: 22px; }
+    .chart > .children > .node::before {
+      inset-inline-start: 16px; top: 2px; width: 2px; height: 16px;
+    }
+    .scanpanel img { max-width: min(100%, 1100px); }
+  }
   @media (prefers-reduced-motion: no-preference) {
     .card, .rootcard { transition: box-shadow .15s ease; }
   }
@@ -621,7 +639,7 @@
     <div class="aboutpanel">
       <p class="about-epigraph" lang="fa">«فارسی شکر است»</p>
       <h1 class="path-title">About Rishe</h1>
-      <p><b>Rishe</b> (ریشه) is the Persian word for <i>root</i>.
+      <p><b>Rishe</b> (ریشه, pronounced <i>ree-sheh</i>) is the Persian word for <i>root</i>.
       I made this because I love Farsi — the language I think and feel in — and I wanted to
       <em>see</em> how deep its roots go. Every Persian word carries centuries of travel in it:
       down from the steppe through Avestan and Old Persian, in and out of Arabic, Greek, and
