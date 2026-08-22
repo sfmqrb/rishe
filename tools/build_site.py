@@ -70,6 +70,12 @@ def main(argv):
     if research.exists():
         html = html.replace("/*__RESEARCH__*/null;",
                             research.read_text(encoding="utf-8").strip() + ";", 1)
+    ganjoor = ROOT / "data" / "research" / "ganjoor.json"
+    assert html.count("/*__GANJOOR__*/null;") == 1, "ganjoor placeholder not found in template"
+    if ganjoor.exists():
+        gj = json.loads(ganjoor.read_text(encoding="utf-8"))
+        html = html.replace("/*__GANJOOR__*/null;",
+                            json.dumps(gj, ensure_ascii=False, separators=(",", ":")) + ";", 1)
     out.write_text(html, encoding="utf-8")
     print(f"{out}: {len(pages)} pages, {n_entries} entries, {n_fa} fa strings, {out.stat().st_size/1024:.0f} KB")
 

@@ -514,7 +514,7 @@ POETS = {  # normalized name -> (display en, display fa, floruit-era label, appr
     "nezami": ("Nezâmî", "نظامی", "1141–1209", 1175),
     "asadi": ("Asadî Tŭsî", "اسدی توسی", "d. c. 1073", 1060),
     "naserkhosrow": ("Nâser-Khosrow", "ناصرخسرو", "1004–1088", 1045),
-    "visoramin": ("Vîs o Râmîn (Gorgânî)", "ویس و رامین (گرگانی)", "c. 1050", 1050),
+    "visoramin": ("Fakhroddîn Gorgânî", "فخرالدین اسعد گرگانی", "c. 1050", 1050),
 }
 def poet_key(p):
     k = fold_plain(p)

@@ -41,6 +41,13 @@ its hand-drawn derivation charts into structured data and a website.
   of the ☞ cross-reference network, "nine degrees of etymology", and how badly
   surface similarity predicts real relatedness (false friends included).
   All numbers regenerate via `tools/research.py`.
+- **Ganjoor corpus studies** — the dictionary crossed with 8.5 million words
+  of Persian poetry from the official [Ganjoor](https://ganjoor.net) database:
+  the purism gradient retested on 56 poets' complete divans (Ferdowsî → Sîmîn
+  Behbahânî, 900–1975), first-attestation dates for every charted word (the
+  Greek layer vs. the modern European wave), and types-vs-tokens — only ~4% of
+  running verse is borrowed even though ~28% of the charted vocabulary is.
+  Regenerate via `tools/ganjoor.py`.
 
 The site is a single self-contained HTML file — no backend, no build framework,
 no external libraries. It works offline.
@@ -73,6 +80,7 @@ data/translations/fa.json    # Persian translations of the glosses & notes
 data/research/               # research analyses (research.json) + semantic-field labels
 data/ANOMALIES.md            # source-scan defects
 tools/research.py            # computes every number on the Research tab
+tools/ganjoor.py             # Ganjoor corpus analyses (data/research/ganjoor.json)
 site/template.html           # the whole app (HTML+CSS+JS, data injected at build)
 site/pages/                  # compressed scans of every chart page
 tools/build_site.py          # data + template → site/risheh.html

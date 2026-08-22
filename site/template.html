@@ -678,6 +678,7 @@
 window.ETYM_DATA = /*__DATA__*/;
 window.ETYM_FA = /*__I18N__*/{};
 window.ETYM_RESEARCH = /*__RESEARCH__*/null;
+window.ETYM_GANJOOR = /*__GANJOOR__*/null;
 (function () {
   "use strict";
   /* ---------------- helpers ---------------- */
@@ -2387,6 +2388,7 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
 
   /* ---------------- RESEARCH ---------------- */
   const R = window.ETYM_RESEARCH;
+  const GJ = window.ETYM_GANJOOR;
   let researchBuilt = false;
   const R_FIELDS = {
     phys: ["The physical world", "جهان طبیعی"], kinship: ["Kinship", "خویشاوندی"],
@@ -2503,6 +2505,132 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
       '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 7) + '" text-anchor="middle">' +
       rr("dot size = attested words · whiskers = 95% CI",
          "اندازهٔ نقطه = شمار شاهدمثال‌ها · خط‌ها = بازهٔ اطمینان ۹۵٪") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  const ROUTE_COL = { direct: "--fam-iranian", arabic: "--fam-semitic", euro: "--fam-ie", turkic: "--fam-turkic" };
+  const ROUTE_KEY = { direct: "route_direct", arabic: "route_semitic", euro: "route_euro", turkic: "route_turkic" };
+  function ganjChart(rows) {
+    const LBL = new Set(["Rŭdakî", "Ferdowsî", "Gorgânî", "Nâser-Khosrow", "Sanâ'î", "Khâqânî", "Nezâmî", "Attâr",
+      "Molavî (Rumi)", "Sa'dî", "Hâfez", "Jâmî", "Sâ'eb", "Bîdel", "Qâ'ânî", "Bahâr", "Parvîn", "Nîmâ", "Shâmlŭ", "Sîmîn Behbahânî"]);
+    const W = 740, H = 380, x0 = 52, x1 = W - 16, y0 = H - 58, y1 = 22;
+    const maxS = Math.max.apply(null, rows.map(p => p.hi)) * 1.12;
+    const yr = y => x0 + (y - 880) / (2000 - 880) * (x1 - x0);
+    const sh = v => y0 - v / maxS * (y0 - y1);
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    for (let c = 900; c < 2000; c += 200)
+      s += '<rect x="' + yr(c) + '" y="' + y1 + '" width="' + (yr(c + 100) - yr(c)) + '" height="' + (y0 - y1) + '" fill="var(--ink)" opacity="0.035"/>';
+    [0, .02, .04, .06].forEach(v => {
+      if (v > maxS) return;
+      s += '<line class="rc-grid" x1="' + x0 + '" y1="' + sh(v) + '" x2="' + x1 + '" y2="' + sh(v) + '"/>' +
+        '<text class="rc-sub2" x="' + (x0 - 8) + '" y="' + (sh(v) + 4) + '" text-anchor="end">' + pct(v, 0) + "</text>";
+    });
+    for (let y = 900; y <= 1900; y += 200)
+      s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (y0 + 16) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
+    s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + x1 + '" y2="' + y0 + '"/>';
+    const geo = rows.map(p => ({ x: yr(p.year), yT: sh(p.hi), yB: sh(p.lo), yD: sh(p.share),
+      r: Math.min(9, 2.2 + Math.sqrt(p.matched) / 110) }));
+    const obs = [];
+    for (let y = 900; y <= 1900; y += 200) obs.push({ l: yr(y) - 20, r: yr(y) + 20, t: y0 + 6, b: y0 + 20 });
+    [0, .02, .04, .06].forEach(v => { if (v <= maxS) obs.push({ l: x0 - 34, r: x0 - 6, t: sh(v) - 8, b: sh(v) + 4 }); });
+    geo.forEach(g => {
+      obs.push({ l: g.x - 3, r: g.x + 3, t: g.yT - 2, b: g.yB + 2 });
+      obs.push({ l: g.x - g.r - 1, r: g.x + g.r + 1, t: g.yD - g.r - 1, b: g.yD + g.r + 1 });
+    });
+    const labels = [];
+    rows.forEach((p, i) => {
+      if (!LBL.has(p.en)) return;
+      const g = geo[i];
+      const name = (isFa() ? p.fa : p.en).replace(/\s*\(.*/, "");
+      const wpx = name.length * (isFa() ? 6.4 : 7.1) + 8;
+      const sides = (g.yB + 15) - g.yD < g.yD - (g.yT - 9) ? ["b", "a"] : ["a", "b"];
+      let pick = null;
+      outer: for (const sd of sides)
+        for (let tr = 0; tr < 6; tr++)
+          for (const dx of [0, 14, -14, 28, -28, 42, -42, 56, -56]) {
+            const ly = sd === "a" ? g.yT - 9 - tr * 13 : g.yB + 15 + tr * 13;
+            const bx = { l: g.x + dx - wpx / 2, r: g.x + dx + wpx / 2, t: ly - 9, b: ly + 3 };
+            if (bx.t < y1 + 2 || bx.b > y0 + 2 || bx.l < 4 || bx.r > W - 4) continue;
+            if (obs.some(o => bx.l < o.r + 2 && bx.r > o.l - 2 && bx.t < o.b + 1 && bx.b > o.t - 1)) continue;
+            pick = { ly, dx, sd, bx, disp: tr > 0 || dx !== 0 }; break outer;
+          }
+      if (!pick) return;
+      obs.push(pick.bx);
+      labels.push(Object.assign({ p, g, name }, pick));
+    });
+    rows.forEach((p, i) => {
+      const g = geo[i];
+      s += '<line x1="' + g.x + '" y1="' + g.yB + '" x2="' + g.x + '" y2="' + g.yT + '" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>';
+    });
+    labels.forEach(L => {
+      if (!L.disp) return;
+      const sy = L.sd === "a" ? L.ly + 4 : L.ly - 8;
+      const ey = sy < L.g.yD ? L.g.yD - L.g.r - 2 : L.g.yD + L.g.r + 2;
+      s += '<line x1="' + (L.g.x + L.dx) + '" y1="' + sy + '" x2="' + L.g.x + '" y2="' + ey + '" stroke="var(--muted)" stroke-width="0.7" opacity="0.55"/>';
+    });
+    rows.forEach((p, i) => {
+      const g = geo[i];
+      const name = (isFa() ? p.fa : p.en).replace(/\s*\(.*/, "");
+      s += "<g><title>" + esc(name) + " · " + fmtNum(p.year) + " · " + pct(p.share, 1) + " " + rr("borrowed", "وامی") +
+        " (" + pct(p.lo, 1) + "–" + pct(p.hi, 1) + ") · " + fmtNum(p.matched) + " " + rr("matched words", "واژهٔ منطبق") + "</title>" +
+        '<circle cx="' + g.x + '" cy="' + g.yD + '" r="' + g.r + '" fill="var(--gold)" stroke="var(--bg)" stroke-width="1.2"/></g>';
+    });
+    labels.forEach(L => {
+      s += '<text class="rc-lbl" x="' + (L.g.x + L.dx) + '" y="' + L.ly + '" text-anchor="middle">' + esc(L.name) + "</text>";
+    });
+    s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 22) + '" text-anchor="middle">' +
+      rr("poet’s lifetime (CE) → share of matched words with Arabic/European/Turkic transmission",
+         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های منطبقِ با گذر از عربی/اروپایی/ترکی") + "</text>" +
+      '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 7) + '" text-anchor="middle">' +
+      rr("dot size = corpus size · whiskers = 95% CI · hover any dot",
+         "اندازهٔ نقطه = حجم پیکره · خط‌ها = بازهٔ اطمینان ۹۵٪ · روی نقطه‌ها بایستید") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function influxChart(influx) {
+    const W = 740, H = 300, x0 = 52, x1 = W - 130, y0 = H - 48, y1 = 20;
+    const yr = y => x0 + (y - 900) / (1980 - 900) * (x1 - x0);
+    const sh = v => y0 - v * (y0 - y1);
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    [0, .25, .5, .75, 1].forEach(v => {
+      s += '<line class="rc-grid" x1="' + x0 + '" y1="' + sh(v) + '" x2="' + x1 + '" y2="' + sh(v) + '"/>' +
+        '<text class="rc-sub2" x="' + (x0 - 8) + '" y="' + (sh(v) + 4) + '" text-anchor="end">' + pct(v, 0) + "</text>";
+    });
+    for (let y = 900; y <= 1900; y += 200)
+      s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (y0 + 16) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
+    s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + x1 + '" y2="' + y0 + '"/>';
+    const routes = ["direct", "arabic", "euro", "turkic"];
+    routes.forEach((r, ri) => {
+      const tot = influx.reduce((a, b) => a + b[r], 0);
+      if (!tot) return;
+      let cum = 0;
+      const pts = influx.map(b => { cum += b[r]; return { y: b.y, v: cum / tot, n: cum }; });
+      const col = "var(" + ROUTE_COL[r] + ")";
+      let d = "M" + yr(900) + " " + sh(pts[0].v);
+      pts.forEach(p2 => { d += " L" + yr(p2.y + 50) + " " + sh(p2.v); });
+      s += '<path d="' + d + '" fill="none" stroke="' + col + '" stroke-width="2.2" opacity="0.85"/>';
+      pts.forEach(p2 => {
+        s += "<g><title>" + esc(t(ROUTE_KEY[r])) + " — " + rr("by " + fmtNum(p2.y + 50) + ": ", "تا " + fmtNum(p2.y + 50) + ": ") +
+          fmtNum(p2.n) + " " + rr("of", "از") + " " + fmtNum(tot) + " (" + pct(p2.v, 0) + ")</title>" +
+          '<circle cx="' + yr(p2.y + 50) + '" cy="' + sh(p2.v) + '" r="3" fill="' + col + '" opacity="0.9"/></g>';
+      });
+      s += '<text class="rc-lbl" x="' + (x1 + 8) + '" y="' + (30 + ri * 18) + '" fill="' + col + '">' +
+        '<tspan style="fill:' + col + '">■</tspan> ' + esc(t(ROUTE_KEY[r])) + "</text>";
+    });
+    s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' +
+      rr("share of each route’s charted words already attested in the poetic record by a given year",
+         "سهم واژه‌های هر مسیر که تا هر سال در پیکرهٔ شعری گواهی شده‌اند") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function ganjFieldChart(fields) {
+    const W = 740, rowH = 25, x0 = 230, bw = 330, H = fields.length * rowH + 30;
+    const maxS = Math.max.apply(null, fields.map(f => f.share)) * 1.1;
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    fields.forEach((f, i) => {
+      const y = 8 + i * rowH;
+      s += '<text class="rc-lbl" x="' + (x0 - 10) + '" y="' + (y + 12) + '" text-anchor="end">' + esc(fieldLbl(f.code)) + "</text>" +
+        '<rect x="' + x0 + '" y="' + y + '" width="' + Math.max(1.5, f.share / maxS * bw) + '" height="15" rx="3" fill="var(--fam-semitic)" opacity="0.75"/>' +
+        '<text class="rc-sub2" x="' + (x0 + Math.max(1.5, f.share / maxS * bw) + 8) + '" y="' + (y + 12) + '">' + pct(f.share, 1) +
+        " · " + fmtNum(f.n) + " " + rr("tokens", "توکن") + "</text>";
+    });
     return '<div class="rchart">' + s + "</svg></div>";
   }
   function distChart(hist, medianD) {
@@ -2636,8 +2764,99 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
         '<div class="rfinding">' + rr(
           "The gradient is unmistakable: words attested by Rŭdakî and Ferdowsî (10th c.) are almost entirely inherited, while words attested by Rumi and Hâfez (13th–14th c.) are borrowed about four times as often. This is the classic narrative of the Shâhnâmeh’s purism — visible in numbers.",
           "شیب آشکار است: واژه‌هایی که رودکی و فردوسی (سدهٔ چهارم هجری) گواهی می‌کنند تقریباً یکسره موروثی‌اند، حال‌آنکه واژه‌های مولوی و حافظ (سده‌های هفتم و هشتم) نزدیک به چهار برابر بیشتر وامی‌اند. این همان روایت مشهور سره‌گراییِ شاهنامه است — این بار در قالب عدد.") + "</div>",
-        rr("The book attaches " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " verse citations to modern-Persian words. For each one, the word’s route is read from its chart; for every poet with at least 10 citations, the share carried through non-Iranian transmission is computed with a 95% Wilson interval. <b>One caveat about selection:</b> it was Nourai who chose which words to attest with verse. These are therefore shares of <i>his citations</i>, not of each poet’s complete works — testing the gradient against a full corpus such as Ganjoor is the natural next step.",
-           "کتاب " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " شاهدمثال شعری به واژه‌های فارسی نو پیوسته دارد. برای هر یک، مسیر واژه از نمودارش خوانده شده و برای هر شاعری که دست‌کم ۱۰ شاهد دارد، سهم واژه‌های با گذرِ غیرایرانی همراه با بازهٔ اطمینان ۹۵٪ ویلسون محاسبه شده است. <b>یک هشدار دربارهٔ گزینش:</b> این نورایی بود که برگزید کدام واژه با شعر گواهی شود. پس این سهم‌ها از <i>شاهدهای او</i>ست، نه از کل دیوان هر شاعر — آزمودن این شیب روی پیکره‌ای کامل مانند گنجور، گام طبیعی بعدی است."));
+        rr("The book attaches " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " verse citations to modern-Persian words. For each one, the word’s route is read from its chart; for every poet with at least 10 citations, the share carried through non-Iranian transmission is computed with a 95% Wilson interval. <b>One caveat about selection:</b> it was Nourai who chose which words to attest with verse. These are therefore shares of <i>his citations</i>, not of each poet’s complete works — the next section runs exactly that test on the full Ganjoor corpus.",
+           "کتاب " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " شاهدمثال شعری به واژه‌های فارسی نو پیوسته دارد. برای هر یک، مسیر واژه از نمودارش خوانده شده و برای هر شاعری که دست‌کم ۱۰ شاهد دارد، سهم واژه‌های با گذرِ غیرایرانی همراه با بازهٔ اطمینان ۹۵٪ ویلسون محاسبه شده است. <b>یک هشدار دربارهٔ گزینش:</b> این نورایی بود که برگزید کدام واژه با شعر گواهی شود. پس این سهم‌ها از <i>شاهدهای او</i>ست، نه از کل دیوان هر شاعر — بخش بعدی دقیقاً همین آزمون را روی پیکرهٔ کامل گنجور اجرا می‌کند."));
+    }
+    /* ---- Ganjoor corpus: gradient retested ---- */
+    if (GJ && GJ.poets) {
+      const gp = name => GJ.poets.find(p => p.en === name) || {};
+      let gtbl = '<div class="rtable"><table><tr><th>' + rr("Poet", "شاعر") + "</th><th>" + rr("Floruit", "دوره") +
+        "</th><th>" + rr("Verse words", "واژه‌های شعر") + "</th><th>" + rr("Matched", "منطبق") + "</th><th>" + rr("Borrowed share", "سهم وامی") + "</th></tr>";
+      GJ.poets.forEach(p => {
+        gtbl += '<tr><td class="fa-cell">' + esc(p.fa) + "</td><td>" + fmtNum(p.year) + "</td><td>" + fmtNum(p.tokens) +
+          "</td><td>" + fmtNum(p.matched) + " <span style='color:var(--muted)'>(" + pct(p.coverage, 0) + ")</span></td><td>" +
+          pct(p.share, 1) + " <span style='color:var(--muted)'>(" + pct(p.lo, 1) + "–" + pct(p.hi, 1) + ")</span></td></tr>";
+      });
+      gtbl += "</table></div>";
+      h += rsec(
+        rr("The gradient retested: " + fmtNum(Math.round(GJ.corpus_tokens / 1e5) / 10) + " million words of poetry",
+           "بازآزمایی شیب: " + fmtNum(Math.round(GJ.corpus_tokens / 1e5) / 10) + " میلیون واژهٔ شعر"),
+        rr("The same question, asked of the poets’ complete divans in the Ganjoor corpus instead of the book’s citations.",
+           "همان پرسش، این بار از دیوان کامل شاعران در پیکرهٔ گنجور — نه از شاهدمثال‌های کتاب."),
+        '<div class="rstats">' +
+          '<div class="rstat"><div class="v">' + fmtNum(GJ.n_poets) + '</div><div class="l">' + rr("poets, 900–1975 CE", "شاعر، ۹۰۰ تا ۱۹۷۵ میلادی") + "</div></div>" +
+          '<div class="rstat"><div class="v">' + fmtNum(GJ.corpus_tokens) + '</div><div class="l">' + rr("words of verse", "واژهٔ شعر") + "</div></div>" +
+          '<div class="rstat"><div class="v">' + fmtNum(GJ.matched_tokens) + '</div><div class="l">' + rr("matched to a charted word", "منطبق با واژه‌ای در نمودارها") + "</div></div>" +
+        "</div>" +
+        ganjChart(GJ.poets) +
+        '<div class="rfinding">' + rr(
+          "The gradient survives its meeting with the full corpora — at much lower absolute levels, because running verse is mostly made of high-frequency inherited words. The Shâhnâmeh runs at " + pct(gp("Ferdowsî").share, 1) + " borrowed words and Gorgânî’s Vîs o Râmîn at " + pct(gp("Gorgânî").share, 1) + ", while Hâfez (" + pct(gp("Hâfez").share, 1) + ") and Rumi (" + pct(gp("Molavî (Rumi)").share, 1) + ") run roughly three times higher, and the ornate court styles of Khâqânî and Bîdel mark the peak. Then the twentieth century bends back down: Nîmâ " + pct(gp("Nîmâ").share, 1) + ", Akhavân " + pct(gp("Akhavân Sâles").share, 1) + ", Shâmlŭ " + pct(gp("Shâmlŭ").share, 1) + " — the modernists’ deliberate return to Persian stock, measurable a millennium after Ferdowsî set the benchmark.",
+          "شیب از رویارویی با پیکرهٔ کامل جان به در می‌برد — البته در سطح‌هایی بسیار پایین‌تر، چون متنِ جاریِ شعر بیشتر از واژه‌های پربسامدِ موروثی ساخته شده است. شاهنامه با " + pct(gp("Ferdowsî").share, 1) + " واژهٔ وامی پیش می‌رود و ویس و رامینِ گرگانی با " + pct(gp("Gorgânî").share, 1) + "، حال‌آنکه حافظ (" + pct(gp("Hâfez").share, 1) + ") و مولوی (" + pct(gp("Molavî (Rumi)").share, 1) + ") تقریباً سه برابر بالاترند و سبک فاخر خاقانی و بیدل قله است. سپس سدهٔ بیستم بازمی‌گردد: نیما " + pct(gp("Nîmâ").share, 1) + "، اخوان " + pct(gp("Akhavân Sâles").share, 1) + "، شاملو " + pct(gp("Shâmlŭ").share, 1) + " — بازگشت آگاهانهٔ نوگرایان به واژگان فارسی، هزار سال پس از آنکه فردوسی معیار را گذاشت.") + "</div>" + gtbl,
+        rr("Corpus: the official Ganjoor database (github.com/ganjoor/ganjoor-db), verse lines only — " + fmtNum(GJ.n_poets) + " poets with curated floruit years; dialectal and apocryphal corpora (Bâbâ Tâher, Abŭ-Sa'îd) and prose works are excluded. Every word is matched against the dictionary’s charted Persian forms with the same conservative morphology the site’s verse links use: exact match first, then stripped verbal prefixes and clitic suffixes, and an inferred infinitive accepted only when it looks like one. About half the words match (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + "); the rest are words the dictionary does not chart. A word’s route is read from its chart; " + fmtNum(GJ.ambiguous_dropped) + " forms whose charted homographs disagree on the route were dropped, and a hand-checked blocklist removes corpus homographs that would match the wrong chart (kon, ar, xatâ…). Intervals are 95% Wilson; with corpora this size they are hair-thin. Coverage varies by poet (38–57%) — comparisons assume the unmatched half behaves similarly.",
+           "پیکره: پایگاه‌دادهٔ رسمی گنجور (github.com/ganjoor/ganjoor-db)، فقط سطرهای شعر — " + fmtNum(GJ.n_poets) + " شاعر با دورهٔ فعالیت تنظیم‌شده؛ پیکره‌های گویشی و منسوب (باباطاهر، ابوسعید) و آثار منثور کنار گذاشته شده‌اند. هر واژه با همان صرف‌شناسی محافظه‌کارانه‌ای که پیوندهای شعریِ همین تارنما به کار می‌برد با شکل‌های فارسیِ نمودارها مطابقت داده می‌شود: نخست تطبیق دقیق، سپس حذف پیشوندهای فعلی و پی‌بست‌ها، و مصدرِ استنباطی فقط وقتی که به مصدر بماند. حدود نیمی از واژه‌ها منطبق می‌شوند (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + ")؛ باقی واژه‌هایی‌اند که در فرهنگ نیامده‌اند. مسیر هر واژه از نمودارش خوانده می‌شود؛ " + fmtNum(GJ.ambiguous_dropped) + " شکل که هم‌نگاشت‌های نمودارشده‌شان بر سر مسیر اختلاف داشتند حذف شدند و فهرست بازبینی‌شده‌ای هم‌نگاشت‌های پیکره‌ای را که به نمودار نادرست می‌خوردند کنار می‌گذارد (کن، ار، خطا…). بازه‌ها ویلسون ۹۵٪اند و با این حجم پیکره بسیار باریک. پوشش بین شاعران متفاوت است (۳۸ تا ۵۷٪) — مقایسه‌ها فرض می‌کنند نیمهٔ نامنطبق رفتاری مشابه دارد."));
+      /* ---- Ganjoor: first attestations ---- */
+      const cumBy = (route, yTo) => {
+        let c = 0, tot = 0;
+        GJ.influx.forEach(b => { tot += b[route]; if (b.y < yTo) c += b[route]; });
+        return tot ? c / tot : 0;
+      };
+      let exTbl = '<p><b>' + rr("The ancient layer — Greek words already at home in the earliest divans:", "لایهٔ کهن — واژه‌های یونانی که در کهن‌ترین دیوان‌ها از پیش خانه داشتند:") + "</b></p>" +
+        '<div class="rtable"><table><tr><th>' + rr("Word", "واژه") + "</th><th>" + rr("Meaning", "معنا") + "</th><th>" + rr("First attested", "نخستین گواهی") + "</th></tr>";
+      GJ.influx_examples.euro.slice(0, 6).forEach(e => {
+        exTbl += '<tr><td><b>' + linkLat(e.w) + '</b> <span class="fa-cell">' + linkFa(e.s) + "</span></td><td>" + esc(tData(e.g) || "—") +
+          "</td><td>" + fmtNum(e.year) + " · " + esc(e.poet) + "</td></tr>";
+      });
+      exTbl += "</table></div>";
+      let mdTbl = '<p><b>' + rr("The modern wave — European words entering this poetic record around the Constitutional era:", "موج مدرن — واژه‌های اروپایی که حوالی مشروطه به این پیکرهٔ شعری می‌رسند:") + "</b></p>" +
+        '<div class="rtable"><table><tr><th>' + rr("Word", "واژه") + "</th><th>" + rr("Meaning", "معنا") + "</th><th>" + rr("First attested", "نخستین گواهی") + "</th></tr>";
+      GJ.influx_examples.euro_modern.slice(0, 6).forEach(e => {
+        mdTbl += '<tr><td><b>' + linkLat(e.w) + '</b> <span class="fa-cell">' + linkFa(e.s) + "</span></td><td>" + esc(tData(e.g) || "—") +
+          "</td><td>" + fmtNum(e.year) + " · " + esc(e.poet) + "</td></tr>";
+      });
+      mdTbl += "</table></div>";
+      h += rsec(
+        rr("When the loanwords arrived", "وام‌واژه‌ها کی رسیدند؟"),
+        rr("The charts have no dates — the poetic record supplies them: first attestation of every charted word, 900–1975.",
+           "نمودارها تاریخ ندارند — پیکرهٔ شعری تاریخ می‌دهد: نخستین گواهیِ هر واژهٔ نمودارشده، ۹۰۰ تا ۱۹۷۵."),
+        influxChart(GJ.influx) +
+        '<div class="rfinding">' + rr(
+          "The Arabic layer is essentially all in place early: " + pct(cumBy("arabic", 1200), 0) + " of the dictionary’s Arabic-route words are already attested in verse before 1200 — the centuries after mostly recombine an inherited stock of loans rather than borrow anew. European words instead arrive in two waves a millennium apart: an ancient Greek trickle that is already at home in the earliest divans, and a sharp modern wave — " + pct(1 - cumBy("euro", 1850), 0) + " of European-route words enter this record only after 1850, with the press and poetry of the Constitutional era.",
+          "لایهٔ عربی در همان آغاز تقریباً کامل مستقر است: " + pct(cumBy("arabic", 1200), 0) + " از واژه‌های عربی‌گذرِ فرهنگ پیش از ۱۲۰۰ میلادی در شعر گواهی شده‌اند — سده‌های بعد بیشتر همین ذخیرهٔ وام را بازترکیب می‌کنند، نه آنکه از نو وام بگیرند. واژه‌های اروپایی اما در دو موج به فاصلهٔ هزار سال می‌رسند: چکه‌چکهٔ یونانیِ کهن که در نخستین دیوان‌ها از پیش جا افتاده، و موج تندِ مدرن — " + pct(1 - cumBy("euro", 1850), 0) + " از واژه‌های اروپایی‌گذر تنها پس از ۱۸۵۰ و با مطبوعات و شعرِ دورهٔ مشروطه به این پیکره وارد می‌شوند.") + "</div>" +
+        exTbl + mdTbl,
+        rr("A word’s attestation date is the floruit year of the earliest poet who uses it at least twice. The record is left-censored at 900 — Rŭdakî is the oldest corpus, so anything older simply reads “already there by 900.” Large early corpora (the Shâhnâmeh’s half-million words) sweep up most of the common vocabulary at once, which is why the honest view is cumulative — the share of each route’s words attested by a given year — rather than counts per period. Floruit years date the poet, not the poem.",
+           "تاریخ گواهیِ هر واژه، سال فعالیتِ کهن‌ترین شاعری است که آن را دست‌کم دو بار به کار برده. سابقه در ۹۰۰ سانسورِ چپ دارد — رودکی کهن‌ترین پیکره است، پس هرچه کهنه‌تر فقط می‌گوید «تا ۹۰۰ از پیش موجود». پیکره‌های بزرگِ آغازین (نیم‌میلیون واژهٔ شاهنامه) بخش عمدهٔ واژگان رایج را یک‌جا جارو می‌کنند؛ برای همین نمای صادقانه تجمعی است — سهم واژه‌های هر مسیر که تا هر سال گواهی شده‌اند — نه شمارش دوره‌به‌دوره. سال فعالیت، شاعر را تاریخ‌گذاری می‌کند، نه شعر را."));
+      /* ---- Ganjoor: types vs tokens ---- */
+      const GW = GJ.weighted;
+      let topT = "";
+      [["top_borrowed", rr("Most-used borrowed words in eleven centuries of verse", "پرکاربردترین واژه‌های وامی در یازده سدهٔ شعر")],
+       ["top_inherited", rr("Most-used inherited words", "پرکاربردترین واژه‌های موروثی")]].forEach(pair => {
+        topT += "<p><b>" + pair[1] + "</b></p>" + '<div class="rtable"><table><tr><th>' + rr("Word", "واژه") + "</th><th>" +
+          rr("Meaning", "معنا") + "</th><th>" + rr("Tokens", "بسامد") + "</th></tr>";
+        GW[pair[0]].slice(0, 8).forEach(w2 => {
+          topT += '<tr><td><b>' + linkLat(w2.w) + '</b> <span class="fa-cell">' + linkFa(w2.s) + "</span></td><td>" +
+            esc(tData(w2.g) || "—") + "</td><td>" + fmtNum(w2.n) + "</td></tr>";
+        });
+        topT += "</table></div>";
+      });
+      h += rsec(
+        rr("Types vs. tokens: what the poets actually used", "نوع در برابر توکن: آنچه شاعران به‌واقع به کار بردند"),
+        rr("A dictionary counts each word once; a poem repeats the words that matter.",
+           "فرهنگ هر واژه را یک بار می‌شمارد؛ شعر واژه‌های مهم را تکرار می‌کند."),
+        '<div class="rstats">' +
+          '<div class="rstat"><div class="v">' + pct(GW.type_share, 0) + '</div><div class="l">' + rr("of charted Persian forms are borrowed", "از شکل‌های نمودارشدهٔ فارسی وامی‌اند") + "</div></div>" +
+          '<div class="rstat"><div class="v">' + pct(GW.token_share, 1) + '</div><div class="l">' + rr("of running verse words are borrowed", "از واژه‌های جاریِ شعر وامی‌اند") + "</div></div>" +
+          '<div class="rstat"><div class="v">' + pct(GW.token_routes.arabic / GW.token_total, 1) + '</div><div class="l">' + rr("via Arabic", "از راه عربی") + "</div></div>" +
+          '<div class="rstat"><div class="v">' + pct(GW.token_routes.euro / GW.token_total, 2) + '</div><div class="l">' + rr("via European", "از راه اروپایی") + "</div></div>" +
+        "</div>" +
+        '<div class="rfinding">' + rr(
+          "By type, " + pct(GW.type_share, 0) + " of the charted Persian forms are borrowed; by token — across " + fmtNum(GW.token_total) + " matched words of verse — only " + pct(GW.token_share, 1) + " are. The spine of running Persian (az, keh, beh, în, bŭdan, del, jân…) is so overwhelmingly inherited that ten centuries of borrowing barely dent the stream of speech; the borrowed words that do recur are the furniture of the ghazal itself — nŭr, hosn, xîyâl, la‘l, šarâb.",
+          "به شمارشِ نوع، " + pct(GW.type_share, 0) + " از شکل‌های نمودارشدهٔ فارسی وامی‌اند؛ به شمارشِ توکن — در " + fmtNum(GW.token_total) + " واژهٔ منطبقِ شعر — تنها " + pct(GW.token_share, 1) + ". ستون فقرات فارسیِ جاری (از، که، به، این، بودن، دل، جان…) چنان یکسره موروثی است که ده سده وام‌گیری خراشی هم به جریان سخن نمی‌اندازد؛ وامی‌های پرتکرار همان اثاث غزل‌اند — نور، حسن، خیال، لعل، شراب.") + "</div>" +
+        topT +
+        "<p>" + rr("The same semantic fields, reweighted by how often the words are actually used:",
+                    "همان میدان‌های معنایی، این بار وزن‌داده به بسامد واقعی کاربرد:") + "</p>" +
+        ganjFieldChart(GW.fields) ,
+        rr("Token counts come from the same matched corpus as the poets’ analysis above. For the semantic-field bars, forms shorter than three letters are excluded: one- and two-letter Persian words are heavily homographic, and while a homograph usually keeps the right route, it does not keep the right sense — field assignments would be noise. Sense ambiguity cannot be fully removed without disambiguation, so read the field bars as indicative; the overall token shares, which depend only on routes, are robust.",
+           "شمارش توکن‌ها از همان پیکرهٔ منطبقِ تحلیل شاعران می‌آید. در میله‌های میدان معنایی، شکل‌های کوتاه‌تر از سه حرف کنار گذاشته شده‌اند: واژه‌های یک‌ودوحرفی فارسی به‌شدت هم‌نگاشت‌اند و هم‌نگاشت معمولاً مسیرِ درست را نگه می‌دارد اما معنای درست را نه — انتساب میدان‌ها نوفه می‌شد. ابهام معنایی بدون رفع ابهام کامل حذف‌شدنی نیست؛ میله‌های میدان را نشانه‌وار بخوانید؛ سهم‌های کلی توکن که فقط به مسیر وابسته‌اند استوارند."));
     }
     /* ---- network ---- */
     const N = R.network;
@@ -2706,8 +2925,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
         "Everything on this page describes <b>one scholar’s dictionary, digitized</b> — not the Persian lexicon at large. Nourai chose which roots and words to chart; some individual etymologies are contested, and in this genre the risk of folk etymology is real. The charts carry no dates, so the “routes” here are structural, not chronological.",
         "هر آنچه در این صفحه است توصیفِ <b>فرهنگِ یک پژوهشگر در قالب دیجیتال</b> است — نه کل واژگان فارسی. گزینش ریشه‌ها و واژه‌ها با نورایی بوده؛ برخی ریشه‌شناسی‌ها محل بحث‌اند و در این ژانر خطر ریشه‌تراشیِ عامیانه واقعی است. نمودارها تاریخ ندارند، پس «مسیرها» در اینجا ساختاری‌اند، نه گاه‌شمارانه.") + "</p>" +
       "<p>" + rr(
-        "The pipeline has known seams too: the text was extracted from a scan by vision models (a small floor of transcription error remains), the Persian translations and semantic-field labels come from LLM annotators (the labels double-annotated, with only agreements used), and the ☞ links blend “shared element” with “see also”. The natural next steps are external ones — checking chains against Wiktionary- and OED-style sources, attaching first-attestation dates, and testing the poets’ gradient on full corpora such as Ganjoor.",
-        "خطِ تولید هم درزهای شناخته‌شده‌ای دارد: متن را مدل‌های بینایی از روی اسکن استخراج کرده‌اند (کفِ کوچکی از خطای نویسه‌گردانی می‌ماند)، ترجمه‌های فارسی و برچسب‌های میدان معنایی کارِ حاشیه‌نویس‌های مدل زبانی‌اند (برچسب‌ها با حاشیه‌نویسی دوگانه و فقط موارد هم‌رأی)، و پیوندهای ☞ «جزء مشترک» را با «نیز ببینید» در هم می‌آمیزند. گام‌های طبیعی بعدی بیرون از این داده‌اند — سنجش زنجیره‌ها با منابعی مانند ویکی‌واژه و OED، افزودن تاریخ نخستین گواهی، و آزمودن شیب شاعران روی پیکره‌های کامل مانند گنجور.") + "</p>",
+        "The pipeline has known seams too: the text was extracted from a scan by vision models (a small floor of transcription error remains), the Persian translations and semantic-field labels come from LLM annotators (the labels double-annotated, with only agreements used), and the ☞ links blend “shared element” with “see also”. Two of the old “next steps” now live above — the Ganjoor corpus supplies poetic first-attestation dates and the full-divan test of the poets’ gradient — while the third remains open: checking the derivation chains themselves against Wiktionary- and OED-style sources.",
+        "خطِ تولید هم درزهای شناخته‌شده‌ای دارد: متن را مدل‌های بینایی از روی اسکن استخراج کرده‌اند (کفِ کوچکی از خطای نویسه‌گردانی می‌ماند)، ترجمه‌های فارسی و برچسب‌های میدان معنایی کارِ حاشیه‌نویس‌های مدل زبانی‌اند (برچسب‌ها با حاشیه‌نویسی دوگانه و فقط موارد هم‌رأی)، و پیوندهای ☞ «جزء مشترک» را با «نیز ببینید» در هم می‌آمیزند. دو گام از «گام‌های بعدیِ» پیشین اکنون در بالا نشسته‌اند — پیکرهٔ گنجور تاریخ نخستین گواهی شعری و آزمون تمام‌دیوانیِ شیب شاعران را فراهم کرد — و سومی همچنان باز است: سنجش خودِ زنجیره‌های اشتقاق با منابعی مانند ویکی‌واژه و OED.") + "</p>",
       "");
     box.innerHTML = h;
   }
