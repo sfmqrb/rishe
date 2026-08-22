@@ -2388,28 +2388,87 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     return '<div class="rchart">' + s + "</svg></div>";
   }
   function poetChart(poets) {
-    const W = 740, H = 300, x0 = 56, x1 = W - 20, y0 = H - 46, y1 = 16;
-    const yr = y => x0 + (y - 850) / (1420 - 850) * (x1 - x0);
+    const W = 740, H = 366, x0 = 56, x1 = W - 20, y0 = H - 58, y1 = 24;
+    const yr = y => x0 + (y - 860) / (1420 - 860) * (x1 - x0);
     const sh = v => y0 - v / 0.62 * (y0 - y1);
     let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    [900, 1100, 1300].forEach(c => {   // alternating century bands
+      s += '<rect x="' + yr(c) + '" y="' + y1 + '" width="' + (yr(c + 100) - yr(c)) + '" height="' + (y0 - y1) + '" fill="var(--ink)" opacity="0.035"/>';
+    });
     [0, .2, .4, .6].forEach(v => {
       s += '<line class="rc-grid" x1="' + x0 + '" y1="' + sh(v) + '" x2="' + x1 + '" y2="' + sh(v) + '"/>' +
         '<text class="rc-sub2" x="' + (x0 - 8) + '" y="' + (sh(v) + 4) + '" text-anchor="end">' + pct(v, 0) + "</text>";
     });
     for (let y = 900; y <= 1400; y += 100)
-      s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (H - 26) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
+      s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (y0 + 16) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
     s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + x1 + '" y2="' + y0 + '"/>';
-    poets.forEach((p, i) => {
-      const x = yr(p.year);
-      const above = i % 2 === 0;
-      s += '<line x1="' + x + '" y1="' + sh(p.lo) + '" x2="' + x + '" y2="' + sh(p.hi) + '" stroke="var(--gold-soft)" stroke-width="2"/>' +
-        '<circle cx="' + x + '" cy="' + sh(p.share) + '" r="5" fill="var(--gold)"/>' +
-        '<text class="rc-lbl" x="' + x + '" y="' + (above ? sh(p.hi) - 8 : Math.min(y0 - 6, sh(p.lo) + 16)) + '" text-anchor="middle">' +
-        esc(isFa() ? p.fa : p.en.replace(/ \(.*/, "")) + "</text>";
+    let Sw = 0, Sx = 0, Sy = 0, Sxx = 0, Sxy = 0;   // n-weighted least squares
+    poets.forEach(p => { Sw += p.n; Sx += p.n * p.year; Sy += p.n * p.share; Sxx += p.n * p.year * p.year; Sxy += p.n * p.year * p.share; });
+    const tb = (Sw * Sxy - Sx * Sy) / (Sw * Sxx - Sx * Sx), ta = (Sy - tb * Sx) / Sw;
+    const tA = 880, tB = 1385;
+    s += '<line x1="' + yr(tA) + '" y1="' + sh(Math.max(0, ta + tb * tA)) + '" x2="' + yr(tB) + '" y2="' + sh(ta + tb * tB) +
+      '" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.55"/>';
+    const geo = poets.map(p => ({ x: yr(p.year), yT: sh(p.hi), yB: sh(p.lo), yD: sh(p.share), r: Math.min(9.5, 3 + Math.sqrt(p.n) * 0.45) }));
+    const obs = [];   // obstacle boxes for label placement
+    for (let y = 900; y <= 1400; y += 100) obs.push({ l: yr(y) - 20, r: yr(y) + 20, t: y0 + 6, b: y0 + 20 });
+    [0, .2, .4, .6].forEach(v => obs.push({ l: x0 - 38, r: x0 - 6, t: sh(v) - 8, b: sh(v) + 4 }));
+    geo.forEach(g => {
+      obs.push({ l: g.x - 5, r: g.x + 5, t: g.yT - 2, b: g.yB + 2 });
+      obs.push({ l: g.x - g.r - 1, r: g.x + g.r + 1, t: g.yD - g.r - 1, b: g.yD + g.r + 1 });
     });
-    s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' +
+    const labels = [];
+    poets.forEach((p, i) => {
+      const g = geo[i];
+      const name = (isFa() ? p.fa : p.en).replace(/\s*\(.*/, "");
+      const wpx = (name.length + 4) * (isFa() ? 6.4 : 7.3) + 6;
+      const sides = (g.yB + 17) - g.yD < g.yD - (g.yT - 10) ? ["b", "a"] : ["a", "b"];
+      let pick = null;
+      outer: for (const sd of sides)
+        for (let tr = 0; tr < 6; tr++)
+          for (const dx of [0, 16, -16, 32, -32, 48, -48, 64, -64, 80, -80]) {
+            const ly = sd === "a" ? g.yT - 10 - tr * 14 : g.yB + 17 + tr * 14;
+            const bx = { l: g.x + dx - wpx / 2, r: g.x + dx + wpx / 2, t: ly - 10, b: ly + 3 };
+            if (bx.t < y1 + 2 || bx.b > y0 + 2 || bx.l < 4 || bx.r > W - 4) continue;
+            if (obs.some(o => bx.l < o.r + 3 && bx.r > o.l - 3 && bx.t < o.b + 2 && bx.b > o.t - 2)) continue;
+            pick = { ly, dx, sd, bx, disp: tr > 0 || dx !== 0 }; break outer;
+          }
+      if (!pick) {
+        const ly = g.yT - 10;
+        pick = { ly, dx: 0, sd: "a", bx: { l: g.x - wpx / 2, r: g.x + wpx / 2, t: ly - 10, b: ly + 3 }, disp: false };
+      }
+      obs.push(pick.bx);
+      labels.push(Object.assign({ p, g, name }, pick));
+    });
+    poets.forEach((p, i) => {   // CI whiskers with caps
+      const g = geo[i];
+      s += '<line x1="' + g.x + '" y1="' + g.yB + '" x2="' + g.x + '" y2="' + g.yT + '" stroke="var(--gold-soft)" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>' +
+        '<line x1="' + (g.x - 4) + '" y1="' + g.yB + '" x2="' + (g.x + 4) + '" y2="' + g.yB + '" stroke="var(--gold-soft)" stroke-width="1.4"/>' +
+        '<line x1="' + (g.x - 4) + '" y1="' + g.yT + '" x2="' + (g.x + 4) + '" y2="' + g.yT + '" stroke="var(--gold-soft)" stroke-width="1.4"/>';
+    });
+    labels.forEach(L => {   // leader lines for displaced labels
+      if (!L.disp) return;
+      const sy = L.sd === "a" ? L.ly + 4 : L.ly - 9;
+      const ey = sy < L.g.yD ? L.g.yD - L.g.r - 2 : L.g.yD + L.g.r + 2;
+      s += '<line x1="' + (L.g.x + L.dx) + '" y1="' + sy + '" x2="' + L.g.x + '" y2="' + ey +
+        '" stroke="var(--muted)" stroke-width="0.7" opacity="0.55"/>';
+    });
+    poets.forEach((p, i) => {   // dots sized by citation count, with tooltips
+      const g = geo[i];
+      const name = (isFa() ? p.fa : p.en).replace(/\s*\(.*/, "");
+      s += "<g><title>" + esc(name) + " · " + esc(p.era) + " · " + pct(p.share) + " " +
+        rr("borrowed", "وامی") + " (" + pct(p.lo, 0) + "–" + pct(p.hi, 0) + ") · n=" + fmtNum(p.n) + "</title>" +
+        '<circle cx="' + g.x + '" cy="' + g.yD + '" r="' + g.r + '" fill="var(--gold)" stroke="var(--bg)" stroke-width="1.4"/></g>';
+    });
+    labels.forEach(L => {
+      s += '<text class="rc-lbl" x="' + (L.g.x + L.dx) + '" y="' + L.ly + '" text-anchor="middle">' + esc(L.name) +
+        ' <tspan class="rc-sub2">' + pct(L.p.share, 0) + "</tspan></text>";
+    });
+    s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 22) + '" text-anchor="middle">' +
       rr("poet’s lifetime (CE) → share of attested words with Arabic/European/Turkic transmission",
-         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های شاهدمثال با گذر از عربی/اروپایی/ترکی") + "</text>";
+         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های شاهدمثال با گذر از عربی/اروپایی/ترکی") + "</text>" +
+      '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 7) + '" text-anchor="middle">' +
+      rr("dot size = attested words · whiskers = 95% CI · dashed = trend weighted by n",
+         "اندازهٔ نقطه = شمار شاهدمثال‌ها · خط‌ها = بازهٔ اطمینان ۹۵٪ · خط‌چین = روند وزن‌دار به n") + "</text>";
     return '<div class="rchart">' + s + "</svg></div>";
   }
   function distChart(hist, medianD) {
