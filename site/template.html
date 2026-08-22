@@ -300,6 +300,9 @@
   #maptip .t-name { font-weight: 700; }
   #maptip .t-sub { font-family: var(--sans); font-size: 12px; color: var(--muted); }
   .maphint { position: absolute; bottom: 118px; inset-inline-start: 20px; font-family: var(--sans); font-size: 12px; color: var(--muted); pointer-events: none; }
+  .mapsearch { position: absolute; top: 136px; inset-inline-start: 20px; width: min(320px, 62vw); z-index: 6; }
+  .mapsearch input { box-shadow: var(--shadow); background: color-mix(in srgb, var(--panel) 92%, transparent); }
+  .mapfold { position: absolute; bottom: 148px; inset-inline-start: 20px; z-index: 6; background: var(--panel); box-shadow: var(--shadow); }
 
   /* ============ PATH VIEW ============ */
   #view-path { flex-direction: column; overflow: auto; }
@@ -487,8 +490,10 @@
     .mapheadline { max-width: 62%; }
     .mapheadline h1 { font-size: 19px; }
     .mapheadline p { font-size: 12px; }
-    .maplegend { top: auto; bottom: 76px; right: 10px; padding: 7px 10px; font-size: 11px; }
+    .maplegend { top: auto; bottom: 76px; inset-inline-end: 10px; padding: 7px 10px; font-size: 11px; }
     .maphint { display: none; }
+    .mapsearch { top: 104px; width: 58vw; }
+    .mapfold { bottom: 76px; }
     .pathpanel, .flowpanel, .jpanel, .aboutpanel { padding-left: 14px; padding-right: 14px; padding-bottom: 120px; }
     .path-title { font-size: 22px; }
     .verdict { font-size: 15px; padding: 10px 14px; }
@@ -556,6 +561,8 @@
         <h1>The root constellation of Persian</h1>
         <p>Every star is a root family; its size is the number of words that grew from it. Click a root to open its tree.</p>
       </div>
+      <div class="pick mapsearch" id="pickM"><input type="text" placeholder="Find a root or word…" autocomplete="off" aria-label="Find a root or word on the map"><div class="sugg"></div></div>
+      <button class="iconbtn mapfold" id="mapfold" type="button" hidden>✕ fold all</button>
       <div class="maplegend" id="maplegend"></div>
       <div id="maptip"></div>
       <div class="maphint">drag to pan · scroll to zoom · click a root to open it</div>
@@ -730,6 +737,10 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     legendTitle: ["Origin of the root", "تبار ریشه"],
     legDeriv: ["derivation", "اشتقاق"], legSee: ["☞ cross-reference", "ارجاع ☞"],
     legWord: ["derivative word", "واژهٔ مشتق"],
+    mapSearchPh: ["Find a root or word — barq, emerald, برق…", "ریشه یا واژه‌ای بیابید — برق، barq…"],
+    foldAll: ["✕ fold all", "✕ بستن همه"],
+    tipUnfold: ["click: unfold · double-click: open chart", "کلیک: بازکردن · دوبار کلیک: نمودار"],
+    tipOpenWord: ["click to open its chart", "برای گشودن نمودار کلیک کنید"],
     fam_iranian: ["Iranian", "ایرانی"], fam_ie: ["Indo-European", "هندواروپایی"],
     fam_semitic: ["Semitic", "سامی"], fam_turkic: ["Turkic & Altaic", "ترکی و آلتایی"],
     fam_other: ["Other origins", "تبارهای دیگر"],
@@ -1435,8 +1446,18 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
   const tip = document.getElementById("maptip");
   let mapNodes = null, mapLinks = null, mapNbr = null, simFrames = 0, mapReady = false;
   let cam = { x: 0, y: 0, k: 1 };
-  let hoverGi = -1, hoverBub = null;
+  let hoverGi = -1, hoverBub = null, selectedGi = -1;
   const expandedM = new Map();   // gi -> {bubbles, sees} : the unfolded derivative layer
+  const expNbr = new Set();      // roots adjacent to any unfolded layer (kept lit in spotlight mode)
+  function refreshExpNbr() {
+    expNbr.clear();
+    expandedM.forEach((ex, gi) => {
+      (mapNbr[gi] || []).forEach(x => expNbr.add(x));
+      ex.sees.forEach(s => expNbr.add(s[1]));
+    });
+    const fb = document.getElementById("mapfold");
+    if (fb) fb.hidden = expandedM.size === 0;
+  }
   function expandRoot(gi) {
     const g = groups[gi];
     const bubbles = [], sees = [];
@@ -1482,6 +1503,7 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     const maxD = bubbles.reduce((m, b) => Math.max(m, b.depth), 1);
     expandedM.set(gi, { bubbles, sees, maxR: rootR + 16 + (maxD - 1) * 26 + 16 });
   }
+  function settleSim() { while (simFrames > 0) { simStep(); simFrames--; } }
   let flyId = null;
   function flyTo(wx, wy, k) {
     if (flyId) cancelAnimationFrame(flyId);
@@ -1503,8 +1525,15 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     flyId = requestAnimationFrame(step);
   }
   function toggleExpand(gi) {
-    if (expandedM.has(gi)) { expandedM.delete(gi); mapDraw(); return; }
+    if (expandedM.has(gi)) {
+      expandedM.delete(gi);
+      if (selectedGi === gi) selectedGi = -1;
+      refreshExpNbr(); mapDraw(); return;
+    }
+    settleSim();
     expandRoot(gi);
+    selectedGi = gi;
+    refreshExpNbr();
     const n = mapNodes[gi];
     if (cam.k < 1.7) flyTo(n.x, n.y, Math.max(cam.k, 2.1));
     else mapDraw();
@@ -1522,14 +1551,20 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     return hit;
   }
   function mapInit() {
-    const W = 1200, H = 800;
+    const W = 1700, H = 1060;
     const anchors = {
-      ie: [W * .32, H * .40], iranian: [W * .64, H * .34],
-      semitic: [W * .55, H * .68], turkic: [W * .80, H * .58], other: [W * .20, H * .72]
+      ie: [W * .31, H * .44], iranian: [W * .67, H * .28],
+      semitic: [W * .60, H * .72], turkic: [W * .86, H * .54], other: [W * .13, H * .78]
     };
+    const famCount = {};
+    groups.forEach(g => { famCount[g.fam] = (famCount[g.fam] || 0) + 1; });
+    const famSeen = {};
     mapNodes = groups.map((g, gi) => {
       const [ax, ay] = anchors[g.fam];
-      const a = Math.random() * Math.PI * 2, d = 50 + Math.random() * 280;
+      // even disc packing per family, area proportional to member count
+      const k2 = famSeen[g.fam] = (famSeen[g.fam] || 0) + 1;
+      const R = 15 * Math.sqrt(famCount[g.fam]);
+      const d = R * Math.sqrt(k2 / famCount[g.fam]), a = k2 * 2.3999632;
       return { gi, x: ax + Math.cos(a) * d, y: ay + Math.sin(a) * d, vx: 0, vy: 0,
         r: Math.min(26, 3.5 + Math.sqrt(g.wc || 1) * 2.1), fam: g.fam, ax, ay,
         name: g.root.name, big: false };
@@ -1545,18 +1580,18 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     mapLinks.forEach(([a, b]) => { mapNbr[a].add(b); mapNbr[b].add(a); });
     const bySize = mapNodes.slice().sort((a, b) => b.r - a.r);
     bySize.slice(0, 26).forEach(n => n.big = true);
-    simFrames = reduceMotion ? 0 : 140;
-    for (let i = 0; i < (reduceMotion ? 260 : 60); i++) simStep();
+    simFrames = reduceMotion ? 0 : 120;
+    for (let i = 0; i < (reduceMotion ? 320 : 120); i++) simStep();
   }
   function simStep() {
-    const cell = 60, gridm = new Map();
+    const cell = 64, gridm = new Map();
     mapNodes.forEach(n => {
       const k = Math.floor(n.x / cell) + "," + Math.floor(n.y / cell);
       if (!gridm.has(k)) gridm.set(k, []);
       gridm.get(k).push(n);
     });
     mapNodes.forEach(n => {
-      let fx = (n.ax - n.x) * 0.012, fy = (n.ay - n.y) * 0.012;
+      let fx = (n.ax - n.x) * 0.008, fy = (n.ay - n.y) * 0.008;
       const cx = Math.floor(n.x / cell), cy = Math.floor(n.y / cell);
       for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
         const cellNodes = gridm.get((cx + dx) + "," + (cy + dy));
@@ -1566,15 +1601,15 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
           let ddx = n.x - m.x, ddy = n.y - m.y;
           let d2 = ddx * ddx + ddy * ddy;
           if (d2 < 1) { ddx = Math.random() - .5; ddy = Math.random() - .5; d2 = 1; }
-          const min = n.r + m.r + 6;
+          const min = n.r + m.r + 8;
           if (d2 < min * min * 4) {
             const d = Math.sqrt(d2);
-            const push = Math.min(4, (min * 2 - d) * 0.06);
+            const push = Math.min(5, (min * 2 - d) * 0.08);
             if (push > 0) { fx += (ddx / d) * push; fy += (ddy / d) * push; }
           }
         }
       }
-      n.vx = (n.vx + fx) * 0.82; n.vy = (n.vy + fy) * 0.82;
+      n.vx = (n.vx + fx) * 0.80; n.vy = (n.vy + fy) * 0.80;
     });
     mapNodes.forEach(n => { n.x += n.vx; n.y += n.vy; });
   }
@@ -1596,18 +1631,32 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     ctx.translate(-cam.x * cam.k, -cam.y * cam.k);
     ctx.scale(cam.k, cam.k);
     const focus = hoverGi >= 0;
-    const inFocus = gi => !focus || gi === hoverGi || mapNbr[hoverGi].has(gi);
-    // links: faint by default; incident links bright gold when a node is hovered
-    ctx.strokeStyle = gold; ctx.lineWidth = 1 / cam.k;
-    ctx.globalAlpha = focus ? 0.05 : 0.16;
-    ctx.beginPath();
-    mapLinks.forEach(([a, b]) => {
-      if (focus && (a === hoverGi || b === hoverGi)) return;
-      const na = mapNodes[a], nb = mapNodes[b];
-      ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y);
-    });
-    ctx.stroke();
+    const spot = expandedM.size > 0;
+    const inFocus = gi => gi === hoverGi || (focus && mapNbr[hoverGi].has(gi));
+    const inkCol = tokColor("--ink") || "#ccc";
+    const bgCol = tokColor("--bg") || "#111";
+    function starA(gi) {
+      if (focus) return inFocus(gi) ? 0.95 : 0.10;
+      if (spot) return (expandedM.has(gi) || expNbr.has(gi) || gi === selectedGi) ? 0.95 : 0.22;
+      return 0.92;
+    }
+    const labelJobs = [];   // collected during the passes, drawn last with collision culling
+    ctx.textAlign = "center";
+    // -------- ☞ mesh: hidden at overview, grows in as you zoom --------
+    const meshA = focus ? 0.04 : Math.max(0, Math.min(0.13, (cam.k - 0.85) * 0.16)) * (spot ? 0.4 : 1);
+    if (meshA > 0.008) {
+      ctx.strokeStyle = gold; ctx.lineWidth = 1 / cam.k;
+      ctx.globalAlpha = meshA;
+      ctx.beginPath();
+      mapLinks.forEach(([a, b]) => {
+        if (focus && (a === hoverGi || b === hoverGi)) return;
+        const na = mapNodes[a], nb = mapNodes[b];
+        ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y);
+      });
+      ctx.stroke();
+    }
     if (focus) {
+      ctx.strokeStyle = gold;
       ctx.globalAlpha = 0.85;
       ctx.lineWidth = 2 / cam.k;
       ctx.beginPath();
@@ -1618,33 +1667,54 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
       });
       ctx.stroke();
     }
+    // -------- stars --------
     mapNodes.forEach((n, gi) => {
+      const a = starA(gi);
+      if (n.r >= 9 && a > 0.5) {   // soft glow on major stars
+        const gg = ctx.createRadialGradient(n.x, n.y, n.r * 0.4, n.x, n.y, n.r * 2.1);
+        gg.addColorStop(0, colors[n.fam]);
+        gg.addColorStop(1, "rgba(0,0,0,0)");
+        ctx.globalAlpha = 0.15 * a;
+        ctx.fillStyle = gg;
+        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.1, 0, Math.PI * 2); ctx.fill();
+      }
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
       ctx.fillStyle = colors[n.fam];
-      ctx.globalAlpha = inFocus(gi) ? 0.95 : 0.14;
+      ctx.globalAlpha = a;
       ctx.fill();
     });
+    if (selectedGi >= 0 && mapNodes[selectedGi]) {
+      const s = mapNodes[selectedGi];
+      ctx.globalAlpha = 0.95; ctx.strokeStyle = gold; ctx.lineWidth = 2.5 / cam.k;
+      ctx.beginPath(); ctx.arc(s.x, s.y, s.r + 5 / cam.k, 0, Math.PI * 2); ctx.stroke();
+    }
     if (focus) {
-      const h = mapNodes[hoverGi];
+      const hv = mapNodes[hoverGi];
       ctx.globalAlpha = 1;
       ctx.strokeStyle = gold;
       ctx.lineWidth = 2.5 / cam.k;
       ctx.beginPath();
-      ctx.arc(h.x, h.y, h.r + 3 / cam.k, 0, Math.PI * 2);
+      ctx.arc(hv.x, hv.y, hv.r + 3 / cam.k, 0, Math.PI * 2);
       ctx.stroke();
     }
-    ctx.globalAlpha = 1;
-    ctx.fillStyle = inkMuted;
-    ctx.font = "600 " + Math.max(10, 11 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', sans-serif";
-    ctx.textAlign = "center";
-    mapNodes.forEach((n, gi) => {
-      const show = focus ? inFocus(gi) : (n.big || cam.k > 1.8 || expandedM.has(gi));
-      if (show) ctx.fillText(n.name, n.x, n.y - n.r - 4);
-    });
-    // -------- unfolded derivative layers --------
-    const inkCol = tokColor("--ink") || "#ccc";
-    const bgCol = tokColor("--bg") || "#111";
+    // -------- root label candidates (priority order; culled later) --------
+    {
+      const rootFont = Math.max(10, 11 / Math.sqrt(cam.k));
+      const cand = mapNodes.map((n, gi) => ({ n, gi }))
+        .sort((p, q) => (prio(q) - prio(p)) || (q.n.r - p.n.r));
+      function prio(p) {
+        return (p.gi === hoverGi ? 8 : 0) + (p.gi === selectedGi ? 6 : 0) +
+          (expandedM.has(p.gi) ? 4 : 0) + (p.n.big ? 2 : 0);
+      }
+      cand.forEach(p => {
+        const vis = focus ? inFocus(p.gi)
+          : (p.n.big || expandedM.has(p.gi) || p.gi === selectedGi || p.n.r * cam.k > 7);
+        if (!vis) return;
+        labelJobs.push({ txt: p.n.name, x: p.n.x, y: p.n.y - p.n.r - 5, size: rootFont,
+          color: inkMuted, a: Math.max(0.55, starA(p.gi)), pr: prio(p) });
+      });
+    }
     expandedM.forEach((ex, gi) => {
       const rn = mapNodes[gi];
       const a = (!focus || inFocus(gi)) ? 1 : 0.15;
@@ -1689,12 +1759,11 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
         ctx.globalAlpha = 0.95 * a;
         ctx.fill();
       });
-      // word labels
-      ctx.globalAlpha = a;
-      ctx.fillStyle = inkCol;
-      ctx.font = "600 " + Math.max(8.5, 9.5 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', 'Vazirmatn', sans-serif";
+      // word labels (drawn last with collision culling)
+      const wordFont = Math.max(8.5, 9.5 / Math.sqrt(cam.k));
       ex.bubbles.forEach(b => {
-        ctx.fillText(b.label || b.fa, rn.x + b.dx, rn.y + b.dy - b.r - 3);
+        labelJobs.push({ txt: b.label || b.fa, x: rn.x + b.dx, y: rn.y + b.dy - b.r - 3.5,
+          altY: rn.y + b.dy + b.r + wordFont, size: wordFont, color: inkCol, a, pr: 10 });
       });
     });
     // highlight the hovered bubble
@@ -1706,6 +1775,36 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
       ctx.beginPath();
       ctx.arc(rn.x + hoverBub.dx, rn.y + hoverBub.dy, hoverBub.r + 2.5 / cam.k, 0, Math.PI * 2);
       ctx.stroke();
+    }
+    // -------- labels: priority order, collision-culled, backed for contrast --------
+    {
+      const placed = [];
+      const vx0 = cam.x - 40, vy0 = cam.y - 40;
+      const vx1 = cam.x + w / cam.k + 40, vy1 = cam.y + h / cam.k + 40;
+      labelJobs.sort((p, q) => q.pr - p.pr);
+      const cap = 110;
+      for (const j of labelJobs) {
+        if (placed.length >= cap) break;
+        if (!j.txt || j.x < vx0 || j.x > vx1 || j.y < vy0 || j.y > vy1) continue;
+        ctx.font = "600 " + j.size + "px 'Alegreya Sans', 'Vazirmatn', sans-serif";
+        const tw = ctx.measureText(j.txt).width;
+        const pad = 2.5, bw = tw + pad * 2, bh = j.size + pad * 2;
+        let bx = j.x - bw / 2, by = j.y - bh + pad;
+        let ok = placed.every(b => bx > b.x + b.w || bx + bw < b.x || by > b.y + b.h || by + bh < b.y);
+        if (!ok && j.altY !== undefined) {
+          by = j.altY - bh + pad;
+          ok = placed.every(b => bx > b.x + b.w || bx + bw < b.x || by > b.y + b.h || by + bh < b.y);
+          if (ok) j.y = j.altY;
+        }
+        if (!ok) continue;
+        placed.push({ x: bx, y: by, w: bw, h: bh });
+        ctx.globalAlpha = 0.55 * j.a;
+        ctx.fillStyle = bgCol;
+        ctx.fillRect(bx, by, bw, bh);
+        ctx.globalAlpha = j.a;
+        ctx.fillStyle = j.color;
+        ctx.fillText(j.txt, j.x, j.y);
+      }
     }
     ctx.restore();
   }
@@ -1782,7 +1881,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
       tip.innerHTML = '<div class="t-name">' + esc(b.label || b.fa) +
         (b.label && b.fa ? ' <span lang="fa" style="direction:rtl;unicode-bidi:isolate">' + esc(b.fa) + "</span>" : "") + "</div>" +
         (b.gloss ? '<div style="font-style:' + (isFa() ? "normal" : "italic") + '">' + esc(tData(b.gloss)) + "</div>" : "") +
-        '<div class="t-sub">' + esc(tLang(b.lang) || "?") + " · " + esc(groups[b.gi].root.name) + "</div>";
+        '<div class="t-sub">' + esc(tLang(b.lang) || "?") + " · " + esc(groups[b.gi].root.name) + "</div>" +
+        '<div class="t-sub">' + esc(t("tipOpenWord")) + "</div>";
       cv.style.cursor = "pointer";
     } else if (n) {
       const g = groups[n.gi];
@@ -1795,7 +1895,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
         '<div class="t-sub">' + esc(famLbl(g.fam)) + " · " + fmtNum(g.wc) + " " + t("words") +
         (nLinks ? (isFa()
           ? " · " + t("linkedTo") + " " + fmtNum(nLinks) + " " + t("rootsSuffix")
-          : " · ☞ linked to " + nLinks + " root" + (nLinks > 1 ? "s" : "")) : "") + "</div>";
+          : " · ☞ linked to " + nLinks + " root" + (nLinks > 1 ? "s" : "")) : "") + "</div>" +
+        '<div class="t-sub">' + esc(t("tipUnfold")) + "</div>";
       cv.style.cursor = "pointer";
     } else {
       tip.style.display = "none";
@@ -1812,7 +1913,20 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
   });
   cv.addEventListener("dblclick", e => {
     const n = nodeAt(e.offsetX, e.offsetY);
-    if (n) { expandedM.delete(n.gi); show(n.gi); }
+    if (n) { expandedM.delete(n.gi); refreshExpNbr(); show(n.gi); }
+  });
+  document.getElementById("mapfold").addEventListener("click", () => {
+    expandedM.clear(); selectedGi = -1; refreshExpNbr(); mapDraw();
+  });
+  const pickM = makePicker(document.getElementById("pickM"), it => {
+    if (!mapReady) return;
+    settleSim();
+    const gi = it.ei;
+    if (!expandedM.has(gi)) expandRoot(gi);
+    selectedGi = gi;
+    refreshExpNbr();
+    const n = mapNodes[gi];
+    flyTo(n.x, n.y, Math.max(cam.k, 2.2));
   });
   cv.addEventListener("wheel", e => {
     e.preventDefault();
@@ -1840,8 +1954,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     if (!mapReady) {
       mapInit();
       const w = cv.width / devicePixelRatio, h = cv.height / devicePixelRatio;
-      cam.k = Math.min(w / 1300, h / 880);
-      cam.x = 600 - w / (2 * cam.k); cam.y = 400 - h / (2 * cam.k);
+      cam.k = Math.min(w / 1820, h / 1160);
+      cam.x = 850 - w / (2 * cam.k); cam.y = 530 - h / (2 * cam.k);
       mapReady = true;
     }
     requestAnimationFrame(mapLoop);
@@ -2608,6 +2722,9 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     document.querySelector("#view-map .mapheadline h1").textContent = t("mapH1");
     document.querySelector("#view-map .mapheadline p").textContent = t("mapP");
     document.querySelector("#view-map .maphint").textContent = t("mapHint");
+    document.querySelector("#pickM input").placeholder = t("mapSearchPh");
+    document.querySelector("#pickM input").setAttribute("aria-label", t("mapSearchPh"));
+    document.getElementById("mapfold").textContent = t("foldAll");
     $q.placeholder = t("searchPh");
     $q.setAttribute("aria-label", t("searchAria"));
     const emptyDiv = $main.querySelector(".empty");
