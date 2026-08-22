@@ -191,7 +191,14 @@
   .nores { padding: 16px 14px; color: var(--muted); font-style: italic; }
 
   main { flex: 1; overflow: auto; padding: 26px 34px 140px; }
-  .chart { max-width: 980px; }
+  .chart { max-width: 980px; position: relative; }
+  .wires {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    overflow: visible; pointer-events: none;
+    color: color-mix(in srgb, var(--line) 55%, var(--muted));
+  }
+  .wires .wl { fill: none; stroke: currentColor; stroke-width: 1.5px; }
+  .wires .wa { fill: currentColor; }
   .rootcard {
     background: var(--ink); color: var(--bg);
     border-radius: 10px; padding: 14px 20px 12px;
@@ -208,13 +215,9 @@
   .rootcard .r-refs, .node .refs { font-family: var(--sans); font-size: 11px; letter-spacing: .08em; color: inherit; opacity: .55; }
   .part-note { font-family: var(--sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 14px 2px 0; }
 
-  .children { margin-inline-start: 22px; padding-inline-start: 22px; border-inline-start: 2px solid var(--line); }
-  .chart > .children { margin-top: 10px; }
+  .children { margin-inline-start: 22px; padding-inline-start: 22px; }
+  .chart > .children { margin-top: 14px; }
   .node { position: relative; margin: 14px 0; }
-  .node::before {
-    content: ""; position: absolute; inset-inline-start: -22px; top: 22px;
-    width: 16px; height: 2px; background: var(--line);
-  }
   .card {
     background: var(--panel);
     border: 1px solid var(--line);
@@ -493,7 +496,6 @@
     .list { padding-bottom: 20px; }
     main { padding: 16px 12px 110px; }
     .children { margin-inline-start: 8px; padding-inline-start: 12px; }
-    .node::before { inset-inline-start: -12px; width: 8px; }
     .rootcard, .card { min-width: 0; display: block; }
     .rootcard .r-name { font-size: 22px; }
     .quote .verse { font-size: 17px; }
@@ -517,21 +519,19 @@
     .about-epigraph { font-size: 22px; }
   }
   @media (min-width: 1200px) {
-    /* Wide screens: let the chart breathe — top-level branches sit side by side
-       like a genealogy chart instead of one long vertical column. */
+    /* Wide screens: top-level branches sit side by side like a genealogy chart.
+       The start margin keeps a clear gutter for the drawn trunk line, and the
+       row gap leaves room for the horizontal rails (see drawWires). */
     aside { width: clamp(300px, 21vw, 380px); }
     main { padding: 30px 44px 140px; }
     .chart { max-width: none; }
     .chart > .children {
       display: flex; flex-flow: row wrap; align-items: flex-start;
-      gap: 10px 44px;
-      margin-top: 4px; margin-inline-start: 14px;
-      padding-inline-start: 0; border-inline-start: none;
+      gap: 38px 44px;
+      margin-top: 38px; margin-inline-start: 38px;
+      padding-inline-start: 0;
     }
-    .chart > .children > .node { margin: 0 0 18px; max-width: 100%; padding-top: 22px; }
-    .chart > .children > .node::before {
-      inset-inline-start: 16px; top: 2px; width: 2px; height: 16px;
-    }
+    .chart > .children > .node { margin: 0; max-width: 100%; }
     .scanpanel img { max-width: min(100%, 1100px); }
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -1233,6 +1233,97 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     return "https://github.com/sfmqrb/rishe/issues/new?title=" + encodeURIComponent(title) +
       "&body=" + encodeURIComponent(body);
   }
+  /* Connector wires: every parent→child line is measured after layout and
+     drawn in SVG, so it leaves the parent box and ends — with an arrowhead —
+     exactly at the child box. Handles both the stacked layout and the
+     side-by-side branch rows of wide screens, in LTR and RTL. */
+  let wiresRO = null;
+  function drawWires(chart) {
+    const old = chart.querySelector(":scope > .wires");
+    if (old) old.remove();
+    if (!chart.isConnected || !chart.offsetWidth) return;
+    const cr = chart.getBoundingClientRect();
+    const rtl = getComputedStyle(chart).direction === "rtl";
+    const px = v => Math.round(v) + .5;
+    let lines = "", arrows = "";
+    const rectOf = el => {
+      const r = el.getBoundingClientRect();
+      return { left: r.left - cr.left, right: r.right - cr.left, top: r.top - cr.top, bottom: r.bottom - cr.top, height: r.height };
+    };
+    const arrowAt = (x, y, dir) => {   // draws the head, returns where the line stops
+      if (dir === "down") { arrows += "M" + x + " " + y + "l-3.5 -6h7Z"; return y - 5.5; }
+      if (dir === "right") { arrows += "M" + x + " " + y + "l-6 -3.5v7Z"; return x - 5.5; }
+      arrows += "M" + x + " " + y + "l6 -3.5v7Z"; return x + 5.5;
+    };
+    chart.querySelectorAll(".children").forEach(cont => {
+      if (!cont.getClientRects().length) return;   // inside a collapsed node
+      const kids = [];
+      for (const el of cont.children) {
+        if (!el.classList.contains("node")) continue;
+        const card = el.querySelector(":scope > .card");
+        if (card) kids.push(rectOf(card));
+      }
+      if (!kids.length) return;
+      const prev = cont.previousElementSibling;
+      const origin = prev && (prev.classList.contains("card") || prev.classList.contains("rootcard") || prev.classList.contains("part-note"))
+        ? rectOf(prev) : null;
+      const c = rectOf(cont);
+      if (getComputedStyle(cont).display === "flex") {
+        // Branch rows: trunk down the start gutter, a rail in the gap above
+        // each row, and a drop with an arrow onto each branch's first box.
+        const tx = px(rtl ? c.right + 8 : c.left - 8);
+        kids.sort((a, b) => a.top - b.top || a.left - b.left);
+        const rows = [];
+        kids.forEach(k => {
+          const row = rows[rows.length - 1];
+          if (row && Math.abs(row.top - k.top) < 8) row.items.push(k);
+          else rows.push({ top: k.top, items: [k] });
+        });
+        let lastRail = 0;
+        rows.forEach(row => {
+          const railY = px(row.top - 19);
+          lastRail = railY;
+          const xs = row.items.map(k => px(rtl ? k.right - 26 : k.left + 26));
+          lines += "M" + tx + " " + railY + "H" + (rtl ? Math.min(...xs) : Math.max(...xs));
+          row.items.forEach((k, i) => {
+            lines += "M" + xs[i] + " " + railY + "V" + arrowAt(xs[i], k.top + 1, "down");
+          });
+        });
+        if (origin) lines += "M" + tx + " " + (origin.bottom - 1) + "V" + lastRail;
+      } else {
+        // Stacked children: trunk down from the parent box, a tick with an
+        // arrow into the head of each child box.
+        const gx = px(rtl ? c.right : c.left);
+        let lastY = 0;
+        kids.forEach(k => {
+          const y = px(k.top + Math.min(16, k.height / 2));
+          lastY = y;
+          lines += "M" + gx + " " + y + "H" + arrowAt(rtl ? k.right - 1 : k.left + 1, y, rtl ? "left" : "right");
+        });
+        if (origin) lines += "M" + gx + " " + (origin.bottom - 1) + "V" + lastY;
+      }
+    });
+    if (!lines) return;
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("class", "wires"); svg.setAttribute("aria-hidden", "true");
+    const lp = document.createElementNS(NS, "path"); lp.setAttribute("class", "wl"); lp.setAttribute("d", lines);
+    const ap = document.createElementNS(NS, "path"); ap.setAttribute("class", "wa"); ap.setAttribute("d", arrows);
+    svg.appendChild(lp); svg.appendChild(ap);
+    chart.prepend(svg);
+  }
+  function wireChart() {
+    if (wiresRO) { wiresRO.disconnect(); wiresRO = null; }
+    const chart = $main.querySelector(".chart");
+    if (!chart) return;
+    drawWires(chart);
+    if (typeof ResizeObserver !== "undefined") {
+      wiresRO = new ResizeObserver(() => requestAnimationFrame(() => drawWires(chart)));
+      wiresRO.observe(chart);
+    }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (chart.isConnected) drawWires(chart); });
+  }
+
   function show(ei, needle, skipHash) {
     activeEi = ei;
     const g = groups[ei];
@@ -1286,6 +1377,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     $main.querySelectorAll(".seechip[data-goto]").forEach(b => {
       b.addEventListener("click", () => { const t = findRoot(b.dataset.goto); if (t >= 0) { $q.value = ""; renderList(""); show(t); } });
     });
+    wireChart();
     hashExtra = g.root.name;
     if (!skipHash) { curView = "roots"; setView("roots", true); setHash(); }
   }
@@ -1298,6 +1390,8 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     h.setAttribute("aria-expanded", String(!closed));
     const t = h.querySelector(".tog");
     if (t) t.textContent = (closed ? "▸ " : "▾ ") + t.textContent.slice(2);
+    const chart = $main.querySelector(".chart");
+    if (chart) drawWires(chart);
   });
   $main.addEventListener("keydown", ev => {
     if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("has-kids")) {
