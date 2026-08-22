@@ -57,43 +57,43 @@
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #17130c;
-      --panel: #201a11;
-      --panel-2: #2b2314;
-      --ink: #e9ddc0;
-      --muted: #9c8d6c;
-      --line: #3b3220;
-      --accent: #c9a353;
-      --accent-ink: #1c160d;
-      --gold: #c9a353;
-      --gold-soft: #a5882c;
-      --fam-iranian: #1fa896;
-      --fam-ie: #5b93d6;
-      --fam-semitic: #cc6a4b;
-      --fam-turkic: #a5882c;
-      --fam-other: #b078dd;
-      --quote-bg: #191510;
-      --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+      --bg: #11141d;
+      --panel: #181c29;
+      --panel-2: #222839;
+      --ink: #e9e0c6;
+      --muted: #a09478;
+      --line: #303750;
+      --accent: #d4ab52;
+      --accent-ink: #171307;
+      --gold: #d4ab52;
+      --gold-soft: #ab8c3a;
+      --fam-iranian: #27b9a4;
+      --fam-ie: #6ea6e8;
+      --fam-semitic: #d0745a;
+      --fam-turkic: #b5943f;
+      --fam-other: #b381de;
+      --quote-bg: #141724;
+      --shadow: 0 1px 3px rgba(0,0,0,.45), 0 8px 24px rgba(0,0,0,.35);
     }
   }
   :root[data-theme="dark"] {
-    --bg: #17130c;
-    --panel: #201a11;
-    --panel-2: #2b2314;
-    --ink: #e9ddc0;
-    --muted: #9c8d6c;
-    --line: #3b3220;
-    --accent: #c9a353;
-    --accent-ink: #1c160d;
-    --gold: #c9a353;
-    --gold-soft: #a5882c;
-    --fam-iranian: #1fa896;
-    --fam-ie: #5b93d6;
-    --fam-semitic: #cc6a4b;
-    --fam-turkic: #a5882c;
-    --fam-other: #b078dd;
-    --quote-bg: #191510;
-    --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+    --bg: #11141d;
+    --panel: #181c29;
+    --panel-2: #222839;
+    --ink: #e9e0c6;
+    --muted: #a09478;
+    --line: #303750;
+    --accent: #d4ab52;
+    --accent-ink: #171307;
+    --gold: #d4ab52;
+    --gold-soft: #ab8c3a;
+    --fam-iranian: #27b9a4;
+    --fam-ie: #6ea6e8;
+    --fam-semitic: #d0745a;
+    --fam-turkic: #b5943f;
+    --fam-other: #b381de;
+    --quote-bg: #141724;
+    --shadow: 0 1px 3px rgba(0,0,0,.45), 0 8px 24px rgba(0,0,0,.35);
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; }
@@ -3068,38 +3068,86 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
   let themePref = "";
   try { themePref = localStorage.getItem("wr-theme") || ""; } catch (e) {}
   function drawFrieze() {
-    const h = 110, unit = 92;
+    // An Immortal of the guard, after the Susa archer frieze: fillet headband,
+    // long square beard, quiver and bow on the back, both hands on the spear,
+    // ankle-length fluted robe. Facing left; design space 96x110, drawn at 2x.
+    const h = 110, unit = 96;
     const c = document.createElement("canvas");
-    c.width = unit; c.height = h;
+    c.width = unit * 2; c.height = h * 2;
     const x = c.getContext("2d");
+    x.scale(2, 2);
     const col = tokColor("--ink") || "#333";
-    x.fillStyle = col;
-    // spear
-    x.fillRect(14, 12, 3, 94);
-    x.beginPath(); x.moveTo(15.5, 0); x.lineTo(9, 16); x.lineTo(22, 16); x.closePath(); x.fill();
-    // fluted cap
-    for (let i = 0; i < 5; i++) x.fillRect(34 + i * 5, 16, 3.4, 8);
-    x.fillRect(32, 23, 28, 9);
-    // head + beard (facing left)
+    x.fillStyle = col; x.strokeStyle = col;
+    // spear: vertical, leaf point up, ball counterweight at the foot
+    x.fillRect(16.8, 9, 2.6, 88);
     x.beginPath();
-    x.moveTo(32, 32); x.lineTo(60, 32); x.lineTo(60, 44); x.lineTo(52, 56);
-    x.lineTo(40, 56); x.lineTo(36, 48); x.lineTo(30, 44); x.lineTo(32, 38);
-    x.closePath(); x.fill();
-    // body robe
+    x.moveTo(18, 0); x.quadraticCurveTo(21.8, 6, 18, 12);
+    x.quadraticCurveTo(14.2, 6, 18, 0); x.closePath(); x.fill();
+    x.beginPath(); x.arc(18, 98.5, 3.4, 0, 7); x.fill();
+    // bow slung along the back
+    x.lineWidth = 2.6;
+    x.beginPath(); x.arc(40, 42, 21, -0.68, 0.7); x.stroke();
+    // quiver on the back, arrows' tuft above the shoulder
+    x.save();
+    x.translate(56, 26); x.rotate(0.35);
+    x.fillRect(-3.2, -15, 6.4, 18);
+    x.beginPath(); x.arc(0, -15, 3.2, Math.PI, 0); x.fill();
+    x.fillRect(-1, -20.5, 2, 5.5);
+    x.restore();
+    // head: profile, fillet band, hair, long square beard
     x.beginPath();
-    x.moveTo(34, 56); x.lineTo(58, 56); x.lineTo(64, 102); x.lineTo(28, 102);
+    x.moveTo(44, 9.5);
+    x.quadraticCurveTo(41, 12, 40.5, 16);
+    x.lineTo(38.5, 20.5);
+    x.lineTo(41, 22.5);
+    x.lineTo(40.5, 25);
+    x.lineTo(41, 36);
+    x.quadraticCurveTo(44.5, 38.5, 48, 36);
+    x.lineTo(48.5, 27);
+    x.lineTo(54, 26);
+    x.quadraticCurveTo(57.5, 18, 53, 10.5);
+    x.quadraticCurveTo(48, 8, 44, 9.5);
     x.closePath(); x.fill();
-    // arm to spear
-    x.fillRect(16, 62, 22, 7);
-    // hem folds (carve out)
+    // robe, slight flare to the ankles
+    x.beginPath();
+    x.moveTo(44, 28);
+    x.lineTo(41.5, 40);
+    x.lineTo(40, 58);
+    x.lineTo(36.5, 94);
+    x.lineTo(63.5, 94);
+    x.lineTo(58, 56);
+    x.lineTo(57.5, 30);
+    x.quadraticCurveTo(51, 27, 44, 28);
+    x.closePath(); x.fill();
+    // arms: sleeve drape + two forearms gripping the shaft
+    x.beginPath();
+    x.moveTo(42, 35); x.lineTo(29, 43); x.lineTo(27, 52); x.lineTo(42, 53);
+    x.closePath(); x.fill();
+    x.fillRect(15, 42, 27, 5.5);
+    x.fillRect(15, 51, 24, 5.5);
+    x.beginPath(); x.arc(17.5, 44.7, 3.7, 0, 7); x.fill();
+    x.beginPath(); x.arc(17.5, 53.7, 3.7, 0, 7); x.fill();
+    // carve details: headband, beard curls, robe folds
     x.globalCompositeOperation = "destination-out";
-    x.fillRect(38, 74, 2, 28); x.fillRect(46, 74, 2, 28); x.fillRect(54, 74, 2, 28);
+    x.fillRect(40.5, 14.6, 15, 1.5);
+    x.fillRect(41.8, 29, 6, 1.1);
+    x.fillRect(41.8, 32.3, 6, 1.1);
+    x.fillRect(44, 62, 1.5, 29);
+    x.fillRect(49.5, 62, 1.5, 29);
+    x.fillRect(55, 62, 1.5, 29);
     x.globalCompositeOperation = "source-over";
-    // feet
-    x.fillRect(30, 102, 12, 5); x.fillRect(48, 102, 14, 5);
+    // feet, both pointing left
+    x.beginPath();
+    x.moveTo(29, 99.5); x.quadraticCurveTo(29, 95, 35, 95);
+    x.lineTo(46, 95); x.lineTo(46, 99.5); x.closePath(); x.fill();
+    x.beginPath();
+    x.moveTo(48, 99.5); x.quadraticCurveTo(48, 95, 54, 95);
+    x.lineTo(65, 95); x.lineTo(65, 99.5); x.closePath(); x.fill();
     // ground line
-    x.fillRect(0, 108, unit, 2);
-    document.getElementById("frieze").style.backgroundImage = "url(" + c.toDataURL() + ")";
+    x.fillRect(0, 104, unit, 2.2);
+    const el = document.getElementById("frieze");
+    el.style.backgroundImage = "url(" + c.toDataURL() + ")";
+    el.style.backgroundSize = unit + "px " + h + "px";
   }
   function applyTheme() {
     if (themePref) document.documentElement.setAttribute("data-theme", themePref);
