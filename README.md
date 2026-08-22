@@ -1,24 +1,57 @@
+<div align="center">
+
 # Rishe · ریشه
 
 **The roots of Persian & English, laid out like a night sky.**
 
-**Live site → https://sfmqrb.github.io/rishe/**
+[**Live site**](https://sfmqrb.github.io/rishe/) · [**نسخهٔ فارسی این سند ← README.fa.md**](README.fa.md)
 
-![The root constellation of Persian](docs/screenshot.jpg)
+<a href="https://sfmqrb.github.io/rishe/"><img src="docs/demo.gif" alt="A tour of Rishe: the constellation map, a root chart, the pathfinder, borrowing flows, a word's journey, and the research notes" width="850"></a>
+
+</div>
 
 *Rishe* (ریشه, Persian for *root*) is an interactive rendition of **Ali Nourai's**
 *An Etymological Dictionary of Persian, English and other Indo-European Languages* —
 a remarkable reference charting over 1,600 shared roots of some 4,700 Persian and
-3,300 English words. The book exists only as a scan; this project turned all 541 of
-its hand-drawn derivation charts into structured data and a website.
+3,300 English words. The book exists only as a scan of hand-drawn charts; this
+project turned all 541 of them into structured, open data and built a bilingual
+website on top: a zoomable constellation of every root family, the charts as
+interactive trees with the book's poetry citations under the words they attest,
+a pathfinder that walks the road between any two words (*šâh* ↔ *checkmate*,
+*pardîs* ↔ *paradise*), and an animated map of each word's journey across lands
+and centuries.
+
+The data turned out to be good for more than browsing. A research section computes
+quantitative studies straight from the charts — borrowing rates by semantic field,
+the sound laws of Arabic-mediated re-borrowing recovered from doublets, the poets'
+purism gradient from Rŭdakî to Hâfez — and then crosses the dictionary with
+8.5 million words of Persian poetry from the [Ganjoor](https://ganjoor.net) corpus
+to retest those findings against 56 poets' complete divans spanning a millennium.
+Every number regenerates from open scripts in this repository, and the whole site
+is a single self-contained HTML file: no backend, no build framework, no external
+libraries. It works offline.
+
+## Demo
+
+| | |
+|---|---|
+| [![Map](docs/shots/map.png)](https://sfmqrb.github.io/rishe/#map) **Map** — every root family as a star, clustered by origin | [![Roots](docs/shots/roots.png)](https://sfmqrb.github.io/rishe/#roots) **Roots** — the book's charts as interactive bilingual trees |
+| [![Pathfinder](docs/shots/path.png)](https://sfmqrb.github.io/rishe/#path) **Pathfinder** — *pardîs* → *pairi-daêza* → *paradeisos* → *paradise* | [![Flows](docs/shots/flows.png)](https://sfmqrb.github.io/rishe/#flows) **Flows** — how words entered Persian, as a Sankey |
+| [![Journey](docs/shots/journey.png)](https://sfmqrb.github.io/rishe/#journey) **Journey** — a word's family fanning out across an old map | [![Research](docs/shots/research.png)](https://sfmqrb.github.io/rishe/#research) **Research** — quantitative studies with methods stated |
+
+The whole site is bilingual — the header toggle (or
+[`?lang=fa`](https://sfmqrb.github.io/rishe/?lang=fa)) switches every label, chart
+gloss, and note into Persian and mirrors the entire layout right-to-left:
+
+<div align="center">
+<a href="https://sfmqrb.github.io/rishe/?lang=fa"><img src="docs/shots/fa.png" alt="The site in Persian, fully right-to-left" width="700"></a>
+</div>
 
 ## What's inside
 
-- **English / فارسی** — the whole site is bilingual. The header toggle (or
-  [`?lang=fa`](https://sfmqrb.github.io/rishe/?lang=fa)) switches every label,
-  chart gloss, and note into Persian and mirrors the entire layout right-to-left;
-  the ~7,100 English glosses and margin notes from the book were translated into
-  Persian (`data/translations/fa.json`) and are baked into the same single file.
+- **English / فارسی** — the ~7,100 English glosses and margin notes from the book
+  were translated into Persian (`data/translations/fa.json`) and are baked into
+  the same single file; the layout mirrors right-to-left.
 - **Map** — every root family as a star in a zoomable constellation, clustered by
   origin (Indo-European, Semitic, Iranian, Turkic), sized by its descendants.
   Hover a root to light up its cross-referenced neighbors.
@@ -26,12 +59,12 @@ its hand-drawn derivation charts into structured data and a website.
   (برق or *barq* or *emerald*), collapsible branches, the poetry citations
   (Ferdowsî, Hâfez, Sa'dî…) under the words they attest, and a
   *View scanned page* button showing the original printed page.
-- **Pathfinder** — pick any two words and walk the road between them
-  (*šâh* ↔ *checkmate*, *pardîs* ↔ *paradise*). Kinship means a genuinely
-  shared root; the book's ☞ margin notes are shown separately and honestly.
+- **Pathfinder** — pick any two words and walk the road between them.
+  Kinship means a genuinely shared root; the book's ☞ margin notes are shown
+  separately and honestly.
 - **Flows** — a Sankey of how words entered Persian: inherited directly,
   via Arabic, via European languages, via Turkic — plus headline numbers
-  (492 roots shared by Persian and English, and counting).
+  (719 roots shared by Persian and English, and counting).
 - **Journey** — an animated old-map of a word's family fanning out across
   lands and centuries, your word's own road drawn in gold.
 - **Research** — quantitative studies computed from the charts, with methods
@@ -48,9 +81,6 @@ its hand-drawn derivation charts into structured data and a website.
   Greek layer vs. the modern European wave), and types-vs-tokens — only ~4% of
   running verse is borrowed even though ~28% of the charted vocabulary is.
   Regenerate via `tools/ganjoor.py`.
-
-The site is a single self-contained HTML file — no backend, no build framework,
-no external libraries. It works offline.
 
 ## Source & credit
 
@@ -104,5 +134,9 @@ button under every chart makes verifying against the original easy.
 
 ---
 
+<div align="center">
+
 Built by [Sajad F. Maghrebi](https://www.cs.toronto.edu/~smaghrebi/) — because
 Farsi is sugar. «فارسی شکر است»
+
+</div>
