@@ -979,6 +979,45 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
   function wlinkSpan(inner, ei, tok) {
     return '<span class="wlink" role="link" tabindex="0" data-ei="' + ei + '" data-w="' + esc(tok) + '">' + inner + "</span>";
   }
+  /* Morphological fallback for Persian tokens (verse citations are full of inflected
+     forms): strip verbal prefixes and clitic suffixes, and try the infinitive (+ن,
+     accepted only when the result looks like one, ending in دن/تن). Conservative:
+     a token only links if the derived form is itself a charted word. */
+  const FA_BLOCK = new Set(["ای", "همی", "نمی", "می", "بی", "ها", "وی", "ولی", "گویی", "بران", "مرا", "ترا", "چرا",
+    "زیرا", "برای", "باری", "جایی", "رای", "نهند", "بدین", "بدانگه", "انگه", "برنده", "بنای", "جمله", "سوده",
+    "بستان", "لاد", "نشاید", "نبینی", "بشوی", "بگوی", "گویم", "گوید", "شویم", "جویم", "تویی", "بمانند", "نیوش",
+    "ایی", "بارد", "بامن", "باستان", "نامور", "نسرین", "بسیج", "بسام", "بتیم", "بسغر", "خوشه", "درهمه", "میرود", "میلایم", "دری"]);
+  const FA_ALIAS = { "چو": "چون" };
+  const FA_SUF = ["هایی", "های", "ها", "ترین", "تر", "مان", "تان", "شان", "یم", "ید", "ند", "ان", "ست", "ه", "م", "ش"];
+  function faLookup(k) {
+    if (wordEiFa.has(k)) return k;
+    if (FA_BLOCK.has(k)) return null;
+    const okN = c => /[دت]ن$/.test(c);
+    const bases = [k];
+    for (const p of ["نمی‌", "نمی", "همی‌", "همی", "می‌", "می"])
+      if (k.startsWith(p) && k.length - p.length >= 3) { bases.push(k.slice(p.length)); break; }
+    if ((k[0] === "ب" || k[0] === "ن") && k.length >= 4) bases.push(k.slice(1));
+    for (const b of bases.slice()) if (b.endsWith("‌")) bases.push(b.slice(0, -1));
+    const cand = [];
+    for (const b of bases) {
+      if (b.length >= 3 && okN(b + "ن")) cand.push(b + "ن");
+      if (b !== k) cand.push(b);
+      for (const suf of FA_SUF)
+        if (b.endsWith(suf) && b.length - suf.length >= 3) {
+          const c = b.slice(0, -suf.length);
+          if (okN(c + "ن")) cand.push(c + "ن");
+          cand.push(c);
+        }
+      if (b.endsWith("ی") && b.length - 1 >= 2) {
+        const c = b.slice(0, -1);
+        if (okN(c + "ن")) cand.push(c + "ن");
+        cand.push(c);
+      }
+    }
+    if (FA_ALIAS[k]) cand.push(FA_ALIAS[k]);
+    for (const c of cand) if (wordEiFa.has(c)) return c;
+    return null;
+  }
   function linkLat(raw, needle, selfEi) {
     return String(raw).split(/([,;])/).map(part => {
       const tok = part.trim();
@@ -994,10 +1033,11 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     return String(raw).split(/([؀-ۿ‌ً-ٕ]+)/).map(part => {
       if (!/[؀-ۿ]/.test(part)) return esc(part);
       const k = normFa(part);
-      let ei = wordEiFa.has(k) ? wordEiFa.get(k) : -1;
+      const hitK = k.length > 1 ? faLookup(k) : null;
+      let ei = hitK !== null ? wordEiFa.get(hitK) : -1;
       if (ei === selfEi) ei = -1;
       const inner = needle ? hi(part, needle) : esc(part);
-      return ei >= 0 ? wlinkSpan(inner, ei, part) : inner;
+      return ei >= 0 ? wlinkSpan(inner, ei, hitK === k ? part : hitK) : inner;
     }).join("");
   }
   document.addEventListener("click", ev => {
@@ -2402,12 +2442,6 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
     for (let y = 900; y <= 1400; y += 100)
       s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (y0 + 16) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
     s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + x1 + '" y2="' + y0 + '"/>';
-    let Sw = 0, Sx = 0, Sy = 0, Sxx = 0, Sxy = 0;   // n-weighted least squares
-    poets.forEach(p => { Sw += p.n; Sx += p.n * p.year; Sy += p.n * p.share; Sxx += p.n * p.year * p.year; Sxy += p.n * p.year * p.share; });
-    const tb = (Sw * Sxy - Sx * Sy) / (Sw * Sxx - Sx * Sx), ta = (Sy - tb * Sx) / Sw;
-    const tA = 880, tB = 1385;
-    s += '<line x1="' + yr(tA) + '" y1="' + sh(Math.max(0, ta + tb * tA)) + '" x2="' + yr(tB) + '" y2="' + sh(ta + tb * tB) +
-      '" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.55"/>';
     const geo = poets.map(p => ({ x: yr(p.year), yT: sh(p.hi), yB: sh(p.lo), yD: sh(p.share), r: Math.min(9.5, 3 + Math.sqrt(p.n) * 0.45) }));
     const obs = [];   // obstacle boxes for label placement
     for (let y = 900; y <= 1400; y += 100) obs.push({ l: yr(y) - 20, r: yr(y) + 20, t: y0 + 6, b: y0 + 20 });
@@ -2467,8 +2501,8 @@ window.ETYM_RESEARCH = /*__RESEARCH__*/null;
       rr("poet’s lifetime (CE) → share of attested words with Arabic/European/Turkic transmission",
          "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های شاهدمثال با گذر از عربی/اروپایی/ترکی") + "</text>" +
       '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 7) + '" text-anchor="middle">' +
-      rr("dot size = attested words · whiskers = 95% CI · dashed = trend weighted by n",
-         "اندازهٔ نقطه = شمار شاهدمثال‌ها · خط‌ها = بازهٔ اطمینان ۹۵٪ · خط‌چین = روند وزن‌دار به n") + "</text>";
+      rr("dot size = attested words · whiskers = 95% CI",
+         "اندازهٔ نقطه = شمار شاهدمثال‌ها · خط‌ها = بازهٔ اطمینان ۹۵٪") + "</text>";
     return '<div class="rchart">' + s + "</svg></div>";
   }
   function distChart(hist, medianD) {
