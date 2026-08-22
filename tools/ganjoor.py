@@ -86,6 +86,26 @@ GPOETS = {
     505: ("Sîmîn Behbahânî", "سیمین بهبهانی", 1975),
 }
 
+# Attestation-only corpora: the rest of the Ganjoor dump. These extend the
+# first-attestation record to the whole dataset but stay out of the purism
+# gradient — attributed corpora (Bâbâ Tâher, Abŭ-Sa'îd) date the person while
+# their written fixation is later, prose classics contribute only their verse
+# passages (prose rows are position -1 and filtered out), and the small
+# contemporary corpora are too thin for shares.
+GEXTRA = {
+    26: ("Abŭ-Sa'îd", "ابوسعید ابوالخیر", 1030),
+    28: ("Bâbâ Tâher", "باباطاهر", 1055),
+    53: ("Hojvîrî", "هجویری", 1070),
+    49: ("Nasrollâh Monshî", "نصرالله منشی", 1150),
+    48: ("Khalîlî", "خلیل‌الله خلیلی", 1950),
+    508: ("Bâreq Shafî'î", "محمدحسن بارق شفیعی", 1970),
+    512: ("Qahhâr Âsî", "عبدالقهّار عاصی", 1985),
+    608: ("Shîvan Fŭmanî", "شیون فومنی", 1985),
+    611: ("Sedîghî Kasmâyî", "کامبیز صدیقی کسمایی", 1990),
+    613: ("Bahrâm Sâlekî", "بهرام سالکی", 1995),
+    615: ("E-Liyâr", "اِ لیار (جبار محمدی)", 2000),
+}
+
 # ---------- normalization + morphology (mirror of the site's linkFa fallback) ----------
 FA_RUN = re.compile(r"[؀-ۿ‌ً-ٕ]+")
 
@@ -269,13 +289,36 @@ def analyze(db_path, dirs):
               f"borrowed={p:.1%}  rarefied={r_b/max(1,len(rlem)):.1%}", file=sys.stderr)
 
     # ---- 2. first attestations -> influx per half-century ----
+    # attestation-only pass over the rest of the Ganjoor dump (GEXTRA):
+    # these corpora refine lemma_first but stay out of every other statistic
+    for pid, (en, fa, year) in sorted(GEXTRA.items(), key=lambda x: x[1][2]):
+        per_lemma = collections.Counter()
+        tot = 0
+        for text in iter_poet_verses(db, pid):
+            for tok in FA_RUN.findall(text):
+                k = norm_fa(tok)
+                if len(k) <= 1:
+                    continue
+                tot += 1
+                if k not in key_of:
+                    rec = match(k)
+                    key_of[k] = (k if k in lex else next((c for c in variants(k) if c in lex), None)) \
+                        if rec is not None else None
+                if key_of[k] is not None:
+                    per_lemma[key_of[k]] += 1
+        moved = 0
+        for lk, n in per_lemma.items():
+            if n >= 2 and (lk not in lemma_first or year < lemma_first[lk][0]):
+                lemma_first[lk] = (year, en); moved += 1
+        print(f"  +attestation {en:18s} {year}  tokens={tot:7d} first-attests={moved}", file=sys.stderr)
+
     influx = collections.defaultdict(lambda: collections.Counter())
     for lk, (year, _) in lemma_first.items():
         b = (year // 50) * 50
         influx[b][lemma_route[lk]] += 1
     influx_rows = [{"y": b, "direct": influx[b]["direct"], "arabic": influx[b]["arabic"],
                     "euro": influx[b]["euro"], "turkic": influx[b]["turkic"]}
-                   for b in range(900, 2000, 50)]
+                   for b in range(900, 2050, 50)]
     # earliest attestations for the two datable waves, plus the modern European wave
     examples = {}
     for route in ("euro", "turkic"):
@@ -341,6 +384,7 @@ def analyze(db_path, dirs):
         "lexicon_size": typ_total,
         "ambiguous_dropped": len(ambiguous),
         "poets": poet_rows,
+        "extra_poets": [{"en": en, "fa": fa, "year": y} for _, (en, fa, y) in sorted(GEXTRA.items(), key=lambda x: x[1][2])],
         "influx": influx_rows,
         "influx_examples": examples,
         "words": words_borrowed,

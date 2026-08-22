@@ -2641,8 +2641,8 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     /* One square per borrowed word, at its first attestation, in a lane per route.
        The <=1000 "dawn" zone is stock the record starts with, not arrivals. */
     const W = 740, x0 = 16, x1 = W - 16, cell = 5, pitch = 6, cols = 4;
-    const bY = y => Math.min(1950, Math.floor(y / 50) * 50);
-    const nB = 22, bw = (x1 - x0) / nB;
+    const bY = y => Math.min(2000, Math.floor(y / 50) * 50);
+    const nB = 23, bw = (x1 - x0) / nB;
     const bx = b => x0 + (b - 900) / 50 * bw;
     const dawnR = bx(1050);
     const lanes = ["arabic", "euro", "turkic"];
@@ -2914,15 +2914,15 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       mdTbl += "</table></div>";
       h += rsec(
         rr("When the loanwords arrived", "وام‌واژه‌ها کی رسیدند؟"),
-        rr("The charts have no dates — the poetic record supplies them: every borrowed word, placed at its first attestation, 900–1975.",
-           "نمودارها تاریخ ندارند — پیکرهٔ شعری تاریخ می‌دهد: هر وام‌واژه در جای نخستین گواهی‌اش، ۹۰۰ تا ۱۹۷۵."),
+        rr("The charts have no dates — the poetic record supplies them: every borrowed word, placed at its first attestation across the entire Ganjoor corpus, 900–2000.",
+           "نمودارها تاریخ ندارند — پیکرهٔ شعری تاریخ می‌دهد: هر وام‌واژه در جای نخستین گواهی‌اش در سراسر پیکرهٔ گنجور، ۹۰۰ تا ۲۰۰۰."),
         arrivalChart(GJ.words) +
         '<div class="rfinding">' + rr(
           "Read the lanes right of the dawn line. The Arabic lane thins out fast: " + pct(cumBy("arabic", 1200), 0) + " of the dictionary’s Arabic-route words are in the record before 1200, and the seven centuries after add only a trickle — later poetry recombines an old stock of loans rather than borrowing anew. The European lane is the mirror image: a thin ancient layer (Greek coins, plants and tools — dînâr, narges, kelîd) already present at the dawn, then near-silence for seven hundred years, then a burst — " + pct(1 - cumBy("euro", 1850), 0) + " of all European-route words enter this record after 1850, in one lifetime around the Constitutional era: doktor, kerâvât, rîsk, samâvar.",
           "ردیف‌های نمودار را سمت راستِ مرز آغاز بخوانید. ردیف عربی به‌سرعت کم‌پشت می‌شود: " + pct(cumBy("arabic", 1200), 0) + " از واژه‌های عربی‌گذرِ فرهنگ پیش از ۱۲۰۰ در سابقه حاضرند و هفت سدهٔ بعد فقط چکه‌ای می‌افزاید — شعرِ متأخر ذخیرهٔ کهنهٔ وام را بازترکیب می‌کند، نه آنکه از نو وام بگیرد. ردیف اروپایی درست تصویر معکوس است: لایهٔ کهنِ نازکی (سکه‌ها، گیاهان و ابزارهای یونانی — دینار، نرگس، کلید) که از همان آغاز حاضر است، سپس نزدیک به هفتصد سال سکوت، و آنگاه فوران — " + pct(1 - cumBy("euro", 1850), 0) + " از کل واژه‌های اروپایی‌گذر پس از ۱۸۵۰ و در یک عمرِ واحد حوالی مشروطه به این پیکره می‌رسند: دکتر، کراوات، ریسک، سماور.") + "</div>" +
         exTbl + mdTbl,
-        rr("Each square is one borrowed word; its date is the floruit year of the earliest poet who uses it at least twice, so squares date the poet, not the poem. The record is left-censored: Rŭdakî is the oldest corpus, and the Shâhnâmeh’s half-million words sweep up most common vocabulary at once — so everything up to the dashed line (≤1000) is drawn dimmed and fenced off as the <b>starting stock</b> of the record, not as arrivals. The signal lives to the right of that line, where a word’s appearance genuinely means it was not in eleven-plus centuries of earlier verse. Inherited words are omitted — native vocabulary does not “arrive.”",
-           "هر مربع یک وام‌واژه است؛ تاریخ آن سال فعالیتِ کهن‌ترین شاعری است که دست‌کم دو بار به کارش برده، پس مربع‌ها شاعر را تاریخ‌گذاری می‌کنند، نه شعر را. سابقه سانسورِ چپ دارد: رودکی کهن‌ترین پیکره است و نیم‌میلیون واژهٔ شاهنامه بیشترِ واژگان رایج را یک‌جا جارو می‌کند — پس هرچه تا خط‌چین (تا ۱۰۰۰) است کم‌رنگ و جداشده رسم شده: <b>موجودیِ آغازینِ</b> سابقه، نه ورود. سیگنال در سمت راست آن خط است، جایی که پیدا شدن واژه به‌راستی یعنی در یازده سدهٔ شعرِ پیش‌تر نبوده است. واژه‌های موروثی حذف‌اند — واژگان بومی «نمی‌رسند»."));
+        rr("Each square is one borrowed word; its date is the floruit year of the earliest poet who uses it at least twice, so squares date the poet, not the poem. Unlike the gradient above, the attestation record here draws on the <b>entire Ganjoor corpus</b>: the 56 analysis poets plus every other dated collection in the dump — the attributed corpora of Bâbâ Tâher and Abŭ-Sa'îd (whose written fixation is later than the men themselves), the verse passages of the prose classics, and the contemporary poets up to 2000. The record is left-censored: Rŭdakî is the oldest corpus, and the Shâhnâmeh’s half-million words sweep up most common vocabulary at once — so everything up to the dashed line (≤1000) is drawn dimmed and fenced off as the <b>starting stock</b> of the record, not as arrivals. The signal lives to the right of that line, where a word’s appearance genuinely means it was not in eleven centuries of earlier verse. Inherited words are omitted — native vocabulary does not “arrive.”",
+           "هر مربع یک وام‌واژه است؛ تاریخ آن سال فعالیتِ کهن‌ترین شاعری است که دست‌کم دو بار به کارش برده، پس مربع‌ها شاعر را تاریخ‌گذاری می‌کنند، نه شعر را. برخلاف شیبِ بالا، سابقهٔ گواهی در اینجا از <b>سراسر پیکرهٔ گنجور</b> می‌آید: ۵۶ شاعرِ تحلیل به‌علاوهٔ همهٔ مجموعه‌های تاریخ‌دارِ دیگرِ آن — پیکره‌های منسوبِ باباطاهر و ابوسعید (که کتابتشان از خودِ آن مردان متأخرتر است)، شعرهای لابه‌لای متون منثور کهن، و شاعران معاصر تا ۲۰۰۰. سابقه سانسورِ چپ دارد: رودکی کهن‌ترین پیکره است و نیم‌میلیون واژهٔ شاهنامه بیشترِ واژگان رایج را یک‌جا جارو می‌کند — پس هرچه تا خط‌چین (تا ۱۰۰۰) است کم‌رنگ و جداشده رسم شده: <b>موجودیِ آغازینِ</b> سابقه، نه ورود. سیگنال در سمت راست آن خط است، جایی که پیدا شدن واژه به‌راستی یعنی در یازده سدهٔ شعرِ پیش‌تر نبوده است. واژه‌های موروثی حذف‌اند — واژگان بومی «نمی‌رسند»."));
       /* ---- Ganjoor: types vs tokens ---- */
       const GW = GJ.weighted;
       let topT = "";
@@ -3045,7 +3045,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     gjtip.innerHTML = '<span class="w">' + esc(d.s) + "</span> <b>" + esc(d.w) + "</b>" +
       (d.g ? " — " + esc(tData(d.g)) : "") + '<br><span class="m">' +
       t("gjFirstAtt") + " " + (isFa() ? (+d.y).toLocaleString("fa-IR", { useGrouping: false }) : d.y) + " · " +
-      esc(isFa() && GJ ? ((GJ.poets.find(p => p.en === d.p) || {}).fa || d.p) : d.p) + " · " + fmtNum(+d.n) + " " + t("gjUses") +
+      esc(isFa() && GJ ? ((GJ.poets.concat(GJ.extra_poets || []).find(p => p.en === d.p) || {}).fa || d.p) : d.p) + " · " + fmtNum(+d.n) + " " + t("gjUses") +
       " · " + t("gjClickHint") + "</span>";
     gjtip.hidden = false;
     const tw = gjtip.offsetWidth, th = gjtip.offsetHeight;

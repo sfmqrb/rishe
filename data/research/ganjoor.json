@@ -1015,6 +1015,63 @@
    "rshare": 0.0512
   }
  ],
+ "extra_poets": [
+  {
+   "en": "Abŭ-Sa'îd",
+   "fa": "ابوسعید ابوالخیر",
+   "year": 1030
+  },
+  {
+   "en": "Bâbâ Tâher",
+   "fa": "باباطاهر",
+   "year": 1055
+  },
+  {
+   "en": "Hojvîrî",
+   "fa": "هجویری",
+   "year": 1070
+  },
+  {
+   "en": "Nasrollâh Monshî",
+   "fa": "نصرالله منشی",
+   "year": 1150
+  },
+  {
+   "en": "Khalîlî",
+   "fa": "خلیل‌الله خلیلی",
+   "year": 1950
+  },
+  {
+   "en": "Bâreq Shafî'î",
+   "fa": "محمدحسن بارق شفیعی",
+   "year": 1970
+  },
+  {
+   "en": "Qahhâr Âsî",
+   "fa": "عبدالقهّار عاصی",
+   "year": 1985
+  },
+  {
+   "en": "Shîvan Fŭmanî",
+   "fa": "شیون فومنی",
+   "year": 1985
+  },
+  {
+   "en": "Sedîghî Kasmâyî",
+   "fa": "کامبیز صدیقی کسمایی",
+   "year": 1990
+  },
+  {
+   "en": "Bahrâm Sâlekî",
+   "fa": "بهرام سالکی",
+   "year": 1995
+  },
+  {
+   "en": "E-Liyâr",
+   "fa": "اِ لیار (جبار محمدی)",
+   "year": 2000
+  }
+ ],
  "influx": [
   {
    "y": 900,
@@ -1032,31 +1089,31 @@
   },
   {
    "y": 1000,
-   "direct": 719,
-   "arabic": 113,
-   "euro": 19,
+   "direct": 733,
+   "arabic": 126,
+   "euro": 21,
    "turkic": 7
   },
   {
    "y": 1050,
-   "direct": 119,
+   "direct": 120,
    "arabic": 49,
-   "euro": 9,
-   "turkic": 0
+   "euro": 10,
+   "turkic": 1
   },
   {
    "y": 1100,
-   "direct": 59,
-   "arabic": 64,
-   "euro": 4,
+   "direct": 54,
+   "arabic": 53,
+   "euro": 2,
    "turkic": 1
   },
   {
    "y": 1150,
-   "direct": 93,
-   "arabic": 58,
-   "euro": 8,
-   "turkic": 3
+   "direct": 86,
+   "arabic": 57,
+   "euro": 7,
+   "turkic": 2
   },
   {
    "y": 1200,
@@ -1067,8 +1124,8 @@
   },
   {
    "y": 1250,
-   "direct": 48,
-   "arabic": 21,
+   "direct": 46,
+   "arabic": 20,
    "euro": 5,
    "turkic": 1
   },
@@ -1165,9 +1222,16 @@
   },
   {
    "y": 1950,
-   "direct": 16,
+   "direct": 21,
    "arabic": 6,
    "euro": 9,
+   "turkic": 0
+  },
+  {
+   "y": 2000,
+   "direct": 0,
+   "arabic": 0,
+   "euro": 0,
    "turkic": 0
   }
  ],
@@ -1309,11 +1373,11 @@
     "poet": "Manŭchehrî"
    },
    {
-    "w": "xotan",
-    "s": "ختا",
-    "g": "poetic name for China",
-    "year": 1110,
-    "poet": "Sanâ'î"
+    "w": "qareh",
+    "s": "قره",
+    "g": "black",
+    "year": 1070,
+    "poet": "Hojvîrî"
    }
   ],
   "euro_modern": [
@@ -2705,6 +2769,15 @@
    "n": 3151
   },
   {
+   "s": "حیات",
+   "w": "hayât",
+   "g": "life",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 2326
+  },
+  {
    "s": "عرق",
    "w": "araq",
    "g": "sweat, liquor",
@@ -2723,6 +2796,15 @@
    "n": 929
   },
   {
+   "s": "ذکر",
+   "w": "zekr",
+   "g": "mention, remembrance (of God)",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 840
+  },
+  {
    "s": "لنگر",
    "w": "langar",
    "g": "anchor",
@@ -2730,6 +2812,15 @@
    "y": 1030,
    "p": "Manŭchehrî",
    "n": 657
+  },
+  {
+   "s": "اسم",
+   "w": "âsm",
+   "g": "asthma",
+   "r": "euro",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 594
   },
   {
    "s": "شیدا",
@@ -2759,6 +2850,15 @@
    "n": 506
   },
   {
+   "s": "محروم",
+   "w": "harâm",
+   "g": "forbidden",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 493
+  },
+  {
    "s": "یعقوب",
    "w": "Ya`qŭb",
    "g": "Jacob",
@@ -2775,6 +2875,24 @@
    "y": 1030,
    "p": "Manŭchehrî",
    "n": 429
+  },
+  {
+   "s": "انوار",
+   "w": "nŭr",
+   "g": "light",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 423
+  },
+  {
+   "s": "کاینات",
+   "w": "kâenât",
+   "g": "beings, world",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 391
   },
   {
    "s": "حرمت",
@@ -2795,6 +2913,24 @@
    "n": 276
   },
   {
+   "s": "کوزه",
+   "w": "kŭzeh",
+   "g": "pitcher, jug",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 272
+  },
+  {
+   "s": "بکر",
+   "w": "bekr",
+   "g": "fresh, young, new, virgin",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 261
+  },
+  {
    "s": "حی",
    "w": "hayât",
    "g": "life",
@@ -2811,6 +2947,15 @@
    "y": 1030,
    "p": "Manŭchehrî",
    "n": 253
+  },
+  {
+   "s": "فرنگ",
+   "w": "farangî",
+   "g": "European",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 231
   },
   {
    "s": "سیف",
@@ -2849,6 +2994,24 @@
    "n": 192
   },
   {
+   "s": "سجاده",
+   "w": "sâjed",
+   "g": "one who prays to God",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 174
+  },
+  {
+   "s": "حرمان",
+   "w": "hermân",
+   "g": "prohibition, disappointment",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 169
+  },
+  {
    "s": "مغیلان",
    "w": "moğîlân",
    "g": "desert thorn bushes",
@@ -2865,6 +3028,15 @@
    "y": 1030,
    "p": "Manŭchehrî",
    "n": 146
+  },
+  {
+   "s": "غربال",
+   "w": "ğarbâl",
+   "g": "a sieve",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 127
   },
   {
    "s": "حبل",
@@ -2894,6 +3066,15 @@
    "n": 105
   },
   {
+   "s": "کنشت",
+   "w": "kenešt",
+   "g": "Jewish assembly",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 92
+  },
+  {
    "s": "طنبور",
    "w": "tanbŭr",
    "g": "a stringed musical instrument",
@@ -2901,6 +3082,15 @@
    "y": 1030,
    "p": "Manŭchehrî",
    "n": 84
+  },
+  {
+   "s": "قدوم",
+   "w": "qadam",
+   "g": "step",
+   "r": "arabic",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 83
   },
   {
    "s": "نارنج",
@@ -2993,13 +3183,13 @@
    "n": 19
   },
   {
-   "s": "حیات",
-   "w": "hayât",
-   "g": "life",
-   "r": "arabic",
-   "y": 1050,
-   "p": "Nâser-Khosrow",
-   "n": 2326
+   "s": "کلیسیا",
+   "w": "kelîsâ",
+   "g": "church",
+   "r": "euro",
+   "y": 1030,
+   "p": "Abŭ-Sa'îd",
+   "n": 18
   },
   {
    "s": "شیطان",
@@ -3047,30 +3237,12 @@
    "n": 434
   },
   {
-   "s": "انوار",
-   "w": "nŭr",
-   "g": "light",
-   "r": "arabic",
-   "y": 1050,
-   "p": "Nâser-Khosrow",
-   "n": 423
-  },
-  {
    "s": "مفلس",
    "w": "mofles",
    "g": "poor, without money",
    "r": "arabic",
    "y": 1050,
    "p": "Gorgânî",
-   "n": 391
-  },
-  {
-   "s": "کاینات",
-   "w": "kâenât",
-   "g": "beings, world",
-   "r": "arabic",
-   "y": 1050,
-   "p": "Nâser-Khosrow",
    "n": 391
   },
   {
@@ -3371,15 +3543,6 @@
    "n": 18
   },
   {
-   "s": "کلیسیا",
-   "w": "kelîsâ",
-   "g": "church",
-   "r": "euro",
-   "y": 1050,
-   "p": "Nâser-Khosrow",
-   "n": 18
-  },
-  {
    "s": "سک",
    "w": "sek",
    "g": "non-diluted drink",
@@ -3405,6 +3568,24 @@
    "y": 1050,
    "p": "Nâser-Khosrow",
    "n": 5
+  },
+  {
+   "s": "موسم",
+   "w": "mowsem",
+   "g": "season",
+   "r": "arabic",
+   "y": 1055,
+   "p": "Bâbâ Tâher",
+   "n": 242
+  },
+  {
+   "s": "صراط",
+   "w": "serât",
+   "g": "road",
+   "r": "arabic",
+   "y": 1055,
+   "p": "Bâbâ Tâher",
+   "n": 95
   },
   {
    "s": "کالا",
@@ -3461,13 +3642,76 @@
    "n": 6
   },
   {
-   "s": "ذکر",
-   "w": "zekr",
-   "g": "mention, remembrance (of God)",
+   "s": "سمع",
+   "w": "sam`a",
+   "g": "hearing",
    "r": "arabic",
-   "y": 1090,
-   "p": "Mas'ŭd Sa'd",
-   "n": 840
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 160
+  },
+  {
+   "s": "له",
+   "w": "âleh",
+   "g": "eagle",
+   "r": "euro",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 109
+  },
+  {
+   "s": "یحیی",
+   "w": "Yahyâ",
+   "g": "\"God is gracious, a male name\"",
+   "r": "arabic",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 94
+  },
+  {
+   "s": "احسن",
+   "w": "ahsan",
+   "g": "(word of) admiration",
+   "r": "arabic",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 55
+  },
+  {
+   "s": "قره",
+   "w": "qareh",
+   "g": "black",
+   "r": "turkic",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 55
+  },
+  {
+   "s": "اسماعیل",
+   "w": "",
+   "g": "",
+   "r": "arabic",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 48
+  },
+  {
+   "s": "صفه",
+   "w": "soffeh",
+   "g": "seat, saddle, varendah",
+   "r": "arabic",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 43
+  },
+  {
+   "s": "ونیز",
+   "w": "Venîz",
+   "g": "Venice",
+   "r": "euro",
+   "y": 1070,
+   "p": "Hojvîrî",
+   "n": 5
   },
   {
    "s": "فانوس",
@@ -3479,24 +3723,6 @@
    "n": 336
   },
   {
-   "s": "کوزه",
-   "w": "kŭzeh",
-   "g": "pitcher, jug",
-   "r": "arabic",
-   "y": 1090,
-   "p": "Khayyâm",
-   "n": 272
-  },
-  {
-   "s": "بکر",
-   "w": "bekr",
-   "g": "fresh, young, new, virgin",
-   "r": "arabic",
-   "y": 1090,
-   "p": "Mas'ŭd Sa'd",
-   "n": 261
-  },
-  {
    "s": "اداب",
    "w": "adab",
    "g": "discipline",
@@ -3506,15 +3732,6 @@
    "n": 111
   },
   {
-   "s": "کنشت",
-   "w": "kenešt",
-   "g": "Jewish assembly",
-   "r": "arabic",
-   "y": 1090,
-   "p": "Khayyâm",
-   "n": 92
-  },
-  {
    "s": "رزق",
    "w": "rezq",
    "g": "daily bread",
@@ -3522,24 +3739,6 @@
    "y": 1110,
    "p": "Sanâ'î",
    "n": 696
-  },
-  {
-   "s": "اسم",
-   "w": "âsm",
-   "g": "asthma",
-   "r": "euro",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 594
-  },
-  {
-   "s": "محروم",
-   "w": "harâm",
-   "g": "forbidden",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 493
   },
   {
    "s": "ناموس",
@@ -3614,33 +3813,6 @@
    "n": 194
   },
   {
-   "s": "سجاده",
-   "w": "sâjed",
-   "g": "one who prays to God",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 174
-  },
-  {
-   "s": "حرمان",
-   "w": "hermân",
-   "g": "prohibition, disappointment",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 169
-  },
-  {
-   "s": "سمع",
-   "w": "sam`a",
-   "g": "hearing",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 160
-  },
-  {
    "s": "کحل",
    "w": "kohl",
    "g": "eye powder",
@@ -3677,15 +3849,6 @@
    "n": 130
   },
   {
-   "s": "غربال",
-   "w": "ğarbâl",
-   "g": "a sieve",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 127
-  },
-  {
    "s": "فیل",
    "w": "pîl",
    "g": "elephant",
@@ -3713,15 +3876,6 @@
    "n": 118
   },
   {
-   "s": "له",
-   "w": "âleh",
-   "g": "eagle",
-   "r": "euro",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 109
-  },
-  {
    "s": "رفو",
    "w": "rofŭ",
    "g": "to repair torn cloth",
@@ -3740,15 +3894,6 @@
    "n": 108
   },
   {
-   "s": "صراط",
-   "w": "serât",
-   "g": "road",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 95
-  },
-  {
    "s": "موت",
    "w": "mawt, mowt",
    "g": "death",
@@ -3756,24 +3901,6 @@
    "y": 1110,
    "p": "Sanâ'î",
    "n": 95
-  },
-  {
-   "s": "یحیی",
-   "w": "Yahyâ",
-   "g": "\"God is gracious, a male name\"",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 94
-  },
-  {
-   "s": "قدوم",
-   "w": "qadam",
-   "g": "step",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 83
   },
   {
    "s": "عزراییل",
@@ -3857,15 +3984,6 @@
    "n": 60
   },
   {
-   "s": "احسن",
-   "w": "ahsan",
-   "g": "(word of) admiration",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 55
-  },
-  {
    "s": "کعب",
    "w": "ka`b",
    "g": "ankle bone, cube root",
@@ -3882,24 +4000,6 @@
    "y": 1110,
    "p": "Sanâ'î",
    "n": 50
-  },
-  {
-   "s": "اسماعیل",
-   "w": "",
-   "g": "",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 48
-  },
-  {
-   "s": "صفه",
-   "w": "soffeh",
-   "g": "seat, saddle, varendah",
-   "r": "arabic",
-   "y": 1110,
-   "p": "Sanâ'î",
-   "n": 43
   },
   {
    "s": "خسوف",
@@ -4154,15 +4254,6 @@
    "n": 261
   },
   {
-   "s": "موسم",
-   "w": "mowsem",
-   "g": "season",
-   "r": "arabic",
-   "y": 1160,
-   "p": "Anvarî",
-   "n": 242
-  },
-  {
    "s": "هاله",
    "w": "hâleh",
    "g": "halo, hue",
@@ -4233,15 +4324,6 @@
    "y": 1160,
    "p": "Anvarî",
    "n": 56
-  },
-  {
-   "s": "قره",
-   "w": "qareh",
-   "g": "black",
-   "r": "turkic",
-   "y": 1160,
-   "p": "Khâqânî",
-   "n": 55
   },
   {
    "s": "عمو",
@@ -4746,24 +4828,6 @@
    "y": 1190,
    "p": "Attâr",
    "n": 8
-  },
-  {
-   "s": "ونیز",
-   "w": "Venîz",
-   "g": "Venice",
-   "r": "euro",
-   "y": 1190,
-   "p": "Attâr",
-   "n": 5
-  },
-  {
-   "s": "فرنگ",
-   "w": "farangî",
-   "g": "European",
-   "r": "arabic",
-   "y": 1250,
-   "p": "Molavî (Rumi)",
-   "n": 231
   },
   {
    "s": "افندی",
