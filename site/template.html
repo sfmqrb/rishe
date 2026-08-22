@@ -145,6 +145,7 @@
     padding: 3px 12px; cursor: pointer;
   }
   .iconbtn:hover { color: var(--accent); border-color: var(--accent); }
+  a.iconbtn { text-decoration: none; display: inline-flex; align-items: center; }
   .count-note { font-family: var(--sans); font-size: 12px; color: var(--muted); letter-spacing: .04em; }
 
   .view { flex: 1; min-height: 0; display: none; position: relative; z-index: 1; }
@@ -764,6 +765,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     pageRef: ["Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p.",
               "نورایی، فرهنگ ریشه‌شناختی زبان‌های فارسی، انگلیسی و دیگر زبان‌های هندواروپایی — ص"],
     viewScan: ["📖 View scanned page", "📖 دیدن تصویر صفحهٔ"],
+    reportBtn: ["🐞 Report a mistake", "🐞 گزارش خطا"],
     scanAlt: ["Scanned book page", "تصویر صفحهٔ کتاب —"],
     scanFallPre: ["The page scans aren’t bundled into this preview.", "تصویر صفحه‌ها در این پیش‌نمایش گنجانده نشده است."],
     scanFallLink: ["Open the scan of page", "دیدن تصویر صفحهٔ"],
@@ -1201,6 +1203,18 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       (r.refs ? '<div class="r-refs">' + esc(r.refs) + "</div>" : "") +
       "</div>";
   }
+  function issueUrl(rootName, bookPages) {
+    const pages = bookPages.join(", ");
+    const title = 'Transcription error in “' + rootName + '” (book p. ' + pages + ")";
+    const body =
+      "**Root:** `" + rootName + "` — book p. " + pages + "\n" +
+      "**Chart on the site:** https://sfmqrb.github.io/rishe/#roots/" + encodeURIComponent(rootName) + "\n\n" +
+      "**What the scan shows:**\n\n\n" +
+      "**What the site shows:**\n\n\n" +
+      "<!-- Compare with the “View scanned page” button under the chart. A screenshot crop helps for subtle glyphs. If the print itself looks wrong, say so — the site records the book verbatim and notes disputes rather than correcting silently. -->";
+    return "https://github.com/sfmqrb/rishe/issues/new?title=" + encodeURIComponent(title) +
+      "&body=" + encodeURIComponent(body);
+  }
   function show(ei, needle, skipHash) {
     activeEi = ei;
     const g = groups[ei];
@@ -1227,6 +1241,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       esc(bookPages.map(p => fmtNum(p)).join(isFa() ? "، " : ", ")) + "</div>" +
       '<div class="scanrow">' + bookPages.map(p =>
         '<button class="iconbtn scanbtn" data-b="' + p + '" data-p="' + (p + 30) + '">' + t("viewScan") + " " + fmtNum(p) + "</button>").join("") +
+      '<a class="iconbtn" target="_blank" rel="noopener" href="' + esc(issueUrl(g.root.name, bookPages)) + '">' + t("reportBtn") + "</a>" +
       '</div><div class="scanpanel" id="scanpanel"></div></div>';
     $main.innerHTML = html;
     const panel = document.getElementById("scanpanel");
