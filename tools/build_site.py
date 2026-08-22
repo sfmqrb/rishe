@@ -65,6 +65,11 @@ def main(argv):
         n_fa = len(fa)
         html = html.replace("/*__I18N__*/{};",
                             json.dumps(fa, ensure_ascii=False, separators=(",", ":")) + ";", 1)
+    research = ROOT / "data" / "research" / "research.json"
+    assert html.count("/*__RESEARCH__*/null;") == 1, "research placeholder not found in template"
+    if research.exists():
+        html = html.replace("/*__RESEARCH__*/null;",
+                            research.read_text(encoding="utf-8").strip() + ";", 1)
     out.write_text(html, encoding="utf-8")
     print(f"{out}: {len(pages)} pages, {n_entries} entries, {n_fa} fa strings, {out.stat().st_size/1024:.0f} KB")
 

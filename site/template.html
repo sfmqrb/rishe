@@ -243,6 +243,11 @@
     padding: 0 8px 1px; cursor: pointer; vertical-align: 2px;
   }
   .seechip:hover { background: var(--accent); color: var(--accent-ink); }
+  .wlink { cursor: pointer; border-bottom: 1px dotted color-mix(in srgb, var(--accent) 45%, transparent); }
+  .wlink:hover { color: var(--accent); border-bottom: 1px solid var(--accent); }
+  .wlink:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .quote .wlink, .fa-extra .wlink { border-bottom: none; }
+  .quote .wlink:hover, .fa-extra .wlink:hover { color: var(--accent); border-bottom: 1px solid var(--accent); }
   .seechip[disabled] { opacity: .45; cursor: default; }
   .seechip[disabled]:hover { background: none; color: var(--accent); }
   .note { font-size: 13.5px; font-style: italic; color: var(--muted); max-width: 58ch; margin-top: 6px; }
@@ -406,6 +411,39 @@
   .jstations { margin-top: 14px; }
   .jstations .card { display: block; max-width: 640px; margin-bottom: 10px; }
 
+  /* ============ RESEARCH VIEW ============ */
+  #view-research { flex-direction: column; overflow: auto; }
+  .rpanel { max-width: 980px; margin: 0 auto; padding: 30px 24px 160px; width: 100%; }
+  .rsec { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    box-shadow: var(--shadow); padding: 20px 24px; margin-bottom: 22px; }
+  .rsec h2 { font-family: var(--serif); font-size: 21px; font-weight: 700; margin: 0 0 4px; }
+  .rsec .r-sub { color: var(--muted); font-style: italic; font-size: 13.5px; margin: 0 0 14px; }
+  html[lang="fa"] .rsec .r-sub { font-style: normal; }
+  .rsec p { margin: 8px 0; font-size: 15px; line-height: 1.6; max-width: 78ch; }
+  .rfinding { border-inline-start: 4px solid var(--gold); background: var(--quote-bg);
+    padding: 10px 16px; margin: 12px 0; border-radius: 0 8px 8px 0; font-size: 15.5px; }
+  html[dir="rtl"] .rfinding { border-radius: 8px 0 0 8px; }
+  .rmethod { font-family: var(--sans); font-size: 12.5px; color: var(--muted);
+    border-top: 1px dashed var(--line); margin-top: 14px; padding-top: 10px; line-height: 1.55; }
+  .rmethod b { color: var(--ink); }
+  .rtable { overflow-x: auto; margin: 10px 0; }
+  .rtable table { border-collapse: collapse; font-family: var(--sans); font-size: 13px; min-width: 420px; }
+  .rtable th, .rtable td { border: 1px solid var(--line); padding: 4px 10px; text-align: start; }
+  .rtable th { background: var(--panel-2); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  html[lang="fa"] .rtable th { text-transform: none; letter-spacing: 0; }
+  .rtable .fa-cell { font-family: var(--fa); direction: rtl; }
+  .rchart { margin: 12px 0; overflow-x: auto; direction: ltr; }
+  .rc-lbl { font-family: var(--sans); font-size: 12px; fill: var(--ink); }
+  .rc-sub2 { font-family: var(--sans); font-size: 10.5px; fill: var(--muted); }
+  .rc-axis { stroke: var(--line); stroke-width: 1; }
+  .rc-grid { stroke: var(--line); stroke-width: .5; opacity: .5; }
+  .rstats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 12px 0; }
+  .rstat { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+  .rstat .v { font-family: var(--serif); font-weight: 700; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .rstat .l { font-family: var(--sans); font-size: 11px; letter-spacing: .05em; color: var(--muted); }
+  .rword { font-weight: 700; }
+  .rfa { font-family: var(--fa); direction: rtl; unicode-bidi: isolate; }
+
   /* ============ FARSI MODE (RTL) ============ */
   html[lang="fa"] {
     --serif: "Vazirmatn", "Spectral", Tahoma, serif;
@@ -500,6 +538,7 @@
       <button data-v="path">Pathfinder</button>
       <button data-v="flows">Flows</button>
       <button data-v="journey">Journey</button>
+      <button data-v="research">Research</button>
       <button data-v="about">About</button>
     </nav>
     <span class="hdr-tools">
@@ -607,6 +646,10 @@
     </div>
   </section>
 
+  <section class="view" id="view-research">
+    <div class="rpanel" id="rpanel"></div>
+  </section>
+
   <section class="view" id="view-journey">
     <div class="jpanel">
       <h1 class="path-title">A word’s journey</h1>
@@ -627,6 +670,7 @@
 <script>
 window.ETYM_DATA = /*__DATA__*/;
 window.ETYM_FA = /*__I18N__*/{};
+window.ETYM_RESEARCH = /*__RESEARCH__*/null;
 (function () {
   "use strict";
   /* ---------------- helpers ---------------- */
@@ -670,7 +714,8 @@ window.ETYM_FA = /*__I18N__*/{};
     tagline: ["ریشه · the roots of Persian & English — after Ali Nourai’s dictionary",
               "ریشه‌های مشترک واژه‌های فارسی و انگلیسی — بر پایهٔ فرهنگ علی نورایی"],
     tabMap: ["Map", "نقشه"], tabRoots: ["Roots", "ریشه‌ها"], tabPath: ["Pathfinder", "رهیاب"],
-    tabFlows: ["Flows", "سرچشمه‌ها"], tabJourney: ["Journey", "سفر واژه"], tabAbout: ["About", "درباره"],
+    tabFlows: ["Flows", "سرچشمه‌ها"], tabJourney: ["Journey", "سفر واژه"],
+    tabResearch: ["Research", "پژوهش"], tabAbout: ["About", "درباره"],
     randRoot: ["Random root", "ریشهٔ تصادفی"],
     homeTitle: ["Back to the start", "بازگشت به آغاز"],
     themeLbl: { "": ["Theme: Auto", "پوسته: خودکار"], dark: ["Theme: Dark", "پوسته: تیره"], light: ["Theme: Light", "پوسته: روشن"] },
@@ -678,11 +723,13 @@ window.ETYM_FA = /*__I18N__*/{};
     langBtn: ["فارسی", "English"],
     roots: ["roots", "ریشه"], words: ["words", "واژه"],
     mapH1: ["The root constellation of Persian", "صورت فلکی ریشه‌های فارسی"],
-    mapP: ["Every star is a root family; its size is the number of words that grew from it. Click a root to open its tree.",
-           "هر ستاره یک خانوادهٔ ریشه است و اندازه‌اش شمار واژه‌هایی که از آن روییده‌اند. روی ریشه‌ای کلیک کنید تا درختش باز شود."],
-    mapHint: ["drag to pan · scroll to zoom · click a root to open it",
-              "برای جابه‌جایی بکشید · برای بزرگ‌نمایی اسکرول کنید · برای گشودن، روی ریشه کلیک کنید"],
+    mapP: ["Every star is a root family; its size is the number of words that grew from it. Click a star to unfold its derivatives — dashed gold threads are the book’s ☞ links to other roots. Double-click opens the chart.",
+           "هر ستاره یک خانوادهٔ ریشه است و اندازه‌اش شمار واژه‌هایش. با کلیک، مشتق‌هایش باز می‌شوند — رشته‌های طلاییِ چین‌دار ارجاع‌های ☞ کتاب به ریشه‌های دیگرند. دوبار کلیک نمودار را می‌گشاید."],
+    mapHint: ["click a star to unfold its words · double-click to open its chart · click a word to jump to it · drag to pan · scroll to zoom",
+              "کلیک روی ستاره: بازشدن واژه‌ها · دوبار کلیک: گشودن نمودار · کلیک روی واژه: پرش به آن · کشیدن: جابه‌جایی · اسکرول: بزرگ‌نمایی"],
     legendTitle: ["Origin of the root", "تبار ریشه"],
+    legDeriv: ["derivation", "اشتقاق"], legSee: ["☞ cross-reference", "ارجاع ☞"],
+    legWord: ["derivative word", "واژهٔ مشتق"],
     fam_iranian: ["Iranian", "ایرانی"], fam_ie: ["Indo-European", "هندواروپایی"],
     fam_semitic: ["Semitic", "سامی"], fam_turkic: ["Turkic & Altaic", "ترکی و آلتایی"],
     fam_other: ["Other origins", "تبارهای دیگر"],
@@ -897,6 +944,64 @@ window.ETYM_FA = /*__I18N__*/{};
       : g + it.lang + " → root " + it.rootName;
   }
 
+  /* ---------------- word linking (click any word → its root chart) ---------------- */
+  const wordEi = new Map();    // normalized Latin form -> group index
+  const wordEiFa = new Map();  // normalized Persian form -> group index
+  index.forEach(it => {
+    if (it.kind !== "word") return;
+    String(it.label).split(/[,;]/).forEach(p => {
+      const k = normLat(p.trim());
+      if (k.length > 1 && !wordEi.has(k)) wordEi.set(k, it.ei);
+    });
+    if (it.faLabel) String(it.faLabel).split(/[^؀-ۿ‌ً-ٕ]+/).forEach(p => {
+      const k = normFa(p);
+      if (k.length > 1 && !wordEiFa.has(k)) wordEiFa.set(k, it.ei);
+    });
+  });
+  index.forEach(it => {   // second pass: script_extra tokens, only where still unclaimed
+    if (it.kind !== "word" || !it.fa) return;
+    String(it.fa).split(/[^؀-ۿ‌]+/).forEach(p => {
+      const k = normFa(p);
+      if (k.length > 1 && !wordEiFa.has(k)) wordEiFa.set(k, it.ei);
+    });
+  });
+  function wlinkSpan(inner, ei, tok) {
+    return '<span class="wlink" role="link" tabindex="0" data-ei="' + ei + '" data-w="' + esc(tok) + '">' + inner + "</span>";
+  }
+  function linkLat(raw, needle, selfEi) {
+    return String(raw).split(/([,;])/).map(part => {
+      const tok = part.trim();
+      if (!tok || /^[,;]$/.test(part)) return esc(part);
+      const k = normLat(tok);
+      let ei = wordEi.has(k) ? wordEi.get(k) : (byName[k] !== undefined ? byName[k] : -1);
+      if (ei === selfEi) ei = -1;
+      const inner = needle ? hi(part, needle) : esc(part);
+      return ei >= 0 ? wlinkSpan(inner, ei, tok) : inner;
+    }).join("");
+  }
+  function linkFa(raw, needle, selfEi) {
+    return String(raw).split(/([؀-ۿ‌ً-ٕ]+)/).map(part => {
+      if (!/[؀-ۿ]/.test(part)) return esc(part);
+      const k = normFa(part);
+      let ei = wordEiFa.has(k) ? wordEiFa.get(k) : -1;
+      if (ei === selfEi) ei = -1;
+      const inner = needle ? hi(part, needle) : esc(part);
+      return ei >= 0 ? wlinkSpan(inner, ei, part) : inner;
+    }).join("");
+  }
+  document.addEventListener("click", ev => {
+    const w = ev.target.closest(".wlink");
+    if (!w) return;
+    ev.preventDefault(); ev.stopPropagation();
+    const ei = +w.dataset.ei;
+    if (ei >= 0 && groups[ei]) { $q.value = ""; renderList(""); show(ei, w.dataset.w || undefined); }
+  }, true);
+  document.addEventListener("keydown", ev => {
+    if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("wlink")) {
+      ev.preventDefault(); ev.target.click();
+    }
+  });
+
   function searchIndex(qraw, wordsOnly) {
     const ql = normLat(qraw), qf = normFa(qraw);
     if (!ql && !qf) return [];
@@ -915,7 +1020,7 @@ window.ETYM_FA = /*__I18N__*/{};
   }
 
   /* ---------------- view manager ---------------- */
-  const views = ["map", "roots", "path", "flows", "journey", "about"];
+  const views = ["map", "roots", "path", "flows", "journey", "research", "about"];
   const tabs = document.querySelectorAll("nav.tabs button");
   let curView = "";
   const onShowView = {};
@@ -1004,16 +1109,16 @@ window.ETYM_FA = /*__I18N__*/{};
     let words = "";
     (n.words || []).forEach(w => {
       words += '<div class="wordrow">' +
-        (w.translit ? '<span class="w-lat">' + hi(w.translit, needle) + "</span>" : "") +
+        (w.translit ? '<span class="w-lat">' + linkLat(w.translit, needle, activeEi) + "</span>" : "") +
         (w.gloss ? '<span class="w-gloss">' + hi(tData(w.gloss), needle) + "</span>" : "") +
         seeChips(w.see) +
-        (w.script ? '<span class="w-fa" lang="fa">' + hi(w.script, needle) + "</span>" : "") +
+        (w.script ? '<span class="w-fa" lang="fa">' + linkFa(w.script, needle, activeEi) + "</span>" : "") +
         "</div>";
     });
-    const extra = n.script_extra ? '<div class="fa-extra" lang="fa">' + hi(n.script_extra, needle) + "</div>" : "";
+    const extra = n.script_extra ? '<div class="fa-extra" lang="fa">' + linkFa(n.script_extra, needle, activeEi) + "</div>" : "";
     const note = n.note ? '<div class="note">' + esc(tData(n.note)) + "</div>" : "";
     const quote = n.quote && n.quote.text
-      ? '<div class="quote"><div class="verse" lang="fa">' + esc(n.quote.text) + '</div>' +
+      ? '<div class="quote"><div class="verse" lang="fa">' + linkFa(n.quote.text, null, activeEi) + '</div>' +
         (n.quote.poet ? '<div class="poet">' + esc(n.quote.poet) + "</div>" : "") + "</div>"
       : "";
     return '<div class="card" style="--famc:' + fam + '">' +
@@ -1238,12 +1343,12 @@ window.ETYM_FA = /*__I18N__*/{};
     (n.words || []).slice(0, 4).forEach((w, wi) => {
       const strong = highlight !== undefined && wi === highlight;
       words += '<div class="wordrow">' +
-        (w.translit ? '<span class="w-lat">' + (strong ? "<mark>" + esc(w.translit) + "</mark>" : esc(w.translit)) + "</span>" : "") +
+        (w.translit ? '<span class="w-lat">' + (strong ? "<mark>" + linkLat(w.translit) + "</mark>" : linkLat(w.translit)) + "</span>" : "") +
         (w.gloss ? '<span class="w-gloss">' + esc(tData(w.gloss)) + "</span>" : "") +
-        (w.script ? '<span class="w-fa" lang="fa">' + (strong ? "<mark>" + esc(w.script) + "</mark>" : esc(w.script)) + "</span>" : "") +
+        (w.script ? '<span class="w-fa" lang="fa">' + (strong ? "<mark>" + linkFa(w.script) + "</mark>" : linkFa(w.script)) + "</span>" : "") +
         "</div>";
     });
-    if (!words && n.script_extra) words = '<div class="fa-extra" lang="fa">' + esc(n.script_extra) + "</div>";
+    if (!words && n.script_extra) words = '<div class="fa-extra" lang="fa">' + linkFa(n.script_extra) + "</div>";
     return '<div class="pstep"><div class="prail"><div class="pdot" style="--famc:' + fam + '"></div><div class="pline"></div></div>' +
       '<div class="pcard"><div class="card" style="--famc:' + fam + '">' +
       '<div class="head"><span class="lang">' + esc(tLang(n.lang) || "?") + "</span></div>" +
@@ -1330,7 +1435,92 @@ window.ETYM_FA = /*__I18N__*/{};
   const tip = document.getElementById("maptip");
   let mapNodes = null, mapLinks = null, mapNbr = null, simFrames = 0, mapReady = false;
   let cam = { x: 0, y: 0, k: 1 };
-  let hoverGi = -1;
+  let hoverGi = -1, hoverBub = null;
+  const expandedM = new Map();   // gi -> {bubbles, sees} : the unfolded derivative layer
+  function expandRoot(gi) {
+    const g = groups[gi];
+    const bubbles = [], sees = [];
+    g.entries.forEach(e => {
+      const byid = {}; (e.nodes || []).forEach(n => { byid[n.id] = n; });
+      const bidx = {};
+      function resolve(nid) {
+        if (!nid || !byid[nid]) return -1;
+        if (nid in bidx) return bidx[nid];
+        bidx[nid] = -1;
+        const n = byid[nid];
+        const p = resolve(n.parent || 0);
+        const w = (n.words || [])[0];
+        const label = w && w.translit ? w.translit.split(/[,;]/)[0].trim() : "";
+        const fa = (w && w.script) || (!label && n.script_extra ? n.script_extra.split(/[،,]/)[0].trim() : "");
+        if (!label && !fa) { bidx[nid] = p; return p; }
+        const bi = bubbles.length;
+        bubbles.push({ gi, label, fa, gloss: (w && w.gloss) || "", lang: n.lang || "",
+          fam: famOf(n.lang), parent: p, depth: p >= 0 ? bubbles[p].depth + 1 : 1,
+          r: 3.8, ang: 0, dx: 0, dy: 0 });
+        (n.words || []).forEach(w2 => (w2.see || []).forEach(s => {
+          const t = findRoot(s); if (t >= 0 && t !== gi) sees.push([bi, t]);
+        }));
+        bidx[nid] = bi; return bi;
+      }
+      (e.nodes || []).forEach(n => resolve(n.id));
+    });
+    // concentric rings by derivation depth; each ring ordered under its parents
+    const rings = {};
+    bubbles.forEach((b, i) => { (rings[b.depth] = rings[b.depth] || []).push(i); });
+    const rootR = mapNodes[gi].r, base = gi * 2.3999632;
+    Object.keys(rings).map(Number).sort((a, b) => a - b).forEach(d => {
+      const ring = rings[d].slice().sort((x, y) =>
+        (bubbles[x].parent >= 0 ? bubbles[bubbles[x].parent].ang : base) -
+        (bubbles[y].parent >= 0 ? bubbles[bubbles[y].parent].ang : base));
+      const R = rootR + 16 + (d - 1) * 26;
+      ring.forEach((bi, k) => {
+        const b = bubbles[bi];
+        b.ang = base + (k / ring.length) * Math.PI * 2 + d * 0.35;
+        b.dx = Math.cos(b.ang) * R; b.dy = Math.sin(b.ang) * R;
+      });
+    });
+    const maxD = bubbles.reduce((m, b) => Math.max(m, b.depth), 1);
+    expandedM.set(gi, { bubbles, sees, maxR: rootR + 16 + (maxD - 1) * 26 + 16 });
+  }
+  let flyId = null;
+  function flyTo(wx, wy, k) {
+    if (flyId) cancelAnimationFrame(flyId);
+    const w = cv.width / devicePixelRatio, h = cv.height / devicePixelRatio;
+    const from = { x: cam.x, y: cam.y, k: cam.k };
+    const to = { k, x: wx - w / (2 * k), y: wy - h / (2 * k) };
+    const DUR = reduceMotion ? 0 : 320;
+    let t0 = null;
+    function step(now) {
+      if (t0 === null) t0 = now;
+      const p = DUR ? Math.max(0, Math.min(1, (now - t0) / DUR)) : 1;
+      const e2 = p * (2 - p); // ease-out
+      cam.k = from.k + (to.k - from.k) * e2;
+      cam.x = from.x + (to.x - from.x) * e2;
+      cam.y = from.y + (to.y - from.y) * e2;
+      mapDraw();
+      if (p < 1) flyId = requestAnimationFrame(step); else flyId = null;
+    }
+    flyId = requestAnimationFrame(step);
+  }
+  function toggleExpand(gi) {
+    if (expandedM.has(gi)) { expandedM.delete(gi); mapDraw(); return; }
+    expandRoot(gi);
+    const n = mapNodes[gi];
+    if (cam.k < 1.7) flyTo(n.x, n.y, Math.max(cam.k, 2.1));
+    else mapDraw();
+  }
+  function bubbleAt(mx, my) {
+    const wx = mx / cam.k + cam.x, wy = my / cam.k + cam.y;
+    let hit = null;
+    expandedM.forEach((ex, gi) => {
+      const rn = mapNodes[gi];
+      ex.bubbles.forEach(b => {
+        const dx = wx - (rn.x + b.dx), dy = wy - (rn.y + b.dy);
+        if (dx * dx + dy * dy < (b.r + 3) * (b.r + 3)) hit = b;
+      });
+    });
+    return hit;
+  }
   function mapInit() {
     const W = 1200, H = 800;
     const anchors = {
@@ -1449,9 +1639,74 @@ window.ETYM_FA = /*__I18N__*/{};
     ctx.font = "600 " + Math.max(10, 11 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', sans-serif";
     ctx.textAlign = "center";
     mapNodes.forEach((n, gi) => {
-      const show = focus ? inFocus(gi) : (n.big || cam.k > 1.8);
+      const show = focus ? inFocus(gi) : (n.big || cam.k > 1.8 || expandedM.has(gi));
       if (show) ctx.fillText(n.name, n.x, n.y - n.r - 4);
     });
+    // -------- unfolded derivative layers --------
+    const inkCol = tokColor("--ink") || "#ccc";
+    const bgCol = tokColor("--bg") || "#111";
+    expandedM.forEach((ex, gi) => {
+      const rn = mapNodes[gi];
+      const a = (!focus || inFocus(gi)) ? 1 : 0.15;
+      // halo lifting the layer off the starfield
+      ctx.beginPath();
+      ctx.arc(rn.x, rn.y, ex.maxR, 0, Math.PI * 2);
+      ctx.fillStyle = bgCol;
+      ctx.globalAlpha = 0.62 * a;
+      ctx.fill();
+      ctx.strokeStyle = gold;
+      ctx.globalAlpha = 0.25 * a;
+      ctx.lineWidth = 1 / cam.k;
+      ctx.stroke();
+      // derivation edges
+      ctx.globalAlpha = 0.45 * a;
+      ctx.strokeStyle = inkMuted;
+      ctx.lineWidth = 1.1 / cam.k;
+      ctx.beginPath();
+      ex.bubbles.forEach(b => {
+        const x0 = b.parent >= 0 ? rn.x + ex.bubbles[b.parent].dx : rn.x;
+        const y0 = b.parent >= 0 ? rn.y + ex.bubbles[b.parent].dy : rn.y;
+        ctx.moveTo(x0, y0); ctx.lineTo(rn.x + b.dx, rn.y + b.dy);
+      });
+      ctx.stroke();
+      // ☞ threads to other roots (the pathfinder seams)
+      ctx.setLineDash([5 / cam.k, 4 / cam.k]);
+      ctx.strokeStyle = gold;
+      ctx.globalAlpha = 0.7 * a;
+      ctx.lineWidth = 1.4 / cam.k;
+      ctx.beginPath();
+      ex.sees.forEach(([bi, tg]) => {
+        const b = ex.bubbles[bi], tn = mapNodes[tg];
+        ctx.moveTo(rn.x + b.dx, rn.y + b.dy); ctx.lineTo(tn.x, tn.y);
+      });
+      ctx.stroke();
+      ctx.setLineDash([]);
+      // word bubbles
+      ex.bubbles.forEach(b => {
+        ctx.beginPath();
+        ctx.arc(rn.x + b.dx, rn.y + b.dy, b.r, 0, Math.PI * 2);
+        ctx.fillStyle = colors[b.fam];
+        ctx.globalAlpha = 0.95 * a;
+        ctx.fill();
+      });
+      // word labels
+      ctx.globalAlpha = a;
+      ctx.fillStyle = inkCol;
+      ctx.font = "600 " + Math.max(8.5, 9.5 / Math.sqrt(cam.k)) + "px 'Alegreya Sans', 'Vazirmatn', sans-serif";
+      ex.bubbles.forEach(b => {
+        ctx.fillText(b.label || b.fa, rn.x + b.dx, rn.y + b.dy - b.r - 3);
+      });
+    });
+    // highlight the hovered bubble
+    if (hoverBub) {
+      const rn = mapNodes[hoverBub.gi];
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = gold;
+      ctx.lineWidth = 2 / cam.k;
+      ctx.beginPath();
+      ctx.arc(rn.x + hoverBub.dx, rn.y + hoverBub.dy, hoverBub.r + 2.5 / cam.k, 0, Math.PI * 2);
+      ctx.stroke();
+    }
     ctx.restore();
   }
   function mapLoop() {
@@ -1516,10 +1771,20 @@ window.ETYM_FA = /*__I18N__*/{};
       return;
     }
     if (e.pointerType !== "mouse") return;
-    const n = nodeAt(e.offsetX, e.offsetY);
-    const newHover = n ? n.gi : -1;
-    if (newHover !== hoverGi) { hoverGi = newHover; mapDraw(); }
-    if (n) {
+    const b = bubbleAt(e.offsetX, e.offsetY);
+    const n = b ? null : nodeAt(e.offsetX, e.offsetY);
+    const newHover = b ? b.gi : (n ? n.gi : -1);
+    if (newHover !== hoverGi || b !== hoverBub) { hoverGi = newHover; hoverBub = b; mapDraw(); }
+    if (b) {
+      tip.style.display = "block";
+      tip.style.left = (e.offsetX + 16) + "px";
+      tip.style.top = (e.offsetY + 8) + "px";
+      tip.innerHTML = '<div class="t-name">' + esc(b.label || b.fa) +
+        (b.label && b.fa ? ' <span lang="fa" style="direction:rtl;unicode-bidi:isolate">' + esc(b.fa) + "</span>" : "") + "</div>" +
+        (b.gloss ? '<div style="font-style:' + (isFa() ? "normal" : "italic") + '">' + esc(tData(b.gloss)) + "</div>" : "") +
+        '<div class="t-sub">' + esc(tLang(b.lang) || "?") + " · " + esc(groups[b.gi].root.name) + "</div>";
+      cv.style.cursor = "pointer";
+    } else if (n) {
       const g = groups[n.gi];
       const nLinks = mapNbr && mapNbr[n.gi] ? mapNbr[n.gi].size : 0;
       tip.style.display = "block";
@@ -1537,11 +1802,17 @@ window.ETYM_FA = /*__I18N__*/{};
       cv.style.cursor = "grab";
     }
   });
-  cv.addEventListener("pointerleave", () => { tip.style.display = "none"; if (hoverGi !== -1) { hoverGi = -1; mapDraw(); } });
+  cv.addEventListener("pointerleave", () => { tip.style.display = "none"; hoverBub = null; if (hoverGi !== -1) { hoverGi = -1; mapDraw(); } });
   cv.addEventListener("click", e => {
     if (movedDist > 6) return;
+    const b = bubbleAt(e.offsetX, e.offsetY);
+    if (b) { show(b.gi, b.label || b.fa); return; }
     const n = nodeAt(e.offsetX, e.offsetY);
-    if (n) { show(n.gi); }
+    if (n) toggleExpand(n.gi);
+  });
+  cv.addEventListener("dblclick", e => {
+    const n = nodeAt(e.offsetX, e.offsetY);
+    if (n) { expandedM.delete(n.gi); show(n.gi); }
   });
   cv.addEventListener("wheel", e => {
     e.preventDefault();
@@ -1558,7 +1829,10 @@ window.ETYM_FA = /*__I18N__*/{};
     lg.innerHTML = '<div class="lg-title">' + esc(t("legendTitle")) + "</div>" +
       FAMS.map(f =>
         '<div class="lg-row"><span class="dot" style="background:var(--fam-' + f + ')"></span>' +
-        esc(famLbl(f)) + " · " + fmtNum(groups.filter(g => g.fam === f).length) + "</div>").join("");
+        esc(famLbl(f)) + " · " + fmtNum(groups.filter(g => g.fam === f).length) + "</div>").join("") +
+      '<div class="lg-row" style="margin-top:6px"><span class="dot" style="width:6px;height:6px;background:var(--muted)"></span>' + esc(t("legWord")) + "</div>" +
+      '<div class="lg-row"><span style="width:12px;border-top:2px solid var(--muted);opacity:.6"></span>' + esc(t("legDeriv")) + "</div>" +
+      '<div class="lg-row"><span style="width:12px;border-top:2px dashed var(--gold)"></span>' + esc(t("legSee")) + "</div>";
   }
   renderLegend();
   onShowView.map = () => {
@@ -1822,9 +2096,9 @@ window.ETYM_FA = /*__I18N__*/{};
   function caption(s) {
     document.getElementById("jcaption").innerHTML =
       '<div class="jc-era">' + eraLabel(s.era) + " — " + esc(tLang(s.lang)) + " · " + esc(tPlace(s.place)) + "</div>" +
-      '<div class="jc-word">' + (s.words && s.words.length ? "<b>" + esc(s.words.join(", ")) + "</b>" : "") +
+      '<div class="jc-word">' + (s.words && s.words.length ? "<b>" + linkLat(s.words.join(", ")) + "</b>" : "") +
       (s.gloss ? ' <i style="color:var(--muted);font-style:' + (isFa() ? "normal" : "italic") + '">' + esc(tData(s.gloss)) + "</i>" : "") +
-      (s.script ? ' <span class="fa-part" lang="fa">' + esc(s.script) + "</span>" : "") + "</div>";
+      (s.script ? ' <span class="fa-part" lang="fa">' + linkFa(s.script) + "</span>" : "") + "</div>";
   }
   function runJourney() {
     if (!jItem) return;
@@ -1858,9 +2132,9 @@ window.ETYM_FA = /*__I18N__*/{};
     // stations as text (chronological)
     document.getElementById("jstations").innerHTML = stations.slice().sort((a, b) => a.era - b.era).map(s =>
       '<div class="card" style="--famc:var(--fam-' + s.fam + ')"><div class="head"><span class="lang">' + esc(tLang(s.lang)) + '</span><span class="tog">' + esc(tPlace(s.place)) + " · " + eraLabel(s.era) + "</span></div>" +
-      '<div class="body"><div class="wordrow">' + (s.words.length ? '<span class="w-lat">' + esc(s.words.join(", ")) + "</span>" : "") +
+      '<div class="body"><div class="wordrow">' + (s.words.length ? '<span class="w-lat">' + linkLat(s.words.join(", ")) + "</span>" : "") +
       (s.gloss ? '<span class="w-gloss">' + esc(tData(s.gloss)) + "</span>" : "") +
-      (s.script ? '<span class="w-fa" lang="fa">' + esc(s.script) + "</span>" : "") + "</div></div></div>").join("");
+      (s.script ? '<span class="w-fa" lang="fa">' + linkFa(s.script) + "</span>" : "") + "</div></div></div>").join("");
     // hover → caption
     jm.querySelectorAll(".jst").forEach(c => {
       c.addEventListener("pointerenter", () => caption(stations[+c.dataset.i]));
@@ -1957,6 +2231,282 @@ window.ETYM_FA = /*__I18N__*/{};
     } else if (jDirty) { jDirty = false; runJourney(); }
   };
 
+  /* ---------------- RESEARCH ---------------- */
+  const R = window.ETYM_RESEARCH;
+  let researchBuilt = false;
+  const R_FIELDS = {
+    phys: ["The physical world", "جهان طبیعی"], kinship: ["Kinship", "خویشاوندی"],
+    animals: ["Animals", "جانوران"], body: ["The body", "بدن"],
+    food: ["Food & drink", "خوراک و نوشیدنی"], clothing: ["Clothing & grooming", "پوشاک و آراستگی"],
+    house: ["The house", "خانه"], agri: ["Agriculture & vegetation", "کشاورزی و گیاهان"],
+    action_tech: ["Actions & technology", "کنش‌ها و فناوری"], motion: ["Motion", "حرکت"],
+    possession: ["Possession & trade", "دارایی و دادوستد"], spatial: ["Spatial relations", "روابط مکانی"],
+    quantity: ["Quantity", "کمیت"], time: ["Time", "زمان"],
+    sense: ["Sense perception", "ادراک حسی"], emotion: ["Emotions & values", "عواطف و ارزش‌ها"],
+    cognition: ["Cognition", "شناخت"], speech: ["Speech & language", "گفتار و زبان"],
+    social: ["Social & political", "اجتماع و سیاست"], war: ["Warfare & hunting", "جنگ و شکار"],
+    law: ["Law", "قانون"], religion: ["Religion & belief", "دین و باور"],
+    modern: ["Modern world", "جهان مدرن"], function: ["Function words", "واژه‌های دستوری"]
+  };
+  function rr(en, fa) { return isFa() ? fa : en; }
+  function pct(x, d) { const v = (x * 100).toFixed(d === undefined ? 1 : d); return isFa() ? fmtNum(+v) + "٪" : v + "%"; }
+  function fieldLbl(c) { return (R_FIELDS[c] || [c, c])[isFa() ? 1 : 0]; }
+  function rootChip(name) { return '<button class="seechip" data-goto="' + esc(name) + '">' + esc(name) + "</button>"; }
+  function rsec(title, sub, body, method) {
+    return '<div class="rsec"><h2>' + title + '</h2><p class="r-sub">' + sub + "</p>" + body +
+      (method ? '<div class="rmethod"><b>' + rr("Method.", "روش.") + "</b> " + method + "</div>" : "") + "</div>";
+  }
+  function domChart(fields) {
+    const W = 740, rowH = 27, x0 = 230, bw = 360, H = fields.length * rowH + 34;
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    [0, .2, .4, .6].forEach(v => {
+      s += '<line class="rc-grid" x1="' + (x0 + v * bw) + '" y1="6" x2="' + (x0 + v * bw) + '" y2="' + (H - 26) + '"/>' +
+        '<text class="rc-sub2" x="' + (x0 + v * bw) + '" y="' + (H - 12) + '" text-anchor="middle">' + pct(v, 0) + "</text>";
+    });
+    fields.forEach((f, i) => {
+      const y = 10 + i * rowH;
+      s += '<text class="rc-lbl" x="' + (x0 - 10) + '" y="' + (y + 13) + '" text-anchor="end">' + esc(fieldLbl(f.code)) + "</text>" +
+        '<rect x="' + x0 + '" y="' + y + '" width="' + Math.max(1.5, f.share * bw) + '" height="16" rx="3" fill="var(--fam-semitic)" opacity="0.75"/>' +
+        '<line x1="' + (x0 + f.lo * bw) + '" y1="' + (y + 8) + '" x2="' + (x0 + f.hi * bw) + '" y2="' + (y + 8) + '" stroke="var(--ink)" stroke-width="1.6"/>' +
+        '<text class="rc-sub2" x="' + (x0 + Math.max(f.hi * bw, f.share * bw) + 8) + '" y="' + (y + 13) + '">' + pct(f.share) +
+        " · n=" + fmtNum(f.n) + "</text>";
+    });
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function poetChart(poets) {
+    const W = 740, H = 300, x0 = 56, x1 = W - 20, y0 = H - 46, y1 = 16;
+    const yr = y => x0 + (y - 850) / (1420 - 850) * (x1 - x0);
+    const sh = v => y0 - v / 0.62 * (y0 - y1);
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    [0, .2, .4, .6].forEach(v => {
+      s += '<line class="rc-grid" x1="' + x0 + '" y1="' + sh(v) + '" x2="' + x1 + '" y2="' + sh(v) + '"/>' +
+        '<text class="rc-sub2" x="' + (x0 - 8) + '" y="' + (sh(v) + 4) + '" text-anchor="end">' + pct(v, 0) + "</text>";
+    });
+    for (let y = 900; y <= 1400; y += 100)
+      s += '<text class="rc-sub2" x="' + yr(y) + '" y="' + (H - 26) + '" text-anchor="middle">' + fmtNum(y) + "</text>";
+    s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + x1 + '" y2="' + y0 + '"/>';
+    poets.forEach((p, i) => {
+      const x = yr(p.year);
+      const above = i % 2 === 0;
+      s += '<line x1="' + x + '" y1="' + sh(p.lo) + '" x2="' + x + '" y2="' + sh(p.hi) + '" stroke="var(--gold-soft)" stroke-width="2"/>' +
+        '<circle cx="' + x + '" cy="' + sh(p.share) + '" r="5" fill="var(--gold)"/>' +
+        '<text class="rc-lbl" x="' + x + '" y="' + (above ? sh(p.hi) - 8 : Math.min(y0 - 6, sh(p.lo) + 16)) + '" text-anchor="middle">' +
+        esc(isFa() ? p.fa : p.en.replace(/ \(.*/, "")) + "</text>";
+    });
+    s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' +
+      rr("poet’s lifetime (CE) → share of attested words with Arabic/European/Turkic transmission",
+         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های شاهدمثال با گذر از عربی/اروپایی/ترکی") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function distChart(hist, medianD) {
+    const W = 740, H = 220, x0 = 40, y0 = H - 34;
+    const maxN = Math.max(...hist.map(h => h.n));
+    const bw = Math.min(30, (W - x0 - 16) / hist.length);
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    hist.forEach((h, i) => {
+      const x = x0 + i * bw, bh = h.n / maxN * (y0 - 16);
+      s += '<rect x="' + x + '" y="' + (y0 - bh) + '" width="' + (bw - 3) + '" height="' + bh +
+        '" rx="2" fill="' + (h.d === medianD ? "var(--gold)" : "var(--accent)") + '" opacity="0.8"/>' +
+        (h.d % 2 === 1 || hist.length < 14 ? '<text class="rc-sub2" x="' + (x + bw / 2) + '" y="' + (y0 + 14) + '" text-anchor="middle">' + fmtNum(h.d) + "</text>" : "");
+    });
+    s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + (x0 + hist.length * bw) + '" y2="' + y0 + '"/>' +
+      '<text class="rc-sub2" x="' + ((x0 + W) / 2) + '" y="' + (H - 4) + '" text-anchor="middle">' +
+      rr("steps between two random words (gold = median)", "گام میان دو واژهٔ تصادفی (طلایی = میانه)") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function simHist(posH, negH) {
+    const W = 740, H = 230, x0 = 46, y0 = H - 40;
+    const pn = posH.reduce((a, b) => a + b, 0), nn = negH.reduce((a, b) => a + b, 0);
+    const p = posH.map(v => v / pn), q = negH.map(v => v / nn);
+    const maxV = Math.max(...p, ...q), bw = (W - x0 - 20) / 10;
+    let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
+    for (let i = 0; i < 10; i++) {
+      const x = x0 + i * bw;
+      const h1 = p[i] / maxV * (y0 - 30), h2 = q[i] / maxV * (y0 - 30);
+      s += '<rect x="' + (x + 2) + '" y="' + (y0 - h1) + '" width="' + (bw / 2 - 4) + '" height="' + Math.max(h1, .5) + '" rx="2" fill="var(--fam-iranian)" opacity="0.85"/>' +
+        '<rect x="' + (x + bw / 2) + '" y="' + (y0 - h2) + '" width="' + (bw / 2 - 4) + '" height="' + Math.max(h2, .5) + '" rx="2" fill="var(--muted)" opacity="0.7"/>' +
+        '<text class="rc-sub2" x="' + (x + bw / 2) + '" y="' + (y0 + 14) + '" text-anchor="middle">' + pct(i / 10, 0) + "</text>";
+    }
+    s += '<line class="rc-axis" x1="' + x0 + '" y1="' + y0 + '" x2="' + (W - 18) + '" y2="' + y0 + '"/>' +
+      '<rect x="' + x0 + '" y="6" width="10" height="10" fill="var(--fam-iranian)"/><text class="rc-sub2" x="' + (x0 + 15) + '" y="15">' + rr("related pairs (share a chart)", "جفت‌های خویشاوند (هم‌نمودار)") + "</text>" +
+      '<rect x="' + (x0 + 220) + '" y="6" width="10" height="10" fill="var(--muted)"/><text class="rc-sub2" x="' + (x0 + 235) + '" y="15">' + rr("unrelated pairs", "جفت‌های بی‌خویشاوندی") + "</text>" +
+      '<text class="rc-sub2" x="' + ((x0 + W) / 2) + '" y="' + (H - 6) + '" text-anchor="middle">' + rr("surface similarity of the two words →", "شباهت ظاهری دو واژه ←") + "</text>";
+    return '<div class="rchart">' + s + "</svg></div>";
+  }
+  function buildResearch() {
+    if (researchBuilt) return; researchBuilt = true;
+    const box = document.getElementById("rpanel");
+    if (!R) { box.innerHTML = '<div class="empty">' + rr("Research data was not built into this preview — run tools/research.py then tools/build_site.py.", "داده‌های پژوهشی در این پیش‌نمایش ساخته نشده است — tools/research.py و سپس tools/build_site.py را اجرا کنید.") + "</div>"; return; }
+    let h = "";
+    /* ---- intro ---- */
+    const rt = R.routes, totalP = R.n_persian_words;
+    h += rsec(
+      rr("Research notes", "یادداشت‌های پژوهشی"),
+      rr("Quantitative studies computed from the book’s charts — every number regenerates from the open data.",
+         "پژوهش‌های کمّی برآمده از نمودارهای کتاب — همهٔ اعداد از دادهٔ باز بازتولید می‌شوند."),
+      "<p>" + rr(
+        "The dictionary’s " + fmtNum(R.n_roots) + " root families and " + fmtNum(totalP) + " modern-Persian words form a structured dataset that supports real quantitative questions: which kinds of meaning get borrowed, how re-borrowed words change shape, what the network of roots looks like, and how the borrowed share of poets’ vocabulary shifts across four centuries. The studies below are computed by an open script (<i>tools/research.py</i> in the repository); each section explains its method and its limits.",
+        "«" + fmtNum(R.n_roots) + "» خانوادهٔ ریشه و «" + fmtNum(totalP) + "» واژهٔ فارسی نو در این فرهنگ، یک دادهٔ ساخت‌یافته می‌سازند که پرسش‌های کمّی واقعی را ممکن می‌کند: چه سنخی از معناها وام گرفته می‌شوند؟ واژه‌های دوباره‌وام‌گرفته چگونه تغییر شکل می‌دهند؟ شبکهٔ ریشه‌ها چه ساختاری دارد؟ و سهم واژه‌های وامی در شاهدمثال‌های شاعران در گذر چهار سده چگونه جابه‌جا می‌شود؟ همهٔ محاسبات با یک اسکریپت باز (<i>tools/research.py</i> در مخزن) انجام شده و هر بخش روش و حدودش را توضیح می‌دهد.") + "</p>" +
+      '<div class="rstats">' +
+        '<div class="rstat"><div class="v">' + fmtNum(totalP) + '</div><div class="l">' + rr("Persian words with a traced ancestry", "واژهٔ فارسی با تبار پی‌گرفته") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + pct(rt.direct / totalP) + '</div><div class="l">' + rr("inherited directly", "به ارث رسیده") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + pct(rt.arabic / totalP) + '</div><div class="l">' + rr("via Arabic & Semitic", "از راه عربی و سامی") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + pct(rt.euro / totalP) + '</div><div class="l">' + rr("via European languages", "از راه زبان‌های اروپایی") + "</div></div>" +
+      "</div>",
+      rr("A word counts as “modern Persian” when its chart node is labeled Persian (not Old or Middle Persian). Its route is read off the ancestor chain drawn in the chart: any Semitic ancestor ⇒ via Arabic; else any European ancestor ⇒ via European; else Turkic; else inherited.",
+         "واژه‌ای «فارسی نو» شمرده می‌شود که گره‌اش در نمودار برچسب Persian داشته باشد (نه باستان و نه میانه). مسیرش از زنجیرهٔ نیاکانِ همان نمودار خوانده می‌شود: نیای سامی ⇒ از راه عربی؛ وگرنه نیای اروپایی ⇒ از راه اروپایی؛ وگرنه ترکی؛ وگرنه موروثی."));
+    /* ---- semantic fields ---- */
+    if (R.domains) {
+      const D = R.domains;
+      h += rsec(
+        rr("What kinds of meaning does Persian borrow?", "فارسی چه سنخ معناهایی را وام می‌گیرد؟"),
+        rr("Borrowed share by semantic field, in the WOLD framework (Haspelmath & Tadmor 2009).",
+           "سهم وام‌واژه‌ها به تفکیک میدان معنایی، در چارچوب WOLD (هاسپلمات و تادمور ۲۰۰۹)."),
+        "<p>" + rr("Loanword typology predicts that “cultural” vocabulary (religion, law, trade) borrows freely while “core” vocabulary (body parts, kinship, spatial words) resists. The book’s data lets us test this for Persian:",
+                   "رده‌شناسی وام‌واژه‌ها پیش‌بینی می‌کند که واژگان «فرهنگی» (دین، قانون، دادوستد) آزادانه وام گرفته می‌شوند و واژگان «هسته‌ای» (اندام‌ها، خویشاوندی، واژه‌های مکانی) مقاومت می‌کنند. دادهٔ کتاب این فرضیه را برای فارسی آزمون‌پذیر می‌کند:") + "</p>" +
+        domChart(D.fields) +
+        '<div class="rfinding">' + rr(
+          "The prediction holds, and the ordering closely tracks WOLD’s cross-linguistic ranking. The modern world (" + pct(D.fields[0].share, 0) + "), religion, food, trade and the house lead; at the other end, function words (" + pct(D.fields[D.fields.length - 1].share, 0) + "), sense perception, animals, spatial relations and kinship resist. Overall, " + pct(D.overall.share) + " of classified Persian words arrived through borrowing (95% CI " + pct(D.overall.lo) + "–" + pct(D.overall.hi) + ").",
+          "پیش‌بینی تأیید می‌شود و ترتیب میدان‌ها با رتبه‌بندی بین‌زبانی WOLD هم‌خوان است. جهان مدرن (" + pct(D.fields[0].share, 0) + ")، دین، خوراک، دادوستد و خانه در صدرند؛ در سوی دیگر، واژه‌های دستوری (" + pct(D.fields[D.fields.length - 1].share, 0) + ")، ادراک حسی، جانوران، روابط مکانی و خویشاوندی مقاومت می‌کنند. روی‌هم‌رفته " + pct(D.overall.share) + " از واژه‌های طبقه‌بندی‌شده از راه وام‌گیری آمده‌اند (بازهٔ اطمینان ۹۵٪: " + pct(D.overall.lo) + " تا " + pct(D.overall.hi) + ").") + "</div>",
+        rr("Each Persian word’s English gloss was assigned to one of WOLD’s 24 semantic fields by two independent LLM annotation passes over identical instructions; only glosses where both passes <b>agreed</b> (" + pct(D.agreement) + " of glosses) are counted — " + fmtNum(D.used) + " words used, " + fmtNum(D.skipped) + " excluded. Bars show the share of each field’s words that arrived via Arabic, European or Turkic transmission; whiskers are 95% Wilson intervals; fields with fewer than 15 classified words are hidden. Caveat: the book documents shared roots rather than a balanced word list, so fields are samples of Nourai’s coverage, not of the whole lexicon.",
+           "برچسب هر واژه از روی معنی انگلیسی‌اش در دو گذر مستقلِ حاشیه‌نویسی با مدل زبانی و دستورالعمل یکسان به یکی از ۲۴ میدان معنایی WOLD داده شد؛ تنها معناهایی که دو گذر بر آن‌ها <b>هم‌رأی</b> بودند (" + pct(D.agreement) + ") شمارش شده‌اند — " + fmtNum(D.used) + " واژه به کار رفته و " + fmtNum(D.skipped) + " واژه کنار گذاشته شده است. طول هر میله سهم واژه‌های وامی (عربی/اروپایی/ترکی) در آن میدان است؛ خط‌ها بازهٔ اطمینان ۹۵٪ ویلسون‌اند؛ میدان‌های با کمتر از ۱۵ واژه پنهان‌اند. هشدار: کتاب ریشه‌های مشترک را ثبت می‌کند نه فهرست متوازنی از واژگان؛ پس میدان‌ها نمونه‌ای از پوشش نورایی‌اند نه از کل واژگان فارسی."));
+    }
+    /* ---- doublets ---- */
+    const D2 = R.doublets;
+    const crules = D2.rules.filter(x => !x.vowel && x.n >= 3);
+    let rulesTbl = '<div class="rtable"><table><tr><th>' + rr("Inherited sound", "آوای موروثی") + "</th><th>" + rr("Borrowed shape", "شکل وامی") + "</th><th>n</th><th>" + rr("Examples", "نمونه‌ها") + "</th></tr>";
+    crules.forEach(x => {
+      rulesTbl += "<tr><td><b>" + esc(x.a) + "</b></td><td><b>" + esc(x.b) + "</b></td><td>" + fmtNum(x.n) + "</td><td>" +
+        x.ex.map(e => esc(e[0]) + " → " + esc(e[1])).join(" · ") + "</td></tr>";
+    });
+    rulesTbl += "</table></div>";
+    let dblTbl = '<div class="rtable"><table><tr><th>' + rr("Root", "ریشه") + "</th><th>" + rr("Inherited form", "شکل موروثی") + "</th><th>" + rr("Re-borrowed form", "شکل دوباره‌وام‌گرفته") + "</th><th>" + rr("Meaning", "معنا") + "</th></tr>";
+    D2.examples.slice(0, 10).forEach(e => {
+      dblTbl += "<tr><td>" + rootChip(e.root) + "</td><td><b>" + linkLat(e.inh) + "</b>" + (e.inh_s ? ' <span class="fa-cell">' + linkFa(e.inh_s) + "</span>" : "") +
+        "</td><td><b>" + linkLat(e.bor) + "</b>" + (e.bor_s ? ' <span class="fa-cell">' + linkFa(e.bor_s) + "</span>" : "") + "</td><td>" + esc(tData(e.g)) + "</td></tr>";
+    });
+    dblTbl += "</table></div>";
+    h += rsec(
+      rr("Doublets: the same root, twice", "واژه‌های دوگانه: یک ریشه، دو بار"),
+      rr("When Persian keeps its inherited word and re-borrows the same root through Arabic, the two shapes encode Arabic’s sound system.",
+         "وقتی فارسی هم واژهٔ موروثی‌اش را نگه می‌دارد و هم همان ریشه را از راه عربی دوباره وام می‌گیرد، تفاوت دو شکل، دستگاه آوایی عربی را ثبت می‌کند."),
+      "<p>" + rr("The charts contain " + fmtNum(D2.n_pairs) + " such pairs across " + fmtNum(D2.n_roots) + " roots. Because Arabic lacks the sounds <b>p، چ/č، گ/g، ژ/ž</b>, words that passed through it come back systematically reshaped — and the substitutions emerge from the data by themselves:",
+                 "نمودارها " + fmtNum(D2.n_pairs) + " جفتِ این‌چنینی از " + fmtNum(D2.n_roots) + " ریشه دارند. چون عربی آواهای <b>پ، چ، گ، ژ</b> را ندارد، واژه‌هایی که از آن گذشته‌اند به‌طور نظام‌مند تغییرشکل‌یافته بازمی‌گردند — و این جایگزینی‌ها خودبه‌خود از داده بیرون می‌آیند:") + "</p>" +
+      rulesTbl + dblTbl,
+      rr("Within each root, every Arabic-route Persian word is matched to its most similar inherited sibling (normalized edit similarity ≥ 0.5, length ≥ 3); matched pairs are character-aligned with Needleman–Wunsch and aligned mismatches are counted. Vowel–vowel substitutions are excluded above (transliteration noise); rules shown occur ≥ 3 times. The g→j, p→f, k→q pattern matches the known phonology of Arabic mediation — recovered here purely from the book’s charts.",
+         "درون هر ریشه، هر واژهٔ فارسیِ گذشته از عربی با شبیه‌ترین همتای موروثی‌اش جفت می‌شود (شباهت ویرایشیِ نرمال ≥ ۰٫۵، طول ≥ ۳)؛ جفت‌ها با الگوریتم نیدلمن–وونش حرف‌به‌حرف تراز و ناهمخوانی‌های تراز شمارش می‌شوند. جایگزینی مصوت‌ها (نوفهٔ نویسه‌گردانی) کنار گذاشته شده و قاعده‌های نمایش‌داده ≥ ۳ بار رخ داده‌اند. الگوی g→j و p→f و k→q با واج‌شناسی شناخته‌شدهٔ میانجی‌گری عربی می‌خواند — و اینجا صرفاً از خود نمودارها بازیافته شده است."));
+    /* ---- round trips ---- */
+    const RT = R.roundtrips;
+    let rtList = '<div class="rtable"><table><tr><th>' + rr("Word", "واژه") + "</th><th>" + rr("Itinerary", "مسیر سفر") + "</th></tr>";
+    RT.examples.slice(0, 10).forEach(e => {
+      const via = e.via.split(" → ").map(x => esc(tLang(x))).join(" → ");
+      rtList += '<tr><td><b>' + linkLat(e.word) + "</b>" + (e.script ? ' <span class="fa-cell">' + linkFa(e.script) + "</span>" : "") +
+        "</td><td>" + esc(tLang("Persian")) + " → " + via + " → " + esc(tLang("Persian")) + "</td></tr>";
+    });
+    rtList += "</table></div>";
+    h += rsec(
+      rr("Round-trip words", "واژه‌های رفت‌وبرگشتی"),
+      rr(fmtNum(RT.n_words) + " Persian words left home, changed shape abroad, and came back.",
+         fmtNum(RT.n_words) + " واژهٔ فارسی از خانه رفتند، در غربت تغییر شکل دادند و بازگشتند."),
+      rtList,
+      rr("A round trip is a chart chain in which a modern-Persian word’s own ancestors include an earlier modern-Persian stage with at least one foreign language in between. Itineraries are read directly off the chart arrows; duplicates of the same word are merged.",
+         "رفت‌وبرگشت یعنی زنجیرهٔ نموداری که در نیاکانِ یک واژهٔ فارسی نو، یک مرحلهٔ فارسی نوِ پیشین با دست‌کم یک زبان بیگانه در میانه دیده شود. مسیرها مستقیم از پیکان‌های نمودار خوانده می‌شوند و تکرارهای یک واژه ادغام شده‌اند."));
+    /* ---- poets ---- */
+    if (R.poets && R.poets.length) {
+      let ptbl = '<div class="rtable"><table><tr><th>' + rr("Poet", "شاعر") + "</th><th>" + rr("Era", "دوره") + "</th><th>" + rr("Attested words", "واژه‌های شاهدمثال") + "</th><th>" + rr("Borrowed share", "سهم وامی") + "</th></tr>";
+      R.poets.forEach(p => {
+        ptbl += '<tr><td class="fa-cell">' + esc(p.fa) + "</td><td>" + esc(p.era) + "</td><td>" + fmtNum(p.n) + "</td><td>" +
+          pct(p.share) + " <span style='color:var(--muted)'>(" + pct(p.lo, 0) + "–" + pct(p.hi, 0) + ")</span></td></tr>";
+      });
+      ptbl += "</table></div>";
+      h += rsec(
+        rr("The purism gradient: poets across four centuries", "شیب سره‌گرایی: شاعران در گذر چهار سده"),
+        rr("The book quotes classical verse to attest words. Whose words are inherited — and whose came through Arabic?",
+           "کتاب برای گواهیِ واژه‌ها شعر کهن نقل می‌کند. واژه‌های کدام شاعر موروثی‌اند — و کدام از راه عربی آمده‌اند؟"),
+        poetChart(R.poets) + ptbl +
+        '<div class="rfinding">' + rr(
+          "The gradient is unmistakable: words attested by Rŭdakî and Ferdowsî (10th c.) are almost entirely inherited, while words attested by Rumi and Hâfez (13th–14th c.) are borrowed about four times as often. This is the classic narrative of the Shâhnâmeh’s purism — visible in numbers.",
+          "شیب آشکار است: واژه‌هایی که رودکی و فردوسی (سدهٔ چهارم هجری) گواهی می‌کنند تقریباً یکسره موروثی‌اند، حال‌آنکه واژه‌های مولوی و حافظ (سده‌های هفتم و هشتم) نزدیک به چهار برابر بیشتر وامی‌اند. این همان روایت مشهور سره‌گراییِ شاهنامه است — این بار در قالب عدد.") + "</div>",
+        rr("For each of the " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " verse citations attached to a modern-Persian word, the word’s route is read from its chart chain; per poet (≥ 10 citations) the share with non-Iranian transmission is computed with a 95% Wilson interval. <b>Selection caveat:</b> Nourai chose which words to attest with verse, so these are shares of his citations, not of each poet’s full corpus — a corpus study (e.g. against Ganjoor) would be the natural next step.",
+           "برای هر یک از " + fmtNum(R.poets.reduce((s, p) => s + p.n, 0)) + " شاهدمثالِ چسبیده به واژه‌ای فارسی نو، مسیر واژه از زنجیرهٔ نمودارش خوانده شده و برای هر شاعر (≥ ۱۰ شاهد) سهم واژه‌های با گذرِ غیرایرانی همراه با بازهٔ ۹۵٪ ویلسون محاسبه شده است. <b>هشدار گزینش:</b> انتخاب اینکه کدام واژه با شعر گواهی شود با نورایی بوده؛ پس این سهم‌ها از شاهدهای اوست، نه از کل دیوان هر شاعر — سنجش پیکره‌ای (مثلاً با گنجور) گام بعدی طبیعی است."));
+    }
+    /* ---- network ---- */
+    const N = R.network;
+    const iesem = (N.fam_pairs.find(x => (x.a === "ie" && x.b === "semitic") || (x.a === "semitic" && x.b === "ie")) || {}).n || 0;
+    let hubsTbl = '<div class="rtable"><table><tr><th>' + rr("Hub root (most ☞ links)", "ریشهٔ کانونی (بیشترین ☞)") + "</th><th>" + rr("Family", "تبار") + "</th><th>" + rr("Links", "پیوند") + "</th></tr>";
+    N.hubs.slice(0, 6).forEach(x => { hubsTbl += "<tr><td>" + rootChip(x.root) + "</td><td>" + esc(famLbl(x.fam)) + "</td><td>" + fmtNum(x.deg) + "</td></tr>"; });
+    hubsTbl += "</table></div>";
+    h += rsec(
+      rr("The shape of the etymological network", "ریخت شبکهٔ ریشه‌شناختی"),
+      rr("Roots as nodes, the book’s ☞ cross-references as edges.", "ریشه‌ها گره‌اند و ارجاع‌های ☞ کتاب، یال."),
+      '<div class="rstats">' +
+        '<div class="rstat"><div class="v">' + fmtNum(N.nodes) + '</div><div class="l">' + rr("roots", "ریشه") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + fmtNum(N.edges) + '</div><div class="l">' + rr("☞ links", "پیوند ☞") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + fmtNum(N.giant) + '</div><div class="l">' + rr("roots in the giant component", "ریشه در مؤلفهٔ غول‌پیکر") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + fmtNum(N.isolates) + '</div><div class="l">' + rr("isolated roots", "ریشهٔ تک‌افتاده") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + fmtNum(N.max_deg) + '</div><div class="l">' + rr("links of the top hub", "پیوندهای کانون اول") + "</div></div>" +
+        '<div class="rstat"><div class="v">' + (isFa() ? fmtNum(N.assortativity) : N.assortativity) + '</div><div class="l">' + rr("family assortativity", "هم‌گروه‌گرایی تباری") + "</div></div>" +
+      "</div>" + hubsTbl +
+      '<div class="rfinding">' + rr(
+        "The network is a hub-and-spoke system, not a mesh: " + pct(N.isolates / N.nodes, 0) + " of roots have no cross-references at all, while a handful of grammatical-core roots (" + esc(N.hubs[0].root) + ", " + esc(N.hubs[1].root) + "…) hold the giant component together. Mixing between families is strongly assortative (r = " + N.assortativity + "): only " + fmtNum(iesem) + " edges bridge the Indo-European and Semitic clusters — the seam along which the two lexicons touch.",
+        "شبکه چرخ‌وپره‌ای است، نه تور: " + pct(N.isolates / N.nodes, 0) + " از ریشه‌ها هیچ ارجاعی ندارند و تنها مشتی ریشهٔ هسته‌ای (" + esc(N.hubs[0].root) + "، " + esc(N.hubs[1].root) + "…) مؤلفهٔ غول‌پیکر را سرپا نگه می‌دارند. آمیزش تبارها به‌شدت هم‌گروه‌گراست (r = " + fmtNum(N.assortativity) + "): فقط " + fmtNum(iesem) + " یال خوشهٔ هندواروپایی و سامی را به هم می‌دوزد — درزی که دو واژگان در آن به هم می‌رسند.") + "</div>",
+      rr("Edges are the deduplicated ☞ margin references between root charts (an editorial link, usually a shared compound element — not a claim of common descent). Metrics: components and degrees by direct computation, average clustering over nodes with degree ≥ 2 (" + N.clustering + "), Newman categorical assortativity over origin families, hubs by degree, computed with exact Brandes betweenness on the giant component.",
+         "یال‌ها ارجاع‌های ☞ حاشیهٔ کتاب میان نمودارهای ریشه‌اند (پیوندی ویراستارانه، اغلب جزء مشترک واژه‌ای مرکب — نه ادعای هم‌تباری). سنجه‌ها: مؤلفه‌ها و درجه‌ها با محاسبهٔ مستقیم، میانگین ضریب خوشه‌بندی روی گره‌های درجه ≥ ۲ (" + fmtNum(N.clustering) + ")، هم‌گروه‌گرایی رسته‌ایِ نیومن روی تبارها، و کانون‌ها بر پایهٔ درجه، با بینابینیِ دقیق برندیز روی مؤلفهٔ غول‌پیکر."));
+    /* ---- six degrees ---- */
+    const S = R.sixdeg;
+    h += rsec(
+      rr("Nine degrees of etymology", "نُه درجهٔ ریشه‌شناسی"),
+      rr("How many steps separate two random words of the dictionary?", "دو واژهٔ تصادفیِ فرهنگ چند گام از هم دورند؟"),
+      distChart(S.hist, S.median) +
+      '<div class="rfinding">' + rr(
+        "Within the connected half of the dictionary (" + pct(S.giant_frac, 0) + " of word nodes), the median separation is <b>" + fmtNum(S.median) + " steps</b> and the farthest observed pair is " + fmtNum(S.diameter_lb) + " apart — a “small world”, but one that runs through root cards and ☞ seams rather than the six handshakes of social networks.",
+        "در نیمهٔ به‌هم‌پیوستهٔ فرهنگ (" + pct(S.giant_frac, 0) + " از گره‌های واژه‌دار)، فاصلهٔ میانه <b>" + fmtNum(S.median) + " گام</b> است و دورترین جفتِ دیده‌شده " + fmtNum(S.diameter_lb) + " گام — «جهانی کوچک»، اما جهانی که راه‌هایش از کارت ریشه‌ها و درزهای ☞ می‌گذرد، نه از شش دست‌دادنِ شبکه‌های اجتماعی.") + "</div>",
+      rr("The graph joins every chart box to its parent (a derivation edge) and each ☞ reference to its target root. Distances are breadth-first steps between word-bearing boxes, sampled over " + fmtNum(S.sampled_pairs) + " random pairs (400 sources × 120 targets) inside the giant component; the maximum shown is a lower bound on the true diameter.",
+         "در این گراف هر کادر نمودار به والدش (یال اشتقاق) و هر ☞ به ریشهٔ مقصدش وصل است. فاصله‌ها گام‌های جست‌وجوی سطح‌اول میان کادرهای واژه‌دارند، نمونه‌گیری‌شده روی " + fmtNum(S.sampled_pairs) + " جفت تصادفی (۴۰۰ مبدأ × ۱۲۰ مقصد) درون مؤلفهٔ غول‌پیکر؛ بیشینهٔ نمایش‌داده کرانِ پایینِ قطر واقعی است."));
+    /* ---- similarity vs cognacy ---- */
+    const C = R.simcog;
+    let ffTbl = '<div class="rtable"><table><tr><th>' + rr("Persian", "فارسی") + "</th><th>" + rr("English", "انگلیسی") + "</th><th>" + rr("Persian meaning", "معنای واژهٔ فارسی") + "</th></tr>";
+    C.false_friends.slice(0, 8).forEach(f => {
+      ffTbl += '<tr><td><b>' + linkLat(f.per) + "</b>" + (f.per_s ? ' <span class="fa-cell">' + linkFa(f.per_s) + "</span>" : "") +
+        "</td><td><b>" + linkLat(f.eng) + "</b></td><td>" + esc(tData(f.pg) || "—") + "</td></tr>";
+    });
+    ffTbl += "</table></div>";
+    let hidTbl = '<div class="rtable"><table><tr><th>' + rr("Persian", "فارسی") + "</th><th>" + rr("English relative", "خویشاوند انگلیسی") + "</th><th>" + rr("Shared root", "ریشهٔ مشترک") + "</th><th>" + rr("Meaning", "معنا") + "</th></tr>";
+    C.hidden.slice(0, 8).forEach(x => {
+      hidTbl += '<tr><td><b>' + linkLat(x.per) + "</b>" + (x.per_s ? ' <span class="fa-cell">' + linkFa(x.per_s) + "</span>" : "") +
+        "</td><td><b>" + linkLat(x.eng) + "</b></td><td>" + rootChip(x.root) + "</td><td>" + esc(tData(x.g)) + "</td></tr>";
+    });
+    hidTbl += "</table></div>";
+    h += rsec(
+      rr("Looks are deceiving: similarity vs. shared origin", "ظاهر فریب می‌دهد: شباهت در برابر هم‌تباری"),
+      rr("Can you guess relatedness from how two words look? Mostly, no.", "می‌شود خویشاوندی را از ظاهر دو واژه حدس زد؟ بیشترِ وقت‌ها نه."),
+      simHist(C.pos_hist, C.neg_hist) +
+      '<div class="rfinding">' + rr(
+        "String similarity is a weak predictor of the book’s relatedness judgments: AUC = <b>" + C.auc + "</b> over " + fmtNum(C.n_pos) + " related and " + fmtNum(C.n_neg) + " unrelated pairs (0.5 = chance, 1.0 = perfect). Millennia of sound change erase the surface signal both ways.",
+        "شباهت نویسه‌ای پیش‌بین ضعیفی برای داوری‌های خویشاوندی کتاب است: AUC = <b>" + fmtNum(C.auc) + "</b> روی " + fmtNum(C.n_pos) + " جفت خویشاوند و " + fmtNum(C.n_neg) + " جفت بی‌خویشاوندی (۰٫۵ = شانس، ۱٫۰ = کامل). هزاره‌ها دگرگونیِ آوایی، نشانهٔ سطحی را از هر دو سو پاک کرده‌اند.") + "</div>" +
+      "<p><b>" + rr("False friends — near-identical, unrelated", "دوستان دروغین — تقریباً یکسان، اما بی‌خویشاوندی") + "</b> " +
+      rr("(" + fmtNum(C.n_false_friends) + " found by exhaustive search):", "(" + fmtNum(C.n_false_friends) + " مورد با جست‌وجوی فراگیر):") + "</p>" + ffTbl +
+      "<p><b>" + rr("Hidden cognates — unrecognizable, yet charted as kin", "خویشاوندان پنهان — ناشناختنی، اما در نمودارها هم‌تبار") + "</b></p>" + hidTbl,
+      rr("Words are folded to bare Latin letters; similarity is normalized Levenshtein. “Related” = the two words stand in the same chart; AUC is the Mann–Whitney statistic. The false-friend search compares every Persian word (inherited or Arabic-route only — European loans are excluded, since a Persian word borrowed <i>from</i> English is not a false friend) against every English word within one edit, excluding proper nouns and any pair whose roots are within two ☞ hops. Hidden cognates are same-chart pairs of minimal similarity, Persian side restricted to inherited vocabulary. “Relatedness” here is Nourai’s judgment, which includes loan chains as well as strict cognacy.",
+         "واژه‌ها به حروف سادهٔ لاتین فروکاسته می‌شوند و شباهت، لوِنشتاینِ نرمال است. «خویشاوند» یعنی هر دو واژه در یک نمودار باشند؛ AUC همان آمارهٔ من–ویتنی است. جست‌وجوی دوستان دروغین هر واژهٔ فارسی (فقط موروثی یا عربی‌گذر — وام‌های اروپایی حذف‌اند، چون واژه‌ای که فارسی <i>از</i> انگلیسی گرفته دوست دروغین نیست) را با هر واژهٔ انگلیسی در فاصلهٔ یک ویرایش می‌سنجد؛ اسم‌های خاص و جفت‌هایی که ریشه‌هایشان تا دو گامِ ☞ به هم می‌رسند حذف می‌شوند. خویشاوندان پنهان جفت‌های هم‌نمودار با کمترین شباهت‌اند و سوی فارسی به واژگان موروثی محدود است. «خویشاوندی» در اینجا داوری نورایی است که هم وام‌گیری زنجیره‌ای را دربر می‌گیرد هم هم‌تباری سخت‌گیرانه را."));
+    /* ---- limitations ---- */
+    h += rsec(
+      rr("Limitations & further work", "محدودیت‌ها و کارهای آینده"),
+      rr("What these numbers can and cannot say.", "این اعداد چه می‌گویند و چه نمی‌گویند."),
+      "<p>" + rr(
+        "All results describe <b>one scholar’s dictionary, digitized</b> — not the Persian lexicon at large. Nourai selected which roots and words to chart; some individual etymologies are contested, and folk-etymology risk is real in this genre. The charts carry no dates, so “routes” are structural, not chronological. The extraction itself was done by vision models from a scan (a small transcription-error floor remains), the Persian translations and the semantic-field labels were produced by LLM annotators (the latter double-annotated, with only agreements used), and ☞ links mix “shared element” with “see also”. Natural next steps: validating chains against Wiktionary/OED-style sources, attaching first-attestation dates, and testing the poet gradient against full corpora such as Ganjoor.",
+        "همهٔ نتیجه‌ها توصیفِ <b>فرهنگِ یک پژوهشگر در قالب دیجیتال</b> است — نه کل واژگان فارسی. گزینش ریشه‌ها و واژه‌ها با نورایی بوده؛ برخی ریشه‌شناسی‌ها محل بحث‌اند و خطر ریشه‌تراشی عامیانه در این ژانر واقعی است. نمودارها تاریخ ندارند، پس «مسیرها» ساختاری‌اند نه گاه‌شمارانه. استخراج متن را مدل‌های بینایی از روی اسکن انجام داده‌اند (کفِ کوچکی از خطای نویسه‌گردانی می‌ماند)، ترجمه‌های فارسی و برچسب‌های میدان معنایی کارِ حاشیه‌نویس‌های مدل زبانی‌اند (دومی با حاشیه‌نویسیِ دوگانه و فقط موارد هم‌رأی)، و پیوندهای ☞ «جزء مشترک» و «نیز ببینید» را در هم می‌آمیزند. گام‌های طبیعی بعدی: سنجش زنجیره‌ها با منابعی چون ویکی‌واژه و OED، افزودن تاریخ نخستین گواهی، و آزمون شیب سره‌گرایی روی پیکره‌های کامل مانند گنجور.") + "</p>",
+      "");
+    box.innerHTML = h;
+  }
+  document.getElementById("rpanel").addEventListener("click", ev => {
+    const b = ev.target.closest(".seechip[data-goto]");
+    if (!b) return;
+    const t2 = findRoot(b.dataset.goto);
+    if (t2 >= 0) { $q.value = ""; renderList(""); show(t2); }
+  });
+  onShowView.research = buildResearch;
+
   /* ---------------- theme + frieze ---------------- */
   const $theme = document.getElementById("theme");
   let themePref = "";
@@ -2049,7 +2599,7 @@ window.ETYM_FA = /*__I18N__*/{};
     const can = document.querySelector('link[rel="canonical"]');
     if (can) can.setAttribute("href", "https://sfmqrb.github.io/rishe/" + (fa ? "?lang=fa" : ""));
     document.querySelector(".tagline").textContent = t("tagline");
-    const tabT = { map: "tabMap", roots: "tabRoots", path: "tabPath", flows: "tabFlows", journey: "tabJourney", about: "tabAbout" };
+    const tabT = { map: "tabMap", roots: "tabRoots", path: "tabPath", flows: "tabFlows", journey: "tabJourney", research: "tabResearch", about: "tabAbout" };
     tabs.forEach(b => { b.textContent = t(tabT[b.dataset.v]); });
     document.getElementById("rand").textContent = t("randRoot");
     $theme.title = t("themeTitle");
@@ -2096,6 +2646,8 @@ window.ETYM_FA = /*__I18N__*/{};
     if (activeEi >= 0 && !$main.querySelector(".empty")) show(activeEi, undefined, true);
     flowsBuilt = false;
     if (curView === "flows") buildFlows();
+    researchBuilt = false;
+    if (curView === "research") buildResearch();
     if (pA && pB) runPath();
     if (jItem) { if (curView === "journey") runJourney(); else jDirty = true; }
     applyTheme();

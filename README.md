@@ -34,6 +34,13 @@ its hand-drawn derivation charts into structured data and a website.
   (492 roots shared by Persian and English, and counting).
 - **Journey** — an animated old-map of a word's family fanning out across
   lands and centuries, your word's own road drawn in gold.
+- **Research** — quantitative studies computed from the charts, with methods
+  stated on the page: borrowing rates by WOLD semantic field (double-annotated),
+  the sound laws of Arabic-mediated re-borrowing recovered from doublets,
+  round-trip words, the poets' purism gradient (Rŭdakî → Hâfez), the topology
+  of the ☞ cross-reference network, "nine degrees of etymology", and how badly
+  surface similarity predicts real relatedness (false friends included).
+  All numbers regenerate via `tools/research.py`.
 
 The site is a single self-contained HTML file — no backend, no build framework,
 no external libraries. It works offline.
@@ -63,7 +70,9 @@ scan itself).
 data/EXTRACTION_SPEC.md      # the schema & rules the extraction agents followed
 data/extracted/batch/        # one JSON per book page — the structured dictionary
 data/translations/fa.json    # Persian translations of the glosses & notes
+data/research/               # research analyses (research.json) + semantic-field labels
 data/ANOMALIES.md            # source-scan defects
+tools/research.py            # computes every number on the Research tab
 site/template.html           # the whole app (HTML+CSS+JS, data injected at build)
 site/pages/                  # compressed scans of every chart page
 tools/build_site.py          # data + template → site/risheh.html
