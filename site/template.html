@@ -387,7 +387,9 @@
   .jhead .pick { max-width: 340px; }
   #jmapwrap { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 8px; overflow-x: auto; }
   #jmap { display: block; width: 100%; height: auto; }
-  .j-land { fill: color-mix(in srgb, var(--ink) 7%, var(--panel)); stroke: color-mix(in srgb, var(--ink) 22%, var(--panel)); stroke-width: 1.4; stroke-linejoin: round; }
+  .j-land { fill: color-mix(in srgb, var(--ink) 7%, var(--panel)); stroke: color-mix(in srgb, var(--ink) 22%, var(--panel)); stroke-width: 1.1; stroke-linejoin: round; }
+  .j-lake { fill: var(--panel); stroke: color-mix(in srgb, var(--ink) 18%, var(--panel)); stroke-width: 0.8; }
+  .j-grid { stroke: color-mix(in srgb, var(--ink) 8%, transparent); stroke-width: 0.6; stroke-dasharray: 1 5; }
   .j-sea { fill: none; }
   .j-route { fill: none; stroke: var(--gold-soft); stroke-width: 1.8; stroke-linecap: round; opacity: .55; }
   .j-route.main { stroke: var(--gold); stroke-width: 3.2; opacity: 1; }
@@ -855,7 +857,8 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     "Gothia": "سرزمین گوت‌ها", "Rus": "روس", "Slavic lands": "سرزمین‌های اسلاوی",
     "Poland": "لهستان", "Baltics": "بالتیک", "Bohemia": "بوهم", "Anatolia": "آناتولی",
     "Turkic Steppe": "دشت ترکان", "Altai": "آلتای", "Mongolia": "مغولستان", "Tatary": "تاتارستان",
-    "China": "چین", "Armenia": "ارمنستان", "Gaul": "گُل", "Ireland": "ایرلند", "Wales": "ولز"
+    "China": "چین", "Armenia": "ارمنستان", "Gaul": "گُل", "Ireland": "ایرلند", "Wales": "ولز",
+    "Khorasan": "خراسان", "Balkans": "بالکان"
   };
   function tPlace(p) { return (isFa() && PLACEFA[p]) || p; }
   function fmtNum(n) { return n.toLocaleString(isFa() ? "fa-IR" : "en"); }
@@ -2128,56 +2131,68 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
   onShowView.flows = buildFlows;
 
   /* ---------------- JOURNEY ---------------- */
+  /* Stations hold real coordinates [lon, lat, era, place-label]; they are
+     projected onto the map at runtime. Anchors are historical: Persepolis for
+     Old Persian, Balkh for Avestan, Samarkand for Sogdian, Babylon for
+     Akkadian, Nishapur (Khorasan) for the rise of New Persian, Ohrid for
+     Church Slavonic, Constantinople for Ottoman Turkish, Kazan for Tatar. */
+  const JLON0 = -12, JLON1 = 106, JLAT0 = 5, JLAT1 = 66;
+  const jPX = lon => (lon - JLON0) / (JLON1 - JLON0) * 1000;
+  const jPY = lat => (JLAT1 - lat) / (JLAT1 - JLAT0) * 560;
   const STATIONS = {
-    "indo-european": [560, 140, -4500, "Pontic Steppe"],
-    "sanskrit": [745, 300, -1200, "India"], "pali": [745, 305, -300, "India"], "prakrit": [745, 305, -300, "India"],
-    "hindustani": [740, 295, 1500, "India"], "hindi": [740, 295, 1600, "India"], "urdu": [735, 290, 1600, "India"],
-    "avestan": [668, 232, -1000, "Bactria"],
-    "old persian": [640, 300, -500, "Persis"],
-    "pahlavi": [604, 282, 300, "Iran"], "middle persian": [604, 282, 300, "Iran"],
-    "persian": [626, 268, 1000, "Iran"],
-    "parthian": [640, 258, -100, "Parthia"], "old iranian": [648, 250, -800, "Iran"], "iranian": [648, 250, -800, "Iran"],
-    "indo-scythian": [690, 210, -200, "Scythia"], "indo-schythian": [690, 210, -200, "Scythia"],
-    "sogdian": [692, 198, 500, "Sogdiana"], "khotanese": [740, 230, 500, "Khotan"],
-    "kurdish": [560, 255, 1400, "Kurdistan"], "baluchi": [670, 310, 1400, "Balochistan"],
-    "semitic": [528, 318, -3000, "Near East"], "akkadian": [552, 298, -2000, "Mesopotamia"],
-    "aramaic": [482, 295, -700, "Levant"], "syriac": [500, 285, 200, "Levant"],
-    "hebrew": [462, 308, -1000, "Judea"], "phoenician": [465, 298, -1000, "Phoenicia"],
-    "arabic": [520, 378, 650, "Arabia"], "egyptian": [440, 392, -2000, "Egypt"], "sumerian": [555, 305, -3000, "Sumer"],
-    "greek": [332, 288, -700, "Greece"], "latin": [287, 318, -100, "Rome"],
-    "medieval latin": [287, 318, 900, "Rome"], "middle latin": [287, 318, 900, "Rome"],
-    "late latin": [287, 318, 400, "Rome"], "vulgar latin": [287, 318, 400, "Rome"], "new latin": [287, 318, 1600, "Rome"],
-    "old french": [217, 253, 1100, "France"], "french": [222, 250, 1650, "France"],
-    "norman french": [200, 230, 1100, "Normandy"], "anglo-french": [190, 205, 1200, "England"],
-    "provençal": [230, 285, 1200, "Provence"], "provencal": [230, 285, 1200, "Provence"],
-    "spanish": [140, 318, 1250, "Iberia"], "portuguese": [108, 325, 1300, "Iberia"], "italian": [282, 330, 1300, "Italy"],
-    "germanic": [272, 208, -300, "Germania"], "german": [277, 203, 1500, "Germany"],
-    "old high german": [277, 208, 900, "Germany"], "middle high german": [277, 208, 1200, "Germany"],
-    "middle low german": [262, 198, 1300, "Germany"], "middle german": [272, 205, 1200, "Germany"],
-    "dutch": [228, 213, 1500, "Low Countries"], "middle dutch": [228, 213, 1300, "Low Countries"], "frankish": [235, 225, 600, "Francia"],
-    "old english": [176, 184, 900, "Britain"], "middle english": [174, 183, 1300, "Britain"], "english": [172, 182, 1600, "England"],
-    "old norse": [282, 118, 950, "Scandinavia"], "norwegian": [270, 110, 1500, "Norway"], "swedish": [300, 115, 1500, "Sweden"], "danish": [258, 165, 1500, "Denmark"], "gothic": [340, 200, 300, "Gothia"],
-    "russian": [520, 138, 1300, "Rus"], "old russian": [505, 145, 1100, "Rus"], "slavic": [420, 195, 700, "Slavic lands"], "old slavic": [420, 195, 700, "Slavic lands"], "church slavonic": [430, 200, 900, "Slavic lands"], "polish": [370, 175, 1300, "Poland"], "lithuanian": [365, 155, 1300, "Baltics"], "czech": [330, 195, 1300, "Bohemia"],
-    "turkish": [432, 252, 1300, "Anatolia"], "ottoman turkish": [432, 252, 1500, "Anatolia"],
-    "turkic": [700, 148, 800, "Turkic Steppe"], "altaic": [755, 140, -500, "Altai"],
-    "mongolian": [782, 148, 1250, "Mongolia"], "tatar": [600, 150, 1300, "Tatary"],
-    "chinese": [878, 222, -500, "China"], "armenian": [502, 248, 400, "Armenia"], "hittite": [445, 240, -1600, "Anatolia"],
-    "celtic": [200, 215, -300, "Gaul"], "irish": [140, 165, 800, "Ireland"], "welsh": [155, 190, 800, "Wales"]
+    "indo-european": [44, 48.5, -4500, "Pontic Steppe"],
+    "sanskrit": [77.5, 28, -1200, "India"], "pali": [82.5, 25.5, -300, "India"], "prakrit": [80, 25, -300, "India"],
+    "hindustani": [77.2, 28.6, 1500, "India"], "hindi": [78, 28.2, 1600, "India"], "urdu": [76.8, 29, 1600, "India"],
+    "avestan": [66.9, 36.8, -1000, "Bactria"],
+    "old persian": [52.9, 29.9, -500, "Persis"],
+    "pahlavi": [52.5, 30.5, 300, "Iran"], "middle persian": [52.5, 30.5, 300, "Iran"],
+    "persian": [58.8, 36.2, 1000, "Khorasan"],
+    "parthian": [58.4, 37.9, -100, "Parthia"], "old iranian": [57, 33, -800, "Iran"], "iranian": [57, 33, -800, "Iran"],
+    "indo-scythian": [68, 43, -200, "Scythia"], "indo-schythian": [68, 43, -200, "Scythia"],
+    "sogdian": [66.9, 39.6, 500, "Sogdiana"], "khotanese": [79.9, 37.1, 500, "Khotan"],
+    "kurdish": [44.5, 37, 1400, "Kurdistan"], "baluchi": [65, 27.5, 1400, "Balochistan"],
+    "semitic": [41, 34.5, -3000, "Near East"], "akkadian": [44.4, 32.5, -2000, "Mesopotamia"],
+    "aramaic": [36.3, 33.5, -700, "Levant"], "syriac": [38.8, 37.2, 200, "Levant"],
+    "hebrew": [35.2, 31.8, -1000, "Judea"], "phoenician": [35.2, 33.3, -1000, "Phoenicia"],
+    "arabic": [39.8, 21.4, 650, "Arabia"], "egyptian": [31.2, 29.9, -2000, "Egypt"], "sumerian": [45.6, 31.3, -3000, "Sumer"],
+    "greek": [23.7, 38, -700, "Greece"], "latin": [12.5, 41.9, -100, "Rome"],
+    "medieval latin": [12.5, 41.9, 900, "Rome"], "middle latin": [12.5, 41.9, 900, "Rome"],
+    "late latin": [12.5, 41.9, 400, "Rome"], "vulgar latin": [12.5, 41.9, 400, "Rome"], "new latin": [12.5, 41.9, 1600, "Rome"],
+    "old french": [2.35, 48.85, 1100, "France"], "french": [2.35, 48.85, 1650, "France"],
+    "norman french": [1.1, 49.4, 1100, "Normandy"], "anglo-french": [-0.1, 51.5, 1200, "England"],
+    "provençal": [5.4, 43.5, 1200, "Provence"], "provencal": [5.4, 43.5, 1200, "Provence"],
+    "spanish": [-4, 39.9, 1250, "Iberia"], "portuguese": [-9.1, 38.7, 1300, "Iberia"], "italian": [11.3, 43.8, 1300, "Italy"],
+    "germanic": [9, 54, -300, "Germania"], "german": [10, 51, 1500, "Germany"],
+    "old high german": [9, 48.5, 900, "Germany"], "middle high german": [9.5, 49.5, 1200, "Germany"],
+    "middle low german": [10.7, 53.9, 1300, "Germany"], "middle german": [9.7, 50, 1200, "Germany"],
+    "dutch": [4.9, 52.4, 1500, "Low Countries"], "middle dutch": [4.9, 52.4, 1300, "Low Countries"], "frankish": [6.1, 50.8, 600, "Francia"],
+    "old english": [-1.3, 51.1, 900, "Britain"], "middle english": [-0.5, 51.8, 1300, "Britain"], "english": [-0.1, 51.5, 1600, "England"],
+    "old norse": [7.5, 61, 950, "Scandinavia"], "norwegian": [10.7, 59.9, 1500, "Norway"], "swedish": [18.1, 59.3, 1500, "Sweden"], "danish": [12.6, 55.7, 1500, "Denmark"], "gothic": [29, 46.5, 300, "Gothia"],
+    "russian": [37.6, 55.7, 1300, "Rus"], "old russian": [30.5, 50.5, 1100, "Rus"], "slavic": [26, 50, 700, "Slavic lands"], "old slavic": [26, 50, 700, "Slavic lands"], "church slavonic": [20.8, 41.1, 900, "Balkans"], "polish": [19.9, 50.1, 1300, "Poland"], "lithuanian": [25.3, 54.7, 1300, "Baltics"], "czech": [14.4, 50.1, 1300, "Bohemia"],
+    "turkish": [29, 41, 1300, "Anatolia"], "ottoman turkish": [29, 41, 1500, "Anatolia"],
+    "turkic": [80, 47, 800, "Turkic Steppe"], "altaic": [88, 48.5, -500, "Altai"],
+    "mongolian": [102.8, 47.2, 1250, "Mongolia"], "tatar": [49.1, 55.8, 1300, "Tatary"],
+    "chinese": [104, 34.5, -500, "China"], "armenian": [44.5, 40.2, 400, "Armenia"], "hittite": [34.6, 40, -1600, "Anatolia"],
+    "celtic": [3, 46.8, -300, "Gaul"], "irish": [-8, 53.3, 800, "Ireland"], "welsh": [-3.8, 52.3, 800, "Wales"]
   };
   function stationFor(lang) {
     if (!lang) return null;
     const parts = String(lang).toLowerCase().split("/").map(s => s.trim());
-    for (const p of parts) if (STATIONS[p]) return { key: p, s: STATIONS[p] };
-    for (const p of parts) for (const k in STATIONS) if (p.includes(k)) return { key: k, s: STATIONS[k] };
-    return null;
+    let hit = null;
+    for (const p of parts) if (STATIONS[p]) { hit = STATIONS[p]; break; }
+    if (!hit) for (const p of parts) for (const k in STATIONS) if (p.includes(k)) { hit = STATIONS[k]; break; }
+    if (!hit) return null;
+    const key = Object.keys(STATIONS).find(k => STATIONS[k] === hit);
+    return { key, s: [jPX(hit[0]), jPY(hit[1]), hit[2], hit[3]] };
   }
   function eraLabel(y) {
     if (isFa()) return y < 0 ? fmtNum(Math.abs(y)) + " پ.م." : fmtNum(y) + " م.";
     return y < 0 ? Math.abs(y).toLocaleString("en") + " BCE" : y + " CE";
   }
-  const LAND = "M95 330 L110 288 L138 252 L152 234 L182 224 L214 210 L248 192 L256 148 L286 96 L330 74 L362 100 L342 150 L302 180 L360 150 L420 112 L560 86 L700 96 L880 120 L948 180 L944 258 L882 300 L820 322 L772 300 L756 368 L722 330 L692 312 L642 330 L602 344 L562 330 L546 398 L502 420 L472 372 L456 340 L450 300 L402 280 L352 284 L332 300 L312 280 L292 290 L302 320 L282 342 L266 316 L252 292 L202 300 L162 320 L122 348 Z";
-  const AFRICA = "M95 372 L200 362 L300 372 L408 380 L446 402 L470 428 L470 560 L60 560 L60 400 Z";
-  const BRITAIN = "M162 196 L156 176 L168 158 L184 166 L190 186 L178 200 Z";
+  /* Coastline derived from Natural Earth 50m (public domain), clipped to
+     12W-106E / 5N-66N, equirectangular, Douglas-Peucker simplified. */
+  const JLAND = "M304 280L320 281L320 283L325 282L323 284L312 285L302 282L301 280L304 280ZM394 279L389 282L390 285L381 289L376 285L381 281L394 279ZM208 94L202 103L195 94L200 92L202 95L205 91L208 91L208 94ZM780 516L786 520L796 539L794 547L786 551L780 549L778 543L777 531L778 532L780 518L783 519L780 516ZM183 231L185 234L183 246L178 246L178 248L175 249L173 246L174 240L171 230L174 231L180 227L183 231ZM182 213L183 219L180 226L176 224L174 217L181 214L181 211L182 213ZM234 255L230 262L231 266L230 269L207 259L210 255L219 257L234 255ZM75 69L68 74L69 75L67 77L84 76L87 78L80 87L74 88L79 89L70 91L80 92L88 96L91 104L101 109L103 114L96 113L104 116L102 120L116 122L115 127L105 133L114 134L114 136L103 140L90 139L84 141L76 140L73 141L71 145L66 143L54 146L66 136L75 136L81 131L74 134L58 131L58 129L68 124L67 120L62 121L66 118L78 116L76 115L78 109L75 109L71 105L76 101L59 103L58 101L62 96L60 93L63 92L61 90L57 93L59 90L53 98L58 85L54 87L50 85L53 84L55 80L53 76L58 75L56 73L59 71L59 68L75 69ZM41 100L50 99L53 103L52 104L55 106L48 110L51 120L47 125L48 126L30 130L30 131L23 133L18 133L21 131L16 132L20 130L14 130L18 127L14 127L27 122L18 123L26 117L16 116L21 112L18 111L16 108L29 108L33 104L27 104L32 100L37 99L37 101L40 98L43 99L41 100ZM254 61L259 61L246 67L239 68L245 69L243 69L242 82L237 90L226 91L222 93L222 97L211 97L212 94L207 89L210 89L209 88L211 86L197 70L196 64L198 64L194 63L191 57L188 64L183 63L184 65L171 72L159 73L149 68L149 64L156 64L152 63L156 59L146 63L146 59L154 57L150 56L161 50L154 52L145 58L146 54L150 54L145 51L150 49L145 49L144 46L159 45L161 46L166 44L165 42L163 44L147 45L144 42L147 41L143 38L159 38L145 36L150 33L158 32L154 33L156 31L170 30L159 30L166 27L175 29L171 26L175 24L173 23L174 22L193 23L199 18L187 23L183 21L191 15L200 11L197 11L199 9L210 7L211 6L207 7L204 6L212 0L395 0L396 2L393 6L398 11L397 13L419 20L424 18L423 15L417 15L412 11L414 8L439 13L444 11L439 6L439 4L448 0L1000 0L1000 423L997 432L1000 437L1000 515L999 514L1000 520L990 527L992 513L985 509L980 509L981 506L979 504L976 506L976 501L971 494L964 489L957 490L957 483L954 481L949 483L949 494L942 511L943 521L948 521L953 540L962 543L977 560L953 560L952 551L946 538L934 529L938 512L937 514L936 508L940 498L938 498L937 485L934 478L933 480L931 469L929 459L930 454L927 454L922 446L922 452L919 454L917 452L918 455L910 462L910 458L908 461L906 461L906 457L904 460L904 454L900 459L903 445L899 429L898 432L894 428L897 429L898 427L896 423L892 422L891 424L890 419L888 421L888 417L887 420L884 415L880 401L877 396L872 398L870 389L867 391L869 392L868 397L870 401L866 405L866 402L864 403L864 400L861 406L860 401L859 406L856 403L856 407L854 408L853 403L852 407L848 407L849 403L847 400L849 403L847 406L838 411L839 416L837 419L832 423L824 425L824 426L826 426L814 438L800 449L799 454L791 456L788 461L785 460L782 462L780 468L782 482L780 481L783 483L777 502L778 511L774 512L771 518L775 522L766 522L763 529L759 532L750 524L749 515L737 491L732 473L723 455L719 435L720 431L719 431L720 429L718 424L719 416L717 409L721 406L716 407L717 402L719 402L713 401L712 406L714 408L712 412L701 415L686 401L696 399L699 394L692 397L685 394L682 390L685 387L680 389L679 387L674 387L671 379L667 378L665 371L650 375L645 373L622 375L614 372L602 373L588 369L582 357L577 357L566 363L557 361L546 352L538 350L526 329L522 330L517 327L518 326L516 330L508 330L510 334L506 336L509 336L515 351L527 361L526 368L532 378L534 367L536 366L539 368L539 376L537 382L543 386L561 384L580 364L579 376L582 381L587 386L600 390L609 401L597 419L595 417L592 420L592 431L583 434L580 441L572 442L568 449L560 450L547 455L544 457L544 462L539 465L520 472L514 477L508 477L498 482L489 483L483 488L475 490L470 489L468 484L466 469L463 466L464 455L460 446L455 441L447 425L438 419L435 413L432 405L433 398L428 388L420 383L417 374L400 349L395 348L398 335L392 351L383 344L378 331L376 334L386 350L389 361L400 381L405 386L403 388L404 395L414 403L417 412L419 433L429 440L436 463L439 467L440 464L442 468L451 472L469 492L469 495L462 500L467 500L477 510L483 510L490 506L496 507L503 503L526 500L532 496L536 497L534 510L537 511L533 511L532 519L511 560L148 560L149 556L146 555L148 554L145 554L139 548L131 547L133 545L113 549L110 553L104 553L88 560L77 560L74 559L76 559L75 557L73 559L67 557L51 560L24 559L0 540L0 348L13 339L18 332L20 327L18 324L19 317L23 307L30 301L43 294L51 277L57 276L57 279L62 283L77 281L78 283L85 284L112 271L134 267L142 267L147 269L157 265L169 268L184 263L185 265L188 264L190 269L195 266L196 267L191 273L196 282L187 292L189 296L195 297L197 301L206 304L214 304L230 309L235 317L253 322L262 328L268 327L271 323L272 310L286 303L297 306L299 310L313 312L315 316L329 317L348 323L365 316L372 316L374 318L372 317L371 319L374 320L375 319L378 321L387 320L394 316L407 289L405 273L408 268L402 270L396 268L387 274L380 275L366 268L361 267L360 273L353 274L347 269L335 269L341 266L333 266L335 265L331 260L332 257L324 255L326 251L328 254L332 253L329 251L331 249L328 245L330 243L323 244L324 239L328 235L348 235L346 234L355 232L348 230L349 227L367 229L375 223L385 220L398 220L401 223L407 223L410 227L427 230L436 229L443 230L453 226L456 222L453 214L430 199L412 191L414 189L421 189L423 184L428 183L422 178L428 178L427 176L434 174L434 172L405 178L398 183L400 180L397 182L398 186L402 190L412 189L410 192L402 192L389 198L385 197L386 192L377 189L387 184L386 183L371 181L373 180L369 179L378 178L373 178L371 172L372 178L369 176L363 179L358 185L353 186L352 194L348 195L347 193L344 207L340 208L338 213L335 216L341 224L348 227L347 229L335 230L324 238L329 233L323 233L314 230L303 232L308 237L303 236L305 239L300 236L302 239L300 239L296 233L293 234L293 238L299 246L296 245L297 248L293 249L305 255L306 259L301 257L297 258L301 262L298 263L294 261L298 271L294 268L292 271L289 266L287 269L286 267L285 263L281 258L287 254L295 257L298 256L292 253L281 254L278 249L281 248L274 245L265 235L268 222L260 216L246 211L252 213L245 208L237 206L230 200L233 199L225 190L223 190L219 194L216 188L219 187L214 186L206 189L208 193L205 195L207 200L217 206L220 214L225 218L230 221L239 221L236 225L254 233L258 237L257 240L253 236L245 234L242 241L247 244L247 248L243 250L238 258L234 257L239 248L235 239L228 236L227 233L223 233L224 232L221 231L218 227L213 227L200 218L196 217L191 211L188 202L176 198L154 210L136 206L129 209L127 213L129 221L108 231L109 232L99 243L103 250L97 254L96 260L88 263L84 268L65 269L54 275L48 270L49 267L47 268L44 264L35 266L25 266L26 253L28 253L24 253L23 251L27 247L24 250L21 250L28 232L26 222L28 218L24 210L36 204L42 206L85 208L89 206L93 196L91 196L93 188L97 193L92 186L92 181L84 176L83 172L87 172L80 172L81 170L78 169L65 167L62 165L65 164L63 163L66 162L62 162L62 160L74 158L79 160L90 159L86 150L91 150L92 153L105 152L103 151L103 150L114 146L117 138L138 134L131 133L138 133L136 132L137 132L136 129L142 120L149 117L159 115L163 117L163 113L166 113L174 116L175 111L185 114L175 107L178 105L175 103L175 97L171 95L171 86L175 87L180 85L179 82L176 85L172 85L175 82L182 81L192 76L189 86L194 88L189 90L183 96L182 101L187 104L185 106L195 107L194 110L198 111L208 106L212 106L225 113L219 109L224 111L255 102L261 104L258 103L261 107L266 107L271 102L277 100L281 95L276 101L281 102L280 86L286 77L293 76L302 83L308 80L310 70L303 70L301 62L318 58L338 60L339 57L357 55L344 52L343 49L327 51L327 49L320 53L297 57L298 55L296 53L292 55L293 52L283 50L285 40L281 31L285 27L284 26L291 25L293 22L302 18L310 11L317 9L317 5L310 1L292 1L290 4L283 6L285 8L281 11L284 14L278 20L259 26L257 28L258 28L253 29L255 31L249 32L251 35L250 40L247 41L248 49L254 50L263 57L254 61Z";
+  const JLAKES = "M355 44L363 39L377 45L381 49L378 50L378 53L370 53L369 56L365 56L360 47L355 44ZM771 177L773 178L766 181L742 179L741 177L741 179L737 180L735 183L731 184L730 193L724 187L726 182L729 182L730 180L737 176L756 179L762 178L765 179L766 178L771 177ZM620 179L620 181L614 185L609 185L608 187L610 187L611 190L609 200L606 201L607 199L603 195L606 191L603 185L599 189L600 195L596 198L595 194L600 185L604 184L604 186L607 186L606 180L608 181L609 183L616 183L616 180L610 179L612 177L614 179L616 178L615 176L620 179ZM1000 130L990 133L981 131L993 129L1000 124ZM221 64L219 67L206 70L209 68L207 65L208 66L210 64L214 65L213 61L221 61L221 64ZM410 42L406 47L397 46L397 44L403 46L404 45L393 39L395 37L389 32L395 36L395 32L399 36L399 35L402 35L403 33L396 31L394 28L405 32L404 36L410 42ZM429 72L426 73L417 66L420 68L424 68L424 66L419 65L421 63L427 63L423 64L432 69L429 72ZM352 36L354 38L348 41L344 40L346 40L342 43L346 44L339 45L341 44L333 43L333 40L336 40L336 39L339 41L346 38L332 32L336 32L336 28L332 27L333 24L330 22L332 23L334 27L342 27L340 28L341 31L347 33L342 31L340 33L338 30L339 34L344 35L345 33L346 35L350 35L350 31L353 33L353 31L355 33L353 34L356 36L352 36ZM330 29L331 29L329 29L330 33L328 31L326 34L327 32L324 32L325 33L322 33L321 37L319 37L318 43L323 44L324 42L324 45L322 46L322 44L319 43L319 46L317 45L318 44L315 42L317 40L315 39L321 33L319 31L321 28L317 28L317 26L321 27L325 30L321 31L323 33L326 31L325 29L329 31L327 28L331 27L330 29ZM512 109L512 105L515 104L518 99L517 97L520 98L520 96L524 97L537 96L538 93L538 95L542 95L535 98L525 98L516 102L518 103L513 108L517 110L523 108L519 111L520 113L518 112L517 114L524 115L515 117L519 116L512 109ZM104 545L103 548L96 543L101 545L103 539L100 537L101 536L96 537L101 535L99 532L95 532L97 531L93 527L87 527L93 526L92 522L94 527L95 525L96 527L95 528L100 531L101 534L103 526L104 545ZM979 114L981 115L978 115L978 118L977 113L973 112L976 112L974 109L977 100L974 91L966 92L965 94L969 96L970 98L967 100L969 96L964 97L966 96L964 94L960 92L964 92L964 89L966 91L971 89L975 90L978 99L976 103L978 109L977 107L975 109L979 114Z";
   let jItem = null, jAnimId = null;
   const pickJ = makePicker(document.getElementById("pickJ"), it => { jItem = it; runJourney(); });
   function journeyTree(it) {
@@ -2270,18 +2285,43 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     if (jAnimId) { clearTimeout(jAnimId); jAnimId = null; }
     const { stations, edges, onPath, chain } = journeyTree(jItem);
     if (!stations.length) { document.getElementById("jcaption").innerHTML = '<span class="jc-era">' + esc(t("noStations")) + "</span>"; return; }
-    let svg = '<path class="j-land" d="' + LAND + '"/><path class="j-land" d="' + AFRICA + '"/><path class="j-land" d="' + BRITAIN + '"/>';
+    let svg = '<path class="j-land" d="' + JLAND + '"/><path class="j-lake" d="' + JLAKES + '"/>';
+    for (let lon = 0; lon <= 105; lon += 15) svg += '<line class="j-grid" x1="' + jPX(lon) + '" y1="0" x2="' + jPX(lon) + '" y2="560"/>';
+    for (let lat = 15; lat <= 60; lat += 15) svg += '<line class="j-grid" x1="0" y1="' + jPY(lat) + '" x2="1000" y2="' + jPY(lat) + '"/>';
     edges.forEach(ed => {
       const p = stations[ed.a], s = stations[ed.b];
       const mx = (p.x + s.x) / 2, my = (p.y + s.y) / 2 - Math.min(46, Math.hypot(s.x - p.x, s.y - p.y) * 0.2);
       svg += '<path class="j-route' + (ed.main ? " main" : "") + ' jedge" data-k="' + ed.a + ">" + ed.b + '" data-d="' + s.depth + '" d="M' + p.x + " " + p.y + " Q" + mx + " " + my + " " + s.x + " " + s.y + '"/>';
     });
+    const placedLbl = [];
     stations.forEach((s, i) => {
-      const above = (s.depth + i) % 2 === 0;
+      // prefer the side with the most clearance, then verify the label box
+      // against station dots and labels already placed; flip if it collides
+      let clA = 1e9, clB = 1e9;
+      stations.forEach((o, j) => {
+        if (j === i || Math.abs(o.x - s.x) >= 85) return;
+        if (o.y <= s.y) clA = Math.min(clA, s.y - o.y); else clB = Math.min(clB, o.y - s.y);
+      });
+      let above = clA === clB ? (s.depth + i) % 2 === 0 : clA > clB;
+      if (s.y < 52) above = false;
+      if (s.y > 512) above = true;
+      const boxFor = (ab, dx) => ({ l: s.x + dx - 58, r: s.x + dx + 58, t: ab ? s.y - 34 : s.y + 9, b: ab ? s.y - 7 : s.y + 40 });
+      const collides = bx => placedLbl.some(o => bx.l < o.r && bx.r > o.l && bx.t < o.b && bx.b > o.t) ||
+        stations.some((o, j) => j !== i && bx.l < o.x + 8 && bx.r > o.x - 8 && bx.t < o.y + 8 && bx.b > o.y - 8);
+      let dx = 0, bx = boxFor(above, 0);
+      if (collides(bx) && s.y >= 52 && s.y <= 512) {
+        search: for (const d2 of [0, 24, -24, 42, -42, 58, -58])
+          for (const ab of [above, !above]) {
+            const cand = boxFor(ab, d2);
+            if (cand.l < 2 || cand.r > 998) continue;
+            if (!collides(cand)) { above = ab; dx = d2; bx = cand; break search; }
+          }
+      }
+      placedLbl.push(bx);
       svg += '<g class="j-st-grp" data-d="' + s.depth + '" data-i="' + i + '">' +
         '<circle class="j-station jst' + (s.isTarget ? " target" : "") + '" data-i="' + i + '" cx="' + s.x + '" cy="' + s.y + '" r="' + (s.isTarget ? 8.5 : 6.5) + '" stroke="var(--fam-' + s.fam + ')"/>' +
-        '<text class="j-stlbl" x="' + s.x + '" y="' + (above ? s.y - 13 : s.y + 23) + '" text-anchor="middle">' + esc(tLang(s.lang)) + "</text>" +
-        '<text class="j-stsub" x="' + s.x + '" y="' + (above ? s.y - 24 : s.y + 34) + '" text-anchor="middle">' + esc(tPlace(s.place)) + " · " + eraLabel(s.era) + "</text></g>";
+        '<text class="j-stlbl" x="' + (s.x + dx) + '" y="' + (above ? s.y - 13 : s.y + 23) + '" text-anchor="middle">' + esc(tLang(s.lang)) + "</text>" +
+        '<text class="j-stsub" x="' + (s.x + dx) + '" y="' + (above ? s.y - 24 : s.y + 34) + '" text-anchor="middle">' + esc(tPlace(s.place)) + " · " + eraLabel(s.era) + "</text></g>";
     });
     const jm = document.getElementById("jmap");
     jm.innerHTML = svg;
