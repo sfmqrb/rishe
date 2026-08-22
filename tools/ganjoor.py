@@ -14,7 +14,7 @@ Usage:
   ganjoor.py --import <dump.sql.gz> [ganjoor.db]   # one-time: MySQL dump -> SQLite
   ganjoor.py <ganjoor.db> [extracted-dir ...]      # writes data/research/ganjoor.json
 """
-import collections, gzip, json, re, sqlite3, sys
+import collections, gzip, json, random, re, sqlite3, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -242,18 +242,31 @@ def analyze(db_path, dirs):
             lemma_tokens[lk] += n
             if n >= 2 and (lk not in lemma_first or year < lemma_first[lk][0]):
                 lemma_first[lk] = (year, en)
-        nb = by_route["arabic"] + by_route["euro"] + by_route["turkic"]
-        p, lo, hi = research.wilson(nb, max(1, matched))
+        # The gradient is measured over the poet's DISTINCT charted vocabulary
+        # (types), the same yardstick as the book-citation analysis — not over
+        # running tokens, which high-frequency inherited words would dominate.
+        troutes = collections.Counter(lemma_route[lk] for lk in per_lemma)
+        types = len(per_lemma)
+        tnb = troutes["arabic"] + troutes["euro"] + troutes["turkic"]
+        p, lo, hi = research.wilson(tnb, max(1, types))
+        # rarefied share: a big divan reaches deeper into rare (more often
+        # borrowed) vocabulary, so also sample every poet down to the same
+        # number of running words for a size-controlled check.
+        pop = [lk for lk, c in per_lemma.items() for _ in range(c)]
+        n_r = min(1800, len(pop))
+        rlem = set(random.Random(42).sample(pop, n_r))
+        r_b = sum(1 for lk in rlem if lemma_route[lk] != "direct")
         poet_rows.append({
             "en": en, "fa": fa, "year": year,
             "tokens": tot, "matched": matched,
             "coverage": round(matched / max(1, tot), 3),
-            "borrowed": nb,
-            "arabic": by_route["arabic"], "euro": by_route["euro"], "turkic": by_route["turkic"],
+            "types": types, "borrowed": tnb,
+            "arabic": troutes["arabic"], "euro": troutes["euro"], "turkic": troutes["turkic"],
             "share": round(p, 4), "lo": round(lo, 4), "hi": round(hi, 4),
+            "rtypes": len(rlem), "rshare": round(r_b / max(1, len(rlem)), 4),
         })
-        print(f"  {en:20s} {year}  tokens={tot:8d} matched={matched:8d} "
-              f"({matched/max(1,tot):.0%})  borrowed={p:.1%}", file=sys.stderr)
+        print(f"  {en:20s} {year}  tokens={tot:8d} types={types:6d} "
+              f"borrowed={p:.1%}  rarefied={r_b/max(1,len(rlem)):.1%}", file=sys.stderr)
 
     # ---- 2. first attestations -> influx per half-century ----
     influx = collections.defaultdict(lambda: collections.Counter())

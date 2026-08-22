@@ -2514,13 +2514,15 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       "Molavî (Rumi)", "Sa'dî", "Hâfez", "Jâmî", "Sâ'eb", "Bîdel", "Qâ'ânî", "Bahâr", "Parvîn", "Nîmâ", "Shâmlŭ", "Sîmîn Behbahânî"]);
     const W = 740, H = 380, x0 = 52, x1 = W - 16, y0 = H - 58, y1 = 22;
     const maxS = Math.max.apply(null, rows.map(p => p.hi)) * 1.12;
+    const step = maxS > 0.3 ? 0.1 : maxS > 0.12 ? 0.05 : 0.02;
+    const yTicks = [];
+    for (let v = 0; v <= maxS; v += step) yTicks.push(v);
     const yr = y => x0 + (y - 880) / (2000 - 880) * (x1 - x0);
     const sh = v => y0 - v / maxS * (y0 - y1);
     let s = '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;max-width:' + W + 'px;display:block">';
     for (let c = 900; c < 2000; c += 200)
       s += '<rect x="' + yr(c) + '" y="' + y1 + '" width="' + (yr(c + 100) - yr(c)) + '" height="' + (y0 - y1) + '" fill="var(--ink)" opacity="0.035"/>';
-    [0, .02, .04, .06].forEach(v => {
-      if (v > maxS) return;
+    yTicks.forEach(v => {
       s += '<line class="rc-grid" x1="' + x0 + '" y1="' + sh(v) + '" x2="' + x1 + '" y2="' + sh(v) + '"/>' +
         '<text class="rc-sub2" x="' + (x0 - 8) + '" y="' + (sh(v) + 4) + '" text-anchor="end">' + pct(v, 0) + "</text>";
     });
@@ -2531,7 +2533,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       r: Math.min(9, 2.2 + Math.sqrt(p.matched) / 110) }));
     const obs = [];
     for (let y = 900; y <= 1900; y += 200) obs.push({ l: yr(y) - 20, r: yr(y) + 20, t: y0 + 6, b: y0 + 20 });
-    [0, .02, .04, .06].forEach(v => { if (v <= maxS) obs.push({ l: x0 - 34, r: x0 - 6, t: sh(v) - 8, b: sh(v) + 4 }); });
+    yTicks.forEach(v => obs.push({ l: x0 - 34, r: x0 - 6, t: sh(v) - 8, b: sh(v) + 4 }));
     geo.forEach(g => {
       obs.push({ l: g.x - 3, r: g.x + 3, t: g.yT - 2, b: g.yB + 2 });
       obs.push({ l: g.x - g.r - 1, r: g.x + g.r + 1, t: g.yD - g.r - 1, b: g.yD + g.r + 1 });
@@ -2571,15 +2573,15 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       const g = geo[i];
       const name = (isFa() ? p.fa : p.en).replace(/\s*\(.*/, "");
       s += "<g><title>" + esc(name) + " · " + fmtNum(p.year) + " · " + pct(p.share, 1) + " " + rr("borrowed", "وامی") +
-        " (" + pct(p.lo, 1) + "–" + pct(p.hi, 1) + ") · " + fmtNum(p.matched) + " " + rr("matched words", "واژهٔ منطبق") + "</title>" +
+        " (" + pct(p.lo, 1) + "–" + pct(p.hi, 1) + ") · " + fmtNum(p.types) + " " + rr("distinct charted words", "واژهٔ متمایز نمودارشده") + "</title>" +
         '<circle cx="' + g.x + '" cy="' + g.yD + '" r="' + g.r + '" fill="var(--gold)" stroke="var(--bg)" stroke-width="1.2"/></g>';
     });
     labels.forEach(L => {
       s += '<text class="rc-lbl" x="' + (L.g.x + L.dx) + '" y="' + L.ly + '" text-anchor="middle">' + esc(L.name) + "</text>";
     });
     s += '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 22) + '" text-anchor="middle">' +
-      rr("poet’s lifetime (CE) → share of matched words with Arabic/European/Turkic transmission",
-         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های منطبقِ با گذر از عربی/اروپایی/ترکی") + "</text>" +
+      rr("poet’s lifetime (CE) → share of the poet’s distinct charted words with Arabic/European/Turkic transmission",
+         "دورهٔ زندگی شاعر (میلادی) → سهم واژه‌های متمایزِ نمودارشدهٔ شاعر با گذر از عربی/اروپایی/ترکی") + "</text>" +
       '<text class="rc-sub2" x="' + ((x0 + x1) / 2) + '" y="' + (H - 7) + '" text-anchor="middle">' +
       rr("dot size = corpus size · whiskers = 95% CI · hover any dot",
          "اندازهٔ نقطه = حجم پیکره · خط‌ها = بازهٔ اطمینان ۹۵٪ · روی نقطه‌ها بایستید") + "</text>";
@@ -2771,10 +2773,11 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     if (GJ && GJ.poets) {
       const gp = name => GJ.poets.find(p => p.en === name) || {};
       let gtbl = '<div class="rtable"><table><tr><th>' + rr("Poet", "شاعر") + "</th><th>" + rr("Floruit", "دوره") +
-        "</th><th>" + rr("Verse words", "واژه‌های شعر") + "</th><th>" + rr("Matched", "منطبق") + "</th><th>" + rr("Borrowed share", "سهم وامی") + "</th></tr>";
+        "</th><th>" + rr("Verse words", "واژه‌های شعر") + "</th><th>" + rr("Distinct charted words", "واژه‌های متمایز نمودارشده") +
+        "</th><th>" + rr("Borrowed share", "سهم وامی") + "</th></tr>";
       GJ.poets.forEach(p => {
         gtbl += '<tr><td class="fa-cell">' + esc(p.fa) + "</td><td>" + fmtNum(p.year) + "</td><td>" + fmtNum(p.tokens) +
-          "</td><td>" + fmtNum(p.matched) + " <span style='color:var(--muted)'>(" + pct(p.coverage, 0) + ")</span></td><td>" +
+          "</td><td>" + fmtNum(p.types) + "</td><td>" +
           pct(p.share, 1) + " <span style='color:var(--muted)'>(" + pct(p.lo, 1) + "–" + pct(p.hi, 1) + ")</span></td></tr>";
       });
       gtbl += "</table></div>";
@@ -2790,10 +2793,10 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
         "</div>" +
         ganjChart(GJ.poets) +
         '<div class="rfinding">' + rr(
-          "The gradient survives its meeting with the full corpora — at much lower absolute levels, because running verse is mostly made of high-frequency inherited words. The Shâhnâmeh runs at " + pct(gp("Ferdowsî").share, 1) + " borrowed words and Gorgânî’s Vîs o Râmîn at " + pct(gp("Gorgânî").share, 1) + ", while Hâfez (" + pct(gp("Hâfez").share, 1) + ") and Rumi (" + pct(gp("Molavî (Rumi)").share, 1) + ") run roughly three times higher, and the ornate court styles of Khâqânî and Bîdel mark the peak. Then the twentieth century bends back down: Nîmâ " + pct(gp("Nîmâ").share, 1) + ", Akhavân " + pct(gp("Akhavân Sâles").share, 1) + ", Shâmlŭ " + pct(gp("Shâmlŭ").share, 1) + " — the modernists’ deliberate return to Persian stock, measurable a millennium after Ferdowsî set the benchmark.",
-          "شیب از رویارویی با پیکرهٔ کامل جان به در می‌برد — البته در سطح‌هایی بسیار پایین‌تر، چون متنِ جاریِ شعر بیشتر از واژه‌های پربسامدِ موروثی ساخته شده است. شاهنامه با " + pct(gp("Ferdowsî").share, 1) + " واژهٔ وامی پیش می‌رود و ویس و رامینِ گرگانی با " + pct(gp("Gorgânî").share, 1) + "، حال‌آنکه حافظ (" + pct(gp("Hâfez").share, 1) + ") و مولوی (" + pct(gp("Molavî (Rumi)").share, 1) + ") تقریباً سه برابر بالاترند و سبک فاخر خاقانی و بیدل قله است. سپس سدهٔ بیستم بازمی‌گردد: نیما " + pct(gp("Nîmâ").share, 1) + "، اخوان " + pct(gp("Akhavân Sâles").share, 1) + "، شاملو " + pct(gp("Shâmlŭ").share, 1) + " — بازگشت آگاهانهٔ نوگرایان به واژگان فارسی، هزار سال پس از آنکه فردوسی معیار را گذاشت.") + "</div>" + gtbl,
-        rr("Corpus: the official Ganjoor database (github.com/ganjoor/ganjoor-db), verse lines only — " + fmtNum(GJ.n_poets) + " poets with curated floruit years; dialectal and apocryphal corpora (Bâbâ Tâher, Abŭ-Sa'îd) and prose works are excluded. Every word is matched against the dictionary’s charted Persian forms with the same conservative morphology the site’s verse links use: exact match first, then stripped verbal prefixes and clitic suffixes, and an inferred infinitive accepted only when it looks like one. About half the words match (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + "); the rest are words the dictionary does not chart. A word’s route is read from its chart; " + fmtNum(GJ.ambiguous_dropped) + " forms whose charted homographs disagree on the route were dropped, and a hand-checked blocklist removes corpus homographs that would match the wrong chart (kon, ar, xatâ…). Intervals are 95% Wilson; with corpora this size they are hair-thin. Coverage varies by poet (38–57%) — comparisons assume the unmatched half behaves similarly.",
-           "پیکره: پایگاه‌دادهٔ رسمی گنجور (github.com/ganjoor/ganjoor-db)، فقط سطرهای شعر — " + fmtNum(GJ.n_poets) + " شاعر با دورهٔ فعالیت تنظیم‌شده؛ پیکره‌های گویشی و منسوب (باباطاهر، ابوسعید) و آثار منثور کنار گذاشته شده‌اند. هر واژه با همان صرف‌شناسی محافظه‌کارانه‌ای که پیوندهای شعریِ همین تارنما به کار می‌برد با شکل‌های فارسیِ نمودارها مطابقت داده می‌شود: نخست تطبیق دقیق، سپس حذف پیشوندهای فعلی و پی‌بست‌ها، و مصدرِ استنباطی فقط وقتی که به مصدر بماند. حدود نیمی از واژه‌ها منطبق می‌شوند (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + ")؛ باقی واژه‌هایی‌اند که در فرهنگ نیامده‌اند. مسیر هر واژه از نمودارش خوانده می‌شود؛ " + fmtNum(GJ.ambiguous_dropped) + " شکل که هم‌نگاشت‌های نمودارشده‌شان بر سر مسیر اختلاف داشتند حذف شدند و فهرست بازبینی‌شده‌ای هم‌نگاشت‌های پیکره‌ای را که به نمودار نادرست می‌خوردند کنار می‌گذارد (کن، ار، خطا…). بازه‌ها ویلسون ۹۵٪اند و با این حجم پیکره بسیار باریک. پوشش بین شاعران متفاوت است (۳۸ تا ۵۷٪) — مقایسه‌ها فرض می‌کنند نیمهٔ نامنطبق رفتاری مشابه دارد."));
+          "Measured the same way as the chart above — over each poet’s distinct vocabulary — the corpus largely vindicates the citations, and corrects them where selection showed. Ferdowsî lands at " + pct(gp("Ferdowsî").share, 1) + ", almost exactly where Nourai’s citations put him, with Gorgânî (" + pct(gp("Gorgânî").share, 1) + ") beside him; the mystics and court poets of the 12th–14th centuries double that (Sanâ'î " + pct(gp("Sanâ'î").share, 1) + ", Rumi " + pct(gp("Molavî (Rumi)").share, 1) + ", Attâr " + pct(gp("Attâr").share, 1) + "). Hâfez, though, comes out at " + pct(gp("Hâfez").share, 1) + " — half of what the citation sample suggested: the full divan is more Persian than the words Nourai happened to attest with him. And the twentieth century bends back down: Nîmâ " + pct(gp("Nîmâ").share, 1) + ", Sîmîn " + pct(gp("Sîmîn Behbahânî").share, 1) + ", Akhavân " + pct(gp("Akhavân Sâles").share, 1) + " — the modernists’ deliberate return to Persian stock, a millennium after Ferdowsî set the benchmark.",
+          "با همان سنجه‌ای که نمودار بالا دارد — روی واژگانِ متمایز هر شاعر — پیکره، شاهدمثال‌ها را در کل تأیید می‌کند و هرجا گزینش اثر گذاشته بود، تصحیح. فردوسی در " + pct(gp("Ferdowsî").share, 1) + " می‌نشیند، تقریباً همان‌جا که شاهدهای نورایی گذاشته بودند، و گرگانی (" + pct(gp("Gorgânî").share, 1) + ") کنار او؛ عارفان و شاعران درباری سده‌های ۱۲ تا ۱۴ میلادی این رقم را دو برابر می‌کنند (سنایی " + pct(gp("Sanâ'î").share, 1) + "، مولوی " + pct(gp("Molavî (Rumi)").share, 1) + "، عطار " + pct(gp("Attâr").share, 1) + "). اما حافظ " + pct(gp("Hâfez").share, 1) + " از آب درمی‌آید — نصفِ آنچه نمونهٔ شاهدها می‌گفت: دیوان کامل، فارسی‌تر از واژه‌هایی است که نورایی برحسب اتفاق با او گواهی کرده بود. و سدهٔ بیستم دوباره فرومی‌نشیند: نیما " + pct(gp("Nîmâ").share, 1) + "، سیمین " + pct(gp("Sîmîn Behbahânî").share, 1) + "، اخوان " + pct(gp("Akhavân Sâles").share, 1) + " — بازگشت آگاهانهٔ نوگرایان به واژگان فارسی، هزار سال پس از آنکه فردوسی معیار را گذاشت.") + "</div>" + gtbl,
+        rr("Corpus: the official Ganjoor database (github.com/ganjoor/ganjoor-db), verse lines only — " + fmtNum(GJ.n_poets) + " poets with curated floruit years; dialectal and apocryphal corpora (Bâbâ Tâher, Abŭ-Sa'îd) and prose works are excluded. Every word is matched against the dictionary’s charted Persian forms with the same conservative morphology the site’s verse links use; about half the running words match (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + "), the rest being words the dictionary does not chart. <b>The share is computed over each poet’s distinct charted words</b> — the same yardstick as the citation chart above; repetitions of از، که، به do not dilute it (the types-vs-tokens section below shows how much they would). A word’s route is read from its chart; " + fmtNum(GJ.ambiguous_dropped) + " forms whose charted homographs disagree on the route were dropped, and a hand-checked blocklist removes corpus homographs that would match the wrong chart (kon, ar, xatâ…). One residual confound: a larger divan reaches deeper into rare — more often borrowed — vocabulary. Rarefying every poet to an equal sample of 1,800 running words keeps the gradient intact (Ferdowsî " + pct(gp("Ferdowsî").rshare, 1) + " vs. Hâfez " + pct(gp("Hâfez").rshare, 1) + ", Nîmâ " + pct(gp("Nîmâ").rshare, 1) + "), so it is not an artifact of corpus size. Intervals are 95% Wilson.",
+           "پیکره: پایگاه‌دادهٔ رسمی گنجور (github.com/ganjoor/ganjoor-db)، فقط سطرهای شعر — " + fmtNum(GJ.n_poets) + " شاعر با دورهٔ فعالیت تنظیم‌شده؛ پیکره‌های گویشی و منسوب (باباطاهر، ابوسعید) و آثار منثور کنار گذاشته شده‌اند. هر واژه با همان صرف‌شناسی محافظه‌کارانه‌ای که پیوندهای شعریِ همین تارنما به کار می‌برد با شکل‌های فارسیِ نمودارها مطابقت داده می‌شود؛ حدود نیمی از واژه‌های جاری منطبق می‌شوند (" + pct(GJ.matched_tokens / GJ.corpus_tokens, 0) + ") و باقی واژه‌هایی‌اند که در فرهنگ نیامده‌اند. <b>سهم روی واژه‌های متمایزِ نمودارشدهٔ هر شاعر محاسبه می‌شود</b> — همان سنجهٔ نمودارِ شاهدمثال‌ها در بالا؛ تکرارِ «از، که، به» آن را رقیق نمی‌کند (بخش «نوع در برابر توکن» در پایین نشان می‌دهد چقدر می‌کرد). مسیر هر واژه از نمودارش خوانده می‌شود؛ " + fmtNum(GJ.ambiguous_dropped) + " شکل که هم‌نگاشت‌های نمودارشده‌شان بر سر مسیر اختلاف داشتند حذف شدند و فهرست بازبینی‌شده‌ای هم‌نگاشت‌های پیکره‌ای را که به نمودار نادرست می‌خوردند کنار می‌گذارد (کن، ار، خطا…). یک عامل مخدوش‌کنندهٔ باقی‌مانده: دیوانِ بزرگ‌تر به واژگانِ کمیاب‌تر — که بیشتر وامی‌اند — دست می‌یابد. یکسان‌سازی همهٔ شاعران با نمونهٔ برابرِ ۱٬۸۰۰ واژهٔ جاری شیب را سرِ جا نگه می‌دارد (فردوسی " + pct(gp("Ferdowsî").rshare, 1) + " در برابر حافظ " + pct(gp("Hâfez").rshare, 1) + "، نیما " + pct(gp("Nîmâ").rshare, 1) + ")، پس شیب مصنوعِ اندازهٔ پیکره نیست. بازه‌ها ویلسون ۹۵٪اند."));
       /* ---- Ganjoor: first attestations ---- */
       const cumBy = (route, yTo) => {
         let c = 0, tot = 0;
