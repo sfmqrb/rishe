@@ -1,0 +1,360 @@
+{
+  "pdf_page": 60,
+  "book_page": 30,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Apo, Apâ, Apu, Pu 3, Pô 1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂epo (*apo, with ablaut/enclitic variants *apā, *ap-u, *pu, *po) 'off, away, from'",
+      "note": "Pokorny IEW 53-55 heads the entry 'apo- (pō̆, ap-u, pu) \"ab, weg\"', i.e. exactly the five shapes Nourai lists (his 'Apâ' = the long-vowel variant apā, 'Pô 1' = Pokorny's po, 'Pu 3' = Pokorny's pu). Language label (Indo-European) and gloss ('off') are right; the current reconstruction writes it *h₂epó, though Hittite āppa is used to argue for laryngeal-less *apo. The whole Latin/Greek/Iranian half of the chart hangs on Pokorny's own remark under *pos that it is 'probably *p + os, Gen.-Abl. to *apo above S. 53 f.', so the root→#3 arrow is Pokorny's, not Nourai's invention. The single weak link on this chart is the item 'eben : later time, evening' in node #1 (and 'evening' in node #2): neither Pokorny nor Watkins/AHD puts the Germanic word for 'evening' under *apo, and Klein assigns it to *epi/*opi.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82epo",
+        "https://www.ahdictionary.com/word/indoeurop.html"
+      ],
+      "ref_check": [
+        {"ref": "POK:53", "status": "supports", "note": "POK_01.txt 0-based leaf 61 = printed p.53 (leaf 62 carries the running number '54'): the entry 'apo-, (pō̆, ap-u, pu) \"ab, weg\"' runs pp. 53-55 and contains 'got. af Präf. und Präp. m. Dat. \"von, von—weg\" ... ags. æf, of, as. af, ahd. aba', 'Ableitungen: apo-tero-, ap-ero-, ap-io-, ap-öko-', 'ags. *afoc in engl. awkward, aus *apu-ko-s', and closes 'S. noch idg. *po-ti und *po-s' — exactly the material Nourai's chart draws."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Germanic",
+          "words": "af; apo-tero; eben; afug",
+          "verdict": "disputed",
+          "derivation": "Three of the four items are straight reflexes of *apo. (a) 'af' = Proto-Germanic *ab/*af, unstressed preposition/prefix from PIE *h₂epo with regular loss of the final vowel: Gothic af, Old Norse af, Old English of/æf, Old Saxon af, OHG aba/ab- (POK 53; AHD apo- 1a). (b) 'apo-tero' is in fact the PIE comparative *ap(o)-tero- 'further off' (Skt. apataram, OP apataram, Gk. apōtérō), which in Germanic gives *aftar-/*after- > OE æfter, ON eptir, Goth. aftra (AHD apo- 4). Labelling the comparative itself 'Germanic' is a small imprecision, since the formation is PIE, not Germanic. (c) 'afug' = Proto-Germanic *afug-/*abuh- < *apu-ko- 'turned away', whence ON ǫfugr/afugr 'turned backwards', OS avuh, OHG abuh, OE *afoc (POK 54; AHD apo- 6). (d) 'eben : later time, evening' is the problem: this is Proto-Germanic *ēbanþ-/*ēbando- 'evening' (OE ǣfen, OS āƀand, OHG āband, ON aptann). Klein derives it not from *apo but from *epi/*opi — 'cogn. with Gk. ὄπι- in ὄπισθε(ν) \"after, behind\", ὀψέ \"late in the day\" ... hence evening lit. means \"the hinder (= latter) part of the day\"' — and Etymonline calls Proto-Germanic *æbando- 'of uncertain origin'. Neither Pokorny's apo- entry nor Watkins/AHD lists the word. Hence 'disputed' for this one item only.",
+          "sources": [
+            "https://www.ahdictionary.com/word/indoeurop.html",
+            "https://www.etymonline.com/word/awkward",
+            "https://www.etymonline.com/word/evening"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt s.v. 'apo-. Also ap-. Off, away.': '1. Germanic *af in: a. Old English of, æf (> Middle English of, of-), off: OF, OFF ... 4. Suffixed (comparative) form *ap(o)-tero- in Germanic *aftar- in Old English æfter, after, behind: AFTER ... 6. Suffixed form *apu-ko- in Germanic *afug- in Old Norse ǫfugr, turned backward: AWKWARD.' — supports af, apo-tero and afug verbatim, but the entry has no 'evening' item (the AHD index line reads 'EVEN oi-no-', 'EVENTIDE da-'); the current online AHD apo- entry likewise lists only off, ebb, awkward, puny, compote."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Bd. I pp. 53-55 (POK_01.txt leaves 61-63)", "stance": "partial", "note": "'got. af ... ags. æf, of ... ahd. aba, ab-'; 'Ableitungen: apo-tero-'; 'ags. *afoc in engl. awkward, aus *apu-ko-s (oder aus *opu-ko-s: ὄπισθεν ...)'. No Germanic word for 'evening' anywhere in the entry; Pokorny even warns that for the Germanic aft-/eft- group 'steht aber auch Verwandtschaft mit gr. ὄπισθεν, idg. *epi, *opi zur Erwägung'."},
+            {"src": "WLD", "where": "Bd. I pp. 47-49 (WLD_Bd1_pages.txt leaves 55-57), s.v. 'apo, po'", "stance": "partial", "note": "'got. af Praef. und Praep. m. Dat. \"von, von—weg, von—her\", anord. af Adv. und Praep. m. Dat., ags. æf, of, as. af, ahd. aba, ab- \"von, von—weg\", nhd. ab-.' Same Germanic list; again no 'evening'."},
+            {"src": "KLN", "where": "KLN_1966.txt leaf 300 ≈ p.576, s.v. even, n., 'evening'", "stance": "contradicts", "note": "'even, n., evening (poet.) — ME. eve, even, fr. OE. æfen, rel. to OS. āƀand, ON. aptann, Dan. aften, OFris. evend, Du. avond, OHG. aband, MHG. abend, G. Abend, and cogn. with Gk. ὄπι- in ὄπισθε(ν) ... ἐπί \"upon, after\"; hence evening lit. means \"the hinder (= latter) part of the day\". See epi-.' Klein puts the word under *epi, not *apo."},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. awk, awkward", "stance": "supports", "note": "'awk, a. [ME. awke, auke, from Ice. ǫfugr, ǫfugr, contrary; root af, off, away] 1. contrary; backward ...' and 'awkward, a. [ME. awkwarde, from awk-, off, and -ward]' — Webster ties afug- to the same root af/off."},
+            {"src": "IEC", "where": "IEC.txt leaf 31 = pp.29-30, s.v. apo, apomos, apetios", "stance": "supports", "note": "'apo (apo, apo, po) \"away; from, after\". WP I, 47 ... Go. af; OHG aba \"away; from\", abo \"but\"; OE of; ON af' — Mann has the same Germanic material under *apo."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "English",
+          "words": "of, off; after; evening; awkward",
+          "verdict": "disputed",
+          "derivation": "of/off: one Old English word of/æf split in Middle English into the unstressed preposition 'of' and the stressed adverb 'off' (spelling differentiated only from the 16th c.); < PGmc *af < *h₂epo. after: OE æfter (adv./prep.) < PGmc *aftar- < the PIE comparative *ap(o)-tero-, i.e. 'further away/behind'. awkward: mid-14c. awkeward 'in the wrong direction', from ME awk 'back-handed, turned the wrong way' (a Norse loan, ON ǫfugr < PGmc *afug- < *apu-ko-) plus the adverbial suffix -ward; sense 'clumsy' from the 1520s, 'embarrassed' from c.1713. evening: OE ǣfnung, a verbal noun to ǣfnian 'to grow toward evening', from ǣfen 'evening' < PGmc *ēbando- — this last word is exactly the disputed item: Etymonline says the Proto-Germanic form 'is of uncertain origin' and stops there, Klein takes it to *epi/*opi 'after, behind', and no modern IE dictionary files it under *apo. The other three items are secure.",
+          "sources": [
+            "https://www.etymonline.com/word/awkward",
+            "https://www.etymonline.com/word/evening",
+            "https://www.ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {"ref": "none", "status": "not_checked", "note": "the English box carries no citation of its own in the book; it inherits the AHD reference of its parent node #1, which was checked there."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 300 (≈ p.576), s.vv. even 'evening', evening, evensong", "stance": "contradicts", "note": "'evening, n. — ME., fr. OE. æfnung, \"evening\", prop. verbal n. fr. æfnian, \"to become evening\", fr. æfen, \"evening\". See even, \"evening\"' — and 'even, evening' is referred to epi-, not to apo-."},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. awkward", "stance": "supports", "note": "'awkward, a. [ME. awkwarde, from awk-, off, and -ward; AS. -weard ...]' — English awkward from awk 'off, away' (< ON ǫfugr)."},
+            {"src": "AHD", "where": "AHD_watkins1985.txt, index and s.v. apo-", "stance": "partial", "note": "index line 'AWKWARD apo-'; the apo- entry yields OF, OFF, AFTER, AWKWARD, EFTSOONS. 'EVENING' has no entry in the index at all and 'EVEN' is referred to oi-no-/septm."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Indo-European",
+          "words": "P-os, Pos : after, behind",
+          "verdict": "confirmed",
+          "derivation": "Pokorny's headword *pos 'by, about, around, beside', which he himself analyses as 'probably *p + os, Gen.-Abl. to *apo above S. 53 f.' — i.e. an oblique case-form of the very root in the top box, which is exactly the arrow Nourai draws. Nourai's double writing 'P-os, Pos' renders that analysis (p + os). Reflexes: Arcado-Cypriot and Phrygian-Greek πος/πο-, Doric ποτί, Lithuanian pas 'at, by', OCS po 'after', and the -ti- and -kʷo- extensions that give Latin post and Indo-Iranian pasča-. Kent (Old Persian, Lexicon s.v. pasā) prefers a different parsing of the same material — 'pIE *po as in Lat. po-liō, positus, Gk. ἀπό, + *sekʷé, inst. to root noun from *sekʷ- \"follow\"' — but both analyses start from *(a)po, so the arrow stands either way.",
+          "sources": ["https://www.ahdictionary.com/word/indoeurop.html"],
+          "ref_check": [
+            {"ref": "POK:841", "status": "supports", "note": "POK_full.txt line 68658: 'Root / lemma: pos — Meaning: by, about, around, beside — Note: probably *p + os, Gen.-Abl. to *apo above S. 53 f. ... References: WP. II 78 f., WH. II 347 ff. — Page(s): 841-842'. Exactly Nourai's node and its attachment to the root."},
+            {"ref": "AHD:1506", "status": "supports", "note": "AHD_watkins1985.txt s.v. apo-, item 7: '7. Possible root *po(s), on, in: a. Russian po ...; b. Latin post, behind, back, afterward: POST-, POSTERIOR ...; c. Latin pōnere, to put, place, from *po-sinere ...'. In the 1975/76 AHD appendix (pp.1505-1550) the alphabetically early root apo- falls on p.1506, so Nourai's page number fits; the *po(s) sub-entry is where AHD keeps this node."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. II pp.78-79 (WLD_Bd2_pages.txt leaves 82-83)", "stance": "supports", "note": "Walde-Pokorny II 78 f. is the reference Pokorny himself cites for *pos: 'Zu lit. pas auch pastaras \"der letzte, hinterste\" ... Ableitungen: 1. mit -ti ... lat. post, alat. poste \"nach, hinter\" ... 2. mit -qo- ai. paścā (Instr.) Adv. \"hinten, westlich, später\" = av. [pasča]'."},
+            {"src": "IEC", "where": "IEC.txt leaf 31 = pp.29-30", "stance": "partial", "note": "Mann has no separate *pos headword here; he files the Iranian/Slavic 'behind, after' material partly under 'apo ... \"away; from, after\"' (with 'OCS po \"after\"') and partly under 'apetios (apətios, apotios) \"back, rear; last\"'. Same root, different segmentation."},
+            {"src": "KNT", "where": "KNT.txt Lexicon p.194 s.v. pasā", "stance": "partial", "note": "'pIE *po as in Lt. po-liō, positus, Gk. ἀπό, + *sekʷé, inst. to root noun from *sekʷ- \"follow\" ...' — Kent derives the same forms from *po + *sekʷ- rather than from a gen.-abl. *p-os."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Avestan / Old Persian",
+          "words": "pasča, pasca, pasâ : after, behind; paskât : from behind here",
+          "verdict": "confirmed",
+          "derivation": "Avestan pasča (Nourai's 'pasca' is simply the undiacriticked spelling of the same word) 'behind, after', both local and temporal, is *pos + the adverbial -kʷo- suffix, matching Vedic paścā́ 'behind, westward, later'; Avestan paskāt (Vedic paścā́t) is the ablative of the same stem, 'from behind, coming up behind, thereafter' — Nourai's odd gloss 'from behind here' renders Bartholomae's 'von hinten her, hinterdrein'. Old Persian has pasā (never *pasča): the -č- was lost in the south-west Iranian dialect, so OP pasā stands beside Median/Avestan pasča, and OP builds the phrasal adverb pasāva 'after that, afterwards', which is the commonest adverb in the Bīsotūn inscription. Attested in the Yašts and Vidēvdād for Avestan (Yt.10.86, Yt.13.39, V.5.40) and DB 1.27 etc. for Old Persian.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%BE%D8%B3"],
+          "ref_check": [
+            {"ref": "POK:842", "status": "supports", "note": "POK_full.txt, root 'pos', Page(s) 841-842, derivative 2: '2. -kʷo-: Old Indic paścā (Instr.) Adv. \"behind, westlich, later\" = Avestan pasča preposition \"behind, after\", ortlich and zeitlich, Old Indic paścāt (Abl.) preposition \"behind, after, westlich\", Avestan paskāt Adv. \"von hinten her, hinterdrein\" spacial and zeitlich'; derivative 3: 'In ending still controversial is ap. pasā \"after\", preposition ortlich and zeitlich'. All three of Nourai's forms, on the page he cites."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW cols. 881-882 s.vv. paskāt, pasča", "stance": "supports", "note": "'j. paskāt Adv. 1) räumlich \"von hinten her, hinterher, hinterdrein\" ... 2) zeitlich \"darauf, alsdann\" ... Zum lat. post; idg. -ś- aus -śk-. Vgl. pasča ... Pü.: pas, pas hač'; and 'j. pasča \"post\"; 1) Adv.; a) räumlich, α) \"hinten\"'. Bartholomae also records the Pahlavi rendering pas."},
+            {"src": "KNT", "where": "Old Persian, Lexicon p.194 s.vv. pasā, pasāva", "stance": "supports", "note": "'pasā prep. \"after\", temporal with acc. and local with gen.: Av. pasča, NPers. pas, Skt. paścā ... The s in pasā is OP for Med. šč, Av. sč, from pAr. ść.' And 'pasāva phrasal adv. \"after that, afterwards\": pasā + asn. ava' (DB 1.27, 30, 32 ...). Kent even gives the OP → NPers. line Nourai draws next."},
+            {"src": "WLD", "where": "Bd. II p.79", "stance": "supports", "note": "'2. mit -qo- ai. paścā (Instr.) Adv. \"hinten, westlich, später\" = av. [pasča]'."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "pas «پس ۱» : after",
+          "verdict": "confirmed",
+          "derivation": "Old Persian pasā 'after, behind' > Middle Persian pas [ps] 'then, afterwards, behind' (MacKenzie, CPD p.65; Nyberg, Manual II s.v. pas, with the by-form pasēh) > New Persian پس pas. The chart's extras are the regular family: پسین pasīn 'last, final' continues MP pasēn [psyn'] (Mo'in's own footnote in Borhān-e Qāṭeʿ derives it 'مرکب از: پس + ین ... و پهلوی pasēn'); واپسین wāpasīn is پسین with the prefix wā- 'back'; پسوند pasvand '(grammatical) suffix' and پس‌انداز pas-andāz 'savings' are modern compounds of the same adverb. Note that Persian pas is a south-west Iranian continuation of OP pasā, not of Avestan pasča: Hübschmann stresses that OP already had pasā 'without *pasča or the like beside it'.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%BE%D8%B3"],
+          "ref_check": [
+            {"ref": "HRN:70", "status": "supports", "note": "HRN.txt 0-based leaf 91 = printed p.70, numbered entry 315: '315. pes \"hinter, nachher\", pesīn \"letzter\". ... ap. pasā \"hinter\", pasāva \"nachher\"; aw. pasča \"nach\", paskāt \"nachher, hinter\", pasne \"hinter\"; phlv. paš, pasīn \"letzter\"; ai. paścā \"hinter, nachher\", paścāt \"von hinten, hernach\".' Horn's entry is Nourai's node and its parent in one line, and it also covers the extra پسین."},
+            {"ref": "BQT:403", "status": "supports", "note": "BQT_v1_pages.txt \\f-leaves 627-630 = printed pp. ~402-405 (fixed by the continuation notes: leaf 630 ends 'بقیه در صفحهٔ ۴۰۷' and leaf 631 carries 'بقیه از صفحهٔ ۴۰۵'). Leaf 627 has «پس ۱ [به فتح اول و سکون ثانی] مخفف پسر است که در مقابل دختر باشد» and, lower down, «پس ۲» with Šāhnāma verses, plus پسا، پساچین، پس‌افتاده «... و بمعنی پس‌انداز و ذخیره», پس‌افکندن. So Nourai's page is right to within one leaf, and it does carry both the headword پس (with the homonym numeral he reproduces) and the derivative پس‌انداز. Mo'in's etymological footnote 6 on leaf 630 reads «پسین - بفتح اول. مرکب از: پس + ین (پسوند نسبت) [پهلوی pasēn] (فرجامی، آینده)؛ آخرین، اخیر، خلاف پیشین»."},
+            {"ref": "IEC:29", "status": "partial", "note": "IEC.txt leaf 31 = printed pp.29-30 (running head 'aperos — aps'): 'apetios (apətios, apotios) \"back, rear; last\". Cf. apo, opi — Skt. apatyam \"progeny\"; Av. apąš, apaδa; Per. pas (aphetic? or to poti, q.v.); Hitt. apezis ...; Gk. cf. áps; OE OS cf. eft \"back, again\"; Li. apačià \"base, foot\".' Mann has Persian pas on exactly the cited page and under *apo, but by a different intermediate (*apetio-) than Nourai's *pos, and he flags it as uncertain."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, Concise Pahlavi Dictionary p.65", "stance": "supports", "note": "'pas [AHL, BATL, ps | = M, N ~] then, afterwards, behind'; and p.65 'pasēn [psyn' | N pasin] final, last.' The Wiktionary entry for پس cites this same page."},
+            {"src": "NYB", "where": "Manual of Pahlavi II, Glossary s.vv. pas, pasēn (NYB_vol2_glossary.txt lines 2980-2985)", "stance": "supports", "note": "'pas [PHL; BʿTL], with -c: pas-ic, adv. 1. behind: bē raft hēnd ... Vahuman pēš, Zartuxšt pas ... hač ~ from behind ... 2. afterwards, then'; 'pasēn [psyn'] ultimate, final: tan ī ~'."},
+            {"src": "HUB", "where": "Persische Studien, HUB.txt leaves 222 and 229 (≈ pp.212, 219)", "stance": "partial", "note": "'Hinter s ist ein Laut abgefallen in pas \"hinter\" = ap. pasā, vgl. zd. pasča, paskāt'; and 'Geschwunden ist č vielleicht in kas \"jemand\" = zd. kaścit, ap. kasciy. Vgl. pas \"hinter\" = zd. pasča (paskāt), dem aber schon im Ap. pasā (nicht *pasča u. dgl.) gegenübersteht.' Hübschmann insists the New Persian word continues OP pasā specifically, not the Avestan form."},
+            {"src": "MON", "where": "Farhang-e Fārsi (MON_part1/part2 OCR)", "stance": "silent", "note": "the searchable OCR of the Moʿin lexicon volumes does not yield a clean headword hit for پس; Moʿin's etymological note is however reproduced in his footnotes to Borhān-e Qāṭeʿ, quoted above."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Sogdian",
+          "words": "`pyš, pš : then, afterwards",
+          "verdict": "confirmed",
+          "derivation": "Sogdian ʾpyš (Buddhist Sogdian, read opēš/opiš, with the by-forms ʾps-, pš-, pšy) and the prefixal/adverbial psʾ (pš-) 'then, after' both continue Old Iranian pasča directly: prothetic ʾ- (a-) before the cluster, -sč- > -š-, and the vowel raised to -ē-/-i- in the eastern Iranian development. Gharib's dictionary tags both entries '©Av. pasča'. Compounds on the same base are ʾpyšy 'after, behind', ʾpyšsʾr 'backwards', ʾpyštrw / pštrw 'later, then, afterwards'. Nourai's backtick renders the initial aleph.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "SOD:55,300", "status": "supports", "note": "Both page numbers are exact. SOD_pages.txt 0-based leaf 120 = printed p.55 (leaf 119 carries the numeral 54): entry '1403 ʾpyš B — opos, opis (ʾps-) ©Av. pasča ⇒ ps(-), pyš-1, psy — then, afterwards — GMS 179'. SOD_pages.txt leaf 366 = printed p.300 (numeral visible on the page): entry '7474 psʾ(-) M, C — pasa (pš-) ©<Av. pasča ©adv. & pref. ⇒ pšy, ʾpyš — then, after — GMS 179, 373, 1143; BBB p98'. Gharib derives both from Avestan pasča, which is Nourai's arrow."}
+          ],
+          "consulted": [
+            {"src": "SOD", "where": "Gharib, Sogdian Dictionary nos. 1403, 1408, 1409, 7474, 7526", "stance": "supports", "note": "besides the two cited entries, 1408 'ʾpyšy — opišc? after, behind', 1409 'ʾpyšsʾr — opišc-sar, backwards', 7526 'pštrw — pastar(u), then, afterwards' — the whole family is derived from pasča."},
+            {"src": "BRT", "where": "AiW cols. 881-882 s.v. pasča", "stance": "supports", "note": "supplies the Avestan etymon that Gharib's Sogdian entries point to; Bartholomae's Pahlavi gloss 'pas, pas hač' shows the same simplification of -sč- in the Middle Iranian languages."},
+            {"src": "POK", "where": "IEW 841-842 s.v. pos", "stance": "supports", "note": "Pokorny's Iranian material is the same Avestan pasča/paskāt from which the Sogdian forms are drawn; no separate Sogdian citation, so 'supports' only indirectly."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "post : after; pônere : to place",
+          "verdict": "confirmed",
+          "derivation": "post: from *pos-ti (the -ti extension of *pos, formed on the model of *anti > ante), Old Latin poste, whence by loss of final -e the classical post; cognates Oscan púst/post, Umbrian post/pus, and the derivatives posterus, postumus, posticus, and pōne < *posti-ne. pōnere: Ernout-Meillet's 'pōnō est issu de po-sinō > pozno > pōnō', i.e. the preverb po- (the zero-grade *po of *apo, as in po-liō, po-lūbrum, av. pa-zdayeiti) compounded with sinō 'let, place'; the old perfect posīuī/poslui and the participle positum still show the -s-. Its original sense was 'to set aside', generalised to 'to put, place'. Both words are put under this root by Watkins (AHD apo- 7b, 7c).",
+          "sources": ["https://en.wiktionary.org/wiki/post#Latin"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt s.v. apo-, item 7: '... b. Latin post, behind, back, afterward: POST-, POSTERIOR; POSTMORTEM, PREPOSTEROUS, PUISNE, (PUNY); c. Latin pōnere, to put, place, from *po-sinere (sinere, to leave, let; of obscure origin): APPOSITE, COMPONENT, (COMPOSE), ... DEPOSIT, DISPOSE, EXPOUND, IMPONE, IMPOSE, INTERPOSE, OPPOSE, POSITION, POSITIVE, POST ...'. Exactly Nourai's Latin box and the English box below it."}
+          ],
+          "consulted": [
+            {"src": "LAT", "where": "Ernout-Meillet, Dict. étym. lat. s.vv. *posti/poste/post and pōnō", "stance": "supports", "note": "'*postī, poste, post ... post est issu de *pos-ti (cf. ante de *anti); l'i en finale absolue a abouti à e (on a encore la forme poste dans Enn. A.330 poste recumbite)'; and 'pōnō, -is, poslui (puis posui), positum, pōnere. Pōnō est issu de po-sinō > pozno > pōnō ... Sens propre \"mettre à l'écart\".'"},
+            {"src": "POK", "where": "IEW 841 s.v. pos, derivative 1", "stance": "supports", "note": "'derivatives: 1. with -ti ... Latin post, Old Latin poste \"after, behind\", örtlich and zeitlich ... Latin pōne from *posti-ne'; and IEW 54-55 s.v. po: 'lat. po-situs, pōnō aus *po-s[i]nō, po-liō, po-lūbrum'."},
+            {"src": "WLD", "where": "Bd. II pp.78-79", "stance": "supports", "note": "'lat. post, alat. poste \"nach, hinter\", örtlich und zeitlich ... davon lat. posterus, osk. pustrei, umbr. postra, lat. postumus ... umbr. postne, lat. pone aus *posti-ne'."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "postpone; oppose, propose, compose, impose, posture",
+          "verdict": "confirmed",
+          "derivation": "postpone (15th c.) is a direct Latinism, postpōnere 'to place after' = post + pōnere, so it draws on both words in the parent box. The rest are the pōnere family, all reaching English through French or directly from Latin: oppose < Old French oposer (a French re-formation of Latin oppōnere on poser), propose < OF proposer (Lat. prōpōnere), compose < OF composer (Lat. compōnere), impose < OF imposer (Lat. impōnere); the -pose verbs owe their -pos- to Late Latin pausāre crossed with the pōnere compounds, which is why the nouns keep the Latin stem (opposition, composition). posture < French posture < Italian postura < Latin positūra 'position', from positus, the participle of pōnere.",
+          "sources": ["https://www.ahdictionary.com/word/indoeurop.html"],
+          "ref_check": [
+            {"ref": "none", "status": "not_checked", "note": "the English box carries no citation of its own; it inherits the AHD reference of its parent node #7, checked there — AHD's apo- 7c lists COMPOSE, IMPOSE, OPPOSE, POSITION, POST etc. as derivatives."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "AHD_watkins1985.txt s.v. apo- 7c", "stance": "supports", "note": "the derivative list 'APPOSITE, (APPOSITION), COMPONENT, (COMPOSE), (COMPOSITE), (COMPOSITION), (COMPOUND), DEPONE, DEPOSIT, DISPOSE, EXPOUND, IMPONE, IMPOSE, INTERPOSE, OPPOSE, POSITION, POSITIVE, POST, POSTS...' covers every word in Nourai's box."},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. pōnō", "stance": "supports", "note": "'Positio n'apparaît du reste qu'à l'époque impériale ... positūra (Lucr.) traduit θέσις' — the source of posture; and the compounds prōpōnō, compōnō, oppōnō, impōnō are listed there."},
+            {"src": "KLN", "where": "KLN_1966 s.vv. compose, impose, oppose, posture", "stance": "supports", "note": "Klein routes all the -pose verbs through Old French -poser and back to Latin pōnere/positum, and posture through F. posture, It. postura, L. positūra."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "A`.q.b",
+      "verdict": "disputed",
+      "modern_form": "Common (Proto-)Semitic root *ʿ-q-b 'heel; to follow at the heel', not specifically Syriac",
+      "note": "The root itself is real and its gloss is right, but the language label is wrong in a way that inverts the chart. ʿ-q-b is inherited in every branch of Semitic: Akkadian eqbu/iqbu 'heel', Ugaritic and Hebrew ʿāqēb, Aramaic/Syriac ʿeqbā and the verb ʿqab 'to track, investigate', Arabic ʿaqib 'heel' and ʿaqaba 'to follow'. Nourai's own reference says so: Klein (p.823) derives Hebrew Yaʿăqōbh from Hebrew ʿāqēbh and lists 'Aram. ʿiqbā, Akkad. iqbu ... Arab. ʿāqib, ʿaqaba' as words it 'is rel. to' — cognates, not ancestors. Hebrew Yaʿăqōb is moreover attested in Bronze-Age Amorite/Egyptian form (yaʿqub-ʾil) a millennium before Syriac existed, so Hebrew cannot descend from Syriac. The one place where a Syriac source is genuinely defensible is the sub-claim Jeffery makes on the page Nourai cites: Arabic Yaʿqūb, the Qurʾānic name, probably reached Arabic from Syriac Yaʿqūḇ. A correct root box would read 'Semitic ʿ-q-b', with the Syriac→Arabic arrow restricted to the personal name.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D7%A2%D7%A7%D7%91",
+        "https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%A8"
+      ],
+      "ref_check": [
+        {"ref": "KLN:823", "status": "partial", "note": "KLN_1966.txt 0-based leaf 444 (its page numeral is 822; leaf 445 = 824-825), s.v. Jacob: 'Late L. Jacōbus, fr. Gk. Ἰακώβος, fr. Heb. Yaʿăqōbh, lit. \"one that takes by the heel\", a derivative of ʿaqēbh, \"heel\", whence ʿaqabh, \"he followed at the heel, he overreached, circumvented\", which is rel. to Aram. ʿiqbā, Akkad. iqbu, \"heel; trace, mark\", Arab. ʿāqib, \"heel\", ʿiqbah, \"mark, trace, sign\", ʿaqaba, \"he followed (at the heel), succeeded\".' The page number is exact and every form on Nourai's chart is there, but Klein's structure is Hebrew-internal with Aramaic/Akkadian/Arabic as cognates; he nowhere makes Syriac the source."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "a`.q.b : to follow; a`qeb : heel; Ya`qŭb : A prophet's name (follower, successor)",
+          "verdict": "plausible",
+          "derivation": "The three items need to be separated. (a) The verb ʿaqaba (ʿ-q-b, form I) 'to follow, come after, succeed', with form II ʿaqqaba 'to pursue, to comment' and the verbal noun taʿqīb, and (b) the noun ʿaqib/ʿaqb 'heel; end; offspring' are inherited Arabic, the regular reflexes of the common-Semitic root; they are cognate with Syriac ʿqab/ʿeqbā, not borrowed from it, and Nourai's own reference (Klein) treats them as cognates. (c) The proper name يعقوب Yaʿqūb is a different matter: it is a foreign name in Arabic, and Jeffery, on the very page cited, concludes that it most likely came in from Syriac ܝܥܩܘܒ Yaʿqūḇ through Christian channels rather than directly from Hebrew — so for this word the Syriac→Arabic arrow is exactly right. The Arabic form Yaʿqūb with -ū- reflects the Syriac vocalisation, and it was already known to the pre-Islamic Arabs; Arab lexicographers themselves classed it as a loan (al-Jawālīqī, al-Khafājī, as-Suyūṭī).",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%A8"],
+          "ref_check": [
+            {"ref": "KLN:823", "status": "partial", "note": "KLN_1966 leaf 444-445 (p.823), s.v. Jacob: Arabic ʿāqib 'heel', ʿiqbah 'mark, trace, sign', ʿaqaba 'he followed (at the heel), succeeded' are listed, but as words the Hebrew 'is rel. to', i.e. cognates of a shared Semitic root — not as Syriac loans."},
+            {"ref": "FVQ:291", "status": "supports", "note": "FVQ_pages.txt 0-based leaf 308, running head 'FOREIGN VOCABULARY OF THE QURʾĀN 291', entry Yaʿqūb: 'There were some who considered it as Arabic derived from [ʿaqiba], but in general it was recognized as a foreign word, cf. al-Jawālīqī, 155; Zam. on xix, 57; Baiḍ. on ii, 29; as-Suyūṭī, Muzhir, i, 138, 140; al-Khafājī, 215. Apparently it was known among the Arabs in pre-Islamic days. It may have come from the Heb. Yaʿăqōb, though the fact that Muhammad has got his relationship somewhat mixed might argue that he got the name from Christian sources, probably from the Syr. Yaʿqūḇ, which was the source of the name in the Manichaean fragments (Salemann, Manichaeische Studien, i, 86).' This is precisely Nourai's Syriac→Arabic arrow, for the name."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.v. Jacob", "stance": "partial", "note": "gives the Arabic forms as cognates of Hebrew, not derivatives of Syriac (quoted above)."},
+            {"src": "FVQ", "where": "Jeffery, Foreign Vocabulary p.291", "stance": "supports", "note": "'probably from the Syr. ܝܥܩܘܒ' for the name Yaʿqūb."},
+            {"src": "RCH", "where": "Richardson, Persian-Arabic-English Dictionary, s.v.", "stance": "supports", "note": "'A [ʿaqib] ʿaqib, Behind, after' — the Arabic noun in its adverbial use, the form Persian borrowed."},
+            {"src": "AFA", "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen", "stance": "silent", "note": "grep for ʿaqib / Jakob turns up nothing: Fraenkel does not treat ʿ-q-b as an Aramaic loanword in Arabic, which is consistent with the root being inherited rather than borrowed."},
+            {"src": "TAD", "where": "al-Unaysī, Tafsīr al-alfāẓ al-dākhila", "stance": "silent", "note": "no entry for عقب or يعقوب in the OCR text."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "aqab «عقب» : back, behind; Ya`qŭb «یعقوب» : Jacob",
+          "verdict": "confirmed",
+          "derivation": "Both are ordinary Arabic loans into New Persian, taken over from the post-conquest religious and administrative vocabulary. عقب aqab (Arabic ʿaqb/ʿaqib 'heel, hind part') is used in Persian as a noun 'back part' and a preposition/adverb 'behind, after' (عقبِ خانه, عقب رفتن), displacing native پس in much modern usage. یعقوب Yaʿqūb is the Qurʾānic form of the patriarch's name, hence also a common Persian personal name. The chart's extras are the other Arabic derivatives of the same root that Persian took over ready-made: تعقیب taʿqīb (form II verbal noun) 'pursuit, following up', عقبیٰ ʿuqbā 'the hereafter', عقوبت ʿuqūbat 'punishment' (what follows a deed), عاقبت ʿāqibat 'outcome, end'. Because they are Arabic stem-formations, not Persian coinages, they entered as whole words.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%A8"],
+          "ref_check": [
+            {"ref": "FVA:276", "status": "not_checked", "note": "S. M. Nahvi, Farhang-e Vāzheh-hā-ye ʿArabi dar Fārsi — refs_online.json records 'Searched archive.org, ketabnak, noorlib, web: no digital copy found', and there is no local file, so the page could not be opened."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Farhang-e Fārsi (MON_part2 OCR), compounds عقب‌نشینی, عقب رفتن etc.", "stance": "supports", "note": "the OCR shows عقب used throughout as an ordinary Persian word ('عقب: پس، پیش', 'عقب‌نشینی کردن، عقب رفتن'); Moʿin's Arabic-origin tag [ع.] is standard for this headword, though the headword line itself is not cleanly recoverable from this OCR."},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ (BQT_v1/v2_pages.txt)", "stance": "silent", "note": "عقب occurs only inside definitions, never as a headword — expected, since Borhān is a dictionary of Persian (dari) words and excludes plain Arabic loans."},
+            {"src": "RCH", "where": "Richardson, Persian-Arabic-English Dictionary s.v. ʿaqib", "stance": "supports", "note": "'A [ʿaqib], Behind, after' — listed with the 'A' (Arabic) tag in a Persian dictionary, i.e. exactly an Arabic word current in Persian."},
+            {"src": "FVQ", "where": "Jeffery p.291", "stance": "supports", "note": "establishes Yaʿqūb as the Qurʾānic Arabic form, which is the shape Persian یعقوب reflects."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Hebrew",
+          "words": "âqebh : heel; Ya`aqôbh : one that takes by the heel, follower, name of a prophet",
+          "verdict": "disputed",
+          "derivation": "The forms and glosses are correct: עָקֵב ʿāqēb 'heel, footprint', verb עָקַב ʿāqab 'to follow at the heel, supplant, overreach', and יַעֲקֹב Yaʿăqōb, formally a prefix-conjugation (imperfect) of that verb, explained in Genesis 25:26 by Esau's heel and in 27:36 by the pun on ʿāqab 'he supplanted'. What is wrong is the arrow: Hebrew did not get this from Syriac. Syriac is a first-millennium-CE dialect of Eastern Aramaic, while Hebrew ʿāqēb and the name Yaʿăqōb are attested in the Iron Age and the name-type Yaʿqub-ʾil already in second-millennium Amorite and Egyptian sources; Hebrew and Syriac are sister reflexes of a common Semitic *ʿaqib-. Klein, the reference Nourai cites, builds the entry the other way round (Hebrew ʿāqēbh → ʿaqabh → Yaʿăqōbh, with Aramaic/Akkadian/Arabic as relatives). Everything below this node — Greek Ἰακώβ/Ἰάκωβος, Latin Jacobus, French Jacques — does come from the Hebrew name, so only the incoming arrow is at fault.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D7%A2%D7%A7%D7%91",
+            "https://en.wiktionary.org/wiki/%D7%99%D7%A2%D7%A7%D7%91",
+            "https://www.etymonline.com/word/James"
+          ],
+          "ref_check": [
+            {"ref": "KLN:823", "status": "supports", "note": "KLN_1966 leaf 444-445 = p.823 s.v. Jacob: 'fr. Heb. Yaʿăqōbh, lit. \"one that takes by the heel\", a derivative of ʿaqēbh, \"heel\", whence ʿaqabh, \"he followed at the heel, he overreached, circumvented\"'. Klein supports the two Hebrew words and their internal relation exactly as Nourai glosses them (though not the Syriac ancestry claimed for them)."},
+            {"ref": "FSD:1307", "status": "supports", "note": "FSD_vol2.txt 0-based leaf 601 (page numeral 1308 on the leaf; the entry straddles 1307-1308), s.v. jack: '[< OF. Jacques, Jacob (= OF. Jakemes, James, > E. James), < LL. Jacobus, < Gr. Iakōbos, < Heb. Yaʿaqob, lit. supplanter, < ʿāqab, supplant.]' — Funk & Wagnalls gives the whole Hebrew→Greek→Late Latin→French chain on the page cited."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823", "stance": "partial", "note": "supports the Hebrew forms, contradicts the Syriac parentage (cognates, not ancestors)."},
+            {"src": "FSD", "where": "Funk & Wagnalls, New Standard Dictionary pp.1307-1308 s.v. jack, and s.v. Jacob", "stance": "supports", "note": "'Ja'cob ... [Heb., supplanter]', with the Latin/French/Italian/Spanish forms Jacobus, Jacob, Giacobbe, Jacobo listed."},
+            {"src": "AFA", "where": "Fraenkel, Aramäische Fremdwörter", "stance": "silent", "note": "no treatment of ʿ-q-b; the root is not an Aramaic import anywhere."},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. jack", "stance": "supports", "note": "'LL. Jacobus; Gr. Iakobos, from Heb. yaʿaqōb, Jacob, lit., seizing by the heel, a supplanter.'"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "Jacobos",
+          "verdict": "confirmed",
+          "derivation": "Greek Ἰακώβ (indeclinable) is the Septuagint's transcription of Hebrew יַעֲקֹב, with η/ω rendering the Hebrew vowels and the final -b as β; alongside it the Hellenised, fully declinable Ἰάκωβος (Nourai's 'Jacobos') was formed with the Greek masculine ending -ος and is the form used in the New Testament for James son of Zebedee and James son of Alphaeus. The doublet matters for what follows: Ἰακώβ stayed the patriarch's name, Ἰάκωβος became the apostles' name and so the ancestor of the European personal names.",
+          "sources": ["https://www.etymonline.com/word/James"],
+          "ref_check": [
+            {"ref": "FSD:1307", "status": "supports", "note": "FSD_vol2.txt leaf 601 (pp.1307-1308) s.v. jack: '< LL. Jacobus, < Gr. Iakōbos, < Heb. Yaʿaqob' — the Greek link on the cited page."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.v. Jacob", "stance": "supports", "note": "'Late L. Jacōbus, fr. Gk. Ἰακώβος, fr. Heb. Yaʿăqōbh'."},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. jack", "stance": "supports", "note": "'OFr. Jaque, Jaques; LL. Jacobus; Gr. Iakobos, from Heb. yaʿaqōb'."},
+            {"src": "FSD", "where": "Funk & Wagnalls p.1307", "stance": "supports", "note": "as quoted."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Late Latin",
+          "words": "Jacobŭs",
+          "verdict": "confirmed",
+          "derivation": "Late Latin Iacōbus, the Vulgate/ecclesiastical Latinisation of Greek Ἰάκωβος with the second-declension ending -us (beside indeclinable Iacob for the patriarch). Within Latin it developed a popular variant Iacōmus (b > m before the labial, or by dissimilation in Vulgar Latin), and the two forms then went separate ways in Romance: Iacōbus > Spanish Jacobo/Iago (whence Sant-Iago, Diego), Old French Jaques; Iacōmus > Old French James, Italian Giacomo, Spanish Jaime, and English James. The chart's later Latin -ŭs marking simply notes the short vowel of the ending.",
+          "sources": ["https://www.etymonline.com/word/James"],
+          "ref_check": [
+            {"ref": "FSD:1307", "status": "supports", "note": "FSD_vol2.txt leaf 601 (pp.1307-1308) s.v. jack: '< OF. Jacques, Jacob (= OF. Jakemes, James, > E. James), < LL. Jacobus' — the Late Latin stage and both Old French continuations are named on the cited page."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.vv. Jacob, Jacobin, Jacobite, jacobus, James", "stance": "supports", "note": "'Jacobite ... Formed with subst. suff. -ite fr. Late L. Jacōbus, \"Jacob, James\"'; 'James, masc. PN. — Late L. Jacōmus, altered fr. Jacōbus.'"},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. jack", "stance": "supports", "note": "'LL. Jacobus' in the chain OFr. Jaque(s) < LL. Jacobus < Gr. Iakobos."},
+            {"src": "LAT", "where": "Ernout-Meillet", "stance": "silent", "note": "a Christian-era proper name; Ernout-Meillet's dictionary of the Latin lexicon has no entry for it."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "Jaques",
+          "verdict": "confirmed",
+          "derivation": "Old French Jaques (modern Jacques), from Late Latin Iacōbus — more precisely from a hypocoristic/diminutive of it — with the regular Gallo-Romance loss of the intervocalic -b- and of the final syllable; the spelling Jaques is the medieval one, Jacques the modern. Because Jacques was the stock name for a French peasant in the 14th century it also gave the common nouns jaque 'sleeveless coat' (> jaquette > English jacket) and jacquerie 'peasants' revolt'. From the same name France produced the feminine diminutive Jacqueline, the direct source of nodes #7 and #8.",
+          "sources": ["https://www.etymonline.com/word/James"],
+          "ref_check": [
+            {"ref": "none", "status": "not_checked", "note": "the French box carries no citation of its own; the chain is covered by the KLN:823 and FSD:1307 references of its neighbours, both checked."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.vv. Jack, jack 'a sleeveless coat', jacquerie", "stance": "supports", "note": "'OF. Jaques (F. Jacques), fr. Late L. Jacōbus, for earlier Jacobus'; and 'OF. jaque, \"sleeveless coat\", fr. Jacques, \"Jack\", a nickname given to the French peasant in the 14th century'."},
+            {"src": "FSD", "where": "Funk & Wagnalls pp.1307-1308", "stance": "supports", "note": "'< OF. Jacques, Jacob ... < LL. Jacobus'."},
+            {"src": "DEV", "where": "Devic, Dict. étym. des mots français d'origine orientale", "stance": "silent", "note": "no entry for Jacques — expected: Devic covers Arabic/Persian/Turkish borrowings, and a biblical name transmitted through Latin is outside his scope."},
+            {"src": "PHN", "where": "Pihan, Dict. étym. des mots ... dérivés de l'arabe, du persan ou du turc", "stance": "silent", "note": "no occurrence of Jacques."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "žâk «ژاک»",
+          "verdict": "confirmed",
+          "derivation": "A modern Persian transcription of the French given name Jacques [ʒak], taken over with the twentieth-century wave of French cultural borrowings: French /ʒ/ is written ژ ž (the same letter used in ژورنال, ژنرال, ژاکت), /a/ as ا, /k/ as ک. The chart's extra ژاکلین Žāklin is French Jacqueline, the feminine diminutive of the same name, and it is the far commoner of the two in Persian. These are name transcriptions, not inherited words, so there is no sound change to describe beyond the phonemic substitution.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "MON", "status": "not_checked", "note": "Nourai gives no page. Proper names in Farhang-e Fārsi are in volumes 5-6 (aʿlām), which are not among the digitised volumes; the OCR of the lexicon volumes on disk has ژاکت (jacket) but no ژاک or ژاکلین."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.v. ژاکت", "stance": "partial", "note": "'ژاکت: ... (اِ.) جامهٔ مردانه که تا زانو ...' — Moʿin has the related French borrowing ژاکت (< F. jaquette, itself from jaque < Jacques) with the same ژ for French /ʒ/, which is the transcription convention at issue; the name itself is in the undigitised aʿlām volumes."},
+            {"src": "LKT", "where": "Lokotsch, Etym. Wb. der europäischen Wörter orientalischen Ursprungs", "stance": "silent", "note": "the one occurrence of 'Jacques' in the text is a bibliographic name; Lokotsch treats Oriental words in European languages, not the reverse direction, so he has nothing on Persian ژاک."},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ", "stance": "silent", "note": "a 17th-century dictionary of Persian; a 20th-century French name transcription cannot appear in it."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "Jacqueline",
+          "verdict": "confirmed",
+          "derivation": "English Jacqueline is French Jacqueline, the feminine of Jacquelin, itself a double diminutive of Jacques (Jacques + -el + -in); it entered English in the Middle Ages (Jacquetta/Jaquelin) and was re-borrowed in its French spelling and pronunciation in the twentieth century. So the parent box (French Jaques) is the right one, and the ultimate source is Late Latin Iacōbus < Greek Ἰάκωβος < Hebrew Yaʿăqōb.",
+          "sources": ["https://www.etymonline.com/word/James"],
+          "ref_check": [
+            {"ref": "AHD:699", "status": "not_checked", "note": "AHD:699 is a page in the main body of the 1975/76 American Heritage Dictionary, not in the Indo-European appendix; only the appendix (and the modern online edition's root pages) is accessible, and the 1970s AHD scans on archive.org are lending-restricted (djvu.txt returns 401). The claim itself is uncontroversial."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.vv. Jacob, Jacobin, jacquerie", "stance": "partial", "note": "Klein has no separate Jacqueline entry but establishes the French base: 'OF. Jaques (F. Jacques), fr. Late L. Jacōbus' and 'F. jacquerie, prop. \"rising of peasants\", fr. Jacques'."},
+            {"src": "WEB", "where": "WEB_vol1.txt", "stance": "silent", "note": "grep for 'Jacqueline' in Webster's New Twentieth Century vol. 1 returns nothing (the name is in the biographical/given-name supplement, not the main A-Z of this volume)."},
+            {"src": "FSD", "where": "Funk & Wagnalls p.1307 s.v. jack", "stance": "supports", "note": "gives OF. Jacques as the French base from which the diminutives are formed."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "Jacob, Jack, Jim, James",
+          "verdict": "disputed",
+          "derivation": "Jacob and James are secure. Jacob is the learned/biblical form, taken straight from Late Latin Iacōbus (Wycliffe onwards); James is the Middle English vernacular reflex of Late Latin Iacōmus (the b>m variant of Iacōbus) through Old French James, attested from the late 12th century. Jim is a 19th-century pet form of James (with Jimmy, Jem). Jack is the disputed item. Klein — the reference cited — makes it 'Familiar form of John, but derived fr. OF. Jaques (F. Jacques), fr. Late L. Jacōbus', and Funk & Wagnalls and Webster's say the same. Modern scholarship rejects that: the OED and Wiktionary derive Jack from Middle English Jakke/Jankin/Jankyn, via Anglo-Norman Jakke from Middle Dutch Janke, a diminutive of Jan 'John' — the vowel and the -kin suffix point to John, and the sense-history (Jack as a generic name for a common fellow) matches the John words. Jack is only secondarily used as an anglicisation of French Jacques. So the Jacobus→Jack edge as drawn is at best a minority view, and with it the descent of node #10.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Jack",
+            "https://www.etymonline.com/word/James"
+          ],
+          "ref_check": [
+            {"ref": "KLN:823", "status": "partial", "note": "KLN_1966 leaf 444 (p.823): 'Jack, masc. PN. — Familiar form of John, but derived fr. OF. Jaques (F. Jacques), fr. Late L. Jacōbus, for earlier Jacobus, fr. Gk., fr. Heb. Yaʿăqōbh, \"Jacob\"'; 'James, masc. PN. — Late L. Jacōmus, altered fr. Jacōbus. See Jacob and cp. jimmy'; 'Jacob ... Late L. Jacōbus'. The page supports Jacob, James and Jim exactly; for Jack it supports Nourai's arrow but states the very tension ('familiar form of John, but derived fr. OF. Jaques') that modern dictionaries resolve the other way."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966 p.823 s.vv. Jack, James, Jacob", "stance": "supports", "note": "quoted above; Klein routes Jack through OF Jaques."},
+            {"src": "FSD", "where": "Funk & Wagnalls pp.1307-1308 s.v. jack", "stance": "supports", "note": "'[< OF. Jacques, Jacob (= OF. Jakemes, James, > E. James), < LL. Jacobus, < Gr. Iakōbos, < Heb. Yaʿaqob, lit. supplanter, < ʿāqab, supplant.]'"},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. jack", "stance": "supports", "note": "'jack, n. [ME. Jacke, Jake; OFr. Jaque, Jaques; LL. Jacobus; Gr. Iakobos, from Heb. yaʿaqōb, Jacob, lit., seizing by the heel, a supplanter. From the nickname ... used for a servant or boy who made himself generally useful, it is applied to lifting instruments.]'"},
+            {"src": "SKT", "where": "SKT.txt (Skeat, Concise Etym. Dict.)", "stance": "silent", "note": "the OCR of this scan is too degraded to locate the headwords Jack/James (grep for 'awkward', 'post' returns only stray inflected forms); no usable reading obtained."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "jak «جَک» : jack (for lifting)",
+          "verdict": "confirmed",
+          "derivation": "Persian جک jak is a twentieth-century borrowing of English 'jack' in the mechanical sense — a screw or hydraulic lifting device, above all the car jack (جک ماشین) — with ج for English /dʒ/ and the short a written only by the fatḥa Nourai marks. The English word itself is the personal name Jack transferred to a labour-saving contrivance ('a boy who made himself generally useful'), so the semantic step 'servant/fellow' → 'device that does the lifting for you' happened in English, not in Persian; Persian took over only the finished technical term. The chain above it (Jack ← Jacques ← Jacobus) is the disputed part, not this last link.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AC%DA%A9",
+            "https://fa.wiktionary.org/wiki/%D8%AC%DA%A9"
+          ],
+          "ref_check": [
+            {"ref": "MON:1233", "status": "not_checked", "note": "the page itself could not be opened: Moʿin's Farhang-e Fārsi has no page-mapped digital copy (refs_online.json: 'Page numbers cannot be mapped online'), and the local OCR of the lexicon volumes gives no clean headword hit for جک. Indirect corroboration: the Persian Wiktionary entry جک gives the etymology 'انگلیسی' and the definition 'دستگاهی به شکل اهرم که برای بالا بردن و نگاه داشتن اشیاء سنگین مانند اتومبیل و غیره به کار برند', citing فرهنگ لغت معین as its source — i.e. it reproduces the very Moʿin entry Nourai cites."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Farhang-e Moʿin s.v. جک, as reproduced by fa.wiktionary", "stance": "supports", "note": "'ریشه‌شناسی: انگلیسی — اسم: دستگاهی به شکل اهرم که برای بالا بردن و نگاه داشتن اشیاء سنگین مانند اتومبیل و غیره به کار برند. منابع: فرهنگ لغت معین'."},
+            {"src": "WEB", "where": "WEB_vol1.txt s.v. jack, sense 8", "stance": "supports", "note": "'8. any of various machines used to lift, hoist, or move something heavy a short distance; as, a jackscrew, hydraulic jack, automobile jack' — the English sense Persian borrowed, and Webster explicitly derives it from the personal name."},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ", "stance": "silent", "note": "no entry: a modern European technical loan cannot be in a 1062/1652 dictionary."}
+          ]
+        }
+      ]
+    }
+  ]
+}
