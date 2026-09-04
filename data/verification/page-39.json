@@ -1,0 +1,950 @@
+{
+  "pdf_page": 39,
+  "book_page": 9,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Aidh, Es 1",
+      "verdict": "plausible",
+      "modern_form": "PIE *h₂eydʰ- 'to ignite, burn; fire' (Pokorny 11-12 'ai-dh-'; Walde-Pokorny I 4-6; Watkins/AHD 'aidh-')",
+      "note": "Root form, language label and gloss 'to burn' are all correct: Pokorny 11-12 gives ai-dh- 'brennen, leuchten' with exactly the material Nourai charts (Av. aēsma-, Av. ištya-, Gk. aiθήρ, Lat. aestus/aestās, Gmc. *ail- in OE ǣlan). The second root name 'Es 1' is Nourai's own alias — in his dictionary 'Es 1' is itself a redirect to 'Aidh' (see page-161.json) — and it conflates *h₂eydʰ- with the separate root *as- / *h₁eus- 'to burn, glow' (Pokorny 68, Watkins 'as-'), which Pokorny and Watkins keep apart. The conflation is not baseless: Walde-Pokorny I 6 records Uhlenbeck's and Persson's proposal to trace the *aidh-s-t- words 'vielmehr auf idg. ais-t- von der Wzf. *ai-s- neben *ai-dh-', and Etymonline still assigns ANNEAL to *as- rather than *aidh-. Two internal problems on the page: the Avestan/Old Persian box mixes an Avestan word (aēsma-) with a Middle Persian one (hēzum) and mis-glosses aēsma- as 'heat' (it is 'firewood'); and the last Latin box prints 'asetus', a misprint for Latin aestus (confirmed on the page image at 600 dpi, so it is Nourai's error, not an extraction error). The brick branch (Av. ištya-, OP išti-, MP/NP xišt) rests on Johansson IF 19,136, accepted by Walde-Pokorny, Pokorny, Horn, Hübschmann, Buck and Mann, but modern Indo-Iranianists (Lubotsky 1999/2001, Schmitt 2018, as cited by Wiktionary) treat Indo-Iranian *išt(i)- 'brick' as a BMAC-substrate loan word, i.e. not a derivative of 'to burn' at all.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-",
+        "https://www.etymonline.com/word/ether",
+        "https://www.etymonline.com/word/estuary",
+        "https://www.etymonline.com/word/anneal"
+      ],
+      "ref_check": [
+        {
+          "ref": "PRT",
+          "status": "not_checked",
+          "note": "Partridge, Origins (1958). refs_online: all archive.org copies are lending-only; no open text, no page number given by Nourai."
+        },
+        {
+          "ref": "KLN",
+          "status": "supports",
+          "note": "KLN_1966.txt leaf 297 (~p.570) s.v. 'ether, also aether': 'L. aether, fr. Gk. αἰθήρ ... derives fr. αἴθειν, \"to burn\", fr. I.-E. base *aidh-, \"to burn\", whence also L. aedes'."
+        },
+        {
+          "ref": "AHD",
+          "status": "supports",
+          "note": "AHD_watkins1985.txt l.270-271: 'aidh-. To burn. 1. Suffixed form *aidh-sto- ... b. Latin aestas ...: AESTIVAL. 2. Suffixed form *aidh-lo- perhaps in Germanic *ail- in Old English āl, fire: ANNEAL. ... 4. Suffixed form *aidh-stu- in Latin aestus, heat, swell, surge, tide: ESTUARY. 5. Suffixed form *aidh-er- in Greek aithēr, air: AETHER, ETHER. [Pok. ai-dh- 11.]' — no 'Es'/'as-' material here; Watkins lists as- separately."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "aesmo; hĕzum",
+          "verdict": "plausible",
+          "derivation": "Avestan aēsma- m. is 'firewood', not 'heat': Bartholomae AiW s.v. 'aēsma- m. \"Brennholz\"', cited from Y.7.3, V.14.2 etc., from Proto-Iranian *aizma- < *h₂eydʰ-s-mo- (Walde-Pokorny I 5: 'av. aēsma- m. \"Brennholz\" (*aidh-s-mo-, vgl. ohne s ai. idhma-ḥ)'); the -s- is the same formant as in Lat. aestus and Lith. iesmas. The second word, hēzum, is not Avestan or Old Persian at all but Middle Persian: MacKenzie CPD writes it ēzm (ideogram CYBA), and the h- plus the anaptyctic -u- are late Iranian developments (Hübschmann, Persische Studien §64a, p.174-5: 'hēzum \"Brennholz\" aus *ēzm = ap. *aizma- = zd. aēsma-', the u inserted to avoid an over-long syllable). Old Persian has no attested *aizma- — the Old Persian label is unsupported.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-",
+            "https://en.wiktionary.org/wiki/%D9%87%DB%8C%D8%B2%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:11",
+              "status": "supports",
+              "note": "Pokorny 11-12 (POK_full.txt 'Root/lemma: ai-dh-', Page(s): 11-12): 'Avestan aesma m. \"Firewood\" (*aidh-s-mo-, cf without s Old Indic idhma-h m. ds.); in addition Baltic *aismia in Lithuanian iesme \"firewood\"'. Supports the arrow root->aēsma-; nothing there about a form hēzum being Avestan or Old Persian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.v. aēsma- (BRT.txt l.2726)",
+              "stance": "supports",
+              "note": "'i. aesma- m. \"Brennholz\" ... Zum ai. V. indhati, gr. αἴθω. Aus ir. *aizma-. — np. hīzum.' Gloss is 'firewood', not 'heat'."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.5 (WLD_Bd1_pages.txt leaf 14)",
+              "stance": "supports",
+              "note": "'av. aesma- m. \"Brennholz\" (*aidh-s-mo-, vgl. ohne s ai. idhma-h m. \"Brennholz\")'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aidhmos, aidhsmos' (IEC.txt l.288)",
+              "stance": "supports",
+              "note": "'aidhmos, aidhsmos \"burning\". WP I,5. Skt. idhmáh; Av. aesmo; ON eimr; OE am; ... Li. iesmas, iesme \"firing-charge\".' Mann cites the Avestan nominative aesmo, exactly Nourai's spelling."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie CPD s.v. ēzm (PHD_mackenzie.txt l.2271)",
+              "stance": "partial",
+              "note": "'ēzm [CYBA < A ...| N hēzum] firewood, fuel' — the Pahlavi form is ēzm; hēzum is given as the New Persian outcome, so the box's language label for hĕzum is wrong."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 'aidh-' (AHD_watkins1985.txt l.270)",
+              "stance": "silent",
+              "note": "Watkins lists only Germanic, Latin and Greek reflexes under aidh-; no Iranian material."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "hîzom «هیزم»; hîmeh «هیمه»",
+          "verdict": "plausible",
+          "derivation": "هیزم hīzom continues MP ēzm/hēzum < Proto-Iranian *aizma- < *h₂eydʰ-s-mo-, the same word as Av. aēsma-: the diphthong ai > ē, an anaptyctic -u- breaks the final cluster -zm, and a prothetic h- is added before the initial vowel (Hübschmann PSt §64a p.174-5; the same prothesis as in Pāzand hēzum). Horn no.1117 (p.249) gives the chain 'hēzum, hēzem \"Brennholz\"; aw. aēsma-; phlv. ēsm ..., hēzam bezw. ēzam (pāz. hēzam); ai. idhmá-', with Kurdish ēzing and Munji ēzma. The second word هیمه hīma 'firewood' is only a synonym: Horn prints it inside the same entry and Mo'in cross-refers ('رک: هیمه') and glosses هیمه simply as هیزم without an origin tag, but no source derives hīma from *aizma- phonetically (the -z- would have to disappear without trace), so its membership in this box is asserted rather than demonstrated. The Molavī line quoted on the chart ('ور بود خاری تو هیمهٔ گلخنی') uses هیمه in the ordinary sense 'firewood for the bath-house furnace'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%87%DB%8C%D8%B2%D9%85",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2407",
+              "status": "supports",
+              "note": "Borhan-e Qate' p.2407 (fetched with tools/ref_page.py BQT:2407 -> BQT_v4 pdf p.490), Mo'in's etymological footnote to هیزم: 'هیزم - بتلفظ قدیم hēzum (تلفظ کنونی hīzom)، اوستا aēsma-، پهلوی ēsm, hēzam، پازند hēzum، هندی باستان idhma-، منجی ezma، کردی ēzing ... رک: هیمه'. Exactly the arrow Nourai draws, and it is also the source of his cross-reference to هیمه."
+            },
+            {
+              "ref": "HRN:249",
+              "status": "supports",
+              "note": "Horn, Grundriss p.249 (HRN.txt leaf 270) no.1117: 'hēzum (Is. 30,88), hēzem \"Brennholz\"; hīme. aw. aēsma \"Brennholz\"; phlv. ēsm (nur umschreibend), hēzam bezw. ēzam (päz. hēzam); ai. idhmá-.' Page number cited by Nourai is exactly right."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien §64a, p.174-5 (HUB.txt leaf 184)",
+              "stance": "supports",
+              "note": "'hēzum \"Brennholz\" aus *ēzm = ap. *aizma- = zd. aēsma-' — given as an example of anaptyctic u."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Fārsī s.v. هیمه (MON_part2.txt l.92807)",
+              "stance": "partial",
+              "note": "'هیمه: hīma (ا.) هیزم.' Mo'in defines hīma only as a synonym of hīzum and gives it no origin tag, so the two words are equated in meaning but not etymologically."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e Rishe-hā, pdf p.242 (printed 243)",
+              "stance": "supports",
+              "note": "Footnote 2 to the *aidh- root entry: '۲- واژه‌ی فارسی \"هیزم\" نیز از همین واجریشه است' ('the Persian word hīzom is also from this same root')."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Etymological Dictionary of the Iranian Verb",
+              "stance": "silent",
+              "note": "Nominal stem, not a verb; no entry (Cheung covers verbal roots only)."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan",
+          "words": "ištya",
+          "verdict": "plausible",
+          "derivation": "Avestan ištiia-/ištya- n. 'brick, baked brick' is real and correctly glossed: Bartholomae AiW 'j. ištya- n. \"Ziegel, Backstein\"', attested at Vīdēvdād 8.8, with the cross-references 'Vgl. ai. iṣṭakā- f., np. xišt'. The derivation from the burning-root is Johansson's (IF 19,136): *h₂eydʰ-s-t- 'that which is fired' > Indo-Iranian *išt(a)- with zero grade and loss of the dental before -s-, whence Skt. iṣṭakā- 'burnt brick' and Av. ištya-. Pokorny 11-12 and Buck 604 print it; but Walde-Pokorny I 6 already brackets Uhlenbeck's and Persson's alternative (*ais-t-), and current Indo-Iranian scholarship (Lubotsky 1999; Schmitt 2018, cited on Wiktionary s.v. خشت) treats Proto-Indo-Iranian *išta-/*išti- 'brick' as a loan from the BMAC substrate, i.e. not from 'to burn' at all. Hence 'plausible' rather than 'confirmed' for the edge root->ištya.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D8%AA",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:11",
+              "status": "supports",
+              "note": "Pokorny 11-12: 'to Johansson IF. 19,136 also Old Indic istaka \"of burnt bricks\", Avestan istya- n. \"brick, (baked brick)\"'. The page cited is right, though Pokorny flags the attribution as Johansson's."
+            },
+            {
+              "ref": "HRN:108",
+              "status": "supports",
+              "note": "Horn p.108 (HRN.txt leaf 129) no.488: 'xšt \"Ziegel, Backstein\". aw. ištya- \"Ziegel, Backstein\"; phlv. xist; skr. iṣṭakā- \"Backstein\".' Exactly the chart's chain."
+            },
+            {
+              "ref": "SYN:604",
+              "status": "supports",
+              "note": "Buck, Selected Synonyms p.604 (SYN.txt leaf 661), section 9.54 BRICK, para. 7: 'Skt. iṣṭakā-, Av. ištya-, OPers. išti- (Dar. Sus. f 29), NPers. xišt, prob. fr. *idh-s-to- : Skt. idh-, Grk. αἴθω \"kindle\", etc. Walde-P. 1.6, Johansson IF 19.136.' Nourai's page number is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.v. ištya- (BRT.txt l.8060)",
+              "stance": "supports",
+              "note": "'j. ištya- n. \"Ziegel, Backstein\": ... V.8.8. Vgl. ai. iṣṭakā- f., np. xišt.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.6 (WLD_Bd1_pages.txt leaf 15)",
+              "stance": "partial",
+              "note": "'nach Johansson IF. 19,136 auch ai. istaka \"gebrannter Ziegel\", av. istya- n. \"Ziegel, Backstein\" (Voraussetzung ist Schwund von Dentalen vor s im Indischen). [Nicht wahrscheinlicher erwägen Uhlenbeck ... und Persson ... Zurückführung dieser auf *(a)idh-s-t weisenden Worte vielmehr auf idg. ais-t- von der Wzf. *ai-s- neben *ai-dh-.]' — supports the material but records a rival root."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aidhst-' (IEC.txt l.299)",
+              "stance": "supports",
+              "note": "'aidhst- (aidhəst-, əidh-) \"heat, burning, furnace, rage\". WP I,5 ... Av. istyo \"brick\"; Alb. ethe \"fever\"; Lat. aestus; aestas; MIr. áith \"kiln\"; ... OE ast; Du. eest \"oast\"' — groups Av. ištya- and Lat. aestus in one formation, as the chart does."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 'aidh-'",
+              "stance": "silent",
+              "note": "Watkins lists no Indo-Iranian brick word under aidh-."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "xišt",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian xišt 'brick' (Book Pahlavi hšt') continues the Old Iranian word behind Av. ištya-/OP išti- (Proto-Iranian *išti-/*ištya-). The initial x- is not from the ancestor: Pahlavi develops a prothetic x- before an original word-initial vowel, and Hübschmann (Persische Studien p.265) lists xišt among exactly these cases — 'xišt \"Ziegel\", phl. xist = zd. ištya-; xišm, xašm \"Zorn\" ... = zd. aēšma-; xēš \"Pflug\" = zd. aēša-' — adding 'Hier ist x schon im Phl. vorgeschlagen worden'. Strictly the parent is not the Avestan word itself (Avestan is not the ancestor of Persian) but its Old Iranian equivalent, best represented by Old Persian išti- in node 6.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D8%AA"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:36",
+              "status": "supports",
+              "note": "Tavoosi, Vazhe-name-ye Shayast ne Shayast: the glossary index lists 'xist 36/1' (SNS.txt l.30695; entry text at SNS_pages.txt l.1214, OCR too poor to read in full), i.e. the Pahlavi word xist is registered in this Šāyast nē Šāyast glossary at the place Nourai cites. Whether '36' is the printed page or the text reference chapter/line could not be settled from the OCR."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie CPD s.v. xišt (PHD.txt l.661)",
+              "stance": "supports",
+              "note": "'xišt [hšt' | (P hystyg), N ~] brick.'"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien p.265 (HUB.txt leaf 275) and p.236 (leaf 246)",
+              "stance": "supports",
+              "note": "p.265: 'xišt \"Ziegel\", phl. xist = zd. ištya- ... Hier ist x schon im Phl. vorgeschlagen worden'; p.236: 'xišt \"Ziegel\", skr. iṣṭakā-' (under np. št < Iranian št)."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (NYB_vol2_glossary.txt)",
+              "stance": "silent",
+              "note": "grep for xist/xišt/ēzm returns only unrelated hits (existence, axistan); the word is not in Nyberg's glossary, which covers a limited text corpus."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn p.108 no.488",
+              "stance": "supports",
+              "note": "'phlv. xist' cited as the intermediate between Av. ištya- and NP xšt."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "xešt 1 «خشت ۱»",
+          "verdict": "confirmed",
+          "derivation": "New Persian خشت xišt/xešt 'sun-dried brick, adobe; slab' is the regular continuation of MP xišt, with no further change; cognate Pashto خښته xaṣ̱tah, Sanskrit iṣṭakā-. Horn no.488 (p.108) heads the entry 'xšt \"Ziegel, Backstein\"' and Buck 604 lists 'NPers. xišt' in the BRICK table. The Hāfez couplet quoted on the chart ('سر تسلیم من و خشت در میکده‌ها') uses it in the concrete sense 'brick (as a pillow at the tavern door)'. Nourai's '1' is Mo'in's homonym number, distinguishing it from xešt 'javelin'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D8%AA"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:750",
+              "status": "supports",
+              "note": "Borhan-e Qate' vol.2 (BQT_v2_pages.txt leaf 209, printed ~751-752; the خش section opens at the foot of leaf 208, so Nourai's 750 is within the ±2-page uncertainty of the leaf->page mapping). Mo'in's footnote 1 on that page gives the etymology of خشت with Old Indic iṣṭakā-, Avestan ištya-, Old Persian išti-, Pahlavi xišt and an Armenian form — the same chain the chart draws."
+            },
+            {
+              "ref": "SYN:604",
+              "status": "supports",
+              "note": "Buck p.604 §9.54 BRICK, para. 7: 'Skt. iṣṭakā-, Av. ištya-, OPers. išti- ..., NPers. xišt, prob. fr. *idh-s-to-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "p.108 no.488",
+              "stance": "supports",
+              "note": "'xšt \"Ziegel, Backstein\". aw. ištya-; phlv. xist; skr. iṣṭakā-.'"
+            },
+            {
+              "src": "HUB",
+              "where": "p.236 and p.265",
+              "stance": "supports",
+              "note": "NP xišt derived from phl. xist = Av. ištya-, with the prothetic x- explained."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Fārsī (MON_part1.txt l.5313, 37079)",
+              "stance": "partial",
+              "note": "Mo'in has خشت in compounds ('خشت و آهک', 'خشت پخته، آجر بزرگ') confirming the sense 'brick'; the 2-volume abridgement on disk carries no etymological tag for it."
+            },
+            {
+              "src": "BQT",
+              "where": "vol.2 leaf 209",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Old Persian",
+          "words": "išti",
+          "verdict": "plausible",
+          "derivation": "Old Persian išti- f. 'sun-dried brick' is attested once, in the accusative ištim in Darius' Susa foundation charter DSf 29 (the passage on how the palace was built of mud brick). Kent's lexicon (p.175) glosses it exactly as Nourai does. It is the same Old Iranian word as Av. ištya- and the direct ancestor of MP xišt, so on the chart it should really stand above node 4 rather than beside the Avestan branch. As with node 3, its attachment to *h₂eydʰ- 'burn' is the Johansson/Pokorny/Buck analysis, now contested in favour of a BMAC-substrate origin (Lubotsky, Schmitt).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D8%AA"
+          ],
+          "ref_check": [
+            {
+              "ref": "KNT:175",
+              "status": "supports",
+              "note": "Kent, Old Persian, Lexicon p.175 (KNT.txt leaf 197, printed numeral '175' visible on the page): 'išti- sb. \"sun-dried brick\" (§152.II, §179.II): Av. ištya-, NPers. xišt, Skt. iṣṭakā-, Medieval Skt. iṣṭikā- (König, Burgbau 51-2; ...). ištim nsf. DSf 29.' Page number exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SYN",
+              "where": "Buck p.604 §9.54",
+              "stance": "supports",
+              "note": "'OPers. išti- (Dar. Sus. f 29)' — same attestation."
+            },
+            {
+              "src": "TLM",
+              "where": "Tolman, Ancient Persian Lexicon",
+              "stance": "silent",
+              "note": "not consulted in detail; Kent supersedes it and gives the same reading."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW s.v. ištya-",
+              "stance": "partial",
+              "note": "Bartholomae covers the Avestan word and cites np. xišt but (being an Avestan dictionary of 1904) does not treat the DSf attestation."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Greek",
+          "words": "aithěr",
+          "verdict": "confirmed",
+          "derivation": "Ancient Greek αἰθήρ (aithḗr), gen. αἰθέρος, 'the upper, purer air; bright sky', already Homeric, is an -ηρ formation on αἴθω 'I kindle, burn' — i.e. *h₂eydʰ-er-, literally 'the burning/blazing (air)'. Beside it Greek has αἴθρα 'clear sky' and αἴθριος. Nourai's gloss '(hot) air' matches Pokorny's 'the upper air'. In Aristotelian physics it becomes the fifth element filling the region above the sublunary world — the sense that travels on into Arabic and Latin.",
+          "sources": [
+            "https://www.etymonline.com/word/ether",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins: 'aidh-. ... 5. Suffixed form *aidh-er- in Greek aithēr, air: AETHER, ETHER.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Pokorny 11-12",
+              "stance": "supports",
+              "note": "'r-formants: gr. αἰθήρ \"the upper air\" (maked. ἀδη), αἴθρα \"the cheerful sky\", αἴθριος \"brightly, cheerfully (from the weather)\"'."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. ether (leaf 297, ~p.570)",
+              "stance": "supports",
+              "note": "'L. aether, fr. Gk. αἰθήρ ... which, together with αἴθρα \"the clean sky, fair weather\", derives fr. αἴθειν, \"to burn\", fr. I.-E. base *aidh-'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Ether (SKT.txt l.6017)",
+              "stance": "supports",
+              "note": "'Ether, pure upper air. (L.—Gk.) L. aether. — Gk. αἰθήρ, upper air; from ... Gk. αἴθειν, to glow. (√IDH.)'"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Arabic",
+          "words": "asîr",
+          "verdict": "confirmed",
+          "derivation": "Arabic أَثِير (ʾaṯīr) 'ether, the upper air' is the Greek αἰθήρ taken over by the Baghdad translators of Aristotle (De caelo, Meteorologica) in the 9th century, for the fifth element above the sphere of fire; the form is a phono-semantic match, the Greek shape being fitted to the native pattern faʿīl of the root ʾ-ṯ-r (which independently gives ʾaṯīr 'preferred, noble'). Al-ʿAnaysī's dictionary of foreign words in Arabic states the Greek origin outright. Nourai's gloss 'ether filling beyond the atmosphere' is the Aristotelian/scholastic sense.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A3%D8%AB%D9%8A%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "TAD:1",
+              "status": "supports",
+              "note": "Tobia al-ʿAnaysī, Tafsīr al-alfāẓ al-dākhila, p.1 (TAD_pages.txt leaf 4, the first page of the alif section): 'اثير - يوناني [aiθήρ] ومعناه احترق ولمع ... وعند الشعراء الهواء والسماء ... يزعمون انها منتشرة في الكون والمادة المحسوسة غاطسة فيها'. Exactly Nourai's arrow and gloss; page number exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. ether",
+              "stance": "partial",
+              "note": "Klein traces the European word to Greek but says nothing about the Arabic transmission."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'an",
+              "stance": "silent",
+              "note": "grep for أثير finds nothing — the word is post-Qur'anic, so Jeffery has no entry."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "no entry (grep of the djvu text): the word is a Greek, not a Persian, loan in Arabic — consistent with Nourai's Greek->Arabic arrow."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfāẓ al-Fārisiyya al-muʿarraba",
+              "stance": "silent",
+              "note": "no entry; again consistent with a Greek rather than Persian source."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "asîr «اثیر»",
+          "verdict": "confirmed",
+          "derivation": "Persian اثیر asīr is the Arabic ʾaṯīr re-borrowed into Persian with the philosophical vocabulary of the Islamic sciences: 'the sphere of fire above the sphere of air', hence چرخ اثیر 'the fiery sphere'. Persian keeps the Arabic spelling with ث and pronounces it [asīr]. Mo'in explicitly tags the entry [معر.] (muʿarrab, i.e. an Arabicized/Arabic-mediated word), which is exactly the Greek > Arabic > Persian round-trip the chart draws. The Molavī line quoted ('همچو آن مستی که پرّد بر اثیر') uses it in that cosmological sense.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A3%D8%AB%D9%8A%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:143",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Fārsī s.v. اثیر (checked in the 2-vol Adena abridgement, MON_part1.txt l.7178, since the 6-vol pagination is not mappable online): 'اثیر: [معر.] (ا.) کرهٔ آتش که بالای کرهٔ هوا است، سیالی رقیق و تنک و بی‌وزن ... اتر. چرخ اثیر: کرهٔ آتش، فلک نار'. The tag [معر.] and the cross-reference to اتر are Nourai's claim exactly; the volume/page 143 could not be verified because only the abridged edition is on disk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate'",
+              "stance": "silent",
+              "note": "اثیر is a learned Arabic word; not a headword of the Borhān in the volumes searched."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1.txt l.7178",
+              "stance": "supports",
+              "note": "see ref_check; Mo'in marks it muʿarrab and equates it with اتر."
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson, Persian-Arabic-English Dictionary",
+              "stance": "silent",
+              "note": "not searched in detail; the Arabic origin is not in doubt."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Latin",
+          "words": "aethěr, aither",
+          "verdict": "confirmed",
+          "derivation": "Latin aethēr, -eris m. is a straight borrowing of Greek αἰθήρ (not an inherited cognate), current from Ennius and Lucretius on for the fiery upper air; Ernout-Meillet note that the attempt made since Pacuvius to latinise it (with a native equivalent) did not succeed, and it kept a Greek declension. The chart's second form 'aither' is simply the Greek spelling as used in Latin texts. The arrow Greek -> Latin is therefore a borrowing, correctly drawn.",
+          "sources": [
+            "https://www.etymonline.com/word/ether"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 'aidh-' 5: 'Greek aithēr, air: AETHER, ETHER' — the English words come through Latin aether."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. aether (LAT.txt l.1746)",
+              "stance": "supports",
+              "note": "'... en revanche, l'effort fait depuis Pacuvius pour latiniser aether n'a [pas abouti]' — treated as a Greek word in Latin."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. ether",
+              "stance": "supports",
+              "note": "'L. aether, fr. Gk. αἰθήρ'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Ether",
+              "stance": "supports",
+              "note": "'(L. — Gk.) L. aether. — Gk. αἰθήρ'."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "French",
+          "words": "ether",
+          "verdict": "confirmed",
+          "derivation": "French éther continues Latin aether (learned borrowing, attested in the cosmological sense from the 13th-16th c.). The chemical sense that matters for the Persian loan is younger: the volatile liquid was named aether by August Sigmund Frobenius in 1730, the name passing at once into French éther and English ether; the anaesthetic use dates from 1842. It is this 18th-19th c. chemical term, not the cosmological one, that reaches Persian in node 12. The chart gives no gloss for the French box.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%C3%A9ther",
+            "https://www.etymonline.com/word/ether"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:134",
+              "status": "supports",
+              "note": "Mo'in's entry اتر (MON_part1.txt l.6768) is tagged as a European (French) borrowing and defines it in physics and chemistry terms ('بخار رقیق و مادهٔ سیال و سریع التسخیری ... (شیم.) ماده‌ای که از گرفتن یک مولکول آب از دو مولکول الکل حاصل شود؛ اتر اکسید'), i.e. the French chemical term. Page 134 itself could not be checked (only the abridged 2-vol edition is on disk), but it precedes اثیر (MON:143) alphabetically, as it must."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. ether",
+              "stance": "supports",
+              "note": "'As a chemical term, the word aether was coined by August Sigmund Frobenius (in 1730), the discoverer of this liquid.'"
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale",
+              "stance": "silent",
+              "note": "no entry — correctly, since French éther is from Latin/Greek, not from an oriental language."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Persian",
+          "words": "eter «اثر»",
+          "verdict": "transcription_suspect",
+          "derivation": "The word itself is right: Persian اتر eter is the modern chemistry term borrowed from French éther (diethyl ether), distinct from the older Arabic-mediated اثیر asīr of node 9, and Mo'in's entry اتر explicitly cross-refers to اثیر. But the Persian script in the JSON is wrong: the book prints اتر (alef + tāʾ + rāʾ), which I read directly off the page rendered at 600 dpi from EtymologicalDictionary-persian-english.pdf p.39; the extraction has «اثر» with thāʾ (three dots) instead of tāʾ (two dots). اثر would be Arabic aṯār/aṯar 'trace, effect', a different word altogether, and it contradicts the chart's own transliteration 'eter'. The extracted script should be corrected to اتر.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%C3%A9ther"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:134",
+              "status": "supports",
+              "note": "Mo'in s.v. اتر (MON_part1.txt l.6768-6784), a European loan defined in physics and chemistry and ending '؛ اثیر' — the headword is spelled اتر, never اثر, which is independent confirmation that the JSON's «اثر» is a misreading."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt l.6768",
+              "stance": "supports",
+              "note": "headword اتر, chemical/physical senses, cross-reference اثیر."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate'",
+              "stance": "silent",
+              "note": "a 20th-century European loan; not in a 17th-century dictionary."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Germanic",
+          "words": "ail",
+          "verdict": "plausible",
+          "derivation": "'ail' is not an attested word but Watkins' reconstructed Germanic stem *ail-, from a suffixed *h₂eydʰ-lo-; its attested continuations are Old English āl 'fire, flame' and the verb ǣlan 'to burn, kindle', plus OE ǣled 'fire, firebrand', Old Norse eldr 'fire', Danish ild. Pokorny 11-12 puts it the same way: 'In Indo-Germanic *aidh-lo- is based Germanic ail- in Old English ǣlan \"burn\" to āl \"flame\", and in Old English ǣled, Old Icelandic eldr \"fire, flame\"'. Two reservations: Watkins himself writes 'perhaps' for this Germanic branch, and Etymonline assigns ǣlan/anneal instead to PIE *as- 'to burn, glow' (the root Nourai calls 'Es 1' and merges into this same box). The gloss 'fire' is right for āl.",
+          "sources": [
+            "https://www.etymonline.com/word/anneal",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 'aidh-' 2: 'Suffixed form *aidh-lo- perhaps in Germanic *ail- in Old English āl, fire: ANNEAL.' The hedge 'perhaps' is Watkins' own."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Pokorny 11-12",
+              "stance": "supports",
+              "note": "'In Indo Germanic *aidh-lo- is based Germanic ail- in Old English ǣlan \"burn\" to āl \"flame\", and in Old English ǣled ..., Old Icelandic eldr (Gen. elds) \"fire, flame\".'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.5-6",
+              "stance": "supports",
+              "note": "same material under 'Auf idg. *aidh-lo- oder einer Kreuzung von aidh- mit *aleto-'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aidhlos, aidholos' (IEC.txt l.287)",
+              "stance": "supports",
+              "note": "'aidhlos, aidholos \"burning; consumption\". WP I,5 ... OS ēld; OE āl; ON eldr \"fire\"; OE ǣled, obl. ǣld, id.'"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "anneal",
+          "verdict": "confirmed",
+          "derivation": "Old English onǣlan 'to set on fire, kindle' (on- + ǣlan 'to burn', to āl 'fire') > Middle English anelen > anneal. The technical sense 'temper by heating and slow cooling' is already late Old English (of glass, tiles and metals). Klein adds that the Middle English and modern form were reshaped under an erroneous association with Old French neeler (> nieller) 'to blacken', from Vulgar Latin *nigellāre — which is why the modern word has -nn-. The chart supplies no gloss for the English box.",
+          "sources": [
+            "https://www.etymonline.com/word/anneal"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node; the parent box carries AHD, and Watkins' aidh- entry ends the branch with 'ANNEAL'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. anneal (KLN_1966.txt leaf 53, ~p.82)",
+              "stance": "supports",
+              "note": "'ME. anelen, fr. OE. anǣlan, \"to burn, kindle\", fr. an, \"on\", and ǣlan, \"to kindle, burn\", which is rel. to OE. āl, \"fire\", ǣled, \"fire, firebrand\". ME. anelen and E. anneal were influenced in form by an erroneous association with OF. neeler ...'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century (WEB_vol1.txt l.7986)",
+              "stance": "supports",
+              "note": "'anneal ... [ME. anelen, onelen; AS. anǣlan, onǣlan, to burn; an, on, and ǣlan, to burn, set on fire; āl, ǣl, fire.]'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Supplement (SKT.txt l.21842)",
+              "stance": "partial",
+              "note": "'Anneal. Perhaps the A.S. words should be onǣlan and ǣlan with long ǣ ...' — a note on vowel quantity, not on the derivation."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls (FSD_vol1.txt l.17129)",
+              "stance": "supports",
+              "note": "defines annealing as 'gradually heating and gradually cooling glass, metals, or other substances to reduce brittleness'."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Latin",
+          "words": "asetus",
+          "verdict": "plausible",
+          "derivation": "The Latin word is aestus, -ūs m. 'heat, seething, surge, tide' < *h₂eydʰ-s-tu-, beside aestās 'summer' < *aidh-s-tāt- and aestuāre 'to seethe, boil'. Nourai's gloss 'burning heat' is accurate but the printed form 'asetus' is a metathesis-misprint for aestus: I checked the page image itself (600 dpi render of the source PDF, p.39) and the book really prints 'asetus', so this is Nourai's own typo, not an extraction error — which is why the verdict is 'plausible' rather than 'transcription_suspect'.",
+          "sources": [
+            "https://www.etymonline.com/word/estuary",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eyd%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this box; the root box's AHD covers it (Watkins 'aidh-' 4: 'Suffixed form *aidh-stu- in Latin aestus, heat, swell, surge, tide: ESTUARY')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I p.5",
+              "stance": "supports",
+              "note": "'*aidh-s-t- in: lat. aestās, -ātis \"warme Jahreszeit, Sommer\", aestus, -ūs \"Hitze und dadurch bewirkte Wallung\", aestuare \"infolge Hitze wallen, brausen\"'."
+            },
+            {
+              "src": "POK",
+              "where": "Pokorny 11-12",
+              "stance": "supports",
+              "note": "'aestus (from *aidh-tu-) \"heat, glow, surf\", aestuare \"cook, surge, roar\"'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. aestas/aestus (LAT.txt l.1864 ff.)",
+              "stance": "supports",
+              "note": "'aestas, -atis f.; aestus, -us m. Cf. aedes' ... 'aestus: chaleur brûlante, provenant d'une substance enflammée' — the same family as aedes/gr. αἴθω. The headword is aestus; no Latin word 'asetus' exists."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aidhst-'",
+              "stance": "supports",
+              "note": "'Lat. aestus; aestas' listed under the *aidh-s-t- formation."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "estuary",
+          "verdict": "confirmed",
+          "derivation": "Latin aestuārium 'tidal channel, tidal marsh, inlet' (a derivative of aestuāre 'to surge', from aestus 'boiling of the sea, tide'), borrowed into English in the 1530s as estuary in the sense 'tidal inlet, mouth of a river where the tide meets the current'. The semantic thread is 'boiling/heat' > 'seething of the sea' > 'tide' > 'tidal channel'. No French intermediary is needed. The chart gives no gloss for the English box.",
+          "sources": [
+            "https://www.etymonline.com/word/estuary"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference given by Nourai; Watkins ends the aidh- branch with 'ESTUARY' and the alphabetical index of AHD_watkins1985.txt has 'ESTUARY aidh-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. estuary (KLN_1966.txt leaf 296, ~p.568)",
+              "stance": "supports",
+              "note": "'estuary, n., broad mouth of a river. — L. aestuarium, \"a tideplace, an estuary\", fr. aestus, \"heat, fire, the ebb and flow of the sea, tide\".'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Estuary (SKT.txt l.6014)",
+              "stance": "supports",
+              "note": "'Estuary, mouth of a tidal river. (L.) L. aestuarium ... L. aestuare, to surge, foam as the tide. — L. aestus, heat, surge, tide. (√IDH.)'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century",
+              "stance": "silent",
+              "note": "grep of the OCR'd volume did not return a clean 'estuary' headword line (OCR damage); Klein and Skeat cover it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Aig-",
+      "verdict": "plausible",
+      "modern_form": "PIE *h₂eyǵ- 'goat' (Pokorny 13 '3. aiǵ-'; Walde-Pokorny I 8)",
+      "note": "The root name and gloss are right, but the page reference is not, and it exposes a conflation. Pokorny's aiǵ- 'Ziege' is on p.13 and contains only Gr. αἴξ, Arm. ayc and Av. izaēna- 'of leather'; the material Nourai puts in the Iranian branch — 'Middle Persian azak \"goat\", npers. azg' — stands on pp.6-7 under a DIFFERENT root, aǵ- 'goat' (Skt. ajá-ḥ, Lith. ožys, Alb. dhi, OCS (j)azno 'hide'), whose entry ends 'References: WP. I 38 ... compare also aig-'. So POK:6 is genuinely where Nourai found azak/azg, but it is not the page for the root 'Aig-'. Walde-Pokorny keeps the same two entries apart (aiǵ- I 8, aǵos- I 38, the latter with 'mp. azak \"Ziege\", np. asg'), and Watkins gives only 'aig-. Goat. Greek aigis, goatskin: AEGIS. [Pok. 3. aig- 13.]' with no Iranian at all. Horn (no.42, p.269) and Klein (p.30) do unite the two families ('dazu wohl auch arm. aic, gr. αἴξ und aw. izaēna-'), and Wiktionary observes that the *h₂eǵ-/*h₂eyǵ- alternation 'could suggest a substratum loan', so the merger is defensible as a hypothesis — but as drawn, with Pahlavi azak descending from Avestan iza, it is phonologically impossible (Iranian i- cannot become a-). A second, smaller point: the Avestan box's first word 'iza : goat' is not an attested Avestan noun; only the adjective izaēna- 'leathern' exists.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ey%C7%B5-",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
+        "https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B4%CE%BE"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:6",
+          "status": "partial",
+          "note": "Pokorny pp.6-7 (POK_full.txt 'Root/lemma: ag-', Meaning: goat, Page(s): 6-7): 'Old Indic ajá-ḥ \"he-goat\", ajā \"she-goat\", Middle Persian azak \"goat\", npers. azg ds.; alb. dhi \"goat\"; Lithuanian ožys ... Church Slavic (j)azno \"skin, leather\". References: WP. I 38, Trautmann 22. compare also aig-.' It does support the words azak/azg, but under root aǵ-, not under aiǵ- (which is on p.13: 'Gr. αἴξ \"nanny goat\", Armenian ayc; zero grade Avestan izaena- \"from leather\"'). So the citation is right for the Iranian words and wrong for the root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "iza; izaenem",
+          "verdict": "plausible",
+          "derivation": "What Avestan actually has is the adjective izaēna- (fem. izaēnī-) 'made of leather, leathern', acc. sg. n. izaēnəm, attested at Vīdēvdād 6.23 and 7.14 of leather garments; Nourai's 'izaenem' is that accusative and his gloss 'pertaining to (goat) skin' is accurate. His first word 'iza : goat' is not an attested Avestan word: Bartholomae derives izaēna- from a noun *iz-/*izā- 'Leder' and marks the etymology 'Et?', comparing Gr. αἴξ and Arm. ayc. The step from 'goat' to 'goat-leather' is the same as in Gr. αἴγειος 'of a goat' (Pokorny 13: 'zero grade Avestan izaena- \"from leather\" (actually \"from goatskin\")'). Phonologically izaēna- < *iz-aina- with the zero grade of *h₂eyǵ-, which is why Pokorny calls it 'tiefstufig'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ey%C7%B5-",
+            "https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B4%CE%BE"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:6",
+              "status": "not_found",
+              "note": "Pokorny pp.6-7 (root aǵ-) does not mention izaēna- at all; the Avestan word is on p.13 under aiǵ-: 'zero grade Avestan izaena- \"from leather\" (actually \"from goatskin\" as gr. αἰγέος ...)'. Right material, wrong page."
+            },
+            {
+              "ref": "KLN:30",
+              "status": "supports",
+              "note": "Klein s.v. aego- (KLN_1966.txt leaf 28, ~p.32; Nourai's 30 is within the ±2-page tolerance of the leaf-to-page formula): 'Gk. αἰγο-, fr. αἴξ, gen. αἰγός, \"goat\", which is cogn. with OI. ajaḥ, \"he-goat\", ajinam, \"skin\", Avestic izaēnəm, \"pertaining to skin\", Arm. aic, \"goat\", Lith. ožys, \"he-goat\".' Klein's 'izaēnəm' and gloss are word-for-word Nourai's second entry."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.v. izaēna- (BRT.txt l.8002)",
+              "stance": "partial",
+              "note": "'Adj. (fem. °nī-) \"aus Leder, ledern\": vāstrəm ... V.6.23; ... V.7.14. Ableit. aus *iz- oder *izā- \"Leder\". — Et? Man vergleicht gr. αἴξ, arm. aic; s. zuletzt Hübschmann AGr. I 417.' Confirms the adjective and its meaning, but the base noun means 'leather', not 'goat', and Bartholomae leaves the etymology open."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.8 (WLD_Bd1_pages.txt leaf 17)",
+              "stance": "supports",
+              "note": "'aiǵ- \"Ziege\" ... Gr. αἴξ, -γός \"Ziege\", arm. aic \"Ziege\"; tiefstufig ... av. izaena- oder īzaena- \"aus Leder\" (eigentlich \"aus Ziegenleder\" wie gr. αἴγειος)'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aigis' (IEC.txt l.305)",
+              "stance": "partial",
+              "note": "'aigis \"kid, goat\". WP I,8. Skt. cf. aja; Arm. ajc; Phryg. aizi-; Myc. aiki-; Gk. as gs. aigós; EMAlb. edh; Li. cf. ožys' — Mann too runs the two families together, and lists no Avestan or Iranian form."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 'aig-' (AHD_watkins1985.txt l.272)",
+              "stance": "silent",
+              "note": "'aig-. Goat. Greek aigis, goatskin (shield of Athena): AEGIS. [Pok. 3. aig- 13.]' — no Iranian material of any kind."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "azak",
+          "verdict": "disputed",
+          "derivation": "Middle Persian azag 'goat' is a real word (Pokorny 6-7 'Middle Persian azak \"goat\"'; Walde-Pokorny I 38 'mp. azak \"Ziege\"'), but it does not come from Avestan iza-/izaēna-. It continues Proto-Iranian *aza-ka-, the -ka- diminutive/individualising suffix on *aza- 'goat', which is *h₂eǵ-o- — the root of Skt. ajá-ḥ 'he-goat', ajā́ 'she-goat', Lith. ožys, Latv. āzis, Alb. dhi, OCS (j)azno 'hide'. Iranian i- cannot yield a-, so the arrow iza -> azak is impossible as drawn; Pokorny prints the two roots as separate entries seven pages apart and only adds 'compare also aig-'. The older comparative tradition (Horn 1893 no.42; Klein 1966 s.v. aego-) did unite them, and Wiktionary notes that the *h₂eǵ-/*h₂eyǵ- alternation may point to a shared non-Indo-European source; but on any account azak belongs to the a-root, not to the ai-root the chart puts it under. MacKenzie's Concise Pahlavi Dictionary does not have azag at all (its word for 'goat' is buz), so the Middle Persian form rests on the Pahlavi-Pāzand glossary tradition.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ey%C7%B5-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:6",
+              "status": "partial",
+              "note": "Pokorny pp.6-7, root aǵ- 'goat': 'Old Indic ajá-ḥ \"he-goat\", ajā \"she-goat\", Middle Persian azak \"goat\", npers. azg ds.' — the page does give azak with this meaning, so it supports the word; it contradicts the chart on the root, since this is Pokorny's aǵ-, not aiǵ- (p.13)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I p.38 (WLD_Bd1_pages.txt leaf 47)",
+              "stance": "contradicts",
+              "note": "'aǵo-s, aǵi- \"Ziegenbock, Ziege\". Ai. ajá-ḥ \"Ziegenbock\", ajā \"Ziege\", mp. azak \"Ziege\", np. asg ds.; lit. ožys ...; alb. dhi \"Ziege\"; ai. ajina-m \"Fell\" ...; ksl. (j)azno \"Haut, Leder\".' Walde-Pokorny puts azak under aǵ-, thirty pages away from aiǵ- (I 8)."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary",
+              "stance": "silent",
+              "note": "no headword azag/azak; MacKenzie's 'goat' is 'buz [AZ < A ʿz; bwc | N ~] goat' (PHD.txt l.256). The word is thus not part of MacKenzie's core Book-Pahlavi vocabulary."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II Glossary",
+              "stance": "silent",
+              "note": "grep for azak/azag returns only bazak 'misdeed' and similar; no entry."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no.42, p.269 (HRN.txt leaf 290)",
+              "stance": "partial",
+              "note": "'42. azg (d.i. azak) \"Ziege\" (PPGl.). ai. ajá \"Bock\", ajā \"Ziege\"; lit. ožys, lett. āzis \"Ziegenbock\", ožka \"Ziege\". Dazu wohl auch arm. aic (H. No.16), gr. αἴξ und aw. izaēna- \"aus (Ziegen)fell(?), ledern\".' Horn derives azak/azg from the ajá-/ožys family and only tentatively ('wohl auch') attaches αἴξ and izaēna- to it — i.e. the reverse direction of Nourai's arrow."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. aego- (~p.32)",
+              "stance": "partial",
+              "note": "Klein likewise lists OI ajaḥ, Av. izaēnəm, Arm. aic and Lith. ožys as one set of cognates, but names no Iranian azak."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "azg «ازگ ۲»",
+          "verdict": "plausible",
+          "derivation": "The step Pahlavi azak > New Persian azg is regular (loss of the final -ak vowel with retention of the consonant cluster, as in Horn's own equation 'azg (d.i. azak)'), so the immediate arrow is sound; what is wrong is the root the whole branch hangs from (see node 2). Horn no.42 (p.269) marks the word as known only from the Pahlavi-Pāzand glossary ('PPGl.'), and Walde-Pokorny I 38 prints it 'np. asg', which is why Nourai's own note 'This word is apparently obsolete' is correct: azg is a lexicographers' word, not current New Persian (the living word for 'goat' is بز buz). Mo'in's numbering «ازگ ۲» distinguishes it from a homonym.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:6",
+              "status": "partial",
+              "note": "Pokorny pp.6-7 under aǵ-: 'Middle Persian azak \"goat\", npers. azg ds.' — supports the Pahlavi->Persian step verbatim, but again under root aǵ-, not aiǵ-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn no.42, p.269",
+              "stance": "supports",
+              "note": "'42. azg (d.i. azak) \"Ziege\" (PPGl.)' — Horn equates the New Persian and Pahlavi forms and gives the Pahlavi-Pāzand glossary as the only source, which corroborates Nourai's 'apparently obsolete'."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.38",
+              "stance": "supports",
+              "note": "'mp. azak \"Ziege\", np. asg ds.' (Walde-Pokorny's transliteration asg for azg)."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.1 (BQT_v1_pages.txt)",
+              "stance": "silent",
+              "note": "a grep for ازگ over the whole volume returns only incidental hits inside other words (leaves 17, 552, 638), none in the alif section where a headword ازگ would stand — consistent with the word being obsolete, though the Persian OCR of this scan is poor."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Fārsī",
+              "stance": "silent",
+              "note": "no ازگ headword found in the 2-vol abridgement on disk; Nourai's homonym number '۲' implies the 6-vol edition has one."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "aigis",
+          "verdict": "confirmed",
+          "derivation": "Ancient Greek αἰγίς, -ίδος f. 'goatskin; the goatskin shield/aegis of Zeus and Athena' is built with the -ίς/-ίδος suffix on αἴξ, gen. αἰγός 'goat'; the connection with the goat was already the ancient explanation (Herodotus 4.189 on the Libyan goatskin aprons). αἴξ itself goes back to Proto-Hellenic *aíks < *h₂eyǵ-, with Old Armenian այծ (ayc) as the nearest cognate. Nourai's gloss 'goat skin' is exact.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B4%CE%BE",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ey%C7%B5-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:6",
+              "status": "not_found",
+              "note": "Gr. αἴξ/aigis is not on Pokorny pp.6-7 (root aǵ-); it is on p.13 under aiǵ-: 'Gr. αἴξ, -γός \"nanny goat\", Armenian ayc \"nanny goat\"'."
+            },
+            {
+              "ref": "KLN:30",
+              "status": "supports",
+              "note": "Klein s.v. aegis (KLN_1966.txt leaf 28, ~p.32): 'L. aegis, fr. Gk. αἰγίς, \"goatskin; the skin shield of Zeus\", fr. αἴξ, gen. αἰγός, \"goat\"; see aego-. For this etymology, suggested already by Herodotus, see Frisk, GEW., I, p.32 s.v. αἴξ.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Pokorny p.13",
+              "stance": "supports",
+              "note": "aiǵ- 'goat' with Gr. αἴξ and Arm. ayc as the core evidence."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p.8",
+              "stance": "supports",
+              "note": "'Gr. αἴξ, -γός \"Ziege\", arm. aic \"Ziege\"'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 'aig-'",
+              "stance": "supports",
+              "note": "'aig-. Goat. Greek aigis, goatskin (shield of Athena): AEGIS.'"
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, 'aigis' (IEC.txt l.305)",
+              "stance": "supports",
+              "note": "'aigis \"kid, goat\". WP I,8 ... Gk. as gs. aigós'."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "aego-",
+          "verdict": "confirmed",
+          "derivation": "aego- is not an inherited English word but a learned combining form taken straight from the Greek stem αἰγο- (of αἴξ, gen. αἰγός) and used in scientific Latin/English compounds — aegagrus 'wild goat', Aegipan, aegicrania (the goat-skull ornament in architecture). Klein's entry, which Nourai cites, defines it in exactly these terms. So the Greek -> English arrow is a modern learned borrowing rather than a descent, and Nourai's gloss 'of a goat' is right.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B4%CE%BE"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:30",
+              "status": "supports",
+              "note": "Klein (KLN_1966.txt leaf 28, ~p.32): 'aego-, combining form meaning \"goat\". — Gk. αἰγο-, fr. αἴξ, gen. αἰγός, \"goat\", which is cogn. with OI. ajaḥ ... Cp. the first element in aegicrania.' Nourai's headword, gloss and reference all match."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. aego- and aegis",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 'aig-'",
+              "stance": "partial",
+              "note": "Watkins lists only AEGIS as the English derivative of this root; the combining form aego- is not separately entered."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls (FSD_vol1.txt)",
+              "stance": "silent",
+              "note": "grep for 'aego-'/'aegis' in the OCR'd volume 1 returned nothing usable (OCR damage in the front of the A section)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
