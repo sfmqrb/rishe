@@ -1,0 +1,264 @@
+{
+  "pdf_page": 52,
+  "book_page": 22,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 6,
+      "root": "A`.m.m",
+      "verdict": "confirmed",
+      "modern_form": "Proto-Semitic root *ʿ-m-m 'to join, be united; to be general/common'",
+      "note": "Nourai's root box reproduces Klein almost word for word. KLN_1966 p.62 s.v. 'Amhaarez': \"Heb. 'am, 'people', derives fr. base '-m-m, 'to join, be united', whence also 'am, 'kinsman', 'im, 'with'. Cp. the rel. Aram.-Syr. 'ammā, 'people', Ugar. 'm, 'clan', Arab. 'amm, 'a great crowd', ammah, 'rabble', 'āmma, 'it comprised, included', 'amm, 'father's brother', 'ammah, 'father's sister'.\" Wiktionary independently files Hebrew עַם / עִם under the root ע־מ־ם and compares Arabic عَامّ and عَمّ. The one caveat is that the root is Semitic (Afro-Asiatic), NOT Indo-European; Nourai's language label 'Semitic' is correct and Pokorny/Walde-Pokorny/Watkins are rightly silent. The 'French → Persian' branch for the name Emmanuel (nodes #4-#5) is Nourai's own reconstruction, carries no reference, and compresses the real route (Hebrew → Septuagint/NT Greek → Latin → French); it is plausible but undocumented.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D7%A2%D7%9D",
+        "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85"
+      ],
+      "ref_check": [
+        {"ref": "KLN:62", "status": "supports", "note": "KLN_1966.txt form-feed leaf 44 (= printed pp. 62-63), s.v. Amhaarez: \"Heb. 'am, 'people', derives fr. base '-m-m, 'to join, be united', whence also 'am, 'kinsman', 'im, 'with'.\" Klein's cross-reference s.v. Immanuel (leaf 415, pp. 772-773) repeats: \"Heb. 'im derives fr. stem '-m-m, 'to join, be united', whence also 'am, 'people'. See Amhaarez.\" Exactly Nourai's root gloss."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "amm 1; amm 2; ammah",
+          "verdict": "confirmed",
+          "derivation": "Arabic عَمّ ʿamm (root ʿ-m-m) is a geminate noun: (1) ʿamm 'a great crowd, the generality of people', beside the denominal verb عَمَّ ʿamma 'it comprised, included, was general' and the active participle عَامّ ʿāmm 'general, common, public'; (2) ʿamm 'father's brother, paternal uncle', with the feminine عَمَّة ʿammah 'father's sister'. The kinship sense is the older Semitic one ('clan-member, kinsman' > 'paternal kinsman'), directly matched by Ugaritic ʿm 'clan', Hebrew ʿam 'people, kinsman' and Aramaic-Syriac ʿammā 'people'; the abstract 'be general, comprise' sense is an Arabic-internal development from the same 'be joined together' notion. Nourai's split of amm 1 / amm 2 is Klein's own presentation.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B9%D9%85",
+            "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85"
+          ],
+          "ref_check": [
+            {"ref": "KLN:62", "status": "supports", "note": "KLN_1966.txt leaf 44 (pp. 62-63) s.v. Amhaarez lists precisely \"Arab. 'amm, 'a great crowd', ammah, 'rabble', 'āmma, 'it comprised, included', 'amm, 'father's brother', 'ammah, 'father's sister'\" under base ʿ-m-m. Klein's 'ammah 'rabble'' and 'ʿammah 'father's sister'' are two separate items; Nourai kept only the second."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44 = pp. 62-63, s.v. Amhaarez", "stance": "supports", "note": "\"Arab. 'amm, 'a great crowd' … 'amm, 'father's brother', 'ammah, 'father's sister'\" — all three of Nourai's Arabic items."},
+            {"src": "FVQ", "where": "FVQ.txt / FVQ_pages.txt, greps for amin, iman, umma", "stance": "silent", "note": "Jeffery's Foreign Vocabulary of the Qurʾān has no entry for ʿamm / ʿāmm — expected, since ʿ-m-m is native Arabic, not a loan."},
+            {"src": "AFM", "where": "AFM.txt, grep 'عمّ'", "stance": "silent", "note": "Addi Shir lists only unrelated forms (عمور, عمّيدة …); ʿamm is not treated as an Arabicised Persian word, correctly."},
+            {"src": "LKT", "where": "LKT.txt nos. 61-69 (the ar. am-/ʿam- block)", "stance": "silent", "note": "Lokotsch has Ar. ammā (no. 64), amān (no. 66), ʿamāra (no. 67), amīr (no. 69) but no entry for ʿamm 'uncle/crowd' — no European loan to record."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "amŭ «عمو»; âm «عام»",
+          "verdict": "confirmed",
+          "derivation": "Both are Arabic loans into New Persian of the Islamic period. (a) عمو amū/amō 'paternal uncle' = Arabic عَمّ ʿamm plus the Persian hypocoristic/diminutive suffix ـو -ū/-ō (Classical Persian /ʔa.ˈmoː/, modern amu), the same formation as Tajik амак amak with a different diminutive suffix and parallel to Egyptian Arabic ʿammu; it displaced no native word entirely — Persian keeps خالو xālū 'maternal uncle' on exactly the same pattern (Arabic خال xāl + -ū), which Moʿin cites as the comparandum. (b) عام ām 'public, general' is Arabic عَامّ ʿāmm, the active participle of عَمَّ ʿamma; Persian regularly degeminates the final -mm in pronunciation. Nourai's script_extra عمّه (ʿammah 'paternal aunt'), عموم (ʿumūm 'generality'), عوام (ʿawāmm 'the common people'), تعميم (taʿmīm 'generalisation') are all further ʿ-m-m loans, each confirmed by Moʿin as [ع.].",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%88",
+            "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85"
+          ],
+          "ref_check": [
+            {"ref": "FVA:285", "status": "not_checked", "note": "S. M. Nahvi, Farhang-e Vāzhehā-ye ʿArabi dar Fārsi (Dakhil), 1368/1989 — refs_online.json records no digital copy on any permitted platform (catalogue record OL2012991M only). Not accessible."},
+            {"ref": "SAP:442", "status": "not_checked", "note": "Sayyāh, Farhang-e Sayyāh (Persian translation of al-Munjid), 3 vols 1368/1989 — purchase-only (fidibo.com/book/142427 etc.); no readable copy."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.vv. عمو، عمه، عام، عوام", "stance": "supports", "note": "\"عمو: [ع. قس. خالو] برادر پدر؛ عم پدر\" (Arabic, cf. xālū, 'father's brother'); \"عمه: [ع. عمه] (ا.) خواهر پدر\"; \"عام: [ع.] (افا.) همه را فرا گیرنده؛ عموم را فرا رسنده … همگان، همه مردم؛ مق. خاص\"; \"عوام: ج. عامه؛ مق. خواص\". Moʿin marks every one of them [ع.] = Arabic."},
+            {"src": "BQT", "where": "BQT_v1.txt / BQT_v2.txt, grep عمو", "stance": "silent", "note": "Borhān-e Qāṭeʿ has no headword عمو — the 122/112 hits are the adverb عموماً inside other articles. Expected: Borhān is a dictionary of Persian (non-Arabic) vocabulary."},
+            {"src": "HRN", "where": "HRN.txt, greps for amu/amānat/'amm", "stance": "silent", "note": "Horn's Grundriss covers inherited Iranian etyma only; the only 'Amme' hits are the German gloss 'Amme, Erzieher' at nos. cited from the Vidēvdād. No entry for the Arabic loan."},
+            {"src": "HUB", "where": "HUB.txt, grep amān/amm", "stance": "silent", "note": "Hübschmann's Persische Studien likewise ignores Arabic loanwords of this class."},
+            {"src": "ARY", "where": "incoming/ARY/ARY_latin_index_pages.txt, grep AMM/AMEN", "stance": "silent", "note": "Aryanpur's dictionary of Indo-European roots of Persian has no entry — correct, the word is Semitic."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Hebrew",
+          "words": "am; im; Immânŭ-ĕl",
+          "verdict": "confirmed",
+          "derivation": "Hebrew עַם ʿam 'people, nation; kinsman' is a qeṭel-pattern geminate noun from the root ע־מ־ם ʿ-m-m 'to join, be united' (pl. ʿammīm, constr. ʿam-); the preposition עִם ʿim 'with, together' is the same base in a prepositional use, cognate with Ugaritic ʿm and, by metathesis, with Arabic مَعَ maʿa and Ugaritic mʿ. The theophoric name עִמָּנוּאֵל ʿImmānū-ʾĒl (Isaiah 7:14, 8:8) is transparently עִמָּנוּ ʿimmānū 'with us' (ʿim + the 1 pl. pronominal suffix -nū, with gemination of the m) + אֵל ʾĒl 'God' — hence 'God is with us'. Nourai's cross-reference ☞Layh is to his own root box for Semitic ʾ-l/Ilāh 'God', the second element of the name.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D7%A2%D7%9D",
+            "https://en.wiktionary.org/wiki/Immanuel"
+          ],
+          "ref_check": [
+            {"ref": "KLN:62", "status": "supports", "note": "KLN_1966.txt leaf 44 (pp. 62-63) s.v. Amhaarez: \"Heb. 'am had-retz, 'the people of the land'. Heb. 'am, 'people', derives fr. base '-m-m, 'to join, be united', whence also 'am, 'kinsman', 'im, 'with' … Cp. the first element in Emmanuel and the second element in Jeroboam.\" Klein's own cross-entry (leaf 415, pp. 772-773) s.v. Immanuel: \"This name is compounded of 'immānu, 'with us' (which is formed fr. 'im, 'with', with the pronominal suff. of the 1st person pl.), and El, 'God'.\" All three of Nourai's Hebrew items, in Klein's order."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaves 44 and 415 (pp. 62-63, 772-773)", "stance": "supports", "note": "See ref_check: ʿam, ʿim and ʿImmānūʾēl are all derived from stem ʿ-m-m."},
+            {"src": "LKT", "where": "LKT.txt no. 68 s.v. 'Hebr. amen'", "stance": "silent", "note": "Lokotsch treats Hebrew amen but has no entry for ʿam / ʿim — no European loan to record for this node."},
+            {"src": "WEB", "where": "WEB_vol1.txt line 63678", "stance": "supports", "note": "Webster's glosses the name as \"Immanuel (God with us)\", matching the Hebrew analysis."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "Empty pass-through box standing for French Emmanuel (masc. PN, well attested from the Middle Ages, e.g. Emmanuel de Savoie). Its real route is Hebrew ʿImmānūʾēl → Septuagint/NT Greek Ἐμμανουήλ (Matthew 1:23, with prothetic e- and doubled -mm- rendering the Hebrew geminate) → Ecclesiastical Latin Emmanuel → Old French/French Emmanuel; Nourai's arrow Hebrew → French compresses the Greek and Latin stages that his own parallel chart for A.m.n spells out. The box carries no reference of its own.",
+          "sources": ["https://en.wiktionary.org/wiki/Immanuel"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this node."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 280 (pp. 514-515) s.v. Emmanuel", "stance": "partial", "note": "\"Emmanuel, masc. PN. — Gk. Ἐμμανουήλ, fr. Heb. 'Immanuel, lit. 'God is with us'. See Immanuel.\" Klein inserts Greek between Hebrew and the modern European forms, which Nourai's Hebrew → French arrow omits."},
+            {"src": "PHN", "where": "PHN.txt (Pihan, French words from Arabic/Persian/Turkish)", "stance": "silent", "note": "Pihan covers French orientalisms of Arabic/Persian/Turkish origin, not Biblical Hebrew personal names — no entry."},
+            {"src": "DEV", "where": "DEV.txt (Devic)", "stance": "silent", "note": "Likewise no entry for the personal name Emmanuel."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "Âmânoel «آمانوئل»",
+          "verdict": "plausible",
+          "derivation": "Persian امانوئل Emānuʾel / Amānoʾel is the Biblical name Emmanuel taken over as a modern given name and as the rendering of Isaiah 7:14 in Persian Bible translations. A French (or wider European) route is likely for the modern personal-name use — the -وئل -uʾel spelling reflects a European Emmanuel/Emanuel rather than the Arabic-Christian form عمانوئيل ʿImmānūʾīl, which preserves the ʿayin — but Nourai gives no reference and no dated attestation, and Moʿin's Farhang has no entry for the name (grep of MON_part1/part2 for امانوئل: 0 hits), so the French mediation is an assumption rather than a documented fact. Note also that the headword is printed «آمانوئل» with initial آ- while Nourai's own extra field gives the ordinary spelling امانوئل; the آ- form is not standard Persian and may be a scan artefact.",
+          "sources": ["https://en.wiktionary.org/wiki/Immanuel"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this node."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt, MON_part2.txt, grep امانوئل", "stance": "silent", "note": "0 hits; Moʿin's Farhang-e Fārsi does not carry the name."},
+            {"src": "BQT", "where": "BQT_v1.txt, BQT_v2.txt, grep امانوئل", "stance": "silent", "note": "0 hits."},
+            {"src": "ARY", "where": "incoming/ARY/ARY_latin_index_pages.txt", "stance": "silent", "note": "No entry — the name is not Indo-European in origin."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "Emmanuel, Immanuel",
+          "verdict": "confirmed",
+          "derivation": "English has both forms: Immanuel is the direct transliteration of Hebrew עִמָּנוּאֵל ʿImmānūʾēl used in English Bibles at Isaiah 7:14, while Emmanuel is the form that came through Koine Greek Ἐμμανουήλ (Matthew 1:23) and Ecclesiastical Latin Emmanuel, where the initial ʿayin was lost and the vowel written e-. Both entered English as Biblical names in the Wycliffite and Tyndale/AV translations and became given names from the Reformation onward.",
+          "sources": ["https://en.wiktionary.org/wiki/Immanuel"],
+          "ref_check": [
+            {"ref": "KLN:515", "status": "supports", "note": "Page number verified: KLN_1966.txt leaf 280 lies between leaf 279 (running numbers 512, 513) and leaf 281 (516, 517), i.e. printed pp. 514-515. It reads \"Emmanuel, masc. PN. — Gk. Ἐμμανουήλ, fr. Heb. 'Immanuel, lit. 'God is with us'. See Immanuel.\" — Nourai's KLN:515 is correct."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 280 (pp. 514-515) and leaf 415 (pp. 772-773)", "stance": "supports", "note": "Both the Emmanuel and the Immanuel entries; the latter refers the root back to Amhaarez, closing Nourai's circle."},
+            {"src": "WEB", "where": "WEB_vol1.txt line 63678", "stance": "supports", "note": "\"Immanuel (God with us)\"."},
+            {"src": "SKT", "where": "SKT.txt, greps for Emmanuel/Immanuel", "stance": "silent", "note": "Skeat's Concise has no personal-name entries of this kind."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 7,
+      "root": "A.m.n",
+      "verdict": "confirmed",
+      "modern_form": "Proto-Semitic root *ʾ-m-n 'to be firm, trustworthy; to confirm, support'",
+      "note": "Root box, language label and gloss are all right and match both of the standard short statements: Klein (KLN p.61 s.v. amen) \"from stem a-m-n, 'to be trustworthy, confirm, support'\", and Etymonline s.v. amen \"from Semitic root a-m-n 'to be trustworthy, confirm, support'\". Note the root is Semitic, so Pokorny/Walde-Pokorny/Watkins have nothing (correctly). The one refinement modern scholarship adds concerns node #2: Persian آمین is not an internal Arabic derivative of ʾ-m-n but a liturgical loan that reached Arabic from Syriac/Aramaic (ultimately Hebrew); Moʿin marks it [ع. عبر.] 'Arabic, Hebrew', which is the same correction. This does not affect the root itself. Nourai's transliteration 'âmen' for «آمین» is his rendering of the Semitic prototype; the Persian word is āmīn.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/amen",
+        "https://www.etymonline.com/word/amen"
+      ],
+      "ref_check": [
+        {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44 — the amen entry stands immediately before the running-head block \"amenable | amnic | 62 | 63\", i.e. on printed p.61: \"amen, interj., n., adv. and tr. v. — OE., fr. Eccles. L. amen, fr. Eccles. Gk. ἀμήν, fr. Heb. amen, 'verily, truly, certainly', from stem a-m-n, 'to be trustworthy, confirm, support', whence also aman, 'he supported, nourished', heemīn, 'he believed', emunāh, 'firmness, fidelity' … Cp. the related Syr. ammīn, 'strong, enduring', Aram. hemanuthā, Syr. haymanuthā, 'faithfulness, truth', Arab. āmina, 'he was safe' [continues p.62] amuna, 'he was faithful', ā'mana, 'he believed', amīn, 'faithful'.\" Nourai's page number and gloss are exact."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "a.m.n; amin; îmân",
+          "verdict": "confirmed",
+          "derivation": "Arabic root ء م ن ʾ-m-n: أَمِنَ ʾamina 'he was safe', أَمُنَ ʾamuna 'he was faithful, trustworthy', whence the adjective أَمِين ʾamīn 'trustworthy, reliable, faithful' (Qurʾān 95:3 al-balad al-ʾamīn 'the secure city'; al-rūḥ al-ʾamīn 'the trustworthy spirit' = Gabriel, 26:193) and the noun أَمَانَة ʾamāna 'trust, deposit'. The IVth-form verb آمَنَ ʾāmana 'he believed, gave credence (bi- to)' yields the verbal noun إِيمَان ʾīmān 'faith, belief' (*ʾiʾmān > ʾīmān by regular contraction of hamza + i). Nourai's 'a.m.n : to trust' is the root, correctly with initial hamza (not ʿayin — contrast the ʿ-m-m root of the previous chart).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%8A%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%D9%85%D8%A7%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44, s.v. amen (p.61 continuing onto p.62): \"Arab. āmina, 'he was safe', amuna, 'he was faithful', ā'mana, 'he believed', amīn, 'faithful'. Cp. ameen.\" Klein's separate entry ameen (same leaf, p.61) adds: \"Hind. amīn, fr. Arab. amīn, lit. 'trustworthy', fr. amina, 'he was steady, firm, trustworthy' (whence ā'mana, 'he believed'); rel. to Heb. amen, 'verily, truly'.\""}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44, s.vv. ameen and amen (p.61)", "stance": "supports", "note": "See ref_check — Klein gives amina, amuna, āʾmana, amīn under the same stem as Hebrew amen."},
+            {"src": "FVQ", "where": "FVQ.txt / FVQ_pages.txt, greps amin, iman, amana", "stance": "silent", "note": "Jeffery has no entry: ʾ-m-n words in the Qurʾān are treated as native Arabic, not foreign vocabulary (only the interjection āmīn, which is not Qurʾānic, is a loan)."},
+            {"src": "LKT", "where": "LKT.txt no. 66 s.v. 'Ar. amān'", "stance": "supports", "note": "\"Ar. amān: 'Gnade, Gunst' … Die ar. Form imāna, tk. emanet 'Sicherheit' wurde mit amān kontaminiert, wobei sich folgende Wörter ergaben: rum. amanet, emanet 'Pfand, Sicherheit'; bulg. serb. amanet 'Pfand', russ. amanat 'Geisel'.\" — the same root, with its Balkan/Turkish loan history."},
+            {"src": "AFM", "where": "AFM.txt, grep امين/أمين", "stance": "silent", "note": "Addi Shir does not list ʾamīn among Arabicised Persian words — correct, the root is Arabic."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "amn «امن»; amânat «امانت»; îmân «ایمان»; âmen «آمین»",
+          "verdict": "plausible",
+          "derivation": "Three of the four are straightforward Arabic loans into New Persian, all marked [ع.] by Moʿin: امن amn 'safety, secure' = Arabic verbal noun أَمْن; امانت amānat = Arabic أَمَانَة ʾamāna 'trust, deposit' (Persian keeps the Arabic tāʾ marbūṭa as -t in the free form, as regularly in Persian Arabisms: امانة > امانت); ایمان īmān = Arabic إِيمَان, the IVth-form verbal noun of آمَنَ, borrowed with the religious sense 'faith' and passed on from Persian to Urdu/Punjabi/Pashto (Wiktionary: 'Borrowed from Classical Persian اِیمَان (īmān), borrowed from Arabic إِيمَان (ʔīmān), from آمَنَ (ʔāmana)'). The fourth, آمین āmīn 'amen', is where the chart is only partly right: it is Arabic آمِينَ ʾāmīna, but that Arabic word is itself a liturgical borrowing from Classical Syriac ܐܰܡܺܝܢ / Aramaic אַמִין (ultimately Biblical Hebrew אָמֵן), not an inherited Arabic derivative of ʾ-m-n — Moʿin marks it exactly so, [ع. عبر.] 'Arabic, Hebrew'. So this word reaches Persian by the Hebrew branch of Nourai's own chart (node #3) via Syriac and Arabic, not by the Arabic branch, and the node as drawn conflates the two. Nourai's transliteration 'âmen' also misrepresents the Persian pronunciation āmīn. The script_extra items امنیّت، ایمن، مأمن، تأمین، مؤمن، امان، مأمون، آمینه are all further regular ʾ-m-n loans (Moʿin: تأمین [ع.] 'ایمن کردن'; مأمن [ع.] 'جای امن'; مؤمن [ع.] 'دارندهٔ ایمان').",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%D9%85%D8%A7%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%85%DB%8C%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%A7%D9%86%D8%AA"
+          ],
+          "ref_check": [
+            {"ref": "FVA:34,35", "status": "not_checked", "note": "Nahvi, Farhang-e Vāzhehā-ye ʿArabi dar Fārsi (Dakhil), 1368/1989: refs_online.json records no digital copy on any permitted platform (catalogue record OL2012991M only, 582 pp). Not accessible; re-searched 2026-09 per the notes field."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.vv. امن، امانت، ایمان، آمین; MON_part2.txt s.vv. مأمن، مؤمن", "stance": "partial", "note": "\"امن: [ع.] (مص‌ل.) بی‌بیم بودن، ایمن شدن\"; \"امانت: [ع. امانة] (مص‌ل.) امین بودن … مال یا چیزی که به زنهار، ودیعه\"; \"ایمان: [ع.] (مص م.) گرویدن … باور داشتن\" — all straight Arabic, supporting Nourai. But \"آمین: [ع. عبر.] کلمه‌ای است که پس از دعا گویند به معنی برآورد! بپذیر! اجابت کن!\" — Moʿin's double tag ع. عبر. (Arabic, Hebrew) shows this one is a Hebrew word transmitted through Arabic, not an Arabic ʾ-m-n derivative."},
+            {"src": "BQT", "where": "BQT_v1.txt, BQT_v2.txt, greps آمین، امانت", "stance": "silent", "note": "The few hits are OCR noise (آمین read for آیینه/امین inside unrelated articles, e.g. s.v. استوار 'محکم و مضبوط … آمین و معتمد'); Borhān-e Qāṭeʿ carries no headword for these Arabic loans."},
+            {"src": "HRN", "where": "HRN.txt, greps amān/amānat/amin", "stance": "silent", "note": "Horn's Grundriss treats only inherited Iranian etyma; no entry."},
+            {"src": "HUB", "where": "HUB.txt, grep amān", "stance": "silent", "note": "Hübschmann likewise silent on Arabic loans of this class."},
+            {"src": "LKT", "where": "LKT.txt nos. 66 and 68", "stance": "supports", "note": "No. 66 documents Ar. amān / imāna > Turkish emanet 'Sicherheit' > Romanian amanet, Russian amanat — i.e. the amānat family; no. 68 documents Hebr. amen > Gk ἀμήν > Lat. amen 'in alle europäischen Sprachen übergegangen', which is the route behind Persian آمین as well."},
+            {"src": "ARY", "where": "incoming/ARY/ARY_latin_index_pages.txt, grep AMEN", "stance": "silent", "note": "Only unrelated headwords (AMEN listed as the Russian/Czech/Bulgarian word beside āsmān entries); Aryanpur has no Indo-European etymology for these, as expected."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Hebrew",
+          "words": "a.m.n; âmen",
+          "verdict": "confirmed",
+          "derivation": "Hebrew root א־מ־ן ʾ-m-n 'to be firm, faithful, trustworthy': qal אָמַן ʾāman 'he supported, nourished', hiphʿil הֶאֱמִין heʾĕmīn 'he believed', nouns אֱמוּנָה ʾĕmūnāh 'firmness, fidelity' and אֱמֶת ʾĕmeṯ (< *ʾementh) 'truth, stability'. The adverbial אָמֵן ʾāmēn 'verily, truly, certainly' is a frozen affirmative used to ratify an oath or curse (Deuteronomy 27:15-26, 1 Kings 1:36) and to close a doxology (Psalms 41:14). Cognates: Syriac ammīn 'strong, enduring', Aramaic/Syriac (h)aymānūṯā 'faithfulness'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/amen",
+            "https://www.etymonline.com/word/amen"
+          ],
+          "ref_check": [
+            {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44 (p.61) s.v. amen: \"fr. Heb. amen, 'verily, truly, certainly', from stem a-m-n, 'to be trustworthy, confirm, support', whence also aman, 'he supported, nourished', heemīn, 'he believed', emunāh, 'firmness, fidelity', umnām, omnām, 'verily, truly', emith (for *ementh), 'stability, truth'.\" Exactly Nourai's two Hebrew items."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44, p.61 s.v. amen", "stance": "supports", "note": "See ref_check."},
+            {"src": "LKT", "where": "LKT.txt no. 68", "stance": "supports", "note": "\"Hebr. amen: 'Wahrlich, gewiß, sicher'. Hieraus gr. ἀμήν, lat. amen; in alle europäischen Sprachen übergegangen; mit diesem Wort endigen die jüdischen und christlichen Gebete.\""},
+            {"src": "WEB", "where": "WEB_vol1.txt line 6537", "stance": "supports", "note": "\"a'men (also ä'men'), n. [L. amen; Gr. amén; Heb. āmén, truly, certainly]\"."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "amĕn",
+          "verdict": "confirmed",
+          "derivation": "Koine/Ecclesiastical Greek ἀμήν amḗn is an unadapted transliteration of Hebrew אָמֵן, taken over untranslated by the Septuagint translators (3rd-2nd c. BCE) where the Hebrew ratifying formula stood, and then used throughout the New Testament (notably the Gospel formula ἀμὴν λέγω ὑμῖν). Greek η renders the Hebrew ṣērê /ē/; the word is indeclinable and keeps no Greek ending, which is itself the mark of a liturgical borrowing rather than a naturalised loan.",
+          "sources": ["https://en.wiktionary.org/wiki/amen"],
+          "ref_check": [
+            {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44 (p.61) s.v. amen: \"OE., fr. Eccles. L. amen, fr. Eccles. Gk. ἀμήν, fr. Heb. amen\" — the Greek link is explicitly Ecclesiastical Greek from Hebrew, as drawn."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44, p.61", "stance": "supports", "note": "\"fr. Eccles. Gk. ἀμήν, fr. Heb. amen\"."},
+            {"src": "LKT", "where": "LKT.txt no. 68", "stance": "supports", "note": "\"Hieraus gr. ἀμήν, lat. amen\"."},
+            {"src": "WEB", "where": "WEB_vol1.txt line 6537", "stance": "supports", "note": "\"[L. amen; Gr. amén; Heb. āmén]\" — the same Hebrew > Greek > Latin order."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "âmĕn",
+          "verdict": "confirmed",
+          "derivation": "Ecclesiastical/Late Latin āmēn, taken from the Greek of the Septuagint and New Testament in the Old Latin and Vulgate versions (Jerome kept the Hebrew word untranslated); like the Greek it is indeclinable and stays outside the Latin nominal system. Latin then carried it into every Western liturgy and thence into all the Romance and Germanic languages.",
+          "sources": ["https://en.wiktionary.org/wiki/amen"],
+          "ref_check": [
+            {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44 (p.61): \"OE., fr. Eccles. L. amen, fr. Eccles. Gk. ἀμήν\" — the Greek → Latin arrow as drawn."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44, p.61", "stance": "supports", "note": "\"fr. Eccles. L. amen\"."},
+            {"src": "LKT", "where": "LKT.txt no. 68", "stance": "supports", "note": "\"Hieraus gr. ἀμήν, lat. amen; in alle europäischen Sprachen übergegangen.\""},
+            {"src": "LEW", "where": "LEW_1910.txt (Walde, Lat. etym. Wb.)", "stance": "silent", "note": "Walde's Latin etymological dictionary treats inherited Latin vocabulary and has no entry for the ecclesiastical loan amen."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "Amen : verily",
+          "verdict": "confirmed",
+          "derivation": "Old English āmen, borrowed with Christianity from Ecclesiastical Latin āmēn; in Old English it was used only at the close of the Gospels, the affirmative elsewhere being rendered sōþlīċe 'truly' or swā hit is 'so it is'. Middle English amen > modern English amen, still indeclinable, with the two competing pronunciations /ɑːˈmɛn/ (Latinate, older) and /eɪˈmɛn/ (the Great-Vowel-Shift reading of the spelling, favoured in nonconformist and gospel usage). Nourai's gloss 'verily' is the Hebrew adverbial sense preserved throughout.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/amen",
+            "https://www.etymonline.com/word/amen"
+          ],
+          "ref_check": [
+            {"ref": "KLN:61", "status": "supports", "note": "KLN_1966.txt leaf 44 (p.61) s.v. amen: \"amen, interj., n., adv. and tr. v. — OE., fr. Eccles. L. amen, fr. Eccles. Gk. ἀμήν, fr. Heb. amen, 'verily, truly, certainly'.\" Nourai's whole chain and his English gloss come straight from this line."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 44, p.61 s.v. amen", "stance": "supports", "note": "See ref_check."},
+            {"src": "WEB", "where": "WEB_vol1.txt lines 6537-6545", "stance": "supports", "note": "\"a'men (also ä'men'), n. [L. amen; Gr. amén; Heb. āmén, truly, certainly] … 4'men', adv. truly; verily.\" — including Nourai's exact gloss 'verily'."},
+            {"src": "SKT", "where": "SKT.txt, greps for 'amen'", "stance": "silent", "note": "No usable entry: every hit is OCR debris from flamen / filament / backgammon; Skeat's Concise appears not to carry the word (or the scan lost it)."},
+            {"src": "FSD", "where": "FSD_vol1.txt, FSD_vol2.txt, greps for a-men / Heb. amen", "stance": "silent", "note": "The Funk & Wagnalls scan is too badly OCR'd around 'a-men' (hits are additament, enfranchisement, excruciator) to locate the entry."},
+            {"src": "LKT", "where": "LKT.txt no. 68", "stance": "supports", "note": "\"in alle europäischen Sprachen übergegangen\" — English included."}
+          ]
+        }
+      ]
+    }
+  ]
+}
