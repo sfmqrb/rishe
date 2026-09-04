@@ -808,6 +808,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     v_unverified: ["unverified", "بررسی‌نشده"], v_transcription_suspect: ["transcription?", "احتمال خطای نسخه‌برداری"],
     vHow: ["How this derives", "چگونگی اشتقاق"], vSources: ["Sources", "منابع"],
     vRefs: ["Nourai’s cited references, checked", "بررسی ارجاع‌های نورایی"],
+    vConsulted: ["Other references consulted", "مراجع دیگرِ بررسی‌شده"],
     vTitle: ["Verification", "راستی‌آزمایی"], vNone: ["not yet verified", "هنوز راستی‌آزمایی نشده"],
     vRootTitle: ["The root itself", "خود ریشه"], vModern: ["Modern reconstruction", "بازسازی امروزی"],
     vOn: ["checked against modern etymological sources and Nourai’s own citations on", "بررسی‌شده با منابع ریشه‌شناختی امروزی و ارجاع‌های خود نورایی در"],
@@ -1293,13 +1294,23 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
         (rc.note ? " — " + esc(rc.note) : "") + "</div>";
     }).join("") + "</div>";
   }
+  function vConsultedHtml(list) {
+    if (!list || !list.length) return "";
+    return '<div class="vmeta"><b>' + esc(t("vConsulted")) + ":</b>" + list.map(c => {
+      const st = c.stance === "supports" ? "supports" : c.stance === "contradicts" ? "contradicts" : c.stance === "partial" ? "partial" : "not_checked";
+      const r = REFS[c.src];
+      return '<div class="vref r-' + st + '"><span class="rtag">' + esc(c.stance || "") + "</span><code>" +
+        (r && r.title ? '<abbr class="refab" title="' + esc(r.title) + '">' + esc(c.src || "") + "</abbr>" : esc(c.src || "")) +
+        (c.where ? " " + esc(c.where) : "") + "</code>" + (c.note ? " — " + esc(c.note) : "") + "</div>";
+    }).join("") + "</div>";
+  }
   function vPanelHtml(v, title) {
     if (!v) return "";
     return '<details class="vpanel"><summary>' + vBadge(v.verdict) + esc(title || t("vHow")) + "</summary>" +
       (v.modern_form ? '<div class="vmeta"><b>' + esc(t("vModern")) + ":</b> " + esc(v.modern_form) + "</div>" : "") +
       (v.derivation ? '<div class="vderiv">' + esc(v.derivation) + "</div>" : "") +
       (v.note ? '<div class="vderiv">' + esc(v.note) + "</div>" : "") +
-      vSourcesHtml(v.sources) + vRefsHtml(v.ref_check) + "</details>";
+      vSourcesHtml(v.sources) + vRefsHtml(v.ref_check) + vConsultedHtml(v.consulted) + "</details>";
   }
   function nodeVerif(e, n) { return e && e.verif && e.verif.nodes ? e.verif.nodes[String(n.id)] : null; }
   function groupVerif(g) {

@@ -23,6 +23,8 @@ def main(argv):
     tally = collections.Counter()
     root_tally = collections.Counter()
     ref_tally = collections.Counter()
+    con_tally = collections.Counter()
+    con_books = collections.Counter()
     nodes_total = nodes_done = 0
     flagged = []
     for src in sorted(glob.glob(os.path.join(SRC, "page-*.json")), key=page_no):
@@ -74,10 +76,14 @@ def main(argv):
                     flagged.append((pg, e["root"]["name"], f"#{n['id']} {vn.get('words','')}", nv, vn.get("derivation", "")))
                 for rc in vn.get("ref_check") or []:
                     ref_tally[rc.get("status")] += 1
+                for c in vn.get("consulted") or []:
+                    con_tally[c.get("stance")] += 1
+                    con_books[c.get("src")] += 1
     print(f"nodes verified: {nodes_done}/{nodes_total}")
     print("node verdicts:", dict(tally))
     print("root verdicts:", dict(root_tally))
     print("ref checks:", dict(ref_tally))
+    print("books consulted:", dict(con_tally), "| by book:", dict(con_books.most_common(40)))
     if missing_pages:
         print(f"pages without verification ({len(missing_pages)}):", " ".join(map(str, missing_pages)))
     for p in problems:

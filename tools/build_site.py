@@ -33,11 +33,11 @@ def attach_verification(pg, summary):
             continue
         nodes = {}
         for vn in ve.get("nodes", []):
-            nodes[str(vn.get("id"))] = {k: vn.get(k) for k in ("verdict", "derivation", "sources", "ref_check") if vn.get(k)}
+            nodes[str(vn.get("id"))] = {k: vn.get(k) for k in ("verdict", "derivation", "sources", "ref_check", "consulted") if vn.get(k)}
             summary["nodes"][vn.get("verdict")] = summary["nodes"].get(vn.get("verdict"), 0) + 1
             for rc in vn.get("ref_check") or []:
                 summary["refs"][rc.get("status")] = summary["refs"].get(rc.get("status"), 0) + 1
-        e["verif"] = {k: ve.get(k) for k in ("verdict", "modern_form", "note", "sources", "ref_check") if ve.get(k)}
+        e["verif"] = {k: ve.get(k) for k in ("verdict", "modern_form", "note", "sources", "ref_check", "consulted") if ve.get(k)}
         e["verif"]["nodes"] = nodes
         e["verif"]["on"] = v.get("verified_on")
         summary["roots"][ve.get("verdict")] = summary["roots"].get(ve.get("verdict"), 0) + 1
