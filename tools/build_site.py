@@ -97,7 +97,9 @@ def main(argv):
     refs = {}
     if REFS_TABLE.exists():
         for ab, r in json.loads(REFS_TABLE.read_text(encoding="utf-8")).items():
-            refs[ab] = {"title": r.get("title") or "", "url": r.get("url") or "", "kind": r.get("kind") or ""}
+            refs[ab] = {"title": r.get("title") or "", "url": r.get("url") or "", "kind": r.get("kind") or "",
+                        "cites": r.get("cites") or "page number", "hint": (r.get("lookup_hint") or "")[:400],
+                        "notes": (r.get("notes") or "")[:400], "offset": r.get("page_offset") or ""}
     data = json.dumps({"pages": pages, "verif_summary": summary, "refs": refs}, ensure_ascii=False, separators=(",", ":"))
     html = TEMPLATE.read_text(encoding="utf-8")
     assert html.count("/*__DATA__*/;") == 1, "data placeholder not found in template"

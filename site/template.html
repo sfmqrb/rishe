@@ -295,7 +295,19 @@
   html[lang="fa"] .pderiv { border-radius: 8px 0 0 8px; }
   .pderiv .vbadge { margin-inline-end: 8px; }
   .pderiv .parrow { font-family: var(--sans); font-size: 11.5px; color: var(--muted); letter-spacing: .04em; }
-  abbr.refab { text-decoration: none; border-bottom: 1px dotted var(--muted); cursor: help; }
+  .refab { text-decoration: none; border-bottom: 1px dotted var(--muted); cursor: help; }
+  .refab:hover, .refab:focus-visible { color: var(--accent); border-bottom-color: var(--accent); outline: none; }
+  #refpop {
+    position: fixed; z-index: 60; max-width: 380px; padding: 10px 14px 12px; direction: ltr; text-align: left;
+    background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow);
+    font-family: var(--sans); font-size: 12.5px; line-height: 1.45; pointer-events: auto;
+  }
+  #refpop[hidden] { display: none; }
+  #refpop .rp-code { font-weight: 700; letter-spacing: .08em; color: var(--accent); }
+  #refpop .rp-title { font-family: var(--serif, inherit); font-size: 14px; margin: 3px 0 6px; }
+  #refpop .rp-row { color: var(--muted); margin-top: 3px; }
+  #refpop .rp-row b { color: var(--ink); font-weight: 600; }
+  #refpop a { color: var(--accent); }
   .tog {
     font-family: var(--sans); font-size: 11px; font-weight: 700;
     color: var(--muted); background: var(--panel-2);
@@ -809,6 +821,21 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     vHow: ["How this derives", "چگونگی اشتقاق"], vSources: ["Sources", "منابع"],
     vRefs: ["Nourai’s cited references, checked", "بررسی ارجاع‌های نورایی"],
     vConsulted: ["Other references consulted", "مراجع دیگرِ بررسی‌شده"],
+    rpMeans: ["The number means", "معنای شماره"], rpVolume: ["volume", "جلد"], rpOffset: ["Page mapping", "نگاشت صفحه"],
+    rpRead: ["Read it", "خواندن"], rpAccess: ["Access", "دسترسی"],
+    rk_archive_djvu: ["open full text on archive.org", "متن کامل آزاد در archive.org"],
+    "rk_archive_djvu+website": ["open full text (archive.org) and online lookup", "متن کامل آزاد و جست‌وجوی برخط"],
+    "rk_archive_djvu+website+archive_restricted": ["root appendix online; full 1975 edition lending-only", "پیوست ریشه‌ها برخط؛ چاپ ۱۹۷۵ فقط امانتی"],
+    "rk_archive_djvu+local_scan_ocr": ["vols 1–2 open on archive.org; vols 3–5 from a scan", "ج ۱–۲ آزاد در archive.org؛ ج ۳–۵ از اسکن"],
+    rk_website: ["online lookup only", "فقط جست‌وجوی برخط"], "rk_website+archive_djvu": ["online lookup; abridged edition scanned", "جست‌وجوی برخط؛ چاپ مختصر اسکن‌شده"],
+    rk_archive_restricted: ["borrowable on archive.org (free account)", "امانتی در archive.org"],
+    rk_local_scan_ocr: ["scan on file (grey source)", "اسکن موجود"], rk_scan_local: ["scan on file", "اسکن موجود"],
+    rk_google_books: ["Google Books", "گوگل بوکس"], rk_google_books_preview: ["Google Books preview only", "فقط پیش‌نمایش گوگل بوکس"],
+    "rk_google_books_preview+archive_restricted": ["preview / borrowable only", "فقط پیش‌نمایش یا امانتی"],
+    rk_hathitrust_fullview: ["full view on HathiTrust (browser)", "متن کامل در HathiTrust"], "rk_hathitrust_fullview+archive_restricted": ["HathiTrust full view; archive.org lending", "HathiTrust کامل؛ archive.org امانتی"],
+    rk_catalog: ["catalogue record only, not digitised", "فقط رکورد کتابخانه‌ای"], rk_purchase: ["for sale only", "فقط خرید"],
+    rk_login_required: ["free registration required (Iranian site)", "نیازمند ثبت‌نام"], rk_archive_fragment: ["fragment only", "فقط بخشی"],
+    rk_none: ["no online copy found", "نسخهٔ برخط یافت نشد"],
     vTitle: ["Verification", "راستی‌آزمایی"], vNone: ["not yet verified", "هنوز راستی‌آزمایی نشده"],
     vRootTitle: ["The root itself", "خود ریشه"], vModern: ["Modern reconstruction", "بازسازی امروزی"],
     vOn: ["checked against modern etymological sources and Nourai’s own citations on", "بررسی‌شده با منابع ریشه‌شناختی امروزی و ارجاع‌های خود نورایی در"],
@@ -1270,9 +1297,53 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       const m = /^([A-Z]+)(\d*):?(.*)$/.exec(part.trim());
       if (!m) return part;
       const r = REFS[m[1]];
-      return r && r.title ? '<abbr class="refab" title="' + esc(r.title) + '">' + part + "</abbr>" : part;
+      return r && r.title ? '<span class="refab" tabindex="0" data-ref="' + esc(part.trim()) + '">' + part + "</span>" : part;
     }).join("");
   }
+  /* Hover card for a citation code: the full bibliographic record, what the number
+     after the colon means, and where the book can be read. */
+  const $refpop = document.createElement("div");
+  $refpop.id = "refpop"; $refpop.hidden = true; document.body.appendChild($refpop);
+  function refPopHtml(code) {
+    const m = /^([A-Z]+)(\d*):?(.*)$/.exec(code);
+    if (!m) return "";
+    const r = REFS[m[1]]; if (!r) return "";
+    const vol = m[2], loc = (m[3] || "").trim();
+    let html = '<div class="rp-code">' + esc(code) + "</div><div class=\"rp-title\">" + esc(r.title) + "</div>";
+    if (loc) html += '<div class="rp-row"><b>' + esc(t("rpMeans")) + ":</b> " + (vol ? esc(t("rpVolume")) + " " + esc(vol) + ", " : "") + esc(loc) + " = " + esc(r.cites) + "</div>";
+    else if (vol) html += '<div class="rp-row"><b>' + esc(t("rpMeans")) + ":</b> " + esc(t("rpVolume")) + " " + esc(vol) + "</div>";
+    if (r.offset) html += '<div class="rp-row"><b>' + esc(t("rpOffset")) + ":</b> " + esc(r.offset) + "</div>";
+    if (r.url) html += '<div class="rp-row"><b>' + esc(t("rpRead")) + ':</b> <a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(srcLabel(r.url)) + "</a></div>";
+    const kk = "rk_" + (r.kind || "none"), kl = t(kk);
+    html += '<div class="rp-row"><b>' + esc(t("rpAccess")) + ":</b> " + esc(kl === kk ? (r.kind || "—") : kl) + "</div>";
+    if (r.notes) html += '<div class="rp-row">' + esc(r.notes) + "</div>";
+    return html;
+  }
+  let refPopTimer = null;
+  function showRefPop(el) {
+    const html = refPopHtml(el.dataset.ref || "");
+    if (!html) return;
+    $refpop.innerHTML = html; $refpop.hidden = false;
+    const b = el.getBoundingClientRect(), pw = $refpop.offsetWidth, ph = $refpop.offsetHeight;
+    let x = Math.min(Math.max(8, b.left), window.innerWidth - pw - 8);
+    let y = b.bottom + 6; if (y + ph > window.innerHeight - 8) y = Math.max(8, b.top - ph - 6);
+    $refpop.style.left = x + "px"; $refpop.style.top = y + "px";
+  }
+  function hideRefPop() { $refpop.hidden = true; }
+  document.addEventListener("mouseover", ev => {
+    const el = ev.target.closest && ev.target.closest(".refab[data-ref]");
+    if (el) { clearTimeout(refPopTimer); showRefPop(el); }
+  });
+  document.addEventListener("mouseout", ev => {
+    const el = ev.target.closest && ev.target.closest(".refab[data-ref]");
+    if (el) { refPopTimer = setTimeout(() => { if (!$refpop.matches(":hover")) hideRefPop(); }, 250); }
+  });
+  $refpop.addEventListener("mouseleave", () => { refPopTimer = setTimeout(hideRefPop, 200); });
+  $refpop.addEventListener("mouseenter", () => clearTimeout(refPopTimer));
+  document.addEventListener("focusin", ev => { const el = ev.target.closest && ev.target.closest(".refab[data-ref]"); if (el) showRefPop(el); });
+  document.addEventListener("focusout", ev => { if (ev.target.closest && ev.target.closest(".refab[data-ref]")) refPopTimer = setTimeout(hideRefPop, 250); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape") hideRefPop(); });
+  document.addEventListener("scroll", hideRefPop, true);
   function srcLabel(u) {
     try {
       const url = new URL(u);
@@ -1300,7 +1371,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       const st = c.stance === "supports" ? "supports" : c.stance === "contradicts" ? "contradicts" : c.stance === "partial" ? "partial" : "not_checked";
       const r = REFS[c.src];
       return '<div class="vref r-' + st + '"><span class="rtag">' + esc(c.stance || "") + "</span><code>" +
-        (r && r.title ? '<abbr class="refab" title="' + esc(r.title) + '">' + esc(c.src || "") + "</abbr>" : esc(c.src || "")) +
+        (r && r.title ? '<span class="refab" tabindex="0" data-ref="' + esc(c.src || "") + '">' + esc(c.src || "") + "</span>" : esc(c.src || "")) +
         (c.where ? " " + esc(c.where) : "") + "</code>" + (c.note ? " — " + esc(c.note) : "") + "</div>";
     }).join("") + "</div>";
   }

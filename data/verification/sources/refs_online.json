@@ -52,7 +52,8 @@
     "lang": "fas",
     "note": "vol 5 = ta'liqat/addenda with its own pagination"
    }
-  ]
+  ],
+  "cites": "page number, continuous across the five volumes of Mo'in's edition (1342/1963 = Amir Kabir 1362 reprint); Mo'in's etymological footnotes are the cited material"
  },
  "MON": {
   "title": "Mohammad Mo'in, Farhang-e Farsi (6 vols, Amir Kabir 1363/1984; vols 1–3 lexicon, vol 4 foreign compounds, vols 5–6 a'lam/proper names)",
@@ -69,7 +70,8 @@
   ],
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "covers_etymology = partial: origin-language tag visible online, Latin etyma missing. The a'lam volumes (MON5/MON6 citations, e.g. MON5:528) are NOT online: vajehyab's Mo'in has no proper-name entries (tested افراسیاب — only compounds returned); abadis shows Dehkhoda and 'فرهنگ اسم‌ها' instead, which do give Avestan forms (e.g. Frangrasyan) and can serve as a cross-check. noorlib has no Mo'in 6-vol entry found. The 6-vol edition itself was not found on archive.org, Google Books or HathiTrust full view. || RE-SEARCH 2026-09: still no scan of the 6-vol Amir Kabir edition (incl. vols 5-6 اعلام) on archive.org, Google Books (API quota-limited; WebSearch found no record with preview), HathiTrust (no record surfaced), noorlib, ketabnak (author page persons/6040 lists 34 Mo'in titles, none the 6-vol فرهنگ), tarikhema, picofile, scribd, Commons/Wikisource. Only the 2-vol Adena condensation exists (archive.org, mirrored on ketabnak 65980/65981, picofile, persianpdf, scribd); its image PDFs were downloaded to incoming/MON/ (the _text.pdf variants with OCR layer are at the same archive.org identifiers). The 6-vol set is purchase-only (in print: iketab.com, bookroom.ir/book/97022, 30book.com/Book/32100)."
+  "notes": "covers_etymology = partial: origin-language tag visible online, Latin etyma missing. The a'lam volumes (MON5/MON6 citations, e.g. MON5:528) are NOT online: vajehyab's Mo'in has no proper-name entries (tested افراسیاب — only compounds returned); abadis shows Dehkhoda and 'فرهنگ اسم‌ها' instead, which do give Avestan forms (e.g. Frangrasyan) and can serve as a cross-check. noorlib has no Mo'in 6-vol entry found. The 6-vol edition itself was not found on archive.org, Google Books or HathiTrust full view. || RE-SEARCH 2026-09: still no scan of the 6-vol Amir Kabir edition (incl. vols 5-6 اعلام) on archive.org, Google Books (API quota-limited; WebSearch found no record with preview), HathiTrust (no record surfaced), noorlib, ketabnak (author page persons/6040 lists 34 Mo'in titles, none the 6-vol فرهنگ), tarikhema, picofile, scribd, Commons/Wikisource. Only the 2-vol Adena condensation exists (archive.org, mirrored on ketabnak 65980/65981, picofile, persianpdf, scribd); its image PDFs were downloaded to incoming/MON/ (the _text.pdf variants with OCR layer are at the same archive.org identifiers). The 6-vol set is purchase-only (in print: iketab.com, bookroom.ir/book/97022, 30book.com/Book/32100).",
+  "cites": "page number of Mo'in's six-volume Farhang-e Farsi; MON5:… / MON6:… = volume 5 / 6 (proper names)"
  },
  "SOD": {
   "title": "Badr al-Zaman Gharib (Qarib), Sogdian–Persian–English Dictionary, Farhangan, Tehran 1374/1995",
@@ -82,7 +84,8 @@
   ],
   "page_offset": "printed page ≈ leaf − 66 in SOD_pages.txt (0-based \\f blocks; 645 leaves; English intro precedes)",
   "covers_etymology": true,
-  "notes": "OCR: Sogdian transliterations, entry numbers, English glosses and bibliographic refs (GMS, BSOAS, VJ ...) are readable; the Persian glosses are garbage (OCR'd as Latin). Full scan, 1995 edition = the one Nourai used."
+  "notes": "OCR: Sogdian transliterations, entry numbers, English glosses and bibliographic refs (GMS, BSOAS, VJ ...) are readable; the Persian glosses are garbage (OCR'd as Latin). Full scan, 1995 edition = the one Nourai used.",
+  "cites": "entry number / page in Gharib's Sogdian dictionary"
  },
  "SNS": {
   "title": "Mahmoud Tavoosi, Vazhe-name-ye Shayast ne Shayast (A Glossary of Shayast ne Shayast), Shiraz University 1365/1986",
@@ -178,7 +181,8 @@
   ],
   "page_offset": "printed page = leaf − 17 (0-based \\f blocks in FVQ_pages.txt; 335 leaves)",
   "covers_etymology": true,
-  "notes": "Good English OCR (Arabic script garbled). Same 1938 edition Nourai cites."
+  "notes": "Good English OCR (Arabic script garbled). Same 1938 edition Nourai cites.",
+  "cites": "page number of Jeffery, The Foreign Vocabulary of the Qurʾān (1938)"
  },
  "VDQ": {
   "title": "Fereydun Badreh'i (tr.), Vazheha-ye Dakhil dar Qor'an-e Majid (Persian translation of Jeffery FVQ with notes), Toos 1372/1993",
@@ -188,7 +192,8 @@
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "Not on archive.org. Also on ghaemiyeh (ghbook.ir) as an app/EPUB per news reports."
+  "notes": "Not on archive.org. Also on ghaemiyeh (ghbook.ir) as an app/EPUB per news reports.",
+  "cites": "page number of the Persian translation of Jeffery's Foreign Vocabulary of the Qurʾān"
  },
  "FVF": {
   "title": "S.M.A. Emam Shushtari, Farhang-e Vazheha-ye Farsi dar Zaban-e Arabi, Anjoman-e Asar-e Melli 58, Tehran 1347/1968",
@@ -263,7 +268,8 @@
   ],
   "page_offset": "198 leaves; page numerals OCR'd unreliably — offset approx leaf − 8 (front matter); confirm on page image",
   "covers_etymology": true,
-  "notes": "Arabic OCR fair; Syriac/Latin etyma partially garbled."
+  "notes": "Arabic OCR fair; Syriac/Latin etyma partially garbled.",
+  "cites": "page number of Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba (1908)"
  },
  "FRS": {
   "title": "Asadi Tusi, Loghat-e Fors, ed. Mojtaba'i & Sadeqi, Kharazmi 1365/1986",
@@ -547,7 +553,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/AHD_watkins1985.txt",
   "page_offset": "1985 Watkins ed.: leaf = printed + 29 (e.g. leaf 41 = p.12). NOTE: Nourai's page numbers (1505-1550) are for the 1976 AHD appendix, which is NOT open online; the 1985 book has the same root entries (slightly revised) on pp. 1-109, so locate by root name, not page.",
   "lookup_hint": "Online: single page https://ahdictionary.com/word/indoeurop.html with one anchor per root, e.g. ...indoeurop.html#deru- (also reachable from any word page via 'Indo-European roots' link); this is the revised 2000/2011 text. Local 1985 text: roots are bold headwords at line start, e.g. grep -n '^deru-' ; entries list English derivatives in caps. Restricted 1970s AHD scans on IA (lending only, djvu.txt returns 401): americanheritage0000dict (July 1977 printing, 970 leaves - probably the New College Edition), bwb_P9-BHZ-437 (1974), americanheritage00nyde (1970), bwb_W9-CSW-086 (1969, 1610 leaves = original 1969 ed.).",
-  "notes": "AHD is by far the most cited source (1906). Root order is alphabetical in all versions, so root-name lookup is reliable; page numbers can only be checked against a borrowed copy of the 1976 New College Edition. || RE-SEARCH 2026-09: no open scan of the New College Edition; three borrowable copies on archive.org (avoid the ~840-pp Dell abridgements, which lack the appendix). Local proxy remains AHD_watkins1985.txt."
+  "notes": "AHD is by far the most cited source (1906). Root order is alphabetical in all versions, so root-name lookup is reliable; page numbers can only be checked against a borrowed copy of the 1976 New College Edition. || RE-SEARCH 2026-09: no open scan of the New College Edition; three borrowable copies on archive.org (avoid the ~840-pp Dell abridgements, which lack the appendix). Local proxy remains AHD_watkins1985.txt.",
+  "cites": "page number of the 1975/76 New College Edition; pp. 1505–1550 are the Indo-European roots appendix (look the root up by name)"
  },
  "POK": {
   "title": "J. Pokorny, Indogermanisches etymologisches Wörterbuch, Bern 1959 (Band I, pp. 1-1183)",
@@ -564,7 +571,8 @@
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/POK_02.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/POK_03.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/POK_full.txt"
-  ]
+  ],
+  "cites": "page number of Pokorny, Indogermanisches etymologisches Wörterbuch, Band I (1959)"
  },
  "KLN": {
   "title": "E. Klein, A Comprehensive Etymological Dictionary of the English Language, 2 vols., Elsevier 1966-67",
@@ -579,7 +587,8 @@
   "local_files": [
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/KLN_1966.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/KLN_1971.txt"
-  ]
+  ],
+  "cites": "page number, continuous across the two volumes (1966–67)"
  },
  "HRN": {
   "title": "P. Horn, Grundriss der neupersischen Etymologie, Strassburg 1893",
@@ -590,7 +599,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/HRN.txt",
   "page_offset": "leaf = printed + 21 (e.g. leaf 22 = p.1; leaf 60 = p.39). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Entries are numbered paragraphs: 'NNN. word 'meaning'' at line start, e.g. grep -n '^ *169\\. ' or grep the Persian word in transliteration (bay, bak...). Nourai cites Horn by page; Horn's numbered entries are also cited by number in Hübschmann.",
-  "notes": "OCR of German Fraktur-free text is decent; Persian script is not OCRed."
+  "notes": "OCR of German Fraktur-free text is decent; Persian script is not OCRed.",
+  "cites": "page number of Horn, Grundriss der neupersischen Etymologie (1893); entries are also numbered"
  },
  "IEC": {
   "title": "S. E. Mann, An Indo-European Comparative Dictionary, Hamburg 1984-87",
@@ -601,7 +611,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/IEC.txt",
   "page_offset": "TWO printed pages per leaf: leaf ~= p/2 + 15 (e.g. leaf 412 = p.794, leaf 650 = p.1270). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Reconstructed headword at line start followed by gloss in quotes and 'WP I, 456' refs, e.g. grep -n '^koks-' IEC.txt. Alphabetical by IE root.",
-  "notes": ""
+  "notes": "",
+  "cites": "column/page number of Mann, An Indo-European Comparative Dictionary (1984–87)"
  },
  "KNT": {
   "title": "R. G. Kent, Old Persian: Grammar, Texts, Lexicon, AOS 1950/1953",
@@ -612,7 +623,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/KNT.txt",
   "page_offset": "leaf = printed + 13 for pp. <~150, +15 for the Lexicon (pp. 164-215), e.g. leaf 166 = p.151. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Lexicon (Part III, pp. 164 ff.) headwords are transliterated OP words at line start followed by part of speech, e.g. grep -n '^apadana-' ; section refs like '$147'. Nourai's page numbers should fall in 164-215 for lexicon citations.",
-  "notes": ""
+  "notes": "",
+  "cites": "page number of Kent, Old Persian (1953); the lexicon starts p. 164"
  },
  "SYN": {
   "title": "C. D. Buck, A Dictionary of Selected Synonyms in the Principal Indo-European Languages, Chicago 1949",
@@ -623,7 +635,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/SYN.txt",
   "page_offset": "leaf = printed + 24 (e.g. leaf 26 = p.2). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Organised by concept number (e.g. '4.42 EYE'); each section has a table of words then numbered discussion paragraphs '1. ...', '2. ...'. grep the concept heading (all caps English word) or a printed page number line.",
-  "notes": "Two other open copies: dictionaryofselectedsynonyms...buck_963_N, fock_a-dictionary-...; restricted: dictionaryofsele0000carl."
+  "notes": "Two other open copies: dictionaryofselectedsynonyms...buck_963_N, fock_a-dictionary-...; restricted: dictionaryofsele0000carl.",
+  "cites": "page number of Buck, A Dictionary of Selected Synonyms (1949)"
  },
  "WLD": {
   "title": "A. Walde & J. Pokorny, Vergleichendes Wörterbuch der indogermanischen Sprachen, 3 vols., Berlin/Leipzig 1927-32",
@@ -642,7 +655,8 @@
   ],
   "page_offset": "Band 3: leaf = printed + 6. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf> || Band I (WLD_Bd1_pages.txt, 887 leaves): printed = leaf(1-based) − 9 (leaf 801 = p.792). Band II (WLD_Bd2_pages.txt, 720 leaves): printed = leaf − 5 (leaf 701 = p.696).",
   "lookup_hint": "Band 3 is the index (Wortregister by language) - it maps a word to 'Band, page' in vols 1-2, so it can at least confirm that a word is treated at the cited WP volume/page. For the actual entry text, use Pokorny 1959 (POK), whose entries cite 'WP. I 177' etc. and are essentially a revision of WP.",
-  "notes": "Tried IA (several queries), Google Books API (quota exceeded / not full view), HathiTrust (blocks automated access, 403). Band 2 (1927) is US public domain; Band 1 (1930) became US PD in 2026, so HathiTrust full view may exist - check manually at https://catalog.hathitrust.org/Search/Home?lookfor=walde+pokorny+vergleichendes. || UPDATE 2026-09: Bände I and II obtained in full from the Digital Library of India scans on archive.org (open, OCR layer in the _text.pdf)."
+  "notes": "Tried IA (several queries), Google Books API (quota exceeded / not full view), HathiTrust (blocks automated access, 403). Band 2 (1927) is US public domain; Band 1 (1930) became US PD in 2026, so HathiTrust full view may exist - check manually at https://catalog.hathitrust.org/Search/Home?lookfor=walde+pokorny+vergleichendes. || UPDATE 2026-09: Bände I and II obtained in full from the Digital Library of India scans on archive.org (open, OCR layer in the _text.pdf).",
+  "cites": "volume (WLD1 / WLD2) and page of Walde–Pokorny"
  },
  "ISS": {
   "title": "H. W. Bailey, Indo-Scythian Studies: Khotanese Texts VI (Prolexis to the Book of Zambasta), Cambridge 1967",
@@ -675,7 +689,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/HUB.txt",
   "page_offset": "leaf = printed + 10 (e.g. leaf 11 = p.1). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Part I (pp. 1-115) follows Horn's numbering: entries look like 'NNN. word' with Horn's number; Part II is grammar by paragraph (§). grep the transliterated Persian word or Horn's entry number.",
-  "notes": "Built from djvu.xml (no hocr); OCR quality moderate."
+  "notes": "Built from djvu.xml (no hocr); OCR quality moderate.",
+  "cites": "page number of Hübschmann, Persische Studien (1895)"
  },
  "BRT": {
   "title": "C. Bartholomae, Altiranisches Wörterbuch, Strassburg 1904 (repr. de Gruyter 1979, same pagination)",
@@ -686,7 +701,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/BRT.txt",
   "page_offset": "Columns 1-1874 are printed at the top of each column; the scan mostly has TWO columns/pages per leaf: leaf ~= col/2 + 10..40 (e.g. leaf 10 = col 1, leaf 603 = col 1138, leaf 910 = col 1743). Grep the column number rather than computing. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Nourai's BRT numbers are Bartholomae's COLUMN numbers. Headwords are Avestan/OP in transliteration in bold at line start; OCR of the special transliteration is noisy - grep on a distinctive Latin gloss or the German meaning in quotes. Column numbers appear as standalone numbers at leaf tops.",
-  "notes": "Nourai's Table IV says 1979; that is the unchanged reprint."
+  "notes": "Nourai's Table IV says 1979; that is the unchanged reprint.",
+  "cites": "column number (the Altiranisches Wörterbuch is numbered by column, two per page)"
  },
  "FSD": {
   "title": "Funk & Wagnalls New Standard Dictionary of the English Language, New York 1940 printing (first published 1913, same plates)",
@@ -703,7 +719,8 @@
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/FSD_vol2.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/FSD_vol3.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/FSD_vol4.txt"
-  ]
+  ],
+  "cites": "page number of Funk & Wagnalls New Standard Dictionary (1940)"
  },
  "SKT": {
   "title": "W. W. Skeat, A Concise Etymological Dictionary of the English Language, Oxford (new ed. 1911; reprints to 1967 share pagination)",
@@ -714,7 +731,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/SKT.txt",
   "page_offset": "leaf = printed + 20 (e.g. leaf 27 = p.7). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Headword in caps at line start, e.g. grep -n '^TREE' SKT.txt; entries are terse with '(E.)', '(F.-L.)' language tags.",
-  "notes": "Nourai says '1882-1967'; the 1967 Oxford reprint reproduces the 1911 rewritten edition, so the 1911 scan is the right pagination."
+  "notes": "Nourai says '1882-1967'; the 1967 Oxford reprint reproduces the 1911 rewritten edition, so the 1911 scan is the right pagination.",
+  "cites": "page number of Skeat, Concise Etymological Dictionary"
  },
  "PRT": {
   "title": "E. Partridge, Origins: A Short Etymological Dictionary of Modern English, New York 1958",
@@ -740,7 +758,8 @@
   "local_files": [
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/NYB_vol2_glossary.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/NYB_vol1.txt"
-  ]
+  ],
+  "cites": "page number of Nyberg, A Manual of Pahlavi, Part II Glossary (1974)"
  },
  "HJB": {
   "title": "H. Yule & A. C. Burnell, Hobson-Jobson, 2nd ed. by W. Crooke, London 1903 (Delhi reprint 1968)",
@@ -751,7 +770,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/HJB.txt",
   "page_offset": "leaf = printed + 35..51 (plates inserted; e.g. leaf 83 = p.32, leaf 319 = p.270, leaf 535 = p.490, leaf 905 = p.870). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Headwords in caps at line start followed by ', s.' etc., e.g. grep -n '^BAZAAR' HJB.txt. Also online at dsal: https://dsal.uchicago.edu/dictionaries/hobsonjobson/ (search box) which shows page numbers.",
-  "notes": ""
+  "notes": "",
+  "cites": "page number of Hobson-Jobson (1903 ed.)"
  },
  "PHN": {
   "title": "A. P. Pihan, Dictionnaire étymologique des mots de la langue française dérivés de l'arabe, du persan ou du turc, Paris 1866",
@@ -773,7 +793,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/LKT.txt",
   "page_offset": "leaf = printed + 26 (e.g. leaf 28 = p.2). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Numbered entries: 'NNNN. word (language) meaning' - Lokotsch is usually cited by entry number, but Nourai cites pages. grep the oriental source word in transliteration or the number.",
-  "notes": ""
+  "notes": "",
+  "cites": "entry number of Lokotsch, Etymologisches Wörterbuch der europäischen Wörter orientalischen Ursprungs (1927)"
  },
  "WEB": {
   "title": "Webster's New Twentieth Century Dictionary of the English Language, Unabridged, 2nd ed. (1978 printing)",
@@ -784,7 +805,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/WEB_vol1.txt",
   "page_offset": "not reliably detected (page_numbers.json sparse); grep headword. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Headword bold at line start; etymology in brackets. 2nd-edition pagination is the same across 1958-1983 printings, so a 1978 page number can be checked in the 1962 vol. 1 scan for words A-(mid alphabet); vol. 2 only via lending copies.",
-  "notes": ""
+  "notes": "",
+  "cites": "page number of Webster's New Twentieth Century Dictionary, 2nd ed."
  },
  "SIN": {
   "title": "B. Laufer, Sino-Iranica, Chicago 1919 (Field Museum Anthr. Ser. XV.3, pp. 185-630)",
@@ -1001,7 +1023,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/PHD.txt",
   "page_offset": "leaf = printed + 21 (e.g. leaf 22 = p.1). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Headword = Pahlavi in transliteration at line start, followed by Pahlavi script (not OCRed) and gloss, e.g. grep -n '^abar '. Alternative PDF: https://www.parsianjoman.org/wp-content/uploads/2015/09/A-Concise-Pahlavi-Dictionary.pdf (8.4 MB).",
-  "notes": ""
+  "notes": "",
+  "cites": "page number of MacKenzie, A Concise Pahlavi Dictionary (1971)"
  },
  "TYL": {
   "title": "W. Taylor, Arabic Words in English (S.P.E. Tract XXXVIII), Oxford 1933",
@@ -1298,7 +1321,8 @@
     "pdf_offset": 0,
     "lang": "deu+ara"
    }
-  ]
+  ],
+  "cites": "page number of Asbaghi, Persische Lehnwörter im Arabischen (1988), alphabetical by Arabic word"
  },
  "AKD": {
   "title": "H. Zimmern, Akkadische Fremdwörter als Beweis für babylonischen Kultureinfluss, Leipzig 1917 (2nd ed.)",
