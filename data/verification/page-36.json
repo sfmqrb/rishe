@@ -1,0 +1,352 @@
+{
+  "pdf_page": 36,
+  "book_page": 6,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Agaru",
+      "verdict": "confirmed",
+      "modern_form": "Akkadian agāru 'to hire' (stative agir), with agru / agarru 'hired man, hireling' and igru 'wages'",
+      "note": "The root box is right: Akkadian agāru 'to hire' is a well-attested verb (CAD A/1 s.v. agāru; Zimmern, Akkadische Fremdwörter, 2nd ed. 1917, p.47). The Semitic left branch of this chart (Akk. > Aram./Syr. > Arab. ʾajara > Persian ejāre/ojrat/ajr) is solidly supported by Nourai's own references and is still the standard account. The Greek right branch is the weak point: Zimmern (1917), Jeffery (1938) and Klein (1966) do connect Greek ἄγγαρος (and through it ἄγγελος) with Akkadian agru 'hireling', but current scholarship (Beekes, EDG 2010; Tavernier, Iranica in the Achaemenid Period 2007, followed by Wiktionary) instead derives ἄγγαρος from Old Persian *angara- 'missive' < Aramaic *ʾiggartā < Akkadian egirtu 'inscribed tablet, letter' — a different Akkadian etymon. Watkins (AHD appendix) simply says 'unknown Oriental source'. One transliteration point: the chart's Arabic verb is printed in the JSON as 'a`jara'; the verb is أَجَرَ ʾajara, root ʾ-j-r with hamza, not ʿayn (Zimmern writes ʾagara, Klein 'Arab. ajara'). Since the chart elsewhere uses the backtick for ʿayn (Mo`ayyerî), this is most likely a hamza/ʿayn confusion introduced somewhere between the print and the JSON.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82",
+        "https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CE%B3%CE%B1%CF%81%CE%BF%CF%82",
+        "https://www.etymonline.com/word/angel"
+      ],
+      "ref_check": [
+        {"ref": "KLN", "status": "supports", "note": "KLN_1966.txt \\f-leaf 51 (≈ printed p.74-78), s.v. angel: 'of Persian, ult. of Sem. origin. Cp. Akkad, agarru, \"hireling, hired laborer\", fr. agaru, to hire, which is rel. to Aram. agar, eggār, \"he hired\", (whence Arab. ajara, of s.m.)'. Klein is exactly Nourai's root box."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Syriac",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through node standing for the Aramaic/Syriac stage. Akkadian agāru 'to hire' was taken over into Imperial Aramaic as ʾgr (ʾăgar 'he hired'), Syriac ܐܓܪ ʾegar 'to hire', with the nouns ܐܓܝܪܐ ʾăgīrā 'hireling, hired labourer' and ܐܓܪܐ ʾagrā 'wage, reward'. The Aramaic forms keep the Akkadian consonant skeleton unchanged (ʾ-g-r); the word is far commoner in Syriac than in Jewish Aramaic, which is why Jeffery makes Syriac specifically the donor to Arabic. Placing Syriac between Akkadian and both Arabic and Greek is therefore right for the Arabic branch and at least defensible for the Greek one.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A3%D8%AC%D8%B1"],
+          "ref_check": [
+            {"ref": "KLN", "status": "supports", "note": "KLN_1966.txt leaf 51 s.v. angel: 'fr. agaru, to hire, which is rel. to Aram. agar, eggār, \"he hired\", (whence Arab. ajara, of s.m.)' — Klein's Aramaic is Nourai's Syriac node."}
+          ],
+          "consulted": [
+            {"src": "FVQ", "where": "p.49 (FVQ_pages.txt leaf 66)", "stance": "supports", "note": "'From this come on the one hand the Aram. אגר : Syr. ܐܓܝܪܐ a hireling, and thence the denominative verbs אגר and ܐܓܪ, to hire, with corresponding nouns … It would have been from the Aram. that the word passed into Arabic … as the word is of much wider use in Syriac than in Jewish Aramaic, we are probably right in considering it as a borrowing from Syriac.'"},
+            {"src": "AKD", "where": "p.47 (AKD.txt leaf 56)", "stance": "supports", "note": "'akk. agru, agir, agarru Mietsklave, agāru mieten : > wohl aram. ʾegar mieten, ʾăgīrā Lohnarbeiter (> arab. ʾagara)'."},
+            {"src": "AFA", "where": "grep 'agara|aggara|agir' in AFA.txt", "stance": "silent", "note": "Fraenkel's Aramäische Fremdwörter has no entry for this root in the OCR text."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "a`jara",
+          "verdict": "confirmed",
+          "derivation": "Arabic أَجَرَ ʾajara 'he hired, he gave wages, he rewarded' (root ʾ-j-r), with the verbal noun أَجْر ʾajr 'wage, reward' and أُجْرَة ʾujra 'hire, rent'. Aramaic/Syriac ʾ-g-r was taken into Arabic in the pre-Islamic period; Aramaic g regularly answers Arabic j (ǧ), so ʾăgar → ʾajara with no other change. Jeffery notes that the Muslim lexicographers took the root for pure Arabic but that the verb أجر 'to receive hire' is obviously denominative from the noun أجر, which betrays the loan. NOTE on the data: the JSON transliteration 'a`jara' has a backtick where a hamza belongs — the verb is ʾajara (ʾ-j-r), not *ʿajara (ʿ-j-r); the chart uses the same backtick for ʿayn elsewhere on the page, so this is very likely a hamza/ʿayn confusion in the transcription rather than Nourai's claim.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A3%D8%AC%D8%B1"],
+          "ref_check": [
+            {"ref": "AKD:47", "status": "supports", "note": "AKD.txt \\f-leaf 56 = printed p.47: 'akk. agru, agir, agarru Mietsklave, agāru mieten : > wohl aram. ʾegar mieten, ʾăgīrā Lohnarbeiter (> arab. ʾagara); > wahrsch. auch ἄγγαρος urspr. wohl Mietling und dann erst Postknecht.' Zimmern's page is exactly the arrow Nourai draws, and Zimmern too writes the Arabic with the aleph/hamza, not ʿayn."},
+            {"ref": "FVQ:49", "status": "supports", "note": "FVQ_pages.txt leaf 66 = printed p.49 (heading 'FOREIGN VOCABULARY OF THE QUR'AN 49'), s.v. أجر 'reward, wages': 'Zimmern, Akkad. Fremdw. 47, has pointed out that the ultimate origin of the root in this sense is the Akk. agru, agarru, hired servant … It would have been from the Aram. that the word passed into Arabic, probably at a very early period … we are probably right in considering it as a borrowing from Syriac.'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 51, s.v. angel", "stance": "supports", "note": "'Aram. agar, eggār, \"he hired\", (whence Arab. ajara, of s.m.)'."},
+            {"src": "RCH", "where": "RCH.txt leaf 122", "stance": "supports", "note": "Richardson lists 'A أجرة ujrat, Reward, recompense, hire, rent, wages' — marked A(rabic), the word and sense the chart gives."},
+            {"src": "PLA", "where": "grep in PLA_pages.txt (Asbaghi, Persische Lehnwörter im Arabischen)", "stance": "silent", "note": "Asbaghi does not list أجر — consistent with the word being an Aramaic, not a Persian, loan in Arabic."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "ejâreh «اجاره»; ojrat «اجرت»; ajr «اجر»",
+          "verdict": "confirmed",
+          "derivation": "All three are ordinary Arabic loans in New Persian, taken over after the Islamic conquest from the Arabic root ʾ-j-r: إِجَارَة ʾijāra (form-IV verbal noun) → Persian ejāre/ejārat اجاره 'lease, rent'; أُجْرَة ʾujra → Persian ojrat اجرت 'wage, fee' (Persian keeps the Arabic tāʾ marbūṭa as -at in the older pronunciation); أَجْر ʾajr → Persian ajr اجر 'reward, recompense', the sense Ḥāfeẓ uses in the couplet quoted on the chart ('اجر صبری است …'). The native Middle/New Persian word for the same notion is mizd/muzd (MP mizd 'reward, hire, pay', MacKenzie PHD), so these are lexical replacements, not inherited forms. The route Akkadian → Aramaic/Syriac → Arabic → Persian is therefore correct as drawn.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A3%D8%AC%D8%B1"],
+          "ref_check": [
+            {"ref": "MON", "status": "partial", "note": "The 6-vol page is not cited by number so the exact page could not be located, but Mo'in's text (2-vol Adena abridgement, MON_part1.txt) tags all three as Arabic: 'اجاره: [- اجارت، ع. اجارة] (مص‌ع.) … به مزد گرفتن' and 'اجرت: [ع. اجرة] (ا.) مزد، مزدکار، دستمزد … کرایه'. Mo'in confirms the words and their Arabic origin, i.e. the last arrow of the chain."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.vv. اجاره، اجرت (2-vol abridgement, no page numbers)", "stance": "supports", "note": "'اجاره: [- اجارت. ع. اجارة]' and 'اجرت: [ع. اجرة] (ا.) مزد، مزدکار، دستمزد' — Mo'in's [ع.] tag = Arabic."},
+            {"src": "RCH", "where": "RCH.txt leaf 122 s.v. ujrat", "stance": "supports", "note": "'A أجرة ujrat, Reward, recompense, hire, rent, wages' in a Persian-Arabic-English dictionary, marked Arabic."},
+            {"src": "PHD", "where": "PHD_mackenzie.txt leaf 77 s.v. mizd", "stance": "partial", "note": "'mizd [m(y)zd | N muzd] reward, hire, pay. -war [-wbl | N -ur] hireling' — the inherited Iranian word; MacKenzie has no ʾgr-type word, confirming that ajr/ojrat/ejāre are post-conquest Arabic imports."},
+            {"src": "HRN", "where": "grep 'ajr|ijar|uǧrat' in HRN.txt", "stance": "silent", "note": "Horn's Grundriss covers only inherited Iranian vocabulary and has no entry — expected for an Arabic loan."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "angelos; eu-angelos; evangelion",
+          "verdict": "disputed",
+          "derivation": "The Greek words are of course real: ἄγγελος 'messenger' (Mycenaean a-ke-ro, so attested by the 13th c. BCE), εὐάγγελος 'bringing good news', εὐαγγέλιον originally 'reward given to the bearer of good news', then in the Koine 'good news, gospel'. What is disputed is the arrow. Nourai follows Zimmern (1917), Jeffery (1938) and Klein (1966), who derive Greek ἄγγαρος 'Persian mounted courier' from Akkadian agru/agarru 'hireling' (Klein's semantic ladder 'hireling → hired messenger → messenger'), and then treat ἄγγελος as a doublet of ἄγγαρος; Nourai's gloss 'hired messenger' for angelos is that reconstruction, not an attested Greek sense. Modern scholarship prefers a different Akkadian source: Beekes (EDG 2010) and Tavernier (Iranica in the Achaemenid Period, 2007) derive ἄγγαρος from Old Persian *angara- 'missive, letter' < Aramaic *ʾiggartā / *ʾengartā < Akkadian egirtu 'inscribed tablet, letter', and expressly say it is NOT from agru 'hired man'. Klein himself hedges by citing both etyma (agarru 'hireling' AND Heb. iggereth / Aram. iggartā 'letter') in one breath. Watkins (AHD IE-roots appendix) declines to choose: '[angelos. Messenger. Greek noun, akin to Greek angaros, mounted courier, both from an unknown Oriental source.]'; Skeat says only 'from O. Persian'. So: a Near-Eastern loan — yes, essentially undisputed; from the 'hire' root agāru — a minority, now largely superseded, view. There is also a structural problem with the chart: it hangs Greek off the Syriac node, whereas every version of the Semitic hypothesis routes the word through Persian/Median (ἄγγαρος is a Persian institution — the royal post described by Herodotus 8.98).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82",
+            "https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CE%B3%CE%B1%CF%81%CE%BF%CF%82",
+            "https://www.etymonline.com/word/angel"
+          ],
+          "ref_check": [
+            {"ref": "KLN:74", "status": "supports", "note": "KLN_1966.txt leaf 51 (Klein's angel entry; the leaf→page formula puts it at ≈p.74-78, i.e. Nourai's citation): 'Gk. ἄγγελος … which is rel. to ἄγγαρος, \"mounted courier, messenger\"; of Persian, ult. of Sem. origin. Cp. Akkad, agarru … The sense development of Gk. ἄγγαρος, resp. ἄγγελος, from a Sem. noun meaning \"hireling\", may be illustrated by the phases: \"hireling, hired messenger, messenger\".' Klein says precisely what the chart says, including the gloss 'hired messenger'."},
+            {"ref": "AHD:453", "status": "not_checked", "note": "Nourai's AHD page numbers below 1505 are main-dictionary pages of the 1975/76 New College Edition, which is not open online. The Watkins IE-roots appendix that IS on disk (AHD_watkins1985.txt leaf 32) carries the bracketed non-IE entry '[angelos. Messenger. Greek noun, akin to Greek angaros, mounted courier, both from an unknown Oriental source. 1. Greek angelos, messenger: ANGEL, (ANGELIC), ANGELICA, (ANGELUS); ARCHANGEL, EVANGEL. 2. Greek angaros, mounted courier: ANGARY.]' — the word list matches, the Akkadian etymology does not."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "AHD_watkins1985.txt leaf 32, entry [angelos]", "stance": "partial", "note": "'both from an unknown Oriental source' — Watkins accepts an Oriental loan but refuses Nourai's specific Akkadian etymon."},
+            {"src": "SKT", "where": "SKT.txt leaf 32 s.v. Angel", "stance": "contradicts", "note": "'Angel. (L. - Gk.) L. angelus. - Gk. ἄγγελος, a messenger. Cf. Gk. ἄγγαρος, a [moun]ted courier, from O. Persian.' Skeat makes the source Old Persian, with no Semitic 'hire' word."},
+            {"src": "AKD", "where": "AKD.txt leaf 56 (p.47) and leaf 15 (p.7)", "stance": "supports", "note": "Zimmern: 'Zu akk. agru, agarru Mietsklave : > wahrsch. ἄγγαρος Postknecht' and 'wahrsch. auch ἄγγαρος urspr. wohl Mietling und dann erst Postknecht' — the source of Klein's and Nourai's claim; note that Zimmern's Greek word is ἄγγαρος, never ἄγγελος."},
+            {"src": "FVQ", "where": "p.49 n.2 (FVQ_pages.txt leaf 66)", "stance": "supports", "note": "Jeffery: 'there can be little doubt that the Gk. ἄγγαρος with ἀγγαρεύειν and ἀγγαρεία came directly from the Akkadian, as indeed Ed. Meyer … had already recognized', arguing against Liddell-Scott's 'borrowing from Persian'."},
+            {"src": "POK", "where": "grep 'angelos' in POK_full.txt", "stance": "silent", "note": "Pokorny has no IE root for ἄγγελος — consistent with everyone treating it as a loanword."},
+            {"src": "WLD", "where": "grep 'angelos' in WLD_band3.txt", "stance": "silent", "note": "Walde-Pokorny likewise has no entry."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "Angelyŭn «انگلیون»",
+          "verdict": "plausible",
+          "derivation": "Persian انگلیون angalyūn 'Gospel' is a real word, used by the Manichaeans (the Ewangelyōn of Mani) and by Persian Christians, and quoted by the chart from Sohbat-e Lārī. Its immediate source is not Greek directly, as the chart's arrow implies, but Syriac ܐܘܢܓܠܝܘܢ ʾewwangelyōn, itself a transliteration of εὐαγγέλιον; the -yūn ending is the tell-tale, since it preserves the Greek/Syriac -ion which the Arabic إنجيل lost. Jeffery expressly cites 'the Manichaean forms انگلیون of Persian origin, and anglion of Turkish origin' as still having 'the Gk. -ιον ending'. The same Syriac form gives Sogdian ʾwnglywn ewangelyon 'Gospel' (Gharib no. 1908), which shows how the word travelled into Iranian: through the Church of the East and the Manichaean church, not through direct contact with Greek. So the node is right about the word and its ultimate Greek etymon, and only its route is loose.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AC%DB%8C%D9%84"],
+          "ref_check": [
+            {"ref": "MON5:190", "status": "not_checked", "note": "Volume 5 (اعلام) of Mo'in's six-volume Farhang-e Fārsi is not on disk — only the two-volume Adena abridgement, which has no page correspondence. See the 'consulted' entry for what the abridgement does say."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.v. انگلیوت/انگلیون", "stance": "supports", "note": "'انگلیو[ن]: (اخ.) انجیل؛ انگلیون. (ا.) چون مسیحیان شرقی انجیل را در قماش ابریشمین و ملون می‌پیچیده‌اند، از اینرو …' — Mo'in has the headword with exactly the chart's gloss."},
+            {"src": "FVQ", "where": "p.72 n.1 (FVQ_pages.txt leaf 90)", "stance": "supports", "note": "Jeffery: 'the Manichaean forms انگلیون of Persian origin, and anglion of Turkish origin, still have the Gk. -ιον ending' (citing Vullers, Salemann Manichaeische Studien i.50, and BQ 88)."},
+            {"src": "SOD", "where": "Gharib, Sogdian Dictionary no. 1908", "stance": "supports", "note": "'1908 ʾwnglywn M, C — ewangelyon — Gospel, Evangelion' — the same Syriac-derived form in Sogdian, showing the Iranian route."},
+            {"src": "PHD", "where": "grep 'ewangel|wnglywn' in PHD_mackenzie.txt", "stance": "silent", "note": "MacKenzie's Concise Pahlavi Dictionary (Zoroastrian Book Pahlavi only) has no entry — expected, since the word belongs to Manichaean and Christian Middle Iranian."},
+            {"src": "NYB", "where": "grep 'ewangel|wnglywn' in NYB_vol2_glossary.txt", "stance": "silent", "note": "Nyberg's Pahlavi glossary likewise silent."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "enjîl",
+          "verdict": "plausible",
+          "derivation": "Arabic إِنْجِيل ʾinjīl 'Gospel' (Qurʾān iii.2, v.50, lvii.27 etc.) is beyond doubt Greek εὐαγγέλιον, as the chart says; the only question is the intermediary, which the chart's direct Greek→Arabic arrow leaves out. The Muslim philologists' attempt to make it a native form ʾifʿīl from n-j-l is rejected already by Zamakhsharī and Bayḍāwī, and al-Jawāliqī lists it as foreign. Marracci and Fraenkel argued for direct borrowing from Greek; Nöldeke's argument, generally followed, is that the loss of the Greek -ιον ending points to Ethiopic ወንጌል wangēl as the immediate donor (Christian Ethiopia rather than Syria), because the Syriac ʾewwangelyōn and the Manichaean Persian angalyūn both keep the -yōn/-yūn. Wiktionary today gives '(possibly through Classical Syriac ʾewwangellīōn or a variant thereof)'. Either way the node's language label, word and gloss are right and only the transmission line is simplified.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A5%D9%86%D8%AC%D9%8A%D9%84"],
+          "ref_check": [
+            {"ref": "TAD:5", "status": "supports", "note": "al-Unaysī, Tafsīr al-alfāẓ al-dākhila, TAD_pages.txt \\f-leaf 8 (the following leaf carries the printed numeral ٥, so this is p.4/5 — i.e. Nourai's page within the ±1 the OCR allows): '[إن]جيل يوناني εὐαγγέλιον (إونجيليون) معناه خبر بشارة وبشرى فرح' = 'Injīl: Greek euangelion (ewangeliyūn), meaning good news, glad tidings' — exactly the chart's Greek→Arabic arrow and gloss."}
+          ],
+          "consulted": [
+            {"src": "FVQ", "where": "pp.71-72 s.v. إنجيل (FVQ_pages.txt leaves 89-90)", "stance": "partial", "note": "'Obviously it is the Gk. εὐαγγέλιον, and both Marracci and Fraenkel have thought that it came directly into Arabic from the Greek. The probabilities, however, are that it came into Arabic through one of the other Semitic tongues … The shortened form, he [Nöldeke] points out, is to be found in the Eth. ወንጌል where the long vowel is almost conclusive evidence of the Arabic word having come from Abyssinia.' Same origin, different route."},
+            {"src": "ARB", "where": "al-Jawālīqī, al-Muʿarrab (ARB_mo3rb.txt, bāb al-alif)", "stance": "supports", "note": "'… فالإنجيل … وقيل: هو … من النجل، وهو الأصل' — al-Jawālīqī records the debate and lists إنجيل among the arabicized (muʿarrab) words, i.e. not native Arabic."},
+            {"src": "AFM", "where": "grep 'انجيل' in AFM_pages.txt", "stance": "silent", "note": "Addi Shir's book covers Persian loans only, so the Greek/Syriac word is absent — expected."},
+            {"src": "KLN", "where": "KLN_1966.txt leaf 51 s.v. angel", "stance": "partial", "note": "Klein covers evangel from εὐαγγέλιον ('Cp. … the second element in evangel') but says nothing about the Arabic."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "enjîl «انجیل»",
+          "verdict": "confirmed",
+          "derivation": "New Persian انجیل enjīl 'Gospel, the Bible' is a straight borrowing of Arabic إِنْجِيل ʾinjīl, taken over with the rest of the Qurʾānic religious vocabulary after the conquest; the Persian pronunciation simply drops the initial hamza. It is a doublet of the older, Syriac-derived انگلیون angalyūn (node #5), which it displaced. Mo'in marks it explicitly as arabicized-from-angalyūn, so the chart's Greek > Arabic > Persian order for this node is exactly Mo'in's.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AC%DB%8C%D9%84"],
+          "ref_check": [
+            {"ref": "MON:369", "status": "partial", "note": "The 6-vol page 369 could not be located (only the unpaginated 2-vol abridgement is on disk), but Mo'in's entry itself is there: MON_part1.txt 'انجیل: [معر. … < انگلیون] (اخ.) هر یک از چهار کتاب دینی مسیحیان؛ ج. اناجیل' — 'arabicized … from angalyūn', which is the chart's claim."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt s.v. انجیل", "stance": "supports", "note": "'[معر. … < انگلیون] (اخ.) هر یک از چهار کتاب دینی مسیحیان؛ ج. اناجیل' — معرّب = arabicized."},
+            {"src": "RCH", "where": "RCH.txt (Persian-Arabic-English)", "stance": "partial", "note": "Richardson carries انجیل as an Arabic-marked headword in the Persian dictionary; the OCR of the entry itself is too damaged to quote verbatim."},
+            {"src": "BQT", "where": "grep انجیل in BQT_v1_pages.txt / BQT_v2_pages.txt", "stance": "silent", "note": "Borhān-e Qāṭeʿ has no etymological footnote for the word in the volumes on disk."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "angel, Los Angeles, Evangelical",
+          "verdict": "confirmed",
+          "derivation": "Greek ἄγγελος → Late Latin angelus (the Church Latin borrowing, used in the Vulgate to render Hebrew malʾāḵ) → Old French angele/angle, which about 1300 blended with the inherited Old English engel (itself an early Latin loan) to give Middle English, then Modern English, angel. Evangelical is Late Latin evangelicus < Greek εὐαγγελικός, from εὐαγγέλιον; the ecclesiastical sense-history runs through the Vulgate and the Reformation. Los Angeles is Spanish, from the 1781 Spanish foundation 'El Pueblo de Nuestra Señora la Reina de los Ángeles', Spanish ángeles being the same Latin angelus. All three English/Spanish forms therefore do descend from the Greek node as drawn; only the origin of the Greek word itself (node #4) is in dispute.",
+          "sources": ["https://www.etymonline.com/word/angel"],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt leaf 32, bracketed entry '[angelos … 1. Greek angelos, messenger: ANGEL, (ANGELIC), ANGELICA, (ANGELUS); ARCHANGEL, EVANGEL. 2. Greek angaros, mounted courier: ANGARY.]' — the appendix lists ANGEL and EVANGEL under the Greek word exactly as the chart does, but gives the source as 'unknown Oriental', and of course does not treat the place-name Los Angeles."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 51 s.v. angel", "stance": "supports", "note": "'angel, n. — ME., fr. OF. angele (F. ange), fr. L. angelus, fr. Gk. ἄγγελος … Cp. angaria, the first element in Ingram and the second element in evangel.'"},
+            {"src": "SKT", "where": "SKT.txt leaf 32 and leaf 606 (Corrections)", "stance": "supports", "note": "'Angel. (L. - Gk.) L. angelus. - Gk. ἄγγελος, a messenger'; the Corrections add 'The A.S. form is engel, from Latin. Afterwards altered by F. … influence' — the OE/OF blend."},
+            {"src": "WEB", "where": "WEB_vol1.txt", "stance": "supports", "note": "Webster's Twentieth Century likewise routes angel ME < OF < LL angelus < Gk. angelos."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Agaruh",
+      "verdict": "plausible",
+      "modern_form": "Sanskrit अगरु agaru- / अगुरु aguru- 'agarwood, aloeswood (Aquilaria agallocha)' — itself a loan from Dravidian (cf. Old Tamil akil)",
+      "note": "The root word is real and the gloss is right (the citation form is agaru-/aguru-; the chart's 'Agaruh' is the nominative singular agaruḥ). Two reservations. (1) Sanskrit is not the ultimate source: Klein already writes 'prob. of Dravidian origin', and current work (Burrow-Emeneau; D. Shulman) makes both the Sanskrit word and the Hebrew one borrowings from Old Tamil akil 'eagle-wood'. (2) More seriously, this chart merges two etymologically distinct families under one root. The genuine agaru- family is aguru → Hebrew ʾăhālīm/ʾăhālōt → Greek ἀλόη → Latin aloē → English aloe (plus Greek ἀγάλλοχον, Portuguese aguila, English eagle-wood). The lute family is Arabic al-ʿūd 'the wood', from the native Semitic root ʿ-w-d, → Old Provençal laüt → Old French lut/luth → English lute. Klein — the very reference Nourai cites for the root, KLN:55 — keeps them apart, and so does every modern source consulted. The two Arabic-headed branches of this chart (#1 Arabic al-oud and #6 Hebrew alôth from Arabic) are the errors; the sub-chains hanging off them (#2-#5, #7-#9) are individually sound.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%97%E0%A4%B0%E0%A5%81",
+        "https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CF%8C%CE%B7",
+        "https://www.etymonline.com/word/aloe"
+      ],
+      "ref_check": [
+        {"ref": "KLN:55", "status": "partial", "note": "KLN_1966.txt \\f-leaf 41 (≈ printed p.55-58), s.v. aloe: 'L. aloe, fr. Gk. ἀλόη, \"aloe\", prob. borrowed fr. Heb. ahalim, ahaloth (pl.), which are perhaps borrowed fr. OI. agaruh, aguruh, \"aloewood\", these latter being prob. of Dravidian origin. Cp. agalloch.' Klein gives the root word and gloss Nourai gives — but he makes it the source of the HEBREW, never of Arabic al-ʿūd, and he flags Dravidian behind the Sanskrit."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "al-oud",
+          "verdict": "disputed",
+          "derivation": "Arabic عُود ʿūd 'wood, stick, branch; aromatic (agar)wood; lute', with the article al-ʿūd, is a native Semitic noun of the root ع و د ʿ-w-d (cf. عَادَ ʿāda 'to return, bend back', of a pliant branch); a Ugaritic cognate ʿd 'lute' is attested more than a millennium before any Indian contact. Sanskrit agaru- cannot give it: there is no source for the ʿayn, the g/r skeleton is lost, and the Arabic word's core sense is 'wood/stick' in general, not 'aloeswood' specifically. Klein, on the page Nourai cites for this arrow (KLN:55, s.v. aloe), routes Sanskrit agaruh to HEBREW, and in his separate lute entry derives al-ʿūd simply from 'al-, \"the\", and ʿūd, \"wood\"' with no Indian element; Etymonline, Wiktionary and Skeat agree. There is an old Arab-lexicographic tradition (al-Aṣmaʿī, reported by al-Jawālīqī and Addi Shir) that the incense-wood sense of العود is muʿarrab, i.e. foreign — but the language named there is Persian, not Sanskrit, and it concerns only the aromatic-wood sense. The chart also mis-parses the gloss: 'the wood' is al-ʿūd (article + noun), so 'al-oud' should not itself be treated as a stem. Verdict: the word and its meanings are real, but the derivation from Sanskrit agaru- is rejected by modern scholarship and is not what Nourai's own reference says.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF",
+            "https://www.etymonline.com/word/lute"
+          ],
+          "ref_check": [
+            {"ref": "KLN:55", "status": "contradicts", "note": "KLN_1966.txt leaf 41, s.v. aloe: Klein takes Gk. ἀλόη from Heb. ahalim/ahaloth 'which are perhaps borrowed fr. OI. agaruh, aguruh' — Hebrew, not Arabic. And KLN_1966.txt leaf 492, s.v. lute (stringed instrument): 'fr. OProven[çal] laüt, fr. Arab. al-ʿūd …, lit. \"the wood\", fr. al-, \"the\", and ʿūd, \"wood\"' — no Sanskrit anywhere. Klein does not support the arrow Nourai draws from him."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaves 41 and 492", "stance": "contradicts", "note": "See ref_check: Klein keeps the aloe family and the ʿūd/lute family separate."},
+            {"src": "PHN", "where": "Pihan p.240 (PHN.txt leaf 271) s.v. LUTH", "stance": "partial", "note": "'العود [al-ʿoud] le bois en général, et en particulier le bois d'aloès' — Pihan glosses al-ʿūd as 'wood in general, and in particular aloes-wood', i.e. Arabic wood-word applied to the aromatic wood; he derives nothing from Sanskrit."},
+            {"src": "AFM", "where": "Addi Shir, AFM_pages.txt leaf 13 (≈ printed p.5)", "stance": "partial", "note": "OCR badly damaged but legible in outline: '… العود … قال الأصمعي فهو فارسي معرَّب … قلت … والفرنسي aloès والانكليزي … والايطالي …' — Addi Shir cites al-Aṣmaʿī that العود is an arabicized PERSIAN word and lines it up with French aloès; a foreign-origin claim, but Persian, not Sanskrit."},
+            {"src": "ARB", "where": "al-Jawālīqī, al-Muʿarrab (ARB_mo3rb.txt, bāb al-alif)", "stance": "partial", "note": "'… العود الذي يُتبخَّر به … أبو عبيد أنه معرَّب' and '… أحد أوتار العود … أعجمي معرَّب' — the medieval Arab tradition that the incense-wood ʿūd (and a lute-string name) are foreign; again no Indian etymon is named."},
+            {"src": "PLA", "where": "grep ʿūd in PLA_pages.txt (Asbaghi)", "stance": "silent", "note": "Asbaghi does not list عود among Persian loanwords in Arabic."},
+            {"src": "SKT", "where": "SKT.txt leaf 286 s.v. Lute (1)", "stance": "contradicts", "note": "'The Port. form shews the Arab. [article] since a- is for al, the Arab. def. [article] … ʿūd, wood, timber, a staff, stick, … lute, a harp' — native Arabic wood-word, no Sanskrit."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "ŭd «عود»",
+          "verdict": "confirmed",
+          "derivation": "New Persian عود ʿud is borrowed from Arabic عُود ʿūd, in both of the senses the chart gives: (a) the aromatic wood burnt as incense (agarwood), and (b) the short-necked lute. The Arabic ʿayn is retained in spelling and in the classical Persian orthography, which is itself proof of the Arabic (not Indian) source. The direction of borrowing is Arabic → Persian for the word, even though the instrument itself descends from the pre-Islamic Persian barbaṭ — hence Mo'in's note that the Islamic-period ʿūd appears in the north-east with a bent-back pegbox and a skin belly. The chart's Arabic → Persian arrow is therefore right; only its parent (node #1) is wrong.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF"],
+          "ref_check": [
+            {"ref": "BQT:1385", "status": "supports", "note": "Rendered with tools/ref_page.py BQT:1385 → BQT_v3_picofile.pdf pdf-page 178; the running head on the image actually reads ۱۳۸۰, so the entry sits on p.1380 rather than 1385 (noted for re-runs). The عود entry is there: 'عود ـ بضم اول و سکون ثانی … معروف است، و آن چوبی باشد سیاه رنگ که بجهت بخور سوزانند … و نام سازی هم هست که نوازند.' Mo'in's footnote 4: 'آلت طرب دارای ۶ یا ۲۰ سیم «نفس». کلمهٔ انگلیسی lute فرانسوی luth مأخوذ از (العود) عربی است.' Footnote 3: '(عر) «عود بالضم چوب … و چوبی است که دخان آن بوی خوش دارد» «منتهی‌الارب» ـ اگر (هندی) = رادبوی = داربوی = Aloë (آلمانی) «پورداود، خرده‌اوستا ص۱۳۹ و ۱۴۶» فرانسوی aloés.' Mo'in tags the word (عر) = Arabic, confirms the two senses, and confirms lute/luth < al-ʿūd; his equation with Hindi اگر 'agar' is a list of foreign equivalents of the substance, not a derivation. Saved verbatim to data/verification/sources/refs/ocr/BQT/1385.vision.txt."}
+          ],
+          "consulted": [
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ ed. Mo'in, p.1380 s.v. عود, footnotes 3-4", "stance": "supports", "note": "See ref_check — Mo'in marks عود as (عر) Arabic and gives both senses."},
+            {"src": "MON", "where": "grep عود in MON_part1/2.txt", "stance": "silent", "note": "The 2-vol Adena abridgement of Farhang-e Fārsi does not carry a usable عود entry in the OCR."},
+            {"src": "RCH", "where": "RCH.txt (Persian-Arabic-English)", "stance": "partial", "note": "Richardson has عود ʿūd 'wood, aloes-wood, a lute' marked A(rabic) in the Persian dictionary; the OCR of the line is too corrupt to quote exactly."},
+            {"src": "HRN", "where": "grep 'ud|aloe' in HRN.txt", "stance": "silent", "note": "Horn's Grundriss treats only inherited Iranian words; an Arabic loan is not in scope."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "luth; flute",
+          "verdict": "plausible",
+          "derivation": "luth: Arabic al-ʿūd was borrowed in the Iberian/Occitan contact zone — Spanish laúd, Portuguese alaúde (which keeps the whole article, the proof of the etymology), Old Provençal laüt — and thence Old French lut, modern French luth; the Arabic ʿayn is lost, al- is reanalysed into the l- of the stem in French/Provençal but preserved intact in Portuguese. This half is certain and is precisely what Pihan p.240 and Klein s.v. lute say. flute: the chart's own hedge is the right answer. French flûte goes back to Old French flaüte/fleüte < Old Provençal flaüt, which is either imitative or from Latin flāre 'to blow'; Klein and Etymonline both treat it as at most a blend or a contamination — Klein: 'OProvenç. flaüt, which is prob. a blend of OProvenç. flaujol, \"flageolet\", and laüt, \"lute\"'. So flute shares only the second syllable's shape with lute, by contamination, and is not a descendant of Arabic al-ʿūd. Node verdict takes the weaker of the two words.",
+          "sources": [
+            "https://www.etymonline.com/word/lute",
+            "https://www.etymonline.com/word/flute"
+          ],
+          "ref_check": [
+            {"ref": "PHN:240", "status": "supports", "note": "PHN.txt \\f-leaf 271, page header '240 LUT': 'LUTH, s. m. (a.) العود [al-ʿoud] le bois en général, et en particulier le bois d'aloès. Nom d'un instrument de musique à cordes … on y parvient, soit à l'aide de l'espagnol laud, soit au moyen du portugais alaude, dans lequel l'article al figure intégralement.' Pihan's page is exactly the chart's Arabic → French luth arrow."},
+            {"ref": "KLN:605,914", "status": "supports", "note": "Both entries located and both say what the chart says, though the leaf→page formula puts them slightly higher than Nourai's numbers (the offset drifts across the two volumes). KLN_1966.txt leaf 327 s.v. flute: 'ME. floute, floite, fr. OF. flaüte, fleüte (F. flûte), fr. OProvenç. flaüt, which is prob. a blend of OProvenç. flaujol, \"flageolet\", and laüt, \"lute\".' KLN_1966.txt leaf 492 s.v. lute (a stringed instrument): 'ME., fr. OF. lut (F. luth), fr. OProvenç. laüt, fr. Arab. al-ʿūd …, lit. \"the wood\".'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaves 327 (flute) and 492 (lute)", "stance": "supports", "note": "See ref_check; Klein is the source of the chart's own 'probably from another root' hedge on flute."},
+            {"src": "SKT", "where": "SKT.txt leaf 286 s.v. Lute (1)", "stance": "supports", "note": "'Lute (1), a musical instrument (F. - Arab.) M.E. lute. - F. lut … F. luth. We also find Prov. laut, Port. alaude, Ital. liuto … The Port. form shews the Arab. [article].'"},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ ed. Mo'in p.1380 n.4", "stance": "supports", "note": "'کلمهٔ انگلیسی lute فرانسوی luth مأخوذ از (العود) عربی است' — 'English lute, French luth are taken from Arabic al-ʿūd'."},
+            {"src": "DEV", "where": "grep 'LUTH|aloès' in DEV.txt", "stance": "silent", "note": "Devic's Dictionnaire des mots français d'origine orientale has no separate luth article in the OCR (hits are only incidental uses of 'luth' glossing Persian چنگ)."},
+            {"src": "LKT", "where": "grep 'Laute|al-ʿud' in LKT.txt", "stance": "partial", "note": "Lokotsch no. 1585 (Turkish öd ağacı) notes 'Es liegt wohl schon im tk. Grundwort Kontamination mit ar. ʿūd, s. hier Nr. 2127, vor' — Lokotsch treats ar. ʿūd as an Arabic word in its own right."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "folŭt «فلوت»",
+          "verdict": "confirmed",
+          "derivation": "Persian فلوت folut is a modern European loan, taken from French flûte during the 19th-20th century wave of French technical and musical vocabulary in Persian (like پیانو, ویولن, ارکستر). The French final -e is dropped and the vowel rendered ū; there is no older Persian attestation and no Iranian pedigree. Mo'in's entry describes it purely as an instrument definition, without any Persian etymon: 'نوعی نی تکمیل‌شده … در موسیقی عملی نیز بکار برده می‌شود'. The chart's French → Persian arrow is right.",
+          "sources": ["https://www.etymonline.com/word/flute"],
+          "ref_check": [
+            {"ref": "MON:2573", "status": "partial", "note": "The 6-vol page could not be reached (only the unpaginated Adena abridgement is on disk), but the entry is present there: MON_part2.txt 'فلوت: (مس.) نوعی نی تکمیل‌شده … در موسیقی عملی نیز بکار برده می‌شود. با فلوت به سهولت می‌توان صداهای مختلف را اجرا کرد ولی چون فاقد پرده‌های مخصوص موسیقی ماست، نواختن نغمه‌های ایرانی در روی این ساز مشکل است.' Mo'in gives a Latin-script source form in the head (illegible in OCR); the neighbouring homonym فلوت 'fleet' is explicitly tagged (فر.) = French."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part2.txt s.v. فلوت", "stance": "supports", "note": "Entry present, defined as the modern transverse flute; the parallel entry فلوت 'a state's warships' is tagged (فر.) French, showing Mo'in's practice for these loans."},
+            {"src": "BQT", "where": "grep فلوت in BQT_v1/v2_pages.txt", "stance": "silent", "note": "Borhān-e Qāṭeʿ is a 17th-century dictionary and naturally has no entry for a 19th-century French loan — itself evidence that the word is recent."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "lute, flute",
+          "verdict": "confirmed",
+          "derivation": "lute: Middle English lute/lut, borrowed from Old French lut (mod. luth) in the 14th century, ultimately Arabic al-ʿūd. flute: Middle English floute/floite, from Old French flaüte/fleüte, early 14th century; the modern spelling follows the French. Both English words are unproblematic borrowings from the French node above; the only caveat is inherited from node #3, namely that flute's ancestor is not the Arabic word. Note that the English homonym lute 'clay sealing compound' is unrelated (Latin lutum 'mud'), and Watkins puts that one, and only that one, under the IE root leu- 'dirt' — a useful check that the appendix keeps the two apart.",
+          "sources": [
+            "https://www.etymonline.com/word/lute",
+            "https://www.etymonline.com/word/flute"
+          ],
+          "ref_check": [
+            {"ref": "AHD:776", "status": "not_checked", "note": "p.776 is a main-dictionary page of the 1975/76 AHD New College Edition, which is not open online. The Watkins IE-roots appendix that is on disk (AHD_watkins1985.txt leaf 66) contains only LUTE² 'clay' under leu-2 'dirt; to make dirty', i.e. the appendix deliberately excludes the musical lute as a non-IE loan — consistent with, but not a check on, Nourai's page."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaves 327, 492", "stance": "supports", "note": "'lute, n., a stringed instrument. — ME., fr. OF. lut (F. luth), fr. OProvenç. laüt, fr. Arab. al-ʿūd'; 'flute, n. — ME. floute, floite, fr. OF. flaüte, fleüte (F. flûte)'."},
+            {"src": "SKT", "where": "SKT.txt leaf 286", "stance": "supports", "note": "'Lute (1), a musical instrument (F. - Arab.) M.E. lute.'"},
+            {"src": "AHD", "where": "AHD_watkins1985.txt leaf 66 (root leu-2) and leaf 33 (aulo-)", "stance": "partial", "note": "Only LUTE² (< L. lutum 'mud') is in the IE appendix; the instrument is absent because it is a Semitic loan."},
+            {"src": "FSD", "where": "grep 'lute, n' in FSD_vol3.txt", "stance": "silent", "note": "Funk & Wagnalls OCR did not yield a readable lute entry (only octave-flute compounds)."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Hebrew",
+          "words": "alôth",
+          "verdict": "disputed",
+          "derivation": "The word is real: Biblical Hebrew אֲהָלוֹת ʾăhālōt / אֲהָלִים ʾăhālīm 'aloes, aloeswood', at Numbers 24:6, Psalm 45:9, Proverbs 7:17 and Song of Songs 4:14 (the chart's 'alôth' drops the h of ʾăhālōt). But the parent is wrong. These are pre-exilic attestations, centuries before Arabic could have mediated anything, and the Hebrew word has the -h- and the l/h skeleton of the Indian/Dravidian word, not the ʿayn of Arabic ʿūd. Klein — the reference Nourai cites for this whole entry — derives Hebrew ahalim/ahaloth straight from Old Indian agaruh/aguruh; Hobson-Jobson s.v. ALOES says aloes-wood is 'perhaps from one of the Indian forms, through the Hebrew (pl. forms) ahalim, ahalim and ahaloth, akhaloth'; and current work (Shulman, cited by Wiktionary) makes ʾăhālīm a direct borrowing from Old Tamil akil rather than from Sanskrit aguru. In other words this node should hang directly off the root box, not off Arabic al-ʿūd.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%97%E0%A4%B0%E0%A5%81",
+            "https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CF%8C%CE%B7",
+            "https://www.etymonline.com/word/aloe"
+          ],
+          "ref_check": [
+            {"ref": "PRT:13", "status": "not_checked", "note": "Partridge, Origins (1958) is not in the local library and the archive.org copy (originsshortetym00part) is lending-only, so p.13 could not be read."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 41 s.v. aloe", "stance": "contradicts", "note": "'prob. borrowed fr. Heb. ahalim, ahaloth (pl.), which are perhaps borrowed fr. OI. agaruh, aguruh, \"aloewood\"' — Sanskrit to Hebrew directly, with no Arabic step."},
+            {"src": "HJB", "where": "Hobson-Jobson s.v. ALOES (HJB.txt leaf 69)", "stance": "contradicts", "note": "'b. Aloes-wood, the same as Eagle-wood. This is perhaps from one of the Indian forms, through the Hebrew (pl. forms) ahalim, akhalim and ahaloth, akhaloth.' Indian → Hebrew, no Arabic."},
+            {"src": "PHN", "where": "Pihan p.35-36 s.v. ALOES (PHN.txt leaves 67-68)", "stance": "partial", "note": "Pihan tags the article '(p.-a.)' Persian-Arabic and starts from الوّة [alwā]; he then says 'Comparez avec le persan le grec ἀλόη et le latin aloe' and notes that the fragrant wood 'sappelle عود [ʿoud] et العود [al-ʿoud] en arabe' — he keeps the aloe word and the ʿūd word as two separate names for the substance."},
+            {"src": "FVQ", "where": "grep 'ahal|aloe' in FVQ_pages.txt", "stance": "silent", "note": "Jeffery has no entry (the word is not Qurʾānic)."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Greek",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "The unlabelled Greek node stands for ἀλόη 'aloe', first in Dioscorides (Materia Medica iii.3, 1st c. CE) and in John 19:39 (σμύρνης καὶ ἀλόης); the word is absent from Hippocrates and Theophrastus, so it enters Greek only with the Roman-period trade in the drug. Everyone agrees it is an Oriental loan; the disagreement is over the immediate donor. Klein (and Nourai following him at the top of this entry) says 'prob. borrowed fr. Heb. ahalim, ahaloth'; the current treatment (Beekes; Wiktionary) has it enter Greek through Aramaic in the 1st c. CE — cf. Syriac and Christian Palestinian Aramaic cognates — with the ultimate source Old Tamil akil. Either way the node's position between the Semitic word and Latin is right; only 'Hebrew' vs 'Aramaic' as the exact donor is open. Greek -η renders the Semitic feminine plural ending, and the word was declined as a first-declension feminine.",
+          "sources": ["https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CF%8C%CE%B7"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "The chart gives no reference for this node."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 41 s.v. aloe", "stance": "supports", "note": "'L. aloe, fr. Gk. ἀλόη, \"aloe\", prob. borrowed fr. Heb. ahalim, ahaloth (pl.)'."},
+            {"src": "HJB", "where": "Hobson-Jobson s.v. ALOES (HJB.txt leaf 69)", "stance": "supports", "note": "'Neither Hippocrates nor Theophrastus mentions aloes, but Dioscorides describes two kinds of it (Mat. Med. iii.3)'; the drug sense is 'derived from the Syriac ʿelwai (in P. ahwa)'."},
+            {"src": "POK", "where": "grep for an IE root behind ἀλόη in POK_full.txt", "stance": "silent", "note": "Pokorny has no entry — as expected for a loanword."},
+            {"src": "SKT", "where": "SKT.txt leaf 274 s.v. Lign aloes", "stance": "supports", "note": "'A sort of translation of L. lignum aloes, lit. \"wood of aloes.\" Aloes is gen. of aloe, from Gk. ἀλόη, aloe.'"}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Latin",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Unlabelled node = Latin aloē, -ēs, a straight learned borrowing of Greek ἀλόη retaining the Greek first-declension inflection; it is the form Pliny uses ('The best Aloe is brought out of India', Nat. Hist. xxvii) and the form of the Vulgate at John 19:39, whence it passed into every medieval European pharmacopoeia. Latin also formed the compound lignum aloēs 'aloes-wood', the source of English lign-aloes.",
+          "sources": ["https://www.etymonline.com/word/aloe"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "The chart gives no reference for this node."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 41 s.v. aloe", "stance": "supports", "note": "'aloe, n. — L. aloe, fr. Gk. ἀλόη'."},
+            {"src": "SKT", "where": "SKT.txt leaf 274", "stance": "supports", "note": "'L. lignum aloes, lit. \"wood of aloes.\" Aloes is gen. of aloe, from Gk. ἀλόη'."},
+            {"src": "HJB", "where": "Hobson-Jobson s.v. ALOES, quotation (a) c. A.D. 70", "stance": "supports", "note": "'The best Aloe (Latin the same) is brought out of India' — Pliny, Bk. xxvii, in Philemon Holland's translation."},
+            {"src": "WEB", "where": "WEB_vol1.txt leaf 73 s.v. aloe", "stance": "supports", "note": "'[… Gr. aloē, the aloe.] a genus of plants of the lily family' — Webster routes the English word through Latin from Greek."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "aloe",
+          "verdict": "confirmed",
+          "derivation": "Old English had alewe/aluwe 'fragrant resin or heartwood of an East Indian tree', borrowed early from Latin aloē; the modern form aloe was re-Latinised in the late 14th century, when the sense shifted to the bitter purgative drug of Aloe socotrina and then to the succulent plant itself (the modern 'aloe vera' label was coined to distinguish the true plant after the name was misapplied to the American agave in the 1680s). The OE sense 'aloeswood' comes from the Vulgate's use of aloē to render Hebrew ʾăhālōt, which is why English inherited both the drug and the incense-wood senses under one word. The chart's Latin → English arrow is correct.",
+          "sources": ["https://www.etymonline.com/word/aloe"],
+          "ref_check": [
+            {"ref": "AHD:36", "status": "not_checked", "note": "p.36 of the 1975/76 AHD New College Edition (main dictionary) is not open online; the Watkins IE-roots appendix on disk has no 'aloe' entry, correctly, since the word is a loan."},
+            {"ref": "PHN:36", "status": "partial", "note": "PHN.txt \\f-leaves 67-68, entry beginning 'ALOES, s. m. (p.-a.)' with the running head 'ALO 35' on the preceding page: Pihan starts from الوّة [alwā] and adds 'Comparez avec le persan le grec ἀλόη et le latin aloe, d'où vient par suite le mot français' — he confirms the Greek → Latin → French/English line the chart draws, but makes the ultimate source a Persian/Arabic word, not Hebrew or Sanskrit."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 41 s.v. aloe", "stance": "supports", "note": "'aloe, n. — L. aloe, fr. Gk. ἀλόη … Cp. agalloch.'"},
+            {"src": "WEB", "where": "WEB_vol1.txt leaf 73", "stance": "supports", "note": "'al'oe, n.; pl. al'oes, any plant of the genus Aloe, as Aloe socotrina, one of the species used in medicine' with '[… Gr. aloē, the aloe.]'"},
+            {"src": "SKT", "where": "SKT.txt leaf 274 s.v. Lign aloes", "stance": "supports", "note": "'Aloes is gen. of aloe, from Gk. ἀλόη, aloe. See Aloe.'"},
+            {"src": "HJB", "where": "Hobson-Jobson s.v. ALOES (HJB.txt leaf 69)", "stance": "supports", "note": "Distinguishes the two English senses (the drug from Aloe socotrina; aloes-wood = eagle-wood) exactly as the etymology requires."}
+          ]
+        }
+      ]
+    }
+  ]
+}
