@@ -1,0 +1,470 @@
+{
+  "pdf_page": 53,
+  "book_page": 23,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Âmon",
+      "verdict": "plausible",
+      "modern_form": "MP/early NP āmōn ~ āmūn (آمون) 'full, brimful' — a deverbal of *ā-maH- 'to measure out, prepare', not an independent root",
+      "note": "Nourai's citation is exact: SNS (Tavoosi, Vāzhe-nāme-ye Šāyast nē Šāyast) p. 6 has the lemma 'āmōn : آمون، پر، مملو، لبالب … و ترکیب: abr-āmōn یعنی: پر ابر، ابری. ک ۱۰/۲', i.e. āmōn 'full, filled, brimful' and the compound abr-āmōn 'full of cloud, cloudy' at Šāyast nē Šāyast 10.2 — and it quotes exactly the Sanāʾi couplet the JSON records ('هم زبانشان ز فحش آموده / هم درونشان به خبث آلوده'). Two caveats keep this from 'confirmed'. (a) Āmōn is not a root: it is a nominal/adjectival derivative of the Old Iranian verb *ā-maH- 'to measure out, prepare' (Cheung 2007: 255-256 s.v. *maH¹), the same verb that yields NP āmūdan/āmāy- and āmādan/āmāde. Nourai's arrows therefore run backwards — āmūdan does not come from āmōn; both come from *ā-maH-. (b) Tavoosi himself documents the free-standing āmōn not from a Pahlavi text but from the New Persian Farhang-e Jahāngīrī ('آمو (و آمون) بمعنی پر کرده بود'); in the Pahlavi corpus only the compound abr-āmōn is attested. MacKenzie's Concise Pahlavi Dictionary and Nyberg's glossary have no āmōn at all (Nyberg's only -mōn word here is pērāmōn < *pari-yāma-van-, a different root).",
+      "sources": [
+        "https://archive.org/details/VajnameShayest/page/n19",
+        "https://en.wiktionary.org/wiki/%D8%A2%D9%85%D8%A7%D8%AF%D9%86",
+        "https://www.vajehyab.com/dehkhoda/%D8%A2%D9%85%D9%88%D8%AF%D9%86"
+      ],
+      "ref_check": [
+        {
+          "ref": "SNS:6",
+          "status": "supports",
+          "note": "Read from the page image (archive.org/details/VajnameShayest leaf n19 = printed p. ۶; transcription saved to data/verification/sources/refs/ocr/SNS/6.vision.txt). Entry: 'āmōn : آمون، پر، مملو، لبالب (پر لبالب) در فرهنگ جهانگیری آمده. «آمو (و آمون) بمعنی پر کرده بود» و آمود و آموده نیز بهمین معنی است. سنایی: هم زبانشان ز فحش آموده. هم درونشان به خبث آلوده … و ترکیب: abr-āmōn یعنی: پر ابر، ابری. ک ۱۰/۲'. Exactly Nourai's gloss and exactly his three boxes."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "âmŭdan; gohar-âmŭd",
+          "verdict": "plausible",
+          "derivation": "NP آمودن āmūdan (past stem āmūd-, present stem آمای āmāy-) 'to fill, to mix, to set/string gems, to adorn, to make ready' continues Old Iranian *ā-maH- (preverb *ā- + *maH¹ 'to measure, measure out'), the same formation as paymūdan/paymāy- (*pati-maH-), āzmūdan/āzmāy- (*ā-uz-maH-), farmūdan/farmāy- (*fra-maH-) and nomūdan/nomāy- (*ni-maH-); the -ūd- of the past stem beside -āy- of the present is the regular Middle Persian ablaut of this class (BMP ptmʾd- /paymāy-/ ~ inf. ʾwzmwtn /uzmūdan/, Cheung 2007: 255f.). The doublet آمادن āmādan / آماده āmāde 'ready' preserves the ā-vocalism of the same verb, and Moʿin explicitly cross-references the two ('آمودن … [قس. آمادن]'). Semantically: 'prepare, arrange' → 'set in place, inlay (a gem in a ring), string (pearls on a thread)' → 'stuff, fill, deck out' — the whole range is spelled out in Dehkhoda and in Borhān-e Qāṭeʿ ('و پر کردن و مملو ساختن باشد'). گوهرآمود gohar-āmūd is gohar 'gem, jewel' (MP gōhr) + the bare past stem āmūd used adjectivally, 'gem-filled, gem-studded' — the very sense Moʿin gives the verb ('ترصیع، در نشاندن چنانکه گوهری را در انگشتری'). Both words are real and correctly glossed; what is wrong is the direction of Nourai's arrow: āmūdan is not derived from the noun āmōn, the noun is derived from the verb stem.",
+          "sources": [
+            "https://www.vajehyab.com/dehkhoda/%D8%A2%D9%85%D9%88%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%85%D8%A7%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:6",
+              "status": "supports",
+              "note": "SNS p.6 (image, leaf n19): 'و آمود و آموده نیز بهمین معنی است' — Tavoosi expressly links āmūd/āmūde to āmōn 'full', and cites the Sanāʾi verse with آموده that the JSON records."
+            },
+            {
+              "ref": "BQT:61",
+              "status": "supports",
+              "note": "BQT_v1_pages.txt leaf 272 (printed p. 61-62; head-word آموده, offset printed ≈ leaf−210): 'آمودن بروزن آسودن . بمعنی … و آمیخته‌شدن و ساختن و ساخته گردانیدن و پر کردن و مملو ساختن باشد'; and 'آموده «بروزن آسوده» لعل و مروارید و امثال آن را گویند که در رشته کشیده شده باشد، و بمعنی پر کرده و مملو ساخته هم هست، و آراسته و پیراسته را نیز گویند'. Same leaf also has 'آمون … و بمعنی پر و مملو و لبالب و لبریز هم هست' and 'آمو … و بمعنی پر کردن و مملو ساختن'. Moʿin's footnotes there read 'رک: آمودن'."
+            },
+            {
+              "ref": "MON:91",
+              "status": "supports",
+              "note": "MON_part1.txt l.4799: 'آمودن: ĀMŪDAN [قس. آمادن] (مص‌متعدی) آمیختن، درهم کردن. ترصیع، در نشاندن چنانکه گوهری را در انگشتری. به سلک درآوردن؛ به نخ کشیدن گوهرها و مهره‌ها. آراستن، زینت کردن. مهیا کردن، آماده کردن.' — 'setting a gem in a ring' is exactly gohar-āmūd. (Page number not checkable: the OCR of Moʿin carries no printed page numbers, but آمودن does fall in the آم- run of vol. 1, consistent with p. 91.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vol. 1 s.v. آمودن (MON_part1.txt l.4799) and s.v. آمون (l.4831)",
+              "stance": "supports",
+              "note": "'آمون: (ص.) پر، مملو، لبالب' — Moʿin lemmatises āmūn as an adjective 'full, brimful', and آمودن with '[قس. آمادن]', tying the verb to āmādan rather than to āmūn."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 1 leaf 272 = printed pp. 61-62, s.vv. آمودن / آموده / آمون / آمو",
+              "stance": "supports",
+              "note": "'و پر کردن و مملو ساختن باشد' for آمودن; 'بمعنی پر و مملو و لبالب و لبریز' for آمون."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 255-256 s.v. *maH¹ 'to measure' (CHEUNG.txt ll. 16898-17013)",
+              "stance": "partial",
+              "note": "'*NWIR: (+ *ā-) NP āmādan/āmāy- \"to prepare\"' and MMP ʾmʾdg 'prepared, ready', BSogd. ʾʾmʾ- 'to prepare'; PIE *meH₁- (LIV 424f., Pok. 703f.). Cheung lists the ā-form āmādan but not āmūdan; the -ūd-/-āy- pair of āmūdan is the same stem type he gives for uzmūdan/āzmāy- and paymūdan/paymāy-."
+            },
+            {
+              "src": "HRN",
+              "where": "grepped HRN.txt for āmūd/amud/āmāy — no hit (Horn's no. 41 āgenden 'anfüllen' is a different verb)",
+              "stance": "silent",
+              "note": "Horn has no article on āmūdan."
+            },
+            {
+              "src": "HUB",
+              "where": "grepped HUB.txt for āmū-/amud — no hit",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien does not treat the word."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, s.vv. āmēxtan/āmēz-, āmurzīdan, hammōxtan (PHD.txt l.191, l.392)",
+              "stance": "silent",
+              "note": "No MP *āmūdan or āmōn in MacKenzie; the ām- entries are āmēxtan 'mix', āmurzīdan 'forgive', hammōxtan 'teach'."
+            },
+            {
+              "src": "Dehkhoda (vajehyab)",
+              "where": "https://www.vajehyab.com/dehkhoda/آمودن",
+              "stance": "supports",
+              "note": "'آمیختن. درهم کردن… بتار و به نخ کشیدن گوهرها و مهره‌ها… آراسته شدن… مهیا، معد، آماده کردن… پر کردن. مملو ساختن'; present stem given as آمای."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "abr-âmŭn",
+          "verdict": "confirmed",
+          "derivation": "Book Pahlavi abr-āmōn is a bahuvrīhi-type compound of abr 'cloud' (MP ʾp̄l/lbl, MacKenzie s.v. abr; NP ابر abr, from Ir. *abra-, PIE *nebʰ-os — hence Nourai's cross-reference '☞Nebh') + āmōn 'full', literally 'cloud-full' = 'overcast, cloudy'. It is attested in the Pahlavi Šāyast nē Šāyast (Tavoosi's glossary cites it at 10.2; his index also lists 'abramōn 11/10'), which is the whole basis of Nourai's root box. Morphologically āmōn continues *ā-māna-, a -mān-/-mōn- noun to the verb *ā-maH- 'to measure out, prepare, fill' (cf. frāmān/farmān < *fra-māna- 'command' to *fra-maH-, and the same -ōn spelling in MP hāmōn > NP hāmūn).",
+          "sources": [
+            "https://archive.org/details/VajnameShayest/page/n19"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:6",
+              "status": "supports",
+              "note": "SNS p.6 (image, leaf n19; transcription in refs/ocr/SNS/6.vision.txt): '… و ترکیب: abr-āmōn یعنی: پر ابر، ابری. ک ۱۰/۲' — 'the compound abr-āmōn, i.e. full of cloud, cloudy', with the text reference Šāyast nē Šāyast 10.2. This is verbatim Nourai's node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, PHD_mackenzie.txt l.813 s.v. abr",
+              "stance": "partial",
+              "note": "'abr [lbl, ʾpl | N ~] cloud.' — confirms the first member; MacKenzie has no compound abr-āmōn and no āmōn (the word is confined to Šāyast nē Šāyast)."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg vol. II glossary, grepped for āmōn / ʾmwn",
+              "stance": "silent",
+              "note": "No āmōn or abr-āmōn; the only comparable form is 'pērāmōn [pylʾmwnʼ] … < *pari-yāma-van-', from Av. yam-, a different root."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "abr-âmŭn",
+          "verdict": "plausible",
+          "derivation": "The New Persian box is the phonetically expected continuation of MP abr-āmōn: MP ō regularly gives NP ū (hāmōn > hāmūn, ammōn-type nouns), so abr-āmōn > ابرآمون abr-āmūn 'cloudy'. Nourai's own NOTE that the word is 'apparently obsolete' is, if anything, understated: no Persian dictionary I could check lemmatises ابرآمون — it is absent from Borhān-e Qāṭeʿ vol. 1, from Moʿin, from Asadi's Loghat-e Fors and from Nūshin's Šāhnāme glossary — although the simplex آمون 'full, brimful' is in both Borhān-e Qāṭeʿ and Moʿin. The node is therefore best read as Nourai transliterating the Pahlavi compound into Persian script rather than citing a living Persian word.",
+          "sources": [
+            "https://archive.org/details/VajnameShayest/page/n19"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:6",
+              "status": "partial",
+              "note": "SNS p.6 gives abr-āmōn as a Pahlavi compound of the Šāyast nē Šāyast text and glosses it 'پر ابر، ابری' in Persian; it does not claim a New Persian word ابرآمون. The Persian gloss 'ابری' is Tavoosi's translation, which is presumably what Nourai turned into a separate Persian node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "BQT_v1_pages.txt, grepped ابرآمون / ابر آمون",
+              "stance": "silent",
+              "note": "No entry ابرآمون; vol. 1 leaf 272 has only the simplex آمون 'پر و مملو و لبالب و لبریز'."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1.txt / MON_part2.txt, grepped ابرآمون",
+              "stance": "silent",
+              "note": "Moʿin has آمون '(ص.) پر، مملو، لبالب' (l.4831) but no compound ابرآمون; the آمون- hits in Moʿin are otherwise chemical (آمونیاک، آمونیوم)."
+            },
+            {
+              "src": "FSF",
+              "where": "Nūshin, Farhang-e Šāhnāme (FSF.txt), grepped آمود/آمون",
+              "stance": "silent",
+              "note": "No hit — the word is not in the Šāhnāme vocabulary Nūshin treats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "A'.m.r",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ء م ر (ʾ-m-r), verb أَمَرَ ʾamara 'to order, command'; nomen agentis أَمِير ʾamīr 'commander, prince'",
+      "note": "The root box, its language label and its gloss are all right, and so is the sub-box 'Amîr : commander': Klein p.26 s.v. 'ameer, amir' gives 'Arab. amīr, \"commander, prince\", fr. amara, \"he commanded\"'. Wiktionary derives أَمَرَ from the Semitic root ʾ-m-r, cognate with Hebrew אמר ʾāmar 'to say'. The cross-cutting problem on this page is node #2: Nourai (following Funk & Wagnalls and Klein) makes the European word start from a full Arabic phrase, amīr al-baḥr or amīr ar-raḥl. Modern scholarship rejects both particular phrases. Lokotsch already wrote in 1927 that deriving the group from amīr-al-baḥr 'scheint wenig wahrscheinlich', and Devic 1876 said the same; the AHD, the OED and Wiktionary now take Medieval Latin amīrālis as amīr + Latin -ālis, or as a shortening of any of the many amīr al-X titles (above all amīr al-umarāʾ, the title borne by commanders in Norman Sicily in the mid-12th c.), not of amīr al-baḥr specifically. Two smaller data problems: 'mîrzâ : Nobel born' is a slip for 'Noble born', and 'emârat «إمارت»' mixes the Arabic إمارة with the Persian امارت — the Persian spelling has no hamza."
+      ,
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%B1",
+        "https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%8A%D8%B1",
+        "https://www.etymonline.com/word/admiral"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:26",
+          "status": "supports",
+          "note": "KLN_1966.txt leaf 25 (= printed pp. 25-26) carries 'admiral'; KLN_1966.txt l.2451 s.v. 'ameer, amir, n., a Mohammedan ruler. — Arab. amīr, \"commander, prince\", fr. amara, \"he commanded\". See emir.' Klein thus supports the root ʾ-m-r 'to command' and the derivative amīr 'commander' exactly as the root box states."
+        },
+        {
+          "ref": "FVA:33",
+          "status": "not_checked",
+          "note": "FVA = S. M. Nahvi, Farhang-e Vāzhehā-ye ʿArabi dar Fārsi (Dakhil), Tehran 1368/1989. refs_online.json records: 'Searched archive.org, ketabnak, noorlib, web: no digital copy found.' Not accessible."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "amr; mîrzâ; ammâreh; ma'mŭr; emârat",
+          "verdict": "plausible",
+          "derivation": "All five are Arabic-root material taken into Persian after the 7th-c. conquest, and all five do belong to ʾ-m-r, but they belong to it in different ways. (a) امر amr = Ar. أَمْر ʾamr, the maṣdar/noun of ʾamara, 'order, command; matter, affair' (pl. أوامر ʾawāmir, أمور ʾumūr — both in Nourai's script_extra); borrowed unchanged. (b) امّاره ammāre = Ar. أمّارة ʾammāra, the feminine of the intensive faʿʿāl pattern, 'much-commanding, urging', best known from Qurʾān 12:53 al-nafs al-ʾammāra bi-l-sūʾ 'the soul that incites to evil' — Moʿin glosses it precisely so: 'بسیار امر کننده، اغوا کننده به شرّ'. (c) مأمور maʾmūr is the mafʿūl (passive participle) of ʾamara, 'one who is ordered'; in Persian and Ottoman it specialised to 'official, agent, functionary' (whence مأموریت maʾmūriyyat 'mission'). (d) امارت imārat = Ar. إمارة ʾimāra, the abstract of ʾamīr, 'command, governorship, emirate' (pl. امارات imārāt); Moʿin: '[ع. امارة] … فرمانروایی، فرماندهی، سرداری. ولایت، حوزهٔ زیر فرمان امیر'. Nourai's gloss 'kingdom, state' is loose — 'emirate, governorship' is the sense — and his script «إمارت» is a hybrid: Arabic writes إمارة, Persian امارت. (e) میرزا mīrzā is NOT a direct Arabic form: it is a Persian compound of the shortened Arabic loan میر mīr (< amīr, with aphaeresis of the unstressed initial vowel, already medieval — Richardson lists 'amir (or mir), a commander, governor … prince') plus the Persian patronymic ـزاده -zāda 'born of' (< zādan < Ir. *zā- < PIE *ǵenh₁-, which is why Nourai's chart sends the reader to 'Gene 1'); earlier میرزاد mīrzād 'son of an amīr'. Its gloss should read 'Noble born', not 'Nobel born'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%B1",
+            "https://en.wiktionary.org/wiki/%D9%85%D8%A3%D9%85%D9%88%D8%B1",
+            "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%B2%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:33",
+              "status": "not_checked",
+              "note": "No digital copy of Nahvi's Farhang-e Vāzhehā-ye ʿArabi dar Fārsi exists (refs_online.json: 'Searched archive.org, ketabnak, noorlib, web: no digital copy found')."
+            },
+            {
+              "ref": "MON",
+              "status": "supports",
+              "note": "MON_part1.txt l.16553 'امارت: IMĀRAT [ع. امارة] (مص‌ل.) امیر شدن. (امص.) فرمانروایی، فرماندهی، سرداری. (اِ.) ولایت، حوزهٔ زیر فرمان امیر؛ ج. امارات'; l.16559 'اماره: [ع. امارة] (ص.) بسیار امر کننده، اغوا کننده به شرّ، برانگیزاننده به بدی'; l.16942 'امیر: [ع. ← میر] (ص.اِ.) کسی که فرمانروا بر قومی باشد… ج. امراء (امرا)'. Moʿin tags every one of them [ع.] = Arabic, as Nourai's arrow requires."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vol. 1, s.vv. امارت / اماره / امیر (MON_part1.txt ll. 16553, 16559, 16942)",
+              "stance": "supports",
+              "note": "See ref_check. Moʿin's '[ع. ← میر]' at امیر also documents the mīr ~ amīr doublet that underlies میرزا."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. ~64, s.v. 'ameer, amir' (KLN_1966.txt l.2451)",
+              "stance": "supports",
+              "note": "'Arab. amīr, \"commander, prince\", fr. amara, \"he commanded\".'"
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson-Johnson, s.v. amir (RCH.txt l.11330)",
+              "stance": "supports",
+              "note": "'amir (or mir), A commander, governor, emperor, chief, leader, lord, prince. … The amiru'l umara, prince of princes, a viceroy or governor of a great province' — documents both the mīr shortening (basis of mīrzā) and the amīr al-umarāʾ title."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic 1876, s.v. Emir (DEV.txt l.1261) and l.1748",
+              "stance": "supports",
+              "note": "'Emir. Transcription de l'arabe emîr ou amîr, chef… Dans certains pays musulmans, on dit mir; et de là vient le mirza, fils d'émir, monsieur, des Persans' and 'pour emîr-zâdeh, fils d'émir. Emir est arabe, zâdeh est persane' — exactly Nourai's mīrzā analysis, including the Persian half."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen (PLA_asbaghi_1988_ia_djvu.txt l.3009)",
+              "stance": "silent",
+              "note": "Asbaghi lists only hybrids built ON the Arabic word, e.g. 'ʾamirābūr: \"Stallmeister\" aus dem ar. ʾamir + pers. …' — i.e. amīr is treated as Arabic, not as a Persian loan into Arabic. Nothing contradicting the direction of Nourai's arrow."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, Kitāb al-alfāẓ al-fārisiyya al-muʿarraba (AFM.txt), grepped أمير",
+              "stance": "silent",
+              "note": "Addi Shir does not list أمير among Persian words arabicised — again consistent with amīr being native Arabic."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "Amîr-al-bahr; Amîr-ar-rahl",
+          "verdict": "disputed",
+          "derivation": "Both phrases are genuine Arabic: أمير البحر ʾamīr al-baḥr 'commander of the sea' (a real Fatimid/Sicilian naval title, still the Persian gloss of 'admiral' — Moʿin s.v. امیرال: '[ع. امیرالبحر] امیرالبحر، دریاسالار. آدمیرال'), and أمير الرحل ʾamīr ar-raḥl 'commander of the transport (fleet)', the title Klein assigns to the officer of the convoy fleet plying between al-Andalus and North Africa. What is disputed is that either phrase is the etymon of Latin amiralis. Nourai's two references disagree with each other (FSD:38 gives amīr-al-baḥr, KLN:26 gives amīr-ar-raḥl), and modern scholarship rejects both. Lokotsch (LKT, s.v. amir) already judged 'Daß die Worte aus amīr-al-baḥr \"Befehlshaber der See\" entstanden sein sollen, scheint wenig wahrscheinlich'; Devic (1876) called Engelmann's amīr-al-baḥr proposal 'guère admissible' because the Old French forms amiraut, amirant, amiratz show no trace of a dropped noun. The AHD, the OED and Wiktionary now derive Medieval Latin amīrālis from Arabic ʾamīr plus the Latin noun-forming suffix -ālis, or from the constant sequence amīr al- in titles generally — amīr al-umarāʾ 'emir of emirs', the style of the great commanders of Norman Sicily in the mid-12th c., being the usual candidate. Nourai's node is therefore a real Arabic phrase but a superseded etymology.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/admiral",
+            "https://www.etymonline.com/word/admiral",
+            "https://ahdictionary.com/word/search.html?q=admiral"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:26",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 25 (printed pp.25-26) s.v. admiral: 'OF. amiral, amiralt (F. amiral), prob. shortened fr. Arab. amīr-ar-rahl, \"commander of transport, officer commanding a (transport) fleet\" … influenced in form by L. admirari, \"to admire\". See ameer, amir.' Klein says exactly what Nourai's Amîr-ar-rahl box says (note Klein's own hedge, 'prob.')."
+            },
+            {
+              "ref": "FSD:38",
+              "status": "supports",
+              "note": "FSD_vol1.txt leaf 78 (printed p. ≈ 37-38 with the recorded vol.1 leaf-to-page drift) s.v. admiral: '[OF., <LL. admiralis, amiralis, < Ar. amir-al-bahr, < amir, commander, + al, the, + bahr, sea.]' — verbatim Nourai's Amîr-al-bahr box, and also the source of his Late Latin node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch 1927, s.v. amir (LKT.txt ll. 373-374)",
+              "stance": "contradicts",
+              "note": "'Mit ar-rahl \"Transport\" … wurde amir verbunden zu amīr ar-rahl, dem Titel für den Befehlshaber dieser Flotte' — but then: 'Daß die Worte aus amīr-al-bahr \"Befehlshaber der See, des Meeres\" entstanden sein sollen, scheint wenig wahrscheinlich.' Lokotsch also reviews and rejects Gebhardt's amīr auwal 'erster Emir'."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic 1876, s.v. Amiral (DEV.txt l.506)",
+              "stance": "contradicts",
+              "note": "'Engelmann avait supposé que l'al final était l'article précédant un mot tombé depuis, par exemple bahr, mer: amir-al-bahr … Cette explication, au moins quant au mot bahr, ne semble guère admissible, vu qu'on a de nombreux exemples … qui prouvent qu'amiraut, amirant, amiratz [existed]'."
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan, s.v. AMIRAL (PHN.txt l.1668, printed pp. 38-39)",
+              "stance": "partial",
+              "note": "Pihan derives amiral from amir 'commandant, chef, émir, dérivé de amar commander' and observes that the truncated amīr al- needs a complement, suggesting amīr al-baḥr is the phrase 'qu'on aurait peut-être dû conserver' — i.e. he treats amīr al-baḥr as the sense-restoring gloss, not as a demonstrated etymon."
+            },
+            {
+              "src": "DOZ",
+              "where": "Dozy, Oosterlingen, s.v. amiral (DOZ.txt ll. 324-352)",
+              "stance": "partial",
+              "note": "Dozy starts from 'amir (ook emir uitgesproken), bevelhebber' and discusses how the -al was appended, again without settling on baḥr."
+            },
+            {
+              "src": "MON",
+              "where": "Moʿin vol. 1 s.v. امیرال (MON_part1.txt l.4880)",
+              "stance": "supports",
+              "note": "'[ع. امیرالبحر] (اِ.) امیرالبحر، دریاسالار. آدمیرال' — confirms amīr al-baḥr as a live Arabic/Persian naval title, whatever its role in the European etymology."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Late Latin",
+          "words": "amiralis, admiralis",
+          "verdict": "plausible",
+          "derivation": "The forms are real: Latin texts of the 11th-13th c. show amīrālis, admīrālis, admirallus, admiralius, admiratus, amiratus, amiraldus for a Muslim (later any) commander, and from the 12th c. specifically a naval one. Two corrections to the node. (i) The language label should be Medieval Latin, not Late Latin: these are Norman-Sicilian and crusader-chancery coinages of the 11th-13th c., not Latin of the 3rd-6th c.; Funk & Wagnalls' abbreviation 'LL.', which Nourai copied, is F&W's habitual cover-term for post-classical Latin. (ii) The NOTE '\"bahr\" or \"rahl\" has been dropped' is the disputed part (see node #2): the mainstream account today makes -ālis the Latin adjective/noun suffix -ālis attached to amīr, so nothing was 'dropped'. The ad- is secondary throughout: it comes from contamination with Latin admīrārī 'to wonder at, admire' (whence also admirabilis), a change already visible in the Latin forms and reinforced in Middle English.",
+          "sources": [
+            "https://ahdictionary.com/word/search.html?q=admiral",
+            "https://en.wiktionary.org/wiki/admiral"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSD:38",
+              "status": "supports",
+              "note": "FSD_vol1.txt leaf 78 s.v. admiral: '[OF., <LL. admiralis, amiralis, < Ar. amir-al-bahr …]' — the exact forms and the exact 'LL.' label Nourai reproduces."
+            },
+            {
+              "ref": "KLN:26",
+              "status": "partial",
+              "note": "Klein's admiral entry (KLN_1966.txt leaf 25) goes straight from Arabic to Old French and does not cite a Latin intermediary at all; he only mentions L. admirari as the source of the -d-. So Klein supports the -d- but not the Late Latin node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "American Heritage Dictionary online, s.v. admiral",
+              "stance": "partial",
+              "note": "'ultimately (partly via Old French amiral) from Medieval Latin admīrālis, alteration (influenced by admīrārī, to wonder at, admire) of amīrālis, ultimately (possibly via Medieval Greek ameras, amerad-) from Arabic ʿamīr, commander … + Latin -ālis, noun suffix.' Confirms the Latin stage and the -d- explanation, but labels it Medieval (not Late) Latin and analyses -al as Latin -ālis."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, s.v. Amiral (DEV.txt l.506)",
+              "stance": "supports",
+              "note": "Lists 'le bas latin admiralius, admirallus, amiraldus, admiratus, amirarius, amirandus, admirandus, admirantius, amireda, amiræus' — a far richer set of Latin forms than the two Nourai gives."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, s.v. Admiral (SKT.txt l.373)",
+              "stance": "partial",
+              "note": "'M.E. more often amiral … O.F. amiral … cf. Low L. admi[ralis] … Arab. amīr, a prince … The suffix is due to Arab. amir-al-bahr, prince of the sea' — Skeat keeps a Low Latin stage but sides with baḥr, as Funk & Wagnalls do."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Old French",
+          "words": "amiral",
+          "verdict": "confirmed",
+          "derivation": "Old French amiral (also amirail, amirant, amiraut, amiratz, 12th c.) 'Saracen commander; any military commander', taken from the Medieval Latin/Norman-Sicilian amīrālis of node #3 (or directly from the Arabic title in Sicily and the crusader Levant); it is the form behind Old Provençal amiralhs, Portuguese amiralh, Italian ammiraglio, and — with the Arabic article misread into the word — Italian almiraglio, Spanish/Portuguese almirante (remodelled on the Latin present-participle suffix -antem). The 'sea commander' sense is a Mediterranean specialisation of the 12th-13th c.: in the earliest French epic use (Roman d'Alexandre, Roman de Rou) amirant is still simply a Saracen lord.",
+          "sources": [
+            "https://www.etymonline.com/word/admiral",
+            "https://en.wiktionary.org/wiki/admiral"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSD:38",
+              "status": "supports",
+              "note": "FSD_vol1.txt leaf 78 s.v. admiral: '[OF., <LL. admiralis, amiralis …]' — Funk & Wagnalls route the English word through Old French exactly as this node does."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 leaf 25, s.v. admiral",
+              "stance": "supports",
+              "note": "'OF. amiral, amiralt (F. amiral) … whence also Port. amiralhs, It. ammiraglio (It. almiraglio and It., Sp. and Port. almirante arose from a confusion of am-, the beginning of the word amīr, with the Arab. art. al-).'"
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch, s.v. amir (LKT.txt l.373-374)",
+              "stance": "supports",
+              "note": "'pg. amiralh, prov. amiralhs, amirat, afrz. amiré, nfrz. amiral [u. mit falscher etymologischer Beziehung zu lat. admirari] admiral … Die Bedeutung ist überall \"Oberbefehlshaber der Flotte\".'"
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan, s.v. AMIRAL (PHN.txt l.1668)",
+              "stance": "supports",
+              "note": "Treats French amiral as the direct continuation of the Arabic title, noting 'les Anglais admiral' among the variants."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "admiral",
+          "verdict": "confirmed",
+          "derivation": "Middle English amiral / admiral (13th c.), from Old French amiral; the 'commander of a fleet' sense is settled in English by the 15th c. (Lord High Admiral, admiral of the fleet). The unetymological -d- is not from Arabic or French but from the pull of Latin admīrārī 'to wonder at' / admīrābilis — Klein, Skeat, Lokotsch, Etymonline and the AHD all say so — helped by the pattern of ad- prefixed Latinate words entering English through law-French. The butterfly names (red admiral, white admiral) are a 17th-c. transfer, probably itself an alteration of 'admirable'.",
+          "sources": [
+            "https://www.etymonline.com/word/admiral",
+            "https://ahdictionary.com/word/search.html?q=admiral"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Nourai cites 'AHD' without a page, i.e. the dictionary entry, not the IE-root appendix (the local AHD_watkins1985.txt contains only the root appendix and has no 'admiral'). Checked online: AHD s.v. admiral, '[Middle English amiral, admiral, Muslim military commander, emir, admiral, ultimately (partly via Old French amiral) from Medieval Latin admīrālis, alteration (influenced by admīrārī, to wonder at, admire) of amīrālis … from Arabic ʿamīr, commander … + Latin -ālis, noun suffix.]' — supports the English node and its Old French parent."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, s.v. admiral (WEB_vol1.txt l.3206)",
+              "stance": "supports",
+              "note": "'[ME. admiral, admiralle; OFr. admiral; from Ar. amir al, ruler of; sp. influenced by admirable.]' — note that Webster too takes the -d- as spelling influence from admirable."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, s.v. Admiral (SKT.txt l.373)",
+              "stance": "supports",
+              "note": "'M.E. more often amiral … O.F. amiral' — confirms the ME form without the d as the older one."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 1 leaf 78 (printed p. ≈ 38), s.v. admiral",
+              "stance": "supports",
+              "note": "Definitions 1-5 include '5. A Saracen emir, prince, or commander', the original English sense, alongside the naval ranks."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "âdmîrâl",
+          "verdict": "confirmed",
+          "derivation": "آدمیرال ādmīrāl is a modern (19th-20th c.) European loan into Persian, taken with the -d- and therefore from English admiral or Russian адмирал rather than from French amiral (which lost the d) — so Nourai's arrow from the English node is defensible. Moʿin lemmatises it in vol. 1 as ادمیرال and glosses it with the native calque: 'امیرالبحر، دریاسالار، امیرال'. It is thus a round trip: the Arabic ʾamīr that Persian had borrowed in the 7th c. comes back, thirteen centuries later, in Latin-Romance-English dress, and Persian immediately re-glossed it with the Arabic phrase amīr al-baḥr that it had never lost. Persian also uses the calque دریاسالار daryā-sālār for the rank.",
+          "sources": [
+            "https://www.etymonline.com/word/admiral"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:36",
+              "status": "supports",
+              "note": "MON_part1.txt l.2396, in the آد- run of vol. 1 (consistent with p. 36; the OCR carries no printed page numbers): 'ادمیرال: ĀDMĪRĀL امیرالبحر، دریاسالار، امیرال.' Moʿin's entry immediately precedes آدمیزاد, i.e. it sits exactly where Nourai's page reference puts it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vol. 1 s.v. ادمیرال (l.2396) and s.v. امیرال (l.4880)",
+              "stance": "supports",
+              "note": "'امیرال: [ع. امیرالبحر] (اِ.) امیرالبحر، دریاسالار. آدمیرال' — Moʿin's cross-reference shows the two Persian shapes of the word (the Europeanised آدمیرال and the Arabicising امیرال) side by side."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān-e Qāṭeʿ vol. 1, grepped آدمیرال / ادمیرال",
+              "stance": "silent",
+              "note": "Absent, as expected: Borhān-e Qāṭeʿ is a 17th-c. dictionary and cannot contain a 19th-c. European loan."
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson-Johnson 1829 (RCH.txt), grepped admiral/ādmīrāl as a Persian headword",
+              "stance": "silent",
+              "note": "No Persian entry — again consistent with a post-1829 borrowing."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
