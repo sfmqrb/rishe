@@ -1,18 +1,27 @@
 {
  "BQT": {
   "title": "Borhan-e Qate' (M.H. Tabrizi), ed. Mohammad Mo'in with etymological footnotes; Nourai cites Amir Kabir 1362/1983 (photo-reprint of Mo'in's 2nd ed., Ibn Sina 1342/1963, 5 vols, continuous pagination)",
-  "kind": "archive_djvu+scan_local",
-  "url": "https://archive.org/details/borhan-ghate-v1 (vol 1, آ–ت, printed pp. 1–~550) ; https://archive.org/details/borhan-ghate-v2 (vol 2, ث/ج–?, printed pp. ~550–~1230); vols 3–5 NOT found on archive.org (also checked borhan-ghateh-j-1 / borhan-qateh = same vol-1 scan; dli.ministry.25441 = a different Indian edition in 10 parts; McGillLibrary-118596-1400 = Adib Tusi's supplement, not the dictionary)",
+  "kind": "archive_djvu+local_scan_ocr",
+  "url": "https://archive.org/details/borhan-ghate-v1 (vol 1, آ–ت, printed pp. 1–~550) ; https://archive.org/details/borhan-ghate-v2 (vol 2, ث/ج–?, printed pp. ~550–~1230); vols 3–5 NOT found on archive.org (also checked borhan-ghateh-j-1 / borhan-qateh = same vol-1 scan; dli.ministry.25441 = a different Indian edition in 10 parts; McGillLibrary-118596-1400 = Adib Tusi's supplement, not the dictionary) ; vols 3-5: user-uploaded scans on picofile.com (links from farhangoadabeirani.blogsky.com post-482): vol 3 https://s3.picofile.com/file/8230740968/borhane_ghatee_jelde_3.pdf.html (ش–ل, Ibn Sina 2nd ed. 1342, 721 pp), vol 4 https://s6.picofile.com/file/8230741184/borhane_ghatee_jelde_4.pdf.html (م–ی, 553 pp), vol 5 https://s3.picofile.com/file/8230741300/borhane_ghatee_jelde_5.pdf.html (تعلیقات, Amir Kabir 5th pr. 1376, 293 pp). Same set behind login on ketabnak.com/book/55304-55307 and /58249.",
   "lookup_hint": "grep the headword in BQT_v1_pages.txt / BQT_v2_pages.txt (pages separated by \\f; leaf N = N-th \\f-block, 0-based); or use archive.org full-text page search (returns leaf index of hits): curl -sG 'https://{server}/fulltext/inside.php' --data-urlencode item_id={id} --data-urlencode doc={file-stem} --data-urlencode path={dir} --data-urlencode q={word}   (get server/dir from https://archive.org/metadata/{id}; e.g. server=ia800104.us.archive.org dir=/23/items/borhan-ghate-v1 for BQT vol 1). Leaf images: https://archive.org/details/{id}/page/n{leaf}. Secondary: Dehkhoda (vajehyab.com/?q=<word>&d=dehkhoda, parsi.wiki, abadis.ir/fatofa/<word>/) quotes Borhan and often Mo'in's footnotes as (حاشیهٔ برهان قاطع چ معین). noorlib.ir/book/info/10294 is a 1-vol Nima 1380 Borhan without Mo'in's notes. | For pages in a scanned volume use: python3 tools/ref_page.py BQT:<page> --image (renders + OCRs only that page; Read the PNG when OCR is poor)",
   "local_file": [
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v1_pages.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v2_pages.txt",
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v1.txt (raw djvu.txt, no page breaks)",
-   "/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v2.txt (raw)"
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v2.txt (raw)",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_picofile.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_pages_faseng.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_picofile.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_pages_faseng.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_picofile.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_pages_faseng.txt"
   ],
-  "page_offset": "vol 1 (BQT_v1_pages.txt, 777 leaves): printed page ≈ leaf − 210 near the start of the dictionary text (leaf 296 = p.86), ≈ leaf − 220 in the middle (leaf 414 = p.194, leaf 534 = p.314), ≈ leaf − 228 near the end (leaf 740 = p.512); leaves 0–~205 are Mo'in's introduction (pages numbered in words). vol 2 (BQT_v2_pages.txt, 684 leaves): printed page ≈ leaf + 543 (±3), derived from running-head numerals; verify with the 'بقیه در صفحهٔ N' continuation notes at page bottoms. Nourai's BQT:918 → vol 2, leaf ≈ 375.",
+  "page_offset": "vol 1 (BQT_v1_pages.txt, 777 leaves): printed page ≈ leaf − 210 near the start of the dictionary text (leaf 296 = p.86), ≈ leaf − 220 in the middle (leaf 414 = p.194, leaf 534 = p.314), ≈ leaf − 228 near the end (leaf 740 = p.512); leaves 0–~205 are Mo'in's introduction (pages numbered in words). vol 2 (BQT_v2_pages.txt, 684 leaves): printed page ≈ leaf + 543 (±3), derived from running-head numerals; verify with the 'بقیه در صفحهٔ N' continuation notes at page bottoms. Nourai's BQT:918 → vol 2, leaf ≈ 375. || vol 3 (BQT_v3_pages.txt, 721 leaves): printed page ≈ PDF page + 1209 near the start (pdf 9 = p.1218, pdf 130 = p.1339), +1207 in the middle (pdf 300 = p.1507), ≈ +1203 near the end; the scan has some duplicated/mis-ordered pages and a reported gap at pp.1291-1294 — always confirm with the running-head numeral. vol 4 (553 leaves): printed = PDF page + 1917 throughout (pdf 100 = 2017, 300 = 2217, 551 = 2468). vol 5 تعلیقات (293 leaves, separately paginated): printed ≈ PDF page − 5 (pdf 150 = p.145, pdf 200 = p.195); its notes are keyed to page numbers of the main volumes ('صفحهٔ ۶۳۳ ...').",
   "covers_etymology": true,
-  "notes": "Persian OCR is mediocre: headwords and Mo'in's footnotes (e.g. '۱ - رك: ابر کوه', Pahlavi/Avestan Latin forms) are mostly readable but with many character errors; search with short substrings and tolerate errors. BQT_v1_pages.txt was built from the djvu.xml; BQT_v2_pages.txt from pdftotext -layout of the _text.pdf. Volumes 3–5 (roughly ح/خ–ی and the تعلیقات volume) are not online in full text; for those use Dehkhoda quotations of Borhan/Mo'in via vajehyab/abadis/parsi.wiki, or page images on noorlib (different edition). | Vols 3-5 scans (image only) in incoming/BQT; vols 1-2 have OCR text files BQT_v1_pages.txt / BQT_v2_pages.txt. Offsets verified by eye at several pages (v3 drifts by ~4 pages; page_map gives exact positions once built).",
+  "notes": "Persian OCR is mediocre: headwords and Mo'in's footnotes (e.g. '۱ - رك: ابر کوه', Pahlavi/Avestan Latin forms) are mostly readable but with many character errors; search with short substrings and tolerate errors. BQT_v1_pages.txt was built from the djvu.xml; BQT_v2_pages.txt from pdftotext -layout of the _text.pdf. Volumes 3–5 (roughly ح/خ–ی and the تعلیقات volume) are not online in full text; for those use Dehkhoda quotations of Borhan/Mo'in via vajehyab/abadis/parsi.wiki, or page images on noorlib (different edition). | Vols 3-5 scans (image only) in incoming/BQT; vols 1-2 have OCR text files BQT_v1_pages.txt / BQT_v2_pages.txt. Offsets verified by eye at several pages (v3 drifts by ~4 pages; page_map gives exact positions once built). || UPDATE: vols 3-5 now downloaded (image-only PDFs, verified as Mo'in's edition from title pages and the Latin footnotes) and OCRed locally. Image-only scan OCRed locally with tesseract 5 (fas.traineddata from github.com/tesseract-ocr/tessdata_fast, stored in incoming/_tessdata). *_pages.txt = 'fas' model (best for Persian); *_pages_faseng.txt = 'fas+eng' model (better for the Latin-script Pahlavi/Avestan etyma, worse for Persian). Pages separated by \\f; leaf N = N-th \\f-block 0-based = PDF page N+1. Search with short substrings and tolerate OCR errors. Provenance caveat: picofile is a general file host, the uploads are not from a library; treat as a grey copy (the book is in copyright in Iran).",
   "scans": [
    {
     "volume": "3",
@@ -46,16 +55,20 @@
  },
  "MON": {
   "title": "Mohammad Mo'in, Farhang-e Farsi (6 vols, Amir Kabir 1363/1984; vols 1–3 lexicon, vol 4 foreign compounds, vols 5–6 a'lam/proper names)",
-  "kind": "website",
+  "kind": "website+archive_djvu",
   "url": "https://vajehyab.com/?q=<word>&d=moein  (also https://vajehyab.com/moein/<word>) ; https://abadis.ir/fatofa/<word>/ (section فرهنگ معین)",
   "lookup_hint": "Entry text of the lexicon volumes is online at vajehyab/abadis, including Mo'in's bracketed origin tags such as [په.] (Pahlavi), [ع.] (Arabic), [فر.] (French) but WITHOUT the Latin-script Pahlavi/Avestan forms of the print edition (tested دیوار: shows '[ په . ] (اِ.) ۱- جداری از سنگ...'). Page numbers cannot be mapped online. Archive.org has only a 2-vol abridgement: https://archive.org/details/abu-abdurahman-kurdi-f_barid_01_20171226 (الف–ع) and ..._02_20171226 (غ–ی) = 'فرهنگ معین دوجلدی', Adena 1381, compiled by عزیزالله علیزاده — different pagination from the 6-vol edition; OCR downloaded as MON_part1.txt / MON_part2.txt (no page breaks).",
   "local_file": [
    "/home/sfmqrb/git/rishe/data/verification/sources/refs/MON_part1.txt",
-   "/home/sfmqrb/git/rishe/data/verification/sources/refs/MON_part2.txt"
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/MON_part2.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/MON/MON_2vol_Adena_v1_archive.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/MON/MON_2vol_Adena_v1_djvu.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/MON/MON_2vol_Adena_v2_archive.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/MON/MON_2vol_Adena_v2_djvu.txt"
   ],
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "covers_etymology = partial: origin-language tag visible online, Latin etyma missing. The a'lam volumes (MON5/MON6 citations, e.g. MON5:528) are NOT online: vajehyab's Mo'in has no proper-name entries (tested افراسیاب — only compounds returned); abadis shows Dehkhoda and 'فرهنگ اسم‌ها' instead, which do give Avestan forms (e.g. Frangrasyan) and can serve as a cross-check. noorlib has no Mo'in 6-vol entry found. The 6-vol edition itself was not found on archive.org, Google Books or HathiTrust full view."
+  "notes": "covers_etymology = partial: origin-language tag visible online, Latin etyma missing. The a'lam volumes (MON5/MON6 citations, e.g. MON5:528) are NOT online: vajehyab's Mo'in has no proper-name entries (tested افراسیاب — only compounds returned); abadis shows Dehkhoda and 'فرهنگ اسم‌ها' instead, which do give Avestan forms (e.g. Frangrasyan) and can serve as a cross-check. noorlib has no Mo'in 6-vol entry found. The 6-vol edition itself was not found on archive.org, Google Books or HathiTrust full view. || RE-SEARCH 2026-09: still no scan of the 6-vol Amir Kabir edition (incl. vols 5-6 اعلام) on archive.org, Google Books (API quota-limited; WebSearch found no record with preview), HathiTrust (no record surfaced), noorlib, ketabnak (author page persons/6040 lists 34 Mo'in titles, none the 6-vol فرهنگ), tarikhema, picofile, scribd, Commons/Wikisource. Only the 2-vol Adena condensation exists (archive.org, mirrored on ketabnak 65980/65981, picofile, persianpdf, scribd); its image PDFs were downloaded to incoming/MON/ (the _text.pdf variants with OCR layer are at the same archive.org identifiers). The 6-vol set is purchase-only (in print: iketab.com, bookroom.ir/book/97022, 30book.com/Book/32100)."
  },
  "SOD": {
   "title": "Badr al-Zaman Gharib (Qarib), Sogdian–Persian–English Dictionary, Farhangan, Tehran 1374/1995",
@@ -85,33 +98,37 @@
  },
  "FFD": {
   "title": "Mohsen Abolghasemi, Fe'l-ha-ye Farsi-ye Dari, Qoqnus, Tehran 1374/1995",
-  "kind": "none",
-  "url": null,
+  "kind": "local_scan_ocr",
+  "url": "https://asmaneketab.ir/product/کتاب-ماده-های-فعلهای-فارسی-دری-محسن-اب/ -> https://dl.eliteraturebook.com/app/public/attachments/6925d29630b83.PDF (free PDF site; grey)",
   "lookup_hint": "Searched archive.org (Persian/Latin titles, author), ketabnak, noorlib, general web (pdf/download): nothing; only a related paid e-book 'واژگان زبان فارسی دری' (fidibo). ketabnak.com/book/45024 is a different book (فهرست فعلهای فارسی).",
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/FFD/FFD_asmaneketab.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/FFD/FFD_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/FFD/FFD_pages_faseng.txt"
+  ],
+  "page_offset": "115 leaves (PDF pages); printed page = PDF page − 5 (PDF 40 = p.35). 2nd printing 1385 of the same Qoqnus setting (ISBN 964-311-015-X).",
   "covers_etymology": true,
-  "notes": "none online. The verb etymologies it gives largely repeat Abolghasemi's دستور تاریخی زبان فارسی, which IS on archive.org (https://archive.org/details/20220417_20220417_2237) and could serve as a proxy."
+  "notes": "Actual title is «ماده‌های فعل‌های فارسی دری» (Qoqnus). Open scan downloaded (image-only) and OCRed. Image-only scan OCRed locally with tesseract 5 (fas.traineddata from github.com/tesseract-ocr/tessdata_fast, stored in incoming/_tessdata). *_pages.txt = 'fas' model (best for Persian); *_pages_faseng.txt = 'fas+eng' model (better for the Latin-script Pahlavi/Avestan etyma, worse for Persian). Pages separated by \\f; leaf N = N-th \\f-block 0-based = PDF page N+1. Search with short substrings and tolerate OCR errors. Entries: headword, then 'فارسی میانه ... < ایرانی باستان *...' with Latin transliterations (best read in *_pages_faseng.txt or on the page image)."
  },
  "FVA": {
   "title": "S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (dakhil), Tohi/Azadi 1368/1989",
-  "kind": "none",
-  "url": null,
+  "kind": "catalog",
+  "url": "https://openlibrary.org/works/OL4602367W (edition OL2012991M: Intisharat-i Islami 1368/1989, 582 pp)",
   "lookup_hint": "Searched archive.org, ketabnak, noorlib, web: no digital copy found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: still no digital copy on any permitted platform. Library catalogues list the 1368 book under the variant title «فرهنگ ریشهٔ وام‌واژه‌های عربی (لغات عربی مستعمل در فارسی دخیل)» — reconcile with Nourai's title when buying. Catalogue record only."
  },
  "AEF": {
   "title": "Jalal Khaleqi Motlaq, Asas-e Eshteqaq-e Farsi, vol. I (آ–خ), Bonyad-e Farhang-e Iran 1356/1977 — this is the Persian TRANSLATION of Paul Horn's Grundriss der neupersischen Etymologie (HRN) with Hübschmann's Persische Studien (HUB) notes and added Persian/Pahlavi evidence",
-  "kind": "none",
-  "url": null,
+  "kind": "catalog",
+  "url": "https://openlibrary.org/works/OL38785552W (vol. 1, 1356) ; 2015 complete ed. «فرهنگ ریشه‌شناسی فارسی» (مهرافروز) print-only: https://www.gisoom.com/book/11154690/ ; German original: https://archive.org/details/grundrissderneu00horngoog",
   "lookup_hint": "Not online (searched archive.org, ketabnak, noorlib, web; only bookshop listings). Because it is a translation of Horn/Hübschmann, verify AEF citations against HRN (archive.org, see Western agent's refs; local HRN.txt) and HUB (local HUB.txt): the entry order (آ–خ) follows Horn's numbering. The 2015 complete edition was retitled 'فرهنگ ریشه‌شناختی فارسی' (Mehrafarin), also not online.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online; proxy via HRN/HUB."
+  "notes": "none online; proxy via HRN/HUB. || RE-SEARCH 2026-09: still catalogue/purchase only (Open Library record; iketab second-hand; digikala dkp-3058984 for the 2015 ed.). Publisher of the 2015 ed. is مهرافروز."
  },
  "VOP": {
   "title": "Mahshid Moshiri, Farhang-e Vazheha-ye Orupayi dar Farsi, Alborz 1371/1992",
@@ -121,7 +138,7 @@
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: nothing — no catalogue record with a scan, no ebook. Decoys: ketabnak 132354 (Zomorrodian), Google Books RwdkAAAAMAAJ (Nahid Shahidi 1997, no view). Purchase second-hand only."
  },
  "FSF": {
   "title": "Abdolhossein Noushin, Vazhe-namak: Farhang-e Vazheha-ye Doshvar-e Shahnameh (Farhang-e Shahnameh), Donya 1363/1984",
@@ -184,13 +201,13 @@
  },
  "ETM": {
   "title": "Mohsen Abolghasemi, Risheh-shenasi (Etimoloji), Qoqnus 1374/1995",
-  "kind": "none",
-  "url": null,
+  "kind": "catalog",
+  "url": "https://ketabnak.com/book/107170/ (no download) ; https://ketab.ir/book/2ebb5f53-ba49-4955-98f4-d419919d0ebc ; purchase: https://adinehbook.com/gp/product/9643110451",
   "lookup_hint": "Searched archive.org, ketabnak, noorlib, web: not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: no digital copy on any permitted platform; catalogue/purchase only."
  },
  "TZF": {
   "title": "Mohsen Abolghasemi, Tarikh-e Mokhtasar-e Zaban-e Farsi, Bonyad-e Andisheh-ye Eslami 1373/1994",
@@ -204,23 +221,26 @@
  },
  "SAP": {
   "title": "Ahmad Sayyah, Farhang-e Sayyah / Farhang-e Bozorg-e Jame'-e Novin (Persian translation of al-Munjid), 3 vols, Eslam 1368/1989",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "https://fidibo.com/book/142427 (vol.1, 1152 pp) ; https://fidibo.com/book/142430 (vol.2, 1206 pp) — PDF ebook, ~300,000 toman each, free sample",
   "lookup_hint": "Not found (archive.org has Bandar-Rigi's منجد الطلاب translation, abo_abdrahman_kordi_barid_20150501_1718, and the Arabic al-Munjid on noorlib.ir/book/info/32878 — usable to check the Arabic-side content, not Sayyah's pages).",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: purchase only. Google Books no-view records 4yQPAQAAMAAJ (1977), NoplAAAAMAAJ (1985), HcGipwAACAAJ (2001)."
  },
  "IRN": {
   "title": "Bahram Farahvashi, Iranvij, Tehran University Press 1368/1989",
-  "kind": "scan_local",
-  "url": null,
+  "kind": "local_scan_ocr",
+  "url": "https://asmaneketab.ir/product/کتاب-ایرانویج-بهرام-فره-وشی/ -> https://dl.eliteraturebook.com/storage/img/ایرانویج.pdf (free PDF site; grey) ; Google Books kP8bAAAAIAAJ (1368 ed., no view)",
   "lookup_hint": "archive.org 'Iranvej' item is a radio programme, not the book; nothing on ketabnak/noorlib. | For pages in a scanned volume use: python3 tools/ref_page.py IRN:<page> --image (renders + OCRs only that page; Read the PNG when OCR is poor)",
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/IRN/IRN_eliteraturebook.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/IRN/IRN_pages.txt"
+  ],
+  "page_offset": "222 leaves; printed page = PDF page − 11 (PDF 101 = p.90; chapter openers carry no numeral). 6th printing 1382, same setting as 1368.",
   "covers_etymology": true,
-  "notes": "none online. | Scan found (image only); printed page = pdf page - 11 (checked at pdf 101 = p.90).",
+  "notes": "Open scan downloaded (image-only) and OCRed. Image-only scan OCRed locally with tesseract 5 (fas.traineddata from github.com/tesseract-ocr/tessdata_fast, stored in incoming/_tessdata). *_pages.txt = 'fas' model (best for Persian); (only the 'fas' pass was run for IRN.) Pages separated by \\f; leaf N = N-th \\f-block 0-based = PDF page N+1. Search with short substrings and tolerate OCR errors.",
   "scans": [
    {
     "file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/IRN/IRN_eliteraturebook.pdf",
@@ -260,13 +280,13 @@
  },
  "ZMA": {
   "title": "Fereydun Jonaydi, Zendegi va Mohajerat-e Aryaian, Bonyad-e Neyshabur 1374/1995",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "https://www.gisoom.com / iketab.com listings (Balkh / Bonyad-e Neyshabur, in print)",
   "lookup_hint": "Searched archive.org, ketabnak, noorlib, web: not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: purchase only; no open or lending copy (grey PDF sites exist, not used)."
  },
  "FAF": {
   "title": "A. Daneshgar, Farhang-e A'lam-e Farsi, Hafez Novin 1370/1991",
@@ -276,17 +296,17 @@
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand."
  },
  "ARK": {
   "title": "M.H. Rokn-zadeh Adamiyyat, Arkan-e Sokhan, Sharq 1347/1968",
-  "kind": "none",
+  "kind": "catalog",
   "url": null,
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand."
  },
  "AMD": {
   "title": "Hasan Amid, Farhang-e Farsi-ye Amid, 2 vols, Amir Kabir 1369/1990",
@@ -300,13 +320,13 @@
  },
  "DZA": {
   "title": "M.T. Rashed Mohassel, Daramadi bar Dastur-e Zaban-e Avestai, Khajeh 1364/1985",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "taaghche.com (revised edition ebook)",
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: the 1364 Khajeh edition is not digitised; a revised edition is sold as an ebook on Taaghche."
  },
  "KAS": {
   "title": "M.A. Hasani Da'i al-Eslam, Khod-amuz-e Zaban-e Sanskrit, Danesh 1361/1982",
@@ -352,33 +372,36 @@
  },
  "VIE": {
   "title": "M.A. Sajjadiyyeh, Vazheha-ye Irani dar Zaban-e Engelisi, Bonyad-e Neyshabur 1364/1985",
-  "kind": "none",
-  "url": null,
+  "kind": "local_scan_ocr",
+  "url": "https://parsianjoman.org/?p=5160 (Parsi-Anjoman hosts the 253-page scan)",
   "lookup_hint": "Not found.",
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/VIE/VIE_sajjadieh1364_parsianjoman.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/VIE/VIE_pages.txt"
+  ],
+  "page_offset": "253 leaves; printed page = PDF page − 6 (PDF 100 = p.94). Only the 'fas' OCR pass was run for this book (VIE_pages.txt).",
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "Open scan (image-only) downloaded and OCRed. Image-only scan OCRed locally with tesseract 5 (fas.traineddata from github.com/tesseract-ocr/tessdata_fast, stored in incoming/_tessdata). *_pages.txt = 'fas' model (best for Persian); *_pages_faseng.txt = 'fas+eng' model (better for the Latin-script Pahlavi/Avestan etyma, worse for Persian). Pages separated by \\f; leaf N = N-th \\f-block 0-based = PDF page N+1. Search with short substrings and tolerate OCR errors."
  },
  "AKM": {
   "title": "Amir J. A'lam, Farhang-e A'lam-e Ketab-e Moqaddas (Dictionary of Proper Names in the Bible, English–Persian), Iran University Press 1988",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "in print (Niloofar 1388); gisoom/iketab",
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: purchase only."
  },
  "ZFS": {
   "title": "Mohsen Abolghasemi, Zaban-e Farsi va Sargozasht-e An, Hirmand 1375/1996",
-  "kind": "none",
+  "kind": "catalog",
   "url": null,
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand. Other Abolghasemi titles are open on archive.org and parsianjoman, not this one."
  },
  "SOR": {
   "title": "K. Akhavan Zanjani — title unknown (Table IV entry for SOR lost in OCR; listed under Persian authors)",
@@ -392,13 +415,13 @@
  },
  "FNI": {
   "title": "F. Danayi, Farhang-e Namha-ye Irani, Negah 1370/1991",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "in print (Negah)",
   "lookup_hint": "Not found (archive has an unrelated 'کامل ترین فرهنگ نام های ایرانی' by Flora Jahandar).",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: purchase only; free PDFs with the same generic title online are unrelated name lists."
  },
  "VSF": {
   "title": "K. Mehravand, Vazhe-sazi dar Zaban-e Farsi, Rasti 1349/1970",
@@ -408,7 +431,7 @@
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand."
  },
  "FVS": {
   "title": "(not in Table IV — probably a typo for FVF or FSF)",
@@ -432,13 +455,13 @@
  },
  "IRT": {
   "title": "M.A. Sajjadiyyeh, Tabar-e Moshtarek-e Iranian va Turanian, Bonyad-e Neyshabur 1368/1989",
-  "kind": "none",
-  "url": null,
+  "kind": "purchase",
+  "url": "gisoom/iketab (full title «پژوهشی در تبار مشترک ایرانیان و تورانیان», Balkh 1368)",
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: purchase only."
  },
  "SNB": {
   "title": "H. Kowsar, Sang-nebeshteh-ha Sokhan Miguyand, Iranian Military Press (1960s)",
@@ -448,7 +471,7 @@
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand."
  },
  "KFL": {
   "title": "Tha'alebi, Fiqh al-lugha (wa-sirr al-'arabiyya), Beirut 1885",
@@ -464,23 +487,23 @@
  },
  "NFI": {
   "title": "F. Jonaydi, Nameh-ye Farhang-e Iran (section 4 translating C.H. Rempis, 'Persische Wörter im Deutschen'), Bonyad-e Neyshabur 1368/1989",
-  "kind": "none",
+  "kind": "catalog",
   "url": null,
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "none online. || RE-SEARCH 2026-09: nothing digitised on any permitted platform (archive.org, Google Books, Persian libraries/ebook stores). Check opac.nlai.ir manually / buy second-hand. Contact Bonyad-e Neyshabur / parsianjoman for the issue with the Rempis translation."
  },
  "MMF": {
   "title": "K. Khalili, Farhang-e Moshtaqqat-e Masader-e Farsi (Dictionary of Derivatives of the Persian Infinitives), Institute of Cultural Studies and Research 1993",
-  "kind": "none",
-  "url": null,
+  "kind": "login_required",
+  "url": "https://ketabnak.com/book/127793 (vol.1) ; /127795 (vol.2) ; /127796 (vol.4) — free registration for online reading; also tebyan online reader",
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": false,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: digitised on ketabnak behind a free account (PDF download may need subscription). Not downloaded."
  },
  "MZF": {
   "title": "P. Natel Khanlari — Table IV line garbled ('... darbareh Zaban-e Farsi', Sokhan 1340/1961; probably 'زبان‌شناسی و زبان فارسی')",
@@ -494,13 +517,13 @@
  },
  "ARM": {
   "title": "A. Aryan, Farhang-e Vazheha-ye Hamanand: Armani–Avestai–Pahlavi–Farsi, vol. I (آ), Bonyad-e Neyshabur 1363/1984",
-  "kind": "none",
-  "url": null,
+  "kind": "login_required",
+  "url": "https://ketabnak.com/book/132355 (vol.1 آ) — free registration",
   "lookup_hint": "Not found.",
   "local_file": null,
   "page_offset": null,
   "covers_etymology": true,
-  "notes": "none online."
+  "notes": "RE-SEARCH 2026-09: digitised on ketabnak behind a free account. Not downloaded."
  },
  "ARB": {
   "title": "al-Jawaliqi, al-Mu'arrab min al-kalam al-a'jami, Tehran 1966 (reprint of Ahmad M. Shakir's Cairo 1361/1942 edition)",
@@ -518,13 +541,13 @@
  "AHD": {
   "title": "W. Morris (ed.), The American Heritage Dictionary of the English Language, New College Edition (1975/76), Appendix 'Indo-European Roots' pp. 1505-1550 (by Calvert Watkins)",
   "edition_found": "Watkins, The American Heritage Dictionary of Indo-European Roots (1985 standalone ed.) + current online appendix (2nd/3rd ed.)",
-  "kind": "archive_djvu+website",
-  "url": "https://ahdictionary.com/word/indoeurop.html",
+  "kind": "archive_djvu+website+archive_restricted",
+  "url": "https://ahdictionary.com/word/indoeurop.html ; New College Edition scans (1610 pp, include the IE appendix pp.1505-1550): https://archive.org/details/americanheritag00morr (1980 pr.), americanheritage1986morr, americanheritage0000unse_o7u0 — all lending; HathiTrust mdp.39015031593562 search-only",
   "identifier": "watkins-american-heritage-dictionary-of-indo-european-roots-1985",
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/AHD_watkins1985.txt",
   "page_offset": "1985 Watkins ed.: leaf = printed + 29 (e.g. leaf 41 = p.12). NOTE: Nourai's page numbers (1505-1550) are for the 1976 AHD appendix, which is NOT open online; the 1985 book has the same root entries (slightly revised) on pp. 1-109, so locate by root name, not page.",
   "lookup_hint": "Online: single page https://ahdictionary.com/word/indoeurop.html with one anchor per root, e.g. ...indoeurop.html#deru- (also reachable from any word page via 'Indo-European roots' link); this is the revised 2000/2011 text. Local 1985 text: roots are bold headwords at line start, e.g. grep -n '^deru-' ; entries list English derivatives in caps. Restricted 1970s AHD scans on IA (lending only, djvu.txt returns 401): americanheritage0000dict (July 1977 printing, 970 leaves - probably the New College Edition), bwb_P9-BHZ-437 (1974), americanheritage00nyde (1970), bwb_W9-CSW-086 (1969, 1610 leaves = original 1969 ed.).",
-  "notes": "AHD is by far the most cited source (1906). Root order is alphabetical in all versions, so root-name lookup is reliable; page numbers can only be checked against a borrowed copy of the 1976 New College Edition."
+  "notes": "AHD is by far the most cited source (1906). Root order is alphabetical in all versions, so root-name lookup is reliable; page numbers can only be checked against a borrowed copy of the 1976 New College Edition. || RE-SEARCH 2026-09: no open scan of the New College Edition; three borrowable copies on archive.org (avoid the ~840-pp Dell abridgements, which lack the appendix). Local proxy remains AHD_watkins1985.txt."
  },
  "POK": {
   "title": "J. Pokorny, Indogermanisches etymologisches Wörterbuch, Bern 1959 (Band I, pp. 1-1183)",
@@ -606,34 +629,42 @@
   "title": "A. Walde & J. Pokorny, Vergleichendes Wörterbuch der indogermanischen Sprachen, 3 vols., Berlin/Leipzig 1927-32",
   "edition_found": "ONLY Band 3 (1932 Register/index volume) found open; Bände 1-2 (the dictionary proper) not found online",
   "kind": "archive_djvu",
-  "url": "https://archive.org/details/in.gov.ignca.20339",
+  "url": "https://archive.org/details/in.gov.ignca.20339 ; Band I (1930): https://archive.org/details/in.ernet.dli.2015.70244 (DLI; title misspelled 'Vwrgleichendes'; dup. in.gov.ignca.20337) ; Band II (1927): https://archive.org/details/in.ernet.dli.2015.106624 ; HathiTrust pdus full view mdp.39015066210405 / mdp.39015066210397 (browser only from this host)",
   "identifier": "in.gov.ignca.20339 (Band 3); also in.ernet.dli.2015.106625 (Band 3 duplicate)",
-  "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/WLD_band3.txt",
-  "page_offset": "Band 3: leaf = printed + 6. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/WLD_band3.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd1_1930_dli_70244_text.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd1_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd1_1930_dli_70244_djvu.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd2_1927_dli_106624_text.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd2_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/WLD/WLD_Bd2_1927_dli_106624_djvu.txt"
+  ],
+  "page_offset": "Band 3: leaf = printed + 6. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf> || Band I (WLD_Bd1_pages.txt, 887 leaves): printed = leaf(1-based) − 9 (leaf 801 = p.792). Band II (WLD_Bd2_pages.txt, 720 leaves): printed = leaf − 5 (leaf 701 = p.696).",
   "lookup_hint": "Band 3 is the index (Wortregister by language) - it maps a word to 'Band, page' in vols 1-2, so it can at least confirm that a word is treated at the cited WP volume/page. For the actual entry text, use Pokorny 1959 (POK), whose entries cite 'WP. I 177' etc. and are essentially a revision of WP.",
-  "notes": "Tried IA (several queries), Google Books API (quota exceeded / not full view), HathiTrust (blocks automated access, 403). Band 2 (1927) is US public domain; Band 1 (1930) became US PD in 2026, so HathiTrust full view may exist - check manually at https://catalog.hathitrust.org/Search/Home?lookfor=walde+pokorny+vergleichendes."
+  "notes": "Tried IA (several queries), Google Books API (quota exceeded / not full view), HathiTrust (blocks automated access, 403). Band 2 (1927) is US public domain; Band 1 (1930) became US PD in 2026, so HathiTrust full view may exist - check manually at https://catalog.hathitrust.org/Search/Home?lookfor=walde+pokorny+vergleichendes. || UPDATE 2026-09: Bände I and II obtained in full from the Digital Library of India scans on archive.org (open, OCR layer in the _text.pdf)."
  },
  "ISS": {
   "title": "H. W. Bailey, Indo-Scythian Studies: Khotanese Texts VI (Prolexis to the Book of Zambasta), Cambridge 1967",
   "edition_found": "not found; Bailey's Dictionary of Khotan Saka (1979) downloaded as the closest substitute",
-  "kind": "none",
-  "url": "https://archive.org/details/dictionary-of-khotan-saka",
+  "kind": "google_books_preview+archive_restricted",
+  "url": "https://books.google.com/books?id=4upthUgWo9YC (CUP 2009 reprint, partial preview) ; HathiTrust mdp.39015034317936 (v.6, search-only) ; archive.org khotanesetexts0103bail (vols I-III only, lending)",
   "identifier": "dictionary-of-khotan-saka (substitute); khotanesetexts0103bail is vols I-III, lending-only",
-  "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/ISS_alt_DKS.txt",
+  "local_file": null,
   "page_offset": "DKS: leaf = printed + 17..19 (e.g. leaf 158 = p.139). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Khotanese Texts VI itself is not online. Nourai's ISS page numbers cannot be checked directly; the Dictionary of Khotan Saka (headword at line start, Khotanese in transliteration, with 'Pok.' refs) covers the same etymological material and can verify the substance of a claim.",
-  "notes": "Tried IA ('indo-scythian', 'zambasta', 'khotanese texts'), Google Books API."
+  "notes": "Tried IA ('indo-scythian', 'zambasta', 'khotanese texts'), Google Books API. || RE-SEARCH 2026-09: preview only (Google Books partial view of the 2009 reprint — usable for spot checks); no open full text. A dokumen.pub upload exists (not used)."
  },
  "OEW": {
   "title": "J. T. Shipley, The Origins of English Words: A Discursive Dictionary of Indo-European Roots, Baltimore 1984",
   "edition_found": "1984 (lending-only)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/originsofenglish00jose",
+  "url": "https://archive.org/details/originsofenglish0000ship ; https://archive.org/details/originsofenglish00jose (both JHU 1984, borrowable) ; HathiTrust mdp.49015002910322 search-only ; Google ELSm5zUgP_wC no view",
   "identifier": "originsofenglish00jose (also originsofenglish0000ship)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending (djvu.txt returns 401/403). Entries are IE roots in alphabetical order; use IA's in-book search: https://archive.org/details/originsofenglish00jose?q=<root>",
-  "notes": "No open copy found."
+  "notes": "RE-SEARCH 2026-09: borrowable only (Internet Archive lending, 1 hr / 14 days with a free account)."
  },
  "HUB": {
   "title": "H. Hübschmann, Persische Studien, Strassburg 1895",
@@ -689,12 +720,12 @@
   "title": "E. Partridge, Origins: A Short Etymological Dictionary of Modern English, New York 1958",
   "edition_found": "1958 (lending-only copies)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/originsshortetym00part",
+  "url": "https://archive.org/details/originsshortetym00part (1958 1st ed.) ; originsetymologi0000part_j9t3 (4th ed. 1966) ; originsetymologi0000part (Routledge 2009) — all lending",
   "identifier": "originsshortetym00part (also originsshortetym0000unse, bwb_P8-AVM-445, 1958)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search https://archive.org/details/originsshortetym00part?q=<word>. Entries are alphabetical with numbered sub-senses.",
-  "notes": "djvu.txt returns 401/403 for all copies."
+  "notes": "RE-SEARCH 2026-09: 8 lending copies on archive.org, none open; HathiTrust search-only; Google no view. Borrow the 1958 copy to match Nourai's pagination."
  },
  "NYB": {
   "title": "H. S. Nyberg, A Manual of Pahlavi, Wiesbaden 1964-74 (Part II: Glossary, 1974)",
@@ -780,13 +811,13 @@
  "CEL": {
   "title": "S. K. Gupta, A Comparative Etymologic Lexicon of Common Indo-European Words, 6 vols., Milton MA 1997",
   "edition_found": null,
-  "kind": "none",
-  "url": null,
+  "kind": "catalog",
+  "url": "HathiTrust mdp.39015021572337 etc. (8-vol 1986- ed., search-only) ; Open Library records",
   "identifier": null,
   "local_file": null,
   "page_offset": null,
   "lookup_hint": null,
-  "notes": "Not on IA or Google Books full view; a privately published work with essentially no library holdings online."
+  "notes": "RE-SEARCH 2026-09: catalogue only; the 1997 Sverge Haus printing is not digitised anywhere found. HathiTrust full-text search (search-only volumes) can confirm whether a word occurs, via a browser."
  },
  "GPL": {
   "title": "J. T. Platts & G. S. A. Ranking, A Grammar of the Persian Language, Part I: Accidence, Oxford 1911",
@@ -802,13 +833,13 @@
  "MAG": {
   "title": "G. Widengren, Muhammad, the Apostle of God, and his Ascension (King and Saviour V), Uppsala 1955, ch. VIII 'Iranian elements in the Kuranic vocabulary'",
   "edition_found": null,
-  "kind": "none",
-  "url": "https://catalog.hathitrust.org/Record/001689168",
+  "kind": "archive_restricted",
+  "url": "https://archive.org/details/muhammadapostled0000geow (1955, lending) ; HathiTrust pst.000011130420 search-only",
   "identifier": null,
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "HathiTrust has it search-only (limited view); Google Books ids -r4rAAAAIAAJ / h20wAAAAYAAJ are snippet view.",
-  "notes": "No full text online (1955 Swedish publication, in copyright)."
+  "notes": "RE-SEARCH 2026-09: borrowable only; not in DiVA; Google no view."
  },
  "DEV": {
   "title": "L. M. Devic, Dictionnaire étymologique des mots français d'origine orientale, Paris 1876",
@@ -836,12 +867,15 @@
   "title": "C. Bartholomae, Zum altiranischen Wörterbuch: Nacharbeiten und Vorarbeiten (Beiheft zu IF XIX), Strassburg 1906",
   "edition_found": "1906 - Google Books record only",
   "kind": "google_books",
-  "url": "https://books.google.com/books?id=agDP0HdEssEC",
+  "url": "https://books.google.com/books?id=agDP0HdEssEC (full view; PDF downloaded) ; also 8q0zAQAAMAAJ (full view) ; HathiTrust coo.31924026891675 (pdus)",
   "identifier": "agDP0HdEssEC",
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ZAW/ZAW_bartholomae_1906_gb_agDP0HdEssEC.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ZAW/ZAW_pages.txt"
+  ],
+  "page_offset": "ZAW_pages.txt: 306 leaves; printed = leaf(1-based) − 24 (leaf 60 = p.36; leaf 20 = p.X).",
   "lookup_hint": "Google Books page reports 'Preview' from this location, but the 1906 book is public domain and is listed on Google Play Books, so full view may be available depending on region; try https://books.google.com/books?id=agDP0HdEssEC&pg=PA<page> . Not found on IA (searched 'zum altiranischen', 'nacharbeiten vorarbeiten'); HathiTrust blocked automated access.",
-  "notes": "Cited 8 times."
+  "notes": "Open full text obtained (Google Books full-view PDF with text layer)."
  },
  "SLW": {
   "title": "W. B. Henning, 'Sogdian Loan-Words in New Persian', BSOAS 10.1 (1939) pp. 93-106",
@@ -857,35 +891,40 @@
  "BLY": {
   "title": "H. W. Bailey, 'Hvatanica II' (glossary of Khotanese words), BSOAS 9.1 (1937) pp. 69-78",
   "edition_found": null,
-  "kind": "none",
-  "url": "https://www.jstor.org/action/doBasicSearch?Query=Bailey+Hvatanica+II",
+  "kind": "archive_djvu",
+  "url": "https://archive.org/details/bailey-studies-1930-1993 (Robert Bedrosian's open compilation \"Selected Writings of H. W. Bailey\"; Hvatanica II = PDF pp. 313-322)",
   "identifier": null,
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BLY/BLY_Hvatanica_II_BSOS9_1937_pp69-78.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BLY/BLY_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BLY/Bailey_Studies_1930-1993_bedrosian.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BLY/BLY_bailey_studies_pages.txt"
+  ],
+  "page_offset": "BLY_pages.txt: 11 leaves; printed = leaf(1-based) + 67 (leaf 2 = p.69 ... leaf 11 = p.78).",
   "lookup_hint": "JSTOR only (BSOAS 9, 1937-39). Not on IA. Bailey's Dictionary of Khotan Saka (ISS_alt_DKS.txt, open) supersedes Hvatanica for the same words.",
-  "notes": ""
+  "notes": "Open full text obtained (article extracted from the compilation; the whole 114 MB compilation with 80 Bailey articles is kept alongside and also covers Hvatanica I, III, IV and other Bailey papers)."
  },
  "KGW": {
   "title": "J. Ibrahim, Kulturgeschichtliche Wortforschung: Persisches Lehngut in europäischen Sprachen, Wiesbaden 1991",
   "edition_found": null,
-  "kind": "none",
-  "url": "https://books.google.com/books?id=OUtZZNSUi3cC",
+  "kind": "google_books_preview",
+  "url": "https://books.google.com/books?id=OUtZZNSUi3cC (partial preview) ; HathiTrust uc1.b3624504 search-only",
   "identifier": null,
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Google Books limited preview only (index pages).",
-  "notes": "In copyright (1991); no full text online."
+  "notes": "RE-SEARCH 2026-09: preview only (Google Books partial view usable for spot checks); no PDF on the author's site jamshid-ibrahim.net; purchase from Harrassowitz."
  },
  "SHP": {
   "title": "J. T. Shipley, Dictionary of Word Origins, New York 1945",
   "edition_found": "1945 (lending-only)",
-  "kind": "archive_restricted",
-  "url": "https://archive.org/details/dictionaryofword0000jose_n4p8",
+  "kind": "hathitrust_fullview+archive_restricted",
+  "url": "https://babel.hathitrust.org/cgi/pt?id=uc1.32106001576476 (1945 ed., rightsCode pd = FULL VIEW, catalog record 001441050) ; archive.org dictionaryofword00ship and 15 others = lending only",
   "identifier": "dictionaryofword0000jose_n4p8 (also dictionaryofword0000jose_n6p4, dictionaryofword0000ship_d0v5)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search ?q=<word>.",
-  "notes": "djvu.txt restricted."
+  "notes": "RE-SEARCH 2026-09: the 1945 edition is public-domain full view on HathiTrust (copyright evidently not renewed) — download the PDF in a browser (HathiTrust IP-blocks this host: curl/WebFetch get 403). Google: no view for 1945, partial preview for the 2021 Open Road reissue only."
  },
  "AID": {
   "title": "G. C. Whitworth, An Anglo-Indian Dictionary, London 1885",
@@ -902,12 +941,12 @@
   "title": "J. Speake, Oxford Dictionary of Foreign Words and Phrases, New York 1997",
   "edition_found": "1997 (lending-only)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/oxforddictionary00spea",
+  "url": "https://archive.org/details/oxforddictionary00spea ; isbn_9780965016070 (lending) ; Google Nvu17oLIQNgC = 2008 2nd ed. preview only",
   "identifier": "oxforddictionary00spea (also isbn_9780965016070)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search ?q=<word>.",
-  "notes": ""
+  "notes": "RE-SEARCH 2026-09: borrowable only."
  },
  "MPP": {
   "title": "W. B. Henning, 'Mitteliranisch', Handbuch der Orientalistik I.4.1, Leiden 1958 (pp. 20-130)",
@@ -924,12 +963,12 @@
   "title": "P. Davies, Roots: Family Histories of Familiar Words, McGraw-Hill 1981",
   "edition_found": "1981 (lending-only)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/rootsfamilyhisto0000davi",
+  "url": "https://archive.org/details/rootsfamilyhisto0000davi (lending)",
   "identifier": "rootsfamilyhisto0000davi",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search ?q=<word>.",
-  "notes": ""
+  "notes": "RE-SEARCH 2026-09: borrowable only."
  },
  "SPG": {
   "title": "F. Spiegel - title lost in the bibliography OCR (Table IV no. 93 is missing); Table III lists Spiegel with SPG and ARP. Best guesses: Die altpersischen Keilinschriften (2nd ed. 1881) or Eranische Alterthumskunde (1871-78)",
@@ -967,13 +1006,16 @@
  "TYL": {
   "title": "W. Taylor, Arabic Words in English (S.P.E. Tract XXXVIII), Oxford 1933",
   "edition_found": null,
-  "kind": "none",
-  "url": "https://books.google.com/books/about/Arabic_Words_in_English.html?id=OfHItAEACAAJ",
+  "kind": "hathitrust_fullview",
+  "url": "https://babel.hathitrust.org/cgi/pt?id=uc1.b4089843 (S.P.E. Tracts nos. 31-40 bound volume incl. Tract XXXVIII, rightsCode pdus = full view in the US; record 000519279) ; mdp.39015005310308 (nos. 36-58) search-only",
   "identifier": null,
-  "local_file": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/TYL/TYL_Taylor1934_LeedsStudiesInEnglish_ArabicWordsInBenJonson_pp44-50.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/TYL/TYL_Taylor1934_BenJonson_pages.txt"
+  ],
   "page_offset": null,
   "lookup_hint": "Not on IA (searched 'arabic words in english', 'society for pure english tract 38'); Google Books record has no view. Taylor's related 'Etymological List of Arabic Words in English' (1933) id QmBbAAAAIAAJ is snippet only.",
-  "notes": "5 citations."
+  "notes": "RE-SEARCH 2026-09: the tract itself is full view on HathiTrust (US) — download in a browser (host is IP-blocked). Only a related article (Taylor, 'Arabic Words in Ben Jonson', Leeds Studies in English 3, 1934) was downloadable here; it is NOT the tract. Not on archive.org/Google Books."
  },
  "LAM": {
   "title": "H. Lammens, Remarques sur les mots français dérivés de l'arabe, Beyrouth 1890",
@@ -1022,13 +1064,17 @@
  "TTS": {
   "title": "H. Vámbéry, Etymologisches Wörterbuch der turko-tatarischen Sprachen, Leipzig 1878 (repr. Osnabrück 1972)",
   "edition_found": null,
-  "kind": "none",
-  "url": null,
+  "kind": "archive_djvu",
+  "url": "https://archive.org/details/etymologischesw00vmuoft (Toronto scan; also Google/bub_gb copies)",
   "identifier": null,
-  "local_file": null,
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/TTS/TTS_vambery1878_uoft.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/TTS/TTS_pages.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/TTS/TTS_vambery1878_uoft_djvu.txt"
+  ],
+  "page_offset": "TTS_pages.txt: 253 leaves; printed page N = leaf N+30.",
   "lookup_hint": "Not searched exhaustively (3 citations); the 1878 original is public domain - try IA query 'vambery etymologisches wörterbuch turko-tatarischen' or Google Books.",
-  "notes": "Time-boxed; not located."
+  "notes": "Open full text (public domain). OCR rough (Fraktur + Turkic transliteration)."
  },
  "DOZ": {
   "title": "R. Dozy, Oosterlingen: Verklarende lijst der Nederlandsche woorden die uit het Arabisch, Hebreeuwsch, Chaldeeuwsch, Perzisch en Turksch afkomstig zijn, Leiden 1867",
@@ -1078,12 +1124,12 @@
   "title": "R. Claiborne, The Roots of English: A Reader's Handbook of Word Origins, New York 1989",
   "edition_found": "1989 (lending-only)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/rootsofenglish00clai",
+  "url": "https://archive.org/details/rootsofenglish00clai ; rootsofenglishre0000robe (lending)",
   "identifier": "rootsofenglish00clai (also rootsofenglishre0000robe)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search ?q=<root>.",
-  "notes": ""
+  "notes": "RE-SEARCH 2026-09: borrowable only."
  },
  "AFA": {
   "title": "S. Fraenkel, Die aramäischen Fremdwörter im Arabischen, Leiden 1886 (repr. Hildesheim 1962, same pagination)",
@@ -1100,23 +1146,25 @@
   "title": "A. J. Bliss, A Dictionary of Foreign Words and Phrases in Current English, 1966",
   "edition_found": "1966 (lending-only)",
   "kind": "archive_restricted",
-  "url": "https://archive.org/details/dictionaryoffore00blis",
+  "url": "https://archive.org/details/dictionaryoffore00blis (+8 other lending copies)",
   "identifier": "dictionaryoffore00blis (also dictionaryoffore0000alan, dictionaryoffore0000ajbl)",
   "local_file": null,
   "page_offset": null,
   "lookup_hint": "Borrow via IA lending; in-book search ?q=<word>.",
-  "notes": ""
+  "notes": "RE-SEARCH 2026-09: borrowable only."
  },
  "MFL": {
   "title": "I. M. Oranskij, Introduction to Iranian Philology (Persian translation by K. Keshavarz, Tehran 1979)",
   "edition_found": null,
-  "kind": "none",
-  "url": null,
+  "kind": "archive_fragment",
+  "url": "https://archive.org/details/galaxy_ub2007_yahoo_201511 (5-page image fragment of the Keshavarz translation only)",
   "identifier": null,
-  "local_file": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/MFL/MFL_ia_galaxy_ub2007.pdf"
+  ],
   "page_offset": null,
   "lookup_hint": "Persian translation not found on IA; the Russian original (Vvedenie v iranskuju filologiju, 1960/1988) and French translation (Les langues iraniennes, 1977) exist but with different pagination.",
-  "notes": "2 citations; Persian-language item - may be covered by the other agent."
+  "notes": "RE-SEARCH 2026-09: only a 5-page fragment; the full Persian translation (پیام 1358) not found on permitted platforms. The English translation (Oranskij, 'The Iranian Languages'/Old Iranian philology) may serve as a proxy."
  },
  "TLM": {
   "title": "H. C. Tolman, Ancient Persian Lexicon and the Texts of the Achaemenidan Inscriptions, Vanderbilt Oriental Series, 1908",
@@ -1232,12 +1280,16 @@
   "title": "A. Asbaghi, Persische Lehnwörter im Arabischen, Wiesbaden 1988",
   "edition_found": null,
   "kind": "archive_djvu",
-  "url": "https://catalog.hathitrust.org/Record/001080729",
+  "url": "https://archive.org/details/asbaghi-asya-persische-lehnworter-im-arabischen-1988-harrassowitz (user upload, unrestricted download)",
   "identifier": null,
-  "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/PLA/PLA_pages.txt",
-  "page_offset": null,
+  "local_file": [
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/PLA/PLA_asbaghi_1988_ia.pdf",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/PLA/PLA_asbaghi_1988_ia_djvu.txt",
+   "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/PLA/PLA_pages.txt"
+  ],
+  "page_offset": "301 leaves (pdftotext -layout, \\f-separated): printed page = leaf(1-based) − 15 (leaf 291 = p.276).",
   "lookup_hint": "HathiTrust search-only; Google Books id q_ErAAAAMAAJ snippet view; DDB has only the table of contents. No full text online. | For pages in a scanned volume use: python3 tools/ref_page.py PLA:<page> --image (renders + OCRs only that page; Read the PNG when OCR is poor)",
-  "notes": "68 citations - the most-cited item NOT available. Alphabetical by Arabic word; Nourai's page numbers could be sanity-checked with HathiTrust full-text search (https://babel.hathitrust.org/cgi/ls?q1=<word>) which returns page hits even for search-only items. | archive.org scan found; OCR text in incoming/PLA/PLA_pages.txt (form-feed paginated) - grep that first.",
+  "notes": "Open full text obtained. Alphabetical Arabic headwords with Persian/MP etyma; OCR fair (German + transliteration), Arabic script mostly garbled. Provenance: a user upload of an in-copyright 1988 Harrassowitz book — grey copy; publisher sells it (harrassowitz-verlag.de).",
   "scans": [
    {
     "file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/PLA/PLA_asbaghi_1988_ia.pdf",
