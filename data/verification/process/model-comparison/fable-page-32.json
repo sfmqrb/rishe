@@ -1,0 +1,113 @@
+{
+  "pdf_page": 32,
+  "book_page": 2,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ab 1, Ap 1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂ep- 'water, body of water; river' (Pokorny 2. ap- p.51, by-form ab- p.1) > Proto-Indo-Iranian *Hā́ps > Proto-Iranian *Hā́fš (Av. āfš/āp-, OP ap-, MP āb)",
+      "note": "Part 2 of the chart begun on pdf p.31. The root is real and correctly glossed (Pokorny IEW p.1 'ab- Wasser, Fluß' cross-referring to '2. ap- Wasser, Fluß' p.51; AHD ap-2 'water, river ... Persian ab'). What this part of the chart adds is a semantic branch 'water' -> 'lustre, glitter' (NP āb 2, ābrū, āftāb) -> Arabic ubbaha -> Persian obbohat. The first step (āb 'lustre' from the glitter of a water-surface, ābrū 'water of the face') is accepted; āftāb is not from āb but from Proto-Iranian *abi-tāpah (Cheung 2007); and the Arabic link is Addi Shir's (AFM p.7) isolated proposal that ubbaha is an Arabization of Persian āb + bahā — a claim no modern Arabic or Persian etymological source accepts (Lisān al-ʿArab, Wiktionary and Mo'in treat ubbaha as native Arabic from the root ʔ-b-h 'notice; be haughty'). So the chain is sound down to ābrū and breaks at node 3; node 4 (Persian obbohat < Arabic ubbaha) is a real Arabic loan but has nothing to do with the water root.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/Hā́fš",
+        "https://en.wiktionary.org/wiki/آب"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:1",
+          "status": "supports",
+          "note": "POK_01.txt (IEW p.1, leaf 9): 'ab- Wasser, Fluß. Lat. amnis ... air. ab ... cymr. afon ... Vgl. auch 2. ap- Wasser, Fluß'; the Iranian forms stand under 2. ap- p.51 (POK_full.txt 'Root ap-2 (*hap-2) water, river ... Avestan Nom. Sg. āfš, Akk. Sg. āpəm'). Same finding as for pdf p.31; Pokorny is still the standard reference."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Pahlavi",
+          "words": "âp",
+          "verdict": "confirmed",
+          "derivation": "Avestan āp- f. 'water' (nom. sg. āfš, acc. āpəm, gen. pl. apąm) and Old Persian ap- (loc. apiyā, DSf) continue Proto-Iranian *Hā́fš < PIIr. *Hā́ps < PIE *h₂ep- (Skt. āp-/āpaḥ, Hitt. ḫapa- 'river', Lat. amnis < *abnis). Middle Persian āb (Book Pahlavi ʾp̄, Manichaean ʾb; Pāzand āw) shows the Sasanian-era lenition of post-vocalic -p- to -b/-β; the label 'Avestan / Pahlavi' collapses the Old- and Middle-Iranian stages. Identical to node 1 of the Part-1 chart on pdf p.31.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/Hā́fš",
+            "https://en.wiktionary.org/wiki/آب"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:2",
+              "status": "supports",
+              "note": "KLN_1966.txt line 1142 (p.2, s.v. abdest): 'Pers. āb, water, is rel. to Avestic āp-, OI. āpaḥ (fem. pl.), water; see amnic and cp. the first element in abkari and the second element in doab and in julep.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "âb; âberŭ; âftâb",
+          "verdict": "disputed",
+          "derivation": "(a) āb 2 'lustre, glitter, brilliance' (as of a blade, a gem, a water-surface; hence 'honour'): Horn (Grundriss no. 3) listed it as a separate lemma 'āb Glanz' comparing Skt. ābhā- 'splendour' (ā- + bhā- 'shine'), but in his own footnote judged that comparison 'keineswegs sicher' and observed that from 'glittering water-surface' one very easily reaches 'Glanz'; Wiktionary today simply lists 'honour, reputation, standing' as a sense of āb 'water' (Etymology 1, PIE *h₂ep-), with no separate ābhā-etymology. So the arrow āp 'water' -> āb 'lustre' is the majority view (a semantic extension, no sound change involved): CONFIRMED. (b) ābrū 'honour, reputation', shortened from āb-e rūy 'water (= lustre) of the face', Kurdish avrû, loaned into Urdu/Hindi ābrū, Ottoman âb-ı rû, Azerbaijani abır, Armenian abuṙ; Horn already cited ab[rō under the same lemma: CONFIRMED. (c) āftāb 'sunshine, sun' < MP āftāb (Pahlavi ʾptʾb, Manichaean ʾpdʾb) < Proto-Iranian *abi-tāpah 'shining upon' = preverb abi- (> MP āf-/af-) + tāp- 'to shine, be hot' (Cheung 2007 s.v. tap; Wiktionary). The first element is the preverb, not āb 'water/lustre'; Nourai's gloss 'glitter shine' follows Horn's older grouping (Horn no. 3 lists af[tāb under āb 'Glanz'), which modern Iranian etymology has abandoned: DISPUTED. Worst verdict for the node is therefore 'disputed' (for āftāb only); the Ferdowsi quotation illustrates āb 'lustre/splendour' correctly (jahān gašt bā farr o āyīn o āb).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/آب",
+            "https://en.wiktionary.org/wiki/آبرو",
+            "https://en.wiktionary.org/wiki/آفتاب",
+            "https://en.wiktionary.org/wiki/आभा"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:1",
+              "status": "supports",
+              "note": "HRN.txt leaf 22 (Horn p.1, entry no. 3, OCR lines 464-473): '3. āb Glanz (Šahn. I S. 14 Vers 7), vergl. āb]rō, āb]tāb, āb]mend, Rōd]ābe, Suhr]āb, Mihr]āb, Ardā Vīr]āf, āf[tāb, phlv. āb; skr. ābhā- Glanz' with footnote 2: 'Die Zusammenstellung von np. āb und skr. ābhā- ist keineswegs sicher; von der Bedeutung (glitzernder) Wasserspiegel könnte man sehr leicht zu Glanz kommen' — i.e. Horn lists exactly Nourai's three words (āb 'Glanz', ābrū, āftāb) and himself suggests the 'water' origin Nourai draws; but Horn's inclusion of āftāb is superseded by Cheung's *abi-tāpah."
+            },
+            {
+              "ref": "AEF:2",
+              "status": "not_checked",
+              "note": "Khaleqi Motlaq, Asās-e Eshteqāq-e Fārsi — no online copy; it is the Persian translation of Horn, so its p.2 presumably reproduces Horn no. 3 quoted above."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "âb-bahâ; abboha",
+          "verdict": "disputed",
+          "derivation": "Arabic أُبَّهَة ubbaha 'grandeur, majesty, pomp' (also 'haughtiness': taʾabbaha ʿalā 'to behave proudly towards', Ruʾba: wa-ṭāmiḥin min naxwati t-taʾabbuhi) is real, but 'âb-bahâ' is not an Arabic word: it is the etymon Addi Shir (AFM p.7) proposed — 'al-ubbaha: al-ʿaẓama wa-l-bahja, muʿarrab āb bahā', i.e. Persian āb 'lustre' + bahā 'splendour'. That proposal is isolated and implausible: (i) Persian bahā 'splendour' is itself the Arabic loanword bahāʾ (root b-h-w), so the alleged Persian compound would be half Arabic; (ii) Lisān al-ʿArab treats ubbaha under the native root ʔ-b-h together with the verb abaha/abiha 'to notice, become aware' and taʾabbaha 'be proud', and the fuʿʿala shape (cf. سُكَّرة, أُبَّهة) is a regular Arabic nominal pattern; (iii) Wiktionary files أبهة under root ء ب ه with no foreign origin, and the Arabic Wikipedia list of Persian loanwords (muʿarrabāt fārisiyya) does not include it. Modern Arabic lexicography therefore gives no Persian etymology for ubbaha; Nourai's arrow rests solely on Addi Shir.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/أبهة",
+            "https://www.islamweb.net/ar/library/content/122/22/أبه"
+          ],
+          "ref_check": [
+            {
+              "ref": "AFM:7",
+              "status": "supports",
+              "note": "AFM_pages.txt leaf 8 (0-based ff-page; ≈ printed p.7, among the ab- headwords الأبزن, الأوباش, الأبر), OCR: '(الأبّهة) العظمة والبهجة معرب أب بآ [= آب بها] ... بالارامية ... بهي وبالفرنسية ...' — Addi Shir does say ubbaha 'grandeur, splendour' is an Arabization of āb + bahā, which is exactly Nourai's arrow; but this is Shir's own conjecture, not accepted elsewhere."
+            },
+            {
+              "ref": "FVF:11",
+              "status": "not_checked",
+              "note": "Emam Shushtari, Farhang-e vāžehā-ye fārsi dar zabān-e ʿarabi — only on noorlib/ketabnak behind a JS viewer/login; not readable here."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "obbohat",
+          "verdict": "confirmed",
+          "derivation": "Persian ابهت obbohat (classical ubbahat, Dari ubbohat, Tajik уббаҳат) 'grandeur, majesty, imposing presence; haughtiness' is a straightforward Arabic loan of ubbaha: the Arabic tāʾ marbūṭa of أُبَّهَة is taken over as -t (as in ḥikmat, raḥmat), and Iranian Persian lowers the short vowels u > o, hence obbohat; the chart's script «أبهت» with hamza is an Arabic-style spelling of what Persian normally writes ابهت. Dehkhoda (citing Vaṭvāṭ and Dastūr al-luġa) and Mo'in both tag it [ع.] 'Arabic'. The edge Arabic -> Persian is correct; only the further link back to āb 'water' (node 3) fails, so obbohat is not an Arabic-mediated round-trip of a Persian word.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/ابهت",
+            "https://abadis.ir/fatofa/ابهت/",
+            "https://vajehyab.com/?q=ابهت&d=moein"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:131",
+              "status": "supports",
+              "note": "Mo'in s.v. ابهت (vajehyab/abadis online text): '(اُ بُ هَّ) [ع.] (اِمص.) ۱- بزرگی، بزرگواری، عظمت. ۲- تکبر، نخوت.' — Arabic loan, gloss 'grandeur'; the 2-vol. abridgement (MON_part1.txt line 6560) reads the same: 'ابهت ... [ع.] (اِمص.) بزرگی، بزرگواری، شکوه، عظمت، بهجت، شادمانی، تکبر، نخوت'. Page 131 of the 6-vol. edition cannot be mapped online, but the entry supports the Arabic origin Nourai draws (it says nothing about āb + bahā)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

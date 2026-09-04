@@ -1,0 +1,125 @@
+{
+  "pdf_page": 32,
+  "book_page": 2,
+  "verified_by": "claude-sonnet-5",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ab 1, Ap 1",
+      "verdict": "plausible",
+      "modern_form": "PIE *h₂ep- 'water, body of water' (Mallory & Adams 1997 *h₂eb(h)-); Wiktionary's reconstruction unifies an Italo-Celtic branch (*h₂ph₃n-éh₂ > Lat. amnis, Proto-Celtic *abū) with the Proto-Indo-Iranian *Hā́ps branch (Av./Skt ap-). Pokorny (1959) instead splits these into two separate headwords: 'ab- \"Wasser, Fluß\"' (p.1, Italo-Celtic) and '2. äp- \"Wasser, Fluß\"' (p.51, Indo-Iranian/Greek, = AHD's ap-2, Pok. 51).",
+      "note": "Nourai's box groups 'Ab' and 'Ap' as one root and cites only POK:1, but the branch actually drawn in this chart (Avestan/Pahlavi āp > Persian āb) belongs to Pokorny's separate entry '2. äp-' on p.51 (AHD: 'ap-2. Water, river. Iranian ap- in Persian ab, water: JULEP. [Pok. 2. ap- 51.]'), not to the p.1 'ab-' entry (Latin amnis, Old Irish ab, Celtic river names). Pokorny's own p.1 entry does cross-reference the p.51 entry ('Vgl. auch 2. äp- \"Wasser, Fluß\"'), and modern IE comparative work (Mallory & Adams 1997, followed by Wiktionary's *h₂ep- reconstruction) treats both as suffixed extensions of one root, so grouping them is defensible, but the specific page citation POK:1 does not cover the Iranian material illustrated by the nodes below.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ep-",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C4%81%CC%81f%C5%A1"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:1",
+          "status": "partial",
+          "note": "POK_01.txt leaf 9 (printed p.1): \"ab- „Wasser, Fluß“. Lat. amnis ... air. ab Gen. ahae ... Vgl. auch 2. up- [sic, = äp-] „Wasser, Fluß“ und abö(n) 'Affe'.\" This p.1 entry is the Italo-Celtic 'river' word (Latin amnis, Old Irish ab); it only cross-references, but does not itself contain, the Indo-Iranian material (Skt/Av. ap-) that the chart's nodes actually illustrate. That material is Pokorny's separate entry '2. äp- „Wasser, Fluß“' at printed p.51 (POK_01.txt leaf 60): 'Ai. áp- f. Wasser ... av. Nom. Sg. āfš, Akk. Sg. āpąm ...'."
+        }
+      ],
+      "consulted": [
+        {"src": "POK", "where": "POK_01.txt leaf 60, printed p.51", "stance": "partial", "note": "'2. äp-, Wasser, Fluß': Ai. áp- f. 'water', av. Nom.Sg. āfš, Akk.Sg. āpąm — exactly the Iranian branch of the chart, but cited on p.51, not p.1 as Nourai's root box gives."},
+        {"src": "WLD", "where": "WLD_Bd1_1930_dli_70244_djvu.txt line 3149", "stance": "supports", "note": "\"2. ap- „Wasser, Fluß“.\" — Walde-Pokorny also lists this as a separate, independently numbered headword parallel to Pokorny, confirming the Indo-Iranian 'water' root is treated as distinct from the Italo-Celtic 'ab-' entry."},
+        {"src": "AHD", "where": "AHD_watkins1985.txt, entries ap-1/ap-2", "stance": "partial", "note": "\"ap-2, Water, river. Iranian ap- in Persian ab, water: JULEP. [Pok. 2. ap- 51.]\" — directly supports the Iranian branch of the chart, but its own citation is Pokorny p.51, confirming the p.1 citation on Nourai's root box is for a different (related) sub-entry."},
+        {"src": "IEC", "where": "IEC.txt line 223, entry 'abhmn-, abhnis'", "stance": "silent", "note": "Mann's entry for the Italo-Celtic river-word (Alb. āmë, Lat. amnis, Gaulish abono-, OIr. aba) lists no Indo-Iranian ap-/āp- cognates, i.e. keeps the two branches separate rather than uniting them under one PIE etymon."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Pahlavi",
+          "words": "âp",
+          "verdict": "confirmed",
+          "derivation": "PIE *h₂ep- 'water' > Proto-Indo-Iranian *Hā́ps > Proto-Iranian *Hā́fš. Old Avestan apō (acc.pl.); Younger Avestan ap- (nom./obl. stem), āfš (nom.sg., with the expected Iranian cluster development -ps- > -fš-); Old Persian api(y)a- (transferred to an i-stem, e.g. loc.sg. apiyā); Middle Persian (Manichaean) āb, Book Pahlavi ʾp' = āb, all continuing simple regular loss of the earlier consonant cluster with compensatory lengthening/simplification to -b-. Meaning 'water' is unbroken from PIE to New Persian āb.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C4%81%CC%81f%C5%A1",
+            "https://archive.org/details/a-comprehensive-etymological-dictionary-of-the-english-language-by-ernest-klein"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:2",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 14 (printed ~p.3-4, running head 'abasia—abiogenesis', within Klein's stated +/-2 leaf-to-page tolerance of the cited p.2): s.v. 'abdest': \"Pers. âbdâst, lit. 'water for the hand', fr. ab, 'water', and dast, 'hand'. Pers. ab, 'water', is rel. to Avestic âp-, OI. âpah (fem. pl.), 'water'; see amnic and cp. ... julep.\" — Klein explicitly states Persian āb is related to Avestan āp-, matching the node's claim."
+            }
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt line 7276 ff., s.v. 'ap-'", "stance": "supports", "note": "Bartholomae's Altiranisches Wörterbuch lists 'ap-' as the Avestan word for water with the expected paradigm (nom.pl. āpō, gen.pl. apąm etc.); no separate 'glitter' sense is given for this entry."},
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 658", "stance": "supports", "note": "\"ab [MYA<Amyʾ, PN)b, N.....] water.\" — MacKenzie's Concise Pahlavi Dictionary confirms Pahlavi ab/āb = 'water' only; no second homograph is listed."},
+            {"src": "KNT", "where": "grep for Old Persian api(y)a-", "stance": "silent", "note": "Kent's Old Persian lexicon entry for api(y)a- ('water') was not directly located in the local OCR text, so no direct quote could be pulled; treated as silent rather than checked."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "âb; âberŭ; âftâb",
+          "verdict": "disputed",
+          "derivation": "âb 'glitter, shine' (as distinct from âb 'water'): Nourai follows Horn (Grundriss, 1893, entry '3. äb Glanz', printed p.1), who compares Skt ābhā- 'splendor' and lists compounds âb-mand, Rūdābe, Sohrāb, Mehrāb, Ardāvirāf, âftâb as containing this 'shine' element (Phlv. āb, Skt ābhā- 'Glanz'). However Horn HIMSELF flags the equation as uncertain (footnote: 'Die Zusammenstellung von np. āb und skr. ābhā- ist keineswegs sicher; von der Bedeutung \"glitzernder Wasserspiegel\" könnte man sehr leicht zu \"Glanz\" kommen' — i.e. it is easy to get from 'glittering water-surface' to 'shine' as a plain semantic extension of āb 'water', without positing a separate etymon), and Hübschmann (Persische Studien, 1895) explicitly cites this uncertainty ('Da ab \"Glanz\" == skr. ābhā- H.[orn] 3 unsicher ist ...'). Modern Wiktionary and MacKenzie's Pahlavi dictionary give only one āb, 'water', with no second lexical entry for 'shine'. âberū(y) 'good reputation, honor' is transparently âb + rūy 'face' = 'water of the face' (paralleled by the Arabic idiom مَاء الوَجه māʾ al-wajh, lit. 'water of the face' = honor/shame), a semantic metaphor built on the literal 'water' sense rather than requiring a separate 'shine' root (though the metaphor of a shining/glowing face is not unreasonable either). âftâb 'sun(shine)': modern Iranology (Cheung, Etymological Dictionary of the Iranian Verb, 2007, and Wiktionary) reconstructs Middle Persian ʾptʾb (āftāb) from Proto-Iranian *abi-tāpah — i.e. the PREPOSITION *abi- 'upon, unto, towards' (cognate with Avestan aiwi-, Sanskrit api, Greek epi-, unrelated to āp 'water') + *tāpa- 'heat, glow' (from the verbal root tap- 'to be/become hot', NP tāftan/tāb-). So the modern analysis of the first element of āftāb is the preposition 'abi-/upon' plus 'heat', not āb 'water' or 'glitter' at all — the resemblance to āb is coincidental homophony of Iranian *abi- and *āp-.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/آب",
+            "https://en.wiktionary.org/wiki/آفتاب",
+            "https://en.wiktionary.org/wiki/آبرو"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:1",
+              "status": "partial",
+              "note": "HRN.txt lines 464-473 (printed p.1, entry no.3): \"3. äb 'Glanz' (Sahn. I S.14 Vers 7), vergl. ab[rö, ah[tah, äb[mend, Röd]äbe, Suhr]ab, Mihr]äb, Ardä VTr]af, af[täb, phlv. üb; skr. äbhä- 'Glanz'.\" Footnote: \"Die Zusammenstellung von np. ab und skr. abhä- ist keineswegs sicher; von der Bedeutung 'glitzernder Wasserspiegel' könnte man sehr leicht zu 'Glanz' kommen.\" Horn's own page supports the compounds Nourai lists but explicitly marks the Skt ābhā- equation, and by extension the idea of āb 'shine' as a separate root, as unproven."
+            },
+            {"ref": "AEF:2", "status": "not_checked", "note": "Khaleqi Motlaq's Asas-e Eshteqaq-e Farsi (Persian translation/expansion of Horn+Hübschmann) has no online copy and was not in the local corpus; per refs_online.json guidance it is proxied via HRN/HUB, both consulted above."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "HUB.txt line 6401", "stance": "contradicts", "note": "\"Da ab 'Glanz' == skr. abha- H.[orn] 3 unsicher ist, so ergiebt sich, dass ap. w nur vor r sicher zu np. b wird.\" — Hübschmann treats the āb='Glanz' equation as unconfirmed ('unsicher') and uses that very uncertainty as an argument elsewhere in his sound-law discussion; he does not endorse it as settled."},
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 658", "stance": "contradicts", "note": "Only one Pahlavi entry 'ab...water' is given; no second homograph meaning 'shine/glitter' appears in MacKenzie's Concise Pahlavi Dictionary."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt lines 24717-24720, root *tap-", "stance": "contradicts", "note": "\"NWIR: NP taftan/tab- 'to shine, burn' ... || (+ *abi-) NP āftāb 'sun(shine)'\" — Cheung derives NP āftāb from tap- 'to shine, burn' plus the prefix *abi- ('upon'), not from āb 'water/glitter'."},
+            {"src": "HRN", "where": "HRN.txt lines 456-459, entry no.2", "stance": "supports", "note": "Immediately preceding entry (no.2, also printed p.1): \"ab, âw 'Wasser'; ... ap. āp- 'Wasser'; aw. āp-; phlv. āp (pāz. āw); ai. āp-, kurd. āw ...\" — this is Horn's WATER entry (matching node #1); the 'Glanz' sense is a separately numbered, admittedly uncertain, homograph (entry no.3)."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "âb-bahâ; abboha",
+          "verdict": "disputed",
+          "derivation": "Nourai proposes that Arabic أبّهة/أُبَّهة (ubbuha/ubbaha 'pomp, majesty, grandeur') arose from a Persian-Arabic hybrid compound 'āb' (glitter) + 'bahā'' (Arabic 'splendor'), i.e. treating it as an Arabized borrowing of a Persian phrase. Modern Arabic lexicography does not support this: Wiktionary lists أبهة under the native triliteral root ء ب ه (ʔ-b-h), from the plain Arabic verb أَبَهَ/أَبِهَ (ʔabaha/ʔabiha) 'to pay attention, heed, take notice' (non-past يَأْبَهُ yaʔbahu); أُبَّهة is the augmented/intensive noun pattern of that root (gemination marking intensity: roughly 'that which makes one take notice' → pomp, ostentatious grandeur). This root (ء ب ه) is listed as entirely separate from ب ه و / ب ه ي, the root of بَهَاء (bahāʔ) 'splendor, beauty' (which Klein's Comprehensive Etymological Dictionary treats as the source of Persian 'bahā' splendor', via 'Bahaism' < Pers. bahā < Arab. bahāʔ — i.e. the borrowing runs Arabic→Persian for bahāʔ itself, not the reverse). There is no attested classical or modern source deriving أبهة from a Persian 'āb' + Arabic 'bahā'' compound; the resemblance between 'ubbuha' and 'āb-bahā' appears to be a folk/paronomastic etymology rather than an attested derivation.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/أبهة",
+            "https://en.wiktionary.org/wiki/بهاء",
+            "https://archive.org/details/a-comprehensive-etymological-dictionary-of-the-english-language-by-ernest-klein"
+          ],
+          "ref_check": [
+            {"ref": "AFM:7", "status": "not_found", "note": "AFM_pages.txt around leaf 13-17 (approx. printed pp.5-9 per the −8 leaf offset, transitioning from bāb al-alif to bāb al-bāʾ) was inspected but the Arabic-script OCR is too degraded (Syriac-looking mis-OCR of Arabic letters) to locate or confirm an entry for أبهة/عبهة at p.7; could not verify Nourai's claim against this source."},
+            {"ref": "FVF:11", "status": "not_checked", "note": "Emam Shushtari's Farhang-e Vazheha-ye Farsi dar Zaban-e Arabi has no local OCR text and is only available behind login/JS-gated viewers (noorlib.ir, ketabnak.com); could not be fetched."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt, s.v. 'Bahaism'", "stance": "contradicts", "note": "\"Bahaism, n. ... Formed with suff. -ism fr. Pers. baha, 'splendor', fr. Arab. bahā', of s.m.\" — Klein derives Persian 'bahā' FROM Arabic bahāʔ (opposite direction of loan from what a Persian-origin compound in Arabic 'ubbuha' would require), and gives no compound with āb."},
+            {"src": "FVQ", "where": "grep of FVQ.txt/FVQ_pages.txt", "stance": "silent", "note": "Jeffery's Foreign Vocabulary of the Qur'an (Quranic loanwords only) has no entry for أبهة/بهاء (neither word is Qur'anic vocabulary), so it is silent on this claim."},
+            {"src": "AFA (Fraenkel, Aramaic loans in Arabic)", "where": "grep of AFA.txt for 'bah'", "stance": "silent", "note": "No entry found relating أبهة or بهاء to an Aramaic substrate; silent."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "obbohat",
+          "verdict": "confirmed",
+          "derivation": "New Persian ابهت (conventionally vocalized ebhat/obhat/obbohat) 'grandeur, majesty, awe' is a straightforward Arabic loanword from أُبَّهة (ubbuha/ubbaha) 'pomp, majesty' (see node 3), following the common pattern of Arabic feminine nouns in -a(t) being borrowed into Persian with the historical tāʾ marbūṭa retained as -at/-et (cf. Ar. -a(t) > NP -at in many loans). Mo'in's Farhang-e Farsi (MON) explicitly tags the word's origin as Arabic, and the meaning given there ('bozorgi, bozorgvāri, azamat' = grandeur, magnificence; also 'tokabbor, nakhvat' = arrogance/pride) matches Nourai's gloss 'elegance/magnificence'. The Persian←Arabic borrowing direction for this specific word (node 3→node 4 edge) is correctly drawn and uncontroversial; the caveat is only about the deeper origin Nourai assigns to the Arabic word itself at node 3 (see there).",
+          "sources": [
+            "https://vajehyab.com/moein/ابهت"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:131",
+              "status": "supports",
+              "note": "MON_part1.txt line 6560, entry 'ابهت' (OCR-garbled as 'ابسهت: ۳۹ ال ابهت) [ع.]'), tagged [ع.] = Arabic origin. Cross-checked live at vajehyab.com/moein/ابهت (fetched 2026-09-04): \"ابهت ... [ع.] ۱- بزرگی، بزرگواری، عظمت؛ ۲- تکبر، نخوت\" (grandeur, magnificence; also arrogance/pride) — matches Nourai's gloss and Arabic-origin tag; exact page 131 of the printed 6-vol MON edition could not be independently confirmed since only the word-content (not original pagination) is available online, per refs_online.json's notes on MON's page numbers being unrecoverable online."
+            }
+          ],
+          "consulted": [
+            {"src": "MON", "where": "vajehyab.com/moein/ابهت (archived)", "stance": "supports", "note": "\"[ع.] ۱- بزرگی، بزرگواری، عظمت؛ ۲- تکبر، نخوت\" — confirms Arabic origin and the 'grandeur/magnificence' sense."},
+            {"src": "BQT", "where": "not located (Borhan-e Qate' not searched for this specific short entry given time budget)", "stance": "silent", "note": "Not checked; MON alone was sufficient to confirm the Arabic-origin tag matching Nourai's implied direction of borrowing."}
+          ]
+        }
+      ]
+    }
+  ]
+}
