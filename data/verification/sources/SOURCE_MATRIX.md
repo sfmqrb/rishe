@@ -1,6 +1,8 @@
 # Source matrix — which local books to grep for each kind of node
 
-All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_pages.txt` files, tagged `[pdf page N]`. Print one page with `awk 'BEGIN{RS="\f"} NR==<n>' file`. Grep several spellings (OCR of diacritics is noisy). Full titles: data/verification/sources/refs_online.json.
+All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_pages.txt` files, tagged `[pdf page N]`. Print one page with `awk 'BEGIN{RS="\f"} NR==<n>' file`. Grep several spellings (OCR of diacritics is noisy; Persian OCR is rough — try short substrings). Full titles, page offsets and what a cited number means: data/verification/sources/refs_online.json.
+
+ARY (Aryanpur) is alphabetical by Persian headword; grep the Persian word in ARY_pages.txt or the Latin-caps transliteration in ARY_latin_index_pages.txt, note the [pdf page N] tag, and quote from that page (printed page = pdf page + 1).
 
 
 ## Indo-European roots (any IE node, root boxes)
@@ -33,7 +35,9 @@ All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_p
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/LEW_1910.txt`
 - **LAT** — A. Ernout & A. Meillet, Dictionnaire étymologique de la langue latine, 3rd ed., Paris 1951
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/LAT.txt`
-- **ARY** — Manuchehr Aryanpur Kashani, Farhang-e Rishe-hā-ye Hend-o-Orupāyi-ye Zabān-e Fārsi (فرهنگ ریشه‌های هند و اروپای — (no local text yet)
+- **ARY** — Manuchehr Aryanpur Kashani, Farhang-e Rishe-hā-ye Hend-o-Orupāyi-ye Zabān-e Fārsi (فرهنگ ریشه‌های هند و اروپای
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ARY/ARY_latin_index_pages.txt`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ARY/ARY_pages.txt`
 
 ## Iranian: Avestan / Old Persian / Pahlavi / Sogdian / Khotanese / New Persian
 
@@ -68,7 +72,9 @@ All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_p
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v2_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_picofile.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_picofile.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_picofile.pdf`
 - **MON** — Mohammad Mo'in, Farhang-e Farsi (6 vols, Amir Kabir 1363/1984; vols 1–3 lexicon, vol 4 foreign compounds, vols
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/MON_part1.txt`
@@ -91,11 +97,15 @@ All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_p
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/ISS_alt_DKS.txt`
 - **AHM** — I. Gershevitch, The Avestan Hymn to Mithra, Cambridge 1959
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/AHM.txt`
-- **ARY** — Manuchehr Aryanpur Kashani, Farhang-e Rishe-hā-ye Hend-o-Orupāyi-ye Zabān-e Fārsi (فرهنگ ریشه‌های هند و اروپای — (no local text yet)
+- **ARY** — Manuchehr Aryanpur Kashani, Farhang-e Rishe-hā-ye Hend-o-Orupāyi-ye Zabān-e Fārsi (فرهنگ ریشه‌های هند و اروپای
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ARY/ARY_latin_index_pages.txt`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ARY/ARY_pages.txt`
 - **FFD** — Mohsen Abolghasemi, Fe'l-ha-ye Farsi-ye Dari, Qoqnus, Tehran 1374/1995
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/FFD/FFD_asmaneketab.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/FFD/FFD_pages.txt`
 - **IRN** — Bahram Farahvashi, Iranvij, Tehran University Press 1368/1989
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/IRN/IRN_eliteraturebook.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/IRN/IRN_pages.txt`
 - **AVG** — A. V. W. Jackson, An Avesta Grammar in Comparison with Sanskrit, Part I, Stuttgart 1892
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/AVG.txt`
 - **HID** — C. Bartholomae, Handbuch der altiranischen Dialekte, Leipzig 1883
@@ -165,7 +175,9 @@ All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_p
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/BQT_v2_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v3_picofile.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v4_picofile.pdf`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/BQT/BQT_v5_picofile.pdf`
 
 ## English / Romance / Germanic
@@ -212,6 +224,7 @@ All files are OCR text; pages are separated by form-feeds (`\f`) and, in the `_p
 - **LKT** — K. Lokotsch, Etymologisches Wörterbuch der europäischen Wörter orientalischen Ursprungs, Heidelberg 1927
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/LKT.txt`
 - **VIE** — M.A. Sajjadiyyeh, Vazheha-ye Irani dar Zaban-e Engelisi, Bonyad-e Neyshabur 1364/1985
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/VIE/VIE_pages.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/VIE/VIE_sajjadieh1364_parsianjoman.pdf`
 
 ## Sanskrit / Hindustani
