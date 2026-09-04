@@ -17,6 +17,23 @@
         "https://www.etymonline.com/word/*dheigh-",
         "https://starlingdb.org/cgi-bin/etymology.cgi?root=config&basename=%2Fdata%2Fie%2Fpokorny&text_recno=1208&single=1"
       ],
+      "ref_check": [
+        {
+          "ref": "POK:244",
+          "status": "supports",
+          "note": "POK_01.txt leaves 255-256 (IEW pp. 244-245), s.v. dheiĝh-: 'Lehm kneten und damit mauern oder bestreichen (Mauer, Wall; Töpferei; dann auch von anderweitigem Bilden); auch vom Teig kneten (Bäckerei)'; dheiĝho-s, dhoiĝho-s 'Gebilde, Wall' ... 'ai. dēhmi bestreiche ... dehī f. Wall, Damm, Aufwurf, av. pairi-daēzayeiti mauert ringsum ... uz-daēza- m. Aufhäufung, Wall, pairi-daēza- m. Umfriedigung (daraus gr. paradeisos), apers. didā Festung (aus *dizā-, Wurzelnom. auf -ā), npers. diz, dez ds.; ... gr. teichos n., toichos m. Mauer, Wand; ... lat. fingō ... figūra Bildung, Gestalt, Figur, fictiō ...; got. daigs m. Teig (*dhoighos), anord. deig, ags. dāg, ahd. teig ds.'"
+        },
+        {
+          "ref": "KNT:191",
+          "status": "supports",
+          "note": "KNT.txt leaf 214 (Kent p. 191): 'didā- sb. wall, stronghold, fortress: NPers. diz, pIE *dhiĝhā-, cf. Skt. dehī- wall, Gk. teichos, NEng. dike, ditch ... Cf. also paradayadām. didā nsf. DB 1.58; 2.39, 44; 3.61, 72; DSe 46; DSf 42. didām asf. DB 2.78; DSe 48; DSf 54.' Kent puts OP didā- under pIE *dhiĝhā- with Skt. dehī-, Gk. teichos."
+        },
+        {
+          "ref": "CEL3:203",
+          "status": "not_checked",
+          "note": "CEL3 is not in refs_online.json (no online copy located)."
+        }
+      ],
       "nodes": [
         {
           "id": 1,
@@ -30,6 +47,23 @@
             "https://en.wiktionary.org/wiki/دیوار",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos",
             "https://www.academia.edu/35394163/_SWIran_didā_fortress_walled_residence_in_Iranian_Toponymy_by_Garnik_Asatrain"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:133",
+              "status": "supports",
+              "note": "HRN.txt leaf 154 (Horn p. 133), No. 599: 'dīvār Mauer, Wand. ap. *deghavāra- (vergl. gr. teichos, osk. feíhúss). Nöldeke (mündliche Mitteilung), unter der Voraussetzung, dass die np. Grundform *dēvār lautete ...; kurd. LW. dīwār; wax. LW. dival, sar. delvūl Mauer, Wand, Umwallung.' Cf. No. 563 (leaf 146, p. 125): 'diz, dez Burg ... ap. didā Festung; aw. daēza-; phlv. d(i)z ... Ascoli's Erklärung von np. dīvār Mauer aus ap. *didavara- Stadtwall ist daher nicht wahrscheinlich'. Nourai's 'děğa-vâra' is Horn's *deghavāra-; his 'didâ' is Horn's/Kent's ap. didā. (Horn himself, No. 563, rejects deriving dīvār from *dida-vara-.)"
+            },
+            {
+              "ref": "KNT:191",
+              "status": "supports",
+              "note": "KNT.txt leaf 214 (Kent p. 191): 'didā- sb. wall, stronghold, fortress: NPers. diz, pIE *dhiĝhā-, cf. Skt. dehī- wall, Gk. teichos, NEng. dike, ditch ... Cf. also paradayadām. didā nsf. DB 1.58; 2.39, 44; 3.61, 72; DSe 46; DSf 42. didām asf. DB 2.78; DSe 48; DSf 54.'"
+            },
+            {
+              "ref": "IEC:191",
+              "status": "partial",
+              "note": "IEC.txt leaf 112 (Mann cols ~193-194), s.v. dheigh-: 'shape, earth up; form, wall ... Cf. dhoigh- Skt. dehah shape, body; Av. (pairi-)daēzō surrounding fence beside diz- earth up, cover; LW in Arm. dez mound, dizem pile up; Gk. teikhos outer wall, dam; Osc. feíhúss, acc.pl. walls; Go. digan (z-gde) shape, mould ... For Cz. díže kneading-trough and OHG teic, E dough, etc. see dhoiĝh-.' Mann gives the root and Av. (pairi-)daēza- but does not list Old Persian didā- or *daiga-vāra-."
+            }
           ]
         },
         {
@@ -41,6 +75,13 @@
           "sources": [
             "https://en.wiktionary.org/wiki/دیوار",
             "https://en.wiktionary.org/wiki/dywʾl"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:918",
+              "status": "not_found",
+              "note": "BQT_v2_pages.txt leaves 375-378 (printed pp. ~918-921) are the دیو- entries, but the دیوار headword and Mo'in's footnote are not recoverable from the OCR (only the following entry 'دیوال = با لام، بر وزن و معنی دیوار است، چه در فارسی را و لام بهم تبدیل می‌یابند' on leaf 378 is legible). Mo'in's online text (vajehyab) tags دیوار [په.] = Pahlavi (refs_online.json note)."
+            }
           ]
         },
         {
@@ -52,6 +93,13 @@
           "sources": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰeyǵʰ-",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:151",
+              "status": "supports",
+              "note": "SOD_pages.txt leaf 216 (Gharib p. 151), entry 3825: 'δyz' M — δiza (dyz') < OP didā, f. n., stronghold, fort. BBB f 57; STii 3.27'; entry 3826 'dyz' C = δyz''. Gharib derives Sogdian δyz' 'stronghold, fort' from OP didā — exactly the arrow drawn from node #1."
+            }
           ]
         },
         {
@@ -63,6 +111,13 @@
           "sources": [
             "https://en.wiktionary.org/wiki/𐬛𐬀𐬉𐬰𐬀",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:244",
+              "status": "supports",
+              "note": "POK_01.txt leaves 255-256 (IEW pp. 244-245), s.v. dheiĝh-: 'Lehm kneten und damit mauern oder bestreichen (Mauer, Wall; Töpferei; dann auch von anderweitigem Bilden); auch vom Teig kneten (Bäckerei)'; dheiĝho-s, dhoiĝho-s 'Gebilde, Wall' ... 'ai. dēhmi bestreiche ... dehī f. Wall, Damm, Aufwurf, av. pairi-daēzayeiti mauert ringsum ... uz-daēza- m. Aufhäufung, Wall, pairi-daēza- m. Umfriedigung (daraus gr. paradeisos), apers. didā Festung (aus *dizā-, Wurzelnom. auf -ā), npers. diz, dez ds.; ... gr. teichos n., toichos m. Mauer, Wand; ... lat. fingō ... figūra Bildung, Gestalt, Figur, fictiō ...; got. daigs m. Teig (*dhoighos), anord. deig, ags. dāg, ahd. teig ds.' Pokorny: 'uz-daēza- m. Aufhäufung, Wall, pairi-daēza- m. Umfriedigung' under dheiĝh-."
+            }
           ]
         },
         {
@@ -75,6 +130,18 @@
             "https://en.wiktionary.org/wiki/دژ",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰeyǵʰ-",
             "https://en.wikipedia.org/wiki/Dezful"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:851",
+              "status": "partial",
+              "note": "BQT_v2_pages.txt leaf 311 (printed p. ~854; Nourai 851): 'دژ = بکسر اول و سکون ثانی، قلعه و حصار باشد' with footnote marker ۱; Mo'in's footnote (Pahlavi/Avestan forms) is not legible in the OCR of this leaf."
+            },
+            {
+              "ref": "MON5:528",
+              "status": "not_checked",
+              "note": "MON vol. 5 (a'lam / proper names) is not online; vajehyab/abadis carry only the lexicon volumes."
+            }
           ]
         },
         {
@@ -88,6 +155,13 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
             "https://en.wiktionary.org/wiki/𐎱𐎼𐎭𐎹𐎭𐎠𐎶",
             "https://www.iranicaonline.org/articles/garden-i/"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:244",
+              "status": "supports",
+              "note": "POK_01.txt leaves 255-256 (IEW pp. 244-245), s.v. dheiĝh-: 'Lehm kneten und damit mauern oder bestreichen (Mauer, Wall; Töpferei; dann auch von anderweitigem Bilden); auch vom Teig kneten (Bäckerei)'; dheiĝho-s, dhoiĝho-s 'Gebilde, Wall' ... 'ai. dēhmi bestreiche ... dehī f. Wall, Damm, Aufwurf, av. pairi-daēzayeiti mauert ringsum ... uz-daēza- m. Aufhäufung, Wall, pairi-daēza- m. Umfriedigung (daraus gr. paradeisos), apers. didā Festung (aus *dizā-, Wurzelnom. auf -ā), npers. diz, dez ds.; ... gr. teichos n., toichos m. Mauer, Wand; ... lat. fingō ... figūra Bildung, Gestalt, Figur, fictiō ...; got. daigs m. Teig (*dhoighos), anord. deig, ags. dāg, ahd. teig ds.' 'pairi-daēza- m. Umfriedigung (daraus gr. paradeisos)'."
+            }
           ]
         },
         {
@@ -99,7 +173,20 @@
           "sources": [
             "https://en.wiktionary.org/wiki/پالیز",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
-            "https://en.wiktionary.org/wiki/جالیز"
+            "https://en.wiktionary.org/wiki/جالیز",
+            "https://vajehyab.com/?q=پالیز&d=moein"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:359",
+              "status": "partial",
+              "note": "BQT_v1_pages.txt leaf 581 (printed p. ~361; Nourai 359): 'پالیز ۱ - بر وزن کاریز، بمعنی باغ و بوستان و کشتزار باشد عموماً و خربزه‌زار و خیارزار و هندوانه‌زار را گویند خصوصاً'; Mo'in's etymological footnote ۱ is not legible in the OCR. The gloss (garden, melon field) matches; the derivation from pairi-daēza- is in Mo'in's note, which the OCR does not preserve."
+            },
+            {
+              "ref": "MON:680",
+              "status": "partial",
+              "note": "vajehyab.com (Mo'in) s.v. پالیز: '(اِ.) ۱- باغ، بوستان. ۲- کشتزار. ۳- زمینی که در آن خربزه، خیار و مانند آن بکارند' — meaning confirmed; the online text carries no origin tag or Avestan form for this entry. Archived https://vajehyab.com/?q=پالیز&d=moein."
+            }
           ]
         },
         {
@@ -113,6 +200,13 @@
             "https://en.wiktionary.org/wiki/فردوس",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
             "https://en.wiktionary.org/wiki/παράδεισος"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1455",
+              "status": "not_checked",
+              "note": "Borhan-e Qate' (Mo'in ed.) vols 3-5 are not online in full text (only vols 1-2 on archive.org)."
+            }
           ]
         },
         {
@@ -125,7 +219,15 @@
             "https://en.wiktionary.org/wiki/παράδεισος",
             "https://www.etymonline.com/word/paradise",
             "https://www.iranicaonline.org/articles/garden-i/",
-            "https://www.balashon.com/2007/12/pardes-and-paradise.html"
+            "https://www.balashon.com/2007/12/pardes-and-paradise.html",
+            "https://ahdictionary.com/word/search.html?q=paradise"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:950",
+              "status": "supports",
+              "note": "AHD online (archived) s.v. paradise: '[Middle English paradis, from Old French, from Late Latin paradīsus, from Greek paradeisos, garden, enclosed park, paradise, from Avestan pairidaēza-, enclosure, park : pairi-, around; see per1 ... + daēza-, wall; see dheigh- ...]'. Nourai's AHD:950 is the 1976 page of this same entry."
+            }
           ]
         },
         {
@@ -136,7 +238,15 @@
           "derivation": "Greek parádeisos > Late Latin paradīsus 'park; garden of Eden; abode of the blessed' > Old French paradis (11th c.) > late Old English/Middle English paradis (c. 1200 for the Christian heaven; c. 1300 'place of bliss'). Uncontroversial chain (Etymonline, AHD).",
           "sources": [
             "https://www.etymonline.com/word/paradise",
-            "https://en.wiktionary.org/wiki/παράδεισος"
+            "https://en.wiktionary.org/wiki/παράδεισος",
+            "https://ahdictionary.com/word/search.html?q=paradise"
+          ],
+          "ref_check": [
+            {
+              "ref": "none",
+              "status": "not_checked",
+              "note": "Nourai cites no reference for this node. The AHD paradise entry checked at node #9 (archived https://ahdictionary.com/word/search.html?q=paradise) gives 'Middle English paradis, from Old French, from Late Latin paradīsus, from Greek paradeisos'."
+            }
           ]
         },
         {
@@ -148,6 +258,18 @@
           "sources": [
             "https://en.wiktionary.org/wiki/دیگ",
             "https://archive.org/details/persischestudie00hbgoog"
+          ],
+          "ref_check": [
+            {
+              "ref": "HUB:65",
+              "status": "partial",
+              "note": "HUB.txt leaf 75 (Hübschmann p. 65), No. 594: 'Wenn dēz, dēza Kochtopf zu got. deigan kneten, aus Thon formen (Wzl. dheigh) gehört, ist es verwandt mit Nr. 563 diz, dēz Burg. Ob auch dēg Kochtopf dazu gehört, ist fraglich, da 1) idg. dhigh durch skr. dēgdhi, digdha- nicht gesichert ist und 2) idg. dhoigho- im Neup. zu *dēy werden müsste. Np. dēg (afgh. LW. dēg Kessel) setzt ap. *daika- voraus. Phl. dēg Kessel (Gl. and Ind. 288) kann eine junge Form sein.' No. 599 (same page): 'Besser *daidavara- (Festungsmauer) als *daigavara- anzusetzen ... Falls dīvār (mit ī) die ursprüngliche Form ist ..., wäre dīvār über *diyvār = *did-vār auf ap. *dida-vara- zurückzuführen. Alles unsicher.' Hübschmann does posit ap. *daika- for np. dēg (Nourai's 'daika'), but he explicitly doubts that dēg belongs to the root dheigh- ('ist fraglich')."
+            },
+            {
+              "ref": "KLN:469",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 256 (printed pp. 468-469), s.v. 'dixie, dixy' (mess tin): 'Hind. degchī, a small kettle, fr. Pers. degcha, dimin. of deg, pot, which is rel. to Pahlavi dēg, pot, Arm. dez, heap, and to OI. dihmi, I smear, anoint, fr. I.-E. base *dheigh-, *dhoigh-, *dhigh-, to form out of clay, to knead, form. See dough and cp. next word [dizdar, fr. Pers. diz, castle].' Klein derives Pers. deg 'pot' (Pahlavi dēg) from I.-E. *dheigh- 'to form out of clay' — the arrow from the root; he does not give an Old Persian form."
+            }
           ]
         },
         {
@@ -159,6 +281,18 @@
           "sources": [
             "https://en.wiktionary.org/wiki/دیگ",
             "https://en.wiktionary.org/wiki/دیزی"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:912,914",
+              "status": "partial",
+              "note": "BQT_v2_pages.txt leaves 371-372 (printed pp. ~914-915): the دیگ entry area; leaf 371 footnote cites 'Henning, Two Central Asian words, Hertford 1946' and leaf 372 mentions «دیگه» and دیزی (فرهنگ اسدی); Mo'in's Latin-script Pahlavi/Old Persian forms are not legible in the OCR."
+            },
+            {
+              "ref": "KLN:469",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 256 (printed pp. 468-469), s.v. 'dixie, dixy' (mess tin): 'Hind. degchī, a small kettle, fr. Pers. degcha, dimin. of deg, pot, which is rel. to Pahlavi dēg, pot, Arm. dez, heap, and to OI. dihmi, I smear, anoint, fr. I.-E. base *dheigh-, *dhoigh-, *dhigh-, to form out of clay, to knead, form. See dough and cp. next word [dizdar, fr. Pers. diz, castle].'"
+            }
           ]
         },
         {
@@ -171,6 +305,13 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/daigaz",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/daigijǭ",
             "https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=dheigh-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 377 s.v. dheigh-: 'To form, build. 1. Germanic *daigjōn in Old English dǣge, bread kneader: DAIRY. 2. Germanic *-dig- in Old English compound hlǣfdige, mistress of a household (< bread kneader; hlāf, bread, loaf): LADY. 3. Extended o-grade form *dhoigho- in Germanic *daigaz in: a. Old English dāg, dough: DOUGH ... 4. Suffixed zero-grade form *dhigh-ūrā, in Latin figūra, form, shape (< result of kneading): FIGURE ... 5. Nasalized zero-grade form *dhi-n-gh- in Latin fingere, to shape: FEIGN, FICTION, FIGMENT; EFFIGY ... 7. Suffixed o-grade form *dhoigh-o- in Avestan daēza-, wall (originally made of clay or mud bricks): PARADISE. [Pok. dheigh- 244.]' (same list online at ahdictionary.com/word/indoeurop.html#dheigh-). Germanic *daigaz 'dough' and OE dǣge 'bread kneader' (DAIRY), hlǣfdige (LADY) are items 1-3."
+            }
           ]
         },
         {
@@ -184,6 +325,13 @@
             "https://www.etymonline.com/word/lady",
             "https://www.etymonline.com/word/dairy",
             "https://en.wiktionary.org/wiki/dough"
+          ],
+          "ref_check": [
+            {
+              "ref": "none",
+              "status": "not_checked",
+              "note": "Nourai cites no reference for this node. Covered by the AHD dheigh- entry checked at node #13: DAIRY, LADY, DOUGH."
+            }
           ]
         },
         {
@@ -196,6 +344,13 @@
             "https://en.wiktionary.org/wiki/figura#Latin",
             "https://en.wiktionary.org/wiki/fingo#Latin",
             "https://www.etymonline.com/word/figure"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 377 s.v. dheigh-: 'To form, build. 1. Germanic *daigjōn in Old English dǣge, bread kneader: DAIRY. 2. Germanic *-dig- in Old English compound hlǣfdige, mistress of a household (< bread kneader; hlāf, bread, loaf): LADY. 3. Extended o-grade form *dhoigho- in Germanic *daigaz in: a. Old English dāg, dough: DOUGH ... 4. Suffixed zero-grade form *dhigh-ūrā, in Latin figūra, form, shape (< result of kneading): FIGURE ... 5. Nasalized zero-grade form *dhi-n-gh- in Latin fingere, to shape: FEIGN, FICTION, FIGMENT; EFFIGY ... 7. Suffixed o-grade form *dhoigh-o- in Avestan daēza-, wall (originally made of clay or mud bricks): PARADISE. [Pok. dheigh- 244.]' (same list online at ahdictionary.com/word/indoeurop.html#dheigh-). Item 4: '*dhigh-ūrā, in Latin figūra, form, shape (< result of kneading): FIGURE'."
+            }
           ]
         },
         {
@@ -208,6 +363,13 @@
             "https://www.etymonline.com/word/figure",
             "https://www.etymonline.com/word/fiction",
             "https://www.etymonline.com/word/*dheigh-"
+          ],
+          "ref_check": [
+            {
+              "ref": "none",
+              "status": "not_checked",
+              "note": "Nourai cites no reference for this node. Covered by the AHD dheigh- entry checked at node #15: FIGURE; FICTION (item 5, Latin fingere)."
+            }
           ]
         }
       ]
