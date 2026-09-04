@@ -305,6 +305,8 @@
   #refpop[hidden] { display: none; }
   #refpop .rp-code { font-weight: 700; letter-spacing: .08em; color: var(--accent); }
   #refpop .rp-title { font-family: var(--serif, inherit); font-size: 14px; margin: 3px 0 6px; }
+  html[lang="fa"] #refpop .rp-title { direction: rtl; text-align: right; font-family: var(--fa); }
+  .vbadge, .vcount, .rtag { cursor: help; }
   #refpop .rp-row { color: var(--muted); margin-top: 3px; }
   #refpop .rp-row b { color: var(--ink); font-weight: 600; }
   #refpop a { color: var(--accent); }
@@ -821,6 +823,22 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     vHow: ["How this derives", "چگونگی اشتقاق"], vSources: ["Sources", "منابع"],
     vRefs: ["Nourai’s cited references, checked", "بررسی ارجاع‌های نورایی"],
     vConsulted: ["Other references consulted", "مراجع دیگرِ بررسی‌شده"],
+    h_confirmed: ["Confirmed: independent modern sources (Wiktionary with its citations, Etymonline, the AHD root appendix, Pokorny, Cheung, MacKenzie, Iranica…) agree with Nourai’s arrow — same origin, same route. The panel below the box spells out the forms and sound changes.",
+                  "تأییدشده: منابع مستقل امروزی (ویکی‌واژه با ارجاع‌هایش، Etymonline، پیوست ریشه‌های AHD، پوکورنی، چونگ، مکنزی، ایرانیکا…) با پیکان نورایی هم‌داستان‌اند — همان خاستگاه، همان مسیر. در پنجرهٔ زیر جعبه صورت‌ها و دگرگونی‌های آوایی آمده است."],
+    h_plausible: ["Plausible: the word and its ultimate origin are right, but the picture is not identical — the arrow is simplified (e.g. a round trip through Arabic drawn as a straight line), or the derivation is accepted by some scholars and not others. The panel says exactly where it differs.",
+                  "محتمل: واژه و خاستگاه نهایی درست است اما تصویر یکسان نیست — پیکان ساده‌سازی شده (مثلاً رفت‌وبرگشتی از راه عربی که خطی مستقیم کشیده شده)، یا اشتقاق را برخی پژوهشگران می‌پذیرند و برخی نه. پنجره می‌گوید تفاوت دقیقاً کجاست."],
+    h_disputed: ["Disputed: modern scholarship prefers a different origin for this word, or the two words are unrelated, or the arrow points the wrong way (e.g. a word drawn as Arabic → Persian that actually went Persian → Arabic). The panel gives the modern view and its sources.",
+                 "مورد اختلاف: پژوهش امروزی خاستگاه دیگری برای این واژه ترجیح می‌دهد، یا دو واژه بی‌پیوندند، یا جهت پیکان وارونه است (مثلاً واژه‌ای که عربی ← فارسی کشیده شده ولی در واقع فارسی ← عربی رفته). پنجره دیدگاه امروزی و منابعش را می‌دهد."],
+    h_unverified: ["Unverified: no independent source could be found either way, so the claim rests on Nourai alone. The panel lists what was searched.",
+                   "بررسی‌نشده: هیچ منبع مستقلی له یا علیه یافت نشد؛ ادعا تنها بر نورایی تکیه دارد. پنجره می‌گوید چه چیزهایی جست‌وجو شد."],
+    h_transcription_suspect: ["Transcription?: this is not about Nourai’s claim. The form in the data looks like a misreading of the scanned page (a letter swapped or misread, an impossible spelling), so the book probably prints something else. The panel says what the book most likely says. Check it with “View scanned page”, then fix the data.",
+                              "احتمال خطای نسخه‌برداری: این دربارهٔ ادعای نورایی نیست. صورتِ ثبت‌شده در داده به بدخوانیِ صفحهٔ اسکن‌شده می‌ماند (حرفی جابه‌جا یا بدخوانده، املایی ناممکن)، پس کتاب احتمالاً چیز دیگری چاپ کرده. پنجره می‌گوید کتاب به‌احتمال چه می‌گوید. با «دیدن صفحهٔ اسکن‌شده» بسنجید و داده را اصلاح کنید."],
+    h_supports: ["Supports: the page Nourai cites was opened and says what his arrow says. The quoted phrase and its location follow.", "تأیید می‌کند: صفحه‌ای که نورایی به آن ارجاع داده باز شد و همان چیزی را می‌گوید که پیکان او می‌گوید. عبارت نقل‌شده و جای آن در ادامه آمده."],
+    h_partial: ["Partial: the cited page has the word, but with a looser or somewhat different derivation than the arrow drawn.", "تا حدی: صفحهٔ ارجاع‌شده واژه را دارد، اما با اشتقاقی سست‌تر یا اندکی متفاوت از پیکانِ کشیده‌شده."],
+    h_contradicts: ["Contradicts: the page Nourai cites says something else — often he cites it precisely as the dissenting view in his own footnote.", "نقض می‌کند: صفحه‌ای که نورایی ارجاع داده چیز دیگری می‌گوید — اغلب او خودش آن را به‌عنوان دیدگاه مخالف در پانوشت آورده است."],
+    h_not_found: ["Not found: the reference is on file, but the entry or page could not be located (a page-number slip, or unreadable OCR of that page).", "یافت نشد: مرجع در دسترس است، اما مدخل یا صفحه پیدا نشد (لغزش در شمارهٔ صفحه، یا OCR ناخوانای آن صفحه)."],
+    h_not_checked: ["Not checked: no copy of this reference is available online or on file, so the citation could not be opened.", "بررسی نشد: از این مرجع نسخه‌ای برخط یا در دسترس نیست، پس ارجاع باز نشد."],
+    h_silent: ["Silent: this book was searched for the word and has nothing about it.", "خاموش: این کتاب برای واژه جست‌وجو شد و چیزی دربارهٔ آن ندارد."],
     rpMeans: ["The number means", "معنای شماره"], rpVolume: ["volume", "جلد"], rpOffset: ["Page mapping", "نگاشت صفحه"],
     rpRead: ["Read it", "خواندن"], rpAccess: ["Access", "دسترسی"],
     rk_archive_djvu: ["open full text on archive.org", "متن کامل آزاد در archive.org"],
@@ -1291,7 +1309,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
   const REFS = (window.ETYM_DATA && window.ETYM_DATA.refs) || {};
   const VORDER = ["disputed", "transcription_suspect", "plausible", "unverified", "confirmed"];
   function vLbl(v) { return t("v_" + v); }
-  function vBadge(v) { return v ? '<span class="vbadge" style="--vc:var(--v-' + esc(v) + ')">' + esc(vLbl(v)) + "</span>" : ""; }
+  function vBadge(v) { return v ? '<span class="vbadge" tabindex="0" data-help="h_' + esc(v) + '" style="--vc:var(--v-' + esc(v) + ')">' + esc(vLbl(v)) + "</span>" : ""; }
   function refsHtml(str) {
     return esc(str).split(/(;\s*|,\s*)/).map(part => {
       const m = /^([A-Z]+)(\d*):?(.*)$/.exec(part.trim());
@@ -1330,18 +1348,26 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     $refpop.style.left = x + "px"; $refpop.style.top = y + "px";
   }
   function hideRefPop() { $refpop.hidden = true; }
+  function showHelpPop(el) {
+    const txt = UI[el.dataset.help]; if (!txt) return;
+    $refpop.innerHTML = '<div class="rp-title">' + esc(txt[isFa() ? 1 : 0]) + "</div>"; $refpop.hidden = false;
+    const b = el.getBoundingClientRect(), pw = $refpop.offsetWidth, ph = $refpop.offsetHeight;
+    let x = Math.min(Math.max(8, b.left), window.innerWidth - pw - 8);
+    let y = b.bottom + 6; if (y + ph > window.innerHeight - 8) y = Math.max(8, b.top - ph - 6);
+    $refpop.style.left = x + "px"; $refpop.style.top = y + "px";
+  }
   document.addEventListener("mouseover", ev => {
-    const el = ev.target.closest && ev.target.closest(".refab[data-ref]");
-    if (el) { clearTimeout(refPopTimer); showRefPop(el); }
+    const el = ev.target.closest && ev.target.closest(".refab[data-ref], [data-help]");
+    if (el) { clearTimeout(refPopTimer); el.dataset.help ? showHelpPop(el) : showRefPop(el); }
   });
   document.addEventListener("mouseout", ev => {
-    const el = ev.target.closest && ev.target.closest(".refab[data-ref]");
+    const el = ev.target.closest && ev.target.closest(".refab[data-ref], [data-help]");
     if (el) { refPopTimer = setTimeout(() => { if (!$refpop.matches(":hover")) hideRefPop(); }, 250); }
   });
   $refpop.addEventListener("mouseleave", () => { refPopTimer = setTimeout(hideRefPop, 200); });
   $refpop.addEventListener("mouseenter", () => clearTimeout(refPopTimer));
-  document.addEventListener("focusin", ev => { const el = ev.target.closest && ev.target.closest(".refab[data-ref]"); if (el) showRefPop(el); });
-  document.addEventListener("focusout", ev => { if (ev.target.closest && ev.target.closest(".refab[data-ref]")) refPopTimer = setTimeout(hideRefPop, 250); });
+  document.addEventListener("focusin", ev => { const el = ev.target.closest && ev.target.closest(".refab[data-ref], [data-help]"); if (el) el.dataset.help ? showHelpPop(el) : showRefPop(el); });
+  document.addEventListener("focusout", ev => { if (ev.target.closest && ev.target.closest(".refab[data-ref], [data-help]")) refPopTimer = setTimeout(hideRefPop, 250); });
   document.addEventListener("keydown", ev => { if (ev.key === "Escape") hideRefPop(); });
   document.addEventListener("scroll", hideRefPop, true);
   function srcLabel(u) {
@@ -1361,7 +1387,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     if (!list || !list.length) return "";
     return '<div class="vmeta"><b>' + esc(t("vRefs")) + ":</b>" + list.map(rc => {
       const st = rc.status || "not_checked";
-      return '<div class="vref r-' + esc(st) + '"><span class="rtag">' + esc(t("r_" + st)) + "</span><code>" + refsHtml(rc.ref || "") + "</code>" +
+      return '<div class="vref r-' + esc(st) + '"><span class="rtag" tabindex="0" data-help="h_' + esc(st) + '">' + esc(t("r_" + st)) + "</span><code>" + refsHtml(rc.ref || "") + "</code>" +
         (rc.note ? " — " + esc(rc.note) : "") + "</div>";
     }).join("") + "</div>";
   }
@@ -1370,7 +1396,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     return '<div class="vmeta"><b>' + esc(t("vConsulted")) + ":</b>" + list.map(c => {
       const st = c.stance === "supports" ? "supports" : c.stance === "contradicts" ? "contradicts" : c.stance === "partial" ? "partial" : "not_checked";
       const r = REFS[c.src];
-      return '<div class="vref r-' + st + '"><span class="rtag">' + esc(c.stance || "") + "</span><code>" +
+      return '<div class="vref r-' + st + '"><span class="rtag" tabindex="0" data-help="h_' + esc(c.stance || "not_checked") + '">' + esc(c.stance || "") + "</span><code>" +
         (r && r.title ? '<span class="refab" tabindex="0" data-ref="' + esc(c.src || "") + '">' + esc(c.src || "") + "</span>" : esc(c.src || "")) +
         (c.where ? " " + esc(c.where) : "") + "</code>" + (c.note ? " — " + esc(c.note) : "") + "</div>";
     }).join("") + "</div>";
@@ -1401,7 +1427,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     let html = '<div class="vsum"><span class="vtitle">' + esc(t("vTitle")) + "</span>";
     if (!gv) return html + '<span class="vnone">' + esc(t("vNone")) + "</span></div>";
     VORDER.slice().reverse().forEach(v => {
-      if (gv.tally[v]) html += '<span class="vcount" style="--vc:var(--v-' + v + ')"><span class="vdot"></span>' + fmtNum(gv.tally[v]) + " " + esc(vLbl(v)) + "</span>";
+      if (gv.tally[v]) html += '<span class="vcount" tabindex="0" data-help="h_' + v + '" style="--vc:var(--v-' + v + ')"><span class="vdot"></span>' + fmtNum(gv.tally[v]) + " " + esc(vLbl(v)) + "</span>";
     });
     html += "</div>";
     const e0 = g.entries.find(e => e.verif);
