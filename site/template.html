@@ -259,6 +259,43 @@
   .quote .verse { font-family: var(--fa-verse); font-size: 19px; line-height: 2; direction: rtl; text-align: right; }
   .quote .poet { font-family: var(--sans); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
   mark { background: color-mix(in srgb, var(--gold) 32%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
+  /* ---- verification layer: per-arrow verdicts, derivation notes, reference checks ---- */
+  :root { --v-confirmed: #2f9e5b; --v-plausible: #d29a2b; --v-disputed: #d24b3e; --v-unverified: #8a8f98; --v-transcription_suspect: #8a5bd6; }
+  .vbadge {
+    display: inline-block; font-family: var(--sans); font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    color: #fff; background: var(--vc, var(--v-unverified)); border-radius: 999px; padding: 1px 8px 2px; vertical-align: 1px; white-space: nowrap;
+  }
+  .card .head .vbadge { margin-inline-start: auto; }
+  .vpanel { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; font-size: 13.5px; }
+  .vpanel > summary { cursor: pointer; font-family: var(--sans); font-size: 12px; letter-spacing: .04em; color: var(--muted); list-style: none; display: flex; align-items: center; gap: 8px; }
+  .vpanel > summary::-webkit-details-marker { display: none; }
+  .vpanel > summary::before { content: "▸"; font-size: 11px; }
+  .vpanel[open] > summary::before { content: "▾"; }
+  .vpanel > summary:hover { color: var(--ink); }
+  .vderiv { direction: ltr; text-align: left; max-width: 66ch; line-height: 1.55; margin-top: 6px; }
+  .vmeta { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 6px; direction: ltr; text-align: left; }
+  .vmeta b { color: var(--ink); font-weight: 600; }
+  .vsrc a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted color-mix(in srgb, var(--accent) 45%, transparent); }
+  .vsrc a:hover { border-bottom-style: solid; }
+  .vsrc a + a::before { content: " · "; color: var(--muted); }
+  .vref { margin: 3px 0 0 0; padding-inline-start: 10px; border-inline-start: 3px solid var(--rc, var(--v-unverified)); line-height: 1.45; }
+  .vref .rtag { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--rc, var(--v-unverified)); margin-inline-end: 6px; }
+  .vref code { font-family: var(--sans); font-weight: 700; color: var(--ink); background: none; }
+  .r-supports { --rc: var(--v-confirmed); } .r-partial { --rc: var(--v-plausible); } .r-contradicts { --rc: var(--v-disputed); }
+  .r-not_found { --rc: var(--v-transcription_suspect); } .r-not_checked { --rc: var(--v-unverified); }
+  .vsum { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 6px 0 14px; font-family: var(--sans); font-size: 12.5px; color: var(--muted); }
+  .vsum .vtitle { font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+  .vsum .vcount { display: inline-flex; align-items: center; gap: 5px; }
+  .vsum .vdot, .rootitem .vdot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--vc, var(--v-unverified)); }
+  .rootitem .vdot { margin-inline-start: 6px; vertical-align: 1px; }
+  .vsum .vnone { font-style: italic; }
+  .vroot { max-width: 720px; margin: -6px 0 14px; }
+  .vroot .vpanel { border-top: none; padding-top: 0; }
+  .pderiv { margin: -8px 0 14px; padding: 8px 12px; border-inline-start: 3px solid var(--vc, var(--v-unverified)); background: color-mix(in srgb, var(--vc, var(--v-unverified)) 7%, var(--panel)); border-radius: 0 8px 8px 0; font-size: 13.5px; max-width: 620px; direction: ltr; text-align: left; line-height: 1.5; }
+  html[lang="fa"] .pderiv { border-radius: 8px 0 0 8px; }
+  .pderiv .vbadge { margin-inline-end: 8px; }
+  .pderiv .parrow { font-family: var(--sans); font-size: 11.5px; color: var(--muted); letter-spacing: .04em; }
+  abbr.refab { text-decoration: none; border-bottom: 1px dotted var(--muted); cursor: help; }
   .tog {
     font-family: var(--sans); font-size: 11px; font-weight: 700;
     color: var(--muted); background: var(--panel-2);
@@ -767,6 +804,18 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     themeTitle: ["Cycle color theme", "تغییر پوستهٔ رنگی"],
     langBtn: ["فارسی", "English"],
     roots: ["roots", "ریشه"], words: ["words", "واژه"],
+    v_confirmed: ["confirmed", "تأییدشده"], v_plausible: ["plausible", "محتمل"], v_disputed: ["disputed", "مورد اختلاف"],
+    v_unverified: ["unverified", "بررسی‌نشده"], v_transcription_suspect: ["transcription?", "احتمال خطای نسخه‌برداری"],
+    vHow: ["How this derives", "چگونگی اشتقاق"], vSources: ["Sources", "منابع"],
+    vRefs: ["Nourai’s cited references, checked", "بررسی ارجاع‌های نورایی"],
+    vTitle: ["Verification", "راستی‌آزمایی"], vNone: ["not yet verified", "هنوز راستی‌آزمایی نشده"],
+    vRootTitle: ["The root itself", "خود ریشه"], vModern: ["Modern reconstruction", "بازسازی امروزی"],
+    vOn: ["checked against modern etymological sources and Nourai’s own citations on", "بررسی‌شده با منابع ریشه‌شناختی امروزی و ارجاع‌های خود نورایی در"],
+    vLegend: ["Every arrow of every verified chart was checked against modern sources (Wiktionary with its citations, Etymonline, AHD, Pokorny, Iranica…) and against the page Nourai cites. Open “How this derives” under a box to read the derivation, the sources, and what his references actually say.",
+              "هر پیکانِ هر نمودار راستی‌آزمایی‌شده با منابع امروزی (ویکی‌واژه با ارجاع‌هایش، Etymonline، AHD، پوکورنی، ایرانیکا…) و با صفحه‌ای که نورایی به آن ارجاع داده سنجیده شده است. «چگونگی اشتقاق» را زیر هر جعبه بگشایید تا شرح اشتقاق، منابع و آنچه مراجع او واقعاً می‌گویند را بخوانید."],
+    r_supports: ["supports", "تأیید می‌کند"], r_partial: ["partial", "تا حدی"], r_contradicts: ["contradicts", "نقض می‌کند"],
+    r_not_found: ["not found", "یافت نشد"], r_not_checked: ["not checked", "بررسی نشد"],
+    pStep: ["this step", "این گام"],
     mapH1: ["The root constellation of Persian", "صورت فلکی ریشه‌های فارسی"],
     mapP: ["Every star is a root family; its size is the number of words that grew from it. Click a star to unfold its derivatives — dashed gold threads are the book’s ☞ links to other roots. Double-click opens the chart.",
            "هر ستاره یک خانوادهٔ ریشه است و اندازه‌اش شمار واژه‌هایش. با کلیک، مشتق‌هایش باز می‌شوند — رشته‌های طلاییِ چین‌دار ارجاع‌های ☞ کتاب به ریشه‌های دیگرند. دوبار کلیک نمودار را می‌گشاید."],
@@ -1171,7 +1220,10 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       groups.forEach((g, ei) => {
         const b = document.createElement("button");
         b.className = "rootitem" + (ei === activeEi ? " active" : "");
-        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span><span class="rlang">' + esc(tLang(g.root.lang) || "") + "</span>" +
+        const gv = groupVerif(g);
+        b.innerHTML = '<span class="rname">' + esc(g.root.name) + '</span>' +
+          (gv ? '<span class="vdot" style="--vc:var(--v-' + gv.worst + ')" title="' + esc(vLbl(gv.worst)) + '"></span>' : "") +
+          '<span class="rlang">' + esc(tLang(g.root.lang) || "") + "</span>" +
           (g.root.gloss ? '<span class="rgloss">' + esc(tData(g.root.gloss)) + "</span>" : "");
         b.addEventListener("click", () => { show(ei); });
         $list.appendChild(b);
@@ -1207,8 +1259,77 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       return '<button class="seechip" data-goto="' + esc(s) + '"' + (t < 0 ? ' disabled title="' + esc(UI.notExtracted[isFa() ? 1 : 0]) + '"' : "") + ">☞ " + esc(s) + "</button>";
     }).join(" ");
   }
+  /* ---- verification layer helpers ---- */
+  const REFS = (window.ETYM_DATA && window.ETYM_DATA.refs) || {};
+  const VORDER = ["disputed", "transcription_suspect", "plausible", "unverified", "confirmed"];
+  function vLbl(v) { return t("v_" + v); }
+  function vBadge(v) { return v ? '<span class="vbadge" style="--vc:var(--v-' + esc(v) + ')">' + esc(vLbl(v)) + "</span>" : ""; }
+  function refsHtml(str) {
+    return esc(str).split(/(;\s*|,\s*)/).map(part => {
+      const m = /^([A-Z]+)(\d*):?(.*)$/.exec(part.trim());
+      if (!m) return part;
+      const r = REFS[m[1]];
+      return r && r.title ? '<abbr class="refab" title="' + esc(r.title) + '">' + part + "</abbr>" : part;
+    }).join("");
+  }
+  function srcLabel(u) {
+    try {
+      const url = new URL(u);
+      let path = decodeURIComponent(url.pathname).replace(/^\/(wiki|word)\//, "").replace(/\/$/, "");
+      if (path.length > 42) path = "…" + path.slice(-40);
+      return url.hostname.replace(/^www\./, "") + (path ? " › " + path : "");
+    } catch (e) { return u; }
+  }
+  function vSourcesHtml(list) {
+    if (!list || !list.length) return "";
+    return '<div class="vmeta vsrc"><b>' + esc(t("vSources")) + ":</b> " +
+      list.map(u => '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(srcLabel(u)) + "</a>").join("") + "</div>";
+  }
+  function vRefsHtml(list) {
+    if (!list || !list.length) return "";
+    return '<div class="vmeta"><b>' + esc(t("vRefs")) + ":</b>" + list.map(rc => {
+      const st = rc.status || "not_checked";
+      return '<div class="vref r-' + esc(st) + '"><span class="rtag">' + esc(t("r_" + st)) + "</span><code>" + refsHtml(rc.ref || "") + "</code>" +
+        (rc.note ? " — " + esc(rc.note) : "") + "</div>";
+    }).join("") + "</div>";
+  }
+  function vPanelHtml(v, title) {
+    if (!v) return "";
+    return '<details class="vpanel"><summary>' + vBadge(v.verdict) + esc(title || t("vHow")) + "</summary>" +
+      (v.modern_form ? '<div class="vmeta"><b>' + esc(t("vModern")) + ":</b> " + esc(v.modern_form) + "</div>" : "") +
+      (v.derivation ? '<div class="vderiv">' + esc(v.derivation) + "</div>" : "") +
+      (v.note ? '<div class="vderiv">' + esc(v.note) + "</div>" : "") +
+      vSourcesHtml(v.sources) + vRefsHtml(v.ref_check) + "</details>";
+  }
+  function nodeVerif(e, n) { return e && e.verif && e.verif.nodes ? e.verif.nodes[String(n.id)] : null; }
+  function groupVerif(g) {
+    const tally = {}; let any = false, on = null, worst = null;
+    g.entries.forEach(e => {
+      if (!e.verif) return;
+      any = true; on = on || e.verif.on;
+      Object.values(e.verif.nodes || {}).forEach(vn => { tally[vn.verdict] = (tally[vn.verdict] || 0) + 1; });
+      if (e.verif.verdict) tally[e.verif.verdict] = (tally[e.verif.verdict] || 0) + 1;
+    });
+    if (!any) return null;
+    worst = VORDER.find(v => tally[v]) || "unverified";
+    return { tally, on, worst };
+  }
+  function vSummaryHtml(g) {
+    const gv = groupVerif(g);
+    let html = '<div class="vsum"><span class="vtitle">' + esc(t("vTitle")) + "</span>";
+    if (!gv) return html + '<span class="vnone">' + esc(t("vNone")) + "</span></div>";
+    VORDER.slice().reverse().forEach(v => {
+      if (gv.tally[v]) html += '<span class="vcount" style="--vc:var(--v-' + v + ')"><span class="vdot"></span>' + fmtNum(gv.tally[v]) + " " + esc(vLbl(v)) + "</span>";
+    });
+    html += "</div>";
+    const e0 = g.entries.find(e => e.verif);
+    if (e0) html += '<div class="vroot">' + vPanelHtml({ verdict: e0.verif.verdict, modern_form: e0.verif.modern_form, note: e0.verif.note, sources: e0.verif.sources, ref_check: e0.verif.ref_check }, t("vRootTitle")) +
+      '<div class="vmeta">' + esc(t("vOn")) + " " + esc(gv.on || "") + ". " + esc(t("vLegend")) + "</div></div>";
+    return html;
+  }
   function nodeHtml(e, n, needle, nDesc) {
     const fam = FAMVAR[famOf(n.lang)];
+    const nv = nodeVerif(e, n);
     let words = "";
     (n.words || []).forEach(w => {
       words += '<div class="wordrow">' +
@@ -1227,16 +1348,17 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     return '<div class="card" style="--famc:' + fam + '">' +
       '<div class="head' + (nDesc ? ' has-kids" role="button" tabindex="0" aria-expanded="true' : '') + '">' +
       '<span class="lang">' + esc(tLang(n.lang) || "?") + "</span>" +
-      (n.refs ? '<span class="refs">' + esc(n.refs) + "</span>" : "") +
-      (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") + "</div>" +
-      '<div class="body">' + words + extra + note + quote + "</div></div>";
+      (n.refs ? '<span class="refs">' + refsHtml(n.refs) + "</span>" : "") +
+      (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") +
+      (nv ? vBadge(nv.verdict) : "") + "</div>" +
+      '<div class="body">' + words + extra + note + quote + vPanelHtml(nv) + "</div></div>";
   }
   function rootCardHtml(r) {
     return '<div class="rootcard">' +
       '<div class="r-lang">' + esc(tLang(r.lang) || "") + "</div>" +
       '<div class="r-name">' + esc(r.name) + "</div>" +
       (r.gloss ? '<div class="r-gloss">' + esc(tData(r.gloss)) + "</div>" : "") +
-      (r.refs ? '<div class="r-refs">' + esc(r.refs) + "</div>" : "") +
+      (r.refs ? '<div class="r-refs">' + refsHtml(r.refs) + "</div>" : "") +
       "</div>";
   }
   function issueUrl(rootName, bookPages) {
@@ -1347,7 +1469,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     const g = groups[ei];
     if (!g) return;
     $aside.classList.remove("open");
-    let html = '<div class="chart">' + rootCardHtml(g.root);
+    let html = '<div class="chart">' + rootCardHtml(g.root) + vSummaryHtml(g);
     g.entries.forEach((e, i) => {
       const kids = {};
       (e.nodes || []).forEach(n => { const p = n.parent || 0; (kids[p] = kids[p] || []).push(n); });
@@ -1565,11 +1687,28 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       '<div class="head"><span class="lang">' + esc(tLang(n.lang) || "?") + "</span></div>" +
       '<div class="body">' + words + "</div></div></div></div>";
   }
+  /* The verification note for the arrow between two adjacent path vertices:
+     whichever of the two is the child carries the explanation of how it
+     derives from the other. */
+  function edgeDerivHtml(a, b) {
+    const va = vinfo.get(a), vb = vinfo.get(b);
+    if (!va || !vb) return "";
+    const childOf = (x, y) => x.n && (y.root ? !(x.n.parent) : (y.n && x.n.parent === y.n.id));
+    const child = childOf(vb, va) ? vb : childOf(va, vb) ? va : null;
+    if (!child) return "";
+    const nv = nodeVerif(child.e, child.n);
+    if (!nv) return "";
+    return '<div class="pderiv" style="--vc:var(--v-' + esc(nv.verdict) + ')">' + vBadge(nv.verdict) +
+      '<span class="parrow">' + esc(t("pStep")) + "</span><div class=\"vderiv\">" + esc(nv.derivation || "") + "</div>" +
+      vSourcesHtml(nv.sources) + "</div>";
+  }
   function renderChain(path) {
     let html = "<div class='pathchain'>";
     path.forEach((v, i) => {
       if (i > 0 && seeSet.has(path[i - 1] + "|" + v)) {
         html += '<div class="see-note">' + esc(t("seeNote")) + "</div>";
+      } else if (i > 0) {
+        html += edgeDerivHtml(path[i - 1], v);
       }
       const hlA = v === pA.vid ? pA.wi : undefined;
       const hl = v === pB.vid ? pB.wi : hlA;
