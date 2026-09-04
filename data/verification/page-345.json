@@ -18,8 +18,8 @@
       "ref_check": [
         {
           "ref": "PLA:247",
-          "status": "not_checked",
-          "note": "PLA (Asbaghi, Persische Lehnwörter im Arabischen) is not online in full text (HathiTrust search-only)."
+          "status": "supports",
+          "note": "PLA_pages.txt leaf 262 = Asbaghi, Persische Lehnwörter im Arabischen p. 247, s.v. marǧān: \"marǧān: 'kleine Perle' aus pers. morwārīd < mp. morwārīd, murvārīt, mprth. mwrg'r'yd → griech. μαργαρίτης, mand. marg(a)nīta\" — Arabic marǧān 'small pearl' from Persian morwārīd via Middle Persian murvārīt / Parthian mwrg'r'yd, with Greek margarítēs and Mandaic marganīta as the intermediate forms. This is Nourai's chart, root gloss ('small pearl') included."
         },
         {
           "ref": "FVQ:261",
@@ -42,8 +42,8 @@
           "ref_check": [
             {
               "ref": "BQT:1997",
-              "status": "not_checked",
-              "note": "Borhan-e Qate' (Mo'in ed.) vols 3-5 are not online in full text (only vols 1-2 on archive.org). (BQT:1997 would be vol. 4)."
+              "status": "partial",
+              "note": "BQT_v4_pages.txt pdf page 80 = printed p. 1997, Mo'in's footnote 5 to مروارید: «مروارید ... پهلوی MORVĀRĪD ... از یونانی MARGARITES ... بعربی لؤلؤ» — Mo'in has the headword with the Pahlavi form as Nourai draws it, but derives it FROM Greek margarítēs, which is exactly the dissent the chart's own NOTE records ('BQT derives this word from Greek')."
             },
             {
               "ref": "FVQ:261",
@@ -54,6 +54,32 @@
               "ref": "KGW:112",
               "status": "not_checked",
               "note": "KGW (Ibrahim, Kulturgeschichtliche Wortforschung, 1991) is in copyright; Google Books preview only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "p. 248 §140 (HUB.txt leaf 258)",
+              "stance": "supports",
+              "note": "HUB.txt leaf 258 (Persische Studien p. 248, §140 'Für ap. g erscheint v in:'): \"marvarīd 'Perle' (marvarīdīn 'of pearl' JRAS. 1894, p. 488), phl. marvārīt etc. (Nöldeke, Pers. Stud. II, 44) = μαργαρίτης\" — NP marvārīd = Pahlavi marvārīt, equated with Greek margarítēs; listed among the Old-Persian g > v cases (Marv = OP Margu-), which is the -γ- > -v- change behind murwārīd."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 59 s.v. morwārīd (PHD.txt leaf 80)",
+              "stance": "supports",
+              "note": "PHD.txt leaf 80 (printed p. 59), s.v. morwārīd: \"morwārīd [mwlw'lyt' | M mwrwryd, N ~] pearl\" — MacKenzie's Book-Pahlavi spelling mwlw'lyt' is exactly Nourai's 'Murvârît', and 'N ~' means New Persian has the same word."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part2.txt line 54446 s.v. مروارید (Adena 2-vol abridgement)",
+              "stance": "partial",
+              "note": "Mo'in has the headword «مروارید» with a long mineralogical description ('جسم جامد و کروی شکل و براق … که از انجماد ترشحات مخاط بدن انواعی از نرم‌تنان دو کفه‌یی بنام صدف مروارید حول اجسام خارجی …'), but the bracketed origin tag is OCR-garbled in this abridgement ('۷۹۵ ۱۱ .۲ ( طبر'), so it neither confirms nor denies the Pahlavi source; the 6-vol print edition's Latin-script Pahlavi form is not in the online text."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt, greps 'marvar|marwar|murwar|margar'",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no numbered entry for marvārīd; the only m-r-w hit is no. ~1024 on mury 'bird' (\"aw. mərəγa- 'Vogel'; phlv. murγ, murv\"). Jeffery FVQ:261 n. 6 cites 'Horn, Grundriss 218 n.', i.e. a footnote, not a headword, so Horn is effectively silent on the pearl word."
             }
           ]
         },
@@ -72,6 +98,32 @@
               "ref": "FVQ:261",
               "status": "supports",
               "note": "FVQ_pages.txt leaf 278 (Jeffery p. 261), s.v. Marjān: 'Small pearls. The word occurs only in a description of Paradise, and was early recognized as borrowed from Persia, but it is certain that it did not come directly from Iranian into Arabic. We find in Phlv. murvārīt, a pearl used, e.g. in the Gōsht-i-Fryānō, ii, 13 ... From Middle Persian the word was borrowed widely, e.g. Gk. margarites; Aram. margānītā; Syr. margānītā, and from some Aram. form it came into Arabic. It would have come at an early date for it is used in the old poetry ...' (fn. 5: 'In spite of Addai Sher, 144, and his attempted derivation from ...'; fn. 6 cites Horn, Grundriss 218 n.). 'From Middle Persian the word was borrowed widely, e.g. ... Aram. margānītā; Syr. margānītā, and from some Aram. form it came into Arabic' — the Aramaic intermediary of this empty node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "p. 247 s.v. marǧān (PLA_pages.txt leaf 262)",
+              "stance": "supports",
+              "note": "PLA_pages.txt leaf 262 = Asbaghi, Persische Lehnwörter im Arabischen p. 247, s.v. marǧān: \"marǧān: 'kleine Perle' aus pers. morwārīd < mp. morwārīd, murvārīt, mprth. mwrg'r'yd → griech. μαργαρίτης, mand. marg(a)nīta\" — Arabic marǧān 'small pearl' from Persian morwārīd via Middle Persian murvārīt / Parthian mwrg'r'yd, with Greek margarítēs and Mandaic marganīta as the intermediate forms. This is Nourai's chart, root gloss ('small pearl') included. For this node the operative words are 'mand. marg(a)nīta' — Asbaghi's only Aramaic form is Mandaic marganīta, the sister of Syriac/Jewish-Aramaic margānīṯā."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 4 p. 1981, Mo'in's footnote to مرجان (BQT_v4_pages.txt pdf page 64)",
+              "stance": "supports",
+              "note": "BQT_v4_pages.txt pdf page 64 = printed p. 1981, Mo'in's footnote 10 to مرجان: «مرجان کلمهٔ مخفف عربی از لغت سریانی MARGANITA «دزی ج ۲ ص ۵۷۸» که لغت بمعنی مروارید بوده و سپس به بسد اطلاق شده است. Fleischer در «تعلیقات در بارهٔ ذیل قوامیس عرب تألیف دزی» ۱۸۸۹ ص ۱۷۹ تغییر لغت یونانی MARGARITES را ... و در آرامی به MARGANITA ... که از آن شکل عربی مرجان اتخاذ شده، شرح می‌دهد» — Arabic marjān is a shortened form of Syriac margānītā 'pearl', later applied to coral; Fleischer traces Greek margarítēs → Aramaic margānītā → Arabic marjān."
+            },
+            {
+              "src": "AFM",
+              "where": "≈ p. 144 s.v. مرجان (AFM_pages.txt leaf 145)",
+              "stance": "partial",
+              "note": "AFM_pages.txt leaf 145 (≈ Addi Shir p. 144, s.v. مرجان; the file has no printed-page tags): the entry glosses مرجان as «صغار ... شبیه کبار الدر» (small pearl-like grains), reports the Arabic philologists' fanciful مر + جان derivation, and then sets beside it «... بالارامیة ... ومروارید بالفارسیة و ܡܪܓܠܝܬ و ܡܪܓܠܝܬܐ» — i.e. Aramaic/Syriac margālīt(ā) and Persian morvārīd as the cognate forms, «اصلها فارسی» ('its origin is Persian'). This is the page Jeffery FVQ:261 n. 5 argues against ('In spite of Addai Sher, 144')."
+            },
+            {
+              "src": "AFA",
+              "where": "AFA.txt, greps 'marg|marjan|margarit' and German 'Perle'",
+              "stance": "silent",
+              "note": "Fraenkel's Aramaic and Arabic are in unOCR'd script and no German gloss for 'Perle'/'Koralle' turns up; Die aramäischen Fremdwörter im Arabischen yields nothing usable on margānīṯā."
             }
           ]
         },
@@ -93,8 +145,34 @@
             },
             {
               "ref": "PLA:247",
-              "status": "not_checked",
-              "note": "PLA (Asbaghi, Persische Lehnwörter im Arabischen) is not online in full text (HathiTrust search-only)."
+              "status": "supports",
+              "note": "PLA_pages.txt leaf 262 = Asbaghi, Persische Lehnwörter im Arabischen p. 247, s.v. marǧān: \"marǧān: 'kleine Perle' aus pers. morwārīd < mp. morwārīd, murvārīt, mprth. mwrg'r'yd → griech. μαργαρίτης, mand. marg(a)nīta\" — Arabic marǧān 'small pearl' from Persian morwārīd via Middle Persian murvārīt / Parthian mwrg'r'yd, with Greek margarítēs and Mandaic marganīta as the intermediate forms. This is Nourai's chart, root gloss ('small pearl') included."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "p. 114 No. 1416 (LKT.txt leaf 140)",
+              "stance": "partial",
+              "note": "LKT.txt leaf 140 (Lokotsch p. 114), No. 1416: \"[Ar. margān.] 'Koralle' [aus gr. μαργαρίτης ZDMG LI, 304], tk. mergan 'dass.'; hieraus rum. mărgean, ...; bulg. merdžan 'Koralle'. ... Als Frauenname ist Morgiane ... Er steckt auch in it. fata morgana\" — Lokotsch takes Arabic margān straight from Greek margarítēs, without Nourai's Aramaic step."
+            },
+            {
+              "src": "AFM",
+              "where": "≈ p. 144 s.v. مرجان (AFM_pages.txt leaf 145)",
+              "stance": "supports",
+              "note": "AFM_pages.txt leaf 145 (≈ Addi Shir p. 144, s.v. مرجان; the file has no printed-page tags): the entry glosses مرجان as «صغار ... شبیه کبار الدر» (small pearl-like grains), reports the Arabic philologists' fanciful مر + جان derivation, and then sets beside it «... بالارامیة ... ومروارید بالفارسیة و ܡܪܓܠܝܬ و ܡܪܓܠܝܬܐ» — i.e. Aramaic/Syriac margālīt(ā) and Persian morvārīd as the cognate forms, «اصلها فارسی» ('its origin is Persian'). This is the page Jeffery FVQ:261 n. 5 argues against ('In spite of Addai Sher, 144')."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 52627, 52691 s.v. مرجان / مرجانه",
+              "stance": "supports",
+              "note": "MON_part2.txt line 52627 s.v. مرجان: «مرجان: [ع. مح. مروارید، بسد]» — Mo'in tags the word Arabic and 'مح.' (muḥarraf, altered) from مروارید; the entry adds «مروارید (به این معنی در عربی استعمال شده)» ('pearl — used in this sense in Arabic'). MON_part2.txt line 52691 s.v. مرجانه: «[ع. مرجانه] واحد مرجان؛ مرواریدی کوچک» = 'unit noun of marjān; a small pearl', Nourai's root gloss."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 313 s.v. 'fata morgana' (printed ≈ p. 602)",
+              "stance": "partial",
+              "note": "Klein: \"Morgana itself derives fr. Arab. marjān, 'pearl', used also as a female name … See fairy and margaric, marguerite.\" Klein thus glosses Arabic marjān as 'pearl' and cross-refers it to the margarite/marguerite family, but gives no Aramaic step."
             }
           ]
         },
@@ -110,8 +188,28 @@
           "ref_check": [
             {
               "ref": "BQT:1981",
-              "status": "not_checked",
-              "note": "Borhan-e Qate' (Mo'in ed.) vols 3-5 are not online in full text (only vols 1-2 on archive.org). (BQT:1981 would be vol. 4)."
+              "status": "supports",
+              "note": "BQT_v4_pages.txt pdf page 64 = printed p. 1981, Mo'in's footnote 10 to مرجان: «مرجان کلمهٔ مخفف عربی از لغت سریانی MARGANITA «دزی ج ۲ ص ۵۷۸» که لغت بمعنی مروارید بوده و سپس به بسد اطلاق شده است. Fleischer در «تعلیقات در بارهٔ ذیل قوامیس عرب تألیف دزی» ۱۸۸۹ ص ۱۷۹ تغییر لغت یونانی MARGARITES را ... و در آرامی به MARGANITA ... که از آن شکل عربی مرجان اتخاذ شده، شرح می‌دهد» — Arabic marjān is a shortened form of Syriac margānītā 'pearl', later applied to coral; Fleischer traces Greek margarítēs → Aramaic margānītā → Arabic marjān."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 52627, 52691 s.v. مرجان / مرجانه",
+              "stance": "supports",
+              "note": "MON_part2.txt line 52627 s.v. مرجان: «مرجان: [ع. مح. مروارید، بسد]» — Mo'in tags the word Arabic and 'مح.' (muḥarraf, altered) from مروارید; the entry adds «مروارید (به این معنی در عربی استعمال شده)» ('pearl — used in this sense in Arabic'). MON_part2.txt line 52691 s.v. مرجانه: «[ع. مرجانه] واحد مرجان؛ مرواریدی کوچک» = 'unit noun of marjān; a small pearl', Nourai's root gloss."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 4 pp. 1981-1982 s.v. مرجان (BQT_v4_pages.txt pdf pages 64-65)",
+              "stance": "supports",
+              "note": "Borhān's own article: «مرجان … و درعربی جوهرست سرخ» ('in Arabic it is a red gem') and, on the next page, «مرجان … گویند از دریا می‌روید — و مروارید ریزه را نیز گویند» ('they say it grows out of the sea; small pearls are also called this'), with Farroxī's line «تا لاله سرخ باشد چون مرجان». Mo'in's footnote 10 (p. 1981) supplies the Syriac margānītā etymology quoted in ref_check."
+            },
+            {
+              "src": "LKT",
+              "where": "p. 114 No. 1416 (LKT.txt leaf 140)",
+              "stance": "partial",
+              "note": "LKT.txt leaf 140 (Lokotsch p. 114), No. 1416: \"[Ar. margān.] 'Koralle' [aus gr. μαργαρίτης ZDMG LI, 304], tk. mergan 'dass.'; hieraus rum. mărgean, ...; bulg. merdžan 'Koralle'. ... Als Frauenname ist Morgiane ... Er steckt auch in it. fata morgana\" — Lokotsch takes Arabic margān straight from Greek margarítēs, without Nourai's Aramaic step."
             }
           ]
         },
@@ -141,6 +239,32 @@
               "status": "supports",
               "note": "FVQ_pages.txt leaf 278 (Jeffery p. 261), s.v. Marjān: 'Small pearls. The word occurs only in a description of Paradise, and was early recognized as borrowed from Persia, but it is certain that it did not come directly from Iranian into Arabic. We find in Phlv. murvārīt, a pearl used, e.g. in the Gōsht-i-Fryānō, ii, 13 ... From Middle Persian the word was borrowed widely, e.g. Gk. margarites; Aram. margānītā; Syr. margānītā, and from some Aram. form it came into Arabic. It would have come at an early date for it is used in the old poetry ...' (fn. 5: 'In spite of Addai Sher, 144, and his attempted derivation from ...'; fn. 6 cites Horn, Grundriss 218 n.). 'From Middle Persian the word was borrowed widely, e.g. Gk. margarites' (fn. 7: 'Also margaris ..., from which comes the Arm. margarit and the European forms')."
             }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 504 s.v. margarite",
+              "stance": "contradicts",
+              "note": "KLN_1966.txt leaf 504, s.v. margarite: \"ME., fr. OF. margarite (F. marguerite), fr. L. margarita, fr. Gk. μαργαρίτης (scil. λίθος), 'pearl', which is of uncertain origin. It possibly derives fr. OI. mañjaram, mañjarī, 'bud, pearl'. Gk. μάργαρον is prob. a back formation fr. μαργαρίτης.\" Klein calls the Greek word 'of uncertain origin' and prefers an Old Indian, not an Iranian, source — against the chart's Pahlavi → Greek arrow."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 269 s.v. Magpie (SKT.txt leaf 289)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 289 (Skeat p. 269), s.v. Magpie: \"Mag is short for Magot, a familiar form of F. Marguerite, also used to denote a magpie. This is from L. Margarita, Gk. μαργαρίτης a pearl; cf. Pers. murwārīd, a pearl.\" Skeat gives the whole Greek → Latin → French chain and explicitly compares Persian murwārīd."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 112833 s.v. margarite / margaric / margarine",
+              "stance": "partial",
+              "note": "WEB_vol1.txt line 112833, s.v. margarite: \"[L. margarita; Gr. margarítēs, a pearl.] 1. a pearl. [Obs.] 2. a hydrated silicate of calcium and aluminum, found as scales with a pearly luster.\" Same column, margaric: \"[Fr. margarique, from Gr. margaron, a pearl: so called from the pearly luster of its crystals.]\"; margarine: \"[Fr. margarine, from margarique, margaric.]\"; margarita: \"[L.Gr. margarités ... from Gr. margarités, pearl.]\" Webster gives the Latin/Greek chain but no opinion on where Greek got the word."
+            },
+            {
+              "src": "POK",
+              "where": "POK_full.txt / POK_01-03.txt, grep 'margarit|margaron'",
+              "stance": "silent",
+              "note": "Pokorny's IEW has no entry for margarítēs — consistent with the word being a non-IE (Oriental) loan in Greek. Walde–Pokorny (WLD_band3.txt index, WLD_Bd1/Bd2_pages.txt) and Mann's IEC are likewise silent."
+            }
           ]
         },
         {
@@ -159,6 +283,26 @@
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. Klein (KLN_1966.txt leaf 504, s.v. margarite): 'ME., fr. OF. margarite (F. marguerite), fr. L. margarita, fr. Gk. margarites'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "p. 689 s.v. margarita (LAT.txt leaf 707)",
+              "stance": "supports",
+              "note": "LAT.txt leaf 707 (Ernout–Meillet p. 689), s.v. margarita: \"margarita, -ae (-tum n.) f.: perle. Emprunt au gr. μαργαρίτης\" — Latin margarīta is a straight borrowing of the Greek word, as the chart's Greek → Latin arrow says; derivatives margaritārius, margaritifer, Gothic marikreitus."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 112833 s.v. margarite / margarita",
+              "stance": "supports",
+              "note": "WEB_vol1.txt line 112833, s.v. margarite: \"[L. margarita; Gr. margarítēs, a pearl.] 1. a pearl. [Obs.] 2. a hydrated silicate of calcium and aluminum, found as scales with a pearly luster.\" Same column, margaric: \"[Fr. margarique, from Gr. margaron, a pearl: so called from the pearly luster of its crystals.]\"; margarine: \"[Fr. margarine, from margarique, margaric.]\"; margarita: \"[L.Gr. margarités ... from Gr. margarités, pearl.]\""
+            },
+            {
+              "src": "LEW",
+              "where": "LEW_1910.txt, greps 'margarita|mattus|madeo'",
+              "stance": "silent",
+              "note": "The local Walde LEW scan is a 305-leaf partial whose OCR yields no dictionary entries at all (greps for 'madeo', 'mater,', 'magnus' all return 0 hits), so it cannot be consulted for margarīta."
+            }
           ]
         },
         {
@@ -176,6 +320,26 @@
               "ref": "none",
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. Klein (KLN_1966.txt leaf 504, s.v. margarite/Margaret): 'OF. margarite (F. marguerite), fr. L. margarita'; 'Margaret ... OF. Margaret, fr. L. margarita, pearl'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 269 s.v. Magpie (SKT.txt leaf 289)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 289 (Skeat p. 269), s.v. Magpie: \"Mag is short for Magot, a familiar form of F. Marguerite, also used to denote a magpie. This is from L. Margarita, Gk. μαργαρίτης a pearl; cf. Pers. murwārīd, a pearl.\" Skeat gives the whole Greek → Latin → French chain and explicitly compares Persian murwārīd. This is Skeat's evidence for the Old French link: F. Marguerite / Margot from L. Margarita."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 112833 s.v. margarite",
+              "stance": "partial",
+              "note": "Webster goes straight from Latin margarita to English margarite and does not name the Old French stage: \"mär'ga-rite, n. [L. margarita; Gr. margarités, a pearl.] 1. a pearl. [Obs.]\""
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol1-4.txt, greps 'margarite|marguerite'",
+              "stance": "silent",
+              "note": "Funk & Wagnalls has no margarite/marguerite entry in the OCR; the only hits are 'Margaritana' (a mussel genus, vol. 3) and 'dudleyite … an alteration product of margarite' (vol. 2), neither with an etymology."
             }
           ]
         },
@@ -198,7 +362,47 @@
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. AHD_watkins1985.txt line 725 lists MARGARIC, MARGARINE, MARGARITE under margarītēs; Klein (leaf 504) s.v. Margaret 'fr. L. margarita, pearl' and s.v. margarine 'F.; ... fr. margarique ... fr. Gk. margaron, pearl'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt lines 112825-112884 s.v. margaric / margarin / margarine / margarite / margarita",
+              "stance": "supports",
+              "note": "WEB_vol1.txt line 112833, s.v. margarite: \"[L. margarita; Gr. margarítēs, a pearl.] 1. a pearl. [Obs.] 2. a hydrated silicate of calcium and aluminum, found as scales with a pearly luster.\" Same column, margaric: \"[Fr. margarique, from Gr. margaron, a pearl: so called from the pearly luster of its crystals.]\"; margarine: \"[Fr. margarine, from margarique, margaric.]\"; margarita: \"[L.Gr. margarités ... from Gr. margarités, pearl.]\" Webster covers four of the node's seven words (margarite, margarine, margaric, margarita) and traces all of them to Greek margaron/margarítēs 'pearl', with margarine explicitly named for the 'pearly luster of its crystals' — the chart's chain minus the Old French step for the chemical terms, which is how the node's derivation already describes it."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 269 s.v. Magpie (SKT.txt leaf 289)",
+              "stance": "partial",
+              "note": "SKT.txt leaf 289 (Skeat p. 269), s.v. Magpie: \"Mag is short for Magot, a familiar form of F. Marguerite, also used to denote a magpie. This is from L. Margarita, Gk. μαργαρίτης a pearl; cf. Pers. murwārīd, a pearl.\" Skeat gives the whole Greek → Latin → French chain and explicitly compares Persian murwārīd. Skeat has no 'margarite' headword; he covers the family only under Magpie (Margot < Marguerite < L. Margarita) — supporting Margaret/Marjorie but saying nothing about margarine or Rita."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol1-4.txt, greps 'margarite|margarine'",
+              "stance": "silent",
+              "note": "No margarite or Margaret entry surfaces in the Funk & Wagnalls OCR; only 'oleomargarine' (vol. 4 pronunciation key) and 'Margaritana' (vol. 3)."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "PHD",
+          "where": "p. 59 s.v. morwārīd (PHD.txt leaf 80)",
+          "stance": "supports",
+          "note": "PHD.txt leaf 80 (printed p. 59), s.v. morwārīd: \"morwārīd [mwlw'lyt' | M mwrwryd, N ~] pearl\" — MacKenzie's Book-Pahlavi spelling mwlw'lyt' is exactly Nourai's 'Murvârît', and 'N ~' means New Persian has the same word."
+        },
+        {
+          "src": "NYB",
+          "where": "Glossary p. 140 s.v. murvārīt (NYB_vol2_glossary.txt leaf 148)",
+          "stance": "contradicts",
+          "note": "NYB_vol2_glossary.txt leaf 148 (Glossary p. 140), s.v. murvārīt: \"murvārīt [mwlw'lyt'] pearl, coll. pearls ... MPrth mwrg'r'yd (A-H III), mwrgryd (MHC), borrowed from Gr μαργαρίτης; murvārīt with -v- < -γ- = NP murvārīd, SW form.\" Nyberg makes the Pahlavi word a LOAN FROM Greek, i.e. he reverses the chart's Pahlavi → Greek arrow."
+        },
+        {
+          "src": "HUB",
+          "where": "p. 248 §140 (HUB.txt leaf 258)",
+          "stance": "supports",
+          "note": "HUB.txt leaf 258 (Persische Studien p. 248, §140 'Für ap. g erscheint v in:'): \"marvarīd 'Perle' (marvarīdīn 'of pearl' JRAS. 1894, p. 488), phl. marvārīt etc. (Nöldeke, Pers. Stud. II, 44) = μαργαρίτης\" — NP marvārīd = Pahlavi marvārīt, equated with Greek margarítēs; listed among the Old-Persian g > v cases (Marv = OP Margu-), which is the -γ- > -v- change behind murwārīd."
         }
       ]
     },
@@ -243,6 +447,32 @@
               "status": "not_checked",
               "note": "FVA (Nahvi, Farhang-e vazheha-ye arabi dar farsi) has no digital copy (refs_online.json)."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 278 s.v. Mate (2) (SKT.txt leaf 298)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 298 (Skeat p. 278), s.v. Mate (2), to check-mate, confound. (Pers. & Arab.): \"From the game of Check-mate meant 'the king is dead.' ... — Pers. shāh māt, the king is dead, check-mate. — Pers. shāh, king (see Check); māt, he is dead, from Arab. māta, he died. Cf. Heb. mūth, to die. Hence Turk. and Pers. mat, astonished, confounded, amazed, receiving check; O.F. mat, 'mated, quelled, subdued'; M.E. mate, confounded; Ital. matto, mad.\" For this node: 'māt, he is dead, from Arab. māta, he died. Cf. Heb. mūth, to die' — the Arabic verbal root of which mawt is the maṣdar."
+            },
+            {
+              "src": "LKT",
+              "where": "p. 115 No. 1443 (LKT.txt leaf 142)",
+              "stance": "supports",
+              "note": "LKT.txt leaf 142 (Lokotsch p. 115), No. 1443: \"Ar. māt(a): 'Er ist gestorben, tot'; als Fachausdruck der Schachspieler šāh māt vom pers. šāh 'König' [Horn NpEt S. 170, Nr. 772]: 'Der König ist tot'; hieraus ist mit dem Schachspiele selbst der Ausdruck international geworden, vor allem it. scacco matto, prov. mat, frz. échec et mat, sp. jaque y mate, pg. chaque e mate, rum. mat; dtsch. schachmatt, engl. checkmate ... Dazu die Vb. it. mattare, frz. mater, prov. kat. sp. pg. matar 'mattsetzen, überwinden, besiegen' und schließlich sp. pg. matar 'töten' [und nicht etwa < lat. mactāre, worin ct zu ch geworden wäre wie factum > hecho].\""
+            },
+            {
+              "src": "FSD",
+              "where": "p. 457 s.v. Checkmate (FSD_vol1.txt leaf 511)",
+              "stance": "supports",
+              "note": "FSD_vol1.txt leaf 511 (printed p. 457), s.v. Checkmate, n.: \"The final position in a game of chess, in which the king of the losing player is placed in check and can not be extricated: commonly shortened to mate. ... [< F. échec et mat, < Ar. shāh-mat, < shāh (< Per. shāh), king, + māt, is dead.]\"; s.v. check: \"[< F. échec, OF. eschec, < Per. shāh, king.]\""
+            },
+            {
+              "src": "FVQ",
+              "where": "FVQ_pages.txt, greps 'mawt|maut'",
+              "stance": "silent",
+              "note": "No entry: mawt is native Arabic, not a Qur'ānic foreign word."
+            }
           ]
         },
         {
@@ -271,6 +501,26 @@
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. موت: '(مَ) [ع.] (اِ.) مرگ' (tagged Arabic; archived https://vajehyab.com/?q=موت&d=moein); s.v. مات: '(ص.) ۱- حیران، سرگشته. ۲- (اِ.) وضعیتی در بازی شطرنج که شاه قادر به هیچ حرکتی نیست و بازی به اتمام می‌رسد' and 'شاه مات: هنگامی که شاه شطرنج مات شود' (no origin tag shown online; archived https://vajehyab.com/?q=مات&d=moein)."
             }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 67676 (موت) and 28908 (کیش‌مات)",
+              "stance": "supports",
+              "note": "MON_part2.txt line 67676, s.v. موت: «موت: [ع.] (اِ.) مرگ» ('Arabic, noun, death'), with the compounds موت ابیض / موت احمر / موت اختیاری etc. MON_part2.txt line 28908, s.v. کیش‌مات: «کیش‌مات: (امر.) (شطرنج) هنگامی است که مهرهٔ شاه به طریقی کیش شود که قادر به هیچ نوع حرکتی نباشد. حریف، شاه مات می‌شود و بازی را می‌بازد» — 'checkmate: when the king piece is checked so that it can make no move; the opponent is šāh māt and loses the game'. Both of Nourai's Persian items are in Mo'in with the Arabic tag and the chess sense."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 4 pp. 1932-1933 (BQT_v4_pages.txt pdf pages 15-16)",
+              "stance": "silent",
+              "note": "BQT_v4_pages.txt pdf pages 15-16 = printed pp. 1932-1933 (the میم+الف bayān, which runs مابون، ماچ، ماخ، ماد، مادر …): there is no مات headword, and greps of the whole volume for «کیش مات», «شاه مات» return nothing. Borhān-e Qāṭeʿ largely excludes plain Arabic loanwords, so it is silent on mawt / māt / kīš-māt."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 278 s.v. Mate (2) (SKT.txt leaf 298)",
+              "stance": "partial",
+              "note": "Skeat records precisely the Persian sense the chart gives māt: \"Hence Turk. and Pers. mat, astonished, confounded, amazed, receiving check\" — i.e. he treats Persian māt 'stunned, confused' as secondary to the chess phrase šāh māt, which is the reverse of the ordering implied by the chart's gloss 'dead, dull, confused'."
+            }
           ]
         },
         {
@@ -295,6 +545,32 @@
               "status": "contradicts",
               "note": "POK_02.txt leaf 355 (IEW pp. 694-695), s.v. mad-: 'naß, triefen; auch von Fett triefen, vollsaftig, fett, gemästet' ... 'lat. madeō, -ēre naß sein, von Nässe triefen, reifen, voll sein, mattus trunken (*madi-to-s)'. Pokorny derives Latin mattus 'drunk' from *madi-to-s (root mad- 'wet'), not from Arabic — the dissent Nourai records in his NOTE."
             }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. II p. 231 s.v. mad- (WLD_Bd2_pages.txt leaf 236)",
+              "stance": "contradicts",
+              "note": "WLD_Bd2_pages.txt leaf 236 (Walde–Pokorny Bd. II p. 231), s.v. mad- 'naß, triefen': \"Lat. madeō, -ēre 'naß sein, von Nässe triefen', mattus 'trunken' (s. zur Form W. LEWb.² s. v., Sommer Hdb.² 231), wohl auch manō, -āre 'fließen, rinnen' ...\" Walde–Pokorny put Latin mattus under the IE root *mad- 'wet', i.e. with Pokorny against Nourai's Arabic origin."
+            },
+            {
+              "src": "LAT",
+              "where": "p. 695 s.v. matus (LAT.txt leaf 713; cf. leaf 707 'mattus: v. matus')",
+              "stance": "contradicts",
+              "note": "LAT.txt leaf 713 (Ernout–Meillet p. 695), s.v. matus: \"matus, -a, -um: ivre. Mot vulgaire (Petr. 41), qu'on retrouve dans les gloses ... On lit aussi mattus (natus): tristis, CGL IV 114,4 ... Mais peut-être sont-ce deux mots différents. Le rapprochement de l'ital. matto est aujourd'hui contesté ... Mattus peut représenter une prononciation vulgaire (dialectale) de *maditus.\" Ernout–Meillet date mattus to Petronius (1st c. CE) and derive it from *maditus (madēre), and they explicitly doubt the link with Italian matto (the chess word)."
+            },
+            {
+              "src": "AHD",
+              "where": "AHD_watkins1985.txt line 708, root mad-",
+              "stance": "silent",
+              "note": "AHD_watkins1985.txt line 708, root mad-: \"mad-. Moist, wet; also refers to various qualities of food. 1. Sanskrit madati ... 2. Suffixed form *mad-i- in Germanic *mati- ... MEAT; ... MATE¹ ... 3. ... MAST². [Pok. mad- 694.]\" The 1985 Watkins list derives MEAT, MATE¹ and MAST² from mad-, but does NOT list MAT/MATTE there — the Latin mattus link that Nourai's NOTE quotes from AHD:805 is in the dictionary entry, not in the root appendix."
+            },
+            {
+              "src": "LEW",
+              "where": "LEW_1910.txt, greps 'mattus|matus|madeo'",
+              "stance": "silent",
+              "note": "The local Walde LEW scan is a 305-leaf partial with unusable OCR (no dictionary entries recoverable), so it adds nothing on mattus."
+            }
           ]
         },
         {
@@ -313,6 +589,26 @@
               "ref": "FSD:1526",
               "status": "supports",
               "note": "FSD_vol3.txt leaf 51 (printed p. ~1517; Nourai 1526), s.v. mat (dull surface) — OCR badly garbled, but the etymology bracket reads '[< F. mat(t), dull, < L. mattus; see MATE2]'. Funk & Wagnalls thus takes French mat from Latin mattus and refers the reader to the checkmate word (mate2) for the Arabic origin. French mat 'dull' from Latin mattus, as the arrow says."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113629 s.v. mat, a.",
+              "stance": "contradicts",
+              "note": "WEB_vol1.txt line 113629, s.v. mat, a.: \"[... OFr. mat, defeated, from Ar. māt.] not glossy or shiny; lusterless; dull: said of a surface, or finish ... also spelled matte.\" Webster takes the 'dull' adjective straight from Old French mat 'defeated' < Arabic māt, with no Latin mattus in the chain at all. Webster's chain has no Latin mattus, so it contradicts the chart's Latin → French edge while agreeing with Nourai's ultimate Arabic source."
+            },
+            {
+              "src": "LAT",
+              "where": "p. 695 s.v. matus (LAT.txt leaf 713)",
+              "stance": "partial",
+              "note": "Ernout–Meillet, after deriving mattus from *maditus, add \"Le rapprochement de l'ital. matto est aujourd'hui contesté; cf. M.L. s.u. *mattus, 5438\" — i.e. they doubt that the Romance matto/mat family comes from Latin mattus at all, which undercuts the chart's Latin parent for French mat."
+            },
+            {
+              "src": "DEV",
+              "where": "p. 159 s.v. Mat (DEV.txt leaf 192)",
+              "stance": "supports",
+              "note": "Devic: \"Mat, adjectif, au sens de terne, vient du mat des échecs. « Dans les anciens auteurs, dit M. Littré, mat signifie las, humilié; c'est de ce sens qu'on est allé au sens de terne, qui paraît très-récent. »\" — the 'dull' sense is a development of the chess word, i.e. French mat 'dull' belongs with the Arabic/Persian branch rather than with Latin mattus."
             }
           ]
         },
@@ -337,6 +633,26 @@
               "ref": "AHD:805",
               "status": "contradicts",
               "note": "AHD online s.v. mat 2 (archived, https://ahdictionary.com/word/search.html?q=mat): '[From French, dull, from Old French, defeated, withered, perhaps from Latin mattus, stupefied, senseless, possibly from *maditus, past participle of madēre, to be wet.]' — English mat from French mat is confirmed, but AHD traces the word to Latin madēre (root mad-), not to Arabic māt; Nourai's NOTE acknowledges this. (AHD s.v. matte 2, archived https://ahdictionary.com/word/search.html?q=matte: 'from Old French, dull, from Latin mattus, stupefied; see MAT2'.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113629 s.v. mat, a.",
+              "stance": "supports",
+              "note": "WEB_vol1.txt line 113629, s.v. mat, a.: \"[... OFr. mat, defeated, from Ar. māt.] not glossy or shiny; lusterless; dull: said of a surface, or finish ... also spelled matte.\" Webster takes the 'dull' adjective straight from Old French mat 'defeated' < Arabic māt, with no Latin mattus in the chain at all."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 508 s.v. 'mat, adj., dull'",
+              "stance": "supports",
+              "note": "Klein: \"mat, adj., dull. — F., dull, lusterless, unpolished, fr. OF. mat, defeated, afflicted, depressed, dejected; dull, fr. Arab. māt in the sentence māt ash-shāh, the king has died. The word mat, orig. used only as a term of chess, gradually developed also the meanings faint, feeble, dull-colored.\" Klein confirms the French → English edge and, like Nourai, refuses the Latin mattus route."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 298 (Skeat p. 278), s.v. Mat",
+              "stance": "silent",
+              "note": "Skeat's only 'Mat' headword is the floor-covering: \"Mat. (L.) M.E. matte. A.S. — L. matta (Low L. natta), a mat\". He has no entry for mat/matte 'dull', so Skeat is silent on this node."
             }
           ]
         },
@@ -363,6 +679,26 @@
               "status": "supports",
               "note": "DEV.txt leaf 192 (Devic p. 159): 'Mat. Terme du jeu des échecs. (Voy. Échec.) Mat, adjectif, au sens de terne, vient du mat des échecs. « Dans les anciens auteurs, dit M. Littré, mat signifie las, humilié; c'est de ce sens qu'on est allé au sens de terne, qui paraît très-récent. » ... Il est remarquable qu'en hindoustani le terme māt, importé du persan, a aussi les deux sens'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "p. 115 No. 1443 (LKT.txt leaf 142)",
+              "stance": "supports",
+              "note": "LKT.txt leaf 142 (Lokotsch p. 115), No. 1443: \"Ar. māt(a): 'Er ist gestorben, tot'; als Fachausdruck der Schachspieler šāh māt vom pers. šāh 'König' [Horn NpEt S. 170, Nr. 772]: 'Der König ist tot'; hieraus ist mit dem Schachspiele selbst der Ausdruck international geworden, vor allem it. scacco matto, prov. mat, frz. échec et mat, sp. jaque y mate, pg. chaque e mate, rum. mat; dtsch. schachmatt, engl. checkmate ... Dazu die Vb. it. mattare, frz. mater, prov. kat. sp. pg. matar 'mattsetzen, überwinden, besiegen' und schließlich sp. pg. matar 'töten' [und nicht etwa < lat. mactāre, worin ct zu ch geworden wäre wie factum > hecho].\" Lokotsch names exactly this node's two items: 'frz. échec et mat' and the verb 'frz. mater'."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 78 s.v. Check and p. 278 s.v. Mate (2) (SKT.txt leaves 98, 298)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 98 (Skeat p. 78), s.v. Check: \"— O.F. eschec, 'a check at chess-play,' Cot. — Pers. shāh, a king, king at chess; whence shāh-māt, check-mate, lit. 'the king is dead,' from māt, he is dead.\" and, at Mate (2), \"O.F. eschec et mat, check-mate; Cot. … O.F. mat, 'mated, quelled, subdued'\"."
+            },
+            {
+              "src": "LAM",
+              "where": "p. 104 s.v. Échecs (LAM.txt leaf 161)",
+              "stance": "partial",
+              "note": "LAM.txt leaf 161 (Lammens p. 104), s.v. Échecs: \"L'expression échec et mat est une altération de ech-châh mât, que M. Dozy avait d'abord traduit par « le roi est mort » prenant mât pour le verbe arabe mourir. Plus tard dans son Supp. il s'est corrigé ... mât serait tout simplement un adjectif persan signifiant étonné, surpris.\" Lammens (after Dozy's second thoughts) detaches the chess mât from Arabic māta 'he died' and makes it the Persian adjective 'stunned' — the alternative Nourai's own NOTE alludes to."
+            }
           ]
         },
         {
@@ -387,6 +723,26 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 508 (printed pp. 948-949; Nourai's 946 = previous leaf), s.v. 'mat, adj., dull': 'F., dull, lusterless, unpolished, fr. OF. mat, defeated, afflicted, depressed, dejected; dull, fr. Arab. māt in the sentence māt ash-shāh, the king has died. The word mat, orig. used only as a term of chess, gradually developed also the meanings faint, feeble, dull-colored. See checkmate and cp. matador, mate, adj.'; s.v. 'matador': 'Sp., killer, murderer, fr. matar, to kill, murder, fr. Arab. māta, he died. Cp. checkmate. Cp. also mat, dull'; s.v. 'mate, tr. v.' (checkmate): 'ME. maten, fr. OF. mater, to defeat, overcome, fr. mat, checkmated; defeated, overcome'; 'mate, n., checkmate. — ME. mat, fr. MF., fr. OF.' Same leaf. Also KLN s.v. check (KLN_1966.txt leaf 154 (printed pp. 272-273), s.v. 'check' (chess): '... fr. Pers. shāh, king (in the Arab.-Pers. phrase shāh māt, the king is dead) ... cp. checkmate, chess, checker, exchequer'; 'checkmate' on the same leaf ends '(cp. also It. scaccomatto). See check, a sudden stop, and cp. mate, checkmate.')."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 278 s.v. Mate (2) (SKT.txt leaf 298)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 298 (Skeat p. 278), s.v. Mate (2), to check-mate, confound. (Pers. & Arab.): \"From the game of Check-mate meant 'the king is dead.' ... — Pers. shāh māt, the king is dead, check-mate. — Pers. shāh, king (see Check); māt, he is dead, from Arab. māta, he died. Cf. Heb. mūth, to die. Hence Turk. and Pers. mat, astonished, confounded, amazed, receiving check; O.F. mat, 'mated, quelled, subdued'; M.E. mate, confounded; Ital. matto, mad.\""
+            },
+            {
+              "src": "FSD",
+              "where": "p. 457 s.v. Checkmate (FSD_vol1.txt leaf 511)",
+              "stance": "supports",
+              "note": "FSD_vol1.txt leaf 511 (printed p. 457), s.v. Checkmate, n.: \"The final position in a game of chess, in which the king of the losing player is placed in check and can not be extricated: commonly shortened to mate. ... [< F. échec et mat, < Ar. shāh-mat, < shāh (< Per. shāh), king, + māt, is dead.]\"; s.v. check: \"[< F. échec, OF. eschec, < Per. shāh, king.]\""
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt lines 31744-31747 (checkmate), 31975 (chess)",
+              "stance": "partial",
+              "note": "Webster defines checkmate n./interj./v.t. ('in chess, to place in check … hence, to arrest and defeat') and, s.v. chess, gives \"from Per. shah, a king, the principal piece in the game\"; the etymology bracket of the checkmate entry itself is lost in the OCR, so Webster confirms the Persian šāh element but not, readably, the māt element."
+            }
           ]
         },
         {
@@ -407,6 +763,32 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 508 (printed pp. 948-949; Nourai's 946 = previous leaf), s.v. 'mat, adj., dull': 'F., dull, lusterless, unpolished, fr. OF. mat, defeated, afflicted, depressed, dejected; dull, fr. Arab. māt in the sentence māt ash-shāh, the king has died. The word mat, orig. used only as a term of chess, gradually developed also the meanings faint, feeble, dull-colored. See checkmate and cp. matador, mate, adj.'; s.v. 'matador': 'Sp., killer, murderer, fr. matar, to kill, murder, fr. Arab. māta, he died. Cp. checkmate. Cp. also mat, dull'; s.v. 'mate, tr. v.' (checkmate): 'ME. maten, fr. OF. mater, to defeat, overcome, fr. mat, checkmated; defeated, overcome'; 'mate, n., checkmate. — ME. mat, fr. MF., fr. OF.' Same leaf. 'matador ... fr. matar, to kill, murder, fr. Arab. māta, he died' — Nourai's arrow. (AHD s.v. matador, archived https://ahdictionary.com/word/search.html?q=matador, prefers 'possibly from Vulgar Latin *mattāre, to beat senseless, perhaps from Latin mattus'; Lokotsch 1443 sides with Klein: 'sp. pg. matar töten' from the chess word.)"
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 278 s.v. Matador (SKT.txt leaf 298)",
+              "stance": "contradicts",
+              "note": "SKT.txt leaf 298 (Skeat p. 278), s.v. Matador: \"Matador, the slayer of the bull in bull-fight. (Span. — L.) Span. matador, slayer. — Span. matar, to kill. — L. mactāre, to kill, orig. to honour by a sacrifice. Cf. Skt. mah, to honour. (√MAGH.)\" Skeat tags the word (Span. — L.) and derives matar from Latin mactāre, not from Arabic māta."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113638 s.v. matador",
+              "stance": "contradicts",
+              "note": "WEB_vol1.txt line 113638, s.v. matador: \"[Sp., a murderer, slayer, from matar, to kill, from L. mactāre, to sacrifice, immolate.] ... the bullfighter whose specialty is killing with a sword thrust.\""
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol3.txt s.v. matador",
+              "stance": "contradicts",
+              "note": "FSD_vol3.txt leaf ~15845 region, s.v. matador (OCR badly broken): the etymology bracket reads \"< Sp. matar (< L. mactāre) kill\" — Funk & Wagnalls routes Spanish matar to Latin mactāre, not to Arabic māta."
+            },
+            {
+              "src": "LKT",
+              "where": "p. 115 No. 1443 (LKT.txt leaf 142)",
+              "stance": "supports",
+              "note": "Lokotsch expressly rejects the Latin route: \"Dazu die Vb. it. mattare, frz. mater, prov. kat. sp. pg. matar 'mattsetzen, überwinden, besiegen' und schließlich sp. pg. matar 'töten' [und nicht etwa < lat. mactāre, worin ct zu ch geworden wäre wie factum > hecho]\" — the phonological argument (mactāre would have given Spanish *mechar) that Nourai's chart relies on."
+            }
           ]
         },
         {
@@ -426,6 +808,26 @@
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. ماتادور: '(دُ) [فر.] (اِ.) کسی که در میدان عمومی با گاو مبارزه می‌کند، گاوباز' — Mo'in marks the Persian word as a French loan, i.e. the French node is the immediate source. Archived https://vajehyab.com/?q=ماتادور&d=moein."
             }
+          ],
+          "consulted": [
+            {
+              "src": "PHN",
+              "where": "PHN.txt, grep '^MATADOR'",
+              "stance": "silent",
+              "note": "Pihan's dictionary of French words from Arabic, Persian and Turkish has no MATADOR article — it treats MAT (leaf 288, p. 257) only as the chess term; a Spanish-mediated bullfighting word falls outside his scope."
+            },
+            {
+              "src": "DEV",
+              "where": "DEV.txt, grep 'MATADOR'",
+              "stance": "silent",
+              "note": "Devic likewise has no matador entry; his Mat (leaf 192, p. 159) is the chess adjective only."
+            },
+            {
+              "src": "LKT",
+              "where": "p. 115 No. 1443 (LKT.txt leaf 142)",
+              "stance": "partial",
+              "note": "Lokotsch's international list under Ar. māt(a) includes 'frz. mater' and 'sp. pg. matar töten' but stops short of French matador, so he documents the Spanish verb the French noun is built on without confirming the Spanish → French borrowing itself."
+            }
           ]
         },
         {
@@ -443,6 +845,26 @@
               "ref": "MON:3678",
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. ماتادور [فر.] 'گاوباز' — French → Persian as drawn. Archived https://vajehyab.com/?q=ماتادور&d=moein."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt / MON_part2.txt, grep 'ماتادور|ماتادر'",
+              "stance": "silent",
+              "note": "The 2-vol Adena abridgement of Mo'in on disk has no ماتادور headword; the entry Nourai cites (MON:3678) is in the 6-vol print edition and is only reachable through vajehyab (see ref_check)."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v3/v4_pages.txt, grep 'ماتادور'",
+              "stance": "silent",
+              "note": "Borhān-e Qāṭeʿ (1652, ed. Mo'in 1963) is a dictionary of classical Persian and has no 20th-century European loanword ماتادور; pp. 1932-1933, where م+ا words run, go مابون، ماج، ماخ، ماد."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt / ARY_latin_index_pages.txt, greps 'ماتادور', 'MATADOR'",
+              "stance": "silent",
+              "note": "Aryanpur's Indo-European roots dictionary has no matador entry (its MAT- index lines are all under 'mother' and Sanskrit mātar-)."
             }
           ]
         },
@@ -462,7 +884,53 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 508 (printed pp. 948-949; Nourai's 946 = previous leaf), s.v. 'mat, adj., dull': 'F., dull, lusterless, unpolished, fr. OF. mat, defeated, afflicted, depressed, dejected; dull, fr. Arab. māt in the sentence māt ash-shāh, the king has died. The word mat, orig. used only as a term of chess, gradually developed also the meanings faint, feeble, dull-colored. See checkmate and cp. matador, mate, adj.'; s.v. 'matador': 'Sp., killer, murderer, fr. matar, to kill, murder, fr. Arab. māta, he died. Cp. checkmate. Cp. also mat, dull'; s.v. 'mate, tr. v.' (checkmate): 'ME. maten, fr. OF. mater, to defeat, overcome, fr. mat, checkmated; defeated, overcome'; 'mate, n., checkmate. — ME. mat, fr. MF., fr. OF.' Same leaf. 'matador, n. ... Sp., killer, murderer' — English from Spanish."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 278 s.v. Matador (SKT.txt leaf 298)",
+              "stance": "supports",
+              "note": "SKT.txt leaf 298 (Skeat p. 278), s.v. Matador: \"Matador, the slayer of the bull in bull-fight. (Span. — L.) Span. matador, slayer. — Span. matar, to kill. — L. mactāre, to kill, orig. to honour by a sacrifice. Cf. Skt. mah, to honour. (√MAGH.)\" Skeat confirms the node's own claim — English matador is Spanish matador 'slayer' — while routing the Spanish verb to Latin mactāre rather than Arabic māta (that dispute belongs to node 8)."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113638 s.v. matador",
+              "stance": "supports",
+              "note": "WEB_vol1.txt line 113638, s.v. matador: \"[Sp., a murderer, slayer, from matar, to kill, from L. mactāre, to sacrifice, immolate.] ... the bullfighter whose specialty is killing with a sword thrust.\" Same picture: Spanish → English confirmed, Latin mactāre preferred for the Spanish verb."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol3.txt s.v. matador",
+              "stance": "supports",
+              "note": "FSD_vol3.txt leaf ~15845 region, s.v. matador (OCR badly broken): the etymology bracket reads \"< Sp. matar (< L. mactāre) kill\" — Funk & Wagnalls routes Spanish matar to Latin mactāre, not to Arabic māta. Funk & Wagnalls also has 'matador' among the ombre/quadrille card senses and the bullfighting sense, both from Spanish."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "SKT",
+          "where": "p. 278 s.v. Mate (2) (SKT.txt leaf 298)",
+          "stance": "supports",
+          "note": "SKT.txt leaf 298 (Skeat p. 278), s.v. Mate (2), to check-mate, confound. (Pers. & Arab.): \"From the game of Check-mate meant 'the king is dead.' ... — Pers. shāh māt, the king is dead, check-mate. — Pers. shāh, king (see Check); māt, he is dead, from Arab. māta, he died. Cf. Heb. mūth, to die. Hence Turk. and Pers. mat, astonished, confounded, amazed, receiving check; O.F. mat, 'mated, quelled, subdued'; M.E. mate, confounded; Ital. matto, mad.\""
+        },
+        {
+          "src": "LKT",
+          "where": "p. 115 No. 1443 (LKT.txt leaf 142)",
+          "stance": "supports",
+          "note": "LKT.txt leaf 142 (Lokotsch p. 115), No. 1443: \"Ar. māt(a): 'Er ist gestorben, tot'; als Fachausdruck der Schachspieler šāh māt vom pers. šāh 'König' [Horn NpEt S. 170, Nr. 772]: 'Der König ist tot'; hieraus ist mit dem Schachspiele selbst der Ausdruck international geworden, vor allem it. scacco matto, prov. mat, frz. échec et mat, sp. jaque y mate, pg. chaque e mate, rum. mat; dtsch. schachmatt, engl. checkmate ... Dazu die Vb. it. mattare, frz. mater, prov. kat. sp. pg. matar 'mattsetzen, überwinden, besiegen' und schließlich sp. pg. matar 'töten' [und nicht etwa < lat. mactāre, worin ct zu ch geworden wäre wie factum > hecho].\""
+        },
+        {
+          "src": "LAM",
+          "where": "p. 104 s.v. Échecs (LAM.txt leaf 161)",
+          "stance": "partial",
+          "note": "LAM.txt leaf 161 (Lammens p. 104), s.v. Échecs: \"L'expression échec et mat est une altération de ech-châh mât, que M. Dozy avait d'abord traduit par « le roi est mort » prenant mât pour le verbe arabe mourir. Plus tard dans son Supp. il s'est corrigé ... mât serait tout simplement un adjectif persan signifiant étonné, surpris.\" Lammens (after Dozy's second thoughts) detaches the chess mât from Arabic māta 'he died' and makes it the Persian adjective 'stunned' — the alternative Nourai's own NOTE alludes to."
+        },
+        {
+          "src": "FVQ",
+          "where": "FVQ_pages.txt, greps 'mawt|maut'",
+          "stance": "silent",
+          "note": "Jeffery has no entry for mawt/māta — the root m-w-t is native Semitic and therefore outside the scope of The Foreign Vocabulary of the Qur'ān; the only hits are 'Haḍramawt' and a bibliographic 'al-Mawāqif'."
         }
       ]
     }
