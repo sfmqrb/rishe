@@ -34,8 +34,8 @@
         },
         {
           "ref": "VDQ:39",
-          "status": "not_checked",
-          "note": "VDQ (Badreh'i's Persian translation of Jeffery) is only on noorlib's JavaScript viewer; not readable here. Its substance = FVQ."
+          "status": "partial",
+          "note": "VDQ (Badreh'i's Persian translation of Jeffery) is still only on noorlib's JavaScript viewer, but the English original FVQ, of which it is a page-for-page translation, is on disk: FVQ pp.119-120 s.v. حور says 'It is much more likely that the word comes from the Phlv. hurust, meaning beautiful … Now hurust is a good Iranian word, the equivalent of Av. huraoða-'. So Jeffery does place hurust/huraoða- in this family, but he ends by deriving the Arabic word itself from Aramaic ḥwr 'to be white' — support for the Iranian branch of the chart, not for an Iranian etymology of Arabic ḥūr."
         }
       ],
       "nodes": [
@@ -61,6 +61,32 @@
               "status": "partial",
               "note": "SYN.txt leaf 946 (Buck p. 875; leaf 945 = p. 874), in 12.51 FORM/SHAPE (OCR garbled): '... OS liodan spring up, grow, Skt. rudh-, Av. raod- grow (12.53). Walde-P. 2.416. Feist 323.' Buck lists the Avestan word only as 'grow'; the 'face' gloss and the raoδa-taxma compound are not on this page."
             }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "cols. 1493-1495",
+              "stance": "supports",
+              "note": "AiW col. 1493 f.: 'j. ²raod- V. „wachsen“. Praes. 2 raoða-, 27 uruðya-; Perf. urūrud-. — PPfP. urušda-, urusta-; Inf. raoðe'; col. 1495: 'j. raoða- m. 1) „Wachstum“ (nur Komp.) 2) Plur. „das äussere Ansehen“ … Zum V. ²raod-. — ai. roha- m. „Erhebung“, np. roi „Gesicht“'. Bartholomae also has a separate ⁴raod- 'fliessen' and raodah- 'licht', so the numbering of Nourai's 'raod 1' matters."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 193",
+              "stance": "supports",
+              "note": "'*AVESTAN: YAv. raoð- (ruð-) “to grow” … IND. 2sg. med. YAv. raoðahe (Y 10.4), 3pl. raoðanti (V 5.19), impf. 3sg. araoðat (Y 9.11) … Partic. perf. pass. YAv. urusta- (V 19.18)' — the verb and its participle are exactly as Nourai's node has them."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II p. 416",
+              "stance": "supports",
+              "note": "'av. raodaiti „wächst“ … av. raoda- m. „Wuchs, Ansehen“, npers. roi „Gesicht“' — Walde-Pokorny give both of the node's glosses ('growth' and, via 'Ansehen', 'face')."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 180 s.v. rustan",
+              "stance": "supports",
+              "note": "'rustan [lwstn'] rod- [lwd-] to grow … — Av. (1492 sq.) ²raod-' — Nyberg cites AiW cols. 1492 ff. for the same Avestan verb."
+            }
           ]
         },
         {
@@ -79,6 +105,38 @@
               "ref": "BQT:944",
               "status": "partial",
               "note": "The روییدن/روی entries (BQT_v2_pages.txt leaves ~400-403, printed pp. ~944-946) are not legible in the OCR; but Mo'in's footnote s.v. رستم (leaf 408) states 'رو (بالش، نمو) [رستن و روییدن از همین ریشه است]', i.e. rūyīdan and rustan come from rō 'growth'. Pokorny 684 (checked at the root) gives 'npers. rōi Gesicht' under leudh-, the 'face' word of this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 614 p. 136 and no. 636 p. 141",
+              "stance": "supports",
+              "note": "HRN.txt leaf 157 (p.136): '614. rusten „wachsen“, Praes. roy-em, royiden, royaniden, rosta (arab. syr. LW. rustaq) … aw. √raod-, raoðaite „wachsen“; phlv. rustan … rod(i)šn bezw. roy(i)šn; ai. rodh-, rodhati'; leaf 162 (p.141): '636. (i)roi, ro „Gesicht“. aw. raoda- „Wuchs, Ansehen“; phlv. rod, hu-rod(i)šn (AV.); got. ludja „Antlitz“.' Horn treats 'grow' and 'face' as one etymology, as the node does."
+            },
+            {
+              "src": "HUB",
+              "where": "pp. 199-200",
+              "stance": "supports",
+              "note": "HUB.txt leaf 209 (p.199) among the examples of Av. ð > NP y: 'roi (ro) „Gesicht“ = zd. raoda-'; leaf 210 (p.200): 'royam „wachse“, inf. rustan, zd. raodahe'. Hübschmann's sound law is what licenses roð- > roy-."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 77",
+              "stance": "supports",
+              "note": "'rustan, roy- [lwstn', lwd- | M rwst, rwy-, N ~] grow. ~išn: growth' and '¹roy [lwd | M rwy, N ~] face' (MacKenzie keeps ²roy 'copper' apart)."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. روییدن (2-vol. Adena abridgement)",
+              "stance": "supports",
+              "note": "MON_part1.txt: 'روییدن rūyīdan [= رستن] (مص‌ل.) نمو کردن نباتات، بالیدن، رشد کردن' — Mo'in equates rūyīdan with rostan, as the chart's node does."
+            },
+            {
+              "src": "IEC",
+              "where": "p. 1103 s.v. rūs- (3)",
+              "stance": "partial",
+              "note": "'rūs- (3) “space, place”. Cf. reuos (2). WP II, 356. (Iranian ambig.) Per. rū, rūy, s. “face, surface”. To Av. raoðo “growth” accdg. to Justi, cf. leudh-); cf. also Per. rūsta, s. “village” … Lat. rūs … “open country, farmstead”.' Mann records the 'growth' etymology of rūy as Justi's, but files the word under a different root."
             }
           ]
         },
@@ -104,6 +162,38 @@
               "status": "partial",
               "note": "FSF_pages.txt leaf 265 (page numeral illegible; Nourai p. 199), s.v. 'رز (با زبر اول): ۱- باغ. ۲- انگور: چو ببرید رستم تن شاخ گز / بیامد ز دریا به ایوان و رز'. A Shahnameh glossary: confirms the word and glosses (garden, vine), gives no etymology."
             }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 76",
+              "stance": "partial",
+              "note": "'raz [/c, lz | N ~] vine; vineyard' — MacKenzie has the Middle Persian word (so the Persian form is genuine and old) but gives it no connection to rustan/roy-."
+            },
+            {
+              "src": "IEC",
+              "where": "pp. 659-660 s.v. laĝ-",
+              "stance": "contradicts",
+              "note": "IEC.txt ff-block 372 (printed 659-660): 'laĝ- “wind, creep; twist, winding object, creeper” — Per. raz “grapevine, vineyard”; OCS loza, Blg. lozà “vine”; Ukr. loza, f. “willow”; R lozà, f. “branch”.' Mann puts raz with Slavic loza under a 'creeper' root, not under leudho."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 135 s.v. razzāgī",
+              "stance": "partial",
+              "note": "'razzāgī „Weintrauben; Wein“ ← pers. raz „a vineyard“, mp. raz „vine, vineyard“' (fn. 3 Mackenzie s.v.) — confirms the word and its MP ancestor, no 'grow' etymology."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 178",
+              "stance": "silent",
+              "note": "Nyberg's glossary has only 'rāz [lʾc] a secret — Av. (1514) razah-'; there is no raz 'vine' in it, so nothing supports or contradicts the arrow from roȳ-."
+            },
+            {
+              "src": "HRN",
+              "where": "nos. 609-620, pp. 134-142",
+              "stance": "silent",
+              "note": "Horn's r- section (razm 612, rusten 614, roi 636, rēxtan 638 …) has no entry for raz 'vine'; he does not derive it from rusten."
+            }
           ]
         },
         {
@@ -111,7 +201,7 @@
           "lang": "Arabic",
           "words": "rauza",
           "verdict": "disputed",
-          "derivation": "Arabic rawḍa (رَوْضَة) 'garden, meadow' (Qurʾān 30:15 fī rawḍatin), pl. riyāḍ, is a native formation from the Semitic root r-w-ḍ (rāḍa 'to train, tame', rawḍa 'meadow where water collects'); it has the emphatic ḍ, which never arises in Arabic renderings of Persian z (Persian raz would give *rawz/rāz, not rawḍ-). Wiktionary and Wehr treat it as Arabic with no Persian source; Persian rowze is listed only as a descendant. Nourai's PLA:138 derivation from raz, and the alternatives his NOTE records (AFM/Addai Sher from rīxtan 'to pour'; VDQ/Jeffery from Pahlavi rōt 'river'), are all unsupported by modern lexicography; the whole sub-branch #3 → #4 → #5 does not belong to *leudh-.",
+          "derivation": "Arabic rawḍa (رَوْضَة) 'garden, meadow' (Qurʾān 30:15 fī rawḍatin), pl. riyāḍ, is a native formation from the Semitic root r-w-ḍ (rāḍa 'to train, tame', rawḍa 'meadow where water collects'); it has the emphatic ḍ, which never arises in Arabic renderings of Persian z (Persian raz would give *rawz/rāz, not rawḍ-). Wiktionary and Wehr treat it as Arabic with no Persian source; Persian rowze is listed only as a descendant. Nourai's PLA:138 derivation from raz, and the alternatives his NOTE records (AFM/Addai Sher from rīxtan 'to pour'; VDQ/Jeffery from Pahlavi rōt 'river'), are all unsupported by modern lexicography; the whole sub-branch #3 → #4 → #5 does not belong to *leudh-. Correction after checking Asbaghi on disk: PLA:138 does say what Nourai claims ('rauda „Garten“ aus pers. raz ← Verb rostan, mp. rod < aw. raod / ap. raza „Weinstock“'), and Jeffery (FVQ 145-146, after Vollers) likewise calls the word Iranian but derives it from Pahlavi rod 'river'; the verdict stays disputed because standard Arabic lexicography keeps rawda inside the root r-w-d and the two Iranian proposals contradict each other.",
           "sources": [
             "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%B6%D8%A9",
             "https://en.wikipedia.org/wiki/Rauza"
@@ -119,13 +209,44 @@
           "ref_check": [
             {
               "ref": "PLA:138",
-              "status": "not_checked",
-              "note": "PLA (Asbaghi, Persische Lehnwörter im Arabischen) is not online in full text (HathiTrust search-only)."
+              "status": "supports",
+              "note": "Asbaghi is now on disk. PLA_pages.txt leaf 153 = printed p.138: 'rauda: „Garten“ aus pers. raz ← Verb rostan, mp. rod < aw. raod ¹⁰ / ap. raza „Weinstock“ ¹¹' (fn. 10 = Bartholomae AIW S. 1495, fn. 11 = Mayrhofer S. 141). This is exactly Nourai's arrow Persian raz → Arabic rawda, and Asbaghi even ties raz back to aw. raod-. Mainstream Arabic lexicography (Wehr, Lane, Wiktionary) nevertheless treats rawda as a native r-w-d formation, and Jeffery/Vollers derive it from Pahlavi rod 'river' instead, so the node stays disputed."
             },
             {
               "ref": "AFM:75",
               "status": "contradicts",
               "note": "AFM_pages.txt leaf 76 (Addi Shir p. ~75): '(الروضة) من الرمل والعشب مستنقع الماء ... وهي من ريختن أي صبّ، أخذتها العرب وتصرفت بها' — Addi Shir derives rawḍa from Persian rīxtan 'to pour', not from raz. Cited by Nourai only in his NOTE as the dissenting view; it does not support the arrow raz → rawḍa."
+            },
+            {
+              "ref": "VDQ:226",
+              "status": "partial",
+              "note": "The chart's own NOTE cites VDQ:226 for a derivation from Pahlavi 'rot: river'. Checked via the English original: FVQ pp.145-146 s.v. رَوْضَة — 'There can be little doubt that the word was borrowed as a noun into Arabic … Vollers, ZDMG l, 641, 642, noted that the word is originally Iranian, and he suggested that it was from the Iranian √rud, meaning to grow … From the same root comes Phlv. rod “a lake or riverbed” and the Pers. rūd commonly used for river … Thus the conclusion would seem to be that the Arabs learned the Phlv. rod in the Mesopotamian area and used it for any well watered or irrigated land.' The NOTE reports Jeffery accurately; his source word is rod 'river', not raz."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "pp. 145-146 s.v. رَوْضَة",
+              "stance": "partial",
+              "note": "FVQ_pages leaf 162 f. (pp.145-146): 'There can be little doubt that the word was borrowed as a noun into Arabic … Vollers, ZDMG l, 641, 642, noted that the word is originally Iranian, and he suggested that it was from the Iranian √rud, meaning to grow. The Av. raoð means to flow, from which comes raoðah “a river” and raoða “growth” … From the same root comes Phlv. rod “a lake or riverbed” and the Pers. rūd … Thus the conclusion would seem to be that the Arabs learned the Phlv. rod in the Mesopotamian area and used it for any well watered or irrigated land.' Jeffery agrees the word is Iranian, but takes it from rod 'river' — which is exactly the alternative (VDQ:226) recorded in the chart's own NOTE."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1709, p. 138",
+              "stance": "contradicts",
+              "note": "LKT.txt leaf 164 (p.138): '1709. Ar. rauda: „Garten“, plr. rijad, im Magrib singularisch gebraucht als „Blumenbeet“; hieraus sp. arriates …'. Lokotsch heads the entry 'Ar.' (he marks Persian etyma 'Pers.', e.g. 1711 Pers. rāwand) and gives no Iranian source at all."
+            },
+            {
+              "src": "AFA",
+              "where": "p. 149",
+              "stance": "silent",
+              "note": "Fraenkel's discussion of Arabic garden words treats جنة (from Aramaic) and حدیقة ('Zaun' > 'Garten'), but has no entry for روضة — i.e. he does not class it as a foreign word."
+            },
+            {
+              "src": "KLN",
+              "where": "grep 'rawda/rauda'",
+              "stance": "silent",
+              "note": "Klein's dictionary has no rawda/rauda entry (the word gave no English derivative), so it can neither support nor contradict."
             }
           ]
         },
@@ -146,6 +267,26 @@
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. روضه: '(رَ ض) [ع. روضة] (اِ.) ۱- باغ، گلزار. ج. ریاض، روضات. ۲- مطالب و اشعاری که هنگام عزا ... می‌خوانند' — Persian rowzeh marked as Arabic rawḍa, as the arrow says. Archived https://vajehyab.com/?q=روضه&d=moein."
             }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. روضه",
+              "stance": "supports",
+              "note": "MON_part1.txt: 'روضه rowza(t) [ع. روضة] (اِ.) باغ، گلزار؛ ج. ریاض، روضات … خطبه‌ای که در مراسم عزاداری بالای منبر خوانند … این کلمه از نام «روضة الشهداء» مأخوذ است' — tagged [ع.] Arabic, plural riyāḍ as in the chart, and the Karbalā sense explained from Kāshefī's title."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 2, leaf 440 (printed p. ~983)",
+              "stance": "partial",
+              "note": "Borhān-e Qāṭeʿ has no independent روضه headword, only Persian compounds built on the Arabic loan: 'روضه باغ رفیع — کنایه از ریاض بهشت است', 'روضه ترکیب', 'روضه دوزخ‌بار', 'روضه فیروزه‌رنگ' — confirming the word and its 'garden of paradise' value in Persian, with no etymology."
+            },
+            {
+              "src": "FVQ",
+              "where": "pp. 145-146",
+              "stance": "partial",
+              "note": "Jeffery's entry documents the Arabic word (Qur'ān xxx.14, xlii.21; 'A rich, well watered meadow; thence a luxurious garden', LA ix.23) that Persian rowza borrows back; his Iranian etymology is via rod 'river', not raz."
+            }
           ]
         },
         {
@@ -163,6 +304,26 @@
               "ref": "none",
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. Addi Shir's rawnaq entry checked at node #7 presupposes Persian rū + nīk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vols. 1-2 (grep رونیک)",
+              "stance": "silent",
+              "note": "No رونیک headword anywhere in the OCR of Borhān-e Qāṭeʿ vols. 1-2 (BQT_v1_pages.txt / BQT_v2_pages.txt); Borhān does not know the word."
+            },
+            {
+              "src": "MON",
+              "where": "grep رونیک",
+              "stance": "silent",
+              "note": "Mo'in's lexicon text has رونق, روند, رونما but no رونیک; the compound is not lexicalised in Mo'in either."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 77",
+              "stance": "silent",
+              "note": "MacKenzie has no Middle Persian *roy-nēk compound, so there is no pre-Islamic form for Arabic rawnaq to be borrowed from."
             }
           ]
         },
@@ -182,6 +343,26 @@
               "status": "supports",
               "note": "AFM_pages.txt leaf 75 (Addi Shir p. ~74): '(الرونق) حسن كل شيء، معرب رو أي وجه ومن نيك أي صبيح' — i.e. rawnaq is an Arabicized compound of Persian rū 'face' + nīk 'fair', exactly Nourai's arrow."
             }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "pp. 134-138 (r- section)",
+              "stance": "silent",
+              "note": "Asbaghi's alphabetical inventory of Persian loanwords in Arabic runs razzāgī, razdaq, rizq, rustaq, rustam (p.135) … raudaq, rūdak, rauzan, rūznāma, rauda, rūt (p.138): there is no rawnaq entry — the standard modern list of Persian loans in Arabic does not include it."
+            },
+            {
+              "src": "LKT",
+              "where": "Arabic index p. 762a (ratam 1707 … razza 1713)",
+              "stance": "silent",
+              "note": "Lokotsch's Arabic word-index runs 'ratam 1707, ratl 1708, rauda 1709, razza 1713 …' with no rawnaq — he does not treat it as an orientalism of Persian origin."
+            },
+            {
+              "src": "KLN",
+              "where": "grep 'rawnaq/raunaq'",
+              "stance": "silent",
+              "note": "Not in Klein (no English derivative), so no independent Semitic-vs-Iranian judgement there."
+            }
           ]
         },
         {
@@ -199,6 +380,26 @@
               "ref": "MON:1694",
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. رونق: '(رُ نَ) [ع.] (اِمص.) ۱- فروغ، روشنایی. ۲- زیبایی، جمال. ۳- رواج' — tagged Arabic. Archived https://vajehyab.com/?q=رونق&d=moein."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. رونق",
+              "stance": "supports",
+              "note": "MON_part1.txt: 'رونق rownaq [ع.] (امص.) فروغ، روشنایی؛ زیبایی، جمال؛ رواج' — tagged [ع.] Arabic, exactly the direction of the #7→#8 arrow."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 2, leaf 115 (printed p. ~658)",
+              "stance": "partial",
+              "note": "Borhān uses رونق only inside glosses and in a quoted verse ('… و رونق باشد، شهید (بلخی) گفت'), i.e. it is a familiar loan in classical Persian; no etymology is offered."
+            },
+            {
+              "src": "PLA",
+              "where": "r- section pp. 134-138",
+              "stance": "silent",
+              "note": "Asbaghi lists no rawnaq, so the Persian word cannot be a returning Persian loan on his evidence — consistent with a plain Arabic > Persian borrowing."
             }
           ]
         },
@@ -222,6 +423,38 @@
               "status": "partial",
               "note": "vajehyab.com (Mo'in) s.v. روستا: '(اِ.) ده، قریه' — the online Mo'in text gives the meaning only; the print edition's Pahlavi form (rōstāk) is stripped online, so the Pahlavi → Persian arrow cannot be confirmed from it. Archived https://vajehyab.com/?q=روستا&d=moein."
             }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 77 (and English index p. 137)",
+              "stance": "contradicts",
+              "note": "'rostag [lw(t)stʾk' | (P rwdystʾg), N rūstā] river-bed; district, province'; English index: 'river rod; ~ bank rodbār; ~ bed rostag'. MacKenzie's first gloss is 'river-bed' and his Psalter spelling rwdystʾg shows the first member is rod 'river', not the 'grow' root."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 179",
+              "stance": "contradicts",
+              "note": "'rotastāk [lwtstʾk], rostak [lwstʾk] district, province … MPrth rwdystʾg; Paz. rostā …; NP rostā(i); Arab. lw. rustāg, ruzdāg'. Nyberg's headword form rot-astāk has rot 'river' (his own entry: 'rot [lwt'] river — OP rautah-; NP rod')."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 614, p. 136",
+              "stance": "supports",
+              "note": "Horn lists 'rostā (arab. syr. LW. rustāq)' and 'phlv. rostāk [rodastak, Salemann, Eine Pärsenhandschrift 68, 10]' under no. 614 rusten 'wachsen' — this 1893 treatment is the source of Nourai's arrow; but Horn himself flags Salemann's rodastak reading, which is the 'river' analysis."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 135 s.v. ruzdāg",
+              "stance": "partial",
+              "note": "'ruzdāg „Marktflecken“ ← pers. rūstā, mp. rostāk, rotstāk; ar. Lw. ruzdāg u. rustāg' — Asbaghi gives both Middle Persian shapes, the second with the -t- of rot."
+            },
+            {
+              "src": "BRT",
+              "where": "cols. 1493-1495",
+              "stance": "partial",
+              "note": "AiW keeps four homonymous roots apart: '²raod- V. „wachsen“' (col. 1493) and '⁴raod- V. „fliessen“' (col. 1495), the latter with rautah- 'river' (cf. the note 'ai. srávati „er fliesst“, vgl. rautah-, ⁴raod-'). Nourai's chart assigns rostāk to the wrong one of the two."
+            }
           ]
         },
         {
@@ -229,7 +462,7 @@
           "lang": "Persian",
           "words": "rŭstâ",
           "verdict": "confirmed",
-          "derivation": "The edge is correct: MP rōstāg 'district' → Classical Persian rōstā(y) «روستا / روستای» 'countryside, village' with regular loss of the final -g of the MP -āg suffix (as in dānāg > dānā); the Arabic loan rustāq (with -q) and the by-form rostāq preserve the older shape. The semantic narrowing 'rural district' → 'village' is a Persian development. As noted at #9, the root is 'river' (*srew-), not 'grow'.",
+          "derivation": "The edge is correct: MP rōstāg 'district' → Classical Persian rōstā(y) «روستا / روستای» 'countryside, village' with regular loss of the final -g of the MP -āg suffix (as in dānāg > dānā); the Arabic loan rustāq (with -q) and the by-form rostāq preserve the older shape. The semantic narrowing 'rural district' → 'village' is a Persian development. As noted at #9, the root is 'river' (*srew-), not 'grow'. Nourai's IEC:1103 turns out to be a correct page reference: Mann does list 'Per. rūsta, s. “village”' there, but under rūs- 'space, place' beside Latin rūs — a third etymology, neither 'grow' nor 'river'.",
           "sources": [
             "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%B3%D8%AA%D8%A7",
             "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%D8%AA%D8%A7%D9%82",
@@ -238,13 +471,45 @@
           "ref_check": [
             {
               "ref": "IEC:1103",
-              "status": "not_found",
-              "note": "IEC.txt leaves 604-607 (Mann cols ~1097-1104) contain the roudh-/rudh- 'red, rust' entries; no rōstāk/rūstā 'village' is there. Mann does list 'Per. cf. rustan, rostan, inf. grow; rust, rost growth' under ordhos (1) 'erect; growth; grow, rise' (IEC.txt line 12277), i.e. under a different root."
+              "status": "partial",
+              "note": "Re-checked with the printed page numerals rather than the leaf formula: IEC p.1103 (the numeral '1103' is printed immediately above the entry, IEC.txt ff-block 611) reads 'rūs- (3) “space, place”. Cf. reuos (2). WP II, 356. (Iranian ambig.) Per. rū, rūy, s. “face, surface”. To Av. raoðo “growth” accdg. to Justi, cf. leudh-); cf. also Per. rūsta, s. “village”: … Lat. rūs, gs: rūris, n. “open country, farmstead” …'. So Nourai's page citation is correct after all — Mann does have Per. rūstā there — but he files it under rūs- 'space, place' (with Lat. rūs), and mentions the Av. raoðo 'growth' link only as Justi's opinion about rū/rūy. Supersedes the earlier 'not_found'."
             },
             {
               "ref": "MON:1689",
-              "status": "partial",
-              "note": "vajehyab.com (Mo'in) s.v. روستا: 'ده، قریه' — meaning only, no origin tag online. Archived https://vajehyab.com/?q=روستا&d=moein."
+              "status": "supports",
+              "note": "Re-checked in Mo'in's own text (the 2-vol. Adena abridgement, MON_part1.txt, is on disk; page numbers differ from Nourai's 6-vol. edition): 'روستا(ی): (قد. rostāk) [معر. رستاق – روستاق – رسداق – رزداق] (اِ.) ده، قریه', and s.v. رستاق: '[معر. روستاک] (اِ.) ده، دیه، روستا؛ ج. رساتیق'. Mo'in does give the Pahlavi antecedent rostāk and the Arabicised rustāq, so the Pahlavi → Persian arrow of #9→#10 is supported (only the page number could not be confirmed). Supersedes the earlier vajehyab-only 'partial'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 77",
+              "stance": "supports",
+              "note": "'rostag … N rūstā' — MacKenzie gives the New Persian outcome of the Middle Persian word directly, confirming the #9→#10 edge."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 179",
+              "stance": "supports",
+              "note": "'Paz. rostā, pl. rostāihā; NP rostā(i) “any inhabited place; a market-town, a village”' — including the by-form روستای of the chart."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 614, p. 136",
+              "stance": "supports",
+              "note": "'rostā (arab. syr. LW. rustāq)' beside 'phlv. rostāk' — same edge, and the Arabic/Syriac loan rustāq as its witness."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 135",
+              "stance": "supports",
+              "note": "'ruzdāg … ← pers. rūstā … mp. rostāk, rotstāk' and 'rustāq „Marktflecken“ = ruzdāq, mand. rustag, syr. …'."
+            },
+            {
+              "src": "BQT",
+              "where": "vols. 1-2 (grep روستا)",
+              "stance": "silent",
+              "note": "No روستا headword in the OCR of Borhān vols. 1-2 (only روستایی/روستائان inside Mo'in's footnotes); Borhān contributes nothing here."
             }
           ]
         },
@@ -270,6 +535,32 @@
               "status": "partial",
               "note": "SYN.txt leaf 946 (Buck p. 875; leaf 945 = p. 874), in 12.51 FORM/SHAPE (OCR garbled): '... OS liodan spring up, grow, Skt. rudh-, Av. raod- grow (12.53). Walde-P. 2.416. Feist 323.' Buck lists the Avestan word only as 'grow'; the 'face' gloss and the raoδa-taxma compound are not on this page."
             }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "cols. 626-627 s.v. taxma-",
+              "stance": "contradicts",
+              "note": "AiW col. 626: 'j., g. (, p.) taxma- Adj. „fortis, tapfer, tüchtig, energisch, heldenhaft“', col. 627 taxmo.təma-, taxma-spāda- (OP). There is no compound *raoða-taxma-/raodaṣ-taxma- anywhere in the Avestan lexicon — the Avestan label of this node has no textual basis."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 179",
+              "stance": "contradicts",
+              "note": "'Rotastahm [lwtsthm] n. pr. — NP Rustam; Old Sogd rwstmy' — the attested Middle Persian name has rot 'river' as first member, not raoða- 'growth'."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 135 s.v. rustam",
+              "stance": "contradicts",
+              "note": "'rustam „Reichsfeldherr“ ← mp. rotastahm, mand. rustam' — Asbaghi too reads the first element as rot."
+            },
+            {
+              "src": "IEC",
+              "where": "grep 'taxma/Rustam'",
+              "stance": "silent",
+              "note": "Mann's comparative dictionary has no entry for the name or for an IE *leudh-o-teg-mo- compound."
+            }
           ]
         },
         {
@@ -288,6 +579,32 @@
               "status": "supports",
               "note": "BQT_v2_pages.txt leaf 408 (printed p. ~951), Mo'in's footnote s.v. رستم: 'رستم = رستهم: رو (بالش، نمو) [رستن و روییدن از همین ریشه است] + تهم = tahm در پارسی باستان، گاتها و دیگر بخشهای اوستا بمعنی دلیر و پهلوان؛ تهمتن نیز از همین ریشه است بمعنی بزرگ‌پیکر و قوی‌اندام ... رستم یعنی کشیده‌بالا و بزرگ‌تن و قوی‌پیکر (یشتها ۲ ص ۱۳۹) ... مارکوارت تصور کرده است که رئوتس‌تخم (اوستا) عنوان و صفتی برای ... ' — i.e. Mo'in derives Rostam from rō 'growth' + tahm 'strong', exactly Nourai's raoδa-taxma."
             }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "vol. II p. 179",
+              "stance": "supports",
+              "note": "'Rotastahm [lwtsthm] n. pr. 116². — NP Rustam; Old Sogd rwstmy, Reichelt, Sogd. Handschr.-R. II, 63' — the MP > NP edge (and the Sogdian intermediate contraction) is confirmed; the first element is rot 'river'."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 135",
+              "stance": "supports",
+              "note": "'rustam „Reichsfeldherr“ … mp. rotastahm, mand. rustam' — same MP antecedent, and an Aramaic/Mandaic witness of the name."
+            },
+            {
+              "src": "PHD",
+              "where": "grep 'Rustam/Rostahm'",
+              "stance": "silent",
+              "note": "MacKenzie's Concise Pahlavi Dictionary excludes proper names, so it has no Rostahm entry."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. رستم (2-vol. abridgement)",
+              "stance": "partial",
+              "note": "'رستم: مرد شجاع، دلیر، پهلوان' — the appellative use is recorded, but this abridgement carries no etymology (the etymological footnote is in BQT, checked under ref_check)."
+            }
           ]
         },
         {
@@ -304,13 +621,39 @@
           "ref_check": [
             {
               "ref": "VDQ:39",
-              "status": "not_checked",
-              "note": "VDQ (Badreh'i's Persian translation of Jeffery) is only on noorlib's JavaScript viewer; not readable here. Its substance = FVQ."
+              "status": "supports",
+              "note": "Checked through the English original (VDQ = Badreh'i's Persian translation of FVQ; noorlib's viewer is still unreadable here). FVQ p.120: 'Now hurust is a good Iranian word, the equivalent of Av. huraoða-, and though these Pahlavi works are late the conceptions in them are early and there can be no question of borrowing from the Semitic.' Jeffery thus prints huraoða-, confirming that the chart's 'hava-rd' is a scan corruption of hu-raoða."
             },
             {
               "ref": "MAG:186",
               "status": "not_checked",
               "note": "MAG (Widengren, Muhammad the Apostle of God, 1955) has no full text online."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "s.vv. čarāiti-, bənj-, ima- (grep 'huraoð')",
+              "stance": "supports",
+              "note": "AiW cites the adjective repeatedly: 'j. čarāiti- f. „junge Frau“ … čarāitiš (NS.) huraoðaya … V. 3.24'; 'kəhrpa huraoðaya “.. des schöngestaltetem Leib huldigte AhM.” Yt 10.90'; '… tənūm yā mē vaenaite huraoða Y 10.14'; 'sraosš … huraoða' (Y 57.3 etc.). The Avestan word is hu-raoða-, so the chart's 'hava-rd' is a scan corruption, as the node says."
+            },
+            {
+              "src": "FVQ",
+              "where": "p. 120",
+              "stance": "supports",
+              "note": "'Now hurust is a good Iranian word, the equivalent of Av. huraoða-, and though these Pahlavi works are late the conceptions in them are early' — Jeffery spells the Avestan form Nourai's node should have printed."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 103 s.v. hūrī",
+              "stance": "supports",
+              "note": "'hūrī „Huri, Paradiesjungfrau, Schönheit“ ← mp. hūrast „gut gewachsen“ ← aw. huraoða' — again the Avestan compound hu- + raoða-."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 193",
+              "stance": "partial",
+              "note": "Cheung's dictionary covers verbs, so huraoða- is not a headword; but the root *Hraud 'to grow' (YAv. raoð-) that its second member contains is there, confirming the analysis hu- 'good' + raoða- 'growth'."
             }
           ]
         },
@@ -332,8 +675,40 @@
             },
             {
               "ref": "VDQ:39",
-              "status": "not_checked",
-              "note": "VDQ (Badreh'i's Persian translation of Jeffery) is only on noorlib's JavaScript viewer; not readable here. Its substance = FVQ."
+              "status": "supports",
+              "note": "Checked through the English original FVQ pp.119-120: 'It is much more likely that the word comes from the Phlv. hurust, meaning beautiful, and used in the Pahlavi books of the beauteous damsels of Paradise, e.g. in Arda Viraf, iv, 18, and in Hadoxt Nask, ii, 23 … Now hurust is a good Iranian word, the equivalent of Av. huraoða-.' The Pahlavi word, its meaning and its Avestan ancestry are exactly as the node has them."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 48",
+              "stance": "supports",
+              "note": "'hu-|-ramag [hwlmk'] having good flocks. ~-rust [-lwst'] well-grown' (p.48); English index p.164: 'well-grown hurust'. MacKenzie has exactly the Pahlavi word and gloss of the node."
+            },
+            {
+              "src": "FVQ",
+              "where": "pp. 119-120",
+              "stance": "supports",
+              "note": "'It is much more likely that the word comes from the Phlv. hurust, meaning beautiful, and used in the Pahlavi books of the beauteous damsels of Paradise, e.g. in Arda Viraf, iv, 18, and in Hadoxt Nask, ii, 23 … where we have the picture of a graceful damsel, white-armed, strong, with dazzling face and prominent breasts.'"
+            },
+            {
+              "src": "PLA",
+              "where": "p. 103",
+              "stance": "supports",
+              "note": "'mp. hūrast „gut gewachsen“' — same Middle Persian word and meaning (Asbaghi's transcription hūrast for hurust)."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 636, p. 141",
+              "stance": "partial",
+              "note": "'phlv. rod, hu-rod(i)šn (AV.)' — Horn cites the Ardā Wīrāz word in the abstract form hu-rodišn beside the participial hurust; both are hu- + the same root."
+            },
+            {
+              "src": "NYB",
+              "where": "grep 'hurust'",
+              "stance": "silent",
+              "note": "Nyberg's glossary (to the texts he edits) does not contain hurust; it has rustan/rod- 'to grow' (p.180), the verb it is built on."
             }
           ]
         },
@@ -352,13 +727,39 @@
           "ref_check": [
             {
               "ref": "VDQ:39",
-              "status": "not_checked",
-              "note": "VDQ (Badreh'i's Persian translation of Jeffery) is only on noorlib's JavaScript viewer; not readable here. Its substance = FVQ."
+              "status": "partial",
+              "note": "Checked through the English original FVQ pp.117-120. Jeffery does propose hurust ('It is much more likely that the word comes from the Phlv. hurust'), but his own conclusion is mixed: he documents ḥūr in pre-Islamic poetry ('ʿAbīd b. al-Abraṣ, vii, 24; ʿAdī b. Zaid; Qaʿnab') and ends 'it does seem certain that the word ḥūr in its sense of whiteness, and used of fair-skinned damsels, came into use among the Northern Arabs as a borrowing from the Christian communities, and then Muhammad, under the influence of the Iranian hurust, used it of the maidens of Paradise.' i.e. Iranian influence on the Qur'ānic concept, not on the Arabic form — which is why the node stays disputed."
             },
             {
               "ref": "MAG:186",
               "status": "not_checked",
               "note": "MAG (Widengren, Muhammad the Apostle of God, 1955) has no full text online."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "leaf 402 (printed pp. ~779-780) s.v. houri",
+              "stance": "contradicts",
+              "note": "'houri, n., a nymph of the Moslem Paradise … F., fr. Pers. hūrī, fr. Arab. hūr, pl. of aḥwar, fem. ḥaurāʾ, “having beautiful black eyes”, fr. ḥawira, “had black eyes”, which is rel. to Heb. ḥāwar, Aram.-Syr. ḥəwār, “was white”, Heb. ḥūr, “white stuff”' — a wholly Semitic derivation, with no Iranian element."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 848, p. 69",
+              "stance": "contradicts",
+              "note": "'848. Ar. ḥaurāʾ: Fem. zu aḥwar „schwarzäugig“ besonders von einer Gazelle, einem Jünglinge oder einer Jungfrau gesagt; dazu plur. ḥūr. Dieses Wort betrachteten die Perser … als sglr. und fügten ein ī der Einheit an: ḥūrī' — Arabic in origin, Persian only secondarily."
+            },
+            {
+              "src": "FVQ",
+              "where": "pp. 117-120",
+              "stance": "partial",
+              "note": "Jeffery documents the pre-Islamic Arabic use ('ʿAbīd b. al-Abraṣ, vii, 24 “And maidens like ivory statues, white of eyes, did we capture”'; 'ʿAdī b. Zaid'; Qaʿnab) and concludes (p.120): 'it does seem certain that the word ḥūr in its sense of whiteness, and used of fair-skinned damsels, came into use among the Northern Arabs as a borrowing from the Christian communities, and then Muhammad, under the influence of the Iranian hurust, used it of the maidens of Paradise.' So the Iranian word shaped the Qur'ānic concept, not the Arabic form."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 103 s.v. hūrī",
+              "stance": "partial",
+              "note": "Asbaghi records the derivation Nourai draws ('hūrī … ← mp. hūrast „gut gewachsen“ ← aw. huraoða') but rejects it in favour of a different Persian source: 'Meiner Meinung nach ist hūrī ein fem. Elativ zu aḥwar u. aḥūrā, welcher von den Arabern einfach für einen ar. Elativ maskulin gehalten wurde … daher ist die eigentliche Bedeutung „Herrin“.'"
             }
           ]
         },
@@ -380,6 +781,26 @@
               "status": "supports",
               "note": "vajehyab.com (Mo'in) s.v. حور: '[ع.] (اِ.) ۱- زن سیاه چشم. ۲- زن زیباروی'; حوری '[ع - فا.] زن بهشتی' — Persian ḥūr marked as Arabic. Archived https://vajehyab.com/?q=حور&d=moein."
             }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. احور",
+              "stance": "supports",
+              "note": "MON_part1.txt: 'احور aḥwar [ع.] (ص.) سیاه‌چشم، دارای چشمی مانند چشم آهو … مؤنث حوراء (ف. حورا)؛ ج. حور' — Mo'in tags the family Arabic and gives ḥūr as the plural of aḥwar, i.e. the Arabic > Persian direction of the #15→#16 arrow."
+            },
+            {
+              "src": "KLN",
+              "where": "leaf 402 s.v. houri",
+              "stance": "supports",
+              "note": "'F., fr. Pers. hūrī, fr. Arab. hūr … The -ī in Pers. hūrī is a formative element serving to denote the singular' — exactly the Persian حوری of the node's 'extra' words, and the route on to French/English."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 848, p. 69",
+              "stance": "supports",
+              "note": "'… hieraus zur Bezeichnung einer reizenden Frau sp. hurí, frz. houri, ndl. engl. houri, dtsch. Huri' — the Persian singulative ḥūrī is the source of the European word."
+            }
           ]
         },
         {
@@ -397,6 +818,26 @@
               "ref": "SOD:344",
               "status": "supports",
               "note": "SOD_pages.txt leaf 411 (Gharib p. 344), entry 8562: 'rwδ- B, M, S — rōδ < Av. raod-; *fraud-; Parth. rōd-; Khot. rw-; Yaghn. ur-; inf. -y; (to) grow. BBB 580; GMS 586; TSP 2.10, 18 ...'; entry 8563 'rwd C = rwδ-'. Gharib derives Sogdian rwδ- 'to grow' from Av. raod-, the root of this chart."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "p. 193 s.v. *Hraud",
+              "stance": "supports",
+              "note": "'*SOGDIAN: BSogd. rwð-, MSogd. rwst (pret. stem) “to grow” || (+ *pati-) SSogd. ptrwð-, CSogd. ptryst-, MSogd. ptrwð- “to grow up”. Pres.: IND. 3sg. BSogd. rwðtt, rwðt … Inf.: BSogd. rwðʾy' — the Sogdian verb belongs to Proto-Iranian *Hraud < PIE *H₁leudʰ-, i.e. to Nourai's root."
+            },
+            {
+              "src": "BRT",
+              "where": "col. 1493",
+              "stance": "partial",
+              "note": "AiW's '²raod- V. „wachsen“' is the Avestan member of the same equation; Bartholomae of course does not cite Sogdian (1904), but the Avestan verb is the direct cognate of Sogd. rwð-."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 77",
+              "stance": "partial",
+              "note": "'rustan, roy- [lwstn', lwd-] grow' — the Middle Persian cognate with the same ð > y development that Sogdian rwð- preserves unchanged."
             }
           ]
         },
@@ -417,6 +858,26 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 476 (printed pp. 884-885), s.v. 'liberal': 'fr. liber, free, fr. I.-E. base *leudhero-s, whence also Gk. eleutheros, free. This base prob. meant orig. belonging to the people ... and derives fr. base *leudho-, *leudhi-, people, whence also OSlav. ljudŭ ... OE. lēod ... G. Leute ... I.-E. base *leudho-, *leudhi-, people, is a derivative of base *leudh-, to grow, rise. This latter appears in OI. rōdhati, grows, rises, climbs, Avestic raoδa-, growth, authority, Toch. A lut-k, to cause to grow. Cp. liberate, liberty, liege, livery ...' '*leudhero-s ... derives fr. base *leudho-, *leudhi-, people ... a derivative of base *leudh-, to grow, rise' — both of Nourai's forms."
             }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. II pp. 416-417",
+              "stance": "supports",
+              "note": "p.416: '(Nachwuchs → Menge, Volk:) ahd. liut, ags. lead „Volk“, mhd. liute „Leute“'; p.417: 'aksl. ljudьje pl. „die Leute“ … lett. ļaudis pl. „Leute, Volk“, lit. liaudis … nach Schrader IA. 9, 172 gr. ἐλεύθερος „frei (= Volksangehöriger)“ = ital. *loufero- in lat. līber, fal. loferta „liberta“'. Both of the node's two derivatives are there."
+            },
+            {
+              "src": "IEC",
+              "where": "pp. 683-684",
+              "stance": "supports",
+              "note": "'leudheros (leudhər-) “active, free; action, freedom, abandon” … WP II, 417 … Myc. and Gk. eleútheros “free”; Venetic louzera “the goddess Libera”; Paelig. loufir “free”; Lat. liber' and 'leudhis “tribe, people”. Cf. leudho, leudheros. WP II, 416'."
+            },
+            {
+              "src": "AHD",
+              "where": "p. 38 s.v. leudh-²",
+              "stance": "partial",
+              "note": "Watkins lists only the suffixed form '*leudh-ero- in Latin liber, free (the precise semantic development is obscure)'; the 'people' derivative *leudho-/-i- (Leute, ljudьje) does not appear in his entry, so AHD supports leudhero- but not leudho-."
+            }
           ]
         },
         {
@@ -433,6 +894,32 @@
               "ref": "none",
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. Klein s.v. liberal (checked at #18): 'fr. liber, free, fr. I.-E. base *leudhero-s'; Pokorny 684 (root): 'gr. eleutheros frei aus *leudhero-s = lat. līber frei'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "pp. 632-633 s.v. līber",
+              "stance": "partial",
+              "note": "Ernout-Meillet: 'Pel. loufir “liber” et fal. loferta montrent que l'ī de liber reposerait sur un ancien ou (qui peut être issu de eu); ceci justifierait un rapprochement avec gr. ἐλεύθερος. Un rapprochement avec v.h.a. liuti “gens”, lette ļaudis “gens, peuple” et v.sl. ljudige … n'est pas exclu, mais ne s'impose pas.' They accept the Greek equation but treat the link to the 'people/grow' family as optional."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II pp. 416-417",
+              "stance": "supports",
+              "note": "'lat. Liber, ital. Gott des Wachstums, der Zeugung, Anpflanzung (aus *loudhero-, *loufero-, *leudhero-), osk. gen. Liivfreis „Liberi“, lat. līberi, -orum „die Kinder“, ältest auch von einem einzigen Kind, also *„Nachwuchs“' (p.416) and 'gr. ἐλεύθερος … = ital. *loufero- in lat. līber' (p.417)."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 250 s.v. Liberal",
+              "stance": "contradicts",
+              "note": "SKT.txt leaf 270 (p.250): 'Liberal. (F.-L.) M.E. liberal … L. līberālis, befitting a free or generous. — L. līber, free. Allied to libet, pleases, it is one's pleasure; Skt. lubh-, desire.' Skeat attaches līber to *leubh- 'to desire, love', not to *leudh- 'to grow'."
+            },
+            {
+              "src": "AHD",
+              "where": "p. 38",
+              "stance": "supports",
+              "note": "'Suffixed form *leudh-ero- in Latin liber, free (the precise semantic development is obscure)' — the same derivation as the node, with the caveat about the semantics."
             }
           ]
         },
@@ -454,7 +941,53 @@
               "status": "not_checked",
               "note": "Nourai cites no reference for this node. Klein (KLN_1966.txt leaf 231, s.v. deliver): 'OF. delivrer ... fr. VL. dēlīberāre, fr. de- and līberāre, to set free, fr. līber, free'; Klein s.v. Latvia (leaf 467): 'the country of the Letts', which he does not connect with *leudh-."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "pp. 239 and 250",
+              "stance": "partial",
+              "note": "'deliver. (F.-L.) OF. delivrer, set free. — Low L. dēlīberāre, to set free. L. dē, from; līberāre, to free, from līber' (p.250) and 'Deliver; see Liberal' (p.239) — deliver and liberty are confirmed; Skeat has no Latvia entry and derives līber itself from *leubh-, so the node's chain holds only from Latin onwards."
+            },
+            {
+              "src": "AHD",
+              "where": "p. 38 and index (pp. 1418, 1741 of the 1985 printing)",
+              "stance": "partial",
+              "note": "The Watkins index gives 'DELIVER leudh-2', 'LIBERTY leudh-2', 'LIBERAL leudh-2', 'LIBERTINE leudh-2', 'LIVERY leudh-2' — confirming liberty and deliver; Latvia and Lett appear nowhere under leudh-."
+            },
+            {
+              "src": "KLN",
+              "where": "leaf 467 s.v. Latvia and leaf 474 s.v. Lett (printed pp. ~910 and ~924)",
+              "stance": "partial",
+              "note": "'Latvia, n. — Lit. “the country of the Letts”. See Lett and cp. lat.'; 'Lett, n., an inhabitant of Latvia. — The word orig. meant “people”. It comes fr. OHG. liuti (whence MHG. liute, G. Leute), “people”, which is possibly cogn. with Gk. ἐλεύθερος, L. liber, “free”. See liberal.' Klein is the only book on the shelf that links Latvia to this root, and only through an equation of Latvis with OHG liuti that Baltic scholarship does not accept."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II p. 416",
+          "stance": "supports",
+          "note": "WLD_Bd2 p.416 s.v. leudh-: 'leudh- „emporwachsen, hochkommen“. Ai. rodhati, rohati „steigt, wächst“, av. raodaiti „wächst“, ai. roha- m. „das Aufsteigen, Erhebung, Höhe“, av. raoda- m. „Wuchs, Ansehen“, npers. roi „Gesicht“; lat. Liber … got. liudan, ahd. liotan, as. liodan, ags. leodan „wachsen“' — the same single root Nourai draws; nothing corresponds to his second label 'Rei'."
+        },
+        {
+          "src": "AHD",
+          "where": "p. 38 s.v. leudh-²",
+          "stance": "supports",
+          "note": "AHD_watkins1985.txt leaf 67 (p.38): 'leudh-². To mount up, grow. Suffixed form *leudh-ero- in Latin liber, free (the precise semantic development is obscure): LIBERAL, LIBERATE, LIBERTINE, LIBERTY, LIVERY; DELIVER. [Pok. 1. leudh- 684.]' Watkins keeps a homonymous leudh-¹ 'to go' (Gk. prosēlutos), so the gloss 'to grow' and the Pokorny page are right."
+        },
+        {
+          "src": "IEC",
+          "where": "p. 683 s.v. leudho",
+          "stance": "supports",
+          "note": "IEC.txt ff-block 386 (printed 683): 'leudho “grow, thrive”. WP II, 416. Cf. leudheros, leudhis, loudh-. Skt. rodhāmi, id.; Av. raoðē, mp. id.; Go. liudan “grow”; OE leodan, sv. 2 “grow”'; beside it 'loudhos … “growing, rising; growth” … Av. raoðo, m. id.' (p.772)."
+        },
+        {
+          "src": "CHEUNG",
+          "where": "p. 193 s.v. *Hraud",
+          "stance": "supports",
+          "note": "CHEUNG.txt: '*Hraud “to grow (bigger)” … *PIE *H₁leudʰ- “to grow, rise” = LIV: 248 f. | Pok.: 306 f., 684 f. *IE COGNATES: Gr. ἐλεύθερος, OIrish luss “plant”, Goth. liudan, OE leodan “to grow”' — the Iranian branch of the root, with Ir. r- the regular reflex of PIE *l."
         }
       ]
     }
