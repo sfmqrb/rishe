@@ -1,0 +1,534 @@
+{
+  "pdf_page": 57,
+  "book_page": 27,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Angh",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂enǵʰ- 'to constrict, tighten; narrow, painfully constricted' (Pokorny angh- 42–43; Watkins/AHD angh- 'tight, painfully constricted, painful')",
+      "note": "Root form, language label and gloss are all right. Pokorny IEW 42–43 heads the entry 'angh- (kelt. auch engh-) ‚eng, einengen, schnüren‘, z. T. auch von seelischer Beklemmung, Angst' and lists exactly the branches Nourai draws (Avestan verbal forms, Latin ango/angustus, Germanic angr/angust); AHD gives 'angh-. Tight, painfully constricted, painful ... [Pok. ang̑h- 42.]'. Two cross-cutting caveats: (1) the Avestan form printed in the book, 'azaehě', is not a real Avestan word — the PDF page image confirms the book itself prints 'azaehě', so this is Nourai's own corruption (not a scan error) of Av. ǫzaŋhē (Bartholomae AiW 363–4, Pokorny p.42 'ǫzaŋhē'); (2) the ni-āz / niyāz branch is claimed by a different root in current Iranian scholarship: Cheung, Etymological Dictionary of the Iranian Verb (2007) 171–172, files Av. niiāzata / niiāzaiiən and MP/Pth./Sogd./NP niyāz under *Haz 'to drive, lead' (PIE *h₂eǵ-, Skt. aj-, Lat. agō), not under *angh-. Bartholomae, Walde-Pokorny I 62 and Moʼin (following Bartholomae) all support Nourai; Cheung is the dissent.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-",
+        "https://ahdictionary.com/word/indoeurop.html",
+        "https://www.etymonline.com/word/anger"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:42",
+          "status": "supports",
+          "note": "POK_01.txt ↵-leaf 50 (printed p.42/43 — the '43' page numeral falls inside this leaf): 'anghos-, anghes ‚Beklemmung, Bedrängnis‘: ai. ámhas- n. ‚Angst, Bedrängnis, Not‘ ..., av. ǫzah- ‚Bedrängung, Not, Gefangenschaft‘ ... lat. angor m. ... angus-tus ‚eng‘ (aus *anghos-to-s); angustiae'; the database text POK_full.txt gives 'Root / lemma: angh- (*hengh-) / Meaning: \"narrow, *press\" ... References: WP. I. 62 f., WH. I 47. / Page(s): 42-43'. Grep: grep -n 'lemma: angh-' POK_full.txt."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "azaehě; ni-az",
+          "verdict": "disputed",
+          "derivation": "Two items. (a) 'azaehě' is a corrupt rendering of Young Avestan ǫzaŋhē, the infinitive of ǫz- 'to lace up, constrict, oppress' (Bartholomae AiW s.v.: 'j. ǫzaŋhe Inf. ‚zu bedrängen, in Not zu bringen‘: avaŋhe narǫm ašaonǫm ǫz° Yt 13.39'), beside the s-stem ǫzah- n. '1) Ein-, Zusammenschnürung der Kehle, Erdrosselung; 2) Bedrängung, Enge, Not; Gefangenschaft' (Yt 10.22, V 16.10, Y 10.17). Phonology: PIE *h₂enǵʰ- > Proto-Iranian *anź- > Av. ǫz- (the nasal is written with the nasalised vowel ǫ before the fricative), the exact match of Lat. angō/angor and Skt. áṃhas-. So Nourai's gloss 'compressed, in need' is right and the arrow root→Avestan is right for this word, but the printed shape is impossible Avestan. (b) 'ni-az' = Av. ǫz- with the preverb ni-, in the lengthened grade *ni-āz-, attested only in finite forms: ni-āzata 'she laces her waist in' (Yt 5.127, of Anāhitā) and ni-āzaiiən 'they shall wedge (it) in' (V 13.30). No Avestan noun *ni-āz- 'need' exists — Nourai's gloss 'that which pushes you down, need' back-projects the Middle Persian abstract. Walde-Pokorny I 62 print exactly this set ('Verbal av. ǫzaŋhe ‚zu bedrängen, in Not zu bringen‘, tiefstufig av. ny-azata ‚sie schnürt sich‘, ny-āzayən ‚sie sollen hineinzwängen‘'), and Bartholomae's own footnote to ǫz- points forward to 'np. niyāz ‚Mangel‘ bei Hbm. AGr. I.105'. THE DISPUTE: Cheung 2007:171–172 removes ni-āz from this root altogether and files it under Proto-Iranian *Haz 'to drive, lead' (< PIE *h₂eǵ-, Skt. aj-, Lat. agō), reading YAv. caus. (+ni-) 'to straiten' (citing De Vaan 2003:34), with MP nydʾc /niyāz/, Pth. nyʼz, Sogd. nyʼz and NP niyāz listed as its nominal continuations. Because the node's second word is assigned to a different root by the current standard work, the node takes the worse verdict.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:42",
+              "status": "supports",
+              "note": "POK_full.txt s.v. angh-: 'Material: Verbal: Avestan ǫzaŋhē “to press”, lengthened grade Avestan ny-azata “she squeezes herself into her corset”, ny-azayen “to wedge oneself in” ... Page(s): 42-43'; the German original (POK_01.txt leaf 50) has 'av. ǫzah- ‚Bedrängung, Not, Gefangenschaft‘'. So p.42 does carry both of Nourai's Avestan items — but in the shapes ǫzaŋhē / ny-āzata, not 'azaehě'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.v. ǫz-, ǫzaŋhe, ǫzah- (BRT.txt lines 7853–7862)",
+              "stance": "supports",
+              "note": "'j. ǫz- V. ‚schnüren‘. Praes. 3 aza- (nyaza-). Inf. ǫzaŋhe ... mit ni ‚einschnüren, einzwängen‘: hā hī maiδīm nyāzata ‚sie schnürt sich ihre Taille‘ Yt 5.127 ... ‚hineinzwängen in —‘ ... nyāzayən V 13.30. Vgl. gt. āna, lat. angō; s. auch ǫzah- ... s. aber np. niyāz ‚Mangel‘ bei Hbm. AGr. I.105.' Bartholomae both derives the forms from *angh- and connects them with NP niyāz — exactly Nourai's arrow."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 62 s.v. angh-",
+              "stance": "supports",
+              "note": "'angh- (kelt. auch engh-) ‚eng, einengen, schnüren‘, z. T. auch von seelischer Beklemmung, Angst. Verbal av. ǫzaŋhe ‚zu bedrängen, in Not zu bringen‘, tiefstufig av. ny-azata ‚sie schnürt sich‘, ny-āzayən ‚sie sollen hineinzwängen‘ (zum ā s. Bartholomae IF. 8, 235 m. Lit., Altiran. Wb. 362)'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 171–172 s.v. *Haz 'to drive, lead'",
+              "stance": "contradicts",
+              "note": "'*Haz ‚to drive, lead’. AVESTAN: az- ‚to lead’ || ... (+ *ni-) caus. ‚to straiten’ (cf. De Vaan 2003: 34) ... INJ. med. 3sg. YAv. niiazata (Yt 5.127), 3pl. YAv. niiazaiiən (V 13.30). MIDDLE PERSIAN: (+ *ni-) BMP nydʾc /niyaz/, MMP nyʼz ‚want, need, misery’ ... NWIR: (+ *ni-) NP niyaz ‚need’.' Cheung thus takes the very forms Pokorny/Bartholomae use as *angh- evidence and assigns them to PIE *h₂eǵ- 'drive' instead."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. angh-",
+              "stance": "partial",
+              "note": "'angh-. Tight, painfully constricted, painful. ... [Pok. angh- 42.]' — confirms the root and its gloss but lists no Indo-Iranian reflexes at all, so it is silent on the Avestan node itself."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "niyâz",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian niyāz, Book Pahlavi ⟨nydʾc⟩ = ⟨nyʾc⟩, Manichaean MP and Parthian ⟨nyʼz⟩ 'need, want, misery' (MacKenzie, Concise Pahlavi Dictionary s.v.), with the derivatives niyāzōmand 'needy' and niyāzōmandīh 'poverty' and the negated compound abē-niyāz 'free from want'. Formally it is an Old Iranian action-noun *ni-āza- built to the verb seen in Av. ni-āz-: the preverb ni- + ā of the lengthened grade gives MP niyā- (the glide y is automatic between i and ā), and Old Iranian intervocalic -z- is kept, spelt ⟨c⟩ in Book Pahlavi. Age: Armenian took the compound over in the Arsacid period as apeṛniaz / apeniaz 'without need' = MP abē-niyāz (Hübschmann, Persische Studien §91), which shows the word already existed in Middle Iranian; Sogdian nyʼz 'need' and Christian Sogdian nyʼzʼwt 'needy' show the same formation in the eastern branch. Only the ultimate root attribution is contested (see node 1); that MP niyāz contains ni- + the āz- verb is agreed by everyone, Cheung included.",
+          "sources": [
+            "https://vajehyab.com/moein/%D9%86%DB%8C%D8%A7%D8%B2"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:4877",
+              "status": "partial",
+              "note": "The 6-vol Amir Kabir Moʼin is not online in any form, so p.4877 itself cannot be opened. Moʼin's entry as served by vajehyab.com/moein/نیاز reads '[په.] (اِ.) ۱- حاجت، احتیاج. ۲- نذری که برای گرفتن مراد و حاجت ... دهند' — the origin tag [په.] = Pahlavi is precisely the Pahlavi node Nourai draws, so the content of the citation is right even though the page cannot be verified."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD s.v. niyāz (PHD.txt line 514)",
+              "stance": "supports",
+              "note": "'niyāz [nydʾc | M nyʼz, N ~] need, want, misery. ~ōmand [-ʼwmnd | N ~mand] needy. ~ōmandīh: poverty.' Also 'abē-|-niyaz [-nyʼc] free from want.' The Manichaean and New Persian equations are MacKenzie's own."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien §91 (HUB.txt line 6330)",
+              "stance": "supports",
+              "note": "'apeniaz ‚bedürfnisslos‘ = np. be-niyaz' — the Armenian loan proves an Arsacid-era Middle Persian abē-niyāz, i.e. the Pahlavi stage Nourai's chart requires."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 171 s.v. *Haz",
+              "stance": "partial",
+              "note": "Gives exactly the same Middle Iranian material ('MIDDLE PERSIAN: (+ *ni-) BMP nydʾc /niyaz/, MMP nyʼz ‚want, need, misery’ ... PARTHIAN: (+ *ni-) nyʼz ... SOGDIAN: CSogd. nyʼzʼwt ‚needing, needy’, MSogd. nyʼz ‚need’') but under a different PIE root."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (glossary)",
+              "stance": "silent",
+              "note": "grep -n 'niyāz|niyaz|nyʼc' NYB_vol2_glossary.txt NYB_vol1.txt returns nothing; the word does not occur in the texts Nyberg glosses."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "niâz; nîâzî",
+          "verdict": "confirmed",
+          "derivation": "MP niyāz passes into New Persian unchanged as نیاز niyāz 'need, want', with the derived adjectives نیازمند / نیازومند niyāz(ō)mand 'needy' (= MP niyāzōmand) — exactly the two forms Nourai prints in the box — and the Islamic-era religious sense 'votive offering made to obtain a wish' (Moʼin sense 2; Farhang-e Neẓām, quoted in Moʼin's note to Borhān). The second word نیازی niyāzī 'beloved, sweetheart' is a separate lexicographic item: Asadi Ṭusi's Loghat-e Fors already has «نیاز، دوست بود» with Labībī's line «ایا نیاز بمن ساز و مر مرا مگذار», and Rashīdī corrects him: «لیکن بمعنی دوست، نیازی است نه نیاز» — i.e. in the 'friend/beloved' sense the correct form carries the -ī, which is why Nourai's chart gives 'nîâzî: need, dear friend, sweetheart'; the ʿOsmān Mokhtārī couplet he quotes (دلم خستهٔ ناز توست ای نیازی) uses it in that sense. Semantically the 'sweetheart' sense is the object of one's niyāz, i.e. 'the one one longs for'.",
+          "sources": [
+            "https://vajehyab.com/moein/%D9%86%DB%8C%D8%A7%D8%B2",
+            "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7%D8%B2",
+            "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7%D8%B2%D9%85%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2222",
+              "status": "supports",
+              "note": "Checked with the local scan of Borhān-e Qāṭeʿ vol. 4 (BQT_v4_pages.txt, [pdf page 305] = printed 2222). Headword «نیاز بکسر اول بروزن حجاز، حاجت بود»; Moʼin's etymological footnote (n. 3, OCR garbled but legible): 'پهلوی niyāz (احتیاج، ضرورت، فقدان). از اوستا ni-āz ... و ریشهٔ āz بمعنی بستن، فشار آوردن و مجبور کردن (بستن، فشار دادن، بزور داخل کردن) «بارتولمه ۳۹۲» ... ǫzah (ضرورت، تنگی، احتیاج) «بارتولمه ۳۹۲»' — i.e. Pahlavi niyāz from Avestan ni-āz, root āz 'to bind, press, force', citing Bartholomae col. 392: literally Nourai's chain, source and all. The same page carries footnote 5 'باین معنی نیازمند، نیازومند و نیازی (ه.م.) است' (Nourai's script_extra) and footnote 8 with Rashīdī's 'لیکن بمعنی دوست، نیازی است نه نیاز' and Asadi's 'نیاز، دوست بود'."
+            },
+            {
+              "ref": "MON:4877",
+              "status": "partial",
+              "note": "Same as node 2: the 6-vol Moʼin is not online, so the page cannot be opened; the online Moʼin entry نیاز '[په.] (اِ.) ۱- حاجت، احتیاج' (vajehyab.com/moein/نیاز) supports the content."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 4, printed p. 2222 (scan pdf page 305)",
+              "stance": "supports",
+              "note": "See ref_check: headword نیاز 'need' + Moʼin's footnote deriving it from Pahlavi niyāz < Avestan ni-āz, and the نیازی 'beloved' discussion."
+            },
+            {
+              "src": "MON",
+              "where": "Moʼin, Farhang-e Fārsi s.v. نیاز (via vajehyab)",
+              "stance": "supports",
+              "note": "'[په.] (اِ.) ۱- حاجت ، احتیاج. ۲- نذری که برای گرفتن مراد و حاجت به کسی یا جایی دهند' — Pahlavi origin tag, 'need' plus the votive sense."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss no. 247 'be, ehe ‚ohne‘' (HRN.txt line 2525)",
+              "stance": "partial",
+              "note": "Horn has no separate entry for niyāz; he cites it only inside the bē- entry: 'phlv. ape- (pāz. awe-), z. B. ape-ḥīm, ape-vnās etc., be (ZPGl.), vergl. arm. LW. ape-niaz' — which does confirm the Pahlavi→New Persian continuity of the word."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 172 s.v. *Haz, NWIR section",
+              "stance": "partial",
+              "note": "'(+ *ni-) NP niyaz ‚need’' — the New Persian word and its ni-āz analysis are confirmed, but attached to *Haz 'to drive' rather than to *angh-."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e Rishe-hā-ye Hend-o-Orupāyi (ARY_pages.txt / ARY_latin_index_pages.txt)",
+              "stance": "silent",
+              "note": "grep of the Persian text and of the Latin index for نیاز / NIYAZ / ANGH returns no root entry; the word is not treated."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Latin",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box standing for the Latin branch of *h₂enǵʰ-: the verb angō, -ere 'to press tight, throttle; to distress' (the exact match of Gk. ἄγχω and Av. ǫzaŋhē), its nouns angor 'constriction of the throat; anguish' and angina 'quinsy', the adjective anxius (< *angh-s-io-) 'uneasy, solicitous', and the s-stem adjective angustus < *angh-os-to-s 'narrow' with its abstract angustia(e) 'narrowness, straits, distress'. Ernout–Meillet stress that the double sense Nourai needs is Latin-internal: 'Ango se dit du physique et du moral; ce même double sens se retrouve dans les substantifs dérivés'. Both English words in the daughter box come out of this Latin material.",
+          "sources": [
+            "https://ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. angh-: '4. Latin angere, to strangle, draw tight: ANXIOUS. 5. Suffixed form *angh-os-to- in Latin angustus, narrow: ANGUISH.' Exactly this node and its English child."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout–Meillet, DELL p. 59 s.vv. ango, angustus",
+              "stance": "supports",
+              "note": "'ango, -is, -xi, anctum, -ere: étreindre, oppresser, serrer (la gorge) ... Ango se dit du physique et du moral; ce même double sens se retrouve dans les substantifs dérivés: angor, -oris (m.) ... angor est aegritudo premens, Cic. Tu. 4,18 ... angustus: étroit, serré ... D'où angustia, employé surtout au pl. angustiae ... puis au sens moral ‚gêne‘.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. anger, n. (KLN_1966.txt)",
+              "stance": "supports",
+              "note": "'... L. angere, ‚to press together, throttle, torment’, angustus, ‚narrow’ ... fr. I.-E. base *angh-, ‚to narrow, compress’.'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW 42–43",
+              "stance": "supports",
+              "note": "'lat. ango ‚beenge, schnüre zu‘ ... lat. angor m. ... angus-tus ‚eng‘ (aus *anghos-to-s); angustiae ‚Enge, Klemme, Schwierigkeiten‘.'"
+            },
+            {
+              "src": "LEW",
+              "where": "Walde–Hofmann index (LEW_1910.txt line 10454)",
+              "stance": "partial",
+              "note": "The local file is only the index volume; it lists 'ango, angul I 46', i.e. the entry stands at LEW I 46 (= the 'WH. I 47' Pokorny cites), but the article text itself is not in the local copy."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "anxious, anguish",
+          "verdict": "confirmed",
+          "derivation": "Two different routes out of the Latin box. ANXIOUS is a learned 16th/17th-c. borrowing straight from Latin anxius 'solicitous, uneasy' (formed to angere), with English -ous substituted for Latin -us; the noun anxiety likewise from anxietas, -atis. ANGUISH came by the popular route: Latin angustia (classical plural angustiae) 'narrowness, straits' > Old French anguisse, angoisse 'choking sensation, distress, anxiety, rage' (12th c., Modern French angoisse) > Middle English anguise, angoise (c.1200), whence the verb anguish from OF anguissier, angoissier. The semantic path is 'tightness/choking' > 'straits, difficulty' > 'mental torment'.",
+          "sources": [
+            "https://www.etymonline.com/word/anguish"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference of its own; the parent Latin box's AHD citation covers it ('Latin angere ...: ANXIOUS'; '*angh-os-to- in Latin angustus ...: ANGUISH')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.vv. anguish, anxious, anxiety",
+              "stance": "supports",
+              "note": "'anguish, n. — ME. anguise, angoise, fr. OF. anguisse, angoisse (F. angoisse), fr. L. angustia ..., ‚narrowness, deficiency’, fr. angustus, ‚narrow’, fr. angere, ‚to throttle, torment’. See anger.' and 'anxious, adj. — L. anxius, ‚solicitous, uneasy’, fr. [angere]'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict. s.vv. Anxious, Angina",
+              "stance": "supports",
+              "note": "'Anxious. (L.) See Anguish.' and the angina entry 'L. ... lit. choking. — L. angere, to ... anxious, distressed'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. angh-, index",
+              "stance": "supports",
+              "note": "Index lines: 'ANGUISH angh-', 'ANXIOUS angh-'."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Germanic",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box for the Germanic branch of *h₂enǵʰ-. The adjective *angwuz 'narrow' (Goth. aggwus, ON ǫngr, OE enge, OS engi, OHG angi/engī, G. eng) continues *anghu-; the s-stem *angaz- (< *anghos-, the same formation as Skt. áṃhas- and Lat. angor) gives ON angr 'grief, affliction'; and *angusti- (< *anghos-ti-, revocalised after *anghu-) gives OHG angust, OFris. angost, German Angst. Nourai's box leads only to English anger, i.e. to the ON angr reflex.",
+          "sources": [
+            "https://ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. angh-: '2. Suffixed form *angh-os- in Germanic *angaz in Old Norse angr, sorrow, grief: ANGER. 3. Suffixed form *angh-os-ti- in Germanic *angusti- in Old High German angust (> German Angst), anxiety: ANGST.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. anger, n.",
+              "stance": "supports",
+              "note": "'ON. angr ... rel. to ON. ǫngr, OE. enge, ‚narrow, painful’, OS. engi, MDu. enghe, Du. eng, OHG. angi, engi, MHG. enge, G. eng, Goth. aggwus, ‚narrow’ ... fr. I.-E. base *angh-.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, Selected Synonyms 16.42 (anger) and 16.31",
+              "stance": "supports",
+              "note": "'ME angre, NE anger, fr. ON angr ‚trouble, affliction’ ... : Lat. angor ‚constriction of the throat, anguish, trouble’, Skt. aṃhas- ‚distress, need’, ON ǫngr, OE enge, OHG angi, engi ‚narrow’, etc.' and 'OHG angust, MHG angest, NHG angst : OE ange, OHG angi, engi ‚narrow’.'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW 43",
+              "stance": "supports",
+              "note": "'anord. angr m. ... ‚Verdruß; Schade, Betrübnis‘; afries. angost, ahd. angust, nhd. Angst (aus *anghos-ti- nach *anghu- umvokalisiert)'."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "anger",
+          "verdict": "confirmed",
+          "derivation": "Not a native English word: Middle English angre (n., mid-13c., first 'distress, suffering, affliction'; v. c.1200 'to vex, irritate') is a loan from Old Norse angr 'grief, sorrow, affliction' / angra 'to grieve, vex' taken over in the Danelaw — the same Norse layer as e.g. ill, skin, take. The Proto-Germanic base is *angaz < *anghos-. The modern sense arose by transfer from the injury to the feeling it provokes ('the expression was transferred to the feelings of resentment naturally aroused in the mind of the person aggrieved'), giving 'rage, wrath' by the early 14th c., whence angry.",
+          "sources": [
+            "https://www.etymonline.com/word/anger"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference; the parent Germanic box's AHD citation covers it ('*angh-os- in Germanic *angaz in Old Norse angr, sorrow, grief: ANGER')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. anger, n. and anger, tr. v.",
+              "stance": "supports",
+              "note": "'anger, n. — ME., fr. ON. angr, ‚sorrow, affliction’ ... fr. I.-E. base *angh-, ‚to narrow, compress’ ... Derivatives: angr-y, adj.' and 'anger, tr. v. — ON. angra, fr. angr.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 16.42",
+              "stance": "supports",
+              "note": "'ME angre, NE anger, fr. ON angr ‚trouble, affliction’ (so also ME angre) : Lat. angor ..., Skt. aṃhas- ‚distress, need’ ...'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Awe (cross-reference to Anguish)",
+              "stance": "partial",
+              "note": "Skeat's own 'anger' headword is not legible in the local OCR; the Awe entry gives the family: 'Goth. agis, fear, anguish ... Gk. ἄχος, anguish, affliction; L. angor, choking, anguish ... See Anguish.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Angwhi",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂éngʷʰis 'snake' (Pokorny angʷ(h)i- 43–45; Watkins/AHD angʷhi- 'snake, eel')",
+      "note": "The root box itself is right: Pokorny 43–45 heads 'angʷ(h)i- ‚Schlange, Wurm‘' and AHD 'angʷhi-. Snake, eel.' What Nourai's single box hides is the split Pokorny states in his own first line: 'egʷhi-, ogʷhi- und eghi- ds.; mindestens zwei etymologisch verschiedene, aber früh verschränkte Sippen, deren Verhältnisse noch vielfach unklar sind.' Current handbooks separate *h₂éngʷʰis (Lat. anguis, Lith. angis, OPruss. angis, OCS *ǫzь, Pol. wąż) from *h₁ógʷʰis / *h₃égʷʰis (Skt. áhi-, Av. aži-, Gk. ὄφις, Arm. iž), which is where the Avestan branch of this chart actually belongs (see node 1). Ernout–Meillet put it bluntly: 'Le flottement porte sur l'initiale: e-, o-, an-, et sur les consonnes *gʷ, *gʰ, *gʷʰ ... On ne peut donc restituer un original indo-européen.' Separately, Walde–Pokorny I 65 reject the once-popular idea that *angʷ(h)is 'snake' is a 'constrictor' derived from the neighbouring root angh- 'to press' — 'ist wegen der Gutturalverschiedenheit und sachlich zu bestreiten' — which matters because Nourai prints Angh and Angwhi side by side on this page.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3g%CA%B7%CA%B0is",
+        "https://ahdictionary.com/word/indoeurop.html"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:43",
+          "status": "supports",
+          "note": "POK_01.txt leaf 51 (the printed '44' numeral falls in this leaf, so the entry opens on p.43): 'angʷ(h)i- ‚Schlange, Wurm‘, egʷhi-, ogʷhi- und eghi- ds.; mindestens zwei etymologisch verschiedene, aber früh verschränkte Sippen ... Lat. anguis = lit. angis (f.), apr. angis ‚Schlange‘ ...'; POK_full.txt: 'Root / lemma: angʷ(h)i- ... Meaning: “snake, worm, *fish” ... Page(s): 43-45.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "aži; aži-dahâkô",
+          "verdict": "plausible",
+          "derivation": "Both words are real. Av. aži- (stem ažay-) m. is 'snake' and, by extension, 'dragon, monster' — Bartholomae AiW: 'j. ažay- m. 1) ‚Schlange‘, ein daēvic animal (V 18.65, V 14.5) ... 2) schlangenähnliches Untier ‚Drache, Ungeheuer‘ (Y 9.30 ažiš sairitaʾ, Aog. 78)'; it is the exact cognate of Skt. áhi-, Gk. ὄφις, Arm. iž, Lat. anguis. aži.dahāka- is the three-headed serpent-tyrant of Yt 5.29–35, Yt 9.14, Yt 19.37 and Y 9.8, killed by Θraētaōna; Nourai's shape 'aži-dahâkô' is the Avestan nominative singular ažiš dahākō, the very form used by Horn (Grundriss no. 76 'aw. ažiš dahākō') and Hübschmann ('zd. aži dahākō'). WHY ONLY 'plausible': the arrow from the root box as drawn is phonologically wrong under the modern reconstruction. Av. aži- goes back to Proto-Iranian *Háǰiš < Proto-Indo-Iranian *Háǰʰiš < *h₁ógʷʰis — the NASAL-LESS variant. Pokorny himself puts it there, not under the nasal form: on printed p.44 he writes 'gr. ὄφις ‚Schlange‘ (*ogʷhis): cymr. euod (*ogʷh-): ai. ahi-, av. azi- ‚Schlange‘', i.e. in the *ogʷhi- paragraph, while Latin anguis heads the *angʷhi- paragraph. Klein hedges the same way ('prob. also with OI. ahiḥ, Avestic azish'), and Buck notes the two sets come 'fr. parallel forms with and without nasal, but phonetic relations in part obscure'. So the family relationship is real and old, but 'Avestan aži derives from *angʷhi-' is not what modern sources say. Nourai's gloss 'biting snake' for aži-dahāka- is also only one of several proposals for dahāka-, whose meaning is unsettled (variously 'stinging/harming', 'man-like', or a reflex of the ethnonym Dahā/Dahae).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3g%CA%B7%CA%B0is",
+            "https://en.wiktionary.org/wiki/%D8%A7%DA%98%D8%AF%D9%87%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:44",
+              "status": "supports",
+              "note": "POK_01.txt leaf 52 (printed p.44, the '45' numeral follows a few lines later): 'gr. ὄφις ‚Schlange‘ (*ogʷhis): cymr. euod (*ogʷh-): ai. ahi-, av. azi- ‚Schlange‘.' The page cited does carry Av. azi- — exactly as Nourai claims — but under the *ogʷhi- variant, not the nasal one."
+            },
+            {
+              "ref": "KLN:86",
+              "status": "partial",
+              "note": "Klein does say precisely this, s.v. anguine: 'L. anguinus, fr. anguis, ‚serpent, snake’, which is cogn. with Arm. auj, oj, Lith. angis, OPruss. angis, Lett. uodze, Russ. už, Pol. wąż, and prob. also with OI. ahiḥ, Avestic azish, ‚snake’, Gk. ἔχις, ‚viper’', and s.v. Ahi: 'OI. ahiḥ, ‚serpent’, rel. to Avestic azish and cogn. with Gk. ἔχις, L. anguis'. But the page number does not match the copy on disk: in KLN_1966.txt the anguine/anguish entries sit in ↵-leaf 53, whose printed numerals read 77–79 (the calibration leaf = floor(p/2)+12 would put p.86 at leaf 55–58, which is the anth-/anti- material, containing no snake entry). So: content supports, page unconfirmed."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.vv. ažay-/aži- and dahāka- (BRT.txt lines 6536, 13063–13065)",
+              "stance": "supports",
+              "note": "'j. ažay- m. 1) ‚Schlange‘, ein daēvisches Tier ... 2) schlangenähnliches Untier ‚Drache, Ungeheuer‘'; 'j. dahāka- m. EN. eines sagenhaften daēvischen Königs von Iran; stets mit ažay- m.', with the note 'np. aždahā ‚Drache‘'. Bartholomae also gives 'ai. áhay- m., mp. až'."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 76, p. 19",
+              "stance": "supports",
+              "note": "'76. eždehä ‚Drache‘. aw. ažiš dahākō; phlv. aže dahäk, arm. LW. aždahak ... aw. aži- ‚Schlange‘; phlv. až; ai. áhi-; arm. iž.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, Selected Synonyms 3.93 'snake'",
+              "stance": "partial",
+              "note": "'Lat. anguis; Lith., OPruss. angis; ChSl. *ǫzь, Pol. wąż, Russ. už; Skt. ahi-, Av. aži-; fr. parallel forms with and without nasal, but phonetic relations in part obscure. Walde-P. 1.63 ff.' — same family, but Buck flags the nasal/non-nasal problem Nourai's single box conceals."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, IE roots of Persian, Latin index p. 82",
+              "stance": "supports",
+              "note": "The index page groups under one root: 'AZHI-DAHAKA (AVESTAN), AZHI; AZDAHAG, AZ (PAHLAVI); OPHIS (GREEK), ANGUIS (LATIN), EKHIS, ECHINOS (GREEK), IZH (ARMENIAN), AHI (SANSKRIT), IGEL (GERMAN), IGIL (OLD ENGLISH)' — the same grouping Nourai draws, in a modern Persian IE-roots dictionary."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "eždehâk; eždehâ; aždar",
+          "verdict": "confirmed",
+          "derivation": "Old Iranian aži-dahāka- > Middle Persian až(i)dahāg (Book Pahlavi ʿcydhʿk', Manichaean MP ʿzdhʿg) > New Persian اژدها aždahā, by the regular loss of final MP -g and of the intervocalic stop; the fuller اژدهاک eždehāk preserves the -k and, in Borhān, is glossed as the last sense of اژدها, i.e. ضحاک ماران (Moʼin's footnote: 'مخفف اژی‌دهاک، ضحاک'). Horn (no.76) shows the date: the Armenian loan aždahak proves that the Middle Persian pronunciation was already až-, not aǰ-, in Arsacid/Sasanian times. The Semitic round-trip Nourai marks with ضحّاک in the box is real and runs Persian > Arabic > Persian: Asbaghi (PLA 190) has Arabic ضحّاک ḍaḥḥāk, folk-etymologised as the Arabic active participle 'the laugher / name of a king', from Persian aždahā 'Drache' < aži-dahāka > Pazand Dahāk 'evil, demonic king', 'arabisiert in ẓaḥḥāk'; and PLA 5 has a second, unassimilated Arabic borrowing أزدهاق azdahāq 'a particular dragon' straight from Persian. اژدر aždar is the shortened Persian form, from which Turkish ejder/ejderha and Bulgarian/Serbian ažder were taken (PLA 190); Borhān glosses اژدر as 'مار بزرگ ... و سر علم و رایت'. The modern military sense 'torpedo' (اژدر دریایی) is a 20th-c. Persian coinage on the dragon image, not an old sense. Nourai's extra gloss 'also a spear' for eždehā is Ferdowsi's metaphor and is exactly what Noushin's Shāhnāma glossary records.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%DA%98%D8%AF%D9%87%D8%A7",
+            "https://vajehyab.com/moein/%D8%A7%DA%98%D8%AF%D9%87%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:116,1339",
+              "status": "supports",
+              "note": "vol. 1: the اژدر / اژدرها / اژدها / اژدهاک cluster stands across ↵-leaves 327–328 of BQT_v1_pages.txt = printed pp. 117–118 (offset printed = leaf − 210), i.e. immediately at Nourai's p.116: 'اژدر ... سر علم و رایت را گویند و مار بزرگ را نیز گفته‌اند'; 'اژدرها ... مار بزرگ است که اژدر باشد ... و مردم شجاع و دلاور ... و پادشاهان ظالم را ... و ضحاک ماران را خصوصاً و بمعنی رایت و سرعلم هم آمده است'; 'اژدهاک با کاف معنی آخر اژدهاست که ضحاک ماران باشد', with Moʼin's footnotes 'مخفف اژی‌دهاک، ضحاک' and 'مخفف اژی‌دهاک، رک: اژدها'. vol. 3 ([pdf page 132] of BQT_v3_pages.txt ≈ printed 1339–1341): the headword 'ضحاّک بفتح اول و دوم مشدد؛ رک: اژی دهاک' — Borhān/Moʼin refer ضحّاک straight back to Avestan aži-dahāka, which is exactly what Nourai's parenthesis ضحّاک asserts."
+            },
+            {
+              "ref": "PLA:5,190",
+              "status": "supports",
+              "note": "Asbaghi, Persische Lehnwörter im Arabischen, p. 5 (PLA_pages.txt leaf 20, running head 'ʾabišam 5 azdahāk'): 'أزدهاق azdahāk: ‚ein bestimmter Drache‘ aus dem pers. اژدها azdaha ‚Drache‘, mp. aži-dahak, aw. aži-dahā ..., mand. asdahag. s. ḍahḥāk.' p. 190 (leaf 205, running head 'saidalāni 190 ǵariḍ'): 'ضحاك ḍaḥḥāk ‚Lachender; Name eines Königs‘ — pers. اژدها aždahā ‚Drache‘, a. dahāka > paz. Dahāk ‚böser, dämonischer König‘, arabisiert in ẓaḥḥāk. Hieraus zunächst tk. ažder, bulg./serb. ažder, mand. asdahak.' Both of Nourai's PLA pages are dead on, and p.190 even supplies his aždar."
+            },
+            {
+              "ref": "FSF:43",
+              "status": "partial",
+              "note": "The entry exists and says exactly what Nourai's gloss says, but at a different page in the printing on disk: FSF_pages.txt ↵-leaf 54, running head 'اژدها ۵۰' = printed p. 50, reads 'اژدها — کنایه از نیزه: یکی باره زیر اژدهایی به کف' — i.e. 'a metaphor for the spear', illustrated with the very Ferdowsi line Nourai prints under the Persian box. refs_online notes the scanned copy is not the 1363 Donya printing Nourai used, which explains the 43 vs 50 offset."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 76, p. 19",
+              "stance": "supports",
+              "note": "'76. eždehä ‚Drache‘. aw. ažiš dahākō; phlv. aže dahäk, arm. LW. aždahak. arm. aždahak beweist, dass im Mittelpersischen až-, nicht aǰ- gesprochen wurde.' Horn's headword spelling eždehā is Nourai's eždehâ."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien §91 and §92 (HUB.txt lines 7020, 7620)",
+              "stance": "supports",
+              "note": "'aždahā ‚Drache‘ = arm. aždahak, zd. ažiš dahākō' and again 'aždahā ‚Drache‘ = zd. aži dahākō' — including the -ō nominative Nourai prints."
+            },
+            {
+              "src": "MON",
+              "where": "Moʼin, Farhang-e Fārsi s.vv. اژدها / اژدر (via vajehyab)",
+              "stance": "supports",
+              "note": "اژدها is tagged [اَوِس] = Avestan and referred to اژدرها / اژدر, defined as the winged, taloned, fire-breathing mythical serpent — same origin tag and same senses as the chart."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vāže-nāmak, printed p. 50 (scan leaf 54)",
+              "stance": "supports",
+              "note": "'اژدها — کنایه از نیزه' with 'یکی باره زیر اژدهایی به کف' — the source of Nourai's 'also a spear'."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 1 pp. 117–118; vol. 3 ≈ p. 1339 s.v. ضحّاک",
+              "stance": "supports",
+              "note": "See ref_check above; Moʼin's footnotes derive both اژدهاک and ضحّاک from اژی دهاک."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "anguis",
+          "verdict": "confirmed",
+          "derivation": "Latin anguis (m., f. in early Latin) 'snake' is the direct reflex of the nasal form *h₂éngʷʰis and is exactly superposable on Lith. angis, OPruss. angis, Latv. uodze, OCS *ǫzь, Pol. wąż, Russ. už. It is an old religious/poetic word, largely replaced in prose by serpēns and uīpera (Pliny has it 40× against 360× serpēns); its derivatives are anguinus, anguiculus, and the diminutive-shaped anguilla 'eel' (paralleled by OPruss. angurgis, Lith. ungurys, Pol. węgorz for the same 'snake-fish' idea). It is the only word in this chart that the modern reconstruction actually assigns to *angʷʰi-.",
+          "sources": [
+            "https://ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt: 'angʷhi-. Snake, eel. 1. Latin anguis, snake: ANGUINE; ANGUILLIFORM. 2. Taboo deformation or separate root *ogʷhi- in Greek ophis, snake, serpent: OPHIDIAN, OPHITE; OPHIOLOGY, OPHIUCHUS. 3. Taboo deformation or separate root *eghi- in Greek ekhis, snake ...' — both the Latin node and its English child, and AHD's own note that the Greek/Indo-Iranian type may be a separate root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout–Meillet, DELL pp. 59–60 s.v. anguis",
+              "stance": "supports",
+              "note": "'anguis, -is n. (et f. à l'ép. arch.): serpent. Mot ancien, employé dans la l. religieuse ... La forme anguis est superposable à v. pruss. angis ‚serpent (non venimeux)‘, lit. angis ‚serpent (venimeux)‘, pol. wąż ... L'indo-iranien a skr. áhiḥ, av. aziš ‚serpent‘, dont l'a est ambigu ... On ne peut donc restituer un original indo-européen.'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW 43",
+              "stance": "supports",
+              "note": "'Lat. anguis = lit. angis (f.), apr. angis ‚Schlange‘ (lett. uodze f.), aksl. *ǫzь, russ. už, poln. wąż ‚Schlange‘.'"
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, IE Comparative Dictionary s.v. angʷhis (IEC.txt line 560)",
+              "stance": "supports",
+              "note": "'WP I, 63. Cf. ogʷhis. Lat. anguis, cf. anguilla; Br. anv ‚slowworm‘; OCS ǫzь ‚grass-snake‘; R už ‚adder‘; Li. angis f. ‚viper‘; Latv. odze ‚viper‘.' Mann too keeps *ogʷhis as a separate lemma."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 3.93",
+              "stance": "supports",
+              "note": "Lists Lat. anguis in the 'snake' table beside Lith. angis and ChSl. *ǫzь."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "anguine",
+          "verdict": "confirmed",
+          "derivation": "A learned borrowing, not an inherited word: English anguine 'snakelike, pertaining to a serpent' (17th c.) is Latin anguinus, the adjective of anguis, with the Latin -inus ending anglicised as -ine; the parallel anguineous renders anguineus. No French intermediary is needed, and the word has stayed a bookish one. AHD gives ANGUINE (with ANGUILLIFORM) as the English yield of this root through Latin.",
+          "sources": [
+            "https://ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference; the parent Latin box's AHD citation covers it ('Latin anguis, snake: ANGUINE; ANGUILLIFORM')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.vv. anguine, anguineous",
+              "stance": "supports",
+              "note": "'anguine, adj., pertaining to a serpent. — L. anguinus, fr. anguis, ‚serpent, snake’ ... For the ending see suff. -ine (representing L. -inus).' and 'anguineous, adj., serpentlike. — L. anguineus, fr. anguis.'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dict. s.vv. anguineal, anguineous",
+              "stance": "supports",
+              "note": "'an-guinʹe-al, a. anguineous.' / 'an-guinʹe-ous, a. [L. anguineus, from anguis, a snake.] resembling a snake.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985, index and root entry",
+              "stance": "supports",
+              "note": "Index: 'ANGUILLIFORM angʷhi-', 'ANGUINE angʷhi-'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

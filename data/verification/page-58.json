@@ -1,0 +1,748 @@
+{
+  "pdf_page": 58,
+  "book_page": 28,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ap 2",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₁ep- 'to take, seize, reach' (Pokorny '1. ap- (richtiger əp-) : ep- \"fassen, nehmen, erreichen\"', IEW 50-51; Watkins/AHD ap-¹ 'To take, reach'; LIV *h₁ep-)",
+      "note": "Root, language label and gloss are all correct: Pokorny's entry begins at the foot of p.50 (exactly Nourai's POK:50) and runs onto p.51, with Av. apayeiti, Skt. āpnóti, Lat. apiscor/apere/aptus/apex/cōpula and Hitt. epmi — i.e. precisely the two branches Nourai draws. The only correction is that the modern reconstruction has an initial laryngeal (*h₁ep-), which is why Hittite has e-ep-zi and Latin co-ēpī shows e-vocalism. Nourai's numbering 'Ap 2' distinguishes this root from 'Ap 1' = *h₂ep- 'water' (Pokorny 2. āp- p.51), which is the right distinction. The weak point of the page is not the root but the Iranian branch: Cheung 2007 removes MP abām 'loan' from this root altogether (see node 2).",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₁ep-",
+        "https://www.etymonline.com/word/apt"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:50",
+          "status": "supports",
+          "note": "POK_01.txt ff-page 59-60 (printed 50-51, the entry straddles the page break): '1. ap- (richtiger əp-) : ep- \"fassen, nehmen, erreichen\". Ai. āpnóti \"erreicht, erlangt\" ... av. apayeiti \"erreicht\" ... lat. apiscor \"fasse, erreiche\", adipiscor \"erlange\", coepi ... Zusammenhang mit lat. *apiō, *apere \"comprehendere vinculo\" ... aptus \"verknüpft\", cōpula (co-apula) \"Band\" ... lat. apex, -icis \"Spitze\" ... gehört vielleicht zu *apiō ... hitt. e-ip-mi \"nehme\". WP. I 45 f.' — the cited page is exactly Nourai's root and his Latin node."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "ap 1, af, ab : to receive ; apayeiti : received ; abi-âp, abi-âf : to detain",
+          "verdict": "plausible",
+          "derivation": "Avestan ap- 'to reach, attain' (present stem apaiia-, 3sg. apaiieiti Yt 10.21, 14.20, 17.19; 1sg. apaiiemi Yt 5.42, 15.43; perf. āpa; OAv. 1pl. opt. apaema Y 41.2) is the regular Iranian continuant of PIE *h₁ep-: *h₁p-eie- > Ir. *apaya-, with intervocalic *p preserved in Avestan. Nourai's 'af, ab' are not Avestan or Old Persian forms at all but retrojections of the later Iranian outcomes, where Old Iranian *p in postvocalic position lenites through *β to Middle/New Persian f (before a consonant / word-finally) and b/w (before a vowel): hence MP ayāft ~ ayāb-, NP yāft ~ yāb-. Old Persian has no attested reflex of this root (Kent's lexicon has none), so the label 'Avestan / Old Persian' overstates the evidence. The compound is Av. aiβi-/avi-ap- (Nyberg: 'ay- probably < abi-, cf Av. avi-ap-'; Cheung: '(+ *abi-) to obtain, find'), and its meaning is 'to obtain, reach, find' — NOT 'to detain'. The scan of p.28 does print 'to detain', so this is Nourai's own slip (probably for 'to obtain'), not a transcription error in the JSON.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₁ep-",
+            "https://en.wiktionary.org/wiki/یافتن"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:50",
+              "status": "supports",
+              "note": "POK_01.txt ff-page 59 (printed 50): 'Ai. āpnóti \"erreicht, erlangt\" ... av. apayeiti \"erreicht\", 3. Pl. apənte aus *āpuantai' — the Avestan form and gloss are exactly as charted."
+            },
+            {
+              "ref": "SNS:14",
+              "status": "not_found",
+              "note": "SNS_pages.txt: the Šāyast nē Šāyast glossary OCR is very poor. The a-/ab- stretch of the glossary is ff-leaf 29 (≈ printed p.14) and there I can read 'abdum/afdum ... (HuIVb. 80-81) *apatəma, apama' and abartar/abē-mōzag/aburnāy/afrīn/agar, but no legible ap-/apām entry. grep for 'apam|ayaf|ayab|awam' across ff-leaves 26-33 returns only that *apatəma line."
+            },
+            {
+              "ref": "FFD:82",
+              "status": "supports",
+              "note": "FFD_pages.txt [pdf page 87] = printed p.82, s.v. یافتن: 'یافت < فارسی میانه ayāft < ایرانی باستان *abi-āp-ta-… ای پیشوند فعلی است. ریشهٔ āp به معنی «به دست آوردن» است.' — Abolghasemi's root is āp 'to obtain', with abi- as the preverb, i.e. Nourai's 'abi-âp' but glossed 'to obtain', not 'to detain'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "s.v. ap-, col. ~74 (BRT.txt lines 3478-3479)",
+              "stance": "supports",
+              "note": "Bartholomae gives the paradigm apayeiti with senses '1) einholen, nachkommen 2) gelangen zu —, teilhaftig werden 3) treffen (vom Geschoss) 4) (einem Gebot) nachkommen', citing Yt 10.21, Yt 14.20, Y 41.2 — the root and the form apayeiti are exactly as charted."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 161-162 s.v. *Hap/f",
+              "stance": "supports",
+              "note": "'*Hap/f \"to reach, attain\" — *AVESTAN: ap- \"to reach, attain\" || (+ *abi-) \"to obtain, find\" || (+ *pati-) \"to reach to\" || (+ *pari-) \"to reach, attain\"'; forms listed: YAv. apaiiemi, apaiieiti, apaiieinti, OAv. apaema, perf. āpa. Confirms the root and gives 'to obtain, find' for the abi- compound."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p. 45 (WLD_Bd1 djvu lines 3112-3140)",
+              "stance": "supports",
+              "note": "'1. ap- \"erreichen\". Ai. āpnóti \"erreicht, erlangt\" ... av. apayeiti \"erreicht\". Lat. apiscor \"fasse, erreiche\", adipiscor \"erlange\", coepi ...' — Walde-Pokorny I 45 f. is the source Pokorny 50 refers to."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins appendix s.v. ap-¹",
+              "stance": "supports",
+              "note": "'ap-¹. To take, reach. 1. Latin apere, to attach, join, tie to: APT, (APTITUDE), ATTITUDE; (INEPT). 2. Latin apisci, to attain: ADEPT. 3. Latin apex ... 4. Prefixed form *co-ap- ... cōpula ... [Pok. 1. ap- 50.]'"
+            },
+            {
+              "src": "KNT",
+              "where": "Old Persian lexicon",
+              "stance": "silent",
+              "note": "Kent has no Old Persian verb ap-/āp- 'to reach'; the only Bāx-/ap- material in the lexicon is Bāxtriš and the preposition apa-. So the 'Old Persian' half of the language label is unsupported."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "apâm, avâm : loan, something received.",
+          "verdict": "disputed",
+          "derivation": "Book Pahlavi ʾpʾm /abām/ 'loan, debt' is well attested (MacKenzie p.4; Nyberg II 22; Parthian ʾbʾmyh 'loan'). Nourai, following Nyberg and Mo'in, analyses it as Old Iranian *(ā-)apamna-, a middle participle of ap- 'to reach, obtain' — literally 'that which the lender has to obtain back', hence his gloss 'something received'. Cheung's Etymological Dictionary of the Iranian Verb (2007) rejects this: he files abām under the root *Hmai¹ 'to (ex)change' (< PIE *h₂mei-, Pok. 710, LIV 426) as a *apa- compound, comparing Sanskrit apa-mitya- 'something borrowed, debt' (Kāṭhaka+) from may- 'to exchange', Parth. ʾbʾmyh, Sogd. pʾmytʾy/pʾmytk 'loan' and Bactrian βαμδοιγο 'loan', and states in as many words that 'the etymology and reconstruction given by Nyberg 1974: 22a … from partic. med. *(ā-)apamna-, is less convincing'. The Sanskrit parallel apamitya- is decisive for Cheung because it gives a perfect semantic and morphological match ('borrowing' = 'exchanging away'), whereas *apamna- would be a unique formation. The modern standard therefore prefers a different origin, so the arrow root→apām is disputed; note that the two etymologies share the preverb *apa- and differ only in the verbal root (*Hap 'reach' vs *Hmai 'exchange').",
+          "sources": [
+            "https://en.wiktionary.org/wiki/وام"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2254",
+              "status": "supports",
+              "note": "BQT vol.4 [pdf page 337] = printed p.2254, Mo'in's footnote 6 to وام: 'وام (م.) < فام < بام < اوام. پهلوی apām (قرض، دین)، ایرانی *āpamna- (چیزی که دریافت شود). از āp- … نیبرگ …؛ در اوراق مانوی به‌پهلوی *ʾpʾm (عاریت، قرض)' — i.e. exactly Nourai's 'apām, avām: loan, something received' with the Old Iranian *āpamna- 'that which is received' analysis."
+            },
+            {
+              "ref": "SNS:14",
+              "status": "not_found",
+              "note": "Same as node 1: SNS_pages.txt ff-leaf 29 (≈p.14) is the ab-/af-/ag- stretch of Tavoosi's glossary but the OCR yields no apām/awām entry; only 'abdum/afdum … *apatəma, apama' is legible."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 4 s.v. abām",
+              "stance": "supports",
+              "note": "MacKenzie: 'abām [ʾpʾm | P ʾbʾmyh, N (a)wām] loan, debt.' — form, meaning and the Parthian/New Persian correspondences are as charted, though MacKenzie gives no etymology."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II (Glossary) p. 22a s.v. apam",
+              "stance": "supports",
+              "note": "'apam [ʾpʾm] debt 70⁵. — < OIr *apamna- \"that which a p. (the lender) has to obtain (from the borrower)\", middle pt. of Av. ap- (v. ayāftan); as to the form, cf. garāmīk. Paz. āwām; NP vām, āvām.' — this is Nourai's derivation verbatim, and is evidently his (and Mo'in's) source."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 162 (s.v. *Hap/f) and 177-178 (s.v. *Hmai¹)",
+              "stance": "contradicts",
+              "note": "Under *Hap/f: 'ç On Pth. ʾbʾmyh, BMP ʾpʾm /abām/, NP avam \"debt\" see *Hmai¹.' Under *Hmai¹: '(+ *apa-) BMP ʾpʾm /abam/ \"debt\". ⊙ The etymology and reconstruction given by Nyberg 1974: 22a … from partic. med. *(ā-)apamna-, is less convincing. … *SANSKRIT: may \"to exchange, change\" || (+ *apa) apamitya- … \"something borrowed, debt\". «PIE *Hamei- \"to (ex)change\" = LIV: 426 | Pok.: 710'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 131, pp. 30-31",
+              "stance": "partial",
+              "note": "Horn: 'ewām, awām \"Schuld\", wām. phlv. āpām (PPGL). bel. LW. wām.' Then on p.31: 'Darmesteter's Erklärung (Ét. ir. I, 75) aus *apama- d. i. apa + ama- = lat. abemptum ist aus zwei Gründen unmöglich…'. So Horn gives the Pahlavi antecedent but no positive etymology; what he rejects on p.31 is Darmesteter's apa+em- analysis, not Nourai's ap- analysis. Nourai's note 'HRN:31 does not agree with this derivation' is therefore only half right — Horn is silent about, not opposed to, the ap- route."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien, searched for awām/āpām",
+              "stance": "silent",
+              "note": "grep -i 'awam|āpām|apām' in HUB.txt returns nothing relevant (only *drawam); Hübschmann does not treat this word."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "vâm «وام» : loan ; avâm «اوام» : loan",
+          "verdict": "confirmed",
+          "derivation": "The Middle Persian→New Persian step is beyond doubt: MP ʾpʾm /abām/ > early NP اوام/آوام awām, āvām (the regular treatment of postvocalic MP -b- as -w-), whence by aphaeresis of the unstressed initial a- the standard form وام wām, already the normal word in the 10th-11th c. (Farrokhi Sistāni: هزار بوسه فروشم بر لب تو مرا / تو وام‌دار منی خیز و وام من بگزار; Ferdowsi, quoted by Nourai: درم خواست فام از پی شهریار). The by-form فام fām listed by Nourai as 'فام ۲' is recorded by Borhān and by Mo'in's footnote in the chain وام < فام < بام < اوام, a spelling variant with f- for the older w-/b-. Mo'in glosses avām and vām identically as 'قرض، دین'. Only the ultimate parentage of MP abām (node 2) is disputed; this edge is not.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/وام"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:14",
+              "status": "not_found",
+              "note": "As for nodes 1-2: the Šāyast nē Šāyast glossary (SNS_pages.txt ff-leaf 29 ≈ p.14) yields no readable apām/wām entry in this OCR."
+            },
+            {
+              "ref": "BQT:2254",
+              "status": "supports",
+              "note": "BQT vol.4 [pdf page 337] = printed p.2254 s.v. وام, Mo'in's footnote: 'وام (م.) < فام < بام < اوام. پهلوی apām (قرض، دین)، ایرانی *āpamna- (چیزی که دریافت شود)' followed by the Farrokhi verse 'تو وام‌دار منی خیز و وام من بگزار'. Both charted words (وام, اوام) and both glosses are there."
+            },
+            {
+              "ref": "AEF:173",
+              "status": "not_checked",
+              "note": "Khaleqi-Motlaq's Asās-e Ešteqāq-e Fārsi (the Persian translation/expansion of Horn) is not online and not in the local library (refs_online.json: kind 'catalog', no copy found)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 4 s.v. abām",
+              "stance": "supports",
+              "note": "'abām [ʾpʾm | P ʾbʾmyh, N (a)wām] loan, debt' — MacKenzie himself gives the New Persian outcome as (a)wām, i.e. both وام and اوام."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 22a",
+              "stance": "supports",
+              "note": "'Paz. āwām; NP vām, āvām' — the three-way set Pazand āwām / NP vām / NP āvām matches the chart's وام, اوام and the extra آوام."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 177 s.v. *Hmai¹",
+              "stance": "partial",
+              "note": "'*NWIR: (+ *ā-apa-) NP avam \"debt\"' — Cheung has the same NP form and the same MP antecedent, but assigns the whole family to *Hmai¹, not to *Hap."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 131 p. 30",
+              "stance": "supports",
+              "note": "'ewām, awām \"Schuld\", wām. phlv. āpām' — Horn lists exactly the New Persian forms of this node under the Pahlavi antecedent."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "ayâf, ayâb : to find",
+          "verdict": "confirmed",
+          "derivation": "Book Pahlavi ʾyʾp-tn' /ayāftan/, present stem ʾyʾb- /ayāb-/ 'to obtain, acquire, attain' continues Old Iranian *abi-āp- (preverb *abi- 'to, upon' + the root *(H)āp- of node 1). *abi- regularly loses its -b- before a vowel in Middle Persian and contracts to ay- (Nyberg: 'ay- probably < abi-, cf. Av. avi-ap-'); the root vowel is lengthened in the compound (ā-p-). The two stems Nourai lists are the standard Middle Persian stem pair: past ayāft (< *āpta-, with *pt > ft) beside present ayāb- (< *āpa-, with intervocalic *p > β > b). Manichaean MP has the same ʾyʾb-/ʾyʾpt, and Parthian shows the parallel pari-compound pryʾb-.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/یافتن"
+          ],
+          "ref_check": [
+            {
+              "ref": "FFD:82",
+              "status": "supports",
+              "note": "FFD_pages.txt [pdf page 87] = printed p.82: 'یافتن — یافت < فارسی میانه ayāft < ایرانی باستان *abi-āp-ta-… ریشهٔ āp به معنی «به دست آوردن» است. یاب < فارسی میانه ayāb < ایرانی باستان *abi-āpa-' — both Pahlavi stems ayāft/ayāb, exactly as charted, and the root āp."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 17 s.v. ayāftan",
+              "stance": "supports",
+              "note": "MacKenzie: 'ayāftan, ayāb- [ʾyʾp-tn' | M ʾyʾpt, ʾyʾb-, N yāftan, yāb-] obtain, acquire, attain'; also 'āyaft [ʾdypt' | M ʾypt, N āyift] boon, favour, gift'."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. ~34 s.v. ayāft",
+              "stance": "supports",
+              "note": "'ayāft [yʾpt'] gain, benefaction, from ayāftan ayāb-, to reach, to attain … NP yāftan yāb-. Av. ap-; āp- < ā- + ap-; ay- probably < abi-, cf Av. avi-ap-.' — this is the explicit statement that the Pahlavi verb is the abi- compound of Av. ap-."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 162 s.v. *Hap/f",
+              "stance": "supports",
+              "note": "'*MIDDLE PERSIAN: (+ *abi-) MMP ʾyʾb- \"to obtain, acquire, attain; to achieve success\", BMP ʾyʾp- /ayāb-/ \"to attain\"'; Inf. BMP ʾyʾptn /ayāftan/. Cheung keeps this verb (unlike abām) under *Hap."
+            },
+            {
+              "src": "BRT",
+              "where": "s.v. ap- and ayapta-",
+              "stance": "partial",
+              "note": "Bartholomae has the simple verb ap- (apayeiti) and the noun ayapta- 'Belohnung, Wunschgewährung'; the prefixed avi-ap- to which Nyberg points is his AiW col. 71. Our BRT.txt OCR of that column is too corrupt to quote verbatim."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "yâftan «یافتن» : to find ; yâbîdan «یابیدن» : to find",
+          "verdict": "confirmed",
+          "derivation": "NP یافتن yāftan / یاب- yāb- is MP ayāftan / ayāb- with loss of the unstressed initial a- (the same aphaeresis as in awām > wām, node 3); the older ayāftan survives in Pahlavi Psalter and Manichaean spellings and in the noun آیفت āyift. The stem alternation yāft ~ yāb reflects *-pt- > -ft- versus intervocalic *-p- > -b-. یابیدن yābīdan is a late, secondary infinitive built inside New Persian on the present stem yāb- with the productive -īdan suffix (the same pattern as دانستن/دانیدن), not an independent inheritance — Nourai's box does not distinguish the two, which is a small imprecision but not an error of derivation. Semantically 'attain, obtain' > 'find' is already complete in Middle Persian.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/یافتن"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2419",
+              "status": "supports",
+              "note": "BQT vol.4 [pdf page 502] = printed p.2419, Mo'in's footnote 5: 'یافتن — بفتح چهارم، از: یاف (مادهٔ ماضی) + تن (پسوند مصدری). پهلوی ayāftan … اوستایی āp-, ap- (رسیدن) «اشتقاق ۱۱۲۶». هوبشمان گوید: فارسی یابم، یافتن = پهلوی ayāftan، از ریشهٔ āp …؛ پیدا کردن، بدست آوردن، کسب کردن.' — the Pahlavi antecedent and the Avestan root as charted."
+            },
+            {
+              "ref": "FFD:82",
+              "status": "supports",
+              "note": "FFD_pages.txt [pdf page 87] = printed p.82 s.v. یافتن, as quoted at node 4: NP یافتن < MP ayāft, present یاب < MP ayāb."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 1124, p. 251",
+              "stance": "supports",
+              "note": "Horn: 'yāften \"erlangen, erreichen, erfinden\", Praes. yāb-em … aw. vergl. ayapta- \"Belohnung\"; phlv. āyāftan …, yāftan (Bund.), vergl. āyaft; oss. d. ba]yafun, t. ba]yafin \"einholen, erreichen\"'. Horn already has the Pahlavi ayāftan and the Avestan connection; he does not list yābīdan."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 17 s.v. ayāftan",
+              "stance": "supports",
+              "note": "MacKenzie explicitly equates the Pahlavi verb with 'N yāftan, yāb-'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 161-163 s.v. *Hap/f",
+              "stance": "supports",
+              "note": "Cheung 2007 is the source Wiktionary cites for NP یافتن < MP ayāftan < *Habi- + *Hap- 'to reach, attain' < PIE *h₁ep-."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien",
+              "stance": "silent",
+              "note": "grep for 'yäften|jäften|ayäftan' in HUB.txt returns nothing; Hübschmann's discussion (cited second-hand by Mo'in as 'هوبشمان ۱۱۲۶') is not recoverable from this OCR."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Latin",
+          "words": "apere : to bind, attach, reach ; aptus : fit, suited ; ad-apt-are : to fit, adapt ; ad-eptus : reached ; apex : something, reached, apex ; co-apere : bond together, couple",
+          "verdict": "confirmed",
+          "derivation": "Latin has the root in two guises: an obsolete *apiō, apere 'to fasten, bind, attach' (surviving in the imperative gloss ape 'prohibē, compescē' and in the participle aptus 'joined, fitted, suited'), and the inchoative apīscor, aptus sum 'to reach, get hold of', with the prefixed compound adipīscor, ad-eptus 'to attain, reach' (ad- + apīscor, with the regular weakening of medial a to e in an open syllable: ad+aptus > adeptus). From the participle aptus is built the denominative aptāre 'to fit', whence ad-aptāre 'to adjust, fit to'. Latin apex, apicis 'point, tip; the rod-like ornament on a priest's cap' is assigned to this root by Pokorny only with 'vielleicht' ('< something reached'), which is why Watkins prints it as sense 3 but Ernout-Meillet leave it doubtful. 'co-apere' is a reconstruction, not an attested Latin verb: what is attested is cōpula < *co-apula, a diminutive noun formed from the stem of apiō with co(m)- 'together'; Nourai's box would be more accurate as *co-ap- / cōpula.",
+          "sources": [
+            "https://www.etymonline.com/word/apt",
+            "https://www.etymonline.com/word/couple"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:50",
+              "status": "supports",
+              "note": "POK_01.txt ff-page 59-60 (printed 50-51): 'lat. apiscor \"fasse, erreiche\", adipiscor \"erlange\", coepi … Zusammenhang mit lat. *apiō, *apere \"comprehendere vinculo, verbinden, umbinden\" (imper. ape \"prohibe, compesce\"), aptus \"verknüpft, ausgestattet mit\", cōpula (co-apula) \"Band\" steht wohl fest … lat. apex, -icis \"Spitze\" … gehört vielleicht zu *apiō'. Every Latin word in Nourai's box is on the cited page."
+            },
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. ap-¹: '1. Latin apere, to attach, join, tie to … 2. Latin apisci, to attain: ADEPT. 3. Latin apex, top, summit (< \"something reached\"): APEX. 4. Prefixed form *co-ap- (co-, together; see kom) in Latin cōpula, bond, tie, link'. Watkins' gloss for apex, '< something reached', is literally Nourai's gloss."
+            },
+            {
+              "ref": "KLN:22,24,96",
+              "status": "supports",
+              "note": "All three pages check out in KLN_1966.txt. p.22-23 (ff-leaf 23): 'adapt, tr. v. — F. adapter, fr. L. adaptare, \"to fit, adjust, adapt\", fr. ad- and aptare, \"to fit\", fr. aptus, \"fit\". See apt and cp. adept.' p.24 (ff-leaf 24, running head '24'): 'adept, adj. … L. adeptus, \"reached, attained\", pp. of adipisci … fr. ad- and apisci (pp. aptus) … which is rel. to OL. *apiō, apere, \"to bind, attach\", pp. aptus … For the change of Latin a (in aptus) to e (in adeptus) see accent.' p.96 (ff-leaf 62, which carries the printed page number 96): 'apt, adj., fit. — L. aptus, \"fitted, suited\", prop. pp. of obsol. apere, \"to fasten\", rel. to apisci, \"to reach after, attain\", and cogn. with OI. āpnoti … Hitt. epmi, \"I seize\". Cp. adapt, adept, apex, aptitude, attitude, inept, lariat, reata.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. apiō/apiscor (LAT.txt lines 4366-4398)",
+              "stance": "supports",
+              "note": "'Apiō a un inchoatif apiscor, -eris, aptus sum … Apiscor … a fourni les composés adipiscor, d'où adeptio … Le présent skr. āpnóti \"il atteint\" est déjà dans l'Atharvaveda … Le hittite epmi \"je prends\" … indique un ancien présent athématique que donnait à supposer lat. apio.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p. 45 f.",
+              "stance": "supports",
+              "note": "'Lat. apiscor \"fasse, erreiche\", adipiscor \"erlange\", coepi … Zusammenhang mit lat. *apio, *apere \"comprehendere vinculo\" … copula (co-apula) \"Band\", ammentum (aus *ap-mentom) … Vielleicht ist von einer gemeinsamen Grundbedeutung \"fassen, zusammenfassen\" auszugehen.'"
+            },
+            {
+              "src": "LEW",
+              "where": "Walde LEW (1910) s.v. apiscor",
+              "stance": "silent",
+              "note": "grep -n 'apiscor' in LEW_1910.txt returns no hit; the a- fascicle is missing or unreadable in this OCR, so Walde's Latin dictionary could not be used directly (Ernout-Meillet was used instead)."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "apt, aptitude ; adapt, adept, inept ; apex, attitude ; couple",
+          "verdict": "confirmed",
+          "derivation": "All eight words descend from the Latin material of node 6, mostly through French: apt (mid-14c.) from OFr. ate or directly from L. aptus; aptitude from Fr. aptitude < Late Latin aptitūdō; attitude (1660s) via Fr. attitude < It. attitudine < the same Late Latin aptitūdinem, so a doublet of aptitude (the -pt- > -tt- assimilation happened in Italian); adapt from Fr. adapter < L. adaptāre; adept from L. adeptus (the past participle of adipīscor, taken over as a noun/adjective in 17th-c. alchemical Latin adeptus 'one who has attained'); inept from L. ineptus (in- + aptus, with the same a > e weakening); apex directly from L. apex; couple (late 13c.) from OFr. cople < L. cōpula < *co-ap- 'to take together'.",
+          "sources": [
+            "https://www.etymonline.com/word/apt",
+            "https://www.etymonline.com/word/attitude",
+            "https://www.etymonline.com/word/couple"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. ap-¹ lists as English derivatives: 'APT, (APTITUDE), ATTITUDE; (INEPT) … ADEPT … APEX … COPULA, COPULATE, COUPLE'. Watkins' list and Nourai's box are the same set (Nourai adds ADAPT, which AHD subsumes under aptāre)."
+            },
+            {
+              "ref": "KLN:96",
+              "status": "supports",
+              "note": "KLN_1966.txt ff-leaf 62 (printed page 96) s.v. apt: 'Cp. adapt, adept, apex, aptitude, attitude, inept, lariat, reata.' The neighbouring entry 'aptitude, n., fitness. — F., fr. Late L. aptitūdō \"fitness\", fr. L. aptus. See apt and -tude and cp. attitude, which is a doublet of aptitude' is on the same leaf. For couple, Klein s.v. copula (KLN_1966.txt line 9141): 'copula, n. — L. copula, \"that which binds together, band, bond\", which stands for *co-apula, and is formed fr. co- and a dimin. from the stem of apio, apere, \"to join, fasten\". See apt and cp. couple.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "pp. 22, 24, 96 and s.v. copula",
+              "stance": "supports",
+              "note": "See the ref_check quotes; Klein covers every word of the box and derives them all from L. aptus/apere."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etymological Dictionary",
+              "stance": "silent",
+              "note": "grep for 'apt'/'balas' in SKT.txt returns no usable entry in this OCR (the file appears to be partial); no independent statement recoverable."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins appendix s.v. ap-¹",
+              "stance": "supports",
+              "note": "Same list as in ref_check — Nourai's English node is a transcription of Watkins' derivative list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Apânk",
+      "verdict": "plausible",
+      "modern_form": "Avestan apāṅk- / apąnc- 'turned backwards, facing away' (= *apa 'away, behind' + *anč-/ak- 'to bend, be directed'; cf. Skt. apā́ñc- 'turned away, backward'); the sense 'north' belongs only to the derivative apāxtara-",
+      "note": "The root box is real but its gloss telescopes two stages. Avestan apāṅk- itself means 'turned backwards / directed away' (Buck: 'apāṅk- \"turned backwards\", adv. \"back\"'); 'north' is the meaning of the derived adjective apāxtara-/apāxaδra- 'northern', and it means 'north' only because of the Avesta's southern orientation, in which the north is 'the region behind you' and the abode of the daēvas and of hell. Language label 'Avestan' and the reference SYN:873 are both exact. The chart's real problems are further down: (a) the Balkh branch (nodes 3-4) attaches the city name Bactria/Balx to apāxtar, which no Iranist accepts; (b) the ruby chain (nodes 4-7) goes through Badaxšān, not Balx, as Mo'in's own footnote in Borhān says; (c) the Sogdian node is a cognate of axtar, not a derivative of apāṅk-, which Nourai's own note concedes. On the note at node 2, IEC:260: Mann does link Persian axtar with the 'star' root (see there), but Mann's supporting form 'Av. axtarō' is not an attested Avestan word, and the current view (Eilers, EIr III/2 p.123 s.v. AXTAR) is a backformation from abāxtar 'planet' — i.e. modern scholarship sides with Nourai's arrow, not with Mann.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/باختر",
+        "https://en.wiktionary.org/wiki/اختر"
+      ],
+      "ref_check": [
+        {
+          "ref": "SYN:873",
+          "status": "supports",
+          "note": "SYN.txt ff-leaf 943, printed page 873 (the running head 'PLACE, FORM, SIZE 873' is on the same leaf), §12.47 NORTH: 'Av. apāxtara-, apāxaδra-, deriv. of apāṅk- \"turned backwards\", adv. \"back\", in accordance with the southern orientation in the Avesta. Barth. 79 f., 82.' Buck's page is exactly Nourai's root box, gloss included."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "apâxtar : north, north star ; axtar : star",
+          "verdict": "plausible",
+          "derivation": "Middle Persian ʾpʾhtl /abāxtar/ continues Av. apāxtara- unchanged except for the regular lenition of intervocalic *p to β/b: *apāxtara- > abāxtar. In Pahlavi it is in fact two lemmas: ¹abāxtar 'planet' (the planets are the 'backward-moving' bodies, because of their retrograde motion, and in Zoroastrian cosmology they are demonic) and ²abāxtar 'the north'. Nourai's gloss 'north, north star' is therefore half right: the second sense is 'planet(s)', not 'north star' — MacKenzie: '¹abāxtar [ʾpʾhtl | M ʾbʾxtr] planet. ²abāxtar [ʾpʾhtl | (N bāxtar \"west\")] north'. The step abāxtar > axtar 'star, constellation, sign of the zodiac' that Nourai draws is a specific and defensible hypothesis, not a self-evident sound change: Eilers (EIr s.v. AXTAR, followed by Wiktionary) explains axtar as an old backformation from abāxtar 'planet', the initial ab- having been reanalysed as the privative prefix a(b)- — 'un-stars' — because Zoroastrianism treats the planets as maleficent non-stars. Both MacKenzie and Nyberg list axtar as an independent lemma without an etymology, so the arrow is a hypothesis they neither state nor contradict.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/اختر",
+            "https://en.wiktionary.org/wiki/باختر"
+          ],
+          "ref_check": [
+            {
+              "ref": "SYN:870",
+              "status": "partial",
+              "note": "SYN.txt: printed p.870 (ff-leaf ~940) carries the §12.45 EAST / §12.46 WEST word-table; the §12.47 NORTH / §12.48 SOUTH table, which lists 'Av. apāxtara- (adj.)' as the Avestan word for 'north', is on the very next leaf (p.871), and the derivational statement is on p.873. So the citation is one to three pages short but the material is Buck's."
+            },
+            {
+              "ref": "BQT:99",
+              "status": "supports",
+              "note": "BQT vol.1 ff-leaf 301 (printed p. ≈93-99 by the drifting leaf offset; the entry اختر with اخترستان/اخترشناس/اختر کاویان) — Mo'in's footnotes to that entry read '۳ (ستاره) «اونوالا ۳۳۰»' and '۴ پهلوی axtar؛ مینوی …', i.e. Pahlavi axtar 'star', citing Unvala's King Husrav glossary p.330. That is exactly Nourai's Pahlavi 'axtar: star'; Borhān gives no derivation of axtar from apāxtar."
+            },
+            {
+              "ref": "FSF:58",
+              "status": "supports",
+              "note": "FSF_pages.txt ff-leaf 73-74 (≈ printed pp.57-58) s.v. باختر: quotes Marquart's Ērānšahr for '[شمال]' and Tārīkh-e Sīstān: 'هر چه حد شمال است باختر گویند و هر چه حد جنوب است نیمروز گویند … هر چه حد مشرق است خراسان گویند …', then notes that early poets sometimes use باختر for مشرق and خاور for مغرب. Noushin thus confirms the 'north' value that Nourai assigns."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 4 s.vv. ¹abāxtar, ²abāxtar; p. 16 s.v. axtar",
+              "stance": "partial",
+              "note": "'¹abāxtar [ʾpʾhtl | M ʾbʾxtr] planet. ²abāxtar [ʾpʾhtl | (N bāxtar \"west\")] north.' and separately 'axtar [ʾhtl | M ʾxtr, N ~] star, constellation, sign of the zodiac.' MacKenzie confirms both words but keeps them apart and glosses the second abāxtar 'planet', not 'north star'."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 20 s.v. apaxtar; p. 33 s.v. axtar",
+              "stance": "partial",
+              "note": "'apaxtar [ʾpʾhtl] 1. planet … 2. the north. — Av. apāxtara- \"northern\"; MPrs ʾbʾxtr; Paz. awāxtar; NP bāxtar \"the west\" or \"the east\".' and 'axtar [ʾhtl] constellation, one of the signs of the Zodiac … MPrth/Prs ʾxtr; Paz. NP axtar.' Nyberg confirms apāxtara- > abāxtar but gives axtar no etymology and does not link the two."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW cols. 79 f., 82 (as cited by Buck)",
+              "stance": "partial",
+              "note": "BRT.txt's OCR of the apāxtara- column is unusable, but the word is quoted in the citation apparatus of other entries, e.g. 'apaxtarat haca ⁺mat V.19.1, H.2.25, FrW.10.43' under naēma- 'side, half' — i.e. Avestan apāxtara- 'northern side' is attested in the Vidēvdād, as Bartholomae 79 f. states."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.v. oster- (osteren-, ster-) 'star' (IEC.txt ff-leaf 156)",
+              "stance": "contradicts",
+              "note": "'oster- (osteren-, ster-) \"star\". WP II, 635 … Av. stārō, acc. stārəm beside axtarō, id.; Per. sitāre, axtar' — Mann files Persian axtar under the PIE 'star' root, i.e. exactly the alternative Nourai flags at node 2. Mann's 'Av. axtarō' is however not an attested Avestan word, and no other authority repeats it."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "bâxtar «باختر» : north ; axtar «اختر» : star, fate",
+          "verdict": "plausible",
+          "derivation": "NP باختر bāxtar is MP abāxtar with the usual New Persian aphaeresis of the unstressed initial a- (compare abām > wām at entry 0 node 3; here ab- > b-). The semantic history is the problem: in the Avesta and in Pahlavi the word means 'north', and Ferdowsi and the Tārīkh-e Sīstān still use it that way ('هر چه حد شمال است باختر گویند'), but in New Persian generally — and in the modern standard language exclusively — باختر means 'west', paired against خاور 'east'; a few early poets even reverse the pair and use باختر for 'east'. Mo'in states this explicitly. Nourai's gloss 'north' is therefore the correct oldest sense but not the ordinary Persian one, which is why MacKenzie and Nyberg gloss the New Persian reflex 'west' / 'the west or the east'. NP اختر axtar 'star, constellation; horoscope, fortune' is MP axtar unchanged; the 'fate/fortune' sense is a natural astrological extension already visible in the Pahlavi compound axtar-mār 'astrologer' and in Ferdowsi's line quoted in the chart ('نبینم همی اختر خویش بد'), and it survives in the derivative اخترشناس axtar-šenās 'astronomer/astrologer' that Nourai lists.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/باختر",
+            "https://en.wiktionary.org/wiki/اختر"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:99",
+              "status": "partial",
+              "note": "The اختر half is confirmed at BQT vol.1 ff-leaf 301 (see node 1): 'اختر … رایت و علم را گویند، و بمعنی بخت و طالع هم هست، و کوکب و ستاره را نیز گویند، و بمعنی فال و شگون هم آمده است' — precisely Nourai's 'star, fate'. The باختر half is NOT on that page: in this scan باختر stands at ff-leaf 424 (≈ printed p.204), where Mo'in's footnote reads 'در اوستا apāxtara- بمعنی شمال آمده و آنجا جایگاه اهریمن و دیوان و مکان دوزخ دانسته شده «خرده اوستا ۸۷»؛ در پهلوی نیز abāxtar آمده بدین معنی و نیز بمعنی سیاره؛ در زبان فارسی اکثر بمعنی مغرب آمده در برابر خاور، ولی گاه نیز بعکس …'."
+            },
+            {
+              "ref": "FSF:58",
+              "status": "supports",
+              "note": "FSF_pages.txt ff-leaf 73-74 s.v. باختر, quoted at node 1: Noushin's Shāhnāme glossary explicitly glosses باختر 'شمال' with Marquart and the Tārīkh-e Sīstān, which is Nourai's gloss."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Fārsi s.v. باختر (MON_part1.txt line 19730)",
+              "stance": "partial",
+              "note": "'باختر: در اوستا اپاختره به معنی شمال آمده و جایگاه اهریمن و دیوان و دوزخ دانسته شده، در پهلوی نیز اباختر بدین معنی و نیز به معنی سیاره آمده. در زبان فارسی اکثر به معنی مغرب استعمال می‌شود، در برابر خاور؛ ولی گاه نیز به عکس، باختر به معنی مشرق و خاور به معنی مغرب آمده.' Supports the Avestan→Pahlavi→Persian chain; warns that the ordinary Persian sense is 'west'. Mo'in's اختر entry (line 8287) gives only glosses ('ستاره، جرم فلکی، کوکب؛ ستارهٔ بخت و اقبال … درفش، علم، رایت'), no etymology."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II p. 20 s.v. apaxtar",
+              "stance": "partial",
+              "note": "'NP bāxtar \"the west\" or \"the east\"' — Nyberg records the New Persian meanings as west/east, not north."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 4 s.v. ²abāxtar",
+              "stance": "partial",
+              "note": "MacKenzie's bracket '(N bāxtar \"west\")' gives the same warning about the New Persian value."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. oster-/ster- 'star'",
+              "stance": "contradicts",
+              "note": "Mann's linkage of Persian axtar with sitāre and the *ster- root (the dispute recorded in Nourai's own NOTE) — see node 1. Modern scholarship (Eilers, EIr III/2 123; Wiktionary s.v. اختر) rejects it in favour of the backformation from abāxtar, i.e. it sides with Nourai's chart against Mann."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "bâxtri, bâxr, balx : a city north of the ancient Iran",
+          "verdict": "disputed",
+          "derivation": "The city and province name is genuinely old — Old Persian Bāxtriš (Bisotun I.16, in the list of satrapies), Avestan Bāxδī-/Bāxtrī-, Greek Βακτρία/Βάκτρα, Middle Persian Baxl [bʾhl], New Persian Balx — but it has nothing to do with apāxtar 'north'. Its own etymology is unsettled (it is not a transparent Iranian formation); the -xtr- of Bāxtriš and the -xtar of abāxtar look alike only by accident, since abāxtar is *apa- plus a comparative-type suffix, while Bāxtriš has no *apa- and no -tara-. The Middle Persian development *Bāxδī > Baxl (with -δ-/-r- > -l-) then NP Balx is entirely different from abāxtar > bāxtar. Nourai's middle form 'bâxr' is not an attested word: the Pahlavi form is Baxl (Nyberg, glossary p.72 s.v. Baxl), and 'bâxr' is almost certainly a slip for bâxl. Verdict: the node's words are (with that correction) real, but the edge apāxtar → Bāxtrī/Balx is rejected.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Bactria"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON5:275",
+              "status": "not_checked",
+              "note": "Mo'in's Farhang vol. 5 (اعلام, proper names) is not in the local library and not online: the two local Mo'in files (MON_part1/part2, the 2-volume Adena edition) are the lexicon volumes only and contain no بلخ article; vajehyab/abadis expose only the lexicon volumes."
+            },
+            {
+              "ref": "BQT:297",
+              "status": "partial",
+              "note": "BQT vol.1 ff-leaf 517 (≈ printed pp.293-297) does carry the headword بلخ: 'بلخ — بفتح اول و سکون ثانی و خای نقطه‌دار، نام شهری است مشهور از خراسان و آن از شهرهای قدیم است همچو استخر فارس، و آن را قبةالاسلام خوانند و لقب آن بامی است؛ گویند برامکه از آنجا بوده‌اند …'. So the page reference is right, but Borhān/Mo'in give the city no etymology at all, and certainly not a derivation from apāxtar."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "vol. II p. 72 s.v. Baxl",
+              "stance": "contradicts",
+              "note": "'Baxl [bʾhl] Balkh 113². — Av. Bāxtrī-, Bāxδī-; NP Balx.' Nyberg derives Balkh from the Avestan country name Bāxδī-/Bāxtrī-, not from apāxtara-, and his Pahlavi form is Baxl (not Nourai's 'bâxr'). The cross-reference list in the same volume has 'Bāxtri: Baxl'."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, DB I.16 and lexicon",
+              "stance": "contradicts",
+              "note": "Kent's text of Bisotun I.16 reads '… Parθava : Zraka : Haraiva : Uvārazmiy : Bāxtriš : Suguda : Gadāra …' and the paradigm sections give Abl./Loc. sg. Bāxtriyā. Old Persian already has Bāxtri- in the 6th c. BCE, with no trace of an *apa- preverb."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW s.v. Bāxδī-",
+              "stance": "silent",
+              "note": "The Bāxδī- column is not recoverable from BRT.txt's OCR; no direct quotation possible."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "balx «بلخ» : an ancient city in Iran famous for its rose-red ruby gems",
+          "verdict": "disputed",
+          "derivation": "NP بلخ Balx < MP Baxl < Av. Bāxδī-/OP Bāxtriš is a sound chain, but the second half of the gloss is wrong and it is what carries the rest of the chart: the rose-red spinel of the medieval gem trade is the stone of بدخشان Badaxšān, the district on the upper Oxus in what is now north-eastern Afghanistan, not of Balkh. The gem name is بلخش balaxš ~ بلخشان balaxšān, a variant of بدخشان (Nourai lists both in his script extras). Mo'in himself, in the footnote to بدخش in the very dictionary Nourai cites, quotes Barthold (EI s.v. Badaxšān) and Marquart (Ērānšahr 279) to exactly this effect and says that balaxš was probably first the name of the district and only later of the stone found there. The similarity of Balx and balaxš is coincidental (and encouraged the medieval confusion), so the arrow Balx → Arabic balaxš is rejected.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/balas",
+            "https://www.ahdictionary.com/word/search.html?q=balas"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON5:247",
+              "status": "not_checked",
+              "note": "As at node 3: Mo'in's vol. 5 (اعلام) is not available locally or online; the local Mo'in lexicon files have no بلخ article."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol.1 ff-leaves 462-463 (≈ printed pp.240-241) s.v. بدخش / بدخشان",
+              "stance": "contradicts",
+              "note": "Mo'in's footnote 8: 'مارکوارت (Ērānšahr) گوید که بدخشان بمعنی «بلاد بذخش balaxš» است و آن نوعی است از یاقوت که گویند جز در بدخشان … یافت نشود. اما کاملاً محتمل است که کلمهٔ بلخش balaxš (که کلمهٔ فرانسه balais و انگلیسی balas از آن مأخوذ است) در آغاز نام ناحیت مورد بحث بوده و بعدها به لعلی که در آن ناحیت یافت شود اطلاق شده باشد. «بارتولد، دائرةالمعارف اسلام: بدخشان»'. Mo'in states the whole chain balaxš > balais > balas and roots it in Badaxšān, not Balx."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 142 s.v. balas",
+              "stance": "contradicts",
+              "note": "'balas, n., a variety of spinel ruby. — F. balais, fr. Arab. balakhsh, fr. Balakhshān, fr. Pers. Badhakhshān, name of a region in Central Asia (near Samarkand), where this variety of spinel ruby is found.'"
+            },
+            {
+              "src": "LKT",
+              "where": "no. 151 (Badaḫšān)",
+              "stance": "contradicts",
+              "note": "Lokotsch: 'N. pr. Name des nordöstlichen Teiles des heutigen Afġānistān. Von hier bezog man in früheren Zeiten Edelsteine … Über das ar. balaḫš ergab sich als Bezeichnung für eine Rubinart mlat. balascius, it. balascio, balasso, sp. balaju, balaja, pg. balais, kat. balaix, frz. prov. balais; dtsch. Ballasrubin. [Devic DE 233. ML 891.]'"
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, ff-leaf 27 s.v. بدخشان",
+              "stance": "partial",
+              "note": "'(اللقار) وهو … في بلخشان، والعجم يقولون له بدخشان (شفاء الغليل) … بدخشان … بلاد بين خراسان وهندستان فيها معادن الذهب والأحجار الكريمة (البرهان القاطع)' — the Arabic tradition itself equates بلخشان with بدخشان and locates the gem mines there; Balkh is not mentioned."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Arabic",
+          "words": "balaxš : ruby",
+          "verdict": "plausible",
+          "derivation": "Arabic بَلَخْش balaḵš 'balas ruby, rose-red spinel' is real and is indeed the form from which the European words were taken, so the node itself is right and its position between the Persian and the Old French node is right. What is wrong is its parent: Arabic balaḵš is a borrowing of Persian بلخش balaxš, a shortened/dissimilated variant of بدخشان Badaxšān (the gem-bearing district), not of بلخ Balx. Arabic geographers write both بلخشان and بدخشان for the same place (Addi Shir, quoting Šifāʾ al-ġalīl: 'والعجم يقولون له بدخشان'), which shows the two are the same name; the stone was then named for its provenance, the standard pattern for medieval gem names. Since Arabic balaḵš is not a native Semitic root formation but a place-name loan, the label 'Arabic' is best read as 'Arabic transmission of a Persian toponym'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/balas",
+            "https://www.ahdictionary.com/word/search.html?q=balas"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:101",
+              "status": "partial",
+              "note": "Checked in the online American Heritage Dictionary (the local AHD file holds only the Watkins IE appendix). AHD s.v. balas: 'A rose-red to orange spinel used as a semiprecious gem, once confused with the ruby. [Middle English, from Old French balais and Old Spanish balax, from Medieval Latin balascus, from Arabic balaḫš, from Persian Badakhshān, a region in northeast Afghanistan.]' The Arabic form and the route are exactly as charted; the Persian source given by AHD is Badakhshān, not Balx, so the reference supports the node but contradicts its parent."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 142 s.v. balas",
+              "stance": "partial",
+              "note": "'F. balais, fr. Arab. balakhsh, fr. Balakhshān, fr. Pers. Badhakhshān' — Klein has the Arabic word but inserts Balaxšān and Badaxšān above it."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, s.v. Balais (Rubis)",
+              "stance": "partial",
+              "note": "'Balais (Rubis). Esp. balax, balaxo, balaja; portug. balax, ital. balascio, bas lat. balascius. De l'arabe بلخش balakhch, venant du persan بدخشان badakhchân, nom du pays d'où l'on tire ces gemmes. … Marco Polo appelle ce même pays Balasian et les rubis balaxi ou balasci.'"
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir ff-leaf 27",
+              "stance": "supports",
+              "note": "Attests بلخشان alongside بدخشان in the Arabic lexicographical tradition (see node 4), i.e. an Arabic balaḵš- form of the toponym."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep for balaḫš/balahs/Badaḫšān in PLA_asbaghi_1988_ia_djvu.txt returns nothing; Asbaghi does not list this word."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Old French",
+          "words": "balais : ruby",
+          "verdict": "confirmed",
+          "derivation": "Old French balais (also rubis balais), 13th c., is the Arabic balaḵš adapted to French phonology: the Arabic cluster -ḵš is simplified and the word is refashioned with the productive adjectival ending -ais (as in the parallel Medieval Latin balascius, Italian balascio/balasso, Spanish balax/balaja, Catalan balaix, Portuguese balais). It reached the West through the Levantine gem trade — Marco Polo already calls the country Balasian and the stones balaxi/balasci. In French the word is an adjective qualifying rubis, exactly as in English 'balas ruby'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/balas",
+            "https://www.ahdictionary.com/word/search.html?q=balas"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:101",
+              "status": "supports",
+              "note": "AHD s.v. balas: '[Middle English, from Old French balais and Old Spanish balax, from Medieval Latin balascus, from Arabic balaḫš …]' — the Arabic→Old French step is precisely Nourai's arrow."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHN",
+              "where": "Pihan, s.v. BALAIS, adj. m. (p.)",
+              "stance": "supports",
+              "note": "Pihan lists BALAIS among the French words of Persian origin and gives 'balais, en persan بدخشان badakhchân'."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, s.v. Balais (Rubis)",
+              "stance": "supports",
+              "note": "'De l'arabe بلخش balakhch, venant du persan بدخشان badakhchân, nom du pays d'où l'on tire ces gemmes' — Arabic to French, as charted."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 151",
+              "stance": "supports",
+              "note": "'Über das ar. balaḫš ergab sich als Bezeichnung für eine Rubinart … frz. prov. balais; dtsch. Ballasrubin.'"
+            },
+            {
+              "src": "KLN",
+              "where": "p. 142 s.v. balas",
+              "stance": "supports",
+              "note": "'F. balais, fr. Arab. balakhsh'."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "balas : a rose-red gem",
+          "verdict": "confirmed",
+          "derivation": "Middle English balais/bales, borrowed from Old French balais (with support from Old Spanish balax and Medieval Latin balascus), gives modern English balas, now used almost only attributively in 'balas ruby'. The referent is a rose-red to orange spinel, distinguished from true ruby only after the 18th century — which is why the older English texts treat it as a kind of ruby, exactly Nourai's gloss 'a rose-red gem'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/balas",
+            "https://www.ahdictionary.com/word/search.html?q=balas"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:101",
+              "status": "supports",
+              "note": "AHD s.v. balas: 'A rose-red to orange spinel used as a semiprecious gem, once confused with the ruby. [Middle English, from Old French balais …]' — gloss and immediate parent as charted."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 142 s.v. balas",
+              "stance": "supports",
+              "note": "'balas, n., a variety of spinel ruby. — F. balais …'"
+            },
+            {
+              "src": "AHD",
+              "where": "online dictionary s.v. balas",
+              "stance": "supports",
+              "note": "See ref_check; the online AHD is the current edition of the dictionary whose 1975 New College page 101 Nourai cites."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat",
+              "stance": "silent",
+              "note": "No 'balas' entry recoverable from SKT.txt (grep returns nothing)."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Sogdian",
+          "words": "anxar, `ngr : star",
+          "verdict": "plausible",
+          "derivation": "Sogdian ʾnγr /anɣar/ 'star' is correctly cited (Gharib no. 1008, Buddhist Sogdian, attested in the Vessantara Jātaka and in the Paris Sogdian texts), and the compounds confirm the meaning: no. 1014 ʾnγrksʾy anɣar-kase 'astrologer' and no. 1017 ʾnγrwzn anɣar-wazan 'zodiac, constellation', which Gharib himself equates with Parthian axtar-wazan. That equation is the point: Sogdian anɣar corresponds to Middle Persian/Parthian axtar, so it belongs with node 1's axtar, not directly under Avestan apāṅk-, and Nourai's own note ('This may be a cognate rather than a derivative') concedes as much. Gharib offers only a tentative *ana-har with a question mark; a derivation from *apāṅk-/*apāxtara- would not yield Sogdian ʾnγr (there is no trace of the *p and no *-tar- suffix). So: the word and gloss are right, the drawn edge is not a derivation but at best a cognate relation.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "SOD:39",
+              "status": "supports",
+              "note": "SOD_pages.txt, entry '1008 ʾnγr B — anxar ⊙<*ana-har ? ⊙pl. -t =ʾnxr — star. VJ 25, 17; TSP 3.148, 150; Andreas, SPAW 1910, 310'. The leaf carrying entries 993-1014 has the printed page number 40 in its footer, so entry 1008 sits on printed p.39/40 — Nourai's SOD:39 is right (as a page, not an entry number). Neighbours: '1014 ʾnγrksʾy … anxar-kase, astrologer' and '1017 ʾnγrwzn … anxar-wazan ⊙Parth. axtar-wazan … zodiac, constellation'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib nos. 1008, 1014, 1017 (printed pp. 39-40)",
+              "stance": "partial",
+              "note": "Confirms the form and the gloss 'star', but proposes '<*ana-har ?' — not a derivation from apāṅk- — and equates the compound anxar-wazan with Parthian axtar-wazan."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II s.vv. apaxtar, axtar",
+              "stance": "partial",
+              "note": "Nyberg keeps Middle Persian axtar and apaxtar apart; the Sogdian word matches the former, so it cannot be a direct derivative of the Avestan apāṅk- root box."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, Khotanese dictionary",
+              "stance": "silent",
+              "note": "No Khotanese cognate of anɣar found; nothing bearing on this node."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
