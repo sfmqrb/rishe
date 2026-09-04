@@ -43,6 +43,8 @@ def main(argv):
         scans = [s for s in scans if str(s.get("volume", "")) == vol] or scans
     scan = None
     for s in scans:
+        if s.get("requires_volume") and not vol:
+            continue
         if s.get("first_printed", 0) <= page <= s.get("last_printed", 10**9):
             scan = s; break
     if "--pdf-page" in argv:

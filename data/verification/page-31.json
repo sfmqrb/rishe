@@ -16,7 +16,11 @@
         "https://en.wiktionary.org/wiki/آب"
       ],
       "ref_check": [
-        {"ref": "POK:1", "status": "supports", "note": "POK_01.txt line 19 (IEW p.1): 'ab- Wasser, Fluß. Lat. amnis ... air. ab ... cymr. afon ... Vgl. auch 2. ap- Wasser, Fluß und abō(n) Affe'. The Iranian forms are under 2. ap- p.51 (English edition POK_full.txt: 'Root ap-2 (*hap-2) water, river ... Old Indic ap- f. water ... Avestan Nom. Sg. āfš, Akk. Sg. āpəm'). Pokorny is still the standard reference for this root."}
+        {
+          "ref": "POK:1",
+          "status": "supports",
+          "note": "POK_01.txt line 19 (IEW p.1): 'ab- Wasser, Fluß. Lat. amnis ... air. ab ... cymr. afon ... Vgl. auch 2. ap- Wasser, Fluß und abō(n) Affe'. The Iranian forms are under 2. ap- p.51 (English edition POK_full.txt: 'Root ap-2 (*hap-2) water, river ... Old Indic ap- f. water ... Avestan Nom. Sg. āfš, Akk. Sg. āpəm'). Pokorny is still the standard reference for this root."
+        }
       ],
       "nodes": [
         {
@@ -30,7 +34,49 @@
             "https://en.wiktionary.org/wiki/آب"
           ],
           "ref_check": [
-            {"ref": "KLN:2", "status": "supports", "note": "KLN_1966.txt line 1142 (p.2, s.v. abdest): 'Pers. āb, water, is rel. to Avestic āp-, OI. āpaḥ (fem. pl.), water; see amnic and cp. the first element in abkari and the second element in doab and in julep.'"}
+            {
+              "ref": "KLN:2",
+              "status": "supports",
+              "note": "KLN_1966.txt line 1142 (p.2, s.v. abdest): 'Pers. āb, water, is rel. to Avestic āp-, OI. āpaḥ (fem. pl.), water; see amnic and cp. the first element in abkari and the second element in doab and in julep.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 122 s.v. an-āpa- (BRT.txt line 4423)",
+              "stance": "supports",
+              "note": "'j. an-āpa- Adj. (\"wo kein Wasser ist\" sva.) \"trocken\" von Speisen, \"ungemischt\" vom Wein: ... V. 5.52; als neutr. Subst. \"Wüste\"' — Avestan privative an- + āp- 'water' = 'without water; unmixed (wine)', the etymon of NP nāb; the āp- article itself is at cols 325 ff. (Nyberg's cross-reference 'Av. (325 sqq.) āp-')."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent §143 and §88 (KNT.txt lines 1531, 2224)",
+              "stance": "supports",
+              "note": "'*ap- \"water\" in inst. pl. abiš, *āp- in nom. āpi, loc. apiyā' and '§88 ... stems ending in ... p (xšap- \"night\", ap- \"water\" cf. āpi-)' — OP ap-/āpi- 'water' is the Old Persian member of the family."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. ab (PHD_mackenzie.txt line 658)",
+              "stance": "supports",
+              "note": "'ab [MYA | M ʾb, N āb] water' — Book Pahlavi āb with the Aramaeogram MYA, Manichaean ʾb, New Persian āb."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg Part II s.v. āp (NYB_vol2_glossary.txt line 473)",
+              "stance": "supports",
+              "note": "'āp [MYʾ; ʾp' ...] water ...; pl. cas. obl. āpān. — Av. (325 sqq.) āp-, OP āpi-; MPrthPrs ʾb; Paz. āw, āv; NP āb.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I p. 46 (WLD_Bd1_pages.txt leaf 55)",
+              "stance": "supports",
+              "note": "'2. ap- \"Wasser, Fluß\". Ai. āp- \"Wasser\", z. B. n. sg. āpaḥ ... g. pl. apām, av. n. sg. āfš, a. sg. āpəm, i. sg. apa(-ca) ... apr. ape \"Fluß\", apus \"Quell, Brunnen\", lit. ùpė, lett. upe \"Wasser\"' — the Walde-Pokorny article that Pokorny 51 revises; Buck cites it as 'Walde-P. 1.46'."
+            },
+            {
+              "src": "ARY",
+              "where": "p. 51 s.v. آب (ocr/ARY/0051.vision.txt)",
+              "stance": "supports",
+              "note": "Headword آب ĀB 'WATER' < Indo-European *ĀP; cognates Avestan ĀP, APAM; Old Persian ĀPI, APUS; Pahlavi ĀB, ĀP; Kurdish ĀV; Sanskrit ĀP, ĀPA; Latin AMNIS; Lith. ŪPĒ; Latv. UPĒ; Old Prussian APE; Old Irish ABANN; refs Pokorny 51-52, MacKenzie 139, Buck 34-35, Mallory 129, Borhan-e Qate' 1, Dehkhoda 35."
+            }
           ]
         },
         {
@@ -47,10 +93,88 @@
             "https://en.wiktionary.org/wiki/زه"
           ],
           "ref_check": [
-            {"ref": "BQT:1,49", "status": "not_found", "note": "BQT_v1_pages.txt: the آب entries are at OCR lines ~5860-5875 ('آب ... که یکی ازجملهٔ چهار عنصر باشد') and آفتاب at line 8232 ('آفتاب ... بروزن ماهتاب'), but the Persian OCR of Mo'in's etymological footnotes on these pages is too garbled to read the Pahlavi forms; could not confirm what p.49 says."},
-            {"ref": "IRN:119", "status": "not_checked", "note": "Farahvashi, Iranvij — no online copy; but Wikipedia (Abadan, Iran) reports exactly this etymology as 'B. Farahvashi proposed derivation from Persian ab (water) + pā (guard, watch), i.e. coastguard station', so the reference presumably says what the arrow says; it is a hypothesis not adopted by Iranica."},
-            {"ref": "AEF:10", "status": "not_checked", "note": "Khaleqi Motlaq, Asās-e Eshteqāq-e Fārsi — no online copy."},
-            {"ref": "PHD", "status": "contradicts", "note": "MacKenzie (PHD_mackenzie.txt line 658 'ab [MYA ...] water'; 5730 'zahabag [zhʾpk, N zahāb] spring, source'; 12387 axwarr) — supports zahāb, but lists āxwarr and ābād(ān) 'populous, thriving, prosperous' as separate lemmas, not compounds of ab. (Not cited by Nourai for this node; checked as the modern standard.)"}
+            {
+              "ref": "BQT:1,49",
+              "status": "partial",
+              "note": "BQT vol. 1 (BQT_v1_pages.txt): p. 1 s.v. آب at OCR line 5859: 'آب - بسکون بای ابجد. معروف است که یکی از جملهٔ چهار عنصر باشد ...' (Mo'in's footnote with the Pahlavi form is garbled); p. ~49 s.v. آفتاب at line 8232: 'آفتاب - بروزن ماهتاب. بمعنی تابش و روشنی و پرتو مهر است همچو ماهتاب، ترکیبی آن آفت آب است' — the dictionary has both words, but the only etymology legible is Borhan's folk 'āfat-e āb'; Mo'in's Pahlavi āp/āftāp footnotes cannot be read. NB: tools/ref_page.py BQT:1 and BQT:49 render vol. 5 (تعلیقات, separately paginated) pages, not vol. 1."
+            },
+            {
+              "ref": "IRN:119",
+              "status": "supports",
+              "note": "Now on disk: ocr/IRN/0119.txt (IRN_eliteraturebook.pdf page 130, printed p. 119 'اروند رود'): 'جزء نخست āp به معنی آب است، pāt از ريشهٔ پاییدن و -ān پسوند نسبت است و «اپاتان» به معنی جایی است که در آنجا از آب دریا و رود پاسبانی می‌کنند و آن را می‌پایند ... گفتهٔ ابن‌حوقل و استخری نیز گواه این معنی است که پاسبانان در آبادان دزدان دریا را از دزدی باز می‌داشتند' — Farahvashi says exactly what Nourai's ô-pât-ân arrow says (āp 'water' + pā- 'guard' + -ān). It remains Farahvashi's own hypothesis; Nyberg and Horn derive ābādān from *ā-pāta- 'protected' with no water element."
+            },
+            {
+              "ref": "AEF:10",
+              "status": "not_checked",
+              "note": "Khaleqi Motlaq, Asās-e Eshteqāq-e Fārsi — no online copy."
+            },
+            {
+              "ref": "PHD",
+              "status": "contradicts",
+              "note": "MacKenzie (PHD_mackenzie.txt line 658 'ab [MYA ...] water'; 5730 'zahabag [zhʾpk, N zahāb] spring, source'; 12387 axwarr) — supports zahāb, but lists āxwarr and ābād(ān) 'populous, thriving, prosperous' as separate lemmas, not compounds of ab. (Not cited by Nourai for this node; checked as the modern standard.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "Nyberg Part II s.v. āpātān (NYB_vol2_glossary.txt line 548)",
+              "stance": "contradicts",
+              "note": "'āpātān [ʾpʾtʾn'] cultivated, inhabited ...; Paz. āwāda; cf MPrth ʾbʾd; Arm. lw. apat; NP ābād and ābādān; < OIr *ā-pāta- \"protected\", v. pātan (1)' — ābādān is ā- + pā- 'protect', no āb 'water'. Nyberg has no āftāp, zahāp or āxwarr headwords."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 3 āb 'Glanz', p. 1-2 (HRN.txt line 464)",
+              "stance": "contradicts",
+              "note": "'3. āb \"Glanz\" (Šahn. I S. 14 Vers 7), vergl. āb-rō, āb-tāb, āb-mend, Rōd-ābe, Suhr-āb, Mihr-āb, Ardā Vīr-āf, āf-tāb, phlv. āb; skr. ābhā- \"Glanz\"' — Horn puts āftāb under a separate āb 'lustre' (Skt. ābhā-), not under āb 'Wasser' (no. 2)."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 4 ābād, p. 2 (HRN.txt line 475)",
+              "stance": "contradicts",
+              "note": "'4. ābād \"bewohnt\", vergl. ābādān, āwādān ...; ap. *āpāta-; phlv. āpāt (pāz. āwād), āpātīh, āpātān, āpātānīh; armen. LW. apat' — ābādān from OP *ā-pāta- 'protected', without āb 'water'."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 8 āxur, p. 4 (HRN.txt line 553)",
+              "stance": "contradicts",
+              "note": "'8. āxur \"Stall\". aw. avō.xᵛarəna- \"Stall, Futterplatz\"; phlv. āxur oder avxᵛar (Darmesteter, Et. ir. II, 136), arm. LW. axoṙ ... (de Lagarde, Semitica I 42) \"Stallmeister\"' — Avestan avō.xᵛarəna- 'feeding-place' (xᵛar- 'eat'), no āb 'water'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 s.v. *tap 'to warm up, heat', p. 379 (CHEUNG.txt line 24720)",
+              "stance": "contradicts",
+              "note": "'... Kurd. taw \"sun\" || (+ *abi-) NP āftāb \"sun(shine)\"' (and Parthian '(+ *abi-) ʾbdʾb \"sunshine\"', line 24686) — āftāb = preverb *abi- + *tap 'to shine/heat'; no āp 'water'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 s.v. *huar1 'to consume, eat', p. 147 (CHEUNG.txt line 10309 ff.)",
+              "stance": "partial",
+              "note": "'*MIDDLE PERSIAN: MMP xwr-, BMP hwl- /xwar-/ ... \"to drink, eat, enjoy\"' — the verb behind MP āxwarr 'manger'; Cheung does not list āxwarr itself, but the root is 'eat', not āb."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. zahabag, asyab, abad (PHD_mackenzie.txt lines 5730, 1261, 659)",
+              "stance": "partial",
+              "note": "'zahabag [zhʾpk | N zahāb] spring, source' supports zā-āp; but 'abad [ʾpʾt | M ʾbʾd, N ābād] populous, thriving, prosperous' and axwarr (line 12387) are independent lemmas, not āb-compounds (already recorded in ref_check as PHD contradicts)."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 1 p. ~49 s.v. آفتاب (BQT_v1_pages.txt line 8232)",
+              "stance": "partial",
+              "note": "Borhan: 'آفتاب - بروزن ماهتاب. بمعنی تابش و روشنی و پرتو مهر است همچو ماهتاب، ترکیبی آن آفت آب است' — Borhan's own folk-etymology 'āfat-e āb' (bane of water) shows the compound was already felt to contain āb; Mo'in's etymological footnote on this page is not legible in the OCR (and vol. 1 exists only as archive.org OCR, no page image)."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann Pers. Studien (HUB.txt, grep āftāb/ābād/āxur)",
+              "stance": "silent",
+              "note": "No addition to Horn nos 3, 4, 8 found in the OCR of Hübschmann's Part I."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in (MON_part1/2.txt, grep آبادان/آخور/آفتاب headwords)",
+              "stance": "silent",
+              "note": "The headword lines for آفتاب, آبادان and آخور are not recoverable in the OCR (only compounds like 'آفتاب سر دیوار'); no etymology readable."
+            }
           ]
         },
         {
@@ -65,10 +189,76 @@
             "https://en.wiktionary.org/wiki/زه"
           ],
           "ref_check": [
-            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 282: 'ap-2. Water, river. Iranian ap- in Persian ab, water: JULEP. [Pok. 2. ap- 51.]'"},
-            {"ref": "BQT:1225", "status": "not_found", "note": "BQT_v2_pages.txt line 1274 shows a garbled 'زهاب ) ... ساب طبری' fragment in the زهاب region, but the OCR is unreadable; could not verify the footnote."},
-            {"ref": "IRN:108", "status": "not_checked", "note": "no online copy of Farahvashi, Iranvij."},
-            {"ref": "MON:1763", "status": "partial", "note": "MON_part2.txt: the زهاب headword itself is not recoverable in the OCR (only uses inside other entries, e.g. line 8910 'کشتی که زهاب آب‌های کشتی در آن جمع'); vajehyab's Mo'in entry confirms the meaning 'seepage near a spring' but gives no etymology."}
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 282: 'ap-2. Water, river. Iranian ap- in Persian ab, water: JULEP. [Pok. 2. ap- 51.]'"
+            },
+            {
+              "ref": "BQT:1225",
+              "status": "partial",
+              "note": "Now on disk (vol. 3, BQT_v3_picofile.pdf page 16; running head ۱۲۲۵ confirmed on the page image, ocr/BQT/1225.png; transcription in ocr/BQT/1225.vision.txt): the page holds the entries شار … شارو, not زهاب. Entry شار: 'و فرو ریختن آب و شراب و امثال آن باشد همچو آبشار و سرشار ۵'; Mo'in footnote ۵: 'گیلکی و دزفولی shorra (آوای فرو ریختن آب) ... و غالباً در فارسی به تکرار «شارشار» گویند. رک: شاریدن' — so Nourai's BQT:1225 documents the extra word آبشار (āb + šār 'pouring'), not zahāb; for zahāb the reference is silent."
+            },
+            {
+              "ref": "IRN:108",
+              "status": "supports",
+              "note": "Now on disk: ocr/IRN/0108.txt (IRN_eliteraturebook.pdf page 119, printed p. 108): 'این رود زاب ... در اصل ترکیب شده است از واژه‌های «زه» و «آب» و این ترکیب همانست که در واژهٔ «زهاب» در نام محل سرپل زهاب دیده می‌شود. در این ترکیب زه به معنی زاینده است از ريشهٔ zan- به معنی زاییدن و زهاب یا زاب به معنی رود زاینده است' — Farahvashi derives zahāb/Zāb from zah + āb as the arrow says (his gloss of zah as 'begetting' differs from MacKenzie's 'spring, source', but the āb element is agreed)."
+            },
+            {
+              "ref": "MON:1763",
+              "status": "partial",
+              "note": "MON_part2.txt: the زهاب headword itself is not recoverable in the OCR (only uses inside other entries, e.g. line 8910 'کشتی که زهاب آب‌های کشتی در آن جمع'); vajehyab's Mo'in entry confirms the meaning 'seepage near a spring' but gives no etymology."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn no. 2 āb 'Wasser', p. 1 (HRN.txt lines 455-461)",
+              "stance": "supports",
+              "note": "'2. āb, āw \"Wasser\"; vergl. sīm-āb (\"Quecksilber\", wörtl. \"Silberwasser\") ...; ap. āp- \"Wasser\"; aw. āp-; phlv. āp (pāz. āw); ai. āp-, kurd. āw; afγ. ōba (fem.); bal. āp, n. āf' — NP āb < OP/Av. āp-. Horn has no zahāb entry."
+            },
+            {
+              "src": "ARY",
+              "where": "p. 51 s.v. آب (ocr/ARY/0051.vision.txt)",
+              "stance": "supports",
+              "note": "Headword آب ĀB 'WATER' < Indo-European *ĀP; cognates Avestan ĀP, APAM; Old Persian ĀPI, APUS; Pahlavi ĀB, ĀP; Kurdish ĀV; Sanskrit ĀP, ĀPA; Latin AMNIS; Lith. ŪPĒ; Latv. UPĒ; Old Prussian APE; Old Irish ABANN; refs Pokorny 51-52, MacKenzie 139, Buck 34-35, Mallory 129, Borhan-e Qate' 1, Dehkhoda 35."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. zahabag and asyab (PHD_mackenzie.txt lines 5730, 1261)",
+              "stance": "supports",
+              "note": "'zahabag [zhʾpk | N zahāb] spring, source' and 'asyab [ʾsyʾp] (water-)mill' — MP zahābag is the direct source of NP zahāb; āsyāb is a genuine āb-compound."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg Part II (NYB_vol2_glossary.txt, grep zah-)",
+              "stance": "silent",
+              "note": "Only zahr 'poison' and zahyāi 'depth' at lines 4476-4477; no zahāp/zahābag entry."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann Pers. Studien (HUB.txt, grep āb/zahāb)",
+              "stance": "silent",
+              "note": "No note on Horn no. 2 āb and no zahāb entry found in the OCR."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in s.v. آب (MON_part1.txt line 748)",
+              "stance": "partial",
+              "note": "'آب ... (اِ.) مایعی است شفاف، بی‌طعم و بی‌بو؛ مرکب از دو عنصر اکسیژن و هیدروژن' — the headword is there but the bracketed origin tag ([په. āp]) is garbled in the OCR; زهاب headword not recoverable (see ref_check MON:1763)."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 1 p. 1 s.v. آب (BQT_v1_pages.txt line 5859) and vol. 3 p. 1225 s.v. شار (ocr/BQT/1225.vision.txt)",
+              "stance": "partial",
+              "note": "'آب ... معروف است که یکی از جملهٔ چهار عنصر باشد' (footnote unreadable); p. 1225 شار: 'و فرو ریختن آب و شراب و امثال آن باشد همچو آبشار و سرشار' with Mo'in fn 5 'گیلکی و دزفولی shorra (آوای فرو ریختن آب)' — supports the extra word آبشار = āb + šār 'pouring'; زهاب is not on that page (it is in vol. 2, OCR unreadable)."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 5 Pers. abdār, p. 1 (LKT.txt line 228)",
+              "stance": "supports",
+              "note": "'5. Pers. abdār: [Aus āb \"Wasser\" od. \"Glanz\" Horn NpEt S. 1, Nr. 2 und 3, und Stamm dār- \"habend, haltend\"] \"wässerig, hell, glänzend\"' — Lokotsch, like Horn, keeps two homonyms āb 'water' (no. 2) and āb 'lustre' (no. 3)."
+            }
           ]
         },
         {
@@ -82,7 +272,67 @@
             "https://en.wiktionary.org/wiki/گلاب"
           ],
           "ref_check": [
-            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 282 'ap-2 ... Persian ab, water: JULEP' and line 1174 'Zero-grade form *wrd- in Iranian *wrd in Persian gul, rose: JULEP'; index line 1707 'JULEP ap-2, wrod-'. Klein p.2 s.v. abdest and p.836 s.v. julep ('fr. Pers. gulāb, rose water, julep, compounded of gul, rose, and āb, water') agree."}
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 282 'ap-2 ... Persian ab, water: JULEP' and line 1174 'Zero-grade form *wrd- in Iranian *wrd in Persian gul, rose: JULEP'; index line 1707 'JULEP ap-2, wrod-'. Klein p.2 s.v. abdest and p.836 s.v. julep ('fr. Pers. gulāb, rose water, julep, compounded of gul, rose, and āb, water') agree."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 742 Pers. gulāb, p. 59 (LKT.txt line 1810)",
+              "stance": "supports",
+              "note": "'742. Pers. gulāb: \"Rosenwasser\" [aus pers. gul \"Rose\", s. hier Nr. 740, und āb \"Wasser\", s. hier Nr. 5], ebenso ar. gulāb, vulg. guleb; hieraus mlat. julapium \"eine Art Sirup, Kühltrank\", it. giulebbe, giulebbo, giuleppo, prov. frz. julep, sp. julepe, pg. julepo.'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New 20th C. s.v. julep (WEB_vol1.txt line 102769, leaf 1026)",
+              "stance": "supports",
+              "note": "'julep, n. [Fr. julep; Sp. julepe; Ar. julab; Per. gulab, julep, rose water; gul, rose, and ab, water.] ... a cool drink containing aromatic herbs.'"
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 2 s.v. julep (FSD_vol2.txt line 65496)",
+              "stance": "supports",
+              "note": "'julep ... n. 1. A drink composed usually of brandy or whisky, sugar, cracked ice ... mint. 2. A subacid, mucilaginous, sweetened drink, often used as a vehicle for ... medicine. [F, < Sp. julepe, < Ar. julāb, < Pers. gulāb ... water.]' (OCR partly garbled)."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic p. 146 s.v. Julep (DEV.txt line 1581)",
+              "stance": "supports",
+              "note": "'Julep. Esp. et portug. julepe; ital. giulebbo, giulebbe; bas latin julapium. De l'arabe-persan جلاب djoulâb ou djoullâb, qui a le même sens' — Devic gives the Arabic-Persian julāb as source."
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan s.v. JULEP (a.-p.) (PHN.txt line 6310)",
+              "stance": "supports",
+              "note": "'JULEP, s. m. composé, (a.-p.) ... Potion médicinale, rafraîchissante ... Le terme arabe est une imitation du persan گلاب [gulāb] eau de rose, formé de گل [gul] rose, et de آب [āb] eau ... De là viennent aussi l'espagnol et le portugais julepe, ainsi que l'italien giulebbo et giulebbe.'"
+            },
+            {
+              "src": "LAM",
+              "where": "Lammens s.v. Julep (LAM.txt line 4694)",
+              "stance": "supports",
+              "note": "'Julep. Esp: julepe. Ptg: julepo. Majorq: culepe. It: giulebbo, giulebbe, de l'arabe جلاب goulâb ou goullâb, eau de rose; sirop. Ce mot d'origine persane est ancien en arabe. On le trouve cité dans un hadith'"
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in s.v. گلاب (MON_part2.txt line 34161)",
+              "stance": "supports",
+              "note": "'گلاب: [- جلاب؛ معر.] (اِمر.) ... که از گل سرخ استخراج کنند و معطر است' — Mo'in gives the arabicized form جلاب julāb beside Persian گلاب."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel p. 166 (AFA.txt line 5864, leaf 188)",
+              "stance": "partial",
+              "note": "In the discussion of rosātum: 'Dasselbe ist auch ... Cast. 809 \"Julabium\"' — Fraenkel only mentions Latin julabium in a note on Aramaic wine-words; no julāb entry."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat (SKT.txt, grep julep)",
+              "stance": "silent",
+              "note": "No julep entry found in the OCR of the Concise Dictionary."
+            }
           ]
         },
         {
@@ -97,7 +347,67 @@
             "https://en.wiktionary.org/wiki/ἄμβιξ"
           ],
           "ref_check": [
-            {"ref": "PLA:22", "status": "not_checked", "note": "Asbaghi, Persische Lehnwörter im Arabischen — no online copy. Mo'in (MON_part1.txt line 17169) contradicts: 'انبیق: [غ. معر.] (ا.) ظرفی است برای تقطیر مایعات و گرفتن عصاره و عرق' — marked as Greek, arabicized."}
+            {
+              "ref": "PLA:22",
+              "status": "not_found",
+              "note": "Now on disk: PLA_pages.txt leaf 37 = printed p. 22 (running head 'isbahān 22 isfāhān') contains only the entries isbahān … isfāhān; nothing on āb-nīk. Asbaghi's ābnīk claim is on p. 27 s.v. ambīq (see node 6, PLA:27): 'wahrscheinlich aus dem pers. آبنیک ābnīk' — so the page number is wrong but the reference does make Nourai's claim. (ref_page.py PLA:22 rendered pdf page 22 = printed p. 7 'adab'; the offset is pdf = printed + 15.) Mo'in (MON_part1.txt line 17169) contradicts: 'انبیق: [غ. معر.]' = Greek, arabicized."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79 Ar. anbīk, p. 8 (LKT.txt line 398)",
+              "stance": "contradicts",
+              "note": "'79. Ar. anbīk: [Das selbst aus gr. ἄμβιξ; in der Aussprache ambīk] \"Destilliergefäß\". Hieraus z. T. mit, z. T. ohne ar. Art. lat. alambicum und die romanischen Formen: it. lambicco ...; prov. elambic, frz. alambic, rum. alambic, sp. alambique, pg. lambique; engl. alembic' — Arabic anbīq from Greek ámbix, no Persian āb-nīk."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic p. 5 s.v. Alambic (DEV.txt line 270)",
+              "stance": "contradicts",
+              "note": "'Alambic. Esp. alambique, port. lambique, ital. lambico, de l'arabe الأنبيق al-anbīq, venant du grec ἄμβιξ vase à distiller, précédé de l'article arabe al.'"
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan s.v. ALAMBIC (a.-gr.) (PHN.txt lines 1095-1103)",
+              "stance": "contradicts",
+              "note": "'Les étymologistes s'accordent à regarder alambic comme la transcription du grec ἄμβιξ, vase à bords relevés, précédé de l'article arabe al. Cependant il est probable que les chimistes ont emprunté directement ce terme aux Arabes, qui sans doute l'avaient tiré de la langue grecque. — Les Espagnols et les Portugais écrivent alambique.'"
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 27 s.v. ambīq (PLA_pages.txt leaf 42, line 1929)",
+              "stance": "supports",
+              "note": "'ambīq: \"Alembik\" pers., mand. anpaqa (iranian, talm. ...), syr. ..., sp. alambique, engl. alembic, frz. alambic, dtsch. Alembik \"Destillierkolben\" [Wildhagen], wahrscheinlich aus dem pers. آبنیک ābnīk.' — Asbaghi is the (only) source of the ābnīk etymon; see ref_check PLA:22/PLA:27."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in (MON_part1.txt, grep آبنیک; s.v. انبیق line 17169)",
+              "stance": "contradicts",
+              "note": "No headword آبنیک; 'انبیق: [غ. معر.] (اِ.) ظرفی است برای تقطیر مایعات' — Mo'in marks anbīq as Greek, arabicized."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol. 1 (BQT_v1_pages.txt, grep آبنیک)",
+              "stance": "silent",
+              "note": "No آبنیک entry in the OCR of vol. 1 (آ–ت)."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn (HRN.txt, grep āb-nīk/nīk)",
+              "stance": "silent",
+              "note": "No āb-nīk compound; Horn's āb-compounds are sīmāb, āb-dast etc."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann (HUB.txt)",
+              "stance": "silent",
+              "note": "Nothing on ābnīk or anbīq."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (ARY_pages.txt / latin index)",
+              "stance": "silent",
+              "note": "No آبنیک or انبیق headword found."
+            }
           ]
         },
         {
@@ -112,8 +422,72 @@
             "https://www.etymonline.com/word/alembic"
           ],
           "ref_check": [
-            {"ref": "WEB:44", "status": "contradicts", "note": "WEB_vol1.txt line 5377 (Webster's New 20th C., s.v. alembic): 'a-lem/bic, n. [L. alambicus; Ar. alanbiq; al, the, and anbiq, Per. ambiq, a still; Gr. ambix, a cup of a still.]' — Persian is only a transit stage; the source is Greek ambix."},
-            {"ref": "PLA:27", "status": "not_checked", "note": "Asbaghi — no online copy."}
+            {
+              "ref": "WEB:44",
+              "status": "contradicts",
+              "note": "WEB_vol1.txt line 5377 (Webster's New 20th C., s.v. alembic): 'a-lem/bic, n. [L. alambicus; Ar. alanbiq; al, the, and anbiq, Per. ambiq, a still; Gr. ambix, a cup of a still.]' — Persian is only a transit stage; the source is Greek ambix."
+            },
+            {
+              "ref": "PLA:27",
+              "status": "supports",
+              "note": "Now on disk: PLA_pages.txt leaf 42 = printed p. 27 (running head 'amīrāḫūr 27 ambīq'), last entry: 'ambīq: \"Alembik\" pers., mand. anpaqa (iranian, talm. ...), syr. ..., sp. alambique, engl. alembic, frz. alambic, dtsch. Alembik \"Destillierkolben\" [11 Wildhagen s.v.], wahrscheinlich aus dem pers. آبنیک ābnīk.' — Asbaghi does derive Arabic ambīq (and the European alembic words) from Persian āb-nīk, i.e. he is the source of Nourai's whole branch; but it is a lone 'wahrscheinlich' against Klein, Skeat, Lokotsch, Devic, Pihan, Webster's, Mo'in and all modern sources, which start from Greek ἄμβιξ."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79 Ar. anbīk, p. 8 (LKT.txt line 398)",
+              "stance": "contradicts",
+              "note": "'79. Ar. anbīk: [Das selbst aus gr. ἄμβιξ; in der Aussprache ambīk] \"Destilliergefäß\". Hieraus z. T. mit, z. T. ohne ar. Art. lat. alambicum und die romanischen Formen: it. lambicco ...; prov. elambic, frz. alambic, rum. alambic, sp. alambique, pg. lambique; engl. alembic' — Arabic anbīq from Greek ámbix, no Persian āb-nīk."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Alembic, p. 12 (SKT.txt line 527)",
+              "stance": "contradicts",
+              "note": "'Alembic, a vessel for distilling. (F. — Span. — Arab. — Gk.) M.E. alembike; F. alambique (Cot.); Span. alambique. — Arab. al, the; and anbīq (pronounced ambīq), a still. — Gk. ἄμβιξ, a cup, goblet; cap of a still' — Greek origin; chain Greek > Arabic > Spanish > French > English."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic p. 5 s.v. Alambic (DEV.txt line 270)",
+              "stance": "contradicts",
+              "note": "'Alambic. Esp. alambique, port. lambique, ital. lambico, de l'arabe الأنبيق al-anbīq, venant du grec ἄμβιξ vase à distiller, précédé de l'article arabe al.'"
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan s.v. ALAMBIC (a.-gr.) (PHN.txt lines 1095-1103)",
+              "stance": "contradicts",
+              "note": "'Les étymologistes s'accordent à regarder alambic comme la transcription du grec ἄμβιξ, vase à bords relevés, précédé de l'article arabe al. Cependant il est probable que les chimistes ont emprunté directement ce terme aux Arabes, qui sans doute l'avaient tiré de la langue grecque. — Les Espagnols et les Portugais écrivent alambique.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein p. 47 s.v. alembic (KLN_1966.txt line 2149)",
+              "stance": "contradicts",
+              "note": "'fr. Arab. al-anbīq, the still, which is formed fr. al-, the, and Gk. ἄμβιξ, cup, cap of a still, alembic, which is of uncertain, possibly Semitic origin' — Greek, not Persian āb-nīk."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in s.v. انبیق (MON_part1.txt line 17169)",
+              "stance": "contradicts",
+              "note": "'انبیق: [غ. معر.] (اِ.) ظرفی است برای تقطیر مایعات و گرفتن عصاره و عرق' — origin tag غ. = Greek."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir (AFM_pages.txt, grep انبيق/أنبيق)",
+              "stance": "silent",
+              "note": "Addi Shir does not list anbīq among the arabicized Persian words (no hit for انبيق/الأنبيق)."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery (FVQ_pages.txt, grep anbīq/ambīq)",
+              "stance": "silent",
+              "note": "Not a Qur'anic word; no entry."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel (AFA.txt, grep ambix/Alembik)",
+              "stance": "silent",
+              "note": "No entry."
+            }
           ]
         },
         {
@@ -126,7 +500,43 @@
             "https://en.wiktionary.org/wiki/إنبيق"
           ],
           "ref_check": [
-            {"ref": "MON:362", "status": "partial", "note": "MON_part1.txt line 17169: 'انبیق: [غ. معر.] (ا.) ظرفی است برای تقطیر مایعات و گرفتن عصاره و عرق' — confirms the word and that Persian took it from Arabic (معرّب), but labels the origin Greek (غ.), against Nourai's Persian âbnîk."}
+            {
+              "ref": "MON:362",
+              "status": "partial",
+              "note": "MON_part1.txt line 17169: 'انبیق: [غ. معر.] (ا.) ظرفی است برای تقطیر مایعات و گرفتن عصاره و عرق' — confirms the word and that Persian took it from Arabic (معرّب), but labels the origin Greek (غ.), against Nourai's Persian âbnîk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79 Ar. anbīk, p. 8 (LKT.txt line 398)",
+              "stance": "partial",
+              "note": "'Ar. anbīk [Das selbst aus gr. ἄμβιξ ...] \"Destilliergefäß\"' — treats the Arabic word (from Greek); Persian anbīq not mentioned, but as an Arabic word it can only have reached Persian as a loan, as the chart draws."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 27 s.v. ambīq (PLA_pages.txt line 1929)",
+              "stance": "partial",
+              "note": "'ambīq: \"Alembik\" pers. ... wahrscheinlich aus dem pers. ābnīk' — Asbaghi reverses the direction (Persian → Arabic); he does not treat NP انبیق as an Arabic loan."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol. 1 (BQT_v1_pages.txt, grep انبیق)",
+              "stance": "silent",
+              "note": "No انبیق headword recoverable in the OCR of vol. 1."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn (HRN.txt, grep anbīq)",
+              "stance": "silent",
+              "note": "Arabic loans are outside Horn's scope; no entry."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (ARY_pages.txt)",
+              "stance": "silent",
+              "note": "No انبیق entry (not an Indo-European word)."
+            }
           ]
         },
         {
@@ -140,7 +550,49 @@
             "https://en.wiktionary.org/wiki/alembic"
           ],
           "ref_check": [
-            {"ref": "KLN:47", "status": "supports", "note": "KLN_1966.txt line 2149 (p.47): 'alembic, n. — ME., fr. OF. (= F.) alambic, fr. OSp. (= Sp.) alambique fr. Arab. al-anbīq, the still, which is formed fr. al-, the, and Gk. ἄμβιξ, cup, cap of a still, alembic, which is of uncertain, possibly Semitic origin. Cp. It. lambicco'."}
+            {
+              "ref": "KLN:47",
+              "status": "supports",
+              "note": "KLN_1966.txt line 2149 (p.47): 'alembic, n. — ME., fr. OF. (= F.) alambic, fr. OSp. (= Sp.) alambique fr. Arab. al-anbīq, the still, which is formed fr. al-, the, and Gk. ἄμβιξ, cup, cap of a still, alembic, which is of uncertain, possibly Semitic origin. Cp. It. lambicco'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79, p. 8 (LKT.txt line 398)",
+              "stance": "supports",
+              "note": "'... prov. elambic, frz. alambic, rum. alambic, sp. alambique, pg. lambique; engl. alembic' — Spanish alambique from Arabic al-anbīq with the article."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic p. 5 s.v. Alambic (DEV.txt line 270)",
+              "stance": "supports",
+              "note": "'Esp. alambique, port. lambique, ital. lambico, de l'arabe al-anbīq ... précédé de l'article arabe al.'"
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan s.v. ALAMBIC (PHN.txt line 1103)",
+              "stance": "supports",
+              "note": "'Les Espagnols et les Portugais écrivent alambique.'"
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 27 s.v. ambīq (PLA_pages.txt line 1929)",
+              "stance": "supports",
+              "note": "'sp. alambique, engl. alembic, frz. alambic, dtsch. Alembik' listed as descendants of Arabic ambīq."
+            },
+            {
+              "src": "LAM",
+              "where": "Lammens p. ? s.v. almanach, note 2 (LAM.txt line 1610)",
+              "stance": "partial",
+              "note": "'les Arabes ont fait pour almanach ce qu'ils ont fait pour almageste, alchimie, alambic, c'est-à-dire qu'ils ont accolé leur article à des mots grecs ou latins' — alambic cited as an Arabic article + Greek word; no separate entry."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Alembic, p. 12 (SKT.txt line 527)",
+              "stance": "supports",
+              "note": "'(F. — Span. — Arab. — Gk.) ... F. alambique (Cot.); Span. alambique. — Arab. al, the; and anbīq' — Spanish stage between Arabic and French, as drawn."
+            }
           ]
         },
         {
@@ -154,7 +606,43 @@
             "https://en.wiktionary.org/wiki/alembic"
           ],
           "ref_check": [
-            {"ref": "KLN:47", "status": "supports", "note": "KLN_1966.txt line 2149: 'fr. OF. (= F.) alambic, fr. OSp. (= Sp.) alambique' — French from Spanish as drawn."}
+            {
+              "ref": "KLN:47",
+              "status": "supports",
+              "note": "KLN_1966.txt line 2149: 'fr. OF. (= F.) alambic, fr. OSp. (= Sp.) alambique' — French from Spanish as drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Alembic, p. 12 (SKT.txt line 527)",
+              "stance": "contradicts",
+              "note": "'Alembic, a vessel for distilling. (F. — Span. — Arab. — Gk.) M.E. alembike; F. alambique (Cot.); Span. alambique. — Arab. al, the; and anbīq (pronounced ambīq), a still. — Gk. ἄμβιξ, a cup, goblet; cap of a still' — Greek origin; chain Greek > Arabic > Spanish > French > English."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79, p. 8 (LKT.txt line 398)",
+              "stance": "partial",
+              "note": "'Hieraus z. T. mit, z. T. ohne ar. Art. lat. alambicum und die romanischen Formen ... prov. elambic, frz. alambic' — French derived from Arabic via Latin alambicum / the Romance forms; Lokotsch does not single out Spanish (cf. Nourai's NOTE 'could be through Latin alambicum')."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic p. 5 s.v. Alambic (DEV.txt line 270)",
+              "stance": "partial",
+              "note": "French alambic 'de l'arabe al-anbīq' directly, with Esp. alambique, port. lambique, ital. lambico as parallels — no Spanish intermediary claimed."
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan s.v. ALAMBIC (PHN.txt lines 1095-1103)",
+              "stance": "partial",
+              "note": "'il est probable que les chimistes ont emprunté directement ce terme aux Arabes' — French taken straight from Arabic, not through Spanish."
+            },
+            {
+              "src": "LAM",
+              "where": "Lammens (LAM.txt line 1610)",
+              "stance": "partial",
+              "note": "Only the passing remark that alambic is Arabic article + Greek word."
+            }
           ]
         },
         {
@@ -168,7 +656,37 @@
             "https://en.wiktionary.org/wiki/alembic"
           ],
           "ref_check": [
-            {"ref": "KLN:47", "status": "supports", "note": "KLN_1966.txt line 2149: 'alembic, n. — ME., fr. OF. (= F.) alambic'; line 21755: 'limbec, n., alembic (archaic). — Aphetic for alembic.'"}
+            {
+              "ref": "KLN:47",
+              "status": "supports",
+              "note": "KLN_1966.txt line 2149: 'alembic, n. — ME., fr. OF. (= F.) alambic'; line 21755: 'limbec, n., alembic (archaic). — Aphetic for alembic.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Alembic, p. 12 (SKT.txt line 527)",
+              "stance": "contradicts",
+              "note": "'Alembic, a vessel for distilling. (F. — Span. — Arab. — Gk.) M.E. alembike; F. alambique (Cot.); Span. alambique. — Arab. al, the; and anbīq (pronounced ambīq), a still. — Gk. ἄμβιξ, a cup, goblet; cap of a still' — Greek origin; chain Greek > Arabic > Spanish > French > English."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 79, p. 8 (LKT.txt line 398)",
+              "stance": "supports",
+              "note": "'... prov. elambic, frz. alambic ...; engl. alembic' — English alembic among the Romance-mediated descendants of Arabic al-anbīq."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 1 s.v. alembic and vol. 2 s.v. limbec (FSD_vol1.txt lines 11540-11542; FSD_vol2.txt line 76601)",
+              "stance": "partial",
+              "note": "'a-lem'bic, n. 1. An apparatus of glass or ...' (etymology bracket not legible in the OCR) and 'limbec ... 1. Her. A bearing representing an alembic. 2. A still. [Contr. of alembic.]' — confirms the word and the aphetic limbec."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein p. 47 s.v. alembic and p. 884 s.v. limbec (KLN_1966.txt lines 2149, 21755)",
+              "stance": "supports",
+              "note": "'alembic, n. — ME., fr. OF. (= F.) alambic' (already quoted in ref_check); 'limbec, n., alembic (archaic). — Aphetic for alembic.'"
+            }
           ]
         },
         {
@@ -182,8 +700,54 @@
             "https://en.wiktionary.org/wiki/ناب"
           ],
           "ref_check": [
-            {"ref": "FVQ:46", "status": "supports", "note": "FVQ_pages.txt ff-page 64-65 (Jeffery pp.46-47, s.v. ibrīq): 'It would be derived from [āb] water (= Phlv. āp, i.e. OPers. āpi = Av. āp ... ), and [rīz] to pour (= Phlv. rēc from an old Iranian root *raek = linquere) ... It was from the Phlv. form that the word was borrowed into Arabic, the shortening of the ī being regular.'"},
-            {"ref": "ISS:3", "status": "not_checked", "note": "Bailey, Indo-Scythian Studies (Khotanese Texts VI) is not on disk; the substitute Bailey Dictionary of Khotan Saka (ISS_alt_DKS.txt) was grepped for anāb/nāb/ābrēz without a hit. Horn HRN.txt line 8831 (no. 1015) supplies the same derivation: 'nāb rein, ungemischt. aw. anāp- ohne Wasser; phlv. anāp'."}
+            {
+              "ref": "FVQ:46",
+              "status": "supports",
+              "note": "FVQ_pages.txt ff-page 64-65 (Jeffery pp.46-47, s.v. ibrīq): 'It would be derived from [āb] water (= Phlv. āp, i.e. OPers. āpi = Av. āp ... ), and [rīz] to pour (= Phlv. rēc from an old Iranian root *raek = linquere) ... It was from the Phlv. form that the word was borrowed into Arabic, the shortening of the ī being regular.'"
+            },
+            {
+              "ref": "ISS:3",
+              "status": "not_checked",
+              "note": "Bailey, Indo-Scythian Studies (Khotanese Texts VI) is not on disk; the substitute Bailey Dictionary of Khotan Saka (ISS_alt_DKS.txt) was grepped for anāb/nāb/ābrēz without a hit. Horn HRN.txt line 8831 (no. 1015) supplies the same derivation: 'nāb rein, ungemischt. aw. anāp- ohne Wasser; phlv. anāp'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 122 s.v. an-āpa- (BRT.txt line 4423)",
+              "stance": "supports",
+              "note": "'j. an-āpa- Adj. (\"wo kein Wasser ist\" sva.) \"trocken\" von Speisen, \"ungemischt\" vom Wein: ... V. 5.52; als neutr. Subst. \"Wüste\"' — Avestan privative an- + āp- 'water' = 'without water; unmixed (wine)', the etymon of NP nāb; the āp- article itself is at cols 325 ff. (Nyberg's cross-reference 'Av. (325 sqq.) āp-')."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 s.v. *Hraič 'to pour, flow', p. 181-182 (CHEUNG.txt lines 12780-12801)",
+              "stance": "supports",
+              "note": "'*MIDDLE PERSIAN: MMP ryc- (sic), BMP lyc- /rēz-/ \"to flow; pour\" ... *PARTHIAN: ryz- \"to pour\" ... *NWIR: Widely attested: NP rēxtan/rēz- \"to flow, pour\"' — the second element of āb-rēz/ābrīz is the present stem rēz- of *Hraič (Nourai's ☞Leigh 2 = PIE *leikʷ-)."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann Pers. Studien no. 1015, p. 100 (HUB.txt line 3539)",
+              "stance": "supports",
+              "note": "'1015. Dazu arm. LW. anapak ungemischt, rein (vom Wein).' — the Armenian loan anapak preserves the full MP anāp(ak) 'un-watered', confirming nāb < anāp."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 3 s.v. ibrīq and p. 2 s.v. abrīz (PLA_pages.txt lines 582, 555)",
+              "stance": "supports",
+              "note": "'ibrīq: \"Gießkanne; Ibrik\" aus dem pers. آبریز ābrīz s. ābrīz, syr. ..., dtsch. Ibrik \"im Orient Wasserkanne mit dünnem Hals und ovalem Bauch\"'; the preceding 'abrīz: \"pures Gold, Obryzum\" pers., aus dem pers. āb \"Glanz\" + rīz' is the homonymous āb 'lustre' compound."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie (PHD_mackenzie.txt, grep anab/abrez; lines 743-822)",
+              "stance": "partial",
+              "note": "No anāb or ābrēz headword; MacKenzie does list parallel āb-compounds 'ab-dān [ʾpdʾn] water-holder', 'ab-tāzān [ʾptʾcʾn] watercourse', 'ab-čihrag ... essence of water' — the type is Middle Persian, the two specific lemmas are unattested there."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg Part II (NYB_vol2_glossary.txt, grep anāp/āp-rēc)",
+              "stance": "silent",
+              "note": "No anāp or āp-rēč entry; only āp 'water' (line 473) and the compounds āp-čihrak, āp-sārān, āpīk cross-referenced there."
+            }
           ]
         },
         {
@@ -197,7 +761,55 @@
             "https://vajehyab.com/?q=آبریز"
           ],
           "ref_check": [
-            {"ref": "ISS:3", "status": "not_checked", "note": "Indo-Scythian Studies not available; substitute DKS text has no nāb/ābrēz entry. Horn HRN.txt line 8831 'nāb rein, ungemischt; aw. anāp- ohne Wasser; phlv. anāp' supports the derivation."}
+            {
+              "ref": "ISS:3",
+              "status": "not_checked",
+              "note": "Indo-Scythian Studies not available; substitute DKS text has no nāb/ābrēz entry. Horn HRN.txt line 8831 'nāb rein, ungemischt; aw. anāp- ohne Wasser; phlv. anāp' supports the derivation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Hübschmann Pers. Studien no. 1015, p. 100 (HUB.txt line 3539)",
+              "stance": "supports",
+              "note": "'1015. Dazu arm. LW. anapak ungemischt, rein (vom Wein).' — the Armenian loan anapak preserves the full MP anāp(ak) 'un-watered', confirming nāb < anāp."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 s.v. *Hraič 'to pour, flow', p. 181-182 (CHEUNG.txt lines 12780-12801)",
+              "stance": "supports",
+              "note": "'*MIDDLE PERSIAN: MMP ryc- (sic), BMP lyc- /rēz-/ \"to flow; pour\" ... *PARTHIAN: ryz- \"to pour\" ... *NWIR: Widely attested: NP rēxtan/rēz- \"to flow, pour\"' — the second element of āb-rēz/ābrīz is the present stem rēz- of *Hraič (Nourai's ☞Leigh 2 = PIE *leikʷ-)."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 3 s.v. ibrīq and p. 2 s.v. abrīz (PLA_pages.txt lines 582, 555)",
+              "stance": "supports",
+              "note": "'ibrīq: \"Gießkanne; Ibrik\" aus dem pers. آبریز ābrīz s. ābrīz, syr. ..., dtsch. Ibrik \"im Orient Wasserkanne mit dünnem Hals und ovalem Bauch\"'; the preceding 'abrīz: \"pures Gold, Obryzum\" pers., aus dem pers. āb \"Glanz\" + rīz' is the homonymous āb 'lustre' compound."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in s.v. ناب (MON_part2.txt line 71128) and s.v. مبرز (line 44977)",
+              "stance": "supports",
+              "note": "'ناب: [بی آب، بدون آب] (ص.) خالص، بی‌غش، محض، صرف' — Mo'in glosses nāb etymologically as 'without water'; 'مبرز: [ع.] (اِ.) مبال؛ مستراح؛ آبریز، طهارت جای' gives ābrīz as the Persian synonym of 'latrine'; the آبریز headword itself is not recoverable in the OCR."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 1015 nāb, p. ~221 (HRN.txt line 8831)",
+              "stance": "supports",
+              "note": "'1015. nāb \"rein, ungemischt\". aw. anāp- \"ohne Wasser\"; phlv. anāp' (already quoted under ISS:3 in ref_check; listed here as an independent book)."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol. 1 (آبریز) and vol. 4 (ناب) OCR (BQT_v1_pages.txt, BQT_v4_pages.txt)",
+              "stance": "silent",
+              "note": "grep آبریز in vol. 1 and ناب as a headword in vol. 4 returned nothing legible (Persian OCR of vols 3-5 is rough); not verified on the page images."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur latin index (ARY_latin_index_pages.txt line 14751, pdf page 505)",
+              "stance": "silent",
+              "note": "The only 'NAB (PAHLAVI)' in the index sits in the row NAPAT/NEFA/NEPHEW, i.e. it is Pahlavi nab 'grandson' under نوه, not nāb 'pure'; no آبریز or ناب 'pure' entry."
+            }
           ]
         },
         {
@@ -210,7 +822,49 @@
             "https://en.wiktionary.org/wiki/إبريق"
           ],
           "ref_check": [
-            {"ref": "FVQ:46", "status": "supports", "note": "Node carries no refs; FVQ_pages.txt ff-page 64 (Jeffery p.46): 'A ewer, or water jug ... It was early recognized as a Persian loan-word (Siddiqi, 13), and is given by al-Kindī, Risāla, 85; ath-Thaʿālibī, Fiqh, 317; as-Suyūṭī and al-Jawālīqī in their lists of Persian borrowings ... The word occurs in the early poetry ... doubtless an early borrowing among the Arabs who were in contact with the court at al-Ḥīra.'"}
+            {
+              "ref": "FVQ:46",
+              "status": "supports",
+              "note": "Node carries no refs; FVQ_pages.txt ff-page 64 (Jeffery p.46): 'A ewer, or water jug ... It was early recognized as a Persian loan-word (Siddiqi, 13), and is given by al-Kindī, Risāla, 85; ath-Thaʿālibī, Fiqh, 317; as-Suyūṭī and al-Jawālīqī in their lists of Persian borrowings ... The word occurs in the early poetry ... doubtless an early borrowing among the Arabs who were in contact with the court at al-Ḥīra.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AFM",
+              "where": "Addi Shir p. 6-7 s.v. (الإبريق) (AFM_pages.txt leaf 6, line 156)",
+              "stance": "supports",
+              "note": "'(الإبريق) إناء من خزف أو معدن ... يُصبّ [منه] الماء وهو يطلق بالفارسية على الدلو ... ومنه السرياني ܐܒܪܝܩܐ والفرنسي ... والإيطالي' — Arabic ibrīq listed as an arabicized Persian word (āb-rīz), with the Syriac and Romance descendants."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 3 s.v. ibrīq and p. 2 s.v. abrīz (PLA_pages.txt lines 582, 555)",
+              "stance": "supports",
+              "note": "'ibrīq: \"Gießkanne; Ibrik\" aus dem pers. آبریز ābrīz s. ābrīz, syr. ..., dtsch. Ibrik \"im Orient Wasserkanne mit dünnem Hals und ovalem Bauch\"'; the preceding 'abrīz: \"pures Gold, Obryzum\" pers., aus dem pers. āb \"Glanz\" + rīz' is the homonymous āb 'lustre' compound."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in s.v. ابریق (MON_part1.txt line 6264)",
+              "stance": "supports",
+              "note": "'ابریق: [معر. آبریز] (اِ.) ظرف سفالین آب ...' — Mo'in marks ibrīq as the arabicized form of Persian ābrīz."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel (AFA.txt, grep ibrīq)",
+              "stance": "silent",
+              "note": "No ibrīq entry — consistent with the word being Persian, not Aramaic, in origin."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch (LKT.txt, grep ibrīq/Ibrik)",
+              "stance": "silent",
+              "note": "No entry for ibrīq/Ibrik among the European Orientalisms."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein (KLN_1966.txt, grep ibrik/ibriq)",
+              "stance": "silent",
+              "note": "No entry."
+            }
           ]
         },
         {
@@ -224,7 +878,43 @@
             "https://en.wiktionary.org/wiki/إبريق"
           ],
           "ref_check": [
-            {"ref": "FVQ:46", "status": "supports", "note": "FVQ_pages.txt ff-page 64-65 (Jeffery p.46-47): 'In modern Persian the word is [ابریق] meaning urn or waterpot ... [ibrīq] also occurs in Pers. but only as a borrowing from Arabic.' Mo'in MON_part1.txt line 6264: 'ابریق: [معر. آبریز] (ا.) ظرف سفالین آب ...' agrees."}
+            {
+              "ref": "FVQ:46",
+              "status": "supports",
+              "note": "FVQ_pages.txt ff-page 64-65 (Jeffery p.46-47): 'In modern Persian the word is [ابریق] meaning urn or waterpot ... [ibrīq] also occurs in Pers. but only as a borrowing from Arabic.' Mo'in MON_part1.txt line 6264: 'ابریق: [معر. آبریز] (ا.) ظرف سفالین آب ...' agrees."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "Asbaghi p. 3 s.v. ibrīq and p. 2 s.v. abrīz (PLA_pages.txt lines 582, 555)",
+              "stance": "supports",
+              "note": "'ibrīq: \"Gießkanne; Ibrik\" aus dem pers. آبریز ābrīz s. ābrīz, syr. ..., dtsch. Ibrik \"im Orient Wasserkanne mit dünnem Hals und ovalem Bauch\"'; the preceding 'abrīz: \"pures Gold, Obryzum\" pers., aus dem pers. āb \"Glanz\" + rīz' is the homonymous āb 'lustre' compound."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir p. 6-7 s.v. (الإبريق) (AFM_pages.txt leaf 6, line 156)",
+              "stance": "supports",
+              "note": "'(الإبريق) إناء من خزف أو معدن ... يُصبّ [منه] الماء وهو يطلق بالفارسية على الدلو ... ومنه السرياني ܐܒܪܝܩܐ والفرنسي ... والإيطالي' — Arabic ibrīq listed as an arabicized Persian word (āb-rīz), with the Syriac and Romance descendants."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol. 1 (BQT_v1_pages.txt lines 6084, 6090)",
+              "stance": "silent",
+              "note": "ابریق occurs only inside other definitions ('بمعنی ابریق و آفتابه و مطهره و مانند آن', 'که آفتابه و ابریق باشد'); no ابریق headword with Mo'in's footnote is recoverable in the OCR."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn (HRN.txt, grep ibrīq/abrīz)",
+              "stance": "silent",
+              "note": "Neither ābrīz nor the Arabic-shaped ibrīq is an entry in Horn."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (ARY_pages.txt)",
+              "stance": "silent",
+              "note": "No ابریق entry."
+            }
           ]
         },
         {
@@ -239,7 +929,61 @@
             "https://www.etymonline.com/word/Punjab"
           ],
           "ref_check": [
-            {"ref": "AHD", "status": "not_found", "note": "AHD_watkins1985.txt: the ap-2 entry (line 282) lists only JULEP; no PUNJAB under ap-2 or in the index. The 1975 AHD main-dictionary entry (not on disk) gives Punjab as Persian panj + āb, which would contradict the Sanskrit label."}
+            {
+              "ref": "AHD",
+              "status": "not_found",
+              "note": "AHD_watkins1985.txt: the ap-2 entry (line 282) lists only JULEP; no PUNJAB under ap-2 or in the index. The 1975 AHD main-dictionary entry (not on disk) gives Punjab as Persian panj + āb, which would contradict the Sanskrit label."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1619 Pers. pānǧ, p. 131 (LKT.txt line 3704)",
+              "stance": "contradicts",
+              "note": "'1619. Pers. pānǧ: \"Fünf\" [Horn NpEt S. 73, Nr. 328; vgl. pānǧ-āb \"Pandschab\", engl. Schreibung Punjaub \"Fünfstromland\"]; hieraus engl. punch, dtsch. Punsch' — Lokotsch treats Panjāb as a Persian compound panj + āb, against the 'Sanskrit' label."
+            },
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson s.v. DOAB, p. 321 (HJB.txt line 8899)",
+              "stance": "partial",
+              "note": "'DOAB, s. and n.p. P.—H. doāb, \"two waters\", i.e. \"Mesopotamia\", the tract between two confluent rivers ... Each of the like tracts in the Punjab has its distinctive name' — Persian āb 'water/river' in North-Indian toponyms; there is no PUNJAB headword (Panjāb only in passing, e.g. lines 832, 1657)."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein p. 1273 s.v. punch (beverage) (KLN_1966.txt line 31000)",
+              "stance": "partial",
+              "note": "'punch, n., a beverage. — Hind. punch, fr. OI. pañca, \"five\", which is cogn. with Gk. πέντε, L. quinque ...' — Klein has the Sanskrit numeral but no Punjab, doab or panj-āb entry."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 1.31 WATER / 1.36 RIVER (SYN.txt lines 1220-1420)",
+              "stance": "silent",
+              "note": "Skt. āp- and NPers. āb are listed as cognates, but no Pañcāp/Panjāb compound."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. I p. 46 (WLD_Bd1_pages.txt leaf 55)",
+              "stance": "silent",
+              "note": "Root article lists Skt. āp-, Av. āfš etc.; no Punjab."
+            },
+            {
+              "src": "AID",
+              "where": "Whitworth Anglo-Indian Dictionary (AID.txt, grep Panj/Punj)",
+              "stance": "silent",
+              "note": "Panjāb appears only inside other entries (Adi Granth, Akāli, Anjaman ...); no headword or etymology."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 3 gazetteer s.v. Punjab (FSD_vol3.txt line 8572)",
+              "stance": "silent",
+              "note": "'Punjab. ... NW Himalayas. 1,200 sq m.' — geographical entry only, no etymology."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in (MON_part1/2.txt, grep پنجاب)",
+              "stance": "silent",
+              "note": "No پنجاب headword recoverable in the OCR."
+            }
           ]
         },
         {
@@ -253,8 +997,94 @@
             "https://en.wiktionary.org/wiki/Punjab"
           ],
           "ref_check": [
-            {"ref": "none", "status": "not_checked", "note": "Node carries no refs; Etymonline and Wiktionary used instead."}
+            {
+              "ref": "none",
+              "status": "not_checked",
+              "note": "Node carries no refs; Etymonline and Wiktionary used instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1619 Pers. pānǧ, p. 131 (LKT.txt line 3704)",
+              "stance": "contradicts",
+              "note": "'1619. Pers. pānǧ: \"Fünf\" [Horn NpEt S. 73, Nr. 328; vgl. pānǧ-āb \"Pandschab\", engl. Schreibung Punjaub \"Fünfstromland\"]; hieraus engl. punch, dtsch. Punsch' — Lokotsch treats Panjāb as a Persian compound panj + āb, against the 'Sanskrit' label."
+            },
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson s.v. DOAB, p. 321 (HJB.txt line 8899)",
+              "stance": "partial",
+              "note": "'DOAB, s. and n.p. P.—H. doāb, \"two waters\", i.e. \"Mesopotamia\", the tract between two confluent rivers ... Each of the like tracts in the Punjab has its distinctive name' — Persian āb 'water/river' in North-Indian toponyms; there is no PUNJAB headword (Panjāb only in passing, e.g. lines 832, 1657)."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 3 gazetteer s.v. Punjab (FSD_vol3.txt line 8572)",
+              "stance": "partial",
+              "note": "'Punjab. ... NW Himalayas. 1,200 sq m. 2. Its capital ...' — attests the English spelling Punjab; no etymology."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein (KLN_1966.txt, grep Punjab/Panjab/doab)",
+              "stance": "silent",
+              "note": "No Punjab or doab entry (only 'doab' cross-referenced s.v. abdest, p. 2)."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat (SKT.txt, grep Punjab)",
+              "stance": "silent",
+              "note": "No entry."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New 20th C. vol. 1 (WEB_vol1.txt, grep Punjab)",
+              "stance": "silent",
+              "note": "Only Punjabi in the list of Indic languages (line 90784); the P- entries are outside vol. 1 on disk."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. I p. 46 (WLD_Bd1_pages.txt leaf 55)",
+          "stance": "supports",
+          "note": "'2. ap- \"Wasser, Fluß\". Ai. āp- \"Wasser\", z. B. n. sg. āpaḥ ... g. pl. apām, av. n. sg. āfš, a. sg. āpəm, i. sg. apa(-ca) ... apr. ape \"Fluß\", apus \"Quell, Brunnen\", lit. ùpė, lett. upe \"Wasser\"' — the Walde-Pokorny article that Pokorny 51 revises; Buck cites it as 'Walde-P. 1.46'."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. ap-2 (AHD_watkins1985.txt line 282)",
+          "stance": "supports",
+          "note": "'ap-2. Water, river. Iranian ap- in Persian ab, water: JULEP. [Pok. 2. ap- 51.]'"
+        },
+        {
+          "src": "IEC",
+          "where": "Mann col. 22 s.v. abhmn-, abhnis (IEC.txt line 223)",
+          "stance": "partial",
+          "note": "'abhmn-, abhnis \"river, water\". WP I, 46 ... Lat. amnis ... Gaul. abono-; W afon ... OIr. aba, gs. abann' — Mann has only the ab-/amnis group; no āp- lemma with the Indo-Iranian 'water' word is recoverable in the OCR (line 622 'ap-, radical of āpnu-' is the unrelated 'take' root)."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 1.31 WATER §3, p. 35 (SYN.txt line 1236)",
+          "stance": "supports",
+          "note": "'3. IE *āp-. Walde-P. 1.46. Skt. āp-, ap- mostly pl. āpas ..., Av. āp-, ap- the reg. word for \"water\", also freq. personified, OPers. api-, NPers. āb \"water\". Elsewhere only of \"running water\" in words for \"river\", as Lith. upė, Lat. amnis, Ir. abann' (also 1.36 RIVER §3: 'From IE *ap (and ab-) \"water\"')."
+        },
+        {
+          "src": "ARY",
+          "where": "p. 51 s.v. آب (ocr/ARY/0051.vision.txt)",
+          "stance": "supports",
+          "note": "Headword آب ĀB 'WATER' < Indo-European *ĀP; cognates Avestan ĀP, APAM; Old Persian ĀPI, APUS; Pahlavi ĀB, ĀP; Kurdish ĀV; Sanskrit ĀP, ĀPA; Latin AMNIS; Lith. ŪPĒ; Latv. UPĒ; Old Prussian APE; Old Irish ABANN; refs Pokorny 51-52, MacKenzie 139, Buck 34-35, Mallory 129, Borhan-e Qate' 1, Dehkhoda 35."
+        },
+        {
+          "src": "BRT",
+          "where": "AiW cols 122, 325 ff. (BRT.txt lines 4423, 3944)",
+          "stance": "supports",
+          "note": "Avestan āp- f. 'Wasser' (nom. āfš, e.g. line 3944 'aēša āfš yaoždya bavaiti V. 6.32'; compound an-āpa- 'wo kein Wasser ist') — the Old-Iranian member of the root that Pokorny lists under 2. ap- 51."
+        },
+        {
+          "src": "KNT",
+          "where": "Kent §143 and §88 (KNT.txt lines 1531, 2224)",
+          "stance": "supports",
+          "note": "'*ap- \"water\" in inst. pl. abiš, *āp- in nom. āpi, loc. apiyā' and '§88 ... stems ending in ... p (xšap- \"night\", ap- \"water\" cf. āpi-)' — OP ap-/āpi- 'water' is the Old Persian member of the family."
         }
       ]
     }
