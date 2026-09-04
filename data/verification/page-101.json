@@ -44,6 +44,26 @@
               "status": "supports",
               "note": "Same page as the root: 'Ar. bāraka as above' derived from the N. Semitic sense 'to bless' (FVQ_pages.txt leaf 92)."
             }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "printed p. 20, no. 222 and p. 22, no. 257",
+              "stance": "supports",
+              "note": "LKT.txt \\f-leaf 46 = printed p. 20, no. 222: 'Ar. baraka: \"Segen (nämlich Gottes)\", ebenso tk. bereket \"dass., Fruchtbarkeit\"; hieraus rum. berechet \"Fülle, Fruchtbarkeit\"; bulg. bereket \"Überfluß\", serb. bericet \"Glück, Überfluß\".' Also no. 257: 'Ar. barūk: [Vom Vb. baraka \"segnen\": vulgär:] \"Geschenk\"; hieraus mit dem ar. Art. sp. alboroc, alboroque.' Lokotsch takes Arabic baraka 'to bless' / baraka(t) 'blessing' as the base word, as the chart does."
+            },
+            {
+              "src": "TAD",
+              "where": "grep -n 'بركة' TAD_pages.txt (only line 1997, 'حوض وبركة وقبوة')",
+              "stance": "silent",
+              "note": "Al-Unaysi's dictionary of loanwords in Arabic has no b-r-k headword; the only occurrence of بركة is the homonym 'pool' inside another article. Treating b-r-k as native Arabic is itself weak confirmation of the chart."
+            },
+            {
+              "src": "AFM",
+              "where": "grep -n 'برك|بركة' AFM_pages.txt",
+              "stance": "silent",
+              "note": "Addi Shir's list of Persian words arabicised contains no b-r-k entry, i.e. he does not regard baraka/barakat as a Persian loan — compatible with the chart's Semitic root."
+            }
           ]
         },
         {
@@ -61,6 +81,32 @@
               "ref": "FVA:45",
               "status": "not_checked",
               "note": "FVA (Nahvi, Farhang-e vazheha-ye arabi dar farsi) has no digital copy (refs_online.json)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 22568 s.v. برکت",
+              "stance": "supports",
+              "note": "'برکت: [ع. برکة] (مص ل.) گوالیدن. فزونی، بسیاری. خجستگی، یمن. نیکبختی، سعادت؛ ج. برکات.' — Mo'in tags the Persian headword [ع. برکة], i.e. Arabic baraka(t), exactly the borrowing the chart draws, and gives the plural barakāt."
+            },
+            {
+              "src": "HRN",
+              "where": "grep -n -i 'barak|Segen|barq' HRN.txt",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no barakat article: he deliberately excludes Arabic loanwords from Persian etymology, so his silence is itself evidence that the word is not inherited Iranian."
+            },
+            {
+              "src": "BQT",
+              "where": "grep -n 'برکت|برکات' BQT_v1_pages.txt (only OCR noise at line 20283)",
+              "stance": "silent",
+              "note": "No headword برکت recoverable from the Borhan-e Qate' vol. 1 page OCR."
+            },
+            {
+              "src": "ARY",
+              "where": "grep -n 'برکت' incoming/ARY/ARY_pages.txt",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of Indo-European roots of Persian has no entry — consistent with an Arabic, non-IE loan."
             }
           ]
         },
@@ -87,6 +133,32 @@
               "status": "partial",
               "note": "AHD:579 is the 1976 dictionary page (griffin); the current AHD griffin entry (archived, https://ahdictionary.com/word/search.html?q=griffin) derives griffin only 'from Greek grūps' with no Semitic link, but the AHD Semitic-roots appendix (archived, https://ahdictionary.com/word/semitic.html) s.v. krb: 'Common Semitic root, with West Semitic metathesized variant brk. cherub, from Hebrew kərûb, cherub; akin to Akkadian karābu, to praise, bless. Compare also brk' and s.v. brk: 'West Semitic, to bless. Probably a metathesized variant of krb.' — so AHD supports the Akkadian karābu ~ brk metathesis."
             }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "p. ~66 (\\f-leaf 75) s.v. akk. karābu",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 75 (Zimmern p. ~66, §17 'Religion, Kultus und Mythus'; grep -n 'segnen' AKD.txt): 'akk. karābu segnen, beten : ~ viell. doch, trotz anderer Möglichkeiten, südarab. krb segnen, khrb weihen, mkrb (auch noch heute mikrāb) Heiligtum, Tempel (> wohl äth. mekwrāb Heiligtum).' — the Akkadian verb and its gloss 'segnen, beten' are confirmed, but Zimmern connects it with South Arabian krb 'to bless' / mikrāb 'sanctuary', i.e. within k-r-b; he gives no metathesis of b-r-k."
+            },
+            {
+              "src": "AKD",
+              "where": "p. ~69 (\\f-leaf 78) s.v. akk. kāribu",
+              "stance": "supports",
+              "note": "AKD.txt \\f-leaf 78 (Zimmern p. ~69; grep -n 'Mribu  wörtl' AKD.txt): 'akk. kāribu wörtl. segnend. Bez. der Stierkolosse : > wohl (aus einer Nebenf. karūbu) hebr. kərūb Cherub. Fraglich, ob dazu auch γρύψ, gryphus, Greif gehört.' — supports the Akkadian → Hebrew cherub step of the chart (node 4), though again from the root k-r-b."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part2.txt line 22552 s.v. کروبی",
+              "stance": "partial",
+              "note": "'کروبی: [ع. آشوری، پاسبان] (اِ.) در تورات کروب (ج. کروبیم) به فرشتگانی اطلاق شده که …' — Mo'in traces the word to Assyrian (Akkadian) but glosses the Assyrian etymon as پاسبان 'watchman, guard', not 'to bless'."
+            },
+            {
+              "src": "TAD",
+              "where": "printed p. ~61 (\\f-leaf 66)",
+              "stance": "partial",
+              "note": "TAD_pages.txt \\f-leaf 66 (al-Unaysi printed p. ~61), s.v. كروبيم وكروبين وشاروبين: 'كروبيم وكروبين وشاروبين — في العبرانية «كروب» … وهم يمثلون الملائكة … أصل هذا اللفظ أشوري ومعناه حارس، لأن سكان شنعار في بابل كانوا يصورون … ثوراً ذا أجنحة يحرس الأبواب والمداخل.' — al-Unaysi likewise makes the Assyrian source mean 'guardian' (of the winged bulls at Babylonian gateways), not 'one who blesses'."
+            }
           ]
         },
         {
@@ -112,6 +184,32 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 98 (printed pp. ~160-164), s.v. 'berakah': 'Heb. berākhāh, blessing, from the stem of bērākh, he blessed, which is rel. to Aram. bārākh, Arab. bāraka, Ethiop. bārāka, he blessed, Akkad. karābu (a metathesis form), to bless, Ethiop. mekrab (metath.), temple. Cp. cherub, griffin.'"
             }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "p. ~69 (\\f-leaf 78) s.v. akk. kāribu",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 78 (Zimmern p. ~69; grep -n 'Mribu  wörtl' AKD.txt): 'akk. kāribu wörtl. segnend. Bez. der Stierkolosse : > wohl (aus einer Nebenf. karūbu) hebr. kərūb Cherub. Fraglich, ob dazu auch γρύψ, gryphus, Greif gehört.' — Zimmern derives Hebrew kərūb straight from Akkadian kāribu/*karūbu, so the cherub belongs to k-r-b; berākhā (b-r-k) is not brought into the article at all."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 79 (\\f-leaf 99) s.v. Cherub",
+              "stance": "silent",
+              "note": "SKT.txt \\f-leaf 99 = Skeat p. 79, s.v. Cherub: 'Cherub. (Heb.) The true pl. is cherub-im, = Heb. kərūb (pl. kərūbīm), a mystic figure.' — Skeat gives the Hebrew word and nothing more; no link to b-r-k or to Akkadian."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD vol. 1, \\f-leaf 516, s.v. cherub",
+              "stance": "silent",
+              "note": "FSD_vol1.txt \\f-leaf 516, s.v. cherub: '3. One of an order of angelic beings ranking second to the seraphim in the celestial hierarchy ... [LL., < Heb. kᵉrubh, cherub.]' — Funk & Wagnalls stops at Hebrew kᵉrubh and offers no Semitic-root analysis."
+            },
+            {
+              "src": "TAD",
+              "where": "printed p. ~61 (\\f-leaf 66)",
+              "stance": "partial",
+              "note": "TAD_pages.txt \\f-leaf 66 (al-Unaysi printed p. ~61), s.v. كروبيم وكروبين وشاروبين: 'كروبيم وكروبين وشاروبين — في العبرانية «كروب» … وهم يمثلون الملائكة … أصل هذا اللفظ أشوري ومعناه حارس، لأن سكان شنعار في بابل كانوا يصورون … ثوراً ذا أجنحة يحرس الأبواب والمداخل.' — supports Hebrew kərūb as the source of the Arabic form and an Assyrian origin behind it, but with the sense 'guard', which is against the 'bless' semantics of the chart's root box."
+            }
           ]
         },
         {
@@ -129,7 +227,27 @@
             {
               "ref": "MON:2958",
               "status": "supports",
-              "note": "vajehyab.com (Mo'in) s.v. کروبی: '(کَ یّ) [ع.] (اِ.) فرشتة مقرب درگاه. ج. کروبیون' — tagged Arabic; Mo'in's page numbers cannot be mapped online. Archived https://vajehyab.com/?q=کروبی&d=moein."
+              "note": "vajehyab.com (Mo'in) s.v. کروبی: '(کَ یّ) [ع.] (اِ.) فرشتة مقرب درگاه. ج. کروبیون' — tagged Arabic; Mo'in's page numbers cannot be mapped online. Archived https://vajehyab.com/?q=کروبی&d=moein. || Now checked in the printed text itself: MON_part2.txt line 22552 s.v. کروبی — 'کروبی: [ع. آشوری، پاسبان] (اِ.) در تورات کروب (ج. کروبیم) به فرشتگانی اطلاق شده که از حضور خدا فرستاده می‌شوند … در اسلام آن را مهتران فرشتگان یا ملائکهٔ مقرب دانند؛ ج. کروبیون، کروبیین. ضبط: در شعر به تشدید راء آید و در تداول فارسی نیز مشدد تلفظ شود.' The print gives more than the abridged web text: the bracket is [ع. آشوری، پاسبان], i.e. Arabic, ultimately Assyrian 'watchman' — Mo'in does confirm the Hebrew/Assyrian cherub word behind the Arabic loan, but glosses the Assyrian etymon 'guard', not 'bless'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "TAD",
+              "where": "printed p. ~61 (\\f-leaf 66)",
+              "stance": "supports",
+              "note": "TAD_pages.txt \\f-leaf 66 (al-Unaysi printed p. ~61), s.v. كروبيم وكروبين وشاروبين: 'كروبيم وكروبين وشاروبين — في العبرانية «كروب» … وهم يمثلون الملائكة … أصل هذا اللفظ أشوري ومعناه حارس، لأن سكان شنعار في بابل كانوا يصورون … ثوراً ذا أجنحة يحرس الأبواب والمداخل.' — al-Unaysi lists karūbīm/karūbīn among the foreign words of Arabic and takes them 'in Hebrew kərūb', exactly the Hebrew → Arabic arrow of the chart."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep -n -i 'kerub|karub|cherub' FVQ_pages.txt",
+              "stance": "silent",
+              "note": "Jeffery has no entry: karūbī is not a Qur'anic word, so the Foreign Vocabulary of the Qur'an says nothing about it."
+            },
+            {
+              "src": "AFM",
+              "where": "grep -n 'كروب|كاروب' AFM_pages.txt",
+              "stance": "silent",
+              "note": "Addi Shir does not list karūbī, i.e. he does not treat it as a Persian loan into Arabic."
             }
           ]
         },
@@ -147,7 +265,27 @@
             {
               "ref": "MON:2958",
               "status": "supports",
-              "note": "vajehyab.com (Mo'in) s.v. کروبی [ع.] 'فرشتة مقرب درگاه، ج. کروبیون'; also کروبیان 'فرشتگان مقرب درگاه' and کروبیون 'جِ کروبی' — the Persian word is marked as an Arabic loan, as the arrow says (archived https://vajehyab.com/?q=کروبی&d=moein)."
+              "note": "vajehyab.com (Mo'in) s.v. کروبی [ع.] 'فرشتة مقرب درگاه، ج. کروبیون'; also کروبیان 'فرشتگان مقرب درگاه' and کروبیون 'جِ کروبی' — the Persian word is marked as an Arabic loan, as the arrow says (archived https://vajehyab.com/?q=کروبی&d=moein). || Now checked in the printed text itself: MON_part2.txt line 22552 s.v. کروبی — 'کروبی: [ع. آشوری، پاسبان] (اِ.) در تورات کروب (ج. کروبیم) به فرشتگانی اطلاق شده که از حضور خدا فرستاده می‌شوند … در اسلام آن را مهتران فرشتگان یا ملائکهٔ مقرب دانند؛ ج. کروبیون، کروبیین. ضبط: در شعر به تشدید راء آید و در تداول فارسی نیز مشدد تلفظ شود.' The print gives more than the abridged web text: the bracket is [ع. آشوری، پاسبان], i.e. Arabic, ultimately Assyrian 'watchman' — Mo'in does confirm the Hebrew/Assyrian cherub word behind the Arabic loan, but glosses the Assyrian etymon 'guard', not 'bless'. For node #6 it also settles the spelling: Mo'in states the rā' is geminated in Persian usage, which is Nourai's karrūbī."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "TAD",
+              "where": "printed p. ~61 (\\f-leaf 66)",
+              "stance": "partial",
+              "note": "TAD_pages.txt \\f-leaf 66 (al-Unaysi printed p. ~61), s.v. كروبيم وكروبين وشاروبين: 'كروبيم وكروبين وشاروبين — في العبرانية «كروب» … وهم يمثلون الملائكة … أصل هذا اللفظ أشوري ومعناه حارس، لأن سكان شنعار في بابل كانوا يصورون … ثوراً ذا أجنحة يحرس الأبواب والمداخل.' — confirms the Arabic base karūbīn/karūbīm from Hebrew that Persian karrūbī continues, but adds the Assyrian 'guard' etymology rather than a b-r-k 'bless' one."
+            },
+            {
+              "src": "BQT",
+              "where": "grep -n 'کروبی|کروبیان|کروبیون' BQT_v3_pages.txt BQT_v4_pages.txt",
+              "stance": "silent",
+              "note": "No کروبی headword recoverable from the Borhan-e Qate' vols. 3-4 page OCR."
+            },
+            {
+              "src": "ARY",
+              "where": "grep -n 'کروبی' incoming/ARY/ARY_pages.txt",
+              "stance": "silent",
+              "note": "Aryanpur has no entry — as expected for a Semitic loan in a dictionary of Indo-European roots."
             }
           ]
         },
@@ -167,6 +305,26 @@
               "ref": "AHD:231",
               "status": "supports",
               "note": "AHD online s.v. cherub (archived, https://ahdictionary.com/word/search.html?q=cherub): '[Middle English, from Late Latin, from Hebrew kərûb; see krb in the Appendix of Semitic roots.]' — Hebrew → (Latin →) English as in the chart; AHD:231 is the 1976 page of this entry."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p. 79 (\\f-leaf 99) s.v. Cherub",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 99 = Skeat p. 79, s.v. Cherub: 'Cherub. (Heb.) The true pl. is cherub-im, = Heb. kərūb (pl. kərūbīm), a mystic figure.' — English cherub straight from Hebrew kərūb, with the Hebrew plural kərūbīm behind cherubim, as the chart draws."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD vol. 1, \\f-leaf 516, s.v. cherub",
+              "stance": "supports",
+              "note": "FSD_vol1.txt \\f-leaf 516, s.v. cherub: '3. One of an order of angelic beings ranking second to the seraphim in the celestial hierarchy ... [LL., < Heb. kᵉrubh, cherub.]' — '[LL., < Heb. kᵉrubh]' gives the Late Latin intermediary of the chain and the same Hebrew source; F&W also has the sense 'a beautiful child or infant: in allusion to the artists' type', i.e. Nourai's '(of love)'."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 340, s.v. cherub",
+              "stance": "supports",
+              "note": "WEB_vol1.txt \\f-leaf 340, s.v. cherub: '[ME. cherub; ... L. cherub; ... [Heb.] kerūb, a cherub.] a winged heavenly [being] ... Ezek. i. 5-11.' — Webster's chain ME cherub < L cherub < Heb. kerūb, plus 'a representation of one of the cherubim … or a chubby, rosy-faced child with wings, as in later art'."
             }
           ]
         },
@@ -193,6 +351,32 @@
               "status": "partial",
               "note": "AHD online s.v. griffin (archived, https://ahdictionary.com/word/search.html?q=griffin): '[Middle English griffoun, from Old French griffon, from grif, from Latin grȳpus, grȳphus, variants of grȳps, grȳp-, from Greek grūps.]' — the chain below Greek is there, but AHD does not derive Greek grūps from Hebrew kerūbh; the Semitic appendix s.v. krb lists only cherub."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p. 188 (\\f-leaf 208) s.v. Griffin, Griffon",
+              "stance": "contradicts",
+              "note": "SKT.txt \\f-leaf 208 = Skeat p. 188, s.v. Griffin, Griffon: '(F.—L.—Gk.) Better griffon. M.E. griffon. F. griffon; formed from Low L. griffus, a griffon. — L. gryphus, extended form of gryps, a griffon. — Gk. γρύψ (stem γρυπ-), a griffon, a fabulous animal supposed to have a hooked beak. — Gk. γρυπός, curved, hook-beaked.' — Skeat derives Gk. γρύψ inside Greek from γρυπός 'hook-beaked, curved'; no Semitic (kerūbh/karibu) source at all."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD vol. 2, \\f-leaf 365, s.v. griffin",
+              "stance": "contradicts",
+              "note": "FSD_vol2.txt \\f-leaf 365, s.v. griffin: '[< F. griffon, < LL. gryphon-, < gryphus, < L. gryps, fabulous creature, < Gr. gryps, < grypos, hooked.]' — Funk & Wagnalls likewise ends the etymology at Gr. grypos 'hooked'."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 841, s.v. griffin/griffon",
+              "stance": "contradicts",
+              "note": "WEB_vol1.txt \\f-leaf 841, s.v. griffin/griffon: '[... L. gryps; ... Gr. grypos, ... hooked beak, from ... curved] ... in mythology, an imaginary animal with the legs of a lion and the head and wings of an eagle.' — Webster too traces the Greek noun to grypos 'curved, hook-beaked', with no Semitic step."
+            },
+            {
+              "src": "AKD",
+              "where": "p. ~69 (\\f-leaf 78) s.v. akk. kāribu",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 78 (Zimmern p. ~69; grep -n 'Mribu  wörtl' AKD.txt): 'akk. kāribu wörtl. segnend. Bez. der Stierkolosse : > wohl (aus einer Nebenf. karūbu) hebr. kərūb Cherub. Fraglich, ob dazu auch γρύψ, gryphus, Greif gehört.' — Zimmern, the standard collection of Akkadian loanwords, mentions the γρύψ/gryphus/Greif connection only to call it 'fraglich' (questionable): the strongest Assyriological statement available is a doubt, not an assertion."
+            }
           ]
         },
         {
@@ -211,6 +395,26 @@
               "status": "supports",
               "note": "AHD online s.v. griffin (archived, https://ahdictionary.com/word/search.html?q=griffin): 'from Latin grȳpus, grȳphus, variants of grȳps, grȳp-, from Greek grūps' — Latin gryphus from Greek."
             }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. gryphus (\\f-leaf 524, p. ~506)",
+              "stance": "supports",
+              "note": "LAT.txt \\f-leaf 524 (Ernout-Meillet p. ~506), s.v. gryphus: 'gryphus, -ī m. (grifus, etc.): latinisation tardive et vulgaire du nom grec du griffon, γρύψ, transcrit gryps par la l. littéraire.' — exactly the chart's Greek → Latin step, and it explains the -us form Nourai prints as the late/vulgar Latinisation beside literary gryps."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 188 (\\f-leaf 208)",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 208 = Skeat p. 188, s.v. Griffin, Griffon: '(F.—L.—Gk.) Better griffon. M.E. griffon. F. griffon; formed from Low L. griffus, a griffon. — L. gryphus, extended form of gryps, a griffon. — Gk. γρύψ (stem γρυπ-), a griffon, a fabulous animal supposed to have a hooked beak. — Gk. γρυπός, curved, hook-beaked.' — 'L. gryphus, extended form of gryps' confirms the Latin form and its Greek source."
+            },
+            {
+              "src": "LEW",
+              "where": "grep -n -i 'gryps|gryphus|grypus' LEW_1910.txt",
+              "stance": "silent",
+              "note": "Walde's Lateinisches etymologisches Wörterbuch (1910) has no gryphus article — it omits transparent Greek loanwords, so it neither supports nor contradicts."
+            }
           ]
         },
         {
@@ -228,6 +432,26 @@
               "ref": "KLN:680",
               "status": "supports",
               "note": "KLN_1966.txt leaf 367 (printed p. 681), s.v. 'griffin, griffon, gryphon': 'ME. griffon, fr. OF. grifoun (F. griffon), fr. Late L. gryphus ..., fr. Gk. grūps, gen. grūpos, which was prob. borrowed from the Semites through the medium of the Hittites. Cp. Heb. kerūbh, a winged angel, Akkad. karibu, epithet of the bull-colossus, lit. one who blesses, and see cherub.' Klein: 'ME. griffon, fr. OF. grifoun (F. griffon), fr. Late L. gryphus' — OF from Latin; the OF spelling grifion in the chart is Nourai's/OCR's."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p. 188 (\\f-leaf 208)",
+              "stance": "partial",
+              "note": "SKT.txt \\f-leaf 208 = Skeat p. 188, s.v. Griffin, Griffon: '(F.—L.—Gk.) Better griffon. M.E. griffon. F. griffon; formed from Low L. griffus, a griffon. — L. gryphus, extended form of gryps, a griffon. — Gk. γρύψ (stem γρυπ-), a griffon, a fabulous animal supposed to have a hooked beak. — Gk. γρυπός, curved, hook-beaked.' — the Old French form Skeat gives is griffon (whence M.E. griffon), formed on Low Latin griffus; he knows no 'grifion', which supports treating the chart's spelling as a slip while the Latin → OF → English route stands."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD vol. 2, \\f-leaf 365, s.v. griffin",
+              "stance": "partial",
+              "note": "FSD_vol2.txt \\f-leaf 365, s.v. griffin: '[< F. griffon, < LL. gryphon-, < gryphus, < L. gryps, fabulous creature, < Gr. gryps, < grypos, hooked.]' — again F. griffon < LL. gryphon-, i.e. the -on suffix form, not grifion."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 841",
+              "stance": "partial",
+              "note": "WEB_vol1.txt \\f-leaf 841, s.v. griffin/griffon: '[... L. gryps; ... Gr. grypos, ... hooked beak, from ... curved] ... in mythology, an imaginary animal with the legs of a lion and the head and wings of an eagle.' — Webster's separate headword 'griffon, n. 1. a griffin' records only the -on form."
             }
           ]
         },
@@ -248,7 +472,47 @@
               "status": "supports",
               "note": "AHD online s.v. griffin (archived, https://ahdictionary.com/word/search.html?q=griffin): '[Middle English griffoun, from Old French griffon ...]' — English from Old French."
             }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p. 188 (\\f-leaf 208)",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 208 = Skeat p. 188, s.v. Griffin, Griffon: '(F.—L.—Gk.) Better griffon. M.E. griffon. F. griffon; formed from Low L. griffus, a griffon. — L. gryphus, extended form of gryps, a griffon. — Gk. γρύψ (stem γρυπ-), a griffon, a fabulous animal supposed to have a hooked beak. — Gk. γρυπός, curved, hook-beaked.' — 'Griffin. Griffon. (F.—L.—Gk.) Better griffon. M.E. griffon' — English from Old French, as the chart draws."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD vol. 2, \\f-leaf 365, s.v. griffin",
+              "stance": "supports",
+              "note": "FSD_vol2.txt \\f-leaf 365, s.v. griffin: '[< F. griffon, < LL. gryphon-, < gryphus, < L. gryps, fabulous creature, < Gr. gryps, < grypos, hooked.]' — F&W's griffin: '5. (1) A griffin-vulture … [< F. griffon …]', the same French → English step, and it also records the Anglo-Indian homonym griffin 'newcomer', which is a different word."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 841",
+              "stance": "supports",
+              "note": "WEB_vol1.txt \\f-leaf 841, s.v. griffin/griffon: '[... L. gryps; ... Gr. grypos, ... hooked beak, from ... curved] ... in mythology, an imaginary animal with the legs of a lion and the head and wings of an eagle.' — Webster's mythical griffin, 'an imaginary animal with the legs of a lion and the head and wings of an eagle', matches Nourai's gloss 'an eagle-headed lion'."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AKD",
+          "where": "p. ~66 (\\f-leaf 75) s.v. akk. karābu",
+          "stance": "partial",
+          "note": "AKD.txt \\f-leaf 75 (Zimmern p. ~66, §17 'Religion, Kultus und Mythus'; grep -n 'segnen' AKD.txt): 'akk. karābu segnen, beten : ~ viell. doch, trotz anderer Möglichkeiten, südarab. krb segnen, khrb weihen, mkrb (auch noch heute mikrāb) Heiligtum, Tempel (> wohl äth. mekwrāb Heiligtum).' — Zimmern keeps k-r-b as an independent Semitic root (Akkadian ~ South Arabian krb 'to bless'); he nowhere derives it from, or equates it with, b-r-k, so the 'letters interchanged' premise of this chart is absent from him."
+        },
+        {
+          "src": "LKT",
+          "where": "printed p. 20, no. 222",
+          "stance": "partial",
+          "note": "LKT.txt \\f-leaf 46 = printed p. 20, no. 222: 'Ar. baraka: \"Segen (nämlich Gottes)\", ebenso tk. bereket \"dass., Fruchtbarkeit\"; hieraus rum. berechet \"Fülle, Fruchtbarkeit\"; bulg. bereket \"Überfluß\", serb. bericet \"Glück, Überfluß\".' — Lokotsch confirms Arabic baraka 'blessing (of God)' and its spread (Turkish bereket → Balkan), but says nothing about an original 'to kneel' sense or about a k-r-b variant."
+        },
+        {
+          "src": "AFA",
+          "where": "whole text (grep -n -i 'barak|berak|kerub|karub|Segen' AFA.txt)",
+          "stance": "silent",
+          "note": "No hit. Fraenkel's 'Aramäische Fremdwörter im Arabischen' has no b-r-k article — consistent with the root being native common Semitic rather than an Aramaic loan into Arabic, but he offers no independent evidence here."
         }
       ]
     },
@@ -287,6 +551,26 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' Lists 'Arab. barq, lightning ... Arab. baraqa, it flashed, glistened'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "Zimmern p. 59-60 (\\f-leaf 69)",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 69 (Zimmern p. 59-60; grep -n 'barraqtu' AKD.txt): '[akk. barraqtu ein Edelstein, auch im Akk. Fremdw., spät und vereinzelt belegt : zunächst viell. > späthebr. bāraqet, barqat, angeblich Smaragd. Fraglich, ob das Wort semit. Ursprungs (dann zu St. brq blitzen); idg. entspricht skr. marakata, griech. μάραγδος, σμάραγδος usw., Smaragd.]' — 'dann zu St. brq blitzen' concedes a Semitic root b-r-q 'to flash', the chart's Arabic node, while questioning whether the gem-word is built on it."
+            },
+            {
+              "src": "TAD",
+              "where": "grep -n 'برق' TAD_pages.txt — only incidental, printed p. ~13 (\\f-leaf 18) s.v. بوق",
+              "stance": "silent",
+              "note": "Al-Unaysi's dictionary of foreign words in Arabic has no b-r-q headword (it is native Arabic for him); the root surfaces only inside the article on بوق: '… من برق أي لمع فنقل من العربية الى اللاتينية …', which at least attests his gloss برق = لمع 'to gleam'."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep -n -i 'baraqa|barq' FVQ_pages.txt",
+              "stance": "silent",
+              "note": "Jeffery has no entry for barq: he treats it as native Arabic, not a Qur'anic foreign word."
+            }
           ]
         },
         {
@@ -309,6 +593,32 @@
               "status": "not_checked",
               "note": "SOR (K. Akhavan Zanjani) unidentified/not online (refs_online.json)."
             }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 22544 s.v. برق",
+              "stance": "supports",
+              "note": "'برق: [ع.] (اِ.) درخش، درخشندگی، درخشش. جلای فلز. (فز.) جرقه‌ای که در اثر نزدیک شدن الکتریسیتهٔ منفی و مثبت تولید شود، نوری که در اثر برخورد ابرها … تولید شود.' — Mo'in tags the Persian headword [ع.] = Arabic and gives both 'flash/lightning' and the modern physical sense, i.e. precisely the chart's 'lightning, electricity'."
+            },
+            {
+              "src": "HRN",
+              "where": "grep -n -i 'barq' HRN.txt",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no barq: Arabic loans are outside his scope, so its absence corroborates that the word is not inherited Iranian."
+            },
+            {
+              "src": "HUB",
+              "where": "grep -n -i 'barq|Blitz' HUB.txt",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien has no entry for barq."
+            },
+            {
+              "src": "ARY",
+              "where": "grep -n 'برق' incoming/ARY/ARY_pages.txt (only برقی/برقرار in running text)",
+              "stance": "silent",
+              "note": "Aryanpur's Indo-European root dictionary gives برق no headword — consistent with a Semitic loan."
+            }
           ]
         },
         {
@@ -327,6 +637,26 @@
               "ref": "KLN:514",
               "status": "partial",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' Klein has Akkad. barraqtu but glosses it 'emerald, lit. something flashing' (a derivative of Akkad. birqu 'lightning'); Nourai's gloss 'lightning' belongs to birqu, not to baraqtu."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "Zimmern p. 59-60 (\\f-leaf 69), in the list of Akkadian stone-names",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 69 (Zimmern p. 59-60; grep -n 'barraqtu' AKD.txt): '[akk. barraqtu ein Edelstein, auch im Akk. Fremdw., spät und vereinzelt belegt : zunächst viell. > späthebr. bāraqet, barqat, angeblich Smaragd. Fraglich, ob das Wort semit. Ursprungs (dann zu St. brq blitzen); idg. entspricht skr. marakata, griech. μάραγδος, σμάραγδος usw., Smaragd.]' — the standard handbook of Akkadian culture-words gives the form as barraqtu 'a gemstone' (not 'lightning'), calls it late, isolated and itself a loanword in Akkadian, and questions its Semitic origin. That confirms the verification's two reservations (the printed gloss and the placement of this node) without overturning the node."
+            },
+            {
+              "src": "LKT",
+              "where": "grep -n -i 'baraqtu|barraqtu' LKT.txt",
+              "stance": "silent",
+              "note": "Lokotsch has no Akkadian gem-name entry; he starts the emerald family at Persian zumurrud (no. 2233)."
+            },
+            {
+              "src": "AFA",
+              "where": "grep -n -i 'baraqtu|Smaragd' AFA.txt",
+              "stance": "silent",
+              "note": "Fraenkel does not treat the Akkadian gem-name."
             }
           ]
         },
@@ -348,6 +678,32 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' 'Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu' — the Greek form in Klein is smaragdos (with -gd-), which confirms that the chart's 'smaraldos' is a transcription slip."
             }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "Zimmern p. 59-60 (\\f-leaf 69)",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 69 (Zimmern p. 59-60; grep -n 'barraqtu' AKD.txt): '[akk. barraqtu ein Edelstein, auch im Akk. Fremdw., spät und vereinzelt belegt : zunächst viell. > späthebr. bāraqet, barqat, angeblich Smaragd. Fraglich, ob das Wort semit. Ursprungs (dann zu St. brq blitzen); idg. entspricht skr. marakata, griech. μάραγδος, σμάραγδος usw., Smaragd.]' — Zimmern's Greek forms are μάραγδος, σμάραγδος, which independently shows the chart's 'smaraldos' is a misreading of -gd-; but he calls the Semitic origin of the whole group 'fraglich'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 136 (\\f-leaf 156) s.v. Emerald",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 156 = Skeat p. 136, s.v. Emerald: '(F.—L.—Gk.) M.E. emeraude — O.F. esmeraude — L. smaragdum, acc. of smaragdus — Gk. σμάραγδος, an emerald. Cf. Skt. marakata (the same).' and s.v. smaragdus: '(L.—Gk.) L. smaragdus (above).' — confirms Gk. σμάραγδος 'an emerald' as the pivot of the whole branch (and again shows the spelling with -gd-)."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 625, s.v. emerald",
+              "stance": "supports",
+              "note": "WEB_vol1.txt \\f-leaf 625, s.v. emerald: '[ME. emeraude; OFr. esmeraude, esmeralde; L. smaragdus; Gr. smaragdos, maragdos, a precious stone supposed to be the emerald.]' — Webster records both Greek variants smaragdos and maragdos, the pair Klein cites; nothing like 'smaraldos'."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "contradicts",
+              "note": "LKT.txt \\f-leaf 206 (printed p. ~174/180), no. 2233: 'Pers. zumurrud: \"Smaragd\" [vielleicht aus gr. σμάραγδος, wahrscheinlich beides aus dem Ind.], ebenso tk. zümrüd; hieraus bulg. zumrud, russ. izumrud \"Smaragd\".' — Lokotsch thinks the Greek word itself is 'wahrscheinlich … aus dem Ind.', i.e. Indic rather than Semitic, which is against the chart's Semitic → Greek arrow."
+            }
           ]
         },
         {
@@ -365,7 +721,33 @@
             {
               "ref": "MON:1746",
               "status": "supports",
-              "note": "vajehyab.com (Mo'in) s.v. زمرد: '(زُ مُ رُّ) [معر - یو.] (اِ.) یکی از سنگ های قیمتی به رنگ سبز' — Mo'in tags it 'Arabicized, from Greek' (page numbers of the print edition cannot be mapped online). Mo'in's tag [معر - یو.] = Arabicized (mu'arrab) from Greek, i.e. Greek → Arabic → Persian, which is the route drawn through this empty Arabic node. Archived https://vajehyab.com/?q=زمرد&d=moein."
+              "note": "vajehyab.com (Mo'in) s.v. زمرد: '(زُ مُ رُّ) [معر - یو.] (اِ.) یکی از سنگ های قیمتی به رنگ سبز' — Mo'in tags it 'Arabicized, from Greek' (page numbers of the print edition cannot be mapped online). Mo'in's tag [معر - یو.] = Arabicized (mu'arrab) from Greek, i.e. Greek → Arabic → Persian, which is the route drawn through this empty Arabic node. Archived https://vajehyab.com/?q=زمرد&d=moein. || Local print text located as well: MON_part1.txt line 71485 s.v. زمرد — 'زمرد: (اِ.) (زه.) یکی از سنگ‌های قیمتی به رنگ سبز و آن هر چه پررنگ‌تر باشد گران‌بهاتر است. ضح. قدما می‌پنداشتند که نظر بر زمرد چشم افعی را کور کند.' The etymological bracket that vajehyab renders [معر - یو.] is not legible in this OCR of the printed page, so the 'Arabicized, from Greek' tag rests on the vajehyab text alone."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "Asbaghi printed p. 147 (\\f-leaf 162) s.v. zumurud/zumurrud",
+              "stance": "contradicts",
+              "note": "PLA_pages.txt \\f-leaf 162 = Asbaghi printed p. 147 (running head 'zambaq 147 zanādiqa'), s.v. zumurud: 'zumurud: \"Smaragd\" pers. … aus pers. زمرد zomurrod, mp. [ʾwzmbwlt] uzmburt < *zmaurd zmagrd mit Metathese v. zmargd, s. zibargad, griech. σμάραγδος, syr. zmargdā, ar. zumurrud, russ. izmrud'; and 'zumurrud = zumurud q. v.' — Asbaghi's book is a catalogue of PERSIAN loanwords in Arabic, and Arabic zumurrud is one of them: Greek → (Syriac) → Middle Persian uzmburt → New Persian zomorrod → Arabic, the reverse of this node's outgoing arrow."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "contradicts",
+              "note": "LKT.txt \\f-leaf 206 (printed p. ~174/180), no. 2233: 'Pers. zumurrud: \"Smaragd\" [vielleicht aus gr. σμάραγδος, wahrscheinlich beides aus dem Ind.], ebenso tk. zümrüd; hieraus bulg. zumrud, russ. izumrud \"Smaragd\".' — Lokotsch files the word under 'Pers. zumurrud', not under Arabic, i.e. Persian is the donor language for the Turkish/Slavic forms and not a receiver from Arabic."
+            },
+            {
+              "src": "TAD",
+              "where": "printed p. ~31 (\\f-leaf 36) s.v. زبرجد",
+              "stance": "partial",
+              "note": "'زبرجد — في الفارسية «زبرجد» وهو حجر ثمين يشبه الزمرد' — al-Unaysi has no زمرد headword, but he classes the sister gem-name zabarjad as Persian in Arabic, the same direction of borrowing Asbaghi gives for zumurrud."
+            },
+            {
+              "src": "AFM",
+              "where": "grep -n 'زمرد|الزمرد' AFM_pages.txt",
+              "stance": "silent",
+              "note": "No recoverable headword in the Addi Shir page OCR (the ز section OCRs poorly)."
             }
           ]
         },
@@ -385,12 +767,38 @@
             {
               "ref": "MON:1746",
               "status": "supports",
-              "note": "vajehyab.com (Mo'in) s.v. زمرد: '(زُ مُ رُّ) [معر - یو.] (اِ.) یکی از سنگ های قیمتی به رنگ سبز' — Mo'in tags it 'Arabicized, from Greek' (page numbers of the print edition cannot be mapped online). Archived https://vajehyab.com/?q=زمرد&d=moein."
+              "note": "vajehyab.com (Mo'in) s.v. زمرد: '(زُ مُ رُّ) [معر - یو.] (اِ.) یکی از سنگ های قیمتی به رنگ سبز' — Mo'in tags it 'Arabicized, from Greek' (page numbers of the print edition cannot be mapped online). Archived https://vajehyab.com/?q=زمرد&d=moein. || Local print text located as well: MON_part1.txt line 71485 s.v. زمرد — 'زمرد: (اِ.) (زه.) یکی از سنگ‌های قیمتی به رنگ سبز و آن هر چه پررنگ‌تر باشد گران‌بهاتر است. ضح. قدما می‌پنداشتند که نظر بر زمرد چشم افعی را کور کند.' The etymological bracket that vajehyab renders [معر - یو.] is not legible in this OCR of the printed page, so the 'Arabicized, from Greek' tag rests on the vajehyab text alone."
             },
             {
               "ref": "KLN:514",
               "status": "partial",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' Klein: 'Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words' — Klein treats zumurrud as a direct Semitic loan and does not route it through Greek/Arabic as Nourai does."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "Asbaghi printed p. 147 (\\f-leaf 162) s.v. zumurud",
+              "stance": "contradicts",
+              "note": "PLA_pages.txt \\f-leaf 162 = Asbaghi printed p. 147 (running head 'zambaq 147 zanādiqa'), s.v. zumurud: 'zumurud: \"Smaragd\" pers. … aus pers. زمرد zomurrod, mp. [ʾwzmbwlt] uzmburt < *zmaurd zmagrd mit Metathese v. zmargd, s. zibargad, griech. σμάραγδος, syr. zmargdā, ar. zumurrud, russ. izmrud'; and 'zumurrud = zumurud q. v.' — Asbaghi gives the Persian pre-history the chart lacks (Middle Persian ʾwzmbwlt uzmburt < *zmaurd, metathesis of zmargd, beside Syriac zmargdā) and makes Arabic zumurrud the borrower from Persian. This is exactly the reversal on which the node's 'disputed' verdict rests, now confirmed from a printed monograph, not only Wiktionary."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "contradicts",
+              "note": "LKT.txt \\f-leaf 206 (printed p. ~174/180), no. 2233: 'Pers. zumurrud: \"Smaragd\" [vielleicht aus gr. σμάραγδος, wahrscheinlich beides aus dem Ind.], ebenso tk. zümrüd; hieraus bulg. zumrud, russ. izumrud \"Smaragd\".' — the headword is 'Pers. zumurrud', and Turkish zümrüd, Bulgarian zumrud and Russian izumrud are taken from Persian; no Arabic intermediary anywhere in the article."
+            },
+            {
+              "src": "HRN",
+              "where": "grep -n -i 'Smaragd|zumurrud' HRN.txt (only no. 1011 mynw 'Himmel, Paradies; Smaragd')",
+              "stance": "silent",
+              "note": "Horn has no zumurrud article; his only 'Smaragd' is the unrelated Np. mīnā (no. 1011), so he is silent on this node."
+            },
+            {
+              "src": "ARY",
+              "where": "grep -n 'زمرد' incoming/ARY/ARY_pages.txt",
+              "stance": "silent",
+              "note": "Aryanpur gives no Indo-European root for زمرد — consistent with a Wanderwort, not with an inherited Iranian word."
             }
           ]
         },
@@ -409,6 +817,26 @@
               "ref": "KLN:514",
               "status": "supports",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' 'fr. L. smaragdus ..., fr. Gk. smaragdos'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. smaragdus (\\f-leaf 1130)",
+              "stance": "supports",
+              "note": "LAT.txt \\f-leaf 1130 (Ernout-Meillet, s.v. smaragdus): 'smaragdus (zma-), -ī m.: émeraude. Emprunt au gr. σμάραγδος, depuis Varr. et Lucr., M.L. 8041; smaragdinus, -dineus.' — Latin smaragdus is a straight borrowing of Greek σμάραγδος, attested from Varro and Lucretius, exactly the chart's Greek → Latin arrow; the variant zma- also shows the initial-cluster trouble that produced the Romance forms."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 136 (\\f-leaf 156)",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 156 = Skeat p. 136, s.v. Emerald: '(F.—L.—Gk.) M.E. emeraude — O.F. esmeraude — L. smaragdum, acc. of smaragdus — Gk. σμάραγδος, an emerald. Cf. Skt. marakata (the same).' and s.v. smaragdus: '(L.—Gk.) L. smaragdus (above).' — 'smaragdus. (L.—Gk.) L. smaragdus' plus the emerald article's 'L. smaragdum, acc. of smaragdus — Gk. σμάραγδος'."
+            },
+            {
+              "src": "LEW",
+              "where": "grep -n -i 'smaragd' LEW_1910.txt",
+              "stance": "silent",
+              "note": "Walde (1910) has no smaragdus article; like gryphus it is left out as a transparent Greek loan."
             }
           ]
         },
@@ -429,6 +857,26 @@
               "status": "partial",
               "note": "AHD:427 is the 1976 page of 'emerald'; the current AHD emerald entry (archived, https://ahdictionary.com/word/search.html?q=emerald) reads '[Middle English emeraude, from Old French, from Medieval Latin esmeralda, esmeraldus, from Latin smaragdus, from Greek smaragdos; akin to Sanskrit marakatam, probably of Semitic origin; akin to Akkadian barraqtu and Hebrew bāreqet, a kind of gemstone ...; see brq in the Appendix of Semitic roots.]' — it confirms Latin smaragdus < Greek but does not treat smaragdite (the AHD search for smaragdite, archived https://ahdictionary.com/word/search.html?q=smaragdite, returned no entry). Klein (KLN_1966.txt leaf 280-281 s.v. smaragdite): 'F., formed with subst. suff. -ite fr. Gk. smaragdos, emerald'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "FSD",
+              "where": "FSD vol. 4, \\f-leaf 154 (s.v. smaragd, smaragdine); FSD vol. 2, \\f-leaf 80 s.v. eclogite",
+              "stance": "supports",
+              "note": "vol. 4: 'smaragdine … Of the color of the smaragd; emerald-colored, green. [< L. smaragdinus, < smaragdus (< Gr. smaragdos)]'; vol. 2 s.v. eclogite: 'Petrol. A rock consisting of red garnet, omphacite, and emerald-green smaragdite.' Together these confirm both the Latin smaragdus base of the mineral name and that smaragdite is the emerald-green amphibole of eclogite, i.e. Nourai's gloss and the naming motive."
+            },
+            {
+              "src": "SKT",
+              "where": "grep -n -i 'smaragdite' SKT.txt",
+              "stance": "silent",
+              "note": "Skeat's concise dictionary has smaragdus but no mineralogical smaragdite."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt (the local scan runs A–'memorial')",
+              "stance": "silent",
+              "note": "S is not in the available Webster volume, so Webster could not be consulted for this headword."
+            }
           ]
         },
         {
@@ -447,6 +895,26 @@
               "status": "supports",
               "note": "KLN_1966.txt leaf 280 (printed pp. 514-515), s.v. 'emerald': 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus (whence also It. smeraldo, Sp. esmeralda), fr. Gk. smaragdos, maragdos, emerald, which is of Sem. origin. Cp. Heb. bāreqeth, Akkad. barraqtu, emerald, lit. something flashing, a derivative of Heb. bārāq, resp. Akkad. birqu, lightning, which are rel. to Aram. beraq, barqā, Arab. barq, lightning, Heb. bāraq, Aram. beraq, Arab. baraqa, Ethiop. baraqa, it flashed, glistened, Akkad. barāqu, to flash. Cp. OI. marakatam, Pers. zumurrud (whence Turk. zümrüd, whence Russ. izumrud), emerald, which are also Sem. loan words. Cp. also smaragd, which is a doublet of emerald.' 'ME. emeraude, fr. OF. esmeralde, esmeraude (F. émeraude), fr. L. smaragdus'."
             }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 625, s.v. emerald",
+              "stance": "supports",
+              "note": "WEB_vol1.txt \\f-leaf 625, s.v. emerald: '[ME. emeraude; OFr. esmeraude, esmeralde; L. smaragdus; Gr. smaragdos, maragdos, a precious stone supposed to be the emerald.]' — Webster lists esmeralde beside esmeraude as the Old French form, so the chart's spelling is an attested variant and not a transcription error."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 136 (\\f-leaf 156)",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 156 = Skeat p. 136, s.v. Emerald: '(F.—L.—Gk.) M.E. emeraude — O.F. esmeraude — L. smaragdum, acc. of smaragdus — Gk. σμάραγδος, an emerald. Cf. Skt. marakata (the same).' and s.v. smaragdus: '(L.—Gk.) L. smaragdus (above).' — 'M.E. emeraude — O.F. esmeraude — L. smaragdum': the Latin → Old French step of the chart."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "silent",
+              "note": "Lokotsch follows only the Persian → Turkish → Slavic line and says nothing about the Romance forms."
+            }
           ]
         },
         {
@@ -464,6 +932,26 @@
               "ref": "AHD:427",
               "status": "supports",
               "note": "AHD online s.v. emerald (archived, https://ahdictionary.com/word/search.html?q=emerald): 'Middle English emeraude, from Old French, from Medieval Latin esmeralda, esmeraldus, from Latin smaragdus, from Greek smaragdos ... probably of Semitic origin; akin to Akkadian barraqtu and Hebrew bāreqet' — the whole chain of this branch, including the Semitic b-r-q root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p. 136 (\\f-leaf 156) s.v. Emerald",
+              "stance": "supports",
+              "note": "SKT.txt \\f-leaf 156 = Skeat p. 136, s.v. Emerald: '(F.—L.—Gk.) M.E. emeraude — O.F. esmeraude — L. smaragdum, acc. of smaragdus — Gk. σμάραγδος, an emerald. Cf. Skt. marakata (the same).' and s.v. smaragdus: '(L.—Gk.) L. smaragdus (above).' — M.E. emeraude from O.F. esmeraude, the chart's Old French → English arrow."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB vol. 1, \\f-leaf 625, s.v. emerald",
+              "stance": "supports",
+              "note": "WEB_vol1.txt \\f-leaf 625, s.v. emerald: '[ME. emeraude; OFr. esmeraude, esmeralde; L. smaragdus; Gr. smaragdos, maragdos, a precious stone supposed to be the emerald.]' — the same chain ME emeraude < OFr. esmeraude/esmeralde, with 'a precious stone of the beryl variety, of a rich green color' for the gloss."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "silent",
+              "note": "Lokotsch does not treat English emerald (it reaches English through Romance, not through his oriental route)."
             }
           ]
         },
@@ -489,7 +977,59 @@
               "status": "partial",
               "note": "SKT.txt leaf 156 (Skeat 1911 p. ~136; Nourai's 163 is another printing), s.v. Emerald: '(F. — L. — Gk.) M.E. emeraude — O.F. esmeraude — L. smaragdum, acc. of smaragdus — Gk. smaragdos, an emerald. Cf. Skt. marakata (the same).' Skeat only compares Skt. marakata with the Greek word; he does not say it is a Semitic loan."
             }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "Zimmern p. 59-60 (\\f-leaf 69)",
+              "stance": "partial",
+              "note": "AKD.txt \\f-leaf 69 (Zimmern p. 59-60; grep -n 'barraqtu' AKD.txt): '[akk. barraqtu ein Edelstein, auch im Akk. Fremdw., spät und vereinzelt belegt : zunächst viell. > späthebr. bāraqet, barqat, angeblich Smaragd. Fraglich, ob das Wort semit. Ursprungs (dann zu St. brq blitzen); idg. entspricht skr. marakata, griech. μάραγδος, σμάραγδος usw., Smaragd.]' — Zimmern puts Skt. marakata in the same group as Gk. μάραγδος/σμάραγδος ('idg. entspricht skr. marakata'), i.e. he pairs the Sanskrit word with the Greek one rather than deriving it from the Semitic root, and doubts the Semitic origin of the whole set — which is the reservation behind this node's 'plausible' verdict."
+            },
+            {
+              "src": "LKT",
+              "where": "printed p. ~174/180 (\\f-leaf 206), no. 2233",
+              "stance": "partial",
+              "note": "LKT.txt \\f-leaf 206 (printed p. ~174/180), no. 2233: 'Pers. zumurrud: \"Smaragd\" [vielleicht aus gr. σμάραγδος, wahrscheinlich beides aus dem Ind.], ebenso tk. zümrüd; hieraus bulg. zumrud, russ. izumrud \"Smaragd\".' — Lokotsch goes further and suspects an Indian origin for the Greek word too ('wahrscheinlich beides aus dem Ind.'), the opposite direction from the chart's Semitic → Sanskrit arrow."
+            },
+            {
+              "src": "HJB",
+              "where": "grep -n -i 'marakata|smaragd' HJB.txt",
+              "stance": "silent",
+              "note": "Hobson-Jobson has no marakata article; 'emerald' occurs only inside quotations (e.g. Garcia da Orta 1568), so it offers nothing on the Indian word's origin."
+            },
+            {
+              "src": "SYN",
+              "where": "grep -n -i 'emerald|smaragd|marakata' SYN.txt",
+              "stance": "silent",
+              "note": "Buck's Selected Synonyms has no gem-name chapter covering 'emerald'."
+            },
+            {
+              "src": "IEC",
+              "where": "grep -n -i 'smaragd|marakata' IEC.txt",
+              "stance": "silent",
+              "note": "Mann's Indo-European Comparative Dictionary has no entry — as expected, since neither he nor anyone else reconstructs an IE etymon for marakata."
+            }
           ]
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AKD",
+          "where": "Zimmern p. 59-60 (\\f-leaf 69), gemstone list",
+          "stance": "partial",
+          "note": "AKD.txt \\f-leaf 69 (Zimmern p. 59-60; grep -n 'barraqtu' AKD.txt): '[akk. barraqtu ein Edelstein, auch im Akk. Fremdw., spät und vereinzelt belegt : zunächst viell. > späthebr. bāraqet, barqat, angeblich Smaragd. Fraglich, ob das Wort semit. Ursprungs (dann zu St. brq blitzen); idg. entspricht skr. marakata, griech. μάραγδος, σμάραγδος usw., Smaragd.]' — Zimmern accepts a Semitic stem brq 'to flash' but doubts that the gem-name barraqtu belongs to it, and treats barraqtu as itself a foreign word in Akkadian, which loosens the chart's root → gem chain."
+        },
+        {
+          "src": "LKT",
+          "where": "grep -n -i 'baraka|barq' LKT.txt (b- series jumps 222 baraka → 224 baraṣ)",
+          "stance": "silent",
+          "note": "Lokotsch has no 'Ar. barq' number: no European word of his corpus derives from it, so he says nothing about the root."
+        },
+        {
+          "src": "AFA",
+          "where": "grep -n -i 'smaragd|barq|Blitz' AFA.txt",
+          "stance": "silent",
+          "note": "Fraenkel's Aramaic loanwords in Arabic has no b-r-q article; the root is not an Aramaic loan for him."
         }
       ]
     }
