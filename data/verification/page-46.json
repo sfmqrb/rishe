@@ -156,7 +156,10 @@
           "lang": "Sogdian",
           "words": "`rtk : flower",
           "verdict": "transcription_suspect",
-          "derivation": "The word and the derivation are right; the GLOSS is wrong. Sogdian ʾrtk (Buddhist/Sogdian-script ārtē, also written ʾrtʾk(w), Christian-script ʾrty) means 'FLOUR', not 'flower'. It is the same *arta-ka- 'ground (stuff)' formation as the Persian word — Ir. *ārta- (< PIE *h₂l̥h₁-tós) plus the Sogdian -k(ē) suffix — and survives in Yaghnobi, Sogdian's modern descendant, as art/arta 'flour'. Gharib's dictionary makes the derivation explicit ('©Av. aša'), so the arrow root → Sogdian is exactly what Nourai's own source says. I rendered the 1999 page image itself (pdftoppm -f 46 of EtymologicalDictionary-persian-english.pdf): the printed box really does read '`rtk : flower', so this is Nourai's own typo for 'flour' and NOT an error introduced by this repository's extraction — but the JSON should carry 'flour' if the data are to be published.",
+          "error_in": "book",
+          "book_prints": "`rtk : flower",
+          "correct_form": "`rtk : flour",
+          "derivation": "The word and the derivation are right; the GLOSS is wrong. Sogdian ʾrtk (Buddhist/Sogdian-script ārtē, also written ʾrtʾk(w), Christian-script ʾrty) means 'FLOUR', not 'flower'. It is the same *arta-ka- 'ground (stuff)' formation as the Persian word — Ir. *ārta- (< PIE *h₂l̥h₁-tós) plus the Sogdian -k(ē) suffix — and survives in Yaghnobi, Sogdian's modern descendant, as art/arta 'flour'. Gharib's dictionary makes the derivation explicit ('©Av. aša'), so the arrow root → Sogdian is exactly what Nourai's own source says. I rendered the 1999 page image itself (pdftoppm -f 46 of EtymologicalDictionary-persian-english.pdf): the printed box really does read '`rtk : flower', so this is Nourai's own typo for 'flour' and NOT an error introduced by this repository's extraction — but the JSON should carry 'flour' if the data are to be published. Checked against the scan (data/verification/sources/refs/ocr/BOOK/46.png): the Sogdian box really is printed '`rtk : flower', so this is Nourai's own misprint for 'flour' (Gharib's gloss), faithfully transcribed by the extraction.",
           "sources": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/Hr%CC%A5Ht%C3%A1h"
           ],
