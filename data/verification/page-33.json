@@ -1,0 +1,273 @@
+{
+  "pdf_page": 33,
+  "book_page": 3,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ab 2",
+      "verdict": "confirmed",
+      "modern_form": "Proto-Semitic *ʔab- / *ʔabw- 'father' (Akkadian abum, Ugaritic ʾabu, Hebrew ʾāḇ, Aramaic ʾabbā, Arabic ʔab / construct ʔabū, Ge'ez ʾab), from Proto-Afroasiatic *ʔab-; a nursery word",
+      "note": "The root is real, the 'Semitic' label and the gloss 'father' are right (Wiktionary Proto-Semitic *ʔabw-; Klein p.6 s.v. Aboth: 'Heb. abh, rel. to Aram. abh, abba, Ugar. 'b, Arab. ab, Ethiop. ab, father; of uncertain origin, possibly traceable to *ab(a), a child's word for father'). Klein p.6 is in fact the model for the whole chart: his Aboth entry cross-refers to Abraham, Abner, Absalom, Abigail, Joab, abbot and borage exactly as Nourai draws. Two branches are weak: (1) Persian būzīna 'monkey' is drawn as a loan from Arabic abū zinā 'father of whoredom' — the traditional Persian/Lokotsch view, but modern sources (Wiktionary, with the Pashto cognate bízo and the 8th–9th-c. Old Turkic borrowing béčin) treat the word as inherited Iranian and the Arabic kunya abū zanna as a reinterpretation; (2) French/English gibbon is drawn from Hindustani bojīna (= Urdu būzna) — no source supports this; OED/Etymonline say gibbon 'has not been found in any Indian language', and Lim 2020 derives it from Northern Aslian kbɔɲ via Malay. The borage branch (Arabic abū ʿaraq 'father of sweat' > ML borrago) is accepted by AHD, Klein and Lokotsch but rejected by OED/Etymonline in favour of Latin burra 'rough hair', so it is only plausible. FVQ:44 cited for the root is Jeffery's Ibrāhīm entry, which concerns node 14, not the root itself.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/ʔab-",
+        "https://en.wiktionary.org/wiki/أب",
+        "https://en.wiktionary.org/wiki/אב"
+      ],
+      "ref_check": [
+        {"ref": "KLN:6", "status": "supports", "note": "KLN_1966.txt leaf 14 (p.6), line 1209 s.v. 'Aboth, also Abot': 'Heb. Abhōth, pl. of abh, father, rel. to Aram. abh (absolute state), abbā (emphatic state), Ugar. 'b, Arab. ab, Ethiop. ab, father; of uncertain origin, possibly traceable to *ab(a), a child's word for father. Cp. the first element in Abraham, Abner, Absalom, Abigail, and the second element in Joab, Moab, Barabbas. Cp. also abbot ... Cp. also borage.' — Klein is the source of the chart's Semitic root and of most of its branches."},
+        {"ref": "FVQ:44", "status": "partial", "note": "FVQ_pages.txt leaf 61-62 (printed pp.44-45): the entry on p.44 is 'Ibrāhīm ... Abraham. It is always used of the Biblical Patriarch and thus is ultimately derived from Heb. [Abrāhām]'. Jeffery does not discuss the Semitic word for 'father'; the reference belongs to node 14."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "ab, abŭ, a.b.v",
+          "verdict": "confirmed",
+          "derivation": "Arabic أَب ʔab 'father' continues Proto-Semitic *ʔab(w)-; the lexical root is ʔ-b-w (the final w surfaces in the dual ʔabawāni and in the 'six nouns' declension, where the construct state before a genitive is lengthened: nom. أَبُو ʔabū, gen. ʔabī, acc. ʔabā). The construct ʔabū is the form used in kunyas (teknonyms) 'father of X', which is why it heads the derivatives in node 3. Nourai's 'a.b.v' is the root ʔ-b-w; all three items are correct.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/أب",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/ʔab-"
+          ],
+          "ref_check": [
+            {"ref": "FVQ:44", "status": "partial", "note": "FVQ_pages.txt leaf 61 (p.44): only the Ibrāhīm entry; Jeffery gives no entry for ab/abū (a native Arabic word is outside his scope)."},
+            {"ref": "FVA:25", "status": "not_checked", "note": "Nahvi, Farhang-e vāžehā-ye ʿarabī dar fārsī: no digital copy found."},
+            {"ref": "LKT:44", "status": "partial", "note": "LKT.txt leaf 70 (printed p.44) contains entries 538-546 (Ar. duffa, duhān, Tk. düğme ... Tk. dümen) — nothing on ab; the relevant Lokotsch material is entry 13 'Ar. abū ʿaraq' (leaf 28, p.2) and entry 556 'Tk. ebuzine, auch buzine Affe [aus ar. abū zina Vater der Unzucht]' (leaf 71, p.45). Lokotsch presupposes Ar. abū 'father' but has no entry for it."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "abŭ",
+          "verdict": "confirmed",
+          "derivation": "Persian ابو abu is the Arabic construct ʔabū taken over inside Arabic kunyas and names: Abū ʿAlī Sīnā (Avicenna), Abu l-Fażl, Abu l-Qāsem, Abu l-Ḥasan, Abu l-Fatḥ; before the Arabic article the vowel shortens (abu-l-), and in colloquial/poetic use the initial a- drops, giving Bu l-havas 'father of caprice = whimsical' (بوالهوس), Bū ʿAlī etc. The bracketed ابوی abavi 'father' (polite/colloquial) is the Arabic relative adjective أَبَوِيّ ʔabawī 'paternal', which Mo'in tags [ع.] '(ص نسب.) 1- پدری 2- (عا.) پدر'. The chart's spelling «آبو» with madda is not a Persian orthographic form (the word is written ابو); it is probably a typographic artefact, but the derivation itself is correct: all forms are Arabic loans in Persian, borrowed with Islamic onomastics from the 7th-9th c. onward.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/ابو",
+            "https://vajehyab.com/?q=ابوی&d=moein"
+          ],
+          "ref_check": [
+            {"ref": "FVA:25", "status": "not_checked", "note": "Nahvi: no digital copy found."},
+            {"ref": "MON", "status": "supports", "note": "Mo'in via vajehyab (?q=ابوی&d=moein): 'ابوی (اَ بَ) [ع.] (ص نسب.) 1- پدری. 2- (عا.) پدر.' — Arabic origin tag, sense 'father' in colloquial use, as the chart says. The abridged MON_part1.txt has no separate ابو lemma (grep '^ابو')."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "abŭ-zînâ; abŭ-araq",
+          "verdict": "plausible",
+          "derivation": "(a) أَبُو زَنَّة abū zanna is a genuine Arabic kunya of the ape: Lisān al-ʿArab, al-Jawharī's Ṣiḥāḥ and Tāj al-ʿArūs all have 'وأبو زَنَّةَ: كنية القرد'. The classical lexica vocalise the second element زَنَّة (zanna, root z-n-n), not زِنَا zinā 'fornication'; the gloss 'father of whoredom' is Lokotsch's ('Vater der Unzucht', entry 556) and Nourai's reading, i.e. a folk-etymological interpretation of the kunya, not its established meaning — so the word exists but the gloss is only plausible. (b) أَبُو عَرَق abū ʿaraq 'father of sweat' is the name under which medieval Arabic pharmacology knew borage (a sudorific), the accepted or 'probable' source of Medieval Latin borrāgō in AHD ('probably from Arabic bū ʿaraq, from ʔabū ʿaraq, source of sweat'), Klein and Lokotsch; Wiktionary lists borage among the derivatives of Arabic أب; OED/Etymonline prefer Latin burra. Both compounds are ordinary kunya formations with the construct ʔabū + genitive, so the arrow from node 1 is formally correct.",
+          "sources": [
+            "https://arabiclexicon.hawramani.com/زنن/",
+            "https://en.wiktionary.org/wiki/أب",
+            "https://ahdictionary.com/word/search.html?q=borage",
+            "https://en.wiktionary.org/wiki/borage"
+          ],
+          "ref_check": [
+            {"ref": "LKT:44", "status": "supports", "note": "LKT.txt leaf 71 (printed p.45, i.e. the page after the one cited), entry '556. Tk. ebuzine: Auch buzine Affe [aus ar. abū zina Vater der Unzucht]; hieraus russ. obez'jana, klruss. obezjana Affe [vgl. lit. bezdona]' — this is the source of the 'father of whoredom' gloss; and leaf 28 (p.2) entry '13. Ar. abū ʿaraq: Vater des Schweißes, hieraus lat. borrago, eine Pflanze, die durch die ar. Medizin im Mittelalter verbreitet wurde ... Trotz ML 1412 scheint diese Ableitung noch immer die beste und wenig anfechtbar zu sein.'"},
+            {"ref": "AHD:152", "status": "supports", "note": "AHD p.152 (1975 New College Ed.) is the main-dictionary page with 'borage', not the IE appendix; the current online AHD (search.html?q=borage) reads '[Middle English, from Old French bourage, from Medieval Latin borāgō, probably from Arabic bū ʿaraq, from ʔabū ʿaraq, source of sweat (from its use as a sudorific): ʔab, father, source + ʿaraq, sweat]'."},
+            {"ref": "FVQ:44", "status": "not_found", "note": "FVQ_pages.txt leaf 61 (p.44): only the Ibrāhīm entry; nothing on abū zanna or abū ʿaraq."},
+            {"ref": "FVA:25", "status": "not_checked", "note": "Nahvi: no digital copy found."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "bŭzîneh",
+          "verdict": "disputed",
+          "derivation": "Persian بوزینه būzīna (variants بوزنه būzna, بوزنینه būznīna, and a learned/obsolete ابوزینه abūzīna) 'monkey, ape' is attested from Classical Persian (Rūmī, Masnavī I 282: har-či mardum mē-kunad būzīna ham ...). The traditional derivation, followed by Borhān-e Qāṭeʿ/Dehkhoda ('کنیت میمون ... مخفف ابوزینه'), Lokotsch (entry 556) and Nourai, takes it as Arabic abū zanna/zinā 'father of whoredom' with aphaeresis of a- (abū-zīna > būzīna). Modern sources reject this: Wiktionary treats būzīna as inherited from Proto-Iranian, comparing Pashto بيزو bízo 'monkey' (which cannot come from an Arabic kunya), and notes that the word was borrowed 'anciently' into Old East Slavic обезьꙗ́на (> Russian обезьяна; Vasmer, Chernykh) and likely into Old Turkic 𐰋𐰃𐰲𐰃𐰤 béčin, already attested in the Kül Tegin inscription (8th-9th c.) as the calendar 'monkey' year — a chronology and a phonetic shape (-č-) that fit an Iranian rather than an Arabic source. On that view Arabic abū zanna 'kunya of the ape' and the Persian variant abūzīna are folk-etymological reshapings of the Iranian word, i.e. the arrow runs the other way. Mo'in's own entry gives no Arabic tag. The Rūmī quotation in the chart (Masnavī, 'čūn del-e būzīna gardad ān del-aš') correctly illustrates the word.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/بوزینه",
+            "https://en.wiktionary.org/wiki/обезьяна",
+            "https://en.wiktionary.org/wiki/𐰋𐰃𐰲𐰃𐰤",
+            "https://abadis.ir/fatofa/بوزینه/",
+            "https://arabiclexicon.hawramani.com/زنن/"
+          ],
+          "ref_check": [
+            {"ref": "MON:602", "status": "partial", "note": "MON_part1.txt line 26095 (abridged Mo'in): 'بوزینه ... [بوزینا، بوزنه، بوزنینه] (اِ.) (جا.) میمون' and abadis 'فرهنگ معین: (نِ) (اِ.) میمون' — the word and its variants are there with the gloss 'monkey', but Mo'in gives NO [ع.] Arabic tag and no abū-zinā etymology; the Arabic derivation in the chart comes from Borhān/Dehkhoda ('مخفف ابوزینه') and Lokotsch, not from Mo'in."},
+            {"ref": "FVA:180", "status": "not_checked", "note": "Nahvi: no digital copy found."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Hindustani",
+          "words": "bojîna",
+          "verdict": "confirmed",
+          "derivation": "Urdu/Hindustani بوزنہ būzna, bozna (also boznīna) 'monkey, ape (syn. bandar)' is recorded by Platts (p.175) with the label P = Persian loan, i.e. Persian būzna/būzīna taken into Hindustani through the Persianate court and literary culture of the Delhi Sultanate and Mughal period (13th-18th c.); the Indian vowel o for Persian ū is regular in Hindustani pronunciation (bozna). Nourai's 'bojîna' with j is unusual (Platts has z) but evidently the same word. The edge Persian > Hindustani is correct.",
+          "sources": [
+            "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%88%D8%B2%D9%86%D9%87&searchhws=yes"
+          ],
+          "ref_check": [
+            {"ref": "PRT:253", "status": "not_checked", "note": "Partridge, Origins (1958) is lending-only on archive.org (originsshortetym00part); the fulltext-search endpoints (inside.php, BookReaderSearch.php) returned 'Item not available'/404, so p.253 could not be read."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "",
+          "verdict": "disputed",
+          "derivation": "French gibbon (Buffon, Histoire naturelle 1766) was introduced by Joseph-François Dupleix, governor of French India 1742-54, who brought the animal and its name to Europe. But no source connects it with Hindustani būzna/bojīna, and the shapes do not match (b-z-n vs. g-b-n). OED (quoted by Lim 2020) says the word is 'alleged to be an Indian word, but it has not been found in any Indian language'; Etymonline: 'supposedly from a word in the French colonies of India but not found in any language there'; Klein: 'a name of Indian origin brought to Europe by ... Dupleix' without giving an etymon; Skeat suggested the English surname Gibbon. The current proposal (Lim 2020, Lexis 15; adopted by Wiktionary) is Northern Aslian kbɔɲ 'white-handed gibbon' (Menraq, Peninsular Malaysia) > 18th-c. Malay kəbɔn > French gibbon, via Malay trade with French India. Nourai's chart-note ('taken to France from India in the 18th century') is right about the route; the derivation from būzīna is not supported by anyone.",
+          "sources": [
+            "https://www.etymonline.com/word/gibbon",
+            "https://en.wiktionary.org/wiki/gibbon",
+            "https://journals.openedition.org/lexis/4291?lang=en"
+          ],
+          "ref_check": [
+            {"ref": "KLN:655", "status": "partial", "note": "KLN_1966.txt leaf 354, line 16112 s.v. gibbon: 'F., a name of Indian origin brought to Europe by the Marquis Joseph-François Dupleix (1697-1763), governor-general of the French possessions in India (1742-54).' Klein supports 'French, from India, 18th c.' but names no Indian word — nothing about būzīna/bojīna. (The printed page on this leaf is c. 684-686 by the leaf formula, not 655; the entry is unmistakable regardless.)"}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "gibbon",
+          "verdict": "confirmed",
+          "derivation": "English gibbon is borrowed from French gibbon (Buffon 1766), first attested in English in 1770 (Etymonline; Wiktionary calls it a re-borrowing shaped by folk-association with the surname Gibbon). The French > English step is uncontroversial; only the origin of the French word (node 6) is in dispute.",
+          "sources": [
+            "https://www.etymonline.com/word/gibbon",
+            "https://en.wiktionary.org/wiki/gibbon"
+          ],
+          "ref_check": [
+            {"ref": "KLN:655", "status": "supports", "note": "KLN_1966.txt leaf 354 s.v. gibbon: 'gibbon, n., a small, long-armed ape. — F., a name of Indian origin brought to Europe by the Marquis Joseph-François Dupleix' — English from French, as drawn."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Middle Latin",
+          "words": "borrâco",
+          "verdict": "transcription_suspect",
+          "derivation": "The Medieval Latin plant-name is borrāgō (gen. borrāginis; also borāgō, burrāgō), the source of Italian borragine, Spanish borraja, Portuguese borragem, Provençal borrage, French bourrache, German Boretsch. 'borrâco' with -c- is not a recorded form; the book almost certainly printed 'borrâgo' and the scan misread g as c (Klein s.v. borage: 'fr. ML. borrago'; AHD 'Medieval Latin borāgō'). As for the arrow from Arabic abū ʿaraq: AHD ('probably'), Klein and Lokotsch (entry 13: 'Trotz ML 1412 scheint diese Ableitung noch immer die beste') derive borrāgō from the Arabic name of the plant, abū ʿaraq 'father of sweat', spread by Arabic medicine in the Middle Ages; the initial a- was lost and ʿaraq gave -rāgō with the Latin plant-suffix -āgō (cf. plantāgō, lappāgō). OED and Etymonline prefer Latin burra 'rough hair, short wool' (the hairy leaves), and Wiktionary lists both. So the derivation is plausible, not certain; the node is flagged for the misprinted form.",
+          "sources": [
+            "https://ahdictionary.com/word/search.html?q=borage",
+            "https://en.wiktionary.org/wiki/borage",
+            "https://www.etymonline.com/word/borage"
+          ],
+          "ref_check": [
+            {"ref": "AHD:152", "status": "supports", "note": "Online AHD s.v. borage: 'from Medieval Latin borāgō, probably from Arabic bū ʿaraq, from ʔabū ʿaraq, source of sweat (from its use as a sudorific)'. (p.152 of the 1975 New College Edition is not online; the online text is the revised edition of the same entry.) Note the form is borāgō, with g."},
+            {"ref": "KLN:106", "status": "supports", "note": "KLN_1966.txt line 5360 s.v. borage (not cited by Nourai but the chart's evident model): 'ME., fr. OF. borrace (cp. its variant burage and F. bourrache), fr. ML. borrago, ult. fr. Arab. abu ʿarak, lit. father of sweat, so called by the Arab physicians because of its sudorific effect. See abbot and cp. arrack.'"}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Old French",
+          "words": "borrace, bourrache",
+          "verdict": "confirmed",
+          "derivation": "Old French borrace / borage / burage (13th c.; Anglo-French burage) continues Medieval Latin borrāgō (accusative borrāginem gave the learned/Italianate forms; the vernacular form drops the -gin- syllable). Modern French bourrache is the same word with the later French spelling ou for /u/ and -ache. Klein: 'OF. borrace (cp. its variant burage and F. bourrache)'; AHD: 'Old French bourage'; Etymonline: 'Anglo-French burage, Old French borage (13c., Modern French bourrache)'.",
+          "sources": [
+            "https://www.etymonline.com/word/borage",
+            "https://en.wiktionary.org/wiki/borage"
+          ],
+          "ref_check": [
+            {"ref": "AHD:152", "status": "supports", "note": "Online AHD s.v. borage: '[Middle English, from Old French bourage, from Medieval Latin borāgō ...]' — Old French stage as drawn."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "borage",
+          "verdict": "confirmed",
+          "derivation": "Middle English borage / burage (mid-13th c.) borrowed from Anglo-French burage / Old French borage; the plant (Borago officinalis) was used in salads and cordials, hence the gloss 'salad seasoning' (Klein: 'a blue-flowered plant used in salads'). The Old French > English step is standard and undisputed.",
+          "sources": [
+            "https://www.etymonline.com/word/borage",
+            "https://en.wiktionary.org/wiki/borage"
+          ],
+          "ref_check": [
+            {"ref": "AHD:152", "status": "supports", "note": "Online AHD s.v. borage: 'Middle English, from Old French bourage' — same chain."}
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Hebrew",
+          "words": "abh",
+          "verdict": "confirmed",
+          "derivation": "Biblical Hebrew אָב ʾāḇ 'father; ancestor; originator' (construct אֲבִי ʾăḇī, pl. אָבוֹת ʾāḇōṯ) is the direct reflex of Proto-Semitic *ʔab(w)-, with the Hebrew spirantisation of post-vocalic b to ḇ [v] that Nourai's 'abh' represents. Cognate with Aramaic ʾabbā (whence Greek/English abba), Arabic ʔab, Akkadian abum.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/אב",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/ʔab-"
+          ],
+          "ref_check": [
+            {"ref": "KLN:6", "status": "supports", "note": "KLN_1966.txt leaf 14 (p.6) s.v. Aboth: 'Heb. Abhōth, pl. of abh, father, rel. to Aram. abh ... Arab. ab, Ethiop. ab, father'."}
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "Abot",
+          "verdict": "confirmed",
+          "derivation": "English Abot / Aboth / Avot is the name of the Mishnah tractate פִּרְקֵי אָבוֹת Pirqē Āḇōṯ 'Chapters of the Fathers' (sayings of the sages c. 200 BCE - 200 CE), and of the first benediction of the Amidah; Hebrew אָבוֹת ʾāḇōṯ is simply the plural of ʾāḇ 'father' (in Mishnaic usage also 'principal categories'). The English spelling Abot(h) is a direct transliteration used in Jewish-studies English since the 19th c.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Pirkei_Avot",
+            "https://en.wiktionary.org/wiki/אב"
+          ],
+          "ref_check": [
+            {"ref": "KLN:6", "status": "supports", "note": "KLN_1966.txt leaf 14 (p.6): 'Aboth, also Abot, n., 1) the Mishnah treatise also called Pirke Aboth or The Ethics of the Fathers; 2) name of the first benediction of the Shemoneh Esreh (Jewish liturgy). — Heb. Abhōth, pl. of abh, father'."}
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Hebrew",
+          "words": "Abh-raham; Abh-ram; Abh-ner; Ab-šalom; Abh-igayil; Yo-abh",
+          "verdict": "plausible",
+          "derivation": "All six are genuine Biblical Hebrew theophoric/kinship names built on ʾāḇ 'father' and all are drawn correctly as compounds of node 11: אַבְרָם ʾAḇrām 'father is exalted' (ʾāḇ + rām 'high', participle of rūm) — CONFIRMED; אַבְרָהָם ʾAḇrāhām — the gloss 'father of a multitude' is the explanation given in Genesis 17:5 (ʾaḇ hămōn gōyim), followed by Klein (who invokes an otherwise unattested *rahām ~ Arabic ruhām 'multitude'), Etymonline and Nourai; modern scholarship (Wiktionary, citing T. L. Thompson) treats this as folk etymology and Abraham as a dialectal expansion of Abram 'father is exalted' — so PLAUSIBLE; אַבְנֵר ʾAḇnēr 'my father is a lamp/light' (ʾāḇ + nēr; cf. Babylonian Abu-nūri) — CONFIRMED; אַבְשָׁלוֹם ʾAḇšālōm 'father is peace' (ʾāḇ + šālōm) — CONFIRMED; אֲבִיגַיִל ʾĂḇīḡayil 'my father is joy' (ʾăḇī + gīl 'rejoicing') — CONFIRMED; יוֹאָב Yōʾāḇ 'YHWH is father' (Yō- theophoric + ʾāḇ) — CONFIRMED. Nourai's cross-references to Semitic roots N.w.r (nēr 'lamp') and S.l.m (šālōm) are correct. Node verdict 'plausible' only because of the Abraham gloss.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Abraham",
+            "https://en.wiktionary.org/wiki/Abram",
+            "https://en.wiktionary.org/wiki/Abner",
+            "https://en.wiktionary.org/wiki/Absalom",
+            "https://en.wiktionary.org/wiki/Abigail",
+            "https://en.wiktionary.org/wiki/Joab",
+            "https://www.etymonline.com/word/Abraham"
+          ],
+          "ref_check": [
+            {"ref": "KLN:6", "status": "supports", "note": "KLN_1966.txt leaf 14 (p.6): 'Abraham ... Heb. Abhrāhām, lit. father of the multitude, compounded of abh, father, and *rahām, multitude, which is rel. to Arab. ruhām, of s.m.; see Gen. 17:5'; 'Abram ... Heb. Abhrām, compounded of abh, father, and rām, high, exalted'; 'Abner ... Heb. Abhnēr, lit. my father is light, fr. abh, father, and nēr, light; cp. the Babylonian PN. Abunuri'; 'Absalom ... Heb. Abhshālōm, lit. father is peace, fr. abh, father, and shālōm, peace'; and line 20305 'Joab ... Heb. Yōʾābh, lit. the Lord is (his) father'. Nourai's glosses are copied from Klein."},
+            {"ref": "FVQ:44", "status": "partial", "note": "FVQ_pages.txt leaves 61-62 (pp.44-45), s.v. Ibrāhīm: 'ultimately derived from Heb. [Abrāhām]' — supports the Hebrew name but says nothing about its internal etymology or the other five names."}
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Arabic",
+          "words": "Abrahim",
+          "verdict": "confirmed",
+          "derivation": "Arabic إِبْرَاهِيم ʔIbrāhīm (Qur'an, c. 69 occurrences, e.g. 2:124) is ultimately Hebrew ʾAḇrāhām, but Jeffery shows that the immediate source was not Hebrew (which would have given *ʾAbrāhām) but the Syriac/Aramaic Christian form ʾAḇrāhām/Aḇrāhām, with the peculiar Qur'anic vocalism -īm (early Muslim philologists themselves noted the form as foreign and recorded variants Abrāhām, Ibrāhām); Wiktionary likewise gives 'borrowed from Aramaic ʾaḇrāhām', from Biblical Hebrew. So the arrow Hebrew > Arabic is right in substance, with Aramaic/Syriac as the intermediary. Nourai's 'Abrahim' is a rough transcription of Ibrāhīm.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/إبراهيم",
+            "https://en.wiktionary.org/wiki/Abraham"
+          ],
+          "ref_check": [
+            {"ref": "FVQ:44", "status": "supports", "note": "FVQ_pages.txt leaf 61-62 (pp.44-45): 'Ibrāhīm. Occurs some 69 times ... Abraham. It is always used of the Biblical Patriarch and thus is ultimately derived from Heb. [Abrāhām]. If the name had come direct from the Heb. we should have expected the form [Abrāhām] ... some early authorities recognized it as a foreign borrowing ... The common Syr. form is [Abrāhām] which is obviously the source of both the Eth. and the Arm. ... the immediate source is not easy to determine.'"}
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Persian",
+          "words": "Ebrâhîm",
+          "verdict": "confirmed",
+          "derivation": "Persian ابراهیم Ebrāhīm (Classical Persian Ibrāhīm, /ʔib.raː.ˈhiːm/) is borrowed from Arabic ʔIbrāhīm with the Islamic onomasticon; the Persian spelling drops the Arabic hamza-seat alif-kasra (إ > ا) and Iranian Persian lowers short i to e (Ebrāhīm). The Rūmī quotation ('bot šekastī gīram Ebrāhīm-vār') illustrates the name of the prophet as idol-breaker.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/ابراهیم",
+            "https://en.wiktionary.org/wiki/إبراهيم"
+          ],
+          "ref_check": [
+            {"ref": "none", "status": "not_checked", "note": "Nourai gives no reference for this node; Wiktionary confirms 'Borrowed from Arabic إِبْرَاهِيم'."}
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "Abraham, Abram, Abner, Absalom, Abigail, Jaob",
+          "verdict": "transcription_suspect",
+          "derivation": "The English names reach English through the Bible: Hebrew > Septuagint Greek (Ἀβραάμ, Ἀβράμ, Ἀβεννήρ, Ἀβεσσαλώμ, Ἀβιγαία, Ἰωάβ) > Latin Vulgate (Abraham, Abram, Abner, Absalom, Abigail, Ioab) > Old/Middle English (Abraham and Abram already before 1150 in Old English biblical prose; the others in Wycliffite and later Bibles). The Greek/Latin route explains why English has Abraham with -h- but Absalom (Greek/Latin -s-) rather than Hebrew Abšalom. All five real names are correctly placed. 'Jaob' is a transposition error for 'Joab' (Hebrew Yōʾāḇ, Late Latin Joab) — either a misprint in the book or a scan misreading; the book must intend Joab, which Klein's Aboth entry lists.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Abraham",
+            "https://en.wiktionary.org/wiki/Abram",
+            "https://en.wiktionary.org/wiki/Absalom",
+            "https://en.wiktionary.org/wiki/Joab"
+          ],
+          "ref_check": [
+            {"ref": "KLN", "status": "supports", "note": "KLN_1966.txt leaf 14 (p.6) entries Abraham, Abram, Abner, Absalom (all 'masc. PN.; in the Bible ...' from Heb.) and line 20305 'Joab ... Late L. Joab, fr. Gk. Ἰωάβ, fr. Heb. Yōʾābh, lit. the Lord is (his) father' — Klein spells it Joab, confirming that 'Jaob' is an error."},
+            {"ref": "AHD", "status": "not_checked", "note": "No page given; the AHD IE appendix (AHD_watkins1985.txt) does not cover Semitic names, and the 1975 main dictionary is not online."}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+URL: https://journals.openedition.org/lexis/4291?lang=en
+FETCHED: 2026-09-04T15:31:37Z
+STATUS: 200
+TITLE: An Aslian origin for the word gibbon
+
+An Aslian origin for the word gibbon 
+
+ Skip to navigation  – Site map 
+
+ Lexis 
+
+ Journal in English Lexicology 
+
+ Home Issues 15 Varia An Aslian origin for the word gibbon 
+
+ Search 
+
+ Contents 
+
+ 15  | 2020 
+ The adjective category in English 
+
+ Varia 
+
+ An Aslian origin for the word gibbon 
+
+ Teckwyn Lim 
+
+ https://doi.org/10.4000/lexis.4291 
+
+ Abstract  | Index  | Outline  | Text  | Bibliography  | Notes  | References  | About the author 
+
+ Abstract 
+
+ This article examines the etymology of the word gibbon , which is not yet clear. The article presents a phonemic analysis using the ALINE algorithm which suggests that the root word is Northern Aslian kbɔɲ , used by Menraq communities in the heart of Peninsular Malaysia. This article reviews morphological, ethno-geographical, semantic, historical and linguistic evidence that supports this hypothesis. The article proposes Malay as an intermediary, noting that several other Aslian words entered European languages via Malay. 
+
+ Top of page 
+
+ Index terms 
+
+ Mots-clés : 
+ noms d’animaux , emprunts , analyse morphologique , austroasiatique , malais 
+
+ Keywords: 
+ animal names , loanwords , morphological analysis , Austroasiatic , Malay 
+ Top of page 
+
+ Outline 
+
+ Introduction 
+
+ 1. Methodology 
+
+ 2. Results 
+
+ 3. Discussion 
+
+ 3.1. Orthography and morphology 
+
+ 3.2. Ethno-Geography of Northern Aslian 
+
+ 3.3. Semantics 
+
+ 3.4. Historical context 
+
+ 3.4.1. Hunting and keeping gibbons 
+
+ 3.4.2. Trade contact 
+
+ 3.5. Linguistic context 
+
+ 3.5.1. Aslian loan words in Malay 
+
+ 3.5.2. Malayisms in European languages 
+
+ Conclusion 
+ Top of page 
+
+ Full text 
+
+ PDF Share by e-mail 
+
+ Introduction 1 
+
+ 1 I am grateful to Paul Sidwell and to the anonymous Lexis reviewers who gave helpful comments on ear (...) 
+
+ 1 Gibbons are small arboreal apes whose range once stretched from India to China but which are now found mostly in the forests of Southeast Asia. There are some 20 extant gibbon species, in four genera, comprising the family Hylobatidae [Fan  et al.  2017] ⁠. The word gibbon was first recorded by the French naturalist Georges-Louis Leclerc, Comte de Buffon [Buffon 1766: 92-95] ; it entered English in 1770, and is now found in languages throughout the world. However, the root of the word has eluded linguists for centuries [Buffon 1792: 185 n., Skeat 1910: 778, van Gulik 1967: 1]. 
+
+ 2 Buffon suggested that gibbon may have had its origins in the East Indies, but he was unable to identify which language it came from. The Oxford English Dictionary [OED3] states that ‘gibbon’ is “alleged to be an Indian word, but it has not been found in any Indian language”. Skeat [1910: ‘gibbon’] states that “how the name came into existence we cannot tell, but that it was suggested [to the French] by an Englishman [in India] can hardly be doubted”, noting that Gibbon , the English proper name, was an extension of Gilbert . To help solve this puzzle, this article reviews lexemes for gibbon among the native languages of the animal’s natural range and identifies the most likely root of the word. 
+
+ 1. Methodology 
+
+ 3 I used maps from Turvey et al. [2018] and Biotani et al. [2006] to identify the distribution of gibbons (Figure 1). I then used the language maps of Eberhard et al. [2019] to identify languages native to this region. I then identified local word-forms for ‘gibbon’ from a broad selection of these native languages. 
+
+ 4 I carried out an analysis on the words using a feature-weighted linguistic algorithm (ALINE, alineR-package in R [R Core Team 2013; Downey et al. 2017] ⁠). The ALINE distance (ALINE Dist ) between two words is calculated by an automatic phonetic sequence alignment algorithm that determines the similarity of the words, giving a result ranging from 0 to 1, with zero indicating that the words are effectively identical, and 1 indicating the words have no phonemic similarities. Specifically, the ALINE algorithm [Kondrak 2000] assigns a distance value to pairs of words by decomposing the phonemes into elementary features (which include place, manner, voice, etc.), assigning numerical values to each feature and then calculating the weighted average distance between the features. The values for the features are based on the position of the vocal organs when making the sound represented (e.g. the value assigned to the feature “manner” varies from 1 for a stop, 0.4 for a high vowel, and 0 for a low vowel). The similarity value is normalized by the length of the longer word, with a penalty being applied for each unaligned phoneme and to reduce the relative importance of vowel matches (as opposed to consonant matches). ALINE was designed to identify and align cognates in related languages and can be used for calculating the similarity of any pair of words [Kondrak & Sherif 2006]. 
+
+ 2 ALINE Dist gibɔ̃ / ʒibɔ̃ = 0.29 . 
+
+ 3 Phonetic representations of gibbon vary, with the standard anglicized pronunciation being [ˈɡɪbən] . 
+
+ 4 ALINE Dist gibɔ/gibɔn = 0.15. 
+
+ 5 I used ALINE to calculate the distance between the native words for ‘gibbon’ and Buffon’s gibbon . While the modern French pronunciation is [ʒiˈbɔ̃] [CNRTL 2019: gibbon] ⁠, Buffon [1792: 9:185] ⁠ made it clear that the word originally had a hard / g/ [giˈbɔ̃] 2 – he noted that an alternate spelling of the word was guibon . 3 In addition, there is a likelihood that the /n/ in the etymon was not silent, i.e. /gibɔn/ (cf. the original pronunciation of the final /n/ in other loanwords in French, such as in the Môn of Môn-Khmer). 4 The analysis used both /gibɔ/ and /gibɔn/. 
+
+ 6 For the analysis, I transcribed the lexemes from the source orthography into phonemes for ALINE analysis using the International Phonetic Alphabet. I sorted the lexemes according to their ALINE distance from gibbon and plotted the results together with a cladogram generated using the hierarchic clustering (‘hclust’) function in R (using the unweighted-pair group method with arithmetic mean (UPGMA) agglomeration). I identified candidate root words on the basis of the least phonemic distance from gibbon and the cluster results. 
+
+ 2. Results 
+
+ 7 I identified 69 lexemes for gibbon from 54 languages spoken in the gibbon range (see Figures 1 and 2). These included words from six language families: Austroasiatic (several Aslian languages, Khmer, Mon and Vietnamese), Austronesian (several Malay varieties, including Aboriginal Malay), Hmong-Mien (Hmong), Indo-European (Assamese and Bengali), Sino-Tibetan (Burmese, Hakha Chin, Karen and Southern Min) and Tai-Kadai (Thai and Lao). The lexeme that had the closest phonemic distance from gibbon was kəboɲ, a word form from a Northern Aslian language of the Malay Peninsula (ALINE Dist gibɔn / kəboɲ = 0.1556). The word form kəboɲ clustered together with gibɔn and gibɔ (Figure 3). 
+
+ 5 The modern range (dark gray) is from Biotani et al. [2006]⁠ and the historical range (light gray) i (...) 
+
+ Figure 1: Natural distribution of gibbons 5 
+
+ Zoom Original (jpeg, 120k) 
+
+ 6 Language codes following ISO 639-5 and ISO 639-3 are provided in brackets. 
+
+ Figure 2: Phonemic distance between French and native words for ‘gibbon’ 6 
+
+ Zoom Original (jpeg, 1000k) 
+
+ 7 Agglomeration based on average ALINE distances (UPGMA). 
+
+ Figure 3: Phonemic clustering of words for ‘gibbon’ 7 
+
+ Zoom Original (jpeg, 196k) 
+
+ 3. Discussion 
+
+ 8 The phonemic analysis presents a hypothesis that gibbon is related to the Northern Aslian word kəboɲ. The sections below examine the orthography and morphology of kəboɲ , and discuss the extent to which the semantic, historical, and linguistic context of both gibbon and kəboɲ support the results of the phonemic analysis. 
+
+ 3.1. Orthography and morphology 
+
+ 8 They cite a comparison with another Northern Aslian form, tabö g ng ‘monkey’ ( Mal. lotong), used for (...) 
+
+ 9 The word form kəboɲ is reported by British anthropologist Walter William Skeat (1866-1953), who gives it as ka-boñ ‘monkey’ ( Mal . mawah) from one locality and kĕboñ ‘monkey’ ( Mal. ungka; wawah) from another [Skeat & Blagden 1906: M152]. 8 More recent records include kebòñ ‘ Hylobates spp.’ [Endicott 1979a: 65], kəbon ‘white-handed gibbon’ ( Hylobates lar ) [Lye 2004: 204], and kbon ‘long arm monkey’ [Suzila 2015: 199]. In 2013, I recorded kəbɔn ‘ Hylobates lar ’ from two localities in Pahang [Lim field notes]. 
+
+ 10 The most phonemically reliable forms are probably those of the wordlists of the archive of the Volkswagen Foundation’s DOBES (Dokumentation Bedrohter Sprachen) programme: kəbɔɲ ‘gibbon’ [Burenhult 2008] and kbɔɲ ‘gibbon’ [Burenhult 2009]. These forms support Endicott’s [1979] rendering of the open back vowel /ɔ/ and the final palatal nasal /ɲ/. The phonetic surface representation of the word is probably along the lines of [kəˈbɔ iɟ ɲ] and a purely phonemic representation should probably be /kbɔɲ/ since the vowel of the first syllable is likely to be epenthetic and not have phonemic status. The lexeme shall thus be referred to as kbɔɲ for the remainder of this article. 
+
+ 11 It is worth noting that final palatals are ubiquitous in Austroasiatic languages, including the Northern Aslian varieties that contain the form kbɔɲ [Diffloth 1976b: 76-78, Diffloth 1979: 6-7, Benjamin 1985: 8, 13]. Thus, it is likely that the final nasals of kabo y nn [Skeat & Blagden 1906: M152] , kəbon , kəbɔn and kbon , involving /n/ rather than /ɲ/, are misrepresentations by non-native speakers. Incidentally, it is thus quite possible that the /n/ in gibɔn could similarly be the result of a non-native rendering of an /ɲ/. 
+
+ 12 Transcription errors could also be responsible for the closed back vowel /o/ in ka-boñ , kĕboñ , kabo y nn , kəbon and kbon. Aslian languages tend to have much richer systems of vowel phonemes than other languages such as English and Malay (both of which have constrained orthographies). It is thus likely that the authors mentioned gave the closed back vowel /o/ when the open back vowel /ɔ/ was more accurate. Indeed, Skeat & Blagden [1906: 506] admit to particular uncertainty regarding the orthography of the Aslian vowels in the forms they reference. Nevertheless, this vowel shift does not have any influence on the ALINE analysis as these vowels are not distinguished in the analysis (i.e. ALINE Dist kboɲ / kbɔɲ = 0). 
+
+ 3.2. Ethno-Geography of Northern Aslian 
+
+ 13 Northern Aslian is one of the four clades of the Aslian branch of the Austroasiatic language family spoken by groups of Orang Asli of the Malay Peninsula [Benjamin 2012, Kruspe et al.  2015]. There are some 8 to 10 speech varieties in Northern Aslian, with new varieties having been reported as recently as 2017 [Yager & Burenhult 2017] ⁠. The lexeme kbɔɲ ‘gibbon’ (with the orthographic variations highlighted above) has been recorded from five groups in the north of the Peninsula, all Northern Aslian speakers (Figure 4). The Northern Aslian speakers here are traditionally hunter-gatherers, collectively known as the Menraq [Gomes 2007] (they are also known as Semang and Negrito ). 
+
+ 9 The language boundaries are adapted from B enjamin [1983], with the language names following the ISO (...) 
+
+ Figure 4: Records of kbɔɲ ‘gibbon’ with possible routes to Malacca 9 
+
+ Zoom Original (jpeg, 100k) 
+
+ 14 The word kbɔɲ appears confined to speech varieties that are within a sub-branch of Northern Aslian that has been designated Menraq-Batek [Dunn et al. 2011]. This sub-branch includes several varieties of Batek, Menriq, Jahai, and Jedek [Yager & Burenhult 2017]. Skeat records kbɔɲ from the “Pangan of Ulu Aring [in Kelantan]” [Skeat & Blagden 1906: M152], who, Benjamin [1976: 125-126] suggests, were people now known as the Batek Deq. Endicott [1979a] and Burenhult [2008] record kbɔɲ from the Batek Deq of Kuala Koh, Upper Lebir, Kelantan. The records of Lye [2004: 204] and Suzila et al. [2015: 199] are from the Batek of Pahang (“Batek Hep”). My records [Lim field notes] were from the Batek of the Tanum Valley (Telok Gunong and Chegar Perah, Pahang), who speak a language known as Mintil [Benjamin 1976]. Burenhult’s [2009] record is from the Menriq of Kuala Lah, Nenggiri, Kelantan. 
+
+ 15 One outlier appears to be the record ka-boñ from the “Semang (or Pangan) of Jarum” [Skeat & Blagden 1906: M152]. Benjamin [1976: 125-126] suggests that the people of Jarum were speakers of Jahai, and, according to the language map by Benjamin [1983], the village of Jarum (Ban Ya Rom, Yala Province, Thailand) (5°47’, 101°8’) is at the mouth of the Jarum river on the north-western edge of the Jahai range (point 1 on Figure 4). However, the coordinates for Skeat’s “Jarum” locality (5°51’, 101°2’) are in the upper reaches of that river and suggest a location about 20 km outside the Jahai range, and in the range of the Kensiu group. Furthermore, the word the Jahai currently use for gibbon is [mã ‘wɛ̃ʔ] [Burenhult 2005: 239]. In the past, the Menraq were highly mobile [Gomes 2007] and it is possible that Skeat’s record from Jarum (presumably recorded during his 1899-1900 expedition) was from a language variety that is presently found further east. There were also several varieties of Northern Aslian found in the coastal lowlands of Kedah and Perak that went extinct with only relatively short wordlists being collected [Benjamin 2012: 165]. Four of these extinct varieties (Low-country Semang: ‘Semang of Yen’ and Semang of Juru’; and Kensiu: Meni’ Kaien and Kensiu Pĕmsed) are found north of or adjacent to the Muda River in Kedah (the significance of which will be explained in the following section) [Benjamin 1983]. 
+
+ 3.3. Semantics 
+
+ 16 The original meaning of gibbon can be determined by reference to the description given by Buffon [1766] . He⁠ presents illustrations of two individual male gibbons (Figure 5). These have both been identified as being White-handed Gibbons Hylobates lar (L.) [Groves 1969] ⁠. The common name refers to the pale pelage that is usually found on the backs of the hands, feet and facial markings of these animals, while their skin and the palms of their hands and soles of their feet are actually black. 
+
+ 10 Bibliothèque nationale de France, département Estampes et photographie.
+
+ Figure 5: Original illustrations by Jacques de Sève, showing Buffon’s “Grand Gibbon” (1755) and his “Petit Gibbon” (1763) 10 
+
+ Zoom Original (jpeg, 400k) 
+
+ 17 There are four subspecies of White-handed Gibbon which once ranged from south-west China to northern Sumatra. Buffon’s two gibbons were from two different subspecies, the first (his “Grand Gibbon”) has been identified as H. lar entelloides , found north/west of the Muda River, and the second (his “Petit Gibbon”) as H. lar lar , which is only found south/east of the Perak River [Groves 1969]. The ranges of the two H. lar subspecies are separated by a stretch of land that crosses the Peninsula between the Muda and Perak rivers (Figure 6). This stretch is inhabited by the Agile Gibbon, H. agilis , which is similar in appearance but generally lacks the white hands and feet of H. lar . 
+
+ 11 The species ranges are adapted from Biotani et al. [2006]⁠ ; the numbers represent the locations men (...) 
+
+ Figure 6: Distribution of kbɔɲ and gibbon taxa in the Malay Peninsula 11 
+
+ Zoom Original (jpeg, 64k) 
+
+ 18 The identification of Hylobates gibbons is complicated by the fact that both H. lar and H. agilis have variable coat colours and differ very little anatomically. Indeed, some hybridisation occurs where the two species meet at the headwaters of the rivers that separate their range [Gittins & Raemakers 1980: 65]. The southern part of the Peninsula is also home to the largest member of the gibbon family, the siamang ( Symphalangus syndactylus ), which is sympatric with H. lar lar but is readily distinguished by its entirely black coat and its booming call (the etymology of siamang will be discussed below). 
+
+ 19 The meaning of the word kbɔɲ matches that of gibbon in referring to the Hylobates gibbons of the Malay Peninsula. Skeat’s record from Jarum is within the H. agilis range and the further records of kbɔɲ are all from Kelantan and Pahang, within the range of H. lar lar (Figure 6) . 
+
+ 20 Supporting this biogeography, Skeat notes that, in Jarum, kaboynn or ka-boñ referred to the “monkey” that Malays refer to as mawah ; while in Ulu Aring kĕboñ is glossed using the Malay words ungka and wahwah [Skeat & Blagden 1906: M152] . Wilkinson [1932: 22973] translates mawa as ‘gibbon’ (Kedah Malay) and gives ungka and wa’wa’ as synonyms. Gittins and Raemakers [1980: 65] note that wak-wak is the common name used for both Hylobates species in the Peninsula (the form being imitative of the call made by the gibbons). They add that, in districts where both H. lar and H. agilis are found, locals use wak-wak to refer to the former and ungka to refer to the latter, since this name “describes more closely the bisyllabic ‘whoo-aa’ call of this species”. 
+
+ 12 Suzila et al. [2015: 199] give a list of Batek names for some 34 mammal species. The gloss given fo (...) 
+
+ 21 More recently, Endicott [1979a: 65] explicitly identifies his kebòñ of Ulu Aring as ‘ Hylobates spp.’ and Lye [2004: 204] identifies her kəbon from Pahang as ‘White-handed Gibbon ( Hylobates lar )’. More ambiguously, Suzila et al. [2015: 199] note kbon ‘long handed monkey’ from Kuala Tahan, Pahang. 12 I recorded my kəbɔn from Pahang as ‘ Hylobates lar ’. 
+
+ 3.4. Historical context 
+
+ 22 Given the strong phonemic and semantic similarities between gibbon and kbɔɲ , it is worth examining whether the historical context could have permitted transmission from Northern Aslian to French. In particular, it is relevant to consider the origin of the individual animals described by Buffon [1766]. 
+
+ 3.4.1. Hunting and keeping gibbons 
+
+ 23 Human relationship with gibbons in the Peninsula dates back many thousands of years. In Kelantan, the bones of gibbons have been found among prehistoric tools dated to around 5,000 years ago [Baer 2016] . Numerous studies show that Aslian speakers have historically hunted gibbons for food – usually using blowpipes and poison darts [Vaughan-Stevens 1892; Burkill 1935; Endicott 1979b; Raemaekers & Chivers 1980] . Gibbon hunting continues in Menraq communities in Perak [Loke et al.  2020] and in communities in Pahang [Lim field notes]. 
+
+ 24 While adult gibbons are eaten, the young are often kept as pets [van der Sluys 2000: 441] ⁠. Tame gibbons can be particularly affectionate, and records of pet gibbons in Asia go back more than 2,200 years [Turvey et al.  2018]. In 2015, I observed two young gibbons (a white-handed gibbon and a siamang) being kept as pets in a Batek village in Pahang [Lim field notes]. 
+
+ 3.4.2. Trade contact 
+
+ 25 The Orang Asli have long had contact with the outside world via trade⁠. As early as the fifth century, Aslian forest collectors had been exchanging items down the main rivers in return for rice, textiles and pottery [Dunn 1975] ⁠. Allen [1999: 143] notes that this trade was carried out primarily with the Malays living downstream, as few foreigners ventured upriver prior to the nineteenth century. Historically, there were several trans-peninsular trade and portage routes [Benjamin 2013] ⁠ (Figure 4), and the points of export were the various coastal ports, primarily Malacca. From here, the produce proceeded eastwards across the South China Sea and westwards across the Indian Ocean [Allen 1999: 143, Hussin 2011] ⁠. Archaeological findings [Bellina & Glover 2004] suggest that there has been regular trade contact between the Malay Archipelago and South India for more than 2,000 years. 
+
+ 26 The exports of the Archipelago included numerous species of flora and fauna, live as well as dead. There are records of primates such as “monkeys” from the Peninsula being traded across the Indian Ocean by Arab traders at the end of the first millennium (850-1000) [Dunn 1975: 112]. In this context, “monkeys” was a generic term that also included apes such as gibbons. Film-maker Victor Jurgens, in Nomads of the Jungle (produced by Louis de Rochemont in 1949), documents a group of Aslian speakers (specifically Temiars) hunting Agile Gibbons using blowpipes and then taking the baby gibbons to a Malay trading post, “where men buy them to send to far-off lands” (Figure 7). 
+
+ 13 Stills from t he documentary, Nomads of the Jungle , directed by Victor Jurgens [1949]. 
+
+ Figure 7: Orang Asli hunters sell a baby Agile Gibbon to a Malay trader in Gerik, Perak 13 
+
+ Zoom Original (jpeg, 211k) 
+
+ 14 The English word orangutan most commonly refers to apes of the genus Pongo – and, as such, was reco (...) 
+
+ 27 Trade in live gibbons reached Europe by the eighteenth century. One black gibbon, referred to as an “ourangoutang” (< Malay orang hutan ‘person of the forest’), 14 entered the menagerie of the second Earl of Shelburne, England, perishing in the winter of 1768 [Grigson 2016: 134] . British statesman Stamford Raffles kept a pet gibbon when he served in Penang between 1805 and 1810, and he also had a pet siamang when he served in Sumatra in the 1820s [Bastin 1990] ⁠. 
+
+ 15 At the time, “Malac” (Malacca) referred both to the entrepôt (then under the control of the Dutch E (...) 
+
+ 28 The “Grand Gibbon” was brought to Buffon by the businessman-turned-bureaucrat Joseph François Dupleix. From the 1720s, Dupleix had been based in Pondicherry, the French colony in South India (Figure 1), where he had partnered with English captains and traded extensively with Malacca [Ray 1999: 116, Singh 2006: 458]. In 1742, Dupleix was appointed as governor-general of French India, and, on behalf of the French East India Company, he sent numerous French agents to the Malay Archipelago [Martineau 1929]. In 1753, Dupleix is known to have had a pet gibbon in his possession in his home in Pondicherry [d’Obsonville 1784: 374], and in 1755 he brought the live Grand Gibbon to France, telling Buffon that it was a “ gibbon ” [Buffon 1766: 185] ⁠. Dupleix’s successor, Charles Godeheu, had a White-handed Gibbon from “Malac” (Malacca) 15 (the “Petit Gibbon”) that he too brought back with him at the end of his term in India [Buffon et al. 1829: 130] . 
+
+ 3.5. Linguistic context 
+
+ 3.5.1. Aslian loan words in Malay 
+
+ 16 In addition, the Malay cepu-cepu ‘ a small white bird’ [Clifford & Swettenham 1894] is suggestive of (...) 
+
+ 29 The 16 th -century Dutch merchant and historian Jan Huyghen van Linschoten [1596: 24] reports that the Malay spoken in the city of Malacca is said to have incorporated the best words (“die beste woorden”) of all neighbouring languages. It is indeed the case that Orang Asli trade with communities downstream resulted in the transmission of several words to the Malay dialects of the Peninsula. Most of these loanwords are the names of animals, including the names of several species that were traded to be eaten, including dekan ‘bamboo-rat’ ( Rhyzomis sumatrensis ), merak ‘peafowl’ ( Pavo muticus ) and ketam ‘crab’ [Benjamin 2012: 152-153] . Other Malay words noted to be of probable Aslian origin are cimcili ‘flycatcher’ ( Terpsiphone spp.) 16 , cucu ‘grandchild’, helang ‘eagle’, jenut ‘saltlick’ and semut ‘ant’ [Benjamin 2012: 152-53] ⁠. 
+
+ 17 This word appears to have an Austroasiatic root and compares with mɛ̤ːŋ ‘black spots’ used by the B (...) 
+
+ 18 Northern Aslian names for siamang include Batek Deq bătēyū [Skeat & Blagden 1906: M157], Jahai ʔamɛ (...) 
+
+ 30 The English word siamang (the large black gibbon mentioned above) comes from the Malay siamang [ˈsi ː əmɑŋ], which, in turn, probably has an Aslian root. Raffles [1821] describes the species as Simia syndactylus , based on specimens collected in Sumatra, and he notes that siamang had a Malay origin. Wilkinson [1901] states that “siyamang” was from “ si-amang, amang having apparently the meaning black”. Since si is the Malay personal definite article, siamang (i.e. Si Amang) would thus take on a fitting gloss of ‘Brother Black’. However, this interpretation is problematic because glossing amang as ‘black’ is hard to support, with the closest definition of the word actually being ‘impurities in tin ore’ [Wilkinson 1932: 626]. 17 A more likely explanation for siamang is that it is an analogical reformation of Central Aslian ʔamaŋ ‘ Symphalangus syndactylus ’ (found in Semnam [Burenhult & Wegener 2009: 306],⁠ and in Temiar [Skeat & Blagden 1906: M159, Means 1998: 20]). 18 The combination of si- with amang thus suggests a folk etymology that employs a somewhat appropriate Malay meaning of the word ‘ amang ’, giving siamang a gloss along the lines of ‘Mr Sooty’. 
+
+ 31 Malay-Menraq exchange declined during the nineteenth and early twentieth centuries, following an increase in slave raiding against the Orang Asli [Ileto 1971: 25, Warren 1977: 167, Robarchek & Dentan 1987: 360]. During this period, much of the direct Malay-Menraq trade contact was replaced by the “silent barter” [Wells 1925, Rambo 1979]. The silent trade took place without face-to-face contact – Malay merchants would leave goods such as sacks of salt or rice at a spot on the forest edge and, sometime later, the Menraq foragers would take the goods, leaving a fair amount of produce such as rattan or resins in their place. This practice had several implications – it put an end to linguistic exchange and also probably constrained the type of goods sold (live apes were probably not suitable to be left unattended). 
+
+ 32 In addition to the slave raiding, the formation of British Malaya during the nineteenth and twentieth centuries saw a degree of homogenisation of the Malay language and there is some evidence of a decline in the Malay use of Aslian loanwords. Some 18 th -century borrowings that are no longer used include cuk ( Hoya sp.), hakek ( Pandanus sp.), kemon ‘son of a brother’ [Benjamin 2012: 152] ⁠, and taleb ‘fungus rhizomorph’ [Bowrey 1701, Wilkinson 1932] ⁠. 
+
+ 3.5.2. Malayisms in European languages 
+
+ 33 As Aslian words entered Malay, so too did Malay loans enter the languages of the West. Trade contact with the Malay world is evident in Indian languages, such as Tamil, and later in European languages, including French and English [Scott 1897, Tan 1998, Fraser Gupta 2008, Tan 2009, van der Sijs 2011, Hoogervorst 2018]. Loanwords are particularly common among the names of the plants and animals that were exported from the Archipelago. One ancient example is the tree kapur ‘ Dryobalanops aromatica ’, which is the source of the aromatic chemical, camphor, which has a wide range of uses, including perfumery, food and medicine (Mal. kapur > Tam. karppūram [University of Madras 1936] > Ar. kafur > 13c. Fr. camphre [CNRTL] > 14c. Eng. ‘caumfre’ [OED3 ‘camphor’]). 
+
+ 34 Similarly, the Malay kakatua ‘cockatoo’ (parrots of the family Cacatuidae) is thought to have accompanied the export of live birds to India since ancient times and gave rise to the Tamil word kākkattuvāṉ [University of Madras 1936, Hoogervorst 2014, Hoogervorst 2015]. The arrival of European traders in the Archipelago saw cockatoos being exported to Europe and cockatoo entering both French and English languages in the seventeenth century (English cacatoes (1634) [OED3], French cacatoua (1652) [CNRTL]). In addition, Kakadu/Cacadu became a common item of German vocabulary [Mahdi 2007: 185-191]. 
+
+ 35 Another animal name, gecko , entered the European lexicon shortly before gibbon . This word (which is said to be imitative of the mating call of the male) was recorded in French in 1734 and then in English in 1774 [OED3: ‘gecko’]. However, the putative Malay etymon gekok is not found in Malaysian or Indonesian, although Wilkinson [1931: 10280] notes it from “Java Malay”. The species Gekko gecko is instead known as tokek in Malay and as tekek in Javanese [Robson & Wibisono 2002: 26971]. Mahdi [2007: 197] suggests that gekok is actually a borrowing or projection from a Dutch word, in turn from Creole Portuguese * jecco. 
+
+ 19 In English there are 253 words with a "Malay" etymon, including 69 items related to flora and 34 re (...) 
+
+ 36 Some of the hundreds of European words with a “Malay” etymon ultimately have an Aslian root⁠. 19 Two English words are already accepted in this category⁠: the Orang Asli ethnonyms Semang (mentioned above) and Senoi (another subgroup of Orang Asli). The OED3 notes that Semang (recorded in English in 1808 as “Samang” ) probably comes via Kedah Malay from an Aslian language meaning ‘human being’ (cf. Semnam smaaʔ ‘human’ [Burenhult & Wegener 2009]). Similarly, Senoi , recorded in English in 1891, comes from Central Aslian sɛnʔoi ‘man’ [OED3]. 
+
+ Conclusion 
+
+ 37 The phonemic, semantic, historical and linguistic evidence offered above is consistent with the hypothesis that gibbon has a root in Northern Aslian kbɔɲ . It is perhaps most likely that the loan followed trade contact and was facilitated by Malay acting as an intermediary: 
+
+ 20 ALINE Dist kbɔɲ /* kəbɔn = 0.1059, * kəbɔn / gibɔn = 0.1111. 
+
+ Fr. gibbon < 18c. Mal. *kəbɔn < N. Aslian kbɔɲ 20 
+
+ 38 In the case of the Grand Gibbon, biogeography suggests that the point of transfer was probably from a location on or north of the Muda river. The fact that kbɔɲ has not been recorded from any of the Northern Aslian varieties presently found here does not exclude the possibility that kbɔɲ was from one of the varieties that are now extinct. Similarly, while the intermediary *kəbɔn has not been found in the Malay corpus, it is possible that it was present in peninsular dialects of eighteenth-century Malay (e.g. in Kedah and Malacca) and went out of use (being replaced by ungka and wakwak ) before being recorded. The transfer from Malay to the language of export probably took place in Kedah or in the city of Malacca, ca. 1750. 
+
+ 39 Dupleix received the gibbon and its name when he was in Pondicherry but there remains a question as to the actual language of export. It is quite possible that one of Dupleix’s English trading partners could have been the source of both. An analogical reformation of kbɔɲ (or of * kəbɔn ) using English “Gibbon” (as suggested by Skeat [1910]) would also explain the phonemic shifts, such as that of /k/ to /g/. Perhaps further historical research will shed light on this possibility. 
+
+ Top of page 
+
+ Bibliography 
+
+ Allen Jane, 1999, “Managing a Tropical Environment: State Development in Early Historical-Era Kedah, Malaysia”, Archeological Papers of the American Anthropological Association 9, 131-150. 
+
+ Baer Adela S., 2016, “The Importance of Tools in Orang Asli Prehistory”, in Endicott Kirk M. (Ed.), Malaysia’s “Original People”: Past, Present and Future of the Orang Asli , Singapore: NUS Press, 153-171. 
+
+ Bastin John, 1990, “Sir Stamford Raffles and the study of natural history in Penang, Singapore and Indonesia”, Journal of the Malaysian Branch of the Royal Asiatic Society 63, 1-25. 
+
+ Bellina Bérénice & Glover Ian, 2004, “The archaeology of early contact with India and the Mediterranean World, from the fourth century BC to the fourth century AD”, in Glover Ian & Bellwood Peter (Eds.), Southeast Asia: From Prehistory to History , London/New York: Routledge Curzon, 68-88. 
+
+ Benjamin Geoffrey, 1976, “Austroasiatic Subgroupings and Prehistory in the Malay Peninsula”, in Jenner Philip N., Thompson Laurence C. & Starosta Stanley (Eds.), Austroasiatic Studies Part I ( Oceanic Linguistics Special Publication 13), Honolulu: The University Press of Hawaii, 37-128. 
+
+ Benjamin Geoffrey, 1983, “Peninsular Malaysia and part of Southern Mainland Southeast Asia, with notes, Maps 36 and 37”, in Wurm Stephen & Hattori Shiro (Eds.), Language Atlas of the Pacific Area , Canberra/Tokyo: Australian Academy of the Humanities / The Japan Academy. 
+
+ Benjamin Geoffrey, 1985, “On pronouncing and writing Orang Asli languages a guide for the perplexed”, Orang Asli Studies Newsletter 4, Dartmouth College. 
+
+ Benjamin Geoffrey, 2012, “The Aslian languages of Malaysia and Thailand: An assessment”, Language Documentation and Description 11, 136-230. 
+
+ Benjamin Geoffrey, 2013, “Why have the peninsular “Negritos” remained distinct?”, Human Biology 85, 445-484. 
+
+ Biotani Luigi et al. , 2006, The Southeast Asian Mammal Databank: A Tool for Conservation and Monitoring of Mammal Diversity in Southeast Asia , Rome: Instituto di Ecologia Applicata. 
+
+ Bishop Nancy M. & Peterson Mary M., 1994, Kensiw Rhyming List , Bangkok: Thammasat University http://www.sealang.net/monkhmer/database/ 
+
+ Biswas Sailendra, 2004, Samsada Bangala abhidhana [ Samsad Bengali-English Dictionary ], (7 th ed.), Calcutta: Sahitya Samsad, also available via Digital Dictionaries of South Asia at https://dsal.uchicago.edu/dictionaries/biswas-bengali/ 
+
+ Blood Evangeline, 2005, Mnong-Vietnamese-English Dictionary , 13 July 2005, Ms., http://www.sealang.net/monkhmer/database/ 
+
+ Blust Robert & Trussel Stephen, 2010, Austronesian Comparative Dictionary , www.trussel2.com/ACD 
+
+ Bowrey Thomas, 1701, A Dictionary: English and Malayo, Malayo and English , London: Sam Bridge. 
+
+ Buffon Georges-Louis Leclerc, 1766, « Nomenclature des Singes, De la dégénération des Animaux », Histoire naturelle générale et particulière, servant de suite à l’histoire des animaux quadrupèdes 14, 92-95.
+
+ Buffon Georges-Louis Leclerc, 1792, “The gibbon, or long-armed ape”, Barr’s Buffon: Buffon’s Natural History, Containing a Theory of the Earth, a General History of Man, of the Brute Creation, and of Vegetables, Minerals, etc. from the French, English tr. 9, London: J. S. Barr. 
+
+ Buffon Georges-Louis Leclerc, Daubenton (L. J. M.) & Desmarest A. G., 1829, « Mammifères », Œuvres complètes de Buffon (n. ed.) 28, Paris: Ladrange et Verdière.
+
+ Bui Phung, 1992, Lexicographical material developed by Prof. Bui Phung, Hanoi University, and provided by Stephen O’Harrow of the University of Hawai’i , Ms., http://www.sealang.net/vietnamese/dictionary.htm 
+
+ Burenhult Niclas, 2005, A Grammar of Jahai , Canberra: Pacific Linguistics. 
+
+ Burenhult Niclas, 2008, “Batek Deq Lexicon”, Semang , DOBES Archive, http://dobes.mpi.nl/projects/semang/ 
+
+ Burenhult Niclas, 2009, “Menriq Lexicon”, Semang , DOBES Archive, http://dobes.mpi.nl/projects/semang/ 
+
+ Burenhult Niclas & Wegener Claudia, 2009, “Preliminary notes on the phonology, orthography and vocabulary of Semnam (Austroasiatic, Malay Peninsula)”, Journal of the Southeast Asian Linguistics Society 1, 283-312. 
+
+ Burkill I. H., 1935, “Monkeys”, A Dictionary of the Economic Products of the Malay Peninsula , London: Crown Agents for the Colonies. 
+
+ Candrakanta , 1962, Candrakanta abhidhana: Asamiyi sabdara butpatti aru udaharanere Asamiya-Ingraji dui bhashara artha thaka abhidhana (2 nd ed.), Guwahati: University of Gauhati, also available via Digital Dictionaries of South Asia at https://dsalsrv04.uchicago.edu/dictionaries/candrakanta/ 
+
+ Chantrupanth Dhanan, 1978, Khmer (Surin)-Thai-English Dictionary , Bangkok: Chulalongkorn University, http://www.sealang.net/monkhmer/database/ 
+
+ Chin, 2019, Chin (Hakha) Dictionary , https://chin-dictionary.com 
+
+ Clifford H. C. & Swettenham F. A., 1894, A Dictionary of the Malay Language: Malay-English , Taiping: Government Printing Office. 
+
+ CNRTL (Centre National de Ressources Textuelles et Lexicales), 2019, « Trésor de la Langue Française informatisé », Ortolang: Outils et Ressources pour un Traitement Optimisé de la LANGue , http://www.cnrtl.fr/definition/ 
+
+ Costello Nancy A., 1971, “Ngữ-vựng Katu: Katu Vocabulary”, Vietnam Montagnard Language Series 5, Saigon: Dept. of Education, http://www.sealang.net/monkhmer/database/ 
+
+ d ’Obsonville Foucher, 1784, Philosophic Essays on the Manners of Various Foreign Animals: With Observations on the Laws and Customs of Several Eastern Nations , ( Holcroft T., tr.), London: John Johnson. 
+
+ Diffloth Gérard, 1976a, Notes ; cited in Diffloth [1980], available via SEAlang Mon-Khmer Languages Project at http://www.sealang.net/monkhmer/database/ 
+
+ Diffloth Gérard, 1976b, “Jah-Hut, an Austroasiatic language of Malaysia”, in Nguyen Dang Liem (Ed.), South-East Asian Linguistic Studies 2, Pacific Linguistics , Series C, 42. 
+
+ Diffloth Gérard, 1979, “Aslian languages and Southeast Asian prehistory”, Federation Museums Journal (new series) 24, 2-16. 
+
+ Diffloth Gérard, 1980, “The Wa Languages”, Linguistics of the Tibeto-Burman Area 5 (2), http://www.sealang.net/monkhmer/database/ 
+
+ Downey Sean S., Sun Guowei & Norquest Peter, 2017, “alineR: an R Package for Optimizing Feature-Weighted Alignments and Linguistic Distances”, The R Journal 9, 138-152. 
+
+ Drage Godfrey, 1907, A few notes on Wa , Rangoon: Government Printing, http://www.sealang.net/monkhmer/database/ 
+
+ Drum , 2008, Karen-English Student Dictionary , Drum Publication Group, available via SEAlang Library Sgaw Karen Dictionary at http://www.sealang.net/karen/dictionary.htm 
+
+ Dunn F. L., 1975, “Rain-Forest Collectors and Traders”, Monographs of the Malaysian Branch, Royal Asiatic Society 5, 1-151. 
+
+ Dunn Michael et al. , 2011, “Aslian linguistic prehistory: a case study in computational phylogenetics”, Diachronica 28 (3), 291-323. 
+
+ Eberhard David M., Simons Gary F., & Fennig Charles D. (Eds.), 2019, Ethnologue: Languages of the World (22 nd ed.), Dallas: SIL International, http://www.ethnologue.com 
+
+ Endicott Kirk, 1979a, Batek Negrito religion: the world-view and rituals of a hunting and gathering people of peninsular Malaysia , Oxford: Oxford University Press. 
+
+ Endicott Kirk, 1979b, “The hunting methods of the Batek Negritos of Malaysia: A problem of alternatives”, Canberra Anthropology 2, 7-22. 
+
+ Fan Peng Fei et al. , 2017, “Description of a new species of Hoolock gibbon (Primates: Hylobatidae) based on integrative taxonomy”, American Journal of Primatology 79, e22631. 
+
+ Ferlus Michel, 1970, Tay Hat Vocabulary , Ms., available via SEAlang Mon-Khmer Languages Project at http://www.sealang.net/monkhmer/database/ 
+
+ Ferlus Michel, 2007, Lexique de racines Proto Viet-Muong , May 2007, Ms., http://www.sealang.net/monkhmer/database/ 
+
+ Fraser Gupta Anthea, 2008, “English words from the Malay world”, Notes & Queries 55, 357-362. 
+
+ Ganang Ricky, Crain Jay, & Pearson-Rounds Vicki, 2006, Kemaloh Lundayeh-English Dictionary , Phillips (Maine): Borneo Research Council. 
+
+ Gittins  S. Paul & Raemakers Jeremy J., 1980, “Siamang, Lar and Agile Gibbons”, in Chivers D. J. (Ed.), Malayan Forest Primates: Ten Years’ Study in Tropical Rain Forest , New York: Plenum, 63-106. 
+
+ Gomes Alberto G., 2007, Modernity and Malaysia: Settling the Menraq Forest Nomads , Abingdon: Routledge. 
+
+ Grigson Caroline, 2016, Menagerie: The History of Exotic Animals in England , Oxford: Oxford University Press. 
+
+ Groves Colin P., 1969, “ Hylobates lar (Linnaeus, 1771), H. entelliodes (I. Geoffroy St. Hilaire, 1842) and H. hoolock (Harlan 1834), (Mammalia, Pongidae): proposal to place these names on the Official List of Specific Names in Zoology”, Bulletin of Zoological Nomenclature 25, 162–164. 
+
+ Haupers Ralph & Haupers Lorraine, 1991, Stieng-English Dictionary , Dallas: Summer Institute of Linguistics. 
+
+ Headley , Robert K., 1997,  Modern Cambodian – English Dictionary , Maryland: Dunwoody Press, http://www.sealang.net/monkhmer/database/ 
+
+ Hoogervorst Tom G., 2014, “PhD Thesis Summary: Southeast Asia in the ancient Indian Ocean World: Combining historical linguistic and archaeological approaches”, Wacana 15 (2), 377-384. 
+
+ Hoogervorst Tom G., 2015, “Tracing the linguistic crossroads between Malay and Tamil”, Wacana 16 (2), 249-283. 
+
+ Hoogervorst Tom G., 2018, “Sailors, Tailors, Cooks, and Crooks: On Loanwords and Neglected Lives in Indian Ocean Ports”, Itinerario 42 (3), 516-548. 
+
+ Howell Signe, 1984, Society and cosmos: Chewong of peninsular Malaysia , Oxford: Oxford University Press. 
+
+ Huffman Franklin, 1971, unpublished vocabulary lists, 495.9, Mon-Khmer, Austronesian general folder, dated 1976, David Thomas Library, Bangkok, Thailand, http://www.sealang.net/monkhmer/database/ 
+
+ Huffman Franklin, 1985, “The Phonology of Chong”, in Ratanakul Suriya et al. (Eds.), Southeast Asian Linguistic Studies Presented to Andre-Georges Haudricourt , Bangkok: Mahidol University, http://www.sealang.net/monkhmer/database/ 
+
+ Hussin Nordin, 2011, “Coastal Port-towns and the Trading Network of the Straits-Malay Traders”, Pertanika Journal of Social Sciences and Humanities 19, 197-216. 
+
+ Ileto Reynaldo C., 1971, Magindanao, 1860-1888: The Career of Datu Uto of Buayan , New York: Cornell University. 
+
+ Isara Choosri, 2007, “Investigating Contact-Induced Language Change: cases of Chung (Saoch) in Thailand and Cambodia”, PhD diss., Mahidol University, http://www.sealang.net/monkhmer/database/ 
+
+ Jurgens Victor, 1949, Nomads of the Jungle , United States of America: United World Films, Inc. 
+
+ Kerr Allen D., 1972, Lao-English Dictionary , Washington, D.C.: Catholic University of America Press, http://www.sealang.net/lao/dictionary.htm 
+
+ Kondrak Grzegorz & Sherif Tarek, 2006, “Evaluation of several phonetic similarity algorithms on the task of cognate identification”, Proceedings of the Workshop on Linguistic Distances , Stroudsburg, PA: Association for Computational Linguistics, 43-50, https://dl.acm.org/citation.cfm?id=1641983 
+
+ Kondrak Grzegorz, 2000, “A new algorithm for the alignment of phonetic sequences”, Proceedings of the 1 st North American Chapter of the Association for Computational Linguistics Conference , Stroudsburg, PA: Association for Computational Linguistics, 288-295, https://dl.acm.org/citation.cfm?id=974343 
+
+ Kruspe Nicole, Burenhult Niclas & Wnuk Ewelina, 2015, “Northern Aslian”, in Jenny Mathias & Sidwell Paul (Eds.), The Handbook of Austroasiatic Languages 1, Leiden: Brill, 419-474. 
+
+ Lim Teckwyn, unpublished field notes , 2013-2017, Ms., author’ s private collection . 
+
+ Loke Vivienne P.W., Lim Teckwyn, & Campos - Arceiz Ahimsa, 2020, “Hunting practices of the Jahai indigenous community in northern peninsular Malaysia”, Global Ecology and Conservation 21: e00815. 
+
+ Lye Tuck-Po, 2004, Changing Pathways: Forest Degradation and the Batek of Pahang, Malaysia , New York: Lexington Books. 
+
+ Mackenzie Ian, 2015, Dictionary of Eastern Penan [216 pp.], http://www.rimba.com/pdindexf/PenDicPrintout2006-2015body.pdf 
+
+ Mahdi Waruno, 2007, Malay words and Malay things: Lexical souvenirs from an exotic archipelago in German publications before 1700 , Frankfurter Forschungen zu Südostasien 3, Wiesbaden: Harrassowitz Verlag. 
+
+ Martineau Alfred, 1929, Dupleix et l’Inde Française (4 vols.), Paris: Société d’Éditions Géographiques, Maritimes et Coloniales.
+
+ Means Natalie, 1998, Temiar-English, English-Temiar Dictionary , Minnesota: Hamline University Press. 
+
+ Mitchell A. H. & Tilson R. L., 1986, “Restoring the balance: traditional hunting and primate conservation in the Mentawai Islands, Indonesia” in Else J. G. & Lee P. C. (Eds.), Primate Ecology and Conservation 2, Cambridge: Cambridge University Press, 249-260. 
+
+ MLC (Myanmar Language Commission), 1996 [1993], Myanmar-English Dictionary , Maryland: Dunwoody Press, http://www.sealang.net/burmese/dictionary.htm 
+
+ Narumol Charoenma, 1980, “The sound systems of Lampang Lamet and Wiangpapao Lua”, MA diss., Mahidol University, http://www.sealang.net/monkhmer/database/ 
+
+ OED3, Oxford English Dictionary , online version 3, Oxford: Oxford University Press, http://www.oed.com 
+
+ Phong Nguyễn Phú, Trần Trí Dõi & Ferlus Michel, 1998, Lexique vietnamien-ruc-français , Paris: Sudestasie, http://www.sealang.net/monkhmer/database/ 
+
+ Pogibenko T. G. & Bùi Khánh-Thê, 1990, Iazyk Ksingmul Materialy sovetsko-v’etnamskoj lingvisticheskoj ekspeditsii 1979 goda , Moscow: Nauka, also available via SEAlang Mon-Khmer Languages Project at http://www.sealang.net/monkhmer/database/ 
+
+ Prentice D. J., 1995, “Timugon Murut”, in Tryon Darrell T. (Ed.), Comparative Austronesian Dictionary: An Introduction to Austronesian Studies , New York: Mouton de Gruyter. 
+
+ R Core Team, 2013, “R: A language and environment for statistical computing”, Vienna: R Foundation for Statistical Computing. 
+
+ Raemaekers Jeremy J. & Chivers David J., 1980, “Socio-Ecology of Malayan Forest Primates”, in Chivers D. J. (Ed.) in Malayan Forest Primates: Ten Years’ Study in Tropical Rain Forest , New York: Plenum, 279-316. 
+
+ Rambo A. Terry, 1979, “Human Ecology of the Orang Asli: A Review of Research on the Environmental Relations of the Aborigines of Peninsular Malaysia”, Federation Museums Journal 24, 41-74. 
+
+ Ray Indrani, 1999, The French East India Company and the Trade of the Indian Ocean: a Collection of Essays , Calcutta: Munshiram Manoharlal. 
+
+ Robarcheck Clayton A. & Dentan Robert Knox, 1987, “Blood drunkenness and the bloodthirsty Semai: Unmaking another anthropological myth”, American Anthropologist 89, 356-65. 
+
+ Robson Stuart & Wibisono Singgih, 2002, Javanese-English Dictionary , Hong Kong: Periplus Editions, http://www.sealang.net/java/dictionary.htm 
+
+ Sao Tern Moeng, 1995, Shan-English Dictionary , available via SEAlang Library Shan Dictionary Resources at http://www.sealang.net/shan/dictionary.htm 
+
+ Scott Charles P. G., 1897, “The Malayan Words in English”, Journal of the American Oriental Society 17. 
+
+ Shorto H. L., 2006, A Mon-Khmer Comparative Dictionary , Sidwell Paul, Cooper Doug & Bauer Christian (Eds.), Canberra: Pacific Linguistics. 
+
+ Sidwell Paul, 2005, “The Katuic Languages: classification, reconstruction and comparative lexicon”, LINCOM studies in Asian linguistics 58. 
+
+ S ingh A. K., 2006, Modern World System and Indian Proto-industrialization: Bengal 1650-1800 , Northern Book Centre: New Delhi. 
+
+ Skeat Walter W. [Jnr.] & Blagden Charles O., 1906, “Comparative Vocabulary of Aboriginal Dialects”, Pagan Races of the Malay Peninsula 2, 507-764. 
+
+ Skeat Walter W. [Snr.], 1910, An Etymological Dictionary of the English Language , Oxford: Clarendon. 
+
+ Smith Kenneth D., 2000, “Sedang Dictionary with English, Vietnamese, and French Glossaries”, Mon-Khmer Studies , Special Volume No. 1, available via SEAlang Mon-Khmer Languages Project at http://www.sealang.net/monkhmer/database/ 
+
+ Smith Ron, 1970, Ngeq Rhyme Dictionary , Ms., Summer Institute of Linguistics microfiche, http://www.sealang.net/monkhmer/database/ 
+
+ Stevens Alan M. & Schmidgall-Tellings  A., 2010, A Comprehensive Indonesian-English Dictionary (2 nd  ed.), Ohio University Press, also available via SEAlang Library Indonesian Resources at http://www.sealang.net/indonesia/dictionary.htm 
+
+ Suriya Ratanakul, 1976, Unpublished Field Notes on Lawa spoken in Ban Pa Pae , cited by Diffloth [1980], http://www.sealang.net/monkhmer/database/ 
+
+ Suwilai Premsrirat, 2002, Thesaurus of Khmu Dialects in Southeast Asia , Bangkok: Mahidol University, http://www.sealang.net/monkhmer/database/ 
+
+ Suzila Tengku Intan T.S., Mohd Yusri  M.N. & Teo Kok Seong, 2015, “Exploring Batek Hep’s flora and fauna”, in Gaol Ford Lumban (Ed.), Interdisciplinary Behavior and Social Sciences: Proceedings of the 3 rd International Congress on Interdisciplinary Behavior and Social Science , Boca Raton: CRC Press, 197-201. 
+
+ Tan Peter, 1998, “Malay loan words across different dialects of English”, English Today 14, 44-50. 
+
+ Tan Siew Imm, 2009, “Lexical Borrowing in Malaysian English: Influences of Malay”, Lexis 3. 
+
+ Tan Siong Kiat & Lim Kok Peng, 2015, Minnan (Hokkien) Animal Names Used in Singapore , Tan Hugh T. W. (Ed.), Singapore: Lee Kong Chian Natural History Museum. 
+
+ TDP (Thai Dictionary Project), 2019, Mary R. Haas Thai Dictionary Project , available via SEAlang Library Thai Dictionary Resources at http://www.sealang.net/thai/dictionary.htm 
+
+ Theraphan L . Thongkum, 2001, Languages of the Tribes in Xekong Province Southern Laos , Bangkok: Chulalongkorn University, also available via SEAlang Mon-Khmer Languages Database at http://www.sealang.net/monkhmer/database/ 
+
+ Tongdot, 2019, TongDot - English to (Chin/Zomi) Myanmar Online Dictionary , https://www.tongdot.com 
+
+ Turvey Samuel T. et al. , 2018, “New genus of extinct Holocene gibbon associated with humans in Imperial China”, Science , 1346-1349. 
+
+ University of Madras, 1936, Tamil Lexicon (6 vols.) (1924-1936), Madras: Diocesan Press. Available via Digital Dictionaries of South Asia at https://dsal.uchicago.edu/dictionaries/ 
+
+ Van Der Sijs Nicoline, 2011, “Import en export van woorden: Tijd voor een balans”, Tijdschrift voor Nederlandse Taal-en Letterkunde 125, 194-200. 
+
+ Van Der Sluys Cornelia M. I., 2000, “Gifts from the immortal ancestors: cosmology and ideology of Jahai sharing”, in Schweitzer P. P., Biesele M. & Hitchcock R. K. (Eds.), Hunters and gatherers in the modern world: conflict, resistance and self-determination , New York: Berghahn, 427-454. 
+
+ Van Gulik Robert Hans, 1967, The gibbon in China: an essay in Chinese animal lore , Leiden: Brill. 
+
+ Van Linschoten Jan Huyghen, 1596, Itinerario: Voyage ofte Schipvaert van Jan Huygen van Linschoten naer Oost ofte Portugaels Indien , Amsterdam: Cornelis, https://books.google.nl/books?id=UbVOAAAAcAAJ 
+
+ Vaughan-Stevens Hrolf, 1892, “Materialen zur Kenntnis der Wilden Stämme auf der Halbinsel Malâka”, Veröffentlichungen aus dem Königliche Museum für Völkerkunde 2, 81-164. 
+
+ Warren James F., 1977, “Slave Markets and Exchange in the Malay World: The Sulu Sultanate, 1770-1878”, Journal of Southeast Asian Studies 8 (2), 162-175. 
+
+ Watson Richard, 2009, Pacoh Lexicon , MS, available via SEAlang Mon-Khmer Languages Project at http://www.sealang.net/monkhmer/database/ 
+
+ Wells Grant C., 1925, Six years in the Malay jungle , New York: Doubleday. 
+
+ Wilkinson R. J., 1901, A Malay-English Dictionary , Singapore: Kelly & Walsh. 
+
+ Wilkinson R. J., 1932, A Malay-English Dictionary (romanised) , Mytilene, Greece: Salavopoulos & Kinderlis. 
+
+ Xiong James B., 2019, Hmnong Dictionary Online [~12,000 entries], http://www.hmongdictionary.us/DBHmong_EnglishSS.php 
+
+ Yager Joanne & Burenhult Niclas, 2017, “Jedek: A newly discovered Aslian variety of Malaysia”, Linguistic Typology 21, 493-545. 
+
+ Top of page 
+
+ Notes 
+
+ 1 I am grateful to Paul Sidwell and to the anonymous Lexis reviewers who gave helpful comments on earlier drafts of this paper. 
+
+ 2 ALINE Dist gibɔ̃ / ʒibɔ̃ = 0.29 . 
+
+ 3 Phonetic representations of gibbon vary, with the standard anglicized pronunciation being [ˈɡɪbən] . 
+
+ 4 ALINE Dist gibɔ/gibɔn = 0.15. 
+
+ 5 The modern range (dark gray) is from Biotani et al. [2006]⁠ and the historical range (light gray) is adapted from Turvey et al. [ 2018]⁠ ; the box shows the location of the Malay Peninsula (Figures 4 & 6). 
+
+ 6 Language codes following ISO 639-5 and ISO 639-3 are provided in brackets. 
+
+ 7 Agglomeration based on average ALINE distances (UPGMA). 
+
+ 8 They cite a comparison with another Northern Aslian form, tabö g ng ‘monkey’ ( Mal. lotong), used for another species of primate ( Presbytis sp.) [Skeat & Blagden 1906: M146].
+
+ 9 The language boundaries are adapted from B enjamin [1983], with the language names following the ISO 639-3 codes: Northern Aslian: btq-Batek, jhi-Jahai, kns-Kensiu, mnq-Menriq; and Central Aslian: jah-Jahut, tea-Temiar, sea-Semai, and Semaq Beri-sza. Light stippled shading represents the Menraq group, the medium shading represents the Senoi group. The dashed arrows follow the trans-peninsular portage routes from Benjamin [2013]⁠. The numbers represent localities where the communities using the word kbɔɲ ‘gibbon’ were recorded: (1) the Semang of Jarum [Skeat & Blagden 1906], (2) the Batek De’ [Endicott 1979a], (3) the Batek [Lye 2004], (4) the Menriq of Kuala Lah [Burenhult 2009], and (5) the Batek of the Tanum Valley [Lim field notes].
+
+ 10 Bibliothèque nationale de France, département Estampes et photographie.
+
+ 11 The species ranges are adapted from Biotani et al. [2006]⁠ ; the numbers represent the locations mentioned in Figure 4. 
+
+ 12 Suzila et al. [2015: 199] give a list of Batek names for some 34 mammal species. The gloss given for kbon , ‘long handed monkey’, could be reasonably interpreted to refer to a gibbon. For example, in Chinese, the gibbon is known as 长臂猿 ‘long-armed ape’ – cháng bì yuán in Standard Chinese and /tə̃ŋ5 pɛi3 ʔuan5/ in Southern Min (Lim Tze Tshen, pers. comm., 19 Aug. 2019). However, other entries in the list by Suzila et al. [2015: 199] are questionable, such as ‘hippopotamus’ for tladas (which should probably be ‘sun bear’ Helarctos malayanus [Lim field notes]) . Furthermore, one of the entries in the list is “/lar/ ‘tail-less gibbon’”. Here, “/lar/” is almost certainly a transcription error, confusing the Latin name “ H. lar ” for a Batek name.
+
+ 13 Stills from t he documentary, Nomads of the Jungle , directed by Victor Jurgens [1949]. 
+
+ 14 The English word orangutan most commonly refers to apes of the genus Pongo – and, as such, was recorded in English in 1654 as orangh-outangh (< Dutch orang-oetan ), and in French orang-outan in 1680 [OED3]. 
+
+ 15 At the time, “Malac” (Malacca) referred both to the entrepôt (then under the control of the Dutch East India Company) and also to the Malay Peninsula more generally. 
+
+ 16 In addition, the Malay cepu-cepu ‘ a small white bird’ [Clifford & Swettenham 1894] is suggestive of Temiar cep ‘bird’ (which is probably imitative, like the English ‘chirp’). 
+
+ 17 This word appears to have an Austroasiatic root and compares with mɛ̤ːŋ ‘black spots’ used by the Bru people of Laos, Vietnam and Thailand; and proto-Katuic and proto-Khmuic *-maŋ ‘soot’ [Sidwell 2005]⁠, perhaps ultimately from proto Mon-Khmer *maŋ ‘night, evening’ [Shorto 2006: sec. R.638.A]⁠.
+
+ 18 Northern Aslian names for siamang include Batek Deq bătēyū [Skeat & Blagden 1906: M157], Jahai ʔamɛŋ [Burenhult 2005: 257], and Mintil batew [Lim field notes]. Suzila et al. [2015: 200] note the Batek Hep /btew/ ‘black-furred gibbon’.
+
+ 19 In English there are 253 words with a "Malay" etymon, including 69 items related to flora and 34 related to fauna [ Tan 1998: 46]; additional Malay loanwords are present in Malaysian English, such ayam ‘chicken’ and ikan bilis ‘anchovies’ [Tan 2009: 11-20]. 
+
+ 20 ALINE Dist kbɔɲ /* kəbɔn = 0.1059, * kəbɔn / gibɔn = 0.1111. 
+ Top of page 
+
+ List of illustrations 
+
+ Title 
+ Figure 1: Natural distribution of gibbons 5 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-1.jpg 
+
+ File 
+ image/jpeg, 120k 
+
+ Title 
+ Figure 2: Phonemic distance between French and native words for ‘gibbon’ 6 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-2.jpg 
+
+ File 
+ image/jpeg, 1000k 
+
+ Title 
+ Figure 3: Phonemic clustering of words for ‘gibbon’ 7 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-3.jpg 
+
+ File 
+ image/jpeg, 196k 
+
+ Title 
+ Figure 4: Records of kbɔɲ ‘gibbon’ with possible routes to Malacca 9 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-4.jpg 
+
+ File 
+ image/jpeg, 100k 
+
+ Title 
+ Figure 5: Original illustrations by Jacques de Sève, showing Buffon’s “Grand Gibbon” (1755) and his “Petit Gibbon” (1763) 10 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-5.jpg 
+
+ File 
+ image/jpeg, 400k 
+
+ Title 
+ Figure 6: Distribution of kbɔɲ and gibbon taxa in the Malay Peninsula 11 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-6.jpg 
+
+ File 
+ image/jpeg, 64k 
+
+ Title 
+ Figure 7: Orang Asli hunters sell a baby Agile Gibbon to a Malay trader in Gerik, Perak 13 
+
+ URL 
+ http://journals.openedition.org/lexis/docannexe/image/4291/img-7.jpg 
+
+ File 
+ image/jpeg, 211k 
+
+ Top of page 
+
+ References 
+
+ Electronic reference
+
+ Teckwyn Lim , “ An Aslian origin for the word gibbon ” ,  Lexis [Online], 15 | 2020, Online since 13 June 2020 , connection on 04 September 2026 . URL : http://journals.openedition.org/lexis/4291; DOI : https://doi.org/10.4000/lexis.4291
+ Top of page 
+
+ About the author 
+
+ Teckwyn Lim 
+ University of Nottingham, Malaysia
+
+ twlim@rescu.com.my 
+ Top of page 
+
+ Copyright 
+
+ The text only may be used under licence CC BY-NC-ND 4.0 . All other elements (illustrations, imported files) may be subject to specific use terms.
+ Top of page 
+
+ Contents 
+
+ Browse
+
+ Index
+
+ Authors 
+
+ Keywords 
+
+ About the journal
+
+ Lexis - Journal in English Lexicology 
+
+ The boards 
+
+ Submit an abstract or an article 
+
+ Guidelines for Submitting Articles 
+
+ Ethical statement 
+
+ Indexing 
+
+ Full text issues
+
+ 26 | 2026 
+ Re-thinking frozenness and variability 
+
+ 25 | 2025 
+ Gender and the Lexicon 
+
+ Words about #1 | 2025 
+ The words about Memory 
+
+ Special issue 3 | 2024 
+ The Impact of Multilingualism on the Vocabulary and Stylistics of Medieval English 
+
+ 24 | 2024 
+ The birth and propagation of Phraseological Units 
+
+ 23 | 2024 
+ The Phonology-Lexicology interface 
+
+ 22 | 2023 
+ Margins and boundaries in linguistic categorization 
+
+ 21 | 2023 
+ The lexicon and pragmatics 
+
+ 20 | 2022 
+ Proper names and the lexicon 
+
+ 19 | 2022 
+ Phraseology and Paremiology in English 
+
+ 18 | 2021 
+ Lexical learning and teaching 
+
+ 17 | 2021 
+ Humor, creativity and lexical creation 
+
+ 16 | 2020 
+ Diachronic Lexical Semantics 
+
+ 15 | 2020 
+ The adjective category in English 
+
+ 14 | 2019 
+ Blending in English 
+
+ 13 | 2019 
+ Lexicon, Sensations, Perceptions and Emotions 
+
+ 12 | 2018 
+ Lexical and Semantic Neology in English 
+
+ 11 | 2018 
+ Lexis in Languages for Specific Purposes (LSP) 
+
+ 10 | 2017 
+ The Expression of Intensity 
+
+ 9 | 2015 
+ Utterer-Centered Studies on Lexical Issues 
+
+ 8 | 2014 
+ Metaphor Studies in the English Language 
+
+ 7 | 2012 
+ Euphemism as a Word-Formation Process 
+
+ 6 | 2011 
+ Diminutives and Augmentatives in the Languages of the World 
+
+ 5 | 2010 
+ Lexicology & Stylistics 
+
+ Special issue 2 | 2010 
+ Theoretical Approaches to Linguistic (Im)politeness 
+
+ 4 | 2010 
+ Corpus Linguistics and the Lexicon 
+
+ Special issue 1 | 2009 
+ Lexicology & Phonology 
+
+ 3 | 2009 
+ Borrowing 
+
+ 2 | 2008 
+ Lexical Submorphemics 
+
+ 1 | 2008 
+ Polysemy 
+
+ All issues 
+
+ Call for papers
+
+ Call for papers – open 
+
+ Call for papers – closed 
+
+ Supplements
+
+ Book reviews 
+
+ Books to be reviewed 
+
+ Guidelines for Submitting Reviews 
+
+ Informations
+
+ Contact 
+
+ Legal information and credits 
+
+ Publishing policies 
+
+ Follow us
+
+ RSS feed 
+
+ Newsletters
+
+ OpenEdition Newsletter 
+
+ In collaboration with
+
+ Journal supported by the Institut des sciences humaines et sociales (InSHS) of the CNRS, 2023-2025
+
+ Electronic ISSN 1951-6215
+
+ Read detailed presentation  
+
+ Site map  – Contact  – Legal information and credits  – Syndication 
+
+ TCU of OpenEdition Journals  – Privacy Policy  – About Cookies  – Report a problem 
+
+ OpenEdition Journals member  – Published with Lodel  – Administration only 
+
+ Search OpenEdition Search 
+ You will be redirected to OpenEdition Search
+
+ In All OpenEdition 
+
+ On Lexis 
+
+ Search 
+
+ English 
+ Français 
+
+ Share 
+ Facebook 
+
+ Twitter 
+
+ "> 
+
+ Home 
+
+ Catalogue of 675 journals 
+ OpenEdition Search 
+
+ All OpenEdition 
+
+ English 
+
+ Français 
+
+ A digital resources portal for the humanities and social sciences OpenEdition 
+ Our platforms OpenEdition Books OpenEdition Journals Hypotheses Calenda 
+ Libraries and institutions OpenEdition Freemium 
+ Our services OpenEdition Search Newsletter 
+ Follow us 
+
+ OpenEdition Books 
+
+ Calenda 
+
+ Hypothèses 
+
+ OpenEdition Journals 
+
+ OpenEdition 
+
+ OpenEdition Search
