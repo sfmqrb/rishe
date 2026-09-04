@@ -1,0 +1,920 @@
+{
+ "pdf_page": 35,
+ "book_page": 5,
+ "verified_by": "claude-fable-5-1",
+ "verified_on": "2026-09-04",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Âdhâmah",
+   "verdict": "confirmed",
+   "modern_form": "Biblical Hebrew אֲדָמָה ʾăḏāmāh 'ground, earth, (red) soil', from the Semitic root ʾ-d-m (cf. אָדֹם ʾāḏōm 'red')",
+   "note": "The root box is right in every part: the language label (Hebrew), the form and the gloss. Klein's article on 'Adam' (KLN:21, the page Nourai cites) is in fact the source of essentially the whole chart, including the Latin homo : humus parallel. Two structural problems in the tree, both about the ROUTE rather than the ultimate origin: (a) node #3 [Latin] is drawn as a child of the Arabic node, i.e. Latin Adam is made a loan from Arabic — chronologically impossible; Latin Adam comes from the Greek Ἀδάμ of the Septuagint/NT and the Vulgate, itself straight from Hebrew, some four centuries before Arabic Ādam is attested. (b) node #6 [Persian] آدم is drawn straight from Hebrew, but Persian took it from Arabic آدم after the conquest (Wiktionary: 'Borrowed from Arabic آدَم (ʔādam), borrowed from Biblical Hebrew אָדָם'), which is exactly the Arabic node #2 already on the chart. The 'Adams > آدامس' branch, which looks like a joke, is genuine: Persian آدامس is the brand name of Thomas Adams' New York chewing gum. Checked against the 200-dpi render of pdf page 35: the JSON reproduces the printed boxes faithfully, so nothing here is an extraction error.",
+   "sources": [
+    "https://www.etymonline.com/word/Adam",
+    "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D9%85",
+    "https://en.wiktionary.org/wiki/%D7%90%D7%93%D7%9E%D7%94"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:21",
+     "status": "supports",
+     "note": "KLN_1966.txt \\f-leaf 22 (= printed pp. 20-21, running heads 'adamant | 20' / 'adamantean | adept') s.v. 'Adam': \"Heb. Adam, lit. 'man', usually with the def. art., ha-adam, 'the man', prop. 'the one formed from adamah (i.e. the ground)'. See Gen. 2:7 ... For the connection between Heb. adamah, 'ground, earth', and adam, 'man', cp. L. homo, 'man', humanus, 'human', which are rel. to humus, 'earth, ground, soil'.\""
+    },
+    {
+     "ref": "AHD:14",
+     "status": "not_checked",
+     "note": "Nourai's AHD page numbers below 1500 are pages of the main dictionary text of the 1975/76 American Heritage Dictionary, New College Edition, which is not open online; p. 14 falls in the 'ad-' range, so the entry 'Adam' is the plausible target. The local AHD file (AHD_watkins1985.txt) is only Watkins' Indo-European Roots appendix and has no Semitic material; its root dhghem- 'earth' does carry the same Latin homo/humus/'earthling' idea Klein invokes for adam : adamah."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "leaf 22 = p. 21 s.v. Adam",
+     "stance": "supports",
+     "note": "\"prop. 'the one formed from adamah (i.e. the ground)'\" — Klein states the root box exactly."
+    },
+    {
+     "src": "Etymonline",
+     "where": "entry 'Adam'",
+     "stance": "supports",
+     "note": "\"from Hebrew adam 'man', literally '(the one formed from the) ground' (Hebrew adamah 'ground')\"."
+    },
+    {
+     "src": "Wiktionary",
+     "where": "אדמה",
+     "stance": "partial",
+     "note": "Gives אֲדָמָה as a feminine noun 'earth, soil, land' under the Semitic root א־ד־ם, but the page does not itself spell out the adam : adamah : adom link."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Hebrew",
+     "words": "Âdam, Âdâm",
+     "verdict": "confirmed",
+     "derivation": "Biblical Hebrew אָדָם ʾāḏām 'man, mankind', normally with the article הָאָדָם hā-ʾāḏām 'the man', is the same ʾ-d-m root as אֲדָמָה ʾăḏāmāh 'ground'; the etymology is given inside the text itself at Gen. 2:7, wa-yyīṣer YHWH ʾĕlōhīm ʾeṯ-hā-ʾāḏām ʿāp̄ār min-hā-ʾăḏāmāh 'the LORD God formed the man of dust from the ground'. The colour sense 'red' (ʾāḏōm 'red', dām 'blood') belongs to the same root and gives the 'red soil' of Nourai's gloss. The pattern is exactly the Latin homo : humus one that Klein and Watkins cite for PIE *dʰǵʰem- 'earth' > *(dʰ)ǵʰm-on- 'earthling'.",
+     "sources": [
+      "https://www.etymonline.com/word/Adam",
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:21",
+       "status": "supports",
+       "note": "KLN_1966.txt \\f-leaf 22 (= printed pp. 20-21, running heads 'adamant | 20' / 'adamantean | adept') s.v. 'Adam': \"Heb. Adam, lit. 'man', usually with the def. art., ha-adam, 'the man', prop. 'the one formed from adamah (i.e. the ground)'. See Gen. 2:7 ... For the connection between Heb. adamah, 'ground, earth', and adam, 'man', cp. L. homo, 'man', humanus, 'human', which are rel. to humus, 'earth, ground, soil'.\""
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 22 = p. 21 s.v. Adam",
+       "stance": "supports",
+       "note": "\"Heb. Adam, lit. 'man' ... prop. 'the one formed from adamah (i.e. the ground)'.\""
+      },
+      {
+       "src": "FVQ",
+       "where": "FVQ_pages.txt leaf 69 = printed p. 51 (printed = leaf − 17)",
+       "stance": "supports",
+       "note": "Jeffery, closing the article آدم: \"The origin of course is the Heb. אדם, and there is no reason why the name should not have come directly from the Jews.\""
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'Adam'",
+       "stance": "supports",
+       "note": "Same derivation, plus the note that Hebrew adam is 'man' in the generic sense."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Arabic",
+     "words": "Âdam",
+     "verdict": "confirmed",
+     "derivation": "Arabic آدَم ʾĀdam is a religious-register borrowing of Hebrew אָדָם, reaching Arabia before Islam: Jeffery notes that the name 'occurs in the Safaitic inscriptions' and 'was known to the poet ʿAdī b. Zayd', so it was familiar to Muhammad's contemporaries along with the creation story; it then entered the Qurʾān (II.29-35, III.30, VII.10-33 etc.). Phonetically the Hebrew qāmeṣ-ʾālep̄ was rendered with madda, ʾā-, giving آدم; unlike Hebrew it is only ever a personal name in Arabic, never 'man' in general. Early Arab philologists (al-Jawālīqī, Muʿarrab 8) tried to make it native, but al-Zamakhsharī and al-Bayḍāwī on II.29 already 'admit that it is a foreign word'.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVQ:51",
+       "status": "supports",
+       "note": "FVQ_pages.txt leaf 68-69 = printed pp. 50-51 (printed = leaf − 17), article \"آدم (Adam)\": \"It is used always as an individual name and never as the Heb. and Phoen. אדם for man in general ... There are various theories as to the derivation of the name ... but all of them are quite hopeless ... Zam. and Baid., on ii, 29, admit that it is a foreign word\", and on p. 51 \"The origin of course is the Heb. אדם, and there is no reason why the name should not have come directly from the Jews, though there was a tradition that the word came from Syriac.\" This is precisely Nourai's Hebrew → Arabic arrow."
+      },
+      {
+       "ref": "VDQ:106",
+       "status": "not_checked",
+       "note": "VDQ = Badreh'i's Persian translation of Jeffery's FVQ (Toos, Tehran 1372/1993). refs_online.json lists it only as a noorlib page-image viewer (noorlib.ir/book/view/12868), which is JavaScript-driven and not fetchable; there is no local copy. Since VDQ is a translation of FVQ, the checked FVQ:51 covers the same claim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "pp. 50-51 s.v. آدم",
+       "stance": "supports",
+       "note": "See ref_check: 'The origin of course is the Heb. אדם'."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "آدم, Arabic section",
+       "stance": "supports",
+       "note": "\"Terminology of the religious sphere borrowed from Hebrew אָדָם (āḏā́m, 'man, person').\""
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 22 = p. 21",
+       "stance": "silent",
+       "note": "Klein treats only the Hebrew and English sides of the name; he says nothing about Arabic آدم."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Latin",
+     "words": "",
+     "verdict": "disputed",
+     "derivation": "An empty pass-through box: Latin Adam, the indeclinable biblical name. The word itself is real — it is the form of the Vulgate (Gen. 2-5, Rom. 5:14) — but the arrow drawn into it is wrong. Latin got the name from the Greek Ἀδάμ of the Septuagint (3rd-2nd c. BCE) and of the New Testament, which transliterated Hebrew אָדָם directly; the Vetus Latina and then Jerome (c. 400 CE) simply kept the Greek spelling. Arabic آدَم, Nourai's drawn parent, is first attested in the Safaitic/pre-Islamic period and became a written language word only in the 7th c. CE, i.e. centuries after Latin Adam was in use, and no modern authority routes any European form of the name through Arabic. The correct chain is Hebrew (#1) → Greek Ἀδάμ → Latin Adam → English.",
+     "sources": [
+      "https://www.etymonline.com/word/Adam",
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this box; there is nothing to check."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 22 = p. 21 s.v. Adam",
+       "stance": "contradicts",
+       "note": "Klein derives English Adam straight from 'Heb. Adam' with no Arabic and no Latin intermediary in the etymology line."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'Adam'",
+       "stance": "contradicts",
+       "note": "\"masc. proper name, in Old Testament the name of the first man, from Hebrew adam 'man'\" — again no Arabic link."
+      },
+      {
+       "src": "WEB",
+       "where": "WEB_vol1.txt, 'Adam's ale / Adam's apple / Adam's needle' group",
+       "stance": "silent",
+       "note": "Webster lists the English Adam- compounds but gives no transmission route, so it neither supports nor refutes the Arabic → Latin arrow."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "Adam; Adams",
+     "verdict": "confirmed",
+     "derivation": "English Adam is the biblical name taken over unchanged from Latin/Greek Adam (so the Latin → English arrow itself is right; it is the Arabic → Latin arrow above it that fails). Adams is the ordinary English patronymic surname, Middle English Adam + genitival -s 'son of Adam' (beside Adamson, Adkins, Adcock from the pet form Ad(d)y); Klein records the same name-stock on this page (Adamite, adamite 'named after the mineralogist M. Adam'). Nourai's NOTE 'Name of a gum manufacturer' is correct and is the point of the branch: Thomas Adams (1818-1905) of New York, who from 1869-71 turned Mexican chicle into 'Adams New York Gum', the first mass-marketed chewing gum.",
+     "sources": [
+      "https://www.etymonline.com/word/Adam",
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D8%A7%D9%85%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:21",
+       "status": "partial",
+       "note": "KLN_1966.txt leaf 22 = p. 21 gives 'Adam' (from Heb. Adam), 'Adam-ite', 'adamite ... named after the mineralogist M. Adam' and 'Adam's apple', so the page supports the English name; it says nothing about the surname Adams or about the gum manufacturer, and it derives the English name from Hebrew, not from Arabic via Latin."
+      },
+      {
+       "ref": "AHD:14",
+       "status": "not_checked",
+       "note": "1975/76 AHD main-dictionary page, not open online (see the root-level ref_check); only Watkins' root appendix is on disk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 22 = p. 21",
+       "stance": "partial",
+       "note": "Has Adam, Adamite, adamite, Adam's apple; no 'Adams'."
+      },
+      {
+       "src": "FSD",
+       "where": "FSD_vol1.txt lines 7220-7261, 'Ad'am-and-Eve', 'Adam's ale', 'Ad'am-ite'",
+       "stance": "partial",
+       "note": "Funk & Wagnalls has the Adam- word family ('Adam's ale [Colloq.], water'), but no surname or gum entry."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'Adam'",
+       "stance": "supports",
+       "note": "\"The Middle English pet form was Addy, whence surnames Addison, Adkin(s), Adcock\" — the same name-stock the surname Adams belongs to."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "âdâms «آدامس»",
+     "verdict": "confirmed",
+     "derivation": "Persian آدامس ādāms 'chewing gum' is a genericised trademark: the Adams Chewing Gum Company's product reached Iran in the first half of the 20th century and the brand name on the packet became the common noun, exactly as ژیلت for a razor or ریمل for mascara. Wiktionary: 'Borrowed from English Adams, a historical American brand of chewing-gum, named after its inventor Thomas Adams.' The Persian form keeps the English stress-pattern and adds no ending; final -s is simply the English genitival -s of the surname. So the surname → Persian noun step is right, and it is the only link on this branch that no one disputes.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D8%A7%D9%85%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai cites no reference for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "grep 'آدامس' in MON_part1.txt / MON_part2.txt",
+       "stance": "silent",
+       "note": "Not a single hit: Mo'in's Farhang-e Farsi (1963) does not carry the word, which is unsurprising for a mid-century trade name."
+      },
+      {
+       "src": "BQT",
+       "where": "grep 'آدامس' in BQT_v1_pages.txt",
+       "stance": "silent",
+       "note": "No hit; Borhan-e Qateʿ is a 17th-c. dictionary and could not have it."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "آدامس",
+       "stance": "supports",
+       "note": "\"Borrowed from English Adams, a historical American brand of chewing-gum, named after its inventor Thomas Adams.\""
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "Âdam «آدم» (extra: آدمک ، آدمیزاد)",
+     "verdict": "plausible",
+     "derivation": "Persian آدم ādam 'Adam; man, human being' is genuinely of Hebrew origin, so Nourai's box is substantively right, but the arrow skips a link: Persian borrowed the word from Arabic آدَم after the Islamic conquest, not from Hebrew directly — Wiktionary states 'Borrowed from Arabic آدَم (ʔādam), borrowed from Biblical Hebrew אָדָם (āḏā́m), from Proto-Semitic *ʔadam-', and the Arabic node #2 is already drawn one box above. The Arabic-mediated route explains the meaning: in Persian, as in Qurʾānic Arabic, آدم is both the proper name and (unlike Classical Arabic) a common noun 'person', whence the diminutive آدمک ādamak 'little man, puppet, figurine' with the Persian diminutive suffix -ak, and آدمیزاد ādamīzād 'human being, lit. Adam-born' with the Persian nisba -ī plus زاد zād 'born' (< MP zād, past stem of zādan) — both hybrid Arabic-stem + Persian-affix formations that can only have been made after the word was already naturalised in Persian. The Ḥāfeẓ line quoted in the box (آدمی در عالم خاکی نمی‌آید به دست) plays on exactly the ādam 'man' / خاکی 'of earth' pair that motivates the Hebrew etymology.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON5:12",
+       "status": "not_checked",
+       "note": "Moʿin vol. 5 = the first aʿlām (proper names) volume; p. 12 is where آدم would fall alphabetically, so the citation is entirely plausible, but only Moʿin's lexicon volumes (1-3) are on disk as MON_part1/part2 — the aʿlām volumes are not, and vajehyab/abadis serve the lexicon text only. Grepping آدم in the local Moʿin text returns 100+ hits in the lexicon volumes (آدم، آدمک، آدمیزاد are all lemmatised there), which corroborates the word but not the cited page."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt / MON_part2.txt, grep آدم (100 + 62 hits)",
+       "stance": "partial",
+       "note": "Moʿin's lexicon carries آدم and its derivatives, but the accessible volumes give no etymological footnote for it."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "آدم, Persian section",
+       "stance": "partial",
+       "note": "\"Borrowed from Arabic آدَم (ʔādam), borrowed from Biblical Hebrew אָדָם\" — same ultimate source as Nourai, but one link (Arabic) that his arrow bypasses."
+      },
+      {
+       "src": "FVQ",
+       "where": "pp. 50-51",
+       "stance": "supports",
+       "note": "Establishes the Arabic stage that Persian must have gone through: the name was current in Arabic, in the Qurʾān, before Persian could take it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Ag, Agros",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₂eǵ- 'to drive, lead' (Pokorny aǵ- 4), with the derivative *h₂éǵ-ro- 'field, pasturage'",
+   "note": "Root box, language label and both glosses are exactly Pokorny's, and Nourai's page number is right on the nose: IEW p. 4 opens \"aǵ- ,treiben' ... ,schwingen', in Bewegung setzen, führen\", and p. 6 of the same article has \"aǵ-ro-s ,Feld, Flur' (zu *aǵō wie Triften treiben, also ursprünglich ,Ort, wo das Vieh hinausgetrieben wird, Weide')\" — i.e. literally Nourai's 'pasture (where cattle is driven)'. In laryngeal notation the root is *h₂eǵ-. The chart is unusually accurate; the reservations are all local. (a) In node #3 'ajras' is Sanskrit ájra-, not Avestan — Pokorny lists it as 'Ai.' (Altindisch); the two other words in that box, aštrā- and ašaya, are Avestan. (b) 'ašaya : of both wings?' is Bartholomae's/Pokorny's genitive dual 'der beiden Achseln' ('of the two shoulders'), the 'wing' sense belonging to Latin āla < *aksla. (c) 'ambractus' in node #11 is a misprint in the book (confirmed on the 200-dpi render of pdf p. 35, so not an extraction error) for ambactus, which is moreover Gaulish/Celtic, borrowed into Latin. (d) Watkins/AHD splits the 'axle, axis, āla' material off as a separate root aks-, though he flags it '[In Pok. ag- 4]', so Nourai's grouping follows Pokorny, not AHD. The Iranian branch — Av. az-/azaiti, tara.azu > MP tarāzūg > NP tarāzū — is the strongest part of the chart and is independently confirmed by Asbaghi, Moʿin's footnote in Borhān-e Qāṭeʿ and Wiktionary.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
+    "https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D8%A7%D8%B2%D9%88"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:4",
+     "status": "supports",
+     "note": "POK_01.txt \\f-leaf 13 = printed p. 4 (leaf = p + 8): headword \"ag-  ,treiben' (eigentlich wohl ,mit geschwungenen Armen treiben'), ,schwingen', in Bewegung setzen, fuehren\"; \"ago: ai. ajati ,treibt', av. azaiti ,treibt, fuehrt weg'\"; and at the foot of the same page \"Als idg. Instrumentalnomen auf -tra hierher ai. astra ,Stachel zum Viehantreiben', av. astra ,Peitsche, Geissel'\". p. 6 of the same article has \"ag-ro-s ,Feld, Flur' (zu *ago wie Triften treiben, also urspruenglich ,Ort, wo das Vieh hinausgetrieben wird, Weide')\" and \"av. asaya Gen. Du. ,der beiden Achseln'\"."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "POK",
+     "where": "POK_01.txt leaf 13-15 = printed pp. 4-6",
+     "stance": "supports",
+     "note": "POK_01.txt \\f-leaf 13 = printed p. 4 (leaf = p + 8): headword \"ag-  ,treiben' (eigentlich wohl ,mit geschwungenen Armen treiben'), ,schwingen', in Bewegung setzen, fuehren\"; \"ago: ai. ajati ,treibt', av. azaiti ,treibt, fuehrt weg'\"; and at the foot of the same page \"Als idg. Instrumentalnomen auf -tra hierher ai. astra ,Stachel zum Viehantreiben', av. astra ,Peitsche, Geissel'\". p. 6 of the same article has \"ag-ro-s ,Feld, Flur' (zu *ago wie Triften treiben, also urspruenglich ,Ort, wo das Vieh hinausgetrieben wird, Weide')\" and \"av. asaya Gen. Du. ,der beiden Achseln'\"."
+    },
+    {
+     "src": "AHD",
+     "where": "AHD_watkins1985.txt s.v. 'ag-' and 'agro-'",
+     "stance": "supports",
+     "note": "\"ag-. To drive. 1. Latin agere ... 2. Greek agein, to drive, lead ... [Pok. ag- 4]\"; \"agro-. Field. Derivative of ag-, 'to drive' (< 'place to which cattle are driven'). [In Pok. ag- 4.]\" — the same two-part root box Nourai draws."
+    },
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny I 35 ff. (the pre-1959 version of the same article, referenced by Pokorny's own 'WP. I 35' back-references)",
+     "stance": "supports",
+     "note": "Pokorny's IEW article is the revision of Walde-Pokorny I; the local WLD volumes are Bd. 1-3 with heavy OCR noise and the aǵ- article could not be located by grep, so the support is indirect, through Pokorny's own citation."
+    },
+    {
+     "src": "KLN",
+     "where": "leaf 31 = p. 37 s.v. agent, adj.",
+     "stance": "supports",
+     "note": "\"I.-E. base *ag-, 'to drive, lead'\" with the Avestan, Sanskrit, Greek, Latin, Armenian, Tocharian and Norse cognates."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "az; azaiti; tara-âz, tara-âzu",
+     "verdict": "confirmed",
+     "derivation": "Avestan az- 'to drive, lead' is the plain thematic present of PIE *h₂eǵ-: 3sg. YAv. azaiti (Yt 10.38 etc.), exactly matching Skt. ájati and Gk. ἄγει, Lat. agit. Cheung reconstructs Proto-Iranian *Haz 'to drive, lead' for it. The compound tara.azu- is 'that which drives/carries across' — tarō/tara- 'across, beyond' (PIE *terh₂-, cf. Skt. tiráḥ, Lat. trāns) + the -u- stem of az-, i.e. the beam that swings the load over: hence 'balance, scales'. Nourai's gloss 'balance driver, scale' is a literal rendering of that compound. It is this word, not the simple verb, that carries the Persian branch: Av. tara.azu > MP tarāzūg > NP tarāzū.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
+      "https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D8%A7%D8%B2%D9%88"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:4",
+       "status": "supports",
+       "note": "POK_01.txt leaf 13 = p. 4: \"agō: ai. ajati ,treibt', av. azaiti ,treibt, führt weg', arm. acem ,führe, bringe'; gr. ἄγω ,führe', lat. agō ,treibe, führe'\" — Nourai's az/azaiti verbatim."
+      },
+      {
+       "ref": "KLN:37",
+       "status": "supports",
+       "note": "KLN_1966.txt \\f-leaf 31 (the printed numeral '37' stands in the middle of the leaf) s.v. 'agent, adj.': I.-E. base *ag-, 'to drive, lead', whence Gk. agein, 'to lead', 'OI. ajati, \"drives\", ajirah, \"moving, active\", Avestic aza'ti [= azaiti], \"drives\", Toch. A ak-, B ak-, \"to travel, lead\", Arm. acem, ON. aka'; the 'Cp.' list runs 'acorn, acre, act, ... agenda, agile, agitate, -agogue, agony, agrarian, agriculture, agro-, ... aisle, ala, ambages, ambassador, ... axilla, axiom, axis, axle, ... embassy, exact, examen, exigent, ... navigate, ... strategy, synagogue, transact'. Klein's cognate list explicitly includes \"Avestic aza'ti, 'drives'\"."
+      },
+      {
+       "ref": "PLA:194",
+       "status": "supports",
+       "note": "PLA_pages.txt leaf 209 = printed p. 194 (printed = 1-based leaf − 15), running heads 'tabaristān | ṭirāzdārān'. Under طرازداران ṭirāzdārān Asbaghi writes: \"'Futteral der Waage' pers. ترازودران tarāzudārān, mp. tarāzūk 'Balance, Gleichgewicht', air. *tarāz- = skr. tulā + aw. az 'zugeben' [read: 'ziehen/treiben'], tk. terazi, serb., kl.russ. terezy.\" Asbaghi thus derives the whole tarāzū family from Avestan az-, which is exactly Nourai's arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "BRT.txt, grep for 'tarō.azu' / '.azu'",
+       "stance": "not_found",
+       "note": "Bartholomae's AiW does have the compound, but the OCR of this copy is too corrupt to locate it by grep (all diacritics are mangled); BRT is however clear on the base verb and on aštrā- (see node #3)."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "CHEUNG.txt lines 11797 ff., s.v. *Haz",
+       "stance": "supports",
+       "note": "\"*Haz 'to drive, lead'. AVESTAN: az- 'to lead' ... Pres. them.: IND. 3sg. YAv. azaiti\" — the Proto-Iranian etymon of Nourai's az/azaiti. Cheung's New-Iranian list does not, however, include tarāzū."
+      },
+      {
+       "src": "PLA",
+       "where": "p. 194",
+       "stance": "supports",
+       "note": "See ref_check: 'mp. tarāzūk ... aw. az'."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "ترازو",
+       "stance": "supports",
+       "note": "Middle Persian tlʾcwk' /tarāzūg/ 'borrowed from Avestan 𐬙𐬀𐬭𐬀.𐬀𐬰𐬎 (tara.azu)' — Nourai's tara-âzu is a real, cited Avestan lemma."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "tarâz «تراز ، طراز»; tarâzu «ترازو»",
+     "verdict": "confirmed",
+     "derivation": "Avestan tara.azu- 'balance' gave Middle Persian tarāzūg (Book Pahlavi tlʾcwk'), with the regular MP -ūg suffix on the -u- stem; loss of the final -g in the 9th-10th c. gives New Persian ترازو tarāzū 'balance, scales'. The shorter تراز tarāz is the same stem without the -ū(g), used for 'level, evenness, plumb' and hence 'well-proportioned, well-shaped' — Moʿin lists تراز as a builder's tool, 'آلتی است که به توسط آن پستی و بلندی سطحی را معلوم کنند' ('an instrument by which the unevenness of a surface is determined'). The second spelling طراز in Nourai's box is the Arabic re-spelling: Persian tarāz was borrowed into Arabic as ṭirāz with emphatic ṭ (Arabic having no native /t/ + /r/ + long ā pattern for this word), in the sense 'embroidered border, ornamental band, the royal-workshop textile', and came back into Persian in that spelling; Moʿin marks his تراز 3 as '[= طراز، معرّب]', i.e. explicitly an Arabicised doublet. The word travelled on from Persian to Ottoman Turkish terazi and thence to Serbian teresije, Ukrainian terezy, Russian tereza, Romanian terezie.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D8%A7%D8%B2%D9%88",
+      "https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D8%A7%D8%B2"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:480",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 706 = printed p. 480 (the preceding leaf carries the continuation note 'بقیه از صفحهٔ ۴۷۸'). The entry ترازو is there, and Moʿin's etymological footnote 1 reads: 'پهلوی tarāzūk، ایرانی باستان *tarāzu-… از سانسکریت tulā… از aj سانسکریت (راهنمایی کردن، راندن، پیش‌بردن)' — 'Pahlavi tarāzūk, Old Iranian *tarāzu-, cf. Sanskrit tulā, from Sanskrit aj- (to lead, to drive, to push forward)'. That is Nourai's arrow, root and all."
+      },
+      {
+       "ref": "PLA:194",
+       "status": "supports",
+       "note": "PLA_pages.txt leaf 209 = p. 194: \"طراز ṭirāz: 'Stickerei, Rand, Saum' pers. طراز tarāz bzw. تراز taraz\" and, under ṭirāzdārān, \"mp. tarāzūk 'Balance, Gleichgewicht' ... aw. az\". Asbaghi confirms both the تراز/طراز identity and the Avestan az- etymology."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 1 leaf 706 = p. 480, s.v. ترازو with Moʿin's footnote",
+       "stance": "supports",
+       "note": "See ref_check — 'پهلوی tarāzūk، ایرانی باستان *tarāzu-'."
+      },
+      {
+       "src": "MON",
+       "where": "MON_part1.txt lines 39504-39549: four homographs تراز plus ترازو",
+       "stance": "supports",
+       "note": "تراز 4 '(بنا، معم.) آلتی است که به توسط آن پستی و بلندی سطحی را معلوم کنند' = Nourai's 'level'; تراز 3 '[= طراز، معرّب] ریشت، آرایش، نقش و نگار پارچه، زردوزی پارچه' = the Arabicised ornament sense; ترازو '(فز.) آلتی که …' = 'balance'."
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'tarâz', 'razu' in HRN.txt",
+       "stance": "silent",
+       "note": "Horn's Grundriss has no article on tarāzū under any of the spellings tried (tarâzû, tarazu, taraz); the only 'razu' hit is aw. razura-, unrelated."
+      },
+      {
+       "src": "HUB",
+       "where": "grep 'tarâz', 'tirâz', 'razu' in HUB.txt",
+       "stance": "silent",
+       "note": "No hit; Hübschmann's Persische Studien does not treat the word."
+      },
+      {
+       "src": "LKT",
+       "where": "LKT.txt no. 2029",
+       "stance": "supports",
+       "note": "\"2029. Pers. tārāzū: 'Wage', tk. ebenso terazi; hieraus serb. teresije, klruss. terezy, russ. tereza 'Waage'; rum. tirizie, terezie 'Wagschale'.\" Lokotsch confirms Persian as the source but says nothing about the Avestan prehistory."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "ترازو and طراز",
+       "stance": "supports",
+       "note": "ترازو: 'from Middle Persian tlʾcwk' (tarāzūg), borrowed from Avestan tara.azu'; طراز (Persian): 'Arabic respelling of a word which is originally a Persian loan into Arabic'."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Avestan",
+     "words": "ajras; aštrâ 1; ašaya",
+     "verdict": "plausible",
+     "derivation": "All three words really belong to PIE *h₂eǵ- as Pokorny sets it out on pp. 4-6, but the box mixes languages and one gloss is off. (i) 'ajras' is Vedic Sanskrit ájra- 'plain, field, open country' — Pokorny p. 6 files it as 'Ai. ájra-ḥ ,Fläche, Flur, Gefilde'' under aǵ-ro-s, beside Gk. ἀγρός and Lat. ager; it is not an Avestan word (the Avestan member of that group is azra- in azrō.daiδīm 'going after prey', Yt 14). So the language label is wrong for this word. (ii) aštrā- 'whip, goad' IS Avestan and is the instrument-noun in *-trā of the root: Pokorny p. 4, 'Als idg. Instrumentalnomen auf -trā hierher ai. aṣṭrā ,Stachel zum Viehantreiben', av. aštrā ,Peitsche, Geißel''. Nourai's '1' is his homograph number. (iii) ašaya is Avestan, but it is the genitive DUAL of aša- 'shoulder, armpit' — Pokorny p. 6, 'av. ašaya Gen. Du. ,der beiden Achseln'' — under the extension aǵes-/aks- 'axle, shoulder'; the '(wings?)' gloss belongs to its Latin cognate āla < *aksla, whose 'wing' sense is secondary to 'shoulder'.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:4",
+       "status": "partial",
+       "note": "POK_01.txt leaf 13 = p. 4 has aštrā ('av. aštrā ,Peitsche, Geißel''), but ajra- and ašaya are two pages further on, leaf 15 = p. 6 ('Ai. ájra-ḥ ,Fläche, Flur, Gefilde''; 'av. ašaya Gen. Du. ,der beiden Achseln''). So the cited page supports one of the three words directly and the other two only through the continuation of the same article — and it flatly labels ájra- as Old Indic, not Avestan."
+      },
+      {
+       "ref": "KLN:37",
+       "status": "partial",
+       "note": "KLN_1966.txt \\f-leaf 31 (the printed numeral '37' stands in the middle of the leaf) s.v. 'agent, adj.': I.-E. base *ag-, 'to drive, lead', whence Gk. agein, 'to lead', 'OI. ajati, \"drives\", ajirah, \"moving, active\", Avestic aza'ti [= azaiti], \"drives\", Toch. A ak-, B ak-, \"to travel, lead\", Arm. acem, ON. aka'; the 'Cp.' list runs 'acorn, acre, act, ... agenda, agile, agitate, -agogue, agony, agrarian, agriculture, agro-, ... aisle, ala, ambages, ambassador, ... axilla, axiom, axis, axle, ... embassy, exact, examen, exigent, ... navigate, ... strategy, synagogue, transact'. Klein's list has none of aštrā, ajra- or ašaya; it supports the root and the verb, not this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "leaf 13-15 = pp. 4-6",
+       "stance": "partial",
+       "note": "See ref_check: supports aštrā and ašaya, contradicts the 'Avestan' label on ajras."
+      },
+      {
+       "src": "BRT",
+       "where": "BRT.txt line 6492",
+       "stance": "supports",
+       "note": "\"j. aštrā- f. 'Geisel, Peitsche, Knute'\" with the Yašt 10.113 attestation (yat bərəzəm barat aštrā vācim 'when the whip cracks loud'); Bartholomae also has aštrā-δāt- 'guiding with the whip' (Yt 10.112) and x'aēwayat.aštrā- 'who makes the whip whirl' (Yt 5.130)."
+      },
+      {
+       "src": "AHD",
+       "where": "AHD_watkins1985.txt s.v. 'agro-' and 'aks-'",
+       "stance": "partial",
+       "note": "Watkins keeps agro- 'field' as a derivative of ag- but gives only the Germanic/Latin/Greek members; his aks- 'Axis' (with 'Latin āla (< *axla), wing, upper arm') is marked '[In Pok. ag- 4]', confirming Pokorny's grouping of the ašaya/āla material under this root."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Pahlavi",
+     "words": "aštr, aštar",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian astar/aštar 'whip' (Book Pahlavi spelling ʾštl) continues Avestan aštrā- directly: the Old Iranian instrument-noun *aš-trā- loses its final vowel in the Middle Persian collapse of inflection, and the resulting cluster -štr is resolved by an anaptyctic vowel, giving astar — the same development as in Av. vastra- 'garment' > MP wastar, Av. sāstar- > MP sāstar. MacKenzie's Concise Pahlavi Dictionary lists it separately from the homograph astar 'sin' (< Av. ā + star-). The Šāyast nē Šāyast, the text Nourai's source SNS glosses, uses both astar and the phrase astar burdan '(to) carry/apply the whip' in its penance passages, which is where a whip-word naturally belongs in Zoroastrian legal literature.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "SNS:35",
+       "status": "supports",
+       "note": "SNS.txt line 3569 carries the glossary lemma 'astar/astr:' with its Persian gloss, immediately followed at line 3570 by the Avestan etymon and Bartholomae reference 'aštrā- (AiW 263)'; the book's back index (SNS.txt lines 33723-33724) reads 'astar 35/17' and 'astar burdan 35/19', i.e. page 35, lines 17 and 19 — precisely Nourai's SNS:35."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "PHD_mackenzie.txt line 1285",
+       "stance": "supports",
+       "note": "\"astar ['štl] whip\" — MacKenzie's Concise Pahlavi Dictionary has the word, distinct from line 1242 \"astar ['st'/l M 'st'r] sin\"."
+      },
+      {
+       "src": "NYB",
+       "where": "NYB_vol2_glossary.txt, grep 'astar'",
+       "stance": "silent",
+       "note": "Nyberg's Manual of Pahlavi glossary has āstār 'sin' (< Av. ā + star-), sāstar, wastarg, rastar etc., but no astar 'whip' — the word simply does not occur in the texts he glosses."
+      },
+      {
+       "src": "BRT",
+       "where": "BRT.txt line 6492",
+       "stance": "supports",
+       "note": "Supplies the Avestan aštrā- 'Peitsche' this Pahlavi form continues."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "aštar «آشتَر ٢»",
+     "verdict": "unverified",
+     "derivation": "If it existed, New Persian āštar 'whip' would be the regular continuation of MP astar (node #4) — MP -st- is normally kept in NP, and the initial ā- of the chart's «آشتَر» would be the usual prothetic/lengthened treatment of a word-initial cluster, as in استر, اشتر. But no independent evidence for it could be found. Nourai's own NOTE concedes 'This word was not found in MON or BQT', and that is confirmed here: grepping آشتر in BQT_v1_pages.txt returns nothing, and Richardson's Persian-Arabic-English dictionary (RCH), which is generous with obsolete words, has no āštar/aštar 'whip' either (its 'whip' hits are all Arabic). SNS:35, the only citation, is a glossary of the Pahlavi Šāyast nē Šāyast — its Persian column is Tavoosi's modern rendering of the Pahlavi lemma, not evidence of an independent New Persian word. So the box looks like a New-Persian entry manufactured out of a Pahlavi glossary's translation line. The standard NP words for 'whip' are تازیانه tāziyāna (< MP tāzānag, PHD line 4973) and شلاق.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "SNS:35",
+       "status": "partial",
+       "note": "SNS.txt line 3569 'astar/astr:' + index 'astar 35/17' confirms that page 35 of Tavoosi's glossary has the word — but as a PAHLAVI lemma of the Šāyast nē Šāyast with a modern Persian gloss beside it, which is not the same as attesting a New Persian آشتر. The same citation therefore supports node #4 and only half-supports node #5."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "grep 'آشتر' in BQT_v1_pages.txt (vol. 1 covers آ–ت)",
+       "stance": "silent",
+       "note": "No occurrence — independently confirming Nourai's own note."
+      },
+      {
+       "src": "MON",
+       "where": "grep 'آشتر' in MON_part1.txt / MON_part2.txt",
+       "stance": "silent",
+       "note": "One hit only, in MON_part2 line 92720, and it is a discussion of an Avestan phrase ('در هیچ جای اوستا «آشتر شتی»…'), not a Persian headword."
+      },
+      {
+       "src": "RCH",
+       "where": "Richardson, grep 'whip' (51 hits) and 'ashtar'",
+       "stance": "silent",
+       "note": "None of Richardson's 'whip' entries is āštar; the ashtar-shaped hits are unrelated words (Tashtar 'archangel Michael', bashtar etc.)."
+      },
+      {
+       "src": "PHD",
+       "where": "PHD_mackenzie.txt line 4973",
+       "stance": "partial",
+       "note": "\"tāzānag [t'c'nk | N tāz(y)āna] whip\" — MacKenzie's own cross-reference shows that the word that actually survived into New Persian for 'whip' is tāziyāna, not astar."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Greek",
+     "words": "agein; stratos-agein",
+     "verdict": "confirmed",
+     "derivation": "Greek ἄγειν ágein 'to lead, drive' is the direct thematic present of *h₂eǵ- (Pokorny p. 4: 'gr. ἄγω ,führe''), the exact counterpart of Lat. agō and Av. azaiti. Nourai's 'stratos-agein' is his shorthand for the compound: στρατός stratós 'army' (literally 'that which is spread out', PIE *sterh₃- — hence his cross-reference ☞Ster 1) + the agent noun ἀγός agós 'leader' from ágein, giving στρατηγός stratēgós 'general', whence the abstract στρατηγία stratēgía 'the office/art of a general'. Pokorny prints στρατηγός on p. 4 itself, in the list of o-stem derivatives (ἀγός ,Führer, Heerführer'; ἀτταν-ἀγός, att.-ion. στρατηγός ,Heerführer').",
+     "sources": [
+      "https://www.etymonline.com/word/strategy",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt s.v. ag-: \"2. Greek agein, to drive, lead: -AGOGUE, AGONY; ANAGOGE, (ANTAGONIZE), CHORAGUS, DEMAGOGUE, EPACT, GLUCAGON, HYPNAGOGIC, MYSTAGOGUE, PEDAGOGUE, PROTAGONIST, STRATAGEM, SYNAGOGUE.\" Nourai cites AHD with no page, and the appendix root entry says exactly this."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "leaf 13 = p. 4",
+       "stance": "supports",
+       "note": "\"gr. ἄγω ,führe'\" and, in the o-stem list at the head of the page, \"ἀγός ,Führer, Heerführer'; … στρατηγός\"."
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37 s.v. agent, adj.",
+       "stance": "supports",
+       "note": "Klein's 'Cp.' list under the base *ag- includes 'strategy' and 'synagogue' as well as Gk. ἄγειν itself."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'strategy'",
+       "stance": "supports",
+       "note": "\"Greek strategia 'office or command of a general', from strategos 'general, commander of an army', from stratos 'army' … + agos 'leader', from agein 'to lead' (PIE root *ag-).\""
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "French",
+     "words": "strategie",
+     "verdict": "confirmed",
+     "derivation": "French stratégie, a learned 16th-century formation on Latinised Greek stratēgia; the Greek η is rendered é and the Greek -ia becomes the French learned suffix -ie (as in philosophie, théologie). It stayed a term of ancient history until the professional military literature of the later 18th century (Joly de Maizeroy, 1771, is usually credited with the modern technical sense), and that revived French word is the one that spread to the rest of Europe.",
+     "sources": [
+      "https://www.etymonline.com/word/strategy"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1273",
+       "status": "not_checked",
+       "note": "A page of the main text of the 1975/76 AHD New College Edition (the 'st-' range fits p. 1273 well), which is not open online; only Watkins' root appendix is on disk, and there STRATAGEM/STRATEGY appear in the ag- word list without a French stage being spelled out."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "Etymonline",
+       "where": "entry 'strategy'",
+       "stance": "supports",
+       "note": "\"1810, from French stratégie (18c.) and directly from Greek strategia\"; the French word is dated 16c. in the entry's own citation of stratégie."
+      },
+      {
+       "src": "FSD",
+       "where": "FSD_vol4.txt line 23971 s.v. stratagem",
+       "stance": "supports",
+       "note": "\"[<F stratagème, <L stratēgema, <Gr stratēgēma, <strategos, general, <stratos, army, + [agein] lead]\" — Funk & Wagnalls routes the family through French exactly as the chart does."
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37",
+       "stance": "partial",
+       "note": "Klein lists 'strategy' among the *ag- descendants but the detail of the French stage is in his own s.v. strategy, not on this page."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "esterâtežî «استراتژی»",
+     "verdict": "confirmed",
+     "derivation": "Persian استراتژی esterātežī is a 20th-century borrowing of French stratégie, and the French route is written into the shape of the word: the ژ /ʒ/ can only come from French -gie /ʒi/ (English strategy would have given *esterātejī with ج /dʒ/), and the prothetic ا- before the initial cluster st- is the regular Persian treatment of European s+consonant onsets (استکان, اسپانیا, استاندارد). Moʿin's entry tags it as a European loan and glosses it 'فن ادارهٔ عملیات جنگی؛ دانش رهبری عملیات نظامی؛ سوق الجیش' — 'the art of directing operations of war; the science of leading military operations', i.e. the modern French technical sense, not the ancient Greek one.",
+     "sources": [
+      "https://www.etymonline.com/word/strategy"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:246",
+       "status": "supports",
+       "note": "MON_part1.txt line 11745: 'استراتژی: [fr.] (اِ.) فن ادارهٔ عملیات جنگی؛ دانش رهبری عملیات نظامی؛ سوق الجیش.' The entry stands between استر 'mule' and استراتوسفر, i.e. in the الف-س-ت run of vol. 1, which is where p. 246 falls; the source-language tag is present (rendered '2' by the OCR, the same glyph that OCRs as '2'/'فر.' on the other French loans on the page, e.g. آژانس)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt line 11745",
+       "stance": "supports",
+       "note": "See ref_check — Moʿin has the word, tagged as a European (French) loan, with the modern military gloss."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'strategy'",
+       "stance": "supports",
+       "note": "Confirms that it was the French word, in its post-1770s military sense, that was internationally borrowed — matching the Persian gloss."
+      },
+      {
+       "src": "BQT",
+       "where": "grep استراتژی in BQT_v1_pages.txt",
+       "stance": "silent",
+       "note": "Absent, as expected for a 17th-century dictionary."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "strategy",
+     "verdict": "confirmed",
+     "derivation": "English strategy, 1810, from French stratégie and directly from the Latinised Greek stratēgia; strategic follows in 1825 from French stratégique. The sense 'plan for achieving an aim' (1833 for a particular instance) and its extension outside war (by 1887) are English developments. Nourai's French → English arrow is therefore right, and the older doublet stratagem had already come the same way in the 15th century (F. stratagème < L. stratēgēma < Gk. στρατήγημα).",
+     "sources": [
+      "https://www.etymonline.com/word/strategy"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "Etymonline",
+       "where": "entry 'strategy'",
+       "stance": "supports",
+       "note": "\"1810, from French stratégie (18c.) and directly from Greek strategia 'office or command of a general' … by 1833 … by 1887 in non-military contexts.\""
+      },
+      {
+       "src": "FSD",
+       "where": "FSD_vol4.txt lines 23971, 23985-23990",
+       "stance": "supports",
+       "note": "\"strategy … [< Gr stratēgikos, < stratēgos, see stratagem]\" and, under stratagem, the F–L–Gk chain quoted at node #7."
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37",
+       "stance": "supports",
+       "note": "'strategy' stands in Klein's list of English words traced to the base *ag-."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "English",
+     "words": "agony, agriculture",
+     "verdict": "plausible",
+     "derivation": "Both words do go back to *h₂eǵ-, but only one of them goes through the Greek node they are drawn under. AGONY: Gk. ἀγών agṓn 'assembly, contest in the games' (an -ōn derivative of ágein, 'the gathering that is led together') > ἀγωνία agōnía 'struggle for victory' > Eccles. Lat. agōnia (used of Christ's agony in the garden, Luke 22:44) > Old French agonie > Middle English agony — so this branch is correctly under Greek. AGRICULTURE, on the other hand, is Latin, not Greek: L. agrī cultūra 'cultivation of the field', from ager (gen. agrī) 'field' < *h₂éǵ-ro-, borrowed into French and thence into English (1590s). Its place on the chart should be under the Latin node #11 (or under the 'Agros' half of the root box) rather than under Greek ágein; Watkins files it under the separate derivative root agro-, and Klein's list distinguishes 'agrarian, agriculture' (via ager) from 'agony' (via ἀγών). Hence 'plausible' rather than 'confirmed': right root, wrong branch for one of the two words.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this box; the parent Greek box cites AHD."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "AHD_watkins1985.txt s.v. 'ag-' and 'agro-'",
+       "stance": "partial",
+       "note": "AGONY is listed under ag- 2 (Greek agein); AGRICULTURE is listed under the separate entry 'agro-. Field. Derivative of ag-… 2. Latin ager … AGRARIAN, AGRESTAL; AGRICULTURE, PEREGRINE, (PILGRIM)', i.e. under Latin, not Greek."
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37 (agent, adj.) and leaf 33 (agrarian)",
+       "stance": "partial",
+       "note": "Klein s.v. agrarian: \"fr. L. agrarius … fr. ager, gen. agri, 'field, land', which is rel. to Umbr. ager and cogn. with Gk. ἀγρός, Goth. akrs, OE. æcer, 'field'. See acre and agent and cp. agriculture.\" — agriculture reaches English through Latin ager, not through Greek agein."
+      },
+      {
+       "src": "POK",
+       "where": "leaf 13-15 = pp. 4-6",
+       "stance": "supports",
+       "note": "p. 4 'gr. ἀγών ,Wettlauf, Wettkampf''; p. 6 'aǵ-ro-s ,Feld, Flur' … lat. umbr. ager ,Feld'' — both words in the article, on two different branches."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Latin",
+     "words": "agere; agĕns; ag-sla; ambractus",
+     "verdict": "plausible",
+     "derivation": "agere 'to drive, do, act' is the Latin thematic present of *h₂eǵ- (perfect ēgī with analogical lengthened grade, ppp. āctus), and agēns, gen. agentis is its present participle, whence the noun 'agent'; both are impeccable, and Pokorny p. 4 has \"lat. agō ,treibe, führe, verhandle'\". The other two entries need qualification. (i) 'ag-sla' is Nourai's way of writing the preform of Latin āla 'wing', i.e. *ag-s-lā > *axla > āla with compensatory lengthening — Pokorny p. 6, \"Lat. āla ,Achsel', woraus die üblichere Bedeutung ,Flügel'; aus *agsla (vgl. Demin. axilla ,Achselhöhle')\", so the form and the 'wing' gloss are Pokorny's, although the original sense is 'shoulder/armpit' and Watkins detaches the whole group as a separate root aks- (flagged '[In Pok. ag- 4]'). (ii) 'ambractus : envoy' is a misprint for ambactus — verified against the 200-dpi render of pdf p. 35, so the error is the book's, not the extraction's — and the word is not really Latin but Gaulish: Celtic *ambi-ag-to- 'one sent around', taken into Latin as ambactus 'vassal, retainer' (Ennius, Caesar BG 6.15) and into Germanic as Goth. andbahts, OHG ambaht 'servant', whence German Amt; Med. Lat. ambactia 'office' is the source of ambassador/embassy. Its gloss is 'servant, retainer', not 'envoy' — 'envoy' is the later Romance development.",
+     "sources": [
+      "https://www.etymonline.com/word/ambassador",
+      "https://www.etymonline.com/word/agent",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt s.v. ag-: \"1. Latin agere, to do, act, drive, conduct, lead: ACT, AGENDUM, AGENT, AGILE, AGITATE … 3. Suffixed form *ag-to- in Celtic *amb(i)-ag-to-, 'one sent around' (*ambi, around; see ambhi), in Latin ambactus, servant (> Medieval Latin ambactia, office): AMBASSADOR, EMBASSAGE, (EMBASSY).\" Watkins gives Nourai's agere, agens and ambactus — and spells the last one without the -r-, confirming the misprint. For 'ag-sla' Watkins uses his separate entry aks-: \"3. Suffixed form *aks-lā- in Latin āla (< *axla), wing, upper arm … [In Pok. ag- 4.]\""
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "leaf 13-15 = pp. 4-6",
+       "stance": "supports",
+       "note": "p. 4: \"lat. agō ,treibe, führe, verhandle' (Pf. ēgī)\" and \"kelt. *amb(i)-aktos eigentlich ,herumgesandter Bote, Diener' in gall.(-lat.) ambactus ,Dienstmann, Höriger'\"; p. 6: \"Lat. āla ,Achsel', woraus die üblichere Bedeutung ,Flügel'; aus *agsla\"."
+      },
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37",
+       "stance": "supports",
+       "note": "Klein's list under the base *ag- contains 'ala, ambages, ambassador, … axilla, axis, axle, … embassy', i.e. all four of Nourai's Latin items."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'ambassador'",
+       "stance": "supports",
+       "note": "\"from Latin ambactus 'a servant, vassal', from Celtic amb(i)actos 'a messenger, servant' … PIE *ambhi- 'around' + *ag- 'to drive, draw out or forth, move'\" — Celtic, and with the sense 'servant'."
+      },
+      {
+       "src": "LEW",
+       "where": "LEW_1910.txt (Walde, Lat. etym. Wb.)",
+       "stance": "silent",
+       "note": "The local Walde OCR could not be searched reliably for agō/ambactus (heavily corrupted running text); Pokorny's own 'WH. I 9, 10, 24' back-references on p. 4 stand in for it."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "French",
+     "words": "agence, agent",
+     "verdict": "confirmed",
+     "derivation": "French agent is Latin agentem (acc. of agēns) taken over as a learned word, and agence comes from Medieval/Late Latin agentia, an abstract in -ia built on the same participle; Klein notes the two side by side: 'agency, n. — Late L. agentia (whence also F. agence), fr. L. agens, gen. agentis, pres. part. of agere' and 'agent, n. — F., in the sense of \"acting force\", fr. ML. agens … fr. It. agente'. The French sense 'commercial/administrative office' for agence, and 'official, functionary' for agent (hence agent de police), are 17th-19th c. French developments, and they are the senses that Persian borrowed.",
+     "sources": [
+      "https://www.etymonline.com/word/agent"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37, s.vv. agency, agent",
+       "stance": "supports",
+       "note": "\"agency, n. — Late L. agentia (whence also F. agence), fr. L. agens, gen. agentis, pres. part. of agere\"; \"agent, n. — F., in the sense of 'acting force', fr. ML. agens, in the sense of 'acting person', fr. It. agente; both these words derive fr. L. agens.\""
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'agent'",
+       "stance": "supports",
+       "note": "\"from Latin agentem (nominative agens) 'effective, powerful', … from agere 'to set in motion, drive forward; to do, perform' … 'deputy, representative' 1590s.\""
+      },
+      {
+       "src": "AHD",
+       "where": "AHD_watkins1985.txt s.v. ag-",
+       "stance": "supports",
+       "note": "AGENT and AGENDUM listed under Latin agere."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "Persian",
+     "words": "âžâns «آژانس»; âžân «آژان»",
+     "verdict": "confirmed",
+     "derivation": "Both are French loans of the Qajar/Pahlavi period, and again the ژ /ʒ/ gives the source away: French agence /aʒɑ̃s/ > Persian آژانس āžāns 'agency, bureau, news agency', and French agent (de police) /aʒɑ̃/ > Persian آژان āžān 'policeman, constable'. The French nasal vowel /ɑ̃/ is rendered as ā + n in آژان and as ā + ns in آژانس, so the two Persian words preserve the difference between the French noun and the French agent-noun. آژان in the 'policeman' sense is now archaic, replaced by پاسبان and then مأمور پلیس, while آژانس is fully alive (آژانس مسافرتی, خبرگزاری/آژانس خبری).",
+     "sources": [
+      "https://www.etymonline.com/word/agent"
+     ],
+     "ref_check": [
+      {
+       "ref": "VOP:10",
+       "status": "not_checked",
+       "note": "VOP = M. Moshiri, Farhang-e Vāžehā-ye Orupāʾi dar Fārsi (Dictionary of European Words in Persian), Alborz Press, Tehran 1371/1992 (bibliography_raw.txt, Table IV no. 05). It is not in the local reference library and is not on archive.org, so the cited page could not be read; its subject-matter, however, is precisely European loanwords in Persian, which makes it the right kind of authority for this box, and Moʿin independently gives the same French source (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt lines 2988-2993 and 2163; also 32624, 55401",
+       "stance": "supports",
+       "note": "'آژانس: [agence] (اِ.) نمایندگی، کارگزاری، بنگاهی که به نمایندگی مؤسسات دیگر کارهایی را انجام دهد؛ آژانس معاملات؛ خبرگزاری' — the OCR preserves the Latin-script French etymon; and 'آژان: (اِ.) نماینده، کارگزار' with 'آژان، مه پلیس' and 'آژان، عسس، محتسب' for the policeman sense."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entry 'agent'",
+       "stance": "supports",
+       "note": "Supplies the Latin > French chain that feeds the Persian forms."
+      },
+      {
+       "src": "BQT",
+       "where": "grep آژانس / آژان in BQT_v1_pages.txt",
+       "stance": "silent",
+       "note": "Absent, as expected for a pre-modern dictionary."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "English",
+     "words": "act, acre, exact, -gate, navigate; agent, agency; axle, axis, ambassador, embassy",
+     "verdict": "confirmed",
+     "derivation": "A summary box, and every item in it is standard. Via Latin agere: ACT (< āctus, ppp.), EXACT (< exigere 'to drive out, weigh out, measure' > exāctus), the combining form -GATE in NAVIGATE (nāvis + agere), FUMIGATE, LITIGATE, MITIGATE, CASTIGATE etc. — the -igāre verbs are compounds of agere with vowel weakening a > i in the unstressed medial syllable; AGENT and AGENCY via French from agēns/agentia (node #12). Via *h₂éǵ-ro-: ACRE, inherited through Germanic *akraz > OE æcer 'field', not borrowed. Via the 'shoulder/axle' extension: AXIS (< L. axis), AXLE (< ON ǫxull / OE eax, Gmc. *ahsulaz). Via Gaulish ambactus: AMBASSADOR (14c., through Old French/Provençal from Med. Lat. ambactia) and EMBASSY (1570s, through Italian ambasciata). Klein's 'Cp.' list on the very page Nourai cites for the Avestan node (p. 37) contains acre, act, agency, agenda, agent, ambassador, axilla, axis, axle, embassy, exact and navigate — the whole box in one line.",
+     "sources": [
+      "https://www.etymonline.com/word/agent",
+      "https://www.etymonline.com/word/ambassador",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this box; the parent Latin box cites AHD."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 31 = p. 37 s.v. agent, adj.",
+       "stance": "supports",
+       "note": "KLN_1966.txt \\f-leaf 31 (the printed numeral '37' stands in the middle of the leaf) s.v. 'agent, adj.': I.-E. base *ag-, 'to drive, lead', whence Gk. agein, 'to lead', 'OI. ajati, \"drives\", ajirah, \"moving, active\", Avestic aza'ti [= azaiti], \"drives\", Toch. A ak-, B ak-, \"to travel, lead\", Arm. acem, ON. aka'; the 'Cp.' list runs 'acorn, acre, act, ... agenda, agile, agitate, -agogue, agony, agrarian, agriculture, agro-, ... aisle, ala, ambages, ambassador, ... axilla, axiom, axis, axle, ... embassy, exact, examen, exigent, ... navigate, ... strategy, synagogue, transact'."
+      },
+      {
+       "src": "AHD",
+       "where": "AHD_watkins1985.txt s.vv. ag-, agro-, aks-",
+       "stance": "supports",
+       "note": "ag- gives ACT, AGENT, EXACT, NAVIGATE, FUMIGATE, LITIGATE, TRANSACT and (via ambactus) AMBASSADOR, EMBASSAGE, EMBASSY; agro- gives ACRE, AGRARIAN, AGRICULTURE; aks- gives AXLE, AXIS, AXILLA, ALA, AISLE — the last group flagged '[In Pok. ag- 4]'."
+      },
+      {
+       "src": "Etymonline",
+       "where": "entries 'agent' and 'ambassador'",
+       "stance": "supports",
+       "note": "\"ambassador … from Latin ambactus 'a servant, vassal', from Celtic amb(i)actos\"; \"embassy (1570s) … from Italian ambasciata … from Gaulish ambactos\"."
+      },
+      {
+       "src": "FSD",
+       "where": "FSD_vol4.txt s.v. stratagem/strategy",
+       "stance": "partial",
+       "note": "Covers only the strategy family of this root, but does so through the same Greek/Latin/French route."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
