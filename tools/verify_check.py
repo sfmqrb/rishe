@@ -10,7 +10,7 @@ import glob, json, os, sys, collections
 VERDICTS = {"confirmed", "plausible", "disputed", "unverified", "transcription_suspect"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "data", "extracted", "batch")
-VER = os.path.join(ROOT, "data", "verification")
+VER = os.environ.get("VERIFY_DIR") or os.path.join(ROOT, "data", "verification")
 
 
 def page_no(path):
