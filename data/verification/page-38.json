@@ -1,0 +1,174 @@
+{
+  "pdf_page": 38,
+  "book_page": 8,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ahu",
+      "verdict": "plausible",
+      "modern_form": "the Avestan family is āhita- 'defiled, soiled' / āhiti- f. 'defilement, blemish' (Bartholomae, AiW cols. 345-348); an independent Avestan noun *ahu- 'defect' is not attested",
+      "note": "Everything on this chart except the root box itself checks out. The root box comes straight from Nourai's single reference: Mo'in's etymological footnote at Borhan-e Qate' p.72 says the word is 'مشتق از کلمهٔ اوستایی ahu بمعنی عیب و نقص و صفت اوستایی âhita یعنی چرکین، پلید و ناپاک، پهلوی âhôk (عیب)' — i.e. Mo'in himself posits an Avestan ahu 'defect, fault' beside the adjective āhita-. But no such headword exists in Bartholomae's Altiranisches Wörterbuch: AiW has ahu-/aŋhu- 'lord' and 'existence, life' (a completely different word, whence Ahura), and for the 'blemish' family only āhita- Adj. 'befleckt, verunreinigt' and āhiti- f. 'Befleckung, Verunreinigung, Makel'. Two further points about the root box: (a) the vowel is long — the whole family has ā- (āhita-, MP āhōg, NP āhū), so the printed 'Ahu' is at best a shortened citation form; (b) Bartholomae, at the very column Nourai cites for the Persian node, derives MP āhōk / NP āhū from āhita- directly, so the chart's two branches are one branch in the standard treatment. The Avestan words, the Pahlavi word, the Persian words and their glosses are all correct as printed, so the entry is sound in substance; only the reconstructed apex is unverifiable. Node #2's chart NOTE (FAF:38 deriving āhū from AV 'a-hu: not good') is rejected by every source consulted — see that node.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%88"
+      ],
+      "ref_check": [
+        {"ref": "BQT:72", "status": "supports", "note": "Borhan-e Qate' ed. Mo'in, printed p.72 (archive.org borhan-ghate-v1 leaf n282, running head '-۷۲-'; read from the leaf image, saved to data/verification/sources/refs/ocr/BQT/72.vision.txt). Footnote 1 to the entry آهو: 'مشتق از کلمهٔ اوستایی ahu بمعنی عیب و نقص و صفت اوستایی âhita یعنی چرکین، پلید و ناپاک، پهلوی âhôk (عیب)'. This is verbatim Nourai's root box, his Pahlavi node and his āhita node — Mo'in is the whole source of the entry. The OCR text BQT_v1_pages.txt leaf 282 has the main column ('عیب را نیز گفته اند … خواه با مردم باشد و خواه با چیزهای دیگر') but drops the footnotes, hence the image reading."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "ahŭk 2",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian āhōg, spelled ʾhwk' in Book Pahlavi and ʾhwg in Manichaean script, 'fault, blemish' — MacKenzie, CPD p.5: \"āhōg [ʾhwk' | M ʾhwg, N āhū] fault, blemish\". The Manichaean spelling with -g shows the suffix -ōg (< Old Iranian *-uka-) with the stop already voiced; the same suffix gives the homonym āhūg [ʾhwk' | M (ʾ)ʾhwg, N āhū] 'gazelle' (CPD p.5), which is why Nourai and Mo'in both number these words 1 and 2. The negated form is attested in Pahlavi too: an-āhōg [ʾnʾhwk'] 'undefiled' (CPD p.9), i.e. the exact Middle Persian counterpart of Avestan an-āhita-, which ties this node to node #3. Two remarks on the printed form: the book writes 'ahŭk' without marking the long ā- of āhōg, and it uses the older Pahlavi transcription with -k for what MacKenzie reads -g; neither is an error in the JSON (checked against the page image), just Nourai's 1960s-style transcription following Mo'in's 'âhôk'.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%88"],
+          "ref_check": [
+            {"ref": "BQT:72", "status": "supports", "note": "Mo'in's footnote 1 on printed p.72 names the Pahlavi form explicitly: 'پهلوی âhôk (عیب)' = Pahlavi āhōk 'defect' — exactly this node (see the saved vision reading data/verification/sources/refs/ocr/BQT/72.vision.txt)."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 948 = CPD p.5 s.v. āhōg", "stance": "supports", "note": "\"āhōg [ʾhwk' | M ʾhwg, N āhū] fault, blemish\"; and line 960 \"āhūg [ʾhwk' | M (ʾ)ʾhwg, N āhū] gazelle\" — the two homonyms Nourai numbers, with the New Persian outcome āhū given for both."},
+            {"src": "NYB", "where": "grep 'ahok|āhōk|ahog' in NYB_vol2_glossary.txt", "stance": "silent", "note": "Nyberg's Manual of Pahlavi glossary has no āhōk entry (it covers only the texts printed in Part I); it does have 'Anāhit [ʾnʾhyt'] a female deity; the planet Venus 511. — Av. (125) Anāhita' (line 419), which belongs to node #4."},
+            {"src": "HRN", "where": "HRN.txt no. 59, p.1-2 (grep 'Gazelle')", "stance": "partial", "note": "Horn's Grundriss no. 59 is 'āhu \"Gazelle\". phlv. āhūk \"Gazelle\"' — he registers only the animal homonym and its Pahlavi ancestor, and says nothing about āhū 'fault'. Confirms the Pahlavi -ūk/-ōk word type but is silent on this particular sense."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "âhŭ 2 «آهو۲»",
+          "verdict": "confirmed",
+          "derivation": "New Persian آهو āhū (2) 'defect, fault, blemish' is the regular continuation of Middle Persian āhōg: the New Persian reflex of the MP suffix -ōg/-ūg loses the final stop and the vowel falls together as -ū (āhōg > āhū, exactly as āhūg 'gazelle' > āhū 'gazelle', which is why the two are homophones and are numbered in the Persian dictionaries). MacKenzie prints the New Persian outcome in the entry itself ('N āhū'). The word is old New Persian, current in the 10th-11th c. (Ferdowsī آهو گرفت 'became faulty'; the chart's shāhed from Faḵr al-Dīn Gorgānī's Vīs o Rāmīn, 'ز گیتی بی آهو نیابی کسی – اگر چند دارد هنرها بسی', is of the same period), and it still lives in آهومند 'faulty, defective, sick'. Mo'in's own dictionary glosses it 'آهو: (اِ.) عیب، نقص. بیماری، مرض. (ص.) بد، ناپسند' — the chart's 'defect' exactly. On the chart's NOTE (FAF:38 derives the word from Avestan 'a-hu: not good'): the privative a-/an- and the adjective hu- 'good' are both real Old Iranian morphemes, but no compound *a-hu- is attested, and the derivation cannot explain either the long ā- or the -k/-g suffix of MP āhōg, which is the form New Persian actually continues; Bartholomae, MacKenzie and Mo'in all attach āhū instead to Avestan āhita- 'defiled'. Nourai is right to record FAF's claim only as a dissenting note.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%88"
+          ],
+          "ref_check": [
+            {"ref": "BRT:345", "status": "supports", "note": "Bartholomae, AiW: the āhita- entry stands in the column block headed '345 āh- … āhūirya- 346' (archive.org altiranischeswr00bartgoog, form-feed leaf 219 of BRT.txt; the next running head on that leaf is '347 āhūirya-'). Text: '• j. āhita- Adj. \"befleckt, verunreinigt\" … KompE. — PPfP. … — Vgl. [Pü.] āhōk, np. āhū \"Sünde\".' Bartholomae therefore states in so many words that New Persian āhū 'sin, fault' and Pahlavi āhōk belong to Avestan āhita- — which is precisely the arrow Nourai draws (his cited column 345 is right, or at most one column early)."},
+            {"ref": "FAF:38", "status": "not_checked", "note": "Daneshgar, Farhang-e A'lam-e Fārsi (1370/1991) — refs_online.json records no digitised copy on any accessible platform, so the wording of the claim quoted in the chart's NOTE could not be verified at source; only its content was evaluated (see derivation)."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt (2-vol Adena abridgement) s.v. آهو", "stance": "supports", "note": "'آهو: (اِ.) عیب، نقص. بیماری، مرض. (ص.) بد، ناپسند' and 'آهومند: (ص‌مر.) مریض، بیمار … معیوب، ناقص، مختل' — Mo'in's lexicon gives exactly the chart's gloss 'defect' for the second آهو."},
+            {"src": "BQT", "where": "Borhan-e Qate' printed p.72 (leaf image, vision reading saved)", "stance": "supports", "note": "Main column: 'عیب را نیز گفته اند … خواه با مردم باشد و خواه با چیزهای دیگر' — Borhan lists 'fault' among the senses of آهو; footnote 1 (Mo'in) gives the Avestan/Pahlavi etymology and quotes Khāqāni playing on the two senses ('غزال و عیب')."},
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 948", "stance": "supports", "note": "MacKenzie writes the New Persian outcome into the Middle Persian entry: 'āhōg … N āhū, fault, blemish'."},
+            {"src": "HRN", "where": "HRN.txt no. 59", "stance": "silent", "note": "Horn treats only āhū 'Gazelle' (phlv. āhūk 'Gazelle'), with Kurdish ask, Baluchi āsk; he has no entry for āhū 'fault', so the Grundriss neither supports nor contradicts."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/آهو", "stance": "partial", "note": "Etymology 1 (gazelle) is derived from MP āhūg, ultimately PIE *h₂eḱus 'sharp, swift' (Kurd. ask, Bal. āsk), citing MacKenzie and Horn; Etymology 2, the 'defect, imperfection' sense, is explicitly marked '(This etymology is missing or incomplete)' and is illustrated only by a Ferdowsī citation 'آهو گرفت'. So Wiktionary confirms the existence and sense of the word and the split into two homonyms, but offers no etymology to compare."},
+            {"src": "ARY", "where": "grep 'آهو' in incoming/ARY/ARY_pages.txt (3 hits, all آهورامزدا / آهوش)", "stance": "silent", "note": "Aryanpur's Persian IE-roots dictionary has no usable آهو entry in the OCR."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan",
+          "words": "âhita; an-âhita",
+          "verdict": "confirmed",
+          "derivation": "Both words are Younger Avestan and are glossed on the chart exactly as the standard dictionaries gloss them. Bartholomae, AiW: 'j. āhita- Adj. \"befleckt, verunreinigt\"' (attested Vd. 16.16, of the garment a menstruating woman has touched), a past participle in -ta-, and 'j. an-āhita-, p. *an-āhita- Adj. (fem. -tā-) \"woran kein Fleck, kein Makel ist, haftet, makellos\"', used above all as the third epithet of the river goddess Arədvī Sūrā Anāhitā (Yt. 5, Yasna 65.1 apəm arədvīm sūrām anāhitām) and also of the priestly barəsman and zaohra in Yt. 10.88. Morphologically an-āhita- is the privative an- (PIE *n̥-) + āhita-, i.e. 'the unstained one'; that analysis is Kent's too ('Cpd. of neg. an- + pte. pass. āhita- \"spotted, defiled\"… \"The Spotless\"'), though Kent adds that āhita- itself is 'of uncertain connections' and Bartholomae only calls it a participle without settling its base. So the two Avestan words and their meanings are certain; what is not demonstrable is the chart's arrow from a root box 'Ahu' (see the entry note).",
+          "sources": [],
+          "ref_check": [
+            {"ref": "KNT:167", "status": "supports", "note": "Kent, Old Persian, Lexicon p.167 (KNT.txt form-feed leaf 189, which carries the printed page numbers 167/168): 'Anāhita- sb. \"Anahita, Anaitis\", a goddess: Elam. a-na-hi-ud-da, Akk. a-na-ah-i-tu-ʾ, Gk. Ἀναῖτις; Av. anāhitā-. Cpd. of neg. an- + pte. pass. āhita- \"spotted, defiled\", of uncertain connections (§67.I, §118.V, §242.I): \"The Spotless\".' Nourai's page number and his analysis both hold."},
+            {"ref": "BQT:72", "status": "supports", "note": "Mo'in's footnote: 'و صفت اوستایی âhita یعنی چرکین، پلید و ناپاک' = 'and the Avestan adjective āhita, i.e. filthy, foul and unclean' — the chart's gloss 'dirty, faulty'."},
+            {"ref": "FAF:36", "status": "not_checked", "note": "Daneshgar, Farhang-e A'lam-e Fārsi — no accessible copy (refs_online.json: 'none online')."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt leaf 219 (cols. ~345-348) s.v. āhita-, āhitay-; leaf 104 (col. ~125) s.v. an-āhita-", "stance": "supports", "note": "'j. āhita- Adj. \"befleckt, verunreinigt\"' with the derived noun 'j. āhitay- f. \"Befleckung, Verunreinigung, Makel\"' (Pahlavi gloss āhōkēnūn / āhōkōmand); and 'j. an-āhita-, p. *an-āhita- Adj. \"woran kein Fleck, kein Makel ist, haftet, makellos\"… A) als weibliche Gottheit, Anāhitā'."},
+            {"src": "KNT", "where": "KNT.txt leaf 189 = p.167", "stance": "supports", "note": "See ref_check: an- + āhita- 'spotted, defiled' = 'The Spotless'; Kent also flags §67.I etc. for the writing of the Old Persian form."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 419", "stance": "supports", "note": "'Anāhit [ʾnʾhyt'] a female deity; the planet Venus 511. — Av. (125) Anāhita' — Nyberg refers the Middle Persian name back to Avestan anāhita- (his '(125)' is Bartholomae's AiW column)."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "Ânâhîta «آناهیتا»; Nâhîd «ناهید»",
+          "verdict": "confirmed",
+          "derivation": "Two Persian reflexes of Avestan anāhitā-, by two different routes. (1) Nāhīd is the inherited one: Av. (Arədvī Sūrā) Anāhitā → Old Persian Anāhita (first in the inscriptions of Artaxerxes II, A²Sa 3-4, A²Ha 5-6, beside Elamite a-na-hi-ud-da, Akkadian a-na-ah-i-tu-ʾ and Greek Ἀναῖτις) → Middle Persian Anāhīd, written ʾnʾhyt', 'immaculate; a goddess; astr. Venus' (MacKenzie, CPD p.9; Nyberg II 419) → New Persian Nāhīd by loss of the unstressed initial a- (aphaeresis), the change Hübschmann documents in Persische Studien §19 ('Nāhēd (Nöldeke, Tab. 4) = paz. Anāhit, Shk. 228, arm. Anahit, zd. anāhita-'; the Armenian loan Anahit preserves the a-). The astral sense on the chart ('a bright star') is the ancient identification of Anāhitā with the planet Venus, already Middle Persian (MacKenzie: 'astr. Venus'), which is why Mo'in's dictionary glosses زهره/بیدخت as ناهید. Ferdowsī's line quoted on the chart ('درخشنده ناهید و هور آفرید') is the planet, not the goddess. (2) Ānāhitā آناهیتا, by contrast, is not an inherited form — New Persian would not preserve -itā; it is a modern learned re-borrowing of the Avestan nominative Anāhitā, taken over as a girl's name in the 20th-century revival of pre-Islamic names (and Nourai's own gloss, '\"innocent, clean\", a female name', is the Avestan meaning, not a Persian one). Both are correctly attached to node #3.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%87%DB%8C%D8%AF",
+            "https://en.wiktionary.org/wiki/Anahita"
+          ],
+          "ref_check": [
+            {"ref": "FAF:36", "status": "not_checked", "note": "Daneshgar, Farhang-e A'lam-e Fārsi (1370/1991), Nourai's only reference for this node, is not digitised anywhere reachable (refs_online.json: kind 'none', 'RE-SEARCH 2026-09: nothing digitised on any permitted platform'). The claim was checked instead against Kent, Bartholomae, MacKenzie, Nyberg and Hübschmann, all of which support it."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 1052 = CPD p.9", "stance": "supports", "note": "\"anāhīd ['nʾhyt' | N nāhīd] immaculate; a goddess; astr. Venus\" — MacKenzie gives the Middle Persian → New Persian step and both of the chart's glosses ('innocent, clean' and 'a bright star') in one line; also 'an-āhōg [ʾnʾhwk'] undefiled' on the next line, the native doublet."},
+            {"src": "HUB", "where": "HUB.txt line ~4826 (Persische Studien §19, p.137-138)", "stance": "supports", "note": "'Aus i wird ē: Nāhēd (Nöldeke, Tab. 4) = paz. Anāhit, Shk. 228, arm. Anahit, zd. anāhita-' — Hübschmann's chain Avestan anāhita- > Pazand/MP Anāhit > NP Nāhēd/Nāhīd, with the Armenian loan as witness."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 419", "stance": "supports", "note": "'Anāhit [ʾnʾhyt'] a female deity; the planet Venus 511. — Av. (125) Anāhita'."},
+            {"src": "KNT", "where": "KNT.txt leaf 189 = p.167 s.v. Anāhita-", "stance": "supports", "note": "Gives the Old Persian link in the chain (Artaxerxes II's inscriptions) with the Elamite, Akkadian and Greek transcriptions."},
+            {"src": "MON", "where": "MON_part1.txt s.vv. بیدخت، زاور، زهره‌رخ (2-vol abridgement; the a'lam volumes are not online)", "stance": "partial", "note": "Mo'in's abridged lexicon has no headword ناهید (proper names are in vols 5-6, which are not digitised) but uses it as the gloss of the Venus words: 'بیدخت … (امر.) ستارهٔ زهره، ناهید' and 'زاور … (اِ.) زهره، ناهید' — confirming the 'bright star' sense of the chart."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/ناهید and /Anahita", "stance": "supports", "note": "ناهید 'from Middle Persian ʾnʾhyt' (anāhīd)', senses 'Anahita; the planet Venus; a female given name', with Kurdish Nehîda; the Anahita page gives Old Persian 𐎠𐎴𐏃𐎡𐎫 and lists MP ʾnʾhyt' (anāhīd), NP آناهیتا / ناهید, Armenian Անահիտ, Greek Ἀναῖτις (its etymology section is otherwise flagged incomplete)."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Ai",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂ey- 'to give, allot' (Pokorny 3. ai- 'geben, zuteilen', p.10; Watkins ai-1 'to give, allot'), with the derived stems *ai-ti-, *ai-to- / *oi-to- 'share'",
+      "note": "A short, entirely orthodox chart: root, both branches and the English word are what Pokorny and Watkins print, and Nourai's page number POK:10 is exact. Two things to note. (a) The reconstruction is written today with an initial laryngeal, *h₂ey- (the Hittite pa-i 'he gives' and Tocharian B ai- that Pokorny already cites are the key witnesses), so 'Ai' is the 1959 shape of the root, not an error. (b) The Greek word as printed, 'dia-ithan', is misspelled in the book itself — I rendered pdf page 38 from the repository's own PDF and the box really reads 'dia-ithan : to decide on one's life'; the JSON transcription is faithful. Watkins's text, which is plainly Nourai's source ('Suffixed form *ai-tā- in Greek diaitan, to decide, lead one's life: DIET¹'), spells it diaitan (διαιτᾶν). The chart also has one empty box, drawn to the right of the aēta node with an arrow into it but no text — an unfilled box in the print, not a lost node.",
+      "sources": [
+        "https://www.etymonline.com/word/diet",
+        "https://en.wiktionary.org/wiki/%CE%B4%CE%AF%CE%B1%CE%B9%CF%84%CE%B1"
+      ],
+      "ref_check": [
+        {"ref": "POK:10", "status": "supports", "note": "Pokorny, IEW I p.10 (POK_01.txt form-feed leaf 17, the leaf carrying the printed '10'): '3. ai- \"geben, zuteilen\", über mediales \"sich geben lassen\" dann auch \"nehmen\"', with Gr. αἴνυμαι, Lat. aemulus, Toch. B ai- / A e- 'geben', Hitt. pa-a-i 'er gibt'; and immediately after, 'Hierher gehört zweifellos: ai-ti-, ai-to- : oi-to- \"Anteil\"'. Root name, gloss and page are all right."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "aěta",
+          "verdict": "confirmed",
+          "derivation": "Avestan aēta- m. 'the due share, the portion that is owed' — from the root *h₂ey- 'give, allot' by the o-/e-grade *ai-to- noun suffix that Pokorny sets up under the root ('ai-ti-, ai-to- : oi-to- \"Anteil\"'), the same formation as Greek αἶσα (< *ait-i̯a) 'share, lot' and Oscan aeteis gen. 'partis', aittíúm 'portionum'. Bartholomae (AiW cols. 17-18) prints 'j. ²aēta- m. \"das gebührende Teil\"'; in practice the Avestan word is used of what is owed as requital, hence Pokorny's parenthesis '(\"Strafe\"; Dual \"Schuld und Strafe\")' — 'share' as on the chart is the etymological, not the usual textual, sense, and Nourai's one-word gloss follows Pokorny's Anteil. The word is Younger Avestan (Yt. 10.45-51, Y. 19.11).",
+          "sources": [],
+          "ref_check": [
+            {"ref": "POK:10", "status": "supports", "note": "POK_01.txt leaf 17 (printed p.10), under 'ai-ti-, ai-to- : oi-to- \"Anteil\"': 'Av. aēta- \"der gebührende Teil\" (\"Strafe\"; Dual \"Schuld und Strafe\")'. Exactly this node, on exactly the page cited."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt cols. 17-18 (line 2527) s.v. ²aēta-", "stance": "supports", "note": "'• j. ²aēta- m. \"das gebührende Teil\"' with the Yašt/Yasna references — the Avestan word and Nourai's gloss."},
+            {"src": "WLD", "where": "Walde-Pokorny I 2-3 (incoming/WLD/WLD_Bd1_1930_dli_70244_djvu.txt lines 306-322), s.v. ai-to-, ai-ti- 'Anteil'", "stance": "supports", "note": "'av. aēta- \"der gebührende Teil\" (\"Strafe\"; dual \"Schuld und Strafe\") (Bezzenberger BB. 4, 322; Fick; Bartholomae IF. 12, 139, Airan. Wb. 11 f.)', beside Gk. αἶσα and Osc. aeteis 'partis'."},
+            {"src": "IEC", "where": "IEC.txt line 317", "stance": "supports", "note": "Mann, IE Comparative Dictionary: 'aitā, is, iə \"share, part, lot\". WP I, 2 & I, 7  Av. aeta; Gk. aisa (ambig.); Osc. aet-, aitt- (i-stem)…'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 13744 (s.v. etio-/aetiology)", "stance": "supports", "note": "Klein cites 'Avestic aēta-, \"share, lot, due\", Oscan aeteis (gen.), \"of somebody's part\", Toch. B ai-, \"to give\" (lit. \"to allot\")' as cognates of Gk. αἶσα, and cross-refers 'Cp. diet, \"fare\"' — i.e. Klein joins this node and node #2 under one root, as the chart does."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Greek",
+          "words": "dia-ithan",
+          "verdict": "plausible",
+          "derivation": "The etymology drawn here is standard; the Greek form as printed is not. What is meant is διαιτᾶν, the infinitive of διαιτάω 'to arbitrate, to regulate, to order one's way of life' — Watkins, whose appendix Nourai cites, writes 'Suffixed form *ai-tā- in Greek diaitan, to decide, lead one's life: DIET¹', word for word Nourai's gloss 'to decide on one's life'. There is no θ in the word (it is δι-/δια- + *αἰτάω, a frequentative of αἴνυμαι 'to take'), so 'dia-ithan' is a misprint; I checked the page image of the book itself, and the error is Nourai's, not the JSON transcription's. From the verb comes the deverbal noun δίαιτα 'the office of an arbiter; way of living, regimen', which is the word that actually travels on to Latin and English (node #3). Pokorny gives the same analysis on the cited page ('διαιτάω (vielleicht dissimiliert aus *διαιτιάω) \"bin Schiedsrichter, leite; teile das Leben ein = führe eine gewisse Lebensart; schreibe ein gewisses Maß im Essen und Trinken vor\", daher δίαιτα'). A minor divergence in current scholarship: Beekes (EDG 2010, followed by Wiktionary) takes the first element as δι- 'twice' rather than δια- 'through/apart', while Bailly and the older tradition (and Etymonline, 'from dia- \"apart\" + ainysthai \"take\"') keep δια-; nobody disputes the connection with the *ai- root, so the arrow itself stands.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%B1%CE%B9%CF%84%CE%AC%CF%89",
+            "https://en.wiktionary.org/wiki/%CE%B4%CE%AF%CE%B1%CE%B9%CF%84%CE%B1",
+            "https://www.etymonline.com/word/diet"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 268: 'ai-1, To give, allot. 1. Suffixed form *ai-t-yā in Greek aitia, cause, responsibility: ETIOLOGY. 2. Suffixed form *ai-tā- in Greek diaitan, to decide, lead one's life: DIET¹. [Pok. 3. ai- 10.]' — Nourai's node is a transcription of this sentence (including the gloss), with the h wrongly inserted."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "POK_01.txt leaf 18 (printed p.11), continuation of 3. ai-", "stance": "supports", "note": "'διαιτάω (vielleicht dissimiliert aus *διαιτιάω) \"bin Schiedsrichter, leite; teile das Leben ein = führe eine gewisse Lebensart…\", daher δίαιτα \"Schiedsrichteramt\" und \"Lebensweise, Lebenseinteilung\"' — the verb, spelled correctly, under the very root Nourai cites."},
+            {"src": "WLD", "where": "Walde-Pokorny I 2 (WLD_Bd1 djvu line ~312)", "stance": "supports", "note": "Same text in the older Walde-Pokorny: 'διαιτάω (vielleicht dissimiliert aus *διαιτιάω) \"bin Schiedsrichter, leite; teile das Leben ein…\", daher δίαιτα \"Schiedsrichteramt\" und \"Lebensweise, Lebenseinteilung\"'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 11363, s.v. diet 'fare, food'", "stance": "supports", "note": "'Gk. δίαιτα, \"the office of an arbiter; mode of living; dwelling, abode\", back formation fr. διαιτᾶν, \"to maintain, support\", which is formed fr. δι- (form of διά before a vowel) and αἶσα (for *αἰτια), \"share, lot, destiny\"' — Klein spells the infinitive διαιτᾶν, i.e. Nourai's 'dia-ithan' minus the h."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/διαιτάω", "stance": "partial", "note": "Analyses it as δῐᾰ- (Bailly) or δῐ- (Beekes) + *αἰτᾰ́ω, a frequentative of αἴνῠμαι 'to take', comparing αἰτέω; senses given include 'to lead one's life; to live' and 'to arbitrate; to regulate' — the chart's 'to decide on one's life'. The prefix is the only point at issue."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "diet",
+          "verdict": "confirmed",
+          "derivation": "Greek δίαιτα 'way of living, regimen' was borrowed into Latin as diaeta 'prescribed way of life, regimen', which in the medical Latin of the Middle Ages became dieta; Old French diete (13th c.) 'food, fare, regimen' gave Middle English diete (c. 1300), whence modern diet, in the specialised sense 'customary or prescribed food' from the late 14th c. and 'reduced-calorie regimen' only from the 20th (attributive 'diet' of foods, US, by 1963). The homonym diet 'legislative assembly' is a different word — Medieval Latin dieta 'appointed day' from Latin dies 'day' — and Klein, Skeat and Etymonline all keep the two apart; since the chart gives no gloss, only the food word belongs under this root, and that is the one Watkins tags DIET¹.",
+          "sources": [
+            "https://www.etymonline.com/word/diet"
+          ],
+          "ref_check": [
+            {"ref": "(none)", "status": "not_checked", "note": "The node carries no reference in the book (refs=None); the chain was checked against Klein, Skeat, Funk & Wagnalls and Etymonline instead — see consulted."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 11363 (and 11362 for the homonym)", "stance": "supports", "note": "'diet, n., fare, food. — ME. diete, fr. OF. diete (F. diète), fr. L. diaeta, \"mode of living\", fr. Gk. δίαιτα…'; and separately 'diet, n., a parliamentary assembly. — ML. dieta, \"an appointed day\"… fr. L. dies, \"day\"'."},
+            {"src": "SKT", "where": "SKT.txt line 5047 (and 5048)", "stance": "supports", "note": "'Diet (1), regimen. (F. — L. — Gk.) M.E. diete. — O.F. diete… — Low L. dieta, diaeta, a ration of food. — Gk. δίαιτα, mode of life, diet.' Skeat's Diet (2) 'an assembly' is derived from Low L. diaeta/dies with the note that the use 'was due to a popular etymology which connected diaeta with dies, a day'."},
+            {"src": "FSD", "where": "FSD_vol1.txt line 93084, s.v. diet", "stance": "supports", "note": "Funk & Wagnalls: '[< F. diète, < L. diaeta, < Gr. diaita, manner of living, diet.]'."},
+            {"src": "Etymonline", "where": "etymonline.com/word/diet", "stance": "supports", "note": "'from Old French diete, Medieval Latin dieta, from Greek diaita \"way of life, regimen, dwelling\", related to diaitasthai \"lead one's life\", from diaitan… from PIE root *ai- (1) \"to give, allot\"' — the whole chart in one line, root included."}
+          ]
+        }
+      ]
+    }
+  ]
+}

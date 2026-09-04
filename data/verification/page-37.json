@@ -1,0 +1,263 @@
+{
+  "pdf_page": 37,
+  "book_page": 7,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Agh, Aghlo",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂egʰ- 'to be depressed, be afraid' (Pokorny agh- p.7), with the l-extension *h₂egʰ-lo- 'disgusting, troublesome' (Pokorny agh-(lo-) p.8) and the s-stem *h₂egʰ-es- 'fear' (Gk. ákhos, Goth. agis)",
+      "note": "Both the language label and the gloss are right, and Nourai's merging of the two Pokorny lemmas into one root box follows Pokorny himself, who writes at the end of the agh- article (p.7/8): 'Hierzu gehört wohl auch: agh-(lo-) \"widerwärtig\"'. Watkins/AHD prints the two as a single root with exactly Nourai's two English derivatives: 'agh-1. To be depressed, be afraid. 1. Suffixed form *agh-lo- in Old English eglan, eglian, to trouble, afflict: AIL. 2. Suffixed form *agh-es- in Old Norse agi, frightened: AWE. [Pok. agh- 7.]' Walde-Pokorny I 40-41 has the same two lemmas with the same material. The one substantive weakness in the whole entry is the Iranian branch's third generation: Persian آخ (node #4) is an interjection and does not belong to this root (see that node). Nourai's glosses 'to be depressed, to be afraid' / 'disagreeable, adverse' are literal renderings of Pokorny's 'seelisch bedrückt sein, sich fürchten' / 'widerwärtig'.",
+      "ref_check": [
+        {"ref": "POK:7", "status": "supports", "note": "POK_01.txt \\f-leaf 15 (= printed p.7), headword: \"agh- ,seelisch bedrückt sein, sich fürchten'. Gr. ἄχος n. ,Beängstigung, Schmerz, Leid'… Ags. ege m. ,Furcht'… anord. agi m. (-en-St.) ,Furcht'\" — Nourai's gloss is a translation of this."},
+        {"ref": "POK:8", "status": "supports", "note": "POK_01.txt \\f-leaf 16 (= printed p.8): \"Hierzu gehört wohl auch: agh-(lo-) ,widerwärtig'. Got. agls … ags. eg(e)le ,widerwärtig, beschwerlich, bedauerlich', eglan ,Schmerz zufügen' (engl. ail …) … Möglicherweise hierher ai. aghá- (= av. aγō-) ,böse', n. ,Übel, Schaden', aghalá- ,schlimm'.\" POK_full.txt 'Root / lemma: agh-(lo-) … Page(s): 8' repeats it."}
+      ],
+      "sources": [
+        "https://www.etymonline.com/word/ail",
+        "https://www.etymonline.com/word/awe",
+        "https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%98"
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ağô, ağâ",
+          "verdict": "confirmed",
+          "derivation": "Avestan aγa- is a thematic o-stem adjective 'bad, evil, wicked' built to the root *h₂egʰ-; Nourai's two citation forms are its inflected shapes, masc./neut. nom. sg. aγō (< *aγah, older *aγas) and fem. nom. sg. aγā. Intervocalic PIE *gʰ appears in Iranian as the voiced spirant γ, whence the spelling aγa- beside the parallel Avestan doublet aka- 'evil' (with unvoiced k, the form that survives in Middle Persian). It is exactly cognate with Vedic aghá- 'evil, sin' (Ṛgveda), both from Proto-Indo-Iranian *Hagʰás < PIE *h₂egʰ-ós, i.e. the o-grade nominal derivative of the same root that gave Greek ákhos 'pain, grief' and Gothic agis 'fear'. The word is common in Zoroastrian scripture in the compound aγa-manah- 'evil-minded, of evil thought', the antonym of vohu-manah- 'good thought'. Nourai's gloss 'bad, ugly' is a little loose: Bartholomae's AiW gives 'schlecht, böse, schlimm' and Pokorny 'böse'; 'ugly' is not part of the Avestan sense.",
+          "ref_check": [
+            {"ref": "POK:8", "status": "supports", "note": "POK_01.txt leaf 16 (p.8), under agh-(lo-): \"Möglicherweise hierher ai. aghá- (= av. aγō-) ,böse', n. ,Übel, Schaden', aghalá- ,schlimm'.\" Pokorny hedges with 'möglicherweise', so the attachment of the Indo-Iranian word to this root is probable rather than certain — Nourai draws it as a plain arrow."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. I p.41, s.v. agh-(lo-)", "stance": "supports", "note": "WLD_Bd1_pages.txt: \"Möglicherweise hierher (z. B. Fick I⁴ 14, 367, Feist Got. Wb. 9, Prellwitz² 347) ai. aghá- (= av. aγa-) ,böse', n. ,Übel, Schaden', aghalá- ,schlimm'\" — same claim, same hedge, with the earlier literature named."},
+            {"src": "BRT", "where": "Altiranisches Wörterbuch s.v. aγa- (scan leaf 64, AiW col. ~48)", "stance": "supports", "note": "BRT.txt (OCR renders γ as j): \"j. aγa- 1) Adj. (fem. -ya-) 'schlecht, böse, schlimm'; a) von Lebenden … b) …\", with the compound aγa-varəz- 'der Böses, Übles wirkt' immediately following. Confirms the Avestan word, its stem class and its meaning; 'ugly' is not among the senses."},
+            {"src": "IEC", "where": "Mann, s.v. aghəlos / agh-", "stance": "supports", "note": "IEC.txt: \"aghəlos, aghulos 'evil, sorrow'. Cf. aghos, oghlos. Skt aghalaḥ, aghuraḥ; cf. W aeleu 'sad; grief', aeled 'ailment'; Go. agls, aglus; OE egle, egile\" and \"agh- 'dread, terror'\" — Mann keeps the same family together."},
+            {"src": "AHD", "where": "Watkins 1985, s.v. agh-1", "stance": "partial", "note": "AHD_watkins1985.txt line 263 gives the root and its Germanic branches but lists no Indo-Iranian cognate, so it neither supports nor contradicts the Avestan node."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org s.v. Sanskrit अघ (agha)", "stance": "supports", "note": "\"From Proto-Indo-Iranian *Hagʰás ('bad; evil'), from Proto-Indo-European *h₂egʰ-ós\"; cognates listed are Avestan aγa 'evil', Ancient Greek ákhos and Old English eġle — i.e. modern reconstruction keeps Nourai's whole set together under one root."}
+          ],
+          "sources": ["https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%98"]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "âğ, âk",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian ak, written ⟨ʾk⟩ in Book Pahlavi, 'evil, harm' is the regular continuant of the Old Iranian adjective (Av. aka- / aγa- 'evil'): the thematic ending -a- is lost in Middle Persian, leaving a monosyllable, and the Avestan doublet with γ collapses into the same shape, which is why Nourai gives both āγ and āk. The word is alive in Pahlavi religious vocabulary in Akōman ⟨ʾkwmn⟩ 'Evil Thought' (the arch-demon opposing Wahman, < Av. aka-manah-) and akōmand 'evil, harmful'. MacKenzie's Concise Pahlavi Dictionary makes precisely the link Nourai draws by printing the New Persian reflex in the entry itself: 'ak [ʾk | N āk] evil, harm'. Nourai's long ā is the New Persian orthography (آک, alef-madda) read back into Pahlavi; MacKenzie transcribes short a. His gloss 'trouble, ugliness' is a paraphrase of Borhan-e Qate's Persian definition rather than of a Pahlavi source.",
+          "ref_check": [
+            {"ref": "SNS:38", "status": "not_found", "note": "Tavoosi's Šāyast nē Šāyast glossary is on disk only as very poor OCR (SNS.txt / SNS_pages.txt, 242 leaves, printed-page offset undetermined per refs_online.json). Grepped for 'ak:', 'āk:', 'ag:', 'āg:', 'akih', 'ākīh', 'ahok', 'āhōk', 'ahog' across both files — no entry recoverable; the glossary's headwords are printed in Pahlavi script with Latin transliteration in a second column that the OCR mangles. Cannot confirm or refute what p.38 says."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, CPD s.v. ak (PHD.txt line 189; PHD_mackenzie.txt line 967)", "stance": "supports", "note": "\"ak [ʾk | N āk] evil, harm.\" — the Pahlavi word and its New Persian outcome āk, exactly Nourai's nodes #2 and #3. Same page: \"Akōman [ʾkwmn | M ʾqwmn] Evil Thought, an arch-demon\" and \"akōmand [ʾkwmnd] evil, harmful\"."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (Glossary)", "stance": "silent", "note": "grep of NYB_vol2_glossary.txt and NYB_vol1.txt for 'ag', 'ak', 'akōman' returned no usable entry (OCR of the transliterated glossary is thin); no evidence either way."},
+            {"src": "BQT", "where": "Borhan-e Qate' vol.1 p.52, Mo'in's footnote to آک", "stance": "supports", "note": "Mo'in's etymological footnote on that page derives the Persian word from \"اوستا aγa بمعنی بد، شریر، بدی\" ('Avestan aγa, meaning bad, wicked, evil') citing Horn and Bartholomae — i.e. the same Avestan→Persian line that Nourai routes through Pahlavi."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "âk, ak «آک ، اک»",
+          "verdict": "confirmed",
+          "derivation": "New Persian āk / ak آک 'defect, blemish, harm, calamity' continues Middle Persian ak ⟨ʾk⟩ 'evil, harm' unchanged except for the prosthetic lengthening of the initial vowel normal for Persian monosyllables written with alef-madda; MacKenzie's CPD prints the equation directly ('ak [ʾk | N āk] evil, harm'). Borhan-e Qate' (ed. Mo'in) p.52 defines it 'بمعنی عیب و عار باشد و آسیب و آفت را نیز گویند' — 'it means defect and disgrace, and they also use it for injury and calamity' — which is Nourai's 'trouble, deficiency'; Mo'in's footnote on the same page traces it to Avestan aγa- 'bad, wicked, evil' on the authority of Horn and Bartholomae's AiW, adding that the word has no formal connection with the name Aži Dahāka. The verse Nourai prints under the node, 'آکی نرسید بر تو از من، صدبار مرا ز تو رسید آک' (Sūzanī), is the very shāhed Borhan-e Qate' prints on p.52, so the JSON has transcribed the book faithfully.",
+          "ref_check": [
+            {"ref": "BQT:52", "status": "supports", "note": "BQT_v1_pages.txt \\f-leaf 262 (= printed p.52, offset leaf−210): headword \"آک (۱) - بروزن چاک. بمعنی عیب و عار باشد و آسیب و آفت را نیز گویند\", the Sūzanī verse \"آکی نرسید برتو ازمن صدبار مرا زتو رسید آک . سوزنی\", and Mo'in's footnote \"اوستا aγa بمعنی بد، شریر، بدی «هرن …» «بارتولمه … AiW» … aγa-manah بمعنی بدمنش است در برابر وهومن (پاک‌منش) … و این کلمه هیچ بستگی لفظی با نام اژی‌دهاک (ضحاک) ندارد\"."},
+            {"ref": "SNS:38", "status": "not_found", "note": "same as node #2: the Šāyast nē Šāyast glossary OCR yields no retrievable headword for āk/ak and its printed-page offset is undetermined."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, CPD s.v. ak", "stance": "supports", "note": "\"ak [ʾk | N āk] evil, harm\" — MacKenzie himself gives New Persian āk as the reflex."},
+            {"src": "MON", "where": "Mo'in, Farhang-e Fārsi (MON_part1.txt)", "stance": "silent", "note": "grep for a headword آک returned nothing in the two-volume abridgement on disk; Mo'in's etymological note for this word is the one printed as a footnote in his edition of Borhan-e Qate' (see BQT:52)."},
+            {"src": "HRN", "where": "Horn, Grundriss der neupersischen Etymologie", "stance": "silent", "note": "HRN.txt has no recoverable entry for āk (the only nearby item is no. 488 xišt 'Ziegel'); Mo'in's BQT footnote nevertheless cites Horn for this word, so the entry probably exists in a part of Horn the OCR did not resolve."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "âx, ax «آخ ، اخ»",
+          "verdict": "disputed",
+          "derivation": "آخ / اخ is an interjection, and nothing in the sources supports deriving it from Pahlavi āk 'evil'. Phonologically the chain fails: Middle Persian ak (< Av. aka-/aγa-) gives Persian āک with -k, not -خ /-x/; a New Persian x here would require a different Old Iranian source. Semantically the two are also apart — āk is a noun 'defect, harm', آخ is an exclamation. Mo'in classes it as a صوت (interjection): 'آخ: (صت.) کلمه‌ای [که در] افسوس، احساس درد و رنج یا تحسین گویند؛ وای، اف' ('a word said in regret, in the feeling of pain and suffering, or in praise'). Borhan-e Qate' p.90 — Nourai's own cited page — has اخ and اخ اخ purely as exclamations ('بمعنی آفرین باشد که از تحسین است، و در ترحم و تأسف نیز گویند'; 'بمعنی خوش خوش باشد که بعربی طوبی و بخ بخ گویند') and offers no Iranian etymology; the etymological footnote on that page belongs to the homonym اخ 'brother' and is Semitic (\"حزوارش … آشوری بابلی aḫu، عبری āḥ، آرامی …\"). Expressive interjections of the shape āx/ax are cross-linguistically formed anew (cf. Turkish ah, Arabic آه, German ach) and are not normally inherited lexemes. The node's word, script and gloss are correctly transcribed from the book; it is Nourai's arrow that is unsupported.",
+          "ref_check": [
+            {"ref": "BQT:90", "status": "partial", "note": "BQT_v1_pages.txt \\f-leaf 300 (= printed p.90) does contain the entries \"اخ - بفتح اول و سکون ثانی، بمعنی آفرین باشد که از تحسین است … و در ترحم و تأسف نیز گویند، و درعربی بمعنی برادر باشد\" and \"اخ اخ - … بمعنی خوش خوش باشد که بعربی طوبی و بخ بخ گویند\", together with exactly Nourai's Loghatnāmeh couplet \"زهری که او چشاند چه جای اخ، که بخ بخ / تیغی که او گذارد چه جای اه، که به به «لغت نامه»\" — so the page is right, but it gives no derivation from Pahlavi āk. Its etymological footnote there is for the homonym اخ 'brother': \"حزوارش … آشوری بابلی aḫu، عبری āḥ، آرامی …، لغات جنوب الجزیره و حبشه\"."},
+            {"ref": "SNS:38", "status": "not_found", "note": "Šāyast nē Šāyast glossary OCR unusable, as for nodes #2-3."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, Farhang-e Fārsi s.v. آخ (MON_part1.txt line 2219)", "stance": "contradicts", "note": "\"آخ: (صت.) کلمه‌ای [که در] افسوس، احساس درد و رنج یا تحسین گویند؛ وای، اف\" — tagged صوت, i.e. an interjection, with no origin tag at all, whereas Mo'in routinely marks Pahlavi ancestry with [په.]."},
+            {"src": "PHD", "where": "MacKenzie, CPD", "stance": "silent", "note": "no Pahlavi *āx / ax of this meaning; the only relevant entry is 'ak [ʾk | N āk] evil, harm' and the exclamation 'alā [ʾlʾ] oh! alas!', which is unrelated in form."},
+            {"src": "BQT", "where": "Borhan-e Qate' vol.1 p.90", "stance": "partial", "note": "see ref_check: word and Nourai's shāhed are there, the derivation is not."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 5,
+          "lang": "Old English",
+          "words": "eglan",
+          "verdict": "confirmed",
+          "derivation": "Old English eglan (also eglian) 'to trouble, afflict, cause pain to' reflects a Germanic adjective *aglja-/*azlja- 'troublesome, loathsome' verbalised with the weak class-I suffix; the adjective itself is the PIE l-extension *h₂egʰ-lo- of the root. Its Germanic cognate set is exactly Pokorny's: Gothic agls 'shameful' (rendering Gk. aiskhrós), agliþa/aglō 'distress, oppression', us-agljan 'to oppress', Old English adjective eġle 'hideous, loathsome, troublesome', Middle Low German egelen 'to cause grief'. Watkins/AHD prints it as the sole English-relevant reflex of the suffixed form.",
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 263: \"agh-1. To be depressed, be afraid. 1. Suffixed form *agh-lo- in Old English egian [= eglan], eglian, to trouble, afflict: AIL.\" The 1985 Watkins text is the revised form of the 1975/76 appendix pp.1505-1550 that Nourai cites; the root entry is unchanged."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, CEDEL s.v. ail (KLN_1966.txt line 2042)", "stance": "supports", "note": "\"ail, tr. and intr. v. — ME. eilen, ailen, fr. OE. eglan, 'to molest, trouble', rel. to Goth. agls, 'shameful', aglō, 'distress, oppression', us-agljan …\""},
+            {"src": "POK", "where": "Pokorny p.8 s.v. agh-(lo-)", "stance": "supports", "note": "\"ags. eg(e)le ,widerwärtig, beschwerlich, bedauerlich', eglan ,Schmerz zufügen' (engl. ail ,schmerzen; unpäßlich sein')\"."},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. I p.41", "stance": "supports", "note": "same wording as Pokorny, plus \"mnd. egelen ,Gram verursachen'\" and Old Irish ail (*agli-) 'Schimpf'."},
+            {"src": "Etymonline", "where": "etymonline.com/word/ail", "stance": "supports", "note": "\"from Old English eglan 'to trouble, plague, afflict', from Proto-Germanic *azljaz … from PIE *agh- (1) 'to be depressed, be afraid'\", suffixed form *agh-lo-."}
+          ],
+          "sources": ["https://www.etymonline.com/word/ail"]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "ail, ailment",
+          "verdict": "confirmed",
+          "derivation": "Middle English eilen / ailen arises from Old English eglan by the regular loss of the palatal spirant ġ before l with compensatory diphthongisation (eglan > *eġlen > eilen), the same development that gives ME rein < OE regn 'rain'. It is first common in the impersonal construction — 'what eileth the?' c.1300 — which survives as 'what ails you?'; the verb has stayed almost exclusively in that impersonal or intransitive use ever since. 'Ailment', by contrast, is not inherited: it is an English derivative of the 18th century (first recorded 1706) formed from the verb ail with the French-derived noun suffix -ment, so it belongs to the node only as a modern English descendant of the same stem.",
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 263 lists AIL as the derivative of *agh-lo- via OE eglan; the index (line 1222) confirms \"AIL agh-1\". AHD does not list AILMENT separately, it being a transparent English formation."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, CEDEL s.v. ail", "stance": "supports", "note": "\"ail, tr. and intr. v. — ME. eilen, ailen, fr. OE. eglan\" — the ME→ModE step exactly as drawn."},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict. s.v. AIL (SKT.txt line 485)", "stance": "supports", "note": "entry present ('AIL … to help/afflict', OCR damaged) confirming the Old English source; text too corrupt to quote in full."},
+            {"src": "Etymonline", "where": "etymonline.com/word/ail", "stance": "supports", "note": "\"The phrase 'what ails you?' dates to around 1300, originally appearing as 'what eileth the?'\" — dates the Middle English stage."},
+            {"src": "WEB", "where": "Webster's New Twentieth Century Dict. s.v. ail (WEB_vol1.txt lines 4973-4983)", "stance": "supports", "note": "\"ail, n. indisposition or disease\"; \"ailing, a. sickly; ill\"; \"ailment, n. any bodily or mental disorder; illness, especially one that is not severe\" — confirms both words and their senses in modern English."}
+          ],
+          "sources": ["https://www.etymonline.com/word/ail"]
+        },
+        {
+          "id": 7,
+          "lang": "Old Norse",
+          "words": "agi",
+          "verdict": "confirmed",
+          "derivation": "Old Norse agi is the n-stem masculine noun 'fear, awe; (later) discipline, restraint', continuing Proto-Germanic *agan-, a remodelling of the older neuter s-stem *agiz that is preserved directly in Old English ege 'fear' and Gothic agis 'fear, anguish'; that s-stem is the exact formal match of Greek ákhos (< *agh-es-) and so of PIE *h₂egʰ-es-. Beside it Old Norse has the preterite-present verb (Gothic ōg 'I fear') and ótti 'fear', ógn 'terror'. One caveat on the transcription: Nourai's gloss 'frightened' makes agi an adjective, which it is not — but the slip is inherited from his source, since Watkins/AHD itself prints 'in Old Norse agi, frightened'.",
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 263: \"2. Suffixed form *agh-es- in Old Norse agi, frightened: AWE.\" — Nourai's node reproduces this line verbatim, gloss and all."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, CEDEL s.v. awe (KLN_1966.txt line 4145)", "stance": "supports", "note": "\"awe, n. — ME. aghe, awe, fr. ON. agi, rel. to OE. ege, 'fear', OHG. agiso, 'fright, terror', Goth. agis, 'fear, anguish' … and cogn. with Gk. ἄχος 'pain, grief', ἄχομαι 'I am afflicted', OIr. -agor 'I fear'.\" — treats ON agi as a noun."},
+            {"src": "POK", "where": "Pokorny p.7 s.v. agh-", "stance": "supports", "note": "\"anord. agi m. (-en-St.) ,Furcht'\" listed beside \"got. agis n. ,Furcht, Angst, Schrecken'\" and \"ags. ege m. ,Furcht'\" — a masculine noun 'fear', not an adjective."},
+            {"src": "SYN", "where": "Buck, Selected Synonyms §16.53 FEAR, FRIGHT (SYN.txt line 29091)", "stance": "supports", "note": "\"Goth. agis (ON agi 'terror'), OE ege, egesa, ME eye (NE awe), OHG egi, egiso … with vbs. Goth. ōg (pret. pres.) 'be afraid' … : Grk. ἄχος 'pain, distress', Ir. -águr 'I fear'. Walde-P. 1.40.\""},
+            {"src": "IEC", "where": "Mann s.v. aghó / agh- (IEC.txt lines 241, 247)", "stance": "supports", "note": "\"agh- 'dread, terror'. Cf. aghos, aghtis. Cf. OIr. ághathar 'he fears'; OE ōga; ON ógn, ógna …\"; \"aghó, io 'groan, fear, sorrow'. WP I, 40 … Gk. ákhomai, ákhos; Go. agan, us-agjan; ON agi …\""}
+          ],
+          "sources": ["https://www.etymonline.com/word/awe"]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "awe, awesome",
+          "verdict": "confirmed",
+          "derivation": "English awe is a Norse loan, not the native word: Middle English aghe / awe (c.1300) was taken from Old Norse agi during the Scandinavian settlement of the Danelaw and displaced the inherited Old English ege, whose vowel would have given ModE *ee. Norse -g- was weakened to a glide and then absorbed (aghe > awe), the same path as ON lagu > ME lawe 'law'. The sense began as plain 'fear, terror', then narrowed under biblical usage to 'reverential dread' of God ('to stand in awe', early 15th c.) and only later softened to admiring wonder. 'Awesome' is a native English formation of the 1590s (awe + -some), i.e. a modern derivative of the loanword rather than an inherited form; 'awe-inspiring' follows c.1814.",
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 263: \"…in Old Norse agi, frightened: AWE. [Pok. agh- 7.]\" — AWE is the derivative AHD assigns to this root."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, CEDEL s.v. awe", "stance": "supports", "note": "\"awe, n. — ME. aghe, awe, fr. ON. agi\" — Klein makes it a borrowing from Norse, as here."},
+            {"src": "SKT", "where": "Skeat s.v. Awe (SKT.txt line 1229)", "stance": "supports", "note": "\"Awe. (Scand.) M.E. ay, aghe, awe: also eye, eghe, eye…\" — Skeat's '(Scand.)' label marks it a Scandinavian loan; OCR of the rest is damaged."},
+            {"src": "WEB", "where": "Webster's New Twentieth Century Dict. s.v. awe (WEB_vol1.txt line 14287)", "stance": "supports", "note": "\"awe (a), n. [ME. aw, awe, from Ice. agi, awe …]\"; the same column has \"aweless, a. [ME. awles; AS. egeleas …]\" and \"awful, a. [ME. awful, agheful; AS. egeful]\", showing the native OE ege- forms alongside the Norse-derived stem."},
+            {"src": "Etymonline", "where": "etymonline.com/word/awe", "stance": "supports", "note": "\"it emerged around 1300 from Scandinavian sources, particularly Old Norse agi meaning 'fright' … from Proto-Germanic *agiz- to the Proto-Indo-European root *agh-\"; \"'awesome' … evolved from this central concept\"; 'to stand in awe' early 15th c."}
+          ],
+          "sources": ["https://www.etymonline.com/word/awe"]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Agurru, A-gur-ru",
+      "verdict": "confirmed",
+      "modern_form": "Akkadian agurru (also ukurru), logographic 𒅇𒆪𒊒𒌝, 'kiln-fired brick'",
+      "note": "The root box is right: agurru is the ordinary Akkadian word for a kiln-baked brick, opposed to libittu/libnu 'sun-dried brick', and Nourai's spelling 'A-gur-ru' is the syllabic cuneiform transcription used in Kent's edition of the Akkadian version of DSf. Both cited references check out. The disputed part of the entry is not the origin but the DIRECTION of one link. Nourai draws Akkadian → Old Persian → Pahlavi → Persian → Arabic → Persian, i.e. the Arabic word is a Persian loan. Of the four books he cites at node #4, only Asbaghi (PLA:6) actually says that; Fraenkel (AFA:5), Zimmern (AKD:31) and Addi Shir (AFM:7) all make Arabic ājurr a direct loan from Aramaic ʾāgūrā, and so does current Wiktionary (Arabic آجُرّ < Classical Syriac ʾăḡurrā < Akkadian agurru). Nourai's own NOTE on that node concedes the point. See node #4."
+      ,
+      "ref_check": [
+        {"ref": "AKD:31", "status": "supports", "note": "Zimmern, Akkadische Fremdwörter, \\f-leaf 40 of AKD.txt (printed p.31/32 — the page cites 'oben S.14' and 'unten S.38/44', consistent with Nourai's 31): \"akk. agurru gebrannter Ziegelstein : > aram. ʾāgurā (> arab. ʾāgurr, ʾāgār, desgl. pers. āgūr, armen. agur, griech. αγουρος).\" Confirms the Akkadian headword and gloss exactly."},
+        {"ref": "KNT:165", "status": "supports", "note": "Kent, Old Persian, Lexicon p.165 (KNT.txt \\f-leaf 187; the Lexicon runs pp.164-215, leaf = printed + ~22 here): \"aguru- sb. 'baked brick' (§158.1). [agurum] asm. DSf 53, supplied by König, Burgbau 52, after a-gur-ru of the Akk. text, cf. NPers. āgūr in the same meaning.\" Kent's 'a-gur-ru of the Akk. text' is the source of Nourai's second citation form."}
+      ],
+      "sources": ["https://en.wiktionary.org/wiki/%D8%A2%D8%AC%D8%B1"],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Old Persian",
+          "words": "aguru",
+          "verdict": "plausible",
+          "derivation": "Old Persian aguru- 'baked brick' would be a straight loan of Akkadian agurru, taken over in the Achaemenid building administration at Susa, where the Babylonian scribes and 'the men who wrought the baked brick, those were Babylonians' (DSf §3k). The crucial caveat, which Nourai's plain arrow hides, is that the word is NOT actually attested in Old Persian: Kent prints it in square brackets — '[agurum] asm. DSf 53' — because the Old Persian text has a lacuna there and König restored the word from the Akkadian version of the same trilingual inscription; Kent's grammar (§158.1) lists it among 'loanwords … restored loan-word agur-u-' and elsewhere writes 'perhaps [agurum]'. The second possible attestation, a[g]ura[vā] at DB 4.89, Kent himself withdraws ('but read avajā aha with Cameron'). The genuinely attested Old Persian word for a brick is išti- 'sun-dried brick' (DSf 29). So the node is a well-motivated conjecture rather than a documented form.",
+          "ref_check": [
+            {"ref": "KNT:165", "status": "partial", "note": "KNT.txt leaf 187 (p.165): \"aguru- sb. 'baked brick' (§158.1). [agurum] asm. DSf 53, supplied by König, Burgbau 52, after a-gur-ru of the Akk. text, cf. NPers. āgūr in the same meaning. a[g]ura[vā] 1sm. DB 4.89 (restored by Kent, JAOS 62.267 …); but read avajā aha with Cameron.\" Kent gives the word and the Akkadian source, so he supports the derivation — but the brackets mark it as restored, not attested, and Kent's §158 list calls it a 'restored loan-word'."},
+            {"ref": "PLA:6", "status": "supports", "note": "Asbaghi, Persische Lehnwörter im Arabischen, printed p.6 (PLA_pages.txt \\f-leaf 21, offset printed = leaf − 15), s.v. ʾāǧur: \"'Backstein' … > NP آگور āgur < ap. aguru 'Backstein'² < akk. agurru\", with footnote 2 = \"Kent S. 165, Mayrhofer S. 101\" — the same chain Nourai draws, resting on the same Kent page."}
+          ],
+          "consulted": [
+            {"src": "KNT", "where": "Kent, Old Persian §158.1 and Lexicon p.165", "stance": "partial", "note": "\"restored loan-word agur-u-\" in the list of u-stems (KNT.txt line 1838); \"Acc. Sg. Masc.: magum, zrafum, didum; … perhaps [agurum]\" (line 2157) — Kent twice flags the form as conjectural."},
+            {"src": "AKD", "where": "Zimmern p.31/32", "stance": "partial", "note": "Zimmern routes the Iranian word not through Old Persian but through Aramaic: \"akk. agurru … > aram. ʾāgurā (> … desgl. pers. āgūr)\" — an alternative to the direct Akkadian→Old Persian loan drawn here."},
+            {"src": "BRT", "where": "Bartholomae, AiW", "stance": "silent", "note": "no Avestan or Old Persian aguru-; the Avestan brick word is ištya- (cf. Horn no.488, HRN.txt line 4431: \"aw. ištya- 'Ziegel, Backstein'; phlv. xišt; skr. iṣṭakā-\")."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "âgur",
+          "verdict": "plausible",
+          "derivation": "A Middle Persian āgur is the intermediate the chart needs between the ancient and the modern form, and it is phonologically unproblematic — Old Persian/Aramaic agur-, ʾāgūr- would pass into Middle Persian unchanged apart from the loss of the case ending — but no Pahlavi text attests it. MacKenzie's Concise Pahlavi Dictionary has no āgur at all; the Pahlavi word for 'brick' in his glossary is xišt [ḥštˀ | N ~], continuing Avestan ištya-, and Nyberg's glossary is likewise silent. Asbaghi, the very reference Nourai cites here, goes straight from Old Persian aguru to New Persian آگور with no Middle Persian stage. Note also that the long ā of the Persian and Arabic forms is not derivable from Old Persian short a-: it points to the Aramaic shape ʾāgūrā, which is the form Zimmern and Fraenkel make the source of the whole western branch.",
+          "ref_check": [
+            {"ref": "PLA:6", "status": "partial", "note": "PLA_pages.txt leaf 21 (p.6) gives the chain \"aus dem pers. آگور āgur < ap. aguru 'Backstein' < akk. agurru\" — it supports the Old Persian and New Persian links Nourai draws around this node, but it contains no Pahlavi form, so it does not support this node itself."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, CPD (PHD.txt line 1086; PHD_mackenzie.txt line 5562)", "stance": "silent", "note": "no entry āgur; \"xišt [ḥštˀ | (P hystyg), N ~] brick\" and the English-Pahlavi index \"brick xišt\" — MacKenzie's Pahlavi has only xišt for 'brick'."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (Glossary)", "stance": "silent", "note": "grep for 'agur', 'ʾgwr', 'ʾgwl' in NYB_vol2_glossary.txt and NYB_vol1.txt: nothing."},
+            {"src": "HRN", "where": "Horn, Grundriss no. 488", "stance": "silent", "note": "HRN.txt line 4431: \"488. xišt 'Ziegel, Backstein'. aw. ištya- 'Ziegel, Backstein'; phlv. xišt; skr. iṣṭakā- 'Backstein'.\" Horn's Persian etymological dictionary treats only xišt, not āgur/ājor — consistent with the latter being a Semitic loan and so outside his scope."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "âgur «آگور»",
+          "verdict": "confirmed",
+          "derivation": "New Persian آگور āgur 'baked brick' is well attested and is the older, native-looking form beside the Arabic-mediated آجر ājor; Richardson's Persian-Arabic-English dictionary (1829) lists it under 'p' for Persian, 'āgur, a burnt brick'. Mo'in's Farhang-e Fārsi has it with the cross-reference Nourai reproduces: 'آگور [= آجر] (اِ.) خشت پخته، آجر' ('baked brick, ājor'), immediately followed by the occupational derivative 'آگورگر (ص‌شغل.) آجرپز، آجری، آگوری' — 'brick-burner, brickmaker' — which is exactly the script_extra آگورگر / آگورگری printed in the chart, formed with the agent suffix -gar and the abstract -i. Kent, at the Old Persian entry, cites 'NPers. āgūr in the same meaning' as the evidence for his restoration. The word ultimately goes back to Akkadian agurru; whether it reached Persian directly from Old Persian (Asbaghi, Kent) or through Aramaic ʾāgūrā (Zimmern, Fraenkel) is the only point in doubt, and the long ā favours the Aramaic route.",
+          "ref_check": [
+            {"ref": "PLA:6", "status": "supports", "note": "PLA_pages.txt leaf 21 (p.6): the New Persian form آگور āgur is the pivot of Asbaghi's entry — \"aus dem pers. … āgur < ap. aguru < akk. agurru\"."},
+            {"ref": "MON:78", "status": "supports", "note": "Mo'in, Farhang-e Fārsi (MON_part1.txt line 4151): \"آگور: [= آجر] (اِ.) خشت پخته، آجر\", with line 4152: \"آگورگر: (ص‌شغل.) آجرپز، آجری، آگوری\" — both the gloss and Nourai's extra compounds. (The copy on disk is the 2-volume Adena abridgement, whose pagination differs from the 6-volume Amir Kabir edition Nourai cites, so the page number itself could not be checked.)"},
+            {"ref": "AFA:5", "status": "partial", "note": "Fraenkel, Die aramäischen Fremdwörter im Arabischen, \\f-leaf 35 = printed p.5 (offset leaf − 30): \"In Wirklichkeit aber ist آجر auch im Persischen ein aramäisches Lehnwort\" — Fraenkel accepts the Persian word but makes it a loan from Aramaic, not an inheritance from Old Persian."}
+          ],
+          "consulted": [
+            {"src": "RCH", "where": "Richardson-Johnson, Persian-Arabic-English Dict. (RCH.txt line 10204)", "stance": "supports", "note": "\"p آگور agur (or آگور āgur), A burnt brick\" — flagged 'p' (Persian), against \"A آجرّ ajurr (or آجُر ājurr), A brick or tile\" at line 2468, flagged 'A' (Arabic)."},
+            {"src": "KNT", "where": "Kent p.165", "stance": "supports", "note": "\"cf. NPers. āgūr in the same meaning\" — Kent uses the New Persian word as the anchor for his Old Persian restoration."},
+            {"src": "BQT", "where": "Borhan-e Qate' vol.1", "stance": "silent", "note": "grep of BQT_v1_pages.txt for آگور / آکور returns nothing recoverable from the OCR."}
+          ],
+          "sources": []
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "âjur",
+          "verdict": "disputed",
+          "derivation": "The Arabic word is آجُرّ ʾājurr (with variants آجُر ʾājur, آجُور ʾājūr, آجُرّة for the single brick, plural أواجير), and it is certainly a loan — the Arab lexicographers themselves treat it as muʿarrab, and the un-Arabic shape and the broken plural give it away. The disagreement is over the lender. Nourai draws it from Persian آگور; Asbaghi (PLA p.6) is the only one of his four references that agrees. Fraenkel, cited by Nourai himself and the first authority on Aramaic loans in Arabic, says the opposite in as many words: 'In Wirklichkeit aber ist آجر auch im Persischen ein aramäisches Lehnwort, und dass die Araber es von den Persern übernommen haben sollten, ist nach sonstigen Analogien nicht wahrscheinlich' — the Persian word is itself an Aramaic loan, and an Arabic borrowing from Persian is improbable; he adds that the Arabs' own claim of a Persian origin (Jawharī s.v.) is mistaken, and cites Nābigha 7,16 and Dīwān Hudhayl 66,10 for early attestation. Zimmern derives Arabic and Persian in parallel from Aramaic: 'akk. agurru gebrannter Ziegelstein : > aram. ʾāgurā (> arab. ʾāgurr, ʾāgār, desgl. pers. āgūr, armen. agur, griech. αγουρος)'. Addi Shir, whose whole book is a catalogue of Persian words in Arabic, nevertheless quotes Fraenkel p.5 for an Aramaic origin at the entry Nourai cites. Wiktionary today: Arabic آجُرّ 'from Classical Syriac ʾăḡurrā, from Akkadian agurru'. The doubled -rr of the Arabic form and the long ā both match the Aramaic emphatic-state ʾāgūrā better than Persian āgur. Nourai's own NOTE ('This word could have entered Arabic directly from Akkadian / Aramaic (AFA:5)') records the objection; the arrow as drawn is nonetheless the minority view.",
+          "ref_check": [
+            {"ref": "AFA:5", "status": "contradicts", "note": "AFA.txt \\f-leaf 35 = printed p.5: \"Ebenfalls von den Aramäern den Arabern zugeführt ist آجرّ, dessen verschiedene Vocalisationsmöglichkeiten zugleich mit dem Mangel einer Ableitung, der unarabischen Form und dem Plur. أواجير Mu'arrab 16,7 auf fremde Herkunft hinweisen. Es soll schon im Assyrischen vorkommen … Die Araber selbst halten es für ein persisches Lehnwort; vergl. schon Ǧauh. s.v. In Wirklichkeit aber ist آجر auch im Persischen ein aramäisches Lehnwort, und dass die Araber es von den Persern übernommen haben sollten, ist nach sonstigen Analogieen nicht wahrscheinlich. Es findet sich schon bei Nābiġa 7,16; Dīv. Huḏ. 66,10; Aġānī XVI. 43,3.\" This is the exact reverse of Nourai's arrow."},
+            {"ref": "PLA:6", "status": "supports", "note": "PLA_pages.txt leaf 21 (p.6), headword ʾāǧur: \"'Backstein' pers. — aus dem pers. آجر/آگور … > ur āgur < ap. aguru 'Backstein'² < akk. agurru\", fn.2 'Kent S. 165, Mayrhofer S. 101'. Asbaghi is the one cited reference that does make Arabic borrow from Persian."},
+            {"ref": "AKD:31", "status": "contradicts", "note": "AKD.txt leaf 40 (printed p.31/32): \"akk. agurru gebrannter Ziegelstein : > aram. ʾāgurā (> arab. ʾāgurr, ʾāgār, desgl. pers. āgūr, armen. agur, griech. αγουρος).\" Zimmern's '>' marks Aramaic as the direct lender to Arabic AND to Persian, in parallel — not Persian to Arabic."},
+            {"ref": "AFM:7", "status": "partial", "note": "Addi Shir, Kitāb al-alfāẓ al-fārisiyya al-muʿarraba, AFM_pages.txt \\f-leaf 8 (printed p.7, offset leaf − 1: the bāʾ chapter opens at leaf 15 = p.14): the entry \"( الآجور والآجُور والآجُرّ … والآجرون ) قرميد … تراب يُحكم عجنه وتقريصه … وقالوا فيه آجُرّ الطين\" ends \"وقال [فرنكل] (ص ٥) أصل اللفظة آرامية ܐܓܘܪܐ وهو موجود في اللغة الأشورية القديمة\" — 'Fraenkel (p.5) says the origin of the word is Aramaic ʾgwrʾ and it exists in the old Assyrian language'. Addi Shir has the word on the page Nourai cites, but for an Aramaic, not a Persian, origin."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "en.wiktionary.org s.v. Persian آجر, Arabic section", "stance": "contradicts", "note": "\"The Arabic noun آجُرّ (ʔājurr) meaning 'burned brick': From Classical Syriac ܐܲܓܘܼܪܵܐ (ʾăḡurrā), from Akkadian 𒅇𒆪𒊒𒌝 (agurru, ukurru).\" No Persian stage."},
+            {"src": "ARB", "where": "al-Jawālīqī, al-Muʿarrab (ARB_mo3rb.txt lines 16970, 18465)", "stance": "partial", "note": "the word figures in the Arabic muʿarrab tradition — \"في اللسان: والطوب: الآجُرّ بلغة أهل مصر، والطوبة الآجُرّة\" and \"قال ابن دريد في القرميد: قالوا هو الآجُرّ بالرومية\" — i.e. medieval Arab philologists agreed it was foreign but disagreed among themselves about which language."},
+            {"src": "RCH", "where": "Richardson-Johnson (RCH.txt lines 2468, 2655)", "stance": "supports", "note": "\"A آجرّ ajurr (or آجُر ājurr), A brick or tile\"; \"A آجر ājur (or ajur), A brick, or bricks\" — confirms the Arabic word, its shape and its meaning as Nourai gives them; says nothing about direction."}
+          ],
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A2%D8%AC%D8%B1"]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "âjor «آجر»",
+          "verdict": "confirmed",
+          "derivation": "Modern Persian آجر ājor 'brick' — today the ordinary word, while آگور has become archaic — is a re-borrowing of the Arabic آجُرّ back into Persian, with the Arabic gemination simplified and the final vowel lowered to -o- in the modern pronunciation. Mo'in marks it exactly so, with the origin tag معرب: 'آجر: [معر. آگور] (اِ.) خشتی که در کوره پخته باشد، خشت پخته' — 'ājor: [Arabicized form of āgur] a brick that has been fired in a kiln'. Wiktionary agrees on the immediate source: Persian آجر 'Borrowed from Arabic آجُرّ'. So the last link of the chart — Arabic → Persian — is uncontroversial and is a genuine round trip in the Islamic period; the only doubt in the entry attaches to the previous link, whether the Arabic word had been Persian before that (see node #4). The technical vocabulary followed: آجرپز 'brick-burner', آجرکاری 'brickwork' are all built on the Arabic-shaped form.",
+          "ref_check": [
+            {"ref": "MON:78", "status": "supports", "note": "Mo'in, Farhang-e Fārsi (MON_part1.txt line 2150): \"آجر: [معر. آگور] (اِ.) خشتی که در کوره پخته باشد، خشت پخته.\" The tag معر. (= معرّب) is Mo'in's marker for an Arabicized word, and he names آگور as its base — Nourai's round trip. (Page 78 itself could not be checked: the copy on disk is the 2-volume Adena abridgement, which does not share the 6-volume edition's pagination.)"}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "en.wiktionary.org s.v. Persian آجر", "stance": "supports", "note": "\"From the Wiktionary entry, the Persian etymology states: 'Borrowed from Arabic آجُرّ (ʔājurr).'\" — the Arabic→Persian direction of this node confirmed; the chain given there continues آجُرّ < Classical Syriac ʾăḡurrā < Akkadian agurru."},
+            {"src": "PLA", "where": "Asbaghi p.6", "stance": "partial", "note": "Asbaghi's headword is the Arabic ʾāǧur and he cites the modern Persian آجر آجر as its Persian counterpart, but as a Persische Lehnwörter im Arabischen entry he is concerned with the outward, not the return, journey."},
+            {"src": "RCH", "where": "Richardson-Johnson (RCH.txt lines 2468, 10204)", "stance": "supports", "note": "records both the Arabic آجرّ and the Persian آگور side by side in the same dictionary, the standard picture of a doublet."}
+          ],
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A2%D8%AC%D8%B1"]
+        }
+      ]
+    }
+  ]
+}
