@@ -1321,5 +1321,23 @@
   "page_offset": "leaf ~= printed + 93..94 (e.g. leaf 336 = p.242, leaf 587 = p.494); weakly detected, verify by grepping the page number. local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Entries are Persian/Arabic in script (poorly OCRed) followed by transliteration and English gloss; grep the English gloss or transliteration.",
   "notes": ""
+ },
+ "ARY": {
+  "title": "Manuchehr Aryanpur Kashani, Farhang-e Rishe-hā-ye Hend-o-Orupāyi-ye Zabān-e Fārsi (فرهنگ ریشه‌های هند و اروپایی زبان فارسی), Isfahan, Jahan-e Ketab? (c. 2005), 545 pp. NOT one of Nourai's references — supplied by the project owner as an independent modern cross-check.",
+  "kind": "scan_local",
+  "url": "",
+  "lookup_hint": "Alphabetical by Persian headword; each entry gives the PIE root, cognates by language, and page citations to Pokorny, MacKenzie, Buck, Amindarov, AHD and Borhan-e Qate'. Find the page via the headword index incoming/ARY/ARY_headwords.json (when built) and fetch it with: python3 tools/ref_page.py ARY:<printed page> --image",
+  "local_file": null,
+  "page_offset": "printed page = pdf page + 1",
+  "scans": [
+   {
+    "file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/incoming/ARY/ARY_aryanpur_kashani_rishehaye_hend_o_orupayi.pdf",
+    "first_printed": 1,
+    "last_printed": 546,
+    "pdf_offset": -1,
+    "lang": "fas+eng"
+   }
+  ],
+  "notes": "Image-only PDF provided by the owner (2026-09-04). Use as an additional modern source alongside Wiktionary/Cheung/Hasandust when judging Persian arrows; cite as ARY:<page>."
  }
 }
