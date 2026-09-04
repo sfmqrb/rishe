@@ -1,0 +1,803 @@
+{
+  "pdf_page": 44,
+  "book_page": 14,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Akru, Dakru",
+      "verdict": "plausible",
+      "modern_form": "PIE *h₂éḱru 'tear' (Indo-Iranian/Baltic/Tocharian) beside PIE *dáḱru 'tear' (Greek, Italic, Celtic, Germanic, Armenian)",
+      "note": "Both reconstructions are real and both glosses are right, but Pokorny prints them as TWO separate lemmas — 'akru ‚Träne‘' on p.23 and 'dakrú n. ‚Träne‘' on p.179 — and says explicitly of the pair: 'Das Verhältnis zu idg. *dakru ‚Träne‘ ist ungeklärt' (POK_01.txt \\f-page 31, printed p.23) and, under dakru, 'Andrerseits sucht man Vermittlung mit ai. áśru ... wohl bloßes Reimwort ... s. oben S. 23 unter akru' (\\f-page 187 area, printed p.179). Nourai's single box 'Akru, Dakru' therefore states as settled what Pokorny leaves open. He is not alone: Buck 16.38 lists 'IE *dakru-, also *draku- and *aḱru-, relations variously explained', and Aryanpur (ARY, printed p.90) puts Av. asrū-, Skt. áśru, Gk. dákru, Lat. lacrima and Eng. tear in one family. Modern Wiktionary keeps the two apart and calls the link 'uncertain', citing Dunkel's *d (zero grade of *ád) prefixed to *h₂éḱru, or a compound *dr̥ḱ-h₂éḱru 'eye-bitter'. Verdict 'plausible' rather than 'confirmed' only because of the merge; every individual word in the chart belongs to one branch or the other. Note also that the two halves of the chart are consistent: the Iranian/Persian branch hangs off *akru, the Germanic/English branch off *dakru.",
+      "ref_check": [
+        {
+          "ref": "POK:23",
+          "status": "supports",
+          "note": "POK_01.txt \\f-page 31 (printed p.23): 'akru ‚Träne‘. Ved. ásru n., später auch ásram ‚Träne‘, av. asru- n., lit. asarà und ásara f., toch. A ākär Pl. ākrunt ds. ... Das Verhältnis zu idg. *dakru ‚Träne‘ ist ungeklärt. WP. I 33.' Exactly the root Nourai gives, with the caveat he omits."
+        },
+        {
+          "ref": "POK:179",
+          "status": "supports",
+          "note": "POK_01.txt, printed p.179: 'dakrú n. ‚Träne‘. Gr. dákru, dákruon ...; daraus entlehnt altlat. dacruma, lat. lacruma, lacrima ...; germ. *tāhr- und tagr-: got. tagr n. ‚Träne‘, anord. tár ..., ags. tæhher, tear, teagor m., ahd. zahar. WP. I 769.' Supports the 'Dakru' half of the box and the Germanic branch."
+        }
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/d%C3%A1%E1%B8%B1ru",
+        "https://www.etymonline.com/word/tear"
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "asrŭ, asraka",
+          "verdict": "plausible",
+          "derivation": "Avestan asrū- n. 'tear' is genuine and well attested — Bartholomae, AiW s.v. (BRT.txt line 5925): \"'asrū- n. 'Träne'; ai. āśrav-, np. ars\" — and appears in the compound asrū.azan- 'shedding tears' (Yt. 10.38). It continues Proto-Iranian *Hácru < PIE *h₂éḱru, with Indo-Iranian *ć > Iranian s before the following r. The SECOND form, 'asraka', is not an attested Avestan word: it is Horn's starred reconstruction, coined to explain NP ašk — Horn, Grundriss no. 88 (HRN.txt printed p.21): 'ešk ‚Thräne‘ ... aw. *asraka (vergl. skr. áśra-), *arsaka (Horn, Indog. Forsch. II, 136).' Hübschmann rejects it (see node #3). So the node is right for asrū-, over-stated for asraka.",
+          "ref_check": [
+            {
+              "ref": "POK:23",
+              "status": "supports",
+              "note": "POK_01.txt printed p.23 under 'akru': 'av. asru- n.' — the Avestan form and its attachment to the root are Pokorny's own."
+            },
+            {
+              "ref": "KLN:1578",
+              "status": "supports",
+              "note": "Klein s.v. 'tear, n., drop of liquid from the eye' (KLN_1966.txt line 38345): '... fr. I.-E. *dakru- ‚tear‘ ... cp. — without the initial dental sound — OI. ásru, Avestic asru, Toch. A akar, Lith. asara, Lett. asara.' Content is exactly Nourai's claim. Caveat: in the archive.org scan of the 1966-67 two-volume edition this entry sits on \\f-leaf 836 ≈ printed p.1648, not p.1578; the leaf→page formula for that scan drifts upward (aquiline +6, eagle +21, tear +71), so Nourai's number is probably the book's and the scan's is the drifting one."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW s.v. asrū- (BRT.txt line 5925; Mo'in cites the column as 222)",
+              "stance": "supports",
+              "note": "\"'asrū- n. 'Träne'; ai. āśrav-, np. ars\" — Bartholomae himself draws the Av. asrū- → NP ars line; no 'asraka' is listed."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 69, printed p.17 and no. 88, p.21",
+              "stance": "partial",
+              "note": "no. 69 'ers ‚Thräne‘ ... aw. asru- ‚Thräne‘; phlv. ars; ai. áśru-; lit. aszarà'; but 'asraka' appears only as Horn's starred *asraka at no. 88."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann s.v. aKərā, aKru",
+              "stance": "supports",
+              "note": "'aKərā, aKru ‚teardrop‘. Cf. dakru. WP I, 769. Skt. ásru; Av. asru; Per. ašk; Tokh. A ākär ...' — Mann puts Av. asru and NP ašk under the same reconstruction."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 16.38 TEAR (sb.)",
+              "stance": "supports",
+              "note": "'Skt. açru-, Av. asru- (in asrū-azan- ‚shedding tears‘), Toch. akar' listed under 'IE *dakru-, also *draku- and *aḱru-'."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny I 33 (WLD_Bd1 line 2331)",
+              "stance": "supports",
+              "note": "'akru ‚Träne‘. Ved. açru ... av. aṣru n. ‚Träne‘; lit. ašara f. ... Besteht eine Beziehung zu *dakru? Heringer ... nimmt ein Präfix d- an.'"
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B4%DA%A9"
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "ars",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian ars 'tear', written <ʾLS> in Book Pahlavi and <ʾrs> in Manichaean script, is the regular reflex of Old Iranian *asru-: the Iranian cluster -sr- metathesises to -rs- in Middle/New Persian (Hübschmann, Pers. Stud. p.171/p.220: 'ap. sr = np. rs: ars ‚Thräne‘ = zd. asru-'), and the final -u of the u-stem is lost. It is attested in the Bundahišn (Mo'in cites Bd. 90) and in the texts glossed by Nyberg (93¹⁷).",
+          "ref_check": [
+            {
+              "ref": "(none cited)",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; checked independently against MacKenzie and Nyberg (see 'consulted')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. ars (PHD_mackenzie.txt line 1183)",
+              "stance": "supports",
+              "note": "\"ars ['ls | M 'rs, N ~] tear (drop).\" — the Book-Pahlavi spelling, the Manichaean spelling, and 'N ~' meaning the New Persian form is identical."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (Glossary) s.v. ars",
+              "stance": "supports",
+              "note": "\"ars ['ls] tear 93¹⁷. — MPrs 'rs (Sogd. 273¹); NP ars.\""
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien, sound-change lists (HUB.txt lines 7574, 9544)",
+              "stance": "supports",
+              "note": "'sr in rs: ars ‚Thrane‘ = zd. asru-' and 'Ap. sr = np. rs: ars ‚Thrane‘ = zd. asru-' — the exact phonetic rule that turns *asru into ars."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' ed. Mo'in vol.1 p.103, Mo'in's footnote 4",
+              "stance": "supports",
+              "note": "«اوستا asrû, asrav (اشك) «بارتولمه ۲۲۲»، پهلوی ars، «بندهش ۹۰»» — Mo'in gives precisely Av. asrū > Pahl. ars."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D8%B3"
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "ars «ارس»; ašk «اشک»",
+          "verdict": "plausible",
+          "derivation": "NP ars «ارس» (now archaic/poetic) is the direct continuation of MP ars, itself < Av. asrū- < PIr *Hácru < PIE *h₂éḱru; Borhan-e Qate' p.103 defines it «و بفتح اول و سکون ثانی، اشک چشم را گویند» ('with a on the first and sukun on the second it means the tear of the eye'). The ordinary modern word ašk «اشک» is a DOUBLET, not a straight descendant of ars: it goes back to a k-suffixed *Hácru-ka- (Khotanese āṣka-, Wakhi yašk point the same way) and may have entered Persian from Parthian ʾšk /ašk/ rather than developing inside the south-western dialect, where *-sr- gave -rs-. Horn (no. 88) derived it from a reconstructed Av. *asraka; Hübschmann §88 explicitly objects: 'Da zd. asru- = skr. áśru- im Np. als ars (aus *asr) vorliegt, ist es nicht wahrscheinlich, dass ein zd. *asraka-, dem lautgesetzlich np. *asra entspräche, durch np. ašk vertreten wird', proposing instead as-k beside ars on the model of xʷas beside xusrū 'mother-in-law'. So the arrow Pahlavi ars → NP ašk is too simple, though both words are certainly from the same root.",
+          "ref_check": [
+            {
+              "ref": "BQT:103",
+              "status": "supports",
+              "note": "Read from the page image (archive.org borhan-ghate-v1 leaf n315; running head '— ۱۰۳ —'), transcription saved to data/verification/sources/refs/ocr/BQT/103.vision.txt. Entry: «ارس ... و بفتح اول و سکون ثانی، اشک چشم را گویند»; Mo'in's footnote 4: «اوستا asrû, asrav (اشك) «بارتولمه ۲۲۲»، پهلوی ars، «بندهش ۹۰»، طبری asli، مازندرانی کنونی ari و hasri». The page number, the words, both glosses and the Avestan→Pahlavi→Persian chain are all exactly as Nourai has them."
+            },
+            {
+              "ref": "HRN:17",
+              "status": "supports",
+              "note": "HRN.txt \\f-leaf 38 = printed p.17, entry no. 69: 'ers ‚Thräne‘. mäz. asr; Käs. asl, aw. asru- ‚Thräne‘; phlv. ars; ai. áśru-; lit. aszarà ... Die indog. Urform war nach Bugge *dakru-, da auch gr. dákru, acymr. dacr, air. dér, lat. lacruma, got. tagr, ahd. zahar dazu gehören sollen. Mindestens ist eine Dialektspaltung anzunehmen; vielleicht liegen aber zwei ursprünglich ganz verschiedene Worte vor.' Overleaf (p.18): 'Hierher gehört auch np. ešk ‚Thräne‘ (No. 88).' Horn supports both Persian words AND, incidentally, states the akru/dakru question Nourai's root box glosses over."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien §88 (HUB.txt line 411)",
+              "stance": "contradicts",
+              "note": "'Da zd. asru- = skr. áśru- im Np. als ars (aus *asr) vorliegt, ist es nicht wahrscheinlich, dass ein zd. *asraka- ... durch np. ašk vertreten wird' — rejects the Avestan *asraka > ašk route drawn in the chart."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann s.v. aKərā, aKru",
+              "stance": "supports",
+              "note": "lists 'Per. ašk' directly under the *aKru reconstruction."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, ARY_pages.txt pdf page 89 = printed p.90, entry اشک، ارس، سرشک",
+              "stance": "supports",
+              "note": "Aryanpur's family list for اشک/ارس runs Avestan ASRŪ- / Pahlavi ARS / Sanskrit AŚRU, AŚRAM / Greek DAKRU / Latin LACRIMA, DACRIMA / OE TEAR / NE TEAR — the same merged akru+dakru family as Nourai's box."
+            },
+            {
+              "src": "MON",
+              "where": "vajehyab/Mo'in (not reachable offline); local MON_part1/2 have no اشک headword page",
+              "stance": "silent",
+              "note": "the two-volume Adena text of Mo'in on disk does not carry the اشک entry with its bracketed origin tag; Mo'in's etymology is however quoted verbatim in his BQT footnote above."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B4%DA%A9",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D8%B3"
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Germanic",
+          "words": "tahr",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *tahrą (beside *tagrą) 'tear' is the regular Germanic outcome of PIE *dáḱru: Grimm's law turns *d- into *t- and the palatal *ḱ into *h (before the *-r- also *g by Verner/analogy), whence Gothic tagr, Old Norse tár, OHG zahar (NHG Zähre), OE tēar/teagor. Nourai's 'tahr' is Watkins's *tahr- exactly.",
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 358: 'dakru-. Tear. 1. Germanic *tahr-, *tagr- in: a. Old English téar, tehher, tear: TEAR²; b. Middle Low German tran ...; 2. Suffixed form *dakru-ma in Latin lacrima (Old Latin dacruma). [Pok. dakru- 179.]' — verbatim Nourai's node, and it is also the source of his 'POK:179'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "printed p.179 s.v. dakrú",
+              "stance": "supports",
+              "note": "'germ. *tāhr- und tagr-: got. tagr n. ‚Träne‘, anord. tár n. (aus *tahr-), ags. tæhher, tear, teagor m., ahd. zahar m.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny I 769 (WLD_Bd1 line 48475 ff.)",
+              "stance": "supports",
+              "note": "same Germanic set under 'dakru n. ‚Träne‘'; adds 'Idg. *dakru ist wahrscheinlich aus *drakru dissimiliert'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. tear, n.",
+              "stance": "supports",
+              "note": "'OE. tear, contraction of teagor, rel. to ON., OFris. tar, OHG. zah(h)ar, MHG. zaher, G. Zähre, Goth. tagr, ‚tear‘, fr. I.-E. *dakru-'."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 16.38",
+              "stance": "supports",
+              "note": "'ON tár, OE téar, OHG zahar, etc. ... with gramm. change Goth. tagr, OE teagor'."
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/tear",
+            "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/d%C3%A1%E1%B8%B1ru"
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "tear 1",
+          "verdict": "confirmed",
+          "derivation": "OE tēar (a contraction of the older teagor, itself < PGmc *tagrą) > ME tere, ter > NE tear (the noun, 'tear 1' as against the homograph 'tear 2' = to rend, from an unrelated PIE *der- 'flay'). No borrowing is involved; the word is inherited straight down the Germanic line from *tahr-/*tagr-.",
+          "ref_check": [
+            {
+              "ref": "(none cited)",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; checked against Klein, Skeat, Buck and Etymonline (see 'consulted')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. tear, n. and tear, tr. and intr. v.",
+              "stance": "supports",
+              "note": "Klein separates exactly the two homographs Nourai's 'tear 1' presupposes: 'tear, n., drop of liquid from the eye. — ME. tere, ter, tear, fr. OE. tear, contraction of teagor' vs 'tear, tr. and intr. v., to put apart, rend ... fr. I.-E. *dere-'."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 16.38",
+              "stance": "supports",
+              "note": "'OE téar, teagor / ME tere / NE tear' in the descent column."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. train-oil (SKT.txt line 19257-59)",
+              "stance": "supports",
+              "note": "'Mod. Du. traan, a tear, G. trähne ... is allied to Dan. taar, a tear, and to E. tear' — same Germanic family."
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. tear (n.1)",
+              "stance": "supports",
+              "note": "'from Old English tear ... from Proto-Germanic *tahr-, *tagr-, from PIE root *dakru-'."
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/tear"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Akwa",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂ékʷeh₂ '(flowing) water' (Pokorny's akʷā-, 'richtiger okʷā-': ekʷ-)",
+      "note": "The root box is right; the trouble on this page is the EAGLE branch. Nourai hangs Av. 'arva' → Pahl. āluh → NP āleh, and Lat. 'aqualius' → Fr. aigle → Eng. eagle, on *akʷā- 'water'. Two independent problems: (a) 'arva' is not Avestan at all — it is the Pāzand/Middle-Persian form arvā of Bundahišn 14:23, which Mo'in cites in his own footnote at BQT p.58 and which Horn no. 43 quotes as 'arvā (Bund.) in Zendbuchstaben'; Bartholomae's AiW has no such word, Avestan for 'eagle' being ərəzifya- or saēna-. Nyberg derives Pahl. āluh from OP *ardūfya- < *ardifya- = Av. ərəzifya-, and Wiktionary from PIr *Hr̥jifyáh < PIE *h₂rǵ-i-pt-ió-s 'white/swift-flying' — i.e. the Iranian eagle-word has nothing to do with 'water'. (b) The Latin word is not 'aqualius' (no such Latin form exists); it is aquila 'eagle', fem. of aquilus 'dark-coloured'. The step aquilus < aqua is a Roman folk etymology reported by Festus ('aquilus autem color est ab aqua nominatus') and is rejected by Ernout-Meillet, LAT s.v. aquilus: 'L'explication par aqua rend mal compte du sens de l'adjectif; on ne voit pas pourquoi l'eau aurait été prise pour désigner une couleur tirant sur le noir'; de Vaan and Etymonline likewise call it uncertain. Pokorny p.23 does report it ('davon aquilus ‚dunkel‘, aquila ‚Adler‘, eigentl. ‚der Dunkelfarbige‘'), which is presumably where Nourai took it from, so the branch is old-fashioned rather than invented. Aryanpur (ARY p.68) records the same split: 'PARTRIDGE holds this word may be cognate with Latin AQUA (water)', while 'ONIONS and SKEAT go back only to the Latin root AQUILA' and Pokorny takes the Iranian, Armenian and Greek words from *er-/*or- 'eagle, large bird'. The water branches proper (Latin aqua, French eau/eau de Cologne, English aquarium/aquatic, Germanic *ahwjō → island) are all sound.",
+      "ref_check": [
+        {
+          "ref": "POK:23",
+          "status": "supports",
+          "note": "POK_01.txt \\f-page 31 (printed p.23): 'akʷā- (richtiger okʷā-): ekʷ- ‚Wasser, Fluß‘. Lat. aqua ‚Wasser, Wasserleitung‘ (davon aquilus ‚dunkel‘, aquila ‚Adler‘, eigentl. ‚der Dunkelfarbige‘, aquilō ‚Nordwind‘) = got. aƕa f. ‚Fluß, Gewässer‘, aisl. á, ags. ēa, as. ahd. aha ... (germ. *ahwō, davon abgeleitet *ahwjō, *awjō ‚die vom Wasser Umgebene‘ in aisl. ey f. ‚Insel, Aue‘, ags. īeg, ahd. -ouwa ...), vgl. afries. ei-land ‚Insel‘.' This one page underwrites the root, the Latin node, the eagle claim AND the Germanic 'island' node."
+        }
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/h%E2%82%82ek%CA%B7eh%E2%82%82"
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Latin",
+          "words": "aqua",
+          "verdict": "confirmed",
+          "derivation": "Latin aqua 'water' is the standard Italic reflex of PIE *h₂ékʷeh₂, cognate with Gothic aƕa 'river', OE ēa, OHG aha, and (probably) the Lusitanian river-word aqua. The root is 'suspiciously limited to a few western Indo-European branches' (Wiktionary), and Ernout-Meillet stress that it named water as an active, divine being rather than water as a substance (that is *wódr̥, Lat. unda).",
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 277: 'akwa-. Water. 1. Germanic *agwjō becoming *aujō, ‚thing on the water‘, in Old English ig, ieg, island ...' — Watkins's root entry, headed by Latin aqua."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "printed p.23 s.v. akʷā-",
+              "stance": "supports",
+              "note": "'Lat. aqua ‚Wasser, Wasserleitung‘ ... = got. aƕa f. ‚Fluß, Gewässer‘.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny I 34 (WLD_Bd1 line 2387)",
+              "stance": "supports",
+              "note": "'aqʷā ‚Wasser, Fluß‘. Lat. aqua ‚Wasser‘, got. aha ‚Fluß, Gewässer‘, aisl. ǿ, ae. ēa, afries. ā, e, as. ahd. aha f. ‚Fluß‘, nhd. Ache, russ. Fl.-Name Oka.'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. aqua (LAT.txt line 4590 ff.)",
+              "stance": "supports",
+              "note": "'aqua a son correspondant exact en germanique: got. ahwa ... Le germanique offre d'autre part un dérivé attesté par v.h.a. ouwo (all. mod. Au) ‚prairie marécageuse, île‘, et le nom propre Scandin-auia.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 1.31 WATER",
+              "stance": "supports",
+              "note": "'2. IE *akva- or *akwa-. Walde-P. 1.34 f. ... Lat. aqua with its Romance derivatives. Elsewhere mostly of ‚running water‘.'"
+            },
+            {
+              "src": "LEW",
+              "where": "LEW_1910.txt",
+              "stance": "silent",
+              "note": "the local OCR of Walde's Lateinisches etymologisches Wörterbuch (1910) is unusable — a grep for 'aqua' and 'aquila' returns nothing at all; used LAT (Ernout-Meillet) instead."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/h%E2%82%82ek%CA%B7eh%E2%82%82"
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Avestan",
+          "words": "arva, arvâ",
+          "verdict": "disputed",
+          "derivation": "Two things go wrong here. (i) The language label: arvā is not Avestan. It is a Pāzand form written in Avestan characters in the Middle-Persian Bundahišn — Horn no. 43 (HRN.txt printed p.10): 'āluh ‚Adler‘. phlv. āluh (Kārn. 59, Note 2), vergl. arvā (Bund.) in Zendbuchstaben'; Mo'in says the same at BQT p.58: «و نیز در بندهش (۱۴:۲۳) arvâ بمعنی عقاب آمده». Bartholomae's Altiranisches Wörterbuch has no arva-; the real Avestan words for 'eagle' are ərəzifya- (col. 354) and saēna-. (ii) The edge: as drawn the node descends from Latin aqua, which is impossible in both direction and family — an Iranian word cannot come out of Latin, and even as a shorthand for 'same root as' the connection fails, since Pahl. āluh/arvā goes back to PIr *Hr̥jifyáh < PIE *h₂rǵ-i-pt-ió-s (from *h₂erǵ- 'white, glittering', cf. Skt. r̥jipyá-, Gk. αἰγυπιός), not to *h₂ékʷeh₂ 'water'. Nourai's own NOTE concedes that his source VFO 'does not provide any derivation'.",
+          "ref_check": [
+            {
+              "ref": "VFO:15",
+              "status": "not_checked",
+              "note": "VFO = M. Ahmad Soltani, Vaj̱hgan-e Farsi dar Zabanha-ye Orupa'i, Tehran 1372/1993. refs_online.json has no record for VFO at all (value null) and no scan or copy exists in the local library or online; unverifiable. Nourai's own chart note already flags that VFO asserts the cognacy without any derivation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch, searched for arva-/aurva-/'Adler'",
+              "stance": "contradicts",
+              "note": "no headword arva- 'eagle' exists; Bartholomae's eagle-words are 'ərəzi-fya- m. ‚Adler‘' (BRT.txt line 7718) and 'saēna- m. Name eines grossen Raubvogels, wohl des Adlers' (line 25786)."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss no. 43, printed p.10",
+              "stance": "partial",
+              "note": "gives the form ('vergl. arvā (Bund.) in Zendbuchstaben') but labels it Bundahišn, i.e. Middle Persian in Avestan script, and connects āluh not with aqua but with 'gr. ὄρνις ‚Vogel‘; ksl. orĭlŭ ‚Adler‘; lit. erelis; got. ara; cymr. eryr'."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.1 p.58, Mo'in's footnote 6",
+              "stance": "partial",
+              "note": "confirms the word and its source text — «در کارنامهٔ اردشیر بابکان (۱۴ : ۱۲) āluh بمعنی عقاب بکار رفته است و نیز در بندهش (۱۴ : ۲۳) arvâ بمعنی عقاب آمده» — but places it in a Pahlavi text, not in the Avesta, and offers no link to 'water'."
+            },
+            {
+              "src": "web",
+              "where": "Wiktionary s.v. Persian آله",
+              "stance": "contradicts",
+              "note": "MP āluh < Proto-Iranian *Hr̥jifyáh < PII *Hr̥ǳipyás < PIE *h₂rǵ-i-pt-ió-s (: *h₂erǵ- 'white, glittering'), cognate Avestan ərəzifiia, Old Armenian arcui — no relation to *h₂ekʷeh₂."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%87"
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "alŭh",
+          "verdict": "disputed",
+          "derivation": "The word itself is impeccable: Middle Persian āluh <ʾlwh>, Manichaean <ʾlwf>, 'eagle', attested in the Kārnāmag ī Ardašīr ī Pābagān 14:12 and in the Bundahišn (as Pāzand arvā). What is wrong is the parentage. Nyberg derives it 'MPrs ʾawf (List 79); NP āluh, < OP *ardūfya- < *ardifya-, Av. ərəzifya-' — that is, from Old Iranian *r̥difya- 'eagle' with the regular Middle Persian development *rd > l and loss of the palatal glide, giving āluh; Wiktionary's PIr *Hr̥jifyáh is the same reconstruction. Descent from Latin aqua via an 'Avestan arva' (as the chart draws it) has no support anywhere; Hübschmann §43 says only 'die Bildung von phl. np. āluh ist dunkel'.",
+          "ref_check": [
+            {
+              "ref": "BQT:58",
+              "status": "supports",
+              "note": "Read from the page image (archive.org borhan-ghate-v1 leaf n268; running head '— ۵۸ —'), transcription saved to data/verification/sources/refs/ocr/BQT/58.vision.txt. Mo'in, fn. 6: «در همهٔ فرهنگها آله بمعنی عقاب آمده ... در کارنامهٔ اردشیر بابکان (۱۴ : ۱۲) āluh بمعنی عقاب بکار رفته است». Supports the Pahlavi word and its gloss (not the parentage)."
+            },
+            {
+              "ref": "MPP:79",
+              "status": "not_found",
+              "note": "MPP = Henning, 'Mitteliranisch' (HdO I.4.1, 1958). MPP.txt \\f-leaf 65, which carries the printed page number '79' at the head, is §29-30 on the Sogdian-Syriac script and the oldest Judeo-Persian documents — nothing about āluh or eagles. The citation is probably meant for Henning's other work, the 'List of Middle-Persian and Parthian words' (Nourai's LST), since Nyberg's āluh entry cites exactly 'MPrs ʾawf (List 79)'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. āluh (PHD.txt line 189; English index line 1720)",
+              "stance": "supports",
+              "note": "'Āluh [ʾlwh | M ʾlf, N ~] eagle'; the index reads 'eagle āluh, dalman, humāy'. Word and gloss confirmed."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II s.v. aluh",
+              "stance": "contradicts",
+              "note": "'aluh [ʾlwh] eagle ... — MPrs ʾawf (List 79); NP āluh, < OP *ardūfya- < *ardifya-, Av. (354) arəzifya-.' A completely different etymology from Nourai's water-root."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien §43 (HUB.txt line 164)",
+              "stance": "partial",
+              "note": "'Zu āluh ‚Adler‘ vgl. die kurd. Formen hālā etc. ... Die Bildung von phl. np. aluh ist dunkel, die Zugehörigkeit zu ὄρνις u.s.w. daher nicht sicher.' Sceptical of Horn's bird-root too, but never entertains 'water'."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, ARY_pages.txt pdf page 67 = printed p.68, entry آله، آلوه، الوه",
+              "stance": "partial",
+              "note": "lists Avestan ərəzifya-, Old Persian *ard(u)fya-, Pahlavi ĀLUH, Armenian ARCUI, Latin AQUILA, French AIGLE and cites 'برهان قاطع ۵۸' (the same BQT page Nourai cites); footnote 3 records 'PARTRIDGE holds this word may be cognate with the Latin word AQUILA/AQUA (water)' as one scholar's opinion, while footnote 4 has Pokorny take the Iranian, Armenian and Greek forms from *er-/*or- instead."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%87"
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "âleh «آله ( لِه ، آلغ ، آلوه ، آل )»",
+          "verdict": "confirmed",
+          "derivation": "The edge Pahlavi āluh → New Persian āleh/āloh is correct and regular: MP āluh loses the final -h in pronunciation and the -u- is lowered, giving āleh, with the by-forms leh (aphaeresis of the initial ā-), āloš/āloh, ālɣ (Gilaki) and āl. Borhan-e Qate' p.58 defines it «مرغی ... که بر کوههای بلند آشیانه کند ... و بتازی عقاب گویند» and cites the very verse of Farqadī that Nourai reproduces. The word is now rare, عقاب and دال having replaced it. Only the ultimate ancestry drawn upstream (Latin aqua) is wrong — see nodes #2 and #3.",
+          "ref_check": [
+            {
+              "ref": "MON:85",
+              "status": "partial",
+              "note": "Mo'in's Farhang-e Farsi does carry the word: MON_part1.txt line 97099, under عقاب, glosses 'آله، آلغ. عقاب آهنین منقار', and MON_part2.txt line 41218 has 'له: [= آله = آلوه = اله] (جان.) عقاب', MON_part1.txt line 16467 'اله: [= آله] عقاب، آله'. Nourai's four by-forms له / آلغ / آلوه / آل are exactly Mo'in's. The local two-volume Adena text of Mo'in carries no page markers, so the specific page 85 could not be confirmed."
+            },
+            {
+              "ref": "BQT:58",
+              "status": "supports",
+              "note": "Page image read directly (see data/verification/sources/refs/ocr/BQT/58.vision.txt): the entry and Mo'in's footnote 6 give آله = عقاب, the dialect forms 'هلو' (Kurdish), 'اله' (Mazandarani), 'آلغ' (Gilaki), Tabari alleh, modern Mazandarani allē/alē — and the Farqadī couplet «مثل دشمنان تو با تو / حیلهٔ کبک و حمله های له است», i.e. exactly the quotation printed in this chart node."
+            },
+            {
+              "ref": "VFO:15",
+              "status": "not_checked",
+              "note": "no copy of Ahmad Soltani's Vaj̱hgan-e Farsi dar Zabanha-ye Orupa'i exists in the local library or online (refs_online.json record is null)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1 line 97099 (s.v. عقاب) and MON_part2 line 41218 (s.v. له)",
+              "stance": "supports",
+              "note": "'له: [= آله = آلوه = اله] (جان.) عقاب.' — Mo'in's chain of by-forms matches Nourai's parenthesis exactly."
+            },
+            {
+              "src": "BQT",
+              "where": "vol.1 p.58",
+              "stance": "supports",
+              "note": "see ref_check above; the definition, the dialect forms and the Farqadī verse."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss no. 43, printed p.10",
+              "stance": "supports",
+              "note": "'āluh ‚Adler‘. phlv. āluh (Kārn. 59, Note 2)' — Horn lemmatises the New Persian word and derives it from the Pahlavi one, exactly this edge."
+            },
+            {
+              "src": "web",
+              "where": "Wiktionary s.v. آله (Etymology 1)",
+              "stance": "supports",
+              "note": "'آله (āloh) eagle (rare) — from Middle Persian āluh'; cognates Gilaki aluɣ, Mazandarani alle, N. Kurdish eylo/êlo, Bakhtiari ālō."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%87"
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "aqualius",
+          "verdict": "disputed",
+          "derivation": "There is no Latin word 'aqualius'. What Nourai means — his own gloss 'water (dark) colored bird, eagle' is a paraphrase of Klein's wording — is aquila 'eagle', explained by the Romans as the feminine of aquilus 'dark-coloured', itself supposedly 'water-coloured' from aqua. Klein (KLN:97, s.v. aquiline) states it in just those terms: 'L. aquilinus ... fr. aquila, ‚eagle‘, prob. lit. ‚the dark-colored (bird)‘, fem. of aquilus, ‚dark-colored‘, prop. ‚water-colored‘, fr. aqua, ‚water‘'; Funk & Wagnalls (FSD:779) has '< F. aigle, < L. aquila, orig. f. of aquilus, dark-colored'. But the aqua-etymology goes back to Festus ('aquilus autem color est ab aqua nominatus') and modern Latinists reject it: Ernout-Meillet, s.v. aquilus, 'L'explication par aqua rend mal compte du sens de l'adjectif; on ne voit pas pourquoi l'eau aurait été prise pour désigner une couleur tirant sur le noir', and s.v. aquila, 'le nom de l'aigle ... varie d'une langue indo-européenne à l'autre et résulte partout d'arrangements relativement récents'. De Vaan reverses the direction (aquilus 'dark' may itself be from aquila). Disputed both for the impossible form and for the aqua > aquilus step.",
+          "ref_check": [
+            {
+              "ref": "KLN:97",
+              "status": "supports",
+              "note": "Klein s.v. aquiline (KLN_1966.txt line 3269, \\f-leaf 63): 'L. aquilinus ... fr. aquila, ‚eagle‘, prob. lit. ‚the dark-colored (bird)‘, fem. of aquilus, ‚dark-colored‘, prop. ‚water-colored‘, fr. aqua, ‚water‘. See aquatic ... and cp. eagle.' Note that Klein's form is aquilus/aquila, never 'aqualius'."
+            },
+            {
+              "ref": "KLN:494",
+              "status": "supports",
+              "note": "Klein s.v. eagle (KLN_1966.txt line 12529, \\f-leaf 269): 'ME. egle, fr. OF. egle, aigle (F. aigle), fr. L. aquila, ‚eagle‘ ... See aquiline.'"
+            },
+            {
+              "ref": "WEB:569",
+              "status": "supports",
+              "note": "Webster's New Twentieth Century, 2nd ed., s.v. eagle (WEB_vol1.txt line ~60670, \\f-leaf 601, which maps to printed p.569): '[ME. egle; OFr. egle, aigle; ... L. aqui[la]]'. The 'Aquila / aquiline / Aquilo' cluster earlier in the volume adds 'L. aquilinus, from aquila'."
+            },
+            {
+              "ref": "FSD:779",
+              "status": "supports",
+              "note": "Funk & Wagnalls New Standard, vol. II, s.v. eagle (FSD_vol2.txt line 4286, \\f-leaf 48 → printed p.779): '[ < F. aigle, < L. aquila, orig. f. of aquilus, dark-colored.]' — exactly Nourai's gloss, and the page number checks out."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. aquila and aquilus (LAT.txt lines 4608, 4633)",
+              "stance": "contradicts",
+              "note": "aquila: 'résulte partout d'arrangements relativement récents' (no root etymology); aquilus: 'Les anciens le rapprochent de aquila, et en font un dérivé de aqua (d'après nubilus, nubes); ainsi Festus ... L'explication par aqua rend mal compte du sens de l'adjectif.'"
+            },
+            {
+              "src": "POK",
+              "where": "printed p.23 s.v. akʷā-",
+              "stance": "supports",
+              "note": "'Lat. aqua ... (davon aquilus ‚dunkel‘, aquila ‚Adler‘, eigentl. ‚der Dunkelfarbige‘, aquilō ‚Nordwind‘)' — Pokorny does place aquila under the water-root, which is presumably Nourai's warrant."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. aquiline and s.v. subaqueous (SKT.txt lines 850, 849)",
+              "stance": "partial",
+              "note": "'Aquiline, like an eagle. (F.-L.) F. aquilin ... L. aquilinus, adj. from aquila, an eagle' — Skeat stops at Latin aquila and does not connect it to aqua (Aryanpur's fn. 2 says the same of Skeat and Onions)."
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. eagle",
+              "stance": "partial",
+              "note": "'Some scholars propose it derives from aquilus, ‚the dark colored‘ bird ... The color word aquilus itself may trace back to Latin aqua, though this connection is disputed'; quotes de Vaan reversing the derivation."
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/eagle"
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "aigle",
+          "verdict": "confirmed",
+          "derivation": "French aigle 'eagle' does come from Latin aquila, but not by inherited descent — the regular Old French outcome of aquila would have been *aille; the attested OF egle/aigle is a borrowing (13th c.) of Old Occitan/Provençal aigla, which shows the southern treatment of intervocalic -qu- as -g-. Cf. It. aquila, Sp. águila, Port. águia, Rum. aceră, all from aquila. Klein's entry names the Provençal link.",
+          "ref_check": [
+            {
+              "ref": "KLN:494",
+              "status": "supports",
+              "note": "Klein s.v. eagle: 'ME. egle, fr. OF. egle, aigle (F. aigle), fr. L. aquila, ‚eagle‘, whence also It. aquila, Rum. aceră, Provenç. aigla, Sp. aguila, Port. aguia, of s.m.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. II p.779 s.v. eagle",
+              "stance": "supports",
+              "note": "'[ < F. aigle, < L. aquila ]' — the same Latin > French > English chain."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's 2nd ed. p.569 s.v. eagle",
+              "stance": "supports",
+              "note": "'[ME. egle; OFr. egle, aigle; Pr. [aigla]; L. aqui[la]]'."
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. eagle",
+              "stance": "supports",
+              "note": "'from Old French egle, from Old Provençal aigla, from Latin aquila' — explicitly the Occitan mediation."
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/eagle"
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "eagle",
+          "verdict": "confirmed",
+          "derivation": "Borrowed in the mid-14th century from Old French egle/aigle, replacing the inherited native OE earn 'erne' (< PGmc *aran-, PIE *h₃er- 'large bird'). ME egle > NE eagle, with the modern -ea- spelling reflecting the ME long open ē. The word entered heraldic and then coin usage (the US ten-dollar 'eagle'); the golf sense is 1908.",
+          "ref_check": [
+            {
+              "ref": "KLN:494",
+              "status": "supports",
+              "note": "Klein s.v. eagle: 'ME. egle, fr. OF. egle, aigle (F. aigle), fr. L. aquila.' — exactly the arrow drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. aquiline (SKT.txt line 850)",
+              "stance": "supports",
+              "note": "'F. aquilin ... L. aquilinus, adj. from aquila, an eagle' — Skeat's eagle-family stops at Latin aquila."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. II p.779 s.v. eagle",
+              "stance": "supports",
+              "note": "'[ < F. aigle, < L. aquila, orig. f. of aquilus, dark-colored.]'"
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. eagle",
+              "stance": "supports",
+              "note": "'mid-14c., from Old French egle ... Native term was erne.'"
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/eagle"
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "French",
+          "words": "aquarium; eau : water; eau de Cologne : water (perfume) of Cologne",
+          "verdict": "plausible",
+          "derivation": "eau is the regular French descendant of Latin aqua: aqua > Vulgar Latin *awa > Old French ewe/eve (11th c.) > eaue > eau, the modern spelling fossilising a diphthongisation that is no longer pronounced ([o]). eau de Cologne, coined at Cologne in 1709 by Giovanni Maria Farina, is literally 'water of Cologne', the city name going back to Colonia (Agrippina). But 'aquarium' is NOT a French word inherited from aqua: Klein files it as 'L. aquarium, neut. of the adjective aquarius, ‚pertaining to water‘, used as a noun', and the modern sense was coined in English in 1830 (P. H. Gosse's 1854 book The Aquarium popularised it); French acquired aquarium as a learned borrowing of the same Latin word. Hence 'plausible': two of the three words are exactly right, the third is misfiled as French.",
+          "ref_check": [
+            {
+              "ref": "KLN:495",
+              "status": "supports",
+              "note": "Klein (KLN_1966.txt line 12563, \\f-leaf 270, the leaf immediately after 'eagle' at KLN:494): 'Eau de Cologne, cologne. — F., lit. ‚water of Cologne‘. See eau de vie and cologne', and line 12564 'eau de vie, brandy. — F. eau-de-vie, lit. ‚water of life‘, fr. L. aqua, ‚water‘ ... See aquatic'. Supports 'eau' and 'eau de Cologne'; but Klein's own 'aquarium' entry (line 3263) labels it Latin, not French."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. aquarium, cologne, ewer",
+              "stance": "partial",
+              "note": "'aquarium, n. — L. aquarium, neut. of the adjective aquarius'; 'cologne ... Shortened fr. eau de Cologne, lit. ‚water of Cologne‘, fr. Cologne, French name of Köln in Germany, orig. called Colonia Agrippina'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. aqua",
+              "stance": "supports",
+              "note": "lists the Romance and learned derivatives of aqua, incl. 'aquarium v.h.a. ahhāri' — confirming aquarium as a Latin, not a native French, formation."
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. aquarium",
+              "stance": "partial",
+              "note": "'1830, ‚artificial pond ...‘, from Latin aquarium ‚drinking place for cattle‘, noun use of neuter of adjective aquarius ‚pertaining to water‘' — an English coinage, not French."
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/aquarium"
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "âkvârîŭm «آکواریوم»; odokolon «ادوکلن ( ادکلن )»",
+          "verdict": "confirmed",
+          "derivation": "Both are 20th-century European loans into Persian, and the chart's French source is right for the second and effectively right for the first. ادکلن odkolon / odokolon is French eau de Cologne taken over as a single unanalysed word, the French [o də kɔlɔɲ] being rendered ʾod(o/e)-kolon with the Persian stress on the last syllable; the variant ادوکلن spells the -o- of 'de' out. آکواریوم ākvāriy(y)om reproduces French/English aquarium letter by letter (qu > کو), i.e. ultimately Latin aquarium; it is a technical borrowing of the aquarium-keeping era, not a native formation.",
+          "ref_check": [
+            {
+              "ref": "VOP:14,39",
+              "status": "not_checked",
+              "note": "VOP = Mahshid Moshiri, Farhang-e Vazheha-ye Orupāyi dar Farsi, Alborz 1371/1992. refs_online.json records kind 'none': searched archive.org, ketabnak, noorlib and the open web with no result; obtainable second-hand only. Not verifiable."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "web",
+              "where": "Wiktionary s.v. Persian ادکلن",
+              "stance": "supports",
+              "note": "'Borrowed from French eau de Cologne, literally ‚cologne water‘'; pronunciations [ʔod̮kolon], [ʔod̮ekolon], [ʔod̮okolon] — the last is Nourai's odokolon."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1/part2 and the Adena two-volume text, searched for ادکلن and آکواریوم",
+              "stance": "silent",
+              "note": "neither word occurs; Mo'in's foreign-vocabulary volume (vol. 4), which is where such loans are treated, is not part of the local corpus."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' (1062 AH)",
+              "stance": "silent",
+              "note": "a 17th-century dictionary; it cannot contain 19th-/20th-century European loans, so its silence is expected rather than evidence."
+            }
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%AF%DA%A9%D9%84%D9%86",
+            "https://www.etymonline.com/word/aquarium"
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "aquarium, aqua, aquatic",
+          "verdict": "confirmed",
+          "derivation": "All three are learned Latinisms rather than inherited words: aqua is Latin aqua used directly (in pharmacy from the 15th c., e.g. aqua fortis, aqua vitae); aquatic is from French aquatique < Latin aquāticus 'found in the water'; aquarium is the neuter of Latin aquarius pressed into service in 1830 for a garden pond and by 1853 for a glass tank. Since Latin aqua < PIE *h₂ékʷeh₂, the arrow from the Latin node is correct.",
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. akwa-: the root entry lists Latin aqua as the source of the English aqua-words (index entries AQUARIUM/AQUATIC → akwa-)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. aquatic, aquarium, aqua fortis",
+              "stance": "supports",
+              "note": "'aquatic, adj. — F. aquatique, fr. L. aquāticus, ‚found in the water, watery‘, fr. aqua, ‚water‘, which is cogn. with Goth. aƕa ... ON ey, OE īeg, ‚island‘, Hitt. akw-anzi, ‚they drink‘.'"
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. aquarium",
+              "stance": "supports",
+              "note": "'from Latin aquarium ... from aqua ‚water‘, from PIE root *akwa- ‚water‘.'"
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/aquarium"
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Germanic",
+          "words": "ahwjo, aujo",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *ahwō 'river, water' (= Latin aqua, Gothic aƕa) forms a feminine derivative *ahwjō 'the one surrounded by water', which loses the -h- before the glide to give *awjō/*aujō; hence ON ey 'island', OE īeg/īg, OHG -ouwa/ouwe (NHG Aue 'water-meadow'), and the compound *awjaland > OFris. eiland, Du. eiland, Ger. Eiland. Nourai's two spellings ahwjo / aujo are the two stages of exactly this development (Watkins writes them *agwjō > *aujō).",
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 277: 'akwa-. Water. 1. Germanic *agwjō becoming *aujō, ‚thing on the water‘, in Old English ig, ieg, island ...' — including Nourai's gloss '(thing on) water, island' word for word."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "printed p.23 s.v. akʷā-",
+              "stance": "supports",
+              "note": "'germ. *ahwō, davon abgeleitet *ahwjō, *awjō ‚die vom Wasser Umgebene‘ in aisl. ey f. ‚Insel, Aue‘, ags. īeg, ahd. -ouwa, -awa, mhd. ouwe f.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny I 34",
+              "stance": "supports",
+              "note": "'Hierzu germ. ahwī, ahwjō f. ‚Wasser, -land, Aue, Insel‘: aisl. ey ... ags. īeg f. ‚Insel‘ ... nhd. Aue.'"
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. aquatic and island",
+              "stance": "supports",
+              "note": "'OHG. auwia, ouwa, MHG. ouwe, G. Au, ‚meadow watered by a brook‘ ... ON. ey, OE. īeg, ‚island‘.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 1.25 ISLAND",
+              "stance": "supports",
+              "note": "'ON ey, eyland ... OE īg, īgland ... fr. a fem. deriv. (in part + land) of the word seen in Goth. ahwa ‚river‘, OE ēa ‚water, river‘, Lat. aqua ‚water‘. Walde-P. 1.34.'"
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/island",
+            "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/h%E2%82%82ek%CA%B7eh%E2%82%82"
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "island",
+          "verdict": "confirmed",
+          "derivation": "OE īgland/īegland = īeg 'island' (< PGmc *awjō < *ahwjō, from *ahwō 'water' = Latin aqua) + land; ME iland, yland (c.1300); the -s- is a false learned insertion of the 1590s, by association with the etymologically unrelated isle (OF isle < Latin īnsula). In English place-names īeg often denotes slightly raised dry ground in marshland (Isle of Ely). So the derivation from the water-root is right, and only the modern spelling is a red herring — worth stating, since a chart like this could be read as deriving the -s- from Latin too.",
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. akwa-: 'Germanic *agwjō becoming *aujō, ‚thing on the water‘, in Old English ig, ieg, island' — Watkins lists ISLAND under this root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. island (KLN_1966.txt line 19967)",
+              "stance": "supports",
+              "note": "'ME. iland, fr. OE. egland, igland, iegland ... compounded of eg, ig, ieg, ‚island‘, and land ... The first element ... is rel. to OE. ea, ‚water, river‘, ON. á, ‚river‘, ey, ‚island‘ ... OHG. aha, ‚river‘.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 1.25 ISLAND",
+              "stance": "supports",
+              "note": "'OE īg, īgland, ME iland, NE island (with spelling influenced by isle)' — explicitly notes the intrusive s."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Eyot and s.v. subaqueous (SKT.txt lines 6176, 849)",
+              "stance": "supports",
+              "note": "'Eyot, a little island ... The A.S. form is īgoð, īgeað; where īg is cognate with Icel. ey; see Island', and under subaqueous 'And see Ait, Eyot, Island' — Skeat too files island under the aqua family."
+            },
+            {
+              "src": "web",
+              "where": "etymonline s.v. island",
+              "stance": "supports",
+              "note": "'from Old English igland, iegland ... from Proto-Germanic *awjo ‚thing on the water‘, from PIE root *akwa- ‚water‘ ... spelling modified 16c. by association with similar but unrelated isle.'"
+            }
+          ],
+          "sources": [
+            "https://www.etymonline.com/word/island"
+          ]
+        }
+      ]
+    }
+  ]
+}
