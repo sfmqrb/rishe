@@ -1,0 +1,216 @@
+{
+  "pdf_page": 126,
+  "book_page": 96,
+  "verified_by": "claude-fable-5-1",
+  "verified_on": "2026-09-04",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Dheigh, Dhigha",
+      "verdict": "confirmed",
+      "modern_form": "PIE *dʰeyǵʰ- 'to knead, form, build (of clay)'; o-grade noun *dʰóyǵʰos 'something kneaded/formed' > 'wall; dough'",
+      "note": "Pokorny IEW 244 dheiĝh- 'Lehm kneten und damit mauern oder bestreichen (Wand, Mauer; Töpferei); auch vom Teigkneten' is exactly Nourai's gloss; AHD dheigh- 'to form, build' cites 'Pokorny dheiĝh- 244'. Wiktionary (Rix LIV 140-141, Kroonen, de Vaan, Beekes) agrees. Nourai's second spelling 'Dhigha' is his rendering of the zero-grade/extended variant (Pokorny gives dheiĝh-, dhoiĝho-s, dhiĝh-lo-s). Two of his branches are weak: the OP 'daika > dīg' branch is rejected by modern Iranian etymology (see nodes 11-12), and the Sogdian, Persian dež and ferdows nodes are cognates/round-trip loans rather than lineal descendants of the parents drawn.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰeyǵʰ-",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos",
+        "https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=dheigh-",
+        "https://www.etymonline.com/word/*dheigh-",
+        "https://starlingdb.org/cgi-bin/etymology.cgi?root=config&basename=%2Fdata%2Fie%2Fpokorny&text_recno=1208&single=1"
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Old Persian",
+          "words": "didâ, děğa-vâra",
+          "verdict": "transcription_suspect",
+          "derivation": "OP didā- f. 'wall, fortress' is genuinely attested: DSf (Darius' Susa foundation charter) line 54 'tyaiy didām apiθa' — 'the men who adorned the wall were Medes and Egyptians' (Kent's Lexicon p. 191, which is Nourai's KNT:191). It is the regular SW-Iranian reflex of PIr *daizah < PIE *dʰóyǵʰos: Proto-Iranian *ǰ (< PIE *ǵʰ) gives Old Persian d where Avestan/Median give z (cf. Av. daēza-), and the reduplicated-looking di-dā- shows the OP treatment (Asatrian 2017, 'SWIran. *didā- fortress, walled residence'). The second word is not an attested OP word but Horn's/Hübschmann's reconstruction of the ancestor of dīvār, i.e. *daiza-vāra- 'wall-enclosure' (HRN:133); the JSON form 'děğa-vâra' with ě and ğ is almost certainly a scan misreading of the book's 'dēza-vâra' or 'daiza-vâra' (Nourai writes ž, not ğ, for the sound elsewhere on this page: dež). Modern reconstruction (Wiktionary, after Asatrian and Rastorgueva-Edelman) is OP didā- + *-wāra-, giving MP dēwār.",
+          "sources": [
+            "https://www.livius.org/sources/content/achaemenid-royal-inscriptions/dsf/",
+            "https://www.avesta.org/op/op.htm",
+            "https://en.wiktionary.org/wiki/دیوار",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos",
+            "https://www.academia.edu/35394163/_SWIran_didā_fortress_walled_residence_in_Iranian_Toponymy_by_Garnik_Asatrain"
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "dîvâr",
+          "verdict": "confirmed",
+          "derivation": "OP didā- 'wall' + *-wāra- (PIr *wāra- 'cover, enclosure' < PIE *wer- 'cover, guard' — Nourai's cross-reference ☞Wer 3 is right) > Middle Persian dywʾl /dēwār/ 'wall' (MacKenzie 1971) > New Persian dīvār/divār 'wall', with regular MP ē > NP ī and intervocalic w > v. The compound is an old SW-Iranian formation, since it shows the OP -d- reflex, not the Median/Avestan -z-. Borrowed onward into Turkish duvar, Hindi/Urdu dīvār.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/دیوار",
+            "https://en.wiktionary.org/wiki/dywʾl"
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "dyz`",
+          "verdict": "plausible",
+          "derivation": "Sogdian δyz / δyzʾ (Gharib's Sogdian Dictionary; Nourai's SOD:151) 'fortress, castle' is real and is listed by Wiktionary among the reflexes of PIE *dʰóyǵʰos beside Av. daēza-, OP didā- and Persian dez/dež. But it is a North-Eastern Iranian cognate, PIr *daizah with the regular Sogdian outcomes *d- > δ- and *ǰ > z; it does not descend from Old Persian didā- (which has -d-), as the chart's arrow implies. The word is correct, the edge should run from the Proto-Iranian/Avestan-type *daiza- rather than from OP.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰeyǵʰ-",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos"
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Avestan",
+          "words": "daeza",
+          "verdict": "confirmed",
+          "derivation": "Avestan daēza- 'wall' (Bartholomae AiW; Wiktionary 𐬛𐬀𐬉𐬰𐬀) < PIr *daizah < PIIr *dʰaiȷ́ʰas < PIE *dʰóyǵʰos 'that which is kneaded/moulded' (o-grade of *dʰeyǵʰ-). Exact cognates: Skt. dehī- 'wall, rampart', Gk. teîkhos/toîkhos 'wall', Gmc *daigaz 'dough'. The semantic shift is 'kneaded clay' > 'mud-brick wall'. Pokorny 244 lists it under dhoiĝho-s, so Nourai's POK:244 citation is the standard one.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/𐬛𐬀𐬉𐬰𐬀",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰóyǵʰos"
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "dež; dež-pol",
+          "verdict": "confirmed",
+          "derivation": "Persian dez/dež 'fort, citadel' continues Middle Persian diz 'fortress' (MacKenzie 1971), itself PIr *daizah < PIE *dʰóyǵʰos — the same word as Av. daēza- and OP didā-. The -z-/-ž- forms are Median/Parthian (North-Western) reflexes of PIr *ǰ, not the Persis form (OP didā- with -d-), so MP diz is an old NW loan into Persian; Wiktionary labels dež 'Iranian (Parthian?)'. dežbān 'castellan', deždār 'fort-keeper' are transparent compounds. Dež-pol/Dezful: Wikipedia and Iranica give the town name as Dež-pul 'fortress-bridge', for the fort guarding Shapur II's Sasanian bridge over the Āb-e Dez; the Arabicised form Dezfūl replaces the un-Arabic ž and p (Nourai's gloss 'strong bridge' is loose — literally 'fort-bridge'). Nourai's arrow from Avestan is the usual shorthand for 'Old Iranian'; the Persian word is a cognate of the Avestan one, not its descendant.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/دژ",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dʰeyǵʰ-",
+            "https://en.wikipedia.org/wiki/Dezful"
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Avestan",
+          "words": "pairi-daeza",
+          "verdict": "confirmed",
+          "derivation": "Avestan pairi.daēza- 'enclosure walled all round' = pairi 'around' (PIE *péri; Nourai's ☞Per 1 is right) + daēza- 'wall'; attested in the Vidēvdād (3.18 pairi.daēzą pairi.daēzaiiąn 'they shall build an enclosure around'). PIr *pari-daizah; parallel formations Bactrian prdyjg, Khwarezmian prdyz, Sogdian prδyz, Armenian (loan) partēz, Old Persian paradayadām (A2Sd, late spelling for *paridaida-). Meaning shift 'walled enclosure' > 'walled garden, royal park'.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/𐬞𐬀𐬌𐬭𐬌⸱𐬛𐬀𐬉𐬰𐬀",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
+            "https://en.wiktionary.org/wiki/𐎱𐎼𐎭𐎹𐎭𐎠𐎶",
+            "https://www.iranicaonline.org/articles/garden-i/"
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "pâlîz, jâlîz",
+          "verdict": "plausible",
+          "derivation": "pālīz 'orchard, melon/vegetable field' is genuine and belongs here: PIr *paridaizah > Old Median *pariδaiza- / Sogdian prδyz (parδēz 'fruit garden') > Middle Persian *pālēz (with -rδ- > -l-, a NW/Median treatment) > NP pālēz > pālīz, Tajik poliz; Wiktionary calls it a borrowing from Sogdian, older handbooks (Horn, Hübschmann) a Median form — either way not a Persis (OP -d-) form, and a doublet of pardīs and ferdows. jālīz is the doubtful item: Persian dictionaries (Dehkhoda, Moin — Nourai's MON:680) treat it as a variant of pālīz, but English Wiktionary derives it separately from a Middle Iranian *gardīz (i.e. from *gard- 'enclosure', cf. gird), so the j- is not a simple alternation of p-. I found no scholarly citation for either view of jālīz; treat the pālīz link as confirmed and jālīz as uncertain.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/پالیز",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
+            "https://en.wiktionary.org/wiki/جالیز"
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Persian",
+          "words": "pardîs, ferdows",
+          "verdict": "plausible",
+          "derivation": "pardīs 'paradise': Wiktionary derives it from 'some reflex of PIr *paridayjah', via a Middle Persian *pardēz (with -ai- > -ē- > NP -ī- and final -z > -s); it is essentially a bookish/late doublet of pālīz and the same word that Greek borrowed. ferdows 'paradise, heaven' is real but the route is a round trip, not the direct Avestan > Persian line drawn: Old Iranian *paridaiza- > Greek parádeisos / Aramaic-Syriac pardaysā (and Hebrew pardēs) > Arabic firdaws (Qurʾān 18:107, 23:11; Arabic f- for p-; Eilers 1962 explains the -aw- as a back-formation from the plural farādīs, which reflects the Greek/Aramaic form) > Persian ferdows borrowed back from Arabic in the Islamic period. Nourai's BQT:1455 (Borhān-e Qāteʿ) glosses are right; only the arrow is simplified.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/پردیس",
+            "https://en.wiktionary.org/wiki/فردوس",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah",
+            "https://en.wiktionary.org/wiki/παράδεισος"
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Greek",
+          "words": "paradeisos",
+          "verdict": "confirmed",
+          "derivation": "Greek parádeisos 'enclosed park, garden of the Persian nobility' is borrowed from Old Iranian *paridaiza- — specifically the Median form with -z- (Greek -s-), not the Persis form *paridaida- (OP paradayadām, Elamite bar-te-taš); Greek -ei- renders Iranian -ai-/-ē-, -os is the Greek ending. First in Xenophon (5th-4th c. BCE; Anabasis 1.2.7, Oeconomicus 4.13) for the Achaemenid kings' walled hunting parks; the Septuagint (3rd c. BCE) chose it for the Garden of Eden (Gen. 2-3), and Luke 23:43 for the abode of the blessed. Parallel Semitic loans: Akkadian pardēsu, Hebrew pardēs (Neh. 2:8, Eccl. 2:5, Song 4:13), Aramaic pardaysā. AHD's root entry lists 'paradise' under Avestan daēza-, matching Nourai's AHD:950.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/παράδεισος",
+            "https://www.etymonline.com/word/paradise",
+            "https://www.iranicaonline.org/articles/garden-i/",
+            "https://www.balashon.com/2007/12/pardes-and-paradise.html"
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "paradise",
+          "verdict": "confirmed",
+          "derivation": "Greek parádeisos > Late Latin paradīsus 'park; garden of Eden; abode of the blessed' > Old French paradis (11th c.) > late Old English/Middle English paradis (c. 1200 for the Christian heaven; c. 1300 'place of bliss'). Uncontroversial chain (Etymonline, AHD).",
+          "sources": [
+            "https://www.etymonline.com/word/paradise",
+            "https://en.wiktionary.org/wiki/παράδεισος"
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Old Persian",
+          "words": "daika",
+          "verdict": "disputed",
+          "derivation": "No Old Persian word daika 'clay pot' is attested; 'daika-' is Hübschmann's reconstructed ancestor of Persian dīg (Persische Studien p. 65, Nourai's HUB:65), which he and Klein (KLN:469) linked to *dʰeyǵʰ- 'knead clay' as 'earthenware vessel'. Modern Iranian etymology rejects this: Rastorgueva & Edelman (ESIJa 2003) and Cheung (2007), followed by Wiktionary, derive MP dēg from PIr *dai(a)-ka- 'that which is heated/fires', from *daiH- 'to shine, radiate, light a fire' (PIE *deyh₂-; cf. Skt. dīp- 'blaze'), with possible contamination from *daǰ- 'to burn' — i.e. a 'fire-vessel', not a 'moulded clay vessel'. The *dʰeyǵʰ- derivation survives only as a mentioned alternative. The 'Old Persian' label is also wrong: the form is a reconstruction and, in Persis, PIE *ǵʰ would give -d-, not the -g- of dīg.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/دیگ",
+            "https://archive.org/details/persischestudie00hbgoog"
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Persian",
+          "words": "dîg",
+          "verdict": "disputed",
+          "derivation": "The inner-Persian chain is sound: Middle Persian dyk' /dēg/ 'cauldron' (MacKenzie 1971) > New Persian dīg 'cooking pot, cauldron' (MP ē > NP ī); Semnani dik, Pashto dēg and Hindi/Urdu deg are cognates/loans. What is disputed is the root: as under node 11, the preferred modern source is PIr *daiH- 'shine, burn' (*dai(a)-ka-), not *dʰeyǵʰ-, so the edge to this chart's root is rejected. dīzī 'small clay stew-pot (and the dish cooked in it)' is usually attached to dīg in Persian lexica (BQT:912/914, Moin), but Wiktionary gives it no etymology and I found no independent scholarly derivation; its -z- would in any case not be a regular Persian development of -g-.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/دیگ",
+            "https://en.wiktionary.org/wiki/دیزی"
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Germanic",
+          "words": "daigaz; dîg",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *daigaz 'dough, that which is kneaded' < PIE *dʰóyǵʰos (Kroonen 2013: 87), with PIE *dʰ > Gmc d, *ǵʰ > g, *oy > ai (Grimm's law); Gothic daigs, Old Norse deig, Old English dāg, German Teig. Nourai's second form 'dîg' is AHD's 'Germanic *dīg-' (source of lady) — a zero-grade *dʰiǵʰ- variant; the modern reconstruction for 'kneader of bread, dairymaid' is *daigijǭ/*daigjōn- (Old English dǣge, Old Norse deigja 'maid', Swedish deja 'dairymaid'). The gloss 'one who kneads dough, lady of the house' is AHD's, hence the 'AHD' ref.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/daigaz",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/daigijǭ",
+            "https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=dheigh-"
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "dough; lady, dairy",
+          "verdict": "confirmed",
+          "derivation": "dough: OE dāg > ME dogh/dow > dough (PGmc *daigaz). lady: OE hlǣfdīġe 'mistress of a household', literally 'loaf-kneader' = hlāf 'bread, loaf' + -dīġe 'kneader' (< *daigijǭ/*dīg-); the medial -f- was lost by the 14th c. (hlǣfdīġe > lavedi > ladi > lady). dairy: ME daierie (c. 1300) = dey/daie 'dairymaid' (OE dǣġe 'kneader of bread, female servant' < *daigijǭ) + the Anglo-Norman suffix -erie; the sense narrowed from 'servant's/housekeeper's room' to 'place where milk, butter and cheese are made' (1670s). All three are AHD/Etymonline standard.",
+          "sources": [
+            "https://www.etymonline.com/word/dough",
+            "https://www.etymonline.com/word/lady",
+            "https://www.etymonline.com/word/dairy",
+            "https://en.wiktionary.org/wiki/dough"
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Latin",
+          "words": "figŭra",
+          "verdict": "confirmed",
+          "derivation": "Latin figūra 'shape, form, figure' is a -ūra derivative of fingō 'to shape, mould (clay), devise, feign' < Proto-Italic *fingō < *θingō, PIE *dʰi-n-ǵʰ- (nasal-infix present of *dʰeyǵʰ-): PIE *dʰ- > Latin f-, *ǵʰ > h > g before n (de Vaan 2008: 221-222). AHD glosses figūra literally as 'result of kneading', which is where Nourai's gloss comes from. (The macron/breve on 'figŭra' in the JSON should be figūra; the -u- is long.)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/figura#Latin",
+            "https://en.wiktionary.org/wiki/fingo#Latin",
+            "https://www.etymonline.com/word/figure"
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "figure, fiction",
+          "verdict": "confirmed",
+          "derivation": "figure: Latin figūra > Old French figure > English figure (c. 1200, first as 'numeral'). fiction: Latin fictiō (gen. fictiōnis) 'a fashioning, feigning', from fictus, past participle of fingō (same root) > Old French ficcion > English fiction (early 15th c.; 'imaginative prose' 1590s). Both are standard AHD/Etymonline derivations from *dheigh-; fiction descends from fingere rather than from figūra itself, as AHD's grouping shows.",
+          "sources": [
+            "https://www.etymonline.com/word/figure",
+            "https://www.etymonline.com/word/fiction",
+            "https://www.etymonline.com/word/*dheigh-"
+          ]
+        }
+      ]
+    }
+  ]
+}
