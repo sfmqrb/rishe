@@ -82,6 +82,29 @@ gloss, and note into Persian and mirrors the entire layout right-to-left:
   running verse is borrowed even though ~28% of the charted vocabulary is.
   Regenerate via `tools/ganjoor.py`.
 
+## Verification layer
+
+Every derivation arrow in the charts is being re-examined against modern etymological
+scholarship and against the very pages Nourai cites. The results live in
+`data/verification/` (one JSON per book page, same node ids as the extracted data) and are
+rendered on the site: a verdict badge on each box — **confirmed**, **plausible**,
+**disputed**, **unverified**, or **misprint in book** — and an expandable *How this derives*
+panel with the phonetic and historical explanation (in English and, in Persian mode, in
+Persian written for a Persian reader), the archived web sources, the status of each reference
+Nourai cites (supports / partial / contradicts / not found / not checked, with the quoted
+passage), and every other book consulted. Hover a citation code such as `KLN:164` to see the
+full bibliographic record, what the number means, and where the book can be read.
+
+The check uses Wiktionary (with its citations of Cheung, Hasandust, MacKenzie, Bartholomae,
+Horn), Etymonline, the AHD root appendix, Pokorny, Encyclopaedia Iranica, and a local library
+of Nourai's own references (Klein, Pokorny, Walde-Pokorny, Horn, Hübschmann, Bartholomae, Kent,
+MacKenzie, Nyberg, Mann, Buck, Jeffery, Addi Shir, Asbaghi, Gharib, Borhān-e Qāṭeʿ with Moʿin's
+footnotes, Moʿin's Farhang, and more). The full process — every tool call, every fetched page,
+every grep — is logged under `data/verification/process/`; `tools/verify_check.py` tallies
+coverage and verdicts. Where a flagged form turns out to be the book's own misprint rather than
+a transcription slip, the record says so; where the extraction was wrong, the data is fixed.
+Coverage is still growing page by page; unverified charts say so under the root card.
+
 ## Source & credit
 
 All the scholarship belongs to **Ali Nourai**. The book is freely available at the
@@ -109,6 +132,8 @@ data/extracted/batch/        # one JSON per book page — the structured diction
 data/translations/fa.json    # Persian translations of the glosses & notes
 data/research/               # research analyses (research.json) + semantic-field labels
 data/ANOMALIES.md            # source-scan defects
+data/verification/           # per-arrow verification records, archived sources, process logs
+tools/verify_check.py        # coverage & verdict tally of the verification records
 tools/research.py            # computes every number on the Research tab
 tools/ganjoor.py             # Ganjoor corpus analyses (data/research/ganjoor.json)
 site/template.html           # the whole app (HTML+CSS+JS, data injected at build)
