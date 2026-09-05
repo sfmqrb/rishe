@@ -1,0 +1,871 @@
+{
+  "pdf_page": 168,
+  "book_page": 138,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 1,
+      "root": "Gassu",
+      "verdict": "confirmed",
+      "modern_form": "Akkadian gaṣṣu (logographic IM.BABBAR) 'gypsum, plaster'",
+      "note": "The root box is right in substance: Akkadian gaṣṣu is a real word and it is the ultimate source of the whole Wanderwort family (Aramaic/Syriac gaṣṣā, Arabic jaṣṣ, Greek γύψος, Latin gypsum, MP/NP gač). Nourai's gloss 'mortar' is loose — the word means 'gypsum, plaster' (Horn's German 'Mörtel' for NP gač is what he is translating). The shape of the chart, however, is wrong in two places: (a) Nourai routes MP/NP gač through an Avestan word vīčiča-, which no source supports; (b) he hangs Arabic jaṣṣ off Greek gypsos, whereas Zimmern and Klein derive jaṣṣ straight from Aramaic gaṣṣā (only jabsīn / jafsīn come from Greek). Note that Nourai's own reference HRN:199 (Horn no. 890) says nothing about Akkadian at all — the Akkadian etymon comes from AKD:32 (Zimmern), which he cites only on the Greek node.",
+      "note_fa": "ریشهٔ اکدی gaṣṣu «گچ، اندود» واژه‌ای واقعی است و امروزه آن را سرچشمهٔ همهٔ این خانوادهٔ واژگانی می‌دانند: آرامی/سریانی gaṣṣā، عربی جصّ، یونانی gypsos، لاتینی gypsum و فارسی میانهٔ gač > فارسی نو «گچ». پس خودِ ریشه و برچسب زبانی درست است، هرچند معنای «ملاط» که نورایی آورده دقیق نیست و باید «گچ، اندود» باشد. اما دو حلقهٔ نمودار نادرست است: نخست آنکه گچِ فارسی را از راه واژه‌ای اوستایی (vīčiča-) می‌آورد که هیچ منبعی آن را تأیید نمی‌کند، و دیگر آنکه «جصّ» عربی را از یونانی می‌گیرد، حال آنکه تسیمرن و کلاین آن را یکراست از آرامی gaṣṣā می‌دانند. افزون بر این، مأخذی که خودِ نورایی برای ریشه آورده (هرن، ص۱۹۹) اصلاً از اکدی سخنی نمی‌گوید.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82",
+        "https://en.wiktionary.org/wiki/%DA%AF%DA%86"
+      ],
+      "ref_check": [
+        {
+          "ref": "HRN:199",
+          "status": "partial",
+          "note": "Horn, Grundriss p.199 no. 890 (HRN.txt leaf 220): 'geč \"Mörtel\". aw. vīčica- \"Mörtel\"; phlv. gač, gačīn. kurd. LW. gac \"Mörtel\". Die Zusammenstellung mit aw. vīčica- ist unsicher.' — Horn has the Persian/Pahlavi/Avestan material Nourai uses but no Akkadian word and no Akkadian etymology; and he himself calls the Avestan connection 'unsicher'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AKD",
+          "where": "Zimmern, Akkadische Fremdwörter, pp. 31–32",
+          "stance": "supports",
+          "note": "AKD.txt leaf 41: 'akk. gaṣṣu Gips : > aram. gaṣṣā (> arab. ǧaṣṣ, ǧiṣṣ, ǧuṣṣ, auch qaṣṣ, qiṣṣ), griech. γύψος, lat. gypsum, Gips.' — the Akkadian etymon exactly as Nourai's root box, but the Arabic goes through Aramaic, not through Greek."
+        },
+        {
+          "src": "KLN",
+          "where": "Klein s.v. 'gypsum' (KLN_1966.txt l.16951)",
+          "stance": "supports",
+          "note": "'gypsum, n. — L., fr. Gk. γύψος, \"chalk\", of Sem. origin. Cp. Arab. jibs, Mishnaic Heb. gebhes, gephes … which prob. derive fr. Akkad. gassu (whence also Aram. gassā, whence Arab. jass, jiss, juss, qaṣṣ, qiṣṣ), \"gypsum\".'"
+        },
+        {
+          "src": "POK",
+          "where": "Pokorny IEW, grep 'gypsum'/'Gips'",
+          "stance": "silent",
+          "note": "No IE root; Pokorny knows the word only as the Greek loan (POK_full.txt l.52019 mentions τίτανος 'lime, gypsum' elsewhere). As expected for a Semitic Wanderwort."
+        },
+        {
+          "src": "LKT",
+          "where": "Lokotsch no. ~1752 s.v. 'Gips'",
+          "stance": "partial",
+          "note": "LKT.txt l.1752: 'Gips [aus gr. γύψος, lat. gypsum] … woraus dann wieder ar. ǧaṣṣ, vulg. ǧess nach dem Orient zurückgewandert ist … Doch ist es nicht unwahrscheinlich, daß das gr.-lat. Grundwort selbst wieder aus dem Orient stammt.' Lokotsch has the Arabic coming back from Romance, but concedes an oriental source for the Greek."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "vîčiča",
+          "verdict": "disputed",
+          "derivation": "The Avestan word is real but the arrow is not. Bartholomae AiW col. 1437 lists Younger Avestan vīčiδa- n. 'Kalk, Gips, Mörtel', attested only in Vendidad 8.51 and 6.10, and labels its etymology 'Et.?' — unknown; the Pahlavi Vendidad simply glosses it gač, which is why Horn (1893, no. 890) juxtaposed the two, adding at once 'die Zusammenstellung mit aw. vīčica- ist unsicher'. Nourai's spelling vīčiča follows Horn's 1893 reading (also in SNS:310); the standard reading since Bartholomae 1904 is vīčiδa-. No source derives the Avestan word from Akkadian gaṣṣu, and phonetically an Avestan borrowing would not give v-: Hübschmann (PSt. 90) showed that the initial g- of gač is original, guaranteed by Aramaic/Syriac gaṣṣā and Arabic jaṣṣ. The Akkadian word reached Iran directly (Wiktionary, s.v. گچ: MP gač 'ultimately from Akkadian gaṣṣu'), not through Avestan.",
+          "derivation_fa": "واژهٔ اوستایی هست، ولی پیکان نادرست است. بارتولومه در «فرهنگ ایرانی باستان» ستون ۱۴۳۷ صورت اوستایی نو vīčiδa- «گچ، آهک، ملاط» را می‌آورد (تنها در وندیداد ۸٫۵۱ و ۶٫۱۰) و در برابر ریشه‌شناسی آن می‌نویسد «؟». ترجمهٔ پهلوی وندیداد این واژه را gač برگردانده و همین سبب شده هرن (۱۸۹۳، شمارهٔ ۸۹۰) این دو را کنار هم بگذارد، اما خودِ او بی‌درنگ می‌افزاید که «این همسنجی نااستوار است». نگارش vīčiča در کتاب، خوانش کهنِ هرن است؛ خوانش معیار از بارتولومه به بعد vīčiδa- است. هیچ منبعی این واژهٔ اوستایی را وام‌گرفته از اکدی gaṣṣu نمی‌داند و هوبشمان (ص۹۰) نشان داده که «گ» آغازیِ گچ اصلی است و آرامی/سریانی gaṣṣā و عربی جصّ آن را گواهی می‌کنند. پس ادعای نورایی در این حلقه پذیرفتنی نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%DA%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:199",
+              "status": "partial",
+              "note": "Horn no. 890 (HRN.txt leaf 220) does print 'aw. vīčica- \"Mörtel\"' beside 'phlv. gač' — so the forms are Nourai's — but Horn adds 'Die Zusammenstellung mit aw. vīčica- ist unsicher' and never mentions Akkadian, so he does not support the arrow drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch col. 1437 (BRT.txt l.23946)",
+              "stance": "contradicts",
+              "note": "'j. vičiδa- n. \"Kalk, Gips, Mörtel\": … V. 8.51 … Et.? — Pü. (zu V.6): gač … D. i. \"aus gač (= np. gač \"Kalk\") bestehend\"; s. dazu Hbm. PSt. 90.' Bartholomae reads -δ-, declares the etymology unknown, and treats the Pahlavi gač only as the translator's gloss."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien p. 90 (note to Horn 890) and §117 p. 90",
+              "stance": "contradicts",
+              "note": "HUB.txt l.3206: 'Np. gač \"Kalk\" = phl. paz. gač Shk. 245 = arab. ǧaṣṣ \"Gips\", syr. geṣṣā erweisen anl. g als ursprünglich.' Hübschmann uses the Semitic forms to prove the g- is original, i.e. he rejects a derivation from a v-initial Avestan word."
+            },
+            {
+              "src": "SNS",
+              "where": "Tavoosi, Vazhe-name-ye Shayast ne Shayast, p. 310 s.v. gac",
+              "stance": "partial",
+              "note": "SNS_pages.txt l.12319 prints the entry 'gac' with the cross-reference '(1437) vīcica-', i.e. it repeats Horn's/Bartholomae's juxtaposition (with Bartholomae's column number) without asserting a derivation."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Old Persian",
+          "words": "gač",
+          "verdict": "disputed",
+          "derivation": "Two things are wrong here. (1) The language label: gač is not Old Persian — it is not attested in the Achaemenid inscriptions; it is Middle Persian / Book Pahlavi gc (gač), with the Pazand form gač (MacKenzie, PHD, English index 'gypsum gač', and the derivative gačēn 'of plaster'), and it is attested in the Pahlavi Šāyast nē Šāyast (SNS:310). (2) The parentage: no source takes MP gač from Avestan vīčiδa-. Wiktionary (s.v. گچ) and Wiktionary's γύψος entry both make MP gač a direct reflex of the Akkadian/Aramaic word (Akkadian gaṣṣu > Syriac gaṣṣā; cf. Khotanese gatsä 'gypsum'), i.e. a sister of Arabic jaṣṣ, not a descendant of an Avestan word. Nourai's own NOTE is therefore closer to the truth than his arrow: Mo'in (BQT:1776 footnote) and Hübschmann p.90 connect gač with Arabic jaṣṣ / Syriac gaṣṣā / Akkadian gaṣṣu; modern scholarship keeps the direction Akkadian → Aramaic → (Arabic, and independently) Iranian, and does NOT make Persian gač a loan from Arabic.",
+          "derivation_fa": "دو نکته در این جعبه نادرست است. نخست برچسب زبانی: gač «پارسی باستان» نیست و در کتیبه‌های هخامنشی نیامده؛ صورت فارسی میانه (پهلوی) gač است — مکنزی آن را ثبت کرده (gač، gačēn «گچین») و در متن پهلویِ «شایست نشایست» ص۳۱۰ نیز آمده است. دوم پیوند نسبی: هیچ منبعی gačِ فارسی میانه را از vīčiδa-ی اوستایی نمی‌گیرد؛ ویکی‌واژه آن را یکراست بازماندهٔ همان واژهٔ اکدی/آرامی می‌داند (اکدی gaṣṣu > سریانی gaṣṣā؛ قس ختنی gatsä)، یعنی خواهرِ «جصّ» عربی، نه فرزندِ واژه‌ای اوستایی. جالب آنکه یادداشت خودِ نورایی به حقیقت نزدیک‌تر از پیکان اوست: معین (حاشیهٔ برهان قاطع ص۱۷۷۶) و هوبشمان (ص۹۰) نیز گچ را با جصّ عربی و gaṣṣā سریانی و gaṣṣu اکدی می‌سنجند — با این تفاوت که پژوهش امروزی گچِ ایرانی را وام از عربی نمی‌داند، بلکه وام‌گیری مستقلی از همان سرچشمهٔ بین‌النهرینی می‌شمارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%DA%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:199",
+              "status": "partial",
+              "note": "Horn no. 890 gives 'phlv. gač, gačīn' — Pahlavi, expressly not Old Persian — under NP geč, and flags the Avestan comparison as uncertain. So HRN supports the form but neither the language label nor the arrow."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt l.2184, l.5314)",
+              "stance": "supports",
+              "note": "English–Pahlavi index 'gypsum gač', and the Pahlavi list 'diz, gač, gaz' / 'gačēn' — MacKenzie knows gač as a Middle Persian word, confirming the label should be Pahlavi, not Old Persian."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien §117 (HUB.txt l.8102) and p.90 note to 890",
+              "stance": "contradicts",
+              "note": "'gač \"Kalk\" = paz. gač, aus phl. *gačč?, vgl. arab. jaṣṣ \"Gips\", syr. geṣṣā, gr. γύψος (Lehnwort?)' — a Middle Persian word tied to the Semitic group, not to Avestan."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' p.1776, Mo'in's footnote 2 s.v. گچ",
+              "stance": "partial",
+              "note": "ref_page.py BQT:1776 (v3 pdf p.573): 'پهلوی، پازند gač. معرب آن جص، سریانی geṣṣā … در اکدی gaṣṣu' — Mo'in makes gač Pahlavi/Pazand and Arabic jaṣṣ the mu'arrab of it, with Akkadian gaṣṣu behind; no Avestan and no Old Persian stage."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "gač «گچ»",
+          "verdict": "confirmed",
+          "derivation": "New Persian گچ gač 'plaster, gypsum' is the regular continuation of Middle Persian gač (Book Pahlavi gc, Pazand gač), which is itself the Iranian member of the Mesopotamian Wanderwort: Akkadian gaṣṣu → Aramaic/Syriac gaṣṣā → (independently) MP gač, Khotanese gatsä, Arabic jaṣṣ. There is no sound change to explain — the word passes unaltered from Sasanian to New Persian, and the Ferdowsi line quoted in the chart (به سنگ و به گچ دیو دیوار کرد) shows it in the earliest New Persian. Nourai's chart is right about the word and its Akkadian ancestry; only the Avestan/'Old Persian' staging above it is wrong.",
+          "derivation_fa": "«گچ» فارسی نو دنبالهٔ بی‌واسطهٔ gačِ فارسی میانه (پهلوی گ‌چ، پازند gač) است و هیچ دگرگونی آوایی در میان نیست. این واژه شاخهٔ ایرانیِ یک واژهٔ سرگردانِ بین‌النهرینی است: اکدی gaṣṣu ← آرامی/سریانی gaṣṣā، و از همان سرچشمه به‌طور جداگانه فارسی میانه gač، ختنی gatsä و عربی «جصّ». شاهدِ فردوسی که در نمودار آمده کهن‌ترین کاربرد آن را در فارسی دری نشان می‌دهد. پس ادعای نورایی دربارهٔ خودِ واژه و خاستگاه اکدی آن درست است؛ تنها حلقه‌های اوستایی و «پارسی باستان» که بالای آن گذاشته نادرست‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%DA%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:310",
+              "status": "supports",
+              "note": "Tavoosi's Šāyast nē Šāyast glossary, word index: 'gac 310/18' (SNS_pages.txt l.16202), with 'gac kard 311/23' and 'gačēn 312/6'; the entry on p.310 (SNS_pages.txt l.12319) prints 'gac:' with the cross-reference to Bartholomae col. 1437. So p.310 is exactly the page Nourai cites and it does attest the word."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' p.1776 s.v. گچ + Mo'in's footnote 2",
+              "stance": "supports",
+              "note": "'گچ - بفتح اول و سکون ثانی، خاکی باشد که آنرا پزند و بدان خانه سفید کنند'; footnote: 'پهلوی، پازند gač. معرب آن جص، سریانی geṣṣā … کردی gač … در اکدی gaṣṣu' (ref_page.py BQT:1776)."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. gač / gačēn",
+              "stance": "supports",
+              "note": "PHD.txt l.2184 'gypsum gač' and l.5316 'gačēn' — the Middle Persian antecedent of the New Persian word."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 890, p.199",
+              "stance": "supports",
+              "note": "'geč \"Mörtel\" … phlv. gač, gačīn' — the NP→MP link is Horn's, and it is uncontroversial."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "gupsos",
+          "verdict": "confirmed",
+          "derivation": "Ancient Greek γύψος 'chalk, gypsum, plaster' (Herodotus, Theophrastus) is a Semitic loanword taken over during the archaic/classical contact with the Levant: Akkadian gaṣṣu passed into Aramaic/Syriac gaṣṣā, and Greek rendered the Semitic emphatic ṣ with ψ before the -os ending (γύψ-ος), with u-vocalism as in the West-Semitic variants (Arabic ǧuṣṣ, Mishnaic Hebrew gebhes/gephes 'plaster'). Klein and Zimmern both state the chain explicitly; Wiktionary is more cautious ('of unknown origin; possibly a Wanderwort, cf. Akkadian gaṣṣu > Syriac gaṣṣā and MP gač'), but nobody proposes an Indo-European source, so Nourai's Akkadian → Greek arrow is the standard view.",
+          "derivation_fa": "یونانی باستان γύψος «گچ، اندود» (هرودوت، تئوفراستوس) وام‌واژه‌ای سامی است که در دورهٔ داد و ستد یونانیان با شام وارد یونانی شده: اکدی gaṣṣu ← آرامی/سریانی gaṣṣā، و یونانی صادِ مفخّم سامی را با ψ نشان داده و پایانهٔ -ος بدان افزوده است؛ واکهٔ u نیز با گونه‌های سامی غربی (عربی جُصّ، عبری میشنایی gebhes) می‌خواند. کلاین و تسیمرن این زنجیره را با همین صراحت آورده‌اند و ویکی‌واژه محتاطانه آن را «واژهٔ سرگردان» می‌نامد؛ هیچ‌کس خاستگاه هندواروپایی برای آن پیشنهاد نکرده است. پس ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:32",
+              "status": "supports",
+              "note": "Zimmern, Akkadische Fremdwörter, p.31/32 (AKD.txt leaf 41): 'akk. gaṣṣu Gips : > aram. gaṣṣā (> arab. ǧaṣṣ …), griech. γύψος, lat. gypsum, Gips.' — precisely Nourai's Akkadian → Greek → Latin line."
+            },
+            {
+              "ref": "AHD:588",
+              "status": "not_checked",
+              "note": "AHD:588 is a page of the main dictionary body of the 1975 New College edition (the entry 'gypsum'), not of Watkins's IE-roots appendix; only the appendix (AHD_watkins1985.txt) is on disk and it has no gypsum root — as expected for a Semitic loan."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. gypsum (KLN_1966.txt l.16951)",
+              "stance": "supports",
+              "note": "'L., fr. Gk. γύψος, \"chalk\", of Sem. origin … which prob. derive fr. Akkad. gassu (whence also Aram. gassā …).'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, word-list of borrowings (SKT.txt l.23619)",
+              "stance": "partial",
+              "note": "Skeat files gypsum under 'Latin from Greek from Persian', i.e. an older view that made the Greek word Iranian (from gač) rather than Akkadian; the direction of the loan is the point at issue, the oriental source is not."
+            },
+            {
+              "src": "POK",
+              "where": "Pokorny IEW",
+              "stance": "silent",
+              "note": "No IE root for γύψος; grep of POK_full.txt returns only unrelated 'lime/gypsum' glosses (l.52019)."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Arabic",
+          "words": "jabsîn, jass, jafsîn",
+          "verdict": "plausible",
+          "derivation": "Two of the three words hang correctly under Greek, one does not. جبسين jabsīn and جفسين jafsīn are Arabic adaptations of Greek γύψινος gypsinos 'made of gypsum' (the adjective, not the noun), with the usual Arabic treatment of Greek υ as -i- and of the Greek nominative ending as -īn; Hübschmann already stated this ('Arab. pers. jabsīn \"gypsum\" aus gr. γύψος, γύψινος', PSt. pp.90–91), and Mo'in repeats it in the BQT:1776 footnote citing Hübschmann 89. جصّ jaṣṣ, however, is not from Greek: Zimmern and Klein derive it from Aramaic gaṣṣā, i.e. straight from Akkadian gaṣṣu, with the regular Aramaic g- → Arabic ǧ- and the emphatic ṣ preserved — a sister of Persian gač, not a descendant of gypsos. The node therefore mixes a Greek-mediated pair with a directly Semitic word.",
+          "derivation_fa": "از سه واژهٔ این جعبه، دو تا درست زیر یونانی نشسته‌اند و یکی نه. «جبسین» و «جفسین» برگردان عربیِ صفت یونانی γύψινος (gypsinos) «گچی» است؛ υ یونانی در عربی به ـِ و پایانهٔ یونانی به ـین بدل شده است. هوبشمان (ص۹۰–۹۱) همین را گفته و معین در حاشیهٔ برهان قاطع ص۱۷۷۶ با ارجاع به هوبشمان آن را تکرار کرده است. اما «جصّ» از یونانی نیامده: تسیمرن و کلاین آن را از آرامی gaṣṣā و در نهایت از اکدی gaṣṣu می‌دانند، با ابدال قاعده‌مندِ گ آرامی به ج عربی و نگهداشتِ صاد؛ یعنی «جصّ» خواهرِ «گچ» است نه فرزندِ gypsos. پس این حلقه با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1776",
+              "status": "supports",
+              "note": "ref_page.py BQT:1776 (Borhan v3 pdf p.573), Mo'in's footnote 2 to گچ: 'پهلوی، پازند gač. معرب آن جص، سریانی geṣṣā. کلمهٔ عربی-فارسی jabsīn (jafsīn) از یونانی gypsos, gypsinos آمده «هوبشمان ۸۹» … در اکدی gaṣṣu' — supports the Greek source of jabsīn/jafsīn and, at the same time, shows jaṣṣ as the mu'arrab of gač rather than a Greek loan."
+            },
+            {
+              "ref": "TAD:20",
+              "status": "supports",
+              "note": "al-Unaysi, Tafsir al-alfaz al-dakhila (TAD_pages.txt l.822, leaf 24): 'جص - (وجص وجفسين وجبسين) يوناني gypsos وفي اللاتينية gypsum وهو سلفات الكلس الممتزج بالماء يطلى به' — al-Unaysi puts all the Arabic forms, jaṣṣ included, under Greek gypsos, which is exactly Nourai's arrow (though modern Semitists split jaṣṣ off)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien pp. 90–91, note to Horn 890",
+              "stance": "supports",
+              "note": "HUB.txt l.3208 / leaf 102: 'Arab. pers. jabsīn \"gypsum\" aus gr. γύψος, γύψινος (nicht umgekehrt wie Prellwitz … meint).' Hübschmann even insists the direction is Greek → Arabic."
+            },
+            {
+              "src": "AKD",
+              "where": "Zimmern pp.31–32",
+              "stance": "partial",
+              "note": "'akk. gaṣṣu Gips : > aram. gaṣṣā (> arab. ǧaṣṣ, ǧiṣṣ, ǧuṣṣ, auch qaṣṣ, qiṣṣ), griech. γύψος' — jaṣṣ comes from Aramaic, in parallel with (not out of) the Greek."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. gypsum",
+              "stance": "partial",
+              "note": "'Cp. Arab. jibs … which prob. derive fr. Akkad. gassu (whence also Aram. gassā, whence Arab. jass, jiss, juss …)' — same split."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "jabsîn «جبسین»",
+          "verdict": "confirmed",
+          "derivation": "Persian جبسین jabsīn 'gypsum' is the Arabic word taken back into Persian — a learned/pharmacological borrowing of the kind common in the medical literature, where the Greek term had already entered Arabic through the translation movement of the 9th c. Mo'in, in the very footnote Nourai is citing (BQT:1776), calls it 'کلمهٔ عربی-فارسی' — an Arabic-Persian word — and traces it to Greek gypsos/gypsinos after Hübschmann, so the Arabic → Persian arrow, and the fact that Persian has both the inherited گچ and the borrowed جبسین as a doublet, is well founded.",
+          "derivation_fa": "«جبسین» فارسی همان واژهٔ عربی است که دوباره به فارسی بازگشته؛ وامی است دانشورانه و بیشتر در متون پزشکی و داروشناسی، از آن دست وام‌واژه‌هایی که از راه نهضت ترجمهٔ سدهٔ سوم هجری از یونانی به عربی و از عربی به فارسی رسیده‌اند. معین در همان حاشیه‌ای که نورایی بدان ارجاع می‌دهد (برهان قاطع ص۱۷۷۶) آن را «کلمهٔ عربی-فارسی» می‌خواند و به پیروی از هوبشمان از یونانی gypsos/gypsinos می‌گیرد. پس «گچ» و «جبسین» در فارسی دوگانه (doublet)‌اند: یکی میراثی و دیگری وام‌گرفته. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT",
+              "status": "supports",
+              "note": "Borhan-e Qate', Mo'in's footnote on p.1776 (ref_page.py BQT:1776): 'کلمهٔ عربی - فارسی jabsīn (jafsīn) از یونانی gypsos, gypsinos آمده «هوبشمان ۸۹»' — Nourai's bare 'BQT' on this node is the same footnote he cites as BQT:1776 on the Arabic node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien p.90 (note to 890)",
+              "stance": "supports",
+              "note": "'Arab. pers. jabsīn \"gypsum\" aus gr. γύψος, γύψινος' — Hübschmann labels the word explicitly 'Arabic-Persian', i.e. current in Persian too."
+            },
+            {
+              "src": "TAD",
+              "where": "al-Unaysi, leaf 24 (printed ~p.20)",
+              "stance": "supports",
+              "note": "'جص - (وجص وجفسين وجبسين) يوناني gypsos …' — jabsīn listed among the borrowed forms."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "gypsum",
+          "verdict": "confirmed",
+          "derivation": "Latin gypsum is a straight borrowing of Greek γύψος, taken over with the neuter -um ending as usual for Greek technical nouns in -ος (cf. Plinius, Nat. Hist. 36.59-60, who discusses the best kinds from Syria and Cyprus). Latin y renders Greek υ. From Latin come Italian gesso and Spanish yeso (Klein s.v. gesso), and the learned form gypsum survives unchanged in the modern scientific vocabulary.",
+          "derivation_fa": "لاتینی gypsum وام مستقیم از یونانی γύψος است، با پایانهٔ خنثای -um که در وام‌گیری اسم‌های فنی یونانیِ ‎-ος به لاتین معمول است؛ حرف y لاتینی همان υ یونانی را می‌نماید. پلینیوس (تاریخ طبیعی ۳۶٫۵۹–۶۰) از بهترین گونه‌های آن در سوریه و قبرس سخن گفته است. از لاتین، ایتالیایی gesso و اسپانیایی yeso برآمده و صورت دانشورانهٔ gypsum بی‌تغییر در زبان علمی امروز مانده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "not_checked",
+              "note": "Nourai cites AHD without a page; the Latin < Greek step is in the main dictionary body of the 1975 New College edition, which is not on disk (only Watkins's IE appendix is)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. gypsum and gesso",
+              "stance": "supports",
+              "note": "'gypsum, n. — L., fr. Gk. γύψος'; 'gesso, n., plaster of Paris. — It., fr. L. gypsum' (KLN_1966.txt ll.16081, 16951)."
+            },
+            {
+              "src": "AKD",
+              "where": "Zimmern p.32",
+              "stance": "supports",
+              "note": "'… griech. γύψος, lat. gypsum, Gips.'"
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch s.v. Gips",
+              "stance": "supports",
+              "note": "'[aus gr. γύψος, lat. gypsum]; hieraus it. gesso, pg. gesso, sp. yeso, algez' (LKT.txt l.1752)."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "gypsum",
+          "verdict": "confirmed",
+          "derivation": "English gypsum is a direct 17th-century learned borrowing of the Latin word (first attested in English scientific writing in the 1640s), not a popular inheritance through French — French uses gypse/plâtre. It is the mineralogical name for hydrated calcium sulphate, the material of plaster of Paris; the doublet gesso came separately via Italian. The unbroken chain Akkadian → Greek → Latin → English is exactly what Klein and Zimmern give.",
+          "derivation_fa": "انگلیسی gypsum وام دانشورانه‌ای است که در سدهٔ هفدهم میلادی (نخستین کاربردها در دههٔ ۱۶۴۰) یکراست از لاتین گرفته شده، نه از راه فرانسه (که gypse/plâtre به کار می‌برد). این واژه نام کانی‌شناختیِ سولفات کلسیم آبدار است. صورت gesso هم جداگانه از ایتالیایی به انگلیسی رسیده و دوگانهٔ آن است. زنجیرهٔ اکدی ← یونانی ← لاتین ← انگلیسی دقیقاً همان است که کلاین و تسیمرن آورده‌اند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference in the book."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. gypsum, gypseous, Gypsophila",
+              "stance": "supports",
+              "note": "KLN_1966.txt ll.16950-16951: the English family (gypseous, gypsiferous, Gypsophila, gypsum) is derived from Latin gypsum < Gk. γύψος."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls, 'gypsum-furnace', 'gage' (FSD_vol2.txt ll.28196, 28990)",
+              "stance": "supports",
+              "note": "The word is current English for the mineral used in plaster ('the amount of gypsum added to lime plaster to hasten its setting')."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Ğaulos",
+      "verdict": "disputed",
+      "modern_form": "Ancient Greek γαυλός / γαῦλος 'round vessel, milk-pail; Phoenician merchant ship' — a Semitic (Akkadian gullu / gullatu) loanword, not a PIE root",
+      "note": "Nourai's root box is copied faithfully from Mann: IEC col. 388 has 'ĝaulos (?) \"vessel, boat\". Per. cf. zauraq \"ship, vessel\"; Gk. gaūlos \"merchant-ship\"; gaulós \"milkpail\". Cf. ĝeul-' — the very gloss, the very Persian and Greek words. But Mann marks it with a question mark, and Pokorny has no such root at all. Modern scholarship goes the other way: Wiktionary (with Beekes) takes γαῦλος 'Phoenician merchant-ship' to be a loan 'via Phoenician or a near language from Akkadian gullu \"a container\", gullatu \"ewer\"', the same Wanderwort that gave Hebrew gullāh, Aramaic/Syriac qulləṯā, Arabic qulla, Latin culullus. So the box is a Semitic culture-word, not an Indo-European root. Worse, Nourai has silently attached the galley family (Gk./Lat. galea) to it, which belongs to a completely different and unrelated word.",
+      "note_fa": "جعبهٔ ریشه را نورایی وفادارانه از مان (Mann) گرفته است: در «فرهنگ تطبیقی هندواروپایی» ستون ۳۸۸ آمده «ĝaulos (؟) ظرف، کشتی؛ فارسی zauraq، یونانی gaūlos «کشتی بازرگانی»، gaulós «سطل شیر»» — همان معنا و همان واژه‌های فارسی و یونانی. اما مان خود در برابر آن نشانِ پرسش گذاشته و پوکورنی اصلاً چنین ریشه‌ای ندارد. پژوهش امروزی راه دیگری می‌رود: γαῦλος «کشتی بازرگانی فنیقی» را وام‌واژه‌ای می‌داند که از راه فنیقی از اکدی gullu «ظرف» و gullatu «کوزه» آمده است — همان واژهٔ سرگردانی که عبری gullāh، سریانی qulləṯā، عربی «قُلّه» و لاتینی culullus از آن‌اند. پس این جعبه یک واژهٔ فرهنگیِ سامی است، نه ریشهٔ هندواروپایی. افزون بر آن، نورایی خانوادهٔ galea/galley را نیز بی‌هیچ سندی بدان چسبانده که واژه‌ای یکسره جداست. پژوهش امروزی این ریشه را نمی‌پذیرد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%CE%B3%CE%B1%CF%85%CE%BB%CF%8C%CF%82",
+        "https://www.etymonline.com/word/galley"
+      ],
+      "ref_check": [
+        {
+          "ref": "IEC:388",
+          "status": "supports",
+          "note": "Mann, An Indo-European Comparative Dictionary, col. 388-389 (IEC.txt form-feed page 227): 'ĝaulos (?) \"vessel, boat\" Per. cf. zauraq \"ship, vessel\"; Gk. gaūlos \"merchant-ship\"; gaulós \"milkpail\". Cf. ĝeul-'. Nourai's root box is verbatim Mann, including the Persian word; the '(?)' is Mann's own reservation, which Nourai drops."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "Pokorny IEW (grep 'gaulos', 'milkpail')",
+          "stance": "silent",
+          "note": "No lemma *ĝaulos; the only 'milkpail' hits (POK_full.txt ll.60837-60856) are under the root for 'milk' (ἀμολγεύς, mulctra), unrelated."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny",
+          "stance": "silent",
+          "note": "Grep of the WLD volumes for gaulos/γαυλός returns nothing; the etymon is absent from the standard IE comparative dictionary."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck, Dict. of Selected Synonyms §12.73/§4.86 (SYN.txt l.35029)",
+          "stance": "contradicts",
+          "note": "Buck on galea: 'Lat. galea (\"leather helmet\"), prob. loanword fr. Grk. γαλέη \"weasel, marten\", through generalization of \"weasel skin\" to \"skin, leather\"' — galea has nothing to do with a vessel or boat."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "zowraq «زورق»; zowraqî «زورقی»",
+          "verdict": "plausible",
+          "derivation": "Both words are real and correctly glossed. Persian زورق zowraq 'skiff, small boat' goes back to a Middle Persian *zōwrak (Wiktionary), and it is Persian that gave Arabic زَوْرَق zawraq 'boat, dinghy, skiff' (pl. zawāriq), not the other way round — so this is an Iranian word that travelled into Arabic and came back to Persian in Arabicised dress. زورقی zowraqī is the Persian relative adjective in -ī used substantivally: Borhan-e Qate' defines it 'نوعی از کلاه قلندران است و آن شبیه است بکشتی' — a kind of qalandar's cap shaped like a boat, exactly Nourai's gloss. What is not established is the arrow itself: the only authority for attaching zowraq to an Indo-European *ĝaulos is Mann's queried entry, which merely writes 'Per. cf. zauraq'; no Iranist derivation of the word exists, and Wiktionary stops at MP *zōwrak.",
+          "derivation_fa": "هر دو واژه واقعی‌اند و معنی‌شان درست آمده است. «زورق» فارسی به فارسی میانهٔ *zōwrak بازمی‌گردد و همین واژهٔ ایرانی است که به عربی رفته و «زَوْرَق» (جمع: زوارق) شده — نه برعکس؛ یعنی وام‌گیریِ رفت‌وبرگشتی از فارسی به عربی و باز به فارسی. «زورقی» صفت نسبیِ فارسی است که اسم شده؛ برهان قاطع آن را چنین آورده: «نوعی از کلاه قلندران است و آن شبیه است بکشتی» — درست همان معنایی که نورایی نوشته. آنچه اثبات‌نشده مانده خودِ پیکان است: تنها گواهِ پیوند «زورق» با ریشهٔ فرضی هندواروپایی، مدخل پرسش‌دارِ مان است که همان‌جا هم فقط می‌نویسد «قس فارسی zauraq». هیچ ریشه‌شناسی ایرانی‌شناسانه‌ای این پیوند را نپرداخته است؛ پس با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%D9%88%D8%B1%D9%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "AEC:388",
+              "status": "supports",
+              "note": "'AEC' is not a key in Nourai's bibliography (it is absent from refs_online.json); the printed page (pdf 168) really does read 'AEC:388', evidently the author's misprint for IEC:388 — the same page of Mann he cites on the root box, and Mann's col. 388 does read 'Per. cf. zauraq \"ship, vessel\"' under ĝaulos. Book misprint, faithfully extracted."
+            },
+            {
+              "ref": "BQT:1044",
+              "status": "partial",
+              "note": "The Borhan entries are where Nourai says: BQT_v2_pages.txt l.30090 f. has 'زورق سیمین، کنایه از ماه' and 'زورقی - نوعی از کلاه قلندران است، وآن شبیه است بکشتی', with cross-references 'رك: زورق' / 'رك: زورقی'. So Borhan supports the two words and their glosses; Mo'in's etymological footnote on that page is too damaged in the OCR (and the page is outside the available BQT scans) to be read, so the etymology is unchecked."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "IEC",
+              "where": "Mann col. 388",
+              "stance": "supports",
+              "note": "'ĝaulos (?) \"vessel, boat\" Per. cf. zauraq \"ship, vessel\"' — the only book that connects the Persian word to the root."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' s.v. زورق / زورقی (BQT_v2_pages.txt ll.30008, 30090)",
+              "stance": "supports",
+              "note": "The headwords and the 'boat-shaped qalandar cap' sense are both there."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep for zawraq / زورق in PLA_pages.txt returns nothing — Asbaghi does not list it among the Persian loans in Arabic."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfaz al-farisiyya al-mu'arraba",
+              "stance": "silent",
+              "note": "The only hit for زورق (AFM_pages.txt l.2429) is a quotation from the Taj al-'Arus s.v. sunbuq ('زورق سفر يعمل في سواحل …'), not an entry deriving zawraq from Persian."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Greek",
+          "words": "gaulos, galea",
+          "verdict": "disputed",
+          "derivation": "γαῦλος / γαυλός is genuine and correctly glossed: Herodotus (3.136, 6.17) uses γαῦλος of the round-built Phoenician merchantman, and γαυλός is a milk-pail/round vessel. But it is almost certainly not Indo-European: Wiktionary, following Beekes, derives it 'via Phoenician or a near language from Akkadian gullu \"a container\", gullatu \"ewer\"'. 'galea' does not belong here at all. There is no classical Greek γαλέα 'merchant ship'; the ship-word is Byzantine Greek γαλέα (attested from the 9th c. in Byzantine naval texts), from Late Greek γαλία, a sea-fish, ultimately γαλέη 'weasel' (Klein), and Etymonline flatly calls Late Greek galea 'of unknown origin'. Classical Greek γαλέα is not a ship but the source of Latin galea 'leather helmet' (Buck). Nourai has merged two unrelated words on the strength of their look.",
+          "derivation_fa": "γαῦλος/γαυλός واژه‌ای راستین و درست معنی‌شده است: هرودوت (۳٫۱۳۶ و ۶٫۱۷) آن را برای کشتی بازرگانیِ گِردساختِ فنیقی به کار برده و γαυλός سطل شیر و ظرف گِرد است. اما به احتمال بسیار هندواروپایی نیست؛ ویکی‌واژه به پیروی از بیکس آن را وامی از اکدی gullu «ظرف» و gullatu «کوزه» از راه فنیقی می‌داند. اما «galea» اصلاً به این خانواده تعلق ندارد: در یونانی کلاسیک γαλέα به معنی «کشتی بازرگانی» وجود ندارد؛ واژهٔ کشتی، γαλέα یونانیِ بیزانسی (از سدهٔ نهم میلادی در متون دریایی) است که کلاین آن را از γαλία «ماهیِ دریایی» و سرانجام از γαλέη «راسو» می‌گیرد، و اتیمانلاین یکسره می‌نویسد «خاستگاهش ناشناخته است». بنابراین نورایی دو واژهٔ بی‌ربط را تنها به گواهِ شباهت ظاهری یکی گرفته است؛ این حلقه پذیرفتنی نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%B3%CE%B1%CF%85%CE%BB%CF%8C%CF%82",
+            "https://www.etymonline.com/word/galley"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:388",
+              "status": "partial",
+              "note": "Mann col. 388 has 'Gk. gaūlos \"merchant-ship\"; gaulós \"milkpail\"' — supports the gaulos half of the node, but Mann does not mention galea at all."
+            },
+            {
+              "ref": "AHD:539",
+              "status": "not_checked",
+              "note": "A page of the main dictionary body of AHD New College 1975 (the galleon/galley entries), which is not on disk; Watkins's IE-roots appendix, the only AHD text available here, has no such root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. galley (KLN_1966.txt l.15708)",
+              "stance": "contradicts",
+              "note": "'galley, n. — ME. galei, galeie, fr. OF. galie, fr. ML. galea, fr. Byzant. Gk. γαλέα, which derives fr. Late Gk. γαλία, name of a seafish, and ult. fr. Gk. γαλέη \"weasel\".'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Galley (SKT.txt l.7335)",
+              "stance": "contradicts",
+              "note": "'Galley, a low built ship. (F — ?) O.F. galie; Low L. galea. Orig. unknown.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck (SYN.txt l.35029)",
+              "stance": "contradicts",
+              "note": "'Lat. galea (\"leather helmet\"), prob. loanword fr. Grk. γαλέη \"weasel, marten\".'"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "galeota, galea",
+          "verdict": "disputed",
+          "derivation": "Classical Latin galea means 'helmet' (Buck: a loan from Greek γαλέη 'weasel', via 'weasel-skin' > 'leather cap'), never 'ship'. The ship-word galea is Medieval Latin, borrowed from Byzantine Greek γαλέα in the Mediterranean naval vocabulary of the 9th-11th centuries, and galeota is its Italian/Medieval-Latin diminutive ('small galley'). Neither continues Greek γαῦλος: the vocalism (-au- vs -a-), the meaning and the chronology all diverge, and Mann, whom Nourai follows for the root, does not connect them. What the chart draws as Greek gaulos → Latin galea is a conflation of a classical Greek Semitic loan with a medieval nautical term of unknown origin.",
+          "derivation_fa": "galea در لاتینِ کلاسیک «کلاهخود» است — بنا بر باک، وامی از یونانی γαλέη «راسو» از راه «پوست راسو» ← «کلاهِ چرمی» — و هرگز «کشتی» نبوده است. galeaی به معنی کشتی، لاتینِ میانه است که در واژگان دریایی مدیترانه در سده‌های نهم تا یازدهم میلادی از یونانی بیزانسی γαλέα گرفته شده، و galeota مصغّرِ ایتالیایی/لاتینِ میانهٔ آن است («کشتیِ کوچک»). هیچ‌یک دنبالهٔ γαῦλος یونانی نیست: نه واکه‌ها می‌خوانند (‎-au- در برابر ‎-a-)، نه معنا و نه تاریخ؛ و مان هم که نورایی ریشه را از او گرفته این دو را به هم نمی‌پیوندد. پژوهش امروزی این حلقه را رد می‌کند.",
+          "sources": [
+            "https://www.etymonline.com/word/galley"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:539",
+              "status": "not_checked",
+              "note": "Main-dictionary page of the 1975 AHD New College edition; not available on disk. No AHD IE root covers galley."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. galley, galiot, galleass",
+              "stance": "contradicts",
+              "note": "'galiot, galliot, n., a small swift galley. — F. galiote, fr. OF. galie'; 'galleass … fr. It. galeazza, augment. of galea' — all from ML galea < Byzantine Greek, not from gaulos."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck (SYN.txt l.35029)",
+              "stance": "contradicts",
+              "note": "Latin galea is glossed 'leather helmet' and derived from Greek γαλέη."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann col. 388",
+              "stance": "silent",
+              "note": "Mann's ĝaulos entry lists no Latin reflex at all."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "galleon, galiot, galliot, galley",
+          "verdict": "plausible",
+          "derivation": "The English words are real and their immediate history is exactly as drawn — but from Medieval Latin galea, not from Greek gaulos. Galley is Middle English galei, galeie (13th c.), from Old French galie, from Medieval Latin galea; galiot/galliot is Old French galiote, a diminutive of galie ('a small swift galley'); galleon is 16th-century, from Spanish galeón, an augmentative of galea (Etymonline: 1520s, 'armed merchant ship'). So the node is right as a Romance-to-English chain and wrong only in its ultimate ancestor: Etymonline traces the family no further back than Late Greek galea, 'of unknown origin'.",
+          "derivation_fa": "واژه‌های انگلیسی واقعی‌اند و تاریخ نزدیکشان درست همان است که در نمودار آمده — اما از لاتینِ میانهٔ galea، نه از gaulosِ یونانی. galley از انگلیسی میانهٔ galei/galeie (سدهٔ سیزدهم) از فرانسهٔ کهن galie از لاتینِ میانه galea است؛ galiot/galliot همان galiote فرانسهٔ کهن، مصغّر galie؛ و galleon از سدهٔ شانزدهم از اسپانیایی galeón، صورت بزرگ‌ساز galea. پس زنجیرهٔ رومی به انگلیسی درست است و تنها نیای نهاییِ آن نادرست: اتیمانلاین این خانواده را از γαλέαِ یونانیِ متأخر فراتر نمی‌برد و می‌گوید خاستگاهش ناشناخته است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/galley"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:539",
+              "status": "not_checked",
+              "note": "Main-dictionary page of AHD New College 1975 (galleon/galley entries), not on disk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.vv. galley, galleon, galiot (KLN_1966.txt ll.15701, 15706, 15708)",
+              "stance": "partial",
+              "note": "'galleon, n. … Sp. galeón, formed fr. ML. galea, \"galley\", with augment. suff. -on'; 'galley … fr. OF. galie, fr. ML. galea, fr. Byzant. Gk. γαλέα' — supports the English forms, contradicts the gaulos ancestry."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Galley (SKT.txt l.7335)",
+              "stance": "partial",
+              "note": "'O.F. galie; Low L. galea. Orig. unknown' — the English words are confirmed, the origin left open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Gěi, Gě, Gî",
+      "verdict": "confirmed",
+      "modern_form": "PIE *gē(i)- : *gā(i)- : *gī- 'to sing, to cry' (Pokorny 355; LIV *gʷeH-(i-), Cheung *gaH)",
+      "note": "Root, language label, gloss and the three ablaut grades are all exactly Pokorny's. IEW 355: 'ge(i)- : gā(i)- : gī-, Meaning: to sing, to cry. Note: onomatopoeic word. Old Indic gāyati and gāti \"sings\", gātu- and gīti- \"song\", gīta- \"sung\", gāthā \"song, verse\" = Avestan gāθā \"song of religious content\"; Old Russian gaju, gajati; Lithuanian giedoti \"sing\"; Tocharian A kāk …'. Watkins/AHD gives the same root (gē(i)-2, 'To sing'), and Cheung 2007 reconstructs Proto-Iranian *gaH 'to sing, call' with the same PIE base. The one part of the chart that modern scholarship rejects is the niyāyišn branch (nodes 4-6), which Cheung assigns to a quite different root, *ǰad 'to ask, pray'.",
+      "note_fa": "ریشه، برچسب زبانی، معنا و هر سه پایهٔ آواگردانی (Gěi، Gě، Gî) دقیقاً همان است که پوکورنی در ص۳۵۵ آورده: «ge(i)- : gā(i)- : gī- «سراییدن، بانگ زدن»، واژه‌ای آوایی (نام‌آوا). سنسکریت gāyati و gāti «می‌سراید»، gātu- و gīti- «سرود»، gīta- «سروده‌شده»، gāthā «سرود» = اوستایی gāθā؛ روسی کهن gajati؛ لیتوانیایی giedoti «سراییدن»…». واتکینز در پیوستِ ریشه‌های هندواروپاییِ AHD نیز همین ریشه را با همین معنا آورده و چونگ (۲۰۰۷) ریشهٔ ایرانی آغازین *gaH «سراییدن، خواندن» را از همین پایه بازسازی کرده است. تنها بخشی از نمودار که پژوهش امروزی رد می‌کند شاخهٔ «نیایش» (گره‌های ۴ تا ۶) است که چونگ آن را به ریشهٔ دیگری، *ǰad «خواستن، دعا کردن»، بازمی‌گرداند. جز آن، ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:355",
+          "status": "supports",
+          "note": "Pokorny IEW p.355 (POK_full.txt ll.31718-31749): 'Root / lemma: ge(i)- : gā(i)- : gī-, Meaning: to sing, to cry. Note: onomatopoeic word. Old Indic gāyati and gāti \"sings\" … gāthā \"song, verse\" = Avestan gāθā \"song of religious content\" … References: WP. I 526 f. … Page(s): 355.' Nourai's three headwords are Pokorny's three ablaut grades."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins, AHD IE Roots (AHD_watkins1985.txt l.485)",
+          "stance": "supports",
+          "note": "'gē(i)-2. To sing. Contracted from *geəi-. Zero-grade form *gī- (< *giə-) in Sanskrit gītā, song: BHAGAVAD-GITA. [Pok. gē(i)- 355.]'"
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny I 526 f. (cited by Pokorny)",
+          "stance": "supports",
+          "note": "Pokorny's own reference line for the lemma is 'WP. I 526 f.', i.e. Walde-Pokorny carries the same root; the volume itself is not among the scans on disk (only Bd. III, the index)."
+        },
+        {
+          "src": "CHEUNG",
+          "where": "Cheung, Etym. Dict. of the Iranian Verb, s.v. *gaH (CHEUNG.txt ll.7089-7112)",
+          "stance": "supports",
+          "note": "'*gaH \"to sing, call\" … YAv. gāθa- \"song, gatha\"; Khotanese gaha- \"verse\"; Sanskrit gā \"to sing\" (RV+) … PIE *gʷeH-(i-) \"to sing\" > LIV: 183 | Pok.: 355.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "gâ 1; gâtâ",
+          "verdict": "confirmed",
+          "derivation": "Avestan has both the verb and the noun. The root gā(y)- 'to sing' shows in compounds such as pairi.gā.vacah- 'who sings the words around' (Y 57.20), barəzi.gāθra- 'singing high' (Yt 10.89) and the abstract gāθra- n. 'Singen, Gesang' (Bartholomae col. 1035, 'zum ai. V. gāyati'). gāθā- f. is the corresponding *-tā- action noun, PIE *gʷeH-tH-eh₂- > PII *gaHtʰā-, and is Bartholomae's 'Lied, und zwar religiösen Inhalts', the technical term for the five hymn-collections of Zarathushtra preserved in Yasna 28-34, 43-51, 53 — the Gathas. Sanskrit gāthā- 'song, verse' is its exact cognate, which is why Pokorny prints the equation 'ai. gāthā = Avestan gāθā'. Nourai's node is correct in form, language and meaning.",
+          "derivation_fa": "اوستایی هم فعل را دارد و هم اسم را. ستاک gā(y)- «سراییدن» در ترکیب‌هایی چون pairi.gā.vacah- «آن‌که واژه‌ها را گرداگرد می‌سراید» (یسنه ۵۷٫۲۰) و barəzi.gāθra- «بلندسرا» (یشت ۱۰٫۸۹) و اسم مصدر gāθra- «سرودن، سرود» (بارتولومه، ستون ۱۰۳۵: «به فعل سنسکریت gāyati») دیده می‌شود. gāθā- اسمِ ساخته‌شده با پسوند *-tā- است: هندواروپایی *gʷeH-tH-eh₂- ← هندوایرانی *gaHtʰā-؛ بارتولومه آن را «سرود، آن هم با محتوای دینی» تعریف می‌کند، یعنی نام فنیِ پنج دستهٔ سرودهای زردشت در یسنه‌های ۲۸–۳۴، ۴۳–۵۱ و ۵۳. سنسکریت gāthā- هم‌ریشهٔ دقیق آن است و پوکورنی همین برابری را آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:355",
+              "status": "supports",
+              "note": "IEW 355 prints the equation 'gāthā \"song, verse\" = Avestan gāθā \"song of religious content\"' in the material of the lemma gē(i)-."
+            },
+            {
+              "ref": "KLN:169",
+              "status": "supports",
+              "note": "Klein p.169 s.v. Bhagavad-Gita (KLN_1966.txt l.4885): '… gī-tā, \"song\", prop. fem. pp. of gāyate, \"sings, calls\", from the I.-E. imitative base *gā-, *gī-, whence also Avestic gāθa, Pers. gāh, \"song\", Lith. giedoti …' — Klein's line contains both the Avestan and the Persian words of Nourai's next node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae AiW cols. 1035-1036 (BRT.txt ll.10318, 10337)",
+              "stance": "supports",
+              "note": "'j. gāθā- f. \"Lied\" und zwar religiösen Inhalts; 1) insbes. von den fünf Hymnen … die in Y. 28—34, 43—51, 53 erhalten sind'; and 'j. gāθra- n. \"Singen, Gesang\" … Zum ai. V. gāyati.'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *gaH",
+              "stance": "supports",
+              "note": "Lists YAv. pairi.gā.vacah-, barəzi.gāθra-, fragāθra-, gāθa- 'song, gatha' under Proto-Iranian *gaH 'to sing, call'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "gât «گات ( گاتها )»; gâh 1 «گاه۱ ( سه گاه ، چهارگاه )»",
+          "verdict": "confirmed",
+          "derivation": "Both Persian words continue Avestan gāθā through Middle Persian. Avestan gāθā- gave MP gāh 'Gatha; hymn, song' (written gʾs); in New Persian this yields, on one hand, the learned Zoroastrian term گات gāt / plural گاتها gāthā (a form kept close to the Avestan with -t, used by Parsi and modern Iranian Zoroastrian writers for the Gathas), and on the other hand the inherited گاه gāh 'melody, tune', which survives above all as the second element of the names of the dastgāhs: سه‌گاه, چهارگاه. Wiktionary's Etymology 2 for گاه is precisely this: 'Inherited from Middle Persian gāh \"Gatha; hymn, song\", from Avestan gāθā \"Gatha; song\", from PII *gaHtʰás, from PIE *g(ʷ)eH-tHó-s, from *g(ʷ)eH- \"to sing, cry\"'. It is a genuine homonym of the other گاه ('place, time, throne', from Old Persian gāθu-, Horn no. 889), and Mo'in keeps them apart as separate lemmas, which is why Nourai writes 'gâh 1'.",
+          "derivation_fa": "هر دو واژهٔ فارسی از راه فارسی میانه به gāθāی اوستایی می‌رسند. gāθā- اوستایی در فارسی میانه gāh «گاه، سرود، گات» شده است؛ در فارسی نو از یک سو اصطلاح دینیِ «گات» و جمعِ آن «گاتها» را داریم (صورتی نزدیک به اوستایی با ت پایانی که پارسیان و زردشتیان ایرانی برای سرودهای زردشت به کار می‌برند) و از سوی دیگر «گاه» میراثی به معنی «آهنگ، نغمه» که بیش از همه در نام دستگاه‌ها بازمانده است: سه‌گاه، چهارگاه. ویکی‌واژه در ریشه‌شناسی دومِ «گاه» دقیقاً همین را می‌گوید. این «گاه» با «گاهِ» دیگر (جای، زمان، تخت — از پارسی باستان gāθu-، هرن شمارهٔ ۸۸۹) هم‌آواست نه هم‌ریشه، و معین نیز آن دو را مدخل‌های جداگانه آورده است؛ از همین روست که نورایی «گاه۱» نوشته. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87",
+            "https://abadis.ir/fatofa/%DA%AF%D8%A7%D9%87/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3190",
+              "status": "supports",
+              "note": "Mo'in's lexicon, via abadis.ir/fatofa/گاه (فرهنگ معین section): the first گاه lemma reads '[ په . ] (اِ. ) ۱ - آهنگ ، آواز. ۲ - (پس . ) به صورت پسوند در نام های آهنگ های موسیقی به کار رود: سه گاه ، چهارگاه .' — 'melody, voice', used as a suffix in the names of musical modes, tagged Pahlavi. That is Nourai's gâh 1 with his very examples; the 'place/throne' گاه is a separate lemma further down."
+            },
+            {
+              "ref": "KLN:169",
+              "status": "supports",
+              "note": "Klein p.169 s.v. Bhagavad-Gita: '… whence also Avestic gāθa, Pers. gāh, \"song\"' — Klein explicitly puts Persian gāh 'song' under this root."
+            },
+            {
+              "ref": "MON6:1648",
+              "status": "not_checked",
+              "note": "Mo'in vol. 6 is the a'lam (proper-name) volume, where گاتها is treated as the title of the Zoroastrian hymns; vols 5-6 are not on vajehyab/abadis and no scan is in the local library, so this page could not be opened."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. گاه (abadis mirror)",
+              "stance": "supports",
+              "note": "Three separate گاه lemmas: [په.] 'آهنگ، آواز' + musical-mode suffix; the temporal/local suffix; and [په.] 'تخت شاهی، سریر؛ مسند؛ جا، مکان'. Nourai's gâh 1 matches the first exactly."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 889, p.199",
+              "stance": "partial",
+              "note": "'gāh \"Ort (in Comp.); Thron\". ap. gāθu- \"Ort; Thron\" … aw. gātu- \"Ort; Thron\"; phlv. gās; ai. gātu-' — Horn treats only the homonym 'place/throne', i.e. he does not contradict gāh 'tune' but shows why the two must be kept apart."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *gaH",
+              "stance": "supports",
+              "note": "Khotanese gaha- 'verse' beside YAv. gāθa- shows the *gāθa- > *gāh development within Iranian that the Persian word presupposes."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sanskrit",
+          "words": "gâ; gâyatî; bhagavant-gita",
+          "verdict": "confirmed",
+          "derivation": "Sanskrit gā- (root gai) 'to sing', 3sg. present gāyati 'he sings' (Rigveda onwards), past participle gīta- 'sung' > gītā f. 'song', with gāthā- 'song, verse'. Pokorny's material for the lemma is precisely 'Old Indic gāyati and gāti \"sings\", gātu- and gīti- \"song\", gīta- \"sung\", gāthā \"song, verse\"'. Bhagavad-gītā is the tatpuruṣa compound bhagavat- 'the Blessed/Sublime One' (from bhaga- 'apportioner, lord', PIE *bʰag-) + gītā 'song', i.e. 'the Song of the Sublime One' — Klein's own wording. Nourai's spelling 'bhagavant-gita' uses the strong stem bhagavant- and his gloss 'sound of sublime' is a loose rendering of that, but the analysis is right; the cross-reference ☞Bhag points at the correct second root.",
+          "derivation_fa": "سنسکریت gā- (ستاک gai) «سراییدن»، سوم‌شخص مفرد حال gāyati «می‌سراید» (از ریگ‌ودا به بعد)، اسم مفعول gīta- «سروده» و از آن gītā «سرود»، و نیز gāthā- «سرود، بند». مادهٔ پوکورنی برای این ریشه دقیقاً همین‌هاست. «بهگودگیتا» ترکیبی است از bhagavat- «خداوندگار، آن بزرگوار» (از bhaga- «بخش‌کننده، سرور»، هندواروپایی *bʰag-) و gītā «سرود»، یعنی «سرودِ آن بزرگوار» — همان تعبیری که کلاین آورده است. نگارش «bhagavant-gita» در کتاب ستاک قویِ bhagavant- را به کار برده و معنی «آوای شکوهمند» ترجمه‌ای آزاد است، اما تحلیل درست است و ارجاع «☞Bhag» نیز به ریشهٔ درست اشاره می‌کند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:355",
+              "status": "supports",
+              "note": "IEW 355: 'Old Indic gayati and gati \"sings\", gatu- and gīti- \"song\", gīta- \"sung, chanted\", gatha \"song, verse\"' — all three of Nourai's Sanskrit items."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins (AHD_watkins1985.txt l.485)",
+              "stance": "supports",
+              "note": "'gē(i)-2. To sing … Zero-grade form *gī- (< *giə-) in Sanskrit gītā, song: BHAGAVAD-GITA.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein p.169 s.v. Bhagavad-Gita",
+              "stance": "supports",
+              "note": "'OI. Bhāgavadgītā, \"the song of the Sublime One\", compounded of Bhaga, suff. -vant … and gī-tā, \"song\", prop. fem. pp. of gāyate, \"sings, calls\".'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *gaH",
+              "stance": "supports",
+              "note": "'SANSKRIT: gā \"to sing\" (RV+) — EWAia I: 482.'"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Old Persian",
+          "words": "niğây",
+          "verdict": "disputed",
+          "derivation": "No such Old Persian word is attested. Kent's Old Persian lexicon has jad- 'to pray, ask' (1sg. jadiyāmiy, DPd 21, XPh 59), not *ni-gāy-. Nourai's form is a back-projection of the Middle Persian stem. The substance of the claim — that niyāyišn belongs to the root gā- 'to sing' — was Nyberg's: 'niyāyišn … < *nigāyišn from gāy-, Skr gāyati \"to sing\"; MPrth ng'y- pres. \"to sing\", ng'd \"song\" (Ghilain 86)', and Mo'in adopted it from Nyberg in the Borhan footnote Nourai cites. But Cheung 2007 rejects it twice over: under *gaH he notes 'The MIr. (verbal) forms, Pth. ng'y-, etc. are rather from *ǰad', and under *ǰad 'to ask, pray' (Av. jaiδiia-, OP jad-) he files 'BMP nyd'dsn /niyāyišn/ \"prayer, praise, worship\"', explaining the apparently irregular loss of *-g- by the following front vowel/glide (cf. MMP nyws- / NP niyōš- 'to listen' < *ni-gauš-, NP payām < *pati-gam-). So the older etymology Nourai reproduces is now the minority view, and the node's language label is wrong as well.",
+          "derivation_fa": "چنین واژه‌ای در پارسی باستان گواهی نشده است. در واژه‌نامهٔ کنت تنها jad- «دعا کردن، خواستن» آمده (اول‌شخص jadiyāmiy در DPd ۲۱ و XPh ۵۹)، نه *ni-gāy-. صورتی که نورایی آورده بازسازیِ واپس‌نگرِ ستاک فارسی میانه است. اصلِ ادعا — که «نیایش» به ریشهٔ gā- «سراییدن» بازمی‌گردد — از آنِ نیبرگ است: «niyāyišn … از *nigāyišn، از gāy-، سنسکریت gāyati «سراییدن»؛ پارتی ng'y- «سراییدن»، ng'd «سرود»»، و معین همین را از نیبرگ در حاشیهٔ برهان قاطع (همان مأخذی که نورایی می‌آورد) گرفته است. اما چونگ (۲۰۰۷) دو بار آن را رد می‌کند: ذیل *gaH می‌نویسد «صورت‌های ایرانی میانه، از جمله پارتی ng'y-، بهتر است از *ǰad گرفته شوند»، و ذیل *ǰad «خواستن، دعا کردن» (اوستایی jaiδiia-، پارسی باستان jad-) خودِ niyāyišn را جای می‌دهد و افتادنِ ظاهراً بی‌قاعدهٔ *-g- را با واکه/غلتِ پیشینِ پس از آن توضیح می‌دهد (قس نیوش < *ni-gauš-، پیام < *pati-gam-). پس ریشه‌شناسی کهنی که نورایی بازگفته امروز دیدگاه اقلیت است و برچسب «پارسی باستان» نیز نادرست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:4878",
+              "status": "partial",
+              "note": "Mo'in's lexicon entry نیایش (abadis mirror) reads only '(یِ ) [ په . ] (اِمص . ) دعا، ستایش' — it tags the word Pahlavi and gives no Old Persian form. The Latin-script etymological material of the print edition, which is what Nourai is citing, corresponds to the fuller footnote in Borhan (see node #6): 'پهلوی niyāyišn (پرستیدن) … ایرانی باستان … سانسکریت gā (آواز خواندن) … نیبرگ ص۱۵۸'. So Mo'in supports the gā- etymology and an 'Old Iranian' (ایرانی باستان) stage, but not an Old Persian word niğāy."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon p.184b",
+              "stance": "contradicts",
+              "note": "Cheung quotes it: 'OLD PERSIAN: jad- \"to pray, ask\" — Kent: 184b. Pres. ja-: IND. 1sg. jadiyamiy <j-di-i-y-a-mi-i-y> (DPd 21, PMa 54)'. There is no Old Persian *nigāy- in the corpus."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *gaH and s.v. *ǰad (CHEUNG.txt ll.7110, 14863)",
+              "stance": "contradicts",
+              "note": "'The MIr. (verbal) forms, Pth. ng'y-, etc. are rather from *ǰad'; and under *ǰad: 'BMP nyd'dsn /niyāyišn/ \"prayer, praise, worship\". The loss of the velar *-g- … is due to the presence of the front vowel / glide -iy-.'"
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary p.158 s.v. niyāyišn",
+              "stance": "supports",
+              "note": "'niyāyišn [nyd'dšn'] worship, adoration … < *nigāyišn from gāy-, Skr gāyati \"to sing\"; MPrth ng'y- pres. \"to sing\", ng'd \"song\" (Ghilain 86).' This is the source of Nourai's (and Mo'in's) derivation."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Pahlavi",
+          "words": "niğâyišn",
+          "verdict": "disputed",
+          "derivation": "The Middle Persian word is real and well attested: Book Pahlavi nyʾdšn' /niyāyišn/ 'prayer, praise, worship' (MacKenzie: 'niyāyišn [nyd'dšn' | N ~iš] prayer, praise'; Nyberg: 'worship, adoration, of the Fire … Renders Av. nəmah-'), the name of the five Nyāyišn prayers of the Khordeh Avesta. It is a regular -išn abstract from the present stem niyāy-. What is disputed is precisely what Nourai's arrow asserts, namely that this stem is *ni-gāy- from gā- 'to sing': Nyberg (whom Mo'in follows) reconstructs *nigāyišn and points to Parthian ng'y- 'to sing', but Cheung 2007 assigns Parthian ng'y- 'to pray, supplicate' and MP niyāyišn to the root *ǰad 'to ask, pray' (Av. jaiδiia-, OP jad-, MP zay-), with MMP nyzʾy- 'to entreat; honour' as the same formation, and explains the loss of the velar by the following -iy- (as in niyōš- 'to listen' < *ni-gauš-). The written form Nourai gives, niğāyišn with ğ, is itself an attempt to show that lost velar.",
+          "derivation_fa": "واژهٔ فارسی میانه راست و پرگواه است: پهلویِ کتابی nyʾdšn' /niyāyišn/ «دعا، ستایش، پرستش» — مکنزی: «niyāyišn، دعا، ستایش»؛ نیبرگ: «پرستش و نیایش، از جمله نیایشِ آتش… برگردانِ اوستایی nəmah-». همین است نام پنج «نیایش» خردهٔ اوستا (خورشید نیایش، مهر نیایش، ماه نیایش، آبان نیایش، آتش نیایش). ساختِ آن قاعده‌مند است: اسم مصدر با پسوند ‎-išn از ستاک حالِ niyāy-. آنچه مورد اختلاف است همان چیزی است که پیکان نورایی ادعا می‌کند، یعنی اینکه این ستاک *ni-gāy- از gā- «سراییدن» باشد: نیبرگ (و به پیروی او معین) *nigāyišn را بازسازی می‌کند و به پارتی ng'y- «سراییدن» استناد می‌کند، اما چونگ همان ng'y- را «دعا کردن، لابه کردن» می‌خواند و آن را با niyāyišn به ریشهٔ *ǰad «خواستن، دعا کردن» بازمی‌گرداند و افتادنِ «گ» را با ‎-iy-ِ پس از آن توضیح می‌دهد (مانند «نیوش» از *ni-gauš-). نگارشِ niğāyišn با «ğ» در کتاب نیز کوششی است برای نشان دادنِ همان «گ» افتاده.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:4878",
+              "status": "partial",
+              "note": "Mo'in tags نیایش '[په.]' (Pahlavi) and, in the parallel Borhan footnote, gives 'پهلوی niyāyišn (پرستیدن)' with Sanskrit gā 'to sing' and a reference to Nyberg p.158 — so he supports the Pahlavi form and the gā- etymology, but he offers no Old Persian antecedent for it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. niyāyišn (PHD.txt l.514)",
+              "stance": "supports",
+              "note": "'niyāyišn [nyd'dšn' | N ~iš] prayer, praise.' — the form and meaning, without an etymology."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary (NYB_vol2_glossary.txt l.2775)",
+              "stance": "supports",
+              "note": "'niyāyišn [nyd'dšn'] worship, adoration, of the Fire 6621-22 … Renders Av. nəmah- … < *nigāyišn from gāy-, Skr gāyati \"to sing\"; MPrth ng'y- pres. \"to sing\", ng'd \"song\" (Ghilain 86).'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *ǰad (CHEUNG.txt l.14863)",
+              "stance": "contradicts",
+              "note": "'MIDDLE PERSIAN: BMP zd- /zay-/ \"to ask, demand, implore\" || (+ *ni-) MMP nyzʾy- \"to entreat; honour\", BMP nydʾdsn /niyāyišn/ \"prayer, praise, worship\". The loss of the velar *-g- … is due to the presence of the front vowel / glide -iy-.'"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "nîyâyeš «نیایش»",
+          "verdict": "confirmed",
+          "derivation": "The edge drawn here — Pahlavi niyāyišn → New Persian نیایش niyāyeš 'praise, prayer' — is beyond dispute: the Middle Persian -išn abstract passes into New Persian as -eš with the regular raising/shortening of the Sasanian -išn, exactly as ستایش, دانش, کوشش. It is old in New Persian; the Borhan footnote quotes Ferdowsi, 'همیدون بزاری نیایش گرفت / جهان آفرین را ستایش گرفت', and glosses the headword 'بمعنی آفرین و تحسین - و دعائی باشد که از روی تضرع و زاری کنند'. Mo'in tags it '[په.]', Pahlavi. Only the ultimate root behind the word is contested (see nodes #4-5): Nyberg and Mo'in put it under gā- 'to sing', Cheung 2007 under *ǰad 'to ask, pray'.",
+          "derivation_fa": "این حلقه — از niyāyišnِ پهلوی به «نیایش» فارسی — بی‌چون‌وچرا درست است: اسم مصدرِ ‎-išnِ فارسی میانه در فارسی نو به ‎-ش بدل می‌شود، درست مانند «ستایش»، «دانش» و «کوشش». این واژه در فارسی دری کهن است؛ حاشیهٔ برهان قاطع (ص۲۲۲۴) بیتِ فردوسی را گواه می‌آورد: «همیدون بزاری نیایش گرفت / جهان‌آفرین را ستایش گرفت» و خودِ مدخل را چنین معنی می‌کند: «بمعنی آفرین و تحسین، و دعائی باشد که از روی تضرع و زاری کنند». معین نیز آن را «[په.]» برچسب زده است. تنها ریشهٔ نهاییِ واژه مورد اختلاف است (نگاه کنید به گره‌های ۴ و ۵): نیبرگ و معین آن را از gā- «سراییدن» می‌گیرند و چونگ از *ǰad «خواستن، دعا کردن».",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%86%DB%8C%D8%A7%DB%8C%D8%B4/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2224",
+              "status": "supports",
+              "note": "ref_page.py BQT:2224 (Borhan vol. 4 pdf p.307) is exactly the نیایش page: 'نیایش ۱ - بر وزن ستایش، بمعنی آفرین و تحسین - و دعائی باشد که از روی تضرع و زاری کنند. ۲ - وبمعنی مهربانی هم آمده است.' Mo'in's footnote 1 gives 'پهلوی [niyāyišn] (پرستیدن) … ایرانی باستان … سانسکریت gā (آواز خواندن) … نیبرگ ص۱۵۸', and footnote 4 lists the five Nyāyišn prayers of the Khordeh Avesta with Ferdowsi's line. Precisely Nourai's claim, sourced to Nyberg."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' p.2224 with Mo'in's footnotes",
+              "stance": "supports",
+              "note": "Headword, glosses, the Ferdowsi shāhed and the Pahlavi/Sanskrit etymological footnote citing Nyberg p.158."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. نیایش (abadis mirror)",
+              "stance": "supports",
+              "note": "'(یِ ) [ په . ] (اِمص . ) دعا، ستایش .' — an -eš abstract of Pahlavi origin."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. niyāyišn",
+              "stance": "supports",
+              "note": "'niyāyišn [nyd'dšn' | N ~iš] prayer, praise' — MacKenzie himself notes the New Persian continuation ('N ~iš')."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "Bhagavad-Gita",
+          "verdict": "confirmed",
+          "derivation": "English Bhagavad-Gita is a direct 18th-century borrowing of the Sanskrit title, current in English from Charles Wilkins's translation of 1785 ('The Bhagvat-Geeta, or Dialogues of Kreeshna and Arjoon'). The second element is gītā 'song', the feminine past participle of gāyate 'sings', i.e. the *gī- zero grade of the root of this chart — which is why Watkins cites BHAGAVAD-GITA as the sole English derivative of gē(i)-2. The chart's long arrow straight from the Sanskrit box to English is therefore correct: there is no intermediate language, the word entered English from Sanskrit through the Calcutta orientalists.",
+          "derivation_fa": "«Bhagavad-Gita» در انگلیسی وامی مستقیم از عنوان سنسکریت است و از ترجمهٔ چارلز ویلکینز در ۱۷۸۵ («گفت‌وگوهای کریشنا و ارجونا») در این زبان رواج یافته است. جزء دوم آن gītā «سرود» است، اسم مفعول مؤنثِ gāyate «می‌سراید»، یعنی همان پایهٔ صفرِ *gī- از ریشهٔ همین نمودار؛ از همین رو واتکینز تنها بازماندهٔ انگلیسیِ ریشهٔ gē(i)- را همین واژه می‌داند. پس پیکان بلندِ نمودار از جعبهٔ سنسکریت یکراست به انگلیسی درست است: زبان واسطی در میان نیست و واژه از راه شرق‌شناسان کلکته به انگلیسی رسیده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:169",
+              "status": "supports",
+              "note": "Klein p.169 (KLN_1966.txt l.4885): 'Bhagavad-Gita, the celebrated dialogue between Krishna and Arjuna inserted in the Mahabharata. — OI. Bhāgavadgītā, \"the song of the Sublime One\", compounded of Bhaga, suff. -vant … and gī-tā, \"song\", prop. fem. pp. of gāyate, \"sings, calls\", from the I.-E. imitative base *gā-, *gī-, whence also Avestic gāθa, Pers. gāh, \"song\" …' — the page number is right and the entry supports the whole node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins (AHD_watkins1985.txt l.485)",
+              "stance": "supports",
+              "note": "'gē(i)-2. To sing … Zero-grade form *gī- (< *giə-) in Sanskrit gītā, song: BHAGAVAD-GITA. [Pok. gē(i)- 355.]'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.v. baksheesh / -phagous (KLN_1966.txt ll.4302, 28431)",
+              "stance": "supports",
+              "note": "Klein cross-refers Bhagavad-Gita to the base *bhag- 'to distribute, share out' for the first element, matching Nourai's ☞Bhag."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
