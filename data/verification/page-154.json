@@ -1,0 +1,669 @@
+{
+  "pdf_page": 154,
+  "book_page": 124,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "En; Ndher, Ndhos, Ndhi",
+      "verdict": "plausible",
+      "modern_form": "two PIE lemmas: *h₁en 'in' (Pokorny '1. en', pp. 311-314; Watkins/AHD 'en. In.') and *n̥dʰ-os / *n̥dʰ-eri / *n̥dʰ-ero- 'under' (Pokorny 'n̥dʰos, n̥dʰeri', p. 771; Watkins/AHD 'ndher-. Under.')",
+      "note": "Every form in the box is real and correctly glossed, and the two glosses are correctly matched to the two form-groups: 'En : in, inside' = Pokorny's 1. en (311-314), 'Ndher, Ndhos, Ndhi : in, under' = Pokorny's n̥dhos, n̥dheri (771) plus the *n̥-dhi section that stands inside the en article at p. 311 ('n̥-dhī: Old Indic adhi „about, on“, Old pers. adiy „in“'). What is not right is the citation: Nourai gives only POK:311, but the Ndher/Ndhos half is a separate Pokorny lemma on p. 771, and Watkins likewise keeps 'en' and 'ndher-' apart as two roots. The consequence runs through the chart: the Persian and Greek branches all hang from *h₁en, while node #3-#5 (zǎir/zīr 'under') and the words 'under' and 'inferior' in the two English boxes hang from *n̥dher-. Merging them in one box is defensible as a presentational device (the two are formally close and Pokorny cross-refers), but the page number is incomplete and no reference at all is given for p. 771.",
+      "note_fa": "جعبهٔ ریشه در واقع دو مادهٔ جداگانهٔ هندواروپایی آغازین را یکجا آورده است: *h₁en «در، درون» که پوکورنی در صفحات ۳۱۱–۳۱۴ آورده، و *n̥dʰos / *n̥dʰeri «زیر، زیرین» که مادهٔ جداگانه‌ای در صفحهٔ ۷۷۱ همان کتاب است. صورت‌ها و معناها درست‌اند و عنصر سوم (Ndhi) نیز درست است، زیرا پوکورنی در همین صفحهٔ ۳۱۱ می‌نویسد: «*n̥-dhī: سنسکریت adhi، پارسی باستان adiy در». ایراد تنها در ارجاع است: نورایی فقط POK:311 را آورده و به صفحهٔ ۷۷۱ اشاره نکرده؛ این نکته مهم است چون «زیر» و واژه‌های under و inferior در نمودار از نیمهٔ دوم ریشه می‌آیند نه از *h₁en. در مجموع ادعای نورایی درست است اما ارجاعش ناقص است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:311",
+          "status": "partial",
+          "note": "POK_full.txt, lemma header 'Root / lemma: en' with 'Page(s): 311-314'; the article contains both 'enter, n̥ter' ('Old Indic antar, Avestan antarə, Old pers. antar „between“') and 'n̥-dhī: Old Indic adhi „about, on“, Old pers. adiy „in“'. It does NOT contain Ndher/Ndhos: that is a separate lemma, 'Root / lemma: n̥dʰos, n̥dʰeri, Meaning: under ... Avestan adairi „under, below“ ... Latin īnferus (*enferos, Indo Germanic *n̥dʰeros)', with 'Page(s): 771'. So POK:311 supports two thirds of the box and misses the third."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "p. 311-314 (lemma 'en') and p. 771 (lemma 'n̥dʰos, n̥dʰeri')",
+          "stance": "partial",
+          "note": "Two lemmas, not one: 'Meaning: in' at 311-314 vs. 'Meaning: under' at 771; Pokorny's own references are 'WP. I 125 ff., II 335 f.' for en and 'WP. I 323' for n̥dhos."
+        },
+        {
+          "src": "WLD",
+          "where": "Bd. I 125-127 (en, enter/n̥ter) and Bd. I 323 (*n̥dhos, n̥dheri)",
+          "stance": "supports",
+          "note": "Bd. I 323: '*ndhos, n̥dheri „unter, sub“, ndhero- „der untere“ ... Av. adairi „unter, unterhalb“ (Praep. m. Acc. Abl.) = got. undar, ahd. untar ... lat. inferus „der untere“'; Bd. I 126: 'enter, nter „zwischen — hinein“ ... ai. antar, av. antara, ap. antar „zwischen“'."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.vv. 'en' and 'ndher-'",
+          "stance": "partial",
+          "note": "'en. In. ... [Pok. 1. en 311.]' and separately 'ndher-. Under. 1. Germanic *under- ... 2. Latin inferus, lower: INFERIOR ... [Pok. ndhos 771.]' — Watkins too keeps the two apart."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck §6497 note",
+          "stance": "supports",
+          "note": "'ChSl. ǫtrь, Lat. inter, Skt. antar „within“, Grk. ἔντερα „entrails“, etc. Walde-P. 1.127.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "an-tar, an-tare, antara",
+          "verdict": "confirmed",
+          "derivation": "Avestan antarə (adv./prep.) 'between, among, within', its by-form/adjective antara- 'inner', and Old Persian antar (written a-t-r, DB 1.21, 2.78, 4.32, 4.92, XPh 30, 35) 'within, among'. All three continue PIE *h₁en-ter, the *-tero- contrastive derivative of *h₁en 'in' — the same formation as Sanskrit antár, Latin inter, Oscan anter, Umbrian ander, Old Irish eter, Greek ἔντερον 'entrails'. Nourai's three shapes are simply the Avestan adverb (antarə), its written variant with final -e, and the stem antara-; the hyphen in 'an-tar' is his own analytic device, not a form.",
+          "derivation_fa": "اوستایی antarə «میان، در میان» و صفت antara- «درونی»، و پارسی باستان antar (در کتیبهٔ بیستون ۱؍۲۱ و جز آن) «در، میان» هر سه از صورت هندواروپایی آغازین *h₁en-ter می‌آیند، یعنی ریشهٔ *h₁en «در» با پسوند سنجشی *-tero-. هم‌ریشه‌های آن سنسکریت antár، لاتین inter و یونانی ἔντερον است. کنت (فرهنگ پارسی باستان) و بارتولومه هر دو همین را می‌گویند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:311",
+              "status": "supports",
+              "note": "POK_full.txt, inside the 'en' article (Page(s): 311-314): 'enter, n̥ter „between - in“, en-tero- „inward“: Old Indic antar, Avestan antarə, Old pers. antar „between“, adnom. with Lok., Instr., Akk., Gen.; Old Indic antara- „internal“, Avestan antara- „inner“'."
+            },
+            {
+              "ref": "DZA:57",
+              "status": "not_checked",
+              "note": "DZA = Rashed Mohassel, Darāmadī bar Dastūr-e Zabān-e Avestāʾī (Khajeh 1364). refs_online.json records lookup_hint 'Not found.' — the 1364 edition is not digitised; only a revised e-book on taaghche.com."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon s.v. atar",
+              "stance": "supports",
+              "note": "'atar (i.e. antar), prep. with acc., „within, among“: Av. antara, Skt. antar, Lt. inter, pIE *enter (§31). DB 1.21; 2.78; 4.32, 92; XPh 30, 35.' Also § on the suffix: 'pIE *enter „inside“, OP antar, Av. antara, Skt. antar, Lt. inter.'"
+            },
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch, cols. 131-133 s.vv. ¹antara-, ²antara-",
+              "stance": "supports",
+              "note": "Column header printed '¹antara- 132' in BRT.txt; the entry ends 'Kompos., — Kompar.: s. gr.¹v. — ai. ¹antara- Adj., np. andar „in, innerhalb“'."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 126",
+              "stance": "supports",
+              "note": "'enter, nter „zwischen — hinein“, en-tero- „innerlich“: ai. antar, av. antara, ap. antar „zwischen“, adnom. mit Loc. Instr. Acc. Gen.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "andar",
+          "verdict": "confirmed",
+          "derivation": "New Persian اندر andar 'in, inside' continues Middle Persian andar (written with the Aramaic ideogram BYN, MacKenzie 'andar [BYN < A byn | M ʾndr, N ~] in, among, towards, concerning'), which is the regular reflex of Old Iranian antar(a)-: the cluster -nt- is voiced to -nd- after the nasal in Middle Persian, and the final vowel is lost. The chart's extra Persian forms belong here too: اندرون andarūn is already Middle Persian andarōn 'inside, within' (PHD s.v.), and اندران is its variant — Horn asks whether 'enderun steht für enderan'. In later New Persian andar was clipped to در dar (Hübschmann §546: 'Np. dar „hinein, in“ aus andar wie darun aus andarūn'), so andar survives mainly as a poetic archaism.",
+          "derivation_fa": "«اندر» فارسی نو دنبالهٔ فارسی میانهٔ andar است (در متون پهلوی با هزوارش BYN نوشته می‌شده) که خود از ایرانی باستان antar(a)- می‌آید؛ دگرگونی آوایی آن قاعده‌مند است: ت پس از نون در فارسی میانه واکدار و به د بدل شده و واکهٔ پایانی افتاده است. «اندرون» نیز پیشاپیش در فارسی میانه به صورت andarōn آمده است. هرن (شمارهٔ ۱۱۹، ص ۲۷) و هوبشمان و مکنزی و نیبرگ همگی همین را تأیید می‌کنند؛ در فارسی متأخر «اندر» کوتاه شده و «در» شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AF%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:27",
+              "status": "supports",
+              "note": "Horn, Grundriss p. 27 no. 119 (HRN.txt form-feed leaf 42, 'leaf = printed + 21'): '119. (i)ender „in“, vergl. enderun. ap. a(n)tar „in, innerhalb“; aw. antare; phlv. andar; ai. antár' — with the footnote 'Das Pehlevi hat auch schon andarūn (für aw. antara-)', which covers Nourai's اندرون."
+            },
+            {
+              "ref": "BRT:132",
+              "status": "supports",
+              "note": "Bartholomae's COLUMN 132: BRT.txt has the running column header '¹antara- 132' immediately before the ¹antara-/²antara- entries, and the entry closes 'ai. ¹antara- Adj., np. andar „in, innerhalb“'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971, s.vv. andar, andarōn",
+              "stance": "supports",
+              "note": "'andar [BYN < A byn | M ʾndr, N ~] in, among, towards, concerning'; 'andarōn [ʾndlwnʹ | M ʾndrwn, N ~rūn] inside, within'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II, s.v. andar",
+              "stance": "supports",
+              "note": "'— Av. (131 sq.) antara, antarə, OP antar ...; MPrthPrs ʾNDR; Paz. NP andar' — Nyberg's Bartholomae reference '131 sq.' is exactly the column Nourai cites."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien §546 and p. 191",
+              "stance": "supports",
+              "note": "§546: 'Np. dar „hinein, in“ aus andar wie darun aus andarūn, darxʷār aus andarxʷār'; and 'andar „in“ = phl. andar, zd. antare; vgl. phl. andarmōh (im Jasna) = zd. antarəmåŋha-'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan",
+          "words": "hača-adairi",
+          "verdict": "plausible",
+          "derivation": "Both halves are genuine Avestan words: hačā 'from' (< PIE *sekʷ-eh₂, the ablative-like adverb of *sekʷ- 'follow' — Nourai's cross-reference ☞Sekw is right, cf. Latin secus), and aδairi (Nourai's 'adairi'), a preposition 'under, beneath' with the accusative and the ablative (Bartholomae, AiW s.v. aδairi: \"Praep. 'unter, unterhalb'\", with Vd. 8.69 and Yt. 17.55). What is not Avestan is the combination: *hačā aδairi is a reconstructed Old Iranian prepositional phrase set up to explain Middle Persian azēr, not an attested Avestan compound — Bartholomae himself writes it as a phrase, 'Das wäre j. hača aδarāt (mp. hač adar)' (with the ablative aδarāt of aδara- rather than the preposition aδairi), and Wiktionary reconstructs it as Old Persian *hacā-adari. So the derivation is right, the language label is loose: the etymon is Old Iranian, and its exact shape (aδairi or the ablative aδarāt) is still argued.",
+          "derivation_fa": "دو جزء این صورت هر دو اوستایی‌اند: hačā «از» (هم‌ریشه با لاتین secus، از ریشهٔ *sekʷ-) و aδairi «زیر، زیرِ» که بارتولومه آن را حرف اضافهٔ اوستایی ثبت کرده است. اما ترکیب hača-adairi در اوستا مرکّبی مستقل نیست؛ بلکه گروهی حرف‌اضافه‌ای است که برای توضیح azēr پهلوی بازسازی شده است؛ خود بارتولومه صورت hača aδarāt (بایی از aδara-) را پیشنهاد کرده و ویکی‌واژه آن را پارسی باستان *hacā-adari می‌نویسد. پس این اشتقاق با احتیاط پذیرفتنی است و برچسب «اوستایی» دقیق نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1677",
+              "status": "not_found",
+              "note": "Klein 1966-67 p. 1677 is not about this. With the documented offset (KLN_1966 leaf ≈ floor(p/2)+12, calibrated on leaf 748 = p. 1469) p. 1677 falls on form-feed leaves 851-853, which carry only th- words (therio-, thermo-, thesaurus, thesis, thorax, thug). Klein's entry that does bear on the chart is 'under, prep.' at leaf 888 ≈ pp. 1747-48: 'ME., fr. OE. under ... fr. I.-E. *ndher, „under“, whence also OI. adhah, „below“, adharah, „lower“, Avestic adara-, „lower“ ... L. inferus, „lower“, infra, „below“' — it supports the *ndher- half of the root box, but says nothing about hačā-aδairi or Persian zīr."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch s.vv. aδairi, aδara-, aδara-naema-",
+              "stance": "supports",
+              "note": "'j. adairi Praep. „unter, unterhalb“; 1) mit Akk.: ... V. 8.69; ... 2) mit Abl.'; and under aδara- the footnote 'Das wäre j. hača aδarāt (mp. hač adar)', with the Pahlavi version of aδara-naema- given as 'Npü.: az zēr i taxt' — i.e. Bartholomae himself equates the Avestan phrase with Pahlavi/Persian zēr."
+            },
+            {
+              "src": "POK",
+              "where": "p. 771, lemma n̥dʰos / n̥dʰeri",
+              "stance": "supports",
+              "note": "'Avestan adairi „under, below“, Gothic undar etc. Old High German untar ... Old Indic adhara-, Avestan aδara- „the lower“ ... Latin īnferus.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 323",
+              "stance": "supports",
+              "note": "'Av. adairi „unter, unterhalb“ (Praep. m. Acc. Abl.) = got. undar, ahd. untar und untari ..., aisl. under „unter, sub“.'"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "azîr, azěr",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian azēr (Book Pahlavi ʾcʹdl) 'below, under' — MacKenzie 1971: 'azēr [ʾcʹdl | N zēr] below, under', beside the simplex 'ēr [ʹdl | M ʾyr, v. azēr] down, below; low; under'. The form is the univerbation of the Old Iranian phrase *hačā aδari: hačā gives the Middle Persian preposition hač/az (initial h- lost, -č- > -z- in the unstressed proclitic), and aδari gives -ēr, with intervocalic -δ- lost and the sequence a-i contracted to ē — exactly the change that turns Avestan *daipi- into MP dēb or *(h)aiwa- into ēw. Nourai's two spellings are one word: 'azēr' is MacKenzie's reading, 'azīr' the later reading back-formed from the New Persian pronunciation.",
+          "derivation_fa": "فارسی میانه azēr (در پهلوی کتابی ʾcʹdl) «زیر، پایین»؛ مکنزی آن را چنین می‌آورد: «azēr ... below, under» و صورت سادهٔ آن را هم به صورت ēr می‌آورد. این صورت حاصل یکی شدنِ گروه *hačā aδari است: hačā در فارسی میانه به hač/az بدل شده و aδari با افتادنِ دالِ میان‌واکه‌ای و همگونی a-i به ای کشیده (ē)، به ‎-ēr رسیده است. دو ضبطِ نورایی (azīr / azēr) یک واژه‌اند؛ ادعای او درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none)",
+              "status": "not_checked",
+              "note": "the printed box carries no reference; the neighbouring boxes cite KLN:1677 (above) and BQT:1051 (below), and MacKenzie supplies the form independently."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.vv. azēr, ēr",
+              "stance": "supports",
+              "note": "'azēr [ʾcʹdl | N zēr] below, under'; 'ēr [ʹdl | M ʾyr, v. azēr] down, below; low; under'; the English-Pahlavi part has 'below ēr, azēr' and 'under azēr, ēr'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II (glossary), greps for 'azēr', 'acēr', 'ēr'",
+              "stance": "silent",
+              "note": "the Frahang/Kārnāmag-based glossary does not contain the word; Nyberg's corpus simply does not use it."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW s.v. aδara-naema-",
+              "stance": "supports",
+              "note": "the Pahlavi rendering of Avestan aδara-naemāt is quoted as 'Npü.: az zēr i taxt' — the Middle Persian word in its phrase form."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "zîr",
+          "verdict": "confirmed",
+          "derivation": "New Persian زیر 'under, below' is Middle Persian azēr with loss of the unstressed initial a-, the ordinary Persian aphaeresis (cf. MP awēšān > ēšān, MP azēr > dialectal žēr, čēr). Moʾin's footnote on the very page Nourai cites gives the chain and the sister forms: Pahlavi [azēr], from Avestan, with Kurdish žēr and Baluchi čēr beside it, referring to Hübschmann. One caution about the transliteration: Hübschmann (Persische Studien §680) insists that the word for 'under' is zēr with ē, and that the homograph zīr 'high, treble string of a lute' (Armenian zir) is a different word that must be kept apart; Nourai's 'zîr' simply reflects the modern pronunciation, in which ē and ī have merged.",
+          "derivation_fa": "«زیر» فارسی نو همان azēr فارسی میانه است که الفِ آغازین بی‌تأکیدِ آن افتاده است. معین در حاشیهٔ برهان قاطع (ص ۱۰۵۱) زیرِ «زیر» می‌نویسد: «بمعنی پایین ؍ پهلوی … که از اوستایی … کردی … بلوچی …» و به هوبشمان ارجاع می‌دهد. یک نکته: هوبشمان (پژوهش‌های فارسی، بند ۶۸۰) تأکید می‌کند که واژهٔ «زیر» به معنای پایین zēr است و باید از zīr «زیرِ ساز، بمّ‌ترین زه» جدا شود؛ ضبط zîr در کتاب فقط تلفّظ امروزی را نشان می‌دهد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1051",
+              "status": "supports",
+              "note": "Borhān-e Qāteʾ (Moʾin's ed.) printed p. 1051 = form-feed leaf 513 of BQT_v2_pages.txt (offset printed = leaf + 538, calibrated on four legible page numbers: leaves 115→653, 214→752, 475→1013, 493→1031). That leaf carries the زیر article (running head زیرزبان گفتن, entries زیرا، زیرافکن، زیربزرگان …) and Moʾin's etymological footnote no. 4, which the OCR gives as '۴ - بمعنی پایین ؍ پهلوی […] … که ازاوستایی […]، کردی [žēr]، بلوچی … cêra … رک: … هویشمان ۱۸۰ …' — a Pahlavi + Avestan etymology for زیر 'below', exactly the chain Nourai draws (the Latin transliterations are mangled by the Persian OCR)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. azēr",
+              "stance": "supports",
+              "note": "'azēr [ʾcʹdl | N zēr] below, under' — MacKenzie gives the New Persian outcome himself."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien §680 (pp. 71-72)",
+              "stance": "partial",
+              "note": "'In den Nachträgen bemerkt Horn sehr richtig, dass np. zīr „hoch, hohe Stimme, hellste Saite“ (= arm. zir „Sopran“) mit ī (nicht ē) zu sprechen und also von zēr „unter“ zu trennen ist.' — supports the etymology but corrects the vowel of Nourai's transliteration."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān p. 1051, Moʾin's footnote",
+              "stance": "supports",
+              "note": "see ref_check above."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Old Persian",
+          "words": "adi, adyi; adi-sta; adi-var",
+          "verdict": "plausible",
+          "derivation": "The simplex is real in the older handbooks: Pokorny prints inside the en article 'n̥-dhī: Old Indic adhi „about, on“, Old pers. adiy „in“', and Walde-Pokorny discusses 'die mehrdeutigen ai. adhi „an, auf“, ap. adiy „in“ (*n̥-dhi oder *ədhi, *odhi)'. It is the Old Persian counterpart of Sanskrit ádhi, a zero-grade *n̥-dhi of *h₁en. Two cautions. (1) Kent's Old Persian (1950/53) — the standard lexicon since Nourai's sources were written — has no preposition adiy at all; the reading rests on nineteenth-century interpretations of the Behistun text and is not part of the current Old Persian corpus, so 'Old Persian' is an over-confident label. (2) adi-sta and adi-var are not attested Old Persian words in any form: they are Horn's starred reconstructions, 'ap. *adi + ∟stā-' and 'ap. *adi + ∟var-', built backwards from the Pahlavi forms in the next box; Nourai prints them without the asterisk. The glosses ('in standing', 'in truth, indeed') and the cross-references ☞Stâ (*steh₂-) and ☞Wel 1 are consistent with Horn's analysis.",
+          "derivation_fa": "صورت سادهٔ adiy در منابع کهن‌تر واقعاً آمده است: پوکورنی در صفحهٔ ۳۱۱ می‌نویسد «*n̥-dhī: سنسکریت adhi، پارسی باستان adiy در» و والده–پوکورنی نیز همین را با بازسازی *n̥-dhi می‌آورد. امّا دو احتیاط: یکم اینکه کنت در فرهنگ پارسی باستان (۱۹۵۰) اصلاً حرف اضافهٔ adiy را ثبت نکرده است و این خوانش امروز در پیکرهٔ پارسی باستان جایی ندارد؛ دوم اینکه adi-sta و adi-var هرگز در کتیبه‌ها نیامده‌اند و فقط بازسازی‌های ستاره‌دارِ هرن‌اند (*adi + ∟stā-، *adi + ∟var-) که نورایی ستارهٔ آن‌ها را انداخته است. پس این جعبه با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:311",
+              "status": "partial",
+              "note": "POK_full.txt, en article (Page(s): 311-314): 'n̥-dhī: Old Indic adhi „about, on“, Old pers. adiy „in“; gall. intensive prefix Ande-, cymr. an(ne)- ... Old Irish ind-'. Pokorny thus supports 'adi/adiy : in' but has nothing on adi-sta or adi-var."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I (an-/ana- article, citing Brugmann Grdr. II² 2, 798 f.)",
+              "stance": "supports",
+              "note": "'wo auch über die mehrdeutigen ai. adhi „an, auf“, ap. adiy „in“ (*n̥-dhi oder *ədhi, *odhi) und (S. 802, 860) arm. ըnd.'"
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon (pp. 164 ff.)",
+              "stance": "contradicts",
+              "note": "grep of KNT.txt for 'adiy' returns only the enclitic/verbal forms (jadiy, yadiy, ni-padiy, avahya-rādiy, jadiyāmiy …); there is no headword adiy 'in'. Kent's list of Old Persian prepositions has antar, patiy, abiy, hačā, parā, pariy, upariy — not adiy."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW, Old Persian entries beginning ad-",
+              "stance": "silent",
+              "note": "Bartholomae has 'p. *ada-kiy Adv. „damals“', 'p. adam', 'j. (p.) adav- „Wasserlauf“' — no p. adiy."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Pahlavi",
+          "words": "ô-statan; ě-var; ě-vâr; ě-vân",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "ô-statan",
+          "correct_form": "ē-stātan (Horn's ēstāten / ēstādan)",
+          "derivation": "The three ē- forms are exactly Horn's, on the two pages Nourai cites. Horn p. 6 (under no. 16 ārī): 'phlv. ēvar (vd. 5 (146) Gl., Men.), pāz. āwar, ēvarīh ... phlv. ēvar führe ich auf ap. *adi + ∟var- zurück; adi (ai. adhi) kommt auch noch in ēstāden (und vielleicht in ēvān, ēvar) vor' — which is where Nourai's 'ě-vâr : ?' and 'ě-vân : ?' with their question marks come from (Horn's own 'vielleicht'). But the first line of the box is wrong: Horn's form is ēstātan/ēstāden, and on the very page cited (p. 20, no. 84) he expressly assigns ōstātan to a different prefix — 'phlv. ōstātan (ava + ∟stā-)' — while deriving the ancestor of ایستادن from *adi. The printed page of Nourai (PDF p. 154) plainly shows 'ô-statan', so the extraction is faithful and the error is the book's: it should read ē-stātan. A second, substantive point: Cheung's Etymological Dictionary of the Iranian Verb (2007), s.v. *staH, assigns the Middle Persian verb to the prefix *abi-, not *adi- ('(+ *abi-) MMP ʾyst-, BMP yst-, ʾ(y)st- (YKʿYMWN-) /ēst-/ „to stay, stand, be“'), so even the corrected form does not belong under this root on the current view.",
+          "derivation_fa": "سه صورتِ با ایِ مجهول (ēvar، ēvār، ēvān) دقیقاً از هرن گرفته شده‌اند؛ هرن در صفحهٔ ۶ می‌نویسد که پهلوی ēvar را از *adi + ∟var- می‌گیرد و همین پیشوند در ēstāden هم دیده می‌شود. امّا سطر نخست ِجعبه خطاست: صورت درست ē-stātan است نه ō-stātan؛ خودِ هرن در همان صفحهٔ ۲۰ تصریح می‌کند که ōstātan از ava + ∟stā- است و واژهٔ دیگری است. تصویر صفحهٔ چاپی (ص ۱۲۴ کتاب) نشان می‌دهد که همین ô-statan چاپ شده، پس خطای چاپی کتاب است نه خطای خوانش اسکن. افزون بر این، چونگ (۲۰۰۷) پیشوند این فعل را *abi- می‌داند نه *adi-.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%D8%B3%D8%AA%D8%A7%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:6,20",
+              "status": "partial",
+              "note": "Horn p. 6: 'phlv. ēvar ... führe ich auf ap. *adi + ∟var- zurück; adi (ai. adhi) kommt auch noch in ēstāden (und vielleicht in ēvān, ēvar (ʾYNZʾN Jer. 5, 6)) vor (vergl. KZ. 32, 581)'; Horn p. 20 no. 84: 'Ich leite np. ēstaden, später istāden, von ap. *adi + ∟stā- ab, vergl. phlv. ēvar (unter No. 16)'. The pages support the derivation but give the form as ēstātan; the same page has 'phlv. ōstātan (ava + ∟stā-)' as a separate verb, which is what the book's 'ô-statan' actually names."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.vv. ēwar, ābāz ēstādan, ōstā-",
+              "stance": "partial",
+              "note": "'ēwar [ʾywl | M ʾywʾr] certain(ly), assured(ly)' — the word is real; MacKenzie also has 'ēstādan' (in phrases such as 'abāz ēstādan az: abandon, desist from') and separately 'awestād ... master (craftsman)', but gives no *adi- etymology and no NP ārī."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II 1470 s.v. ēvar",
+              "stance": "partial",
+              "note": "'ēvar [ʾdwl; …] adj. true … adv. verily, certainly … Paz. ēvar; NP āvar „true, certain“' — Nyberg gives the New Persian reflex as āvar, not آری, and offers no Old Persian prefix analysis."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "EDIV s.v. *staH, Middle Persian section",
+              "stance": "contradicts",
+              "note": "'MIDDLE PERSIAN: (+ *abi-) MMP ʾyst-, BMP yst-, ʾ(y)st- (YKʿYMWN-) /ēst-/ „to stay, stand, be“ (also aux.) … || (+ *aua-) BMP ʾwstʾ- /ōstā-/ „to set out“' — the ē- prefix is *abi-, and ōstā- is the *ava- compound, confirming that 'ô-statan' names the wrong verb."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Persian",
+          "words": "îstâdan; ârî",
+          "verdict": "disputed",
+          "derivation": "Both Persian words are real. ایستادن īstādan 'to stand' is Middle Persian ēstādan (ideogram YKʿYMWN-tnʹ), Horn's 'ēstaden, später istāden'; آری ārī 'yes, indeed' is Horn's no. 16, which he traces to Pahlavi ēvar. The arrow from this root, however, is what modern work rejects for īstādan: Cheung (EDIV 2007) files the Middle Persian verb under *staH with the prefix *abi- (→ ē-), and Wiktionary, following MacKenzie 1971 and Cheung, gives ایستادن < MP ēstādan < Proto-Iranian *staH < PIE *steh₂- with no *adi- and no connection to *h₁en. The prefix is the whole of Nourai's claim here, so the link to En/Ndhi falls with it. For آری the position is weaker still: Wiktionary's entry does derive it from MP ēwar < 'Old Persian adi-var', but it cites Nourai, An Etymological Dictionary, page 124 — this very page — so it is not independent confirmation; the only real authority is Horn's own conjecture of 1893, and Nyberg gives the New Persian reflex of ēvar as āvar, not ārī. آری is therefore 'plausible', ایستادن 'disputed', and the node takes the worse verdict.",
+          "derivation_fa": "هر دو واژه واقعی‌اند، امّا پیوند آن‌ها با این ریشه محل اشکال است. «ایستادن» از فارسی میانهٔ ēstādan است، اما چونگ در فرهنگ ریشه‌شناختی فعل ایرانی (۲۰۰۷) این فعل را زیر *staH با پیشوند *abi- می‌آورد نه *adi-؛ ویکی‌واژه نیز به پیروی مکنزی و چونگ همین را می‌گوید. پس پژوهش امروزی این پیکان را رد می‌کند. دربارهٔ «آری» ویکی‌واژه همان اشتقاق را می‌آورد ولی مأخذش خودِ همین صفحهٔ ۱۲۴ نورایی است (استدلال دوری)؛ مأخذ مستقل فقط حدس هرن (۱۸۹۳) است و نیبرگ بازتاب فارسی ēvar را «آور» می‌داند نه «آری».",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%D8%B3%D8%AA%D8%A7%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A2%D8%B1%DB%8C"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN",
+              "status": "supports",
+              "note": "Horn p. 20 no. 84 'īstāden „stehen“, estāden, Praes. est-em ... ap. ∟stā- (ai. sthā-); pāz. estādan ... Ich leite np. estaden, später istāden, von ap. *adi + ∟stā- ab' and p. 5-6 no. 16 'ārī „fürwahr“. Kās. ore, āre, ārī' → 'phlv. ēvar ... auf ap. *adi + ∟var-'. The bare 'HRN' on the chart is Horn, and Horn does say this."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "EDIV s.v. *staH",
+              "stance": "contradicts",
+              "note": "the Middle Persian reflex is listed as '(+ *abi-)', i.e. *abi-staH, not *adi-staH; the *adi- prefix does not appear in Cheung's article at all."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971, ēstādan / ēwar",
+              "stance": "partial",
+              "note": "both Middle Persian words are there ('ēwar ... certain(ly), assured(ly)'; ēstādan in the verb phrases), but MacKenzie gives no New Persian ārī and no Old Persian prefix."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II 1470",
+              "stance": "partial",
+              "note": "'ēvar ... Paz. ēvar; NP āvar „true, certain“' — a different New Persian outcome from Nourai's آری."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Greek",
+          "words": "en-, eis-; para-en-tithenai; epi-eis-hodos",
+          "verdict": "confirmed",
+          "derivation": "Greek ἐν 'in' is the direct reflex of *h₁en; εἰς/ἐς 'into' is the extended form *ens (Watkins: 'Extended form *ens in: a. Greek eis, into: EPISODE'). παρεντιθέναι 'to put in beside' = παρά 'beside' + ἐν 'in' + τιθέναι 'to put' (root *dʰeh₁-, Nourai's ☞Dhě 2), whence the verbal noun παρένθεσις 'insertion'. ἐπεισόδιος 'coming in besides' = ἐπί 'in addition' + εἴσοδος 'entrance' (εἰς + ὁδός 'way', root *sed-, Nourai's ☞Sed), whence ἐπεισόδιον, originally what is brought in between two choric songs of a tragedy. Nourai's hyphenated 'para-en-tithenai' and 'epi-eis-hodos' are analytic spellings of the real Greek compounds, and both cross-references are correct.",
+          "derivation_fa": "یونانی ἐν «در» بازتاب مستقیم *h₁en است و εἰς «به درون» از صورت گستردهٔ *ens می‌آید. παρεντιθέναι «در کنار نهادن» از παρά + ἐν + τιθέναι (ریشهٔ *dʰeh₁- «نهادن») ساخته شده و اسم فعل آن παρένθεσις است؛ ἐπεισόδιος نیز از ἐπί + εἴσοδος (= εἰς + ὁδός «راه»، ریشهٔ *sed-) است. واتکینز در پیوست فرهنگ American Heritage و کلاین و اسکیت همین را می‌گویند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/parenthesis",
+            "https://www.etymonline.com/word/episode"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. en: '3. Greek en, en-, in: EN-²; ENKEPHALIN, PARENCHYMA, PARENTHESIS ... 10. Extended form *ens in: a. Greek eis, into: EPISODE; b. suffixed form *ens-ō in Greek esō, within: ESOTERIC. [Pok. 1. en 311.]'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966-67 s.v. parenthesis",
+              "stance": "supports",
+              "note": "'parenthesis, n. — ML., fr. Gk. παρένθεσις, „insertion“, lit. „a putting in beside“, fr. παρεντιθέναι, „to put in beside“, fr. παρά, „beside“, ἐν, „in“, and τιθέναι, „to put, place“.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Episode",
+              "stance": "supports",
+              "note": "'Episode, a story introduced into another. (Gk.) Gk. ἐπεισόδιον, a coming in besides. — Gk. ἐπί, besides; εἴσοδος, an entrance, ἐπεισόδιος, coming in, from εἰς, in, ὁδός, a way.'"
+            },
+            {
+              "src": "POK",
+              "where": "p. 311-314",
+              "stance": "supports",
+              "note": "the en article lists the Greek material (ἔντερον, ἐντός, ἔνδον) under this root."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "French",
+          "words": "paranthese",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "paranthese",
+          "correct_form": "parenthèse",
+          "derivation": "There is no French word 'paranthese'. The French word is parenthèse, attested from the fifteenth century, taken from Medieval Latin parenthesis, itself from Greek παρένθεσις (Etymonline s.v. parenthesis: 'from French parenthèse (15c.) or directly from Medieval Latin parenthesis'). The chart on the printed page (PDF p. 154, book p. 124) does read 'paranthese', so the JSON is a faithful extraction and the misprint is Nourai's; the missing grave accent is his usual practice, but the a for e is an error. It may have been drawn from the Persian outcome, where French nasal -en- [ɑ̃] is regularly rendered آن (see the next node), but that is a Persian development, not a French spelling.",
+          "derivation_fa": "در فرانسه واژه‌ای به صورت paranthese وجود ندارد؛ صورت درست parenthèse است که از سدهٔ پانزدهم میلادی از لاتینی میانه parenthesis و آن از یونانی παρένθεσις گرفته شده است. تصویر صفحهٔ چاپی نشان می‌دهد که همین paranthese در کتاب چاپ شده؛ پس خطای چاپی کتاب است نه خطای خوانش اسکن. شاید از روی صورت فارسی «پرانتز» ساخته شده باشد، که خود حاصل بازنمودِ واکهٔ خیشومی فرانسوی [ɑ̃] با «ان» است.",
+          "sources": [
+            "https://www.etymonline.com/word/parenthesis"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none)",
+              "status": "not_checked",
+              "note": "the box carries no reference in the printed chart; the parent Greek box cites AHD, which lists PARENTHESIS among the English reflexes of en."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. parenthesis",
+              "stance": "partial",
+              "note": "Klein routes the English word through 'ML., fr. Gk. παρένθεσις' without the French stage; the French form, where it is given (Etymonline), is parenthèse."
+            },
+            {
+              "src": "Etymonline",
+              "where": "s.v. parenthesis",
+              "stance": "contradicts",
+              "note": "'from French parenthèse (15c.) or directly from Medieval Latin parenthesis' — spelled parenthèse, never paranthese."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Persian",
+          "words": "parântez",
+          "verdict": "confirmed",
+          "derivation": "پرانتز parāntez 'parenthesis, round bracket' is a modern (late Qajar / Pahlavi-era) loan from French parenthèse, taken by ear: French [pa.ʁɑ̃.tɛz] gives Persian pa-rān-tez, the nasal vowel [ɑ̃] being rendered by ان ān (as in رستوران restorān, آبونمان ābonomān), and the final voiced -se [z] by ز. Moʾin tags the word [فر.] = French, which is exactly the arrow Nourai draws.",
+          "derivation_fa": "«پرانتز» وام‌واژه‌ای نو (از اواخر دورهٔ قاجار به بعد) از فرانسوی parenthèse است که از راه شنیداری گرفته شده: واکهٔ خیشومی فرانسوی [ɑ̃] در فارسی به «ان» بدل شده (مانند رستوران و آبونمان) و پایانهٔ -se که در فرانسه [z] تلفّظ می‌شود به «ز» نوشته شده است. معین نیز برای آن نشانهٔ [فر.] می‌گذارد؛ پس ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%BE%D8%B1%D8%A7%D9%86%D8%AA%D8%B2/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:652",
+              "status": "supports",
+              "note": "Moʾin does carry the word with a French origin tag: the online text of Farhang-e Moʾin (abadis.ir/fatofa/پرانتز) gives '(پَ تِ) [ فر. ] (اِ.) نشانه ای است قوسی شکل ( ) که برای نوشتن جملهٔ معترضه'; the same article stands in the Adena two-volume abridgement on disk (MON_part1.txt line 29918, OCRed as 'پرانتر: 2 (.) نشانه‌ای است مرکب از نیم قوس … قوسین، هلالین'). The printed page 652 of the six-volume Amir Kabir edition could not be checked directly — that edition is not on disk and page numbers are not mapped online — but the content of the cited entry is confirmed."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 29918 (Adena 2-vol abridgement)",
+              "stance": "supports",
+              "note": "'پرانتز: [فر.] (ا.) نشانه‌ای است مرکب از نیم قوس عمودی بدان شکل ( ) و آن برای نوشتن جملهٔ معترضه و مانند آن بکار رود؛ قوسین، هلالین' (the OCR reads the final ز as ر)."
+            },
+            {
+              "src": "Etymonline",
+              "where": "s.v. parenthesis",
+              "stance": "supports",
+              "note": "confirms the French link in the other direction: 'from French parenthèse (15c.)'."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "parenthesis, episode",
+          "verdict": "confirmed",
+          "derivation": "English parenthesis (1560s, via Medieval Latin from Greek παρένθεσις) and episode (1670s, via French épisode or directly from Greek ἐπεισόδιον, first of the matter between two choric songs of a Greek tragedy, then 'a digression in a narrative', then from 1773 'a notable incident' and from the 1930s a broadcast instalment). Both are the English endpoints Watkins lists under en, so the arrow direct from the Greek box is right.",
+          "derivation_fa": "هر دو واژهٔ انگلیسی از یونانی گرفته شده‌اند: parenthesis (دههٔ ۱۵۶۰ میلادی) از راه لاتینی میانه از παρένθεσις، و episode (دههٔ ۱۶۷۰) از ἐπεισόδιον که نخست به معنای بخشِ میانِ دو سرود همسرایان در تراژدی یونانی بوده است. واتکینز هر دو را زیر مادهٔ en فهرست کرده است؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/episode",
+            "https://www.etymonline.com/word/parenthesis"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none)",
+              "status": "not_checked",
+              "note": "no reference in the printed box; the parent Greek box cites AHD, which lists both PARENTHESIS and EPISODE under en."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. parenthesis",
+              "stance": "supports",
+              "note": "'parenthesis, n., word, clause etc. inserted into a sentence. — ML., fr. Gk. παρένθεσις …'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Episode",
+              "stance": "supports",
+              "note": "'Episode, a story introduced into another. (Gk.) Gk. ἐπεισόδιον, a coming in besides.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins s.v. en",
+              "stance": "supports",
+              "note": "'PARENTHESIS' under §3 and 'EPISODE' under §10a."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Germanic",
+          "words": "in, innera, anda",
+          "verdict": "plausible",
+          "derivation": "Two of the three are secure: Germanic *in (Gothic in, Old English/Old High German/Old Saxon in, Old Norse í) from *h₁en / *h₁eni, and the comparative *inn(e)ra (Old English innera 'farther in, inner'). The third, *anda/*unda underlying Old English and, is only probable: Watkins writes 'Suffixed zero-grade form *n̥-dha possibly in Germanic *anda, *unda in Old English and', and Klein 'prob. fr. I.-E. *n̥dhā, whence also OI. átha, „then, and“'. Both authorities hedge, so the box is right in substance but overstates the last item; note also that *n̥-dhā is the Ndhi/Ndher half of Nourai's root box, not the En half.",
+          "derivation_fa": "دو صورت نخست قطعی‌اند: ژرمنی آغازین *in (گوتی in، انگلیسی کهن in) و صورت سنجشی *inn(e)ra (انگلیسی کهن innera «درونی‌تر»). امّا *anda که انگلیسی کهن and از آن می‌آید فقط احتمالی است: واتکینز می‌نویسد «possibly» و کلاین می‌نویسد «prob. fr. I.-E. *n̥dhā». افزون بر این، *n̥-dhā به نیمهٔ دوم جعبهٔ ریشه (Ndhi/Ndher) تعلق دارد نه به En. پس این جعبه با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins s.v. en: '1. Germanic *in in: a. Old English in, in: IN; b. Germanic (comparative) *inn(e)ra in Old English innera, farther in, inner: INNER' — exact; but '11. Suffixed zero-grade form *n̥-dha possibly in Germanic *anda, *unda in Old English and, and: AND' is explicitly hedged with 'possibly'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.vv. and, in",
+              "stance": "partial",
+              "note": "'and, conj. — ME., fr. OE. and, rel. to OS. endi, ande, OFris. and(a), … G. und, „and“, ON. enn, en, „and, but“, prob. fr. I.-E. *n̥dhā, whence also OI. áthā, „then, and“.'"
+            },
+            {
+              "src": "POK",
+              "where": "p. 311-314 (en) and p. 771",
+              "stance": "supports",
+              "note": "the en article has 'Gothic in „in“ … Old High German Old Saxon Old English in, Old Norse í „in“, from *eni' and derivatives 'Gothic inn „in, into“, inna, innana, probably from *eni-n-'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins s.v. ndher-",
+              "stance": "supports",
+              "note": "'ndher-. Under. 1. Germanic *under- in Old English under, under: UNDER' — the Germanic 'under' of the daughter box belongs here, not to *in/*anda."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "in, and, under",
+          "verdict": "plausible",
+          "derivation": "'in' (Old English in) and 'and' (Old English and) follow straight from the Germanic forms in the parent box, with the caveat about *n̥-dhā noted there. 'under' does not: it is Old English under < Germanic *under-, which Watkins and Klein derive from *n̥dher- ('under, prep. — ME., fr. OE. under … fr. I.-E. *ndher, „under“, whence also OI. adhah, „below“ … Avestic adara-, „lower“ … L. inferus'), i.e. from the Ndher/Ndhos half of Nourai's root box, not from Germanic *in/*innera/*anda. Because the box merges the two PIE roots, the word is in the right chart but hangs from the wrong parent; Klein does add that Germanic *under also continues *n̥ter 'between' in the sense 'among' (OHG untar, Goth. undar 'among'), which is presumably why Nourai grouped them.",
+          "derivation_fa": "واژه‌های in و and مستقیماً از صورت‌های ژرمنی جعبهٔ بالا می‌آیند، امّا under چنین نیست: این واژه از انگلیسی کهن under و ژرمنی آغازین *under- است که کلاین و واتکینز آن را از *n̥dher- «زیر» می‌گیرند، یعنی از نیمهٔ دوم جعبهٔ ریشه و نه از *in/*anda. چون نورایی دو ریشه را در یک جعبه آورده، واژه در نمودارِ درستی است ولی زیر پیکانِ نادرست. (کلاین می‌افزاید که *under ژرمنی در معنای «میان» ادامهٔ *n̥ter هم هست.)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none)",
+              "status": "not_checked",
+              "note": "no reference in the printed box; the parent Germanic box cites AHD, whose en article ends the Germanic items with 'IN', 'INNER' and 'AND' — but not 'UNDER', which Watkins puts under ndher-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein s.v. under, prep.",
+              "stance": "partial",
+              "note": "'under, prep. — ME., fr. OE. under, rel. to OFris. under, OS., Goth. undar, ON. undir … fr. I.-E. *ndher, „under“, whence also OI. adhah, „below“, adharah, „lower“, Avestic adara-, „lower“, Toch. A aṅc, „under“, Arm. ըnd, „under“, L. inferus, „lower“, infra, „below“ … Cp. also I.-E. *nter, „between, among“, whence OE. under, OHG. untar, Goth. undar, „among“.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Under",
+              "stance": "supports",
+              "note": "'Under, beneath. (E.) A.S. under; Icel. undir, Dan. Swed. under, … Goth. undar, under.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins s.vv. en, ndher-",
+              "stance": "partial",
+              "note": "'IN' and 'AND' are listed under en, 'UNDER' under ndher- ('[Pok. ndhos 771.]')."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Latin",
+          "words": "intrô, intrâ, inter",
+          "verdict": "confirmed",
+          "derivation": "Latin intrō 'inward, within' and intrā 'inside, within' are the suffixed form *h₁en-t(e)ro- (the same *-tero- comparative as Avestan antara-), and inter 'between, among' is *h₁en-ter, the exact match of Avestan antarə/Old Persian antar in node #1 and of Sanskrit antár. Walde-Pokorny group them all in one paragraph: 'lat. enter, inter „zwischen“ … intro, intra, intrin-secus, interus „innerlich“, interior, intimus, intestinus'; Old Latin still has the older enter.",
+          "derivation_fa": "لاتینی intrō «به درون» و intrā «درون، درونِ» از صورت پسونددار *h₁en-t(e)ro- و inter «میان» از *h₁en-ter است؛ یعنی inter دقیقاً همان ساختِ antarə اوستایی و antar پارسی باستان و antár سنسکریت است. والده–پوکورنی و واتکینز و باک همگی همین را می‌گویند؛ صورت کهن‌تر لاتینی enter بوده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins s.v. en: '4. Suffixed form *en-t(e)ro- in: a. Latin intrō, inward, within: INTRO-; … b. Latin intrā, inside, within: ENTER, INTRA- … 5. Suffixed form *en-ter in Latin inter, inter-, between, among: ENTRAILS, INTER-, INTERIM, INTERIOR, INTERNAL.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I 126-127",
+              "stance": "supports",
+              "note": "'lat. enter, inter „zwischen“, adnom. m. Acc. … intro, intra, intrin-secus, interus „innerlich“, interior, intimus, intestinus (s. u.), osk. entrai „*Interae“ … osk. anter, umb. anter, ander „inter“.'"
+            },
+            {
+              "src": "POK",
+              "where": "p. 311-314",
+              "stance": "supports",
+              "note": "the same paragraph appears in Pokorny: 'Latin enter, inter prep. with acc. „between, among, amid“ … intro, intra, intrin-secus, interus „internal“, interior, intimus, intestinus.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck §6497 note",
+              "stance": "supports",
+              "note": "'Lat. inter, Skt. antar „within“ … Walde-P. 1.127.'"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "inter-, international, interest, interface, intestine, intimate, in- 1, en-, inferior",
+          "verdict": "plausible",
+          "derivation": "Most of the list is right but the parent box does not cover all of it. inter-, international and interest are Latin inter- compounds (interest = inter + est 'it is between, it concerns'); interface is a nineteenth/twentieth-century English coinage on the same prefix. But intestine is from Latin intestinus < intus 'within' (Watkins §8a, 'Suffixed form *en-tos … Latin intus, within, inside: DEDANS, INTESTINE'); intimate is from the superlative intimus (§6); in-¹ and en-¹ are from Latin in / Greek ἐν (§§2-3) — all of these are from *h₁en but not from intrō/intrā/inter, the three words actually printed in the Latin box. inferior is different again: Latin īnferior is the comparative of īnferus < *n̥dʰeros (Watkins 'ndher- … 2. Latin inferus, lower: INFERIOR'; Skeat: 'Inferior. (F.–L.) O.F. inferieur, L. inferiorem, acc. of inferior, lower, comp. of inferus, low, nether'), so it belongs to the Ndher half of the root box and not to the Latin box above it at all.",
+          "derivation_fa": "بیشتر این واژه‌ها درست‌اند امّا همه از سه واژهٔ جعبهٔ لاتینی بالا نمی‌آیند: inter- و international و interest و interface از inter، امّا intestine از لاتینی intus «درون»، intimate از صفت برترین intimus، و in-1 و en- از لاتینی in و یونانی ἐν است. مهم‌تر اینکه inferior از لاتینی īnferus < *n̥dʰeros است، یعنی از نیمهٔ Ndher ریشه و نه از inter/intrā/intrō. پس جعبه درست است ولی پیکانِ آن برای چند واژه دقیق نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81en"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none)",
+              "status": "not_checked",
+              "note": "no reference in the printed box; the parent Latin box cites AHD, and Watkins's en article indeed ends with the English capitals INTRO-, INTRODUCE, ENTER, INTRA-, INTER-, INTERIM, INTERIOR, INTERNAL, INTIMA, INTIMATE, INDUSTRY, DEDANS, INTESTINE, ENTERIC … but INFERIOR appears only under ndher-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins s.vv. en §§2-9, ndher- §2, and the index",
+              "stance": "partial",
+              "note": "the index line reads 'INFERIOR ndher- INFERNAL ndher- INFERNO ndher- … INFRA- ndher-', while INTIMATE, INTESTINE and INTER- are indexed to en."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Inferior",
+              "stance": "supports",
+              "note": "'Inferior. (F.–L.) O.F. inferieur, L. inferiorem, acc. of inferior, lower, comp. of inferus, low, nether … from Skt. adhas adv., underneath, low, down.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein s.vv. in-, pref.; under",
+              "stance": "partial",
+              "note": "'in-, pref. meaning in, into, toward, up, against … — E. in or L. in; see in, prep. … Cp. em-, en-.' — i.e. in-¹/en-¹ come from Latin in, not from inter/intrā."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
