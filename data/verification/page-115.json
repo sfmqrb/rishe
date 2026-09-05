@@ -1,0 +1,823 @@
+{
+  "pdf_page": 115,
+  "book_page": 85,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Dekm",
+      "verdict": "confirmed",
+      "modern_form": "PIE *deḱm̥ 'ten' (Pokorny 191 deḱm̥, deḱm̥t, deḱu-)",
+      "note": "Part 2 of the Dekm chart, covering only the 'hundred' derivative *(d)ḱm̥tóm. The root box is correct: Pokorny p. 191 heads the article 'deḱm̥, deḱm̥-t, deḱu- ,zehn’' and Watkins/AHD prints 'dekm. Ten. … [Pok. dekm 191]', so root, language label, gloss and page citation all match. Two cross-cutting observations on the chart as drawn. (1) The two Greek boxes both carry misprinted forms in the printed book (hektaton for hekaton, kentmnarion for kentēnarion); the JSON reproduces the page faithfully in both cases, so these are the author's errors, not extraction errors. (2) The lower Greek box (#17 kentēnarion) is hung directly off the Indo-European *Kmtom box, but it is a Late Greek loan from Latin centēnārium, which Nourai himself prints one box higher (#12); Jeffery, Klein and Wiktionary all route it Latin > Greek > Aramaic/Syriac > Arabic. The Iranian side of the chart (Avestan sata-/duye saite > Sogdian dwyst, Persian صد/دویست) is fully confirmed by Bartholomae, Gharib, MacKenzie, Horn and Hübschmann, and is the strongest part of the page.",
+      "note_fa": "این صفحه بخش دوم نمودار ریشهٔ Dekm است و تنها مشتق «صد»، یعنی *(d)ḱm̥tóm، را می‌پوشاند. جعبهٔ ریشه درست است: پوکورنی در ص ۱۹۱ مدخل را «deḱm̥، deḱm̥-t، deḱu- «ده»» می‌آورد و واتکینز نیز «dekm. Ten … [Pok. dekm 191]»؛ پس نام ریشه، برچسب زبان، معنی و ارجاع صفحه هر چهار درست‌اند. دو نکتهٔ کلی: یکم، هر دو جعبهٔ یونانی در خودِ کتاب غلط چاپی دارند (hektaton به جای hekaton و kentmnarion به جای kentēnarion)؛ داده‌های استخراج‌شده در هر دو مورد به صفحهٔ چاپی وفادارند، پس خطا از نویسنده است نه از خوانش اسکن. دوم، جعبهٔ یونانی پایینی (kentēnarion) مستقیماً زیر *Kmtom هندواروپایی آویخته شده، حال آن‌که وام‌واژه‌ای است از centēnārium لاتین — همان که نورایی خود یک جعبه بالاتر آورده؛ جفری، کلاین و ویکی‌واژه هر سه مسیر را لاتین ← یونانی ← آرامی/سریانی ← عربی می‌دانند. در مقابل، سمت ایرانی نمودار (اوستایی sata- و duye saite ← سغدی dwyst و فارسی «صد»/«دویست») با بارتولومه، غریب، مکنزی، هرن و هوبشمان کاملاً تأیید می‌شود و استوارترین بخش این صفحه است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ḱm̥tóm",
+        "https://en.wiktionary.org/wiki/صد",
+        "https://www.etymonline.com/word/hundred"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:191",
+          "status": "supports",
+          "note": "POK_01.txt line 2749 (Pokorny p. 191): 'deḱm̥, deḱm̥-t, deḱu- ,zehn’, Ordinale deḱm̥eino-s, deḱm̥to-s. Ai. dáśa, av. dasa; … gr. δέκα, lat. decem …'; the same article runs on to p. 192 with ḱm̥tóm 'hundert'. Watkins independently tags the root '[Pok. dekm 191]'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. dekm (AHD_watkins1985.txt line 362)",
+          "stance": "supports",
+          "note": "'dekm. Ten. I. Basic form *dekm … V. Suffixed zero-grade form *dkm-tom, hundred, reduced to kmtom … [Pok. dekm 191.]'"
+        },
+        {
+          "src": "WLD",
+          "where": "WP. I 785 f. (Pokorny's own reference at the end of the article)",
+          "stance": "supports",
+          "note": "Walde-Pokorny I 785 f. is cited by Pokorny as the source of the whole deḱm̥/ḱm̥tóm treatment."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. triiokomt- (IEC.txt line 18958)",
+          "stance": "supports",
+          "note": "'triioKomt-, -Kmt- ‘thirty’. Cf. treies (triio), tri-, and Kmtom' — Mann too operates with a headword Kmtom, i.e. Nourai's second form is a standard reconstruction."
+        },
+        {
+          "src": "ARY",
+          "where": "printed p. 10 ([pdf page 9], ARY_latin_index_pages.txt line 207) and p. 386",
+          "stance": "supports",
+          "note": "Aryanpur's introduction uses this very word for the SATEM/CENTUM split ('SATEM … CENTUM …') and his cognate table under HUNDRED lists SATA, SATAM, HEKATON, CENTUM, HUNDA side by side."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Indo-European",
+          "words": "Dkm-tom, Kmtom : hundred",
+          "verdict": "confirmed",
+          "derivation": "PIE *dḱm̥tóm > *ḱm̥tóm 'hundred', the zero-grade neuter derivative of *deḱm̥ 'ten' (literally '(ten) decad'), with loss of the initial *d- by simplification of the cluster *dḱ- in most branches. Watkins/AHD prints exactly Nourai's two forms: 'Suffixed zero-grade form *dkm-tom, hundred, reduced to kmtom'. Pokorny 192 heads the paragraph 'Hierher ḱm̥tóm ‘hundert’ aus *(d)ḱm̥tóm ‘(Zehner)dekade’'. The reduced *ḱm̥tóm is the ancestor of Skt. śatám, Av. satəm, Gk. hekatón, Lat. centum, Goth. hund, Lith. šimtas.",
+          "derivation_fa": "«صد» در همهٔ زبان‌های هندواروپایی از *dḱm̥tóm بازساخته می‌شود که صورت صفرمرتبهٔ (zero-grade) خنثای *deḱm̥ «ده» است، یعنی در اصل «دهگان، دهه». خوشهٔ آغازین *dḱ- در بیشتر شاخه‌ها ساده شده و *ḱm̥tóm به دست آمده است. واتکینز (پیوست ریشه‌های هندواروپایی فرهنگ American Heritage) دقیقاً همین دو صورت را می‌آورد و پوکورنی (ص ۱۹۲) می‌نویسد ḱm̥tóm «صد» از *(d)ḱm̥tóm «دههٔ (ده‌تایی)». ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ḱm̥tóm",
+            "https://www.etymonline.com/word/hundred"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. dekm (AHD_watkins1985.txt line 362): 'V. Suffixed zero-grade form *dkm-tom, hundred, reduced to kmtom.' — Nourai's box reproduces both forms and the gloss verbatim."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192 (POK_01.txt line 2764)",
+              "stance": "supports",
+              "note": "'Hierher ḱm̥tóm ,hundert' aus *(d)ḱm̥tóm ,(Zehner)dekade’' followed by ai. śatám, av. satəm, gr. hekatón, lat. centum, got. hund."
+            },
+            {
+              "src": "WLD",
+              "where": "WP. I 785 f. (cited by Pokorny at the foot of the same article)",
+              "stance": "supports",
+              "note": "Pokorny's own reference line reads 'WP. I 785 f., WH. I 200 f., 327 ff.' for the whole deḱm̥/ḱm̥tóm article."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 745 s.v. hundred (KLN_1966.txt line 18249)",
+              "stance": "supports",
+              "note": "'Teut. *hunda-, ‘hundred’, corresponds to I.-E. *kmto- … I.-E. *kmto-, ‘hundred’, orig. meant ‘ten tens’, fr. *kmt-, ‘ten’.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 13.1 (numerals), consulted for ordering",
+              "stance": "silent",
+              "note": "grep 'Av. sata|çatam' in SYN.txt returns nothing usable; Buck's numeral tables are not in the OCR at that point."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Avestan",
+          "words": "sata, satam : hundred; dve-sate, duye-saite : two hundred",
+          "verdict": "confirmed",
+          "derivation": "Av. sata- n. 'hundred' (nom.-acc. sg. satəm) is the regular Iranian reflex of PIE *ḱm̥tóm: the palatal *ḱ became Indo-Iranian *ć and then Iranian s (the classic 'satem' change — the branch is in fact named after this very word), and *m̥ > a. Bartholomae, AWb. col. 1557, lists 'j. sata- (, p. ẋata-) neutr. Zw. ‘hundert’'. The dual phrase 'two hundred' is attested as duye saite (Vd. 16.12 'duye °ite kahyāčit … xrafstranąm'), the dual saite of sata- with duye 'two'; Horn (no. 586) cites the same phrase as aw. dvē sāte. Nourai's four forms are thus the stem, the nom.-acc. sg., and the two variant citations of the dual phrase found in Horn and Hübschmann respectively.",
+          "derivation_fa": "اوستایی sata- (خنثی) «صد»، صورت مفرد فاعلی‑مفعولی satəm، بازتاب قاعده‌مند *ḱm̥tóm هندواروپایی است: *ḱ کامی به ć هندوایرانی و سپس به s ایرانی بدل شده (همان دگرگونی «ساتِم» که نام این شاخه از همین واژه گرفته شده) و *m̥ هجایی به a. بارتولومه در فرهنگ ایرانی باستان (ستون ۱۵۵۷) می‌آورد: «j. sata- (p. ẋata-) خنثی، عدد: صد». برای «دویست» صورت مثنّای duye saite در وندیداد ۱۶٫۱۲ آمده و هرن (شمارهٔ ۵۸۶) همان را dvē sāte می‌نویسد؛ هر دو صورتی که نورایی آورده در منابع موجود است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/صد",
+            "https://en.wiktionary.org/wiki/دویست"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:191, 192",
+              "status": "supports",
+              "note": "POK_01.txt line 2765 (p. 192): 'ai. śatám, av. satəm (daraus finn. sata, krimgot. sada)'; and line 2767 'vgl. ai. dvi-śatam aus *duwi ḱm̥tóm' — Pokorny's p.191-192 article covers both the root and the Avestan hundred."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 1557 (BRT.txt line 25911)",
+              "stance": "supports",
+              "note": "'j. sata- (, p. ẋata-) neutr. Zw. ‘hundert’'; the dual at line 25912 'duye °ite kahyāčit .. xrafstranąm V.16.12' = duye saite 'two hundred'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 586, p. 131 (HRN.txt line 5256)",
+              "stance": "supports",
+              "note": "'duvīst (*duvest) ‘zweihundert’ (du sed). aw. dvē sāte; pāz. dvest (Aogem.); ai. dvē śate ‘zweihundert’.'"
+            },
+            {
+              "src": "HUB",
+              "where": "p. 237 (HUB.txt line 8448)",
+              "stance": "supports",
+              "note": "'Durch späteren Vokalausfall entstand st aus sat in bīst ‘zwanzig’ = zd. visaiti und duvest ‘zweihundert’ = zd. duyē saite.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. dekm",
+              "stance": "supports",
+              "note": "'5. Avestan satam, hundred: SATEM.'"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "dwyst : two hundred",
+          "verdict": "confirmed",
+          "derivation": "Sogdian δwyst (Christian script), read δōwist / δwēst 'two hundred', continues the same Old Iranian dual phrase *duwaya-śatai as Avestan duye saite: the intervocalic *s of the second member is preserved, the unstressed vowel between the two members is lost, and the outcome is a single univerbated word. Gharib's Sogdian Dictionary (entry 3716) prints the etymology in exactly these terms, and the Buddhist-script spelling δwy100 (entry 3713, the numeral written with the figure) shows the word was still felt as 'two × hundred'. New Persian دویست continues an identical formation independently.",
+          "derivation_fa": "سغدی δwyst (به خط سریانی/مسیحی) که δōwist / δwēst خوانده می‌شود، دنبالهٔ همان ترکیب مثنّای ایرانی باستان *duwaya-śatai است که در اوستایی duye saite شده: واکهٔ میانی افتاده و دو جزء یک واژه شده‌اند. غریب در «فرهنگ سغدی» (مدخل ۳۷۱۶، ص ۱۴۶–۱۴۷) ریشه را صریحاً «< اوستایی duye-saite» می‌دهد. صورت بودایی δwy۱۰۰ (مدخل ۳۷۱۳) نشان می‌دهد واژه هنوز «دو×صد» احساس می‌شده است. «دویست» فارسی نو نیز همین ساخت را مستقلاً ادامه داده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/دویست"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:147",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary, entry 3716 (SOD_pages.txt line 14353, form-feed leaf 212 ≈ printed p. 146/147): 'δwyst C — δōwist, δwēst (δwy100) ©<Av. duye-saite ⇒δwyst — two hundred. STii 1.82; SCE 561; BSTBL, Padm. 45; GMS 1316'. Exactly Nourai's arrow Avestan duye-saite → Sogdian dwyst."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "entries 3713 and 3716 (SOD_pages.txt lines 14341, 14353)",
+              "stance": "supports",
+              "note": "3713 'δwy100 B => δwyst' (numeral spelling) and 3716 as quoted; index at line 39781 'two hundred 661, 3716'."
+            },
+            {
+              "src": "HUB",
+              "where": "p. 237",
+              "stance": "supports",
+              "note": "gives the parallel Persian development duvest = zd. duyē saite, i.e. the same Old Iranian phrase behind both Sogdian and Persian."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, Khotanese",
+              "stance": "silent",
+              "note": "grep for 'dwyst' in ISS_alt_DKS.txt gives no hit; Khotanese has sata- but no relevant compound."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "sad «صد» : hundred; devîst «دویست» : two hundred",
+          "verdict": "confirmed",
+          "derivation": "NP صد sad < MP sad (written with the ideographic figure 100 in Book Pahlavi; MacKenzie p. 73 'sad [100 | M sd, N ~] hundred'), from OIr. *śatam = Av. satəm, OP *θatam, PIE *ḱm̥tóm; Iranian s- was later written with ص (rather than س) in Persian orthography, probably to avoid confusion with شد šod in unpointed manuscripts, so the Arabic-looking spelling is not a sign of an Arabic loan. NP دویست devīst < MP duwēst < Av. duye saite; Hübschmann (p. 237) explains the final -st as st from -sat after the loss of the medial vowel, exactly as in بیست bīst 'twenty' < *vīsati; Horn (no. 586) notes that the older pronunciation must have been duvest with majhūl ē, later raised to ī, which is why the word is spelled دویست but pronounced devīst.",
+          "derivation_fa": "«صد» از فارسی میانهٔ sad (که در پهلوی کتابی با هُزوارش/رقم ۱۰۰ نوشته می‌شد؛ مکنزی، فرهنگ کوچک پهلوی، ص ۷۳)، از ایرانی باستان *śatam = اوستایی satəm، پارسی باستان *θatam، و هندواروپایی *ḱm̥tóm. نوشتن آن با «ص» به جای «س» املای قراردادی فارسی است — احتمالاً برای پرهیز از خلط با «شد» در متون بی‌نقطه — و نشانهٔ معرّب بودن نیست. «دویست» از فارسی میانهٔ duwēst و آن از اوستایی duye saite است؛ هوبشمان (ص ۲۳۷) می‌گوید st پایانی از sat- پس از افتادن واکهٔ میانی پدید آمده، درست مانند «بیست» از *vīsati. هرن (شمارهٔ ۵۸۶) می‌افزاید که تلفظ کهن‌تر duvest با «ای مجهول» بوده که در فارسی نو به ī کشیده بدل شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/صد",
+            "https://en.wiktionary.org/wiki/دویست"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT",
+              "status": "not_checked",
+              "note": "Nourai gives no page for BQT here. صد and دویست fall in Borhan vol. 3 (ش–ل), which exists on disk only as un-OCR'd page scans (BQT_v3_pages.txt has no usable text for these headwords; grep 'دویست' in BQT_v1/v2_pages.txt returns only running-text occurrences, e.g. BQT_v2_pages.txt line 22784). Without a cited page the claim could not be pinned to a specific Borhan entry."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 73 s.v. sad (PHD.txt line 562)",
+              "stance": "supports",
+              "note": "'sad [100 | M sd, N ~] hundred' — MacKenzie confirms MP sad, Manichaean MP sd, NP identical."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 725 (HRN.txt lines 6347-6349) and no. 586 (line 5256)",
+              "stance": "supports",
+              "note": "'sed … ‘hundert’. aw. sata- ‘hundert’; phlv. sat; ai. śatá-; kurd. sed; afγ. sal, sil; oss. sädä; waχ. sar.' and 'duvīst (*duvest) ‘zweihundert’ (du sed). aw. dvē sāte.'"
+            },
+            {
+              "src": "HUB",
+              "where": "p. 237 (HUB.txt line 8448)",
+              "stance": "supports",
+              "note": "'duvest ‘zweihundert’ = zd. duyē saite'."
+            },
+            {
+              "src": "ARY",
+              "where": "printed p. 386 (ARY_latin_index_pages.txt, [pdf page 385], line 11224)",
+              "stance": "supports",
+              "note": "Aryanpur's cognate table under HUNDRED lists 'SATA (KHOTANESE), SATAM, SHATA (SANSKRIT), HEKATON, EKATO (GREEK), CENTUM (LATIN), HUNDA (GOTHIC)' — the same family, with the Persian word at its head."
+            },
+            {
+              "src": "MON",
+              "where": "vajehyab/abadis entry for صد",
+              "stance": "silent",
+              "note": "the MON OCR on disk (MON_part1/part2) has no clean صد headword entry; grep 'هکتار|قنطار' finds those but not صد."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Greek",
+          "words": "hektaton : hundred",
+          "verdict": "transcription_suspect",
+          "derivation": "The Greek word for 'hundred' is ἑκατόν hekatón, not *hektaton. The printed page (pdf 115, book p. 85) really does read 'hektaton : hundred', so the extraction is faithful and the error is Nourai's own misprint — a transposed -t-. Substantively the node is right: ἑκατόν continues *ḱm̥tóm with the prothetic/dissimilated first syllable he- (Watkins and Pokorny both explain it as a dissimilation of *sem-ḱm̥tóm 'one hundred', with *sem- 'one' giving Gk. he-), the labiovelar-free palatal *ḱ giving Gk. k, and *m̥ > a. It is this word, in the shortened form hecto-, that the French National Convention used in 1795 to build hectare, so the arrow to French is correct.",
+          "derivation_fa": "واژهٔ یونانی «صد» ἑκατόν hekatón است، نه hektaton. تصویر صفحهٔ چاپی (صفحهٔ ۱۱۵ پی‌دی‌اف، صفحهٔ ۸۵ کتاب) نشان می‌دهد که خود کتاب «hektaton» چاپ کرده است؛ پس خطای خوانش اسکن نیست، بلکه غلط چاپی نورایی است (جابه‌جایی حرف t). محتوای گره درست است: ἑκατόν دنبالهٔ *ḱm̥tóm است با هجای آغازین he- که پوکورنی و واتکینز آن را حاصل ناهمگونی *sem-ḱm̥tóm «یک صد» می‌دانند (*sem- «یک» در یونانی he- می‌شود)، *ḱ کامی به k و *m̥ هجایی به a بدل شده است. همین واژه در صورت کوتاه‌شدهٔ hecto- در ۱۷۹۵ مبنای ساخت hectare در کنوانسیون ملی فرانسه شد؛ پس پیکان آن به فرانسوی درست است. حکم: خطای چاپی کتاب.",
+          "error_in": "book",
+          "book_prints": "hektaton",
+          "correct_form": "hekaton (ἑκατόν)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ḱm̥tóm",
+            "https://www.etymonline.com/word/hectare"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. dekm: '4. Greek hekaton, a hundred (? dissimilated from *hem-katon, one hundred; see sem-1): HECATOMB, HECTO-.' The cited reference gives hekaton, so it supports the derivation but contradicts the spelling printed in the book."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192 (POK_01.txt line 2766)",
+              "stance": "partial",
+              "note": "'gr. ἑκατόν, ark. hekatón (aus dissimil. *sem ḱm̥tom ,ein Hundert’? Schwyzer Gr. Gr. I 592 f.)' — the form is hekatón."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 713 s.v. hecto- (KLN_1966.txt line 17401)",
+              "stance": "partial",
+              "note": "'hecto-, before a vowel hect-, combining form meaning ‘a hundred’. — F. hecto-, hect-, arbitrarily shortened fr. Gk. ἑκατόν, ‘a hundred’.'"
+            },
+            {
+              "src": "ARY",
+              "where": "printed p. 386",
+              "stance": "partial",
+              "note": "Aryanpur's cognate list prints 'HEKATON, EKATO (GREEK)' — again hekaton, never hektaton."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. centum (LAT.txt line ~11137)",
+              "stance": "partial",
+              "note": "'got. hund, gr. ἑκατόν' listed as the parallel invariable neuters."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "hectare : a unit of area",
+          "verdict": "confirmed",
+          "derivation": "French hectare is a deliberate metric coinage of 1795, made by decree of the French National Convention: hect(o)- (an arbitrary shortening of Gk. ἑκατόν 'hundred', chosen as the Greek-based multiplier prefix, against the Latin-based sub-multiples deci-, centi-, milli-) + are (from Lat. area 'vacant piece of ground', the base unit of 100 m²). It is therefore a Greek-Latin hybrid meaning 'a hundred ares' = 10,000 m². Nourai's ☞As pointer sends the reader to his root 'As' for the second element, which is correct.",
+          "derivation_fa": "«hectare» فرانسوی واژه‌ای برساختهٔ نظام متری است که در ۱۷۹۵ به فرمان کنوانسیون ملی فرانسه ساخته شد: پیشوند hect(o)- که کوتاه‌شدهٔ قراردادی ἑκατόν یونانی «صد» است (پیشوندهای بزرگ‌کننده را از یونانی و کوچک‌کننده‌ها را از لاتین گرفتند) به‌علاوهٔ are از area لاتین «زمین بایر»، واحد پایه برابر ۱۰۰ مترمربع. پس هکتار یعنی «صد آر» = ۱۰٬۰۰۰ مترمربع و واژه‌ای دورگهٔ یونانی‑لاتین است. ارجاع نورایی به ریشهٔ «As» برای جزء دوم درست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/hectare"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 713 s.v. hectare (KLN_1966.txt line 17398)",
+              "stance": "supports",
+              "note": "'hectare, n., a surface measure containing 100 ares. — F., lit. ‘a hundred ares’, a hybrid coined in 1795 by a decree of the French National Convention fr. Gk. ἑκατόν, ‘a hundred’, and L. area, ‘a vacant piece of ground’.'"
+            },
+            {
+              "src": "KLN",
+              "where": "p. 128 s.v. area (KLN_1966.txt line 3373)",
+              "stance": "supports",
+              "note": "'L. area, ‘vacant piece of ground’. See next word and cp. the second element in hectare.'"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "hectâr «هکتار» : hectare (extra: هکتولیتر ، هکتومتر)",
+          "verdict": "confirmed",
+          "derivation": "Persian هکتار hektār is a 20th-century loan straight from French hectare, taken over with the metric system; the French final -e is dropped and the stressed -a- rendered as long ā, giving hek-tār. Mo'in's Farhang-e Fārsi glosses it 'واحد … مقیاس سطح، صد آر = یک هکتومتر مربع' and prints the French source spelling 'hectare' beside the headword. The same French series gave Persian هکتومتر (Mo'in: 'hectomètre … واحدی برای سنجش طول = ۱۰۰ متر') and هکتولیتر, which are the two extra words in Nourai's box; all three entered Persian through French technical and school vocabulary, not through English.",
+          "derivation_fa": "«هکتار» وام‌واژه‌ای است که در سدهٔ بیستم همراه با نظام متری مستقیماً از فرانسوی hectare گرفته شده؛ ـه پایانی فرانسوی افتاده و a تکیه‌بر به «ا» کشیده بدل شده است. معین در «فرهنگ فارسی» ذیل «هکتار» صورت فرانسوی hectare را می‌آورد و آن را «واحد … مقیاس سطح، صد آر = یک هکتومتر مربع» معنی می‌کند. دو واژهٔ افزودهٔ نورایی، «هکتومتر» و «هکتولیتر»، از همان سلسلهٔ فرانسوی‌اند؛ معین «هکتومتر» را نیز با ضبط hectomètre و معنی «واحدی برای سنجش طول = ۱۰۰ متر» آورده است. راه ورود، فرانسوی است نه انگلیسی. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/hectare"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:5159",
+              "status": "supports",
+              "note": "Mo'in's entry found in the local OCR (MON_part2.txt line 90677): 'هکتار: hectare (اِ.) واحد برابر مقیاس سطح صد آر - یک هکتومتر مربع'; the neighbouring entry (line 90678) is 'هکتومتر: hectomètre (اِمر.) واحدی برای سنجش طول = ۱۰۰ متر'. The page number 5159 could not be verified because the OCR carries no page tags, but the entry and the French source tag are exactly as Nourai cites."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 90677-90679 (headwords هکتار, هکتومتر)",
+              "stance": "supports",
+              "note": "as quoted above; Mo'in prints the Latin-script French etymon next to each headword."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 713 s.v. hectare",
+              "stance": "supports",
+              "note": "confirms that the ultimate donor of every European form is F. hectare, coined 1795."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "hectare",
+          "verdict": "confirmed",
+          "derivation": "English hectare is attested from 1817, borrowed unchanged from French hectare; the spelling and the metric value (100 ares = 10,000 m²) were taken over with the French unit itself as the metric system spread after the Napoleonic period. English never built the word from Greek independently — the -are element is French, and the pronunciation with final -air/-ar preserves the French shape.",
+          "derivation_fa": "«hectare» انگلیسی از سال ۱۸۱۷ به‌کار رفته و بی‌هیچ تغییری از فرانسوی hectare وام گرفته شده است؛ املا و مقدار واحد (صد آر = ۱۰٬۰۰۰ مترمربع) همراه با خودِ واحد فرانسوی و در پی گسترش نظام متری پس از دورهٔ ناپلئون وارد انگلیسی شد. انگلیسی این واژه را مستقیماً از یونانی نساخته است؛ جزء -are فرانسوی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/hectare"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:609",
+              "status": "not_checked",
+              "note": "AHD:609 is a page of the main New College Edition dictionary (1975/76), not of the Indo-European appendix; only the Watkins appendix (AHD_watkins1985.txt) is on disk, and the New College scans on archive.org are lending-only. The substance is confirmed by Klein and Etymonline instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 713 s.v. hectare (KLN_1966.txt line 17398)",
+              "stance": "supports",
+              "note": "Klein gives the English headword and derives it '— F., lit. ‘a hundred ares’, a hybrid coined in 1795 by a decree of the French National Convention'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict.",
+              "stance": "silent",
+              "note": "grep 'hectare' in SKT.txt returns nothing; Skeat does not treat modern metric coinages."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "hecto- : hundred",
+          "verdict": "confirmed",
+          "derivation": "English hecto- (before a vowel hect-) is the metric multiplier prefix '×100', taken over from French hecto-, which the National Convention formed by arbitrarily clipping Gk. ἑκατόν 'hundred' to a two-syllable prefix on the model of deca-, kilo-. It is therefore not a native Greek combining form (Greek itself used hekato-, as in hekatombē 'sacrifice of a hundred oxen') but a French metric invention out of Greek material — Nourai's arrow from the Greek box is right as a statement of the source material.",
+          "derivation_fa": "پیشوند hecto- (پیش از واکه hect-) در انگلیسی، پیشوند ضرب‌کنندهٔ متری «×۱۰۰» است و از فرانسوی hecto- گرفته شده؛ کنوانسیون ملی فرانسه آن را با کوتاه‌کردن قراردادی ἑκατόν یونانی به یک پیشوند دوهجایی، به قیاس deca- و kilo-، ساخت. پس این پیشوند صورت اصیل یونانی نیست (یونانی خود hekato- به کار می‌برد، مانند hekatombē «قربانی صد گاو») بلکه ساختی فرانسوی از مادهٔ یونانی است. پیکان نورایی از جعبهٔ یونانی، به‌عنوان بیان خاستگاه مادّه، درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/hectare"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 713 s.v. hecto- (KLN_1966.txt line 17401)",
+              "stance": "supports",
+              "note": "'hecto-, before a vowel hect-, combining form meaning ‘a hundred’. — F. hecto-, hect-, arbitrarily shortened fr. Gk. ἑκατόν, ‘a hundred’ (see hecatomb); introduced by the French National Convention.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. dekm",
+              "stance": "supports",
+              "note": "'4. Greek hekaton, a hundred …: HECATOMB, HECTO-.' — HECTO- is listed among the English words derived from Gk. hekaton."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Germanic",
+          "words": "hundan : hundred",
+          "verdict": "plausible",
+          "derivation": "The Proto-Germanic word for 'hundred' is a neuter *hundą (older notation *hundam / *hunda-), from PIE *ḱm̥tóm by Grimm's Law (*ḱ > *h) and the regular *m̥ > un; it survives as Goth. hund, OS/OE hund, OHG hunt. Nourai's cited source, Watkins/AHD, prints 'Germanic *hundam'; Klein prints 'Teut. *hunda-'; Wiktionary reconstructs *hundą, where the ogonek stands for the nasalized vowel that older handbooks wrote -an or -am. The book's 'hundan' is therefore a defensible older transcription of the nasal ending rather than a real error, but it matches none of the three standard notations exactly, so the node is plausible rather than confirmed.",
+          "derivation_fa": "صورت ژرمنی آغازین «صد» یک اسم خنثای *hundą است (در ضبط‌های کهن‌تر *hundam یا *hunda-) که از *ḱm̥tóm هندواروپایی با قانون گریم (*ḱ > *h) و تحول قاعده‌مند *m̥ > un پدید آمده؛ بازماندهٔ آن گوتی hund، ساکسونی و انگلیسی باستان hund و آلمانی علیای باستان hunt است. مأخذ خودِ نورایی، یعنی واتکینز، *hundam می‌نویسد؛ کلاین *hunda-؛ ویکی‌واژه *hundą که در آن نشانهٔ زیرین همان واکهٔ خیشومی است که کتاب‌های قدیمی -an یا -am می‌نوشتند. پس «hundan» کتاب ضبط کهنه‌ای از پایانهٔ خیشومی است، نه غلط آشکار، ولی با هیچ‌یک از سه ضبط استاندارد دقیقاً یکی نیست. حکم: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ḱm̥tóm",
+            "https://www.etymonline.com/word/hundred"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. dekm: '1. Germanic *hundam, hundred, in Old English hundred, hundred (-red, from Germanic *radam, number; see ar-): HUNDRED.' The derivation is Nourai's, but the cited reference spells the form *hundam, not *hundan."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192 (POK_01.txt line 2769)",
+              "stance": "supports",
+              "note": "'got. as. ags. hund, ahd. hunt ,100’ (in Kompositis von 200 ab)' — Pokorny cites only the attested forms, no starred Germanic."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 745 s.v. hundred (KLN_1966.txt line 18249)",
+              "stance": "partial",
+              "note": "'fr. Teut. *hunda-, ‘hundred’ (seen also in OE., OS., Goth. hund, OHG. hunt)' — stem form *hunda-, not *hundan."
+            },
+            {
+              "src": "WLD",
+              "where": "WP. I 785 f.",
+              "stance": "supports",
+              "note": "cited by Pokorny for the whole ḱm̥tóm paragraph including the Germanic reflexes."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "English",
+          "words": "hundred",
+          "verdict": "confirmed",
+          "derivation": "OE hund 'hundred' was in late Old English extended to hundred, a compound of hund + *rad 'reckoning, number' (Goth. rapjō 'a reckoning, account', ga-rapjan 'to count'; PIE *ré-/ar- 'to reason, count'), probably on the model of ON hundrað. The compound displaced simple hund entirely in Middle English (ME hundred, honderd), so that Modern English hundred literally means 'a count of hundred'. Nourai's arrow Germanic → English is right, but the box hides the second element, which is not from this root at all.",
+          "derivation_fa": "«hund» انگلیسی باستان به معنی «صد» بود؛ در اواخر دورهٔ انگلیسی باستان به hundred گسترش یافت که ترکیبی است از hund + ‏*rad «شمار، شمارش» (گوتی rapjō «حساب»، ga-rapjan «شمردن»؛ از ریشهٔ هندواروپایی *ar-/rē- «شمردن»)، احتمالاً به قیاس نروژی باستان hundrað. این ترکیب در انگلیسی میانه (hundred, honderd) جای hund ساده را کاملاً گرفت، چنان‌که hundred امروزی تحت‌اللفظی یعنی «شمارِ صد». پیکان نورایی از ژرمنی به انگلیسی درست است، ولی جعبه جزء دومِ واژه را نشان نمی‌دهد که اصلاً از این ریشه نیست.",
+          "sources": [
+            "https://www.etymonline.com/word/hundred"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; the parent Germanic box carries AHD, which does cover the English word."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 745 s.v. hundred (KLN_1966.txt line 18249)",
+              "stance": "supports",
+              "note": "'ME. hundred, honderd, fr. Late OE. hundred, prob. fr. ON. hundrað … lit. ‘the number of hundred’, fr. Teut. *hunda-, ‘hundred’ … and *-rad, ‘reckoning, number’ (seen in Goth. rapjo).'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. dekm and s.v. ar-",
+              "stance": "supports",
+              "note": "'Old English hundred, hundred (-red, from Germanic *radam, number; see ar-)'; and s.v. ar- 'Zero-grade form *ra- in Germanic *radam, number (see dekm)'."
+            },
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192",
+              "stance": "supports",
+              "note": "'an. hund-rað (zu got. rapjan ,zählen’) ,Großhundert’ (,120’), daraus ags. hundred; mhd. nhd. hundert aus as. hunderod'."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Latin",
+          "words": "centum, centenarium : hundred; per-centum : by hundred",
+          "verdict": "confirmed",
+          "derivation": "Lat. centum 'hundred' is the regular Italic reflex of *ḱm̥tóm (Proto-Italic *kəntom): the palatal *ḱ merged with plain velar k (the 'centum' merger that named the western branch), and *m̥ gave en before a stop. It is an indeclinable neuter, like mille. From it Latin built the adjective centēnārius 'consisting of a hundred, weighing a hundred pounds' (Ernout-Meillet: 'centēnārius: qui centum (centenas) partes habet'), used substantivally as centēnārium, the hundredweight — this is the form that later travelled east into Greek and Arabic in node 17. per centum 'by the hundred' is not a Classical Latin compound but a Modern Latin phrase abstracted from Italian commercial per cento; Nourai's hyphenation makes it look like an ancient univerbation, which it is not.",
+          "derivation_fa": "«centum» لاتین بازتاب قاعده‌مند *ḱm̥tóm در ایتالیایی آغازین (*kəntom) است: *ḱ کامی با k ساده یکی شده (همان ادغام «کنتوم» که نام شاخهٔ غربی از آن گرفته شده) و *m̥ هجایی پیش از انسدادی به en بدل شده است. این واژه مانند mille اسمی خنثی و غیرمنصرف است. از آن صفت centēnārius «صدتایی، به وزن صد رطل» ساخته شد (ارنو–مه‌یه: «centēnārius: qui centum (centenas) partes habet») که در کاربرد اسمی centēnārium یعنی «قنطار» شد — همان صورتی که در گرهٔ ۱۷ به یونانی و سپس عربی راه یافت. اما «per centum» ترکیبی لاتینی کهن نیست، بلکه عبارتی لاتینِ نو است که از per cento تجاری ایتالیایی انتزاع شده؛ خط پیوند نورایی آن را کهن‌تر از آنچه هست می‌نمایاند.",
+          "sources": [
+            "https://www.etymonline.com/word/percent",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ḱm̥tóm"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. dekm: '3. Latin centum, hundred: CENT, CENTAL, CENTAVO, (CENTENARIAN), CENTENARY, CENTESIMAL, CENTI-, CENTIME, (CENTNER), CENTUM, CENTURY; CENTENNIAL, PER CENT, …' — both centum and its centenar-/per cent derivatives are exactly as Nourai draws them."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. centum (LAT.txt lines 11119-11134)",
+              "stance": "supports",
+              "note": "'centum (indeclinable): cent. Ancien substantif neutre devenu invariable, comme mille … Dérivés: … centēnārius: ‘qui centum (centenas) partes habet’; d'où à basse époque ‘centenaire’, ἑκατονταετής, et synonyme de centurio.'"
+            },
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192 (POK_01.txt line 2767)",
+              "stance": "supports",
+              "note": "'lat. centum (dazu ducentum, ducentī ,200’, vgl. ai. dvi-śatam aus *duwi ḱm̥tóm …)'."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 745 s.v. hundred",
+              "stance": "supports",
+              "note": "lists 'L. centum' among the direct reflexes of I.-E. *kmto-."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "A pass-through box with no word printed in it (the printed page shows an empty French box), standing for the French metric and commercial vocabulary built on Latin centum: centi- (the metric sub-multiple prefix, Convention of 1795), centimètre (1801), cent 'hundred', pour cent and pourcentage. It is from this French layer, not from Latin directly and not from English, that the Persian and English children below are taken.",
+          "derivation_fa": "این جعبه واژه‌ای ندارد (در صفحهٔ چاپی نیز جعبهٔ فرانسوی خالی است) و تنها حلقهٔ واسطه است: مجموعهٔ واژگان متری و بازرگانی فرانسوی که بر پایهٔ centum لاتین ساخته شده‌اند — پیشوند centi- (کنوانسیون ۱۷۹۵)، centimètre (۱۸۰۱)، cent «صد»، pour cent و pourcentage. فرزندان فارسی و انگلیسیِ زیر آن از همین لایهٔ فرانسوی گرفته شده‌اند، نه مستقیماً از لاتین و نه از انگلیسی.",
+          "sources": [
+            "https://www.etymonline.com/word/percent"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this empty pass-through node; it carries no word to check."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 249 s.v. centimeter, centime (KLN_1966.txt line 6973)",
+              "stance": "supports",
+              "note": "'centimeter, centimetre, n. — F. centimètre, compounded of centi- and mètre' and 'centime, n. — F., formed fr. cent, ‘a hundred’' — confirms the French layer between Latin and the modern words."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. centum",
+              "stance": "supports",
+              "note": "'Attesté de tout temps. Panroman, sauf roumain. M.L. 1816' — Latin centum survives in all Romance including French cent."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Persian",
+          "words": "sântîmetr «سانتیمتر»; pŭrsântâž «پورسانتاژ»",
+          "verdict": "confirmed",
+          "derivation": "Both are French loans of the Pahlavi-to-Qajar modernisation period, taken through French-language schooling and administration. سانتی‌متر sāntimetr < F. centimètre (coined 1801 from centi- + mètre), the French nasal-free -en- of centi- rendered in Persian as -ān- and the final -re as -r. پورسانتاژ pursāntāž < F. pourcentage 'percentage', with the French nasal vowel of -cen- again written سان and the final -age rendered -āž with the characteristic Persian ژ for French /ʒ/; Mo'in tags it [فر.] (French) and glosses it 'درصد' and 'حق دلالی، حق‌العمل', the second sense (commission) being a Persian specialisation not present in French. Neither word passed through Arabic.",
+          "derivation_fa": "هر دو وام‌واژهٔ فرانسوی دورهٔ نوسازی قاجار و پس از آن‌اند و از راه مدرسه و دیوان فرانسوی‌زبان وارد شده‌اند. «سانتی‌متر» از centimètre فرانسوی (ساختهٔ ۱۸۰۱ از centi- و mètre)؛ واکهٔ خیشومی -en- در فارسی «ان» نوشته شده و -re پایانی به «ر» بدل شده است. «پورسانتاژ» از pourcentage فرانسوی؛ باز هم خیشومی -cen- «سان» شده و پسوند -age با «ـاژ» ضبط شده، همان ابدال همیشگی /ʒ/ فرانسوی به «ژ» در فارسی. معین آن را با برچسب [فر.] می‌آورد و «۱- درصد ۲- حق دلالی، حق‌العمل» معنی می‌کند؛ معنی دوم تخصیص معنایی فارسی است و در فرانسوی نیست. هیچ‌یک از راه عربی نیامده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/پورسانتاژ/",
+            "https://www.etymonline.com/word/percent"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1810",
+              "status": "supports",
+              "note": "Mo'in's entry, read through abadis.ir (which reproduces فرهنگ معین): 'پورسانتاژ [فر.] (اِ.) = پورسان: ۱- درصد. ۲- حق دلالی، حق‌العمل' — the [فر.] tag is Mo'in's own mark for a French loan, exactly Nourai's arrow. The page number 1810 could not be checked (the MON OCR on disk carries no page tags and the online text is unpaginated)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir reproduction of فرهنگ معین s.v. پورسانتاژ",
+              "stance": "supports",
+              "note": "'[ فر . ] (اِ. ) = پورسان : ۱ - درصد. ۲ - حق دلالی ، حق العمل'."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 249 s.v. centimeter (KLN_1966.txt line 6973)",
+              "stance": "supports",
+              "note": "'centimeter, centimetre, n. — F. centimètre, compounded of centi- and mètre' — establishes the French etymon of the Persian word."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "English",
+          "words": "centimeter",
+          "verdict": "confirmed",
+          "derivation": "English centimeter/centimetre is a borrowing of French centimètre (first used 1801), itself compounded of the metric sub-multiple prefix centi- (from Lat. centum, chosen by the National Convention for the Latin-based fractions) and mètre. English took the whole word, not the parts, which is why the British spelling keeps the French -re.",
+          "derivation_fa": "«centimeter/centimetre» انگلیسی وام‌گیری کامل از centimètre فرانسوی (نخستین کاربرد ۱۸۰۱) است که خود از پیشوند کسری متری centi- (از centum لاتین؛ کنوانسیون ملی فرانسه کسرها را از لاتین گرفت) و mètre ساخته شده. انگلیسی کل واژه را وام گرفته، نه اجزا را؛ به همین سبب املای بریتانیایی -re فرانسوی را نگه داشته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/percent"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. dekm lists CENTI- among the English words derived from Latin centum: '3. Latin centum, hundred: CENT, … CENTESIMAL, CENTI-, CENTIME …'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 249 s.v. centimeter (KLN_1966.txt line 6973)",
+              "stance": "supports",
+              "note": "'centimeter, centimetre, n. — F. centimètre, compounded of centi- and mètre. See centi- and -meter.'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. centum",
+              "stance": "supports",
+              "note": "confirms centum as the base of the centēsim-/centi- derivatives."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "cent, century, percent, centenary, centennial",
+          "verdict": "confirmed",
+          "derivation": "All five are Latin-based: cent (late 14c.) from Lat. centum, its modern sense 'hundredth part' developing in the 17th c. under the influence of percent and fixed in 1786 as the name of the U.S. coin; century from Lat. centuria 'a group of a hundred' (Pokorny notes centuria as the r-derivative of centum, formed like decuria); centenary from centēnārius, centennial an 18th-c. English formation on centum + annus after biennial; percent from Modern Latin per centum 'by the hundred', 1560s, a bookkeepers' phrase modelled on Italian per cento. Nourai's box lists exactly the English family that Watkins gives under Latin centum.",
+          "derivation_fa": "هر پنج واژه از راه لاتین‌اند: cent (اواخر سدهٔ ۱۴م) از centum لاتین که معنی «یک‌صدم» را در سدهٔ ۱۷م زیر تأثیر percent گرفت و در ۱۷۸۶ نام سکهٔ آمریکایی شد؛ century از centuria لاتین «دستهٔ صدتایی» (پوکورنی centuria را مشتق ـr از centum می‌داند، به قیاس decuria)؛ centenary از centēnārius؛ centennial ساختی انگلیسی از سدهٔ ۱۸م بر پایهٔ centum + annus به قیاس biennial؛ و percent از عبارت لاتینِ نو per centum «به ازای صد» (دههٔ ۱۵۶۰)، اصطلاح دفترداران به قیاس per cento ایتالیایی. فهرست نورایی دقیقاً همان خانوادهٔ انگلیسی است که واتکینز ذیل centum لاتین می‌آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/percent"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; its Latin parent carries AHD, which lists this same English family."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. dekm",
+              "stance": "supports",
+              "note": "'3. Latin centum, hundred: CENT, CENTAL, CENTAVO, (CENTENARIAN), CENTENARY, CENTESIMAL, CENTI-, CENTIME, (CENTNER), CENTUM, CENTURY; CENTENNIAL, PER CENT …' — all five of Nourai's words appear."
+            },
+            {
+              "src": "POK",
+              "where": "Bd. I p. 192 (POK_01.txt line 2773)",
+              "stance": "supports",
+              "note": "'Dazu eine r-Ableitung in lat. centuria f. ,Hundertschaft’ (wie decuria)' — the source of century."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, s.v. percentage (SYN.txt lines 20382, 20393)",
+              "stance": "supports",
+              "note": "'Pol., Russ. procent … prob. fr. NHG prozent = It. per cento etc. ‘by the hundred, percent’ with substitution of pro, as if Lat. pro centum' — confirms per centum is a modern commercial formation."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "Greek",
+          "words": "kentmnarion : of a hundred",
+          "verdict": "transcription_suspect",
+          "derivation": "The word is Byzantine Greek κεντηνάριον kentēnárion 'hundredweight, a weight/sum of a hundred (pounds, pounds of gold)'; the printed page (pdf 115, book p. 85) reads 'kentmnarion', so the extraction is faithful and the odd -mn- is Nourai's own misprint for -ēn- (an m set for an ē/ē-macron). Two things follow. (a) The correct form is kentēnarion. (b) The arrow is drawn from the Indo-European box, but the Greek word is not an inherited Greek reflex at all — it is a Late Greek borrowing of Latin centēnārium (the substantivised centēnārius 'consisting of a hundred'), introduced with Roman fiscal and weight administration; Greek k- for Latin c-, -ē- for Latin -ē-, and the neuter -arion for -ārium are the regular loan correspondences. Jeffery, Klein and Wiktionary all state this explicitly. The node therefore belongs under the Latin box (#12 centenarium), not directly under IE *Kmtom.",
+          "derivation_fa": "واژهٔ مورد نظر یونانی بیزانسی κεντηνάριον kentēnárion «قنطار، وزن یا مبلغ صدتایی (صد رطل، صد لیترهٔ زر)» است. صفحهٔ چاپی (ص ۱۱۵ پی‌دی‌اف، ص ۸۵ کتاب) «kentmnarion» دارد؛ پس خطای خوانش اسکن نیست و -mn- غلط چاپی خودِ نورایی به جای -ēn- است (حرف m به جای ē). دو نکته در پی می‌آید: نخست، صورت درست kentēnarion است. دوم، این واژه بازماندهٔ ارثی یونانی از *ḱm̥tóm نیست، بلکه وام‌واژه‌ای است که یونانی متأخر از centēnārium لاتین (صورت اسمی‌شدهٔ centēnārius «صدتایی») همراه با نظام مالیاتی و اوزان رومی گرفته است؛ k یونانی در برابر c لاتین، ē در برابر ē، و پسوند خنثای -arion در برابر -ārium همگی معادل‌های قاعده‌مند وام‌گیری‌اند. جفری، کلاین و ویکی‌واژه هر سه این را صریح می‌گویند. بنابراین جای درست این گره زیر جعبهٔ لاتین (#۱۲ centenarium) است، نه مستقیماً زیر *Kmtom هندواروپایی.",
+          "error_in": "book",
+          "book_prints": "kentmnarion",
+          "correct_form": "kentēnarion (κεντηνάριον)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/قنطار"
+          ],
+          "ref_check": [
+            {
+              "ref": "VDQ:352",
+              "status": "partial",
+              "note": "VDQ is Badre'i's Persian translation of Jeffery's FVQ and is only on noorlib, whose viewer is JavaScript-rendered and unreadable by WebFetch; the substance was checked in the original, FVQ pp. 243-44 (FVQ.txt lines 15208-15236): 'Undoubtedly it is the Gk. Κεντηνάριον, which represents the Lat. centenarium, and passed into Aram. as קנטרא, Syr. …'. The reference therefore supports the word and the chain but gives the Greek as a loan FROM Latin, not as a direct IE reflex, and spells it kentēnarion."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery pp. 243-244 (FVQ.txt line 15234)",
+              "stance": "partial",
+              "note": "as quoted: Gk. κεντηνάριον 'represents the Lat. centenarium'."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 838 s.v. kantar (KLN_1966.txt line 20538)",
+              "stance": "partial",
+              "note": "'fr. Late Gk. κεντηνάριος, representing L. centenarius, ‘consisting of a hundred; weighing a hundred pounds’.'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. centum (LAT.txt line 11131)",
+              "stance": "supports",
+              "note": "'centēnārius: ‘qui centum (centenas) partes habet’; d'où à basse époque ‘centenaire’ … et synonyme de centurio (cf. centena: centenarii dignitas), M.L. 1810a' — the Latin base of the Greek loan."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "Aramaic",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box (the printed page shows no word) standing for Aramaic קנטרא qenṭārā / Classical Syriac ܩܢܛܝܪܐ qanṭīrā 'hundredweight', the Aramaic adaptation of Gk. κεντηνάριον: Greek k- is rendered by q-, the -t- by emphatic ṭ, and the Greek neuter ending is replaced by the Aramaic emphatic-state -ā. Jeffery cites both the longer Aramaic form and the shortened Syriac one, and it is the shortened Syriac form that Arabic took. Nourai's decision to leave the box wordless loses the actual form but the language and the position in the chain are right.",
+          "derivation_fa": "جعبه‌ای خالی و واسطه است (در صفحهٔ چاپی هم واژه‌ای ندارد) و نمایندهٔ آرامی קנטרא qenṭārā و سریانی کلاسیک ܩܢܛܝܪܐ qanṭīrā «قنطار» است، یعنی صورت آرامی‌شدهٔ κεντηνάριον یونانی: k یونانی به ق، t به طای مُطبَق، و پایانهٔ خنثای یونانی به «ـا»ی حالت مؤکّد آرامی بدل شده است. جفری هم صورت بلند آرامی و هم صورت کوتاه‌شدهٔ سریانی را می‌آورد و می‌گوید عربی از صورت کوتاه سریانی گرفته است. خالی‌گذاشتن جعبه صورت واژه را از خواننده دریغ می‌کند، ولی نام زبان و جای آن در زنجیره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/قنطار"
+          ],
+          "ref_check": [
+            {
+              "ref": "VDQ:352",
+              "status": "partial",
+              "note": "checked through the original FVQ pp. 243-44 (VDQ is its Persian translation, same entry order): 'passed into Aram. as קנטרא, Syr. ܩܢܛܝܪܐ. It was from the Aram., as Fraenkel, Vocab, 13; Fremdw, 203, shows, that the word came into Arabic, and in all probability from the shortened Syr. form.' Supports the Greek→Aramaic→Arabic route; the noorlib scan of VDQ itself could not be opened."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery pp. 243-244 (FVQ.txt lines 15234-15236)",
+              "stance": "supports",
+              "note": "as quoted; Jeffery names Fraenkel, Fremdwörter 203 as the authority."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 838 s.v. kantar (KLN_1966.txt line 20538)",
+              "stance": "supports",
+              "note": "'Arab. qintār, fr. Aram. qintār, qintārā, short for qintīnārā, ‘hundred pounds’ … (See S. Fraenkel, Die aramäischen Fremdwörter im Arabischen, Leiden 1886, p. 203).'"
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel 1886 p. 203 (AFA.txt)",
+              "stance": "silent",
+              "note": "grep 'qintar|kintar|centenarium' in AFA.txt returns nothing — the OCR of the Arabic-script headwords on that page is not searchable in transliteration; the passage is however quoted at second hand by both Jeffery and Klein."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "lang": "Arabic",
+          "words": "qentâr : a unit (100 dinars) for measuring large amounts of jewelry.",
+          "verdict": "confirmed",
+          "derivation": "Arabic قنطار qinṭār, plural قناطير qanāṭīr, is a pre-Islamic borrowing from Classical Syriac qanṭīrā (itself from Byzantine Greek κεντηνάριον / Lat. centēnārium). It is a Qur'anic word (3:14 qanāṭīr muqanṭara 'heaped-up hundredweights (of gold and silver)', 3:75, 4:20), and the Arab philologists themselves recognised it as foreign: Abū ʿUbayda stated that the Arabs did not know its meaning, some called it Berber, some Syriac, and the majority held it Greek — which is correct. Its value was never fixed: the lexica give 1200 ūqiya, or 120 raṭl, or 100 raṭl of gold and silver, so Nourai's '100 dinars' is only one of the many figures the tradition reports.",
+          "derivation_fa": "«قنطار» عربی با جمع «قناطیر» وام‌واژه‌ای پیش از اسلام از سریانی کلاسیک qanṭīrā است که خود از یونانی بیزانسی κεντηνάριον و لاتین centēnārium آمده. واژه‌ای قرآنی است (آل‌عمران ۱۴: «القناطیر المقنطرة من الذهب و الفضة»؛ نیز ۳:۷۵ و ۴:۲۰) و خودِ لغویان عرب آن را دخیل می‌دانستند: ابوعبیده گفته است عرب معنای آن را نمی‌دانست؛ برخی آن را بربری و برخی سریانی خواندند و اکثریت یونانی دانستند که همان درست است. مقدارش هرگز ثابت نبود: فرهنگ‌ها ۱۲۰۰ اوقیه، یا ۱۲۰ رطل، یا ۱۰۰ رطل زر و سیم آورده‌اند؛ پس «۱۰۰ دینار»ِ نورایی تنها یکی از چند رقمی است که سنت لغوی گزارش کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/قنطار"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:2734",
+              "status": "supports",
+              "note": "Mo'in's entry (MON_part2.txt line 15151) opens 'قنطار: (قِ) [معر. یو. …]' — the tag معرّب یونانی 'Arabicised from Greek' is Mo'in's own, exactly Nourai's Greek→Arabic claim; the entry goes on 'واحد وزن معادل یک هزار و دویست اوقیه، یا مساوی یکصد و بیست رطل … ج. قناطیر' and lists the variant values including '۴۰۰۰ دینار … ۱۰۰ من و ۱۰۰ رطل و ۱۰۰ مثقال'. The page number 2734 could not be verified (the MON OCR carries no page tags)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery pp. 243-244 (FVQ.txt lines 15205-15236)",
+              "stance": "supports",
+              "note": "'It was recognized by the philologers as of foreign origin … the majority were in favour of its being Greek (ath-Thaʿālibī, Fiqh, 318; as-Suyūṭī, Muzhir, i, 134). Undoubtedly it is the Gk. Κεντηνάριον…'"
+            },
+            {
+              "src": "KLN",
+              "where": "p. 838 s.v. kantar (KLN_1966.txt line 20538)",
+              "stance": "supports",
+              "note": "'Arab. qintār, fr. Aram. qintār, qintārā … fr. Late Gk. κεντηνάριος, representing L. centenarius.'"
+            },
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 15151-15161",
+              "stance": "supports",
+              "note": "as quoted, with the [معر. یو] (Arabicised Greek) tag."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, Alfāẓ fārisiyya muʿarraba",
+              "stance": "silent",
+              "note": "grep 'قنطار' in AFM.txt/AFM_pages.txt returns no entry — as expected, since Addi Shir collects Persian, not Greek, loans in Arabic."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "lang": "Persian",
+          "words": "qentâr «قنطار (قناطیر)» : a measure or container of valuables",
+          "verdict": "confirmed",
+          "derivation": "Persian قنطار qenṭār is a straight loan from Arabic qinṭār, taken with the Arabic broken plural قناطیر qanāṭīr (which Nourai correctly prints in the box), and carrying the Qur'anic overtone of 'heaped wealth'. Nāṣer-e Khosrow's line quoted in the entry — 'از زرد و سرخ مرد بنفریبد / نار است صرّهٔ وی و قنطارش' ('let a man not be deceived by the yellow and the red: his purse and his hundredweight are fire') — is a direct allusion to Q. 3:14 and shows the word fully naturalised in 5th/11th-century Persian verse. Since the ultimate source is Greek/Latin and not Persian, this is not an Arabic-mediated round trip: it is a one-way Greek > Syriac > Arabic > Persian loan.",
+          "derivation_fa": "«قنطار» فارسی وام‌واژه‌ای مستقیم از «قنطار» عربی است که همراه با جمع مکسّر عربی «قناطیر» وام گرفته شده (نورایی هم همان را در جعبه آورده) و بار معنایی قرآنی «مال انباشته» را با خود دارد. بیتی که در مدخل نقل شده، از ناصرخسرو — «از زرد و سرخ مرد بنفریبد / نار است صرّهٔ وی و قنطارش» — اشاره‌ای است آشکار به آیهٔ ۱۴ آل‌عمران و نشان می‌دهد واژه در شعر فارسی سدهٔ پنجم هجری کاملاً جاافتاده بوده است. چون خاستگاه نهایی یونانی‑لاتینی است و نه ایرانی، این‌جا با «رفت‌وبرگشت» فارسی←عربی←فارسی روبه‌رو نیستیم، بلکه با وام‌گیری یک‌سویهٔ یونانی ← سریانی ← عربی ← فارسی. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/قنطار"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:2734",
+              "status": "supports",
+              "note": "same Mo'in entry as node 19 (MON_part2.txt lines 15151-15161): headword قنطار with '[معر. یو]', the plural 'ج. قناطیر', and the sense 'پوست گاوی که درون آن را پر زر کرده باشند' — literally 'a hide filled with gold', i.e. Nourai's 'a measure or container of valuables', which is evidently taken straight from Mo'in."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt lines 15151-15161",
+              "stance": "supports",
+              "note": "'قنطار: (قِ) [معر. یو] پوست گاوی که درون آن را پر زر کرده باشند. واحد وزن معادل یک هزار و دویست اوقیه … ج. قناطیر.'"
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery pp. 243-244",
+              "stance": "supports",
+              "note": "establishes that the Arabic word from which Persian borrowed is itself Greek via Aramaic, so the Persian word is not a returning Iranian word."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate', vol. 3 (ق)",
+              "stance": "silent",
+              "note": "the ق volume is on disk only as un-OCR'd scans; no searchable قنطار entry was found in BQT_v1/v2_pages.txt."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
