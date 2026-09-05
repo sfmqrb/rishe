@@ -1,0 +1,861 @@
+{
+  "pdf_page": 158,
+  "book_page": 128,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Erěbu",
+      "verdict": "plausible",
+      "modern_form": "Akkadian erēbu 'to enter, go in; (of the sun) to go down, set' (ereb šamši 'sunset, west'); ultimately Proto-Semitic *ġrb 'to enter, to set (of the sun)'",
+      "note": "The Akkadian headword, its language label and its gloss are all correct: erēbu is the ordinary Akkadian verb 'to enter', used of the sun setting, whence ereb šamši 'sunset, the West'. Two structural reservations. (a) The chart makes Arabic ġ-r-b and Hebrew ʿerebh DESCEND from Akkadian; modern Semitists treat all three as sister reflexes of one Proto-Semitic root *ġrb (Akkadian lost the gutturals, so *ġarābu > erēbu; Hebrew merged *ġ into ʿ, so *ġereb > ʿereb; Arabic alone keeps ġ). Nourai's own source Zimmern (AKD 64) writes the borrowing arrow with 'viell.' ('perhaps'), and Klein s.v. maarib says only 'is rel. to'. (b) The point of the whole chart — Greek Eurṓpē from this Semitic word — is rejected by current scholarship (M. L. West: 'phonologically the match is very poor'; Beekes: Pre-Greek). REFERENCE MISPRINT IN THE BOOK (not an extraction error): the Arabic node #1 is cited as 'AKD:640,854', but Zimmern's Akkadische Fremdwörter has only ~85 printed pages. The printed page (checked at 600 dpi) really does read AKD:640,854; it is Nourai's misprint, almost certainly for AHD:640,854, i.e. the American Heritage Dictionary pages he cites twice more on this same chart (AHD:854 Morocco, AHD:452 Europe). The JSON reproduces the page faithfully.",
+      "note_fa": "ریشهٔ اکدی erēbu «درآمدن، وارد شدن؛ فرو رفتن (خورشید)» واژه‌ای واقعی و برچسب زبانی و معنای آن درست است؛ ترکیب ereb šamši در اکدی یعنی «غروب آفتاب، باختر». اما دو ایراد ساختاری هست: نخست آنکه نورایی عربی «غ‌ر‌ب» و عبری ʿereb را زادهٔ اکدی نشان داده، حال آنکه زبان‌شناسان امروزی هر سه را بازتاب یک ریشهٔ سامی آغازین *ġrb می‌دانند (اکدی حروف حلقی را از دست داده و *ġarābu به erēbu بدل شده؛ عبری ġ را با ʿ یکی کرده؛ تنها عربی غین را نگاه داشته است)؛ خودِ تسیمرن (مأخذ AKD ص ۶۴) این وام‌گیری را با قید «شاید» آورده و کلاین هم فقط می‌گوید «هم‌ریشه است». دوم آنکه بنیادِ کل نمودار، یعنی گرفتن یونانی Eurṓpē از این واژهٔ سامی، در پژوهش امروزی رد شده است (وست و بیکس). همچنین ارجاع «AKD:640,854» در چاپ کتاب نادرست است — کتاب تسیمرن حدود ۸۵ صفحه بیشتر ندارد — و خطای چاپی خودِ نورایی است، نه خطای خوانش اسکن.",
+      "sources": [
+        "https://www.etymonline.com/word/Europe",
+        "https://en.wikipedia.org/wiki/Europe"
+      ],
+      "ref_check": [
+        {
+          "ref": "AKD:64",
+          "status": "supports",
+          "note": "Zimmern, Akkadische Fremdwörter, printed p. 64 (AKD.txt leaf 73, grep -n 'erebu'): 'akk. erēbu allg. eintreten, hineingehen (z. B. in ein Haus), dann spez. untergehen (von der Sonne und den Gestirnen), ereb šamši Sonnenuntergang, Westen : > viell. ... hebr. ʿāreb Abend, aram. ʿarab, arab. ġariba, äth. ʿarba untergehen (von der Sonne), hebr. maʿarab, aram. maʿrabā, arab. maġrab, maġrib, äth. maʿrāb Westen.' Exactly Nourai's root box and his Arabic/Hebrew arrows — but note Zimmern's own 'viell.' (perhaps)."
+        },
+        {
+          "ref": "KLN:550",
+          "status": "supports",
+          "note": "Klein s.v. Europe (KLN_1966.txt leaf 299): 'L. Europa, fr. Gk. Eurṓpē ... which is prob. of Semitic origin. Cp. Akkad. erebu, \"to enter, go in; to go down, set\" (said of the sun), ereb shamshi, \"sunset\", Heb. ʿerebh, \"sunset, evening\" ... Accordingly Eurṓpē orig. meant \"the Region of the Setting Sun\".' The claim is Klein's, verbatim. (My leaf→page mapping puts this nearer p. 574 than p. 550, but the leaf-offset drifts in this scan; the entry itself is unambiguous.)"
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AKD",
+          "where": "printed p. 64 (leaf 73)",
+          "stance": "supports",
+          "note": "'akk. erēbu ... ereb šamši Sonnenuntergang, Westen : > viell. ... arab. ġariba ... arab. maġrab, maġrib ... Westen' — Zimmern's own hedge 'viell.' is why I grade the root plausible rather than confirmed."
+        },
+        {
+          "src": "KLN",
+          "where": "s.v. Europe, Erebus, maarib (leaves 299, 292, 493)",
+          "stance": "supports",
+          "note": "s.v. maarib: Heb. ʿerebh 'which is rel. to Arab. gharaba, Ethiop. ʿaraba, \"(the sun) has set\", Arab. gharb, \"place of sunset, west\", Akkad. erebu, \"to enter, go in\", ereb shamshi, \"sunset\"' — 'rel. to', i.e. cognate, not descended."
+        },
+        {
+          "src": "FSD",
+          "where": "grep of vols 1-4 for 'erebu'",
+          "stance": "silent",
+          "note": "Funk & Wagnalls' Europe entry did not surface in the OCR; no independent statement found there."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "ğ.r.b; mağreb; Mağreb al aqsâ",
+          "verdict": "plausible",
+          "derivation": "Arabic ġ-r-b is a genuine triliteral root: ġaraba 'to depart, to withdraw; (of the sun) to set', whence ġarb 'sunset, west' and, with the ma- prefix of place/time, maġrib 'place and time of sunset; the West' (also the sunset prayer). Al-Maġrib al-Aqṣā 'the farthest West' is the standard term of the medieval Arab geographers (Ibn Ḥawqal, al-Idrīsī, al-Bakrī) for the westernmost of the three Maghribs (al-Adnā = Ifrīqiya, al-Awsaṭ = Algeria, al-Aqṣā = Morocco), so the gloss is right. The DERIVATION arrow, however, is not: Arabic did not borrow this root from Akkadian. Akkadian erēbu and Arabic ġaraba are parallel reflexes of Proto-Semitic *ġrb; Akkadian, which lost *ġ and *ʿ, shows e- where Arabic keeps ġ-, and the sound correspondence is regular in both directions, so nothing marks the Arabic as a loan. Zimmern, Nourai's source, prints the equation with 'viell.' (perhaps).",
+          "derivation_fa": "ریشهٔ سه‌حرفی عربی «غ‌ر‌ب» اصیل است: غَرَبَ «دور شدن؛ فرو رفتن (خورشید)» و از آن غَرْب «باختر» و با پیشوند مکان/زمانِ مَـ، مَغْرِب «جای و هنگام غروب؛ باختر». ترکیب «المغرب الأقصی» اصطلاح جغرافی‌نویسان مسلمان (ابن حوقل، ادریسی، بکری) برای دورترین مغرب یعنی کشور مراکش است، پس معنایی که نورایی داده درست است. اما پیکانِ اشتقاق درست نیست: عربی این ریشه را از اکدی وام نگرفته؛ erēbu اکدی و غَرَبَ عربی هر دو بازماندهٔ سامی آغازین *ġrb اند و چون اکدی غین و عین را از دست داده، e- در برابر غ‌ـ عربی نشسته است. خودِ تسیمرن نیز این برابری را با قید «شاید» آورده است. حکم: با احتیاط پذیرفتنی است، ولی به‌عنوان هم‌ریشگی نه وام‌گیری.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D8%A8",
+            "https://www.etymonline.com/word/Morocco"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:640",
+              "status": "not_found",
+              "note": "Impossible page: Zimmern's Akkadische Fremdwörter runs to about 85 printed pages (111 scanned leaves). The printed chart really reads 'AKD:640,854' (verified on a 600-dpi render of pdf p. 158), so this is Nourai's own misprint — on internal evidence for AHD:640,854, since the same chart cites AHD:854 for Italian Marocco and English Morocco."
+            },
+            {
+              "ref": "AKD:854",
+              "status": "not_found",
+              "note": "Same as above — out of range for AKD. The substance of the claim is however on AKD p. 64: 'ereb šamši Sonnenuntergang, Westen : > viell. ... arab. ġariba ... arab. maġrab, maġrib ... Westen'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AKD",
+              "where": "printed p. 64 (leaf 73)",
+              "stance": "partial",
+              "note": "Zimmern lists exactly these Arabic forms (ġariba, maġrab/maġrib) beside Akkadian erēbu, but marks the borrowing 'viell.'"
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. Maghrib (leaf 495)",
+              "stance": "supports",
+              "note": "'Maghrib, n., Barbary. — Arab. Maghrib, \"the West\", fr. gharaba, \"(the sun) has set\", whence gharb, \"place of the sunset, west\". See maarib.' — the internal Arabic morphology is exactly Nourai's."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 674 (Ar. ġarbī)",
+              "stance": "supports",
+              "note": "Lokotsch: 'Aus demselben Stamme ar. ġaraba \"untergehen (Sonne)\" ist mit präfigiertem ma- zur Angabe des Ortes maġrib gebildet; der Maġreb ist Nordwestafrika von Tunis bis Marokko.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "ğarb «غرب»",
+          "verdict": "confirmed",
+          "derivation": "غرب ġarb, together with the chart's extras مغرب maġreb and غروب ġorūb, is a straightforward Arabic loanword taken into New Persian in the Islamic period; all three are ordinary Arabic derivatives of ġ-r-b (ġarb 'west', maġrib nomen loci/temporis, ġurūb the maṣdar 'setting of the sun'). Persian keeps the Arabic ġayn غ, which is why the borrowing is transparent — an inherited Iranian word could not begin with ġ. Mo'in flags the entry '[ع.]' (Arabic).",
+          "derivation_fa": "«غرب» و واژه‌های افزودهٔ نمودار، «مغرب» و «غروب»، هر سه وام‌واژهٔ عربی‌اند که پس از اسلام وارد فارسی نو شده‌اند: غَرْب «باختر»، مَغْرِب اسم مکان و زمان، و غُروب مصدر «فروشدن خورشید». نگه داشتن حرف «غ» خود نشان وام‌بودن است، زیرا واژهٔ ایرانیِ اصیل با غ آغاز نمی‌شود. معین در فرهنگ فارسی این مدخل را با نشانِ «[ع.]» آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D8%A8"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Farsi s.v. غرب (MON_part2.txt): 'غرب: [ع. غ.] (مصدر لازم) پنهان شدن، غایب گردیدن، ناپدید گشتن، دور شدن. (اِ.) جای فرو شدن آفتاب، مغرب؛ مقابل مشرق' — Arabic origin tag [ع.] and the sense 'place where the sun goes down, west'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. غرب and غروب (MON_part2.txt lines ~996, 1395)",
+              "stance": "supports",
+              "note": "غروب too is tagged '[ع.] (مصل.) فرو شدن' — Arabic infinitive 'to go down'."
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson s.v. gharb",
+              "stance": "supports",
+              "note": "'gharb, Sun-set. The west. Africa. The flowing of tears ...' — the word is listed in a Persian-Arabic-English dictionary as an Arabism current in Persian."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Italian",
+          "words": "Marocco",
+          "verdict": "disputed",
+          "derivation": "Italian Marocco (Sp. Marruecos, Fr. Maroc, Ptg. Marrocos) really is the source of the European name of the country, but it does not come from Arabic maġrib / al-Maġrib al-Aqṣā. It comes from Marrākuš, the Almoravid capital founded in 1070, which from the 12th to the early 20th century gave its name to the whole kingdom ('the Kingdom of Marrakesh'). Phonetically maġrib could not yield Mar(r)occo — there is no route from ġ+b to rr+k. The name Marrākuš itself is Berber, not Arabic: the usual explanation is Tashelhit amur n akuš 'land of God' (Searight records an 11th-c. Qarawiyyin manuscript glossing it 'country of the sons of Kush'). Etymonline repeats Nourai's short-cut ('from Berber Marrakesh ... from Arabic Maghrib-al-Aqsa'), but that last step is a folk equation, not an accepted derivation.",
+          "derivation_fa": "نام اروپاییِ کشور (ایتالیایی Marocco، اسپانیایی Marruecos، فرانسوی Maroc) در اصل از «مرّاکش» می‌آید، پایتخت مرابطون که در ۱۰۷۰ م. بنیاد شد و از سدهٔ دوازدهم تا آغاز سدهٔ بیستم نامش بر سراسر کشور نهاده می‌شد. از «مغرب» به‌هیچ‌روی نمی‌توان Marocco را گرفت؛ هیچ دگرگونی آواییِ شناخته‌ای غ و ب را به رّ و ک بدل نمی‌کند. خودِ «مرّاکش» هم واژه‌ای بربری است نه عربی: توضیح رایج آن amur n akuš در تاشلحیت به معنی «سرزمین خدا» است. پژوهش امروزی این پیکان نورایی (از ریشهٔ غ‌ر‌ب) را رد می‌کند و به جای آن نام شهر مرّاکش را می‌گذارد.",
+          "sources": [
+            "https://www.etymonline.com/word/Morocco",
+            "https://en.wikipedia.org/wiki/Marrakesh"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:854",
+              "status": "not_checked",
+              "note": "A page of the AHD New College Edition (1975/76) dictionary text, not of the Indo-European appendix; the only AHD on disk here is Watkins 1985 (IE roots only), which has no 'Morocco'. The New College scans on archive.org are lending-only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1406 'Ar. Marākuš'",
+              "stance": "contradicts",
+              "note": "Lokotsch: 'Ar. Marākuš: Jetzt Marrākeš, die frühere südliche Hauptstadt Marokkos; hiernach wird das Ziegenleder genannt ... pg. marroquim, frz. maroquin ... engl. morocco.' He derives the European words from the CITY NAME and says nothing about maġrib."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. morocco, marocain (leaves 538, 511)",
+              "stance": "contradicts",
+              "note": "'morocco, n., a kind of fine flexible leather. — Named fr. Morocco, a city of NW. Africa' — Klein too anchors the name in the city, not in maġrib al-aqṣā."
+            },
+            {
+              "src": "DEV",
+              "where": "grep 'Maroc' in Devic",
+              "stance": "silent",
+              "note": "Devic mentions Maroc only in passing (s.vv. Argan, Filali, Mollah); he gives no etymology of the country name."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "Marâkeš",
+          "verdict": "disputed",
+          "derivation": "The arrow is drawn backwards. Arabic مرّاكش Marrākuš is the ELDER form and the source of Italian Marocco, not a borrowing from it: the city was founded by the Almoravid Abū Bakr ibn ʿUmar in 462/1070 and appears in Arabic geographers from the 11th century, long before any Italian mercantile form. As Lokotsch (no. 1406) puts it, the Romance words marroquim / maroquin / morocco come 'hieraus', i.e. out of the Arabic name. Arabic itself took the name from Berber (amur n akuš 'land of God'), so Marrākuš is a Berberism in Arabic, not an Italianism. The word and its reference are real; only the direction of Nourai's arrow is wrong.",
+          "derivation_fa": "جهت پیکان وارونه است. «مرّاكش» عربی صورت کهن‌تر و خاستگاه Marocco ایتالیایی است، نه وام‌گرفته از آن: شهر را ابوبکر بن عمرِ مرابطی در ۴۶۲ ق/۱۰۷۰ م. بنیاد نهاد و نامش از همان سدهٔ پنجم در جغرافی‌نویسان عرب آمده است، بسیار پیش از آنکه صورتی ایتالیایی در کار باشد. لوکوچ (شمارهٔ ۱۴۰۶) به‌روشنی می‌گوید واژه‌های رومی (marroquin، maroquin، morocco) «از این» نام عربی برآمده‌اند. عربی خود این نام را از بربری گرفته است. پس واژه درست است ولی سویهٔ اشتقاق در کتاب نادرست است.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Marrakesh",
+            "https://en.wiktionary.org/wiki/Marrakesh"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1406",
+              "stance": "contradicts",
+              "note": "'Ar. Marākuš ... hiernach wird das Ziegenleder genannt ... pg. marroquim, frz. maroquin, ndl. marokijn, dtsch. Maroquin; engl. morocco' — Arabic is the source of the European forms, i.e. the reverse of the chart's arrow."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, s.v. Filali and passim",
+              "stance": "silent",
+              "note": "no entry for Marrakesh/Maroc as a headword."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1/part2 (2-vol Adena lexicon)",
+              "stance": "silent",
+              "note": "grep 'مراکش' finds only مراکشی 'Moroccan' and ملخ مراکشی; the proper name itself belongs to Mo'in's aʿlām volumes 5-6, which are not in the local library."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "Marâkeš «مراکش»",
+          "verdict": "confirmed",
+          "derivation": "The edge actually drawn here — Arabic Marrākuš > Persian مراکش Marākeš 'Morocco' — is right, and is the only route the Persian word could have taken: Persian took the country's name in its Arabic shape (with the Arabic gemination of the r and the final š), not in the European shape Maroc/Morocco, which is why Persian says مراکش and not *ماروکو. Nourai's own NOTE that MON6:1946 derives it from a different Arabic root is a fair warning: Mo'in's aʿlām volume connects the name to Arabic/Berber material of its own rather than to ġ-r-b, and modern scholarship agrees that the name is Berber (amur n akuš) taken over by Arabic. So the immediate link is sound while the chain above it (Italian > Arabic) is not.",
+          "derivation_fa": "خودِ این پیوند — «مرّاكش» عربی به «مراکش» فارسی — درست است و تنها راه ممکن هم همین بوده: فارسی نام این کشور را در صورت عربی‌اش گرفته است (با تشدید رِ عربی و شینِ پایانی)، نه در صورت اروپایی Maroc/Morocco؛ به همین سبب در فارسی «مراکش» می‌گوییم نه «ماروکو». یادداشت خودِ نورایی که «معین ج۶ ص۱۹۴۶ آن را از ریشهٔ عربیِ دیگری می‌گیرد» هشدار به‌جایی است: پژوهش امروزی هم این نام را بربری (amur n akuš «سرزمین خدا») می‌داند که از راه عربی به فارسی رسیده است. پس این حلقه درست است، هرچند زنجیرهٔ بالای آن (ایتالیایی ← عربی) نادرست است.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Marrakesh"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No reference given by Nourai for this node; his in-node NOTE cites MON6:1946, which is in Mo'in's aʿlām volume 6 — not among the volumes available on disk or online, so the note itself could not be verified."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt line 1075",
+              "stance": "partial",
+              "note": "the lexicon volumes have only the nisba مراکشی 'a person from northern Africa; Moroccan', confirming the Arabic shape of the name in Persian; the proper noun is in vol. 6, unavailable."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1406",
+              "stance": "supports",
+              "note": "confirms Marrākuš as the Arabic form of the name, which is what Persian has borrowed."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "Morocco",
+          "verdict": "confirmed",
+          "derivation": "English Morocco is taken from Italian Marocco (attested in English from the 16th century, at first often Marocco/Marroco), the form being later assimilated to Moor/Moorish. The leather sense (morocco, 'sumac-tanned goatskin') is named from the country, exactly as Klein and Lokotsch say; French maroquin, Portuguese marroquim, German Maroquin are the parallel formations. Only the ultimate step of the chart's chain (that Marocco is from maġrib) is wrong; the Italian > English step itself is standard.",
+          "derivation_fa": "انگلیسی Morocco از ایتالیایی Marocco گرفته شده و از سدهٔ شانزدهم در انگلیسی دیده می‌شود (نخست بیشتر به صورت Marocco/Marroco) و بعدها زیر تأثیر Moor «مورِ مسلمان» شکل امروزی را یافته است. معنی «چرم بزِ دباغی‌شده» نیز از نام کشور آمده، همان‌گونه که کلاین و لوکوچ می‌گویند؛ maroquin فرانسوی و marroquim پرتغالی هم‌ساخت‌های آن‌اند. تنها حلقهٔ آغازینِ زنجیرهٔ نورایی (مغرب ← Marocco) نادرست است و همین گام ایتالیایی به انگلیسی پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/Morocco"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:854",
+              "status": "not_checked",
+              "note": "AHD New College Edition dictionary page; only Watkins 1985 (IE roots) is on disk, and the New College scans are lending-only."
+            },
+            {
+              "ref": "NAT:163",
+              "status": "partial",
+              "note": "Berlitz, Native Tongues, in the table of country-name meanings (NAT_2005.txt leaf 182, printed p. 167 of the 2005 reprint = p. 163 of the 1982 original): 'Morocco | maghrib, \"the west\"'. Berlitz gives the popular maghrib equation Nourai relies on, but it is a one-line popular list, not an etymological argument."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. morocco (leaf 538)",
+              "stance": "supports",
+              "note": "'morocco, n., a kind of fine flexible leather. — Named fr. Morocco, a city of NW. Africa, where this kind of leather was originally made.'"
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1406",
+              "stance": "supports",
+              "note": "'engl. morocco \"feines dünnes marokkanisches Leder\"' derived from Ar. Marākuš."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, vol. 1 s.v. fez",
+              "stance": "silent",
+              "note": "vol. 1 stops before M; only incidental mentions of Morocco were found."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Hebrew",
+          "words": "`erebh",
+          "verdict": "plausible",
+          "derivation": "Hebrew עֶרֶב ʿereb 'evening, sunset' (and maʿarāb 'west', the Hiphʿil participle maʿarīb 'bringing on evening' = the evening prayer) is a real word with the meaning given. It is genuinely of the same Semitic root as Akkadian erēbu, but as a cognate, not as a loan: Proto-Semitic *ġ merged with *ʿ in Hebrew, so *ġereb regularly gives ʿereb, while Akkadian, which lost the gutturals altogether, shows erēbu; Arabic ġarb preserves the original ġ and proves the reconstruction. Klein s.v. maarib puts it exactly this way ('is rel. to'), and Zimmern hedges his loan-arrow with 'viell.' The chart's second gloss 'west' is by extension (maʿarāb), not the primary meaning of ʿereb, which is 'evening'.",
+          "derivation_fa": "عبری עֶרֶב ʿereb «شامگاه، غروب» (و maʿarāb «باختر») واژه‌ای واقعی با همین معناست و به‌راستی از همان ریشهٔ سامیِ erēbu اکدی است، اما به‌عنوان هم‌ریشه نه وام‌واژه: در عبری غین سامی با عین یکی شده و *ġereb به‌قاعده ʿereb داده، حال آنکه اکدی حروف حلقی را یکسره از دست داده و erēbu شده است؛ غَرْب عربی با نگه‌داشتن غین همین بازسازی را ثابت می‌کند. کلاین نیز در مدخل maarib همین را می‌گوید («هم‌ریشه است») و تسیمرن پیکان وام‌گیری را با «شاید» آورده است. معنای دومِ نمودار، «باختر»، معنای گستردهٔ maʿarāb است نه معنای اصلی ʿereb که «شامگاه» است.",
+          "sources": [
+            "https://www.etymonline.com/word/Europe"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:64",
+              "status": "supports",
+              "note": "Zimmern p. 64: '... : > viell., dann allerdings schon [früh], hebr. ʿāreb Abend' — the arrow is there, but hedged."
+            },
+            {
+              "ref": "KLN:550",
+              "status": "partial",
+              "note": "Klein s.v. maarib (KLN_1966.txt leaf 493): 'Heb. maʿarībh ... denominated fr. ʿerebh, \"sunset, evening\", which is rel. to Arab. gharaba, Ethiop. ʿaraba, \"(the sun) has set\", Arab. gharb, \"place of sunset, west\", Akkad. erebu, \"to enter, go in\", ereb shamshi, \"sunset\".' — 'rel. to', i.e. cognate, so Klein supports the family but not the descent."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.vv. maarib, Erebus (leaves 493, 292)",
+              "stance": "partial",
+              "note": "s.v. Erebus: 'Gk. Erebos, fr. Heb. ʿerebh, \"sunset, evening\"' — Klein does allow Greek borrowings from Hebrew ʿerebh, but treats the Semitic words themselves as cognates."
+            },
+            {
+              "src": "AKD",
+              "where": "printed p. 64",
+              "stance": "partial",
+              "note": "Zimmern's whole section is about Akkadian influence, so the arrow is his thesis; the 'viell.' shows he did not regard it as proven."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep of Jeffery for ʿarb/ġarb",
+              "stance": "silent",
+              "note": "The Foreign Vocabulary of the Qur'an treats loans INTO Arabic; it has nothing on ġ-r-b, which it regards as native."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Greek",
+          "words": "europa",
+          "verdict": "disputed",
+          "derivation": "That Greek Εὐρώπη is a borrowing of Semitic ʿereb/erēbu 'sunset' is a 19th-century proposal (Heinrich Lewy, Die semitischen Fremdwörter im Griechischen, 1895, pp. 139-140), which Klein repeats and Nourai follows; Hesychius' gloss chōra tēs dyseōs 'land of the setting sun' is the ancient support usually cited. Modern scholarship rejects it: M. L. West concluded that 'phonologically, the match between Europa's name and any form of the Semitic word is very poor' — Semitic ʿ-r-b gives no source for the -ōp- and the Greek diphthong eu-; and Beekes, who is the current authority on the Greek lexicon, considers a Semitic connection improbable and treats Eurṓpē as Pre-Greek, i.e. from the pre-Indo-European substrate, alongside the old native folk-etymology eurýs 'wide' + ṓps 'face' ('broad-faced'), which is itself a Grecising reshaping. Wiktionary and Etymonline both label the origin uncertain. Nourai gives the Semitic account as fact and adds a gloss ('land of sunset') that is Hesychius' explanation, not the word's demonstrated meaning.",
+          "derivation_fa": "این‌که Εὐρώπη یونانی وام‌واژه‌ای از ʿereb سامی یا erēbu اکدی به معنی «غروب» باشد، پیشنهادی از سدهٔ نوزدهم است (هاینریش لِوی، ۱۸۹۵، ص ۱۳۹–۱۴۰) که کلاین آن را بازگفته و نورایی از او گرفته است؛ گواهِ کهنِ همیشگی‌اش هم تفسیر هسیخیوس است: «سرزمین خورشیدِ فرورونده». اما پژوهش امروزی آن را رد می‌کند: مارتین وست می‌گوید سازگاری آوایی میان نام Europa و هیچ صورتی از آن واژهٔ سامی بسیار ضعیف است (ریشهٔ ع‌ر‌ب نه -ōp- را توضیح می‌دهد نه دوواکهٔ eu- را) و بیکس، مرجع امروزیِ واژگان یونانی، پیوند سامی را نامحتمل می‌شمارد و Eurṓpē را واژه‌ای پیشایونانی (بازماندهٔ زیرلایهٔ پیشاهندواروپایی) می‌داند؛ ریشه‌شناسیِ عامیانهٔ یونانیِ eurýs «پهن» + ṓps «چهره» هم بازسازیِ ثانویِ خودِ یونانیان است. حکم: پژوهش امروزی ادعای نورایی را رد می‌کند.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Europe",
+            "https://www.etymonline.com/word/Europe",
+            "https://en.wiktionary.org/wiki/Europa"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:550",
+              "status": "supports",
+              "note": "Klein s.v. Europe (leaf 299) states precisely Nourai's claim and cites 'Heinrich Lewy, Die semitischen Fremdwörter im Griechischen, Berlin, 1895, pp. 139-140' and Hesychius — but Klein himself writes only 'prob. of Semitic origin'."
+            },
+            {
+              "ref": "AHD:452",
+              "status": "not_checked",
+              "note": "AHD New College Edition dictionary page (the entry 'Europe'), not the IE appendix; the local AHD file is Watkins 1985 (roots only) and the New College scans are lending-only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. Europe, Erebus (leaves 299, 292)",
+              "stance": "supports",
+              "note": "the source of Nourai's arrow, hedged with 'prob.'"
+            },
+            {
+              "src": "AKD",
+              "where": "grep of Zimmern for 'Europa'",
+              "stance": "silent",
+              "note": "Zimmern discusses erēbu > Semitic 'west' words but does not mention Europa at all, so AKD does not back the Greek step."
+            },
+            {
+              "src": "PEI",
+              "where": "Pei, The Families of Words",
+              "stance": "silent",
+              "note": "no entry found on the name Europe."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Latin",
+          "words": "eurôpa",
+          "verdict": "confirmed",
+          "derivation": "Latin Eurōpa is a straight learned borrowing of Greek Εὐρώπη / Doric Εὐρώπα, taken over with the Doric long -ā as usual for Greek proper names entering Latin (cf. Asia, Africa), and used both of the Phoenician princess of the myth and, from Ennius and the geographers onwards, of the continent. The step is uncontroversial whatever the ultimate origin of the Greek name.",
+          "derivation_fa": "لاتینی Eurōpa وام‌گیری مستقیم و کتابیِ Εὐρώπη یونانی (صورت دُریِ Εὐρώπα) است و مانند دیگر نام‌های خاصِ یونانی با ـā کشیدهٔ دُری به لاتین رفته است (سنجید با Asia، Africa)؛ هم بر شاهدختِ اسطوره‌ای فنیقی به کار می‌رفته و هم، از انیوس و جغرافی‌نویسان به بعد، بر قاره. این حلقه، جدا از این‌که خاستگاه نهاییِ نام یونانی چه باشد، بی‌مناقشه است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Europa"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:452",
+              "status": "not_checked",
+              "note": "AHD New College dictionary page, not available (see node 8)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.vv. Europa, Europe (leaf 299)",
+              "stance": "supports",
+              "note": "'Europa, n., a daughter of Agenor, king of Phoenicia (Greek mythol.) — L., fr. Gk. Eurṓpē'; 'Europe, n. — L. Europa, fr. Gk. Eurṓpē'."
+            },
+            {
+              "src": "LEW",
+              "where": "Walde, Lateinisches etymologisches Wörterbuch",
+              "stance": "silent",
+              "note": "proper names of this kind are not treated in Walde's dictionary."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "French",
+          "words": "Europe",
+          "verdict": "confirmed",
+          "derivation": "French Europe continues Latin Eurōpa as a learned (non-popular) form: it is attested from Old French onwards in translations of Latin geography, with the regular learned treatment of Latin -pa > -pe and no trace of the sound changes a popular inheritance would have produced. It is the form from which most modern European and, in turn, Near Eastern languages took the name.",
+          "derivation_fa": "فرانسوی Europe دنبالهٔ لاتینی Eurōpa است، اما به‌صورت واژهٔ عالمانه نه موروثی: از فرانسویِ کهن در ترجمه‌های جغرافیای لاتینی دیده می‌شود و پایانهٔ ‑pa لاتینی به‌شیوهٔ واژه‌های عالمانه به ‑pe بدل شده و هیچ‌یک از دگرگونی‌های آواییِ واژه‌های موروثی در آن رخ نداده است. همین صورت فرانسوی است که بیشتر زبان‌های اروپایی و سپس زبان‌های خاور نزدیک نام قاره را از آن گرفته‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Europa"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. European (leaf 299)",
+              "stance": "supports",
+              "note": "'European, adj. and n. — F. européen, fr. L. Europaeus, fr. Gk. Eurōpaios' — Klein routes the English adjective through French, presupposing F. Europe."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale",
+              "stance": "silent",
+              "note": "Europe is not among Devic's oriental-origin French words."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Persian",
+          "words": "«اروپا»",
+          "verdict": "confirmed",
+          "derivation": "Persian اروپا Orupā/Urupā is a modern European loan of the Qajar period, and French is the right source: the Persian vowels reproduce French Europe [øʁɔp] — the initial ö of French, which Persian has no letter for, is written with alef + vāv (ارو-), and the final -pe is heard as -pā. A borrowing from Latin or English would have given something like *ایوروپ / *یوروپ; a Russian source would have given *یوروپا with initial y-. French was in fact the language of the first Persian geography textbooks and of the Dar al-Funun curriculum, which is where the name entered Persian, displacing the older فرنگ Farang for 'Europe'.",
+          "derivation_fa": "«اروپا» وام‌واژه‌ای نوین از دورهٔ قاجار است و منبع آن، چنان‌که نورایی نشان داده، فرانسوی است: واکه‌های فارسی بازتاب تلفظ فرانسوی Europe اند — واکهٔ ö آغازین که در فارسی حرفی برای آن نیست با «ارو» نوشته شده و پایانهٔ ‑pe به «‑پا» شنیده شده است. اگر از لاتین یا انگلیسی گرفته شده بود صورتی مانند «ایوروپ/یوروپ» می‌داشتیم و اگر از روسی، «یوروپا» با یِ آغازین. زبان کتاب‌های نخستینِ جغرافیا و برنامهٔ دارالفنون فرانسوی بود و همان‌جا این نام جای واژهٔ کهن‌تر «فرنگ» را گرفت. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Europa"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 10276, s.v. اروپایی",
+              "stance": "partial",
+              "note": "'اروپایی: (ص‌نسب.) منسوب به اروپا. هر چیز که در اروپا سازند و از اروپا آورند' — Mo'in's lexicon volumes carry only the nisba; the proper noun اروپا itself is in the aʿlām volumes, which are not on disk, so Mo'in's origin tag (expected [فر.] = French) could not be read."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, grep 'اروپا' in ARY_pages.txt",
+              "stance": "silent",
+              "note": "occurrences are all the ordinary use of the continent's name in running text; Aryanpur treats Indo-European roots, not modern European loans."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "Europe",
+          "verdict": "confirmed",
+          "derivation": "English Europe is from Latin Eurōpa, in practice through French Europe (Klein routes the derivative European through French européen < L. Europaeus). It is attested in English from the late Middle English period in geographical writing and displaced Old English Europe/Europa forms taken directly from Latin. The chart's arrow Latin > English is thus right in substance, with French as the usual intermediary.",
+          "derivation_fa": "انگلیسی Europe از لاتینی Eurōpa آمده است، در عمل از راه فرانسوی Europe (کلاین صفتِ European را از européen فرانسوی < Europaeus لاتینی می‌گیرد). این نام از پایان دورهٔ انگلیسی میانه در نوشته‌های جغرافیایی به کار رفته است. پس پیکانِ «لاتین ← انگلیسی» در جوهر درست است، با این افزوده که میانجیِ معمول، فرانسوی بوده است.",
+          "sources": [
+            "https://www.etymonline.com/word/Europe"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "not_checked",
+              "note": "Citation without a page; the AHD New College dictionary text is not on disk and the scans are lending-only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.vv. Europe, European, europium (leaf 299)",
+              "stance": "supports",
+              "note": "'Europe, n. — L. Europa, fr. Gk. Eurṓpē'; 'European, adj. and n. — F. européen, fr. L. Europaeus'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etymological Dictionary",
+              "stance": "silent",
+              "note": "Skeat's Concise has no entry for Europe (grep -i 'europe' returns only incidental occurrences)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Ered, Erdh, Weredh, Werdh",
+      "verdict": "plausible",
+      "modern_form": "two roots, not one: PIE *h₃erdʰ- 'high, upright' (Pokorny er(ə)d-, er(ə)dh- 'hoch; wachsen', IEW 339) and PIE *h₁werdʰ- 'to grow' (Pokorny u̯erdh-, u̯redh- 'wachsen, steigen; hoch', IEW 1167)",
+      "note": "All four of Nourai's root shapes are real Pokorny headwords and both cited pages are exactly right: IEW 339 has 'er(ə)d- (ṛ(ə)d-), er(ə)dh- \"hoch; wachsen\"' with Av. ərəδwa- 'hoch', Lat. arduus, OIr. ard, Alb. rit, Slav. rastǫ; IEW 1167 has 'u̯erdh-, u̯redh- \"wachsen, steigen; hoch\"' with Skt. várdhati, ūrdhvá-, Av. varəd-, Gk. orthós. Two caveats. (a) Pokorny himself keeps the two entries apart, 828 pages apart, and modern handbooks keep them apart too: *h₃erdʰ- gives the 'high' words (Skt. ūrdhvá-, Av. ərəδwa-, Lat. arduus, Gk. orthós per Beekes/Wiktionary) and *h₁werdʰ- the 'grow' words (Skt. vardhati, Av. varəd-, MP wālīdan > NP bālīdan). Nourai's single box, glossed 'to grow, high', merges them; the merger is Pokorny's own suggestion at IEW 339 ('verschiedene Erweiterungen von er- durch dh') but is not the current view. (b) In consequence Greek orthós (node 6) hangs from the box by whichever of the two roots one prefers — Watkins puts it under wrēdh- (Pok. 1167), Beekes under *h₃r̥dʰwós — so the node is safe either way. Nothing on this chart is a transcription problem; the Persian script, the Sanā'ī and Ṭayyān verses and all references match the printed page.",
+      "note_fa": "هر چهار صورتی که نورایی برای ریشه آورده مدخل‌های واقعیِ پوکورنی‌اند و هر دو شمارهٔ صفحه هم دقیقاً درست است: در ص ۳۳۹ فرهنگ ریشه‌شناختیِ پوکورنی مدخل er(ə)d-، er(ə)dh- «بلند؛ رشد کردن» با ərəδwa- اوستایی، arduus لاتینی، ard ایرلندی و rastǫ اسلاوی آمده و در ص ۱۱۶۷ مدخل u̯erdh-، u̯redh- «رشد کردن، بالا رفتن؛ بلند» با várdhati و ūrdhvá- سنسکریت، varəd- اوستایی و orthós یونانی. دو نکته: نخست آنکه خود پوکورنی این دو را دو ریشهٔ جدا می‌داند و ریشه‌شناسی امروزی نیز آن‌ها را جدا نگاه می‌دارد — *h₃erdʰ- «بلند» در برابر *h₁werdʰ- «رشد کردن» — و یکی‌کردن آن‌ها در یک جعبه، هرچند اشاره‌ای از خودِ پوکورنی پشتوانهٔ آن است، دیدگاه امروزی نیست. دوم آنکه orthós یونانی به هر دو تحلیل باز به همین مجموعه می‌رسد، پس گره ششم در هر حال درست است. هیچ خطای خوانشِ اسکنی در این نمودار نیست؛ املای فارسی، بیت‌های سنایی و طیّان و همهٔ ارجاع‌ها با صفحهٔ چاپی می‌خوانند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E1%BD%80%CF%81%CE%B8%CF%8C%CF%82"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:339",
+          "status": "supports",
+          "note": "Pokorny IEW p. 339-340 (POK_01.txt leaf 353): 'er(ə)d- (ṛ(ə)d-), er(ə)dh- \"hoch; wachsen\". Av. ərəδva- \"hoch\"; lat. arduus \"hoch, steil\"; gall. Arduenna silva, air. ard (*ṛduo-) \"hoch, groß\" ... alb. rit \"wachse\" ... slav. *orstǫ, abg. rastǫ ... \"wachse\".' Exactly the root name, language label and gloss of the chart."
+        },
+        {
+          "ref": "POK:1167",
+          "status": "supports",
+          "note": "Pokorny IEW p. 1167 (POK_03.txt, page marker '1167'): 'u̯erdh-, u̯redh- \"wachsen, steigen; hoch\". Ai. várdhati, várdhate ... vṛddhá- \"erwachsen, groß, alt\"; av. varəd- \"wachsen machen\"; ai. ūrdhvá- \"hoch\" (*u̯ordh-u̯o-) ... gr. orthós, dor. borthó- \"aufrecht, gerade, richtig, wahr\" (*u̯ordh-u̯o-).'"
+        },
+        {
+          "ref": "KLN:1097",
+          "status": "supports",
+          "note": "Klein s.v. ortho- (KLN_1966.txt leaf 587): 'Gk. orthós, \"straight; right, true, exact; genuine; upright, righteous\", for *worthwos (cp. Dor. borthó-); cognate with OI. ūrdhvaḥ, \"high\", várdhate, \"causes to grow\", L. arduus, \"high, lofty, steep\".' Klein combines both of Pokorny's roots in exactly the way Nourai's box does."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny Bd. I (WLD_Bd1_pages.txt lines 7616, 13487)",
+          "stance": "supports",
+          "note": "the older Walde-Pokorny already links 'ai. ūrdhva-' with Gk. orthós and cross-refers 's. u̯eredh-', i.e. the same double treatment."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.vv. ered-, wrēdh-",
+          "stance": "partial",
+          "note": "'ered-. High. Suffixed zero-grade form *ṛd-wo- in Latin arduus, high, steep: ARDUOUS. [Pok. er(e)d- 339.]' and 'wrēdh-. To grow straight, upright. Suffixed zero-grade form *wrodh-wo- in Greek orthos ...: ORTHO-. [In Pok. werdh- 1167.]' — Watkins keeps them as two separate roots, as the modern view does."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. ueldho (col. corresponding to IEC.txt line 19951)",
+          "stance": "partial",
+          "note": "'ueldho \"grow strong, thrive, succeed\" ... Skt. várdhāmi ... Av. varəd-, tr. \"promote\" ... (? uerdh-, urdh-)' — Mann files the 'grow' family under *ueldh- and marks *uerdh- with a query, a third opinion again distinct from Nourai's single root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "eredva; vared, vard, ward",
+          "verdict": "plausible",
+          "derivation": "Both Avestan items exist, but they belong to the two different roots the chart has merged. (i) ərəδwa- 'high, upright' is well attested in Younger Avestan compounds — ərəδwa-fštāna- 'with upright breasts' (Hādōxt Nask 2.9), ərəδwō.drafša- 'with the banner raised high' (Yt. 1.11), ərəδwō.zaṇga- 'upright of ankle' (Yt. 10.61) — and Bartholomae's note at AiW col. 351 derives it 'aus ar. *ṛ-dh-wa-, vgl. ai. ūrdhvá- ... oder lat. arduus', i.e. from PIE *h₃erdʰ-. (ii) varəd- is the Avestan verb 'to make grow, to increase' (AiW col. 1369: 'varəd- V. \"augere\", Praes. varəda-, ... \"wachsen machen, gedeihen lassen, mehren\"'), matching Skt. várdhati and PIE *h₁werdʰ-. Nourai's Latin transliterations 'vared, vard, ward' are the stem varəd- with the schwa written out and with the w/v spelling variants; his gloss 'up, high, growing' compresses the two roots' senses. The forms are real; the implication that ərəδwa- and varəd- come from one and the same root is Pokorny's guess, not modern doctrine.",
+          "derivation_fa": "هر دو صورت اوستایی واقعی‌اند، ولی به دو ریشهٔ جداگانه‌ای تعلق دارند که نورایی در یک جعبه ادغام کرده است. نخست ərəδwa- «بلند، برافراشته» که در ترکیب‌های اوستایی متأخر فراوان است — ərəδwa-fštāna- «سینه‌برافراشته» (هادُخت نسک ۲٫۹)، ərəδwō.drafša- «درفش‌برافراشته» (یشت ۱٫۱۱)، ərəδwō.zaṇga- «برپای‌ایستاده» (یشت ۱۰٫۶۱) — و بارتولومه در ستون ۳۵۱ فرهنگ ایرانی باستان آن را از آریایی *ṛ-dh-wa- می‌گیرد و با ūrdhvá- سنسکریت و arduus لاتینی می‌سنجد، یعنی از *h₃erdʰ-. دوم varəd- که فعل اوستایی «رویاندن، افزودن» است (ستون ۱۳۶۹: «augere… رشد دادن، بالیدن‌دادن، افزودن») و برابر várdhati سنسکریت از *h₁werdʰ-. آوانوشت‌های نورایی («vared, vard, ward») همان ستاک varəd- اند. پس صورت‌ها درست‌اند، اما یکی‌دانستن این دو، گمانِ پوکورنی است نه دیدگاه امروزی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BD%80%CF%81%CE%B8%CF%8C%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:339",
+              "status": "supports",
+              "note": "IEW 339: 'er(ə)d- ... er(ə)dh- \"hoch; wachsen\". Av. ərəδva- \"hoch\"' — literally Nourai's Avestan eredva 'high'."
+            },
+            {
+              "ref": "POK:1167",
+              "status": "supports",
+              "note": "IEW 1167: 'av. varəd- \"wachsen machen\"' — literally Nourai's vared/vard 'growing'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW cols. ~351 and 1369",
+              "stance": "supports",
+              "note": "col. 351 note: 'Aus ar. *ṛ-dh-wa-; vgl. ai. ūrdhvá- Adj. ... oder lat. arduus'; col. 1369: 'varəd- V. \"augere\". Praes. varəda- ... \"wachsen machen, gedeihen lassen, (grösser) machen, mehren\"'. Both Avestan items confirmed, and Bartholomae too separates them."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.vv. ered-, wrēdh-",
+              "stance": "partial",
+              "note": "confirms both roots but as two, not one."
+            },
+            {
+              "src": "AVG",
+              "where": "Jackson, Avesta Grammar",
+              "stance": "silent",
+              "note": "a grammar, not a lexicon; no entry for either stem."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "vâlâ «والا»; bâlîdan «بالیدن»",
+          "verdict": "confirmed",
+          "derivation": "Both Persian words go back to the *werdʰ- half of the root, through Middle Persian, exactly as drawn. Old Iranian *warda-ya- 'to make grow' (the causative-type stem of *ward-, Av. varəd-) gives Middle Persian wālīdan, wāl- — MacKenzie's Concise Pahlavi Dictionary has it verbatim: 'wālīdan, wāl- [wʾl-ytn' | N bālīdan] grow, increase, prosper; ~išn: growth'. The Old Iranian cluster -rd- regularly becomes -l- in Middle Persian (cf. *ward > wāl), and Middle Persian initial w- splits in New Persian: it hardens to b- in بالیدن bālīdan and stays as v- in the doublet والا vālā, so the two are two treatments of one Middle Persian word. Wiktionary states this outright for والا: from Middle Persian wāl-īdan 'to grow, to prosper', 'doublet of بالا (bālā), derived with the same suffix from a different form of the same verb'. Horn no. 173 gives 'bālīden \"wachsen, zunehmen\" (Šāhn. I p.3 v.49), bāliš \"Wachstum\"' and cross-refers to guwālīden (no. 939); Hübschmann no. 173 adds the Pahlavi causative 'zu phl. caus. wālēnītan ... = zd. varədaya- \"wachsen machen\"'. Mo'in's footnote in Borhān-e Qāṭeʿ derives بالیدن from Old Indic vardh- 'to grow'. Abolqāsemi (FFD p. 35) writes 'بال < فارسی میانه wāl < ایرانی باستان *ward(a)ya-'. The chart's extras بال ۲ and بالش ۲ are the deverbal noun 'growth' — correctly kept apart from بالش ۱ 'pillow' (< Av. barəziš-), which is what Nourai's cross-reference to root 'Bhel' is about, and Horn indeed treats بالش 'Kissen' separately at no. 172. The gloss 'boast' for bālīdan is the ordinary Persian idiom بالیدن به 'to pride oneself on', a natural extension of 'to grow, swell'.",
+          "derivation_fa": "هر دو واژهٔ فارسی از نیمهٔ *werdʰ- این ریشه و از راه فارسی میانه آمده‌اند، درست همان‌گونه که نورایی کشیده است. ایرانی باستان *warda-ya- «رویاندن» (ستاکِ سببیِ *ward-، اوستایی varəd-) در فارسی میانه wālīdan/wāl- شده است؛ مکنزی در فرهنگ کوچک پهلوی عیناً می‌آورد: «wālīdan, wāl- ... N bālīdan: رشد کردن، افزودن، کامیاب شدن». خوشهٔ -rd- ایرانی باستان در فارسی میانه به‌قاعده به «ل» بدل می‌شود و «و» آغازیِ فارسی میانه در فارسی نو دو سرنوشت می‌یابد: در «بالیدن» به «ب» سخت می‌شود و در دوگانهٔ آن «والا» همان «و» می‌ماند؛ پس این دو، دو پرداختِ یک واژهٔ واحدِ پهلوی‌اند. ویکی‌واژه نیز «والا» را از wāl-īdan فارسی میانه و «دوگانهٔ بالا» می‌داند. هرن (شمارهٔ ۱۷۳) «بالیدن: رشد کردن، افزودن (شاهنامه ج۱ ص۳ بیت ۴۹)» را با ارجاع به «گوالیدن» آورده و هوبشمان همان شماره را با سببیِ پهلوی wālēnītan = varədaya- اوستایی کامل می‌کند. معین در حاشیهٔ برهان قاطع بالیدن را به vardh- هندی باستان می‌رساند و ابوالقاسمی (فعل‌های فارسی دری، ص ۳۵) می‌نویسد: «بال < فارسی میانه wāl < ایرانی باستان *ward(a)ya-». «بال ۲» و «بالش ۲» همان اسم‌مصدرِ «رشد» است و به‌درستی از «بالش ۱» به معنی متکا (< barəziš- اوستایی) جدا شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:39",
+              "status": "supports",
+              "note": "Horn, Grundriss der neupersischen Etymologie p. 39 (HRN.txt leaf 61) no. 173: 'bālīden \"wachsen, zunehmen\" (Šāhn. I, S. 3 Vers 49), bāliš \"Wachstum\"; vergl. guwālīden (No. 939).' Horn's footnote there even quotes the same Sanāʾī couplet Nourai prints in this node ('tā ki nišest ḫwāja der bāliš / bāliš āmed ze nāz der bāliš')."
+            },
+            {
+              "ref": "HRN:210",
+              "status": "supports",
+              "note": "Horn p. 210 no. 939 is the cross-referenced guwālīden entry (see node 4)."
+            },
+            {
+              "ref": "BQT:227",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ, ب section (BQT_v1_pages.txt leaf 448) s.v. بالیدن 'بروزن مالیدن؛ بمعنی بزرگ شدن و افزون گردیدن و نمو کردن باشد', with Moʿin's footnote: 'هندی قدیم wardh-, vardh- (نمو کردن، بزرگ شدن) ... رک: بالش، بالا' — the same derivation Nourai draws."
+            },
+            {
+              "ref": "BQT:1848",
+              "status": "supports",
+              "note": "the گوالیدن page (see node 4), where Moʿin's footnote explicitly says 'قس: بالیدن'."
+            },
+            {
+              "ref": "FFD:35",
+              "status": "supports",
+              "note": "Abolqāsemi, Feʿlhā-ye Fārsi-ye Darī p. 35 (FFD_pages.txt, pdf p. 40, header 'ماده‌های ماضی و مضارع فارسی دری ۳۵'), s.v. بالیدن: 'بال < فارسی میانه wāl < ایرانی باستان *ward(a)ya-. wardā صورت بالاندهٔ ریشهٔ ward است به معنی «رشد کردن».'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. wālīdan",
+              "stance": "supports",
+              "note": "\"wālīdan, wāl- [wʾl-ytn' | N bālīdan] grow, increase, prosper. ~išn: growth\" — the Middle Persian link Nourai's chart skips over."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien p. 24, no. 173",
+              "stance": "supports",
+              "note": "'Np. bālīdan \"wachsen\" zu phl. caus. wālēnītan Phl. Vend. 9 ... = zd. varədaya- \"wachsen machen\", Mann-Andreas, ZDMG. 47, 702.'"
+            },
+            {
+              "src": "MON",
+              "where": "Moʿin, Farhang-e Fārsi s.vv. بالیدن، بالش",
+              "stance": "supports",
+              "note": "the lexicon has بالیدن 'نمو کردن، رشد کردن' with the same Pahlavi transcription; Moʿin's own footnote in Borhān is the fuller statement quoted above."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn no. 171 bālā, no. 172 bāliš",
+              "stance": "partial",
+              "note": "Horn derives بالا 'hoch' from Av. barəzah- and بالش 'Kissen' from Av. barəziš- — i.e. from *bʰerǵʰ-, NOT from this root. That is precisely why Nourai's NOTE sends the reader to root 'Bhel' for bāleš 1 'pillow'; the note is well judged, though Horn's source for the pillow is barəziš- rather than *bhel-."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan / Sanskrit",
+          "words": "vi-vard",
+          "verdict": "confirmed",
+          "derivation": "The compound is the preverb *wi- 'apart, out' (Av. vī-, OP viy-, Skt. vi-, from PIE *wi- 'apart') prefixed to the root *ward- / vardh- 'to grow', giving 'to grow out, grow up, thrive'. Sanskrit ví-vardhate is well attested in this sense, and Horn cites the Indic compound directly as the etymon of the Persian verb: 'ai. vi + √vardh- \"heranwachsen, gedeihen\"'. Avestan has the same preverb freely with varəd- (Bartholomae AiW col. 1369 lists varəd- with preverbs). Pokorny 1167 gives the root; the compound as such is a normal Indo-Iranian formation rather than a reconstructed novelty, so the node is sound. The chart's ☞Wi cross-reference to Nourai's root 'Wi' is the right place for the prefix.",
+          "derivation_fa": "این ترکیب از پیشوندِ *wi- «جدا، بیرون» (اوستایی vī-، پارسی باستان viy-، سنسکریت vi-) و ریشهٔ *ward-/vardh- «رشد کردن» ساخته شده و معنای «بیرون رُستن، برآمدن، بالیدن» می‌دهد. در سنسکریت ví-vardhate به همین معنا نیک گواهی شده و هرن همین ترکیب هندی را یکراست ریشهٔ فعل فارسی می‌شمارد: «ai. vi + √vardh- (بالیدن، بالنده شدن)». در اوستایی نیز varəd- با همین پیشوند به کار می‌رود (بارتولومه، ستون ۱۳۶۹). پس این گره درست است و ارجاعِ نمودار به ریشهٔ «Wi» برای پیشوند هم بجاست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BD%80%CF%81%CE%B8%CF%8C%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:1167",
+              "status": "supports",
+              "note": "IEW 1167 s.v. u̯erdh-, u̯redh-: 'Ai. várdhati, várdhate, vṛdháti \"wächst, mehrt sich\" ... av. varəd- \"wachsen machen\"' — the simplex; the vi- compound is the regular preverbal formation of it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn no. 939, p. 210",
+              "stance": "supports",
+              "note": "'ai. vi + √vardh- \"heranwachsen, gedeihen\"' — Horn cites exactly Nourai's compound as the source of the Persian verb."
+            },
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW col. 1369 s.v. varəd-",
+              "stance": "supports",
+              "note": "Bartholomae's varəd- entry 'augere ... wachsen machen, gedeihen lassen' with preverbal constructions; the compound with vī- is unexceptional."
+            },
+            {
+              "src": "FFD",
+              "where": "Abolqāsemi p. 75",
+              "stance": "supports",
+              "note": "'گوال < ایرانی باستان *wi-warda-ya. ... wi پیشوند فعلی است. wardā صورت بالاندهٔ ward به معنی «بالیدن» است' — the Iranian counterpart of the Sanskrit compound."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "govâlîdan «گوالیدن»",
+          "verdict": "confirmed",
+          "derivation": "گوالیدن govālīdan 'to grow' (with گوالاندن govālāndan, the causative, and گوال govāl 'growth') is the prefixed doublet of بالیدن. Old Iranian *wi-warda-ya- gives the Persian verb by two regular changes: the preverb *wi- appears in New Persian as gu-/go- (the same development as in گواردن govārdan < *wi-gard-, گواژه, گوارش — Iranian *wi- > MP wi- > NP gu-), and the stem *ward(a)ya- gives -vāl- exactly as in bālīdan. Horn no. 939 states it in one line: 'guwālīden, gevālīden \"wachsen\" (unbelegt); vergl. bālīden (No. 173). ai. vi + √vardh- \"heranwachsen, gedeihen\"; ist schon im Pehlevī verschwunden' — note his 'unbelegt' and the observation that the verb had already disappeared in Middle Persian, so the New Persian form is a survival known only from the lexicographers and from verses like the Ṭayyān couplet Nourai prints. Moʿin's footnote at Borhān 1848 gives the same account and cites Horn by his entry number ('اسشق ۹۳۹'). The chart's NOTE that FFD:75 derives these from Old Persian wi-ward is accurate in substance (Abolqāsemi writes 'ایرانی باستان *wi-warda-ya', i.e. Old Iranian rather than Old Persian specifically).",
+          "derivation_fa": "«گوالیدن» با «گوالاندن» و اسم‌مصدر «گوال»، دوگانهٔ پیشونددارِ «بالیدن» است. ایرانی باستان *wi-warda-ya- با دو دگرگونیِ قاعده‌مند به این صورت رسیده است: پیشوند *wi- در فارسی نو «گُ/گو» می‌شود (همان تحولی که در «گواردن» < *wi-gard-، «گوارش» و «گواژه» می‌بینیم) و ستاک *ward(a)ya- درست مانند «بالیدن» به «‑وال‑» بدل می‌شود. هرن در شمارهٔ ۹۳۹ همین را در یک سطر می‌گوید: «گوالیدن/گوالیدن «رشد کردن» (بی‌شاهد)؛ سنجید با بالیدن (شمارهٔ ۱۷۳). سنسکریت vi + √vardh-؛ این فعل در پهلوی از میان رفته است» — و همین که در پهلوی از میان رفته توضیح می‌دهد چرا واژه تنها در فرهنگ‌ها و بیت‌هایی مانند بیتِ طیّانِ نقل‌شده در نمودار مانده است. حاشیهٔ معین در برهان قاطع (ص ۱۸۴۸) همین را می‌گوید و به شمارهٔ هرن («اسشق ۹۳۹») ارجاع می‌دهد. یادداشت نمودار دربارهٔ FFD:75 نیز در جوهر درست است، جز آنکه ابوالقاسمی «ایرانی باستان» نوشته نه «پارسی باستان».",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1848",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ p. 1848 (fetched with tools/ref_page.py BQT:1848 → BQT_v3_picofile.pdf p. 645, image cached at data/verification/sources/refs/ocr/BQT/1848.png): headword 'گوالیدن ... بمعنی بالیدن و نمو کردن هم از انسان و حیوان', footnote 7: 'از: گوال (ه.م.) + یدن (پیوند مصدری)؛ قس: بالیدن، هندی باستان vṛdh + vardh (نمو کردن، رشد کردن)؛ اسشق ۹۳۹.' The page also has گوال 'وبمعنی بالیدن و نمو کردن'."
+            },
+            {
+              "ref": "HRN:210",
+              "status": "supports",
+              "note": "Horn p. 210 no. 939: 'guwālīden, gevālīden \"wachsen\" (unbelegt); vergl. bālīden (No. 173). ai. vi + √vardh- \"heranwachsen, gedeihen\"; ist schon im Pehlevī verschwunden.'"
+            },
+            {
+              "ref": "MON:3427",
+              "status": "supports",
+              "note": "Moʿin, Farhang-e Fārsi s.v. گوالیدن (MON_part2.txt line 35786): 'گوالیدن: gvālīdan (نمو کردن، م. گوالاندن، گوالانیدن) (مصدر لازم) ... نمو کردن، نشو و نما یافتن، بالیدن، اندوختن، جمع کردن'; the preceding entries give گوال 'بالش، نمو، بالیدگی' and گوالش 'نمو، نشو و نما' — i.e. Nourai's extras گوالاندن and گوال."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FFD",
+              "where": "Abolqāsemi p. 75 (FFD_pages.txt, pdf p. 80)",
+              "stance": "supports",
+              "note": "'گوالیدن (:بالیدن). گوال < ایرانی باستان *wi-warda-ya. ... wi پیشوند فعلی است. wardā صورت بالاندهٔ ward به معنی «بالیدن» است و خود «بالیدن» هم از ward آمده است > بالیدن.' Note 'ایرانی باستان' (Old Iranian), where the chart's NOTE says 'Old Persian'."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, s.v. wālīdan and the wi- prefixed verbs",
+              "stance": "partial",
+              "note": "MacKenzie has the simplex wālīdan but no *wi-wālīdan, which agrees with Horn's remark that the compound had already vanished in Middle Persian."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān p. 1848 s.v. گوال",
+              "stance": "supports",
+              "note": "'گوال ... و بمعنی بالیدن و نمو کردن' with footnote 6 'رک: گوالیدن'."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Old Persian",
+          "words": "ward; wi-ward",
+          "verdict": "plausible",
+          "derivation": "The forms and the meanings are right, but the language label is not quite. *ward- 'to grow' and *wi-ward- 'to grow out' are Proto-/Old IRANIAN reconstructions, not attested Old Persian: Kent's Old Persian lexicon has no verb ward- 'to grow'; the only OP -vard- is the second member of the personal name Artavardiya- 'Justice-worker', which Kent takes to a different root. Nourai's own source says as much — Abolqāsemi (FFD p. 75) writes 'ایرانی باستان *wi-warda-ya' ('Old Iranian'), which Nourai has rendered 'Old Persian'; his in-chart NOTE on node 4 repeats the same rendering. As a reconstruction the node is correct and is the necessary ancestor of both bālīdan and govālīdan; only the box's language heading overstates the evidence. The asterisk that a reconstruction requires is also missing on the printed page (the book prints 'ward' and 'wi-ward' bare) — but that is Nourai's house style throughout, not a misprint, and the extraction is faithful.",
+          "derivation_fa": "صورت‌ها و معناها درست‌اند ولی برچسب زبانی دقیق نیست. *ward- «رشد کردن» و *wi-ward- «بیرون رُستن» بازسازی‌های ایرانیِ باستان‌اند نه صورت‌های گواهی‌شدهٔ پارسی باستان: در واژه‌نامهٔ کنت از پارسی باستان چنین فعلی نیست و تنها ‑vard- موجود، جزءِ دومِ نام خاصِ Artavardiya- «کارگزارِ داد» است که کنت آن را به ریشهٔ دیگری می‌برد. خودِ مأخذ نورایی هم همین را می‌گوید: ابوالقاسمی (ص ۷۵) نوشته «ایرانی باستان *wi-warda-ya» و نورایی آن را «پارسی باستان» برگردانده است. پس این گره به‌عنوان بازسازی درست است و نیای ضروری «بالیدن» و «گوالیدن» است؛ تنها عنوان زبانیِ جعبه بیش از آنچه گواه اجازه می‌دهد ادعا می‌کند. نبودِ ستاره هم شیوهٔ همیشگی کتاب است، نه خطای چاپ یا خوانش.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "FFD:75",
+              "status": "partial",
+              "note": "Abolqāsemi p. 75 s.v. گوالیدن gives 'ایرانی باستان *wi-warda-ya' — Old IRANIAN with an asterisk, not Old Persian. The reconstruction is his; the language label in the chart is Nourai's own."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon",
+              "stance": "contradicts",
+              "note": "grep of KNT.txt for ward/vard finds only 'Arta-vardiya- \"Justice-worker\"' and vardana- 'city' (which Kent connects with Av. varəzāna-, root varəz- 'to shut off'). There is no Old Persian verb ward- 'to grow', so the label 'Old Persian' is not supported by the standard OP lexicon."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, s.v. OPers. vardana-",
+              "stance": "partial",
+              "note": "'OPers. vardana- prob. : Av. varəzāna- \"community, state\" ... fr. the root in Av. varəz- \"shut off\" ... But the OPers. word could also correspond to Skt. vardhana-' — even the one OP form that looks like it is disputed and is not a verb 'to grow'."
+            },
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW col. 1369",
+              "stance": "supports",
+              "note": "the Avestan verb varəd- 'augere' is the real Old Iranian attestation of what this box calls Old Persian."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Greek",
+          "words": "orthos",
+          "verdict": "confirmed",
+          "derivation": "Greek ὀρθός 'straight, upright; right, correct, true' belongs to this root complex on any current analysis, and the semantic path 'upright' > 'straight' > 'right, correct' is the ordinary one (cf. Latin rectus from *h₃reǵ- 'straighten'). The two competing derivations both land inside Nourai's box: Pokorny (IEW 1167) and Watkins take it from *u̯ordh-u̯o- / *wrodh-wo-, the o-grade of u̯erdh- 'grow, rise, high' — the Doric gloss βορθαγορίσκος in Hesychius shows the lost initial digamma that this requires — while Beekes and current Wiktionary derive it from *h₃r̥dʰ-wó- from *h₃erdʰ- 'upright', making it the exact cognate of Sanskrit ūrdhvá- 'high', Avestan ərəδwa- and Latin arduus, via Proto-Hellenic *ortʰwós. Either way the word descends from the material in the root box, and Nourai's gloss 'correct, right' is the classical sense that the English derivatives continue.",
+          "derivation_fa": "یونانی ὀρθός «راست، برافراشته؛ درست، صحیح» بر پایهٔ هر دو تحلیل امروزی به همین مجموعهٔ ریشه‌ای تعلق دارد و سیر معنایی «برافراشته > راست > درست» سیری معمول است (سنجید با rectus لاتینی از *h₃reǵ-). دو تحلیل رقیب هر دو در همین جعبه جای می‌گیرند: پوکورنی (ص ۱۱۶۷) و واتکینز آن را از *u̯ordh-u̯o-، درجهٔ o ی ریشهٔ u̯erdh-، می‌گیرند — و صورت دُریِ βορθ‑ در هسیخیوس نشانِ همان «و»ی آغازینِ افتاده است — و بیکس و ویکی‌واژه آن را از *h₃r̥dʰ-wó- از *h₃erdʰ- «برافراشته» می‌دانند و بدین‌سان هم‌ریشهٔ دقیقِ ūrdhvá- سنسکریت، ərəδwa- اوستایی و arduus لاتینی، از راه هلنیِ آغازین *ortʰwós. در هر دو حال واژه از همان مواد جعبهٔ ریشه برآمده است و معنایی که نورایی داده همان معنای کلاسیکی است که مشتق‌های انگلیسی آن را ادامه می‌دهند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BD%80%CF%81%CE%B8%CF%8C%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:1167",
+              "status": "supports",
+              "note": "IEW 1167: 'gr. orthós, dor. borthó- \"aufrecht, gerade, richtig, wahr\" (*u̯ordh-u̯o-)' — including the Doric b- form."
+            },
+            {
+              "ref": "KLN:1097",
+              "status": "supports",
+              "note": "Klein s.v. ortho- (leaf 587): 'Gk. orthós, \"straight; right, true, exact; genuine; upright, righteous\", for *worthwos (cp. Dor. borthó-); cognate with OI. ūrdhvaḥ, \"high\", várdhate, \"causes to grow\", L. arduus.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. wrēdh-",
+              "stance": "supports",
+              "note": "'wrēdh-. To grow straight, upright. Suffixed zero-grade form *wrodh-wo- in Greek orthos, straight, correct, right: ORTHO-, ORTHOTICS; ANORTHITE. [In Pok. werdh- 1167.]'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. I (line 13487)",
+              "stance": "supports",
+              "note": "'orthós, ai. ūrdhva- (s. u̯eredh-)' — the same equation in the older handbook."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.vv. Orthodox, orthoepy, Orthography",
+              "stance": "supports",
+              "note": "'Gk. orthos, upright / right / straight' consistently glossed; Skeat gives no deeper root, so he is neutral between the two reconstructions."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "ortho-; orthodox, orthogonal, orthodontics, orthopedics",
+          "verdict": "confirmed",
+          "derivation": "All four words are learned formations on Greek orthós, mostly of the modern scientific period, and each is transparent. orthodox: Late Latin orthodoxus < Greek orthódoxos 'having the right opinion' (orthós + dóxa 'opinion'), in English from the 16th century. orthogonal: Greek orthogṓnios 'right-angled' (orthós + gōnía 'angle'), through Latin/French, first in geometry. orthodontics: coined in the 19th century from orthós + odoús, odónt- 'tooth' — literally 'straightening the teeth'. orthopedics: F. orthopédie, coined by Nicolas Andry in 1741 from orthós + paidíon 'child', 'the straightening of children', later generalised to the skeleton. The combining form ortho- itself is Klein's headword. The node is an unproblematic list of derivatives.",
+          "derivation_fa": "هر چهار واژه ساخت‌های عالمانه بر پایهٔ orthós یونانی‌اند، بیشترشان از دورهٔ علمِ نوین، و هر یک روشن است. orthodox از لاتینیِ متأخر orthodoxus < یونانی orthódoxos «دارندهٔ رأی درست» (orthós + dóxa «رأی») که از سدهٔ شانزدهم در انگلیسی است؛ orthogonal از یونانی orthogṓnios «قائم‌الزاویه» (orthós + gōnía «زاویه») از راه لاتین و فرانسوی؛ orthodontics ساختهٔ سدهٔ نوزدهم از orthós و odoús/odónt- «دندان» یعنی «راست‌کردنِ دندان»؛ و orthopedics از فرانسوی orthopédie که نیکلا آندری در ۱۷۴۱ از orthós و paidíon «کودک» ساخت، یعنی «راست‌کردنِ کودکان»، که بعدها به کل استخوان‌بندی تعمیم یافت. پس این گره فهرستی بی‌اشکال از مشتق‌هاست و ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BD%80%CF%81%CE%B8%CF%8C%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node; the parent Greek node carries POK:1167 and KLN:1097, both of which check out (see node 6)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.vv. ortho-, orthodox, orthodoxy (leaf 587)",
+              "stance": "supports",
+              "note": "'ortho-, before a vowel orth-, combining form meaning \"straight; rectangular; regular; true, correct\" — Gk. ortho-, fr. orthós'; 'orthodox ... Late L. orthodoxus, fr. Gk. orthódoxos, \"having the right opinion\", fr. orthós, \"right\", and dóxa, \"opinion\".'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.vv. Orthodox, orthoepy, Orthography, Orthopterous",
+              "stance": "supports",
+              "note": "'Orthodox, of the right faith. Late L. orthodoxus. — Gk. orthodoxos, of right opinion, from orthós, upright ... doxa, an opinion'; 'Orthopterous ... Gk. orthós, straight'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. wrēdh-",
+              "stance": "supports",
+              "note": "lists ORTHO-, ORTHOTICS, ANORTHITE as the English descendants of Greek orthos under this root."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

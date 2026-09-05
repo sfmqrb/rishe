@@ -1,0 +1,198 @@
+{
+  "pdf_page": 165,
+  "book_page": 135,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "F.r.q, Tafrîq",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ف ر ق (f-r-q) 'to split, separate, divide'; فَرْق farq 'separation, difference'; تَفْرِيق tafrīq 'distribution, dispersal', verbal noun of Form II فَرَّقَ farraqa",
+      "note": "Both the language label and the two glosses are right. faraqa 'he split, divided' is a well-attested Common Semitic root (Heb. pāraq 'he tore away', Aram./Syr. pəraq 'he rescued, withdrew', Eth. faraqa 'he set free'), and tafrīq is the regular taf'īl verbal noun of the Form II intensive farraqa, so 'distribution, dispersing' is exactly its sense. Nourai's own source (Klein p. 1637) states this chain verbatim. The only substantive problem on this chart is not in the root box but in the two arrows leaving it (see nodes #1 and #2).",
+      "note_fa": "ریشهٔ سه‌حرفی عربی «ف ر ق» به معنی «جدا کردن، شکافتن» ریشه‌ای است سامی مشترک (عبری pāraq، آرامی/سریانی pəraq، حبشی faraqa) و «تفریق» مصدر باب تفعیل از «فرَّق» است، پس معنی «پخش‌کردن، پراکندن» درست ثبت شده. کلاین (ص ۱۶۳۷) — همان مأخذی که نورایی به آن ارجاع داده — دقیقاً همین را می‌گوید. ادعای نورایی دربارهٔ خودِ ریشه درست است؛ اشکال‌ها در دو پیکانی است که از این ریشه بیرون می‌رود (گره‌های ۱ و ۲).",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%82",
+        "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%82%D8%A7%D9%86"
+      ],
+      "ref_check": [
+        {"ref": "KLN:1637", "status": "supports", "note": "KLN_1966.txt leaf 868 (the leaf is page-stamped '1636 / 1637'), s.v. traffic: 'Arab. tafrtq [tafrīq], \"distribution\", verbal noun of farraqa, \"he distributed\", II (= frequentative or intensive conjugation) of faraqa, \"he split, divided\" ... Arab. faraqa is rel. to Heb. pāraq ... Aram. pəraq ... Ethiop. faraqa'. Exactly the root box as drawn."}
+      ],
+      "consulted": [
+        {"src": "FVQ", "where": "pp. 225-229 s.v. Furqān (FVQ_pages.txt lines 8142-8250)", "stance": "partial", "note": "Jeffery: 'The form of the word would suggest that it was genuine Arabic, a form fuʿlān from f-r-q, and thus it is taken by the Muslim authorities' — but he concludes for a borrowing. Confirms the reality and sense of the root while disputing that furqān is one of its native formations."},
+        {"src": "MON", "where": "Mo'in, Farhang-e Farsi (Adena 2-vol., v.2) s.v. فرق / فرقان", "stance": "supports", "note": "«فرق: [ع.] (مص‌م.) جدا کردن، تمیز دادن، امتیاز نهادن» and «فرقان: [ع.] (وص.) آنچه جداکنندهٔ حق از باطل باشد» — both marked [ع.] = Arabic."},
+        {"src": "AFA", "where": "Fraenkel, Die aramäischen Fremdwörter (AFA.txt)", "stance": "silent", "note": "grep -i 'faraqa|farraqa|peraq' returns nothing; Fraenkel treats Aramaic words borrowed INTO Arabic and does not discuss the native root f-r-q."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "farq; forqân",
+          "verdict": "plausible",
+          "derivation": "Both words are Arabic loans in Persian, taken over with the Arabic lexical stratum from the 8th-9th c. onward; Persian did not inherit them. فرق farq is the Form I verbal noun of فَرَقَ faraqa 'to split', hence 'separation, difference' and concretely 'the parting of the hair, crown of the head' (Mo'in gives both senses) — Nourai's gloss 'difference, dividing line' is exact, and Wiktionary's Persian section says plainly 'Borrowed from Arabic فَرْق (farq)'. The chart's extra list is likewise a set of regular f-r-q formations borrowed into Persian: فارق (act. part.), فاروق (faʿūl intensive, the epithet of the caliph ʿUmar 'he who distinguishes truth from falsehood'), تفریق and تفرقه (Form II verbal nouns), فراق (Form I 'separation'), مفارقت (Form III), متفرّق / متفرّقه (Form V participles), فرقه (fiʿla 'sect, group'). فرقان forqân is the point of doubt: deriving it directly from f-r-q as a fuʿlān noun is the traditional Muslim analysis (Ṭabarī on Q 2:50; Mo'in's gloss «آنچه جداکنندهٔ حق از باطل باشد» reproduces it), but modern Qurʾānic scholarship since Geiger and Fraenkel — set out at length by Jeffery (FVQ 225-229) and followed by Wiktionary — takes Arabic furqān as a loan from Classical Syriac ܦܘܪܩܢܐ purqānā 'salvation, deliverance' (or Jewish Aramaic/Hebrew purqān), later drawn into the native root f-r-q by folk association, which explains why the Qurʾānic senses ('scripture', 'criterion', 'the day of Badr') do not cohere. Nourai's arrow (Arabic → Persian) is unimpeachable; his implied morphology of forqân from f-r-q is what modern scholarship contests.",
+          "derivation_fa": "هر دو واژه معرَّب نیستند بلکه وام‌واژه‌های عربی در فارسی‌اند که از سدهٔ دوم و سوم هجری همراه لایهٔ واژگانی عربی وارد فارسی شده‌اند. «فرق» مصدر/اسم‌مصدر باب اول از «فَرَقَ» است به معنی «جدایی، تفاوت» و نیز «شکاف میان موی سر» (معین هر دو معنی را آورده)؛ ویکی‌واژه هم می‌گوید فارسیِ «فرق» وام‌گرفته از عربیِ فَرْق است. واژه‌های فهرست‌شده (فارق، فاروق، تفریق، تفرقه، فراق، مفارقت، متفرّق، متفرّقه، فرقه) همگی ساخت‌های قاعده‌مند همین ریشه‌اند. اما دربارهٔ «فرقان»: تحلیل سنتی آن را بر وزن فُعلان از ف‌ر‌ق می‌داند (و معین هم همین را می‌آورد)، ولی قرآن‌پژوهی امروزی (گایگر، فرنکل، جفری «واژگان دخیل در قرآن» ص ۲۲۵–۲۲۹، بِل، هوروویتس و ویکی‌واژه) آن را وام‌واژه‌ای از سریانیِ purqānā «رهایی، نجات» می‌شمارد که سپس به ریشهٔ عربی ف‌ر‌ق منسوب شده است. پس پیکانِ نورایی (عربی ← فارسی) درست است و تنها تحلیل درون‌عربیِ «فرقان» با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%82",
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%82%D8%A7%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "FVA:313", "status": "not_checked", "note": "Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989): refs_online.json records 'no digital copy found' on archive.org, ketabnak, noorlib or the open web; catalogue record only (OpenLibrary OL2012991M). Could not be consulted."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Adena 2-vol. v.2, s.v. فرق and فرقان", "stance": "supports", "note": "«فرق: 2۷ [ع.] (مص‌م.) جدا کردن. تمیز دادن، امتیاز نهادن. (امص.) جدایی، امتیاز» ; «فرقان: [ع.] (وص.) آنچه جداکنندهٔ حق از باطل باشد» — Mo'in marks both as Arabic and glosses forqân exactly as Nourai does."},
+            {"src": "FVQ", "where": "Jeffery pp. 225-229 s.v. Furqān", "stance": "contradicts", "note": "'Linguistically there is a closer equivalence in the Aram. pūrqān \"deliverance or redemption\" ... Fraenkel ... suggested the possibility of a derivation from Syr. purqānā, a suggestion which has been very fruitfully explored by later scholars ... In any case it seems clear that furqān is a word that Muhammad himself borrowed'. Contradicts a straightforward f-r-q derivation of forqân."},
+            {"src": "KLN", "where": "KLN_1966 p. 1637 s.v. traffic", "stance": "supports", "note": "gives the Arabic root and its Form II verbal noun tafrīq, i.e. the morphological family from which farq and the chart's extra list are formed."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Italian",
+          "words": "traffico; traficare",
+          "verdict": "plausible",
+          "derivation": "Italian traffico 'trade' and trafficare 'to trade' appear in Tuscan merchant prose from the early 14th c. Nourai reproduces (and flags in his own NOTE) Klein's account: traffico 'prob. derives fr. Arab. tafrīq \"distribution\"', the word reaching Italy along the Pisan/Genoese/Venetian trade with the Arab Levant and the Maghrib and being reshaped after the native prefix tra- (< Latin trans-) under the influence of an assumed Latin traficere (for *transficere) 'to make over'. That is one live hypothesis, not the received view: the OED (via Etymonline) calls the origin unresolved and puts the Arabic proposal beside a Vulgar Latin *transfricare 'to rub across' (trans- + fricāre, original sense 'to touch repeatedly, handle'), and Wiktionary lists the Vulgar Latin etymon first with 'Klein instead suggests' the Arabic one. Funk & Wagnalls (FSD s.v. traffic) offers a third guess, '< L trans across + vicis change'. Telling against the loan is that Lokotsch's Etymologisches Wörterbuch der europäischen Wörter orientalischen Ursprungs (1927) — the standard register of European Arabisms — has no entry for traffico/trafic at all, nor do Devic or Pihan for French. Two textual points: the book prints the Italian verb as 'traficare' where standard Italian is trafficare (a single-f spelling that does occur in older Italian but is not the modern form), and Nourai's NOTE renders Klein's gloss of traficere 'to make over' as 'to take over'.",
+          "derivation_fa": "واژهٔ ایتالیایی traffico «داد و ستد» و فعل trafficare از آغاز سدهٔ چهاردهم میلادی در نثر بازرگانی توسکانی دیده می‌شود. نورایی همان نظر کلاین را نقل می‌کند (و خود هم در یادداشت به «احتمالاً» بودنش اشاره دارد): وام‌گیری از عربیِ «تفریق» از راه بازرگانی پیزا و جنووا و ونیز با شام و مغرب، با تأثیرِ لاتینیِ فرضیِ traficere که آغاز واژه را به پیشوند بومی tra- (از trans-) مانند کرده است. اما این تنها یکی از فرضیه‌هاست: فرهنگ آکسفورد ریشه را نامعلوم می‌داند و در کنار آن لاتینی عامیانهٔ ‎*transfricare‎ «سودن، مالیدن» را می‌گذارد؛ ویکی‌واژه نیز همان را نخست می‌آورد. نکتهٔ مهم آنکه لوکوچ در فرهنگ واژه‌های اروپاییِ خاورتبار (۱۹۲۷) اصلاً مدخلی برای این واژه ندارد. پس ادعای نورایی با احتیاط پذیرفتنی است. ضمناً کتاب صورت «traficare» را چاپ کرده که املای امروزی ایتالیایی trafficare است، و در یادداشت، معنی traficere را «to take over» نوشته حال آنکه کلاین «to make over» دارد.",
+          "sources": [
+            "https://www.etymonline.com/word/traffic",
+            "https://en.wiktionary.org/wiki/traffico"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1637", "status": "supports", "note": "KLN_1966.txt leaf 868 (page-stamped 1636/1637), s.v. traffic: 'MF. trafique (F. trafic), fr. It. traffico, which prob. derives fr. Arab. tafrīq, \"distribution\" ... influenced in form by assumed L. traficere (for *transficere), \"to make over\"'. The page says what Nourai's NOTE says; note that Klein's own hedge is 'prob.', and that his gloss is 'to make over', not 'to take over'."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "Lokotsch 1927, whole dictionary (LKT.txt)", "stance": "silent", "note": "grep -i 'tafriq|tafrik|trafik|traffik' finds no entry; the standard inventory of European words of Oriental origin does not include traffico, which is evidence that Lokotsch did not accept the Arabic etymology."},
+            {"src": "FSD", "where": "Funk & Wagnalls, vol. 4 s.v. traf'fic, n.", "stance": "contradicts", "note": "'[ < F trafic, traffic, said to be < L trans across, + vicis change ]' — same Romance route, but a Latin, not Arabic, ultimate source."},
+            {"src": "DEV", "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale (DEV.txt); also PHN, LAM", "stance": "silent", "note": "grep -i 'trafic' returns nothing in Devic, Pihan or Lammens — the three French dictionaries of Arabisms give no entry for trafic."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "trafic",
+          "verdict": "confirmed",
+          "derivation": "The Italian noun was taken into French in the 15th c. as trafique (also traffique), which is the form Klein and the OED cite; modern French spells it trafic. The route Italy → France is uncontested in every source consulted, whatever the ultimate origin of the Italian word; it belongs to the large 15th-16th c. layer of Italian commercial vocabulary in French (banque, bilan, escompte, trafic). Etymonline: 'Middle French trafique (15c.), from Italian traffico (early 14c.), from trafficare \"carry on trade\"'.",
+          "derivation_fa": "اسم ایتالیایی در سدهٔ پانزدهم میلادی به فرانسه راه یافت به صورت trafique (املای امروزی: trafic). این حلقه — از ایتالیایی به فرانسوی — در همهٔ منابع پذیرفته است و بخشی از لایهٔ بزرگ واژگان بازرگانی ایتالیایی در فرانسهٔ سده‌های پانزدهم و شانزدهم است (مانند banque و bilan). ادعای نورایی در این گره درست است.",
+          "sources": ["https://www.etymonline.com/word/traffic"],
+          "ref_check": [
+            {"ref": "KLN:1637", "status": "supports", "note": "KLN_1966 p. 1637 s.v. traffic: 'MF. trafique (F. trafic), fr. It. traffico' — the Italian → French arrow verbatim."}
+          ],
+          "consulted": [
+            {"src": "FSD", "where": "Funk & Wagnalls vol. 4 s.v. traffic, n.", "stance": "supports", "note": "'[ < F trafic, traffic ...]' — F&W too routes the word through French."},
+            {"src": "PHN", "where": "Pihan, Dict. étym. des mots français dérivés de l'arabe (PHN.txt)", "stance": "silent", "note": "grep -i 'trafic' finds nothing; Pihan does not list trafic among French words of Arabic/Persian/Turkish origin."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "trâfîc",
+          "verdict": "confirmed",
+          "derivation": "Persian ترافیک terâfik / trâfik 'traffic (congestion)' is a 20th-c. loan from French trafic, part of the large body of European technical and administrative vocabulary that entered Persian through French from the late Qajar period and the Dār al-Fonūn onwards (French, not English, being the vehicle language of Iranian modernisation until the mid-20th c.). Wiktionary's Persian entry states 'Borrowed from French trafic'; the French final -c is written with ک and the first syllable is rendered with long â, both regular for French loans in Persian (compare ترافیک، فابریک، شیک). Mo'in's dictionary has no entry for it — grep of the two-volume Adena text returns nothing — which fits its recency. The chart gives this node no reference, correctly, since it is Nourai's own observation.",
+          "derivation_fa": "«ترافیک» وام‌واژه‌ای است نوین (سدهٔ چهاردهم خورشیدی) از فرانسویِ trafic، از همان لایهٔ گستردهٔ واژگان فنی و اداری اروپایی که از اواخر دورهٔ قاجار و از راه دارالفنون و زبان فرانسه وارد فارسی شد. ویکی‌واژه به‌روشنی می‌گوید «وام‌گرفته از فرانسویِ trafic». آوانگاری آن هم قاعده‌مند است: -c پایانی فرانسوی با «ک» و هجای نخست با «ا» کشیده نوشته می‌شود. در فرهنگ معین مدخلی برای آن نیست که با تازگی واژه سازگار است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D8%A7%D9%81%DB%8C%DA%A9"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "the book gives this node no reference; verified against Wiktionary and by the absence of the word from Mo'in."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, Adena 2-vol. (both volumes)", "stance": "silent", "note": "grep 'ترافیک' returns no hit — the word is too recent for Mo'in's lemma list."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org s.v. ترافیک (Persian)", "stance": "supports", "note": "'Borrowed from French trafic.' Definition: 'traffic (congestion)'."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "traffic",
+          "verdict": "confirmed",
+          "derivation": "English traffic (first recorded c. 1500 as traffike/traffique, in the commercial sense 'trade, buying and selling') is from Middle French trafique, itself from Italian traffico; the modern sense 'movement of vehicles and people' is a 19th-c. development (Etymonline dates it to 1825). Klein gives exactly this chain, with the verb from French trafiquer. So the French → English arrow is beyond doubt; only the Arabic origin at the top of the chain (node #2) is contested.",
+          "derivation_fa": "واژهٔ انگلیسی traffic نخستین بار حدود سال ۱۵۰۰ میلادی به صورت traffike/traffique و به معنی «داد و ستد» ثبت شده و از فرانسویِ میانه trafique و آن از ایتالیاییِ traffico گرفته شده است؛ معنی امروزیِ «رفت‌وآمد وسایل نقلیه» تحولی است در سدهٔ نوزدهم (اتیمآنلاین: ۱۸۲۵). کلاین نیز همین زنجیره را می‌دهد. این حلقه بی‌گمان درست است؛ تنها حلقهٔ آغازین (عربی ← ایتالیایی) محل بحث است.",
+          "sources": ["https://www.etymonline.com/word/traffic"],
+          "ref_check": [
+            {"ref": "KLN:1637", "status": "supports", "note": "KLN_1966 p. 1637: 'traffic, n. — MF. trafique (F. trafic), fr. It. traffico ... Derivatives: traffic, intr. and tr. v. (— F. trafiquer)'."}
+          ],
+          "consulted": [
+            {"src": "FSD", "where": "Funk & Wagnalls vol. 4 s.v. traf'fic, n. and v.", "stance": "supports", "note": "full entry with the senses 'the exchange of goods ... the business of transportation'; etymology '[ < F trafic ...]' — agrees on the French source, differs on the ultimate one."},
+            {"src": "SKT", "where": "Skeat, Concise Etymological Dictionary (SKT.txt)", "stance": "silent", "note": "grep '^traffic|traffic,' finds only incidental uses of the English word inside other entries (barato, market); Skeat's concise edition carries no traffic headword."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Fšân",
+      "verdict": "disputed",
+      "modern_form": "Proto-Iranian *šan- / *san- 'to shake (down)'; New Persian افشاندن < Middle Persian afšāndan < *Hapa-šan- — the f is part of the preverb, not of the root, and no Avestan root fšān- is securely attested",
+      "note": "The root box is Nourai's condensation of Horn's entry no. 102 (Grundriss p. 24), where Horn compares 'aw. aiwi + fšūnayeinti \"sie weiden aus\", Yt. 14, 56 (Geldner)' — but adds his own '(?)'. Hübschmann repeats the comparison with '(?)' too (Persische Studien 183, 'afšandan \"ausstreuen\" H. 102 (?)'). Bartholomae's Altiranisches Wörterbuch does not lemmatise any aiβi.fšān-: the word at Yt 14.56 he prints under nam- (col. 1043) and calls 'Undeutlich', and s.v. *paršti- 'Rücken' he even proposes an emendation of the passage. Modern Iranian etymology has abandoned the reconstruction: Cheung, Etymological Dictionary of the Iranian Verb (2007) sets up *san 'to shake (down ?)' with Middle Persian ʾpsʾn- /afsan-/ 'to spread, scatter, sow' analysed as *apa- + *san, no Avestan cognate cited, and adds 'An IE etymology for *san is lacking'; Wiktionary's افشاندن analyses it as Proto-Iranian *Hápa 'away' + *šan 'to shake'. Abolghasemi (FFD 20-21), who gives an Old Iranian reconstruction for every neighbouring verb (افروختن، افزودن، افسردن، افگندن), pointedly stops at Middle Persian for افشاندن. So the root box should read Proto-Iranian *šan- 'to shake', not Avestan Fšân, and the segmentation aiwi + fšān is at best one of two competing analyses of the preverb.",
+      "note_fa": "این جعبهٔ ریشه فشردهٔ مدخل شمارهٔ ۱۰۲ هرن (ص ۲۴) است، آنجا که هرن اوستاییِ «aiwi + fšūnayeinti» را با علامت پرسش می‌آورد؛ هوبشمان نیز (پژوهش‌های فارسی، ص ۱۸۳) همان را با «(؟)» تکرار می‌کند. بارتولومه در «فرهنگ ایرانی باستان» هیچ مدخلی برای aiβi.fšān- ندارد و صورت مورد بحث در یشت ۱۴/۵۶ را ذیل ریشهٔ nam- می‌آورد و آشکارا «Undeutlich» (نامفهوم) می‌خواند. ریشه‌شناسی امروزیِ ایرانی این بازسازی را کنار گذاشته است: چونگ (۲۰۰۷) ریشهٔ ایرانی آغازین را ‎*san‎ «تکاندن» می‌داند و فارسی میانهٔ afsan- را ‎*apa-san-‎ تحلیل می‌کند؛ ویکی‌واژه هم «افشاندن» را ‎*Hápa‎ «دور» + ‎*šan‎ «تکاندن» می‌گیرد. ابوالقاسمی نیز در «فعل‌های فارسی دری» برای «افشاندن» — برخلاف افروختن و افزودن و افسردن و افگندن — هیچ صورت ایرانی باستانی نمی‌آورد. نتیجه: پژوهش امروزی این ریشه را رد می‌کند؛ به جای «اوستایی Fšân» باید نوشت «ایرانی آغازین ‎*šan-‎ (تکاندن)» و «ف» جزء پیشوند است نه ریشه.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A7%D9%81%D8%B4%D8%A7%D9%86%D8%AF%D9%86"
+      ],
+      "ref_check": [
+        {"ref": "HRN:24", "status": "partial", "note": "HRN.txt leaf 46 (= printed p. 24, leaf = printed + 21 + 1 for the 0/1 offset), no. 102: 'efšānden \"ausschütten\", afšānden. aw. aiwi + fšūnayeinti \"sie weiden aus\", yt. 14, 56 (Geldner, 3 Yasht, 88) (?); phlv. afšāntan'. Horn does give the comparison Nourai turns into a root box, but he marks it '(?)' and never sets up an Avestan root Fšān as a lemma; the gloss 'sie weiden aus' ('they gouge out', of eyes at Yt 14.56) is also not 'spread, sprinkle'."}
+      ],
+      "consulted": [
+        {"src": "BRT", "where": "Bartholomae, AiW col. 1043 s.v. nam-, and s.v. *paršti-", "stance": "contradicts", "note": "s.v. nam- 'mit fra ... 3) Kaus. \"niederbeugen, eindrücken\": frā *parštəm nəmaiieinti .. fš[ā]naiieinti (sd.) Yt. 14. 56. Undeutlich'; and s.v. *paršti- 'Rücken': '[Yt.14.56: lies ...]'. Bartholomae has no lemma aiβi.fšān- and declares the very passage Horn built the root on obscure."},
+        {"src": "CHEUNG", "where": "Cheung 2007: 371-372 s.v. *san 'to shake (down ?)'", "stance": "contradicts", "note": "'*MIDDLE PERSIAN: (+ *apa-) BMP ʾpsʾn- (PZKWN-) /afsan-/ \"to spread, scatter, sow\" ... *NWIR: ... || (+ *apa-) NP afsandan/afsan- ... An IE etymology for *san is lacking.' No Avestan section at all: the root is *san with the preverb *apa-, not a root fšān-."},
+        {"src": "HUB", "where": "Hübschmann, Persische Studien p. 183 (§77-78)", "stance": "partial", "note": "'afšandan \"ausstreuen\" H. 102 (?)' listed among words in which 'ap. b = w ... in der Praep. aw = ap. awi- zu f (urspr. vor tonlosen Konsonanten)' — Hübschmann too treats af- as the preverb (from awi-), and marks Horn's Avestan comparison with a question mark."},
+        {"src": "FFD", "where": "Abolghasemi, Fe'l-ha-ye Farsi-ye Dari pp. 20-21", "stance": "partial", "note": "«افشاندن / افشاند < فارسی میانه afšānd ؛ افشان < فارسی میانه afšān» — unlike افروختن، افزودن، افسردن، افگندن on the same pages, which all get an «ایرانی باستان *…» reconstruction, افشاندن gets none: Abolghasemi declines to reconstruct an Old Iranian form."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "aiwi-fšân",
+          "verdict": "disputed",
+          "derivation": "The cross-reference to the root Ambhi is itself correct — Avestan aiβi- / Old Persian abiy- 'around, over' does continue PIE *h₂mbhi 'on both sides, around', the etymon of Greek amphí and Latin ambi-. What is not established is the compound. Horn (no. 102, the node's own reference) proposed 'aw. aiwi + fšūnayeinti' at Yasht 14.56 and immediately queried it; Hübschmann (PSt 183) repeats it with the same '(?)'. Bartholomae's dictionary, the standard lexicon of Avestan, has no entry aiβi.fšān-: the disputed word of Yt 14.56 is printed under nam- with the verdict 'Undeutlich', and under *paršti- 'Rücken' Bartholomae proposes emending the line. Meanwhile modern Iranian verb etymology reads the preverb differently: Cheung (2007) s.v. *san lists Middle Persian afsan- as *apa- + *san 'to shake down' (with Parthian wyšʾn- < *aua-, Khotanese ṣāñ-, Sogdian šn-, Balochi šant/šān-, Kurmanji reşandin), and Wiktionary follows with *Hápa + *šan. Under both the old and the new analysis the f-/af- is a preverb rather than the initial of the root; the difference is whether it comes from *abi- (Horn/Hübschmann, giving af before a voiceless consonant) or from *apa- (Cheung, Wiktionary), and the latter is now standard. An Avestan lemma aiwi-fšān 'spread over, spread around' therefore cannot be cited as attested.",
+          "derivation_fa": "ارجاع نمودارِ کتاب به ریشهٔ «Ambhi» درست است: اوستایی aiβi- و پارسی باستان abiy- «پیرامون، بر» بازماندهٔ هندواروپاییِ آغازینِ ‎*h₂mbhi‎ (یونانی amphí، لاتینی ambi-) است. اما خودِ ترکیبِ «aiwi-fšân» اثبات‌شده نیست: هرن آن را با علامت پرسش پیشنهاد کرده و هوبشمان هم با «(؟)» تکرار کرده است، حال آنکه بارتولومه در «فرهنگ ایرانی باستان» چنین مدخلی ندارد و صورت یشت ۱۴/۵۶ را «نامفهوم» می‌خواند و حتی تصحیح متن را پیشنهاد می‌کند. از سوی دیگر چونگ (۲۰۰۷) فارسی میانهٔ afsan- را ‎*apa-san-‎ می‌گیرد (با شواهد پارتی wyšʾn-، ختنی ṣāñ-، سغدی šn-، بلوچی šānt، کرمانجی reşandin) و ویکی‌واژه نیز ‎*Hápa + *šan‎. در هر دو تحلیل، «اَفـ» پیشوند فعلی است نه آغازِ ریشه؛ اختلاف تنها در آن است که از ‎*abi-‎ آمده (هرن و هوبشمان) یا از ‎*apa-‎ (چونگ)، و امروز دومی پذیرفته‌تر است. پژوهش امروزی این گره را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%81%D8%B4%D8%A7%D9%86%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "HRN:24", "status": "partial", "note": "HRN.txt leaf 46 (printed p. 24) no. 102: 'aw. aiwi + fšūnayeinti \"sie weiden aus\", yt. 14, 56 (Geldner, 3 Yasht, 88) (?)'. Horn is the source of the node, but the '(?)' is his own and the gloss he gives is not 'spread over'."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW col. 1043 s.v. nam- (mit fra, Kaus.); also s.v. *paršti-", "stance": "contradicts", "note": "'frā *parštəm nəmaiieinti .. fš[ā]naiieinti (sd.) Yt. 14. 56. Undeutlich'. Grep of BRT.txt for all three occurrences of 'Yt 14. 56' shows no lemma aiβi.fšān-; the third is s.v. daēman- 'Auge', i.e. the passage is about eyes, matching Horn's odd gloss 'sie weiden aus'."},
+            {"src": "CHEUNG", "where": "Cheung 2007 s.v. *san 'to shake (down ?)'", "stance": "contradicts", "note": "MP afsan- is derived '(+ *apa-)', with cognate preverbal formations in Parthian '(+ *aua-) wyšʾn- \"to shake off, down\"' and NP '(+ *apa-) afsandan/afsan-'. No Avestan aiβi- compound is recognised."},
+            {"src": "HUB", "where": "Persische Studien p. 183, §77-78", "stance": "partial", "note": "'afšandan \"ausstreuen\" H. 102 (?)' and §78 'ap. b = w ... in der Praep. aw = ap. awi- zu f (urspr. vor tonlosen Konsonanten) oder v' — supports the preverbal analysis of af-, but with an explicit question mark on this verb."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "afšântan",
+          "verdict": "plausible",
+          "derivation": "The Middle Persian word itself is solidly attested: MacKenzie, Concise Pahlavi Dictionary p. 5, 'afšāndan, afšān- [ʾpšʾn-tn' | N ~] spread, scatter, sow' (and in the English-Pahlavi index s.vv. 'scatter', 'sow', 'spread'). The Book Pahlavi spelling ʾpšʾntn' does not distinguish t from d, so Nourai's transliteration afšāntan (taken from Horn's 'phlv. afšāntan' and from Mo'in's footnote in Borhān) and MacKenzie's normalisation afšāndan are the same word; this is a convention difference, not an error. Mo'in's etymological footnote at BQT p. 1492 s.v. فشاندن reads «فشاندن ... <- افشاندن؛ پهلوی afšāntan (رک: اشتقاق، هوبشمان ...)؛ پاشیدن، ریختن، تکاندن، پراکندن», i.e. exactly Nourai's Pahlavi form and gloss. What is only plausible is the parent drawn above it: the Middle Persian verb is a preverb + root formation, but the preverb is now read as *apa- (Cheung: *apa-san-) rather than Av. aiwi-, and no Avestan antecedent is attested. Formally MP afšān- is the present stem, afšānd/afšāst the past, with the -tan infinitive; NP inherits both stems.",
+          "derivation_fa": "خودِ واژهٔ فارسی میانه استوار است: مکنزی در «فرهنگ کوچک پهلوی» ص ۵ می‌آورد «afšāndan, afšān- [ʾpšʾn-tn'] پراکندن، افشاندن، کاشتن». در خط پهلوی «ت» و «د» از هم بازشناخته نمی‌شوند، پس صورت «afšântan» نورایی (برگرفته از هرن و از حاشیهٔ معین در برهان قاطع) و «afšāndan» مکنزی یک واژه‌اند و این اختلافِ شیوهٔ آوانگاری است نه خطا. حاشیهٔ معین در برهان (ص ۱۴۹۲، ذیل «فشاندن») نیز می‌گوید: «فشاندن ... ← افشاندن؛ پهلوی afšāntan؛ پاشیدن، ریختن، تکاندن، پراکندن». آنچه تنها «با احتیاط پذیرفتنی» است پیکانِ بالای این گره است: فعل فارسی میانه ترکیبِ پیشوند + ریشه است، اما پیشوند را امروز ‎*apa-‎ می‌خوانند (چونگ) نه اوستاییِ aiwi-.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "BQT:1492", "status": "supports", "note": "tools/ref_page.py BQT:1492 → BQT_v3_picofile.pdf pdf page 285, the ف/ط section. OCR of the last lines: «فشاندن - بفتح وکسر اول وفتح پنجم <- افشاندن ؛ پهلوی [afšāntan] ( رك . اشتقاق هوبشمان ۱۶۲ ...) ؛ پاشیدن ، ریختن ، تکاندن ، پراکندن.» The Latin Pahlavi form and the Hübschmann page number are garbled by the OCR, but the Persian text is clear and gives exactly the Pahlavi etymon Nourai cites."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, CPD p. 5 s.v. afšāndan", "stance": "supports", "note": "'afšāndan, afšān- [ʾpšʾn-tn' | N ~] spread, scatter, sow' (PHD.txt line 172; also PHD_mackenzie.txt line 891). Confirms the Pahlavi verb, its stems and its sense."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (Glossary)", "stance": "silent", "note": "grep -i 'afšān|afsān|afsan' in NYB_vol2_glossary.txt returns nothing; the verb does not occur in the texts Nyberg glosses."},
+            {"src": "CHEUNG", "where": "Cheung 2007 s.v. *san", "stance": "partial", "note": "'BMP ʾpsʾn- (PZKWN-) /afsan-/ \"to spread, scatter, sow\"; Pres.: IND. 3sg. BMP /afsanēd/' — same Middle Persian verb, but derived from *apa-san-, not from an Avestan aiwi- compound."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "afšândan; afshân; afšŭn",
+          "verdict": "confirmed",
+          "derivation": "افشاندن afšāndan 'to sprinkle, scatter' is the direct continuation of Middle Persian afšāndan/afšān- with no change beyond the loss of Middle Persian final vowels; the by-form فشاندن fašāndan that the chart adds in its extra field arises by aphaeresis of the unstressed initial a- of the preverb, exactly as in افگندن/فگندن، افروختن/فروختن، افزودن/فزودن — Ḥāfeẓ's line quoted in the box («جرعه‌ای فشان بر خاک») uses the imperative of that shorter form. افشان afšān is the present stem used as an adjectival/agentive second member ('scattering', زرافشان، آتشفشان) and, absolutely, 'scattered'; Mo'in lists it as «(افا.) در بعضی کلمات مرکب به معنی افشاننده». افشون afšūn is a dialectal -ūn variant of افشان (Mo'in prints it as «افشون [= افشان]»), used as the name of an implement; Mo'in defines it as «افزاری است دارای پنجه‌ای چوبین (سه شاخه یا چهار شاخه) و دسته‌ای بلند که به وسیلهٔ آن غلهٔ کوفته را باد دهند و دانه را از کاه جدا سازند؛ انگشته، هسته» — a winnowing fork, not a rake for spreading sand, so Nourai's gloss is loose, though the derivation from افشاندن 'to scatter' that the chart draws is correct. Horn no. 102 and Mo'in's footnote at BQT 1492 both give precisely this Persian ← Pahlavi step.",
+          "derivation_fa": "«افشاندن» دنبالهٔ مستقیم فارسی میانهٔ afšāndan / ستاک حال afšān- است و جز افتادن واکهٔ پایانیِ فارسی میانه دگرگونی دیگری ندارد. صورت کوتاه «فشاندن» از افتادن «اَ»ی بی‌تکیهٔ آغازین (پیشوند) پدید آمده است، درست مانند افگندن/فگندن و افروختن/فروختن؛ بیت حافظ در همین جعبه («جرعه‌ای فشان بر خاک») امرِ همین صورت کوتاه است. «افشان» ستاک حال است که در ترکیب‌ها معنی «افشاننده» می‌دهد (زرافشان، آتشفشان) و به‌تنهایی «پراکنده». «افشون» گونهٔ ‎-ūn‎ دار «افشان» است؛ معین آن را چنین تعریف می‌کند: «افزاری است دارای پنجه‌ای چوبین (سه یا چهار شاخه) و دسته‌ای بلند که با آن غلهٔ کوفته را باد دهند و دانه را از کاه جدا سازند» — یعنی «شن‌کش/چنگک» نیست بلکه «پنجه/چهارشاخِ بادافشانی» است؛ پس معنیِ نورایی دقیق نیست هرچند اشتقاق درست است. ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%81%D8%B4%D8%A7%D9%86%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "HRN:24", "status": "supports", "note": "Horn no. 102 (printed p. 24): 'efšānden \"ausschütten\", afšānden ... phlv. afšāntan' — the New Persian verb and its Pahlavi antecedent, exactly this node's arrow."},
+            {"ref": "BQT:1492", "status": "supports", "note": "Mo'in's footnote s.v. فشاندن (vol. 3, pdf p. 285 of the picofile scan): «فشاندن ... ← افشاندن؛ پهلوی afšāntan؛ پاشیدن، ریختن، تکاندن، پراکندن» — gives both the NP head form and the variant فشاندن that Nourai lists in his extra field."},
+            {"ref": "AEF:137", "status": "not_checked", "note": "Khaleqi Motlaq, Asās-e Eshteqāq-e Fārsi vol. I — refs_online.json: not digitised anywhere; since it is the Persian translation of Horn (with Hübschmann's notes), the instruction is to verify it against HRN and HUB, which was done above (HRN no. 102, HUB p. 183)."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, Adena 2-vol. v.1, s.vv. افشاندن، افشان، افشون", "stance": "supports", "note": "«افشاندن: [= افشانیدن = فشاندن = فشانیدن] (مص‌م.) ... ریختن و پاشیدن، پراکنده کردن»; «افشان: [= فشان] (افا.) در بعضی کلمات مرکب به معنی افشاننده آید: آتش‌افشان»; «افشون: [= افشان] (ا.) افزاری است دارای پنجه‌ای چوبین (سه شاخه یا چهار شاخه) و دسته‌ای بلند که به وسیلهٔ آن غلهٔ کوفته را باد دهند و دانه را از کاه جدا سازند؛ انگشته، هسته». Confirms all three words and the fašāndan variant; refines the gloss of افشون."},
+            {"src": "PHD", "where": "MacKenzie, CPD p. 5", "stance": "supports", "note": "'afšāndan, afšān- [ʾpšʾn-tn' | N ~]' — the '| N ~' notation means the New Persian form is identical, i.e. MacKenzie himself equates NP افشاندن with the Pahlavi verb."},
+            {"src": "CHEUNG", "where": "Cheung 2007 s.v. *san", "stance": "supports", "note": "'*NWIR: ... || (+ *apa-) NP afsandan/afsan-, Gil. (Rsht.) fišan- \"to disperse\"' — the Gilaki f-initial form is the same aphaeretic type as Persian فشاندن."},
+            {"src": "FFD", "where": "Abolghasemi, Fe'l-ha-ye Farsi-ye Dari pp. 20-21", "stance": "supports", "note": "«افشاندن / افشاند < فارسی میانه afšānd ؛ افشان < فارسی میانه afšān» — the New Persian past and present stems are both derived straight from Middle Persian."}
+          ]
+        }
+      ]
+    }
+  ]
+}
