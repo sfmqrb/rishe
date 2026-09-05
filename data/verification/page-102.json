@@ -1,0 +1,688 @@
+{
+ "pdf_page": 102,
+ "book_page": 72,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Bu",
+   "verdict": "confirmed",
+   "modern_form": "PIE (imitative/expressive) *bu- 'lip, kiss' — Pokorny, IEW 103; Walde-Pokorny I 113 f.",
+   "note": "Pokorny I 103 has the root verbatim as Nourai gives it: \"bu- 'Lippe, Kuß', als Nachahmung des Kußlautes, Sprengung des saugenden Lippenverschlusses nach innen, also eigentlich verschieden von bu-, bhū- 'aufblasen'\", with \"Npers. bōsīdan 'küssen'; alb. buze 'Mund'; mir. bus, pus 'Lippe'; nhd. Buss 'Kuß', engl. buss; lit. bučiüoti\". Language label ('Indo-European') and gloss ('lip, kiss') are therefore exactly Pokorny's. Two caveats: (a) this is an expressive/nursery formation, not an inherited root with regular correspondences — Buck (SYN 1114) calls bu, bus and ku, kus two separate imitative groups, and Mann (IEC 1001) reconstructs the group as *bud- 'lip, mouth' without the Persian word; (b) Nourai's root NOTE is a close paraphrase of Buck p.1113 ('Kissing, as an expression of affection or love, is unknown among many races ... There is no conclusive evidence that kissing was known in IE times'), so SYN:1113 is the source of the note, not of an arrow. The two Germanic arrows below (kusjan, buss) are where the entry goes wrong, not the root box.",
+   "note_fa": "ریشهٔ *bu- در هندواروپایی آغازین یک ساخت تقلیدی (نام‌آوا) است به معنی «لب، بوسه». پوکورنی در صفحهٔ ۱۰۳ همین ریشه را با همین معنی آورده و فارسی «بوسیدن»، آلبانیایی buzë «دهان»، ایرلندی میانه bus «لب» و انگلیسی buss را ذیل آن نشانده است؛ پس برچسب زبانی و معنیای جعبهٔ ریشه درست است. اما باید دانست که این گونه ریشه‌های تقلیدی تابع دگرگونی‌های آوایی منظم نیستند؛ باک (ص ۱۱۱۴) دو گروه bu/bus و ku/kus را جدا می‌شمارد. یادداشت نورایی دربارهٔ ناشناخته بودن بوسه در دوران هندواروپایی عیناً برگردان صفحهٔ ۱۱۱۳ باک است. در مجموع ادعای نورایی دربارهٔ خود ریشه درست است؛ اشکال در دو پیکان ژرمنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%A8%D9%88%D8%B3%DB%8C%D8%AF%D9%86",
+    "https://www.etymonline.com/word/buss"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:103",
+     "status": "supports",
+     "note": "POK_01.txt leaf 113 (= printed p.103): \"bu- 'Lippe, Kuß', als Nachahmung des Kußlautes ... Npers. bōsīdan 'küssen'; alb. buze 'Mund'; mir. bus, pus 'Lippe' ... nhd. Buss 'Kuß', bussen 'küssen' ... engl. buss ... lit. bučiüoti 'küssen'. WP. I 113f.\" (awk 'BEGIN{RS=\"\\f\"} NR==113' POK_01.txt)"
+    },
+    {
+     "ref": "SYN:1113",
+     "status": "supports",
+     "note": "SYN.txt line 28127 ff., section 16.29 KISS, printed pp.1113-1114: \"Kissing, as an expression of affection or love, is unknown among many races ... There is no conclusive evidence that [kissing] was known in IE times\" — verbatim the source of Nourai's root note; the word list is on p.1114."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "SYN",
+     "where": "16.29, pp.1113-1114",
+     "stance": "partial",
+     "note": "Buck separates \"1. Derivs. of an expressive syllable ku or kus (cf. the more obviously imitative bu, bus, below, 2)\" from \"2. Derivs. of an imitative bu, bus, in words for 'kiss' and 'lip' or 'mouth' ... NE buss, NHG buss, Sp. buz, Pol. buzia; cf. Ir. bus, Alb. buzë, Rum. buză 'lip'\" — supports the root but not Nourai's Germanic branch."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, root list s.v. kus-",
+     "stance": "contradicts",
+     "note": "AHD_watkins1985.txt line 648: \"kus-. A kiss. Germanic *kussaz, a kiss, with denominative *kussjan in Old English cyssan, to kiss: KISS. [Pok. ku-, kus- 626.]\" — Watkins has no *bu- root at all and 'buss' does not appear in his English index (grep BUSS finds only BLUNDERBUSS)."
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, col. s.v. bud- (1) (IEC.txt line 1001)",
+     "stance": "partial",
+     "note": "\"bud- (1), budio 'lip; lips, mouth'. WP II, 114 ... Alb. buzë 'lip' ... Pol. buzia ('little mouth') ... Slovak bozk 'kiss' (fr. *bu-diko-)\" — same family, reconstructed with a -d- extension and without the Persian word."
+    },
+    {
+     "src": "WLD",
+     "where": "Bd. I 113 f. (as cited by Pokorny)",
+     "stance": "silent",
+     "note": "Pokorny's own reference for the root is \"WP. I 113f.\"; the local OCR of Walde-Pokorny (WLD_Bd1_pages.txt, WLD_Bd2_pages.txt) returns nothing for 'Küssen'/'Kuß' — the German scan is too poor to confirm the page directly."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "būs",
+     "verdict": "plausible",
+     "derivation": "NP بوس bōs 'a kiss', بوسه bōsa, verb بوسیدن bōsīdan (Middle Persian written bwsytn'). Pokorny p.103 cites exactly \"Npers. bōsīdan 'küssen'\" as the Iranian member of the imitative *bu- group, and Wiktionary follows him: \"From imitative Proto-Indo-European *bu, compare Latin basium 'kiss', Welsh bus 'kiss, lip', and English buss\". So the arrow as drawn has good support. But the modern standard for Iranian verbs disagrees: Cheung, Etymological Dictionary of the Iranian Verb (2007) p.15 s.v. *baud₂ 'to sense, feel' takes NP bōsīdan/bōs- to be an inchoative *baud-sa- of that root, pointing to Parthian pdbws- 'to desire, yearn' and 'mbwy- 'to kiss' and to the Parthian loan in Armenian hamboyr 'kiss', hamburem 'to kiss', and says of the onomatopoeic root *bau-: bu- of Rastorgueva-Edel'man (ESIJa II 136 ff., who follow Pokorny 103) that it is \"probably unnecessary\". The word and the meaning are certain; only the choice between 'imitative *bu-' and 'inchoative of *baud-' is open, hence plausible rather than confirmed. The script_extra بوسیدن and the Ferdowsi line (\"... به پیش سپهبد زمین داد بوس\") are correct usage of the noun.",
+     "derivation_fa": "«بوس»/«بوسه» و مصدر «بوسیدن» در فارسی نو از فارسی میانه bōsīdan (نوشتهٔ bwsytn') می‌آید. پوکورنی (ص ۱۰۳) همین فعل را ذیل ریشهٔ تقلیدی *bu- آورده و ویکی‌واژه نیز همین را تکرار می‌کند؛ پس پیکان نورایی پشتوانه دارد. اما چونگ (۲۰۰۷، ص ۱۵) در فرهنگ ریشه‌شناختی فعل ایرانی، بوسیدن را صیغهٔ آغازی (inchoative) از ستاک *baud- «دریافتن، حس کردن» می‌داند (قیاس پارتی pdbws- «خواستن» و 'mbwy- «بوسیدن»، و وام‌واژهٔ ارمنی hamboyr «بوسه») و ریشهٔ تقلیدی را «زاید» می‌خواند. پس خود واژه و معنی درست است، ولی ادعای نورایی فقط «با احتیاط پذیرفتنی» است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D9%88%D8%B3%DB%8C%D8%AF%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:103",
+       "status": "supports",
+       "note": "POK_01.txt leaf 113: \"Npers. bōsīdan 'küssen'\" stands first in the list of reflexes of bu- 'Lippe, Kuß'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "CHEUNG",
+       "where": "p.15 s.v. *baud₂ (CHEUNG.txt lines 2181-2201; index line 40849 'bosidan/bos-, 15')",
+       "stance": "contradicts",
+       "note": "\"*NWIR: NP bōsidan/bōs-, Abyan. busoya/bus- ... 'to kiss' ... Rastorgueva - Edel'man, ESIJa II: 136 ff., reconstruct a separate, onomatopoetic root *bau-: bu-, *ba-, *bā- 'to kiss' (cf. Pokorny: 103), which is probably unnecessary. The Pth. form provides us with the clue to the origin of NP bōsidan/bōs- (etc.), which appears to be an inchoative formation of *baud₂\"."
+      },
+      {
+       "src": "BQT",
+       "where": "vol.1, s.v. بوس (BQT_v1_pages.txt line 21536)",
+       "stance": "supports",
+       "note": "\"بوس، با واو مجهول، مخفف بوسه است و بعربی قبله گویند ... مر بوسیدن هم هست\" — confirms bōs (wāw-i majhūl, i.e. ō) as a shortening of bōsa, and the verb bōsīdan; no etymology given."
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'bosid'/'busid' in HRN.txt",
+       "stance": "silent",
+       "note": "Horn's Grundriss has no numbered entry for bōsīdan (the only hit, no. 233 line 2400, is būdan 'sein' where 'bos-em' is quoted only as a rhyme/paradigm parallel)."
+      },
+      {
+       "src": "HUB",
+       "where": "grep 'bosid'/'busid' in HUB.txt",
+       "stance": "silent",
+       "note": "Hübschmann, Persische Studien: no hit for the verb."
+      },
+      {
+       "src": "MON",
+       "where": "2-vol Adena condensation (MON_part1.txt)",
+       "stance": "silent",
+       "note": "The condensed Mo'in OCR has no بوس/بوسیدن headword (only اتوبوس etc.); the 6-vol Farhang is not online."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Germanic",
+     "words": "kusjan",
+     "verdict": "disputed",
+     "derivation": "The Germanic verb is *kussjaną (Nourai's 'kusjan' with one -s- is a simplified spelling), a denominative of the noun *kussaz 'a kiss', continued in Gothic kukjan, Old Norse kyssa, Old English cyssan > English kiss, Old High German kussen > German küssen. That much is right. What is wrong is the parent: AHD — the very reference Nourai cites — puts it under a different root: Watkins 1985 \"kus-. A kiss. Germanic *kussaz, a kiss, with denominative *kussjan in Old English cyssan, to kiss: KISS. [Pok. ku-, kus- 626.]\", i.e. Pokorny p.626, not p.103; and Watkins has no *bu- root at all. Buck 16.29 (p.1114) likewise keeps \"derivs. of an expressive syllable ku or kus\" apart from \"derivs. of an imitative bu, bus\", noting the Germanic forms resisted the consonant shift because of their expressive character. Two independent imitative bases, not one: the arrow *bu > Gmc kusjan is not supported by any of Nourai's own sources.",
+     "derivation_fa": "فعل ژرمنی آغازین *kussjaną (نورایی kusjan می‌نویسد) از نام *kussaz «بوسه» ساخته شده و در گوتی kukjan، انگلیسی کهن cyssan (امروز kiss) و آلمانی küssen بازمانده است؛ تا اینجا درست است. اما پدر این واژه *bu- نیست: خود منبعی که نورایی ارجاع می‌دهد (AHD/واتکینز) آن را ذیل ریشهٔ جداگانهٔ *kus- (پوکورنی ص ۶۲۶) می‌آورد و اصلاً ریشه‌ای به نام *bu- ندارد؛ باک نیز دو هجای تقلیدی ku/kus و bu/bus را جدا می‌داند. پس پژوهش امروزی این پیکان را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kussijan%C4%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "contradicts",
+       "note": "AHD_watkins1985.txt line 648: \"kus-. A kiss. Germanic *kussaz, a kiss, with denominative *kussjan in Old English cyssan, to kiss: KISS. [Pok. ku-, kus- 626.]\" — the form is there, the parentage is not."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SYN",
+       "where": "16.29 §1, p.1114",
+       "stance": "contradicts",
+       "note": "\"1. Derivs. of an expressive syllable ku or kus (cf. the more obviously imitative bu, bus, below, 2). Gmc. forms resisting the consonant shift by reason of the expressive character ... Goth. kukjan, OFris. kukken; ON kyssa, OE cyssan ..., OHG kussen, etc. with sbs. ON koss, OE coss, OHG kus\"."
+      },
+      {
+       "src": "POK",
+       "where": "p.626 (root ku-, kus-) vs p.103 (bu-)",
+       "stance": "contradicts",
+       "note": "Pokorny's bu- entry on p.103 lists no Germanic *kussjan; the Germanic 'kiss' verb is his separate ku-, kus- on p.626 (as Watkins' bracket \"[Pok. ku-, kus- 626]\" records)."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. kiss (1966)",
+       "stance": "contradicts",
+       "note": "Klein derives kiss from OE cyssan, ON kyssa, OHG kussen < Gmc *kussjan, an imitative base of its own, with no connection to buss."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "English",
+     "words": "buss",
+     "verdict": "disputed",
+     "derivation": "English buss 'a kiss' (n. 1560s, v. 'to kiss' 1570s) is real and the gloss 'to kiss loudly' matches its usage (\"We busse our wantons, but our wives we kisse\"), but it does not come from Germanic *kussjan — that gives English kiss. Buss belongs to the imitative bu-group of the root box itself: Pokorny p.103 lists \"nhd. Buss 'Kuß', bussen 'küssen', Busserl ... engl. buss, schwed. puss\" under bu-, and Etymonline says buss is \"probably of imitative origin, as are Welsh and Gaelic bus 'kiss, lip', French baiser (from Latin basiare), Spanish buz, German dialectal Buss, Turkish bus, Persian busa, Hindi bosa\"; Buck p.1114 groups it with NHG buss, Sp. buz, Pol. buzia. The 16th-century English word is probably reinforced by (or taken from) continental forms of this type. So the node's word belongs on this chart, but the drawn edge Germanic kusjan > English buss is wrong.",
+     "derivation_fa": "واژهٔ انگلیسی buss «بوسه، بوسیدن با صدا» (نخست ۱۵۶۰م) واقعی است، اما از *kussjan ژرمنی نمی‌آید؛ بازماندهٔ *kussjan در انگلیسی همان kiss است. buss به همان گروه تقلیدی *bu- تعلق دارد؛ پوکورنی در ص ۱۰۳ خود engl. buss و آلمانی Buss را ذیل همین ریشه آورده و اتیمولاین آن را نام‌آوا می‌خواند و حتی فارسی busa را کنار آن می‌نشاند. پس جای واژه در این نمودار درست است، ولی پیکانی که آن را از ژرمنی kusjan می‌گیرد نادرست است.",
+     "sources": [
+      "https://www.etymonline.com/word/buss",
+      "https://en.wiktionary.org/wiki/buss"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "not_found",
+       "note": "Watkins 1985 has no entry or index line for BUSS (grep 'BUSS' in AHD_watkins1985.txt returns only BLUNDERBUSS); the 1976 New College appendix is not open online, but since Watkins has no *bu- root the citation cannot support this arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p.103 s.v. bu-",
+       "stance": "partial",
+       "note": "\"nhd. Buss 'Kuß', bussen 'küssen', Busserl 'Kuß', engl. buss, schwed. (mit regelrechter Lautverschiebung) puss 'Kuß'\" — buss belongs to the root, but directly, not through the Germanic 'kiss' verb."
+      },
+      {
+       "src": "SYN",
+       "where": "16.29 §2, p.1114",
+       "stance": "partial",
+       "note": "\"NE buss (sb. and vb.), NHG sb. buss, vb. bussen, Sp. buz ('kiss of respect', fr. Arab.), Pol. buzia, buziak; cf. Ir. bus, Alb. buzë, Rum. buză 'lip'.\""
+      },
+      {
+       "src": "KLN",
+       "where": "1966, s.v. buss",
+       "stance": "partial",
+       "note": "Klein treats buss as of imitative origin, comparing G. dial. Buss and F. baiser — not as a descendant of the Germanic kiss verb."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Bŭnai",
+   "verdict": "confirmed",
+   "modern_form": "Khotanese Saka būnaa- / būnai 'naked' < Proto-Iranian *bagna-ka- (ultimately PIE *negʷ-/*nogʷ- 'naked', with irregular Iranian n- > b-)",
+   "note": "The root box is Bailey's Khotanese word, and 'Indo-Scythian' is simply Bailey's own name for Khotanese Saka (the title of the series Indo-Scythian Studies), so the language label is idiosyncratic but not wrong. Bailey, Dictionary of Khotan Saka, s.v. būnaa- 'naked': \"SuvP. 71v3 (plur.) byehide būna vasta 'the naked get clothes' ... Z 2:13 būnai jsāte 'he goes about naked' ... From *bagna-, Oss. D. bæγnæg ..., Sogd. Bud. βγn'k, Chr. βγny, Chorasm. βγnyk, Av. maγna-, Zor.P. brahnak, N.Pers. barahnah ... IE Pok. 769 nogʷ-, O.Ind. magna-, Goth. nagaþs, Lit. nuogas, O.Slav. nagŭ\" — i.e. Nourai's whole chart, node for node, comes from this one paragraph. Two corrections of substance: (a) the Avestan, Pahlavi/Persian and Sogdian words are SISTER reflexes of Proto-Iranian *bagna(ka)-, not descendants of the Khotanese form, so the tree shape overstates the relation; (b) the NOTE 'See Nogw: naked for another possible root' presents the two as alternatives, but modern scholarship makes them one and the same: Wiktionary (s.v. برهنه) derives Proto-Iranian *bagná from Proto-Indo-Iranian *nagnás from PIE *negʷ- 'naked' — Bailey himself already wrote 'IE Pok. 769 nogʷ-' in this very entry. The b- of the Iranian branch is an irregular (dissimilatory/taboo) replacement of *n-, and Avestan m- a further step from that b-. Also note Bailey has a homonym būnai 'darkness' (from bau-/bu- 'to shine'), which is a different word.",
+   "note_fa": "جعبهٔ ریشه در اصل واژهٔ ختنی (سکایی) būnaa-/būnai «برهنه» است و برچسب «هندواسکیتی» همان نامی است که بیلی بر ختنی می‌نهاد (عنوان مجموعهٔ Indo-Scythian Studies). بیلی در فرهنگ ختن سکا ذیل būnaa- می‌نویسد: «از *bagna-؛ آسی bæγnæg، سغدی βγn'k، خوارزمی βγnyk، اوستایی maγna-، پهلوی brahnak، فارسی نو برهنه»؛ یعنی سراسر این نمودار از همین یک بند گرفته شده است. دو نکته: نخست آنکه واژه‌های اوستایی و پهلوی و سغدی «هم‌ریشه»اند نه «برآمده» از صورت ختنی، و پیکان‌ها را باید بازتاب یک ستاک مشترک ایرانی باستان *bagna-ka- دانست. دوم آنکه یادداشت نورایی این ریشه را «جایگزین احتمالی» ریشهٔ Nogw می‌شمارد، حال آنکه پژوهش امروزی هر دو را یکی می‌داند: *bagná ایرانی از *nagnás هندوایرانی و آن از *negʷ- هندواروپایی است و ب آغازین جانشین نامنظم ن است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%87%D9%86%D9%87"
+   ],
+   "ref_check": [
+    {
+     "ref": "ISS:256",
+     "status": "supports",
+     "note": "Indo-Scythian Studies VI (Prolexis to the Book of Zambasta) is not online, but the cited page is independently confirmed: Gharib, Sogdian Dictionary no. 2576 'βγn'k ... ©*bagna-ka-, Khwar. βγnyk; Oss. bæγnæg ... naked' cites exactly 'SCE 385; Prolexis. 256'. Bailey's own Dictionary of Khotan Saka s.v. būnaa- (ISS_alt_DKS.txt line 5476) repeats the same etymology and the same list of cognates."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "ISS_alt_DKS",
+     "where": "Bailey, Dictionary of Khotan Saka, s.v. būnaa- (line 5476)",
+     "stance": "supports",
+     "note": "\"būnaa- 'naked' ... From *bagna-, Oss. DI. bæγnæg ... Sogd. Bud. βγn'k, Chr. βγny, Chorasm. βγnyk, Av. maγna-, Zor.P. brahnak, N.Pers. barahnah; [Waneci, OCR unclear] IE Pok. 769 nogʷ-, O.Ind. magna-, Got. nagaþs, Lit. nuogas, O.Slav. nagŭ\"."
+    },
+    {
+     "src": "ISS_alt_DKS",
+     "where": "s.v. haspūnaka, hāmnā- (lines 8483, 8505)",
+     "stance": "supports",
+     "note": "Bailey twice gives the phonology explicitly: \"-gn- resulted in -n- in būnaa- (*bagna-ka-) 'naked'\" — so Khotanese būnaa- < *bagnaka- with -gn- > -n-."
+    },
+    {
+     "src": "POK",
+     "where": "p.769 nogʷ- (as cited by Bailey)",
+     "stance": "partial",
+     "note": "Bailey files the group under Pokorny's nogʷ- 'naked' (p.769) — the same root as Nourai's cross-referenced 'Nogw' entry, which shows the two are not competing etymologies."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "mağna",
+     "verdict": "plausible",
+     "derivation": "Young Avestan maγna- adj. 'naked, stripped' is real and correctly glossed: Bartholomae, Altiranisches Wörterbuch (col. ~1111, s.v.) \"j. maγna- Adj. (fem. *-ā-) 1) 'nackt, entblösst': ava … vastra … V.5.10 … Yt.17.56\", and he adds the comparison \"vgl. … oss. bæγnæg … gr. γυμνός\" and the Pahlavi rendering of the Zand: \"Pü.: brahnak\". The relation to the root box is therefore well founded — Bailey lists Av. maγna- among the reflexes of *bagna- — but it is a cognate, not a descendant of a Khotanese word: Proto-Iranian *bagna- gives Khotanese būnaa-, Sogdian βγn'k, Ossetic bæγnæg, and Avestan maγna- with a further dissimilatory b- > m- before the nasal (b…n > m…n). Because the direction of the arrow is wrong (and because some scholars, e.g. those who compare Skt. magna- 'sunk' or take maγna- with γuna-, hesitate over the m-), the node is plausible rather than confirmed.",
+     "derivation_fa": "صفت اوستایی متأخر maγna- «برهنه، عریان» واقعی است؛ بارتولومه در فرهنگ ایرانی باستان (ستون ۱۱۱۱ حدوداً) آن را «nackt, entblösst» معنی می‌کند، با آسی bæγnæg و یونانی γυμνός می‌سنجد و برگردان پهلوی زند آن را brahnak می‌آورد. پیوند این واژه با جعبهٔ ریشه درست است، اما نه به‌صورت «فرزندی»: maγna- و būnaa- ختنی و βγn'k سغدی هر سه بازتاب یک ستاک ایرانی باستان *bagna- اند، و م آغازین اوستایی حاصل همگونی/ابدال ب به م پیش از ن است (b…n > m…n). پس جهت پیکان نادرست است و ادعای نورایی «با احتیاط پذیرفتنی» است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "ISS:256",
+       "status": "supports",
+       "note": "Not directly readable (Prolexis is not online), but Bailey's parallel entry (DKS s.v. būnaa-) names \"Av. maγna-\" in the *bagna- list, so the cited page evidently does the same."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch, s.v. maγna- (BRT.txt line ~19548, between the column marks 1107/1108 and the next)",
+       "stance": "supports",
+       "note": "\"j. maγna- Adj. … 'nackt, entblösst': ava … vastra V.5.10; — Yt.17.56 … Vgl. … oss. bæγnæg, gr. γυμνός … Pü.: brahnak\" — gives both the meaning and, in the Pahlavi gloss, Nourai's next node."
+      },
+      {
+       "src": "BRT",
+       "where": "s.v. maγnanta- (BRT.txt line 19550)",
+       "stance": "supports",
+       "note": "\"j. maγnanta- Adj. 'nackt, entblösst' … Ableit. aus maγna-, auffäll. Bildung; vgl. Horn GIrPh. I b. 146. — Pü.: rūšak\" — a second Avestan derivative of the same stem."
+      },
+      {
+       "src": "ISS_alt_DKS",
+       "where": "s.v. būnaa-",
+       "stance": "supports",
+       "note": "Bailey groups \"Av. maγna-\" with Khotanese būnaa-, Sogd. βγn'k and Zor.P. brahnak under *bagna-."
+      },
+      {
+       "src": "ARY",
+       "where": "grep برهنه / maγna in ARY_pages.txt",
+       "stance": "silent",
+       "note": "Aryanpur's Persian IE-roots dictionary yields no hit for this family in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "brahnak",
+     "verdict": "plausible",
+     "derivation": "Middle Persian brahnag 'naked' is well attested: MacKenzie, Concise Pahlavi Dictionary s.v. brahnag \"brahnag [b(l)hnk' | M brhng, N barahna] naked\" (Book Pahlavi bl(ʾ)hnk', Manichaean brhng), and it is the standing Pahlavi rendering of Avestan maγna- in the Zand (Bartholomae's \"Pü.: brahnak\"). But that Zand equivalence is a translation, not a phonological descent: brahnag cannot come out of maγna- (Avestan -γn- would give MP -yn-/-hn- with no r, and Middle Persian in any case continues Old Persian, not Avestan). The modern account is that MP brahnag reflects Proto-Iranian *bagnákah 'naked' with a secondary, unexplained -r- (Wiktionary, s.v. برهنه, \"from Middle Persian bl(ʾ)hnk' (brahnag), from Proto-Iranian *bagnákah, with secondary -r-, from Proto-Iranian *bagná\"). So the word and the family are right, the arrow from Avestan is not.",
+     "derivation_fa": "فارسی میانه brahnag «برهنه» به‌خوبی گواهی شده است: مکنزی در فرهنگ کوچک پهلوی می‌آورد «brahnag [bl(ʾ)hnk' | مانوی brhng، فارسی نو برهنه] naked»؛ و همین واژه برگردان همیشگی maγna- اوستایی در زند است (بارتولومه: Pü. brahnak). اما این برابری زندی ترجمه است نه تحول آوایی: از maγna- به brahnag نمی‌توان رسید (خوشهٔ -γn- اوستایی در فارسی میانه ر نمی‌زاید، و فارسی میانه دنبالهٔ پارسی باستان است نه اوستایی). دیدگاه امروزی: brahnag بازتاب *bagnákah ایرانی باستان است با ر افزودهٔ ثانوی. پس واژه درست است ولی پیکان اوستایی←پهلوی نادرست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%87%D9%86%D9%87"
+     ],
+     "ref_check": [
+      {
+       "ref": "ISS:256",
+       "status": "supports",
+       "note": "Bailey's parallel entry (DKS s.v. būnaa-) lists \"Zor.P. brahnak\" in the *bagna- group; the Prolexis page evidently gives the same list, since Gharib cites Prolexis 256 for the Sogdian member."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary, s.v. brahnag (PHD.txt line 278; English index line 2885 'naked brahnag')",
+       "stance": "supports",
+       "note": "\"brahnag [b/(?)hnk' | M brhng, N barahna] naked.\" — Book Pahlavi spelling with -l- for -r-, Manichaean brhng, New Persian barahna."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (glossary)",
+       "stance": "silent",
+       "note": "grep 'brahn'/'brhnk' in NYB_vol2_glossary.txt gives only brihēnīdan 'to predestine' (line 1029) — the word does not occur in Nyberg's text selection."
+      },
+      {
+       "src": "ISS_alt_DKS",
+       "where": "s.v. būnaa-",
+       "stance": "supports",
+       "note": "\"Av. maγna-, Zor.P. brahnak, N.Pers. barahnah\" listed together under *bagna-."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "berehneh",
+     "verdict": "confirmed",
+     "derivation": "NP برهنه, classical barahna, modern colloquial berehne 'naked' (Nourai's 'berehneh' is the modern pronunciation) continues Middle Persian brahnag directly: MP -ag > NP -a/-e (as in zindag > zinde, murdag > morde), and the initial cluster br- is broken by an anaptyctic vowel (brahnag > barahna). MacKenzie's entry already gives the equation \"brahnag … N barahna\". Wiktionary: \"From Middle Persian bl(ʾ)hnk' (brahnag), from Proto-Iranian *bagnákah, with secondary -r-, from Proto-Iranian *bagná 'naked', from Proto-Indo-Iranian *nagnás, from Proto-Indo-European *negʷ- 'naked'\"; Ottoman/Turkish بورهنه bürehne is a loan from Classical Persian. The immediate edge Pahlavi > Persian, which is what this node asserts, is correct; the note 'See Nogw for another possible root' is answered above — *negʷ- is not an alternative but the ultimate source of the same word.",
+     "derivation_fa": "«برهنه» (کلاسیک barahna، امروزی berehne) مستقیماً دنبالهٔ فارسی میانهٔ brahnag است: پسوند -ag فارسی میانه در فارسی نو به -ه بدل شده (مانند zindag > زنده، murdag > مرده) و خوشهٔ آغازین br- با واکهٔ میانجی شکسته شده است (brahnag > barahna). مکنزی خود برابری «brahnag … فارسی نو برهنه» را می‌آورد و ویکی‌واژه زنجیره را چنین می‌دهد: فارسی میانه brahnag < ایرانی باستان *bagnákah (با ر ثانوی) < *bagná < هندوایرانی *nagnás < هندواروپایی *negʷ-. پس این حلقه از نمودار درست است، و یادداشت «ریشهٔ دیگر: Nogw» در واقع همان ریشهٔ نهایی همین واژه است، نه رقیب آن.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%87%D9%86%D9%87"
+     ],
+     "ref_check": [
+      {
+       "ref": "ISS:256",
+       "status": "supports",
+       "note": "Bailey's list (DKS s.v. būnaa-) ends \"...Zor.P. brahnak, N.Pers. barahnah\" — precisely this node."
+      },
+      {
+       "ref": "MON:517",
+       "status": "not_checked",
+       "note": "Mo'in's six-volume Farhang is not online and the two-volume Adena condensation (MON_part1.txt) has no برهنه headword in the OCR (only compounds such as پابرهنه); vajehyab/abadis cannot be mapped to page 517."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "s.v. brahnag",
+       "stance": "supports",
+       "note": "\"brahnag … N barahna\" — MacKenzie explicitly equates the Middle Persian word with New Persian barahna."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' (BQT_v1..v5_pages.txt)",
+       "stance": "silent",
+       "note": "No برهنه headword found in the OCR of any volume (Borhan is arranged by final letter, so it belongs in the hāʾ chapter; the word occurs only inside other entries, e.g. v.1 line 32053 'برهنه و عریان - و تهی و خالی' s.v. تهی)."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss",
+       "stance": "silent",
+       "note": "grep 'barahna'/'brahnak'/'nackt' in HRN.txt returns only no. 9958 on rut 'nackt, leer' — Horn has no entry for barahna."
+      },
+      {
+       "src": "MON",
+       "where": "2-vol Adena condensation",
+       "stance": "silent",
+       "note": "no برهنه headword in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Sogdian",
+     "words": "bğn`k, bğny",
+     "verdict": "confirmed",
+     "derivation": "Both Sogdian forms are correctly cited and correctly glossed. Gharib, Sogdian Dictionary, no. 2576: \"βγn'k (Buddhist) βaγnē … ©*bagna-ka-, Khwar. βγnyk; Oss. bæγnæg … naked. SCE 385; Prolexis. 256\", and no. 2580: \"βγny (Christian) βaγnē, pl. -t, = βγn'k … naked. Sogdica 39.22; STii 27.12, 18\". βγn'k is the Buddhist Sogdian spelling of *bagnaka- with the productive -āk suffix, βγny the Christian Sogdian spelling of the same word (Sogdian -ē < -aka-). As with the other branches, these are sister reflexes of Proto-Iranian *bagna(ka)- rather than descendants of the Khotanese form; but since Sogdian βγn'k preserves the -γn- that Khotanese lost (būnaa- < *bagnaka-), the Sogdian word is in fact the most conservative member of the group.",
+     "derivation_fa": "هر دو صورت سغدی درست نقل شده‌اند. غریب در فرهنگ سغدی شمارهٔ ۲۵۷۶ می‌آورد: «βγn'k (سغدی بودایی) βaγnē، از *bagna-ka-، خوارزمی βγnyk، آسی bæγnæg، «برهنه»؛ منابع: SCE 385؛ Prolexis 256» و شمارهٔ ۲۵۸۰: «βγny (سغدی مسیحی) … همان βγn'k». صورت بودایی املای ‑'k و صورت مسیحی املای ‑y از یک واژه‌اند (سغدی ‑ē از ‑aka‑ کهن). این واژه‌ها نیز هم‌ریشهٔ صورت ختنی‌اند نه برآمده از آن؛ اما چون سغدی خوشهٔ ‑γn‑ را نگه داشته و ختنی آن را به ‑n‑ ساده کرده، صورت سغدی کهن‌ترین چهرهٔ این واژه است. ارجاع نورایی به Prolexis 256 با ارجاع غریب دقیقاً می‌خواند.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "ISS:256",
+       "status": "supports",
+       "note": "Independently corroborated: Gharib no. 2576 (SOD.txt line 24676) cites \"Prolexis. 256\" for exactly this word — i.e. Bailey's Prolexis p.256 does contain the Sogdian βγn'k 'naked'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "Gharib, Sogdian Dictionary nos. 2576 and 2580 (SOD.txt lines 24676, 24705)",
+       "stance": "supports",
+       "note": "no. 2576 \"βγn'k B … ©*bagna-ka-, Khwar. βγnyk; Oss. bæγnæg … naked … SCE 385; Prolexis. 256\"; no. 2580 \"βγny C … = βγn'k … naked\"; the English index (line 91953) lists 'naked 2576, 2580'."
+      },
+      {
+       "src": "ISS_alt_DKS",
+       "where": "s.v. būnaa-",
+       "stance": "supports",
+       "note": "\"Sogd. Bud. βγn'k, Chr. βγny\" — Bailey cites both spellings, exactly the pair in this node."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 3,
+   "root": "Busmâ, Besmâ",
+   "verdict": "plausible",
+   "modern_form": "Aramaic busmā / Syriac besmā 'fragrance, spice, perfume', from Proto-Semitic *buśm-",
+   "note": "The two forms are real and correctly identified: Klein (1966) s.v. balsam names \"Heb. bāsām, which is rel. to Heb. bésem, Aram. busmā, Syr. besmā, Arab. bashām, 'balsam, spice, perfume'\" — Nourai's 'Busmâ' is the Aramaic, 'Besmâ' the Syriac form, and both belong to the Semitic root b-ś-m 'to be fragrant'. The gloss 'perfume' is right. What is only 'plausible' is making Aramaic the head of the tree: Wiktionary's etymology tree for balsam starts one step higher, at Proto-Semitic *buśm-, from which Hebrew bāśām and Aramaic busmā both descend, and it is the Hebrew (or a Canaanite/Phoenician) form, not the Aramaic one, that Greek borrowed. Lokotsch no. 293 says the same: \"Hebr. bɛsɛm 'Balsamstaude, Balsam', eine Handelsware, welche die Griechen nebst dem Namen von den Phöniziern erhielten\". So the root box should read Proto-Semitic (or Northwest Semitic) rather than Aramaic; everything below it is essentially right.",
+   "note_fa": "هر دو صورت واقعی‌اند: کلاین ذیل balsam می‌نویسد «عبری bāsām که با عبری bésem، آرامی busmā، سریانی besmā و عربی bašām خویشاوند است»؛ پس «بسما» صورت آرامی و «بسما/بِسما» صورت سریانی از ریشهٔ سامی b-ś-m «خوشبو بودن» است و معنی «عطر» درست است. اما نشاندن آرامی در رأس درخت تنها «با احتیاط پذیرفتنی» است: درخت ریشه‌شناسی ویکی‌واژه از سامی آغازین *buśm- آغاز می‌کند که عبری bāśām و آرامی busmā هر دو از آن‌اند، و یونانی نیز صورت عبری/کنعانی را وام گرفته است نه آرامی را؛ لوکوچ (شمارهٔ ۲۹۳) هم می‌گوید یونانیان این کالا را با نامش از فنیقیان گرفتند. پس بهتر بود جعبهٔ ریشه «سامی آغازین» می‌بود؛ بقیهٔ نمودار درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/balsam",
+    "https://en.wiktionary.org/wiki/%CE%B2%CE%AC%CE%BB%CF%83%CE%B1%CE%BC%CE%BF%CE%BD",
+    "https://www.etymonline.com/word/balm"
+   ],
+   "ref_check": [
+    {
+     "ref": "TAD:12",
+     "status": "supports",
+     "note": "al-Unaysi, Tafsir al-alfaz al-dakhila, leaf 16 of TAD_pages.txt (= printed p.~12), s.v. بلسم: «بلسم في اليونانية βάλσαμον مأخوذ من الارامية بسما، أي عطر وطيب، ومنه البلسان» — 'balsam: in Greek balsamon, taken from Aramaic busmā, i.e. perfume and fragrance; and from it (comes) al-balasān'. That is Nourai's root, his gloss and his Greek node in one line."
+    },
+    {
+     "ref": "KLN:144",
+     "status": "supports",
+     "note": "Klein 1966 p.144 s.v. balsam: \"L. balsamum … fr. Gk. βάλσαμον, fr. Heb. bāsām, which is rel. to Heb. bésem, Aram. busmā, Syr. besmā, Arab. bashām, 'balsam, spice, perfume'.\" (KLN_1966.txt leaf containing pp.144-145.)"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "LKT",
+     "where": "Lokotsch no. 293 (LKT.txt line 851)",
+     "stance": "partial",
+     "note": "\"Hebr. bɛsɛm: 'Balsamstaude, Balsam', eine Handelsware, welche die Griechen nebst dem Namen von den Phöniziern erhielten. Gr. βάλσαμον, lat. balsamum; hieraus it. balsamo … dtsch. Balsam, ndl. balsem, engl. balm\" — same chain, but headed by the Hebrew/Phoenician form, not the Aramaic."
+    },
+    {
+     "src": "KLN",
+     "where": "1966 p.144 s.v. balsam",
+     "stance": "partial",
+     "note": "Klein makes the Semitic words 'related', i.e. cognates of one root, and derives Greek from Hebrew — he does not derive Hebrew from Aramaic."
+    },
+    {
+     "src": "AFA",
+     "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen",
+     "stance": "silent",
+     "note": "grep 'balsam'/'busm' in AFA.txt yields nothing usable (only a Bible-quotation line 6200); Fraenkel has no entry for بلسان in the OCR."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Hebrew",
+     "words": "bâsam",
+     "verdict": "plausible",
+     "derivation": "Biblical Hebrew בָּשָׂם bāśām 'spice, balsam, balsam tree' (also בֹּשֶׂם bośem, plural besāmīm; Exodus 30:23, Song of Songs 5:1) is real and correctly glossed 'spice, balsam plant'. But no source derives it FROM Aramaic. Klein p.144 writes that Heb. bāsām \"is rel. to Heb. bésem, Aram. busmā, Syr. besmā, Arab. bashām\" — a set of cognates from the common Semitic root b-ś-m; Wiktionary's tree puts Proto-Semitic *buśm- above them all. Etymonline (s.v. balm) is identical: \"Hebrew (Semitic) basam 'spice', which is related to Aramaic busma, Arabic basham\". Since Hebrew is if anything the older attestation (10th-6th c. BCE) and Aramaic busmā the later, the arrow is at best a shorthand for 'both from the same Semitic root'. Nourai's transliteration bâsam for bāśām also loses the śin (ś, originally a lateral [ɬ]), which matters for the Greek node below.",
+     "derivation_fa": "عبری کتاب‌مقدسی בָּשָׂם bāśām «ادویه، بلسان، درخت بلسان» (نیز בֹּשֶׂם bośem؛ سفر خروج ۳۰:۲۳) واقعی است و معنی داده‌شده درست. اما هیچ منبعی آن را «از» آرامی نمی‌گیرد: کلاین می‌گوید عبری bāsām «هم‌ریشهٔ» عبری bésem، آرامی busmā، سریانی besmā و عربی bašām است، و ویکی‌واژه همهٔ آن‌ها را از سامی آغازین *buśm- می‌داند؛ اتیمولاین نیز همین را می‌گوید. چون گواهی عبری کهن‌تر از آرامی است، این پیکان تنها کوتاه‌نوشتی برای «هر دو از یک ریشهٔ سامی» است. افزون بر این، آوانگاشت bâsam حرف «سین» ویژه (śin، در اصل [ɬ]) را نشان نمی‌دهد و همین حرف است که چهرهٔ یونانی واژه را توضیح می‌دهد. پس: با احتیاط پذیرفتنی.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/balsam",
+      "https://www.etymonline.com/word/balm"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:144",
+       "status": "partial",
+       "note": "Klein p.144 has the Hebrew word and the Aramaic word, but as cognates: \"fr. Heb. bāsām, which is rel. to Heb. bésem, Aram. busmā, Syr. besmā, Arab. bashām\" — not Hebrew < Aramaic."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 293",
+       "stance": "partial",
+       "note": "Lokotsch takes the Hebrew word as the source of the Greek one, with no Aramaic intermediary."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 p.144 s.v. balsam",
+       "stance": "partial",
+       "note": "as quoted in ref_check: 'rel. to', i.e. cognate."
+      },
+      {
+       "src": "FVQ",
+       "where": "Jeffery, Foreign Vocabulary of the Qurʾān",
+       "stance": "silent",
+       "note": "grep 'balsam'/'basham' in FVQ.txt: no entry (the word is not Qurʾānic)."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Greek",
+     "words": "balsamon",
+     "verdict": "confirmed",
+     "derivation": "Ancient Greek βάλσαμον bálsamon 'the balsam tree (Commiphora opobalsamum) and its resin' (Theophrastus, Hist. Plant. IX; poetic variant βλάσαμον) is a Semitic loan taken over with the trade in the resin. Wiktionary: \"Of Semitic origin, borrowed from Hebrew בָּשָׂם (bāśām, 'sweet spice, sweet smell'), the consonant sequence in Greek being explained as an attempt at rendering שׂ (ś) sounding back then [ɬ]\" — i.e. the lateral fricative ś was heard by Greeks as -ls-, which is why bāśām comes out as bál-samon. Lokotsch (no. 293) adds the channel: the Greeks got the ware and its name from the Phoenicians. Klein p.144 gives the same derivation. Nourai's arrow Hebrew > Greek and his gloss 'balsam plant' are both correct.",
+     "derivation_fa": "یونانی باستان βάλσαμον «درخت بلسان و صمغ آن» (تئوفراستوس) وام‌واژه‌ای سامی است که همراه خودِ کالا وارد یونانی شده. ویکی‌واژه: «از عبری בָּשָׂם bāśām وام گرفته شده؛ خوشهٔ همخوانی ‑ls‑ در یونانی کوششی است برای نشان‌دادن حرف שׂ (ś) که در آن روزگار [ɬ] تلفظ می‌شد» — یعنی «سین» جانبی سامی در گوش یونانی «ل + س» شنیده شده و از bāśām صورت bál-samon پدید آمده است. لوکوچ (۲۹۳) راه انتقال را فنیقیان می‌داند و کلاین نیز همین را می‌گوید. پس ادعای نورایی در این حلقه درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%CE%B2%CE%AC%CE%BB%CF%83%CE%B1%CE%BC%CE%BF%CE%BD",
+      "https://en.wiktionary.org/wiki/balsam"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:144",
+       "status": "supports",
+       "note": "Klein p.144 s.v. balsam: \"L. balsamum … fr. Gk. βάλσαμον, fr. Heb. bāsām\" — exactly this arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 293",
+       "stance": "supports",
+       "note": "\"eine Handelsware, welche die Griechen nebst dem Namen von den Phöniziern erhielten. Gr. βάλσαμον, lat. balsamum\"."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Balm (SKT.txt line 1357)",
+       "stance": "supports",
+       "note": "\"L. balsamum. — Gk. βάλσαμον, fragrant resin of the βάλσαμος, or balsam-tree. Prob. Semitic; cf. Heb. bāsām, balsam.\""
+      },
+      {
+       "src": "TAD",
+       "where": "al-Unaysi, leaf 16 (~p.12)",
+       "stance": "supports",
+       "note": "«بلسم في اليونانية βάλσαμον مأخوذ من الارامية بسما» — the Arabic lexicographer likewise routes the Greek word from the Semitic one."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Arabic",
+     "words": "bašâm; balsâm",
+     "verdict": "disputed",
+     "derivation": "Two words with two different histories, and the chart puts both under the Greek node. (1) بَلْسَم balsam / بَلَسَان balasān 'balsam, the balsam tree and its resin' IS the Greek word, taken into Arabic through Syriac/Greek medical and pharmacological literature (the -ān of balasān is the usual Arabic adaptation of Greek -on); al-Unaysi (TAD, leaf 16) states it outright and adds «ومنه البلسان» 'and from it (comes) al-balasān'. For this word Nourai's arrow is right. (2) بَشَام bašām is NOT a Greek loan: it is the inherited Arabic cognate of Hebrew bāśām, from the same Semitic root b-š/ś-m, and denotes the balsam tree (Commiphora gileadensis) growing in the Hijaz and Yemen — Wiktionary treats بَشَام as an alternative form of بَيْلَسان, and Klein p.144 and Etymonline (s.v. balm) both list \"Arab. bashām\" as merely 'related to' Heb. bāsām, i.e. a cognate, not a borrowing. The glosses are also slipped: bašām is the tree, not 'perfume', and balsām/balasān is the resin/plant. Hence disputed for the node: one of the two words did not come by the route drawn.",
+     "derivation_fa": "در این گره دو واژه با دو تاریخ متفاوت زیر یک پیکان نشسته‌اند. نخست «بَلْسَم/بَلَسان» که همان واژهٔ یونانی است و از راه نوشته‌های پزشکی سریانی‑یونانی به عربی رسیده (پسوند ‑ان در بلسان برگردان معمول ‑ون یونانی است)؛ العنیسی در همان صفحه می‌گوید «ومنه البلسان»؛ پس برای این واژه پیکان نورایی درست است. دوم «بَشام» که وام‌واژهٔ یونانی نیست، بلکه صورت اصیل عربی از همان ریشهٔ سامی b-š-m و هم‌ریشهٔ عبری bāśām است و نام درخت بلسان حجاز و یمن (Commiphora) است؛ کلاین و اتیمولاین هر دو آن را تنها «هم‌ریشه» با عبری می‌خوانند نه وام‌گرفته از یونانی. افزون بر این، معنی‌ها جابه‌جا شده‌اند: بشام نام درخت است نه «عطر». پس پژوهش امروزی این حلقه را برای «بشام» رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%B4%D8%A7%D9%85",
+      "https://www.etymonline.com/word/balm",
+      "https://en.wiktionary.org/wiki/balsam"
+     ],
+     "ref_check": [
+      {
+       "ref": "TAD:12",
+       "status": "partial",
+       "note": "al-Unaysi (leaf 16 ≈ p.12) supports the Greek origin of بلسم/بلسان («بلسم في اليونانية βάλσαμον مأخوذ من الارامية بسما ... ومنه البلسان»), but says nothing that would make بشام a Greek loan."
+      },
+      {
+       "ref": "MON:567",
+       "status": "not_checked",
+       "note": "Mo'in's 6-vol Farhang is not online; the 2-vol condensation (MON_part1.txt line 24816 ff.) has بلسان as the headword and lists «ابوشام، بشام، بلسم مکه، درخت بلسان مکی» as its synonyms, but has no page 567 to check."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 p.144 s.v. balsam",
+       "stance": "contradicts",
+       "note": "\"Heb. bāsām, which is rel. to Heb. bésem, Aram. busmā, Syr. besmā, Arab. bashām\" — Arabic bashām is a cognate of the Hebrew word, not a descendant of Greek βάλσαμον."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba",
+       "stance": "silent",
+       "note": "grep بلسان/بشام in AFM_pages.txt: no entry (Addi Shir covers Persian loans, and this word is not Persian)."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 293",
+       "stance": "partial",
+       "note": "Lokotsch traces the Greek word through Latin into the European languages and does not treat بشام."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol.1 s.v. بشام (BQT_v1_pages.txt line 25823)",
+       "stance": "contradicts",
+       "note": "«بشام - بر وزن سلام؛ هر چیز تیره‌رنگ را گویند» — Borhan knows بشام only as 'anything dark-coloured', not as 'perfume'."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Persian",
+     "words": "balsâm; bašâm",
+     "verdict": "plausible",
+     "derivation": "The direction Arabic > Persian is right — Persian took these plant names from Arabic pharmacology — but the forms and glosses need correction. The Persian words actually attested are بلسان balasān and بلسم balsam: Mo'in (2-vol condensation, s.v. بلسان) marks it «[معر.]» (Arabicized/borrowed) and defines it as a shrub of the rue family whose incisions yield a gum, with the synonyms «ابوشام، بشام، بلسم مکه، درخت بلسان مکی»; Borhan-e Qate' vol.1 s.v. بلسان describes the Egyptian tree, the tapping of its resin (دهن‌البلسان) and its seed (حب‌البلسان). Nourai's بلسام is not attested in that sense: Dehkhoda's only بلسام entry is «بلسام [بِ] (ع اِ) برسام … علت و مرض مشهوری است», i.e. a variant of برسام 'pleurisy/delirium' (itself Persian بر + سام). And بشام in Persian is the balsam TREE (Mo'in's synonym list), while Borhan glosses بشام as 'anything dark-coloured'; 'seed of a balsam plant' is حب‌البلسان. So: right route, shaky forms and glosses.",
+     "derivation_fa": "جهت وام‌گیری (عربی ← فارسی) درست است؛ فارسی این نام‌های گیاهی را از داروشناسی عربی گرفته است. اما صورت‌ها و معنی‌ها نیاز به اصلاح دارند: آنچه در فارسی گواهی شده «بلسان» و «بلسم» است. معین ذیل «بلسان» آن را «معرّب» می‌نامد و گیاهی از تیرهٔ سدابیان می‌داند که با خراش صمغ می‌دهد و مترادف‌هایش را «ابوشام، بشام، بلسم مکه، درخت بلسان مکی» می‌آورد؛ برهان قاطع نیز ذیل «بلسان» درخت مصری و روغن آن (دهن‌البلسان) و دانه‌اش (حب‌البلسان) را شرح می‌دهد. صورت «بلسام» در این معنی گواهی ندارد: تنها مدخل «بلسام» در لغت‌نامهٔ دهخدا «بلسام [بِ] (ع اِ) برسام … علت و مرض مشهوری است» است، یعنی گونه‌ای از «برسام». «بشام» هم در فارسی نام خودِ درخت است نه «دانهٔ آن» (دانه = حب‌البلسان)، و برهان آن را «هر چیز تیره‌رنگ» معنی کرده است. پس: راه درست، صورت و معنی لغزان.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%A8%D9%84%D8%B3%D8%A7%D9%85/",
+      "https://en.wiktionary.org/wiki/balsam"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:540,567",
+       "status": "not_checked",
+       "note": "The six-volume Mo'in is not online. In the two-volume Adena condensation the relevant headword is بلسان (MON_part1.txt line 24816): «بلسان: [معر.] (ا.) (گیا.) گیاهی از تیرهٔ سدابیان … ابوشام، بشام، بلسم مکه، درخت بلسان مکی»; there is no بلسام headword, so the pages 540/567 could not be verified."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "2-vol condensation s.v. بلسان (MON_part1.txt line 24816 ff.)",
+       "stance": "partial",
+       "note": "Mo'in has بلسان marked «معر.» with بشام among its synonyms — supports the Arabic origin, but not the form بلسام."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol.1 s.v. بلسان (line 20577) and بشام (line 25823)",
+       "stance": "partial",
+       "note": "«بلسان: بروزن سرطان، نام درختی است مشهور در مصر … و آن را بعربی دهن‌البلسان خوانند … و تخم آن را حب‌البلسان گویند»; «بشام: بر وزن سلام، هر چیز تیره‌رنگ را گویند»."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur",
+       "stance": "silent",
+       "note": "no entry for بلسان/بلسام in the OCR (the book covers inherited Indo-European vocabulary, not Semitic loans)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "balsamun",
+     "verdict": "transcription_suspect",
+     "derivation": "The Latin word is balsamum, -ī n. 'balsam, the balsam tree', a straight borrowing of Greek βάλσαμον: Ernout-Meillet, Dictionnaire étymologique de la langue latine (LAT.txt line 6822) \"balsamum,-ī n.: baume, et 'baumier'. Emprunt au gr. βάλσαμον\"; Klein and Skeat give the same. The chart prints balsamun with final -n, which is not a possible Latin nominative-accusative of a second-declension neuter (-um); it is a slip halfway between Greek -on and Latin -um. The printed page (pdf p.102, 'Latin ⌷ KLN:143 | balsamun : balsam') shows the error already in the book, so the extraction is faithful. Apart from the misprint the derivation is correct and uncontroversial: Greek βάλσαμον > Latin balsamum (Pliny, NH XII.111 ff.), whence Late Latin/Old French forms below.",
+     "derivation_fa": "واژهٔ لاتین balsamum (خنثای صرف دوم) است و مستقیماً از یونانی βάλσαμον وام گرفته شده؛ ارنو-مه‌یه می‌نویسند: «balsamum, -ī: baume، و نیز درخت آن. وام از یونانی βάλσαμον». آنچه کتاب چاپ کرده، یعنی balsamun با نون پایانی، در لاتین ممکن نیست (پایانهٔ درست ‑um است) و صورتی است نیم‌یونانی نیم‌لاتینی. تصویر صفحهٔ ۱۰۲ نشان می‌دهد که همین غلط در خودِ کتاب چاپ شده است؛ پس خطای چاپی کتاب است نه خطای خوانش اسکن. جز این لغزش، حلقهٔ یونانی ← لاتین درست و بی‌مناقشه است.",
+     "error_in": "book",
+     "book_prints": "balsamun",
+     "correct_form": "balsamum",
+     "sources": [
+      "https://en.wiktionary.org/wiki/balsam",
+      "https://www.etymonline.com/word/balm"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:143",
+       "status": "partial",
+       "note": "The material is in Klein, but on p.144, not 143: the leaf containing pp.144-145 of KLN_1966.txt has \"balm, n. — ME. basme, baume, fr. OF. bausme, baume (F. baume), fr. L. balsamum … fr. Gk. βάλσαμον\" and \"balsam, n. — L. balsamum … fr. Gk. βάλσαμον, fr. Heb. bāsām\"; p.143 ends at baleen. Klein spells the Latin word balsamum throughout."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. balsamum (LAT.txt line 6822)",
+       "stance": "supports",
+       "note": "\"balsamum,-ī n.: baume, et 'baumier'. Emprunt au gr. βάλσαμον\" (with the vulgar variant ababalsamum for opobalsamum at line 909) — the Latin form has -um."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. balsam (SKT.txt line 1358)",
+       "stance": "supports",
+       "note": "\"balsam. (L. — Gk.) L. balsamum; as above\"."
+      },
+      {
+       "src": "WEB",
+       "where": "Webster's New Twentieth Century s.v. balsam (WEB_vol1.txt line 15423)",
+       "stance": "supports",
+       "note": "\"bal'sam, n. [AS. balsam; L. balsamum, from …]\"."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "balsam, balsamine, balm, embalm",
+     "verdict": "confirmed",
+     "derivation": "All four are correct, though two of them reach English through French rather than straight from Latin, which the chart's single Latin>English arrow flattens. (a) balsam was taken directly from Latin balsamum (Old English already had balsam/balsamum; Klein p.144: \"balsam, n. — L. balsamum\"). (b) balm is the same word by the French route: Klein \"balm, n. — ME. basme, baume, fr. OF. bausme, baume (F. baume), fr. L. balsamum\"; Etymonline dates it c.1200 as basme and notes \"the spelling was refashioned 15c.-16c. on the Latin model\", which is why modern balm has an unpronounced -l-. (c) embalm is Old French embaumer (em- 'in' + baume), 14th c., literally 'to put balm in' (Klein s.v. embalm). (d) balsamine 'garden balsam, Impatiens' is from French balsamine, from Greek βαλσαμίνη (Klein p.144 s.v. balsamine; Lokotsch no. 293 lists Balsamine/Impatiens Balsamina, engl. balsamine). Skeat and Webster agree.",
+     "derivation_fa": "هر چهار واژه درست‌اند، هرچند دوتای آن‌ها نه یکراست از لاتین بلکه از راه فرانسه به انگلیسی رسیده‌اند و نمودار این میانجی را نشان نمی‌دهد. balsam مستقیماً از لاتین balsamum گرفته شده (انگلیسی کهن هم balsam داشت). balm همان واژه است از راه فرانسه: انگلیسی میانه basme/baume از فرانسهٔ کهن bausme/baume از لاتین balsamum؛ اتیمولاین آن را از حدود ۱۲۰۰م می‌داند و می‌گوید املای آن در سده‌های ۱۵–۱۶ به قیاس لاتین بازسازی شد، و از همین رو «ل» در تلفظ امروزی خوانده نمی‌شود. embalm از فرانسهٔ کهن embaumer «بلسان‌اندود کردن، مومیایی کردن» است. balsamine نیز از فرانسهٔ balsamine و آن از یونانی βαλσαμίνη. کلاین، اسکیت و لوکوچ همگی همین را می‌گویند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/balm",
+      "https://en.wiktionary.org/wiki/balsam"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:143",
+       "status": "partial",
+       "note": "Correct in substance, one page off: in KLN_1966 the entries balm, balsam, balsamine stand on p.144 (\"balm, n. — ME. basme, baume, fr. OF. bausme, baume … fr. L. balsamum … fr. Gk. βάλσαμον. See balsam and cp. embalm\"; \"balsamine, n. the garden balsam. — F., fr. Gk. βαλσαμίνη, 'the balsam plant', fr. βάλσαμον\"), and embalm on p.512/513 (KLN_1966.txt leaf with the page marks 512/513) (\"embalm, tr. v. — OF. (= F.) embaumer, fr. em-, en-, 'in', and baume, 'balm'\"), while p.143 ends with baleen."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Balm / balsam (SKT.txt lines 1357-1358)",
+       "stance": "supports",
+       "note": "\"Balm. (F.-L.-Gk.) A modified spelling; M.E. baume. — O.F. bausme. — L. balsamum. — Gk. βάλσαμον … Prob. Semitic; cf. Heb. bāsām, balsam.\""
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls s.v. balm (FSD_vol1.txt line 34476)",
+       "stance": "supports",
+       "note": "\"[< OF. bausme, < L. balsamum; see balsam, n.]\", with 'b. of Gilead … Commiphora opobalsamum'."
+      },
+      {
+       "src": "WEB",
+       "where": "Webster's s.v. balm (WEB_vol1.txt line 15416)",
+       "stance": "supports",
+       "note": "\"balm (bäm), n. (ME. baume; OFr. basme … balsamum, from Gr. balsamon …)\"."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 293",
+       "stance": "supports",
+       "note": "\"dtsch. Balsam, ndl. balsem, engl. balm … Vgl. noch Balsamine, Impatiens Balsamina, engl. balsamine, balsam\"."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
