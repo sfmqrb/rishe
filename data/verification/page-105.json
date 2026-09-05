@@ -1,0 +1,872 @@
+{
+ "pdf_page": 105,
+ "book_page": 75,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 3,
+   "root": "Chiang-yu",
+   "verdict": "confirmed",
+   "modern_form": "Chinese 醬油 jiàng-yóu (Middle Chinese tsjàng-yuw) 'soy sauce', literally '(fermented) bean-paste oil' = 醬 jiàng 'bean paste, sauce' + 油 yóu 'oil'",
+   "note": "The root box is real and is copied verbatim from the reference Nourai cites: Klein p.1479 s.v. soy has \"Jap. shoyu, fr. Chin. chiang-yu, lit. 'soybean oil'\". The compound is Mandarin 醬油 jiàngyóu, still the ordinary word for soy sauce, and Japanese 醤油 shōyu is an orthographic borrowing of it (Middle Chinese tsjàng-yuw); the literal sense is better rendered 'bean-paste oil' than 'soybean oil', since 醬 is the fermented paste, not the bean. Etymonline offers a competing analysis of which Chinese compound the Japanese word renders — the southern 豉油 shi-yu 'fermented-soybean oil' (Cantonese si-yau) — but both analyses agree that the European words go back through Japanese to a Chinese X-油 'oil' compound, so the root box stands. What the chart under-states is the Japanese stage: it is relegated to the root's own side-note ('Entered Japanese as shôyŭ') and to the OXF note on the Dutch box, instead of being a node (see #1).",
+   "note_fa": "خانهٔ ریشه درست است و عیناً از منبعی که نورایی یاد کرده گرفته شده: کلاین در ص ۱۴۷۹ ذیل soy می‌نویسد «ژاپنی shoyu، از چینی chiang-yu به معنی تحت‌اللفظی روغن سویا». صورت چینی همان 醬油 jiàng-yóu است (چینی میانه tsjàng-yuw) که هنوز واژهٔ رایج «سس سویا» است و ژاپنی 醤油 shōyu وام‌گیریِ نوشتاری همان است؛ معنای تحت‌اللفظی دقیق‌تر «روغنِ خمیرِ لوبیای تخمیری» است نه «روغن سویا»، چون 醬 همان خمیر تخمیری است. اتیمانلاین صورت جنوبی 豉油 shi-yu را پیشنهاد می‌کند، ولی هر دو تحلیل بر سر چینی‌بودن سرچشمه و میانجی‌بودن ژاپنی هم‌داستان‌اند. نتیجه: ادعای نورایی درست است، جز آنکه مرحلهٔ ژاپنی را به جای گره، در حاشیه آورده است.",
+   "sources": [
+    "https://www.etymonline.com/word/soy",
+    "https://en.wiktionary.org/wiki/soy"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:1479",
+     "status": "supports",
+     "note": "Klein 1966 ed., page marker '1479' at KLN_1966.txt line 36025, entry at line 36036: \"soy, n., 1) a Chinese or Japanese sauce for fish made from soybean; 2) soybeans. — Jap. shoyu, fr. Chin. chiang-yu, lit. 'soybean oil'. soybean, soya-bean, n. — See prec. word.\" Root name, language and gloss are Klein's own words."
+    },
+    {
+     "ref": "AHD:1237",
+     "status": "not_checked",
+     "note": "AHD:1237 is a page of the main word-list of the New College edition (1975/76), not of the Indo-European appendix; only Watkins' 1985 IE-roots volume is on disk (AHD_watkins1985.txt), and the New College scans on archive.org are lending-only. The online AHD search page for 'soy' returns only the site's JavaScript boilerplate to a plain fetch."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "p. 1479 s.v. soy",
+     "stance": "supports",
+     "note": "\"Jap. shoyu, fr. Chin. chiang-yu, lit. 'soybean oil'\" — the exact wording Nourai's root box reproduces."
+    },
+    {
+     "src": "SKT",
+     "where": "p. 453 s.v. Soy (SKT.txt lines 17916-17917)",
+     "stance": "partial",
+     "note": "Skeat: \"Soy, a sauce. (Japanese.) Also sooju … Japanese shôyu, soy … the name is now given to the bean (Dolichos soja) whence soy is made.\" Skeat stops at Japanese and does not name the Chinese compound."
+    },
+    {
+     "src": "FSD",
+     "where": "vol. 4 s.v. soy (FSD_vol4.txt line 15596)",
+     "stance": "silent",
+     "note": "Funk & Wagnalls defines \"Soy: A sauce or liquid condiment prepared in China and Japan from the soy-bean with other ingredients, generally known as Japan soy or Chinese soy\", but the bracketed etymology is lost in the OCR of this column; no etymological statement recoverable."
+    },
+    {
+     "src": "LKT",
+     "where": "grep 'soja|soya' in LKT.txt",
+     "stance": "silent",
+     "note": "Lokotsch's dictionary of European words of Oriental origin has no soja/soya entry — his 'Orient' is the Semitic/Turco-Persian one, not the Far East."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Dutch",
+     "words": "soja",
+     "verdict": "plausible",
+     "derivation": "Dutch soja is real (17th c.) but is not taken straight from Chinese as the arrow draws: it is a Japanese loan, brought home by the Dutch East India Company, whose Deshima factory was the only European trading post in Japan from 1641. The immediate source is the Satsuma/Kyushu pronunciation of Japanese 醤油 (soi, beside standard shōyu), which the Dutch spelled soja; 醤油 in turn is the orthographic borrowing of Chinese 醬油. Klein, the reference cited on this very box, has exactly that order (chiang-yu > Jap. shoyu > Eng. soy) and knows no Dutch step at all, while OXF:406 — quoted in Nourai's own note here — supplies the missing Japanese stage. Etymonline states the route and the reason: \"from Dutch soya, from Japanese soyu, variant of shoyu … The etymology reflects Dutch presence in Japan before English and American merchants began to trade there.\" So: right word, right language, right ultimate origin, one stage omitted; the NOTE in the box is correct and modern scholarship sides with it.",
+     "derivation_fa": "«soja»ی هلندی واژه‌ای اصیل از سدهٔ ۱۷ م است، اما آن‌گونه که پیکان نمودار نشان می‌دهد یکسره از چینی گرفته نشده؛ وام‌واژه‌ای ژاپنی است که کمپانی هند شرقی هلند از تجارتگاه دِشیما (تنها پایگاه اروپایی در ژاپن از ۱۶۴۱ م) به اروپا برد. خاستگاه بی‌واسطهٔ آن تلفظ ساتسوما/کیوشوی 醤油 ژاپنی یعنی soi است (در برابر گونهٔ معیار shōyu) که هلندی‌ها soja نوشتند، و خودِ 醤油 وام‌گیریِ نوشتاری 醬油 چینی است. جالب آنکه کلاین، همان مرجعی که نورایی برای این خانه آورده، اصلاً نامی از هلندی نمی‌برد و زنجیره را چینی › ژاپنی › انگلیسی می‌داند، و یادداشت خودِ نورایی (به نقل از OXF:۴۰۶) همین حلقهٔ ژاپنی را می‌افزاید. نتیجه: با احتیاط پذیرفتنی است؛ واژه و زبان درست‌اند ولی یک مرحله (ژاپنی) از نمودار افتاده است و حاشیهٔ خودِ کتاب حق دارد.",
+     "sources": [
+      "https://www.etymonline.com/word/soy",
+      "https://en.wiktionary.org/wiki/soy"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1479",
+       "status": "partial",
+       "note": "Klein p.1479 has the Chinese and the Japanese but no Dutch: \"soy … — Jap. shoyu, fr. Chin. chiang-yu\". He therefore supports the Chinese etymon of the box but not the arrow Chinese→Dutch drawn here."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "DOZ",
+       "where": "grep 'soja|soya' in DOZ.txt",
+       "stance": "silent",
+       "note": "Dozy's 'Oosterlingen' — a list of exactly this kind, Dutch words of Eastern origin — has no soja entry; his scope is Arabic/Hebrew/Persian/Turkish, not Japanese."
+      },
+      {
+       "src": "LKT",
+       "where": "grep 'soja|soya' in LKT.txt",
+       "stance": "silent",
+       "note": "No entry in Lokotsch either."
+      },
+      {
+       "src": "SKT",
+       "where": "p. 453 s.v. Soy",
+       "stance": "partial",
+       "note": "\"Soy, a sauce. (Japanese.)\" — Skeat labels the word Japanese, i.e. agrees with the OXF note on this box against the direct Chinese→Dutch arrow."
+      },
+      {
+       "src": "WEB",
+       "where": "grep 'soy, n' in WEB_vol1.txt",
+       "stance": "silent",
+       "note": "The available Webster volume does not cover the S-range of the word list; nothing found."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "French",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "An empty pass-through box, and a reasonable one: French soja (also soya) is a borrowing of the Dutch word, spread through botany — Linnaeus' binomial Dolichos soja / Glycine soja is built on the Dutch form — and it is the French shape of the word, with its final vowel, that stands behind modern Persian سویا rather than English soy. The book gives no reference at all for this box, so nothing of Nourai's own could be checked; the arrow is judged plausible on the strength of Mo'in, who tags Persian سویا '[انگ / فر.]', i.e. English or French, thereby allowing but not compelling the French route.",
+     "derivation_fa": "این خانه گذرگاهی و بی‌واژه است و پذیرفتنی می‌نماید: soja/soya در فرانسه وام‌واژه‌ای از هلندی است که از راه گیاه‌شناسی گسترش یافت — نام دوجزئی لینه، Dolichos soja و Glycine soja، بر پایهٔ همان صورت هلندی ساخته شده — و همین صورت فرانسوی با واکهٔ پایانی است که پشتوانهٔ «سویا»ی فارسی امروز است، نه soy انگلیسی. کتاب برای این خانه هیچ مأخذی نیاورده، پس ادعای خودِ نویسنده وارسی‌شدنی نبود؛ داوری «با احتیاط پذیرفتنی» بر پایهٔ فرهنگ معین است که «سویا» را [انگ / فر.] برچسب می‌زند، یعنی راه فرانسوی را ممکن می‌داند ولی الزامی نمی‌کند.",
+     "sources": [
+      "https://vajehyab.com/?q=%D8%B3%D9%88%DB%8C%D8%A7&d=moein"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none printed in the box)",
+       "status": "not_checked",
+       "note": "The French box carries no refs= at all in the book (confirmed on the page image, data/verification/sources/refs/ocr/BOOK/105.png), so there is no citation of Nourai's to test."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "s.v. سویا (vajehyab.com/?q=سویا&d=moein)",
+       "stance": "partial",
+       "note": "«سویا (سُ) [ انگ / فر. ] (اِ.) گیاهی علفی و یکساله از تیرهٔ پروانه‌واران…» — Mo'in tags the word English *or* French, so French is one of the two routes Persian lexicography records, not the only one."
+      },
+      {
+       "src": "PHN",
+       "where": "grep 'soja|soya' in PHN.txt",
+       "stance": "silent",
+       "note": "Pihan's dictionary of French words from Arabic/Persian/Turkish has no soja — as expected, the word is not Oriental in his sense."
+      },
+      {
+       "src": "DEV",
+       "where": "grep 'soja|soya' in DEV.txt",
+       "stance": "silent",
+       "note": "Devic likewise has no entry."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "soyâ",
+     "verdict": "plausible",
+     "derivation": "Persian سویا soyâ is a twentieth-century European loanword — the plant (Glycine max) reached Iranian agriculture only in the modern period, and the word travels with the crop and the food industry, not with any older trade route. Mo'in's Farhang tags the headword «سویا (سُ) [ انگ / فر. ] (اِ.)», i.e. from English or from French, so the French arrow Nourai draws is one of the two possibilities Persian lexicography records; the spelling with final ـا (soyâ, not *soy) does point to the French/Latin-botanical form soja/soya rather than to English soy, which is a small argument in Nourai's favour. Mo'in elsewhere also glosses the bean as «لوبیای چینی؛ فول‌صویه؛ سویا». VOP:224 — Moshiri's dictionary of European words in Persian — is precisely the right authority for this box, but no digital copy of it exists anywhere (see refs_online.json), so Nourai's own citation could not be tested.",
+     "derivation_fa": "«سویا» در فارسی وام‌واژه‌ای اروپایی از سدهٔ چهاردهم خورشیدی است؛ خودِ گیاه (Glycine max) نیز تازه در دورهٔ نو وارد کشاورزی ایران شد و واژه همراه محصول و صنعت غذایی آمده است، نه از راه بازرگانی کهن. معین در فرهنگ خود سرواژه را «سویا (سُ) [ انگ / فر. ] (اِ.)» می‌نویسد، یعنی وام‌گرفته از انگلیسی یا فرانسوی؛ پس راه فرانسوی که نورایی کشیده یکی از دو راهی است که فرهنگ‌نویسی فارسی می‌شناسد. املای واژه با «ا»ی پایانی (سویا، نه *سوی) به صورت فرانسوی/گیاه‌شناسیِ لاتینی soja/soya می‌ماند نه به soy انگلیسی، و این نکته اندکی به سود نورایی است. مأخذ خودِ او (VOP:۲۲۴، فرهنگ واژه‌های اروپایی در فارسیِ مشیری) هیچ نسخهٔ دیجیتالی ندارد و وارسی‌نشدنی ماند.",
+     "sources": [
+      "https://vajehyab.com/?q=%D8%B3%D9%88%DB%8C%D8%A7&d=moein",
+      "https://en.wiktionary.org/wiki/soy"
+     ],
+     "ref_check": [
+      {
+       "ref": "VOP:224",
+       "status": "not_checked",
+       "note": "Mahshid Moshiri, Farhang-e Vāžehā-ye Orupāyi dar Fārsi (Alborz 1371/1992): refs_online.json records kind='none' — searched archive.org, ketabnak, noorlib and the open web, no scan and no ebook exists; only second-hand purchase. Nothing of this citation could be checked."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "s.v. سویا (vajehyab, Farhang-e Mo'in) and s.v. لوبیا (MON_part2.txt line 40714)",
+       "stance": "supports",
+       "note": "«سویا (سُ) [ انگ / فر. ] (اِ.)» — a European loan, English or French; and under the bean «…لوبیای چینی؛ فول‌صویه؛ سویا». Mo'in confirms both the word and its European origin, though he leaves English open beside French."
+      },
+      {
+       "src": "ARY",
+       "where": "grep 'سویا' in ARY_pages.txt",
+       "stance": "silent",
+       "note": "Aryanpur's dictionary of Indo-European roots of Persian has no entry — it treats inherited vocabulary, and a modern European loan falls outside it."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "soya, soy",
+     "verdict": "confirmed",
+     "derivation": "English soy is first recorded in the 1670s (as saio, of the Asian fish sauce) and comes from Dutch soja, exactly as the chart draws; soya is the same borrowing keeping the Dutch final vowel, and is the form that supplies soya bean, soya milk. Etymonline: \"1670s, saio 'soybean-based Asian fish sauce', from Dutch soya, from Japanese soyu, variant of shoyu 'soy', from Chinese … The etymology reflects Dutch presence in Japan before English and American merchants began to trade there\"; Wiktionary agrees, \"borrowed from Dutch soja, from the Satsuma pronunciation of Japanese 醤油 (soi)\". Klein, by contrast, takes English soy straight from Japanese shoyu with no Dutch step, so Nourai's Dutch→English arrow follows OXF rather than KLN — and OXF is right. Soy sauce is attested from 1795.",
+     "derivation_fa": "«soy» انگلیسی نخستین‌بار در دههٔ ۱۶۷۰ م (به صورت saio، نامِ سسِ ماهیِ خاور دور) ثبت شده و از هلندیِ soja گرفته شده است — دقیقاً همان پیکانی که نورایی کشیده؛ گونهٔ soya همان وام‌واژه است با واکهٔ پایانیِ هلندی، و ترکیب‌هایی چون soya bean از آن ساخته شده. اتیمانلاین می‌نویسد: «از هلندیِ soya، از ژاپنیِ soyu، گونهٔ shoyu … این ریشه‌شناسی بازتاب حضور هلندی‌ها در ژاپن پیش از بازرگانان انگلیسی و آمریکایی است»، و ویکی‌واژه نیز آن را «وام‌گرفته از هلندیِ soja، از تلفظ ساتسومایِ 醤油 ژاپنی (soi)» می‌داند. کلاین در برابر، soy انگلیسی را یکسره از ژاپنی می‌گیرد و هلندی را نادیده می‌نهد؛ پس نورایی در اینجا از OXF پیروی کرده و حق با اوست. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/soy",
+      "https://www.etymonline.com/word/soya",
+      "https://en.wiktionary.org/wiki/soy"
+     ],
+     "ref_check": [
+      {
+       "ref": "OXF:406",
+       "status": "not_checked",
+       "note": "J. Speake, Oxford Dictionary of Foreign Words and Phrases (1997): refs_online.json marks it archive_restricted — borrowable only (oxforddictionary00spea), no full text obtainable. Its claim as reported in the box (Dutch via Japanese shōyu) is independently confirmed by Etymonline and Wiktionary, so the citation is at least substantively right."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1479 s.v. soy",
+       "stance": "partial",
+       "note": "\"soy … — Jap. shoyu, fr. Chin. chiang-yu\" — Klein derives the English word directly from Japanese, omitting the Dutch intermediary that Nourai (with OXF) draws."
+      },
+      {
+       "src": "SKT",
+       "where": "p. 453 s.v. Soy",
+       "stance": "partial",
+       "note": "\"Soy, a sauce. (Japanese.) … the name is now given to the bean (Dolichos soja) whence soy is made\" — Japanese source, no Dutch step, but note that Skeat's bean-name soja is the Dutch/Latin form."
+      },
+      {
+       "src": "FSD",
+       "where": "vol. 4 s.v. soy",
+       "stance": "silent",
+       "note": "Definition only ('a sauce or liquid condiment prepared in China and Japan from the soy-bean…'); the etymology bracket is illegible in the OCR."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 4,
+   "root": "Chou-shu, Shu-shu",
+   "verdict": "plausible",
+   "modern_form": "Chinese 黍 shǔ 'broomcorn millet (Panicum miliaceum)'; the compound Laufer actually prints on the cited page is šu-lu, not a reduplicated *shu-shu",
+   "note": "The Chinese element is real — 黍 shǔ is the classical word for broomcorn millet — and Mo'in states the loan flatly: in his footnote 4 to Borhan-e Qāṭeʿ p.1309 he writes «۴ از چینی shū (ارزن). ره: Laufer, Sino-Iranica, p. 565». But Laufer himself, on that very page, is far more guarded and gives no such headword. His §29 (SIN pp.565-566) reads: \"The Cou li states that in respect to the five cereals … rice and millet are lacking in Persia. The term 'millet' is expressed by the compound šu-lu; that is, the glutinous variety of Panicum miliaceum and the glutinous variety of the spiked millet (Setaria italica glutinosa). Now, we find in Persian a word [شوشو] in the sense of 'millet'. It remains to study the history of this word, in order to ascertain whether it might be a Chinese loan-word.\" So Laufer neither prints 'Chou-shu, Shu-shu' nor asserts the derivation; a reduplicated Chinese *shu-shu is not otherwise attested, and the doubling may as easily have happened inside Persian. Real Chinese material, right general idea, but the root box as a Chinese lexeme is Nourai's (or Mo'in's) construct, and the loan is unproven at source — hence 'plausible'.",
+   "note_fa": "عنصر چینی واقعی است — 黍 (shǔ) واژهٔ کلاسیک «ارزن» است — و معین در حاشیهٔ ۴ بر برهان قاطع ص ۱۳۰۹ صریح می‌نویسد: «۴ از چینی shū (ارزن). ره: Laufer, Sino-Iranica, p. 565». اما خودِ لاوفر در همان صفحه بسیار محتاط‌تر است و چنین سرواژه‌ای ندارد: در بند ۲۹ (صص ۵۶۵–۵۶۶) ترکیبِ چینیِ «ارزن» را šu-lu می‌آورد و دربارهٔ واژهٔ فارسی تنها می‌نویسد «تاریخ این واژه هنوز باید بررسی شود تا روشن گردد آیا وام‌واژه‌ای چینی است یا نه». پس نه صورت «Chou-shu, Shu-shu» در آن صفحه هست و نه حکمی قطعی؛ صورت مضاعفِ چینی *shu-shu نیز جای دیگر گواهی ندارد و دوگان‌سازی می‌تواند در خودِ فارسی رخ داده باشد. نتیجه: با احتیاط پذیرفتنی است؛ مایهٔ چینی درست است اما خانهٔ ریشه ساختهٔ نویسنده (یا برگرفته از حاشیهٔ معین) است و وام‌گیری در سرچشمه اثبات‌نشده مانده.",
+   "sources": [
+    "https://vajehyab.com/?q=%D8%B4%D9%88%D8%B4%D9%88&d=moein"
+   ],
+   "ref_check": [
+    {
+     "ref": "SIN:565",
+     "status": "partial",
+     "note": "Laufer, Sino-Iranica p.565-566 (leaves 393-394 of refs/SIN.txt; leaf = printed − 172), §29: \"The term 'millet' is expressed by the compound šu-lu … Now, we find in Persian a word [شوشو] in the sense of 'millet.' It remains to study the history of this word, in order to ascertain whether it might be a Chinese loan-word.\" The page has the Persian word and the Chinese millet vocabulary, but neither the form 'Chou-shu, Shu-shu' nor an assertion that the Persian word is Chinese."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "BQT",
+     "where": "vol. 3 printed p. 1309 = pdf page 100 (incoming/BQT/BQT_v3_pages.txt line 7703 and the footnote block above it)",
+     "stance": "supports",
+     "note": "Mo'in's footnote 4 on the شوشو entry: «۴ از چینی shU (ارزن) . ره : Laufer , Sino - Iranica, p . 565» — Mo'in does affirm the Chinese origin, and cites exactly the Laufer page Nourai cites."
+    },
+    {
+     "src": "SIN",
+     "where": "pp. 565-566, §29",
+     "stance": "partial",
+     "note": "See ref_check: Laufer raises the question and leaves it open; he also notes Schlimmer's erzen as the Persian word for Panicum miliaceum."
+    },
+    {
+     "src": "MON",
+     "where": "vajehyab.com/?q=شوشو&d=moein; grep 'شوشو' in MON_part1/part2 and the Adena 2-vol djvu",
+     "stance": "silent",
+     "note": "«شوشو» پیدا نشد! — the online Farhang-e Mo'in has no such headword, and the local OCR of Mo'in does not contain the string either."
+    },
+    {
+     "src": "LKT",
+     "where": "grep 'Hirse' in LKT.txt",
+     "stance": "silent",
+     "note": "Lokotsch's millet entries (s.v. boza, durra) concern Turkic and Arabic grain words; nothing on a Chinese/Mongol šušu."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Mongolian",
+     "words": "",
+     "verdict": "disputed",
+     "derivation": "An empty pass-through box asserting Mongol transmission of the Chinese word into Persian. The idea is superficially attractive — the Ilkhanid period is exactly when the Chinese loans Laufer discusses on these same pages (p'ai-tse 'passport', jinksānak, xutu 'walrus ivory', §§26-31) entered Persian — but no source supports it and two things tell against it. First, the cited page carries no Mongolian step at all: SIN 565-566 §29 goes straight from the Chinese compound to the Persian word, its Mongol material being §27 (Mongol court titles) and its Turkic material §28 (tuγ 'horse-tail standard'); Laufer's one Mongol/Persian grain word, bodso ~ boza, is a different item on a different page (SIN.txt line 3942). Second, Mo'in's footnote takes the word directly «از چینی shū», with no intermediary. Third and most damaging, the word's earliest attestation is the verse of Sūzanī of Samarqand (d. c. 1173), a generation before the Mongol conquest of Khwarazm — so Persian had شوشو before there were Mongols in Iran to bring it. Modern scholarship, in so far as it says anything, therefore prefers a direct Chinese (or unknown) source over a Mongol vector.",
+     "derivation_fa": "این خانهٔ گذرگاهیِ بی‌واژه مدعی است که واژهٔ چینی از راه مغولی به فارسی رسیده است. اندیشه در نگاه نخست دلپذیر است — دورهٔ ایلخانی همان زمانی است که وام‌واژه‌های چینیِ موردبحث لاوفر در همین صفحات (پایزه، جینکسانک، خُتو) وارد فارسی شدند — اما هیچ منبعی آن را تأیید نمی‌کند و سه نکته بر ضد آن است. نخست، صفحهٔ یادشده اصلاً حلقهٔ مغولی ندارد: بند ۲۹ سینو-ایرانیکا یکراست از ترکیب چینی به واژهٔ فارسی می‌رود و مطالب مغولیِ لاوفر در بند ۲۷ (القاب دربار مغول) و ترکیِ او در بند ۲۸ (تُغ) است. دوم، حاشیهٔ معین واژه را بی‌واسطه «از چینی shū» می‌داند. سوم و مهم‌تر از همه، کهن‌ترین گواهِ واژه بیتِ سوزنی سمرقندی (درگذشتهٔ حدود ۵۶۹ ق) است، یعنی یک نسل پیش از هجوم مغول؛ پس «شوشو» پیش از آنکه مغولی در ایران باشد در فارسی به کار می‌رفته. نتیجه: پژوهش امروزی این حلقه را نمی‌پذیرد و منشأ مستقیم چینی (یا نامعلوم) را ترجیح می‌دهد.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "SIN:565",
+       "status": "not_found",
+       "note": "Read leaves 393-394 of refs/SIN.txt (= printed pp. 565-566) in full: §29, the millet paragraph, contains no Mongolian word, form or intermediary. The Mongol content on the page is §27, on titles (wan, t'ai wan, jinksānak); the only Mongol grain word in the book, 'Mongol bodso … connected by Kovalevski … with Persian boza' (SIN.txt line 3942), is elsewhere and is a different word."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 3 p. 1309, Mo'in's footnote 4",
+       "stance": "contradicts",
+       "note": "«از چینی shU (ارزن)» — Mo'in derives the Persian word straight from Chinese, with no Mongolian stage, while citing the same Laufer page."
+      },
+      {
+       "src": "SIN",
+       "where": "pp. 565-566",
+       "stance": "partial",
+       "note": "Discusses the word but supplies no Mongolian link; see ref_check."
+      },
+      {
+       "src": "TTS",
+       "where": "grep 'Hirse' in incoming/TTS/TTS_pages.txt",
+       "stance": "silent",
+       "note": "Vámbéry's Turco-Tatar etymological dictionary yields no millet word of this shape."
+      },
+      {
+       "src": "LKT",
+       "where": "grep 'Hirse' in LKT.txt",
+       "stance": "silent",
+       "note": "Nothing comparable."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "šošo, šŭšŭ",
+     "verdict": "plausible",
+     "derivation": "The Persian word is genuine and well attested. Borhan-e Qāṭeʿ p.1309 has the headword with its vocalisation and gloss: «شوشو ـ بضم هر دو شین و سکون هر دو واو، بمعنی گاورس و ارزن باشد» ('with ḍamma on both šīns and sukūn on both wāws, meaning gāvars and arzan', i.e. Setaria/Panicum millet) — which is precisely Nourai's double reading šošo / šūšū — and quotes as shāhed, via the Farhang-e Rašidi, the verse of Sūzanī of Samarqand printed in the box: «خری که آبخورش زیر ناودان عصیر ـ علف عصارهٔ بَگنی وَبَخسُم وشوشو». Richardson's Persian-Arabic-English dictionary (1829) independently lists «شوشو shushu, Millet» (RCH.txt line 53424). Nourai's own note in the box is right: bagnī and baxsom in that line are grain-liquors/must, so the donkey's fodder and drink are all by-products of grain. The origin from Chinese 黍 shǔ is Mo'in's (following Laufer's suggestion) and is phonetically easy for the first syllable, but the reduplication šu-šu is unexplained on the Chinese side, and Laufer expressly left the case open — hence 'plausible' rather than 'confirmed'.",
+     "derivation_fa": "واژهٔ فارسی اصیل و خوش‌گواه است. برهان قاطع در ص ۱۳۰۹ سرواژه را با ضبط و معنی می‌آورد: «شوشو ـ بضم هر دو شین و سکون هر دو واو، بمعنی گاورس و ارزن باشد» — همان دو خوانشِ šošo / šūšū که نورایی داده — و به نقل از فرهنگ رشیدی بیت سوزنی سمرقندی را شاهد می‌گیرد: «خری که آبخورش زیر ناودان عصیر ـ علف عصارهٔ بَگنی وَبَخسُم وشوشو». ریچاردسون نیز در فرهنگ فارسی-عربی-انگلیسی خود (۱۸۲۹ م) مستقلاً «شوشو shushu, Millet» را ثبت کرده است. یادداشت خودِ نورایی هم درست است: «بگنی» و «بخسم» در آن بیت شراب و شیرهٔ دانه‌اند، پس خوراک و آبخورد خر هر دو پس‌ماندهٔ غله است. اما گرفتن آن از 黍 (shǔ) چینی رأی معین (به پیروی از پیشنهاد لاوفر) است و اگرچه هجای نخست آسان می‌نشیند، دوگان‌سازیِ šu-šu در سوی چینی توضیح‌ناپذیر مانده و لاوفر خود پرونده را باز گذاشته است؛ از این رو «با احتیاط پذیرفتنی».",
+     "sources": [
+      "https://vajehyab.com/?q=%D8%B4%D9%88%D8%B4%D9%88&d=moein"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1309",
+       "status": "supports",
+       "note": "Exact page: BQT vol. 3 pdf page 100 = printed 1309 (offset printed ≈ pdf + 1209 at the start of the volume), incoming/BQT/BQT_v3_pages.txt lines 7633-7705. Headword «شوشو … بمعنی گاورس و ارزن باشد ۴», footnote «۴ از چینی shU (ارزن) . ره : Laufer , Sino - Iranica, p . 565», and on the same page the Sūzanī verse «علف عصارة بگنی‌وبخسم وشوشو . سوزنی سمرقندی. «رشیدی»» — headword, gloss, etymology and shāhed all as Nourai gives them."
+      },
+      {
+       "ref": "MON:2089",
+       "status": "not_found",
+       "note": "No شوشو in Mo'in's Farhang: vajehyab returns «شوشو» پیدا نشد! and greps of MON_part1.txt, MON_part2.txt and the Adena two-volume djvu find no occurrence. The Borhan footnote (BQT:1309), which is also Mo'in's, carries the claim instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 3 p. 1309",
+       "stance": "supports",
+       "note": "See ref_check — headword, vocalisation, gloss «گاورس و ارزن», Chinese etymology and the Sūzanī shāhed."
+      },
+      {
+       "src": "RCH",
+       "where": "Richardson-Johnson 1829, s.v. (RCH.txt line 53424)",
+       "stance": "supports",
+       "note": "«p شوشو shushu, Millet.» — an independent 19th-c. attestation of the word and its meaning, marked 'p' (Persian)."
+      },
+      {
+       "src": "SIN",
+       "where": "pp. 565-566",
+       "stance": "partial",
+       "note": "Laufer has the Persian word in the sense 'millet' but declines to pronounce on its origin."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab and local OCR",
+       "stance": "silent",
+       "note": "No entry (see ref_check MON:2089)."
+      },
+      {
+       "src": "FRS",
+       "where": "grep 'شوشو' in FRS_pages.txt",
+       "stance": "silent",
+       "note": "Asadi's Loghat-e Fors does not have the word, though it is the kind of eastern-Persian rarity he collects."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 5,
+   "root": "Cîrâğ",
+   "verdict": "confirmed",
+   "modern_form": "Middle Persian / Parthian čirāγ 'lamp' (Book Pahlavi <cylʾg>, Manichaean Parthian 𐫝𐫡𐫀𐫃 crʾg)",
+   "note": "The root box is right in language, form and gloss. MacKenzie's Concise Pahlavi Dictionary has \"čirāγ [cylʾg | P crʾg, N چراغ] lamp\" (PHD_mackenzie.txt line 1798; English-Pahlavi index, 'lamp čirāγ', line 6956), and Asbaghi p.157 starts her sirāj article from 'pers. čirāγ, mp. čirāγ'. Mo'in says the same in Borhan-e Qāṭeʿ: «شکل پهلوی آن čirāγ است». One nuance modern work adds: Wiktionary treats New Persian چراغ as a borrowing from Parthian črʾg rather than the inherited Middle Persian form (Middle Persian is separately attested as <clʾγ>, crʾh), and flags the further Iranian etymology — a possible link with Proto-Indo-Iranian *čitrás 'bright, shining' — as unsettled. That does not affect any arrow on this page; the box is a real word of the right period and meaning, and everything below it hangs together.",
+   "note_fa": "خانهٔ ریشه از نظر زبان، صورت و معنی درست است. مکنزی در «فرهنگ کوچک پهلوی» می‌آورد: čirāγ [cylʾg | P crʾg, N چراغ] «چراغ»، و اصبغی در ص ۱۵۷ مقالهٔ سراج را از «pers. čirāγ, mp. čirāγ» آغاز می‌کند. معین نیز در حاشیهٔ برهان قاطع می‌نویسد «شکل پهلوی آن čirāγ است». یک نکتهٔ باریک که پژوهش امروزی می‌افزاید: ویکی‌واژه «چراغ» فارسی نو را وام‌واژه‌ای از پارتیِ črʾg می‌داند نه دنبالهٔ مستقیم صورت فارسی میانه (که خود جداگانه به شکل <clʾγ> و crʾh گواهی شده)، و ریشه‌شناسی دورترِ آن — پیوند احتمالی با هندوایرانیِ آغازین *čitrás «روشن، درخشان» — را ناروشن می‌شمارد. این نکته هیچ‌یک از پیکان‌های این صفحه را دگرگون نمی‌کند. نتیجه: ادعای نورایی دربارهٔ ریشه درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%DA%86%D8%B1%D8%A7%D8%BA"
+   ],
+   "ref_check": [
+    {
+     "ref": "PLA:157",
+     "status": "supports",
+     "note": "Asbaghi, Persische Lehnwoerter im Arabischen p.157 (running head '157' on that leaf of incoming/PLA/PLA_pages.txt, printed = leaf − 15), s.v. siraj: \"siräg: 'Laterne, Lampe, Leuchter; Sonne' aus pers. čirāγ, mp. čirāγ, aram., syr. šrāgā, mand. šraga. … das Wort sirāǧ tritt mehrmals im Qur'ān auf, Fraenkel zufolge ist das Wort aus pers. čirāγ entlehnt worden. Die aram. syr. Form heißt šrāgā. Vielleicht stammt auch das Wort šarq 'Orient' vom čirāγ.\" — the head of Asbaghi's chain is exactly Nourai's root box: Pahlavi/Persian čirāγ."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "PHD",
+     "where": "s.v. čirāγ (PHD_mackenzie.txt line 1798; PHD.txt line 300; English index line 6956)",
+     "stance": "supports",
+     "note": "\"čirāγ [cylʾg | P crʾg, N چراغ] lamp\" — MacKenzie gives the Book Pahlavi spelling, the Parthian by-form and the New Persian continuation in one line."
+    },
+    {
+     "src": "BQT",
+     "where": "vol. 2, s.v. چراغ, Mo'in's footnote 9 (BQT_v2_pages.txt leaf 84 ≈ printed p. 627, lines 4834-4838)",
+     "stance": "supports",
+     "note": "«شکل پهلوی آن čirāγ است» — Mo'in names the same Pahlavi form as the root box."
+    },
+    {
+     "src": "NYB",
+     "where": "grep 'čirā|clʾγ|Lampe' in NYB_vol2_glossary.txt",
+     "stance": "silent",
+     "note": "Nyberg's glossary is keyed to the texts he edits; the word does not occur in them."
+    },
+    {
+     "src": "HRN",
+     "where": "grep 'čirāġ|cirag|Lampe|چراغ' in HRN.txt",
+     "stance": "silent",
+     "note": "Horn's Grundriss has no article on چراغ (his selection is inherited vocabulary with Avestan/Old Persian anchors)."
+    },
+    {
+     "src": "HUB",
+     "where": "grep 'čirāġ|cirag|چراغ' in HUB.txt",
+     "stance": "silent",
+     "note": "Hübschmann's Persische Studien likewise has nothing."
+    },
+    {
+     "src": "SOD",
+     "where": "grep 'čarāγ|crʾʾγ' in SOD.txt",
+     "stance": "silent",
+     "note": "Gharib's Sogdian dictionary yields no hit in this OCR, though Wiktionary cites a Sogdian crʾʾγ /čarāγ/ as a cognate."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "čerâğ",
+     "verdict": "confirmed",
+     "derivation": "New Persian چراغ čerāγ continues Middle Persian / Parthian čirāγ directly and without complication: the short i of the first syllable is lowered to e as regularly in New Persian (MP dil > del, MP pistag > peste), and the final Iranian -γ is kept both in writing (غ) and, classically, in pronunciation; classical Persian still shows both čirāġ and čarāġ (Wiktionary). MacKenzie's entry itself ends '… N چراغ'. The point at which this box matters for the rest of the chart is the direction of borrowing, and Mo'in states it explicitly in his footnote 9 to the Borhan entry: «کلمهٔ فارسی است که در آرامی و سریانی و نیز عربی (سراج) وارد شده (قرآن، سورهٔ نور) … ادی‌شیر (۹۸) میخواهد کلمهٔ فارسی چراغ را از سریانی مأخوذ بداند ولی این امر مشکل است» — the Persian word went out into Aramaic, Syriac and Arabic, and Addi Shir's attempt to reverse the arrow is rejected. The gloss chain 'lamp > light > illumination > guiding light' is ordinary Persian usage, and the Hāfez bayt in the box («…چراغی برکند خلوت‌نشینی») plays on exactly that extension.",
+     "derivation_fa": "«چراغ» فارسی نو دنبالهٔ بی‌واسطهٔ čirāγ فارسی میانه/پارتی است: «i» کوتاهِ هجای نخست، چنان‌که قاعدهٔ فارسی نو است، به «e» فروکاسته شده (مانند dil > دل، pistag > پسته) و «غ» پایانیِ ایرانی هم در نوشتار و هم در تلفظ کلاسیک برجای مانده است؛ در فارسی دری هنوز هر دو گونهٔ čirāġ و čarāġ ثبت است. مکنزی خود مدخل پهلوی را با «N چراغ» می‌بندد. آنچه این خانه را برای بقیهٔ نمودار مهم می‌کند سویِ وام‌گیری است، و معین در حاشیهٔ ۹ برهان قاطع صریح می‌گوید: «کلمهٔ فارسی است که در آرامی و سریانی و نیز عربی (سراج) وارد شده (قرآن، سورهٔ نور) … ادی‌شیر (۹۸) میخواهد کلمهٔ فارسی چراغ را از سریانی مأخوذ بداند ولی این امر مشکل است» — یعنی واژه از فارسی بیرون رفته و کوشش ادی‌شیر برای وارونه‌کردن پیکان رد شده است. گسترش معنایی «چراغ ← روشنایی ← اشراق ← چراغ راه» نیز کاربرد عادی فارسی است و بیت حافظِ درون خانه بر همان بازی می‌کند. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%86%D8%B1%D8%A7%D8%BA"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:626",
+       "status": "supports",
+       "note": "Found at BQT_v2_pages.txt leaf 84 (printed ≈ 627 on the leaf+543 offset, i.e. Nourai's 626 within the ±3 drift of that volume): headword «چراغ ـ بروزن فراغ؛ فتیله‌ای باشد که آنرا با چربی و روغن و امثال آن روشن کرده باشند», footnote 9 «کلمهٔ فارسی است که در آرامی و سریانی و نیز عربی (سراج) وارد شده (قرآن، سورهٔ نور)… ادی‌شیر (۹۸) میخواهد کلمهٔ فارسی چراغ را از سریانی مأخوذبداند ولی این امر مشکل است… «جفری ۱۹۹-۱۷۱» شکل پهلوی آن čirāγ است.» Exactly the derivation the arrow draws."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "s.v. čirāγ",
+       "stance": "supports",
+       "note": "\"čirāγ [cylʾg | P crʾg, N چراغ] lamp\" — MacKenzie equates the Pahlavi word with New Persian چراغ himself."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 2 p. 626/627, Mo'in's footnote 9",
+       "stance": "supports",
+       "note": "See ref_check; note in particular that Mo'in rejects Addi Shir's Syriac-to-Persian direction."
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'چراغ|čirāġ' in HRN.txt",
+       "stance": "silent",
+       "note": "No article."
+      },
+      {
+       "src": "HUB",
+       "where": "grep 'چراغ|čirāġ' in HUB.txt",
+       "stance": "silent",
+       "note": "No article."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Arabic",
+     "words": "ešrâğ; šarq",
+     "verdict": "disputed",
+     "derivation": "Both words exist, but neither comes from Persian čirāγ. Arabic شَرْق šarq 'east, sunrise' and إشراق ʾišrāq 'radiance, illumination' (the form-IV verbal noun of أشرق ʾašraqa 'to rise, shine') sit on the native Semitic root š-r-q, with a full triliteral paradigm — šaraqa, ʾašraqa, šāriq, mašriq, mustašriq — and Semitic cognates: Wiktionary compares Hebrew זָרַח zāraḥ 'to shine, rise' and מִזְרָח mizrāḥ 'east', and Klein, s.v. Saracen, derives sharq 'east' from sharaqa 'he cleft, dissected; rose (said of the sun)'. A borrowed noun cannot generate that verbal system. The derivation is also phonetically impossible: the real Arabic reflex of Persian čirāγ is سراج sirāj — Iranian č appears as Arabic s (via Aramaic š), and Iranian -γ as ج — which is exactly what Siddiqi §9 sets out and what node #10 shows; a second reflex with š- and a root-final qāf is not a possible outcome. What Nourai reports is nevertheless a fair report of his source: Asbaghi does print the guess, twice, but hedged both times — p.157 'Vielleicht stammt auch das Wort šarq \"Orient\" vom čirāγ', and p.21 s.v. ʾišrāq \"'erleuchten', eventuell aus dem pers. čirāγ, s. sirāǧ\". The box's own note ('PLA suggests this as a possible derivation but is not certain') is therefore accurate, and modern scholarship comes down against the suggestion: it is a semantic attraction ('lamp/light' ~ 'sunrise/illumination'), i.e. folk etymology.",
+     "derivation_fa": "هر دو واژه در عربی هست، اما هیچ‌کدام از «چراغ» فارسی نیامده است. «شَرْق» (خاور، برآمدن آفتاب) و «إشراق» (تابش، مصدر باب افعال از أشرق) بر ریشهٔ سامیِ اصیل ش‌ر‌ق نشسته‌اند و دستگاه کاملی از مشتقات سه‌حرفی دارند — شَرَقَ، أشرق، شارق، مشرق، مستشرق — و هم‌ریشه‌های سامی نیز دارند: ویکی‌واژه عبریِ זָרַח (زاراح، «درخشیدن، برآمدن») و מִזְרָח (میزراح، «خاور») را می‌سنجد و کلاین ذیل Saracen، sharq را از sharaqa «برآمدن خورشید» می‌گیرد. اسمی وام‌گرفته چنین دستگاه فعلی‌ای نمی‌زاید. از نظر آوایی نیز ناممکن است: بازتاب واقعی «چراغ» فارسی در عربی «سراج» است — «چ» ایرانی از راه «ش» آرامی به «س» عربی و «غ» به «ج» — همان که صدیقی در بند ۹ نشان داده و گرهٔ ۱۰ همین نمودار گواه آن است؛ بازتاب دومی با «ش» و «ق» پایانی شدنی نیست. با این همه، گزارش نورایی از منبعش امانت‌دارانه است: اصبغی این حدس را دو بار، هر بار با احتیاط، آورده است («Vielleicht…» در ص ۱۵۷ و «eventuell aus dem pers. čirāγ» در ص ۲۱). پس یادداشت خودِ خانه درست است و پژوهش امروزی این پیشنهاد را رد می‌کند و آن را ریشه‌شناسی عامیانه‌ای برخاسته از کشش معنایی («چراغ/روشنایی» ~ «طلوع/اشراق») می‌شمارد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%82",
+      "https://www.etymonline.com/word/Saracen"
+     ],
+     "ref_check": [
+      {
+       "ref": "PLA:157",
+       "status": "partial",
+       "note": "Asbaghi, Persische Lehnwoerter im Arabischen p.157 (running head '157' on that leaf of incoming/PLA/PLA_pages.txt, printed = leaf − 15), s.v. siraj: \"siräg: 'Laterne, Lampe, Leuchter; Sonne' aus pers. čirāγ, mp. čirāγ, aram., syr. šrāgā, mand. šraga. … das Wort sirāǧ tritt mehrmals im Qur'ān auf, Fraenkel zufolge ist das Wort aus pers. čirāγ entlehnt worden. Die aram. syr. Form heißt šrāgā. Vielleicht stammt auch das Wort šarq 'Orient' vom čirāγ.\" — the last line of the article is Nourai's source, but Asbaghi writes 'Vielleicht' (perhaps) and repeats it as 'eventuell' at p.21 s.v. ʾišrāq (PLA_pages.txt line 1558: \"'idräg [= ʾišrāq]: 'erleuchten', eventuell aus dem pers. čirāg s. siräß\"). The reference does say it, but only as a hedged guess, not as the flat derivation the arrow draws."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen",
+       "stance": "contradicts",
+       "note": "\"fr. Arab. sharqiyin, pl. acc. of sharqiy, 'Eastern', fr. sharq, 'east', fr. sharaqa, 'he cleft, dissected; rose (said of the sun)'\" — Klein derives šarq inside Arabic, from a native verb."
+      },
+      {
+       "src": "PLA",
+       "where": "pp. 21 and 157",
+       "stance": "partial",
+       "note": "See ref_check: the guess is there, twice, hedged both times."
+      },
+      {
+       "src": "FVQ",
+       "where": "Jeffery, The Foreign Vocabulary of the Qur'an, pp. 166-167 and index",
+       "stance": "silent",
+       "note": "Jeffery treats سراج as a foreign word of the Qur'an but has no article on شرق / إشراق — he did not regard them as loans, though شرق and its derivatives are common in the Qur'an."
+      },
+      {
+       "src": "AFM",
+       "where": "grep 'شرق|اشراق' in AFM_pages.txt",
+       "stance": "silent",
+       "note": "Addi Shir's list of Persian words arabised has no شرق/إشراق entry (his چراغ material, reported by Mo'in at Borhan p.626 fn. 9, concerns سراج only)."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "ešrâğ; šarq",
+     "verdict": "plausible",
+     "derivation": "The arrow itself — Arabic into Persian — is correct and unremarkable: اشراق ešrāq and شرق šarq are ordinary Arabic loans in Persian, taken over ready-made with the whole family the box lists in its extra line, شارق (active participle I, 'the rising sun'), استشراق estešrāq (form-X verbal noun, the modern coinage 'Orientalism'), مشرق mašreq (noun of place, 'place of sunrise, the East') and مستشرق mostašreq ('Orientalist'). Mo'in tags the headword «اشراق: [ع.] (مصدر لازم) تافتن، تابیدن» — Arabic — and gives «حکمت اشراق» its own entry, the Illuminationist philosophy of Suhrawardī (d. 1191), which is where ešrāq acquired in Persian the second sense Nourai glosses, 'intuition'. The Hāfez bayt in the box uses مشرق («چو آفتاب می از مشرق پیاله برآید»). What is wrong is not this arrow but the box above it: since Arabic šarq/ʾišrāq are not from Persian čirāγ (node #2), the Persian → Arabic → Persian round trip the chart draws here does not exist; these are simply Arabic words borrowed into Persian, not Persian words come home. Hence 'plausible': the immediate step is right, the chain behind it is not.",
+     "derivation_fa": "خودِ پیکان — از عربی به فارسی — درست و بی‌مسئله است: «اشراق» و «شرق» وام‌واژه‌های عادی عربی در فارسی‌اند و همراه با همان خانوادهٔ آماده‌ای که خانهٔ نمودار در سطر افزوده‌اش برشمرده وارد شده‌اند: «شارق» (اسم فاعل باب اول)، «استشراق» (مصدر باب استفعال، ساختِ نوِ «خاورشناسی»)، «مشرق» (اسم مکان) و «مستشرق» («خاورشناس»). معین سرواژه را «اشراق: [ع.] (مص‌ل.) تافتن، تابیدن» برچسب می‌زند و «حکمت اشراق» را مدخلی جداگانه می‌دهد؛ همان فلسفهٔ سهروردی (مقتول ۵۸۷ ق) است که «اشراق» در فارسی معنی دومِ موردنظر نورایی، یعنی «شهود»، را از آن گرفته است. بیت حافظِ درون خانه نیز «مشرق» را به کار برده است. آنچه نادرست است این پیکان نیست، بلکه خانهٔ بالای آن است: چون «شرق/إشراق» عربی از «چراغ» فارسی نیامده (گرهٔ ۲)، آن رفت‌وبرگشتِ فارسی › عربی › فارسی که نمودار در اینجا می‌کشد وجود ندارد؛ اینها فقط واژه‌های عربیِ وام‌گرفته در فارسی‌اند، نه واژه‌های فارسیِ بازگشته. نتیجه: حلقهٔ نزدیک درست است، زنجیرهٔ پشتِ آن نه.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%82"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:211",
+       "status": "not_checked",
+       "note": "S.M. Nahvi, Farhang-e Vāžehā-ye Arabi dar Fārsi (1368/1989): refs_online.json records kind='catalog' — an OpenLibrary record only, no scan on archive.org, ketabnak, noorlib or the open web. Nothing of this citation could be tested."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "s.v. اشراق and حکمت اشراق (MON_part1.txt lines 13363, 13366); s.v. مستشرق (MON_part2.txt line 56159)",
+       "stance": "supports",
+       "note": "«اشراق: [ع.] (مص‌ل.) تافتن، تابیدن»; «حکمت اشراق: فلسفه‌ای که در اسلام مروج …» — Mo'in marks the words as Arabic loans in Persian, which is what this arrow claims, and registers the derivatives Nourai lists."
+      },
+      {
+       "src": "BQT",
+       "where": "grep 'اشراق' in BQT_v1_pages.txt (line 26969 and Mo'in's cross-references)",
+       "stance": "partial",
+       "note": "Borhan's material on اشراق is Mo'in's own note referring to his «حکمت اشراق تألیف نگارنده ص ۱۰» — the Illuminationist term, treated as Arabic; nothing on any Iranian origin."
+      },
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen",
+       "stance": "contradicts",
+       "note": "Relevant here only for the upstream link: Klein's sharq < sharaqa makes these Persian loans Arabic in origin, not repatriated Persian."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Arabic",
+     "words": "šarqîyîn",
+     "verdict": "confirmed",
+     "derivation": "The form is exactly right: شرقيين šarqiyyīn is the genitive/accusative plural of the nisba adjective شرقي šarqiyy 'eastern', regularly derived from شرق šarq 'east' with the relative suffix -iyy and the sound masculine plural -īn (oblique) beside -ūn (nominative). Klein p.1383, the analysis behind Nourai's whole Saracen branch, has it word for word: \"fr. Arab. sharqiyin, pl. acc. of sharqiy, 'Eastern', fr. sharq, 'east'\", and the gloss 'easterners' is what the substantivised nisba means. The word and the arrow Arabic šarq → Arabic šarqiyyīn are therefore confirmed; whether this Arabic form is in turn the source of the Greek ethnonym is a separate and much weaker claim, treated at node #5.",
+     "derivation_fa": "صورت دقیقاً درست است: «شرقیین» حالت جرّی/نصبیِ جمعِ مذکر سالمِ صفت نسبیِ «شرقی» است که به قاعده از «شرق» با پسوند نسبت ـیّ و جمعِ ـین (در برابر ـون در حالت رفعی) ساخته می‌شود. کلاین در ص ۱۳۸۳ — همان تحلیلی که کل شاخهٔ Saracen نورایی بر آن استوار است — عیناً می‌نویسد: «از عربی sharqiyin، جمعِ منصوبِ sharqiy «خاوری»، از sharq «خاور»»، و معنیِ «خاوریان» همان کاربرد اسمی‌شدهٔ صفت نسبی است. پس واژه و پیکانِ «شرق ← شرقیین» در درون عربی درست است؛ اما اینکه همین صورت عربی سرچشمهٔ نام قومیِ یونانی باشد ادعایی جداگانه و بسیار سست‌تر است که در گرهٔ ۵ بررسی شده. نتیجه: ادعای نورایی دربارهٔ خودِ این صورت درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/Saracen",
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%82"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1152",
+       "status": "not_checked",
+       "note": "AHD:1152 is a page of the New College main word-list (the Saracen entry), not of the Indo-European appendix; only Watkins' 1985 IE-roots volume is on disk, and the New College scans on archive.org are lending-only. A plain fetch of ahdictionary.com/word/search.html?q=Saracen returns only the site's boilerplate, no entry text. The parallel citation KLN:1383 was checked instead and gives the same analysis AHD is being cited for."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen (KLN_1966.txt line 33732; page marker '1382' at line 33701)",
+       "stance": "supports",
+       "note": "\"Saracen, n., 1) an Arab; 2) a Moslem. — ML. Saraceni (pl.), fr. Late Gk. Σαρακηνοί (pl.), fr. Arab. sharqiyin, pl. acc. of sharqiy, 'Eastern', fr. sharq, 'east', fr. sharaqa …\" — form, case, number and gloss as in the box."
+      },
+      {
+       "src": "FVQ",
+       "where": "grep in FVQ_pages.txt",
+       "stance": "silent",
+       "note": "Jeffery has no article on شرقي; not a Qur'anic loanword question."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. sarcenet (SKT.txt line 16488)",
+       "stance": "silent",
+       "note": "Skeat's Concise reaches the family only through sarcenet 'a thin silk … made by the Saracens — Low L. sarcenetum — L. Saracenus' and gives no Arabic form."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Greek",
+     "words": "Sarakěnos",
+     "verdict": "disputed",
+     "derivation": "The Greek word is real — Σαρακηνός, pl. Σαρακηνοί, with long ē (η); the breve the book prints on 'Sarakěnos' is Nourai's transliteration habit, not a claim about quantity — but the arrow into it from Arabic šarqiyyīn is the weak link of the whole branch. Σαρακηνοί is already in Ptolemy's Geography (c. 150 CE) as the name of a people of north-western Arabia and the Sinai, and recurs in Stephanus of Byzantium and in the fourth-century Latin of Ammianus Marcellinus; that is four to five centuries before Greek was in a position to take ethnonyms from Arabic, and it is the standing objection to the šarqiyyīn etymology. Etymonline states it plainly: \"from Greek sarakenos. This usually is said to be from Arabic sharquiyin, accusative plural of sharqiy 'eastern', from sharq 'east, sunrise', but this is not certain\", adding that \"in medieval times the name was associated with that of Biblical Sarah\" — i.e. the ancients themselves were guessing. Klein and the 1975 AHD, Nourai's two references here, print the Arabic derivation without a caveat, which is why the chart has it; modern handbooks treat it as unproven and probably a learned back-formation. Verdict: the Greek node is a real word, the derivation drawn into it is disputed.",
+     "derivation_fa": "واژهٔ یونانی واقعی است — Σαρακηνός، جمعِ Σαρακηνοί، با «ē»ی بلند (η)؛ نشانهٔ کوتاهی که کتاب روی «Sarakěnos» گذاشته شیوهٔ آوانگاریِ خودِ نورایی است نه ادعایی دربارهٔ کمیّت واکه — اما پیکانی که از «شرقیین» عربی به آن کشیده شده سست‌ترین حلقهٔ این شاخه است. «Σαρακηνοί» پیش‌تر در «جغرافیا»ی بطلمیوس (حدود ۱۵۰ م) نام مردمی در شمال‌باختر عربستان و سینا است و در استفانوس بیزانسی و در لاتینِ آمیانوس مارکلینوس (سدهٔ ۴ م) نیز آمده؛ یعنی چهار تا پنج سده پیش از آنکه یونانی بتواند نام قومی از عربی وام گیرد، و همین ایراد اصلی بر ریشه‌شناسیِ «شرقیین» است. اتیمانلاین صریح می‌گوید: «از یونانیِ sarakenos. معمولاً آن را از عربیِ sharquiyin … می‌دانند، اما این قطعی نیست» و می‌افزاید که در سده‌های میانه نام را با «سارهٔ» تورات نیز پیوند می‌دادند — یعنی خودِ پیشینیان هم حدس می‌زدند. کلاین و AHD ۱۹۷۵ (دو مأخذ نورایی در همین‌جا) ریشهٔ عربی را بی‌هیچ قید می‌آورند و نمودار از آنها پیروی کرده است؛ کتاب‌های امروزی آن را اثبات‌نشده و به احتمال زیاد ساختی عالمانه و پسین می‌دانند. نتیجه: واژهٔ یونانی هست، ولی پژوهش امروزی این اشتقاق را نمی‌پذیرد.",
+     "sources": [
+      "https://www.etymonline.com/word/Saracen"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1152",
+       "status": "not_checked",
+       "note": "New College main word-list page (s.v. Saracen), not the IE appendix; unavailable as explained at node #4. Klein p.1383, cited on the English node of the same chain, prints the identical derivation, so what AHD is being cited for is at least attested in the sister reference."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen",
+       "stance": "supports",
+       "note": "\"ML. Saraceni (pl.), fr. Late Gk. Σαρακηνοί (pl.), fr. Arab. sharqiyin\" — Klein gives Nourai's chain without any reservation; he is a 1966 authority repeating the traditional account."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. sarcenet",
+       "stance": "silent",
+       "note": "Skeat's Concise offers no etymology of the ethnonym itself."
+      },
+      {
+       "src": "FSD",
+       "where": "grep 'Saracen' in FSD_vol1-4",
+       "stance": "silent",
+       "note": "The Funk & Wagnalls columns that would carry the entry are not recoverable from this OCR."
+      },
+      {
+       "src": "WEB",
+       "where": "grep 'Saracen' in WEB_vol1.txt",
+       "stance": "silent",
+       "note": "Webster's hits are all incidental uses ('Saracenic arches', 'Children's Crusade', 'Saracen stone'), never the etymological entry."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Latin",
+     "words": "Saracěnus",
+     "verdict": "confirmed",
+     "derivation": "Late Latin Saracēnus, pl. Saracēnī (again long ē, rendering Greek η), is the ordinary Latin transposition of the Greek ethnonym and is in use from the fourth century — Ammianus Marcellinus writes of the 'Saraceni' of the Syrian and Arabian steppe — passing thence into the Latin of the Church and of the chroniclers. Klein routes the English word through the medieval Latin plural: \"ML. Saraceni (pl.), fr. Late Gk. Σαρακηνοί (pl.)\"; Etymonline lists 'Medieval Latin Saracenus' beside Old French as the possible immediate source of the English word. The box is a straightforward and uncontroversial link.",
+     "derivation_fa": "«Saracēnus» لاتینیِ متأخر (جمعِ Saracēnī، باز با «ē»ی بلند که برابر η یونانی است) برگردان عادی همان نام قومیِ یونانی است و از سدهٔ چهارم م به کار می‌رود — آمیانوس مارکلینوس از «Saraceni»های بادیهٔ شام و عربستان سخن می‌گوید — و از آنجا به لاتینِ کلیسا و تواریخ راه یافته است. کلاین واژهٔ انگلیسی را از جمعِ لاتینیِ سده‌های میانه می‌گیرد («ML. Saraceni، از یونانی متأخر Σαρακηνοί») و اتیمانلاین «Medieval Latin Saracenus» را در کنار فرانسهٔ کهن، سرچشمهٔ بی‌واسطهٔ واژهٔ انگلیسی می‌شمارد. این حلقه ساده و بی‌اختلاف است. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/Saracen"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1152",
+       "status": "not_checked",
+       "note": "See node #4 — the New College main word-list page is not obtainable; the parallel KLN:1383 was checked and carries the Latin step."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen",
+       "stance": "supports",
+       "note": "\"ML. Saraceni (pl.), fr. Late Gk. Σαρακηνοί (pl.)\" — the Greek→Latin step exactly as drawn."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. sarcenet (SKT.txt line 16488)",
+       "stance": "supports",
+       "note": "\"Low L. sarcenetum … — L. Saracenus, Saracen\" — Skeat has the Latin form."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Old French",
+     "words": "Saracin",
+     "verdict": "confirmed",
+     "derivation": "Old French Saracin, more usually written Sarrazin / Sarrasin, from Latin Saracēnus: the Latin -c- before the front vowel is assibilated, the ending -ēnus reduced to -in, and the r doubled in the commonest spelling. Etymonline gives this as the route into English: 'from Old English (in translations from Latin), from Old French Saracin, Sarrasine or Medieval Latin Saracenus'. The Anglo-French diminutive of the same word, sarzinet, yields English sarcenet/sarsenet 'a fine silk' — Klein: 'Late ME. sarsenet, fr. AF. sarzinet, dimin. of ME. sarzin, Saracen' — which independently attests the French form in the right shape. Klein himself sends English straight to Medieval Latin, so the Old French box follows Etymonline/OED rather than KLN; that is the better account.",
+     "derivation_fa": "«Saracin» فرانسهٔ کهن — که بیشتر Sarrazin/Sarrasin نوشته می‌شود — از «Saracēnus» لاتینی است: «c» لاتینی پیش از واکهٔ پیشین سایشی شده، پایانهٔ ـēnus به ـin فروکاسته و «ر» در املای رایج مشدد شده است. اتیمانلاین همین را راهِ ورود به انگلیسی می‌داند: «از انگلیسی کهن (در ترجمه‌ها از لاتین)، از فرانسهٔ کهن Saracin/Sarrasine یا لاتینیِ سده‌های میانه Saracenus». مصغّرِ آنگلونورمنِ همین واژه، sarzinet، واژهٔ انگلیسی sarcenet/sarsenet «پارچهٔ ابریشمی نازک» را داده است — کلاین: «انگلیسی میانهٔ متأخر sarsenet، از آنگلوفرانسهٔ sarzinet، مصغّر sarzin «ساراسن»» — و این خود گواهِ مستقلی بر صورت فرانسوی است. کلاین انگلیسی را یکراست از لاتینیِ میانه می‌گیرد، پس این خانه از اتیمانلاین/OED پیروی می‌کند که روایت بهتری است. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/Saracen"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1152",
+       "status": "not_checked",
+       "note": "See node #4; page unavailable."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.vv. Saracen, sarcenet",
+       "stance": "partial",
+       "note": "Klein takes English Saracen from Medieval Latin without an Old French step, but his sarcenet article — \"Late ME. sarsenet, fr. AF. sarzinet, dimin. of ME. sarzin, 'Saracen'\" — presupposes exactly the French form this box posits."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. sarcenet",
+       "stance": "supports",
+       "note": "\"OF. sarcenet, a stuff [made] by the Saracens — Low L. sarcenetum\" — the French shape of the word is Skeat's starting point too."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "Saracen",
+     "verdict": "confirmed",
+     "derivation": "English Saracen goes back to Old English Sarasin, borrowed in translations from Latin, and appears in Middle English as Saracene, Sarcene, Sarazyn, Sarasine 'a Turk; an Arab; a Muslim' (Etymonline), adjectival from c. 1300. Nourai's gloss 'an Arab' is right for the original reference — the name was what Greeks and Romans gave to the nomads of the Syrian and Arabian deserts and to the inhabitants of Arabia Felix — though in Middle English it widened, under the Crusades, to 'Middle Eastern Muslim' and then to 'any non-Christian'. Klein p.1383, the second reference on the box, gives the two senses in that order: '1) an Arab; 2) a Moslem'. Derivatives: Saracenic; sarcenet 'fine silk'; sarsen (stone).",
+     "derivation_fa": "«Saracen» انگلیسی به «Sarasin» انگلیسی کهن بازمی‌گردد که در ترجمه‌ها از لاتین وام گرفته شده، و در انگلیسی میانه به صورت‌های Saracene، Sarcene، Sarazyn، Sarasine به معنی «ترک؛ عرب؛ مسلمان» دیده می‌شود و از حدود ۱۳۰۰ م صفت نیز هست. معنیِ «یک عرب» که نورایی داده برای کاربرد نخستین درست است — یونانیان و رومیان این نام را به کوچ‌نشینان بادیهٔ شام و عربستان و به مردم «عربستان خوشبخت» می‌دادند — اگرچه در انگلیسی میانه و زیر تأثیر جنگ‌های صلیبی نخست به «مسلمان خاورمیانه‌ای» و سپس به «هر ناـمسیحی» گسترش یافت. کلاین در ص ۱۳۸۳، مأخذ دوم این خانه، همین دو معنی را به همین ترتیب می‌آورد: «۱) یک عرب؛ ۲) یک مسلمان». مشتقات: Saracenic؛ sarcenet «ابریشم نازک»؛ sarsen (سنگ). نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/Saracen"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1383",
+       "status": "supports",
+       "note": "KLN_1966.txt line 33732 (page marker '1382' at line 33701, so the entry stands on p.1383): \"Saracen, n., 1) an Arab; 2) a Moslem. — ML. Saraceni (pl.), fr. Late Gk. Σαρακηνοί (pl.), fr. Arab. sharqiyin … Derivative: Saracen-ic, adj.\" — word, gloss and chain as in the box."
+      },
+      {
+       "ref": "AHD:1152",
+       "status": "not_checked",
+       "note": "See node #4; the New College page is not obtainable and the AHD website returns no entry text to a plain fetch."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1383 s.v. Saracen",
+       "stance": "supports",
+       "note": "See ref_check."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. sarcenet",
+       "stance": "partial",
+       "note": "Skeat's Concise has no Saracen headword, only the derived cloth-name, from which the ethnonym is reached: \"a stuff [made] by the Saracens … L. Saracenus, Saracen\"."
+      },
+      {
+       "src": "WEB",
+       "where": "grep 'Saracen' in WEB_vol1.txt",
+       "stance": "silent",
+       "note": "Only incidental uses of the word in other entries; no etymology."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Aramaic",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "An empty pass-through box, and the crucial one for this branch: the Iranian word reached Arabic through Aramaic, not directly. The Aramaic form is שְׁרָגָא šərāgā, Classical Syriac ܫܪܳܓܳܐ šrāḡā, Mandaic šraga, 'lamp'. Wiktionary derives it from Parthian *𐫢𐫡𐫀𐫄 *šrʾγ /širāγ/ and makes Arabic sirāj a borrowing from the Aramaic; Asbaghi p.157 sets out the same three-member chain, 'aus pers. čirāγ, mp. čirāγ, aram., syr. šrāgā, mand. šraga'; Siddiqi p.72 §9, in his section on how Persian č is rendered in Arabic, says outright that 'the word sirāj (= Pers. čirāγ) came through Aramaic (שרגא)'. The sound substitution is regular: Aramaic has no affricate č and replaces it with š, while Iranian -γ- is taken as g. Nourai's box is therefore right, and right to be a stage rather than a gloss.",
+     "derivation_fa": "این خانهٔ گذرگاهیِ بی‌واژه، حلقهٔ کلیدیِ این شاخه است: واژهٔ ایرانی نه بی‌واسطه، بلکه از راه آرامی به عربی رسیده است. صورت آرامی שְׁרָגָא (šərāgā)، سریانی کلاسیک ܫܪܳܓܳܐ (šrāḡā) و مندایی šraga به معنی «چراغ» است. ویکی‌واژه آن را از پارتیِ *šrʾγ می‌گیرد و «سراج» عربی را وام‌گرفته از همین صورت آرامی می‌داند؛ اصبغی در ص ۱۵۷ همان زنجیرهٔ سه‌حلقه‌ای را می‌آورد: «از فارسیِ čirāγ، فارسی میانهٔ čirāγ، آرامی و سریانی šrāgā، مندایی šraga»؛ و صدیقی در ص ۷۲ بند ۹، در بخشِ چگونگیِ بازتاب «چ» فارسی در عربی، صریح می‌نویسد که «واژهٔ سراج (= فارسیِ چراغ) از راه آرامی آمده است (שרגא)». جانشینی آوایی قاعده‌مند است: آرامی واکهٔ سایشی-انسدادیِ «چ» ندارد و آن را «ش» می‌گذارد و «غ» ایرانی را «گ» می‌گیرد. نتیجه: این خانهٔ نورایی درست است و به‌جا مرحله‌ای مستقل شمرده شده.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A7%D8%AC",
+      "https://en.wiktionary.org/wiki/%DA%86%D8%B1%D8%A7%D8%BA"
+     ],
+     "ref_check": [
+      {
+       "ref": "PLA:157",
+       "status": "supports",
+       "note": "Asbaghi, Persische Lehnwoerter im Arabischen p.157 (running head '157' on that leaf of incoming/PLA/PLA_pages.txt, printed = leaf − 15), s.v. siraj: \"siräg: 'Laterne, Lampe, Leuchter; Sonne' aus pers. čirāγ, mp. čirāγ, aram., syr. šrāgā, mand. šraga. … das Wort sirāǧ tritt mehrmals im Qur'ān auf, Fraenkel zufolge ist das Wort aus pers. čirāγ entlehnt worden. Die aram. syr. Form heißt šrāgā. Vielleicht stammt auch das Wort šarq 'Orient' vom čirāγ.\" — the Aramaic/Syriac/Mandaic members stand between Persian and Arabic exactly as this box requires."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "Jeffery pp. 166-167, s.v. سراج (FVQ_pages.txt leaves 184-185 counted 1-based over form-feeds; their running heads read '166' and '167')",
+       "stance": "supports",
+       "note": "\"Fraenkel, Vocab, 7, pointed out that it was from Aram. שרגא = Syr. šrāgā. These forms are, however, borrowed from the Pers. چراغ\"; and p.167 \"Vollers, ZDMG, l, 613, is doubtless right in deriving the Arabic word from the Syriac.\" Jeffery expressly prefers the Aramaic/Syriac route over a direct Iranian borrowing."
+      },
+      {
+       "src": "SDQ",
+       "where": "Siddiqi p. 72 §9 (SDQ.txt leaf 88, after the running number '— 72 —')",
+       "stance": "supports",
+       "note": "\"9. Persisches č wird durch س … zuweilen aber auch durch ج wiedergegeben … Das Wort سراج (= p. چراغ) ist über das Aramäische gekommen (שרגא).\""
+      },
+      {
+       "src": "AFA",
+       "where": "grep 'Lampe|sirag|šrāgā' in AFA.txt",
+       "stance": "silent",
+       "note": "Fraenkel's Aramäische Fremdwörter is on disk but this Google scan's OCR of the relevant pages yields nothing searchable; his statement is available only at second hand through Jeffery, quoted above."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Arabic",
+     "words": "sîrâj",
+     "verdict": "confirmed",
+     "derivation": "Arabic سِرَاج sirāj 'lamp, luminary, lantern' (pl. سُرُج suruj) is a well-known Iranian loan, four times in the Qur'an — 25:61, 33:45, 71:16, 78:13, where the sun is وَجَعَلَ ٱلشَّمْسَ سِرَاجًا 'and He made the sun a lamp'. Jeffery pp.166-167: 'The Muslim authorities take it as pure Arabic, not realizing that the verb from which they derive it is denominative. Fraenkel, Vocab. 7, pointed out that it was from Aram. שרגא = Syr. šrāgā. These forms are, however, borrowed from the Pers. چراغ … Vollers, ZDMG l, 613, is doubtless right in deriving the Arabic word from the Syriac' — that is, Persian ultimately, Syriac immediately, which is exactly the two-step route the chart draws through node #9. Siddiqi p.72 §9 and Asbaghi p.157 say the same. The substitutions are the regular ones: Iranian č → Aramaic š → Arabic s (Arabic keeping š for its own root š-r-q, which is why sirāj and šarq cannot be the same word), Iranian -γ → g → Arabic ج j. Note that the Arabic denominative verb sarraja 'to light a lamp' is secondary, built on the loan — which is Jeffery's point against the native etymology.",
+     "derivation_fa": "«سِراج» عربی به معنی «چراغ، روشنایی، فانوس» (جمع: سُرُج) وام‌واژه‌ای ایرانی و شناخته‌شده است و چهار بار در قرآن آمده — ۲۵:۶۱، ۳۳:۴۵، ۷۱:۱۶ و ۷۸:۱۳، آنجا که خورشید «وَجَعَلَ ٱلشَّمْسَ سِرَاجًا» خوانده شده. جفری در صص ۱۶۶–۱۶۷ می‌نویسد: «عالمان مسلمان آن را عربیِ سره می‌شمارند و درنمی‌یابند که فعلی که از آن مشتق می‌گیرند خودْ برساخته از اسم است. فرنکل نشان داد که واژه از آرامیِ שרגא = سریانیِ šrāgā است. اما این صورت‌ها خود از فارسیِ چراغ وام گرفته شده‌اند … و فولرس بی‌گمان حق دارد که واژهٔ عربی را از سریانی می‌گیرد» — یعنی سرچشمهٔ دور فارسی و سرچشمهٔ نزدیک سریانی، دقیقاً همان دو مرحله‌ای که نمودار با گرهٔ ۹ کشیده است. صدیقی (ص ۷۲ بند ۹) و اصبغی (ص ۱۵۷) نیز همین را می‌گویند. جانشینی‌ها قاعده‌مندند: «چ» ایرانی ← «ش» آرامی ← «س» عربی (عربی «ش» را برای ریشهٔ خودش ش‌ر‌ق نگاه می‌دارد، و همین است که «سراج» و «شرق» نمی‌توانند یک واژه باشند)، و «غ» ایرانی ← «گ» ← «ج» عربی. فعلِ «سَرَّجَ» عربی نیز ثانوی و برساخته از همین وام‌واژه است. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A7%D8%AC"
+     ],
+     "ref_check": [
+      {
+       "ref": "PLA:157",
+       "status": "supports",
+       "note": "Asbaghi, Persische Lehnwoerter im Arabischen p.157 (running head '157' on that leaf of incoming/PLA/PLA_pages.txt, printed = leaf − 15), s.v. siraj: \"siräg: 'Laterne, Lampe, Leuchter; Sonne' aus pers. čirāγ, mp. čirāγ, aram., syr. šrāgā, mand. šraga. … das Wort sirāǧ tritt mehrmals im Qur'ān auf, Fraenkel zufolge ist das Wort aus pers. čirāγ entlehnt worden. Die aram. syr. Form heißt šrāgā. Vielleicht stammt auch das Wort šarq 'Orient' vom čirāγ.\""
+      },
+      {
+       "ref": "FVQ:166",
+       "status": "supports",
+       "note": "Jeffery, Foreign Vocabulary of the Qur'an p.166 (FVQ_pages.txt leaf 184 counted 1-based over form-feeds, whose running head reads '166'), s.v. سراج: \"xxv, 62; xxxiii, 45; lxxi, 15; lxxviii, 13. A lamp or torch. The Muslim authorities take it as pure Arabic, not realizing that the verb from which they derive it is denominative. Fraenkel, Vocab, 7, pointed out that it was from Aram. שרגא = Syr. šrāgā. These forms are, however, borrowed from the Pers. چراغ.\" Page and content match Nourai's citation exactly."
+      },
+      {
+       "ref": "SDQ:72",
+       "status": "supports",
+       "note": "Siddiqi, Studien über die persischen Fremdwörter im klassischen Arabisch p.72 (SDQ.txt leaf 88, immediately after the printed '— 72 —'), §9: \"Persisches č wird durch س, wie auch im Aramäischen, zuweilen aber auch durch ج wiedergegeben … Das Wort سراج (= p. چراغ) ist über das Aramäische gekommen (שרגא).\""
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "pp. 166-167",
+       "stance": "supports",
+       "note": "See ref_check; p.167 adds Vollers' preference for Syriac as the immediate donor."
+      },
+      {
+       "src": "SDQ",
+       "where": "p. 72 §9",
+       "stance": "supports",
+       "note": "See ref_check."
+      },
+      {
+       "src": "PLA",
+       "where": "p. 157 s.v. sirāj",
+       "stance": "supports",
+       "note": "See ref_check."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 2 p. 626/627, Mo'in's footnote 9 to چراغ",
+       "stance": "supports",
+       "note": "«کلمهٔ فارسی است که در آرامی و سریانی و نیز عربی (سراج) وارد شده (قرآن، سورهٔ نور)» — Mo'in states the same outward route, and rejects Addi Shir's attempt (AFM p.98) to reverse it."
+      },
+      {
+       "src": "AFM",
+       "where": "grep 'سراج' in AFM_pages.txt (lines 1038, 2439)",
+       "stance": "silent",
+       "note": "Addi Shir's السراج occurrences in this OCR are incidental (in other entries' glosses); his p.98 article, which Mo'in reports as deriving Persian چراغ from Syriac, could not be located in the scanned text."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Persian",
+     "words": "serâj",
+     "verdict": "confirmed",
+     "derivation": "The closing link of a textbook Persian → Aramaic → Arabic → Persian round trip: Persian سراج serāj 'lamp' is the Arabic sirāj re-borrowed into Persian, where it lives in the learned and Qur'anic register (سراج منیر, and the very common name and laqab سراج‌الدین, besides the takhalluṣ Serāj) alongside the inherited چراغ, which never left. Wiktionary makes the relation explicit under چراغ: 'Borrowed from Classical Persian چراغ (čirāġ, čarāġ), itself from Parthian crʾg … Doublet of سراج (sirâc, «lamp»)' — a doublet is precisely what a round trip produces. The Arabic shape is kept unchanged in Persian (س for the original č, ج for the original γ), which is why the two members of the doublet are no longer recognisable as one word.",
+     "derivation_fa": "این حلقهٔ پایانیِ یک رفت‌وبرگشتِ نمونه‌وارِ فارسی › آرامی › عربی › فارسی است: «سراج» فارسی همان «سِراج» عربی است که دوباره به فارسی وام داده شده و در لایهٔ فاضلانه و قرآنی به کار می‌رود (سراج منیر؛ نام و لقب پربسامد سراج‌الدین؛ تخلص «سراج»)، در کنار «چراغِ» موروثی که هرگز از فارسی نرفته بود. ویکی‌واژه این نسبت را ذیل «چراغ» صریح آورده است: «وام‌گرفته از فارسی کلاسیک چراغ (čirāġ/čarāġ)، خود از پارتیِ črʾg … دوگانهٔ سراج». دوگانه (doublet) درست همان چیزی است که چنین رفت‌وبرگشتی پدید می‌آورد. صورت عربی در فارسی دست‌نخورده مانده («س» به جای «چ» اصلی و «ج» به جای «غ» اصلی)، و به همین سبب است که دو عضو این دوگانه دیگر یک واژه به نظر نمی‌رسند. نتیجه: ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%86%D8%B1%D8%A7%D8%BA",
+      "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A7%D8%AC"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:188",
+       "status": "not_checked",
+       "note": "S.M. Nahvi, Farhang-e Vāžehā-ye Arabi dar Fārsi (1368/1989): no digital copy exists on any permitted platform (refs_online.json, kind='catalog'), so the citation could not be tested. The claim itself — that Persian سراج is the Arabic word — is uncontroversial and is confirmed by Wiktionary's 'Doublet of سراج' note under چراغ."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 2 p. 626/627, Mo'in's footnote 9",
+       "stance": "supports",
+       "note": "«…و نیز عربی (سراج) وارد شده (قرآن، سورهٔ نور)» — Mo'in names the Arabic form as the outward-bound shape of the Persian word, which is what comes back in this box."
+      },
+      {
+       "src": "PLA",
+       "where": "p. 157 s.v. sirāj",
+       "stance": "supports",
+       "note": "Asbaghi's whole article is written from the Persian side: 'sirāǧ … aus pers. čirāγ', so the Arabic word is by definition available for re-borrowing into Persian."
+      },
+      {
+       "src": "FVQ",
+       "where": "pp. 166-167",
+       "stance": "supports",
+       "note": "Establishes سراج as the Arabic (Qur'anic) form of the word, the form Persian took back."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
