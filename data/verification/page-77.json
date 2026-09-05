@@ -1,0 +1,267 @@
+{
+  "pdf_page": 77,
+  "book_page": 47,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Batiaxě",
+      "verdict": "transcription_suspect",
+      "modern_form": "Greek βατιάκη / βατιάκιον (batiákē) 'Persian drinking cup' (Athenaeus XI); beside it Old Persian *bātah 'wine' > MP bādag; the family is ultimately Akkadian baṭû 'bowl for liquids, wine jar' (< baṭium 'vessel, basin')",
+      "note": "Horn's no. 155 (p. 36) is exactly Nourai's source: 'bādye \"Weingefäss\", vergl. bāde \"Wein\". ap. βατιάκη (φιάλη Athen. XI, 27) (de Lagarde, Ges. Abh. 211), unsicher; phl. batak (PPGl.).' Nourai's root box therefore reproduces Horn faithfully in substance — including the caveat, which he renders as 'The source of the Old Persian form is not clear' (Horn's 'unsicher'). Two things are nevertheless wrong with the box as printed. (1) The FORM: the word Horn cites is the Greek βατιάκη, i.e. batiākē with kappa; the book prints 'Batiaxě' with an x, which is not the attested form in any source (LSJ, Athenaeus, Ernout-Meillet, Wiktionary all have κ). Checked against the printed page (pdf p. 77, copy at data/verification/sources/refs/ocr/BOOK/77.png): the book itself prints 'Batiaxě', so this is Nourai's own misrendering, not a scan error. (2) The LANGUAGE LABEL: βατιάκη is a Greek word that Athenaeus reports as Persian; it is not an attested Old Persian form. The Old Persian antecedent modern sources reconstruct is *bātah 'wine' (whence MP bādag), and Latin batioca/batiola (Plautus, 2nd c. BCE) shows the cup-word already circulating in the Mediterranean. The ultimate source is Semitic (Akkadian baṭû), so 'the source of the Old Persian form is not clear' is over-cautious by 1999 standards rather than wrong.",
+      "note_fa": "ریشهٔ این خانواده در کتاب «Batiaxě» و «پارسی باستان» خوانده شده است. آنچه هرن (ص ۳۶، شمارهٔ ۱۵۵) آورده در واقع واژهٔ یونانی βατιάκη (batiākē) «جام شراب پارسی» است که آتنایوس آن را پارسی می‌خواند؛ پس نه «x» درست است و نه دقیقاً «پارسی باستان». صورت ایرانی بازسازی‌شدهٔ امروزی *bātah در پارسی باستان است که در فارسی میانه bādag شده است، و خاستگاه نهایی این واژه اکدی baṭû «کاسه و خم شراب» دانسته می‌شود؛ لاتینی batioca نزد پلاؤتوس (سدهٔ دوم پ.م.) نشان می‌دهد که واژه از دیرباز در مدیترانه رواج داشته. تصویر صفحهٔ چاپی بررسی شد: خطا از خودِ کتاب است، نه از خوانش اسکن. جمله‌ای که نورایی افزوده («خاستگاه صورت پارسی باستان روشن نیست») همان «unsicher» هرن است.",
+      "error_in": "book",
+      "book_prints": "Batiaxě",
+      "correct_form": "Batiākē (Gk. βατιάκη); the Old Iranian antecedent is OP *bātah",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF%D9%87",
+        "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B7%D9%8A%D8%A9"
+      ],
+      "ref_check": [
+        {"ref": "HRN:36", "status": "supports", "note": "Horn, Grundriss no. 155 (printed p. 36; HRN.txt line 1752, the OCR reads 'hädye *Weingefäss', vergl. bade 'Wein . ap. ßandarj' üsgaiiitj (ptdXrj Athen. XI, 27 (de Lagarde, Ges. Abh. 211), unsicher; phl. batak (PPGl.)' = 'bādye Weingefäss, vergl. bāde Wein. ap. βατιάκη (φιάλη Athen. XI, 27) …, unsicher; phl. batak'). The page carries the whole box: the Greek/'ap.' cup-word, the Pahlavi batak, the Persian bāde/bādye, and the caveat 'unsicher'."}
+      ],
+      "consulted": [
+        {"src": "LAT", "where": "Ernout-Meillet s.v. batioca (LAT.txt line 7032)", "stance": "supports", "note": "'batioca, -ae f.: coupe à vin. Emprunt à une forme dialectale (Tarente, Héraclée) correspondant à ion.-att. βατιάκη. Un ex. de Pl. et un d'Arn. On trouve aussi batiola, de même sens (Pl. Colax frg. 1).' Attests the Greek form with κ and dates the cup-word to Plautus."},
+        {"src": "KNT", "where": "Kent, Old Persian lexicon", "stance": "silent", "note": "grep 'batiak|batiac' in KNT.txt (and TLM.txt, SPG_keilinschriften1881.txt): no hits — the word is not in the attested Old Persian corpus, which is why 'Old Persian' can only mean 'reported as Persian by a Greek author'."},
+        {"src": "BRT", "where": "Altiranisches Wörterbuch", "stance": "silent", "note": "no Avestan cognate of the cup-word; grep gave nothing."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "bâtak",
+          "verdict": "confirmed",
+          "derivation": "The Pahlavi word is written ⟨bʾtk'⟩ and read bādag 'wine, must'; Nourai's 'bâtak' is the older graphic transliteration (t for the Book-Pahlavi letter that stands for /d/ after a long vowel), the same form Horn quotes as 'phl. batak (PPGl.)' from the Pahlavi-Pazand glossaries. MacKenzie, Concise Pahlavi Dictionary p. 16 has 'bādag [bʾtk' | N bāda] wine, must', and his English index 'wine bādag, may'. The suffix is the Middle Persian -ag (< OIr. -aka-) added to the base *bāt-, so the chain root → MP bādag is the standard one; Khotanese bātaa 'wine, must' is the sister form.",
+          "derivation_fa": "صورت پهلوی به خط کتابی ⟨bʾtk'⟩ نوشته می‌شود و bādag «می، شیرهٔ انگور» خوانده می‌شود؛ آنچه نورایی «bâtak» آورده، آوانگاری حرف‌به‌حرف کهن است (t در پهلوی پس از واکهٔ بلند برابر /d/ فارسی نو است) و همان صورتی است که هرن از واژه‌نامه‌های پهلوی نقل می‌کند. مکنزی در «فرهنگ کوچک پهلوی» ص ۱۶ آورده: bādag [bʾtk'] «می، شیره». پسوند ‑ag همان ‑aka- ایرانی باستان است. صورت خواستهٔ ختنی bātaa نیز هم‌ریشه است. ادعای نورایی در این گره درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF%D9%87"],
+          "ref_check": [
+            {"ref": "AEF:207", "status": "not_checked", "note": "Khaleqi Motlaq's Asas-e Eshteqaq-e Farsi is not online (refs_online.json: 'catalogue/purchase only'); it is the Persian translation of Horn, so the equivalent passage is Horn no. 155, checked above, which does read 'phl. batak (PPGl.)'."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie p. 16 s.v. bādag (PHD.txt line 233); index 'wine' line 4315", "stance": "supports", "note": "'bādaģ [?{А! | N a] wine, must' (OCR of 'bādag [bʾtk' | N bāda]'); English index: 'wine badag, may.'"},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (glossary)", "stance": "silent", "note": "grep 'bātak|bādag|bʾtk' gave no hit; Nyberg's glossary covers only the texts he edits, and 'wine' there is mad / has (line 1947)."},
+            {"src": "HRN", "where": "no. 155, p. 36", "stance": "supports", "note": "'phl. batak (PPGl.)' — Horn takes the Pahlavi form from the Pahlavi-Pazand glossaries, exactly Nourai's arrow."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "bâdeh; bâdîyeh; pâtîleh",
+          "verdict": "plausible",
+          "derivation": "باده bāde 'wine' is the regular New Persian continuation of MP bādag: final -ag > -a/-e in New Persian (bandag > banda, bādag > bāde), so this word is confirmed. بادیه bādiye 'wine-bowl' is the same etymon but reached Persian by a detour: the Aramaic/Syriac bāṭīṯā and Arabic باطیة bāṭiya 'earthen wine vessel' (attested 7th c. CE, Sunan an-Nasāʾī) belong to the same Akkadian-based family, and Mo'in's own dictionary marks باطیه as '[ع. ← باطیة، ف. بادیه]', i.e. the Arabic shape of Persian بادیه — the doublet spelling باديه ( باطيه ) that the chart itself prints is the trace of this Arabic round trip. Nourai's arrow (straight from Pahlavi bātak) is therefore a simplification but not an error of family. پاتیله / پاتیل pātile 'large copper pot' is the weak link: Dehkhoda and Mo'in give only the meaning ('ظرف بزرگ مسین… پاتیله. تیان'; Mo'in 'دیگ بزرگ مسی'), with no etymology, and no source consulted connects it with bādag/bādiye; the p-/b- alternation Nourai relies on (as in piring/biring below) is possible but unattested here, so this word is unverified. The chart's own NOTE, that VFO:18 links these to English 'pot', has no support: 'pot' is Late Latin pottus / Old English pott of obscure origin, unrelated to the batiākē family, and VFO is not even in the project's reference key.",
+          "derivation_fa": "«باده» دنبالهٔ منظم فارسی میانهٔ bādag است؛ پسوند ‑ag فارسی میانه در فارسی نو به ‑ه بدل شده (bandag > بنده، bādag > باده)، پس این واژه بی‌گمان درست است. «بادیه» به معنی «کاسهٔ می» از همین خانواده است اما از راهی دیگر رسیده: صورت آرامی/سریانی bāṭīṯā و عربی «باطیة» (گواه سدهٔ نخست هجری در سنن نسائی) هم‌ریشه‌اند و معین خودْ ذیل «باطیه» می‌نویسد «[ع. ← باطیة، ف. بادیه]»؛ یعنی همان دوگانهٔ «بادیه (باطیه)» که در نمودار آمده، نشانِ همین رفت‌وبرگشت از راه عربی است. اما «پاتیله/پاتیل» بندِ سست این گره است: دهخدا و معین تنها معنا («ظرف بزرگ مسین»، «دیگ بزرگ مسی») می‌دهند و هیچ ریشه‌شناسی نمی‌آورند و هیچ منبعی آن را به bādag نمی‌پیوندد؛ ابدال پ/ب که نورایی بر آن تکیه دارد ممکن است ولی در اینجا گواهی ندارد. یادداشتِ نمودار دربارهٔ پیوند این واژه‌ها با pot انگلیسی نیز پذیرفتنی نیست: pot از لاتینی متأخر pottus است و ربطی به این خانواده ندارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF%D9%87",
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B7%D9%8A%D8%A9",
+            "https://abadis.ir/fatofa/%D9%BE%D8%A7%D8%AA%DB%8C%D9%84/"
+          ],
+          "ref_check": [
+            {"ref": "AEF:207", "status": "not_checked", "note": "not online (see node 1); the German original Horn no. 155 (p. 36) carries the bāde/bādye pair — 'bādye Weingefäss, vergl. bāde Wein' — but has no پاتیله."}
+          ],
+          "consulted": [
+            {"src": "BQT", "where": "Borhan-e Qate' vol. 1, s.v. باده (BQT_v1_pages.txt line 16477)", "stance": "supports", "note": "'باده _ بفتح [اول] … : شراب ، در پهلوی … (اونوال ۳۹۲) ، معرب آن باذق' — Mo'in's footnote gives the Pahlavi antecedent and the Arabicized form باذق, i.e. the same chain Nourai draws."},
+            {"src": "MON", "where": "Farhang-e Farsi s.v. باده (MON_part1.txt line 20025) and s.v. باطیه (line 20671)", "stance": "partial", "note": "'باده: bāda (اِ.) نوشابه‌ای که مستی آورد' — no etymology; but s.v. باطیه: '[ع. ← باطیة، ف. بادیه] ظرف سفالینی که در آن شراب نگاه دارند' explicitly makes Arabic باطیة the counterpart of Persian بادیه. Mo'in's only بادیه headword (line 20048) is the unrelated Arabic بادیة 'desert'."},
+            {"src": "PHD", "where": "MacKenzie p. 16 s.v. bādag", "stance": "supports", "note": "'bādag [bʾtk' | N bāda] wine, must' — MacKenzie himself gives New Persian bāda as the descendant."},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e rishe-ha", "stance": "silent", "note": "grep 'باده' in incoming/ARY/ARY_pages.txt: no hit (the book covers IE roots; a Semitic loan is out of its scope)."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Bazda",
+      "verdict": "plausible",
+      "modern_form": "Avestan bazda- 'afflicted, diseased' (past participle of ban- 'to afflict, make ill'), taken by Gharib as the source of Sogdian ʾβž 'bad, evil'",
+      "note": "The form and the language label are right: Avestan bazda- is real, attested in the Nērangestān (N 56), and Bartholomae s.v. glosses it 'erkrankt, krank, siech' — the past participle of ban- 'to fall/make ill' (Cheung, root *ban 'to afflict, be afflicted', with Khotanese basdaa-). What is not Avestan is the GLOSS: 'bad, sin' is the Sogdian meaning, projected back onto the Avestan etymon. Nourai is however faithfully following his cited source: Gharib's Sogdian dictionary, entry 464 (printed p. 18), writes the etymology of ʾβj- as '© < Av. bazda'. So the root box is a correct transcript of a real scholarly proposal whose semantic step ('afflicted, sick' → 'bad, foul, sinful') is Gharib's, not something modern handbooks state independently; Cheung lists no Sogdian reflex under *ban. Hence 'plausible' rather than 'confirmed'.",
+      "note_fa": "صورت و برچسب زبانی درست است: bazda- اوستایی واقعاً هست (نیرنگستان ۵۶) و بارتولومه آن را «erkrankt, krank, siech» (بیمار، رنجور) معنی می‌کند؛ اسم مفعولِ ban- «بیمار کردن، رنجاندن» است و چونگ نیز آن را زیر ریشهٔ *ban «رنجاندن» با ختنی basdaa- می‌آورد. آنچه اوستایی نیست، معناست: «بد، گناه» معنای سغدی است که به صورت اوستایی بازتابانده شده. با این همه نورایی امانت‌دار منبع خویش است: قریب در «فرهنگ سغدی»، مدخل ۴۶۴ (ص ۱۸ چاپی)، ریشه‌شناسی ʾβj- را چنین می‌نویسد: «< Av. bazda». پس این جعبهٔ ریشه نقلِ درستِ یک پیشنهاد علمی است که گام معناییِ آن («بیمار» ← «بد، پلید، گناه‌آلود») از آنِ قریب است و در فرهنگ‌های امروزی به‌صورت مستقل تأیید نشده؛ از این رو «با احتیاط پذیرفتنی».",
+      "sources": [],
+      "ref_check": [
+        {"ref": "SOD:18", "status": "supports", "note": "Gharib, Sogdian Dictionary, entry 464 'ʾβj- M … ©<Av. bazda … bad, evil, pain' (SOD.txt line 10522). The page numerals in the OCR put entry 464 between the markers '18' (line 10448) and '19' (line 10596), so entry 464 stands on printed p. 18 — Nourai's SOD:18 is a page citation and it is exact."}
+      ],
+      "consulted": [
+        {"src": "BRT", "where": "Bartholomae, AiW s.v. bazda- (BRT.txt line 17049; cross-ref. at line 16708)", "stance": "partial", "note": "'j. bazda- Adj. \"erkrankt, krank, siech\"; … pasuš.ca … bazda nōit irišta … N.56'; and under band- 'PPfP. bazda- (s. bes.)'. The word exists but is glossed 'diseased', not 'bad, sin'."},
+        {"src": "CHEUNG", "where": "Etymological Dictionary of the Iranian Verb, root *ban 'to afflict, be afflicted' (CHEUNG.txt line 1557 ff.)", "stance": "partial", "note": "'*ban \"to afflict, be afflicted\". AVESTAN: ban- (caus.) \"to make ill, afflict\" … not supported by the ppp. bazda- (N 56), Khot. basdaā-'. Confirms the Avestan form and its 'afflict' sense; lists no Sogdian ʾβž under this root."},
+        {"src": "SOD", "where": "Gharib entries 464, 579-584", "stance": "supports", "note": "the whole ʾβž- family (ʾβyz- 'bad, evil', ʾβyzʾkrtyh 'evil deed, sin', ʾβyzʾngārē 'evildoer') sits together, so the semantic range Nourai gives the root is exactly the Sogdian one."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sogdian",
+          "words": "`bz, `bj, `bž, `byz",
+          "verdict": "confirmed",
+          "derivation": "All four shapes are genuine Sogdian spellings of one word, differing only by script and scribal habit: Gharib's entry 464 heads it ʾβj- (Manichaean script) and reads it (ə)βž, βiž, βaž, βež, listing βyz-, βz- as variants and cross-referring to ʾβyz-, ʾβz-, βj-, βyj-, βz-; entry 579 ʾβyz- (Buddhist and Christian Sogdian) glosses it 'bad, evil'. The initial ʾ- is the prothetic aleph that Sogdian writes before an initial fricative cluster, and β is the bilabial fricative from Old Iranian *b-; the second consonant is /ž/, spelled z, j, ž or yz depending on the script. Derivatives in the same dictionary (ʾβyzʾkrtyh 'evil deed, sin', ʾβyzʾngārē 'evildoer', ʾβžāxūk 'miserable') show the range 'bad, evil, sin' that Nourai's gloss gives. Gharib's own references are 'GMS 179, 510; Hen. LW 101' — Gershevitch's Grammar of Manichean Sogdian and Henning's 'Sogdian Loan-words in New Persian' p. 101, which is Nourai's SLW:101.",
+          "derivation_fa": "هر چهار صورت، نگارش‌های گوناگون یک واژهٔ سغدی‌اند و تفاوتشان تنها به خط و عادت کاتبان است: قریب در مدخل ۴۶۴ سرواژه را ʾβj- (خط مانوی) می‌آورد و (ə)βž، βiž، βaž، βež می‌خواند و βyz-، βz- را نیز گونه می‌شمارد؛ مدخل ۵۷۹ همان را در سغدی بودایی و مسیحی ʾβyz- «بد، شرّ» ثبت کرده است. الفِ آغازین، الفِ پیشین (prothetic) سغدی است و β همان واکهٔ سایشی دولبی برآمده از *b ایرانی باستان؛ همخوان دوم /ژ/ است که بسته به خط z، j، ž یا yz نوشته می‌شود. مشتقات همین ریشه در فرهنگ قریب (ʾβyzʾkrtyh «گناه»، ʾβyzʾngārē «بدکار»، ʾβžāxūk «بیچاره») همان گسترهٔ معنایی «بد، گناه» را نشان می‌دهد. ارجاع خود قریب «GMS 179, 510; Hen. LW 101» است، یعنی همان SLW:101 نورایی.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "SOD:18", "status": "supports", "note": "SOD.txt line 10522, entry 464: 'ʾβj- M | aJ3z, Piz, Paz, Pez (byz-, bz-) ©<Av. bazda ©ob. -y =>ʾβyz-, ʾβz-, βj-, βyj-, βyz-, βz- | bad, evil, pain | GMS 179, 510; Hen. LW 101' (OCR renders β as P/p). Printed p. 18, between the page markers 18 and 19."},
+            {"ref": "SLW:101", "status": "not_checked", "note": "Henning, 'Sogdian Loan-words in New Persian', BSOS X/1 (1939) p. 101 is not in the local scan of Henning's Selected Papers (grep 'Sogdian loan' in HENNING_selected_papers.txt returns only an unrelated passage on a Turkish loan). Corroborated indirectly twice over: Gharib cites 'Hen. LW 101' for this very entry, and Mo'in's footnote in Borhan-e Qate' p. 1485 cites 'Henning, BSOS X-1, p. 101-102' for the Persian reflexes."}
+          ],
+          "consulted": [
+            {"src": "SOD", "where": "entries 464, 579-584, 594-601 (SOD.txt lines 10522, 11241 ff., 11354 ff.)", "stance": "supports", "note": "579 'ʾβyz- B,S … bad, evil'; 582 'ʾβyzʾkrtyh … evil deed, sin'; 583 'ʾβyzʾngārē … evildoer' — the exact glosses Nourai gives."},
+            {"src": "CHEUNG", "where": "root *ban", "stance": "silent", "note": "no Sogdian reflex listed under *ban, so the Avestan ancestry of the Sogdian word rests on Gharib alone; the Sogdian word itself is not in doubt."},
+            {"src": "BRT", "where": "AiW s.v. bazda-", "stance": "partial", "note": "supplies the Avestan etymon but with the sense 'diseased'; the shift to 'bad, evil' is a Sogdian development."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "faž; fažâk; fažâğand",
+          "verdict": "plausible",
+          "derivation": "This is one of the best-documented Sogdian loans in early New Persian, and Nourai's citation lands exactly on the page that proves it. Mo'in's footnote to Borhan-e Qate' p. 1485 (vol. 3, pdf p. 278) says of فژ: 'درست از سغدی ʾβž, ʾβž-, ʾβz, سغدی مسیحی βž, βz, مانوی βž, βj, βyj «بد»، گناه … ریشه‌ای است پربار و دارای مشتقات بسیار، بعضی آنها در فارسی هم وارد شده. در برهان قاطع عناوین ذیل آمده: فژاک، فژاکن، فژاکین، فژغند، فژغنده … Henning, BSOS X-1, p. 101-102'. Phonetically the Sogdian bilabial fricative β- was heard by Persian speakers as f- (hence فژ, with the by-form پژ that Borhan also lists, showing the usual f/p wavering in loans), and Sogdian ž is kept. فژاک is the same base with the Persian adjectival -āk (Borhan's فژاکن is analysed by Mo'in, after Bailey BSOS VII 85, as the Persian compound fažh-agin), so it is a Persian formation on a Sogdian stem rather than a separate borrowing — still 'from Sogdian' in Nourai's sense. فژاغند/فژغند is the shakiest of the three: Mo'in's footnote on the next page reports Henning (BSOS X/1, p. 102 n. 1) as holding that فژغند, at least in the sense 'filthy, dirty', arises from a textual corruption (تصحیف) of فرغند, so its membership in the Sogdian family is disputed even by the authority Nourai's chain rests on. Hence the node as a whole is plausible: faž and fažāk confirmed, fažāğand doubtful.",
+          "derivation_fa": "این یکی از شناخته‌شده‌ترین وام‌واژه‌های سغدی در فارسی دری است و ارجاع نورایی درست بر همان صفحه‌ای می‌نشیند که گواه آن است. معین در حاشیهٔ برهان قاطع ص ۱۴۸۵ ذیل «فژ» می‌نویسد: «درست از سغدی ʾβž… سغدی مسیحی βž، βz، مانوی βž، βj، βyj «بد»، گناه… ریشه‌ای است پربار و دارای مشتقات بسیار، بعضی آنها در فارسی هم وارد شده… Henning, BSOS X-1, p.101-102». از نظر آوایی، واکهٔ سایشی دولبیِ سغدی (β) در گوش فارسی‌زبانان «ف» شنیده شده (از این‌رو «فژ»، با گونهٔ «پژ» که برهان نیز آورده و نمایندهٔ نوسان معمول ف/پ در وام‌واژه‌هاست) و «ژ» سغدی برجای مانده است. «فژاک» همان ستاک با پسوند فارسی ‑اک است؛ معین «فژاکن» را به پیروی از بیلی ترکیبی فارسی (fazh-agin) می‌داند، یعنی ساختی فارسی بر پایهٔ ستاکی سغدی. اما «فژاغند/فژغند» سست‌ترین بند است: معین در حاشیهٔ صفحهٔ پس از آن از حنینگ نقل می‌کند که «فژغند، لااقل به معنی پلید و چرکین، ناشی از تصحیف فرغند است». پس در مجموع: «فژ» و «فژاک» تأییدشده و «فژاغند» مشکوک.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "BQT:1485", "status": "supports", "note": "Exact hit. Printed p. 1485 = vol. 3 pdf p. 278 (BQT_v3_pagemap.json maps printed 1485 → pdf 278); the OCR block tagged [pdf page 278] in incoming/BQT/BQT_v3_pages.txt (lines 20150-20220) carries the headword فژ 'چرک' and the footnote quoted in the derivation, with the Sogdian forms and the Henning citation. The next page (1486) carries فژاک، فژاکن، فژاکین، فژغند، فژغنده with their own footnotes."}
+          ],
+          "consulted": [
+            {"src": "BQT", "where": "vol. 3, printed pp. 1485-1486, Mo'in's footnotes 8 and 4", "stance": "supports", "note": "'…«فژ» … درست از سغدی ʾβž … مانوی βž، βj، βyj «بد»، گناه … Henning, BSOS X-1, p.101-102'; and on p. 1486 'حنینگ گوید: فژغند، لااقل بمعنی پلید و چرکین، ناشی از تصحیف «فرغند» است' plus 'Bailey, BSOS VII, p.85 … fazh-agin ترکیبی فارسی است'."},
+            {"src": "MON", "where": "Mo'in, Farhang-e Farsi s.v. فژ (MON_part1.txt line 31416) and فژاک (MON_part2.txt line 7283)", "stance": "supports", "note": "'فژ (اِ.) چرک، ریم، پلیدی'; 'فژاک (ص.مر.) چرکین، چرکن'; and 'فژاکن … [فژ + ‑اکن]' — the same base and the same derivational analysis."},
+            {"src": "FRS", "where": "Asadi Tusi, Loghat-e Fors (FRS_pages.txt lines 3769, 11201; FRS.txt line 16082)", "stance": "supports", "note": "'پلید و پلشت باشد و فژاکن [رودکی گوید…]' and 'کیست چون تو فژاکن و فژغند' — 11th-c. attestation of both فژاکن and فژغند in the sense 'filthy', i.e. the words are genuinely early New Persian, as a Sogdian loan of the Samanid period should be."},
+            {"src": "SOD", "where": "Gharib entry 464", "stance": "supports", "note": "gives the Sogdian source forms and cites Henning's loan-word paper p. 101 for exactly this transfer."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Berenža",
+      "verdict": "disputed",
+      "modern_form": "New Persian برنج berenj / پرنگ pereng 'brass, copper', from Middle Persian brinǰ (Manichaean MP brynng), Parthian plinǰ — a Middle Iranian culture-word of disputed, probably non-Indo-European origin; there is no Avestan *bərənža- 'brass'",
+      "note": "The root box does not survive checking. (a) No Avestan word 'berenža 'brass'' is attested. What Horn actually writes on the page Nourai cites (HRN:48, no. 208bis) is: '(2)birinj \"Kupfer\". Zusammenhang mit aw. bərəǰya- (in parō.bərəǰya-) ist durchaus unsicher' — 'the connection with Avestan bərəǰya- (in parō.bərəǰya-) is thoroughly uncertain'. bərəǰya- is not a word for brass; it occurs only inside the obscure Avestan compound parō.bərəǰya-. Nourai has promoted Horn's explicitly rejected guess to a root box, dropped the caveat, and given it the gloss of the Persian word. (b) Hübschmann, Persische Studien §209bis (pp. 27-28), reviewing the same material, concludes 'Wohl Fremdwort im Iranischen' — probably a loanword within Iranian. (c) Modern handbooks (Wiktionary s.v. برنج, following Encyclopaedia Iranica) derive NP berenj from MP brinǰ / Man. MP brynng 'bronze, brass', with Parthian plinǰ, Old Armenian płinj, Old Georgian ṗilenʒi, Syriac plezzā as the Middle Iranian spread, and call the ultimate origin onomatopoeic ('imitative of ringing brass') — not Avestan. (d) The spelling itself: Horn's form is bərəǰya- with ǰ, not ž. Also note that Horn's neighbouring no. 208 is birinj 'rice' (< *vrinji-), an entirely different word; Nourai correctly keeps them apart by writing 'berenj 1'.",
+      "note_fa": "این جعبهٔ ریشه پذیرفتنی نیست. نخست آنکه واژهٔ اوستایی «بِرِنژَه» به معنی «برنج/مفرغ» گواهی ندارد. آنچه هرن در همان ص ۴۸ (شمارهٔ ۲۰۸ مکرر) نوشته این است: «(۲)birinj «مس». پیوند آن با اوستایی bərəǰya- (در parō.bərəǰya-) به‌کلی نامطمئن است» — یعنی خودِ منبعِ استنادشده این پیوند را رد می‌کند و bərəǰya- هم واژه‌ای به معنی برنج نیست، بلکه تنها در ترکیب مبهم parō.bərəǰya- می‌آید. دوم، هوبشمان در «مطالعات فارسی» (بند ۲۰۹ مکرر، ص ۲۷–۲۸) پس از بررسی همین شواهد نتیجه می‌گیرد: «احتمالاً وام‌واژه‌ای در ایرانی است». سوم، پژوهش امروزی (ویکی‌واژه به پیروی از دانشنامهٔ ایرانیکا) «برنج» را از فارسی میانهٔ brinǰ / مانوی brynng می‌گیرد، با هم‌ریشه‌های پارتی plinǰ، ارمنی کهن płinj، گرجی کهن ṗilenʒi و سریانی plezzā، و خاستگاه نهایی را نام‌آوا (تقلید آوای زنگِ فلز) می‌داند، نه اوستایی. افزون بر این، صورت هرن bərəǰya- با «ج» است نه «ژ». پس: پژوهش امروزی ادعای نورایی را رد می‌کند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%86%D8%AC"
+      ],
+      "ref_check": [
+        {"ref": "HRN:48", "status": "contradicts", "note": "Horn no. 208bis, printed p. 48 (HRN.txt lines 2214-2219): '(2)birinj \"Kupfer\". Zusammenhang mit aw. berejya- (in parö.berejya-) ist durchaus unsicher; vergl. Schrader, Sprachvergleichung und Urgeschichte 273, 274, kurd. LW. birinj, bel. LW. brinj (34)'. The cited page states the opposite of the arrow: Horn calls the Avestan connection thoroughly uncertain and treats the Kurdish and Balochi forms as loans from Persian."}
+      ],
+      "consulted": [
+        {"src": "HUB", "where": "Hübschmann, Persische Studien §209bis, pp. 27-28 (HUB.txt lines 888-895)", "stance": "contradicts", "note": "'Np. birinj \"Kupfer, Messing\" … ist nach Vullers die (jüngere) Nebenform zu piring … Zu ihr stimmt kurd. pirinjok = birinj \"bronze\" und arm. płinj \"Kupfer, Kupfergeld, Münze, Erz, Messing\" (5. Jhd.). Wohl Fremdwort im Iranischen.' Repeated at HUB p. 69 (line 6191): 'birinj \"Kupfer\" = arm. płinj, s. oben p. 27-28'."},
+        {"src": "BRT", "where": "Altiranisches Wörterbuch", "stance": "not_found", "note": "grep for 'berejya', 'brzya', 'parö.b' in BRT.txt found no usable entry (the OCR of Avestan diacritics is very poor, so this is not proof of absence); in any case no Avestan word glossed 'brass' turned up."},
+        {"src": "POK", "where": "Pokorny IEW", "stance": "silent", "note": "grep 'birinj|Messing' in POK_full.txt: no hits — the word has no Indo-European root entry, consistent with its being a culture-word."},
+        {"src": "LKT", "where": "Lokotsch no. 1657 (LKT.txt lines 3767-3790)", "stance": "supports", "note": "'1657. Pers. piring: Auch biring \"Kupfer\" [Horn NpEt S. 48, Nr. 208bis]; hieraus mlat. bronzium, it. bronzo, frz. sp. bronce, frz. bronze; ndl. brons, engl. bronze, dtsch. Bronze…' — supports the Persian→European half of Nourai's chart (see the nodes), while saying nothing for an Avestan origin."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "berenj 1",
+          "verdict": "plausible",
+          "derivation": "The word itself is beyond doubt: برنج berenj 'brass' (kept apart in the chart from berenj 2 'rice' by the numeral) is inherited from Middle Persian brinǰ, spelled blnc in Book Pahlavi and brynng /bring/ in Manichaean Middle Persian with the meaning 'bronze, brass'; its Parthian counterpart is plinǰ, and the by-form پرنگ pereng with p- is what Vullers and Hübschmann record. The same Middle Iranian word was borrowed all round the Caucasus (Old Armenian płinj, Old Georgian ṗilenʒi 'copper', Udi ṗilinǯ, Syriac plezzā), which is why it is usually taken for a wandering metal-name rather than an inherited Iranian noun; Encyclopaedia Iranica suggests an onomatopoeic origin, imitative of ringing metal. What is only 'plausible' is the ARROW: the chart makes berenj descend from an Avestan 'Berenža', and the source Nourai cites for it (Horn p. 48) explicitly calls that connection 'durchaus unsicher', while Hübschmann calls the word a loan within Iranian. So: real word, right meaning, unproven ancestry.",
+          "derivation_fa": "خودِ واژه تردیدناپذیر است: «برنج ۱» (که نورایی با شمارهٔ ۱ آن را از «برنج ۲» به معنی غله جدا کرده) از فارسی میانهٔ brinǰ به ارث رسیده؛ در پهلوی کتابی blnc و در فارسی میانهٔ مانوی brynng /bring/ «مفرغ، برنج» نوشته می‌شود و همتای پارتی آن plinǰ است؛ گونهٔ «پرنگ» با «پ» را ولرس و هوبشمان ثبت کرده‌اند. همین واژهٔ ایرانی میانه در سراسر قفقاز وام گرفته شده (ارمنی کهن płinj، گرجی کهن ṗilenʒi «مس»، اودی ṗilinǯ، سریانی plezzā)، و از همین‌رو آن را نامِ سرگردانِ فلز می‌دانند نه اسمی ایرانی‌الاصل؛ دانشنامهٔ ایرانیکا خاستگاه آن را نام‌آوا (تقلید آوای زنگ فلز) می‌داند. آنچه تنها «با احتیاط پذیرفتنی» است، خودِ پیکان است: نمودار «برنج» را از «Berenža»ی اوستایی می‌گیرد، حال آنکه هرن در همان ص ۴۸ این پیوند را «به‌کلی نامطمئن» می‌خواند و هوبشمان واژه را وام‌واژه‌ای درون‌ایرانی می‌شمارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%86%D8%AC"
+          ],
+          "ref_check": [
+            {"ref": "HRN:48", "status": "partial", "note": "Horn no. 208bis, p. 48, has the word with the gloss 'Kupfer' (copper) rather than 'brass', and rejects the Avestan link: 'Zusammenhang mit aw. bərəǰya- … ist durchaus unsicher'. It therefore supports the existence and the Iranian standing of berenj, but not the arrow drawn from the root box."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Persische Studien §209bis, pp. 27-28", "stance": "partial", "note": "'Np. birinj \"Kupfer, Messing\" … arm. płinj … (5. Jhd.). Wohl Fremdwort im Iranischen.' Word confirmed, Iranian ancestry denied."},
+            {"src": "LKT", "where": "Lokotsch no. 1657", "stance": "supports", "note": "'Pers. piring: Auch biring \"Kupfer\" [Horn NpEt S. 48, Nr. 208bis]' — the Persian word is the starting point of the whole European chain."},
+            {"src": "MON", "where": "Mo'in, Farhang-e Farsi", "stance": "silent", "note": "grep 'برنج:' in MON_part1.txt found only the compound شیربرنج; the two-volume OCR on disk has no usable برنج headword."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Latin",
+          "words": "bronzium",
+          "verdict": "plausible",
+          "derivation": "The form is right but the label needs qualifying: bronzium is MEDIEVAL Latin, not classical Latin — it is the Latin shape behind Italian bronzo, first visible in medieval metallurgical usage, and Etymonline states plainly 'from Italian bronzo, from Medieval Latin bronzium, which is of uncertain origin'. That a Persian metal-name lies behind it is one live theory and the one Nourai adopts; it is exactly what Lokotsch no. 1657 argues ('Pers. piring … hieraus mlat. bronzium, it. bronzo …'), and Klein, on the page Nourai cites, agrees in substance ('bronze, n. — F., fr. It. bronzo, bronzino, ult. fr. Persian birinj'), though Klein goes straight from Italian to Persian without a Latin waystation. Against it stand two rivals that the same handbooks list: Byzantine Greek βροντήσιον from Brundisium/Brindisi (Pliny's aes Brundusinum, mirrors of Brindisi — Berthelot 1888), and a Germanic source, Old High German brūn 'brown' via Medieval Latin brunitius. Skeat and Funk & Wagnalls take the Germanic line outright. Lokotsch calls the rivals 'weniger wahrscheinlich'; Etymonline and Wiktionary leave the question open. So 'plausible', not 'confirmed'.",
+          "derivation_fa": "صورت درست است اما برچسب زبانی نیازمند قید: bronzium لاتینیِ میانه (قرون‌وسطایی) است نه لاتینی کلاسیک؛ همان صورتی که پشتِ ایتالیایی bronzo ایستاده است. اتیمانلاین می‌نویسد: «از ایتالیایی bronzo، از لاتینی میانهٔ bronzium که خاستگاهش نامعلوم است». اینکه نامی ایرانی برای فلز پشت آن باشد یکی از فرضیه‌های زنده است و همان است که نورایی برگزیده؛ لوکوچ (شمارهٔ ۱۶۵۷) دقیقاً همین را می‌گوید: «فارسی piring/biring «مس» … از آن لاتینی میانهٔ bronzium، ایتالیایی bronzo …»؛ کلاین نیز در همان صفحهٔ ۲۰۳ که نورایی ارجاع داده در اصلِ مطلب هم‌داستان است، هرچند بی‌واسطهٔ لاتینی: «bronze از فرانسه، از ایتالیایی bronzo، در نهایت از فارسی birinj». در برابر آن دو فرضیهٔ رقیب هست: یونانیِ بیزانسی βροντήσιον از Brundisium (بریندیزی، به گواه پلینیوس) و خاستگاه ژرمنی از brūn «قهوه‌ای». لوکوچ این دو را «کم‌احتمال‌تر» می‌داند و اسکیت و فانک‌واگنالز درست همان ژرمنی را می‌پذیرند. پس: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/bronze",
+            "https://en.wiktionary.org/wiki/bronze"
+          ],
+          "ref_check": [
+            {"ref": "KLN:203", "status": "partial", "note": "Klein, Comprehensive Etymological Dictionary, p. 203 (the page numeral '203' stands a few lines above the entry in KLN_1966.txt, line 5712): 'bronze, n. — F., fr. It. bronzo, bronzino, ult. fr. Persian birinj.' Klein supports the Persian origin and the French/Italian route but posits no Latin bronzium."},
+            {"ref": "PRT:60", "status": "not_checked", "note": "Partridge, Origins (1958) is lending-only on archive.org and has no local copy (refs_online.json: 'RE-SEARCH 2026-09: 8 lending copies, none open')."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "Lokotsch, Etymologisches Wörterbuch der europäischen Wörter orientalischen Ursprungs, no. 1657", "stance": "supports", "note": "'Pers. piring: Auch biring \"Kupfer\" [Horn NpEt S. 48, Nr. 208bis]; hieraus mlat. bronzium, it. bronzo, frz. sp. bronce, frz. bronze; ndl. brons, engl. bronze, dtsch. Bronze … [Die anderen Ableitungen sind weniger wahrscheinlich: 1. Ahd. *brunizzo … 2. Mlat. obryzum … 3. Mgr. βροντήσιον < lat. aes brundisium …]'. This is the single closest match to Nourai's whole chart, Medieval Latin bronzium included."},
+            {"src": "SKT", "where": "Skeat, Concise Etymological Dictionary s.v. Bronze (SKT.txt line 2332)", "stance": "contradicts", "note": "'Bronze. (F.-Ital.-Teut.) See Brown.' Skeat routes it to Germanic *brūn 'brown', not to Persian."},
+            {"src": "FSD", "where": "Funk & Wagnalls New Standard Dictionary s.v. bronze (FSD_vol1.txt line 50535 ff.)", "stance": "contradicts", "note": "the etymology bracket ends '[F., < It. bronzo, brass, < brown, < OHG. brūn]' — the Germanic derivation again."},
+            {"src": "LAT", "where": "Ernout-Meillet", "stance": "silent", "note": "grep 'bronz' in LAT.txt returns only French glosses of aes; bronzium is post-classical and outside the dictionary's scope, which is itself evidence that the label 'Latin' should read 'Medieval Latin'."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Italian",
+          "words": "bronzo",
+          "verdict": "confirmed",
+          "derivation": "Italian bronzo 'bronze' is attested from the 13th century and is the immediate source of every other European form; Wiktionary dates French bronze to 1511 'from Italian bronzo (13th c.)'. The Italian word continues Medieval Latin bronzium with the regular Italian outcome -ium > -o. Whatever the ultimate origin of bronzium, this link in the chain is uncontroversial: Klein, Skeat, Lokotsch, Etymonline and Wiktionary all route the word through Italian.",
+          "derivation_fa": "«bronzo» ایتالیایی از سدهٔ سیزدهم میلادی گواهی شده و سرچشمهٔ بی‌واسطهٔ همهٔ صورت‌های اروپایی دیگر است؛ ویکی‌واژه صورت فرانسوی bronze را به سال ۱۵۱۱ و برگرفته از ایتالیایی bronzo می‌داند. واژهٔ ایتالیایی دنبالهٔ لاتینی میانهٔ bronzium است با تحول منظم ‑ium به ‑o. خاستگاه نهایی bronzium هرچه باشد، این حلقه از زنجیره مورد اختلاف نیست: کلاین، اسکیت، لوکوچ، اتیمانلاین و ویکی‌واژه همگی مسیر را از ایتالیایی می‌گذرانند. ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/bronze",
+            "https://en.wiktionary.org/wiki/bronze"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "the node carries no reference in the book; checked against Klein p. 203, Lokotsch 1657 and Etymonline instead."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "p. 203 s.v. bronze", "stance": "supports", "note": "'bronze, n. — F., fr. It. bronzo, bronzino…'"},
+            {"src": "LKT", "where": "no. 1657", "stance": "supports", "note": "'…hieraus mlat. bronzium, it. bronzo, frz. sp. bronce, frz. bronze…' — Italian in exactly Nourai's position."},
+            {"src": "SKT", "where": "s.v. Bronze", "stance": "partial", "note": "'Bronze. (F.-Ital.-Teut.)' — Skeat too has French from Italian; he differs only on what lies beyond Italian."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "A pass-through node with no word printed: it stands for French bronze, borrowed from Italian bronzo and first recorded in 1511 (Wiktionary), from which English took the noun in 1721 and Persian took برنز in the 20th century. Etymonline: 'from French bronze, from Italian bronzo'. Nothing in the chart depends on this node beyond the routing, and the routing is standard.",
+          "derivation_fa": "این گره گذرگاهی است و در کتاب واژه‌ای در آن چاپ نشده؛ منظور واژهٔ فرانسویِ bronze است که از ایتالیایی bronzo وام گرفته شده و نخستین گواه آن ۱۵۱۱ میلادی است (ویکی‌واژه). انگلیسی اسم bronze را در ۱۷۲۱ از فرانسه گرفته و فارسی «برنز» را در سدهٔ بیستم. اتیمانلاین: «از فرانسویِ bronze، از ایتالیایی bronzo». مسیرِ ترسیم‌شده استاندارد است و درست.",
+          "sources": [
+            "https://www.etymonline.com/word/bronze",
+            "https://en.wiktionary.org/wiki/bronze"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "no reference printed for this node; checked against Etymonline and Wiktionary, which both give French bronze < Italian bronzo."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "p. 203 s.v. bronze", "stance": "supports", "note": "'bronze, n. — F., fr. It. bronzo' — English from French, French from Italian."},
+            {"src": "LKT", "where": "no. 1657", "stance": "supports", "note": "'…it. bronzo, frz. sp. bronce, frz. bronze; ndl. brons, engl. bronze, dtsch. Bronze…'"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "bronz",
+          "verdict": "confirmed",
+          "derivation": "برنز beronz is a modern European loan in Persian, taken from French bronze during the 19th-20th century wave of technical borrowings (the French shape, not the English, is shown by the final -z and by the vowel). Mo'in's dictionary labels it outright: 'برنز. [بْرُ / بُ رُ] (فرانسوی، اِ) آلیاژی که از آمیختن مس و قلع بدست می‌آید. مفرغ.' The word is thus a round trip in Nourai's sense — a Middle Iranian metal-name that travelled to Italy, France and back — but only if the Persian origin of bronzium (node 2) is accepted; the loan from French itself is certain. Persian keeps its inherited برنج for 'brass' and uses برنز/مفرغ for the copper-tin alloy.",
+          "derivation_fa": "«برنز» وام‌واژه‌ای اروپایی و امروزی در فارسی است که در موج وام‌گیری‌های فنی سدهٔ سیزدهم و چهاردهم خورشیدی از فرانسویِ bronze گرفته شده (صورت فرانسوی است نه انگلیسی، چنان‌که پایانهٔ ‑ز و واکهٔ آن نشان می‌دهد). معین صریح می‌نویسد: «برنز. (فرانسوی، اِ) آلیاژی که از آمیختن مس و قلع به دست می‌آید. مفرغ.» پس این واژه ــ اگر ریشهٔ ایرانیِ bronzium پذیرفته شود ــ نمونهٔ رفت‌وبرگشت است: نامِ فلزی ایرانی میانه که به ایتالیا و فرانسه رفت و بازگشت؛ اما خودِ وام‌گیری از فرانسه قطعی است. فارسی برای «برنج» (آلیاژ مس و روی) همان واژهٔ ارثی و برای آلیاژ مس و قلع «برنز/مفرغ» را به کار می‌برد.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%A8%D8%B1%D9%86%D8%B2/"
+          ],
+          "ref_check": [
+            {"ref": "MON", "status": "not_found", "note": "Nourai cites MON without a volume/page. برنز is absent from the local OCR of Mo'in (MON_part1/part2 and the two-volume Adena scan: only برنزی in a bird description at line 73670); it belongs to Mo'in's vol. 4 of foreign words, which is not on disk. The entry was recovered instead from abadis.ir, which quotes it verbatim with the attribution '(فرهنگ فارسی معین)': 'برنز. (فرانسوی، اِ) آلیاژی که از آمیختن مس و قلع بدست می‌آید. مفرغ.' — so the citation is right, just not checkable in the local copy."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Farhang-e Farsi s.v. برنز, quoted at abadis.ir", "stance": "supports", "note": "'(فرانسوی، اِ)' — Mo'in labels the word French, exactly the arrow French → Persian that the chart draws."},
+            {"src": "LKT", "where": "no. 1657", "stance": "supports", "note": "lists the modern spread of French/Italian bronze into Dutch, English, German, Russian, Czech, Polish, Serbian; Persian برنز is the same 19th-20th c. wave."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "bronze",
+          "verdict": "confirmed",
+          "derivation": "English bronze 'alloy of copper and (usually) tin' is first recorded in 1721 (Etymonline; Wiktionary cites Matthew Prior for the first use), borrowed from French bronze. Before that Middle English made no distinction between the copper-tin and copper-zinc alloys and called both bras, which is why bronze was needed as a new term. The verb (1640s 'to give the colour of bronze to') came in from French bronzer. Nourai's node is correct in form, meaning and route; the AHD citation is to the main dictionary, not to the Indo-European appendix (Watkins has no entry for this word, since it is a wandering culture-word, not an IE inheritance).",
+          "derivation_fa": "واژهٔ انگلیسیِ bronze «آلیاژ مس و (معمولاً) قلع» نخستین بار در ۱۷۲۱ میلادی ثبت شده (اتیمانلاین؛ ویکی‌واژه نخستین کاربرد را از متیو پرایر می‌آورد) و از فرانسویِ bronze وام گرفته شده است. در انگلیسیِ میانه میان آلیاژ مس‑قلع و مس‑روی فرق نمی‌گذاشتند و هر دو را bras می‌نامیدند؛ از همین رو به واژهٔ تازه‌ای نیاز افتاد. فعل bronze «به رنگ برنز درآوردن» (دههٔ ۱۶۴۰) از bronzer فرانسوی آمده است. گره نورایی از نظر صورت، معنا و مسیر درست است؛ ارجاع AHD به خودِ فرهنگ است نه به پیوستِ ریشه‌های هندواروپایی، چون واتکینز برای این واژه مدخلی ندارد (واژه‌ای سرگردان و فرهنگی است، نه میراث هندواروپایی).",
+          "sources": [
+            "https://www.etymonline.com/word/bronze",
+            "https://en.wiktionary.org/wiki/bronze"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "not_found", "note": "Nourai cites AHD bare, i.e. the dictionary body. The local copy is Watkins's Indo-European Roots appendix (AHD_watkins1985.txt), where 'bronze' occurs only in prose remarks under ayes- ('A metal, copper or bronze. Latin aes… [Pok. aios- 15]') — there is no root entry for bronze, as expected for a borrowed culture-word."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "p. 203 s.v. bronze", "stance": "supports", "note": "'bronze, n. — F., fr. It. bronzo, bronzino, ult. fr. Persian birinj.' English from French, and Klein even endorses the Persian ultimate origin."},
+            {"src": "SKT", "where": "s.v. Bronze (SKT.txt line 2332)", "stance": "partial", "note": "'Bronze. (F.-Ital.-Teut.) See Brown.' — same French/Italian route into English, different ultimate source."},
+            {"src": "FSD", "where": "s.v. bronze (FSD_vol1.txt lines 50531-50535)", "stance": "partial", "note": "'bronze, n. 1. A reddish-brown alloy of copper and tin…' with the etymology '[F., < It. bronzo, brass, < brown, < OHG. brūn]' — the English-from-French step confirmed, the origin disputed."}
+          ]
+        }
+      ]
+    }
+  ]
+}
