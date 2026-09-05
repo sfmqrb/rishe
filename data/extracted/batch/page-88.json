@@ -16,7 +16,11 @@
           "lang": "Avestan",
           "refs": "POK:127; KLN:1109",
           "words": [
-            {"translit": "bazah", "gloss": "height, depth", "script": null}
+            {
+              "translit": "bazah",
+              "gloss": "height, depth",
+              "script": null
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -28,11 +32,18 @@
           "lang": "Persian",
           "refs": "MON:452",
           "words": [
-            {"translit": "bâz", "gloss": "distance between stretched hands", "script": "باز ۱"}
+            {
+              "translit": "bâz",
+              "gloss": "distance between stretched hands",
+              "script": "باز ۱"
+            }
           ],
           "script_extra": "بازه ، باژ ۱",
           "note": null,
-          "quote": {"text": "بلندیش با چرخ همباز بود - ستبریش بیش از چهل باز بود", "poet": "Asadî"}
+          "quote": {
+            "text": "بلندیش با چرخ همباز بود - ستبریش بیش از چهل باز بود",
+            "poet": "Asadî"
+          }
         },
         {
           "id": 3,
@@ -40,7 +51,11 @@
           "lang": "Sogdian",
           "refs": "SOD:137",
           "words": [
-            {"translit": "db`nz", "gloss": "wide, coarse", "script": null}
+            {
+              "translit": "db`nz",
+              "gloss": "wide, coarse",
+              "script": null
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -52,7 +67,11 @@
           "lang": "Greek",
           "refs": "AHD",
           "words": [
-            {"translit": "paxus", "gloss": "tick", "script": null}
+            {
+              "translit": "paxus",
+              "gloss": "tick",
+              "script": null
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -64,8 +83,19 @@
           "lang": "English",
           "refs": "AHD",
           "words": [
-            {"translit": "pachy-", "gloss": "thick", "script": null},
-            {"translit": "pachyderm", "gloss": "thick-skinned animals", "script": null, "see": ["Der 1"]}
+            {
+              "translit": "pachy-",
+              "gloss": "thick",
+              "script": null
+            },
+            {
+              "translit": "pachyderm",
+              "gloss": "thick-skinned animals",
+              "script": null,
+              "see": [
+                "Der 1"
+              ]
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -88,8 +118,16 @@
           "lang": "Avestan / Old Persian",
           "refs": "POK:128",
           "words": [
-            {"translit": "bar", "gloss": "to carry, ride a horse", "script": null},
-            {"translit": "baraiti", "gloss": "carries", "script": null}
+            {
+              "translit": "bar",
+              "gloss": "to carry, ride a horse",
+              "script": null
+            },
+            {
+              "translit": "baraiti",
+              "gloss": "carries",
+              "script": null
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -101,9 +139,24 @@
           "lang": "Pahlavi",
           "refs": "BQT:253",
           "words": [
-            {"translit": "burtan", "gloss": "to carry away", "script": null},
-            {"translit": "bâr 1", "gloss": "load", "script": null},
-            {"translit": "xâyak-bâr", "gloss": "egg carrying fish, caviar", "script": null, "see": ["Aw"]}
+            {
+              "translit": "burtan",
+              "gloss": "to carry away",
+              "script": null
+            },
+            {
+              "translit": "bâr 1",
+              "gloss": "load",
+              "script": null
+            },
+            {
+              "translit": "xâyak-bâr",
+              "gloss": "egg carrying fish, caviar",
+              "script": null,
+              "see": [
+                "Aw"
+              ]
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -115,28 +168,93 @@
           "lang": "Persian",
           "refs": "POK:128; BQT; AEF:208,212",
           "words": [
-            {"translit": "bordan", "gloss": "to carry, take", "script": "بردن"},
-            {"translit": "bâr 1", "gloss": "load, fruit (tree load)", "script": "بار ۱"},
-            {"translit": "xâvîyâr", "gloss": "caviar", "script": "خاویار"},
-            {"translit": "barîd", "gloss": "mail carrier", "script": "بَرید"},
-            {"translit": "bâreh", "gloss": "carrier, horse", "script": "باره"}
+            {
+              "translit": "bordan",
+              "gloss": "to carry, take",
+              "script": "بردن"
+            },
+            {
+              "translit": "bâr 1",
+              "gloss": "load, fruit (tree load)",
+              "script": "بار ۱"
+            },
+            {
+              "translit": "xâvîyâr",
+              "gloss": "caviar",
+              "script": "خاویار"
+            },
+            {
+              "translit": "barîd",
+              "gloss": "mail carrier",
+              "script": "بَرید"
+            },
+            {
+              "translit": "bâreh",
+              "gloss": "carrier, horse",
+              "script": "باره"
+            }
           ],
           "script_extra": "بَر ۳ ، برخوردار",
           "note": "PLA:48, TAD:9 and AFM:18 claim \"barîd\" is from Pahlavi \"burtan\". BQT, MON and AKD:50 claim it is from Latin \"veredus: carrier\".",
-          "quote": {"text": "یکی ترگ رومی به سر برنهاد - یکی باره زیراندرش همچو باد", "poet": "Ferdowsî"}
+          "quote": {
+            "text": "یکی ترگ رومی به سر برنهاد - یکی باره زیراندرش همچو باد",
+            "poet": "Ferdowsî"
+          }
         },
         {
           "id": 4,
-          "parent": 0,
+          "parent": 1,
           "lang": "Avestan",
           "refs": "BQT:821, 1773, 1858, 2245; HRN:68,240; FFD:42",
           "words": [
-            {"translit": "aspa-bâra", "gloss": "horse load, horse rider", "script": null, "see": ["Ekwos"]},
-            {"translit": "xar-bâra", "gloss": "donkey load, unit of weight", "script": null, "see": ["Kar 1"]},
-            {"translit": "gâtu-bâra", "gloss": "bed carrier", "script": null, "see": ["Gwa"]},
-            {"translit": "gaoša-vare", "gloss": "carried by ear", "script": null, "see": ["Ôus 1"]},
-            {"translit": "duš-vare", "gloss": "difficult to carry", "script": null, "see": ["Dus"]},
-            {"translit": "pari-bhar, pari-bar", "gloss": "carry around, raise (a child)", "script": null, "see": ["Per 1"]}
+            {
+              "translit": "aspa-bâra",
+              "gloss": "horse load, horse rider",
+              "script": null,
+              "see": [
+                "Ekwos"
+              ]
+            },
+            {
+              "translit": "xar-bâra",
+              "gloss": "donkey load, unit of weight",
+              "script": null,
+              "see": [
+                "Kar 1"
+              ]
+            },
+            {
+              "translit": "gâtu-bâra",
+              "gloss": "bed carrier",
+              "script": null,
+              "see": [
+                "Gwa"
+              ]
+            },
+            {
+              "translit": "gaoša-vare",
+              "gloss": "carried by ear",
+              "script": null,
+              "see": [
+                "Ôus 1"
+              ]
+            },
+            {
+              "translit": "duš-vare",
+              "gloss": "difficult to carry",
+              "script": null,
+              "see": [
+                "Dus"
+              ]
+            },
+            {
+              "translit": "pari-bhar, pari-bar",
+              "gloss": "carry around, raise (a child)",
+              "script": null,
+              "see": [
+                "Per 1"
+              ]
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -148,9 +266,21 @@
           "lang": "Persian",
           "refs": "BQT; SNS:133",
           "words": [
-            {"translit": null, "gloss": null, "script": "گهواره ، خروار ، سوار ، ـوار ۱"},
-            {"translit": null, "gloss": null, "script": "امیدوار ، دشوار ، گوشواره"},
-            {"translit": null, "gloss": null, "script": "پروردگار ، پرورش ، پروردن"}
+            {
+              "translit": null,
+              "gloss": null,
+              "script": "گهواره ، خروار ، سوار ، ـوار ۱"
+            },
+            {
+              "translit": null,
+              "gloss": null,
+              "script": "امیدوار ، دشوار ، گوشواره"
+            },
+            {
+              "translit": null,
+              "gloss": null,
+              "script": "پروردگار ، پرورش ، پروردن"
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -158,14 +288,42 @@
         },
         {
           "id": 6,
-          "parent": 0,
+          "parent": 1,
           "lang": "Avestan",
           "refs": "BQT:66; MON:1395; DRM:292; FFD:28",
           "words": [
-            {"translit": "â-vare, â-bar-a", "gloss": "bring", "script": null, "see": ["Apo"]},
-            {"translit": "mîžda-vare", "gloss": "wage earner", "script": null, "see": ["Miždho"]},
-            {"translit": "dâtô-vare", "gloss": "carrier of justice", "script": null, "see": ["Dhě 2"]},
-            {"translit": "hvare-varân", "gloss": "where sun goes, west", "script": null, "see": ["Sâwel"]}
+            {
+              "translit": "â-vare, â-bar-a",
+              "gloss": "bring",
+              "script": null,
+              "see": [
+                "Apo"
+              ]
+            },
+            {
+              "translit": "mîžda-vare",
+              "gloss": "wage earner",
+              "script": null,
+              "see": [
+                "Miždho"
+              ]
+            },
+            {
+              "translit": "dâtô-vare",
+              "gloss": "carrier of justice",
+              "script": null,
+              "see": [
+                "Dhě 2"
+              ]
+            },
+            {
+              "translit": "hvare-varân",
+              "gloss": "where sun goes, west",
+              "script": null,
+              "see": [
+                "Sâwel"
+              ]
+            }
           ],
           "script_extra": null,
           "note": null,
@@ -177,11 +335,18 @@
           "lang": "Persian",
           "refs": "BQT; FSF:58",
           "words": [
-            {"translit": null, "gloss": null, "script": "رنجور ، دستور ، داور ، مزدور ، آوردن ، جانور ، گنجور ، جنگاور ، پیامبر ، خاور"}
+            {
+              "translit": null,
+              "gloss": null,
+              "script": "رنجور ، دستور ، داور ، مزدور ، آوردن ، جانور ، گنجور ، جنگاور ، پیامبر ، خاور"
+            }
           ],
           "script_extra": null,
           "note": "For a discussion on \"dastŭr:priest\" see \"Dhě 2\"",
-          "quote": {"text": "مهر دیدم بامدادان چون بتافت - از خراسان سوی خاور میشتافت", "poet": "Rŭdakî"}
+          "quote": {
+            "text": "مهر دیدم بامدادان چون بتافت - از خراسان سوی خاور میشتافت",
+            "poet": "Rŭdakî"
+          }
         }
       ]
     }
