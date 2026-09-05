@@ -1,0 +1,823 @@
+{
+  "pdf_page": 156,
+  "book_page": 126,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "note": "Printed page checked against the PDF render (pdftoppm -f 156, copied to data/verification/sources/refs/ocr/BOOK/156.png): the extraction in data/extracted/batch/page-156.json is faithful to the book in every word, script form, gloss, reference string, verse and note. The one odd form on the page, 'auruma' in node #3, really is printed that way in the book, so it is Nourai's own misprint for Avestan auruna-, not a scan error. The page carries a single chart (PART 1 of root Er 1, Or) and one empty box beside node #12, which is empty in the book too.",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Er 1, Or",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₃er- 'to move, stir; to rise, spring up' (Pokorny 326-332 er-3 : or- : r-; LIV² 299)",
+      "note": "The root box is right in all three respects. The reconstruction is real and standard: Wiktionary's *h₃er- '(perfective) to move, to stir; to rise, to spring', with the extensions *h₃er-dʰ-, *h₃r-ey-H- and *h₃r-ew- that this very page uses for its three main branches; Pokorny's lemma is '3. er- : or- : r-, ursprünglich athematische Wurzel mit terminativem Aspekt: \"sich in Bewegung setzen, erregen (auch seelisch, ärgern, reizen); in die Höhe bringen\"' at pp.326-332, and Watkins' equivalent is er-1 'to move, set in motion' [Pok. 3. er- 326]. The label 'Indo-European' is correct, the two variant spellings 'Er / Or' are Pokorny's own e/o ablaut pair (er- : or- : r-), and the gloss 'to set in motion, excite' translates Pokorny's German almost word for word. The page number POK:327 is also exact: it is the page on which the lemma's Material section opens, with Av. ar- and OP rasatiy. Nourai's 'Er 1' numbering distinguishes this root from his 'Er 2' etc., matching Pokorny's own 1.-5. er- homonyms. — Cross-cutting comment: of the sixteen nodes, twelve are sound; the disputed ones are #5 (Skt. rádati, which modern work assigns to *reh₁d-, Pokorny 854) and #10 (ari-/arika-/araēka-, where the very page Nourai cites, Walde-Pokorny I 136, refuses the connection and Kent refers OP arīka- to *aŋra-); #7 folds in an unrelated verb (Av. raēk- 'linquere', PIE *leykʷ-); #3 misprints Av. auruna- as 'auruma'; #11 and #15/#16 are hypotheses that are held by some but not all. The Persian branch (#1-#2, #3-#4, #7-#9) is the strongest part of the page and is confirmed at every step by Horn, MacKenzie, Nyberg, Cheung, Buck and Mo'in.",
+      "note_fa": "جعبهٔ ریشه از هر سه جهت درست است. بازساخت واقعی و متعارف است: ویکی‌واژه *h₃er- «به جنبش درآمدن، برخاستن» را با گسترش‌های *h₃er-dʰ-، *h₃r-ey-H- و *h₃r-ew- می‌آورد — همان سه شاخه‌ای که این صفحه بر آن‌ها بنا شده است. مدخل پوکورنی «3. er- : or- : r-، ریشهٔ آغازاً بی‌میانوندی با نمود پایانی: «به جنبش درآوردن، برانگیختن (نیز از نظر روحی)؛ بالا بردن»» در صفحات ۳۲۶ تا ۳۳۲ است و برابرِ واتکینز er-1 «به جنبش درآوردن» با یادداشت [Pok. 3. er- 326]. برچسب «هندواروپایی» درست است، دو گونهٔ «Er / Or» همان جفت آواگردانِ e/o نزد پوکورنی است و معنای داده‌شده تقریباً ترجمهٔ لفظیِ آلمانیِ پوکورنی است. شمارهٔ صفحهٔ POK:327 نیز دقیق است: همان صفحه‌ای که بخش گواه‌ها با اوستایی ar- و پارسی باستان rasatiy آغاز می‌شود. — نکتهٔ فراگیر: از شانزده گرهِ این صفحه دوازده گره استوارند؛ دو گره رد می‌شود: گرهٔ ۵ (سنسکریت rádati که امروزه به *reh₁d- برده می‌شود، پوکورنی ۸۵۴) و گرهٔ ۱۰ (ari/arika/araēka که همان صفحهٔ والده-پوکورنی که نورایی ارجاع داده این پیوند را رد می‌کند). گرهٔ ۷ فعلِ بی‌ربطِ raēk- «وانهادن» را در خود جای داده، گرهٔ ۳ صورت auruna- را «auruma» چاپ کرده، و گره‌های ۱۱ و ۱۵ و ۱۶ فرضیه‌هایی‌اند که همهٔ پژوهشگران نپذیرفته‌اند. شاخهٔ فارسی صفحه (گره‌های ۱–۲، ۳–۴ و ۷–۹) استوارترین بخش آن است و هرن، مکنزی، نیبرگ، چونگ، باک و معین گام‌به‌گام آن را تأیید می‌کنند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:327",
+          "status": "supports",
+          "note": "Pokorny IEW (POK_01.txt leaf 338, the page whose printed number '327' stands in this leaf): '3. er- : or- : r-, ursprünglich athematische Wurzel mit terminativem Aspekt: \"sich in Bewegung setzen, erregen (auch seelisch, ärgern, reizen); in die Höhe bringen (Erhebung, hochwachsen), z. T. auch von Bewegung nach abwärts\"; Basenformen er-, ere-, erə-(?), erei-, ereu- ...' The lemma range printed at the end of the article is 'Page(s): 326-332', and 327 is where the Material begins."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "pp.326-332, lemma '3. er- : or- : r-'",
+          "stance": "supports",
+          "note": "see ref_check; the article's own reference line is 'WP. I 136 ff., ... WH. I 64 f., 416 f.'"
+        },
+        {
+          "src": "WLD",
+          "where": "Bd. I 136 ff. (WLD_Bd1_pages.txt from line 12242, header '136 er-')",
+          "stance": "supports",
+          "note": "the parent article of Pokorny's lemma, same root, same glosses; it is also the page Nourai cites for node #10, where it contradicts him."
+        },
+        {
+          "src": "AHD",
+          "where": "s.v. er-1 (AHD_watkins1985.txt line 447)",
+          "stance": "supports",
+          "note": "'er-1. To move, set in motion. ... [Pok. 3. er- 326; ergh- 339.]'"
+        },
+        {
+          "src": "CHEUNG",
+          "where": "s.v. *Har¹ 'to go to(wards), reach'",
+          "stance": "supports",
+          "note": "the Iranian verb dictionary treats the whole Iranian branch of the root as one lemma, with Av. ar-, OP rs(s)a-, MP ras-, NP rasīdan."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "ar, ra 1; ras 1, rasa; paity-âra; pati-ara",
+          "verdict": "confirmed",
+          "derivation": "Avestan ar- (present stems ar-/arə-, iyar-/ir-, causative āraya-, ppp. -ərəta-) 'to set (oneself) in motion, to get to, reach' is the direct Iranian continuant of PIE *h₃er-; the thematic/zero-grade by-form Nourai writes 'ra 1' is the ə-grade stem (Av. rəna-, rāna-, cf. Pokorny's themat. root form (e)rə-). 'ras 1, rasa' is the inchoative *r̥-ske/o- > Proto-Iranian *r̥sa-, attested as Old Persian rasa- (impf. arasam 'I arrived', DB 1.54, 2.28; parārasam, niraṣatiy DPe 24) and as the Avestan sko-present beside Skt. r̥ccháti; Pokorny p.327 gives exactly '*re-skō in apers. rasatiy \"kommt, gelangt\", np. rasad ds.' Both compounds are paiti- 'against, back, towards' + the same root: Av. paitiiāra- n. 'counter-attack, counter-creation, plague' (Vd. 1.2 āat ahe paityārəm frākərəntat aŋrō mainyuš 'thereupon the Evil Spirit fashioned as its counter-creation ...'), which gives MP patyārag and NP patyāreh; and *pati-āra- 'a going to meet' > MP padīrag 'towards, to meet' > NP padīra/pazīreh. Nourai's 'pati-ara' is therefore not a second, different word but the same compound in its neutral, non-hostile use. All four items and both cross-references to 'Per 3' (the preverb paiti-) are correct.",
+          "derivation_fa": "ستاک اوستایی ar- «به جنبش درآمدن، رسیدن» (ستاک‌های حال ar-/arə-، iyar-/ir-، سببی āraya-) دنبالهٔ مستقیم ریشهٔ هندواروپایی آغازین *h₃er- است. صورت «rasa» همان ستاک آغازی (اینخوآتیو) *r̥-ske/o- > ایرانی آغازین *r̥sa- است که در پارسی باستان rasa- (ماضی arasam «رسیدم» در بیستون ۱٫۵۴) گواهی شده؛ پوکورنی در صفحهٔ ۳۲۷ می‌نویسد: «*re-skō در پارسی باستان rasatiy، فارسی نو rasad». دو ترکیب paitiiāra- و *pati-āra- هر دو از پیشوند paiti- «در برابر، به‌سوی» و همین ریشه ساخته شده‌اند: نخستی «آفرینش وارونه، بلا» (وندیداد ۱٫۲) و دومی «به پیشواز رفتن». ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-",
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:327",
+              "status": "supports",
+              "note": "Pokorny IEW p.327 (POK_01.txt leaf 338-339): 'av. ar- \"(sich) in Bewegung setzen, hingelangen\", Präs.-St. ar-:arə-, iyar-:ir- (wie ai. iyarti:irta), Kaus. āraya-, Partiz. -ərəta-; sko-Präs. ai. r̥cchāti ... *re-skō in apers. rasatiy \"kommt, gelangt\", np. rasad ds.' — exactly the arrow drawn."
+            },
+            {
+              "ref": "BRT:184",
+              "status": "supports",
+              "note": "Bartholomae, AiW col. 184 (BRT.txt line ~5251, running header \"'ar- 184\"): '• j., g., p. ¹ar- V. \"(sich) in Bewegung setzen\". Praes. 1 ar-:ir-, 5 iyar-, 14b rasa-, 30 (Kaus.) āraya-. — PPfP. -ərəta-', with the etymological note 'ai. r̥ta-, ... iyarti:irte, r̥cchati; np. rasad \"er kommt\"'. Both 'ar' and the present stem 'rasa' stand in this one column."
+            },
+            {
+              "ref": "BRT:368",
+              "status": "not_found",
+              "note": "AiW col. 368 falls (BRT.txt lines 7890-7952, between the running headers '365 iδāt — iθra 366' and '371') among the entries iδa, iθa, iδe, it, inja, ənitay-, indra- — nothing about ar-/rasa- or paitiiāra-. The paitiiāra- material is in the pait- section (cols. ~830 ff.). Nourai's second column number does not lead to a supporting page."
+            },
+            {
+              "ref": "FSF:105",
+              "status": "partial",
+              "note": "Noushin, Vazhe-namak (FSF_pages.txt line 6698) s.v. پتیاره: 'اصل این واژه اوستایی است. پائیتی آر ... و مرکب است از پائیتی' (citing Darmesteter, Ormazd et Ahriman §642) — supports paiti + ar- for paityāreh, but the OCR of this scan carries no printed page numbers, so p.105 itself could not be confirmed."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 184 s.v. ¹ar- (BRT.txt ~line 5251)",
+              "stance": "supports",
+              "note": "'\"(sich) in Bewegung setzen\" ... 14b. rasa- ... np. rasad \"er kommt\"'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "s.v. *Har¹ 'to go to(wards), reach' (CHEUNG.txt lines 11290-11350)",
+              "stance": "supports",
+              "note": "'*AVESTAN: ar- \"to start to move\" || (+ *ā-) \"to come, arrive\"'; '*OLD PERSIAN: rs(s)a- (inch.) \"to move, go or come toward\" ... — Kent: 169b'; '*MIDDLE PERSIAN: MMP rs-, BMP ls- /ras-/ \"to come, arrive\"'."
+            },
+            {
+              "src": "KNT",
+              "where": "p.170 s.v. aruvasta- (KNT.txt leaf 192)",
+              "stance": "supports",
+              "note": "'from Ar. ar- \"move\" + suffix -vant- ... cf. Lt. orior \"arise\"' — Kent operates with the same Old Iranian root ar-."
+            },
+            {
+              "src": "POK",
+              "where": "p.327 (POK_01.txt leaf 338-339)",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "resîdan «رسیدن»; patyâreh «پتیاره ، پتیره»; pazîreh «پذیره»",
+          "verdict": "confirmed",
+          "derivation": "رسیدن rasīdan continues Middle Persian rasīdan (Book Pahlavi ls-ytn', ideogram YHMTWN-tn'; Manichaean rs-ydn) 'to arrive, mature', itself the OP inchoative rasa- (< *r̥-ske/o- of Av. ar-); the present stem رس ras- is the bare Old Iranian stem, and نورسیده nō-rasīde 'newly arrived, newly ripe' shows the same past participle — MacKenzie already glosses MP rasīdan 'arrive, mature', so Nourai's double gloss 'to arrive, to ripe' is the inherited one, not a Persian innovation. پتیاره patyāreh comes through MP patyārag (Manichaean pdy'rg) 'adversary, calamity' from Av. paitiiāra-; the variant پتیره shows the ordinary NP loss of intervocalic -g plus the common ā > i weakening in an unstressed syllable. پذیره pazīreh is MP padīrag 'towards, against, to meet' (MacKenzie: 'padirag ... towards, against, counter-; ~ āmadan: come to meet'), from *pati-āra-ka-; MP d between vowels becomes NP ذ/ز (padīrag > paδīra > pazīra), exactly as in padīriftan > پذیرفتن. Ferdowsī's line quoted on the page (پذیره شدش دیو را جنگجوی) uses it in precisely the sense 'to go out to meet (an enemy)'.",
+          "derivation_fa": "«رسیدن» از فارسی میانهٔ rasīdan (پهلوی کتابی ls-ytn'، مانوی rs-ydn) و آن از ستاک آغازی پارسی باستان rasa- است؛ ستاک حال «رس» همان ستاک کهن ایرانی است و «نورسیده» همان صفت مفعولی. مکنزی خودِ فعل پهلوی را «arrive, mature» معنی کرده، پس معنی دوگانهٔ «رسیدن / رسیده شدن (میوه)» میراثی است نه نوساخته. «پتیاره» از پهلوی patyārag و آن از اوستایی paitiiāra- «آفرینش وارونه، آفت»؛ گونهٔ «پتیره» با افتادن گِ پایانی و تضعیف واکه پدید آمده. «پذیره» از پهلوی padīrag «رویاروی، به پیشواز» است؛ دال میان‌واکه‌ای فارسی میانه در فارسی نو به ذ/ز بدل شده، درست همان‌گونه که padīriftan > «پذیرفتن». حاشیهٔ معین بر برهان قاطع نیز پتیاره را از paiti «ضد» + ar «جنبیدن و رفتن» می‌داند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:137",
+              "status": "supports",
+              "note": "Horn, Grundriss no. 616 (HRN.txt leaf 158 = printed p.137): 'resīden \"ankommen, erreichen\", Praes. res-em, resānīden. ap. √ras \"kommen, gelangen\", arasam; phlv. rasītan, ras(i)šn (AV.), rasēnītan.' — precisely Nourai's arrow."
+            },
+            {
+              "ref": "BQT:374",
+              "status": "supports",
+              "note": "Borhan-e Qate', Mo'in's etymological footnote to پتیاره (BQT_v1_pages.txt line 24031): 'پهلوی patyārak ... از اوستا paitiyāra (ضد آفرینش) ... مشتق از paiti (ضد) + ar اوستایی و پارسی باستان (جنبیدن و رفتن) بنابراین پتیاره و پتیارک (پهلوی) لغةً بمعنی ضد رونده و برخلاف رفتار کننده' — Mo'in's analysis is identical with Nourai's. (The OCR of this volume carries no printed page numbers, so p.374 itself could not be verified, only the entry.)"
+            },
+            {
+              "ref": "BQT:950",
+              "status": "not_checked",
+              "note": "the پذیره entry of Borhan-e Qate' could not be located in the OCR of vols. 1-2 (BQT_v1/v2_pages.txt) and the volumes carry no page tags; not verifiable from the local text."
+            },
+            {
+              "ref": "FSF:107",
+              "status": "supports",
+              "note": "Noushin, Vazhe-namak s.v. پذیره (FSF_pages.txt line 6878): 'اوستایی: «پئیتی -ار» paiti-ar، پهلوی: ...' — the same paiti + ar analysis Nourai draws."
+            },
+            {
+              "ref": "FFD:56",
+              "status": "not_checked",
+              "note": "Abolqasemi, Fe'l-hā-ye Fārsi-ye Dari exists locally only as an un-OCR'd scan (incoming/FFD); not consulted."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.70 s.v. rasīdan and p.63 s.v. padirag (PHD.txt lines 557, 536)",
+              "stance": "supports",
+              "note": "'rasidan, ras- [YHMTWN-tn' ...; ls-ytn! | M rs-ydn, N ~] arrive, mature'; 'padirag [ptylk' | M pdyrg, N padīra] towards, against, counter-. ~ āmadan: come to meet'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "s.v. *Har¹ (CHEUNG.txt line ~11340)",
+              "stance": "supports",
+              "note": "'*NWIR: NP rasīdan/ras- ... (caus.) NP rasan(i)dan/rasan- \"to cause to arrive\"'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 616, p.137",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "BQT",
+              "where": "s.v. پتیاره, Mo'in's footnote",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan / Old Persian",
+          "words": "aurva, aurvant; auruma; aurvat-aspa",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "auruma",
+          "correct_form": "auruna",
+          "derivation": "Avestan aurva-, aurvant- 'swift; brave, a hero' (AiW col. 200) and Old Persian arva-/arvant- belong to the u-extension of the root, PIE *h₃r-ew-, i.e. *h₃ér-went-s > Proto-Indo-Iranian *Hárwant-, whence also Sanskrit árvan-, árvant- 'racer, courser'. Pokorny p.331 has it verbatim: 'ai. árvan-, árvant- \"eilend, Renner\", av. aurva-, aurvant- \"schnell, tapfer\"; vielleicht av. auruna- \"wild, grausam, von Tieren\"'. Kent p.170 derives OP aruvā- 'action' and aruvasta- 'activity, physical prowess' from the same adj. arva-/arvant-, 'from Ar. ar- \"move\" + suffix -vant-, cf. Lt. orior'. aurvaṱ.aspa- 'having swift horses' is a real Avestan bahuvrīhi, used both as the epithet of the Sun (Yt 6.1,4,6; Yt 10.13 hvarə.xšaētahe ... aurvaṱ.aspahe) and as the personal name of Vīštāspa's father (Yt 5.105 puθrəm yaṱ aurvaṱ.aspahe), and the cross-reference to root Ekwos for -aspa- is correct. — But the second item as printed, 'auruma: wildly', is not an Avestan word: Bartholomae has '• j., g. auruna- \"wild, ferus, saevus\"' (Yt 14.23, Y 34.9), and Pokorny's tentative addition to this very entry is auruna- too. Nourai's -m- is a misreading of -n-; the printed page (book p.126, PDF 156) really shows 'auruma', so this is the author's own misprint and the JSON extraction is faithful. With auruna- restored the whole node is sound.",
+          "derivation_fa": "اوستایی aurva- و aurvant- «تند، چالاک؛ دلیر، پهلوان» (بارتولومه، ستون ۲۰۰) و پارسی باستان arva-/arvant- از گسترش u‌داری ریشه، یعنی *h₃r-ew-، ساخته شده‌اند: هندوایرانی آغازین *Hárwant- که سنسکریت árvant- «تازنده، اسب دونده» نیز از آن است. پوکورنی در صفحهٔ ۳۳۱ همین را می‌آورد. کنت (پارسی باستان، ص ۱۷۰) واژه‌های aruvā- و aruvasta- را از همین صفت می‌گیرد. ترکیب aurvaṱ.aspa- «دارندهٔ اسبان تیزرو» هم صفت خورشید است (یشت ۶٫۱) و هم نام پدر ویشتاسپ (یشت ۵٫۱۰۵). ولی صورت «auruma» در کتاب واژه‌ای اوستایی نیست؛ صورت درست auruna- «وحشی، درنده» است. تصویر صفحهٔ چاپی (ص ۱۲۶ کتاب) نشان می‌دهد که خودِ کتاب «auruma» چاپ کرده است، پس این خطای چاپی نورایی است نه خطای خوانش اسکن.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%88%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:331",
+              "status": "supports",
+              "note": "Pokorny IEW p.331 (POK_01.txt leaf 344, section 'e. Basis ereu-'): 'ai. árvan-, árvant- \"eilend, Renner\", av. aurva-, aurvant- \"schnell, tapfer\"; vielleicht av. auruna- \"wild, grausam, von Tieren\"' — supports both the derivation and (with -n-) the second word."
+            },
+            {
+              "ref": "KNT:170",
+              "status": "supports",
+              "note": "Kent, Old Persian p.170 (KNT.txt leaf 192): 'aruvā- sb. \"action\" ... fem. to adj. arva-, Av. aurva- \"schnell, tapfer\" (Bthl. AiW 200), doublet to Av. aurvant-'; 'aruvasta- sb. \"activity\" ... to arvant- \"moving\", Av. aurvant- \"schnell, tapfer, Held\", Skt. arvant-, from Ar. ar- \"move\" + suffix -vant-, cf. Lt. orior \"arise\"'."
+            },
+            {
+              "ref": "IRN:112",
+              "status": "not_checked",
+              "note": "Farahvashi, Iranvij exists locally only as an un-OCR'd scan (incoming/IRN); not fetched for this page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "cols. 189-200 (aurvant-, aurva-) and col. 197 s.v. auruna- (BRT.txt lines 5583, 5383); Yt 5.105 in the viδaᵛvant- entry (line 24610)",
+              "stance": "supports",
+              "note": "'j., g. aurvant-, aourvant- Adj. \"schnell; tapfer, Held\"'; '• j., g. auruna- \"wild, ferus, saevus\"'; 'puθrəm yaṱ aurvaṱ.aspahe' — Vīštāspa 'son of Aurvaṱ.aspa'."
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary p.28 s.v. arvand",
+              "stance": "supports",
+              "note": "'arvand [lwnd] swift 228. — Av. (200) aurvant-' (NYB_vol2_glossary.txt line 656), with 'arvandēh valour, gallantry'."
+            },
+            {
+              "src": "POK",
+              "where": "p.331",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "Arvand «اروند»; Alvand «الوند»; Lohrâsp «لهراسپ»",
+          "verdict": "confirmed",
+          "derivation": "اروند Arvand is Middle Persian arwand 'swift, valiant' (MacKenzie: 'arwand swift, valiant; river Orontes; ~īh swiftness, valour'; Nyberg: 'arvand swift — Av. aurvant-'), i.e. Av. aurvant- with the regular MP loss of the diphthong (au > a before r + consonant) and of the final -t. Used as a river-name it means 'the swift one', and in New Persian it is the Iranian name of the Tigris — the very point of Ferdowsī's couplet printed on the page, 'if you do not know the Pahlavi tongue, call Arvand \"Dijla\" in Arabic'. الوند Alvand is the same word with the sporadic Persian r > l (as in زلف/زرف, لشکر); Borhan-e Qate' says so outright: 'اروند بر وزن و معنی الوند است و آن کوهی باشد در نواحی همدان ... و دجلهٔ بغداد را نیز گفته‌اند'. لهراسپ Lohrāsp is Av. aurvaṱ.aspa- 'having swift horses' through MP Lohrāsp — the name of Vīštāspa/Goshtāsp's father in both the Avesta and the Šāhnāme, so the semantic and genealogical identification is exact. Nourai's NOTE ('\"Arvand:swift\" is a translation of \"Dejleh:swift\"') is right in substance for the Greek/Old Persian side — the Greek Tígris rests on OP Tigrā, associated with tigra- 'pointed, swift' (root *steig-) — though Arabic دجله itself descends from Aramaic Diglat < Akkadian Idiqlat < Sumerian Idigna rather than from a Persian word for 'swift'; Nourai's cross-reference to root 'Steig' is therefore the right place to look.",
+          "derivation_fa": "«اروند» همان arwand فارسی میانه است؛ مکنزی آن را «swift, valiant؛ نام رود» و نیبرگ آن را «تند، از اوستایی aurvant-» معنی کرده‌اند. مصوت مرکب au در فارسی میانه پیش از r + همخوان به a ساده شده و t پایانی افتاده است. این واژه به‌عنوان نام رود یعنی «تندرو» و در فارسی نو نام ایرانی دجله است؛ همان نکته‌ای که بیت فردوسی («به تازی تو اروند را دجله خوان») می‌گوید. «الوند» همان واژه است با ابدال ر به ل؛ برهان قاطع صریحاً می‌نویسد: «اروند بر وزن و معنی الوند است و آن کوهی باشد در نواحی همدان». «لهراسپ» از اوستایی aurvaṱ.aspa- «دارندهٔ اسبان تیزرو»، نام پدر ویشتاسپ در اوستا و شاهنامه است. یادداشت نورایی دربارهٔ برابری «اروند: تیز» با «دجله: تیز» از سوی یونانی/پارسی باستان (Tigris < تیگرا «تیز») درست است، هرچند خودِ «دجله» عربی از اکدی Idiqlat می‌آید. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%88%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:111",
+              "status": "supports",
+              "note": "Borhan-e Qate' s.v. اروند (BQT_v1_pages.txt lines 11138-11150): 'اروند ـ بر وزن و معنی الوند است و آن کوهی باشد در نواحی همدان ... و دریای محیط ـ و گرداب ـ و دجلهٔ بغداد را نیز گفته‌اند ... و بمعنی حسرت و آرزو هم آمده است ـ و فر و شکوه و زیبایی را نیز گویند' — the Arvand = Alvand = Tigris equation Nourai draws. (Volume OCR has no page tags, so p.111 itself could not be confirmed.)"
+            },
+            {
+              "ref": "BQT:160",
+              "status": "partial",
+              "note": "the الوند entries in BQT_v1_pages.txt (lines 8642, 10344, 12620) mention 'کوهی در همدان که بالوند شهرت دارد' and 'همدان مشهور بالوند', i.e. they confirm the mountain but the local OCR gives no etymological footnote and no page numbers."
+            },
+            {
+              "ref": "BQT:1918",
+              "status": "not_checked",
+              "note": "p.1918 falls in Borhan-e Qate' vol. 4, which exists locally only as an un-OCR'd scan (incoming/BQT/BQT_v4_picofile.pdf); the لهراسپ entry was not fetched."
+            },
+            {
+              "ref": "IRN:114",
+              "status": "not_checked",
+              "note": "Farahvashi, Iranvij: un-OCR'd local scan only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.13 s.v. arwand (PHD.txt line 214)",
+              "stance": "supports",
+              "note": "'arwand [/wnd] swift, valiant; river Orontes. ~īh: swiftness, valour.'"
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary s.v. arvand (NYB_vol2_glossary.txt line 656)",
+              "stance": "supports",
+              "note": "'arvand [lwnd] swift 228. — Av. (200) aurvant-.'"
+            },
+            {
+              "src": "MON",
+              "where": "s.v. اروند (MON_part1.txt line 10308)",
+              "stance": "supports",
+              "note": "'اروند [تند، تیز، چالاک، دلیر ...]' — Mo'in glosses the word itself as 'swift, brisk, brave'."
+            },
+            {
+              "src": "BQT",
+              "where": "s.v. اروند",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Sanskrit",
+          "words": "rad, radati",
+          "verdict": "disputed",
+          "derivation": "The word itself is real and correctly glossed: Sanskrit rádati 'scratches, gnaws, digs, furrows' (RV+), vi-rádati 'splits open'. Nourai's page reference is also literally accurate — Pokorny does print it inside the er-3 entry, on p.330 under the extension er-ed-. But Pokorny puts it there only with an explicit hesitation, 'weiter hierher oder zu 5. er- ai. rádati \"kratzt, ritzt, gräbt, hackt\"', and modern scholarship has decided against the er- connection: rádati belongs with Latin rādō, rōdō to PIE *reh₁d-/*HreHd- 'to gnaw, scrape, furrow' (Pokorny 854 rēd-, rōd-, rəd-; LIV² 497). Cheung's Iranian dictionary lists the root separately as *Hrad 'to dig, pave' (Av. raδ- 'to pave a road', Yt 10.68 raδaiti) and gives 'PIE *HreHd- \"to gnaw, furrow\" > LIV: 497 | Pok.: 854', with Latin rōdere as the IE cognate. So the arrow ROOT → #5 attaches a word of a different root to Er 1: the branch is genuine as a family (#5 → #6 below is fine), but its head is wrong.",
+          "derivation_fa": "واژه درست است: سنسکریت rádati «می‌خراشد، می‌کَنَد، شیار می‌زند» (ریگ‌ودا به بعد). ارجاع نورایی هم لفظاً درست است، چون پوکورنی این واژه را در همان صفحهٔ ۳۳۰ ذیل er-3 آورده، اما با تردید صریح: «یا اینجا یا ذیل er-5». پژوهش امروزی این پیوند را رد می‌کند و rádati را با لاتینی rādō/rōdō به ریشهٔ *reh₁d-/*HreHd- «ساییدن، شیار زدن» می‌برد (پوکورنی ۸۵۴؛ LIV² ۴۹۷). چونگ نیز آن را ریشهٔ جداگانهٔ ایرانی *Hrad «کندن، راه‌سازی کردن» (اوستایی raδ-) می‌داند و PIE آن را *HreHd- می‌نویسد. پس پیوند این گره به ریشهٔ «Er» را دانش امروز نمی‌پذیرد، هرچند خودِ خانوادهٔ واژگانی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:330",
+              "status": "partial",
+              "note": "Pokorny IEW p.330 (POK_01.txt leaf 342): 'weiter hierher oder zu 5. er- ai. rádati \"kratzt, ritzt, gräbt, hackt\", vi-radati \"zertrennt, eröffnet\"; vielleicht auch apr. redo \"Furche\"'. The page really carries the word, but Pokorny himself offers er-5 as the alternative and does not commit."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "p.186 s.v. *Hrad 'to dig, pave' (CHEUNG.txt lines 12687-12700)",
+              "stance": "contradicts",
+              "note": "'*SANSKRIT: rad \"to dig, gnaw; to pave\" (RV+) = EWAia II: 430 ... *PIE *HreHd- \"to gnaw, furrow\" (A.L.) = LIV: 497 | Pok.: 854. *IE COGNATES: Lat. rōdere \"to gnaw (at)\"' — a root distinct from *h₃er-."
+            },
+            {
+              "src": "POK",
+              "where": "p.330 and p.854 (rēd-)",
+              "stance": "partial",
+              "note": "listed under er-3 with an explicit 'oder zu 5. er-'; the competing lemma rēd-, rōd-, rəd- stands at p.854."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 622, p.138",
+              "stance": "supports",
+              "note": "Horn connects the Iranian words with 'ai. √rad, rádati \"kratzen, ritzen\"' — i.e. the Indo-Iranian equation itself is uncontroversial; only its attachment to Er is."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "randîdan «رندیدن» (rande «رنده»)",
+          "verdict": "confirmed",
+          "derivation": "The arrow drawn here — Persian randīdan beside Sanskrit rádati — is right. رندیدن 'to scrape, grate, plane' continues Middle Persian randīdan (MacKenzie: 'randīdan, rand- [/nd-ytn'] scratch, grate, abrade'; Horn: 'phlv. randītan (AV.)'), from Proto-Iranian *rand- , a nasal-infixed/present enlargement of the *Hrad root that Sanskrit shows in rádati. The instrument noun رنده rande 'plane, grater' is the ordinary Persian -a nomen instrumenti to that stem, and it was already borrowed into early Classical Arabic as رَنْدَج randaj, which shows that a Middle Persian *randag existed. Horn no.622 draws exactly Nourai's line ('rendīden \"schaben, kratzen\", rende. ai. √rad, rádati \"kratzen, ritzen\"; phlv. randītan'). The one reservation is inherited from node #5: the family as a whole hangs from PIE *HreHd-, not from Er 1.",
+          "derivation_fa": "پیوندی که این‌جا کشیده شده درست است: «رندیدن» دنبالهٔ randīdan فارسی میانه است (مکنزی: «scratch, grate, abrade»؛ هرن: «phlv. randītan») از ایرانی آغازین *rand-، گونهٔ خیشومی‌شدهٔ همان ستاکی که سنسکریت آن را rádati نشان می‌دهد. «رنده» اسم ابزار با پسوند ـه از همین ستاک است و صورت پهلوی *randag آن در عربی کهن به شکل «رَنْدَج» وام گرفته شده است. هرن (شمارهٔ ۶۲۲) همین زنجیره را می‌آورد. تنها ایراد، ایرادِ گرهِ پیشین است: این خانواده به ریشهٔ *HreHd- می‌رسد نه به «Er».",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%86%D8%AF%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:964",
+              "status": "not_found",
+              "note": "Mo'in, Farhang-e Fārsi: the local OCR (MON_part1/part2.txt) has no locatable رنده / رندیدن headword (greps for 'رنده' return only compounds such as آورنده, برنده), and the text carries no page numbers, so p.964 could not be checked."
+            },
+            {
+              "ref": "HRN:138",
+              "status": "supports",
+              "note": "Horn, Grundriss no. 622 (HRN.txt leaf 159 = printed p.138): 'rendīden \"schaben, kratzen\", rende. ai. √rad, rádati \"kratzen, ritzen\"; phlv. randītan (AV.). kurd. renīn; bal. randag \"kämmen\".' — verbatim Nourai's arrow, including the noun rande."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.70 s.v. randīdan (PHD.txt line 555)",
+              "stance": "supports",
+              "note": "'randīdan, rand- [/nd-ytn! | N ~] scratch, grate, abrade.'"
+            },
+            {
+              "src": "HRN",
+              "where": "no. 622, p.138",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "s.v. رنده",
+              "stance": "supports",
+              "note": "'From Middle Persian *randag, found also in early Classical Arabic as رَنْدَج (randaj), derivative to the verb رندیدن (randidan, \"to grate, to scrape\").'"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Avestan",
+          "words": "rî, rae, raec 1",
+          "verdict": "plausible",
+          "derivation": "Two of the three items are right, the third is not. Avestan raii-/rī- 'to let flow, release; to defecate' is the yé-present *h₃riH-yé-ti of the erei-/reiə- basis of this very root: Bartholomae's headword is '• j. ray- V. \"kacken\"; nur mit Praev. Inf. -irita ... np. rīyad, rīdan \"kacken\"; ai. riṇáti (auch riyáti) \"er lässt laufen\"' (AiW col. 1511), and Cheung's *HraiH 'to defecate' gives 'PIE *H₃reiH- \"to flow, stream\" > LIV: 305 | Pok.: 330 f.' — i.e. exactly Pokorny's page under er-3. So 'rī' and its ablaut form 'raē' are correctly placed, and the gloss 'to release, discharge, defecate' matches Bartholomae's and Buck's ('Av. rī- (only with prefix), NPers. rīdan \"cacare\" : Skt. rī- \"let go, release\", raya- \"flow\"'). But 'raec' is a different Avestan verb: raēk-/iriš-, present irinaxti, s-aorist raēxš, 'linquere, to leave, abandon' (AiW col. 1487, '• j. raek- V. \"linquere\"'), which belongs to PIE *leykʷ- (Pokorny 669-70; Latin linquō, Greek leípō), not to *h₃er-. Nourai has folded it in because its meaning 'to release' looks like rī-'s. Everything the chart builds on this node (#8, #9) rests on the sound half.",
+          "derivation_fa": "دو مورد از سه مورد درست است. اوستایی raii-/rī- «رها کردن، روان کردن؛ ریدن» همان حالِ *h₃riH-yé-ti از پایهٔ erei-/reiə- همین ریشه است؛ بارتولومه (ستون ۱۵۱۱) می‌نویسد: «ray- فعل «کاکن»، تنها با پیشوند ... فارسی نو rīyad، rīdan؛ سنسکریت riṇáti «رها می‌کند»». چونگ نیز ذیل *HraiH می‌آورد: «PIE *H₃reiH- «روان شدن» > LIV ۳۰۵ | پوکورنی ۳۳۰». پس «rī» و گونهٔ «raē» درست‌اند. اما «raec» فعل دیگری است: اوستایی raēk-/irič- «رها کردن، وانهادن» (بارتولومه ستون ۱۴۸۷: «raek- V. linquere») که از ریشهٔ هندواروپایی *leykʷ- (لاتینی linquō، یونانی leípō) می‌آید و ربطی به *h₃er- ندارد. نورایی به سبب نزدیکی معنایی «رها کردن» آن را در همین جعبه گنجانده است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%DB%8C%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:987",
+              "status": "not_checked",
+              "note": "the ریدن / ریم entries of Borhan-e Qate' could not be located in the OCR of vols. 1-2 (the ریـ range is very poorly OCR'd) and the volumes carry no page tags."
+            },
+            {
+              "ref": "SYN:278",
+              "status": "supports",
+              "note": "Buck, Selected Synonyms §4.66 'Void excrement' (SYN.txt line ~7129, printed pp.277-278): 'Av. rī- (only with prefix), NPers. rīdan \"cacare\" : Skt. rī- \"let go, release\", raya- \"flow\", etc. Barth. 1511. Horn 639.' — Nourai's page may be off by one, but the paragraph is the one he means, and it supports both the Avestan form and the gloss."
+            },
+            {
+              "ref": "HRN:142",
+              "status": "supports",
+              "note": "Horn no. 639 (HRN.txt leaf 163 = printed p.142): 'rīden \"kacken\" ... aw. √raē-(?), avi dim irita \"kackt darauf\" (vd. 5,1) ... ai. √rē-, riyáti \"frei lassen, laufen lassen\"'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 1511 s.v. ray- (BRT.txt lines 25172-25173) and col. 1487 s.v. raek- (line 24726)",
+              "stance": "partial",
+              "note": "'• j. ray- V. \"kacken\"; nur mit Praev. ... np. rīyad, rīdan \"kacken\"; ai. riṇáti' supports rī-/raē-, but the separate headword '• j. raek- V. \"linquere\"' shows that raēc- is another root."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p.188 s.v. *HraiH 'to defecate'",
+              "stance": "supports",
+              "note": "'*AVESTAN: (+ *abi-) YAv. auui ... irita (ppp.) \"defecated\" (V 5.1) ... PIE *H₃reiH- \"to flow, stream\" > LIV: 305 | Pok.: 330 f.'"
+            },
+            {
+              "src": "POK",
+              "where": "p.330, basis erei-/reiə-",
+              "stance": "supports",
+              "note": "'ai. riṇāti, riṇvati \"lässt fliessen, entlaufen, entlässt\", rīyate, rīṇa-, rīti- ... zum u-Suffix vgl. unten lat. rīvus' — this is the sub-basis of er-3 to which rī- belongs."
+            },
+            {
+              "src": "SYN",
+              "where": "§4.66, pp.275-278",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Pahlavi",
+          "words": "rîtan; rěman",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian rīdan/rīy- 'to defecate' (Book Pahlavi ld- /riy-/, 3sg. lyt /rīd/) is the regular continuation of Proto-Iranian *HriHyátī, i.e. the Avestan raii-/rī- of the parent node; Horn cites the Pahlavi forms from the Ardā Wirāz Nāmag as 'phlv. rītan, rēman, rēmanīh'. The second word, rēman, is the derived adjective/noun in *-man-: MacKenzie 'rēm [lym | M rym] dirt, filth, purulence' and 'rēman [lymn'] dirty, filthy, purulent; ~īh: filth'. Nourai's gloss 'dirty discharges from eyes etc.' is narrower than the Pahlavi usage (rēman is the general word for ritual and physical impurity — it is the standard term of the Šāyast nē-šāyast purity code, where the Shiraz glossary indexes 'rēman 235/10'), but the form, the meaning-field and the descent from rī- are all correct. Nourai's transliteration 'rěman' with a short e is his own convention for MP ē.",
+          "derivation_fa": "فارسی میانهٔ rīdan/rīy- «ریدن» (پهلوی کتابی ld-، سوم‌شخص lyt) دنبالهٔ منظم ایرانی آغازین *HriHyátī، یعنی همان raii-/rī- اوستایی گرهِ بالاست؛ هرن صورت‌های پهلوی را از ارداویراف‌نامه چنین می‌آورد: «phlv. rītan, rēman, rēmanīh». واژهٔ دوم، rēman، مشتق با پسوند ‌man‌ است: مکنزی «rēm: چرک، پلیدی» و «rēman: پلید، چرکین؛ rēmanīh: پلیدی». معنایی که نورایی داده («ترشح چرکین چشم») تنگ‌تر از کاربرد پهلوی است، زیرا rēman اصطلاح عام ناپاکی آیینی در شایست‌ناشایست است، اما صورت و خانوادهٔ واژه و اشتقاق آن از rī- درست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:142",
+              "status": "supports",
+              "note": "Horn no. 639, p.142: 'phlv. rītan, rēman, rēmanīh' — both Pahlavi words in one line, under the Avestan √rī."
+            },
+            {
+              "ref": "BQT:987",
+              "status": "not_checked",
+              "note": "not locatable in the local Borhan-e Qate' OCR (see node #7)."
+            },
+            {
+              "ref": "SNS:235",
+              "status": "supports",
+              "note": "Tavoosi, Vāzhe-nāme-ye Šāyast nē-Šāyast: the Latin index lists 'rēman 235/10' (SNS.txt line 31605; SNS_pages.txt line 15915), i.e. the word occurs at p.235 line 10 of the text — Nourai's page reference is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.71 s.v. rēm / rēman (PHD.txt line 557)",
+              "stance": "supports",
+              "note": "'rēm [lym | M rym, N ~] dirt, filth, purulence. rēman [lymn' | M rymn, N ~] dirty, filthy, purulent. ~īh: filth.'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p.188 s.v. *HraiH",
+              "stance": "supports",
+              "note": "'*MIDDLE PERSIAN: BMP ld- /riy-/ \"to defecate, void\"; Pass.: IND. 3sg. BMP lyt /rīd/'; also 'CSogd. rym (m.) \"dirt, impurity\"', 'Khot. rrīma \"faeces\"'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 639, p.142",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "SNS",
+              "where": "glossary index, 'rēman 235/10'",
+              "stance": "supports",
+              "note": "see ref_check."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "rîdan «ریدن»; rîm «ریم ، ریمن ، ریمه»",
+          "verdict": "confirmed",
+          "derivation": "ریدن rīdan (present stem رین rīn-, older ری rī-) is Middle Persian rīdan/rīy- unchanged apart from the New Persian infinitive ending; Cheung lists 'NP rīdan/rī-' with Balochi rit/rī(y)-, Kurdish rîtin and Ossetic līyyn under *HraiH, and Wiktionary's chain is 'Middle Persian rīdan < Old Persian < Proto-Iranian *HriHyátī < Proto-Indo-Iranian *HriHyáti < PIE *h₃riH-yé-ti \"to flow\"', with Sanskrit rī́yate as the cognate. ریم rīm 'pus, filth' is MP rēm (MP ē > NP ī regularly, cf. šēr > šīr), and Cheung gives it in the same entry: 'NP rīm \"pus, matter, humour; dregs, dross\"'. ریمن rīman is MP rēman 'polluted, filthy' (as in the Manūčehrī line quoted on the page, ریمنی 'foulness'), and ریمه rīme is the -a derivative. One caveat that Nourai does not signal: Horn (no. 643) warns that the homophonous ریمن 'deceitful' belongs to رِیو rēw 'trickery' (Skt. rip-, root *leyp-) and must not be joined to rīm 'pus'; only the 'filthy' sense of ریمن belongs here.",
+          "derivation_fa": "«ریدن» همان rīdan فارسی میانه است و جز پایانهٔ مصدری فارسی نو تفاوتی ندارد؛ چونگ ذیل *HraiH صورت «NP rīdan/rī-» را در کنار بلوچی rit/rī(y)- و کردی rîtin می‌آورد و ویکی‌واژه زنجیرهٔ «فارسی میانه rīdan < ایرانی آغازین *HriHyátī < هندواروپایی *h₃riH-yé-ti «روان شدن»» را با هم‌ریشهٔ سنسکریت rī́yate می‌دهد. «ریم» از rēm فارسی میانه است (ē فارسی میانه در فارسی نو به ی کشیده بدل می‌شود، مانند šēr > شیر) و چونگ آن را در همین مدخل آورده: «NP rīm: چرک، ریم». «ریمن» همان rēman پهلوی «پلید» است (بیت منوچهری: «ریمنی» یعنی پلیدی) و «ریمه» مشتق ـه‌دار آن. یک نکته که نورایی نگفته: هرن (شمارهٔ ۶۴۳) هشدار می‌دهد که «ریمن» به معنی «فریبکار» از «ریو» می‌آید نه از «ریم». ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%DB%8C%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%B1%DB%8C%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:142",
+              "status": "supports",
+              "note": "Horn no. 639, p.142: 'rīden \"kacken\", Praes. rīy-em, rīsten, rīm, rīme' — the headword lists rīm and rīme exactly as Nourai does; footnote 1 adds 'rēm, LW kurd. afγ. rīm \"Eiter\", bal. rēm \"Eiter\"'."
+            },
+            {
+              "ref": "BQT:987,990",
+              "status": "not_checked",
+              "note": "the ریدن and ریم entries could not be located in the local Borhan-e Qate' OCR (vols. 1-2, no page tags, and the ریـ range OCRs very badly)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "p.188 s.v. *HraiH",
+              "stance": "supports",
+              "note": "'*NWIR: NP rīdan/rī-, Bal. rit/rī(y)-, Kurd. rîtin ... NP rīm \"pus, matter, humour; dregs, dross (vel sim.)\"' — both of Nourai's words in one entry."
+            },
+            {
+              "src": "PHD",
+              "where": "p.71 s.v. rēm, rēman",
+              "stance": "supports",
+              "note": "'rēm ... dirt, filth, purulence' with the NP equivalent marked '~'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 639 and the caveat at no. 643, p.142",
+              "stance": "partial",
+              "note": "no.643 (rēw 'Betrug'): 'rēmen, rīmen \"betrügerisch\" ... so wird man es nicht zu phlv. rēman, np. rīm (oben No. 639) ziehen dürfen' — i.e. the deceit-sense of ریمن is a different word."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "s.v. ریدن",
+              "stance": "supports",
+              "note": "'From Middle Persian rīdan ... from Proto-Iranian *HriHyátī ... from Proto-Indo-European *h₃riH-yé-ti (\"to flow\"). Cognate with ... Sanskrit रीयते (rī́yate).'"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Avestan / Sanskrit",
+          "words": "ari, arika, araeka",
+          "verdict": "disputed",
+          "derivation": "All three items are problematic, and the reference Nourai gives says so himself. (a) Sanskrit arí- 'stranger, enemy' — Walde-Pokorny I 136, in the er- article that Nourai cites, writes: 'aber ári-, arí- \"Feind\" ist wegen seines viel weitern Bedeutungsumfangs \"verlangend, begierig, anhänglich; feindselig, unfromm\" ... kaum nur in der Bed. \"Feind\" hierherzustellen', i.e. it refuses to file ari- under this root; Mayrhofer likewise links arí- with the arya-/ā́rya- word-family, not with *h₃er-. (b) arika- is Old Persian arīka- 'evil, faithless' (DB 1.22, 1.33, 4.63), and Kent p.176 derives it from *aŋra- 'hostile' (GAv. aŋra-, the Ahriman word) to the Proto-Aryan root *ans-, adding explicitly 'not to Skt. ari- \"enemy\"'; Walde-Pokorny I 135 files it under exactly that root *ens- ('Vgl. ap. arika- \"feindlich gesinnt\" (*ahrika)'). (c) araēka- is not an Avestan word for 'enemy' at all: Bartholomae's only headword is '• j. araēka- Adj. — ? —, Bez. einer Ameisenart' (Vd. 14.5, in the list of ants), meaning unknown. So the node collects one word whose root is disputed, one that belongs to a different root, and one that means something else entirely.",
+          "derivation_fa": "هر سه واژهٔ این گره مسئله‌دار است و منبعی که خودِ نورایی آورده همین را می‌گوید. یکم، سنسکریت arí- «بیگانه، دشمن»: والده-پوکورنی جلد ۱ صفحهٔ ۱۳۶ در همان مدخل er- می‌نویسد که این واژه به سبب دامنهٔ معنایی بسیار گسترده‌ترش («خواهان، آزمند، وابسته؛ دشمنانه، بی‌دین») «به‌سختی می‌توان آن را تنها به معنی دشمن این‌جا نهاد». دوم، arika همان arīka- پارسی باستان «بدکنش، بی‌وفا» (بیستون ۱٫۲۲) است و کنت آن را از *aŋra- «دشمن» (همان واژهٔ اهریمن) از ریشهٔ *ans- می‌گیرد و صریحاً می‌افزاید «نه از سنسکریت ari». سوم، araēka- در اوستا اصلاً به معنی دشمن نیست؛ بارتولومه تنها مدخل آن را چنین می‌آورد: «araēka- صفت ـ ؟ ـ نام گونه‌ای مورچه» (وندیداد ۱۴٫۵). پس پژوهش امروزی این گره را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
+          ],
+          "ref_check": [
+            {
+              "ref": "WLD1:136",
+              "status": "contradicts",
+              "note": "Walde-Pokorny, Vergleichendes Wörterbuch I 136 (WLD_Bd1_pages.txt line 12312, under the running header '136 er-' at line 12242): 'aber ári-, arí- \"Feind\" (Lit. bei Bois. u. ἔρις) ist wegen seines viel weitern Bedeutungsumfangs \"verlangend, begierig, anhänglich; feindselig, unfromm\" (s. Uhlenbeck Ai. Wb.) kaum nur in der Bed. \"Feind\" hierherzustellen (Uhlenbeck verbindet es mit got. aljan \"Eifer\")'. The very page cited rejects the derivation. On p.135 the same book files ap. arika- 'feindlich gesinnt' (*ahrika) under *ens-, not under er-."
+            },
+            {
+              "ref": "AEF:20",
+              "status": "not_checked",
+              "note": "Khaleqi Motlaq, Asās-e Ešteqāq-e Fārsi (the Persian translation of Horn/Hübschmann) is not available online or on disk; refs_online.json records it as catalogue-only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I 135-136",
+              "stance": "contradicts",
+              "note": "see ref_check."
+            },
+            {
+              "src": "KNT",
+              "where": "p.176 s.v. arika- (KNT.txt line 5050)",
+              "stance": "contradicts",
+              "note": "'arika- adj. \"evil, faithless\": deriv. of *aṣra-, GAv. aŋra-, LAv. aŋra- \"hostile, enemy\", to pAr. root *ans- ... not to Skt. ari- \"enemy\" (MB Gr. §273), nor to Skt. alīka-.'"
+            },
+            {
+              "src": "BRT",
+              "where": "col. 185 s.v. araēka- (BRT.txt line 5285)",
+              "stance": "contradicts",
+              "note": "'• j. araēka- Adj. — ? —, Bez. einer Ameisenart: maoirinąm araēkanąm kutakanąm duždaēninām V. 14.5' — a kind of ant, not 'enemy'."
+            },
+            {
+              "src": "POK",
+              "where": "pp.326-332 (er-3)",
+              "stance": "silent",
+              "note": "Pokorny's er-3 article does not mention ari-, arika- or araēka- at all."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Persian",
+          "words": "ârîğ «آریغ ، أَریغ»; rîğ «ریغ»",
+          "verdict": "plausible",
+          "derivation": "The Persian words are real and correctly glossed. Borhan-e Qate': 'آریغ ... کینه و عداوت باشد و سردی و نفرتی را نیز گویند که از شخصی [در دل باشد]', and Mo'in's dictionary has 'آریغ: کراهت، نفرت، کینه' and 'ریغ [= آریغ]: کینه، عداوت، نفرت'; ریغ is simply آریغ with loss of the prothetic/initial ā- (the same alternation as آهو/هو type doublets), and Nourai's spelling variant أَریغ is the Arabic-script hamza writing of the same word. The derivation from Old Persian arīka- is not Nourai's invention: Mo'in's own etymological footnote to the آریغ entry says 'در پارسی باستان (کتیبهٔ بیستون ... بند ۱۲) arīka از ریشهٔ ari بمعنی دشمن (Bartholomae ...)', and cites Khosravānī's line 'کآریغ ز من به دل گرفته'. So BQT:33 supports Nourai exactly. What keeps this from 'confirmed' is the parent node: the Old Persian etymon arīka- itself is now referred to *aŋra- (Kent, Walde-Pokorny), so the Persian word may well go back to arīka- while arīka- does not go back to Er 1. Nourai's added gloss 'dung' for ریغ belongs to a different homonym (ریغ 'sand, gravel', Horn no.642 rēg, and the colloquial ریغ 'filth' of Mo'in), not to this word.",
+          "derivation_fa": "خودِ واژه‌های فارسی درست‌اند. برهان قاطع: «آریغ ... کینه و عداوت باشد و سردی و نفرتی را نیز گویند»؛ فرهنگ معین: «آریغ: کراهت، نفرت، کینه» و «ریغ [= آریغ]: کینه، عداوت، نفرت». «ریغ» همان «آریغ» است با افتادن الف آغازین، و «أَریغ» تنها گونهٔ نگارشی است. اشتقاق از arīka پارسی باستان از خودِ معین است: حاشیهٔ او بر مدخل «آریغ» می‌نویسد «در پارسی باستان (کتیبهٔ بیستون، بند ۱۲) arīka از ریشهٔ ari بمعنی دشمن (بارتولومه)» و بیت خسروانی را گواه می‌آورد. پس ارجاع BQT:33 دقیقاً پشتیبان نورایی است. آنچه این گره را از «درست» به «با احتیاط پذیرفتنی» می‌کشاند گرهِ بالاست: امروزه خودِ arīka- را به *aŋra- می‌برند نه به ریشهٔ Er. افزودهٔ «سرگین» برای «ریغ» هم به هم‌آوای دیگری بازمی‌گردد نه به این واژه.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "BQT:33",
+              "status": "supports",
+              "note": "Borhan-e Qate' s.v. آریغ (BQT_v1_pages.txt lines 7459-7466): entry 'آریغ ـ بکسر اول و سکون تحتانی و غین نقطه‌دار. کینه و عداوت باشد و سردی و نفرتی را نیز گویند که از شخصی ...' plus Mo'in's footnote 'در پارسی باستان (کتیبهٔ بیستون، متون ... بند ۱۲) arīka از ریشهٔ ari بمعنی دشمن ... این لغت در فرهنگ اسدی چاپ تهران ص ۲۳۸ و نیز موضع دیگر برهان بخلط «آزیغ» آمده. خسروانی شاعر گوید: کآریغ ز من بدل گرفته'. Exactly Nourai's arrow. (Page number itself not verifiable: the local OCR of vol.1 carries no page tags.)"
+            },
+            {
+              "ref": "AEF:20,21",
+              "status": "not_checked",
+              "note": "Asās-e Ešteqāq-e Fārsi is not available online or on disk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. آریغ and ریغ (MON_part1.txt lines 2779, 69820)",
+              "stance": "supports",
+              "note": "'آریغ: [دشمن] کراهت، نفرت، کینه. — این کلمه بصورت «آزیغ» تحریف شده'; 'ریغ: [= آریغ] کینه، عداوت، نفرت'. Mo'in also has a separate 'ریغ: (عم.) پلیدی، گه' — the 'dung' sense is a different, colloquial word."
+            },
+            {
+              "src": "BQT",
+              "where": "s.v. آریغ with Mo'in's footnote",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "KNT",
+              "where": "p.176 s.v. arika-",
+              "stance": "contradicts",
+              "note": "the Old Persian etymon that Mo'in and Nourai use is itself derived by Kent from *aŋra-, 'not to Skt. ari- \"enemy\"'."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Avestan",
+          "words": "arati; aranu, ham-aranu; ham-ara, ham-aratha; râna 1; artha",
+          "verdict": "confirmed",
+          "derivation": "Every item of this node stands, word for word, on Pokorny pp.327-328, the range Nourai cites. 'arati' is Av. -arəti- 'energy' (Pokorny: 'ai. r̥tí-, r̥̄tí- f. \"Angriff, Streit\", av. -arəti- \"Energie\"'), an abstract in -ti- to the root. 'aranu' is Av. arənu- m. 'fight, contest' ('Letzteres ist sicher für: av. arənu- m. \"Kampf, Wettkampf\" (: ahd. ernust)'), and ham-arənu- is the same with ham- 'together': OP ham-arana- n. 'hostile encounter, battle' is the word used throughout Bīsutūn (hamaranam akunavam 'I did battle'), and Bartholomae's own note there reads 'Zum V. ar-. — ai. samara- m. \"Kampf\". Vgl. hamarana- und hamarəθa-'. 'ham-ara, ham-aratha' are Av. hamara- and hamarəθa- m. 'adversary, rival'. 'râna 1' is Av. rāna-, rąna- m. 'fighter, combatant' (beside rəna- n. 'battle'), from the thematic root form (e)rə-. 'artha' is Sanskrit ártha- n. 'affair, matter, property' — the Avestan equivalent is arəθa- n. 'thing, affair, litigation', so the language label is loose here (Nourai copies Pokorny's paired citation), but the etymology, '*wozu man gelangt' = 'that which one arrives at', is Pokorny's own. The two cross-references to Sem 1 (ham- < *sem- 'one, together') are correct.",
+          "derivation_fa": "همهٔ واژه‌های این گره واژه‌به‌واژه در صفحات ۳۲۷ و ۳۲۸ پوکورنی، یعنی همان محدوده‌ای که نورایی ارجاع داده، آمده‌اند. «arati» همان -arəti- اوستایی «نیرو، تکاپو» است (اسم مصدر با پسوند ti-). «aranu» همان arənu- «نبرد، پیکار» و «ham-aranu» ترکیب آن با پیشوند ham- «با هم» است؛ صورت پارسی باستان hamarana- «رویارویی خصمانه، نبرد» واژهٔ رایج کتیبهٔ بیستون است (hamaranam akunavam «نبرد کردم») و بارتولومه خود در همان‌جا می‌نویسد: «به فعل ar-؛ سنسکریت samara- «نبرد»». «ham-ara» و «ham-aratha» همان hamara- و hamarəθa- «حریف، دشمن»اند. «rāna» همان rāna-/rąna- «جنگاور» است. «artha» اما سنسکریت است نه اوستایی (اوستایی آن arəθa- «کار، دعوی» است)؛ نورایی برچسب زبانی را از جفت‌نویسیِ پوکورنی برداشته است. ارجاع‌های Sem 1 نیز درست‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:327-331",
+              "status": "supports",
+              "note": "Pokorny IEW p.327-328 (POK_01.txt leaf 339): 'ai. sam-ará- m., sam-áraṇa- n. \"Kampf, Wettstreit\", av. ham-arəna-, apers. ham-arana- n. \"feindliches Zusammentreffen, Kampf\", av. hamara- m. (und mit th-Formans hamarəθa- m.) \"Gegner, Widersacher\"; ... ai. ártha- n. m. \"(*wozu man gelangt)\" \"Angelegenheit, Sache\", av. arəθa- n. \"Sache, Angelegenheit, Obliegenheit, Rechtsstreit\"; ai. r̥tí-, r̥̄tí- f. \"Angriff, Streit\", av. -arəti- \"Energie\"; ... av. arənu- m. \"Kampf, Wettkampf\" (: ahd. ernust); von der themat. Wurzelf. (e)rə- ... = av. rəna- n. \"Treffen, Kampf, Streit\"; av. rāna-, rąna- m. \"Streiter, Kämpfer\"'. Every word of the node is there."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pp.327-328",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 136-137",
+              "stance": "supports",
+              "note": "the same list in the parent work: 'ai. ártha- n. m. \"(*wozu man gelangt)\" ... av. arθa- n. \"Sache, Angelegenheit, Obliegenheit, Rechtsstreit\"'; 'ai. r̥ti-, r̥̄ti- f. \"Angriff, Streit\", av. -arəti- \"Energie\"'; 'av. arənu- m. \"Kampf, Wettkampf\" (: ahd. ernust)' (WLD_Bd1_pages.txt lines 12300-12320)."
+            },
+            {
+              "src": "BRT",
+              "where": "s.v. OP hamarana- and cartanaiy (BRT.txt lines 29421, 11238)",
+              "stance": "supports",
+              "note": "'Zum V. ar-. — ai. samara- m. \"Kampf\". Vgl. hamarana- und hamarəθa-'; 'hamaranam cartanaiy \"praelium facere\"' with the Bīsutūn citations."
+            },
+            {
+              "src": "KNT",
+              "where": "p.170 s.v. arta-",
+              "stance": "supports",
+              "note": "'arta- sb. \"Law, Justice\" ... ptc. to ar- as sb., Av. aša- and arəta-, Skt. r̥tá- \"cosmic order\", Lt. ortus \"risen, originated\", pIE *r̥to-' — the same root, same formation type."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Latin",
+          "words": "oriri; rivus",
+          "verdict": "confirmed",
+          "derivation": "Latin orior, orīrī, ortus sum 'to rise, spring up, be born' is the yé-present *h₃r̥-yé-tor of this root; its participle ortus is the exact equal of Sanskrit r̥tá-, and the derived noun orīgō 'source, beginning' is built on it. Watkins files it under er-1 'to move, set in motion' as 'suffixed form *or-yo- in Latin oriri, to arise, appear, be born' with the tag [Pok. 3. er- 326] — i.e. Nourai's 'AHD' citation is precise. Latin rīvus 'brook' is *rei-wo-s from the erei-/reiə- sub-basis of the same root (Pokorny p.330-331: 'lat. orior, origo s. oben; rīvus (*rei-uo-s) \"Bach\"'), and Watkins likewise puts it under rei-3 'to flow, run', again tagged [Pok. 3. er- 326]. So both Latin words really do belong to one and the same Pokorny lemma, which is exactly what the chart claims by putting them in one box.",
+          "derivation_fa": "لاتینی orior، orīrī، ortus «برخاستن، برآمدن، زاده شدن» همان حالِ *h₃r̥-yé-tor این ریشه است؛ صفت مفعولی آن ortus برابر دقیق r̥tá- سنسکریت است و اسم orīgō «سرچشمه» از آن ساخته شده. واتکینز آن را ذیل er-1 «به جنبش درآوردن» می‌آورد با یادداشت [Pok. 3. er- 326]، پس ارجاع «AHD» نورایی دقیق است. لاتینی rīvus «جوی» نیز *rei-wo-s از زیرپایهٔ erei-/reiə- همین ریشه است؛ پوکورنی در صفحهٔ ۳۳۰–۳۳۱ می‌نویسد: «lat. orior، origo ... rīvus (*rei-uo-s) «جوی»». واتکینز هم آن را ذیل rei-3 «روان شدن» با همان یادداشت [Pok. 3. er- 326] می‌گذارد. پس هر دو واژه به یک مدخل پوکورنی می‌رسند و ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/origin"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins (AHD_watkins1985.txt line 447): 'er-1. To move, set in motion. ... 3. Suffixed form *or-yo- in Latin oriri, to arise, appear, be born: ORIENT, ORIGIN, ORIGINAL; ABORT. [Pok. 3. er- 326; ergh- 339.]'; and line 895: 'rei-3. To flow, run. ... 3. Suffixed form *rei-wo- in Latin rivus, stream: RIVAL, RIVULET; DERIVE. [Pok. 3. er- 326.]' — both Latin words assigned to Pokorny's er-3, exactly as the chart draws them."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "s.v. er-1 and rei-3",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "POK",
+              "where": "pp.330-331 (POK_01.txt leaves 343-344)",
+              "stance": "supports",
+              "note": "'lat. orior, -īrī, ortus sum \"to rise; to spring up, be born\" (ortus = ai. r̥tá-) ... origo \"origin, source, beginning\"'; 'rīvus (*rei-uo-s) \"Bach\"'."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. Orient (SKT.txt line 12867)",
+              "stance": "supports",
+              "note": "'Orient, eastern. (F.-L.) F. orient — L. orient-, stem of oriens, rising, the east; orig. pres. pt. of oriri, to rise, begin. + Skt. r̥, to rise. (√AR.)'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "s.v. origin / abort",
+              "stance": "supports",
+              "note": "'from Latin ... oriri \"appear, be born, arise\", from PIE *h₃eri- \"to rise\" ... [Watkins, contra de Vaan, etc., derives the second element from a suffixed form of PIE root *er- (1) \"move, set in motion.\"]'"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "orient, origin, abort, rival, derive",
+          "verdict": "confirmed",
+          "derivation": "All five are Latin loans into English through French and all five are covered by the two Watkins entries that carry Nourai's own tag [Pok. 3. er- 326]. Orient (14c., Old French orient < Latin oriēns, -entis 'the rising sun, the east', present participle of orīrī), origin (15c., Latin orīgō, -inis 'source', from orīrī) and abort (1570s, Latin abortus, past participle of aborīrī 'to miscarry', ab- 'amiss' + orīrī) all belong to orīrī of node #13; Watkins lists them together as 'ORIENT, ORIGIN, ORIGINAL; ABORT'. Rival (1570s) is Latin rīvālis 'one using the same brook', a derivative of rīvus; derive is Old French deriver < Latin dērīvāre 'to lead off water, draw off', literally 'from the stream' (dē- + rīvus). Watkins gives 'RIVAL, RIVULET; DERIVE' under rei-3. The node's arrow, Latin → English, is a simple and uncontroversial borrowing chain.",
+          "derivation_fa": "هر پنج واژه وام‌واژه‌های لاتینی‌اند که از راه فرانسه به انگلیسی رسیده‌اند و هر پنج در همان دو مدخل واتکینز آمده‌اند که یادداشت [Pok. 3. er- 326] دارند. orient (سدهٔ ۱۴، از فرانسهٔ کهن، از لاتینی oriēns «خورشیدِ برآینده، خاور»، اسم فاعل orīrī)، origin (سدهٔ ۱۵، از لاتینی orīgō «سرچشمه») و abort (۱۵۷۰، از لاتینی abortus، صفت مفعولی aborīrī «سِقط شدن» از ab- + orīrī) همه به orīrī گرهِ پیشین بازمی‌گردند. rival از لاتینی rīvālis «هم‌جوی، کسی که از یک جوی آب می‌برد» و derive از لاتینی dērīvāre «آب را از جوی بیرون بردن» است، هر دو از rīvus. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/rival",
+            "https://www.etymonline.com/word/origin"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the node carries no references of its own in the book; the parent Latin box cites AHD, which covers all five words (see node #13)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "s.v. er-1 and rei-3 (AHD_watkins1985.txt lines 447, 895)",
+              "stance": "supports",
+              "note": "'ORIENT, ORIGIN, ORIGINAL; ABORT' under er-1; 'RIVAL, RIVULET; DERIVE' under rei-3."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. Orient (SKT.txt line 12867)",
+              "stance": "supports",
+              "note": "'F. orient — L. orient-, stem of oriens, rising ... pres. pt. of oriri, to rise, begin. + Skt. r̥, to rise. (√AR.)'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "s.v. rival, origin/abort",
+              "stance": "supports",
+              "note": "'rival ... from Latin rivalis \"a rival, adversary in love; neighbor,\" originally, \"of the same brook,\" from rivus \"brook\" (from PIE root *rei- \"to run, flow\")'."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Germanic",
+          "words": "ri-nwan : to run; art : to be",
+          "verdict": "plausible",
+          "derivation": "The first half is solid: Watkins reconstructs 'suffixed zero-grade form *ri-nu- in Germanic *ri-nw-an, whence *rinnan, to run' — Nourai's odd-looking 'ri-nwan' is a verbatim copy of Watkins' notation — with Gothic rinnan, rann 'to run', urrinnan 'to rise (of the sun)', Old Norse rinna, OHG/OS rinnan, OE rinnan and iernan; Pokorny p.328-329 has the same, 'got. rinnan, rann \"rennen, laufen\" (*re-nu-ō), urrinnan \"aufgehen, von der Sonne\"'. The second half is a genuine but contested hypothesis. Watkins' er-1 opens '1. Probably Germanic *ar-, *or-, *art(a), to be, exist, in Old English eart and aron, second person singular and plural present of bēon, to be: ARE, ART' — note his 'probably'. Wiktionary sets the state of the question out: the Anglian forms earun/earon (and Old Swedish ær-) 'could reflect Proto-Germanic preterite-present *ōr ~ *arum, from Proto-Indo-European *h₃e-h₃ór-h₂e (\"I have risen\", perfect)' (Ringe 2006:72, Seebold), 'since they are not the expected outcomes of the Proto-Germanic forms of *wesaną in *iz-'; but the competing and commoner view keeps them with *h₁es- 'to be' as irregular alterations. So Nourai's box faithfully reports AHD, and AHD's own hedge is what keeps this node short of 'confirmed'.",
+          "derivation_fa": "نیمهٔ نخست استوار است: واتکینز صورت «*ri-nu- در ژرمنی *ri-nw-an > *rinnan «دویدن»» را بازسازی می‌کند — نگارش عجیبِ «ri-nwan» نزد نورایی عیناً از واتکینز گرفته شده — با گواه‌های گوتی rinnan «دویدن»، urrinnan «برآمدن (خورشید)»، نورس کهن rinna و انگلیسی کهن rinnan/iernan؛ پوکورنی نیز در صفحهٔ ۳۲۸–۳۲۹ همین را دارد. اما نیمهٔ دوم فرضیه‌ای واقعی ولی محل بحث است: واتکینز ذیل er-1 می‌نویسد «احتمالاً ژرمنی *ar-, *or-, *art(a) «بودن» در انگلیسی کهن eart و aron» — با همان قید «احتمالاً». ویکی‌واژه وضع پژوهش را چنین می‌آورد: صورت‌های earun/earon «می‌توانند بازتاب ژرمنی آغازین *ōr ~ *arum از هندواروپایی *h₃e-h₃ór-h₂e «برخاسته‌ام» باشند» (رینگه ۲۰۰۶، زیبولد)، اما دیدگاه رایج‌تر آن‌ها را دگرگونی‌های بی‌قاعدهٔ *h₁es- «بودن» می‌داند. پس با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/are"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins: 'rei-3. To flow, run. 1. Suffixed zero-grade form *ri-nu- in: a. Germanic *ri-nw-an, whence *rinnan, to run, in Old English rinnan ... RUN, RUNNEL. [Pok. 3. er- 326.]' and 'er-1 ... 1. Probably Germanic *ar-, *or-, *art(a), to be, exist, in Old English eart and aron ... ARE, ART. [Pok. 3. er- 326]'. Both forms are Watkins' own; the 'art(a)' half is explicitly hedged with 'Probably'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "s.v. er-1 and rei-3",
+              "stance": "supports",
+              "note": "see ref_check."
+            },
+            {
+              "src": "POK",
+              "where": "pp.328-329 (POK_01.txt leaf 341)",
+              "stance": "partial",
+              "note": "'got. rinnan, rann \"rennen, laufen\" (*re-nu-ō), urrinnan \"aufgehen, von der Sonne\", aisl. rinna \"fliessen, rennen\", ahd. as. rinnan ... ags. rinnan und iernan, arn' — Pokorny supports *ri-nw-, but says nothing about OE eart/aron."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "s.v. are (etymology 2)",
+              "stance": "partial",
+              "note": "'Further etymology controversial: The English forms, as well as the Old Swedish forms in ær-, could reflect Proto-Germanic preterite-present *ōr ~ *arum, from Proto-Indo-European *h₃e-h₃ór-h₂e (\"I have risen\", perfect) [Ringe 2006 p.72] ... Since they are not the expected outcomes of the Proto-Germanic forms of *wesaną in *iz-, they would have to be irregular alterations.'"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "run, are",
+          "verdict": "plausible",
+          "derivation": "Run continues Old English rinnan / iernan, arn (with the well-known metathesis of r and the vowel: *rinnan > iernan > modern run), reinforced by Old Norse rinna; Watkins gives 'RUN, RUNNEL' from Germanic *ri-nw-an under rei-3, tagged [Pok. 3. er- 326] — so for 'run' the chain root → Germanic → English is straightforward and confirmed. Are is Middle English aren, Old English (Anglian) earun/earon, plural of 'to be', which displaced Old English sind and bēoþ; art is its 2sg. Watkins takes both back to a Germanic *ar-/*or-/*art(a) belonging to this root, and Ringe reconstructs a preterite-present *ōr ~ *arum from the PIE perfect *h₃e-h₃ór-h₂e 'I have risen' — a real hypothesis, and the only one that explains why the forms are not the expected reflexes of *wesaną (*iz-). But most handbooks still class earun/earon with *h₁es- 'to be'. The node therefore mixes one certain item with one that is genuinely open, which is why it is graded plausible rather than confirmed.",
+          "derivation_fa": "«run» دنبالهٔ rinnan / iernan, arn انگلیسی کهن است (با قلبِ شناختهٔ r: *rinnan > iernan > run امروزی) که نورس کهن rinna نیز آن را تقویت کرده؛ واتکینز «RUN, RUNNEL» را از ژرمنی *ri-nw-an ذیل rei-3 با یادداشت [Pok. 3. er- 326] می‌آورد، پس این نیمه قطعی است. «are» از انگلیسی میانهٔ aren و انگلیسی کهن (انگلی) earun/earon است که جای sind و bēoþ را گرفت، و «art» صورت دوم‌شخص مفرد آن است. واتکینز هر دو را به ژرمنی *ar-/*or-/*art(a) از همین ریشه می‌برد و رینگه یک ماضی‌ـ‌حال *ōr ~ *arum از کاملِ هندواروپاییِ *h₃e-h₃ór-h₂e «برخاسته‌ام» بازمی‌سازد؛ فرضیه‌ای جدی، ولی بیشتر کتاب‌های مرجع هنوز آن صورت‌ها را به *h₁es- «بودن» می‌بندند. از این‌رو این گره با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/are"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the node carries no references of its own; the parent Germanic box cites AHD, which supplies both English words (see node #15)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "s.v. rei-3 and er-1 (AHD_watkins1985.txt lines 895, 447)",
+              "stance": "supports",
+              "note": "'RUN, RUNNEL' under rei-3; 'ARE, ART' under er-1 with 'Probably'."
+            },
+            {
+              "src": "POK",
+              "where": "pp.328-329",
+              "stance": "partial",
+              "note": "supports Germanic *rinnan (> run); silent on OE eart/aron."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "s.v. are",
+              "stance": "partial",
+              "note": "'Further etymology controversial ... could reflect Proto-Germanic preterite-present *ōr ~ *arum, from Proto-Indo-European *h₃e-h₃ór-h₂e (\"I have risen\", perfect).'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
