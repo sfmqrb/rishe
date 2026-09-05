@@ -1,0 +1,1001 @@
+{
+ "pdf_page": 73,
+ "book_page": 43,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Aw, Awi, Awei",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₂éwis 'bird' (Pokorny 86 auei- (ouei-?) 'Vogel'; Watkins/AHD awi-)",
+   "note": "Root, language label and gloss are all correct and are copied straight from Pokorny p.86, which is also the page Nourai cites. Pokorny himself adds the cross-reference that Nourai turns into his second chart: 'Im Zusammenhang damit stehen höchstwahrscheinlich die Worte für Ei, s. unter ōu-' (p.86). Nourai's three root shapes Aw / Awi / Awei correspond to Pokorny's au-ei- and to AHD's awi-; the laryngeal notation *h₂éwis is the modern equivalent. The only weak point of the entry is the Avestan node, where the wind-word vayu- has been swept in (see node 1).",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *h₂éwis «پرنده» (در پوکورنی، صفحهٔ ۸۶، به صورت auei- «Vogel»؛ در واتکینز/AHD به صورت awi-). برچسب زبانی «هندواروپایی»، معنا و خودِ ریشه هر سه درست‌اند و دقیقاً از همان صفحه‌ای گرفته شده‌اند که نورایی ارجاع داده است. پوکورنی در پایان همان مدخل می‌افزاید که واژه‌های «تخم‌مرغ» نیز به احتمال بسیار زیاد با این ریشه پیوند دارند — همان چیزی که نورایی آن را نمودار دوم این صفحه کرده است. ادعای نورایی دربارهٔ ریشه درست است؛ تنها ایراد صفحه در گرهِ اوستایی است که واژهٔ «باد» (vayu) را نیز زیر این ریشه آورده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂éwis"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:86",
+     "status": "supports",
+     "note": "POK_01.txt line 1154 (\\f-leaf 95, running head '86'): 'auei- (ouei-?) „Vogel“. Ai. viḥ, véḥ m. „Vogel“ (Gen. véḥ, Akk. vim), av. vīš ds. (G. Pl. vayąm, auch mit themat. Kasus vom St. vaya-), mpers. vāi, vāyandak „Vogel“ … verbal av. ā-vayeiti „fliegt heran“ (von Gottheiten) … lat. avis f. „Vogel“ … Im Zusammenhang damit stehen höchstwahrscheinlich die Worte für „Ei“, s. unter ōu-.' Grep: grep -n \"auei-\" POK_01.txt."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p.21 (WLD_Bd1_1930_dli_70244_djvu.txt line 1529)",
+     "stance": "supports",
+     "note": "'auei- „Vogel“. Lat. avis „Vogel“ … = umbr. avif … ai. víḥ, véḥ m. „Vogel“, av. vīš ds. … mp. vāi, vāyandak „Vogel“ … verbal av. ā-vayeiti „fliegt heran“.' Pokorny's p.86 is a reprint of this article; the same volume (line 9709) says '*ou(i)om „Ei“ zu *auei- „Vogel“'."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. awi- (AHD_watkins1985.txt line 317)",
+     "stance": "supports",
+     "note": "'awi-. Bird. I. 1. Latin avis, bird: AVIAN, AVIARY, AVIATION; AVICULTURE, AVIFAUNA, BUSTARD, OCARINA, OSPREY, OSTRICH … II. Possible derivatives are the Indo-European words for egg, *ōwyo-, *ōyo- … [Pok. auei- 86.]' — the same root, and the same link to the egg words."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck p.183, §3.64 BIRD",
+     "stance": "supports",
+     "note": "The 'bird' article lists Lat. avis, Skt. vi-, pakṣin-, Av. vi-, marəγa-; on p.256 (§4.48 EGG) Buck says the egg words 'prob. reflect an IE word for egg derived fr. the word for bird seen in Lat. avis, Skt. vi- (3.64)'."
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, searched for awi-/awis",
+     "stance": "silent",
+     "note": "grep 'awis' in IEC.txt returns only ouis 'sheep' (col. 12415); Mann's bird entry was not located in this OCR."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "vîš 2; vayu; vi 1, vay 1; â-vayeiti",
+     "verdict": "disputed",
+     "derivation": "Three of the four words are right, one is not. (a) Av. vīš 'bird' is the nominative singular of the athematic stem vi- (Skt. víḥ, véḥ), the direct Iranian continuation of PIE *h₂éwis; the thematic by-form vaya- supplies the other cases (Pokorny 86: 'av. vīš ds., G. Pl. vayąm, auch mit themat. Kasus vom St. vaya-'). (b) The verb: Bartholomae col. 1356 has '²vay- V. „fliegen“, nur mit ā „heranfliegen“, von Gottheiten', i.e. the root is attested in Avestan only in the compound, so (c) ā-vayeiti 'flies hither' (of deities, Yt. 5.84, Yt. 13.49) is correct, though Nourai's gloss 'flied up' should be 'flies hither/up to'. (d) vayu 'air' does NOT belong here: Bartholomae col. 1357 files ¹vayav-/¹vaya- m. 'Luft, Atmosphäre, als Gottheit' under the verb ²vā- 'to blow' (Skt. vāyú- 'wind', MP wāy), and Pokorny puts it on pp. 81-84 s.v. au̯e-/u̯ē- 'wehen' ('ai. vāyúḥ, av. vāyuš „Wind, Luft“'), i.e. under PIE *h₂weh₁- 'to blow', a different root. The homonymy of Pahlavi wāy 'wind' and wāy 'bird' (Horn treats them in one paragraph, no. 207) is what invited the conflation.",
+     "derivation_fa": "از چهار واژهٔ این گره سه‌تا درست است و یکی نادرست. «vīš» صورت نهادیِ مفردِ ستاک vi- در اوستایی است (هم‌ریشه با سنسکریت víḥ / véḥ) و بازماندهٔ مستقیم *h₂éwis هندواروپایی؛ حالت‌های دیگر از ستاک مصوّت‌دار vaya- ساخته می‌شود (پوکورنی ۸۶). فعل vay- را بارتولومه (ستون ۱۳۵۶) تنها با پیشوند ā- ثبت کرده است: ā-vayeiti «به‌سوی این‌جا می‌پرد» و آن هم دربارهٔ ایزدان؛ پس این پیوند درست است، هرچند ترجمهٔ نورایی («بالا پرید») باید «به‌سوی … پرواز کرد» باشد. اما vayu «هوا، باد» به این ریشه تعلق ندارد: بارتولومه (ستون ۱۳۵۷) آن را به ستاک vā- «وزیدن» می‌بندد و پوکورنی نیز آن را در صفحه‌های ۸۱ تا ۸۴ زیر au̯e- «وزیدن» (هندواروپایی *h₂weh₁-) آورده است. هم‌آوایی «وای» به معنی باد و «وای» به معنی پرنده در فارسی میانه سبب این خلط شده است. نتیجه: پژوهش امروزی سه پیوند را می‌پذیرد و ورودِ vayu را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂éwis"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:86",
+       "status": "partial",
+       "note": "Pokorny p.86 has 'av. vīš ds.' and 'verbal av. ā-vayeiti „fliegt heran“ (von Gottheiten)' — supports vīš, vay-, ā-vayeiti. It does NOT have vayu here; vāyu- 'Wind, Luft' stands on pp.81-84 under 'au̯e-, u̯ē- „wehen“' (POK_01.txt \\f-leaf 92: 'ai. vāyúḥ, av. vāyuš „Wind, Luft“')."
+      },
+      {
+       "ref": "HRN:296",
+       "status": "supports",
+       "note": "HRN.txt \\f-leaf 317 = printed p.296, tail of entry no.207: '2) „Vogel“, vergl. vāyandak „Vogel“ (Men. 62,16). aw. vay- „Vogel“; ai. vāy-, oder nach Joh. Schmidt … Schmidt stellt dann auch lat. avis … hierher.' The head of the same entry (p.295) is 'vāi 1) „Luft“ … aw. vayu- „Luft“; ai. vāyu- „Luft, Wind“' — Horn keeps the two senses in one Pahlavi paragraph but derives them from two different Avestan words."
+      },
+      {
+       "ref": "SYN:183",
+       "status": "supports",
+       "note": "Buck p.183 §3.64 BIRD: 'Av. vi-, marəγa-', beside 'Lat. avis', 'Skt. vi-, pakṣin-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "cols. 1356-1357 (BRT.txt lines 22670, 22682, 22690)",
+       "stance": "partial",
+       "note": "'j. ²vay- V. „fliegen“, nur mit ā „heranfliegen“, von Gottheiten' (col.1356); s.v. ²vaya- 'Vogel': 'Zum V. ²vay-. — ai. vā́y m. (víḥ, vāyaḥ); mp. (Pü.) vay, vgl. vāyandak' (col.1357) — supports the bird/fly words; but 'j. ¹vayav-, ¹vaya- m. „Luft, Atmosphäre“, als Gottheit … Zum V. ²vā-, mp. *vayu; ai. vāyú- m. „Wind“' — contradicts the inclusion of vayu under the bird root."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.21",
+       "stance": "supports",
+       "note": "Same article as Pokorny 86: 'av. vīš ds. (g. pl. vayąm, auch mit themat. Kasus vom St. vaya-) … verbal av. ā-vayeiti „fliegt heran“ (von Gottheiten)'; vāyu- is not in it."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins s.v. awi-",
+       "stance": "partial",
+       "note": "Lists only Latin avis and the egg words as derivatives; no Iranian material, and no connection of the wind-word (which Watkins files under wē- 'to blow')."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "vôi, vây, vâyandak",
+     "verdict": "transcription_suspect",
+     "derivation": "Middle Persian wāy 'bird' and its present participle wāyēndag 'flying creature, bird' are both real and both continue Av. vaya-/vay-: Pokorny p.86 prints 'mpers. vāi, vāyandak „Vogel“', Walde-Pokorny I 21 the same, and Nyberg's glossary p.207 has 'vāyēndak [wʾyndk'] flying creature … Pres. pt. of Av. (1356) √vay- „to fly“'. Intervocalic Old Iranian -y- is kept, and the participle suffix Av. -ant- > MP -ēnd-ag. The first form, 'vôi', is not a form any of the sources knows: Pokorny, Walde-Pokorny and Horn (p.295 'vāi') all print vāi = wāy, with ā. The printed page 43 of Nourai's book itself reads 'vôi, vây, vâyandak', so the extraction is faithful and the odd form is the book's own misprint of Pokorny's vāi. Note also that MacKenzie's dictionary does not list wāy 'bird' at all (Pahlavi for 'bird' is murw); MP wāy is chiefly the wind/atmosphere word (andarwāy 'air'), and 'bird' is the sense Horn and Nyberg document from the Avesta commentary and the Mēnōg ī xrad.",
+     "derivation_fa": "«وای» فارسی میانه به معنی پرنده و صفت فاعلیِ آن «وایَندَگ» (wāyēndag) «پرنده، جانور پرّان» هر دو واقعی‌اند و دنبالهٔ اوستایی vaya-/vay- به شمار می‌روند: پوکورنی (ص ۸۶) «mpers. vāi, vāyandak» می‌نویسد، والده‑پوکورنی نیز همین را، و نیبرگ در واژه‌نامهٔ خود (ص ۲۰۷) می‌آورد: «vāyēndak [wʾyndk'] جانور پرّان … اسم فاعلِ حالِ ریشهٔ اوستایی vay- «پریدن»». یِ میان‌واکه‌ای ایرانی باستان حفظ شده و پسوند اوستایی ‎-ant-‎ در فارسی میانه به ‎-ēnd-ag‎ بدل شده است. اما صورت «vôi» را هیچ‌یک از منابع نمی‌شناسد؛ همه vāi (یعنی wāy) با آی کشیده دارند. تصویر صفحهٔ ۴۳ چاپیِ کتاب نشان می‌دهد که خودِ کتاب «vôi» چاپ کرده است، پس خطا از خوانشِ اسکن نیست بلکه خطای چاپی کتاب است (بدخوانیِ vāi پوکورنی). افزون بر این، مکنزی «wāy» را به معنی پرنده نیاورده است (واژهٔ رایج فارسی میانه برای پرنده murw است) و wāy در آن بیشتر «هوا، باد» است.",
+     "error_in": "book",
+     "book_prints": "vôi, vây, vâyandak",
+     "correct_form": "vāy, vāyandag (Pokorny/Walde-Pokorny vāi, vāyandak)",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂éwis"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:86",
+       "status": "supports",
+       "note": "'mpers. vāi, vāyandak „Vogel“' (POK_01.txt line 1155). Supports vây and vâyandak; the printed 'vôi' has no counterpart here — Pokorny's form is vāi."
+      },
+      {
+       "ref": "NYB:207",
+       "status": "supports",
+       "note": "NYB_vol2_glossary.txt, page marker '207' immediately precedes the column: 'vāyēndak [wʾyndk'] flying creature, pl. cas. obl. -ān, enumerated after murvān 80². — Pres. pt. of Av. (1356) √vay- „to fly“.' Exactly Nourai's page and word; Nyberg has no vōi/vāy headword of its own."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971, s.vv. murw, andarwāy (PHD.txt lines 493, 761)",
+       "stance": "partial",
+       "note": "'murw [mwlw | M mwrw, (N murγ)] bird'; 'air andarwāy, way' — MacKenzie's wāy is the air/wind word, and he gives no wāy 'bird', so the bird sense rests on Horn/Nyberg's Avesta-commentary material."
+      },
+      {
+       "src": "HRN",
+       "where": "pp. 295-296, entry no. 207",
+       "stance": "supports",
+       "note": "'vāi 1) „Luft“ … 2) „Vogel“, vergl. vāyandak „Vogel“ (Men. 62,16). aw. vay- „Vogel“' — Horn's Pahlavi form is vāi, never vōi."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.21",
+       "stance": "supports",
+       "note": "'mp. vāi, vāyandak „Vogel“' — the source of Pokorny's wording, again with ā."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "vây «واى»; vîš «ویش»",
+     "verdict": "plausible",
+     "derivation": "The chart's own note ('both are almost obsolete') is an understatement for the first word and right for the second. (a) وایش/ویش: Dehkhoda has 'ویش. (اِ) موش‌گیر. (نسخه‌ای از فرهنگ اسدی). غلیواج. زغن' — 'mouse-catcher, kite (Milvus), black kite', expressly quoted from a manuscript of Asadi's Farhang (= Loghat-e Fors, Nourai's FRS), so a New Persian reflex of Av. vīš does survive, but as the name of one raptor, not as the general word 'bird' (that is مرغ/پرنده). Phonologically it is regular: OIr. *wiš > MP wiš > NP vīš, with no lenition of the initial w- to v- other than the normal New Persian spelling. (b) وای 'bird' is not in Dehkhoda, Mo'in or Amid, all of which give only the interjection وای 'alas' (a different, expressive word); it is the Pahlavi wāy of node 2 carried over into the Persian column rather than an attested New Persian noun. Verdict: the derivation Av. vi-/vaya- > MP wāy > NP vīš is sound, but 'vây' as a New Persian bird-word is unsupported.",
+     "derivation_fa": "یادداشت خود نمودار («هر دو تقریباً منسوخ‌اند») دربارهٔ واژهٔ دوم درست و دربارهٔ اولی خوش‌بینانه است. «ویش» را دهخدا چنین آورده است: «ویش. (اِ) موش‌گیر. (نسخه‌ای از فرهنگ اسدی). غلیواج. زغن»؛ یعنی همان لغت‌نامه‌ای که نورایی با نشانِ FRS به آن ارجاع می‌دهد (فرهنگ اسدی = لغت فرس) این واژه را دارد، اما نه به معنیِ عامِ «پرنده» بلکه نامِ یک پرندهٔ شکاریِ ویژه (غلیواج، زغن). تحول آوایی بی‌قاعده نیست: ایرانی باستان *wiš > فارسی میانه wiš > فارسی نو ویش. اما «وای» به معنی پرنده در دهخدا، معین و عمید نیامده است؛ در این فرهنگ‌ها «وای» تنها شبه‌جمله‌ای است به معنی «افسوس». پس ادعای نورایی دربارهٔ ویش با احتیاط پذیرفتنی است و «وایِ» فارسی در واقع همان «وای» فارسی میانه است که به ستون فارسی نو منتقل شده است.",
+     "sources": [
+      "https://abadis.ir/fatofa/ویش/",
+      "https://abadis.ir/fatofa/وای/"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:995",
+       "status": "not_found",
+       "note": "Horn's Grundriss has no page 995 (HRN.txt has 411 leaves = printed pp. 1-~390) and its numbered entry 995 is 'mūš „Maus“' (HRN.txt line 8650). The Horn place that actually carries this material is pp.295-296, entry 207 ('vāi 1) „Luft“ … 2) „Vogel“ … vāyandak'), so HRN:995 looks like the book's misprint for HRN:295. The printed page 43 does read 'HRN:995', so this is Nourai's citation, not an extraction slip."
+      },
+      {
+       "ref": "FRS:56",
+       "status": "partial",
+       "note": "Could not be located in the Loghat-e Fors OCR on disk (FRS_pages.txt / FRS.txt, greps for ویش and وای), whose pagination is Eqbal's 1319 edition, not the 1365 Kharazmi edition Nourai cites. But the entry demonstrably exists: Dehkhoda's article ویش cites it verbatim — 'موش‌گیر. (نسخه‌ای از فرهنگ اسدی). غلیواج. زغن' (abadis.ir/fatofa/ویش)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Mo'in/Dehkhoda via abadis.ir, s.vv. ویش and وای",
+       "stance": "partial",
+       "note": "ویش = 'موش‌گیر … غلیواج. زغن' (a kite); وای has only the interjectional senses ('تألم و افسوس و اندوه', 'فریاد، ناله'), with no 'bird' sense."
+      },
+      {
+       "src": "HRN",
+       "where": "pp.295-296",
+       "stance": "partial",
+       "note": "Horn documents vāi/vāyandak only as Pahlavi (from the Avesta commentary and Mēnōg ī xrad); he lists no New Persian continuation."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien",
+       "stance": "silent",
+       "note": "grep for 'Ei', 'chaje', 'xaje' and the bird forms in HUB.txt returned nothing relevant."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Latin",
+     "words": "avis",
+     "verdict": "confirmed",
+     "derivation": "Latin avis f. 'bird' is the classic exemplar of the root: it continues PIE *h₂éwis directly (with the regular Italic outcome *awis, cf. Umbrian avif acc.pl. 'aves' in the augural formulae aviekate 'auspicatae', aviekla 'augurali'). Pokorny 86 and Walde-Pokorny I 21 give exactly this equation, and de Vaan's Latin etymological dictionary (pp.65-66, cited on the Wiktionary reconstruction page) keeps it. The derivative auspex 'augur' < *awi-spek- 'observer of birds' shows the word alive in Roman religion.",
+     "derivation_fa": "واژهٔ لاتینِ avis «پرنده» بازماندهٔ مستقیم *h₂éwis هندواروپایی است؛ در ایتالیک به *awis رسیده و در اومبریایی نیز به‌صورت avif (رایی جمع) در فرمول‌های فال‌گیری با پرندگان دیده می‌شود. پوکورنی (ص ۸۶) و والده‑پوکورنی (جلد یکم ص ۲۱) همین برابری را می‌دهند و دِ فان نیز در فرهنگ ریشه‌شناختی لاتین آن را نگه داشته است. مشتقِ auspex «مرغ‌بین، فال‌گیر» از *awi-spek- «نگرندهٔ پرندگان» نشان می‌دهد که واژه در آیین رومی زنده بوده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂éwis"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:86",
+       "status": "supports",
+       "note": "'lat. avis f. „Vogel“ (davon auca „Vogel, bes. Gans“ …) = umbr. avif Akk. Pl. „aves“ (aviekate D. Sg. „auspicatae“, aviekla „augurali“)' (POK_01.txt line 1157)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins s.v. awi-",
+       "stance": "supports",
+       "note": "'awi-. Bird. I. 1. Latin avis, bird … 2. Compound *awi-spek-, „observer of birds“ … in Latin auspex, augur: AUSPICE. [Pok. auei- 86.]'"
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.21",
+       "stance": "supports",
+       "note": "'Lat. avis „Vogel“ (davon auca „Vogel, bes. Gans“) = umbr. avif a. pl. „aves“.'"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck p.183 §3.64",
+       "stance": "supports",
+       "note": "Latin column of the 'bird' article: 'Lat. avis'."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "aviation, ostrich",
+     "verdict": "confirmed",
+     "derivation": "Both are Latin avis in English dress, by two very different routes. aviation was coined in French in 1863 by G. de La Landelle ('Aviation ou Navigation aérienne') on the stem of Latin avis, and entered English in 1866. ostrich is much older: Vulgar Latin avis struthio 'the struthio-bird' (Latin avis + Late Latin struthio < Greek strouthiōn, from strouthos megalē 'big sparrow') > Medieval Latin ostrica/ostrigius > Old French ostruce (Mod.Fr. autruche) > early 13th-c. English ostriche/estrich; the avis element survives only as the initial os-. Watkins accordingly indexes OSTRICH under both awi- and trozdo-.",
+     "derivation_fa": "هر دو واژه در نهایت همان avis لاتین‌اند، اما از دو راهِ بسیار متفاوت. «aviation» را در سال ۱۸۶۳ گیوم دو لا لاندل در فرانسه از ستاکِ avis ساخت و در ۱۸۶۶ به انگلیسی راه یافت. «ostrich» بسیار کهن‌تر است: لاتینِ عامیانه avis struthio «پرندهٔ شترمرغ» (avis + struthio از یونانی strouthiōn، از strouthos megalē «گنجشکِ بزرگ») > لاتین میانه ostrica > فرانسهٔ کهن ostruce (فرانسهٔ امروز autruche) > انگلیسی میانهٔ ostriche در آغاز سدهٔ سیزدهم؛ از avis تنها os- آغازین بر جای مانده است. واتکینز نیز «ostrich» را هم زیر awi- و هم زیر trozdo- فهرست کرده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/aviation",
+      "https://www.etymonline.com/word/ostrich"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. awi-: 'Latin avis, bird: AVIAN, AVIARY, AVIATION; AVICULTURE, AVIFAUNA, BUSTARD, OCARINA, OSPREY, OSTRICH'; the index (AHD_watkins1985.txt line 2001) reads 'OSTRICH awi-, trozdo-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein, s.vv. aviation, ostrich",
+       "stance": "supports",
+       "note": "Klein derives both from L. avis; his ostrich article gives the same OF ostruce < VL avis struthio chain that Etymonline prints."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, s.v. ostrich",
+       "stance": "supports",
+       "note": "Skeat's concise dictionary derives ostrich from O.F. ostruche < L. avis struthio (the entry is in SKT.txt but heavily garbled by OCR; the chain is the standard one)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Ow, Owo, Ayo, Ôwyo",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₂ōwyóm 'egg', a vṛddhi derivative of *h₂éwis 'bird' (Pokorny 783 ō(u)i̯om; AHD *ōwyo-, *ōyo-)",
+   "note": "Nourai's four root shapes are simply Pokorny's and Watkins's variants written without asterisks: Pokorny p.783 heads the article 'ō(u)i̯om „Ei“, d. h. „das zum Vogel gehörige“, schwache Form ǝu̯iom', and Watkins writes '*ōwyo-, *ōyo-'. The double citation POK:86,783 is exactly right, because Pokorny cross-refers between the two pages. The modern reconstruction *h₂ōwyóm and the derivation from *h₂éwis are the mainstream view (Mallory-Adams 2006:143; de Vaan 438), though a minority holds the vṛddhi derivation morphologically unlikely and reconstructs *(H)ō-Huy-óm or *ōyom instead.",
+   "note_fa": "چهار صورتی که نورایی برای ریشه آورده چیزی جز گونه‌های پوکورنی و واتکینز بدون ستاره نیست: پوکورنی در صفحهٔ ۷۸۳ مدخل را چنین آغاز می‌کند «ō(u)i̯om «تخم»، یعنی «آنچه از آنِ پرنده است»، صورت ضعیف ǝu̯iom»، و واتکینز *ōwyo-, *ōyo- می‌نویسد. ارجاع دوگانهٔ POK:86,783 نیز درست است، زیرا پوکورنی خود این دو صفحه را به هم ارجاع می‌دهد. بازسازی امروزی *h₂ōwyóm و اشتقاق آن از *h₂éwis «پرنده» (با کشش وریدهی) دیدگاه غالب است (مالوری‑آدامز ۲۰۰۶، دِ فان)، هرچند اقلیتی این اشتقاق را از نظر ساخت‌واژی بعید می‌دانند و *ōyom را ترجیح می‌دهند. ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂ōwyóm",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂éwis"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:86",
+     "status": "supports",
+     "note": "p.86 ends: 'Im Zusammenhang damit stehen höchstwahrscheinlich die Worte für „Ei“, s. unter ōu-.'"
+    },
+    {
+     "ref": "POK:783",
+     "status": "supports",
+     "note": "POK_03.txt \\f-leaf 18 (running head 783/784): 'ō(u)i̯om „Ei“, d. h. „das zum Vogel gehörige“, schwache Form ǝu̯iom. Av. ap-āvaya- „entmannt“(?), falls aus apa-āvaya- „ohne Hode“, vgl. apers. xāya „Ei“; gr. att. ᾠόν … lat. ōvum … krimgot. ada, aisl. egg, ahd. ei, ags. ǣg „Ei“ (germ. *ajjaz-)'. Every form in Nourai's chart, including ap-āvaya and the Germanic *ajja-, comes from this page."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "Watkins s.v. awi- II",
+     "stance": "supports",
+     "note": "'II. Possible derivatives are the Indo-European words for egg, *ōwyo-, *ōyo-. 1. Germanic *ajja(m) … a. Old English ǣg, egg: COCKNEY; b. Old Norse egg, egg: EGG. 2. Latin ōvum, egg: OVAL, OVARY, OVATE, OVI-, OVOLO, OVULE, OVUM. 3. Greek ōion, egg: OO-.' — Nourai's Ayo/Ôwyo, the Germanic and the Latin branches, all at once."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck p.256, §4.48 EGG",
+     "stance": "supports",
+     "note": "'1. IE *ōwo-, *ow(e)yo-, *ō(w)yo-(?). The words grouped here … prob. reflect an IE word for „egg“ derived fr. the word for „bird“ seen in Lat. avis, Skt. vi- (3.64).' Buck's list ends: 'Av. *āvaya-, NPers. xāya-; Arm. ju.'"
+    },
+    {
+     "src": "WLD",
+     "where": "Bd. I (index passage, line 9709)",
+     "stance": "supports",
+     "note": "'… wie *ou(i)om „Ei“ zu *auei- „Vogel“ und *o(u)s- „Ohr“ zu *aus-' — the same derivational relation Nourai draws between his two roots."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "âvaya, xâya; ap-âvaya",
+     "verdict": "plausible",
+     "derivation": "The forms are Pokorny's and Buck's, but Nourai has dropped their asterisks and their question marks. (a) Avestan *āvaya- 'egg' is a reconstruction, not an attested word: Buck p.256 prints it starred, 'Av. *āvaya-', and the Avestan word actually attested for 'egg' is aēm (< Proto-Iranian *Hāwyám with the regular contraction *-āwya- > aē-). (b) xāya is likewise not Old Persian: Kent's Old Persian lexicon has no such word (grep of KNT.txt), and the form belongs to Middle and New Persian, where the initial x- is the well-known hiatus-filling/prothetic development in *āwyaka- > xāyag. Pokorny's own 'apers. xāya' is a slip of the same kind. (c) ap-āvaya-: Bartholomae (col. 87, s.v. apāvaya-) glosses the word only as 'Name einer Krankheit oder eines Gebrechens' at Vd. 2.29, and Pokorny keeps the sense in question marks: 'av. ap-āvaya- „entmannt“(?), falls aus apa-āvaya- „ohne Hode“'. So 'to castrate' is a conjecture ('without testicles' > 'castrated/impotent'), attractive because Persian xāya means both 'egg' and 'testicle', but it is not the established meaning. The root relation itself — Proto-Iranian *Hāwyám < PIE *h₂ōwyóm — is not in doubt.",
+     "derivation_fa": "صورت‌های این گره از پوکورنی و باک گرفته شده‌اند، اما نورایی ستاره‌ها و علامت‌های پرسش آن‌ها را حذف کرده است. نخست، *āvaya- اوستایی واژه‌ای بازسازی‌شده است نه ضبط‌شده؛ باک (ص ۲۵۶) آن را با ستاره می‌آورد و واژهٔ اوستاییِ واقعیِ «تخم» aēm است (از ایرانی آغازین *Hāwyám با ادغام منظمِ ‎*-āwya- > aē-‎). دوم، xāya پارسی باستان نیست: در واژه‌نامهٔ کِنت چنین واژه‌ای نیست؛ این صورت به فارسی میانه و فارسی نو تعلق دارد و خِ آغازینِ آن همان «خ» میانجی/پیشین است که در *āwyaka- > xāyag پدید آمده است. سوم، ap-āvaya-: بارتولومه (ستون ۸۷) آن را تنها «نام یک بیماری یا نقص» در وندیداد ۲٫۲۹ معنی می‌کند و پوکورنی نیز معنی «اخته» را با علامت پرسش می‌آورد. پس «اخته کردن» حدسی است — هرچند حدسی دلپذیر، چون «خایه» در فارسی هم «تخم» است و هم «بیضه». اصلِ پیوند با *h₂ōwyóm هندواروپایی جای تردید ندارد؛ با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂ōwyóm",
+      "https://en.wiktionary.org/wiki/خایه"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:783",
+       "status": "supports",
+       "note": "'Av. ap-āvaya- „entmannt“(?), falls aus apa-āvaya- „ohne Hode“, vgl. apers. xāya „Ei“' (POK_03.txt \\f-leaf 18). Nourai's node reproduces this sentence, minus Pokorny's '(?)' and 'falls' ('if')."
+      },
+      {
+       "ref": "SYN:256",
+       "status": "supports",
+       "note": "Buck p.256 (running head '256 SELECTED INDO-EUROPEAN SYNONYMS' immediately above §4.48 EGG): 'Av. *āvaya-, NPers. xāya-; Arm. ju.' — with Buck's asterisk on the Avestan form."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 87, s.v. apāvaya- (BRT.txt line 3648)",
+       "stance": "partial",
+       "note": "'j. apāvaya- m. Name einer Krankheit oder eines Gebrechens: mā (aθra) °ii V. 2.29.' Bartholomae records the word but not the meaning 'castrate/castration'."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian lexicon",
+       "stance": "silent",
+       "note": "grep 'xāya|xaya' in KNT.txt returns only the personal name Hadaxāya; there is no Old Persian word for 'egg', so the 'Old Persian' label of this node is not documented."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck p.256",
+       "stance": "supports",
+       "note": "Places EGG in the body-parts chapter next to §4.49 TESTICLE — the very polysemy that makes 'ap-āvaya = without testicles' thinkable."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "hâyîk, xâyak; xâyak-bar, xâyak-bâr",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian xāyag 'egg; testicle' < Proto-Iranian *Hāwya-ka- (the -ka- diminutive/suffix that gives NP -a), with the group *-āwy- yielding -āy- and a secondary x- before the initial ā-. Horn p.103, no.468 has 'χāye „Ei“. phlv. χāyak „Ei“ (Men.)'; MacKenzie prints the Book-Pahlavi spelling as 'xāyag [hʾd(y)k | N xāya] egg' — and that spelling is the key to Nourai's first form: 'hâyîk' is simply the letter-by-letter transliteration of ⟨hʾdyk⟩/⟨hʾyk⟩, which is read xāyag. Both of Nourai's forms are therefore the same word, one transliterated and one transcribed. The compound xāyag-bar/-bār 'egg-carrier' (of the sturgeon) is Asbaghi's reconstruction of the ancestor of Persian خاویار: PLA p.104 analyses it as 'MP xāyak „Ei“ + bar … aw./ap. bar „tragen“', which is exactly the cross-reference to root Bher 1 that the chart carries.",
+     "derivation_fa": "«خایگ» فارسی میانه (xāyag) «تخم، بیضه» از ایرانی آغازین *Hāwya-ka- می‌آید؛ خوشهٔ ‎*-āwy-‎ به ‎-āy-‎ ساده شده و پیشِ آی آغازین خِ میانجی افزوده شده است، و پسوند ‎-ka-‎ همان است که در فارسی نو به ‎-ه‎ بدل می‌شود. هرن (ص ۱۰۳، شمارهٔ ۴۶۸) می‌نویسد: «xāye «تخم». پهلوی xāyak «تخم» (مینوی خرد)». مکنزی صورت خطِ پهلوی را ⟨hʾd(y)k⟩ می‌آورد و آن را xāyag می‌خواند — و همین کلیدِ صورت نخستِ نورایی است: «hâyîk» چیزی جز حرف‌نویسیِ همان املای پهلوی نیست، پس هر دو صورتِ این گره یک واژه‌اند، یکی حرف‌نویسی و دیگری آوانویسی. ترکیبِ xāyag-bār «تخم‌بَر» (لقبِ ماهی خاویاری) بازسازیِ اصباغی است: او در صفحهٔ ۱۰۴ آن را «xāyak فارسی میانه + bar از ریشهٔ اوستایی/پارسی باستانِ bar «بردن»» تحلیل می‌کند — درست همان ارجاعِ ☞Bher 1 که در نمودار آمده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/خایه"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:103",
+       "status": "supports",
+       "note": "HRN.txt \\f-leaf 125 = printed p.103, entry no.468: 'χāye „Ei“. phlv. χāyak „Ei“ (Men.); arm. ju „Ei“ (unsicher; H. No. 179); lat. ōvum; gr. ᾠόν; ksl. aje, jaje „Ei“. kurd. haik, hī, hek; afγ. hā; oss. t. aik, d. aiḱä; bel. haik.' Exactly Nourai's Pahlavi > Persian arrow, with the Latin ōvum cognate as well."
+      },
+      {
+       "ref": "PLA:104",
+       "status": "supports",
+       "note": "PLA_pages.txt leaf 119 = printed p.104: 'خاويار hāwiyār: „Kaviar“ aus dem pers. خاويار hāviyār „Eiertragend“; MP. xāyak „Ei“ + bar; aw. aya + aw./ap. bar „tragen“ … dtsch. Kaviar, frz. caviar.' Asbaghi's footnote 11 credits FM (Addi Shir)."
+      },
+      {
+       "ref": "BQT:711",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol.2, BQT_v2_pages.txt leaf 169 (printed ≈712, i.e. Nourai's 711 within the ±3 of the running-head mapping): 'خایه — بر وزن مایه. خصیهٔ انسان و حیوانات دیگر باشد … و بدبیضهٔ مرغ را نیز گویند' — 'the testicle of man and other animals … also said of a bird's egg', i.e. the double gloss 'egg, testicle' that the node prints. No Mo'in etymological footnote on that page."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 p.94, s.v. xāyag (PHD_mackenzie.txt line 5549)",
+       "stance": "supports",
+       "note": "'xāyag [hʾd(y)k | N xāya] egg' — and the English-Pahlavi index 'egg xāyag', 'oval xāyagdēs'. The bracketed spelling explains Nourai's 'hâyîk'."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II",
+       "stance": "silent",
+       "note": "The glossary (a Mēnōg ī xrad / Bundahišn selection) has vāyēndak but no xāyak entry."
+      },
+      {
+       "src": "HRN",
+       "where": "p.103 no.468",
+       "stance": "supports",
+       "note": "See ref_check; Horn's source for phlv. xāyak is the Mēnōg ī xrad ('Men.')."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "xâyeh «خایه»; xâvîyâr «خاویار»",
+     "verdict": "confirmed",
+     "derivation": "خایه xāya 'egg; testicle' is the regular New Persian continuation of MP xāyag, with the loss of final -g and the -a ending: Wiktionary (with Hasandust's material) gives 'From Middle Persian xāyak, from Proto-Iranian *Hāwyám (compare N. Kurdish hêk, Ossetian ajk, Avestan aēm), from PII *Hāwyám, from PIE *h₂ōwyóm'. خاویار xāvyār 'caviar' is a compound of the same word: xāya 'egg' + -bār/-yār 'bearing' (Persian بار from the verb بردن/بار- < PIE *bher-, whence the chart's ☞Bher 1), literally 'egg-bearing', the epithet of the roe-bearing sturgeon; the -b- > -v- and the writing خاویار are the ordinary Persian intervocalic softening. Addi Shir and Asbaghi both analyse it this way, and it is the etymology the modern dictionaries follow.",
+     "derivation_fa": "«خایه» بازماندهٔ منظمِ xāyag فارسی میانه است؛ گاف پایانی افتاده و پایانهٔ ‎-ه‎ نشسته است. ویکی‌واژه (بر پایهٔ حسن‌دوست) می‌نویسد: «از فارسی میانهٔ xāyak، از ایرانی آغازین *Hāwyám (سنجید نی با کردی شمالی hêk، آسی ajk، اوستایی aēm)، از هندوایرانی آغازین *Hāwyám، از هندواروپایی آغازین *h₂ōwyóm». «خاویار» ترکیبی از همین واژه است: خایه «تخم» + بار/یار «برنده، دارنده» (از ریشهٔ «بردن/بار-»، همان ☞Bher 1 نمودار)، یعنی «تخم‌بَر» — لقبِ ماهیِ تخم‌دار. بدل شدن «ب» به «و» در میانِ واکه‌ها و املای «خاویار» تحولی عادی در فارسی است. ادّی شیر و اصباغی هر دو همین تحلیل را دارند و فرهنگ‌های امروزی نیز آن را پذیرفته‌اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/خایه",
+      "https://en.wiktionary.org/wiki/caviar"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:103",
+       "status": "supports",
+       "note": "'468. χāye „Ei“. phlv. χāyak „Ei“ (Men.)' — the Pahlavi > New Persian step of this node, verbatim."
+      },
+      {
+       "ref": "SYN:256",
+       "status": "supports",
+       "note": "Buck p.256 §4.48 EGG: 'Av. *āvaya-, NPers. xāya-' in the group headed 'IE *ōwo-, *ow(e)yo-, *ō(w)yo-'."
+      },
+      {
+       "ref": "PLA:104",
+       "status": "supports",
+       "note": "'aus dem pers. خاويار hāviyār „Eiertragend“; MP xāyak „Ei“ + bar' — Asbaghi's analysis of xāvyār as 'egg-bearing', exactly Nourai's node plus its Bher cross-reference."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol.2 ≈p.712 s.v. خایه",
+       "stance": "supports",
+       "note": "'خایه … خصیهٔ انسان و حیوانات دیگر باشد … و بدبیضهٔ مرغ را نیز گویند' — both senses of the node."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir p.51",
+       "stance": "supports",
+       "note": "'(الخابياري) بزر السمك تعريب خایه‌بار واصل معناه کثرة البیض. ومنه خاويار' — the Arabic form is arabicized from Persian xāya-bār 'abundance of eggs', and Turkish خاويار comes from it."
+      },
+      {
+       "src": "HRN",
+       "where": "p.103",
+       "stance": "supports",
+       "note": "See ref_check."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Turkish",
+     "words": "havyâr",
+     "verdict": "plausible",
+     "derivation": "Ottoman Turkish خاویار havyar 'caviar' is a loan from Persian خاویار xāvyār, with the usual Turkish rendering of Persian x- as h- (cf. hoca < xʷāja); it is the form from which all the European words descend. Wiktionary: 'probably by way of Ottoman Turkish خاویار (havyar), from Classical Persian خَاوْیَار (xāwyār)', and Addi Shir p.51 says the same. Two reservations. (i) The arrow is drawn from the Pahlavi node, but the borrowing is from New Persian and belongs to the late-medieval Black Sea sturgeon trade, not to the Sasanian period. (ii) A rival etymology derives the Western word from Kaffa (Theodosia), the Crimean trading port — Klein adopts it ('fr. Turk. khavidr, fr. Kaffah … name of a trading town') — but Lokotsch, who reports it (no.851, from Joest), calls it 'sehr anzuzweifeln', and today the Persian source is the standard view.",
+     "derivation_fa": "«havyar»ِ ترکی عثمانی (خاویار) وام‌واژه‌ای است از فارسیِ «خاویار»؛ خِ فارسی در ترکی به «ه» بدل می‌شود (مانند خواجه > hoca). همین صورت است که همهٔ واژه‌های اروپایی از آن برخاسته‌اند: ویکی‌واژه می‌نویسد «احتمالاً از راه ترکی عثمانی خاویار، از فارسی کلاسیک خاویار»، و ادّی شیر (ص ۵۱) نیز همین را می‌گوید. دو نکته: نخست آن‌که پیکان نمودار از گرهِ پهلوی کشیده شده، حال آن‌که وام‌گیری از فارسیِ نو و مربوط به بازرگانیِ ماهیِ دریای سیاه در سده‌های میانهٔ متأخر است، نه از دورهٔ ساسانی. دوم آن‌که ریشه‌شناسیِ رقیبی وجود دارد که واژهٔ اروپایی را به نامِ بندرِ کافا (تئودوسیا) در کریمه می‌بندد و کلاین آن را پذیرفته است؛ اما لوکوچ (شمارهٔ ۸۵۱) خودِ همین نظر را «بسیار مشکوک» می‌خواند و امروز منشأ فارسی دیدگاه معیار است. با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/caviar"
+     ],
+     "ref_check": [
+      {
+       "ref": "AFM:51",
+       "status": "supports",
+       "note": "AFM_pages.txt leaf 52 = printed p.51 (checked against the book's Turkish index, which gives خاتون on p.51 on the same leaf): '(الخابياري) بزر السمك تعريب خایه‌بار واصل معناه کثرة البیض. ومنه خاويار' — 'fish roe, arabicized from Persian xāya-bār, whose original meaning is „abundance of eggs“; and from it (Turkish) khāvyār'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "Lokotsch no.851 (LKT.txt line 2061)",
+       "stance": "partial",
+       "note": "'851. Tk. hawjar: „Kaviar“; hieraus ngr. καβιάριον … it. caviaro, caviale … frz. caviar; engl. ndl. caviar, dtsch. Kaviar. — [JOEST … vermutet, daß das abendländische Wort auf den Namen des Hafens Kapha, d. h. Theodosia … zurückgeht; doch ist diese Ableitung sehr anzuzweifeln.]' Lokotsch starts from Turkish and gives no Persian etymon, but rejects the Kaffa story that Klein prints."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi p.104",
+       "stance": "supports",
+       "note": "Derives Arabic خاويار and, through it, German Kaviar / French caviar from Persian xāviyār 'Eiertragend'."
+      },
+      {
+       "src": "TTS",
+       "where": "Vámbéry 1878",
+       "stance": "silent",
+       "note": "grep for havyar/kaviar in TTS_vambery1878_uoft_djvu.txt returns nothing; Vámbéry has no entry for the word."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Italian",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "The empty pass-through node stands for Italian caviaro (modern caviale), in fact first Venetan caviaro — the Venetian and Genoese merchants of the Black Sea were the channel by which the Turkish word entered the West in the 15th-16th centuries. Wiktionary: English caviar 'from Middle French caviar, from Venetan caviaro (earlier found as Italian caviale), probably by way of Ottoman Turkish havyar'; Lokotsch no.851 lists 'it. caviaro, caviale' immediately after the Turkish form.",
+     "derivation_fa": "این گرهِ تهی نمایندهٔ ایتالیاییِ caviaro (امروز caviale) است، و دقیق‌تر نخست ونیزیِ caviaro؛ بازرگانان ونیزی و جنووایی دریای سیاه در سده‌های پانزدهم و شانزدهم میلادی این واژهٔ ترکی را به غرب بردند. ویکی‌واژه می‌نویسد انگلیسیِ caviar «از فرانسهٔ میانهٔ caviar، از ونیزیِ caviaro (پیش‌تر به صورت ایتالیاییِ caviale)، احتمالاً از راه ترکی عثمانیِ havyar» آمده است، و لوکوچ نیز بی‌درنگ پس از صورت ترکی «it. caviaro, caviale» را می‌آورد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/caviar"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node carries no citation in the book; checked against Wiktionary and Lokotsch instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no.851",
+       "stance": "supports",
+       "note": "'hieraus … it. caviaro, caviale, sp. cabial, pg. cavial, caviar, frz. caviar; engl. ndl. caviar, dtsch. Kaviar.'"
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. caviar",
+       "stance": "partial",
+       "note": "'caviar, caviare, n. — F. caviar, fr. It. caviaro (now caviale), fr. MGk. καβιάριον, fr. Turk. khavidr, fr. Kaffah (= Theodosia)' — same Italian > French > English chain, but with a Crimean place-name, not Persian, at the far end."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "French caviar (16th c., Middle French) from Italian/Venetan caviaro; French then passed the word on to English. Klein and Lokotsch agree on this link, and it is uncontroversial.",
+     "derivation_fa": "«caviar» فرانسوی (فرانسهٔ میانه، سدهٔ شانزدهم میلادی) از ایتالیایی/ونیزیِ caviaro گرفته شده و سپس همین صورت فرانسوی به انگلیسی رفته است. کلاین و لوکوچ هر دو بر این حلقه هم‌داستان‌اند و در آن اختلافی نیست. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/caviar"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No citation in the book for this pass-through node; checked against Wiktionary, Klein and Lokotsch."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. caviar",
+       "stance": "supports",
+       "note": "'F. caviar, fr. It. caviaro (now caviale)'."
+      },
+      {
+       "src": "LKT",
+       "where": "no.851",
+       "stance": "supports",
+       "note": "'frz. caviar' in the list of forms derived from the Turkish word."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "caviar",
+     "verdict": "confirmed",
+     "derivation": "English caviar (also caviare, 16th c.) is borrowed from Middle French caviar; Shakespeare's 'caviare to the general' (Hamlet II.ii) is one of the earliest English uses. The whole chain Persian xāvyār > Ottoman Turkish havyar > Venetan/Italian caviaro > French caviar > English caviar is the one Wiktionary and Asbaghi print, and it is Nourai's chain exactly.",
+     "derivation_fa": "«caviar» انگلیسی (نیز caviare، سدهٔ شانزدهم میلادی) از فرانسهٔ میانه وام گرفته شده است؛ عبارتِ «caviare to the general» در هملتِ شکسپیر از کهن‌ترین کاربردهای انگلیسی آن است. زنجیرهٔ کاملِ فارسی خاویار > ترکی عثمانی havyar > ونیزی/ایتالیایی caviaro > فرانسوی caviar > انگلیسی caviar همان است که ویکی‌واژه و اصباغی می‌آورند و دقیقاً همان زنجیرهٔ نورایی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/caviar"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "The AHD entry for caviar gives the French > Italian > Turkish > Persian chain (the printed dictionary body, p.212 of the New College ed., is not on disk; the online AHD and Wiktionary agree)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. caviar",
+       "stance": "partial",
+       "note": "Same route as far as Turkish, then 'fr. Kaffah (= Theodosia)' instead of Persian."
+      },
+      {
+       "src": "LKT",
+       "where": "no.851",
+       "stance": "supports",
+       "note": "'engl. ndl. caviar, dtsch. Kaviar' from Turkish hawjar, with the Kaffa derivation expressly doubted."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Germanic / Old Norse",
+     "words": "ajjam; egg",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *ajją (Nourai's 'ajjam' is the older notation *ajjam) 'egg' < PIE *h₂ōwyóm, with the Germanic -jj- from *-wy- (Verschärfung; the -es-stem plural OHG eigir, OE ǣgru shows a secondary neuter r/n-inflexion). Its reflexes are Crimean Gothic ada, Old Norse egg, Old English ǣg, OHG/German Ei, Dutch ei. Pokorny p.784 lists exactly this set — 'krimgot. ada (got. *addja), aisl. egg, ahd. ei, ags. ǣg „Ei“ (germ. *ajjaz-)' — and Watkins has 'Germanic *ajja(m)'. Nourai's node correctly puts Proto-Germanic and Old Norse in one box, since ON egg is the form English borrowed.",
+     "derivation_fa": "ژرمنی آغازین *ajją (صورت کهن‌ترِ نگارشی: *ajjam) «تخم» از هندواروپاییِ *h₂ōwyóm می‌آید؛ ‎-jj-‎ ژرمنی بازتابِ ‎*-wy-‎ است (پدیدهٔ موسوم به Verschärfung)، و جمعِ es-ستاکیِ ahd. eigir / ags. ǣgru نشانهٔ صرفِ ثانویِ خنثی است. بازتاب‌های آن: گوتیِ کریمه‌ای ada، نورسِ کهن egg، انگلیسی کهن ǣg، آلمانی Ei، هلندی ei. پوکورنی در صفحهٔ ۷۸۴ دقیقاً همین فهرست را دارد و واتکینز نیز «Germanic *ajja(m)» می‌نویسد. این‌که نورایی ژرمنی آغازین و نورسِ کهن را در یک جعبه گذاشته درست است، زیرا انگلیسی همان صورتِ نورسی egg را وام گرفته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂ōwyóm",
+      "https://www.etymonline.com/word/egg"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. awi- II: '1. Germanic *ajja(m) in: a. Old English ǣg, egg: COCKNEY; b. Old Norse egg, egg: EGG.' — Nourai's two words, in Watkins's own order."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p.784",
+       "stance": "supports",
+       "note": "'schwierig sind krimgot. ada (got. *addja), aisl. egg, ahd. ei, ags. ǣg „Ei“ (germ. *ajjaz-; ahd. Pl. eigir, ags. ǣgru erweisen -es-Stamm)'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck p.256 §4.48",
+       "stance": "supports",
+       "note": "'Crim. Goth. ada, ON egg, Dan. æg, Sw. ägg, OE ǣg, ME ey (ME, NE egg fr. ON), Du., OHG, MHG, NHG ei'."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "kidney, egg",
+     "verdict": "plausible",
+     "derivation": "egg is certain: Middle English egge (mid-14c., first in northern dialect) is a Norse loan from ON egg, which displaced the native OE-derived ey/eai after c.1500 — Caxton's anecdote of the merchant who asked for 'egges' and was not understood turns on precisely that dialect split. kidney is not certain: Etymonline calls ME kidenere 'a word of unknown origin, perhaps a compound of Old English cwið „womb“ (see chitterlings) + ey „egg“ … in reference to the shape of the organ', and Watkins does not list KIDNEY under awi- at all (his awi- derivatives are COCKNEY and EGG). So the egg element in kidney is a guess of the older dictionaries that Nourai has adopted as fact.",
+     "derivation_fa": "دربارهٔ «egg» تردیدی نیست: انگلیسی میانهٔ egge (میانهٔ سدهٔ چهاردهم، نخست در گویش شمالی) وام‌واژه‌ای از نورسِ کهنِ egg است که پس از حدود ۱۵۰۰ جای صورتِ بومیِ ey/eai (از ǣg انگلیسی کهن) را گرفت؛ حکایتِ مشهورِ کاکستون دربارهٔ بازرگانی که «egges» خواست و زن او را نفهمید بر همین دوگانگیِ گویشی استوار است. اما «kidney» قطعی نیست: اتیمانلاین آن را «واژه‌ای با خاستگاه نامعلوم» می‌خواند که «شاید» ترکیبی باشد از cwið انگلیسی کهن «زهدان» و ey «تخم» به سببِ شکلِ اندام؛ واتکینز نیز kidney را اصلاً زیر awi- نیاورده است. پس جزءِ «تخم» در kidney حدسِ فرهنگ‌های قدیمی است که نورایی آن را قطعی گرفته است. با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/egg",
+      "https://www.etymonline.com/word/kidney"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node carries no citation of its own; its parent box cites AHD, and Watkins's awi- article lists EGG (from ON egg) but not KIDNEY."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins s.v. awi- II.1",
+       "stance": "partial",
+       "note": "'Old Norse egg, egg: EGG' — supports egg; KIDNEY appears nowhere in the awi- article or in its index line."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.vv. egg, kidney",
+       "stance": "partial",
+       "note": "Klein derives egg from ON egg; for kidney he too can offer only the conjectural 'kide + ey' analysis."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Latin",
+     "words": "ôvum",
+     "verdict": "confirmed",
+     "derivation": "Latin ōvum 'egg' < PIE *h₂ōwyóm. Pokorny p.784 files it under 'ohne u, das wohl im langdiphthong. *ōuiom geschwunden war' and quotes Szemerényi's derivation 'lat. ōvum … aus lat. *oom, idg. *ōi̯om'; de Vaan (p.438) reconstructs Proto-Italic *ōw(j)om, with the -v- restored analogically or from the oblique cases. It gives Italian uovo, French œuf, Spanish huevo, Romanian ou.",
+     "derivation_fa": "لاتینِ ōvum «تخم» از هندواروپاییِ *h₂ōwyóm است. پوکورنی در صفحهٔ ۷۸۴ آن را در بخشِ صورت‌هایی می‌آورد که «واوِ آن‌ها در دوگانه‌واکهٔ بلندِ *ōuiom از میان رفته است» و اشتقاقِ سِمِرِنی را نقل می‌کند: «ōvum لاتین از *oom لاتین، از *ōi̯om هندواروپایی». دِ فان (ص ۴۳۸) ایتالیکِ آغازین را *ōw(j)om بازسازی می‌کند و «و» را قیاسی یا برگرفته از حالت‌های غیرِنهادی می‌داند. بازماندگانِ آن: ایتالیایی uovo، فرانسوی œuf، اسپانیایی huevo، رومانیایی ou. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂ōwyóm"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. awi- II: '2. Latin ōvum, egg: OVAL, OVARY, OVATE, OVI-, OVOLO, OVULE, OVUM.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p.784",
+       "stance": "supports",
+       "note": "'lat. ōvum „Ei“ nach Szemerényi KZ. 70, 64 f. aus lat. *oom, idg. *ōi̯om.'"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck p.256 §4.48",
+       "stance": "supports",
+       "note": "'Lat. ovum (> It. uovo, Fr. œuf, Sp. huevo, Rum. ou)'."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "English",
+     "words": "ovule",
+     "verdict": "confirmed",
+     "derivation": "English ovule (1820s in botany/embryology) is from French ovule, from Modern Latin ovulum, the diminutive of ōvum — a scientific coinage rather than an inherited word, which is why the node hangs directly off the Latin box. Watkins lists OVULE among the English words from Latin ōvum, together with OVAL, OVARY, OVATE, OVI-, OVOLO and OVUM.",
+     "derivation_fa": "«ovule» انگلیسی (دههٔ ۱۸۲۰، در گیاه‌شناسی و جنین‌شناسی) از فرانسویِ ovule و آن از لاتینِ نو ovulum، مصغّرِ ōvum، گرفته شده است؛ یعنی ساخته‌ای علمی است نه واژه‌ای موروثی، و به همین سبب مستقیماً به جعبهٔ لاتین وصل شده است. واتکینز «OVULE» را در کنارِ OVAL، OVARY، OVATE، OVI-، OVOLO و OVUM در فهرستِ واژه‌های انگلیسیِ برآمده از ōvum می‌آورد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h₂ōwyóm"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No citation on the node; the parent Latin box cites AHD, whose awi- article does list OVULE."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins s.v. awi- II.2",
+       "stance": "supports",
+       "note": "'Latin ōvum, egg: OVAL, OVARY, OVATE, OVI-, OVOLO, OVULE, OVUM.'"
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. ovule",
+       "stance": "supports",
+       "note": "Klein: ovule from F. ovule, from ModL. ovulum, dimin. of L. ovum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Awar",
+   "verdict": "plausible",
+   "modern_form": "Arabic root ع و ر (ʿ-w-r) 'to be one-eyed, defective'; II ʿawwara 'to damage, spoil', whence the noun عَوَار ʿawār 'flaw, defect'",
+   "note": "The root is real and the gloss is close, but the headword is not quite a verb form: the Arabic verb is عَوِرَ ʿawira 'to be one-eyed / to have a flaw' and, transitive, عَوَّرَ ʿawwara (form II) 'he damaged, spoiled'; ʿawar/ʿawār is the noun. Lokotsch (no.138) states it as 'ʿawwār, od. ʿawār [von der Wurzel ʿāra II „verderben“] „Stäubchen, Fehler, Schaden“', and Wiktionary files عَوَار under 'the root ع و ر, related to ideas of missing one eye or having a lacuna'. Nourai's reference SAP (Sayyah's Persian version of al-Munjid) is a purchase-only work and could not be consulted.",
+   "note_fa": "ریشه واقعی است و معنا نیز نزدیک، اما سرواژه دقیقاً صیغهٔ فعلی نیست: فعلِ عربی «عَوِرَ» است به معنی «یک‌چشم شدن، عیب‌دار شدن» و صورتِ متعدیِ آن «عَوَّرَ» (باب دوم) «تباه کرد، معیوب کرد»؛ «عَوَر/عَوار» اسم است. لوکوچ (شمارهٔ ۱۳۸) می‌نویسد: «ʿawwār یا ʿawār [از ریشهٔ ʿāra، باب دوم، «تباه کردن»] یعنی ذرّه، عیب، زیان»، و ویکی‌واژه نیز «عَوار» را زیر ریشهٔ «ع و ر» می‌آورد که با مفهومِ یک‌چشمی و کاستی پیوند دارد. منبعی که نورایی ارجاع داده (SAP، ترجمهٔ فارسیِ المنجد از احمد سیاح) تنها با خرید در دسترس است و بررسی نشد. ادعای نورایی با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/عوار"
+   ],
+   "ref_check": [
+    {
+     "ref": "SAP:1123",
+     "status": "not_checked",
+     "note": "Farhang-e Sayyah (Persian al-Munjid) is purchase-only (fidibo.com), not on disk and not on archive.org (refs_online.json: 'RE-SEARCH 2026-09: purchase only'). Checked the Arabic side through Wiktionary and Lokotsch instead."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "Klein p.133, s.v. average",
+     "stance": "supports",
+     "note": "'… fr. Arab. ʿawārīya, „merchandise damaged by sea water“, fr. ʿawār, „rent, tear; flaw; damaged goods“.'"
+    },
+    {
+     "src": "LKT",
+     "where": "Lokotsch no.138 (LKT.txt line 531)",
+     "stance": "supports",
+     "note": "'138. Ar. ʿawwār: od. ʿawār [von der Wurzel ʿāra II „verderben“] „Stäubchen, Fehler, Schaden“ ist wohl sicherlich Grundwort zu it. avaria …'"
+    },
+    {
+     "src": "DEV",
+     "where": "Devic, s.v. Avarie (DEV.txt line 671)",
+     "stance": "supports",
+     "note": "'Avaria viendrait de la racine عار ʿār qui signifie proprement éborgner, mais qui, à la 2e forme ʿawwar, a aussi le sens de gâter, d'où عوار ʿawār, défaut, déchirure.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "`awâr, `awârîyah",
+     "verdict": "confirmed",
+     "derivation": "عَوَار ʿawār is the verbal noun of the ʿ-w-r root, 'flaw, defect, rent (in cloth)'; عَوَارِيَّة ʿawārīya is the nisba-abstract built on it, used in the medieval Mediterranean trade for 'merchandise damaged (by sea water)'. Wiktionary gives 'عَوَار (ʕawār) m: fault, flaw, defect, crevasse. From the root ع و ر, related to ideas of missing one eye or having a lacuna'; Klein p.133 gives both forms in the same order as the chart. The classical Arabic idiom سلعة ذات عوار 'goods with a defect' (Aqrab al-mawārid, quoted by Dehkhoda) shows exactly the commercial use.",
+     "derivation_fa": "«عَوار» مصدرِ اسمی از ریشهٔ «ع و ر» است به معنی «عیب، نقص، دریدگی (در جامه)»، و «عَوارِیّة» صورتِ نسبیِ ساخته‌شده بر آن است که در بازرگانیِ مدیترانه‌ای سده‌های میانه به معنیِ «کالای آسیب‌دیده (از آبِ دریا)» به کار می‌رفت. ویکی‌واژه می‌نویسد: «عَوار (نرینه): عیب، نقص، شکاف؛ از ریشهٔ ع و ر، مربوط به مفهومِ یک‌چشمی و کاستی». کلاین نیز در صفحهٔ ۱۳۳ هر دو صورت را به همان ترتیبِ نمودار می‌آورد. تعبیرِ کلاسیکِ «سِلعةٌ ذاتُ عَوار» (اقرب الموارد، به نقلِ دهخدا) همین کاربردِ بازرگانی را نشان می‌دهد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/عوار",
+      "https://abadis.ir/fatofa/عوار/"
+     ],
+     "ref_check": [
+      {
+       "ref": "SAP:1124",
+       "status": "not_checked",
+       "note": "Sayyah's dictionary is purchase-only; see the root-level ref_check."
+      },
+      {
+       "ref": "AHD:91",
+       "status": "not_checked",
+       "note": "AHD:91 is a page of the New College Edition dictionary body (s.v. average), not of the Indo-European appendix; only the appendix (Watkins 1985) is on disk, and the archive.org copies of the 1975/1980 printings are lending-only."
+      },
+      {
+       "ref": "KLN:133",
+       "status": "supports",
+       "note": "KLN_1966.txt line 4102, on the leaf whose printed page marker is '133': 'average, n., 1) loss incurred by damage at sea … — F. avarie, „damage to ship“, fr. It. avaria, fr. Sp. avería, fr. Arab. ʿawārīya, „merchandise damaged by sea water“, fr. ʿawār, „rent, tear; flaw; damaged goods“.' Both Arabic words, both glosses, exactly as the chart prints them."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no.138",
+       "stance": "supports",
+       "note": "'Ar. ʿawwār, od. ʿawār … „Stäubchen, Fehler, Schaden“ ist wohl sicherlich Grundwort zu it. avaria „Schaden an Schiff oder Ladung“'."
+      },
+      {
+       "src": "DOZ",
+       "where": "Dozy, Oosterlingen (DOZ.txt line 829)",
+       "stance": "supports",
+       "note": "'vertaalt avarie door ʿawār, avarié door moʿauwar' — Dozy's Arabic-Dutch equations, the basis of the whole Arabic-origin argument."
+      },
+      {
+       "src": "FVQ",
+       "where": "Jeffery",
+       "stance": "silent",
+       "note": "Not a Qur'anic loanword; no entry."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "âr 2 «عار»; avâr «عوار»",
+     "verdict": "disputed",
+     "derivation": "The two words must be separated. (a) عوار ʿavār is a straightforward Arabic loan in Persian, and Nourai's gloss is exact: Mo'in has '(عَ یا عِ یا عُ) [ع.] (اِ.) ۱- عیب، عیب و عار. ۲- دریدگی و پارگی در پارچه یا جامه' — 'defect' and 'a tear or rip in cloth' — with the origin tag [ع.] = Arabic; Dehkhoda adds the classical citation 'سلعة ذات عوار: کالای عیب‌دار', and quotes the very Farrokhi couplet printed in the chart ('گنگ باد آن کس که اندر طعن تو گوید سخن / کور باد آن کس که اندر عرض تو جوید عوار'). The word is in use from the 4th/10th century (Farrokhi, Naser Khosrow, Sanā'i). (b) عار ʿār 'shame, disgrace' does not belong to this root. Wiktionary files عَار 'shame, disgrace, ignominy' (pl. أَعْيَار) under the root ع ي ر, morphologically from ʿayyara 'to reproach', and Lane and the classical lexica do the same. Persian عار is that Arabic word, not a doublet of ʿawār; the pairing 'عار و عوار' in Persian texts is a jingle of two near-synonyms, not an etymological identity. Verdict for the node: disputed, on account of عار.",
+     "derivation_fa": "این دو واژه را باید از هم جدا کرد. «عوار» وام‌واژه‌ای عربی در فارسی است و معنایی که نورایی داده دقیق است: معین می‌نویسد «(عَ یا عِ یا عُ) [ع.] (اِ.) ۱- عیب، عیب و عار. ۲- دریدگی و پارگی در پارچه یا جامه»، با نشانِ [ع.] یعنی عربی؛ دهخدا نیز شاهدِ کلاسیکِ «سِلعةٌ ذاتُ عَوار: کالای عیب‌دار» و همان بیتِ فرخی را می‌آورد که در نمودار چاپ شده است. این واژه از سدهٔ چهارم هجری (فرخی، ناصرخسرو، سنایی) در فارسی به کار رفته است. اما «عار» به این ریشه تعلق ندارد: ویکی‌واژه «عار» (جمع: أعیار) را زیر ریشهٔ «ع ی ر» و از «عَیَّرَ» «سرزنش کردن» می‌آورد، و لِین و فرهنگ‌های کلاسیکِ عربی نیز همین را می‌گویند. «عارِ» فارسی همان واژهٔ عربی است، نه دوگانهٔ «عوار»؛ و همنشینیِ «عار و عوار» در متون فارسی هم‌آواییِ دو واژهٔ نزدیک‌المعناست، نه یگانگیِ ریشه‌شناختی. پس دربارهٔ «عوار» ادعای نورایی درست است و دربارهٔ «عار» پژوهش امروزی آن را رد می‌کند.",
+     "sources": [
+      "https://abadis.ir/fatofa/عوار/",
+      "https://abadis.ir/fatofa/عار/",
+      "https://en.wiktionary.org/wiki/عار",
+      "https://en.wiktionary.org/wiki/عوار"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "partial",
+       "note": "Mo'in's entry (via abadis.ir/fatofa/عوار, section فرهنگ معین) reads '(عَ یا عِ یا عُ) [ ع . ] (اِ. ) ۱ - عیب ، عیب و عار. ۲ - دریدگی و پارگی در پارچه یا جامه' — supports عوار fully (an Arabic loan, 'defect; a tear in cloth'). For عار Mo'in/Dehkhoda give 'عیب و ننگ' but no root analysis, so Mo'in neither supports nor refutes Nourai's attaching it to ʿ-w-r. The word عوار is not in the MON_part1/2 OCR on disk (only the plural عوارض in compounds)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate'",
+       "stance": "silent",
+       "note": "Borhan is a dictionary of Persian words; the Arabic loans عار/عوار are not treated there."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e rishe-hā-ye hend-o-orupāyi",
+       "stance": "silent",
+       "note": "An Indo-European root dictionary; Arabic loans are outside its scope."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein p.133",
+       "stance": "supports",
+       "note": "Confirms the Arabic ʿawār > European chain, i.e. the Arabic word Persian عوار also borrowed."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Spanish",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "The empty node stands for Spanish avería 'damage to ship or cargo; general average'. Klein makes it the immediate source of Italian avaria ('fr. It. avaria, fr. Sp. avería, fr. Arab. ʿawārīya'), which is the route Nourai draws. Most other authorities reverse the order: Lokotsch (no.138) says the word 'zuerst von den Genuesen und Pisanern benutzt wurde und dann mit der it. Endung in fast alle europäischen Sprachen überging: frz. avarie; sp. averia, haberia', and Devic likewise has it 'introduit d'abord en italien par le commerce, et passé de là aux autres langues européennes'. So the Spanish link is real but probably not the first station.",
+     "derivation_fa": "این گرهِ تهی نمایندهٔ اسپانیاییِ avería «آسیب به کشتی یا بار؛ خسارتِ مشترک» است. کلاین آن را سرچشمهٔ بی‌واسطهٔ ایتالیاییِ avaria می‌داند («از ایتالیایی avaria، از اسپانیایی avería، از عربی عواریّة») و همین راهی است که نورایی کشیده است. اما بیشترِ منابعِ دیگر ترتیب را وارونه می‌دانند: لوکوچ (شمارهٔ ۱۳۸) می‌گوید این واژه «نخست نزد جنووایی‌ها و پیزایی‌ها به کار رفت و سپس با پایانهٔ ایتالیایی به تقریباً همهٔ زبان‌های اروپایی رفت: فرانسوی avarie، اسپانیایی averia، haberia»، و دِویک نیز آن را «نخست از راه بازرگانی وارد ایتالیایی و از آنجا به دیگر زبان‌های اروپایی» می‌داند. پس حلقهٔ اسپانیایی واقعی است اما احتمالاً نخستین ایستگاه نیست. با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/average"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No citation on this pass-through node; the parent Arabic box cites KLN:133, which does have 'fr. Sp. avería'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p.133 s.v. average",
+       "stance": "supports",
+       "note": "'fr. It. avaria, fr. Sp. avería, fr. Arab. ʿawārīya' — Klein's order is Arabic > Spanish > Italian, i.e. Nourai's."
+      },
+      {
+       "src": "LKT",
+       "where": "no.138",
+       "stance": "partial",
+       "note": "Puts Italian first ('zuerst von den Genuesen und Pisanern benutzt') and derives Spanish averia, haberia from it."
+      },
+      {
+       "src": "DEV",
+       "where": "s.v. Avarie",
+       "stance": "partial",
+       "note": "'Esp. avería, portug. avaria, ital. avaria … le mot … introduit d'abord en italien par le commerce, et passé de là aux autres langues européennes.'"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Italian",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Italian avaria 'damage to ship or cargo, and the levy that shares that loss' is the pivotal Western form: it is the one attested first (12th-13th c. Genoese and Pisan maritime law), it carries the Italian -ia suffix that all the other European forms show, and it is the form from which French avarie, Spanish avería, Portuguese avaria, Dutch avarij, German Havarie and English average were taken. Lokotsch no.138 sets it out in exactly these terms.",
+     "derivation_fa": "ایتالیاییِ avaria «آسیب به کشتی یا بار، و سهمی که برای جبرانِ آن میان صاحبانِ کالا سرشکن می‌شود» صورتِ محوریِ غربی است: کهن‌ترین ضبط را دارد (حقوقِ دریاییِ جنووا و پیزا در سده‌های دوازدهم و سیزدهم میلادی)، پسوندِ ایتالیاییِ ‎-ia‎ را دارد که در همهٔ صورت‌های اروپاییِ دیگر دیده می‌شود، و همان صورتی است که فرانسویِ avarie، اسپانیاییِ avería، پرتغالیِ avaria، هلندیِ avarij، آلمانیِ Havarie و انگلیسیِ average از آن گرفته شده‌اند. لوکوچ (شمارهٔ ۱۳۸) دقیقاً همین را می‌گوید. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/average"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No citation on this pass-through node; checked against Klein p.133, Lokotsch no.138 and Devic."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no.138",
+       "stance": "supports",
+       "note": "'… it. avaria „Schaden an Schiff oder Ladung, Hafensteuer“, ein Wort, das zuerst von den Genuesen und Pisanern benutzt wurde und dann mit der it. Endung in fast alle europäischen Sprachen überging.'"
+      },
+      {
+       "src": "KLN",
+       "where": "p.133",
+       "stance": "supports",
+       "note": "'F. avarie … fr. It. avaria'."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "French",
+     "words": "avarie",
+     "verdict": "confirmed",
+     "derivation": "French avarie 'damage sustained by a ship or its cargo', and by extension the maritime-law institution by which that loss is apportioned among all the interested parties (avarie commune = general average), is borrowed from Italian avaria in the late Middle Ages. Both halves of Nourai's gloss are right, and the second half is what made the word into an arithmetical term: the 'equitable sharing' sense is the bridge from 'damage' to modern English 'average'. Klein p.133 gives 'F. avarie, „damage to ship“, fr. It. avaria'.",
+     "derivation_fa": "فرانسویِ avarie «آسیبی که به کشتی یا بارِ آن می‌رسد» و به‌گسترشْ نهادی در حقوقِ دریایی که این زیان را میان همهٔ ذی‌نفعان سرشکن می‌کند (avarie commune «خسارتِ مشترک»)، در اواخر سده‌های میانه از ایتالیاییِ avaria وام گرفته شده است. هر دو بخشِ معنایی که نورایی آورده درست است، و بخش دوم همان پلی است که واژه را به اصطلاحی حساب‌شده در انگلیسی بدل کرد. کلاین در صفحهٔ ۱۳۳ می‌نویسد: «F. avarie „آسیب به کشتی“، از ایتالیایی avaria». ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/average"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:133",
+       "status": "supports",
+       "note": "KLN_1966.txt line 4102 (printed p.133): 'F. avarie, „damage to ship“, fr. It. avaria, fr. Sp. avería, fr. Arab. ʿawārīya'."
+      },
+      {
+       "ref": "AHD:91",
+       "status": "not_checked",
+       "note": "Page 91 of the AHD dictionary body (s.v. average) — only the IE appendix of AHD is available on disk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "DEV",
+       "where": "Devic s.v. Avarie",
+       "stance": "supports",
+       "note": "Devic's article accepts Dozy's Arabic origin for French avarie and traces it through Italian."
+      },
+      {
+       "src": "PHN",
+       "where": "Pihan",
+       "stance": "silent",
+       "note": "grep 'AVARIE' in PHN.txt returned no headword."
+      },
+      {
+       "src": "LKT",
+       "where": "no.138",
+       "stance": "supports",
+       "note": "'frz. avarie' listed among the Italian word's descendants."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "average",
+     "verdict": "plausible",
+     "derivation": "English average is first recorded late 15c. in exactly the maritime sense of French avarie — 'financial loss incurred through damage to goods in transit', then 'the equal sharing of that loss among the interested parties', from which the transferred sense 'medial estimate' (1735) and the mathematical 'arithmetical mean' (1755) grew. The Arabic > Romance > English chain that Nourai draws is Klein's, Lokotsch's, Dozy's and Devic's. Two serious dissents must be recorded, both aimed at the far end of the chain, not at the Romance part. (i) Skeat derives average in all its senses from Middle Latin averagium / avera (< OF aver 'goods, cattle' < Latin habere) and says the Arabic words 'merely introduce a form borrowed from Late Lat. averia'. (ii) The OED, quoted by Hobson-Jobson and by Etymonline, holds the Arabic ʿawār to be 'merely a mod. Arabic translation and adaptation of the Western term in its latest sense' — i.e. the borrowing may run the other way. Etymonline accordingly calls the word 'of uncertain origin'; 'few words have received more etymological investigation' (OED). English average also plainly absorbed the unrelated feudal-service word averagium, which is why Klein gives two separate entries.",
+     "derivation_fa": "«average» انگلیسی نخستین‌بار در اواخر سدهٔ پانزدهم میلادی و دقیقاً در همان معنای دریاییِ avarie فرانسوی ثبت شده است — «زیان مالیِ ناشی از آسیب به کالا در راه»، سپس «سرشکن‌کردنِ برابرِ آن زیان میان ذی‌نفعان» — و از همین‌جا معنای «برآوردِ میانگین» (۱۷۳۵) و سرانجام «میانگینِ حسابی» (۱۷۵۵) پدید آمد. زنجیرهٔ عربی > رومی > انگلیسی که نورایی کشیده همان زنجیرهٔ کلاین، لوکوچ، دوزی و دِویک است. اما دو مخالفتِ جدی را باید ثبت کرد، هر دو متوجهِ سرِ عربیِ زنجیره و نه بخشِ رومیِ آن: نخست، اسکیت همهٔ معانیِ average را از لاتینِ میانهٔ averagium / avera (از فرانسهٔ کهن aver «کالا، چارپا»، از habere لاتین) می‌گیرد و می‌گوید واژه‌های عربی «تنها صورتی را وارد کرده‌اند که خود از averia لاتینِ متأخر وام گرفته شده است». دوم، فرهنگ آکسفورد — به نقلِ هابسن‑جابسن و اتیمانلاین — «عَوارِ» عربی را «صرفاً ترجمه و اقتباسی نوین از اصطلاح غربی در آخرین معنای آن» می‌داند، یعنی جهتِ وام‌گیری را وارونه می‌کند. بر این پایه اتیمانلاین خاستگاهِ واژه را «نامعلوم» می‌خواند. ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/average"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No citation on the English node; its parent French box cites KLN:133 and AHD:91, and Klein's article is precisely s.v. 'average'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p.133, two entries 'average'",
+       "stance": "supports",
+       "note": "The first entry gives the Arabic chain; the second, 'average, n., feudal service (Old English law) — ME., fr. ML. averagium, fr. ML. avera, fr. OF. oevre … fr. L. opera', keeps the homonym apart."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. average",
+       "stance": "contradicts",
+       "note": "'„Average“ (< averagium, from averia, i.e. cattle) signifies service which the tenant owes the king … ¶ This form (average) was afterwards confused with F. avarie, damage of goods … (Arab. ʿawār, a fault, defect, ʿawār spoilt merchandise, merely introduce a form borrowed from Late Lat. averia.)'"
+      },
+      {
+       "src": "HJB",
+       "where": "Hobson-Jobson s.v. AVERAGE (HJB.txt line 2341)",
+       "stance": "partial",
+       "note": "'Dozy shows most plausibly [avarie] to be from the Ar. ʿawār, spoilt merchandise. [This is rejected by the N.E.D., which concludes that the Ar. ʿawār is „merely a mod. Arabic translation and adaptation of the Western term in its latest sense.“]'"
+      },
+      {
+       "src": "LKT",
+       "where": "no.138",
+       "stance": "supports",
+       "note": "'engl. average' among the descendants, with Lokotsch's own remark that the h- of Havarie/haverij replaces the ʿayn Europeans could not pronounce."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

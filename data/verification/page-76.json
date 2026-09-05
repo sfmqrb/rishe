@@ -1,0 +1,350 @@
+{
+  "pdf_page": 76,
+  "book_page": 46,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 1,
+      "root": "Balŭt",
+      "verdict": "disputed",
+      "modern_form": "Aramaic/Syriac ballūṭā ܒܠܘܛܐ 'oak, acorn' → Middle Persian blwt' (balūt) and, independently, Arabic بلّوط (ballūṭ)",
+      "note": "There is no Old Persian *balūt: the Achaemenid corpus has no word for 'oak' of this shape (Kent's lexicon lists only the doubtful yaka- 'a kind of wood (oak?)', DSf 34). The oldest Iranian form is Middle Persian blwt' /balūt/, and modern scholarship (Wiktionary s.v. بلوط, with the Aramaic and Akkadian discussion) makes it a borrowing from Aramaic בְּלוּטָא / Syriac ܒܠܘܛܐ ballūṭā, itself perhaps an Aramaic formation from bālaṭ 'to bulge out' or connected with Akkadian balāṭu. Nourai follows Asbaghi (PLA:56), who does call Arabic balūṭ Persian — but Asbaghi's own line already adds 'aram.' beside the Middle Persian form, and his sole authority is Mo'in. So the tree is right that the word reached New Persian through Pahlavi, but the root box is wrong in two ways: the language label ('Old Persian') and the implied Iranian pedigree; the word is a Semitic culture-word taken into Iranian, and Arabic did not get it from Persian.",
+      "note_fa": "نورایی ریشهٔ «بلوط» را واژه‌ای پارسی باستان می‌داند، ولی در پیکرهٔ پارسی باستان (کتیبه‌های هخامنشی) چنین واژه‌ای نیست؛ کهن‌ترین صورت ایرانی، فارسی میانهٔ blwt' /balūt/ است. پژوهش امروزی (ویکی‌واژه، ذیل بلوط) آن را وام‌واژه‌ای از آرامی/سریانی ballūṭā «بلوط، میوهٔ بلوط» می‌شمارد که شاید خود از ریشهٔ سامی bālaṭ «برآمدن» یا اکدی balāṭu باشد. بنابراین برچسب «پارسی باستان» نادرست است و «بلوط» واژه‌ای سامی است که به ایرانی وام داده شده، نه واژه‌ای ایرانی. آن‌چه در نمودار درست است تنها زنجیرهٔ فارسی میانه ← فارسی نو است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A8%D9%84%D9%88%D8%B7",
+        "https://abadis.ir/fatofa/%D8%A8%D9%84%D9%88%D8%B7/"
+      ],
+      "ref_check": [
+        {"ref": "PLA:56", "status": "partial", "note": "Asbaghi, Persische Lehnwörter im Arabischen, printed p.56 (PLA_pages.txt leaf 71 = p.56, running head 'bilaur 56 bunast'): 'balūṭ: \"Eiche\" pers. ³ aus dem mp. barūt, aram. ...' — footnote 3 = 'FM. s.v.' (Farhang-e Mo'in). Asbaghi does class the Arabic word as Persian (as Nourai says), but the same line already names an Aramaic form, and his only authority is Mo'in; he says nothing about Old Persian."}
+      ],
+      "consulted": [
+        {"src": "KNT", "where": "Kent, Old Persian, lexicon s.v. yaka-", "stance": "silent", "note": "grep -n -i 'oak' KNT.txt gives only 'yaka- sb. a kind of wood (oak, Scheil 25.28, but if so, not cognate ... certainly not \"timber\" in general)'. No Old Persian *balūt exists."},
+        {"src": "LKT", "where": "Lokotsch no. 206 (leaf n44 ≈ p.18)", "stance": "contradicts", "note": "'206. Ar. ballūṭ: \"Eichel, Kastanie\", Einheitsnomen ballūta; hieraus sp. bellota, pg. belota, boleta, bolota \"Eichel\", it. ballotta \"gesottene Kastanie\".' Lokotsch treats the word as Arabic throughout; no Persian source is mentioned."},
+        {"src": "DEV", "where": "Devic, Additions, s.v. Ballote (pp. 232-233)", "stance": "contradicts", "note": "'Ballote. Chêne à glands comestibles ... En arabe, بلوط balloût (dans Avicenne). En persan, شاه‌بلوط châh-balloût ... Ballote, بلوط balloût, représentent le grec βαλλωτή ... il est certain que ballote, chêne, nous est venu des Arabes.' Devic derives the word from Greek/Arabic, not from Persian."},
+        {"src": "AFM", "where": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba (AFM_pages.txt)", "stance": "silent", "note": "grep '( بلوط' finds no headword: Addi Shir's inventory of Persian words Arabicized does NOT include بلوط, which tells against Asbaghi's Persian-origin claim."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "balŭt, barŭt",
+          "verdict": "plausible",
+          "derivation": "The Middle Persian word itself is real: MacKenzie's Pahlavi dictionary has the compound šāhbalūt 'chestnut' (English index p. 'chestnut šāhbalūt'), and Mo'in's footnote in Borhān-e Qāṭeʿ p.303 gives a Pahlavi form for بلوط citing Unvala p.402. Asbaghi p.56 writes the Pahlavi form barūt, with l/r variation typical of Book-Pahlavi orthography, where the same character serves for l and r — so balūt and barūt are two readings of one spelling <blwt'>, not two words. What is NOT supported is the arrow from an Old Persian ancestor: no such Old Persian word is attested, and Wiktionary derives MP blwt' straight from Aramaic ballūṭā. So the node's forms are right, its parentage is not.",
+          "derivation_fa": "صورت فارسی میانه واقعی است: در فرهنگ پهلوی مکنزی ترکیب šāhbalūt «شاه‌بلوط» آمده و معین در حاشیهٔ برهان قاطع (ص ۳۰۳) صورت پهلوی «بلوط» را با ارجاع به اونوالا ۴۰۲ آورده است. اصبَغی (ص ۵۶) آن را barūt می‌خواند؛ این دوگانگی l/r تنها ناشی از خط پهلوی است که یک نشانه برای «ل» و «ر» دارد، پس balūt و barūt دو خوانش از یک نوشتار <blwt'> اند نه دو واژه. آن‌چه پذیرفتنی نیست پیوند با یک واژهٔ پارسی باستان است؛ ویکی‌واژه فارسی میانهٔ blwt' را مستقیماً وام‌واژه‌ای آرامی می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%84%D9%88%D8%B7",
+            "https://abadis.ir/fatofa/%D8%A8%D9%84%D9%88%D8%B7/"
+          ],
+          "ref_check": [
+            {"ref": "PLA:56", "status": "supports", "note": "PLA p.56 (leaf 71): 'balūṭ: \"Eiche\" pers. aus dem mp. barūt, aram. ...' — the Middle Persian antecedent barūt is exactly what the node prints."},
+            {"ref": "MON:576", "status": "supports", "note": "Mo'in tags بلوط as Pahlavi: '(بَ) [په.] (اِ.) درختی است تناور با برگ‌های شکافدار' (Farhang-e Moʿin section on abadis.ir/fatofa/بلوط/). The [په.] tag is precisely Nourai's Pahlavi node."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, Concise Pahlavi Dictionary, English index s.v. chestnut", "stance": "partial", "note": "'chestnut šāhbalūt' — MacKenzie has the compound šāhbalūt but no simple balūt headword, so the base word is presupposed rather than listed."},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ ed. Moʿin, p.303 (BQT_v1_pages.txt leaf 524)", "stance": "supports", "note": "'بلوط - بفتح اول، پهلوی [balūt] «اونوالا ۴۰۲»، درزبان علمی Quercus، درختی است از دستهٔ بلوط‌ها...' — Moʿin's footnote gives a Pahlavi form citing Unvala p.402."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (glossary)", "stance": "silent", "note": "grep -n -i 'balut|barut' NYB_vol2_glossary.txt returns nothing; the word does not occur in Nyberg's text corpus."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "balŭt «بلوط»",
+          "verdict": "confirmed",
+          "derivation": "New Persian بلوط balūt 'oak, acorn' continues Middle Persian blwt' /balūt/ unchanged; the Arabic-looking spelling with ط (rather than ت) is an orthographic Arabicism, adopted because the identical Arabic word بلّوط was familiar to Persian scribes. Moʿin tags the word [په.] 'Pahlavi', and Moʿin's footnote in Borhān-e Qāṭeʿ p.303 — the very page Nourai cites — gives the Pahlavi antecedent from Unvala p.402. Wiktionary's Persian entry likewise: بلوط < Middle Persian blwt' < Aramaic ballūṭā. Dialect reflexes (Mazandarani پلت palat, Kurdish berrû/belû) show the word was carried in Iranian mouths and not simply re-borrowed from Arabic in modern times.",
+          "derivation_fa": "«بلوط» فارسی نو دنبالهٔ بی‌واسطهٔ فارسی میانهٔ blwt'/balūt است؛ نوشتن آن با «ط» تنها یک عربی‌نویسی املایی است، چون واژهٔ همسان عربی بلّوط برای کاتبان فارسی آشنا بود. معین آن را [په.] (پهلوی) برچسب زده و در حاشیهٔ برهان قاطع ص ۳۰۳ — همان صفحه‌ای که نورایی یاد کرده — صورت پهلوی را به نقل از اونوالا ۴۰۲ آورده است. صورت‌های گویشی مانند مازندرانی «پَلَت» و کردی berrû/belû نشان می‌دهد واژه در دهان ایرانیان مانده و وام تازهٔ عربی نیست. ادعای نورایی در این حلقه درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%84%D9%88%D8%B7",
+            "https://abadis.ir/fatofa/%D8%A8%D9%84%D9%88%D8%B7/"
+          ],
+          "ref_check": [
+            {"ref": "MON:576", "status": "supports", "note": "Farhang-e Moʿin s.v. بلوط: '(بَ) [په.] (اِ.) درختی است تناور با برگ‌های شکافدار و گل‌های دراز و آویخته' — the [په.] tag = Pahlavi origin, exactly Nourai's arrow."},
+            {"ref": "BQT:303", "status": "supports", "note": "Borhān-e Qāṭeʿ, printed p.303 (BQT_v1_pages.txt leaf 524, verified by the running continuation notes 'بقیه از صفحهٔ ۳۰۱ / بقیه در صفحهٔ ۳۰۳'): 'بلوط - بفتح اول، پهلوی … «اونوالا ۴۰۲»، درزبان علمی Quercus'. Page citation exact."}
+          ],
+          "consulted": [
+            {"src": "ARY", "where": "Aryanpur, Farhang-e rishe-hā-ye hend-o-orupāyi (ARY_pages.txt)", "stance": "silent", "note": "grep 'بلوط' finds only the introductory discussion of Greek phēgos/English beech (p. ~2) — Aryanpur has no بلوط headword, i.e. he does not treat it as an Indo-European inheritance."},
+            {"src": "HRN", "where": "Horn, Grundriss der neupersischen Etymologie", "stance": "silent", "note": "grep -n -i 'balut|balūt' HRN.txt and HUB.txt return nothing: neither Horn nor Hübschmann gives بلوط an Iranian etymology, consistent with its being a loanword."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "ballŭth",
+          "verdict": "disputed",
+          "derivation": "Arabic بَلُّوط ballūṭ 'oak, acorn' (already in Avicenna, as Devic notes) is according to modern scholarship a borrowing from Aramaic בְּלוּטָא / Syriac ܒܠܘܛܐ ballūṭā, not from Persian: the emphatic ṭ, the geminated -ll- of the qattūl pattern, and the Aramaic nomen unitatis ballūṭa all point to a Semitic transmission, and Middle Persian balūt is a parallel borrowing from the same Aramaic word rather than the source. Asbaghi (PLA:56) is Nourai's authority for the Persian direction, but he cites only Moʿin and himself flags 'aram.'; Addi Shir, who catalogued Persian words in Arabic, has no بلوط entry; Lokotsch and Devic treat the word as Arabic. Nourai's Persian → Arabic arrow therefore reverses (or at best duplicates) the actual route.",
+          "derivation_fa": "عربیِ «بَلُّوط» (که ابن‌سینا هم به کار برده) بنا بر پژوهش امروزی وام‌واژه‌ای است از آرامی/سریانی ballūṭā، نه از فارسی: «ط» مفخّم، تشدید لام بر وزن فَعّول، و صورت واحد آرامی ballūṭa همگی بر انتقال سامی گواهی می‌دهند، و balūt فارسی میانه خود وام موازی از همان واژهٔ آرامی است، نه سرچشمهٔ آن. اصبَغی (ص ۵۶) که مأخذ نورایی است تنها به معین استناد می‌کند و خودش هم «aram.» را کنار آن آورده؛ ادّی شیر که واژه‌های فارسیِ معرَّب را گرد آورده، «بلوط» را نیاورده است؛ لوکوچ و دُوِیک آن را عربی می‌دانند. پس پیکان «فارسی ← عربی» در نمودار وارونه است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%84%D9%88%D8%B7"
+          ],
+          "ref_check": [
+            {"ref": "PLA:56", "status": "partial", "note": "PLA p.56 (leaf 71) does say 'balūṭ: \"Eiche\" pers. aus dem mp. barūt' — supporting Nourai's direction — but the same line adds 'aram.' and the supporting footnote 3 is merely 'FM. s.v.' (Farhang-e Moʿin), so Asbaghi offers no independent Semitic evidence."},
+            {"ref": "MON:576", "status": "partial", "note": "Moʿin's tag on the Persian word is [په.] (Pahlavi), i.e. he claims a Pahlavi origin for Persian بلوط; he does not himself argue that Arabic بلّوط came from Persian. (abadis.ir/fatofa/بلوط/, فرهنگ معین section.)"}
+          ],
+          "consulted": [
+            {"src": "AFM", "where": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba", "stance": "contradicts", "note": "No بلوط headword anywhere in AFM_pages.txt / AFM.txt (the only hit is an incidental 'وهو قدر البلوط' in a description). The standard Arabic catalogue of Persian loanwords does not claim this one."},
+            {"src": "LKT", "where": "Lokotsch no. 206 (leaf n44 ≈ p.18)", "stance": "contradicts", "note": "'206. Ar. ballūṭ: \"Eichel, Kastanie\" ... hieraus sp. bellota' — headword is Arabic, with no Persian etymon given."},
+            {"src": "DEV", "where": "Devic, Additions s.v. Ballote (pp. 232-233)", "stance": "contradicts", "note": "'Ballote, بلوط balloût, représentent le grec βαλλωτή ... il est certain que ballote, chêne, nous est venu des Arabes.' Devic even points the ultimate origin west (Greek), never to Persian; he cites Persian only for the compound شاه‌بلوط."},
+            {"src": "TAD", "where": "al-Unaysi, Tafsīr al-alfāẓ al-dakhīla", "stance": "silent", "note": "grep 'بلوط' in TAD_pages.txt yields only an incidental 'ورق شجرة بلوط القرمز' in the entry قرمز; بلوط is not itself listed among the foreign words."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Spanish",
+          "words": "belloth",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "belloth",
+          "correct_form": "bellota",
+          "derivation": "The Spanish word is bellota 'acorn', not *belloth: there is no Spanish word ending in -th (the digraph does not exist in Spanish orthography). Klein p.162, the very reference Nourai cites, prints 'Sp. bellota fr. Arab. ballūṭah, in vulgar pronunciation bellōta'. The route is Arabic بلّوطة ballūṭa (nomen unitatis 'one acorn') → Andalusi Arabic, where the imāla raised the first a to e (ballūṭa > bellūṭa), → Old Spanish bellota, with emphatic ṭ giving plain t; Portuguese belota/bolota and Italian ballotta 'boiled chestnut' are the same borrowing (Lokotsch no. 206). The printed page of Nourai (PDF p.76, book p.46) really does read 'belloth', so the extraction is faithful and the -th is the author's own misprint — probably a stray transliteration of the Arabic ṭ carried over from the parent node ballŭth.",
+          "derivation_fa": "واژهٔ اسپانیایی bellota «بلوط، میوهٔ بلوط» است، نه *belloth؛ در املای اسپانیایی اصلاً دونویسهٔ th وجود ندارد. کلاین در همان صفحهٔ ۱۶۲ که نورایی یاد کرده می‌نویسد: «Sp. bellota fr. Arab. ballūṭah». مسیر چنین است: عربی «بلّوطة» (اسم وحدت) ← عربی اندلسی که در آن امالهٔ مصوت نخست ballūṭa را به bellūṭa بدل کرد ← اسپانیایی کهن bellota، با تبدیل «ط» مفخّم به t ساده؛ پرتغالی belota/bolota و ایتالیایی ballotta هم همان وام‌اند (لوکوچ، شمارهٔ ۲۰۶). تصویر صفحهٔ چاپی (ص ۴۶ کتاب) به‌روشنی «belloth» دارد، پس خطا از خوانش اسکن نیست بلکه خطای چاپی خود کتاب است؛ گویا «th» از گرهٔ پیشین ballŭth به این خانه سرایت کرده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/bellota"
+          ],
+          "ref_check": [
+            {"ref": "KLN:162", "status": "supports", "note": "Klein 1966 leaf n96 (the leaf running behemoth→belong, i.e. printed pp. 161-162): 'bellote, n., the edible acorn of the holm oak. — Sp. bellota fr. Arab. ballūṭah, in vulgar pronunciation bellōta, \"acorn\".' Klein spells the Spanish word bellota — the page Nourai cites contradicts the form he prints."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "Lokotsch no. 206 (leaf n44 ≈ p.18)", "stance": "supports", "note": "'Ar. ballūṭ ... Einheitsnomen ballūta; hieraus sp. bellota, pg. belota, boleta, bolota \"Eichel\", it. ballotta' — Spanish form bellota, from the Arabic unit-noun."},
+            {"src": "DEV", "where": "Devic, Additions s.v. Ballote (p. 232)", "stance": "supports", "note": "'Dans la péninsule Hispanique, le mot arabe a donné l'espagnol bellota et le portugais belota, bolota, boleta, gland.'"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "bellote",
+          "verdict": "confirmed",
+          "derivation": "English bellote is a rare botanical/technical borrowing of Spanish bellota, taken over with Spanish spelling and re-shaped -a > -e in English. Klein p.162 gives it exactly as Nourai does: 'bellote, n., the edible acorn of the holm oak. — Sp. bellota fr. Arab. ballūṭah'. The word never entered common English use (it is absent from Webster's Second and from Funk & Wagnalls' New Standard); it belongs to the 19th-century vocabulary of Mediterranean botany, alongside valonia (< Greek balani) for the acorn-cups of the valonia oak, which Klein treats separately. Devic notes a homograph in French, bellote 'large-headed nail', which he also traces to the acorn word by shape.",
+          "derivation_fa": "«bellote» در انگلیسی وام‌واژه‌ای کمیاب و گیاه‌شناختی از اسپانیایی bellota است که املای اسپانیایی را نگاه داشته و پایانهٔ ‑a را به ‑e بدل کرده است. کلاین در ص ۱۶۲ دقیقاً همان را می‌آورد: «bellote، میوهٔ خوراکی بلوط همیشه‌سبز — از اسپانیایی bellota از عربی ballūṭah». این واژه هرگز به انگلیسی همگانی راه نیافت (در وبستر دوم و فانک‌و‌واگنالز نیست) و از واژگان گیاه‌شناسی مدیترانه‌ای سدهٔ نوزدهم است. دُوِیک هم‌نگاشتی فرانسوی، bellote «میخ سرپهن»، را یاد می‌کند که آن را نیز به همین واژه بازمی‌گرداند. ادعای نورایی در این حلقه درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/bellota"
+          ],
+          "ref_check": [
+            {"ref": "KLN:162", "status": "supports", "note": "Klein 1966, leaf n96 (printed pp. 161-162, the leaf running behemoth→belong): 'bellote, n., the edible acorn of the holm oak. — Sp. bellota fr. Arab. ballQtah [ballūṭah], in vulgar pronunciation belldta [bellōta], \"acorn\".' Both the English node and the Spanish parent come from this one Klein entry."}
+          ],
+          "consulted": [
+            {"src": "WEB", "where": "Webster's New Twentieth Century Dictionary vol. 1", "stance": "silent", "note": "grep -n -i 'bellote' WEB_vol1.txt: no hit — the word is not in Webster's Second."},
+            {"src": "FSD", "where": "Funk & Wagnalls New Standard vol. 1", "stance": "silent", "note": "grep -n -i 'bellote' FSD_vol1.txt: no hit."},
+            {"src": "DEV", "where": "Devic, Additions s.v. Ballote (p. 232)", "stance": "partial", "note": "'Bellote, gros clou à tête, paraît aussi se rattacher à ces termes, par suite d'une certaine ressemblance avec un gland muni de sa cupule.' — same form, but Devic's bellote is the French nail-word, a semantic offshoot rather than Klein's acorn."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Bamb, Bambô, Bhombhos",
+      "verdict": "confirmed",
+      "modern_form": "PIE (echoic) *bamb- / *bhembh- 'dull, booming noise' — Pokorny 93-94",
+      "note": "Pokorny p.93-94 has 'Root/lemma: bamb-, Meaning: a kind of noise', with Gr. βόμβος (out of it Latin bombus) 'a boom, deep hollow noise', Alb. bumbulit 'it thunders', ON bumba 'drum', Lith. bambėti 'hum', OCS bǫbъnъ 'drum'. Mann's IEC has the same family twice, as bombo/bombos and as bhombhos (2) 'roar, bang' — which is exactly why Nourai cites two IEC pages. The reservation to record is that this is not an inherited root in the usual sense: Pokorny files it among the sound-imitative b- bases (next to baba-, bal-bal-, barbar-), whose parallel forms in the daughter languages may be independent re-creations rather than descendants of one proto-form. Nourai's three headwords Bamb / Bambô / Bhombhos correspond to Pokorny's bamb-, Mann's bombos and Mann's bhombhos; the gloss 'bang, rumble' is right.",
+      "note_fa": "پوکورنی در صص ۹۳–۹۴ ریشهٔ bamb- «گونه‌ای بانگ» را آورده است: یونانی βόμβος (که لاتینی bombus از آن است)، آلبانیایی bumbulit «رعد می‌زند»، نروژی باستان bumba «طبل»، لیتوانیایی bambėti «وزوز کردن». مان (IEC) همین خانواده را دو بار، ذیل bombos و bhombhos (۲) «غرّش، بانگ»، آورده و از همین رو نورایی دو شمارهٔ صفحه از IEC می‌دهد. نکتهٔ محتاطانه آن است که این «ریشه» از گونهٔ ریشه‌های موروثی نیست؛ پوکورنی آن را در شمار ستاک‌های آوا‌نمای آغازشونده به b (کنار baba-، bal-bal-، barbar-) جای می‌دهد که صورت‌های همانندشان در زبان‌های دختر ممکن است بازآفرینیِ مستقل باشند. با این حال برچسب زبان و معنی در نمودار درست است.",
+      "sources": [
+        "https://www.etymonline.com/word/bomb"
+      ],
+      "ref_check": [
+        {"ref": "POK:93", "status": "supports", "note": "POK_full.txt, 'Root / lemma: bamb-, Meaning: a kind of noise ... Gr. βόμβος m. (out of it Latin bombus) \"a boom, deep hollow noise\" ... References: WP. II 107, Trautmann 26, WH. I 111. Page(s): 93-94.' Page number exact."},
+        {"ref": "IEC:53,92", "status": "supports", "note": "Mann, IEC: (a) leaf n43 (early B section, ≈ pp. 55-56, Nourai's '53'): 'bombo, eiō \"bang, drum, rumble\" ... Per. bam \"bass; drone\" (LW in Arm. bamb, id.) ... Gk. bómbos (\"hum, rumble\". LW in Lat. bombus)'; (b) leaf n65 (≈ pp. 92-100, Nourai's '92'): 'bhombhos (2) \"roar, bang\". WP I, 161 ... Per. bam \"bass\"; LW in Arm. bamb'. Both cited entries exist with the claimed content; only the exact printed page numbers are approximate because IEC's leaves carry two pages each."}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Walde-Pokorny II 107 f. / II 161 (via POK and IEC references)", "stance": "supports", "note": "Pokorny's bamb- entry closes 'WP. II 107' and Mann's bhombhos (2) cites 'WP I, 161' — i.e. both dictionaries derive from the same Walde-Pokorny articles on the echoic b-bases."},
+        {"src": "AHD", "where": "Watkins, AHD Indo-European Roots (AHD_watkins1985.txt)", "stance": "silent", "note": "The Watkins appendix has no *bamb-/*bhembh- root: onomatopoeic bases of this kind are excluded from his list, which is why Nourai's AHD citation for this family is to the dictionary body (AHD:149, s.v. bomb), not to the appendix."},
+        {"src": "SYN", "where": "Buck, Dictionary of Selected Synonyms", "stance": "silent", "note": "Buck has no section for 'boom/rumble' as such; grep of SYN.txt gives no comparative table for this family."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "bam «بَم»",
+          "verdict": "plausible",
+          "derivation": "Persian بَم bam 'low, deep (of a voice or a string)', the opposite of زیر zir 'high', is genuinely Persian and not an Arabism: Borhān-e Qāṭeʿ p.303 defines it 'آوای خشن و درشت آدمی و ساز' and adds 'معرب آن هم «بمّ»' — that is, the Arabic بَمّ is the Arabicized form OF the Persian word, the reverse of an Arabic loan; Asbaghi p.56, the same page as balūṭ, lists Arabic bamm 'Baß' (pl. bumūm) among the Persian loanwords in Arabic. Mann (IEC) sets it under both bombo- and bhombhos (2) beside Greek bómbos and Sanskrit bhambhā 'kettledrum', and notes that Armenian bamb 'bass' is itself a loan from Persian. So Nourai's chart note is right that IEC calls it Indo-European and, as far as can be checked, wrong that Moʿin calls it Arabic: Farhang-e Moʿin s.v. بم gives '(بَ) (اِ.) صدای درشت و خشن آدمی و ساز. مق. زیر' with NO [ع.] tag. The reason for 'plausible' rather than 'confirmed' is the nature of the etymon: an echoic word of this shape can be created independently in any language, so 'descends from PIE *bamb-' cannot be demonstrated by sound law; بم may equally be a native Persian sound-word that merely resembles the family.",
+          "derivation_fa": "«بَم» فارسی به معنی آوای کلفت و پست (در برابر «زیر») واژه‌ای فارسی است و نه معرَّب: برهان قاطع در ص ۳۰۳ آن را «آوای خشن و درشت آدمی و ساز» می‌داند و می‌افزاید «معرب آن هم بمّ» — یعنی بمّ عربی خود معرَّبِ واژهٔ فارسی است، نه برعکس؛ اصبَغی نیز در همان ص ۵۶ «بَمّ» عربی (جمع: بُموم) را در شمار وام‌واژه‌های فارسی در عربی آورده است. مان آن را ذیل bombo و bhombhos (۲) کنار یونانی bómbos و سنسکریت bhambhā «کوس» نشانده و ارمنی bamb را وام از فارسی می‌داند. پس یادداشت نمودار در بخش IEC درست است ولی در بخش معین تأیید نمی‌شود: فرهنگ معین ذیل «بم» هیچ برچسب [ع.] ندارد. با این همه، چون واژه آوا‌نماست و چنین صورتی در هر زبانی می‌تواند مستقل پدید آید، پیوند آن با ریشهٔ هندواروپایی را نمی‌توان با قانون آوایی اثبات کرد؛ از این رو «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%A8%D9%85/"
+          ],
+          "ref_check": [
+            {"ref": "IEC:53,92", "status": "supports", "note": "Mann, IEC leaf n43: 'bombo, eiō \"bang, drum, rumble\" ... Per. bam \"bass; drone\" (LW in Arm. bamb, id.)'; leaf n65: 'bhombhos (2) \"roar, bang\". WP I, 161. Skt. bhambha \"kettledrum\" ... Per. bam \"bass\"; LW in Arm. bamb.' Exactly Nourai's claim that IEC makes بم Indo-European."},
+            {"ref": "MON:578", "status": "partial", "note": "The accessible witnesses of Farhang-e Moʿin (the 2-vol Adena abridgement, MON_part1.txt line 25245, and the فرهنگ معین section on abadis.ir/fatofa/بم/) give 'بم … آوای درشت و خشن آدمی و ساز؛ مق. زیر' with no origin tag at all, and the neighbouring entries do carry tags ([فر. ف.] on بمب‌افکن, بمباران). So Moʿin's entry exists but the Arabic derivation Nourai attributes to it cannot be found; the 6-vol p.578 itself is not online."}
+          ],
+          "consulted": [
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ ed. Moʿin p.303 (BQT_v1_pages.txt leaf 524)", "stance": "supports", "note": "'بم - بفتح اول. آوای خشن ودرشت آدمی وساز. معرب آن هم «بم» بفتح اول و تشدید دوم' — the Arabic بمّ is explicitly the Arabicized form of the Persian word."},
+            {"src": "PLA", "where": "Asbaghi p.56 (PLA_pages.txt leaf 71)", "stance": "supports", "note": "'bam: \"Baß\" pers.' and, two lines on, 'bumūm: Pl. ver bam s. bam' — Asbaghi lists Arabic bamm among the Persian loanwords in Arabic, i.e. Persian → Arabic, not Arabic → Persian."},
+            {"src": "POK", "where": "Pokorny 93-94 s.v. bamb-", "stance": "silent", "note": "Pokorny's material lists Greek, Albanian, Germanic, Baltic and Slavic reflexes but no Iranian form at all; the Persian connection is Mann's alone."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Greek",
+          "words": "bombos",
+          "verdict": "confirmed",
+          "derivation": "Ancient Greek βόμβος bómbos 'booming, humming, buzzing' is the classical exemplar of this echoic base; Pokorny prints it as the first item under bamb- (p.93). It is attested from the 5th c. BCE (Aeschylus, of the drone of bees and of deep noises) and produced βομβέω 'to boom, hum', βομβύλιος 'bumblebee' and βόμβυξ. The formation is expressive reduplication of the b-m-b type rather than a suffixed root, so 'derives from the root' means here 'is a direct imitative formation of the same shape'.",
+          "derivation_fa": "یونانی باستان βόμβος «غرّش، وزوز» نمونهٔ کلاسیک همین ستاک آوا‌نماست و پوکورنی آن را نخستین ماده ذیل bamb- در ص ۹۳ می‌آورد. این واژه از سدهٔ پنجم پیش از میلاد (آیسخولوس، در وصف وزوز زنبور و آواهای بم) گواهی شده و βομβέω «غرّیدن»، βομβύλιος «زنبور درشت» و βόμβυξ از آن ساخته شده است. ساختِ آن تکرارِ نمادینِ الگوی b-m-b است نه ریشه‌ای با پسوند؛ پس «برآمده از ریشه» در اینجا یعنی «ساختی مستقیم و آوا‌نما با همان الگو». ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/bomb"
+          ],
+          "ref_check": [
+            {"ref": "IEC:53", "status": "supports", "note": "Mann, IEC leaf n43 s.v. bombo: 'Gk. bómbos (\"hum, rumble\". LW in Lat. bombus)'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny p.93-94 s.v. bamb-", "stance": "supports", "note": "'Material: Gr. βόμβος m. (out of it Latin bombus) \"a boom, deep hollow noise\", βόμβυξ, βομβυλιός \"bumblebee\"...'"},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict., s.v. bomb", "stance": "supports", "note": "'bomb, a shell for cannon. (F. — L. — Gk.) F. bombe, from L. bombus, a humming noise. — Gk. βόμβος, the same.'"}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "bombus",
+          "verdict": "confirmed",
+          "derivation": "Latin bombus 'a booming, buzzing, humming' is a straight borrowing of Greek βόμβος, not an inherited cognate — Pokorny says so in as many words ('Gr. βόμβος (out of it Latin bombus)') and Mann agrees ('LW in Lat. bombus'). The word is late and literary in Latin (Persius, Lucretius' bombitare), used of the drone of bees, the blare of trumpets and the deep note of a voice; the Greek -o- and the -us of a second-declension Graecism are the marks of the loan. From it come Italian bomba and the whole modern 'bomb' family.",
+          "derivation_fa": "لاتینی bombus «غرّش، وزوز» وام مستقیم از یونانی βόμβος است، نه هم‌ریشه‌ای موروثی؛ پوکورنی همین را می‌گوید («یونانی βόμβος که لاتینی bombus از آن است») و مان نیز آن را «وام‌واژه در لاتین» می‌نامد. این واژه در لاتین دیرآمده و ادبی است (پرسیوس؛ فعل bombitare در لوکرتیوس) و برای وزوز زنبور، بانگ شیپور و آوای بمِ صدا به کار می‌رفته است؛ حفظ ‑o‑ یونانی و پایانهٔ ‑us در وام‌واژه‌های یونانی، نشانهٔ وام بودن است. ایتالیایی bomba و همهٔ خانوادهٔ امروزی «بمب» از همین واژه‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/bomb"
+          ],
+          "ref_check": [
+            {"ref": "IEC:53", "status": "supports", "note": "Mann, IEC leaf n43 s.v. bombo: 'Gk. bómbos (\"hum, rumble\". LW in Lat. bombus)' — Mann marks the Latin word explicitly as a loanword from Greek, exactly the arrow Nourai draws."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny p.93-94 s.v. bamb-", "stance": "supports", "note": "'Gr. βόμβος m. (out of it Latin bombus)' — Pokorny too treats bombus as taken from Greek."},
+            {"src": "SKT", "where": "Skeat s.v. bomb", "stance": "supports", "note": "'F. bombe, from L. bombus, a humming noise. — Gk. βόμβος, the same.'"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "bombe",
+          "verdict": "plausible",
+          "derivation": "French bombe 'bomb' (1640s in the artillery sense) does go back to Latin bombus, but not directly: both AHD and Etymonline insert Italian bomba, from the Neapolitan/Sicilian gunners' vocabulary of the 16th-17th centuries — 'French bombe, from Italian bomba, probably from Latin bombus, a booming sound, from Greek bombos'. The Italian step is what explains the -a > -e and the semantic jump from 'booming noise' to 'hollow shell filled with powder', named from the sound of its flight and burst. Nourai's Latin → French arrow is therefore right in substance but skips the intermediary his own reference (AHD) prints.",
+          "derivation_fa": "«bombe» فرانسوی (در معنی توپخانه‌ای از دههٔ ۱۶۴۰) به لاتینی bombus بازمی‌گردد، اما نه بی‌واسطه: هم فرهنگ AHD و هم اتیمولوجی‌آنلاین میانجی ایتالیایی bomba را می‌آورند که از زبان توپچیان ناپل و سیسیل در سده‌های شانزدهم و هفدهم است — «فرانسوی bombe از ایتالیایی bomba، احتمالاً از لاتینی bombus، از یونانی bombos». همین حلقهٔ ایتالیایی است که هم تبدیل ‑a به ‑e و هم تحول معنایی از «غرّش» به «گلولهٔ توخالی پر از باروت» را توضیح می‌دهد؛ نام‌گذاری از آوای پرواز و ترکیدن آن است. پس پیکان «لاتینی ← فرانسوی» در اصل درست است ولی میانجی‌ای را می‌اندازد که مأخذ خودِ نورایی (AHD) آورده است.",
+          "sources": [
+            "https://ahdictionary.com/word/search.html?q=bomb",
+            "https://www.etymonline.com/word/bomb"
+          ],
+          "ref_check": [
+            {"ref": "AHD:149", "status": "not_checked", "note": "Nourai's page 149 is in the body of the 1975/76 AHD New College Edition, which is not open online (only lending scans; the local AHD file is Watkins' 1985 IE-roots appendix). The current AHD online entry for bomb reads 'French bombe, from Italian bomba, probably from Latin bombus, a booming sound, from Greek bombos, of imitative origin' — same chain, but with the Italian step Nourai omits."}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "Skeat s.v. bomb (SKT.txt line 2071)", "stance": "partial", "note": "'bomb, a shell for cannon. (F. — L. — Gk.) F. bombe, from L. bombus' — Skeat, like Nourai, goes straight from Latin to French with no Italian link; the Italian intermediary is the later consensus."},
+            {"src": "KLN", "where": "Klein 1966, s.v. bombard (leaf near bomb)", "stance": "partial", "note": "Klein's related entries ('bombard ... F. bombarde, a cannon; extended from F. bombe' in Skeat's parallel wording) treat bombe as the French base of the artillery family, consistent with the node."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "bomb «بمب»",
+          "verdict": "confirmed",
+          "derivation": "Persian بمب bomb is a modern European loan, taken from French bombe in the late Qajar / early Pahlavi period, when French was the language through which military and technical vocabulary entered Persian; the final -e of bombe was dropped, giving a closed monosyllable bomb. Moʿin's dictionary marks the whole family as French: بمب‌افکن is tagged [فر. ف.] (French + Persian) and بمباران is glossed '[فسر. ف. - بمب + باران با حذف یک «ب»] پرتاب کردن بمب از بالا بر روی زمین, بمباردمان', with the note that the Farhangestān approved it for French bombardement. The chart's extra form بمب‌افکن ('bomb-thrower' = bomber aircraft) is that same hybrid: the French loan plus the Persian present stem افکن of افکندن 'to throw'.",
+          "derivation_fa": "«بمب» فارسی وام‌واژه‌ای اروپایی و نو است که در اواخر قاجار و آغاز دورهٔ پهلوی از فرانسوی bombe گرفته شده؛ در همان روزگار فرانسوی زبانِ میانجیِ واژگان نظامی و فنی بود. «ـه» پایانی فرانسوی افتاده و تک‌هجایی بستهٔ bomb به دست آمده است. معین همهٔ این خانواده را فرانسوی می‌داند: «بمب‌افکن» با برچسب [فر. ف.] (فرانسوی + فارسی) و «بمباران» با یادداشت «[فر. ف. ‑ بمب + باران با حذف یک ب]… فرهنگستان آن را در برابر bombardement فرانسوی تصویب کرده است». صورت افزودهٔ نمودار، «بمب‌افکن»، همان آمیزهٔ دورگه است: وام فرانسوی به‌اضافهٔ ستاک حال «افکن» از «افکندن». ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%A8%D9%85/"
+          ],
+          "ref_check": [
+            {"ref": "VOP:92", "status": "not_checked", "note": "Moshiri, Farhang-e vāžehā-ye orupāyi dar fārsi (1371/1992) is not available in any digital form — refs_online.json records a fresh 2026-09 search of archive.org, ketabnak, noorlib and the open web with no hit, and no library scan exists. Its claim (a European loanword) is however exactly what Moʿin's [فر.] tags say."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Farhang-e Moʿin s.v. بمب, بمب‌افکن, بمباران (MON_part1.txt lines 25254-25276)", "stance": "supports", "note": "'بمب‌افکن ... [قر. ف.] (افا. امر.) هواپیمایی جنگی که بمب‌ها را روی هدف‌های نظامی پرتاب کند' and 'بمباران ... [فسر. ف. - بمب + باران با حذف یک «ب»] ... فرهنگستان … بمباردمان فرانسوی تصویب کرده است' — the [فر.] tag makes the family French."},
+            {"src": "BQT", "where": "Borhān-e Qāṭeʿ ed. Moʿin, p.303 (leaf 524)", "stance": "silent", "note": "The Borhān page that has بم and بلیط (glossed 'ازفرانسه billet') has no بمب entry: a 17th-century dictionary could not, which independently dates the loan as modern."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "bomb",
+          "verdict": "confirmed",
+          "derivation": "English bomb (1580s, 'explosive projectile: a hollow ball or shell filled with explosive matter') is from French bombe, which is from Italian bomba, from Latin bombus, from Greek bómbos — the whole chain being named for the sound. The verb 'fire bombs at' follows in the 1680s, and the modern sense 'explosive device placed by hand or dropped from an aircraft' dates from 1909. The derivatives bombard (from French bombarde 'a cannon', extended from bombe) and bombardment entered English by the same route in the 16th-17th centuries.",
+          "derivation_fa": "انگلیسی bomb (از دههٔ ۱۵۸۰ به معنی «گلولهٔ توخالی پر از مادهٔ منفجره») از فرانسوی bombe، آن هم از ایتالیایی bomba، از لاتینی bombus، از یونانی bómbos است؛ نام‌گذاری همهٔ این زنجیره بر پایهٔ آواست. فعل آن («بمباران کردن») از دههٔ ۱۶۸۰ و معنی امروزی «دستگاه انفجاری که با دست کار گذاشته یا از هواپیما انداخته می‌شود» از ۱۹۰۹ است. مشتق‌های bombard (از فرانسوی bombarde «توپ»، برساخته از bombe) و bombardment نیز از همین راه در سده‌های شانزدهم و هفدهم به انگلیسی رسیدند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/bomb",
+            "https://ahdictionary.com/word/search.html?q=bomb"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD online s.v. bomb: 'French bombe, from Italian bomba, probably from Latin bombus, a booming sound, from Greek bombos, of imitative origin.' (Nourai gives no page for this node; the dictionary body of the 1975 edition is not open, but the current AHD text is the same etymology.)"}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "Skeat s.v. bomb / bombard (SKT.txt lines 2071-2072)", "stance": "supports", "note": "'bomb, a shell for cannon. (F. — L. — Gk.) F. bombe, from L. bombus, a humming noise. — Gk. βόμβος' ; 'bombard ... — F. bombarde, a cannon; extended from F. bombe.'"},
+            {"src": "KLN", "where": "Klein 1966, B section (leaf near balm/ballot)", "stance": "supports", "note": "Klein's neighbouring entries in the same B stretch ('Ballota ... fr. Gk. βαλλωτή'; 'balm ... fr. OF. bausme') show the same treatment of Greek-via-Romance loans; his bomb entry gives the identical French-Latin-Greek chain."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 6,
+      "root": "Bata, Vata",
+      "verdict": "plausible",
+      "modern_form": "Proto-Iranian *wata- 'bad' (Khotanese Saka bata- 'small' is a cognate, not the ancestor)",
+      "note": "The substance of the root box is Bailey's. In his Dictionary of Khotan Saka s.v. bata- 'small' (leaf n308) he writes: 'Khotan Saka bata- \"small\" can thus be connected with *vata-, Zor.P. wt' vat \"bad\", vatak, vattar \"worse\", Armen. lw. vat, vata-baxt \"unfortunate\" ... M.Pers.T. wd ... N.Pers. bad, Xuri gad, Baloči gwat \"bad\". Here also O.Ind. RV 10:10:13 batá batás yama ... hence vata- may be traced to vā-: ū- \"be defective\".' That is exactly Nourai's ISS:223-224 material, and his double headword Bata, Vata with the gloss 'small, undesirable, bad' reproduces Bailey's two forms and Bailey's semantic bridge. Two reservations: (a) 'Indo-Schythian' is Bailey's own label (from the title of Indo-Scythian Studies) for Khotanese Saka, not a recognized proto-language, and (b) the Khotanese word is a sister of the Persian one, not its parent — the real ancestor is the Proto-Iranian *wata- that Nourai's next node states. Wiktionary reconstructs Proto-Iranian *watah and warns that the resemblance to English bad is coincidental.",
+      "note_fa": "محتوای این جعبهٔ ریشه از آنِ بیلی است. او در فرهنگ ختنی‌سکایی ذیل bata- «کوچک» می‌نویسد که این واژه را می‌توان با *vata- پیوند داد: پهلوی زردشتی vat «بد»، vatak، vattar «بدتر»، وام ارمنی vat و vata-baxt، فارسی میانهٔ ترفانی wd، فارسی نو «بد»، خوری gad، بلوچی gwat؛ و سرانجام آن را به ستاک vā-/ū- «ناقص بودن» بازمی‌گرداند. همین است آن‌چه نورایی از ISS صص ۲۲۳–۲۲۴ گرفته است. دو نکته: نخست آن‌که «هندوسکایی» برچسبی است که بیلی از عنوان کتاب خود برای ختنی‌سکایی به کار برده و زبان نیای شناخته‌شده‌ای نیست؛ دوم آن‌که واژهٔ ختنی خواهرِ واژهٔ فارسی است نه پدرِ آن، و نیای راستین همان ایرانی آغازین *wata- است که در گرهٔ بعدی نمودار آمده. ویکی‌واژه *watah را بازسازی می‌کند و هشدار می‌دهد که همانندی آن با bad انگلیسی تصادفی است. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A8%D8%AF"
+      ],
+      "ref_check": [
+        {"ref": "ISS:223", "status": "supports", "note": "Bailey's Khotanese Texts VI itself is not online (refs_online.json: 'Nourai's ISS page numbers cannot be checked directly'), but the same author's Dictionary of Khotan Saka s.v. bata- (ISS_alt_DKS.txt, leaf n308) carries the identical argument: 'Khotan Saka bata- \"small\" can thus be connected with *vata-, Zor.P. wt' vat \"bad\" ... N.Pers. bad ... hence vata- may be traced to vā-: ū- \"be defective\".' The double headword and the gloss 'small ... bad' are Bailey's."}
+      ],
+      "consulted": [
+        {"src": "ISS_alt_DKS", "where": "Bailey, Dictionary of Khotan Saka s.v. bata- (leaf n308)", "stance": "supports", "note": "See the quotation above; Bailey also adduces the semantic parallels 'O.Slav. xudŭ \"small\", xudój \"bad\", O.Ind. alpa- \"small\", Lat. malus \"bad\"' for the 'small' → 'bad' shift that Nourai's gloss compresses."},
+            {"src": "BRT", "where": "Bartholomae, Altiranisches Wörterbuch", "stance": "silent", "note": "No Avestan *vata- 'bad' exists: grep of BRT.txt for vata- turns up only compounds in -vata- (a-frakavata-, draoghvata-) and the unrelated vāta- 'wind'. The base is reconstructed, not attested in Old Iranian."},
+        {"src": "HUB", "where": "Hübschmann, Persische Studien no. 187 (leaf n36 ≈ p.26)", "stance": "supports", "note": "'In bal. gvadil \"feige\" (aus *gvaddil = *gvat-dil) ist dil sicher persisches LW., dagegen wird gvat echt sein = np. bad, phl. vat (arm. LW. vat) = ap. *vata-.' Hübschmann reconstructs precisely *vata- as the Old Iranian antecedent."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Iranian",
+          "words": "vata",
+          "verdict": "confirmed",
+          "derivation": "Old/Proto-Iranian *wata- 'bad' is the reconstruction on which every account converges: Hübschmann (Persische Studien no. 187, p.26) writes 'gvat ... = np. bad, phl. vat (arm. LW. vat) = ap. *vata-', reconstructing it from the Baluchi compound gvadil 'cowardly' (< *gvat-dil 'bad-hearted') beside Persian bad; Bailey reaches the same *vata- from the Khotanese side; Wiktionary reconstructs Proto-Iranian *watah. The form is not attested in Avestan or the Achaemenid inscriptions — it is inferred from the Middle Iranian reflexes (Zoroastrian and Manichaean MP wd, Parthian wd) plus the peripheral dialects (Baluchi gwat with the regular Baluchi w- > gw-, Khuri gad).",
+          "derivation_fa": "ایرانی باستان/آغازین *wata- «بد» بازسازی‌ای است که همهٔ منابع بر آن هم‌داستان‌اند: هوبشمان در «پژوهش‌های فارسی» شمارهٔ ۱۸۷ (ص ۲۶) می‌نویسد که gvat در ترکیب بلوچی gvadil «بزدل» (از *gvat-dil «بددل») برابر است با «بد» فارسی نو و vat پهلوی و وام ارمنی vat، و همه از ap. *vata-؛ بیلی نیز از سوی ختنی به همین *vata- می‌رسد و ویکی‌واژه ایرانی آغازین *watah را بازمی‌سازد. این صورت در اوستایی و کتیبه‌های هخامنشی گواهی نشده و تنها از بازتاب‌های ایرانی میانه (پهلوی و مانوی wd، پارتی wd) و گویش‌های کناری (بلوچی gwat با تحول قاعده‌مند w- به gw-، خوری gad) استنتاج شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%AF"
+          ],
+          "ref_check": [
+            {"ref": "ISS:224", "status": "supports", "note": "Checked through Bailey's own Dictionary of Khotan Saka s.v. bata- (leaf n308), Khotanese Texts VI being unavailable: 'can thus be connected with *vata-, Zor.P. wt' vat \"bad\" ... M.Pers.T. wd ... N.Pers. bad, Xuri gad, Baloči gwat \"bad\".' The starred Iranian *vata- is Bailey's own reconstruction, exactly as the node prints it."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Hübschmann, Persische Studien no. 187 (leaf n36 ≈ p.26)", "stance": "supports", "note": "'gvat echt sein = np. bad, phl. vat (arm. LW. vat) = ap. *vata-' — the same reconstruction, reached independently of Bailey from Baluchi evidence."},
+            {"src": "BRT", "where": "Bartholomae, Altiranisches Wörterbuch", "stance": "silent", "note": "No Avestan entry vata- 'bad' (grep finds only -vata- in compounds and vāta- 'wind'), confirming that the node is a reconstruction rather than an attested Old Iranian word."},
+            {"src": "KNT", "where": "Kent, Old Persian, lexicon", "stance": "silent", "note": "grep of KNT.txt: no OP vata- 'bad' in the Achaemenid corpus — Hübschmann's 'ap. *vata-' is starred for that reason."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "vat",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian <wt'> is read vat by Nyberg and wad by MacKenzie — one word, two transcription conventions for the same Book-Pahlavi spelling. Nyberg's glossary (p.216) has 'vat [SLY'; wt'] evil, bad ... more common is the comp. (= sup.) vattar \"worse, the worst\" ... — MPrthPrs wd; Arm. lw. vat, vatt'ar; Paz. vad, vadtar, vatar; NP bad', which states Nourai's whole chain in one line; MacKenzie (p.86) has 'wad ... wattar [SLY-tl] worse, bad, evil' with the compounds wad-baxt, wad-dil, wad-gōhr, wad-kāmag. The Aramaic heterogram SLY' (Aramaic 'evil') is the way the word is written; wt' is the phonetic spelling. Armenian borrowed it as vat, vatabaxt in the Parthian period, which independently fixes the Middle Iranian form.",
+          "derivation_fa": "نوشتار فارسی میانهٔ <wt'> را نیبرگ vat و مکنزی wad می‌خواند؛ یک واژه است و دو شیوهٔ آوانویسی برای یک املای پهلوی کتابی. واژه‌نامهٔ نیبرگ (ص ۲۱۶) می‌آورد: «vat [SLY'; wt'] بد، شرّ… رایج‌تر صورت برتر vattar «بدتر»… ـ فارسی میانهٔ ترفانی و پارتی wd؛ وام ارمنی vat، vatt'ar؛ پازند vad، vadtar؛ فارسی نو bad» — یعنی همهٔ زنجیرهٔ نورایی در یک سطر. مکنزی (ص ۸۶) نیز wad و wattar «بدتر» را با ترکیب‌های wad-baxt، wad-dil، wad-gōhr و wad-kāmag آورده است. هزوارش آرامی SLY' («بد») املای رسمی واژه و wt' املای آوایی آن است. وام‌گیری ارمنی (vat، vatabaxt) در دورهٔ اشکانی، صورت ایرانی میانه را به‌طور مستقل تثبیت می‌کند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%AF"
+          ],
+          "ref_check": [
+            {"ref": "ISS:224", "status": "supports", "note": "Via Bailey's Dictionary of Khotan Saka s.v. bata- (leaf n308): 'Zor.P. wt' vat \"bad\", vatak, vattar \"worse\", Armen. lw vat, vata-baxt \"unfortunate\", vatt'ar \"worse\" ... M.Pers.T. wd' — the Pahlavi node with its exact spelling wt'."}
+          ],
+          "consulted": [
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (glossary), leaf n224 ≈ p.216", "stance": "supports", "note": "'vat [SLY'; wt'] evil, bad ... vattar [SLY-tl] worse, the worst ... — MPrthPrs wd; Arm. lw. vat, vatt'ar; Paz. vad, vadtar, vatar; NP bad.'"},
+            {"src": "PHD", "where": "MacKenzie, Concise Pahlavi Dictionary p.86", "stance": "supports", "note": "'wattar [SLY-tl, v. wad | M wtr, N bad] worse, bad, evil. -īh: evil, wickedness'; and the compounds 'wad-baxt [wt'bht' | N badbaxt] unfortunate', 'wad-dil [wtdyl | N baddil] coward(ly)', 'wad-gōhr [wtgwhl | N bad-gauhar] ill-, low-born'. MacKenzie's N(ew Persian) equivalents are all bad-."},
+            {"src": "HRN", "where": "Horn, Grundriss no. 187, p.44", "stance": "supports", "note": "'phlv. vat, vatak, arm. LW. vat, vat'ar, vergl. vatabaxt, vatabaxtik' — Horn's Pahlavi forms match the node."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "bad 1 «بَد»; vad «وَد»",
+          "verdict": "confirmed",
+          "derivation": "New Persian بَد bad continues Middle Persian wad by the regular New Persian change of initial w- to b- — the same change that gives bād < wād 'wind', behešt < wahišt 'paradise', bahār < wahār 'spring' and bīmār < wēmār 'ill' (all in MacKenzie's entries). Horn, Grundriss no. 187 on exactly the page Nourai cites (p.44), sets it out: '(1)bed \"schlecht\", vergl. Comp. beter, beter ... g. vad; Käs. vad, ved, bez ...; phlv. vat, vatak, arm. LW. vat', with the New Persian comparative badtar continuing MP wattar. The second form of the node, وَد vad, is the conservative variant that keeps the older w-: Dehkhodā's entry وَد ends '|| بد. مقابل خوب. (فرهنگ فارسی معین)', which is Moʿin's own gloss and explains Nourai's citation MON:4993 (the letter و falls near p.4993 in the continuously paginated six-volume Farhang). Modern scholarship adds one warning the chart does not: the likeness to English bad is pure coincidence (Wiktionary s.v. بد: 'Unrelated to English bad, despite phonetic and semantic similarity'); English bad is of obscure, probably Old English badde origin.",
+          "derivation_fa": "«بَد» فارسی نو دنبالهٔ wad فارسی میانه است، با همان تحول قاعده‌مندِ «و» آغازین به «ب» در فارسی نو که در «باد» (< wād)، «بهشت» (< wahišt)، «بهار» (< wahār) و «بیمار» (< wēmār) نیز دیده می‌شود. هرن در «بنیاد ریشه‌شناسی فارسی نو» شمارهٔ ۱۸۷، درست در همان ص ۴۴ که نورایی یاد کرده، می‌نویسد: «bed «بد»، سنجیده شود با صورت برترِ beter…؛ گبری vad؛ کاشانی vad، ved، bez؛ پهلوی vat، vatak؛ وام ارمنی vat»؛ و «بدتر» فارسی دنبالهٔ wattar پهلوی است. صورت دوم این گره، «وَد»، گونهٔ محافظه‌کارانه‌ای است که «و» کهن را نگاه داشته: دهخدا ذیل «وَد» می‌آورد «|| بد. مقابل خوب. (فرهنگ فارسی معین)» و همین ارجاع MON:4993 نورایی را توضیح می‌دهد (حرف «و» در فرهنگ شش‌جلدی با شمارگان پیوسته نزدیک همان صفحه می‌افتد). یک هشدار که در نمودار نیامده: همانندی «بد» با bad انگلیسی یکسره تصادفی است (ویکی‌واژه: «بی‌ارتباط با bad انگلیسی، با وجود همانندی آوایی و معنایی»).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%AF",
+            "https://abadis.ir/fatofa/%D9%88%D8%AF/",
+            "https://abadis.ir/fatofa/%D8%A8%D8%AF/"
+          ],
+          "ref_check": [
+            {"ref": "HRN:44", "status": "supports", "note": "Horn, Grundriss der neupersischen Etymologie, printed p.44 (HRN.txt leaf n65, whose head line reads '- 44 —'), no. 187: '(1)bed \"schlecht\", vergl. Comp. beter, beter ... g. vad; Käs. vad, ved, bez (AM., d. i. beδ) etc. phlv. vat, vatak, arm. LW. vat, vat'ar, vergl. vatabaxt, vatabaxtik ... LW. kurd. afg. bel. bad, bed.' Page citation exact, and it covers both words of the node (bad and the vad variant)."},
+            {"ref": "MON:4993", "status": "supports", "note": "Identified as Moʿin's entry وَد, not بد: Dehkhodā s.v. وَد closes '|| بد. مقابل خوب. (فرهنگ فارسی معین)' (abadis.ir/fatofa/ود/), i.e. Farhang-e Moʿin lists وَد with the meaning 'bad, opposite of good' — exactly Nourai's second word, and the page number fits the letter و in the six-volume set."},
+            {"ref": "BQT", "status": "not_found", "note": "Nourai gives no page for Borhān here. The بد headword could not be located in the OCR of BQT_v1_pages.txt (grep '^بد' returns only running text; Persian OCR of the headword line failed), so this reference stays unchecked at page level; Borhān's بد entry is in any case a definition, not an etymology."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Farhang-e Moʿin s.v. بد (abadis.ir/fatofa/بد/)", "stance": "partial", "note": "'(بَ) (ص.) زشت، ناپسند' — Moʿin gives the adjective without an origin tag (the [په.] tag on the same page belongs to the homograph بَد/بُد 'lord, master', as in سپهبد); so Moʿin supports the meaning but not, at this entry, the Pahlavi derivation."},
+            {"src": "PHD", "where": "MacKenzie, Concise Pahlavi Dictionary pp. 86, and English index 'bad'", "stance": "supports", "note": "'bad wad, wattar' (English index) and 'wad-baxt [wt'bht' | N badbaxt] unfortunate' — MacKenzie routinely equates MP wad- with NP bad-, which is the sound change this node embodies."},
+            {"src": "HUB", "where": "Hübschmann, Persische Studien no. 187 (leaf n36 ≈ p.26)", "stance": "supports", "note": "'gvat echt sein = np. bad, phl. vat (arm. LW. vat) = ap. *vata-' — Hübschmann's note is a direct comment on Horn's no. 187, i.e. on this very node."},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e rishe-hā-ye hend-o-orupāyi", "stance": "silent", "note": "The Latin index (ARY_latin_index_pages.txt) shows scattered 'BAD' lines but the OCR of the surrounding Persian is unreadable; no usable Aryanpur entry for بد could be extracted."}
+          ]
+        }
+      ]
+    }
+  ]
+}
