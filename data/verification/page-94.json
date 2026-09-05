@@ -1,0 +1,398 @@
+{
+  "pdf_page": 94,
+  "book_page": 64,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Bheu 3",
+      "verdict": "confirmed",
+      "modern_form": "PIE *bʰuH- (Pokorny *bheu-, bheuə- : bhou- : bhū-) 'to grow, thrive' > 'to become, to be'",
+      "note": "Pokorny IEW p. 146 heads the entry 'bheu-, bheuə- (bhuā-, bhuē-) : bhou- : bhū-: ursprünglich \"wachsen, gedeihen\" (wohl = \"schwellen\") ... woraus \"entstehen, werden, sein\"'; Watkins/AHD has 'bheuə-. Also bheu-. To be, exist, grow' — Nourai's gloss 'to exist, grow' is verbatim AHD. The language label 'Indo-European' and the page citation POK:146 are both exact. The entry runs POK 146–150, which is why the page's nodes cite 146, 147 and 149. Two claims inside the chart do NOT belong to this root: Avestan urvarā- 'plant' (nodes 3–5) and English arbor/herb (node 15); see those nodes. Nourai's 'Bheu 3' numbering is his own (he splits several homophonous 'Bheu' roots); Pokorny keeps one entry.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *bʰuH- «روییدن، بالیدن» و از آنجا «پدید آمدن، شدن، بودن». پوکورنی در «فرهنگ ریشه‌شناختی هندواروپایی» ص ۱۴۶ همین ریشه را با صورت‌های bheu-/bhou-/bhū- آورده و معنای نخستین آن را «رشد کردن» دانسته است؛ واتکینز در پیوست ریشه‌های هندواروپایی فرهنگ American Heritage نیز آن را «بودن، هستی داشتن، رشد کردن» معنی کرده که واژه‌به‌واژه همان چیزی است که نورایی نوشته است. پس عنوان ریشه، برچسب زبانی و معنای آن هر سه درست است و ارجاع POK:146 دقیق است. تنها دو ادعا در این نمودار به این ریشه پیوند ندارد: اوستایی urvarā- «گیاه» و انگلیسی arbor و herb.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+      ],
+      "ref_check": [
+        {"ref": "POK:146", "status": "supports", "note": "POK_01.txt line 2073 = leaf 155 (leaf = p + 8, so printed p. 146): 'bheu-, bheuə- (bhuā-, bhuē-) : bhou- : bhū-: ursprünglich \"wachsen, gedeihen\" (wohl = \"schwellen\") ... woraus \"entstehen, werden, sein\", weiters \"gewohnheitsmäßig wo sein, wohnen\"'. The entry continues to p. 150."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "Watkins 1985 s.v. bheuə-", "stance": "supports", "note": "'bheuə-. Also bheu-. To be, exist, grow. ... [Pok. bheu- 146.]' (AHD_watkins1985.txt line 340) — same gloss and the same Pokorny page."},
+        {"src": "WLD", "where": "Bd. II p. 140", "stance": "supports", "note": "WLD_Bd2_pages.txt line 9065 has the running head '140 bheu-' and line 9099 'bheu- ursprgl. \"wachsen\" (wohl = \"schwellen\") ...' — the source Pokorny cites as 'WP. II 140 f.'"},
+        {"src": "IEC", "where": "s.v. bheuə (bhou- bhū-)", "stance": "supports", "note": "Mann, IEC.txt line 1280: 'bheuə (bhou- bhū-) \"be\". Cf. bhou-, bhū- as separate entries. Skt. bhávāmi; Av. bavai(mi) beside buye, mp.; Alb. buj \"lodge\"; Go. (o-grade) bauan'."},
+        {"src": "SYN", "where": "grep of SYN.txt", "stance": "silent", "note": "grep -n 'bhūta|bhuta-' in Buck's Selected Synonyms returns nothing; Nourai's SYN:1503 could not be matched (see nodes 7 and 13)."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "bŭta, bav : to exist, become ; bŭšyant, bŭšyeity : will exist",
+          "verdict": "confirmed",
+          "derivation": "Old Iranian inherited the PIE root as *bav- / *bū-. Avestan has the thematic present bavaiti 'becomes, is' (= Skt. bhávati) and Old Persian bavatiy 'becomes' (DNb 14, XPh 55), from *bʰew-e-ti; the past participle Av. būta- 'become, being' continues *bʰuH-tó- (= Skt. bhūtá-, Lat. -fu-tus). The future stem Av. būšyeiti, participle būšyant- 'who will come into being' is the desiderative-future *bʰuH-s-ye/o-, exactly parallel to Skt. bhaviṣyáti and Lith. būsiu. Nourai's 'bav' is the bare stem bav- as Kent lists it for Old Persian; 'bŭta' and the two būšy- forms are Avestan only (Old Persian has no attested future), so the joint label 'Avestan / Old Persian' is a simplification but not an error.",
+          "derivation_fa": "ریشهٔ هندواروپایی *bʰuH- در ایرانی باستان به‌صورت ستاک bav-/bū- بازمانده است: اوستایی bavaiti «می‌شود، هست» و پارسی باستان bavatiy «می‌شود» (کتیبهٔ داریوش، نقش رستم ب، سطر ۱۴) هر دو از *bʰew-e-ti اند و با سنسکریت bhávati هم‌ریشه‌اند. صفت مفعولی اوستایی būta- «شده، بوده» دنبالهٔ *bʰuH-tó- است، و ستاک آیندهٔ būšyeiti با اسم فاعل būšyant- «آنکه به هستی خواهد آمد» همان ساخت آیندهٔ ‑س‑ی‑ است که در سنسکریت bhaviṣyáti و لیتوانیایی būsiu نیز دیده می‌شود. ادعای نورایی درست است؛ تنها باید یادآور شد که صورت‌های būta و būšy- تنها اوستایی‌اند و در پارسی باستان گواهی نشده‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+          ],
+          "ref_check": [
+            {"ref": "POK:146", "status": "supports", "note": "POK_01.txt leaf 155 (= printed p. 146): 'Ai. bhávati \"ist, ist da, geschieht, gedeiht, wird\" = av. bavaiti \"wird, entsteht; geschieht; wird sein\", apers. bavatiy \"wird\"; Fut. ai. bhaviṣyáti, av. būsyeiti Partiz. būsyant- \"der ins Dasein treten wird\"' and 'ai. bhūtá-ḥ, av. būta- \"geworden, seiend\"'. Every one of Nourai's four forms is on this page."},
+            {"ref": "BQT:111", "status": "not_found", "note": "BQT_v1_pages.txt record 331 (the offset leaf ≈ printed + 220 is fixed by بت on record 454 = p. 234 and بومهن on record 541 = p. 320) carries the اسپـ headwords (اسپرغم، اسپرس، اسپرسب); no bav-/būdan material found there."}
+          ],
+          "consulted": [
+            {"src": "KNT", "where": "Lexicon, p. ~199 s.v. bav-", "stance": "supports", "note": "KNT.txt line 5741 (leaf 224, header 'LEXICON'): 'bav- vb. \"become, be\": present stem bava- (§213), Av. bavaiti, Skt. bhávati, Gk. φύω \"grows\", Lt. fui \"I was\", Lith. būti \"to be\", NEng. be, pIE *bheu-. See also būmi-.'"},
+            {"src": "AHD", "where": "Watkins 1985 s.v. bheuə-", "stance": "supports", "note": "Zero-grade *bhu- and lengthened *bhū- are set out there with the same Indo-Iranian evidence."},
+            {"src": "BRT", "where": "Altiran. Wb. s.v. bav-", "stance": "silent", "note": "The local BRT.txt OCR is too corrupt to retrieve the bav-/būta- columns (grep for 'būta', 'buiti' etc. returns nothing usable); Kent and Pokorny were used instead."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "bŭdan «بودن» : to be ; bâšîdan «باشیدن» : to be ; bovesh «بُوَش» : being, existence",
+          "verdict": "confirmed",
+          "derivation": "NP بودن būdan continues Middle Persian būdan, present stem baw- (MacKenzie: 'būdan, b(aw)- [YHWWN-tn' ; bwtn', b- | M bwdn, bw-, N būdan] be, become'), itself the Old Iranian participial infinitive *bū-tanai to the stem bav-/bū-; intervocalic -t- of *bū-ta- is voiced to -d- in Middle Persian (*būtan > būdan), the regular change seen in Av. dāta- > MP dād. The subjunctive/optative forms in Nourai's script_extra are the same paradigm: باد bād 'may it be' (< MP bawād < OIr. *bavātu), بادا bādā, and the imperative بو bow / باش bāš. باشیدن bāšīdan is a late New Persian secondary infinitive built on the present stem باش bāš-, which is the Middle Persian imperative/subjunctive stem of the same verb, and not an independent root. بُوَش bovaš is MP bawišn 'becoming, genesis' (MacKenzie lists 'bawišn: becoming, genesis' under būdan), with the regular MP abstract suffix -išn > NP -eš and the -w- retained before it.",
+          "derivation_fa": "«بودن» دنبالهٔ فارسی میانهٔ (پهلوی) būdan با ستاک حال baw- است که مکنزی در «فرهنگ کوچک پهلوی» به‌صورت būdan, b(aw)- ثبت کرده؛ خودِ آن از ایرانی باستان *bū-tanai از ستاک bav-/bū- است و ت میان دو واکه در فارسی میانه به د نرم شده است (*būtan > būdan)، همان دگرگونی که در dāta- اوستایی > داد پهلوی دیده می‌شود. «باد۲» و «بادا» صورت‌های التزامی و دعایی همین فعل‌اند (پهلوی bawād) و «بو» و «باش» صیغهٔ امر آن. «باشیدن» مصدر ثانوی و متأخر فارسی نو است که روی ستاک حالِ «باش» ساخته شده، نه ریشه‌ای جداگانه. «بُوَش» همان bawišn پهلوی «شدن، هستی» است؛ پسوند اسم‌ساز ‑išn پهلوی در فارسی نو به ‑ش بدل شده است. حاشیهٔ معین بر برهان قاطع (ص ۳۱۴) نیز «بودن» را پهلوی būdan از ریشهٔ ایرانی bav-/bū با گواه اوستایی bavaiti و سنسکریت bhavati می‌داند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+          ],
+          "ref_check": [
+            {"ref": "POK:147", "status": "supports", "note": "POK_01.txt leaf 155, printed p. 147: 'prábhūta-ḥ \"reichlich, zahlreich\", npers. Inf. būdan \"sein\"' — Pokorny names New Persian būdan on exactly the page Nourai cites."},
+            {"ref": "BQT:314", "status": "supports", "note": "BQT_v1_pages.txt record 535 ≈ printed p. 314, Mo'in's footnote 5: 'بودن ... پهلوی būdan ... از ریشهٔ ایرانی باستان bav-, bū (به‌همین معنی) ... اوستا bavaiti، سانسکریت bhavati (سوم شخص) ... اسلاو byti (مصدر)'. Exactly Nourai's arrow."},
+            {"ref": "BQT:111", "status": "not_found", "note": "record 331 ≈ p. 111 carries اسپـ headwords only (see node 1)."},
+            {"ref": "MON:603", "status": "partial", "note": "Mo'in's بودن entry is present (MON_part1.txt line 26023: 'بودن: bu-dan [= بدن] (بوده، بود ـ باشد ...)') but the Adena 2-vol. reprint on disk has its own pagination, so the page number 603 of the 6-vol. Amir Kabir edition cannot be confirmed; the content agrees."},
+            {"ref": "AEF:293", "status": "not_checked", "note": "Khaleqi-Motlaq's Persian translation of Horn is not online (refs_online.json: 'Not online (searched archive.org, ketabnak, noorlib, web)'); checked against Horn/Hübschmann instead."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "p. ~19 s.v. būdan", "stance": "supports", "note": "PHD.txt line 292: 'būdan, b(aw)- [YHWWN-tn! ... bwtn', b- | M bwdn, bw-, N būdan] be, become. bawišn: becoming, genesis.' — supplies both بودن and بُوَش."},
+            {"src": "MON", "where": "s.v. بودن", "stance": "supports", "note": "MON_part1.txt line 26023 'بودن: bu-dan ... (بوده، بود ـ باشد)'."},
+            {"src": "BQT", "where": "p. 314, Mo'in's fn. 5", "stance": "supports", "note": "see ref_check above; Mo'in gives the whole Old Iranian → Pahlavi → New Persian chain."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan / Old Persian",
+          "words": "bŭmî : earth ; bŭmî-mathan : earthquake ; urvarâ : plant",
+          "verdict": "disputed",
+          "derivation": "būmī- is correct and well supported: Av. būmi-, OP būmi- 'earth, land' (Kent: 'deriv. of root bhav- ... in grade bhū-'), from *bʰuH-mi- 'the grown/existing one' = Skt. bhū́mi-, and the direct ancestor of MP/NP بوم. 'bŭmî-mathan' is NOT an attested Old Iranian compound: neither Kent's Old Persian lexicon nor Bartholomae has it; it is Nourai's back-projection of New Persian بومهن (see node 5), whose second element Mo'in analyses as مهن 'movement'. The third word is the real problem: Avestan urvarā- f. 'plant' (Bartholomae s.v. 'urvarā- f. \"Pflanze\", meist Plur.') has nothing to do with *bʰuH-; it continues Proto-Iranian *(H)urwarā-, cognate with Skt. urvárā 'fertile field', and no dictionary derives it from bheu-. Pokorny's bheu- entry lists Av./OP būmi- but never urvarā-. This arrow is therefore rejected by modern scholarship.",
+          "derivation_fa": "دربارهٔ būmī- ادعای نورایی درست است: اوستایی būmi- و پارسی باستان būmi- «زمین، سرزمین» از *bʰuH-mi- «آنچه روییده/هست» است، هم‌ریشه با سنسکریت bhū́mi- و نیای مستقیم «بوم» فارسی؛ کنت در واژه‌نامهٔ پارسی باستان آن را صراحتاً «مشتق از ریشهٔ bhav- در درجهٔ bhū-» می‌خواند. اما būmī-mathan صورتی گواهی‌نشده است و نه در کنت و نه در بارتولومه یافت نمی‌شود؛ این بازسازیِ خودِ نورایی از «بومهن» فارسی نو است. مشکل اصلی واژهٔ سوم است: اوستایی urvarā- «گیاه» (بارتولومه: urvarā- f. «Pflanze») هیچ پیوندی با ریشهٔ *bʰuH- ندارد و دنبالهٔ ایرانی آغازین *(H)urwarā- و هم‌ریشه با سنسکریت urvárā «کشتزار بارور» است؛ پوکورنی نیز در مدخل bheu- تنها būmi- را آورده و نامی از urvarā- نبرده است. پژوهش امروزی این پیوند را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%88%D9%85"
+          ],
+          "ref_check": [
+            {"ref": "POK:146", "status": "partial", "note": "Pokorny does give 'ai. bhū- f. \"Erde, Welt\", bhū́mi-, bhū́miḥ, av. ap. būmi-, npers. būm \"Erde\"' — but on p. 147, one page past Nourai's citation, and with no mention of urvarā- or of a compound *būmī-mathan."},
+            {"ref": "KNT:200", "status": "supports", "note": "KNT.txt leaf 225 (running head 'LEXICON', the b- entries of Kent's lexicon, pp. 199–200): 'būmi- sb. \"earth (= world or ground)\": Av. būmi-, NPers. būm, Skt. (RV) nom. bhū́mi bhū́miṣ; deriv. of root bhav- (see bav-) in grade bhū-, cf. Skt. aor. ábhūt, Gk. ἔφυ.' Exactly Nourai's arrow for būmī."},
+            {"ref": "BQT:111", "status": "not_found", "note": "record 331 ≈ p. 111 has اسپـ headwords only."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Altiran. Wb. s.v. urvarā-", "stance": "contradicts", "note": "BRT.txt line 8467: 'urvarā- f. \"Pflanze\", meist Plur.; Sing. auch koll.; oft göttlich verehrt' — Bartholomae's entry gives no connection whatever with bav-/bū-, and the word is filed under u-, not under the bū- family."},
+            {"src": "KNT", "where": "Lexicon s.v. būmi-", "stance": "supports", "note": "see ref_check; Kent derives būmi- from bav-."},
+            {"src": "POK", "where": "p. 147", "stance": "partial", "note": "'av. ap. būmi-, npers. būm \"Erde\"' present; urvarā- absent from the whole bheu- entry (pp. 146–150)."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "bŭm 2 : earth ; bŭmahan : earthquake ; urvar : plants",
+          "verdict": "plausible",
+          "derivation": "MP būm [bwm] 'land, earth, country' is the regular continuation of OP/Av. būmi-: the i-stem loses its final vowel in Middle Persian (*būmi- > būm), as in *zami- > zamīg. MacKenzie confirms both būm and urwar 'plant(s), vegetable' [ʾwlwl | Manich. ʾwrwr], and Nyberg's glossary explicitly links the latter to 'Av. urvarā-'. The arrow #3 → #4 is therefore right form-for-form. Two reservations: (a) 'bŭmahan' is not attested in Pahlavi — MacKenzie's word for earthquake is būm-čandag [bwm-cndk'] 'earth-shaking', and the Book Pahlavi texts also use bum-larzišn; būmahan looks like Nourai's Pahlavi-ising of NP بومهن; (b) urwar is inherited from Av. urvarā- but, as at node 3, does not belong under the root Bheu at all.",
+          "derivation_fa": "«بوم» فارسی میانه [bwm] «سرزمین، زمین، کشور» دنبالهٔ منظم būmi- ایرانی باستان است؛ واکهٔ پایانی ستاک ‑i در فارسی میانه می‌افتد (*būmi- > būm)، همان‌گونه که *zami- > zamīg. مکنزی هر دو واژهٔ būm و urwar «گیاه» را ثبت کرده و نیبرگ در واژه‌نامهٔ پهلوی خود urvar را صراحتاً به اوستایی urvarā- بازمی‌گرداند؛ پس پیوند گرهٔ ۳ به ۴ از نظر صورت درست است. اما دو نکته: نخست آنکه būmahan در پهلوی گواهی نشده است و واژهٔ مکنزی برای زمین‌لرزه būm-čandag «لرزش زمین» است، و būmahan ظاهراً صورتی است که نورایی از «بومهن» فارسی نو به پهلوی برگردانده؛ دوم آنکه urwar گرچه به‌درستی از urvarā- اوستایی است، اما همچون گرهٔ ۳ اصلاً به ریشهٔ Bheu تعلق ندارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%88%D9%85"
+          ],
+          "ref_check": [
+            {"ref": "AEF:298", "status": "not_checked", "note": "Asās-e Eshteqāq-e Fārsi (Khaleqi-Motlaq's Persian Horn) is not available online or on disk; substituted MacKenzie and Nyberg, which are the standard authorities for Pahlavi."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "p. ~19 s.v. būm, urwar", "stance": "partial", "note": "PHD.txt line 292: 'būm [bwm | N ~] land, earth, country. ~-čandag [-cndk'] earthquake.' and line 599: 'urwar [ʾwlwl | M ʾwrwr] plant(s), vegetable.' — būm and urwar confirmed, but MacKenzie's earthquake word is būm-čandag, not būmahan."},
+            {"src": "NYB", "where": "Glossary s.v. urvar", "stance": "supports", "note": "NYB_vol2_glossary.txt line 3853: 'urvar [ʾwlwl] plant, generally coll. plants, passim ... — Av. (401 sqq.) urvarā-; MPrs ʾwrwr.' Confirms the Avestan → Pahlavi step for urvar (but not a bheu- origin)."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "bŭm 2 «بوم ۲» : earth, country ; bŭmmahan «بومَهَن» : earthquake ; ŭrvar «اورْوَر» : plant",
+          "verdict": "plausible",
+          "derivation": "NP بوم būm 'land, country, region' (as in مرز و بوم) is straight from MP būm, OP būmiš — Wiktionary: 'From Middle Persian 𐭡𐭥𐭬 (būm), from Old Persian 𐏏 (būmiš), from Proto-Iranian *búHmiš'. It must be kept apart from the homograph بوم 'owl', which Mo'in marks [ع.] i.e. an Arabic loan. بومهن / بومهین 'earthquake' is a genuine Persian word: Borhan-e Qate' p. 320 defines بومهن 'زمین‌لرزه باشد که به‌عربی زلزله خوانند' and بومهین as its variant, and Mo'in analyses it as بوم + مهن 'movement' — i.e. a New Persian compound, not an inherited one, which is why no Old or Middle Iranian antecedent exists. اورور urvar 'plant' is a rare learned word taken over from Pahlavi urwar; the arrow #4 → #5 holds for all three words, but the ultimate root of urvar is not Bheu (see node 3). Nourai's supporting verse (بر آمد یکی بومهن نیمشب / تو گفتی زمین دارد از لرزه تب) is Asadi Tusi's Garshāspnāma, quoted at exactly that page of Borhan.",
+          "derivation_fa": "«بوم» به معنی «سرزمین، کشور» (چنان‌که در «مرز و بوم») بی‌واسطه از فارسی میانهٔ būm و آن از پارسی باستان būmiš است؛ باید آن را از هم‌نگاشتِ «بوم» به معنی «جغد» جدا داشت که معین آن را با نشانِ [ع.] وام‌واژهٔ عربی می‌شمارد. «بومهن/بومهین» واژه‌ای اصیل فارسی است: برهان قاطع (ص ۳۲۰) آن را «زمین‌لرزه که به‌عربی زلزله خوانند» معنی کرده و معین آن را ترکیب «بوم + مهن (حرکت)» دانسته است؛ یعنی ترکیبی نوساخته در فارسی دری، و از همین رو صورت کهن ایرانی برای آن در دست نیست. «اورور» واژه‌ای کم‌کاربرد و برگرفته از urwar پهلوی است. پیوند گرهٔ ۴ به ۵ برای هر سه واژه درست است، ولی ریشهٔ نهایی «اورور» ریشهٔ Bheu نیست. بیت گواهِ نورایی («برآمد یکی بومهن نیمشب / تو گفتی زمین دارد از لرزه تب») از گرشاسپ‌نامهٔ اسدی طوسی است و در همان صفحهٔ برهان نقل شده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%88%D9%85"
+          ],
+          "ref_check": [
+            {"ref": "POK:147", "status": "supports", "note": "POK_01.txt leaf 155, p. 147: 'av. ap. būmi-, npers. būm \"Erde\"'."},
+            {"ref": "BQT:320", "status": "supports", "note": "BQT_v1_pages.txt record 541 (≈ printed p. 320): 'بومهن ... بفتح اول و ها و سکون نون، زمین لرزه باشد که به‌عربی زلزله خوانند' and 'بومهین ... بمعنی اول بومهن است که زلزله و زمین لرزه باشد'; the footnote on the same page carries the Asadi Tusi verse 'تو گفتی زمین داردی لرز و تب' that Nourai quotes."},
+            {"ref": "MON:401", "status": "partial", "note": "Mo'in's entry is verbatim present (MON_part1.txt line 26222: 'بومهن: bum-mahan [= بومهین = بوم + مهن = حرکت] (ا.) زمین‌لرزه، زلزله'), but the Adena reprint on disk repaginates, so page 401 of the Amir Kabir edition could not be checked."},
+            {"ref": "AEF:299", "status": "not_checked", "note": "AEF not available (see node 4)."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "s.v. بومهن", "stance": "supports", "note": "'بومهن ... [= بومهین = بوم + مهن = حرکت] زمین‌لرزه، زلزله' (MON_part1.txt line 26222) — Mo'in's own morphological analysis, identical to Nourai's reading."},
+            {"src": "BQT", "where": "p. 320", "stance": "supports", "note": "see ref_check; both بومهن and بومهین are headwords there."},
+            {"src": "PHD", "where": "s.v. būm", "stance": "supports", "note": "'būm [bwm | N ~] land, earth, country' — MacKenzie explicitly equates the Pahlavi and New Persian forms."}
+          ],
+          "extraction_note": "Minor diacritic difference: the printed page shows «اورَوَر» (fatḥa on the first rāʾ) where the JSON has «اورْوَر» (sukūn). Everything else in this node matches the page."
+        },
+        {
+          "id": 6,
+          "lang": "Sogdian",
+          "words": "bwmb : earth, world",
+          "verdict": "transcription_suspect",
+          "derivation": "The word itself is right and the arrow is right: Gharib's Sogdian Dictionary no. 2911 (printed p. 114/115) reads 'βwmh (B, S) βūm ⟨< OP. būmī⟩ obl. -y(h) — earth, world', with references VJ 226, 228, 1218; SCE 4.214 etc. Sogdian βūm continues Old Iranian *būmi- with the regular East Iranian lenition of initial b- to β- and loss of the final vowel; the -h of βwmh is the Sogdian orthographic 'silent he', not a consonant. Nourai's 'bwmb' has a final -b where the dictionary has -h. The 300 dpi rendering of the printed page (data/verification/sources/refs/ocr/BOOK/94.png) shows unmistakably 'bwmb', so the JSON extraction is faithful and the misprint is the book's.",
+          "derivation_fa": "خودِ واژه و پیوند آن درست است: قریب در «فرهنگ سغدی» شمارهٔ ۲۹۱۱ (ص ۱۱۴/۱۱۵ چاپی) آورده است βwmh «زمین، جهان» و آن را از būmī پارسی باستان می‌داند. βūm سغدی دنبالهٔ *būmi- ایرانی باستان است؛ ب آغازین در ایرانی شرقی به β نرم شده و واکهٔ پایانی افتاده است، و ‑h پایانی در املای سغدی «های خاموش» است نه صامت. اما نورایی به‌جای ‑h، ‑b نوشته است. تصویر ۳۰۰ نقطه‌ایِ صفحهٔ چاپی به‌روشنی «bwmb» نشان می‌دهد؛ پس خطای خوانش اسکن نیست، بلکه خطای چاپی خودِ کتاب است و صورت درست βwmh (bwmh) است.",
+          "error_in": "book",
+          "book_prints": "bwmb",
+          "correct_form": "βwmh (bwmh), Gharib no. 2911",
+          "sources": [],
+          "ref_check": [
+            {"ref": "SOD:115", "status": "supports", "note": "SOD_pages.txt lines 12071–12076 (leaf 180; printed ≈ leaf − 66 = 114/115), entry '2911 βwmh B, S — βūm ⟨< OP. būmī⟩ ob. -y(h) — earth, world — VJ 226, 228, 1218; SCE 4.214; TSP; BSTBL, Vim. 102, Dhu. 142, 293, Dhy. 125 etc.' Nourai's page number and gloss are right; only the transliteration's last letter is wrong."}
+          ],
+          "consulted": [
+            {"src": "SOD", "where": "no. 2911, p. ~115", "stance": "partial", "note": "supports the derivation ('< OP. būmī') and the gloss 'earth, world', but prints βwmh, not bwmb."},
+            {"src": "PHD", "where": "s.v. būm", "stance": "supports", "note": "'būm [bwm | N ~] land, earth, country' — the West Iranian counterpart of the same *būmi-."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Avestan",
+          "words": "bŭiti, buiti daevo : name of a demon encouraging idolatry",
+          "verdict": "plausible",
+          "derivation": "Būiti is a genuine Avestan daēva: Vendidad 19.1 'The Druj came rushing along, the demon Būiti, who is deceiving, unseen death', sent by Angra Mainyu against Zarathustra; a variant Buiδi appears at Vd 11.9. Pokorny does list the name under this root — but on p. 147, under bhūti- 'Sein', and with a question mark: 'av. būti- m. \"Name eines daēva\"?'. So the attachment to Bheu is a possibility Pokorny himself flags as uncertain, not a settled derivation. Nourai's gloss 'a demon encouraging idolatry' is not what the Avesta says: it is Darmesteter's note on Vd 19.1 that identifies Būiti, in the Greater Bundahišn, with the Bût (idol) worshipped by Būdāsp (a corruption of Bodhisattva) and reads the demon as a personification of Buddhism in Eastern Iran. That is a late Zoroastrian identification of the demon with the Buddha-idol, not an etymology of the demon's name. The chart's NOTE (BQT:233, Būiti cognate with Skt. bhūta- 'a being, phantom, ghost') is likewise only plausible: Skt. bhūta- is certainly from *bʰuH-, but no modern Iranist derives Būiti from it.",
+          "derivation_fa": "«بوئیتی» نام دیوی راستین در اوستاست: در وندیداد فرگرد ۱۹ بند ۱ اهریمن دیو بوئیتی را برای کشتن زرتشت می‌فرستد، و صورت دیگر آن Buiδi در وندیداد ۱۱٫۹ آمده است. پوکورنی این نام را در مدخل همین ریشه آورده، اما در ص ۱۴۷ زیر bhūti- «هستی» و با علامت پرسش: «av. būti- m. نام یک دیو؟». پس پیوند آن با ریشهٔ Bheu گمانی است که خود پوکورنی نیز آن را قطعی نمی‌داند. توضیح نورایی («دیوی که مردم را به بت‌پرستی برمی‌انگیزد») در متن اوستا نیست؛ این از حاشیهٔ دارمستتر بر وندیداد ۱۹ برمی‌آید که بوئیتی را بنا بر بندهش بزرگ همان «بت»ی می‌داند که «بوداسپ» (تحریف بودی‌سَتوَه) می‌پرستید و او را تجسّم آیین بودایی در ایران شرقی می‌شمارد — یعنی این‌همانیِ دینیِ متأخر است، نه ریشه‌شناسی نام دیو. ادعای برهان قاطع (ص ۲۳۳) نیز که بوئیتی را هم‌ریشهٔ bhūta- سنسکریت می‌داند تنها با احتیاط پذیرفتنی است. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.avesta.org/vendidad/vd19sbe.htm"
+          ],
+          "ref_check": [
+            {"ref": "POK:146", "status": "partial", "note": "the item is there but one page later: POK_01.txt leaf 155, printed p. 147, under 'ai. bhūtí-ḥ, bhū́ti-ḥ f. \"Sein, Wohlsein\"' comes '(av. būti- m. \"Name eines daēva\"?' — with Pokorny's own question mark."},
+            {"ref": "BQT:223", "status": "not_found", "note": "BQT_v1_pages.txt records 443–444 (≈ printed pp. 223–224) contain the باشـ/باغـ headwords (باشتین، باشنگ، باغل، باغنج …) and nothing about بوئیتی. The Būiti footnote is on p. 234 (record 454), so Nourai's '223' looks like a slip for the '233' he gives in his own NOTE."},
+            {"ref": "SYN:1503", "status": "not_found", "note": "By Buck's stated offset (leaf = printed + 24) p. 1503 = leaf 1527, which in SYN.txt falls in chapter 21 (Law: 'lawyer', 'court'); grep of the whole file for 'bhūta'/'bhuta-' returns nothing. Could not locate any Buck passage on būiti or bhūta."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Persische Studien p. 26, no. 182", "stance": "partial", "note": "'Np. but \"Götzenbild, Idol\" (afgh. LW. but) nach Fr. Müller = Buddha, nach Horn ~ zd. buiti \"Name eines Dämons\" (vd. 19,1). Beides schon im grossen Bundehesh, vgl. Darmesteter, le Zend-Avesta II, p. 259.' Hübschmann records the Būiti link as one of two competing views."},
+            {"src": "BRT", "where": "Altiran. Wb.", "stance": "silent", "note": "the local BRT.txt OCR yields no retrievable Būiti column (grep 'buiti', 'Būiti' returns nothing); the OCR of this scan is heavily degraded in the b- section."},
+            {"src": "POK", "where": "p. 147", "stance": "partial", "note": "see ref_check — listed, but queried."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Avestan",
+          "words": "bŭiti-kata : idol house ☞Ket",
+          "verdict": "disputed",
+          "derivation": "There is no attested Avestan compound *būiti-kata-. Bartholomae has no such headword, and Būiti occurs in the Avesta only as a demon's name (Vd 19.1, 11.9), never in a compound meaning 'idol house'. The word Nourai is really explaining is New Persian بتکده but-kada / بتخانه but-xāna, and every authority treats that as a New Persian compound formed in Islamic times: Lokotsch no. 373 (pp. 30–31) states plainly 'Pers. batkādā \"Götzentempel\" [aus pers. but \"Götzenbild\" (Horn NpEt S. 42, Nr. 182) und kadā \"Haus\" (ebenda S. 188, Nr. 844)]'. The second element kada is indeed Av. kata- 'chamber, cellar' (Nourai's cross-reference '☞Ket' is correct for that half), but the compound as a whole is New Persian, not Avestan. So the node is Nourai's own reconstruction and is rejected as an Avestan form.",
+          "derivation_fa": "ترکیب اوستایی *būiti-kata- در هیچ متنی گواهی نشده است؛ در فرهنگ ایرانی باستان بارتولومه چنین سرواژه‌ای نیست و «بوئیتی» در اوستا تنها نام دیو است (وندیداد ۱۹٫۱ و ۱۱٫۹) و هرگز در ترکیبی به معنی «بتخانه» نیامده. آنچه نورایی در واقع توضیح می‌دهد «بتکده / بتخانه»ی فارسی نو است، و همهٔ منابع آن را ترکیبی نوساخته در دورهٔ اسلامی می‌دانند: لوکوچ (شمارهٔ ۳۷۳، ص ۳۰–۳۱) صریحاً می‌نویسد «فارسی batkādā \"بتخانه\" از but \"بت\" و kadā \"خانه\"». جزء دوم یعنی «کده» به‌راستی از kata- اوستایی «اتاق، سرداب» است و ارجاع نورایی به مدخل Ket در این نیمه درست است، اما کل ترکیب فارسی نو است نه اوستایی. حکم: پژوهش امروزی این صورت اوستایی را رد می‌کند.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "BQT:234", "status": "partial", "note": "BQT_v1_pages.txt record 454 (≈ printed p. 234) has the Persian headwords بتخانه ('جایی که بت‌ها را گذارند') and بتخال/بتخاله, and a footnote in which the form «بوئیتی» is legible twice — i.e. Mo'in there connects Persian بت with Avestan Būiti — but Borhan gives no Avestan compound *būiti-kata."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 373, pp. 30–31", "stance": "contradicts", "note": "'Pers. batkādā: \"Götzentempel\" [aus pers. but \"Götzenbild\" Horn NpEt S. 42, Nr. 182 und kädä \"Haus\" ebenda S. 188, Nr. 844]' — a New Persian compound, formed from but + kada, not an Avestan one."},
+            {"src": "BRT", "where": "Altiran. Wb.", "stance": "silent", "note": "no headword būiti.kata- or anything comparable is retrievable in BRT.txt."},
+            {"src": "MON", "where": "s.v. بتکده، بتخانه", "stance": "partial", "note": "MON_part1.txt lines 21193–21196: 'بتستان … بتخانه، بتکده' / 'بتکده … بتخانه، بت‌ستان' — Mo'in treats them as ordinary New Persian compounds of بت."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "bot «بت» : idol",
+          "verdict": "disputed",
+          "derivation": "Modern scholarship derives NP بت but/bot 'idol' not from Avestan Būiti but from Sanskrit buddha 'the Buddha' by way of the Buddhist Middle Iranian of the East: MacKenzie's Pahlavi dictionary gives '*but [bwt' | = M, N ~] Buddha; idol', i.e. the Middle Persian and Manichaean Middle Persian word means primarily 'Buddha', the sense 'idol' arising from the images of the Buddha that Iranians met in Bactria and Sogdiana; Wiktionary: 'Inherited from Middle Persian bwt' /but/ \"Buddha, idol\", ultimately from Sanskrit बुद्ध (buddha)', and it makes بت a doublet of بد bud 'Buddha'. Nourai's route (Av. Būiti → bot) is Horn's 1893 proposal — Horn no. 182, p. 42: 'but \"Götzenbild; Liebchen\". aw. Būiti- N. pr.; phlv. Būt, Būtjān ... Wenn die Zusammenstellung richtig ist ...' (with Horn's own conditional) — and Hübschmann p. 26 sets it side by side with Fr. Müller's Buddha etymology. The Buddha etymology has since prevailed; the Būiti connection survives only as the medieval Zoroastrian identification recorded in the Greater Bundahišn. Nourai's own note ('See \"Pwt\" for another possible root') shows he knew of the alternative. The derivatives بتکده، بتخانه، بت‌پرست are ordinary New Persian compounds on this word.",
+          "derivation_fa": "پژوهش امروزی «بت» را نه از Būiti اوستایی، بلکه از buddha سنسکریت «بودا» می‌داند که از راه ایرانی میانهٔ شرقی و محیط بودایی بلخ و سغد به فارسی رسیده است: مکنزی در فرهنگ پهلوی خود می‌نویسد «but [bwt] بودا؛ بت»، یعنی معنای نخست آن در فارسی میانه و پهلوی مانوی «بودا» است و معنای «بت» از پیکره‌های بودا برخاسته؛ ویکی‌واژه نیز آن را وام‌واژه‌ای از پهلوی but و در نهایت از سنسکریت buddha و دوگانهٔ واژهٔ «بُد» می‌شمارد. مسیری که نورایی کشیده پیشنهاد هرن (۱۸۹۳، شمارهٔ ۱۸۲، ص ۴۲) است که خود او هم با شرط آورده («اگر این هم‌سنجی درست باشد …»)، و هوبشمان (ص ۲۶) آن را در کنار ریشه‌شناسی فریدریش مولر (= بودا) می‌گذارد. امروزه ریشهٔ بودایی پذیرفته شده است و پیوند با بوئیتی تنها این‌همانیِ دینیِ بندهش بزرگ است. خود نورایی هم در یادداشتش به مدخل Pwt ارجاع داده است. «بتکده، بتخانه، بت‌پرست» ترکیب‌های عادی فارسی نو از همین واژه‌اند. حکم: پژوهش امروزی این ریشه‌یابی را رد می‌کند و به‌جای آن buddha سنسکریت را می‌نشاند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D8%AA",
+            "https://www.avesta.org/vendidad/vd19sbe.htm"
+          ],
+          "ref_check": [
+            {"ref": "BQT:234", "status": "supports", "note": "BQT_v1_pages.txt record 454 ≈ printed p. 234: the بت entry lists among its senses 'و چهارم معبود و مسجود کافران باشد که به‌عربی صنم خوانند'; the page's footnote carries «بوئیتی» twice, i.e. Mo'in's Būiti connection that Nourai is following."},
+            {"ref": "MON:472", "status": "partial", "note": "Mo'in's بت and بتکده entries are on disk (MON_part1.txt lines 21177–21196) and give the sense but no Avestan derivation; the Adena reprint repaginates, so p. 472 of the Amir Kabir edition could not be verified."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "p. ~19 s.v. but", "stance": "contradicts", "note": "'*but [bwt! | = M, N ~] Buddha; idol' — MacKenzie's gloss puts 'Buddha' first, i.e. the Buddhist etymology, not Būiti."},
+            {"src": "HRN", "where": "no. 182, p. 42", "stance": "supports", "note": "'but \"Götzenbild; Liebchen\". aw. Būiti- N. pr.; phlv. Būt, Būtjān (Gemme, Horn, Mitteilungen, Heft IV, S. 40, Note). Wenn die Zusammenstellung richtig ist, so gehört np. but in dieselbe Kategorie wie ǰādū, ātaš, patyāre u. a. m.' — Nourai's source, but hedged by Horn himself."},
+            {"src": "HUB", "where": "Persische Studien p. 26, no. 182", "stance": "partial", "note": "'nach Fr. Müller = Buddha, nach Horn ~ zd. buiti \"Name eines Dämons\"' — Hübschmann leaves both open."},
+            {"src": "MON", "where": "s.v. بت", "stance": "silent", "note": "the entry gives the senses (مرغابی / صنم) without an etymological tag in the two-volume reprint."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Hindustani",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "Empty pass-through node. It stands for the Indo-Muslim usage that carried Persian but 'idol' and but-kada 'idol-temple' into the Urdu/Hindustani of the Delhi Sultanate and the Deccan, where the Portuguese first heard it in the early 16th century. Hobson-Jobson (p. 654) makes exactly this point for the Persian etymology: 'but-kadah is a phrase which the Portuguese would constantly hear from the Mahommedans with whom they chiefly had to deal on their first arrival in India.' The intermediary is real as a route of transmission, though no Hindustani form is printed in the box.",
+          "derivation_fa": "این گره خالی است و تنها گذرگاه است: نمایندهٔ کاربرد هندی‌ـ‌اسلامی است که «بت» و «بتکده»ی فارسی را به اردو/هندوستانی دورهٔ سلطنت دهلی و دکن برد، همان‌جا که پرتغالی‌ها در آغاز سدهٔ شانزدهم آن را شنیدند. یول و برنل در «هابسن‌جابسن» (ص ۶۵۴) همین را می‌گویند: «but-kadah عبارتی است که پرتغالی‌ها پیوسته از مسلمانانی می‌شنیدند که در نخستین سال‌های ورودشان به هند بیشتر با آنان سروکار داشتند». پس مسیر انتقال واقعی است، هرچند در کادر کتاب هیچ صورت هندوستانی چاپ نشده است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this box."}
+          ],
+          "consulted": [
+            {"src": "HJB", "where": "pp. 652–655 s.v. PAGODA", "stance": "supports", "note": "'On the other hand but-kadah is a phrase which the Portuguese would constantly hear from the Mahommedans with whom they chiefly had to deal on their first arrival in India. This is the view confidently asserted by Reinaud (Mémoires sur l'Inde, 90), and is the etymology given by Littré.'"},
+            {"src": "AID", "where": "p. 233 s.v. Pagoda", "stance": "supports", "note": "'Pagoda. [According to Webster from the Persian but, an idol, and kodak, a house; but perhaps only a corrup[tion] …]' — Whitworth records the same Persian route through Anglo-Indian usage."}
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Portuguese",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "Empty pass-through node for Portuguese pagode, first attested in Barbosa 1516 ('they call their temples pagodes', quoted at Hobson-Jobson p. 655) and in Corsali; Etymonline dates Portuguese pagode to the early 16th century. The Portuguese form is the immediate source of every European word (Fr. pagode, It. pagoda, Ger. Pagode, Eng. pagoda), which is why Lokotsch no. 373 lists 'der pg. Ausdruck pagoda, engl. pagoda, pagode, dtsch. Pagode, it. pagodo, rum. pagoda, poln. pagoda'. What is not settled is what the Portuguese were adapting — Persian but-kada or Tamil/Sanskrit bhagavatī (see node 12).",
+          "derivation_fa": "این گره نیز خالی و گذرگاه است: نمایندهٔ pagode پرتغالی که نخستین‌بار در گزارش باربوسا (۱۵۱۶ م) آمده است («معابدشان را pagodes می‌خوانند»، نقل هابسن‌جابسن ص ۶۵۵) و اتیمانلاین نیز آن را از آغاز سدهٔ شانزدهم می‌داند. همین صورت پرتغالی سرچشمهٔ همهٔ صورت‌های اروپایی است؛ لوکوچ (شمارهٔ ۳۷۳) فهرست می‌کند: pagoda پرتغالی، pagoda/pagode انگلیسی، Pagode آلمانی، pagodo ایتالیایی، pagoda رومانیایی و لهستانی. آنچه هنوز حل نشده این است که پرتغالی‌ها کدام واژه را برگردانده‌اند: «بتکده»ی فارسی یا bhagavatī تامیلی‑سنسکریت (نگاه کنید به گرهٔ ۱۲).",
+          "sources": [
+            "https://www.etymonline.com/word/pagoda"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this box."}
+          ],
+          "consulted": [
+            {"src": "HJB", "where": "p. 655", "stance": "supports", "note": "Barbosa 1516: 'they call their temples pagodes, and they are separate from the others'; Ramusio's Italian 'le quali chiamano Pagodes'."},
+            {"src": "LKT", "where": "no. 373, pp. 30–31", "stance": "supports", "note": "'der pg. Ausdruck pagoda, engl. pagoda, pagode, dtsch. Pagode, it. pagodo, rum. pagoda, poln. pagoda' — Portuguese as the pivot."}
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "pagoda : prayer house",
+          "verdict": "plausible",
+          "derivation": "English pagoda (pagode, pagody 1580s; modern form 1630s) is from Portuguese pagode. The Persian route Nourai draws — but 'idol' + kada 'house' → but-kada → Port. pagode → Eng. pagoda — is one of two etymologies that are still live, and it is the one Lokotsch, Littré, Reinaud, Burnell and Whitworth adopt. The competing derivation is from Tamil pagavadi / Sanskrit bhagavatī 'goddess' (Yule's view; PIE *bʰag- 'to apportion', an entirely different root). Etymonline keeps both: 'from Portuguese pagode (early 16c.), perhaps from a corruption of Persian butkada, from but \"idol\" + kada \"dwelling.\" Or perhaps from or influenced by Tamil pagavadi \"house belonging to a deity,\" from Sanskrit bhagavati \"goddess\"'. Hobson-Jobson, which Nourai cites, prints the two contributors disagreeing with each other on exactly this point ('There can be little doubt that the origin really lies between these two'). The phonetic objection to the Persian route is that but-kada does not easily give the -go- and the final -e of the earliest Portuguese pagode. Verdict plausible, not confirmed.",
+          "derivation_fa": "«pagoda» انگلیسی (نخست pagode و pagody در دههٔ ۱۵۸۰، صورت امروزی از ۱۶۳۰) از pagode پرتغالی است. مسیری که نورایی کشیده — «بت» + «کده» ← بتکده ← pagode پرتغالی ← pagoda انگلیسی — یکی از دو ریشه‌شناسی زندهٔ این واژه است و همان است که لوکوچ، لیتره، رنو، برنل و ویتورث پذیرفته‌اند. ریشه‌شناسی رقیب آن را از pagavadi تامیلی و bhagavatī سنسکریت «الهه» می‌داند (رأی یول)، که از ریشهٔ یکسره دیگری (*bʰag- «بخش کردن») است. اتیمانلاین هر دو را نگاه داشته است. در «هابسن‌جابسن» — همان صفحه‌ای که نورایی به آن ارجاع داده — دو نویسندهٔ کتاب آشکارا بر سر همین نکته با یکدیگر اختلاف دارند و می‌نویسند «تردید اندکی هست که خاستگاه واقعی میان این دو است». ایراد آوایی بر مسیر فارسی آن است که از but-kada به‌آسانی ‑go‑ و ‑e پایانی کهن‌ترین صورت پرتغالی به دست نمی‌آید. پس: با احتیاط پذیرفتنی، نه قطعی.",
+          "sources": [
+            "https://www.etymonline.com/word/pagoda"
+          ],
+          "ref_check": [
+            {"ref": "SKT:366", "status": "not_found", "note": "Skeat's Concise (1911, SKT.txt) has no PAGODA headword at all; grep -i 'pagod' yields a single hit, in the appendix 'VI. Distribution of Words' — 'Portuguese from Persian: pagoda, veranda?' — at leaf 639 ≈ printed p. 619, not p. 366 (leaf 387 ≈ p. 361–366 holds POCK/POEM/POESY). That appendix does back the Persian route, but the page number does not match this edition."},
+            {"ref": "LKT:30", "status": "supports", "note": "LKT.txt line 1017, leaf 57 ≈ printed p. 31 (entry no. 373 begins on p. 30): 'Pers. batkādā: \"Götzentempel\" [aus pers. but \"Götzenbild\" … und kädä \"Haus\"]; hieraus ergab sich durch Kontamination mit prākṛta bhagodi \"göttlich, heilig\" … der pg. Ausdruck pagoda, engl. pagoda …' and it closes '[Hobson-Jobson 652/657]' — the very cross-reference Nourai repeats."},
+            {"ref": "AID:233", "status": "supports", "note": "AID.txt line 5145, leaf 251 (leaf = printed + 18, so p. 233): 'Pagoda. [According to Webster from the Persian but, an idol, and kodak, a house; but perhaps only a corrup[tion] …]'."}
+          ],
+          "consulted": [
+            {"src": "HJB", "where": "pp. 652–655 s.v. PAGODA", "stance": "partial", "note": "'a fifth makes it a corruption of the Pers. but-kadah, \"idol-temple\" … There can be little doubt that the origin really lies between these two' — Hobson-Jobson leaves Persian and bhagavatī undecided, with Burnell for Persian and Yule for bhagavatī."},
+            {"src": "LKT", "where": "no. 373", "stance": "supports", "note": "explicitly prefers the Persian etymology and dismisses dagoba, pagão and Chinese pai-ku-ta as 'weniger wahrscheinlich'."},
+            {"src": "SKT", "where": "Distribution of Words, p. ~619", "stance": "supports", "note": "'Portuguese from Persian: pagoda, veranda?' — Skeat classes pagoda as Persian via Portuguese, though not on the page Nourai cites."}
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Sanskrit",
+          "words": "bhu : become be ; bhŭta : a being, ghost, phantom",
+          "verdict": "confirmed",
+          "derivation": "Skt. bhū- 'to be, become' (present bhávati) is the Indic reflex of *bʰuH-, and bhūtá- is its past participle *bʰuH-tó- 'become, been', substantivised as bhūtá-m 'a being, creature' and, in the popular religion, 'ghost, spirit'. The Avestan cognate būta- of node 1 and Latin -fu-tūrus stand at exactly the same point in the paradigm. Nourai's semantic note 'a being, phantom, ghost' matches the Sanskrit lexicons; the ghost sense is a secondary Indian development from 'being' and is the sense that later fed the Bundahišn identification discussed at node 7.",
+          "derivation_fa": "ریشهٔ bhū- سنسکریت «بودن، شدن» (زمان حال bhávati) بازتاب هندیِ *bʰuH- است و bhūtá- صفت مفعولی آن یعنی *bʰuH-tó- «شده، بوده» که سپس به‌صورت اسم bhūtá-m «موجود، آفریده» و در باورهای عامیانه «روح، شبح» به کار رفته است. هم‌ریشهٔ اوستایی آن būta- (گرهٔ ۱) و لاتینی ‑fu‑tūrus دقیقاً در همین جایگاه صرفی‌اند. معنایی که نورایی داده با فرهنگ‌های سنسکریت می‌خواند؛ معنای «شبح» تحوّلی ثانوی و هندی از «موجود» است و همان است که بعدها این‌همانیِ بندهش را (نگاه کنید به گرهٔ ۷) پدید آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+          ],
+          "ref_check": [
+            {"ref": "POK:146", "status": "supports", "note": "POK_01.txt leaf 155, p. 146: 'Ai. bhávati \"ist, ist da, geschieht, gedeiht, wird\"' and 'ai. bhūtá-ḥ, av. būta- \"geworden, seiend\", ai. bhūtá-m \"Wesen\"'."},
+            {"ref": "SYN:1503", "status": "not_found", "note": "as at node 7: leaf 1527 of SYN.txt (= printed 1503 by the file's stated offset) falls in Buck's Law chapter, and grep for 'bhūta' across the whole file finds nothing."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 146", "stance": "supports", "note": "see ref_check."},
+            {"src": "IEC", "where": "s.v. bheuə", "stance": "supports", "note": "Mann IEC.txt line 1280: 'bheuə (bhou- bhū-) \"be\" … Skt. bhávāmi; Av. bavai(mi)'."},
+            {"src": "AHD", "where": "Watkins s.v. bheuə-", "stance": "supports", "note": "zero-grade *bhu-, *bhū- is the form underlying the Indic material."}
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Germanic",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through node standing for Proto-Germanic. The root survives in Germanic in three shapes that Pokorny sets out on p. 149: the *bheu-yō present *biju- (OE bēo 'I am'), the lengthened o-grade *bhōw- in *būaną 'to dwell, cultivate' (Goth. bauan, ON búa, OHG būan), and the zero-grade *bhū- in the nouns of dwelling *būraz (OE būr 'chamber'), *bōþlą / *buþlą (OE bold, botl 'dwelling') and *būþō (ON búð, MLG bōde 'booth'). The box carries no words, so nothing here can be wrong; the derivations are checked at node 15.",
+          "derivation_fa": "این گره خالی و نمایندهٔ ژرمنی آغازین است. ریشهٔ *bʰuH- در ژرمنی سه صورت دارد که پوکورنی در ص ۱۴۹ برمی‌شمارد: زمان حالِ *bhu-i̯ō یعنی *biju- (انگلیسی کهن bēo «هستم»)، درجهٔ کشیدهٔ *bhōw- در *būaną «سکونت گزیدن، آباد کردن» (گوتی bauan، نورس کهن búa، آلمانی علیای کهن būan)، و درجهٔ صفر *bhū- در نام‌های مسکن: *būraz (انگلیسی کهن būr «اتاق»)، *bōþlą/*buþlą (bold و botl «خانه») و *būþō (نورس کهن búð، آلمانی سفلای میانه bōde «کلبه»). چون در کادر واژه‌ای چاپ نشده، خطایی هم در آن نیست؛ ارزیابی مشتقات در گرهٔ ۱۵ آمده است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this box."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 149", "stance": "supports", "note": "'got. bauan \"wohnen, bewohnen\", ahd. būan … aisl. búð f. \"Wohnung, Zelt, Hütte\"; aschwed. bōþ, mnd. bōde, mhd. buode und būde \"Hütte, Gezelt\", nhd. Bude … ags. bold und botl n. \"Wohnung, Haus\", *byldan, engl. to build \"bauen\" … ags. bēo \"ich bin\"'."},
+            {"src": "AHD", "where": "Watkins s.v. bheuə- II–IV", "stance": "supports", "note": "'Lengthened o-grade form *bhōw- in Germanic *bōwan' and 'Zero-grade form *bhū- … Germanic *būram, dweller … Germanic *būrjam, dwelling'."}
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "English",
+          "words": "be, build, beam, booth, boom, husband, neighbor, arbor, herb, bower",
+          "verdict": "disputed",
+          "derivation": "Eight of the ten are correct and are exactly the words Watkins files under bheuə-: BE (OE bēon < *bhwiyo-), BUILD (OE bold/byldan < *bhu-tlo-), BOOTH (via ME bothe from Old Danish bōth < *bhō[u]-tā), BOOM² 'a spar' (Middle Dutch boom 'tree' < *bhou(ə)mo-), HUSBAND (ON hús-bóndi, bóndi being the participle of búa 'to dwell'), NEIGHBOR (OE gebūr 'dweller' + nēah 'near'), BOWER¹ (OE būr 'dwelling space, chamber'), and BEAM (OE bēam 'tree, beam', from the same *bhou(ə)mo-, though Pokorny prefixes 'Vielleicht' and Watkins 'Possibly'). Two are wrong. ARBOR 'a shady retreat' is from Middle English herbier, Old French herbier, Latin herbārium, from herba: Klein, 'arbor, arbour, n., a shady retreat. — fr. earlier arber, fr. ME. herbier, \"a garden of herbs\", fr. OF. herbier, fr. L. herbarium … The change of arber to arbor, arbour is due to a confusion with L. arbor \"tree\"'; the AHD index files ARBOR under koro- (via harbour), not under bheuə-. HERB is Latin herba, 'which is of uncertain origin' (Klein) and does not appear in the AHD root appendix at all. Neither belongs to Bheu.",
+          "derivation_fa": "هشت واژه از ده واژهٔ این کادر درست است و دقیقاً همان‌هایی است که واتکینز زیر bheuə- آورده: be (انگلیسی کهن bēon از *bʰwi-yo-)، build (انگلیسی کهن bold/byldan از *bʰu-tlo-)، booth (از راه دانمارکی کهن bōth از *bʰō[u]-tā)، boom۲ «تیر بادبان» (هلندی میانه boom «درخت»)، husband (نورس کهن hús-bóndi که bóndi اسم فاعل búa «سکونت گزیدن» است)، neighbor (انگلیسی کهن gebūr «ساکن» + nēah «نزدیک»)، bower (انگلیسی کهن būr «اتاق، جای زیست») و beam (انگلیسی کهن bēam «درخت، تیر»، هرچند پوکورنی با «شاید» و واتکینز با «possibly» آورده‌اند). اما دو واژه نادرست است: arbor «سایه‌بان، آلاچیق» از انگلیسی میانهٔ herbier و فرانسهٔ کهن herbier و لاتینی herbārium از herba است — کلاین می‌نویسد تبدیل arber به arbor از خلط با arbor لاتینی «درخت» پدید آمده — و در نمایهٔ AHD زیر koro- ثبت شده نه bheuə-؛ و herb نیز از herba لاتینی است که به گفتهٔ کلاین «خاستگاهش نامعلوم است» و اصلاً در پیوست ریشه‌های AHD نیامده. هیچ‌یک از این دو به ریشهٔ Bheu تعلق ندارد؛ در این دو مورد پژوهش امروزی ادعای نورایی را رد می‌کند.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt line 340 s.v. bheuə- yields BE, BOOTH, BUILD, BOODLE, BOWER¹, NEIGHBOR, BOOR, BYRE, FUTURE, PHYSIC, PHYLUM, BONDAGE/HUSBAND, and 'VI. Possibly Germanic *baumaz (and *bagmaz), tree … BEAM; … BOOM²'. The index confirms 'BEAM bheue-', 'BOOM² bheue-', 'BUILD bheue-', 'HUSBAND bheue-', 'BE bheue-', 'PHYSIC bheue-'. It also shows 'ARBOR koro-' — i.e. AHD does not put arbor under this root — and has no index line for HERB at all."},
+            {"ref": "POK:149", "status": "supports", "note": "POK_01.txt leaf 155, printed p. 149: 'got. bauan … aisl. búð f. \"Wohnung\" … mnd. bōde, mhd. buode und būde \"Hütte\", nhd. Bude … ags. bold und botl n. \"Wohnung, Haus\", *byldan, engl. to build … ahd. nāhgibūr, ags. nēahgebūr, nhd. Nachbar, engl. neighbour … ags. bēo \"ich bin\" … Vielleicht got. bagms, ahd. boum, ags. bēam \"Baum\"'. Pokorny's p. 149 covers be, build, booth, neighbor, bower, beam/boom — but not arbor or herb."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "s.v. arbor, arbour and s.v. herb", "stance": "contradicts", "note": "'arbor, arbour, n., a shady retreat. — fr. earlier arber, fr. ME. herbier, \"a garden of herbs\", fr. OF. herbier, fr. L. herbarium, of s.m., fr. herba, \"herb\"' (KLN_1971.txt line 18659) and 'herb, n. — ME. herbe, erbe, fr. OF. erbe, fr. L. herba, \"grass, herb\", which is of uncertain origin' (line 112521)."},
+            {"src": "AHD", "where": "Watkins index", "stance": "partial", "note": "'ARBOR koro-'; no HERB entry — see ref_check."},
+            {"src": "POK", "where": "p. 149", "stance": "partial", "note": "supports the eight Germanic words, silent on arbor and herb."}
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "Greek",
+          "words": "phuein : to make grow",
+          "verdict": "confirmed",
+          "derivation": "Gk. φύω phúō 'I bring forth, make grow', middle φύομαι 'I grow, become', aorist ἔφυν (= Skt. ábhūt, Lat. fuī), is the direct Greek continuation of *bʰuH-. Pokorny p. 147: 'Gr. φύω (lesb. φυίω …) \"zeuge\" (Aor. ἔφυσα), φύομαι \"werde, wachse\"'; Watkins: 'Greek phuein, to bring forth, make grow, phutos, a plant, and phusis, growth, nature'. Nourai's infinitive citation form phuein and the gloss 'to make grow' are Watkins' own wording, and the derivatives φύσις 'nature', φυτόν 'plant', φῦλον 'tribe' all belong here.",
+          "derivation_fa": "φύω یونانی «می‌رویانم، پدید می‌آورم»، در وجه میانی φύομαι «می‌رویم، می‌شوم» و ماضی ساده ἔφυν (برابر ábhūt سنسکریت و fuī لاتینی)، دنبالهٔ مستقیم *bʰuH- در یونانی است. پوکورنی در ص ۱۴۷ می‌نویسد «gr. φύω … \"zeuge\"، φύομαι \"werde, wachse\"» و واتکینز نیز «phuein، to bring forth, make grow» آورده است — یعنی صورت مصدری و معنایی که نورایی نوشته واژه‌به‌واژه از واتکینز است. مشتقات φύσις «طبیعت»، φυτόν «گیاه» و φῦλον «تیره» همگی از همین ریشه‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 340, s.v. bheuə- III.2: 'Greek phuein, to bring forth, make grow, phutos, a plant, and phusis, growth, nature: PHYSIC, PHYSIO-, PHYSIQUE, -PHYTE …'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 147", "stance": "supports", "note": "'Gr. φύω … \"zeuge\" (Aor. ἔφυσα), φύομαι \"werde, wachse\" … φυτόν \"Gewächs, Pflanze\", φύσις \"Natur\", φῦλον n. \"Stamm, Geschlecht, Art\"'."},
+            {"src": "AHD", "where": "Watkins s.v. bheuə- III.2", "stance": "supports", "note": "see ref_check."},
+            {"src": "IEC", "where": "s.v. bheuə", "stance": "supports", "note": "Mann groups the Greek forms with Skt. bhávāmi and Av. bavai(mi) under the same root."}
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "English",
+          "words": "physics",
+          "verdict": "confirmed",
+          "derivation": "From Gk. φύσις phúsis 'growth, nature' (the -sis abstract to φύω) came τὰ φυσικά ta phusiká, the title given to Aristotle's treatises on nature; Latin physica, Old French fisique 'medical science' (whence English physic 'medicine', 13th c.), and in the 1580s–1590s English physics as a plural noun after the Greek and Latin titles, its modern restriction to the science of matter and energy settling in the 17th century. Watkins files PHYSIC, PHYSIO-, PHYSIQUE and -PHYTE under bheuə- III.2 with phuein/phusis, so the arrow Greek → English is exactly AHD's.",
+          "derivation_fa": "از φύσις یونانی «رویش، طبیعت» (اسم مصدر ‑σις از φύω) عنوان τὰ φυσικά برای رساله‌های طبیعیات ارسطو ساخته شد؛ از آنجا physica لاتینی، fisique فرانسهٔ کهن به معنی «دانش پزشکی» (که physic انگلیسی در سدهٔ سیزدهم از آن آمد) و سرانجام در دههٔ ۱۵۸۰–۱۵۹۰ صورت جمع‌نمای physics در انگلیسی به پیروی از عنوان یونانی و لاتینی. محدود شدن آن به دانش ماده و انرژی در سدهٔ هفدهم قطعی شد. واتکینز واژه‌های PHYSIC و PHYSIO- و PHYSIQUE را در همان بند bheuə- در کنار phuein و phusis آورده است؛ پس پیکان «یونانی ← انگلیسی» همان چیزی است که AHD می‌گوید. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0uH-"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this box; the parent box's AHD citation covers it."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins s.v. bheuə- III.2 and index 'PHYSIC bheue-'", "stance": "supports", "note": "'phusis, growth, nature: PHYSIC, PHYSIO-, PHYSIQUE, -PHYTE, PHYTO-, PHYTON'."},
+            {"src": "POK", "where": "p. 147", "stance": "supports", "note": "'mit ū gr. φύσις' — Pokorny derives φύσις from the lengthened zero grade of the same root."}
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "Latin",
+          "words": "futurus : that is to be ; pro-bhwo : growing forward ; super-bhwo : being above ; tri-bhu : third being, the third, a section of the Roman empire",
+          "verdict": "plausible",
+          "derivation": "Three of the four are secure. Latin futūrus 'about to be' is the future participle supplied to sum from *bhu-tu-ro- (Watkins: 'Suffixed form *bhu-tu- in Latin futūrus, \"that is to be\", future'), beside fuī 'I have been' < *fū-ai and fīō 'I become' < *bhu-yō. probus 'upright, good' is *pro-bhw-o- 'growing well or straightforward' (Watkins under per¹, cross-referring to bheuə-); superbus 'proud' is *super-bhw-o- 'being above' (Watkins under uper). The fourth is doubtful: Latin tribus, the division of the Roman citizen body (three original tribes: Ramnes, Tities, Luceres), is analysed by many as *tri- + *bhu- 'three-fold being', but Etymonline, following de Vaan, calls the word 'of unknown origin' and says only that 'the first element generally is held to be tri- \"three\", and the whole to represent a PIE indication of \"tripartite division\"'; an alternative connects it with *treb- 'dwelling' (Umbrian trifu). Nourai's gloss 'a section of the Roman empire' is also loose — tribus is a division of the citizen body of the Republic, long predating the empire.",
+          "derivation_fa": "سه واژه از چهار واژه استوار است. futūrus لاتینی «آنچه خواهد بود» صفت فاعلی آیندهٔ فعل sum است از *bhu-tu-ro-، در کنار fuī «بوده‌ام» از *fū-ai و fīō «می‌شوم» از *bhu-yō. probus «راست، نیک» همان *pro-bhw-o- «نیک‌رونده» است و superbus «گردن‌فراز» همان *super-bhw-o- «بالانشین»؛ واتکینز هر دو را با ارجاع به bheuə- آورده است. اما واژهٔ چهارم مورد تردید است: tribus لاتینی، نام بخش‌های پیکرهٔ شهروندان رم (سه تیرهٔ نخستین: رامنس، تیتیس، لوکرس)، را بسیاری *tri- + *bhu- «سه‌بخشی» تحلیل کرده‌اند، ولی اتیمانلاین به پیروی از دِ فان آن را «با خاستگاه ناشناخته» می‌خواند و تنها می‌گوید «جزء نخست را عموماً tri- \"سه\" می‌دانند». تحلیل دیگری آن را با *treb- «خانه، جایگاه» (اومبریایی trifu) می‌سنجد. افزون بر این، توضیح نورایی («بخشی از امپراتوری روم») دقیق نیست: tribus بخشی از پیکرهٔ شهروندان دوران جمهوری است و سده‌ها پیش از امپراتوری وجود داشته. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/tribe"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt s.v. bheuə- V: '*du-bhw-io- … *pro-bhw-o-, \"growing well or straightforward\" (see per¹). 3. *super-bhw-o-, \"being above\", in Latin superbus' and IV.4 '*bhu-tu- in Latin futūrus'. Latin tribus, however, is NOT in the bheuə- entry, and Watkins' trei- entry (Three) lists TREY, TRIO, THIRD, TERTIUS … but no TRIBE; the index line reads 'TRIBE tere-'. So AHD supports futurus, probus and superbus but not tri-bhu."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "pp. 148–149", "stance": "partial", "note": "'Lat. fuī (alat. fūī) \"bin gewesen\" aus *fū-ai … fu-tūrus \"künftig\" … probus \"gut gedeihend, redlich\" (*pro-bhuos : ai. pra-bhū-ḥ \"hervorragend\") … lat. superbus \"hochmütig\"'. Pokorny gives futurus, probus and superbus; tribus does not appear."},
+            {"src": "AHD", "where": "Watkins s.v. bheuə- IV.4, V.2–3", "stance": "partial", "note": "see ref_check."},
+            {"src": "SYN", "where": "chapter 21 (Law), s.v. tribunal", "stance": "partial", "note": "SYN.txt leaf 1528: 'Lat. tribunal \"the raised platform on which seats of magistrates were placed\" (: tribūnus \"tribune\", orig. \"magistrate of the tribe, tribus\")' — Buck derives tribunus from tribus but offers no PIE analysis of tribus."}
+          ]
+        },
+        {
+          "id": 19,
+          "lang": "English",
+          "words": "future ; prove ; superb ; tribe, tribune, contribute",
+          "verdict": "plausible",
+          "derivation": "future: Latin futūrus → Old French futur → Middle English futur (14th c.) → future. prove: Latin probāre 'to test, judge good', denominative of probus, → Old French prover → Middle English proven; the noun proof shows the same base. superb: Latin superbus → French superbe → English superb (1540s, first 'noble, magnificent'). tribe/tribune/contribute all rest on Latin tribus: tribūnus 'officer of a tribe' → Old French tribun → tribune; contribuere 'to bring together, add to' (com- + tribuere 'to allot, pay tribute', itself denominative of tribus) → contribute; tribus → Old French tribu → English tribe (mid-13th c., first of the twelve tribes of Israel, generalised to ethnic groups by the 1590s). Every step from Latin onward is well documented; the node inherits the uncertainty of its parent, since if tribus is not *tri-bhu- then tribe, tribune and contribute do not belong to this root at all.",
+          "derivation_fa": "future: از futūrus لاتینی به futur فرانسهٔ کهن و از آنجا به انگلیسی میانه (سدهٔ چهاردهم) و سپس future. prove: از probāre لاتینی «آزمودن، نیک شمردن» — فعل ساخته‌شده از probus — به prover فرانسهٔ کهن و proven انگلیسی میانه؛ اسم proof نیز از همین ستاک است. superb: از superbus لاتینی به superbe فرانسوی و superb انگلیسی (دههٔ ۱۵۴۰، نخست به معنی «باشکوه»). tribe و tribune و contribute هر سه بر tribus لاتینی استوارند: tribūnus «کارگزار تیره» ← tribun فرانسهٔ کهن ← tribune؛ contribuere «باهم آوردن، افزودن» (com- + tribuere که خود از tribus است) ← contribute؛ و tribus ← tribu فرانسهٔ کهن ← tribe انگلیسی (میانهٔ سدهٔ سیزدهم، نخست دربارهٔ دوازده سبط بنی‌اسرائیل و از دههٔ ۱۵۹۰ برای اقوام). همهٔ گام‌ها از لاتینی به بعد مستند است؛ ولی این گره تردیدِ گرهٔ پدر را به ارث می‌برد: اگر tribus از *tri-bhu- نباشد، tribe و tribune و contribute اصلاً به این ریشه تعلق ندارند. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/tribe"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "Watkins gives FUTURE under bheuə- IV.4, PROVE under per¹ (from the compound *pro-bhw-o-) and SUPERB under uper (from *super-bhw-o-); the index lines read 'FUTURE bheue-', 'PROVE es-, PROVE per', 'SUPERB uper'. TRIBE is indexed as 'TRIBE tere-' and is absent from the bheuə- entry, so AHD does not support the tribe/tribune/contribute limb."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins index and s.v. per¹, uper", "stance": "partial", "note": "'*pro-bhw-o-, growing well or straightforward (*bhw-o-, to grow; see bheuə-), in Latin probus … PROBE, PROBITY, (PROOF), PROVE' (s.v. per¹) and '*super-bhw-o-, \"being above\" (*bhw-o-, being; see bheuə-), in Latin superbus … SUPERB' (s.v. uper)."},
+            {"src": "SKT", "where": "Concise Etym. Dict.", "stance": "silent", "note": "no entry retrievable for tribe/tribune in the local OCR that bears on the PIE analysis."},
+            {"src": "SYN", "where": "chapter 21, tribunal", "stance": "partial", "note": "'tribūnus \"tribune\", orig. \"magistrate of the tribe, tribus\"' — confirms the Latin word-family but not its root."}
+          ]
+        }
+      ]
+    }
+  ]
+}
