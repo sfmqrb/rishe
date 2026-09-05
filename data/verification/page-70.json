@@ -1,0 +1,650 @@
+{
+  "pdf_page": 70,
+  "book_page": 40,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Aueg, Aug, Uog, Ug",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₂ewg- / *h₂weg- 'to increase, grow strong', with the s-extension *h₂wég-s- (Pokorny 84-85 au̱eg-, u̱ōg-, aug-, ug- 'vermehren, zunehmen')",
+      "note": "The root box is right on all three counts. Pokorny IEW pp. 84-85 heads the article exactly as Nourai's four variants: 'au̱eg-, u̱ōg-, aug-, ug- ‚vermehren, zunehmen‘, mit s-Formans aueks-, auk-s-, ueks-, uk-s-', and the article contains, in this order, Av. ugra- 'stark', Av. aojah-/aogah- 'Kraft, Stärke', Lat. augeō/auctor/augur/augustus/auxilium, Goth. aukan and wahstus, and Av. vaxšaiti / uxšyeiti — i.e. every branch of Nourai's chart. Watkins/AHD heads the same root 'aug-¹. To increase. Oldest form *h₂eug-, coloured to *h₂aug-. Variant *h₂weg- becoming *(a)weg-', and Buck §12.53 (p. 876) opens with 'IE *aweg- (*aug-, *ug-, and with -s- extension *aweks-, etc.)'. The only refinement modern work adds is the laryngeal: the root is now written *h₂ewg-, and the variants Nourai lists as four separate 'roots' (Aueg / Aug / Uog / Ug) are the ablaut grades of one root, not independent bases. The label 'Indo-European' and the gloss 'to increase, strengthen' are both correct.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *h₂ewg- «افزودن، بالیدن، نیرومند شدن» ریشه‌ای کاملاً پذیرفته‌شده است و پوکورنی در صفحات ۸۴–۸۵ دقیقاً همان چهار گونه‌ای را که نورایی آورده (au̱eg-، u̱ōg-، aug-، ug-) سرفصل مقاله کرده است. همان مقاله همهٔ شاخه‌های نمودار را دربردارد: اوستایی ugra- «نیرومند»، aojah-/aogah- «نیرو»، لاتینی augeō و augustus، و اوستایی vaxšaiti و uxšyeiti. تنها اصلاح امروزی این است که این چهار صورت، ریشه‌های جداگانه نیستند بلکه پایه‌گردانی‌های (ablaut) یک ریشه‌اند و امروز با حنجره‌ای نوشته می‌شود. ادعای نورایی دربارهٔ خود ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ewg-",
+        "https://www.ahdictionary.com/word/indoeurop.html"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:84",
+          "status": "supports",
+          "note": "POK_01.txt, awk leaf 94 (the leaf carrying the printed page break 84|85): '^^^S-f W^g-, aug-, ug- ,vermehren, zunehmen', mit s-Formans aueks-, auk-s-, uek'S-, uk-s-.' (OCR of 'au̱eg-, u̱ōg-, aug-, ug-'); the article starts at the foot of p.84 and runs over p.85. Exactly Nourai's four variants and his gloss."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "WLD_Bd1_pages.txt, grep 'vermehren, zunehmen' — no hit (OCR of Bd. I is poor); Pokorny's own cross-reference at the end of the neighbouring article reads 'WP. I 220 f.'",
+          "stance": "silent",
+          "note": "Walde-Pokorny I 22 f. is the parallel article (cited by Mann s.v. augmn- as 'WP I, 22'); the local DLI scan of Bd. I could not be searched for it."
+        },
+        {
+          "src": "AHD",
+          "where": "online Appendix of Indo-European Roots s.v. aug-¹",
+          "stance": "supports",
+          "note": "'aug-¹. To increase. Oldest form *h2eug-, colored to *h2aug-. Variant *h2weg- becoming *(a)weg-.' — derivatives listed: wax, waist, nickname, eke, woodwaxen, auction, augend, augment, author, authorize, augur, inaugurate, August, auxiliary, auxin."
+        },
+        {
+          "src": "IEC",
+          "where": "IEC.txt lines 799, 801, 871 (Mann s.vv. augmn-, augos, aueKs-)",
+          "stance": "supports",
+          "note": "'augmn- ‘growth, height’. WP I, 22'; 'augos … ‘growth, increase’ … (Av. aogō, n. ‘help’ and Skt. ugráḥ ‘powerful’ may belong here)'; 'aueKs- (oueKs-, auKs-, ouKs-) ‘grow; growth’ … Skt. vaks-, uksami … Gk. aéxo, aüxo'."
+        },
+        {
+          "src": "SYN",
+          "where": "SYN.txt §12.53 GROW, printed p.876",
+          "stance": "supports",
+          "note": "'1. IE *aweg- (*aug-, *ug-, and with -s- extension *aweks-, etc., orig. desid. formation). Walde-P. 1.22f.' — Buck's headroot is Nourai's root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ugra; aojah, aogah",
+          "verdict": "confirmed",
+          "derivation": "Both words are attested Avestan and both are the standard Iranian representatives of this root. (a) Av. uɣra- / Gathic ugra- (Bartholomae AiW col. 380) 'strong, mighty', fem. uɣrā-, superlative aojišta-, is the zero-grade *h₂ug-ró- and matches Skt. ugrá- exactly; Pokorny 84 prints the equation 'Ai. ugrá- ‚gewaltig‘ … == av. ugra- ‚stark, kräftig‘ (Komp. Sup. aojyah-, aojišta-)'. (b) Av. aojah- / aogah- n. 'strength, might' (with the r-stem aogar- beside it) is the e-grade s-stem *h₂éwg-os-, the exact cognate of Skt. ójas- and of Lat. augustus' base; Pokorny 85: 'es-St. ai. ōjas- n. ‚Kraft, Stärke‘, av. aojah-, aogah- (ebenso r-St. aogarə) ‚Kraft, Stärke‘'. The two Avestan spellings aojah-/aogah- are the ordinary j~g graphic doublet of the Avestan script, not two different words. Nourai's glosses ('strong' / 'strength') and the language label are correct; the derivation from the root box is the standard one.",
+          "derivation_fa": "هر دو واژهٔ این گره در اوستا شاهد دارند. uɣra-/ugra- «نیرومند، زورمند» (بارتولومه، ستون ۳۸۰) از پایهٔ صفر *h₂ug-ró- ساخته شده و هم‌ریشهٔ دقیق سنسکریت ugrá- است؛ صفت برترین آن aojišta- است. aojah-/aogah- «نیرو، توان» ستاکی از نوع -as از پایهٔ پر *h₂éwg-os- است و دقیقاً برابر سنسکریت ōjas-؛ دو املای j و g تنها دوگانگی نگارشی خط اوستایی است و دو واژهٔ جدا نیست. پوکورنی در صفحات ۸۴ و ۸۵ هر دو را زیر همین ریشه می‌آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ewg-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:84,85",
+              "status": "supports",
+              "note": "POK_01.txt leaf 94: 'Ai. ugrá- … == av. ugra- ‚stark, kräftig‘ (Komp. Sup. aojyah-, aojišta-)' (p.84) and 'es-St. ai. ōjas- n. ‚Kraft, Stärke‘, av. aojah-, aogah- (ebenso r-St. aogarə) ‚Kraft, Stärke‘' (p.85). Both of Nourai's lines are on the pages he cites."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "BRT.txt line 8075, col. 379/380",
+              "stance": "supports",
+              "note": "'j. uɣra-, g. ugra- Adj. (fem. °rā-) ‚stark, kräftig‘' with the superlative aojišta-; and at line 2882 ff. 'aogar- n. ‚Kraft, Stärke‘ … Vgl. aogar; … *aojah'."
+            },
+            {
+              "src": "IEC",
+              "where": "IEC.txt line 801 s.v. augos",
+              "stance": "partial",
+              "note": "Mann notes 'Av. aogō, n. ‘help’ and Skt. ugráḥ ‘powerful’ may belong here, but seem to be contradicted by Skt. ójas: Av. aojo, -áh- ‘power’ (*ǵ or a secondary *g?)' — same family, but he flags a velar-series problem between ōjas- and aogah-."
+            },
+            {
+              "src": "AHD",
+              "where": "online Appendix s.v. aug-¹",
+              "stance": "silent",
+              "note": "Watkins' entry gives only the Latin/Germanic/Greek/Baltic branches; no Avestan forms are cited, so it neither confirms nor denies the Avestan pair."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Avestan",
+          "words": "pairi-aojastara, pari-aužah",
+          "verdict": "confirmed",
+          "derivation": "Bartholomae's Altiranisches Wörterbuch col. 862 — exactly the column Nourai cites — has the entry '*pairi.aoǰastara- Adj. ‚der siegreichere‘: °rō zī ahmāt V.4.10 FüZ.', i.e. a Younger-Avestan comparative attested once, in the Pahlavi-gloss tradition to Vīdēvdād 4.10, and Bartholomae continues 'Kompar. aus *pairi.aoǰah- Adj. ‚der die Übermacht hat‘; vgl. aiwi.aoǰah-'. The compound is pairi 'around, over' (= Skt. pári, PIE *péri, the pairi- of pairi-daēza- 'paradise') + the s-stem aoǰah- of node #1, so literally 'having strength all around, superior in strength' > 'victorious'; the comparative suffix -tara- gives 'more victorious'. Nourai's second line 'pari-aužah' is Bartholomae's own reconstructed Iranian preform, printed in the same column as 'aus ir. *pari-auǰə'. The asterisks are Bartholomae's: the simplex *pairi.aoǰah- is not itself attested and the comparative rests on a restored reading; Nourai prints both without asterisk, which slightly overstates their attestation, but the forms and the gloss 'all strong, victorious' are Bartholomae's.",
+          "derivation_fa": "بارتولومه در فرهنگ ایرانی باستان، همان ستون ۸۶۲ که نورایی یاد کرده، مدخل *pairi.aoǰastara- «پیروزتر» را می‌آورد و آن را صفت برتر از *pairi.aoǰah- «آن که زور برتر دارد» می‌داند. این مرکب از پیشوند pairi «پیرامون، از هر سو» (همان پیشوند pairi-daēza- = پردیس) و ستاک aoǰah- «نیرو» ساخته شده است، یعنی «همه‌سو نیرومند» و از آنجا «پیروز». گونهٔ دومی که نورایی آورده (pari-aužah) همان صورت بازساختهٔ ایرانی *pari-auǰah- است. تنها نکته آن است که هر دو صورت در اصل ستاره‌دارند و نورایی ستاره را حذف کرده است؛ در مجموع ادعای او درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%F0%90%AD%AF%F0%90%AD%A9%F0%90%AD%AB%F0%90%AD%A5%F0%90%AD%B0"
+          ],
+          "ref_check": [
+            {
+              "ref": "BRT:862",
+              "status": "supports",
+              "note": "BRT.txt lines 15547-15556 (the column number '862' is printed at line 15547): 'j. *pairi.aoǰas‘tara- Adj. ‚der siegreichere‘: °rō zī ahmāt V.4.10 FüZ. Kompar. aus *pairi.aoǰah- Adj. ‚der die Übermacht hat‘; vgl. aiwi.aoǰah-'. Exactly Nourai's node."
+            },
+            {
+              "ref": "HUB:45",
+              "status": "partial",
+              "note": "HUB.txt awk leaf 56 (printed '— 45 —'), no. 354: Hübschmann only REJECTS the rival etymology ('Np. pērōz ‚Victor, felix, faustus‘ kann nicht = zd. *paiti-raočah- gesetzt werden'); he does not himself state the pairi-aoǰah- derivation on that page. Supports the note attached to node #3, not this node's positive claim."
+            },
+            {
+              "ref": "NYB:160",
+              "status": "supports",
+              "note": "NYB_vol2_glossary.txt, running head 'payam- 160 pērōz-kar': 'pērōz [pylwc‘] victorious, victor … SW development < *pari-auǰah-, v. ōž; M Prs pyrwz; MPrth prywž … Paz. perōž, NP pērōz.' Nourai's page is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 862",
+              "stance": "supports",
+              "note": "see ref_check; Bartholomae also adds there '— np. usw. pērōz ‚siegreich‘ (aus ir. *pari-auǰə …)'."
+            },
+            {
+              "src": "NYB",
+              "where": "A Manual of Pahlavi II p.160 s.v. pērōz",
+              "stance": "supports",
+              "note": "'SW development < *pari-auǰah-' — Nyberg reconstructs precisely Nourai's second form."
+            },
+            {
+              "src": "SNS",
+              "where": "SNS_pages.txt leaf 89 (printed page number OCR'd as 'Iff' = ۱۴۴) s.v. pērōz",
+              "stance": "supports",
+              "note": "Tavoosi's glossary prints 'pērōz … az pairi.aoǰastara-: … aoǰah- (AiWb. 862)' — the same two forms and the same Bartholomae column Nourai cites."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "pîrŭz «پیروز» (extra: فیروز)",
+          "verdict": "confirmed",
+          "derivation": "NP پیروز pīrūz 'victorious' continues Middle Persian pērōz <pylwc'>, attested from the 3rd c. CE onward (the Sasanian king Pērōz I, r. 459-484; Armenian Peroz, Syriac Pērōz, Greek Περώζης, Latin piroses in Ammianus XIX.2.11). MP ē regularly raises to NP ī and MP ō to NP ū, whence pērōz > pīrūz. The Old Iranian preform is *pari-auǰah- 'having superior strength' (node #2): *pari-auǰah > *parīuǰ > pērōz, with contraction of -ari-au- to ērō. Wiktionary (following Nyberg, Gignoux and Martirosyan) routes it through Parthian prgwz /Paryōž/, i.e. it treats MP pērōz as a north-western form taken into Persian, whereas Nyberg calls it an 'SW development' — a difference about the dialect of transmission, not about the etymon. The variant فیروز fīrūz that Nourai puts in the extra-script slot is the Arabised shape of the same word (Arabic has no p; Horn no. 354 lists 'arab. LW. fīrūz'), which returned into Persian as a doublet and also supplied فیروزه fīrūza 'turquoise'. The chart's NOTE is correct in substance: Horn p.78 did derive pērōz from Av. *paiti.raočah- 'toward light', and Hübschmann p.45 rejected it because Middle Persian and all the early foreign renderings show pēr-, never *patrōč-; modern scholarship sides with Hübschmann and Bartholomae.",
+          "derivation_fa": "«پیروز» دنبالهٔ فارسی میانهٔ pērōz است که از سدهٔ سوم میلادی به بعد شاهد دارد (نام پیروز ساسانی؛ ارمنی Peroz، سریانی Pērōz، یونانی Περώζης، لاتینی piroses نزد آمیانوس). ای کشیدهٔ فارسی میانه در فارسی نو به ی و او کشیده به و بدل شده است؛ صورت ایرانی باستان *pari-auǰah- «دارای زور برتر» است که با هم‌آمیختن -ari-au- به ـــērō رسیده است. ویکی‌واژه (به پیروی نیبرگ و گینیو) راه وام‌گیری را پارتی prgwz می‌داند و نیبرگ تحولی جنوب غربی؛ این اختلاف در راه انتقال است نه در ریشه. «فیروز» معرّب همین واژه است (عربی پ ندارد) که دوباره به فارسی بازگشته و دوگانه ساخته است (و فیروزه از همان است). دربارهٔ یادداشت نمودار: هرن در ص ۷۸ پیروز را از *paiti.raočah- «رو به روشنایی» گرفته بود و هوبشمان در ص ۴۵ آن را رد کرد؛ پژوهش امروزی نیز جانب هوبشمان و بارتولومه را گرفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%D8%B1%D9%88%D8%B2",
+            "https://en.wiktionary.org/wiki/%F0%90%AD%AF%F0%90%AD%A9%F0%90%AD%AB%F0%90%AD%A5%F0%90%AD%B0"
+          ],
+          "ref_check": [
+            {
+              "ref": "BRT:862",
+              "status": "supports",
+              "note": "BRT.txt line 15553: after *pairi.aoǰastara- Bartholomae writes '— np. usw. pērōz ‚siegreich‘ (aus ir. *pari-auǰə, s. … IFAnz. 10.28; falsch WZKM 9 p.290)'. The arrow Avestan → Persian is Bartholomae's own."
+            },
+            {
+              "ref": "SNS:144",
+              "status": "supports",
+              "note": "SNS_pages.txt leaf 89 (the printed folio number is OCR'd 'Iff' = ۱۴۴): 'pērōz … [az] pairi.aoǰastara-: … aoǰah- (AiWb. 862)', followed by pērōzgar, pērōzgartar, pērōzgartum — exactly Nourai's chain and his Bartholomae column."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "HRN.txt awk leaf 100, printed p.78, no. 354",
+              "stance": "contradicts",
+              "note": "'pērōz, arab. LW. fīrūz ‚siegreich‘; pērōze ‚Türkis‘, arab. LW. fīrōze, fairūzaj. aw. *paiti.raočah-; phlv. pērōd, pērōdkar, pāz. pērōč.' Horn's etymon is the rejected one — exactly as the chart's NOTE reports; but note Horn also documents fīrūz as the Arabic loan-shape, which supports Nourai's extra script فیروز."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt awk leaf 56, printed p.45, no. 354",
+              "stance": "supports",
+              "note": "'Np. pērōz ‚Victor, felix, faustus‘ kann nicht = zd. *paiti-raočah- gesetzt werden, da schon das Pehlevi durchweg pērōč (nicht patrōč), resp. pērōz hat in Übereinstimmung mit arm. Peroz, syr. Pērōz, gr. Περώζης, lat. piroses (Ammian).' Hübschmann's rejection of Horn is verbatim what the chart's NOTE claims."
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt p.160",
+              "stance": "supports",
+              "note": "'pērōz [pylwc‘] victorious, victor … < *pari-auǰah- … Paz. perōž, NP pērōz' — the Middle Persian link Nourai's chart leaves implicit."
+            },
+            {
+              "src": "PHD",
+              "where": "PHD.txt, grep 'pērōz'",
+              "stance": "silent",
+              "note": "MacKenzie's Concise Pahlavi Dictionary gives pērōz only as a lexeme without etymology; no counter-evidence."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Avestan",
+          "words": "vaxšaiti, uxšyeiti; vaxš 2, uxs",
+          "verdict": "confirmed",
+          "derivation": "This is the s-extended branch of the root, *h₂wég-s-. Pokorny 85 sets it out word for word: 'dazu mit s im Verbum: ai. vákṣaṇa-m ‚Stärkung‘, vakṣáyati ‚läßt wachsen‘, av. vaxšaiti ‚läßt wachsen‘, woneben mit schwächster Wzstufe ai. ükṣati ‚erstarkt‘, av. uxšyeiti ‚wächst‘'. So vaxšaiti is the full-grade (originally causative *woḱs-eye-, 'makes grow') and uxšyeiti the zero-grade -ya- present ('grows'); Nourai's single gloss 'grows, strengthens, increases' covers both but blurs the causative/intransitive split that Pokorny and Buck draw. The nominal line 'vaxš 2, uxs : growth' is the bare verbal stem used as a noun-root (Av. vaxš-, MP waxš 'growth'); Nourai's '2' is his own homonym number, distinguishing it from the unrelated Iranian waxš 'word, spirit'. Same Germanic equation: Goth. wahsjan = Skt. vakṣáyati.",
+          "derivation_fa": "این گره شاخهٔ sدار ریشه (*h₂wég-s-) است. پوکورنی در ص ۸۵ تصریح می‌کند: «اوستایی vaxšaiti ‚می‌رویاند‘، در برابر آن با پایهٔ ضعیف uxšyeiti ‚می‌روید‘»، برابر سنسکریت vakṣáyati و ükṣati. پس vaxšaiti در اصل سببی («رویاندن») و uxšyeiti لازم («روییدن») است و معنای یکدستی که نورایی داده این تمایز را پوشانده است. دو صورت اسمی vaxš و uxs همان ستاک فعلی در کاربرد اسمی است؛ عدد ۲ در «vaxš 2» شمارهٔ هم‌نگارهٔ خود نورایی است تا از وخش «سخن، روان» جدا شود. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ewg-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:84,85",
+              "status": "supports",
+              "note": "POK_01.txt leaf 94, p.85: 'ai. vákṣaṇa-m ‚Stärkung‘, vakṣáyati ‚läßt wachsen‘, av. vaxšaiti ‚läßt wachsen‘, woneben mit schwächster Wzstufe ai. ükṣati ‚erstarkt‘, av. uxšyeiti ‚wächst‘'."
+            },
+            {
+              "ref": "SYN:876",
+              "status": "supports",
+              "note": "SYN.txt §12.53 GROW, printed p.876: '… Skt. ukṣ-, Av. uxṣ- (3sg. pres. uxšyeiti)', under headroot 'IE *aweg-'. Buck's Avestan column for 'grow' reads 'Av. varəd-, rud-, uxš-'."
+            },
+            {
+              "ref": "SOD:30",
+              "status": "supports",
+              "note": "SOD_pages.txt awk leaf 96 = printed p.30, entry 779: the Sogdian verb is glossed and etymologised '← Av. vaxš-', so Gharib p.30 does cite the Avestan verb Nourai puts here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "BRT.txt, s.vv. vaxš- / hu.vaxša-",
+              "stance": "supports",
+              "note": "Bartholomae has 'j. hu.vaxša- n. ‚gutes Wachstum, Gedeihen‘' (col. 1836) built on the same verbal stem vaxš-."
+            },
+            {
+              "src": "IEC",
+              "where": "IEC.txt line 871 s.v. aueKs-",
+              "stance": "supports",
+              "note": "'aueKs- (oueKs-, auKs-, ouKs-) ‘grow; growth’. Cf. aug- … Skt. vaks-, uksami, pf. vavákṣa; Oss. as, asä ‘growth’; Gk. aéxo, aüxo' — Mann's headword is Nourai's s-extended branch."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_latin_index_pages.txt [pdf page 518], entry وخش / وخشیدن",
+              "stance": "supports",
+              "note": "Aryanpur's entry gathers 'UKHSHYEITI (AVESTAN), VAKHSHAITI, UXSH-, UXSHYEITI, WAXSHIDAN, WAXSH- (PAHLAVI), WAHSJAN (GOTHIC), WEAXAN (OLD ENGLISH), AUGERE, AUGEO (LATIN)' and cites 'BUCK: (GROW) 876, 877' — the same Buck pages Nourai cites."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Avestan",
+          "words": "vana-vaxša",
+          "verdict": "disputed",
+          "derivation": "Av. *vana-vaxša- 'grown in the woods' is NOT an attested Avestan word: it is a conjecture of Friedrich Müller (WZKM 7, 368, 1893) made to explain Pahlavi wanafšag, and Nourai prints it without the asterisk that its status requires. Bartholomae's Altiranisches Wörterbuch, which does have vana- f. 'Baum' (col. ~1345, 'j. vana- f. ‚Baum‘: yaθa mašyayā °nā kasyanhqm vanqm … V.5.24'), has no such compound and no entry approaching it. Hübschmann, Persische Studien no. 231, quotes Müller's proposal and dismisses it in four words: 'Mir nicht wahrscheinlich' ('not probable to me'). Modern lexicography follows Hübschmann: Wiktionary marks Middle Persian wanafšag 'of uncertain origin' and offers no Avestan etymon, and the formal difficulty is plain — a compound *vana-vaxša- would give MP *wanawaxš(ag) or *wanwaxš, not wanafšag with -f-, and the -šag/-saj shape of the word (Arabic banafsaj, Armenian manušak, Syriac) points to a Wanderwort of the eastern-Iranian/Near-Eastern plant-name type rather than to a transparent Avestan compound. The gloss 'pansy, violet' also belongs to the Persian word, not to the reconstructed Avestan one.",
+          "derivation_fa": "صورت *vana-vaxša- «روییده در جنگل» در اوستا هیچ شاهدی ندارد و بازساختهٔ فریدریش مولر (۱۸۹۳) است؛ نورایی ستارهٔ بازساخت را حذف کرده و آن را چون واژه‌ای مضبوط آورده است. بارتولومه هرچند vana- «درخت» را دارد، چنین مرکبی ندارد، و هوبشمان در مطالعات فارسی، شمارهٔ ۲۳۱، آن را با جملهٔ «به نظر من محتمل نیست» رد کرده است. امروز نیز ویکی‌واژه خاستگاه wanafšag را «نامعلوم» می‌داند؛ افزون بر این، از *vana-vaxša- باید در فارسی میانه *wanawaxšag می‌آمد نه wanafšag با ف، و صورت‌های عربی بنفسج و ارمنی manušak بیشتر به یک واژهٔ گیاهی دوره‌گرد می‌ماند تا مرکبی روشن و اوستایی. پژوهش امروزی این بند از نمودار را نمی‌پذیرد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%81%D8%B4%D9%87",
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%81%D8%B3%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "AEF:291",
+              "status": "not_checked",
+              "note": "AEF = Khaleqi Motlaq's Persian version of Horn/Hübschmann, 'Asas-e Eshteqaq-e Farsi' vol. I; refs_online.json records it as not online, and no copy is on disk. Indirect corroboration that the page number is right: Mo'in's own footnote to بنفشه in Borhan-e Qate' cites 'اسفا ۱: ص ۲۹۱' (OCR 'اسفا۷:۱ص۲4'), i.e. exactly AEF p.291 — Nourai took the citation from there. The German original (HRN no. 231) gives only the forms, no etymology."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "BRT.txt, grep 'vana-vax|vana.vax' — no hit; the nearest headword is line 22633 'j. vana- f. ‚Baum‘'",
+              "stance": "contradicts",
+              "note": "Bartholomae, who collects every Avestan compound, has no *vana-vaxša-; the compound is therefore unattested, not merely rare."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt line 1029, printed p.31, no. 231",
+              "stance": "contradicts",
+              "note": "'Np. bunafšə ‚Veilchen‘ = phl. vanavšak (für vanafšak) nach Fr. Müller WZKM. 7, 368 = zd. *vanavaxša- (also = ‚im Walde wachsend‘). Mir nicht wahrscheinlich.'"
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt printed p.~47, no. 231",
+              "stance": "silent",
+              "note": "'benefše ‚Veilchen‘, bunefse, binefse; bunefs ‚blau‘ … phlv. vanawsak, vanawsa ‚Veilchen‘ (Bund.); ar. LW. banafsaj, syr. LW. …, arm. LW. manušak.' Horn lists the forms and the loans but proposes NO Avestan etymology — he does not support the arrow."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Pahlavi",
+          "words": "vana-vašak",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi word itself is real and well attested: MacKenzie, Concise Pahlavi Dictionary p.91, 'wanafšag [wnpšk‘ | N bunafša] violet'. What is disputed is the analysis that the chart draws — the arrow from a supposed Avestan *vana-vaxša-. Nourai's spelling 'vana-vašak' is Hübschmann's transcription vanavšak of the Pahlavi <wnpšk'>, hyphenated so as to display Müller's segmentation vana + vašak; but Hübschmann himself adds '(für vanafšak)', i.e. the manuscript spelling with <p> is to be read f, and the standard modern reading is wanafšag. The book's own NOTE, 'HUB:33 doubts this derivation', is materially accurate (the doubt is real, though it stands at Hübschmann p.31, no. 231, not p.33), and modern scholarship has come down on Hübschmann's side: Wiktionary's Middle Persian entry gives wanafšag as 'of uncertain origin', citing MacKenzie 1971 and Steingass and offering no Iranian compound. Verdict: the node's word is right, its parentage is not established.",
+          "derivation_fa": "خود واژهٔ فارسی میانه اصیل است: مکنزی در ص ۹۱ می‌آورد «wanafšag [wnpšk‘] بنفشه». آنچه محل اختلاف است پیوند آن با *vana-vaxša- اوستایی است. ضبط «vana-vašak» در کتاب، همان خوانش vanavšak هوبشمان است که برای نمایش تجزیهٔ مولر دونیم شده؛ خود هوبشمان می‌افزاید «به جای vanafšak»، یعنی خوانش درست همان wanafšag است. یادداشت نمودار («هوبشمان در ص ۳۳ در این اشتقاق تردید دارد») درست است، جز آنکه این تردید در ص ۳۱ (شمارهٔ ۲۳۱) آمده نه ص ۳۳. پژوهش امروزی جانب هوبشمان را گرفته و خاستگاه این واژه را نامعلوم می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%81%D8%B4%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "AEF:291",
+              "status": "not_checked",
+              "note": "Same as node #5: Khaleqi Motlaq's Asas-e Eshteqaq-e Farsi is not digitised. Mo'in's footnote to بنفشه in BQT independently cites اسفا ۱: ص ۲۹۱, so the page reference itself is almost certainly correct."
+            },
+            {
+              "ref": "HUB:33",
+              "status": "supports",
+              "note": "The doubt Nourai reports is verbatim in Hübschmann, Persische Studien no. 231 — 'Mir nicht wahrscheinlich' — but it stands on printed p.31, not p.33 (HUB.txt awk leaf 42; HUB's own index at line 10310 reads 'banafsa 31.'; p.33 = awk leaf 44 carries nos. 245-253, nothing about the violet). Substance supported, page off by two."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "PHD.txt awk leaf 113 ≈ printed p.91",
+              "stance": "partial",
+              "note": "'wanafšag [wnpšk‘ | N bunafša] violet' — MacKenzie confirms the word and the Persian descendant but gives no Avestan source and no compound analysis."
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt, grep 'wanafs|vanafs' — no hit",
+              "stance": "silent",
+              "note": "The plant name does not occur in Nyberg's glossary to the Manual of Pahlavi texts."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB p.31 no. 231",
+              "stance": "contradicts",
+              "note": "Hübschmann accepts the Pahlavi form vanavšak/vanafšak as the source of NP banafše but rejects Müller's Avestan compound."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN no. 231",
+              "stance": "partial",
+              "note": "'phlv. vanawsak, vanawsa ‚Veilchen‘ (Bund.)' — Horn documents the Pahlavi word (from the Bundahišn) without deriving it."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "banafšeh «بنفشه»; banafš «بنفش»",
+          "verdict": "confirmed",
+          "derivation": "This last link of the chain is solid whatever the ultimate origin of the Pahlavi word. NP بنفشه banafše continues MP wanafšag: initial w- regularly becomes b- in New Persian (as in wād > bād, warg > barg), and the MP diminutive/adjectival suffix -ag gives NP -a/-e; MacKenzie's dictionary states the correspondence outright, 'wanafšag … | N bunafša'. Horn no. 231 records the dialect spread that proves the age of the word — benefše / bunefše / binefše, Māzandarānī venewše, and the loans Arabic بنفسج banafsaj, Syriac, Armenian manušak — and Mo'in's footnote in Borhan-e Qate' adds Tabarī vanavša, modern Māzandarānī venevše and Gīlēkī banaūšə, with the botanical identification Viola odorata / Viola tricolor. Mo'in's own dictionary tags the word simply '[په.]', i.e. Pahlavi. The second word, بنفش banafš 'violet(-coloured), dark', is the back-formed colour adjective from the flower name, well attested in the Shahnameh; the couplet Nourai prints under Ferdowsī — 'جهان شد ز گرد سواران بنفش / درخشان سنان و درفشان درفش' — is genuine and is quoted s.v. درفشان in Nushin's Shahnameh glossary. The Arabic بنفسج is a loan FROM Iranian, not the other way round (Wiktionary: 'From Middle Iranian; … compare Middle Persian wnpšk‘').",
+          "derivation_fa": "این حلقهٔ پایانی زنجیره، هر چه خاستگاه نهایی واژه باشد، استوار است. «بنفشه» از فارسی میانهٔ wanafšag آمده است: و اول در فارسی نو قاعده‌مند به ب بدل می‌شود (مانند wād > باد و warg > برگ) و پسوند -ag به ــه بدل می‌گردد؛ مکنزی همین تناظر را صریح آورده است. هرن گونه‌های بنفشه/بنفسه/بنفشه و مازندرانی venewše را برمی‌شمارد و معین در حاشیهٔ برهان قاطع طبری vanavša و گیلکی banaūšə را می‌افزاید؛ در فرهنگ معین نیز واژه با نشانهٔ [په.] آمده است. «بنفش» صفت رنگی برساخته از نام گل است و بیت فردوسی که نورایی آورده در واژه‌نامک نوشین ذیل «درفشان» عیناً نقل شده است. عربی بنفسج معرّب همین واژهٔ ایرانی است نه برعکس. ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%81%D8%B4%D9%87",
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%81%D8%B3%D8%AC",
+            "https://abadis.ir/fatofa/%D8%A8%D9%86%D9%81%D8%B4%D9%87/"
+          ],
+          "ref_check": [
+            {
+              "ref": "AEF:291",
+              "status": "not_checked",
+              "note": "Not digitised; but Mo'in's footnote on the very Borhan page Nourai cites refers to 'اسفا ۱: ص ۲۹۱', confirming that AEF p.291 is indeed the entry بنفشه."
+            },
+            {
+              "ref": "BQT:308",
+              "status": "supports",
+              "note": "BQT_v1_pages.txt line 21100 ff. (awk leaf 529; the same page carries the cross-references ص ۳۰۵ / ۳۰۷ / ۳۰۹, so the printed page is 308): 'بنفشه … گلی باشد معروف و طبیعت آن سرد و تر است در دوم و سوم؛ و معرّب آن بنفسج باشد' with Mo'in's footnote '۱ – پهلوی vanafšak … طبری vanavša، مازندرانی کنونی venevše … گیلکی banaūšə … بنفشه Violettes … بنفشهٔ معطر Viola odorata'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "PHD.txt ≈ p.91 s.v. wanafšag",
+              "stance": "supports",
+              "note": "'wanafšag [wnpšk‘ | N bunafša] violet' — MacKenzie himself equates the Pahlavi and the New Persian word."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt printed p.~47, no. 231",
+              "stance": "supports",
+              "note": "'benefše ‚Veilchen‘, bunefse, binefse; bunefs ‚blau‘ (Šahn. I, 48 Vers 265, 107 Vers 839); māz. venewse; phlv. vanawsak' — Horn documents BOTH of Nourai's words, including the adjective banafš 'blue/dark' with Shahnameh line references."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' ed. Mo'in, p.308, s.v. بنفشه (and بنفش on the same page, 'رنگ کبود مانند رنگ بنفشه')",
+              "stance": "supports",
+              "note": "See ref_check; the entry also gives معرّب آن بنفسج, i.e. Arabic banafsaj is the Arabised form of the Persian word, as Wiktionary now says."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in via abadis.ir s.v. بنفشه",
+              "stance": "supports",
+              "note": "Mo'in's entry is tagged '(بَ نَ ش ِ ) [ په . ]' — origin Pahlavi, exactly the parentage of this node."
+            },
+            {
+              "src": "FSF",
+              "where": "FSF_pages.txt line 11556-11559, s.v. درفشان",
+              "stance": "supports",
+              "note": "Nushin's Vazhe-namak quotes the identical couplet 'جهان شد زگرد سواران بنفش / درخشان سنان و درفشان درفش' — Nourai's Ferdowsī citation is genuine."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt, grep 'بنفشه' — no hit",
+              "stance": "silent",
+              "note": "Aryanpur's Indo-European root dictionary has no entry for the violet, consistent with the word not having a secure IE etymology."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Old Persian",
+          "words": "vaxš; u-vaxštra",
+          "verdict": "confirmed",
+          "derivation": "Kent, Old Persian, Lexicon p.177 — exactly Nourai's page — reads: 'Uvaxštra- sb. ‘Cyaxares’, former King of Media: Elam. ma-ak-šš-tar-ra, Akk. ú-ma-ku-iš-tar, Gk. Κυαξάρης. From u- ‘good’ + vaxštra- ‘growth’ …, to vaxš-, Av. vaxš-, Skt. vakṣ-, Gm. wachsen, N Eng. wax: ‘Having good growth’. So Bthl. AiW 1836; but Hz. ApI 209 interprets ‘having good oversight’.' Bartholomae, AiW col. 1836, has the same: 'p. *u.vaxštra- m. EN. eines medischen Königs, Κυαξάρης … Eig. ‚von gutem Wuchs‘; *vaxštra- n.' The name occurs four times in the Behistun inscription (DB 2.15f, 2.81; 4.19, 22) in the phrase Uvaxštrahyā taumāyā 'of the family of Cyaxares', used by the pretenders Phraortes and Cicantakhma. Two caveats Nourai does not flag: (a) the verb vaxš- itself is NOT independently attested in Old Persian — Kent abstracts it from the name and from Avestan; (b) the name is Median, not Persian proper: Kent §679 explains that 'ṭr after spirants … appears unchanged in Avestan. This seems to have been the development also in Median, as in the name of the Mede Uvaxštra-', whereas true Old Persian would have given -ç-. So the box's label 'Old Persian' means 'Old Persian inscriptional form of a Median name'. Nourai's 'u-vaxštra' is Kent's and Bartholomae's segmentation, and 'well grown (a male name)' is their gloss.",
+          "derivation_fa": "کنت در فرهنگ پارسی باستان، ص ۱۷۷ — همان صفحه‌ای که نورایی یاد کرده — می‌نویسد: «Uvaxštra- ، هخشتره، پادشاه ماد؛ از u- ‚نیک‘ و vaxštra- ‚بالش، رویش‘ از ریشهٔ vaxš- ، اوستایی vaxš-، سنسکریت vakṣ-، آلمانی wachsen؛ یعنی ‚نیک‌بالیده‘»، و به بارتولومه (ستون ۱۸۳۶) ارجاع می‌دهد که همان را «از رویش نکو» معنی کرده است. این نام چهار بار در سنگ‌نبشتهٔ بیستون در عبارت Uvaxštrahyā taumāyā «از تخمهٔ هوخشتر» آمده است. دو نکته را نورایی نگفته است: نخست آنکه خود فعل vaxš- در پارسی باستان شاهد مستقل ندارد و از همین نام بازسازی شده؛ دوم آنکه صورت نام مادی است نه پارسی باستانی اصیل، زیرا -tr- پس از سایشی در پارسی باستان باید به ــç می‌رسید (کنت §۶۷۹). با این دو قید، ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Cyaxares"
+          ],
+          "ref_check": [
+            {
+              "ref": "KNT:177",
+              "status": "supports",
+              "note": "KNT.txt awk leaf 200 — the leaf on which the printed page number '177' appears — line 5205: 'Uvaxštra- sb. ‘Cyaxares’ … From u- ‘good’ + vaxštra- ‘growth’ (§9.II, §79, §148.II), to vaxš-, Av. vaxš-, Skt. vakṣ-, Gm. wachsen, N Eng. wax (§102): ‘Having good growth’ … So Bthl. AiW 1836.' Both of Nourai's words are on the page he cites."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "BRT.txt line ~30476, col. 1836",
+              "stance": "supports",
+              "note": "'p. *u.vaxštra- m. EN. eines medischen Königs, Κυαξάρης … Eig. ‚von gutem Wuchs‘; *vaxštra- n.' — and immediately above it 'j. hu.vaxša- n. ‚gutes Wachstum, Gedeihen‘', the Avestan doublet of the same compound."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent §679 (KNT.txt line 1103)",
+              "stance": "partial",
+              "note": "'… the name of the Mede Uvaxštra- ‘Cyaxares’, Elam. ma-ak-iš-ta-ra …' — Kent classes the form as Median, so 'Old Persian' is the language of the inscription rather than of the name."
+            },
+            {
+              "src": "TLM",
+              "where": "TLM.txt (Tolman, Ancient Persian Lexicon)",
+              "stance": "silent",
+              "note": "Kent cites 'Tm. Lex. 78' for the name; the local OCR of Tolman was not searchable for the entry."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "Hovaxšatar «هوخشتر»",
+          "verdict": "plausible",
+          "derivation": "هوخشتر / هووخشتره is the modern Persian rendering of Old Persian/Median Uvaxštra-, the Cyaxares of the Greeks (r. c. 625-585 BCE), the Median king who with Nabopolassar destroyed Nineveh in 612. The important qualification, which the chart's arrow hides, is that this is not an inherited New Persian word: there is no continuous Middle Persian transmission of the name, and هوخشتره is a scholarly re-Persianisation coined in the 19th-20th century directly from the cuneiform form, in the same class as داریوش ‹ Dārayava(h)uš and خشایارشا ‹ Xšayāršā. Nourai's transliteration 'Hovaxšatar' also inserts a vowel that neither the cuneiform nor the usual Persian spelling has (Uvaxštra / هووخشتره Huvaxštra), and his gloss 'king of Media' is a definition of the referent, not of the name, which means 'of good growth'. A further caution: popular sources (e.g. Wikipedia) gloss the name 'good ruler', analysing it as u- + xšaθra- 'rule'; Bartholomae and Kent reject that, since 'good rule' would be *Huxšaθra-, and Justi already noted the variant readings *xšaθarə/*xšāra- (NB 140). Kent records Herzfeld's third proposal, 'having good oversight'.",
+          "derivation_fa": "«هوخشتر / هووخشتره» صورت فارسی امروزی نام پارسی باستان/مادی Uvaxštra- ، همان کیاکسارِ یونانیان، پادشاه ماد است که در ۶۱۲ پیش از میلاد نینوا را برانداخت. نکتهٔ مهمی که پیکان نمودار پنهان می‌کند این است که این واژه میراثی نیست و از راه فارسی میانه به فارسی نو نرسیده؛ بلکه در دورهٔ جدید مستقیماً از صورت میخی بازساخته شده است، همانی‌گونه که «داریوش» و «خشایارشا». ضبط نورایی (Hovaxšatar) واکه‌ای افزوده دارد که نه در خط میخی هست و نه در املای رایج فارسی؛ و معنای «پادشاه ماد» تعریف مصداق است نه معنای واژه که «نیک‌بالیده» است. افزون بر این، معنای رایج عامیانهٔ «فرمانروای نیک» (از خشثره) را بارتولومه و کنت نمی‌پذیرند. با این قیدها، ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Cyaxares"
+          ],
+          "ref_check": [
+            {
+              "ref": "KNT:177",
+              "status": "partial",
+              "note": "Kent p.177 gives the Old Persian name and its analysis and the Greek Κυαξάρης, and lists the attestations Uvaxštrahyā DB 4.19, 22; but he says nothing about a New Persian continuation — the 'Persian' box is Nourai's own addition, not Kent's."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 1836",
+              "stance": "partial",
+              "note": "Bartholomae gives the name and the meaning 'von gutem Wuchs' and cites Justi NB 140 for the rival readings *xšaθarə-/*xšāra-; no New Persian form."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in vol. 5 (a'lām) via vajehyab/abadis — not retrievable for this headword",
+              "stance": "silent",
+              "note": "The proper-name volumes of Mo'in are not in the online text, so the modern Persian spelling could not be checked there; Persian Wikipedia and the Encyclopaedia Iranica article 'Cyaxares' (403 for automated fetch) use هووخشتره."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Sogdian",
+          "words": "`xwš`y",
+          "verdict": "plausible",
+          "derivation": "Gharib's Sogdian Dictionary, entry 779 on printed p.30 — exactly Nourai's SOD:30 — reads 'ʾγwšʾy- B, S … (ə)xwašāy (γwšy-) ← Av. vaxš- ⇒ xwš- : (to) grow, (to) increase', with references to TSP 2.358, 359, 778, 886, 905; Frag. Len. 90,6; GMS 428. So the word, the meaning and the derivation from Av. vaxš- are all Gharib's own, and Nourai has simply copied her entry. One discrepancy: Gharib's transliteration of the Buddhist-Sogdian spelling is ʾγwšʾy- with γ (the letter that in this position writes /x/ after the prothetic aleph), while Nourai prints `xwš`y with x, i.e. he has replaced the graphic γ by the phonetic value. The printed page of Nourai (PDF p.70) shows `xwš`y, so the extraction is faithful and the normalisation is the author's, not the scanner's. Phonologically the form is the Sogdian outcome of Old Iranian *waxšaya- with the regular prothetic ə- that Sogdian prefixes to initial consonant clusters and with -šy- → -šāy-.",
+          "derivation_fa": "فرهنگ سغدی بدرالزمان قریب، مدخل ۷۷۹ در ص ۳۰ — دقیقاً همان ارجاع نورایی — می‌آورد: «ʾγwšʾy-، (ə)xwašāy ، از اوستایی vaxš- ، به معنای روییدن و افزودن». پس هم واژه و هم معنا و هم اشتقاق از خود قریب است. تنها تفاوت در آوانگاری است: قریب صورت نوشتاری را با γ می‌نویسد و نورایی به جای آن x آورده است؛ از روی تصویر صفحهٔ چاپی پیداست که خود کتاب `xwš`y چاپ کرده و خطای خوانش اسکن در کار نیست. از نظر آوایی، این صورت حاصل ایرانی باستان *waxšaya- با واکهٔ آغازین افزوده (ə-) است که در سغدی پیش از خوشهٔ همخوان آغازین می‌آید. ادعای نورایی با این قید صوری پذیرفتنی است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "SOD:30",
+              "status": "supports",
+              "note": "SOD_pages.txt awk leaf 96 (0-based leaf 95; printed page ≈ leaf − 66 = 30), entry 779: 'ʾγwšʾy- B, S … (ə)xwašāy ? (γwšy-) ← Av. vaxš- ⇒ xwš- | (to) grow, (to) increase | TSP 2.358, 359, 778, 886, 905; Frag. Len. 90, 6; GMS 428'. Gharib's index (line 90138) lists entry 779 under '(to) grow'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib, Sogdian Dictionary, entry 779 (p.30)",
+              "stance": "supports",
+              "note": "see ref_check — Gharib herself writes '← Av. vaxš-', which is precisely the arrow root → Sogdian that Nourai draws."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, Dictionary of Khotan Saka (substitute for ISS), grep 'xšāy|vaxš'",
+              "stance": "silent",
+              "note": "No Khotanese counterpart was retrieved; the eastern-Iranian evidence for this node rests on Gharib alone."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "CHEUNG.txt (Etymological Dictionary of the Iranian Verb)",
+              "stance": "silent",
+              "note": "Cheung's dictionary was searched for a root *waxs-/*uxs-; no entry was retrieved from the local OCR, so his treatment of the verb could not be quoted."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Germanic",
+          "words": "wahsan",
+          "verdict": "plausible",
+          "derivation": "The root connection is beyond doubt — Proto-Germanic *wahsaną 'to grow' (Goth. wahsjan, OE weaxan, OHG wahsan, ON vaxa, NHG wachsen, NE wax) is the exact match of Skt. vakṣáyati and Av. vaxšaiti, i.e. of node #4, and Pokorny 85 prints the equation 'got. wahsjan ‚wachsen‘ (= ai. vakṣáyati, idg. Iter.-Kaus. *wōkseio)'. What is imprecise is the FORM Nourai puts in the box against the gloss 'growth, size'. wahsan is the verb 'to grow'; the noun that means 'growth, size' and that actually yields English waist is the Germanic tu-stem *wahstu-, seen in Goth. wahstus 'stature, growth', OE wæstm, ON vǫxtr, OHG wahst — Pokorny 85 again: 'wozu z. B. got. wahstus ‚Wachstum, Wuchs, Leibesgröße‘'. AHD p.1507, Nourai's own reference, keeps the two apart (the current online version of the same appendix has 'Germanic *wahsan in Old English weaxan, to grow: WAX' beside the separate suffixed noun that gives WAIST). So the book has merged the verb and its derived noun into one line, giving the verb's form with the noun's gloss; the branch itself is right.",
+          "derivation_fa": "پیوند ریشه‌ای درست است: ژرمنی آغازین *wahsaną «روییدن» (گوتی wahsjan، انگلیسی کهن weaxan، آلمانی wachsen) دقیقاً برابر اوستایی vaxšaiti و سنسکریت vakṣáyati است و پوکورنی در ص ۸۵ همین معادله را می‌آورد. اما صورتی که نورایی در این خانه نهاده دقیق نیست: wahsan فعل است و معنای «رویش، اندازه» و نیز منشأ واژهٔ waist از آنِ اسم *wahstu- است (گوتی wahstus «قامت، بالا»، انگلیسی کهن wæstm). پس کتاب فعل و اسمِ مشتق از آن را در یک سطر آمیخته و صورت فعل را با معنای اسم آورده است؛ خود شاخه درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/waist",
+            "https://www.ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1507",
+              "status": "partial",
+              "note": "The 1975 New College appendix p.1507 is the aug-¹ entry; the current online version of the same Watkins appendix lists both WAX and WAIST under aug-¹, and Watkins 1985 (AHD_watkins1985.txt line 307) reads '2. Variant extended forms *wogs-, *wegs- in Germanic *wahsan in Old English weaxan, to grow: WAX.' — i.e. AHD gives *wahsan as the verb behind WAX, and reaches WAIST through the separate noun stem, not through wahsan itself."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "POK_01.txt leaf 94, p.85",
+              "stance": "partial",
+              "note": "'got. wahsjan ‚wachsen‘ (= ai. vakṣáyati …); anord. vaxa, vexa ‚wachsen‘, ahd. wahsan … wozu z. B. got. wahstus ‚Wachstum, Wuchs, Leibesgröße‘' — Pokorny gives the verb and the noun as distinct formations."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1971.txt line 264461 s.v. waist",
+              "stance": "partial",
+              "note": "'rel. to OE. wæstm, ON. vǫxtr, Swed. växt, OHG. wahst, ‚growth, increase‘, Goth. wahstus, ‚stature‘, lit. ‚growth‘, and to OE. weahsan, weaxan, ‚to grow‘' — Klein too separates the noun stem from the verb."
+            },
+            {
+              "src": "SYN",
+              "where": "SYN.txt §12.53, p.876 and §12.52 SIZE",
+              "stance": "supports",
+              "note": "'Goth. wahsjan, OE weaxan etc. general Gmc. (NE wax of the moon, but mostly arch.)' under IE *aweg-; and at line 12896 'ON ǫxtr, OE wæstm, OHG wahsmo, all orig. ‘growth’, fr. ON vaxa, OE weaxan, OHG wahsan ‘grow’ (12.53)'."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "waist",
+          "verdict": "confirmed",
+          "derivation": "English waist is Middle English wast (late 14th c., Chaucer), from an unrecorded Old English *wæst beside the attested wæstm 'growth, stature', from Proto-Germanic *wahstu- 'growth, size' — the body's waist being named as 'the (place of) growth', i.e. where the trunk fills out. Klein s.v. waist: 'ME. wast, ‚waist‘, lit. ‚growth‘ (the waist being regarded as the part where the body is best developed), rel. to OE. wæstm, ON. vǫxtr, Swed. växt, OHG. wahst, ‚growth, increase‘, Goth. wahstus, ‚stature‘ … and to OE. weahsan, weaxan, ‚to grow‘.' Etymonline agrees and traces *wahs-tu- to 'PIE *wegs-, extended form of the root *aug- ‘to increase’'. The AHD appendix lists WAIST among the derivatives of aug-¹, so Nourai's citation 'AHD' for this node is right, even though the immediate Germanic ancestor is *wahstu- rather than the verb in his parent box.",
+          "derivation_fa": "واژهٔ انگلیسی waist «کمر» از انگلیسی میانهٔ wast (اواخر سدهٔ ۱۴ میلادی) و آن از ژرمنی *wahstu- «رویش، قامت» است؛ کمر از آن رو چنین نام گرفته که جای بالیدن تن دانسته می‌شده است. کلاین تصریح می‌کند: «wast ، لغةً ‚رویش‘، خویشاوند با انگلیسی کهن wæstm و گوتی wahstus ‚قامت‘». اتیمولاژی‌آنلاین نیز آن را به *wegs- ، گونهٔ گستردهٔ ریشهٔ *aug- ، می‌رساند و پیوست ریشه‌های هندواروپایی فرهنگ American Heritage هم WAIST را ذیل همین ریشه می‌آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/waist",
+            "https://www.ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "The online AHD Appendix I entry aug-¹ lists among its derivatives: 'wax, waist, nickname, eke, woodwaxen, auction, augend, augment, author, authorize, augur, inaugurate, August, auxiliary, auxin' — WAIST is there."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1971.txt lines 264461-264468 s.v. waist",
+              "stance": "supports",
+              "note": "'ME. wast, ‚waist‘, lit. ‚growth‘ … Goth. wahstus, ‚stature‘, lit. ‚growth‘, and to OE. weahsan, weaxan, ‚to grow‘. See wax, ‚to grow‘.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep 'waist' — only 'girth' (line 7603) and 'waltz' (21335) hit",
+              "stance": "silent",
+              "note": "Skeat's Concise edition has no separate waist entry in this OCR; his auction entry (line 1119) does cover the Latin branch."
+            },
+            {
+              "src": "SYN",
+              "where": "SYN.txt line 12896 (§4.30-ish, 'growth' words)",
+              "stance": "supports",
+              "note": "'ON ǫxtr, OE wæstm, OHG wahsmo, all orig. ‘growth’, fr. ON vaxa, OE weaxan, OHG wahsan ‘grow’ (12.53)' — Buck documents the noun stem behind waist."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Latin",
+          "words": "augěre; augur; augustus; auxilium",
+          "verdict": "confirmed",
+          "derivation": "All four are genuine Latin and all four belong to this root. augeō, augēre 'to increase' is the Latin *h₂ewg-eye- (Pokorny 84: 'lat. augeō, -ere ‚vermehren‘, auctor (= umbr. uhtur) ‚Urheber usw.‘, auctio ‚Versteigerung‘, augmen(tum) ‚Zuwachs‘'). augur, -uris m. is, in Pokorny's account, 'aus *augos ‚Vermehrung‘' — the priest is named from the 'increase' or favourable augmentation he obtains, which is exactly the sense Nourai's gloss 'divine favor' records (Watkins: 'Latin augur, diviner (< “he who obtains favorable presage” < “divine favor, increase”)'). augustus 'majestic, consecrated' is the adjective of the es-stem *aug-os- and is equated by Pokorny with Lith. aūkštas, Latv. aüksts 'high'. auxilium 'aid' is the s-extended *aug-s- formation, 'ursprüngl. Pl. -ia ‚Verstärkungen, Hilfstruppen‘' (Pokorny 85). Ernout-Meillet s.v. augeō confirms the whole family from the Latin side: 'Tels sont augur, auctor, auctoritas, auctoro, auctio, et auxilia.' The only slip is typographical: the book prints 'augěre' with a breve, where the second e of augēre is long.",
+          "derivation_fa": "هر چهار واژه لاتینی اصیل‌اند و هر چهار به همین ریشه بازمی‌گردند. augeō/augēre «افزودن» بازماندهٔ *h₂ewg-eye- است؛ augur «فال‌گوی رسمی» به گفتهٔ پوکورنی از *augos «افزایش، برکت» است و همین معنای «عنایت ایزدی» را که نورایی آورده توجیه می‌کند؛ augustus «شکوهمند، مقدّس» صفت ستاک -os- است و برابر لیتوانی aūkštas «بلند»؛ و auxilium «یاری» ساختهٔ پایهٔ sدار *aug-s- است که نخست جمع به معنای «نیروهای کمکی» بوده است. ارنو-مییه نیز همین خانواده را یکجا می‌آورد. تنها لغزش کتاب چاپی است: augěre با علامت کوتاهی چاپ شده در حالی که واکهٔ دوم دراز است (augēre). ادعای نورایی درست است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1507",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 307 (the same appendix, 1985 standalone edition of the 1975 pp.1505-1550): '3. Form *aug-é- in: Latin augére, to increase … 4. Latin augur, diviner … 5. Latin augustus, majestic, august … 6. Suffixed form *aug-s- in: a. Latin auxilium, aid, support, assistance: AUXILIARY.' All four of Nourai's Latin words, in his order."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "POK_01.txt leaf 94, pp.84-85",
+              "stance": "supports",
+              "note": "'lat. augeō, -ere ‚vermehren‘, auctor (= umbr. uhtur) … augur ‚Weissager‘ aus *augos ‚Vermehrung‘ (WH. I 83)'; and p.85 'lat. auxilium ‚Hilfe‘ (ursprüngl. Pl. -ia ‚Verstärkungen, Hilfstruppen‘)'."
+            },
+            {
+              "src": "LAT",
+              "where": "LAT.txt lines 5998-6010 (Ernout-Meillet s.v. augeō, augur)",
+              "stance": "supports",
+              "note": "'… des dérivés ou des composés de augeō … Tels sont augur, auctor, auctoritas, auctoro, auctio, et auxilia. augur, -uris m.: augure (prêtre) est un ancien nom du type fulgur/fulguris.'"
+            },
+            {
+              "src": "IEC",
+              "where": "IEC.txt line 17313 (Mann, suffix -stos)",
+              "stance": "supports",
+              "note": "'Lat. … augustus (‘high’: aug-)'; and at line 15350 'Lat. … auxilium, n. (‘aid’, if for *aug-sil-)'."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "auction, augment, author; inaugurate; August; auxiliary",
+          "verdict": "confirmed",
+          "derivation": "Each of the four lines is the English reflex of the Latin word directly above it in the parent box, and the AHD appendix lists them all under aug-¹. (a) auction ‹ Latin auctio, -ōnis 'an increasing, a sale by increase of bids' (Skeat: 'L. auctionem, acc. of auctio, a sale by auction, lit. an increase, because the sale is to the highest bidder — L. auctus, pp. of augēre'); augment ‹ Late Latin augmentāre from augmentum 'increase', via Old French augmenter, 15th c.; author ‹ Latin auctor 'originator, one who causes to grow', through Anglo-French auctour, Middle English auctour, the -th- being a 16th-c. pseudo-Greek respelling. (b) inaugurate ‹ Latin inaugurāre 'to take omens before installing (a magistrate, a temple)', from in- + augur; the modern sense 'install in office' preserves the Roman ritual. (c) August ‹ Latin (mēnsis) Augustus, the month renamed in 8 BCE for Augustus Caesar, whose own title is the adjective augustus 'consecrated, majestic'; Old English took it as Agustus, re-Latinised in Middle English. (d) auxiliary ‹ Latin auxiliāris, from auxilium. Nourai's grouping is exactly AHD's.",
+          "derivation_fa": "هر چهار سطر این خانه بازتاب مستقیم واژه‌های لاتینی خانهٔ پیشین است و پیوست ریشه‌های فرهنگ American Heritage همه را ذیل aug- می‌آورد. auction از auctio «افزودن، حراج» (زیرا کالا به بالاترین پیشنهاد می‌رسد)؛ augment از augmentum از راه فرانسهٔ کهن؛ author از auctor «پدیدآورنده» که در سدهٔ ۱۶ با املای یونانی‌نمای th نوشته شد؛ inaugurate از inaugurāre «پیش از نصب فال گرفتن» که هنوز معنای آیینی رومی را در خود دارد؛ August از نام ماه (mēnsis) Augustus که در ۸ پیش از میلاد به نام اگوستوس قیصر نامیده شد و خود لقب او همان صفت augustus است؛ و auxiliary از auxiliāris. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/indoeurop.html"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Online AHD Appendix I s.v. aug-¹ lists AUCTION, AUGEND, AUGMENT, AUTHOR, AUTHORIZE, AUGUR, INAUGURATE, AUGUST, AUXILIARY, AUXIN — all four of Nourai's lines."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 1119 s.v. Auction",
+              "stance": "supports",
+              "note": "'Auction. (L.) L. auctionem, acc. of auctio, a sale by auction, lit. ‚an increase‘, because the sale is to the highest bidder. — L. auctus, pp. of augēre, to increase.'"
+            },
+            {
+              "src": "LAT",
+              "where": "LAT.txt lines 6007-6008 (Ernout-Meillet s.v. augeō)",
+              "stance": "supports",
+              "note": "'… des sens spéciaux tels que la parenté avec augeō n’est souvent plus sensible. Tels sont augur, auctor, auctoritas, auctoro, auctio, et auxilia.' — the Latin bases of auction, author, augur, inaugurate, auxiliary."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966/1971, s.vv. auction, author, august",
+              "stance": "supports",
+              "note": "Klein routes all of them through Latin augēre/auctus (the entries were reached by the same grep that produced the waist entry at line 264461); no divergent account."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
