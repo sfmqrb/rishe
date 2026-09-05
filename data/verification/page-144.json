@@ -1,0 +1,570 @@
+{
+ "pdf_page": 144,
+ "book_page": 114,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "D.v.r",
+   "verdict": "confirmed",
+   "modern_form": "Arabic root د و ر (d-w-r) 'to turn, revolve, go round'; verb دَارَ (dāra), verbal noun دَوْر (dawr)",
+   "note": "The root box is right: د و ر is a standard Arabic triliteral meaning 'to turn, go round, encircle', and Nourai's own source Klein has exactly this family under the headword 'daira' (KLN_1966 leaf 219, printed p.398-399): «Arab. dāʾirah … prop. fem. partic. of dāra, 'he moved in a circle, went about', which is rel. to dār, 'house', orig. 'buildings surrounding a court', daur, 'circumference', dahr, 'long time, age' … Akkad. dūru, 'wall, fortress', also 'duration, eternity'». Two weak spots in the chart, both inherited from Klein: (a) dahr 'time' is in Arabic morphology a word of the root د ه ر, not د و ر — Wiktionary lists it under د ه ر with the verb dahara 'to overcome, prevail' — so its membership here is a comparative-Semitic guess, not an Arabic-internal derivation; (b) the Greek box (node 3) prints a form no lexicon knows. The English end of the chart (dār aṣ-ṣināʿa > It. arsenale > arsenal) is uncontroversial and is confirmed by Klein, Lokotsch, Pihan, Skeat, Etymonline and Wiktionary alike, except that they route the word straight into Venetian/Italian without a Greek stage.",
+   "note_fa": "ریشهٔ سه‌حرفی عربی «د و ر» به معنای «گشتن، چرخیدن، گرد چیزی گردیدن» ریشه‌ای است واقعی و برچسب زبان و معنای جعبهٔ ریشه درست است؛ کلاین نیز — که خودِ مأخذ نورایی است — در مدخل daira همین خانواده را یک‌جا آورده است: دائره، دار «خانه، در اصل بناهای گرداگرد حیاط»، دور «پیرامون» و حتی دهر. دو نکته را باید با احتیاط خواند: نخست آنکه «دهر» در صرف عربی از ریشهٔ «د ه ر» است نه «د و ر» و پیوند آن با این ریشه تنها در سطح مقایسهٔ زبان‌های سامی (اکدی dūru «دیرپایی») مطرح است؛ دوم آنکه جعبهٔ یونانی نمودار (گرهٔ ۳) صورتی می‌آورد که در هیچ فرهنگی یافت نمی‌شود. زنجیرهٔ «دارالصناعة ← ایتالیایی arsenale ← انگلیسی arsenal» اما بی‌چون‌وچرا درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/arsenal",
+    "https://www.etymonline.com/word/arsenal",
+    "https://en.wiktionary.org/wiki/%D8%AF%D9%87%D8%B1"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:397",
+     "status": "supports",
+     "note": "Klein s.v. 'daira' (KLN_1966.txt line 10232; form-feed leaf 219, i.e. printed pp.398-399 — Nourai's 397 is one page low, the neighbouring leaf 218 carries the printed numbers 396/397 and ends at 'daffodil'): «Arab. dāʾirah (in vulgar pronunciation dayra), 'circle, enclosure', prop. fem. partic. of dāra, 'he moved in a circle, went about', which is rel. to dār, 'house', orig. 'buildings surrounding a court', daur, 'circumference', dahr, 'long time, age', Heb. dūr … Akkad. dūru, 'wall, fortress', also 'duration, eternity'». This is Nourai's root box and node 1 almost word for word."
+    },
+    {
+     "ref": "FVA:146",
+     "status": "not_checked",
+     "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989). refs_online.json records that no digital copy exists on any permitted platform (re-searched 2026-09); catalogue record only."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "LKT",
+     "where": "no. 495 'Ar. dār-ṣināʿa' (LKT.txt line 1290)",
+     "stance": "supports",
+     "note": "«[Aus ar. dār 'Haus', ṣināʿa 'Betriebsamkeit, Handwerk, Industrie'] 'Fabrik', besonders 'Waffenfabrik' und auch schon ar. 'Schiffsbauhaus' … Hieraus it. darsena, siz. tirzanà 'inneres Hafenbecken', arzanà, arsenale, terzana 'Zeughaus'; frz. darse, darsine …, arsenal; sp. atarazana …; dtsch. Arsenal, ndl. arsenaal, engl. arsenal». Confirms the Arabic etymon and the Romance spread — with no Greek link."
+    },
+    {
+     "src": "FVQ",
+     "where": "grep 'dahr', 'daira' in FVQ_pages.txt",
+     "stance": "silent",
+     "note": "Jeffery's Foreign Vocabulary of the Qurʾān has no entry for dahr or dāʾirah — expected, since he lists only loanwords and these are treated as native Arabic."
+    },
+    {
+     "src": "RCH",
+     "where": "RCH.txt line 38449 (دائره) and line 43388 (دهر)",
+     "stance": "supports",
+     "note": "Richardson marks the circle-word with his Arabic flag: 'A  circle. A halo round the moon. A stipend, a salary.'; دهر likewise appears as an Arabic word glossed 'The world'. Confirms both are Arabic in Persian usage."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "dâîrah; dâr; dahr; dâr-as-sanâ`",
+     "verdict": "plausible",
+     "derivation": "دَائِرَة dāʾira 'circle' is the active participle f. of دَارَ dāra 'he turned, went round' (root د و ر), i.e. literally 'the turning/encircling one'; دَار dār 'house' is the same root's noun, Klein glossing it 'orig. \"buildings surrounding a court\"', a sense supported by Akkadian dūru 'wall, enclosure'; دَار الصِّنَاعَة dār aṣ-ṣināʿa 'house of manufacture' is a genitive compound of dār with ṣināʿa 'craft, manufacture' (root ص ن ع, whence Nourai's cross-reference S.n.ʿa), used from Umayyad times of state shipyards — Pihan quotes Ibn Khaldūn on the caliph ʿAbd al-Malik ordering Ḥasan b. al-Nuʿmān to build a dār ṣināʿa at Tunis for fitting out warships. The odd word out is دَهْر dahr 'a long stretch of time, fate': Arabic lexicography assigns it to the root د ه ر (verb dahara 'to overcome, prevail'), and Wiktionary lists it there, so it is not an Arabic-internal derivative of dāra. Klein nevertheless groups it with dāra at the comparative-Semitic level, comparing Akkadian dūru 'duration, eternity' and dāru 'everlasting' — a real but weaker, cross-root argument. Hence 'plausible' rather than 'confirmed' for the node as a whole; the first three words are secure, dahr is not.",
+     "derivation_fa": "«دائره» اسم فاعل مؤنث از فعل «دارَ (یدور)» است از ریشهٔ «د و ر»، یعنی در اصل «آنچه می‌گردد / گرداگرد می‌آید»؛ «دار» نیز از همین ریشه است و کلاین معنای اصلی آن را «بناهای گرداگرد یک حیاط» می‌داند که با اکدی dūru «دیوار، حصار» می‌خواند. «دارالصناعة» ترکیب اضافی «دار» و «صناعة» (از ریشهٔ ص ن ع) است به معنای «کارخانه»، و از روزگار امویان به کارگاه کشتی‌سازی دولتی گفته می‌شد؛ پیهان از ابن خلدون نقل می‌کند که عبدالملک به حسان بن نعمان فرمان داد در تونس «دار صناعة» بسازد. تنها واژهٔ ناهمخوان «دهر» است: در صرف عربی «دهر» از ریشهٔ «د ه ر» است نه «د و ر» و پیوند آن با این خانواده تنها از راه مقایسهٔ سامی (اکدی dūru «جاودانگی») پیشنهاد شده است. بنابراین سه واژهٔ نخست قطعی‌اند و «دهر» با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%D9%87%D8%B1",
+      "https://en.wiktionary.org/wiki/arsenal"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:108",
+       "status": "supports",
+       "note": "Klein s.v. 'arsenal' (KLN_1966.txt line 3518; leaf 68, which carries the printed page numbers 108/109 — Nourai's 108 is exact): «It. arsenale (OIt. arzanale), 'dock' … fr. Arab. dār-aṣ-ṣināʿah (whence also Sp. dársena and It. darsena, 'dock'), lit. 'house of construction', fr. dār, 'house', as-, assimilated form of al-, 'the', and ṣināʿah, 'construction, art', fr. ṣanaʿa, 'he made'»."
+      },
+      {
+       "ref": "KLN:397",
+       "status": "supports",
+       "note": "Klein s.v. 'daira' (leaf 219, printed p.398-399) gives dāʾirah, dāra, dār, daur and dahr as one family — the whole node. See the entry-level ref_check for the quotation."
+      },
+      {
+       "ref": "FVA:146",
+       "status": "not_checked",
+       "note": "no digital copy of Nahvi's dictionary exists (refs_online.json)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 495 (LKT.txt line 1290)",
+       "stance": "supports",
+       "note": "«Aus ar. dār 'Haus', ṣināʿa 'Betriebsamkeit, Handwerk, Industrie'» — the compound and its meaning exactly as drawn."
+      },
+      {
+       "src": "PHN",
+       "where": "s.v. ARSENAL (PHN.txt lines 1826-1845)",
+       "stance": "supports",
+       "note": "«[dâr ṣinâʿat] maison de fabrication, lieu où l'on fait et conserve toutes sortes d'armes … Dans un passage d'Ibn-Khaldoun, le calife Abdalmélic ordonne à Haçan ibn Norman de bâtir à Tunis un dâr çinâʿa pour la construction de tout ce qui est nécessaire à l'équipement et à l'armement des vaisseaux.»"
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. arsenal (SKT.txt line 985, OCR damaged)",
+       "stance": "supports",
+       "note": "«— Arab. dár ṣináʿat … place for making … — Arab. dár, a house; ṣanáʿa, trade, construction» — Skeat gives the same compound."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "dowr «دور ۲»; dâr 1 «دار ۱ ( دیار ، دیّار )»; dahr «دهر»",
+     "verdict": "plausible",
+     "derivation": "All the words in this box are Arabic loans taken into New Persian with the ʿAbbāsid-era wave of Arabic vocabulary, not inherited Iranian material, and the chart draws them correctly as descendants of the Arabic node rather than of any Iranian form. دور dawr 'turn, cycle, perimeter' is Arabic dawr; the derivatives listed in the extra line are the regular Arabic patterns of the same root — دوره/دوران (Persianised nominals), دایر dāʾir and دایره dāʾira (act. part. m./f.), دوّار dawwār (intensive), مدوّر mudawwar (pass. part. 'made round'), مدار madār (noun of place, 'orbit'), and the form-IV pair اداره idāra 'administration' / مدیر mudīr 'director' (literally 'a making-to-turn' and 'one who makes turn'); داریه is the tambourine-word, Arabic dāʾira in the vulgar pronunciation dayra that Klein records. دار 'house' survives in Persian mainly in the frozen collocations and in دیار diyār 'lands, parts' (Arabic broken plural of dār) and دیّار dayyār 'a soul, anyone dwelling'. دهر dahr 'long time, world, fortune' is likewise a straight Arabic loan (Hāfez's line quoted on the page uses it in the classic sense 'the world, fate'), but it carries over the caveat of node 1: in Arabic it belongs to the root د ه ر. Verdict plausible for the node because of dahr; the rest is secure.",
+     "derivation_fa": "همهٔ واژه‌های این جعبه وام‌واژه‌های عربی‌اند که در فارسی نو (از سدهٔ سوم هجری به بعد) به کار رفته‌اند، نه میراث ایرانی؛ و نمودار نیز درست آن‌ها را از جعبهٔ عربی گرفته است. «دور» همان دَوْر عربی است و واژه‌های ردیف افزوده همگی صیغه‌های قیاسی همین ریشه‌اند: «دایر» و «دایره» اسم فاعل، «دوّار» صیغهٔ مبالغه، «مدوّر» اسم مفعول، «مدار» اسم مکان، و «اداره» و «مدیر» مصدر و اسم فاعل باب افعال؛ «داریه» نیز همان «دائره» است در تلفظ عامیانهٔ dayra که کلاین ثبت کرده است. «دار» به معنی خانه در فارسی بیشتر در «دیار» (جمع مکسر دار) و «دیّار» بازمانده است. «دهر» هم وام‌واژه‌ای عربی است — بیت حافظ که نورایی آورده آن را در معنای «روزگار، جهان» به کار برده — ولی همان نکتهٔ گرهٔ پیشین دربارهٔ آن برجاست: در عربی از ریشهٔ «د ه ر» است. پس ادعای نورایی دربارهٔ سه واژهٔ نخست درست و دربارهٔ «دهر» با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%D9%87%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:146",
+       "status": "not_checked",
+       "note": "FVA (Nahvi 1368) is precisely the book that would list these Arabic-in-Persian words, but no digital copy exists (refs_online.json: 'RE-SEARCH 2026-09: still no digital copy on any permitted platform')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "RCH",
+       "where": "RCH.txt lines 38449, 43388",
+       "stance": "supports",
+       "note": "Richardson (Persian-Arabic-English) flags both words as Arabic in Persian use: 'A  circle. A halo round the moon. A stipend, a salary.' (دائره) and 'dahr, The world.'"
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'dahr', 'daur' in HRN.txt — one irrelevant hit (line 8159, about gaur/daur)",
+       "stance": "silent",
+       "note": "Horn's Grundriss der neupersischen Etymologie has no entry for دور/دهر/دار, as expected: it treats inherited Iranian vocabulary only, so its silence positively supports the loan analysis."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab.com/moein and abadis.ir (فرهنگ معین section)",
+       "stance": "partial",
+       "note": "The online Mo'in text is served without the Latin-script origin forms of the print edition; for دهر/دور it gives the senses but the [ع.] tags are not reproducible from the pages fetched, so Mo'in could only be used indirectly here."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Greek",
+     "words": "arsonalos",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "arsonalos",
+     "correct_form": "ἀρσηνάλης (MGk. arsēnálēs)",
+     "derivation": "The printed page (PDF 144, book p.114) really does read 'arsonalos : factory, workshop', so the extraction is faithful; the error is Nourai's. His source is Klein s.v. arsenal, which says the Italian word was «borrowed — prob. through the medium of MGk. ἀρσηνάλης — fr. Arab. dār-aṣ-ṣināʿah»; the 1971 one-volume printing gives the Greek clearly as ἀρσηνάλης (the 1966 OCR mangles it). 'Arsonalos' is not a Greek word in any form: it has neither the -ης ending Klein prints nor any attestation in Byzantine lexica, and Nourai's gloss 'factory, workshop' is simply the gloss of the Arabic compound carried over. Beyond the form, the Greek stage itself is not part of the modern account: Wiktionary gives 'Italian arsenale, from Arabic دَار الصِّنَاعَة' with no Greek link, Etymonline has Italian arzenale straight from Arabic (the Venetians applying it to their great wharf), and Lokotsch no.495 and Pihan s.v. ARSENAL likewise take the word from Arabic into Sicilian/Venetian (tirzanà, arzanà — Dante, Inferno XXI.7) with no Greek intermediary. So the box should be read as Klein's hedged 'prob.', with a misspelt headword.",
+     "derivation_fa": "صفحهٔ چاپی (ص ۱۱۴ کتاب) به‌راستی «arsonalos» دارد، پس خطای خوانش اسکن نیست و خطای خودِ کتاب است. مأخذ نورایی، یعنی کلاین، در مدخل arsenal می‌نویسد که واژهٔ ایتالیایی «احتمالاً به میانجی یونانی میانه ἀρσηνάλης» از عربی «دارالصناعة» گرفته شده است؛ صورت درست همین ἀρσηνάλης است و «arsonalos» نه پایانهٔ یونانی درستی دارد و نه در هیچ فرهنگ بیزانسی آمده است. افزون بر صورت واژه، خودِ مرحلهٔ یونانی هم در ریشه‌شناسی امروزی جایی ندارد: ویکی‌واژه و اتیمانلاین واژه را یک‌راست از عربی به ایتالیایی (و نخست به گویش ونیزی/سیسیلی: arzanà، tirzanà — که دانته در دوزخ، سرود بیست‌ویکم آورده) می‌برند، و لوکوچ (شمارهٔ ۴۹۵) و پیهان نیز چنین‌اند. پس این جعبه خطای چاپی کتاب است بر پایهٔ حدسِ محتاطانهٔ کلاین.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/arsenal",
+      "https://www.etymonline.com/word/arsenal"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:108",
+       "status": "partial",
+       "note": "Klein does put a Greek stage here, but hedged and with a different form: KLN_1971.txt lines 20079-20083 «It. arsenale (OIt. arzanale), 'dock', borrowed — prob. through the medium of MGk. ἀρσηνάλης — fr. Arab. dār-aṣ-ṣināʿah». Klein gives no gloss 'factory, workshop' for the Greek word and does not assert the Greek stage as fact."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 495 (LKT.txt line 1290)",
+       "stance": "contradicts",
+       "note": "Lokotsch routes the word Arabic → Italian/Sicilian directly: «Hieraus it. darsena, siz. tirzanà …, arzanà, arsenale, terzana 'Zeughaus'» — no Greek is mentioned anywhere in the entry."
+      },
+      {
+       "src": "PHN",
+       "where": "s.v. ARSENAL (PHN.txt lines 1826-1845)",
+       "stance": "contradicts",
+       "note": "«Tarsianatus, en latin du moyen âge, et arzanà, terme italien employé par Dante (Inferno, canto XXI, verso 7), semblent témoigner assez en faveur de la source orientale du mot arsenal» — the mediating forms Pihan knows are Medieval Latin and Italian, not Greek."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. arsenal (SKT.txt line 985)",
+       "stance": "contradicts",
+       "note": "Skeat's chain is 'Ital. … — Arab. dár ṣináʿat'; no Greek step."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Italian",
+     "words": "darsena, arsenale",
+     "verdict": "confirmed",
+     "derivation": "Arabic dār aṣ-ṣināʿa was borrowed twice into Italo-Romance from the Muslim Mediterranean: once with the initial dā- kept, giving Italian/Spanish darsena, dársena 'inner harbour basin, wet dock' (Sicilian tirzanà), and once with the first syllable reanalysed and lost, giving Old Italian arzanà — the form Dante uses of the Venetian shipyard in Inferno XXI.7 — later Tuscanised as arsenale with the Romance suffix -ale. Lokotsch sets the whole spread out (Sp. atarazana, Pg. taracena, Fr. darse/arsenal, Rum. arsenal), and Klein records the doublet explicitly: «Arab. dār-aṣ-ṣināʿah (whence also Sp. dársena and It. darsena, 'dock')». The Venetian Arsenale, the state shipyard founded in 1104, is the referent that fixed the naval-dockyard sense.",
+     "derivation_fa": "«دارالصناعة» عربی دو بار به زبان‌های ایتالیایی-رومی راه یافته است: یک بار با نگاه‌داشت هجای نخست، که ایتالیایی darsena و اسپانیایی dársena «حوضچهٔ درونی بندر» از آن است (و سیسیلی tirzanà)، و یک بار با افتادن هجای «دار» — گویا به گمانِ آنکه حرف تعریف است — که ایتالیایی کهن arzanà از آن پدید آمد؛ همان صورتی که دانته در «دوزخ»، سرود بیست‌ویکم، دربارهٔ کارگاه کشتی‌سازی ونیز به کار برده است. سپس با پسوند رومی ‎-ale‎ به arsenale بدل شد. لوکوچ همهٔ این گسترش را برشمرده و کلاین نیز دوگانهٔ darsena/arsenale را ثبت کرده است. ادعای نورایی در این گره درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/arsenal",
+      "https://www.etymonline.com/word/arsenal"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:108",
+       "status": "supports",
+       "note": "KLN_1966.txt line 3518 (leaf 68 = printed p.108/109): «It. arsenale (OIt. arzanale), 'dock' … fr. Arab. dār-aṣ-ṣināʿah (whence also Sp. dársena and It. darsena, 'dock')» — both Italian forms of Nourai's box, from the Arabic compound."
+      },
+      {
+       "ref": "AHD:74",
+       "status": "not_checked",
+       "note": "AHD:74 is a page of the main American Heritage Dictionary (New College ed.), where 'arsenal' falls in the A-section; only Watkins's Indo-European Roots appendix is on disk locally (AHD_watkins1985.txt), and it has no entry for this non-Indo-European word. Not verifiable here."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 495 (LKT.txt line 1290)",
+       "stance": "supports",
+       "note": "«Hieraus it. darsena, siz. tirzanà 'inneres Hafenbecken', arzanà, arsenale, terzana 'Zeughaus'; frz. darse, darsine …, arsenal; sp. atarazana, atarazanal 'Schuppen', arsenal»."
+      },
+      {
+       "src": "PHN",
+       "where": "s.v. ARSENAL (PHN.txt line 1830 f.)",
+       "stance": "supports",
+       "note": "«arzanà, terme italien employé par Dante (Inferno, canto XXI, verso 7)» — the Old Italian form and its earliest literary attestation."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "arsenal",
+     "verdict": "confirmed",
+     "derivation": "English took the word from Italian around 1500 in the nautical sense 'dockyard, dock with naval stores', the Venetian Arsenale being the model; by the 1570s it had shifted to 'public place for making or storing weapons and ammunition', which is the modern sense (Etymonline). Wiktionary's chain is the same: «From Italian arsenale, from Arabic دَار الصِّنَاعَة (dār aṣ-ṣināʿa, 'manufacturing shop')». The final -al was reinforced in English by the native adjective suffix -al (Klein).",
+     "derivation_fa": "انگلیسی این واژه را نزدیک سال ۱۵۰۰ میلادی از ایتالیایی گرفت، نخست در معنای دریایی «کارگاه و انبار کشتی‌سازی» — با الگوی «آرسناله»‌ی ونیز — و از دههٔ ۱۵۷۰ به معنای «زرادخانه، جای ساخت و انبار جنگ‌افزار» به کار رفت. ویکی‌واژه و اتیمانلاین هر دو همین زنجیره را می‌آورند: عربی «دارالصناعة» ← ایتالیایی arsenale ← انگلیسی arsenal. ادعای نورایی در این گره درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/arsenal",
+      "https://en.wiktionary.org/wiki/arsenal"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:74",
+       "status": "not_checked",
+       "note": "Page of the main AHD (New College ed.) A-section; only the Watkins IE-roots appendix is available locally, and it carries no non-IE headwords. The claim is however fully covered by Klein, Skeat, Lokotsch, Etymonline and Wiktionary."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. arsenal (KLN_1966.txt line 3518, printed p.108)",
+       "stance": "supports",
+       "note": "«arsenal, n., a place for manufacturing and storing ammunition and weapons. — It. arsenale … For the ending of arsenal see adj. suff. -al.»"
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. arsenal (SKT.txt line 985)",
+       "stance": "supports",
+       "note": "Skeat gives 'Ital. … — Arab. dár ṣináʿat, … place for making …; — Arab. dár, a house; ṣanáʿa, trade, construction'."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 495 (LKT.txt line 1290)",
+       "stance": "supports",
+       "note": "«Dtsch. Arsenal, ndl. arsenaal, engl. arsenal, russ. arsenal» — English listed among the European borrowings of the Arabic compound."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Dwei, Dvei",
+   "verdict": "confirmed",
+   "modern_form": "PIE *dwei- 'to fear' (Pokorny 227 dṷei-; Watkins/AHD dwei-; Wiktionary *dwey-)",
+   "note": "Pokorny IEW 227 heads the entry «dṷei- ,fürchten'», so the root, the language label 'Indo-European' and the gloss 'to fear' are all exactly right, and Nourai's page reference is exact (the entry begins on p.227 and runs onto p.228). Watkins/AHD has the same headword: «dwei-. To fear. 1. Suffixed form *dwei-ro- in Latin dirus … DIRE. 2. Suffixed form *dwey-eno- in Greek deinos … DINOSAUR, DINOTHERE. (This root originally meant 'to be in doubt, be of two minds', and is related to dwo-.) [Pok. dṷei- 227.]» — which is the whole right-hand half of the chart. One caution that Nourai does not pass on: Walde-Pokorny I 816 f. warns that the s-extension (Skt. dvéṣṭi 'hates', Av. dvaēš-/tbaēš-, MP bēš), i.e. the entire Iranian left half of this chart, is semantically distant — «Doch liegen die Bedd. 'hassen, anfeinden' und 'fürchten' weit voneinander ab» — and Pokorny himself closes the entry noting Benveniste's view (per letter) that the root belongs to *dṷō(u) 'two' as 'to be in two minds'. The one derivation on the page that modern scholarship rejects outright is the last Iranian step, Pahlavi bēš 'sorrow' → Persian bīš 'a poisonous plant' (node 3).",
+   "note_fa": "ریشهٔ نمودار همان *dwei- هندواروپایی آغازین به معنای «ترسیدن» است؛ پوکورنی در صفحهٔ ۲۲۷ فرهنگ خود آن را با همین سرواژه و همین معنا («dṷei- ,fürchten'») آورده و ارجاع نورایی (POK:227) دقیق است. واتکینز نیز در پیوست ریشه‌های هندواروپایی امریکن هریتیج همین را دارد و لاتینی dīrus و یونانی deinos را از آن می‌گیرد. اما نکته‌ای هست که نورایی نیاورده است: والده-پوکورنی (جلد یکم، ص ۸۱۶ به بعد) هشدار می‌دهد که گسترش ‎-s‎ی این ریشه — یعنی سنسکریت dvéṣṭi «کینه می‌ورزد»، اوستایی dvaēš-/tbaēš- و فارسی میانه bēš، که سراسر شاخهٔ ایرانی این نمودار است — از نظر معنایی از «ترسیدن» دور است؛ و خودِ پوکورنی در پایان مدخل نظر بنونیست را می‌آورد که این ریشه در اصل «دودل بودن» و وابسته به «دو» است. تنها حلقه‌ای که پژوهش امروزی آن را رد می‌کند، واپسین گام ایرانی است: «بیشِ» فارسی (گیاه سمی) از «بِشِ» پهلوی (اندوه) نیامده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:227",
+     "status": "supports",
+     "note": "POK_01.txt line 3257 (form-feed leaf 238; the printed number 228 appears part-way down the same leaf, so the entry opens on p.227): «dṷei- ,fürchten'. Av. dvaēθ-ā ,Bedrohung'; arm. erknč̣im ,ich fürchte' …» and on p.228 «gr. hom. δείδω ,fürchte' … lat. dīrus ,grausig, grauenvoll, unheilvoll' … mit Formans -ro- ,wovor man sich fürchtet' … s-Erweiterung in ai. dvéṣṭi ,haßt, feindet an' … av. dvaēš-, tbaēš- ,anfeinden, kränken', Partiz. tbišta-, dvaēšah-, tbaēšah- ,Anfeindung', mpers. bēš ,Leid, Unheil'». Every node of the chart except the Sogdian and the New Persian one is on these two pages."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 816 f. (WLD_Bd1_1930 djvu lines 51518-51545; Pokorny closes his entry with 'WP. I 816 f.')",
+     "stance": "partial",
+     "note": "Has the same material — «av. dvaēθa „Bedrohung“ … lat. dīrus „grausig, grauenvoll, unheilvoll“ … mit Formans -ro- „wovor man sich fürchtet“» — but adds the reservation Nourai omits: «Als s-Erweiterung betrachtet man gemeinhin ai. dvéṣṭi „haßt, feindet an“ … av. dvaēš-, tbaēš- „anfeinden, kränken“ … mp. bēš „Leid, Unheil“. Doch liegen die Bedd. „hassen, anfeinden“ und „fürchten“ weit voneinander ab.»"
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. dwei- (AHD_watkins1985.txt line 412)",
+     "stance": "supports",
+     "note": "«dwei-. To fear. 1. Suffixed form *dwei-ro- in Latin dirus, fearful, horrible (originally a dialectal form): DIRE. 2. Suffixed form *dwey-eno- in Greek deinos, fearful, monstrous: DINOSAUR, DINOTHERE. … [Pok. dṷei- 227.]»"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "dvaĕtha; dvaĕš, tbaĕš",
+     "verdict": "plausible",
+     "derivation": "The forms are real and the descent from the root is right, but the second gloss is wrong. Gathic Avestan dvaēθā- f. is a genuine noun 'threat' — Bartholomae col. 763-764: «g. dvaēθā- f. 'Bedrohung', mit Akk. der Person», i.e. the thing one threatens someone with — formed from the root with the -θā- suffix; Pokorny cites the same word on p.227 and Klein s.v. dire has 'Avestic dvaeθa-, \"threat, menace\"', which is exactly Nourai's first gloss. dvaēš-/tbaēš- are the verbal stem of the s-extension: Pokorny glosses them «anfeinden, kränken» = 'to be hostile to, to injure/offend', and Bartholomae has the nouns tbaēšah-, Gathic dvaēšah- n. 'Anfeindung, Feindschaft, Feindseligkeit' (col. 813-814) and dvaēša- m. 'Qual, Pein'. Nourai's gloss 'sick, ill' is a mistranslation of Pokorny's German kränken ('to wrong, injure'), read as though it were krank 'sick'; nothing in the Avestan material means 'sick'. Phonetically the tb-/dv- pair is the regular Avestan doublet of an initial cluster *dw- (Young Avestan tb-, Gathic dv-). Verdict plausible: the arrow is right, one gloss is not.",
+     "derivation_fa": "صورت‌ها درست‌اند و پیوندشان با ریشه نیز درست است، اما معنای دوم نادرست است. dvaēθā- اوستایی گاهانی اسمی است مؤنث به معنای «تهدید»؛ بارتولومه در ستون ۷۶۳–۷۶۴ می‌نویسد: «g. dvaēθā- f. ,Bedrohung', mit Akk. der Person»، و کلاین نیز در مدخل dire همین را با معنای «threat, menace» آورده است — یعنی همان معنایی که نورایی داده. اما dvaēš-/tbaēš- ستاک فعلی گسترشِ ‎-s‎ی ریشه است و پوکورنی آن را «anfeinden, kränken» یعنی «دشمنی کردن، آزردن» معنا کرده و بارتولومه اسم‌های tbaēšah-/dvaēšah- «دشمنی» و dvaēša- «رنج، درد» را ذیل آن آورده است. معنای «بیمار» که نورایی نوشته، برگردان نادرستِ فعل آلمانیِ kränken («آزردن») است که آن را به گمانِ krank («بیمار») خوانده‌اند؛ هیچ‌یک از این صورت‌های اوستایی معنای «بیمار» ندارد. از نظر آوایی نیز tb- در اوستایی متأخر و dv- در گاهان، دو صورت قاعده‌مندِ خوشهٔ آغازینِ *dw- ایرانی باستان‌اند. پس ادعای نورایی در اصلِ اشتقاق درست و در معنا خطاست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:228",
+       "status": "supports",
+       "note": "POK_01.txt leaf 238, p.228: «s-Erweiterung in ai. dvéṣṭi ,haßt, feindet an' … av. dvaēš-, tbaēš- ,anfeinden, kränken', Partiz. tbišta-, dvaēšah-, tbaēšah- ,Anfeindung', mpers. bēš ,Leid, Unheil'»; dvaēθ-ā ,Bedrohung' stands a few lines earlier on p.227. Supports the forms and the descent — and shows where the 'sick, ill' gloss came from."
+      },
+      {
+       "ref": "KLN:454",
+       "status": "supports",
+       "note": "Klein s.v. dire (KLN_1966.txt line 11543; leaf 249, whose printed page number is 455, the preceding leaf carrying 454 — Nourai's 454 is within a page): «It possibly derives fr. I.-E. base *dwei-, 'to be afraid, fear' … OI. dveṣṭi, 'hates', dviṣaḥ, 'hatred', Avestic dvaeθa-, 'threat, menace', and prob. also Arm. erknč̣im, 'I fear'.» Klein's gloss for dvaēθa- is Nourai's first gloss verbatim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "cols. 763-764 (dvaēθā-, dvaēša-) and 813-814 (tbaēšah-) — BRT.txt lines 13939, 14746, header line 14721 '813 tbaēša- … tbaēšah- 814'",
+       "stance": "supports",
+       "note": "«g. dvaēθā- f. ,Bedrohung', mit Akk. der Person: yeiiā mā ... Y.43.9»; «j. tbaēšah-, g. dvaēšah- n. 1) ,Anfeindung, Feindschaft, Feindseligkeit'»; «g. dvaēša- m. ,Qual, Pein'». Bartholomae has all three, none glossed 'sick'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 816 f. (djvu lines 51525, 51538-51541)",
+       "stance": "partial",
+       "note": "«av. dvaēθa „Bedrohung“ (Fick I³ 113)» supports the first word; but for the second: «av. dvaēš-, tbaēš- „anfeinden, kränken“, Ptc. tbišta-, dvaēšah-, tbaēšah- „Anfeindung“, mp. bēš „Leid, Unheil“. Doch liegen die Bedd. „hassen, anfeinden“ und „fürchten“ weit voneinander ab» — Walde-Pokorny doubt that this branch belongs to 'to fear' at all."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "běš 1",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian bēš [byš] 'pain, sorrow; harm, hostility' continues the Old Iranian s-stem *dwaišah- (Av. dvaēšah-/tbaēšah- 'hostility') with the regular Middle Persian loss of the initial *dw- cluster before a front vowel — the same change that gives MP bē 'two' beside Av. dva- and MP bīst 'twenty' beside Av. vīsaiti — plus *ai > ē. Pokorny lists the form himself at the end of the p.228 entry («mpers. bēš ,Leid, Unheil'»), MacKenzie has «bēš [byš] pain, sorrow; harm, hostility. ~ burdan: bear hostility», and Nyberg makes the derivation explicit: «¹bēš [byš] grief, affliction … — Av. dvaēšah-, tbaēšah- 'hostility'». The chart's own NOTE ('See \"Weis\" for an alternative root') is misplaced here: bēš 'sorrow' belongs securely to Dwei; it is the *next* box, Persian bīš 'aconite', for which the Weis root (PIE *weis- 'poison', whence Skt. viṣa-) is not merely an alternative but the correct answer.",
+     "derivation_fa": "«بِش» فارسی میانه [byš] به معنای «رنج، اندوه؛ آزار، دشمنی» دنبالهٔ ستاکِ ‎-s‎یِ ایرانی باستان *dwaišah- است (اوستایی dvaēšah-/tbaēšah- «دشمنی»)، با دو دگرگونی آوایی قاعده‌مند: از میان رفتن خوشهٔ آغازین *dw- در فارسی میانه — همان تحولی که «دو»ی اوستایی را به bē و «بیست» را پدید آورده — و بدل شدن ai کهن به ē. پوکورنی خودِ این صورت را در پایان صفحهٔ ۲۲۸ آورده («mpers. bēš ,Leid, Unheil'»)، مکنزی آن را «bēš [byš] درد، اندوه؛ آزار، دشمنی» ثبت کرده و نیبرگ اشتقاق را صریح نوشته است: «¹bēš … — Av. dvaēšah-, tbaēšah-». یادداشت خودِ نمودار («برای ریشهٔ دیگر بنگرید به Weis») جای درستی ندارد: «بِش» به معنای اندوه به‌قطع از همین ریشه است؛ آن ریشهٔ دیگر برای جعبهٔ بعدی، یعنی «بیشِ» فارسی به معنای گیاه سمی، نه «بدیل» بلکه پاسخ درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:228",
+       "status": "supports",
+       "note": "POK_01.txt leaf 238, end of the dṷei- entry: «… tbaēšah- ,Anfeindung', mpers. bēš ,Leid, Unheil'» — the Pahlavi word is Pokorny's own, on precisely the cited page."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary, b-section (PHD.txt line 256)",
+       "stance": "supports",
+       "note": "«bēš [byš] pain, sorrow; harm, hostility. ~ burdan: bear hostility»; also «bēš-burdār [byšbwltʾl] hostile» and «bēšīdan [byšytn'] = bištan» 'hurt, torment'."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (NYB_vol2_glossary.txt lines 981-983, and the Avestan index line 5144)",
+       "stance": "supports",
+       "note": "«¹bēš [byš] grief, affliction 111⁶. 48¹; ~ burtan to grieve, to mourn … — Av. (814 sq.) dvaēšah-, tbaēšah- 'hostili[ty]'»; the Avestan-to-Pahlavi index likewise has «dvaēšah, tbaēšah: ¹bēš»."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "bîš 2 «بیش ۲»",
+     "verdict": "disputed",
+     "derivation": "Modern scholarship derives Persian بیش bīš 'aconite, a poisonous plant' not from Pahlavi bēš 'sorrow' but from Sanskrit: Wiktionary's Persian entry (Etymology 2) gives «From Middle Persian byš /bīš/ 'aconite', from Sanskrit विषा (viṣā, 'Aconitum ferox'), from विष (viṣa, 'poison'), whence English bikh» — i.e. an Indian drug-name borrowed into Middle Persian, ultimately from PIE *weis- 'poison' (Skt. viṣa-, Lat. vīrus), which is exactly the root Nourai's own NOTE points to under the name 'Weis'. Decisively, MacKenzie's Pahlavi dictionary lists the two words as separate lemmas a few lines apart — «bēš [byš] pain, sorrow; harm, hostility» and «biš [byš] aconite» — so the split is already Middle Persian, and only the ambiguous Pahlavi spelling byš makes them look like one word. Hobson-Jobson s.v. BISH, BIKH says the same on the Indian side: «n. H. from Skt. viṣa, 'poison'. The word has several specific applications, as (a) to the poison of various species of aconite, particularly Aconitum ferox». The arrow Pahlavi bēš → Persian bīš 2 is therefore a homonym confusion; the correct chain is Skt. viṣa-/viṣā > MP bīš > NP بیش.",
+     "derivation_fa": "پژوهش امروزی «بیش» فارسی (گیاه سمی، اقونیطن) را نه از «بِشِ» پهلوی به معنای اندوه، بلکه وام‌واژه‌ای هندی می‌داند: ویکی‌واژه در مدخل دوم «بیش» می‌نویسد که از فارسی میانهٔ bīš «اقونیطن» است و آن از سنسکریت विषा (viṣā، «Aconitum ferox») از विष (viṣa، «زهر»). این همان ریشه‌ای است که خودِ نورایی در یادداشت نمودار با نام «Weis» به آن اشاره کرده — یعنی ریشهٔ هندواروپایی *weis- «زهر» که لاتینی vīrus نیز از آن است. دلیل قاطع در فرهنگ پهلوی مکنزی است که این دو را دو مدخل جداگانه آورده: «bēš [byš] درد، اندوه» و «biš [byš] اقونیطن»؛ پس جدایی این دو واژه از فارسی میانه پیداست و تنها یکسانیِ املای پهلویِ byš آن‌ها را یکی می‌نمایاند. هابسن-جابسن نیز ذیل BISH, BIKH می‌گوید این واژهٔ هندی از سنسکریت viṣa «زهر» است و بر گونه‌های اقونیطن اطلاق می‌شود. بنابراین پیکان «بِشِ پهلوی ← بیشِ فارسی» خطای هم‌آوایی است و ریشه‌شناسی امروزی آن را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D8%B4",
+      "https://vajehyab.com/moein/%D8%A8%DB%8C%D8%B4",
+      "https://abadis.ir/fatofa/%D8%A8%DB%8C%D8%B4/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:627",
+       "status": "not_found",
+       "note": "Mo'in vol.1 p.627 could not be reached: the print volumes are not digitised, and the online Mo'in text (vajehyab.com/moein/بیش and abadis.ir/fatofa/بیش/, both fetched) serves only «بیش [ په . ] (ق .) افزون ، زیاد» = bīš 1 'more', tagged Pahlavi; the aconite sense appears on those pages only in the Amid dictionary section. Nourai's homonym number «بیش ۲» does match Mo'in's numbering practice, so the citation is likely genuine, but its content is unverified — and note that even if Mo'in glosses the plant there, that would not by itself support an origin in bēš 'sorrow'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, b-section (PHD.txt line 256)",
+       "stance": "contradicts",
+       "note": "Two distinct lemmas in the same column: «bēš [byš] pain, sorrow; harm, hostility» and, a few entries later, «biš [byš | N ~] aconite» — MacKenzie explicitly keeps the aconite word apart from the sorrow word and links it to the New Persian form."
+      },
+      {
+       "src": "HJB",
+       "where": "Hobson-Jobson s.v. BISH, BIKH (HJB.txt lines 3630-3635)",
+       "stance": "contradicts",
+       "note": "«BISH, BIKH, &c., n. H. from Skt. viṣa, 'poison.' The word has several specific applications, as (a) to the poison of various species of aconite, particularly Aconitum ferox, otherwise more specifically called in Skt. vatsanābha, 'calf's navel'…»"
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab.com/moein/بیش and abadis.ir (فرهنگ معین section)",
+       "stance": "partial",
+       "note": "Online Mo'in gives only «[ په . ] (ق .) افزون ، زیاد» for بیش, i.e. the homonym 'more' (from MP wēš), not the plant; so Mo'in as served online neither supports nor refutes the plant etymology."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Sogdian",
+     "words": "db`yš",
+     "verdict": "confirmed",
+     "derivation": "Sogdian δβʾyš (Buddhist Sogdian spelling; read δβēš) 'enmity, harm' is the Sogdian outcome of the same Old Iranian s-stem *dwaišah- that gives Av. dvaēšah-/tbaēšah- and MP bēš: Sogdian, unlike Middle Persian, keeps the initial cluster as δβ-, and the Aramaic-based script writes it db-. Gharib's Sogdian Dictionary, entry 3481, states the Avestan connection outright, and the neighbouring entry 3482 δβʾyš- 'to harm' gives the verb. Drawing the box straight from the root rather than through the Avestan box is a simplification of the chart's geometry — Sogdian does not descend from Avestan — but it is not an error: both are independent Old Iranian continuations.",
+     "derivation_fa": "«δβʾyš» سغدی (به خط سغدیِ بودایی؛ خوانش δβēš) به معنای «دشمنی، آزار» بازماندهٔ همان ستاک ‎-s‎ی ایرانی باستان *dwaišah- است که در اوستایی dvaēšah-/tbaēšah- و در فارسی میانه bēš شده است. سغدی برخلاف فارسی میانه خوشهٔ آغازین را نگاه داشته و آن را δβ- تلفظ می‌کند که در خط آرامی‌بنیاد سغدی db- نوشته می‌شود. غریب در فرهنگ سغدی (مدخل ۳۴۸۱) خود به پیوند اوستایی تصریح کرده است. اینکه نمودار این جعبه را یک‌راست از ریشه گرفته و نه از جعبهٔ اوستایی، تنها ساده‌سازیِ شکلِ نمودار است — سغدی از اوستایی نیامده، بلکه هر دو دنبالهٔ مستقلِ ایرانی باستان‌اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:138",
+       "status": "supports",
+       "note": "Gharib, Sogdian Dictionary, entry 3481 (SOD_pages.txt line 13713; form-feed leaf 203, and refs_online gives printed page ≈ leaf − 66, i.e. p.137-138 — Nourai's 138 is right): «3481 δβʾyš B / δβēš ⓐ Av. dvaēš ⇒ δβyš / enmity, harm / VJ 1047»; the next entry «3482 δβʾyš- M, δβēš- ⇒ δβyš-, ⓒ harm» gives the verb."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "cols. 813-814 s.v. tbaēšah- (BRT.txt line 14746)",
+       "stance": "supports",
+       "note": "«j. tbaēšah-, g. dvaēšah- n. 1) ,Anfeindung, Feindschaft, Feindseligkeit'» — the Old Iranian s-stem whose Sogdian reflex Gharib records."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 228 (POK_01.txt leaf 238)",
+       "stance": "supports",
+       "note": "«av. dvaēš-, tbaēš- ,anfeinden, kränken' … dvaēšah-, tbaēšah- ,Anfeindung', mpers. bēš ,Leid, Unheil'» — Pokorny gives the Iranian family but not the Sogdian form itself (silent on Sogdian)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "dîrus",
+     "verdict": "confirmed",
+     "derivation": "Latin dīrus 'fearful, ill-omened, horrible' is a *-ro-* derivative of the root, *dwei-ro- 'that which one fears', formed like clā-rus 'audible' from *kleh₂-. The initial di- instead of the expected bi- (Latin regularly turns *dw- into b-, as in bis, bellum) shows it is a dialect word taken into Latin from Sabine or Umbrian, where *dw- gave d- — an observation going back to Servius on Aeneid III (Pokorny, Walde-Pokorny and Ernout-Meillet all repeat it, comparing di-ennium beside bi-ennium). Semantically it began in the language of augury: Cicero's dirissima exta, and substantivised dīrae 'evil omens, curses', later the Furies (Ernout-Meillet). Watkins gives it as the first branch of the root.",
+     "derivation_fa": "لاتینی dīrus «هراس‌انگیز، شوم، هولناک» ساختی است با پسوند ‎-ro-‎ از همین ریشه، یعنی *dwei-ro- «آنچه از آن می‌ترسند»، درست بر همان قیاسِ clā-rus «شنیدنی». نکتهٔ آوایی مهم آن است که در لاتینِ معیار خوشهٔ آغازین *dw- به b- بدل می‌شود (مانند bis «دوبار» و bellum)؛ پس صورت di- نشان می‌دهد این واژه از گویش‌های سابینی یا اومبریایی به لاتین راه یافته است، آن‌جا که *dw- به d- بدل شده — نکته‌ای که سِرویوس در شرح انئید یاد کرده و پوکورنی، والده-پوکورنی و ارنو-مییه هر سه آن را تکرار کرده‌اند (با قیاسِ di-ennium در برابر bi-ennium). از نظر معنایی نیز نخست اصطلاح فالگیری و دین بوده است: dīrae یعنی «فال بد، نفرین» و سپس نام ایزدبانوان انتقام. واتکینز همین را نخستین شاخهٔ ریشه آورده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. dwei- (AHD_watkins1985.txt line 412): «1. Suffixed form *dwei-ro- in Latin dirus, fearful, horrible (originally a dialectal form): DIRE.» Nourai cites AHD without a page, and this is the entry."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 228 (POK_01.txt leaf 238)",
+       "stance": "supports",
+       "note": "«lat. dīrus ,grausig, grauenvoll, unheilvoll' (von Servius zu Aen. III 235 auch als sabin. und umbr. Wort angeführt, so daß di- statt bi- aus *dui- als mundartliche Lautentwicklung [zu betrachten ist]), mit Formans -ro- ,wovor man sich fürchtet', wie clā-rus ,hörbar'»."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. dirus (LAT.txt lines 16938-16950)",
+       "stance": "partial",
+       "note": "«dirus, -a, -um: de mauvais augure, sinistre. Terme de la l[angue] religieuse … Mot sabin d'après Serv. auct., Ae. 3,235 … Le rapprochement avec la racine dṷei- de hom. δέδϝοικα, δεδϝίμεν, arm. erknč̣im 'je crains', et, avec élargissement -s-, de skr. dvéṣṭi 'il hait' est possible si dirus est vraiment un mot dialectal» — accepted, but expressly conditional."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 816 f. (djvu lines 51528-51532)",
+       "stance": "supports",
+       "note": "«lat. dīrus „grausig, grauenvoll, unheilvoll“ … mit Formans -ro- „wovor man sich fürchtet“, wie cla-rus „hörbar“» — same analysis as Pokorny, with the Ernout and Sommer references."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "dire",
+     "verdict": "confirmed",
+     "derivation": "English dire is a straight learned borrowing of Latin dīrus, taken directly from Latin in the 16th century rather than through French (there is no French *dire in this sense), with the native adjective ending assimilated to -e; the derivative direful is a later English formation on the model of dreadful. Klein and Watkins both take it to the same root, and Watkins's index lists 'DIRE dwei-'.",
+     "derivation_fa": "«dire» انگلیسی وام‌واژه‌ای است ادبی و مستقیم از لاتینی dīrus که در سدهٔ شانزدهم میلادی از خودِ لاتین گرفته شد، نه از راه فرانسه؛ و صفتِ direful بعدها در انگلیسی بر قیاسِ dreadful ساخته شد. کلاین و واتکینز هر دو آن را به همین ریشهٔ هندواروپایی می‌رسانند و در نمایهٔ واتکینز آمده است: «DIRE dwei-». این گره بی‌اشکال است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none)",
+       "status": "not_checked",
+       "note": "Nourai gives this node no reference of its own; it inherits the AHD citation of the Latin box above, which does support it (Watkins s.v. dwei-: '… Latin dirus …: DIRE')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. dire (KLN_1966.txt line 11543, printed p.454-455)",
+       "stance": "supports",
+       "note": "«dire, adj., dreadful. — L. dirus, 'fearful, awful, ill-omened, horrible, terrible', of uncertain origin. It possibly derives fr. I.-E. base *dwei-, 'to be afraid, fear' …» — plus «direful, adj., dire. — Formed on analogy of dreadful. See dire and -ful.»"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. dwei- and the English index (AHD_watkins1985.txt lines 412, 1429)",
+       "stance": "supports",
+       "note": "«*dwei-ro- in Latin dirus … : DIRE», and the index line «DIRE dwei-»."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Greek",
+     "words": "deinos; deinos-saura",
+     "verdict": "plausible",
+     "derivation": "Greek δεινός deinós 'fearful, terrible, awe-inspiring' is regular from the root: *dwei-nos > *δϝεινός > δεινός, with the digamma lost as in δέος déos 'fear' (*δϝεῖος) and δειλός deilós 'cowardly' (*δϝει-λός); Homer's perfect δείδω 'I fear' (*δε-δϝοι-α) preserves the same stem. Klein s.v. dino- states it exactly: «Gk. δεινο-, fr. δεινός (for *δϝει-νός), 'fearful', rel. to δείδω (for *δε-δϝοι-α), 'I fear', δέος (for *δϝει-ος)»; Watkins has «Suffixed form *dwey-eno- in Greek deinos». The second item is where the box overreaches: 'deinos-saura' is not a Greek word at all but a Modern Latin scientific compound (Dinosauria) built from Greek δεινός and σαῦρος/σαῦρα 'lizard' in the 19th century — Klein labels it «ModL., lit. 'frightful lizards', compounded of dino- and Gk. σαῦρα, σαῦρος, 'lizard'». Ancient Greek never had such a compound, and the correct Greek σαῦρος is masculine, so the feminine -saura of the chart is the Latin plural Dinosauria showing through. Verdict plausible: deinos confirmed, deinos-saura an anachronism.",
+     "derivation_fa": "یونانی δεινός («سهمگین، ترسناک») به‌قاعده از این ریشه است: *dwei-nos ← *δϝεινός ← δεινός، با افتادن واکِ دیگاما، درست همان‌گونه که در δέος «ترس» (از *δϝεῖος) و δειλός «بزدل» (از *δϝει-λός) رخ داده؛ و صورت هومریِ δείδω «می‌ترسم» (از *δε-δϝοι-α) همین ستاک را نگاه داشته است. کلاین در مدخل ‎dino-‎ همین را می‌گوید و واتکینز نیز صورت پسوندیِ *dwey-eno- را برای deinos یونانی می‌آورد. اما بخش دوم جعبه از حد فراتر رفته است: «deinos-saura» اصلاً واژه‌ای یونانی نیست، بلکه ترکیبی است علمی و لاتینیِ نو (Dinosauria) که در سدهٔ نوزدهم از δεινός و σαῦρος «سوسمار» ساخته شده؛ کلاین خود آن را «ModL.» می‌نامد. یونانی باستان چنین ترکیبی نداشته و صورت درست σαῦρος مذکر است. پس واژهٔ نخست تأییدشده و واژهٔ دوم زمان‌پریشی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:451",
+       "status": "supports",
+       "note": "Klein s.v. dino- (KLN_1966.txt leaf 247, which carries the printed numbers 450-453, so Nourai's 451 is exact): «dino-, combining form meaning 'fearful'. — Gk. δεινο-, fr. δεινός (for *δϝει-νός), 'fearful', rel. to δείδω (for *δε-δϝοι-α), 'I fear', δέος (for *δϝει-ος), 'fearful, terrible…', δειλός (for *δϝει-λός), 'cowardly', and possibly cogn. with L. dirus, 'fearful'. See dire.» The same leaf's Dinosauria entry marks the compound as ModL., not Greek."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 227-228 (POK_01.txt leaf 238)",
+       "stance": "supports",
+       "note": "«gr. hom. δείδω ,fürchte' (*δε-δϝοι-α) … δέος n. ,Furcht' (*δϝειος) … δεῖμα n., δειμός m. ,Furcht'; δεινός ,schrecklich'; δειλός ,furchtsam, feig' (*δϝειελός)»."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. dwei- (AHD_watkins1985.txt line 412)",
+       "stance": "supports",
+       "note": "«2. Suffixed form *dwey-eno- in Greek deinos, fearful, monstrous: DINOSAUR, DINOTHERE.»"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "dinosaur",
+     "verdict": "confirmed",
+     "derivation": "English dinosaur is the anglicisation of Modern Latin Dinosauria, the order-name coined by Richard Owen in 1841-42 from Greek δεινός 'terrible' + σαῦρος 'lizard'; the singular dinosaur is a back-formation from the plural order-name, and its sense 'obsolete, oversized survivor' is a 20th-century figurative extension. Klein: «dinosaur, n., any member of the Dinosauria» and «Dinosauria, n. pl., a group of extinct Saurian reptiles (paleontol.) — ModL., lit. 'frightful lizards', compounded of dino- and Gk. σαῦρα, σαῦρος, 'lizard'.» Watkins's index likewise gives 'DINOSAUR dwei-'. The chart's arrow is thus right in substance, though the Greek box it comes from should be read as 'Greek elements' rather than a Greek word.",
+     "derivation_fa": "«dinosaur» انگلیسی صورت انگلیسی‌شدهٔ Dinosauria است، نامی لاتینیِ نو که ریچارد اوون در سال‌های ۱۸۴۱–۱۸۴۲ از یونانی δεινός «سهمگین» و σαῦρος «سوسمار» ساخت؛ صورت مفردِ dinosaur از همان نام جمعِ رده بازسازی شده و معنای مجازیِ امروزی آن («چیز از رده خارج و بزرگ») تحول معناییِ سدهٔ بیستم است. کلاین می‌نویسد: «Dinosauria … ModL., lit. 'frightful lizards', compounded of dino- and Gk. σαῦρα, σαῦρος». نمایهٔ واتکینز نیز «DINOSAUR dwei-» دارد. پس پیکان نمودار در اصل درست است، جز آنکه جعبهٔ یونانیِ پیش از آن را باید «عناصر یونانی» خواند نه واژهٔ یونانی.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dwey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none)",
+       "status": "not_checked",
+       "note": "The node carries no reference of its own; it inherits KLN:451 from the Greek box, and that page does cover it (Klein's dinosaur / Dinosauria entries stand on the same leaf as dino-)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. dinosaur, Dinosauria (KLN_1966.txt lines 11473-11475, leaf 247 = printed pp.450-453)",
+       "stance": "supports",
+       "note": "«dinosaur, n. any member of the Dinosauria. — See next word. / Dinosauria, n. pl., a group of extinct Saurian reptiles (paleontol.) — ModL., lit. 'frightful lizards', compounded of dino- and Gk. σαῦρα, σαῦρος, 'lizard'. See sauro-.»"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. dwei- and index (AHD_watkins1985.txt lines 412, 1429)",
+       "stance": "supports",
+       "note": "«… in Greek deinos, fearful, monstrous: DINOSAUR, DINOTHERE», and the index line «DINOSAUR dwei-»."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

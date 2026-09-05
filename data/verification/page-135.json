@@ -412,7 +412,7 @@
        "src": "AVG",
        "where": "grep 'draoga' in AVG.txt (Jackson, Avesta Grammar)",
        "stance": "silent",
-       "note": "the grammar has no lexical entry for this word."
+       "note": "grep -i 'draoga' in AVG.txt returns 0 hits; Jackson's book is a comparative grammar with no lexicon, so it has nothing to say about this word (its only 'drvant' hits are Av. aurvant- 'swift steed' = Skt. árvant-, an unrelated word)."
       }
      ]
     },
@@ -568,9 +568,9 @@
       },
       {
        "src": "TLM",
-       "where": "Tolman, Ancient Persian Lexicon (TLM.txt)",
-       "stance": "silent",
-       "note": "grep for 'duruj' in the local OCR returned nothing usable (the file's OCR of the lexicon is poor)."
+       "where": "Tolman, Ancient Persian Lexicon and texts (TLM.txt lines 194-195, 246, 417, 444)",
+       "stance": "supports",
+       "note": "grep 'duruj' gives 15 hits, all in Tolman's transliterated Bisotun text: 'hauv karahya avaθā [a]durujiya adam Bardiya amiy hya Kuraus puθra' (DB 1.38-39), 'karam avaθā adurujiya adam Nabukudracara amiy' (DB 1.78), and the summary list DB 4.8-30 where each pretender 'adurujiya'; also 'pasava drauga dahyauvā vasiy abava' (DB 1.34) — the attestations behind Kent's entry."
       }
      ]
     },
