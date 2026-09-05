@@ -1,0 +1,307 @@
+{
+ "pdf_page": 150,
+ "book_page": 120,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Eis 2",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₁eyH- / *h₁ey-s- 'ice, frost' (Pokorny IEW 301 '2. ei-s-, ei-n- \"Eis, Frost\"'; Watkins/AHD 'eis-²')",
+   "note": "Nourai's root box reproduces Pokorny exactly: IEW p.301 heads the lemma '2. eis-, ei-n- ,Eis, Frost'' and lists 'Av. isu- ,eisig', aexa- n. ,Kälte', pämir. iš ,Kälte', osset. yex, ix ,Eis', afghan. asai ,Frost'; anord. iss … ags. is n., as. ahd. mhd. is n. ,Eis'; bsl. *inia- ,Reif''. The label 'Indo-European', the numbering 'Eis 2' (Pokorny's second eis-) and the gloss 'ice' are therefore all correct; Nourai's 'Eis' is simply Pokorny's German headword taken over as a root name. Modern reconstruction writes the root with the laryngeal, *h₁eyH- (Wiktionary, Proto-Iranian *Háyxam < PIE *h₁eyg-/*h₁eyH-), and the older handbooks are cautious about whether the Iranian and Germanic words really belong together: Walde-Pokorny I 108 says only 'Möglicherweise verwandt mit av. aēxa- \"Frost, Eis\", isu \"kalt\"', Buck 1.77 writes 'prob. : Av. aēxa- … NPers. yax … root connection?', and Etymonline still calls the Germanic word 'of uncertain origin'. That caution concerns the depth of the reconstruction, not the Iranian-Germanic equation itself, which every source on the page repeats. One purely graphic point: the printed page also carries an EMPTY box to the right of the Old Persian box, joined to it by an arrow; it is blank in the book (no language, no word), and the JSON extraction simply omits it.",
+   "note_fa": "جعبهٔ ریشهٔ این نمودار همان مدخل دوم پوکورنی در صفحهٔ ۳۰۱ فرهنگ ریشه‌شناسی هندواروپایی است: «‎2. eis-, ei-n- ,Eis, Frost'‎» با نمونه‌های اوستایی isu- «یخین»، aēxa- «سرما»، آسی yex/ix، پشتوی asai و ژرمنی īs. پس برچسب «هندواروپایی»، شمارهٔ «Eis 2» و معنای «یخ» هر سه درست‌اند و ادعای نورایی در حدّ جعبهٔ ریشه پذیرفتنی است. بازسازی امروزی این ریشه را با حنجره‌ای می‌نویسند: *h₁eyH-‎ (ویکی‌واژه: ایرانی آغازین *Háyxam از *h₁eyg-/*h₁eyH-). تنها نکته آنکه والده ـ پوکورنی (جلد ۱ ص ۱۰۸) و باک (بند ۱٫۷۷) پیوند واژه‌های ایرانی و ژرمنی را با تردید («شاید هم‌ریشه») می‌آورند، و این تردید دربارهٔ ژرفای بازسازی است نه دربارهٔ خودِ برابری ایرانی ـ ژرمنی. در صفحهٔ چاپی یک جعبهٔ خالی هم در کنار جعبهٔ «پارسی باستان» کشیده شده که در خودِ کتاب تهی است و در داده‌های استخراج‌شده نیامده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C3%A1yxam",
+    "https://www.etymonline.com/word/ice"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:301",
+     "status": "supports",
+     "note": "POK_01.txt: the page marker '301' stands at line 4378 and the lemma follows at line 4383: 'z. eis-, ei-n- ,Eis, Frost'. Av. isu- ,eisig*, aexa- n. ,Kälte*, pämir. iš ,Kälte', osset. yex, ix ,Eis', afghan. asai ,Frost' … anord. iss, Pl. issar m. ,Eis', ags. is n., as. ahd. mhd. is n. ,Eis' … WP. I 108, Trautmann 104.' (grep -n 'aexa' POK_01.txt). The English Pokorny database (POK_full.txt line 24782) has the same lemma as 'Root/lemma: ei-s-2, ei-n- (*heis-), Meaning: ice … Page(s): 301'. Root, language and gloss are exactly as drawn."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p. 108 (incoming/WLD/WLD_Bd1_1930_dli_70244_djvu.txt line 7008 ff.)",
+     "stance": "partial",
+     "note": "'2. eis- „Eis“. Altn. íss, pl. ísar m. „Eis“, ags. īs n., mnd. īs n., ahd. mhd. īs n. dss. Möglicherweise verwandt mit av. aēxa- „Frost, Eis“, isu „kalt“ (von einer Inchoativbildung *is-sk-). Vgl. … Bartholomae ZDMG. 50, 697 …' — the same root, but the Iranian-Germanic equation is given as merely 'possible', and no Persian form is cited."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, e-list (AHD_watkins1985.txt line 432)",
+     "stance": "supports",
+     "note": "'eis-2. Ice, frost. Germanic *is- in Old English is, ice: ICE; ICICLE. [Pok. 2. ei-s- 301.]' — the root name Nourai uses, the gloss 'ice', and the Pokorny page all agree."
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, s.v. is- (1) (IEC.txt line 6243)",
+     "stance": "supports",
+     "note": "'is- (1) (ois-?) \"hard or crystalline substance, ice\". WP I, 108. Av. isis, m. \"ice\"; aexa (\"frost\", fr. *ois-?); Per. yax \"ice\"; Oss. Ix, Dig. jex \"ice, hail\"; MHG, OE īs, ON íss, id.' — Mann collects the same set, and unlike Pokorny he explicitly includes Persian yax."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 1.77 ICE, §4 (SYN.txt line 2029 ff., printed pp. 69-70)",
+     "stance": "partial",
+     "note": "'ON íss, OE is, etc., general Gmc., prob. : Av. aēxa- \"frost, ice\", isu- \"frosty, icy\", NPers. yaχ \"ice\", Afghan asai \"frost\", root connection? Walde-P. 1.108 … Barth. 372.' — same family, but Buck queries the ultimate root connection."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "isav; aěxa",
+     "verdict": "confirmed",
+     "derivation": "Both forms are real Young Avestan words and both are cited by Pokorny on the very page Nourai gives. (a) isav- is the strong stem of the u-stem adjective isu- 'frosty, icy': Bartholomae, Altiranisches Wörterbuch (BRT.txt line 7979) 'j. isav- Adj. \"frostig, eisig\"; pasča isaoš zəmō aiwi.gaitīm \"nach Eintritt des eisigen Winters\" V. 9.6', with the etymological note 'Zu einem Praes. (Inkoh.) *isaiti \"es friert, es gibt Eis\"; vgl. afγ. asai \"Frost\", ahd. is \"Eis\"'. Nourai's 'isav' is thus the dictionary stem, not a misprint, and his gloss 'frosty' is Bartholomae's 'frostig' verbatim. (b) aěxa is Nourai's transcription of aēxa- (he writes the long ē of the diphthong with a breve, as he does throughout for Avestan aē-): Bartholomae (BRT.txt line 2517 area) 'j. aēxa- n. \"Frost, Eis\": kə̄m.stərətəm … aēxa- \"den erstarrenden Frost\" Yt. 10.2; a) Plur. \"Eisfelder\" … H. 2.25', with the note 'np. یخ \"Eis\" … Bthl. ZDMG. 50.697.' Pokorny 301 glosses it 'Kälte', Bartholomae 'Frost, Eis'; Nourai's 'ice' follows Bartholomae and is defensible. Phonologically Av. aēxa- < Proto-Iranian *(H)aixa- < *h₁ey-k-o- (Wiktionary *Háyxam), the -x- being the regular Iranian outcome of *k before the following consonant/in this formation; isu- is the zero grade *is-u- of the same root with the inchoative present *is-sk-. Both derive from the root box as drawn.",
+     "derivation_fa": "هر دو صورت واقعاً اوستایی‌اند و هر دو در همان صفحهٔ ۳۰۱ پوکورنی آمده‌اند. نخست isav- ستاکِ قویِ صفتِ u-ستاکِ isu- «یخین، سرمازده» است؛ بارتولومه در فرهنگ ایرانی باستان می‌نویسد: «j. isav- Adj. ,frostig, eisig‘» با شاهدِ وندیداد ۹٫۶ «pasča isaoš zəmō aiwi.gaitīm» یعنی «پس از فرارسیدنِ زمستانِ یخین»؛ پس «isav» خطای چاپی نیست بلکه همان ستاکِ فرهنگ‌نامه‌ای است و معنای «frosty» ترجمهٔ دقیقِ «frostig» بارتولومه است. دوم، «aěxa» همان aēxa-‎ است (نورایی ای‌کشیدهٔ دوواکهٔ اوستایی را با علامتِ کوتاه می‌نویسد)؛ بارتولومه آن را «aēxa- n. ,Frost, Eis‘» می‌آورد (یشت ۱۰٫۲) و در جمعْ «یخ‌زارها». پوکورنی معنای «سرما» و بارتولومه «یخ، یخ‌بندان» می‌دهد و برگردانِ نورایی («یخ») با بارتولومه می‌خواند. از نظر آوایی aēxa-‎ از ایرانی باستانِ ‎*(H)aixa-‎ و isu-‎ از پایهٔ صفرِ همان ریشه با ستاکِ حالِ آغازیِ ‎*is-sk-‎ است. بنابراین ادعای نورایی در این گره درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C3%A1yxam"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:252",
+       "status": "supports",
+       "note": "Horn, Grundriss der neupersischen Etymologie, no. 1126, printed p. 252 (HRN.txt leaf 274 = printed + 21): 'yax \"Eis\", yexe \"Hagel\". aw. aēxa- \"Eis\" (de Lagarde, Beitr. z. altb. Lex. 47), oder \"Frost\" (Bartholomae, Studien II, 55); pāz. yah. kurd. afγ. LW. yex; oss. d. yex, i. ix \"Eis, Hagel\"; waχ. yiχ.' Horn thus gives the Avestan etymon of the Persian word, i.e. exactly the arrow #1 → #2."
+      },
+      {
+       "ref": "POK:301",
+       "status": "supports",
+       "note": "POK_01.txt line 4384 (page 301): 'Av. isu- ,eisig*, aexa- n. ,Kälte*' — both of the node's words stand in Pokorny's entry, though he glosses aēxa- 'Kälte' rather than 'ice'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch s.v. aēxa- (BRT.txt line 2517) and s.v. isav- (line 7979; the page ends '373', so the column Buck cites as 'Barth. 372')",
+       "stance": "supports",
+       "note": "'j. aēxa- n. \"Frost, Eis\" … a) Plur. \"Eisfelder\"' with 'np. یخ \"Eis\" … Bthl. ZDMG. 50.697'; and 'j. isav- Adj. \"frostig, eisig\" … V. 9.6' with 'Zu einem Praes. (Inkoh.) *isaiti \"es friert, es gibt Eis\"'."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. ice (KLN_1966.txt line 18583)",
+       "stance": "supports",
+       "note": "'ice, n. — ME. is, fr. OE. is … Outside Teut. cp. Avestic isav-, \"frosty\", aexa-, \"ice\", Afghanic asai, \"frost\".' Klein uses the same stem form 'isav-' Nourai prints, and glosses aexa- 'ice' as Nourai does."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 1.77 ICE §4 (SYN.txt line 2029 ff.)",
+       "stance": "supports",
+       "note": "'prob. : Av. aēxa- \"frost, ice\", isu- \"frosty, icy\", NPers. yaχ \"ice\" … Barth. 372.'"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "yax «یخ»",
+     "verdict": "confirmed",
+     "derivation": "NP یخ yax 'ice' continues Old Iranian *(H)aixa- (= Av. aēxa-) through Middle Persian yax (also read ēx). The one point that needs explaining is the initial ya-, and it is a known regular development, not an obstacle: Hübschmann, Persische Studien p. 143, lists it under 'Dagegen wird ap. ai im Anlaut zu paz. np. ya-' with the two examples 'yax \"Eis\", osset. yex, ix; zd. aēxa-' and 'yak \"ein\"', and repeats on p. 152 'In yak \"ein\" und yax \"Eis\" geht ya- auf ai- zurück' — i.e. Old Persian/Old Iranian initial ai- gives Pāzand/New Persian ya-. Horn no. 1126 and Mo'in's footnote in Borhan-e Qateʿ give the same chain and add the dialect cognates (Pāzand yah, Kurdish and Afghan yex, Ossetic yex/īx 'ice, hail', Wakhi yix, Gilaki yax); Wiktionary reconstructs Proto-Iranian *Háyxam with the descendants MP yax, NP yax, Gilaki yəx, Mazanderani yax, Ossetic ix, Sogdian yaxn. Strictly the Persian word is not descended FROM Avestan but is the sister continuation of the same Old Iranian etymon; Nourai (like Horn and Mo'in) uses the Avestan box as the Old Iranian stage, which is his standard convention. First attested in NP in Ferdowsi (Šāh-nāme, quoted by Mo'in: 'čenān šod ke goftī tarāz yax ast'). Semantics unchanged: 'ice' throughout.",
+     "derivation_fa": "واژهٔ «یخ» دنبالهٔ ایرانی باستانِ ‎*(H)aixa-‎ (همان aēxa-‎ اوستایی) است که از راه فارسی میانهٔ yax (خوانشِ دیگر ēx) به فارسی نو رسیده است. تنها نکتهٔ آوایی، «یـ» آغازین است و آن هم دگرگونیِ قاعده‌مندی است: هوبشمان در «مطالعات فارسی» ص ۱۴۳ زیر عنوانِ «ai آغازینِ پارسی باستان در پازند و فارسی نو به ya- بدل می‌شود» دو نمونه می‌آورد: «yax ,Eis‘، آسی yex، ix؛ اوستایی aēxa-» و «yak ,ein‘»، و در ص ۱۵۲ باز می‌گوید «در yak و yax، ya- از ai- آمده است». هرن (شمارهٔ ۱۱۲۶) و حاشیهٔ معین بر برهان قاطع (ص ۲۴۲۷) همین زنجیره را می‌دهند و هم‌ریشه‌های گویشی را می‌افزایند: پازند yah، کردی و افغانی yex، آسی yex/îx «یخ، تگرگ»، وخی yix، گیلکی yax. ویکی‌واژه نیز ایرانی آغازینِ ‎*Háyxam‎ را بازسازی می‌کند با بازماندگانِ فارسی میانه yax، فارسی yax، گیلکی yəx و سغدی yaxn. به‌دقت باید گفت «یخ» از اوستایی گرفته نشده، بلکه هم‌ریشه و هم‌ردیفِ آن از یک ستاکِ ایرانی باستان است؛ نورایی ــ مانند هرن و معین ــ جعبهٔ اوستایی را نمایندهٔ مرحلهٔ ایرانی باستان گرفته است. کهن‌ترین شاهدِ فارسیِ آن در شاهنامه است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DB%8C%D8%AE",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C3%A1yxam"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2427",
+       "status": "supports",
+       "note": "Borhan-e Qateʿ ed. Moʿin, p. 2427 (vol. 4, pdf p. 510; rendered to data/verification/sources/refs/ocr/BQT/2427.png, read by vision and saved to 2427.vision.txt). Moʿin's etymological footnote no. 5: «یخ ـ بفتح اول، اوستا aēxa (یخ) (de Lagarde, Beitr. 2. altb. Lex. 4) یا یخ بندان (Bartholomae, Studien II, 55)، پازند yah، کردی و افغانی yex، استی yex، îx (یخ، تگرگ)، وخی yix، «اشتقاق ۱۱۲۶»، گیلکی yax» — i.e. exactly Nourai's arrow, and «اشتقاق ۱۱۲۶» is Moʿin's reference to Horn's Grundriss no. 1126 (= HRN:252). The printed page number is not visible on the scan; the page is fixed by the tool's offset (+1917) and by the alphabetical position (یخچه، یخ در بهشت، یخنی on the same page)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien pp. 143 and 152 (HUB.txt lines 4967 and 5318; leaf = printed + 10)",
+       "stance": "supports",
+       "note": "p. 143: 'Dagegen wird ap. ai im Anlaut zu paz. np. ya- in: yax \"Eis\", osset. yex, ix; zd. aēxa-; yak \"ein\" …'; p. 152: 'In yak \"ein\" und yax \"Eis\" geht ya- auf ai- zurück.' This is the phonological justification for the arrow."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn no. 1126, p. 252 (HRN.txt leaf 274)",
+       "stance": "supports",
+       "note": "'yax \"Eis\", yexe \"Hagel\". aw. aēxa- \"Eis\" … oder \"Frost\" (Bartholomae, Studien II, 55); pāz. yah; kurd. afγ. LW. yex; oss. d. yex, i. ix \"Eis, Hagel\"; waχ. yiχ.'"
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e riše-hā-ye hend-o-orupāyi, pdf page 538 (incoming/ARY/ARY_latin_index_pages.txt line 15706 ff.)",
+       "stance": "supports",
+       "note": "The یخ entry groups AVESTAN 'AEX, AEXA, ISU', PAHLAVI 'YAH', OSSETIC 'YEX, IX', KURDISH 'YEX', BALUCHI 'YEX', AFGHAN 'ASAI', OLD ENGLISH 'IS', ENGLISH 'ICE', GERMAN 'EIS', with references 'POKORNY (301) … BUCK: 69-70 … SKEAT: (ICE) 285 … MALLORY & ADAMS: *H₁EIHX-' — an independent modern Persian handbook drawing exactly Nourai's chart."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, A Concise Pahlavi Dictionary (PHD.txt, PHD_mackenzie.txt; grep 'yax')",
+       "stance": "silent",
+       "note": "MacKenzie has no entry yax 'ice' (only yaxš 'word' in Nyberg, a different word); the Middle Persian form is known from Manichaean/Pāzand material rather than from the Book-Pahlavi corpus MacKenzie glosses, so his silence is not a disagreement."
+      },
+      {
+       "src": "IEC",
+       "where": "Mann s.v. is- (1) (IEC.txt line 6243)",
+       "stance": "supports",
+       "note": "'Per. yax \"ice\"' listed beside 'Av. isis … aexa' and 'Oss. Ix, Dig. jex', all under one root."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Old Persian",
+     "words": "viyaxna",
+     "verdict": "disputed",
+     "derivation": "OP viyax(a)na- is not an attested Old Persian noun meaning 'ice': it is the name of the twelfth Achaemenid month (Feb.-March, Akkadian Addāru), known only from the genitive Viyaxnahyā māhyā 'in the month V.' in Darius' Bisotun inscription (DB 1.37, 1.42, 1.96, 2.26 etc.) and from Elamite Mi-ya-kán-na-iš on the Persepolis tablets. Nourai's gloss 'ice' comes from his source: Gharib's Sogdian Dictionary entry 11097 cross-refers the Sogdian word for 'ice' to 'OP viyaxna'. But that is a guess about the month name, not a translation of an attested word, and it is not what the Old Persian specialists say. Kent, Old Persian §, on the -na- formations: 'Perhaps with vriddhi in prefix: Vi-yax-na- (radical element uncertain)' — he refuses to give a meaning. Schmitt (2003) reviewed all proposed etymologies of the month name and discarded them all, and Lubotsky (2012, 'The Old Persian month name viyax(a)na-, Avestan viiāx(a)na- \"eloquent, bragging\" and Ossetic festivals', in the Schindler memorial volume, pp. 95-106) argues that OP viyax(a)na- is formally identical with Avestan viiāxana- 'speaking in the assembly, eloquent' (Bartholomae: 'j. vyāxana- Adj. \"in der Versammlung sprechend, ihr Rat erteilend, beredt\"'), the Avestan ā being the regular lengthening after *Ci-, so that the month is the month of the (verbal-contest) assembly — an Ossetic-style late-winter festival. Formally the 'ice' etymology is also awkward: the Iranian word is *(H)aix-/*yax- with no prefix, whereas viyax(a)na- has the preverb vi- and a -na- suffix. Verdict: the form is genuine Old Persian and correctly transcribed, but the gloss 'ice' and the attachment to this root are rejected by current scholarship.",
+     "derivation_fa": "‏viyax(a)na-‎ واژه‌ای پارسی باستان به معنای «یخ» نیست؛ نامِ دوازدهمین ماهِ گاه‌شمارِ هخامنشی (اسفند، برابرِ Addāru اکدی) است که تنها در حالتِ اضافیِ «Viyaxnahyā māhyā» در سنگ‌نبشتهٔ بیستون (بندهای ۱٫۳۷، ۱٫۴۲، ۲٫۲۶ و …) و در صورتِ عیلامیِ Mi-ya-kán-na-iš در گل‌نبشته‌های تخت‌جمشید آمده است. معنای «یخ» را نورایی از مأخذِ خود گرفته: قریب در فرهنگ سغدی (مدخل ۱۱۰۹۷) واژهٔ سغدیِ «یخ» را با «OP viyaxna» می‌سنجد؛ ولی این تنها حدسی دربارهٔ نامِ ماه است نه ترجمهٔ واژه‌ای گواهی‌شده. کنت در «پارسی باستان» می‌نویسد: «شاید با وریدی در پیشوند: Vi-yax-na-‎ (عنصرِ ریشه‌ایِ آن نامعلوم است)». اشمیت (۲۰۰۳) همهٔ ریشه‌شناسی‌های پیشنهادی این نامِ ماه را رد کرده و لوبوتسکی (۲۰۱۲) نشان داده که این واژه از نظر صورت همان viiāxana-‎ اوستایی «سخنورِ انجمن، بلیغ» است (بارتولومه: «در انجمن سخن‌گوینده، رای‌دهنده، بلیغ»)، و کشیدگیِ ā در اوستایی پس از ‎*Ci-‎ قاعده‌مند است؛ پس این ماه، ماهِ انجمن و مسابقهٔ سخنوری بوده است. از نظر ساخت هم واژهٔ ایرانیِ «یخ» ‎*(H)aix-/*yax-‎ است و پیشوند و پسوند ندارد، حال آنکه viyaxna-‎ پیشوندِ vi- و پسوندِ ‎-na-‎ دارد. خلاصه: خوانشِ صورت درست است، اما معنای «یخ» و بستنِ آن به این ریشه را پژوهشِ امروزی رد می‌کند.",
+     "sources": [
+      "https://scholarlypublications.universiteitleiden.nl/access/item:2882943/view"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:452",
+       "status": "partial",
+       "note": "Gharib, Sogdian Dictionary, printed p. 452 (SOD_pages.txt scan page 520, which carries the printed number '452'), entry '11097 yxn(w) S — yaxn ©OP viyaxna ⇒ yγδyn, γnγyn'k, yxnyy — ice — Sund. MHC p26 n33 38.8 V3'. The page does make Nourai's connection, but it makes it as a bare comparandum ('©OP viyaxna') attached to the SOGDIAN headword; Gharib nowhere states that the Old Persian month name means 'ice'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, formation of -na- stems (KNT.txt line 1962) and DB citations (line 622)",
+       "stance": "partial",
+       "note": "'Perhaps with vriddhi in prefix: Vi-yax-na- (radical element uncertain).' and 'Regularly in the -ahyā genitive of the month name, before māhyā: Viyaxnahyā māhyā DB 1.37; other examples 1.42, 96; 2.26 …'. Kent confirms the form and that it is a month name, but explicitly declines to identify the root — so he does not support the gloss 'ice'."
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae s.v. vyāxana- (BRT.txt line 24681)",
+       "stance": "contradicts",
+       "note": "'j. vyāxana- Adj. (fem. -ī-) \"in der Versammlung sprechend, ihr Rat erteilend, beredt\" … Yt. 13.16, Yt. 10.61, 10.65, Ny. 3.10 …' — the Avestan word that Lubotsky equates with the OP month name; it has nothing to do with ice."
+      },
+      {
+       "src": "ISS",
+       "where": "Bailey, Indo-Scythian Studies / Khotanese dictionary (ISS_alt_DKS.txt line 7126, s.v. vyach-)",
+       "stance": "contradicts",
+       "note": "'to Av. vyax- in vyāxa-, vyaxna-, vyāxana-, vyāxman- (variant vyaxman-) \"place of coming to, encounter, (hostile) meeting\" … the Zor.P. gloss is hanjaman \"coming together\"' — Bailey too puts vyaxna- in the 'assembly/encounter' family, not with 'ice'."
+      },
+      {
+       "src": "POK",
+       "where": "IEW p. 301 (POK_01.txt line 4384)",
+       "stance": "silent",
+       "note": "Pokorny's eis-2 entry lists Avestan, Pamir, Ossetic and Pashto forms but no Old Persian word at all."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Sogdian",
+     "words": "yxn",
+     "verdict": "confirmed",
+     "derivation": "Sogdian yxn(w) (Sundermann's Manichaean text; read yaxn) 'ice' is the same Iranian etymon as Persian yax, extended by the common Sogdian noun suffix -n (< *-na-): Proto-Iranian *(H)aixa- / *yaxa- + -na- > yaxn. Gharib's dictionary gives it with the variants yγδyn and γnγyn'k 'icy, of ice' (entry 10993, from TSP 9.29) and yxnyy, and cross-refers it to OP viyaxna; Wiktionary's Proto-Iranian *Háyxam page lists 'Sogdian yxnw (yaxn, \"ice\")' beside Khwarezmian ʾyx/yyx and Yaghnobi ix/ex as the north-eastern Iranian continuations. Nourai's transliteration 'yxn' is the consonantal skeleton as written in the Sogdian script (Gharib prints yxn(w), the -w being the graphic ending); attaching it directly to the root box rather than under the Avestan box is right, since Sogdian is an East Iranian language and not a descendant of Avestan.",
+     "derivation_fa": "واژهٔ سغدیِ yxn(w) (خوانده yaxn) «یخ» همان ستاکِ ایرانیِ «یخ» است با پسوندِ اسم‌سازِ ‎-n‎ (از ‎*-na-‎): ایرانی آغازینِ ‎*(H)aixa-/*yaxa-‎ + ‎-na-‎ ← yaxn. قریب در فرهنگ سغدی (مدخل ۱۱۰۹۷، ص ۴۵۲) آن را با گونه‌های yγδyn و γnγyn'k «یخین» (مدخل ۱۰۹۹۳) و yxnyy می‌آورد و با «viyaxna»ی پارسی باستان می‌سنجد؛ ویکی‌واژه نیز در مدخلِ ایرانی آغازینِ ‎*Háyxam‎ «سغدی yxnw (yaxn) یخ» را در کنارِ خوارزمیِ ʾyx و یغنابیِ ix می‌نشاند. آوانگاریِ «yxn» در کتاب همان پیکرهٔ بی‌واکهٔ خطِ سغدی است. اینکه نورایی این گره را یکراست به جعبهٔ ریشه بسته و زیرِ اوستایی نبرده، درست است، زیرا سغدی زبانی ایرانیِ خاوری است و بازماندهٔ اوستایی نیست. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/H%C3%A1yxam"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:452",
+       "status": "supports",
+       "note": "Gharib p. 452 (scan page 520 of SOD_pages.txt, printed number '452' at the head of the page): '11097 yxn(w) S — yaxn ©OP viyaxna ⇒ yγδyn, γnγyn'k, yxnyy — ice — Sund. MHC p26 n33 38.8 V3'; the same page has '11098 yxnyy M — yaxne ©OP viyaxna'. The English index (SOD.txt line 90585) confirms 'ice 10993, 11097'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "Gharib entry 10993 (SOD.txt line 82572)",
+       "stance": "supports",
+       "note": "'10993 γnγyn'k B — yanxene (γnγyn'k) ⇒ yxn(w), yγδyn — icy, (of) ice — TSP 9.29, Benv. II p220' — the derived adjective of the same stem, confirming the word is well attested in Sogdian."
+      },
+      {
+       "src": "ISS",
+       "where": "Bailey, Khotanese (ISS_alt_DKS.txt; grep 'yaxn')",
+       "stance": "silent",
+       "note": "Bailey's Khotanese material has no 'ice' word from this stem (his 'yaxn-' citations belong to *yakar 'liver'); no Khotanese cognate is claimed by the chart either."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 301 (POK_01.txt line 4384)",
+       "stance": "silent",
+       "note": "Pokorny lists Pamir iš and Ossetic yex/ix but no Sogdian form; Sogdian material was not in his sources for this lemma."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Germanic",
+     "words": "îs",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *īsa- n. 'ice' (Nourai's 'îs' is the OHG/OE spelling of the same form) continues the root's *ei-s- grade: Pokorny 301 'anord. íss, Pl. íssar m. \"Eis\", ags. is n., as. ahd. mhd. is n. \"Eis\"'; Walde-Pokorny I 108 the same. Watkins/AHD summarises it as 'eis-². Ice, frost. Germanic *is- in Old English is, ice: ICE; ICICLE. [Pok. 2. ei-s- 301.]', which is precisely the reference (AHD) printed in this box. The word survives in every Germanic language (ON íss, OFris. is, Du. ijs, Ger. Eis, Dan./Swed. is) and gave the rune-name īsaz; it is also the source of the Germanic word for the season-metaphor in icicle (OE īses gicel). The connection with the Iranian branch is the one Pokorny, Klein and Buck all state, with Walde-Pokorny's caveat 'möglicherweise'.",
+     "derivation_fa": "ژرمنیِ آغازینِ ‎*īsa-‎ «یخ» (صورتِ «îs» در کتاب همان املای آلمانیِ علیای باستان/انگلیسی باستان است) دنبالهٔ پایهٔ ‎*ei-s-‎ همین ریشه است؛ پوکورنی در ص ۳۰۱ می‌آورد: «anord. íss … ags. is n., as. ahd. mhd. is n. ,Eis‘» و والده ـ پوکورنی (ج ۱ ص ۱۰۸) همان را. واتکینز در پیوستِ ریشه‌های هندواروپاییِ فرهنگ American Heritage ــ یعنی همان مأخذی که در این جعبه آمده ــ می‌نویسد: «eis-²‎. یخ، سرما. ژرمنیِ ‎*is-‎ در انگلیسی باستانِ is: ICE; ICICLE». این واژه در همهٔ زبان‌های ژرمنی مانده است (ایسلندی íss، هلندی ijs، آلمانی Eis، دانمارکی/سوئدی is). پیوندِ آن با شاخهٔ ایرانی همان است که پوکورنی، کلاین و باک می‌گویند (با احتیاطِ «شاید» در والده ـ پوکورنی). ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ice"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 (AHD_watkins1985.txt line 432): 'eis-2. Ice, frost. Germanic *is- in Old English is, ice: ICE; ICICLE. [Pok. 2. ei-s- 301.]' — the box's only reference, and it says exactly what the arrow says (root → Germanic *is- → English ice)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 301 (POK_01.txt line 4386)",
+       "stance": "supports",
+       "note": "'anord. iss, Pl. issar m. ,Eis', ags. is n., as. ahd. mhd. is n. ,Eis''."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 108 (incoming/WLD/WLD_Bd1_1930_dli_70244_djvu.txt line 7010)",
+       "stance": "supports",
+       "note": "'Altn. íss, pl. ísar m. „Eis“, ags. īs n., mnd. īs n., ahd. mhd. īs n. dss.'"
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. ice (KLN_1966.txt line 18583)",
+       "stance": "supports",
+       "note": "'rel. to ON. iss, OS., OFris., MLG., OHG., MHG. is, Dan., Swed. is, Du. ijs, G. Eis.'"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "ice",
+     "verdict": "confirmed",
+     "derivation": "English ice < Middle English is, ijs, ise < Old English īs 'ice, piece of ice' < Proto-Germanic *īsa-, i.e. the node's parent. The modern spelling with -ce dates from the 15th century, when French-influenced orthography replaced final -s to keep the /s/ from being read as /z/ (Etymonline); the same word gives icicle (OE īses gicel 'icicle of ice', with gicel from the unrelated root *yeg-, Pokorny 503). No reference is printed in this box, but the chain is one of the least controversial in the book and is given identically by Klein and Etymonline.",
+     "derivation_fa": "واژهٔ انگلیسیِ ice از انگلیسیِ میانهٔ is/ise و آن از انگلیسیِ باستانِ īs «یخ، تکه‌یخ» است، یعنی درست از همان گرهِ پدر (ژرمنیِ ‎*īsa-‎). املای امروزیِ با ‎-ce‎ از سدهٔ پانزدهم است تا «س» پایانی به‌صورت «ز» خوانده نشود (اتیمانلاین). همین واژه در icicle «قندیلِ یخ» هم هست (انگلیسی باستان: īses gicel) که جزءِ دومش از ریشهٔ دیگری (‎*yeg-‎، پوکورنی ص ۵۰۳) است. این جعبه در کتاب مأخذی ندارد، ولی زنجیره از بی‌مناقشه‌ترین بخش‌های کتاب است و کلاین و اتیمانلاین همین را می‌گویند. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ice"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none printed)",
+       "status": "not_checked",
+       "note": "The English box carries no reference in the book (refs=None); the parent box's AHD reference covers the chain ('Germanic *is- in Old English is, ice: ICE; ICICLE'), and Klein and Etymonline were consulted instead — see 'consulted'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. ice (KLN_1966.txt line 18583)",
+       "stance": "supports",
+       "note": "'ice, n. — ME. is, fr. OE. is, rel. to ON. iss … Cp. iceberg, icicle, Isold.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, s.v. eis-2 (AHD_watkins1985.txt line 432)",
+       "stance": "supports",
+       "note": "'Germanic *is- in Old English is, ice: ICE; ICICLE.'"
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. icicle (SKT.txt line 9065; the ICE entry itself is badly OCR'd)",
+       "stance": "supports",
+       "note": "'… fr. M.E. ys, ice … A.S. ises gicel, an icicle … a dimin. form, meaning \"a small piece of ice\"' — the OE ancestor of NE ice as Klein gives it."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
