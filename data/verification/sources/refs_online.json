@@ -975,7 +975,7 @@
   "notes": "RE-SEARCH 2026-09: borrowable only."
  },
  "MPP": {
-  "title": "W. B. Henning, 'Mitteliranisch', Handbuch der Orientalistik I.4.1, Leiden 1958 (pp. 20-130)",
+  "title": "W. B. Henning, \"A List of Middle-Persian and Parthian Words\", Bulletin of the School of Oriental Studies IX (1937–39), pp. 79–92",
   "edition_found": "1958",
   "kind": "archive_djvu",
   "url": "https://archive.org/details/henning-1958-mitteliranisch",
@@ -983,7 +983,8 @@
   "local_file": "/home/sfmqrb/git/rishe/data/verification/sources/refs/MPP.txt",
   "page_offset": "leaf = printed - 14 (e.g. leaf 7 = p.21). local file has \\f between leaves (0-based leaf index i == i-th form-feed page); open a leaf online at https://archive.org/details/<identifier>/page/n<leaf>",
   "lookup_hint": "Nourai's Table IV entry for MPP is garbled in the OCR (reads like a Persian title, 'Honari darbareh Zaban Farsi ... 1961'); Table III credits MPP to Henning, so this is most likely 'Mitteliranisch'. Treat identification as tentative and verify that cited page numbers fall in 20-130.",
-  "notes": ""
+  "notes": "CORRECTED 2026-09-05: Nourai's Table IV no. 66 identifies MPP as Henning's BSOS IX word-list (pp. 79–92), not \"Mitteliranisch\". The local file labelled MPP.txt is Mitteliranisch and does NOT contain the cited material; MPP:79 is simply the article's first page. The article itself is not on disk (JSTOR/Cambridge Core).",
+  "cites": "page number of Henning's BSOS IX (1937–39) article, pp. 79–92"
  },
  "DVS": {
   "title": "P. Davies, Roots: Family Histories of Familiar Words, McGraw-Hill 1981",
