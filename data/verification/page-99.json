@@ -1,0 +1,692 @@
+{
+  "pdf_page": 99,
+  "book_page": 69,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Bistak",
+      "verdict": "plausible",
+      "modern_form": "Middle Persian pstk' = pistag 'pistachio nut' (< Old Persian *pistaka-, attested in Elamite pi-iš-tuk-ka₄)",
+      "note": "The root box is real and the gloss is right: MacKenzie reads the Pahlavi spelling <pstk'> as pistag 'pistachio nut' (A Concise Pahlavi Dictionary p. 74), and Laufer reconstructs Middle Persian *pistak from Old Iranian *pistaka (Sino-Iranica p. 251). The only issue is the transliteration of the root name: Pahlavi book script does not distinguish p from b, so <pstk'> can be read either way, and Nourai (following Unvala and the older transcription practice, and probably influenced by the Greek by-form βιστάκιον recorded by Nicander) prints Bistak; Asbaghi likewise transcribes mp. bistag. The reading accepted today is pistag, guaranteed by Elamite pi-iš-tuk-ka₄ and by New Persian پسته with p-. Hence 'plausible' rather than 'confirmed' — real word, right language, right meaning, non-standard reading of the initial consonant. Further back the word is probably Proto-Iranian *pištaka- 'crushed', from PIE *peys- 'to grind, crush' (Pokorny 796 peis-1), i.e. 'the nut one cracks'.",
+      "note_fa": "خانهٔ ریشه «Bistak» در واقع همان واژهٔ فارسی میانه است که در دبیرهٔ پهلوی <pstk'> نوشته می‌شود؛ مکنزی آن را pistag «پسته» می‌خواند (فرهنگ کوچک پهلوی، ص ۷۴) و لاوفر در «سینو-ایرانیکا» (ص ۲۵۱) صورت ایرانی باستان *pistaka و فارسی میانهٔ *pistak را بازسازی می‌کند. چون در خط پهلوی «پ» و «ب» یک نشانه دارند، خواندن bistak نادرست نیست، ولی خوانش پذیرفتهٔ امروزی pistag است، زیرا صورت ایلامی pi-iš-tuk-ka₄ و «پسته»ی فارسی نو هر دو پ دارند. دورتر، این واژه احتمالاً از ایرانی آغازین *pištaka- «کوبیده، شکسته» و ریشهٔ هندواروپایی *peys- «کوفتن، ساییدن» است. نتیجه: ادعای نورایی در اصل درست است، اما آوانویسی آغازهٔ واژه با «ب» با معیار امروزی نمی‌خواند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/pstk%27",
+        "https://ahdictionary.com/word/search.html?q=pistachio",
+        "https://en.wiktionary.org/wiki/%D9%BE%D8%B3%D8%AA%D9%87"
+      ],
+      "ref_check": [
+        {
+          "ref": "UNV:78",
+          "status": "not_checked",
+          "note": "Only the 1917 Heidelberg dissertation of Unvala's 'Der Pahlavi-Text Der König Husrav und sein Knabe' is on disk (refs/UNV.txt, 47 form-feed leaves, printed pp. ≲46), so p. 78 of the 1963 Paris edition (which carries the fuller glossary) could not be reached. The corresponding text passage IS in the scan: §51 'Die hyrkanische Pistaziennuß, wenn man sie auf einem Bräter röstet' and §53 'die frische Pistaziennuß' (UNV.txt lines 608-609), with footnote 51.1 'Ich nehme … und in §52 gleich np. ‘Pistaziennuß’' — i.e. Unvala does gloss the Pahlavi word as the pistachio nut, which is what Nourai cites him for."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "PHD",
+          "where": "p. 74 (leaf 95 of refs/PHD.txt)",
+          "stance": "supports",
+          "note": "MacKenzie: \"pistag [pstk' | N pista] pistachio nut\"; also in the English-Pahlavi index \"pistachio nut pistag; ~ tree wan ī gurgānīg\" (PHD.txt line 3131). Same word, same gloss, but read with p-."
+        },
+        {
+          "src": "SIN",
+          "where": "pp. 246, 251",
+          "stance": "supports",
+          "note": "Laufer, Sino-Iranica: \"Persian pista, from Old Iranian *pistaka, Middle Persian *pistak, from which is derived Greek βιστάκιον, φιττάκιον, πιστάκιον or ψιττάκιον, Latin psittacium, and our pistacia or pistachio\" (SIN.txt line 726; index s.v. '*pistak 251'). Note that Laufer records the Greek by-form with β-, which is the nearest thing to Nourai's 'Bistak'."
+        },
+        {
+          "src": "NYB",
+          "where": "Glossary (vol. II), grep 'pistak|pistag|Pistazie'",
+          "stance": "silent",
+          "note": "Nyberg's Pahlavi glossary has no entry for the pistachio (only nipištak 'written'); the word does not occur in the texts he glosses."
+        },
+        {
+          "src": "PLA",
+          "where": "p. 210 (leaf 225)",
+          "stance": "partial",
+          "note": "Asbaghi cites the Middle Persian etymon of Arabic fustuq as 'bistag' — the same b-reading Nourai uses — but for her the immediate source is NP peste, not a Pahlavi root box."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "pesteh",
+          "verdict": "confirmed",
+          "derivation": "New Persian پسته pesta/peste continues Middle Persian pistag <pstk'> directly: Pahlavi -ag regularly gives NP -a/-e (cf. MP nāmag > NP نامه nāme), so pistag > pista > modern peste. Behind it stand Old Persian *pistaka-, guaranteed by the Elamite Persepolis-tablet spelling pi-iš-tuk-ka₄ /pistaka/ 'pistachio nut', and probably Proto-Iranian *pištaka- 'crushed' (PIE *peys- 'grind, crush'), the tree being native to Sogdiana, Khorasan and Kerman (Laufer, Sino-Iranica 246). The figurative sense 'the beloved's (smiling) lips' that Nourai gives is a standard image of classical Persian poetry — the half-open shell of the ripe pistachio — and is exactly what the Hāfez line quoted in the box plays on («جان فدای شکرین پستهٔ خاموشش باد»: the 'silent pistachio' is the mouth that will not speak).",
+          "derivation_fa": "«پسته» در فارسی نو دنبالهٔ مستقیم فارسی میانهٔ pistag (نوشتهٔ پهلوی <pstk'>) است؛ پسوند ـag پهلوی در فارسی نو به ـه بدل می‌شود (مانند nāmag > نامه)، پس pistag > پسته. پیش از آن ایرانی باستان *pistaka- را داریم که صورت ایلامی pi-iš-tuk-ka₄ در گِل‌نبشته‌های تخت‌جمشید گواه آن است، و احتمالاً از ایرانی آغازین *pištaka- «کوبیده» از ریشهٔ هندواروپایی *peys- «ساییدن، کوفتن». کاربرد مجازی «پسته» برای لبِ خندانِ معشوق نیز از تصویرهای رایج شعر فارسی است (پوستِ نیم‌شکافتهٔ پستهٔ رسیده)، چنان‌که در بیت حافظِ همین خانه «پستهٔ خاموش» یعنی دهانِ فروبستهٔ یار. نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B3%D8%AA%D9%87",
+            "https://en.wiktionary.org/wiki/pstk%27",
+            "https://ahdictionary.com/word/search.html?q=pistachio"
+          ],
+          "ref_check": [
+            {
+              "ref": "PLA:210",
+              "status": "supports",
+              "note": "Asbaghi, Persische Lehnwörter im Arabischen p. 210 (leaf 225 of PLA_pages.txt), s.v. fustuq: \"fustuq: 'Pistazie' … pers. peste … mp. … bistag … Pistazie pers. > griech. > lat. > frz. pistache\" — the Persian word peste is the starting point of her chain, as in Nourai's chart."
+            },
+            {
+              "ref": "AHD:998",
+              "status": "supports",
+              "note": "AHD s.v. pistachio: \"…from Greek pistakē, pistachio tree, of Iranian origin; akin to Middle Persian pistag\" (ahdictionary.com/word/search.html?q=pistachio) — the Iranian word is the source, as Nourai draws it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 1, Mo'in's footnote 5 s.v. پسته (BQT_v1_pages.txt line 25742, leaf 630)",
+              "stance": "partial",
+              "note": "«پسته: بکسر اول و سکون سوم، در تازی فستق از آرامی فستقا (بکسر اول)، چه منشأ آن شام (سوریه) است و به یونانی نقل شد pistakion و از آن به دیگر زبانهای اروپایی داخل شد. در ایتالیایی pistacchio…» — Mo'in has the Persian word but sends the Arabic (and through it the Greek) back to Aramaic, i.e. he does not derive the European words from Persian."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. پسته (MON_part1.txt line 31751)",
+              "stance": "partial",
+              "note": "«پسته: [آرا. فستقا] (اِ.) (گیا.) درختی از تیرهٔ سماقی‌ها…» — Mo'in tags the headword as Aramaic فستقا, not as an inherited Iranian word; he has the tree native to Syria/Afghanistan/Khorasan."
+            },
+            {
+              "src": "SIN",
+              "where": "pp. 246-251",
+              "stance": "supports",
+              "note": "\"The pistachio (Pistacia vera) in particular is indigenous to ancient Sogdiana and Khorasan\"; \"Persian pista, from Old Iranian *pistaka, Middle Persian *pistak, from which is derived Greek βιστάκιον … πιστάκιον\" — Persian is the source, not the borrower."
+            },
+            {
+              "src": "PHD",
+              "where": "p. 74",
+              "stance": "supports",
+              "note": "\"pistag [pstk' | N pista] pistachio nut\" — MacKenzie himself equates the Pahlavi word with New Persian pista."
+            },
+            {
+              "src": "HRN",
+              "where": "grep 'pista|piste' in HRN.txt",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no entry for پسته (only the unrelated nipištan 'write' and a passing 'wilde Pistazie (?)' at no. 133); a fruit-name of this kind fell outside his selection."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Greek",
+          "words": "pistake, pistakion",
+          "verdict": "confirmed",
+          "derivation": "Greek πιστάκη pistákē 'pistachio tree' is a loan from an Iranian form of the pistag type, with the diminutive/fruit derivative πιστάκιον pistákion 'pistachio nut' (πιστάκη + -ιον). The borrowing is early and its route is documented: Theophrastus (Hist. plant. IV.iv.7, late 4th c. BCE), reporting Alexander's scientific staff, describes the nut-bearing tree of Bactria, and Nicander of Colophon (Theriaka 890, 3rd c. BCE) already uses βιστάκιον / πιστάκιον of the fruit growing in the Choaspes valley in Susiana; Posidonius, Dioscorides, Pliny and Galen then know it from Syria, and Vitellius planted the tree in Italy (Pliny XV.22.91). The fluctuating Greek initial (πιστ-, βιστ-, φιττ-, ψιττ-) is exactly what a loan from Pahlavi <pstk'> would produce. The NOTE in the box reports Mo'in (MON:2545), who has the Greek word borrowed from Arabic; that is chronologically impossible — the Greek word is attested some nine centuries before the Arabic one — and no modern authority follows it.",
+          "derivation_fa": "یونانی πιστάκη «درخت پسته» وام‌واژه‌ای است از صورتی ایرانی از گونهٔ pistag، و πιστάκιον «دانهٔ پسته» با پسوند ـion از آن ساخته شده است. تاریخ وام‌گیری روشن است: تئوفراستوس (سدهٔ چهارم پیش از میلاد، بر پایهٔ گزارش همراهان اسکندر) درخت آن را در بلخ وصف می‌کند و نیکاندروس کولوفونی (سدهٔ سوم پیش از میلاد) صورت‌های βιστάκιον/πιστάκιον را برای میوه‌ای می‌آورد که در درّهٔ کرخه در خوزستان می‌روید. نوسان آغازهٔ یونانی (πιστ-، βιστ-، φιττ-، ψιττ-) درست همان چیزی است که از وام‌گیری صورتِ پهلوی <pstk'> انتظار می‌رود. یادداشت درون خانه، به نقل از معین، یونانی را وام‌گرفته از عربی می‌داند؛ این از نظر تاریخی ناممکن است، زیرا واژهٔ یونانی نزدیک نُه سده پیش از واژهٔ عربی گواهی شده است. نتیجه: ادعای نورایی درست است و ادعای معین پذیرفتنی نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CF%80%CE%B9%CF%83%CF%84%CE%AC%CE%BA%CE%B7",
+            "https://en.wiktionary.org/wiki/%CF%80%CE%B9%CF%83%CF%84%CE%AC%CE%BA%CE%B9%CE%BF%CE%BD",
+            "https://ahdictionary.com/word/search.html?q=pistachio",
+            "https://www.etymonline.com/word/pistachio"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:998",
+              "status": "supports",
+              "note": "AHD s.v. pistachio: \"…from Latin pistacium, pistachio nut, from Greek pistakion, from pistakē, pistachio tree, of Iranian origin; akin to Middle Persian pistag.\""
+            },
+            {
+              "ref": "PLA:210",
+              "status": "supports",
+              "note": "Asbaghi p. 210 s.v. fustuq gives the chain \"Pistazie pers. > griech. > lat. > frz. pistache\" — Persian to Greek, as drawn."
+            },
+            {
+              "ref": "SKT:394",
+              "status": "partial",
+              "note": "The entry exists but not on p. 394 of the copy on disk: SKT.txt has \"Pistachio, Pistacho, the nut of a certain tree. (Span. — L. — Gk. — Pers.) Span. pistacho. — L. pistacium. — Gk. πιστάκιον, a nut of the tree called πιστάκη. — Pers. pistah, the pistachio nut\" on printed p. 353/354 of the 1911 corrected impression (line 14076; page marker 353 a few lines above), with a cross-reference list entry \"Spanish from Latin from Greek from Persian: pistachio (pistacho)\" on p. 620. Content supports the Greek < Persian arrow; only the page number of Nourai's reprint differs."
+            },
+            {
+              "ref": "KLN:1190",
+              "status": "supports",
+              "note": "Klein 1966 p. 1190 (leaf 636, page marker '1190' on the same leaf): \"pistachio, n. — It. pistacchio (whence also F. pistache, Sp. pistacho), fr. L. pistacium, fr. Gk. πιστάκιον, 'pistachio nut', fr. πιστάκη, 'pistachio tree', fr. Pers. pistah, 'pistachio nut'. Cp. fustic.\""
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SIN",
+              "where": "pp. 246, 251",
+              "stance": "supports",
+              "note": "\"Nicandrus of Colophon (third century B.C.), who calls the fruit βιστάκιον or πιστάκιον, a word derived from an Iranian language … says that it grows in the valley of the Choaspes in Susiana\" — dates the Greek word to the 3rd c. BCE and makes it Iranian."
+            },
+            {
+              "src": "LKT",
+              "where": "nos. at LKT.txt lines 1554, 3802",
+              "stance": "partial",
+              "note": "Lokotsch: \"'Pistazie, Pistazienbaum' [aus pers. fistik, woraus auch gr. πιστάκιον]\" and \"ar. fistik, fustak 'Pistazie, Pistacia vera'; hieraus … it. pistacchio, frz. pistache, sp. pistacho\" — agrees that Greek took the word from Persian, but routes the Romance forms through Arabic rather than through Latin."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1190",
+              "stance": "supports",
+              "note": "\"fr. Gk. πιστάκιον … fr. πιστάκη … fr. Pers. pistah\"."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. پسته; BQT vol.1 fn. 5 s.v. پسته",
+              "stance": "contradicts",
+              "note": "Mo'in: «در تازی فستق از آرامی فستقا … و به یونانی نقل شد pistakion» — Greek from the Semitic word, the view reported in the chart's NOTE and rejected here on chronological grounds."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "pistacia, pistacium",
+          "verdict": "confirmed",
+          "derivation": "Latin borrowed both Greek forms in the 1st c. CE, when the tree itself reached Italy: pistacium n. 'pistachio nut' < Greek πιστάκιον, and pistacia f. 'pistachio tree' < Greek πιστάκη. Pliny (NH XV.22.91) records that Vitellius brought the tree to Italy and Flaccus Pompeius to Spain in the reign of Tiberius, which fixes the date of the loan; the Greek -ki- is simply rendered -ci- and the neuter -ον becomes -um. Medieval Latin pistacia is the form from which Old French pistace and Middle English pistace/pystace (mid-15c.) come.",
+          "derivation_fa": "لاتینی هر دو صورت یونانی را در سدهٔ یکم میلادی وام گرفت، درست هنگامی که خود درخت به ایتالیا رسید: pistacium «دانهٔ پسته» از πιστάκιον و pistacia «درخت پسته» از πιστάκη. پلینیوس (تاریخ طبیعی، ۱۵٫۲۲) می‌گوید ویتلیوس درخت را به ایتالیا و فلاکوس پومپیوس آن را به اسپانیا برد؛ همین تاریخِ وام‌گیری را روشن می‌کند. در آوانویسی، ـki ـ یونانی به ـci ـ و پایانهٔ خنثای ـον به ـum بدل شده است. نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/pistacium",
+            "https://ahdictionary.com/word/search.html?q=pistachio",
+            "https://www.etymonline.com/word/pistachio"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:998",
+              "status": "supports",
+              "note": "AHD: \"from Italian pistacchio, from Latin pistacium, pistachio nut, from Greek pistakion\" — the Latin link is exactly as drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1190",
+              "stance": "supports",
+              "note": "\"It. pistacchio … fr. L. pistacium, fr. Gk. πιστάκιον\"."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 353/354",
+              "stance": "supports",
+              "note": "\"Span. pistacho. — L. pistacium. — Gk. πιστάκιον\"."
+            },
+            {
+              "src": "SIN",
+              "where": "p. 251",
+              "stance": "partial",
+              "note": "Laufer cites the Latin form as \"psittacium\" beside \"pistacia\" — the same word with the ψιττ- variant of the Greek; supports the Greek > Latin step but with a different Latin spelling."
+            },
+            {
+              "src": "LEW",
+              "where": "grep 'pistaci' in LEW_1910.txt / LAT.txt",
+              "stance": "silent",
+              "note": "Neither Walde 1910 nor Ernout-Meillet (as digitised here) has an article on pistacium — it is a transparent Greek loanword and gets no entry."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Italian",
+          "words": "pistacchio",
+          "verdict": "confirmed",
+          "derivation": "Italian pistacchio continues Latin pistacium with the regular Italian outcome of Latin -cium: -ci- palatalises and the yod geminates to -cchi- /kkj/ (cf. L. bracchium > It. braccio, but with the learned/half-learned treatment here giving -cchio, as in L. specul(um) > It. specchio). From Italian the word spread again in the 16th c.: French pistache, Spanish pistacho and, through Italian directly, English pistachio.",
+          "derivation_fa": "ایتالیایی pistacchio دنبالهٔ لاتینی pistacium است؛ خوشهٔ ـcium لاتینی در ایتالیایی به ـcchio /kkjo/ بدل می‌شود (مانند specul(um) > specchio). از ایتالیایی، واژه در سدهٔ شانزدهم دوباره پخش شد: فرانسوی pistache، اسپانیایی pistacho و انگلیسی pistachio. نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/pistachio",
+            "https://ahdictionary.com/word/search.html?q=pistachio"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1190",
+              "status": "supports",
+              "note": "Klein p. 1190: \"pistachio, n. — It. pistacchio (whence also F. pistache, Sp. pistacho), fr. L. pistacium\" — Latin > Italian, and Italian as the radiating centre, precisely as drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "s.v. pistachio (online appendix edition of the same dictionary)",
+              "stance": "supports",
+              "note": "\"Ultimately (partly via Middle French pistache) from Italian pistacchio, from Latin pistacium\"."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt line 3802",
+              "stance": "partial",
+              "note": "Lokotsch lists \"it. pistacchio, frz. pistache, sp. pistacho\" but derives them from the Arabic/Turkish form rather than from Latin."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "pistachio",
+          "verdict": "confirmed",
+          "derivation": "English pistachio is first recorded in the 1590s in the sense 'nut of the pistachio tree', taken straight from Italian pistacchio (partly through Middle French pistache); the Italian -cchio was anglicised as -chio /ʃoʊ/. An earlier and separate borrowing had already given Middle English pistace, pystace (mid-15c.) from Old French pistace and Medieval Latin pistacia — a doublet that died out in favour of the Italian form. The colour sense 'pistachio green' is 19th c.",
+          "derivation_fa": "واژهٔ انگلیسی pistachio نخستین بار در دههٔ ۱۵۹۰ به معنی «دانهٔ پسته» ثبت شده و یکسره از ایتالیایی pistacchio (تا اندازه‌ای از راه فرانسوی میانه pistache) گرفته شده است؛ ـcchio ایتالیایی در انگلیسی ـchio شده است. پیش از آن، وام‌گیری جداگانه‌ای در انگلیسی میانه صورتِ pistace/pystace را از فرانسوی کهن و لاتینی میانه به دست داده بود که دوگانهٔ (doublet) همین واژه است و بعدها از میان رفت. نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/pistachio",
+            "https://ahdictionary.com/word/search.html?q=pistachio"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:998",
+              "status": "supports",
+              "note": "AHD s.v. pistachio: \"[Ultimately (partly via Middle French pistache) from Italian pistacchio, from Latin pistacium…]\" — the Italian > English step Nourai draws."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1190",
+              "stance": "supports",
+              "note": "\"pistachio, n. — It. pistacchio…\" (Klein takes English straight from Italian)."
+            },
+            {
+              "src": "SKT",
+              "where": "p. 353/354",
+              "stance": "contradicts",
+              "note": "Skeat routes the English word through Spanish: \"Pistachio, Pistacho, the nut of a certain tree. (Span. — L. — Gk. — Pers.) Span. pistacho\" — a minority view; the 1590s date and the -chio spelling favour Italian."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. 3 s.v. pistachio",
+              "stance": "silent",
+              "note": "Funk & Wagnalls' pistachio article was not recoverable from the OCR of the volume on disk (only the fustic/fustet region of vol. 2 is legible); no statement either way."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "fustug, fostoq",
+          "verdict": "disputed",
+          "derivation": "The Arabic word فُسْتُق fustuq / fustaq 'pistachio' is real and its ultimate source is Iranian, but the parent drawn here — Greek — is not the one modern scholarship accepts. Wiktionary, with references, has it \"from Middle Persian pstk' (pistag), if not via Aramaic (Jewish Babylonian Aramaic פיסתקא pistəqā, Classical Syriac ܦܷܣܬܩܐ pestəqā)\"; Fraenkel, Die aramäischen Fremdwörter im Arabischen pp. 143-144, says the word \"kann direct aus dem Persischen, wie Ǧawālīqī meint, oder auch mittelbar durch das Aramäische ppHDS/ܦܣܬܩܐ in's Arabische gedrungen sein\"; al-Unaysī's Tafsīr al-alfāẓ al-dākhila likewise: «فستق – ارامي (فستقا)». Nourai's own citation here, PLA:210, also contradicts the Greek parent: Asbaghi derives fustuq from Persian peste / MP bistag and lets the Greek word go off on its own branch. Phonetically the borrowing is straightforward: Arabic has no /p/, so Iranian p- is substituted by f- (cf. Pers. pīl > Ar. fīl), and the Iranian a-vowel is fitted to the fuʿlul pattern fustuq. What is true is that AHD:535 (which Nourai cites at the French node) does route Arabic fustuq through Greek pistakē — an older view still printed in that dictionary — so the chart is following a real source, just not the prevailing one. The box's NOTE, reporting Mo'in's Aramaic mediation, is on this point closer to current opinion than the arrow above it.",
+          "derivation_fa": "واژهٔ عربی «فُستُق» راست است و سرچشمهٔ آن نیز ایرانی است، اما پدرِ ترسیم‌شده در نمودار — یونانی — با دیدگاه امروزی نمی‌خواند. ویکی‌واژه آن را «از فارسی میانه pistag، اگر نه از راه آرامی (فیستقا در آرامی بابلی یهودی، ܦܷܣܬܩܐ در سریانی)» می‌داند؛ فرنکل در «وام‌واژه‌های آرامی در عربی» (ص ۱۴۳-۱۴۴) می‌نویسد این واژه «یا مستقیم از فارسی — چنان‌که جوالیقی می‌گوید — یا با میانجی آرامی به عربی رسیده است»؛ طوبیا العنیسی نیز می‌نویسد «فستق – ارامي فستقا». حتی مرجعی که خودِ نورایی آورده (اصبغی، ص ۲۱۰) فستق را از «peste» فارسی و «bistag» پهلوی می‌گیرد، نه از یونانی. از نظر آوایی، چون در عربی «پ» نیست، پ ایرانی به ف بدل شده (مانند پیل > فیل) و واژه در وزن فُعلُل نشسته است. نتیجه: پژوهش امروزی این پیکان را رد می‌کند و می‌گوید فستق یکراست (یا از راه آرامی) از فارسی گرفته شده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B3%D8%AA%D9%82",
+            "https://ahdictionary.com/word/search.html?q=fustic",
+            "https://en.wiktionary.org/wiki/pstk%27"
+          ],
+          "ref_check": [
+            {
+              "ref": "PLA:210",
+              "status": "contradicts",
+              "note": "Asbaghi p. 210 (leaf 225 of PLA_pages.txt): \"fustug: 'Pistazie' … pers. peste … mp. … bistag … aram. …\" — she makes Arabic fustuq a loan from Persian (possibly via Aramaic), not from Greek; the Greek/Latin/French forms are listed as a parallel line of descent from Persian, not as its source."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AFA",
+              "where": "Fraenkel pp. 143-144 (AFA.txt lines 5217-5222)",
+              "stance": "contradicts",
+              "note": "\"فستق 'Pistazie' ist als Fremdwort schon von den Arabern (Muʿarrab 108) erkannt; es kann direct aus dem Persischen, wie Ǧawālīqī meint, oder auch mittelbar durch das Aramäische … in's Arabische gedrungen sein\" — Persian or Aramaic, never Greek."
+            },
+            {
+              "src": "TAD",
+              "where": "al-Unaysi, TAD_pages.txt line 1991",
+              "stance": "contradicts",
+              "note": "«فستق - ارامي «فستقا» لان منشأ هذه الشجرة الشام أي سوريا فنقل الى العربية» — Aramaic, the tree being (in his view) Syrian."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, AFM_pages.txt (headword فستق, index line 5796; Syriac ܦܣܬܩܐ cited at line 3051)",
+              "stance": "partial",
+              "note": "Addi Shir's Kitāb al-alfāẓ al-fārisiyya al-muʿarraba lists فستق among the Persian words Arabicised, citing the Syriac ܦܣܬܩܐ and Kurdish/Armenian parallels — Persian source, Aramaic mediation, no Greek."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt line 3802",
+              "stance": "partial",
+              "note": "Lokotsch: \"tk. fystyk, ar. fistik, fustak 'Pistazie, Pistacia vera'\" and elsewhere \"[aus pers. fistik, woraus auch gr. πιστάκιον]\" — Arabic and Greek are for him two independent borrowings from Persian, i.e. sisters, not parent and child."
+            },
+            {
+              "src": "MON",
+              "where": "BQT vol.1 Mo'in fn. 5 s.v. پسته; MON s.v. پسته",
+              "stance": "partial",
+              "note": "«در تازی فستق از آرامی فستقا» — Mo'in derives Arabic fustuq from Aramaic, i.e. the chart's own NOTE, and (unlike Nourai) makes Greek the daughter of the Semitic word rather than its parent."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep 'fustuq|pistachio' in FVQ_pages.txt",
+              "stance": "silent",
+              "note": "Jeffery's Foreign Vocabulary of the Qurʾān has no entry — فستق does not occur in the Qurʾān."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "fostoğ",
+          "verdict": "confirmed",
+          "derivation": "فُستُق fostoq in Persian is a re-borrowing: the native word پسته pesta went into Arabic as fustuq (with f- for p-, since Arabic lacks /p/), and the Arabicised form came back into literary Persian as a learned Arabism, chiefly in the derived adjective فستقی fostoqi 'pistachio-green', which is how it is used in the couplet quoted in the box («خط سبز فستقی» — the beloved's downy green cheek-line). This is a textbook Persian > Arabic > Persian round trip, of the same type as پیل > فیل > فیل or دیبا > دیباج > دیباج; Mo'in's own footnote to Borhān-e Qāṭeʿ makes the identity explicit — «پسته … در تازی فستق».",
+          "derivation_fa": "«فُستُق» در فارسی وام‌واژه‌ای بازگشتی (معرّبِ بازگردانده) است: واژهٔ بومی «پسته» به عربی رفت و چون در عربی «پ» نیست به صورت «فستق» درآمد، و همین صورتِ معرّب دوباره — بیشتر در صفتِ «فُستُقی» به معنی «سبزِ پسته‌ای» — وارد فارسی ادبی شد؛ چنان‌که در بیت همین خانه «خط سبز فُستُقی». این همان روند فارسی › عربی › فارسی است، از گونهٔ پیل › فیل و دیبا › دیباج. حاشیهٔ معین بر برهان قاطع نیز همین‌همانی را روشن می‌گوید: «پسته … در تازی فستق». نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B3%D8%AA%D9%82",
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B3%D8%AA%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:2545",
+              "status": "supports",
+              "note": "Mo'in's article on پسته and his footnote 5 to Borhān-e Qāṭeʿ (BQT_v1_pages.txt line 25742) give «در تازی فستق از آرامی فستقا» and tag the headword «[آرا. فستقا]» — the Arabic form فستق is identified with the Persian word, which is what the arrow Arabic > Persian fostoq needs. (The six-volume Mo'in itself is not digitised; checked in the 2-vol. Adena condensation, MON_part1.txt line 31751, and in Mo'in's Borhān footnotes.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 1, Mo'in fn. 5 s.v. پسته",
+              "stance": "supports",
+              "note": "«پسته: بکسر اول و سکون سوم، در تازی فستق از آرامی فستقا …» — the Arabic doublet of the Persian word, as the node requires."
+            },
+            {
+              "src": "PLA",
+              "where": "p. 210",
+              "stance": "supports",
+              "note": "Asbaghi lists the derivatives \"fustuqa: nom. un. v. fustuq 'eine Pistazie'\" and \"fustuqī: 'pistaziengrün'\" — the very adjective فستقی used in the Persian couplet in the box."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 31751",
+              "stance": "supports",
+              "note": "«پسته: [آرا. فستقا]» — Mo'in explicitly equates the Persian headword with the Semitic فستقا/فستق."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "French",
+          "words": "",
+          "verdict": "transcription_suspect",
+          "error_in": "extraction",
+          "book_prints": "(empty box: the French node on p. 69 has only the header 'French  AHD:535' and no word line)",
+          "correct_form": "(no word) — the French form intended is fustoc (Old French) / fustet, not 'fustic, fistic'",
+          "derivation": "On the printed page the French box is a bare header — 'French [book] AHD:535' — with no word row at all; the words 'fustic, fistic' belong to the English box to its right. The extraction has copied the English forms into the French node, so the JSON says something the book does not. The pass-through step itself is sound: the Romance form is Old French fustoc (also fustet, from Provençal fustet), a borrowing of Arabic fustuq that reached the West through the Andalusian and Levantine dye trade — Wiktionary: English fustic \"from Middle English fustik, from Middle French fustec, variant of fustet\"; AHD s.v. fustic: \"Middle English fustik, from Old French fustoc, from Arabic fustuq\". The name was transferred from the pistachio/sumac wood (Cotinus coggygria, 'young fustic') to the Central American dyewood Maclura/Chlorophora tinctoria ('old fustic') after 1500.",
+          "derivation_fa": "در صفحهٔ چاپی، خانهٔ «French» تنها یک سرصفحه است و هیچ واژه‌ای در آن نوشته نشده؛ «fustic, fistic» متعلق به خانهٔ انگلیسی کنار آن است. بنابراین این خطای خوانشِ اسکن است، نه خطای کتاب. خودِ حلقهٔ فرانسوی درست است: صورت فرانسوی کهن fustoc (و fustet از پرووانسی) وام‌واژه‌ای از «فُستُق» عربی است که از راه بازرگانی رنگ در اندلس و شام به اروپا رسید؛ ویکی‌واژه: fustic انگلیسی «از انگلیسی میانهٔ fustik، از فرانسوی میانهٔ fustec، گونهٔ fustet»، و فرهنگ AHD: «از فرانسوی کهن fustoc، از عربی فستق». سپس این نام از چوب سماقِ ونیزی به چوب رنگرزی امریکای مرکزی منتقل شده است. نتیجه: خطای خوانش اسکن؛ داده باید اصلاح شود.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/fustic",
+            "https://ahdictionary.com/word/search.html?q=fustic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:535",
+              "status": "supports",
+              "note": "AHD s.v. fustic: \"[Middle English fustik, from Old French fustoc, from Arabic fustuq, from Greek pistakē, pistachio; see PISTACHIO.]\" — the (Old) French step Nourai draws, and also the source of his Arabic < Greek arrow at node #6."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 632 s.v. fustic (KLN_1966.txt line 15603)",
+              "stance": "contradicts",
+              "note": "\"fustic, n., the wood of a Mexican tree (Chlorophora tinctoria) and the yellow dye it yields. — Sp. fustoc, fr. Arab. fustuq, fr. Pers. pistah. See pistachio.\" — Klein makes the intermediary Spanish, not French, and takes the Arabic word straight from Persian."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. 2 s.v. fustic (FSD_vol2.txt line 28447)",
+              "stance": "partial",
+              "note": "\"[< F. fustoc, < Sp. fustoc, < …]\" — French, but itself from Spanish; and s.v. fustet: \"fus'tet … 1. The Venetian sumac or smoke-tree (Cotinus cotinus); also, its wood. 2. Young fustic.\""
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, vol. 1 s.v. fustic (WEB_vol1.txt line ~79177)",
+              "stance": "supports",
+              "note": "\"fus'tic, n. [Fr. fustoc; Sp. fustoc, …]\" — French fustoc named first, as in AHD; and \"fus'tet, n. [Fr. fustet; LL. fustetus…]\"."
+            },
+            {
+              "src": "DEV",
+              "where": "grep 'fustet|fustoc' in DEV.txt / PHN.txt",
+              "stance": "silent",
+              "note": "Neither Devic nor Pihan has an article on fustoc/fustet in the OCR on disk; Devic mentions only the Spanish alfostigo < al-fostoq (DEV.txt line 249)."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "fustic, fistic",
+          "verdict": "plausible",
+          "derivation": "English fustic 'a yellow dyewood and the dye from it' is attested from the 15th c. as Middle English fustik, borrowed from Old/Middle French fustoc, fustec (variant of fustet), itself from Arabic fustuq — the pistachio-tree name applied first to the related Venetian sumac Cotinus coggygria ('young fustic') and after the discoveries to the tropical American Maclura tinctoria ('old fustic'), whose heartwood gave the standard yellow of European dyeing until aniline dyes. The second form, fistic, is a different animal: it is the obsolete English word for the pistachio nut itself ('fisticke nuts' in 16th-17th c. English), taken through Italian fistico/Spanish alfóstigo from the same Arabic fustuq — a genuine English word from the same Arabic etymon, but not a spelling variant of the dyewood term, and the modern English adjective fistic means only 'pugilistic'. The node is therefore right about the route and about fustic, but conflates two distinct English words.",
+          "derivation_fa": "انگلیسی fustic «چوب رنگرزی زرد و رنگِ آن» از سدهٔ پانزدهم به صورت fustik در انگلیسی میانه گواهی شده و از fustoc/fustec فرانسوی، و آن از «فُستُق» عربی گرفته شده است: نام درخت پسته نخست به سماق ونیزی و سپس، پس از کشف امریکا، به چوب رنگرزی امریکایی داده شد. اما صورت دوم، fistic، واژهٔ دیگری است: نام کهن و منسوخِ خودِ «پسته» در انگلیسی («fisticke nuts» در سده‌های شانزدهم و هفدهم) که از راه ایتالیایی fistico و اسپانیایی alfóstigo از همان «فستق» عربی آمده است؛ در انگلیسی امروز fistic تنها به معنی «مشت‌زنی» به کار می‌رود. نتیجه: مسیر درست است، ولی دو واژهٔ جدا در یک خانه با هم آمیخته شده‌اند؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/fustic",
+            "https://ahdictionary.com/word/search.html?q=fustic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:535",
+              "status": "supports",
+              "note": "AHD s.v. fustic: \"[Middle English fustik, from Old French fustoc, from Arabic fustuq, from Greek pistakē, pistachio; see PISTACHIO.]\" — French > English, as drawn. AHD gives no variant 'fistic'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 632 s.v. fustic",
+              "stance": "partial",
+              "note": "\"fustic, n., the wood of a Mexican tree (Chlorophora tinctoria) and the yellow dye it yields. — Sp. fustoc, fr. Arab. fustuq, fr. Pers. pistah. See pistachio.\" — same Arabic etymon and the same botanical sense, but via Spanish; no 'fistic'."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. 2 s.v. fustic, fustet, fistic (FSD_vol2.txt lines 28437, 28447, 21124)",
+              "stance": "contradicts",
+              "note": "Funk & Wagnalls has \"fustic … yellowwood; old fustic. [< F. fustoc, < Sp. fustoc …]\", variants \"fus'tiket; fus'toct\", \"young f., the wood of Cotinus cotinus\" — and a quite separate entry \"fist'ic, a. Pertaining to the fists, especially when used in boxing\". 'Fistic' is not a variant of fustic in the dictionaries."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt lines 73853, ~79177",
+              "stance": "contradicts",
+              "note": "\"fust'ic, n. [Fr. fustoc; Sp. fustoc, fustie…]\" beside \"fist'ic, a. having to do with boxing; … pugilistic\" — the same split as in Funk & Wagnalls."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt line 1554",
+              "stance": "partial",
+              "note": "Lokotsch groups the Romance reflexes \"rum. fistic, sp. alföstigo, alföcigo, alfönsigo, pg. alfostico\" under the Arabic/Persian word — the fistic-type form is Romanian/Turkish, not English."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "B.k.r",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ب-ك-ر b-k-r, verb بَكَرَ bakara 'to rise/come early, do a thing early' (Proto-Semitic *bkr 'first-born, early')",
+      "note": "The root is real, the language label is right and the gloss is right. Klein — the reference Nourai cites — states it in the same words at p. 44: the Arabic words come \"from the stem of the verb bákara, 'he rose early, did something early'\", and he ties in Hebrew bəkhōr 'first-born', bikkūrīm 'first fruits' and Ethiopic bakur 'first-born', i.e. a common Semitic root whose core sense is 'be first / be early'. Wiktionary's Arabic entry بكر gives بَكَرَ bakara 'to be early, to come early, to get up early' and بِكْر bikr 'firstborn; virgin', comparing Hebrew בְּכוֹר bəḵōr. Nothing in the box needs correction.",
+      "note_fa": "ریشهٔ عربی «ب‌-ک‌-ر» و معنی «بامداد برخاستن، زود کاری کردن» هر دو درست است. کلاین (ص ۴۴) — همان مرجعی که نورایی آورده — می‌نویسد این واژه‌ها «از ستاکِ فعلِ بَکَرَ، یعنی زود برخاست و کاری را زود انجام داد» است و آن را با عبری bəkhōr «نخست‌زاد»، bikkūrīm «نوبر» و حبشی bakur «نخست‌زاد» می‌سنجد؛ یعنی ریشه‌ای سامی با هستهٔ معنایی «نخست‌بودن، زودبودن». ویکی‌واژه نیز بَکَرَ «زود آمدن، پگاه برخاستن» و بِکْر «نخست‌زاد؛ دوشیزه» را می‌آورد. نتیجه: ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A8%D9%83%D8%B1",
+        "https://ahdictionary.com/word/search.html?q=albacore"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:44",
+          "status": "supports",
+          "note": "Klein 1966 p. 44 (page marker '44' immediately after the entry, KLN_1966.txt line 2099), s.v. albacore: \"…rel. to bikr, 'virgin, woman having first child', from the stem of the verb bákara, 'he rose early, did something early', and to Heb. bekhōr, 'first born'…\" — Nourai's root box is a direct paraphrase of this sentence."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "s.v. albacore, Appendix of Semitic roots s.v. bkr",
+          "stance": "supports",
+          "note": "\"[Portuguese albacor, from Arabic al-bakūra: al-, the + bakūra, albacore; see bkr in the Appendix of Semitic roots.]\" — AHD sets up exactly this Semitic root."
+        },
+        {
+          "src": "KLN",
+          "where": "p. 44",
+          "stance": "supports",
+          "note": "See ref_check; Klein also lists Heb. bikkūrīm 'first fruits', bikhrāh 'young camel', Ethiop. bakur 'first born'."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "bîkr; al-bakrah",
+          "verdict": "confirmed",
+          "derivation": "Both words are regular nominal formations on b-k-r. بِكْر bikr (Nourai writes bîkr; the vowel is short i) is the fiʿl-pattern noun/adjective 'first-born, first of its kind', hence 'virgin, untouched, fresh, new' — the semantic step 'first' > 'not yet used' being the same one seen in Hebrew bikkūrīm 'first fruits'. اَلْبَكْرَة al-bakrah is the faʿla-pattern singulative of the collective bakr 'young camels', so 'the young she-camel'; Klein spells out the derivation: \"the collective noun bakr, 'young camels', whence bákrah, 'young she-camel', rel. to bikr\". Both are denominal to the verb bakara 'to be early', a young animal being one that has come 'early'.",
+          "derivation_fa": "هر دو واژه ساخت‌های قاعده‌مندِ ریشهٔ ب‌-ک‌-ر هستند. «بِکْر» (که نورایی bîkr می‌نویسد؛ مصوت کوتاه است) بر وزن فِعْل به معنی «نخستین، نخست‌زاد» و از همین‌جا «دست‌ناخورده، تازه، دوشیزه»؛ همان تحول معنایی «نخست» › «به‌کارنرفته» که در عبری bikkūrīm «نوبر» هم دیده می‌شود. «البَکْرَة» بر وزن فَعْلَة، مفردِ اسمِ جمعِ «بَکْر» (شترانِ جوان) است، یعنی «شترِ مادهٔ جوان»؛ کلاین همین را می‌گوید: «اسم جمع bakr «شتران جوان» و از آن bakrah «شتر مادهٔ جوان»، هم‌ریشه با bikr». هر دو از فعلِ بَکَرَ «زود آمدن» گرفته شده‌اند، چون جانورِ جوان همان است که «زود» آمده است. نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%83%D8%B1",
+            "https://ahdictionary.com/word/search.html?q=albacore"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:44",
+              "status": "supports",
+              "note": "Klein p. 44: \"fr. al-, 'the', and the collective noun bakr, 'young camels', whence bákrah, 'young she-camel', rel. to bikr, 'virgin, woman having first child', from the stem of the verb bákara\" — both of Nourai's words, both glosses."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 44",
+              "stance": "supports",
+              "note": "As quoted; Klein is the source Nourai paraphrases."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qurʾān",
+              "stance": "silent",
+              "note": "No entry: bikr and its family are native Arabic, so Jeffery (who treats only foreign words) has nothing — itself a small confirmation that the root is Semitic and not a loan."
+            },
+            {
+              "src": "AHD",
+              "where": "Appendix of Semitic roots s.v. bkr (via s.v. albacore)",
+              "stance": "supports",
+              "note": "\"from Arabic al-bakūra: al-, the + bakūra, albacore; see bkr in the Appendix of Semitic roots\" — same root, with the by-form bakūra 'young camels / early fruits'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "bekr; ebtekâr",
+          "verdict": "confirmed",
+          "derivation": "Both are ordinary Arabic loans in Persian, of the learned written kind that entered from the 9th-10th c. onwards. بکر bekr is Arabic بِكْر bikr taken over unchanged in the consonants (Persian pronounces the short i as e), used in Persian for 'virgin' and, in the transferred senses Nourai lists, 'fresh, new, untrodden' — فکر بکر 'an idea nobody has had before', موضوع بکر 'a subject not yet treated'; the noun بکارت bekârat 'virginity' shown in brackets is the Arabic maṣdar bakāra. ابتکار ebtekâr is the Arabic form-VIII verbal noun ibtikār of ibtakara 'to do a thing first, to be the first at something' — the same root with the reflexive infix -t-, so literally 'taking-the-first(-fruits)', whence Persian 'innovation, originality, initiative', and the participle مبتكر mobtaker 'innovator'. Mo'in's own article preserves the older, literal sense beside the modern one: «ابتکار … در بامداد رفتن، پگاه برخاستن؛ نو آوردن، امر بکر و بی‌سابقه پدید کردن».",
+          "derivation_fa": "هر دو واژه وام‌واژه‌های عربی‌اند از گونهٔ کتابیِ رایج از سدهٔ سوم و چهارم هجری به بعد. «بکر» همان بِكْر عربی است (مصوت کوتاهِ i در فارسی e تلفظ می‌شود) به معنی «دوشیزه» و در معنی‌های گسترش‌یافته «تازه، نو، دست‌نخورده»: «فکر بکر»، «موضوع بکر»؛ «بکارت» داخل کمانک نیز مصدرِ عربیِ بَکارَة است. «ابتکار» مصدرِ باب افتعال از همان ریشه است (ابتکر «نخستین کسی بود که کاری کرد»)، با میانوندِ ـت ـ بازتابی، پس تحت‌اللفظ «نوبر برگرفتن» و از این‌جا «نوآوری، ابتکار عمل»، و اسم فاعلِ آن «مبتکر». معین در فرهنگ خود هر دو معنی کهن و نو را نگاه داشته است: «ابتکار … در بامداد رفتن، پگاه برخاستن؛ نو آوردن، امر بکر و بی‌سابقه پدید کردن». نتیجه: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D8%AA%DA%A9%D8%A7%D8%B1",
+            "https://en.wiktionary.org/wiki/%D8%A8%D9%83%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:51",
+              "status": "not_checked",
+              "note": "S.M. Nahvi, Farhang-e vāžehā-ye ʿarabi dar fārsi (1368/1989) has no digital copy on any permitted platform — refs_online.json records a re-search in 2026-09 that again found only library catalogue records (OpenLibrary OL2012991M). Page 51 could not be consulted."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. بکر (MON_part1.txt line 24527) and s.v. ابتکار (line 5972)",
+              "stance": "supports",
+              "note": "«بکر: [ع.] (ص.) دختر؛ دوشیزه، تازه، دست ناخورده، نو آیین …» and «ابتکار: [ع.] (مص‌ل.) در بامداد رفتن، پگاه برخاستن. (مص‌م.) نو آوردن، امر بکر و بی‌سابقه پدید کردن. (اسم مص.) نو آوردگی، اختراع: قوّهٔ ابتکار» — Mo'in tags both as Arabic [ع.] and, for ebtekâr, records the literal 'to go out at dawn, to rise early' sense first, which is the very link to the root B.k.r that Nourai's arrow asserts."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 44",
+              "stance": "supports",
+              "note": "Klein's account of bikr 'virgin' < bakara 'he rose early' is what the Persian loan carries over unchanged."
+            },
+            {
+              "src": "ARY",
+              "where": "grep in ARY_pages.txt / ARY_latin_index_pages.txt",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of Indo-European roots of Persian has no entry — as expected, since بکر/ابتکار are Semitic loans and outside its scope."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Spanish",
+          "words": "al-bacora",
+          "verdict": "plausible",
+          "derivation": "Spanish albacora, a large tunny, is a genuine Andalusian-Arabic borrowing carrying the article al-, and its Arabic etymon is of the b-k-r family; but the sources disagree on which member. Klein (p. 44), whom Nourai follows, has \"Sp. albacora, fr. Arab. al-bakrah, 'the young camel'\", the fish being named for its size; Wiktionary's Spanish entry has albacora \"from Andalusian Arabic, from classical Arabic اَلْبَكُورَة al-bakūra, 'the young camels'\", i.e. the collective plural rather than the singulative; and a third line (Portuguese albacora, and Etymonline's \"al bakara 'milk cow'\") reads the name from بَاكُورَة bākūra 'early/first fruits, that which comes early', the tuna being an early-arriving fish. All three stay inside b-k-r, so Nourai's arrow is right in substance; the exact Arabic form and the exact image ('young camel' vs 'first fruits') are not settled, hence 'plausible' rather than 'confirmed'. Note also that the box prints the Spanish word with the Arabic article still detached, al-bacora, whereas Spanish has it fused as albacora.",
+          "derivation_fa": "«albacora»ی اسپانیایی نامِ نوعی ماهی تُنِ بزرگ است و به‌راستی وام‌واژه‌ای از عربیِ اندلسی با حرف تعریفِ «ال» است، و ریشهٔ آن نیز از خانوادهٔ ب‌-ک‌-ر؛ اما در اینکه کدام صورت، منابع یکسان نیستند: کلاین (ص ۴۴) — که نورایی از او گرفته — «اسپانیایی albacora از عربی البَکْرَة «شترِ مادهٔ جوان»» می‌آورد و می‌گوید ماهی را به سببِ بزرگی چنین نامیده‌اند؛ ویکی‌واژه «از عربی اندلسی، از البَکُورَة «شتران جوان»» می‌نویسد؛ و روایت سوم (پرتغالی albacora و اتیمانلاین) آن را از «باکورة» «نوبر، آنچه زود می‌رسد» می‌داند، چون این ماهی زود از راه می‌رسد. هر سه درون همان ریشه‌اند، پس پیکانِ نورایی در اصل درست است، ولی صورت دقیق عربی و انگیزهٔ نام‌گذاری قطعی نیست. همچنین کتاب واژه را با «ال»ِ جدا نوشته (al-bacora) حال آنکه در اسپانیایی به‌هم‌پیوسته albacora است. نتیجه: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/albacora",
+            "https://www.etymonline.com/word/albacore",
+            "https://ahdictionary.com/word/search.html?q=albacore"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:44",
+              "status": "supports",
+              "note": "Klein p. 44: \"albacore, n., a species of tunny (zool.) — Sp. albacora, fr. Arab. albakrah, 'the young camel', fr. al-, 'the', and the collective noun bakr, 'young camels'…\" — Spanish, and 'the young camel', exactly as in the box."
+            },
+            {
+              "ref": "AHD:29",
+              "status": "partial",
+              "note": "The current AHD gives \"[Portuguese albacor, from Arabic al-bakūra: al-, the + bakūra, albacore; see bkr in the Appendix of Semitic roots.]\" (ahdictionary.com/word/search.html?q=albacore) — same Semitic root, but Portuguese rather than Spanish and the bakūra form; the 1975 New College edition p. 29 that Nourai cites is not on disk, and older AHD printings did give 'Spanish'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 44",
+              "stance": "supports",
+              "note": "As quoted — the only source that gives precisely 'Spanish' + 'the young camel'."
+            },
+            {
+              "src": "LKT",
+              "where": "grep 'albacora|albakora' in LKT.txt",
+              "stance": "silent",
+              "note": "Lokotsch's dictionary of European words of Oriental origin, as OCR'd here, yields no albacora article."
+            },
+            {
+              "src": "DEV",
+              "where": "DEV.txt line 249",
+              "stance": "partial",
+              "note": "Devic discusses the same Andalusian pattern of Arabic al- + noun giving Spanish al-forms (\"al-fostoq, pistache, est devenu en espagnol alfostigo … On peut y joindre alhondiga, de al-fondouq\") — it confirms the borrowing mechanism for Spanish al-words without treating albacora itself."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "albacore",
+          "verdict": "plausible",
+          "derivation": "English albacore appears in the 1570s, in accounts of tropical fishing, as a borrowing of an Ibero-Romance form of the Arabic word: Klein and the older AHD say Spanish albacora (which is what the chart draws), while Etymonline, the current AHD and Wiktionary say Portuguese albacor/albacora — the Portuguese route being favoured because the first English attestations come from the Portuguese Atlantic and Indian-Ocean voyages. The word is unchanged in form apart from the English spelling -core for Romance -cora/-cor. Either way the chain English < Ibero-Romance < Andalusian Arabic al-bak(ū)ra < b-k-r is agreed; only the identity of the Romance donor is uncertain, so 'plausible'.",
+          "derivation_fa": "واژهٔ انگلیسی albacore در دههٔ ۱۵۷۰ در گزارش‌های ماهیگیری مناطق گرمسیری پدیدار می‌شود و وام‌واژه‌ای است از صورتی ایبریایی از همان واژهٔ عربی: کلاین و چاپ‌های کهن‌ترِ AHD «اسپانیایی albacora» می‌گویند (همان که در نمودار آمده)، ولی اتیمانلاین، AHD امروزی و ویکی‌واژه «پرتغالی albacor/albacora» را ترجیح می‌دهند، چون نخستین کاربردهای انگلیسی به سفرهای دریایی پرتغالی‌ها در اقیانوس اطلس و هند بازمی‌گردد. تغییر صوری تنها در املای پایانهٔ ـcore به‌جای ـcora است. در هر حال زنجیرهٔ انگلیسی ‹ ایبریایی ‹ عربی اندلسی البَک(ُو)رة ‹ ریشهٔ ب‌-ک‌-ر پذیرفته است و تنها زبانِ میانجی محل اختلاف است. نتیجه: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/albacore",
+            "https://en.wiktionary.org/wiki/albacore",
+            "https://ahdictionary.com/word/search.html?q=albacore"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:44",
+              "status": "supports",
+              "note": "Klein p. 44 heads the entry \"albacore, n., a species of tunny (zool.) — Sp. albacora…\" — English from Spanish, as the chart draws."
+            },
+            {
+              "ref": "AHD:29",
+              "status": "partial",
+              "note": "Current AHD s.v. albacore: \"[Portuguese albacor, from Arabic al-bakūra…]\" — same word and root, Portuguese donor. The 1975 New College p. 29 could not be checked (that edition's dictionary text is not on disk; only Watkins' IE appendix is)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 44",
+              "stance": "supports",
+              "note": "\"albacore … — Sp. albacora, fr. Arab. albakrah, 'the young camel'\"."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century vol. 1 (A-)",
+              "stance": "silent",
+              "note": "The albacore article is not legible in the OCR of the volume on disk (the scan of the early A pages is heavily damaged); no statement recoverable."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. 1 (A-Dive)",
+              "stance": "silent",
+              "note": "grep for 'albacore' in FSD_vol1.txt returns nothing usable — the entry did not survive the OCR."
+            },
+            {
+              "src": "SKT",
+              "where": "grep 'albacore' in SKT.txt",
+              "stance": "silent",
+              "note": "Skeat's Concise has no albacore entry."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
