@@ -1,0 +1,599 @@
+{
+  "pdf_page": 111,
+  "book_page": 81,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Dei, Deiw, Dyeu, Dyě",
+      "verdict": "confirmed",
+      "modern_form": "PIE *dei- / *dei̯H- 'to shine', with the u-extension *dyew- 'bright sky, daylight' and the o-stem *deiwos 'god, celestial one'",
+      "note": "Pokorny I 183–187 heads the entry '1. dei-, deiə-, dī-, diā- \"hell glänzen, schimmern, scheinen\"' and puts under it the u-extension 'deieu- (: dieu-, diu-, diu-) leuchtender, göttlich verehrter Himmel und leuchtender Tag' and the 'o-St. deiuo-s Gott, Himmlischer'. Nourai's four-way heading Dei / Deiw / Dyeu / Dyě is exactly this ablaut series (dei- / deiw-o- / dyeu- / dyē-), the language label 'Indo-European' is right and the gloss 'to shine' is the standard one (Watkins: 'deiw-. To shine (and in many derivatives, \"sky, heaven, god\")'). Only a nuance separates him from current work: Wiktionary and Beekes make *dyew- 'sky, to be bright' primary and *deiwós a metathesised derivative of it, whereas Pokorny/Watkins (Nourai's sources) make the verbal *dei- primary. Both accounts unite exactly the material of this chart, so the chart's shape stands. The whole page is one entry with fourteen nodes; the extraction is faithful to the printed page (checked on the 300 dpi render, copy at data/verification/sources/refs/ocr/BOOK/111.png), including the author's own breve marks in 'diěs' and 'jŭlius'.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *dei- / *dei̯H- به معنی «درخشیدن، تابیدن» با گسترش وَاوی *dyew- «آسمانِ روشن، روز» و ستاک اسمی *deiwos «ایزد، آسمانی». پوکورنی (ص ۱۸۳–۱۸۷) و واتکینز در پیوستِ ریشه‌های هندواروپایی فرهنگ American Heritage همین صورت‌ها را زیر یک ریشه گرد آورده‌اند، پس عنوان چهارگانهٔ نورایی (Dei / Deiw / Dyeu / Dyě) چیزی جز همان زنجیرهٔ ابدال‌های پوکورنی نیست و برچسب زبانی و معنای «درخشیدن» هر دو درست است. تنها تفاوت با پژوهش امروزی این است که ویکی‌واژه و بیکس *dyew- «آسمان» را اصل می‌گیرند و *deiwós را با قلبِ آواها از آن مشتق می‌دانند، حال آنکه پوکورنی فعل *dei- را اصل می‌شمارد؛ دامنهٔ واژه‌ها در هر دو تحلیل یکی است. در مجموع ادعای نورایی دربارهٔ ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:183",
+          "status": "supports",
+          "note": "POK_01.txt leaf 194 (printed p.183/184, awk RS=\\f NR==194): '1. dei-, deiQ-, di-, diä- ,hell glänzen, schimmern, scheinen' (älter ,*Strahlen werfen'?)' — the root, the page and the gloss are exactly Nourai's."
+        },
+        {
+          "ref": "AHD",
+          "status": "supports",
+          "note": "AHD_watkins1985.txt s.v.: 'deiw-. To shine (and in many derivatives, \"sky, heaven, god\"). I. Noun *deiwos, god … [Pok. 1. dei- 183.]' — Watkins gives the same root, the same gloss and the same Pokorny page Nourai cites."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. I (WLD_Bd1_1930_djvu.txt ll. 48705, 48766) s.v. dei-",
+          "stance": "supports",
+          "note": "'w-Erweiterung *deieu(o)- (:deiuo-, diuo- und dieu-, diu-)' and 'o-St. deiuo- „Gott, Himmlischer\": ai. deva-h „Gott\" (devi „Göttin\"), av. daeva- „Dämon\"' — Walde-Pokorny I 772ff. is the source Pokorny himself abridges."
+        },
+        {
+          "src": "IEC",
+          "where": "s.v. dieus / deiuos (IEC.txt l. 2322)",
+          "stance": "supports",
+          "note": "Mann: 'dieus, obl. diu- (cons. stem) \"god, sky\". … Also: deiuos … Skt. dyáuh; deváh; Per. div \"demon\" … Av. … daevo \"demon\"; Gk. Zeüs; OLat. deiuos, L deus; … OE Tiw \"Mars\"; ON Tyr … OHG cf. Zios-tac \"Tuesday\": OE Tiwes-dæg' — one entry covering nearly every node of this chart."
+        },
+        {
+          "src": "KLN",
+          "where": "s.v. deity (KLN_1971.txt ll. 66658-66675)",
+          "stance": "supports",
+          "note": "'All these words come fr. *deyew(o)-, \"shining\", which derives fr. I.-E. base *dei-, *deyō-, *di-, dyō-, \"to shine\", whence also OI. dí-de-ti, \"shines\"' — Klein's base list is Nourai's heading."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "daěv, daěvoh",
+          "verdict": "confirmed",
+          "derivation": "PIE *deiwós 'god, celestial one' > Proto-Indo-Iranian *daivás (Skt. devá- 'god') > Proto-Iranian *daivah > Avestan daēva-, nom. sg. daēvō — Nourai's 'daěv, daěvoh' is his own transcription (ě = ē/ae) of the stem and the nominative. The semantic history the chart states is the standard one and is exactly Bartholomae's: in the Gathas daēva- still designates 'the gods of the religion current in Iran before Zaraθuštra', while in the Younger Avesta it means 'Dämon, Unhold, Teufel'; the Zoroastrian reform, which set Ahura Mazdā above all, demoted the old *daiva- gods to demons, and the same demotion is public policy in Old Persian, where Xerxes' daiva-inscription (XPh) boasts of destroying the daivadāna 'house of the daivas'. Iranian is the only IE branch in which the word turned negative — Indic devá-, Latin deus, Lith. diẽvas all stayed 'god'.",
+          "derivation_fa": "از هندواروپایی آغازین *deiwós «ایزد، آسمانی» به هندوایرانی آغازین *daivás و ایرانی باستان *daivah و از آنجا به اوستایی daēva- (نهادی daēvō) رسیده است؛ نگارشِ «daěv, daěvoh» شیوهٔ خودِ نورایی برای نمایش ā/ē است. آنچه در کادر آمده همان تحلیل بارتولومه است: در گاهان daēva- هنوز نامِ خدایانِ دین پیش از زرتشت است و در اوستای متأخر معنای «دیو، اهریمن» می‌یابد؛ با اصلاح دینی زرتشت و برنشاندن اهورامزدا، خدایان کهن به دیوان فروکاسته شدند و همین سیاست در سنگ‌نبشتهٔ دیوِ خشایارشا (پارسی باستان daiva-، daivadāna «دیوکده») نیز دیده می‌شود. در هیچ شاخهٔ دیگر هندواروپایی این معنای منفی پدید نیامد: سنسکریت devá-، لاتین deus و لیتوانیایی diẽvas همچنان «خدا» مانده‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-",
+            "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D9%88"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:185",
+              "status": "supports",
+              "note": "POK_01.txt leaf 196 (printed 185/186): 'o-St. deiuo-s ,Gott, Himmlischer': ai. devá-h ,Gott' (devī ,Göttin'), av. daeva- ,Dämon'' — the arrow root → Avestan daēva- is on precisely the page cited."
+            },
+            {
+              "ref": "AHD:1511",
+              "status": "partial",
+              "note": "The New College Edition p.1511 is not on disk; the 1985 Watkins standalone edition of the same appendix (AHD_watkins1985.txt s.v. deiw-) has 'Noun *deiwos, god … 6. Sanskrit devah, god' but does NOT cite Avestan daēva-. Watkins therefore supports the root and the Indo-Iranian noun, not the Avestan form specifically."
+            },
+            {
+              "ref": "BQT:917",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 377 (= printed p.917; the leaf/page offset is fixed by the 'بقیه در صفحهٔ ۹۰۸' catch-lines), footnote 1 to the headword دیو: 'پهلوی dēv … اوستا daēva (دیو). هندی باستان devá (خدا) «اشتقاق ۵۹۸». این کلمه در قدیم به گروهی از پروردگاران آریایی اطلاق می‌شده ولی پس از ظهور زرتشت و معرفی «اهورامزدا» پروردگاران عهد قدیم با دیوان، گمراه‌کنندگان و شیاطین خوانده شدند، ولی کلمهٔ «دیو» نزد همهٔ اقوام هند و اروپایی — باستثنای ایرانیان — معنی اصلی خود را محفوظ داشته است' — Mo'in's footnote is word for word the sentence Nourai puts in the box."
+            },
+            {
+              "ref": "SNB:126",
+              "status": "not_checked",
+              "note": "SNB = H. Kowsar, سنگ‌نبشته‌ها سخن می‌گویند; refs_online.json records kind 'none' — not digitised on any accessible platform, so p.126 could not be seen."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "s.v. ¹daēva- m. (BRT.txt l. 12459)",
+              "stance": "supports",
+              "note": "Bartholomae: '¹daēva- m., j. ¹daēvī- f. 1) im gAw. Bezeichnung f. die Gottheiten der vor Zaraθuštra in Iran geltenden Religion … 2) im jAw. \"Dämon, Unhold, Teufel\"', with the footnote (l. 12473) that the priests and adherents of the old belief, which used daēva- for 'god', naturally opposed the reform."
+            },
+            {
+              "src": "KNT",
+              "where": "§ on OP d < PIE d (KNT.txt l. 1060) and XPh (l. 3368, 4592)",
+              "stance": "supports",
+              "note": "Kent: 'pIE *deiwo- \"deity\", OP daiva- \"(evil) god\", Av. …'; the Daiva Inscription of Xerxes (XPh) line 37 'adam avam daivadāna(m)' shows the demoted sense already in Achaemenid Old Persian."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dieus (IEC.txt l. 2322)",
+              "stance": "supports",
+              "note": "Mann lists 'Av. … daevo \"demon\"' beside 'Skt. deváh' under the same lemma."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "dîv «دیو»; dîvâneh «دیوانه»",
+          "verdict": "confirmed",
+          "derivation": "Avestan daēva- 'demon' > Middle Persian dēw (written with the Aramaic ideogram ŠDYA, from Aramaic šēdā 'demon', pl. šydy') > New Persian dīv «دیو»; the Middle Persian majhūl ē regularly yields the NP majhūl ē/ī written with ی, hence dēv ~ dīv. From it MP dēwānag [dyw'nk] 'demonic, mad' > NP dīvāna «دیوانه» — dīv + the adjectival suffix -āna(g) 'of the kind of', i.e. 'possessed by a dīv' > 'mad'; Mo'in's footnote analyses the ending as -ān + -a, but the MP form dēwānag shows the single suffix -ānag. The Molavī couplet the book quotes ('ما به سلیمان خوشیم، دیو و پری کو مباش') attests the word in the classical language. Both words are inherited, not borrowed.",
+          "derivation_fa": "اوستایی daēva- «دیو» در فارسی میانه به صورت dēw درآمد (در کتابت پهلوی با هُزوارشِ آرامی ŠDYA از šēdā «دیو» نوشته می‌شد) و ē مجهولِ فارسی میانه در فارسی نو با «ی» نوشته شد: «دیو». «دیوانه» دنبالهٔ فارسی میانهٔ dēwānag «دیوزده، دیوانه» است، یعنی «دیو» + پسوند نسبی ‑ānag «از گونهٔ ...»؛ معین در حاشیهٔ برهان آن را «دیو + ان (جمع) + هٔ نسبت» تحلیل کرده، اما صورتِ پهلوی dēwānag نشان می‌دهد که پسوند یکی است. تحول معنایی «دیوزده» به «مجنون» همان است که در متون کهن (بیت مولوی در همین کادر) دیده می‌شود. هر دو واژه ارثی‌اند نه وام‌واژه؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D9%88"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:133",
+              "status": "supports",
+              "note": "HRN.txt leaf 155 = printed p.133 (the OCR misreads the running head '133' as '138'; the offset leaf = printed + 22 is fixed by leaf 150 = p.128, leaf 151 = p.129), entry '598. dēv \"Dämon, Teufel\", dēvāne \"verrückt\" … aw. daēva- \"Dämon\"; phlv. dēv; ai. devá- \"Gott\"' — both of Nourai's words, with the same parent, on exactly the page cited."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.26 s.v. dēw, dēwānag (PHD.txt l. 312)",
+              "stance": "supports",
+              "note": "MacKenzie: 'dēw [ŠDYA < A šyd', pl. šydy' | N ~] demon, devil' and 'dēwānag [dyw'nk | N ~a] demonic, mad' — the Middle Persian link and the NP outcome are explicit."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 2 leaf 378 = printed p.918, footnote to دیوانه",
+              "stance": "partial",
+              "note": "Mo'in: 'دیوانه … از: دیو + ان (جمع) + ه (نسبت) [رک: اشتقاق ۵۹۸ …]؛ گیلکی dīvōna … «مجنون»، «بی‌عقل»' — same parentage, but a segmentation of the suffix that MP dēwānag does not bear out."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt, index of Persian words (ll. 10405-10412)",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien index has dīvān 60, dīvāl 61, dīvār 65, dīz 65 but no entry for dīv or dīvāne; he treats the compound words, not the simplex, and cites Horn's numbers for the rest — silent on this arrow."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sanskrit",
+          "words": "dî, dîp",
+          "verdict": "confirmed",
+          "derivation": "The Sanskrit reflexes of the bare verbal root: dī- 'to shine' (3 sg. dí-dē-ti 'scheint, leuchtet', 3 pl. dídyati, part. dīdi- 'shining') and its labial extension dīp- (dīpyate 'flames, radiates, shines', caus. dīpáyati 'kindles, lights up'), from *deiH-/*diH- with the -p- enlargement *diH-p-. Both are listed by Pokorny on the very page Nourai cites, under the head-root dei-, so the arrow root → Sanskrit dī, dīp is drawn correctly; dīp- is a derivative of dī-, not an independent root, and it is dīp- (not dī-) that matters for node #4.",
+          "derivation_fa": "این گره بازتاب‌های سنسکریتِ خودِ ریشه است: dī- «درخشیدن» (dí-dē-ti «می‌تابد»، dídyati) و گسترشِ لبی آن dīp- (dīpyate «شعله می‌کشد، می‌درخشد»، سببی dīpáyati «برمی‌افروزد»)، از *deiH-/*diH- با افزودهٔ ‑p-. هر دو صورت در همان صفحهٔ ۱۸۳–۱۸۴ پوکورنی زیر ریشهٔ dei- آمده‌اند، پس پیکانِ «ریشه ← سنسکریت» درست کشیده شده است. تنها نکته آنکه dīp- ریشه‌ای مستقل نیست بلکه مشتقِ dī- است، و همین dīp- است که در گرهِ بعدی (دیبا) به کار می‌آید. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:183",
+              "status": "supports",
+              "note": "POK_01.txt leaf 194 (printed 183/184): 'Ai. dí-dē-ti ,scheint, leuchtet', 3. Pl. dīdyati … su-dī-ti-h ,schönen Glanz habend', Kaus. dīpáyati ,entzündet, erhellt', dīpyate ,flammt, strahlt, scheint' … didi- ,scheinend'' — both of Nourai's Sanskrit forms with the gloss 'to shine'."
+            },
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "AHD_watkins1985.txt s.v. deiw- cites Sanskrit only for devah/deva- (DEVI, DEODAR, DEVANAGARI); the verbal dī-/dīp- is not in Watkins' appendix, which lists only the English-relevant descendants. It supports the gloss 'to shine' but not this particular Sanskrit pair."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I s.v. dei- (WLD_Bd1_1930_djvu.txt around l. 48700)",
+              "stance": "supports",
+              "note": "Walde-Pokorny I 772f. has the same Sanskrit material (dídēti, dīpyate) under the head 'dei-, deiə-, dī-, diā- hell glänzen'."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dei- / deiuos (IEC.txt ll. 2112-2124, 2322)",
+              "stance": "partial",
+              "note": "Mann builds his lemmas on the nominal *deiuos/*dieus and cites 'Skt. deváh', not the verb dī-/dīp-; he neither supports nor contradicts the verbal node."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "děpâk, děbâg",
+          "verdict": "plausible",
+          "derivation": "MP dēbāg [dyp'k] 'brocade' is well attested (MacKenzie p.26 'dēbāg [dyp'k | N dēbā] brocade'; it occurs at Šāyast nē-šāyast 4,1, the very text whose glossary Nourai cites as SNS). Its derivation from the 'shine' root is Horn's (no. 591): 'ai. √dīp-, dīpyate \"flammen, strahlen, glänzen\"; phlv. dēpāk … Die Etymologie ist nicht sicher, da im Sanskrit nur Formen mit ī, nie solche mit ē vorkommen' — i.e. the Sanskrit comparandum has ī where Pahlavi has ē, which is exactly why the chart's own NOTE says BQT is not certain. Two further corrections to the arrow as drawn: (a) MP dēbāg is not descended from Sanskrit but is an inherited Iranian formation from the same root, Proto-Iranian *diHp- 'to shine' (so Wiktionary: 'probably a derivative of Proto-Iranian *diHp- \"to shine, light up\", due to the sheen imparted by the gold and silver'), so the parent–child arrow really marks a cognate relation; (b) a rival etymology, preferred by Asbaghi and reported by Mo'in himself, takes dēpāk to the OP dipi- 'writing, inscription' family (ultimately Sumerian dub / Akkadian ṭuppu), whence 'figured, embroidered stuff' — cf. Arabic dabbaǧa 'to paint with figures, embroider' and MP dibīr 'scribe', dēwān. The Pahlavi form and gloss are right; the parentage is 'accepted by some, doubted by others', hence plausible.",
+          "derivation_fa": "صورتِ فارسی میانهٔ dēbāg (نگارش pahlavi: dyp'k) به معنی «پارچهٔ زربفت، دیبا» به‌خوبی گواهی شده است (مکنزی، ص ۲۶؛ و در متنِ شایست نه‌شایست ۴/۱ به کار رفته که واژه‌نامه‌اش همان SNS مورد استنادِ نورایی است). پیوند آن با ریشهٔ «درخشیدن» از آنِ هرن است (شمارهٔ ۵۹۱): «سنسکریت √dīp-، dīpyate «شعله کشیدن، درخشیدن»؛ پهلوی dēpāk … این اشتقاق قطعی نیست، زیرا در سنسکریت تنها صورت‌های با ī هست و هرگز با ē» — و همین نکته است که یادداشتِ خودِ نمودار («برهان قاطع در این اشتقاق مطمئن نیست») بدان اشاره دارد. دو تصحیح بر پیکان: نخست آنکه dēbāg وام‌واژه‌ای از سنسکریت نیست بلکه ساختی ارثی از ایرانی آغازین *diHp- است، پس رابطهٔ این دو هم‌ریشگی است نه فرزندی؛ دوم آنکه اصباغی و نیز حاشیهٔ معین اشتقاقِ رقیبی را می‌آورند که dēpāk را به خانوادهٔ dipi- «نوشته» در پارسی باستان (و سرانجام dub سومری و ṭuppu اکدی) می‌برد، یعنی «پارچهٔ نقش‌دار»؛ مقایسه کنید با عربی دبّج «نقش زدن» و پهلوی dibīr «دبیر» و dēwān. صورت و معنای پهلوی درست است اما نسبِ آن با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D8%A8%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:908",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 368 = printed p.908 (fixed by the catch-lines 'بقیه در صفحهٔ ۹۰۸' on leaf 367 and 'بقیه از صفحهٔ ۹۰۷' on leaf 368), footnote to دیبا: 'پهلوی dēpāk «تاوادیا ۹۱۰»، از هندی باستان dīp-, dīpayati (زبانه کشیدن، پرتو افکندن، درخشیدن) … «اشتقاق ۵۹۱» … اگرچه اشتقاق آن قطعی نیست' and, in the same note, the rival route 'وآن را از ریشهٔ … سومری (لوحه، خط) و اکدی … گرفته‌اند «فاب ۱ ص ۲۱۱»، رک: دستان، دبیر' — Mo'in gives Nourai's chain AND the uncertainty the chart's NOTE reports."
+            },
+            {
+              "ref": "SNS:313",
+              "status": "supports",
+              "note": "SNS_pages.txt, the Sanskrit index of Tavoosi's glossary (l. 14893) has 'dīpyate, 313/10' (beside 'distay- 313/13'), i.e. glossary page 313 line 10 adduces Skt dīpyate — the comparandum for dēpāk, which occurs at Šāyast nē-šāyast 4,1 (Horn no. 591). The body of p.313 itself is not legible in the OCR (the Persian layer of this scan is largely noise), so the index entry is the evidence."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.26 s.v. dēbāg (PHD.txt l. 312; English side l. 1099 'brocade dēbāg')",
+              "stance": "supports",
+              "note": "'dēbāg [dyp'k | N dēbā] brocade' — MacKenzie confirms both Pahlavi spellings Nourai prints (dēpāk = the transliteration dyp'k, dēbāg = the transcription) and the NP outcome, without committing to an etymology."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 591, printed p.132 (HRN.txt leaf 154)",
+              "stance": "partial",
+              "note": "Horn supplies the etymology Nourai draws but flags it: 'Die Etymologie ist nicht sicher, da im Sanskrit nur Formen mit ī, nie solche mit ē vorkommen'; he also gives 'phlv. dēpāk (Šāy. nē-šāy. 4,1), arm. LW. dipak, syr. LW.'"
+            },
+            {
+              "src": "PLA",
+              "where": "p.129 s.v. dībāǧ (PLA_asbaghi_1988_ia_djvu.txt l. 9904)",
+              "stance": "contradicts",
+              "note": "Asbaghi: 'dībāǧ … aus pers. dībā < Mp. dēpāk, ap. dipi …, syr. …, mand. dibag' — he refers the Middle Persian word to Old Persian dipi- 'inscription, writing', not to the 'shine' root."
+            },
+            {
+              "src": "NYB",
+              "where": "vol. II glossary s.v. dīvān (NYB_vol2_glossary.txt l. 1300)",
+              "stance": "partial",
+              "note": "Nyberg: 'dīvān [dyw'n'] the government office … Possibly < *dipi-vahana- \"document house\", v. dēpivar' — independent evidence that a dip(i)- 'writing' family was alive in Middle Persian, which is what makes Asbaghi's rival etymology of dēpāk possible."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "dîbâ «دیبا» (extra: دیبه ، دیباج)",
+          "verdict": "confirmed",
+          "derivation": "MP dēbāg > NP dībā «دیبا» 'figured silk, brocade': the Middle Persian final -g of the suffix -āg was lost in New Persian (as in MP xānag > NP xāna, MP asprēs > …), and MP ē is written ی, so dēbāg > dēbā/dībā; the variant دیبه (dība/dībe) preserves the same stem with the -a ending, and دیباچه 'preface' is dībā + the diminutive -če, literally 'little brocade' = the ornamented opening of a book. دیباج is the Arabicised form travelling back into Persian: Arabic dībāǧ is an early loan from Persian dībā (Addi Shir: '(الديباج) معرب ديبا وهو الثوب الذي سداه … حرير'; Asbaghi p.129 'dībāǧ … pers., aus pers. dībā'), so the printed دیباج in the box is a Persian→Arabic→Persian round trip, not a separate word. The chart's cross-reference 'See root \"Zay\" for another possible derivation' is Nourai's own acknowledgement of the rival etymology discussed at node #4. The Ferdowsī hemistich in the box ('همان گوهر و دیبه و تخت و تاج') attests دیبه in the Šāhnāma. The step Pahlavi → Persian itself is beyond doubt; only the step above it (node #4) is uncertain.",
+          "derivation_fa": "«دیبا» دنبالهٔ مستقیم فارسی میانهٔ dēbāg است: گافِ پایانیِ پسوند ‑āg در فارسی نو افتاده (مانند xānag > خانه) و ē مجهول با «ی» نوشته شده، پس dēbāg > دیبا. گونهٔ «دیبه» همان ستاک با پایانهٔ ‑ه است و «دیباچه» از دیبا + ‑چه (تصغیر) یعنی «دیبای کوچک»، کنایه از آغازِ آراستهٔ کتاب. «دیباج» معرّبِ همین «دیبا» است که دوباره از عربی به فارسی بازگشته است (ادّی‌شیر: «الدیباج معرّب دیبا»؛ اصباغی ص ۱۲۹)، پس در کادر با یک وام‌گیریِ رفت‌وبرگشتی فارسی ← عربی ← فارسی روبه‌روییم. بیتِ فردوسی («همان گوهر و دیبه و تخت و تاج») کاربردِ کهنِ «دیبه» را گواهی می‌کند. خودِ گامِ پهلوی ← فارسی تردیدناپذیر است و تنها گامِ بالاتر (گرهٔ ۴) جای بحث دارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D8%A8%D8%A7"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:908",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 368 = printed p.908: headword 'دیبا * = بروزن زیبا، قماشی باشد از حریر الوان' with Mo'in's footnote 'پهلوی dēpāk … در فارسی = دیباه، دیبه؛ و دیباچه و دیوان نیز از همین ریشه است، معرب آن دیباج است' — the headword, the gloss 'a colorful cloth', and the extras دیبه/دیباج are all on the cited page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 591, printed p.132",
+              "stance": "supports",
+              "note": "'591. dēbā, dēbah \"Brokat\", arab. dībāǧ; dēbāče \"Vorrede\"' — Horn has the NP word, the variant دیبه, the Arabic loan and دیباچه in one line."
+            },
+            {
+              "src": "PHD",
+              "where": "p.26 s.v. dēbāg",
+              "stance": "supports",
+              "note": "MacKenzie's bracket '| N dēbā' states the Middle → New Persian descent that this arrow draws."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, s.v. الديباج (AFM.txt l. 2497)",
+              "stance": "supports",
+              "note": "'(الديباج) معرب ديبا وهو الثوب الذي سداه … حرير' — Arabic dībāj is Arabicised Persian dībā, confirming the direction of the loan behind the printed extra دیباج."
+            },
+            {
+              "src": "PLA",
+              "where": "p.129 s.v. dībā / dībāǧ",
+              "stance": "partial",
+              "note": "Asbaghi confirms 'aus pers. dībā < Mp. dēpāk' for the Persian → Arabic loan, but refers dēpāk itself to OP dipi- rather than to the 'shine' root."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Latin",
+          "words": "deus; diěs; jovis, jŭlius",
+          "verdict": "confirmed",
+          "derivation": "All three Latin items belong to the same paradigm-split described by Pokorny p.185: Old Latin deiuos (epigraphically attested) yields both deus 'god' (< *deiuos > *deos) and dīvus 'divine' (< gen. *deiuī); the diphthong stem *dyeu-/*dyew- gives the name of the sky god — voc. *dyeu-pəter = Iuppiter (Umbrian Iupater, Greek Zeû páter, Skt. dyáuṣ pitā́), gen. Iovis, whence the gentilicium Iūlius < *Iouilios 'descended from Jupiter'; and the ē-grade *dyē- gives diēs 'day' (nom. dies remade after acc. diem). Two notes on the printed forms: Nourai's breves are his own vowel marks — Latin has diēs and Iūlius with long vowels (the extraction is faithful; the printed page really shows 'diěs' and 'jŭlius') — and 'jovis' is the genitive of Iuppiter, not a nominative, so the gloss 'from Jupiter' fits Iūlius but describes Iovis loosely.",
+          "derivation_fa": "هر سه واژهٔ لاتینی از یک ساختِ صرفیِ دوپاره‌شده‌اند که پوکورنی در ص ۱۸۵ شرح داده است: لاتینِ کهن deiuos هم deus «خدا» می‌دهد و هم dīvus «ایزدی»؛ ستاکِ دوواکه‌ای *dyew- نامِ ایزدِ آسمان را می‌سازد — ندایی *dyeu-pəter یعنی Iuppiter (اومبریایی Iupater، یونانی Zeû páter، سنسکریت dyáuṣ pitā́)، اضافیِ Iovis، و از آنجا نامِ خاندانِ Iūlius از *Iouilios «از تبار ژوپیتر»؛ و درجهٔ ē یعنی *dyē- واژهٔ diēs «روز» را می‌دهد. دو نکته دربارهٔ صورت‌های چاپی: علامت‌های کوتاهِ روی مصوت از آنِ خودِ نورایی است و در لاتین diēs و Iūlius با مصوتِ بلند درست است (خطای خوانشِ اسکن نیست؛ در صفحهٔ چاپی نیز «diěs» و «jŭlius» آمده)، و jovis صورتِ اضافیِ Iuppiter است نه نهادی، پس توضیحِ «from Jupiter» بیشتر برازندهٔ Iūlius است. در کل ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/journal"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. deiw-: 'I.2. Latin deus, god … 3. Latin divus … II. Variant *dyeu-, Jove … 1. Latin Jovis, Jupiter … 2. Derivative *jou-il- in Latin Jūlius, \"descended from Jupiter\" (name of a Roman gens): JULY. 3. Vocative compound *dyeu-poter- … Juppiter … III. Variant *dyē- (< *dyeə-) in Latin diēs, day' — every Latin word in the box, with the same relations."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. deus (LAT.txt l. 16405) and s.v. dies (l. 16753)",
+              "stance": "supports",
+              "note": "'deus, -ī m. (ancien deiuos attesté épigraphiquement), dea (deiua…)' and 'dies, -ei … jour; espace d'une journée … comme on le voit dans Dies-piter' — the Old Latin deiuos and the Diespiter/Iuppiter connection are explicit."
+            },
+            {
+              "src": "POK",
+              "where": "printed p.185 (POK_01.txt leaf 195)",
+              "stance": "supports",
+              "note": "'lat. Iuppiter aus Iū-piter, umbr. Iupater Vok. = Zeῦ πάτερ … lat. Gen. Iouis … vgl. GentilN lat. Iūlius (*Iouilios); lat. Diespiter … dies … in der Bed. \"Tag\" sonst herrschend wurde'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. deity (KLN_1971.txt l. 66658ff.)",
+              "stance": "supports",
+              "note": "'fr. L. deus, \"god\", fr. OL. deivos (whence also L. divus) … L. Diespiter, Jupiter'."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "French",
+          "words": "journal",
+          "verdict": "confirmed",
+          "derivation": "Latin diēs > adj. diurnus 'of the day' > Late Latin diurnālis 'daily'; with the regular Gallo-Romance loss of intervocalic material and the treatment di- > /dʒ/ > /ʒ/, diurnālis gave Old French jornal, jurnal 'daily' (and diurnum > OF jorn, jour 'day'). The adjective was substantivised, first as 'a day's work / a day's measure of land', then in the 17th century as 'daily register, day-book' and 'daily paper' — the modern French journal (Théophraste Renaudot's Gazette, 1631, and the Journal des sçavans, 1665, fix the press sense). Etymonline states the chain: 'noun use of adjective meaning \"daily, of the day\", from Late Latin diurnalis \"daily\", from Latin dies \"day\" … from PIE root *dyeu- \"to shine\"'.",
+          "derivation_fa": "لاتین diēs صفتِ diurnus «روزانه» را ساخت و از آن لاتینِ متأخر diurnālis پدید آمد؛ در گذر به فرانسویِ کهن، ‑di‑ آغازین نخست به /dʒ/ و سپس به /ʒ/ بدل شد و diurnālis صورتِ jornal / jurnal «روزانه» را داد (چنان‌که diurnum به jorn و jour «روز» رسید). این صفت اسم شد: نخست «کارِ یک روز، مساحتِ یک‌روزه»، سپس در سدهٔ هفدهم «دفترِ روزانه» و «روزنامه» (گازتِ رنودو ۱۶۳۱ و Journal des sçavans ۱۶۶۵ این معنا را تثبیت کردند). زنجیرهٔ لاتین ← فرانسه در اتیمانلاین و کلاین بی‌هیچ اختلافی آمده است؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/journal"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:707",
+              "status": "partial",
+              "note": "Only the Watkins appendix is on disk, not the New College main dictionary where p.707 (the 'journal' entry) stands; the appendix s.v. deiw- III does list '(JOURNAL)' among the descendants of Latin diēs > Late Latin diurnum, which is the claim of this arrow, but the cited page itself could not be read."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. journal adj./n. (KLN_1971.txt l. 129452ff.)",
+              "stance": "supports",
+              "note": "'journal, adj., daily (archaic). — ME., fr. OF. jornal, jurnal, journal (F. journal), \"daily\", fr. L. diurnalis, \"diurnal\", fr. diurnus, \"daily\"' and 'journal, n. — F., lit. \"a daily paper\", fr. OF. jornal'."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. Journal (SKT.txt l. 9534), cross-referring to Diary",
+              "stance": "supports",
+              "note": "Skeat: 'Journal. Journey; see Diary.' — he files both under Diary (< L. diarium < dies), i.e. the same Latin diēs ancestry; cf. 'Diurnal; see Diary' (l. 5220) and 'Adjourn: see Diary' (l. 367)."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Persian",
+          "words": "žornâl «ژورنال»",
+          "verdict": "confirmed",
+          "derivation": "A modern French loan, taken into Persian in the Qajar period along with the European press vocabulary (گازت، تلگراف، ژورنال). French journal /ʒuʁnal/ is rendered with Persian ژ for /ʒ/ — the letter Persian reserves for this foreign sound — and the French nasal-free -al is kept, giving ژورنال žornāl. Mo'in tags it '[فر.]' (= فرانسه) and glosses it '۱ - روزنامه. ۲ - مجلهٔ مخصوص مد لباس'; Dehkhoda likewise 'ژورنال. (فرانسوی، اِ) روزنامه' and notes the Persian narrowing to fashion magazines used by tailors. The arrow French → Persian is correct and direct (not via Turkish or Russian, for which the form would be žurnal).",
+          "derivation_fa": "وام‌واژه‌ای نو از فرانسه است که در دورهٔ قاجار همراه با واژگانِ مطبوعات (گازت، تلگراف، ژورنال) به فارسی درآمد. آوای /ʒ/ فرانسوی با حرفِ «ژ» نوشته شده — همان حرفی که فارسی برای این آوا نگاه داشته است — و پایانهٔ ‑al دست‌نخورده مانده: journal > ژورنال. معین آن را با نشانِ «[فر.]» می‌آورد و چنین معنی می‌کند: «۱ ‑ روزنامه. ۲ ‑ مجلهٔ مخصوص مد لباس»؛ دهخدا نیز «ژورنال. (فرانسوی، اِ) روزنامه» و تخصیصِ فارسیِ آن به مجله‌های مدِ لباس را یاد می‌کند. پس پیکانِ فرانسه ← فارسی درست و بی‌واسطه است (نه از راه ترکی یا روسی که در آن صورت žurnal می‌شد).",
+          "sources": [
+            "https://abadis.ir/fatofa/%DA%98%D9%88%D8%B1%D9%86%D8%A7%D9%84/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1778",
+              "status": "supports",
+              "note": "Mo'in's entry, read through abadis.ir (the print volumes' page numbers cannot be mapped online, so the page 1778 itself is unverified): 'ژورنال (ژُ) [فر.] (اِ.) ۱ - روزنامه. ۲ - مجلهٔ مخصوصِ مُد لباس' — the French origin Nourai's arrow claims is Mo'in's own bracketed tag."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vajehyab/abadis, s.v. ژورنال",
+              "stance": "supports",
+              "note": "'[فر.]' = French; gloss 'روزنامه'."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v2_pages.txt and incoming/BQT/BQT_v3_pages.txt (ژ section), grep ژورنال",
+              "stance": "silent",
+              "note": "No headword ژورنال in Borhan-e Qate' (compiled 1062/1652, two centuries before the loan). The single occurrence of the string in vol. 3 (l. 28213) is inside a modern editorial footnote citing the periodical «ژورنال آزیاتیک» (Journal Asiatique), not a dictionary entry; silence here is expected and is not evidence against the arrow."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt / ARY_latin_index_pages.txt, grep ژورنال",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of Indo-European roots of Persian does not treat modern European loanwords; no entry found."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "journal",
+          "verdict": "confirmed",
+          "derivation": "English journal is borrowed from French, in two layers: the adjective first (Middle English, mid-14th c., from Anglo-French jurnal / Old French jornal 'daily', e.g. 'journal hours'), then the noun 'day's record, diary' (15th c.) and finally 'daily newspaper, periodical' (17th c.) on the model of French journal. So the chart's French → English arrow is right; Klein makes journal a doublet of diurnal, both from Latin diurnus.",
+          "derivation_fa": "واژهٔ انگلیسی journal وام‌گرفته از فرانسه است، در دو لایه: نخست صفت (انگلیسیِ میانه، میانهٔ سدهٔ چهاردهم، از آنگلونورمنِ jurnal و فرانسویِ کهن jornal «روزانه»)، سپس اسمِ «دفترِ روزانه، یادداشتِ روزانه» در سدهٔ پانزدهم و سرانجام «روزنامه، نشریهٔ ادواری» در سدهٔ هفدهم به پیرویِ فرانسه. پس پیکانِ فرانسه ← انگلیسی درست کشیده شده است. کلاین journal را دوگانهٔ (doublet) diurnal می‌شمارد که هر دو از diurnus لاتین‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/journal"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:707",
+              "status": "partial",
+              "note": "Same as node #7: the New College page 707 is not on disk; the Watkins appendix s.v. deiw- III lists '(JOURNAL)' under Latin diēs, supporting the ancestry but not the cited page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. journal, adj. and n. (KLN_1971.txt l. 129452ff.)",
+              "stance": "supports",
+              "note": "'journal, adj. … — ME., fr. OF. jornal … See diurnal, which is a doublet of journal'; 'journal, n. — F., lit. \"a daily paper\"'."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dieus (IEC.txt l. 2322)",
+              "stance": "silent",
+              "note": "Mann's comparative entry stops at the ancient languages and lists no Romance or English derivatives."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "deity, divine, dial, diary, journey, Jupiter, July, Julian, Julius",
+          "verdict": "confirmed",
+          "derivation": "All nine are Latin-derived and all nine are listed by Watkins under deiw-. deity < OF deité < Late Latin deitās (coined by Augustine after Greek theótēs) < deus; divine < OF divin < Latin dīvīnus < dīvus; dial < Medieval Latin diālis 'daily' (rota diālis, the sun-dial's daily wheel) < diēs; diary < Latin diārium 'daily allowance, journal' < diēs; journey < OF jornee < Vulgar Latin *diurnāta 'a day's work / a day's travel' < diurnus; Jupiter < Latin Iuppiter < voc. *dyeu-pəter; Julius / Julian < the gens name Iūlius (< *Iouilios) and its adjective Iūliānus; July < Latin (mēnsis) Iūlius, the month renamed in 44 BCE for Gaius Iulius Caesar, through OF julie/juil into ME. Each word is a learned or Old-French-mediated Latinism, not a native English form, so the chart's Latin → English arrow is right.",
+          "derivation_fa": "هر نُه واژه لاتینی‌تبارند و همگی در پیوستِ واتکینز زیر deiw- آمده‌اند. deity از فرانسویِ کهن deité از لاتینِ متأخر deitās (ساختهٔ آگوستین به قیاسِ theótēs یونانی) از deus؛ divine از dīvīnus لاتین از dīvus؛ dial از لاتینِ میانه diālis «روزانه» (rota diālis، چرخِ روزانهٔ ساعتِ آفتابی) از diēs؛ diary از diārium «جیرهٔ روزانه، روزنگار»؛ journey از فرانسویِ کهن jornee از لاتینِ عامیانه *diurnāta «کارِ یک روز، سفرِ یک‌روزه»؛ Jupiter از Iuppiter؛ Julius و Julian از نامِ خاندانِ Iūlius (از *Iouilios) و صفتِ Iūliānus؛ و July از (mēnsis) Iūlius، ماهی که در سال ۴۴ پیش از میلاد به نامِ ژولیوس سزار نامیده شد و از راهِ فرانسویِ کهن به انگلیسی رسید. همهٔ این‌ها وام‌واژه‌های عالمانه یا فرانسوی‌واسطه‌اند نه صورت‌های بومیِ ژرمنی؛ پس پیکانِ لاتین ← انگلیسی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/journal"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. deiw- lists, in order, DEISM/DEITY (Latin deus), DIVINE (Latin divus), JUPITER, JULY (*jou-il- > Jūlius), and under III 'Latin diēs … DIAL, DIARY … DIURNAL; ADJOURN, … (JOURNAL), (JOURNEY)'. The reverse index confirms it word by word: 'DEITY deiw-', 'DIAL deiw-', 'DIARY deiw-', 'JOURNEY deiw-', 'JUPITER deiw-', 'JULY deiw-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. deity, journey (KLN_1971.txt ll. 66658, 129465ff.)",
+              "stance": "supports",
+              "note": "'deity, n. — ME. deite, fr. OF. deite … fr. Late L. deitatem … which was coined by Augustine on analogy of Gk. θεότης … fr. L. deus'; 'journey, n. — OF. jornee … fr. VL. *diurnata, \"day, day's work\", fr. L. diurnus'."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. deiuinos, dieus (IEC.txt ll. 2122, 2322)",
+              "stance": "supports",
+              "note": "Mann: 'deiuinos \"god-like, inspired\" … Lat. divinus' — the base of English divine."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. Jovial (SKT.txt l. 9536) and the Diary cross-references (ll. 367, 5220, 9534)",
+              "stance": "supports",
+              "note": "Skeat: 'Jovial: see Deity.' and 'Journal. Journey; see Diary.' — he groups exactly Nourai's two families, the deus words under Deity and the diēs words under Diary."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Germanic",
+          "words": "tiwaz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *Tīwaz < PIE *deiwós, with the regular Grimm shift *d > *t and *ei > *ī; the plural of the same noun survives as ON tívar 'gods' (< *deiwōs). The singular became the name of the individual god: ON Týr, OE Tīw (gen. Tīwes), OHG Zio/Ziu. Pokorny p.186 gives 'anord. tívar Pl. \"Götter\" (*deiuōs) sowie anord. Týr (agerm. teiwaz) \"der Kriegsgott\", ags. Tīg, Gen. Tiwes \"Mars\", ahd. Zio, Zio'. One nuance on Nourai's gloss 'god of sky': by the time the Germanic god is attested he is the war god equated with Mars (whence the interpretatio Romana behind Tuesday = dies Martis); 'sky god' is his reconstructed prehistoric role, not his attested one — Watkins hedges it as 'god of war and sky'.",
+          "derivation_fa": "ژرمنی آغازین *Tīwaz از هندواروپایی *deiwós است، با دو دگرگونیِ منظم: *d ژرمنی بر پایهٔ قانون گریم به *t بدل شده و *ei به *ī کشیده تک‌واکه شده است. جمعِ همان اسم در نورسِ کهن به صورت tívar «خدایان» (از *deiwōs) مانده و مفردِ آن نامِ خاصِ ایزد شده است: نورسِ کهن Týr، انگلیسیِ کهن Tīw (اضافی Tīwes)، آلمانیِ علیای کهن Zio/Ziu. پوکورنی در ص ۱۸۶ همین صورت‌ها را می‌آورد. تنها نکته دربارهٔ معنایی که نورایی داده («ایزدِ آسمان») این است که در دورهٔ گواهی‌شده، این ایزد خدای جنگ و همتای مارس رومی است و «ایزدِ آسمان» نقشِ بازسازی‌شدهٔ پیشاتاریخی اوست؛ واتکینز نیز محتاطانه «خدای جنگ و آسمان» می‌نویسد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. deiw-: 'I. Noun *deiwos, god. 1. Germanic *Tīwaz in: a. Old English Tiw (genitive Tiwes), god of war and sky: TIU, (TUESDAY); b. Old Norse Tyr, sky god: TYR.' — Nourai's node, spelling and gloss come straight from here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "printed p.186 (POK_01.txt leaf 196)",
+              "stance": "supports",
+              "note": "'anord. tívar Pl. „Götter\" (*deiuōs) sowie anord. Týr (agerm. teiwaz) „der Kriegsgott\", ags. Tīg, Gen. Tiwes „Mars\", ahd. Zio, Zio'."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dieus (IEC.txt l. 2322)",
+              "stance": "supports",
+              "note": "Mann: 'Runic Go. tyz; OE Tiw \"Mars\"; ON Tyr, pl. tívar; OHG cf. Zios-tac \"Tuesday\"'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. deity / Tuesday",
+              "stance": "supports",
+              "note": "Klein: 'OHG. Zio, Ziu, ON. Tyr, OE. Tiw, name of the Teutonic war god' in the same cognate list as L. deus and Gk. Zeús."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "Tuesday",
+          "verdict": "confirmed",
+          "derivation": "Old English Tīwesdæg 'day of Tīw', gen. sg. Tīwes + dæg — a calque of Latin diēs Martis made when the Roman week was adopted in the Germanic world (the interpretatio germanica of the 3rd–4th c.), Tīw being equated with Mars. ME Tiwesdai / Twisdai / Tuesdai > Tuesday; the modern spelling with -ue- reflects the Middle English rounding of /iu/ and the influence of French orthography. The parallel calques ON týsdagr, OFris. tiesdei, OHG Ziostag confirm the pattern. The node carries no reference in the book, but the derivation is standard.",
+          "derivation_fa": "از انگلیسیِ کهن Tīwesdæg «روزِ تیو»، یعنی اضافیِ Tīwes به‌علاوهٔ dæg «روز» — گرته‌برداری از diēs Martis لاتین، از زمانی که هفتهٔ رومی در جهان ژرمنی پذیرفته شد (سدهٔ سوم و چهارم میلادی) و تیو با مارس برابر نهاده شد. صورتِ انگلیسیِ میانه Tiwesdai / Twisdai بود و املای امروزی با ‑ue‑ بازتابِ گردشدنِ /iu/ در انگلیسیِ میانه و تأثیرِ املای فرانسوی است. همین گرته‌برداری در نورسِ کهن týsdagr، فریزیِ کهن tiesdei و آلمانیِ علیای کهن Ziostag دیده می‌شود. این گره در کتاب بی‌ارجاع است، اما اشتقاق آن استاندارد و پذیرفته است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+          ],
+          "ref_check": [
+            {
+              "ref": "none",
+              "status": "not_checked",
+              "note": "The node carries no refs= in the book (the printed box has no reference icon), so there is nothing of Nourai's to check; the parent node #11 cites AHD, which does list TUESDAY under deiw-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. Tuesday (KLN_1971.txt l. 254936)",
+              "stance": "supports",
+              "note": "'Tuesday, n. — ME. Tiwesdai, Twisdai, Tuesdai, fr. OE. Tiwesdæg (\"day of Tiw\"). Tiw is an ancient Teutonic war god, identified with the Roman Mars … ON. Tyrsdagr, Tysdagr (Dan. Tirsdag), OFris. ties-dei, OHG. Ziostag … lit. \"the day of Tyr\", resp. \"the day of Ziu\"'."
+            },
+            {
+              "src": "AHD",
+              "where": "AHD_watkins1985.txt s.v. deiw- and reverse index 'TUESDAY deiw-'",
+              "stance": "supports",
+              "note": "Watkins puts TUESDAY under Germanic *Tīwaz > Old English Tiw."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dieus (IEC.txt l. 2322)",
+              "stance": "supports",
+              "note": "'OHG cf. Zios-tac \"Tuesday\": OE Tiwes-dæg, id.'"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Greek",
+          "words": "Zeus",
+          "verdict": "confirmed",
+          "derivation": "Greek Ζεύς continues the PIE diphthong-stem nominative *dyēus exactly (*dy- > Gk. Z-, as in Skt. dyáuḥ = Ζεύς), with the old paradigm still visible in the oblique cases: acc. Ζῆν < *dyēm, voc. Ζεῦ < *dyeu, gen. Δι(ϝ)ός, dat. Δι(ϝ)ί from the zero-grade *diw-. The vocative compound Ζεῦ πάτερ = Latin Iuppiter = Vedic dyáuṣ pitā́ 'O father Sky' is one of the securest reconstructed IE phrases and shows that the 'ruler of the heavens' gloss Nourai gives is the inherited meaning, not a Greek innovation.",
+          "derivation_fa": "یونانی Ζεύς دقیقاً دنبالهٔ نهادیِ ستاکِ دوواکه‌ایِ هندواروپایی *dyēus است (خوشهٔ *dy- در یونانی به Z بدل شده، چنان‌که سنسکریت dyáuḥ برابرِ Ζεύς است)، و ساختِ کهنِ صرفی هنوز در حالت‌های دیگر پیداست: رایی Ζῆν از *dyēm، ندایی Ζεῦ از *dyeu، و اضافی Δι(ϝ)ός و برایی Δι(ϝ)ί از درجهٔ صفرِ *diw-. ترکیبِ ندایی Ζεῦ πάτερ برابر با Iuppiter لاتین و dyáuṣ pitā́ ودایی («ای پدرْ آسمان») از استوارترین عبارت‌های بازسازی‌شدهٔ هندواروپایی است و نشان می‌دهد معنای «فرمانروای آسمان‌ها» که نورایی آورده همان معنای ارثی است نه نوآوریِ یونانی. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. deiw- II.4: 'Greek Zeus, Zeus: ZEUS; (Dioscuri)' under 'Variant *dyeu-, Jove, the name of the god of the bright sky, head of the Indo-European pantheon'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "printed p.185 (POK_01.txt leaf 195)",
+              "stance": "supports",
+              "note": "'gr. Ζεύς (= dyāú-h), Akk. Ζῆν (= dyām), Vok. Ζεῦ (*dyeu), Gen. Δι(ϝ)ός, Dat. (Lok.) Δι(ϝ)ί' — the full paradigm equation with Sanskrit."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. Zeus (KLN_1971.txt l. 270572)",
+              "stance": "supports",
+              "note": "'Zeus, n., the supreme god of the ancient Greeks. — Gk. Ζεύς [gen. Διός], cogn. with the first element in L. Diespiter, Jupiter. See deity'."
+            },
+            {
+              "src": "IEC",
+              "where": "s.v. dieus (IEC.txt l. 2322)",
+              "stance": "supports",
+              "note": "'Gk. Zeüs' listed beside 'Skt. dyáuh' under dieus."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "Zeus",
+          "verdict": "confirmed",
+          "derivation": "English Zeus is a learned borrowing of Greek Ζεύς, taken over unchanged (through Latin Zeus) in the Renaissance revival of classical mythology; it is a proper name, not an inherited word, and English's own inherited reflex of the same PIE noun is Tiw/Tuesday (node #12). The chart's Greek → English arrow therefore marks a straightforward literary borrowing.",
+          "derivation_fa": "«Zeus» در انگلیسی وام‌واژه‌ای عالمانه از یونانی Ζεύς است که در دورهٔ رنسانس و با احیای اساطیر کلاسیک، از راهِ لاتین و بی‌هیچ دگرگونی وارد شده است؛ نامی خاص است و نه واژه‌ای ارثی. بازتابِ ارثیِ همین اسمِ هندواروپایی در خودِ انگلیسی Tiw و Tuesday است (گرهٔ ۱۲). پس پیکانِ یونانی ← انگلیسی در این کادر صرفاً یک وام‌گیریِ ادبی را نشان می‌دهد و درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. deiw- II.4 gives the English headword ZEUS directly from Greek Zeus; the reverse index has no separate entry because the borrowing is unaltered."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. Zeus (KLN_1971.txt l. 270572)",
+              "stance": "supports",
+              "note": "Klein enters English Zeus and derives it from 'Gk. Ζεύς', cross-referring to deity for the IE background."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt (Webster's New Twentieth Century), grep 'Zeus'",
+              "stance": "silent",
+              "note": "Only volume 1 (A–…) of Webster's is on disk, so the Z entries could not be consulted."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

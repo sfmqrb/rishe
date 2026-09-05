@@ -1,0 +1,710 @@
+{
+ "pdf_page": 110,
+ "book_page": 80,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "D.b.r, Dibbĕr, Dâbhar",
+   "verdict": "plausible",
+   "modern_form": "Proto-Semitic *dVbr- 'bee' (Hebrew דְּבוֹרָה dəḇōrā); separately Semitic √d-b-r 'to speak' (Heb. dibbēr 'he spoke', dāḇār 'word, thing')",
+   "note": "The three glosses of the root box ('to buzz', 'he spoke', 'word') are exactly Klein's own statement on p.406 s.v. Deborah: 'from the Sem. base d-b-r-, meaning “to hum, buzz”, whence also dibber, “he spoke”, dabhar, “word, thing”'. So Nourai reproduces his source faithfully. Modern Semitic lexicography is more cautious: Wiktionary (following the Semitic Etymological Dictionary tradition) reconstructs a noun *dVbr- 'bee' for Heb. dəḇōrā / Syr. debbōrā / Arab. dabbūr, zunbūr and does NOT derive it from the verb 'to speak'; the reflexes also show an irregular d/z correspondence (Heb. d- but Aram. zibbūrā, Arab. zunbūr beside dabbūr), which points to an old culture word spread across the Semitic area rather than to a regular derivation from a verbal root. Hence 'plausible': the bee-words form one family (confirmed), but the further link 'buzz' > 'speak' > 'word' is the traditional Gesenius/Klein explanation, not today's consensus. Layout note: on the printed page there is one completely EMPTY box in entry 2 (to the right of the second Avestan node); it carries no language label and no words and is a typesetting artefact of the book, not something the extraction lost.",
+   "note_fa": "ریشهٔ سامی D.b.r با سه معنای «وزوز کردن؛ گفت؛ واژه» دقیقاً همان چیزی است که کلاین در ص ۴۰۶ ذیل Deborah می‌نویسد، پس نقل نورایی از منبعش درست است. اما ریشه‌شناسی سامی امروزی محتاط‌تر است: برای «زنبور» یک اسم سامی آغازین *dVbr- بازسازی می‌کنند (عبری dəḇōrā، سریانی debbōrā، عربی dabbūr و zunbūr) و آن را از فعل d-b-r «سخن گفتن» نمی‌گیرند؛ افزون بر این، تناوب نامنظم د/ز (عبری با «د» ولی آرامی zibbūrā و عربی zunbūr) نشان می‌دهد که با یک واژهٔ فرهنگی کهنِ سرگردان در حوزهٔ سامی روبه‌روییم نه با اشتقاق قاعده‌مند از یک ستاک فعلی. بنابراین: خانوادهٔ واژه‌های «زنبور» درست است، ولی پیوند «وزوز > سخن گفتن > واژه» با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%B2%D9%86%D8%A8%D9%88%D8%B1",
+    "https://en.wiktionary.org/wiki/%D7%93%D7%91%D7%95%D7%A8%D7%94"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:406",
+     "status": "supports",
+     "note": "KLN_1966.txt leaf 224 (= printed pp. 405-406; leaf 223 carries the printed numeral '404'), s.v. 'Deborah, fem. PN.; in the Bible, a prophetess and judge in Israel. — Heb. Dĕbhōrāh, lit. “bee”, rel. to Syr. debbōrā, “wasp”, debbōrīthā, “bee”, Aram. dibbōrīthā, Arab. zunbūr, dabbūr, “bee”, from the Sem. base d-b-r-, meaning “to hum, buzz”, whence also dibber, “he spoke”, dabhār, “word, thing”.' — the root box word for word (grep -n 'Deborah' KLN_1966.txt)."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "1966 ed. p.405/406, leaf 224 s.v. Deborah",
+     "stance": "supports",
+     "note": "'from the Sem. base d-b-r-, meaning “to hum, buzz”, whence also dibber, “he spoke”, dabhār, “word, thing”' — this IS Nourai's root box."
+    },
+    {
+     "src": "AFA",
+     "where": "Fraenkel, Aram. Fremdwörter, p.125 f. (AFA.txt l.4633 ff.)",
+     "stance": "silent",
+     "note": "Fraenkel treats only the beehive word (kuwwāra 'Bienenkorb', from Aramaic, ult. Persian) — 'Es kann keinem Zweifel unterliegen, dass dies Wort erst aus aram. … übernommen ist'; he says nothing about dabbūr/zunbūr or about d-b-r 'buzz/speak' (grep -i 'Biene|zunbur|dabbur' AFA.txt)."
+    },
+    {
+     "src": "LKT",
+     "where": "whole text",
+     "stance": "silent",
+     "note": "grep -i 'zunbur|dabbur' LKT.txt returns nothing; Lokotsch has no European word from this root."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "dabbŭr, zunbŭr; z.b.n",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "z.b.n",
+     "correct_form": "z.n.b.r",
+     "derivation": "Arabic دَبُّور dabbūr and زُنْبُور zunbūr both mean 'hornet, large bee' and are doublets: dabbūr keeps the Semitic d of the Hebrew/Syriac forms, while zunbūr entered Arabic through Aramaic זבּור zibbūr / Syriac zibbōrā, whose z- reflects the irregular sibilant variant of the same culture word (Wiktionary s.v. زنبور: 'From Aramaic זבּור (zibbūr, “hornet”), doublet of دَبُّور (dabbūr); cognates with Classical Syriac ܕܒܘܪܐ (debbōrā) and Hebrew דְּבוֹרָה (dvorá)'). The n of zunbūr is a nasal infix/expansion of the same base (cf. Mandaic zimbura). The THIRD word in the box is the problem: the printed page (checked at 300 dpi, data/verification/sources/refs/ocr/BOOK/110.png) really reads 'z.b.n : bee'. There is no Arabic root z-b-n meaning 'bee' — زبن zabana means 'to push, thrust away'. Nourai's own convention here is to give the consonantal root of the preceding word, and that root is z-n-b-r (or the base z-b-r); 'z.b.n' is a metathesis/misprint of the book. The JSON reproduces the page faithfully, so the error is the author's, not the extraction's.",
+     "derivation_fa": "عربی «دَبّور» و «زُنبور» هر دو به معنی زنبور درشت‌اند و دوگانه (doublet) به شمار می‌آیند: «دبّور» همان دالِ سامی را نگه داشته و «زنبور» از راه آرامی zibbūr / سریانی zibbōrā وارد عربی شده که «ز» آن گونهٔ نامنظمِ همان واژهٔ کهن است؛ «ن» نیز افزودهٔ خیشومی همان ستاک است (سنجید با مندایی zimbura). اما واژهٔ سوم جعبه اشکال دارد: در صفحهٔ چاپی به‌روشنی «z.b.n» آمده، حال آنکه در عربی ریشهٔ «ز ب ن» به معنی زنبور نیست (زَبَنَ یعنی «راندن، پس زدن»)؛ ریشهٔ درستِ «زنبور» ز ن ب ر است. پس این خطای چاپی کتاب است، نه خطای خوانش اسکن.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B2%D9%86%D8%A8%D9%88%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:406",
+       "status": "partial",
+       "note": "Klein p.406 s.v. Deborah does list 'Arab. zunbūr, dabbūr, “bee”' — so the two real words are covered; Klein has nothing resembling a root 'z.b.n', which confirms that form is Nourai's own misprint."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. p.406, leaf 224",
+       "stance": "supports",
+       "note": "'Arab. zunbūr, dabbūr, “bee”, from the Sem. base d-b-r-'."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi, Persische Lehnwörter im Arabischen (PLA_asbaghi_1988_ia_djvu.txt ll.11027, 11072)",
+       "stance": "silent",
+       "note": "Asbaghi lists only زنبورک zanburak 'ein Teil der Uhr, aus dem pers. zamburak' — i.e. a Persian loan built ON Arabic zunbūr; he does not treat zunbūr itself, which is consistent with zunbūr not being Persian."
+      },
+      {
+       "src": "AFA",
+       "where": "Fraenkel, whole text",
+       "stance": "silent",
+       "note": "no entry for dabbūr/zunbūr (grep -i 'zunbur|dabbur' AFA.txt: no hits)."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "zanbŭr",
+     "verdict": "confirmed",
+     "derivation": "New Persian زنبور zanbūr 'bee, wasp, hornet' is an Arabic loan, taken over after the Islamic conquest from Arabic زُنْبُور zunbūr (Classical Persian /zan.ˈbuːr/, with the Arabic variant vocalisation zanbūr rather than the Modern Standard Arabic zunbūr — Wiktionary: 'Borrowed from Arabic زَنْبُور (zanbūr). An alternative pronunciation of Modern Standard Arabic زُنْبُور (zunbūr)'). Mo'in's Farhang-e Farsi marks the headword زنبور with the tag [ع.] = Arabic. The word is therefore the end point of the chain Semitic *dVbr- > Aramaic zibbūr > Arabic zunbūr > Persian zanbūr, exactly as the chart draws it; the native Persian word for the insect was مگس/انگبین-related, and Persian keeps zanbūr only as a loan (whence the diminutive zanburak, which Arabic later re-borrowed).",
+     "derivation_fa": "«زنبور» در فارسی نو وام‌واژه‌ای عربی است که پس از اسلام از عربی زُنبور گرفته شده؛ تلفظ کلاسیک فارسی zanbūr است که با گونهٔ عربی zanbūr می‌خواند نه با zunbūrِ عربی معیار امروز. معین در «فرهنگ فارسی» سرواژهٔ «زنبور» را با نشانهٔ [ع.] (عربی) آورده است. پس زنجیرهٔ سامی آغازین *dVbr- ← آرامی zibbūr ← عربی زُنبور ← فارسی زنبور همان است که نمودار نورایی می‌کشد و ادعای او درست است؛ خودِ فارسی بعدها «زنبورک» را از آن ساخت که دوباره به عربی وام رفت.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B2%D9%86%D8%A8%D9%88%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:180",
+       "status": "not_checked",
+       "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989). refs_online.json records: 'Searched archive.org, ketabnak, noorlib, web: no digital copy found … RE-SEARCH 2026-09: still no digital copy on any permitted platform.' Nothing to check."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt l.71670 s.v. زنبور",
+       "stance": "supports",
+       "note": "'زنبور: [ع.] (ا.) (جان.) حشره‌ای بال نازک است…' — Mo'in's bracketed origin tag [ع.] marks the word as Arabic."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol 2, leaf 496 ≈ printed p.1039 (زنبور / زنبوره)",
+       "stance": "partial",
+       "note": "Borhan has the headwords زنبور/زنبوره ('صنبر زنبور است… و زنبور سیاه بزرگ را هم می‌گویند'), i.e. the word is old and well attested in Persian, but the scan gives no etymological footnote here — no statement for or against the Arabic origin."
+      },
+      {
+       "src": "PLA",
+       "where": "PLA_pages / djvu, ll.11027, 11072",
+       "stance": "supports",
+       "note": "Asbaghi registers only the Persian-formed diminutive zanburak as a Persian loan INTO Arabic; the base zunbūr is not in his list of Persian loanwords, i.e. he treats it as Arabic — consistent with the direction Arabic > Persian."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Hebrew",
+     "words": "Debhôrâh, Davôrâ",
+     "verdict": "confirmed",
+     "derivation": "Biblical Hebrew דְּבוֹרָה dəḇōrā (Tiberian /dvoːˈrɔː/, Modern Israeli dvorá) is the ordinary noun 'bee' used as a woman's name; it is the name of the prophetess and judge of Israel in Judges 4-5, whose 'Song of Deborah' is one of the oldest Hebrew poems. Wiktionary derives it 'From Proto-Semitic *dVbr- (“bee”). Cognate with Classical Syriac ܕܒܘܪܐ (debbōrā), Amharic ዲቧራ (dibʷara), Arabic دَبُّور (dabbūr), زُنْبُور (zunbūr), Classical Mandaic ࡆࡉࡌࡁࡅࡓࡀ (zimbura), Aramaic דְּבוֹרְתָא, זִיבּוֹרָא', citing Klein's Hebrew dictionary p.113a and Jastrow p.276b. Nourai's two transliterations are simply the Tiberian reading (Debhôrâh, with spirantised bh) and the Modern Israeli one (Davôrâ). The one point where the chart goes beyond the sources is the link to dibbēr 'he spoke': Wiktionary files דבורה under the Hebrew root ד־ב־ר but takes the etymology back to a noun for 'bee', not to the verb.",
+     "derivation_fa": "«دِبورا» (دْبورا) در عبری کتاب مقدس اسم عام «زنبور عسل» است که نام زن هم شده؛ دبورهٔ نبیّه و داور بنی‌اسرائیل در سِفر داوران باب‌های ۴ و ۵ و سرایندهٔ «سرود دبوره» است. ویکی‌واژه آن را از سامی آغازین *dVbr- «زنبور» می‌گیرد و هم‌ریشه‌های سریانی debbōrā، امهری dibʷara، عربی dabbūr و zunbūr و مندایی zimbura را برمی‌شمرد (به استناد فرهنگ عبریِ کلاین ص ۱۱۳ و یاسترو ص ۲۷۶). دو آوانگاریِ نورایی همان خوانش طبریِ Debhôrâh و خوانش عبری امروزی Davôrâ است. تنها نکتهٔ فراتر از منابع، پیوند دادن آن به فعل dibbēr «گفت» است که ویکی‌واژه آن را نمی‌آورد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D7%93%D7%91%D7%95%D7%A8%D7%94"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:406",
+       "status": "supports",
+       "note": "Klein p.406: 'Deborah, fem. PN.; in the Bible, a prophetess and judge in Israel. — Heb. Dĕbhōrāh, lit. “bee”, rel. to Syr. debbōrā …' — the node's form, language and gloss (including 'name of a prophetess in Bible') are Klein's own wording."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. p.406, leaf 224",
+       "stance": "supports",
+       "note": "'Heb. Dĕbhōrāh, lit. “bee”'."
+      },
+      {
+       "src": "AFA",
+       "where": "Fraenkel, whole text",
+       "stance": "silent",
+       "note": "Fraenkel's subject is Aramaic loans in Arabic; no entry on Hebrew dəḇōrā (grep -i 'debora|dbwrh|Biene' AFA.txt gives only the beehive discussion at p.125)."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "Deborah, Debbie",
+     "verdict": "confirmed",
+     "derivation": "English Deborah is the Hebrew name taken over unchanged through the Vulgate/Septuagint spelling Debbora and, decisively, through the English Bible; it became a common baptismal name among Puritans in the 16th-17th c. and was carried to New England, which is why it is far commoner in American than in British usage. Debbie (also Deb, Debby) is the ordinary English hypocoristic, first syllable + the -ie/-y diminutive suffix; Funk & Wagnalls (FSD) still lists it lexically: 'Deb., n. Diminutive of Deborah.' No sound change is involved beyond the anglicised stress (ˈdebərə) and the loss of the Hebrew final -āh.",
+     "derivation_fa": "«Deborah» در انگلیسی همان نام عبری است که از راه ترجمه‌های یونانی و لاتینی کتاب مقدس (Debbora) و سپس انجیل انگلیسی بی‌دگرگونی وارد شده و در سدهٔ ۱۶ و ۱۷ در میان پیوریتن‌ها نام تعمیدی رایجی شد و با مهاجران به نیوانگلند رفت؛ از همین رو در انگلیسی آمریکایی رایج‌تر است. «Debbie» تصغیر عادی انگلیسی است: هجای نخست + پسوند تصغیر ‎-ie/-y؛ فرهنگ فانک و واگنالز هنوز مدخل «Deb., n. Diminutive of Deborah» را دارد. جز جابه‌جایی تکیه به ˈdebərə و افتادن «-اه» پایانی عبری، دگرگونی آوایی دیگری در کار نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D7%93%D7%91%D7%95%D7%A8%D7%94"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:340",
+       "status": "not_checked",
+       "note": "Nourai's AHD numbers are pages of the 1975/76 American Heritage Dictionary, New College Edition, whose main A-Z text is not open online (refs_online.json: the 1970s AHD scans on IA are lending-only, djvu.txt returns 401); the local AHD file is Watkins 1985, which contains only the Indo-European appendix and has no entry for a Hebrew name. Page 340 of the New College Edition falls in the deb-/dec- range, which is consistent with a 'Deborah' entry, but I could not read it."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. p.406, leaf 224 s.v. Deborah",
+       "stance": "supports",
+       "note": "Klein enters Deborah as an English female personal name of Hebrew origin — 'Deborah, fem. PN.; in the Bible, a prophetess and judge in Israel'."
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol. I (FSD_vol1.txt l.87392)",
+       "stance": "supports",
+       "note": "'Deb., n. Diminutive of Deborah.' — the short form the chart calls Debbie is lexicalised."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Dě 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *deh₁- 'to bind' (Pokorny dē-, də- and dei-, dī- 'binden', IEW 183; Watkins dē-)",
+   "note": "Root, language label and gloss are all correct. Pokorny's headword (POK_full.txt: 'Root/lemma: dē-, də- and dei-, dī-; Meaning: to bind; … References: WP. I 771 f.; Page(s): 183') is Nourai's Dě 1 with his citation POK:183. In today's laryngeal notation the root is *deh₁- (Wiktionary), the -ə- of Pokorny being the reflex of h₁. Buck §9.16 BIND lists it as 'IE *de(i)-, *dō-. Walde-P. 1.771'. Note that Pokorny adds the (not universally accepted) idea that the root is a derivative of the numeral *dwo- 'two', 'bind in two' — this is the ☞Dwo cross-reference in the Greek node; Watkins and Wiktionary do not follow it, and the semantics of dia-deō ('bind across') are enough to explain the compound without it.",
+   "note_fa": "ریشه، برچسب زبانی و معنا هر سه درست است. سرواژهٔ پوکورنی «dē-، də- و dei-، dī- «بستن»» در ص ۱۸۳ ایونتسه‌وُرت‌بوخ همان Dě 1 نورایی است و ارجاع POK:183 دقیق است. در نویسهٔ حنجری امروزی این ریشه *deh₁- نوشته می‌شود و ə پوکورنی بازتاب همان h₁ است. باک در بند ۹٫۱۶ («بستن») نیز آن را «هندواروپایی *de(i)-، *dō-» می‌آورد. تنها نکتهٔ محل بحث، حدسِ پوکورنی است که این ریشه را برگرفته از عدد *dwo- «دو» («به دو بستن») می‌داند — همان ارجاع ☞Dwo در جعبهٔ یونانی؛ واتکینز و ویکی‌واژه آن را نمی‌پذیرند و معنای dia-deō «از دو سو بستن» بی‌نیاز از این فرض توضیح می‌دهد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%81-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:183",
+     "status": "supports",
+     "note": "POK_full.txt l.19653: 'Root/lemma: dē-, də- and dei-, dī-. Meaning: to bind … Material: Old Indic dyati … dāman- n. “band, strap” (= gr. -δημα) … gr. δέω “bind” … ὑπό-δημα … διάδημα “a band or fillet, turban, diadem”. References: WP. I 771 f. Page(s): 183.' Exactly the root box and its two branches."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny Bd. I p.771 (WLD_Bd1_pages.txt leaf 779)",
+     "stance": "supports",
+     "note": "'dē- : də- (dei-) “binden”. Ai. dy-áti … ai. ptc. dita- “gebunden” (= gr. δετός), dāman- n. “Band” (= gr. -δημα) … gr. δέω “binde” … ὑπό-δημα (= ai. dāman-) “Sandale”, διάδημα “umgeschlungenes Band, Turban, Diadem”.'"
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 (AHD_watkins1985.txt l.360)",
+     "stance": "supports",
+     "note": "'dē-. To bind. Contracted from *deə-. Greek dein, to bind: DESMID; ANADEM, ASYNDETON, DIADEM, PLASMODESMA, (SYNDESMOSIS), SYNDETIC. [Pok. dē- 183.]' — same root, same page reference as Nourai."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck §9.16 BIND, no. 2 (SYN.txt l.13765)",
+     "stance": "supports",
+     "note": "'Skt. dā-, di- “bind” (3sg. dyati), Grk. δέω, with Skt. dāman-, sandāna- “bond”, Grk. δεσμός. IE *de(i)-, *dō-. Walde-P. 1.771.'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, IEC.txt",
+     "stance": "silent",
+     "note": "grep for 'dāman'/'dēmn' in IEC.txt returns only the unrelated dhēmn- 'setting, fixture' entry (l.2784); Mann has no usable entry for this root under the spellings tried."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "dâman",
+     "verdict": "confirmed",
+     "derivation": "Vedic/Sanskrit दामन् dā́man- n. is the regular *-mn̥ action/instrument noun of the root: PIE *déh₁-mn̥ > Proto-Indo-Iranian *dáHma > Skt dā́man- 'string, cord, rope, fetter, band' (the laryngeal lengthens the root vowel to ā and is lost, and *-mn̥ becomes -man). Its exact Greek match is -δημα in ὑπόδημα 'sandal' (Walde-Pokorny I 771 writes 'dāman- n. “Band” (= gr. -δημα)', and Pokorny 183 the same). The verb belonging to it is dyáti 'binds' (zero grade *dh₁-yé-ti). One caveat on the gloss: dā́man- means 'band, rope, tether, fetter' — 'trap' is not a Sanskrit sense but has been carried back into the box from the Persian derivative in the next node.",
+     "derivation_fa": "«دامَن» (dā́man-) در سنسکریت وداییْ اسمِ ابزار/کنشِ منظمِ ساخته‌شده با پسوند ‎*-mn̥‎ از همین ریشه است: هندواروپایی آغازین *déh₁-mn̥ ← هندوایرانی آغازین *dáHma ← سنسکریت dā́man- «ریسمان، بند، طناب، زنجیر»؛ حنجریِ h₁ واکهٔ ریشه را کشیده کرده و خود از میان رفته و ‎*-mn̥‎ به ‎-man‎ بدل شده است. همتای دقیق یونانی‌اش ‎-δημα‎ در ὑπόδημα «کفش» است (والده‑پوکورنی جلد ۱ ص ۷۷۱: «dāman- n. Band (= gr. ‎-δημα‎)»). فعلِ هم‌خانوادهٔ آن dyáti «می‌بندد» است. یک نکتهٔ معنایی: dā́man- یعنی «بند و ریسمان»؛ معنای «تله» سنسکریت نیست و از واژهٔ فارسیِ جعبهٔ بعد به این جعبه سرایت کرده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%81-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:183",
+       "status": "supports",
+       "note": "POK_full.txt l.19653 (page 183): 'Old Indic dy-áti … “binds” … Old Indic participle dita- “bound” (= gr. δετός), dāman- n. “band, strap” (= gr. -δημα), ni-dātar- “binder”.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.771 (leaf 779)",
+       "stance": "supports",
+       "note": "'ai. ptc. dita- “gebunden” (= gr. δετός), dāman- n. “Band” (= gr. -δημα), ni-dātar- “Binder”'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck §9.16 BIND no. 2",
+       "stance": "supports",
+       "note": "'with Skt. dāman-, sandāna- “bond”' — Buck too glosses it 'bond', not 'trap'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. dē-",
+       "stance": "partial",
+       "note": "Watkins gives only the Greek branch of the root (dein) because his appendix lists English derivatives; the Sanskrit noun is not mentioned. Silent, not contradicting."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "dâm",
+     "verdict": "plausible",
+     "derivation": "New Persian دام dām 'snare, trap, net' is real and old, but it is a COUSIN of Sanskrit dāman-, not a descendant of it: Wiktionary derives it 'From Proto-Indo-Iranian *dáHma (compare Sanskrit दामन् (dā́man, “string, cord, rope, fetter”)), from Proto-Indo-European *déh₁-mn̥, from *deh₁- (“to bind”)', i.e. Proto-Iranian *dáHma > Middle Persian dām 'net, snare, trap' (MacKenzie, Concise Pahlavi Dictionary p.24: 'dām [dʾm | P dʾmg, N ~] net, snare, trap') > NP dām, with the Old Iranian -man stem simply losing its final syllable in Middle Persian as usual. The semantic step 'band, rope' > 'net' > 'snare, trap' is already Middle Iranian. Mo'in, in his footnote to the Borhan-e Qate' entry, gives exactly this comparative material. Nourai's arrow Sanskrit → Persian is therefore the right root and the right *word*, but the wrong direction of transmission (Persian did not borrow from Sanskrit); hence 'plausible'. Note also that the homograph dām 'livestock, tame animal' (Borhan's first sense, 'نقیض دد') is a different word, from MP dām < PIE *demh₂- 'to tame'; the chart's «دام ۲» correctly picks the second, 'trap' entry.",
+     "derivation_fa": "«دام» به معنی «تله، تور» در فارسی نو واژه‌ای کهن و اصیل است، اما هم‌ریشهٔ dāman- سنسکریت است نه برگرفته از آن: هندواروپایی آغازین *déh₁-mn̥ ← هندوایرانی آغازین *dáHma ← ایرانی آغازین *dāma- ← فارسی میانه (پهلوی) dām «تور، دام» (مکنزی، ص ۲۴: «dām [dʾm] net, snare, trap») ← فارسی نو «دام»؛ ستاکِ ‎-man‎ِ ایرانی باستان در فارسی میانه هجای پایانی را از دست داده است. تحول معنایی «بند/ریسمان» ← «تور» ← «تله» در همان دورهٔ ایرانی میانه رخ داده است. معین در حاشیهٔ «برهان قاطع» دقیقاً همین شواهد را می‌آورد. بنابراین ریشه و واژه درست است ولی جهت انتقالی که نورایی می‌کشد (سنسکریت ← فارسی) نادرست است و باید «هم‌ریشه» خواند؛ از این رو با احتیاط پذیرفتنی است. همچنین «دام» به معنی «چارپای اهلی» (معنی نخست برهان: «نقیض دد») واژه‌ای جداست از ریشهٔ *demh₂- «رام کردن»، و «دام ۲»ِ نمودار درست همان «تله» را برگزیده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D9%85",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%81-"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:817",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 2, leaf 277 of BQT_v2_pages.txt (printed page ≈ leaf+543, i.e. 817-820; the headword block دام runs from Nourai's cited page). The entry's sense 4 is 'هرچیز که جانوران در آن بفریب گرفتار شوند' = snare, and Mo'in's footnote 4 at the bottom of the page reads: 'هندی باستان dāman- (بند، ریسمان، زنجیر)، … ارمنی dam (تور) «امذق ۱۳۰»، پهلوی dām «مناس ۱۷۲»؛ نیز تور ماهیگیری' — Old Indic dāman- 'band, rope, chain', Armenian dam 'net', Pahlavi dām. That is Nourai's arrow, with the same Sanskrit comparandum."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary p.24 (PHD.txt l.308)",
+       "stance": "supports",
+       "note": "'dām [dʾm | P dʾmg, N ~] net, snare, trap' — the Middle Persian link Nourai's chart skips; also 'dām [dʾm | = M, N ~] tame animal' and 'dām [dʾm | = M] creature, creation', i.e. three homographs."
+      },
+      {
+       "src": "MON",
+       "where": "Mo'in, Farhang-e Farsi s.v. دام (MON_part1.txt l.59266)",
+       "stance": "supports",
+       "note": "'دام (ا.) آلتی که جانوران را به فریب گرفتار سازد؛ بند، تله. آلتی که بدان ماهیان را صید کنند، تور ماهیگیری' — the trap sense, and carrying no [ع.]/foreign tag, i.e. treated as inherited Persian."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 2 leaf 277, Mo'in's footnote",
+       "stance": "supports",
+       "note": "quoted above; note that Mo'in cites Hübschmann-style comparanda but sets Sanskrit and Persian side by side as cognates, not as source and borrower."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Greek",
+     "words": "dein; dia-dein, dia-děma",
+     "verdict": "confirmed",
+     "derivation": "Greek δέω (Homeric/Attic, from *deh₁-yō) 'I bind', verbal adjective δετός 'bound' (= Skt dita-), noun δεσμός 'band'; with the preverb διά 'across, through' it gives διαδέω 'to bind across, bind round on both sides', whence the result-noun διάδημα (διαδέω + -μα, Wiktionary) 'the band tied round the head'. The -δημα of the compound is the exact cognate of Skt dāman- (Walde-Pokorny I 771 makes the equation explicitly for ὑπό-δημα). The chart's gloss 'a headband tied on two sides' renders the διά- literally and is right; the ☞Dwo cross-reference reflects Pokorny's speculation that the root itself contains *dwo- 'two', which is not needed and not generally accepted — διά alone accounts for it. Historically διάδημα was the white headband of the Achaemenid Great King; Alexander adopted it, and it became the Hellenistic royal insignia (Etymonline: 'the headband worn by Persian kings and adopted by Alexander the Great and his successors').",
+     "derivation_fa": "یونانی δέω (از ‎*deh₁-yō‎) «می‌بندم»، صفت مفعولی δετός «بسته» (برابر با dita- سنسکریت) و اسم δεσμός «بند»؛ با پیشوند διά «از میان، از دو سو» فعل διαδέω «از دو سو بستن» و از آن اسمِ حاصلِ διάδημα (διαδέω + پسوند ‎-μα‎) «نواری که گرد سر می‌بندند» ساخته شده است. جزء ‎-δημα‎ همان هم‌ریشهٔ دقیقِ dāman- سنسکریت است (والده‑پوکورنی جلد ۱ ص ۷۷۱ این برابری را برای ὑπό-δημα صریح می‌آورد). ترجمهٔ نورایی «نواری که از دو سو بسته می‌شود» درست است؛ ارجاع ☞Dwo بازتاب حدس پوکورنی است که خود ریشه را حاوی *dwo- «دو» می‌داند و پذیرفتهٔ همگان نیست، چون διά به تنهایی بس است. از نظر تاریخی، διάδημα همان نوار سپیدِ شاهان هخامنشی بود که اسکندر آن را پذیرفت و نشان شاهی دولت‌های هلنی شد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%AC%CE%B4%CE%B7%CE%BC%CE%B1",
+      "https://www.etymonline.com/word/diadem",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%81-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:183",
+       "status": "supports",
+       "note": "POK_full.txt l.19653 (p.183): 'gr. (hom. Attic) δέω (*δέjω) “bind”, δετός “bound” … ὑπό-δημα (compare Old Indic dāman-) “sandal”, διάδημα “a band or fillet, turban, diadem”.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.771 (leaf 779)",
+       "stance": "supports",
+       "note": "'gr. δέω (*δέ-jω) “binde”, δετός “gebunden” … διάδημα “umgeschlungenes Band, Turban, Diadem”.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. dē-",
+       "stance": "supports",
+       "note": "'Greek dein, to bind: DESMID; ANADEM, ASYNDETON, DIADEM …'"
+      },
+      {
+       "src": "KLN",
+       "where": "1966 ed. s.v. diadem, leaf 242 (pp.442-443)",
+       "stance": "supports",
+       "note": "'Gk. διάδημα, “band, fillet, royal headband”, fr. διαδεῖν, “to bind on either side”, fr. διά (see dia-) and δεῖν, “to bind”, fr. I.-E. base *de(i)-, *dī-, “to bind”, whence also OI. dy-áti, “binds”, dā-man, “band, bond”.' — 'bind on either side' is precisely Nourai's gloss."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Persian",
+     "words": "dayhîm",
+     "verdict": "confirmed",
+     "derivation": "New Persian دیهیم dayhīm 'royal diadem, crown' is a Greek word that came back to Iran: Ancient Greek διάδημα was taken into Parthian as 𐭃𐭉𐭃𐭉𐭌 dīδēm / dīdēm 'half-crown, flower-crown', thence Middle Persian dīdēm / dīyēm 'diadem', thence NP dayhīm (Wiktionary s.v. دیهیم: 'From Middle Persian dīyēm, dīdēm “diadem” from Parthian dīδēm, dīdēm “half-crown, flower-crown”. Ultimately from Ancient Greek διάδημα'). Phonetically: Greek -ᾰ- of the first syllable is lost in the Iranian shape dī-, Greek -δη- gives Parthian -δē-, and the intervocalic Middle Iranian δ is weakened to h/y in New Persian, giving dai-h-īm; the final -a of διάδημα drops as usual. Since the Greek word itself denotes the Achaemenid king's headband, the word is a genuine round trip: Persian object > Greek name > Parthian/Middle Persian loan > New Persian dayhīm. Mo'in's Farhang-e Farsi confirms the origin with the tag [یو.] (Greek) on the compound دیهیم‌جو(ی).",
+     "derivation_fa": "«دیهیم» در فارسی نو وام‌واژه‌ای یونانی است که به ایران بازگشته است: یونانی διάδημα به پارتی 𐭃𐭉𐭃𐭉𐭌 dīδēm «نیم‌تاج، تاج گل» راه یافت، از آنجا به فارسی میانه dīdēm/dīyēm و سپس به فارسی نو «دیهیم». از نظر آوایی: «ا»ی هجای نخستِ διά در صورت ایرانی می‌افتد و dī- می‌ماند، ‎-δη-‎ یونانی در پارتی ‎-δē-‎ می‌شود، و ذالِ ایرانی میانه در میان دو واکه در فارسی نو به «ه/ی» نرم می‌شود؛ چنین است که dīdēm به dayhīm می‌رسد و «ـه»ی پایانی یونانی نیز می‌افتد. چون خودِ واژهٔ یونانی نام نوار سر شاهان هخامنشی است، اینجا با یک رفت‌وبرگشت تمام‌عیار روبه‌روییم: نشانِ ایرانی ← نامِ یونانی ← وام پارتی و پهلوی ← «دیهیم» فارسی. معین نیز در «فرهنگ فارسی» ذیل «دیهیم‌جو(ی)» نشانهٔ [یو.] (یونانی) را می‌گذارد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D9%87%DB%8C%D9%85",
+      "https://www.etymonline.com/word/diadem"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:921",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 2, BQT_v2_pages.txt leaf 381 (printed ≈ leaf+543 = 921-924, the last page of the د section, next leaf starting ذ): 'دیهیم ۱ ـ بکسر ها بروزن تعظیم، تاجی که مخصوص پادشاهان است … و بمعنی تخت'; the footnote at the foot of the leaf glosses it as the band 'که بر (افسر) پادشاه ایران بسته می‌شد'. The entry is where Nourai says it is and gives the meaning 'crown' he prints; the scan's footnote is too damaged to read the Greek etymon, which MON supplies."
+      },
+      {
+       "ref": "MON:1603",
+       "status": "supports",
+       "note": "Mo'in, Farhang-e Farsi, s.v. دیهیم (MON_part1.txt l.64922 area): the headword is glossed 'نواری مخصوص که گرد تاج پادشاه ایران بسته می‌شد؛ زر پادشاهی، کلاه مرصع' with a Latin-script etymon (OCR-garbled, = diadēma), and the immediately following compound is tagged '[یو. ف. ـ دیهیم جوینده]', where یو. = یونانی (Greek). Mo'in therefore marks دیهیم as Greek, as Nourai's arrow requires."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt ll.64922-64924 (دیهیم، دیهیم‌جو)",
+       "stance": "supports",
+       "note": "'[یو. ف.]' tag = Greek + Persian."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 2 leaf 381 ≈ p.921-924",
+       "stance": "supports",
+       "note": "'دیهیم … تاجی که مخصوص پادشاهان است'; also the byform 'دیهول [ـ داهول] تاج مرصع'."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary",
+       "stance": "silent",
+       "note": "grep -i 'didem|dydym' PHD.txt: no hits — MacKenzie's concise glossary does not carry the word, so the Middle Persian form is taken from the Manichaean/Parthian material cited by Wiktionary."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "diadema",
+     "verdict": "confirmed",
+     "derivation": "Latin diadēma, -atis n. is a straight Hellenistic borrowing of Greek διάδημα, taken over with the Greek -μα/-ματος stem (hence the neuter and the Greek-type genitive) at the time when Rome met the Hellenistic monarchies (2nd-1st c. BCE); it means 'the cloth band worn round the head as a sign of royalty' (Etymonline). It supplied the word to the Romance languages and, through Old French diademe, to English. Nothing in the form changes: Greek δ/ι/ά/δ/η/μ/α is transliterated letter for letter, Greek η giving Latin ē.",
+     "derivation_fa": "لاتین diadēma وام‌گیریِ مستقیمِ یونانی διάδημα است که در دورهٔ رویارویی روم با پادشاهی‌های هلنی (سدهٔ دوم و یکم پیش از میلاد) با همان ستاک ‎-μα/-ματος‎ به لاتین رفته و از این رو خنثی است و صرفِ یونانی‌وار دارد؛ معنایش «نوار پارچه‌ای که به نشانِ شاهی گرد سر می‌بندند» است. همین واژه به زبان‌های رومی و از راه فرانسهٔ باستان diademe به انگلیسی رسیده است. هیچ دگرگونی آوایی در کار نیست: حرف‌به‌حرف آوانویسی شده و «η» یونانی در لاتین ē شده است.",
+     "sources": [
+      "https://www.etymonline.com/word/diadem",
+      "https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%AC%CE%B4%CE%B7%CE%BC%CE%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:363",
+       "status": "not_checked",
+       "note": "AHD:363 is a page of the 1975/76 American Heritage Dictionary New College Edition (main A-Z text), which is not open online (lending-only on archive.org; djvu.txt 401). Page 363 falls in the di- range, consistent with a 'diadem' entry. The local AHD file (Watkins 1985, the IE appendix) covers the same claim from the root side: 'dē-. To bind … Greek dein, to bind: … DIADEM' (AHD_watkins1985.txt l.360), and the appendix index line 'DIADEM dé-' (l.1424)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. leaf 242 (pp.442-443) s.v. diadem",
+       "stance": "supports",
+       "note": "'diadem, n., crown; fillet. — OF. diademe (F. diadème), fr. L. diadema, fr. Gk. διάδημα …' — the Greek > Latin step is explicit."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet (LAT.txt l.25301)",
+       "stance": "silent",
+       "note": "'diadema' occurs only inside a quoted Latin word-list (rete, diadema, coronas aureas …), not as a headword; Ernout-Meillet do not treat this obvious Greek loan."
+      },
+      {
+       "src": "LEW",
+       "where": "Walde 1910 (LEW_1910.txt)",
+       "stance": "silent",
+       "note": "grep -i 'diadema' LEW_1910.txt: no hits; the 1910 Walde omits transparent Greek loanwords."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "diadem",
+     "verdict": "confirmed",
+     "derivation": "English diadem is first recorded c.1300 as diademe 'aureole of a martyr or confessor', and from the mid-14th c. in the royal sense 'a crown, anything worn on the head as a mark of royalty' (Etymonline). It comes from Old French diademe and directly from Latin diadēma, itself from Greek διάδημα; the Middle English trisyllable diademe lost its final -e in the 15th-16th c. as unstressed final -e fell throughout English, giving modern diadem. Klein gives the same chain and takes it back to the same base: 'fr. I.-E. base *de(i)-, *dī-, “to bind”, whence also OI. dy-áti, “binds”, dā-man, “band, bond”'.",
+     "derivation_fa": "واژهٔ انگلیسی diadem نخستین بار حدود سال ۱۳۰۰ به صورت diademe به معنی «هالهٔ شهیدان» و از میانهٔ سدهٔ چهاردهم به معنی شاهانهٔ «تاج، هر آنچه به نشان شاهی بر سر نهند» ثبت شده است. از فرانسهٔ باستان diademe و مستقیماً از لاتین diadēma آمده و آن از یونانی διάδημα. صورت سه‌هجایی انگلیسی میانه diademe در سده‌های پانزدهم و شانزدهم با افتادن «ـه»ی بی‌تکیهٔ پایانی در سراسر انگلیسی به diadem بدل شد. کلاین همین زنجیره را می‌آورد و آن را به همان ریشهٔ هندواروپایی «بستن» می‌رساند و سنسکریت dāman- را هم‌ریشه می‌شمارد. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/diadem"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:440",
+       "status": "supports",
+       "note": "Klein does have exactly this entry, but on pp.442-443 of the 1966 two-volume edition, not 440: KLN_1966.txt leaf 242 runs from 'diaconus' to 'Diana', while leaf 241 (which carries the printed numerals 440 and 441) runs 'deity … diaconate'. So Nourai's page number is two off; the content — 'diadem, n., crown; fillet. — OF. diademe (F. diadème), fr. L. diadema, fr. Gk. διάδημα, “band, fillet, royal headband”, fr. διαδεῖν, “to bind on either side”' — supports the arrow completely."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. leaf 242 s.v. diadem",
+       "stance": "supports",
+       "note": "quoted above; Klein also cross-refers anadem, asyndeton, desmo-, all from the same base."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etymological Dictionary",
+       "stance": "silent",
+       "note": "grep -i 'diadem' SKT.txt: no hits — the Concise Skeat has no entry for this word."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 index (AHD_watkins1985.txt l.1424)",
+       "stance": "supports",
+       "note": "'DIADEM dé-' in the English-to-root index, i.e. Watkins refers English diadem to the root dē- 'to bind'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "De 2, Do 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *de-/*do-, demonstrative/deictic pronominal stem and particle (Pokorny 'de-, do-, a demonstrative stem', IEW 181-183; Watkins de-)",
+   "note": "Root, language label and gloss are correct, and the page number is right: Pokorny's entry 'de- do-, Meaning: a demonstrative stem' is printed on pp.181-183 (POK_full.txt gives 'Page(s): 181-183'), so POK:181 for the root, POK:182 and POK:183 for material inside it are all consistent. Walde-Pokorny I 769-771 is the same entry in the earlier edition. Everything on this chart is enclitic/adverbial material of the stem, which is exactly how the modern handbooks treat it (Watkins: 'de-. Demonstrative stem, base of prepositions and adverbs … [Pok. de-, do- 181.]'). Note that Nourai separates this stem (De 2, Do 1) from the homophonous root of entry 1 (Dě 1 'to bind') — correctly, since Pokorny too has them as two consecutive but distinct lemmas on p.183.",
+   "note_fa": "ریشه، برچسب زبانی و معنا درست است و شمارهٔ صفحه نیز دقیق: مدخل پوکورنی «de- do-، ستاک اشاره» در صفحه‌های ۱۸۱ تا ۱۸۳ چاپ شده، پس POK:181 برای ریشه و POK:182 و POK:183 برای مواد درون آن با هم می‌خوانند؛ والده‑پوکورنی جلد ۱ ص ۷۶۹–۷۷۱ همان مدخل در ویراست پیشین است. هرچه در این نمودار آمده مادهٔ پی‌بستی و قیدیِ همین ستاک است و کتاب‌های امروزی هم آن را چنین می‌بینند (واتکینز: «de-، ستاک اشاره، پایهٔ حروف اضافه و قیدها»). نورایی این ستاک را از ریشهٔ هم‌آوای مدخل پیشین (Dě 1 «بستن») جدا کرده و این جداسازی درست است، چون پوکورنی نیز آن دو را دو مدخل پیاپی ولی جداگانه در ص ۱۸۳ آورده است.",
+   "sources": [
+    "https://www.etymonline.com/word/to"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:181",
+     "status": "supports",
+     "note": "POK_full.txt l.19507: 'Root / lemma: de- do-. Meaning: a demonstrative stem. Material: Avestan vaēsman-da “up there to the house”; gr. -δε in ὅ-δε, ἥ-δε, τό-δε … Latin in-de, un-de … References: WP. I 769 ff., WH. I 325 f. … Page(s): 181-183.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny Bd. I pp.769-771 (WLD_Bd1_pages.txt leaves 778-779)",
+     "stance": "supports",
+     "note": "running head 'de-, do-' on p.770 and 'de- : də- (dei-)' on p.771; the entry contains the whole adverbial series 'ai. tadā “dann”, av. taδa … ai. kadā “wann?”, av. kada, jav. kaδa “wann?” … ai. yadi “wenn”, ap. yadiy, av. yeδi, yeidi “zur Zeit als” und av. yaθāt “woher”'."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 (AHD_watkins1985.txt l.360)",
+     "stance": "supports",
+     "note": "'de-. Demonstrative stem, base of prepositions and adverbs. 1. Germanic *tō in Old English tō, to: TO, TOO. 2. Perhaps Latin dē, dē-, from: DE-. … [Pok. de-, do- 181.]'"
+    },
+    {
+     "src": "KLN",
+     "where": "1966 ed. p.1622 (leaf 860) s.v. to, prep.",
+     "stance": "supports",
+     "note": "'from the I.-E. pronominal base *do-, “to, toward, upwards” … Cp. also I.-E. *de in Avestic -da (as in vaesmen-da, “to the house”), Gk. -δε … and in L. -de (as in inde, “thence”, unde, “whence”).'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "ka-da, ka-tha",
+     "verdict": "confirmed",
+     "derivation": "Avestan kada (Gathic) and kaδa (Younger Avestan) 'when?' — Nourai's two spellings, his 'th' standing for the fricative δ — are the interrogative stem *kʷo-/ka- (whence the ☞Kwo cross-reference) plus the adverbial ending -da/-δa of the demonstrative stem *de-/*do-. Jackson's Avesta Grammar §4226 states the equation directly: 'Suffix G/YAv. -da, -δa = Skt. -da, -dha, -dhā; Av. yaδa, yaδā “when” = Skt. yadā; Av. kaδa, kada “when?” = Skt. kadā. So Av. aδa “then” = Skt. adha, adhā.' The alternation d ~ δ is purely positional: intervocalic Old Iranian d became the voiced fricative δ in Younger Avestan, while the Gathic spelling keeps d. So the arrow root → Avestan is exactly right: it is the ENDING, not the whole word, that comes from *de-/*do-.",
+     "derivation_fa": "اوستایی kada (گاهانی) و kaδa (اوستایی نو) «کِی؟» — دو نویسشی که نورایی می‌آورد و «th» او همان ذال (δ) است — از ستاک پرسشی ‎*kʷo-/ka-‎ (همان ارجاع ☞Kwo) به‌علاوهٔ پایانهٔ قیدیِ ‎-da/-δa‎ از ستاک اشارهٔ *de-/*do- ساخته شده است. جکسن در «دستور اوستا» بند ۴۲۲۶ همین برابری را می‌آورد: «پسوند ‎-da، -δa‎ = سنسکریت ‎-da، -dha، -dhā‎؛ اوستایی kaδa، kada «کِی؟» = سنسکریت kadā». تناوب د ~ ذ کاملاً جایگاهی است: دالِ ایرانی باستان در میان دو واکه در اوستایی نو به ذال سایشی بدل شده، ولی املای گاهانی «د» را نگه داشته است. پس پیکان ریشه ← اوستایی درست است، با این توضیح که آنچه از *de-/*do- می‌آید پایانهٔ واژه است نه همهٔ آن.",
+     "sources": [
+      "https://www.etymonline.com/word/to"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:182",
+       "status": "supports",
+       "note": "Inside the de-/do- entry (pp.181-183; POK_full.txt l.19507 ff.) stands: 'The ending of the following adverbial groups also belongs to this root: Old Indic tadā “then”, Avestan taδa “then”, Lithuanian tadà; Old Indic kadā “when?”, Avestan kada, jav. kaδa “when?”, Lithuanian kadà.' The adverb list sits in the middle of the three-page entry, so a citation to p.182 is right."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.771 (leaf 779)",
+       "stance": "supports",
+       "note": "'ai. kada “wann?”, av. kada, jav. kaδa “wann?”, lit. kada “wann”'."
+      },
+      {
+       "src": "AVG",
+       "where": "Jackson, Avesta Grammar §4226-area (AVG.txt l.4226)",
+       "stance": "supports",
+       "note": "'Suffix G/YAv. -da, -δa = Skt. -da, -dha, -dhā, Av. yaδa, yaδā “when” = Skt. yadā; Av. kaδa, kada “when?” = Skt. kadā. So Av. aδa “then” = Skt. adha, adhā.'"
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiranisches Wörterbuch (BRT.txt)",
+       "stance": "partial",
+       "note": "the local OCR of Bartholomae is badly degraded (columns interleaved, δ rendered as S/5/b); 'kada' occurs in many quoted Gatha passages (e.g. l.5986 'kada mazdā yōi uxšānō …', l.20478 'kadā mazdā nərəš vīsəṇtī “wann, o M., werden die Ritter die Botschaft verstehen lernen?”'), which confirms the word and its meaning, but the headword entry itself could not be isolated in this scan."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "kay 1",
+     "verdict": "confirmed",
+     "derivation": "New Persian کِی kay 'when?' continues Old Iranian *kadā (= Av. kada/kaδa) through Middle Persian kay: intervocalic Old Iranian -d- became the fricative δ in Middle Persian and then dropped, the resulting *ka-a contracting and the final vowel yielding the diphthong -ay, exactly as Nyberg formulates it (Manual of Pahlavi II, glossary: 'kay < kad; NP kai'). MacKenzie's Concise Pahlavi Dictionary confirms the Middle Persian form and meaning: 'kay [AYMT | N ~] when?'. Horn no. 878 gives the same chain for New Persian, and Mo'in's footnote in the Borhan-e Qate' spells out the comparative dossier. The homograph kay 'king, Kayanid' (Borhan's second sense, Av. kavi-) is a different word, which is why the chart writes «کی ۱».",
+     "derivation_fa": "«کِی» فارسی نو دنبالهٔ ایرانی باستان ‎*kadā‎ (اوستایی kada/kaδa) از راه فارسی میانهٔ kay است: دالِ میان دو واکهٔ ایرانی باستان در فارسی میانه نخست به ذال سایشی بدل شده و سپس افتاده است و آنچه مانده به دوواکهٔ ‎-ay‎ انجامیده — چنان‌که نیبرگ در واژه‌نامهٔ «راهنمای پهلوی» می‌نویسد: «kay < kad؛ فارسی نو kai». مکنزی نیز صورت و معنای پهلوی را دارد: «kay … when?». هرن در شمارهٔ ۸۷۸ همین زنجیره را می‌آورد و معین در حاشیهٔ «برهان قاطع» پروندهٔ تطبیقی آن را می‌گشاید. «کیِ» دیگر به معنی «شاه، کیانی» (از اوستایی kavi-) واژه‌ای جداست و از همین رو نمودار «کی ۱» نوشته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%A9%DB%8C"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1748",
+       "status": "supports",
+       "note": "Verified precisely: Borhan-e Qate' vol. 3 scan, pdf page 545 = printed 1748 (calibrated on the running-head numerals ۱۷۵۱ at pdf 548 and ۱۷۵۲ at pdf 549). That page opens the ک+ی section with 'کی، بفتح اول و سکون ثانی، بمعنی کدام و چه وقت باشد ۸', and Mo'in's footnote ۸ at the bottom reads: 'در اوستا kaδa (چه وقت؟)، هندی باستان kadā (چه وقت؟)، افغانی kala، آسی ked (هرگاه، اگر، آیا)، بلوچی kadi (چه وقت؟)، ایرانی باستان *kadā (چه وقت؟) «بارتولمه»، «نیبرگ … ص ۱۱۷»، کردی kî'. That is Nourai's arrow, with Bartholomae and Nyberg cited."
+      },
+      {
+       "ref": "HRN:96",
+       "status": "not_found",
+       "note": "Horn p.96 (HRN.txt leaf 118, header '— 96 —') contains nos. 428-432, jev … čāre; there is nothing about kay. The entry Nourai needs is Horn no. 878 on p.196 (leaf 217): '878. (1) kei “wann? wie?” … aw. kada “wann”; ai. kadā “wann?”; afγ. kala; oss. d. t. ked “wenn, ob” (158); bel. kadi “wann?” (182).' The content fully supports the arrow, so '96' looks like a misprint for '196'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss no. 878, p.196 (HRN.txt leaf 217)",
+       "stance": "supports",
+       "note": "'878. (1) kei “wann? wie?” … aw. kada “wann”; ai. kadā “wann?”'."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt l.426)",
+       "stance": "supports",
+       "note": "'kay [AYMT < A ʾymty | N ~] when?' — Middle Persian kay, New Persian the same; a second entry '²kay [kd | N ~] title of the dynasty of Wištāsp … Kayanian' shows the homograph the chart avoids."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II, glossary (NYB_vol2_glossary.txt l.2157)",
+       "stance": "supports",
+       "note": "'kay < kad; NP kai' — Nyberg states the very sound history (loss of the intervocalic dental) that the chart's arrow implies."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Avestan",
+     "words": "yeth; yathât; dim; dit; -da 5",
+     "verdict": "plausible",
+     "derivation": "All five items are genuine Avestan and all five really belong to this stem, but one gloss is wrong. (a) 'yeth' = Av. yeδi / yeidi (Nourai's 'th' = δ), the conditional 'if, at the time when' beside Skt yadi, Old Persian yadiy; Walde-Pokorny I 771 glosses it 'zur Zeit als' — literally 'at the time when' — and Nourai's 'at present' is a mistranslation of that German phrase; the word never means 'at present'. (b) 'yathât' = Av. yaθāt 'from where, whence' (WLD I 771 'av. yaθāt “woher”'), correctly glossed. (c) and (d) dim and dit are the enclitic accusative pronouns of the related stem *di-: Jackson, Avesta Grammar, gives the paradigm 'Sg. Acc. dim m. f.; dit n. — Pl. Acc. diš m. f.; dī n. (Ys. 65.8)', i.e. dim 'him/her', dit 'it' — exactly the chart's glosses; Walde-Pokorny I 771 files them here: 'Ein verwandter St. *di in den enklit. iran. Akk. av. ap. dim “ihn, sie”, av. dit “es”, diš pl. m. f., dī pl. n. (Bartholomae 684)'. (e) '-da 5' is the directional enclitic -da of vaēsman-da 'to the house' (Pokorny's very first example under the lemma; Klein p.1622 s.v. to cites 'Avestic -da (as in vaesmen-da, “to the house”)'), Greek -δε, Latin -de. So: four items confirmed, one gloss ('at present') wrong — hence 'plausible' for the node.",
+     "derivation_fa": "هر پنج صورت اوستایی اصیل‌اند و هر پنج به همین ستاک می‌رسند، اما یک معنا نادرست است. الف) «yeth» همان yeδi/yeidi اوستایی است («th»ی نورایی = ذال)، حرف شرط «اگر، هنگامی که»، هم‌ارز yadi سنسکریت و yadiy پارسی باستان؛ والده‑پوکورنی جلد ۱ ص ۷۷۱ آن را «zur Zeit als» یعنی «هنگامی که» معنی می‌کند و «at present»ِ نورایی ترجمهٔ نادرست همین عبارت آلمانی است؛ این واژه هرگز «اکنون» معنی نمی‌دهد. ب) «yathât» همان yaθāt «از کجا» است و معنایش درست آمده. ج و د) dim و dit ضمیرهای پی‌بستِ رایی از ستاک خویشاوند *di- هستند؛ جکسن صرف آن را می‌آورد: «مفرد رایی dim مذکر و مؤنث؛ dit خنثی — جمع رایی diš؛ dī خنثی»، و والده‑پوکورنی همین‌جا جایشان می‌دهد و به بارتولمه ستون ۶۸۴ ارجاع می‌دهد. ه) «‎-da‎» همان پی‌بستِ سویشی در vaēsman-da «به‌سوی خانه» است که پوکورنی نخستین شاهد مدخل قرارش داده و کلاین در ص ۱۶۲۲ ذیل to نقلش می‌کند؛ برابرِ ‎-δε‎ یونانی و ‎-de‎ لاتین. پس چهار مورد تأیید می‌شود و یک معنا («at present») نادرست است؛ از این رو جعبه با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/to"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:183",
+       "status": "supports",
+       "note": "The de-/do- entry (pp.181-183) contains both groups: 'compare also Old Indic yadi “if”, Old pers. yadiy, Avestan yeδi, yeidi “as soon as” and Avestan yaδāt “whence”' and 'A cognate stem *di- perhaps in enclitic Iran. Acc. Avestan, Old pers. dim “her, she”, Avestan dit “it”, diš pl. m. f., dī pl. n.' (POK_full.txt, l.19507 ff.). A citation to the last page of the entry, 183, is right. Note Pokorny/WP gloss yeδi 'zur Zeit als / as soon as', NOT 'at present'."
+      },
+      {
+       "ref": "KLN:1622",
+       "status": "supports",
+       "note": "KLN_1966.txt leaf 860 (= pp.1622-1623; leaf 862 carries the printed numeral 1626), s.v. 'to, prep.': '… from the I.-E. pronominal base *do-, “to, toward, upwards” … Cp. also I.-E. *de in Avestic -da (as in vaesmen-da, “to the house”), Gk. -δε …, and in L. -de (as in inde …, unde …)'. This is precisely the '-da 5 : toward, to' item; Klein says nothing about yeδi, yaθāt, dim, dit."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.771 (leaf 779)",
+       "stance": "partial",
+       "note": "supports the forms but corrects the gloss: '(vgl. auch ai. yadi “wenn”, ap. yadiy, av. yeδi, yeidi “zur Zeit als” und av. yaθāt “woher”)'; and 'Ein verwandter St. *di in den enklit. iran. Akk. av. ap. dim “ihn, sie”, av. dit “es”, diš pl. m. f., dī pl. n. (Bartholomae 684)'."
+      },
+      {
+       "src": "AVG",
+       "where": "Jackson, An Avesta Grammar, pronominal paradigm (AVG.txt l.2379)",
+       "stance": "supports",
+       "note": "'Sg. Acc. dim m. f.; dit n. — Pl. Acc. diš m. f.; dī n. Ys. 65.8.' — dim 'him, her' and dit 'it' exactly as the chart glosses them."
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiranisches Wörterbuch col. 684 (cited by Walde-Pokorny I 771)",
+       "stance": "partial",
+       "note": "the local BRT.txt OCR is too degraded to isolate the headword columns (dim appears only in index/citation lines such as l.5244 'dim v V.5.1.'); the reference is therefore taken at second hand from Walde-Pokorny, who cite 'Bartholomae 684' for exactly this set dim / dit / diš / dī."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Germanic",
+     "words": "tô",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic (West Germanic) *tō 'to' continues the o-grade *dō/*do- of this pronominal stem, PIE *d- giving Germanic *t- by Grimm's Law. Watkins states it in one line: 'de-. Demonstrative stem, base of prepositions and adverbs. 1. Germanic *tō in Old English tō, to: TO, TOO. … [Pok. de-, do- 181.]'. Pokorny's own material lists the whole set: 'Old English tō, Old Saxon tō (te, ti), Old High German zuo (za, ze, zi) … Modern High German zu (Gothic du “to” …)', beside Latin do- in dōnec and -dō in quandō and Old Church Slavonic do. The label 'Germanic' on the box is thus right, though strictly the form *tō is West Germanic (Gothic has du, which Brugmann already flagged as unexplained).",
+     "derivation_fa": "ژرمنی آغازین (به‌دقت: ژرمنی غربی) ‎*tō‎ «به، به‌سوی» دنبالهٔ گونهٔ ‎*dō/*do-‎ همین ستاک اشاره است و «د»ی هندواروپایی بر پایهٔ قانون گریم در ژرمنی به «ت» بدل شده است. واتکینز در یک سطر می‌گوید: «de-، ستاک اشاره … ۱. ژرمنی ‎*tō‎ در انگلیسی باستان tō: TO، TOO». پوکورنی همهٔ خانواده را برمی‌شمارد: انگلیسی باستان tō، ساکسونی باستان tō، آلمانی علیای باستان zuo و آلمانی امروزی zu (گوتیک du)، در کنار ‎do-‎ لاتین در dōnec و ‎-dō‎ در quandō و do در اسلاوی کلیسایی. پس برچسب «ژرمنی» درست است، هرچند به‌دقت این صورت ژرمنی غربی است.",
+     "sources": [
+      "https://www.etymonline.com/word/to"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Nourai cites AHD without a page (the IE appendix). AHD_watkins1985.txt l.360: 'de-. Demonstrative stem, base of prepositions and adverbs. 1. Germanic *tō in Old English tō, to: TO, TOO. … [Pok. de-, do- 181.]' — the node and its English child in one sentence."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW pp.181-183, s.v. de- do-",
+       "stance": "supports",
+       "note": "'Old English to, Old Saxon to (te, ti), Old High German zuo (za, ze, zi …) … Modern High German zu (Gothic du “to” with Dat. …, seems proclitic development from *tō)'."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 ed. p.1622 (leaf 860) s.v. to, prep.",
+       "stance": "supports",
+       "note": "'ME., fr. OE. to, rel. to OS., OFris. to, Du. toe, OHG. zuo, zua, zo, MHG. zuo, G. zu, “to”, from the I.-E. pronominal base *do-, “to, toward, upwards”.'"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "to, too",
+     "verdict": "confirmed",
+     "derivation": "Old English tō 'in the direction of, as far as' (Etymonline: 'from West Germanic *tō, source also of Old Saxon and Old Frisian to, Dutch toe, Old High German zuo, German zu … reconstructed to be from PIE pronominal base *do- “to, toward, upward” … from demonstrative *de-'). English to and too are one and the same word split in spelling and function: too is the stressed adverbial use of OE tō, and the spelling with -oo, fixed only in the 16th c., marks that stress; Klein: 'too, adv. — ME. to, too, fr. OE. to, adv., identical with to, prep. See to and cp. G. zu, which also unites the meanings to and too.' Hence the chart's single box 'to, too'.",
+     "derivation_fa": "انگلیسی باستان tō «به‌سوی، تا» از ژرمنی غربی ‎*tō‎ و آن از ستاک ضمیریِ هندواروپایی ‎*do-‎ «به، به‌سوی، رو به بالا» که خود از ستاک اشارهٔ *de- است. «to» و «too» در انگلیسی یک واژه‌اند که در املا و نقش از هم جدا شده‌اند: «too» کاربرد قیدیِ تکیه‌دارِ همان tōی انگلیسی باستان است و املای دوواوی آن تنها در سدهٔ شانزدهم تثبیت شد و همان تکیه را نشان می‌دهد؛ کلاین می‌نویسد: «too قید — انگلیسی میانه to، too، از انگلیسی باستان to قید، همان to حرف اضافه؛ سنجید با zu آلمانی که هر دو معنی را یک‌جا دارد». از این رو نورایی هر دو را در یک جعبه آورده و درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/to"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node carries no reference in the book (refs=None); its parent Germanic node cites AHD, whose entry 'de- … Germanic *tō in Old English tō, to: TO, TOO' covers this child directly."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. pp.1622-1623 (leaf 860), s.vv. to, prep. and too, adv.",
+       "stance": "supports",
+       "note": "'to, prep. — ME., fr. OE. to … from the I.-E. pronominal base *do-'; 'too, adv. — ME. to, too, fr. OE. to, adv., identical with to, prep. … Cp. G. zu, which also unites the meanings to and too.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. de-",
+       "stance": "supports",
+       "note": "'1. Germanic *tō in Old English tō, to: TO, TOO.' — both English words listed as derivatives of this root."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etymological Dictionary",
+       "stance": "silent",
+       "note": "not consulted usefully: the Concise Skeat's entries for such function words give only the Germanic cognates, nothing that bears on the Avestan/Indo-European side."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
