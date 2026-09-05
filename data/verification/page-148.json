@@ -1,0 +1,943 @@
+{
+ "pdf_page": 148,
+ "book_page": 118,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Eg",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₁eǵ(H)óm / *eǵ- 'I' (1sg nominative pronoun)",
+   "note": "Pokorny 291 sets up 'eğ-, eğ(h)om, eğō, Meaning: I' with exactly Nourai's material (Old Indic aham, Avestan azəm, Old Persian adam, Gk. egō, Lat. ego, Goth. ik, OHG ih, OE ic). Language label ('Indo-European') and gloss ('I') are correct. The one substantive problem on this chart is that node #1 puts the oblique forms manā / maiy under this root: they belong to the SUPPLETIVE oblique stem PIE *me- (Pokorny 702, which itself notes 'Nom. Sg. eg(h)om, see 291'), and Watkins/AHD says so explicitly under 'eg': 'For oblique forms see me-¹'. Persian من therefore reaches this chart through *me-, not through *eǵ-. Everything else on the chart is standard.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *h₁eǵ(H)óm «من» (ضمیر فاعلی اول‌شخص مفرد) در پوکورنی صفحهٔ ۲۹۱ با همان شواهدی آمده که نورایی آورده است: سنسکریت aham، اوستایی azəm، پارسی باستان adam، لاتین ego، گوتی ik. برچسب زبانی و معنای ریشه درست است. اما یک نکتهٔ مهم: صورت‌های حالت‌های غیرفاعلی (manā، maiy) از ستاک دیگری یعنی *me- (پوکورنی ۷۰۲) می‌آیند؛ این دو ستاک صرف‌مکمّل (suppletive) اند. پس «من» فارسی از *me- رسیده نه از *eǵ-؛ ادعای نورایی دربارهٔ خود ریشه درست است ولی در چیدمان گرهٔ ۱ با احتیاط باید خوانده شود.",
+   "sources": [
+    "https://www.etymonline.com/word/ego"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:291",
+     "status": "supports",
+     "note": "POK_full.txt (grep 'Page(s): 291'): 'Root / lemma: eg-, eg(h)om, egō ... Meaning: I. Material: Old Indic aham, Avestan azəm, Old pers. adam (*eg(h)om) ... Latin ego ... Gothic ik, Old High German ih ...'. Exactly the root, label and gloss of Nourai's box."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 115-116 s.v. 'eg(h)om' (WLD_Bd1_pages.txt leaf 123-124)",
+     "stance": "supports",
+     "note": "'got. ik, ahd. ih (ihh-a ‚egomet‘ ...), as. ic, urn. anord. ek ... lit. aš, alt es ... aksl. azŭ'; this is the WP. I 115 f. that Pokorny p.291 cites."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. 'eg' (AHD_watkins1985.txt line 418)",
+     "stance": "supports",
+     "note": "'eg. I. Nominative form of the personal pronoun of the first person singular. For oblique forms see me-¹. 1. Germanic *ek in Old English ic, I: I. 2. Extended form *egō in Latin ego: EGO, EGOIST. [Pok. e- 291.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann s.v. 'ego, eg̥one' (IEC.txt line 3456)",
+     "stance": "supports",
+     "note": "'ego, eg₂one ‘I’. See ekho(m). Gk. Lat. ego; Go. ik, etc.; cf. Venetic mego, id.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "azem, adam, manâ 1, maiy",
+     "verdict": "plausible",
+     "derivation": "Two different pronominal stems are put in one box. (a) Av. azəm, OP adam 'I' are the regular Indo-Iranian reflexes of PIE *h₁eǵ(H)óm: Indo-Iranian *aǵʰám > Skt. ahám, Av. azəm; Old Persian shows the well-known Old-Persian change of Indo-Iranian *ǵʰ > d (written a-d-m /adam/), the same change that gives OP adam beside Av. azəm and OP daraniya- beside Av. zaranya-. These two are exactly Nourai's arrow and are confirmed by Tolman, Kent, Klein and Pokorny. (b) manā and maiy, however, are NOT from *eǵ-: manā is the OP genitive/dative 'of me, my' (Av. mana) from PIE genitive *méne (dissimilated from *mem-), and maiy is the enclitic genitive/dative 'my, to me' (Av. mē/moi, Skt. me), from PIE *moi. Pokorny puts them on p.702 under 'me‑¹, 1sg personal pronoun (oblique stem)', where he writes 'Nom. Sg. eg(h)om (see 291)' — i.e. the paradigm is suppletive, and the chart silently merges the two halves. Watkins says the same ('For oblique forms see me-¹'), and Ernout-Meillet s.v. ego: 'Les autres cas sont formés sur un autre thème'. The node's gloss 'me, mine' fits manā/maiy but not azem/adam, which mean 'I'.",
+     "derivation_fa": "در این جعبه دو ستاک جداگانه در کنار هم نشسته‌اند. اوستایی azəm و پارسی باستان adam «من» بازماندهٔ منظم *aǵʰám هندوایرانی اند؛ در پارسی باستان *ǵʰ به d بدل شده (همان ابدالی که zaranya- اوستایی را در پارسی باستان daraniya- می‌کند). اما manā و maiy از این ریشه نیستند: manā صورت اضافی/برایی «از من، مرا» از *méne هندواروپایی است و maiy ضمیر پیوستهٔ «‌مرا، من» از *moi. پوکورنی این‌ها را در صفحهٔ ۷۰۲ زیر ستاک *me- می‌آورد و خود می‌نویسد که فاعلی آن eg(h)om است (ص ۲۹۱)؛ یعنی صرف این ضمیر مکمّل (suppletive) است. پس ادعای نورایی با احتیاط پذیرفتنی است؛ معنای داده‌شده («me, mine») فقط برای manā/maiy درست است و برای azem/adam باید «من (فاعلی)» باشد.",
+     "sources": [
+      "https://www.etymonline.com/word/ego"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:763",
+       "status": "supports",
+       "note": "Klein s.v. 'I, pers. pron.' (KLN_1966.txt leaf 410): 'ME. ich, i, fr. OE. ic ... and cogn. with OI. aham, Avestic azim, OPers. adam, Hitt. uk, Arm. es, Gk. egō ... L. ego'. Nourai's page 763 is close to the alphabetical position of this entry in the 1966 two-volume text; the content is exactly his arrow."
+      },
+      {
+       "ref": "POK:291",
+       "status": "partial",
+       "note": "p.291 covers azem/adam only ('Old Indic aham, Avestan azəm, Old pers. adam'); manā/maiy are on Pokorny p.702 s.v. 'me‑¹, 1sg personal pronoun (oblique stem)': 'Gen. accented *me-me ... dissimil. *mene in Avestan mana, Old pers. mana ... enclitic moi ... in Old Indic me, Avestan me'."
+      },
+      {
+       "ref": "TLM:62",
+       "status": "supports",
+       "note": "Tolman, Ancient Persian Lexicon p.62 (TLM.txt \\f-leaf 83): 'adam, pers. pron. I. Nom. sg. adam, Av. azam (Turfan MSS. ’az), Skt. aham. Acc. Sg. mam ... Gen. Sg. mana, maiy, YAv. mana, me, GAv. moi'. This single entry is the source of all four of Nourai's forms."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, Lexicon p.169 s.v. adam (KNT.txt line 4969)",
+       "stance": "supports",
+       "note": "'adam pron. “I”: Av. azam, Skt. aham, pIE *eǵhom (§109), cf. pIE *eǵō in Gk. egō, Lt. ego'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. 'eg'",
+       "stance": "partial",
+       "note": "'Nominative form of the personal pronoun of the first person singular. For oblique forms see me-¹' — confirms azem/adam here but sends manā/maiy to a different root."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. ego (LAT.txt line 18432)",
+       "stance": "supports",
+       "note": "'ego ... Nominatif du pronom personnel de la 1re pers. sg. Les autres cas sont formés sur un autre thème: gén. mei ..., dat. mihi, acc. me(d)' — the classic statement of the suppletion."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, pdf pp. 477-478 (= printed 478-479), the 'ME' family",
+       "stance": "supports",
+       "note": "Aryanpur groups AVESTAN MANA, ME, MA, MAM / OLD PERSIAN MANA / MAIY, MAIS / PAHLAVI MANA, MAN / KURDISH MIN under the *me- family (references POKORNY, MACKENZIE), i.e. separate from his 'I' (*eg-) family."
+      },
+      {
+       "src": "BRT",
+       "where": "BRT.txt (Altiranisches Wörterbuch, azəm / mana cols.)",
+       "stance": "silent",
+       "note": "the OCR of Bartholomae's transliterated headwords is too corrupt to locate the azəm / mana columns reliably (greps on 'az9m', 'azdm', '^mana ' return only unrelated hits)."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "man 1",
+     "verdict": "confirmed",
+     "derivation": "New Persian من man 'I' continues Middle Persian man (Book Pahlavi written with the aramaeogram L or as mn; MacKenzie: 'man ... I, me'), which is the Old Persian genitive-dative manā 'of me, my' (Av. mana) generalised as the sole 1sg pronoun. The path is the ordinary Western Middle Iranian one: OP manā > MP man (loss of the final unstressed -ā in Middle Persian, as in *dastā > dast) > NP من. The old nominative (Av. azəm, OP adam) survives into Middle Persian only as an 'an' that then dies out, so the oblique form takes over the whole paradigm — the same replacement seen in Kurdish min. Mo'in's footnote in Borhan-e Qate' (BQT:2036) gives precisely this chain. So the arrow manā → man is right; only the attachment of manā to root *eǵ- (node #1) is loose.",
+     "derivation_fa": "«من» فارسی از فارسی میانهٔ man است و آن خود از صورت اضافی پارسی باستان manā «از من، مرا» (اوستایی mana) می‌آید؛ الف پایانی بی‌تأکید در فارسی میانه افتاده است. در دورهٔ میانه صورت فاعلی کهن (azəm/adam) از میان رفت و صورت غیرفاعلی جای آن را گرفت (همین اتفاق در کردی min هم رخ داده). معین در حاشیهٔ برهان قاطع (ص ۲۰۳۶) دقیقاً همین زنجیره را می‌آورد. ادعای نورایی دربارهٔ این پیوند درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%85%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2036",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 4 printed p. 2036 (BQT_v4_pages.txt pdf page 119), Mo'in's footnote 3 to من: 'ضمیر (منفصل) اول شخص مفرد (متکلم وحده)، پارسی باستان manā (مال من) [در حالت مفرد اضافی]، اوستا mana، اسلاوی کلیسایی mene، پهلوی man، نیبرگ ص ...، کردی min (من)'."
+      },
+      {
+       "ref": "SNS:221",
+       "status": "partial",
+       "note": "Tavoosi's Šāyast nē Šāyast glossary index (SNS_pages.txt leaf 229) has the line 'man 221/1', i.e. Pahlavi man is attested at page 221 line 1 of the text; the glossary gives no etymology, only the attestation."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary s.v. man (PHD_mackenzie.txt line 3424)",
+       "stance": "supports",
+       "note": "'man [L < A l-y | M mn, N ...] I, me' — Middle Persian man is the direct antecedent of NP من."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, printed pp. 478-479 ('ME' family)",
+       "stance": "supports",
+       "note": "lists PAHLAVI MANA, MAN and OLD PERSIAN MANA together with KURDISH MIN under the *me- pronoun, citing MacKenzie and Pokorny."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab/Mo'in, and Mo'in's own footnote reproduced in BQT",
+       "stance": "supports",
+       "note": "Mo'in's etymological note (the same man he wrote for Borhan) derives من from OP manā via Pahlavi man; the printed Farhang-e Farsi entry itself carries no Latin-script forms online."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Sogdian",
+     "words": "`zw ; my`",
+     "verdict": "confirmed",
+     "derivation": "Sogdian ʾzw /azu/ 'I' is the regular Sogdian outcome of Old Iranian *azəm: the final nasal is lost and a supporting -u appears (Gharib compares Parthian az). Sogdian ʾmyʾ / myʾ /me/ is the enclitic oblique 1sg 'me, my', which Gharib derives expressly '< OP maiy'. So both of Nourai's Sogdian words hang correctly on the Avestan/Old Persian node above them — with the same caveat as node #1, namely that ʾbʾzw belongs to *eǵ- while myʾ belongs to the oblique stem *me-/*moi.",
+     "derivation_fa": "سغدی ʾzw /azu/ «من» بازماندهٔ منظم *azəm ایرانی باستان است؛ نون پایانی افتاده و واکهٔ پایانی -u افزوده شده (قریب آن را با پارتی az می‌سنجد). صورت myʾ /me/ ضمیر پیوستهٔ غیرفاعلی «مرا، من» است و قریب صریحاً آن را از maiy پارسی باستان می‌گیرد. ادعای نورایی درست است؛ فقط همان نکتهٔ دوگانگی ستاک (*eǵ- در برابر *me-) برقرار است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "SOD:93",
+       "status": "supports",
+       "note": "Gharib, Sogdian Dictionary printed p. 93 (SOD_pages.txt leaf 158), entry 2347: 'ʾzw | azu (ʾzwty, ʾzwZY) ©Av. azəm-, OP adam; Parth. az ©1sg. pron. nom. → mnʾ, zw, ʾmyʾ'."
+      },
+      {
+       "ref": "SOD:223",
+       "status": "supports",
+       "note": "Gharib printed p. 223 (SOD_pages.txt leaf 289), entry 5571: 'myʾ | me (myy) ©<OP maiy ©1sg. pres. pron. ob.; encl. → ʾzw, mnʾ, -m || me, my'. Both of Nourai's page numbers hit their words exactly."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "Gharib nos. 2347 and 5571 (pp. 93, 223)",
+       "stance": "supports",
+       "note": "the only dedicated Sogdian dictionary in the local library; it gives both forms with the Avestan/Old Persian equivalents Nourai draws."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian p.169 (adam) and §",
+       "stance": "supports",
+       "note": "confirms the Old Persian enclitic maiy that Gharib names as the source of Sogdian myʾ."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Germanic",
+     "words": "eg, ic",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *ek (Nourai's 'eg' is the Indo-European shape, *ek the Germanic one) < PIE *h₁eǵ(H) with regular Grimm's-law devoicing of the PIE media *ǵ > Gmc. k. It appears as Gothic ik, Old Norse ek, Old Saxon ic, OHG ih (with the High German consonant shift k > hh/h), and Old English ic — Nourai's second form. A lengthened West Germanic *īk (analogical after *thū 'thou') underlies the later English long vowel.",
+     "derivation_fa": "ژرمنی آغازین *ek از *h₁eǵ(H) هندواروپایی است؛ طبق قانون گریم واکهٔ واکدار *ǵ در ژرمنی به k بی‌واک بدل شده است. بازتاب‌ها: گوتی ik، نروژی باستان ek، ساکسونی باستان ic، آلمانی علیای باستان ih (با دومین جابجایی همخوان‌ها) و انگلیسی باستان ic. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ego"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. 'eg': '1. Germanic *ek in Old English ic, I: I.' — Nourai's node verbatim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I 116 s.v. eg(h)om (leaf 124)",
+       "stance": "supports",
+       "note": "'got. ik, ahd. ih ..., as. ic, urn. anord. ek, urn. ik und enklitisch -ka, -ga, wgrm. auch *īk (Dehnung nach *tū) in ags. īc'."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. 'I, pers. pron.' (leaf 410)",
+       "stance": "supports",
+       "note": "'ME. ich, i, fr. OE. ic, rel. to OS., OFris., Du. ik, ON. ek, Norw. eg, Dan. jeg, Swed. jag, OHG. ih, MHG., G. ich, Goth. ik'."
+      },
+      {
+       "src": "POK",
+       "where": "Pokorny p.291",
+       "stance": "supports",
+       "note": "'Gothic ik, Old High German ih ... Old Saxon ic, Proto Norse ek, ik, Old Norse ek'."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "I",
+     "verdict": "confirmed",
+     "derivation": "Old English ic > Middle English ich/ik, reduced before consonants to i and generalised; the form was written with a capital I from the 13th c. (a scribal device to keep a lone minim legible), and the vowel then went through the Great Vowel Shift ī > /aɪ/. Etymonline dates the shortening to the 12th century.",
+     "derivation_fa": "انگلیسی باستان ic در انگلیسی میانه به ich/ik و سپس در جایگاه بی‌تأکید به i کوتاه شد (سدهٔ دوازدهم میلادی)؛ از سدهٔ سیزدهم به صورت حرف بزرگ I نوشته شد و واکهٔ آن در جریان جابجایی بزرگ واکه‌ها به /aɪ/ بدل شد. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ego"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no citation of its own; it inherits AHD from its Germanic parent, which does list Old English ic → English I."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. 'I, pers. pron.' (leaf 410)",
+       "stance": "supports",
+       "note": "'ME. ich, i, fr. OE. ic'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. 'eg'",
+       "stance": "supports",
+       "note": "'Germanic *ek in Old English ic, I: I.'"
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Egotist (SKT.txt line 5715)",
+       "stance": "supports",
+       "note": "'Egotist, Egoist ... Coined from L. ego, I; see I.' — Skeat cross-refers his own 'I' entry to Latin ego."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Latin",
+     "words": "ego",
+     "verdict": "confirmed",
+     "derivation": "Latin ego 'I' < PIE *eǵoH / *eǵom. Pokorny and Walde-Pokorny explain the -o of ego (for expected *egō) as a remodelling of *egom — the shape still visible in egomet 'I myself' (< *egom et 'and I too'), whence the reinforcing particle -met spread to the other pronouns. Ernout-Meillet stress that the oblique cases (mei, mihi, mē) come from a different stem, exactly the *me- of Pokorny 702.",
+     "derivation_fa": "لاتین ego «من» از *eǵoH/*eǵom هندواروپایی است. پوکورنی و والده–پوکورنی o کوتاه پایانی را حاصل بازسازی از *egom می‌دانند؛ همان *egom در egomet «خودِ من» پیداست. ارنو–مییه یادآور می‌شوند که حالت‌های دیگر (mei، mihi، mē) از ستاک دیگری اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ego"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. 'eg': '2. Extended form *egō in Latin ego, I: EGO, EGOIST, (EGOTISM).'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. ego (LAT.txt line 18432)",
+       "stance": "supports",
+       "note": "'ego (fal. eko, ego). Nominatif du pronom personnel de la 1re pers. sg. ... egomet ipse ...'"
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 116 (leaf 124)",
+       "stance": "supports",
+       "note": "'im Latein wirkt *egom noch in dem aus *egom et(i) ‚auch ich noch dazu‘ erwachsenen egomet nach'."
+      },
+      {
+       "src": "POK",
+       "where": "Pokorny p.291",
+       "stance": "supports",
+       "note": "'Latin ego as gr. egō has changed from *egom ... Faliscan eko, ego'."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "ego",
+     "verdict": "confirmed",
+     "derivation": "English ego is a straight learned borrowing of Latin ego 'I', first used in English by 1707 in metaphysics ('the self as opposed to the non-ego'), and given its modern psychological sense by the English translators of Freud's das Ich in the 1920s. Klein: 'ego, n. — L., ‘I’, cogn. with OE. ic, ‘I’. See I, personal pron.' Derivatives egoism (from French égoïsme) and egotism (Addison's coinage, with intrusive -t- after nepotism) follow.",
+     "derivation_fa": "انگلیسی ego وام‌واژه‌ای کتابی از لاتین ego «من» است که نخست‌بار در ۱۷۰۷ میلادی در متن‌های فلسفی به کار رفت و معنای روان‌شناختی امروزین را در دههٔ ۱۹۲۰ از ترجمهٔ das Ich فروید گرفت. کلاین نیز همین را می‌گوید. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/ego"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no citation on the node; it inherits AHD from the Latin parent, and AHD's 'eg' entry does list EGO among the English derivatives of Latin ego."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. ego (KLN_1966.txt leaf 274)",
+       "stance": "supports",
+       "note": "'ego, n. — L., ‘I’, cogn. with OE. ic, ‘I’. See I, personal pron.'; the same leaf has egoism, egotism (‘The intrusive t is due to the analogy of nepotism’)."
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol. 2 s.v. ego (FSD_vol2.txt line 5696)",
+       "stance": "supports",
+       "note": "'ego, the self as, in fact, known to itself, that which each one of us calls me' — the philosophical sense in which the Latin word entered English."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Egotist (line 5715)",
+       "stance": "supports",
+       "note": "'Coined from L. ego, I; see I.'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Ei, Ey, I 1, Iâ 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₁ey- 'to go' (zero grade *h₁i-), with the extension *(h₁)yeh₂- 'to go'",
+   "note": "All four of Nourai's root spellings are legitimate: Pokorny's own headwords are 'ei- (*h₁ei-) Meaning: to go' on pp. 293-297 (with the note 'extended ei-dh-, ei-gh-, i-ta-, i̯-e-, i̯ā-, i̯ə-'), and a separate cross-reference entry 'i̯ā- Meaning: go ... See also: see above S. 296 (ei-)' on p. 501. So POK:293 and POK:501 both check out, and 'I 1' / 'Iâ 1' are Nourai's transliterations of the zero grade *i- and of the extension *i̯ā-. Klein's entry 'itinerate' (KLN:825) sets out the same base *ei- 'to go' and lists as its English derivatives exactly the words on this chart (ambient, circuit, exit, initial, transit, jadoo, janitor). Language label and gloss are correct. The only weak links on the page are the Avestan gloss 'yâh 1 : road, motion' (node #1), the Pahlavi gyāg etymology (node #2) and the language label 'Sanskrit' on jadoo (node #9).",
+   "note_fa": "ریشهٔ هندواروپایی *h₁ey- «رفتن» (درجهٔ صفر *h₁i-) با گسترش *(h₁)yeh₂-. هر چهار صورتی که نورایی نوشته پذیرفتنی است: پوکورنی در صفحه‌های ۲۹۳ تا ۲۹۷ مدخل ei- «رفتن» را دارد و در صفحهٔ ۵۰۱ مدخل i̯ā- «رفتن» را که خود به ص ۲۹۶ ارجاع می‌دهد؛ پس هر دو ارجاع POK درست است. کلاین نیز ذیل itinerate همین ریشه را با همان مشتق‌های انگلیسیِ این نمودار می‌آورد. ادعای نورایی دربارهٔ ریشه درست است؛ تنها سه گره (معنای yāh، ریشه‌شناسی gyāg و برچسب «سنسکریت» برای jadoo) جای چون‌وچرا دارند.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ey-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:293",
+     "status": "supports",
+     "note": "POK_full.txt: 'Root / lemma: ei- (*hei-) | Meaning: to go | Note: extended ei-dh-, ei-gh-, i-ta-, i̯-e-, i̯ā-, i̯ə- | Material: Old Indic emi, eti, imah, yanti ‘go’, Avestan aēiti, yeinti, Old pers. aitiy ‘goes’ ...' Page(s): 293-297."
+    },
+    {
+     "ref": "POK:501",
+     "status": "supports",
+     "note": "POK_full.txt: 'Root / lemma: i̯ā- | Meaning: ‘go’ ... See also: see above S. 296 (ei-). Page(s): 501' — the very cross-reference Nourai's 'Iâ 1' needs."
+    },
+    {
+     "ref": "KLN:825",
+     "status": "supports",
+     "note": "Klein s.v. itinerate (KLN_1966.txt leaf 444): 'L. iter, gen. itineris, ‘a journey’ ... fr. I.-E. base *ei-, ‘to go’, whence also OI. imi, Gk. eimi, L. eo (for *eio), Lith. eimi, eiti, OSlav. idǫ, iti ... Cp. ... ambit, ambition, circuit, ... exit, ... initial, ... issue, isthmus, jadoo, janitor, jaun, ... transient, transire, transit.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 102-103 (WLD_Bd1_pages.txt leaf 111)",
+     "stance": "supports",
+     "note": "the WP. I 102 ff. that Pokorny p.293 cites; the page carries air. ethae 'itum est', got. aiþs, ai. preti- 'Weggehn', anord. víðr < *ui-itos."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. 'ei-¹' (AHD_watkins1985.txt line 428)",
+     "stance": "supports",
+     "note": "'ei-¹. To go. 1. Full-grade form *ei- in: a. Latin ire, to go: ADIT, AMBIENT, ... CIRCUIT, ... EXIT, ... TRANSIENT, (TRANSIT) ... 4. Extended form *yā- ... Sanskrit yānam, way. [Pok. 1. ei- 293.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann s.v. eimi (IEC.txt line 3474)",
+     "stance": "supports",
+     "note": "'eimi (eio) ‘go’. WP I, 102. Skt. émi ...; Av. aēi(mi); OPer. ay-; ... Lat. eo, īre ...'"
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 10.47 GO (SYN.txt line 17507)",
+     "stance": "supports",
+     "note": "Buck's comparative table for GO lists 'Skt. i-, yā-, gam-, gā-; Av. jam-, i-, yā-, dvar-; ChSl. iti; Lat. ire' — both the *ei- and the *yā- stems as Iranian/Indic verbs of going."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "yâ 1 ; yâiti ; aěiti, yeinti ; â-aiti, âiti 2 ; duž-ita ; yâh 1",
+     "verdict": "disputed",
+     "derivation": "Five of the six items are right, one is not. (a) aēiti '(he) goes' (3 sg. pres. act.) and yeinti '(they) go' (3 pl., Y 57.14, Yt 13.16) are the Avestan reflexes of *h₁ey-ti / *h₁y-enti and are quoted verbatim by Pokorny p.293 and by Cheung s.v. *Hai; Nourai's gloss 'gone' is wrong — they are present indicatives, 'goes / they go'. (b) ā-aiti / āiti is *ā + aiti 'comes to, approaches', which Pokorny explicitly parses ('Avestan āiti “goes to, comes to” is *ā-aiti, with prefix ā'). (c) duž-ita- is *duš- 'bad, ill' + the verbal adjective *i-ta- 'gone', Skt. dur-itá-; Pokorny glosses it 'hardly accessible', so Nourai's 'hard motion' is a loose but defensible rendering. (d) yā- 'to go' is real: Bartholomae has 'j. ²yā- V. ‘gehen’; nur mit Praev.' (only with preverbs apa-, upa-), and yāiti is the subjunctive/present he cites there. (e) yāh 1 'road, motion' is the problem: Bartholomae knows two Avestan nouns yāh-, '¹yāh- n. Krise, Entscheidung, Wendepunkt' and '²yāh- n. Gürtel, Gürtelschnur', and Klein likewise cites 'Avestic yah-, ‘crisis, decision’'. No Avestan yāh- meaning 'road, motion' is attested; the gloss looks like a back-formation from Sanskrit yāna- 'path'.",
+     "derivation_fa": "از شش صورت این جعبه پنج‌تا درست است و یکی نه. aēiti «می‌رود» و yeinti «می‌روند» بازتاب‌های اوستایی *h₁ey-ti و *h₁y-enti اند و پوکورنی (ص ۲۹۳) و چونگ (ذیل *Hai) عیناً همین دو را می‌آورند؛ اما معنای «gone» که نورایی داده نادرست است، این‌ها مضارع اِخباری اند. āiti همان *ā + aiti «به سوی چیزی رفتن، رسیدن» است و پوکورنی خود این تجزیه را می‌کند. duž-ita- از *duš- «بد» و صفت فعلی *i-ta- «رفته» ساخته شده (سنسکریت dur-itá-) و پوکورنی آن را «دشوارگذر» معنی می‌کند. yā- «رفتن» نیز در بارتولومه هست، منتها «تنها با پیشوند». اما yāh: بارتولومه دو اسم yāh- می‌شناسد، یکی «بحران، تصمیم، نقطهٔ عطف» و دیگری «کمربند»؛ کلاین هم «crisis, decision» می‌آورد. «راه، حرکت» برای yāh در هیچ منبعی نیست و پژوهش امروزی این معنا را رد می‌کند؛ گویا از yāna- سنسکریت قیاس شده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ey-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:293-296",
+       "status": "supports",
+       "note": "'Old Indic emi, eti, imah, yanti ‘go’, Avestan aēiti, yeinti ... Avestan āiti “goes to, comes to” is *ā-aiti, with prefix ā'; and in the ṭ-formations 'dur-ita- (Avestan duz-ita-) ‘hardly accessible’'."
+      },
+      {
+       "ref": "KLN:825",
+       "status": "partial",
+       "note": "Klein s.v. janitor (KLN_1966.txt leaf 444, same opening as itinerate) has 'Avestic yah-, ‘crisis, decision’, Toch. A yā ‘he went’, Hitt. ya-, ‘to walk, go’ ... The underlying base *yā- represents an enlargement of base *ei-, ‘to go’.' Klein thus supports the root and yā-, but gives yah- the meaning 'crisis, decision', not 'road, motion'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiranisches Wb., yā- and yāh- (BRT.txt leaves 706 and 711, cols. ~1280 and ~1290)",
+       "stance": "contradicts",
+       "note": "'• j. ²yā- V. ‘gehen’; nur mit Praev.' (supports yā-), but '• j. ²yāh- n. ‘Gürtel, Gürtelschnur’' and '• j., g. ¹yāh- n. ‘Krise, Entscheidung, Wendepunkt’' — neither is 'road, motion'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung, Etym. Dict. of the Iranian Verb, *Hai ‘to go’ pp. 154-156",
+       "stance": "supports",
+       "note": "'*AVESTAN: aē- (ai-) ‘to go’ ... 3sg. act. YAv. aēti ... 3pl. YAv. yeinti (Y 57.14, Yt 13.16) ... (+ *upa-) ‘to go to, arrive at’' — and he notes Insler's point that OAv. aiiōi/aidūm cannot be attached to yā-, i.e. *Hai and yā- are kept apart."
+      },
+      {
+       "src": "POK",
+       "where": "Pokorny 293-297 (root ei-)",
+       "stance": "supports",
+       "note": "lists the whole Avestan set, including duz-ita-, under this root."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian p.169 s.v. ay-",
+       "stance": "supports",
+       "note": "'ay- vb. ‘go’: Av. ay- (pres. aiti), Skt. i- (pres. éti), Gk. eîmi, Lt. it' — Avestan aiti confirmed from the Old Persian side."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "giyâk, givâk ; givâk-rôp",
+     "verdict": "disputed",
+     "derivation": "The Middle Persian words themselves are beyond doubt: MacKenzie has 'gyāg [gywʾk | M gyʾg, N jāy] place' and the compound gyāgrōb 'broom' (literally 'place-sweeper', with rōb-, the present stem of rōftan 'to sweep'). Nourai's two transliterations giyâk / givâk are simply two readings of the Book Pahlavi spelling gywʾk. What is disputed is the arrow from Avestan yā-. Nourai here follows Horn (Grundriss no. 417) and Mo'in, who derive Persian jā from the root yā- 'to go' on the analogy of gāh from gā- 'to go'; that is also what Mo'in's footnote in Borhan-e Qate' (BQT:551) says. But the initial g- of gyāg is the obstacle — a bare *yā-ka- would give MP *yāg / NP *yā, not gyāg — and current reconstruction takes MP gyʾg from Proto-Iranian *wi-Hwah- (*wi- + *Hwah- 'to dwell'), i.e. from PIE *h₂wes- 'to dwell', with the regular Middle Persian development of initial *wy- > gy-. On that account the word belongs with 'dwelling', not with 'going'.",
+     "derivation_fa": "خودِ واژه‌های فارسی میانه بی‌گمان اند: مکنزی «gyāg [gywʾk] مکان» و ترکیب gyāg-rōb «جارو» (تحت‌اللفظ «روبندهٔ جا») را دارد و rōb- ستاک مضارع rōftan «رُفتن» است؛ دو خوانش giyâk/givâk نورایی هر دو خوانش همان املای پهلوی gywʾk است. اما پیوند با yā- اوستایی محل بحث است: نورایی از هرن (بند ۴۱۷) و معین پیروی می‌کند که «جا» را از ریشهٔ yā «رفتن» می‌گیرند، همان‌گونه که «گاه» از gā «رفتن». اشکال در g آغازین است؛ از *yā-ka- در فارسی میانه *yāg و در فارسی نو *یا به دست می‌آمد، نه gyāg. ریشه‌شناسی امروزی gyāg را از ایرانی آغازین *wi-Hwah- (پیشوند *wi- + ریشهٔ *Hwah- «سکونت گزیدن»، از *h₂wes- هندواروپایی) می‌گیرد با تحول منظم *wy- آغازین به gy- در فارسی میانه. پس پژوهش امروزی ادعای نورایی را رد می‌کند و به جای «رفتن» «مسکن گزیدن» می‌گذارد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AC%D8%A7",
+      "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%B1%D9%88%D8%A8"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:551",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 2, the opening page of ج (BQT_v2_pages.txt leaf 9 ≈ printed p. 551/552): headword 'جا ـ معروف است که مکان و مقام باشد', with Mo'in's footnote 1: 'جا، از مصدر yā (رفتن) مانند: گاه که از gā (رفتن) مشتق است. پازند ... پهلوی gyāk ...'. So Nourai's page really does carry the yā- derivation he draws."
+      },
+      {
+       "ref": "ISS:252",
+       "status": "not_checked",
+       "note": "Bailey, Indo-Scythian Studies VI (Prolexis to the Book of Zambasta) is not online; the substitute Dictionary of Khotan Saka (ISS_alt_DKS.txt) has no entry for a Khotanese cognate of gyāg (greps on 'gyāg', 'gyāka', 'gvīha', 'byāha', \"jāy 'place'\" return nothing relevant)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary p.38 s.v. gyāg (PHD_mackenzie.txt line 2636; gyagrob at PHD.txt line 5529)",
+       "stance": "supports",
+       "note": "'gyag [gywʾk | M gyʾg, N jay] place' and the compound gyagrob — the Middle Persian forms and the New Persian outcome exactly as Nourai draws them, though MacKenzie gives no etymology."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss no. 417, p. 94 (HRN.txt leaf 116)",
+       "stance": "supports",
+       "note": "'417. jāī, jā ‘Ort’, jāgah ... zu √yā- ‘gehen’ ebenso wie gāh zu √gā ‘gehen’ (Horn, KZ. 32, 586 No. 21); pāz. jaï bezw. yaï. LW. kurd. jī; afγ. jāe; bal. jā, jaga.' — the 19th-c. standard behind Nourai's arrow."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (glossary)",
+       "stance": "silent",
+       "note": "greps on gyāk / gyāg / gywāk in NYB_vol2_glossary.txt find nothing; the Šāyast/Kārnāmag glossary Nyberg excerpted does not carry the word."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/جا, Etymology section (archived copy, lines 612-620)",
+       "stance": "contradicts",
+       "note": "'Inherited from Middle Persian gyʾg (gyāg, “place”), from Proto-Iranian *wi-Hwah-, from *wi- + *Hwah- (“to dwell”)', under the PIE root *h₂wes- — a different origin from *h₁ey-/*yā-."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "jâ ; jâ-rŭb",
+     "verdict": "confirmed",
+     "derivation": "The step gyāg → jā is regular and uncontroversial: Middle Persian initial gy- palatalises to j- in New Persian (MacKenzie's own entry writes 'N jāy'), and the final -g of the *-ka- suffix is lost, giving جای jāy beside the shorter جا jā (as in Pāz. jaï, Kurdish jī, Baluchi jā/jaga, Pashto jāe — Horn's list). جاروب jārub is the inherited compound Middle Persian gyāg-rōb 'place-sweeper' = جا 'place' + روب, the present stem of روبیدن/رُفتن 'to sweep' (< OIr. *raup-, whence Nourai's cross-reference ☞Raup); modern colloquial جارو jāru is the clipped form. Both of Nourai's references are on target. The only reservation is the one recorded at node #2: whether gyāg itself goes back to yā- 'to go' (Horn, Mo'in) or to *wi-Hwah- 'to dwell' (current reconstruction).",
+     "derivation_fa": "گذر gyāg به «جا» منظم و بی‌چون‌وچراست: gy آغازین فارسی میانه در فارسی نو به «ج» بدل می‌شود (مکنزی خود N jāy می‌نویسد) و g پایانی پسوند *-ka- می‌افتد؛ از این‌رو «جای» و صورت کوتاه‌ترِ «جا» (سنجید‌نی با پازند jaï، کردی jī، بلوچی jā/jaga، پشتو jāe در فهرست هرن). «جاروب» همان ترکیب موروثی فارسی میانهٔ gyāg-rōb «روبندهٔ جا» است: «جا» + «روب» ستاک مضارع «روبیدن/رُفتن» (از *raup- ایرانی باستان). «جارو» صورت کوتاه‌شدهٔ گفتاری آن است. هر دو ارجاع نورایی (هرن ۹۴ و برهان ۵۵۱) درست‌اند؛ تنها تردید همان است که در گرهٔ ۲ گفته شد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%B1%D9%88%D8%A8",
+      "https://en.wiktionary.org/wiki/%D8%AC%D8%A7"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:94",
+       "status": "supports",
+       "note": "Horn p.94 no. 417 (HRN.txt leaf 116): 'jāī, jā ‘Ort’, jāgah, vergl. gil. jiā ... zu √yā- ‘gehen’ ebenso wie gāh zu √gā ‘gehen’ ... LW. kurd. jī; afγ. jāe; bal. jā, jaga.'"
+      },
+      {
+       "ref": "BQT:551",
+       "status": "supports",
+       "note": "the same Borhan page (vol. 2 leaf 9) carries the headword جا 'مکان و مقام' with Mo'in's footnote giving the Pahlavi gyāk and the yā- derivation."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie p.38 s.v. gyāg and gyāgrōb",
+       "stance": "supports",
+       "note": "'gyag [gywʾk | M gyʾg, N jay] place' — MacKenzie himself gives the New Persian outcome jāy."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/جاروب (archived copy, line 219)",
+       "stance": "supports",
+       "note": "'Middle Persian gywʾk'-rōb /gyāg-rōb/, “broom”. By surface analysis, جا (jâ, “place”) + روب (rub, present stem of روبیدن). Unrelated to Hindi झाड़ू (jhāṛū)', citing MacKenzie 1971 p.38 and Raham 2017 p.338."
+      },
+      {
+       "src": "MON",
+       "where": "Mo'in, Farhang-e Farsi s.vv. جا / جاروب",
+       "stance": "supports",
+       "note": "Mo'in's own etymological practice (the footnotes he wrote for Borhan) is the direct source of Nourai's arrow; the online lexicon text carries the entries but not the Latin-script forms."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Old Persian",
+     "words": "ay ; aitiy ; upâ-aitiy, upâ-ay-a",
+     "verdict": "plausible",
+     "derivation": "Old Persian ay- 'to go' is the correct root (Kent, Lexicon p.169: 'ay- vb. “go”: Av. ay- (pres. aiti), Skt. i- (pres. éti), Gk. eîmi, Lt. it'), and Abolghasemi (FFD p.35) glosses it in Persian as «حرکت کردن» — precisely Nourai's 'to move'. The compound is also right: Kent lists 'upa- + ay- “go to, arrive at”: [u]pāyam 1st sg. imf. (DB 1.91f.)', and Cheung s.v. *Hai gives Old Persian '(+ *upa-) “to go to, arrive at”'. Two glosses need correcting: aitiy is the 3 sg. PRESENT 'goes' (DZc 10), not 'gone, went' (the preterite is āiš); and upā-aitiy / upā-ay-a means 'goes to, arrives at' in Old Persian — the modal sense 'ought to, must' that Nourai writes here is a Middle Persian development (impersonal abāyēd 'it is necessary'), not an Achaemenid one.",
+     "derivation_fa": "ریشهٔ ay- «رفتن» در پارسی باستان درست است؛ کنت (واژه‌نامه، ص ۱۶۹) می‌نویسد «ay- فعل «رفتن»: اوستایی ay- (مضارع aiti)، سنسکریت i-، یونانی eîmi، لاتین it» و ابوالقاسمی در «فعل‌های فارسی دری» (ص ۳۵) معنای آن را «حرکت کردن» می‌آورد که همان «to move» نورایی است. ترکیب upa-ay- هم درست است: کنت «upa- + ay- «به سوی چیزی رفتن، رسیدن»: [u]pāyam» و چونگ نیز همین را ذیل *Hai دارد. دو معنا باید اصلاح شود: aitiy مضارع سوم‌شخص «می‌رود» است نه «رفته/رفت» (گذشتهٔ آن āiš است)، و معنای «باید» برای upa-ay- تحولی است که در فارسی میانه رخ داده، نه در پارسی باستان. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%DB%8C%D8%B3%D8%AA%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:293",
+       "status": "supports",
+       "note": "'Old pers. aitiy ‘goes’' stands in Pokorny's Material for ei- on p.293, exactly as cited."
+      },
+      {
+       "ref": "FFD:35",
+       "status": "supports",
+       "note": "Abolghasemi, Fe'l-hā-ye Fārsi-ye Darī p.35 (FFD_pages.txt pdf page 40), entry بایستن: 'بای < فارسی میانه abāy < ایرانی باستان *upa-ay-a < *upa-ai- ... upa پیشوند فعلی است. ay به معنی «حرکت کردن» است.' Both of Nourai's Old Persian compound spellings (upā-aitiy, upā-ay-a) and his gloss 'to move' come from this page."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, Lexicon p.169 (KNT.txt lines 5028-5031)",
+       "stance": "partial",
+       "note": "'ay- vb. ‘go’ ... aitiy (§69) DZc 10; āiš imf.' and 'upa- + ay- ‘go to, arrive at’: [u]pāyam 1st sg. imf. DB 1.91f.' — supports the forms, contradicts the glosses 'gone, went' and 'ought to'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung, *Hai ‘to go’, Old Persian section (p.155)",
+       "stance": "supports",
+       "note": "'*OLD PERSIAN: ay- ‘to go’ ... (+ *upa-) ‘to go to, arrive at’ ... IND. 3sg. aitiy <a-i-t-i-y> (DZc 10), impf. 1sg. upāyam <u-p-a-y-m> (DB 1.91)'."
+      },
+      {
+       "src": "TLM",
+       "where": "Tolman, Ancient Persian Lexicon",
+       "stance": "silent",
+       "note": "Tolman's lexicon is cited by Nourai only for the pronouns on this page; his ay- entry adds nothing beyond Kent."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Pahlavi",
+     "words": "upâyat ; apâyistan ; abâyist",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian *upa-ay- > abāy- 'to be necessary, be fitting'. Nyberg's glossary has the full paradigm in exactly Nourai's spelling: 'apāyistan [ʾpʾdstn'], apāyītan, apāy-, 3 sg. apāyēt [ʾpʾdt'], pret. 3 sg. apāyist ... impers. apāyēt auxiliary vb.: must, ought to, shall, should'. MacKenzie writes the same verb 'abāy-: abāyēd [ʾPʾyt', M ʾbʾyd, N bāyad] it is necessary, fitting; must'. Nourai's 'upâyat' with initial u- and p is the older transliteration used by Hübschmann, who writes 'bāyad ‘ist nöthig’, phl. apāyat' (Persische Studien p.176) and derives it 'aus *upāyati für *upa-aiti' (p.125) — i.e. the intervocalic Old Iranian *p is preserved in the Pahlavi spelling and voiced to b in New Persian, and the preverb upa- reduces to a-/ā- before the stem. The semantic shift is 'it comes to (one)' → 'it befits, is necessary' → 'must'.",
+     "derivation_fa": "فارسی میانه abāy- «لازم بودن، شایسته بودن» از *upa-ay- ایرانی باستان است. واژه‌نامهٔ نیبرگ همهٔ صورت‌هایی را که نورایی آورده با همان املا دارد: «apāyistan [ʾpʾdstn']، apāy-، سوم‌شخص مضارع apāyēt، ماضی apāyist ... در کاربرد بی‌شخص: باید، شاید». مکنزی نیز «abāy-: abāyēd ... N bāyad» می‌نویسد. صورت upâyat نورایی همان نویسهٔ کهن هوبشمان است که در «پژوهش‌های فارسی» ص ۱۷۶ می‌نویسد «bāyad ‘لازم است’، پهلوی apāyat» و در ص ۱۲۵ آن را «از *upāyati به جای *upa-aiti» می‌گیرد. پیشوند upa- پیش از ستاک به a-/ā- کاهیده و پِ میان‌واکه‌ای در فارسی نو به «ب» نرم شده است. تحول معنایی: «به کسی می‌رسد» ← «سزاوار است، لازم است» ← «باید». ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%DB%8C%D8%B3%D8%AA%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "AEF:234",
+       "status": "not_checked",
+       "note": "Khaleqi Motlaq's Asās-e Ešteqāq-e Fārsi is the Persian translation of Horn's Grundriss with Hübschmann's notes and is not online. Its source can be checked instead: Hübschmann, Persische Studien p.176 'bāyad ‘ist nöthig’, phl. apāyat' and p.125 'bāyad ‘muss’ aus *upāyati für *upa-aiti' — Nourai's forms and gloss are those of AEF's original."
+      },
+      {
+       "ref": "FFD:35",
+       "status": "supports",
+       "note": "Abolghasemi p.35: 'بایست ← فارسی میانه abāyist, abāyistan؛ مادهٔ ماضی جعلی است و از مادهٔ مضارع ساخته شده' and 'بای < فارسی میانه abāy < ایرانی باستان *upa-ay-a'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II, glossary s.v. apāyistan (NYB_vol2_glossary.txt line 554)",
+       "stance": "supports",
+       "note": "'apāyistan [ʾpʾdstn'], apāyītan [ʾpʾdytn'] apāy-, 3d p. sg. apāyēt, 3d p. pl. apāyend, pret. 3d p. sg. apāyist ... 5. impers. apāyēt auxiliary vb.: must, ought to, shall, should, has to, is bound to'."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie s.v. abāy- (PHD_mackenzie.txt line 724; abāyistan line 11531)",
+       "stance": "supports",
+       "note": "'abāy-: abāyēd [ʾPʾyt', M ʾbʾyd, N bāyad] it is necessary, fitting; must'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung, *Hai, Middle Persian section (p.155)",
+       "stance": "supports",
+       "note": "'(+ *upa-) MMP ʾbʾy- (impers.) ‘to be necessary’, BMP ʾpʾy- /abāy-/ ‘to please; to be proper, necessary, fitting’ ... Partic.: perf. pass. BMP /abāyist/ ʾpʾdst, Inf.: BMP /abāyistan/'."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien pp. 125 and 176",
+       "stance": "supports",
+       "note": "'bāyad ‘muss’ aus *upāyati für *upa-aiti' and 'bāyad ‘ist nöthig’, phl. apāyat' — the source of Nourai's spelling upâyat."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "bâyad",
+     "verdict": "confirmed",
+     "derivation": "New Persian باید bāyad 'must' is the 3 sg. present of بایستن bāyestan, inherited from Middle Persian abāyēd / abāyistan: the initial a- of the reduced preverb is dropped in New Persian (the same aphaeresis as MP abar > NP بر) and intervocalic Pahlavi -p- appears as -y-/-b- in the New Persian stem بای-. The extra forms the book prints in the box, بایست and بایستن, are the Middle Persian past stem abāyist and its infinitive, both taken over unchanged. The verb is defective in Persian, used almost only impersonally ('باید برود'), which continues the impersonal use Nyberg documents for Pahlavi apāyēt.",
+     "derivation_fa": "«باید» صورت سوم‌شخص مفرد مضارع «بایستن» است و مستقیماً از فارسی میانهٔ abāyēd / abāyistan می‌آید؛ الفِ آغازینِ پیشوندِ کاهیده در فارسی نو افتاده است (همان افتادنی که abar را «بر» می‌کند). صورت‌های «بایست» و «بایستن» که کتاب در همان جعبه آورده همان مادهٔ ماضی abāyist و مصدر آن است. این فعل در فارسی ناقص است و بیشتر بی‌شخص به کار می‌رود («باید برود»)، که ادامهٔ همان کاربرد بی‌شخص apāyēt پهلوی است که نیبرگ ثبت کرده. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%DB%8C%D8%AF",
+      "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%DB%8C%D8%B3%D8%AA%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "AEF:234",
+       "status": "not_checked",
+       "note": "AEF (the Persian Horn) is not online; its underlying statement is verifiable in Hübschmann, Persische Studien p.176 ('bāyad ‘ist nöthig’, phl. apāyat') and p.125, which give exactly this derivation."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie s.v. abāy-",
+       "stance": "supports",
+       "note": "'abāy-: abāyēd [... N bāyad] it is necessary, fitting; must' — MacKenzie names the New Persian outcome بايد himself."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien p.176 (HUB.txt leaf 186)",
+       "stance": "supports",
+       "note": "'bāyad ‘ist nöthig’, phl. apāyat' in the list of New Persian words with lost initial a-."
+      },
+      {
+       "src": "FFD",
+       "where": "Abolghasemi p.35 s.v. بایستن",
+       "stance": "supports",
+       "note": "'بایست ← فارسی میانه abāyist/abāyistan ... بای < فارسی میانه abāy < ایرانی باستان *upa-ay-a'."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/بایستن (archived copy, line 154)",
+       "stance": "supports",
+       "note": "'Inherited from Middle Persian ʾpʾdstn' /abāyistan/ ... from Proto-Iranian *upa- + *Hai, from Proto-Indo-Iranian *úpa + *Hay-, from Proto-Indo-European *upó (“under, below”) + *h₁ey- (“to go”)' — the whole of Nourai's chain, root included."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Sanskrit",
+     "words": "yâna",
+     "verdict": "confirmed",
+     "derivation": "Sanskrit yā́na- n. 'going, course, way; vehicle' is a *-na- derivative of the verbal root yā- 'to go, travel' (RV yā́ti 'goes'), which is the PIE extension *(h₁)yeh₂- of *h₁ey-. Watkins puts it here explicitly: 'ei-¹. To go ... 4. Extended form *yā- (< *yaə-) in suffixed forms *yā-no-, *yā-nu- in ... b. Sanskrit yānam, way (in Buddhism, “mode of knowledge,” “vehicle”): HINAYANA, MAHAYANA'. Klein's janitor entry likewise treats *yā- as 'an enlargement of base *ei-'. Nourai's gloss 'path' is right.",
+     "derivation_fa": "سنسکریت yā́na- «رفتن، راه، گردونه» مشتقی با پسوند *-na- از ریشهٔ yā- «رفتن» است (ریگ‌ودا yā́ti «می‌رود»)، و yā- خود گسترش *(h₁)yeh₂- از *h₁ey- هندواروپایی است. واتکینز (پیوست ریشه‌های هندواروپایی) صریحاً می‌نویسد: «صورت گسترده *yā- ... سنسکریت yānam «راه» (در بودایی: «مرکب»، چنانکه در هینه‌یانه و مهایانه)». کلاین هم *yā- را «گسترش ریشهٔ *ei-» می‌داند. معنایی که نورایی داده درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "KLN:825",
+       "status": "supports",
+       "note": "Klein s.v. janitor (leaf 444): '... Avestic yah-, ‘crisis, decision’, Toch. A yā, ‘he went’ ... The underlying base *yā- represents an enlargement of base *ei-, ‘to go’, for which see itinerate. Cp. also jadoo, jaun and the second element in Rathayatra.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. ei-¹ §4b",
+       "stance": "supports",
+       "note": "'Extended form *yā- ... b. Sanskrit yānam, way (in Buddhism, “mode of knowledge,” “vehicle”): HINAYANA, MAHAYANA.'"
+      },
+      {
+       "src": "POK",
+       "where": "Pokorny 293-297 (ei-), extension i̯ā-, and p.501 (i̯ā- ‘go’)",
+       "stance": "supports",
+       "note": "'Note: extended ei-dh-, ei-gh-, i-ta-, i̯-e-, i̯ā-, i̯ə-' and the separate p.501 headword i̯ā- ‘go’ referring back to S. 296."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 10.47 GO",
+       "stance": "supports",
+       "note": "lists Skt. yā- and Av. yā- side by side with i- as the Indo-Iranian verbs of going."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "jan",
+     "verdict": "plausible",
+     "derivation": "The word is genuine but rare, a lexicographers' item known essentially from the one line Nourai quotes. Borhan-e Qate' has 'جن ـ بفتح اول و سکون ثانی، بمعنی طرف و جانب و سو و کنار باشد' ('meaning side, direction, way, edge'), with the Ferdowsi verse 'پرندوش ازین جن سواری گذشت / که لرزید از او سر بسر بوم و دشت', and Mo'in's footnote there compares Old Indic yāna- '(طریق، راه)' and cites Hübschmann. So Nourai's gloss, his verse and his reference are all correct. What is not correct is the direction of the arrow: New Persian جن cannot DESCEND from Sanskrit yāna-; if the comparison holds, the two are cognates from Indo-Iranian *yāna-, the Iranian form reaching Persian through an unattested *yāna- > *jān/jan. Since the word occurs only in this one verse and in the dictionaries that quote it, the equation remains a plausible suggestion of Mo'in's rather than an established etymology.",
+     "derivation_fa": "این واژه واقعی ولی بسیار کمیاب است و در عمل تنها از همان بیتی شناخته می‌شود که نورایی آورده. برهان قاطع می‌نویسد: «جن ـ بفتح اول و سکون ثانی، بمعنی طرف و جانب و سو و کنار باشد» و بیت «پرندوش ازین جَن سواری گذشت / که لرزید از او سر بسر بوم و دشت» را به فردوسی نسبت می‌دهد؛ معین در حاشیه هندی باستان yāna- «(طریق، راه)» را برابر می‌گذارد و به هوبشمان ارجاع می‌دهد. پس معنا، شاهد و ارجاع نورایی درست است. اما جهت پیکان درست نیست: واژهٔ فارسی نمی‌تواند «از» سنسکریت گرفته شده باشد؛ اگر این برابری درست باشد، این دو هم‌ریشه‌اند و از *yāna- هندوایرانی می‌آیند. چون واژه تنها در یک بیت آمده، این ریشه‌شناسی پیشنهاد معین است و با احتیاط پذیرفتنی.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "BQT:589",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 2 (BQT_v2_pages.txt leaf 47 ≈ printed p. 589-590), بیان هفدهم 'در جیم ابجد با نون': 'جن ـ بفتح اول و سکون ثانی، بمعنی طرف و جانب و سو و کنار باشد ۱', footnote 1 (Latin script printed right-to-left in the OCR) 'هندی باستان yāna- (طریق، راه) ... رفتن، ارابه، گردونه ... هوبشمان', and the Ferdowsi verse 'پرندوش ازین جن سواری گذشت / که لرزید از او سر بسر بوم و دشت — فردوسی طوسی، جهانگیری'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 2 leaf 47, headword جن with Mo'in's footnote",
+       "stance": "supports",
+       "note": "gives both the gloss 'side, direction, way' and the Old Indic yāna- comparison that Nourai's arrow draws."
+      },
+      {
+       "src": "FSF",
+       "where": "Noushin, Vāzhe-nāmak (Shahnameh glossary)",
+       "stance": "silent",
+       "note": "greps for جَن / جن as a headword in FSF_pages.txt find nothing — the verse Borhan attributes to Ferdowsi is not in the Shahnameh glossaries, which is why the word stays a lexicographers' entry."
+      },
+      {
+       "src": "MON",
+       "where": "Mo'in, Farhang-e Farsi",
+       "stance": "partial",
+       "note": "Mo'in repeats the Borhan gloss and the yāna- comparison; no independent attestation is added."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Sanskrit",
+     "words": "jadoo",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "Sanskrit ▤ OEW:78 | jadoo : going against someone's wishes, sorcery / Compare with root \"Yâ\".",
+     "correct_form": "Sanskrit yātú- 'sorcery, witchcraft' (the form 'jadoo' is Anglo-Indian for Hindustani jādū, borrowed from Persian جادو)",
+     "derivation": "The etymology behind this box is sound, the language label is not. Klein's entry — clearly Nourai's real source, since his gloss is a paraphrase of it — reads: 'jadoo, jadu, n., conjuring, magic. — Pers.-Hind. jādū, fr. OI. yātuḥ, ‘magic, sorcery’, prob. meaning lit. ‘a going against’, from the stem of yāti, yāte, ‘goes, moves, proceeds; advances, marches against (the enemy)’, fr. I.-E. base *yā-, enlargement of base *ei-, ‘to go’.' Hobson-Jobson agrees: 'JADOO, s. Hind. from Pers. jādū, Skt. yātu; conjuring, magic.' So 'jadoo' is not a Sanskrit word at all: it is the Anglo-Indian spelling of Hindustani jādū, which is a loan from Persian جادو, itself from Middle Persian yātūg (Book Pahlavi yʾtwk) < Avestan yātu- 'sorcery, sorcerer'. The Sanskrit member of the family is yātú-. I checked the printed page (pdf 148, image saved at data/verification/sources/refs/ocr/BOOK/148.png): the book itself prints 'Sanskrit' over 'jadoo', so this is the author's own mislabelling and the JSON extraction is faithful. Nourai's own NOTE ('Compare with root “Yâ”') is well taken: modern scholarship does derive Av. yātu- from the *yā- 'to go' family, as Klein does.",
+     "derivation_fa": "ریشه‌شناسی این جعبه درست است ولی برچسب زبانی نادرست. آنچه کلاین می‌نویسد (و پیداست که سرچشمهٔ نورایی است) چنین است: «jadoo, jadu ‘جادوگری، سحر’ ــ فارسی‑هندی jādū، از هندی باستان yātuḥ ‘سحر’، که احتمالاً تحت‌اللفظ ‘رفتن بر ضدّ چیزی’ است، از ستاک yāti ‘می‌رود، پیش می‌رود، بر دشمن می‌تازد’، از ریشهٔ هندواروپایی *yā-، گسترش ریشهٔ *ei- ‘رفتن’». هابسن‑جابسن نیز می‌گوید: «JADOO از هندی، از فارسی jādū، سنسکریت yātu». پس «jadoo» اصلاً واژهٔ سنسکریت نیست؛ املای انگلیسی‑هندی «جادو»ی هندوستانی است که خود وام‌واژه‌ای از «جادو»ی فارسی است، و آن از فارسی میانهٔ yātūg و اوستایی yātu- «سحر» می‌آید. صورت سنسکریت این خانواده yātú- است. تصویر صفحهٔ چاپی (پی‌دی‌اف ۱۴۸، ذخیره‌شده در ocr/BOOK/148.png) نشان می‌دهد که خودِ کتاب «Sanskrit» چاپ کرده است؛ پس خطای چاپی/سهو مؤلف است نه خطای خوانش اسکن. یادداشت خود نورایی («با ریشهٔ Yâ بسنجید») درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%AF%D9%88"
+     ],
+     "ref_check": [
+      {
+       "ref": "OEW:78",
+       "status": "not_checked",
+       "note": "Shipley, The Origins of English Words (1984) is lending-only on archive.org (djvu.txt returns 401) and has no other online copy; the claim itself is verifiable in Klein and Hobson-Jobson (below)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. jadoo (KLN_1966.txt leaf 444; KLN_1971.txt line 128053)",
+       "stance": "supports",
+       "note": "'jadoo, jadu, n., conjuring, magic. — Pers.-Hind. jādū, fr. OI. yātuḥ, ‘magic, sorcery’, prob. meaning lit. ‘a going against’ ... fr. I.-E. base *yā-, enlargement of base *ei-, ‘to go’.' — supports the etymology, contradicts the label 'Sanskrit'."
+      },
+      {
+       "src": "HJB",
+       "where": "Hobson-Jobson s.v. JADOO (HJB.txt line 11731)",
+       "stance": "contradicts",
+       "note": "'JADOO, s. Hind. from Pers. jādū, Skt. yātu; conjuring, magic, hocus-pocus.' — the word is Hindustani from Persian, not Sanskrit."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/جادو (archived copy)",
+       "stance": "supports",
+       "note": "'Middle Persian yʾtwkʾ (/jādūg/, “wizardry; wizard”) ... ultimately Proto-Indo-Iranian *yaHtúš, cognate with Sanskrit yātú', with descendants in Urdu/Hindi jādū."
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiranisches Wb. s.v. yātu-",
+       "stance": "silent",
+       "note": "the OCR of the Avestan headwords in BRT.txt is too damaged to quote the yātu- column, but Bartholomae's yātu- 'Zauberei, Zauberer' is the form Wiktionary and Klein both presuppose."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Latin",
+     "words": "îre ; trans_îre ; ambi-îre ; circum-îre ; ex-îre ; in-itium",
+     "verdict": "confirmed",
+     "derivation": "Latin eō, īre, itum 'to go' (Ernout-Meillet: 'eo, is, ii ... itum, ire: aller') is the athematic *h₁ey-mi verb, 1 sg. eō < *ei-ō for older athematic *ei-mi, 3 sg. it < *h₁ey-ti, 3 pl. eunt < *ei-ont- for *i-enti. All five compounds are regular prefixations with the vowel of the simplex unchanged: trāns-īre 'to go across' (pp. trānsitus, hence transit; the book prints 'trans_îre' with an underscore for the hyphen), amb-īre 'to go round' (pres. part. ambiēns > ambient), circum-īre 'to go round' (pp. circuitus > circuit), ex-īre 'to go out' (3 sg. exit, taken into English as a stage direction), and the noun initium 'a going in, beginning' < in-īre with the suffixed zero grade *i-t-yo-. Watkins lists exactly this set under ei-¹.",
+     "derivation_fa": "لاتین eō, īre, itum «رفتن» (ارنو–مییه: «eo, is, ii ... itum, ire: aller») بازماندهٔ فعل بی‌میانوند *h₁ey-mi است: اول‌شخص eō از *ei-ō به جای *ei-mi کهن‌تر، سوم‌شخص it از *h₁ey-ti و جمع eunt از *ei-ont- به جای *i-enti. هر پنج ترکیب پیشوندی منظم‌اند: trāns-īre «گذشتن» (اسم مفعول trānsitus)، amb-īre «گرد چیزی گشتن» (وجه وصفی ambiēns)، circum-īre (اسم مفعول circuitus)، ex-īre «بیرون رفتن» و اسم initium «درآمدن، آغاز» از in-īre با پسوند *i-t-yo-. واتکینز همین مجموعه را ذیل ei-¹ می‌آورد. ادعای نورایی درست است. (در کتاب «trans_îre» با خط زیر به جای خط پیوند چاپ شده است؛ صورت درست trans-īre است.)",
+     "sources": [
+      "https://www.etymonline.com/word/transit"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. ei-¹: 'a. Latin ire, to go: ADIT, AMBIENT, (AMBITION), CIRCUIT, ... EXIT¹, EXIT², ... (TRANSIT) ...; 2a. further suffixed form *i-t-yo- in Latin initium, entrance, beginning: COMMENCE, INITIAL, (INITIATE)'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. eo (LAT.txt line 18853)",
+       "stance": "supports",
+       "note": "'eo, is, ii ... itum, ire: aller ... A aussi le sens fort, ordinairement réservé à ses composés: abire, exire ...'"
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.vv. ambient, circuit, initial, itinerate (KLN_1966.txt lines 2429, 7711, 19423, 20058 ff.)",
+       "stance": "supports",
+       "note": "'ambient ... L. ambiens ... compounded of ambi- and ire, to go'; 'circuit ... L. circuitus, fr. circuire, circumire, ‘to go round’'; 'initial ... fr. initium ... fr. init-(um), pp. stem of inire, ‘to go into’ ... fr. in- and eo, ire'."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. ITINERANT (SKT.txt line 9364) with the cross-refs Ambient, Circuit, Exit (lines 615, 3472, 6133)",
+       "stance": "supports",
+       "note": "Skeat routes Ambient, Ambition, Circuit, County, Exit and Initial through his ITINERANT article: 'L. exit, i.e. ‘he goes out’ ... L. iter, a journey ... initium, a beginning ... inire, to go in, to enter'."
+      },
+      {
+       "src": "POK",
+       "where": "Pokorny 293-297",
+       "stance": "supports",
+       "note": "'Latin exitium, initium ...; itio ‘going out or away’; iter, itineris ‘way, alley’ ... com-es, -itis ‘companion’'."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "French",
+     "words": "transit",
+     "verdict": "confirmed",
+     "derivation": "French transit (m.) is a learned borrowing from Latin transitus, -ūs 'a passing over, passage', the fourth-declension verbal noun of trānsīre; it is attested in French from the 16th c. in the sense 'passage', and the commercial sense 'carriage of goods across a country without payment of duty' is 18th-19th-century. English took the word directly from Latin in the mid-15th c., so the French box here is not a link in the English chain but the source of the Persian one (see node #12).",
+     "derivation_fa": "«transit» فرانسوی وام‌واژه‌ای کتابی از لاتین transitus «گذر، عبور» است، اسم فعلی صرف چهارم از trānsīre؛ از سدهٔ شانزدهم میلادی در فرانسه به معنی «گذر» و از سده‌های هجدهم–نوزدهم در معنای بازرگانیِ «عبور کالا از کشوری بدون پرداخت گمرک» به کار رفته است. انگلیسی این واژه را در میانهٔ سدهٔ پانزدهم مستقیم از لاتین گرفته؛ پس این جعبهٔ فرانسوی حلقهٔ زنجیرهٔ انگلیسی نیست، سرچشمهٔ صورت فارسی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/transit"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no citation; it inherits AHD from its Latin parent, and AHD does list TRANSIT under ei-¹."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. itinerate (leaf 444)",
+       "stance": "supports",
+       "note": "'Cp. ... transient, transire, transit' — all under I.-E. base *ei- 'to go'."
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/transit (archived copy)",
+       "stance": "supports",
+       "note": "'mid-15c., from Latin transitus “a going over, passing over, passage”, from trans “across, beyond” + ire “to go” ... sense of “public transportation” by 1873'."
+      },
+      {
+       "src": "DEV",
+       "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale",
+       "stance": "silent",
+       "note": "transit is Latinate, not oriental, so Devic (and Pihan) rightly have no entry; checked to exclude an Eastern route."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Persian",
+     "words": "trânsît",
+     "verdict": "confirmed",
+     "derivation": "Persian ترانزیت trānzit is a 20th-century loan from French transit, taken over with French phonetics (the -s- pronounced /z/ between vowels, hence the Persian spelling with ز and not س) through the customs and railway vocabulary of the Reza Shah period. Mo'in's Farhang-e Farsi has the entry between تراموای and ترانزیستور, both marked [فر.] 'French', and defines it as 'عبور کالا و مال‌التجاره از مملکتی به مملکت دیگر بدون تأدیهٔ حق گمرک و مالیات' — goods passing through a country duty-free — exactly the French commercial sense.",
+     "derivation_fa": "«ترانزیت» وام‌واژه‌ای سدهٔ بیستمی از فرانسوی transit است که با تلفظ فرانسوی وارد شده؛ «س» میان‌واکه‌ای در فرانسه /z/ خوانده می‌شود و از همین‌رو در فارسی با «ز» نوشته شده است. راه ورود آن اصطلاحات گمرکی و راه‌آهن دورهٔ رضاشاه بود. معین این مدخل را میان «تراموای» و «ترانزیستور» آورده که هر دو با نشان [فر.] اند و آن را چنین معنی می‌کند: «عبور کالا و مال‌التجاره از مملکتی به مملکت دیگر بدون تأدیهٔ حق گمرک و مالیات». ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "MON:1061",
+       "status": "supports",
+       "note": "Mo'in, Farhang-e Farsi, entry ترانزیت found in MON_part1.txt (line 39632, between تراموای and ترانزیستور, both tagged (فر.)): 'ترانزیت: عبور کالا و مال‌التسجاره از مملکتی به مملکت دیگر بدون تأدیهٔ حق گمرک و مالیات (فقط حقی می‌پردازند که آن را حق ترانزیت گویند)'. The OCR of the local scan carries no printed page numbers, so the number 1061 itself could not be checked; the content is Nourai's claim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1.txt line 39632 (entry ترانزیت)",
+       "stance": "supports",
+       "note": "the entry sits in a run of French loanwords (تراموای, ترانزیستور, both '(فر.)') and gives the customs sense."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Rishe-hā-ye Hend-o-Orupāyi",
+       "stance": "silent",
+       "note": "Aryanpur covers inherited Indo-European vocabulary, not modern European loanwords; no entry for ترانزیت."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "English",
+     "words": "transit, ambient, circuit, exit, initial",
+     "verdict": "confirmed",
+     "derivation": "All five are Latinate borrowings of the compounds in node #10 and are listed together by Watkins under ei-¹: transit (mid-15c., from L. transitus), ambient (1590s, from L. ambiēns, pres. part. of ambīre), circuit (late 14c., via Old French circuit from L. circuitus), exit (1580s as a stage direction, L. exit '(he) goes out'; the noun 'a way out' from 1630s), and initial (from L. initiālis, from initium). English took transit, exit and initial straight from Latin; circuit came through French.",
+     "derivation_fa": "هر پنج واژه وام‌واژه‌های لاتینی همان ترکیب‌های گرهٔ ۱۰ اند و واتکینز همه را یکجا ذیل ei-¹ می‌آورد: transit (میانهٔ سدهٔ پانزدهم، از transitus لاتین)، ambient (دههٔ ۱۵۹۰، از ambiēns)، circuit (اواخر سدهٔ چهاردهم، از راه فرانسوی از circuitus)، exit (دههٔ ۱۵۸۰ نخست در دستور صحنهٔ نمایش، از exit لاتین «بیرون می‌رود») و initial (از initiālis از initium). transit و exit و initial یکسره از لاتین گرفته شده‌اند و circuit از راه فرانسوی. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/transit"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no citation on the node; it inherits AHD from the Latin parent, whose ei-¹ entry lists AMBIENT, CIRCUIT, EXIT, INITIAL and TRANSIT among the English derivatives."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. ei-¹",
+       "stance": "supports",
+       "note": "'ADIT, AMBIENT, (AMBITION), CIRCUIT, COITUS, COMITIA, EXIT¹, EXIT², INTROIT, ISSUE, OBITUARY, PERISH, PRAETOR, PRETERIT, SEDITION, SUBITO, SUDDEN, (TRANCE), TRANSIENT, (TRANSIT)' and 'COMMENCE, INITIAL, (INITIATE)'."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. itinerate (leaf 444)",
+       "stance": "supports",
+       "note": "the same five words appear in Klein's 'Cp.' list under base *ei-: 'circuit ... exit ... initial ... transient, transire, transit'."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, ITINERANT and the cross-references at Ambient, Circuit, Exit",
+       "stance": "supports",
+       "note": "'Ambient, going about (L.) See Itinerant'; 'Circuit; see Itinerant'; 'Exit; see Itinerant'."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
