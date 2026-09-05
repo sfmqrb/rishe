@@ -1,0 +1,620 @@
+{
+ "pdf_page": 147,
+ "book_page": 117,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 2,
+   "root": "Ed",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₁ed- 'to eat' (older notation *ed-), athematic present *h₁és-ti, with the participial derivative *h₁dónt-/*dnt- 'tooth' ('the biting one')",
+   "note": "Pokorny IEW 287 heads the entry 'ed- \"essen\"' and adds 'Nominalformen: ed-ono-, ed-men-, ed-uen-… ; edont-, dont-, dnt- \"Zahn\"', which is precisely Nourai's root box plus the tooth branch he draws under Germanic and Latin. Walde-Pokorny I 118 has the same headword; Watkins/AHD 1985 p.417 'ed-. To eat; original meaning \"to bite\". See dent-. [Pok. ed- 287.]'. Language label ('Indo-European'), form and gloss are all right; the modern laryngeal notation is *h₁ed-. The two weak places on this page are the Avestan box (node 1: 'xarka-asa' is a misprint for kahrka-āsa- and 'asa' is glossed 'food' where it means 'eating'), the Persian box (node 2: آش is disputed), and the reconstructed compound in node 3, where every other source writes *aspa-asti- (with the -ti- abstract), not 'aspa-asa'. The extraction is faithful: I rendered pdf page 147 at 200 dpi (copy at data/verification/sources/refs/ocr/BOOK/147.png) and every form, gloss, script string and reference in page-147.json matches the printed chart. One citation error of Nourai's own: BQT:1624 is the کرکس page, so it supports nodes 1-2 but not node 8 (فسفسه stands at BQT p.1489).",
+   "note_fa": "ریشهٔ نمودار همان ریشهٔ هندواروپایی آغازینِ *h₁ed- «خوردن» است که پوکورنی در صفحهٔ ۲۸۷ فرهنگ خود با صورت قدیمی‌ترِ ed- و معنای آلمانی «essen» آورده و در همان‌جا می‌افزاید که صورت‌های اسمیِ edont-, dont-, dnt- به معنی «دندان» نیز از همین ریشه‌اند؛ یعنی هر دو شاخهٔ «خوردن» و «دندان» که نورایی رسم کرده، درست است. والده-پوکورنی (جلد ۱ ص ۱۱۸) و واتکینز در پیوستِ فرهنگ American Heritage (ص ۴۱۷) نیز همین را می‌گویند: «ed-. خوردن؛ معنای اصلی: گاز گرفتن». پس جعبهٔ ریشه، برچسب زبان و معنا هر سه درست است و ادعای نورایی در این حد پذیرفتنی است. سه نقطهٔ سست در نمودار هست: صورت «xarka-asa» در گرهٔ ۱ (که غلط چاپی به‌جای kahrka-āsa- است)، ریشه‌شناسی «آش» در گرهٔ ۲ که امروزه محل اختلاف است، و ترکیبِ بازسازیِ گرهٔ ۳ که در همهٔ مأخذها *aspa-asti- نوشته می‌شود نه aspa-asa.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ed-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:287",
+     "status": "supports",
+     "note": "POK_01.txt, form-feed page 300 (= IEW pp. 287-288; grep -n \"cd-  ,essen\" → line 4121, the OCR reads initial e- as c-): 'ed- ,essen'; ursprüngl. athematisch, aber meist thematisch geworden; Nominalformen: ed-ono-, ed-men-, ed-uen-… ; edont-, dont-, dnt- ,Zahn'.' The same page then lists 'av. 3. Sg. Konj. adäiti', 'lat. edö, es, est ,essen'', 'got. themat. itan … ags. etan, engl. eat'. Exactly the root box and the three first-generation branches Nourai draws."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny I 118 (WLD_Bd1_1930_dli_70244_djvu.txt line 7698)",
+     "stance": "supports",
+     "note": "'ed- „essen“. Praes. unthematisch ai. admi, atti „esse, ißt“ … lat. edo, es, est … Thematisch got. itan, an. eta, as. ags. etan, ahd. ezzan „essen“' — the source Pokorny 287 abridges."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, AHD_watkins1985.txt line 417 (ed-) and line 364 (dent-)",
+     "stance": "supports",
+     "note": "'ed-. To eat; original meaning \"to bite.\" See dent-. 1. Germanic *etan in: a. Old English etan, to eat: EAT; b. Old High German ezzen … : ETCH … 2. Latin edere, to eat: EDACIOUS, EDIBLE … [Pok. ed- 287.]'; and 'dent-. Tooth. (Originally participle of ed- in the earlier meaning \"to bite.\") 1. O-grade form *dont- in Germanic *tanthuz in Old English toth, tooth: TOOTH. 2. Zero-grade form *dnt- perhaps in Germanic *tunth-sk- in Old English tūsc, tūx, canine tooth: TUSK. 3. Full-grade form *dent- in Latin dēns … [In Pok. ed- 287.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, IEC.txt lines 3420-3426, 3693",
+     "stance": "supports",
+     "note": "'edmi, (edō), 3s esti \"eat\". WP I, 118 — Skt. ádmi; Av. ad-; Hitt. ēdmi; Hom. édō; Lat. edō, 3s ēst; Osc. edum; Go. itan; OE etan; OHG eʒʒan …'; also 'edolis, os, om \"edible; food\"' and 'ēskā \"food\"'."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 5.11 EAT (SYN.txt line 8318 ff.)",
+     "stance": "partial",
+     "note": "'1. IE *ed-. Walde-P. 1.118 … Grk. édō, Lat. ēsse, late edere, Osc. edum … Goth. itan, so all Gmc.' — but Buck's Avestan column for 'eat' gives 'Av. xᵛar-, gah-', not ad-: in Avestan itself the inherited root survives only marginally (the subjunctive adāiti and compounds), the ordinary verb being xᵛar-."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "adâiti; asa 1; xarka-asa",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "xarka-asa : eating bird ☞ Ker 3",
+     "correct_form": "kahrka-āsa- (Av. kahrkāsa- 'vulture', lit. 'fowl-eater')",
+     "derivation": "Three items, three different situations. (a) adâiti is real: Pokorny 287 cites 'av. 3. Sg. Konj. adāiti' as the Avestan continuation of athematic *h₁ed-, i.e. a 3sg subjunctive 'he shall eat' — not an infinitive, and not the ordinary Avestan verb for 'eat', which is xᵛar- (Buck 5.11); Bartholomae's Altiranisches Wörterbuch col. 55 has only an ad- 'to say'. So the root is preserved in Avestan only marginally, in this form and in compounds. (b) 'asa 1 : food' is Avestan -āsa-, but it is a compound-final adjective 'eating, eater' (Mo'in glosses it خورنده), never an independent noun 'food'; Nourai's gloss reverses the word class. (c) 'xarka-asa' is a misprint. The Avestan word is kahrkāsa- m. 'vulture' (Bartholomae col. 456, 'j. kahrkāsa- m. \"Geier\" … Komp.: *kahrka- + *āsa-'), a bahuvrihi-type compound of kahrka- 'cock, hen' (Nourai's own root 'Ker 3'; he spells it kahrkatât on book p. 227 = pdf 257) with -āsa- 'eating'. It therefore means 'fowl-EATER', not 'EATING bird' — the compound is object + verbal noun, and Mo'in states it flatly: «مرغ‌خوار». I rendered pdf p.147 at 200 dpi: the printed page really shows 'xarka-asa : eating bird', so the extraction is faithful and the error is Nourai's own (probably a compositor's loss of the first syllable ka(h)- of kahrka-).",
+     "derivation_fa": "این جعبه سه واژه دارد و وضع هر سه فرق می‌کند. نخست، adâiti واقعی است: پوکورنی در ص ۲۸۷ آن را «صیغهٔ التزامیِ سوم‌شخص مفرد اوستایی» از ریشهٔ *h₁ed- می‌آورد؛ یعنی «بخورد»، نه مصدر. باید توجه داشت که فعل معمولِ «خوردن» در اوستا xᵛar- است و بارتولومه در ستون ۵۵ فرهنگ خود فقط ad- به معنی «گفتن» را آورده است؛ پس این ریشه در اوستا تنها به‌صورت پراکنده (همین صیغه و در ترکیب‌ها) مانده است. دوم، asa صفتِ پایانِ ترکیب است به معنای «خورنده»، نه اسم به معنای «خوراک»؛ معین هم آن را «خورنده» معنی کرده است. سوم، «xarka-asa» غلط چاپیِ کتاب است: صورت درست اوستایی kahrkāsa- «کرکس» است، مرکب از kahrka- «کرک، مرغ» و āsa- «خورنده»، یعنی «مرغ‌خوار» و نه «پرندهٔ خورنده»؛ خودِ نورایی در ص ۲۲۷ کتاب kahrkatât می‌نویسد. تصویر صفحهٔ چاپی را دیدم: در کتاب هم «xarka-asa» چاپ شده، پس خطا از خوانشِ اسکن نیست، خطای چاپی خودِ کتاب است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%DA%A9%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:287",
+       "status": "supports",
+       "note": "IEW 287 (POK_01.txt, \\f-page 300): 'av. 3. Sg. Konj. adäiti' — the exact form of the chart, under ed- 'essen'."
+      },
+      {
+       "ref": "BQT:44",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 255 (= printed p. 44/45; offset ≈ leaf − 210), Mo'in's footnote 5 s.v. آش: «آش — در سانسکریت aś، هم‌ریشهٔ ad بمعنی خوردن و با edo لاتینی … مانند essen آلمانی و (to) eat انگلیسی … این ریشه در چند کلمهٔ فارسی بجا مانده: کرکس، آش، ناشتا» (OCR: 'در ساسکرت ۸5 همریقة 80 بمعتی خوردن … کر کس ,آش, ناثتا'). Exactly the root and the three Persian reflexes."
+      },
+      {
+       "ref": "BQT:1624",
+       "status": "supports",
+       "note": "printed p. 1624 = BQT_v3_picofile.pdf p. 417 (pagemap), the کرکس page; Mo'in's footnote 9: «کرکس. اوستا kahrkāsa (کرکس). پهلوی kargās … کلمهٔ اوستایی مرکب از دو جزء است: kahrka (= کرک، مرغ) + āsa (خورنده)، جمعاً یعنی مرغ‌خوار». It supports the derivation but spells the first member kahrka, not Nourai's xarka, and glosses the compound 'fowl-eater', not 'eating bird'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiran. Wb. col. 456 (BRT.txt line 9245) and col. 455 (line 9238)",
+       "stance": "partial",
+       "note": "'j. kahrkāsa- m. \"Geier\" … KompA. — Komp.: *kahrka- + *āsa-; eig. …' and, s.v. kahrka-tāt-, 'vgl. ZDg. kark(u)s \"Geier\", ai. kṛkavāku- m. \"Hahn\" … kaḫḫāl- \"Hähnerfresser\", vgl. zu kahrkāsa-'. Supports the compound analysis, contradicts the form 'xarka'; and Bartholomae's col. 55 entry is 'j. ad- V. \"sagen\"' — he has no Avestan verb ad- 'to eat'."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien (HUB.txt lines 7541, 8530)",
+       "stance": "supports",
+       "note": "'kargas \"Geier\" = zd. kahrkāsa-' — twice, in the lists of np. a > i and of np. reflexes of Avestan words."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, ARY_pages.txt pdf page 401 (footnote 1 of the *ker- root)",
+       "stance": "supports",
+       "note": "«واژه‌های فارسی 'کرکس' و اوستایی KAHRKĀSA و سانسکریت KṚKAVĀKU نیز از همین واج‌ریشه آمده‌اند» — again kahrkāsa with the full first syllable."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "âš «آش»; nâštâ «ناشتا»; karkas «کرکس»",
+     "verdict": "disputed",
+     "derivation": "Two of the three words are solid, the first is not. karkas «کرکس» 'vulture' is the regular continuation of Av. kahrkāsa- through Middle Persian klkʾs /kargās/: intervocalic Old Iranian -s- is kept, the -ā- of -kāsa- shortens in New Persian, and Av. kahrka- 'hen' gives NP کرک kark, so karkas is transparently 'fowl-eater' (Hübschmann; Wiktionary s.v. کرکس, citing Horn, Justi, Lagarde, Ciancaglini; the word is already in Asadi's Garšāsp-nāma, 1066). nâštâ «ناشتا» is the privative نا nā- + āštā, a participial 'not-eaten, fasting' from the same *ad-/*aś- root (Mo'in, BQT 2099: «از: نا (نفی، سلب) + آشتا؛ هندی باستان aś, aśita (خوردن)»; cf. Skt. anāśita- 'one who has not eaten'), whence the modern noun 'breakfast' in Dari/Tajik. آش, however, is disputed: Wiktionary's first option is a Turkic loan (Proto-Turkic *aš 'food', Doerfer TMEN), noting that the derivation from *ad- leaves the long ā unexplained, and that the supposed Middle/Old Iranian ancestor is a hapax of the Vendidad which is 'claimed to be misread'; Mo'in (BQT 44) and Aryanpur do derive it from Skt. aś-/ad-. Note also that Wiktionary's ناشتا entry cites Nourai's own dictionary p.117 — i.e. this very chart — so it is not independent evidence for this node.",
+     "derivation_fa": "از سه واژهٔ این جعبه، دو تا استوار است و یکی محل بحث. «کرکس» دنبالهٔ منظمِ kahrkāsa-ی اوستایی است که از راه فارسی میانهٔ kargās (نوشتهٔ klkʾs) به فارسی نو رسیده؛ سِ میانِ دو واکه نگه داشته شده و آی کشیدهٔ -kāsa در فارسی نو کوتاه شده است، و چون kahrka- در فارسی «کرک» شده، معنای تحت‌اللفظیِ «مرغ‌خوار» هنوز آشکار است (هوبشمان؛ ویکی‌واژه به نقل از هرن، یوستی، لاگارده و چیانکالینی؛ شاهدِ گرشاسپ‌نامهٔ اسدی، ۱۰۶۶ م). «ناشتا» هم از پیشوند سلبیِ «نا» + «آشتا» (اسم مفعولِ «خورده») از همین ریشه است، چنان‌که معین در حاشیهٔ برهان قاطع ص ۲۰۹۹ می‌نویسد و سنسکریتِ anāśita- «نخورده» آن را تأیید می‌کند. اما دربارهٔ «آش» پژوهش امروزی دو دل است: ویکی‌واژه نخست وام‌گیری از ترکی (*aš «خوراک»، به پیروی از دورفر) را می‌آورد و می‌گوید کشیدگیِ آی با ریشهٔ ad- نمی‌خواند؛ در برابر، معین و آریان‌پور آن را از ریشهٔ aś/ad می‌دانند. پس این گره را باید «مورد اختلاف» شمرد. یادآوری: مدخلِ «ناشتا» در ویکی‌واژه خودِ کتاب نورایی (ص ۱۱۷، یعنی همین صفحه) را مأخذ داده و بنابراین گواهِ مستقل نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%DA%A9%D8%B3",
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%B4",
+      "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B4%D8%AA%D8%A7"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2099",
+       "status": "supports",
+       "note": "printed p. 2099 = BQT_v4_picofile.pdf p. 182 (offset −1917), the ناشتا page; Mo'in's footnote 4: «از: نا (نفی، سلب) + آشتا؛ هندی باستان aś, aśita (خوردن)؛ قس فارسی 'آش' … ریشهٔ aś از ad خوردن (قس: edo لاتینی، essen آلمانی و (to) eat انگلیسی) رك: بارتولمه». Supports nâštâ and, by cross-reference, âš."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HUB",
+       "where": "HUB.txt line 7541",
+       "stance": "supports",
+       "note": "'kargas \"Geier\" = zd. kahrkāsa-'."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, ARY_pages.txt pdf pages 401 and 491",
+       "stance": "supports",
+       "note": "p.491 (the *ed- root): «ناشتا (به چم 'خوراک نخورده')» with the note «واژهٔ فارسی 'ناشتا' از پیشوند 'نا' (نشان منفی) و ریشهٔ 'شتا' (به چم خوردن) درست شده است», the cognate list giving Latin EDO, ESSE, EDERE and Old Persian/Avestan forms; p.401 gives کرکس under the *ker- root."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss (grep 'kargas', 'āš' in HRN.txt)",
+       "stance": "silent",
+       "note": "Horn has no numbered article for آش or کرکس (his no. 79 covers only espist 'Luzerne'); the OCR yields no hit for either headword."
+      },
+      {
+       "src": "BQT",
+       "where": "BQT_v1_pages.txt leaf 255, Mo'in fn. 5 s.v. آش",
+       "stance": "supports",
+       "note": "«آش اصلاً بمعنی مطلق خوردنی است و امروزه نام غذای مخصوصی است، ولی کلمهٔ آشپز و آشپزخانه یادآور معنی اصلی آن است» — Mo'in's argument for the inherited derivation that Wiktionary/Doerfer contest."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Avestan",
+     "words": "aspa-asa",
+     "verdict": "plausible",
+     "derivation": "The idea is right, the form and the language label are not. No compound *aspa-asa- is attested in Avestan (Bartholomae has no such entry), and the second member of the alfalfa word is not -āsa- 'eating' but the -ti- abstract *-asti- 'food, eating': Watkins reconstructs Old Iranian *aspa-sti- 'horse food' = *aspa- 'horse' (PIE *h₁eḱwo-, Nourai's root Ekwos) + *-sti- from *ed- (Etymonline s.v. alfalfa), Wiktionary reconstructs Proto-Iranian *HacwaHastiš 'lucerne', lit. 'horse-food' (*Hácwah + *Hástiš < *h₁ed- + *-tis) with Old Median *aspāstiš, and Mo'in himself writes the ancestor 'aspō-asti' in Avestan and Old Persian (BQT 119), as does Aryanpur (*ASPO-ASTI Avestan, *ASPO- + ASTI Old Persian). The -ti- stem is what gives the -t of Pahlavi aspast; from 'aspa-asa' one would expect **aspās. The form is best labelled Old Iranian / Old Median rather than Avestan; the Akkadian aspastu of the Neo-Assyrian period shows the word was already current in Median cavalry usage in the 7th c. BCE.",
+     "derivation_fa": "اندیشهٔ نورایی درست است ولی صورت و برچسبِ زبان نه. در اوستا ترکیبی به شکل *aspa-asa- گواهی نشده (بارتولومه چنین مدخلی ندارد) و جزء دومِ نامِ یونجه نه -āsa- «خورنده» بلکه اسمِ مصدرِ *-asti- «خوراک» است: واتکینز صورتِ ایرانی باستانِ *aspa-sti- «خوراکِ اسب» را بازسازی می‌کند و ویکی‌واژه ایرانی آغازینِ *HacwaHastiš را (از *Hácwah «اسب» + *Hástiš از ریشهٔ *h₁ed- با پسوندِ *-tis) با صورتِ مادیِ باستانِ *aspāstiš می‌آورد؛ خودِ معین هم در حاشیهٔ برهان (ص ۱۱۹) صورتِ نیایی را aspō-asti می‌نویسد و آریان‌پور نیز *ASPO-ASTI (اوستایی) و *ASPO- + ASTI (پارسی باستان). همین پسوندِ -ti- است که «ت»ِ پایانیِ aspastِ پهلوی را توضیح می‌دهد؛ از aspa-asa باید **aspās به دست می‌آمد. پس درست‌تر آن است که این صورت را «ایرانی باستان/مادی» بنامیم نه «اوستایی». گواهِ اکدیِ aspastu در دورهٔ آشورِ نو نشان می‌دهد این واژه در سدهٔ هفتم پیش از میلاد در زبانِ سوارکارانِ ماد رایج بوده است.",
+     "sources": [
+      "https://www.etymonline.com/word/alfalfa",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/HacwaHasti%C5%A1"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:119",
+       "status": "partial",
+       "note": "BQT_v1_pages.txt leaf 332 (= printed p.119; the page ends «بقیه در صفحهٔ ۱۲۰»), Mo'in's footnote 2 s.v. اسپست: «در اوستا و پارسی باستان aspō-asti … این کلمهٔ مرکب لفظاً یعنی 'اسب می‌خورد'؛ جزء اول همان اسب است و جزء دوم از مصدر ad مطابق edo لاتینی و essen آلمانی و (to) eat انگلیسی است بمعنی خوردن». Same root and same 'horse food' reading — but Mo'in's form is aspō-asti, with the -ti- suffix, not aspa-asa. (The Latin transliterations are badly OCRed; Aryanpur prints the same reconstruction in clear type.)"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiran. Wb., grep 'aspast', 'aspāsti' in BRT.txt",
+       "stance": "silent",
+       "note": "no Avestan compound of aspa- with an 'eat' word; the only related item is 'ni. aspōstāna- n., mp. (Pü.) aspastān, arm. LW. aspastan' (line 5885), i.e. 'stable', not the fodder word."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, ARY_latin_index_pages.txt pdf page 84 (ALFALFA / ASPAST)",
+       "stance": "partial",
+       "note": "lists '*ASPO-ASTI (AVESTAN)', '*ASPO-, ASTI (OLD PERSIAN)', 'ASPAST (PAHLAVI)', 'ASVAS-ADMI (SANSKRIT)', 'ASPO-UTEM (ARMENIAN)', with REFERENCES: POKORNY, MACKENZIE (CLOVER), THE AMERICAN HERITAGE DICTIONARY (ALFALFA) — the -asti form again."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn no. 79 (HRN.txt lines 1127-1133)",
+       "stance": "supports",
+       "note": "'espist, uspust, ispist \"Luzerne\". phlv. aspast \"Luzerne\" … Wörtlich \"Pferdefutter\" von esp und √ad-, Nöldeke, ZDMG. 32, 408' — the compound analysis 'horse' + root ad- exactly as Nourai draws it."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Pahlavi",
+     "words": "aspast, aspasti",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian aspast [ʾspst] 'clover, lucerne' is the regular outcome of Old Iranian *aspa-asti-: the two a's of aspa-asti contract across the compound seam and the final -i- of the abstract is lost, as normally in MP (*aspāsti > aspast). MacKenzie's Concise Pahlavi Dictionary p.13 gives it verbatim, and the word is attested in Book Pahlavi (Xusraw ud Rēdag). The doublet 'aspasti' Nourai adds is not a separate Pahlavi form; it is the older -ti- stem (Old Median *aspāstiš) which he seems to be showing beside the shortened one, and it is exactly that -ti- that survives in the Syriac/Aramaic ʾaspastā and in Classical Persian اسپست.",
+     "derivation_fa": "فارسی میانهٔ aspast (نوشتهٔ ʾspst) «یونجه» دنبالهٔ منظمِ *aspa-asti-ی ایرانی باستان است: دو «ا» در درزِ ترکیب در هم ادغام می‌شود و «ی»ِ پایانیِ اسمِ مصدر به عادتِ فارسی میانه می‌افتد (*aspāsti > aspast). مکنزی در فرهنگ کوتاه پهلوی (ص ۱۳) همین را می‌آورد و واژه در متن‌های پهلویِ کتابی (خسرو و ریدگ) گواهی شده است. صورت دومِ «aspasti» که نورایی افزوده صورتِ جداگانه‌ای در پهلوی نیست، بلکه همان ستاکِ کهنِ -ti- (مادیِ باستان *aspāstiš) است که همان هم در «اسپستا»ی سریانی-آرامی و در «اسپست»ِ فارسی دری بازمانده است. ادعای نورایی در این گره درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/HacwaHasti%C5%A1"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:119",
+       "status": "supports",
+       "note": "Mo'in fn. 2 s.v. اسپست (BQT_v1_pages.txt leaf 332): «در پهلوی نیز aspast آمده» — with the reference «پهلوی aspast (اونوالا ۲۸۰)» in the continuation of the note on the next page."
+      },
+      {
+       "ref": "BQT:1624",
+       "status": "not_found",
+       "note": "printed p.1624 (BQT_v3 pdf 417) is the کرکس page and says nothing about aspast; the alfalfa material is at BQT 119 (and 1489 for فسفسه). The citation looks like a slip carried over from node 1."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary p.13 (PHD.txt line 219; PHD_mackenzie.txt line 1228) and the English index (PHD.txt lines 1258, 2684)",
+       "stance": "supports",
+       "note": "'aspast [ʾspst | N ~] clover, lucerne.'; index: 'clover aspast.' / 'lucerne aspast.'"
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (NYB_vol2_glossary.txt, grep 'aspast'/'spst')",
+       "stance": "silent",
+       "note": "the glossary has no aspast entry; the only 'spst' hit is a text-critical note s.v. *dēbastan (line 1267) about a manuscript reading spstyn', unrelated."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi, Persische Lehnwörter im Arabischen (PLA_asbaghi_1988_ia_djvu.txt line 2421)",
+       "stance": "supports",
+       "note": "'ʾisfist / ʾasfast: \"Luzerne, Futterpflanze\" … aus pers. اسپست aspast, MP. aspast' (with al-Muʿarrab as source) — the Middle Persian form is the etymon of the Arabic borrowings."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "aspast «اسپست (سپست)»",
+     "verdict": "confirmed",
+     "derivation": "New Persian اسپست aspast/espest 'lucerne, alfalfa' continues MP aspast unchanged; the by-form سپست sepest arises by the ordinary Persian loss of prothetic/initial a- before a consonant cluster (cf. اسپر ~ سپر), and Horn records the further variants espist, ispist, uspust with the regular raising of unstressed a > i before a sibilant that Hübschmann documents (§6: 'aspist (ispist, uspust) \"Luzerne\" = phl. aspast'). Nourai's Persian script and the Sanā'i couplet he quotes («سنبل و سوسن کجا آمد بدست از روضه‌ای / کاندرو تخم سپست و سیر و سیسنبر برند») are the ones printed in Borhān-e Qāṭeʿ p.119 with the سپست form, so the word is attested in Ghaznavid-period verse.",
+     "derivation_fa": "«اسپست» فارسی نو، دنبالهٔ بی‌تغییرِ aspastِ فارسی میانه است؛ صورتِ «سپست» از افتادنِ الفِ آغازین پیش از خوشهٔ همخوانی پدید آمده (مانندِ اسپر ~ سپر) و هرن صورت‌های espist و ispist و uspust را نیز ثبت کرده که در آن‌ها «اَ»ی بی‌تکیه پیش از سایشیِ س به «اِ/ای» بدل شده است — همان قاعده‌ای که هوبشمان در بند ۶ کتابش می‌آورد: «aspist (ispist, uspust) 'یونجه' = پهلوی aspast». بیتِ سنایی که نورایی نقل کرده همان شاهدِ برهان قاطع (ص ۱۱۹) با صورتِ «سپست» است، پس واژه در شعرِ سدهٔ ششم گواهی دارد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/HacwaHasti%C5%A1"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:119",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 332: «اسپست — بفتح اول و کسر ثالث و سکون ثانی … سپست را گویند و آن علفی است … و عربی فصفصه خوانند و تخم آنرا بذرالرطبه گویند»; the Sanā'i couplet and the سپست spelling are on the same page, and Mo'in's fn. 2 attaches the etymology to it."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss no. 79 (HRN.txt line 1127); index p.79 (line 15630)",
+       "stance": "supports",
+       "note": "'79. espist, uspust, ispist \"Luzerne\". phlv. aspast \"Luzerne\". bel. LW. aspust. Wörtlich \"Pferdefutter\" von esp und √ad-.'"
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien §6 (HUB.txt line 4465)",
+       "stance": "supports",
+       "note": "'aspist (ispist, uspust) \"Luzerne\" = phl. aspast' — cited as an instance of np. a > i before sibilants."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi (PLA djvu line 15365)",
+       "stance": "supports",
+       "note": "'fiṣfiṣa: \"Luzerne\" pers. اسپست asbast od. asfast' — the New Persian form is the source of the Arabic."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Syriac",
+     "words": "pespesta",
+     "verdict": "plausible",
+     "derivation": "The route is right, the cited form belongs one step further west. Middle Persian aspast was borrowed into Aramaic/Syriac as ʾspstʾ — Jewish Aramaic אַסְפַּסְתָּא ʾaspastā, Classical Syriac ܐܰܣܦܷܣܬܳܐ ʾaspestā 'lucerne' (Löw, Aramäische Pflanzennamen 1924; Ciancaglini, Iranian Loanwords in Syriac) — and it is that Aramaic form, not the Persian one directly, that Arabic borrowed. The shape 'pespesta' with initial p- and a reduplicated pe-…-pe- is the Coptic ⲡⲉⲥⲡⲉⲥⲧⲁ p-espesta (the Coptic masculine article ⲡ- fused to ʾespesta), which Wiktionary's descendant tree puts between Syriac ʾespestā and Arabic fiṣfiṣa and which explains why Arabic has f- and not ʾ-: Arabic has no p and substitutes f. So Nourai's node correctly records the Semitic intermediary that Mo'in asserts («از زبان پهلوی داخل سریانی و از سریانی به عربی رفت»), but the form he prints under the label 'Syriac' is the Coptic-article form; the genuine Syriac word is ʾespestā/ʾaspastā.",
+     "derivation_fa": "مسیر درست است ولی صورتی که آمده یک گام غربی‌تر است. فارسی میانهٔ aspast به آرامی و سریانی وام رفته: آرامیِ یهودی אַסְפַּסְתָּא (ʾaspastā) و سریانیِ کلاسیک ܐܰܣܦܷܣܬܳܐ (ʾespestā) «یونجه» (لِو، نام‌های گیاهیِ آرامی ۱۹۲۴؛ چیانکالینی، وام‌واژه‌های ایرانی در سریانی)، و عربی همین صورتِ آرامی را گرفته نه صورتِ فارسی را. اما شکلِ «pespesta» با «پ»ِ آغازین و تکرارِ pe-…-pe- صورتِ قبطیِ ⲡⲉⲥⲡⲉⲥⲧⲁ (p-espesta) است، یعنی همان ʾespestā با حرفِ تعریفِ مذکرِ قبطیِ ⲡ-، که ویکی‌واژه آن را حلقهٔ میانِ سریانی و عربی می‌داند و همو توضیح می‌دهد چرا عربی «ف» دارد نه همزه (عربی «پ» ندارد و آن را به «ف» بدل می‌کند). پس حلقهٔ سامیِ نمودار درست است — همان که معین می‌گوید «از زبان پهلوی داخل سریانی و از سریانی به عربی رفت» — ولی صورتی که زیرِ برچسبِ «سریانی» چاپ شده در واقع صورتِ قبطی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/HacwaHasti%C5%A1",
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B5%D9%81%D8%B5"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:119",
+       "status": "partial",
+       "note": "Mo'in fn. 2 (leaf 332) asserts the route but gives no Syriac form: «در پهلوی نیز aspast آمده، از زبان پهلوی داخل سریانی و از سریانی به عربی رفت 'فصفصه' (جمع: فصافص) شد»."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AFA",
+       "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (AFA.txt, grep 'fisfis', 'fasfas', 'Luzerne')",
+       "stance": "silent",
+       "note": "no hit for the word or for 'Luzerne' anywhere in the 600 kB OCR; Fraenkel's plant chapter apparently does not treat it (or the OCR has lost it)."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi (PLA djvu lines 2421, 15365)",
+       "stance": "partial",
+       "note": "Asbaghi routes both Arabic ʾisfist and fiṣfiṣa straight from Persian ('pers. اسپست aspast') without an Aramaic middleman, though he cites Löw among his sources — so the Semitic intermediary of the chart is not universally drawn."
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 598 (LKT.txt line 1505)",
+       "stance": "silent",
+       "note": "'Ar. faṣfaṣu \"Luzerne Medicago sativa L.\", auch fiṣfiṣa; hieraus sp. alfalfa …' — Lokotsch starts the chain at Arabic and says nothing about Syriac or Persian."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Arabic",
+     "words": "al-fesfeseh",
+     "verdict": "confirmed",
+     "derivation": "Arabic فِصْفِصَة fiṣfiṣa (also فَصْفَصَة faṣfaṣa, collective فِصْفِص fiṣfiṣ, pl. فَصَافِص faṣāfiṣ) 'lucerne, green fodder'; with the article, al-fiṣfiṣa. It is a loan from Aramaic ʾaspastā / Syriac ʾespestā (via the p-form): the Aramaic sibilant cluster is arabicised as ṣ, the p- of the Coptic/Aramaic form becomes f- (Arabic lacks p), and the result is reshaped into the native quadriliteral reduplicated pattern fiṣfiṣ, which then looks like an Arabic root f-ṣ-f-ṣ. Klein and Lokotsch both start their alfalfa chain from this word, and Asbaghi lists it as a Persian loanword in Arabic.",
+     "derivation_fa": "عربیِ «فِصْفِصَة» (و «فَصْفَصَة»، جمعِ آن «فصافص») به معنی یونجه و علفِ تازه است و با حرفِ تعریف «الفصفصة» می‌شود. این واژه از آرامیِ ʾaspastā / سریانیِ ʾespestā (از راهِ صورتِ پ‌دار) وام گرفته شده: خوشهٔ سایشیِ آرامی در عربی به «ص» بدل شده، «پ» به «ف» (چون عربی «پ» ندارد)، و سپس واژه در قالبِ رباعیِ مضاعفِ عربی (فِعْفِل: فصفص) ریخته شده تا شکلِ ریشه‌ای عربی به خود بگیرد؛ این همان چیزی است که در ریشه‌شناسیِ عامیانه آن را عربیِ اصیل می‌نماید. کلاین و لوکوچ هر دو زنجیرهٔ «آلفالفا» را از همین واژه آغاز می‌کنند و اصبغی آن را در فهرستِ وام‌واژه‌های فارسی در عربی آورده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B5%D9%81%D8%B5",
+      "https://en.wiktionary.org/wiki/alfalfa"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "Nourai gives no reference for this node; the claim is nevertheless carried by his BQT:119 citation on the neighbouring nodes (Mo'in: «از سریانی به عربی رفت 'فصفصه' (جمع: فصافص) شد»)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. alfalfa (KLN_1966.txt line 2169; KLN_1971.txt line 10963)",
+       "stance": "supports",
+       "note": "'alfalfa, n., lucerne. — Sp., fr. Arab. al-faṣfaṣah. (Cp. the collateral Sp. form alfalfez, which represents the intermediate form between Arab. al-faṣfaṣah and Sp. alfalfa.)'"
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 598 (LKT.txt line 1505)",
+       "stance": "supports",
+       "note": "'Ar. faṣfaṣu: \"Luzerne Medicago sativa L.\", auch fiṣfiṣa; hieraus sp. alfalfa, alfafe … engl. amerik. alfalfa. [DE 100/101. Eguilaz 156. ML 4002 Anm.]'"
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi p.211 area (PLA djvu line 15365)",
+       "stance": "supports",
+       "note": "'fiṣfiṣa: \"Luzerne\" pers. اسپست asbast od. asfast' (source: Muḥīṭ), and separately 'fiṣāfiṣ: Pl. v. fiṣfiṣa q. v.'"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "fesfeseh «فسفسه ، فصفصه»",
+     "verdict": "confirmed",
+     "derivation": "A genuine round trip: the Iranian word that Aramaic and then Arabic had taken over as fiṣfiṣa came back into Persian as فسفسه/فصفصه, a moʿarrab (arabicised) doublet of the inherited اسپست. Borhān-e Qāṭeʿ has the entry: «فسفسه — بفتح هر دو فا … بمعنی اسپست باشد و آن علفی است که به عربی رطبه و به ترکی یونجه گویند و فصفصه معرب آن است», i.e. the lexicographers themselves knew that فصفصه is the arabicised shape and اسپست the Persian one. The spelling with ص is the Arabic orthography, the one with س a Persian re-spelling.",
+     "derivation_fa": "این گره نمونهٔ روشنِ «رفت و برگشت» است: واژه‌ای ایرانی که از راه آرامی به عربی رفته و آنجا «فصفصة» شده، دوباره به فارسی بازگشته و به‌صورتِ «فسفسه/فصفصه» در کنارِ صورتِ موروثیِ «اسپست» نشسته است، یعنی دوگانه‌ای (doublet) که یک عضوش معرّب است. برهان قاطع خود همین را می‌گوید: «فسفسه — بفتح هر دو فا … بمعنی اسپست باشد و آن علفی است که به عربی رطبه و به ترکی یونجه گویند و فصفصه معرّب آن است». املای با «ص» صورتِ عربی است و املای با «س» بازنویسیِ فارسی. ادعای نورایی درست است، تنها شمارهٔ صفحه‌ای که داده نادرست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B5%D9%81%D8%B5"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1624",
+       "status": "not_found",
+       "note": "printed p.1624 = BQT_v3 pdf 417 is the کرکس page, which has nothing on فسفسه. The فسفسه entry is at printed p.1489 = BQT_v3 pdf 282 (BQT_v3_pages.txt line 20490): «فسفسه — بفتح هردو فا بروزن … بمعنی اسپست باشد … و فصفصه معرب آنست». Nourai's page number is off by ~135; the substance of his claim is nevertheless in Borhān."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhān-e Qāṭeʿ p.1489 (BQT_v3_pages.txt, pdf page 282)",
+       "stance": "supports",
+       "note": "quoted above: فسفسه = اسپست, «و فصفصه معرب آنست»."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi (PLA djvu line 15365)",
+       "stance": "supports",
+       "note": "'fiṣfiṣa … pers. asbast od. asfast' — the Arabic word is recognised as Persian in origin, which is what makes the Persian فصفصه a re-borrowing."
+      },
+      {
+       "src": "MON",
+       "where": "Mo'in, Farhang-e Fārsi (MON_part1/2, grep فصفصه)",
+       "stance": "silent",
+       "note": "the Persian OCR of MON yields no clean hit for فسفسه/فصفصه; Mo'in's statement is used from his Borhān footnote instead."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Spanish",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "An empty pass-through box for Spanish alfalfa (older alfalfe, alfalfez), taken over with the Arabic article agglutinated (al- + fiṣfiṣa) during the Andalusi period, like hundreds of Spanish Arabisms (alcalde, algodón). Klein points to alfalfez as the intermediate stage between Arab. al-faṣfaṣah and modern alfalfa; the -z of alfalfez renders the Arabic tāʾ marbūṭa of the pausal form. Spanish settlers carried the plant and its name to the Americas, which is where English met it — Mo'in notes exactly this: «از عربی در اسپانیایی وارد شده صورت الفلفه … اسپانیولی‌ها آن را به آمریکا بردند».",
+     "derivation_fa": "این جعبهٔ خالی حلقهٔ اسپانیایی است: alfalfa (صورت‌های کهن‌تر alfalfe و alfalfez) که در دورهٔ اندلس با حرفِ تعریفِ عربی (al- + fiṣfiṣa) یکجا وام گرفته شده، درست مانندِ صدها وام‌واژهٔ عربی در اسپانیایی (alcalde، algodón). کلاین صورتِ alfalfez را حلقهٔ میانی میانِ al-faṣfaṣah عربی و alfalfa امروزی می‌داند و «ز»ی پایانیِ آن برگردانِ تاء مربوطهٔ عربی است. اسپانیایی‌زبانان این گیاه و نامش را به آمریکا بردند و انگلیسی همان‌جا با آن آشنا شد؛ معین هم دقیقاً همین را می‌نویسد: «از عربی در اسپانیایی وارد شده … اسپانیولی‌ها آن را به آمریکا بردند».",
+     "sources": [
+      "https://en.wiktionary.org/wiki/alfalfa"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no reference given for this node; covered by Klein and Lokotsch below and by Mo'in's BQT:119 footnote."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. alfalfa (KLN_1966.txt line 2169)",
+       "stance": "supports",
+       "note": "'Sp., fr. Arab. al-faṣfaṣah. (Cp. the collateral Sp. form alfalfez …)'"
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 598",
+       "stance": "supports",
+       "note": "'hieraus sp. alfalfa, alfafe \"dass., spanischer Klee, foenum Burgundiacum\"'."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "English",
+     "words": "alfalfa",
+     "verdict": "confirmed",
+     "derivation": "English alfalfa is a 19th-century Americanism, first recorded 1845, taken from the Spanish of the south-west and of Chile (whence the crop was reintroduced to California in the 1850s); Britain kept the older name lucerne, itself from Provençal luzerno. Watkins/AHD, which Nourai cites here, files alfalfa under the Indo-European root and traces it to Old Iranian *aspa-sti- 'horse food', so the whole arc of the chart — PIE *ed- → Iranian 'horse food' → Aramaic → Arabic → Spanish → American English — is the standard account.",
+     "derivation_fa": "«alfalfa» در انگلیسی واژه‌ای آمریکایی و نو است؛ نخستین کاربردِ ثبت‌شدهٔ آن ۱۸۴۵ م است و از اسپانیاییِ جنوب‌غربِ آمریکا و شیلی گرفته شده (کشتِ این گیاه در دههٔ ۱۸۵۰ از همان راه به کالیفرنیا رسید)؛ در انگلیسیِ بریتانیا هنوز نامِ کهن‌ترِ lucerne (از پروانسالیِ luzerno) به کار می‌رود. واتکینز در پیوستِ فرهنگِ American Heritage — همان مأخذی که نورایی داده — این واژه را ذیلِ همین ریشهٔ هندواروپایی و از ایرانیِ باستانِ *aspa-sti- «خوراکِ اسب» می‌گیرد. پس کلِ کمانِ نمودار (هندواروپایی → ایرانی → آرامی → عربی → اسپانیایی → انگلیسیِ آمریکایی) روایتِ پذیرفتهٔ امروزی است.",
+     "sources": [
+      "https://www.etymonline.com/word/alfalfa",
+      "https://en.wiktionary.org/wiki/alfalfa"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins' appendix files ALFALFA under the horse word; Etymonline reports it explicitly: 'according to Watkins, the ultimate source is Old Iranian *aspa-sti- \"alfalfa, clover\", from *aspa- \"horse\" + -sti- \"food\", from PIE *ed- \"to eat\".' (The 1985 standalone reprint on disk indexes alfalfa under ekwo-, not under ed-.)"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. alfalfa",
+       "stance": "supports",
+       "note": "'alfalfa, n., lucerne. — Sp., fr. Arab. al-faṣfaṣah.'"
+      },
+      {
+       "src": "WEB",
+       "where": "Webster's New Twentieth Century Dictionary (WEB_vol1.txt, s.v. alfalfa)",
+       "stance": "supports",
+       "note": "same Spanish-Arabic derivation for the forage plant Medicago sativa; the dictionary tradition is unanimous from Lokotsch (1927) onward."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Sogdian",
+     "words": "`šp`dy",
+     "verdict": "plausible",
+     "derivation": "Gharib's Sogdian Dictionary p.70, entry 1767, does have the word Nourai transcribes (his ` renders aleph, his d the letter δ): 'ʾšpʾδy S — (ə)špăδč ? ©Pers. āš ? — part, portion ?, bowl ?' with the Persian gloss «قسمت، جزء ؟، کاسه، ظرف ؟» and the attestations Frag. Len. 60, 8; 69, 28-33. Two things follow. Gharib does connect it with Persian āš, which is why Nourai hangs it under this root, so the placement is his source's own suggestion. But every element of the entry carries a question mark — reading, gloss and etymology alike — and the gloss is 'part, portion; bowl', not 'food, dish': 'dish' is defensible for کاسه/ظرف 'bowl, vessel', 'food' is Nourai's extension of 'portion'. Given that the Persian anchor āš is itself disputed (node 2), the node can be no better than plausible.",
+     "derivation_fa": "در فرهنگِ سغدیِ بدرالزمان قریب، ص ۷۰، مدخلِ ۱۷۶۷ همان واژه‌ای هست که نورایی آورده (علامتِ ` در نوشتهٔ او همان الف/همزه و d همان ذال است): «ʾšpʾδy، خوانشِ (ə)špăδč ؟، © فارسیِ āš ؟، معنی: قسمت، جزء ؟، کاسه، ظرف ؟» با شاهدهای Frag. Len. ۶۰ و ۶۹. از این دو نکته برمی‌آید: نخست آنکه خودِ قریب این واژه را با «آش» فارسی سنجیده، پس جای‌دادنِ آن زیرِ این ریشه پیشنهادِ مأخذِ نورایی است نه ابداعِ او؛ دوم آنکه قریب بر سرِ هر سه چیز — خوانش، معنا و ریشه — علامتِ پرسش گذاشته و معنایی که داده «قسمت، جزء، کاسه» است نه «خوراک، خورش»: برگردانِ «dish» برای «کاسه/ظرف» رواست ولی «food» افزودهٔ نورایی است. چون تکیه‌گاهِ فارسیِ این گره («آش») خود محلِ اختلاف است، این گره بیش از «با احتیاط پذیرفتنی» نمی‌تواند بود.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "SOD:70",
+       "status": "partial",
+       "note": "Gharib, Sogdian Dictionary, printed p. 70 = leaf n135 of archive.org/details/SogdianDictionary, entry 1767 (SOD.txt line 19252; the hačeks are lost in the OCR, so I read the scan and saved the transcript to data/verification/sources/refs/ocr/SOD/70.vision.txt): «1767 ʾšpʾδy S — (ə)špăδč ? ©Pers. āš ? — part, portion ?, bowl ? — Frag. Len. 60, 8, 69, 28-33; S W, BAI 1990, 286». Right page, right word, and Gharib herself compares Persian āš; but the gloss is not 'food, dish' and everything is queried."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "Gharib p.70 no.1767 (image n135, transcript saved locally)",
+       "stance": "partial",
+       "note": "see the quotation above; note also that Gharib's neighbouring entries 1768 ʾšpʾyr, 1769 ʾšpn- show the same ʾšp- spelling, so the reading of the consonants is not in doubt, only the interpretation."
+      },
+      {
+       "src": "ISS_alt_DKS",
+       "where": "Bailey, Dictionary of Khotan Saka (grep 'spady', 'aspast')",
+       "stance": "silent",
+       "note": "no Khotanese counterpart of the word turns up; Bailey's entries under āś-/ad- do not cite the Sogdian form."
+      },
+      {
+       "src": "HENNING",
+       "where": "Henning, Selected Papers (HENNING_selected_papers.txt, grep 'špʾδ')",
+       "stance": "silent",
+       "note": "no discussion of the word in the OCR of the Selected Papers."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Germanic",
+     "words": "it-an; tanth-uz, tunth-sk",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *etan- 'to eat' is the thematised continuation of the athematic present of *h₁ed-, with Grimm's law leaving initial e- and medial -t- < *-d- (Gothic itan, Old Norse eta, Old Saxon/Old English etan, Old High German ezzan, the last with the High German consonant shift t > ʒʒ). The tooth words descend not from the verb but from its old participle *h₁dónt- 'biting': o-grade *dont- > Gmc *tanþuz (Gothic tunþus, OE tōþ) with Grimm d > t and the regular ON/West-Germanic development -anþ- > -āþ-; the zero grade *dn̥t- gives Gmc *tunþ-sk- in OE tūsc/tūx. Nourai's 'tanth-uz, tunth-sk' are exactly Watkins' *tanthuz and *tunth-sk-, and his gloss 'eater' for them is the etymological sense of the participle. Watkins puts them under a separate headword dent-, but says in so many words that it is 'originally participle of ed- in the earlier meaning \"to bite\"' and files it '[In Pok. ed- 287]', so Nourai's decision to draw one root is Watkins' own analysis.",
+     "derivation_fa": "ژرمنیِ آغازینِ *etan- «خوردن» دنبالهٔ ستاکِ بی‌میانجیِ *h₁ed- است که در ژرمنی به ستاکِ میانجی‌دار بدل شده؛ بر پایهٔ قانونِ گریم، «د»ی هندواروپایی به «ت» بدل شده و از این‌رو گوتیِ itan، نورسِ کهنِ eta، انگلیسیِ کهنِ etan و آلمانیِ علیای کهنِ ezzan (با جابه‌جاییِ دومِ همخوان‌ها) داریم. اما واژه‌های «دندان» نه از فعل، بلکه از اسمِ فاعلِ کهنِ *h₁dónt- «گازگیرنده» آمده‌اند: درجهٔ o یعنی *dont- در ژرمنی *tanþuz شده (گوتی tunþus، انگلیسی کهن tōþ) و درجهٔ صفر یعنی *dn̥t- صورتِ *tunþ-sk- را داده که انگلیسیِ کهنِ tūsc/tūx «دندانِ نیش» از آن است. صورت‌های «tanth-uz» و «tunth-sk» در نمودار عیناً همان صورت‌های واتکینز است و معنایی که نورایی داده («خورنده») همان معنای ریشه‌ایِ اسمِ فاعل است. واتکینز این‌ها را زیرِ سرواژهٔ جداگانهٔ dent- آورده، اما خود می‌نویسد «در اصل اسمِ فاعلِ ed- به معنای کهنِ گاز گرفتن» و ارجاعش را «[در پوکورنی ذیلِ ed- ص ۲۸۷]» می‌دهد؛ پس یکی‌کردنِ این دو شاخه در نمودار، تحلیلِ خودِ واتکینز است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 p.417: 'ed- … 1. Germanic *etan in: a. Old English etan, to eat: EAT; b. Old High German ezzen … ETCH; c. Middle Dutch eten … d. Germanic compound *fra-etan … OE fretan: FRET'; and s.v. dent-: '1. O-grade form *dont- in Germanic *tanthuz in Old English toth: TOOTH. 2. Zero-grade form *dnt- perhaps in Germanic *tunth-sk- in Old English tūsc, tūx, canine tooth: TUSK. … [In Pok. ed- 287.]' — Nourai's forms letter for letter."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 287-288 (POK_01.txt \\f-page 300)",
+       "stance": "supports",
+       "note": "'got. themat. itan (Perf. 1. Pl. etum, ahd. āzum …), anord. eta, as. ags. etan, engl. eat, afries. ita, ahd. ezzan \"essen\" … mit Präfix fra-: got. fra-itan \"aufzehren\" … kaus. got. fra-atjan … ahd. azzen, ezzen \"zu essen geben\", nhd. ätzen'; and the headword line already lists 'edont-, dont-, dnt- \"Zahn\"'."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny I 118-119",
+       "stance": "supports",
+       "note": "'Thematisch got. itan, an. eta, as. ags. etan, ahd. eʒʒan „essen“' in the same article as the tooth derivatives."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. eat, tooth, tusk",
+       "stance": "supports",
+       "note": "Klein derives eat from OE etan, Gmc *etan, and tooth from OE tōþ, Gmc *tanþ-, both from the same IE base *ed-."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "English",
+     "words": "eat, etch; tooth, tusk",
+     "verdict": "confirmed",
+     "derivation": "eat < ME eten < OE etan, the direct inheritance. etch is a 17th-century artists' term borrowed from Dutch etsen, itself from German ätzen 'to corrode' < MHG etzen < OHG azzōn 'to feed, bait', the causative *atjan of ezzan 'to eat' — i.e. 'to make (the acid) eat', so it belongs to the root by way of a causative, not by inheritance into English; Nourai's arrow is right but the route is Dutch/German, not native. tooth < OE tōþ (pl. tēþ) < Gmc *tanþuz with loss of n before þ and compensatory lengthening; tusk < OE tūsc/tūx, a metathesised by-form of the same *tunþ-sk-. All four are Watkins' own English glosses under ed- and dent-.",
+     "derivation_fa": "«eat» از انگلیسیِ میانهٔ eten و انگلیسیِ کهنِ etan، یعنی میراثِ مستقیم. اما «etch» وام‌واژه‌ای است از سدهٔ هفدهم از هلندیِ etsen که خود از آلمانیِ ätzen «خوردن/سوزاندنِ فلز با تیزاب» آمده و آن از آلمانیِ علیای کهنِ azzōn «خوراندن»، یعنی صورتِ سببیِ *atjan از ezzan «خوردن»؛ پس معنای اصلیِ حکاکیِ اسیدی «خوراندنِ فلز به تیزاب» است و پیوندِ آن با ریشه از راهِ فعلِ سببی و وام‌گیری است نه وراثت. «tooth» از انگلیسی کهنِ tōþ (جمع tēþ) از ژرمنیِ *tanþuz است، با افتادنِ «ن» پیش از «ث» و کشیده‌شدنِ واکه در جبرانِ آن؛ و «tusk» از انگلیسیِ کهنِ tūsc/tūx، صورتِ قلب‌شدهٔ همان *tunþ-sk-. هر چهار واژه در پیوستِ واتکینز ذیلِ ed- و dent- آمده‌اند. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. ed- gives EAT and ETCH; s.v. dent- gives TOOTH and TUSK — the four English words of this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. etch (KLN_1966.txt line 13712; KLN_1971.txt line 85951)",
+       "stance": "partial",
+       "note": "'etch, tr. and intr. v., to engrave with acid. — Du. etsen, \"to etch\", fr. G. ätzen, \"to corrode\", fr. MHG. etzen, fr. OHG. azzōn, prop. \"to feed, bait\", causative of eʒʒan, \"to eat\". See eat.' Same root, but through Dutch and German rather than by native descent."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. eat, tooth, tusk (SKT.txt)",
+       "stance": "supports",
+       "note": "Skeat gives eat < AS. etan, cognate with Lat. edere, Gk. edein, Skt. ad; tooth < AS. tōð, Lat. dens, dentis."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "Latin",
+     "words": "ed-ere; dent",
+     "verdict": "confirmed",
+     "derivation": "Latin edō, ēsse (later edere), ēdī 'to eat' continues the athematic present *h₁ed-mi/*h₁és-ti almost intact — ēst 'he eats' is the direct match of Skt. átti and Hittite ēzzi, and the long ē of ēsse is either inherited or Lachmann-lengthened (Walde-Pokorny I 118 discusses both). dēns, gen. dentis 'tooth' is the full grade *dent- of the same participle *h₁dónt-, with the regular Latin loss of the initial laryngeal-plus-e; the stem dent- is what surfaces in all the derived vocabulary. Both are Watkins' Latin entries under ed- and dent-, and Nourai's citation 'AHD' is exactly right for them.",
+     "derivation_fa": "لاتینِ edō، ēsse (بعدها edere)، ēdī «خوردن» ستاکِ بی‌میانجیِ *h₁ed-mi/*h₁és-ti را تقریباً دست‌نخورده نگه داشته است: ēst «می‌خورد» عیناً برابرِ átti سنسکریت و ēzzi هیتی است، و «ē»ی کشیدهٔ ēsse یا کهن است یا برآمده از قاعدهٔ لاخمان (والده-پوکورنی جلد ۱ ص ۱۱۸ هر دو رأی را می‌آورد). dēns با ستاکِ dent- «دندان» درجهٔ کاملِ همان اسمِ فاعلِ *h₁dónt- است، با افتادنِ حنجریِ آغازین در لاتین؛ همین ستاکِ dent- است که در همهٔ مشتق‌ها پیدا می‌شود. هر دو واژه در پیوستِ واتکینز ذیلِ ed- و dent- آمده‌اند، پس ارجاعِ نورایی به AHD درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "'2. Latin edere, to eat: EDACIOUS, EDIBLE, ESCAROLE, ESCULENT, ESURIENT; COMEDO, COMESTIBLE, OBESE' (s.v. ed-) and '3. Full-grade form *dent- in Latin dēns (stem dent-), tooth: DENTAL, DENTATE, DENTI-, DENTICLE …' (s.v. dent-)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 287 (POK_01.txt \\f-page 300)",
+       "stance": "supports",
+       "note": "'lat. edō, ēs, ēst usw. \"essen\" (Länge des e entweder alt oder nach der sog. Lachmannschen Regel zu erklären …); Perf. ēdī, osk. Infin. edum'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 5.11 (SYN.txt line 8318 ff.)",
+       "stance": "supports",
+       "note": "'Lat. ēsse, late edere, Osc. edum' under 'IE *ed-. Walde-P. 1.118'."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny I 118",
+       "stance": "supports",
+       "note": "'lat. edo, es, est usw. „essen“ … osk. Inf. edum'."
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "lang": "English",
+     "words": "edible; dental, denture",
+     "verdict": "confirmed",
+     "derivation": "All three are Latinate, entering English through learned channels rather than by descent. edible (1590s) is Late Latin edibilis 'eatable', from edere. dental is Medieval/New Latin dentālis, from dēns, dentis, first used of the teeth in the 16th century and of speech sounds soon after. denture is a 19th-century borrowing from French denture 'set of teeth', formed on French dent < Latin dēns with the suffix -ure (< Latin -ūra). Watkins lists EDIBLE under ed- and DENTAL under dent-, which is Nourai's chart exactly, although he gives no reference on this box.",
+     "derivation_fa": "هر سه واژه از راهِ لاتین و به‌صورتِ وامِ فرهیخته وارد انگلیسی شده‌اند، نه از راهِ وراثت. «edible» (حدود ۱۵۹۰ م) از لاتینِ متأخرِ edibilis «خوردنی» از edere است؛ «dental» از لاتینِ میانه/نوِ dentālis از dēns, dentis که نخست در سدهٔ شانزدهم دربارهٔ دندان و اندکی بعد دربارهٔ آواهای دندانی به کار رفت؛ و «denture» وامِ سدهٔ نوزدهم از فرانسویِ denture «دست‌دندان» است که خود از dentِ فرانسوی (< dēns لاتین) با پسوندِ -ure (< -ūra لاتین) ساخته شده. واتکینز EDIBLE را ذیلِ ed- و DENTAL را ذیلِ dent- می‌آورد، یعنی همان چیزی که نمودار نشان می‌دهد؛ هرچند نورایی برای این جعبه هیچ مأخذی نداده است. ادعای او درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no reference on this node; the chain is covered by the AHD citation of the parent Latin box and by Klein below."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. edible and denture (KLN_1966.txt lines 12639, 10879)",
+       "stance": "supports",
+       "note": "'edible, adj. — Late L. edibilis, \"eatable\", fr. L. edere, \"to eat\". See eat and cp. comedo, comestible, esculent, obese.' and 'denture, n., a set of teeth, esp. a set of false teeth. — F., fr. dent, \"tooth\". See dent … and -ure.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. ed- and dent-",
+       "stance": "supports",
+       "note": "EDIBLE listed under ed-; DENTAL, DENTATE, DENTI-, DENTICLE under dent-."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
