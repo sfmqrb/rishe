@@ -1,0 +1,547 @@
+{
+ "pdf_page": 219,
+ "book_page": 189,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-06",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Habl",
+   "verdict": "disputed",
+   "modern_form": "Proto-Semitic *ḥabl- 'rope, cord' (> Arabic ḥabl, Hebrew ḥeḇel, Aramaic ḥablā, Ethiopic ḥabl)",
+   "note": "The word is real and the gloss 'rope' is right, but the LANGUAGE LABEL is wrong as drawn: Aramaic ḥablā is a sister form, not the source. Arabic ḥabl is inherited from Proto-Semitic *ḥabl- and has a full native verbal root ḥ-b-l 'to bind' (ḥabala 'he bound'), so it cannot be an Aramaism. Klein — the source Nourai leans on for the rest of this chart — is explicit that Arab. habl is only 'rel. to' Heb. hebhel, Ethiop. habal, Akkad. nahbalu and Aram. habhla. The whole downstream branch (Portuguese > French > English 'cable') is Klein's minority reconstruction; AHD, Etymonline and Wiktionary derive 'cable' from Late/Medieval Latin capulum < capere, with no Semitic element (Nourai's own note on the Portuguese box says as much).",
+   "note_fa": "ریشهٔ ادعایی «آرامی ḥabl» درست‌نما نیست. واژهٔ عربی «حَبل» میراثی از سامی آغازین *ḥabl- است و ریشهٔ فعلی زندهٔ «ح‌ب‌ل» (حَبَلَ «بست») در خود عربی دارد؛ صورت آرامی ḥablā و عبری ḥeḇel هم‌ریشه (cognate) اند نه خاستگاه. کلاین نیز تنها می‌گوید عربی ḥabl «مرتبط است با» آرامی ḥablā. بنابراین برچسب زبانیِ جعبهٔ ریشه باید «سامی آغازین» باشد، نه «آرامی»؛ ادعای نورایی در این بخش پذیرفتنی نیست. شاخهٔ پرتغالی←فرانسه←انگلیسیِ cable نیز دیدگاه اقلیِ کلاین است و فرهنگ‌های امروزی (AHD، اتیمانلاین، ویکی‌واژه) آن را از لاتینی capulum «کمند، افسار» مشتق می‌دانند.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%84",
+    "https://en.wiktionary.org/wiki/cable",
+    "https://www.etymonline.com/word/cable"
+   ],
+   "ref_check": [
+    {
+     "ref": "VDQ:176",
+     "status": "not_checked",
+     "note": "VDQ = Badre'i's Persian translation of Jeffery's Foreign Vocabulary of the Qur'an; the only copy (noorlib.ir/book/view/12868) is a JavaScript viewer that WebFetch/curl cannot read. Checked the ORIGINAL instead: grep -n -i 'habl' data/verification/sources/refs/FVQ.txt and grep -c 'حبل' FVQ.txt return no ḥabl entry at all (only the name 'adh-Dhahabi'), i.e. Jeffery does not list ḥabl among the Qur'anic foreign words — which makes an 'Aramaic origin' claim on his authority hard to sustain."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "1966 ed., scan leaf 126 = printed pp. 218-219, s.v. 'cable'",
+     "stance": "partial",
+     "note": "'Arab. habl is rel. to habala, \"he bound\", Heb. hebhel, \"rope, cord\", Ethiop. habal, \"rope\", habala, \"he bound\", Akkad. nahbalu, \"rope, snare\", Aram. habhla, \"cord, rope\"' — cognates, NOT a derivation from Aramaic."
+    },
+    {
+     "src": "AFA",
+     "where": "Fraenkel pp. 93-94, the chapter 'Wir kommen nun zu den Stricken, Seilen und Riemen'",
+     "stance": "silent",
+     "note": "Fraenkel's rope chapter does declare several Arabic rope-words Aramaic loans ('Dass ... \"Strick\" aus ... entlehnt ist, haben schon die Araber erkannt (Ḳāmūs)'), but the OCR renders every Arabic word as garbage glyphs, so ḥabl could not be located there in transliteration; ḥabl is in any case not one of the standard Aramaisms, having a native verbal root."
+    },
+    {
+     "src": "LKT",
+     "where": "no. 766",
+     "stance": "partial",
+     "note": "'Ar. habl: \"Seil\"; hieraus mlat. capulum \"Fangseil\", frz. câble, sp. cablo \"Ankertau\", engl. cable, ndl. kabel, dtsch. Kabel' — Lokotsch treats habl as ARABIC (not Aramaic) and as the source of the European words."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "habl",
+     "verdict": "disputed",
+     "derivation": "Arabic حَبْل ḥabl 'rope, cable' (pl. ḥibāl, ʔaḥbul, ḥubūl) is genuine and Qur'anic (Q 50:16 min ḥabli l-warīd 'nearer than the rope of his jugular vein'; Q 3:103 ḥabl Allāh), but the arrow drawn here — Aramaic > Arabic — is not what the sources say. Wiktionary derives it from Proto-Semitic *ḥabl-, i.e. inherited; the Arabic root ḥ-b-l is fully productive in Arabic itself (ḥabala 'he bound', ḥabbāl 'rope-maker'), which is the standard test against a loan. Klein, whom Nourai cites, lists Aram. ḥablā, Heb. ḥeḇel, Ethiopic ḥabl and Akkadian naḫbalu as RELATED forms of the same Semitic base, not as ancestors. The correct picture: Proto-Semitic *ḥabl- > Arabic ḥabl, and independently > Aramaic ḥablā, Hebrew ḥeḇel.",
+     "derivation_fa": "«حَبْل» عربی به معنی «ریسمان، طناب» واژه‌ای اصیل و قرآنی است (سورهٔ ق، آیهٔ ۱۶: «مِن حَبلِ الوَرید»؛ آل‌عمران ۱۰۳: «حَبلُ الله»)، و جمع‌های حِبال و أَحبُل و حُبول دارد. اما پیکانِ «آرامی ← عربی» با پژوهش امروزی نمی‌خواند: ویکی‌واژه آن را میراثی از سامی آغازین *ḥabl- می‌داند، و ریشهٔ ح‌ب‌ل در خود عربی زایاست (حَبَلَ «بست»، حَبّال «ریسمان‌باف») که نشانهٔ وام‌واژه‌نبودن است. کلاین هم آرامی ḥablā و عبری ḥeḇel و اکدی naḫbalu را «هم‌ریشه» می‌شمارد نه نیا. پس درست آن است که سامی آغازین *ḥabl- هم به عربی حَبل و هم جداگانه به آرامی ḥablā رسیده باشد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%84",
+      "https://en.wiktionary.org/wiki/cable"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:216",
+       "status": "partial",
+       "note": "The entry is on scan leaf 126 of KLN_1966 = printed pp. 218-219 (Nourai's '216' is 2-3 pages off). It reads: 'Arab. habl is rel. to habala, \"he bound\", ... Aram. habhla, \"cord, rope\"'. Klein gives Arabic ḥabl 'rope, cable' exactly as glossed here, but he makes Aramaic a cognate, not the parent — so the page supports the word and its gloss, not the Aramaic arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 ed. pp. 218-219 s.v. cable",
+       "stance": "partial",
+       "note": "gives 'Arab. habl, \"rope, cable\"' verbatim (Nourai's gloss is copied from here) but only 'rel. to' the Aramaic."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 766",
+       "stance": "supports",
+       "note": "'Ar. habl: \"Seil\"' — Lokotsch's headword is Arabic, confirming the word and meaning."
+      },
+      {
+       "src": "RCH",
+       "where": "Richardson-Johnson col. (grep 'habl')",
+       "stance": "partial",
+       "note": "grep of RCH.txt finds only 'habl (from ...) Making a treaty. Finding security.' i.e. a different ḥ-b-l derivative; the plain noun is not separately etymologised there."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "habl «حَبل»",
+     "verdict": "confirmed",
+     "derivation": "Persian حَبل ḥabl 'rope' is a straightforward literary Arabic loan, taken over after the Islamic conquest with no change of form or meaning; it stays a bookish word beside native رسن rasan and ریسمان rismān. Mo'in's Farhang tags it '[ع.]' (= Arabic): 'حبل [ع.] (اِ.) ریسمان، رشته، بند؛ ج. ...'. Nourai's Saʿdi couplet (کله دلو کرد آن پسندیده کیش / چو حبل اندر آن بست دستار خویش, Būstān) is a genuine 7th/13th-c. attestation of the loan. The printed page (pdf p. 219) shows «حَبل» with plain ḥāʾ, matching the JSON.",
+     "derivation_fa": "«حَبل» در فارسی وام‌واژه‌ای عربی است که پس از اسلام و بی‌هیچ دگرگونی آوایی یا معنایی به کار رفته و همواره واژه‌ای ادبی و کتابی در کنار «رسن» و «ریسمان» فارسی مانده است. معین در فرهنگ فارسی آن را با نشانِ «[ع.]» می‌آورد: «حبل [ع.] (اِ.) ریسمان، رشته، بند». بیت سعدی که نورایی گواه آورده («کله دلو کرد آن پسندیدهکیش / چو حبل اندر آن بست دستار خویش») شاهدی درست از سدهٔ هفتم هجری است. ادعای نورایی در این گره درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%84"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:89",
+       "status": "not_checked",
+       "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989); refs_online.json records that no digital copy exists on archive.org, ketabnak or noorlib (re-searched 2026-09) — catalogue record only."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part2/part1 line 52392 (2-vol Adena abridgement)",
+       "stance": "supports",
+       "note": "'حبل: [ع.] (اِ.) ریسمان، رشته، بند؛ ج. ...' — Mo'in marks the Persian word explicitly as an Arabic loan meaning 'rope'."
+      },
+      {
+       "src": "RCH",
+       "where": "Richardson-Johnson, Persian-Arabic-English (grep 'habl')",
+       "stance": "partial",
+       "note": "the dictionary carries ḥabl among its Arabic-in-Persian entries; OCR gives only the derivative sense line, but the headword's presence confirms the loan's currency in Persian lexicography."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 pp. 218-219",
+       "stance": "silent",
+       "note": "Klein has nothing on the Persian side of the word."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Portuguese",
+     "words": "cable",
+     "verdict": "disputed",
+     "derivation": "This node reproduces Klein 1966 (pp. 218-219) exactly: 'cable, n. — ME. cable, cabel, kable, fr. F. cable, fr. Port. cable, which is a blend of Arab. habl, \"rope, cable\", and VL. cap(u)lum, \"a halter for cattle\", fr. capio, capere'. Modern scholarship rejects both halves of that. (a) There is no Portuguese *cable: Portuguese 'cable' is cabo (Wiktionary's translation table), and Portuguese is in any case an implausible transmitter for a word first recorded in English c. 1200/13th c. and in Old NORTHERN French (the Norman dialect that fed English maritime vocabulary). (b) Etymonline and Wiktionary both give the chain Late/Medieval Latin capulum 'lasso, rope, halter for cattle' (< Latin capere 'to seize', PIE *kap-) > Old Northern French cable > Middle English cable, with no Semitic ingredient. Lokotsch no. 766 does derive Medieval Latin capulum itself from Arabic habl, so Nourai's Arabic element is not an invention — but that is a 1927 minority view, and even Lokotsch has no Portuguese stage. Nourai's own NOTE (AHD and FSD derive it from Latin, see root 'Kap') records the mainstream position correctly.",
+     "derivation_fa": "این گره واژه‌به‌واژه از کلاین (چاپ ۱۹۶۶، صص ۲۱۸–۲۱۹) گرفته شده است: «cable از فرانسه، از پرتغالی cable که آمیزه‌ای است از عربی habl و لاتینی عامیانه cap(u)lum «افسار چارپا»». پژوهش امروزی هر دو بخش را رد می‌کند: نخست آنکه در پرتغالی اصلاً واژهٔ cable نیست و برابرِ آن cabo است؛ دوم آنکه اتیمانلاین و ویکی‌واژه زنجیرهٔ لاتینی capulum «کمند، افسار» (از capere «گرفتن»، هندواروپایی *kap-) ← فرانسهٔ شمالی کهن cable ← انگلیسی میانه cable را می‌دهند، بی‌هیچ عنصر سامی. لوکوچ (شمارهٔ ۷۶۶) خودِ capulum لاتینی را از «حبل» عربی می‌داند، اما آن هم دیدگاهی اقلی از ۱۹۲۷ است و در آن نیز مرحلهٔ پرتغالی وجود ندارد. یادداشت خود نورایی («AHD و FSD آن را از لاتین می‌گیرند») دیدگاه رایج را درست بازگو کرده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/cable",
+      "https://www.etymonline.com/word/cable"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:216",
+       "status": "supports",
+       "note": "Found on scan leaf 126 of KLN_1966 = printed pp. 218-219 (Nourai's page number is 2-3 low): 'fr. F. cable, fr. Port. cable, which is a blend of Arab. habl, \"rope, cable\", and VL. cap(u)lum, \"a halter for cattle\"'. The reference says exactly what the arrow says; it is the reference that is out of step with current scholarship."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 766",
+       "stance": "partial",
+       "note": "'Ar. habl: \"Seil\"; hieraus mlat. capulum \"Fangseil\", frz. câble, sp. cablo, engl. cable, ndl. kabel, dtsch. Kabel' — supports an Arabic source for the Latin word but has NO Portuguese link."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, 'Cable, a rope; see Capacious'",
+       "stance": "contradicts",
+       "note": "Skeat sends 'cable' to the Latin capere family (capacious) and gives no Semitic or Portuguese source."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins appendix, root *kap-",
+       "stance": "contradicts",
+       "note": "cable is listed under PIE *kap- 'to grasp' via Latin capere — the derivation Nourai's own note ascribes to AHD/FSD."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "French",
+     "words": "kâbl",
+     "verdict": "disputed",
+     "derivation": "The word itself is French câble 'cable, hawser' — Nourai prints it in his own Persian-style transliteration as 'kâbl' (verified on the printed page, pdf p. 219; the extraction is faithful, this is his transliteration convention, not a misprint). The FORM is real, the PARENT is not: French câble comes straight from Late Latin capulum (Wiktionary, s.v. cable / câble), and it is the Old NORTHERN French (Norman) variant cable, not central Old French chable, that reached English c. 1200 — a Portuguese intermediary is unattested. Klein's route (Port. > F.) is what Nourai is copying; it is not the modern account.",
+     "derivation_fa": "واژهٔ مورد نظر همان câble فرانسوی است؛ نورایی آن را به شیوهٔ آوانگاری فارسیِ خود «kâbl» نوشته است (صفحهٔ چاپی، پی‌دی‌اف ۲۱۹، بررسی شد؛ خطای خوانش اسکن نیست، همان شیوهٔ نگارش کتاب است). خودِ واژه درست است، اما نیای آن نه: câble فرانسوی یکراست از لاتینی متأخر capulum آمده، و همان گونهٔ نورمانی (فرانسهٔ شمالی کهن) cable بود که در حدود ۱۲۰۰ میلادی به انگلیسی رسید. میانجی‌گری پرتغالی هیچ گواهی ندارد و تنها برساختهٔ کلاین است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/cable",
+      "https://www.etymonline.com/word/cable"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:216",
+       "status": "supports",
+       "note": "KLN_1966 leaf 126 (printed pp. 218-219) s.v. cable: 'fr. F. cable, fr. Port. cable' — the Portuguese > French arrow is verbatim Klein."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 pp. 218-219",
+       "stance": "supports",
+       "note": "as quoted; Klein is the only source that inserts Portuguese between Arabic and French."
+      },
+      {
+       "src": "PHN",
+       "where": "Pihan, Dictionnaire des mots français dérivés de l'arabe/persan/turc",
+       "stance": "silent",
+       "note": "grep of PHN.txt finds no câble entry — Pihan, whose whole subject is French Arabisms, does not count câble as one."
+      },
+      {
+       "src": "DEV",
+       "where": "Devic, Dictionnaire des mots français d'origine orientale",
+       "stance": "silent",
+       "note": "no câble entry either; the standard French-orientalism dictionaries decline the Arabic etymology that Klein and Lokotsch propose."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "kâbl «کابل»",
+     "verdict": "confirmed",
+     "derivation": "Persian کابل kābl 'cable' is a 20th-century technical borrowing from French câble, brought in with electricity, telephone and telegraph — exactly as drawn. Mo'in's Farhang tags it '[فر.]' (= French): 'کابل (بْ لْ) [فر.] (اِ.) ۱- رشته‌های ضخیمی از سیم‌های تابیده شده با روکش عایق‌دار برای انتقال جریان برق، تلفن و... ۲- رشتهٔ سیم فولادی ضخیم برای بستن و بلند کردن قطعات سنگین'; the derivative کابل‌کشی is tagged '[فر. + ف.]' in the same dictionary. French -â- is rendered by Persian alef, and the final consonant cluster -bl is kept as بل. The homograph کابل Kābol (the Afghan capital) is a wholly unrelated place-name.",
+     "derivation_fa": "«کابل» در فارسی وام‌واژه‌ای فنی از سدهٔ چهاردهم هجری است که همراه برق و تلفن و تلگراف از فرانسوی câble گرفته شده — دقیقاً همان‌که نورایی کشیده است. معین آن را با نشانِ «[فر.]» می‌آورد: «کابل (بْ لْ) [فر.] (اِ.) رشته‌های ضخیمی از سیم‌های تابیده‌شده با روکش عایق‌دار…»، و مشتق «کابل‌کشی» را «[فر. + ف.]» می‌نویسد. آوای â فرانسوی با الف و خوشهٔ پایانی -bl با «بل» نمایانده شده است. «کابل» به‌عنوان نام پایتخت افغانستان واژه‌ای یکسره جداست و ربطی به این وام‌واژه ندارد.",
+     "sources": [
+      "https://abadis.ir/fatofa/%DA%A9%D8%A7%D8%A8%D9%84/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:2777",
+       "status": "supports",
+       "note": "Mo'in's entry says what the arrow says — 'کابل ... [فر.] (اِ.)' = French loan, 'cable' (read via abadis.ir's فرهنگ معین section, archived). The printed page number could not be verified: the only local Mo'in text is the 2-vol Adena abridgement (MON_part2.txt line 16805), which has its own pagination; its entry کابل‌کشی preserves the tag '[فر. ف.]'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "vajehyab/abadis فرهنگ معین s.v. کابل; MON_part2.txt line 16805-16812",
+       "stance": "supports",
+       "note": "'[فر.]' origin tag; 'کابل‌کشی: [فر. ف.] (حامص.) کشیدن سیم‌های زیرزمینی یا زیر دریایی برای برق و تلفن و تلگراف'."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Rishe-ha-ye Hend-o-Orupayi",
+       "stance": "silent",
+       "note": "a modern European technical loan is outside the scope of Aryanpur's Indo-European root dictionary; no entry."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "cable",
+     "verdict": "plausible",
+     "derivation": "English cable is first recorded c. 1200/c. 1205 as Middle English cable, cabel, kable 'large, strong rope or chain used on a ship', borrowed from Old NORTHERN French (Norman) cable — so the immediate French > English arrow as drawn is right, and the nautical sense fits the Anglo-Norman maritime channel. What is not right is the chain behind it: Etymonline and Wiktionary take Old Northern French cable from Late/Medieval Latin capulum 'lasso, rope, halter for cattle', from Latin capere 'to take, seize', PIE *kap- 'to grasp' — no Portuguese and no Arabic. The 19th-c. telegraphic senses (cable 'submarine telegraph line' 1850s, 'cabled message' 1883) are later developments of the same word. Nourai's own note ('See root Kap for another possible root') already points at the accepted etymology, which is why this node is plausible rather than disputed: the word and the proximate borrowing are correct, only the deep ancestry is Klein's minority view.",
+     "derivation_fa": "واژهٔ انگلیسی cable نخستین بار در حدود ۱۲۰۰ میلادی در انگلیسی میانه به صورت‌های cable/cabel/kable به معنی «طناب یا زنجیر ستبر کشتی» ثبت شده و از فرانسهٔ شمالی کهن (نورمانی) cable وام گرفته شده است؛ پس پیکانِ «فرانسه ← انگلیسی» درست است و معنای دریایی آن نیز با مسیر انگلونورمان می‌خواند. آنچه درست نیست، زنجیرهٔ پشت آن است: اتیمانلاین و ویکی‌واژه cable نورمانی را از لاتینی متأخر capulum «کمند، افسار» (از capere، هندواروپایی *kap-) می‌گیرند، بی‌هیچ حلقهٔ پرتغالی یا عربی. معناهای تلگرافی سدهٔ نوزدهم تحول بعدی همین واژه‌اند. چون خود نورایی در یادداشت به ریشهٔ «Kap» ارجاع داده، این گره «با احتیاط پذیرفتنی» است نه ردشده: واژه و وام‌گیری بی‌واسطه درست‌اند و تنها نیای دور جای چون‌وچرا دارد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/cable",
+      "https://www.etymonline.com/word/cable"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:216",
+       "status": "supports",
+       "note": "KLN_1966 leaf 126 = printed pp. 218-219: 'cable, n. — ME. cable, cabel, kable, fr. F. cable, ...' — Klein's English > French link is exactly Nourai's arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "Skeat, 'Cable, a rope; see Capacious'",
+       "stance": "contradicts",
+       "note": "Skeat routes cable to Latin capere, i.e. the *kap- family, not to Arabic."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins appendix s.v. *kap- 'to grasp'",
+       "stance": "contradicts",
+       "note": "cable listed among the Latin capere derivatives — Nourai's own note concedes this ('AHD and FSD drive it from Latin')."
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol. 1, s.v. cable (p. 366 region)",
+       "stance": "partial",
+       "note": "the entry is present but the column OCR is broken; per Nourai's own note FSD derives it from Latin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Haem, Haya",
+   "verdict": "confirmed",
+   "modern_form": "Avestan haya-, hya- n. 'peculiarity, characteristic behaviour' (acc. haēm), Bartholomae AiW col. 1781",
+   "note": "Both the language label and the gloss are right, and the two shapes in the root box are the same word: haya-/hya- is the stem, haēm the accusative singular that Horn quotes from Vd. 13.44 (= Westergaard 13.124), which is why Nourai heads the box 'Haem, Haya'. Bartholomae AiW s.v. haya-: 'j. haya-, hya- n. \"Eigentümlichkeit, eigentümliches Gebahren\": asti hē (sc. sūnahe) haēm yaθa ... \"er (der Hund) zeigt ein Gebahren wie ...\" V. 13.44; 45-48'. Nyberg reconstructs an Old Iranian *haiman- behind Middle Persian xēm, which accounts for the ē/ī. The root's second citation is printed 'FVS:168,179', an abbreviation that does not exist in Nourai's Table IV; the identical numbers reappear on the Persian node as 'FSF:168,179' (Noushin, Vazhe-namak), so FVS is the book's own typo for FSF — a book slip, faithfully extracted.",
+   "note_fa": "برچسب زبانی و معنای جعبهٔ ریشه هر دو درست است و دو صورتِ آن یک واژه‌اند: haya-/hya- ستاک است و haēm صورت راییِ مفرد که هرن از وندیداد ۱۳٫۴۴ (وسترگارد ۱۳٫۱۲۴) نقل کرده، و از همین رو نورایی سرِ جعبه را «Haem, Haya» نوشته است. بارتولومه در فرهنگ ایرانی باستان (ستون ۱۷۸۱) می‌آورد: «haya-, hya- (خنثی) «ویژگی، رفتار ویژه»». نیبرگ برای فارسی میانهٔ xēm صورت ایرانی باستان *haiman- را بازسازی می‌کند که کشیدگی ē/ī را توضیح می‌دهد. ارجاع دوم جعبهٔ ریشه «FVS:168,179» چاپ شده که چنین اختصاری در فهرست منابع نورایی نیست؛ همان شماره‌ها در گرهٔ فارسی «FSF:168,179» (واژه‌نامک نوشین) آمده، پس FVS خطای چاپی خود کتاب است، نه خطای خوانش اسکن. ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D9%85"
+   ],
+   "ref_check": [
+    {
+     "ref": "HRN:114",
+     "status": "supports",
+     "note": "HRN.txt scan leaf 136 = printed p. 114, entry 516: 'χīm \"Naturanlage, Charakter\", vergl. bedχīm, dušχīm, duzχīm ... aw. vergl. haya-, haēm vd. 13 (124), pancō.hya- (Geldner, KZ. 30, 514 Note 1); phlv. χēm bezw. χīm ..., huχīm ..., dušχēm'. This is precisely the root box: Avestan haya-/haēm."
+    },
+    {
+     "ref": "FVS:168,179",
+     "status": "not_found",
+     "note": "'FVS' is not defined in Nourai's Table IV (refs_online.json flags it as 'probably a typo'). The same page numbers appear on the Persian node as FSF:168,179 = Noushin's Vazhe-namak, where خیم and دژخیم do occur — so FVS is a misprint for FSF in the book itself."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "BRT",
+     "where": "AiW col. 1781, s.v. haya-",
+     "stance": "supports",
+     "note": "'j. haya-, hya- n. \"Eigentümlichkeit, eigentümliches Gebahren\": asti hē haēm yaθa .. V. 13. 44; -- aiti sē hayaiti yaθa .. V. 13. 45-48' — both shapes of Nourai's root box, with the right gloss."
+    },
+    {
+     "src": "NYB",
+     "where": "Manual of Pahlavi II, glossary s.v. xēm",
+     "stance": "supports",
+     "note": "'xēm [hym] nature, disposition, temper 90.18,19,23 ... Cf Av. (1781) haya-, hya- \"peculiarity\"; hence OIr *haiman- or the like. Paz. NP xīm.'"
+    },
+    {
+     "src": "HUB",
+     "where": "Persische Studien p. 141 (§29, the ap. ai = np. ē list)",
+     "stance": "supports",
+     "note": "'xīm \"Charakter\", duzxīm, dušxīm \"von schlechtem Charakter\", paz. dušxīm Mīn. Gl. 68, arm. dixem \"schlecht\"' — Hübschmann files xīm among the words whose ī goes back to an old diphthong ai, exactly what Av. haēm requires."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Pahlavi",
+     "words": "xîm",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian xēm (Book Pahlavi <hym>) 'nature, character, disposition' continues an Old Iranian *haiman-/*haima- built on the Avestan stem haya-/hya-; the Avestan accusative haēm shows the diphthong that regularly yields Middle Persian ē (and New Persian ī), and the initial h- appears in Book Pahlavi's <h> grapheme, which MacKenzie and Nyberg both transcribe x- in this word (compare Pāzand dušxīm, Armenian loan dixem). MacKenzie p. 94: 'xēm [hym] nature, character'; the compounds hu-xēm 'of good character' (PHD p. 45) and duš-xēm / wad-xēm 'evil-natured, ill-natured' show the word was fully productive in Pahlavi. Nyberg cites it from the Mēnōg ī Xrad (90.18,19,23) and derives it 'from OIr *haiman- or the like' — Nourai's arrow exactly.",
+     "derivation_fa": "فارسی میانهٔ xēm (در پهلوی کتابی <hym>) به معنی «خوی، سرشت، منش» دنبالهٔ صورتی ایرانی باستان *haiman-/*haima- است که بر ستاک اوستایی haya-/hya- ساخته شده؛ دوواکهٔ ai در صورت راییِ اوستایی haēm همان است که در فارسی میانه به ē و در فارسی نو به ī بدل می‌شود. مکنزی در فرهنگ کوچک پهلوی (ص ۹۴) می‌آورد: «xēm [hym] خوی، منش»، و ترکیب‌های hu-xēm «نیک‌خوی» (ص ۴۵) و duš-xēm / wad-xēm «بدخوی» نشان می‌دهد واژه در پهلوی زایا بوده است. نیبرگ آن را از مینوی خرد (۹۰:۱۸،۱۹،۲۳) گواه می‌آورد و از «*haiman- ایرانی باستان» می‌گیرد — همان چیزی که نورایی کشیده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "PHD:94",
+       "status": "supports",
+       "note": "Exact hit. PHD_mackenzie.txt line 5554, form-feed leaf 115 = printed page 94 (MacKenzie's offset: leaf = printed + 21): 'xēm [hym] nature, character.' The gloss 'temper, nature' in the chart is MacKenzie's."
+      },
+      {
+       "ref": "HRN:114",
+       "status": "supports",
+       "note": "HRN leaf 136 = printed p. 114, no. 516: 'phlv. χēm bezw. χīm (vd. 13 (124), 5 (117) Gl.), huχīm ..., dušχēm' — Horn gives the Pahlavi stage with both vowel spellings."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie p. 94 (xēm); p. 45 (hu-xēm); s.v. duš-, wad-",
+       "stance": "supports",
+       "note": "'xēm [hym] nature, character'; 'hu-xēm [hwhym] of good character, good-natured'; 'duš-xēm [-hym] evil-natured'; 'wad-xēm [-hym] ill-natured'."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II p. (glossary) s.v. xēm",
+       "stance": "supports",
+       "note": "'xēm [hym] nature, disposition, temper 90.18,19,23 ... Cf Av. (1781) haya-, hya- \"peculiarity\"; hence OIr *haiman- or the like.'"
+      },
+      {
+       "src": "BRT",
+       "where": "AiW col. 1781",
+       "stance": "supports",
+       "note": "provides the Avestan etymon haya-/haēm that both PHD and NYB point back to."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "xîm «خیم»; dožxîm «دژخیم»",
+     "verdict": "confirmed",
+     "derivation": "New Persian خیم xīm 'temper, nature, disposition' continues Middle Persian xēm with the regular NP raising of MP ē to ī (as in šēr > šīr, bēm > bīm — Hübschmann files xīm precisely in that class). It is an archaic, mainly Ferdowsian word: Nourai's line دگر خوی را آنک خوانیم خیم / که با او ندارد دل از دیو بیم is genuine Šāh-nāma (Noushin's Vazhe-namak quotes the same verse under خیم, adding that Ferdowsi there defines the word himself). دژخیم dož-xīm = MP duš-xēm 'of evil nature', with the productive prefix duš-/duž- 'ill, bad' (Av. duš-, PIE *dus-); Borhān-e Qāṭeʿ still glosses خیم as 'خوی و طبیعت' and adds 'و بعضی خوی بد را خیم [گویند]'. In modern Persian دژخیم has drifted from 'ill-natured' to 'executioner, torturer', but that is a later specialisation, not the classical sense Nourai gives. The chart's extra forms بدخیم / خوش‌خیم (now chiefly medical, 'malignant / benign') are the same compound type, matching Horn's bedχīm and Pahlavi hu-xēm.",
+     "derivation_fa": "«خیم» در فارسی نو دنبالهٔ xēm فارسی میانه است؛ ē کشیدهٔ فارسی میانه در فارسی نو به ī بدل شده (مانند شیر < šēr و بیم < bēm)، و هوبشمان همین واژه را در همان دستهٔ آوایی جای داده است. واژه‌ای کهن و بیشتر فردوسی‌وار است: بیتِ «دگر خوی را آنک خوانیم خیم / که با او ندارد دل از دیو بیم» در شاهنامه آمده و نوشین در واژه‌نامک ذیل «خیم» همان بیت را گواه می‌آورد و می‌گوید فردوسی خودْ واژه را در آن معنی کرده است. «دژخیم» همان duš-xēm پهلوی است با پیشوند زایای duš-/duž- «بد» (اوستایی duš-، هندواروپایی *dus-)؛ برهان قاطع نیز «خیم» را «خوی و طبیعت» و «بعضی خوی بد» معنی کرده است. در فارسی امروز «دژخیم» به «جلاد، شکنجه‌گر» تخصیص یافته که تحول معنایی متأخر است، نه معنای کلاسیکی که نورایی آورده. «بدخیم» و «خوش‌خیم» نیز از همین گونهٔ ترکیب‌اند (نزد هرن bedχīm، در پهلوی hu-xēm). ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:804",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 2, form-feed page 264 of BQT_v2_pages.txt (≈ printed p. 801-804, the خی section): headword 'خیم = بکسر اول بر وزن ... خوی و طبیعت باشد؛ و بعضی خوی بد را خیم [گویند]' with Mo'in's footnote 1 giving the Pahlavi and Avestan forms and citing Hübschmann and Bartholomae (col. 1781/1782)."
+      },
+      {
+       "ref": "HRN:114",
+       "status": "supports",
+       "note": "Horn no. 516, printed p. 114: 'χīm \"Naturanlage, Charakter\", vergl. bedχīm, dušχīm, duzχīm (Vis und Rāmīn S. 32 V. 5)' — both of Nourai's Persian words, plus the بدخیم of the chart's extra line."
+      },
+      {
+       "ref": "FSF:168,179",
+       "status": "partial",
+       "note": "Noushin's Vazhe-namak does carry both entries with exactly Nourai's verse — FSF_pages.txt leaf 223 ('خیم (بروزن بیم)'; 'خود در بیت زیر «خیم» را معنی می‌کند: دگر خوی را آنک خوانیم خیم') and leaves 237-238 ('دژخیم'; 'جزء دوم واژهٔ مرکب دژخیم') — but in the scan available here those fall on printed pp. ~220 and ~234-235 (printed ≈ leaf − 3), not 168/179; the scanned printing differs from Nourai's Donyā 1363 edition."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 2, خی section (BQT_v2_pages.txt leaf 264), with Mo'in's footnote",
+       "stance": "supports",
+       "note": "'خیم ... خوی و طبیعت باشد' + footnote 'پهلوی xēm ... از اوستا haēm ... هوبشمان ...؛ بارتولمه ۱۷۸۱/۱۷۸۲'."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 516, p. 114",
+       "stance": "supports",
+       "note": "'χīm \"Naturanlage, Charakter\" ... aw. vergl. haya-, haēm ...; phlv. χēm bezw. χīm'."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien p. 141",
+       "stance": "supports",
+       "note": "'xīm \"Charakter\", duzxīm, dušxīm \"von schlechtem Charakter\", paz. dušxīm Mīn. Gl. 68' — confirms دژخیم back to Pāzand/Pahlavi."
+      },
+      {
+       "src": "FSF",
+       "where": "Vazhe-namak, leaves 223 and 237-238",
+       "stance": "supports",
+       "note": "quotes the identical Ferdowsi verse under خیم and treats دژخیم as دژ/دش + خیم."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Hâvana",
+   "verdict": "confirmed",
+   "modern_form": "Avestan hāvana- m. 'the haoma-pressing implement (mortar and pestle)', an instrument noun of Av. hav- 'to press (the haoma)'",
+   "note": "Root, language label and gloss are all right, with one refinement worth recording: hāvana- is not an unanalysable root but a derivative of the Avestan verb hav- 'auspressen, keltern' (Bartholomae AiW: 'j. 1hav- V. \"auspressen\", den Haoma'), the same base as haoma- itself and as Vedic sav-/soma-; ultimately PIE *sew-/*sū- 'to press out juice' (Av. hunāmi = Skt. sunómi). So the box is better read as 'Av. hāvana- \"presser, mortar\" < hav- \"to press\"'. Bartholomae glosses hāvana- as the name of BOTH parts of the haoma apparatus, trough and pestle, so 'mortar' is a fair, if narrowed, rendering. Nourai's ref for both the root and the Pahlavi node is MON:5095, but the substantive support is Mo'in's own footnote in Borhan-e Qate' (BQT 2312-13) which spells the chain out.",
+   "note_fa": "برچسب زبانی، صورت و معنای جعبهٔ ریشه هر سه درست است، با یک نکتهٔ تکمیلی: hāvana- اوستایی ریشه نیست بلکه اسم ابزار از فعل اوستایی hav- «فشردن، افشردن (هوم)» است (بارتولومه: «hav- «auspressen»، den Haoma»)، از همان بنیادی که «هَوم/هوم» و در سنسکریت sav-/soma از آن آمده‌اند؛ در نهایت از هندواروپایی آغازین *sew-/*sū- «افشردن، آب گرفتن» (اوستایی hunāmi برابر سنسکریت sunómi). بارتولومه hāvana- را نام هر دو پارهٔ ابزار هومکوبی (هاون و دسته) می‌داند، پس معنی «هاون» تنگ‌شده اما درست است. ارجاع نورایی برای ریشه و گرهٔ پهلوی «MON:5095» است، ولی گواه اصلی حاشیهٔ خود معین بر برهان قاطع (صص ۲۳۱۲–۲۳۱۳) است که همین زنجیره را می‌آورد.",
+   "sources": [],
+   "ref_check": [
+    {
+     "ref": "MON:5095",
+     "status": "partial",
+     "note": "Mo'in's dictionary does tag هاون as Pahlavi — 'هاون (وَ) [ په . ] (اِ.) ظرفی آهنی یا سنگی که در آن چیزی را می‌کوبند یا می‌سایند' (فرهنگ معین, read via abadis.ir and archived) — but Mo'in's printed entry gives no Avestan form, and the page number could not be checked (the only local copy is the 2-vol Adena abridgement, MON_part2.txt line 88804, with its own pagination). The Avestan hāvana- of the root box comes from Mo'in's Borhan footnote (BQT 2312-13), not from the Farhang entry."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "BRT",
+     "where": "AiW col. 1784 s.v. hāvana-; col. 1783 s.v. 1hav-",
+     "stance": "supports",
+     "note": "'j. hāvana- m. (\"Auspresser, Kelterer\") Name für die beiden Teile des bei der Haomabereitung verwendeten Geräts, spez. ... des Trogs und Stössels'; and 'j. 1hav- V. \"auspressen\", den Haoma ... aθa hāvana haomąn hunyāt'."
+    },
+    {
+     "src": "POK",
+     "where": "IEW s.v. *seu-/*sū- (Av. hunāmi ~ Skt. sunómi)",
+     "stance": "supports",
+     "note": "POK_full.txt: 'present *sunami (Avestan hunami) and *suHti (compare Old Indic suyate)' — the IE base of the verb from which hāvana- is formed."
+    },
+    {
+     "src": "BQT",
+     "where": "Borhan-e Qate', Mo'in's footnote to هاون, printed pp. 2312-13 (BQT_v4_pages.txt pdf page 396)",
+     "stance": "supports",
+     "note": "'اوستا hāvana (هاون). پهلوی hāvan ... اساساً هاون (هاونهٔ اوستایی) ظرفی است که زرتشتیان در آن «هوم» را با دسته می‌کوبند'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Pahlavi",
+     "words": "hâvan",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian hāwan <h'wn'> 'a mortar' is the direct continuation of Avestan hāvana-: intervocalic -v- stays as -w-, the Avestan thematic ending -a is lost as everywhere in Middle Persian, giving hāvana- > hāwan. MacKenzie's Concise Pahlavi Dictionary (p. 45) lists it twice over, distinguishing the object from the liturgical hour: '1hāwan [h'wn' | N ~] a mortar' and '2hāwan [h'wn' = Av. hāwani-] the morning gāh' — the second entry showing that MacKenzie himself equates the Pahlavi form directly with the Avestan stem. The word kept its Zoroastrian ritual anchoring: the hāwan is the vessel in which the haoma is pounded, and hāwan-gāh is the sunrise watch during which the pressing is done.",
+     "derivation_fa": "فارسی میانهٔ hāwan (پهلوی کتابی <h'wn'>) «هاون» دنبالهٔ مستقیم hāvana- اوستایی است: v میان دو واکه به w می‌ماند و پایانهٔ ستاکی -a اوستایی، چنان‌که در فارسی میانه قاعده است، می‌افتد؛ پس hāvana- ← hāwan. مکنزی در فرهنگ کوچک پهلوی (ص ۴۵) آن را دو بار می‌آورد: «hāwan [h'wn'] هاون» و «hāwan [h'wn' = اوستایی hāwani-] گاهِ بامدادی»، و در دومی خود صورت پهلوی را با ستاک اوستایی برابر می‌نهد. پیوند آیینی واژه پابرجا مانده: هاون ظرفی است که زرتشتیان هوم را در آن می‌کوبند و «هاون‌گاه» بخش نخست روز است که هوم‌کوبی در آن انجام می‌گیرد. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "MON:5095",
+       "status": "partial",
+       "note": "Mo'in tags the Persian outcome '[ په . ]' = from Pahlavi, which is the arrow drawn here, but he supplies no Pahlavi transliteration in the entry and the printed page could not be located in the abridged local copy. The Pahlavi form itself is confirmed from MacKenzie (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie p. 45 (PHD.txt form-feed leaf 66-67; leaf = printed + 21)",
+       "stance": "supports",
+       "note": "'1hāwan [h'wn' | N ~] a mortar. 2hāwan [h'wn' = Av. hāwani-] the morning gāh.' — the Pahlavi word, the gloss 'mortar', and the New Persian continuation, all as drawn."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 1089, printed p. 244",
+       "stance": "supports",
+       "note": "'aw. hāvana- \"Mörser\"; phlv. hāvan, arm. LW. havan' — Horn gives exactly the Avestan > Pahlavi step."
+      },
+      {
+       "src": "BRT",
+       "where": "AiW col. 1784",
+       "stance": "supports",
+       "note": "the Avestan parent hāvana- 'the haoma-pressing implement'."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II, glossary",
+       "stance": "silent",
+       "note": "grep of NYB_vol2_glossary.txt for 'hawan/hāwan' returns nothing — Nyberg's glossary is limited to the texts he edits and does not include the word."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "hâvan «هاون»",
+     "verdict": "confirmed",
+     "derivation": "New Persian هاون hāvan (also hāven, hāvon) 'mortar' continues Middle Persian hāwan unchanged apart from the ordinary NP treatment of -w- as -v-. Horn no. 1089 (p. 244) sets out the whole line: 'hāven \"Mörser\" ..., kaukas.-bergjüd. heveng, arab. LW. hāvun; aw. hāvana- \"Mörser\"; phlv. hāvan, arm. LW. havan'. Mo'in's footnote in Borhan-e Qateʿ (pp. 2312-13) adds the dialect and loan evidence — Kurdish hāvan, Arāk (Solṭānābād) hāvon, Armenian havan — and the Arabic borrowing: 'معرب هاون hāwan ... در تعریب هاون (بفتح واو) و هاوون ... جمع آن أهوان است' (citing Addi Shir p. 989 and Dozy), i.e. a Persian > Arabic loan, the reverse direction from the حبل of the first chart on this page. Mo'in's Farhang tags the word '[ په . ]' (from Pahlavi). Nourai's Marzbān-nāma couplet (نه پیش من دواوین بود و دفتر / نه عیسی را عقاقیر است و هاون) is a genuine Persian attestation. The ritual sense survives in هاون‌گاه hāvan-gāh, the morning watch, and in هاون‌دسته 'pestle'.",
+     "derivation_fa": "«هاون» فارسی نو دنبالهٔ بی‌واسطهٔ hāwan فارسی میانه است و جز تبدیل عادی w به v دگرگونی دیگری ندارد؛ گونه‌های «هاوَن/هاوُن» نیز ثبت شده است. هرن (شمارهٔ ۱۰۸۹، ص ۲۴۴) همهٔ زنجیره را می‌آورد: «hāven «هاون»؛ اوستایی hāvana-؛ پهلوی hāvan؛ وام‌واژهٔ ارمنی havan؛ وام‌واژهٔ عربی hāwun». معین در حاشیهٔ برهان قاطع (صص ۲۳۱۲–۲۳۱۳) گواه‌های گویشی و وام‌گیری‌ها را می‌افزاید: کردی hāvan، اراکی hāvon، ارمنی havan، و «معرّب هاون … جمع آن «أهوان» است» به نقل از ادّی‌شیر (ص ۹۸۹) و دُزی — یعنی وام‌گیری از فارسی به عربی، وارونهٔ مسیر «حبل» در جدول نخست همین صفحه. معین در فرهنگ فارسی نیز آن را «[په.]» می‌داند. بیت مرزبان‌نامه که نورایی آورده گواهی درست است. معنای آیینی واژه در «هاون‌گاه» و «هاون‌دسته» بازمانده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D9%87%D8%A7%D9%88%D9%86/"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2312",
+       "status": "supports",
+       "note": "Borhan-e Qate' vol. 4, BQT_v4_pages.txt pdf page 396 (printed 2312-13): headword 'هاون — ظرفی فلزی (غالباً مسی) با سنگی که در آن ادویه و تخم‌های گیاهان و غیره را با دسته‌ای کوبند' with Mo'in's footnote 'اوستا hāvana (هاون). پهلوی hāvan. ارمنی havan ... معرب هاون hāwan «اسشق ۹۸۹» ... اساساً هاون (هاونهٔ اوستایی) ظرفی است که زرتشتیان در آن «هوم» را با دسته می‌کوبند' — the whole Avestan > Pahlavi > Persian arrow, verbatim."
+      },
+      {
+       "ref": "HRN:244",
+       "status": "supports",
+       "note": "HRN.txt form-feed leaf 266 = printed p. 244, no. 1089: 'hāven \"Mörser\", (AM. 132 Zeile 6), kaukas.-bergjüd. heveng, arab. LW. hāvun. aw. hāvana- \"Mörser\"; phlv. hāvan, arm. LW. havan.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 4, printed pp. 2312-13, Mo'in's footnote",
+       "stance": "supports",
+       "note": "as quoted; also 'در اوستا hāvani- که اکنون «هاون‌گاه» گویند ... وقتی است که در آن هوم تهیه می‌شود'."
+      },
+      {
+       "src": "MON",
+       "where": "فرهنگ معین s.v. هاون (via abadis, archived); MON_part2.txt line 88804",
+       "stance": "supports",
+       "note": "'هاون (وَ) [ په . ] (اِ.) ظرفی آهنی یا سنگی که در آن چیزی را می‌کوبند یا می‌سایند' — Pahlavi origin tag; the abridgement adds 'یکی از آلات مقدس پرستشگاه زردشتیان بوده و در آن گیاه هوم را می‌کوبیده‌اند'."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 1089, p. 244",
+       "stance": "supports",
+       "note": "Avestan > Pahlavi > New Persian, plus the Armenian and Arabic loans."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir p. 989, as cited by Mo'in",
+       "stance": "supports",
+       "note": "Mo'in's footnote credits «اسشق ۹۸۹» (= Addi Shir, Kitab al-alfaz al-farisiyya al-muʿarraba) for Arabic hāwan/hāwūn being an Arabicised Persian word — i.e. the loan runs Persian > Arabic."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
