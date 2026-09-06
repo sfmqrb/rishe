@@ -1,0 +1,749 @@
+{
+  "pdf_page": 269,
+  "book_page": 239,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Klei",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ḱley- 'to lean, incline, slope' (Pokorny ḱlei-, IEW 600-602; LIV 332f.)",
+      "note": "Root, language label and gloss are all correct. Pokorny's headword is ḱlei- with a palatal (Nourai's 'Klei' loses the diacritic, as he does throughout), the meaning is 'to tip, incline, lean', and the page is 600 (the article runs 600-602), so POK:600 is exact. Every branch on the chart is one Pokorny prints under that lemma: Av. sray-/srita-, Gk. klínō/klíma/klínē/klîmax, Lat. clīnāre/cliēns/clīvus, Gmc. hlinēn/hleitara/hlid. Two flags on this entry: node #12 prints a non-existent Latin 'clîmâre' for clīnāre, and node #9 puts the English spelling 'clinic' in a French box (French is clinique) — both are the book's own errors, not extraction errors. Node #2 is a genuinely empty box on the printed page. The three English boxes (#7 climate, #11 climax, #13) silently skip the French/Latin intermediaries that Klein, Skeat and Etymonline record.",
+      "note_fa": "ریشه، برچسب زبان و معنای آن هر سه درست است. سرواژهٔ پوکورنی ḱlei- با کام‌کامی است (نورایی مانند همه‌جا نشانهٔ کام‌کامی را نمی‌آورد) و معنای آن «کج شدن، خم شدن، تکیه دادن»، در صفحهٔ ۶۰۰ (مقاله از ۶۰۰ تا ۶۰۲)، پس ارجاع POK:600 دقیق است. هر شاخهٔ این نمودار در همان مدخل پوکورنی هست: اوستایی sray-/srita-، یونانی klínō/klíma/klī́nē/klîmax، لاتینی clīnāre/cliēns/clīvus، ژرمنی hlinēn/hleitara/hlid. دو نکتهٔ هشدار: خانهٔ ۱۲ صورت ناموجود لاتینی «clîmâre» را به‌جای clīnāre چاپ کرده و خانهٔ ۹ املای انگلیسی «clinic» را در خانهٔ فرانسوی نشانده است (در فرانسه clinique است) — هر دو خطای خودِ کتاب است نه خطای استخراج. خانهٔ ۲ در صفحهٔ چاپی به‌راستی خالی است. سه خانهٔ انگلیسی (۷ climate، ۱۱ climax، ۱۳) حلقه‌های میانی فرانسوی/لاتینی را که کلاین، اسکیت و اتیمانلاین ثبت کرده‌اند نادیده گرفته‌اند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ley-",
+        "https://www.etymonline.com/word/climate"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:600",
+          "status": "supports",
+          "note": "POK_full.txt line 51306ff.: 'Root / lemma: ḱlei- | Meaning: to tip, incline, lean | Material: Old Indic srayati \"leans\" ... Avestan sray-, srinav-, srinu- \"lean\" ... gr. κλίνω ... κλῖμα n. \"inclination, slope of ground\", κλῖμαξ f. \"ladder\" ... Latin clīno, -are \"bend, bow, incline\" ... cliens, -tis ... Old High German (h)linēn \"lean\" ... (h)leitara \"ladder\" ... hlid n. \"cover, door\". References: WP. I 490 ff. ... Page(s): 600-602'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. I 490",
+          "stance": "supports",
+          "note": "'klei- \"neigen, lehnen\"; vielfach von angelehnten Stangen (daher Zelte mit Stangengerippe: Sattelstangen, Leitern ...), andrerseits von Berglehnen, Hügeln u. dgl.'"
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, klei-",
+          "stance": "supports",
+          "note": "'klei-. To lean. ... [Pok. ḱlei- 600.]' — Watkins' bracketed cross-reference is Nourai's own POK:600."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, IEC.txt line 8928",
+          "stance": "supports",
+          "note": "'Cf. Kleio and Klit-. WP I, 490. Av. -sirinaomi, cpds.; Gk. klinō, tr. intr. \"lean, bend, tilt\"; Lat. clino, -are, id.; ... OE hlinian \"lean, lie down\"; Li. šlynù, šlýti \"incline, lean\".'"
+        },
+        {
+          "src": "CHEUNG",
+          "where": "s.v. *srai, p. 355",
+          "stance": "supports",
+          "note": "'«PIE *ḱlei- \"to lean\" = LIV: 332 f. | Pok.: 601 f.' — the current Iranian-verb handbook keeps the same root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "sray-, srinav-, srinu-; srita, sray-",
+          "verdict": "confirmed",
+          "derivation": "Young Avestan verb sray- 'to lean' is the regular Iranian continuant of PIE *ḱley-: the PIE palatal *ḱ gives Proto-Iranian *s (satem development, Av. s- against Gk. k-), and PIE *l merges with *r already in Indo-Iranian, so *ḱley- > PIr. *srai- > Av. sray-. Bartholomae lists exactly the stems Nourai prints: present class 1 sray-/srī-, class 2 sraya-, class 10 (nu-present) srinav-/srinu-, perfect sisray-, and the past participle srita- 'leaned' (whence the abstract sritay- f. 'a leaning', which Bartholomae himself equates with Gk. klisis). Sanskrit śrayati 'leans', śritá- 'leaned' are the exact cognates. Nourai's second word field 'srita, sray-' is not two words but the participle srita- with a cross-reference back to the verb sray-, as printed in Bartholomae; only srita- carries the gloss 'leaned'.",
+          "derivation_fa": "فعل اوستایی sray- «تکیه دادن، خم شدن» بازماندهٔ منظم ریشهٔ هندواروپایی آغازین *ḱley- است: کام‌کامی (palatal) ‏*ḱ در ایرانی باستان به s بدل می‌شود (تحول اقمار/ساتم) و *l هندواروپایی از دورهٔ هندوایرانی با r یکی شده است؛ پس *ḱley- > ایرانی باستان *srai- > اوستایی sray-. بارتولومه در «فرهنگ ایرانی باستان» دقیقاً همین ستاک‌ها را می‌آورد: sray-/srī-، sraya-، ستاک با پسوند -nav-/-nu- یعنی srinav-/srinu-، و صفت مفعولی srita- «تکیه‌داده». هم‌ریشهٔ سنسکریت آن śrayati و śritá- است. آنچه نورایی در ردیف دوم آورده («srita, sray-») دو واژه نیست؛ همان صفت مفعولی srita- است با ارجاع به فعل sray-. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ley-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:600",
+              "status": "supports",
+              "note": "Pokorny IEW s.v. 'ḱlei- Meaning: to tip, incline, lean', Page(s) 600-602 (POK_full.txt line 51306ff.): 'Old Indic srayati \"leans, puts against\", srayate ..., srita- = Avestan srita- (: sray-) \"leaned\"; Avestan sray-, srinav-, srinu- \"lean\" (compare gr. κλίνω)' — verbatim Nourai's node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 1636 s.v. sray-",
+              "stance": "supports",
+              "note": "BRT.txt line 27305: 'j. sray-, p. ϑray- V. \"lehnen\". Praes. 1 sray-: srī-, 2 sraya-, ... 10 srinav-; srinu- ...; Perf. sisray-; — PPfP. srita-'; and line 27424 'j. sritay- f. \"Lehnen (usw.)\". Zum V. sray-. — gr. κλίσις'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "s.v. *srai, p. 355",
+              "stance": "supports",
+              "note": "CHEUNG.txt line ~23190-23240: Avestan sray-/srī- forms listed; '© This root has an impeccable IE etymology. «PIE *ḱlei- \"to lean\" = LIV: 332 f. | Pok.: 601 f.' with IE cognates 'Gr. κλίνω, Lat. clinare, Lith. sliéti, OHG hlinēn'."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 490",
+              "stance": "supports",
+              "note": "WLD_Bd1 line 30841ff.: 'klei- \"neigen, lehnen\" ... Ai. çrayati \"lehnt, legt an\", çrayate ..., çritá- = av. srita- (: sray-) \"gelehnt\"'."
+            },
+            {
+              "src": "PHD",
+              "where": "searched PHD.txt / PHD_mackenzie.txt",
+              "stance": "silent",
+              "note": "No Book-Pahlavi reflex of this verb under sr- in MacKenzie; the Middle Persian continuation is the unrelated-looking nisāy- (Cheung)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": null,
+          "words": "",
+          "verdict": "unverified",
+          "derivation": "Empty box. The printed page (pdf 269, book 239) really does show a blank rectangle to the right of the Avestan box, joined to it by an arrow, with no language label, no reference and no word — see data/verification/sources/refs/ocr/BOOK/269.png. The extraction is faithful; there is nothing to verify. Judging by the layout of the parallel charts (Avestan → Persian), Nourai left the slot for a New Persian reflex of Av. sray- and never filled it; no Persian reflex of this verb in fact survives (the NP words for 'lean' come from other roots).",
+          "derivation_fa": "این خانه در صفحهٔ چاپی خالی است: مستطیلی بی‌برچسب زبان، بی‌ارجاع و بی‌واژه در سمت راست خانهٔ اوستایی که تنها با یک پیکان به آن پیوسته است (تصویر صفحه: data/verification/sources/refs/ocr/BOOK/269.png). خطای خوانش اسکن نیست؛ خودِ کتاب چنین چاپ کرده است. با توجه به الگوی نمودارهای دیگر (اوستایی ← فارسی)، گویا نورایی جای بازماندهٔ فارسی نو فعل sray- را باز گذاشته و پرنکرده است؛ در فارسی نو نیز بازماندهٔ روشنی از این فعل بر جای نمانده است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the box carries no reference in the book."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BOOK",
+              "where": "printed page 239 (pdf 269), rendered at 300 dpi",
+              "stance": "silent",
+              "note": "the box is empty on the page itself; JSON matches the print."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "s.v. *srai, p. 355",
+              "stance": "silent",
+              "note": "lists MP nisāy- and dialect forms but no New Persian continuant of the simplex, consistent with an empty slot."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "klîma",
+          "verdict": "confirmed",
+          "derivation": "Greek klíma, gen. klímatos, n. 'inclination, slope of the ground, region', is a -mn̥/-mat- action noun built to klínō 'I make slope, lean' (< *ḱli-n-yō), i.e. PIE *ḱli-mn̥. Hellenistic geographers (Eratosthenes, Hipparchus, Ptolemy) used it technically of the belts of the earth's surface defined by the sun's angle and the length of the longest day, hence the 'seven klimata'; that technical geographical sense, not the plain 'slope', is what Nourai's gloss 'sloping surface or land' and the whole Arabic/Latin branch below depend on.",
+          "derivation_fa": "یونانی klíma (اضافی klímatos) «شیب، سراشیبی زمین، ناحیه» اسم مصدرِ ساخته‌شده با پسوند ‎-mn̥/-mat-‎ از فعل klínō «کج کردن، خم کردن» است، یعنی *ḱli-mn̥ از همان ریشه. جغرافی‌دانان دورهٔ هلنیستی (اراتوستن، هیپارخوس، بطلمیوس) آن را اصطلاحاً برای کمربندهای زمین به‌کار بردند که بر پایهٔ زاویهٔ تابش خورشید و درازای بلندترین روز تعریف می‌شد — همان «هفت اقلیم». معنای اصطلاحیِ جغرافیایی است که شاخه‌های عربی و لاتینی زیرِ آن بر آن استوارند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/climate",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ley-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:600",
+              "status": "supports",
+              "note": "Pokorny 600-602 s.v. ḱlei-: 'κλίμα n. \"inclination, slope of ground\"' listed among the Greek derivatives beside κλίνω, κλίνη, κλῖμαξ."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. climate / clinical",
+              "stance": "supports",
+              "note": "'Gk. κλίμα, gen. κλίματος, \"inclination, slope, region\", from the stem of κλίνειν, \"to cause to slope, bend\"'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins, klei- II.6c",
+              "stance": "supports",
+              "note": "AHD_watkins1985 line 635: 'suffixed form *kli-mn̥ in Greek klima, sloping surface of the earth: CLIMATE'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "eqlîm",
+          "verdict": "confirmed",
+          "derivation": "Arabic إِقْلِيم ʔiqlīm 'clime, zone of the earth, province', pl. أقاليم ʔaqālīm, is a straight loan of Greek klíma (acc. klíma, oblique stem klímat-), taken over during the 8th-9th c. translation movement together with Ptolemy's geography — most likely through Syriac ʔeqlīmā, which supplies the prosthetic ʔi- and the ā/ī vowel; the word was then re-analysed on the native Arabic pattern ʔifʕīl and given a broken plural. The Islamic geographers' 'seven aqālīm' (Ibn Khurradādhbih, Muqaddasī, Iṣṭakhrī) are simply the seven Greek klimata, which is why the sense drifted from 'zone of latitude' to 'province, country'. Not an inherited word: Arabic is Semitic, so this is a Greek → Arabic borrowing, exactly as Nourai's arrow shows.",
+          "derivation_fa": "عربی «إقلیم» (جمع: أقالیم) وام‌واژه‌ای است مستقیم از یونانی klíma (ستاک غیرفاعلی klímat-)، که در جنبش ترجمهٔ سدهٔ دوم و سوم هجری همراه با جغرافیای بطلمیوس به عربی راه یافت — به احتمال زیاد از راه سریانی ʔeqlīmā، که همزهٔ آغازین و کشش واکه‌ها را توضیح می‌دهد؛ سپس بر وزن «إفعیل» تحلیل شد و جمع مکسر گرفت. «هفت اقلیم» جغرافی‌نویسان مسلمان (ابن خردادبه، مقدسی، اصطخری) همان هفت klimata یونانی است و از همین‌جاست که معنا از «کمربند عرضِ جغرافیایی» به «ولایت، کشور» گراییده است. چون عربی زبانی سامی است، این پیوند وام‌گیری است نه وراثت — و پیکان نورایی درست همین را نشان می‌دهد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A5%D9%82%D9%84%D9%8A%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "TAD:57",
+              "status": "supports",
+              "note": "Tobia al-ʿUnaysī, Tafsīr al-alfāẓ al-dakhīla, is arranged by consonantal skeleton, so إقليم stands in the qāf section next to إقليد/إكليل. The Arabic OCR of TAD_pages.txt is very rough, but leaf 60 (printed ≈ 55-57) preserves the entry's definition: '... يراد به منطقة من مناطق الك[رة] الأرضية' ('a zone of the zones of the terrestrial globe'), immediately after the Greek-source marker, and the neighbouring entry reads 'إقليد وإكليل ومقلاد - يوناني [κλείς] معناه مفتاح'. Nourai's page 57 is within the ±2-leaf uncertainty of this OCR's page offset."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. climate",
+              "stance": "partial",
+              "note": "gives Gk. κλίμα > L. clima > F. climat but says nothing about the Arabic branch (Klein is an English dictionary) — silent rather than contrary."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep 'iqlim|klima' in FVQ.txt",
+              "stance": "silent",
+              "note": "Jeffery has no entry: إقليم is not a Qur'anic word, so its absence is expected and carries no weight against the derivation."
+            },
+            {
+              "src": "LKT",
+              "where": "grep 'klima|iqlim' in LKT.txt",
+              "stance": "silent",
+              "note": "Lokotsch covers Oriental words that entered Europe; إقليم went the other way, so he has no entry."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "eqlîm «اقلیم»",
+          "verdict": "confirmed",
+          "derivation": "New Persian اقلیم eqlīm 'clime, region, country' is the Arabic ʔiqlīm taken over wholesale in the Islamic period, with the Persian pronunciation eqlīm (short e for Arabic i, as regularly in Persian) and the Arabic broken plural اقالیم kept alongside. In classical Persian it means both the geographer's 'clime' (haft eqlīm 'the seven climes' = the whole inhabited world) and simply 'country, realm' — the sense in Nourai's Saʿdī couplet 'tanat zūrmand-ast o laškar gerān / va-lēkan dar eqlīm-e došman marān' ('your body is strong and your army heavy, but do not ride into the enemy's country'). This is therefore a Greek → Arabic → Persian route, not a Persian word Arabised.",
+          "derivation_fa": "«اقلیم» در فارسی نو وام‌واژه‌ای است از عربی إقلیم که در دورهٔ اسلامی یکسره به فارسی درآمده است، با تلفظ eqlīm (کسرهٔ کوتاه فارسی به‌جای i عربی) و همان جمع مکسر «اقالیم». در فارسی کلاسیک هم معنای اصطلاحی جغرافیایی دارد («هفت اقلیم» = همهٔ جهان آباد) و هم معنای ساده‌ترِ «کشور، ولایت» — همان معنا در بیت سعدی که نورایی آورده است: «تنت زورمند است و لشکر گران / ولیکن در اقلیم دشمن مران». پس مسیر یونانی ← عربی ← فارسی است، نه واژه‌ای فارسی که معرّب شده باشد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%82%D9%84%DB%8C%D9%85",
+            "https://abadis.ir/fatofa/%D8%A7%D9%82%D9%84%DB%8C%D9%85/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:326",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Fārsi s.v. اقلیم tags the word '[معر - یو.]' = معرّب – یونانی, 'Arabicised, from Greek', glossing '۱- کشور، مملکت ۲- ولایت، ج. اقالیم' (text of the entry via abadis.ir 'فرهنگ معین' section; MON_part1.txt line 15583ff. has the same entry, '[معر.] (ا.) ناحیه‌ای از کرهٔ زمین ... قدما زمین را به هفت اقلیم تقسیم کرده‌اند')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 15583 s.v. اقلیم + abadis 'فرهنگ معین'",
+              "stance": "supports",
+              "note": "'[معر - یو.]' — Mo'in himself marks the Greek source and the Arabic mediation."
+            },
+            {
+              "src": "BQT",
+              "where": "grep 'اقلیم' in BQT_v1_pages.txt",
+              "stance": "silent",
+              "note": "Borhān-e Qāṭeʿ has اقلیما and اقلیمیا but no entry for اقلیم itself — Tabrizi excluded plain Arabic loanwords; no counter-evidence."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba",
+              "stance": "silent",
+              "note": "not listed: Addi Shir collects Persian words Arabised, and إقليم is Greek, not Persian — its absence agrees with the Greek origin."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Latin",
+          "words": "clîma",
+          "verdict": "confirmed",
+          "derivation": "Latin clima, gen. climatis, 'region, zone of the earth', is a learned borrowing of Greek klíma with the Greek -mat- stem preserved, taken into Latin with the rest of Greek scientific geography (Pliny, Vitruvius, later Isidore). It is a borrowing, not an inherited cognate; the inherited Latin reflexes of the same root are -clīnāre, clīvus, clītellae, cliēns (node #12). Nourai's arrow Greek → Latin is therefore right, and the gloss 'a zone of earth' is the correct technical sense.",
+          "derivation_fa": "لاتینی clima (اضافی climatis) «ناحیه، کمربند زمین» وام‌واژه‌ای است عالمانه از یونانی klíma با حفظ ستاک ‎-mat-‎، که همراه با جغرافیای علمی یونان به لاتینی راه یافت (پلینیوس، ویترویوس و سپس ایزیدور). این پیوند وام‌گیری است نه وراثت؛ بازماندگان ارثی همین ریشه در لاتینی ‎-clīnāre‎، clīvus، clītellae و cliēns‌اند (خانهٔ ۱۲). پس پیکان یونانی ← لاتینی نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/climate"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins' klei- entry routes CLIMATE through 'Greek klima, sloping surface of the earth'; the Latin intermediary clima is standard and is spelled out in Klein and Etymonline (see consulted)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. climate",
+              "stance": "supports",
+              "note": "'L. clima, gen. -atis, \"region, climate\", fr. Gk. κλίμα'."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 3566 s.v. clime",
+              "stance": "supports",
+              "note": "'clime. (L.-Gk.) L. clima ...' — Skeat likewise makes Latin clima the Greek word borrowed."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "climate",
+          "verdict": "plausible",
+          "derivation": "English climate is attested from the late 14th century ('horizontal zone of the earth's surface'), but its immediate donor is Old French climat, not Latin directly: OF climat < Latin clima, climatis < Greek klíma. Nourai's arrow Latin → English is right about the ultimate source but silently drops the French stage that Klein, Skeat and Etymonline all insist on; hence plausible rather than confirmed. The modern sense 'characteristic weather of a region' develops c. 1600 out of the geographers' latitude-belt, and the figurative 'moral/mental atmosphere' from the 1660s.",
+          "derivation_fa": "واژهٔ انگلیسی climate از اواخر سدهٔ چهاردهم میلادی گواهی شده است، اما وام‌دهندهٔ بی‌واسطهٔ آن فرانسهٔ کهن climat است نه مستقیماً لاتینی: climat < لاتینی clima/climatis < یونانی klíma. پیکان نورایی (لاتینی ← انگلیسی) خاستگاه نهایی را درست نشان می‌دهد ولی حلقهٔ فرانسوی را — که کلاین، اسکیت و اتیمانلاین هر سه بر آن پای می‌فشارند — انداخته است؛ ازاین‌رو «با احتیاط پذیرفتنی است». معنای امروزی («آب‌وهوای ویژهٔ یک ناحیه») حدود ۱۶۰۰ از همان کمربند عرض جغرافیایی جغرافی‌دانان پدید آمد.",
+          "sources": [
+            "https://www.etymonline.com/word/climate"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins klei-: '... in Greek klima, sloping surface of the earth: CLIMATE'; AHD's headword list (AHD_watkins1985 line 1371) has 'CLIMATE klei-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. climate",
+              "stance": "partial",
+              "note": "'climate, n. — F. climat, fr. L. clima ...' — French, not Latin, is the immediate source."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 23497",
+              "stance": "partial",
+              "note": "Skeat lists 'climate' among the words that came 'French from Low Latin from Greek'."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Greek",
+          "words": "klině; klîmax",
+          "verdict": "confirmed",
+          "derivation": "Two Greek nouns from the same root: klī́nē f. 'couch, bed' (< *ḱli-n-eh₂, built on the nasal present klī́nō 'I lean'), and klîmax f. 'ladder, staircase' (< *ḱli-m-ak-, literally 'the leaning thing', a ladder being propped against a wall). Nourai's 'klině' uses the book's ě for long ē, i.e. klī́nē — not a misprint but his house transliteration (compare cliěns in node #12). Both nouns feed the modern learned vocabulary: klī́nē → klīnikós 'of the bedside' → clinic (#9), klîmax → climax (#11).",
+          "derivation_fa": "دو اسم یونانی از یک ریشه: klī́nē «بستر، تخت» (از *ḱli-n-eh₂، ساخته بر ستاک حال با میان‌وند نونیِ klī́nō «کج می‌کنم») و klîmax «نردبان، پلکان» (از *ḱli-m-ak-، تحت‌اللفظ «چیزِ تکیه‌داده»، چون نردبان را به دیوار تکیه می‌دهند). آنچه نورایی «klině» نوشته همان klī́nē است؛ در این کتاب ě نشانهٔ ē کشیده است (مانند cliěns در خانهٔ ۱۲) و خطای چاپی نیست. هر دو واژه به واژگان علمی نو راه یافته‌اند: klī́nē ← klīnikós ← clinic؛ klîmax ← climax. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/climax",
+            "https://www.etymonline.com/word/clinic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1523",
+              "status": "supports",
+              "note": "The 1975 New College appendix page number cannot be checked against our copy (the 1985 standalone Watkins edition has its own pagination), but the content is exact: AHD_watkins1985 line 635, klei- II.6: 'Greek lengthened form *klī- in: a. suffixed form *klī-n-ā in Greek klinē, bed: CLINIC ...; b. suffixed form *klī-m- in Greek klimax, ladder: CLIMAX'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 600-602 s.v. ḱlei-",
+              "stance": "supports",
+              "note": "'κλίνη \"bed\", κλιντήρ, κλισμός \"couch, bed, place for resting\" ... κλῖμαξ f. \"ladder\"'."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. clinical, climax",
+              "stance": "supports",
+              "note": "'κλίνη, \"bed\", which is rel. to κλίνειν ... κλῖμαξ, \"ladder\", κλιμακτήρ, \"rung of a ladder\" ... fr. I.-E. base *klei-'."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "French",
+          "words": "clinic",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "clinic",
+          "correct_form": "clinique",
+          "derivation": "The chain itself is right — Gk. klī́nē 'bed' → klīnikós 'of/at the bedside' → Late Latin clīnicus 'physician who visits patients in their beds' → French clinique (17th c.) — but the form in the French box is wrong: French is clinique, not 'clinic'. The printed page really does read 'clinic' under the header 'French' (see the crop of pdf page 269 saved as data/verification/sources/refs/ocr/BOOK/269.png), so the extraction is faithful and the error is Nourai's own: he has put the English spelling in the French box. English clinic (1620s, first 'a bedridden person') is itself borrowed from French clinique, so the box conflates the two.",
+          "derivation_fa": "زنجیره درست است — یونانی klī́nē «بستر» ← klīnikós «بالینی» ← لاتینی متأخر clīnicus «پزشکی که بر بالین بیمار می‌رود» ← فرانسوی clinique (سدهٔ هفدهم) — اما صورتِ درون خانه نادرست است: در فرانسه clinique است نه clinic. تصویر صفحهٔ چاپی (data/verification/sources/refs/ocr/BOOK/269.png) نشان می‌دهد که خودِ کتاب زیر عنوان «French» واژهٔ «clinic» را چاپ کرده است؛ پس خطای خوانش اسکن نیست، خطای چاپی/سهو خودِ نورایی است که املای انگلیسی را در خانهٔ فرانسوی گذاشته. انگلیسی clinic (۱۶۲۰م، نخست به معنی «بیمار بستری») خود وام‌گرفته از همان clinique فرانسوی است.",
+          "sources": [
+            "https://www.etymonline.com/word/clinic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins klei- II.6a routes CLINIC through 'Greek klinē, bed'; AHD does not print the French form, so it neither confirms nor corrects the spelling 'clinic'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. clinical",
+              "stance": "partial",
+              "note": "'L. clinicus, fr. Gk. κλινικός, \"a physician who attends patients in their beds\" ... fr. κλίνη, \"bed\"' — Latin clīnicus is the immediate source of the French adjective; Klein spells the French word clinique elsewhere, never 'clinic'."
+            },
+            {
+              "src": "BOOK",
+              "where": "printed page 239 (pdf 269), 300 dpi crop",
+              "stance": "supports",
+              "note": "the box header reads 'French  AHD' and the word line reads 'clinic'; JSON matches the print exactly, so the fault is the book's."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "kelînîk «کلینیک»",
+          "verdict": "confirmed",
+          "derivation": "Persian کلینیک kelīnīk 'clinic, out-patient department' is a 20th-century loan straight from French clinique, borrowed with the whole French medical vocabulary during the Qajar/early Pahlavi modernisation of Iranian medicine (compare پلی‌کلینیک poli-klīnīk, کلینیکال). The French final -que [k] is rendered by Persian ک, and the French nasal-free [kli-] is broken up by an anaptyctic e (ke-lī-nīk) because Persian does not tolerate initial clusters. Mo'in tags the word '[فر.]', i.e. French, and Dehkhoda 'فرانسوی' — exactly Nourai's arrow.",
+          "derivation_fa": "«کلینیک» وام‌واژه‌ای است از فرانسوی clinique که در سدهٔ چهاردهم خورشیدی همراه با کل واژگان پزشکی فرانسوی در دورهٔ نوسازی پزشکی ایران وارد فارسی شد (مقایسه کنید با «پلی‌کلینیک»). ‎-que‎ پایانی فرانسوی به «ک» بدل شده و چون فارسی خوشهٔ همخوانی آغازین را برنمی‌تابد، میان k و l کسرهٔ میانجی افزوده شده است: ke-lī-nīk. معین این واژه را «[فر.]» و دهخدا «فرانسوی» برچسب می‌زند — همان چیزی که پیکان نورایی نشان می‌دهد. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3051",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Fārsi s.v. کلینیک: '(کِ) [ فر. ] ۱- (اِ.) ساختمان یا بخشی در بیمارستان ... درمانگاه. ۲- (ص.) بالینی' — the tag [فر.] = French is Mo'in's own origin label (entry text via abadis.ir 'فرهنگ معین'; the print page number 3051 could not be checked because the OCR of MON_part1/2 loses the page numbering)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir 'فرهنگ معین' s.v. کلینیک",
+              "stance": "supports",
+              "note": "'[ فر. ]' — French origin stated by Mo'in."
+            },
+            {
+              "src": "ARY",
+              "where": "Dehkhoda, Loghatnāme s.v. کلینیک (via abadis)",
+              "stance": "supports",
+              "note": "'کلینیک. [ کْلی / کِ ] ( فرانسوی، اِ ) مطب. محکمه. (فرهنگ فارسی معین). || درمانگاه.' — a second Persian lexicographer marking the word فرانسوی."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "English",
+          "words": "climax",
+          "verdict": "plausible",
+          "derivation": "English climax appears in 1580s as a term of rhetoric ('a series of propositions rising in force'), taken from Late Latin climax, gen. climacis, itself the Greek klîmax 'ladder' used metaphorically by the Greek rhetoricians. Nourai's direct Greek → English arrow is right about the source word but skips the Latin transmission that Klein ('climax, n. L., fr. Gk. κλῖμαξ') and Etymonline ('from Late Latin climax ... from Greek klimax') both record; hence plausible. The sense 'high point, culmination' is a late-18th-century misunderstanding of the rhetorical term, and 'sexual orgasm' is recorded from 1880.",
+          "derivation_fa": "واژهٔ انگلیسی climax در دههٔ ۱۵۸۰م نخست اصطلاحی بلاغی بود («زنجیره‌ای از گزاره‌ها که پله‌پله نیرومندتر می‌شوند») و از لاتینی متأخر climax (اضافی climacis) گرفته شده که خود همان klîmax یونانی «نردبان» است در کاربرد استعاری بلاغیان یونان. پیکان مستقیم نورایی (یونانی ← انگلیسی) واژهٔ خاستگاه را درست می‌گوید اما حلقهٔ لاتینی را — که کلاین و اتیمانلاین هر دو ثبت کرده‌اند — می‌اندازد؛ پس «با احتیاط پذیرفتنی است». معنای «اوج» برداشتی نادرست از همان اصطلاح بلاغی در اواخر سدهٔ هجدهم است.",
+          "sources": [
+            "https://www.etymonline.com/word/climax"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985 line 1371 index: 'CLIMAX klei-'; klei- II.6b: 'suffixed form *klī-m- in Greek klimax, ladder: CLIMAX'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. climax",
+              "stance": "partial",
+              "note": "'climax, n. L., fr. Gk. κλῖμαξ, \"ladder\", lit. \"something sloping, something leading up by degrees\"' — Latin is the immediate donor."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 3566",
+              "stance": "partial",
+              "note": "'climax. the highest degree. (Gk.) κλῖμαξ, a ladder, staircase, highest expression (in rhetoric). — Gk. κλίνειν, slope.'"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Latin",
+          "words": "clîmâre; cliěns",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "clîmâre",
+          "correct_form": "clīnāre",
+          "derivation": "The Latin verb meaning 'to lean, bend' is clīnāre (attested only in compounds: dēclīnāre, inclīnāre, reclīnāre), from *ḱli-n-. There is no Latin *clīmāre; the printed page unambiguously shows 'clîmâre' (300-dpi crop of pdf 269, saved as data/verification/sources/refs/ocr/BOOK/269.png), so the extraction is faithful and this is Nourai's own misprint — an m for n, probably contaminated by clīma two boxes above. The second word is fine: cliēns, gen. clientis, 'dependant, client' < *ḱli-ent- 'one who leans on another' (Klein: 'the usual derivation of L. cliens from the stem of cluere, \"to be named\", is erroneous'); the book's 'cliěns' is just its house spelling of long ē, as in klině in node #8.",
+          "derivation_fa": "فعل لاتینی به معنی «خم شدن، تکیه دادن» clīnāre است (تنها در ترکیب‌ها گواهی شده: dēclīnāre، inclīnāre، reclīnāre) از *ḱli-n-. در لاتینی *clīmāre وجود ندارد. تصویر ۳۰۰ نقطه‌ای صفحه (data/verification/sources/refs/ocr/BOOK/269.png) به‌روشنی «clîmâre» را نشان می‌دهد؛ پس خطای خوانش اسکن نیست، خطای چاپیِ خودِ کتاب است — m به‌جای n، احتمالاً زیر تأثیر clîma که دو خانه بالاتر آمده. واژهٔ دوم درست است: cliēns (اضافی clientis) «وابسته، دست‌نشانده» از *ḱli-ent- «آن‌که بر دیگری تکیه می‌کند»؛ صورت «cliěns» کتاب هم فقط شیوهٔ نگارش ē کشیده در همین کتاب است (مانند klině در خانهٔ ۸).",
+          "sources": [
+            "https://www.etymonline.com/word/client",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ley-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1523",
+              "status": "contradicts",
+              "note": "The very reference Nourai cites prints the correct form: AHD_watkins1985 line 633, klei- I.1: 'Suffixed form *klei-n- in Latin -clīnāre, to lean, bend: DECLINE, INCLINE, RECLINE', and II.3: 'Suffixed form *kli-ent- in Latin cliēns, dependent, follower: CLIENT'. So AHD supports the arrow and the word cliēns but shows that 'clîmâre' is wrong for clīnāre."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. clinical, client",
+              "stance": "contradicts",
+              "note": "'L. -clinare (with the exception of the pp. clinatus, occurring only in compounds), \"to bend, turn\"' and 'client, n. — F., fr. L. clientem, acc. of cliens ... fr. I.-E. base *klei-' — clīnāre, never clīmāre."
+            },
+            {
+              "src": "POK",
+              "where": "IEW 600-602 s.v. ḱlei-",
+              "stance": "contradicts",
+              "note": "'Latin clīno, -are \"bend, bow, incline\" ... acclīnis ... cliens, -tis \"a personal dependant, client\"' — again clīno/clīnāre."
+            },
+            {
+              "src": "BOOK",
+              "where": "printed page 239 (pdf 269), 300 dpi crop",
+              "stance": "supports",
+              "note": "the page really prints 'clîmâre : to lean, bend' — the JSON reproduces the book correctly; the fault is the book's."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "English",
+          "words": "decline, incline, recline; client",
+          "verdict": "confirmed",
+          "derivation": "All four are Latin words taken into English through French: dēclīnāre > OF decliner > ME declinen (c. 1300); inclīnāre > OF encliner/incliner > ME enclinen; reclīnāre entered later as a Latinism (1520s in the sense 'lay down', 1660s 'lean back'); and cliēns/clientem > Anglo-French clyent (c. 1300) > English client 'one who lives under the patronage of another' (late 14c.), the modern 'a lawyer's customer' from c. 1400. The prefixes are Latin dē- 'down', in- 'into, towards', re- 'back' on the same *ḱli-n- stem, so the whole box is a single derivational family.",
+          "derivation_fa": "هر چهار واژه لاتینی‌اند که از راه فرانسوی به انگلیسی رسیده‌اند: dēclīnāre ← فرانسهٔ کهن decliner ← انگلیسی میانه declinen (حدود ۱۳۰۰م)؛ inclīnāre ← encliner/incliner ← enclinen؛ reclīnāre دیرتر همچون واژه‌ای عالمانه وارد شد (۱۵۲۰م به معنی «خواباندن»، ۱۶۶۰م «به عقب تکیه دادن»)؛ و cliēns/clientem ← انگلیسی-فرانسوی clyent (حدود ۱۳۰۰م) ← client «کسی که در پناه دیگری می‌زید» (اواخر سدهٔ چهاردهم)، و از حدود ۱۴۰۰م «موکّل». پیشوندهای لاتینی dē- «فرود»، in- «به‌سوی» و re- «بازپس» بر همان ستاک *ḱli-n- نشسته‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/client"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985 klei- I.1 lists exactly 'DECLINE, INCLINE, RECLINE' under Latin -clīnāre and II.3 'CLIENT' under cliēns; the index lines 1416/1676/2174 confirm 'DECLINE klei-', 'INCLINE klei-', 'RECLINE klei-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. client",
+              "stance": "supports",
+              "note": "'client, n. — F., fr. L. clientem, acc. of cliens, \"retainer, follower, dependent\", lit. \"one who leans on another\"'."
+            },
+            {
+              "src": "POK",
+              "where": "IEW 600-602",
+              "stance": "supports",
+              "note": "Latin clīno/-clīnāre and cliens are both listed as reflexes of ḱlei-."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Germanic",
+          "words": "hliněn; hlaider; hlid",
+          "verdict": "plausible",
+          "derivation": "Three Proto-Germanic formations on the zero grade *hli- (< PIE *ḱli-): (a) *hlinēn 'to lean' (weak verb, OHG (h)linēn, OS hlinon, OE hlinian/hleonian) — Nourai's 'hliněn' with ě = ē is exact; (c) *hlid- 'cover, that which bends over' (OE hlid, ON hlið, OHG hlit) — exact. (b) is the weak point: the standard reconstruction of the ladder word is *hlaidri- / *hlaidrī (OE hlǣd(d)er, OFris. hledere, OHG leitara, Ger. Leiter), and no Germanic *hlaider is reconstructed with that shape; Nourai's 'hlaider' is a simplified quasi-Old-English spelling rather than a real Proto-Germanic form. The derivations themselves are all standard; only the middle form is loosely written, so plausible rather than confirmed.",
+          "derivation_fa": "سه ساخت ژرمنی آغازین بر پایهٔ درجهٔ صفر *hli- (از *ḱli- هندواروپایی): (الف) *hlinēn «تکیه دادن» (فعل ضعیف؛ آلمانی علیای کهن (h)linēn، ساکسون کهن hlinon، انگلیسی کهن hlinian/hleonian) — همان «hliněn» نورایی، که در آن ě نشانهٔ ē است؛ (ج) *hlid- «سرپوش، آنچه روی چیزی خم می‌شود» (انگلیسی کهن hlid، نورس کهن hlið، آلمانی علیای کهن hlit) — درست. اما (ب) سست است: بازسازی پذیرفته برای واژهٔ «نردبان» *hlaidri-/*hlaidrī است (انگلیسی کهن hlǣd(d)er، فریزی کهن hledere، آلمانی علیای کهن leitara، آلمانی Leiter) و صورتی به شکل *hlaider در ژرمنی آغازین بازسازی نشده است؛ «hlaider» نورایی املایی ساده‌شده و شبه‌انگلیسی‌کهن است نه صورت ژرمنی آغازین. خودِ اشتقاق‌ها همه معیارند و تنها صورت میانی سرسری نوشته شده؛ ازاین‌رو «با احتیاط پذیرفتنی است».",
+          "sources": [
+            "https://www.etymonline.com/word/ladder",
+            "https://www.etymonline.com/word/lid"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1523",
+              "status": "partial",
+              "note": "AHD_watkins1985 line 635 gives 'Germanic *hlid-, \"that which bends over,\" cover, in Old English hlid, cover: LID' and '*kli-n- in Germanic *hlinēn, in Old English hlinian and hleonian, to lean: LEAN', but for the ladder III reads 'Suffixed o-grade form *kloi-tr- in Germanic *hlaidr- in Old English hlǣd(d)er, ladder: LADDER' — *hlaidr-, not 'hlaider'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. ladder",
+              "stance": "partial",
+              "note": "'ladder, n. — ME. laddre, fr. OE. hlǣder, hlædder, rel. to OFris. hledere, MDu. ledere ..., OHG. leitara ... fr. I.-E. base *kli-' — the Germanic base is *hlaidr-, no form 'hlaider'."
+            },
+            {
+              "src": "POK",
+              "where": "IEW 600-602",
+              "stance": "supports",
+              "note": "'Old High German (h)linēn \"lean\" ... Old High German (h)leitara \"ladder\", Old English hlǣd(d)er ds.; Old English -hlīdan \"cover\", hlid n. \"cover, door\", Old High German lid \"cover\"'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, IEC.txt line 8928",
+              "stance": "supports",
+              "note": "'WP I, 490 ... OHG hlinen \"lean, lie down\"; MHG linen, lenen; OS hlinon; OE hlinian \"lean, lie down\"'."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "English",
+          "words": "lean; ladder; lid",
+          "verdict": "confirmed",
+          "derivation": "The three English words are the direct inherited continuations of the Germanic forms in the box above: OE hlinian/hleonian > ME lenen > lean (the initial hl- cluster lost its h in early Middle English, as in hlāf > loaf); OE hlǣd(d)er > ME laddre > ladder (the same hl- > l-, with -dd- from the geminate); OE hlid 'covering, opening, gate' > ME lid > lid, with 'eyelid' from the early 13th century. All three are attested in Old English, so no borrowing is involved anywhere in this branch.",
+          "derivation_fa": "این سه واژهٔ انگلیسی بازماندگان ارثیِ مستقیم صورت‌های ژرمنی خانهٔ بالایند: انگلیسی کهن hlinian/hleonian ← انگلیسی میانه lenen ← lean (خوشهٔ آغازین hl- در آغاز دورهٔ انگلیسی میانه h خود را از دست داد، مانند hlāf ← loaf)؛ انگلیسی کهن hlǣd(d)er ← laddre ← ladder؛ انگلیسی کهن hlid «پوشش، در» ← lid، که از اوایل سدهٔ سیزدهم معنی «پلک» نیز یافته است. هر سه در انگلیسی کهن گواهی شده‌اند، پس در این شاخه هیچ وام‌گیری در کار نیست. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/ladder",
+            "https://www.etymonline.com/word/lid"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985 index lines 1726, 1739, 1742: 'LADDER klei-', 'LEAN! klei-', 'LID. klei-'; the klei- entry itself routes each through the Old English forms."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966 s.v. ladder",
+              "stance": "supports",
+              "note": "'ladder, n. — ME. laddre, fr. OE. hlǣder ... See lean, v., and cp. climax, clinical.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 9844 s.v. Ladder",
+              "stance": "supports",
+              "note": "'Ladder. (E.) ME. laddre. A.S. hlæder, a ladder. + Du. ladder ...; O.H.G. hleitra, G. Leiter, a ladder.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Klem",
+      "verdict": "plausible",
+      "modern_form": "PIE *klem- / *klēm- 'weak, ailing, feeble' (Pokorny, IEW 602-603)",
+      "note": "The root exists and the page is right (Pokorny klem-, klēm-, klēmi-, IEW 602-603, so POK:602 is exact), but Nourai's gloss 'tired, loose, dull' is a paraphrase: Pokorny's meaning is 'weak, ailing, feeble' (schwach, kränklich, matt), and 'loose' has no basis. More importantly the root is one of Pokorny's shakier entries — he prints the caveat '(barely better as klem-: klām- must be assumed)' and, on the very Sanskrit material this chart rests on, 'the ambiguity of the liquid complicates the judgment' (śram- beside klam-). Its firm members are Skt. klāmyati 'grows tired', Gk. κλαμαρόν · ἀσθενῆ (Hesychius) and OIr. clam 'leper'; the Indo-Iranian śram- family is attached with reservation, and Mayrhofer's EWAia leaves śram- without a secure PIE root. The Iranian half of the chart (Pahlavi and Persian šaman) is, by contrast, very well documented — but as a Buddhist loanword from Middle Indic, not as an inherited descent from PIE, and Mo'in's footnote in Borhān-e Qāṭeʿ says so explicitly, citing Henning.",
+      "note_fa": "ریشه وجود دارد و شمارهٔ صفحه درست است (پوکورنی klem-, klēm-, klēmi-، صفحهٔ ۶۰۲–۶۰۳؛ پس POK:602 دقیق است)، اما معنایی که نورایی داده («خسته، سست، کودن») بازگویی آزاد است: معنای پوکورنی «ناتوان، بیمارگون، سست» است و «loose/سست‌بودن» پایه‌ای ندارد. مهم‌تر آنکه این یکی از مدخل‌های لرزان پوکورنی است؛ خود او هشدار می‌دهد که «به‌سختی می‌توان klem- : klām- را بهتر فرض کرد» و دربارهٔ همین مادهٔ سنسکریتی که نمودار بر آن استوار است می‌نویسد «دوگانگی روان‌واک داوری را دشوار می‌کند» (śram- در برابر klam-). اعضای استوار این ریشه klāmyati سنسکریت، κλαμαρόν یونانی (هزیخیوس) و clam ایرلندی کهن «جذامی» است؛ خانوادهٔ هندوایرانی śram- با احتیاط بدان پیوسته شده و مایرهوفر در EWAia برای śram- ریشهٔ هندواروپاییِ مطمئنی نمی‌آورد. در مقابل، نیمهٔ ایرانی نمودار (شمن پهلوی و فارسی) بسیار خوب مستند است — اما همچون وام‌واژه‌ای بودایی از هندی میانه، نه بازماندهٔ ارثی هندواروپایی؛ و حاشیهٔ معین در برهان قاطع، به نقل از هنینگ، آشکارا همین را می‌گوید.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE",
+        "https://en.wiktionary.org/wiki/shaman"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:602",
+          "status": "supports",
+          "note": "POK_full.txt line 47419ff.: 'Root / lemma: klem-, klēm-, klēmi- | Meaning: weak, ailing, feeble | Note: (barely better as klem- : klām- must be assumed) | Material: Old Indic offers on the one hand klāmyati, klamati \"becomes tired, grows tired\", on the other hand śramyati ..., śramaṇa- \"castigating, mendicant\" is to East Asiatic languages as Schamane \"shaman, magician\" ... gr. κλαμαρόν· ἀσθενῆ Hes.; Old Irish clam \"leper\" ... References: WP. I 498. Page(s): 602-603'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny I 498 (Pokorny's own reference for klem-)",
+          "stance": "supports",
+          "note": "IEW's 'References: WP. I 498' — the root is Walde-Pokorny's, taken over unchanged into IEW."
+        },
+        {
+          "src": "AHD",
+          "where": "grep 'klem-' in AHD_watkins1985.txt",
+          "stance": "silent",
+          "note": "Watkins does not admit a root klem- at all (no English reflex), so the AHD appendix is silent on this entry — a sign of how marginal the root is."
+        },
+        {
+          "src": "BQT",
+          "where": "Borhān-e Qāṭeʿ vol. 3 p. 1296, Mo'in's footnote",
+          "stance": "partial",
+          "note": "Mo'in traces شمن to Sanskrit śramaṇa via Manichaean Middle Persian but says nothing about a Proto-Indo-European root; the Iranian chain is a loan chain, not a genetic one."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sanskrit",
+          "words": "sramana, saman",
+          "verdict": "plausible",
+          "derivation": "Sanskrit श्रमण śramaṇá- is real and is exactly the word that gives the whole branch, but Nourai's gloss inverts its sense. It is built on the root śram- 'to toil, exert oneself, wear oneself out (esp. with religious austerities)' (śrāmyati, śrama- m. 'toil, weariness'), so śramaṇá- means 'one who exerts himself, ascetic, mendicant', and only secondarily 'Buddhist/Jain monk' — not 'a dull person'. Pokorny does put śramyati under klem- 'weak, ailing, feeble' (the semantic bridge being 'wear oneself out' → 'be weary'), and he explicitly connects śramaṇa- with the word Schamane; but he flags the difficulty himself ('the ambiguity of the liquid complicates the judgment', śram- beside klam-), and Mayrhofer's EWAia gives śram- no secure PIE etymology. The second form 'saman' is not Sanskrit at all: it is the Middle Indic (Pali/Prakrit) samaṇa, which is what Mo'in's footnote in Borhān-e Qāṭeʿ actually cites, and which is the shape that reached Iranian and Chinese. Hence plausible: right word, wrong gloss, and one form mislabelled.",
+          "derivation_fa": "سنسکریت श्रमण śramaṇá- واژه‌ای واقعی است و سرچشمهٔ همهٔ این شاخه، اما معنایی که نورایی داده وارونه است. این واژه از ریشهٔ śram- «کوشیدن، رنج بردن، خود را در ریاضت فرسودن» ساخته شده (śrāmyati، śrama- «رنج، خستگی»)، پس śramaṇá- یعنی «آن‌که خود را به رنج می‌افکند، مرتاض، زاهد» و تنها به‌طور ثانوی «راهب بودایی/جینی» — نه «آدم کودن». پوکورنی śramyati را زیر klem- «ناتوان، بیمارگون، سست» آورده (پل معنایی: «خود را فرسودن» ← «خسته بودن») و آشکارا śramaṇa- را به Schamane پیوند می‌زند؛ ولی خود او دشواری کار را گوشزد می‌کند («دوگانگی روان‌واک [r/l] داوری را دشوار می‌کند»، śram- در برابر klam-) و مایرهوفر در EWAia برای śram- ریشه‌شناسی هندواروپایی مطمئنی نمی‌آورد. صورت دوم «saman» اصلاً سنسکریت نیست: همان samaṇa هندی میانه (پالی/پراکریت) است — همان که معین در حاشیهٔ برهان قاطع نقل می‌کند و همان صورتی که به ایرانی و چینی رسیده است. پس: واژه درست، معنا نادرست، و یکی از دو صورت برچسبِ زبانی نادرست دارد؛ «با احتیاط پذیرفتنی است».",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%A3",
+            "https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:602",
+              "status": "supports",
+              "note": "POK_full.txt line 47419ff.: 'Root / lemma: klem-, klēm- | Meaning: weak, ailing, feeble | Material: Old Indic ... śramyati \"becomes tired, struggles, castigates oneself\", śrānta- \"fatigued, exhausted\", śrama- m. \"fatigue, tiredness\"; śramaṇa- \"castigating, mendicant\" is to East Asiatic languages as Schamane \"shaman, magician\" ... Page(s): 602-603'. Pokorny thus carries both the word and the shaman connection Nourai builds on — though he adds '(Indo Germanic change chain of events?); also the ambiguity of the liquid complicates the judgment'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny I 498 (as cited by IEW)",
+              "stance": "supports",
+              "note": "Pokorny's own 'References: WP. I 498' for klem-, i.e. Walde-Pokorny is where the Sanskrit material is set out."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān-e Qāṭeʿ vol. 3, printed p. 1296, Mo'in's footnote 1 s.v. شمن",
+              "stance": "partial",
+              "note": "'«شرمنه» در سانسکریت کسی است که خانه و کسان خود را ترک گوید و در خلوت به ریاضت و عبادت گذراند ... زاهد و تارک دنیا. در زبان پالی ... این واژه samaṇa آمده است' — Mo'in glosses śramaṇa as 'ascetic, world-renouncer', not 'dull', and assigns samaṇa to Pali, not Sanskrit."
+            },
+            {
+              "src": "IEC",
+              "where": "grep 'klem-|sramana' in IEC.txt",
+              "stance": "silent",
+              "note": "Mann has no entry joining śram- to klem-; no support, no contradiction."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "šaman",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian/Parthian šmn /šaman/ 'Buddhist monk' is attested in the Manichaean documents from Turfan (Henning, 'A List of Middle Persian and Parthian Words', BSOS IX/1, p. 88), beside Sogdian šmn 'monk'. It is a Buddhist technical term borrowed into Iranian from Middle Indic — Gāndhārī ṣamana / Prakrit-Pali samaṇa < Skt. śramaṇa — in the Kushan and post-Kushan Buddhist milieu of Bactria and Sogdiana, whence Chinese 沙門 shāmén and Tocharian B ṣamāne. So the arrow is a borrowing, not an inheritance (an inherited Iranian reflex of PIE *ḱlem- would not look like this), and the gloss shifts from 'Buddhist monk' in Middle Persian to 'idol-worshipper' in the Islamic-period sources, once Buddhist and Hindu images were the paradigm of 'idols' for Muslim Persians. MacKenzie's Book-Pahlavi dictionary has no entry because the word is confined to the Manichaean corpus.",
+          "derivation_fa": "صورت فارسی میانه/پارتی šmn ‏/šaman/ «راهب بودایی» در اسناد مانوی تورفان گواهی شده است (هنینگ، فهرست واژه‌های فارسی میانه و پارتی، BSOS، جلد ۹ بخش ۱، ص ۸۸)، در کنار سغدی šmn «راهب». این اصطلاحی بودایی است که از هندی میانه — گاندهاری ṣamana / پالی و پراکریت samaṇa، از سنسکریت śramaṇa — در محیط بودایی بلخ و سغد دورهٔ کوشانی و پس از آن به ایرانی راه یافته و از همان‌جا به چینی 沙門 shāmén و تخاری ṣamāne رسیده است. پس این پیکان وام‌گیری است نه وراثت (بازماندهٔ ارثیِ *ḱlem- در ایرانی چنین صورتی نمی‌یافت)، و معنا از «راهب بودایی» در فارسی میانه به «بت‌پرست» در متون دورهٔ اسلامی گراییده است، چون برای مسلمانان ایرانی پیکره‌های بودایی و هندو نمونهٔ آشکار «بت» بودند. فرهنگ پهلوی مکنزی این واژه را ندارد، زیرا تنها در پیکرهٔ مانوی به کار رفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%85%D9%86",
+            "https://en.wiktionary.org/wiki/shaman"
+          ],
+          "ref_check": [
+            {
+              "ref": "TZF:77",
+              "status": "not_checked",
+              "note": "Abolghasemi, Tārikh-e Mokhtaṣar-e Zabān-e Fārsi (Bonyād-e Andisheh-ye Eslāmi 1373) — refs_online.json records no downloadable copy (ketabnak requires login; not on archive.org), so p. 77 could not be read."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhān-e Qāṭeʿ vol. 3, printed p. 1296, Mo'in's footnote 1 s.v. شمن",
+              "stance": "supports",
+              "note": "'در اوراق مانوی (پهلوی/پارتی) shmn (از سانسکریت śramaṇa، راهب بودایی): Henning, A list of Middle Persian…, BSOS, IX, 1, p. 88.' — exactly Nourai's Sanskrit → Pahlavi arrow, with the primary reference. Page confirmed from the scan's running head '-۱۲۹۶-' with catchword «شمن» (pdftoppm page 83 of BQT_v3_picofile.pdf); saved as data/verification/sources/refs/ocr/BQT/1296.vision.txt."
+            },
+            {
+              "src": "PHD",
+              "where": "grep 'šaman|šmn' in PHD.txt / PHD_mackenzie.txt",
+              "stance": "silent",
+              "note": "MacKenzie has no šaman; the only smn is yāsaman 'jasmine'. Expected: CPD covers Book Pahlavi, not the Manichaean lexicon."
+            },
+            {
+              "src": "NYB",
+              "where": "grep 'šaman|šmn' in NYB_vol2_glossary.txt",
+              "stance": "silent",
+              "note": "Nyberg's glossary (Book-Pahlavi texts) has only dušman, hešm-manīhā — no šaman."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "šaman «شَمَن»",
+          "verdict": "confirmed",
+          "derivation": "New Persian شَمَن šaman 'idol-worshipper; Buddhist or Brahmin monk' is the direct inheritance of Middle Persian šaman, with no phonetic change at all (MP šaman > NP šaman); Mo'in tags the word '[په.]' = Pahlavi. Borhān-e Qāṭeʿ defines it 'بر وزن چمن، بت‌پرست را گویند' and gives the plural شمنان 'بت‌پرستان'. It is a stock word of classical poetry for the pagan/Buddhist worshipper, standing beside بت 'idol' and often paired with صنم — Rudaki 'این جهان چون بت است و ما شمنیم', Amir Moʿezzi 'به عاشقی چو من ایزد نیافرید شمن', and the Ferdowsi couplet Nourai quotes, 'agar tāj-e Irān sepārad be man / parastesh konam čon botān rā šaman' ('if he hands me the crown of Iran, I shall worship [him] as the šaman worships idols'). English shaman is a separate, much later arrival (German Schamane < Russian šamán < Evenki samān), whose link to śramaṇa is debated — Persian شمن is not its source.",
+          "derivation_fa": "«شَمَن» در فارسی نو «بت‌پرست؛ راهب بودایی یا برهمایی» بازماندهٔ مستقیم فارسی میانهٔ šaman است، بی هیچ دگرگونی آوایی؛ معین آن را «[په.]» یعنی پهلوی برچسب می‌زند. برهان قاطع می‌آورد: «شمن، بر وزن چمن، بت‌پرست را گویند» و جمع آن «شمنان … که بت‌پرستان باشد». این واژه در شعر کلاسیک در کنار «بت» و «صنم» می‌نشیند: رودکی «این جهان چون بت است و ما شمنیم»، امیرمعزی «به عاشقی چو من ایزد نیافرید شمن»، و همان بیت فردوسی که نورایی آورده: «اگر تاج ایران سپارد به من / پرستش کنم چون بتان را شمن». واژهٔ انگلیسی shaman راهی جداگانه و بسیار دیرتر پیموده (آلمانی Schamane از روسی šamán از اونکی samān) و پیوندش با śramaṇa محل بحث است؛ «شمن» فارسی سرچشمهٔ آن نیست. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%85%D9%86",
+            "https://abadis.ir/fatofa/%D8%B4%D9%85%D9%86/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1296",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ, printed p. 1296 (confirmed from the running head '-۱۲۹۶-' and the catchword «شمن» on pdftoppm page 83 of BQT_v3_picofile.pdf; ref_page.py's default mapping lands one leaf off because of the mis-ordered scan around the 1291-1294 gap): 'شمن * بر وزن چمن، بت پرست را گویند' and 'شمنان ... جمع شمن است که بت‌پرستان باشد', with Mo'in's footnote deriving it from Manichaean MP/Parthian shmn < Skt. śramaṇa."
+            },
+            {
+              "ref": "ETM:37",
+              "status": "not_checked",
+              "note": "Abolghasemi, Rishe-shenāsi (Etimoloji), Qoqnus 1374 — refs_online.json: no digital copy on any permitted platform (catalogue/purchase entries only)."
+            },
+            {
+              "ref": "TZF:77",
+              "status": "not_checked",
+              "note": "Abolghasemi, Tārikh-e Mokhtaṣar-e Zabān-e Fārsi — no downloadable copy."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 86768 and abadis.ir 'فرهنگ معین' s.v. شمن",
+              "stance": "supports",
+              "note": "'شمن (شَ مَ) [ په. ] (اِ.) ۱- راهب بودایی یا برهمایی. ۲- بت‌پرست.' — Mo'in's own origin tag [په.] = Pahlavi is precisely Nourai's arrow."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 3 p. 1296",
+              "stance": "supports",
+              "note": "'بت پرست را گویند' — the gloss Nourai prints."
+            },
+            {
+              "src": "ARY",
+              "where": "Dehkhoda / Amid via abadis",
+              "stance": "supports",
+              "note": "Amid: '۱. مرتاض در میان بوداییان، راهب بودایی. ۲. [قدیمی] بت‌پرست', with the Rudaki and Amir Moʿezzi shawāhed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
