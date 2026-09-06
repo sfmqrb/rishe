@@ -1,0 +1,629 @@
+{
+ "pdf_page": 292,
+ "book_page": 262,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-06",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Kwen 2",
+   "verdict": "transcription_suspect",
+   "modern_form": "PIE *kʷem- 'to sip, swallow' (Pokorny IEW 640 f. k̯em-; Walde-Pokorny I 514 qʷem-)",
+   "error_in": "book",
+   "book_prints": "Kwen 2",
+   "correct_form": "Kwem 2 (PIE *kʷem-)",
+   "note": "The gloss ('sip, swallow' = Pokorny's 'schlürfen, schlucken'), the language label 'Indo-European' and the reference POK:640 are all exactly right: Pokorny IEW pp.640-641 heads the entry 'k̯em- ‚schlürfen, schlucken‘' and lists under it precisely the four items Nourai charts (Skt. camati/cāmati, NPers. čam / čamīδan, ablaut ō-grade NPers. kām 'Gaumen'). What is wrong is the LETTER of the root name: the root ends in -m, not -n. Nourai (or his typesetter) wrote 'Kwen 2' beside the genuine 'Kwen 1' (= PIE *kʷen- 'holy', POK 630, which he charts on page 291) and thereby created a phantom root. The printed page 262 of the book itself shows 'Kwen 2' in the root box and in the running head, so the extraction is faithful and the misprint is the author's. There is no PIE *kʷen- 'to sip' in Pokorny, Walde-Pokorny or Watkins/AHD; Watkins's only kʷen- is 'Holy' [Pok. kʷen- 630].",
+   "note_fa": "ریشهٔ اصلی *kʷem- «آشامیدن، فروبردن» است؛ پوکورنی در ص ۶۴۰–۶۴۱ سرواژه را «k̯em- schlürfen, schlucken» آورده و والده–پوکورنی (جلد ۱ ص ۵۱۴) همان را qʷem- می‌نویسد. معنی، برچسب زبانی و ارجاع POK:640 که نورایی داده کاملاً درست است و هر چهار مدخل نمودار (سنسکریت camati، فارسی čam و čamīdan، و صورت کشیدهٔ ō در «کام») دقیقاً در همان صفحهٔ پوکورنی آمده‌اند؛ اما نام ریشه در کتاب «Kwen 2» چاپ شده که پایانهٔ آن باید «م» باشد نه «ن». این خطای چاپی خودِ کتاب است، نه خطای خوانش اسکن: در تصویر صفحهٔ ۲۶۲ چاپی نیز همین «Kwen 2» دیده می‌شود. در پوکورنی و واتکینز هیچ ریشهٔ *kʷen- به معنی «آشامیدن» وجود ندارد؛ تنها *kʷen- «مقدس» (پوکورنی ۶۳۰) هست که نورایی خودش آن را «Kwen 1» در صفحهٔ پیشین آورده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%DA%A9%D8%A7%D9%85",
+    "https://en.wiktionary.org/wiki/%DA%86%D9%85%DB%8C%D8%AF%D9%86"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:640",
+     "status": "supports",
+     "note": "Pokorny IEW, read in POK_02.txt (awk 'BEGIN{RS=\"\\f\"} NR==301'), between the printed page markers '640' and '641': 'k̯em- ‚schlürfen, schlucken‘. Ai. cämati und camati ‚schlürft‘, Partiz. ācānta-, camasá- m. ‚Trinkschale, Becher‘, camū- ‚Schüssel‘; npers. čam ‚das Essen‘, čamīδan ‚trinken‘, osset. cumun ‚schlürfen‘; arm. kim-kʿ Pl. ‚faux, guttur‘; mit Ablautstufe ō: npers. kām ‚Gaumen‘, afghan. kūmai ds.' The page number is right; only the root's final consonant differs from Nourai's headword."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p.514 (WLD_Bd1_pages.txt, \\f-leaf 522, running head '514 qʷem — qʷel-')",
+     "stance": "supports",
+     "note": "'qʷem ‚schlürfen, schlucken‘. Ai. camati und cāmati ‚schlürft‘ … np. čam ‚das Essen‘, čamīdan ‚trinken‘, osset. cumin ‚schlürfen‘ … mit Ablautstufe ō, npers. kām ‚Gaumen‘, afghan. kūmai ds.' — the same four items, again under a root in -m."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 (AHD_watkins1985.txt), s.v. kʷen-",
+     "stance": "contradicts",
+     "note": "Watkins's only kʷen- is 'kʷen-. Holy. … [Pok. kʷen- 630.]'; his make-root is 'kʷer-1. To make … [Pok. 1. kʷer- 641.]'. He has no root 'kʷen- to sip' at all, confirming that the form in the book is a misprint for kʷem-."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Old Iranian",
+     "words": "čam",
+     "verdict": "confirmed",
+     "derivation": "Gershevitch reconstructs an Old Iranian verbal base *čam- 'to sip, drink' precisely as the chart has it, when explaining Av. čimaine (Yt 10.32): the Avestan stem čiman- is an -an- extension of that base. It is the regular Iranian continuation of PIE *kʷem-: PIE *kʷ- before a front vowel gives Indo-Iranian palatal *č- (satem palatalisation, as in *kʷe > Skt. ca, Av. ča), so *kʷem- > PII *čam- > Old Iranian *čam-, exactly matching Skt. camati. Ossetic cumun 'to sip' and Baluchi forms show the base outside Persian, so it is genuinely Old Iranian and not a Persian innovation.",
+     "derivation_fa": "ستاک ایرانی باستان *čam- «آشامیدن، نوشیدن» را گرشویچ در شرح واژهٔ اوستایی čimaine (یشت ۱۰ بند ۳۲) دقیقاً به همین صورت بازسازی کرده است. تحول آوایی روشن است: *kʷ هندواروپایی پیش از واکهٔ پیشین در هندوایرانی به č کامی بدل می‌شود (همان قانونی که *kʷe را به ca سنسکریت و ča اوستایی می‌رساند)، پس *kʷem- > *čam- ایرانی باستان، هم‌ریشه با camati سنسکریت. آسی cumun «هورت کشیدن» نشان می‌دهد که این ستاک تنها فارسی نیست بلکه ایرانی باستان است. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHM:184",
+       "status": "supports",
+       "note": "Gershevitch, The Avestan Hymn to Mithra, commentary note 32² (AHM.txt \\f-leaf 200; the page carries the running head '183 | 32.1-33.2] COMMENTARY', and the note runs on to the page headed '184 COMMENTARY §34.1-34.5', so Nourai's '184' lands on the same note): 'This stem I would analyse as an -an- extension … of the OIr. base *čam- ‚to sip, drink’, cf. Skt. camati, NPers. čam, čamīdan'. Word-for-word Nourai's node."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW p.640 (POK_02.txt leaf 301)",
+       "stance": "supports",
+       "note": "'npers. čam ‚das Essen‘, čamīδan ‚trinken‘, osset. cumun ‚schlürfen‘' under k̯em-."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 444, p.99 (HRN.txt leaf 120)",
+       "stance": "supports",
+       "note": "'444. (1)čam ‚Essen‘, čamīden ‚trinken‘. ai. √čam-, cāmati ‚schlürfen‘, oss. cimin, baǰdimin ‚schlürfen‘' — Horn keeps this čam strictly apart from the homonymous čam(īdan) 'to strut'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.514",
+       "stance": "supports",
+       "note": "Same Iranian set (np. čam, čamīdan, osset. cumin) listed under qʷem-."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "čamîdan 2",
+     "verdict": "confirmed",
+     "derivation": "NP چمیدن čamīdan 'to sip, drink' is the ordinary New Persian denominative/derived infinitive built on the present stem čam- (< OIr. *čam-) with the productive infinitive suffix -īdan (MP -ītan), the same formation as ramīdan, xamīdan. Both Pokorny (npers. čamīδan 'trinken') and Horn (no. 444, 'čam ‚Essen‘, čamīden ‚trinken‘') record it, but only from the classical lexica — hence Nourai's correct label 'obsolete'. The homograph چمیدن that survives in living Persian ('to strut, walk gracefully'), which Wiktionary derives from a different Proto-Iranian *čam- 'to walk' (a blend of *čarH- and *gam-), is a separate word, and Nourai rightly numbers this one '2'.",
+     "derivation_fa": "«چَمیدن ۲» صورت مصدری فارسی نو است که از ستاک حال čam- (از *čam- ایرانی باستان) با پسوند مصدرساز پرکاربرد ‌ـیدن (میانهٔ ‑ītan) ساخته شده، درست مانند رمیدن و خمیدن. هم پوکورنی (npers. čamīδan «نوشیدن») و هم هرن (شمارهٔ ۴۴۴: «čam خوردن، čamīden نوشیدن») آن را ثبت کرده‌اند، اما تنها از فرهنگ‌های کهن؛ از این‌رو برچسب «متروک» که نورایی زده درست است. «چمیدن» زنده در فارسی امروز به معنی «خرامیدن» واژه‌ای دیگر است و از *čam- «رفتن» می‌آید؛ نورایی به‌درستی این یکی را با شمارهٔ ۲ جدا کرده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%86%D9%85%DB%8C%D8%AF%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:640",
+       "status": "supports",
+       "note": "IEW p.640 s.v. k̯em-: 'npers. čam ‚das Essen‘, čamīδan ‚trinken‘' (POK_02.txt leaf 301)."
+      },
+      {
+       "ref": "AHM:184",
+       "status": "supports",
+       "note": "AHM commentary note 32² (leaf 200, printed p.183-184): '…the OIr. base *čam- ‚to sip, drink’, cf. Skt. camati, NPers. čam, čamīdan.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 444, p.99",
+       "stance": "supports",
+       "note": "'(1)čam ‚Essen‘, čamīden ‚trinken‘' — Horn's numbering (1) again separates it from (2)čam 'Sinn' and from čam 'to strut'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.514",
+       "stance": "supports",
+       "note": "'np. čam ‚das Essen‘, čamīdan ‚trinken‘.'"
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/چمیدن (archived)",
+       "stance": "partial",
+       "note": "Wiktionary lists only the living sense 'to strut, walk proudly' < PIr. *čam- 'to walk'; it does not know the 'drink' homonym, which survives only lexicographically — consistent with Nourai's '(obsolete)'."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "kâm 2",
+     "verdict": "confirmed",
+     "derivation": "NP کام kām 'palate, roof of the mouth' continues the lengthened/ō-grade of the same root, PIE *kʷōm- > OIr. *kām- 'the swallowing part', i.e. the organ named from the act; Pokorny states this explicitly ('mit Ablautstufe ō: npers. kām ‚Gaumen‘, afghan. kūmai ds.'), and Pashto kūmai is the decisive Iranian witness that the ō-grade is old and not a Persian ad-hoc form. Note that the *kʷ- here does NOT palatalise, because in the ō/ā-grade it stands before a back vowel — which is exactly why the same root yields č- in čam but k- in kām. This kām is homonymous with, and etymologically unrelated to, kām 'desire' (< OP kāma-, PIE *keh₂-), which is why Nourai numbers it '2'.",
+     "derivation_fa": "«کام ۲» به معنی سقف دهان بازماندهٔ صورت کشیدهٔ همان ریشه است: *kʷōm- هندواروپایی > *kām- ایرانی باستان، یعنی اندام را از کارِ «فروبردن» نام‌گذاری کرده‌اند. پوکورنی صریحاً می‌نویسد: «با درجهٔ ō: npers. kām ‚Gaumen‘، افغانی kūmai». نکتهٔ آوایی مهم آن است که *kʷ در این درجه پیش از واکهٔ پسین قرار می‌گیرد و کامی نمی‌شود؛ از همین‌روست که یک ریشه در «چم» به č و در «کام» به k رسیده است. این «کام» با «کام» به معنی آرزو (از kāma- پارسی باستان، ریشهٔ *keh₂-) هم‌آواست ولی هم‌ریشه نیست، و شمارهٔ ۲ نورایی همین را نشان می‌دهد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%A9%D8%A7%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:640",
+       "status": "supports",
+       "note": "IEW p.640 f. s.v. k̯em-: 'mit Ablautstufe ō: npers. kām ‚Gaumen‘, afghan. kūmai ds.' (POK_02.txt leaf 301) — Nourai's node verbatim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.514",
+       "stance": "supports",
+       "note": "'mit Ablautstufe ō, npers. kām ‚Gaumen‘, afghan. kūmai ds. Lidén Arm. St. 19 f.'"
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/کام (archived)",
+       "stance": "silent",
+       "note": "Wiktionary's Persian entry marks the 'palate' sense '(This etymology is missing or incomplete)'; it gives a full chain only for کام 'desire' (< MP kʾm, OP kāma-, PIr *káHmah, PIE *kóh₂mos). No modern source contradicts Pokorny."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Sanskrit",
+     "words": "čamati, camati",
+     "verdict": "confirmed",
+     "derivation": "Skt. camati / cāmati 'sips, slurps' (RV+) is the Indic member of the equation and the form on which the whole root is built; the by-form with long ā is the Vedic/epic variant. From PIE *kʷem- with the regular Indo-Iranian palatalisation *kʷe- > ča-. The nominal derivatives quoted by Pokorny on the same page — camasá- 'drinking cup, goblet' and camū- 'bowl' — show that the root was firmly established in Old Indic. Nourai's double spelling 'čamati, camati' simply renders the two Sanskrit variants camati and cāmati (his 'č' = c [tʃ]).",
+     "derivation_fa": "camati / cāmati سنسکریت «هورت می‌کشد، می‌نوشد» (از ریگ‌ودا به بعد) عضو هندی این معادله است و ریشه بر پایهٔ همین صورت بازسازی شده. تحول آوایی همان قاعدهٔ هندوایرانی است: *kʷe- > ča-. مشتق‌های نامی که پوکورنی در همان صفحه می‌آورد — camasá- «جام» و camū- «کاسه» — نشان می‌دهند که ریشه در هندی باستان کاملاً جاافتاده بوده است. دو نویسهٔ «čamati, camati» در نمودار در واقع همان دو گونهٔ camati و cāmati است. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "POK:640",
+       "status": "supports",
+       "note": "IEW p.640: 'Ai. cämati und camati ‚schlürft‘. Partiz. ācānta-, camasá- m. ‚Trinkschale, Becher‘, camū- m. ‚Schüssel‘' (POK_02.txt leaf 301)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.514",
+       "stance": "supports",
+       "note": "'Ai. camati und cāmati ‚schlürft‘, ā-camati ‚schlürft (Wasser) ein, spült sich den Mund aus‘, ptc. ācānta-, camasá-ḥ ‚Trinkschale, Becher‘, camū-ḥ ‚Schüssel‘.'"
+      },
+      {
+       "src": "HRN",
+       "where": "no. 444, p.99",
+       "stance": "supports",
+       "note": "'ai. √čam-, cāmati (skr. camayati) ‚schlürfen‘' cited as the cognate of NP čam / čamīden."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Kwer, Qwer",
+   "verdict": "confirmed",
+   "modern_form": "PIE *kʷer- 'to do, make, construct' (Pokorny IEW 641 f. 1. k̯er-; Watkins/AHD kʷer-1; LIV 391)",
+   "note": "Root name, language label, gloss and the page reference are all correct. Pokorny IEW p.641 heads '1. k̯er- ‚machen, gestalten‘' (i.e. 'to make, form' — Nourai's gloss is a literal translation) and opens the entry with Ai. karóti/kṛṇóti, Av. kərənaoiti, OP akunavam / karta-, exactly the Indo-Iranian branch this chart develops. Nourai's second headword 'Qwer' is only his alternative transcription of the labiovelar. Watkins (AHD) gives 'kʷer-1. To make … [Pok. 1. kʷer- 641.]' and Cheung 2007 s.v. *kar closes his entry with '*PIE *kʷer- ‚to do, make, construct’ = LIV: 391 | Pok.: 641' — Nourai's exact reference. Beyond the root the chart is uneven: the New Persian and Old Persian core (kardan, -gar, paykar, paykār, -gird, Yazdgerd, šāgird, angārdan) is solidly documented, but three items — aiwiš-kar/šekār, kahr-mān/qahramān and Lājvard — belong to other etymologies in modern scholarship, and Nourai's own authority Horn explicitly rejects two of them.",
+   "note_fa": "نام ریشه، برچسب زبانی، معنی و شمارهٔ صفحه همه درست است. پوکورنی در ص ۶۴۱ سرواژه را «1. k̯er- machen, gestalten» آورده و بی‌درنگ karóti/kṛṇóti سنسکریت، kərənaoiti اوستایی و akunavam / karta- پارسی باستان را برمی‌شمارد؛ یعنی همان شاخهٔ هندوایرانی که این نمودار می‌گستراند. «Qwer» تنها گونهٔ دیگری از آوانگاری همان همخوان لبی‌کامی است. واتکینز (AHD) «kʷer-1 To make [Pok. 1. kʷer- 641]» دارد و چونگ (۲۰۰۷) ذیل *kar می‌نویسد: «PIE *kʷer- to do, make, construct؛ LIV 391، پوکورنی ۶۴۱» — دقیقاً همان ارجاع نورایی. اما بدنهٔ نمودار یکدست نیست: هستهٔ فارسی و پارسی باستان (کردن، ‑گر، پیکر، پیکار، ‑گرد، یزدگرد، شاگرد، انگاردن) با اسناد استوار تأیید می‌شود، ولی سه مورد — شکار، قهرمان و لاجورد — در پژوهش امروزی ریشه‌ای دیگر دارند و هرن، که خودِ نورایی به او ارجاع می‌دهد، دوتای آنها را صریحاً رد کرده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7er-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:641",
+     "status": "supports",
+     "note": "Pokorny IEW p.641 (POK_02.txt \\f-leaf 301, between the printed markers '641' and '642'): '1. k̯er- ‚machen, gestalten‘. Vielleicht ursprünglich von irgendeiner nicht mehr bestimmbaren Handwerkstätigkeit. Ai. karóti (Imper. kuru), kṛṇóti ‚macht, vollbringt‘, Partiz. kṛtá-; … av. kərənaoiti ‚macht, vollführt, tut‘, kərəitay- ‚Tat‘, Infin. kərətōe, apers. akunavam, karta-.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I pp.517-518 (WLD_Bd1_pages.txt leaves 525-526, running heads 'qʷel qʷer- 517' and '518 qʷer-')",
+     "stance": "supports",
+     "note": "The same entry in its first edition, with the Indic, Iranian, Celtic (mir. creth, cymr. prydu) and Baltic (lit. kuriù, kùrti ‚bauen‘) material Pokorny later repeats."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. kʷer-1 (AHD_watkins1985.txt)",
+     "stance": "supports",
+     "note": "'kʷer-1. To make. 1. Sanskrit karoti, he makes: SANSKRIT. … 4. Suffixed form *kʷer-mn̥ in Sanskrit karma, act, deed: KARMA. [Pok. 1. kʷer- 641.]'"
+    },
+    {
+     "src": "CHEUNG",
+     "where": "Etym. Dict. of the Iranian Verb, s.v. *kar 'to do, make', pp.236-238 (CHEUNG.txt ll.15768-15925)",
+     "stance": "supports",
+     "note": "Closes with '*PIE *kʷer- ‚to do, make, construct’ = LIV: 391 | Pok.: 641' and lists Av. kar-, OP kar-, MP kun-/kird-, NP kardan with the very preverb-compounds this chart charts (*pati-, *ham-, *ni-, *ui-, *us-)."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck §9.11 DO, MAKE, p.537 (SYN.txt leaf 588)",
+     "stance": "supports",
+     "note": "Buck's 'DO, MAKE' table gives 'Av. kar-, varəz-' and 'Skt. kar-' for this notion; §9.83 (p.628) then derives OPers. patikara- from 'pati- ‚over against‘ and kar- ‚make‘'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "kar 1, kara 1; kara-manah; paiti-kâra; paiti-kara; aiwiš-kar; wi-kâr",
+     "verdict": "disputed",
+     "derivation": "Four of the six items are solid, two are not. (a) kar-/kara-: Av. kar- 'to do, make' (pres. kərənaoiti), OP kar- (akunavam, akutā, ptc. karta-), and the agent-noun kara- 'doer, maker' as second member of compounds (Kent, Old Persian, Lexicon s.v. kara-) — the direct Iranian reflex of *kʷer-. (b) paiti-kāra 'work against, fight': Horn no. 360 reconstructs 'aw. *paitikāra-' for NP peikār, comparing Av. paiti.kərənaot (Vd 2,6) and Phl. patkār 'Kampf', patkārītan; Nyberg's glossary p.157 has 'patkār, pitkār: quarrel, controversy, dispute … NP patkār'. (c) paiti-kara 'form against (like) something': OP patikara- 'picture, (sculptured) likeness' is directly attested (DB 4.71,77,78; DNa 41; DSn 1), and Kent analyses it as kara- 'with passive meaning, ‚thing made‘'; Buck p.628 spells it out: 'OPers. patikara- used of the figures sculptured in relief (NPers. paikar ‚face, form, portrait‘), cpd. of pati- ‚over against‘ and kar- ‚make‘, hence lit. ‚something made in likeness‘'. (d) wi-kār 'to digest': Abolqasemi FFD p.75 reconstructs Old Iranian *wi-kār-a- / *wi-kār-ta- for MP wigār- / NP gowār-, with wi- a verbal preverb and kār the lengthened grade of kar 'to do'. — DISPUTED: (e) 'aiwiš-kar' is not an attested Avestan compound; it is de Lagarde's conjecture, and Horn no. 786, who reports it, at once refuses Nourai's root: 'aw. *aiwiš + √kar- (de Lagarde) — aber dann gewiss NICHT zu √kar- ‚tun, machen‘, wie de Lagarde will, sondern zu √kar- in np. nigār, nigerīden'. Cheung 2007 removes it from *kar altogether, setting up a separate purely Iranian root *skar 'to pursue, drive, look for (the cattle)' (Parth. ʾškr- 'to hunt', BMP wiškar 'hunting-ground', škarag 'bird of prey') of which he says 'This root is exclusively Ir.; no reliable IE cognates can be cited.' (f) 'kara-manah' is likewise not attested in Avestan or Old Persian; it is Nourai's back-formation from qahramān, for which see node #2.",
+     "derivation_fa": "چهار واژه از شش واژهٔ این جعبه استوار است و دو تای دیگر نه. الف) kar-/kara-: اوستایی kar- «کردن» (حال kərənaoiti)، پارسی باستان kar- (akunavam، اسم مفعول karta-) و اسم فاعلِ kara- «کننده» در ترکیب‌ها (کنت، واژه‌نامهٔ پارسی باستان) — بازتاب مستقیم *kʷer-. ب) paiti-kāra: هرن (شمارهٔ ۳۶۰) برای «پیکار» صورت اوستایی *paitikāra- را بازسازی می‌کند و پهلوی patkār «کارزار» را گواه می‌گیرد؛ نیبرگ نیز در ص ۱۵۷ «patkār: نزاع، ستیز؛ فارسی نو patkār» دارد. ج) paiti-kara: patikara- پارسی باستان «تندیس، نگاره» در کتیبه‌ها (بیستون ۴٫۷۱ و ۷۷ و ۷۸؛ نقش رستم ۴۱) به‌روشنی گواهی شده و باک (ص ۶۲۸) آن را «ساختهٔ به‌مانندِ چیزی» از pati- + kar- می‌داند. د) wi-kār: ابوالقاسمی در «فعل‌های فارسی دری» ص ۷۵ برای «گواردن» صورت ایرانی باستان *wi-kār-a- را می‌آورد که wi پیشوند فعلی و kār صورت بالندهٔ ریشهٔ kar «کردن» است. — اما: هـ) «aiwiš-kar» ترکیبی اوستایی گواهی‌شده نیست؛ حدس دُلاگارد است و هرن (شمارهٔ ۷۸۶) که آن را نقل می‌کند بی‌درنگ ریشهٔ نورایی را رد می‌کند: «اوستایی *aiwiš + √kar- — اما در آن صورت قطعاً نه از √kar «کردن، ساختن» چنان‌که دُلاگارد می‌خواهد، بلکه از همان √kar که در نگار و نگریدن هست». چونگ (۲۰۰۷) آن را یکسره از *kar بیرون می‌برد و ریشهٔ جداگانه و صرفاً ایرانیِ *skar «راندن، پی‌جویی کردن» می‌گذارد و می‌نویسد «این ریشه منحصراً ایرانی است؛ هیچ هم‌ریشهٔ هندواروپایی معتبری برای آن نمی‌توان آورد». و) «kara-manah» نیز در اوستا و پارسی باستان گواهی ندارد و ساختِ قهقرایی نورایی از «قهرمان» است (بنگرید به گرهٔ ۲). پس حکم این گره: بخش اصلی درست، ولی دو واژه پژوهش امروزی را با خود ندارد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%DA%A9%D8%B1",
+      "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B1",
+      "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%A7%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "NYB:157",
+       "status": "supports",
+       "note": "Nyberg, Manual of Pahlavi II, Glossary, printed p.157 (NYB_vol2_glossary.txt \\f-leaf 173, running head '157 patkarītan'): 'patkar [ptkly, Prth ptkr] image ŠPrs: 3. 14. Prth:4. — OP pati-kara-; MPrs phykr; Arm. lw. patker; Syr. Talm. lw. ptakrā ‚an idol‘ … NP paikar.' and 'patkār [ptkʾl], pitkār: quarrel, controversy, dispute … MPrs phykʾr; Paz. patkār; NP patkār.' Exactly Nourai's paiti-kara / paiti-kāra pair. (Caveat: Nyberg refers patkār and hangārtan to his ²kartan < Av. ²kar- ‚to recollect, mention‘, 'not from ¹kar- as Bthl. has it'.)"
+      },
+      {
+       "ref": "HRN:80",
+       "status": "supports",
+       "note": "Horn, Grundriss p.80 (HRN.txt leaf 101): '360. peikār, peigār ‚Kampf‘. aw. *paitikāra-, vergl. paiti.kərənaot (vd. 2, 6); phlv. patkār ‚Kampf‘ …, patkārītan …, arm. LW. paykar ‚Kampf‘. 361. peiker ‚Bild‘. ap. patikara- ‚Bild‘; phlv. patkar (Bund.), arm. LW. patker.'"
+      },
+      {
+       "ref": "ZAW:38",
+       "status": "supports",
+       "note": "Bartholomae, Zum altiranischen Wörterbuch p.38 (ZAW_pages.txt leaf 61), §16.2: 'kērd, qērd ‚gemacht‘ …, kērdan ‚machen‘ …, kērdag ‚Tat‘ …; man vergleiche zur Wurzelsilbe des bp. kartan, Paz. kardan, np. کردن kardan.'"
+      },
+      {
+       "ref": "SYN:628",
+       "status": "supports",
+       "note": "Buck, Selected Synonyms p.628 = §9.83 STATUE (SYN.txt leaf 684): 'OPers. patikara- used of the figures sculptured in relief (NPers. paikar ‚face, form, portrait‘), cpd. of pati- ‚over against‘ and kar- ‚make‘, hence lit. ‚something made in likeness‘.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, Lexicon s.vv. kar-, kara-, karta-, patikara- (KNT.txt ll.5252-5637)",
+       "stance": "supports",
+       "note": "'kara- sb. ‚doer, maker‘, as 2d element of cpd.: deriv. of kar- … and with passive meaning, ‚thing made‘, in patikara-'; 'patikara- sb. ‚picture, (sculptured) likeness‘ … to kar-'; 'karta-, Skt. kṛtá-, to kar-'."
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae, AiW cols. 445-448 s.v. ¹kar- 'machen' (BRT.txt l.9139 ff.)",
+       "stance": "partial",
+       "note": "'j., g., p. ¹kar- V. ‚machen‘. Praes. kar-, kərənu-…; PPfP. kərəta-, karta-; Inf. cartanaiy, kərətōe.' Bartholomae has ¹kar- 'machen' with kərəta-/karta-, but also a distinct ²kar- 'gedenken' and a ⁴kar- 'einfurchen'; he has NO entry aiwiš-kar / aiwi.škar-, so Nourai's fifth word is not in the Altiranisches Wörterbuch."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *kar (Middle Persian and Parthian sections) and s.v. *skar p.345",
+       "stance": "partial",
+       "note": "*kar covers '(+ *pati-) BMP ptkl /pahikar/ ‚picture, image‘, MMP phykʾr ‚battle, struggle‘' — i.e. Nourai's paiti-kara and paiti-kāra; but hunting is put under *skar, 'exclusively Ir.; no reliable IE cognates can be cited', which removes aiwiš-kar from this root."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 786, p.174 (HRN.txt leaf 195)",
+       "stance": "contradicts",
+       "note": "'786. šikār ‚Jagd‘ … phlv. škar ‚Jagd‘, šakra ‚Jagdhabicht‘ … aw. *aiwiš + √kar- (de Lagarde, Beitr. z. altb. Lex. 42, Pers. Stud. 75); aber dann gewiss nicht zu √kar- ‚tun, machen‘, wie de Lagarde will, sondern zu √kar- in np. nigār, nigerīden.' Horn — Nourai's own reference for this root elsewhere — denies precisely the arrow drawn here for aiwiš-kar."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "kârîdan 2; gar 2; kahr-mân",
+     "verdict": "disputed",
+     "derivation": "kārīdan 2 / kardan / kār: the ordinary New Persian verb, MP kardan (pres. kun-, NW kar-) < OIr. *kṛta-/*karta- and *kṛ-nu-; Abolqasemi FFD p.68 spells it out — 'kard ← MP kird and kard ← Old Iranian *kṛ-ta- and *kar-ta-; kṛ is the weak grade of the root kar ‚to do‘; kun ← MP kun ← OP *kunu- ← OIr. *kṛ-nu-'; the variant kārīdan is the analogical -īdan infinitive built on the lengthened stem kār. gar 2, the agent suffix (āhan-gar 'smith', kuze-gar 'potter', zar-gar 'goldsmith' — the words in the chart's extra line): from OIr. *kara- 'doer' / *kṛta-, the same element Kent lists as the second member of avā-kara-, hamaranakara-; Mo'in's footnote in Borhan p.1779 gives 'Avestan kərəta- ‚made‘' for it. kahr-mān / qahramān is the problem: modern scholarship derives Arabic-Persian قهرمان 'steward, majordomo' (whence, in Persian, 'champion, hero') from Middle Persian kārframān 'manager, overseer' = kār 'work, affair' + framān 'command', borrowed into Arabic through Aramaic — which is why it begins with q- and has nothing to do with Arabic qahr 'force'. Nourai's kara-manah 'wise at work' is not the modern view; it does, however, faithfully reproduce his cited source, Mo'in's footnote in Borhan-e Qāṭeʿ p.1549 (after Dozy), which gives 'kahrumān … به معنی کاراندیش است از مصدر kar (= کردن) + مان (منش)'. So the node is a case of Nourai following an older Persian tradition against the current one.",
+     "derivation_fa": "«کاریدن ۲ / کردن / کار»: فعل معمول فارسی نو، از فارسی میانهٔ kardan (ستاک حال kun-، در شمال‌غربی kar-) از *kṛ-ta-/*kar-ta- و *kṛ-nu- ایرانی باستان؛ ابوالقاسمی در «فعل‌های فارسی دری» ص ۶۸ می‌نویسد: «کرد ← فارسی میانه kird و kard ← ایرانی باستان *kṛ-ta- و *kar-ta-؛ kṛ صورت ضعیف ریشهٔ kar به معنی کردن است؛ کن ← kun ← پارسی باستان *kunu- ← ایرانی باستان *kṛ-nu-». «‑گر» پسوند فاعلی (آهنگر، کوزه‌گر، زرگر) از *kara- «کننده» / kərəta- می‌آید و حاشیهٔ معین بر برهان ص ۱۷۷۹ همین را می‌آورد: «اوستا kərəta- (ساخته)». اما «کهرمان / قهرمان» جای بحث دارد: پژوهش امروزی آن را وام‌واژه‌ای از فارسی میانهٔ kārframān «کارگزار، سرکار» (kār + framān) می‌داند که از راه آرامی به عربی رفته و ازاین‌رو با قاف آغاز می‌شود و ربطی به «قهر» عربی ندارد؛ معنی «پهلوان» تحول معنایی درون‌فارسی است. بازسازی نورایی (*kara-manah «کاراندیش») دیدگاه امروزی نیست، ولی دقیقاً همان چیزی است که مرجع خودش، حاشیهٔ معین بر برهان ص ۱۵۴۹ به نقل از دُزی، می‌گوید. پس این گره نمونهٔ پیروی نورایی از سنت کهن‌تر فارسی در برابر دیدگاه نو است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%82%D9%87%D8%B1%D9%85%D8%A7%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1549",
+       "status": "supports",
+       "note": "Borhan-e Qāṭeʿ ed. Moʿin p.1549 (vol. 3, pdf p.342 of BQT_v3_picofile.pdf, via BQT_v3_pagemap.json): headword 'قهرمان … کارفرما را گویند', with Moʿin's footnote 5: '(ع) «قهرمان» جمع «قهارمة» … «کهرمان» kahrumān که بمعنی کاراندیش است از مصدر kar (= کردن) + مان (منش)'. This is verbatim Nourai's 'kahr-mân : wise at work'."
+      },
+      {
+       "ref": "BQT:1779",
+       "status": "supports",
+       "note": "Borhan p.1779 (vol. 3, pdf p.576): the entry «گر» — 'وبمعنی کننده و سازنده هم هست، همچو کوزه‌گر و کاسه‌گر … ومرادف کار باشد همچو آموزکار و آموزگر' — with Moʿin's footnote: 'اوستا kərəta- (ساخته)'. Supports 'gar 2: a suffix meaning worker'."
+      },
+      {
+       "ref": "BQT:1617",
+       "status": "not_found",
+       "note": "Borhan p.1617 (vol. 3, pdf p.410) carries the کر- entries (کردنگ، کرده‌کار، کردیدن، کرر، کردمان، کره), not کاریدن or کردن; the کاریدن/کردن headwords are not on that page in the Ibn Sina/Amir Kabir pagination. Either Nourai's number is a few pages off or he is citing the کردمان entry."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FFD",
+       "where": "Abolqasemi, Feʿl-hā-ye Fārsi-ye Dari, printed p.68 (FFD_pages.txt pdf page 73)",
+       "stance": "supports",
+       "note": "'کردن: کرد ← فارسی میانه kird و kard ← ایرانی باستان *kṛ-ta- و *kar-ta- … kṛ صورت ضعیف ریشهٔ kar به معنی «کردن» است. کن ← فارسی میانه kun ← فارسی باستان *kunu- ← ایرانی باستان *kṛ-nu-.'"
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary s.v. kardan and kirrōg (PHD_mackenzie.txt ll.3228, 3309)",
+       "stance": "supports",
+       "note": "'kardan, kun-, (P kar-) [OBYDWN-tn’ …] to do, make'; 'kirrōg [k(y)lwk | M qrwg] artisan, craftsman; skilled' — the MP agent-noun type behind NP -gar."
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/قهرمان (archived)",
+       "stance": "contradicts",
+       "note": "'from Middle Persian kārframān (also kʾlplmʾn in Book Pahlavi), ‚manager, overseer‘, from kār ‚work, affair‘ + framān ‚command, order‘ … Arabic قَهْرَمَان ‚superintendent, majordomo‘ was borrowed through Aramaic, explaining the initial q- rather than derivation from Arabic qahr.' Not kara-manah."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "paykâr; paykar; šekâr; govârdan",
+     "verdict": "disputed",
+     "derivation": "Three of the four are confirmed, one is not. paykar پیکر 'body, figure, statue' < MP patkar/pahikar 'picture, image' [ptkl] < OP patikara- (attested DB 4.71,77,78; DNa 41) < PIr *pati-kára- 'thing made in likeness'; the Armenian loan patker guarantees the Middle Iranian form. paykār پیکار 'battle' < MP ptkʾl /pahikār/ 'struggle, battle, dispute' < *pati-kāra- with the causative-lengthened stem kār: 'acting against' → 'fighting'; Parthian pdkʾr- 'to contend' (Cheung) confirms it. govārdan گواردن 'to digest' < MP wigār- (past wigārd) < OIr *wi-kār-a- / *wi-kār-ta-, preverb wi- 'apart' + lengthened kār: 'to make apart, break down'; the -k- voices to -g- after the preverb and *wi- > gu-/go- (as in gozīdan < *wi-čaid-, gorīxtan < *wi-raik-); the nouns gowārā and gowāreš belong here too. šekār شکار 'hunt' is the odd one out: MP škār, Parthian ʾškr- 'to hunt, chase', MP wiškar 'hunting-ground', škarag 'bird of prey' point to a root *skar 'to pursue, drive, look for (the cattle)', which Cheung 2007 (p.345) declares 'exclusively Ir.; no reliable IE cognates can be cited', and Wiktionary follows him, adding that the Persian word may itself be a loan from Sogdian škʾr- 'to pursue, drive'. It therefore does not descend from *kʷer- at all, and even de Lagarde's *aiwiš-kar analysis was rejected by Horn (no. 786).",
+     "derivation_fa": "سه واژه از چهار واژه تأیید می‌شود و یکی نه. «پیکر» از فارسی میانهٔ patkar/pahikar «نگاره، تصویر» از patikara- پارسی باستان (گواهی‌شده در بیستون ۴٫۷۱ و ۷۷ و ۷۸ و نقش رستم ۴۱) از *pati-kára- ایرانی باستان «آنچه به‌مانند چیزی ساخته شده»؛ وام‌واژهٔ ارمنی patker صورت ایرانی میانه را تضمین می‌کند. «پیکار» از فارسی میانهٔ pahikār «ستیز، نبرد» از *pati-kāra- با ستاک بالندهٔ kār، یعنی «در برابر کسی عمل کردن» ← «جنگیدن»؛ پارتی pdkʾr- «ستیزیدن» (چونگ) گواه آن است. «گواردن» از فارسی میانهٔ wigār- (ماضی wigārd) از *wi-kār-a- ایرانی باستان: پیشوند wi- «جدا» + kār؛ ک پس از پیشوند به گ نرم شده و *wi- در فارسی نو به «گو/گُ» بدل گشته (چنان‌که در گزیدن < *wi-čaid- و گریختن < *wi-raik-)؛ «گوارا» و «گوارش» نیز از همین‌جایند. اما «شکار» جدا می‌افتد: فارسی میانه škār، پارتی ʾškr- «شکار کردن»، wiškar «شکارگاه» و škarag «مرغ شکاری» همه به ریشهٔ *skar «راندن، پی‌جویی کردن» می‌رسند که چونگ (ص ۳۴۵) آن را «منحصراً ایرانی، بدون هیچ هم‌ریشهٔ هندواروپایی معتبر» می‌داند و ویکی‌واژه نیز همان را می‌گوید و می‌افزاید که واژهٔ فارسی شاید وام از سغدی škʾr- باشد. پس «شکار» اصلاً از *kʷer- نیامده و پژوهش امروزی این پیکان را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%DA%A9%D8%B1",
+      "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B1",
+      "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%A7%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "FFD:75",
+       "status": "supports",
+       "note": "Abolqasemi, Feʿl-hā-ye Fārsi-ye Dari p.75 (FFD_pages.txt pdf page 80): 'گواردن — گوار ← فارسی میانه wigār- ← ایرانی باستان *wi-kār-a- … kār صورت بالندهٔ ریشهٔ kar به معنی «کردن» است. wi پیشوند فعلی است. مادهٔ ماضی در فارسی میانه wigārd بوده که جعلی است. «گوارد» فارسی دری بازماندهٔ *wi-kār-ta- ایرانی باستان است.' Exactly Nourai's wi-kâr → govârdan."
+      },
+      {
+       "ref": "FFD:68",
+       "status": "supports",
+       "note": "Same book p.68 (pdf 73), the کردن entry: 'کرد ← فارسی میانه kird و kard ← ایرانی باستان *kṛ-ta- و *kar-ta- … ریشهٔ kar به معنی کردن' — the base of the whole node."
+      },
+      {
+       "ref": "MON:2057,3426",
+       "status": "not_checked",
+       "note": "Nourai cites the 6-volume Amir Kabir Moʿin; the only local Moʿin text (MON_part1/2.txt) is the 2-volume Adena abridgement with different pagination and without the etymological brackets, and vajehyab was not consulted for these two pages, so his page references could not be verified."
+      },
+      {
+       "ref": "DMO:115",
+       "status": "not_checked",
+       "note": "Saʿid Nafisi, Dar Maktab-e Ostād — refs_online.json records no accessible copy ('PDF page exists; not fetched')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "nos. 360-361, p.80; no. 786, p.174",
+       "stance": "partial",
+       "note": "Supports peikār and peiker ('aw. *paitikāra-'; 'ap. patikara- ‚Bild‘'), but for šikār (no. 786) refuses the 'make' root: 'aber dann gewiss nicht zu √kar- ‚tun, machen‘ … sondern zu √kar- in np. nigār, nigerīden.'"
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary p.157 (leaf 173)",
+       "stance": "supports",
+       "note": "'patkar … OP pati-kara- … NP paikar'; 'patkār, pitkār: quarrel, controversy, dispute … NP patkār.'"
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *kar (MP/Parth./NWIr. sections) and s.v. *skar p.345",
+       "stance": "partial",
+       "note": "'(+ *pati-) BMP ptkl /pahikar/ ‚picture, image‘, MMP phykʾr ‚battle, struggle‘ … NP paykar ‚picture, statue‘' — but hunting is under *skar: 'BMP wskl /wiškar/ ‚hunting-ground, wilderness‘ … Parthian ʾškr- ‚to hunt, chase‘ … This root is exclusively Ir.'"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck §9.83 STATUE, p.628",
+       "stance": "supports",
+       "note": "'OPers. patikara- … (NPers. paikar ‚face, form, portrait‘), cpd. of pati- ‚over against‘ and kar- ‚make‘.'"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Avestan / Old Persian",
+     "words": "krta; yazato-karteta",
+     "verdict": "plausible",
+     "derivation": "The arrow itself is beyond doubt: Av. kərəta- / OP karta- (= Skt. kṛtá-) is the perfect passive participle of kar- 'to make', with the accented *-tó- suffix regularly taking the zero grade of the root (Kent §160.10; cf. dasta-karta- 'handmade', duš-karta- 'ill-done', a-karta- 'not made'). The first half of Nourai's gloss, 'creation', is therefore right. Two reservations. (1) The sense 'city' is not Old Iranian: it is a secondary New Persian/Middle Persian development in the place-name suffix -gird/-kart ('the thing built' → 'the settlement'), and Bartholomae himself doubted even that, writing in AiW col. 448 n.22 that 'das np. -gird am Ende von Ortsnamen, mp. -kart, im arm. LW. -kert … bedeutet schwerlich ‚gemacht‘' and preferring a noun 'Aufenthalt, Heim'. Horn no. 900 takes the other side and derives -gird from 'ap. *kṛta-, phlv. -kart, vergl. Dārāhkart', which is the view Nourai follows and which is now standard. (2) 'yazato-karteta' is a garbled form: the compound behind Yazdgerd is *yazata-kṛta- / MP Yazdkart 'made by god', and no Iranian form *karteta exists; the printed page reads 'yazato-karteta', so the extraction is faithful and the oddity is the book's own loose transliteration.",
+     "derivation_fa": "خودِ پیکان تردیدناپذیر است: kərəta- اوستایی / karta- پارسی باستان (= kṛtá- سنسکریت) اسم مفعول ریشهٔ kar «کردن» است که با پسوند تکیه‌دار *-tó- ساخته می‌شود و ریشه در آن به درجهٔ صفر می‌رود (کنت §۱۶۰٫۱۰؛ قس dasta-karta- «دست‌ساخت»، duš-karta- «بدساخته»). پس بخش نخست معنی که نورایی داده («آفریده») درست است. دو نکته اما هست: نخست آنکه معنی «شهر» ایرانی باستان نیست، بلکه تحول معنایی ثانوی در پسوند جاینامی ‑گِرد / ‑kart فارسی میانه و نو است («ساخته» ← «آبادی»)؛ خودِ بارتولمه در حاشیهٔ ستون ۴۴۸ فرهنگ ایرانی باستان همین را هم رد می‌کند و می‌نویسد «‑گرد فارسی نو در پایان جاینام‌ها … به‌سختی می‌تواند ‚ساخته‘ معنی دهد» و آن را نامی به معنی «جایگاه، خانه» می‌داند؛ ولی هرن (شمارهٔ ۹۰۰) بر خلاف او آن را از «پارسی باستان *kṛta-، پهلوی ‑kart، قس داراب‌کرت» می‌گیرد و همین دیدگاه امروز پذیرفته است و نورایی از آن پیروی کرده. دوم آنکه صورت «yazato-karteta» آشفته است؛ ترکیب اصلی *yazata-kṛta- / Yazdkart فارسی میانه «ساختهٔ ایزد» است و صورتی به شکل *karteta در هیچ زبان ایرانی نیست. در تصویر صفحهٔ چاپی نیز همین «yazato-karteta» آمده، پس خطای خوانش اسکن نیست بلکه آوانگاری سست خودِ کتاب است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Yazdegerd"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:201",
+       "status": "supports",
+       "note": "Horn, Grundriss p.201 (HRN.txt leaf 222): '900. (1)gird (Endung von Ortsnamen). ap. *kṛta- (Hübschmann, KZ. 27, 112); phlv. -kart, vergl. Dārāhkart. Die Ableitung von ap. vardana- … ist unmöglich, da ap. rd im Np. zu l geworden sein müsste.'"
+      },
+      {
+       "ref": "ZAW:38",
+       "status": "supports",
+       "note": "Bartholomae, ZAW p.38 (leaf 61), §16.2: 'yazdēgērd ‚Götterstadt‘ 75, SM.; vgl. dazu von Stackelberg …, Munkácsi …, Bartholomae AirWb. 448' — the name is put under the kar-/kart- material of AiW col. 448, though Bartholomae renders it 'god-city' rather than 'god-made'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, Lexicon and §160.10 (KNT.txt ll.2620, 5537-5584)",
+       "stance": "supports",
+       "note": "'karta-, Skt. kṛtá-, to kar-'; 'dastakarta- adj. ‚handmade‘: dasta- + ptc. karta- (§160.10), to kar- ‚make‘'; 'duškarta- adj. ‚ill-done‘ … past ptc. pass. to kar-'."
+      },
+      {
+       "src": "BRT",
+       "where": "AiW col. 448, footnote 22 (BRT.txt l.9139 ff.)",
+       "stance": "contradicts",
+       "note": "'Das np. -gird am Ende von Ortsnamen, mp. -kart, im arm. LW. -kert (Hübschmann GIrPh. 1b.190) bedeutet schwerlich ‚gemacht‘. Ich sehe darin ein Nom. von der Bedeutung ‚Aufenthalt, Heim‘' — Bartholomae denies the 'city = made' equation Nourai's gloss assumes."
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/Yazdegerd (archived)",
+       "stance": "supports",
+       "note": "'From Middle Persian Yazdegerd, Yazdgird, literally ‚made by God‘, from Yazd + -gird, -kirt' — Nourai's 'God's creation' is right, only his Avestan form is misspelt."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "-vard, -gard, -jerd; Yazdgerd; Lâjvard",
+     "verdict": "disputed",
+     "derivation": "-gard/-gird and its Arabised doublet -jerd (Borūjerd, Susangerd, Dastgerd) are correctly derived: MP -kart/-gird < OP *kṛta- 'made, built', the participle of node #4, semantically 'the built (place)' → 'town, settlement'; Borhan-e Qāṭeʿ p.1787 s.v. گرد glosses it 'بمعنی شهر و مدینه هم هست، همچو داراب‌گرد و سیاوش‌گرد' with Moʿin's footnote 'پارسی باستان kṛta-، پهلوی kart-'. Yazdgerd is likewise correct: MP Yazdkart, Yazdgird, literally 'made by God' (yazd + -gird), and Borhan p.2432 s.v. یزدجرد notes 'معرب یزدکرت Yazdkart'. But two items fail. (1) -vard (Abīvard) is separated from -gird by Horn himself at exactly the page Nourai cites for node #4: 'Np. -verd dagegen in Abīverd u. a. m. kann nur auf ap. *varta- zurückgehen' — a different word, not *kṛta-. (2) Lājvard 'lapis lazuli, azure' is not '-vard' + a Turkish tribe name at all: the standard etymology takes it from the mining district Lāžvard in Badakhshan, and Bailey analyses the second element as PIr *varta- 'stone' (Wakhi wurt, Kurdish berd), i.e. once more *varta-, not *kṛta-; the whole word travelled on as Arabic lāzaward, Latin lazurium/azura, Old French azur, English azure. Nourai's 'home of the Turkish Lāj(in) tribe' is a folk etymology of the kind Borhan collects.",
+     "derivation_fa": "«‑گرد / ‑گِرد» و گونهٔ معرّب آن «‑جرد» (بروجرد، سوسنگرد، دستگرد) درست ریشه‌یابی شده است: فارسی میانهٔ ‑kart/‑gird از *kṛta- پارسی باستان «ساخته»، یعنی همان اسم مفعول گرهٔ ۴، با تحول معنایی «ساخته» ← «آبادی، شهر»؛ برهان قاطع ص ۱۷۸۷ ذیل «گرد» می‌آورد «بمعنی شهر و مدینه هم هست، همچو داراب‌گرد و سیاوش‌گرد» و حاشیهٔ معین «پارسی باستان kṛta-، پهلوی kart-» دارد. «یزدگرد» نیز درست است: فارسی میانه Yazdkart «ساختهٔ ایزد»، و برهان ص ۲۴۳۲ می‌نویسد «معرب یزدکرت». اما دو مورد نادرست است. نخست «‑ورد» (ابیورد) را خودِ هرن در همان صفحه‌ای که نورایی برای گرهٔ ۴ به آن ارجاع می‌دهد از «‑گرد» جدا می‌کند: «اما ‑verd فارسی نو در ابیورد و مانند آن تنها می‌تواند به *varta- پارسی باستان بازگردد» — واژه‌ای دیگر، نه *kṛta-. دوم «لاجورد» اصلاً «لاج + ورد» به معنی «خانهٔ قبیلهٔ ترکِ لاجین» نیست؛ ریشه‌شناسی پذیرفته آن را از نام کان لاژورد در بدخشان می‌داند و بیلی جزء دوم را *varta- ایرانی باستان «سنگ» (وخی wurt، کردی berd) می‌گیرد — باز هم *varta- و نه *kṛta-. همین واژه به عربی «لازورد»، لاتین lazurium/azura، فرانسهٔ کهن azur و انگلیسی azure رسیده است. توضیح نورایی ریشه‌شناسی عامیانه است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%84%D8%A7%D8%AC%D9%88%D8%B1%D8%AF",
+      "https://en.wiktionary.org/wiki/Yazdegerd"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1787",
+       "status": "supports",
+       "note": "Borhan-e Qāṭeʿ ed. Moʿin p.1787 (vol. 3, pdf p.584): s.v. «گرد» — '… ودور وحوالی واطراف را نیز گفته‌اند … وبمعنی شهر و مدینه هم هست، همچو داراب‌گرد و سیاوش‌گرد که مراد از آن شهر داراب و شهر سیاوش است', with Moʿin's footnote 3: 'پارسی باستان kṛta-، پهلوی kart-'."
+      },
+      {
+       "ref": "BQT:2432",
+       "status": "supports",
+       "note": "Borhan p.2432 (vol. 4, pdf p.515): 'یزدجرد - بکسر جیم، معرّب …', footnote 3: 'معرب یزدکرت Yazdkart'. Supports the Yazdgerd item; the page has no entry for Lājvard."
+      },
+      {
+       "ref": "DMO:115",
+       "status": "not_checked",
+       "note": "Nafisi, Dar Maktab-e Ostād: no accessible copy per refs_online.json."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 900, p.201 (HRN.txt leaf 222)",
+       "stance": "partial",
+       "note": "Supports -gird ('ap. *kṛta-; phlv. -kart, vergl. Dārāhkart') but explicitly excludes -vard: 'Np. -verd dagegen in Abīverd u. a. m. kann nur auf ap. *varta- zurückgehen; vergl. -varta in indischen Städtenamen.'"
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/لاجورد (archived)",
+       "stance": "contradicts",
+       "note": "'From the place name Lāžvard in Badakhshan where the stone was mined … the second component, according to Bailey, from Proto-Iranian *varta- ‚stone‘ (Wakhi wurt, Northern Kurdish ber, Central Kurdish berd) … Descendants: Arabic لازورد, Latin lazulum/lazurium/azura, English azure.' No Turkish tribe, and no -kṛta-."
+      },
+      {
+       "src": "BRT",
+       "where": "AiW col. 448 n.22",
+       "stance": "contradicts",
+       "note": "Bartholomae doubts that the -gird of place names means 'made' at all, taking it as a noun 'Aufenthalt, Heim' — a minority view today, but a caution against the chart's confident 'krta: creation, city'."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Avestan",
+     "words": "han-kar; han-kareyemi, han-keretha; haša-kerta; pairi-kara",
+     "verdict": "plausible",
+     "derivation": "haša-kerta is the best-established item: Bartholomae (ZAW p.38) sets up Proto-Iranian *hašā-karta- for Manichaean MP hašāgērd 'discipulus', literally 'made a companion / attached to the service of a priestly colleague', from *haxay- 'friend, companion' (whence Nourai's cross-reference to Sekw = PIE *sekʷ- 'to follow') + karta- 'made'; at ZAW p.242 he adds the cross-reference to AiW col. 1744 s.v. haxay- and to OP haxāmaniš-. han-kar / hankārayemi / hankərəθa- are genuine Avestan (Y 1.1 ff., Vr 1.1 ff., F 34: 'nivaēδayemi hankārayemi'), and Bartholomae files them under ¹kar- 'machen' — 'mit ham ‚für Jemanden es (näml. den Yasna) vollziehen‘' — with the note 'Pü.: hangārtanem (vgl. np. angārdan)', which is exactly Nourai's arrow. But the attribution is contested: Nyberg (Glossary, s.v. ²kartan) reassigns hankārayemi to Av. ²kar- 'to recollect, mention, commend', saying explicitly 'not from ¹kar- as Bthl. has it', and Horn no. 123 hedges with 'ai. 2 √kar- ‚gedenken‘ (?)'. Cheung 2007 restores Bartholomae's view, putting MP hangār- 'to account, reckon' under *kar 'to do'. pairi-kara is the weakest: the Avestan form actually attested is pairi.kārayōiš (Vd 13,6) 'you shall draw a furrow all round', which Bartholomae assigns to his ⁴kar- 'einfurchen', not to ¹kar-; the semantics ('draw a circle around' → compass) fit Nourai's gloss well, but the root is a different one.",
+     "derivation_fa": "استوارترین جزء این گره «haša-kərəta» است: بارتولمه در «افزوده‌ها بر فرهنگ ایرانی باستان» ص ۳۸ برای hašāgērd فارسی میانهٔ مانوی «شاگرد» صورت ایرانی باستان *hašā-karta- را می‌گذارد، یعنی «آن‌که به خدمت و همراهی همکار روحانی گماشته شده»، از *haxay- «دوست، همراه» (که ارجاع نورایی به Sekw = *sekʷ- «پیروی کردن» به همان اشاره دارد) + karta- «ساخته»؛ و در ص ۲۴۲ همان کتاب آن را به ستون ۱۷۴۴ فرهنگ ایرانی باستان ذیل haxay- و به haxāmaniš- پارسی باستان پیوند می‌زند. «هنکار / hankārayemi / hankərəθa-» نیز اوستایی اصیل است (یسنه ۱٫۱ و ویسپرد ۱٫۱: nivaēδayemi hankārayemi) و بارتولمه آن را ذیل ¹kar- «کردن» می‌آورد با این یادداشت که «ترجمهٔ پهلوی: hangārtanem، قس فارسی نو انگاردن» — یعنی دقیقاً همان پیکان نورایی. اما این جای‌دهی محل اختلاف است: نیبرگ در واژه‌نامهٔ خود hankārayemi را به ²kar- «به یاد آوردن، یاد کردن» می‌برد و صریح می‌نویسد «نه از ¹kar- چنان‌که بارتولمه دارد»، و هرن (شمارهٔ ۱۲۳) با علامت پرسش می‌نویسد «سنسکریت ۲√kar «گدنکن» (؟)». چونگ (۲۰۰۷) دوباره به رأی بارتولمه بازمی‌گردد و hangār- فارسی میانه را ذیل *kar «کردن» می‌آورد. سست‌ترین جزء «pairi-kara» است: صورت گواهی‌شدهٔ اوستایی pairi.kārayōiš (وندیداد ۱۳٫۶) «گرداگرد شیار بکش» است که بارتولمه آن را به ⁴kar- «شیار کشیدن» می‌دهد نه به ¹kar-. معنا با «پرگار» جور است، ولی ریشه دیگری است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%DA%AF%D8%B1%D8%AF"
+     ],
+     "ref_check": [
+      {
+       "ref": "ZAW:38",
+       "status": "supports",
+       "note": "Bartholomae, ZAW p.38 (leaf 61): 'hašāgērd (Müller gīrd) ‚discipulus‘ 30, 32 … setze ich uriran. *hašākarta- an, d. i. eigentlich ‚der mit der Wartung, dem Dienst des Priesterkollegen oder Priesterkollegiums zu tun hat‘, eine Zusammensetzung aus *haxay- (jAw. …)'."
+      },
+      {
+       "ref": "ZAW:242",
+       "status": "supports",
+       "note": "Same book p.242 (leaf 265): 'Sp. 1744, Z. 33 und 43 ff. füge in den Noten zu jaw. haxay- ‚Freund‘ und zu ap. haxāmaniš- EN. hinzu: Vgl. mpT. hašāgērd, np. šāgird ‚Schüler‘. S. oben S. 38 f., 158 f. und 226.' — confirms Nourai's ☞Sekw cross-reference."
+      },
+      {
+       "ref": "HRN:28",
+       "status": "supports",
+       "note": "Horn no. 123, p.28 (HRN.txt leaf 49): 'engārden ‚glauben, wähnen‘, engāšten … aw. hankārayemi, hankərəθa-, hankərəti- ‚Zählung‘ (Geldner, KZ. 27, 239 Note 1); phlv. angārtan, angārttan ‚glauben, zählen‘' — Nourai's two Avestan forms verbatim, though Horn adds 'ai. 2 √kar- ‚gedenken‘ (?)'."
+      },
+      {
+       "ref": "HRN:232",
+       "status": "supports",
+       "note": "Horn no. 1036/1038, p.232 (leaf 253): 'nigāšten ‚malen‘ … Causativum zu nigerīden'; '1038. nigerīden ‚betrachten‘ … Wohl zu derselben Wurzel wie aw. hankārayēmi, siehe np. engārden (No. 123)' — covers the chart's extra words نگاریدن/نگاشتن/نگریستن."
+      },
+      {
+       "ref": "HUB:39",
+       "status": "supports",
+       "note": "Hübschmann, Persische Studien p.39 (HUB.txt leaf 49), note 301: 'Np. pargāl = pargār ‚Zirkel‘ (afgh. pargār ‚Zirkel‘) stellt de Lagarde (Btrg. zur bactr. Lexic. p. 54) nebst pargar ‚Halskette‘ zu zd. pairi-kara- vd. 17, 6 = ‚Furche‘ (phl. pērāmūn-kārišnīh) und vergleicht skr. parikara- ‚Gürtel‘. Unsicher.' Nourai's own NOTE on the chart reports this uncertainty correctly, and the two glosses 'compass, necklace' come straight from this passage."
+      },
+      {
+       "ref": "BQT:173",
+       "status": "supports",
+       "note": "Borhan-e Qāṭeʿ ed. Moʿin, vol. 1, printed p. c.171-173 (BQT_v1_pages.txt \\f-leaves 391-392, running head «انگارده»): the انگاردن / انگاره / انگاریدن / انگاشتن cluster, cross-referenced 'رك: انگاردن'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "AiW col. 448 (¹kar-, 'mit ham') and cols. 449-450 (²kar- 'gedenken', ⁴kar- 'einfurchen')",
+       "stance": "partial",
+       "note": "Under ¹kar-: 'mit ham ‚für Jemanden (Dat., Gen.) es (näml. den Yasna) vollziehen‘: nivaēδayemi hankārayemi … ahurahe mazdā … Y.1.1 ff., Vr.1.1 ff., F.34', footnote 21 'Pü.: hangārtanem (vgl. np. angārdan)'. Under ⁴kar- 'einfurchen': 'mit pairi ‚ringsum einfurchen‘: xšaθrāi vairyā pairi.karəm pairi.kārayōiš … V.13.6' — so pairi-kar belongs to a different kar- in Bartholomae."
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary s.v. ²kartan (NYB_vol2_glossary.txt l.2241)",
+       "stance": "contradicts",
+       "note": "'Av. (448) ²kar- ‚to recollect, to mention, to commend‘ [from which in all probability ham + the caus. in the set phrase nivaēδayemi hankārayemi ‚I consecrate, I dedicate‘ (not from ¹kar- as Bthl. has it)] … V. ²kartak, kartāreh, hangartan, nikeriδ, nikeritan, patkārītan, uskartan.'"
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *kar, Middle Persian section",
+       "stance": "supports",
+       "note": "'(+ *ham-) MMP hngʾr- (orig. caus.) ‚to (ac)count, reckon‘, BMP hngʾl- /hangār-/ ‚to perform, offer (thanks); calculate, determine; consider‘' — filed under *kar 'to do, make' < PIE *kʷer-, i.e. Bartholomae's and Nourai's placement."
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/شاگرد (archived)",
+       "stance": "supports",
+       "note": "'From Middle Persian hšʾklt’ /hašāgird/ ‚disciple, pupil‘, from Proto-Iranian *hašā-kr̥táh-, first element *hu-šāk- … from PIE *sekʷ- ‚to follow‘, second element PII *kr̥tás ‚done, made‘' (citing Rastorgujeva–Edelʹman 2007)."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Persian",
+     "words": "engârdan; šâgerd; pargâr",
+     "verdict": "plausible",
+     "derivation": "šāgerd شاگرد is confirmed: NP šāgird < MP (Manichaean) hašāgērd, Book Pahlavi hšʾklt' 'disciple' < PIr *hašā-kṛta-; the initial ha- was lost in New Persian while Armenian kept it in the loan ašakert, and Bartholomae remarks that the Manichaean spelling shows the -š- is etymological. engārdan انگاردن (with engāštan, engār) is MP hangārdan/hangārtan 'to reckon, consider' < *ham-kāraya-, the causative of kar- with the preverb ham- 'together'; ham- > han- > an-/en- before the velar, and the Pahlavi translators use hangārtanem precisely to render Av. hankārayemi (AiW col. 448 n.21). The same stem gives the chart's extra words nigāštan/nigāridan/nigār (< *ni-kāraya- 'to draw, paint') and nigaristan/nigarīdan (< *ni-kar-), for which Moʿin's footnote in Borhan p.2164 refers explicitly to 'ریشهٔ این کلمه در اوستایی hankārayemi، فارسی نگاردن، دیده می‌شود … از kar، بارتولمه ۴۴۸'. pargār پرگار is the least secure: Wiktionary reconstructs PIr *pari- 'around' + *kar-, comparing Skt. prakāra- and Kurdish pergal, which supports Nourai; but the Avestan pairi.kārayōiš he leans on belongs to Bartholomae's ⁴kar- 'to furrow', and Hübschmann, whom Nourai's own NOTE cites, ends his discussion with a flat 'Unsicher'. The chart's third gloss for pargār, 'fortune', is not supported by any source consulted; 'necklace' comes from Hübschmann's pargar 'Halskette'.",
+     "derivation_fa": "«شاگرد» تأییدشده است: فارسی نو šāgird از فارسی میانهٔ مانوی hašāgērd و پهلوی کتابی hšʾklt' «شاگرد، پیرو» از *hašā-kṛta- ایرانی باستان؛ هجای آغازین ha- در فارسی نو افتاده ولی وام‌واژهٔ ارمنی ašakert آن را نگه داشته و بارتولمه یادآور می‌شود که املای مانوی نشان می‌دهد ش در آن ریشه‌ای است. «انگاردن» (با انگاشتن و انگار) از فارسی میانهٔ hangārtan «شمردن، پنداشتن» از *ham-kāraya-، صورت سببیِ ریشهٔ kar با پیشوند ham- «باهم»؛ ham- پیش از همخوان کامی به han- و سپس an-/en- بدل شده، و مترجمان پهلوی دقیقاً hangārtanem را در برابر hankārayemi اوستایی نهاده‌اند (فرهنگ ایرانی باستان، ستون ۴۴۸، حاشیهٔ ۲۱). از همین ستاک واژه‌های افزودهٔ نمودار نیز آمده‌اند: نگاشتن/نگاریدن/نگار از *ni-kāraya- «کشیدن، نگاشتن» و نگریستن/نگریدن از *ni-kar-؛ حاشیهٔ معین بر برهان ص ۲۱۶۴ صریح می‌گوید «ریشهٔ این کلمه در اوستایی hankārayemi، فارسی نگاردن، دیده می‌شود … از kar، بارتولمه ۴۴۸». «پرگار» کم‌استوارترین است: ویکی‌واژه *pari- «پیرامون» + *kar- بازسازی می‌کند و prakāra- سنسکریت و pergal کردی را هم‌ریشه می‌گیرد که مؤید نورایی است؛ اما صورت اوستایی pairi.kārayōiš که تکیه‌گاه اوست از ⁴kar- «شیار کشیدن» بارتولمه است، و هوبشمان — که خودِ یادداشت نمودار به او ارجاع می‌دهد — بحث را با «نامطمئن» به پایان می‌برد. معنی سومِ «بخت» برای پرگار در هیچ منبعی که دیدیم پشتیبانی ندارد؛ «گردن‌بند» از pargar «Halskette» هوبشمان آمده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%DA%AF%D8%B1%D8%AF",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%DA%AF%D8%A7%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:173",
+       "status": "supports",
+       "note": "Borhan-e Qāṭeʿ ed. Moʿin vol. 1, printed p. c.171-173 (BQT_v1_pages.txt leaves 391-392): the انگاردن cluster — 'انگاره … هر چیز که افسانه و سرگذشت باشد … انگاریدن، بمعنی تصور کردن و پنداشتن و گمان بودن باشد … انگاشتن، بمعنی تصور کردن و پنداشتن و گمان بردن باشد'."
+      },
+      {
+       "ref": "BQT:2164",
+       "status": "supports",
+       "note": "Borhan p.2164 (vol. 4, pdf p.247) s.v. نگریدن, Moʿin's footnote 1: 'از: نگر (ریشه) + یدن (پسوند مصدری)، انگرستن، نگریستن. پهلوی nikirīt … هوبشمان ۱۶۳۸. ریشهٔ این کلمه در اوستایی hankārayemi، فارسی نگاردن، دیده می‌شود … از kar (بخاطر آوردن، ذکر کردن) «بارتولمه ۴۴۸»' — exactly the link Nourai draws from han-kar to the نگار- family."
+      },
+      {
+       "ref": "BQT:2157",
+       "status": "not_found",
+       "note": "Borhan p.2157 (vol. 4, pdf p.240) is the نفیر / نقاب / نقد page; the نگار entry stands on p.2162 and نگاشتن on p.2163 in this printing, so Nourai's 2157 is about five pages short of the material he means (the نگار cluster)."
+      },
+      {
+       "ref": "ZAW:38",
+       "status": "supports",
+       "note": "ZAW p.38: 'hašāgērd … ‚discipulus‘ … aber im Np. wird شاگرد šāgird gesprochen … setze ich uriran. *hašākarta- an'."
+      },
+      {
+       "ref": "ZAW:242",
+       "status": "supports",
+       "note": "ZAW p.242: 'Vgl. mpT. hašāgērd, np. šāgird ‚Schüler‘' added to the notes on jAw. haxay- 'Freund' and OP haxāmaniš-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 123, p.28; no. 900 footnote, p.201",
+       "stance": "partial",
+       "note": "no. 123 supports engārden < aw. hankārayemi, phlv. angārtan (Ossetic anḳaryn, Armenian loan angarem); the footnote to no. 900 records that 'Hübschmann stellt a. a. O. auch zweifelnd np. šāgird ‚Schüler‘ (arm. LW. ašakert, phlv. ašōkart) hierher' — i.e. to the -gird/*kṛta- family, as Nourai does."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *kar, NWIr. section",
+       "stance": "supports",
+       "note": "'(+ *ham-) NP ingāštan/ingar- ‚to suppose; consider, believe‘, angārīdan/angār- ‚to think, imagine, estimate; to paint, figure‘ … NP angārah ‚revenue-book, cash-account‘; (+ *ni-) NP nigāštan/nigār- ‚to paint‘' — all under *kar < PIE *kʷer-."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien p.39, note 301",
+       "stance": "partial",
+       "note": "de Lagarde's derivation of pargār from zd. pairi-kara- is reported and then judged 'Unsicher' — the very caveat printed in the chart's NOTE, which is therefore accurate."
+      },
+      {
+       "src": "MON",
+       "where": "en.wiktionary.org/wiki/پرگار (archived)",
+       "stance": "supports",
+       "note": "'From Proto-Iranian, from Proto-Indo-Iranian. Cognate with Sogdian …, Northern Kurdish pergal, Sanskrit प्रकार (prakāra)': first element PIr *pari- 'around' < PIE *per-, second the root *kar-."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
