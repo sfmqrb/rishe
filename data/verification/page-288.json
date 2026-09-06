@@ -1,0 +1,207 @@
+{
+  "pdf_page": 288,
+  "book_page": 258,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Kut",
+      "verdict": "plausible",
+      "modern_form": "Proto-Iranian *kawta- 'small' (whence *kawta-ka-); no Proto-Indo-European root *kut- 'small, short' is reconstructed outside Mann",
+      "note": "The word-family is real and Iranian; the label 'Indo-European' is what over-reaches. Nourai's only reference, Mann's IEC, is in fact the ONE dictionary that sets up an IE root here: IEC p.594 'kut- (3) \"diminutive\". Variant: kūtoko- Av. cf. kutako \"little\"; Per. cf. kūtāh \"short\"; kucak \"little\"; kūdak \"boy\"', and even Mann has no non-Indo-Iranian cognate, since he himself throws out the one candidate ('Li. kūdikis, m. \"child\" seems to be a Slav. LW. fr. *xud-'). Pokorny has no root *kut- 'small' (his only kut- is *kut-no- in Lat. cunnus, semantically unrelated), Walde-Pokorny's index is silent, and Watkins/AHD has nothing. Modern Iranian etymology (Edel'man, ESIJa IV 382, followed by Wiktionary) reconstructs Proto-Iranian *kawta- 'small, diminutive', only tentatively attached to PIE *(s)kaw-. So the root box is right about the meaning and about the group of words it heads, but the reconstruction is Iranian, not securely Indo-European, and the shape *kut- is Mann's zero-grade abstraction from Av. kutaka-.",
+      "note_fa": "این خوشه واژگانی از دید ایرانی درست است ولی برچسب «هندواروپایی» گزافه است. تنها مأخذ نورایی، فرهنگ مان (IEC) ص ۵۹۴، خودْ یگانه فرهنگی است که در اینجا ریشه‌ای هندواروپایی می‌سازد و حتی او هم جز صورت‌های هندوایرانی هم‌ریشه‌ای نمی‌آورد. پوکورنی و والده‌ـپوکورنی و واتکینز چنین ریشه‌ای ندارند. ریشه‌شناسی امروزی (ادلمان، فرهنگ ریشه‌شناختی زبان‌های ایرانی، ج۴ ص۳۸۲) صورت ایرانی آغازین *kawta- «کوچک» را بازسازی می‌کند و پیوند آن را با هندواروپایی *(s)kaw- تنها با احتیاط می‌پذیرد. پس معنی و مجموعهٔ واژه‌ها درست است، اما بازسازی *kut- ساختهٔ مان از روی صورت اوستایی kutaka- است و ایرانی است نه هندواروپایی.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%AF%DA%A9",
+        "https://en.wiktionary.org/wiki/%DA%A9%D9%88%DA%86%DA%A9",
+        "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%AA%D8%A7%D9%87"
+      ],
+      "ref_check": [
+        {"ref": "IEC:594", "status": "supports", "note": "Page number exact. IEC.txt leaf 337 carries the running head 'kurn- — kut-' and the printed numerals 594/595: 'kut- (3) \\'diminutive\\'. Variant: kūtoko- Av. cf. kutako \"little; Per. cf. kūtàh \\'short\\'; kucak \"little; küdak \\'boy\\'. (Li. kūdikis, m. \"child\" seems to be a Slav. LW. fr. *xud-)'. Nourai's root name, gloss and the whole Avestan+Persian word list come straight from this one paragraph."}
+      ],
+      "consulted": [
+        {"src": "POK", "where": "IEW, whole text", "stance": "silent", "note": "grep -n -E 'lemma: kut' POK_full.txt returns nothing; Pokorny reconstructs no root *kut- 'small/short'. The only kut- shape in the IE literature is *kut-no- (Lat. cunnus), semantically unrelated."},
+        {"src": "WLD", "where": "Band 3 Wortregister; Bd. I/II page files", "stance": "silent", "note": "grep -i -E 'kutaka|kūtāh|kutah' over WLD_band3.txt and WLD_Bd1_pages.txt / WLD_Bd2_pages.txt finds nothing: Walde-Pokorny never treats the Avestan/Persian family."},
+        {"src": "AHD", "where": "Watkins 1985, appendix", "stance": "silent", "note": "The only kut- in AHD_watkins1985.txt is 'kut-no- in Latin cunnus, vulva (< \"sheath\")' (under the (s)keu- family); there is no root meaning 'small, short'."},
+        {"src": "ARY", "where": "printed p.413 (ARY_pages.txt pdf page 412), entry «کوتاه / کوته»", "stance": "supports", "note": "Aryanpur gives کوتاه/کوته its own root-entry with cognates across Germanic/Slavic/Baltic and the footnote 'واژه‌های فارسی «کودک» و «کوچک» هم از همین ریشه‌اند', citing برهان قاطع ۱۷۲۴ — i.e. he groups exactly the three Persian words Nourai groups, and (like Nourai) claims IE status."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ku, kva, kutaka; kvataka, kautaka",
+          "verdict": "disputed",
+          "derivation": "Only ONE of these five forms is attested Avestan. (a) kutaka- 'small' is genuine: Bartholomae cites it from Vidēvdād 14.5, 'maoirinąm ... kutakanąm duzaininąm' \"of small, ill-born ants\" (AiW s.vv. araēka-, maurvay-); it is the zero-grade *kut-a-ka- of Proto-Iranian *kawta-. (b) kautaka is NOT an Avestan word: it is Hübschmann's reconstruction, and he sets it up for Old Persian, not Avestan — Persische Studien no. 871 derives MP/NP kōdak 'child' by suffix -ak from *kōt = ap. *kauta-, 'zu dem das auf schwachster Wurzelstufe stehende zd. kutaka- \"klein\" gehört'. Modern work agrees with the shape (Proto-Iranian *kawta-ka- > MP kōdak, per Edel'man ESIJa IV 382) but not with the Avestan label. (c) kvataka is likewise unattested: it is Horn's reconstruction (Grundriss no. 871: 'Für kōdek ist eine Grundform *kvataka- anzusetzen (wie dō aus dva-, tō aus tvam)'), and Hübschmann rejects it outright — 'Horn's Erklärung von kodak aus *kvataka- (vom Pronominalstamm kva-, ku-?) ist mir unverständlich'. MacKenzie's Pahlavi kawādak [kw'tk'] 'young; baby' shows the shape is at least a real Middle Persian variant, but it is Middle Persian, not Avestan. (d) ku and kva ARE Avestan words, but they mean 'where?/how?/whither?', not 'small': Bartholomae has 'g. kudā Adv. \"wo?\"', 'j. kuθa Adv. 1) \"wie?\" 2) \"wohin?\"', 'j., g. kuθra Adv. \"wo?, wohin?\"', and kva likewise 'wo' (e.g. 'kva ... aiŋhā ziṇō \"wo auf der Erde hier\"'). They appear in this box only because Horn floated the pronominal stem kva-/ku- as the source of *kvataka-, a suggestion nobody has followed since 1895. So: the arrow root→Avestan is sound for kutaka-, and kautaka is a legitimate (if mislabelled) reconstruction; kvataka is a rejected one, and the gloss 'small' on ku, kva is simply wrong.",
+          "derivation_fa": "از این پنج صورت تنها یکی اوستایی گواهی‌شده است. kutaka- «کوچک» راستین است و بارتولومه آن را از وندیداد ۱۴٫۵ («maoirinąm ... kutakanąm») می‌آورد؛ این صورت ستاک بی‌درجهٔ *kut-a-ka- از ایرانی آغازین *kawta- است. kautaka واژهٔ اوستایی نیست، بلکه بازسازی هوبشمان است و او آن را برای پارسی باستان (*kauta-) می‌نهد نه اوستایی؛ ریشه‌شناسی امروزی (ادلمان) نیز *kawta-ka- ایرانی آغازین را می‌پذیرد ولی برچسب اوستایی را نه. kvataka نیز بازسازی هرن است («برای kōdek باید صورت اصلی *kvataka- نهاد») که هوبشمان آشکارا رد کرده و آن را «برای من نامفهوم» خوانده است؛ هرچند مکنزی صورت پهلوی kawādak «خردسال، نوزاد» را ثبت کرده که نشان می‌دهد این شکل در فارسی میانه واقعی است. سرانجام ku و kva در اوستا قید پرسشی به معنی «کجا؟ چگونه؟» هستند نه «کوچک»؛ حضورشان در این جعبه تنها بازتاب حدس هرن دربارهٔ ستاک ضمیری kva-/ku- است. پس ادعای بنیادی (kutaka- «کوچک») درست است اما معنی‌گذاری ku و kva خطاست و kvataka را پژوهش امروزی نمی‌پذیرد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%AF%DA%A9"
+          ],
+          "ref_check": [
+            {"ref": "HUB:89", "status": "partial", "note": "HUB.txt leaf 99 = printed p.89, entry 871: 'Np. kutāh oder kōtah (nach dem afgh. LW. kōtah) heisst eigentlich \\'kurz\\' (nicht \\'klein\\') und ist von np. kōdak \\'Kind\\' = phl. kōtak \\'a child, an infant\\' Gl. and Ind. 201, arm. LW. kotak \\'der Kleine\\' ... zu trennen. Letzteres ist durch Suffix ak von *kōt = ap. *kauta- abgeleitet, zu dem das auf schwachster Wurzelstufe stehende zd. kutaka- \\'klein\\' gehört. Horn's Erklärung von kodak aus *kvataka- (vom Pronominalstamm kva-, ku-?) ist mir unverständlich.' The page therefore supplies Nourai's kautaka (as OP *kauta-) and kutaka-, but labels neither Avestan-plus-child, and explicitly rejects kvataka and the pronominal stem."},
+            {"ref": "HRN:194", "status": "supports", "note": "HRN.txt leaf 215 = printed p.194, entry 871: 'kūtāh, kūteh \\'klein, kurz\\'; kōdek \\'Kind, Kleines, Foetus, Embryo (AM.)\\'. aw. kutaka- \\'klein\\'; phlv. kūtak bezw. kōtak ... Für ködek ist eine Grundform *kvataka- anzusetzen (wie dō aus dva-, tō aus tvam u. a. m.). Zum Pronominalstamm kva-, ku-?' This is exactly where Nourai's kvataka and his ku, kva come from; Horn's own question mark shows he offered it as a guess."},
+            {"ref": "IEC:594", "status": "supports", "note": "Mann p.594 s.v. kut- (3) gives 'Av. cf. kutako \"little\"' — the only Avestan form he cites, and he prefixes it with 'cf.', i.e. he too treats it as a comparandum rather than the etymon."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW s.vv. araēka-, maurvay- (BRT.txt ll. 5285, 20075); s.vv. kudā, kuθa, kuθra (ll. 9625, 9643, 9645)", "stance": "partial", "note": "Confirms kutaka-: 'maoirinqm kutakanqm duzaininqm V. 14.5'. Contradicts the gloss on ku/kva: 'g. (, j.) kudā Adv. \\'wo?\\'', 'j. kuθa Adv. 1) \\'wie?\\' ... 2) \\'wohin?\\'', 'j., g. kuθra Adv. \\'wo?, wohin?\\''; kva likewise appears only as the local adverb ('kva .. aiŋhā zimō \"wo auf der Erde hier\" V. 3.1'). Bartholomae has no Avestan kvataka- or kautaka-."},
+            {"src": "PHD", "where": "MacKenzie 1971 p.51 (PHD_mackenzie.txt ll. 3265, 3323)", "stance": "partial", "note": "'kawadak [kw'tk'] young; baby; v. kodak' and 'kodak [kwtk' | M qwdk, N ~] young, small; baby'. MacKenzie's kawādak is the real form behind Horn's *kvataka-, but it is Middle Persian; MacKenzie offers no Avestan antecedent, and he has no kōtāh at all (his words for 'short' are gišnag and kūk [kwk'] 'small, short')."},
+            {"src": "NYB", "where": "Manual of Pahlavi II, glossary (NYB_vol2_glossary.txt ll. 6041, 6696)", "stance": "supports", "note": "'qwdk: kōtak' and 'kōdak: kōtak' — Nyberg reads the Pahlavi spelling kwtk' as kōtak/kōdak, the direct continuation of *kawta-ka-."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "kŭtâh «کوتاه»; kŭdak «کودک»; kŭčak «کوچک»",
+          "verdict": "plausible",
+          "derivation": "کودک kūdak is the clean case: Proto-Iranian *kawta-ka- > Middle Persian kōdak (spelled kwtk', MacKenzie p.51 'young, small; baby'; Nyberg reads the same graph kōtak), whence New Persian kūdak with the regular MP ō > NP ū raising and intervocalic -t- > -d- voicing; Armenian borrowed it as kotak 'the little one' (a byname of king Xosrov in Faustus of Byzantium), which dates the Middle Iranian form to the 4th–5th c. کوچک kūčak has the same base with a different suffix, Proto-Iranian *kaw-ča-ka > MP kūčak, beside MP kūč, kūk 'small, short' (MacKenzie kūk [kwk'] 'small, short'); the -č- is the palatal suffix, not a development of -t-. کوتاه kūtāh is the problem child: its -t- survives intervocalically where Middle Persian normally voices it (whence kūdak), and both Horn and Hübschmann say so — Horn: 'np. kūtāh entbehrt auffälliger Weise der Lautverschiebung', Hübschmann p.189: 'Die Etymologie von kutah \"kurz\" (s. oben p.89) ist noch nicht gefunden', and on p.89 he separates kūtāh from kōdak altogether, suggesting the Afghan (Pashto) loan kōtah kept the t. Nyberg instead analysed it as kōt + āh 'whose strength is little'. Mo'in, Dehkhoda, Aryanpur, Mann and Wiktionary all nonetheless keep the three words together, so the chart's grouping is the mainstream Persian view — but with Hübschmann's dissent on kūtāh unresolved, and the arrow drawn from an 'Avestan' box whose forms are mostly reconstructions.",
+          "derivation_fa": "«کودک» روشن‌ترین حلقه است: ایرانی آغازین *kawta-ka- > فارسی میانه kōdak (نوشتار kwtk'؛ مکنزی: «خردسال، کوچک، نوزاد») > فارسی نو کودک، با تحول قاعده‌مندِ ō فارسی میانه به ū و نرم‌شدن t میان دو واکه به d؛ ارمنی نیز آن را به‌صورت kotak «کوچک» وام گرفته که کهنگی صورت ایرانی میانه را نشان می‌دهد. «کوچک» همان ستاک است با پسوند دیگر: ایرانی آغازین *kaw-ča-ka > فارسی میانه kūčak، در کنار kūk «کوچک، کوتاه» در فرهنگ مکنزی. «کوتاه» دشواری دارد، زیرا t میان دو واکه در آن نرم نشده است؛ هرن می‌گوید «کوتاهِ فارسی نو به‌طور شگفت‌آوری دگرگونی آوایی ندارد» و هوبشمان (ص ۱۸۹) می‌نویسد «ریشه‌شناسی کوتاه هنوز یافته نشده است» و در ص ۸۹ آن را از کودک جدا می‌کند؛ نیبرگ آن را kōt+āh تحلیل کرده است. با این‌همه معین (حاشیهٔ برهان قاطع ص ۱۷۲۱)، دهخدا، آریان‌پور و ویکی‌واژه هر سه واژه را هم‌ریشه می‌دانند؛ پس گروه‌بندی نورایی دیدگاه رایج فارسی است، اما با تردید هوبشمان دربارهٔ «کوتاه».",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%AA%D8%A7%D9%87",
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%AF%DA%A9",
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%DA%86%DA%A9",
+            "https://abadis.ir/fatofa/%DA%A9%D9%88%D8%AA%D8%A7%D9%87/"
+          ],
+          "ref_check": [
+            {"ref": "BQT:1721", "status": "supports", "note": "Page number exact: BQT vol. 3, printed p.1721 = PDF page 514 (BQT_v3_pages.txt leaf 513; neighbouring running heads ۱۷۱۳ on pdf 506, ۱۷۱۷ on pdf 510, ۱۷۲۳ on pdf 516 confirm printed = pdf + 1207). Rendered with tools/ref_page.py BQT:1721 --image. Mo'in's etymological footnote 5 on that page: «۵ کوتاه - بضم اول ( kōtāh, در قدیم kūtāh ) . اوستا kutaka- (کوچك). پهلوی kōtak (کودك). ارمنی kotak (كوچك). مرکب از kōt + ... رك: هوبشمان ۸۷۱ ... نیز پهلوی kōtāh (قصیر) ... نیبرگ گوید: فارسی kōtāh از kōt+āh ... (یعنی آنکه زور و نیرویش کم است) «نیبرگ ص ۲۰۸» ... کردی kurt/kōt (کوتاه، قصیر)». The page thus carries exactly the Avestan kutaka- / Pahlavi kōtak / New Persian کوتاه، کودک chain Nourai draws, and cites Hübschmann no. 871 = Nourai's HUB:89."},
+            {"ref": "IEC:594", "status": "supports", "note": "Mann p.594: 'Per. cf. kūtāh \\'short\\'; kucak \"little; küdak \\'boy\\'' — all three Persian words of this box, with Nourai's glosses (Mann's 'boy' becomes Nourai's 'child')."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "Grundriss no. 871, p.194", "stance": "supports", "note": "'kūtāh, kūteh \\'klein, kurz\\'; kōdek \\'Kind\\' ... aw. kutaka- \\'klein\\'; phlv. kūtak bezw. kōtak' — Horn puts the same three-way group (minus kūčak) under one entry, while flagging 'np. kūtāh entbehrt auffälliger Weise der Lautverschiebung'."},
+            {"src": "HUB", "where": "Persische Studien no. 871 (p.89) and § 83 d (p.189)", "stance": "contradicts", "note": "'Np. kutāh ... heisst eigentlich \\'kurz\\' (nicht \\'klein\\') und ist von np. kōdak \\'Kind\\' ... zu trennen'; and p.189 'Die Etymologie von kutah \\'kurz\\' (s. oben p. 89) ist noch nicht gefunden. Aber die Frage bleibt noch offen, wie die nach Vokalen im Persischen überhaupt vorkommenden t (wie z. B. in kutah) zu erklären sind, da urspr. t nach Vokal der Regel nach zu d werden musste.' Hübschmann keeps kōdak in the family but takes kūtāh out of it."},
+            {"src": "PHD", "where": "MacKenzie 1971, p.51 and English index", "stance": "partial", "note": "Has 'kodak [kwtk' | M qwdk, N ~] young, small; baby' and 'kawadak', but no Pahlavi kōtāh; for 'short' MacKenzie gives 'gisnag, kuk' and 'kūk [kwk'] small, short'. So the Pahlavi ancestor of کودک is documented, that of کوتاه is not."},
+            {"src": "MON", "where": "فرهنگ معین s.v. کوتاه (via abadis.ir); Dehkhoda on the same page", "stance": "supports", "note": "Mo'in tags the word «[ په . ] (ص.) قصیر، کم طول، کوچک» — [په.] = پهلوی, i.e. inherited from Middle Persian, not borrowed; Dehkhoda's article notes 'در اوستایی واژه‌ای شبیه kutaka به معنای کوچک دیده می‌شود' and that Pahlavi 'kōtak به معنای کودک (کوچک) آمده است', adding that the Chaghatai form is a loan from Persian, not the other way round."},
+            {"src": "ARY", "where": "printed p.413, entry «کوتاه / کوته», footnote 1", "stance": "supports", "note": "'واژه‌های فارسی «کودک» و «کوچک» هم از همین ریشه‌اند' — Aryanpur groups precisely Nourai's three words and cross-refers to برهان قاطع ۱۷۲۴."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 7,
+      "root": "Kwe, Qwe, Kue, Que, Kwi 2",
+      "verdict": "confirmed",
+      "modern_form": "PIE enclitic *-kʷe 'and' (and the generalizing particles *kʷid / *kʷis built on the same interrogative-indefinite stem *kʷo-/*kʷi-)",
+      "note": "Pokorny 635-636 has the entry verbatim: 'Root / lemma: kʷe 1. Meaning: and (encl.). Note: from \"anyhow, somehow\", as also to Pron.-stem kʷo-, kʷe- ... Material: Old Indic ca, Avestan ca, ap. ca enclitic \"and\"; Lydian -k; gr. te; venet. -ke, lepont. -pe, piken. -p, Latin -que ...'. Nourai's five head-forms are transcription variants of one thing: Kwe/Qwe/Kue/Que are just ways of writing *kʷe (q = kʷ, u = w), and 'Kwi 2' covers the *kʷid/-kʷis end of the same article, which Pokorny treats in the same paragraph ('Latin quis-quam, Old Indic cit (cid), Avestan cit, ap. ciy generalization particle ... = Indo Germanic *kʷid'). Language label 'Indo-European' and gloss 'and' are both right. Modern handbooks (Wiktionary's *-kʷe, after Dunkel and Szemerényi) agree, differing only on whether *-kʷe is an old instrumental *kʷe-h₁ of *kʷis or an injunctive of *sekʷ- 'to follow'; that dispute does not touch any arrow on this chart.",
+      "note_fa": "پوکورنی در صفحهٔ ۶۳۵–۶۳۶ همین مدخل را دارد: «ریشهٔ kʷe ۱، معنی: و (پی‌بست)» با مواد سنسکریت ca، اوستایی ča، پارسی باستان -cā و لاتینی -que. پنج صورتی که نورایی در سرِ جعبه آورده تنها گونه‌های نگارشی یک چیزند (q همان kʷ و u همان w)، و «Kwi 2» به بخش *kʷid/*kʷis همان مقاله بازمی‌گردد که پوکورنی در همان بند می‌آورد (اوستایی čit، پارسی باستان -ciy). برچسب زبانی و معنی هر دو درست است. پژوهش امروزی (ویکی‌واژه به پیروی از دانکل و سه‌مه‌رنی) نیز همین را می‌گوید و اختلاف تنها بر سرِ خاستگاه دورترِ خودِ *-kʷe است که به هیچ‌یک از پیکان‌های این نمودار آسیب نمی‌زند. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e"
+      ],
+      "ref_check": [
+        {"ref": "POK:635", "status": "supports", "note": "Exact. POK_full.txt, 'Root / lemma: kʷe 1 (*kʷehu-) / Meaning: and (encl.) ... References: WP. I 507 f., WH. I 309 f., II 401 f., Schwyzer Gr. Gr. II 573 ff. / Page(s): 635-636'. The same printed page 635 also carries '(s)kʷalo-s' — which is why the six redirects on this book page (Kwal, Kwalo, Kwalos → Skwalo) sit next to this entry."}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "WP. I 507 f. (cited by Pokorny at the foot of the article)", "stance": "supports", "note": "Pokorny's own reference line 'WP. I 507 f.' shows Walde-Pokorny treats *kʷe at Bd. I 507-508; POK 635-636 is the 1959 revision of that article."},
+        {"src": "AHD", "where": "Watkins 1985, s.v. kʷo-", "stance": "partial", "note": "'kwo-. Also ki-. Stem of relative and interrogative pronouns ... [Pok. kʷo- 644.]' — Watkins folds the material into the pronominal stem and has NO separate entry for the enclitic *-kʷe, so AHD neither confirms nor denies Nourai's separate root box."},
+        {"src": "KLN", "where": "Klein 1966-67 p.1425 s.v. sesqui-", "stance": "supports", "note": "'-que, \\'and\\', which is cogn. with OI., Avestic ca, OPers. ca, Gk. τε, Phryg. κε, Goth -h, Bulg., OIr. -ch, \\'and\\'.' Klein lines up precisely the Avestan / Old Persian / Latin trio that Nourai draws as three branches."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ca, ča; čiš-ca 1; čit 1",
+          "verdict": "confirmed",
+          "derivation": "PIE *-kʷe > Proto-Indo-Iranian *-ča by the satem palatalization of the labiovelar before the front vowel *e (the same change that gives Skt. ca, and that is still visible in the Gathic long form -cā beside Younger Avestan -ča). Bartholomae's article documents all three uses Nourai lists: the plain connective 'und', the 'auch' sense, and the indefinite-forming use — 'ča dient dazu, Indefinita zu bilden, u. zw. in Verbindung mit 1) dem Pron. interrog. ka-: cisca \"quisque\"'; hence čiš-ča 'whoever, whatever, everyone' = the interrogative čiš (nom. sg. of ka-) + enclitic -ča, e.g. 'yō cisca ahmi nmāne' Y. 19.28. čit (with -t from PIE *-d) is the parallel generalizing particle *kʷid, used chiefly after ka- (Bartholomae: 'mit vorangehendem Relativ und folgendem 1) cit (hinter ka-)'), e.g. kahmāi-cit, kas-cit. Nourai's two transcriptions 'ca, ča' are the same word in the older and newer conventions, not two words; the trailing '1' on čiš-ca and čit is his homonym index.",
+          "derivation_fa": "*-kʷe هندواروپایی آغازین در هندوایرانی آغازین بر اثر کامی‌شدن (پالاتالیزاسیون) واکِ لبی‌ـکامی پیش از واکهٔ پیشین *e به *-ča بدل شد؛ همین دگرگونی صورت سنسکریت ca را نیز پدید آورده و در اوستایی گاهانی -cā در برابر اوستایی نو -ča هنوز دیده می‌شود. بارتولومه هر سه کاربردی را که نورایی آورده ثبت کرده است: پیوندی «و»، معنی «نیز»، و ساختِ نامعین: «ča برای ساختن نامعین‌ها به کار می‌رود، از جمله با ضمیر پرسشی ka-: cisca \"quisque\"». پس čiš-ča «هرکه، هرچه» از čiš (فاعلیِ ka-) و پی‌بست -ča ساخته شده، و čit با -t از *-d هندواروپایی همان ذرهٔ تعمیم *kʷid است (kahmāi-cit، kas-cit). دو نگارش ca و ča یک واژه‌اند نه دو واژه. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e"
+          ],
+          "ref_check": [
+            {"ref": "POK:635", "status": "supports", "note": "'Material: Old Indie ca, Avestan ca, ap. ca enclitic \"and\"' and, further down, 'the indefinite mode, mind intensifying e.g. Old Indie kas-ca, Avestan cis-ca \"wer irgend, welcher irgend\" ... Avestan cis-ca also \"whoever it be, whatever, each, each one, every\"' and 'Old Indic cit (cid), Avestan cit, ap. ciy generalization particle ... = Indo Germanic *kʷid'. Every word in Nourai's box is on Pokorny's page 635-636."},
+            {"ref": "KLN:1425", "status": "supports", "note": "Page number exact: KLN_1966.txt leaf 757, calibrated from leaf 749 = printed pp.1410-11 (s.v. seersucker) and leaf 755 = p.1422 (s.v. serene), so leaf 757 = pp.1425-26. Klein s.v. sesqui-: 'fr. semi-, \\'half\\' (see semi-), and -que, \\'and\\', which is cogn. with OI., Avestic ca, OPers. ca, Gk. τε, Phryg. κε, Goth -h, Bulg., OIr. -ch, \\'and\\'.' Klein is Nourai's source for putting the Avestan and Old Persian boxes on the same chart as Latin -que."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW s.v. ča (the article whose §D is quoted at BRT.txt l. 11084, with Stellenverzeichnis at Sp. 425-426)", "stance": "supports", "note": "'D) ča dient dazu, Indefinita zu bilden, uzw. in Verbindung mit 1) dem Pron. interrog. ka-: cisca \"quisque\" H. 2.11 (Sp. 425 u.)'; the same article documents the connective ('anschliessend \\'und\\'') and the 'auch' sense, and lists čiš-ča attestations (Y. 19.28 'yō cisca ahmi nmāne', H. 2.10, Vyt. 57)."},
+            {"src": "KNT", "where": "Kent, Old Persian, Lexicon s.v. -cā (KNT.txt l. 5376)", "stance": "supports", "note": "'-cā (i.e. -cā) encl. conj. \\'and\\': GAv. -cā, LAv. -ča, Skt. ca, Gk. τε, Lt. -que, pIE *kʷe' — Kent explicitly writes the Gathic long -cā beside the Younger Avestan -ča that Nourai gives as two forms."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": null,
+          "words": "",
+          "verdict": "unverified",
+          "derivation": "An empty box, and empty in the printed book too: pdf p.288 (book p.258) shows a plain rectangle to the right of the Avestan box with no language header, no reference and no word, joined to it by an arrow. There is nothing to verify. From its position (the slot where Nourai normally puts the Middle/New Persian continuation of an Avestan form) he evidently meant the Iranian descendant of the enclitic — Middle Persian -(i)č, which Nyberg's glossary documents in adak-ič 'then also', amāh-ič 'us too', čiš-ič, hēč, and which survives in New Persian هیچ hič and the -ی/-چ of چه — but he left the box blank. The extraction is faithful to the page.",
+          "derivation_fa": "این جعبه در خودِ کتاب نیز تهی است: در صفحهٔ ۲۵۸ چاپی مستطیلی بی‌نام‌زبان، بی‌مأخذ و بی‌واژه در کنار جعبهٔ اوستایی دیده می‌شود. پس چیزی برای راستی‌آزمایی نیست. از جای آن پیداست که نویسنده بازماندهٔ ایرانیِ همان پی‌بست را در نظر داشته است، یعنی -(i)č فارسی میانه (در adak-ič، amāh-ič، čiš-ič، hēč نزد نیبرگ) که در فارسی نو در «هیچ» و «چه» بازمانده است، ولی جعبه را ناتمام رها کرده. خطای خوانش اسکن نیست؛ استخراج با صفحهٔ چاپی مطابق است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "The box carries no reference in the book (refs=None in the extraction, and the rendered page confirms the rectangle is blank)."}
+          ],
+          "consulted": [
+            {"src": "NYB", "where": "Manual of Pahlavi II, glossary s.vv. adak, amah, āyēnak", "stance": "silent", "note": "Nyberg records the Middle Persian reflex of the enclitic throughout ('adak, with encl. ... 'DYN-c = adak-ič, then, by then'; 'amāh-ič'; 'pat čiš-ič ~ mā, pat hēč ~ ... nē in no way'), but there is no form in Nourai's box to match it against."},
+            {"src": "PHD", "where": "MacKenzie 1971, e.g. s.v. kas ~-iz [-c] 'anybody'", "stance": "silent", "note": "MacKenzie writes the same enclitic -iz/-c ('kas ... ~-iz [-c] anybody, (with a negative) nobody'), again with nothing in the chart box to compare."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Old Persian",
+          "words": "câ, čâ; čiy 1",
+          "verdict": "confirmed",
+          "derivation": "Old Persian writes the enclitic conjunction with a long vowel, -cā, an Old Persian innovation beside Gathic -cā / Younger Avestan -ča; Kent's lexicon entry is exactly Nourai's box: '-cā (i.e. -cā) encl. conj. \\'and\\': GAv. -cā, LAv. -ča, Skt. ca, Gk. τε, Lt. -que, pIE *kʷe'. It is attested in the Achaemenid inscriptions from Darius on, both singly and in the correlative pair '-cā ... -cā \"both ... and\"' (DB 1.65-67, DNb 32, DPd 9f, XPh 41, 51, 54), and in sandhi forms such as -ca-maiy (DNb 28, 51, 52). čiy is the second word of the box: OP -ciy, the generalizing particle continuing PIE *kʷid, as Kent states in the grammar — 'pIE *kʷid, OP -ciy, Skt. cid, Gk. τί \"what\", Lt. quid' — and as seen in the texts in kaš-ciy, ciš-ciy, avaš-ciy, aniyaš-ciy, paruvam-ciy (Kent §130: 'OP cišciy from *kʷid-kʷid', 'avasciy from earlier *avad-cid'). The final -y is the automatic Old Persian addition to a word-final -i (Kent §105: 'OP ciy, Skt. cid, Gk. τί'). Nourai's 'câ, čâ' are again one word in two transcriptions.",
+          "derivation_fa": "پارسی باستان پی‌بست پیوندی را با واکهٔ بلند می‌نویسد: -cā، که نوآوریِ پارسی باستان در برابر -cā گاهانی و -ča اوستایی نو است. مدخل واژه‌نامهٔ کنت دقیقاً همان جعبهٔ نورایی است: «-cā پی‌بستِ پیوندی «و»: اوستایی گاهانی -cā، اوستایی نو -ča، سنسکریت ca، یونانی τε، لاتینی -que، هندواروپایی *kʷe». این صورت از داریوش به بعد در سنگ‌نبشته‌ها گواهی شده، هم تنها و هم در جفتِ همبسته «-cā ... -cā» (بیستون ۱٫۶۵–۶۷، نقش رستم b ۳۲). واژهٔ دوم، -ciy، ذرهٔ تعمیم و دنبالهٔ *kʷid هندواروپایی است («هندواروپایی *kʷid، پارسی باستان -ciy، سنسکریت cid، یونانی τί، لاتینی quid» به گفتهٔ کنت) و در kaš-ciy، ciš-ciy، avaš-ciy، paruvam-ciy دیده می‌شود؛ -y پایانی افزودهٔ خودکارِ پارسی باستان بر -i پایانی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e"
+          ],
+          "ref_check": [
+            {"ref": "POK:635", "status": "supports", "note": "Pokorny 635-636 lists 'ap. ca enclitic \"and\"' in the Material section (the OCR prints it 'ap. da'), and further on 'Old Indic cit (cid), Avestan cit, ap. ciy generalization particle (z. B. Old Indic kas-cid \"any one\") = Indo Germanic *kʷid' — both of Nourai's Old Persian words."}
+          ],
+          "consulted": [
+            {"src": "KNT", "where": "Kent, Old Persian, Lexicon s.v. -cā (KNT.txt l. 5376) and §§ 87, 105, 130 (ll. 918, 1333-35, 1405)", "stance": "supports", "note": "Lexicon: '-cā ... encl. conj. \\'and\\': GAv. -cā, LAv. -ča, Skt. ca, Gk. τε, Lt. -que, pIE *kʷe. -cā ... -cā \\'both ... and\\' DB 1.65, DNb 32'. Grammar: '*kʷid, OP -ciy, Skt. cid, Gk. τί \\'what\\', Lt. quid' and 'pIE *kʷid-kʷid, OP cišciy \\'anything\\''."},
+            {"src": "TLM", "where": "Tolman, Ancient Persian Lexicon, texts of DB and XPh", "stance": "supports", "note": "The inscriptional text as printed by Tolman shows the forms in situ: 'kasciy', 'cisciy', 'paruvamciy', 'aniyasciy', 'avasciy' (DB 1.49-53, 1.63; XPh 13-14, 19), i.e. the enclitic actually written on the monuments."},
+            {"src": "BRT", "where": "AiW, ča article, §3 'im Ap.'", "stance": "supports", "note": "Bartholomae treats the Old Persian enclitic within the same ča article and quotes Old Persian sandhi forms ('3) ča im Ap. vor dem verallgemeinernden kā (Sp. 422): tuvam kā hya aparam ...'), confirming the Avestan and Old Persian forms are one and the same particle."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": null,
+          "words": "",
+          "verdict": "unverified",
+          "derivation": "The second empty box, again blank on the printed page: a rectangle to the right of the Old Persian box, no language header, no reference, no word, reached by an arrow from Old Persian. Nothing to verify. As with node #2 the slot is where the later Persian reflex would go (Middle Persian -(i)č, New Persian هیچ hič, چه če), but Nourai left it empty; the JSON reproduces the page correctly.",
+          "derivation_fa": "دومین جعبهٔ تهی، که در صفحهٔ چاپی نیز تهی است: مستطیلی در سمت راست جعبهٔ پارسی باستان، بی‌نام زبان و بی‌مأخذ و بی‌واژه. چیزی برای راستی‌آزمایی نیست. مانند گرهٔ ۲، جای بازماندهٔ متأخرِ فارسی است (فارسی میانه -(i)č، فارسی نو «هیچ» و «چه») که نویسنده آن را پر نکرده است. استخراج با صفحهٔ چاپی مطابقت دارد و خطای خوانش نیست.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "No reference is printed in the box (refs=None; confirmed on the rendered page image of pdf p.288)."}
+          ],
+          "consulted": [
+            {"src": "NYB", "where": "Manual of Pahlavi II, glossary s.v. adak", "stance": "silent", "note": "The Middle Persian continuation is well documented ('adak-ič, then, by then'), but the chart box supplies no form to test."},
+            {"src": "KNT", "where": "Old Persian lexicon", "stance": "silent", "note": "Kent has no post-Achaemenid material; nothing in his lexicon corresponds to a blank descendant box."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "que; semi-sque",
+          "verdict": "plausible",
+          "derivation": "Latin -que 'and' is the direct and uncontroversial reflex of PIE *-kʷe: Italic kept the labiovelar, spelled qu-, so *-kʷe > -que, exactly parallel to Oscan-Umbrian -pe/-p (with the p-treatment) and to Latin ne-que = Osc.-Umbr. nep. Pokorny 635 lists it: 'venet. -ke, lepont. -pe, piken. -p, Latin -que; ne-que = Oscan-Umbrian nep'. The second form is different in kind: 'semi-sque' is not an attested Latin word but a reconstruction, printed here without an asterisk. Ernout-Meillet s.v. sēmi- give the derivation: 'sēmis et sēmissis de *sem(i)-as(s) \"moitié de l'unité\"... Semis- est réduit à ses- dans sestertius ... dans sēsqui (de *semisque) employé seul par Cicéron, Or. 56, 188, mais seulement usité dans ... sescuncia, sescuplus, sesquiplex, sesquipes, sesquipedalis \"d'un pied et demi\"'. Klein gives the same with the syncope marked: 'L., contraction of *sem(i)sque, \"and a half (more)\", fr. semi-, \"half\", and -que, \"and\"'. So the chain is sēmis 'a half (as)' + -que 'and' > *sēmisque > (syncope of -i-, then -mis- > -s-) sēsqui-, the same reduction that gives sēstertius from sēmis tertius. Nourai's gloss 'one half more' is Klein's. Verdict plausible rather than confirmed only because the box presents a reconstructed pre-form as if it were a Latin word.",
+          "derivation_fa": "-que لاتینی «و» بازتاب مستقیم و بی‌مناقشهٔ *-kʷe هندواروپایی است: در ایتالیایی آغازین واکِ لبی‌ـکامی نگاه داشته شد و با qu- نوشته شد، درست همان‌گونه که در اسکی‌ـاومبریایی به -pe/-p بدل شد (لاتینی ne-que در برابر اسکی nep). پوکورنی در ص ۶۳۵ همین را می‌آورد. اما صورت دوم از گونهٔ دیگری است: «semi-sque» واژهٔ گواهی‌شدهٔ لاتینی نیست بلکه بازسازی است که در کتاب بی‌ستاره چاپ شده. ارنو و مه‌ییه ذیل sēmi- می‌نویسند: «sēsqui (از *semisque) که سیسرون آن را تنها به کار برده است». کلاین نیز همان را با نشان‌دادن حذف واکه می‌آورد: «لاتینی، ادغام‌شدهٔ *sem(i)sque «و نیمی (بیشتر)» از semi- «نیم» و -que «و»». پس زنجیره چنین است: sēmis «نیم» + -que > ‏*sēmisque > sēsqui-، همان کاهشی که sēstertius را از sēmis tertius پدید آورده است. حکم «با احتیاط پذیرفتنی» تنها از آن روست که جعبه یک صورت بازسازی‌شده را همچون واژهٔ واقعی لاتینی نشان داده است.",
+          "sources": [
+            "https://www.etymonline.com/word/sesqui-"
+          ],
+          "ref_check": [
+            {"ref": "POK:635", "status": "supports", "note": "Pokorny 635-636 s.v. kʷe 1 lists 'Latin -que' among the direct reflexes and adds 'compare Latin atque \"and in addition\" (ad + que) = Umbrian ap(e)'. Pokorny does not mention sesqui-/*semisque, so the second word of the box is not covered by this reference."}
+          ],
+          "consulted": [
+            {"src": "LAT", "where": "Ernout-Meillet s.v. sēmi- (LAT.txt ll. 57125-57131)", "stance": "supports", "note": "'Semis- est réduit à ses- dans sestertius: — dicitur quarta pars denarii ... i.e. dupondius et semis tertius, P.F. 453,3; dans sēsqui (de *semisque) employé seul par Cicéron, Or. 56,188 ... sescuncia, sescuplus, et sesquiplex, sesquiplaris, sesquipes, sesquipedalis \"d'un pied et demi\"'. Confirms both the reconstruction *semisque and that the surviving Latin form is sesqui-, not *semisque."},
+            {"src": "KLN", "where": "Klein 1966-67 p.1425 s.v. sesqui-", "stance": "supports", "note": "'sesqui-, combining form meaning \\'one half more\\'. — L., contraction of *sem(i)sque, \\'and a half (more)\\', fr. semi-, \\'half\\' (see semi-), and -que, \\'and\\'.' Nourai's gloss 'one half more' is Klein's wording verbatim."},
+            {"src": "LEW", "where": "Walde 1910, searched for the headwords que / sesqui", "stance": "silent", "note": "grep -n -E '^que|^sesqui' LEW_1910.txt returns nothing usable; the 1910 OCR does not yield the entry, so no independent confirmation from Walde on disk."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "sesqui-; sesqui centennial",
+          "verdict": "confirmed",
+          "derivation": "English sesqui- is a learned borrowing straight from the Latin combining form: taken over unchanged into scientific and chronological English (sesquipedalian, sesquioxide, sesquicentennial), with the meaning 'one and a half times, one half more' inherited intact from Latin sesqui- < *sēmisque. Klein: 'sesqui-, combining form meaning \"one half more\". — L., contraction of *sem(i)sque ...' and 'sesquicentennial, adj., pertaining to a century and a half; n., the one hundred and fiftieth anniversary. — Compounded of sesqui- and centennial'. The English compound is American and datable: first attested 1875, in a notice of a 'Sesqui-Centennial gathering' of the descendants of Pennsylvania settlers, as a noun from 1880 (of Baltimore's anniversary); the rival form sesquicentenary appears 1896 for Princeton. Note the chart prints 'sesqui centennial' as two words; the word is written solid (or hyphenated in the earliest attestations), and Klein has it solid — a typographic slip in the book rather than a claim about the language.",
+          "derivation_fa": "پیشوند sesqui- در انگلیسی وام‌واژه‌ای دانشورانه است که یکراست از صورت ترکیبی لاتینی گرفته شده و بی‌هیچ دگرگونی آوایی در واژه‌های علمی و تقویمی به کار می‌رود (sesquipedalian، sesquioxide، sesquicentennial)، با همان معنی «یک‌ونیم برابر، نیمی بیشتر». کلاین می‌نویسد: «sesqui-، صورت ترکیبی به معنی \"نیمی بیشتر\" — لاتینی، ادغام‌شدهٔ *sem(i)sque» و «sesquicentennial ... مرکب از sesqui- و centennial». این ترکیب انگلیسی زادهٔ آمریکاست و نخستین گواهی آن به سال ۱۸۷۵ بازمی‌گردد («گردهمایی Sesqui-Centennial» نوادگان مهاجران پنسیلوانیا) و از ۱۸۸۰ همچون اسم به کار رفته است. تنها نکتهٔ خرد آنکه کتاب «sesqui centennial» را جدا چاپ کرده، حال آنکه واژه پیوسته نوشته می‌شود؛ این لغزش چاپی است نه ادعای زبانی. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/sesqui-"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1425", "status": "supports", "note": "Page exact (KLN_1966.txt leaf 757 = printed pp.1425-26; calibrated against leaf 749 = p.1410-11 s.v. seersucker and leaf 755 = p.1422 s.v. serene). Both of Nourai's English words stand there: 'sesqui-, combining form meaning \\'one half more\\'. — L., contraction of *sem(i)sque, \\'and a half (more)\\'...' and 'sesquicentennial, adj., pertaining to a century and a half ... Compounded of sesqui- and centennial.'"}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "Skeat, Concise Etymological Dictionary", "stance": "silent", "note": "grep -i 'sesqui' SKT.txt returns nothing; Skeat's concise edition has no sesqui- entry, so it neither supports nor contradicts."},
+            {"src": "FSD", "where": "Funk & Wagnalls New Standard, vols on disk", "stance": "silent", "note": "grep -i 'sesqui' over FSD_vol4.txt and WEB_vol1.txt returns nothing (the relevant alphabetical stretch is not in the volumes held locally)."},
+            {"src": "KLN", "where": "Klein s.vv. sesqui-, sesquicentennial, sesquipedalian, p.1425", "stance": "supports", "note": "Klein also gives the sibling formation 'sesquipedalian ... fr. L. sesquipedalis ... sesqui- and pedalis', showing the combining form is productive in English exactly as the chart says."}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,710 @@
+{
+  "pdf_page": 287,
+  "book_page": 257,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Kŭr, Quôros",
+      "verdict": "disputed",
+      "modern_form": "no such PIE root; Mann's private *kʷōros / *kʷoruos 'dark, blind' (IEC 1046). The Persian word belongs to Proto-Iranian *kāra- 'blind'; Skt. kārā 'prison' belongs to Pokorny's *kāl- 'prison' (IEW 524)",
+      "note": "EXTRACTION ERROR: the printed root box on p. 257 has TWO lines — 'Kŭr, Quôros : dark, blind' AND a second line 'Kâl : prison' — and the JSON kept only the first. The missing second root is what POK:524 actually documents (Pokorny IEW 524: '5. kāl- (kōl-?) ‚Gefängnis, gefangen (sein)'?  Ai. kārā ‚Gefängnis'; lit. kaliù, kalė́ti'), and it is the head under which node #4 (Skt. kârâ) hangs. The 'dark, blind' root itself is taken wholesale from S. E. Mann, IEC col. 1046: 'quðros (quóruos) ‚dark, blind‘ Skt. kara, am. fn. ‚prison‘ beside kanáh, adj. (‚one-eyed‘, fr. *quornio-); Av. kaurvo, kaourvō, adj. ‚black‘; Per. kūr ‚blind‘; Gk. porós, adj. id.; Pol. kary ‚black — of a horse‘'. Mann's reconstruction is his own: it is absent from Pokorny, from Walde-Pokorny, from Watkins/AHD and from Wiktionary's PIE inventory, and each of its four limbs is independently problematic (see nodes). New Persian کور goes back to MP kōr, Proto-Iranian *kāra-, with no PIE 'dark' etymon.",
+      "note_fa": "ریشهٔ «کُر / Quôros» با معنی «تاریک، کور» ساختهٔ شخصی مان (S. E. Mann، فرهنگ تطبیقی هندواروپایی، ستون ۱۰۴۶) است و در پوکورنی، والده‑پوکورنی، واتکینز (AHD) و ویکی‌واژه چنین ریشه‌ای وجود ندارد. آنچه پوکورنی در ص ۵۲۴ آورده ریشهٔ دیگری است: ‏*kāl- «زندان» با سنسکریت kārā «زندان» و لیتوانیایی kalė́ti — و همین همان سطر دوم جعبهٔ ریشه در صفحهٔ چاپی (Kâl : prison) است که در استخراج JSON افتاده است. «کور» فارسی از فارسی میانهٔ kōr و آن از ایرانی باستان ‎*kāra-‎ است و هیچ پیوندی با مفهوم «تاریکی» در هندواروپایی آغازین ندارد. حاصل آنکه: ریشهٔ نورایی را پژوهش امروزی نمی‌پذیرد، هرچند تک‌تک واژه‌های فارسی و سنسکریت آن واقعی‌اند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%B1",
+        "https://en.wiktionary.org/wiki/%CF%80%CE%B7%CF%81%CF%8C%CF%82",
+        "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BE"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:524",
+          "status": "partial",
+          "note": "IEW p.524 (POK_02.txt leaf 180-182, printed marker '525' follows the entry) has no 'dark, blind' root; it has '5. kāl- (kōl-?) ‚Gefängnis, gefangen (sein)'? Ai. kārā ‚Gefängnis'; lit. kaliù, kalė́ti ‚im Gefängnis sitzen'... WP. I 356.' That supports only the SECOND printed root line ('Kâl : prison') and node #4, not the 'dark, blind' head."
+        },
+        {
+          "ref": "IEC:1046",
+          "status": "supports",
+          "note": "Mann col. 1046 (IEC.txt line 14202, leaf 579 = printed 1045/1046): 'quðros (quóruos) ‚dark, blind‘ Skt. kara, am. fn. ‚prison‘ ... Av. kaurvo, kaourvō, adj. ‚black‘; Per. kūr ‚blind‘; Gk. porós, adj. id.' — Nourai's whole chart is this one entry."
+        },
+        {
+          "ref": "IEC:591",
+          "status": "not_found",
+          "note": "IEC.txt leaf 335 carries the printed marker '591' and contains only 'kur- (1) ‚round, curved‘', 'kur- (2) ‚skin-covered boat, fishing-basket‘' and 'kur- (3) ‚heat, fire, fuel, burning‘' — nothing about 'dark' or 'blind'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "IEW p.524 (POK_02.txt leaf 182)",
+          "stance": "contradicts",
+          "note": "Pokorny knows no *kʷōr- 'dark, blind'; his 'blind' root is *kai-ko- 'einäugig' (IEW 519f., POK_02.txt line 2678), and p.524 gives *kāl- 'Gefängnis' with a question mark."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny (only Band 3 Register on disk; WP I 356 cited by Pokorny)",
+          "stance": "silent",
+          "note": "Bde. I-II not available locally; Pokorny's cross-reference 'WP. I 356' at IEW 524 points to the 'prison' root, not to a 'dark' root. No 'quōros' in the Register volume."
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt, root list",
+          "stance": "silent",
+          "note": "grep of the Watkins root list for 'kwor', 'kʷor', 'kur-' returns no root glossed 'dark' or 'blind'; Watkins' 'blind' root is *kaiko-."
+        },
+        {
+          "src": "IEC",
+          "where": "col. 1046 'quðros (quóruos)'",
+          "stance": "supports",
+          "note": "the sole source of the root; Mann himself flags parts of it (see his 'kaluos' entry, IEC line 6693, where Av. kaurvō 'black' is bracketed as WP I 433's alternative)."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "kaurvô",
+          "verdict": "disputed",
+          "derivation": "Avestan kaurva- is attested only of horses and dogs — Bartholomae, Altiranisches Wörterbuch, s.v. 'kaurva- Adj. ‚kahl, unbehaart‘' (Yt. 8.21 aspahe kəhrpa ... kaurvahe; the compound kaurvō.duma- 'with a bald tail'), i.e. 'bald, hairless', not 'black'. Pokorny (IEW 557, POK_02.txt line 3262) files it with Skt. áti-kulva-/-kūrva- 'ganz kahl' and NP kal 'haarlos, kahl' under the Latin calvus root, so the Avestan word's true New Persian continuant is kal 'bald', not kūr 'blind'. The gloss 'black' that Nourai copies is Mann's, taken over from Walde-Pokorny I 433 (Mann, IEC 'koruos (3) ‚black‘ Av kaurvō, id.; Gk. korós, id.; Lat. cf. corvus'), and Mann marks it 'queried' in his own 'kaluos' entry. Phonetically too the arrow fails: Av. -aurv- would give MP *kurw/*kul, not kōr.",
+          "derivation_fa": "واژهٔ اوستایی kaurva- در بارتولومه (فرهنگ ایرانی باستان، ذیل kaurva-) «کچل، بی‌مو» معنی شده است، نه «سیاه»؛ شواهد آن دربارهٔ اسب و سگ است (اشتاد یشت ۸.۲۱) و ترکیب kaurvō.duma- «دُم‌بی‌مو» نیز همین را نشان می‌دهد. پوکورنی (ص ۵۵۷) آن را با سنسکریت áti-kulva- «یکسره کچل»، فارسی نوِ «کل» و لاتین calvus هم‌ریشه می‌داند؛ یعنی بازماندهٔ فارسی این واژه «کل» است نه «کور». معنی «سیاه» را نورایی از مان گرفته و مان خود آن را با علامت پرسش آورده است. از نظر آوایی نیز -aurv- اوستایی در فارسی میانه به kurw/kul می‌رسد نه kōr. پس ادعای نورایی را پژوهش امروزی رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:1046",
+              "status": "supports",
+              "note": "Mann col. 1046: 'Av. kaurvo, kaour-vō, adj. ‚black‘' — literally what Nourai draws; but Mann's own col. for 'kaluos' (IEC.txt line 7411) has 'Av. (queried) kaurvō, kaourvō (bald of horse)'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiWb s.v. kaurva- (BRT.txt line 9307)",
+              "stance": "contradicts",
+              "note": "'j. kaurva- Adj. ‚kahl, unbehaart‘: aspahe kəhrpa ... Yt. 8.21' and 'j. kaurvō.duma- Adj. ‚mit kahlem, unbehaartem Schwanz‘' — 'bald', never 'black'."
+            },
+            {
+              "src": "POK",
+              "where": "IEW 557 (POK_02.txt line 3262)",
+              "stance": "contradicts",
+              "note": "'Ai. áti-kūrva-y -kulva- ‚ganz kahl‘, av. kaurva-, npers. kal ‚haarlos, kahl‘' — Avestan kaurva- belongs to the 'bald' root (Lat. calvus), and its NP outcome is kal."
+            },
+            {
+              "src": "IEC",
+              "where": "IEC 'kaluos' (line 6693) and 'koruos (3)' (line 7725)",
+              "stance": "partial",
+              "note": "Mann records both options: under kaluos he notes 'WP I, 433 (Av. kaurvō ‚black‘ derives fr. koruos (3), q.v. > Gk. korós, id.)', i.e. even in Mann the 'black' gloss belongs to a DIFFERENT root than *quōros."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "kôr",
+          "verdict": "disputed",
+          "derivation": "Middle Persian kōr 'blind' is real and well attested: MacKenzie, A Concise Pahlavi Dictionary p. 55, 'kōr [kwl | M kwr, N ~] blind. ~-dil [-dyl] blind-hearted, incorrigible' (Manichaean MP kwr, Sogdian kwr /kōr/). What is wrong is the parent: no Iranianist derives kōr from Av. kaurva- 'bald'. Wiktionary (with Ačaṙean, Hübschmann and Berneker in the bibliography) sets up Proto-Iranian *kāra- 'blind', whence MP kwl/kwr/qwr (kōr) and Sogdian kōr; the word was borrowed into Old Armenian as կոյր (koyr) 'blind', which shows an Iranian ō/ū already in the Parthian period. Av. kaurva- would have yielded MP *kurw-/kul (as it did in NP kal 'bald'), not kōr.",
+          "derivation_fa": "«کور» در فارسی میانه به‌صورت kōr (نوشتار پهلوی kwl، مانوی kwr) کاملاً گواهی شده است؛ مکنزی در فرهنگ کوچک پهلوی ص ۵۵ آن را 'kōr blind' و ترکیب kōr-dil را «کوردل» آورده است. اما پدرِ این واژه در نمودار نادرست است: هیچ ایران‌شناسی kōr را از kaurva- اوستایی «کچل» نمی‌گیرد. ویکی‌واژه (با ارجاع به هوبشمان و آچاریان) صورت ایرانی باستان ‎*kāra-‎ «کور» را بازسازی می‌کند که در سغدی هم kōr شده و در ارمنی کهن به‌صورت وام‌واژهٔ կոյր (koyr) بازتاب یافته است. افزون بر این، ‎-aurv-‎ اوستایی در فارسی میانه به kul/kurw می‌رسید (چنان‌که «کل» فارسی)، نه به kōr. بنابراین این پیوند را پژوهش امروزی نمی‌پذیرد، هرچند خودِ واژهٔ پهلوی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3118",
+              "status": "not_checked",
+              "note": "Mo'in's six-volume Farhang-e Farsi is not online and its pagination cannot be mapped (refs_online MON: only the 2-vol Adena condensation exists). The abridgement's entry (MON_part2.txt line 27848) reads 'کور: (قد.) (ص.) آنکه از بینایی محروم است؛ نابینا، اعمی' with no etymological tag, so it neither confirms nor denies a Pahlavi source."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.55 (PHD.txt line 428, leaf 76)",
+              "stance": "supports",
+              "note": "'kōr [kwl | M kwr, N ~] blind. ~-dil [-dyl | M -dyl, N ~] blind-hearted, incorrigible.' — the Pahlavi word and its NP continuant, exactly as Nourai has it."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (glossary)",
+              "stance": "silent",
+              "note": "grep for 'kōr'/'blind' in NYB_vol2_glossary.txt returns only 'venišn ī čašm ... loss of eyesight, blindness' (line 938) — kōr is not among the glossed forms of Nyberg's texts."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss der neupersischen Etymologie",
+              "stance": "silent",
+              "note": "grep for kūr/kur/'blind' in HRN.txt finds no entry for کور (only 'w. kūr am 836' in the index apparatus); Horn does not treat the word."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "kŭr «کور»",
+          "verdict": "confirmed",
+          "derivation": "New Persian کور kūr 'blind' continues Middle Persian kōr [kwl] by the regular New Persian raising of MP ō to ū (MP rōz > NP ruz, MP kōr > NP kur), the spelling کور keeping the historical wāw. The word is old and common in classical verse; Nourai's Sa'di line ('شب‌ها که بی توام شب کور است در خیال / ور بی تو بامداد کنم روز محشر است') is genuine Sa'di usage of کور in the sense 'pitch dark'. Cognates confirm the Iranian pedigree: Sogdian kwr /kōr/, and the Iranian loanword Old Armenian կոյր (koyr) 'blind'. Only the ultimate PIE head of the chart is wrong; this last link is impeccable.",
+          "derivation_fa": "«کور» فارسی نو بازماندهٔ مستقیم فارسی میانهٔ kōr (نوشتار kwl) است؛ ō کشیدهٔ فارسی میانه در فارسی نو به ū بدل شده (مانند rōz > روز... و kōr > کور) و واو نوشتاری همان ō تاریخی است. این واژه در ادب کلاسیک بسیار به‌کار رفته و بیت سعدی که نورایی آورده «شب‌ها که بی توام شب کور است در خیال» کاربرد اصیل آن به معنی «تاریک مطلق» است. هم‌ریشه‌های ایرانی آن سغدی kōr و وام‌واژهٔ ارمنی کهن կոյր (koyr) «کور» است. ادعای نورایی در این حلقه (پهلوی ← فارسی) درست است؛ تنها سرِ ریشهٔ هندواروپایی نمودار نادرست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3118",
+              "status": "not_checked",
+              "note": "same as node #2: the 6-vol Mo'in is not online, page 3118 cannot be verified. The 2-vol abridgement (MON_part2.txt line 27848) gives 'کور ... نابینا، اعمی' without an origin tag."
+            },
+            {
+              "ref": "IEC:1046",
+              "status": "supports",
+              "note": "Mann col. 1046 lists 'Per. kūr ‚blind‘' in the quðros entry — the form and gloss are right even though the reconstruction is not."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.55",
+              "stance": "supports",
+              "note": "'kōr [kwl | M kwr, N ~] blind' — MacKenzie's '| N ~' means the New Persian form is identical, i.e. NP kūr descends from MP kōr."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in (2-vol Adena abridgement), MON_part2.txt line 27848",
+              "stance": "partial",
+              "note": "'کور: (قد.) (ص.) آنکه از بینایی محروم است؛ نابینا، اعمی؛ مق. بینا، بصیر' — confirms word and meaning; the abridgement carries no origin tag."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e Rishe-ha-ye Hend-o-Orupayi (ARY_pages.txt)",
+              "stance": "silent",
+              "note": "grep for کور in ARY_pages.txt returns only کورگان (kurgan) and کورن‌والی (Cornwall); Aryanpur has no entry deriving کور from a PIE root."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien",
+              "stance": "silent",
+              "note": "grep for 'kūr'/'Blind' in HUB.txt returns nothing; the word is not among Hübschmann's treated items."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Sanskrit",
+          "words": "kârâ",
+          "verdict": "plausible",
+          "derivation": "Sanskrit कारा kārā- f. 'prison, confinement' is a real, well-attested word (Monier-Williams; cp. कारागार kārāgāra 'prison-house'). It belongs to the SECOND root line of the printed box, 'Kâl : prison', which the extraction dropped: Pokorny IEW 524 sets up '5. kāl- (kōl-?) ‚Gefängnis, gefangen (sein)‘?' with exactly 'Ai. kārā ‚Gefängnis‘' plus Lith. kaliù, kalė́ti 'to sit in prison', kalinỹs 'prisoner' — but Pokorny appends a question mark to the whole root, and the Skt. -r- : Lith. -l- equation is irregular. Wiktionary instead takes kārā as 'probably from the root कृ (kṛ)'. Mann's move of linking it to a 'dark, blind' root (via a supposed *kʷor-nio- in kāṇá- 'one-eyed') is his own and has no following. So: real word, real Pokorny page, but a doubtful and disputed root.",
+          "derivation_fa": "سنسکریت कारा (kārā) «زندان» واژه‌ای اصیل و گواهی‌شده است (مونیه‑ویلیامز؛ نیز kārāgāra «زندان‌خانه»). این گره در واقع زیر سطر دومِ جعبهٔ ریشهٔ چاپی، یعنی «Kâl : prison»، جای دارد که در استخراج افتاده است: پوکورنی در ص ۵۲۴ ریشهٔ ‎*kāl- (kōl-?)‎ «زندان» را با همین kārā سنسکریت و kalė́ti لیتوانیایی «در زندان بودن» می‌آورد، اما خودِ ریشه را با علامت پرسش می‌گذارد و برابری r سنسکریت با l لیتوانیایی بی‌قاعده است. ویکی‌واژه kārā را «احتمالاً از ریشهٔ कृ (kṛ)» می‌داند. پیوند دادن آن به مفهوم «تاریکی/کوری» از ابتکارهای مان است و پیروی ندارد. خلاصه: واژه درست است، ارجاع پوکورنی درست است، ولی ریشه‌شناسی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BE"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:524",
+              "status": "supports",
+              "note": "IEW 524 (POK_02.txt line 2759-2760): '5. kāl- (kōl-?) ‚Gefängnis, gefangen (sein)‘? Ai. kārā ‚Gefängnis‘; lit. kaliù, kalė́ti ‚im Gefängnis sitzen‘, kalinỹs ‚Gefangener‘. WP. I 356.' — the exact page and the exact word."
+            },
+            {
+              "ref": "IEC:1046",
+              "status": "supports",
+              "note": "Mann col. 1046: 'Skt. kara, am. fn. ‚prison‘ beside kanáh, adj. (‚one-eyed‘, fr. *quornio-)' — Mann does file kārā under his 'dark, blind' root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 524",
+              "stance": "partial",
+              "note": "Pokorny has the word but under a separate 'prison' root, glossed with a question mark, and never connects it with 'dark' or 'blind'."
+            },
+            {
+              "src": "IEC",
+              "where": "col. 1046",
+              "stance": "supports",
+              "note": "Mann's only witness for the semantic bridge 'blind' ~ 'prison' is his own analysis of kāṇá- 'one-eyed' as *kʷor-nio-."
+            },
+            {
+              "src": "WLD",
+              "where": "WP I 356 (cited by Pokorny; Bde. I-II not on disk)",
+              "stance": "silent",
+              "note": "Walde-Pokorny I 356 is Pokorny's source for the 'prison' root; the volume itself is not available locally (only Band 3 Register)."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Greek",
+          "words": "pôros",
+          "verdict": "disputed",
+          "derivation": "No Greek adjective πωρός 'dark, blind' exists. Greek πῶρος is a noun — Wiktionary: 'tuff; a kind of marble used in building; stalactites found in caverns; (pathology) stones in the bladder', a Wanderwort of uncertain (Akkadian/Pre-Greek) origin — never 'blind'. The Greek word for 'maimed, disabled — especially blind' is πηρός, Doric πᾱρός; its ᾱ in Doric proves an original *ā (*pāro-), which cannot reflect a labiovelar *kʷō- (that would give πωρός with ω in every dialect). Wiktionary classes πηρός as of unknown etymology, citing Pokorny's *peh₁- 'to hurt' but also Beekes' objection that it cannot go with πῆμα because of the Doric -ᾱ-. The form Nourai prints ('pôros') is his circumflexed rendering of Mann's 'Gk. porós, adj. id.' at IEC 1046; the printed page indeed reads 'pôros : dark, blind', so the extraction is faithful and the fault lies in the source. The equation is Mann's alone.",
+          "derivation_fa": "در یونانی صفتی به‌صورت πωρός با معنی «تاریک/کور» وجود ندارد؛ πῶρος اسم است و ویکی‌واژه معانی آن را «سنگ توف، نوعی مرمر ساختمانی، چکیده‌سنگِ غارها، و در پزشکی سنگ مثانه» می‌دهد و آن را واژه‌ای سرگردان با خاستگاه نامعلوم (اکدی یا پیشایونانی) می‌شمارد. واژهٔ یونانیِ «نابینا، معیوب» πηρός است که صورت دوری آن πᾱρός است و همین ᾱ دوری نشان می‌دهد مصوّت اصلی ā بوده (‎*pāro-‎) و از kʷō هندواروپایی برنمی‌آید (که در همهٔ گویش‌ها ω می‌داد). ویکی‌واژه πηρός را «با ریشه‌شناسی ناشناخته» می‌داند و اشکال بیکس بر پیوند آن با πῆμα را نقل می‌کند. صورت «pôros» در کتاب برگرفته از «Gk. porós» ستون ۱۰۴۶ مان است؛ صفحهٔ چاپی هم دقیقاً «pôros : dark, blind» دارد، پس خطای خوانش اسکن نیست و اشکال از منبع است. پژوهش امروزی این حلقه را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CF%80%CE%B7%CF%81%CF%8C%CF%82",
+            "https://en.wiktionary.org/wiki/%CF%80%E1%BF%B6%CF%81%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:1046",
+              "status": "supports",
+              "note": "Mann col. 1046 does print 'Gk. porós, adj. id.' inside the quðros entry — so Nourai reports his reference correctly; the reference itself is the problem."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW (grep of POK_01/02/03)",
+              "stance": "silent",
+              "note": "Pokorny nowhere sets up a Greek πωρός 'blind'; πηρός is treated (if at all) under *pē(i)- 'to hurt', not under a k-initial root."
+            },
+            {
+              "src": "IEC",
+              "where": "col. 1046",
+              "stance": "supports",
+              "note": "the sole source of the Greek form."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein, s.vv. pore / porous / porphyrite (KLN_1966.txt)",
+              "stance": "silent",
+              "note": "grep of Klein for 'poros' yields only 'porous, adj., full of holes. — VL. *porosus, fr. L. porus, ‚passage‘' and the porphyry group; Klein has no Greek word πωρός/πῶρος meaning 'dark' or 'blind' anywhere."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Kurkanŭ, Kurkana",
+      "verdict": "plausible",
+      "modern_form": "Akkadian kurkanû, a medicinal plant, identification with saffron/turmeric uncertain (CAD K 560)",
+      "note": "Zimmern's equation is the source of the chart and is itself hedged: AKD p.57 (AKD.txt leaf 66) reads 'kurkanū entspr. viell.: späthebr. karkōm, aram. kurkamā, arab.-pers. kurkum, dazu wohl griech. κρόκος, Safran, Crocus sativus' — 'perhaps corresponds'. CAD K 560 gives the word only as '(a medicinal plant)' and warns 'Identification as turmeric (Thompson DAB 157-161) is uncertain; note that kurkanû is frequently listed among aromatics.' The Semitic set (Heb. karkōm, Aram./Syr. kurkəmā, Arab. kurkum) and Greek κρόκος are certainly one Wanderwort, but its ultimate source is contested: Klein and Mayrhofer make Sanskrit kuṅkuma the Semitic loan, whereas Wiktionary and Lokotsch (LKT no. 1247) reverse it and derive the Arabic from Sanskrit. Nourai's 'saffron' gloss for the Akkadian is therefore plausible but not established, and the whole tree is a Wanderwort rather than a clean pedigree.",
+      "note_fa": "ریشهٔ اکدی kurkanû که نورایی آن را «زعفران» معنی کرده، در فرهنگ آشوری شیکاگو (CAD، جلد K، ص ۵۶۰) تنها «گیاهی دارویی» تعریف شده و آمده است که «شناسایی آن با زردچوبه (تامپسون) قطعی نیست». خودِ تسیمرن هم در «واژه‌های دخیل اکدی» ص ۵۷ با احتیاط نوشته: kurkanū «شاید» برابر است با عبری karkōm، آرامی kurkamā و «عربی‑فارسی» kurkum و نیز یونانی κρόκος. مجموعهٔ سامی و یونانی بی‌گمان یک واژهٔ سرگردان (Wanderwort) است، اما سرچشمهٔ نهایی آن اختلافی است: کلاین و مایرهوفر سنسکریت kuṅkuma را وام‌گرفته از سامی می‌دانند و لوکوچ و ویکی‌واژه برعکس. پس ریشه با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D9%85",
+        "https://www.etymonline.com/word/crocus",
+        "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_k.pdf"
+      ],
+      "ref_check": [
+        {
+          "ref": "AKD:57",
+          "status": "supports",
+          "note": "Zimmern, Akkadische Fremdwörter, p.57 (AKD.txt leaf 66): 'kurkanū entspr. viell.: späthebr. karkōm, aram. kurkamā, arab.-pers. kurkum, dazu wohl griech. κρόκος, Safran, Crocus sativus' — the source of Nourai's root, gloss and first two nodes, but with 'vielleicht'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "Klein p.375 s.v. Crocus (KLN_1966.txt leaf 207 = pp.374/375)",
+          "stance": "supports",
+          "note": "'Crocus ... L., fr. Gk. κρόκος, ‚saffron‘, a word of Sem. origin. Cp. Heb. karkōm, Arab. kurkum, ‚saffron‘, Aram.-Syr. kurkəmā, Akkad. kurkānu, ‚saffron‘. OI. kuṅkumam, ‚saffron‘, is prob. a Sem. loan word; cp. Mayrhofer ... I, p.219.'"
+        },
+        {
+          "src": "LKT",
+          "where": "Lokotsch no. 1247 (LKT.txt line 2927)",
+          "stance": "contradicts",
+          "note": "'Sskr. kuṅkuma: Hieraus zunächst ar. kurkum [das vielleicht erst über gr. lat. crocum entstanden ist] und dann it. siz. sp. curcuma ‚indischer Safran‘' — Lokotsch makes Sanskrit, not Akkadian, the head of the tree."
+        },
+        {
+          "src": "CAD",
+          "where": "CAD K pp.560-561 (cad_k.pdf, downloaded and text-extracted)",
+          "stance": "partial",
+          "note": "'kurkanû s.; (a medicinal plant); MB, SB, NA ... Identification as turmeric (Thompson DAB 157-161) is uncertain; note that kurkanû is frequently listed among aromatics.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Aramaic",
+          "words": "kŭrkema",
+          "verdict": "plausible",
+          "derivation": "Jewish Aramaic כּוּרְכְּמָא / Syriac ܟܘܪܟܡܐ kurkəmā 'saffron, turmeric' is well attested and is the immediate donor of the Arabic word. Its own source is the disputed step: Zimmern (AKD 57) and Klein (p.375) put Akkadian kurkanû behind it, with the -n- : -m- alternation left unexplained; Wiktionary lists the Akkadian 𒌑𒆪𒄀𒆸𒈾 /kurkanū/ as a cognate rather than an ancestor and prefers, 'because of non-philological evidence', an Indian route from Sanskrit कुङ्कुम kuṅkuma. Since the Akkadian is the oldest attested member and saffron culture ran west-to-east, Nourai's arrow is defensible but not demonstrable. The node has no gloss in the chart; the sense throughout is 'saffron / Crocus sativus'.",
+          "derivation_fa": "آرامی یهودی כּוּרְכְּמָא و سریانی ܟܘܪܟܡܐ (kurkəmā) «زعفران، زردچوبه» واژه‌ای کاملاً گواهی‌شده و بی‌واسطه سرچشمهٔ صورت عربی است. آنچه اختلافی است پدرِ آن است: تسیمرن (ص ۵۷) و کلاین (ص ۳۷۵) اکدی kurkanû را پشت آن می‌گذارند، هرچند ابدال n به m توضیح داده نشده است؛ ویکی‌واژه صورت اکدی را «هم‌ریشه» می‌شمارد نه نیا، و راه هندی از سنسکریت कुङ्कुम (kuṅkuma) را ترجیح می‌دهد. چون کهن‌ترین گواهِ موجود همان اکدی است، پیکان نورایی دفاع‌پذیر ولی اثبات‌نشده است؛ پس با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:375",
+              "status": "supports",
+              "note": "Klein p.375 s.v. Crocus (KLN_1966.txt leaf 207, printed markers '374','375'): 'Cp. Heb. karkōm, Arab. kurkum, ‚saffron‘, Aram.-Syr. kurkəmā, Akkad. kurkānu, ‚saffron‘.'"
+            },
+            {
+              "ref": "AKD:57",
+              "status": "supports",
+              "note": "Zimmern p.57: 'kurkanū entspr. viell.: späthebr. karkōm, aram. kurkamā ...' — Aramaic squarely in the chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p.375 s.v. Crocus",
+              "stance": "supports",
+              "note": "as quoted above; Klein treats Akkad. kurkānu as the oldest member of the Semitic set."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep of AFA.txt for 'kurkum', 'Safran', 'karkadan' returns nothing — Fraenkel does not treat the saffron word among his Aramaic loans in Arabic."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230 (PLA_pages.txt line 12887)",
+              "stance": "partial",
+              "note": "'kurkum: ‚Kurkuma‘ pers. kurkum, selbst aus skr., hebr. karkōm, syr. kurkəmā, akk. kurkānū' — Asbaghi cites the Syriac/Aramaic form but routes the Arabic through Persian, not through Aramaic."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "korkom",
+          "verdict": "plausible",
+          "derivation": "Arabic كُرْكُم kurkum 'turmeric, saffron' is standard (Muntahā al-arab: 'الکرکم بالضم: زعفران و مصطکی', quoted in Mo'in's footnote to Borhān 1624). Its immediate donor is normally taken to be Aramaic/Syriac kurkəmā — so Nourai's Aramaic→Arabic arrow follows Zimmern, Klein and the Semitic cognate set. Two dissenting routes exist: Wiktionary prefers an Indian route (Sanskrit kuṅkuma) 'because of non-philological evidence', and Asbaghi (Persische Lehnwörter im Arabischen 230) makes Arabic kurkum a loan from Persian kurkum 'selbst aus skr.'. All three routes agree on the form and sense; only the intermediary differs, hence 'plausible'. The chart gives no gloss for this node.",
+          "derivation_fa": "عربی «کُرکُم» به معنی زردچوبه/زعفران واژه‌ای شناخته است؛ منتهی‌الارب می‌نویسد «الکرکم بالضم: زعفران و مصطکی» (نقلِ حاشیهٔ معین بر برهان ص ۱۶۲۴). سرچشمهٔ بی‌واسطهٔ آن را معمولاً آرامی/سریانی kurkəmā می‌دانند و پیکان نورایی از همین سنت (تسیمرن و کلاین) پیروی می‌کند. دو مسیر رقیب هم هست: ویکی‌واژه راه هندی از سنسکریت kuṅkuma را ترجیح می‌دهد و اصفهانی‌تبار اسبقی در «وام‌واژه‌های فارسی در عربی» ص ۲۳۰ عربی kurkum را وام از فارسی kurkum می‌داند. هر سه مسیر بر صورت و معنا هم‌داستان‌اند و تنها واسطه فرق می‌کند؛ از این‌رو با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:57",
+              "status": "supports",
+              "note": "Zimmern p.57 lists 'arab.-pers. kurkum' as the descendant of the Aramaic form in the same chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein p.375 s.v. Crocus; p.386 s.v. Curcuma",
+              "stance": "supports",
+              "note": "'Arab. kurkum, ‚saffron‘' listed among the Semitic cognates; 'Curcuma ... ModL., fr. Arab. kurkum, ‚saffron, curcuma‘.'"
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230",
+              "stance": "contradicts",
+              "note": "'kurkum: ‚Kurkuma‘ pers. kurkum, selbst aus skr.' — for Asbaghi the Arabic comes from Persian, i.e. the arrow between nodes #2 and #3 runs the other way."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1247",
+              "stance": "partial",
+              "note": "'Sskr. kuṅkuma: Hieraus zunächst ar. kurkum' — Arabic form confirmed, source given as Sanskrit."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'an",
+              "stance": "silent",
+              "note": "grep of FVQ_pages.txt for kurkum/karkam returns nothing; the word is not Qur'anic and Jeffery does not treat it."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "korkom «کُرکُم»",
+          "verdict": "disputed",
+          "derivation": "Persian کرکم korkom is real — Borhān-e Qāṭeʿ 1624 s.v. کرکم: 'با کاف بر وزن مرهم، قوس قزح را گویند و به معنی زعفران هم آمده است' — and Mo'in's footnote there does tag it '(عر)' (Arabic), which is what Nourai's BQT:1624 citation reports. But the Arabic→Persian arrow is contradicted by two harder facts: (a) MacKenzie's Concise Pahlavi Dictionary p.55 has Middle Persian kurkum [kwlkwm] 'saffron' — the word was in Persian centuries before the Arab conquest (Wiktionary also cites MP kwlkwm); (b) Asbaghi, Persische Lehnwörter im Arabischen 230, lists kurkum among the PERSIAN loanwords in Arabic ('pers. kurkum, selbst aus skr.'). So the New Persian form is at most an Arabic-mediated re-borrowing of an inherited Middle Persian word, and the arrow as drawn reverses the primary direction. Nourai's gloss 'Indian saffron' matches Mo'in's note that the Semitic names first meant Crocus sativus and were later applied to the Indian drug Curcuma longa.",
+          "derivation_fa": "«کُرکُم» فارسی واژه‌ای واقعی است؛ برهان قاطع (ص ۱۶۲۴) آن را «قوس قزح ... و به معنی زعفران هم آمده است» معنی کرده و معین در حاشیه آن را «(عر)» یعنی معرَّب/عربی نشان داده — و همین است آنچه ارجاع BQT:1624 نورایی می‌گوید. اما پیکان «عربی ← فارسی» با دو واقعیتِ سخت‌تر ناسازگار است: نخست، مکنزی در فرهنگ کوچک پهلوی ص ۵۵ صورت فارسی میانهٔ kurkum (نوشتار kwlkwm) «زعفران» را ثبت کرده است، یعنی این واژه قرن‌ها پیش از اسلام در ایران بوده؛ دوم، اسبقی در «وام‌واژه‌های فارسی در عربی» ص ۲۳۰ کرکم را در شمار وام‌واژه‌های فارسیِ عربی آورده است. پس صورت فارسی نو حداکثر وام‌گیری دوبارهٔ یک واژهٔ موروثی از راه عربی است و جهت اصلی وارونه رسم شده. معنی «زعفران هندی» با یادداشت معین می‌خواند که این نام‌های سامی نخست Crocus sativus بوده و سپس به داروی هندی Curcuma longa اطلاق شده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1624",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ p.1624 (rendered via tools/ref_page.py BQT:1624, image cached at data/verification/sources/refs/ocr/BQT/1624.png): headword 'کرکم، با کاف بر وزن مرهم، قوس قزح را گویند و به معنی زعفران هم آمده است'; Mo'in's footnote 6: '(عر) «کرکم بالضم. زعفران و مصطکی» «منتهی‌الارب». کرکم (عر) ... نام کرکم سامی است: آشوری kurkanû، عبری karkōm، آرامی kurkəmā. این لغت‌ها به معنی زعفران (Crocus sativus) است، ولی بعدها به معنی داروی هندی Curcuma longa یا زعفران هندی گرفته شده.' — supports Nourai's arrow and his 'Indian saffron' gloss."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhān 1624 with Mo'in's footnote",
+              "stance": "supports",
+              "note": "as quoted in ref_check: Mo'in tags کرکم as Arabic and gives the Assyrian/Hebrew/Aramaic set."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.55 (PHD.txt line 430)",
+              "stance": "contradicts",
+              "note": "'kurkum [kwlkwm] saffron.' — Middle Persian already has the word, so it cannot first have entered Persian from Arabic."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230",
+              "stance": "contradicts",
+              "note": "'kurkum: ‚Kurkuma‘ pers. kurkum, selbst aus skr., hebr. karkōm, syr. kurkəmā, akk. kurkānū' — Arabic from Persian, not Persian from Arabic."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in, footnote to Borhān 1624",
+              "stance": "supports",
+              "note": "Mo'in's own tag '(عر)' is the Persian lexicographic tradition Nourai follows."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Late Latin",
+          "words": "curcum",
+          "verdict": "disputed",
+          "derivation": "There is no attested Late Latin *curcum. The form comes from Pihan, Dictionnaire étymologique ... dérivés de l'arabe, p.133 (which Nourai cites), where the entry CURCUMA says that Arabic kourkoum corresponds to Greek κρόκος and Latin crocus, crocum, and then adds a conjecture: 'par le moyen d'une métathèse dans la première syllabe de crocum, on obtient corcum, transcription exacte du correspondant oriental' — i.e. Pihan constructs *corcum as a hypothetical metathesis, and Nourai has turned that conjecture into a headword and respelled it curcum. The real Latin history is different and double: (i) classical Latin crocus/crocum 'saffron' is a much older borrowing from Greek κρόκος; (ii) the modern plant name is New Latin Curcuma, the Linnaean genus name coined from Arabic kurkum — Klein: 'Curcuma ... ModL., fr. Arab. kurkum'; AHD: '[New Latin Curcuma, genus name, from Arabic kurkum, saffron.]'; Lokotsch derives It./Sp. curcuma straight from the Arabic. The printed page (checked, image saved as data/verification/sources/refs/ocr/BOOK/287.png) does read 'curcum : saffron', so the extraction is faithful.",
+          "derivation_fa": "صورتی به نام «curcum» در لاتین متأخر گواهی نشده است. سرچشمهٔ آن پیهان است (فرهنگ ریشه‌شناسی واژه‌های فرانسویِ برگرفته از عربی، ص ۱۳۳؛ همان ارجاع نورایی) که ذیل CURCUMA می‌نویسد عربی kourkoum برابر یونانی κρόκος و لاتین crocus/crocum است و سپس حدس می‌زند: «با قلبِ هجای نخستِ crocum صورت corcum به‌دست می‌آید که آوانگاشت دقیق صورت شرقی است». یعنی corcum فرضِ پیهان است، و نورایی آن حدس را به مدخل بدل کرده و curcum نوشته است. تاریخ واقعی لاتین دوگانه است: نخست crocus/crocum کلاسیک که وام کهن از یونانی است؛ دوم Curcuma که نام جنسِ لاتینِ نو (لینه) و ساختهٔ مستقیم از «کرکم» عربی است — کلاین: «ModL., fr. Arab. kurkum» و فرهنگ American Heritage: «[New Latin Curcuma ... from Arabic kurkum]». صفحهٔ چاپی کتاب (تصویرش ذخیره شد) همان «curcum : saffron» دارد، پس خطای خوانش اسکن نیست و اشکال از خودِ کتاب است.",
+          "sources": [
+            "https://www.etymonline.com/word/crocus",
+            "https://www.ahdictionary.com/word/search.html?q=curcuma"
+          ],
+          "ref_check": [
+            {
+              "ref": "PHN:133",
+              "status": "partial",
+              "note": "Pihan p.133 (PHN.txt, running head 'CUR 133' immediately before the entry; index line 10438 'Curcuma, s. m. (a.) 133'): 'Au mot kourkoum répondent le grec κρόκος et le latin crocus, crocum. Remarquez aussi que, par le moyen d'une métathèse dans la première syllabe de crocum, on obtient corcum, transcription exacte du correspondant oriental.' — the page is right, but it gives crocum (and a hypothetical corcum), not a Late Latin curcum."
+            },
+            {
+              "ref": "KLN:385",
+              "status": "partial",
+              "note": "Klein's Curcuma entry is on p.386 in the 1966/67 scan (KLN_1966.txt leaf 213, printed markers '386','387'; Nourai's 385 is one page out): 'Curcuma, n., a genus of plants of the ginger family (bot.) — ModL., fr. Arab. kurkum, ‚saffron, curcuma‘. See Crocus and cp. turmeric.' Klein says Modern Latin, not Late Latin, and gives no form 'curcum'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p.386 s.v. Curcuma; p.375 s.v. Crocus",
+              "stance": "contradicts",
+              "note": "Klein has ModL. Curcuma < Arab. kurkum, and separately L. crocus < Gk. κρόκος; no Late Latin curcum."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1247",
+              "stance": "contradicts",
+              "note": "'ar. kurkum ... und dann it. siz. sp. curcuma ‚indischer Safran‘, ndl. curcuma' — the Romance forms come from the Arabic directly, with no Latin intermediary of the shape curcum."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic s.v. CURCUMA (DEV.txt line 1187)",
+              "stance": "partial",
+              "note": "'Curcuma. Esp. portug. et ital. curcuma. On trouve culcuma dans un tarif français du XIVe siècle (Littré). C'est l'arabe kourkoum, kourkomna (héb. כרכם), même signification.' — Arabic origin, again with no Late Latin curcum."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Crocus (SKT.txt line 4398) and Turmeric (line 20311)",
+              "stance": "partial",
+              "note": "'Crocus. (L. - Gk.) L. crocus. - Gk. κρόκος, saffron. Cf. Arab. karkam, saffron.'; under Turmeric: 'terra merita ... perhaps of the Arab. name kurkum?'"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "curcuma",
+          "verdict": "plausible",
+          "derivation": "English curcuma (the genus Curcuma, incl. turmeric and zedoary; also the drug) is genuine but its immediate source is New Latin, not a Late Latin *curcum: AHD, 'Curcuma: Any of various tropical Asian plants of the genus Curcuma, which includes turmeric and zedoary. [New Latin Curcuma, genus name, from Arabic kurkum, saffron.]'; Klein p.386, 'Curcuma ... ModL., fr. Arab. kurkum'. The name is Linnaean botanical Latin (Species Plantarum 1753) built on the Arabic word as transmitted through medieval Latin pharmacy (Italian/Spanish curcuma, cf. Lokotsch 1247). The derivative curcumin follows. So the word and its Arabic ancestry are confirmed; only the intermediate box ('Late Latin curcum') is wrong.",
+          "derivation_fa": "واژهٔ انگلیسی curcuma (نام جنس گیاهیِ زردچوبه و زَدوار و نیز خودِ دارو) اصیل است، اما نیای بی‌واسطهٔ آن لاتینِ نو است نه «curcum» لاتینِ متأخر: فرهنگ American Heritage می‌نویسد «[New Latin Curcuma، نام جنس، از عربی kurkum «زعفران»]» و کلاین (ص ۳۸۶) «ModL., fr. Arab. kurkum». این نام از لاتینِ گیاه‌شناسیِ لینه (۱۷۵۳) است که بر پایهٔ صورت عربی و از راه داروشناسی لاتینِ سده‌های میانه (ایتالیایی و اسپانیایی curcuma؛ لوکوچ شمارهٔ ۱۲۴۷) ساخته شده است. مشتق curcumin نیز از همین است. بنابراین خودِ واژه و تبار عربی آن تأیید می‌شود و تنها جعبهٔ میانی نمودار («Late Latin curcum») نادرست است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=curcuma",
+            "https://www.etymonline.com/word/turmeric"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:323",
+              "status": "partial",
+              "note": "The 1975/76 New College Edition is not open online (refs_online AHD: only the 1985 Watkins root appendix is on disk), so p.323 itself could not be seen; the current AHD online entry for curcuma reads '[New Latin Curcuma, genus name, from Arabic kurkum, saffron.]' — it confirms the English word but derives it from New Latin ← Arabic, skipping Nourai's Late Latin box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein p.386 s.v. Curcuma, curcumin",
+              "stance": "partial",
+              "note": "'Curcuma ... ModL., fr. Arab. kurkum, ‚saffron, curcuma‘. See Crocus and cp. turmeric. curcumin, n., the coloring substance of curcuma root.'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dictionary, 2nd ed., vol.1 s.v. Curcuma (WEB_vol1.txt line 47453)",
+              "stance": "contradicts",
+              "note": "'Cur'cu-ma, n. [Ar. kurkum, saffron.] a genus of plants of the family Scitamineae, having perennial roots and annual stems. Curcuma longa yields turmeric.' — Webster derives the word straight from Arabic kurkum, with no Late Latin curcum stage."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Turmeric",
+              "stance": "partial",
+              "note": "'Turmeric ... F. terre-mérite ... But terra merita is prob. a barbarous corruption, perhaps of the Arab. name kurkum?' — English family traced to Arabic kurkum, no Late Latin curcum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Kurkizannu",
+      "verdict": "disputed",
+      "modern_form": "Akkadian kurkizannu (kurkuzannu, kukkuzānu) 'piglet, young pig' (CAD K 561) — not 'rhinoceros'",
+      "note": "The root box rests entirely on Zimmern 1917: AKD p.51 (AKD.txt leaf 60) prints, with no gloss for the Akkadian, 'akk. kurkizannu : syr. karkᵉdānā, arab. karkaddan, karkadann Nashorn.' Assyriology has since settled the Akkadian word: CAD K 561, 'kurkizannu (kurkuzannu, kukkuzānu) s.; piglet, young pig; from OB on; wr. syll. and ŠAH.TUR' — the Nuzi texts count it among pigs of the palace herd. So the Akkadian means 'piglet', the resemblance to Syriac karkəḏānā is accidental, and the whole chart is inverted: the rhinoceros word is Indo-Iranian and travelled Persian → Syriac → Arabic. Mo'in himself, in the very footnote Nourai cites (Borhān 1622), quotes Zimmern p.51 only for the Akkadian/Syriac forms while listing the Persian forms first, and adds of the Borhān's rhinoceros lore 'ناگفته نماند که مطالب متن افسانه و مجعول است'.",
+      "note_fa": "جعبهٔ ریشه یکسره بر تسیمرن (۱۹۱۷) استوار است: در «واژه‌های دخیل اکدی» ص ۵۱ تنها آمده «akk. kurkizannu : syr. karkedānā، arab. karkaddan، karkadann کرگدن» بی‌آنکه معنی اکدی داده شود. آشورشناسی امروز تکلیف این واژه را روشن کرده است: فرهنگ آشوری شیکاگو (جلد K، ص ۵۶۱) می‌نویسد «kurkizannu (kurkuzannu, kukkuzānu): بچه‌خوک، خوک جوان؛ از دورهٔ بابلی کهن به بعد»؛ در اسناد نوزی آن را در شمار خوک‌های گلهٔ کاخ می‌شمارند. پس واژهٔ اکدی «بچه‌خوک» است و شباهت آن به karkəḏānā سریانی تصادفی است؛ افزون بر این، جهت کل نمودار وارونه است: نام کرگدن هندوایرانی است و راهِ فارسی ← سریانی ← عربی را پیموده است. خود معین در همان حاشیهٔ برهان (ص ۱۶۲۲) که نورایی به آن ارجاع می‌دهد، نخست صورت‌های فارسی را می‌آورد و تسیمرن را تنها برای صورت‌های اکدی و سریانی نقل می‌کند و دربارهٔ افسانه‌های متن می‌افزاید: «ناگفته نماند که مطالب متن افسانه و مجعول است». نتیجه: پژوهش امروزی ریشهٔ اکدی را رد می‌کند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%DA%AF%D8%AF%D9%86",
+        "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D8%AF%D9%86",
+        "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_k.pdf"
+      ],
+      "ref_check": [
+        {
+          "ref": "AKD:51",
+          "status": "supports",
+          "note": "Zimmern p.51 (AKD.txt leaf 60, printed marker '51' at the head of the section): 'akk. kurkizannu : syr. karkᵉdānā, arab. karkaddan, karkadann Nashorn.' The reference does say what Nourai's arrows say — but Zimmern gives no meaning for the Akkadian word and the equation has since been abandoned."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "CAD",
+          "where": "CAD K p.561 (cad_k.pdf, text-extracted)",
+          "stance": "contradicts",
+          "note": "'kurkizannu (kurkuzannu, kukkuzānu) s.; piglet, young pig; from OB on; wr. syll. and ŠAH.TUR' with Nuzi attestations '5 ŠAH.MEŠ SAL ... 10 gu-ur-gu-za-an-nu ... (added up: 23 pigs and piglets belonging to the palace) HSS 15 253'. Also 'kukkuzanu see kurkizannu.'"
+        },
+        {
+          "src": "PLA",
+          "where": "Asbaghi p.230 (PLA_pages.txt line 12885)",
+          "stance": "partial",
+          "note": "'karkadan: ‚Nashorn‘ ?, syr. ...' — Asbaghi files the Arabic word in his list of PERSIAN loanwords in Arabic (with a query), citing only Syriac; no Akkadian."
+        },
+        {
+          "src": "BQT",
+          "where": "Borhān 1622, Mo'in's footnote 7",
+          "stance": "partial",
+          "note": "'فارسی آن «کرگ» و «کرگدن» و «کرگندن» (لغت فرس)؛ در عربی «کرکدن» ... اکدی kurkizannu، سریانی karkedānā، «تیمرن، لغات دخیله اکدی ص ۵۱»' — Mo'in reports Zimmern but puts the Persian forms first."
+        },
+        {
+          "src": "HJB",
+          "where": "Hobson-Jobson s.vv. ABADA, GANDA",
+          "stance": "silent",
+          "note": "Yule & Burnell treat the Indo-Portuguese rhinoceros words (abada < Malay badak; ganda < Skt. gaṇḍa) and never mention Akkadian or karkadann."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Syriac",
+          "words": "karkedânâ",
+          "verdict": "disputed",
+          "derivation": "Classical Syriac ܟܪܟܕܢܐ karkəḏānā 'rhinoceros' is a real word, but it is a borrowing from Iranian, not from Akkadian. Wiktionary (s.v. Arabic كركدن) states the chain outright: Arabic 'From Classical Syriac ܟܪܟܕܢܐ (karkəḏānā, ‚rhinoceros‘), from Middle Persian klg (karg, ‚rhinoceros; horn‘) + -dʾn' (-dān, ‚bearer, holder‘), ultimately from Sanskrit खड्ग (khaḍga)'. The Syriac form transparently contains the Iranian compound karg-adān 'horn-bearer' (Syriac -ānā is the emphatic-state ending on it), which no Akkadian *kurkizannu explains: kurkizannu has -z- and -nn- and means 'piglet'. Zimmern's 1917 comparison, which Nourai copies, is the theory that later scholarship abandoned (so also Wikipedia's Karkadann article, which notes that the postulated Akkadian intermediary has been disproved).",
+          "derivation_fa": "سریانی کلاسیک ܟܪܟܕܢܐ (karkəḏānā) «کرگدن» واژه‌ای واقعی است، اما وام‌واژه‌ای ایرانی است نه اکدی. ویکی‌واژه (ذیل «كركدن» عربی) زنجیره را چنین می‌دهد: عربی از سریانی کلاسیک karkəḏānā، آن از فارسی میانهٔ karg «کرگدن؛ شاخ» + پسوند ‎-dān‎ «دارنده»، و در نهایت از سنسکریت खड्ग (khaḍga). صورت سریانی به‌روشنی همان ترکیب ایرانیِ karg-adān «شاخ‌دار» است با پایانهٔ حالت مؤکّد سریانی ‎-ānā‎؛ صورت اکدی kurkizannu با ‎z‎ و ‎nn‎ و معنی «بچه‌خوک» هیچ‌یک از این‌ها را توضیح نمی‌دهد. مقایسهٔ تسیمرن (۱۹۱۷) که نورایی نقل کرده، همان فرضی است که پژوهش‌های بعدی کنار گذاشته‌اند. پس این حلقه رد می‌شود.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%DA%AF%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:51",
+              "status": "supports",
+              "note": "Zimmern p.51: 'akk. kurkizannu : syr. karkᵉdānā ...' — the reference does assert the Akkadian-Syriac equation Nourai draws."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CAD",
+              "where": "CAD K 561",
+              "stance": "contradicts",
+              "note": "the Akkadian word means 'piglet, young pig', so it cannot be the source of a Syriac 'rhinoceros'."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230",
+              "stance": "partial",
+              "note": "cites 'syr.' beside Arabic karkadan but places the whole word among Persian loans in Arabic."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep of AFA.txt for 'karkadan'/'Nashorn' returns nothing; Fraenkel does not list the rhinoceros word among Aramaic loans in Arabic."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "karkadan",
+          "verdict": "confirmed",
+          "derivation": "Arabic كَرْكَدَّن karkaddan / karkadan 'rhinoceros' is indeed taken from Classical Syriac ܟܪܟܕܢܐ karkəḏānā — Wiktionary: 'From Classical Syriac ܟܪܟܕܢܐ (karkəḏānā, ‚rhinoceros‘)' — so this single arrow of the chart is right, and it is also what Zimmern (AKD 51) and Mo'in (Borhān 1622 n.7) report. The Arabic gemination (-dd-) and the variants karkadan / karkaddan / pl. karākidan (Asbaghi 230: 'karakidan: Pl. v. karkadan') are the usual Arabic reshaping of a foreign quadriliteral. Only the further ancestry differs from Nourai's: the Syriac word is Iranian, so Arabic ultimately has a Persian word, not an Akkadian one. In classical Arabic the word also became the name of the fabulous one-horned karkadann of the ʿAjāʾib literature.",
+          "derivation_fa": "عربی «کَرْکَدَّن / کرکدن» به معنی کرگدن بی‌گمان از سریانی کلاسیک ܟܪܟܕܢܐ (karkəḏānā) گرفته شده است — ویکی‌واژه: «از سریانی کلاسیک karkəḏānā». پس همین یک پیکان نمودار درست است و تسیمرن (ص ۵۱) و معین (حاشیهٔ برهان ۱۶۲۲) نیز همین را گزارش می‌کنند. مشدّدشدن دال و صورت‌های گوناگون karkadan / karkaddan و جمعِ کراکدن (اسبقی ص ۲۳۰: «karakidan: جمعِ karkadan») همان بازساخت معمول عربی برای واژه‌های چهارحرفیِ بیگانه است. تنها تفاوت با نمودار نورایی در نیای دورتر است: چون واژهٔ سریانی خود ایرانی است، عربی در نهایت واژه‌ای فارسی گرفته است نه اکدی. در ادب عربی همین واژه نام جانور افسانه‌ای یک‌شاخ در کتاب‌های عجایب‌المخلوقات هم شد. ادعای نورایی در این حلقه درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:51",
+              "status": "supports",
+              "note": "Zimmern p.51: 'syr. karkᵉdānā, arab. karkaddan, karkadann Nashorn' — Syriac → Arabic exactly as drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230 (PLA_pages.txt lines 12748, 12867, 12885)",
+              "stance": "supports",
+              "note": "'karkadan: ‚Nashorn‘ ?, syr. ...'; 'karakidan: Pl. v. karkadan q.v.'; 'karkadān = karkadan q.v.' — the Arabic word and its Syriac connection."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein (grep for karkadan/rhinoceros)",
+              "stance": "silent",
+              "note": "Klein has no entry for the Arabic word; English 'rhinoceros' is taken from Greek ῥινόκερως, an unrelated formation."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch (grep for karkadan)",
+              "stance": "silent",
+              "note": "grep of LKT.txt for 'karkadan'/'Nashorn' returns only the entry on Malay badak > Sp./Pg. abada, bada 'rhinoceros' (LKT.txt line 565); karkadann never entered the European languages, so Lokotsch has no entry for it."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "karg, kargadan «کَرگ ، کَرگدن»",
+          "verdict": "disputed",
+          "derivation": "The direction is reversed. Persian کرگ karg / کرگدن kargadan is not from Arabic: Middle Persian already has karg 'rhinoceros' — MacKenzie, Concise Pahlavi Dictionary p.54: 'karg [klg | N ~] rhinoceros' (his '| N ~' meaning the New Persian form is identical) — and Wiktionary derives کرگدن from 'Middle Persian klg (karg, ‚rhinoceros; horn‘) + -dʾn' (-dān, ‚bearer, holder‘), ultimately from Sanskrit खड्ग (khaḍga, ‚rhinoceros; literally sword-bearer‘)', i.e. karg-a-dān 'horn-bearer'. From this Persian compound Syriac took karkəḏānā and Arabic then karkaddan (nodes #1-#2). Nourai's own reference is honest about the Persian forms: Mo'in's footnote to Borhān 1622 opens 'فارسی آن «کرگ» و «کرگدن» و «کرگندن» (لغت فرس)' and only afterwards adds the Arabic and Zimmern's Akkadian/Syriac. Ferdowsi's line quoted in the chart ('کمانهای چرخ و سپرهای کرگ / همه برجها پر ز خفتان و ترگ') is genuine and shows کرگ in the 10th century, i.e. long before any Arabic karkaddan could have been re-borrowed.",
+          "derivation_fa": "جهت وام‌گیری وارونه رسم شده است. «کرگ / کرگدن» فارسی از عربی نیست: فارسی میانه خود صورت karg «کرگدن» را دارد — مکنزی، فرهنگ کوچک پهلوی ص ۵۴: «karg [klg | N ~] rhinoceros» (نشانهٔ ~ یعنی صورت فارسی نو همان است) — و ویکی‌واژه «کرگدن» را از فارسی میانهٔ karg «کرگدن؛ شاخ» به‌علاوهٔ پسوند ‎-dān‎ «دارنده» می‌گیرد که سرانجام به سنسکریت खड्ग (khaḍga، تحت‌اللفظ «شمشیردار») می‌رسد؛ یعنی karg-a-dān «شاخ‌دار». از همین ترکیب فارسی، سریانی karkəḏānā و سپس عربی karkaddan ساخته شده است (گره‌های ۱ و ۲). خودِ منبع نورایی هم صادق است: حاشیهٔ معین بر برهان ۱۶۲۲ چنین آغاز می‌شود «فارسی آن «کرگ» و «کرگدن» و «کرگندن» (لغت فرس)» و تنها پس از آن صورت عربی و نقلِ تسیمرن را می‌آورد. بیت فردوسی که در نمودار آمده اصیل است و کاربرد «کرگ» را در سدهٔ چهارم هجری نشان می‌دهد، یعنی بسیار پیش از آنکه وام‌گیری دوباره از عربی ممکن باشد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%DA%AF%D8%AF%D9%86",
+            "https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%83%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1622",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ p.1622 (rendered via tools/ref_page.py BQT:1622, image at data/verification/sources/refs/ocr/BQT/1622.png): headword 'کرگدن، بفتح اول و کاف فارسی و دال ابجد، بر وزن نسترن، جانوری باشد شبیه بگاومیش و بر سر بینی شاخی دارد'; Mo'in's footnote 7: 'فارسی آن «کرگ» و «کرگدن» و «کرگندن» (لغت فرس ...)؛ در عربی «کرکدن» (با هر دو کاف و بتشدید دال و تخفیف نون ...). اکدی kurkizannu، سریانی karkedānā، «تیمرن، لغات دخیله اکدی ص ۵۱»' — the page carries both the Persian forms and Zimmern's Akkadian/Syriac, i.e. it is where Nourai got the chart; but it puts the Persian first and does not say Persian borrowed from Arabic."
+            },
+            {
+              "ref": "FSF:270",
+              "status": "not_found",
+              "note": "In the archive.org copy of Noushin's Vāzhe-nāmak (FSF_pages.txt) the rhinoceros material is at pp. 390-392, not 270: p.390 'کرگدن: برآشفت ضحاک بر سان کرگ ...' and 'کمانهای چرخ و سپرهای کرگ / همه برجها پر ز خفتان و ترگ', and p.392 'سپر کرگ: سپری که از پوست کرگدن سازند' with the same Ferdowsi couplet Nourai quotes. Either Nourai used a differently paginated printing or the page number is wrong; the content he cites is certainly in the book."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.54 (PHD.txt line 426) and the English index p.~206",
+              "stance": "contradicts",
+              "note": "'karg [klg | N ~] rhinoceros' and, in the English-Pahlavi index, 'rhinoceros karg.' — the word is Middle Persian, so New Persian cannot have got it from Arabic."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān 1622 + Mo'in's footnote",
+              "stance": "partial",
+              "note": "gives the native Persian forms کرگ / کرگدن / کرگندن from Asadi's Loghat-e Fors first, and labels the Arabic form as the Arabic reflex."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vāzhe-nāmak pp.390, 392",
+              "stance": "supports",
+              "note": "'کرگدن: ... کمانهای چرخ و سپرهای کرگ / همه برجها پر ز خفتان و ترگ' and 'سپر کرگ: سپری که از پوست کرگدن سازند' — confirms the Shahnameh attestation and the sense 'rhinoceros (hide)'."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.230",
+              "stance": "contradicts",
+              "note": "karkadan is listed in a dictionary of PERSIAN loanwords in Arabic, i.e. Asbaghi too takes Persian as the donor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
