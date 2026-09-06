@@ -1,0 +1,668 @@
+{
+  "pdf_page": 231,
+  "book_page": 201,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Kâ 1, Qâ",
+      "verdict": "confirmed",
+      "modern_form": "PIE *keh₂- 'to desire, wish' (Pokorny kā-, p. 515; Walde-Pokorny qā-, WP I 325; Watkins/AHD kā-)",
+      "note": "The root is real and standard. Nourai's double heading 'Kâ 1, Qâ' simply reproduces the two competing notations of his two sources: Pokorny 1959 writes 'kā- (kǝ-), kāro-, kāmo- \"begehren, gern haben\"' (IEW 515) while Walde-Pokorny 1927 writes the same root 'qā- \"gern haben, begehren\"' (WP I 325) — q was the older way of writing plain velar *k. In laryngeal notation the root is *keh₂-, with the two derived stems *kóh₂-mo- (> Indo-Iranian kāma-) and *kéh₂-ro- (> Lat. cārus, Gmc. *hōraz). Language label ('Indo-European') and gloss ('to wish, desire') are both correct. The one soft spot in the entry is node #5 (Av. canah-/cinah-), which Pokorny himself attaches to this root only with a question mark; node #6 is a blank box printed in the book.",
+      "note_fa": "ریشهٔ هندواروپاییِ آغازین *keh₂- «خواستن، آرزو کردن» ریشه‌ای است پذیرفته‌شده؛ پوکورنی (ص ۵۱۵) آن را kā- و والده‑پوکورنی (ج ۱ ص ۳۲۵) همان را qā- می‌نویسد و همین دو نگارش است که نورایی زیر عنوان «Kâ 1, Qâ» کنار هم آورده است. دو ستاکِ مشتق از آن، یکی *kóh₂-mo- که به هندوایرانی kāma- «آرزو، کام» رسیده و دیگری *kéh₂-ro- که لاتینی cārus و ژرمنی *hōraz از آن است. برچسب زبانی و معنای ریشه در نمودار درست است؛ تنها بندِ سست، گرهٔ ۵ (اوستایی canah-/cinah-) است که خود پوکورنی آن را با علامت پرسش به این ریشه بسته است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/keh₂-"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:515",
+          "status": "supports",
+          "note": "Pokorny IEW p. 515 (POK_02.txt leaf 174; POK_full.txt line 44412 'Root / lemma: ka- / Meaning: to like, wish', 'Page(s): 515'): 'kā- ... Ai. kāyamāna- ... av. kā- \"verlangen\" (kaya 1. Sg., kāta-, cakuše); -mo-Stem ai. kāma- m. \"Lust, Wunsch, Liebe\", av. ap. kāma- m. \"Verlangen, Wunsch\"; ro-St.: lat. cārus \"lieb, wert, teuer\"; got. hors (*hōra-) \"Ehebrecher, Hurer\" ... ahd. huora \"Hure\", ags. hōre'. Exactly the root, gloss and the four branches Nourai draws."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Band I p. 325 (WLD_Bd1_pages.txt leaf 334)",
+          "stance": "supports",
+          "note": "'qā- \"gern haben, begehren\". ... av. kā- \"wonach verlangen\" (kayō 1 sg., kāta-, cakuše, Bartholomae Airan. Wb. 462); -mo-St. ai. kāma- m. \"Begehren, Wunsch, Liebe\", av. ap. kāma- m. \"Verlangen, Wunsch\" ... ro-St. lat. cārus \"lieb, wert, teuer\" ... got. hors \"Ehebrecher, Hurer\"'. This is the source of Nourai's second spelling 'Qâ'."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. kā- (AHD_watkins1985.txt line 560)",
+          "stance": "supports",
+          "note": "'kā-. To like, desire. Contracted from *kaa-. 1. Suffixed form *kā-ro- in: a. Germanic *hōraz (feminine *hōrōn-), \"one who desires,\" adulterer, in Old English hōre, whore: WHORE ... b. Latin cārus, dear: CARESS, CHARITY, CHERISH. 2. Suffixed form *kā-mo- in Sanskrit kāmaḥ, love, desire: KAMA. [Pok. kā- 515.]' — Nourai's nodes #7–#10 reproduce this entry item for item."
+        },
+        {
+          "src": "KLN",
+          "where": "1966 ed. p. 268 s.v. charity (KLN_1966.txt leaf 152, printed numerals 268/269)",
+          "stance": "supports",
+          "note": "'All these words derive fr. I.-E. base *qā-, \"to desire\", whence also OI. kāmaḥ, \"desire\", kāyamānaḥ, \"loving\", Toch. B kawait, \"desire\", Lith. kamaros, \"lasciviousness\", Lett. kāmēt, \"to hunger\". Cp. caress, cherish, Kama, whore.'"
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, searched for headwords kāmos / kāros / kara / 'dear'",
+          "stance": "silent",
+          "note": "grep -n '^kāmos\\|^kāros\\|^kara \\|hōraz' IEC.txt returns only unrelated lemmas (kamos 'muzzle' < WP I 388/507; karos (2) see kara). Mann has no entry for this root under the spellings tried."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "kâ 2, kâm 2, kâma",
+          "verdict": "confirmed",
+          "derivation": "Avestan has both the verbal root kā- 'to long for, desire' (1 sg. pres. kaya, ppp. kāta-, perf. part. cakuše — Bartholomae AiW col. 462) and the -mo- noun kāma- m. 'Verlangen, Wunsch' (AiW col. 463), which Bartholomae marks 'j., g., p.' = attested in Younger Avestan, the Gāthās AND Old Persian. The Old Persian noun kāma- 'desire, will' is directly attested in the inscriptions (e.g. DNb, and the adverbial ablative-instrumental in the Darius texts), and its Old Persian shape is the base of the whole Iranian branch. Phonologically kāma- < PIE *kóh₂-mo-: the laryngeal *h₂ colours and lengthens the root vowel, and the o-grade suffix *-mo- makes an action/result noun 'the wanting'. Nourai's 'kâ 2' is the verbal root, 'kâm 2 / kâma' the noun stem with and without the thematic vowel; the numbers 2 are only his homograph counters.",
+          "derivation_fa": "در اوستایی هم ستاک فعلی kā- «خواستن، آرزو کردن» (kaya در اول‌شخص مفرد، صفت مفعولی kāta-، cakuše) هست و هم اسمِ kāma- «آرزو، خواست»؛ بارتولمه در ستون‌های ۴۶۲–۴۶۳ فرهنگ ایرانی باستان هر دو را آورده و kāma- را با نشانهٔ «j., g., p.» ثبت کرده است، یعنی در اوستای متأخر، گاهان و پارسی باستان هر سه گواه دارد. از دیدِ آواشناسی، kāma- بازماندهٔ *kóh₂-mo-ِ هندواروپایی است: حنجریِ *h₂ واکهٔ ریشه را کشیده کرده و پسوندِ *-mo- اسمِ حاصل ساخته است. «kâ ۲» در نمودار همان ستاک فعلی و «kâm ۲ / kâma» همان اسم است؛ شمارهٔ ۲ تنها برای جدا کردن هم‌نگاشت‌هاست. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/keh₂-",
+            "https://en.wiktionary.org/wiki/کام"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:515",
+              "status": "supports",
+              "note": "POK_02.txt leaf 174 / POK_full line 44415: 'av. kā- \"long, want\" (kaya 1. Sg., kāta-, cakuše)' and '-mo stem ... Avestan Old pers. kāma- m. \"desire, wish\"'. Exactly node #1."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch col. 462-463 (BRT.txt line 9493)",
+              "stance": "supports",
+              "note": "'j., g., p. kāma- m. \"Verlangen, Wunsch\": havāi °māua zaošāi Yt.13.29; ... yaθa mąm °ina āsta \"wie es mein Verlangen war\"'. Column 463 is exactly the reference Mo'in gives in his Borhān footnote («بارتولمه ۴۶۳»)."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon (KNT.txt line 5248, leaf 201 ≈ p. 186)",
+              "stance": "supports",
+              "note": "'kam- vb. \"like\" ... See also kāma-, and possibly canah-.' Kent lists OP kāma- as a lexicon headword and ties it to the verb kam-."
+            },
+            {
+              "src": "WLD",
+              "where": "Band I p. 325",
+              "stance": "supports",
+              "note": "'av. kā- \"wonach verlangen\" (Bartholomae Airan. Wb. 462); -mo-St. ... av. ap. kāma- m. \"Verlangen, Wunsch\"' — same two forms, same two languages."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Sogdian",
+          "words": "k`m",
+          "verdict": "confirmed",
+          "derivation": "Sogdian k'm / q'm (Buddhist, Manichaean and Christian scripts) kām 'wish, desire', with the denominative verb k'm- 'to want, to wish' and the agent noun k'm'ntk kāmande 'well-wisher'. Gharib's Sogdian dictionary no. 4640 (p. 186) glosses it simply 'wish' and derives it '< OP kāma'. Strictly, Sogdian is an Eastern Iranian language and does not descend from Old Persian: it inherits *kāma- from Old/Proto-Iranian, so Nourai's arrow (drawn from his combined 'Avestan / Old Persian' box) is right as to the ancestor form but loose as to the branch. Note also that Sogdian kām grammaticalised into the future particle q'm/k'm (Gharib no. 4639), a Sogdian innovation of the 'want > future' type.",
+          "derivation_fa": "سغدی k'm (به خط‌های بودایی، مانوی و مسیحی) به معنی «آرزو، خواست» است، با فعلِ برساختهٔ k'm- «خواستن» و اسمِ فاعلِ k'm'ntk «نیک‌خواه». قریب در فرهنگ سغدی، مدخل ۴۶۴۰ (ص ۱۸۶)، آن را «wish» معنی کرده و ریشه‌اش را «< پارسی باستان kāma» نوشته است. دقیق‌تر آنکه سغدی از شاخهٔ ایرانیِ خاوری است و از پارسی باستان نمی‌آید، بلکه *kāma- را از ایرانی باستان به ارث برده است؛ پس پیکانِ نورایی از نظر صورتِ نیا درست ولی از نظر شاخه‌بندی مسامحه‌آمیز است. افزون بر این، همین kām در سغدی به ادات آینده‌ساز q'm/k'm بدل شده (مدخل ۴۶۳۹) که نمونهٔ آشنای تحول «خواستن ← آینده» است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "SOD:186",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary, printed p. 186 (SOD_pages.txt leaf 250), entry '4640 k'm B — kām (q'm) ©<OP kāma ©acc. -w — wish'; next to it '4641 k'm- B, M, S — kām (q'm-) — (to)want, (to)wish, (to)like' and '4639 q'm CB ... kam ... future particle'. Nourai's SOD:186 is a printed page number and it is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "entries 4639-4645, printed p. 186",
+              "stance": "supports",
+              "note": "See ref_check; Gharib also has '4643 k'm'k S kāmē, kāmak — wisher' and '4644 k'm'ntk B kāmande — well-wisher, liking'."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 48 s.v. kām",
+              "stance": "supports",
+              "note": "'kām [km | = M, N ~] will, desire, purpose' — the bracket '= M' records that the Manichaean Middle Iranian (Parthian/Manichaean MP) spelling is identical, i.e. the same Old Iranian *kāma- underlies the Middle Iranian forms of which Sogdian kām is the Eastern member."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "kâm",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian kām (Book Pahlavi ⟨km⟩, Manichaean kʾm) 'will, desire, purpose', with the extended stem kāmag 'wish, will' and the verb kāmistan / kām- 'to want'. It continues Old Persian / Old Iranian kāma- unchanged apart from the loss of the Old Iranian thematic ending -a: OIr. *kāma- > MP kām, the final short -a being dropped in the Middle Iranian apocope. Nyberg's glossary documents the whole family in real texts (Mēnōg ī Xrad, Kārnāmag): kāmak 'will, wish, desire (= kām)', kāmakīh, and the compound kām-kār [kʾmkʾl] 'acting according to his own will, sovereign', with Manichaean Parthian kʾmgʾr. MacKenzie also gives kām-widār 'successful, independent'.",
+          "derivation_fa": "فارسی میانه (پهلوی) kām، به خط پهلویِ کتابی ⟨km⟩ و به خط مانوی kʾm، به معنی «خواست، آرزو، قصد»، همراه با ستاکِ گستردهٔ kāmag و فعلِ kāmistan / kām- «خواستن». این صورت دنبالهٔ بی‌واسطهٔ kāma-ِ ایرانی باستان است و تنها دگرگونی آوایی آن افتادنِ واکهٔ پایانی است: *kāma- ← kām، همان فرسایشِ پایانه‌ها که مشخصهٔ گذار از ایرانی باستان به میانه است. نیبرگ در واژه‌نامهٔ خود (ص ۱۱۵–۱۱۶) kāmak «خواست، آرزو (= kām)» و ترکیبِ kām-kār «به کامِ خود رفتار کننده، خودکامه/کامکار» را با گواهِ متنی آورده و پارتیِ مانوی kʾmgʾr را نیز یاد کرده است؛ مکنزی (ص ۴۸) kām و kāmag و kām-widār را ثبت کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/کام"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1578",
+              "status": "partial",
+              "note": "Borhān-e Qāṭeʿ ed. Moʿin, printed p. 1578 (BQT_v3 pdf p. 371; page image and transcript saved at data/verification/sources/refs/ocr/BQT/1578.png and 1578.vision.txt). The headword کام is there ('و بمعنی مراد و مقصد هم آمده است ۹') and Moʿin's footnote 9 reads 'اوستا و پارسی باستان ـ kâma (میل، آرزو) «بارتولمه ۴۶۳»، ... kâm، kâmak «نیبرگ ۱۱۸» ... و رک: هرن/هوبشمان ۸۳۸'. So the footnote does cite Nyberg for the kām/kāmak forms, but it labels the etymon 'Avestan and Old Persian', never spelling out a separate Pahlavi stage; it supports the form but not explicitly the label 'Pahlavi'."
+            },
+            {
+              "ref": "SNS:209",
+              "status": "not_found",
+              "note": "Tavoosi's Shāyast nē Shāyast glossary: grep for 'kām', 'kam ', and Persian 'کام' in SNS_pages.txt / SNS.txt returns nothing usable — the OCR of this volume carries almost no Persian and the Latin transliterations are badly mangled (242 leaves, printed page offset undetermined). Could not confirm p. 209."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary p. 48 (PHD.txt leaf 69)",
+              "stance": "supports",
+              "note": "'kām [km | = M, N ~] will, desire, purpose. kām-, v. kāmistan. ²kāmag [kʾmk' | N kāma] = kām. ~-hanjām gaining one's end, successful. ~-widār [-wtʾl | N kām-gučār] successful, independent.' Note MacKenzie carefully separates 'kam [km | M kmb, N ~] little, small, few'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (Glossary) pp. 115-116",
+              "stance": "supports",
+              "note": "'kāmak 1. will, wish, desire (= kām): ō ~ rasēt (imp.) may you attain ... the will of the gods 69'; and 'kām-kār [kʾmkʾl] acting according to his own will, sovereign, autocrat: pat Ērānšahr ~ 1376 ... — MPrth kʾmgʾr \"free, happy\" (A-H III)'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "kâm 1 «کام ۱»",
+          "verdict": "confirmed",
+          "derivation": "New Persian کام kām 'desire, wish, will; success' continues Middle Persian kām without change (MP kām > NP kām; the parallel MP kāmag survives as کامه kāma). The two words printed in the box as script_extra are its classical compounds: کامیاب kām-yāb 'one who finds his desire, successful' (kām + yāb, present stem of یافتن yāftan 'to find') and کامکار kām-kār 'one who works his own will, fortunate, sovereign', the direct continuation of Pahlavi kām-kār [kʾmkʾl] with the Parthian doublet kʾmgʾr, whence also the variant کامگار kām-gār. Horn no. 838 sets out the whole line: 'kām \"Wunsch, Wille\", kāme; ap. aw. kāma- \"Wunsch, Wille\"; phlv. kāmak, kāmakīh, kāmītan, kām(i)stan (Mēn.) ... ai. kāma-, oss. kom \"Wille\"'. The homograph کام 'palate' (Nourai's numbering 'kâm 1' vs the other کام) is a different word: Hübschmann, commenting on Horn 838, states it is 'schwerlich identisch' with kām 'Wunsch, Wille', because the Germanic words for 'palate' presuppose IE *gh- and the Iranian ones *k-.",
+          "derivation_fa": "«کام» در فارسی نو به معنی «آرزو، خواست، مراد؛ کامیابی» دنبالهٔ بی‌تغییرِ kāمِ فارسی میانه است (فارسی میانه kām ← فارسی نو کام؛ صورتِ گستردهٔ kāmag نیز به «کامه» رسیده است). دو واژهٔ کنارِ مدخل در نمودار، ترکیب‌های کلاسیکِ همین واژه‌اند: «کامیاب» (کام + یاب، ستاکِ حالِ یافتن) و «کامکار» که خود دنبالهٔ مستقیمِ kām-kārِ پهلوی [kʾmkʾl] است و همتای پارتیِ مانویِ آن kʾmgʾr صورتِ «کامگار» را توضیح می‌دهد. هرن در مدخل ۸۳۸ (ص ۱۸۶) همین زنجیره را آورده است: «kām، کامه؛ پارسی باستان و اوستایی kāma-؛ پهلوی kāmak، kāmakīh، kāmistan؛ سنسکریت kāma-؛ آسی kom». نکتهٔ لازم آنکه «کام» به معنی «سقفِ دهان» واژه‌ای دیگر است؛ هوبشمان در حاشیهٔ بر شمارهٔ ۸۳۸ هرن (پرسیشه اشتودین ص ۸۶) صریحاً می‌گوید این دو «به‌دشواری یکی‌اند»، زیرا واژه‌های ژرمنی برای «کام دهان» گویای gh هندواروپایی و صورت‌های ایرانی گویای k هستند. شمارهٔ «۱» در نمودار نورایی همین جدا کردنِ دو هم‌نگاشت است و کارِ درستی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/کام"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1578",
+              "status": "supports",
+              "note": "Borhān-e Qāṭeʿ p. 1578 (image + transcript saved under refs/ocr/BQT/1578): headword 'کام ـ بسکون میم، سقف دهان را گویند ... و بمعنی مراد و مقصد هم آمده است ۹', with Moʿin's footnote 9 'اوستا و پارسی باستان ـ kâma (میل، آرزو) «بارتولمه ۴۶۳» ... و رک: هوبشمان ۸۳۸' plus the Moʿezzi verse 'آنجا که هست کامش، با کام اوست دولت'. Exactly Nourai's Persian node, including the 'desire' sense. The page does NOT contain کامیاب / کامکار (they are elsewhere in the dictionary), and the verse Nourai prints (Asadi, 'به یزدان چنین دارم امید و کام') is not the one on this page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 838, p. 186 (HRN.txt leaf 207)",
+              "stance": "supports",
+              "note": "'838. kām \"Wunsch, Wille\", kāme. ap. aw. kāma- \"Wunsch, Wille\"; phlv. kāmak, kāmakīh, kāmītan, kām(i)stan (Mēn.), vielleicht arm. LW. kam-k \"Wille, Wunsch\", kamim \"wollen, wünschen\" (Hübschmann No. 140); ai. kāma-, oss. kom \"Wille\" (161).'"
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien pp. 86-87, note on Horn 838 (HUB.txt line 3052)",
+              "stance": "partial",
+              "note": "'838. Np. kām = afgh. kumai \"Gaumen\" ist schwerlich identisch mit kām \"Wunsch, Wille\". Die germ. Wörter für \"Gaumen\" setzen im Anlaut ein idg. gh, die iranischen ein idg. k voraus.' Supports the 'desire' word by keeping it apart from the homograph 'palate' — which is why Nourai's 'kâm 1' numbering is correct."
+            },
+            {
+              "src": "MON",
+              "where": "Moʿin, Farhang-e Fārsi, s.vv. کامکار, کامیاب (MON_part2.txt lines 19487, 19561)",
+              "stance": "supports",
+              "note": "'کامکار: [= کامگار] (ص فا.) کامروا، کامران، سعید، سعادتمند، خوشبخت، موفق' and 'کامیاب: (ص مر.) کامروا، ... مق. ناکام، موفق، فیروزمند'. Both are native Persian compounds of کام, marked as such (no [ع.] Arabic tag), confirming Nourai's script_extra."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, searched ARY_pages.txt and ARY_latin_index_pages.txt for کام / KAM / DESIRE",
+              "stance": "silent",
+              "note": "No headword for کام found; the only hits for the string کام are the ordinary word کاملاً etc. in the introduction. Aryanpur does not treat this word."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Avestan / Old Persian",
+          "words": "čanah, činah, činman ; aspa-canah",
+          "verdict": "plausible",
+          "derivation": "The forms themselves are all real. Avestan canah- / cinah- n. 'desire, demand' is attested only in compounds (Bartholomae: θaētō.cinah- 'Geld heischend', V. 4.44; xšaθrō.cinah-, Yt. 13.111) and Avestan cinman- n. 'Begehren, Trachten'; Old Persian canah- is known from the Median-shaped personal name Aspačanā (stem Aspačanah-), Darius's bow-bearer, Elam. aš-ba-za-na, Akk. as-pa-[si-na], Greek Ἀσπαθίνης — Kent glosses it 'Lover of Horses', aspa- 'horse' + canah- 'desire', comparing Skt. cánas- 'pleasure'. What is only PLAUSIBLE is the arrow: attaching canah-/cinah- to the root *keh₂- requires an Indo-Iranian by-form kan-/can- 'to be satisfied, take pleasure' (Skt. perf. cakána, aor. ákaniṣam, Av. cakana; Skt. cánas- n.) and Pokorny himself proposes it only as a question — 'Beruht ar. kan-, can- ... auf einem idg. -(e)nes-St. k-e-nes-?' — and adds that cani-/kani- may just as well be secondary. Kent is equally guarded: 'kam- vb. \"like\" ... See also kāma-, and possibly canah-'. Modern handbooks generally keep PIIr. *kan- 'to be pleased' as an independent root, so the edge is defensible but not established. The chart's 'aspa-canah' is Nourai's normalisation; the attested Old Persian nominative is Aspačanā.",
+          "derivation_fa": "صورت‌های این گره همه واقعی‌اند: اوستایی canah-/cinah- «آرزو، طلب» تنها در ترکیب‌ها گواه دارد (بارتولمه: θaētō.cinah- «پول‌خواه» وندیداد ۴٫۴۴، و xšaθrō.cinah- یشت ۱۳٫۱۱۱) و cinman- «خواستن، در پیِ چیزی بودن»؛ پارسی باستانِ canah- نیز از نامِ خاصِ Aspačanā (ستاک Aspačanah-)، کمان‌دارِ داریوش، شناخته می‌شود که در ایلامی aš-ba-za-na و در یونانی Ἀσπαθίνης آمده است و کنت آن را «دوستدارِ اسب» معنی کرده است: aspa- «اسب» + canah- «آرزو». آنچه تنها «با احتیاط پذیرفتنی» است خودِ پیکان است: بستنِ canah-/cinah- به ریشهٔ *keh₂- نیازمندِ فرضِ گونه‌ای هندوایرانی kan-/can- «خشنود شدن» است و خودِ پوکورنی این پیوند را با علامت پرسش آورده («آیا بر ستاکِ هندواروپایی k-e-nes- استوار است؟») و افزوده که cani-/kani- می‌تواند ثانوی باشد؛ کنت نیز محتاطانه می‌نویسد «و شاید canah-». پژوهش امروزی *kan- را معمولاً ریشه‌ای مستقل می‌داند. نگارشِ «aspa-canah» هم صورتِ هنجارشدهٔ نورایی است؛ صورتِ گواه‌دارِ پارسی باستان Aspačanā است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "POK:515",
+              "status": "partial",
+              "note": "POK_02.txt leaf 174 / POK_full line 44444: 'Beruht ar. kan- (ai. Perf. cākana, Aor. ákāniṣam, av. cakana), can- (ai. cániṣṭam; ai. cánas- n. \"Gefallen, Befriedigung\", av. canah-, cinah- \"Verlangen, Heischen\") \"befriedigt sein, Gefallen finden\", av. cinman- n. \"Begehren, Trachten\" auf einem idg. -(e)nes-St. k-e-nes-?' — the forms are all on p. 515 under kā-, but Pokorny marks the connection with a question mark, so this is support for the forms and only a hesitant support for the arrow."
+            },
+            {
+              "ref": "KNT:173",
+              "status": "partial",
+              "note": "Kent's Lexicon entries were located at KNT.txt lines 5121 (Aspacanah-), 5248 (kam-) and 5378 (canah-), i.e. leaves 195/201/206 ≈ printed pp. 180-193, not p. 173; p. 173 in Kent's lexicon is the 'ada-/adam' stretch. Content-wise Kent says exactly what Nourai's box says: 'Aspacanah- sb. \"Aspathines\", bow-bearer of Darius: Elam. aš-ba-za-na, Akk. as-pa-[si-na], Gk. Ἀσπαθίνης; aspa- \"horse\" + canah- \"desire\", Av. -cinah-, Skt. cánas-; \"Lover of Horses\"' and 'canah- sb. \"desire\", see Aspacanah-; cf. also kam-'. Support for the content, but the page number does not match the 1950/53 edition I checked."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW: θaētō.cinah- (BRT.txt line 28359), xšaθrō.cinah- col. 547 (line 10765), cinman- (line 24407)",
+              "stance": "supports",
+              "note": "'j. θaētō.cinah- Adj. \"Geld heischend\": yezi ... jasąn ... \"wenn sie Geld heischend kommen, soll man Geld (für sie) zusammenbringen\" V. 4.44' and 'j. xšaθrō.cinah- m. EN. eines Gläubigen ... Yt. 13.111'. Bartholomae has the forms but as bahuvrīhi second members only, never a free noun canah-."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian §161, §168 and Lexicon s.v. Aspacanah-",
+              "stance": "supports",
+              "note": "See ref_check; also KNT.txt line 1913 'a. Accusative: Aspa-canah- \"Having love of horses\"' and line 1860 listing 'can-ah-' among the -ah- stems."
+            },
+            {
+              "src": "WLD",
+              "where": "Band I p. 325-326 (WP I 325 f., the reference Pokorny gives)",
+              "stance": "partial",
+              "note": "The qā- article runs from p. 325; the ar. kan-/can- discussion that Pokorny reprints with a question mark is Walde-Pokorny's own, i.e. the doubt is a century old and has not been resolved in Nourai's favour."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": null,
+          "words": "",
+          "verdict": "unverified",
+          "derivation": "There is nothing to verify: on the printed page (PDF p. 231 = book p. 201, image saved at data/verification/sources/refs/ocr/BOOK/231.png) the box to the right of the 'čanah, činah, činman' box is drawn EMPTY — no language label, no reference, no word, only the rectangle and the connecting arrow. The extraction is therefore faithful (JSON: lang null, refs null, words []); the blank is an artefact of Nourai's own chart layout, presumably a derivative he intended to add (an English or Persian reflex of canah-) and never filled in. No error to report against the data.",
+          "derivation_fa": "چیزی برای راستی‌آزمایی نیست: در صفحهٔ چاپی (صفحهٔ ۲۳۱ پی‌دی‌اف = صفحهٔ ۲۰۱ کتاب) کادرِ سمتِ راستِ جعبهٔ «čanah, činah, činman» کاملاً خالی چاپ شده است — نه برچسبِ زبان دارد، نه ارجاع و نه واژه‌ای؛ تنها یک مستطیل و پیکانِ اتصال. پس خوانشِ داده‌ها درست بوده و این خلأ خطای اسکن یا استخراج نیست، بلکه خطای صفحه‌آراییِ خودِ کتاب است؛ ظاهراً نویسنده جای مشتقی را باز گذاشته و آن را پر نکرده است. تصویرِ صفحه برای بازبینی در refs/ocr/BOOK/231.png نگهداری شد.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference in the book — the box is blank on the printed page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BOOK",
+              "where": "printed page 201 (PDF 231), image at data/verification/sources/refs/ocr/BOOK/231.png",
+              "stance": "silent",
+              "note": "Read the page render at 200 dpi: the fourth box on the right-hand column of the 'Kâ 1' chart is an empty rectangle with no text of any kind."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Germanic",
+          "words": "hôraz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *hōraz m. 'adulterer' (feminine *hōrǭ / *hōrōn- 'adulteress, prostitute') < PIE *kéh₂-ro- 'dear, beloved', the same *-ro- derivative that gives Latin cārus; the Germanic sound change is Grimm's Law, PIE *k > PGmc *h, while *eh₂ > ā > Gmc ō. The masculine is directly attested as Gothic hōrs 'μοιχός, adulterer' (Luke 18:11) and Old Norse hórr; the feminine as ON hóra, OE hōre, OHG huora, MHG huore, G. Hure. Watkins glosses *hōraz exactly as Nourai does, 'one who desires', which is a gloss of the root rather than of the attested Germanic meaning ('adulterer').",
+          "derivation_fa": "ژرمنیِ آغازین *hōraz «زناکار (مرد)» و مؤنثِ آن *hōrǭ «زنِ زناکار، روسپی»، از *kéh₂-ro-ِ هندواروپایی به معنی «عزیز، دوست‌داشتنی» — همان ساختِ پسوندیِ *-ro- که در لاتینی cārus را داده است. دگرگونی آوایی همان قانون گریم است: k هندواروپایی در ژرمنی به h بدل شده، و *eh₂ نخست به ā و سپس در ژرمنی به ō رسیده است. صورتِ مذکر در گوتیک hōrs «زناکار» (لوقا ۱۸:۱۱) و نورس باستان hórr گواه دارد، و صورتِ مؤنث در hóra نورسی، hōreٔ انگلیسی باستان، huora در آلمانی علیای باستان و Hureٔ آلمانی امروز. معنایی که نورایی داده («کسی که می‌خواهد») همان معنیِ ریشه است، نه معنیِ گواه‌دارِ ژرمنی که «زناکار» است؛ این را از واتکینز گرفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/whore",
+            "https://www.etymonline.com/word/whore"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1743",
+              "status": "supports",
+              "note": "The 1966 two-volume scan on disk stops at about p. 1700 (last numbered leaf 899 = p. 1696), so p. 1743 itself could not be read; the same entry in Klein's 1971 one-volume edition (KLN_1971.txt line 266963) reads 'whore, n., a prostitute. — ME. hore, fr. OE. hore, fr. ON. hora, \"adulteress\" ... rel. to ON. horr, \"adulterer\", and to MDu. hoere, Du. hoer, OHG. huora, MHG. huore, G. Hure, \"whore\", Goth. hors, \"adulterer\", from I.-E. base *qā-, \"to desire\", whence also L. cārus, \"dear, precious\". See charity ... The w in whore is intrusive.' Content confirmed; the page number falls in the right stretch of vol. II (whore is near the end of the W section, pp. 1740-50)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. kā-",
+              "stance": "supports",
+              "note": "'Suffixed form *kā-ro- in: a. Germanic *hōraz (feminine *hōrōn-), \"one who desires,\" adulterer, in (i) Old English hōre, whore: WHORE' — the source of Nourai's gloss word for word."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict., s.v. Whore, p. 568 (SKT.txt leaf 588)",
+              "stance": "supports",
+              "note": "'Whore, sb. (Scand.) The w is unoriginal. M.E. hore. — Icel. hora, an adulteress, fem. of hórr, an adulterer; Dan. hore, Swed. hora. + Du. hoer, G. hure, O.H.G. huora; Goth. hors, masc. an adulterer. ... Prob. also to L. carus, loving, Skt. kāmagā ... (from kam, to love).'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW p. 515",
+              "stance": "supports",
+              "note": "'got. hors (*hōra-) \"Ehebrecher, Hurer\", aisl. hōrr ds., ags. hōr n. ds., ahd. huor n. ds., ahd. huora (und huorra aus *hōriōn-) \"Hure\", ags. hōre, aisl. hōra- (*hōrōn-) ds.'"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "whore",
+          "verdict": "confirmed",
+          "derivation": "Old English hōre 'prostitute' (the feminine *hōrǭ, not the masculine *hōraz, is the immediate etymon), reinforced in Middle English by Old Norse hóra; ME hore > Modern English whore. The initial ⟨wh⟩ is unetymological: it appears only from the 16th century, by analogy with the many genuine wh- words and with the same hypercorrect spelling seen in whole (OE hāl) — Klein: 'The w in whore is intrusive; cp. whole'. Semantically the shift is 'the desired/beloved one' > 'adulteress' > 'prostitute', a pejoration already complete in Germanic.",
+          "derivation_fa": "انگلیسی باستان hōre «روسپی» — دقیق‌تر آنکه نیای بی‌واسطهٔ آن صورتِ مؤنثِ ژرمنی *hōrǭ است، نه مذکرِ *hōraz — که در انگلیسی میانه با hóraٔ نورس باستان تقویت شده و از hore انگلیسی میانه به whore امروزی رسیده است. ⟨wh⟩ آغازین ریشه‌شناختی نیست و تنها از سدهٔ شانزدهم پیدا می‌شود؛ نوعی تصحیحِ افراطیِ املایی به قیاسِ واژه‌های اصیلِ wh-دار، درست مانند whole که از hālِ انگلیسی باستان است (کلاین: «w در whore زائد است؛ قس whole»). از نظر معنایی زنجیرهٔ «خواستنی/محبوب ← زناکار ← روسپی» است که تحقیرِ معناییِ آن پیش از انگلیسی و در دورهٔ ژرمنی انجام گرفته بود. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/whore",
+            "https://www.etymonline.com/word/whore"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; it inherits KLN:1743 from its parent, which is checked there."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1971 ed. s.v. whore (KLN_1971.txt line 266963)",
+              "stance": "supports",
+              "note": "'whore, n., a prostitute. — ME. hore, fr. OE. hore, fr. ON. hora, \"adulteress\" ... from I.-E. base *qā-, \"to desire\", whence also L. cārus ... The w in whore is intrusive; cp. whole.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 568",
+              "stance": "supports",
+              "note": "'Whore, sb. (Scand.) The w is unoriginal. M.E. hore. — Icel. hora ... ¶ Certainly not allied to hire!'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. kā-, and Etymonline s.v. whore",
+              "stance": "supports",
+              "note": "Watkins: 'Old English hōre, whore: WHORE'. Etymonline: 'It is considered to be, probably, etymologically, \"one who desires\", from PIE root *ka- \"to like, desire\".'"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Latin",
+          "words": "carus",
+          "verdict": "confirmed",
+          "derivation": "Latin cārus, -a, -um < Proto-Italic *kāros < PIE *kéh₂-ro- 'dear, beloved', the exact formal counterpart of Germanic *hōraz and of Latvian kārs 'greedy, lustful'; the same *-ro- adjective is seen in Celtic with zero grade (OIr. carae 'friend', caraim 'I love', W. caraf 'I love'). Ernout-Meillet: 'L'adjectif cārus a un correspondant dans got. hors \"πόρνος, μοιχός\", v.h.a. huora \"fille publique\", et dans l'adjectif lette kārs \"friand, plein de désirs\"'. One correction to the chart: Nourai glosses cārus 'desire', but the Latin word is an adjective meaning 'dear, beloved; costly, of high price' — 'desire' is the meaning of the root, not of the Latin word. The route and the root are right.",
+          "derivation_fa": "لاتینی cārus «عزیز، گرامی؛ گران‌بها» از ایتالیکِ آغازین *kāros و آن از *kéh₂-ro-ِ هندواروپایی «دوست‌داشتنی» است؛ همتای صوریِ دقیقِ *hōrazِ ژرمنی و kārsِ لتونیایی «آزمند، پرآرزو». همین صفتِ *-ro- در سلتی با درجهٔ صفرِ واکه دیده می‌شود: ایرلندی باستان carae «دوست»، caraim «دوست می‌دارم». ارنو و مِیه در فرهنگ ریشه‌شناختی لاتین (ص ۱۸۳) می‌نویسند: «صفتِ cārus همتایی دارد در گوتیکِ hors و در huoraٔ آلمانی علیای باستان و در صفتِ لتونیاییِ kārs». یک اصلاح بر نمودار: نورایی معنیِ cārus را «آرزو» نوشته، حال آنکه این واژه صفت است و «عزیز، گرامی» معنی می‌دهد؛ «آرزو» معنیِ ریشه است نه معنیِ واژهٔ لاتینی. مسیر و ریشه درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "POK:515",
+              "status": "supports",
+              "note": "POK_02.txt leaf 174: 'ro-St.: lat. cārus \"lieb, wert, teuer (auch vom Preise)\"; got. hors (*hōra-) \"Ehebrecher, Hurer\" ... lett. kārs \"lüstern, begehrlich\" (kāruot \"begehren, verlangen\")'. Note that Pokorny's own gloss is 'lieb, wert, teuer', not 'desire'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet, Dict. étym. de la langue latine p. 183 s.v. cārus (LAT.txt line 10140)",
+              "stance": "supports",
+              "note": "'cārus, -a, -um: cher (qu'on chérit); et \"cher, de haut prix\" ... L'adjectif cārus a un correspondant dans got. hors ..., v.h.a. huora \"fille publique\", et dans l'adjectif lette kārs \"friand, plein de désirs\". Le celtique a, en regard, des dérivés à vocalisme zéro: irl. carae et gall. car \"ami\", irl. caraim \"j'aime\".'"
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 268 s.v. charity",
+              "stance": "supports",
+              "note": "'L. cāritātem, acc. of cāritas, \"dearness, affection, love\", fr. cārus, \"dear, precious, esteemed, loved\", which is cogn. with OIr. carae \"friend\" ... ON. hora, OE. hore, \"whore\". All these words derive fr. I.-E. base *qā-, \"to desire\".'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. kā-",
+              "stance": "supports",
+              "note": "'b. Latin cārus, dear: CARESS, CHARITY, CHERISH.' Again 'dear', not 'desire'."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "caress, charity, cherish",
+          "verdict": "confirmed",
+          "derivation": "All three are Romance descendants of Latin cārus that reached English through French. (1) charity: L. cāritātem, acc. of cāritās 'dearness, affection' > Old French charité > Middle English charite; the specifically Christian sense comes from the Vulgate, where cāritās renders Greek ἀγάπη (Ernout-Meillet: 'dans la langue de l'Église a servi à traduire le gr. ἀγάπη'). (2) cherish: OF cherir, present-participle stem cheriss- (mod. F. chérir 'to hold dear'), from cher < cārus, borrowed as ME cherischen with the English -ish of the French inchoative stem. (3) caress: 17th-c. French caresse/caresser, from Italian carezza / carezzare 'to fondle', from caro < cārus — the newest of the three and the only one with an Italian relay. Watkins lists exactly these three words (CARESS, CHARITY, CHERISH) under Latin cārus.",
+          "derivation_fa": "هر سه واژه بازماندگانِ رومانسِ cārusِ لاتینی‌اند که از راهِ فرانسه به انگلیسی رسیده‌اند. یک) charity از cāritātem (حالت مفعولیِ cāritās «عزیز داشتن، مهر») به فرانسهٔ باستان charité و از آن به انگلیسی میانه charite؛ معنای ویژهٔ مسیحیِ آن از ترجمهٔ لاتینیِ کتاب مقدس (ولگاتا) می‌آید که در آن cāritās برابرِ ἀγάπηٔ یونانی نهاده شده است. دو) cherish از ستاکِ اسم‌فاعلیِ cheriss- در فعلِ chérir فرانسه («عزیز داشتن») که خود از cher < cārus است؛ انگلیسی آن را با پسوندِ -ish گرفته است. سه) caress جوان‌ترینِ این سه و تنها واژه‌ای است که واسطهٔ ایتالیایی دارد: از caresse/caresser فرانسه، از carezza/carezzare ایتالیایی «نوازش کردن»، از caro < cārus. واتکینز در فرهنگ ریشه‌های هندواروپاییِ AHD دقیقاً همین سه واژه را ذیل cārus آورده است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; it inherits POK:515 from the Latin parent, checked there. AHD's kā- article supplies the same three English words."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1971 ed. s.vv. caress, cherish, charity (KLN_1971.txt lines 39793, 44875; 1966 ed. p. 268 for charity)",
+              "stance": "supports",
+              "note": "'caress, tr. v. — F. caresser, fr. It. carezzare, lit. \"to cherish\", fr. caro, \"dear\", fr. L. cārus'; 'cherish, tr. v. — ME. cherischen, fr. OF. cheriss-, pres. part. stem of cherir (F. chérir), \"to hold dear, cherish\", fr. cher, \"dear\", fr. L. cārus'; 'charity, n. — F. charité, fr. L. cāritātem ... fr. cārus'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet p. 183",
+              "stance": "supports",
+              "note": "'Dérivés: cāritās: tendresse, affection, amour ... et \"cherté\". Dans la langue de l'Église a servi à traduire le gr. ἀγάπη, et a été pris quelquefois dans l'acception spéciale de \"charité\"; M.L.1695.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 79 s.v. Cherish (SKT.txt line 3358)",
+              "stance": "supports",
+              "note": "'Cherish; see Caress.' — Skeat likewise groups cherish with caress under the cārus family."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "K.a`.b",
+      "verdict": "plausible",
+      "modern_form": "Arabic root ك ع ب k-ʿ-b; kaʿb 'ankle bone, knuckle-bone, node, protuberance', hence 'die, cube'",
+      "note": "The root is genuine Arabic and Semitic: verb kaʿaba 'to be swelling, full and round', noun kaʿb 'ankle, anklebone, joint, knob, node' (the Qurʾānic sense, 5:6), from which the geometrical 'cube, die' is a secondary, mathematicians' extension, and the II-stem kaʿʿaba 'to cube'. So the root box's gloss 'cube' is the narrowest and latest of the meanings rather than the basic one. Jeffery's Foreign Vocabulary of the Qurʾān has no entry for kaʿb / kaʿba, i.e. he treats it as native Arabic — which is right and which also means it is not a Persian loan. What is NOT sound is the shape of the tree hung under the root: node #3 makes Greek kubos a descendant of this Arabic root, and that is rejected by modern scholarship (see that node). Nodes #1 (Persian) and #2 (English Kaaba) are correct.",
+      "note_fa": "ریشهٔ ك ع ب عربیِ اصیل است: فعلِ کَعَبَ «برآمده و گِرد شدن»، اسمِ کَعب «قوزکِ پا، بندِ استخوان، گره، برآمدگی» (همان معنی که در قرآن ۵:۶ آمده) و از آن، در زبانِ ریاضی‌دانان، معنیِ ثانویِ «مکعب، تاس»، و بابِ دومِ کَعَّبَ «به توان سه رساندن». پس معنایی که نورایی برای ریشه نوشته («مکعب») تنگ‌ترین و متأخرترین معنی است، نه معنیِ پایه. جفری در «واژه‌های دخیل در قرآن» مدخلی برای کعب ندارد، یعنی آن را واژه‌ای عربیِ بومی می‌شمارد؛ این نکته هم درست است و هم نشان می‌دهد که واژه وام‌واژهٔ فارسی نیست. آنچه پذیرفتنی نیست ساختِ درختِ زیرِ این ریشه است: گرهٔ ۳ یونانیِ kubos را فرزندِ این ریشهٔ عربی می‌داند و پژوهش امروزی آن را رد می‌کند. گره‌های ۱ (فارسی) و ۲ (Kaaba انگلیسی) درست‌اند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/كعب"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVA:353",
+          "status": "not_checked",
+          "note": "S.M. Nahvi, Farhang-e Vāžehā-ye ʿArabi dar Fārsi — refs_online.json records that no digital copy exists (archive.org, ketabnak, noorlib and general web all searched); local_file is null. Cannot be checked."
+        },
+        {
+          "ref": "KLN:380",
+          "status": "supports",
+          "note": "Klein 1966 p. 380 (KLN_1966.txt leaf 210, which carries the printed numeral 380), s.v. cube: 'cube, n. — F., fr. L. cubus, fr. Gk. κύβος, \"cube, cubical die\", prob. of Sem. origin. Cp. Arab. kaʿb, \"cube\", and see Kaaba. The u in Gk. κύβος is equivalent to Sem. ayin ... See W. Muss-Arnolt in Transactions of the American Philological Association, p. 147.' The page number is exact and Klein says precisely what Nourai's chart says — but Klein is reproducing Muss-Arnolt 1892, a view now abandoned."
+        },
+        {
+          "ref": "PHN:131",
+          "status": "partial",
+          "note": "Pihan 1866 pp. 131-132 (PHN.txt leaf 163-164), s.v. CUBE: '[kaʿb] dé à jouer, cube, solide à six faces carrées égales; hexaèdre, terme d'architecture. — Remarquez l'analogie qui existe entre le mot arabe et le grec κύβος, le latin cubus, et l'italien cubo ... De [kaʿb], augmenté de la terminaison féminine ة, vient [Kaʿbat], nom du temple de la Mekke.' Pihan's book is about French words FROM Arabic, and for the Greek he claims only an 'analogie', not a derivation."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "1966 ed. p. 838 s.v. Kaaba (KLN_1966.txt leaf 452, printed numeral 838)",
+          "stance": "supports",
+          "note": "'Kaaba, n., the cube-shaped building in the Great Mosque of Mecca containing the Black Stone of Mecca. — Arab. kaʿbah, \"square house\", fr. kaʿb, \"cube\". Cp. cube.'"
+        },
+        {
+          "src": "FVQ",
+          "where": "Jeffery, Foreign Vocabulary of the Qurʾān — grep for kaʿb / kaʿba in FVQ_pages.txt",
+          "stance": "silent",
+          "note": "The only hits are the personal names Kaʿb b. al-Ashraf and Kaʿb al-Aḥbār and passing mentions of 'the Kaʿba' as a building (lines 513, 1421, 7657); there is no lexical entry, i.e. Jeffery does not regard kaʿb/kaʿba as a foreign word in Arabic."
+        },
+        {
+          "src": "AFM",
+          "where": "Addi Shir, al-Alfāẓ al-Fārisiyya al-Muʿarraba — grep 'كعب' in AFM_pages.txt",
+          "stance": "silent",
+          "note": "Single incidental hit ('ما بين الكعبين' inside another entry, line 3808); no headword كعب. Addi Shir does not list it among the Persian words arabicised, confirming it is native Arabic."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "ka`b «کَعب»; Ka`beh «کعبه»; moka`ab «مکعب»",
+          "verdict": "confirmed",
+          "derivation": "All three are straightforward Arabic loans in Persian, taken over with the Arabic consonantism intact (including the ʿayn, which Persian speakers realise as a glottal stop or as compensatory length). کعب kaʿb = Ar. kaʿb 'anklebone, knuckle-bone', and in the mathematical language of the Islamic algebraists also 'cube' and hence 'cube root' (Moʿin: '(ریاضی) عددی که دو بار در نفس خود ضرب شود ... را مکعب گویند'). کعبه Kaʿbe = Ar. al-Kaʿba, the feminine kaʿba(t) 'the cubical (house)', with the Arabic tāʾ marbūṭa rendered in Persian as final -e/-a; the figurative Persian sense 'centre point, the goal one turns to' (کعبهٔ جان, کعبهٔ مقصود) is a native Persian poetic development. مکعب mokaʿʿab = Ar. mukaʿʿab, the passive participle of the II-stem kaʿʿaba 'to cube', hence 'cubed, cubic, a cube'. Moʿin marks all three [ع.], i.e. Arabic.",
+          "derivation_fa": "هر سه واژه وام‌واژه‌های عربی در فارسی‌اند که با همان ساختِ صامتیِ عربی، از جمله عینِ آغازین یا میانی، وارد شده‌اند. «کَعب» همان kaʿbِ عربی «قوزکِ پا، بندِ استخوان» است و در زبانِ ریاضیِ دانشمندانِ دورهٔ اسلامی معنیِ «مکعب» و «ریشهٔ سوم» هم یافته است؛ معین می‌نویسد: «(رض.) عددی که دو بار در نفسِ خود ضرب شود ... را مکعب گویند». «کعبه» از الکعبةِ عربی، مؤنثِ kaʿb به معنی «خانهٔ مکعب‌شکل» است و تای گِردِ عربی در فارسی به «ـه» بدل شده؛ معنیِ مجازیِ «مقصد، نقطهٔ کانونی» در ترکیب‌هایی چون «کعبهٔ جان» و «کعبهٔ مقصود» تحولِ معناییِ درون‌فارسی و شاعرانه است. «مکعب» صورتِ اسمِ مفعولِ بابِ تفعیل (کَعَّبَ «به توان سه رساندن») است. معین هر سه را با نشانِ [ع.] یعنی عربی آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/كعب"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:353",
+              "status": "not_checked",
+              "note": "No copy of Nahvi's Farhang-e Vāžehā-ye ʿArabi dar Fārsi exists online or on disk (refs_online.json: local_file null, 'Searched archive.org, ketabnak, noorlib, web: no digital copy found')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Moʿin, Farhang-e Fārsi s.vv. کعب, کعبه, مکعب (MON_part2.txt lines 23783, 23819, 63907)",
+              "stance": "supports",
+              "note": "'کعب: [ع.] (ا.) هر بند استخوان؛ شتالنگ. استخوان بلند پشت پای که محل بستن شراک است؛ ج. کعوب ... استخوان مربع که بدان نرد بازند ... (رض.) عددی که دو بار در نفس خود ضرب شود ... را مکعب گویند'; 'کعبه: [ع. کعبة] (ا.) جای چهار گوش؛ مکعب ... کعبهٔ جان: (کن.) مقصد جان، منظور روح'; 'مکعب: [ع.] (امف.) چهار گوشه ... (هن.) جسمی که دارای شش (وجه) است'. The [ع.] tag on each is Moʿin's Arabic-loan marker."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 838 s.v. Kaaba",
+              "stance": "supports",
+              "note": "'Arab. kaʿbah, \"square house\", fr. kaʿb, \"cube\".' Confirms the Arabic morphology behind Persian کعبه."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir — searched for كعب as a headword",
+              "stance": "silent",
+              "note": "Not listed among arabicised Persian words; i.e. the direction of borrowing is Arabic → Persian, as the chart draws it, not the reverse."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "English",
+          "words": "Kaaba, Caaba",
+          "verdict": "confirmed",
+          "derivation": "English Kaaba (older spelling Caaba, common in 18th–19th c. travel literature) is a direct transliteration of Arabic الكعبة al-Kaʿba, the cube-shaped sanctuary in the Great Mosque at Mecca, the noun being the feminine of kaʿb 'cube' — literally 'the cubical (house)'. It entered English in the 18th century through European accounts of Arabia and through French/Latin orientalist writing (whence the two vowels of ⟨aa⟩ / ⟨aa⟩ rendering the Arabic long ā, and the older ⟨C-⟩ following Latin-French spelling habits). Klein states the etymology in these terms; the word is a cultural borrowing, not a phonetic descent.",
+          "derivation_fa": "واژهٔ انگلیسیِ Kaaba (و املای کهن‌ترِ Caaba که در سفرنامه‌های سده‌های هجدهم و نوزدهم رایج بود) آوانگاریِ مستقیمِ «الکعبة» عربی است، یعنی همان بنای مکعب‌شکلِ مسجدالحرام؛ خودِ واژه مؤنثِ kaʿb «مکعب» است و تحت‌اللفظی «خانهٔ چهارگوش» معنی می‌دهد. این واژه در سدهٔ هجدهم از راهِ گزارش‌های اروپاییان از عربستان و نوشته‌های شرق‌شناسانِ فرانسوی و لاتینی‌نویس وارد انگلیسی شده است؛ املای ⟨aa⟩ نمایندهٔ الفِ کشیدهٔ عربی و ⟨C-⟩ی کهن پیروِ سنّتِ املاییِ لاتین و فرانسه است. کلاین همین را می‌گوید. این یک وام‌گیریِ فرهنگی است نه تحولِ آواییِ موروثی؛ ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:713",
+              "status": "not_checked",
+              "note": "Nourai's AHD:713 is a page of the 1975/76 American Heritage Dictionary main word list (K-section), which is not open online; the local AHD file on disk is only Watkins's 1985 Indo-European Roots appendix, which has no Kaaba entry (grep -i 'kaaba' AHD_watkins1985.txt: no hits). Content checked against Klein instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 838 s.v. Kaaba (KLN_1966.txt leaf 452)",
+              "stance": "supports",
+              "note": "'Kaaba, n., the cube-shaped building in the Great Mosque of Mecca containing the Black Stone of Mecca. — Arab. kaʿbah, \"square house\", fr. kaʿb, \"cube\". Cp. cube.'"
+            },
+            {
+              "src": "PHN",
+              "where": "Pihan p. 132 (under CUBE) and the index entry 'Caabat ou Kaabat, n. pr. (a.) 78'",
+              "stance": "supports",
+              "note": "'De [kaʿb], augmenté de la terminaison féminine ة, vient [Kaʿbat], nom du temple de la Mekke. Voyez Caabat.' Pihan's own index still spells the European form with C-, matching Nourai's second variant 'Caaba'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "kubos, kybos",
+          "verdict": "disputed",
+          "derivation": "Ancient Greek κύβος (kúbos) 'die, cube' is real, but it cannot come from Arabic. It is attested from the earliest Greek literature — Homer already has the dice-players (Il. 23.88), and Herodotus 1.94 reports the Lydian claim to have invented dice — i.e. seven to twelve centuries before any Arabic could have reached Greek. Modern etymological dictionaries reject the Semitic derivation outright: Wiktionary's article states the word 'appears to have no relation to Arabic كَعْبَة (kaʕba)', and Beekes (EDG 2010) treats it as a loan of the substrate/Anatolian type, noting that 'words for dice are often loans and the Lydians claimed to have invented the game'. Etymonline likewise gives only 'of uncertain origin' with the Lydian remark. Nourai's own NOTE reports the competing derivation of POK:589 / AHD:320 from IE *keu-b- 'to bend' (Watkins: 'Zero-grade form *kub- in: a. Greek kubos, cube: CUBE'), which is at least chronologically possible; but Beekes rejects that too, and Klein himself, s.v. cubicle, already separated the two senses ('κύβος in the sense of \"cube, die\" is a Semitic loan word' vs κύβος 'hollow above the hip'). The one thing all modern authorities agree on is that the Arabic arrow Nourai draws is wrong: Klein's source is Muss-Arnolt's 1892 Semitic-loanword list, long superseded.",
+          "derivation_fa": "واژهٔ یونانیِ باستانِ κύβος «تاس، مکعب» واقعی است، اما نمی‌تواند از عربی آمده باشد. این واژه از کهن‌ترین ادبیاتِ یونانی گواه دارد — هومر در ایلیاد ۲۳٫۸۸ به تاس‌بازان اشاره می‌کند و هرودوت (۱٫۹۴) ادعای لودیایی‌ها را دربارهٔ اختراعِ تاس نقل می‌کند — یعنی هفت تا دوازده سده پیش از آنکه هیچ واژهٔ عربی بتواند به یونانی راه یابد. فرهنگ‌های ریشه‌شناختیِ امروزی این وام‌گیریِ سامی را یکسره رد می‌کنند: ویکی‌واژه صریحاً می‌نویسد که این واژه «ظاهراً هیچ پیوندی با «کعبة» عربی ندارد»، و بیکس در فرهنگ ریشه‌شناختی یونانی (۲۰۱۰) آن را وامی از لایهٔ زیرین یا از آناتولی می‌داند و یادآور می‌شود که «نام‌های تاس غالباً وام‌واژه‌اند و لودیایی‌ها مدعیِ اختراعِ این بازی بودند». اتیمانلاین نیز تنها «خاستگاهِ نامعلوم» می‌نویسد. خودِ نورایی در یادداشتِ نمودار آورده که پوکورنی (ص ۵۸۹) و AHD (ص ۳۲۰) این واژه را از *keu-b-ِ هندواروپایی «خم شدن» می‌گیرند — واتکینز می‌نویسد «درجهٔ صفرِ *kub-: یونانی kubos». آن راه‌حل دستِ‌کم از نظر تاریخی ممکن است، هرچند بیکس آن را هم رد می‌کند. جالب آنکه خودِ کلاین در مدخلِ cubicle این دو را از هم جدا کرده و نوشته است κύβος به معنیِ «تاس» وام‌واژه‌ای سامی است ولی κύβος به معنیِ «گودیِ بالای ران» نیست. نتیجه: پژوهش امروزی پیکانِ عربی ← یونانیِ نورایی را رد می‌کند؛ سرچشمهٔ این ادعا فهرستِ وام‌واژه‌های سامیِ موس‑آرنولت (۱۸۹۲) است که دیرزمانی است کنار گذاشته شده.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/κύβος",
+            "https://www.etymonline.com/word/cube"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:380",
+              "status": "supports",
+              "note": "Klein 1966 p. 380 s.v. cube (leaf 210, printed numeral 380): 'fr. Gk. κύβος, \"cube, cubical die\", prob. of Sem. origin. Cp. Arab. kaʿb, \"cube\", and see Kaaba. The u in Gk. κύβος is equivalent to Sem. ayin ... See W. Muss-Arnolt in Transactions of the American Philological Association, p. 147.' Klein does say what Nourai says — but Klein is here only a conduit for Muss-Arnolt 1892."
+            },
+            {
+              "ref": "PHN:131",
+              "status": "partial",
+              "note": "Pihan pp. 131-132 s.v. CUBE: 'Remarquez l'analogie qui existe entre le mot arabe et le grec κύβος, le latin cubus, et l'italien cubo.' Pihan asserts only an 'analogy' between Arabic kaʿb and Greek κύβος; his book derives FRENCH cube from Arabic, and he does not claim the Greek word is borrowed from Arabic."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 380-381 s.v. cubicle",
+              "stance": "partial",
+              "note": "'L. cubāre derives fr. I.-E. base *qeu-b-, \"to bend, curve, arch\", whence also L. cubitum, \"elbow\", Gk. κύβος \"hollow above the hip of cattle\" (but κύβος in the sense of \"cube, die\" is a Semitic loan word), Goth. hups, OE. hype, \"hip\".' Klein himself splits the Greek word in two, so even in Nourai's own source the Arabic claim covers only one of the two senses."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. keu-² (AHD_watkins1985.txt line 622), and index line 1402 'CUBE keu-2'",
+              "stance": "contradicts",
+              "note": "'keu-². Base of various loosely related derivatives with assumed basic meaning \"to bend\" ... 5. Zero-grade form *kub- in: a. Greek kubos, cube: CUBE'. AHD derives the Greek word from Indo-European, not Arabic — this is the alternative Nourai flags in his own NOTE, and it contradicts the arrow he actually draws."
+            },
+            {
+              "src": "POK",
+              "where": "IEW pp. 588-592, keu-², keuǝ- (POK_full.txt block ending 'Page(s): 588-592')",
+              "stance": "contradicts",
+              "note": "Pokorny's keu-²/keub- article spans pp. 588-592, so Nourai's 'POK:589' is inside it. Pokorny too puts Greek κύβος on the IE side, not the Semitic side."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, 2nd ed., s.v. cube (WEB_vol1.txt line 46860)",
+              "stance": "contradicts",
+              "note": "'cube n. [Fr. cube; L. cubus; Gr. kybos, a cube.]' — the chain stops at Greek; no Arabic is mentioned."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Latin",
+          "words": "cubus",
+          "verdict": "confirmed",
+          "derivation": "Latin cubus 'cube' is a straight learned borrowing of Greek κύβος, taken over by Roman mathematical and architectural writers (Vitruvius, and the arithmetici) together with the Greek geometrical vocabulary; Greek υ is rendered by Latin u/y in the usual way and the Greek second-declension -ος becomes Latin -us. The word is technical throughout: classical Latin for the gaming die is ālea or talus, not cubus. This node is correct as drawn (Greek → Latin); the only issue is inherited from its parent, namely where the Greek word itself comes from.",
+          "derivation_fa": "لاتینیِ cubus «مکعب» وام‌گیریِ مستقیم و کتابیِ κύβοςِ یونانی است که نویسندگانِ ریاضی و معماریِ رومی (ویتروویوس و حساب‌دانان) همراه با کلِّ اصطلاح‌شناسیِ هندسهٔ یونانی به لاتین آورده‌اند؛ υی یونانی به u/y لاتین برگردانده شده و پایانهٔ صرفِ دومِ -ος به -us بدل شده است. این واژه در لاتین همیشه اصطلاحی و فنی مانده است: تاسِ بازی در لاتینِ کلاسیک ālea یا talus خوانده می‌شود نه cubus. این گره چنان‌که رسم شده درست است (یونانی ← لاتین)؛ تنها اشکال، اشکالِ به‌ارث‌رسیده از گرهٔ مادر است، یعنی خاستگاهِ خودِ واژهٔ یونانی.",
+          "sources": [
+            "https://www.etymonline.com/word/cube"
+          ],
+          "ref_check": [
+            {
+              "ref": "WEB:441",
+              "status": "supports",
+              "note": "Webster's New Twentieth Century Dictionary, 2nd ed., s.v. cube (WEB_vol1.txt line 46860, leaf 472): 'cube n. [Fr. cube; L. cubus; Gr. kybos, a cube.]', and s.v. cubic '[L. cubicus; Gr. kybikos, from kybos, a cube.]'. The scan's own page numbering could not be read at this leaf, so the exact page 441 is unverified, but the entry says what is cited."
+            },
+            {
+              "ref": "FSD:626",
+              "status": "supports",
+              "note": "Funk & Wagnalls New Standard Dictionary, s.v. cube (FSD_vol1.txt line 83757): '[F. < L. cubus, < Gr. kybos, cube.]' — exactly the Greek → Latin → French → English chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 380 s.v. cube, cubic, cubiform",
+              "stance": "supports",
+              "note": "'cube, n. — F., fr. L. cubus, fr. Gk. κύβος'; 'cubic, adj. — F. cubique, fr. L. cubicus, fr. Gk. κυβικός, fr. κύβος'; 'cubiform ... Compounded of L. cubus, \"cube\", and forma'."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. I s.v. cube",
+              "stance": "supports",
+              "note": "See ref_check; F&W add 'Eng. A paving-block' for the concrete sense, still from L. cubus."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's 2nd ed. s.v. cube / cubo-",
+              "stance": "supports",
+              "note": "'cubo-, [L. cubus, Gr. kybos.] a combining form meaning a cube'."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "cube",
+          "verdict": "confirmed",
+          "derivation": "English cube (noun, 1550s; verb 'to raise to the third power', 1580s) comes from Middle French / French cube (13th c.), from Latin cubus, from Greek κύβος. Nourai's chart draws the arrow straight from Latin to English, omitting the French relay through which the word actually reached English — every dictionary consulted (Klein, Webster, Funk & Wagnalls, Etymonline) puts French between them: 'F., fr. L. cubus'. The semantic content did not shift: it has been the geometrical solid and, in arithmetic, the third power, from the Greek mathematicians onwards.",
+          "derivation_fa": "واژهٔ انگلیسیِ cube (اسم، حدودِ ۱۵۵۰ میلادی؛ فعل به معنی «به توان سه رساندن»، حدود ۱۵۸۰) از cubeٔ فرانسه (سدهٔ سیزدهم) گرفته شده و آن از cubusِ لاتین و آن از κύβοςِ یونانی است. نورایی پیکان را مستقیم از لاتین به انگلیسی کشیده و واسطهٔ فرانسه را انداخته است، حال آنکه همهٔ فرهنگ‌هایی که بررسی شد — کلاین، وبستر، فانک‑و‑واگنالز و اتیمانلاین — فرانسه را میانِ این دو می‌نشانند: «F., fr. L. cubus». از نظر معنایی هیچ تحولی رخ نداده است: از ریاضی‌دانانِ یونانی تا امروز همان جسمِ هندسی و همان «توانِ سوم» در حساب بوده است. ادعای نورایی جز در حذفِ حلقهٔ فرانسه درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/cube"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:320",
+              "status": "partial",
+              "note": "Nourai's AHD:320 is the 1975/76 AHD main-dictionary page for cube (not open online). The corresponding Watkins root article is on disk: AHD_watkins1985.txt line 622, keu-² '... 5. Zero-grade form *kub- in: a. Greek kubos, cube: CUBE', and the index (line 1402) 'CUBE keu-2'. So AHD does carry English cube back to Greek kubos — but, as Nourai's own NOTE concedes, it takes the Greek word to be Indo-European, not Arabic."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 380 s.v. cube",
+              "stance": "supports",
+              "note": "'cube, n. — F., fr. L. cubus, fr. Gk. κύβος' — the French stage that the chart omits."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. I s.v. cube",
+              "stance": "supports",
+              "note": "'[F. < L. cubus, < Gr. kybos, cube.]'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's 2nd ed. s.v. cube",
+              "stance": "supports",
+              "note": "'[Fr. cube; L. cubus; Gr. kybos, a cube.]'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
