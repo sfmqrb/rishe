@@ -1,0 +1,589 @@
+{
+  "pdf_page": 222,
+  "book_page": 192,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "H.r.m",
+      "verdict": "confirmed",
+      "modern_form": "Proto-Semitic *ḥ-r-m 'to separate, set apart, declare forbidden/sacred'",
+      "note": "The consonantal root ḥ-r-m is genuinely common Semitic, not Arabic-only: Akkadian ḫarāmu 'to separate, dedicate' / ḫarimtu 'hierodule', Hebrew ḥērem 'ban, thing devoted to destruction' with the causative heḥĕrīm, Aramaic aḥrēm 'he banned, excommunicated', Ge'ez (Ethiopic) ḥarama 'he prohibited from common use, devoted to God', Arabic ḥarama / ḥaruma 'to forbid, be forbidden'. Nourai's language label 'Semitic' and gloss 'to forbid' are correct, though the root's semantic core is 'set apart' — whence both 'forbidden' (Arabic ḥarām) and 'sacred' (ḥaram al-šarīf, Hebrew ḥērem 'devoted to YHWH'). The two branches Nourai draws (Arabic, Hebrew) are the two best-attested ones. The only quarrel with the chart is inside individual nodes (see #4, #7, #9), not with the root.",
+      "note_fa": "ریشهٔ سه‌حرفی ح‌ر‌م ریشه‌ای سامی مشترک است، نه تنها عربی: در اکدی ḫarāmu «جدا کردن، وقف کردن»، در عبری ḥērem «تحریم، چیزِ وقف‌شده برای نابودی»، در آرامی aḥrēm «تکفیر کرد»، در حبشی (گعز) ḥarama «از استفادهٔ همگانی بازداشت»، و در عربی حَرَمَ/حَرُمَ. معنای بنیادی ریشه «جدا کردن و کنار نهادن» است که از یک سو به «حرام» و از سوی دیگر به «حَرَم/مقدّس» انجامیده است. برچسب زبانیِ «سامی» و معنای «منع کردن» که نورایی آورده درست است؛ اختلاف‌ها در گره‌های جزئی است، نه در خودِ ریشه.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85",
+        "https://en.wiktionary.org/wiki/%D7%97%D7%A8%D7%9D"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVA:98",
+          "status": "not_checked",
+          "note": "S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989): no digital copy exists on archive.org, noorlib, ketabnak or elsewhere (refs_online.json: 'RE-SEARCH 2026-09: still no digital copy on any permitted platform'). Not checkable."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt line 17630, s.v. 'herem' (1966 2-vol. p. ~754 = the p.723 of Nourai's 1-vol. printing)",
+          "stance": "supports",
+          "note": "'herem, n., Biblical ban, excommunication. — Heb. herem ... rel. to heherim ..., Aram. aharim, 'he banned; excommunicated', Arab. harama, 'he forebade', haruma, 'was forbidden', harim, 'sacred, forbidden', Ethiop. harama ..., Akkad. haramu, 'to dedicate', harimtu, 'a dedicated woman' — i.e. exactly the pan-Semitic root Nourai posits."
+        },
+        {
+          "src": "LKT",
+          "where": "no. 819 (LKT.txt line 1981), 'Ar. ḥarām'",
+          "stance": "partial",
+          "note": "Lokotsch gives only the Arabic branch: \"'Verboten'; dasjenige, wozu der Zutritt verboten ist, also der 'Frauenraum' und schließlich 'die Frauen' selbst\" — supports the Arabic side of the root but says nothing about Hebrew/Akkadian."
+        },
+        {
+          "src": "BQT",
+          "where": "BQT_v2_pages.txt, grep 'حرام'",
+          "stance": "silent",
+          "note": "Borhan-e Qate' treats only Persian words; the hits (حرامزاده etc.) are compounds, no etymological footnote on the Arabic root itself."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "harâm; harîm; harem; ihrâm; Moharram",
+          "verdict": "confirmed",
+          "derivation": "All five are regular derivatives of the Arabic Form-I verb ḥarama 'he forbade' / ḥaruma 'was forbidden, was inviolable'. ḥarām (فَعَال pattern) = 'forbidden, unlawful'; ḥarīm (فَعِيل, 'that which is made inviolable') = the inviolable precinct of a house, hence the women's apartments, whence also the by-form ḥaram 'sacred precinct' (al-Ḥaram al-Šarīf, al-Ḥaramayn = Mecca and Medina); iḥrām is the Form-IV maṣdar of aḥrama 'he made (something) forbidden to himself', used for the pilgrim's state of consecration and, by metonymy, for the two seamless white cloths worn in it; muḥarram is the Form-II passive participle of ḥarrama 'he declared forbidden', hence 'the forbidden (month)', the first month of the Muslim year, in which pre-Islamic Arabia already banned warfare. Nourai's entry 'harem' inside the Arabic box is the European form rather than an Arabic one (Arabic has ḥarīm/ḥaram); that is a presentational slip, not an etymological error.",
+          "derivation_fa": "هر پنج واژه مشتق‌های قاعده‌مند فعل عربی حَرَمَ/حَرُمَ «منع کرد، ناروا شد» هستند: «حرام» بر وزن فَعال یعنی ناروا؛ «حریم» بر وزن فَعیل یعنی جای مصون و ممنوع‌الورود و از همین‌جا «حَرَم» شریف و حرمین؛ «إحرام» مصدر باب افعال از أحرم «بر خود حرام کرد» که هم به حالت تقدّس حاجی و هم به جامهٔ دوندوختهٔ او گفته می‌شود؛ و «مُحَرَّم» اسم مفعول باب تفعیل از حرَّم، یعنی ماهی که در آن جنگ حرام است. تنها نکته آنکه صورت harem در جعبهٔ عربی در واقع صورت اروپایی واژه است، نه عربی (عربی حَریم/حَرَم دارد)؛ این لغزشی در نمایش است نه در ریشه‌شناسی. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:703",
+              "status": "supports",
+              "note": "Klein s.v. 'harem' (KLN_1966.txt line 17209; 1966 2-vol. p. ~734, = p.703 of the 1971 one-volume printing Nourai cites): 'harem, n., women's section in an Oriental house. — Arab. ḥarīm, sacred, forbidden, fr. ḥarama, he forbade, ḥaruma, was forbidden ... Cp. also harmattan, ihram, Muharram.' Klein's ihram entry (line 18694) and Muharram entry (line 24598) give exactly Nourai's other three words."
+            },
+            {
+              "ref": "FVA:98",
+              "status": "not_checked",
+              "note": "Nahvi's Farhang-e Vazheha-ye Arabi dar Farsi has no digital copy (see refs_online.json)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 819, 'Ar. ḥarām'",
+              "stance": "supports",
+              "note": "\"'Verboten' ... also der 'Frauenraum' und schließlich 'die Frauen' selbst; ebenso tk. harem\" — the same ḥarām > 'women's quarters' development."
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson, RCH.txt lines 33252-33264, s.v. ḥaram / ḥarīm",
+              "stance": "supports",
+              "note": "'shahru 'l ḥaram, The sacred month Muharram'; 'masjidu'l ḥaram, The temple of Mecca'; 'ḥaram kardan, To make unlawful, to interdict' — the Arabic family as Nourai lists it."
+            },
+            {
+              "src": "AID",
+              "where": "Whitworth, An Anglo-Indian Dictionary, AID.txt line 2758 s.v. Harem",
+              "stance": "supports",
+              "note": "'Harem. [Hindustani harim, from the Arabic haram, sacred, forbidden.] The portion of a house which is reserved for the women of a family.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "harâm «حَرام (محروم، تحریم، مَحرّم)»; harîm «حَریم (حَرَم)»; hermân «حرمان»; hormat «حُرمت (احترام ، محترم)»; ehrâm «إحرام»; Moharram «مُحَرَّم»",
+          "verdict": "confirmed",
+          "derivation": "All of these are post-conquest Arabic loans in New Persian (7th-9th c. CE onwards), taken over with the Arabic morphology intact and only lightly re-pronounced: Ar. ḥarām > NP harâm; ḥarīm > harîm; ḥirmān (the maṣdar of ḥarama 'to deprive') > NP hermân/hirmân, in Persian usage narrowed from 'deprivation' to 'disappointment, being left empty-handed' — exactly the sense in the Hâfez bayt Nourai quotes ('… raqīb maḥram o ḥermān naṣīb-e man bāšad'); ḥurma(t) 'inviolability, sanctity' > NP hormat, where Persian keeps the Arabic tāʾ marbūṭa as a spoken -t and the sense slides 'inviolability' > 'dignity, respect' (whence the Arabic-pattern Persian derivatives احترام ehterâm, محترم mohtaram); iḥrām > ehrâm; muḥarram > Moharram. The bracketed forms محروم maḥrūm (Form-I passive participle), تحریم taḥrīm (Form-II maṣdar) and محرّم muḥarram belong to the same root and are likewise borrowed whole. Persian did not derive them internally — it imported the Arabic derivational output.",
+          "derivation_fa": "همهٔ این واژه‌ها وام‌واژه‌های عربی در فارسی نو پس از اسلام‌اند (از سدهٔ نخست هجری به بعد) که با ساخت صرفی عربی و تنها با اندکی دگرگونی تلفظ وارد شده‌اند: «حرام» و «حریم» بی‌تغییر؛ «حِرمان» مصدر حَرَمَ به معنی «بی‌بهره ماندن» که در فارسی به «ناامیدی و محرومیت» تخصیص یافته — همان معنایی که در بیت حافظ («رقیب محرم و حرمان نصیب من باشد») دیده می‌شود؛ «حُرمت» از حُرمة عربی «مصونیت، قداست» که در فارسی به «احترام و بزرگی» گراییده و از آن احترام و محترم نیز به کار رفته است؛ «إحرام» مصدر باب افعال و «مُحَرَّم» اسم مفعول باب تفعیل. صورت‌های داخل کمانک (محروم، تحریم، محرّم) نیز از همین ریشه و همه به‌صورت آماده از عربی وام گرفته شده‌اند، نه ساختهٔ فارسی. معین در فرهنگ خود همهٔ اینها را با نشان [ع.] یعنی عربی می‌آورد؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:98",
+              "status": "not_checked",
+              "note": "No digital copy of Nahvi 1368 (see refs_online.json); the claim itself (Arabic ḥ-r-m words as Persian loans) is however confirmed by Mo'in below."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 53063 (حرمان), line 7907-7908 (احرام), and the احترام entry at line 7721",
+              "stance": "supports",
+              "note": "Mo'in tags each with [ع.] = Arabic: 'حرمان: [ع.] (مص ل) بی‌بهره بودن، بی‌روزی ماندن. (امص.) بی‌بهرگی، بی‌نصیبی، نومیدی' — the very 'prohibition > disappointment' sense Nourai gives; 'احرام: [ع.] (مص ل) … حج'; 'احترام: [ع.] … حرمت داشتن، بزرگ داشتن'."
+            },
+            {
+              "src": "RCH",
+              "where": "RCH.txt lines 33252-33264 (ḥaram, ḥarīm, ḥaram kardan)",
+              "stance": "supports",
+              "note": "Richardson's Persian-Arabic dictionary lists the whole family as current Persian, e.g. 'P ḥaram kardan, To make unlawful, to interdict'."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v2_pages.txt, grep 'حرام'",
+              "stance": "silent",
+              "note": "Borhan-e Qate' (a dictionary of Persian words) has no entry for the Arabic loans themselves; only compounds such as حرامزاده appear, without Mo'in etymological footnotes on the root."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "harem; ihram; Moharram",
+          "verdict": "plausible",
+          "derivation": "ihram (first in English travel writing on the Hajj) and Moharram/Muharram are indeed straight borrowings of Arabic iḥrām and muḥarram, as Klein states. harem, however, did not come into English directly from Arabic: it is first attested in the 1630s in accounts of the Ottoman court and comes through Ottoman Turkish harem (itself from Arabic ḥarīm/ḥaram), which is why English has -e- rather than the -ī- of ḥarīm; Lokotsch likewise routes rum./sp./frz./engl. harem through Turkish, and Whitworth notes an Indian route through Hindustani harīm for the Anglo-Indian usage. Nourai's Arabic→English arrow is therefore right in substance but skips the Turkish (and, in India, Hindustani) transmitters.",
+          "derivation_fa": "«احرام» و «محرّم» در انگلیسی مستقیماً از عربی گرفته شده‌اند (نخست در سفرنامه‌های حج)، اما harem از راه ترکی عثمانی harem به انگلیسی رسیده است و نخستین کاربرد آن در دههٔ ۱۶۳۰ در گزارش‌های دربار عثمانی است؛ همین گذر از ترکی است که مصوّت e را به جای ī عربیِ «حَریم» توضیح می‌دهد. لوکوچ نیز صورت‌های اروپایی را از ترکی می‌گیرد و ویتورث برای کاربرد انگلیسی‌ـ‌هندی، واسطهٔ هندوستانی harīm را می‌آورد. بنابراین پیکان «عربی ← انگلیسی» نورایی در اصل درست است ولی حلقهٔ واسطهٔ ترکی را نادیده گرفته؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/harem",
+            "https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:703",
+              "status": "supports",
+              "note": "Klein s.v. harem (KLN_1966.txt line 17209) derives English harem straight from 'Arab. ḥarīm', and s.v. ihram (line 18694) 'Arab. iḥrām, prohibition, interdiction, prop. inf. of aḥrama' and s.v. Muharram (line 24598) 'Arab. muḥarram, lit. sacred, forbidden' — i.e. Klein backs Nourai's direct arrow (Klein, unlike OED/Etymonline, omits the Turkish stage)."
+            },
+            {
+              "ref": "TYL:568",
+              "status": "not_checked",
+              "note": "W. Taylor, Arabic Words in English (S.P.E. Tract XXXVIII, 1933): not on archive.org or Google Books; HathiTrust full view is US-browser-only and the host is IP-blocked here (refs_online.json TYL note). Only a different Taylor article is on disk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 819",
+              "stance": "partial",
+              "note": "\"ebenso tk. harem; hieraus rum. harem, sp. Haren, pg. frz. engl. harem, ndl. dtsch. Harem\" — Lokotsch has the European words come from Turkish, not straight from Arabic."
+            },
+            {
+              "src": "AID",
+              "where": "AID.txt line 2758 s.v. Harem",
+              "stance": "partial",
+              "note": "'[Hindustani harim, from the Arabic haram]' — a third route (via India) for the Anglo-Indian use."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/harem",
+              "stance": "partial",
+              "note": "'entered English through Turkish harem in the 1630s' — direct Arabic > English is not the modern account."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Spanish",
+          "words": "harmathan",
+          "verdict": "transcription_suspect",
+          "derivation": "Two problems. (a) Form: no Spanish word 'harmathan' exists — Spanish has harmatán (Klein prints 'Sp. harmatan'), and Spanish orthography does not use -th-. The printed page of Nourai (pdf p. 222) itself reads 'harmathan', so the extraction is faithful and the misprint is the author's, probably an eye-slip from the English spelling harmattan. (b) Route: even Klein, whom Nourai cites, does NOT derive the Spanish word directly from Arabic — 'Sp. harmatan, fr. Fanti haramata, fr. Arab. ḥarām, a forbidden thing, used in the sense of an evil thing'. The wind-name reached European languages from the Akan (Twi/Fante) coast of West Africa in the 17th c.; whether the Akan word is ultimately the Arabic ḥarām borrowed across the Sahel is only a conjecture (Wiktionary: 'the ultimate origin is supposed by some to be an Arabic word, but which one is uncertain'). So the arrow Arabic→Spanish, with the Fante link deleted, is at best partial.",
+          "derivation_fa": "دو اشکال در این گره هست. نخست صورت واژه: در اسپانیایی harmatán است نه harmathan؛ اصلاً خوشهٔ th در املای اسپانیایی راه ندارد و کلاین هم harmatan نوشته است. تصویر صفحهٔ چاپی کتاب (صفحهٔ ۲۲۲ پی‌دی‌اف) نشان می‌دهد که خودِ کتاب harmathan چاپ کرده است؛ پس خطای خوانش اسکن نیست، خطای چاپیِ نویسنده است. دوم مسیر وام‌گیری: حتی کلاین که مأخذ نورایی است این واژه را مستقیم از عربی نمی‌گیرد، بلکه «اسپانیایی harmatan از فانتی haramata از عربی حرام» می‌آورد؛ یعنی حلقهٔ زبان آکان (توی/فانته) در غرب آفریقا حذف شده است و خاستگاه عربیِ نهایی هم تنها یک حدس است. بنابراین پیکان «عربی ← اسپانیایی» ناقص است.",
+          "error_in": "book",
+          "book_prints": "harmathan",
+          "correct_form": "harmatán (Klein: 'Sp. harmatan')",
+          "sources": [
+            "https://en.wiktionary.org/wiki/harmattan"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:704",
+              "status": "partial",
+              "note": "Klein s.v. harmattan (KLN_1966.txt line 17225): 'a dry wind, charged with dust, blowing from the Sahara to the Atlantic coast. — Sp. harmatan, fr. Fanti haramata, fr. Arab. ḥarām, a forbidden thing, used in the sense of an evil thing, from the stem of ḥarama'. Klein has the word and the ultimate Arabic etymon but (i) spells the Spanish harmatan and (ii) inserts Fanti between Arabic and Spanish."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "grep 'harmat' in LKT.txt — no hit",
+              "stance": "silent",
+              "note": "Lokotsch's dictionary of European words of Oriental origin has no harmattan entry at all, although it covers ḥarām (no. 819) — i.e. he did not accept it as an Arabism."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/harmattan",
+              "stance": "partial",
+              "note": "'From Twi (Akan) haramata … which also gave Spanish harmatán. The ultimate origin is supposed by some to be an Arabic word, but which one is uncertain' — Arabic origin is a hypothesis, and the Spanish form is harmatán."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "harmattan",
+          "verdict": "plausible",
+          "derivation": "English harmattan 'the dry dusty NE wind that blows off the Sahara over the Guinea coast between November and March' is first recorded in the 1670s-1690s in accounts of the Gold Coast. Klein (the source Nourai cites) does route it through Spanish (harmatan < Fante haramata), and that is what the chart's Spanish→English arrow says, so the arrow is defensible; but the modern account (OED, Wiktionary) makes English take the word directly from Twi/Fante haramata through the coastal trade, with Spanish as a parallel borrowing rather than the transmitter. The word's shape (double -tt-, final stress) is the same either way.",
+          "derivation_fa": "harmattan در انگلیسی نام بادِ خشک و غبارآلودی است که از اواخر پاییز تا اسفند از صحرا بر ساحل گینه می‌وزد و نخستین کاربردهای آن به دههٔ ۱۶۷۰–۱۶۹۰ در گزارش‌های ساحل طلا بازمی‌گردد. کلاین — که مأخذ نورایی است — آن را از اسپانیایی harmatan می‌گیرد و از این‌رو پیکان «اسپانیایی ← انگلیسی» چارت دفاع‌پذیر است؛ اما دیدگاه امروزی (آکسفورد و ویکی‌واژه) انگلیسی را مستقیم وام‌گیرندهٔ واژهٔ توی/فانتهٔ haramata از راه بازرگانی ساحلی می‌داند و اسپانیایی را وام‌گیرندهٔ موازی، نه واسطه. پس با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/harmattan"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:704",
+              "status": "supports",
+              "note": "Klein s.v. harmattan (line 17225) does make English harmattan continue 'Sp. harmatan' — the chart's Spanish→English arrow is exactly Klein's."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/harmattan",
+              "stance": "partial",
+              "note": "'From Twi (Akan) haramata …, which also gave Spanish harmatán' — Spanish as a sister borrowing, not the transmitter."
+            },
+            {
+              "src": "LKT",
+              "where": "grep 'harmat' — no hit",
+              "stance": "silent",
+              "note": "no entry; Lokotsch does not list harmattan among European Orientalisms."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt (A-M volume), grep 'harmattan'",
+              "stance": "silent",
+              "note": "no usable hit in the OCR of Webster's vol. 1."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Spanish",
+          "words": "marrano",
+          "verdict": "confirmed",
+          "derivation": "Spanish marrano 'pig, pork' is generally taken from Arabic — but from the participle, not the bare verb: Andalusi Arabic muḥarram(a) 'forbidden (thing)', Form-II passive participle of ḥarrama, whence Andalusian Spanish maharrana 'fresh bacon, salt pork' and, with loss of the unstressed first syllable, marrano/marrana 'pig'. Klein derives it more loosely 'fr. Arab. ḥaruma, was forbidden', explaining that 'the pig was called the forbidden animal, from the fact that the eating of pork is forbidden by Jewish and Moslem religious law' — the same idea. Lokotsch (no. 1499) sets it out in full: 'Ar. muḥarrama, Verbotenes … hieraus sp. (dial. Andalusien) muharrana … sp. marrano Schweinefleisch'. The semantic path 'forbidden' > 'the forbidden meat' > 'pig' is thus well supported; Corominas' alternative (an onomatopoeic/Romance origin) is a minority view.",
+          "derivation_fa": "واژهٔ اسپانیایی marrano «خوک، گوشت خوک» را عموماً از عربی می‌دانند، اما از اسم مفعول باب تفعیل نه از فعل مجرد: عربیِ اندلسی مُحَرَّمة «چیز حرام» که نخست به صورت maharrana «گوشت خوکِ تازه/نمک‌سود» در گویش اندلس و سپس با افتادن هجای نخست به marrano بدل شده است. کلاین آن را ساده‌تر از حَرُمَ می‌گیرد و توضیح می‌دهد که خوک را «جانور حرام» می‌نامیدند، و لوکوچ (شمارهٔ ۱۴۹۹) همین زنجیره را با صورت‌های میانی می‌آورد. پس تحول معنایی «حرام ← گوشت حرام ← خوک» مستند است و ادعای نورایی درست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/marrano"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:941",
+              "status": "supports",
+              "note": "Klein s.v. marrano (KLN_1966.txt line 22983): 'Sp., pig, hog, fr. Arab. ḥaruma, was forbidden. The pig was called the forbidden animal … Cp. (Andalusian) Sp. maharrana, fresh bacon, salt pork, which derives fr. Arab. muḥarramah, fem. of muḥarram, anything forbidden, pass. part. of ḥarrama.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1499 (LKT.txt line 3454), 'Ar. muḥarrama'",
+              "stance": "supports",
+              "note": "\"'Verbotenes' [part. pass. II fem. des Vbs. harama, s. hier Nr. 819]; hieraus sp. (dial. Andalusien) muharrana 'frische Speckseite', sp. marrano 'Schweinefleisch' … pg. marrão\" — with the cross-reference to the same root no. 819."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/marrano (Spanish section)",
+              "stance": "supports",
+              "note": "'Borrowed from Arabic مُحَرَّم (muḥarram, forbidden) as referring to pigs'."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "marrano",
+          "verdict": "plausible",
+          "derivation": "English marrano (in English since the 16th-17th c., in modern use since Jewish historiography of the 19th c.) 'a Spanish or Portuguese Jew forcibly converted to Christianity, suspected of secretly keeping Judaism' is taken from the Spanish word of node #6, i.e. it is the abusive epithet 'pig' applied to the conversos — precisely because pork was the food they were made to eat to prove their conversion. Klein and Wiktionary both take this line and the chart follows them. It should be noted that this is not unanimous: Lokotsch (no. 1499) explicitly refuses it — 'Dagegen muß marrano (übergetretener Jude) anderen Ursprungs sein, s. hier Nr. 1412' — and at no. 1412 derives it from Hebrew mar'e 'appearance, Schein' + Romance ending, 'because the marranos were supposed to have converted only in appearance'; Corominas too calls the Spanish word's origin uncertain. Hence plausible rather than confirmed.",
+          "derivation_fa": "واژهٔ انگلیسی marrano به معنی «یهودی اسپانیایی یا پرتغالیِ به‌زور مسیحی‌شده که پنهانی بر دین خود مانده بود» همان واژهٔ اسپانیایی گرهٔ پیشین (خوک) است که به‌عنوان دشنام بر «کُنوِرسو»ها نهاده شد، از آن‌رو که برای اثبات مسیحی‌شدنشان وادار به خوردن گوشت خوک می‌شدند؛ کلاین و ویکی‌واژه همین را می‌گویند و نورایی از آنان پیروی کرده است. اما این نظر اجماعی نیست: لوکوچ در شمارهٔ ۱۴۹۹ صریحاً آن را رد می‌کند و در شمارهٔ ۱۴۱۲ واژه را از عبری مَرْئه «ظاهر، نمود» می‌گیرد، چون گمان می‌رفت مارانوها تنها به‌ظاهر گرویده‌اند. پس این گره با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/marrano"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:941",
+              "status": "supports",
+              "note": "Klein's headword is precisely 'marrano, n., Jew or Moor converted to Christianity. — Sp., pig, hog, fr. Arab. ḥaruma' — the sense and the derivation Nourai draws."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "nos. 1499 and 1412 (LKT.txt lines 3454, 3255)",
+              "stance": "contradicts",
+              "note": "no. 1499: 'Dagegen muß marrano \"übergetretener Jude\" anderen Ursprungs sein, s. hier Nr. 1412'; no. 1412: 'Hebr. marʾe: Schein; hieraus mit roman. Endung sp. marrano \"christlich gewordener Jude\": man nahm an, daß die Marranos nur zum Schein übergetreten seien'."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/marrano",
+              "stance": "supports",
+              "note": "the converso sense is presented as a secondary, insulting application of the 'pig' word, itself < Arabic muḥarram."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Hebrew",
+          "words": "hěrem; mohoram-atta",
+          "verdict": "plausible",
+          "derivation": "ḥērem (חֵרֶם) is solid: a Biblical Hebrew noun 'that which is devoted/banned, thing under the ban', from the root ḥ-r-m, with the causative heḥĕrīm 'he devoted to destruction, banned' (Joshua 6:17 on Jericho; Lev. 27:28-29), later 'excommunication' in rabbinic and modern Hebrew (Yiddish kheyrem). It is the exact Hebrew counterpart of Arabic ḥarām, and this arrow from the common Semitic root is correct. mohŏram attā(h) is a different matter: it is not a quoted Biblical phrase but a form Klein reconstructs — mohŏram is the Hophʿal (passive-causative) participle of heḥĕrīm, so 'thou art put under the ban' is morphologically impeccable Hebrew, but the phrase itself is Klein's conjectural retro-version of Greek maranatha, not an attested Hebrew expression. Hence the node as a whole is only plausible.",
+          "derivation_fa": "«حِرِم/ḥērem» عبری واژه‌ای است استوار: اسمی از ریشهٔ ح‌ر‌م به معنی «چیزِ تحریم‌شده و وقف‌شده برای نابودی» با فعل سببی هِحِریم (یوشع ۶:۱۷ دربارهٔ اریحا؛ لاویان ۲۷:۲۸–۲۹) که بعدها در عبری خاخامی و نو معنی «تکفیر» یافت و در یدیش kheyrem شد؛ این واژه همتای دقیق «حرام» عربی است و پیکان آن از ریشهٔ سامی مشترک درست است. اما mohŏram attā عبارتی نقل‌شده از تورات نیست، بلکه صورتی است که کلاین بازسازی کرده: mohŏram اسم مفعول باب هُفعَل از هِحِریم است و از نظر صرفی بی‌عیب، ولی خودِ عبارت شاهد متنی ندارد و تنها فرضیهٔ کلاین برای توضیح maranatha یونانی است. از این‌رو این گره با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D7%97%D7%A8%D7%9D"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:723",
+              "status": "supports",
+              "note": "Klein s.v. herem (KLN_1966.txt line 17630): 'Heb. ḥerem, person or thing devoted to destruction, rel. to heḥerim … Arab. ḥarama … Akkad. ḥaramu, to dedicate' — Nourai's Hebrew node verbatim."
+            },
+            {
+              "ref": "KLN:937",
+              "status": "supports",
+              "note": "Klein s.v. maranatha (line 22878-22880): 'It is very probable that μαραναθα is the transliteration of Heb. mohoram attā, thou art put under the ban … The Hebrew word moḥoram is the Hophʿal (= passive of the causative) part. of ḥarām, he devoted, banished' — the source of Nourai's second word, and Klein flags it himself as a probability, not a fact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/חרם",
+              "stance": "supports",
+              "note": "'excommunication …, anathema, taboo, dedication, consecration', root ח־ר־ם, 'compare Arabic ح ر م', with Joshua 6:17 quoted — the ḥērem half of the node."
+            },
+            {
+              "src": "LKT",
+              "where": "grep 'herem' in LKT.txt",
+              "stance": "silent",
+              "note": "Lokotsch covers only European loanwords; no Hebrew ḥerem entry."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "herem; maranatha",
+          "verdict": "disputed",
+          "derivation": "herem is fine: an English (Judaic-studies) borrowing of Hebrew ḥērem, 'the Biblical ban; rabbinic excommunication', used in English since the 17th c. maranatha is where the chart goes wrong. The word is Greek μαρανα θα in 1 Corinthians 16:22, universally read today as Aramaic — either מָרַנָא תָא māranā thā 'Our Lord, come!' or מָרַן אֲתָא māran ăthā 'Our Lord has come' — and it means an invocation, not a curse. The 'curse' gloss comes only from its position next to anathema in the same verse ('let him be anathema; maranatha'), which older English versions read as one formula. Klein's derivation from a Hebrew mohŏram attā 'thou art under the ban' (which Nourai reproduces) is an ingenious minority conjecture that modern lexicography and New Testament scholarship do not follow. So: the herem word is confirmed, the maranatha word is disputed, and per the rules the node takes the worse verdict.",
+          "derivation_fa": "واژهٔ herem در انگلیسی وام‌واژهٔ عبری ḥērem است («تحریم کتاب‌مقدسی، تکفیر») و درست است. اما maranatha نادرست نهاده شده: این واژه در رسالهٔ اول قرنتیان ۱۶:۲۲ به یونانی μαρανα θα آمده و امروزه همگان آن را آرامی می‌دانند: مارَنا تا «ای خداوند ما، بیا!» یا مارَن أتا «خداوند ما آمده است» — یعنی دعا و ندا، نه نفرین. معنای «نفرین» تنها از همنشینی آن با anathema در همان آیه پدید آمده است. اشتقاق کلاین از عبریِ فرضی mohŏram attā «تو تحریم شده‌ای» که نورایی نقل کرده، حدسی هوشمندانه اما اقلیّتی است و پژوهش امروزی آن را نمی‌پذیرد. پس این گره از نظر واژهٔ maranatha رد می‌شود.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/maranatha",
+            "https://en.wiktionary.org/wiki/%D7%97%D7%A8%D7%9D"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:723",
+              "status": "supports",
+              "note": "Klein's 'herem, n., Biblical ban, excommunication' (line 17630) is Nourai's first word and gloss exactly."
+            },
+            {
+              "ref": "KLN:937",
+              "status": "supports",
+              "note": "Klein s.v. maranatha does argue the Hebrew mohoram attā origin, so Nourai reports his source faithfully; but Klein himself opens 'Gk. μαραναθα, usually explained as transliteration of Aram. maran atha, the Lord has come, or O Lord, come' before offering his own alternative."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/maranatha",
+              "stance": "contradicts",
+              "note": "'From Aramaic מרנא תא (Lord, come!) or מרן אתא (our lord has come)', via Greek and Latin; no Hebrew-ban etymology and no 'curse' sense."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, WEB_vol1.txt line 112720 s.v. Maran atha",
+              "stance": "contradicts",
+              "note": "OCR: 'Maran atha … maranatha, from Ara[maic] … the Lord cometh … an invo[cation]' — Webster too glosses it as an invocation from Aramaic."
+            },
+            {
+              "src": "SKT",
+              "where": "grep 'maranatha' in SKT.txt",
+              "stance": "silent",
+              "note": "no entry in Skeat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "H.s.n",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ح س ن (ḥ-s-n) 'to be good, beautiful, fine'",
+      "note": "The root is real and the language label right. The gloss is slightly skewed: the base verb ḥasuna means 'to be/become good, beautiful, agreeable' (whence ḥusn 'beauty, goodness', ḥasan 'good, handsome'); 'to do good things, to be kind' is the sense of the Form-IV verb aḥsana, from which iḥsān 'beneficence' — one of the bracketed Persian derivatives on this page. So Nourai has glossed the root by its derived-stem meaning. Everything hanging from the root on this page is Arabic morphology plus one Anglo-Indian curiosity.",
+      "note_fa": "ریشهٔ ح‌س‌ن واقعی است و برچسب «عربی» درست. تنها معنایی که نورایی برای ریشه آورده اندکی جابه‌جاست: فعل مجرد حَسُنَ یعنی «نیکو و زیبا شد» (از آن حُسن «زیبایی، نیکویی» و حَسَن «نیکو»)، حال آنکه «نیکی کردن و مهربانی» معنای باب افعال، أحسَنَ، است که «احسان» از آن ساخته شده — و احسان خود یکی از مشتق‌های فارسیِ همین صفحه است. پس نورایی ریشه را با معنای بابِ مزیدفیه معنا کرده است. باقیِ چارت درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVA:101",
+          "status": "not_checked",
+          "note": "Nahvi's Farhang-e Vazheha-ye Arabi dar Farsi: no digital copy available (refs_online.json)."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "Wiktionary",
+          "where": "en.wiktionary.org/wiki/حسن (Arabic)",
+          "stance": "partial",
+          "note": "'حَسُنَ (ḥasuna): to be or become good, to better, to improve; to be or become pleasant or agreeable'; noun حُسْن 'goodness, prettiness, beauty, charm'; adj. حَسَن 'good, fine, pretty, handsome' — i.e. 'good/beautiful', with 'do good' belonging to أحسن."
+        },
+        {
+          "src": "RCH",
+          "where": "Richardson, RCH.txt line 33688",
+          "stance": "supports",
+          "note": "'Husn, Beauty. Goodness, elegance. husn-i ikhtiyar …, husn-i adab, Good manners' — the root's core sense as current in Persian-Arabic usage."
+        },
+        {
+          "src": "MON",
+          "where": "MON_part1.txt line 53324",
+          "stance": "supports",
+          "note": "'حسن: [ع.] (امص.) زیبایی، جمال' — Mo'in glosses ḥusn as 'beauty, comeliness' and marks it Arabic."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "hosn; Hasan, Hosayn; Yâ-Hasan! Yâ-Hosayn!",
+          "verdict": "confirmed",
+          "derivation": "ḥusn is the verbal noun of ḥasuna 'to be good/beautiful'; ḥasan is the corresponding adjective 'good, handsome', used as a personal name — Ḥasan b. ʿAlī (d. 50/670), the Prophet's elder grandson; Ḥusayn is its diminutive (ḥusayn 'little Ḥasan', فُعَيْل pattern), the name of the younger grandson killed at Karbalāʾ on 10 Muḥarram 61/10 October 680. The ritual lament 'Yā Ḥasan! Yā Ḥusayn!' cried by mourners beating their breasts in the Muḥarram (ʿĀshūrāʾ) processions is thus literally 'O Ḥasan! O Ḥusayn!' — an Arabic vocative phrase, not a lexeme, and it is the phrase Yule & Burnell and Klein both quote. Nourai's account of all three is accurate; only 'martyred in Karbalâ battle' is loose for Ḥasan, who was poisoned in Medina.",
+          "derivation_fa": "«حُسن» مصدر فعل حَسُنَ است؛ «حَسَن» صفت همان فعل به معنی «نیکو، زیبا» که نام حسن بن علی (درگذشتهٔ ۵۰ ق) شده، و «حُسَین» مصغّر آن بر وزن فُعَیْل یعنی «حسنِ کوچک»، نام نوادهٔ کهتر پیامبر که در دهم محرّم سال ۶۱ ق در کربلا کشته شد. ندای «یا حسن! یا حسین!» که عزاداران در دسته‌های محرّم بر سینه‌زنان سر می‌دهند، عبارتی است عربی (منادا) نه یک واژه، و همان است که یول و برنل و کلاین نقل کرده‌اند. گزارش نورایی درست است؛ تنها این نکته که امام حسن در کربلا شهید نشد بلکه در مدینه مسموم شد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:101",
+              "status": "not_checked",
+              "note": "no digital copy of Nahvi 1368."
+            },
+            {
+              "ref": "HJB:419",
+              "status": "supports",
+              "note": "Hobson-Jobson p. 419 (HJB.txt leaf 470, the running head '419' stands on the same leaf, line 11172): the phrase 'is in fact an Anglo-Saxon version of the wailings of the Mahommedans as they beat their breasts in the procession of the Moharram — \"Yā Hasan! Yā Hosain!\"' — Nourai's third word verbatim, including his spelling Hosayn/Hosain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt line 17906 s.v. hobson-jobson",
+              "stance": "supports",
+              "note": "'Corruption of Arab. yā Ḥasan! yā Ḥusayn! O Hasan! O Husain!, cry of the Mohammedans at the procession of the Moharram.'"
+            },
+            {
+              "src": "RCH",
+              "where": "RCH.txt line 33688",
+              "stance": "supports",
+              "note": "'Husn, Beauty. Goodness, elegance' — the first word of the node in the same sense."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/حسن (Arabic)",
+              "stance": "supports",
+              "note": "'حَسَن (Ḥasan): a male given name … referring to Hasan ibn Ali, grandson of Muhammad'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "hosn «حُسن»; Hasan «حَسَن (حسین، محسن، احسان)»; ahsan «احسن (تحسین)»",
+          "verdict": "confirmed",
+          "derivation": "Again whole-cloth Arabic loans in New Persian from the Islamic period on. حُسن hosn keeps the Arabic maṣdar with its meaning 'beauty, goodness', and Persian adds the idiomatic extension 'advantage' in phrases such as حسن نیت, حسن انجام کار. حَسَن Hasan, حسین Hosayn, محسن Mohsen (Form-IV active participle muḥsin 'benefactor') and احسان Ehsân (Form-IV maṣdar iḥsān 'beneficence') are all borrowed as personal names or abstracts. احسن ahsan is the Arabic elative (أَفْعَل pattern) 'better, best', used in Persian in the frozen phrase به نحو احسن 'in the best way' — Nourai's gloss '(word of) admiration' fits the exclamatory use rather than the grammar; تحسین taḥsīn is the Form-II maṣdar 'praise, applause'. Mo'in marks every one of these [ع.] = Arabic.",
+          "derivation_fa": "این‌ها نیز وام‌واژه‌های عربی در فارسی نوی دورهٔ اسلامی‌اند: «حُسن» با همان معنای مصدری «زیبایی و نیکویی» که در فارسی افزون بر آن معنای «مزیّت» هم گرفته است (حسن نیت، حسن انجام کار). «حسن، حسین، محسن (اسم فاعل باب افعال: نیکوکار) و احسان (مصدر همان باب)» همه به‌صورت نام یا اسم معنا وام گرفته شده‌اند. «احسن» اسم تفضیل عربی بر وزن أفعَل یعنی «نیکوتر/نیکوترین» است که در فارسی بیشتر در ترکیب «به نحو احسن» به کار می‌رود؛ معنای «کلمهٔ تحسین» که نورایی آورده به کاربرد ندایی آن نظر دارد نه به صرف واژه. «تحسین» نیز مصدر باب تفعیل است. معین همهٔ اینها را با نشان [ع.] آورده است؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:101",
+              "status": "not_checked",
+              "note": "no digital copy of Nahvi 1368; the substance is confirmed from Mo'in below."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 53324 (حسن) and line 7982 (احسن)",
+              "stance": "supports",
+              "note": "'حسن: [ع.] (امص.) زیبایی، جمال'; 'احسن: [ع.] (رص.) نیکوتر، بهتر، اعلی … به نحو احسن: به بهترین …' — Arabic tag and elative grammar, matching the analysis above."
+            },
+            {
+              "src": "RCH",
+              "where": "RCH.txt line 33688-33689",
+              "stance": "supports",
+              "note": "'Husn, Beauty. Goodness, elegance. husn-i ikhtiyar (or iradat), Free-will. husn-i adab, Good manners' — the loan fully naturalised in Persian phraseology."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v2_pages.txt (ح section)",
+              "stance": "silent",
+              "note": "Borhan-e Qate' does not lemmatise Arabic loans such as حسن/احسن, so no footnote by Mo'in there."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Hindustani",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "An empty pass-through box standing for the Indian stage of the transmission. What it represents is real: the Muḥarram/taʿziya mourning processions were (and are) held all over Muslim India — Yule notes that in India they are 'by no means confined to Shiʿas' — and the Arabic cry Yā Ḥasan! Yā Ḥusayn! was heard in Hindustani-speaking surroundings by British soldiers, who reshaped it. Strictly, though, nothing was borrowed INTO Hindustani as a word: the phrase stayed Arabic (as a liturgical cry) and it is the Anglo-Indian soldiers' ear, not the Hindustani lexicon, that produced 'Hobson-Jobson'. Hence plausible rather than confirmed: the box marks a place and a milieu rather than a linguistic form.",
+          "derivation_fa": "این جعبهٔ خالی نمایندهٔ مرحلهٔ هندی انتقال است. آنچه نشان می‌دهد واقعی است: دسته‌های عزاداری محرّم و تعزیه در سراسر هند مسلمان برپا می‌شد — یول تصریح می‌کند که در هند این آیین‌ها «به‌هیچ‌روی ویژهٔ شیعیان نبود» — و سربازان بریتانیایی ندای عربیِ «یا حسن یا حسین» را در محیط اردوزبان/هندوستانی شنیدند و آن را دگرگون کردند. اما به‌دقت سخن بگوییم، واژه‌ای وارد هندوستانی نشد: عبارت همچنان عربی و آیینی ماند و آنچه Hobson-Jobson را ساخت گوشِ انگلیسیِ سرباز بود نه واژگان هندوستانی. پس این گره جای و فضا را نشان می‌دهد نه یک صورت زبانی، و با احتیاط پذیرفتنی است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "HJB:419",
+              "status": "partial",
+              "note": "Hobson-Jobson p. 419 (HJB.txt line 11172) supports the Indian setting — 'It is peculiar to the British soldier and his surroundings, with whom it probably originated … Major John Trotter tells me that he has repeatedly heard it used by British soldiers in the Punjab' — but Yule labels the phrase Anglo-Indian argot, not a Hindustani word."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "HJB.txt lines 11172-11175, p. 419-420",
+              "stance": "partial",
+              "note": "Yule quotes Mīr Shahāmat ʿAlī on the Muharram in India and the ta'ziya, showing the milieu, but gives no Hindustani lexeme."
+            },
+            {
+              "src": "AID",
+              "where": "grep 'hobson' in AID.txt — no hit",
+              "stance": "silent",
+              "note": "Whitworth's Anglo-Indian Dictionary has no such entry."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "Hobson-jobson",
+          "verdict": "confirmed",
+          "derivation": "English 'hobson-jobson' (attested from the early 19th c. in British-Indian army slang, e.g. 'Hosseen Gosseen, Hossy Gossy, Hossein Jossen' in earlier garbled spellings) is a rhyming-reduplication distortion of the Muḥarram cry Yā Ḥasan! Yā Ḥusayn!, assimilated to the ordinary English surname Hobson (and to the pattern of Hobson's choice). It came to mean 'a native festal excitement, a tamāshā, especially the Muharram ceremonies', and Yule & Burnell borrowed it in 1886 as the title of their glossary, whence its modern technical use for any such phonetic naturalisation of a foreign word. All three of Nourai's references say this; his gloss 'referring to a crowd excitement' is Yule's 'a native festal excitement'.",
+          "derivation_fa": "واژهٔ انگلیسی hobson-jobson که از اوایل سدهٔ نوزدهم در زبان سربازان بریتانیایی در هند دیده می‌شود (با صورت‌های پیشین‌تر و مغشوش‌تری چون Hosseen Gosseen و Hossy Gossy)، دگرگون‌شدهٔ ندای محرّمِ «یا حسن! یا حسین!» است که با قافیه‌سازی و همگونی با نام خانوادگی رایج انگلیسی Hobson (و ترکیب Hobson's choice) به این شکل درآمده است. معنای آن «شور و غوغای جشن بومی، به‌ویژه آیین‌های محرّم» شد و یول و برنل در ۱۸۸۶ آن را عنوان واژه‌نامهٔ خود کردند؛ از همین‌رو امروزه به هر گونه بومی‌سازیِ آواییِ واژهٔ بیگانه «هابسن‌ـ‌جابسن» می‌گویند. هر سه مأخذی که نورایی آورده همین را می‌گویند؛ ادعای او درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:626",
+              "status": "not_checked",
+              "note": "Nourai's AHD page numbers below 1500 are main-dictionary pages of the 1975/76 New College Edition, which is not open online (refs_online.json: 'no open scan of the New College Edition'); the local AHD file is only Watkins' Indo-European roots (grep 'hobson' → no hit, as expected, this being no IE root)."
+            },
+            {
+              "ref": "FSD:1166",
+              "status": "supports",
+              "note": "Funk & Wagnalls New Standard, FSD_vol2.txt line 46590, and the running page number 1166 stands on that leaf: 'hob'son-job'son, n. [Anglo-Ind.] Name of the annual celebration of the Muharram of the Shiah Muslems, their name being a corruption of the cry of \"Ai Hasan! Al Hosain!\" raised at the great procession on the 10th day of the solemnity. Yule and Burnell Hobson-Jobson p. 419.' — the page and the content are exactly as cited."
+            },
+            {
+              "ref": "KLN:735",
+              "status": "supports",
+              "note": "Klein s.v. hobson-jobson (KLN_1966.txt line 17906; 1966 2-vol. p. ~766 = p.735 of the one-volume printing): 'a festal excitement. — Corruption of Arab. yā Ḥasan! yā Ḥusayn!, cry of the Mohammedans at the procession of the Moharram. See Yule and Burnell, Hobson-Jobson, p. 419.' Note that Klein himself points to HJB:419, the page Nourai cites on the parent node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson p. 419 (HJB.txt line 11172)",
+              "stance": "supports",
+              "note": "'HOBSON-JOBSON, s. A native festal excitement; a tamāsha …, but especially the Moharram ceremonies … we have ventured to borrow from it a concise alternative title for this Glossary.'"
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol2.txt p. 1166",
+              "stance": "supports",
+              "note": "see the quotation in ref_check — an independent dictionary with the same derivation."
+            },
+            {
+              "src": "WEB",
+              "where": "grep 'hobson-jobson' in WEB_vol1.txt",
+              "stance": "silent",
+              "note": "no legible hit in the OCR of Webster's vol. 1."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
