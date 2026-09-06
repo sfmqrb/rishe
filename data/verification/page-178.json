@@ -1,0 +1,728 @@
+{
+ "pdf_page": 178,
+ "book_page": 148,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-05",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Geu 3, Gyeu, Gieu",
+   "verdict": "confirmed",
+   "modern_form": "PIE *ǵyewh₁- (Pokorny gi̯eu-, gi̯eu̯-) 'to chew'",
+   "note": "Pokorny IEW 400 heads the entry 'g(i̯)eu-, g(i̯)eu̯- „kauen“' and the very first witness he prints is the Iranian one: 'Npers. javīdan „kauen“, afgh. zōvəl, zoyal ds. „beißen, nagen“ (Iran. *jyav-)'. Walde-Pokorny I 642 has the same lemma with the same opening line. Watkins/AHD: 'gyeu-. Also geu-. To chew. Germanic *kewwan in Old English cēowan, to chew: CHEW. [Pok. g(i)eu- 400.]' Root name, language label and gloss are therefore all correct, and the whole chart (Iranian verb + Germanic verb) is Pokorny's own entry in miniature. The one defect is the language label of node 1: 'jutan' is not Old Persian but the Book-Pahlavi spelling ywtn' of Middle Persian jūdan, which Nourai took over from Horn §415 ('phlv. vergl. jūtan').",
+   "note_fa": "ریشهٔ نمودار همان ریشهٔ هندواروپایی آغازین *ǵyewh₁- «جویدن» است که پوکورنی در صفحهٔ ۴۰۰ به صورت g(i̯)eu- «kauen» آورده و نخستین گواهی که برای آن می‌آورد خودِ «جویدن» فارسی است: «npers. javīdan، افغانی (پشتو) žōvəl». والده‑پوکورنی (جلد ۱، ص ۶۴۲) و واتکینز در پیوستِ AHD نیز همین ریشه و همین معنا را دارند. پس نام ریشه، برچسب زبان و معنای آن هر سه درست است و ادعای نورایی در حدِ جعبهٔ ریشه پذیرفتنی است. تنها لغزش نمودار در برچسب زبانِ گرهٔ نخست است: jutan صورتِ پارسی باستان نیست، بلکه املای پهلوی کتابی ywtn' برای فارسی میانهٔ jūdan است که نورایی آن را از هرن (بند ۴۱۵: «phlv. jūtan») گرفته است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kewwan%C4%85",
+    "https://www.etymonline.com/word/chew"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:400",
+     "status": "supports",
+     "note": "POK_full.txt (grep -n 'Root / lemma: g(i)eu' → line 34195 region), IEW p.400: 'Root / lemma: g(i̯)eu-, g(i̯)eu̯- | Meaning: to chew | Material: Npers. javīdan „chew“, afgh. zovəl, zoyal ds., „bite, gnaw“ (Iran. *jyav-); Armenian kveni …; Old Icelandic tyggja … Old English ceowan, nengl. chew … Page(s): 400'. Exactly the root box as drawn."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 642 (WLD_Bd1 djvu line 40418)",
+     "stance": "supports",
+     "note": "'gi̯eu- und gi̯eu̯- „kauen“. Npers. javīdan „kauen“, afgh. zovəl, zoyal „kauen, beißen, nagen“ (Hübschmann, Pers. Studien 49 f.) … ags. ceowan „beißen, kauen“, ahd. kiuwan …' — the source Pokorny 400 abridges."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, g-list (AHD_watkins1985.txt line 557)",
+     "stance": "supports",
+     "note": "'gyeu-. Also geu-. To chew. Germanic *kewwan in Old English céowan, to chew: CHEW. [Pok. g(i)eu- 400.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann s.v. ǵieuō (IEC.txt line 4015)",
+     "stance": "supports",
+     "note": "'ǵieuō, iō (gleuu-, giau-) „chew“. WP I, 642. Cf. ǵeus-' — Mann sets up the same verbal root and cross-refers it to ǵeus-, the root of Nourai's next chart."
+    },
+    {
+     "src": "CHEUNG",
+     "where": "s.v. *jiauH (CHEUNG.txt line 15160 ff.)",
+     "stance": "supports",
+     "note": "'*jiauH „to chew“ … «PIE *ǵieuH- „to chew, bite“ ⇒ LIV: 168 | Pok.: 400» … IE COGNATES: Toch. śu-, OCS žuju, OHG kewa, OE cēowan, Engl. to chew, Lith. žiáunos „jaws“.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Old Persian",
+     "words": "jutan",
+     "verdict": "plausible",
+     "derivation": "The word is real but the language label is wrong: Old Persian has no attested verb 'to chew', and 'jutan' is the Book-Pahlavi (Middle Persian) form. MacKenzie, Concise Pahlavi Dictionary p.50: 'jūdan, jōy- [ywtn', ywd- | M jwwdn, (jw-), (N jāwīdan)] chew; devour (daevic)'; the heterographic-looking spelling ywtn' with -t- is what produced Nourai's 'jutan', by way of Horn, Grundriss §415 (p.93), which prints 'phlv. vergl. jūtan „kauen, verzehren“ (West: jaūdanō), jūyend (Vd. 17)'. Horn is Nourai's ultimate source here and Horn labels it phlv. = Pahlavi. The descent itself is sound and regular: PIE *ǵyewh₁- > Proto-Iranian *jiauH- (initial *ǵi̯- > Ir. *ǰ-, Rasmussen 1989: 114) > Manichaean MP jw-, Book MP ywd- /jōy-/, infinitive jūdan. Aryanpur's Persian IE-roots dictionary (printed p.216 f.) likewise files JUDAN, JOYITAN under '(PAHLAVI)'. Verdict: the derivation root → this verb is correct, the label 'Old Persian' is not.",
+     "derivation_fa": "این صورت واقعی است اما برچسب زبانش نادرست: در پارسی باستان هیچ فعلی به معنای «جویدن» بازمانده نیست و jutan در حقیقت صورت فارسی میانه (پهلوی) است. مکنزی در فرهنگ کوچک پهلوی (ص ۵۰) می‌آورد: jūdan, jōy- [ywtn', ywd-] «جویدن؛ (در کاربرد دیوی) بلعیدن»، و همان املای پهلوی کتابیِ ywtn' با «ت» است که به دستِ هرن (بند ۴۱۵) به شکل «phlv. jūtan» درآمده و نورایی آن را از هرن گرفته و به اشتباه «پارسی باستان» برچسب زده است. سیر تحول خودش بی‌عیب است: هندواروپایی *ǵyewh₁- ← ایرانی آغازین *jiauH- (که در آن *ǵi̯- آغازین به ǰ ایرانی بدل شده) ← فارسی میانهٔ jūdan / ستاک حال jōy-. آریان‌پور نیز (ص ۲۱۶) JUDAN را زیر «پهلوی» آورده است. حکم: پیوند ریشه به این فعل درست است، ولی برچسب «پارسی باستان» خطای کتاب است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AC%D9%88%DB%8C%D8%AF%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:400",
+       "status": "partial",
+       "note": "IEW p.400 does list the Iranian branch, but as 'Npers. javīdan' plus 'afgh. zovəl, zoyal (Iran. *jyav-)' — it gives no Old Persian and no Pahlavi form at all, so the page supports the root→Iranian link but not the label 'Old Persian jutan'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 50 s.v. jūdan (PHD.txt leaf 71)",
+       "stance": "partial",
+       "note": "'Jūdan, jōy- [ywtn', ywd- | M jwwdn, (jw-), (N jāwīdan)] chew; devour (daevic). ~išn: eating (daevic).' — MacKenzie has the word, as Middle Persian, not Old Persian."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 415, p. 93 (HRN.txt leaf 115)",
+       "stance": "partial",
+       "note": "'415. jāvīden „kauen“, zāvīden, g. jovadmūn, phlv. vergl. jūtan „kauen, verzehren“ (West: jaūdanō), jūyend (Vd. 17 (9))' — the printed source of Nourai's 'jutan', explicitly labelled phlv. (Pahlavi)."
+      },
+      {
+       "src": "KNT",
+       "where": "Lexicon, d-/j- entries pp. 189-192",
+       "stance": "silent",
+       "note": "Kent's Old Persian lexicon (grep 'chew', 'jav', 'jut' in KNT.txt) has no verb for 'chew' — confirming that no Old Persian form of this verb is attested."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *jiauH (CHEUNG.txt line 15162)",
+       "stance": "supports",
+       "note": "'*MIDDLE PERSIAN: MMP jw- „to chew“, BMP ywd- /jōy-/ „to chew; devour (daevic)“ = DMMPP: 199 … Partic. perf. pass. MMP jwwd, BMP ywt /jūd/' — the Middle Persian participle is literally spelled ywt."
+      },
+      {
+       "src": "ARY",
+       "where": "printed p. 216 f. (ARY_latin_index_pages.txt line 6219, pdf page 215-216)",
+       "stance": "partial",
+       "note": "Aryanpur's cognate list under CHEW gives 'JUDAN, JOYITAN :(PAHLAVI)', 'ZHOVAL, ZHOYAL (AFGHAN)', 'KIV, KVENI (ARMENIAN)', 'CEOWAN (OLD ENGLISH) → CHEW (ENGLISH)' — same chain, again with the verb assigned to Pahlavi."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "javîdan «جویدن»",
+     "verdict": "confirmed",
+     "derivation": "NP جویدن javīdan 'to chew' continues MP jūdan directly. The Middle Persian present stem jōy-/jaw- was re-characterised in New Persian with the productive infinitive suffix -īdan, giving jav-īdan beside older jāv-īdan; MacKenzie already registers 'N jāwīdan' as the New Persian outcome of MP jūdan. Klein, s.v. chew (pp. 274-275, the pages Nourai cites), lists 'Pers. javidan, „to chew“' among the cognates of OE cēowan, and Pokorny 400 / Walde-Pokorny I 642 both open the root with 'Npers. javīdan'. The two extra spellings in the box are genuine variants and not misprints: جاویدن jāvīdan is the older infinitive with unshortened ā (Horn's headword is jāvīden), and جاییدن jāyīdan preserves the -y- stem also seen in Baluchi jāyag, Kurdish jūn/jūtin, Pashto žōwəl (Cheung s.v. *jiauH). Chain: PIE *ǵyewh₁- > PIr. *jiauH- > MP jūdan/jōy- > NP jāvīdan ~ javīdan.",
+     "derivation_fa": "«جویدن» فارسی نو دنبالهٔ مستقیم فارسی میانهٔ jūdan است: ستاک حالِ فارسی میانه jōy-/jaw- در فارسی نو با پسوند مصدرسازِ پرکاربردِ ‑یدن بازساخته شده و jav-īdan را کنار صورت کهن‌ترِ jāv-īdan پدید آورده است؛ مکنزی خود «N jāwīdan» را بازماندهٔ jūdan می‌داند. کلاین در مدخل chew (ص ۲۷۴–۲۷۵، همان صفحه‌ای که نورایی ارجاع داده) «Pers. javidan» را در شمار هم‌ریشه‌های ceowan انگلیسی کهن آورده، و پوکورنی (ص ۴۰۰) و والده‑پوکورنی (۱: ۶۴۲) هر دو مدخل ریشه را با «npers. javīdan» می‌گشایند. دو صورتِ افزودهٔ جعبه هم واقعی‌اند و خطای چاپی نیستند: «جاویدن» مصدر کهن‌تر با «آ»ی کشیده است (سرمدخلِ هرن نیز jāvīden است) و «جاییدن» ستاکِ ‑ی‑ را نگاه داشته که در بلوچی jāyag، کردی jūn/jūtin و پشتوی žōwəl نیز دیده می‌شود (چونگ، مدخل *jiauH). زنجیره: *ǵyewh₁- ← *jiauH- ← jūdan ← جویدن. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AC%D9%88%DB%8C%D8%AF%D9%86",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kewwan%C4%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:275",
+       "status": "supports",
+       "note": "KLN_1966.txt leaf 155-156 (page markers '272' … '275' on the leaves), s.v. chew: 'ME. chewen, fr. OE. ceowan, rel. to MLG. keuwen, Du. kauwen, OHG. kiuwan … and cogn. with OSlav. živǫ, živati, „to chew“, Lith. žiaunos …, Pers. javidan, „to chew“, Toch. swa, „to eat“.' The entry straddles pp. 274-275, so Nourai's KLN:275 for javīdan and KLN:274 for chew are both right."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 415, p. 93 (HRN.txt leaf 115)",
+       "stance": "supports",
+       "note": "'415. jāvīden „kauen“, zāvīden … kurd. jūn „kauen“; afγ. žōvul, zōyal; bel. jāyag, n. jāy (176). Bartholomae meint …, dass np. jāvīden aus ar. gžhau-, altir. jiaw-, einer u̯-Bildung … stammen könne.' Horn's headword is the ā-form, exactly Nourai's variant جاویدن."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien §120 (p. 229), referring back to pp. 49-50 (HUB.txt line 8165)",
+       "stance": "supports",
+       "note": "'javidan „kauen“, afgh. žōvəl, ksl. živati (Wrzl. iran. jyu, oben p. 49-50 und § 11)' — listed among the words showing ap. j (= idg. *ǵ, *ǵʰ) > np. j."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *jiauH, NWIR section (CHEUNG.txt line 15178)",
+       "stance": "supports",
+       "note": "'*NWIR: NP javīdan/jav-, Bal. jaθ-/ja-, Kurd. (Kurm.) jūn, jūtin/jū-, (Sor.) jūn/jū-, jawīn/jaw-, Zaz. jawitiš/jawen-, … Tal. jūye „to chew“.'"
+      },
+      {
+       "src": "MON",
+       "where": "Farhang-e Mo'in / Dehkhoda s.v. جویدن (vajehyab, abadis)",
+       "stance": "silent",
+       "note": "the local 2-vol abridgement (MON_part1/2) has no separate جویدن headword with an etymological tag; nothing that contradicts the chart."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Germanic",
+     "words": "kewwan",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *kewwaną 'to chew' is the regular Germanic reflex of PIE *ǵyewh₁-: the PIE palatal *ǵ appears in the centum branches simply as *g, which Grimm's Law shifts to Germanic *k-, while the root-final laryngeal plus the *-w- of the root gives the geminate -ww- of this strong class-2 verb. Watkins/AHD prints Nourai's form verbatim: 'gyeu-. Also geu-. To chew. Germanic *kewwan in Old English cēowan, to chew: CHEW.' Descendants: OE cēowan, OHG kiuwan (> G. kauen), MHG kiuwen, MLG keuwen, Du. kauwen, and ON tyggva/tyggja, whose t- is a dissimilation of the palatalised *k before -ggw-. The chart's arrow root → Germanic is exactly the handbook one.",
+     "derivation_fa": "*kewwaną ژرمنیِ آغازین «جویدن» بازتاب قاعده‌مندِ *ǵyewh₁- هندواروپایی است: کامیِ *ǵ در شاخه‌های کنتوم به g ساده بدل می‌شود و قانون گریم آن را به k ژرمنی می‌رساند، و حنجریِ پایانِ ریشه به‌همراه *‑w‑ همان ‑ww‑ مشدّدِ این فعل قویِ ردهٔ دوم را می‌سازد. واتکینز در پیوستِ AHD دقیقاً همین صورت را چاپ کرده است: «Germanic *kewwan in Old English cēowan: CHEW». بازماندگان: ceowan انگلیسی کهن، kiuwan آلمانی علیای کهن (← kauen آلمانی)، keuwen ساکسون سفلای میانه، kauwen هلندی و tyggva نُرسی کهن که «ت» آغازینش از ناهمگونیِ k کامی‌شده پیش از ‑ggw‑ پدید آمده. پیکانِ ریشه ← ژرمنی همان چیزی است که در فرهنگ‌های مرجع می‌آید؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kewwan%C4%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 557: 'gyeu-. Also geu-. To chew. Germanic *kewwan in Old English céowan, to chew: CHEW. [Pok. g(i)eu- 400.]' — Nourai's Germanic form and gloss come straight from this line."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I 642 (WLD_Bd1 djvu line 40426 ff.)",
+       "stance": "supports",
+       "note": "'Aisl. tyggva „kauen, verspeisen“ (nach Pedersen KZ. 32, 255 mit Dissimilation des durch i palatalisierten k vor gg) … ags. ceowan „beißen, kauen“, ahd. kiuwan „kauen, beißen, verzehren“ …'"
+      },
+      {
+       "src": "KLN",
+       "where": "p. 274 f. s.v. chew (KLN_1966.txt leaf 155-156)",
+       "stance": "supports",
+       "note": "'rel. to MLG. keuwen, Du. kauwen, OHG. kiuwan, MHG. kiuwen, MG. küwen, „to chew“ (whence G. kauen)'."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 400 (POK_full.txt s.v. g(i̯)eu-)",
+       "stance": "supports",
+       "note": "'Middle Low German keuwen, Old High German kiuwan, Middle High German kuwen „chew“ (*kewian)'."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "chew",
+     "verdict": "confirmed",
+     "derivation": "OE cēowan > ME chewen > NE chew; the ModE ch- is the regular palatalisation of Old English initial c- before a front vowel, and the -w- of the stem survives in the spelling. Klein pp. 274-275: 'chew, tr. and intr. v. — ME. chewen, fr. OE. cēowan …'. Etymonline gives the same chain (OE ceowan < West Germanic *keuwwan < PIE *gyeu- 'to chew') and, like Klein, lists Persian javidan among the cognates — so the whole left-to-right chart, Persian and English hanging off one PIE root, is the standard account. Uncontroversial.",
+     "derivation_fa": "chew انگلیسی از ceowan انگلیسی کهن ← chewen انگلیسی میانه می‌آید؛ «چ» امروزی همان کام‌شدگیِ قاعده‌مندِ c آغازینِ انگلیسی کهن پیش از واکهٔ پیشین است و ‑w‑ ستاک در املا مانده است. کلاین (ص ۲۷۴–۲۷۵): «chew — ME. chewen, fr. OE. ceowan». اتیمانلاین نیز همین زنجیره را می‌دهد (ceowan ← ژرمنی باختری *keuwwan ← هندواروپایی *gyeu-) و مانند کلاین «javidan» فارسی را در شمار هم‌ریشه‌ها می‌آورد؛ بنابراین کلِ نمودار، یعنی قرار گرفتنِ «جویدن» و chew زیر یک ریشه، همان روایتِ پذیرفتهٔ امروزی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/chew",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kewwan%C4%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:274",
+       "status": "supports",
+       "note": "KLN_1966.txt leaf 155-156 (printed page markers 272 … 275 in the OCR of those leaves), s.v. chew: 'ME. chewen, fr. OE. ceowan …'; the entry begins on p. 274 and runs onto p. 275."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etym. Dict., s.v. 'Chew, Chaw' (SKT.txt line 3372)",
+       "stance": "supports",
+       "note": "'Chew, Chaw. (E.) M.E. chewen. A.S. cēowan, to chew. + Du. kauwen, G. kauen; Russ. jevate. Der. [chaw >] jaw; now spelt jaw.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, English index (AHD_watkins1985.txt line 1349)",
+       "stance": "supports",
+       "note": "'CHEW gyeu-' in the index of English words to IE roots."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 3,
+   "root": "Geus",
+   "verdict": "confirmed",
+   "modern_form": "PIE *ǵews- 'to taste, enjoy'; in Germanic and Celtic 'to choose', in Indo-Iranian and Albanian 'to love'",
+   "note": "Pokorny IEW 399-400: 'ĝeus- „kosten, genießen, schmecken“, im Germ. und Kelt. auch über „mit dem Geschmack prüfen“ zu „wählen“ entwickelt, in Indo-Iran. und Alban. „lieben“'. Nourai's gloss 'to love, favor, choose' renders the Indo-Iranian and Germanic ends of that range but drops the base sense 'to taste', which is what actually holds the Latin box (gustus) together with the rest; that is a compression, not an error. Everything else on the chart is textbook: Kent's Old Persian lexicon s.v. dauštar- (p.189, the page Nourai cites) itself strings together 'NPers. dōst, Skt. joṣṭar-; agent-noun to root dauš-, Av. zaoš- „enjoy“, Skt. juṣ-, Lat. gustat „tastes“, NEng. choose, pIE *ǵeus-' — i.e. Nourai's four branches in one sentence. The only label slip is 'dis-goust' in the Latin box, which is Middle French desgoust, not Latin.",
+   "note_fa": "پوکورنی (ص ۳۹۹–۴۰۰) ریشه را چنین می‌آورد: ĝeus- «چشیدن، لذت بردن، مزه کردن»، که در ژرمنی و سلتی از راهِ «با چشیدن آزمودن» به معنای «برگزیدن» رسیده و در هندوایرانی و آلبانیایی به «دوست داشتن». معنایی که نورایی داده («دوست داشتن، پسندیدن، برگزیدن») دو سرِ این طیف را می‌گیرد ولی معنای پایه یعنی «چشیدن» را می‌اندازد؛ این فشرده‌سازی است نه خطا، هرچند پیوندِ جعبهٔ لاتینی (gustus) با بقیه را کم‌رنگ می‌کند. باقیِ نمودار کاملاً استاندارد است: کنت در واژه‌نامهٔ پارسی باستان، در همان صفحهٔ ۱۸۹ که نورایی ارجاع داده، خودش می‌نویسد «dauštar- „friend“: NPers. dōst … Av. zaoš- „enjoy“ … Lat. gustat „tastes“, NEng. choose, pIE *ǵeus-» — یعنی هر چهار شاخهٔ نورایی در یک جمله. تنها لغزش، «dis-goust» است که در جعبهٔ «لاتین» نشسته حال آنکه صورتِ فرانسهٔ میانه (desgoust) است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5ews-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:399",
+     "status": "supports",
+     "note": "POK_full.txt line 35741 region: 'Root / lemma: ǵeus- | Meaning: to taste; to enjoy [„savor, enjoy, taste“, in the Germanic and Celtic „choose“, in Indo Iran. and Alban. „love“] | Material: … Avestan zaoš-, Old pers. dauš- … Gothic kiusan … Latin gustus … Page(s): 399-400.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 568 f. (WLD_Bd1 djvu line 35781)",
+     "stance": "supports",
+     "note": "'ǵeus- „kosten, genießen, schmecken“, im Germ. und Kelt. auch über „mit dem Geschmack prüfen“ zu „wählen“ entwickelt. Ai. juṣati, juṣáte … av. zaoš-, ap. dauš- „Geschmack woran finden“, av. zaoša- „Gefallen“, zušta- „beliebt, erwünscht“ …'"
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, g-list (AHD_watkins1985.txt line 501)",
+     "stance": "supports",
+     "note": "'geus-. To taste, choose. 1. Germanic *keusan in: a. Old English céosan … CHOOSE. b. Gothic *kausjan … CHOICE. … 3. Suffixed zero-grade form *gus-tu- in: a. Latin gustus, taste: GUST², GUSTO; DISGUST, RAGOUT. [Pok. ĝeus- 399.]' — all four of Nourai's branches except the Iranian one."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 19.51 'friend' (SYN.txt line 33714)",
+     "stance": "supports",
+     "note": "'OPers. daustar- (NPers. dost) : Av. zuš-, Skt. juṣ- „take pleasure in, enjoy“, Av. zaoša- „pleasure“, Grk. γεύομαι „taste, enjoy“, etc. (15.31). Barth. 674 f.'"
+    },
+    {
+     "src": "CHEUNG",
+     "where": "s.v. *zauš (CHEUNG.txt line 30541)",
+     "stance": "supports",
+     "note": "'*zauš „to take pleasure, rejoice in“ … © This root has an impeccable IE etymology. «PIE *ǵeus- „to taste, like, choose, be pleased“ — LIV: 166 | Pok.: 399 f.»'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "zaošô; zuštô; dauštar",
+     "verdict": "confirmed",
+     "derivation": "All three forms are real, though the box mixes an Avestan pair with an Old Persian noun (as its double label allows). Av. zaoša- m. is 'pleasure, liking, will' (Bartholomae AiW: a-zaoša- 'Nichtwille, Nichtabsicht' Y.7.21; uγra.zaoša- 'of strong, unbending will' Yt.13.31; 'nach seinem Willen und Gefallen' V.2.11) — so Nourai's gloss 'to agree' is loose: the word is a noun 'pleasure/will', not a verb. Av. zušta- 'liked, beloved, welcome' is the past participle of the same zaoš-. OP dauštar- 'friend' is attested only in the nom. sg. dauštā (DB 4.56, 69, 74; DNb 7, 8, 12; DSj 4). The two initials are the two regular Iranian reflexes of the PIE palatal *ǵ: PIE *ǵ > PIIr. *ȷ́ > Proto-Iranian *dz, which Avestan simplifies to z- but Old Persian resolves to d- — the same split as Av. zasta- : OP dasta- 'hand' and Av. zaranya- : OP daraniya- 'gold'. dauštar- itself is the agent noun *ǵews-tōr- 'one who takes pleasure (in someone)' > 'friend'.",
+     "derivation_fa": "هر سه صورت واقعی‌اند، هرچند جعبه یک جفت اوستایی را با یک نامِ پارسی باستان کنار هم نشانده (که برچسب دوگانه‌اش همین را اجازه می‌دهد). zaoša- اوستایی «خشنودی، کام، خواست» است — بارتولمه a-zaoša- «ناخواست، بی‌قصدی» و uγra.zaoša- «سخت‌اراده» را می‌آورد و در وندیداد ۲٫۱۱ «به خواست و کامِ خویش» — پس معنایی که نورایی داده («to agree») سست است: این واژه اسم است نه فعل. zušta- صفت مفعولیِ همان ستاکِ zaoš- است به معنای «پسندیده، دوست‌داشته». dauštar- «دوست» تنها در فاعلیِ مفرد dauštā در سنگ‌نبشته‌های بیستون و نقش رستم آمده است. دو آغازِ z و d دو بازتابِ قاعده‌مندِ کامیِ *ǵ هندواروپایی‌اند: *ǵ ← هندوایرانیِ *ȷ́ ← ایرانیِ آغازینِ *dz، که در اوستایی به z ساده و در پارسی باستان به d بدل می‌شود؛ درست همان جفتِ zasta- اوستایی در برابر dasta- پارسی باستان («دست») و zaranya- در برابر daraniya- («زر»). خودِ dauštar- اسم فاعلِ *ǵews-tōr- است: «آنکه از کسی خشنود می‌شود» ← «دوست». ادعای نورایی درست است، جز معنای سستِ zaošô.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B3%D8%AA",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5ews-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:399",
+       "status": "supports",
+       "note": "IEW 399 f. (POK_full.txt line 35695): 'Avestan zaoš-, Old pers. dauš- „where one finds flavor“, Avestan zaoša- „pleasure“, zušta- „liked, beloved, fancied, desirable, welcome“' — all three of Nourai's words on the cited page."
+      },
+      {
+       "ref": "KNT:189",
+       "status": "supports",
+       "note": "KNT.txt leaf 213 (leaf 212 ends '188', leaf 214 shows '190 OLD PERSIAN', so leaf 213 = printed p.189): 'dauštar- sb. „friend“: NPers. dōst, Skt. joṣṭar- „loving“; agent-noun (§154.II) to root dauš-, Av. zaoš- „enjoy“, Skt. juṣ-, Lt. gustat „tastes“, NEng. choose, pIE *ǵeus- (§88). daustā nsm. DB 4.56, 69, 74; DNb 7, 8, 12; DSj 4.' Exactly the arrow drawn."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "AiW s.vv. a-zaoša-, uγra.zaoša-, zaoša- (BRT.txt lines 5976, 8120; cf. Buck's citation 'Barth. 674 f.')",
+       "stance": "partial",
+       "note": "'j. a-zaoša- m. „Nichtwille, Nichtabsicht“: yezi zaoša yezi ažaoša „sei es absichtlich, sei es unabsichtlich“ Y.7.21'; 'j. uγra.zaoša- Adj. „starken sva. unbeugsamen Willens gegenüber —“ Yt.13.31'; 'hvąm anu ušim zaošəmca yaθa hē zaošō „nach seinem Willen und Gefallen, wie immer sein Gefallen war“ V.2.11'. Bartholomae's zaoša- is 'Wille, Gefallen', which is why Nourai's gloss 'to agree' is only approximate."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 19.51 (SYN.txt line 33714)",
+       "stance": "supports",
+       "note": "'OPers. daustar- (NPers. dost) : Av. zuš-, Skt. juṣ- …, Av. zaoša- „pleasure“, Grk. γεύομαι „taste, enjoy“ … Barth. 674 f.'"
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *zauš (CHEUNG.txt line 30545 ff.)",
+       "stance": "supports",
+       "note": "'*AVESTAN: YAv. zuš- „to take pleasure, rejoice in“ … Partic. perf. pass. YAv. zušta- (F 620, F 764, VdPZ 17.8); *OLD PERSIAN: dauštā (Nsg.) „friend“ <d-u-š-t-a> (DB 4.56, DB 4.69, DB 4.74).'"
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 568 (WLD_Bd1 djvu line 35786)",
+       "stance": "supports",
+       "note": "'av. zaoš-, ap. dauš- „Geschmack woran finden“, av. zaoša- „Gefallen“, zušta- „beliebt, erwünscht“'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "dŭst «دوست»",
+     "verdict": "confirmed",
+     "derivation": "NP دوست dōst 'friend' < MP dōst [dwst'] < OP dauštā, nom. sg. of dauštar-. Nyberg's Pahlavi glossary (Part II, p.68) states the whole chain: 'dōst [dwst'] … 2. subst. friend … < *dauštā, nom. sg. of OP dauštar-; MPrs dwst (S); Paz. NP dōst; SW forms from Av. (1656) zaoš- „to enjoy“'; MacKenzie p.27: 'dōst [dwst' | = M, N ~] friend. ~īh: friendship, love.' Phonetically: the Old Persian diphthong au is monophthongised to ō in Middle Persian, the cluster -št- is simplified to -st-, and the nominative ending is lost; New Persian keeps dōst unchanged and writes it دوست with the historical wāw (later pronounced dūst). The initial d- rather than z- shows that the word is a genuine south-western (Persid) inheritance, not a borrowing from a Median or Avestan dialect. Horn's no. 582, on the very page Nourai cites, gives 'ap. daustar- „Freund“; aw. vergl. zaoša- „Wunsch“; phlv. dōst, dōstīh'.",
+     "derivation_fa": "«دوست» فارسی نو از فارسی میانهٔ dōst (املای پهلوی dwst') می‌آید و آن از dauštā، فاعلیِ مفردِ dauštar- پارسی باستان. نیبرگ در واژه‌نامهٔ پهلوی (بخش دوم، ص ۶۸) همهٔ زنجیره را می‌آورد: «dōst … از *dauštā، فاعلیِ مفردِ dauštar- پارسی باستان؛ صورت‌های جنوب‌غربی از ستاکِ اوستاییِ zaoš- „خشنود شدن“»؛ مکنزی نیز (ص ۲۷): «dōst [dwst'] دوست؛ dōstīh دوستی». از نظر آوایی: مصوّت مرکّبِ au در پارسی باستان در فارسی میانه به ō تک‌آوا شده، خوشهٔ ‑št‑ به ‑st‑ ساده شده و پایانهٔ فاعلی افتاده است؛ فارسی نو همان dōst را نگاه داشته و آن را با «واو» تاریخی می‌نویسد (تلفظ متأخرِ dūst). حضورِ «د» به‌جای «ز» در آغاز نشان می‌دهد که واژه میراثِ اصیلِ گویشِ جنوب‌غربی (پارسی) است نه وام از مادی یا اوستایی. هرن در بند ۵۸۲، در همان صفحهٔ ۱۳۰ که نورایی ارجاع داده، می‌نویسد: «ap. daustar- „Freund“؛ aw. zaoša- „Wunsch“؛ phlv. dōst, dōstīh». ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B3%D8%AA"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:130",
+       "status": "supports",
+       "note": "HRN.txt leaf 152 opens with the running page number '- 130 -' and carries entry 582: 'dōst „Freund“, dōstār, dōstī. ap. daustar- „Freund“; aw. vergl. zaoša- „Wunsch“; phlv. dōst, dōstīh, vergl. dōs(i)st, dōšak; ai. vergl. joṣa-. … np. dōst ist allgemein entlehnt.' Exactly the arrow drawn."
+      },
+      {
+       "ref": "BQT:897",
+       "status": "supports",
+       "note": "BQT_v2_pages.txt leaf 357 (= printed 897 on the vol-2 offset printed = leaf + 540, which puts leaf 0 at ~p.540 and the last leaf at ~p.1223, matching the recorded range for vol 2) carries the headword 'دوست = بروزن پوست، بمعنی محب و بکدل و بک رنگ' with Mo'in's footnote 1: 'پهلوی dōst … از *dauštar، از پارسی باستان dauštar-، «بارتولمه ۶۹۰…»، «اسشق ۲۸۵»، ورک: هوبشمان'. Mo'in's note is precisely Nourai's derivation."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 27 s.v. dōst (PHD.txt leaf 48)",
+       "stance": "supports",
+       "note": "'dōst [dwst' | = M, N ~] friend. ~īh: friendship, love.' — the Middle Persian link of the chain, with the Manichaean and New Persian forms identical."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II (Glossary) p. 68 s.v. dōst (NYB_vol2_glossary.txt line 1318)",
+       "stance": "supports",
+       "note": "'dōst [dwst'] 1. adj. kind, friendly …; 2. subst. friend … — < *dauštā, nom. sg. of OP daustar-; MPrs dwst (S); Paz. NP dōst; SW forms from Av. (1656) zaoš- „to enjoy“; cf. dōšaram.'"
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *zauš, MP and NWIR sections (CHEUNG.txt line 30549 ff.)",
+       "stance": "supports",
+       "note": "'*MIDDLE PERSIAN: BMP dwš- /dōš-/ „to love, like, choose ?“, MMP dwst, BMP dwst /dōst/ „loving; friend“ … *NWIR: NP dōst „friend“ (also dōst dāštan „to love“).'"
+      },
+      {
+       "src": "ARY",
+       "where": "printed p. ~288 (ARY_latin_index_pages.txt line 8285, pdf page 287)",
+       "stance": "supports",
+       "note": "Aryanpur's cognate table gives 'ZAOSH, ZAOSHO, ZUSHTO :(AVESTAN)', 'DAUSHTAR, DAUSH- :(OLD PERSIAN)', 'DOST :(PAHLAVI)', 'DOST, DAUSHTA, DOSHIDAN', beside Gothic KAUSJAN/KIUSAN, OE CEOSAN → CHOOSE and Latin DEGUNO, GUSTUS — an independent modern Persian source reproducing Nourai's whole chart."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Germanic",
+     "words": "kiusan",
+     "verdict": "confirmed",
+     "derivation": "Gothic kiusan / Proto-Germanic *keusaną 'to test, choose' is the regular Germanic reflex of PIE *ǵews-: centum *g- > Grimm *k-, e-grade *ǵews- > *keus-. The semantic step is the one Pokorny describes for Germanic and Celtic, 'to judge by tasting' > 'to choose'. Watkins/AHD: 'geus-. To taste, choose. 1. Germanic *keusan in: a. Old English céosan, ceosan, to choose: CHOOSE. b. Gothic *kausjan, to choose: CHOICE.' The causative-iterative Goth. kausjan 'to test, taste' (= Skt. joṣayate) shows the o-grade of the same root, and the zero-grade *gus- gives Goth. kustus, OHG kust 'test, choice'. Nourai's spelling kiusan is the Gothic form rather than a reconstructed Proto-Germanic one, but that is the shape Pokorny and Walde-Pokorny print too.",
+     "derivation_fa": "kiusan گوتی (ژرمنی آغازین *keusaną) «آزمودن، برگزیدن» بازتاب قاعده‌مندِ *ǵews- هندواروپایی است: *ǵ کامی در شاخهٔ کنتوم به g و سپس با قانون گریم به k بدل می‌شود و درجهٔ e‑دارِ *ǵews- به *keus- می‌رسد. تحول معنایی همان است که پوکورنی برای ژرمنی و سلتی توصیف می‌کند: «با چشیدن سنجیدن» ← «برگزیدن». واتکینز: «geus-. To taste, choose. Germanic *keusan in Old English cēosan: CHOOSE؛ Gothic *kausjan: CHOICE». صورتِ سببیِ گوتیِ kausjan «آزمودن، چشیدن» درجهٔ o‑دارِ همین ریشه است و درجهٔ صفر *gus- به kustus گوتی و kust آلمانی علیای کهن «آزمون، گزینش» می‌رسد. آنچه نورایی نوشته صورت گوتی است نه بازسازیِ ژرمنی آغازین، اما پوکورنی و والده‑پوکورنی هم همین را چاپ کرده‌اند. ادعا درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5ews-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 501: 'geus-. To taste, choose. 1. Germanic *keusan in: a. Old English céosan, cedsan, to choose: CHOOSE. b. Gothic *kausjan, to choose: CHOICE.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 399 f. (POK_full.txt line 35712)",
+       "stance": "supports",
+       "note": "'Gothic kiusan „assay, try, test, check“, Old Norse kjósa „choose, wish“, Old High German Old Saxon kiosan „taste, assay, try, choose“, MHG kiesen, Kaus.-Iter. Gothic kausjan „assay, try, taste“ (= Old Indic joṣayate).'"
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 568 (WLD_Bd1 djvu line 35789)",
+       "stance": "supports",
+       "note": "'got. kiusan „prüfen, erproben“, anord. kjósa „wählen, wünschen“, ahd. as. kiosan „schmecken, prüfen, wählen“, nhd. kiesen, küren.'"
+      },
+      {
+       "src": "KLN",
+       "where": "p. 282 f. s.v. choose (KLN_1966.txt leaf 159, page markers 282/283)",
+       "stance": "supports",
+       "note": "'rel. to OS., OHG. kiosan, ON. kjósa, OFris. kiasa, Du. kiezen, MHG., G. kiesen, Goth. kiusan, „to choose“ … fr. I.-E. base *geus-, *gus-, „to taste, enjoy by tasting“ … Avestic zaosh-, „to find delicious“.'"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "choose, choice",
+     "verdict": "confirmed",
+     "derivation": "Two different routes, both from the same Germanic root, which is why Nourai boxes them together. CHOOSE is inherited: OE cēosan > ME chesen/chusen > NE choose, with regular palatalisation of initial c- to ch- and levelling of the Verner alternation (OE past pl. curon, ptc. coren, whence the -s- of the modern verb was generalised). CHOICE is borrowed: Old French chois (noun to choisir 'to choose'), which is itself a Frankish/Gothic loan into Gallo-Romance from Germanic *kausjan; it entered Middle English in the 13th century as chois and was later re-spelled choice. Klein pp.282-283 s.v. choose: 'F. choisir, „to choose“, OProvenç. causir, „to look at“, OSlav. kusiti, „to taste, try“, are Goth. loan words. Cp. choice.' Watkins likewise files CHOOSE under Germanic *keusan and CHOICE under Gothic *kausjan. The node carries no citation of its own in the book, but the chain is uncontroversial.",
+     "derivation_fa": "دو راهِ متفاوت از یک ریشهٔ ژرمنی، و به همین سبب نورایی هر دو را در یک جعبه گذاشته است. choose میراثی است: cēosan انگلیسی کهن ← chesen/chusen انگلیسی میانه ← choose، با کام‌شدگیِ قاعده‌مندِ c آغازین به ch و یکدست‌شدنِ تناوبِ ورنر (گذشتهٔ جمعِ curon و صفت مفعولیِ coren، که سرانجام «س» بر همه چیره شد). اما choice وام‌واژه است: از chois فرانسهٔ کهن (اسم از choisir «برگزیدن») که خودش وامی است از ژرمنی (*kausjan گوتی) در گالو‑رومی، و در سدهٔ سیزدهم به انگلیسی میانه به شکل chois رسیده و بعدها choice نوشته شده است. کلاین (ص ۲۸۲–۲۸۳): «F. choisir، OProvenç. causir، OSlav. kusiti وام‌واژه‌های گوتی‌اند. رک: choice». واتکینز نیز choose را زیر *keusan و choice را زیر *kausjan گوتی می‌آورد. این گره در کتاب ارجاعی ندارد، ولی زنجیره‌اش بی‌مناقشه است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5ews-"
+     ],
+     "ref_check": [
+      {
+       "ref": "none",
+       "status": "not_checked",
+       "note": "the node carries no reference in the book (refs=None); checked against Klein p.282 f. and Watkins instead, both recorded under 'consulted'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "pp. 282-283 s.v. choose (KLN_1966.txt leaf 159)",
+       "stance": "supports",
+       "note": "'choose, tr. and intr. v. — ME. cheosen, chesen, chusen, fr. OE. ceosan … Goth. kiusan, „to choose“ … fr. I.-E. base *geus-, *gus-, „to taste, enjoy by tasting“ … Cp. choice. Cp. also gust, „relish“, disgust.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, English index (AHD_watkins1985.txt line 1357)",
+       "stance": "supports",
+       "note": "'CHOICE geus- … CHOOSE geus-'."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "gustus; dis-goust",
+     "verdict": "plausible",
+     "derivation": "The first word is right, the second is misfiled. Latin gustus, -ūs m. 'a tasting, taste, relish' is the suffixed zero-grade *ǵus-tu- of the root (Watkins: 'Suffixed zero-grade form *gus-tu- in: a. Latin gustus, taste: GUST², GUSTO; DISGUST, RAGOUT; b. Latin gustāre, to taste: DEGUST'), with the denominative verb gustāre built on the participle *ǵus-to-. But 'dis-goust' is not a Latin word: it is the Middle French noun desgoust (modern dégoût), formed in French from des- (< Latin dis-) plus goust 'taste' (< Latin gustus), beside the verb desgouster (< Vulgar Latin *disgustāre from gustāre). Klein s.v. disgust: 'Earlier F. desgouster (F. dégoûter), „to disgust“, fr. des- (fr. L. dis-) and gouster (F. goûter), „to taste“, fr. L. gustāre'; and the noun 'Earlier F. desgoust (F. dégoût), fr. desgouster'. So the box should read Latin gustus / gustāre with a separate French desgoust node under it; as drawn, a French form wears a Latin label. Everything else in the box is correct, hence 'plausible' rather than 'disputed'.",
+     "derivation_fa": "واژهٔ نخست درست است و دومی سرِ جای خود نیست. gustus لاتینی «چشیدن، مزه، ذائقه» همان درجهٔ صفرِ پسونددارِ *ǵus-tu- است (واتکینز: «*gus-tu- در لاتینِ gustus: GUST, GUSTO, DISGUST, RAGOUT؛ و gustāre: DEGUST»)، و فعلِ اسم‌بنیادِ gustāre بر صفت مفعولیِ *ǵus-to- ساخته شده است. اما «dis-goust» واژه‌ای لاتینی نیست: صورتِ فرانسهٔ میانهٔ desgoust (فرانسهٔ امروز dégoût) است که در خودِ فرانسه از des- (بازماندهٔ dis- لاتینی) و goust «مزه» (از gustus) ساخته شده، در کنار فعلِ desgouster (از *disgustāre لاتینیِ عامیانه). کلاین در مدخل disgust: «Earlier F. desgouster … fr. des- (fr. L. dis-) and gouster … fr. L. gustāre» و برای اسم: «Earlier F. desgoust (F. dégoût), fr. desgouster». پس درست آن بود که جعبه gustus/gustāre لاتینی را داشته باشد و desgoust فرانسوی گرهی جداگانه زیر آن باشد؛ چنان‌که هست، صورتی فرانسوی برچسبِ «لاتین» خورده است. چون باقیِ جعبه درست است، حکم «با احتیاط پذیرفتنی» است نه رد.",
+     "sources": [
+      "https://www.etymonline.com/word/disgust",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5ews-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:377",
+       "status": "not_checked",
+       "note": "AHD:377 is a page of the main New College Edition dictionary (the alphabetical d- section, where 'disgust' falls), not of the IE appendix; no copy of that edition is available here (archive.org copies are lending-only). The claim it is meant to support is however exactly what Watkins' appendix says at geus-: 'Suffixed zero-grade form *gus-tu- in: a. Latin gustus, taste: GUST², GUSTO; DISGUST, RAGOUT' — recorded under 'consulted'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, g-list (AHD_watkins1985.txt line 501)",
+       "stance": "partial",
+       "note": "'3. Suffixed zero-grade form *gus-tu- in: a. Latin gustus, taste: (GUST²), GUSTO; DISGUST, RAGOUT; b. Latin gustāre, to taste: DEGUST.' Confirms gustus and the route to DISGUST, but routes it through Latin gustāre + French, never through a Latin *disgustus."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. disgust (KLN_1966.txt leaf 251) and s.v. gust 'relish' (leaf 371, pp. 688-689)",
+       "stance": "contradicts",
+       "note": "'disgust, tr. v. — Earlier F. desgouster (F. dégoûter), „to disgust“, fr. des- (fr. L. dis-) and gouster (F. goûter), „to taste“, fr. L. gustāre'; 'disgust, n. — Earlier F. desgoust (F. dégoût), fr. desgouster'; 'gust, n., relish. — L. gustus, „tasting, taste“. See choose.' Klein makes desgoust French, not Latin."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 399 f. (POK_full.txt line 35720)",
+       "stance": "supports",
+       "note": "'of tu-: Latin gustus, -ūs „a tasting of food … taste, flavor“ … derivative of participle *ǵus-tos: Latin gustō, -āre „taste, eat, drink“.' — Latin gustus yes; no *disgustus anywhere."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet (LAT.txt, grep 'gust')",
+       "stance": "silent",
+       "note": "the local OCR of Ernout-Meillet returns only angustus/augustus; the g- fascicle is not in this scan, so no independent Latin-dictionary check was possible."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "disgust",
+     "verdict": "confirmed",
+     "derivation": "English disgust (verb and noun, both from the 1590s) is borrowed from earlier French: the verb from desgouster 'to put off the taste of, to displease', the noun from desgoust 'strong dislike, distaste' (modern dégoût), themselves built in French on goust/goûter < Latin gustus/gustāre 'taste'. The English sense 'repugnance excited by something offensive' develops out of the literal 'distaste' during the 17th century. Etymonline gives exactly this chain and traces it to PIE *geus- 'to taste; to choose'; Klein the same. The arrow from the (Latin) box is therefore right in substance — English disgust does go back to Latin gustus — but it passes through French, which the chart does not show.",
+     "derivation_fa": "disgust انگلیسی (فعل و اسم، هر دو از دههٔ ۱۵۹۰) وامی است از فرانسه: فعل از desgouster «بی‌ذوق کردن، ناخوش آمدن» و اسم از desgoust «بیزاری، بدمزگی» (فرانسهٔ امروز dégoût)، که خودشان در فرانسه بر goust/goûter (از gustus/gustāre لاتینی) ساخته شده‌اند. معنای امروزیِ «نفرت از چیزِ زننده» در سدهٔ هفدهم از همان «بدمزگی» تحول یافته است. اتیمانلاین همین زنجیره را می‌دهد و آن را به ریشهٔ *geus- «چشیدن، برگزیدن» می‌رساند؛ کلاین نیز همین. پس پیکانِ این گره در اصل درست است — disgust انگلیسی سرانجام به gustus لاتینی می‌رسد — اما راهش از فرانسه می‌گذرد و نمودار این حلقه را نشان نداده است.",
+     "sources": [
+      "https://www.etymonline.com/word/disgust"
+     ],
+     "ref_check": [
+      {
+       "ref": "none",
+       "status": "not_checked",
+       "note": "the node carries no reference in the book (refs=None); checked against Klein s.v. disgust and Etymonline, recorded under 'consulted'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. disgust (KLN_1966.txt leaf 251)",
+       "stance": "supports",
+       "note": "'disgust, tr. v. — Earlier F. desgouster (F. dégoûter) … fr. des- (fr. L. dis-) and gouster (F. goûter), „to taste“, fr. L. gustāre, of s.m. See gust, „relish“, and cp. degust.'"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, English index (AHD_watkins1985.txt line 1418)",
+       "stance": "supports",
+       "note": "'DISGUST geus-'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 4,
+   "root": "Ghaido",
+   "verdict": "confirmed",
+   "modern_form": "PIE *gʰaidos (Pokorny ghaido- / ĝhaido-) 'goat, he-goat'",
+   "note": "The root box itself is right: Pokorny IEW 409-410 'ghaido- or ĝhaido- | Meaning: goat | Material: Latin haedus „a young goat, a kid“ …; Gothic gaits and Old High German geiz, Old Icelandic geit, Old English gāt, Old Saxon gēt „goat“ …'; Walde-Pokorny I 527 f. the same; Watkins 'ghaido-. A goat. Germanic *gaitaz in Old English gāt, goat: GOAT. [Pok. ghaido- 409.]'. What is not right is the shape of the tree hung under it. Pokorny, Walde-Pokorny, Watkins and Klein all know only two branches, Italic (haedus) and Germanic (*gaits); none of them lists an Armenian or an Iranian descendant, and Nourai's Persian and Armenian boxes rest solely on Gupta's CEL 5:7, a work that is not digitised anywhere and cannot be checked. Persian zāq and Armenian ձագ jag are real words with a real connection to each other, but they belong to a different (and probably non-Indo-European) group — Sogdian zāk 'child', Albanian zog 'nestling', Aramaic zāḡā — and cannot come from *gʰaidos on any regular sound law, since a stem in -d- cannot yield Persian -q or Armenian -g. Wiktionary's current entry on *gaits goes further and, following Bjørn, doubts a PIE origin for the Germanic word altogether, comparing Proto-Semitic *gady- and Proto-Berber *e-ɣăyd; that is a minority view and does not touch Nourai's root box, which faithfully reproduces his source.",
+   "note_fa": "خودِ جعبهٔ ریشه درست است: پوکورنی (ص ۴۰۹–۴۱۰) ریشهٔ ghaido- / ĝhaido- «بز» را با گواهانِ haedus لاتینی «بزغاله» و gaits گوتی، geiz آلمانی علیای کهن، gāt انگلیسی کهن می‌آورد؛ والده‑پوکورنی (۱: ۵۲۷) و واتکینز («ghaido-. A goat. Germanic *gaitaz in Old English gāt: GOAT») نیز همین. آنچه درست نیست، شکلِ درختی است که زیر این ریشه کشیده شده. پوکورنی، والده‑پوکورنی، واتکینز و کلاین تنها دو شاخه می‌شناسند: ایتالیایی (haedus) و ژرمنی (*gaits)؛ هیچ‌کدام بازماندهٔ ارمنی یا ایرانی نمی‌آورند، و جعبه‌های «فارسی» و «ارمنی»ِ نورایی تنها بر CEL 5:7 (گوپتا) تکیه دارند که هیچ نسخهٔ دیجیتالی از آن در دسترس نیست. «زاق» فارسی و ձագ (jag) ارمنی واژه‌هایی واقعی‌اند و با هم پیوند دارند، اما به گروهِ دیگری تعلق دارند — zāk سغدی «کودک»، zog آلبانیایی «جوجه»، zāḡā آرامی — و با هیچ قانونِ آواییِ منظمی از *gʰaidos برنمی‌آیند، چون ستاکی با ‑d‑ نه «ق» فارسی می‌دهد نه ‑g ارمنی. ویکی‌واژه امروز حتی پا را فراتر می‌گذارد و به پیروی از بیورن در هندواروپایی‌بودنِ خودِ واژهٔ ژرمنی هم تردید می‌کند و آن را با *gady- سامی آغازین و *e-ɣăyd بربری می‌سنجد؛ این دیدگاهی اقلیتی است و به جعبهٔ ریشهٔ نورایی، که وفادارانه مأخذش را بازمی‌گوید، آسیبی نمی‌زند.",
+   "sources": [
+    "https://www.etymonline.com/word/goat",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gaits",
+    "https://en.wiktionary.org/wiki/%D5%B1%D5%A1%D5%A3"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:409",
+     "status": "supports",
+     "note": "POK_full.txt line 32248 ff.: 'Root / lemma: ghaido- or ĝhaido- | Meaning: goat | Material: Latin haedus, -ī m. „a young goat, a kid“ … Gothic gaits and Old High German geiz, Old Icelandic geit, Old Swedish get, Old English gāt, Old Saxon gēt (consonant stem) „goat“ … References: WP. I 527 f., WH. I 632, 868. Page(s): 409-410.' The root name, language label and gloss are exactly as Nourai prints them; the page has no Armenian and no Iranian material."
+    },
+    {
+     "ref": "CEL5:7",
+     "status": "not_checked",
+     "note": "S. K. Gupta, A Comparative Etymologic Lexicon of Common Indo-European Words, vol. 5 p.7 — refs_online.json records it as 'catalogue only; the 1997 Sverge Haus printing is not digitised anywhere found' (HathiTrust copies are search-only). This is the only authority Nourai gives for the Persian and Armenian branches, so those two arrows rest on an unverifiable source."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 527 f. (WLD_Bd1 djvu line 33164)",
+     "stance": "supports",
+     "note": "'ghaido- oder ĝhaido- „Ziegenbock, Ziege“. Lat. haedus „Böckchen, junger Ziegenbock“ …; got. gaits und ahd. geiz f., aisl. geit f., aschw. get f., ags. gāt f., as. gēt f. (konsonant. Stämme) „Ziege“. Von ghaido- abgeleitet *ghaideinos: lat. haedinus …' — two branches only, Italic and Germanic."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, g-list (AHD_watkins1985.txt line 505) and p. 166 of the introduction",
+     "stance": "supports",
+     "note": "'ghaido-. A goat. Germanic *gaitaz in Old English gāt, goat: GOAT. [Pok. ghaido- 409.]'; and in the essay on IE culture: 'the names for all the familiar domesticated animals … aig- and ghaido-, „goat“'."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 3.36 GOAT (SYN.txt lines 4470, 4484)",
+     "stance": "supports",
+     "note": "'Goth. gaits, ON geit, OE gāt, etc., a general Gmc. word: Lat. haedus „kid“; perh. Lith. žaidžiu, žaisti „play“ as orig. „jump, gambol“. Walde-P. 1.527.' Buck's Avestan/Sanskrit column under 'goat' has aja-/buza-, not anything from this root."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "zâq «زاق»; zâq-dân «زاقدان»",
+     "verdict": "disputed",
+     "derivation": "Both Persian words are real and the glosses are right — Mo'in s.v. زاق '(اِ.) بچهٔ هر چیز' and Dehkhoda 'بچه هر چیز را گویند'; زاقدان 'بچه‌دان، زهدان', Dehkhoda 'قرارگاه نطفه در شکم که آن را زهدان نیز گویند و به تازی رحم خوانند', so 'womb' is exact, and the compound is transparently zāq 'young' + the container suffix -dān (< Iranian *-dāna-, root dā- 'to place', PIE *dʰeh₁-, which is why Nourai cross-refers to his root Dhē 2). What is wrong is the parentage. زاق cannot descend from *gʰaidos: a PIE stem in *-d- gives Iranian -d-, never -q, and PIE *gʰ- gives Iranian g- (a palatal *ǵʰ- would give z- but then the -d- remains). The word belongs instead to a well-known but etymologically unsettled cluster — Armenian ձագ jag 'young of an animal, nestling', Sogdian zāk 'child', Albanian zog 'bird, nestling', Classical Syriac zāggā — for which Wiktionary (following Ačaṙyan and Olsen) offers either a PIE root 'of the unusual shape *ǵʰāgʰ-' or, judged 'more likely', a borrowing from Aramaic zāḡā 'young cock or hen'. Neither option is *gʰaidos 'goat'. Nourai's only authority is Gupta CEL 5:7, which cannot be consulted.",
+     "derivation_fa": "هر دو واژهٔ فارسی واقعی‌اند و معناهایی که نورایی داده درست است: معین ذیل «زاق» می‌آورد «(اِ.) بچهٔ هر چیز» و دهخدا «بچهٔ هر چیز را گویند»؛ و «زاقدان» را معین «بچه‌دان، زهدان» و دهخدا «قرارگاه نطفه در شکم که آن را زهدان نیز گویند و به تازی رحم خوانند» — پس معنای «womb» دقیق است و ترکیب هم روشن است: زاق «بچه» + پسوندِ ظرفِ ‑دان (از ایرانیِ *‑dāna-، از ستاکِ dā- «نهادن»، هندواروپاییِ *dʰeh₁-، و از همین رو نورایی به ریشهٔ Dhē 2 ارجاع می‌دهد). آنچه نادرست است نسبِ واژه است. «زاق» نمی‌تواند از *gʰaidos بیاید: ستاکی با *‑d‑ هندواروپایی در ایرانی ‑d‑ می‌دهد نه «ق»، و *gʰ‑ آغازین در ایرانی g می‌شود (اگر *ǵʰ‑ کامی باشد z می‌دهد، اما آنگاه ‑d‑ سرِ جایش می‌ماند). این واژه در حقیقت به خوشه‌ای شناخته اما ریشه‌شناسی‌نشده تعلق دارد: ձագ (jag) ارمنی «بچهٔ جانور، جوجه»، zāk سغدی «کودک»، zog آلبانیایی «جوجه»، zāggā سریانی؛ ویکی‌واژه (به پیروی از آچاریان و اولسن) یا ریشه‌ای هندواروپایی با ساختِ نامعمولِ *ǵʰāgʰ- پیشنهاد می‌کند یا — که آن را «محتمل‌تر» می‌داند — وام‌گیری از zāḡā آرامی «جوجه‌خروس». هیچ‌یک *gʰaidos «بز» نیست. تنها مأخذ نورایی CEL 5:7 گوپتاست که در دسترس نیست. پژوهش امروزی این پیکان را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D5%B1%D5%A1%D5%A3",
+      "https://abadis.ir/fatofa/%D8%B2%D8%A7%D9%82/",
+      "https://abadis.ir/fatofa/%D8%B2%D8%A7%D9%82%D8%AF%D8%A7%D9%86/"
+     ],
+     "ref_check": [
+      {
+       "ref": "CEL5:7",
+       "status": "not_checked",
+       "note": "Gupta's Comparative Etymologic Lexicon is catalogue-only (refs_online.json: 'the 1997 Sverge Haus printing is not digitised anywhere found'); HathiTrust holds only search-only volumes. Nourai's single authority for this arrow therefore cannot be examined."
+      },
+      {
+       "ref": "MON:1712",
+       "status": "supports",
+       "note": "Mo'in's Farhang-e Farsi s.v. زاق, read via abadis.ir/fatofa/زاق (the 6-vol pagination cannot be checked online, but the entry exists and reads exactly as Nourai glosses it): '(اِ.) بچهٔ هر چیز'; and s.v. زاقدان: 'بچه‌دان، زهدان'. Mo'in gives no origin tag at all — no [په.], no [ع.] — so he supports the word and the gloss but says nothing about the etymology Nourai draws."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Farhang-e Mo'in s.v. زاق and زاقدان (abadis.ir)",
+       "stance": "partial",
+       "note": "'(اِ.) بچة هر چیز' / 'بچه دان ، زهدان' — the words and glosses are confirmed, the etymology is not addressed."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol. 2 (BQT_v2_pages.txt, grep 'زاق')",
+       "stance": "silent",
+       "note": "no usable زاق entry surfaced in the OCR of the volume; Mo'in's etymological footnotes therefore give nothing for or against."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 409 f. (POK_full.txt line 32248 ff.)",
+       "stance": "contradicts",
+       "note": "the whole ghaido- entry lists only Latin haedus, Albanian dhi(a) and the Germanic words; there is no Iranian reflex, and Pokorny even devotes a paragraph to rejecting further additions to the root."
+      },
+      {
+       "src": "HRN",
+       "where": "Grundriss (HRN.txt, grep 'zāq', 'zaq')",
+       "stance": "silent",
+       "note": "Horn has no entry for زاق, i.e. he does not treat it as an inherited Iranian word."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Armenian",
+     "words": "jag",
+     "verdict": "disputed",
+     "derivation": "Armenian ձագ (jag) 'young of an animal, nestling, chick' is a real and common word, and Nourai's gloss 'young beast' is fair. Its connection to Persian زاق is also real — Wiktionary's entry says the word is 'usually compared to Albanian zog („bird; nestling“), Persian زاق (zâq, „the young of anything“), Sogdian zāk („child“) and Classical Syriac zāggā'. But that is a comparison within an obscure regional cluster, not a descent from *gʰaidos. The two hypotheses actually on offer are (a) inheritance from a PIE root 'of the unusual shape *ǵʰāgʰ-' — which would give Armenian j- and a velar in the coda, as required, but has no other IE support — and (b) borrowing from Aramaic zāḡā 'young cock or hen', which Wiktionary judges 'more likely' and which also explains why the Iranian form has z- where an Iranian loan into Armenian would have given զ- (z-) rather than ձ- (j-). Neither hypothesis involves 'goat'. Formally, *gʰaidos would give Armenian *j-ayd- or *g-ayd-, never jag: the dental of the root has no way to become -g. Pokorny, Walde-Pokorny, Watkins, Klein and Buck list no Armenian reflex of ghaido- at all; Walde-Pokorny mentions Armenian only in the neighbouring discussion of tik 'skin bag'.",
+     "derivation_fa": "ձագ (jag) ارمنی «بچهٔ جانور، جوجه» واژه‌ای واقعی و پرکاربرد است و معنایی که نورایی داده («young beast») بجاست. پیوندش با «زاق» فارسی هم واقعی است؛ ویکی‌واژه می‌نویسد این واژه «معمولاً با zog آلبانیایی „پرنده، جوجه“، زاقِ فارسی „بچهٔ هر چیز“، zāk سغدی „کودک“ و zāggā سریانی سنجیده می‌شود». اما این سنجشی است درونِ خوشه‌ای مبهم و منطقه‌ای، نه فرودآمدن از *gʰaidos. دو فرضیهٔ موجود اینهاست: نخست، میراث از ریشه‌ای هندواروپایی با ساختِ نامعمولِ *ǵʰāgʰ- که j ارمنی و انسدادیِ نرم‌کامیِ پایانی را توضیح می‌دهد ولی گواهِ هندواروپاییِ دیگری ندارد؛ دوم، وام‌گیری از zāḡā آرامی «جوجه‌خروس» که ویکی‌واژه آن را «محتمل‌تر» می‌داند و توضیح می‌دهد چرا اگر واژه وامِ ایرانی می‌بود باید در ارمنی զ (z) می‌داشت نه ձ (j). هیچ‌کدام به «بز» ربطی ندارد. از نظر صوری نیز *gʰaidos در ارمنی *jayd- یا *gayd- می‌داد نه jag؛ دندانیِ ریشه به هیچ راهی g نمی‌شود. پوکورنی، والده‑پوکورنی، واتکینز، کلاین و باک هیچ بازماندهٔ ارمنی برای ghaido- نمی‌آورند. پژوهش امروزی این پیکان را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D5%B1%D5%A1%D5%A3"
+     ],
+     "ref_check": [
+      {
+       "ref": "CEL5:7",
+       "status": "not_checked",
+       "note": "Gupta, CEL vol. 5 p.7 — not digitised (refs_online.json 'catalog' entry, HathiTrust search-only), so Nourai's authority for the Armenian branch cannot be examined."
+      },
+      {
+       "ref": "MON:1712",
+       "status": "not_found",
+       "note": "Mo'in's dictionary is cited here for an Armenian headword; the Farhang-e Farsi entry at زاق (read via abadis.ir) carries no Armenian comparison and no origin tag, so the citation does not support the Armenian box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 409 f. (POK_full.txt line 32248 ff.)",
+       "stance": "contradicts",
+       "note": "no Armenian appears under ghaido-; the only Armenian word mentioned in the article is tik 'hose (from goatskin)', and it is expressly attached to a different comparison (gr. δίζα)."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 527 f. (WLD_Bd1 djvu line 33186)",
+       "stance": "contradicts",
+       "note": "'… vielmehr als Auslautsdublette zu gr. δίζα · αἶξ. Λάκωνες (Hes.) < *digi̯a, arm. tik „Schlauch“ zu stellen' — the one Armenian item in the entry, and it is not jag."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 3.36-3.38 (SYN.txt line 4470)",
+       "stance": "silent",
+       "note": "Buck's table for GOAT / HE-GOAT / KID has no Armenian column entry connected to this root."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Germanic",
+     "words": "gât",
+     "verdict": "confirmed",
+     "derivation": "The word and the arrow as PRINTED are correct: on the page the Germanic box hangs directly off the root box, at the same indentation and off the same vertical rule as the Armenian box, i.e. it is a sibling of Armenian jag, not its child. (The extracted JSON gives node 3 parent = 2, which the printed chart does not; see error_in below.) Germanic *gaits / OE gāt 'she-goat' is the regular reflex of PIE *gʰaidos: PIE *gʰ > Germanic *g by Grimm's Law, and the *-d- of the stem > Germanic *-t-, giving the consonant-stem feminine attested as Gothic gaits, OHG geiz, ON geit, OSw. get, OE gāt, OS gēt. Latin haedus is the Italic match (PIE *gʰ > Latin h-). Watkins, at the page Nourai cites for this box: 'ghaido-. A goat. Germanic *gaitaz in Old English gāt, goat: GOAT.' Klein p.666 f. s.v. goat: 'fr. I.-E. base *ghaido-, „kid, goat“, whence also L. haedus.' No source routes the Germanic word through Armenian, so had the book really drawn that arrow it would have been wrong; it does not.",
+     "derivation_fa": "خودِ واژه و پیکانی که در کتاب چاپ شده درست است: در صفحهٔ چاپی، جعبهٔ «ژرمنی» مستقیماً از جعبهٔ ریشه آویخته و با همان تورفتگی و از همان خطِ عمودیِ جعبهٔ «ارمنی» بیرون آمده، یعنی هم‌ردیفِ jag ارمنی است نه فرزندِ آن. (دادهٔ استخراج‌شده برای این گره parent = 2 گذاشته که در صفحهٔ چاپی چنین نیست؛ رک: error_in.) *gaits ژرمنی و gāt انگلیسی کهن «بز ماده» بازتابِ قاعده‌مندِ *gʰaidos است: *gʰ هندواروپایی با قانون گریم به g ژرمنی و *‑d‑ ستاک به ‑t‑ بدل می‌شود و ستاکِ صامتیِ مؤنث را می‌دهد که در گوتیِ gaits، آلمانی علیای کهنِ geiz، نُرسیِ geit، انگلیسی کهنِ gāt و ساکسون کهنِ gēt بازمانده است؛ haedus لاتینی همتای ایتالیایی آن است (*gʰ ← h لاتینی). واتکینز در همان صفحه‌ای که نورایی برای این جعبه ارجاع داده: «ghaido-. A goat. Germanic *gaitaz in Old English gāt: GOAT». کلاین (ص ۶۶۶): «fr. I.-E. base *ghaido-, „kid, goat“, whence also L. haedus». هیچ مأخذی واژهٔ ژرمنی را از راه ارمنی نمی‌آورد؛ اگر کتاب چنین پیکانی کشیده بود نادرست می‌بود، ولی نکشیده است. خطای خوانشِ اسکن.",
+     "error_in": "extraction",
+     "book_prints": "the Germanic box hangs directly from the root box, at the same indent level as the Armenian box (both branch off the same vertical rule, arrowheads aligned); it is a sibling of Armenian jag, not its child",
+     "correct_form": "node 3 (Germanic gât) should have parent 0, not parent 2",
+     "sources": [
+      "https://www.etymonline.com/word/goat",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gaits"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1517",
+       "status": "supports",
+       "note": "the IE appendix of the AHD New College Edition occupies pp. 1505-1550 and ghaido- falls in the gh- run around p. 1517; the corresponding text in the standalone Watkins 1985 (AHD_watkins1985.txt line 505) reads 'ghaido-. A goat. Germanic *gaitaz in Old English gāt, goat: GOAT. [Pok. ghaido- 409.]' — Nourai's Germanic form, gloss and parentage (root → Germanic, not Armenian → Germanic) all from this line."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I 527 (WLD_Bd1 djvu line 33169)",
+       "stance": "supports",
+       "note": "'got. gaits und ahd. geiz f., aisl. geit f., aschw. get, gēt f., ags. gāt f., as. gēt f. (konsonant. Stämme) „Ziege“' directly under the lemma ghaido-."
+      },
+      {
+       "src": "KLN",
+       "where": "pp. 666-667 s.v. goat (KLN_1966.txt leaf 360)",
+       "stance": "supports",
+       "note": "'goat, n. — ME. goot, gote, fr. OE. gāt, rel. to OS. gēt, ON., Norw. geit, Swed. get, Dan. gjed, MDu. gheet, Du. geit, OHG., MHG. geiz, G. Geiß, Goth. gaits, „goat“, fr. I.-E. base *ghaido-, „kid, goat“, whence also L. haedus, „kid, young goat“.'"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 3.36 (SYN.txt line 4484)",
+       "stance": "supports",
+       "note": "'Goth. gaits, ON geit, OE gāt, etc., a general Gmc. word: Lat. haedus „kid“ … Walde-P. 1.527.'"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "goat",
+     "verdict": "confirmed",
+     "derivation": "OE gāt (fem., 'she-goat') > ME goot, gote > NE goat, with the regular Middle English lengthening/rounding of OE ā to ō and the modern spelling oa. In Old English gāt was specifically the female and bucca the male; the word became generic in Middle English. Etymonline: 'Old English gat „she-goat“, from Proto-Germanic *gaito …, from PIE *ghaid-o- „young goat“ … Latin haedus „kid“'. Klein and Watkins agree, and Watkins' English index prints 'GOAT ghaido-'. The Germanic → English arrow is uncontroversial.",
+     "derivation_fa": "goat انگلیسی از gāt انگلیسی کهن (مؤنث: «بز ماده») می‌آید: gāt ← goot/gote انگلیسی میانه ← goat، با کشش و گردشدگیِ قاعده‌مندِ ā انگلیسی کهن به ō در انگلیسی میانه و املای امروزیِ oa. در انگلیسی کهن gāt ویژهٔ ماده بود و نر را bucca می‌گفتند؛ در انگلیسی میانه واژه عام شد. اتیمانلاین: «Old English gat „she-goat“، از ژرمنی آغازینِ *gaito، از هندواروپاییِ *ghaid-o- „بزغاله“ … haedus لاتینی». کلاین و واتکینز نیز همین را می‌گویند و در نمایهٔ واژه‌های انگلیسیِ واتکینز آمده «GOAT ghaido-». پیکانِ ژرمنی ← انگلیسی بی‌مناقشه است و ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/goat"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 505 'ghaido-. A goat. Germanic *gaitaz in Old English gāt, goat: GOAT'; and the English index at line 1565: 'GOAT ghaido-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "pp. 666-667 s.v. goat (KLN_1966.txt leaf 360)",
+       "stance": "supports",
+       "note": "'goat, n. — ME. goot, gote, fr. OE. gāt …'"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 3.36 GOAT (SYN.txt line 4470)",
+       "stance": "supports",
+       "note": "Buck's table gives the English column 'OE gāt / ME gote / NE goat' in the same row as Goth. gaits and ON geit."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
