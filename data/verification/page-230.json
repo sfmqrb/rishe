@@ -1,0 +1,494 @@
+{
+  "pdf_page": 230,
+  "book_page": 200,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "J.b.r; Jabra",
+      "verdict": "plausible",
+      "modern_form": "Common (Proto-)Semitic root *g-b-r 'to be strong, prevail'; Aramaic/Syriac ḡəḇar 'was mighty', gaḇrā (emphatic st.) 'man'; Hebrew gāḇar / geḇer; Arabic ǧ-b-r (jabara 'to set a broken bone, restore, compel')",
+      "note": "The root itself is real and the gloss is broadly right, but the box conflates three things. (1) The FORM: Aramaic has g-, not j-. The Aramaic verb is gəḇar 'was mighty' and the noun gaḇrā 'man' (emphatic state of gaḇr); the shape J.b.r / Jabra is the ARABIC reflex, since Proto-Semitic *g regularly becomes Arabic ǧ (cf. Heb. gāmāl : Ar. jamal, Heb. gibbōr : Ar. jabbār). Nourai indexes the root under J because his root list is alphabetical in Latin script, but as an 'Aramaic' headword *Jabra does not exist. (2) The GLOSS: 'to reunite, join together' is the specifically Arabic sense of jabara (bone-setting, whence al-jabr); the Aramaic/Hebrew side of the root means only 'be strong, prevail', whence 'man, hero'. (3) The STRUCTURE: Klein 633, Nourai's own source, lists Hebrew, Aramaic-Syriac, Arabic, Akkadian and Ethiopic forms as 'the related words', i.e. as COGNATES of a common Semitic root, not as descendants of Aramaic; Wiktionary likewise makes Arabic jabara 'cognate with Biblical Hebrew גָּבַר'. So the arrows Aramaic→Arabic (#1) and Aramaic→Hebrew (#6) are sister-language relations, not borrowings. Only two links on this page are true Aramaic loans: Arabic/Persian جبروت jabarūt < Syriac gaḇrūṯā (#2), and Persian گبر gabr < Aramaic gaḇrā (#5). No extraction errors: the printed page (pdf 230 = book p. 200) shows exactly what the JSON has, including the garbled note '\"Jobrân\" is does not exist in Arabic.'",
+      "note_fa": "ریشه واقعی است ولی صورت آن در کتاب درست نوشته نشده است: ریشهٔ سامی مشترک *g-b-r «نیرومند بودن» است که در آرامی و عبری با g می‌ماند (آرامی gəḇar «نیرومند بود»، gaḇrā «مرد») و تنها در عربی به ج بدل می‌شود (مانند عبری gāmāl در برابر عربی جمل)؛ پس جعبهٔ «آرامی J.b.r / Jabra» درست‌نویسی نیست و باید g-b-r / gaḇrā می‌بود. معنای «پیوستن، شکسته‌بندی» نیز ویژهٔ فعل عربی جبر است و در آرامی و عبری تنها «نیرومندی» و از آن «مرد، پهلوان» دیده می‌شود. مهم‌تر آنکه کلاین (ص ۶۳۳)، همان مرجعی که نورایی آورده، صورت‌های عبری، آرامی، عربی، اکدی و حبشی را «واژه‌های خویشاوند» (هم‌ریشه) می‌خواند نه بازماندهٔ آرامی؛ بنابراین پیکان‌های «آرامی ← عربی» و «آرامی ← عبری» را باید رابطهٔ هم‌ریشگی خواند، نه وام‌گیری. در سراسر این صفحه فقط دو پیوند، وام‌گیری راستین از آرامی است: جبروت (< سریانی gaḇrūṯā) و گبر (< آرامی gaḇrā). خطای خوانش اسکن در این صفحه دیده نشد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1",
+        "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1%D9%88%D8%AA"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:633",
+          "status": "supports",
+          "note": "Klein 1966 s.v. 'Gabriel' (KLN_1966.txt leaf 342; the leaf spacing of the scan is ~1.9 printed pages per leaf, and 'algebra' at leaf 37 = p.48 and 'cherub' at leaf 98 = p.164 fit the same line, so leaf 342 = p.633 as Nourai cites): 'Heb. gebher derives from the base of the verb gabhar, \"was strong\", whence also gibbor \"strong, mighty; hero\", gebhir \"lord\" ... Cp. the related words: Aram.-Syr. gebhar, \"was mighty\", gebhar, gabhra, \"man\", Syr. gabbar, \"hero\", Arab. jabr, \"a strong, young man\", jabbar, \"tyrant\", Akkad. gapru, \"strong\", Ethiop. gabara, \"he acted\".' The page carries every form Nourai's root box claims, with Aramaic gaḇrā 'man' — but as a cognate list, and spelled with g-, not j-."
+        },
+        {
+          "ref": "SOR:41",
+          "status": "not_checked",
+          "note": "SOR (K. Akhavan Zanjani) is unidentified in refs_online.json ('Table IV entry lost in OCR ... none online; title unidentified'); no copy exists to check."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "PHD",
+          "where": "MacKenzie, Concise Pahlavi Dictionary s.v. mard (PHD_mackenzie.txt line 3465)",
+          "stance": "supports",
+          "note": "'mard [GBRA < A gbrʾ; mltʿ | M m(y)rd, N ~] man' — MacKenzie derives the Pahlavi ideogram GBRA explicitly from Aramaic gbrʾ, confirming that the Aramaic word is gaḇrā 'man' (with g-) and that it was familiar in Iran as a written logogram."
+        },
+        {
+          "src": "AFA",
+          "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (AFA.txt)",
+          "stance": "silent",
+          "note": "grep -i 'gabbar|gabbâr|gabrûtâ' returns nothing; Fraenkel does not treat the g-b-r family among his Aramaic loans into Arabic."
+        },
+        {
+          "src": "FVQ",
+          "where": "Jeffery, Foreign Vocabulary of the Qur'an pp. 100-101 (FVQ_pages.txt l. 3846 ff.)",
+          "stance": "partial",
+          "note": "Jeffery treats only the derived name جبريل under this root; he says 'The ultimate origin, of course, is the Heb. גבריאל' and that the Arabic form came 'in its Syr. form' — i.e. the Semitic material of the root box is real, but Arabic took the NAME from Aramaic/Syriac, not the ROOT."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "J.b.r; Al-Jabr-w'al-Moqâbalah",
+          "verdict": "plausible",
+          "derivation": "Arabic جبر jabara 'to set (a broken bone), restore, make whole', hence also 'to compel, force', with the verbal noun jabr. This is not a loan from Aramaic but the regular Arabic reflex of the common Semitic root *g-b-r (Proto-Semitic *g > Arabic ǧ), as Wiktionary states outright ('cognate with Biblical Hebrew גָּבַר') and as Klein implies by listing Arab. jabr among 'the related words' of Heb. gāḇar. Nourai's al-Jabr-w'al-Moqâbalah is the short title of al-Khwārizmī's al-Kitāb al-muḵtaṣar fī ḥisāb al-jabr wa-l-muqābala, written at the Bayt al-Ḥikma in Baghdad c. 820 CE: al-jabr = 'restoring' (moving a subtracted term to the other side of the equation), al-muqābala = 'balancing' (cancelling like terms). Nourai's description of the author is right — Muḥammad b. Mūsā al-Khwārizmī (d. c. 850), from Khwārazm, i.e. an Iranian, and the book is indeed the founding treatise of the discipline. The only correction is directional: Arabic j-b-r is Aramaic g-b-r's sister, not its child.",
+          "derivation_fa": "فعل عربی جَبَرَ «استخوان شکسته را بستن، سروسامان دادن» و از آن «واداشتن، زور گفتن»، مصدر جَبر. این واژه وام‌واژهٔ آرامی نیست، بلکه بازتاب قاعده‌مند همان ریشهٔ سامی *g-b-r در عربی است زیرا g سامی آغازین در عربی به ج بدل می‌شود؛ ویکی‌واژه آن را صریحاً «هم‌ریشه با عبری gāḇar» می‌خواند. عنوان «الجبر والمقابله» نام کوتاه کتاب «الکتاب المختصر فی حساب الجبر والمقابله» اثر محمد بن موسای خوارزمی (درگذشته حدود ۲۳۵ ق) است که در بیت‌الحکمهٔ بغداد نوشته شد؛ «جبر» یعنی انتقال جملهٔ منفی به طرف دیگر معادله و «مقابله» یعنی حذف جمله‌های همانند. ادعای نورایی دربارهٔ خود واژه و کتاب درست است، ولی جهت پیکان (آرامی ← عربی) باید به هم‌ریشگی تصحیح شود.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1",
+            "https://www.etymonline.com/word/algebra"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:633",
+              "status": "partial",
+              "note": "KLN_1966.txt leaf 342 s.v. Gabriel has 'Arab. jabr, \"a strong, young man\", jabbar, \"tyrant\"' — but introduced by 'Cp. the related words', i.e. as cognates of Hebrew, not as Aramaic borrowings; and the sense given there is 'strong young man', not 'to reunite, force'."
+            },
+            {
+              "ref": "FVA:67",
+              "status": "not_checked",
+              "note": "FVA = S.M. Nahvi, Farhang-e Vāžehā-ye ʿArabī dar Fārsī, 1368/1989; refs_online.json records that no digital copy exists on archive.org, ketabnak, noorlib or the open web (re-searched 2026-09)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 37 (= p.48) s.v. algebra",
+              "stance": "supports",
+              "note": "'algebra, n. — Fr. Arab. al-jabr (in vulgar pronunciation al-jebr), \"reunion (of broken parts in equations)\", short for al-jabr wʿal-muqabalah, \"reunion and comparison\", title of a work written by Mohammed ibn Musa al-Khowarizmi, great mathematician of the 9th cent. ... Al-jabr is formed fr. al-, \"the\", and jabr, \"reunion\", which is rel. to the verb ja'bara, \"he bound together, united\".' Exactly Nourai's wording of the title and the century."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 631 (LKT.txt l. 1579)",
+              "stance": "supports",
+              "note": "'631. Ar. gabr: \"Wiederherstellung\", vollständig ist al-ǧabr waʾl-mukabala der Titel eines algebraischen Lehrbuches von Muhammad ibn Musa al-Hwarizmi, um 820 n. Chr. geschrieben, wörtlich: \"Wiederherstellung und Gegenüberstellung\" ... In der ursprünglichen Bedeutung des ar. Vbs. gabara \"wiederherstellen, einrichten\" ist noch sp. algebrista \"Chirurg\" erhalten.'"
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfāẓ al-Fārisiyya al-Muʿarraba (AFM_pages.txt)",
+              "stance": "silent",
+              "note": "grep 'الجبر' / 'جبروت' finds no entry — as expected, since Addi Shir collects PERSIAN words in Arabic and j-b-r is not one."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "jabr; jabarût; jobrân",
+          "verdict": "plausible",
+          "derivation": "All three are Arabic loans in Persian, and the extras جبّار jabbār (intensive faʿʿāl), اجبار ejbār (form IV maṣdar) and مجبور majbūr (form I passive participle) are correctly grouped with them as regular Arabic derivatives of the same root. جَبر jabr < Ar. jabr, giving in Persian both 'compulsion, force' (whence the kalām term jabr 'predestination', jabrī, and the antonym pair jabr/eḵtiyār) and, as a clipping of jabr o moqābele, 'algebra' — exactly Mo'in's two senses. جَبَروت jabarūt is the one word here with a genuinely Aramaic history: Wiktionary marks Arabic جبروت as 'Borrowed from Aramaic גַּבְרוּתָא / Syriac gaḇrūṯā', its -ūt being the Aramaic abstract suffix -ūṯā that also gave Arabic malakūt, lāhūt and kahanūt; so Persian jabarūt is an Aramaic > Arabic > Persian relay, and Nourai's chart is right about it even if for the wrong reason. جُبران jobrān 'making good, compensation' is the ordinary Arabic maṣdar jubrān of jabara — so the chart's NOTE, '\"Jobrân\" is does not exist in Arabic', is simply WRONG: Wiktionary has Arabic جبران (and Egyptian Arabic gubrān 'verbal noun of جبر'), the given name/surname Jubrān is the same word (Jubrān Ḵalīl Jubrān = Kahlil Gibran), and Mo'in himself tags the Persian entry 'جبران: [ع.] (مص ع.) تلافی کردن' — '[Arabic], Arabic maṣdar'. Verdict is 'plausible' rather than 'confirmed' only because of that false note and because the parent link (#1) is a cognate relation.",
+          "derivation_fa": "هر سه واژه وام‌واژهٔ عربی در فارسی‌اند و افزوده‌های جبّار، اجبار و مجبور نیز مشتقات قاعده‌مند همین ریشه‌اند. «جَبر» هم به معنی «زور، ناچاری» (و در کلام، جبر در برابر اختیار) است و هم کوتاه‌شدهٔ «جبر و مقابله» در ریاضی؛ معین هم همین دو معنا را می‌آورد. «جَبَروت» تنها واژهٔ این گره است که ادعای آرامی‌بودن درباره‌اش راست است: خود عربی آن را از سریانی gaḇrūṯā وام گرفته و پسوند -ūt آن همان پسوند مصدری آرامی -ūṯā است که در ملکوت، لاهوت و کهنوت نیز دیده می‌شود؛ پس جبروت از آرامی به عربی و از عربی به فارسی رسیده است. اما یادداشت کتاب که «جُبران در عربی وجود ندارد» نادرست است: جُبران مصدر معروف فعل جبر است، نام «جبران خلیل جبران» هم همین است، و خود معین مدخل «جبران: [ع.] (مص ع.) تلافی کردن» را عربی می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1%D9%88%D8%AA",
+            "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1%D8%A7%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:67",
+              "status": "not_checked",
+              "note": "Nahvi's Farhang-e Vāžehā-ye ʿArabī dar Fārsī has no digital copy anywhere (refs_online.json, re-searched 2026-09); the same page 67 is cited for node #1, so it is presumably the j-b-r entry."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Mo'in, Farhang-e Fārsī, 2-vol Adena condensation, MON_part1.txt ll. 47120-47134",
+              "stance": "contradicts",
+              "note": "The dictionary Nourai cites elsewhere flatly contradicts his note: 'جبران: [ع.] (مص ع.) تلافی کردن. (امص.) تلافی' — tagged [ع.] = Arabic, and labelled an Arabic maṣdar. The same column has جبر with the maths sense '(رض.) جبر و مقابله، بخشی از ریاضی که در آن برای حل مجهولات حروف و علامات را بجای اعداد بکار رود' and جبروت '[ع.] (ا.) قدرت، عظمت. عالم قدرت و عظمت الهی؛ مق. ناسوت'."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e Rišehā-ye Hend-o-Orūpāyī (incoming/ARY/ARY_pages.txt)",
+              "stance": "silent",
+              "note": "grep 'جبر' returns only the OCR noise 'بگبریم' — Aryanpur treats only Indo-European material, so Arabic loans are outside his scope."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 342 (p.633)",
+              "stance": "partial",
+              "note": "Klein knows Arab. jabbar 'tyrant' (Nourai's extra جبّار) and Syr. gabbar 'hero' side by side, which is the Aramaic-Arabic pair behind the Persian intensive; he says nothing about jabarūt or jubrān."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "algebre",
+          "verdict": "confirmed",
+          "derivation": "French algèbre (the book prints 'algebre' without the grave accent), first attested in the 16th c. (earlier algiebre), borrowed from Medieval Latin algebra, itself from Arabic al-jabr with the definite article al- agglutinated onto the noun — the standard shape of Arabisms that entered Romance through Spain (alcool, alchimie, alcade). The Latin form comes from the 12th-c. translations of al-Khwārizmī (Robert of Chester, Segovia 1145; Gerard of Cremona, Toledo). Pihan, whom Nourai cites, describes the semantics precisely: al-jabr is 'la réunion de plusieurs parties en un seul corps, ou l'action de ramener les fractions à un nombre intégral', and the verb jabara 'consolider les différentes parties d'une chose brisée, par exemple, d'un os'.",
+          "derivation_fa": "فرانسهٔ algèbre (که کتاب بدون علامت «algebre» نوشته) وام‌گرفته از لاتین میانه algebra است که خود از عربی «الجبر» گرفته شده، با حرف تعریف «ال» که مانند دیگر وام‌واژه‌های عربی در زبان‌های رمانس (alcool، alchimie) به خود واژه چسبیده است. راه انتقال، ترجمه‌های لاتینی سدهٔ دوازدهم از کتاب خوارزمی در اسپانیا (رابرت چستری ۱۱۴۵، جرارد کرمونایی) بوده است. پیهان در صفحهٔ ۲۶ دقیقاً همین را می‌گوید؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/algebra"
+          ],
+          "ref_check": [
+            {
+              "ref": "PHN:26",
+              "status": "supports",
+              "note": "Pihan p. 26 (PHN.txt l. 1346, the leaf whose running head reads '26 A'LG'): 'ALGÈBRE, s. f. (a.) [aldjebr] la réunion de plusieurs parties en un seul corps, ou l'action de ramener les fractions à un nombre intégral. Le verbe radical arabe [جبر] signifie proprement consolider les différentes parties d'une chose brisée, par exemple, d'un os. ... Les Arabes appellent aussi cette science [al-djebr wa-l-mouqâbalat] le rétablissement et la comparaison.' The cited page is exactly right and covers both the French word and the Arabic title."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 631 (LKT.txt l. 1579)",
+              "stance": "supports",
+              "note": "'Hieraus als Bezeichnung für eine bestimmte Rechnungsart sp. pg. álgebra, frz. algèbre, it. algebra; engl. algebra, dtsch. Algebra usw.' — French among the direct Romance continuations of Ar. al-ǧabr."
+            },
+            {
+              "src": "LAM",
+              "where": "Lammens, Remarques sur les mots français dérivés de l'arabe (LAM.txt ll. 1493-94)",
+              "stance": "supports",
+              "note": "'Algèbre. Etymol. bien connue. Esp. ptg. cat: algebra, basq: algebrea, de [al-]ǧabr réduction', with the footnote 'de l'arabe aldjabroun dit M. Brachet qui joint ensemble l'article...' — i.e. the agglutinated article."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, Dictionnaire étymologique des mots d'origine orientale (DEV.txt)",
+              "stance": "silent",
+              "note": "grep 'alg.bre' returns nothing; Devic's supplement to Littré covers only words Littré had left unexplained, and algèbre was not one."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "algebra",
+          "verdict": "plausible",
+          "derivation": "English algebra is first recorded in the 1550s and, tellingly, in the surgical sense 'bone-setting' before the mathematical one — which shows it came through the learned Latin/Romance channel where both senses of Ar. al-jabr travelled together (cf. Spanish algebrista 'bone-setter, surgeon'). Etymonline and Wiktionary take it from Medieval Latin algebra directly; the stress moved from a-LGE-bra to AL-ge-bra in the 17th century. Nourai's French intermediary is not the modern consensus, but it is not an invention either: Webster's New Twentieth Century Dictionary heads the etymology '[Fr. algébre; Russ. algebra; Ar. al-jabr...]', while Funk & Wagnalls gives Italian instead ('< It. algebra, < Ar. al-jebr') and Skeat gives Low Latin. Since Klein 48, the reference Nourai actually cites here, derives the English word straight from Arabic with no Romance stage at all, the French arrow is at best one of several older opinions: hence 'plausible'.",
+          "derivation_fa": "انگلیسی algebra نخستین بار در دههٔ ۱۵۵۰ م. و نخست به معنی «شکسته‌بندی» دیده می‌شود و سپس معنی ریاضی می‌گیرد؛ همین دوگانگی معنایی نشان می‌دهد که واژه از راه لاتین میانه و زبان‌های رمانس آمده است (قیاس کنید اسپانیایی algebrista «جراح، شکسته‌بند»). اتیمونلاین و ویکی‌واژه مستقیماً از لاتین میانه می‌گیرند و کلاین (ص ۴۸) که خود نورایی بدان ارجاع داده، راست از عربی می‌گیرد. پس واسطهٔ فرانسه که در نمودار آمده رأی فرهنگ‌های کهن‌تر (وبستر) است و رأی امروزی نیست؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/algebra",
+            "https://en.wiktionary.org/wiki/algebra"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:48",
+              "status": "partial",
+              "note": "KLN_1966.txt leaf 37 (= p.48): 'algebra, n. — Fr. Arab. al-jabr ...' — in Klein's notation 'Fr.' at the head of an etymology is 'From' (French is 'F.'), so Klein derives English algebra straight from Arabic and does NOT insert the French stage that Nourai's arrow requires. Everything else on that page (the title al-jabr w'al-muqabalah, al-Khowarizmi, the 9th century) supports the chart."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dictionary, 2nd ed., vol. 1 (WEB_vol1.txt l. 5439) s.v. al'ge-bra",
+              "stance": "supports",
+              "note": "'[Fr. algébre; Russ. algebra; Ar. al-jabr, al-jebr, the reunion of broken parts, as the reduction of fractions to whole numbers; jabara, to reunite, bind together.]' — the one consulted dictionary that does put French between Arabic and English, as Nourai's chart does."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls New Standard Dictionary vol. 1 (FSD_vol1.txt l. 11623) s.v. algebra",
+              "stance": "partial",
+              "note": "'[< It. algebra, < Ar. al-jebr, binding together, < al, the, + jabara, reunite.]' — same Romance-mediation idea but with Italian, not French, as the immediate source."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etymological Dictionary (SKT.txt l. 529) s.v. Algebra",
+              "stance": "partial",
+              "note": "'Algebra. (Low L. — Arab.) Low L. algebra, computation. — Arab. al, the; and jabr, setting, repairing; also, the reduction of fractions to integers in arithmetic ... — Arab. root jabara, to set, consolidate.' Skeat routes it through Low (Medieval) Latin with no French or Italian step."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "gabr",
+          "verdict": "confirmed",
+          "derivation": "New Persian گَبر gabr 'Zoroastrian; (pejoratively) infidel', with the derivatives the chart lists — گبرک gabrak (with the diminutive/contemptuous -ak), گبرکان gabrakān and گبرکی gabrakī 'the Zoroastrian religion; the wine-vessel of the Zoroastrians' — and attested from the earliest New Persian (Šāh-nāma, Balʿamī, Sanāʼī, and the ʿOnṣorī line quoted in the chart). Nourai's derivation from Aramaic gaḇrā 'man' is the one modern Iranian studies accepts: Encyclopaedia Iranica (Shaki, s.v. GABR) opens 'a New Persian term deriving, in all likelihood, from Aramaic GBRʾ / gabrā (lit. man), which in the Sasanian period was used to indicate the free peasants in the region of Mesopotamia', and Wiktionary has 'Borrowed from Aramaic gbrʾ /gaḇrā/, \"man; person\", reflected in the Middle Persian logogram (huzvarishn) GBRA (mard, \"man\"). The Persian word was probably used in pre-Islamic Persia to refer to some Zoroastrians in Mesopotamia (inhabited by many Aramaeans)'. The same Aramaic word is what MacKenzie records as the Pahlavi ideogram: 'mard [GBRA < A gbrʾ] man'. The route is therefore: Aramaic gaḇrā 'man' > a designation of the (Zoroastrian) rural population of Aramaic-speaking Sasanian Mesopotamia > after the conquest, the word converted Persians used of their Zoroastrian compatriots > pejorative 'infidel', replaced in modern usage by zartoštī. From Persian it went on to Turkish gâvur/gaur (> giaour) and, directly, to French guèbre / English gueber. THE CHART'S OWN NOTE IS ACCURATE AND WORTH KEEPING: Borhan-e Qāteʿ p. 1774, footnote 2 (Mo'in, following Pūr-e Dāvūd) says the word 'has no connection whatever' with the huzvāriš gabra 'man' and takes it instead from an Aramaic word cognate with Arabic kāfir. Lokotsch no. 632 says the same after Rückert, and Horn (Grundriss p. 210 n.) warns that Pahl. gabrā '(Semitic! meaning only \"man\")' should not have been set up as the base form. But Iranica answers this directly — 'there is no unusual sound in kāfer that would require phonetic modification', and 'kāfer as a generic word could hardly refer to a specific revealed religion such as Zoroastrianism' — and Wiktionary calls the kāfir etymology 'problematic on phonetic and semantic grounds'. Modern scholarship is on Nourai's side.",
+          "derivation_fa": "«گَبر» در فارسی نو به معنی «زرتشتی؛ (به تحقیر) کافر» است، با مشتقات گبرک (پسوند تصغیر و توهین)، گبرکان و گبرکی، و از کهن‌ترین متن‌های فارسی (شاهنامه، تاریخ بلعمی، سنایی و همین بیت عنصری) دیده می‌شود. ریشه‌شناسی‌ای که نورایی آورده — از آرامی gaḇrā «مرد» — همان است که ایرانیکا (مقالهٔ شکی) و ویکی‌واژه می‌پذیرند: همین واژه در خط فارسی میانه هزوارش GBRA است که mard خوانده می‌شده (مکنزی: mard [GBRA < A gbrʾ]) و در میان‌رودان روزگار ساسانی بر دهقانان آزاد اطلاق می‌شده؛ سپس در دوران اسلامی ایرانیان نومسلمان آن را برای هم‌میهنان زرتشتی خود به کار بردند و معنا به تحقیر گرایید؛ از فارسی به ترکی gâvur (و از آن giaour) و بی‌واسطه به فرانسهٔ guèbre رفته است. یادداشت خود نورایی درست است: حاشیهٔ ۲ برهان قاطع ص ۱۷۷۴ (معین به پیروی پورداود) می‌نویسد این کلمه «با وجه اشتقاقی که برخی از پارسیان هند گفته‌اند و آن را از ریشهٔ gabra هزوارش و بمعنی مرد دانسته‌اند، هیچگونه ارتباطی ندارد» و آن را هم‌ریشهٔ «کافر» عربی می‌داند؛ لوکوچ (شمارهٔ ۶۳۲) نیز همین را می‌گوید و هرن (ص ۲۱۰) هشدار داده است که gabrā پهلوی را نباید صورت اصلی گرفت. اما ایرانیکا پاسخ می‌دهد که در «کافر» هیچ آوای دشواری نیست که دگرگونی را ایجاب کند و «کافر» واژه‌ای عام است و بر دینی معیّن مانند زرتشتی دلالت نمی‌کند؛ پس پژوهش امروزی جانب نورایی را می‌گیرد.",
+          "sources": [
+            "https://www.iranicaonline.org/articles/gabr/",
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%A8%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3193",
+              "status": "supports",
+              "note": "The 6-vol Amir Kabir Farhang is not digitised, but the Adena 2-vol condensation of Mo'in (MON_part2.txt l. 29922) has s.v. گبر: '[آرا. قس. ع. کافر] (ص. ا.) کافر، ملحد، بت‌پرست، زردشتی، زرتشتی، مجوس' — the tag 'آرا.' is Mo'in's abbreviation for Aramaic, so his own dictionary DOES derive گبر from Aramaic (merely adding 'cf. Arabic kāfir'), exactly as Nourai's chart claims. Note the internal tension with his Borhan footnote (see consulted/BQT)."
+            },
+            {
+              "ref": "SOR:41",
+              "status": "not_checked",
+              "note": "SOR is the unidentified reference of Table IV (refs_online.json: 'title unidentified, none online')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qāteʿ ed. Mo'in, printed p. 1774 = vol. 3 scan pdf p. 571, footnote 2 (image read and saved to sources/refs/ocr/BQT/1774.vision.txt)",
+              "stance": "contradicts",
+              "note": "'باین معنی بعقیدهٔ آقای پورداود از لغت آرامی گرفته شده هم‌ریشهٔ «کافر» عربی و بهمان معنی ... این کلمه با وجه اشتقاقی که برخی از پارسیان هند درین مورد گفته‌اند و آنرا از ریشهٔ gabra هزوارش و بمعنی «مرد» دانسته‌اند، هیچگونه ارتباطی ندارد.' — an explicit rejection of Nourai's arrow, so his own note 'BQT:1774 does not agree with this derivation' is exactly right. (Footnote 7 on the same page, for the separate headword گبنا, does give 'هز. gab(a)nâ (اغلب gabrâ خوانده شود) در پهلوی mart (مرد)، یونکر ص ۸۶'.)"
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 632 (LKT.txt l. 1580)",
+              "stance": "contradicts",
+              "note": "'632. Pers. gäbr: \"Feueranbeter\" [wohl aus ar. käfir \"Ungläubiger\", ... nach Rückert in ZDMG X, 133]; erst hieraus [und nicht unmittelbar aus dem ar. Grundwort] tk. gjawr, gjaur ... hieraus it. giaurro, frz. engl. giaour, dtsch. Giaur; poln. giaur. Dagegen frz. guebre, engl. gueber, guebre, dtsch. Geber \"der Feueranbeter [Parsi]\" unmittelbar aus dem pers. Grundwort.' Lokotsch prefers kāfir but confirms the whole downstream European history from Persian gabr."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss der neupersischen Etymologie p. 210 note (HRN.txt l. 8158-8161)",
+              "stance": "partial",
+              "note": "'Beiläufig bemerkt, ist türk. LW. gʿaur wohl nicht arab. kāfir (Hübschmann unter oss. d. gaur ... S. 123), sondern vielmehr neupers. gebr, gabr (vergl. Geiger, bal. LW. gaur, No. 81, wo allerdings phlv. gabrā (semitisch!, nur \"Mann\" bedeutend) nicht als Grundform stehen durfte).' Horn rejects kāfir for the Turkish word and traces it to NP gabr — but he is unwilling to make Pahlavi/Aramaic gabrā the source form, so he is only half with Nourai."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. mard (PHD_mackenzie.txt l. 3465)",
+              "stance": "supports",
+              "note": "'mard [GBRA < A gbrʾ; mltʿ | M m(y)rd, N ~] man' — the Aramaic word Nourai starts from was demonstrably current in Sasanian Iran as the standard logogram for 'man', which is what makes the borrowing possible."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Hebrew",
+          "words": "gabhar; Gabhri-ěl",
+          "verdict": "plausible",
+          "derivation": "Hebrew גָּבַר gāḇar 'was strong, prevailed', with the nouns גֶּבֶר geḇer 'man (as the strong one)', גִבּוֹר gibbōr 'hero', גְבוּרָה gəḇūrāh 'might'; and the theophoric name גַּבְרִיאֵל Gaḇrīʾel = geḇer + ʾēl, 'man/hero of God', the angel of Daniel 8:16 and 9:21. Nourai's forms and glosses are Klein's verbatim. The one correction is the direction of the arrow: Hebrew is Aramaic's sister, not its daughter, and Klein presents the Aramaic-Syriac forms as 'the related words' to the Hebrew ones. Both continue the same Northwest-Semitic root; there is no borrowing to draw.",
+          "derivation_fa": "عبری gāḇar «نیرومند بود، چیره شد» و از آن geḇer «مرد»، gibbōr «پهلوان»؛ و نام Gaḇrīʾēl مرکب از geḇer و ʾēl «خدا» یعنی «مرد/پهلوان خدا»، که در کتاب دانیال (۸:۱۶ و ۹:۲۱) آمده است. صورت‌ها و معناهای نورایی عیناً از کلاین گرفته شده و درست است؛ تنها ایراد آن است که عبری خواهر آرامی است نه برآمده از آن؛ کلاین نیز صورت‌های آرامی–سریانی را زیر عنوان «واژه‌های خویشاوند» می‌آورد. پس ادعا با احتیاط پذیرفتنی است: واژه‌ها درست، پیکان نادرست.",
+          "sources": [
+            "https://www.etymonline.com/word/Gabriel"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:633",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 342: 'Gabriel, 1) masc. PN.; 2) in the Bible, name of an angel. — Heb. Gabhriʾel, lit. \"man of God\", fr. gebher, \"man\", and El, \"God\". Heb. gebher derives from the base of the verb gabhar, \"was strong\" ...' — word for word what the node says; only the parent link (Aramaic → Hebrew) goes beyond Klein, who calls the Aramaic forms 'related'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'an p. 100 (FVQ_pages.txt l. 3859)",
+              "stance": "supports",
+              "note": "'The ultimate origin, of course, is the Heb. [גבריאל], and in Dan. viii, 16; ix, 21, Gabriel is one of the high angels and the agent of Revelation, just as he is in the Qur'an.'"
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dict. vol. 1 (WEB_vol1.txt l. 79282) s.v. Ga'bri-el",
+              "stance": "silent",
+              "note": "'Ga'bri-el, n. in the Bible, one of the seven archangels, the angel of the Annunciation ... Luke i. 26. Dan. viii. ix.' — the entry gives the biblical references but no etymology."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Arabic",
+          "words": "Jebraîl",
+          "verdict": "plausible",
+          "derivation": "Arabic جبريل Jibrīl / جبرائيل Jibrāʾīl, the angel of revelation in Q 2:97-98 and 66:4. Ultimately the Hebrew name, as Nourai draws, but Jeffery shows the immediate source was Aramaic, not Hebrew: the early Arabic authorities record a whole spread of spellings, which as-Suyūṭī took as proof of foreign origin, and 'the form which is found in the Christian Palestinian dialect gives us the closest approximation to the usual Arabic form'; Jeffery concludes 'the probabilities are that it came to him in its Syr. form'. Phonetically the Arabic reflects Aramaic Gaḇrīʾēl with the initial g → ǧ substitution normal for names entering Arabic, and the short variant Jibrīl drops the medial hamza; the -īl termination was already a familiar angel-name ending (Mīkāʾīl, Isrāfīl). Nourai's arrow is right in substance, one language short in route.",
+          "derivation_fa": "«جبریل / جبرائیل» عربی، نام فرشتهٔ وحی در قرآن (بقره ۹۷–۹۸ و تحریم ۴)، در نهایت همان نام عبری Gaḇrīʾēl است، اما جفری (واژگان بیگانهٔ قرآن، ص ۱۰۰–۱۰۱) نشان می‌دهد که واسطه، آرامی مسیحی (سریانی) بوده است نه عبری مستقیم: اختلاف فراوان ضبط‌ها گواه بیگانگی واژه است و نزدیک‌ترین صورت به عربی، صورت آرامی فلسطینی مسیحی است. در عربی g آغازین به ج بدل شده و پایانهٔ ʾīl به قیاس میکائیل و اسرافیل ماندگار شده است. ادعای نورایی در اصل درست است ولی یک حلقه (سریانی) افتاده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1%D8%A7%D8%A6%D9%8A%D9%84"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none cited)",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node (refs=None in the JSON, and the printed box on p. 200 indeed carries no book icon)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'an pp. 100-101 (FVQ_pages.txt ll. 3846-3905)",
+              "stance": "partial",
+              "note": "'There was considerable uncertainty among the early authorities as to the spelling of the name ... as-Suyuti, Muẓhir i, 140, notes that these variants point to its non-Arabic origin ... The ultimate origin, of course, is the Heb. ... There is, however, the possibility that the Gabriel of the Qur'an is of Christian rather than Jewish origin, and the form which is found in the Christian Palestinian dialect gives us the closest approximation to the usual Arabic form ... the probabilities are that it came to him in its Syr. form.' Supports Hebrew as ultimate origin, corrects the immediate source to Syriac/Christian Aramaic."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 342 s.v. Gabriel",
+              "stance": "silent",
+              "note": "Klein traces only the English name and its Hebrew source; he says nothing about the Arabic form Jibrīl."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Persian",
+          "words": "Jebreîl",
+          "verdict": "confirmed",
+          "derivation": "Persian جبرئیل Jebraʾīl / Jebreʾīl, taken over from Qur'ānic Arabic Jibrāʾīl along with the rest of the Islamic angelology; the Persian spelling keeps the Arabic hamza on a yā seat (ئ) and the Persian pronunciation lowers the Arabic short i of the first syllable to e, as regularly in Arabic loans (جبر jabr, مجبور majbūr). Mo'in lists exactly the three Persian variants the chart implies. Nourai's gloss 'man of God' is the Hebrew etymological sense carried over, not a Persian one. This is an ordinary, uncontroversial Arabic > Persian religious loan.",
+          "derivation_fa": "«جبرئیل» در فارسی وام‌واژهٔ عربی قرآنی جبرائیل است که همراه با دیگر نام‌های فرشتگان به فارسی راه یافته؛ همزه بر کرسی یاء (ئ) نوشته می‌شود و ِ کوتاه عربی در فارسی به ِ/َ بدل می‌شود (مانند جَبر و مَجبور). معین هر سه گونهٔ جبرئیل، جبرائیل و جبریل را می‌آورد. معنای «مرد خدا» معنای ریشه‌شناختی عبری است نه فارسی. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1%D8%A7%D8%A6%D9%8A%D9%84"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1215",
+              "status": "supports",
+              "note": "The 6-vol Farhang is not digitised, so the page number itself cannot be checked; the Adena 2-vol condensation of Mo'in (MON_part1.txt l. 47139) has 'جبرئیل: [- جبرائیل - جبریل] (اخ.) یکی از فرشتگان مقرب. (ا.) دل که به زعم صوفیان مهبط انوار الهی و محل وحی و الهام او است' — the headword, the variants and the sense are Nourai's."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FVQ",
+              "where": "Jeffery pp. 100-101",
+              "stance": "supports",
+              "note": "Establishes the Arabic Qur'ānic form that Persian borrowed; see node #7."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (incoming/ARY/ARY_pages.txt)",
+              "stance": "silent",
+              "note": "grep 'جبر' finds no entry; his dictionary covers only Indo-European roots of Persian."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Latin",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "An empty pass-through box for Latin Gabriēl, the form of the Vulgate (Dan. 8:16; Luke 1:19, 26) and of all Western ecclesiastical usage. Latin did not, however, take the name from Hebrew directly, as the chart's arrow implies: the Septuagint rendered גַּבְרִיאֵל as Γαβριήλ, the Greek New Testament kept Γαβριήλ in Luke 1, and Jerome carried the Greek-mediated spelling into the Vulgate — Greek β for Hebrew ḇ and η for ē are the give-away. Etymonline says the name reached English 'through Greek and Latin intermediaries'. So the box is right as far as it goes; a Greek box is missing.",
+          "derivation_fa": "جعبهٔ خالی لاتین برای Gabriēl است، صورت وولگاتا (دانیال ۸:۱۶؛ لوقا ۱:۱۹ و ۲۶) و همهٔ کلیسای غرب. اما لاتین این نام را بی‌واسطه از عبری نگرفته است: ترجمهٔ سبعینیه آن را Γαβριήλ آورده، عهد جدید همین را نگاه داشته و هیرونیموس آن را به لاتین برده است؛ بتای یونانی در برابر ḇ عبری و اتای یونانی در برابر ē گواه این واسطه است. پس در نمودار یک حلقهٔ یونانی افتاده است.",
+          "sources": [
+            "https://www.etymonline.com/word/Gabriel"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none cited)",
+              "status": "not_checked",
+              "note": "The box carries no reference in the book (refs=None), so there is nothing of Nourai's to check here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 342 s.v. Gabriel",
+              "stance": "partial",
+              "note": "Klein goes straight from English to 'Heb. Gabhriʾel' without naming a Latin or Greek stage — he neither supports nor denies the Latin box; his practice with biblical names is to give the ultimate Hebrew only."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet, Dictionnaire étymologique de la langue latine (LAT.txt)",
+              "stance": "silent",
+              "note": "No entry: Ernout-Meillet excludes biblical proper names from the Latin lexicon they treat."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through box for French Gabriel, the ecclesiastical Latin name adopted unchanged in spelling from the Middle Ages onward (through the cult of the archangel and the Annunciation), pronounced [ɡabʁijel]; it is one of the standard French baptismal names and the form from which the modern Persian re-borrowing in node #11 is taken.",
+          "derivation_fa": "جعبهٔ خالی فرانسه برای Gabriel است؛ همان نام لاتینی کلیسایی است که از سده‌های میانه بی تغییر در املا به فرانسه راه یافته و [ɡabʁijel] تلفظ می‌شود؛ همین صورت است که در ۱۰۰ سال اخیر به صورت «گابریل» به فارسی رسیده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/Gabriel"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none cited)",
+              "status": "not_checked",
+              "note": "No reference is printed in this box (refs=None)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "DEV",
+              "where": "Devic, Dictionnaire étymologique des mots d'origine orientale (DEV.txt)",
+              "stance": "silent",
+              "note": "grep finds only 'GIAOUR' and 'GUÈBRE' (both from Persian gabr, see node #5); the personal name Gabriel is not an orientalism and is absent."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 342",
+              "stance": "silent",
+              "note": "Klein names no French stage for Gabriel."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Persian",
+          "words": "Gâbrîyel",
+          "verdict": "plausible",
+          "derivation": "Persian گابریل Gābriyel is a modern re-borrowing of the WESTERN personal name (used of Europeans and Latin Americans — گابریل گارسیا مارکز), not the inherited Islamic form, which is جبرئیل (node #8). It is therefore a genuine doublet: the same Hebrew name reaching Persian twice, once through Syriac and Arabic in the 7th-8th c. and once through French/English in the modern period. The spelling shows the modern route: alef for the stressed European [a] (گا- rather than جب-), initial g rather than j because it is no longer mediated by Arabic phonology, and -یل for [jel]. Nourai's French parent is the likeliest single source for Persian, though English has reinforced it. 'Plausible' rather than 'confirmed' because the claim rests on a reference that cannot be reached: he cites 'MON' with no page, and Mo'in's aʿlām volumes (5-6), where such names stand, are not digitised.",
+          "derivation_fa": "«گابریل» وام‌گیری تازهٔ نام اروپایی است (مانند گابریل گارسیا مارکز) و نه صورت دیرینهٔ اسلامی که «جبرئیل» باشد؛ پس این دو در فارسی «دوگانه» (doublet) اند: یکی در سدهٔ نخست از راه سریانی و عربی و دیگری در دوران معاصر از راه فرانسه و انگلیسی. املای واژه خود گواه راه تازه است: الف برای [a] تکیه‌دار، گاف به جای جیم (زیرا دیگر از مجرای آواشناسی عربی نگذشته) و پایانهٔ «یل». چون نورایی فقط «MON» بدون شمارهٔ صفحه آورده و جلدهای اعلام معین در دسترس نیست، این حلقه تنها با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/Gabriel"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON",
+              "status": "not_checked",
+              "note": "Cited without a page. Proper names live in Mo'in vols. 5-6 (aʿlām), which refs_online.json records as not digitised anywhere (vajehyab's Mo'in has no proper-name entries); the 2-vol Adena condensation available locally has no گابریل headword (grep of MON_part1/2)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Mo'in 2-vol Adena condensation, MON_part1.txt / MON_part2.txt",
+              "stance": "silent",
+              "note": "grep 'گابریل' returns nothing; only 'جبرئیل: [- جبرائیل - جبریل]' is present (l. 47139), i.e. the condensation keeps the Islamic form but not the European one."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (incoming/ARY/ARY_pages.txt)",
+              "stance": "silent",
+              "note": "No entry for گابریل; foreign personal names are outside the scope of an Indo-European root dictionary."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "Gabriel",
+          "verdict": "confirmed",
+          "derivation": "English Gabriel, in the language since the Old English gospels and general as a baptismal name from the Middle Ages, from Ecclesiastical Latin Gabriēl < Greek Γαβριήλ < Hebrew Gaḇrīʾel 'man of God'. The chart's Latin → English arrow is the standard account (Etymonline: 'entered English through Greek and Latin intermediaries'); Klein 633, Nourai's reference, gives the ultimate Hebrew source and the exact gloss 'man of God' that both this node and node #6 carry.",
+          "derivation_fa": "انگلیسی Gabriel از لاتین کلیسایی Gabriēl، از یونانی Γαβριήλ، از عبری Gaḇrīʾēl «مرد خدا»؛ از ترجمهٔ انجیل‌های انگلیسی کهن در زبان است و از سده‌های میانه نام تعمید شده است. کلاین (ص ۶۳۳) همین معنا و همین ریشه را می‌دهد؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/Gabriel"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:633",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 342: 'Gabriel, 1) masc. PN.; 2) in the Bible, name of an angel. — Heb. Gabhriʾel, lit. \"man of God\", fr. gebher, \"man\", and El, \"God\".' The English headword is exactly what the node has; Klein does not spell out the Latin/Greek stages but does not exclude them."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dict. vol. 1 (WEB_vol1.txt l. 79282)",
+              "stance": "silent",
+              "note": "'Ga'bri-el, n. in the Bible, one of the seven archangels ...' — definition only, no etymology; the neighbouring 'Ga'bri-el-ite' entry shows the name was productive in English."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls New Standard Dict. vol. 2 (FSD_vol2.txt l. 28776)",
+              "stance": "silent",
+              "note": "The g-a-b column has 'Gabriel ratchet', 'gabbro', etc.; no etymologised headword Gabriel was found by grep."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etymological Dictionary (SKT.txt)",
+              "stance": "silent",
+              "note": "Skeat excludes personal names; no entry."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
