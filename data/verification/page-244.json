@@ -1,0 +1,628 @@
+{
+  "pdf_page": 244,
+  "book_page": 214,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Karšvar",
+      "verdict": "plausible",
+      "modern_form": "Avestan karšvar- / karšvan- n. 'one of the seven regions (\"circles\") of the earth, continent' (Bartholomae col. 459); from the verbal root karš- 'to draw, plough (a furrow)'",
+      "note": "The Avestan word, its meaning and Nourai's gloss are exactly right: Bartholomae AiW col. 459 has 'karsvar-, -van- n. \"Kreis\" der Erde, vgl. \"Erdteil\"', i.e. literally a 'circle' of land — the seven karšvars of Zoroastrian cosmography (arəzahi, savahi, fradaδafšu, vīdaδafšu, vouru.barəšti, vouru.jarəšti, xvaniraθa). What is NOT right is the second half of the language label: 'Old Persian'. Kent's Old Persian lexicon has no karšvar-; the only OP word of this shape is karša- 'a unit of weight' (Kent p. 179), which is unrelated in meaning. The word is Avestan (and Pahlavi/Pazand) only, so the box should read 'Avestan'. Etymologically the modern consensus (Wiktionary, following the Avestan lexica) analyses karšvar- as a derivative of karš- 'to plough', the region being 'a tract bounded by a ploughed line' — a derivation Nourai does not give but which is compatible with his gloss.",
+      "note_fa": "ریشهٔ «کَرشور» در اوستا karšvar-/karšvan- به معنای «کشور، بخشی از هفت‌بخشِ زمین» است؛ بارتولمه در ستون ۴۵۹ فرهنگ ایرانی باستان آن را «دایرهٔ زمین، بخشِ زمین» معنی کرده و همین با معنایی که نورایی داده («دایره‌ای از خاک») یکی است. ساختِ واژه از ستاک karš- «شخم زدن، خط کشیدن» است، یعنی «زمینی که با شیارِ گاوآهن مرزبندی شده». تنها ایرادِ برچسبِ زبانی است: در پارسی باستان چنین واژه‌ای گواهی نشده و در واژه‌نامهٔ کِنت تنها karša- «یکای وزن» آمده که ربطی به این معنا ندارد؛ پس باید تنها «اوستایی» نوشته می‌شد. ادعای نورایی با این اصلاحِ کوچک پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%A9%D8%B4%D9%88%D8%B1"
+      ],
+      "ref_check": [
+        {
+          "ref": "BRT:459",
+          "status": "supports",
+          "note": "BRT.txt line 9395, between the OCRed column numbers 457 (line 9345) and 463 (line 9463), i.e. col. 459-461: 'j. karsvar-, -van- n. \\'Kreis\\' der Erde, vgl. \\'Erdteil\\'' with the Yašt/Yasna citations (Yt.10.15, 10.67, 10.133, Y.57.31, V.19.39). Exactly Nourai's root, gloss and page."
+        },
+        {
+          "ref": "HRN:191",
+          "status": "supports",
+          "note": "HRN.txt leaf 212 = printed p.191 (leaf = printed + 21), entry no. 858: 'kišver, kesver \\'Erdteil\\'. aw. karsvar- \\'Weltteil\\'; phlv. kisvar.' Horn gives precisely Nourai's three-step chain Avestan > Pahlavi > New Persian on the cited page."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KNT",
+          "where": "Lexicon p.179 s.v. karša-",
+          "stance": "contradicts",
+          "note": "grep 'kar[sš]' in KNT.txt: the only Old Persian entry is 'karša- sb. \\'weight, (unit by) weight\\' ... = 83.33 gr.'; there is no OP karšvar-, so the 'Old Persian' half of the language label has no support."
+        },
+        {
+          "src": "PHD",
+          "where": "English-Pahlavi index s.v. 'clime', 'region'; s.v. hamkišwar",
+          "stance": "supports",
+          "note": "MacKenzie PHD.txt line 1253 'clime kišwar', line 3360 'region kišwar; v. district', line 392 'hāmkišwar [(h)mkyšwl | M -wr] universe' — Pahlavi kišwar is well attested with exactly the meaning Nourai gives."
+        },
+        {
+          "src": "BQT",
+          "where": "vol.3 pdf p.449 = printed p.1656, footnote 6 to کشور",
+          "stance": "supports",
+          "note": "Mo'in's footnote: 'اوستا - karshvar «بارتولمه ۴۵۹»، پهلوی Kishvar (قطعه، قسمت)، پازند keshvar «نیبرگ ۱۲۸-۱۳۰» ... معین ۲۷۸' — Mo'in himself cites Bartholomae col. 459, i.e. the very page Nourai cites."
+        },
+        {
+          "src": "BRT",
+          "where": "cols. 459, 1874-area cross-references (vouru.barəšti-, vidaδafšu-, fradaδafšu-)",
+          "stance": "supports",
+          "note": "BRT.txt lines 23817, 23821, 24032: 'Name des im Nordosten/Nordwesten/Südwesten gelegenen Erdteils (karšvar-, sd.)' — confirms karšvar- as the technical term for the seven regions."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "kîšvar",
+          "verdict": "confirmed",
+          "derivation": "Avestan karšvar- gave Middle Persian kišwar by the regular Middle Iranian loss of the syllable-final r before the cluster (Old Iranian -ršv- > MP -šw-) and raising of the resulting short vowel: *karšvar > *kašwar > kišwar (Book Pahlavi <kyšwl>). MacKenzie's Concise Pahlavi Dictionary glosses it 'clime, region' and records the compound hāmkišwar 'the whole world, universe'; in Zoroastrian Pahlavi cosmology the haft kišwar are the seven karšvars of the Avesta, so the meaning is transmitted unchanged. Nourai's transcription 'kîšvar' with long î matches the Book Pahlavi spelling <kyšwl>; the Pazand form is kešvar (Nyberg, Manual II 128-130, as cited by Mo'in).",
+          "derivation_fa": "فارسی میانه (پهلوی) kišwar از اوستایی karšvar- به دست آمده است: خوشهٔ -ršv- ایرانی باستان در فارسی میانه ساده شده و r آن افتاده است (*karšvar > *kašwar > kišwar، به خط پهلوی <kyšwl>)، و واکهٔ کوتاه نیز به i برکشیده شده. مکنزی در فرهنگ کوچک پهلوی آن را «اقلیم، ناحیه» معنی کرده و ترکیب hāmkišwar «همهٔ جهان» را نیز آورده است؛ در جهان‌شناسی زردشتی «هفت کشور» همان هفت karšvarِ اوستا است، پس معنا دست‌نخورده مانده. صورت پازندِ keshvar را نیبرگ (۱۲۸-۱۳۰) آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D8%B4%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BRT:459",
+              "status": "partial",
+              "note": "BRT.txt line 9395 (col. 459-461) is the Avestan entry karsvar-; Bartholomae's article does not itself list the Pahlavi reflex (his Pahlavi glosses are given only where the Pahlavi version translates the passage). The page supports the Avestan starting point of the arrow, not the Pahlavi form; for that see PHD and BQT below."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "index s.vv. 'clime', 'region'; s.v. hāmkišwar (p.44)",
+              "stance": "supports",
+              "note": "'clime kišwar' (PHD.txt:1253), 'region kišwar' (PHD.txt:3360), 'hāmkišwar [(h)mkyšwl | M -wr] universe' (PHD.txt:392)."
+            },
+            {
+              "src": "HRN",
+              "where": "p.191 no. 858",
+              "stance": "supports",
+              "note": "'aw. karsvar- \\'Weltteil\\'; phlv. kisvar' — Horn gives the Pahlavi form explicitly."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II, pp.128-130 (as cited by Mo'in in BQT vol.3 p.1656 n.6)",
+              "stance": "supports",
+              "note": "Mo'in's footnote quotes 'پازند keshvar «نیبرگ ۱۲۸-۱۳۰»'; a direct grep of NYB_vol2_glossary.txt for kišwar/kiswar returned nothing (the glossary of Nyberg's Manual covers only the texts edited in Part I), so the form is confirmed via MacKenzie and Mo'in's citation of Nyberg."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "kešvar «کشور»",
+          "verdict": "confirmed",
+          "derivation": "New Persian کشور kešvar continues Middle Persian kišwar directly and without change of shape; the only development is the ordinary NP lowering of the Pahlavi short i to e in an open first syllable (kišwar > kešvar), the same change as in dil > del, dið > did. Semantically the word was secularised: in the Pahlavi books it is one of the seven mythical karšvars, in Ferdowsi and later New Persian it is already 'clime, region', and in the modern language 'country, state'. Borhan-e Qāṭeʿ (printed p.1656) still gives the old sense first — 'کشور: ترجمهٔ اقلیم است که هفت حصه از هفت اقلیم ربع مسکون باشد ... کشور اول ... به زحل و آن هندوستان است' — showing the astrological seven-clime scheme intact in the 17th century; the compound کشورخدای kešvar-xodāy 'king' ('lord of the realm') is listed on the same page.",
+          "derivation_fa": "«کشور» در فارسی نو دنبالهٔ مستقیم kišwarِ فارسی میانه است و تنها دگرگونی آوایی، بدل شدن iِ کوتاهِ پهلوی به eِ فارسی نو در هجای باز است (kišwar > kešvar)، همان تحولی که در dil > دل و diz > دژ دیده می‌شود. تحول معنایی از «هریک از هفت کشورِ اسطوره‌ای» به «اقلیم، ناحیه» و سپس «مملکت» رفته است؛ برهان قاطع (ص ۱۶۵۶) هنوز معنای کهن را نخست می‌آورد: «کشور: ترجمهٔ اقلیم است که هفت حصه از هفت اقلیم ربع مسکون باشد ... کشور اول ... به زحل و آن هندوستان است»، و در همان صفحه «کشورخدای» را «پادشاه» معنی کرده است. حاشیهٔ معین بر همین صفحه ریشه را اوستایی karshvar با ارجاع به بارتولمه ۴۵۹ می‌داند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D8%B4%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1656",
+              "status": "supports",
+              "note": "Borhan-e Qāṭeʿ vol.3, pdf page 449 of BQT_v3_picofile.pdf = printed p.1656 (running head ۱۶۵۶): the headword کشور with the seven-clime explanation, followed by کشورخدا/کشورخدای; footnote 6 reads 'اوستا - karshvar «بارتولمه ۴۵۹»، پهلوی Kishvar (قطعه، قسمت)، پازند keshvar «نیبرگ ۱۲۸-۱۳۰»'. Exactly Nourai's arrow."
+            },
+            {
+              "ref": "BRT:459",
+              "status": "supports",
+              "note": "col. 459-461 karsvar- 'Kreis der Erde, Erdteil' — the Avestan ancestor at the head of the chain, as Mo'in's own footnote on BQT 1656 also cites."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "p.191 no. 858",
+              "stance": "supports",
+              "note": "'858. kišver, kesver \\'Erdteil\\'. aw. karsvar- \\'Weltteil\\'; phlv. kisvar' — Horn's headword is the New Persian word itself."
+            },
+            {
+              "src": "BQT",
+              "where": "vol.3 printed p.1656 with Mo'in's footnote 6",
+              "stance": "supports",
+              "note": "quoted above; Mo'in adds the Pashto/Pazand comparanda and refers to his own Farhang p.278."
+            },
+            {
+              "src": "PHD",
+              "where": "s.v. kišwar",
+              "stance": "supports",
+              "note": "gives the Middle Persian link of the chain."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/کشور",
+              "stance": "supports",
+              "note": "'From Middle Persian kyšwl (kišwar), from Avestan karšvar \\'realm, region; one of the seven realms\\', from the root karš- \\'to plough\\'; literally a tract of land bordered by a ploughed line'; notes the post-Islamic secularisation to 'country'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Kâs 2",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ḱeh₂s- (Pokorny kās-, kəs-) 'to instruct, direct, chastise'",
+      "note": "Pokorny p.533 has the root exactly as Nourai gives it: 'kās-, kəs- \"zurechtweisen, anweisen\"; nur arisch und armenisch', with Skt śāsti 'weist zurecht, züchtigt, herrscht, befiehlt, belehrt', śāstár- 'Bestrafer, Gebieter' = Av. sāstar- 'Gebieter, Fürst', MPers. sāstār 'Herrscher', Av. sāx°an- n. 'Lehre', sāsnā 'Lehre, Gebot'. Nourai's gloss 'to direct, command' and his reference WLD1:358 (= Walde-Pokorny I 358, which Pokorny cites at the foot of the article) are both correct. The one caveat, which Pokorny states himself, is that the root is attested only in Indo-Iranian and Armenian, so labelling the box 'Indo-European' is a convention rather than a comparative fact; modern reconstruction writes it *ḱeh₂s- (LIV 'kās'). The problems on this page are not with the root but with two of the Persian words hung under it — soxan and pāsox — which belong to the homophonous but distinct root *ḱens- (Pokorny 566, Nourai's own 'Kens'); see the nodes.",
+      "note_fa": "پوکورنی در صفحهٔ ۵۳۳ ریشه را دقیقاً به همان صورت آورده است: kās-, kəs- «سرزنش کردن، راهنمایی کردن؛ تنها در آریایی و ارمنی»، با سنسکریت śāsti «می‌آموزد، فرمان می‌دهد»، śāstár- «فرمانروا» برابر با اوستایی sāstar- «فرمانروا، سرور»، فارسی میانهٔ sāstār «حکمران»، اوستایی sāx°an- «آموزه» و sāsnā «آموزه، فرمان». پس ریشه، برچسب زبانی و معنای «فرمان دادن، راه نمودن» درست است و ارجاع WLD1:358 نیز همان جایی است که خودِ پوکورنی به آن ارجاع داده. تنها نکته آنکه این ریشه، به گفتهٔ خودِ پوکورنی، بیرون از هندوایرانی و ارمنی گواهی ندارد و بازسازی امروزی آن *ḱeh₂s- است. اشکال این صفحه در خودِ ریشه نیست، بلکه در دو واژهٔ «سخن» و «پاسخ» است که به ریشهٔ دیگرِ *ḱens- (پوکورنی ۵۶۶) تعلق دارند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/c%C3%A1nhati"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:533",
+          "status": "supports",
+          "note": "POK_02.txt record 192 (the page after the running number 533 in record 191): 'käs-, k(ə)s- ,zurechtweisen, anweisen\\'; nur arisch und armenisch. Ai. sästi ... av. sästi ,heißt, lehrt\\' ... ai. sästdr- ,Bestrafer, Gebieter\\' = av. sästar- ,Gebieter, Fürst\\', mpers. sastär ,Herrscher\\', ... av. säx°an- n. ,Lehre\\', säsnä ,Lehre, Gebot\\' ... WP. I 358, WH. I 179.' Verbatim support for the root and its gloss."
+        },
+        {
+          "ref": "WLD1:358",
+          "status": "supports",
+          "note": "Walde-Pokorny I 358 is the reference Pokorny himself gives at the end of the article ('WP. I 358'), and Buck (SYN p.1338) also cites 'Walde-P. 1.358' for exactly this material (Skt. śas- = Av. sāh- 'command', cf. sāstar- 'ruler'). Band I of Walde-Pokorny is not on disk as searchable page-tagged text (only WLD_band3 = the index volume), so the page was verified indirectly through the two books that cite it."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "SYN",
+          "where": "Buck §19.45 'Command, Order', p.1338",
+          "stance": "supports",
+          "note": "SYN.txt leaf 1432, immediately before the running head '1339': 'Skt. ças-, also general \\'rule, govern, punish, correct\\' = Av. sah- \\'command\\' (cf. sāstar- \\'ruler\\'), esp. \\'teach\\' : Arm. sastem \\'scold, threaten, command\\'. Walde-P. 1.358.'"
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. (kās-/kəs- material)",
+          "stance": "partial",
+          "note": "IEC.txt line 8577 gathers 'Skt. śastah, śasitah, pp. \\'chastized\\'; śastih, śistih f. \\'reproof\\'; Arm. sast \\'reproof\\', sastik \\'severe\\'', but Mann attaches Persian saxt 'hard' here and does not mention sāstār; he also keeps Lat. castus separate as of ambiguous origin."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, IE roots appendix",
+          "stance": "silent",
+          "note": "grep of AHD_watkins1985.txt finds kes-1 'to scratch', kes-2 'to cut' (castigate, chaste) and kes-3 'to order' (kosmos), but no entry for kās- 'to instruct' — expected, since Watkins lists only roots with English reflexes and this root is Indo-Iranian + Armenian only."
+        },
+        {
+          "src": "CHEUNG",
+          "where": "Etymological Dictionary of the Iranian Verb, p.334 s.v. *sanh",
+          "stance": "partial",
+          "note": "Cheung has no *sāh 'instruct' lemma; his neighbouring root *sanh 'to declare, explain' (< PIE *ḱens-, 'Pok.: 566') is the one that carries MP saxwan and passox, which is where Nourai's chart goes wrong further down."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "sâs 1, sâh 1; sâsta, sâstar; sâxvan, sâsnâ; paiti-sahva",
+          "verdict": "disputed",
+          "derivation": "Five of the six forms are exactly Pokorny's own material on the cited page and are confirmed. Av. sāh- (present sāsti, 3sg 'he teaches, commands'; Bartholomae AiW col. 1574-75 's.h- V. \"heissen\", Praes. 1 sāh-, mit frā \"lehren, offenbaren\"') is the Iranian continuation of PIE *ḱeh₂s-, Skt śās-; the s-present stem gives Nourai's 'sās'. The verbal adjective sāsta- 'taught, instructed' and the agent noun sāstar- m. 'Gebieter, Machthaber, Fürst' (AiW col. 1574, exactly Nourai's BRT:1574) are formed with the inherited -ta- and -tar- suffixes; sāstar- is used in the Gāthās and Yašts of hostile, non-Mazdayasnian rulers ('naidā dahyə̄uš yōi sāstārō drəgvantō \"nor the unbelieving rulers of the land\", Y.46.1'), which is why Nourai glosses it 'ruler, oppressor'. Av. sāx°an- n. 'Lehre' and sāsnā- f. 'Lehre, Gebot' (AiW cols. 1575-76, both explicitly 'zum V. sāh-') are the -van- and -nā- abstracts. The sixth item, paiti-sahva, does NOT belong here: the Avestan compound is paiti.saŋh- (YAv. paiti.saŋhāmi V.20.7, med. paiti.saŋhaēša Yt.14.35), built on the separate root sah- / Old Persian θah- 'pronuntiare, to declare' which Bartholomae puts at AiW col. 1578 and which Cheung (p.334, *sanh) and LIV derive from PIE *ḱens- (Pokorny 566) — Nourai's own alternative root 'Kens'. Nothing on Pokorny 533 licenses it. Note also that the 'Old Persian' half of the label fits only the *ḱens- word (OP θah-, θātiy 'says'), not the *ḱeh₂s- words, which are Avestan only.",
+          "derivation_fa": "پنج صورت از شش صورتِ این خانه همان چیزی است که پوکورنی در ص ۵۳۳ آورده و تأیید می‌شود: ستاک اوستایی sāh- (زمان حالِ sāsti «می‌آموزد، فرمان می‌دهد») دنبالهٔ ایرانیِ *ḱeh₂s- و هم‌ریشهٔ سنسکریت śās- است و صورتِ sās همان ستاکِ حالِ آن است؛ صفتِ مفعولیِ sāsta- «آموخته» با پسوند -ta- و نامِ فاعلِ sāstar- «فرمانروا، سرور» با پسوند -tar- ساخته شده‌اند. بارتولمه در ستون ۱۵۷۴ ـ همان صفحه‌ای که نورایی ارجاع داده ـ sāstar- را «فرمانروا، زورمند، شهریار» معنی کرده و می‌افزاید که در گاهان و یشت‌ها بیشتر دربارهٔ فرمانروایانِ بددینْ به کار می‌رود، و همین است که نورایی آن را «ستمگر» ترجمه کرده. sāx°an- «آموزه» و sāsnā- «آموزه، فرمان» نیز در ستون‌های ۱۵۷۵ـ۱۵۷۶ صریحاً «از ستاکِ sāh-» خوانده شده‌اند. اما paiti-sahva از این ریشه نیست: ترکیبِ اوستایی paiti.saŋh- است که بر ستاکِ جداگانهٔ sah- / پارسی باستانِ θah- «گفتن، اعلام کردن» ساخته شده؛ بارتولمه آن را در ستون ۱۵۷۸ جدا آورده و چونگ (ص ۳۳۴، *sanh) و LIV آن را از *ḱens- (پوکورنی ۵۶۶) می‌دانند ـ یعنی همان ریشه‌ای که خودِ نورایی زیر نام «Kens» به آن اشاره کرده است. افزون بر این، برچسبِ «پارسی باستان» تنها با همین واژهٔ *ḱens- (یعنی θah-) می‌خواند، نه با واژه‌های *ḱeh₂s- که تنها اوستایی‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/c%C3%A1nhati"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:533",
+              "status": "supports",
+              "note": "quoted at the entry level: 'av. sāsti \\'heißt, lehrt\\' ... = av. sästar- \\'Gebieter, Fürst\\' ... av. säx°an- n. \\'Lehre\\', säsnä \\'Lehre, Gebot\\''. Pokorny does NOT list paiti-sah- here."
+            },
+            {
+              "ref": "BRT:1574",
+              "status": "supports",
+              "note": "BRT.txt line 26236, between the OCRed column numbers 1571 (line 26182) and 1577 (line 26277), i.e. col. 1573-1575: 'j., g. sästar- m. \\'Gebieter, Machthaber, Fürst\\' ... a) bes. von Feinden des mazdayasnischen Glaubens ... Zum V. sāh- ... mp. sāstār'. The same opening also carries the running head 'sāh-' at col. 1574. sāsnā- ('j., g. säsnä- f. \\'Lehre; Gebot\\' ... Zum V. sāh-') and sāx°an- ('g. sāx°an- n. \\'Lehre\\' ... Zum V. sāh-') follow at cols. 1575-76."
+            },
+            {
+              "ref": "SYN:1338",
+              "status": "supports",
+              "note": "SYN.txt leaf 1432 (§19.45, just before the running head 1339): 'Skt. ças- ... = Av. sah- \\'command\\' (cf. sāstar- \\'ruler\\'), esp. \\'teach\\' : Arm. sastem ... Walde-P. 1.358.' Buck's page number matches Nourai's SYN:1338 exactly."
+            },
+            {
+              "ref": "BQT:354",
+              "status": "partial",
+              "note": "Borhan-e Qāṭeʿ vol.1, leaf 576 of BQT_v1_pages.txt = printed p.354 (printed ≈ leaf − 222): the page does carry the headword پاسخ ('... در مقابل سؤال است') between پاسبان and پاسره, so the citation points to the right page; but the OCR of Mo'in's footnotes on that page is too damaged to read his etymology, and in any case Borhan is a Persian dictionary and says nothing about an Avestan/Old Persian stage."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW cols. 1573-1578",
+              "stance": "partial",
+              "note": "supports sāstar-, sāsnā-, sāx°an- under sāh-, but keeps 'j., g. sah-, p. θah- V. \\'pronuntiare\\'' as a separate lemma at col. 1578 — the root of paiti.saŋh-, i.e. Bartholomae himself separates Nourai's last item from the rest."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p.334 s.v. *sanh 'to declare, explain'",
+              "stance": "contradicts",
+              "note": "'*AVESTAN: saŋh- (saŋh-) ... (+ *pati-) \\'to call up, invoke\\' ... med. 2sg. YAv. paiti.saŋhaēša (Yt 14.35) ... *OLD PERSIAN: θaⁿh- \\'to declare, say\\' ... «PIE *ḱens- \\'to announce, proclaim\\' ... Pok.: 566». The paiti- compound is assigned to *ḱens-, not to Pokorny 533."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon s.v. θah-",
+              "stance": "partial",
+              "note": "Old Persian has θātiy 'says', θahyāmahy, θastanaiy (Cheung: 'Kent: 188a'); there is no OP reflex of sāh- 'instruct'. So of Nourai's 'Avestan / Old Persian' label only the paiti-sahva item has an OP counterpart — and that one belongs to the other root."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck §19.45 p.1338",
+              "stance": "supports",
+              "note": "as quoted; Buck links Av. sāh- 'command' and sāstar- 'ruler' with Skt śās- and Arm. sastem, i.e. exactly Nourai's word-set minus paiti-sahva."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "sâstâr; sâstâreh; soxvan; passaxv, pasux",
+          "verdict": "disputed",
+          "derivation": "Two of the four items are right and two are misfiled. MP sāstār 'commander, tyrant' (Book Pahlavi <s'st'r>) is the direct continuant of Av. sāstar- and is listed by both MacKenzie ('sāstār [s\"st\"l | P sāsār] commander; tyrant. ~ih: tyranny') and Nyberg, who adds the AiW column number: 'sāstar ... ruler, tyrant, of infidel (non-mazdayasnian) sovereigns ... In this sense probably borrowed from Av. (1573) sāstar-; M Prth s'st'r \"master, lord\"'. Nourai's second word sāstāreh is Nyberg's 'sāstārēh bad domination, tyranny' verbatim (= MacKenzie's sāstārīh), the abstract in -īh/-ēh; Nourai has simply copied Nyberg's Pazand-style spelling. The other two are from a different root: MP saxwan 'word, speech' (Manichaean <sxwn>, Book Pahlavi <shwn'>) and passox / pāsox 'answer' (Manichaean <pswx>, BP <pshw'>, <p'shw'>) both go back, per Cheung (p.334), Hübschmann (Persische Studien p.126, p.191, p.210) and Wiktionary, to Proto-Iranian *cánhati / *cánhuš and *pati-cahwaH, i.e. PIE *ḱens-, not to *ḱeh₂s-; the short a of saxwan and the Parthian doublets sxwn / pswx show the *sanh- stem, whereas *ḱeh₂s- would predict a long ā as in sāstār. Note also that Nourai's 'soxvan' is a hybrid spelling: the Pahlavi form is saxwan (the o first appears in New Persian).",
+          "derivation_fa": "از چهار واژهٔ این خانه دو تا درست و دو تا نابه‌جا است. sāstārِ فارسی میانه «فرمانروا، ستمگر» (به خط پهلوی <s'st'r>) دنبالهٔ مستقیم sāstar-ِ اوستایی است؛ مکنزی آن را «فرمانده؛ ستمگر» و nyberg (نیبرگ) آن را «فرمانروا، ستمگر، دربارهٔ شهریارانِ بی‌دین» معنی کرده و می‌افزاید «در این معنا احتمالاً وام‌گرفته از اوستایی (۱۵۷۳) sāstar-». واژهٔ دومِ نورایی یعنی sāstāreh نیز عیناً همان «sāstārēh: چیرگیِ بد، ستمگری» است که نیبرگ آورده (= sāstārīhِ مکنزی)، اسمِ معنا با پسوندِ -īh/-ēh. اما دو واژهٔ دیگر از ریشهٔ دیگری‌اند: saxwan «سخن، گفتار» و passox/pāsox «پاسخ» ـ بنا بر چونگ (ص ۳۳۴)، هوبشمان (پژوهش‌های ایرانی، صص ۱۲۶، ۱۹۱، ۲۱۰) و ویکی‌واژه ـ از ایرانی آغازینِ *cánhuš و *pati-cahwaH، یعنی از *ḱens- می‌آیند نه از *ḱeh₂s-. کوتاهیِ aِ saxwan و صورت‌های پارتیِ sxwn و pswx نیز همین را نشان می‌دهد، حال آنکه *ḱeh₂s- باید āِ بلند بدهد، چنان‌که در sāstār. افزون بر این، صورتِ «soxvan» که نورایی نوشته آمیخته است؛ صورتِ پهلوی saxwan است و oِ آن تازه در فارسی نو پدید می‌آید.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%AE%D9%86",
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3%D8%AE"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:354",
+              "status": "partial",
+              "note": "as above: printed p.354 of Borhan (BQT_v1_pages.txt leaf 576) carries the headword پاسخ, but Borhan gives Persian usage, not a Pahlavi etymology, and the footnote OCR on that leaf is unreadable."
+            },
+            {
+              "ref": "BQT:1573",
+              "status": "not_found",
+              "note": "checked: BQT vol.3, pdf page 366 of BQT_v3_picofile.pdf carries the running head ۱۵۷۳ and contains the entries کاکاو، کاکیان، کاکره، کاکل، کاکو — nothing to do with sāstār, soxvan or pāsox. The relevant Borhan pages for this material are 1072 (ساستا) and 1107 (سخن) in vol.2; '1573' looks like a slip of the pen or a typo for 1073."
+            },
+            {
+              "ref": "MON:1843",
+              "status": "not_checked",
+              "note": "Mo'in's 6-volume Farhang-e Farsi is on disk only as the 2-volume Adena abridgement (MON_part1/part2.txt), which has no page breaks and a different pagination; refs_online.json states outright that MON page numbers cannot be mapped. The substance of the claim (MP sāstār, saxwan, passox) is confirmed instead from MacKenzie and Nyberg."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie pp.73, 65 (s.vv. sāstār, saxwan, passox, pasox)",
+              "stance": "partial",
+              "note": "'sāstār [s\"st\"l | P sāsār] commander; tyrant. ~ih: tyranny' (PHD.txt:564); 'saxwan [MRYA < A mly\\'; shwn\\' | M sxwn, N suxan] word, speech' (PHD.txt:564); 'passox [pshw\\' | M pswx, N pāsux] answer' and 'pasox [p\\'shw\\' | N ~] = passox' (PHD.txt:545). All four Pahlavi forms exist as Nourai gives them (with saxwan, not soxvan), but MacKenzie's Manichaean equivalents sxwn / pswx already point away from a long-ā root."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary s.vv. sāstar, sāstārēh",
+              "stance": "supports",
+              "note": "NYB_vol2_glossary.txt:3407-3408: 'sāstar [s\\'st\\'l] ruler, tyrant, of infidel (non-mazdayasnian) sovereigns, pl. cas. obl. ~-ān 614. — In this sense probably borrowed from Av. (1573) sāstar-; M Prth s\\'st\\'r \\'master, lord\\' (A-H III, BBB).' / 'sāstārēh bad domination, tyranny 109.' Nourai's 'sâstâreh : bad domination' is Nyberg's gloss word for word."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p.334 s.v. *sanh, section *MIDDLE PERSIAN",
+              "stance": "contradicts",
+              "note": "'MMP sxwn, BMP shwn (MRY?) /saxwan/ \\'word, speech\\' || (+ *pati-) MMP pswx, BMP pshw /passox/, p\\'shw /pasox/ \\'answer\\'' — assigned to *sanh < PIE *ḱens-, Pokorny 566."
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien pp.126 and 191",
+              "stance": "contradicts",
+              "note": "p.126: 'ausl. -ux aus -axv: pasux \\'Antwort\\' = phl. pasaxv ...; suxun = suxan \\'Wort\\', paz. saxun aus sax°ar-'; p.191: 'np. paz. pasux \\'Antwort\\' aus *pātsaxv (neben phl. pasaxv aus *patsaxv), vgl. arm. patasxani \\'Antwort\\' ... Diese Assimilirung war erst sassanidisch, wie das Armenische zeigt.' Hübschmann confirms the Pahlavi forms but attaches them to the 'speak' root."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "sâstâ «ساستا»; soxan «سخن»; pâsox «پاسخ» (also ساستار)",
+          "verdict": "disputed",
+          "derivation": "sāstā / sāstār «ساستا، ساستار» is correct: Borhan-e Qāṭeʿ (vol.2, printed p.1072, leaf 534 of BQT_v2_pages.txt) has 'ساستا — بر وزن پارسا: نام دیوی است از تابعان اهرمن' (\"the name of a demon among Ahriman's followers\"), the lexicographers' Persian survival of Pahlavi sāstār 'tyrant' with the final -r lost, and the doublet ساستار is Nourai's script_extra. That word does descend from Kâs 2. The other two do not. سخن soxan continues MP saxwan (loss of intervocalic w with rounding of the preceding vowel: saxwan > saxwun > soxan; Classical Persian also has suxun, and the Shahnameh rhymes both), and پاسخ pāsox continues MP passox / pāsox < *pati-saxwa-, with the Sassanian assimilation *pat-s- > pass- that Hübschmann dates by the Armenian loan patasxani. Both belong to Proto-Iranian *cánhati 'to declare' < PIE *ḱens- (Cheung p.334; Wiktionary s.vv. سخن and پاسخ; Hübschmann pp.126, 191, 210 'suxun, suxan \"Wort\" aus iran. *saxvan- = ap. *θa(h)uvan- von θah \"sprechen\", skr. śaṃs-, zd. saŋh-'). Nourai's own NOTE offers 'Kens' as an alternative root for soxan — that alternative is the one modern scholarship takes, and it applies to pāsox too; his second alternative, 'Wegwh' (PIE *wekʷ- 'to speak'), is not held by anyone for pāsox. The only living defence of Nourai's arrow is Horn, who on the page Nourai cites (HRN:160) derives suxun from Av. sax°arə / sāx°ənī 'Plan, Rat, Rede' following Bartholomae — but Bartholomae's sāx°an- (long ā) cannot give a short a in Pahlavi saxwan, which is why the modern handbooks abandoned it.",
+          "derivation_fa": "«ساستا/ساستار» درست است: برهان قاطع (ج۲، ص ۱۰۷۲) می‌نویسد «ساستا ـ بر وزن پارسا: نام دیوی است از تابعان اهرمن»، و این همان بازماندهٔ فارسیِ sāstārِ پهلوی «ستمگر» است با افتادنِ rِ پایانی؛ صورتِ «ساستار» را هم نورایی در کنارش آورده. این واژه به‌راستی از ریشهٔ Kâs 2 است. اما دو واژهٔ دیگر چنین نیستند. «سخن» دنبالهٔ saxwanِ پهلوی است (wِ میان‌واکه‌ای افتاده و واکهٔ پیشین گِرد شده: saxwan > soxan؛ در فارسی کلاسیک صورت‌های سخُن و سُخُن نیز هست) و «پاسخ» دنبالهٔ passox/pāsoxِ پهلوی از *pati-saxwa- است، با همگونیِ *pat-s- > pass- که هوبشمان آن را به دورهٔ ساسانی می‌رساند و از وام‌واژهٔ ارمنیِ patasxani تاریخ‌گذاری می‌کند. هر دو از ایرانی آغازینِ *cánhati «اعلام کردن» از *ḱens- می‌آیند (چونگ ص ۳۳۴؛ ویکی‌واژه ذیل «سخن» و «پاسخ»؛ هوبشمان صص ۱۲۶، ۱۹۱، ۲۱۰: «suxun، suxan \"سخن\" از ایرانیِ *saxvan- برابر پارسی باستانِ *θa(h)uvan- از ستاکِ θah \"گفتن\"»). خودِ نورایی در یادداشتِ نمودار «Kens» را ریشهٔ دیگرِ ممکن برای «سخن» دانسته است؛ پژوهش امروزی همان را می‌پذیرد و آن را به «پاسخ» نیز تعمیم می‌دهد. اما گزینهٔ دومِ او، «Wegwh» (یعنی *wekʷ-)، برای «پاسخ» هیچ پشتیبانی ندارد. تنها تکیه‌گاهِ نمودار، هرن است که در همان ص ۱۶۰ «سخن» را از اوستاییِ sax°arə/sāx°ənī به پیروی از بارتولمه می‌گیرد؛ ولی āِ بلندِ sāx°an- نمی‌تواند aِ کوتاهِ saxwanِ پهلوی را بدهد و به همین سبب فرهنگ‌های امروزی از آن دست کشیده‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%AE%D9%86",
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3%D8%AE",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/c%C3%A1nhati"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1072",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 534 (printed page ≈ leaf + 538, i.e. 1072; the surrounding headwords are ساسان، ساسر، ساسم, which fits the alphabetical place): 'ساستا = ۴ ... بر وزن پارسا ... نام دیوی است از تابعان اهرمن'. Exactly Nourai's gloss 'oppressor, demon'."
+            },
+            {
+              "ref": "BQT:1107",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 569-570 (printed ≈ 1106-1107): the سخن article, with the footnote (partly legible in the OCR) 'سخون (م). پهلوی saxvan ... (لفظ، عبارت) از اوستا ... «بارتولمه ...»' and, next to it, 'قس: پاسخ (پهلوی pasaxv)'. Borhan/Mo'in thus give the MP > NP step Nourai draws (but derive it from Avestan sax°an-, i.e. Bartholomae's assignment, not from a chain through sāstār)."
+            },
+            {
+              "ref": "BQT:354",
+              "status": "partial",
+              "note": "printed p.354, vol.1 (leaf 576): headword پاسخ present, glossed as the counterpart of سؤال; no etymology legible in this OCR."
+            },
+            {
+              "ref": "HRN:160",
+              "status": "supports",
+              "note": "HRN.txt leaf 181 = printed p.160, entry no. 724: 'suxun, suxn (Sahn. I,29 V.117 neben -uwn, ebendas. V.109) \\'Wort, Rede\\'. Kās. K. suxan[ōni]. aw. sax°arə (Y.29,4), sāx°ənī (Y.53,5) \\'Plan, Rat, Rede\\' (Bartholomae, Ar. Forsch. III,36,37); phlv. saxwn \\'Wort, Rede\\'.' Horn's page supports Nourai's chain — but Horn (1893) predates the modern assignment of the word to *ḱens-."
+            },
+            {
+              "ref": "MON:1796",
+              "status": "not_checked",
+              "note": "the 6-volume Mo'in is not available with mappable pagination (only the 2-volume Adena abridgement without page breaks); see the note on MON:1843."
+            },
+            {
+              "ref": "FSF:99",
+              "status": "not_found",
+              "note": "Noushin's Vāzhe-namak (FSF_pages.txt, 485 leaves; printed page = leaf − 3, checked against the running numerals 108 at leaf 111, 113 at leaf 116, 130 at leaf 123): leaf 102 = printed p.99 is in the ب section (برگی، برفزود), and a grep of the whole file for ساستا/ساستار returns nothing. Either Nourai used a different printing or the number is wrong."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien pp.126, 191, 210",
+              "stance": "contradicts",
+              "note": "p.210: 'suxun, suxan \\'Wort\\' aus iran. *saxvan- = ap. *θa(h)uvan- von θah \\'sprechen\\', skr. śaṃs-, zd. saŋh-'; p.191: 'np. paz. pasux \\'Antwort\\' aus *pātsaxv ... vgl. arm. patasxani'. Hübschmann assigns both New Persian words to the 'speak' root, not to sāh- 'instruct'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p.334 s.v. *sanh, section *NWIR",
+              "stance": "contradicts",
+              "note": "'NP suxan, saxun \\'word, speech\\' || (+ *pati-) NP pāsux, Bal. pas(s)aw \\'answer\\'' under *sanh < PIE *ḱens-, Pok. 566."
+            },
+            {
+              "src": "HRN",
+              "where": "p.160 no. 724",
+              "stance": "supports",
+              "note": "Horn keeps suxan with Avestan sax°arə/sāx°ənī after Bartholomae — the minority position Nourai follows."
+            },
+            {
+              "src": "BQT",
+              "where": "vol.2 pp.1072 and 1106-1107",
+              "stance": "partial",
+              "note": "supports ساستا 'demon, follower of Ahriman' and the saxwan > سخن step; silent on sāstār as the source of soxan."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.vv. saxwan, passox",
+              "stance": "partial",
+              "note": "gives the immediate Middle Persian ancestors of سخن and پاسخ, with Manichaean sxwn / pswx."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Kasyapa",
+      "verdict": "confirmed",
+      "modern_form": "Younger Avestan kasiiapa- m. 'tortoise' < Proto-Iranian *kacyápah < Proto-Indo-Iranian *kaćyápas (Skt kaśyápa- / kacchapa- 'tortoise')",
+      "note": "Bartholomae AiW (col. ~460, BRT.txt line 9423) has 'j. kasyapa- m. \\'Schildkröte\\'', and Mo'in's footnote 2 to کشف in Borhan-e Qāṭeʿ p.1651 gives exactly Nourai's comparison: 'اوستا - kasyapa (سنگ‌پشت) یا (خرچنگ)؛ سانسکریت - kaçyapa (سنگ‌پشت)، بلوچی kasib «استق ۱۹۰»، افغانی kshap؛ هوبشمان'. Nourai's root note 'cognate with Sanskrit kačyâpa' is Mo'in's kaçyapa = Skt kaśyápa-; modern Wiktionary reconstructs Proto-Iranian *kacyápah and prefers the by-form कच्छप kacchapa- on the Indic side, but the equation itself is uncontroversial. The gloss and the language label are both correct.",
+      "note_fa": "بارتولمه در فرهنگ ایرانی باستان (نزدیکِ ستون ۴۶۰) «kasyapa- نرینه: سنگ‌پشت» را آورده و معین در حاشیهٔ ۲ بر مدخلِ «کشف» در برهان قاطع (ص ۱۶۵۱) دقیقاً همان مقایسه‌ای را می‌کند که نورایی کرده است: «اوستا ـ kasyapa (سنگ‌پشت) یا (خرچنگ)؛ سانسکریت ـ kaçyapa (سنگ‌پشت)، بلوچی kasib، افغانی kshap؛ هوبشمان». یادداشتِ نورایی که واژه را هم‌ریشهٔ سنسکریتِ kačyâpa می‌داند همان kaçyapaِ معین است. ویکی‌واژه ایرانی آغازین را *kacyápah بازسازی می‌کند و در سوی هندی صورتِ कच्छप kacchapa- را ترجیح می‌دهد، ولی در اصلِ این هم‌ریشگی اختلافی نیست. برچسبِ زبانی و معنا هر دو درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%DA%A9%D8%B4%D9%81",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/kacy%C3%A1pah"
+      ],
+      "ref_check": [
+        {
+          "ref": "SOD:204",
+          "status": "supports",
+          "note": "Gharib, Sogdian Dictionary: SOD_pages.txt leaf 270 = printed p.204 (printed ≈ leaf − 66), entry no. 5125: 'kyšph B ... kis(a)p ©<Av. kasyapa ... tortoise. SCE 157, 353; GMS 192'. Gharib herself derives the Sogdian word from Avestan kasyapa, exactly Nourai's root box."
+        },
+        {
+          "ref": "BQT:1651",
+          "status": "supports",
+          "note": "Borhan-e Qāṭeʿ vol.3, pdf p.444 = printed p.1651 (running head ۱۶۵۱ visible on the page): the headword 'کشف — بفتح اول و ثانی و سکون فا: لاک‌پشت و کاسه‌پشت را گویند' with footnote 2 'اوستا - kasyapa (سنگ‌پشت) یا (خرچنگ)؛ سانسکریت - kaçyapa (سنگ‌پشت)، بلوچی kasib «استق ۱۹۰»، افغانی kshap؛ هوبشمان'."
+        },
+        {
+          "ref": "MON:2987",
+          "status": "not_checked",
+          "note": "Mo'in's 6-volume Farhang is available only as the 2-volume Adena abridgement without page breaks, and refs_online.json notes that MON page numbers cannot be mapped; the same author's etymological footnote in Borhan p.1651 (checked above) carries the identical claim."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BRT",
+          "where": "AiW col. ~460 (BRT.txt line 9423)",
+          "stance": "supports",
+          "note": "'j. kasyapa- m. \\'Schildkröte\\', die als ...' — the Avestan word exists with exactly this meaning, on the same opening as karšvar- (cols. 457-463)."
+        },
+        {
+          "src": "HRN",
+          "where": "p.191 no. 856",
+          "stance": "supports",
+          "note": "'856. kešef \\'Schildkröte; Krebs\\' (Zodiac, Sahn. I,77 Vers 285), keseb (dial.). aw. kasyapa- \\'Schildkröte\\' oder \\'Krebs\\' (Geldner, KZ.25,503,506); skr. (Brhm.) kaçyápa- \\'Schildkröte\\'; afgh. kasy \\'Schildkröte\\'; bel. kāsib.'"
+        },
+        {
+          "src": "SOD",
+          "where": "Gharib no. 5125, p.204",
+          "stance": "supports",
+          "note": "as quoted."
+        },
+        {
+          "src": "HUB",
+          "where": "Persische Studien §71 (p.178) and §80 (p.185)",
+          "stance": "supports",
+          "note": "p.178: 'Für b, v aus p erscheint unregelmässig f in kasaf \\'Schildkröte\\' neben kašav (bei Vullers) = zd. kasyapa-, afgh. kasap'; p.185: 'Vgl. auch kasaf \\'Schildkröte\\' = zd. kasyapa- (§71).'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "kašaf «کَشَف»",
+          "verdict": "confirmed",
+          "derivation": "Avestan kasiiapa- yields New Persian کَشَف kašaf: the intervocalic -p- of Old Iranian is regularly voiced and spirantised to -b/-v- in Middle Persian (Wiktionary reconstructs the Book Pahlavi form as <kšwk'> /kašawag/ with the productive -ag suffix), and the New Persian word shows an irregular f for the expected b/v — precisely the point Hübschmann makes in Persische Studien §71: 'für b, v aus p erscheint unregelmässig f in kasaf \"Schildkröte\" neben kašav (bei Vullers) = zd. kasyapa-, afgh. kasap'. The Avestan -sii- (-sy-) becomes MP/NP -š-. The word is archaic in modern Persian (replaced by لاک‌پشت), but it is well attested in the tenth century: Nourai's citation from Rudaki, 'چون کَشَف انبوه غوغایی بدید — بانگ وژخ مردمان، خشم آورید', is the same verse Borhan-e Qāṭeʿ prints on p.1651 (Borhan has خشم آورید where Nourai prints خشم آفرید). It also survives as the river-name کَشَف‌رود north of Mashhad, which Mo'in notes in footnote 9 on the same page.",
+          "derivation_fa": "«کَشَف» فارسی نو از اوستاییِ kasiiapa- می‌آید: pِ میانِ دو واکه در ایرانی میانه به b/v نرم می‌شود (ویکی‌واژه صورتِ پهلوی را <kšwk'> یعنی kašawag با پسوندِ -ag بازسازی می‌کند) و -sii-ِ اوستایی به šِ فارسی بدل می‌شود؛ آنچه بی‌قاعده است fِ پایانی به‌جای bِ چشم‌داشتی است و هوبشمان در بند ۷۱ «پژوهش‌های ایرانی» صریحاً همین را می‌گوید: «به‌جای b و vِ برآمده از p، به‌گونهٔ بی‌قاعده f می‌آید، در kasaf \"سنگ‌پشت\" در کنار kašav (نزد ولرس) برابر اوستاییِ kasyapa-، افغانیِ kasap». این واژه امروز کهنه است و جای خود را به «لاک‌پشت» داده، ولی در سدهٔ چهارم زنده بوده؛ بیتِ رودکی که نورایی آورده («چون کَشَف انبوه غوغایی بدید ـ بانگ وژخ مردمان، خشم آورید») همان است که برهان قاطع در ص ۱۶۵۱ نقل کرده. نامِ رودِ «کَشَف‌رود» در شمالِ مشهد نیز از همین واژه است (حاشیهٔ ۹ همان صفحه). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%A9%D8%B4%D9%81",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/kacy%C3%A1pah"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1651",
+              "status": "supports",
+              "note": "printed p.1651 of Borhan (vol.3 pdf p.444): the headword کشف 'لاک‌پشت و کاسه‌پشت' with the Rudaki verse and footnote 2 deriving it from Avestan kasyapa / Sanskrit kaçyapa; footnote 9 identifies کشف‌رود, 'یکی از شعب هریرود که سرچشمهٔ آن ... در کوههای ... و پس از مشروب کردن رادکان و چناران از شمال مشهد گذشته ...'."
+            },
+            {
+              "ref": "HRN:191",
+              "status": "supports",
+              "note": "HRN.txt leaf 212 = printed p.191, entry no. 856: 'kešef \\'Schildkröte; Krebs\\' ... aw. kasyapa- \\'Schildkröte\\' ... skr. (Brhm.) kaçyápa-'. Horn's page is the same one that carries kišver (no. 858) — Nourai's HRN:191 does double duty for both roots on this book page."
+            },
+            {
+              "ref": "MON:2987",
+              "status": "not_checked",
+              "note": "6-volume Mo'in not page-mappable; see the root-level note. Mo'in's own etymological footnote in Borhan p.1651 carries the identical derivation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien §71 p.178, §80 p.185",
+              "stance": "supports",
+              "note": "quoted above — Hübschmann treats np. kasaf = zd. kasyapa- as established and only discusses the irregular f."
+            },
+            {
+              "src": "HRN",
+              "where": "p.191 no. 856",
+              "stance": "supports",
+              "note": "as quoted."
+            },
+            {
+              "src": "BQT",
+              "where": "vol.3 p.1651 with Mo'in's footnote 2",
+              "stance": "supports",
+              "note": "as quoted."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/کشف (Etymology 2) and Reconstruction:Proto-Iranian/kacyápah",
+              "stance": "supports",
+              "note": "'From Middle Persian [Book Pahlavi needed] (kšwk\\' /kašawag/, \\'tortoise\\'), from Proto-Iranian *kacyápah'; the reconstruction page lists 'Avestan kasiiapa', 'Middle Persian kšwk /kašawag/, Classical Persian kašaf', 'Sogdian kyšph /kiš(a)p/', 'Khotanese khuysaa', 'Ossetian xæfs'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Sogdian",
+          "words": "kyšf",
+          "verdict": "confirmed",
+          "derivation": "Sogdian <kyšph>, read kiš(a)p, 'tortoise' is the Sogdian cognate of Avestan kasiiapa-, not a descendant of it: Sogdian is an independent (North-)Eastern Iranian branch, so both continue Proto-Iranian *kacyápah. Gharib's Sogdian-Persian-English Dictionary no. 5125 (p.204) prints '5125 kyšph B — kis(a)p ©<Av. kasyapa — tortoise', i.e. she marks the word with the same '< Avestan' shorthand Nourai's arrow uses. The form is attested in the Buddhist Sogdian script (B), in the Sūtra of the Causes and Effects (SCE 157, 353); the digraph <ph> writes the fricative f/β, so Nourai's 'kyšf' and Gharib's 'kyšph' are the same word — the difference is one of transliteration convention, not of form. Phonologically the Sogdian shows the same *-sy- > -š- and *-p- > -f/β developments as Persian, with loss of the final syllable.",
+          "derivation_fa": "صورتِ سغدیِ <kyšph> که kiš(a)p خوانده می‌شود، هم‌ریشهٔ kasiiapa-ِ اوستایی است نه برآمده از آن؛ سغدی شاخهٔ جداگانه‌ای از ایرانیِ شرقی است و هر دو صورت از ایرانی آغازینِ *kacyápah می‌آیند. قریب در فرهنگ سغدی (شمارهٔ ۵۱۲۵، ص ۲۰۴) می‌نویسد «kyšph ب ... kis(a)p ©< اوستایی kasyapa ... سنگ‌پشت»، یعنی خودِ او همان پیکانِ نورایی را می‌کشد. واژه در متونِ سغدیِ بودایی (SCE ۱۵۷ و ۳۵۳) گواهی شده است. دو نویسهٔ <ph> در املای سغدی همان سایشیِ f/β را می‌نویسد، پس «kyšf»ِ نورایی و «kyšph»ِ قریب یک واژه‌اند و اختلاف تنها در شیوهٔ آوانویسی است. از نظر آوایی همان دگرگونی‌های *-sy- > -š- و *-p- > -f/β که در فارسی هست در سغدی نیز دیده می‌شود، با افتادنِ هجای پایانی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/kacy%C3%A1pah"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:204",
+              "status": "supports",
+              "note": "SOD_pages.txt leaf 270 = printed p.204 (printed ≈ leaf − 66; SOD.txt lines 41575-41580): '5125 kyšph B — kis(a)p ©<Av. kasyapa — tortoise — SCE 157, 353; GMS 192'. The English index of the same dictionary lists 'tortoise 5125'. Nourai's page number is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib no. 5125, p.204",
+              "stance": "supports",
+              "note": "as quoted."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "Reconstruction:Proto-Iranian/kacyápah",
+              "stance": "supports",
+              "note": "lists 'Sogdian kyšph (/kiš(a)p/)' among the descendants alongside Avestan kasiiapa and Middle Persian kašawag, i.e. sister forms rather than a Sogdian borrowing from Avestan."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, Khotanese (via Gharib's cross-references DKS 418b, 224b)",
+              "stance": "partial",
+              "note": "Wiktionary's reconstruction page gives Khotanese khuysaa for the same etymon, which corroborates the Eastern Iranian side of the equation; no direct entry was located in the local ISS_alt_DKS.txt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Kâtara",
+      "verdict": "plausible",
+      "modern_form": "Sanskrit कातर kātara- adj. 'cowardly, faint-hearted, timid; perplexed, confused'",
+      "note": "The Sanskrit word is real and Nourai's gloss is close but not exact: Monier-Williams and Wiktionary give 'cowardly, faint-hearted, timid; confused, perplexed' (and as a neuter noun 'despair'); 'wandering' is not a Sanskrit sense but the Persian one (سرگشته). Mo'in's footnote in Borhan p.1555 renders it 'ترسو، کم‌رو، گیج، مضطرب' = 'timid, shy, dizzy, agitated', which is what Nourai has translated. Wiktionary's etymology for kātara is itself uncertain — either a vṛddhi derivative of katará- 'which of two?' or a Middle-Indic/substrate word (cf. Prakrit kattara) — so the Sanskrit end of the chart is not a securely inherited Indo-Aryan form either. The chart's own NOTE ('Persian words may be cognates with rather than derivatives from Sanskrit') is the right caution and, given that the word has no Iranian cognate and Mo'in only writes قس 'compare', neither a loan nor a cognate relation can be demonstrated.",
+      "note_fa": "واژهٔ سنسکریتِ कातर kātara- واقعی است و معنای آن در مونیر ویلیامز و ویکی‌واژه «ترسو، بزدل، کم‌دل؛ سرگشته، آشفته» (و در حالتِ اسم خنثی «نومیدی») است؛ معنای «سرگردان» که نورایی افزوده معنای فارسی است نه سنسکریت. معین در حاشیهٔ ص ۱۵۵۵ برهان قاطع آن را «ترسو، کم‌رو، گیج، مضطرب» ترجمه کرده و نورایی همین را به انگلیسی برگردانده است. خودِ ریشه‌شناسیِ kātara در سنسکریت روشن نیست: یا مشتقِ وریدّهی از katará- «کدام‌یک از دو» است یا واژه‌ای از لایهٔ زیرین/میانه‌هندی (قس پراکریتِ kattara)، پس سرِ سنسکریتیِ نمودار هم استوار نیست. یادداشتِ خودِ نمودار («شاید واژه‌های فارسی هم‌ریشه باشند نه برگرفته از سنسکریت») احتیاطِ بجایی است: معین تنها «قس» (= مقایسه کنید) نوشته، نه اینکه واژه را وام‌واژه بداند، و چون این واژه در هیچ زبان ایرانیِ دیگری هم‌ریشه ندارد، نه وام‌گیری اثبات‌شدنی است و نه هم‌ریشگی.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A4%E0%A4%B0"
+      ],
+      "ref_check": [
+        {
+          "ref": "BQT:1555",
+          "status": "partial",
+          "note": "Borhan-e Qāṭeʿ vol.3, pdf page 348 of BQT_v3_picofile.pdf = printed p.1555 (offset +1207, cross-checked against pdf 444 = printed 1651 whose running head is visible): footnote 4 to the entry کاتوره reads 'قس: سانسکریت katara (ترسو، کم‌رو، گیج، مضطرب) وبلیامز ۲۴۷:۱' — i.e. Mo'in cites Monier-Williams I 247 and writes قس \\'compare\\', offering the Sanskrit word as a comparandum, not as the source. The page is exactly the one Nourai cites and it is the origin of his root box, but it does not assert derivation."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BQT",
+          "where": "vol.3 printed p.1555, entry کاتوره with Mo'in's footnote 4",
+          "stance": "partial",
+          "note": "as quoted; the entry itself reads '«کاتوره» سرگشته (سرگشتگی، ظ.) بود. رودکی (سمرقندی) گوید: هیچ راحت می نبینم در سرود و رود تو / جز که از فریاد و زخمهٔ ات خلق را کاتوره خاست' and adds a Manuchehri citation 'آن بلبل کاتوره برجسته ز مطمور'."
+        },
+        {
+          "src": "Wiktionary",
+          "where": "en.wiktionary.org/wiki/कातर",
+          "stance": "partial",
+          "note": "'cowardly, faint-hearted; confused'; neuter 'despair'. Etymology uncertain: possibly a vṛddhi derivative of कतर (katará, \\'which of two?\\'), or a borrowing (cf. Prakrit कत्तर kattara \\'rubbish\\'), with 'unusual phonological variation and late attestation' suggesting substrate origin. No Iranian cognate is listed."
+        },
+        {
+          "src": "HRN",
+          "where": "Grundriss (grep for katur/kātūra)",
+          "stance": "silent",
+          "note": "Horn's Neupersische Etymologie has no entry for کاتوره; the word is a rare lexicographers' item, not part of his core vocabulary."
+        },
+        {
+          "src": "MON",
+          "where": "Farhang-e Farsi (2-vol Adena abridgement on disk)",
+          "stance": "silent",
+          "note": "grep of MON_part1/part2.txt for کاتوره returns nothing; the abridgement drops rare Borhan headwords."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "kâtŭreh «کاتوره» (also کاتور)",
+          "verdict": "plausible",
+          "derivation": "کاتوره kātureh is a rare Persian word of the Samanid period meaning 'bewilderment, being distraught, dizziness' (Borhan p.1555: '«کاتوره» سرگشته [سرگشتگی، ظ.] بود'), attested in the Rudaki line Nourai prints — 'هیچ راحت می نبینم در سرود و رود تو / جز که از فریاد و زخمهٔ ات خلق را کاتوره خاست' — and in Manuchehri ('آن بلبل کاتوره برجسته ز مطمور'). Formally the word looks Persian: کاتور + the ه of the abstract/adjectival formation, which is why Borhan also lists the short form کاتور (Nourai's script_extra). The link with Sanskrit kātara- 'timid, perplexed' is Mo'in's, and he states it with قس 'compare', not as a derivation; the semantic fit ('perplexed' ≈ سرگشته) is good, but the phonology is not: Sanskrit -t- would not normally surface as Persian -t- in a genuine cognate (Old Iranian would show *kātara- with the same shape only by accident), and a tenth-century direct borrowing from Sanskrit into Khorasani Persian, with no Middle Persian or Middle Indic intermediary attested, is not otherwise documented. Nourai's own note — 'Persian words may be cognates with rather than derivatives from Sanskrit' — is therefore the honest verdict; but since Sanskrit kātara- has itself no secure Indo-European etymology (Wiktionary: perhaps a vṛddhi of katará-, perhaps substrate), cognacy cannot be demonstrated either. The Persian word and its meaning are confirmed; the arrow from Sanskrit is a comparison, not an established derivation.",
+          "derivation_fa": "«کاتوره» واژه‌ای کمیاب از دورهٔ سامانی به معنای «سرگشتگی، آشفتگی، گیجی» است؛ برهان قاطع (ص ۱۵۵۵) می‌نویسد «کاتوره سرگشته (سرگشتگی، ظ.) بود» و همان بیتِ رودکی را می‌آورد که نورایی نقل کرده، و بیتی از منوچهری نیز («آن بلبل کاتوره برجسته ز مطمور»). از نظر ساخت، واژه فارسی می‌نماید: «کاتور» به‌علاوهٔ «ـه»؛ برهان صورتِ کوتاهِ «کاتور» را نیز آورده که نورایی در کنار آن نوشته است. پیوند با سنسکریتِ kātara- «ترسو، سرگشته» از معین است و او آن را با «قس» (مقایسه کنید) آورده، نه به‌عنوان ریشه. سازگاریِ معنایی خوب است، ولی از سوی آوایی دلیلی در کار نیست و وام‌گیریِ مستقیم از سنسکریت به فارسیِ خراسان در سدهٔ چهارم، بی هیچ واسطهٔ فارسی میانه یا هندیِ میانه، در جای دیگری گواهی نشده. پس یادداشتِ خودِ نورایی («شاید هم‌ریشه باشند نه برگرفته») درست‌تر است؛ اما چون خودِ kātaraِ سنسکریت هم ریشه‌شناسیِ استواری ندارد (ویکی‌واژه: شاید مشتقِ وریدّهی از katará-، شاید وام‌واژه‌ای زیرلایه‌ای)، هم‌ریشگی نیز اثبات‌شدنی نیست. واژهٔ فارسی و معنای آن تأیید می‌شود، ولی پیکانِ سنسکریت ← فارسی یک مقایسه است نه یک اشتقاقِ ثابت‌شده.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A4%E0%A4%B0"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1555",
+              "status": "partial",
+              "note": "printed p.1555 (BQT vol.3 pdf p.348), entry کاتوره with the Rudaki verse Nourai quotes verbatim, and footnote 4: 'قس: سانسکریت katara (ترسو، کم‌رو، گیج، مضطرب) وبلیامز ۲۴۷:۱'. The page is Nourai's source for both the root box and this node, but Mo'in writes 'compare', not 'from'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol.3 p.1555",
+              "stance": "partial",
+              "note": "as quoted; also gives the Manuchehri citation (منوچهری دامغانی ۱۷۹) and the variant کاتور."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/कातर",
+              "stance": "partial",
+              "note": "confirms the Sanskrit word's meaning ('cowardly, faint-hearted; confused') but gives no Iranian descendant or cognate and calls the Sanskrit etymology itself uncertain."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss der neupersischen Etymologie",
+              "stance": "silent",
+              "note": "no entry for kātureh / kātur (grep of HRN.txt)."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Farsi (Adena 2-vol abridgement)",
+              "stance": "silent",
+              "note": "no کاتوره entry in MON_part1/part2.txt."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
