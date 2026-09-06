@@ -1,0 +1,841 @@
+{
+ "pdf_page": 291,
+ "book_page": 261,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-06",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Kwel, Qwel",
+   "verdict": "confirmed",
+   "modern_form": "PIE *kʷel- / *kʷelh₁- ‘to turn (end over end), revolve, move around; sojourn, dwell’ (Pokorny 1. kʷel-, kʷelə- 639–640)",
+   "note": "The root is real and the language label is right. Pokorny 639–640 gives 1. kʷel-, kʷelə- ‘drehen, sich drehen, sich herumbewegen, wohnen’ and Watkins/AHD renders it ‘To revolve, move around, sojourn, dwell’ — Nourai’s gloss follows AHD word for word except that the printed page has lost the verb: it reads ‘to, move around, dwell’. That is a misprint in the BOOK (verified on the page image), not an extraction error; the correct gloss is ‘to turn, move around, dwell’. Second, POK:640 is exactly the page where Pokorny’s 1. kʷel- ends and where his separate 2. kʷel- ‘far (in space and time)’ (Greek tḗle) begins; Nourai’s chart silently merges the two roots (his Greek box glosses telos ‘end of a cycle, far away’ and his English box lists tele-, telescope, television). Pokorny, Watkins and Etymonline all keep them apart (*kʷel-1 vs *kʷel-2).",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *kʷel- (بازسازی امروزی: *kʷelh₁-) به معنی «چرخیدن، گردیدن، پیرامون چیزی گشتن و در نتیجه ماندن و سکونت گزیدن» است؛ پوکورنی آن را در صفحهٔ ۶۳۹–۶۴۰ ذیل «۱. kʷel-» و واتکینز در پیوست ریشه‌های هندواروپایی فرهنگ امریکن‌هریتیج با همین معنا آورده‌اند. پس ریشه، برچسب زبانی و معنی در نمودار درست است. تنها در چاپ کتاب فعلِ turn از معنی افتاده و «to, move around, dwell» چاپ شده که خطای چاپی خودِ کتاب است و نه خطای خوانش اسکن. نکتهٔ دوم آنکه صفحهٔ ۶۴۰ پوکورنی جایی است که ریشهٔ دومِ kʷel- به معنی «دور، دوردست» (یونانی tḗle) آغاز می‌شود؛ نورایی این دو ریشه را یکی گرفته است، حال آنکه پوکورنی، واتکینز و اتیمانلاین آن دو را جدا می‌دانند.",
+   "error_in": "book",
+   "book_prints": "Kwel, Qwel : to, move around, dwell",
+   "correct_form": "Kwel, Qwel : to turn, move around, dwell",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7el-",
+    "https://www.etymonline.com/word/talisman",
+    "https://www.etymonline.com/word/tele-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:640",
+     "status": "supports",
+     "note": "Pokorny p.639–640 ‘kʷel-1, kʷelə-’, Meaning ‘to turn; wheel; neck?’ (German original: ‘drehen, sich drehen, sich herumbewegen, wohnen’); p.640 also carries ‘kʷel-2, Meaning: far (with regard to place and time)’ with Greek τῆλε. Found with grep -n 'Page(s): 64[0-2]' POK_full.txt and printing the two blocks. Both of Nourai’s meanings sit on that page, but they belong to two different roots."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 514 f. (q̩el- ‘drehen’; cited by Pokorny as ‘WP. I 514 f.’)",
+     "stance": "supports",
+     "note": "WLD_Bd1_pages.txt, the q̩el- ‘drehen’ article: ‘Aisl. hvel n. ‚Rad‘ (= apr. kelan ds.; …)’; the same article expressly refuses Latin collum, referring it to q̩el- ‘ragen’ (see node 11)."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. kʷel-1 (= 1976 appendix)",
+     "stance": "supports",
+     "note": "AHD_watkins1985.txt s.v. kʷel-1: ‘To revolve, move around, sojourn, dwell. I. Basic form *kʷel- in Latin colere … COLONY, CULT, CULTIVATE, (CULTURE) … II. Suffixed form *kʷel-es- in Greek telos, “completion of a cycle” … TALISMAN … III. Suffixed reduplicated form *kʷ(e)-kʷl-o-, circle. 1. Germanic *hwewlaz in Old English hwēol, wheel: WHEEL. 2. Greek kuklos … CYCLE … IV. O-grade form *kʷol-. 1. Suffixed form *kʷol-so-, “that on which the head turns”, neck … b. Latin collum, neck: COL, COLLAR … [Pok. 1. kʷel- 639.]’"
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 10.76 WHEEL, pp.724–725",
+     "stance": "supports",
+     "note": "‘IE *kʷelo-s, *kʷolo-s, redupl. *kʷekʷlo-s, fr. *kʷel- in Skt. car- “move, wander”, Grk. πέλομαι “be in motion”, etc. Walde-P. 1.514 ff.’ (grep -n '10.76 WHEEL' SYN.txt)."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Greek",
+     "words": "ku-klos; telos; telesma",
+     "verdict": "plausible",
+     "derivation": "Greek kýklos ‘ring, circle, wheel’ is the reduplicated *kʷe-kʷl-o- of the root (Sanskrit cakra-, Avestan caxra-, OE hwēol are the same formation); télos ‘end, fulfilment, completion’ goes back to a suffixed *kʷel-es-, the ‘turning point’ of a race-course, whence the verb teleîn ‘to perform (a rite), to pay’ and its noun télesma ‘payment; consecration, completed rite’, which in Byzantine Greek came to mean ‘consecrated object, talisman’ — the sense Nourai glosses ‘mystery’. So kýklos, télos and télesma are all correctly placed under *kʷel-1 (Watkins II–III). The second half of the gloss on telos, ‘far away’, is not télos but Greek tḗle ‘far off’, which Pokorny (640) and Watkins put under a homonymous root *kʷel-2 ‘far’; the node is therefore right in substance but conflates two roots.",
+     "derivation_fa": "یونانی kýklos «حلقه، چرخ» صورت مضاعف‌شدهٔ *kʷe-kʷl-o- از همین ریشه است (همان ساخت که سنسکریت cakra-، اوستایی caxra- و انگلیسی کهن hwēol را داده است). télos «پایان، کمال» از *kʷel-es- است، یعنی «نقطهٔ گردش» میدان مسابقه؛ از آن فعل teleîn «آیین به‌جای آوردن، پرداختن» و اسمِ télesma «پرداخت؛ آیین کامل‌شده، تقدیس» ساخته شده که در یونانیِ بیزانسی معنی «طلسم» گرفت. بنابراین هر سه واژه درست ذیل این ریشه نشسته‌اند. اما بخش دوم معنیِ telos یعنی «دوردست» به tḗle «دور» بازمی‌گردد که پوکورنی (ص ۶۴۰) و واتکینز آن را ریشهٔ جداگانه‌ای می‌دانند؛ پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/talisman",
+      "https://www.etymonline.com/word/tele-",
+      "https://www.etymonline.com/word/cycle"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt s.v. kʷel-1: ‘To revolve, move around, sojourn, dwell. I. Basic form *kʷel- in Latin colere … COLONY, CULT, CULTIVATE, (CULTURE) … II. Suffixed form *kʷel-es- in Greek telos, “completion of a cycle” … TALISMAN … III. Suffixed reduplicated form *kʷ(e)-kʷl-o-, circle. 1. Germanic *hwewlaz in Old English hwēol, wheel: WHEEL. 2. Greek kuklos … CYCLE … IV. O-grade form *kʷol-. 1. Suffixed form *kʷol-so-, “that on which the head turns”, neck … b. Latin collum, neck: COL, COLLAR … [Pok. 1. kʷel- 639.]’ — kuklos and telos (with TALISMAN) are both listed under kʷel-1; tḗle, however, is under kʷel-2 ‘Far (in space and time)’."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "639–640 (kʷel-1) and 640 (kʷel-2)",
+       "stance": "partial",
+       "note": "POK_full.txt, block ‘Root/lemma: kʷel-1, kʷelə-’, Meaning ‘to turn; wheel; neck?’, Page(s): 639-640: ‘Latin colo, -ere “to till, tend, care for, cultivate” (*kʷelo), colonus, incolere “inhabit” … collum “the neck” (*kʷol-so-, Gothic hals) … Old Church Slavic kolo, Gen. kolese “wheel” … gr. κυκλος “circle” … Old English hweol (Germanic *hweh(w)ula-)’. kʷel-2 p.640: ‘gr. τῆλε, Aeolic πήλυι “afar, wide”’ — a separate lemma."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. talisman, KLN_1966.txt line 38052 = leaf 830 ≈ printed p.1633",
+       "stance": "supports",
+       "note": "‘F. talisman, fr. Sp. talisman, fr. VArab. tilsamān, pl. of tilsam, which corresponds to Classical Arabic ṭilasm, a loan word fr. Late Gk. τέλεσμα “consecration, mystery”, fr. Gk. τέλεσμα “payment”, fr. τελεῖν … fr. τέλος “fulfilment, end”.’"
+      },
+      {
+       "src": "LKT",
+       "where": "no. 2077 (Talisman)",
+       "stance": "supports",
+       "note": "‘‚Zauberbild‘ [aus gr. τέλεσμα], vulg.-ar. tilsam, pers. tilism, plr. tilismān; hieraus it. talismano, frz. sp. pg. talisman … russ. talisman.’"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Arabic",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Empty pass-through box: the Arabic link is ṭilasm / ṭilsam طلسم (pl. ṭalāsim, ṭilasmāt), a straight loan of Byzantine Greek télesma taken over with the Greek occult-scientific literature translated in Baghdad in the 8th–10th c. (Ps.-Apollonius, the Ghāyat al-ḥakīm). Arabic re-analysed the unfamiliar noun on the pattern fiʿlall (ṭ-l-s-m being treated as a quadriliteral root), which is why the word takes an Arabic broken plural although it has no Semitic etymology.",
+     "derivation_fa": "این خانهٔ خالی، حلقهٔ عربیِ زنجیره است: «طِلَسْم / طِلْسَم» وام‌واژهٔ مستقیمِ یونانیِ بیزانسی télesma است که همراه با ادبیات سحر و علوم غریبهٔ یونانی در سدهٔ دوم تا چهارم هجری به عربی ترجمه شد. عربی این اسم بیگانه را بر وزن «فِعْلَل» تحلیل کرد و ط‑ل‑س‑م را ریشهٔ رباعی انگاشت؛ از همین‌رو جمع مکسر «طلاسم» گرفته است، هرچند ریشهٔ سامی ندارد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B7%D9%84%D8%B3%D9%85",
+      "https://www.etymonline.com/word/talisman"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "The box carries no reference in the book; Klein p.1596, Lokotsch no.2077 and Wiktionary طلسم were checked instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. talisman, KLN_1966.txt leaf 830 ≈ printed p.1633",
+       "stance": "supports",
+       "note": "‘… VArab. tilsamān, pl. of tilsam, which corresponds to Classical Arabic ṭilasm, a loan word fr. Late Gk. τέλεσμα’."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 2077",
+       "stance": "supports",
+       "note": "‘vulg.-ar. tilsam, pers. tilism, plr. tilismān’ — Lokotsch derives the Arabic word from Greek τέλεσμα exactly as the chart does."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "طلسم, Arabic section (etymology tree)",
+       "stance": "supports",
+       "note": "Etymology tree ‘Proto-Indo-European *kʷelh₁- > Proto-Hellenic *kʷélos > … τέλεσμα > Arabic طلسم’."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "telesm «طلسم»",
+     "verdict": "confirmed",
+     "derivation": "New Persian طلسم ṭelesm / ṭelsam ‘talisman, spell’ is the Arabic ṭilasm re-borrowed into Persian in the Islamic period — a Greek word reaching Persian through Arabic, not directly. Moʿin marks it ‘[ع. معر.]’, i.e. Arabic and itself an arabicised foreign word; Dehkhodā says outright that the word is Greek and not Arabic (‘یونانی است، عربی نیست’, arguing from the impossible Arabic vocalisation ṭilism). The Persian plural طلسمات / طلاسم is taken over with the word.",
+     "derivation_fa": "«طلسم» در فارسی نو وام‌واژهٔ عربیِ «طِلَسْم» است که خود از یونانیِ متأخر télesma گرفته شده؛ یعنی واژه‌ای یونانی که از راه عربی (نه مستقیم) به فارسی رسیده است. معین آن را با نشانهٔ «[ع. معرّ.]» ثبت کرده است و دهخدا صریح می‌گوید «یونانی است، عربی نیست، چه در تقدیر عربی بودن به کسرتین آمدن این لفظ وجهی ندارد». جمع مکسر «طلاسم/طلسمات» نیز با خود واژه وام گرفته شده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%B7%D9%84%D8%B3%D9%85/",
+      "https://en.wiktionary.org/wiki/%D8%B7%D9%84%D8%B3%D9%85",
+      "https://www.etymonline.com/word/talisman"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:2232",
+       "status": "supports",
+       "note": "Moʿin, entry طلسم (local OCR MON_part1.txt, grep -n 'طلسم', lines 92984–92986): ‘[ع. معر.] (ا.) عمل خارق عادت که مبدأ آن را قوای فعال آسمانی … ج. طلسمات، طلاسم’ — the معرّب tag is Moʿin’s way of saying the word is a foreign word arabicised, i.e. Nourai’s Greek>Arabic>Persian route. (The printed page number 2232 cannot be checked: the local Moʿin scan is the 2-vol. abridgement without the 6-vol. pagination.)"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "abadis.ir طلسم, section فرهنگ معین / لغت‌نامه دهخدا",
+       "stance": "supports",
+       "note": "‘یونانی طلسما …’ and ‘یونانی τέλεσμα (telesma) است به معنی «تکمیل، آیین مذهبی، پرداخت»، که از طریق عربی طلسم وارد فارسی شده است’."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 2077",
+       "stance": "supports",
+       "note": "explicitly lists ‘pers. tilism’ beside vulgar-Arabic tilsam."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Empty pass-through box standing for the modern French vehicles of the Greek words: cycle, cylindre, encyclopédie, télescope, télévision, télégraphe. French is historically the right intermediary for Persian: European technical vocabulary entered Persian through French from the Qājār period on (Dār al-Fonūn, founded 1851; the first telegraph lines in Iran, 1858–64), and Moʿin tags exactly these words ‘[فر.]’ = French.",
+     "derivation_fa": "این خانهٔ خالی نمایندهٔ صورت‌های فرانسویِ همان واژه‌های یونانی است: cycle، cylindre، encyclopédie، télescope، télévision، télégraphe. از نظر تاریخی فرانسه واسطهٔ درستی است: واژگان فنیِ اروپایی از دورهٔ قاجار (تأسیس دارالفنون در ۱۲۳۰ ش/۱۸۵۱ و کشیدن نخستین خطوط تلگراف در ۱۸۵۸–۶۴) از راه فرانسه وارد فارسی شد و معین نیز همین واژه‌ها را با نشانهٔ «[فر.]» ثبت کرده است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%B3%DB%8C%D9%84%D9%86%D8%AF%D8%B1/",
+      "https://www.etymonline.com/word/cycle"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "The box carries no reference; checked Moʿin (via abadis) on سیلندر and Etymonline instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "abadis.ir سیلندر, section فرهنگ معین",
+       "stance": "supports",
+       "note": "‘[فر. ] (ا. ) ۱ - لوله‌ای است استوانه‌ای شکل که در موتور اتومبیل تعبیه شده …’ — Moʿin’s ‘[فر.]’ tag = borrowed from French."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. cycle / cylinder (KLN_1966)",
+       "stance": "partial",
+       "note": "Klein routes cycle through Late Latin cyclus and French, and cylinder through Old French cylindre < Latin cylindrus; the French stage is right, the ultimate root is not the same for both (see node 6)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "سیکل ، سیلندر ، تلسکوپ ، تلویزیون ، تلگراف",
+     "verdict": "confirmed",
+     "derivation": "The five Persian words are 19th–20th-c. French loans, and the French spelling shows through: سیکل sikl < cycle, سیلندر silandr < cylindre (French -indre, not English -inder), تلسکوپ teleskop < télescope, تلویزیون televizyon < télévision (the -zy- of televizyon renders French -vis-), تلگراف telegrāf < télégraphe. Moʿin tags them ‘[فر.]’. The chart is right that they came through French; it is only their ultimate PIE root that is mixed (télé- belongs to *kʷel-2 ‘far’, and cylindre to Greek kulíndein ‘to roll’, of unknown origin — see node 6).",
+     "derivation_fa": "این پنج واژه وام‌واژه‌های فرانسویِ سدهٔ نوزدهم و بیستم‌اند و املای فرانسوی در آنها پیداست: «سیکل» از cycle، «سیلندر» از cylindre (نه انگلیسیِ cylinder)، «تلسکوپ» از télescope، «تلویزیون» از télévision و «تلگراف» از télégraphe. معین همه را با نشانهٔ «[فر.]» آورده است. پس در باب راه وام‌گیری ادعای نورایی درست است؛ تنها ریشهٔ نهایی یکدست نیست: جزء télé- به ریشهٔ دومِ kʷel- «دور» بازمی‌گردد و cylindre از kulíndein یونانی «غلتاندن» است که ریشهٔ آن ناشناخته است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%B3%DB%8C%D9%84%D9%86%D8%AF%D8%B1/",
+      "https://www.etymonline.com/word/cylinder",
+      "https://www.etymonline.com/word/tele-"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "Moʿin s.v. سیلندر (abadis.ir, فرهنگ معین): ‘[فر.] (ا.)…’ — the French tag is exactly Nourai’s arrow. The citation has no page number, so nothing further can be pinned down."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "abadis.ir سیلندر (فرهنگ معین)",
+       "stance": "supports",
+       "note": "‘[فر. ] (ا. )’ = from French."
+      },
+      {
+       "src": "Etymonline",
+       "where": "s.v. cylinder",
+       "stance": "partial",
+       "note": "‘from Old French cylindre (14c.) and directly from Latin cylindrus … from Greek kylindein “to roll”, which is of unknown origin’ — the French stage is right, the root assignment is not."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "cycle, cylinder, encyclopedia; tele-, teletype, telescope, television, telegraph",
+     "verdict": "disputed",
+     "derivation": "Three claims, of different quality. (a) cycle (late 14c. cicle, via Old French cicle / Late Latin cyclus from kýklos) and encyclopedia (from enkýklios paideía ‘all-round education’, the enkýklios part being kýklos) are correctly from *kʷel-1: Watkins lists CYCLE, CYCLO-, BICYCLE, ENCYCLICAL under kʷel-1. (b) The tele- words are from Greek tḗle ‘far off’, which Watkins and Pokorny put under the homonym *kʷel-2 ‘far (in space and time)’ (Pok. 640) — related but not the same root; telescope and telegraph are besides compounds whose second elements belong elsewhere (Watkins files TELESCOPE under spek-). (c) cylinder is wrong: it is Latin cylindrus < Greek kýlindros, from kulíndein ‘to roll’, ‘which is of unknown origin’ (Etymonline); Watkins files CYLINDER under (s)kel-3, not under kʷel-. Because one word of the box is referred to a different origin by the standard authorities, the node is scored disputed.",
+     "derivation_fa": "این خانه سه ادعای متفاوت دارد. یکم: cycle (از راه فرانسهٔ کهن و لاتین متأخر cyclus از kýklos) و encyclopedia (از enkýklios paideía «آموزش همه‌جانبه») به‌درستی از همین ریشه‌اند و واتکینز نیز آنها را ذیل kʷel-1 آورده است. دوم: واژه‌های tele- از tḗle یونانی «دور» است که پوکورنی (ص ۶۴۰) و واتکینز آن را ریشهٔ همنامِ دیگری (kʷel-2 «دور») می‌دانند؛ افزون بر این، جزء دومِ telescope و telegraph ریشهٔ دیگری دارد. سوم: cylinder نادرست است؛ از لاتین cylindrus و یونانی kýlindros از فعل kulíndein «غلتاندن» است که ریشهٔ آن ناشناخته است و واتکینز آن را ذیل (s)kel- ثبت کرده، نه kʷel-. پس پژوهش امروزی دست‌کم یکی از واژه‌های این خانه را رد می‌کند.",
+     "sources": [
+      "https://www.etymonline.com/word/cycle",
+      "https://www.etymonline.com/word/cylinder",
+      "https://www.etymonline.com/word/tele-"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "The English box has no reference of its own; checked Watkins/AHD, Klein and Etymonline instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, index of English derivatives",
+       "stance": "contradicts",
+       "note": "‘CYCLE kʷel-1 … CYCLO- kʷel-1’ and ‘ENCYCLICAL kʷel-1’ but ‘CYLINDER skel-3’, ‘TELE- kʷel-2’, ‘TELESCOPE spek-’, ‘ENCYCLOPEDIA pau-’; CLOWN does not appear in the index at all (grep -o 'CYLINDER [a-z-]*' AHD_watkins1985.txt)."
+      },
+      {
+       "src": "Etymonline",
+       "where": "s.v. cylinder; cycle; tele-",
+       "stance": "partial",
+       "note": "cycle ‘from Greek kyklos … from PIE kʷ(e)-kʷl-o-, a suffixed, reduplicated form of the root *kʷel- (1)’; cylinder ‘from Greek kylindein “to roll”, which is of unknown origin’; tele- ‘from Greek tēle “far off” … from PIE root *kʷel- (2) “far”’."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. talisman / tele- (KLN_1966)",
+       "stance": "partial",
+       "note": "Klein groups τέλος and τῆλε together (‘fr. τέλος “fulfilment, end”. See tele-’), i.e. the older handbooks did what Nourai does; Pokorny 1959 and Watkins separate them."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Russian",
+     "words": "koleso; kaljaska",
+     "verdict": "confirmed",
+     "derivation": "Russian колесо́ kolesо́ ‘wheel’ continues Old Church Slavonic коло kolo, gen. колесе kolese (an s-stem), from *kʷol-es-/*kʷolo-, the o-grade of the root, with Slavic *kʷ > k before back vowels; the plural кола kola meant ‘cart’. коля́ска koljáska ‘light carriage’ is a diminutive of the same коло, recorded in Russian from 1695 (Vasmer: каслика) and taken over from Polish kolaska / kolasa ‘carriage’ — so also from *kʷel-, as the chart says, though through a West-Slavic detour.",
+     "derivation_fa": "روسی колесо́ «چرخ» دنبالهٔ اسلاوی کلیسایی kolo با حالت اضافهٔ kolese است، از صورت آواگردیدهٔ *kʷol-es- همین ریشه؛ در اسلاوی kʷ پیش از واکه‌های پسین به k بدل شده است. коля́ска «کالسکه» مصغّرِ همان kolo است که به گواهی فاسمر از سال ۱۶۹۵ در روسی ثبت شده و از لهستانی kolaska/kolasa گرفته شده است. پس هر دو واژه به‌درستی از همین ریشه‌اند، هرچند دومی از راه اسلاویِ غربی وارد روسی شده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BB%D1%8F%D1%81%D0%BA%D0%B0"
+     ],
+     "ref_check": [
+      {
+       "ref": "SYN:724",
+       "status": "supports",
+       "note": "Buck 10.76 WHEEL (pp.724–725): ‘IE *kʷelo-s, *kʷolo-s, redupl. *kʷekʷlo-s … ChSl., SCr., Boh. kolo, Pol. koło, Russ. koleso; Grk. κύκλος …’ (grep -n '10.76 WHEEL' SYN.txt; the page footer of the following column reads ‘… TRANSPORTATION, NAVIGATION 725’)."
+      },
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins kʷel-1 gives the wheel-word family (*kʷ(e)-kʷl-o-) but has no Russian entry; the Slavic material is in Pokorny and Buck."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "639–640",
+       "stance": "supports",
+       "note": "‘Old Church Slavic kolo, Gen. kolese “wheel”, Pl. kola “cart” (mixture from *kʷolo- m. and *kʷeles- n.)’."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "коля́ска",
+       "stance": "supports",
+       "note": "‘Ultimately from Proto-Slavic *kolo. According to Vasmer, this word was documented in Old Russian since 1695 as каслика. It is cognate with Polish kolasa.’"
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. calash, KLN_1966.txt line 6134 = leaf 127 ≈ printed p.231",
+       "stance": "partial",
+       "note": "‘F. calèche, fr. Czech kolesa “wheels, carriage”, pl. of koleso “wheel”, fr. kolo “wheel” … cogn. with Gk. κύκλος’ — same root, Czech rather than Russian for the French word."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "kâleskeh «کالسکه»",
+     "verdict": "confirmed",
+     "derivation": "Persian کالسکه kāleske ‘four-wheeled horse carriage’ is a Qājār-period loan of Russian коля́ска koljáska, taken over through the Russian court and army contacts of the early 19th c.; Russian -яска [-ʲaskə] was rendered ـلسکه -leske and the stressed о- was lengthened to Persian ā-. Wiktionary states flatly ‘From Russian коля́ска’, Moʿin tags it ‘[روس.]’ and Dehkhodā quotes ‘از کلمه کالسکای روسی گرفته شده است’. The word therefore reaches Persian from the same PIE root by a wholly different road from طلسم, which is the point of the chart.",
+     "derivation_fa": "«کالسکه» وام‌واژهٔ روسیِ коля́ска است که در دورهٔ قاجار از راه مناسبات درباری و نظامی با روسیه وارد فارسی شد؛ پایانهٔ روسی -яска به «ـلسکه» و واکهٔ تکیه‌دار o به «ا»ی کشیده بدل شده است. ویکی‌واژه صریح می‌گوید «از روسی коля́ска»، معین آن را «[روس.]» نشانه زده و دهخدا می‌نویسد «از کلمهٔ کالسکای روسی گرفته شده است». پس این واژه از همان ریشهٔ هندواروپایی است اما از راهی یکسره متفاوت با «طلسم» به فارسی رسیده و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%DA%A9%D8%A7%D9%84%D8%B3%DA%A9%D9%87",
+      "https://abadis.ir/fatofa/%DA%A9%D8%A7%D9%84%D8%B3%DA%A9%D9%87/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:2861",
+       "status": "supports",
+       "note": "Moʿin s.v. کالسکه: local OCR MON_part2.txt line 19280 has the headword with a bracketed origin tag and Latin transliteration (OCR-garbled); the same Moʿin entry read on abadis.ir gives ‘[ روس . ] (اِ. ) ۱ - اتاقکی که دارای چهار چرخ می‌باشد …’ — ‘[روس.]’ = from Russian, exactly Nourai’s arrow. Page 2861 itself cannot be checked (local Moʿin scan is the 2-vol. abridgement)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "Wiktionary",
+       "where": "کالسکه (Persian)",
+       "stance": "supports",
+       "note": "‘From Russian коля́ска (koljáska).’ with an etymology tree PIE *kʷelh₁- > Proto-Slavic *kolo > Russian коля́ска > Persian کالسکه."
+      },
+      {
+       "src": "MON",
+       "where": "abadis.ir کالسکه (فرهنگ معین + لغت‌نامه)",
+       "stance": "supports",
+       "note": "‘روسی، از کلمه کالسکای روسی گرفته شده است’ (یادداشت مؤلف)؛ ‘مأخوذ از روسی، گردون چهارچرخه اطاق‌دار’ (ناظم‌الاطباء)."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "German",
+     "words": "hwe-hula",
+     "verdict": "plausible",
+     "derivation": "The form is right but the label is not. ‘hwe-hula’ is Nourai’s spelling of Proto-Germanic *hweh(w)ula- / *hwewlaz ‘wheel’, the regular Germanic outcome of the reduplicated *kʷe-kʷl-o- (PIE *kʷ > Gmc. *hw by Grimm’s Law, the second *kʷ lost between vowels). That is a reconstructed PROTO-GERMANIC form, not German: modern German for ‘wheel’ is Rad, from an entirely different root (*Hret-). Nourai himself writes ‘Germanic’ correctly in the Kwen 1 chart on the same page, so the label here is loose usage in the book, not a mis-scan. With that reservation the derivation is exactly Watkins’ and Pokorny’s.",
+     "derivation_fa": "صورت درست است اما برچسب زبانی نه. «hwe-hula» همان *hweh(w)ula- / *hwewlaz ژرمنیِ آغازین به معنی «چرخ» است که بازتاب قانونمندِ *kʷe-kʷl-o- مضاعف است (kʷ هندواروپایی بنابر قانون گریم در ژرمنی به hw بدل شده و kʷ دوم میان دو واکه افتاده است). این صورت بازسازی‌شدهٔ ژرمنی آغازین است، نه آلمانی؛ «چرخ» در آلمانیِ امروز Rad است و ریشهٔ دیگری دارد. خودِ نورایی در نمودار Kwen 1 در همین صفحه درست «Germanic» نوشته است، پس این بی‌دقتی از کتاب است نه از خوانش اسکن. با این قید، اشتقاق دقیقاً همان است که واتکینز و پوکورنی می‌گویند.",
+     "sources": [
+      "https://www.etymonline.com/word/wheel"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins kʷel-1, III.1: ‘Germanic *hwewlaz in Old English hwēol, hweogol, wheel: WHEEL.’ — the reconstruction Nourai writes as hwe-hula; Watkins labels it Germanic, not German."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "639–640",
+       "stance": "supports",
+       "note": "‘Old Icelandic hjól, hvel (*kʷekʷelon-, Germanic *hweh(w)ula-) n., Old English hweol … besides hweowol, hweogol (Germanic *hweg(w)ula-)’."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 10.76, p.724",
+       "stance": "supports",
+       "note": "lists ON hvel, OE hwēol, ME hwele, NE wheel, Du. wiel under the same *kʷel- family; German rad is listed separately."
+      },
+      {
+       "src": "Etymonline",
+       "where": "s.v. wheel",
+       "stance": "supports",
+       "note": "‘from Old English hweol, hweogol, from Proto-Germanic *hwewlaz … from PIE *kʷ(e)-kʷl-o- “wheel, circle”, suffixed, reduplicated form of root *kʷel- (1)’."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "English",
+     "words": "wheel",
+     "verdict": "confirmed",
+     "derivation": "Old English hwēol / hweogol > Middle English whele > Modern English wheel, from Proto-Germanic *hwewlaz, PIE *kʷ(e)-kʷl-o-. The English word is thus the exact cognate of Greek kýklos and Sanskrit cakra-, and the modern spelling wh- preserves the Germanic *hw- of Grimm’s Law.",
+     "derivation_fa": "انگلیسی کهن hwēol/hweogol از راه انگلیسی میانهٔ whele به wheel امروزی رسیده است، از ژرمنی آغازین *hwewlaz و در نهایت از *kʷ(e)-kʷl-o- هندواروپایی. بنابراین wheel هم‌ریشهٔ مستقیم kýklos یونانی و cakra- سنسکریت است و املای wh- همان hw- ژرمنی (نتیجهٔ قانون گریم) را نگاه داشته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/wheel"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "no reference on the box; checked Watkins/AHD (‘Old English hwēol, wheel: WHEEL’), Pokorny 639–640 and Buck 10.76 instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. kʷel-1 III.1",
+       "stance": "supports",
+       "note": "‘Germanic *hwewlaz in Old English hwēol, hweogol, wheel: WHEEL.’"
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 10.76 WHEEL p.724",
+       "stance": "supports",
+       "note": "‘OE hwéol, ME hwele, whele, NE wheel’ in the *kʷelo-s group."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Latin",
+     "words": "col-ere; col-lum",
+     "verdict": "confirmed",
+     "derivation": "Latin colō, colere ‘to till, tend, cultivate; to inhabit, dwell in’ is the plain e-grade *kʷel-o- (with *kʷ > c before a back vowel); the ‘inhabit’ sense that Nourai glosses is the one preserved in incolere ‘to dwell in’, incola ‘inhabitant’, inquilinus. collum (older collus) ‘neck’ is *kʷol-so-, o-grade + -so-, literally ‘that on which the head turns’, the exact cognate of Gothic/Old Norse hals. The second etymology is not unanimous: Walde-Pokorny (1927) referred collum to a homonymous *kʷel- ‘ragen, to rise’ (with collis, celsus), and Ernout-Meillet leave the choice open while leaning to ‘turn’ (‘en faveur de la seconde hypothèse … lit. kaklas “cou” dont la ressemblance avec gr. κύκλος est frappante’). Pokorny 1959, Watkins and Etymonline all put collum under *kʷel-1, so the chart follows the current standard.",
+     "derivation_fa": "لاتین colō/colere «کِشت کردن، پروردن؛ ساکن بودن» همان درجهٔ آواییِ *kʷel-o- است (kʷ پیش از واکهٔ پسین در لاتین به c بدل شده)؛ معنی «سکونت» که نورایی آورده در incolere «در جایی زیستن»، incola «ساکن» و inquilinus بازمانده است. collum «گردن» از *kʷol-so- است، یعنی «آنچه سر بر آن می‌چرخد»، و هم‌ریشهٔ دقیقِ hals گوتی و نورس کهن. این اشتقاق دوم یکدست پذیرفته نیست: والده–پوکورنی (۱۹۲۷) collum را به ریشهٔ همنامِ kʷel- «برآمدن» می‌برد و ارنو–مییه میان دو رأی می‌مانند اما به «چرخیدن» گرایش دارند (با استناد به kaklas لیتوانیایی «گردن» در برابر κύκλος یونانی). پوکورنیِ ۱۹۵۹، واتکینز و اتیمانلاین هر سه collum را ذیل kʷel-1 آورده‌اند، پس نمودار با معیار امروزی هماهنگ است.",
+     "sources": [
+      "https://www.etymonline.com/word/colony",
+      "https://www.etymonline.com/word/collar"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins kʷel-1: ‘I. Basic form *kʷel- in Latin colere, to till, cultivate, inhabit: COLONY, CULT, CULTIVATE, (CULTURE); INCULT, INQUILINE, SILVICOLOUS. … IV.1.b. Latin collum, neck: COL, COLLAR, COLLET, CULLET; ACCOLADE, DECOLLATE, DECOLLETE, MACHICOLATE, TORTICOLLIS.’"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "639–640",
+       "stance": "supports",
+       "note": "‘Latin colo, -ere “to till, tend, care for, cultivate” (*kʷelo); colonus; incolere “inhabit”, incola … collus, -ī m. (Old Latin), collum, -ī n. “the neck” (*kʷol-so-, Gothic hals)’."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.vv. collum, colō",
+       "stance": "partial",
+       "note": "‘Collus est issu de *kol-so-s … Cf. got. hals “cou”. On s’est demandé si ce mot est à rattacher au groupe de *kel- “en haut” … ou à celui de *kʷel- “tourner” … En faveur de la seconde hypothèse … lit. kaklas “cou” dont la ressemblance avec gr. κύκλος “cercle” est frappante.’ The colo article gives incola, agricola, colonus, colonia, cultura."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 449 (q̩el- ‘ragen’) vs I 514 f. (q̩el- ‘drehen’)",
+       "stance": "contradicts",
+       "note": "‘gegen Verb. mit q̩ʷel- ‚drehen‘ als ‚Säule, Träger des Kopfes‘ … lat. collus, collum ‚Hals‘ = got. aisl. ahd. hals’ — Walde-Pokorny deliberately keep collum away from the ‘turn’ root; Pokorny reversed this in 1959."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "English",
+     "words": "colony, culture, clown; collar",
+     "verdict": "disputed",
+     "derivation": "colony (late 14c., ‘Roman settlement’, < Latin colonia < colonus < colere) and culture (< cultura, the verbal noun of colere) are straightforwardly from the Latin box, as is collar (c.1300 coler < Old French coler < Latin collāre ‘band for the neck’ < collum). clown, however, is not: it appears in the 1560s as clowne/cloyne ‘rustic, boor’, of obscure origin, most probably Scandinavian or Low German (Icelandic klunni ‘clumsy fellow’, Swedish kluns, North Frisian klönne), and the OED glosses the base as ‘clod, clot, lump’. Etymonline states expressly that ‘the theory that it is from Latin colonus “colonist, farmer” is less likely, but awareness of the Latin word might have influenced the sense development’; Watkins does not list CLOWN in the index of IE derivatives at all. The node is therefore scored disputed on account of clown.",
+     "derivation_fa": "colony (سدهٔ چهاردهم، از colonia لاتین < colonus < colere) و culture (از cultura، اسم مصدرِ colere) و همچنین collar (از فرانسهٔ کهن coler < لاتین collāre < collum) به‌درستی از خانهٔ لاتینِ بالا می‌آیند. اما clown چنین نیست: این واژه در دههٔ ۱۵۶۰ به صورت clowne/cloyne به معنی «روستایی، خشن» پیدا می‌شود و ریشهٔ آن ناشناخته است؛ به احتمال زیاد اسکاندیناویایی یا آلمانیِ سفلی است (ایسلندی klunni «آدم دست‌وپاچلفتی»، سوئدی kluns، فریزیِ شمالی klönne). اتیمانلاین صریح می‌گوید نظریهٔ اشتقاق از colonus لاتین «کم‌احتمال‌تر» است و واتکینز اصلاً CLOWN را در فهرست مشتقات هندواروپایی نیاورده است. پس پژوهش امروزی این جزء از ادعای نورایی را رد می‌کند و آن را ریشه‌شناسی عامیانه می‌داند.",
+     "sources": [
+      "https://www.etymonline.com/word/colony",
+      "https://www.etymonline.com/word/collar",
+      "https://www.etymonline.com/word/clown"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "no reference on the box; checked Watkins/AHD index, Etymonline and Klein instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985, index",
+       "stance": "contradicts",
+       "note": "‘COLONY kʷel-1’, ‘CULTURE kʷel-1’, ‘CULTIVATE kʷel-1’, ‘COLLAR kʷel-1’ are all there — but CLOWN has no entry in the index at all (grep -o 'CLOWN [A-Za-z-]*' AHD_watkins1985.txt returns nothing)."
+      },
+      {
+       "src": "Etymonline",
+       "where": "s.vv. colony, collar, clown",
+       "stance": "contradicts",
+       "note": "colony ‘from Latin colonia … from colere … from PIE root *kʷel- (1)’; collar ‘from Latin collāre … from collum “the neck”, from PIE *kʷol-o-’; clown ‘a word of obscure origin … Perhaps from Scandinavian dialect … The theory that it is from Latin colonus “colonist, farmer” is less likely’."
+      },
+      {
+       "src": "KLN",
+       "where": "KLN_1966, grep -n '^clown'",
+       "stance": "silent",
+       "note": "the local Klein OCR has no retrievable ‘clown’ headword line (the two-pages-per-leaf scan runs the entries together), so Klein could not be quoted for this word."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Kwen 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *ḱwen-to- ‘holy’ (root *ḱwen- ‘to celebrate, hallow’; Pokorny k̑u̯en- 630, Walde-Pokorny I 471, Watkins kʷen-)",
+   "note": "Root, language label, gloss and page are all correct: Pokorny p.630 has k̑u̯en- ‘feiern; heilig(en)’ with precisely the two branches of the chart (Avestan spənta- ‘holy’ = Lith. šventas, OCS svętъ; Gothic hunsl ‘sacrifice’, OE hūsl ‘sacrament’ < *k̑un-s-lo-). One notational caveat: the initial is a PALATAL *ḱ, not a labiovelar *kʷ — that is what produces Iranian sp-, Lithuanian šv-, Slavic sv- in the satem languages (Wiktionary reconstructs Proto-Iranian *ćwantaH < PIE *ḱwen-). Nourai writes ‘Kwen’ because he follows the 1976 AHD appendix, which prints the root as ‘kʷen-’; the -w- is right, the labiovelar notation is not. Nourai’s numbering ‘Kwen 1’ distinguishes it from his ‘Kwen 2’ elsewhere, as Pokorny distinguishes his homonyms.",
+   "note_fa": "ریشه، برچسب زبانی، معنا و شمارهٔ صفحه هر چهار درست است: پوکورنی در صفحهٔ ۶۳۰ ریشهٔ k̑u̯en- «جشن گرفتن، مقدس داشتن» را با همان دو شاخهٔ نمودار آورده است (اوستایی spənta- «مقدس» برابر با šventas لیتوانیایی و svętъ اسلاوی کلیسایی؛ و گوتی hunsl «قربانی» و انگلیسی کهن hūsl «آیین مقدس» از *k̑un-s-lo-). تنها نکتهٔ فنی این است که همخوان آغازینِ ریشه، کامیِ *ḱ است نه لبی‌کامیِ *kʷ؛ همین ḱ است که در زبان‌های ساتم به sp- ایرانی، šv- لیتوانیایی و sv- اسلاوی بدل شده است (ویکی‌واژه ایرانیِ آغازین را *ćwantaH بازسازی می‌کند). نورایی «Kwen» می‌نویسد چون از پیوست فرهنگ امریکن‌هریتیج (۱۹۷۶) پیروی می‌کند که همین املا را دارد. در مجموع ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%AF"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:630",
+     "status": "supports",
+     "note": "POK_full.txt, block ‘Root / lemma: k̑u̯en-’, Meaning ‘to celebrate; saint’, Page(s): 630: ‘Avestan spənta- “holy” (= Lithuanian šventas, Old Church Slavic svętъ “holy”), compounds Superl. Avestan span-yah-, spəništa- “sacred, holiest”, es-stem Avestan spanah- n. “holiness”; probably Gothic hunsl n. “sacrifice, oblation”, Old English husl n. “sacrament” (*k̑un-s-lo-) …’ (grep -n 'Page(s): 63[0-9]' POK_full.txt)."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I 471 (WLD_Bd1_pages.txt, the k̑uen- article)",
+     "stance": "supports",
+     "note": "‘k̑uen- „feiern; heilig(en)“. Verbal in lett. svinēt „feiern, heiligen“ … av. spənta- „heilig“ (zur Bed. s. Bartholomae Airan. Wb. 1619 ff.) = lit. šventas, aksl. svętъ „heilig“ … dazu wahrscheinlich got. hunsl n. „Opfer“, ags. husl n. „Sakrament“ (*k̑un-s-lo-).’"
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. kʷen-",
+     "stance": "supports",
+     "note": "‘kʷen-. Holy. Suffixed zero-grade form *kʷn̥-s-lo- in Germanic *hunslam in Old English hūsl, hūsel, Eucharist: HOUSEL. [Pok. k̑uen- 630.]’ — note Watkins’ own bracket restores Pokorny’s palatal k̑."
+    },
+    {
+     "src": "KLN",
+     "where": "s.v. housel (leaf 402 ≈ p.781)",
+     "stance": "supports",
+     "note": "KLN_1966.txt line 18149 (leaf 402 ≈ printed p.781) s.v. housel: ‘housel, n., the Eucharist (obsol.) — ME. husel, fr. OE. husel, “the Eucharist”, rel. to ON. husl, of s.m., Goth. hunsl, “sacrifice”, and prob. cogn. with Lith. šventas, OSlav. svętŭ, OPruss. swints, “holy”, Lett. svinēt, “to hallow, celebrate”, Avestic spənta-, “holy”.’ — exactly Nourai’s two arrows (Avestan spənta- and Germanic *hunslam under one root)."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "spenta; spento-dâto; gao-spenta",
+     "verdict": "confirmed",
+     "derivation": "Avestan spəṇta- ‘holy, beneficent’ (Gathic spəntā, the standing epithet of Ahura Mazdā and of the aməṣ̌a spəṇta) is *ḱwen-to-, a to-participle of *ḱwen-, with satem *ḱw > Proto-Iranian *ćw > Av. sp-; its comparative/superlative spanyah-, spəništa- and the abstract spanah- ‘holiness’ show the bare stem. spəṇtō.dāta- is a bahuvrīhi/tatpuruṣa ‘created (dāta-, from dā- ‘to give, create’) by the Holy One’, i.e. by Spənta Ārmaiti — the name that becomes MP Spandadāt/Spandiyād and NP Esfandiyār. gao-spəṇta- (Vīdēvdād 21.1) is ‘the beneficent cow / holy domestic animal’, gao- ‘cow, cattle’ + spəṇta-, which yields MP gōspand and NP gōsfand ‘sheep, small cattle’. The one loose point is the gloss ‘also an herb’: Avestan spəṇta- means only ‘holy’; the plant sense (Peganum harmala) is a New Persian development from the plant’s use in fumigation against the evil eye.",
+     "derivation_fa": "اوستایی spəṇta- «مقدس، سودبخش» — صفت ثابت اهورامزدا و امشاسپندان — همان *ḱwen-to- است، یعنی صفت مفعولیِ ‑ta از ریشهٔ *ḱwen-؛ در زبان‌های ساتم *ḱw به *ćw ایرانی و سپس به sp- اوستایی بدل شده است. صورت‌های تفضیلی spanyah- و عالی spəništa- و مصدرِ spanah- «قداست» ستاک بی‌پسوند را نشان می‌دهند. spəṇtō.dāta- ترکیبی است به معنی «آفریدهٔ آن مقدس» (dāta- از dā- «دادن، آفریدن») که در فارسی میانه Spandadāt/Spandiyād و در فارسی نو «اسفندیار» شده است. gao-spəṇta- (وندیداد ۲۱٫۱) «گاوِ سودبخش/جانور اهلیِ مقدس» است که فارسی میانهٔ gōspand و فارسی نوِ «گوسفند» از آن آمده است. تنها بی‌دقتی نمودار، افزودنِ معنی «گیاه» به واژهٔ اوستایی است: spəṇta- در اوستا فقط «مقدس» است و معنی گیاهی (اسفند، Peganum harmala) تحولی فارسیِ نو است، از کاربرد دود کردن این دانه برای دفع چشم‌زخم.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%AF",
+      "https://en.wiktionary.org/wiki/%DA%AF%D9%88%D8%B3%D9%81%D9%86%D8%AF",
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%AF%DB%8C%D8%A7%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:746",
+       "status": "supports",
+       "note": "KLN_1966.txt line 18149 (leaf 402 ≈ printed p.781) s.v. housel: ‘housel, n., the Eucharist (obsol.) — ME. husel, fr. OE. husel, “the Eucharist”, rel. to ON. husl, of s.m., Goth. hunsl, “sacrifice”, and prob. cogn. with Lith. šventas, OSlav. svętŭ, OPruss. swints, “holy”, Lett. svinēt, “to hallow, celebrate”, Avestic spənta-, “holy”.’ — exactly Nourai’s two arrows (Avestan spənta- and Germanic *hunslam under one root). Page caveat: in the 1966 two-volume scan this entry falls on printed p.781 (leaf 402; calibration p = 2·leaf − 23, checked against leaf 15 = p.7 and leaf 438 = p.853), so Nourai’s ‘746’ is ~35 pages off, though the content is exactly his claim."
+      },
+      {
+       "ref": "HRN:210",
+       "status": "supports",
+       "note": "Horn, Grundriss der neupersischen Etymologie, p.210 (HRN.txt form-feed leaf 231), no. 942: ‘gōspend, gōsfend „Kleinvieh, Schaaf, Widder, Ziege“. aw. gaospenta- (vd. 21, 1); phlv. gōspand.’ — the page number is exact and the entry is exactly Nourai’s gao-spenta arrow."
+      },
+      {
+       "ref": "BQT:121",
+       "status": "supports",
+       "note": "Borhan-e Qāṭeʿ ed. Moʿin, vol.1, printed p.~121-122 (BQT_v1_pages.txt leaf 332; running-head calibration leaf 437 = p.۲۱۷, i.e. leaf = page + 220), Moʿin’s footnote 5 to اسپند/اسفند: ‘در اوستا spəṇta بمعنی مقدس <بارتولمه ۱۶۱۹>. طبری esfand «واژه‌نامه»… Peganum harmala این گیاه در اغلب نقاط ایران خودروست «فرهنگ روستایی»’ — Moʿin gives both halves of Nourai’s box (Av. spəṇta ‘holy’ and the plant)."
+      },
+      {
+       "ref": "BQT:210",
+       "status": "not_found",
+       "note": "Printed p.210 of the same volume is leaf 430 of BQT_v1_pages.txt (same running-head calibration), which is the بادروج / بادزهر stretch of the ب chapter and has nothing to do with spənta; nor does افسنتین fall there (it is at leaf ~365, p.~145). I could not identify what Nourai meant by ‘210’."
+      },
+      {
+       "ref": "SYN:1476",
+       "status": "not_checked",
+       "note": "Buck’s chapter 22 RELIGION begins on printed p.1462, but the local OCR (SYN.txt, 35 875 lines) breaks off inside chapter 21 (Law) — greps for ‘sacred’, ‘šventas’, ‘hunsl’, ‘sanctus’ return nothing from that chapter. The cited page is not in the copy on disk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "630",
+       "stance": "supports",
+       "note": "POK_full.txt, block ‘Root / lemma: k̑u̯en-’, Meaning ‘to celebrate; saint’, Page(s): 630: ‘Avestan spənta- “holy” (= Lithuanian šventas, Old Church Slavic svętъ “holy”), compounds Superl. Avestan span-yah-, spəništa- “sacred, holiest”, es-stem Avestan spanah- n. “holiness”; probably Gothic hunsl n. “sacrifice, oblation”, Old English husl n. “sacrament” (*k̑un-s-lo-) …’ (grep -n 'Page(s): 63[0-9]' POK_full.txt)."
+      },
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch, s.v. gao.spənta- (BRT.txt, the Vīdēvdād citations at lines 2782, 10132, 13299) and spənta- col. 1619 ff.",
+       "stance": "supports",
+       "note": "The OCR preserves the compound in its Avestan context, e.g. ‘tumasp tē gaospənta … asaone V. 21. 1’ = Vd. 21.1, the very passage Horn cites; Walde-Pokorny I 471 refers to ‘Bartholomae Airan. Wb. 1619 ff.’ for spənta-, and Moʿin’s Borhan footnote cites the same column."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt), English index ‘cattle gēspand, stōr’",
+       "stance": "supports",
+       "note": "MacKenzie’s Pahlavi form gōspand/gēspand ‘sheep, small cattle’ is the Middle Persian link between Av. gao-spəṇta- and NP گوسفند that the chart passes over silently."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "esfand «اسفند»; Esfandîyâr «اسفندیار»; gŭsfand «گوسفند»",
+     "verdict": "confirmed",
+     "derivation": "All three are the New Persian continuations of the Avestan box, through Middle Persian. (1) اسفند esfand / اسپند espand / سپند sepand ‘wild rue, Peganum harmala’ < MP spand < Proto-Iranian *ćwantaH ‘holy’ (Av. spəṇta-), named from its ritual use as a fumigant against the evil eye; Iranian *sp- is kept, and the prothetic ا- is the regular New Persian vowel before an initial cluster (cf. اسپست, استخوان). (2) اسفندیار Esfandiyār < MP Spandadāt/Spandiyād < Av. spəṇtō.dāta- ‘created by the Holy (Spənta Ārmaiti)’, with -dāta- > -dād > -yār by the usual Middle-Persian weakening of intervocalic -d-. (3) گوسفند gōsfand/gūsfand ‘sheep’ < MP gōspand < Av. gao-spəṇta-, with the New Persian shift p > f after s. Nourai’s ‘holy creation’ for Esfandiyār is the standard reading.",
+     "derivation_fa": "هر سه واژه دنبالهٔ فارسیِ نوِ خانهٔ اوستایی‌اند، از راه فارسی میانه. یکم، «اسفند/اسپند/سپند» (Peganum harmala) از فارسی میانهٔ spand و آن از ایرانیِ آغازینِ *ćwantaH «مقدس» (اوستایی spəṇta-) است؛ نامِ گیاه از کاربرد آیینیِ دود کردنِ آن برای دفع چشم‌زخم گرفته شده و الفِ آغازی همان الف افزودهٔ فارسی پیش از خوشهٔ آغازین است (مانند «اسپست»). دوم، «اسفندیار» از فارسی میانهٔ Spandadāt/Spandiyād و آن از اوستایی spəṇtō.dāta- «آفریدهٔ سپندارمذ»؛ جزء ‑dāta- بر اثر سست‌شدن d میان‌واکه‌ای به ‑dād و سپس ‑یار بدل شده است. سوم، «گوسفند» از فارسی میانهٔ gōspand و آن از gao-spəṇta- اوستایی، با ابدال p به f پس از س. ادعای نورایی در هر سه مورد درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%AF",
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%AF%DB%8C%D8%A7%D8%B1",
+      "https://en.wiktionary.org/wiki/%DA%AF%D9%88%D8%B3%D9%81%D9%86%D8%AF"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "The Persian box carries no reference of its own; checked Wiktionary (three entries), Horn no.942 and Moʿin’s Borhan footnote (BQT p.121) instead — see consulted."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "Wiktionary",
+       "where": "اسفند (Etymology 2); اسفندیار; گوسفند",
+       "stance": "supports",
+       "note": "‘اسفند … From Middle Persian spand, ultimately from Proto-Iranian *ćwantaH (“holy”) (compare Avestan spəṇta “holy”), because the plant is used in fumigation against evil eye. Ultimately from Proto-Indo-European *ḱwen-’; ‘اسفندیار … From Middle Persian /spandadāt/, in turn derived from Avestan spəntōδāta, literally “given by Amesha Spenta”’; ‘گوسفند … From Middle Persian gōspand “sheep, small cattle”, from Avestan gao-spəṇta- “beneficent cow”, a compound of gao- “cow” + spəṇta “holy”’."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 942, p.210",
+       "stance": "supports",
+       "note": "‘gōspend, gōsfend „Kleinvieh, Schaaf, Widder, Ziege“. aw. gaospenta- (vd. 21, 1); phlv. gōspand.’"
+      },
+      {
+       "src": "BQT",
+       "where": "vol.1 p.~121, Moʿin’s footnote to اسپند",
+       "stance": "supports",
+       "note": "‘در اوستا spəṇta بمعنی مقدس <بارتولمه ۱۶۱۹> … Peganum harmala این گیاه در اغلب نقاط ایران خودروست’."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie s.v. gēspand/gōspand",
+       "stance": "supports",
+       "note": "‘cattle gēspand, stōr’ — the Pahlavi stage of گوسفند."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Greek",
+     "words": "apsinthion",
+     "verdict": "disputed",
+     "derivation": "Greek ἀψίνθιον apsínthion ‘wormwood, Artemisia absinthium’ (Xenophon, Anabasis 1.5.1, c.370 BCE, of the Mesopotamian steppe) is the source of Latin absinthium and of European absinthe — that part is uncontested. Its own origin is not. Klein 1966 (the page Nourai cites) says it ‘is of OPers. origin; cp. ModPers. aspand, sipand, of s.m.’, and Etymonline still writes ‘perhaps from Persian (compare Persian aspand, of the same meaning)’ — this is Nourai’s arrow. But the modern standard, Beekes’ Etymological Dictionary of Greek (followed by Wiktionary), rejects it: the cluster -ινθ- is a Pre-Greek suffix (cf. τέρμινθος, ἐρέβινθος, ὑάκινθος, λαβύρινθος) and the variant ἀσπίνθιον with /sp/ for /ps/ points the same way. Two further difficulties: the plants differ (apsínthion is Artemisia absinthium, esfand/spand is Peganum harmala), and an Avestan/Old Persian *spanta- would not give Greek aps-/asp- with an initial a-. Scored disputed: modern scholarship prefers a Pre-Greek (substrate) origin.",
+     "derivation_fa": "یونانی ἀψίνθιον «افسنطین، Artemisia absinthium» (نخستین بار در آناباسیس گزنفون، حدود ۳۷۰ پیش از میلاد، در وصف دشت میان‌رودان) بی‌گمان سرچشمهٔ absinthium لاتین و absinthe اروپایی است؛ اما ریشهٔ خودش محل اختلاف است. کلاین در همان صفحه‌ای که نورایی ارجاع می‌دهد می‌نویسد «از اصل پارسی باستان است؛ سنجیده شود با aspand و sipand فارسی» و اتیمانلاین نیز «شاید از فارسی» می‌آورد — یعنی همان ادعای نورایی. ولی مرجع امروزی، فرهنگ ریشه‌شناختی بیکس (و به پیروی از آن ویکی‌واژه)، این را رد می‌کند: خوشهٔ ‑ινθ- پسوندی پیش‌یونانی است (مانند τέρμινθος، ἐρέβινθος، ὑάκινθος، λαβύρινθος) و گونهٔ ἀσπίνθιον نیز بر همین دلالت دارد. دو اشکال دیگر: گیاه‌ها یکی نیستند (افسنطین از سردهٔ آرتمیزیا است و اسفند Peganum harmala) و صورت اوستایی spəṇta- الفِ آغازیِ یونانی را توضیح نمی‌دهد. بنابراین پژوهش امروزی این پیوند را نمی‌پذیرد و واژه را وامی از زیرلایهٔ پیش‌یونانی می‌داند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%E1%BC%80%CF%88%CE%AF%CE%BD%CE%B8%CE%B9%CE%BF%CE%BD",
+      "https://www.etymonline.com/word/absinthe"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:7",
+       "status": "supports",
+       "note": "Klein 1966 p.7 (KLN_1966.txt line 1241 = leaf 15; calibration p = 2·leaf − 23 gives exactly 7, so the page number is right): ‘absinth, absinthe, n., wormwood. — F. absinthe, fr. Gk. ἀψίνθιον, “wormwood”, which is of OPers. origin; cp. ModPers. aspand, sipand, of s.m.’ — Klein does say what Nourai’s arrow says; he is simply not the current standard on Greek."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "Wiktionary",
+       "where": "ἀψίνθιον, Etymology (citing Beekes)",
+       "stance": "contradicts",
+       "note": "‘According to Beekes, the cluster -ινθ- suggests a Pre-Greek source, as seen in τέρμινθος … λαβύρινθος. Also, the variant ἀσπίνθιον with /sp/ instead of /ps/ may point to borrowing from Pre-Greek.’"
+      },
+      {
+       "src": "Etymonline",
+       "where": "s.v. absinthe",
+       "stance": "partial",
+       "note": "‘from Greek apsinthion, which is perhaps from Persian (compare Persian aspand, of the same meaning)’ — keeps the Iranian idea only as a ‘perhaps’."
+      },
+      {
+       "src": "TAD",
+       "where": "Tobia al-ʿUnaysi, leaf 7 of TAD_pages.txt (printed p.3–4)",
+       "stance": "partial",
+       "note": "‘إفسنتين — يوناني … معناه لاذع وهو نبات ورقه كورق الصعتر’ — al-ʿUnaysi derives the Arabic word from Greek and stops there; he says nothing about a Persian source of the Greek word."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Arabic",
+     "words": "afsantîn",
+     "verdict": "confirmed",
+     "derivation": "Arabic أفسنتين afsantīn ‘wormwood’ is a Greek medical term taken into Arabic in the translation movement of the 3rd/9th century, when Dioscorides and Galen — in whom ἀψίνθιον is a standard drug — were rendered into Arabic, largely through Syriac (Syriac ܐܦܣܢܬܝܢ). The Greek neuter ἀψίνθιον was borrowed in a form reflecting the Byzantine genitive/plural stem apsinth-, with prothetic ʾa- kept, /ps/ > /fs/ (Arabic has no /p/) and the -īn ending of Graeco-Arabic drug names (cf. أفيون, ترياق). The arrow Greek > Arabic is exactly what Nourai’s reference states.",
+     "derivation_fa": "عربی «أفسنتين» اصطلاحی پزشکی است که در نهضت ترجمهٔ سدهٔ سوم هجری، هنگام برگرداندن آثار دیوسکوریدس و جالینوس (که ἀψίνθιον در آنها دارویی شناخته است) و بیشتر از راه سریانی (ܐܦܣܢܬܝܢ) وارد عربی شد. یونانی ἀψίνθιον با نگاه‌داشتن الف آغازی، ابدال /ps/ به /fs/ (زیرا عربی واج p ندارد) و پایانهٔ ‑ين که در نام داروهای یونانی‌تبار عربی رایج است (مانند «أفيون») معرّب شده است. پس پیکان «یونانی ← عربی» در نمودار درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%A7%D9%81%D8%B3%D9%86%D8%AA%DB%8C%D9%86/",
+      "https://en.wiktionary.org/wiki/%E1%BC%80%CF%88%CE%AF%CE%BD%CE%B8%CE%B9%CE%BF%CE%BD"
+     ],
+     "ref_check": [
+      {
+       "ref": "TAD:4",
+       "status": "supports",
+       "note": "Tobia al-ʿUnaysi, Tafsīr al-alfāẓ al-dākhila, entry ‘إفسنتين ــ يوناني [ἀψίνθιον, OCR-garbled] معناه لاذع وهو نبات ورقه كورق الصعتر’, found on leaf 7 of TAD_pages.txt; the following leaf 9 carries the printed numeral ٥ (=5), so this is printed p.3–4 — Nourai’s ‘4’ is right within one page in this 1932 edition."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qāṭeʿ s.v. افسنتین (BQT_alt_v1.txt lines 22698–22706)",
+       "stance": "supports",
+       "note": "‘افسنتین … نوعی از بوی مادران کوهی است. گل آن بابونه و تلخی آن صبر نزدیک است. درد چشم را سود دارد.’ — the plant is the Artemisia of the Greek word, not Peganum harmala."
+      },
+      {
+       "src": "MON",
+       "where": "abadis.ir افسنتین (لغت‌نامه/فرهنگ)",
+       "stance": "supports",
+       "note": "‘افسنتین. [ اَ س َ ] ( معرب ، اِ ) اپسنتین …’ — the Persian lexica mark it معرّب, i.e. an arabicised foreign (Greek) word, and even keep the Greek shape اپسنتین beside it."
+      },
+      {
+       "src": "AFA",
+       "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (AFA.txt)",
+       "stance": "silent",
+       "note": "greps for ‘afsant’, ‘absinth’, ‘apsinth’ and ‘Wermut’ return nothing in the local OCR, so Fraenkel could not be used to confirm the Syriac intermediary."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "afsantîn «افسنتین»",
+     "verdict": "confirmed",
+     "derivation": "Persian افسنتین afsantīn (also افسنطین) ‘wormwood’ is the Arabic أفسنتين re-borrowed with the Arabic-Persian medical literature (Avicenna’s Qānūn and the later pharmacopoeias such as the Tuḥfat al-Muʾminīn quoted by Dehkhodā); the Persian dictionaries tag it معرّب, i.e. arabicised, and Dehkhodā even glosses it with the Greek shape اپسنتین. So the road is Greek > Arabic > Persian, exactly as drawn — and note that the word is NOT the same plant as اسفند in the box above, which is why the chart is right to keep the two Persian boxes apart.",
+     "derivation_fa": "«افسنتین» (و «افسنطین») در فارسی وام‌واژهٔ عربیِ «أفسنتين» است که همراه با ادبیات پزشکیِ عربی‌نویس — قانونِ ابن‌سینا و داروشناسی‌های بعدی مانند تحفةالمؤمنین که دهخدا نقل می‌کند — وارد فارسی شده است. فرهنگ‌های فارسی آن را «معرّب» نشانه زده‌اند و دهخدا حتی صورت یونانی‌مانندِ «اپسنتین» را در کنارش آورده است. پس راهِ یونانی ← عربی ← فارسی همان است که نمودار نشان می‌دهد. نکتهٔ درخورِ توجه آنکه این گیاه با «اسفند» خانهٔ بالا یکی نیست و نورایی به‌درستی این دو خانهٔ فارسی را از هم جدا نگه داشته است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D8%A7%D9%81%D8%B3%D9%86%D8%AA%DB%8C%D9%86/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:316",
+       "status": "not_found",
+       "note": "grep for ‘افسنتین’ in both local Moʿin OCR files (MON_part1.txt, MON_part2.txt) returns 0 hits, and the local Moʿin scan is the 2-volume abridgement whose pagination does not map to the 6-volume edition Nourai cites, so p.316 cannot be located. The same entry was read instead in Dehkhodā/abadis (see consulted), which gives the معرّب tag Nourai’s arrow needs."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "abadis.ir افسنتین",
+       "stance": "supports",
+       "note": "‘افسنتین. [ اَ س َ ] ( معرب ، اِ ) اپسنتین. نوعی از بوی مادران کوهی است … ( از برهان ) ( آنندراج ).’"
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qāṭeʿ s.v. افسنتین",
+       "stance": "supports",
+       "note": "the Persian lexicographic tradition Dehkhodā quotes (‘از برهان’) already has the word with the Artemisia description."
+      },
+      {
+       "src": "TAD",
+       "where": "leaf 7 (printed p.3–4)",
+       "stance": "supports",
+       "note": "‘إفسنتين ــ يوناني’ — the Arabic stage from which Persian took it."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Germanic",
+     "words": "hun-slam",
+     "verdict": "confirmed",
+     "derivation": "‘hun-slam’ is Nourai’s transcription of Watkins’ Proto-Germanic *hunslam (Wiktionary: *hunslą) ‘sacrifice, sacred offering’, from the zero grade *ḱwn̥-s-lo- of the root: PIE *ḱ > Gmc. *h by Grimm’s Law, syllabic *n̥ > un, and the instrumental suffix -s-lo- (the type of Gothic swumsl, OE ræsl). It is attested as Gothic hunsl ‘θυσία, sacrifice’, Old Norse húsl and Old English hūsl ‘sacrament, the Eucharist’. The only correction: the gloss should be ‘sacrifice, sacred offering’, not ‘holy’ — ‘holy’ is the meaning of the root, and of the Avestan cognate, not of this Germanic noun.",
+     "derivation_fa": "«hun-slam» همان *hunslam ژرمنیِ آغازین در پیوست واتکینز است (در ویکی‌واژه *hunslą) به معنی «قربانی، پیشکشِ مقدس»، از درجهٔ صفرِ ریشه یعنی *ḱwn̥-s-lo-: همخوان *ḱ هندواروپایی بنابر قانون گریم در ژرمنی h شده، *n̥ هجایی به un بدل گشته و پسوند ابزارسازِ ‑s-lo- بدان افزوده شده است. این صورت در گوتی hunsl «قربانی»، نورس کهن húsl و انگلیسی کهن hūsl «آیین مقدس، عشای ربانی» گواهی شده است. تنها اصلاح لازم در معنی است: معنی این اسمِ ژرمنی «قربانی» است نه «مقدس»؛ «مقدس» معنیِ خودِ ریشه و همتای اوستایی آن است. در بقیهٔ موارد ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/housel"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. kʷen-: ‘Holy. Suffixed zero-grade form *kʷn̥-s-lo- in Germanic *hunslam in Old English hūsl, hūsel, Eucharist: HOUSEL. [Pok. k̑uen- 630.]’ — Nourai’s ‘hun-slam’ is letter for letter Watkins’ *hunslam."
+      },
+      {
+       "ref": "KLN:746",
+       "status": "supports",
+       "note": "KLN_1966.txt line 18149 (leaf 402 ≈ printed p.781) s.v. housel: ‘housel, n., the Eucharist (obsol.) — ME. husel, fr. OE. husel, “the Eucharist”, rel. to ON. husl, of s.m., Goth. hunsl, “sacrifice”, and prob. cogn. with Lith. šventas, OSlav. svętŭ, OPruss. swints, “holy”, Lett. svinēt, “to hallow, celebrate”, Avestic spənta-, “holy”.’ — exactly Nourai’s two arrows (Avestan spənta- and Germanic *hunslam under one root). (page caveat as at node 1: the entry stands on printed p.781 of the 1966 scan, not 746.)"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "630",
+       "stance": "supports",
+       "note": "‘probably Gothic hunsl n. “sacrifice, oblation”, Old English husl n. “sacrament” (*k̑un-s-lo-)’."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 471",
+       "stance": "supports",
+       "note": "‘dazu wahrscheinlich got. hunsl n. „Opfer“, ags. husl n. „Sakrament“ (*k̑un-s-lo-; andere Deutungen verzeichnet Feist Got. Wb. 148)’ — note ‘wahrscheinlich’: Feist listed rival explanations, so the Germanic branch is probable rather than certain."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "housel, Etymology 1",
+       "stance": "supports",
+       "note": "‘From Old English hūsl, hūsel, hūsul, from Proto-West Germanic *hunsl, from Proto-Germanic *hunslą.’"
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "housel",
+     "verdict": "confirmed",
+     "derivation": "Old English hūsl / hūsel ‘the Eucharist’ (and the denominative hūslian ‘to administer the Eucharist’, cf. Gothic hunsljan ‘to sacrifice’) > Middle English husel, housel > archaic Modern English housel ‘the Eucharist, Holy Communion’ — the word Shakespeare uses in Hamlet I.v (‘unhous’led’). It is a striking case of a pagan sacrificial term being taken over for the Christian sacrament in the Anglo-Saxon mission period, and it is genuinely the English cognate of Avestan spəṇta- that the chart claims.",
+     "derivation_fa": "انگلیسی کهن hūsl/hūsel «عشای ربانی» (و فعل برساختهٔ hūslian «عشای ربانی دادن»، همانند hunsljan گوتی «قربانی کردن») از راه انگلیسی میانهٔ husel/housel به housel امروزی رسیده است که واژه‌ای کهنه و ادبی است (شکسپیر در هملت، پردهٔ اول، صحنهٔ پنجم صورت unhous’led را به کار برده است). این نمونهٔ گویایی است از کاربردِ یک اصطلاح قربانیِ پیشامسیحی برای آیین مسیحی در دورهٔ تبلیغِ انگلوساکسون، و به‌راستی همان هم‌ریشهٔ انگلیسیِ spəṇta- اوستایی است که نمودار ادعا می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/housel"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none cited)",
+       "status": "not_checked",
+       "note": "no reference on the box; checked Klein s.v. housel, Watkins s.v. kʷen- and Wiktionary instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. housel n. and housel v. (leaf 402 ≈ p.781)",
+       "stance": "supports",
+       "note": "‘housel, n., the Eucharist (obsol.) — ME. husel, fr. OE. husel … Goth. hunsl “sacrifice”’ and ‘housel, tr. v., to administer the Eucharist to. — ME. huslen, fr. OE. huslian … Cp. ON. húsla … Goth. hunsljan, “to sacrifice”.’"
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. kʷen-",
+       "stance": "supports",
+       "note": "‘… in Old English hūsl, hūsel, Eucharist: HOUSEL.’"
+      },
+      {
+       "src": "Wiktionary",
+       "where": "housel",
+       "stance": "supports",
+       "note": "‘The Eucharist (bread and wine taken at Holy Communion); (rare) the ritual or ceremony of Holy Communion’, from OE hūsl."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
