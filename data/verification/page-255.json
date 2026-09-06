@@ -1,0 +1,291 @@
+{
+  "pdf_page": 255,
+  "book_page": 225,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Kens",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ḱens- 'to proclaim, speak solemnly, announce authoritatively' (Pokorny 566; Walde-Pokorny I 403)",
+      "note": "Root, language label and gloss are all exactly right. Pokorny IEW 566 (POK_02.txt leaf 226) heads the entry \"kens- ‚feierlich sprechen, verkündigen‘; kens-tor- ‚Sprecher‘, kens-to- ‚verkündet‘\" and gathers under it Skt. śaṃsáyati / śáṃsati, Av. sah- 'pronuntiare', OP θ-ātiy, Alb. thom, Lat. cēnseō / cēnsor / cēnsus, OCS sętъ. Walde-Pokorny I 403 (WLD_Bd1_pages.txt leaf 412) has the same root with the gloss \"feierlich sprechen, autoritativ verkündigen\" — which is almost word-for-word Nourai's \"to speak solemnly, proclaim\". Mann IEC 608 gives \"Ḱens- (Ḱensmi) … 'utter, pronounce'. WP I, 403\" and a separate noun \"Ḱensos, ā, us 'utterance, opinion, statement'\". One cross-cutting caveat: WP I 403 explicitly REJECTS attaching Greek κόσμος to this root (\"In der Bed. kaum vereinbar ist gr. κόσμος\"), and Pokorny 566 omits it altogether — see node #9, where Nourai himself hedges. Nothing on the printed page differs from the JSON: the extraction of this chart is faithful throughout.",
+      "note_fa": "ریشهٔ بازسازی‌شدهٔ *ḱens- در هندواروپایی آغازین به معنای «رسماً گفتن، اعلام کردن، آشکارا بیان کردن» است و پوکورنی (صفحهٔ ۵۶۶) و والده-پوکورنی (جلد ۱، صفحهٔ ۴۰۳) هر دو دقیقاً همین معنا را می‌آورند؛ پس برچسب زبانی و معنای ریشه در نمودار نورایی درست است. بازماندگان این ریشه در سنسکریت śáṃsati «می‌ستاید، بازمی‌گوید»، در اوستایی sah- «اعلام کردن»، در پارسی باستان θātiy «می‌گوید» و در لاتین cēnseō «سنجیدن، داوری کردن» دیده می‌شود. تنها نکتهٔ محل بحث پیوند دادن کُسموس یونانی به این ریشه است که والده-پوکورنی آن را از نظر معنایی «به‌سختی سازگار» می‌داند و پوکورنی اصلاً نمی‌آورد؛ خود نورایی نیز آن را «احتمالی» خوانده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-"
+      ],
+      "ref_check": [
+        {"ref": "POK:566", "status": "supports", "note": "Pokorny IEW p.566 (local POK_02.txt, awk RS=\\f NR==226): \"kens- ‚feierlich sprechen, verkündigen‘; kens-tor- ‚Sprecher‘, kens-to- ‚verkündet‘ … av. sah- ‚pronuntiare‘ … apers. θ-ātiy ‚spricht, verkündet‘ (*θa(n)hati) … lat. censeō, -ēre ‚begutachten, schätzen‘ … WP. I 403\". Exactly Nourai's root and gloss."},
+        {"ref": "WLD1:403", "status": "supports", "note": "Walde-Pokorny Bd. I p.403 (local incoming/WLD/WLD_Bd1_pages.txt, leaf 412, running head 'kens- — ker- 403'): \"kens- ‚feierlich sprechen, autoritativ verkündigen‘. Ai. çamsayati … av. sŋh- … ap. θatiy oder θanhatiy ‚spricht, verkündigt‘; lat. censeo -ere …\". Nourai's page reference is exact."}
+      ],
+      "consulted": [
+        {"src": "POK", "where": "IEW p.566 (POK_02.txt leaf 226)", "stance": "supports", "note": "\"kens- ‚feierlich sprechen, verkündigen‘ … WP. I 403, WH. I 198ff., EM3 201\""},
+        {"src": "WLD", "where": "Bd. I p.403 (leaf 412)", "stance": "partial", "note": "supports the root but adds \"In der Bed. kaum vereinbar ist gr. κόσμος ‚Ordnung, ordentliche Einrichtung, Anstand; Schmuck, Zier‘\" — i.e. Walde-Pokorny reject the Greek branch Nourai draws in node #9"},
+        {"src": "AHD", "where": "Watkins 1985, s.v. kens- (AHD_watkins1985.txt line 615)", "stance": "supports", "note": "\"kens-. To proclaim, speak solemnly. Form *kens-ē- in Latin cēnsēre, to judge, assess, estimate, tax: CENSOR, CENSUS; RECENSION. [Pok. kens- 566.]\""},
+        {"src": "IEC", "where": "Mann p.608", "stance": "supports", "note": "\"Ḱens- (Ḱensmi) (variant of Ḱēs-mi, q.v.) 'utter, pronounce'. WP I, 403\" plus the noun \"Ḱensos, ā, us 'utterance, opinion, statement'\""}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Old Persian",
+          "words": "thah; thâtiy",
+          "verdict": "confirmed",
+          "derivation": "OP θah- (Nourai transliterates the theta as 'th') is the Old Persian continuant of PIE *ḱens-: PIE palatal *ḱ > Proto-Indo-Iranian *ć > Iranian *s, but in the Persid dialect of the Achaemenid inscriptions the cluster *ns/*nh before a vowel yields θ, giving 3sg. θātiy < *θa(n)hati (Pokorny 566 writes exactly \"apers. θ-ātiy ‚spricht, verkündet‘ (*θa(n)hati)\"). θātiy is the single most frequent verb form in the corpus, the formula θātiy Dārayavauš xšāyaθiya 'says Darius the king' that opens nearly every paragraph of Bīsotūn (DB 1.3, 1.6, 1.8f …) and of DNa/DNb/XPh. Kent's Lexicon p.188 lemmatises the root as θah- and glosses it 'declare, say', equating it with Av. saŋh-, Skt. śāsati and Lat. censet, from pIE *kens-. Both the words and the language label are correct.",
+          "derivation_fa": "فعل پارسی باستان θah- (که نورایی آن را به شکل ساده‌شدهٔ thah نوشته است) بازماندهٔ مستقیم ریشهٔ *ḱens- است: کام‌گان هندواروپایی *ḱ در هندوایرانی به *ć و سپس در ایرانی به s بدل شد، ولی در گویش پارسیِ سنگ‌نبشته‌های هخامنشی خوشهٔ *nh پیش از واکه به θ گرایید و صورت سوم‌شخص θātiy از *θa(n)hati پدید آمد. این صورت پربسامدترین فعل کتیبه‌هاست و در آغاز تقریباً هر بند بیستون می‌آید: «θātiy Dārayavauš xšāyaθiya» یعنی «داریوش شاه می‌گوید». کنت در واژه‌نامهٔ خود (صفحهٔ ۱۸۸) همین ریشه را θah- «اعلام کردن، گفتن» می‌آورد و آن را با saŋh- اوستایی و censeō لاتین یکی می‌داند؛ بنابراین ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-"
+          ],
+          "ref_check": [
+            {"ref": "POK:566", "status": "supports", "note": "IEW 566: \"av. sah- ‚pronuntiare‘, Optat. sahyāt, sasti- ‚Wort, Vorschrift‘; sŋghaite, apers. θ-ātiy ‚spricht, verkündet‘ (*θa(n)hati)\""},
+            {"ref": "KNT:188", "status": "supports", "note": "Kent, Old Persian, Lexicon p.188 (KNT.txt, leaf block carrying the printed numerals 187/188): \"θah- vb. 'declare, say': Av. sŋh-, pres. saŋha-, Skt. śāsati, Lt. censet, pIE *kens- (§87) … θātiy (§131, §213) AmH 4, 9; AsH 5; CMb 3; DB 1.3, 6, 8f, 11 …\". Nourai's page number is exact."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Bartholomae AiW col. 1578", "stance": "supports", "note": "\"j., g. sah-, p. θ-ah- V. 'pronuntiare'. Praes. saŋha-, saŋha- … PPfP. sasta-; Inf. sastanaiy\" with the Bīsotūn citation \"θātiy Dārayavauš xšāyaθiya\" — Bartholomae treats Av. sah- and OP θah- as one verb"},
+            {"src": "SYN", "where": "Buck 18.22 SAY, p.1257", "stance": "supports", "note": "the comparative table for 'say' lists \"OPers. θah-\" beside Av. vak-, mrū-, aθ- and Skt. vac-"},
+            {"src": "IEC", "where": "Mann p.608 s.v. Ḱens-", "stance": "supports", "note": "\"Ober. cf. θātiy, 3s 'says'; a-θaham 'I said'\" listed among the reflexes of Ḱens-"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "soxan «سخن»",
+          "verdict": "plausible",
+          "derivation": "The root attribution is right, the immediate parent is not. NP سخن soxan continues MP saxwan (MacKenzie: \"saxwan [MPYA < A mly'; shwn' | M sxwn, N suxan] word, speech\"), from Old Iranian *sax(u)an- 'utterance', a -van-/-uan- noun to the verb sah- of nodes #1/#3 — Wiktionary derives the Persian word from Proto-Iranian *cánhati and gives Skt. śáṃsati and Lat. cēnseō as cognates, i.e. exactly PIE *ḱens-. But Hübschmann, Persische Studien §99 (p.210) states the rule and the consequence explicitly: \"Ap. θ im Anlaut vor Vokalen = iran. s = idg. ḱ ist im Np. nicht durch h sondern durch s vertreten … suxun, suxan 'Wort' aus iran. *saxvan- = ap. *θa(h)uvan- von θah 'sprechen', skr. śaṃs-, zd. saŋh-\", and again at §108 (p.218) \"suxun, suxan 'Wort', älter saxwan … aus phl. saxwan\". In other words the New Persian word cannot descend from the θ-dialect form θah- drawn as its parent; it comes through a Middle Persian *saxwan whose s- points to a non-Persid (Median-type) Old Iranian form of the same root. The chart's own NOTE offers \"Kâs 2\" (Nourai's PIE *ḱās- 'to direct, command', p.244) as an alternative parent; modern scholarship keeps soxan with *ḱens- (Hübschmann, Wiktionary), while Av. sāsnā- 'teaching' and sāstar- 'ruler' belong to the other root — the two are frequently confused in Iranian, which is why Nourai hedged.",
+          "derivation_fa": "ریشه درست است، ولی پدرِ بی‌واسطه در نمودار درست انتخاب نشده است. «سخن» فارسی نو دنبالهٔ saxwan فارسی میانه است (مکنزی: «saxwan … word, speech، فارسی نو suxan») و آن نیز از ایرانی باستان *sax(u)an- «گفتار» می‌آید، یعنی اسمی با پسوند ‎-uan-‎ از همان ستاک sah-. هوبشمان در «مطالعات فارسی» بند ۹۹ به‌روشنی می‌نویسد که θ آغازیِ پارسی باستان در فارسی نو نه به h بلکه به س بدل می‌شود و suxan «واژه» از ایرانیِ *saxvan- است که برابر پارسی باستانِ *θa(h)uvan- از θah «گفتن» می‌باشد؛ پس «سخن» نمی‌تواند مستقیماً از گونهٔ θ-دار کتیبه‌ها گرفته شده باشد و از گویشی غیرپارسی (مادی‌گونه) به فارسی میانه رسیده است. یادداشت خود نمودار «کاس ۲» (ریشهٔ *ḱās- «فرمان دادن») را هم پیشنهاد می‌کند؛ ریشه‌شناسی امروزی «سخن» را زیر *ḱens- می‌گذارد و sāsnā- و sāstar- اوستایی را زیر آن ریشهٔ دیگر، هرچند این دو ریشه در ایرانی بارها با هم آمیخته‌اند. حکم: ادعای نورایی دربارهٔ ریشه پذیرفتنی است، اما پیوند «پارسی باستان ← سخن» با احتیاط.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%AE%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "TZF:19", "status": "not_checked", "note": "Abolghasemi, Tārix-e Moxtasar-e Zabān-e Fārsi p.19 — refs_online.json gives kind 'website' with no open copy (ketabnak requires login); no accessible text to verify"}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Persische Studien §99 (p.210) and §108 (p.218)", "stance": "partial", "note": "\"suxun, suxan 'Wort' aus iran. *saxvan- = ap. *θa(h)uvan- von θah 'sprechen', skr. śaṃs-, zd. saŋh-\" — same root as Nourai, but explicitly NOT via the Old Persian θ-dialect: \"Ap. θ im Anlaut vor Vokalen … ist im Np. nicht durch h sondern durch s vertreten\""},
+            {"src": "PHD", "where": "MacKenzie p.74 s.v. saxwan", "stance": "supports", "note": "\"saxwan [MPYA < A mly'; shwn' | M sxwn, N suxan] word, speech\" — establishes the Middle Persian step the chart omits"},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II, Pahlavi-script index s.v. sxwn", "stance": "supports", "note": "index line \"sxwn: saxwan\", confirming the Pahlavi spelling shwn' = saxwan"},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e Riše-hā-ye Hend-o-Orupāyi, pdf pp.352-353", "stance": "supports", "note": "the entry lists اوستایی SAH, پارسی باستان *θAH / *θANH, پهلوی SAXWAN alongside Latin censeō, and notes «واژهٔ فارسی پاسخ از پاد و سخن ساخته شده است (پهلوی PASSXW)» — same root chain (OCR noisy)"}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan",
+          "words": "sah 2",
+          "verdict": "confirmed",
+          "derivation": "Av. sah- (present saŋha-/saŋhaite, opt. sahyāt, ppp. sasta-, inf. sastanaiy) 'to declare, pronounce' is the regular Avestan reflex of *ḱens-: PIE *ḱ > Iranian s, and the nasal of the root appears in the present stem saŋh- (< *ḱens-). Bartholomae AiW col.1578 heads it \"j., g. sah-, p. θ-ah- V. 'pronuntiare'\", i.e. he treats the Avestan and the Old Persian verb of node #1 as one lemma; Pokorny 566 gives \"av. sah- ‚pronuntiare‘, Optat. sahyāt, sasti- ‚Wort, Vorschrift‘; saŋhaite\". Nourai's '2' is his own homonym number, distinguishing this sah- from the sāh-/sās- 'to command, teach' of his root \"Kâs 2\" (PIE *ḱās-, p.244) — a distinction Bartholomae also makes, and a sensible one.",
+          "derivation_fa": "ستاک اوستایی sah- (بن حال saŋha-/saŋhaite، وجه تمنایی sahyāt، اسم مفعول sasta-) به معنای «اعلام کردن، گفتن» بازتاب قاعده‌مند *ḱens- در اوستایی است: کام‌گان *ḱ در ایرانی به s بدل شد و خیشومی ریشه در بن حال به شکل saŋh- بازمانده است. بارتولومه در «فرهنگ ایرانی باستان» ستون ۱۵۷۸ همین ماده را «sah- اوستایی، θah- پارسی باستان، فعل: pronuntiare» می‌آورد، یعنی ماده اوستایی و پارسی باستان را یکی می‌داند، و پوکورنی نیز در صفحهٔ ۵۶۶ همین صورت‌ها را زیر ریشه می‌آورد. عدد ۲ در «sah 2» شمارهٔ هم‌آواییِ خود نورایی است و این ستاک را از sāh-/sās- «فرمان دادن، آموزاندن» (ریشهٔ «کاس ۲» او) جدا می‌کند؛ این تفکیک درست و مطابق بارتولومه است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-"
+          ],
+          "ref_check": [
+            {"ref": "POK:566", "status": "supports", "note": "IEW 566: \"av. sah- ‚pronuntiare‘, Optat. sahyāt, sasti- ‚Wort, Vorschrift‘; sŋghaite\""},
+            {"ref": "KNT:188", "status": "supports", "note": "Kent p.188 s.v. θah-: \"Av. sŋh-, pres. saŋha-, Skt. śāsati, Lt. censet, pIE *kens-\" — the Avestan verb is cited on exactly the page Nourai gives"}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW col. 1578", "stance": "supports", "note": "\"j., g. sah-, p. θ-ah- V. 'pronuntiare'. Praes. 1 sah- : sas-, 3 saŋha-, saŋha- … PPfP. sasta-; Inf. sastanaiy\"; the neighbouring lemma \"saŋha- m. 'Zahl' … zum V. sah-\" shows the same stem"},
+            {"src": "WLD", "where": "Bd. I p.403", "stance": "supports", "note": "\"av. sŋh- (saŋhaiti usw., s. Bartholomae Airan. Wb. 1578 f.) ‚pronuntiare‘, sasti- ‚Wort, Vorschrift‘\""},
+            {"src": "IEC", "where": "Mann p.608 s.v. Ḱens-", "stance": "supports", "note": "\"Av. sāsmi 'teach' beside sasmi 'speak, order'\" grouped with Skt. śáṃsami and Lat. censeō"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "afsâneh «افسانه» (also فسانه)",
+          "verdict": "plausible",
+          "derivation": "NP افسانه afsāne / فسانه fasāne 'tale, fable' goes back to MP afsānag (Manichaean MP ʾfsʾnk /afsānag/ 'fable'; MacKenzie's English index has \"fable afsān\" and \"story afsān\"), and the standard analysis takes it as a prefixed nominal derivative of exactly this root: Mann, IEC 608, s.v. \"Ḱensos, ā, us 'utterance, opinion, statement'. Cf. Ḱens- (and Ḱēs-). WP I, 403\" lists among the reflexes \"Per. cf. fa-sāna 'fable'\" beside Skt. śáṃsaḥ, Lat. cēnsus and Osc. censaum — i.e. Nourai's cited page says precisely what his arrow says. The prefix element (a)f- is best explained from Old Iranian *upa- or *abi- (cf. افسون afsun, افسوس afsus with the same af-), so *upa-sanH-na-ka- > MP afsānag > NP afsāna, with the usual MP -ag > NP -a(h) and the doublet فسانه produced by loss of the unstressed initial vowel, as in Khayyām's line quoted on the chart. The verdict is 'plausible' rather than 'confirmed' only because the prefix is not securely established and Wiktionary records a competing suggestion — \"a prefixed derivative of Proto-Indo-European *ḱens-, or maybe *ḱen- 'empty' (cf. Ancient Greek κενός)\" — so the *ḱens- route is the leading but not the sole account.",
+          "derivation_fa": "«افسانه» (گونهٔ کوتاه‌شدهٔ «فسانه») از afsānag فارسی میانه می‌آید (در فارسی میانهٔ مانوی ʾfsʾnk، و مکنزی در نمایهٔ انگلیسی‌اش afsān را برابر fable و story می‌آورد). تحلیل رایج آن را مشتقی پیشوندی از همین ریشه می‌داند: مان در «فرهنگ تطبیقی هندواروپایی» صفحهٔ ۶۰۸، ذیل *Ḱensos «گفته، سخن»، خودِ صورت فارسی fa-sāna «افسانه» را در کنار śáṃsaḥ سنسکریت و cēnsus لاتین می‌آورد؛ یعنی همان ارجاعی که نورایی داده است دقیقاً ادعای او را تأیید می‌کند. پیشوند «اَف-» را بهتر است از *upa-/*abi- ایرانی باستان بدانیم (مانند «افسون» و «افسوس»)، پس *upa-sanH-na-ka- ← afsānag ← افسانه، با تبدیل معمول ‎-ag‎ فارسی میانه به ‎-ه‎ فارسی نو، و «فسانه» از افتادن واکهٔ آغازینِ بی‌تکیه پدید آمده است (چنان‌که در بیت خیام روی همین صفحه). حکم «با احتیاط پذیرفتنی» است، زیرا پیشوند به‌طور قطعی اثبات نشده و ویکی‌واژه گمانِ رقیبی هم یاد می‌کند: پیوند با ریشهٔ *ḱen- «تهی» (یونانی kenós).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%81%D8%B3%D8%A7%D9%86%D9%87"
+          ],
+          "ref_check": [
+            {"ref": "IEC:608", "status": "supports", "note": "Mann, IEC p.608: \"Ḱensos, ā, us 'utterance, opinion, statement'. Cf. Ḱens- (and Ḱēs-). WP I, 403 — Skt. śáṃsaḥ 'pronouncement' … Per. cf. fa-sāna 'fable'; Lat. cēnsus, gs -us 'polltax, census'\". Nourai's page is exact and the Persian word is named there."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, English–Pahlavi index s.vv. 'fable' and 'story'", "stance": "supports", "note": "\"fable afsān.\" and \"story afsān.\" — the Middle Persian antecedent of افسانه"},
+            {"src": "POK", "where": "IEW p.566 s.v. kens-", "stance": "silent", "note": "Pokorny lists no Iranian nominal derivative for this root beyond Av. sasti-; افسانه is not mentioned"},
+            {"src": "WLD", "where": "Bd. I p.403", "stance": "silent", "note": "the Iranian material is limited to Av. sŋh-/sasti- and OP θatiy; no New Persian derivative"},
+            {"src": "HRN", "where": "Grundriss der neupersischen Etymologie", "stance": "silent", "note": "grep of HRN.txt for 'afsana', 'fasāna', 'Fabel', 'Märchen' returns nothing — Horn has no entry for افسانه"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "cĕns-ĕre",
+          "verdict": "confirmed",
+          "derivation": "Latin cēnsēre 'to assess, appraise, judge, reckon; to take a census' is the classic Italic reflex of *ḱens-, formed with the stative suffix *-ē- (Watkins: \"Form *kens-ē- in Latin cēnsēre\"; from *ḱn̥s-eh₁-ye-ti per Wiktionary). Pokorny 566 sets it beside Oscan censamur 'censetor', censaum 'censere', keenzstur/kenzsur = cēnsor (matching Skt. śaṃstar- 'he who recites'), an-censto = incensa, and the participial noun cēnsus (= Skt. śastá- 'spoken, praised'), the source of the Roman institution of the census and the magistracy of the censor (5th c. BCE). Semantically the root's 'proclaim solemnly' narrowed in Italic to the formal declaration of a citizen's property before the magistrate, hence 'assess, value, judge'. Nourai's gloss 'to judge, estimate, tax' is right. One typographic note: the book prints the vowels with breves, cĕns-ĕre, whereas the Latin verb has two long ē (cēnsēre); the extraction is faithful to the page, and this is only Nourai's habitual disregard of Latin quantities, not a factual error.",
+          "derivation_fa": "فعل لاتین cēnsēre «سنجیدن، ارزیابی کردن، داوری کردن، سرشماری کردن» بازتاب ایتالیکِ ریشهٔ *ḱens- است که با پسوند حالت‌نمای *-ē- ساخته شده (واتکینز: «صورت *kens-ē- در cēnsēre لاتین»). پوکورنی در صفحهٔ ۵۶۶ آن را در کنار صورت‌های اسکی censamur و keenzstur (= cēnsor) و اسم مفعولی cēnsus می‌گذارد که با śastá- سنسکریت «گفته‌شده، ستوده‌شده» برابر است. از نظر معنایی، مفهوم «رسماً اعلام کردن» در ایتالیک به «اعلام رسمی دارایی نزد مأمور دولت» و از آنجا به «برآورد کردن، مالیات بستن» تخصیص یافته است؛ پس معنایی که نورایی می‌دهد درست است. تنها نکتهٔ نگارشی این است که کتاب هر دو واکه را کوتاه (cĕns-ĕre) نشان داده، حال آنکه در لاتین هر دو کشیده است (cēnsēre)؛ این بی‌دقتی خود کتاب است و خوانش اسکن درست انجام شده است.",
+          "sources": [
+            "https://www.etymonline.com/word/censor",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-"
+          ],
+          "ref_check": [
+            {"ref": "POK:566", "status": "supports", "note": "IEW 566: \"lat. censeō, -ēre ‚begutachten, schätzen‘, osk. censamur ‚censetor‘, censaum ‚censere‘, keenzstur, kenzsur (= censor : ai. śaṃstar- ‚der da rezitiert‘) … lat. census (: ai. śastá-h ‚gesprochen, gepriesen‘)\""},
+            {"ref": "AHD:1522", "status": "supports", "note": "the corresponding entry in Watkins 1985 (the 1976 appendix pp.1505-1550 is not open online, but the root list is the same): \"kens-. To proclaim, speak solemnly. Form *kens-ē- in Latin cénsére, to judge, assess, estimate, tax: CENSOR, CENSUS; RECENSION. [Pok. kens- 566.]\""}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966, pp. 257-258 s.v. censor", "stance": "supports", "note": "\"censor, n. — L. censor, fr. censere, 'to reckon, assess, estimate, value, deem, judge', cogn. with OI śaṃsati, 'recites, praises', śaṃsayati, 'announces', śāsā, 'song of praise', Toch. B cansmaya, 'he has been proclaimed'\""},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict., p.77 s.v. Censor", "stance": "supports", "note": "\"Censor. (L.) L. censor, an assessor, critic. — L. censere, to estimate, appraise.\" and \"censure. (L.) L. censura … — L. censere (above).\""},
+            {"src": "WLD", "where": "Bd. I p.403", "stance": "supports", "note": "\"lat. censeo -ere ‚begutachten, schätzen‘, osk. censamur ‚censetor‘ … lat. census\""}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "censur",
+          "verdict": "transcription_suspect",
+          "derivation": "There is no French word *censur. French has censure f. 'censorship, censure' (< Lat. cēnsūra, itself from cēnsus, pp. of cēnsēre) and censeur m. 'censor' (< Lat. cēnsōrem). The box carries the gloss 'censor', which belongs to censeur, but the word that actually gave the Persian سانسور of node #7 — and that Klein describes — is censure: \"censure, n. — F. censure, fr. L. censura, 'judgment, criticism', fr. census, pp. of censere. See censor and -ure\" (Klein 1966 p.258). I rendered the printed page at 600 dpi and read the box: it prints exactly \"censur : censor\", so the extraction is faithful and the missing final -e is Nourai's own misprint (the box also carries no reference of its own, refs=None, which is consistent with it being a hurried intermediate link). The chain Latin cēnsēre > cēnsūra > OFr./Fr. censure (attested from the 14th c.) > Persian sānsor is otherwise sound.",
+          "derivation_fa": "در فرانسه واژه‌ای به شکل *censur وجود ندارد؛ آنچه هست censure (مؤنث) به معنای «سانسور، بازرسی و حذف» از cēnsūra لاتین، و censeur (مذکر) به معنای «سانسورچی» از cēnsōrem لاتین است. معنایی که کتاب داده («censor») به censeur می‌خورد، اما واژه‌ای که «سانسور» فارسی از آن گرفته شده censure است؛ کلاین (صفحهٔ ۲۵۸) می‌نویسد: «censure از فرانسهٔ censure، از لاتین censūra ‹داوری، نقد›، از census». صفحهٔ چاپی را با تفکیک ۶۰۰ نقطه بر اینچ بازخوانی کردم: در خانه دقیقاً «censur : censor» چاپ شده است؛ پس خطای خوانش اسکن نیست، بلکه خطای چاپی خود کتاب است و «ه» پایانی افتاده است. زنجیرهٔ لاتین cēnsēre ← cēnsūra ← فرانسهٔ censure ← فارسی «سانسور» در کل درست است.",
+          "error_in": "book",
+          "book_prints": "censur : censor",
+          "correct_form": "censure (F., 'censorship'); F. censeur = 'censor'",
+          "sources": [
+            "https://www.etymonline.com/word/censor"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "the box carries no reference of its own in the book (refs=None); nothing of Nourai's to check"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 p.258 s.vv. censure, censor", "stance": "partial", "note": "\"censure, n. — F. censure, fr. L. censura, 'judgment, criticism', fr. census, pp. of censere\" — has the derivation but the French form is censure, not *censur"},
+            {"src": "SKT", "where": "Skeat p.77 s.v. censure", "stance": "partial", "note": "\"censure. (L.) L. censura … — L. censere\"; Skeat takes English censure straight from Latin, and knows no form *censur"},
+            {"src": "BOOK", "where": "printed page 225 (pdf 255), Latin→French box, rendered at 600 dpi (copy at data/verification/sources/refs/ocr/BOOK/255.png)", "stance": "supports", "note": "the page itself reads \"censur : censor\" — the JSON matches the book exactly, so the defect is the author's"}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "sânsor «سانسور»",
+          "verdict": "confirmed",
+          "derivation": "Persian سانسور sānsor is a 20th-century loan from French censure [sɑ̃syːʁ], taken over with the French nasal vowel resolved into ān and the French -ure rendered -or/-ur: censure > sān-sur/sān-sor. It entered Persian with the whole vocabulary of the press and of state administration in the Constitutional and early Pahlavi periods, when French was the language of Iranian officialdom, alongside ژورنال, رپرتاژ, بولتن. Dehkhoda glosses it 'ممیزی و تفتیش مطبوعات و مکاتیب و نمایشها' and Mo'in 'کنترل و بازرسی حاکمیت بر فعالیت سیاسی، اجتماعی و … خاصهٔ فرهنگی', both tagging it as French. Thus the route Latin cēnsēre > Fr. censure > Pers. sānsor is correct; only the French form printed in node #6 is defective.",
+          "derivation_fa": "«سانسور» وام‌واژه‌ای است از فرانسهٔ censure که در سدهٔ چهاردهم خورشیدی وارد فارسی شده است. واکهٔ خیشومیِ فرانسوی ‎[ɑ̃]‎ در فارسی به «ان» تجزیه شده و پایانهٔ ‎-ure‎ به ‎-ور‎ بدل گشته است: censure ← سانسور. این واژه همراه با انبوه اصطلاحات مطبوعاتی و اداریِ فرانسوی‌تبار (ژورنال، رپرتاژ، بولتن) در دورهٔ مشروطه و پهلوی اول به فارسی راه یافت، در روزگاری که فرانسه زبان دیوان و مطبوعات ایران بود. دهخدا آن را «ممیزی و تفتیش مطبوعات و مکاتیب و نمایش‌ها» و معین «کنترل و بازرسی حاکمیت بر فعالیت سیاسی، اجتماعی و… خاصهٔ فرهنگی» معنی می‌کند و هر دو آن را «فر.» (فرانسوی) نشان می‌گذارند. پس ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B3%D8%A7%D9%86%D8%B3%D9%88%D8%B1/"
+          ],
+          "ref_check": [
+            {"ref": "VOP:210", "status": "not_checked", "note": "Moshiri, Farhang-e Vāžehā-ye Orupāyi dar Fārsi (1371) — refs_online.json records kind 'none': not on archive.org, ketabnak or noorlib, no copy accessible"}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in via abadis.ir/fatofa/سانسور (فرهنگ فارسی معین)", "stance": "supports", "note": "tagged French; 'کنترل و بازرسی حاکمیت بر فعالیت سیاسی، اجتماعی و… خاصهٔ فرهنگی'"},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e Riše-hā-ye Hend-o-Orupāyi", "stance": "silent", "note": "grep of ARY_pages.txt finds no entry for سانسور — the book covers inherited Indo-European vocabulary, not modern European loans"},
+            {"src": "KLN", "where": "Klein 1966 p.258 s.v. censure", "stance": "supports", "note": "confirms the French etymon censure < L. censura that the Persian word reflects"}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "censor, census",
+          "verdict": "confirmed",
+          "derivation": "English censor (1530s) is Latin cēnsor, the title of the Roman magistrate of the 5th c. BCE who took the census and supervised public morals; the modern sense 'official who examines books, plays, films' is first recorded in the 1640s. Census (1610s) is Latin cēnsus, 'the enrolment of the names and property assessments of all Roman citizens', the past participle of cēnsēre used as a noun. Both are learned borrowings straight from Latin (censor partly through French censeur), not inherited, so no Germanic sound changes are involved. Watkins lists precisely CENSOR, CENSUS (and RECENSION) as the English outcomes of *kens- via cēnsēre, and Etymonline gives the same PIE root *kens- 'speak solemnly, proclaim'.",
+          "derivation_fa": "واژه‌های انگلیسی censor (از دههٔ ۱۵۳۰) و census (از دههٔ ۱۶۱۰) وام‌واژه‌های کتابی و مستقیم از لاتین‌اند، نه میراث ژرمنی؛ از این رو هیچ دگرگونی آوایی ژرمنی در آن‌ها دیده نمی‌شود. censor همان cēnsor لاتین است، عنوان مأمور رومی سدهٔ پنجم پیش از میلاد که سرشماری می‌کرد و بر اخلاق همگانی نظارت داشت، و معنای امروزی آن («بازرس کتاب و نمایش و فیلم») از دههٔ ۱۶۴۰ پدید آمده است. census نیز اسم‌شدهٔ اسم مفعول cēnsus «ثبت نام و دارایی شهروندان رومی» است. واتکینز در پیوست ریشه‌های هندواروپاییِ فرهنگ آمریکن هریتیج همین دو واژه را (به‌همراه recension) برآمده از *kens- از راه cēnsēre می‌داند؛ پس ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/censor"
+          ],
+          "ref_check": [
+            {"ref": "AHD:1522", "status": "supports", "note": "Watkins 1985 s.v. kens- (AHD_watkins1985.txt line 615) ends \"…to judge, assess, estimate, tax: CENSOR, CENSUS; RECENSION\"; the index confirms \"CENSOR kens- CENSUS kens-\""}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 pp. 257-258 s.vv. censor, census", "stance": "supports", "note": "\"census, n. — L. census, 'rating of property, registration of citizens and their property', fr. census, pp. of censere. See censor.\""},
+            {"src": "SKT", "where": "Skeat p.77 s.v. Censor", "stance": "supports", "note": "\"Censor. (L.) L. censor, an assessor, critic. — L. censere, to estimate, appraise.\""},
+            {"src": "AHD", "where": "Watkins 1985, index p.1340", "stance": "supports", "note": "\"CENSOR kens- CENSUS kens-\""}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Greek",
+          "words": "kos-mein; kos-mĕtikos; kos-mos",
+          "verdict": "plausible",
+          "derivation": "The Greek words themselves are impeccable: κόσμος 'order, orderly arrangement; ornament, adornment; world-order, universe' (Pythagoras is said to have first applied it to the universe), the denominative verb κοσμέω/κοσμεῖν 'to arrange, order, adorn, equip', and the verbal adjective κοσμητικός 'skilled in arranging/adorning' (from κοσμητός 'well-ordered'). What is at issue is only the arrow from *ḱens-, and Nourai's own NOTE ('A possible derivation') is the right posture. Against it: Walde-Pokorny I 403, on the very page Nourai cites for the root, says outright \"In der Bed. kaum vereinbar ist gr. κόσμος ‚Ordnung … Schmuck, Zier‘ (wäre *ḱons-mos)\" and prefers Brugmann's alternative; Pokorny 566 drops the Greek word from the entry entirely; Klein (1966 p.361) ends his κόσμος entry \"of uncertain origin\"; Watkins 1985 puts it under a wholly separate root \"kes-³. To order. Suffixed o-grade form *kos-mo- in Greek kosmos, order: COSMOS; MACROCOSM, MICROCOSM\" — so Nourai's citation AHD:1522 (= the kens- page) does not cover kosmos; and today's online AHD gives only \"[Middle English, from Greek kosmos, order.]\" with no root at all. For it: Wiktionary, citing Beekes, EDG (2010) 759-760, derives κόσμος from Proto-Hellenic *kónsmos < PIE *ḱóns-mo- < *ḱens- 'to announce, put in order', which is the same *ḱons-mos that Walde-Pokorny had considered and rejected. So the derivation is accepted by some scholars and not by others — hence 'plausible', with the semantic bridge ('authoritative pronouncement' → 'ordering, arrangement') the weak point.",
+          "derivation_fa": "خودِ واژه‌های یونانی بی‌اشکال‌اند: κόσμος «نظم، سامان؛ زیور، آرایه؛ نظمِ جهان، گیتی» (گفته‌اند نخستین‌بار فیثاغورس آن را بر جهان اطلاق کرد)، فعل مشتق κοσμεῖν «سامان دادن، آراستن» و صفت فعلی κοσμητικός «کاردان در آراستن». آنچه محل بحث است تنها پیوند این خانواده با ریشهٔ *ḱens- است و خودِ نورایی هم آن را «احتمالی» خوانده که موضع درستی است. در برابر این پیوند: والده-پوکورنی در همان صفحهٔ ۴۰۳ که نورایی برای ریشه ارجاع می‌دهد صریحاً می‌نویسد «κόσμος یونانی از نظر معنایی به‌سختی با این ریشه سازگار است»؛ پوکورنی در صفحهٔ ۵۶۶ اصلاً آن را نمی‌آورد؛ کلاین آن را «نامعلوم‌الاصل» می‌خواند؛ و واتکینز در پیوست آمریکن هریتیج آن را زیر ریشهٔ جداگانهٔ kes-³ «سامان دادن» می‌گذارد، پس ارجاع AHD:1522 که نورایی داده اصلاً به کُسموس مربوط نیست. در تأیید آن: ویکی‌واژه به استناد بیکس (فرهنگ ریشه‌شناختی یونانی، ۲۰۱۰، صفحات ۷۵۹–۷۶۰) κόσμος را از *ḱóns-mo- و آن را از *ḱens- می‌گیرد. بنابراین این اشتقاق را برخی پذیرفته‌اند و برخی نه؛ حکم «با احتیاط پذیرفتنی» است و ضعف اصلی در پل معنایی («اعلام رسمی» ← «نظم و سامان») نهفته است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82",
+            "https://www.etymonline.com/word/cosmos",
+            "https://www.ahdictionary.com/word/search.html?q=cosmos"
+          ],
+          "ref_check": [
+            {"ref": "AHD:1522", "status": "contradicts", "note": "p.1522 of the 1976 appendix is the kens- page; but Watkins assigns kosmos to a different root: \"kes-³. To order. Suffixed o-grade form *kos-mo- in Greek kosmos, order: COSMOS; MACROCOSM, MICROCOSM\" (AHD_watkins1985.txt line 623), and the index reads \"cosmos kes-3\". AHD therefore does not support Greek kosmos < kens-."},
+            {"ref": "AHD:301", "status": "partial", "note": "p.301 of the 1976 AHD is the dictionary page carrying 'cosmetic'; the current online AHD gives only \"[Middle English, from Greek kosmos, order.]\" with no Indo-European root link at all"}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. I p.403 s.v. kens-", "stance": "contradicts", "note": "\"In der Bed. kaum vereinbar ist gr. κόσμος ‚Ordnung, ordentliche Einrichtung, Anstand; Schmuck, Zier‘ (wäre *ḱons-mos), Froehde KZ. 33, 311, Zupitza Gutt. 109, Brugmann Distrib. 19; letzterer versucht IF. 28, 358 f. Anknüpfung vielmehr an kʷerep-, kʷer- ‚machen‘\""},
+            {"src": "POK", "where": "IEW p.566 s.v. kens-", "stance": "silent", "note": "the entry lists Skt., Av., OP, Alb., Lat., Osc. and OCS reflexes and no Greek word — Pokorny silently dropped the κόσμος question from WP I 403"},
+            {"src": "KLN", "where": "Klein 1966 pp. 360-361 s.v. cosmos", "stance": "contradicts", "note": "\"cosmos, n. … — Gk. κόσμος, 'order, ornament, decoration, set form; world, universe', whence κοσμεῖν, 'to order, arrange, adorn', κοσμητός (verbal adj.), 'well-ordered, regular'; of uncertain origin.\""},
+            {"src": "AHD", "where": "Watkins 1985 s.v. kes-³ and index", "stance": "contradicts", "note": "\"cosmos kes-3\" — a separate root from kens-"},
+            {"src": "SKT", "where": "Skeat p.97 s.v. Cosmic", "stance": "silent", "note": "\"Cosmic, relating to the world. (Gk.) Gk. κοσμικός, adj., from κόσμος, order, also the world, universe\" — no Indo-European etymology offered"}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "French",
+          "words": "cosmetique",
+          "verdict": "confirmed",
+          "derivation": "French cosmétique (16th c.) is a learned borrowing of Greek κοσμητικός, feminine κοσμητική (τέχνη) 'the art of dress and ornament', through the Latinised cosmetica; the Greek adjective is built on κοσμητός 'well-ordered', verbal adjective of κοσμεῖν 'to arrange, adorn'. Etymonline gives the chain \"Greek kosmos (order, ornament) > kosmetikos (skilled in adornment) > French cosmétique > English cosmetic\", the English adjective being taken from the French in the 1640s (the noun a little earlier, c.1600, directly from the Greek). The book prints the French word without its accent, 'cosmetique'; that is Nourai's usual practice with French forms and not an error of substance.",
+          "derivation_fa": "واژهٔ فرانسوی cosmétique (سدهٔ شانزدهم میلادی) وام‌گیریِ دانشورانه‌ای است از κοσμητικός یونانی (مؤنث κοσμητική τέχνη «هنر آرایش و پیرایش») از راه صورت لاتینی‌شدهٔ cosmetica؛ صفت یونانی خود از κοσμητός «آراسته، سامان‌یافته»، صفت فعلی κοσμεῖν «آراستن، سامان دادن»، ساخته شده است. اتیمانلاین همین زنجیره را می‌آورد: kosmos ← kosmetikos ← cosmétique فرانسوی ← cosmetic انگلیسی. کتاب واژهٔ فرانسوی را بدون علامت تشدیدِ واکه («cosmetique») چاپ کرده است که شیوهٔ همیشگی نورایی در نوشتن واژه‌های فرانسوی است و خطای محتوایی به شمار نمی‌رود؛ در مجموع ادعای این گره درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/cosmetic"
+          ],
+          "ref_check": [
+            {"ref": "AHD:301", "status": "partial", "note": "p.301 of the 1976 AHD is the dictionary page with 'cosmetic'; the modern AHD entry for cosmetic gives \"[French cosmétique, from Greek kosmētikos, skilled in adornment, from kosmein, to arrange, adorn, from kosmos, order]\" — the French step Nourai draws is confirmed, but AHD offers no Indo-European root for it"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 p.360 s.v. cosmetic", "stance": "supports", "note": "\"cosmetic, adj., serving to beautify. — Gk. κοσμητικός, 'skilled in arranging', fr. κοσμητός, 'well-ordered', verbal adj. of κοσμεῖν, 'to order, arrange, adorn', fr. κόσμος\""},
+            {"src": "SKT", "where": "Skeat p.97 s.v. Cosmic", "stance": "partial", "note": "Skeat gives κόσμος but has no separate entry for cosmetic/cosmétique"}
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Persian",
+          "words": "mâtîk «ماتیک»",
+          "verdict": "confirmed",
+          "derivation": "Persian ماتیک mātik 'lipstick' is a clipping of French cosmétique: Dehkhoda's entry states it outright — ماتیک is 'از فرانسه، مخفف cosmétique فرانسوی', tracing it further back to Greek κοσμητικός and defining cosmétique as the preparations used for the freshness and beauty of skin and hair. The Persian form keeps only the last two syllables of [kɔs.me.tik], with the loss of the initial syllable (a common fate of long European loans in colloquial Persian) and the regular lengthening of the stressed vowel to ā: cos-mé-tique > mā-tik. Mo'in tags it [فر.] 'French' and defines it 'از انواع لوازم آرایش که با آن لب‌ها را رنگ کنند، روژ لب', i.e. the meaning narrowed from 'cosmetic in general' to 'lip colour' specifically. Nourai's arrow French cosmétique → Persian mâtîk is therefore exactly what the Persian lexicographers say.",
+          "derivation_fa": "«ماتیک» کوتاه‌شدهٔ واژهٔ فرانسوی cosmétique است. دهخدا صریحاً می‌نویسد که ماتیک «از فرانسه، مخفف cosmétique فرانسوی» است و آن را تا κοσμητικός یونانی پی می‌گیرد و «کسمتیک» را داروهایی می‌داند که برای طراوت و زیبایی پوست و گیسو به کار می‌رود. در فارسی تنها دو هجای پایانی ‎[me.tik]‎ نگاه داشته شده و هجای آغازین افتاده است — سرنوشتی که بسیاری از وام‌واژه‌های بلندِ اروپایی در گفتار فارسی یافته‌اند — و واکهٔ تکیه‌بر به «ا» کشیده بدل شده است: cos-mé-tique ← ماتیک. معین آن را با نشان «فر.» می‌آورد و چنین معنی می‌کند: «از انواع لوازم آرایش که با آن لب‌ها را رنگ کنند، روژ لب»؛ یعنی معنا از «فرآوردهٔ آرایشی» به‌طور کلی، به «سرخابِ لب» تخصیص یافته است. پس پیکان نورایی از cosmétique فرانسوی به «ماتیک» فارسی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%85%D8%A7%D8%AA%DB%8C%DA%A9/",
+            "https://www.jadvalyab.ir/moein/%D9%85%D8%A7%D8%AA%DB%8C%DA%A9"
+          ],
+          "ref_check": [
+            {"ref": "VOP:321", "status": "not_checked", "note": "Moshiri, Farhang-e Vāžehā-ye Orupāyi dar Fārsi — refs_online.json records kind 'none': no copy found on archive.org, ketabnak or noorlib"}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in via jadvalyab.ir/moein/ماتیک and abadis.ir", "stance": "supports", "note": "origin tag [فر.]; 'از انواع لوازم آرایش که با آن لب‌ها را رنگ کنند، روژ لب'"},
+            {"src": "BQT", "where": "Borhan-e Qate'", "stance": "silent", "note": "a 17th-century dictionary of classical Persian; it can contain no 20th-century French loan such as ماتیک"},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e Riše-hā-ye Hend-o-Orupāyi", "stance": "silent", "note": "grep of ARY_pages.txt finds no ماتیک entry — the book treats inherited Indo-European vocabulary only"}
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "cosmetic",
+          "verdict": "confirmed",
+          "derivation": "English cosmetic as a noun appears c.1600 from Latinised Greek kosmetike (tekhne) 'the art of dress and ornament'; as an adjective it is taken in the 1640s from French cosmétique (16th c.), which is Nourai's route. The figurative sense 'superficial, affecting appearance only' is first recorded in 1955. The word is a learned Renaissance borrowing, so it shows no native English sound development, only the substitution of -ic for French -ique. Klein confirms the same chain via κοσμητικός < κοσμητός < κοσμεῖν < κόσμος.",
+          "derivation_fa": "واژهٔ انگلیسی cosmetic در جایگاه اسم حدود سال ۱۶۰۰ از صورت لاتینی‌شدهٔ یونانی kosmetike (technē) «هنر آرایش و پیرایش» گرفته شده و در جایگاه صفت در دههٔ ۱۶۴۰ از cosmétique فرانسوی وارد شده است — یعنی همان راهی که نورایی رسم کرده است. معنای مجازی «سطحی، ظاهری» نخستین‌بار در سال ۱۹۵۵ ثبت شده است. این واژه وام‌واژه‌ای دانشورانه از دورهٔ رنسانس است و هیچ تحول آوایی بومیِ انگلیسی در آن دیده نمی‌شود؛ تنها پایانهٔ فرانسوی ‎-ique‎ به ‎-ic‎ انگلیسی بدل شده است. کلاین نیز همین زنجیره را از κόσμος تا κοσμεῖν و κοσμητικός تأیید می‌کند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/cosmetic"
+          ],
+          "ref_check": [
+            {"ref": "AHD:301", "status": "supports", "note": "p.301 of the 1976 AHD is the dictionary page for cosmetic; the AHD entry gives \"[French cosmétique, from Greek kosmētikos …]\", exactly the French→English step drawn here"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 p.360 s.v. cosmetic", "stance": "supports", "note": "\"cosmetic, adj., serving to beautify. — Gk. κοσμητικός, 'skilled in arranging', fr. κοσμητός … fr. κόσμος. See cosmos and -ic.\""},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict.", "stance": "silent", "note": "grep for 'cosmetic' in SKT.txt returns no headword; Skeat has only Cosmic"}
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "English",
+          "words": "cosmos, cosmic",
+          "verdict": "confirmed",
+          "derivation": "English cosmos is the Latinised Greek κόσμος 'order, good order, orderly arrangement', known in English from c.1200 but popularised in 1848 as the title of the English translation of Humboldt's Kosmos; cosmic is Greek κοσμικός 'of or connected with the world', through Latin cosmicus. As direct learned borrowings they involve no sound change beyond Latin orthography and the English -ic suffix. The English step drawn here is uncontroversial; the doubtful link in this branch is the one above it (node #9, Greek ← Indo-European), not this one. Nourai's bare 'AHD' reference is the appendix in general.",
+          "derivation_fa": "واژهٔ انگلیسی cosmos همان κόσμος یونانی است به صورت لاتینی‌شده، به معنای «نظم، سامان، آرایشِ سنجیده»؛ از حدود سال ۱۲۰۰ در انگلیسی شناخته بوده اما رواج امروزی‌اش از سال ۱۸۴۸ و از عنوان ترجمهٔ انگلیسی کتاب «کُسموس» اثر هومبولت است. cosmic نیز از κοσμικός «مربوط به جهان» از راه cosmicus لاتین آمده است. چون هر دو وام‌واژهٔ کتابی و مستقیم‌اند، هیچ دگرگونی آوایی بومی در آن‌ها رخ نداده و تنها املای لاتینی و پسوند انگلیسیِ ‎-ic‎ افزوده شده است. این حلقه از زنجیره بی‌چون‌وچرا درست است؛ حلقهٔ مشکوک، حلقهٔ بالاتر است (گرهٔ ۹: یونانی ← هندواروپایی).",
+          "sources": [
+            "https://www.etymonline.com/word/cosmos"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "Watkins 1985 does give COSMOS (with MACROCOSM, MICROCOSM) — but under the root kes-³ 'to order', not under kens-; the index reads \"cosmos kes-3\". The English words are covered by AHD; the root assignment Nourai draws is not."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 pp. 360-361 s.vv. cosmos, cosmic", "stance": "supports", "note": "\"cosmic, adj., pertaining to the cosmos; vast. — Gk. κοσμικός, 'of, or connected with, the world', fr. κόσμος, 'world'\"; the cosmos entry adds 'of uncertain origin' for the Greek word itself"},
+            {"src": "SKT", "where": "Skeat p.97 s.v. Cosmic", "stance": "supports", "note": "\"Cosmic, relating to the world. (Gk.) Gk. κοσμικός, adj., from κόσμος, order, also the world, universe\""},
+            {"src": "AHD", "where": "Watkins 1985 index p.1394", "stance": "partial", "note": "\"cosmos kes-3\" — the English word is in the appendix, but under a different root"}
+          ]
+        }
+      ]
+    }
+  ]
+}
