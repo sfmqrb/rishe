@@ -1,0 +1,332 @@
+{
+  "pdf_page": 195,
+  "book_page": 165,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-05",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Gh.r.f",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root غ-ر-ف, verb غَرَفَ (ḡarafa) 'to scoop, lade out (water)'",
+      "note": "The root box is right on all three counts: غ-ر-ف is a real Arabic triliteral root, the language label is correct, and the gloss 'to draw water' is exactly what the verb غَرَفَ means (Wiktionary: 'to lade out, to scoop'; from it غُرْفَة 'handful of water; chamber', غَرْف verbal noun). The whole of entry 0 is in fact a transcription of one entry in Klein: 'carafe, n., a glass bottle. — F., fr. Sp. garrafa, fr. Arab. gharraf, drinking jug, fr. gharafa, he drew water' — the root gloss, the gloss of node #1 and the gloss of node #5 are Klein's own words. Two caveats that belong at root level rather than to any single box. (1) The Arabic noun behind the Romance words is the FEMININE غَرَّافة garrāfa, not the masculine غرّاف; Lokotsch no. 689 states it is 'nicht klassisch-arabisch, sondern scheint nur vulgär im Magrib gebräuchlich zu sein', i.e. a Maghrebi colloquial formation, which is why it travelled through Spanish/Italian and not through the classical language. (2) The Arabic etymon is not the only candidate: Etymonline and Littré (after Mohl) offer Persian قرابه qarāba 'large glass flagon' instead, and Pihan prefers exactly that. Nourai gives only the Arabic side, which is Klein's, Dozy's and Lokotsch's line, so the chart follows the majority view but suppresses a live alternative.",
+      "note_fa": "ریشهٔ سه‌حرفی عربی «غ ر ف» و فعل غَرَفَ به معنای «آب برداشتن، آب کشیدن با کف دست» واقعی است و برچسب زبانی و معنای نورایی هر دو درست‌اند. تمام این نمودار در واقع بازنویسی یک مدخل از فرهنگ ریشه‌شناسی کلاین (ذیل carafe) است. دو نکته: نخست آنکه واژه‌ای که به زبان‌های اروپایی رفته صورت مؤنث «غرّافه» است و لوکوچ (شمارهٔ ۶۸۹) تصریح می‌کند که این اسم عربی فصیح نیست و ظاهراً فقط در گویش عامیانهٔ مغرب به کار می‌رفته است؛ دوم آنکه ریشهٔ عربی تنها گزینه نیست و اتیمانلاین و پیهان و لیتره واژهٔ فرانسوی را از «قرابه»ی فارسی می‌گیرند. پس ادعای نورایی دربارهٔ خودِ ریشه درست است، اما وجه دیگر را نیاورده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D9%81",
+        "https://www.etymonline.com/word/carafe"
+      ],
+      "ref_check": [
+        {"ref": "KLN:237", "status": "supports", "note": "Klein 1966 s.v. carafe (local KLN_1966.txt line 6490): 'carafe, n., a glass bottle. — F., fr. Sp. garrafa, fr. Arab. gharraf, drinking jug, fr. gharafa, he drew water.' This one entry supplies the root gloss and every box of entry 0. Page: in the two-pages-per-leaf 1966 scan the entry sits on leaf 136, i.e. printed p. ~248 (leaf 130 = the calo-/calori- page ~p.236), so Nourai's '237' is about eleven pages early for this printing; the wording is nevertheless unmistakably Klein's."},
+        {"ref": "SAP:1152", "status": "not_checked", "note": "SAP = Ahmad Sayyah, Farhang-e Sayyah (Persian translation of al-Munjid), 3 vols; refs_online.json records it as purchase-only (fidibo), no copy on disk or on any permitted platform, so p. 1152 could not be opened."}
+      ],
+      "consulted": [
+        {"src": "LKT", "where": "no. 689 (LKT.txt line 1699)", "stance": "supports", "note": "'Ar. garrāfa: Weitbauchige Flasche [vom Vb. garafa schöpfen; das Subst. ist nicht klassisch-ar., sondern scheint nur vulgär im Magrib ... gebräuchlich zu sein]; hieraus sp. pg. garrafa, frz. caraffe, carafe, it. caraffa ... dtsch. Karaffe' — same derivation as Nourai, with the important rider that the Arabic noun is Maghrebi colloquial and feminine."},
+        {"src": "DEV", "where": "s.v. Carafe (DEV.txt line 963)", "stance": "supports", "note": "'Esp. et portug. garrafa, ital. caraffa, viennent certainement de la racine arabe غرف gharaf qui signifie puiser, dit M. Dozy (Gloss. p. 274)' — Dozy's derivation from the root غرف, exactly Nourai's root box; Devic adds Mohl's rival Persian قرابه qarâbah."},
+        {"src": "PHN", "where": "s.v. CARAFE (PHN.txt lines 3202-3207), printed p. 97", "stance": "partial", "note": "Pihan heads the entry 'CARAFE, s. f. (a. ou p.)' — Arabic OR Persian — and then writes 'Peut-etre carafe vient-il plutot du persan قرابه [qarâbeh]', i.e. he prefers the Persian etymon over the Arabic root."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "gharrâf",
+          "verdict": "plausible",
+          "derivation": "غَرَّاف ḡarrāf is the fa''āl intensive/instrument pattern built on the root غ-ر-ف, so 'the (thing) that scoops much' > 'drinking jug' is a normal Arabic formation and Klein prints exactly this form and gloss. The reservation is one of form and register: the word that actually underlies the European words is the feminine غَرَّافة ḡarrāfa, which is what Lokotsch (no. 689), Dozy and Devic cite, and Lokotsch adds that it is not Classical Arabic at all but a Maghrebi colloquial noun — which explains why it entered Europe through Iberian/Italian trade rather than through the learned Arabic vocabulary. Standard Arabic lexica give غُرْفَة ḡurfa 'a handful/scoop of water' and the Form VIII اِغْتَرَفَ, but no classical غرّاف, so Nourai's box reproduces Klein faithfully while the better-attested etymon is garrāfa.",
+          "derivation_fa": "«غرّاف» بر وزن فَعّال از ریشهٔ غ ر ف ساخته شده و ساختِ صرفیِ آن در عربی کاملاً قاعده‌مند است: «بسیارآب‌برگیرنده» و از آنجا «کوزهٔ آب». اما آنچه به زبان‌های اروپایی راه یافته صورت مؤنث «غرّافه» است، همان‌گونه که لوکوچ و دزی و دویک آورده‌اند، و لوکوچ می‌افزاید که این اسم در عربی فصیح نیست و گویا تنها در عربی عامیانهٔ مغرب رواج داشته است؛ به همین سبب هم از راه بازرگانی اندلس و ایتالیا به اروپا رفته نه از راه واژگان فصیح. پس ادعای نورایی (که برگرفته از کلاین است) با احتیاط پذیرفتنی است و صورت درست‌تر «غرّافه» است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D9%81"],
+          "ref_check": [
+            {"ref": "KLN:237", "status": "supports", "note": "KLN_1966.txt line 6490: '... fr. Arab. gharraf, drinking jug, fr. gharafa, he drew water' — Nourai's transliteration and gloss are Klein's verbatim."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 689", "stance": "partial", "note": "gives the etymon as 'Ar. garrāfa' (feminine) and marks it non-classical, vulgar Maghrebi — same root, slightly different form and register from Nourai's gharrâf."},
+            {"src": "DEV", "where": "s.v. Carafe", "stance": "partial", "note": "Devic works from 'la racine arabe غرف gharaf ... puiser' via Dozy and cites Spanish/Portuguese garrafa, not a masculine gharrāf."},
+            {"src": "AFM", "where": "grep 'غراف' and 'غرف' in AFM_pages.txt", "stance": "silent", "note": "Addi Shir's list of Persian words arabised has no entry for this word, which is consistent with it being an Arabic formation rather than a Persian loan."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "eğterâf",
+          "verdict": "plausible",
+          "derivation": "اغتراف eḡterāf is the maṣdar of the Arabic Form VIII verb اِغْتَرَفَ iḡtarafa 'to scoop up (water) for oneself', built with the infix -t- directly on the root غ-ر-ف; it entered Persian as an Arabic loanword of the learned register. Mo'in's Farhang (the very reference Nourai cites) has 'اغتراف: [ع.] (مص م.) آب به مشت برگرفتن، با کف دست آب نوشیدن' — Arabic-marked, and glossed exactly as Nourai's 'to draw water by hands'. What is not right is the arrow: اغتراف is not derived FROM غرّاف. Arabic morphology is root-and-pattern, so غرّاف (fa''āl) and اِغْتَرَفَ (Form VIII) are sister formations from the same consonantal root, and the chart should have hung eḡterāf directly on the root box, as it does the Spanish branch's ancestor.",
+          "derivation_fa": "«اغتراف» مصدر باب افتعال از ریشهٔ عربی غ ر ف است (اِغْتَرَفَ: آب به کف برگرفتن) و به عنوان وام‌واژهٔ عربیِ ادبی وارد فارسی شده است. معین در فرهنگ فارسی — همان مأخذی که نورایی آورده — می‌نویسد: «اغتراف: [ع.] (مص م.) آب به مشت برگرفتن، با کف دست آب نوشیدن»، که دقیقاً همان معنای نمودار است. اما جهت پیکان نادرست است: در صرف عربی، «غرّاف» بر وزن فَعّال و «اغتراف» بر وزن افتعال هر دو مستقیماً از ریشه ساخته می‌شوند و یکی از دیگری مشتق نیست؛ پس این خانه می‌بایست به‌جای «غرّاف» به خودِ ریشه وصل می‌شد. ادعای نورایی با این اصلاح پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D9%81"],
+          "ref_check": [
+            {"ref": "MON:308", "status": "supports", "note": "Mo'in, Farhang-e Farsi (local MON_part1.txt line 14647): 'اغتراف: [ع.] (مص م.) آب به مشت برگرفتن، با کف دست آب نوشیدن' — Arabic tag and Nourai's gloss. Mo'in's printed page numbers cannot be mapped in the available scan, so p. 308 itself is unverifiable, but the entry is there and says what the chart says."},
+            {"ref": "FVA:296", "status": "not_checked", "note": "FVA = Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989); refs_online.json records a catalogue entry only (OpenLibrary OL2012991M), no digital copy on archive.org, ketabnak or noorlib."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "s.v. اغتراف", "stance": "supports", "note": "quoted above; marks the word [ع.] i.e. Arabic loan, not a Persian formation."},
+            {"src": "ARY", "where": "grep 'اغتراف' in ARY_pages.txt", "stance": "silent", "note": "Aryanpur's dictionary of Indo-European roots of Persian has no entry, as expected for a Semitic loan."},
+            {"src": "PLA", "where": "grep 'garraf' / 'gurfa' in PLA_pages.txt (Asbaghi, Persische Lehnwoerter im Arabischen)", "stance": "silent", "note": "no entry — Asbaghi lists Persian words borrowed INTO Arabic, and this word runs the other way, so his silence is the expected result."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Spanish",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "The empty box stands for Spanish garrafa 'carafe, decanter' (also Portuguese garrafa), the Iberian reflex of Maghrebi Arabic ḡarrāfa taken over during or just after the Andalusi period; Arabic ḡ- is regularly rendered by Ibero-Romance g-, and the Arabic geminate -rr- is kept. Klein routes the French word through this Spanish form, and Lokotsch and Devic list sp. pg. garrafa in the same position.",
+          "derivation_fa": "این خانهٔ بی‌واژه نمایندهٔ اسپانیایی garrafa (و پرتغالی garrafa) به معنای «تنگ، صراحی» است که در دورهٔ اندلس یا اندکی پس از آن از عربیِ مغربی «غرّافه» وام گرفته شده؛ «غ» عربی در زبان‌های ایبریایی به g بدل می‌شود و «رّ» مشدد نیز حفظ شده است. کلاین، لوکوچ و دویک همگی همین صورت اسپانیایی را در همین جایگاه می‌آورند، پس ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/carafe"],
+          "ref_check": [
+            {"ref": "AHD:201", "status": "not_checked", "note": "AHD:201 is a page of the main American Heritage Dictionary (New College Edition, 1975/76), not of the Indo-European appendix; only Watkins's appendix (AHD_watkins1985.txt) is on disk, and the New College scans on archive.org are lending-only. The Spanish garrafa link is however covered by KLN and LKT."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 689", "stance": "supports", "note": "'hieraus sp. pg. garrafa, frz. caraffe, carafe, it. caraffa' — Spanish garrafa taken straight from Arabic garrāfa."},
+            {"src": "DEV", "where": "s.v. Carafe; index 'Garrafa, hisp. voy. Carafe' (DEV.txt line 3526)", "stance": "supports", "note": "Devic files Spanish garrafa under carafe as the Iberian intermediary."},
+            {"src": "KLN", "where": "s.v. carafe", "stance": "supports", "note": "'F., fr. Sp. garrafa' — the Spanish stage is Klein's own."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "The empty box stands for French carafe (17th c.), the immediate source of the English word. Klein and Lokotsch route it from Spanish garrafa, as the chart does; but Etymonline and most modern accounts derive French carafe from Italian caraffa (Naples/Sicily, siz. carrabba) rather than from Spanish, since the vessel and its name reached France through Italy. Both Romance forms go back to the same Maghrebi Arabic ḡarrāfa, so the difference is only which Romance language handed the word on; Spanish garrafa would in any case be expected to give French *garrafe, whereas the initial c- of carafe matches Italian caraffa.",
+          "derivation_fa": "این خانه نمایندهٔ فرانسوی carafe (سدهٔ هفدهم) است که واژهٔ انگلیسی از آن گرفته شده. کلاین و لوکوچ آن را از اسپانیاییِ garrafa می‌گیرند، همان‌گونه که نمودار نشان می‌دهد؛ اما اتیمانلاین و بیشتر پژوهش‌های امروزی آن را از ایتالیاییِ caraffa (و صورت سیسیلی carrabba) می‌دانند، چون این ظرف و نامش از راه ایتالیا به فرانسه رسیده است. هر دو صورت رومی سرانجام به «غرّافه»ی عربیِ مغربی می‌رسند، پس اختلاف تنها بر سر واسطه است. نکتهٔ آوایی به سود ایتالیایی است: از garrafa اسپانیایی در فرانسوی *garrafe انتظار می‌رفت، حال آنکه «ک» آغازیِ carafe با caraffa ایتالیایی می‌خواند. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": ["https://www.etymonline.com/word/carafe"],
+          "ref_check": [
+            {"ref": "AHD:201", "status": "not_checked", "note": "same as node #3: the cited page belongs to the main AHD dictionary text, which is not open online; only the Watkins IE appendix is on disk."}
+          ],
+          "consulted": [
+            {"src": "PHN", "where": "s.v. CARAFE, printed p. 97 (PHN.txt line 3202 ff.)", "stance": "partial", "note": "Pihan marks the word '(a. ou p.)' and inclines to Persian قرابه qarâbeh rather than to the Arabic root, so he neither confirms nor uses the Spanish stage."},
+            {"src": "DEV", "where": "s.v. Carafe", "stance": "partial", "note": "gives 'Esp. et portug. garrafa, ital. caraffa' side by side without deciding which fed French, and reports Mohl's Persian qarâbah as a rival."},
+            {"src": "LKT", "where": "no. 689", "stance": "supports", "note": "lists 'sp. pg. garrafa, frz. caraffe, carafe, it. caraffa' in one series from Arabic garrāfa, i.e. Nourai's chain."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "carafe",
+          "verdict": "confirmed",
+          "derivation": "English carafe 'glass water-bottle, decanter' is a straight 18th-century borrowing of French carafe (first recorded in English 1786), unchanged in form and meaning; the gloss 'a glass bottle' is Klein's own wording. Skeat likewise files it as 'Carafe, a glass water-bottle. (F. — Sp. ...)'. Only the far end of the chain (Arabic ḡarrāfa vs Persian qarāba, Spanish vs Italian mediation) is contested; the French-to-English step is not.",
+          "derivation_fa": "واژهٔ انگلیسی carafe به معنای «تنگ شیشه‌ای» وام‌گیریِ مستقیم از فرانسوی carafe در سدهٔ هجدهم است (نخستین کاربرد ثبت‌شده ۱۷۸۶) و در صورت و معنا تغییری نکرده است؛ معنای «a glass bottle» عیناً از کلاین گرفته شده و اسکیت هم آن را «تنگ آبِ شیشه‌ای، از فرانسوی» می‌داند. تنها سرِ دیگرِ زنجیره (عربی «غرّافه» در برابر فارسی «قرابه»، و واسطهٔ اسپانیایی در برابر ایتالیایی) محل بحث است و این گام فرانسوی‌به‌انگلیسی بی‌چون‌وچرا درست است.",
+          "sources": ["https://www.etymonline.com/word/carafe"],
+          "ref_check": [
+            {"ref": "KLN:237", "status": "supports", "note": "KLN_1966.txt line 6490 s.v. carafe: 'a glass bottle. — F., fr. Sp. garrafa ...' — Nourai's gloss is Klein's. (Page in the 1966 scan is ~248, see the root-level ref_check.)"}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "SKT.txt line 23861", "stance": "supports", "note": "Skeat: 'Carafe, a glass water-bottle. (F. — Sp...)' — same definition and same French-from-Spanish route."},
+            {"src": "LKT", "where": "no. 689", "stance": "supports", "note": "lists 'engl. caraffe' among the European reflexes of Arabic garrāfa, alongside dtsch. Karaffe, ndl. karaf, russ. grafin."},
+            {"src": "FSD", "where": "FSD_vol1.txt line 60551 (headword '-carafe')", "stance": "silent", "note": "Funk & Wagnalls has the headword but the OCR of the etymology bracket is unreadable, so nothing can be quoted from it."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Ghu 1, Ghau, Gheue, Gheu 2",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ǵʰewH- 'to call (on), invoke' (Pokorny 413-414 ĝhau-, ĝhau̯ə-; Watkins/AHD gheu(e)-)",
+      "note": "The root box is correct and its four alternant spellings are simply the citation forms of the two standard handbooks: Pokorny's lemma reads 'Root/lemma: ghau-, ghaua-, Meaning: to call ... Page(s): 413-414', and Watkins in the AHD appendix has 'gheu(e)-. To call, invoke. ... [Pok. ghau- 413.]'. So 'Ghu 1 / Ghau / Gheue / Gheu 2 : to call for help, appeal' with POK:413 reproduces both. Wiktionary reconstructs it as *ǵʰewH- 'to call on, invoke', with Sanskrit हवते hávate and Avestan zauuaiti as the Indo-Iranian reflexes — a palatal *ǵʰ, which matters below. The chart's real problem is not the root but the fact that it hangs TWO branches on it that cannot both belong there. The left branch (*ǵʰu-tó- > Gmc *gudam > God; Av. zav-) is textbook. The right branch (Gheu-bh > Old Persian gaub- > Pahlavi guftan > Persian goftan/gap) cannot be: PIE palatal *ǵʰ gives Indo-Iranian h/z (Skt. hávate, Av. zav-), so an Iranian verb beginning in g- cannot descend from *ǵʰewH-, and Cheung 2007 s.v. *gaub leaves the PIE and LIV/Pokorny fields empty with the flat verdict 'No IE etymology'. Kent p. 182, which Nourai cites, says only 'perhaps a -bh- extension of pIE root *gheu- seen with -s- extension in gausa-' — that is the sound/hearing root behind gausa- 'ear', not the invoking root of p. 413. Separately, the Iranian left branch is wrong at its own second step: Pahlavi xwadāy and its Persian descendants do not come from Av. zav- at all (see nodes #3 and #4), as Hübschmann p. 54 and Mo'in's own footnote on the Borhan page Nourai cites both state, and as Nourai half-concedes in his note 'See root Aiw for a different derivation'.",
+      "note_fa": "خودِ ریشه درست است و چهار صورتِ نوشتاری آن چیزی جز صورت‌های استنادیِ دو فرهنگ معیار نیست: پوکورنی در صفحات ۴۱۳–۴۱۴ مادهٔ ghau-, ghaua- «خواندن، فراخواندن» را آورده و واتکینز در پیوستِ فرهنگ American Heritage می‌نویسد «gheu(e)-. To call, invoke. [Pok. ghau- 413]». ویکی‌واژه آن را *ǵʰewH- «خواندن، نیایش کردن» بازسازی می‌کند با بازتاب‌های سنسکریت hávate و اوستایی zauuaiti. اما نمودار دو شاخه را به یک ریشه بسته که هر دو نمی‌توانند از آنِ آن باشند: *ǵʰ کامی در هندوایرانی به h/z بدل می‌شود، پس فعلی ایرانی که با g آغاز می‌شود نمی‌تواند از این ریشه باشد؛ چونگ (۲۰۰۷) ذیل *gaub می‌نویسد «هیچ ریشه‌شناسی هندواروپایی ندارد» و خانه‌های LIV و پوکورنی را خالی می‌گذارد، و کنت هم فقط با «شاید» از گسترشِ -bh سخن گفته و آن هم از ریشهٔ *gheu- ی «آوا/شنیدن» (همان که در gauša- «گوش» است) نه از ریشهٔ ۴۱۳. افزون بر این، شاخهٔ چپ در گام دوم خود خطاست: «خواتای» پهلوی و فرزندان فارسی‌اش هیچ پیوندی با zav- اوستایی ندارند؛ هوبشمان در ص ۵۴ و حاشیهٔ معین بر همان صفحهٔ برهان قاطع که نورایی ارجاع داده، هر دو این را می‌گویند و خودِ نورایی هم با یادداشت «رک ریشهٔ Aiw» نیمه‌اعتراف کرده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ewH-"
+      ],
+      "ref_check": [
+        {"ref": "POK:413", "status": "supports", "note": "Pokorny's own entry (local POK_full.txt lines 36023-36076): 'Root / lemma: ghau- ghaua- ... Meaning: to call ... Avestan zavaiti calls, shouts ... Here probably (as *ghu-to-m angerufenes creature): Germanic *guda- god ... References: WP. I 529 f. Page(s): 413-414.' Both branches Nourai draws on the left side of the chart are literally in Pokorny at the cited page."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "Watkins 1985 appendix, AHD_watkins1985.txt line 526", "stance": "supports", "note": "'gheu(e)-. To call, invoke. Suffixed zero-grade form *ghu-to-, the invoked, god, in Germanic *gudam, god, in: a. Old English god, god: GOD ... [Pok. ghau- 413.]'"},
+        {"src": "WLD", "where": "Walde-Pokorny Bd. I p. 529 (WLD_Bd1_pages.txt leaf 538, running head 'gau- — ghaua- 529')", "stance": "supports", "note": "'ghaua-, daneben ghau- rufen, anrufen. Ai. havate ruft, ruft an ... av. zavaiti ruft, ruft an, verruft, verwuenscht (daneben die Praesentia zbayeiti, zaozaomi)' — the source Pokorny abbreviates as WP. I 529."},
+        {"src": "IEC", "where": "grep 'ghau-', 'ghuto' in IEC.txt", "stance": "silent", "note": "Mann's comparative dictionary has ghauos/ghausos/ghouio entries of quite different meaning ('vigorous', 'cuckoo', 'shout, rave') but no *ghu-to- 'god' lemma; nothing usable either way."},
+        {"src": "SYN", "where": "grep 'guth', 'gudam', 'invoked being' in SYN.txt", "stance": "silent", "note": "Buck's chapter 22.12 'god' is not recoverable from this OCR (the Gothic and Germanic forms in that section come out garbled), so no quotation can be taken."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Indo-European",
+          "words": "Ghu-to",
+          "verdict": "confirmed",
+          "derivation": "*ǵʰu-tó- is the regular zero-grade verbal adjective (the -to- participle) of *ǵʰewH-, hence literally 'the (one) invoked, the called-upon' — Pokorny writes it 'as *ghu-to-m angerufenes Wesen' and Watkins 'Suffixed zero-grade form *ghu-to-, the invoked, god'. The Indo-Aryan witness for the same participle is Vedic hu-tá- 'invoked', an epithet of Indra (Klein cites it under god), so the formation is not an ad hoc reconstruction. Nourai's gloss 'God, one who is called upon for help' is Watkins's gloss expanded. The only reservation worth recording is that Wiktionary notes the laryngeal in *ǵʰewH- ought to give a long vowel (*ǵʰuH-tó- > *gūda-), which is one of the reasons the Germanic word is still argued about (see node #5); the reconstruction itself, as the -to- adjective of this root, is standard.",
+          "derivation_fa": "*ǵʰu-tó- صفتِ فعلیِ درجهٔ صفر (اسم مفعولِ ساخته‌شده با پسوند -to-) از ریشهٔ *ǵʰewH- است، یعنی «خوانده‌شده، آنکه او را می‌خوانند». پوکورنی خود می‌نویسد «*ghu-to-m یعنی موجودِ فراخوانده‌شده» و واتکینز «صورت درجه‌صفرِ پسونددار *ghu-to-، خوانده‌شده، خدا». گواهِ هندوآریاییِ همین ساخت، hu-tá- در وداهاست که صفتِ ایندره است، پس این بازسازی ساختگی نیست و معنایی که نورایی داده همان معنای واتکینز است. تنها نکتهٔ باقی‌مانده آن است که به‌سبب حنجرهٔ ریشه انتظار می‌رفت واکهٔ کشیده پدید آید (*ǵʰuH-tó-)، و همین یکی از دلایل ادامهٔ بحث دربارهٔ واژهٔ ژرمنی است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gud%C4%85"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 526: 'Suffixed zero-grade form *ghu-to-, the invoked, god, in Germanic *gudam' — Nourai's box word for word."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 413-414", "stance": "supports", "note": "'Here probably (as *ghu-to-m angerufenes creature): Germanic *guda- n. god (compare Old Indic hu-ta- loud call, ved. epithet of Indras)'."},
+            {"src": "KLN", "where": "s.v. God; god (KLN_1966.txt line 16388, printed p. ~696)", "stance": "supports", "note": "'for Teut. *guda-, which is prob. a participial formation ... meaning the invoked being, and corresponds to I.-E. ghu-to-m, fr. base *ghu-, to invoke, whence OI. hu-ta-, invoked (epithet of Indra), pp. of havate, invokes'."},
+            {"src": "WLD", "where": "Bd. I 529", "stance": "supports", "note": "the same root article, with the Germanic god-word attached to it."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Avestan",
+          "words": "zavaiti",
+          "verdict": "plausible",
+          "derivation": "Avestan zavaiti is real and belongs to this root: Bartholomae's Altiranisches Woerterbuch has 'j-, g. zav-, zbā- V. rufen' with the senses (1) 'jemanden, etwas rufen, anrufen, aufrufen' and (3) 'verrufen, verwuenschen', comparing Skt. hávate; Pokorny cites 'Avestan zavaiti calls, shouts, curses (besides the presents zbayeiti, zaozaomi)'. Two things in the box are nevertheless off. (a) The gloss: zavaiti is a 3rd sg. present, 'he calls, he invokes' — not 'invoked' and certainly not 'God'; the passive participle of the root is Av. zūta- 'called', and the noun is zavana- 'call, invocation, prayer'. Avestan has no *zavaiti 'god'. (b) The position: the box is drawn under *ǵʰu-tó- 'the invoked one', but a finite present cannot descend from a verbal adjective; zavaiti is a sister of *ǵʰu-tó-, both formed from the root, and it belongs one level up. This matters because the whole Iranian branch of the chart hangs off zavaiti — and, as node #3 shows, it should not hang off zav- at all.",
+          "derivation_fa": "صورت اوستایی zavaiti واقعی است و به همین ریشه تعلق دارد: بارتولمه در فرهنگ ایرانی باستان مدخل «zav-، zbā- فعل: خواندن» را با معناهای «کسی یا چیزی را خواندن، فراخواندن، نیایش کردن» و نیز «نفرین کردن» آورده و آن را با hávate سنسکریت سنجیده است؛ پوکورنی نیز همین را می‌گوید. اما دو نکته درست نیست: نخست معنا — zavaiti فعل سوم‌شخص مفردِ مضارع است یعنی «می‌خوانَد»، نه «خوانده‌شده» و به‌هیچ‌روی «خدا»؛ اسم مفعولِ این ریشه در اوستایی zūta- و نام‌واژهٔ آن zavana- «خواندن، نیایش» است. دوم جایگاه — این خانه زیر *ǵʰu-tó- «خوانده‌شده» نشانده شده، حال آنکه فعلی صرف‌شده نمی‌تواند از یک صفت فعلی مشتق شود؛ zavaiti و *ǵʰu-tó- هر دو مستقیماً از ریشه ساخته شده‌اند و این خانه باید یک پله بالاتر می‌بود. پس ادعای نورایی با احتیاط و با این دو اصلاح پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ewH-"],
+          "ref_check": [
+            {"ref": "WLD:599", "status": "not_found", "note": "Wrong page. In Walde-Pokorny Bd. I the article is on p. 529 (WLD_Bd1_pages.txt leaf 538, running head 'gau- — ghaua- 529': 'av. zavaiti ruft, ruft an, verruft, verwuenscht'), which is also the page Pokorny himself cites ('WP. I 529 f.'). Printed p. 599 of the same volume (leaf 608) carries the root 'ger-, gere-' (Gk. egeiro 'wecke'), nothing to do with invoking — so 599 looks like a digit slip for 529."},
+            {"ref": "KLN:413", "status": "not_found", "note": "Klein p. 413 is in the cyto- range of the alphabet (KLN_1966.txt leaf 218/219: cytology, cytoplasm), so it cannot be the source of an Avestan form. Klein does cite zavaiti, but s.v. 'God; god' at printed p. ~696 ('which is rel. to Avestic zavaiti, of s.m.'). The number 413 is exactly Pokorny's page for this root, so this looks like a slip for POK:413."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Altiranisches Woerterbuch s.v. zav-, zbā- (BRT.txt line 27735, cols. ~1666-1668)", "stance": "partial", "note": "'j-, g. zav-, zbā- V. rufen. Praes. ... 1) Jemanden, etwas (Akk.) rufen, anrufen, aufrufen ... 3) verrufen, verwuenschen ... ai. hávate' — confirms the verb and the root but glosses it as 'to call', never 'God'."},
+            {"src": "POK", "where": "p. 413", "stance": "partial", "note": "'Avestan zavaiti calls, shouts, curses (besides the present zbayeiti, zaozaomi), participle zuta- called, zavana- shout, call, appeal, request, plea; prayer' — same correction to the gloss."},
+            {"src": "AHD", "where": "Watkins 1985 s.v. gheu(e)-", "stance": "silent", "note": "Watkins lists no Iranian material under this root at all, only the Germanic god-words."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "xvatây",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi word is real — MacKenzie's Concise Pahlavi Dictionary has 'xwadāy [hwt'y | M xwd'y, N ~] lord, master, god' (Book Pahlavi also writes it with the Aramaic ideogram MRA 'lord'), and Nyberg's glossary has the abstract xwatāyēh 'dominion, reign' throughout the Kārnāmag — but its derivation from Avestan zav- 'to invoke' is rejected by every source consulted, including the one Nourai cites. Modern scholarship reconstructs Proto-Iranian *hwa-tāwHā 'self-powerful, self-ruling' > MP xwadāy: *hwa- 'own, self' (Av. xva-, cf. NP خود xod) plus the root *tauH- 'to be able, be powerful' (Av. tav-, MP tuwān), with intervocalic -t- voiced to -d- in Middle Persian and the -āy ending of the nominative stem. Hübschmann, Persische Studien p. 54 — Nourai's own HUB:54 — writes: 'Noeldeke bezweifelt die Richtigkeit von Horn's Etymologie: np. xudāi Gott = zd. *xvadaya- mit vollem Recht, da xudāi = phl. xvatāi ... ein zd. *xvataya- oder auch *xvataia- voraussetzt', comparing Skt. svatas + āyu- 'living of itself'. Nourai's own note 'See root Aiw for a different derivation' points at precisely that svatas+āyu- account, so he knew of the rival and drew both. Nothing in this word has anything to do with calling or invoking.",
+          "derivation_fa": "واژهٔ پهلوی خودش واقعی است: مکنزی در فرهنگ کوچک پهلوی می‌آورد «xwadāy [hwt'y] سرور، خداوند، خدا» و نیبرگ نیز xwatāyēh «فرمانروایی» را در کارنامه فراوان ثبت کرده است؛ اما اشتقاق آن از zav- اوستایی به معنای «خواندن» را هیچ‌یک از منابع تأیید نمی‌کند، از جمله همان مأخذی که نورایی به آن ارجاع داده. ریشه‌شناسی امروزی چنین است: ایرانی باستان *hwa-tāwHā «خودتوان، خودفرمان» از *hwa- «خود» (اوستایی xva-، فارسی «خود») + ریشهٔ *tauH- «توانستن» (اوستایی tav-، پهلوی tuwān)؛ «ت» میان دو واکه در فارسی میانه به «د» نرم شده و پسوند -āy از ستاک فاعلی مانده است. هوبشمان در ص ۵۴ — همان HUB:54 نورایی — می‌نویسد که نولدکه به‌حق ریشه‌شناسی هرن را رد کرده و xudāi فارسی = xvatāi پهلوی صورت اوستاییِ *xvataya- را می‌طلبد، و آن را با svatas + āyu- سنسکریت («از خود زنده») می‌سنجد. یادداشت خودِ نورایی («رک ریشهٔ Aiw») دقیقاً به همین وجه اشاره دارد. پس پژوهش امروزی ادعای این خانه را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D8%A7"
+          ],
+          "ref_check": [
+            {"ref": "HUB:54", "status": "contradicts", "note": "Huebschmann, Persische Studien p. 54 (HUB.txt leaf 64, note to Horn's no. 471): 'Noeldeke bezweifelt die Richtigkeit von Horn's Etymologie: np. xudāi Gott = zd. *xvadaya- mit vollem Recht, da xudāi = phl. xvatāi ... ein zd. *xvataya- oder auch *xvataia- voraussetzt, die sich zur Not durch skr. svatas + āyu- von selbst lebend oder skr. svatas + adi- von selbst anfangend ... deuten liessen', with the footnote 'Arsac. phl. *xvataš, spaeter phl. xvatāi, paz. xvadāi'. Huebschmann derives the word from xva- 'self', never from zav- 'invoke'."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, s.v. xwadāy (PHD.txt: 'xwaday [hwt'y | M xwd'y, N ~]')", "stance": "partial", "note": "confirms the Pahlavi form and its ideogram but gives no etymology; also lists the compounds kadag-xwadāy 'householder', kāmag-xwadāy 'absolute', dagrand-xwadāy 'of long dominion' — all with the sense 'lord, ruler', not 'invoked one'."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II s.v. xvatāyēh (NYB_vol2_glossary.txt line 4376)", "stance": "partial", "note": "'x-vatāyēh domination, dominion, reign ... KZ/Prth hwtwypy, Gr. v. theo-' — the Parthian and Greek equivalents of the Sasanian inscriptions, i.e. a word of rulership, again with no link to invoking."},
+            {"src": "BQT", "where": "Mo'in's footnote 3 on خدا, vol. 2 leaf 176 (printed p. 718/719)", "stance": "contradicts", "note": "'پهلوی متأخر xwatāy ... پازند xwadāy «هوبشمان ۵۴» ... بعضی این کلمه را از اوستایی xva-dāta- (خودآفریده) مشتق دانسته‌اند و نولدکه بحق در این وجه اشتقاق شک کرده، چون خدای فارسی و خواتای پهلوی به کلمهٔ xwatāya- اقرب است و آن هم به سانسکریت svatas + āyu ... رابطه دارد' — Mo'in canvasses xva-dāta- and xva-tāya- and rejects neither in favour of a 'call' root."},
+            {"src": "BRT", "where": "grep 'xvatāy', 'hvatāy' in BRT.txt", "stance": "silent", "note": "Bartholomae has no Avestan *xvataya- headword (the form is a reconstruction), so his dictionary neither supports nor refutes directly; his zav- article, by contrast, contains no MP derivative."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "Xodâ; xadieve; xâjeh",
+          "verdict": "disputed",
+          "derivation": "Three words, three different verdicts, and none of them supports the arrow from Avestan zav-. (1) خدا xodā is the regular New Persian outcome of Middle Persian xwadāy (xwadāy > xudāy > xudā/xodā, with loss of the final -y and the usual reduction of the labialised onset xw- to x- before a back vowel) — the descent is certain, but its ultimate source is Proto-Iranian *hwa-tāwHā 'self-powerful' (Wiktionary, following MacKenzie), not *ǵʰewH- 'invoke'. Horn's Grundriss no. 471 on the very page Nourai cites (p. 104) sets up 'als Grundform ist etwa *xva-dāta- / aw. xvadāta- (oder *xvatāya-) anzusetzen', i.e. 'self-created' or 'self-powerful'. So the gloss 'God (who is called upon for help)' is Nourai's etymological gloss, not a meaning of the word. (2) خدیو xadiv 'lord, ruler, king' (in the modern period 'khedive') is not a Persian development of xwadāy at all: Wiktionary, citing Sims-Williams and Jafari Dehaghi-Sadri on Bactrian loanwords, derives it from Bactrian χοαδηο khoadēo 'lord' (Middle Persian htyw /xadēw/), which is the Bactrian reflex of the same *hwa-tāw- word — a sideways loan, not a vertical descent. Nourai's transliteration 'xadieve' is the printed book's own (checked on the page image); the sources know xadēw/xadīv. (3) خواجه xʷāja 'master' is the weakest link: Wiktionary, following Asatrian (Iran and the Caucasus 2011, 2012), derives it from a Middle Indo-Aryan reflex of Sanskrit उपाध्याय upādhyāya 'teacher, preceptor' (an unattested *vājjhāa, cf. Sindhi واجهو vājho), transmitted through Central Asia — no relation to xwadāy. Mo'in's footnote on Borhān records the older guesses (Purdavud's Av. xva- + -če 'one who has a self of his own', and 'خواتای‌چه from Pahlavi xwatāy + diminutive -če'), so Nourai's arrow reproduces a nineteenth/twentieth-century Iranian view now superseded.",
+          "derivation_fa": "سه واژه در یک خانه و هر سه با داوری جداگانه، و هیچ‌یک پیکانِ آمده از zav- اوستایی را تأیید نمی‌کند. ۱) «خدا» بازماندهٔ قاعده‌مندِ فارسی میانهٔ xwadāy است (xwadāy > xudāy > خدا، با افتادن «ی» پایانی و سادگیِ خوشهٔ xw-)، اما خاستگاه نهایی آن ایرانی باستانِ *hwa-tāwHā «خودتوان» است نه ریشهٔ «خواندن». هرن در شمارهٔ ۴۷۱ همان صفحهٔ ۱۰۴ که نورایی ارجاع داده، صورت اصلی را *xva-dāta- «خودآفریده» (یا *xvatāya-) می‌نهد. پس معنای «خدایی که او را به یاری می‌خوانند» تفسیر ریشه‌شناختیِ نورایی است نه معنای واژه. ۲) «خدیو» تحولِ فارسیِ خواتای نیست: ویکی‌واژه به پیروی از سیمز-ویلیامز آن را وام‌واژه‌ای از بلخیِ χοαδηο «سرور» می‌داند (فارسی میانه xadēw)، یعنی همان واژهٔ *hwa-tāw- اما از راه وام‌گیری افقی از بلخی، نه توارث عمودی. آوانگاشتِ «xadieve» از خودِ کتاب است (با دیدنِ تصویر صفحه بررسی شد) و صورت شناخته‌شده xadēw/xadīv است. ۳) «خواجه» سست‌ترین حلقه است: ویکی‌واژه به پیروی از آساتریان آن را از بازتابی هندوآریاییِ میانه از upādhyāya سنسکریت («آموزگار، مربی») از راه آسیای میانه می‌داند و پیوندی با «خواتای» نمی‌بیند. حاشیهٔ معین بر برهان قاطع حدس‌های کهن‌تر را ثبت کرده است (پورداود: xva- + -če؛ و دیگران: «خواتای‌چه» از خواتای + یای تصغیر). پس پژوهش امروزی این خانه را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D8%A7",
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%AF%DB%8C%D9%88",
+            "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D8%AC%D9%87"
+          ],
+          "ref_check": [
+            {"ref": "BQT:718", "status": "contradicts", "note": "Borhān-e Qāte', vol. 2 leaf 176 = printed p. 718/719 (offset printed ~ leaf + 543): the headword خدا with Mo'in's etymological footnote 3, quoted under node #3. It derives خدا from Pahlavi/Pazand xwatāy/xwadāy and canvasses xva-dāta-/xva-tāya- with Skt. svatas + āyu-; it also notes 'در پهلوی و پازند خواتای بمعنی شاه آمده و «خواتای‌نامک» یعنی «شاهنامه»'. The page is the right one, but it contradicts the arrow from zav-."},
+            {"ref": "HRN:104", "status": "contradicts", "note": "Horn, Grundriss no. 471 (HRN.txt leaf 125 = printed p. 104): the entry for xudā, ending 'Die Durchsichtigkeit des Zusammenhanges mit xva(d)- hat wohl das d geschuetzt: als Grundform ist etwa *xva-dāta- / aw. xvadāta- (oder *xvatāya-) anzusetzen. Noeldeke ... bezweifelt die Richtigkeit dieser Etymologie'. Right page, right word — but Horn's source is xva- 'self', not the invoking root."},
+            {"ref": "FSF:159", "status": "not_found", "note": "Noushin's Vazhe-namak: in the scan on disk (FSF_pages.txt, 484 leaves) printed p. 159 is the پیمودن/پیلوار page (leaf 163), with no خدیو. The book does treat the word, under the headword گیهان خدیو at printed p. ~407 (leaf 411), and discusses the very Ferdowsi line Nourai quotes ('سیامک به دست خزروان دیو / تبه گشت و ماند انجمن بی خدیو') at leaf 205, noting that some copies corrupt the hemistich to 'سیامک بدست خود و رای دیو'. The refs_online entry warns that this scan's printing is unidentified, so the discrepancy is most likely a different edition rather than a bad citation."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "s.v. خواجه (MON_part1.txt line 57715)", "stance": "partial", "note": "'خواجه: (قد. ...) (ص.) بزرگ، صاحب، سرور، خداوند. مالدار، دولتمند' — Mo'in's Latin-script origin tag is unreadable in this OCR, but he treats the word as an old inherited term meaning 'lord', not as a form of خدا. He has no entry for خدیو in the scanned lexicon volumes."},
+            {"src": "BQT", "where": "Mo'in's footnote on خواجه, vol. 2 leaf 238", "stance": "partial", "note": "'آقای پورداود این کلمه را مرکب از xva- اوستایی بمعنی خود + -če ... دانسته‌اند «حافظ شیرین‌سخن ۲: ۳۷»؛ بعضی اصل آن را «خواتای‌چه» از خواتای (خدای) پهلوی + چه (یای تصغیر) دانسته‌اند' — records exactly the xwatāy derivation Nourai draws, as one of several competing guesses, alongside 'معرب آخنواجا ... دزی ج۱ ص ۴۰۹'."},
+            {"src": "HUB", "where": "p. 54", "stance": "contradicts", "note": "as under node #3: 'np. xudāi Gott = phl. xvatāi ... setzt ein zd. *xvataya- voraus', with Skt. svatas 'from oneself' — an internal Iranian compound, not a reflex of *ǵʰewH-."},
+            {"src": "FSF", "where": "s.v. گیهان خدیو, leaf 411 (printed ~407)", "stance": "partial", "note": "'گیهان خدیو: از گیهان + خدیو [= خداوند، سرور]: جهاندار، ایزد' with the Ferdowsi citations — confirms the Persian sense 'lord, sovereign' that Nourai glosses 'governor, king', without an etymology."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Germanic",
+          "words": "Gudam",
+          "verdict": "plausible",
+          "derivation": "Proto-Germanic *gudan (neuter) 'god' > Gothic guþ, Old Norse guð/goð, Old English god, Old High German got. Watkins's appendix, which Nourai cites, states the derivation from *ǵʰu-tó- outright ('Germanic *gudam, god, in: a. Old English god, god: GOD; b. Germanic *gud-igaz, possessed by a god, in Old English gydig ... GIDDY'), and Klein and Pokorny say the same, Pokorny noting that the noun is originally neuter (the old neuter plural survives in Gothic guda and in galiuga-guþ 'idol'), which fits a -to- adjective substantivised as 'the invoked (thing)'. It is 'plausible' rather than 'confirmed' only because the reconstruction is still contested: Wiktionary observes that *ǵʰewH- with its laryngeal should have produced a long *ū, and sets against it a derivation from *ǵʰew- 'to pour' ('that which is libated', i.e. the object of a poured offering), plus a minority link to *gʷʰew- (OCS goveti 'to revere'). Nourai reproduces the majority handbook view.",
+          "derivation_fa": "ژرمنی آغازین *gudan (خنثی) «خدا» که در گوتی guþ، نورس کهن guð/goð، انگلیسی کهن god و آلمانی علیای کهن got بازتاب یافته است. واتکینز در پیوست فرهنگ American Heritage — همان مأخذ نورایی — همین اشتقاق از *ǵʰu-tó- را صریح می‌آورد و کلاین و پوکورنی نیز همین را می‌گویند؛ پوکورنی می‌افزاید که این نام در اصل خنثی بوده (جمعِ خنثای کهنِ guda در گوتی هنوز مانده است) و این با صفتِ فعلیِ اسم‌شده به معنای «آنچه خوانده می‌شود» می‌خواند. اینکه داوری «با احتیاط پذیرفتنی» است نه «درست»، از آن روست که بحث هنوز باز است: ویکی‌واژه یادآور می‌شود که حنجرهٔ ریشه می‌بایست واکهٔ کشیدهٔ *ū پدید می‌آورد و در برابر، اشتقاق از *ǵʰew- «ریختن» (یعنی «آنچه برایش شراب می‌ریزند») و نیز پیوند اقلیتی با *gʷʰew- را می‌آورد. نورایی همان دیدگاه اکثریتِ فرهنگ‌های معیار را بازگو کرده است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gud%C4%85"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 526, s.v. gheu(e)-: 'Suffixed zero-grade form *ghu-to-, the invoked, god, in Germanic *gudam, god' — Nourai's box verbatim, spelling included."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 413-414", "stance": "supports", "note": "'Germanic *guda- n. god ... in Gothic gup m. god (the originally neutral form still in Pl. guda and in galiuga-gup idol), Old Icelandic god, gud ... Old English, Old Frisian, Old Saxon god, Old High German got'."},
+            {"src": "KLN", "where": "s.v. God; god, printed p. ~696", "stance": "supports", "note": "'for Teut. *guda-, which is prob. a participial formation ... meaning the invoked being, and corresponds to I.-E. ghu-to-m'."},
+            {"src": "SKT", "where": "grep 'guda', 'guth' in SKT.txt", "stance": "silent", "note": "Skeat's concise entry for God is not recoverable from this OCR; nothing quotable."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "God, good-bye, good-night",
+          "verdict": "disputed",
+          "derivation": "Two of the three belong here, the third does not. GOD is the direct Old English continuation of Gmc *gudan and is listed under this root by Watkins and Klein. GOOD-BYE does belong etymologically: it is a contraction of godbwye (1570s) < 'God be with ye' (late 14th c.), so its first element really is God, though Etymonline notes that its modern spelling with good- is secondary, 'influenced by good-day, good evening, etc.'; Klein files it under God ('Cp. bigot, giddy, good-by, gossip'). GOOD-NIGHT, however, contains no god element at all: the adjective good is Old English gōd, Proto-Germanic *gōda- 'fitting, suitable', from a different PIE root *ghedh- 'to unite, be associated, suitable' (cf. OCS godu 'favourable time', Lith. goda), and Etymonline states explicitly that good and God are of different origins. Nourai has been misled by the same surface resemblance that reshaped good-bye. Watkins's own entry, which the box cites, lists only GOD and GIDDY.",
+          "derivation_fa": "از سه واژهٔ این خانه دو تا به این ریشه تعلق دارند و سومی نه. God ادامهٔ مستقیمِ *gudan ژرمنی در انگلیسی کهن است و واتکینز و کلاین آن را ذیل همین ریشه آورده‌اند. good-bye نیز از نظر ریشه‌شناسی به‌جاست: کوتاه‌شدهٔ godbwye (دههٔ ۱۵۷۰) از عبارت God be with ye (اواخر سدهٔ چهاردهم) است، هرچند املای امروزیِ آن با good- ثانوی و به قیاسِ good-day و good evening پدید آمده؛ کلاین هم آن را ذیل God ارجاع داده است. اما good-night هیچ عنصر «خدا» ندارد: صفت good از انگلیسی کهن gōd و ژرمنی آغازین *gōda- «مناسب، درخور» و از ریشهٔ هندواروپاییِ دیگری یعنی *ghedh- «پیوستن، درخور بودن» است، و اتیمانلاین تصریح می‌کند که good و God خاستگاه یکسان ندارند. نورایی فریبِ همان شباهت ظاهری را خورده که املای good-bye را هم دگرگون کرده است؛ خودِ واتکینز در همان مدخل تنها GOD و GIDDY را برشمرده است. پس این خانه در بخشی نادرست است.",
+          "sources": [
+            "https://www.etymonline.com/word/good-bye",
+            "https://www.etymonline.com/word/good"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt line 526 gives, as the English derivatives of *ghu-to- via Germanic *gudam, only 'Old English god, god: GOD' and 'Old English gydig ... GIDDY'. Neither good-bye nor good-night appears, so the reference supports one of Nourai's three words and is silent on the other two."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "s.v. God; god, printed p. ~696", "stance": "partial", "note": "'Cp. bigot, giddy, good-by, gossip' — Klein does attach good-by to God (gossip < godsibb 'god-relative'), but never good-night."},
+            {"src": "SKT", "where": "grep 'good-bye', 'good bye' in SKT.txt", "stance": "silent", "note": "not recoverable from this OCR."},
+            {"src": "POK", "where": "p. 413-414", "stance": "silent", "note": "Pokorny lists the Germanic god-words and their Christian compounds (godfather, godmother) but no salutation formulas."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Indo-European",
+          "words": "Gheu-bh",
+          "verdict": "disputed",
+          "derivation": "This box cannot hang under *ǵʰewH- 'to invoke'. The decisive point is phonological: the root of node #0 has a PALATAL *ǵʰ, as the Indo-Iranian reflexes prove (Skt. hávate, Av. zav-/zbā-, where *ǵʰ > h/z). An Iranian verb beginning in plain g-, such as Old Persian gaub-, cannot descend from it — it would have to appear as *zaub-. Cheung's Etymological Dictionary of the Iranian Verb (2007) s.v. *gaub 'to say (positively/negatively)' therefore leaves the reconstruction blank and writes flatly 'No IE etymology', with the fields '*PIE — LIV: — | Pok.: —' empty. Kent p. 182, the page Nourai cites, is the source of the label 'Gheu-bh': 'gaub- vb. say ... perhaps a -bh- extension of pIE root *gheu- seen with -s- extension in gausa- (q.v.)'. But Kent's *gheu- there is the sound/hearing root that yields Av. gaosa- 'ear', not Pokorny's invoking root of p. 413, and Kent himself only says 'perhaps'. So the box records a real (if tentative) suggestion of Kent's, misfiled under the wrong root.",
+          "derivation_fa": "این خانه نمی‌تواند زیر ریشهٔ *ǵʰewH- «خواندن، نیایش کردن» بنشیند و دلیل آن آوایی و قاطع است: همخوان آغازین آن ریشه *ǵʰ کامی است، چنان‌که بازتاب‌های هندوایرانی نشان می‌دهند (سنسکریت hávate، اوستایی zav-/zbā-، یعنی *ǵʰ > h/z). پس فعلی ایرانی که با g ساده آغاز می‌شود — مانند gaub- پارسی باستان — نمی‌تواند از آن آمده باشد؛ می‌بایست *zaub- می‌شد. از همین رو چونگ در فرهنگ ریشه‌شناختی فعل ایرانی (۲۰۰۷) ذیل *gaub «گفتن» خانهٔ بازسازی هندواروپایی و ارجاع به LIV و پوکورنی را خالی می‌گذارد و می‌نویسد «هیچ ریشه‌شناسی هندواروپایی ندارد». کنت در ص ۱۸۲ — همان مأخذ نورایی — سرچشمهٔ برچسبِ Gheu-bh است: «gaub- فعل: گفتن ... شاید گسترشی با -bh از ریشهٔ *gheu- که با گسترش -s در gauša- دیده می‌شود»؛ اما آن *gheu- ریشهٔ «آوا/شنیدن» است که gaoša- «گوش» از آن است، نه ریشهٔ ۴۱۳ پوکورنی، و کنت هم فقط «شاید» گفته است. پس این خانه حدسی واقعی از کنت را زیر ریشهٔ نادرست نشانده و پژوهش امروزی آن را نمی‌پذیرد.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ewH-"],
+          "ref_check": [
+            {"ref": "KNT:182", "status": "partial", "note": "Kent, Old Persian, Lexicon s.v. gaub- (KNT.txt line 5341, leaf 205 = printed p. 182-183; Cheung cites the same place as 'Kent: 182b'): 'gaub- vb. say, mid. call one's self: Sas. Phl. gowet he says, NPers. goyad, inf. guftan: perhaps a -bh- extension of pIE root *gheu- seen with -s- extension in gausa- (q.v.).' The -bh- extension is Kent's, so the label is sourced; but the parent root he means is the one behind gausa- 'ear', not Pokorny 413, and he hedges with 'perhaps'."}
+          ],
+          "consulted": [
+            {"src": "CHEUNG", "where": "Etymological Dictionary of the Iranian Verb, s.v. *gaub, p. 113-114 (CHEUNG.txt lines 8221-8280)", "stance": "contradicts", "note": "'*gaub to say (positively/negatively) ... No IE etymology. *PIE — LIV: — | Pok.: — . REFERENCES: Horn 1893: 206; Christensen, Contributions II: 162; Nyberg II: 85; DKS: 86b'. Cheung declines any PIE reconstruction whatsoever."},
+            {"src": "POK", "where": "p. 413-414 and index", "stance": "silent", "note": "Pokorny's ghau- article contains no Iranian g-initial verb and no -bh- extension; there is no lemma *gheu-bh- in the dictionary."},
+            {"src": "AHD", "where": "Watkins 1985 s.v. gheu(e)-, gheu-, gheu-", "stance": "silent", "note": "Watkins has gheu- 'to pour', gheu- 'to yawn, gape' and gheu(e)- 'to call, invoke', but no *gheu-bh- and no Iranian material under any of them."},
+            {"src": "WLD", "where": "Bd. I 529 and Bd. II index", "stance": "silent", "note": "Walde-Pokorny's ghaua-/ghau- article likewise lists no g-initial Iranian verb of speaking."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Old Persian",
+          "words": "gaub, gub",
+          "verdict": "confirmed",
+          "derivation": "Old Persian gaub- 'to say', middle 'to call oneself', is one of the best-attested verbs of the Bisotun inscription: DB 2.21, 2.31, 2.51, 3.15, 3.59 gaubataiy, DB 1.84, 1.93, 3.35 agaubatā, in the recurring formula kāra hya hamiçiya manā naiy gaubataiy 'the rebel army which does not call itself mine'. Kent's lexicon gives the present stem gauba- and cross-refers 'gub- vb., see gaub-', which is exactly Nourai's pair gaub/gub: gub- is the zero-grade (weak) stem, with au reduced to u before the following consonant cluster, and it is the stem that yields the past participle. Bartholomae's Altiranisches Woerterbuch col. 482 has 'p. gaub- V. dicere. Praes. gauba-. Med. sich nennen, erklaeren ... np. gōvēd er sagt, np. guftan' — the same forms and the same Persian continuation. Abolghasemi (FFD p. 75) writes the reconstruction as Old Iranian *gaub- with 'gub the weak form of the root gaub, meaning to speak'.",
+          "derivation_fa": "فعل پارسی باستان gaub- «گفتن» و در وجه میانه «خود را خواندن/نامیدن» از پربسامدترین فعل‌های کتیبهٔ بیستون است: gaubataiy در DB 2.21، 2.31، 2.51، 3.15، 3.59 و agaubatā در DB 1.84، 1.93، 3.35، در قالبِ تکرارشوندهٔ kāra hya hamiçiya manā naiy gaubataiy «سپاهِ شورشی که خود را از آنِ من نمی‌خوانَد». کنت در واژه‌نامهٔ خود ستاک مضارع gauba- را می‌آورد و ارجاع می‌دهد «gub- فعل: رک gaub-»، و این دقیقاً همان جفتِ gaub/gub نورایی است: gub صورت درجه‌صفر (ضعیف) ستاک است که پیش از خوشهٔ همخوانی پدید می‌آید و ستاکِ صفت مفعولی از آن ساخته می‌شود. بارتولمه در ستون ۴۸۲ می‌نویسد «gaub- فعل: گفتن. مضارع gauba-... فارسی نو gōvēd «می‌گوید»، گفتن». ابوالقاسمی نیز در ص ۷۵ همین را با تصریح می‌آورد که gub صورت ضعیفِ ریشهٔ gaub به معنای «گفتن» است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "KNT:182", "status": "supports", "note": "KNT.txt line 5341 (leaf 205, printed p. 182-183): 'gaub- vb. say, mid. call one's self ... gaubataiy mid. DB 2.21, 31, 51; 3.15, 59. agaubatā imf. mid. DB 1.84, 93 ...' and line 5373 'gub- vb., see gaub-.' Both of Nourai's citation forms are Kent's."},
+            {"ref": "FFD:75", "status": "supports", "note": "Abolghasemi, Fe'l-hā-ye Fārsi-ye Dari p. 75 (FFD_pages.txt pdf page 80, printed = pdf − 5): 'گفت < فارسی میانه guft < ایرانی باستان *gaub-ta ... gub صورت ضعیف ریشهٔ gaub به معنی «گفتن» است' and 'گوی < فارسی میانه gōw < ایرانی باستان *gauba-'. Exactly the gaub/gub pair and the Middle Persian outcome."},
+            {"ref": "BQT:1821", "status": "supports", "note": "Borhān vol. 3, pdf page 618 = printed p. 1821 (running heads on pdf 616 read ۱۸۱۹, so printed = pdf + 1203): Mo'in's footnote on گفتن, 'گفتن ... از: گف (؟ گو) + تن (پسوند مصدری)؛ پهلوی ...، پارسی باستان gaub- «بارتولمه ۴۸۲»' — Mo'in derives the Persian verb from Old Persian gaub-, citing Bartholomae col. 482, which the local BRT text confirms (running head 'gaona- 482' on the leaf carrying the gaub- entry)."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Altiranisches Woerterbuch col. 482 (BRT.txt line 9802)", "stance": "supports", "note": "'p. gaub- V. dicere. Praes. gauba-. Med. 1) sich nennen, erklaeren, ausgeben fuer, mit Nom.: vahyazdāta hya bardiya agaubatā Bh. 1.6 ... np. gōvēd er sagt ... np. guftan.'"},
+            {"src": "CHEUNG", "where": "s.v. *gaub, p. 113", "stance": "supports", "note": "'*OLD PERSIAN: gaub- (med.) to call oneself = Kent: 182b', with the full paradigm of attested forms — Cheung accepts the Old Persian verb (he denies only its Indo-European ancestry)."},
+            {"src": "TLM", "where": "grep 'gaub' in TLM.txt (Tolman, Ancient Persian Lexicon)", "stance": "silent", "note": "the relevant lexicon page is not recoverable from this OCR."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Pahlavi",
+          "words": "guftan",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian guftan, present stem gōw- (written <gwptn'> with the ideogram YMLLWN-), 'to say, tell'. The two stems come from the two grades of the Old Iranian verb: the present gōw- < *gauba- (intervocalic -b- > -w- in Middle Persian), the infinitive/past guft < *gub-ta (the weak grade gub- plus the -ta- participle suffix, with regular devoicing b + t > ft). Nyberg's glossary has 'guftan [gwptn'] gōb- ... to say, to tell, to utter, to pronounce, to recite, passim ... MPrs guftn gwy-; Paz. guftan, pres. 3d p. gōēd ... NP guftan gūy; the typical SW vb. for saying, as against NW vac-'. Cheung's Middle Persian section gives 'MMP gw-, BMP gwb- /gō(w)-/ to say, speak', with the past participle gwpt/gwft and the infinitive gwptn/gwftn. Abolghasemi (FFD p. 75), the reference Nourai cites, sets out the same two-stem derivation.",
+          "derivation_fa": "فارسی میانه guftan با ستاک مضارع gōw- (به خط پهلوی <gwptn'> و با هزوارشِ YMLLWN-) به معنای «گفتن». دو ستاک از دو درجهٔ آوایی فعلِ ایرانی باستان می‌آیند: ستاک مضارع gōw- از *gauba- (بِ میان دو واکه در فارسی میانه به «و» بدل شده) و ستاک ماضی guft از *gub-ta (درجهٔ ضعیفِ gub- به‌علاوهٔ پسوند صفت مفعولی -ta-، با بی‌واک‌شدنِ قاعده‌مندِ b + t > ft). نیبرگ در واژه‌نامهٔ خود می‌آورد: «guftan [gwptn'] gōb-: گفتن، بیان کردن... فارسی نو guftan gūy؛ فعل نمونهٔ جنوب‌غربی برای «گفتن» در برابر vac- شمال‌غربی». چونگ نیز صورت‌های فارسی میانهٔ مانوی و کتابی را با همین ستاک‌ها می‌آورد و ابوالقاسمی در ص ۷۵ — همان مأخذ نورایی — همین دو ستاک را به‌روشنی توضیح داده است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "FFD:75", "status": "supports", "note": "FFD p. 75 (pdf page 80): 'گفت < فارسی میانه guft < ایرانی باستان *gaub-ta ... گوی < فارسی میانه gōw < ایرانی باستان *gauba-' — precisely the Old Persian to Middle Persian step of this node."},
+            {"ref": "MON:3333", "status": "not_checked", "note": "Mo'in's printed pagination cannot be mapped in the scans available (refs_online.json: 'Page numbers cannot be mapped online'), and the local MON OCR is unpaginated, so p. 3333 could not be located. Mo'in does treat گفتن (MON_part2.txt line 33002) and گفت/گفتار (lines 32982, 32991)."}
+          ],
+          "consulted": [
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II p. 85 s.v. guftan (NYB_vol2_glossary.txt line 1720-1723)", "stance": "supports", "note": "'guftan [gwptn'] gōb- [YMLLWN-, YMRRWN-; 3d p. sg. gwbyt ... gōbēt], opt. 2nd p. sg. gōbēš, pt. always gwpt' = guft: to say, to tell ... MPrs guftn gwy-; Paz. guftan ... NP guftan gūy; the typical SW vb. for saying, as against NW vac-'."},
+            {"src": "PHD", "where": "MacKenzie, English-Pahlavi index (PHD.txt lines 3523, 3760)", "stance": "supports", "note": "'say guftan, P wāxtan' and 'speak dranjidan, guftan, P wāxtan' — MacKenzie's guftan is the SW Middle Persian verb, with Parthian wāxtan as its NW counterpart."},
+            {"src": "CHEUNG", "where": "s.v. *gaub, Middle Persian section", "stance": "supports", "note": "'*MIDDLE PERSIAN: MMP gw-, BMP gwb- /gō(w)-/ to say, speak = DMMPP: 166af.', with perf. pass. gwpt/gwft and Inf. gwptn/gwftn."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "goftan; goptan; gap",
+          "verdict": "plausible",
+          "derivation": "goftan گفتن (present stem گو gū-, with the derivatives گفتار goftār 'speech' and گویش guyeš 'dialect' that Nourai puts in the box) is the direct and uncontroversial New Persian continuation of Middle Persian guftan/gōw-, itself from Old Persian gaub-: this is Horn's entry no. 926 on the page Nourai cites and Mo'in's footnote in Borhān p. 1821, which derives گفتن from Old Persian gaub- after Bartholomae col. 482. The other two words are less secure. گپ gap 'chat, talk, gossip' is joined to گفتن by both of Nourai's Persian authorities — Horn prints 'guften sprechen ... guftar Rede, gep Witz' in the same entry, and Mo'in ends his footnote on گپ (Borhān p. 1775) with 'ورک: گفتن' — but the -p- is the difficulty: inherited *-b-t- gives -ft- in South-West Persian, so a form with -p- is not the regular Persian outcome and gap is normally treated as an eastern/dialectal word (Mo'in's own comparanda in that footnote are Khorasani and Lori 'سخن', Kurdish gap, Ishkashmi gap 'conversation', Zebaki gap 'word', Sanglechi gap dah- 'to converse', Tehrani gap), i.e. a regional cognate rather than a descendant of literary گفتن. Wiktionary's Persian گپ entry gives no derivation at all beyond 'From Old Persian [Term?]' and 'Compare the verb گپتن (gaptan, goptan)' — which is Nourai's third word, گپتن, a rare variant infinitive built on the same unshifted stem; it is not in Mo'in or Borhān and was checked against the printed page image (the book does print گپتن, so the extraction is faithful). The Molavi couplet Nourai quotes (که ز هر ناشسته رویی گپ زنی / شرم داری وز خدای خویش نی) is the same verse Mo'in cites on Borhān p. 1775, from Masnavi book IV.",
+          "derivation_fa": "«گفتن» (ستاک مضارع «گو»، با مشتق‌های «گفتار» و «گویش» که نورایی در همین خانه آورده) ادامهٔ مستقیم و بی‌مناقشهٔ فارسی میانهٔ guftan/gōw- و آن هم از gaub- پارسی باستان است؛ همین را هرن در شمارهٔ ۹۲۶ صفحهٔ ۲۰۶ و معین در حاشیهٔ برهان قاطع ص ۱۸۲۱ (به استناد بارتولمه ۴۸۲) گفته‌اند. دو واژهٔ دیگر استوارتر نیستند. «گپ» را هر دو مرجعِ فارسیِ نورایی به «گفتن» می‌پیوندند — هرن در همان مدخل «gep: لطیفه» را می‌آورد و معین حاشیهٔ خود بر «گپ» (ص ۱۷۷۵) را با «ورک: گفتن» به پایان می‌برد — اما «پ» مشکل‌ساز است: خوشهٔ *-b-t- در فارسیِ جنوب‌غربی به -ft- بدل می‌شود، پس صورتی با «پ» بازتاب قاعده‌مندِ فارسی نیست و «گپ» را معمولاً واژه‌ای گویشی/خاوری می‌دانند؛ شاهدهای خودِ معین هم گویشی‌اند: خراسانی و لری «سخن»، کردی gap، اشکاشمی gap «مکالمه»، زباکی gap «کلمه، سخن»، سنگلیچی gap dah- «مکالمه کردن» و تهرانی gap. ویکی‌واژه نیز برای «گپ» هیچ اشتقاقی نمی‌دهد جز «از پارسی باستان [؟]» و «قس. فعل گپتن (gaptan, goptan)». «گپتن» همان واژهٔ سوم نورایی است، مصدری کم‌کاربرد بر همان ستاکِ دگرگون‌نشده که در معین و برهان نیامده؛ تصویر صفحهٔ چاپی بررسی شد و کتاب واقعاً «گپتن» چاپ کرده است، پس خطای خوانشِ اسکن در کار نیست. بیت مولوی («که ز هر ناشسته رویی گپ زنی / شرم داری وز خدای خویش نی») همان بیتی است که معین در ص ۱۷۷۵ برهان از دفتر چهارم مثنوی آورده است. در مجموع: «گفتن» درست، «گپ/گپتن» با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/%DA%AF%D9%BE"],
+          "ref_check": [
+            {"ref": "HRN:206", "status": "supports", "note": "Horn, Grundriss no. 926 (HRN.txt leaf 227 = printed p. 206, running head '— 206 —'): 'guften sprechen, Praes. gōy-em, guftar Rede, gep Witz. ... ap. sqrt gaub-, gaubataiy sprechen, sagen; phlv. guftan, guftar, guv(i)šn (geschrieben gub-) ... kurd. gutin'. Horn gives the whole OP > Pahlavi > NP chain and puts gep in the same entry — both of Nourai's main claims."},
+            {"ref": "BQT:1775", "status": "supports", "note": "Borhān vol. 3, pdf page 572 = printed p. 1775: the headword گپ with Mo'in's footnote 1, 'در خراسان و زبان لری بمعنی سخن است «فرهنگ انجمن‌آرا»؛ کردی gap (سخن + گفتگو) «ژابا ص ۳۵۷»، اشکاشمی gap (مکالمه)، زباکی gap (کلمه، سخن)؛ سنگلیچی gap dah- ... تهرانی gap (سخن)؛ رک: گفتن', and footnote 2 quoting the same Molavi couplet Nourai prints, referenced to Masnavi daftar 4 p. 290 (Nicholson)."},
+            {"ref": "BQT:1821", "status": "supports", "note": "Borhān vol. 3, pdf page 618 = printed p. 1821, Mo'in's footnote on گفتن deriving it from Old Persian gaub- (Bartholomae 482) and listing the dialect forms Tabari baoten, Gilaki bogoftan/bogotan/botan."},
+            {"ref": "FFD:75", "status": "supports", "note": "as under nodes #8 and #9: Abolghasemi's derivation گفت < MP guft < OIr *gaub-ta, گوی < MP gōw < OIr *gauba-."},
+            {"ref": "MON:3195", "status": "not_checked", "note": "Mo'in's page numbers cannot be mapped in the available scan; the entries themselves are present (گپ at MON_part2.txt line 29947: 'گپ: [- گب] (اِ.) سخن، کلام. سخن لاف و گزاف؛ سخن بیهوده و دراز' — which also confirms Nourai's variant spelling گب and his gloss 'gossip')."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "s.v. گپ (MON_part2.txt line 29947)", "stance": "supports", "note": "'گپ: [- گب] (اِ.) سخن، کلام. سخن لاف و گزاف؛ سخن بیهوده و دراز' — the variant گب and the pejorative 'idle talk' sense that Nourai renders 'gossip'."},
+            {"src": "CHEUNG", "where": "s.v. *gaub, NWIR section, p. 113", "stance": "supports", "note": "'*NWIR: NP guftan/gōy-, Kurd. (Kurm.) gotin, guhtin (supplet.) bēž-, (Sor.) gutin, kutin (supplet.) ḷē-, Shamerz. -get-/gūn- to speak' — the New Persian verb is the direct continuant of the Iranian root; Cheung's references list Horn 1893: 206, the page Nourai cites."},
+            {"src": "HRN", "where": "no. 926, p. 206", "stance": "supports", "note": "quoted above; the only handbook consulted that prints gep next to guftan."},
+            {"src": "ARY", "where": "grep 'گپ' and 'گفتن' in ARY_pages.txt", "stance": "silent", "note": "Aryanpur's root dictionary yields no usable entry in this OCR for either word."}
+          ]
+        }
+      ]
+    }
+  ]
+}
