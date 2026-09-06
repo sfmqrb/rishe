@@ -1,0 +1,300 @@
+{
+  "pdf_page": 212,
+  "book_page": 182,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Gwhedh",
+      "verdict": "confirmed",
+      "modern_form": "PIE *gʷʰedʰ- 'to ask, pray, beg for, desire'",
+      "note": "Pokorny 488 gʷhedh- 'bitten, begehren'; Walde-Pokorny I 673; Watkins/AHD 'gʷhedh-. To ask, pray. [Pok. gʷhedh- 488]'. The root name, the language label (Indo-European) and the gloss 'to ask, wish, want' are all correct, and Pokorny's very first witnesses are the Iranian forms Nourai puts in node #1. The one systematic oddity on this chart is notational: Nourai prints Avestan/Old Persian ǰ as 'ž' in ža 3, žaidhyemi, žadiyâmiy, a-žasta, while writing 'hu-jasta' with j in the same box — the standard transliterations are ǰaiδyemi, ǰadiyāmiy, aǰasta-, huǰasta-. That inconsistency is in the printed book (checked on the page image, copied to data/verification/sources/refs/ocr/BOOK/212.png); the JSON extraction is faithful.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *gʷʰedʰ- «خواستن، درخواست کردن، دعا کردن» است؛ پوکورنی ص۴۸۸ آن را با همین معنی «bitten, begehren» آورده و والده-پوکورنی (ج۱ ص۶۷۳) و واتکینز (AHD) نیز همین را می‌گویند. نام ریشه، برچسب زبانی و معنای آن در نمودار نورایی درست است و ادعای او دربارهٔ گواهان ایرانی (اوستایی و پارسی باستان) عیناً همان چیزی است که پوکورنی در سرِ همان مدخل آورده است. تنها نکتهٔ املایی این است که نورایی «ج» اوستایی (ǰ) را گاه «ž» نوشته است؛ این خطای چاپی خودِ کتاب است، نه خطای خوانش اسکن.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0ed%CA%B0-",
+        "https://www.iranicaonline.org/articles/begging-i/"
+      ],
+      "ref_check": [
+        {"ref": "POK:488", "status": "supports", "note": "POK_02.txt leaf 145 (printed 488): 'gʷhedh- ,bitten, begehren'. Av. jaiδyemi, apers. Jadiyāmiy ,ich bitte'; gr. Aor. θέσσασθαι ...; air. guidiu ,bitte'; lit. gedauju ...; aksl. žędati ... WP. I 673.' Exactly the root, gloss and page Nourai cites."}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Bd. I p. 673 (WLD_Bd1_pages.txt leaf 681)", "stance": "supports", "note": "'gʷhedh- „bitten, begehren“. Av. jaidyemi, ap. jadiyamiy „ich bitte“: gr. Aor. θέσσασθαι ... air. guidim „bitte“ ...' — the source Pokorny himself refers to."},
+        {"src": "AHD", "where": "Watkins 1985, s.v. gʷhedh- (AHD_watkins1985.txt line 545)", "stance": "supports", "note": "'gʷhedh-. To ask, pray. 1. Germanic *bidjan ... [Pok. gʷhedh- 488, 2. bhedh- 114.]' — same root, same gloss, same Pokorny page."},
+        {"src": "IEC", "where": "Mann, searched for ghedh-/gʷhedh- headwords", "stance": "silent", "note": "grep '^ghedh-|^gu̥hedh-' in IEC.txt returns nothing; Mann has no entry for this root."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "ža 3, gad; žaidhyemi, žadiyâmiy; hu-jasta; a-žasta",
+          "verdict": "confirmed",
+          "derivation": "Avestan verbal root ǰad- (Bartholomae's gad-, AiW; cf. the participles ǰaiδyant-, ǰaiδyamna- 'asking', which Bartholomae files under 'gad-') and Old Persian jad- 'to ask, entreat' continue PIE *gʷʰedʰ- with the regular Indo-Iranian palatalisation of *gʷʰ before a front vowel to *ǰʰ > Iranian ǰ, and *dʰ > Avestan δ intervocalically (hence Av. ǰaiδyemi vs OP jadiyāmiy, where OP keeps d). Kent's Lexicon derives it explicitly: 'pIE *gʷhedh- in pAr. *jadhya-, Av. ǰaiδyeiti, OP jadiyāmiy “I entreat”' (attested DPd 20-2 'ima adam yānam jadiyāmiy Auramazdām' = 'this as a boon I beg of Ahuramazda'). The past participle *ǰasta- 'asked (for), desired' gives the compounds a-ǰasta- 'not asked for' (attested Vd. 18.37) and *hu-ǰasta- 'well asked for, blessed' — the latter is not itself attested in the Avesta and is starred by Hübschmann (*hu-jasta-), reconstructed backwards from Middle Persian huǰastag / NP xojaste and its antonym Pahl. gaǰastag < *vi-ǰasta- 'accursed'. Nourai's 'ža 3' and 'žaidhyemi, žadiyâmiy, a-žasta' are his own spellings with ž for ǰ; the printed page shows exactly these forms, so the extraction is faithful and the inconsistent transliteration is the book's.",
+          "derivation_fa": "ستاک فعلی اوستایی ǰad- (نزد بارتولمه gad-) و پارسی باستان jad- «خواستن، درخواست کردن» بازماندهٔ ریشهٔ هندواروپایی *gʷʰedʰ- است: *gʷʰ در هندوایرانی پیش از واکهٔ پیشین به ǰ کامی شده و *dʰ در اوستایی میان دو واکه به δ نرم شده است؛ از این‌روست که در اوستا ǰaiδyemi و در پارسی باستان jadiyāmiy «من درخواست می‌کنم» داریم (کتیبهٔ DPd: ima adam yānam jadiyāmiy Auramazdām). صفت مفعولی *ǰasta- «خواسته‌شده» دو ترکیب می‌سازد: a-ǰasta- «ناخواسته» (وندیداد ۱۸٫۳۷، بارتولمه) و *hu-ǰasta- «نیک‌خواسته، مبارک» که خودِ آن در اوستا گواهی نشده و هوبشمان آن را با ستاره بازسازی کرده است. ادعای نورایی درست است؛ تنها نگارش «ž» به‌جای «ǰ» خطای چاپی خودِ کتاب است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0ed%CA%B0-"
+          ],
+          "ref_check": [
+            {"ref": "POK:488", "status": "supports", "note": "POK_02.txt leaf 145: 'gʷhedh- ,bitten, begehren'. Av. jaiδyemi, apers. Jadiyāmiy ,ich bitte'' — Nourai's two verb forms verbatim."},
+            {"ref": "WLD:673", "status": "supports", "note": "WLD_Bd1_pages.txt leaf 681 = printed 673: 'gʷhedh- „bitten, begehren“. Av. jaidyemi, ap. jadiyamiy „ich bitte“'. The page number Nourai gives is exact."},
+            {"ref": "SYN:1471", "status": "supports", "note": "Buck's p.1471 (§22.17 PRAY) lies beyond the local scan, which stops at ~p.1444; but Buck §16.62 DESIRE (SYN.txt line 29266, printed p.1161) gives the same group: 'Grk. ποθέω ... : θέσσασθαι ‘beseech, pray for’, Ir. guidim ‘pray, ask’, Lith. gedauti, ChSl. žedati, Av., OPers. jad- ‘beseech, pray for or to’. Walde-P. 1.673', and §18.35 (p.1272) lists 'Av., OPers. jad- ‘beseech, pray for’, see under ‘pray’ (22.17)' — i.e. the page Nourai cites is indeed Buck's treatment of this root."},
+            {"ref": "HRN:470", "status": "supports", "note": "Horn's numbers here are entry numbers, not pages (his book stops at p.391). HRN.txt line ~4276, entry '470. xujeste ‘gesegnet, glücklich’, vergl. ferxujeste. aw. *hujasta-. Vergl. ajasta-.' — covers hu-jasta and a-jasta of this node."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "AiW cols. ~1093 and 1150 (BRT.txt lines 11537-11538, 8047)", "stance": "supports", "note": "'j. ǰaiδyant- Adj., PPA.: s. gad-' and 'j. ǰaiδyamna- Adj. ..., PPM.: s. gad-'; the finite form appears in the citation 'āpǝ̄s ... vō ǰaiδyāmi' (Y. 65.11). Bartholomae's headword for the verb is gad- 'erbitten'. a-ǰasta- is quoted at V.18.37 ('naire ašaone aǰasta .. daoaiti')."},
+            {"src": "KNT", "where": "Kent, Old Persian, § on Iranian verb stems (KNT.txt line 2486)", "stance": "supports", "note": "'pIE *gʷhedh- in pAr. *jadhya-, Av. ǰaiδyeiti, OP jadiyāmiy “I entreat”'; text example DPd 20-2 'ima adam yānam jadiyāmiy Auramazdām “this as a boon I beg of Ahuramazda”' (KNT.txt line 3059)."},
+            {"src": "HUB", "where": "Persische Studien pp. 160, 215, 230", "stance": "partial", "note": "'xujasta ‘gesegnet, glücklich’ = zd. *hujasta- neben paz. gazista ‘verflucht’' (p.230) and 'gajastak ... als Gegensatz von np. xujasta ‘gesegnet, glücklich’ (= zd. *hujasta-) auf ein zd. *vījasta- zurückführt' (p.160). Hübschmann stars the Avestan form: hu-ǰasta- is a reconstruction, not an attested Avestan word."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "gedâ «گدا»; xojasteh «خجسته»",
+          "verdict": "plausible",
+          "derivation": "xojaste خجسته 'blessed, auspicious' is a straightforward and well-attested descendant: Av. *hu-ǰasta- 'well-wished-for' > MP huǰastag > NP xojaste, with hu- > xo- (the regular Persian treatment of Old Iranian hu- 'good', as in xoš, xor-) and loss of the MP -ag ending to -e; its antonym is Pahl. gaǰastag < *vi-ǰasta- 'accursed', and the intensive compound far-xojaste فرخجسته (Nourai's extra form) is far/farr- + xojaste, exactly as Mo'in notes at Borhan p.1453. Mo'in's footnote in Borhan-e Qate' (p.717-718) spells out the same chain from the Avestan root ǰad-. gedā گدا 'beggar' is the more doubtful half. Mo'in (Borhan p.1776 footnote) derives it precisely as Nourai does — 'در اوستایی gad (خواهش کردن، خواستن) ... بارتولمه AiW', with Kurdish gadā — so a nomen agentis *gadā(g) 'one who asks' from the same *gʷʰedʰ- root. Modern Wiktionary, however, prefers a different Iranian etymon, comparing Avestan gaδa- 'robber' (cf. Av. *gaδōtāt- 'Räuberbande', AiW) and Pashto ġal 'thief', with a semantic path 'robber' > 'vagrant' > 'beggar'; that requires -δ- rather than -d- and is not the *gʷʰedʰ- root. Both etymologies are live; Nourai follows the older Persian (Mo'in/Bartholomae) view.",
+          "derivation_fa": "«خجسته» بی‌گمان از اوستایی *hu-ǰasta- «نیک‌خواسته» است: از راه فارسی میانهٔ huǰastag به فارسی نو رسیده؛ پیشوند hu- ایرانی باستان در فارسی به xo- بدل شده (مانند خوش، خور) و پسوند -ag پهلوی به -هٔ فارسی. متضاد آن gaǰastag «ملعون» (< *vi-ǰasta-) است و «فرخجسته» نیز، چنان‌که معین در حاشیهٔ برهان قاطع ص۱۴۵۳ می‌گوید، از «فر» + «خجسته» ساخته شده است. اما «گدا» دو ریشه‌شناسی رقیب دارد: معین در حاشیهٔ برهان (ص۱۷۷۶) آن را از ریشهٔ اوستایی gad «خواهش کردن، خواستن» می‌داند (با استناد به بارتولمه) و کردی gadā را گواه می‌گیرد — همان که نورایی آورده است؛ ولی ویکی‌واژه آن را با اوستایی gaδa- «راهزن» و پشتوی ġal «دزد» می‌سنجد و تحول معنایی «راهزن ← ولگرد ← گدا» را پیشنهاد می‌کند. پس این بخش با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%DA%AF%D8%AF%D8%A7",
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%AC%D8%B3%D8%AA%D9%87"
+          ],
+          "ref_check": [
+            {"ref": "BQT:717", "status": "supports", "note": "Borhan-e Qate' (Mo'in) vol. 2, BQT_v2_pages.txt leaf 175 (the page whose footnote continues 'بقیهٔ صفحهٔ ۷۱۷'), s.v. خجسته 'بمعنی مبارک و میمون'; Mo'in's footnote: 'خجسته؛ اوستا [*huǰasta] ... از ریشهٔ اوستایی ǰad- (خواهش کردن، درخواستن) ... «بارتولمه AiW». خجسته لغةً بمعنی نیک‌خواسته، متبرک، مبارک؛ ضد «گجسته» (ملعون).'"},
+            {"ref": "BQT:1453", "status": "supports", "note": "ref_page.py BQT:1453 (v3 pdf 245), s.v. فرخجسته, footnote 1: 'از: فر (پیشوند) + خجسته (ه.م.)' — supports the extra form فرخجسته shown in this box."},
+            {"ref": "BQT:1776", "status": "supports", "note": "ref_page.py BQT:1776 (v3 pdf 573), s.v. گدا/کدا 'باشد که گدایی کننده است'; Mo'in's footnote: 'بکسر اول (در لهجهٔ مرکزی)، در اوستایی gad (خواهش کردن، خواستن)، هندی باستان ... (من خواهش می‌کنم) «بارتولمه AiW»، کردی gadā (گدا) «ژابا ص۳۵۷» ... قس: عربی: تکدیه، و اکداء' — exactly Nourai's arrow, including the hint at the Arabic derivative."},
+            {"ref": "HRN:470", "status": "supports", "note": "Horn entry 470 (HRN.txt line ~4276): '470. xujeste ‘gesegnet, glücklich’, vergl. ferxujeste. aw. *hujasta-.' Covers xojasteh and farxojasteh but says nothing about gedā."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Persische Studien pp. 215, 230", "stance": "supports", "note": "'xujasta ‘gesegnet, glücklich’ = zd. *hujasta-' — Hübschmann's independent confirmation of the Persian word's Avestan source."},
+            {"src": "HRN", "where": "Grundriss, entry 470; grep for 'Bettler' turns up only no. 559 derveš", "stance": "partial", "note": "Horn has xujeste but no entry for gedā; his only 'Bettler' word is derveš (no. 559), so Horn is silent on the beggar-word."},
+            {"src": "ARY", "where": "ARY_pages.txt, searched گدا and خجسته as headwords", "stance": "silent", "note": "Aryanpur's Persian IE-roots dictionary has no headword گدا or خجسته (the four hits for گدا are incidental occurrences in other entries)."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "kadâ",
+          "verdict": "plausible",
+          "derivation": "The direction of borrowing Nourai draws — Persian gedā into Arabic — is the accepted one. C. E. Bosworth in Encyclopaedia Iranica (BEGGING i, 1989) writes that Arabic 'mokaddī (abstracts: takdīa, kodya “begging”), found in adab literature (e.g. in Jāḥeẓ, with his Ketāb ḥīal al-mokaddīn ...) from the 3rd/9th century onwards ... is clearly derived from Persian gadā “beggar, begging”' (citing Bosworth, The Mediaeval Islamic Underworld: The Banū Sāsān, Leiden 1976, I 40, II 244, and Pellat, 'Mukaddī', EI²). Arabic re-analysed the Persian noun as a hollow/defective triliteral k-d-y and built a form II verb kaddā 'to beg' with the noun kudya كُدْية 'begging' and the participle mukaddī مُكَدّي 'beggar'. The reservation is the form Nourai prints: 'kadâ' is not a lexical Arabic noun meaning 'beggar' — it stands for the verbal stem كدّى kaddā; the classical Arabic dictionaries' كُدْية kudya also carries the older concrete sense 'hard patch of ground', so the native lexicographers treated the group as Arabic. Nourai's arrow is right; his citation form is a stem, not an attested noun.",
+          "derivation_fa": "جهت وام‌گیری‌ای که نورایی رسم کرده است — از فارسی «گدا» به عربی — پذیرفتهٔ پژوهش امروزی است: بازورث در دانشنامهٔ ایرانیکا (مدخل BEGGING) می‌نویسد که «مُکدّی» عربی و مصدرهای «تکدیه» و «کُدیه» که از سدهٔ سوم هجری در ادب عربی (از جمله در «کتاب حیل المکدّین» جاحظ) دیده می‌شوند «آشکارا از فارسی gadā گرفته شده‌اند». عربی این نام فارسی را چون ریشهٔ سه‌بخشی ک-د-ی بازتحلیل کرد و از آن فعل باب دوم «کدّی» و اسم «کُدیه» و اسم فاعل «مُکدّی» ساخت. تنها اشکال، صورتی است که نورایی آورده: «kadâ» واژهٔ عربی مستقلی به معنی «گدا» نیست، بلکه ستاک فعلی کدّی است. پس ادعای نورایی با اصلاح صورت واژه پذیرفتنی است.",
+          "sources": [
+            "https://www.iranicaonline.org/articles/begging-i/"
+          ],
+          "ref_check": [
+            {"ref": "FVF:565", "status": "not_checked", "note": "Emam Shushtari, Farhang-e Vazheha-ye Farsi dar Zaban-e Arabi (Tehran 1347) is catalogued in refs_online.json as kind 'website' (noorlib.ir viewer, login/browser needed); no page text obtainable here."}
+          ],
+          "consulted": [
+            {"src": "Encyclopaedia Iranica", "where": "BEGGING i. In the Early Centuries of the Islamic Period (C. E. Bosworth), Vol. IV/1 pp. 80-84", "stance": "supports", "note": "'... Arabic mokaddī (abstracts: takdīa, kodya “begging”) ... and this is clearly derived from Persian gadā “beggar, begging” (see C. E. Bosworth, The Mediaeval Islamic Underworld ... I, p. 40, II, p. 244; Pellat, “Mukaddī”, in EI2)'."},
+            {"src": "AFM", "where": "Addi Shir, Kitab al-Alfaz al-Farisiyya al-Mu'arraba, searched كدية / تكدية / مكدي", "stance": "silent", "note": "grep over AFM.txt / AFM_alt.txt / AFM_pages.txt finds no entry for the k-d-y begging group; Addi Shir lists قند but not كدية."},
+            {"src": "KLN", "where": "Klein, searched 'kudya', 'mukaddi'", "stance": "silent", "note": "Klein covers only Arabisms that reached European languages; the beggar-word is not in KLN_1966.txt."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "takaddî «تَکَدّی»",
+          "verdict": "confirmed",
+          "derivation": "Persian تکدّی takaddi 'begging' is the Arabic form-V verbal noun تَكَدٍّ takaddin of the denominative كدّى kaddā built on the borrowed Persian gedā — so it is a classic Persian → Arabic → Persian round trip: NP gedā > Arab. kaddā / kudya (3rd/9th c., Jāḥeẓ's Ketāb ḥiyal al-mukaddīn) > the Arabic masdar takaddī, re-borrowed into New Persian as the learned/formal word for 'begging' (Persian keeps gedā'i as the native synonym). Nourai's extra form مُتَکَدّی motakaddi is the corresponding form-V active participle 'one who begs'. Encyclopaedia Iranica heads the whole article 'BEGGING, Pers. gadāʾī, takaddī (Ar. also kodya, takdīa), soʾāl', i.e. it treats takaddī exactly as the Arabic-shaped Persian term for the same thing.",
+          "derivation_fa": "«تکدّی» مصدر باب تفعّلِ عربی از فعل «کدّی» است که خود از وام‌واژهٔ فارسی «گدا» ساخته شده؛ بنابراین یک وام‌گیری دوسویه (فارسی ← عربی ← فارسی) است: gadā فارسی در سدهٔ سوم هجری وارد عربی شد (کتاب حیل المکدّین جاحظ)، عربی از آن «کدّی، کُدیه، مُکدّی» ساخت و مصدر «تکدّی» دوباره به فارسی بازگشت و امروز واژهٔ رسمیِ «گدایی» است. «مُتکدّی» نیز اسم فاعل همان باب است. دانشنامهٔ ایرانیکا سرمدخل خود را «BEGGING, Pers. gadāʾī, takaddī (Ar. also kodya, takdīa)» گذاشته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.iranicaonline.org/articles/begging-pers/",
+            "https://www.iranicaonline.org/articles/begging-i/"
+          ],
+          "ref_check": [
+            {"ref": "FVF:565", "status": "not_checked", "note": "Emam Shushtari (FVF) exists only as a noorlib.ir page-viewer needing a browser session; not readable here."},
+            {"ref": "FVA:349", "status": "not_checked", "note": "Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989): refs_online.json records that no digital copy was found on archive.org, ketabnak or noorlib."}
+          ],
+          "consulted": [
+            {"src": "Encyclopaedia Iranica", "where": "BEGGING (article head) and BEGGING i (Bosworth)", "stance": "supports", "note": "'BEGGING, Pers. gadāʾī, takaddī (Ar. also kodya, takdīa), soʾāl' and 'the abstracts takdīa, kodya “begging” ... clearly derived from Persian gadā'."},
+            {"src": "BQT", "where": "Borhan-e Qate' (Mo'in) p.1776, footnote to گدا", "stance": "supports", "note": "Mo'in ends the etymological footnote on گدا with 'قس: عربی: تکدیه، و اکداء' — he himself points from Persian گدا to Arabic تکدیه, which is the arrow Nourai draws."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Gwhen 1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *gʷʰen- 'to swell, abound, be full'",
+      "note": "The root box itself is right: Pokorny 491 has 'gʷhen- ,schwellen, strotzen, Fülle‘; gʷhono-s ,üppig, reichlich‘' with Skt. ā-ghaná-, ghaná-, Gk. euthenéō and — the Iranian witness Nourai does NOT use — 'npers. ā-gandan ,anfüllen‘, āganiš ,voll‘'; Watkins/AHD likewise: 'gʷhen-2. To swell, abound. [Pok. 1. gʷhen- 491].' What is wrong on this chart is not the root but both branches hung under it. Branch A (šan / šyaŋha / āšiyān / golšan / kāšān / Hušang) belongs to the 'dwell, settle' root *ḱey-/*tḱey-: Bartholomae AiW col. 1707 gives 'j. šayana- n. ‚Wohnstätte, Aufenthalt, Heimat‘' (Armenian loan šēn 'village'), Mo'in's own footnote in the Borhan page Nourai cites (BQT:46) derives آشیان from 'ā- + šyāna- بمعنی جای و سرای، بارتولمه ۱۷۰۷', and Wiktionary's Persian suffix -šan is 'from *tḱey- “to cultivate, settle, live”, cf. Avestan šaiiana- “place of residence”'. Nourai's own NOTE ('See Kweye for another possible root of āšīyān(eh)') points at exactly this, and modern scholarship takes that side without hesitation. Branch B (Skt khaṇḍa > qand > candy) is a real and well-documented chain word-for-word, but its head is not Indo-European at all: AHD calls khaṇḍaḥ 'piece, fragment' 'perhaps of Munda origin' and Klein 'prob. of Dravidian origin (cp. Tamil kaṇṭu “candy”)'. So the root is confirmed but neither branch actually descends from it. Page image kept at data/verification/sources/refs/ocr/BOOK/212.png.",
+      "note_fa": "خودِ ریشه درست است: پوکورنی در ص۴۹۱ ریشهٔ *gʷʰen- «آماسیدن، پُر شدن، فراوانی» را آورده و از ایرانی هم «فارسی نو ā-gandan (آکندن) و āganiš (آکنده)» را گواه گرفته است؛ واتکینز نیز همین را می‌گوید. اما هیچ‌یک از دو شاخه‌ای که نورایی زیر این ریشه آویخته است به آن نمی‌رسد. شاخهٔ نخست (شن، شیانگه، آشیان، گلشن، کاشان، هوشنگ) از ریشهٔ *ḱey-/*tḱey- «آرمیدن، جای گرفتن، سکنا گزیدن» است: بارتولمه در ستون ۱۷۰۷ فرهنگ ایرانی باستان «šayana- به معنی جایگاه، خانه، میهن» را آورده و معین نیز در همان صفحه‌ای از برهان قاطع که نورایی ارجاع داده (ص۴۶) «آشیان» را «مرکب از پیشوند ā و šyāna- به معنی جای و سرای، بارتولمه ۱۷۰۷» دانسته است؛ خودِ نورایی هم در یادداشت نمودار به ریشهٔ «Kweye» اشاره کرده است. شاخهٔ دوم (خَنْدَهٔ سنسکریت ← قند ← candy) زنجیرهٔ وام‌گیری‌اش درست است، ولی سرِ آن اصلاً هندواروپایی نیست: فرهنگ AHD خَنْدَه را «شاید از خاستگاه مونداـ» و کلاین آن را «احتمالاً دراویدی» می‌داند. پس ریشه درست است ولی پیوند هر دو شاخه به آن نادرست.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B4%D9%86",
+        "https://www.ahdictionary.com/word/search.html?q=candy"
+      ],
+      "ref_check": [
+        {"ref": "POK:491", "status": "supports", "note": "POK_02.txt leaf 148 (printed 491): 'gʷhen- ,schwellen, strotzen, Fülle‘; gʷhono-s ,üppig, reichlich‘. Ai. a-ghaná- ,schwellend, strotzend, üppig‘, ghaná- ,dicht, dick‘ ...; npers. ā-gandan ,anfüllen‘, āganiš ,voll‘; arm. yogn ,multum‘; gr. εὐθενής ...' — root, gloss and page exactly as cited. Note that Pokorny's Iranian witness is āgandan, not šan or khaṇḍa."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "Watkins 1985, s.v. gʷhen-2 (AHD_watkins1985.txt line 545)", "stance": "supports", "note": "'gʷhen-2. To swell, abound. Suffixed form *gʷhen-eyo- in Greek euthenein ... [Pok. 1. gʷhen- 491.]' — same root, gloss and Pokorny page."},
+        {"src": "WLD", "where": "Walde-Pokorny I (via Pokorny's own back-reference on p.491)", "stance": "partial", "note": "Pokorny's entry for this root closes with the WP reference; the local WLD Bd. I scan confirms the volume covers the gʷh- series (leaf 681 = p.673), but no Iranian 'house' word or Sanskrit khaṇḍa is listed anywhere under this root."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "šan, šyangh",
+          "verdict": "disputed",
+          "derivation": "There is no Avestan or Old Persian word *šan; what Avestan actually has is šayana- n. 'Wohnstätte, Aufenthalt, Heimat' (Bartholomae, AiW col. 1707, with the Armenian loanword šēn 'village'), a -ana- derivative of the verb šay-/sōi- 'to lie, rest, dwell' (Gathic syā-), i.e. PIE *ḱey-/*tḱey- 'to lie down, settle' — the root Nourai himself cross-references as 'Kweye'. 'šyangh' is the second element of the Avestan proper name Haošyaŋha- (the first Pēšdādian king), which Mo'in, following Pourdavoud, glosses in the Borhan footnote as 'کسی که منازل خوب فراهم سازد' ('he who provides good dwellings'), i.e. hu- 'good' + a *šyaŋha- of the same 'dwelling' family; the second element is in fact contested (others attach it to Av. saŋh- 'to pronounce'). Either way the family belongs to *ḱey-, not to *gʷʰen- 'to swell': Pokorny p.491 lists no Iranian 'house' word under this root, and *gʷʰen- would give Iranian ǰan-/gan-, not šan-. Nourai's own NOTE ('cognate with kan 1, xan, gan 1: to dig out and mound up (a shelter)') and his cross-reference to Kweye show he was aware of the alternatives; modern scholarship takes the Kweye side. The whole branch rests on ZMA (Jonaydi, Zendegi va Mohajerat-e Aryaian), a popular, non-academic work.",
+          "derivation_fa": "در اوستایی و پارسی باستان واژه‌ای به صورت *šan «خانه» وجود ندارد؛ آنچه هست šayana- «جایگاه، خانه، میهن» است (بارتولمه، فرهنگ ایرانی باستان، ستون ۱۷۰۷، همراه با وام‌واژهٔ ارمنی šēn «ده») که مشتقِ ‑ana- از ستاک فعلی šay-/sōi- «آرمیدن، ساکن شدن» (گاهانی syā-) است، یعنی از ریشهٔ هندواروپایی *ḱey-/*tḱey- — همان که خود نورایی با نام «Kweye» به آن ارجاع می‌دهد. «شیانگه» نیز جزء دوم نام اوستایی Haošyaŋha- (هوشنگ) است که معین به پیروی از پورداود آن را «کسی که منازل خوب فراهم سازد» معنی کرده است. در هر حال این خانواده به ریشهٔ *gʷʰen- «آماسیدن» نمی‌رسد: پوکورنی در ص۴۹۱ هیچ واژهٔ ایرانی به معنی «خانه» زیر این ریشه نیاورده و *gʷʰen- در ایرانی به ǰan-/gan- می‌انجامد نه šan-. پژوهش امروزی این پیوند را رد می‌کند و همان ریشهٔ «آرمیدن/سکنا گزیدن» را می‌گیرد؛ تکیهٔ نورایی هم بر کتاب غیردانشگاهی «زندگی و مهاجرت آریاییان» فریدون جنیدی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "ZMA:49-51", "status": "not_checked", "note": "Fereydun Jonaydi, Zendegi va Mohajerat-e Aryaian (Bonyad-e Neyshabur 1374): refs_online.json records 'purchase only; no open copy found on archive.org, ketabnak, noorlib or the open web'. It is also not an etymological reference of standing."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Altiranisches Wörterbuch col. 1707 (BRT.txt line ~28400)", "stance": "contradicts", "note": "'j. šayana- n. ‚Wohnstätte, Aufenthalt, Heimat‘. KompE. — arm. LW. šēn ‚Dorf‘' — filed under the verb šay- 'to lie, dwell', not under any gʷhen- root; Bartholomae has no Avestan *šan."},
+            {"src": "POK", "where": "Pokorny p.491, s.v. gʷhen- 'schwellen, strotzen, Fülle'", "stance": "silent", "note": "The entry lists Skt. ā-ghaná-/ghaná-, Arm. yogn, Gk. εὐθενής, Lith. ganà, aksl. goněti and NPers. ā-gandan — no Iranian word for 'house' anywhere."},
+            {"src": "KNT", "where": "Kent, Old Persian Lexicon, searched for šan-/šyan-", "stance": "silent", "note": "No Old Persian word of this shape is in Kent's lexicon; the language label 'Old Persian' on this box has no support."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "šân; â-šân-ak; hu-šangh",
+          "verdict": "disputed",
+          "derivation": "Two of the three forms are genuine Middle Persian words, but they belong to the 'dwell' root, not to *gʷʰen-. MacKenzie's Concise Pahlavi Dictionary p.14 has 'āšyān(ag) [ʾsydʼn(k) | (M ʾhyʾng), N āšyāna] nest, lair' — that is Nourai's 'â-šân-ak', more accurately āšyānag, from *ā- + šyāna- 'dwelling place' (Av. šayana-, Bartholomae AiW 1707) with the MP diminutive/nominal -ag. 'hu-šangh' is the Pahlavi royal name Hōšang < Av. Haošyaŋha-, whose second element Mo'in (after Pourdavoud) glosses in Borhan p.2395 as 'one who provides good dwellings' — again from the 'dwelling' family. A bare Pahlavi *šān 'house, shelter' is not in MacKenzie or Nyberg; it is an abstraction from the New Persian suffix -šan/-šān. Middle Persian for 'house' is mān, xānag, wis. So the forms are (mostly) real, the internal analysis is defensible, and only the attachment to 'Gwhen 1: to swell, fill' is wrong.",
+          "derivation_fa": "دو صورت از سه صورت این جعبه واژه‌های راستین فارسی میانه‌اند، اما به ریشهٔ «آرمیدن/سکنا گزیدن» می‌رسند نه به *gʷʰen-. مکنزی در فرهنگ کوچک پهلوی (ص۱۴) āšyān(ag) «آشیانه، لانه» را آورده است — همان «â-šân-ak» نورایی — که از *ā- + šyāna- «جای، سرای» (اوستایی šayana-، بارتولمه ستون ۱۷۰۷) با پسوند ‑ag پهلوی ساخته شده. «hu-šangh» نیز نام شاهیِ پهلوی Hōšang < اوستایی Haošyaŋha- است که معین به نقل از پورداود در برهان ص۲۳۹۵ آن را «کسی که منازل خوب فراهم سازد» معنی کرده است. اما *šān تنهای پهلوی به معنی «خانه» نه در مکنزی هست و نه در نیبرگ؛ واژهٔ پهلوی «خانه» mān، xānag و wis است. پس صورت‌ها بیشترشان درست‌اند و تنها پیوند آنها به ریشهٔ «آماسیدن» نادرست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "BQT:46", "status": "contradicts", "note": "Borhan-e Qate' vol. 1, BQT_v1_pages.txt leaf 256, s.v. آشیان 'خانهٔ مرغان - و سقف خانه باشد'; Mo'in's footnote 4 reads 'مرکب از پیشوند ā و šyāna- بمعنی جای و سرای، ارمنی [šēn] (بمعنی ده، قریه) «بارتولمه ۱۷۰۷»' — the page Nourai cites derives the word from Av. šyāna-/šayana- (AiW col. 1707), i.e. from the 'dwell' root, not from a 'swell, fill' root."},
+            {"ref": "ZMA:49-51", "status": "not_checked", "note": "Jonaydi's Zendegi va Mohajerat-e Aryaian: no open copy exists (refs_online.json: 'purchase only')."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, A Concise Pahlavi Dictionary, p. 14 s.v. āšyān(ag)", "stance": "partial", "note": "'āšyān(ag) [ʾsydʾn(k) | (M ʾhyʾng), N āšyāna] nest, lair' — confirms Nourai's â-šân-ak as MP āšyānag, but MacKenzie has no simple šān 'house' (his words for house are mān, xānag, wis)."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (Glossary), searched šān / āšyān / hušang", "stance": "silent", "note": "grep of NYB_vol2_glossary.txt returns no headword for any of the three forms."},
+            {"src": "BRT", "where": "AiW col. 1707", "stance": "contradicts", "note": "šayana- 'Wohnstätte' is filed under the verb šay- 'to lie, dwell'; the Middle Persian forms continue it, so the ultimate root is *ḱey-, not *gʷhen-."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "šan «شَن»; šandaf «شَندَف»; Hŭžšang «هوشنگ»",
+          "verdict": "disputed",
+          "derivation": "The Persian material is real and correctly grouped with itself, but not with this root. Persian شن /-شن /-شان /-شانه is a productive suffix of place: Wiktionary derives it from PIE *tḱey- 'to cultivate, settle, live', citing Avestan šaiiana- 'place of residence' and Old Armenian šēn, and gives گلشن golšan 'place of flowers, rose-garden' and تبشن tabšan 'hot spring' as examples; the same element is in کاشان/کاشانه kāšān(e) and, with the prefix ā-, in آشیان/آشیانه āšiyān(e) 'nest' < MP āšyānag (MacKenzie p.14) < *ā-šyāna-. Horn's Grundriss no. 35 says the same in 1893: 'āsyāne, āsyān ‚Nest‘. ā + aw. šōi- bezw. gāth. syā- ‚ruhen‘, oder wohl bereits ‚wohnen‘ (Nöldeke)'. Nourai's own NOTE on this box concedes the point ('See “Kweye” for another possible root of “āšīyān(eh)”'); modern scholarship takes the Kweye (*ḱey-) side for the whole set, so the arrow from 'Gwhen 1: to swell, fill' fails. Hušang هوشنگ is Av. Haošyaŋha- > MP Hōšang, and Mo'in in the very page cited (BQT:2395) reports Pourdavoud's gloss 'کسی که منازل خوب فراهم سازد' — which does support Nourai's rendering 'owner of good household'. Note also a printed error: the book sets the name as 'Hŭžšang' with a stray ž (see the page image); the Persian is هوشنگ = Hōšang/Hūšang, and the JSON reproduces the printed form faithfully.",
+          "derivation_fa": "مادهٔ فارسی این جعبه راستین است و اعضایش به‌درستی کنار هم نشسته‌اند، ولی به این ریشه نمی‌رسند. «شن / ـ شن / ـ شان / ـ شانه» پسوند مکان است و ویکی‌واژه آن را از ریشهٔ *tḱey- «سکنا گزیدن، آباد کردن» می‌داند و اوستایی šaiiana- «جایگاه» و ارمنی کهن šēn را گواه می‌آورد؛ نمونه‌ها: «گلشن» (جای گل)، «تبشن» (چشمهٔ گرم)، «کاشان/کاشانه» و با پیشوند ā-: «آشیان/آشیانه» از فارسی میانهٔ āšyānag (مکنزی ص۱۴) از *ā-šyāna-. هرن نیز در ۱۸۹۳ (شمارهٔ ۳۵) همین را گفته است: «āsyāne از ā + اوستایی šōi-/گاهانی syā- به معنی آرمیدن یا سکونت گزیدن». خودِ نورایی هم در یادداشت همین جعبه به ریشهٔ «Kweye» اشاره کرده است؛ ریشه‌شناسی امروزی همان را می‌پذیرد و پیوند به «Gwhen 1» را رد می‌کند. «هوشنگ» از اوستایی Haošyaŋha- و فارسی میانهٔ Hōšang است و معین در همان صفحهٔ ۲۳۹۵ برهان، به نقل از پورداود، آن را «کسی که منازل خوب فراهم سازد» معنی کرده که با ترجمهٔ نورایی می‌خواند. یک نکتهٔ چاپی هم هست: کتاب این نام را «Hŭžšang» با «ž» زائد چاپ کرده است؛ صورت درست Hōšang/Hūšang است و خوانش اسکن درست بوده — خطا از خودِ کتاب است.",
+          "error_in": "book",
+          "book_prints": "Hŭžšang",
+          "correct_form": "Hūšang / Hōšang (هوشنگ)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%86",
+            "https://en.wiktionary.org/wiki/%DA%AF%D9%84%D8%B4%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%A2%D8%B4%DB%8C%D8%A7%D9%86%D9%87"
+          ],
+          "ref_check": [
+            {"ref": "ZMA:49-50", "status": "not_checked", "note": "Jonaydi, Zendegi va Mohajerat-e Aryaian — no open copy (refs_online.json: purchase only)."},
+            {"ref": "BQT:46", "status": "contradicts", "note": "BQT_v1_pages.txt leaf 256, footnote to آشیان: 'مرکب از پیشوند ā و šyāna- بمعنی جای و سرای ... «بارتولمه ۱۷۰۷»' — Mo'in derives it from the 'dwelling' root, which is Nourai's own alternative 'Kweye'."},
+            {"ref": "BQT:2395", "status": "partial", "note": "ref_page.py BQT:2395 (v4), s.v. هوشنگ, footnote 1: 'در اوستا Haošyaŋha-. معنی لفظی این کلمه به قول پورداود ... چنین است: کسی که منازل خوب فراهم سازد. به نام مرکب از: هوش + هنگ چنان که برخی پنداشته‌اند نیست.' Supports the gloss 'owner of good household' but says nothing that would attach the name to a 'swell, fill' root."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "Horn, Grundriss der neupersischen Etymologie, no. 35 (HRN.txt line 740)", "stance": "contradicts", "note": "'35. āsyāne, āsyān ‚Nest‘. ā + aw. šōi- bezw. gāth. syā- ‚ruhen‘, oder wohl bereits ‚wohnen‘ (Nöldeke, mündliche Mitteilung).' Horn also asks at no. 1034 (nišēm 'Nest') whether āsyāne belongs with nišastan — again the *ḱey- family."},
+            {"src": "PHD", "where": "MacKenzie p. 14", "stance": "partial", "note": "'āšyān(ag) ... nest, lair' confirms the Middle Persian ancestor of آشیان/آشیانه but gives no 'swell' connection."},
+            {"src": "ARY", "where": "ARY_pages.txt, searched گلشن / کاشان / آشیان as headwords", "stance": "silent", "note": "Aryanpur's Persian IE-roots dictionary has no headword for any of them."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Sanskrit",
+          "words": "ğanâ; xanda",
+          "verdict": "disputed",
+          "derivation": "Neither Sanskrit word supports the arrow. (a) 'ğanâ : ditch' is not a Sanskrit lexeme the dictionaries know; the Sanskrit words for 'ditch, pit, mine' are khā-, khani-, khāta-, from the verb khan- 'to dig' — the family Nourai alludes to in his own note on node #1 ('kan 1, xan, gan 1: to dig out'). khan- is not from *gʷʰen- 'to swell': the *gʷʰen- reflexes in Sanskrit are ā-ghaná- 'swelling, abundant' and ghaná- 'dense, compact mass' (Pokorny 491), which is a quite different word. The printed page really does read 'ğanâ' (page image kept), so the extraction is faithful and the odd form is the book's. (b) khaṇḍa- खण्ड 'piece, fragment; a lump of candied sugar' (with the derivative khaṇḍaka-) is a real and central word — it is the true source of qand/candy — but it is not inherited Indo-European at all: AHD s.v. candy calls khaṇḍaḥ 'piece, fragment, perhaps of Munda origin', and Klein (p. 230-31 s.v. candy) says Arab. qand and 'OI. khaṇḍakaḥ “candy” is prob. of Dravidian origin. Cp. Tamil kaṇṭu “candy”, kaṭṭu “to harden, condense”'. So the words below this box are genuine, but their attachment to PIE *gʷʰen- is rejected by modern scholarship.",
+          "derivation_fa": "هیچ‌یک از دو واژهٔ سنسکریتِ این جعبه پیوند نمودار را نمی‌رساند. نخست، «ğanâ» به معنی «گودال» واژه‌ای نیست که فرهنگ‌های سنسکریت بشناسند؛ واژه‌های سنسکریت برای «گودال، کان» khā-، khani- و khāta- از ستاک khan- «کندن» است — همان خانواده‌ای که خود نورایی در یادداشت گرهٔ نخست («کن، خن، گن») به آن اشاره کرده — و khan- از *gʷʰen- «آماسیدن» نیست؛ بازتاب‌های سنسکریتِ *gʷʰen- نزد پوکورنی ā-ghaná- و ghaná- «انبوه، توده» است. صفحهٔ چاپی هم عیناً «ğanâ» دارد، پس خطای خوانش اسکن نیست بلکه صورتِ خودِ کتاب است. دوم، khaṇḍa «پاره، تکه؛ قند» واژه‌ای راستین و در واقع سرچشمهٔ «قند» و candy است، ولی هندواروپایی موروثی نیست: فرهنگ AHD آن را «شاید از خاستگاه موندا» و کلاین (ص۲۳۰-۲۳۱) آن را «احتمالاً دراویدی، قس تامیلی kaṇṭu قند و kaṭṭu سفت شدن» می‌داند. پس پژوهش امروزی پیوند این شاخه را به ریشهٔ *gʷʰen- رد می‌کند.",
+          "error_in": "book",
+          "book_prints": "ğanâ : ditch",
+          "correct_form": "Skt khā-/khani-/khāta- 'ditch, pit' (from khan- 'to dig')",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=candy"
+          ],
+          "ref_check": [
+            {"ref": "PRT:75", "status": "not_checked", "note": "Partridge, Origins (1958) is lending-only on archive.org (refs_online.json kind 'archive_restricted'); no readable copy here, so his page 75 could not be checked."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny p.491 s.v. gʷhen-", "stance": "contradicts", "note": "The Sanskrit reflexes Pokorny lists are 'a-ghaná- ‚schwellend, strotzend, üppig‘, ghaná- ‚dicht, dick‘, m. ‚kompakte Masse‘' — neither a word for 'ditch' nor khaṇḍa."},
+            {"src": "KLN", "where": "Klein, A Comprehensive Etymological Dictionary, pp. 230-231 s.v. candy", "stance": "contradicts", "note": "'... fr. Arab. qandi ... adj. formed fr. qand “cane sugar”, which, like OI. khaṇḍakaḥ “candy”, is prob. of Dravidian origin. Cp. Tamil kaṇṭu “candy”, kaṭṭu “to harden, condense”.'"},
+            {"src": "AHD", "where": "American Heritage Dictionary online, s.v. candy", "stance": "contradicts", "note": "'... from qand, lump of crystallized sugar, from an Indic source akin to Pali kaṇḍa-, from Sanskrit khaṇḍakaḥ, from khaṇḍaḥ, piece, fragment, perhaps of Munda origin.'"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "qand «قند»",
+          "verdict": "confirmed",
+          "derivation": "Persian قند qand 'loaf/crystallised cane sugar' does come from Sanskrit khaṇḍa- 'piece, lump (of sugar)', as Nourai draws — the transmission being the sugar trade out of India from Sasanian times on (Persia had cane-sugar refining at Gondēšāpur by the 6th c.). The refinement modern sources add is the shape of the word: the older Persian form is کند kand (with k-), the direct rendering of Skt khaṇḍa; قند with q- is the Arabicised spelling that came back into Persian from Arabic. Mo'in says exactly this in the page Nourai cites: 'قند - بفتح اول. معرّب «کند» از اصل هندی است. در سانسکریت khaṇḍa بمعنی مطلق قطعه یا پاره، مخصوصاً پارهٔ قند'; Wiktionary's Persian entry likewise: 'Borrowed from Arabic قَنْد (qand), displacing older کند (kand)', while the Arabic entry has 'From Persian کند (kand)'. Nourai's derived forms قنداغ، قنداب، قنددان، قندران are ordinary Persian compounds of qand, and the Hāfez couplet he quotes ('که حاجتت به علاج گلاب و قند مباد') attests the word.",
+          "derivation_fa": "«قند» فارسی به معنی «شکر بسته و کلوخه‌شده» چنان‌که نورایی رسم کرده از سنسکریت khaṇḍa «پاره، تکه (قند)» است و راه انتقالش بازرگانی نیشکر از هند بوده است (پالایش نیشکر در گندی‌شاپور از سدهٔ ششم میلادی رواج داشت). تنها نکته‌ای که پژوهش امروزی می‌افزاید صورت واژه است: صورت کهن‌تر فارسی «کند» (با ک) است که برگردان مستقیم khaṇḍa است و «قند» با «ق» صورت معرّب آن است که از عربی به فارسی بازگشته. معین در همان صفحه‌ای که نورایی ارجاع داده می‌نویسد: «قند ... معرّب کند از اصل هندی است. در سانسکریت khaṇḍa بمعنی مطلق قطعه یا پاره، مخصوصاً پارهٔ قند»؛ ویکی‌واژه نیز همین را می‌گوید. مشتق‌های قنداغ، قنداب، قنددان و قندران ترکیب‌های عادی فارسی‌اند و بیت حافظ گواه کاربرد واژه است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%82%D9%86%D8%AF",
+            "https://www.etymonline.com/word/candy"
+          ],
+          "ref_check": [
+            {"ref": "BQT:1544", "status": "supports", "note": "ref_page.py BQT:1544 (v3), Mo'in's footnote s.v. قند: 'قند - بفتح اول. معرّب «کند» از اصل هندی است. در سانسکریت khaṇḍa بمعنی مطلق قطعه یا پاره، مخصوصاً پارهٔ قند یا تکهٔ قند. همین کلمه وارد زبانهای اروپایی شده: candi (ف)، candy (انگ)، Kandis (آلم)، candito (ایتالیایی) ... «هرمزدنامه ص۲۳۷»' — the whole chain Nourai draws, in the very page he cites."}
+          ],
+          "consulted": [
+            {"src": "PLA", "where": "Asbaghi, Persische Lehnwörter im Arabischen, p. 221", "stance": "supports", "note": "'qand: „Kandis“ ← pers. کند kand; skr. khand; frz. candi, engl. candy, dtsch. Kandis.'"},
+            {"src": "HRN", "where": "Horn, Grundriss, searched qand / Zucker", "stance": "silent", "note": "Horn's Grundriss treats inherited Iranian vocabulary; qand is not among his entries."},
+            {"src": "ARY", "where": "ARY_pages.txt, searched قند as headword", "stance": "silent", "note": "No headword قند in Aryanpur."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "qandat",
+          "verdict": "confirmed",
+          "derivation": "Arabic قَنْد qand 'solidified cane-sugar juice, rock sugar' is a Persian loanword, exactly as the arrow says, and it is the form from which the European words were taken (through the nisba adjective قَنْدِيّ qandī in the phrase سُكَّر قَنْدِيّ sukkar qandī 'sugar in lumps'). Addi Shir: '(القند) عسل قصب السكر اذا جمد، معرّب کند' ('al-qand: the juice of sugarcane when it has set, Arabicised from [Persian] kand'); Asbaghi p.221 the same. Nourai's citation form 'qandat' is the noun with tā' marbūṭa (قَنْدَة, a single lump), a legitimate variant but not the usual dictionary headword — Klein and AHD cite qand and the adjective qandī. Klein p.230-31 differs from Nourai on one point only: he does not name Persian as the intermediary, taking Arab. qand straight to a Dravidian source.",
+          "derivation_fa": "«قَنْد» عربی به معنی «عسل نیشکر چون ببندد، شکر کلوخه» دقیقاً چنان‌که نورایی نشان داده وام‌واژه‌ای از فارسی است و همین صورت است که از راه صفت نسبی «قَنْدیّ» در ترکیب «سُکَّر قَنْدیّ» به زبان‌های اروپایی رفته است. ادّی شیر در «الالفاظ الفارسیة المعرّبة» می‌نویسد: «(القند) عسل قصب السکر اذا جمد، معرّب کند»؛ اصبغی نیز در «وام‌واژه‌های فارسی در عربی» (ص۲۲۱) همین را می‌آورد. صورتی که نورایی نوشته («qandat») همان «قَنْدة» با تای گرد است — گونه‌ای درست ولی نه صورت سرمدخلی. کلاین تنها در یک نکته با نورایی اختلاف دارد: او واسطهٔ فارسی را نام نمی‌برد و قندِ عربی را یکسره به خاستگاهی دراویدی می‌رساند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%82%D9%86%D8%AF",
+            "https://www.ahdictionary.com/word/search.html?q=candy"
+          ],
+          "ref_check": [
+            {"ref": "KLN:231", "status": "partial", "note": "KLN_1966.txt leaf 132 (printed pp. 229-231), s.v. candy: 'Shortened fr. sugar candy, fr. F. (sucre) candi, fr. It. (zucchero) candi(to), “sugar candy”, fr. Arab. qandi, “crystallized, candied”, adj. formed fr. qand, “cane sugar”, which, like OI. khaṇḍakaḥ, “candy”, is prob. of Dravidian origin.' Klein confirms the Arabic word and the route onward to French/English, but does not make Arabic borrow it from Persian, and rejects the Indo-European origin of the whole group."}
+          ],
+          "consulted": [
+            {"src": "PLA", "where": "Asbaghi, Persische Lehnwörter im Arabischen, p. 221 (PLA_pages.txt leaf 236)", "stance": "supports", "note": "'qand: „Kandis“ ← pers. kand ← skr. khand' — Arabic qand explicitly classed as a Persian loanword."},
+            {"src": "AFM", "where": "Addi Shir, Kitab al-Alfaz al-Farisiyya al-Mu'arraba (AFM_alt.txt line 5095)", "stance": "supports", "note": "'(القند) عسل قصب السكر اذا جمد معرب کند وهو قصب السكر' — 'Arabicised from kand'."},
+            {"src": "LKT", "where": "Lokotsch, Etymologisches Wörterbuch, entry 1052 (printed p. 86)", "stance": "supports", "note": "'1052. Ar. kandī: Adj. zu kand nach ar. Originalwörterbüchern „eingedickter Zuckerrohrsaft“ ... hieraus it. zucchero candi, frz. sucre candi, sp. azúcar cando, dtsch. Kandiszucker, ndl. kandij, engl. candy ...'"}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box for the Romance stage, and it is correctly placed: the Arabic phrase سُكَّر قَنْدِيّ sukkar qandī reached the West through the Mediterranean sugar trade as Italian zucchero candi(to) and Old French (su)cre candi 'sugar candy' (13th c.), whence the French verb candir 'to candy'. Klein: 'fr. F. (sucre) candi, fr. It. (zucchero) candi(to), “sugar candy”, fr. Arab. qandi'; AHD: 'partial translation of Old French sucre candi, ultimately from Arabic sukkar qandī'. Lokotsch no. 1052 lists the same set (frz. sucre candi, it. zucchero candi, dtsch. Kandiszucker).",
+          "derivation_fa": "این جعبهٔ خالی حلقهٔ رومانسِ زنجیره است و درست جای گرفته: ترکیب عربی «سُکَّر قَنْدیّ» از راه بازرگانی شکر در مدیترانه به ایتالیایی zucchero candi(to) و فرانسهٔ کهن (su)cre candi «قند» (سدهٔ سیزدهم میلادی) رسید و از آن فعل فرانسوی candir «قندپوش کردن» ساخته شد. کلاین و فرهنگ AHD و لوکوچ (شمارهٔ ۱۰۵۲) هر سه همین را می‌گویند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/candy"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this box; the link is covered by the references on the adjacent Arabic and English boxes (KLN:231, AHD:196)."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, pp. 230-231 s.v. candy", "stance": "supports", "note": "'fr. F. (sucre) candi, fr. It. (zucchero) candi(to), “sugar candy”, fr. Arab. qandi ... F. candir, “to candy”.'"},
+            {"src": "LKT", "where": "Lokotsch entry 1052 (p. 86)", "stance": "supports", "note": "'hieraus it. zucchero candi, frz. sucre candi ... dazu die Vb. it. candire, frz. candir „überzuckern“.'"}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "candy",
+          "verdict": "confirmed",
+          "derivation": "English candy is first recorded in the late 13th century as (sugre-)candi 'crystallised cane sugar', shortened from sugar candy, a partial translation of Old French sucre candi < Italian zucchero candi(to) < Arabic sukkar qandī < qand < Persian kand/qand < Sanskrit khaṇḍa. Etymonline: 'late 13c., “crystallized sugar”, from Old French çucre candi “sugar candy”, ultimately from Arabic qandi, from Persian qand “cane sugar”, probably from Sanskrit khanda “piece (of sugar)”'; AHD (Nourai's own reference, p.196 of the 1975 New College edition) prints the same bracket. The verb 'to candy' is a later back-formation from candi, which was mistaken for a past participle (Klein). The American widening of the sense from 'crystallised sugar' to any sweet dates from the late 19th century.",
+          "derivation_fa": "واژهٔ انگلیسی candy نخستین بار در اواخر سدهٔ سیزدهم میلادی به صورت (sugre-)candi «شکر بلورین» ثبت شده که کوتاه‌شدهٔ sugar candy است و آن نیز برگردان نیمه‌ترجمه‌ای از فرانسهٔ کهن sucre candi < ایتالیایی zucchero candi(to) < عربی «سُکَّر قَنْدیّ» < «قَنْد» < فارسی کند/قند < سنسکریت khaṇḍa است. اتیمآنلاین و فرهنگ AHD (همان مرجعی که نورایی داده) هر دو همین زنجیره را می‌آورند. فعل to candy بعدها با گَشتِ واژگانی از candi ساخته شد که آن را صفت مفعولی پنداشتند (کلاین). گسترش معنایی آن در آمریکا از «شکر بلورین» به هر شیرینی از اواخر سدهٔ نوزدهم است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/candy",
+            "https://www.ahdictionary.com/word/search.html?q=candy"
+          ],
+          "ref_check": [
+            {"ref": "AHD:196", "status": "supports", "note": "Nourai's AHD numbers below 1505 are pages of the 1975 New College main dictionary, where 'candy' falls on p.196. The 1975 text is not open online, but the current AHD entry (ahdictionary.com, archived) carries the same etymology: '[Middle English candi, crystallized cane sugar, short for sugre-candi, partial translation of Old French sucre candi, ultimately from Arabic sukkar qandī : sukkar, sugar + qandī, consisting of sugar lumps (from qand, lump of crystallized sugar, from an Indic source akin to Pali kaṇḍa-, from Sanskrit khaṇḍakaḥ, from khaṇḍaḥ, piece, fragment, perhaps of Munda origin).]'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein, pp. 230-231 s.v. candy", "stance": "supports", "note": "'candy, n., crystallized sugar. — Shortened fr. sugar candy, fr. F. (sucre) candi ... fr. Arab. qandi'; and 'candy, tr. and intr. v. ... back formation fr. candi, “sugar candy”, which was mistaken for a past participle.'"},
+            {"src": "SKT", "where": "Skeat, Concise Etymological Dictionary, searched CANDY", "stance": "silent", "note": "The concise edition has no separate 'candy' entry (only 'Sugar. (F. — Span. — Arab. — Pers. — Skt.)'), so Skeat is silent here."},
+            {"src": "FSD", "where": "Funk & Wagnalls New Standard Dictionary vol. 1, searched candy", "stance": "silent", "note": "The OCR of vol. 1 does not yield a readable bracketed etymology for the headword candy."}
+          ]
+        }
+      ]
+    }
+  ]
+}
