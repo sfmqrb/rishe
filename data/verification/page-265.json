@@ -1,0 +1,648 @@
+{
+  "pdf_page": 265,
+  "book_page": 235,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Keuk 1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ḱewk- (Pokorny keuk-) 'to shine, be bright, be white; glow, burn'",
+      "note": "Pokorny IEW 597 has the root under exactly this shape and gloss — 'keuk- ‘leuchten, hell, weiß sein, glühen’' — and its material is almost literally Nourai's chart: 'av. saočint- „brennend“, saočayeiti, npers. sōxtan, av. upa-suxta-, ātrə-saoka- m. „Feuerbrand“, np. sōg „Trauer“ (arm. sug ist iran. Lw.); av. suxra-, np. surx „rot“; gr. κυκνος „Schwan“ als „der Weiße“'. Watkins/AHD gives the same root ('keuk-. To be white, be bright, shine'), and Wiktionary reconstructs *ḱewk- for the Persian words. Language label and gloss are therefore both right; the only reservation is that Cheung (2007: 339 s.v. *sauc₁) warns 'The IE origin of *sauc cannot be ascertained, perhaps it is a “Reimbildung” with *rauc', i.e. the Iranian branch of the root is safer than the PIE reconstruction itself.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *ḱewk- «درخشیدن، سپید و روشن بودن، سوختن»؛ پوکورنی (ص ۵۹۷) دقیقاً با همین صورت و همین معنی آن را آورده و مواد آن (اوستایی saok-/saoč-، suxra-، ātrə-saoka-، upa-suxta-، فارسی نو سوختن، سوگ، سرخ و یونانی kýknos) همان است که نورایی در نمودار آورده است. واتکینز (فرهنگ ریشه‌های هندواروپایی) نیز همین ریشه را با معنی «سپید بودن، درخشیدن» ثبت کرده است. تنها احتیاط این است که چونگ (۲۰۰۷) خاستگاه هندواروپایی ستاک ایرانی *sauc را قطعی نمی‌داند. در مجموع ادعای نورایی دربارهٔ ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AE%D8%AA%D9%86",
+        "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%AE",
+        "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF",
+        "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:597",
+          "status": "supports",
+          "note": "POK_02.txt ↵-page 257/258 (printed 597): 'keuk- ‚leuchten, hell, weiß sein, glühen‘. Ai. śócati ... av. saošint- ‚brennend‘, saočayeiti ‚inflammat = incitat‘, npers. sōxtan ‚anzünden, verbrennen‘, av. upa-suxta- ‚angezündet‘, ātrə-saoka- m. ‚Feuerbrand‘, np. sōg ‚Trauer, Kummer‘ (arm. sug ‚Trauer‘ ist iran. Lw.); av. suxra- ‚leuchtend (vom Feuer)‘, np. surx ‚rot‘; gr. κυκνος ‚Schwan‘ als ‚der Weiße‘. WP. I 378.' Grep: awk RS=\"\\f\" NR==257,258 POK_02.txt."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. I 378 (WLD_Bd1_pages.txt leaf 386)",
+          "stance": "supports",
+          "note": "'keuq- ‚leuchten, hell, weiß sein, glühen‘. Ai. śócati ... av. saocant- ‚brennend‘, saocayati ‚inflammat = incitat‘, npers. sōxtan ‚anzünden, verbrennen‘' — the entry Pokorny 597 refers back to (WP. I 378)."
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt line 628",
+          "stance": "supports",
+          "note": "'keuk-. To be white, be bright, shine. Suffixed zero-grade form *kuk-no- in Greek kuknos, swan: CYGNET, CYGNUS. [Pok. keuk- 597.]'"
+        },
+        {
+          "src": "CHEUNG",
+          "where": "p. 339 s.v. *sauc₁",
+          "stance": "partial",
+          "note": "Gives the Iranian root ('*sauc₁ to burn, emit flames', Av. saoc-, MP swc-/sōxtan, NP soxtan/sōz-, Skt. śoc) with 'Pok.: 597', but adds 'The IE origin of *sauc cannot be ascertained'."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, keuk- section (IEC.txt lines 7101-7127)",
+          "stance": "silent",
+          "note": "Mann's keuk-/keukos entries are all 'top, peak, tuft', 'curl up', 'howl' — no 'shine/white' root; grep 'keuk' in IEC.txt returns nothing relevant."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "saoč, sauk, saux; saoka; suxra; suxra-vard; aiwi-saoka; upa-suxta, âtra-saoka, saočint",
+          "verdict": "plausible",
+          "derivation": "The Avestan verb is saok-/saoč- 'to burn, be in bright flame' (Bartholomae AiW col. 1548: 'in lichter Flamme brennen, flammen', pres. part. saocint- V.9.56 saočintə paiti āθrə, caus. saočayat Y.32.14); Nourai's three shapes saoč / sauk / saux are the full grade, the k-variant of the same root, and the zero grade *suk- > sux- that appears in suxra- and upa-suxta-. suxra- 'red, glowing (of fire)' is real (AiW 1583, V.2.8 'āθrəmča suxrəm saočintəm'), and upa-suxta- 'kindled', ātrə-saoka- 'firebrand' and saocant-/saočint- 'burning' are all listed together at Pokorny 597. Two items are not attested Avestan words, however: (a) 'suxra-vard ‚red rose”' is nowhere in Bartholomae — Av. varəδa- is itself only a doubtful plant name (AiW 1362 '2) Name einer Pflanze, vll. ‚Rose‘'); the compound is Farahvashi's reconstruction *suxra-varda- posited to explain the toponym Sohravard (IRN 128). (b) 'aiwi-saoka ‚burn in regret‘' is Darmesteter's conjecture *aiwi-çaoca- (Ét. ir. II 131, 'afçôç suppose une forme zende *aiwi-çaoca'), and Horn (Grundriss no. 101) rejected it outright. Also, the simplex saoka- glossed 'flame' is in Bartholomae only saoka- n./saokā- f. 'Nutzen, Vorteil' (advantage); the 'flame' sense belongs to the compound ātrə-saoka-.",
+          "derivation_fa": "ستاک اوستایی saok-/saoč- «سوختن، شعله‌ور بودن» (بارتولومه، ستون ۱۵۴۸؛ اسم فاعل saočint- و سببی saočayeiti) از ریشهٔ هندواروپایی *ḱewk- است؛ سه صورتی که نورایی آورده (saoč / sauk / saux) به‌ترتیب پایهٔ کامل، گونهٔ k‌‌دار و پایهٔ صفر *suk- > sux- است که در suxra- «سرخ، فروزان» و upa-suxta- «افروخته» دیده می‌شود؛ این‌ها همه در بارتولومه و پوکورنی (ص ۵۹۷) گواه دارند. اما دو مورد در نمودار واژهٔ اوستایی گواهیده نیست: «suxra-vard» (گل سرخ) در فرهنگ بارتولومه نیامده و بازسازی فره‌وشی برای نام سهرورد است، و «aiwi-saoka» تنها حدس دارمستتر (مطالعات ایرانی، ج ۲، ص ۱۳۱) برای توضیح «افسوس» است که هرن آن را رد کرده است. افزون بر این، saoka- در اوستا به معنی «سود، بهره» است و معنی «شعله» تنها در ترکیب ātrə-saoka- دیده می‌شود. بنابراین این گره «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AE%D8%AA%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%AE",
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:597",
+              "status": "supports",
+              "note": "Printed p.597 lists 'av. saošint- ‚brennend‘, saočayeiti ... av. upa-suxta- ‚angezündet‘, ātrə-saoka- m. ‚Feuerbrand‘ ... av. suxra- ‚leuchtend (vom Feuer)‘' — four of Nourai's six items verbatim."
+            },
+            {
+              "ref": "HRN:161,165",
+              "status": "supports",
+              "note": "Horn, Grundriss, no. 730 (p.161) 'surḵ, Suhrāb, Suhr-esp ... ap. Оuxra- (N. pr.); aw. suḵra- ‚rot‘; phlv. suḵr; ai. śukrá-' and no. 750 (p.165/166) 'sōxten ‚anzünden, verbrennen‘ ... aw. √saoc-, saočayahi ‚anzünden‘, ātarə-saoka- ‚Feuerbrand‘, saocant- ‚brennend‘'. (leaf = printed + 22 in HRN.txt)"
+            },
+            {
+              "ref": "IRN:128",
+              "status": "partial",
+              "note": "Farahvashi, Iranvij p.128 (IRN_pages.txt pdf 139) has the vard/rose material and reconstructs 'جزء اول کلمهٔ سهرورد suxra-varda ... و سهرورد بمعنی سرخ گل است', i.e. he posits the compound rather than citing an attested Avestan suxra-vard."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW cols. 1548 (saok-), 1551 (saokənta-vant-), 1583 (suxra-), 1362 (varəδa-), 1546 (saoka-)",
+              "stance": "partial",
+              "note": "Confirms 'j. saok- ‚in lichter Flamme brennen, flammen‘: saočintə paiti āθrə V.9.56; āθrəmča suxrəm saočintəm V.2.8' and 'j., g. suxra- Adj. ‚rot‘, vom Feuer', but has no compound suxra-varəδa- and no aiwi-saoka-; saoka- is glossed 'Nutzen, Vorteil'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 730 p.161, no. 750 p.165-166, no. 101 p.23-24",
+              "stance": "partial",
+              "note": "Supports suxra- and saoc-, but at no. 101 explicitly kills the aiwi-saoka etymology: 'Darmesteter's Erklärung, Ét. ir. II, 131 aus aw. *aiwisaoca- ist unhaltbar, da aw. č im Np. nicht zu s werden kann.'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 339 s.v. *sauc₁",
+              "stance": "supports",
+              "note": "'*AVESTAN: saoc- ‚to burn” ... Partic.: pres. them. YAv. saocint- (V); Caus. ... OAv. saocaiiat (Y 32.14)' — the same paradigm Nourai charts."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sŭxtan «سوختن»; sŭk «سوک ۱ ( سوگ ۱ )»; sorx «سرخ ( سرخاب ، سهراب )»; Sohrvard «سُهروَرد»; afsŭs «افسوس» (+ سوزش ، سوزان ، سوزاک ، سوز ، جانسوز)",
+          "verdict": "disputed",
+          "derivation": "Four of the five words are sound; the fifth (afsŭs) and one gloss are not. (1) سوختن sŭxtan/sŭz- < MP sōxtan, sōz- [swhtn', swc-] (MacKenzie 78; Nyberg II 3465 'sōxtan [swhtn'] sōc- to burn — Av. saok-') < Old Iranian *sauk-ta- / pres. *sauk-a-; Abolghasemi (FFD 61) states it exactly so: 'سوخت ← فارسی میانه sōxt ← ایرانی باستان *sauk-ta ... ریشهٔ sauk به معنی سوختن است' and 'سوز ← فارسی میانه sōz ← ایرانی باستان *sauk-a'; the -k- + -t- > -xt- development is the regular Iranian one, and the extra words سوز، سوزش، سوزان، سوزاک، جانسوز are all built on that present stem. (2) سوگ/سوک sōg 'mourning' < MP sōg [swk'] < OP *θauga(h) < PIr *cawkah, cognate with Skt śóka- 'flame; grief' — the 'burning > grief' shift is already Indo-Iranian; Arm. sug 'grief' is an Iranian loan (Pokorny 597; Mo'in's footnote at BQT 1190 gives exactly this, citing Horn). (3) سرخ sorx < earlier سهر suhr < MP suxr/suhr [swhl] < OP *θuxra- (cf. the Achaemenid PN Ouχra-), sister-form of Av. suxra-; NP sorx shows metathesis of suhr, while سرخاب and سهراب Sohrāb keep the older shape — Borhan-e Qāteʿ p.1195 s.v. سهراب: 'اصل سُهراو (او سرخ)' and 'سرخاب Surxāb = سرخ suxra + آب'. (4) سهرورد Sohrvard is indeed *suxra-varda- 'red rose', but Nourai's gloss 'a town near Tehran' is wrong: his own source Farahvashi (IRN 128) says 'نام سهرورد که روستایی است از روستاهای زنجان و محل تولد شیخ اشراق شهاب‌الدین سهروردی است' — Sohravard is in Zanjan; the rose-village near Tehran that Farahvashi mentions on the same page is وردآورد Vard-āvard. (5) افسوس afsŭs: Nourai follows Darmesteter (Ét. ir. II 131, *aiwi-çaoca- 'the insult burns'), but Horn (no. 101) rejects it because Avestan č cannot yield NP s, Hübschmann (PSt. 101) calls the word unexplained, and Nyberg (Manual II, p. 536) derives MP afsōs/apa-sōs [ʾapsws] 'derision, mockery' from apa- + Av. srav- 'to speak' instead. MacKenzie also glosses MP afsōs 'scorn, mockery', not 'regret' — the sense 'alas, regret' is a later New Persian development.",
+          "derivation_fa": "چهار واژه از پنج واژهٔ این گره درست است و یکی نه. «سوختن» از فارسی میانهٔ sōxtan (ستاک حال sōz-) و آن از ایرانی باستان *sauk-ta-؛ ابوالقاسمی در «فعل‌های فارسی دری» (ص ۶۱) همین را می‌گوید: «سوخت ← فارسی میانه sōxt ← ایرانی باستان *sauk-ta». مشتق‌های سوز، سوزش، سوزان، سوزاک و جانسوز همه بر ستاک حال sōz- < *sauk-a- ساخته شده‌اند. «سوگ» از فارسی میانهٔ sōg، از ایرانی باستان *θauga-، هم‌ریشه با سنسکریت śóka- «شعله؛ اندوه»؛ تحول معنایی «سوختن ← اندوه» از دورهٔ هندوایرانی است و «سوگ» ارمنی (sug) وام‌واژهٔ ایرانی است. «سرخ» شکل قلب‌شدهٔ suhr است، از فارسی میانهٔ suxr/suhr و ایرانی باستان *θuxra-؛ صورت کهن‌تر در «سرخاب» و «سهراب» مانده است (حاشیهٔ برهان قاطع، ص ۱۱۹۵). «سهرورد» به‌درستی از *suxra-varda- «گل سرخ» است، اما توضیح نورایی که آن را شهری «نزدیک تهران» خوانده نادرست است؛ خودِ منبع او (ایرانویج، ص ۱۲۸) می‌گوید سهرورد روستایی از روستاهای زنجان و زادگاه شهاب‌الدین سهروردی است و روستای نزدیک تهران «وردآورد» است. سرانجام «افسوس»: نورایی از دارمستتر پیروی کرده که آن را از *aiwi-çaoca- می‌گیرد، ولی هرن این را رد کرده است («č اوستایی در فارسی به s بدل نمی‌شود») و هوبشمان نیز آن را توضیح‌ناشده می‌داند؛ نیبرگ آن را از apa- + srav- «گفتن» می‌گیرد و معنی فارسی میانهٔ afsōs «ریشخند، تمسخر» است نه «دریغ». پس پژوهش امروزی این بند را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AE%D8%AA%D9%86",
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%AE",
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF",
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1183",
+              "status": "supports",
+              "note": "Borhan-e Qāteʿ p.1183 (BQT_v2_pages.txt leaf 647), Mo'in's footnote on سوختن: 'اوستا ریشهٔ suk / saok- (روشن کردن)، saoka- (شعلهٔ آتش)، suxta- (سوخته)؛ پهلوی sōc(i)šn, sōxtan؛ هندی باستان śoca-؛ کردی sōtin' — exactly Nourai's arrow."
+            },
+            {
+              "ref": "BQT:1189",
+              "status": "supports",
+              "note": "p.1189/1190 (leaves 653-654), Mo'in on سوگ: 'هرن این کلمه را در فارسی sōg ضبط کرده، قی: اوستا ātarə-saoka- (شعلهٔ آتش)، هندی باستان śoka- بمعنی اذیت، درد، اندوه و عزا ... ارمنی sug (اندوه و عزا)'. (page fixed by the catch-line 'بقیه در صفحهٔ ۱۱۹۰' at the foot of leaf 653)"
+            },
+            {
+              "ref": "BQT:1195",
+              "status": "supports",
+              "note": "p.1195 (leaf 659, headword سهراب): 'سهراب ... اصل سُهراو (او سرخ)' and footnote 'سرخاب Surxāb (م.م.) از: ۱ سرخ (suxra) + ۲ آب' — supports sorx/سرخاب/سهراب, but has no entry سهرورد."
+            },
+            {
+              "ref": "DRM:131",
+              "status": "supports",
+              "note": "Darmesteter, Études iraniennes II p.131 (DRM.txt leaf 517): 'afçôç suppose une forme zende *aiwi-çaoca ... Çaoca, raillerie, vient de la même racine que çaoca, combustion : l'insulte brûle ... le zend çaoka, flamme, a eu sans doute aussi le sens de chagrin; car c'est le sens du persan çôg'. So the reference does say what Nourai's arrow says — but it is a claim Horn rejected two pages of scholarship later."
+            },
+            {
+              "ref": "IRN:128",
+              "status": "contradicts",
+              "note": "Iranvij p.128: 'وردآورد Vard-āvarda که روستایی است نزدیک تهران' vs 'نام سهرورد که روستایی است از روستاهای زنجان و محل تولد ... سهروردی'. Nourai has transferred 'near Tehran' from Vardāvard to Sohravard."
+            },
+            {
+              "ref": "FFD:61",
+              "status": "supports",
+              "note": "Abolghasemi, Feʿl-hā-ye Fārsi-ye Dari p.61 (pdf 66): 'سوخت ← فارسی میانه sōxt ← ایرانی باستان *sauk-ta ... ریشهٔ sauk به معنی (سوختن) است' and 'سوز ← فارسی میانه sōz ← ایرانی باستان *sauk-a'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD pp. 6, 78",
+              "stance": "partial",
+              "note": "'sōxtan, sōz- [swhtn', swc- | M swxt, swc-] burn', 'suxr [swhl | N surx] red', 'sōg [swh | N so(y)] ... add N ‘grief’' — all confirmed; but 'afsōs [ʾpsŵs | N ~] scorn, mockery', not 'regret'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual II, nos. 3465, 3574, 536",
+              "stance": "partial",
+              "note": "'sōxtan [swhtn'] sōc- ... Av. (1548 sq.) saok-; NP sōxtan sōz-' and 'suxr [swhl] red ... Av. (1582) suxra-; OP cf n. pr. Ouχra-; NP surx' support Nourai, but 'apa-sōs [ʾapsws] derision, mockery, scorn ... NP afsós; < OP apa-cauga- < OIr *apa-srauθra- from apa + Av. srav-' contradicts the afsŭs arrow."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 101 (p.23-24), no. 730 (p.161), no. 750 (p.165-166), no. 756 (p.167)",
+              "stance": "partial",
+              "note": "Supports sŭxtan, sorx and sōg ('756. sōg ‚Trauer, Kummer‘ ... aw. ātarə-saoka- ‚Feuerbrand‘; ai. śóka-; arm. sug'), but rejects afsŭs < *aiwi-saoca-."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien no. 101",
+              "stance": "contradicts",
+              "note": "'Np. afsos (afgh. LW. afsos ‘sorrow, regret’) wird auch von Fr. Müller, WZKM. 7, 367 nicht befriedigend erklärt.'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 339-340 s.v. *sauc₁",
+              "stance": "supports",
+              "note": "'*NWIR: Widely attested: NP soxtan/sōz-, Kurd. sotin/sož- ... *MIDDLE PERSIAN: MMP swc-, BMP swc- /sōz-/ ... Inf.: BMP swhtn /soxtan/'."
+            },
+            {
+              "src": "IRN",
+              "where": "Iranvij p.128",
+              "stance": "partial",
+              "note": "Supports Sohrvard = suxra-varda 'red rose' but places it in Zanjan, not near Tehran."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan",
+          "words": "saokenta; saokenta-vant",
+          "verdict": "confirmed",
+          "derivation": "Young Avestan saokənta-vant- is attested twice, in the Vendidad passage on the ordeal-water: Bartholomae AiW col. 1551 's. j. saokənta-vant- Adj. (fem. -vaiti-) ‚Schwefel enthaltend, mit Schwefel versetzt‘: āpəm -vaitim zaranyavaitim vīšuxavaitim V.4.54, 55'. The base saokənta- 'sulphur' is not separately attested in the Avesta but is guaranteed both by this -vant- derivative and by the Sogdian and Middle Persian nouns (Sogd. swkʼnt, MP sōgand), so it is a legitimate reconstruction, not an invention. Morphologically it is a -nt- formation on the same saok- 'to burn' as node #1 — sulphur is 'the burning stuff' — and Horn (no. 757, p.167) gives exactly this chain: 'sōgend ‚Eid‘ — aw. saokənta-vant- ‚Schwefel enthaltend‘ (vergl. Geldner, Studien I, 103)'. Nourai's gloss for the compound ('a drink mixed with sulfur') is a paraphrase of the Vendidad context (it qualifies āp- 'water'), not of the word itself, which means only 'containing sulphur'.",
+          "derivation_fa": "صفت اوستایی نو saokənta-vant- «دارای گوگرد، آمیخته به گوگرد» دو بار در وندیداد (۴.۵۴ و ۵۵) دربارهٔ آبِ سوگند به‌کار رفته است (بارتولومه، ستون ۱۵۵۱). خودِ اسم saokənta- «گوگرد» در متن‌های اوستایی به‌تنهایی نیامده، اما هم از همین مشتق و هم از صورت‌های سغدی swkʼnt و فارسی میانهٔ sōgand بازسازی‌شدنی است. ساخت واژه پسوند -nt- بر ستاک saok- «سوختن» است، یعنی «مادهٔ سوزان». هرن (شمارهٔ ۷۵۷، ص ۱۶۷) نیز همین زنجیره را می‌آورد. ادعای نورایی درست است؛ تنها معنی‌ای که برای ترکیب داده («نوشیدنی آمیخته به گوگرد») برگرفته از بافت وندیداد است نه از خودِ واژه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:167",
+              "status": "supports",
+              "note": "Horn, Grundriss no. 757, p.167 (HRN.txt leaf 189): 'sōgend ‚Eid‘. aw. saokənta-vant- ‚Schwefel enthaltend‘ (vergl. Geldner, Studien I, 103). LW. kurd. sōnd ‚Eid‘; bel. sauġind, sōgind.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 1551",
+              "stance": "supports",
+              "note": "'j. saokənta-vant- Adj. (fem. -vaiti-) ‚Schwefel enthaltend, mit Schwefel versetzt‘: āpəm -vaitim zaranyavaitim vīšuxavaitim V.4.54, 55'. (grep 'Schwefel' BRT.txt)"
+            },
+            {
+              "src": "SOD",
+              "where": "Gharib nos. 9044/9053 (p. ~365-366)",
+              "stance": "supports",
+              "note": "Gharib himself derives the Sogdian word from the Avestan one: 'soɣand ©<Av. saokənta ...' and 'sokand ©Av. saokənta-, Khwar. sknt'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 340 s.v. *sauč 'to call'",
+              "stance": "partial",
+              "note": "Notes the Iranian oath-phrase family ('Sogd. swkʼnt xwr-, MMP swgnd xwrdn, NP saugand xurdan, Kurd. sont xarin, etc., see Schwartz 1989: 293 ff.') without deciding the root."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "sogand «سوگند»",
+          "verdict": "confirmed",
+          "derivation": "NP سوگند sogand/sawgand 'oath' < MP sōgand [swknd], Manichaean MP swgnd, Pazand sawagand (Nyberg II 3460; MacKenzie 78 'sōgand [swknd | M swgnd, N sōgand] oath', with the collocation 'sōgand xwardan to swear an oath') < Old Iranian *saukanta- 'sulphur (water)' = Av. saokənta- of node #3. Phonetically the chain is regular: Av. -nt- > MP -nd- after a long vowel, Av. sao- > MP sō- > NP saw-/so-. Semantically the word is a fossil of the sulphur ordeal: the accused drank sulphurous water (Av. āp- saokənta-vaiti-, V.4.54-55) and was judged by the effect — which is why Persian still says سوگند خوردن 'to eat/drink an oath'. Nourai's NOTE says just this, and it is exactly Mo'in's footnote at BQT 1190: '... اورا معلوم می‌کردند. استعمال فعل «خوردن» با سوگند یادگار همین مفهوم است.' Wiktionary gives the same derivation ('From Middle Persian swknd (sōgand), from Avestan saokanta “sulphur”, from PIE *ḱewk-').",
+          "derivation_fa": "«سوگند» از فارسی میانهٔ sōgand [swknd] (فارسی میانهٔ مانوی swgnd، پازند sawagand؛ نیبرگ ۳۴۶۰، مکنزی ص ۷۸) و آن از ایرانی باستان *saukanta- «گوگرد» یعنی همان saokənta- اوستایی است. دگرگونی آوایی قاعده‌مند است: nt اوستایی پس از واکهٔ بلند در فارسی میانه به nd نرم می‌شود و sao- به sō- و سپس saw-/so- بدل می‌گردد. از نظر معنایی، واژه یادگار «وَرِ گوگرد» است: متهم آبِ آمیخته به گوگرد می‌نوشید و از واکنش تنش دربارهٔ راستگویی‌اش داوری می‌کردند؛ به همین سبب هنوز می‌گوییم «سوگند خوردن». یادداشت نورایی درست است و عیناً همان چیزی است که معین در حاشیهٔ برهان قاطع (ص ۱۱۹۰) نوشته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1190",
+              "status": "supports",
+              "note": "Borhan-e Qāteʿ p.1190 (BQT_v2_pages.txt leaf 654; fixed by its own catch-lines 'بقیه در صفحهٔ ۱۱۹۱' / 'بقیه از صفحهٔ ۱۱۸۹'): the سوگند footnote describes the sulphur ordeal — '... شدن آن از شکم با ماندن آب در شکم تقصیر وی ... اورا معلوم می‌کردند. استعمال فعل «خوردن» با سوگند یادگار همین مفهوم است' — i.e. the source of Nourai's NOTE."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD p.78 and Engl.-Pahl. p.114",
+              "stance": "supports",
+              "note": "'sōgand [swknd | M swgnd, N sōgand] oath'; 'swear (oath) sogand xwardan'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual II no. 3460",
+              "stance": "supports",
+              "note": "'sōkand [swknd] oath; ~ x͂artan to swear an oath ... Ps. swkndy; MPrs swgnd; Paz. sawagand (SGV); NP saugand.'"
+            },
+            {
+              "src": "HRN",
+              "where": "no. 757, p.167",
+              "stance": "supports",
+              "note": "'sōgend ‚Eid‘. aw. saokənta-vant- ‚Schwefel enthaltend‘.'"
+            },
+            {
+              "src": "BQT",
+              "where": "p.1190, Mo'in's footnote",
+              "stance": "supports",
+              "note": "Gives the ordeal explanation quoted above."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Sogdian",
+          "words": "swgnd, swk`nt",
+          "verdict": "confirmed",
+          "derivation": "Both forms are real Sogdian and both mean 'oath': Gharib's Sogdian Dictionary has no. 9044 'soɣand ©<Av. saokənta = *swɣnt xwr-, swkʼnt — oath — BBB p97 b47; GMS 250' and no. 9053 'sokand ©Av. saokənta-, Khwar. sknt = *swɣnt xwr-, swɣnd — oath', with references to the Buddhist, Manichaean and Christian Sogdian corpora (C2 23R24, 69R15-16; TSP 3.220; Schwartz, StIr Cahier 7, 293-5). swkʼnt is the Buddhist/Sogdian-script spelling of the same word whose Manichaean spelling is swɣnd, the ɣ being the lenited voiced continuant of intervocalic k. One correction to the arrow: Sogdian does not descend from Avestan — Sogdian sōkand and Avestan saokənta- are parallel Old Iranian inheritances of *saukanta-, and Sogdian preserves the older -nt-. The Sogdian idiom swkʼnt xwr- 'to eat an oath' matches MMP swgnd xwrdn and NP sogand xordan (Cheung 2007: 340, after Schwartz 1989).",
+          "derivation_fa": "هر دو صورت سغدی راست است و هر دو «سوگند» معنی می‌دهد: در فرهنگ سغدی قریب مدخل ۹۰۴۴ soɣand و مدخل ۹۰۵۳ sokand [swkʼnt] هر دو با ارجاع «© اوستایی saokənta-» و با شاهد از متن‌های بودایی، مانوی و مسیحی سغدی آمده‌اند. swkʼnt نگارش سغدیِ خط بودایی و swɣnd نگارش مانوی همان واژه است (ɣ صورت نرم‌شدهٔ k میان دو واکه). یک نکتهٔ اصلاحی: سغدی از اوستایی نمی‌آید؛ sokand سغدی و saokənta- اوستایی هر دو بازماندهٔ مستقلِ ایرانی باستان *saukanta- هستند و سغدی خوشهٔ nt کهن را نگاه داشته است. ترکیب سغدی swkʼnt xwr- «سوگند خوردن» دقیقاً با فارسی میانهٔ swgnd xwrdn و فارسی نو برابر است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%88%DA%AF%D9%86%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:365",
+              "status": "supports",
+              "note": "SOD_pages.txt leaf 432 (printed ≈ leaf − 66 = 366, i.e. Nourai's p.365 ±1) carries both entries: 'soɣand ©<Av. saokənta =*swɣnt xwr-, swkʼnt / oath / BBB p97 b47; GMS 250' (no. 9044) and 'sokand ©Av. saokənta-, Khwar. sknt =*swɣnt xwr-, swɣnd / oath' (no. 9053)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "p. 340",
+              "stance": "supports",
+              "note": "'On the Iranian expression for “to swear, take an oath”, as in Sogd. swkʼnt xwr-, MMP swgnd xwrdn, NP saugand xurdan, Kurd. sont xarin, etc., see Schwartz 1989: 293 ff.'"
+            },
+            {
+              "src": "BRT",
+              "where": "AiW col. 1551",
+              "stance": "partial",
+              "note": "Gives the Avestan saokənta-vant- that Gharib refers the Sogdian word to, but of course says nothing about Sogdian."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Greek",
+          "words": "kuknos",
+          "verdict": "plausible",
+          "derivation": "Greek κύκνος kýknos means 'swan' (Homer+); 'white' is not a meaning of the word but the etymological sense Pokorny assigns to it. Pokorny 597 closes the keuk- article with 'gr. κύκνος ‚Schwan‘ als ‚der Weiße‘', and Watkins/AHD formalises it as a suffixed zero-grade *kuk-no- — so Nourai's arrow is exactly his source's. Modern opinion is more reserved: Klein derives κύκνος not from *keuk- at all but calls it 'prob. of imitative origin. Cp. Russ. kykú ‚swan’s cry’', Beekes (quoted by Etymonline) says the word 'has been the subject of “abundant discussion”', and Wiktionary hedges: 'Perhaps from PIE *ḱewk- ‚white‘ ... Could also be onomatopoeic'. The formation *kuk-no- with -no- suffix is unobjectionable, but there is no Greek verb or adjective of the *keuk- family beside it, which is why the onomatopoeic account keeps its adherents.",
+          "derivation_fa": "واژهٔ یونانی kýknos تنها به معنی «قو» است (از هومر به بعد)؛ معنی «سپید» معنیِ ریشه‌شناختی‌ای است که پوکورنی به آن نسبت داده، نه معنی واژه. پوکورنی در پایان مدخل keuk- (ص ۵۹۷) می‌نویسد «یونانی kýknos ‚قو‘ یعنی ‚سپید‘» و واتکینز آن را صورت پسوندیِ درجهٔ صفر *kuk-no- می‌داند؛ پس نمودار نورایی دقیقاً برگرفته از منبع خودِ اوست. اما دیدگاه امروزی محتاط‌تر است: کلاین آن را برخاسته از تقلید آوایی (بانگ قو) می‌داند و بیکس آن را واژه‌ای پر‌بحث و بی‌ریشهٔ روشن می‌شمارد؛ ویکی‌واژه هر دو احتمال را در کنار هم می‌آورد. ساخت *kuk-no- ایرادی ندارد، ولی چون در یونانی هیچ فعل یا صفت هم‌خانوادهٔ *keuk- در کنار آن نیست، تبیین آوا‌بنیاد همچنان طرفدار دارد. پس این بند «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CE%BA%CE%BD%CE%BF%CF%82",
+            "https://www.etymonline.com/word/cygnet"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:597",
+              "status": "supports",
+              "note": "Printed p.597, last line of the keuk- article: 'gr. κυκνος ‚Schwan‘ als ‚der Weiße‘. WP. I 378. Erweiterung von 2. keu-.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins, s.v. keuk-",
+              "stance": "supports",
+              "note": "'Suffixed zero-grade form *kuk-no- in Greek kuknos, swan: CYGNET, CYGNUS.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966, s.v. cygnet",
+              "stance": "contradicts",
+              "note": "'... fr. Gk. κύκνος, ‚swan’, which is prob. of imitative origin. Cp. Russ. kykú, ‚swan’s cry’.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 378",
+              "stance": "silent",
+              "note": "The keuq- article as OCRed on leaf 386 lists the Indo-Iranian material; the Greek swan is not visible in the surviving text of that page."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "cygnet",
+          "verdict": "confirmed",
+          "derivation": "English cygnet 'young swan' is first attested c.1400 (also spelt signet before the 17th c.); it is Anglo-French cignet (mid-14c.) / Anglo-Latin cygnettus, a diminutive in -et of Old French cigne, cisne 'swan' (12c., ModFr. cygne), which was refashioned after Latin cygnus (a spelling variant of classical cycnus) from Vulgar Latin cicinus (attested in the Lex Salica) — hence Spanish and Portuguese cisne. Latin cycnus is itself the Greek loanword κύκνος. The chart's arrow Greek → English is therefore right in substance but skips two obligatory stages, Latin and (Anglo-)French, and the English word is a French diminutive formation, not a borrowing of the Greek word as such. The node carries no reference of its own in the book. Watkins/AHD lists CYGNET under keuk-.",
+          "derivation_fa": "واژهٔ انگلیسی cygnet «قوی جوان» از حدود ۱۴۰۰ م. گواهی شده است و وام‌واژه‌ای است از انگلیسی-فرانسویِ cignet (میانهٔ سدهٔ ۱۴)، صورت تصغیر با پسوند -et از فرانسویِ کهن cigne/cisne «قو» (فرانسوی امروز cygne)، که خود به‌پیروی از لاتینی cygnus (گونهٔ نوشتاری cycnus) بازآرایی شده و از لاتینی عامیانهٔ cicinus می‌آید؛ و cycnus لاتینی وام‌گیری از kýknos یونانی است. پس پیکان «یونانی ← انگلیسی» در نمودار از نظر محتوا درست است، ولی دو حلقهٔ ضروری (لاتینی و فرانسوی) را نادیده می‌گیرد و در واقع واژهٔ انگلیسی ساختی تصغیریِ فرانسوی است نه وام مستقیم از یونانی. این بند پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/cygnet",
+            "https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CE%BA%CE%BD%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "(none cited in the book)",
+              "status": "not_checked",
+              "note": "The node carries refs=None; the claim is nevertheless covered by Nourai's root reference POK:597 and by AHD s.v. keuk- ('CYGNET, CYGNUS')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966/1971, s.v. cygnet",
+              "stance": "supports",
+              "note": "'cygnet, n., a young swan. — Dimin. of F. cygne, ‚swan’ (refashioned after L. cygnus, a variant of cycnus), fr. OF. cisne, fr. VL. cicinus (which occurs in the Salic law), fr. L. cycnus, fr. Gk. κύκνος.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, s.v. CYGNET",
+              "stance": "supports",
+              "note": "OCR is damaged but legible in outline: 'cygnet, a young swan (F. − L.) ... of O.F. cisne, a swan ... that O.F. word is not from L. [cycnus] ... but the oldest O.F. form was cisne, from Low L. cicinus.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins, s.v. keuk- and index",
+              "stance": "supports",
+              "note": "'CYGNET keuk- / CYGNUS keuk-'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Khâč, Xâč 2",
+      "verdict": "confirmed",
+      "modern_form": "Old/Middle Armenian խաչ xačʿ 'cross, crucifix'",
+      "note": "The root box is right as a statement about where Persian خاج comes from: Old Armenian խաչ (xačʿ) 'crucifix, cross' is a well attested Armenian word, continued by Middle and Modern Armenian, and Mo'in tags the Persian word simply '[ارمن.]'. What the box does not say — and need not — is that the Armenian word's own origin is unsettled: Lidén connected it with Persian خاده xāda 'pole, stake', Lith. kótas, Latv. kāts and derived them all from PIE (so the original sense would be 'stake, upright pile', typologically like Gk σταυρός, Goth. galga, Parth. dār); Ačaṛеan accepts this and adds Arm. խոչ xočʿ and խեչ xečʿ as ablaut grades, while Olsen rejects it on phonetic grounds. Nourai's numbering 'Xâč 2' distinguishes it from a homograph elsewhere in the book.",
+      "note_fa": "این ریشه‌جعبه به‌عنوان بیانِ خاستگاه واژهٔ فارسی «خاج» درست است: խաչ (xačʿ) در ارمنی کهن به معنی «صلیب، چلیپا» واژه‌ای گواهیده و پرکاربرد است و در ارمنی میانه و امروزی نیز مانده است؛ معین هم در فرهنگ فارسی برای «خاج» تنها برچسب [ارمن.] گذاشته است. آنچه در جعبه نیامده (و نیازی هم نبوده) این است که خاستگاه خودِ واژهٔ ارمنی روشن نیست: لیدن آن را با «خادهٔ» فارسی (چوب، تیرک) و kótas لیتوانیایی سنجیده و همه را از هندواروپایی گرفته است — در این صورت معنی نخستین آن «تیرک، چوبِ برافراشته» بوده — و آچاریان این را پذیرفته، اما اولسن آن را از نظر آوایی رد می‌کند. شمارهٔ «۲» در نام ریشه برای جدا کردن آن از هم‌نگاشتِ دیگری در همین کتاب است. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D5%AD%D5%A1%D5%B9",
+        "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%AC",
+        "https://vajehyab.com/moein/%D8%AE%D8%A7%D8%AC",
+        "https://abadis.ir/fatofa/%D8%AE%D8%A7%D8%AC/"
+      ],
+      "ref_check": [
+        {
+          "ref": "MON:1384",
+          "status": "supports",
+          "note": "Mo'in, Farhang-e Fārsi s.v. خاج (read through vajehyab.com/moein and abadis.ir, both archived): '[ارمن.] (اِ.) ۱ - صلیب، چلیپا. ۲ - یکی از خال‌های ورق، گشنیز.' — the Armenian tag and both senses Nourai gives."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "HUB",
+          "where": "Persische Studien p.227",
+          "stance": "supports",
+          "note": "'Np. xāj ‚Kreuz‘ aus älterem *xāč = arm. xač ‚Kreuz‘ ist arm. LW.' (HUB.txt leaf 238; leaf = printed + 11)"
+        },
+        {
+          "src": "BQT",
+          "where": "Borhan-e Qāteʿ p.696, Mo'in's footnote 3",
+          "stance": "supports",
+          "note": "'خاج — بر وزن تاج، بمعنی چلیپا باشد که صلیب نصاری است'; footnote: 'از کلمهٔ قدیم خاج ... از ارمنی (صلیب)، هوبشمان ص ۲۲۷' — Mo'in's own note points at exactly Nourai's HUB:227."
+        },
+        {
+          "src": "MON",
+          "where": "vajehyab / abadis, s.v. خاج",
+          "stance": "supports",
+          "note": "'[ارمن.] (اِ.) ۱ - صلیب، چلیپا. ۲ - یکی از خال‌های ورق، گشنیز.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "xâj «خاج»",
+          "verdict": "confirmed",
+          "derivation": "NP خاج xāj 'cross' (also خاچ xāč) is a loan from Armenian xačʿ, taken over as *xāč and then subject to the Persian voicing of post-vocalic č to j that Hübschmann discusses in the same paragraph (§§116-117 of Persische Studien, where xāj stands beside nōj/nōz 'pine' = Arm. nočʿ and amāj = Arm. mač). Hübschmann p.227 states it in one line: 'Np. xāj ‚Kreuz‘ aus älterem *xāč = arm. xač ‚Kreuz‘ ist arm. LW.' Wiktionary agrees, specifying the intermediary: 'Borrowed from Middle Armenian խաչ (xačʿ, “cross”), from Old Armenian խաչ', with eight references including Hübschmann 1895:227, Horn's Grundriss der iranischen Philologie I/2:8 and Asatryan 1990. The card-suit sense that Nourai adds is genuine and secondary: the trefoil of the French clubs suit was read in Persian as a little cross, so Mo'in glosses '۲ - یکی از خال‌های ورق، گشنیز' and Wiktionary lists '(card games) club (♣)' first. Borhan-e Qāteʿ p.696 also records the further sense 'lobe of the ear' (نرمهٔ گوش), which is a separate word.",
+          "derivation_fa": "«خاج» (و گونهٔ «خاچ») وام‌واژه‌ای است از ارمنی xačʿ «صلیب»؛ نخست به‌صورت *xāč وارد فارسی شده و سپس č پایانی پس از واکه — بنا بر همان قاعده‌ای که هوبشمان در بندهای ۱۱۶ و ۱۱۷ «مطالعات فارسی» می‌آورد (مانند nōj/nōz در برابر nočʿ ارمنی) — به j بدل شده است. هوبشمان در ص ۲۲۷ به یک جمله می‌نویسد: «فارسی نو xāj ‚صلیب‘ از صورت کهن‌تر *xāč = ارمنی xač ‚صلیب‘؛ وام‌واژهٔ ارمنی است.» ویکی‌واژه نیز همین را می‌گوید و واسطه را ارمنی میانه می‌داند. معنی دومی که نورایی افزوده (خالِ گشنیزِ ورق) نیز راست و ثانوی است: نقشِ سه‌برگِ گشنیز در فارسی «خاج» یعنی صلیب کوچک خوانده شده است؛ معین هم آن را ثبت کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%AC",
+            "https://vajehyab.com/moein/%D8%AE%D8%A7%D8%AC",
+            "https://abadis.ir/fatofa/%D8%AE%D8%A7%D8%AC/",
+            "https://en.wiktionary.org/wiki/%D5%AD%D5%A1%D5%B9"
+          ],
+          "ref_check": [
+            {
+              "ref": "HUB:227",
+              "status": "supports",
+              "note": "'Np. xāj ‚Kreuz‘ aus älterem *xāč = arm. xač ‚Kreuz‘ ist arm. LW.' — verbatim, HUB.txt leaf 238 (printed p.227)."
+            },
+            {
+              "ref": "BQT:696",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 154 (printed 696, offset checked against the catch-lines at leaves 187/244): headword 'خاج — بر وزن تاج، بمعنی چلیپا باشد که صلیب نصاری است و آن باین شکل بود'; Mo'in's footnote 3: 'از کلمهٔ قدیم خاج ... از ارمنی (صلیب)، هوبشمان ص ۲۲۷'; the same page carries the Kamāl Esmāʿīl verse Nourai quotes."
+            },
+            {
+              "ref": "MON:1384",
+              "status": "supports",
+              "note": "Mo'in s.v. خاج: '[ارمن.] (اِ.) ۱ - صلیب، چلیپا. ۲ - یکی از خال‌های ورق، گشنیز.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p.696 and Mo'in's footnote",
+              "stance": "supports",
+              "note": "See ref_check; Borhan also gives the homonym 'نرمهٔ گوش'."
+            },
+            {
+              "src": "MON",
+              "where": "vajehyab.com/moein/خاج and abadis.ir s.v. خاج",
+              "stance": "supports",
+              "note": "'خاج. (ارمنی، اِ) بر وزن تاج بمعنی چلیپا باشد که صلیب نصاری است. (برهان) (آنندراج) (جهانگیری)' (Dehkhoda quoting Borhan) and Mo'in '[ارمن.] ... ۲ - یکی از خال‌های ورق، گشنیز'."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien p.227, §§116-117",
+              "stance": "supports",
+              "note": "Places xāj among the Armenian loans whose č became j in Persian, beside nōj 'pine' = arm. noč and amāj."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Khâd, Qhâd",
+      "verdict": "plausible",
+      "modern_form": "Indo-Iranian *khād- 'to chew, bite' (Walde-Pokorny's qhad-); PIE status contested",
+      "note": "Nourai's double name 'Khâd, Qhâd' comes straight from his two references: Walde-Pokorny I 341 sets up a root 'qhad- ‚beißen‘' with precisely his material — 'Ai. khādati ‚zerbeißt, kaut, ißt‘, khādan m. ‚Zahn‘, npers. xāyīdan ‚essen, kauen‘ (Hübschmann ZDMG. 38, 423, Horn Np. Et. 104, Uhlenbeck), arm. xacanem ‚beiße‘' — and it even cites Horn p.104, which is Nourai's reference on the Avestan node. But his other reference, POK:634, is the place where Pokorny withdrew the root: footnote 1 on that page reads 'Die bei WP. I 341, 348 f., 399 angeführten Wurzeln khād- ‚beißen‘, khabh- : khobh-, khen- sind nicht als idg. zu erweisen ... Ai. khādati ‚zerbeißt, kaut‘, npers. xāyad ds., könnte zu arm. xacanem ‚beiße‘ gehören, aber auch mit sekundärer expressiver Aspiration als *kȝnd- zu lit. kandù ‚beiße‘'. So the two references Nourai stacks contradict each other, and the label 'Indo-European' is the one his own POK:634 denies. Modern opinion is split rather than settled: Cheung (2007: 445) says 'An IE provenance for this Ir. root is uncertain', LIV assigns Skt khād to *kʷeh₂d- 'to squeeze out' (which Cheung finds 'semantically unlikely'), while Wiktionary, following Derksen, does give a PIE preform but a quite different one — *k(ʷ)end- or *k(ʷ)enHd(ʰ)- (the nasal shape Pokorny mentioned as the alternative). Verdict: the etymon 'to chew' is real and Indo-Iranian at least; its IE status and shape are contested, so 'plausible' rather than 'confirmed'.",
+      "note_fa": "نام دوگانهٔ «Khâd, Qhâd» یکسره از دو ارجاع خودِ نورایی می‌آید: والده-پوکورنی (ج ۱، ص ۳۴۱) ریشه‌ای با صورت qhad- «گاز گرفتن» می‌سازد و دقیقاً همین مواد را می‌آورد: «سنسکریت khādati ‚می‌جَوَد، می‌خورد‘، فارسی نو xāyīdan ‚خوردن، جویدن‘ (هوبشمان؛ هرن، ریشه‌شناسی فارسی نو، ص ۱۰۴)، ارمنی xacanem ‚می‌گزم‘». اما ارجاع دیگرِ او، پوکورنی ص ۶۳۴، همان جایی است که پوکورنی این ریشه را پس می‌گیرد: در پانوشت همان صفحه می‌نویسد ریشه‌های khād- «گاز گرفتن» و مانند آن «هندواروپایی بودنشان اثبات‌پذیر نیست» و می‌افزاید khādati سنسکریت و xāyad فارسی شاید به xacanem ارمنی مربوط باشند یا با «دمیدگیِ ثانوی» به kandù لیتوانیایی. پس دو ارجاعِ نورایی یکدیگر را نقض می‌کنند و برچسب «هندواروپایی» همان است که منبع خودش رد کرده است. پژوهش امروزی نیز یکدست نیست: چونگ (۲۰۰۷، ص ۴۴۵) خاستگاه هندواروپایی این ستاک ایرانی را نامسلم می‌داند و ویکی‌واژه به پیروی از درکسن صورت هندواروپاییِ دیگری (*k(ʷ)enHd-) بازسازی می‌کند. در مجموع: خودِ ریشه (به معنی «جویدن») دست‌کم هندوایرانی است، ولی هندواروپایی‌بودن و صورت آن محل اختلاف است — با احتیاط پذیرفتنی.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%DB%8C%DB%8C%D8%AF%D9%86"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:634",
+          "status": "contradicts",
+          "note": "POK_02.txt leaf 294 (printed 634), footnote: 'Die bei WP. I 341, 348 f., 399 angeführten Wurzeln khād- ‚beißen‘, khabh- : khobh- ‚kraftlos‘, khen- ‚graben‘ sind nicht als idg. zu erweisen' — i.e. Pokorny's page 634 explicitly denies the Indo-European status Nourai's root box asserts."
+        },
+        {
+          "ref": "WLD1:341",
+          "status": "supports",
+          "note": "WLD_Bd1_pages.txt leaf 349 (printed 341): 'qhad- ‚beißen‘. Ai. khādati ‚zerbeißt, kaut, ißt‘, khādan m. ‚Zahn‘, npers. xāyīdan ‚essen, kauen‘ (Hübschmann ZDMG. 38, 423, Horn Np. Et. 104, Uhlenbeck Ai. Wb. 75), arm. xacanem ‚beiße, pungo‘'. This is the source of Nourai's 'Qhâd' and of the whole chart."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "IEW p.634 n.1 (and p.630 ff. context)",
+          "stance": "contradicts",
+          "note": "See ref_check: the root is listed only to be rejected, with the alternatives arm. xacanem or lit. kandù."
+        },
+        {
+          "src": "WLD",
+          "where": "Bd. I 341",
+          "stance": "supports",
+          "note": "Sets up qhad- 'beißen' with Skt, NP and Armenian."
+        },
+        {
+          "src": "CHEUNG",
+          "where": "p. 445 s.v. *xād",
+          "stance": "partial",
+          "note": "'An IE provenance for this Ir. root is uncertain: the IE preform *kʷH₁ed- (cf. Arm. xacanel “to bite”) reconstructed by Klingenschmitt 1982: 210 and Kümmel, LIV: 360 has little to recommend.'"
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, IE roots",
+          "stance": "silent",
+          "note": "No root khād-/qhad- 'to bite' in the appendix (grep 'khad', 'qhad' in AHD_watkins1985.txt: nothing)."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sanskrit",
+          "words": "xâd",
+          "verdict": "confirmed",
+          "derivation": "Sanskrit खाद् khād-, 3sg. khādati 'chews, bites to pieces, eats' is attested from the Rigveda onward (EWAia I 451), with the agent noun khādana- and, per Walde-Pokorny, khādan- m. 'tooth'. Nourai's spelling 'xâd' is simply his own transliteration convention, in which x stands for the aspirate kh; the word and gloss are correct. It is the anchor of the whole chart: every source in the file — WP I 341, Pokorny 634, Horn 104, Bartholomae AiW 531, Cheung 445 — starts from Skt khādati and adds the New Persian verb to it.",
+          "derivation_fa": "فعل سنسکریت khād- (سوم‌شخص khādati) «می‌جَود، گاز می‌گیرد، می‌خورد» از ریگ‌ودا به بعد گواهیده است و صورت‌های مشتقی مانند khādana- دارد؛ والده-پوکورنی khādan- «دندان» را نیز به آن می‌افزاید. نگارش «xâd» در نمودار تنها شیوهٔ آوانگاری خودِ نورایی است که در آن x برابر kh دمیده است؛ واژه و معنی هر دو درست‌اند. این واژه لنگرگاه کل نمودار است: همهٔ منابع (والده-پوکورنی ج۱ ص۳۴۱، پوکورنی ص۶۳۴، هرن ص۱۰۴، بارتولومه ستون ۵۳۱، چونگ ص۴۴۵) از khādati آغاز می‌کنند و فعل فارسی را به آن می‌پیوندند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%DB%8C%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:634",
+              "status": "partial",
+              "note": "Pokorny p.634 n.1 does cite the word — 'Ai. khādati ‚zerbeißt, kaut‘, npers. xāyad ds.' — so the Sanskrit form and gloss are supported there, but only inside the note that denies the root Indo-European status."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Bd. I 341",
+              "stance": "supports",
+              "note": "'Ai. khādati ‚zerbeißt, kaut, ißt‘, khādan m. ‚Zahn‘.'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 445",
+              "stance": "supports",
+              "note": "'*SANSKRIT: khād “to chew, to bite, to eat” (RV+) ... EWAia I: 451', and Cheung insists it belongs with the Iranian forms: 'I find the separation of Skt. khād ... from the Ir. forms incomprehensible.'"
+            },
+            {
+              "src": "BRT",
+              "where": "AiW col. 531",
+              "stance": "supports",
+              "note": "Under Av. xad-: 'Vgl. ai. khādati, np. xāyad ‚er kaut‘.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Avestan",
+          "words": "xad 1",
+          "verdict": "disputed",
+          "derivation": "There is an Avestan xad-, but it is not the ancestor of the Persian 'chew' verb. Bartholomae (AiW col. 531) records 'j. xad- V., nur mit vi ‚auseinander quetschen‘. Praes. 2 xaδa-', attested only in Vendidad 2.31-32 (vīxaδa, vīxaδat, of pressing/breaking the earth apart with the heel), and it is Bartholomae himself who adds the comparison Nourai relies on: 'Vgl. ai. khādati, np. xāyad ‚er kaut‘.' That 1904 comparison is what modern Iranian etymology has undone. Cheung (2007: 439) puts YAv. vixaδ- under a root *xad 'to beat, strike, inflict a wound, hurt' (with Parth. xd- 'to injure', Khot. khad- 'to wound', MP xast 'wounded', NP xastan 'to wound') and states flatly: 'This root should be separated from Skt. khād “to eat, chew”, which rather corresponds to an Ir. root *xād (q.v.)'. Neither Horn 104 (Nourai's own reference for this node) nor Walde-Pokorny I 341 cites any Avestan form at all — both go straight from Sanskrit to New Persian. The node also carries no gloss in the book, which is symptomatic: the form was inserted to bridge Sanskrit and Persian rather than because a suitable Avestan word was found.",
+          "derivation_fa": "در اوستا فعلی به‌صورت xad- هست، اما نیای فعل فارسیِ «جویدن» نیست. بارتولومه (ستون ۵۳۱) می‌نویسد: «اوستایی نو xad-، تنها با پیشوند vi، ‚از هم فشردن/شکافتن‘؛ ستاک حال xaδa-»، که تنها در وندیداد ۲.۳۱-۳۲ گواه دارد؛ و همو در همان‌جا سنجهٔ مورد اتکای نورایی را می‌افزاید: «قس سنسکریت khādati، فارسی نو xāyad ‚می‌جود‘». همین سنجهٔ ۱۹۰۴ است که ایران‌شناسی امروزی کنارش گذاشته است: چونگ (۲۰۰۷، ص ۴۳۹) vīxaδ- اوستایی را ذیل ستاک *xad «زدن، زخم زدن» می‌آورد (با پارتی xd-، ختنی khad-، فارسی میانه xast «زخمی»، فارسی نو «خستن») و صریح می‌گوید: «این ریشه باید از khād سنسکریت ‚خوردن، جویدن‘ جدا شود که در ایرانی با *xād برابر است». افزون بر این، نه هرن (ص ۱۰۴، همان ارجاع خودِ نورایی) و نه والده-پوکورنی هیچ صورت اوستایی‌ای نمی‌آورند و مستقیم از سنسکریت به فارسی نو می‌روند. اینکه این گره در کتاب حتی معنی هم ندارد نشانه‌ٔ همین است. پژوهش امروزی این حلقه را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%DB%8C%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:104",
+              "status": "partial",
+              "note": "Horn's entry no. 469 (printed p.104; the OCR of HRN.txt leaf 126 has lost the entry body, but both of Horn's indexes point to it — the Sanskrit index line '√khād-, khādati 469' and the New Persian index line for the verb, and Walde-Pokorny I 341 cites 'Horn Np. Et. 104' for exactly npers. xāyīdan). Horn's chain there is Skt khādati → NP xāyīdan with no Avestan link, so the reference supports the Persian word but not the Avestan node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 531 s.v. xad-",
+              "stance": "partial",
+              "note": "'j. xad- V., nur mit vi ‚auseinander quetschen‘. Praes. 2 xaδa-. aĩhhā zimō pāšnaibya vīspara arəštāibya vīxaδa V.2.31; 32 ... Vgl. ai. khādati, np. xāyad ‚er kaut‘.' The word exists and Bartholomae does make Nourai's comparison, but glosses it 'squeeze apart', not 'bite/chew'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "p. 439 s.v. *xad 'to beat, strike, inflict a wound, hurt'",
+              "stance": "contradicts",
+              "note": "'*AVESTAN: (+ *ui-) ? YAv. vixaö- “to beat (the earth) apart” (not ‚auseinander quetschen‘ ?, AIW: 531) ... This root should be separated from Skt. khād “to eat, chew”, which rather corresponds to an Ir. root *xād (q.v.).'"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 341",
+              "stance": "silent",
+              "note": "The qhad- article lists Sanskrit, New Persian and Armenian only — no Avestan form."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "xâyîdan «خاییدن ( خای )»",
+          "verdict": "plausible",
+          "derivation": "The Persian verb itself is beyond doubt: خاییدن xāyīdan, present stem خای xāy-, 'to chew, grind with the teeth', in Borhan-e Qāteʿ p.712 'خاییدن — بر وزن ساییدن، بمعنی بدندان نرم کردن و جاویدن باشد', with the participle خاییده and the 3sg خاید on the same page, and with the Ferdowsi line Nourai quotes. Its history is equally clear: Cheung (2007: 445) sets up a Proto-Iranian root *xād 'to devour, eat, gorge' — Parthian xʼz- 'to devour', Khotanese khās- 'to eat, drink', 'NP xāyidan/xāy- “to chew, gnaw, eat”', Balochi kʼaδiθ-, Kurdish kayin — whose direct cognate is Skt khād; the New Persian -y- is the regular outcome of intervocalic Old Iranian *-d-, exactly as in āyīdan/āyad or zāyīdan. What is not right is the route drawn in the chart: xāyīdan does not come through the Avestan xad- of node #2 (a different root, 'to strike, wound') but continues the parallel Iranian *xād-, and both Horn (no. 469, p.104) and Walde-Pokorny (I 341) in fact connect it straight to Sanskrit khādati without any Avestan intermediary. Wiktionary, following Derksen, states the same relationship in PIE terms: 'From Proto-Indo-Iranian *khād-, from PIE *k(ʷ)end- or *k(ʷ)enHd(ʰ)-. Compare Sanskrit खादति (khādati, “to chew, to bite”) ... and Khotanese khays- (“to drink”).' So: right word, right ultimate source, wrong intermediate step.",
+          "derivation_fa": "خودِ فعل فارسی تردیدناپذیر است: «خاییدن» با ستاک حال «خای» به معنی «به دندان نرم کردن، جویدن»، در برهان قاطع (ص ۷۱۲): «خاییدن — بر وزن ساییدن، بمعنی بدندان نرم کردن و جاویدن باشد»، در کنار «خاییده» و «خاید» در همان صفحه و بیت فردوسی که نورایی آورده است. تاریخچهٔ آن هم روشن است: چونگ (۲۰۰۷، ص ۴۴۵) ستاک ایرانی باستان *xād «خوردن، بلعیدن» را بازسازی می‌کند — پارتی xʼz-، ختنی khās-، «فارسی نو xāyidan/xāy-»، بلوچی و کردی — که هم‌ریشهٔ مستقیم khād سنسکریت است؛ y در فارسی نو حاصلِ قاعده‌مندِ d میان‌واکه‌ای ایرانی باستان است (مانند زاییدن، آییدن). آنچه نادرست است مسیرِ ترسیم‌شده است: «خاییدن» از xad- اوستایی (که ریشه‌ای دیگر به معنی «زدن، زخم زدن» است) نمی‌آید، بلکه دنبالهٔ *xād ایرانی است؛ هرن (شمارهٔ ۴۶۹) و والده-پوکورنی (ج۱ ص۳۴۱) نیز آن را یکراست به khādati سنسکریت می‌بندند و هیچ واسطهٔ اوستایی نمی‌آورند. پس: واژه درست، سرچشمهٔ نهایی درست، حلقهٔ میانی نادرست — با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%DB%8C%DB%8C%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:712",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 170 (printed 712): 'خاییدن ۱ — بر وزن ساییدن، بمعنی بدندان نرم کردن و جاویدن باشد'; also 'خاییده — بروزن و معنی جاویده و بدندان نرم شده باشد' and 'خاید — بروزن روایت، یعنی بخاید و در زیر دندان نرم [کند]' on the same page — the headword and the alternative stem خای that Nourai brackets."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "p. 445 s.v. *xād 'to devour, eat, gorge'",
+              "stance": "supports",
+              "note": "'*NWIR: NP xāyidan/xāy- “to chew, gnaw, eat”, Bal. kʼaδiθ-/kʼaδ- “to chew”, Kurd. (Kurm.) kayin/kay(e)- ... *PARTHIAN: xʼz- “to devour” ... *KHOTANESE: khās- “to eat, drink” ... *SANSKRIT: khād.'"
+            },
+            {
+              "src": "HRN",
+              "where": "no. 469, p.104",
+              "stance": "supports",
+              "note": "Horn's Sanskrit index '√khād-, khādati 469' and NP index both point to entry 469 (p.104) for the verb; Walde-Pokorny I 341 cites 'Horn Np. Et. 104' for npers. xāyīdan 'essen, kauen'. (The body of the entry is missing from the OCR of HRN.txt leaf 126.)"
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. I 341",
+              "stance": "supports",
+              "note": "'npers. xāyīdan ‚essen, kauen‘ (Hübschmann ZDMG. 38, 423, Horn Np. Et. 104, Uhlenbeck Ai. Wb. 75)'."
+            },
+            {
+              "src": "BQT",
+              "where": "p.712",
+              "stance": "supports",
+              "note": "See ref_check."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
