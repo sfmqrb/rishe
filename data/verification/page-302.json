@@ -1,0 +1,690 @@
+{
+  "pdf_page": 302,
+  "book_page": 272,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Lâl",
+      "verdict": "confirmed",
+      "modern_form": "New Persian لال lāl 'red; a red gemstone (ruby, spinel)' — a genuine Persian colour word of unknown ultimate origin",
+      "note": "The root box is right on every point that it actually asserts: لال lāl is a New Persian word meaning 'red' (and, as a noun, 'ruby / balas spinel'), and the whole family on this page hangs together. Borhan-e Qate' p.1879 s.v. لال: 'معروف است ... و رنگ سرخ را نیز گفته‌اند - و بمعنی لعل هم آمده است ... و بعضی گویند لعل معرب لال است', with Mo'in's footnote 7 «لعل معرب «لال» است «نخبه ۱۶»؛ «لال» لعل باشد «لغت فرس ۳۲۹»»; Mo'in's own Farhang s.v. لال ۳ has '[قس. لاله، آلاله، لعل، معر.] (ص.) سرخ؛ احمر. (اِ.) (زه.) لعل' — i.e. Mo'in groups exactly the same words Nourai groups. Lokotsch no.1298 'Pers. lāl: Hochrot'. What Nourai does not say, and what no source can supply, is where lāl itself comes from: Wiktionary marks it 'of unknown origin' and merely wonders whether it could be a heavily reduced reflex of PIE *h₁rewdʰ- 'red'. Treating لال as an unanalysed Persian root is therefore the honest choice. Note that the homophone لال 'mute, tongue-tied' (BQT 1879, Mo'in لال ۱) is a different word and is correctly kept out of this chart.",
+      "note_fa": "سرِ نمودار «لال» است، واژه‌ای فارسی به معنی «سرخ» و نیز «گوهر سرخ (لعل، بدخشی)». برهان قاطع ص ۱۸۷۹ ذیل «لال» همین دو معنی را می‌آورد و در حاشیهٔ معین آمده که «لعل معرّب لال است». معین نیز در فرهنگ فارسی ذیل لال ۳ می‌نویسد «[قس. لاله، آلاله، لعل، معرّب] سرخ، احمر»، یعنی همان خانوادهٔ واژگانی که نورایی ساخته است. اما ریشهٔ خودِ «لال» ناشناخته است؛ ویکی‌واژه آن را «of unknown origin» می‌داند و تنها به احتمال پیوند با هندواروپایی آغازین *h₁rewdʰ- «سرخ» اشاره می‌کند. پس ادعای نورایی در همین حد که «لالِ فارسی به معنی سرخ» ریشهٔ این خانواده است، درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/لال",
+        "https://en.wiktionary.org/wiki/لعل"
+      ],
+      "ref_check": [
+        {
+          "ref": "BQT:1879",
+          "status": "supports",
+          "note": "Borhan-e Qate' (Mo'in ed.) p.1879, entry لال: «لال - بر وزن مال ... و رنگ سرخ را نیز گفته‌اند - و بمعنی لعل هم آمده است وآن گوهری است گرانبها که معدن آن در بدخشان است و بعربی لعل گویند؛ و بعضی گویند لعل معرب لال است»; fn.7 «لعل معرب «لال» است «نخبه ۱۶»». Read from data/verification/sources/refs/ocr/BQT/1879.png/.txt (ref_page.py BQT:1879, pdf page 676 of BQT_v3_picofile.pdf)."
+        },
+        {
+          "ref": "KLN:904",
+          "status": "supports",
+          "note": "Klein 1966 vol.2 p.904 s.v. 'loll shraub': «Hind. lal sharab, 'red, wine', fr. Pers. lal, 'red', and Arab. sharab, 'drink, wine'» — Klein too takes Persian lāl 'red' as the source word (grep 'loll  shraub' in KLN_1966.txt)."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "MON",
+          "where": "s.v. لال ۳ (Adena 2-vol OCR, MON_part2.txt l.38107)",
+          "stance": "supports",
+          "note": "«۳ lāl [قس. لاله، آلاله، لعل، معر.] (ص.) سرخ؛ احمر. (اِ.) (زه.) لعل» — Mo'in cross-refers لال to لاله، آلاله and (Arabicized) لعل, exactly Nourai's grouping."
+        },
+        {
+          "src": "LKT",
+          "where": "no. 1298, p. ~245",
+          "stance": "supports",
+          "note": "Lokotsch: «1298. Pers. lāl: 'Hochrot', dazu tat. lalä 'Rubin'; hieraus serb. lal 'rot', russ. lal 'Rubin'» (grep 'Hochrot' in LKT.txt)."
+        },
+        {
+          "src": "HRN",
+          "where": "grep 'Tulpe', 'lâl' in HRN.txt",
+          "stance": "silent",
+          "note": "Horn's Grundriss has no entry for لال / لاله; the word is not treated in his Neupersische Etymologie."
+        },
+        {
+          "src": "HUB",
+          "where": "grep 'Tulpe' in HUB.txt",
+          "stance": "silent",
+          "note": "Hübschmann, Persische Studien: nothing on لال / لاله."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "lâleh; âlâleh",
+          "verdict": "confirmed",
+          "derivation": "NP لاله lāleh 'tulip (Tulipa), and by extension anemone/poppy' and its by-form آلاله ālāleh (ranunculus/anemone) are formed on lāl 'red' — the flower is named from its colour, with the common Persian nominal suffix -a/-eh (as in سبزه sabze from سبز, سرخه from سرخ); the ā- of آلاله is the well-known prothetic/reduplicative variation of the same stem (لاله ~ آلاله are given as one word by Mo'in). Mo'in's own footnote in Borhan-e Qate' p.1880 (fn.7 to لاله) says it plainly: «آلاله. در پهلوی یافته نشد؛ و شگفت نیست که این کلمه با «لال» (سرخ) رابطه دارد و گلی که لاله خوانده شده بمناسبت رنگ آن است» ('ālāla is not attested in Pahlavi; it would not be surprising that this word is related to lāl (red), the flower being so called on account of its colour'), citing Hormozdnāme p.137 and Kurdish lāla. Wiktionary's Persian entry says the same, 'Likely from لال (lâl, literally red)'. No Middle Persian antecedent is attested, so the derivation is a Persian-internal one; from Persian the word passed to Ottoman Turkish lale and thence to the European tulip words (via tülbend 'turban'). The Onsori couplet Nourai prints ('دو رخ چو نار شکفته، دو لب چو لالهٔ لال') is BQT p.1879 fn.6 and itself pairs lāleh with lāl.",
+          "derivation_fa": "«لاله» (گل سرخ‌رنگ) و گونهٔ دیگر آن «آلاله» از همان ستاک «لال» (سرخ) با پسوند اسم‌ساز ـه ساخته شده‌اند، درست مانند «سبزه» از «سبز». معین در حاشیهٔ برهان قاطع ص ۱۸۸۰ می‌نویسد: «آلاله. در پهلوی یافته نشد و شگفت نیست که این کلمه با «لال» (سرخ) رابطه دارد و گلی که لاله خوانده شده بمناسبت رنگ آن است» و به هرمزدنامه ص ۱۳۷ و لالهٔ کردی ارجاع می‌دهد. در فارسی میانه صورتی برای آن گواهی نشده است، پس این ساخت درون‌فارسی است؛ از فارسی به ترکی عثمانی (lale) و از آنجا به زبان‌های اروپایی رفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لاله",
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1879",
+              "status": "partial",
+              "note": "The headword لاله is actually on p.1880, not 1879 (p.1879 has لال, لالا, لالاسرا); Nourai's page number is one off. BQT p.1880 fn.7 does carry the etymology quoted above (data/verification/sources/refs/ocr/BQT/1880.txt)."
+            },
+            {
+              "ref": "MON:3536",
+              "status": "supports",
+              "note": "Mo'in's Farhang s.v. لاله: «لاله [= آلاله - قس. لال، سرخ]» (MON_part2.txt l.38122) — the Adena condensation preserves the cross-reference to لال 'red'; the 6-vol page number itself cannot be checked (no scan of the 6-vol edition exists)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p.1880 fn.7 (ocr/BQT/1880.txt)",
+              "stance": "supports",
+              "note": "«آلاله. در پهلوی یافته نشد؛ و شگفت نیست که این کلمه با «لال» (سرخ) رابطه دارد ... «هرمزدنامه ص ۱۳۷»؛ کردی lāla»."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. لاله (MON_part2.txt l.38122)",
+              "stance": "supports",
+              "note": "«لاله: [- آلاله - قس. لال، سرخ]»."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1300",
+              "stance": "partial",
+              "note": "«1300. Pers. lālā: 'Tulpe, Tulipa persica', ebenso tk. lale; hieraus rum. lalea, serb. lale, bulg. lale 'Tulpe, Mohn'» — Lokotsch records the word and its spread but gives no internal etymology."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt, grep 'Tulpe'",
+              "stance": "silent",
+              "note": "Horn has no article on لاله."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "lâlak",
+          "verdict": "plausible",
+          "derivation": "NP لالک lālak (also لالکا lālakā) is glossed in Borhan-e Qate' p.1880 as «کفش و پای‌افزار» 'shoe, footwear' — the gloss 'red leather and shoes made from it' is a fuller version of the same entry. Formally it is lāl + the diminutive/appurtenance suffix -ak (as in پشمک, نمکک), so 'the little red thing / the red(-dyed) one'. Mo'in's footnote 3 on that page says only «شاید در اصل بهای‌افزار لالِ (سرخ) رنگ اطلاق میشده» ('perhaps it was originally applied to footwear of lāl (red) colour', Hormozdnāme p.132) and adds the Arabicized doublets لالکه / لالجه from the Muʿjam al-udabāʾ. So the colour etymology is offered by Mo'in himself but marked as a guess (شاید), and no independent modern treatment of lālak exists; hence 'plausible' rather than 'confirmed'. The Suzani verse Nourai prints («که عاشق است بر آن لاله‌روی لالک‌دوز») is BQT p.1880 fn.3, from Hormozdnāme p.133.",
+          "derivation_fa": "«لالک (لالکا)» در برهان قاطع ص ۱۸۸۰ «کفش و پای‌افزار» معنی شده است. از نظر ساخت، «لال» + پسوند تصغیر/نسبت «ـک» است، یعنی «(چیزِ) سرخ‌رنگِ کوچک». معین در حاشیه تنها با احتیاط می‌نویسد: «شاید در اصل به پای‌افزار لال (سرخ) رنگ اطلاق می‌شده «هرمزدنامه ص ۱۳۲»» و صورت‌های معرّب «لالکه» و «لالجه» را نیز می‌آورد. چون هیچ منبع مستقل امروزی این واژه را بررسی نکرده و خود معین هم با «شاید» سخن گفته، ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1880",
+              "status": "supports",
+              "note": "BQT p.1880: «لالک - بروزن کالک، کفش و پای‌افزار را گویند»; fn.3 «شاید در اصل بهای‌افزار لال (سرخ) رنگ اطلاق میشده «هرمزدنامه ص ۱۳۲»؛ لالک > لالکه (معرب) «معجم الادباء چاپ مارگلیوث ج ۳ ص ۱۹۶» > لالجه (معرب)» plus the Suzani couplet (ocr/BQT/1880.txt)."
+            },
+            {
+              "ref": "MON:3536",
+              "status": "partial",
+              "note": "Mo'in's لالک entry in the Adena condensation (MON_part2.txt l.38220) gives «لالکا، لاله گوش» (earlobe) and the geranium, i.e. a different sense-group; the footwear sense is not carried there, so the page could not be confirmed."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p.1880 and fn.3",
+              "stance": "partial",
+              "note": "gives the colour etymology, but hedged with «شاید»."
+            },
+            {
+              "src": "MON",
+              "where": "s.v. لالک (MON_part2.txt l.38220)",
+              "stance": "silent",
+              "note": "no etymology for the 'shoe' sense in the two-volume abridgement."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt, grep لالک",
+              "stance": "silent",
+              "note": "Aryanpur's IE-roots dictionary has no entry for لالک."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "lâleh-sâr; lâlas",
+          "verdict": "plausible",
+          "derivation": "Two words of unequal standing. (a) لاله‌سار lāleh-sār 'a red-headed bird' is well founded: BQT p.1880 fn.9 analyses it «از: لاله (سرخ) + سار (< سر)؛ لاله‌سار باید مرغی باشد سرسرخ، چنانکه خشن‌سار مرغی است سرسفید» — 'from lāleh (red) + sār (< sar 'head'); lāleh-sār must be a red-headed bird, just as xašn-sār is a white-headed one', citing Asadi Tusi and Hormozdnāme p.351. That is exactly Nourai's cross-reference ☞Ker 1 (sar 'head' < PIE *ḱerh₂-). (b) لالس lālas is glossed by Borhan simply as «نوعی از پارچهٔ ابریشمی خوش قماش نازک لطیف» — 'a kind of fine, delicate silk fabric' — with no colour at all, and Mo'in's footnote 2 on that entry only rejects the Indian 'face' sense («لالس بمعنی روی در هیچ لغت سنسکرت یافت نشد»). The word 'red' in Nourai's gloss is his own addition, made to fit the root; the fabric name may just as well be a foreign textile term. Hence the node as a whole is only plausible.",
+          "derivation_fa": "این گره دو واژه دارد. یکم «لاله‌سار» «مرغی سرخ‌سر»: حاشیهٔ ۹ برهان قاطع ص ۱۸۸۰ آن را چنین تحلیل می‌کند: «از: لاله (سرخ) + سار (< سر)؛ لاله‌سار باید مرغی باشد سرسرخ، چنانکه خشن‌سار مرغی است سرسفید»؛ این همان ارجاع نورایی به ریشهٔ Ker 1 («سر») است و درست است. دوم «لالس»: برهان آن را تنها «نوعی از پارچهٔ ابریشمی خوش قماش نازک لطیف» معنی می‌کند و هیچ سخنی از سرخی نیست؛ حاشیهٔ معین هم فقط معنیِ «روی» را در سنسکریت رد می‌کند. پس صفت «سرخ» در معنیِ نورایی افزودهٔ خود اوست و پیوند «لالس» با «لال» اثبات‌نشده است؛ ازاین‌رو این گره در مجموع «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1880",
+              "status": "partial",
+              "note": "Supports لاله‌سار fully (fn.9, quoted above) but not the 'red' in لالس: the entry reads «لالس - بفتح لام و سکون سین بی نقطه: نوعی از پارچهٔ ابریشمی خوش قماش نازک لطیف ... و بزبان علمی اهل هند بمعنی روی باشد که بعربی وجه خوانند», fn.2 «لالس بمعنی روی در هیچ لغت سنسکرت یافت نشد «چک ص ۹۹۵ ح»» (ocr/BQT/1880.txt; the Badr Jājarmi couplet Nourai prints is fn.1 of the same entry)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p.1880 fnn.1, 2, 9",
+              "stance": "partial",
+              "note": "explicit colour etymology for لاله‌سار; none for لالس."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part2.txt, grep لالس / لاله‌سار",
+              "stance": "silent",
+              "note": "neither word survives in the two-volume abridgement of Mo'in."
+            },
+            {
+              "src": "FRS",
+              "where": "FRS_pages.txt (Asadi's Loghat-e Fors)",
+              "stance": "silent",
+              "note": "Borhan's fn.9 attributes لاله‌سار to Asadi Tusi, but the word could not be located in the OCR of the Mojtaba'i–Sadeqi edition."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "la`l",
+          "verdict": "confirmed",
+          "derivation": "Arabic لَعْل laʿl 'a red gemstone, ruby/balas spinel; red' is a muʿarrab of Persian lāl. Since Arabic phonotactics disfavour a bare CaaC loan of this shape and Arabic likes a triliteral skeleton, the long ā of lāl was resolved into a strong ʿayn plus short vowel, giving the root-shape l-ʿ-l — the same kind of ʿayn-insertion seen in other Persian loans. Addi Shir states it in one line (AFM p.142): «(اللَعْل) حجر كريم تعريب لال واصل معناه الأحمر» 'al-laʿl, a precious stone, Arabicized from lāl, whose original meaning is red'. Tobia al-ʿUnaysi (TAD p.66) has «لعل حجر كريم أحمر - فارسي «لال» معناه أحمر». Asbaghi (PLA p.241) lists «لعل laʿl: 'Rubin' pers. [lāl], s. lāla» — and, notably, cross-refers it to لاله, i.e. he groups the ruby word with the tulip word exactly as Nourai does. Wiktionary: 'borrowed from Persian لال (lâl)'. The stones so called were the balas spinels of Badaxšān, which is also why Borhan says «معدن آن در بدخشان است».",
+          "derivation_fa": "عربی «لَعْل» (گوهر سرخ، لعل بدخشی) معرّبِ «لال» فارسی است. چون ساخت CāC در عربی جا نمی‌افتاد، مصوّت بلند «ا» به «ع» بدل شده و ریشهٔ سه‌حرفی ل‑ع‑ل پدید آمده است؛ همان‌گونه که در چند وام‌واژهٔ فارسی دیگر نیز «ع» افزوده شده است. أدّي شير در «الألفاظ الفارسیة المعرّبة» ص ۱۴۲ می‌نویسد: «(اللَعْل) حجر كريم تعريب لال واصل معناه الأحمر»، و طوبیا العنیسی (ص ۶۶) «لعل حجر كريم أحمر ـ فارسي «لال» معناه أحمر». اسبقی نیز در «واژه‌های فارسی در عربی» ص ۲۴۱ آن را فارسی و هم‌خانوادهٔ «لاله» می‌داند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لعل",
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "AFM:142",
+              "status": "supports",
+              "note": "Addi Shir p.142 (verified on the page image; the line is dropped by both OCR files): «٭ ( اللَعْل ) حجر كريم تعريب لال واصل معناه الأحمر». Image and transcription saved as data/verification/sources/refs/ocr/AFM/0142.png and 0142.vision.txt (AFM.pdf pdf-page 144; the printed numeral ١٤٢ is on the page)."
+            },
+            {
+              "ref": "PLA:241",
+              "status": "supports",
+              "note": "Asbaghi, Persische Lehnwörter im Arabischen, p.241 (incoming/PLA/PLA_pages.txt leaf index 255): «لعل - la'l: \"Rubin\" pers. [لال] s. lāla» followed by «lāla: \"Tulpe\" pers.» — Persian origin, and cross-referenced to lāla."
+            },
+            {
+              "ref": "TAD:66",
+              "status": "supports",
+              "note": "al-ʿUnaysi, Tafsīr al-alfāẓ al-dākhila, ل section (TAD_pages.txt leaf 69, printed p.66): «لعل حجر كريم أحمر - فارسي «لال» معناه أحمر»."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "vol.2 p.904 s.v. loll shraub",
+              "stance": "partial",
+              "note": "Klein derives the Anglo-Indian phrase from Pers. lāl 'red' but does not discuss Arabic لعل itself."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1298",
+              "stance": "partial",
+              "note": "«Pers. lāl 'Hochrot', dazu tat. lalä 'Rubin'» — Persian source affirmed, Arabic route not treated."
+            },
+            {
+              "src": "FVQ",
+              "where": "FVQ_pages.txt, grep لعل / la'l",
+              "stance": "silent",
+              "note": "Jeffery's Foreign Vocabulary of the Qur'an has no entry (the word is not Qur'anic)."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "la`l",
+          "verdict": "confirmed",
+          "derivation": "Persian لعل laʿl 'ruby; (of lips) ruby-red' is the Arabicized form re-borrowed into Persian — a classic Persian→Arabic→Persian round trip, so that لال and لعل are doublets in the same language. Borhan-e Qate' p.1879 says it outright: «و بمعنی لعل هم آمده است ... و بعضی گویند لعل معرب لال است», with Mo'in's fn.7 citing Noxba p.16 and Loghat-e Fors p.329 («لال» لعل باشد). Mo'in's Farhang tags لال with «معر.» pointing at لعل. Wiktionary states the circular path explicitly: Persian لعل 'borrowed from Arabic لَعْل, from Persian لال'. In classical poetry the word is conventional for the beloved's lips (Hafez's «لعل تو که هست جان حافظ», which Nourai prints), the extension being 'red gem' → 'red lips' → 'red wine'.",
+          "derivation_fa": "«لعل» فارسیِ نو همان صورت معرّبِ «لال» است که دوباره به فارسی بازگشته؛ یعنی «لال» و «لعل» در فارسی دوگانه (doublet) اند و این یک وام‌گیریِ رفت‌وبرگشتی فارسی ← عربی ← فارسی است. برهان قاطع ص ۱۸۷۹ می‌نویسد «بعضی گویند لعل معرّب لال است» و معین در حاشیه به «نخبه ۱۶» و «لغت فرس ۳۲۹» ارجاع می‌دهد. در شعر فارسی «لعل» استعارهٔ لبِ معشوق است (بیت حافظ که نورایی آورده) و از آنجا به «شراب سرخ» نیز کشیده شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لعل",
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1879",
+              "status": "supports",
+              "note": "p.1879 s.v. لال: «... و بمعنی لعل هم آمده است وآن گوهری است گرانبها که معدن آن در بدخشان است و بعربی لعل گویند؛ و بعضی گویند لعل معرب لال است»; fn.7 «لعل معرب «لال» است «نخبه ۱۶». «لال» لعل باشد «لغت فرس ۳۲۹»» (ocr/BQT/1879.txt)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. لال ۳ (MON_part2.txt l.38107)",
+              "stance": "supports",
+              "note": "«[قس. لاله، آلاله، لعل، معر.]» — Mo'in explicitly marks لعل as the muʿarrab of لال."
+            },
+            {
+              "src": "PLA",
+              "where": "p.241",
+              "stance": "supports",
+              "note": "Asbaghi lists laʿl among the Persian loanwords in Arabic, which entails the Persian form as the source of the re-borrowed لعل."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt, grep لعل",
+              "stance": "silent",
+              "note": "not in Aryanpur's IE-roots dictionary (as expected, since the word is not treated as inherited IE)."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Hindustani",
+          "words": "lâl; lâl-šarâb",
+          "verdict": "confirmed",
+          "derivation": "Hindi-Urdu लाल / لال lāl 'red' is a straight borrowing of Classical Persian لال, taken over with the Persianate administrative and courtly vocabulary of the Delhi Sultanate and Mughal period; Wiktionary's Hindi entry says so ('Borrowed from Classical Persian لَال (lāl)') and distinguishes it from the homograph lāl 'dear one', which is inherited from Sanskrit lālya-. The compound lāl-śarāb 'red wine' is Persian lāl + Arabic šarāb 'drink, wine' (root š-r-b), the Arabic word having reached Hindustani through Persian — which is exactly Nourai's cross-reference ☞Š.r.b. Klein p.904 gives the same analysis: «Hind. lal sharab, 'red, wine', fr. Pers. lal, 'red', and Arab. sharab». Hobson-Jobson p.501b calls lāl-sharāb 'Englishman's Hind.' — i.e. the compound is largely a sahib coinage — and lists the parallel formations Port-shraub, Sherry-shraub, Brandy-shraub, Beer-shraub.",
+          "derivation_fa": "«لال» در هندی‑اردو (लाल) وام‌واژه‌ای است از فارسی کلاسیک که همراه با واژگان دیوانی و درباریِ فارسی در دورهٔ سلطنت دهلی و گورکانیان به هند رفته است؛ ویکی‌واژه صریحاً می‌نویسد «Borrowed from Classical Persian لال» و آن را از همنگارِ lāl «عزیز» (از سنسکریت lālya-) جدا می‌کند. ترکیب lāl-šarāb «شراب سرخ» از «لالِ» فارسی + «شرابِ» عربی (ریشهٔ ش‑ر‑ب) ساخته شده که خودِ شراب نیز از راه فارسی به هندوستانی رسیده است؛ همان ارجاع نورایی به ریشهٔ Š.r.b. کلاین ص ۹۰۴ نیز همین تحلیل را دارد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/लाल",
+            "https://en.wiktionary.org/wiki/لال"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:904",
+              "status": "supports",
+              "note": "Klein 1966 vol.2 p.904: «loll shraub, loll shrob, claret (India). — Hind. lal sharab, 'red, wine', fr. Pers. lal, 'red', and Arab. sharab, 'drink, wine' (see sirup)» (grep 'loll  shraub' in KLN_1966.txt)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson p.501b s.v. LALL-SHRAUB",
+              "stance": "supports",
+              "note": "«LALL-SHRAUB, s. Englishman's Hind. lāl-sharāb, 'red wine.' The universal name of claret in India» (HJB.txt l.12925); s.v. SHRUB: «The form shrāb is applied in India to all wines and spirits ... Port-shraub, Sherry-shraub, Lall-Shraub, Brandy-shraub, Beer-shraub»."
+            },
+            {
+              "src": "AID",
+              "where": "AID.txt, grep 'loll' / 'lal'",
+              "stance": "silent",
+              "note": "Whitworth's Anglo-Indian Dictionary (1885) has no entry for the phrase."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "loll sharob",
+          "verdict": "transcription_suspect",
+          "derivation": "The Anglo-Indian word is real, but the printed form on this page is corrupt. The attested English spellings are 'loll shraub' / 'loll shrob' (Klein p.904, which is the reference Nourai himself cites) and 'Lall-shraub' / 'Loll Shrub' (Hobson-Jobson p.501b, with a c.1780 quotation from Mrs Fay's Calcutta diary: 'one pyramidal ... for Loll Shrub (scilicet, claret)'). The book prints 'loll sharob', with the r and the vowel transposed — a metathesis of shraub/shrob that no source knows. The extraction is faithful to the page (checked on the 600-dpi render of pdf page 302, saved as data/verification/sources/refs/ocr/BOOK/302.png), so the error is Nourai's own. On the substance the node is right: British residents in Bengal from the later 18th century took over Hindustani lāl-sharāb as the standard name of claret, and the phrase died out with the Raj.",
+          "derivation_fa": "واژهٔ انگلیسیِ هندی‑بریتانیایی واقعی است، اما صورت چاپ‌شده در کتاب نادرست است. املای گواهی‌شده «loll shraub / loll shrob» (کلاین ص ۹۰۴، همان مأخذی که نورایی به آن ارجاع می‌دهد) و «Lall-shraub / Loll Shrub» (هابسن‑جابسن ص ۵۰۱ب، با شاهدی از حدود ۱۷۸۰) است. کتاب «loll sharob» چاپ کرده، یعنی «ر» و مصوّت جابه‌جا شده‌اند (قلب). بررسی تصویر صفحهٔ ۳۰۲ نشان می‌دهد که خوانش اسکن درست است و خطا از خودِ کتاب است. از نظر معنایی گره درست است: انگلیسیان بنگال از اواخر سدهٔ هجدهم «لال‌شراب» هندوستانی را نام معمول شرابِ سرخ (claret) کردند.",
+          "error_in": "book",
+          "book_prints": "loll sharob",
+          "correct_form": "loll shraub / loll shrob (Klein); Lall-shraub, Loll Shrub (Hobson-Jobson)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/लाल"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:904",
+              "status": "partial",
+              "note": "Klein p.904 has the entry but spells it «loll shraub, loll shrob», not 'loll sharob'; the derivation Klein gives («Hind. lal sharab ... fr. Pers. lal ... and Arab. sharab») is the one drawn on the chart, so only the spelling is at fault."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "p.501b s.v. LALL-SHRAUB; index p.'Lall-shraub, 501b'",
+              "stance": "partial",
+              "note": "«LALL-SHRAUB ... The universal name of claret in India»; quotation c.1780 «for Loll Shrub (scilicet, claret)» — again no spelling 'sharob'."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep 'loll shr'",
+              "stance": "silent",
+              "note": "Skeat's Concise Dictionary does not carry the Anglo-Indian word."
+            },
+            {
+              "src": "AID",
+              "where": "AID.txt, grep 'loll'",
+              "stance": "silent",
+              "note": "Whitworth (1885) does not have it either."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Lanğ",
+      "verdict": "disputed",
+      "modern_form": "No PIE root *lang- 'droop, be sad' is recognised today; Persian ranj goes back to Proto-Iranian *Hranj- (Av. rənj-) < PIE *h₁lengʷʰ- 'to move lightly, spur, impel' (LIV 247; Pokorny 660 f. legʷh- 'leicht in Bewegung und Gewicht')",
+      "note": "The root box reproduces S. E. Mann, IEC p.663, faithfully — and Mann's entry is itself explicitly marked as unreliable: «lang- 'drooping, sad; droop, be sad; sadness'. **All evidence ambig.** Per. ranja, ranjiš 'sorrow, annoyance'; ranjidan, inf. 'be sad'; Gk. laggázo, laggéo 'droop, flag' beside lagarós, adj. 'sunken, slack'» (IEC.txt leaf 373 = printed pp. 662–663). Mann's whole root rests on the two branches drawn here and on nothing else; there is no Indo-Iranian, Italic, Germanic, Balto-Slavic or Celtic support, and Pokorny, Walde-Pokorny and Watkins/AHD have no such root. Modern Iranian etymology puts the Persian word somewhere quite different: Cheung, Etymological Dictionary of the Iranian Verb, p.191, sets up *Hranj- 'to take action, spur, urge (often with negative consequences)' with Young Avestan rənjaiti, MMP rnz, BMP lnc, Parthian rnj, Khotanese ārraṃj-, Sogdian rxn- 'to dare', NP ranjidan, and refers it to PIE *h₁lengʷʰ- (LIV 247; Pok. 660 f.), the 'light, nimble, quick' root — Pokorny p.660 f. legʷh- 'leicht in Bewegung und Gewicht, verbal sich leicht, flink bewegen; nasaliert lengʷh-', with av. rənjaiti 'macht leicht, flink', ai. ráṃhate 'rinnt, eilt'. Greek λαγγάζω, by contrast, is grouped with λαγαρός 'slack' under *(s)leg- 'to be slack'. Nourai's gloss 'to droop, be sad, sorrow' is thus a semantic reading-back from the Persian word, and the root as drawn is not accepted.",
+      "note_fa": "این ریشه دقیقاً از فرهنگ تطبیقی هندواروپاییِ مان (IEC ص ۶۶۳) گرفته شده است، اما خودِ مان زیر همان مدخل نوشته «All evidence ambig.» یعنی «همهٔ شواهد مبهم‌اند»؛ تمام بنیاد این ریشه همین دو شاخهٔ فارسی و یونانی است و پوکورنی، والده‑پوکورنی و واتکینز چنین ریشه‌ای ندارند. ریشه‌شناسی امروزی «رنج» را جای دیگری می‌نشاند: چونگ در فرهنگ ریشه‌شناختی فعل ایرانی (ص ۱۹۱) ستاک ایرانی *Hranj- را با اوستایی rənjaiti، پارتی rnj، فارسی میانهٔ ranz/ranj، ختنی ārraṃj- و سغدی rxn- بازسازی می‌کند و آن را به هندواروپایی آغازین *h₁lengʷʰ- «سبک و چابک حرکت کردن، برانگیختن» (پوکورنی ۶۶۰ـ۶۶۱) بازمی‌گرداند، نه به ریشه‌ای به معنی «افسردن». یونانیِ λαγγάζω نیز امروز با λαγαρός «شل» زیر *(s)leg- می‌آید. پس معنیِ «افسردن، اندوهگین شدن» تعمیم معنیِ فارسیِ «رنج» به ریشه است و پژوهش امروزی این ریشه را نمی‌پذیرد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/رنج",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dlagga%2Fzw"
+      ],
+      "ref_check": [
+        {
+          "ref": "IEC:663",
+          "status": "supports",
+          "note": "Mann, An Indo-European Comparative Dictionary p.663 (IEC.txt leaf 373): «lang- 'drooping, sad; droop, be sad; sadness'. All evidence ambig. Per. ranja, ranjiš 'sorrow, annoyance'; ranjidan, inf. 'be sad'; Gk. laggázo, laggéo 'droop, flag' beside lagarós, adj. 'sunken, slack'.» The reference does say what Nourai's root box says — but with Mann's own caveat, which the chart drops."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "Pokorny pp.660–661, s.v. legʷh- (POK_02.txt leaves 320–321)",
+          "stance": "contradicts",
+          "note": "«legʷh- 'leicht in Bewegung und Gewicht', verbal 'sich leicht, flink bewegen', nasaliert lengʷh- ... av. rənjaiti, rənjayeiti 'macht leicht, flink, läßt sich bewegen', ai. ráṃhate, ráṃghati 'rinnt, eilt, springt auf'». No root *lang- 'droop, be sad' exists in Pokorny."
+        },
+        {
+          "src": "CHEUNG",
+          "where": "Cheung 2007 p.191 s.v. *Hranj",
+          "stance": "contradicts",
+          "note": "«*Hranj 'to take action, spur, urge (often with negative consequences)?' ... « PIE *h₁lengʷʰ- 'to spur, impel, incite' — LIV: 247 | Pok.: 660 f.» with YAv. rənjaiti, MMP rnz, Parth. rnj, NP ranjidan, Skt. ramh- 'to hasten'. Greek λαγγάζω is not among the cognates."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. legʷh- (AHD_watkins1985.txt l.668)",
+          "stance": "contradicts",
+          "note": "«legwh-. Light, having little weight ... [Pok. legʷh- 660.]» — Watkins knows only the 'light' root at Pokorny 660; there is no AHD root meaning 'droop, be sad'."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny (WLD_band3 index; Bd. II)",
+          "stance": "silent",
+          "note": "no root *lang- 'droop, be sad' in the Walde-Pokorny register; the material at WP II 426 f. is the 'light' root legʷh- referred to by Pokorny."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sanskrit",
+          "words": "rdjyate",
+          "verdict": "disputed",
+          "derivation": "Three things are wrong here. (i) The form: 'rdjyate' is not a possible Sanskrit transliteration; the 600-dpi render of pdf page 302 shows the book itself prints 'rdjyate' with a plain d, so the extraction is faithful and the misprint is Nourai's. What he is reproducing is Mo'in's footnote to رنج in Borhan-e Qate' («... از سانسکریت rjyate (در اضطراب شدن)»), i.e. Sanskrit रज्यते rajyate. (ii) The gloss: Monier-Williams gives rajyate (passive/middle of रञ्ज् rañj) as 'to be dyed or coloured, redden, glow' and 'to be affected or moved, be excited or glad, be charmed or delighted', and the intensive rārajyate 'to be greatly excited, exult' — nowhere 'to be in pain'. Mo'in's Persian «در اضطراب شدن» ('to become agitated') renders the second sense, and Nourai has hardened it into 'pain'. (iii) The arrow: rañj- belongs to PIE *(s)reg- 'to dye' (Gk. ῥέζω), a completely different root, and in any case an Iranian word cannot descend from a Sanskrit one — the two are sister languages. Modern work (Cheung 2007: 191) makes MP ranj a native Iranian continuant of *Hranj- < PIE *h₁lengʷʰ-, whose Indic cognate is ráṃhate 'to hasten', not rajyate.",
+          "derivation_fa": "این گره سه اشکال دارد. نخست صورت واژه: «rdjyate» آوانگاریِ ممکنی در سنسکریت نیست؛ بررسی تصویر ۶۰۰ نقطه‌ایِ صفحهٔ ۳۰۲ نشان می‌دهد که خودِ کتاب همین را چاپ کرده، پس خطا از نویسنده است نه از خوانش اسکن. آنچه نورایی نقل می‌کند حاشیهٔ معین بر «رنج» در برهان قاطع است: «از سانسکریت rjyate (در اضطراب شدن)»، یعنی रज्यते rajyate. دوم معنی: مونیه‑ویلیامز rajyate را «رنگین/سرخ شدن» و «برانگیخته و شیفته شدن» معنی می‌کند، نه «درد کشیدن»؛ «در اضطراب شدنِ» معین برگردانِ معنیِ دوم است و نورایی آن را به «درد» سخت کرده است. سوم جهت اشتقاق: ریشهٔ रञ्ज् به هندواروپاییِ *(s)reg- «رنگ کردن» می‌رسد و اصولاً واژهٔ ایرانی از واژهٔ سنسکریت مشتق نمی‌شود، بلکه هم‌ریشه‌اند. پژوهش امروزی (چونگ ۲۰۰۷ ص ۱۹۱) «رنج» را دنبالهٔ ایرانیِ *Hranj- می‌داند. پس پژوهش امروزی این گره را رد می‌کند.",
+          "error_in": "book",
+          "book_prints": "rdjyate",
+          "correct_form": "rajyate (Skt. रज्यते, passive of रञ्ज् rañj)",
+          "sources": [
+            "https://sanskrit.inria.fr/MW/214.html",
+            "https://en.wiktionary.org/wiki/रञ्ज्"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:963",
+              "status": "partial",
+              "note": "The رنج / رنجه entries in Borhan-e Qate' vol. 2 (BQT_v2_pages.txt around l.24919–24992) carry Mo'in's footnote «رنجه، پهلوی [rnc] «باروچا ...» (غم، درد، ناراحتی)، در اوراق تورفان ranz (درد)، از سانسکریت rjyate (در اضطراب شدن)». So Mo'in does derive the Pahlavi from a Sanskrit rjyate — but he writes rjyate, not 'rdjyate', and glosses it «در اضطراب شدن» ('to become agitated'), not 'to be in pain'. The printed page number could not be confirmed: BQT_v2_pages.txt carries no [pdf page] tags and ref_page.py has no scan covering printed p.963."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 p.191 s.v. *Hranj",
+              "stance": "contradicts",
+              "note": "The Indic cognate Cheung lists is «*SANSKRIT: ramh 'to hasten' (RV+) = EWAia II: 421 f., 473», not rajyate; and the Iranian forms are inherited, not borrowed from Indic."
+            },
+            {
+              "src": "POK",
+              "where": "Pokorny p.660 f.",
+              "stance": "contradicts",
+              "note": "the Indic member of the root is «ai. ráṃhate, ráṃghati, láṅghati 'rinnt, eilt, springt auf, springt über'» — no rajyate."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann p.663 s.v. lang-",
+              "stance": "silent",
+              "note": "Mann's own entry for the root cites no Sanskrit at all, only Persian and Greek — so the Sanskrit node has no support in the reference Nourai uses for the root."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "ranz, ranj",
+          "verdict": "plausible",
+          "derivation": "The two forms are exactly right and well attested: Book Pahlavi writes the noun <lnc> = ranj 'toil, trouble' (MacKenzie, Concise Pahlavi Dictionary p.70: «ranj [lnc | P rnj, (M rnz), N ~] toil, trouble», with the derivatives ranjag 'troubled', ranjēnīdan 'to trouble', ranjwar > NP ranjūr), while Manichaean Middle Persian, written in a script that distinguishes the affricate from the sibilant, spells it rnz — hence Nourai's doublet 'ranz, ranj', which he takes from Mo'in's footnote ('in the Turfan leaves ranz'). Nyberg II p.171 has «ranj [lnc'] trouble, toil, grief ... MPrth rnj; MPrs rnz; Paz. ranj, rand; NP ranj», linking it to the verb raxtan/ranj- 'to vex, grieve, exhaust'. What is not right is the arrow: Middle Persian ranj is not derived from a Sanskrit word but continues Old Iranian *ranj- (YAv. rənjaiti), the two Indo-Iranian branches being sisters. Hence 'plausible' — the node's forms and glosses are correct, its parentage is not.",
+          "derivation_fa": "هر دو صورت درست و گواهی‌شده‌اند: در پهلویِ کتابی اسم را <lnc> یعنی ranj می‌نویسند (مکنزی، فرهنگ کوچک پهلوی ص ۷۰: «ranj [lnc] toil, trouble» با مشتقات ranjag، ranjēnīdan و ranjwar > رنجورِ فارسی)، و در فارسی میانهٔ مانوی که خط آن «ج» و «ز» را جدا می‌نویسد، صورت rnz آمده است؛ همان دوگانهٔ «ranz, ranj» که نورایی از حاشیهٔ معین («در اوراق تورفان ranz») گرفته است. نیبرگ (ج ۲ ص ۱۷۱) نیز «ranj ... MPrth rnj؛ MPrs rnz؛ پازند ranj, rand؛ فارسیِ نو رنج» را با فعل raxtan/ranj- پیوند می‌دهد. آنچه درست نیست پیکانِ نمودار است: «رنجِ» فارسی میانه از سنسکریت نیامده، بلکه دنبالهٔ ایرانی باستان *ranj- (اوستایی rənjaiti) است. پس صورت‌ها درست‌اند ولی نسبِ ترسیم‌شده نه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/رنج"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:963",
+              "status": "supports",
+              "note": "Mo'in's footnote to رنجه (BQT vol.2, ر section, BQT_v2_pages.txt l.24992) reads «رنجه، پهلوی [rnc] «باروچا» (غم، درد، ناراحتی)، در اوراق تورفان ranz (درد) از سانسکریت rjyate (در اضطراب شدن)» — the Pahlavi forms ranj/ranz on the chart come straight from here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary p.70 (PHD.txt l.557)",
+              "stance": "supports",
+              "note": "«ranj [lnc | P rnj, (M rnz), N ~] toil, trouble. ~ag [-k' | N ~a] troubled. ranjēnīdan, ranjēn- [lncyn-ytn'] trouble.» and p.71 «ranjwar [lncwl | (M rnzwr), N ranjūr] troubled, distressed»."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary s.v. ranj (NYB_vol2_glossary.txt l.3240)",
+              "stance": "supports",
+              "note": "«ranj [lnc'] trouble, toil, grief 13¹³. 56²⁹ etc. — MPrth rnj; MPrs rnz (A-H II), rnzwr 'distressed' (S); Paz. ranj, rand; NP ranj. V. raxtan.»"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 p.191",
+              "stance": "partial",
+              "note": "«*MIDDLE PERSIAN: BMP lncyn- /ranj-/ ... MMP rnz 'toil, labour, trouble' ... *PARTHIAN: rnj» — same forms, but as inherited Iranian, not from Sanskrit."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "ranj; ranjândan",
+          "verdict": "confirmed",
+          "derivation": "New Persian رنج ranj 'pain, toil, suffering' is the regular continuation of Middle Persian ranj (<lnc>) — an unchanged inheritance, since MP -anj gives NP -anj directly; Wiktionary states 'Inherited from Middle Persian lnc /ranǰ/ \"toil\"' citing MacKenzie 1971: 70. The derivatives in the chart's parenthesis are all transparent: رنجور ranjūr 'ill, afflicted' < MP ranjwar (ranj + -war 'bearing'), رنجبر ranjbar 'toiler, labourer' (ranj + bar- 'to carry'), رنجش ranješ 'offence' (verbal noun in -eš), رنجیدن ranjīdan 'to be pained, take offence' (the intransitive), and the causatives رنجاندن / رنجانیدن ranjāndan / ranjānīdan 'to hurt, offend', formed with the Persian causative -ān- exactly as MP ranjēnīdan was formed with -ēn-. Cheung 2007: 191 lists NP ranjidan under *Hranj-. The Hafez couplet Nourai prints ('نهال دشمنی برکن که رنج بیشمار آرد') is a standard attestation of the noun.",
+          "derivation_fa": "«رنج» فارسیِ نو دنبالهٔ بی‌واسطهٔ «ranj» فارسی میانه (نوشتهٔ <lnc>) است؛ خوشهٔ ‑نج در گذر از فارسی میانه به فارسی نو دگرگون نمی‌شود، ازاین‌رو صورت واژه یکسان مانده است (ویکی‌واژه، به نقل از مکنزی ۱۹۷۱ ص ۷۰). مشتقات داخل پرانتز نیز همه روشن‌اند: «رنجور» از ranjwar پهلوی (رنج + ‑ور)، «رنجبر» (رنج + بردن)، «رنجش» (اسم مصدر با ‑ش)، «رنجیدن» (فعل لازم) و «رنجاندن/رنجانیدن» که مانند ranjēnīdan پهلوی، سببیِ همان ستاک است، منتها با پسوند سببی‌سازِ ‑ان‑ فارسی نو. چونگ (۲۰۰۷ ص ۱۹۱) نیز «رنجیدن» را ذیل *Hranj- می‌آورد. ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/رنج"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1676",
+              "status": "partial",
+              "note": "Mo'in's Farhang has the expected entries (رنج، رنجش، رنجیدن، رنجاندن: e.g. MON_part1.txt l.2857 «رنجیدگی، رنجش، شکراب، اندوه، غم», l.2906 «رنجانیدن، رنجه کردن، گزند رسانیدن»), and Mo'in's own etymological footnote on the word is the BQT one quoted above; the 6-vol page 1676 itself cannot be verified because no scan of the six-volume edition exists (see refs_online.json s.v. MON)."
+            },
+            {
+              "ref": "IEC:663",
+              "status": "supports",
+              "note": "Mann p.663 lists exactly «Per. ranja, ranjiš 'sorrow, annoyance'; ranjidan, inf. 'be sad'» — the Persian material of this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "Cheung 2007 p.191, *NWIR section",
+              "stance": "supports",
+              "note": "«NP ranjidan 'to exert effort', (old ppp.) raxtah 'wounded, ill', ranj 'effort' ... Ham. ränjayän/ränj- 'to be offended'»."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.70–71",
+              "stance": "supports",
+              "note": "gives the New Persian outcome explicitly with the tilde: «ranj [lnc | ... N ~]», «ranjwar ... N ranjūr»."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt, grep 'ranj', 'randsch'",
+              "stance": "silent",
+              "note": "Horn's Grundriss treats āranj 'elbow' (no. ~, phlv. āranj) and dranjītan (no. 71) but has no article on رنج itself."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien has no entry for رنج."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "laggazô, laggeô",
+          "verdict": "plausible",
+          "derivation": "Both Greek verbs exist, though they are rare glossary words rather than classical vocabulary. LSJ s.v. λαγγάζω: 'to slacken', = ἐνδίδωμι (Antiph. 37), with Photius λαγγάζει· ὀκνεῖ 'he hesitates', Hesychius λαγγεῖ· ὀκνεῖ, λαγγάσαι· περιφυγεῖν 'to escape', and the by-forms λαγγαρεῖ· ἀποδιδράσκει, λαγγεύει· φεύγει. Mann's gloss 'droop, flag' is a fair rendering of 'slacken, hold back'. The problem is the affiliation: Mann himself files them beside λαγαρός 'slack, sunken', and λαγαρός/λαγγάζω are today referred to the root *(s)leg- 'to be slack' (Pokorny s.v. (s)lēg-, whence also Lat. langueō, laxus and Gk. λαγαίω 'release') — a root with no Iranian member and no connection to Persian ranj. So the words and the sense are right, but they belong to the chart only because Mann's ad hoc *lang- yoked them to the Persian branch.",
+          "derivation_fa": "هر دو فعل یونانی واقعی‌اند، هرچند واژه‌هایی نادر و بیشتر فرهنگ‌نامه‌ای‌اند تا کلاسیک. لیدل‑اسکات ذیل λαγγάζω می‌آورد «to slacken» (= ἐνδίδωμι، آنتیفانس ۳۷)، و فوتیوس و هزیخیوس صورت‌های λαγγεῖ «درنگ می‌کند»، λαγγάσαι «گریختن»، λαγγεύει «می‌گریزد» را ثبت کرده‌اند؛ پس معنیِ «افسردن/سست شدن» که مان داده تقریباً درست است. اشکال در نسب است: خودِ مان این فعل‌ها را کنار λαγαρός «سست، فرورفته» می‌گذارد و امروز این خانواده را ذیل ریشهٔ *(s)leg- «سست بودن» (پوکورنی، هم‌ریشه با languēo و laxus لاتین) می‌آورند، ریشه‌ای که هیچ عضو ایرانی ندارد و با «رنج» بی‌ارتباط است. پس واژه‌ها درست‌اند اما پیوندشان با شاخهٔ فارسی تنها بر ساختهٔ مان استوار است.",
+          "sources": [
+            "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dlagga%2Fzw"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:663",
+              "status": "supports",
+              "note": "Mann p.663: «Gk. laggázo, laggéo 'droop, flag' beside lagarós, adj. 'sunken, slack'» — the node reproduces Mann exactly (IEC.txt leaf 373)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Pokorny, (s)lēg- 'schlaff sein' (pp.~959 f.); legʷh- pp.660 f.",
+              "stance": "contradicts",
+              "note": "Pokorny places the λαγαρός / λαγγ- family with the 'slack' root, and puts no Greek verb of this shape under the 'light/quick' root that carries the Iranian ranj-material at pp.660 f. (POK_02.txt leaves 320–321)."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985, root index",
+              "stance": "silent",
+              "note": "no root corresponding to Greek λαγγάζω appears in the AHD appendix (the appendix indexes only roots with English reflexes)."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, Dictionary of Selected Synonyms",
+              "stance": "silent",
+              "note": "Buck's chapters on 'pain, grief, sorrow' do not connect Greek λαγγάζω with Persian ranj."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Laqalaqa",
+      "verdict": "plausible",
+      "modern_form": "Akkadian laqlaqqu (also raqraqqu) 'stork', an onomatopoeic bird-name; the Arabic and Persian words are either borrowed from it (possibly through Aramaic) or independent imitations of the same clatter",
+      "note": "The Akkadian word is real and means 'stork': CAD registers laqlaqqu / raqraqqu, and Assyrian Neo-Aramaic has ܠܲܩܠܵܩܵܐ laqlāqā. Nourai's headword-shape 'Laqalaqa' follows Zimmern's own spelling (AKD p.52: «akk. laqalaqa ein Vogel»); Lokotsch no.1294 writes it «ass. lakalaka» after Delitzsch HWB 885a. Two caveats keep this from being 'confirmed'. (i) The gloss 'flamingo, stork' is not Zimmern's: on p.52 he writes only «ein Vogel» ('a bird') and the word 'Weihe od. ä.' ('kite or similar') on that line belongs to the preceding entry. (ii) The very reference Nourai cites doubts the arrow: Zimmern continues «fraglich, ob dazu arab. laqlaq 'Storch' gehört, oder beiderseits unabhängig ein onomatop. Name vorliegt» — 'it is questionable whether Arabic laqlaq belongs with it, or whether an onomatopoeic name arose independently on both sides'. Lokotsch takes the second view outright. Wiktionary is cautious in the same way ('possibly came from Akkadian via unattested Aramaic'). So the Akkadian root box is a reasonable but not a demonstrated starting point.",
+      "note_fa": "واژهٔ اکدی واقعی است و «لک‌لک» معنی می‌دهد: فرهنگ آشوریِ شیکاگو (CAD) صورت‌های laqlaqqu و raqraqqu را ثبت کرده و در آرامیِ نوِ آشوری نیز ܠܲܩܠܵܩܵܐ آمده است. املای «Laqalaqa» در کتاب از خودِ زیمرن گرفته شده (ص ۵۲: «akk. laqalaqa ein Vogel») و لوکوچ (شمارهٔ ۱۲۹۴) آن را «ass. lakalaka» می‌نویسد. اما دو نکته مانع پذیرشِ کاملِ ریشه است: نخست آنکه معنیِ «فلامینگو، لک‌لک» از آنِ زیمرن نیست؛ او تنها «ein Vogel» (پرنده‌ای) نوشته است. دوم آنکه همان مأخذِ مورد استناد در درستیِ پیکان تردید می‌کند: «تردیدآمیز است که آیا laqlaqِ عربی به آن مربوط است یا در هر دو سو نامی آوایی (onomatopoeic) به‌طور مستقل پدید آمده است». لوکوچ نیز همان دیدگاه دوم را می‌پذیرد. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/لقلق",
+        "https://en.wiktionary.org/wiki/لک‌لک"
+      ],
+      "ref_check": [
+        {
+          "ref": "AKD:52",
+          "status": "partial",
+          "note": "Zimmern, Akkadische Fremdwörter (1917) p.52 (AKD.txt leaf 61): «akk. laqalaqa ein Vogel : fraglich, ob dazu arab. laqlaq Storch gehört, oder beiderseits unabhängig ein onomatop. Name vorliegt». The page has the word and the Arabic comparison, but explicitly leaves the derivation open — and does not gloss the Akkadian word 'flamingo, stork'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "LKT",
+          "where": "Lokotsch no. 1294",
+          "stance": "contradicts",
+          "note": "«Ar. laklak: 'Storch' [onomatopoetische Bildung nach dem Klappern des Schnabels, ebenso wie ass. lakalaka Del HWB 885a], ebenso tk. leklek, vulg. lejlek ... hieraus rum. liliac, serb. lelek, russ. leklek» — Lokotsch derives Arabic and Assyrian independently from the bill-clatter, i.e. no borrowing chain."
+        },
+        {
+          "src": "FVQ",
+          "where": "FVQ_pages.txt, grep لقلق",
+          "stance": "silent",
+          "note": "not a Qur'anic word; Jeffery has no entry."
+        },
+        {
+          "src": "AFM",
+          "where": "Addi Shir, ل section pp.141–142 (AFM.pdf pdf-pages 143–144)",
+          "stance": "silent",
+          "note": "the only near headword is «( اللَقَانِق ) ... اسم لأحد الأمعاء» (a sausage/intestine word); Addi Shir does not treat لقلق, i.e. he does not regard it as a Persian loan in Arabic."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "laqlaq; laqlaqeh",
+          "verdict": "plausible",
+          "derivation": "Arabic لَقْلَق laqlaq (pl. لقالق laqāliq) 'stork' is a reduplicated CaCCaC form of the kind Arabic uses for animal cries and noisy things, and لَقْلَقَة laqlaqa is its regular maṣdar, 'clattering, clacking' — used both of the stork's bill-clatter and, figuratively, of loud empty talk (Mo'in: «لقلقه [ع. لقلقة] (مصدر) سخت آواز کردن؛ آواز لکلک ... فصاحت عاری از بلاغت» — 'eloquence devoid of rhetoric'). Wiktionary compares Akkadian laqlaqqu and Persian lak-lak and suggests the word 'possibly came from Akkadian via unattested Aramaic'; Neo-Aramaic laqlāqā would be the missing link. Zimmern (the reference cited) leaves open whether Arabic borrowed it or coined it independently from the same sound, and Lokotsch no.1294 opts firmly for independent onomatopoeia. Since a reduplicated bird-cry name can arise anywhere, the borrowing arrow is likely but not provable — 'plausible'.",
+          "derivation_fa": "«لَقْلَق» عربی (جمع: لقالق) «لک‌لک» بر وزنِ مکرّرِ فَعْلَل است، همان الگویی که عربی برای بانگِ جانوران و صداهای پرهیاهو به کار می‌برد، و «لَقْلَقَة» مصدرِ قاعده‌مندِ آن است: «سخت آواز کردن، آوازِ لک‌لک» و به‌طور مجازی «سخنِ بیهوده» (معین: «فصاحتی عاری از بلاغت»). ویکی‌واژه آن را با اکدی laqlaqqu و فارسی «لک‌لک» می‌سنجد و احتمال می‌دهد که از راهِ آرامیِ گواهی‌نشده از اکدی گرفته شده باشد؛ صورت آرامیِ نو ܠܲܩܠܵܩܵܐ حلقهٔ گمشده است. اما زیمرن (همان مأخذی که نورایی آورده) در وام‌گیری تردید می‌کند و لوکوچ آن را ساختی آوایی و مستقل می‌داند. چون چنین نام‌های آوایی در هر زبانی جداگانه می‌توانند پدید آیند، این پیکان محتمل است ولی اثبات‌ناشدنی؛ یعنی با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لقلق"
+          ],
+          "ref_check": [
+            {
+              "ref": "AKD:52",
+              "status": "partial",
+              "note": "Zimmern p.52 raises the Arabic word only to question the connection: «fraglich, ob dazu arab. laqlaq Storch gehört, oder beiderseits unabhängig ein onomatop. Name vorliegt» (AKD.txt leaf 61)."
+            },
+            {
+              "ref": "MON:3616",
+              "status": "supports",
+              "note": "Mo'in s.v. لقلقه (MON_part2.txt l.39947): «لقلقه: [ع. لقلقة] (مصدر) سخت آواز کردن؛ آواز لکلک ... آوازی همراه با جنبش و اضطراب؛ فصاحت عاری از بلاغت» — the Arabic origin tag [ع.] and both senses Nourai gives. The 6-vol page number itself is unverifiable (no scan of the six-volume Farhang exists)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1294",
+              "stance": "contradicts",
+              "note": "«Ar. laklak: 'Storch' [onomatopoetische Bildung nach dem Klappern des Schnabels, ebenso wie ass. lakalaka]» — independent creation, not a loan."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir ل section (pp.141–142)",
+              "stance": "silent",
+              "note": "no entry for لقلق — Addi Shir does not list it among the Persian loans in Arabic, consistent with the word being Semitic."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi p.241–242 (PLA_pages.txt leaves 255–256)",
+              "stance": "silent",
+              "note": "Asbaghi's ل section runs لجام, لقن, لخلخه, لعل, لاله, لكن, لهراسب, لوبيا, لوز, لوزينج, ليلك, ليمون — لقلق is absent, i.e. he does not treat it as a Persian loan either."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "laklak, laqlaq; laqlaqeh",
+          "verdict": "confirmed",
+          "derivation": "NP لک‌لک laklak 'stork' (with the variants لقلق laqlaq and لغلغ laġlaġ that the chart's script field records) is the Arabic word taken into Persian, the Arabic qāf being domesticated to k in the everyday form — hence the doublet laklak (popular) beside laqlaq (learned, straight from the Arabic spelling). Mo'in states the whole chain in his footnote to Borhan-e Qate' p.1902: «و نیز لکلک > لگلگه (ه.م.) < لقلق (عر). اکدی laqlaqu (نام پرنده) (زیمرن، لغات دخیلهٔ اکدی ص۵۲)؛ پرنده‌است از درازپایان با گردن و پای دراز سفیدرنگ با بالهای سیاه که در بهار بر بالای خانه‌های بلند یا درختان لانه سازد» — Persian laklak from Arabic laqlaq, from Akkadian, citing the very Zimmern page Nourai cites. لقلقه laqlaqeh 'idle chatter, slang speech' is the Arabic maṣdar in its Persian use, with the by-form لغلغه (Mo'in: «لغلغه [= لکلکه] (اِ.) سخن بیهوده، گفتار هرزه»); the Sanā'i couplet Nourai prints uses it in exactly that sense. From Persian the bird-name went on to Ottoman Turkish leylek.",
+          "derivation_fa": "«لک‌لک» فارسی (با گونه‌های «لقلق» و «لغلغ» که در نمودار آمده) همان واژهٔ عربی است که به فارسی راه یافته و «ق» عربی در صورت عامیانه به «ک» بدل شده؛ ازاین‌رو دوگانهٔ «لک‌لک» (عامیانه) در برابر «لقلق» (کتابی، بر پایهٔ املای عربی). معین در حاشیهٔ برهان قاطع ص ۱۹۰۲ همهٔ زنجیره را می‌آورد: «و نیز لکلک > لگلگه < لقلق (عر). اکدی laqlaqu (نام پرنده) (زیمرن، لغات دخیلهٔ اکدی ص ۵۲)». «لقلقه» نیز مصدر عربی است که در فارسی به معنی «سخن بیهوده» به کار رفته، با گونهٔ «لغلغه» (معین: «لغلغه [= لکلکه] سخن بیهوده، گفتار هرزه»)؛ بیت سنایی که نورایی آورده دقیقاً همین معنی را دارد. از فارسی این نامِ پرنده به ترکی عثمانی (leylek) رفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/لک‌لک",
+            "https://en.wiktionary.org/wiki/لقلق"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1902",
+              "status": "supports",
+              "note": "Borhan-e Qate' p.1902 has the entries «لکلک ... لکلکه - بضم هر دو لام بروزن وسوسه: سخنان هرزه و بیهوده باشد» with Mo'in's fn.5 «و نیز لکلک * لگلگه (ه.م.) < لقلق (عر). اکدی laqlaqu (نام پرنده) (زیمرن، لغات دخیلهٔ اکدی ص۵۲)». Read via ref_page.py BQT:1902 (pdf page 699 of BQT_v3_picofile.pdf); image and OCR at data/verification/sources/refs/ocr/BQT/1902.png/.txt."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. لکلک and لغلغه (MON_part2.txt ll.40087, 40090)",
+              "stance": "supports",
+              "note": "«لکلک [... معر. لقلق] (اِ.) (جانورشناسی) پرنده‌ای است از راستهٔ پابلندان ...» and «لغلغه: [= لکلکه] (اِ.) سخن بیهوده، گفتار هرزه» — both the bird and the 'idle talk' sense, with the Arabic connection."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1294",
+              "stance": "partial",
+              "note": "records tk. leklek / lejlek and the Balkan reflexes from the same word, but explains the whole group as onomatopoeic rather than as a chain of loans."
+            },
+            {
+              "src": "AKD",
+              "where": "Zimmern p.52",
+              "stance": "partial",
+              "note": "supplies the Akkadian end-point that Mo'in's footnote cites, while doubting the link (see the root's ref_check)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
