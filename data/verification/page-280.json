@@ -1,0 +1,809 @@
+{
+ "pdf_page": 280,
+ "book_page": 250,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-06",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Ksero",
+   "verdict": "confirmed",
+   "modern_form": "PIE *ksē-ro- 'dry' (of sky and weather also 'dry = bright, clear'); AHD/Watkins *ksero-",
+   "note": "Pokorny IEW p.625 heads the entry 'ksē-ro- „trocken‘; vom Himmel und Wetter auch „trocken = hell, klar‘', collecting exactly the material Nourai charts: Gk. ξερόν / ξηρός, Lat. serescunt, serenus, OHG serawen. Root name, language label ('Indo-European') and gloss ('dry') are therefore all faithful to the cited source, and Watkins (AHD) has the identical headword 'ksero-. Dry.' The one nuance the chart does not show is that Pokorny himself calls *ksē-ro- 'wahrscheinlich eine Erweiterung von ksā- „brennen, versengen‘' (p.624-5), and that the Latin branch is only 'perhaps' (Watkins) / 'possibly' (Klein) attached: Ernout–Meillet judge the whole group 'obscur et mal défini'.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *ksē-ro- به معنی «خشک» است و پوکورنی در ص ۶۲۵ همین سرواژه را با همین معنا آورده و افزوده است که دربارهٔ آسمان و هوا معنی «روشن و صاف» می‌دهد؛ پس نام ریشه، برچسب زبانی و معنایی که نورایی داده درست است. واتکینز در پیوست فرهنگ میراث آمریکایی نیز همین ریشه را با همین معنا ثبت کرده است. تنها نکته‌ای که نمودار نشان نمی‌دهد این است که پیوند لاتینی serenus با این ریشه قطعی نیست و ارنو–مه‌یه همهٔ این خوشه را «تاریک و نامشخص» خوانده‌اند.",
+   "sources": [
+    "https://www.etymonline.com/word/xero-",
+    "https://en.wiktionary.org/wiki/ξηρός"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:625",
+     "status": "supports",
+     "note": "Pokorny IEW p.625, read in POK_02.txt leaf 285-286 (awk 'BEGIN{RS=\"\\f\"} NR==285'): 'ksē-ro- „trocken‘; vom Himmel und Wetter auch „trocken = hell, klar‘. Gr. ξερόν (nur Akk.) „festes, trockenes Land‘, dehnstufig ξηρός „trocken, dürr‘ ... lat. serescunt ... serenus „heiter, hell, klar, trocken‘ (vom Himmel und Wetter); ahd. serawen ... WP. I 503'. Exactly Nourai's root name, language and gloss."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny I 503 s.v. kser- (WLD_Bd1_pages.txt leaf 512, running head 'kser- — ksuelp- 503')",
+     "stance": "supports",
+     "note": "'kser- „trocken“; vom Himmel und Wetter auch „trocken = hell, klar“. Gr. ξερόν ... lat. serescunt ... serenus „heiter, hell, klar, trocken“' — the source Pokorny 625 refers to."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 appendix s.v. ksero- (AHD_watkins1985.txt line 648)",
+     "stance": "supports",
+     "note": "'ksero-. Dry. 1. Lengthened-grade form *ksēro- in Greek xēros, dry: XERO-; ELIXIR, PHYLLOXERA, XEROPHTHALMIA. 2. Perhaps suffixed variant form *kseres-no- in Latin serēnus, serene, bright, clear: SERENE. [Pok. ksero- 625.]' — the whole chart in one entry, with 'Perhaps' on the Latin branch."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck, Selected Synonyms 15.84 DRY §3 (SYN.txt line 27220 ff.)",
+     "stance": "supports",
+     "note": "'Grk. ξηρός ... prob. : Lat. serescēre „become dry‘, serēnus „fair‘ (of weather), OHG serawen „become dry, wither‘. Walde-P. 1.503, Ernout-M. 928.'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, Indo-European Comparative Dictionary (IEC.txt line 8251)",
+     "stance": "silent",
+     "note": "Mann's only 'Ksero-' is a homonym meaning 'sixsome' (to *ksueḱs 'six'); he has no entry for the 'dry' root, so the book neither supports nor contradicts."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Greek",
+     "words": "xěros",
+     "verdict": "plausible",
+     "derivation": "Greek ξηρός (xērós) 'dry, withered' is the lengthened-grade *ksē-ro- beside the short-vowel ξερόν (only acc.) 'dry land' — both are printed side by side on Pokorny's p.625, and Nourai's 'xěros' with a breve reflects the ξερ- variant rather than the ξηρ- one. The gloss is where the node slips: ξηρός is simply the adjective 'dry', while 'dry powder, medicine' is the sense of the substantivised neuter derivative ξηρίον (xēríon) 'desiccative powder for wounds', which is the actual etymon of Arabic al-iksīr. Nourai has telescoped the two forms into one box, so the arrow to Arabic is right but the form it starts from is not the one the sources name. A further caveat that neither Nourai nor his sources flag: Wiktionary notes that the lengthened η where ε is expected is itself problematic.",
+     "derivation_fa": "یونانی ξηρός (xērós) یعنی «خشک، پژمرده»، صورت کشیدهٔ *ksē-ro- است در برابر ξερόν «خشکی، خشکی دریا» که پوکورنی هر دو را در ص ۶۲۵ کنار هم آورده است. اما معنایی که نورایی داده («گرد خشک، دارو») از آنِ خود ξηρός نیست بلکه از آنِ مشتق خنثای آن ξηρίον (xēríon) «گردِ دارویی خشک‌کنندهٔ زخم» است که همین واژه اصل عربی الإکسیر است؛ پس نورایی دو صورت را در یک جعبه ادغام کرده است. جهت وام‌گیری درست است ولی صورت مبدأ دقیق نیست؛ بنابراین ادعا با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ξηρός",
+      "https://www.etymonline.com/word/xero-",
+      "https://www.etymonline.com/word/elixir"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:625",
+       "status": "supports",
+       "note": "POK_02.txt leaf 285-286: 'Gr. ξερόν (nur Akk.) „festes, trockenes Land‘, dehnstufig ξηρός „trocken, dürr‘' — the Greek word is there under this root, but with the plain sense 'dry', not 'dry powder, medicine'."
+      },
+      {
+       "ref": "AHD:424",
+       "status": "partial",
+       "note": "The New College Edition p.424 (the dictionary entry 'elixir', which is where AHD gives 'Late Greek xērion, desiccative powder, from Greek xēros, dry. See ksero- in Appendix') could not be paged: only the appendix is on disk. The appendix entry (AHD_watkins1985.txt line 648) does say 'Lengthened-grade form *ksēro- in Greek xēros, dry: XERO-; ELIXIR ...', i.e. it supports the substance of the arrow."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. elixir, KLN_1966.txt leaf 277 (printed p.508-509)",
+       "stance": "partial",
+       "note": "'ML., fr. Arab. al-iksir, which is formed fr. Arab. al-, „the‘, and Gk. ξηρίον, „dry medicinal substance, cataplasm‘, fr. ξηρός „dry‘' — Klein separates the two Greek forms that Nourai's single box merges."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 15.84 DRY §3 (SYN.txt line 27220 ff.)",
+       "stance": "supports",
+       "note": "lists Grk. ξηρός as the ordinary word for 'dry', 'prob. : Lat. serescēre, serēnus ... Walde-P. 1.503'."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny I 503 (WLD_Bd1_pages.txt leaf 512)",
+       "stance": "supports",
+       "note": "'Gr. ξερόν (*nur Akk.) „festes, trockenes Land“, dehnstufig ξηρός „trocken, dürr“'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Arabic",
+     "words": "al-iksir",
+     "verdict": "confirmed",
+     "derivation": "Arabic الإكسير al-iksīr 'the philosophers' stone; elixir' = the article al- + iksīr, a loan of Greek ξηρίον xēríon 'drying powder (for wounds)'; the Greek ξ- (ks-) is rendered by Arabic كس ks, which Devic (1876) defends against the objection that Arabic usually writes Greek ξ as سك sk. Wiktionary adds the intermediary the chart omits: the word reached Arabic through Classical Syriac ܟܣܝܪܝܢ (ksīrīn), i.e. through the Syriac-speaking translators of Greek medicine and alchemy in the 8th-9th c. In Arabic alchemy (Jābir, al-Rāzī) it became the name of the transmuting substance, whence Medieval Latin elixir.",
+     "derivation_fa": "عربی الإکسیر مرکّب است از حرف تعریف «ال» و إکسیر، و إکسیر وام‌واژه‌ای است از یونانی ξηρίον «گردِ خشک‌کنندهٔ زخم». دویک (۱۸۷۶) همین را می‌گوید و ایراد کسانی را که می‌گفتند عرب ξ یونانی را همواره «سک» می‌نویسد پاسخ می‌دهد. ویکی‌واژه حلقهٔ میانی را نیز می‌افزاید: واژه از راه سریانی ksīrīn — یعنی از راه مترجمان سریانی‌زبان پزشکی و کیمیای یونانی در سدهٔ دوم و سوم هجری — به عربی رسیده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/إكسير",
+      "https://www.etymonline.com/word/elixir"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:424",
+       "status": "partial",
+       "note": "AHD New College p.424 (s.v. elixir) not on disk; the appendix entry ksero- (AHD_watkins1985.txt line 648) lists ELIXIR among the English words from Greek xēros, which is the same claim. Klein, Lokotsch, Webster and Devic (below) all state the Greek > Arabic step explicitly."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. elixir (KLN_1966.txt leaf 277, p.508-509)",
+       "stance": "supports",
+       "note": "'ML., fr. Arab. al-iksir, which is formed fr. Arab. al-, „the‘, and Gk. ξηρίον, „dry medicinal substance, cataplasm‘, fr. ξηρός „dry‘.'"
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch 1927 no.903 (LKT.txt, 'Ar. iksir')",
+       "stance": "supports",
+       "note": "'903. Ar. iksir: [Aus gr. ξηρίον „das Trockene‘] „Stein der Weisen‘ ... hieraus it. elissire, elisire, frz. élixir, sp. pg. rum. elixir, dtsch. Elixir, engl. elixir. [DE 259/260. Devic 108/109. Lammens Rem 104/105.]' — covers the whole chain including Nourai's DEV:108."
+      },
+      {
+       "src": "DEV",
+       "where": "Devic 1876 pp.108-109 (DEV.txt leaf 141)",
+       "stance": "supports",
+       "note": "'Elixir. ... C'est l'arabe el-iksīr ... Le mot arabe lui-même n'est autre chose que la transcription du grec ξηρόν, sec, médicament sec.'"
+      },
+      {
+       "src": "WEB",
+       "where": "Webster's New Twentieth Century, vol.1 s.v. elixir (WEB_vol1.txt line 62979)",
+       "stance": "supports",
+       "note": "'from Ar. el iksir, the philosopher's stone; el, al, the, and iksir, philosopher's stone; prob. from Gr. xēros, dry.'"
+      },
+      {
+       "src": "FVQ",
+       "where": "Jeffery, Foreign Vocabulary of the Qur'an (FVQ.txt, grep 'iksir')",
+       "stance": "silent",
+       "note": "no hit — the word is not Qur'anic, so Jeffery has no entry."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir, al-Alfaz al-Farisiyya al-Mu'arraba (AFM.txt, grep 'اكسير/إكسير')",
+       "stance": "silent",
+       "note": "no hit — Addi Shir lists Persian loans in Arabic and does not treat this Greek one."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "eksîr",
+     "verdict": "confirmed",
+     "derivation": "New Persian اکسیر eksīr is a straight loan back from Arabic al-iksīr, taken over without the article, as regularly with Arabic alchemical vocabulary in Persian from the 4th/10th c. on; it is a standard word of classical Persian alchemy and of the mystical lexicon (Hāfez, quoted in the chart: '... bātel dar īn xayāl ke eksīr mīkonand'). Dehkhoda marks it 'معرب' and Mo'in '[معر.]', i.e. an Arabicised (ultimately Greek) word, not an inherited Iranian one; so the chart's Arabic > Persian arrow is right, and the ultimate Greek origin comes with it.",
+     "derivation_fa": "«اکسیر» در فارسی نو وام‌واژه‌ای است از عربی الإکسیر که بدون حرف تعریف وام گرفته شده — همان‌گونه که دیگر اصطلاحات کیمیا از سدهٔ چهارم هجری به بعد. دهخدا آن را «معرّب» و معین آن را «[معر.]» نشانه زده‌اند، پس واژه ایرانی‌تبار نیست و سرانجام به یونانی ξηρίον می‌رسد. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/اکسیر/",
+      "https://en.wiktionary.org/wiki/إكسير"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:331",
+       "status": "partial",
+       "note": "The 6-vol Amir Kabir pagination cannot be checked on disk; in the two-volume Mo'in on disk the entry stands at MON_part1.txt line 15846 (running head '۱۸۲ فرهنگ فارسی معین' two pages earlier, i.e. p.182-183 of that edition): 'اکسیر: (ا.) (کیم.) جوهری گدازنده که ماهیت اجسام را تغییر دهد ...'. The vajehyab/abadis text of the same entry carries Mo'in's origin tag '[معر.]' (mu'arrab = Arabicised), which is exactly the claim the arrow makes."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Farhang-e Farsī s.v. اکسیر, via abadis.ir",
+       "stance": "supports",
+       "note": "'اکسیر (اِ) [معر.] (اِ.) ۱- ماده ای که ماهیت اجسام را تغییر دهد و با ارزش تر سازد' — tagged as an Arabicised word."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol.1 (BQT_v1_pages.txt, grep 'اکسیر')",
+       "stance": "silent",
+       "note": "no hit in the OCR of vol.1; Dehkhoda (abadis) cites Borhan for the sense ('از برهان') but the etymology there is not given."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Rishe-ha (incoming/ARY, grep 'اکسیر')",
+       "stance": "silent",
+       "note": "no entry — Aryanpur covers only inherited Indo-European Persian vocabulary, and eksīr is a Semitic-mediated loan."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "The box is a pass-through with no word printed: the intended form is French élixir, attested from the 13th c. in alchemical Latin/French texts and taken from Medieval Latin elixir, itself from Arabic al-iksīr, through the Latin translations of Arabic alchemy made in Spain in the 12th c. Devic p.108-109, the reference Nourai cites, is precisely the article 'Elixir' and gives the Spanish, Portuguese and Italian cognates alongside the French word.",
+     "derivation_fa": "این خانه در کتاب خالی چاپ شده و تنها حلقهٔ میانجی است؛ واژهٔ مورد نظر فرانسوی élixir است که از لاتینی میانه elixir و آن از عربی الإکسیر گرفته شده، از راه ترجمهٔ متون کیمیای عربی در اسپانیای سدهٔ دوازدهم میلادی. ارجاع نورایی به دویک ص ۱۰۸ دقیقاً همین مدخل است.",
+     "sources": [
+      "https://www.etymonline.com/word/elixir"
+     ],
+     "ref_check": [
+      {
+       "ref": "DEV:108",
+       "status": "supports",
+       "note": "Devic 1876, article 'Elixir', pp.108-109 = DEV.txt leaf 141 (the running head 'DES MOTS D'ORIGINE ORIENTALE. 109' falls in the middle of that leaf): 'Elixir. Esp. et portug. elixir, ital. elisire. C'est l'arabe el-iksīr, terme par lequel les alchimistes désignent la pierre philosophale ... Le mot arabe lui-même n'est autre chose que la transcription du grec ξηρόν, sec, médicament sec.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "Lokotsch no.903 (LKT.txt)",
+       "stance": "supports",
+       "note": "'hieraus it. elissire, elisire „Heiltrank‘, frz. elixir, sp. pg. rum. elixir, dtsch. Elixir, engl. elixir', citing 'Devic 108/109'."
+      },
+      {
+       "src": "PHN",
+       "where": "Pihan 1866 (PHN.txt, grep 'elixir')",
+       "stance": "silent",
+       "note": "no hit in the OCR; Pihan's list does not carry the article."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. elixir (leaf 277)",
+       "stance": "partial",
+       "note": "Klein routes English elixir directly from Medieval Latin rather than through French, so the chart's French link is an addition (a legitimate one — cp. Devic and Lokotsch)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "elixir",
+     "verdict": "confirmed",
+     "derivation": "English elixir is attested from the mid-13th c. in the alchemical sense 'philosophers' stone', from Medieval Latin elixir (Klein) or through French élixir (Devic, Lokotsch); the sense 'sovereign remedy, strong tonic' is 1590s and the quack-medicine use 1630s. The route Greek ξηρίον > (Syriac) > Arabic al-iksīr > Med.Lat. > Fr./Eng. is uncontroversial and agreed by Klein, Lokotsch, Webster and Etymonline.",
+     "derivation_fa": "انگلیسی elixir از نیمهٔ سدهٔ سیزدهم میلادی به معنی «سنگ کیمیا» دیده می‌شود، از لاتینی میانه elixir یا از راه فرانسوی؛ معنی «داروی شفابخش» از دههٔ ۱۵۹۰ و کاربرد آن برای داروهای شیادانه از دههٔ ۱۶۳۰ است. زنجیرهٔ یونانی ← سریانی ← عربی ← لاتینی میانه ← فرانسوی/انگلیسی مورد اتفاق کلاین، لوکوچ، وبستر و اتیموآن‌لاین است؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/elixir"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:509",
+       "status": "supports",
+       "note": "Klein 1966 vol.I, the leaf carrying the printed page number 508 (KLN_1966.txt leaf 277 = pp.508-509), s.v. 'elixir, n., 1) a substance supposed to prolong life; 2) a substance supposed to change all metals into gold. — ML., fr. Arab. al-iksir ... and Gk. ξηρίον ... fr. ξηρός „dry‘. See serene and cp. xero-.' — Nourai's page number is exact, and Klein's own cross-references reproduce the whole chart."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "Lokotsch no.903",
+       "stance": "supports",
+       "note": "'... dtsch. Elixir, engl. elixir.'"
+      },
+      {
+       "src": "WEB",
+       "where": "Webster's 2nd ed. s.v. elixir (WEB_vol1.txt line 62979)",
+       "stance": "supports",
+       "note": "'from Ar. el iksir ... prob. from Gr. xēros, dry.'"
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etym. Dict. (SKT.txt, grep 'Elixir')",
+       "stance": "silent",
+       "note": "no hit in the OCR of the concise edition."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "xer-, xero-; xeroderma",
+     "verdict": "confirmed",
+     "derivation": "English xero- (before a vowel xer-) is the learned combining form of Greek ξηρός 'dry', taken directly from Greek into scientific Latin from the mid-19th c.; xeroderma 'roughening/dryness of the skin' is a Medical Latin compound coined by the English dermatologist Erasmus Wilson from xero- + Greek δέρμα 'skin'. Nourai's gloss 'roughness of the skin' is Klein's own wording, and the branch is a direct Greek > English learned borrowing rather than an inherited one, which the chart's arrow from the Greek box correctly represents.",
+     "derivation_fa": "پیشوند علمی انگلیسی xero- (پیش از واکه xer-) صورت ترکیبی یونانی ξηρός «خشک» است که از میانهٔ سدهٔ نوزدهم مستقیماً در زبان علمی وام گرفته شده؛ وام‌گیری کتابی است نه میراثی. xeroderma را پزشک انگلیسی اراسموس ویلسون از xero- و δέρμα «پوست» ساخته است. معنایی که نورایی آورده عیناً تعریف کلاین است؛ ادعا درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/xero-"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1757",
+       "status": "supports",
+       "note": "The local 1966 two-volume OCR breaks off in 'ver-' (last leaf 902), so p.1757 itself cannot be paged; the same entries were read in the 1971 one-volume edition (KLN_1971.txt line 269073 ff.): 'xero-, before a vowel xer-, combining form meaning „dry‘. — Gk. ξηρο-, ξηρ-, fr. ξηρός „dry‘ ... prob. cogn. with L. serenus (for *kseres-nos) ... See serene and cp. elixir' and 'xeroderma, n., roughening of the skin (med.) — Medical L., coined by Erasmus Wilson fr. xero- and Gk. δέρμα, „skin‘.' The gloss 'roughness of the skin' in the chart is Klein's, and the alphabetical position (x-) is consistent with p.1757 of the 1966 edition."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. ksero-",
+       "stance": "supports",
+       "note": "'... in Greek xēros, dry: XERO-; ELIXIR, PHYLLOXERA, XEROPHTHALMIA.'"
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol.4 (FSD_vol4.txt, grep 'xeroderma')",
+       "stance": "silent",
+       "note": "no hit in this OCR volume."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Latin",
+     "words": "serenus",
+     "verdict": "plausible",
+     "derivation": "Latin serēnus 'clear, fair, cloudless, calm' (of sky and weather; hence figuratively 'cheerful, tranquil') is formed like terrenus, egenus from an older neuter s-stem *seres-, so *kseres-no-, with the regular Latin loss of initial ks- > s- (cp. serescere 'to dry' in Lucilius). Pokorny p.625 puts it under ksē-ro-, and Watkins repeats this — but with 'Perhaps', and Klein s.v. serene says the word is 'of uncertain origin. It possibly stands for *kseresnos'. Ernout–Meillet accept the formation but reject certainty: 'Le sens de „sec‘ suggère un rapprochement avec gr. ξηρός ... Mais tout ce groupe est obscur et mal défini ... En somme, rien de clair', pointing out that Greek ξερός is used only of dry land. Skeat's Concise Dictionary offers an altogether different comparison (σέλας 'brightness', σελήνη 'moon'). The chart's arrow is therefore the majority modern view but not a secure one.",
+     "derivation_fa": "لاتینی serēnus «صاف، روشن، بی‌ابر (دربارهٔ آسمان)» مانند terrenus و egenus از ستاکی خنثا با پسوند -no- ساخته شده، یعنی *kseres-no-، با تبدیل قاعده‌مند آغازین ks- به s- در لاتینی (قیاس کنید با serescere «خشک شدن»). پوکورنی و واتکینز آن را زیر همین ریشه آورده‌اند ولی با قید «شاید»؛ کلاین می‌گوید اصل آن نامعلوم است و ارنو–مه‌یه صریحاً می‌نویسند «هیچ چیز روشنی در کار نیست». پس این پیوند با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://www.etymonline.com/word/serene"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1422",
+       "status": "supports",
+       "note": "Klein 1966, the leaf whose printed page number is 1422 (KLN_1966.txt leaf 755): 'serene, adj., clear, bright; calm. — L. serenus, „clear, fair, cloudless, serene‘, of uncertain origin. It possibly stands for *kseresnos and is cogn. with Gk. ξηρός, „dry‘, OI. kṣāráḥ ... OHG. serawen, „to become dry‘. Cp. elixir, xerasia, xero-.' Nourai's page number is exact; note Klein's hedge 'of uncertain origin ... possibly'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "Pokorny 625 (POK_02.txt leaf 286)",
+       "stance": "supports",
+       "note": "'lat. serescunt (Lucil. I 306) „(die Kleider) trocknen (in der Sonne)‘, serenus „heiter, hell, klar, trocken‘ (vom Himmel und Wetter)'."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout–Meillet s.v. serēnus (LAT.txt lines 57514-57534)",
+       "stance": "partial",
+       "note": "'Serenus est formé comme terrenus, egenus, d'un ancien *seres-no-s ... Le sens de „sec‘ suggère un rapprochement avec gr. ξηρός, ξερός „sec‘ et avec v.h.a. serawen „sécher‘ ... Mais tout ce groupe est obscur et mal défini, pour le sens comme pour la forme ... En somme, rien de clair.'"
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise s.v. Serene (SKT.txt line 16928)",
+       "stance": "contradicts",
+       "note": "'Serene. (F. — L.) L. serēnus, bright, clear. Allied to Gk. σέλας, brightness, σελήνη moon, √SWAR.' — Skeat attaches serenus to the 'shine' root, not to *ksero-."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. ksero-",
+       "stance": "partial",
+       "note": "'2. Perhaps suffixed variant form *kseres-no- in Latin serēnus, serene, bright, clear: SERENE.' — supports, but hedged."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "serene, serenity",
+     "verdict": "confirmed",
+     "derivation": "English serene (mid-15c., first of a day or of weather, 'clear, fair, calm', only from the 1630s of persons) comes from Old French serein and directly from Latin serēnus; serenity is Middle French serenité, Old French serenite, from Latin serenitātem (acc. of serenitas 'clearness'), with the learned suffix -ity. Both are straightforward Latin-through-French borrowings of the Renaissance layer, with no sound change worth naming beyond the French loss of the Latin ending.",
+     "derivation_fa": "انگلیسی serene از میانهٔ سدهٔ پانزدهم میلادی نخست دربارهٔ روز و هوا به معنی «صاف و آرام» به کار رفته و از دههٔ ۱۶۳۰ دربارهٔ اشخاص؛ از فرانسوی کهن serein و مستقیماً از لاتینی serenus گرفته شده است. serenity از فرانسوی میانه serenité و آن از لاتینی serenitātem است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/serene"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no reference in the book; the claim was checked against Klein p.1422 and Etymonline instead (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 p.1422 (leaf 755)",
+       "stance": "supports",
+       "note": "'serenity, n. — MF. (= F.) serenite, fr. OF. serenite, fr. L. serenitatem, acc. of serenitas, „clearness, serenity‘, fr. serenus. See serene and -ity.'"
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol.4, s.v. serenade/serene (FSD_vol4.txt line 7311 ff.)",
+       "stance": "supports",
+       "note": "'< seren, serene, < L serenus, serene' in the entry immediately adjoining."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "French",
+     "words": "serenade",
+     "verdict": "plausible",
+     "derivation": "French sérénade is attested from the 16th c., but it is not formed in French from Latin serēnus: it is a borrowing of Italian serenata, literally 'calm (sky)', from sereno < Latin serenus, and the 'at night' component of the meaning — which Nourai puts in the gloss — comes from a secondary contamination in Italian with sera 'evening' (Latin sera, fem. of serus 'late'), as Klein, Funk & Wagnalls and Etymonline all state. So the Latin > French arrow skips the Italian stage that carries the whole semantic development, and the gloss 'music played at night' belongs to the sera-influenced Italian word rather than to anything in *ksero- 'dry'.",
+     "derivation_fa": "فرانسوی sérénade از سدهٔ شانزدهم دیده می‌شود ولی در خود فرانسه از serenus ساخته نشده است؛ وام‌واژه‌ای است از ایتالیایی serenata «(آسمانِ) صاف» از sereno. معنی «نوای شبانه» که نورایی آورده حاصل آمیختگی ثانویه با sera «شب، شامگاه» (از لاتینی serus «دیر») در ایتالیایی است — کلاین، فانک و ویگنالز و اتیموآن‌لاین هر سه همین را می‌گویند. پس پیکان مستقیم لاتینی ← فرانسوی حلقهٔ ایتالیایی را نادیده گرفته است.",
+     "sources": [
+      "https://www.etymonline.com/word/serenade"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no reference in the book for this box; checked against Klein p.1422, Funk & Wagnalls and Etymonline (see consulted)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 p.1422 (leaf 755)",
+       "stance": "partial",
+       "note": "'serenade, n. — F. sérénade, fr. It. serenata, lit. „calm sky‘, fr. sereno, „serene, calm‘, fr. L. serenus. See serene and -ade. It. serenata was influenced in meaning by the noun sera, ... „played at night‘' — i.e. Italian, not French, is the immediate source, and the 'night' sense is secondary."
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol.4 s.v. serenade (FSD_vol4.txt line 7311)",
+       "stance": "partial",
+       "note": "'serenade: opposed to aubade [Pr., < seren, serene, < L serenus, serene, as if < serus late]' — the same double etymology (serenus with contamination by serus)."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "English",
+     "words": "serenade",
+     "verdict": "confirmed",
+     "derivation": "English serenade is first recorded in the 1640s as 'a musical performance at night in the open air', especially one given by a lover under his lady's window, borrowed from French sérénade; the verb follows in the 1660s and the sense 'instrumental piece in the style of a serenade' in 1728. The French > English step, which is all the chart claims here, is uncontroversial.",
+     "derivation_fa": "انگلیسی serenade نخست در دههٔ ۱۶۴۰ به معنی «نوای شبانه در هوای آزاد، به‌ویژه زیر پنجرهٔ یار» دیده می‌شود و وام‌واژه‌ای است از فرانسوی sérénade؛ فعل آن از دههٔ ۱۶۶۰ و معنی موسیقایی آن از ۱۷۲۸ است. همین پیکان فرانسوی ← انگلیسی که نمودار می‌کشد درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/serenade"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "no reference in the book; checked against Klein p.1422 and Etymonline."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 p.1422 (leaf 755)",
+       "stance": "supports",
+       "note": "'serenata, n., serenade. — It., whence F. sérénade. See serenade.' with 'Derivatives: serenade, tr. and intr. v., serenad-er, n.'"
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls vol.4 (line 7313)",
+       "stance": "supports",
+       "note": "'ser″e-nade′, n. 1. An evening song, specif., a song sung in the open air at night, also, the music of such ...'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Kseubh",
+   "verdict": "confirmed",
+   "modern_form": "PIE *k(ʷ)seubʰ- 'to sway, rock, tremble' (LIV 372; Pok. 625 kseubh-)",
+   "note": "Pokorny p.625 has the headword 'kseubh- „schwanken, in schwingender Bewegung sein‘' and cites under it precisely the Iranian material of this chart: 'av. xšaob- „in Aufregung geraten‘ (xšufsqṅ), npers. ā-šuftan, ā-šōftan „in Bewegung versetzen‘, ā-šōb „Verwirrung, Tumult‘'. Nourai's gloss 'to shake, rock, disturb' is an accurate rendering of Pokorny's German. The root is still current in this shape: Cheung 2007 (s.v. *xšaub) reconstructs 'PIE *kʷseubʰ- „to rock, tremble‘ = LIV: 372 | Pok.: 625', and Wiktionary derives آشفتن from Proto-Iranian *xšawb- < PIE *k⁹sewbʰ-. Watkins/AHD has no entry for this root (it left no English reflex), which is a gap rather than a disagreement.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *k(ʷ)seubʰ- به معنی «جنبیدن، لرزیدن، در جنبش بودن» است. پوکورنی در ص ۶۲۵ همین سرواژه را آورده و زیر آن اوستایی xšaob- و فارسی «آشفتن، آشوفتن، آشوب» را نقل کرده است؛ پس نام ریشه، برچسب زبانی و معنایی که نورایی داده درست است. چونگ (۲۰۰۷) نیز همین ریشه را با ارجاع به LIV ۳۷۲ و پوکورنی ۶۲۵ تأیید می‌کند. در پیوست واتکینز مدخلی برای این ریشه نیست، ولی این نبود مدخل است نه مخالفت.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/آشفتن",
+    "https://en.wiktionary.org/wiki/آشوب"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:625",
+     "status": "supports",
+     "note": "POK_02.txt leaf 286 (Pokorny p.625): 'kseubh- „schwanken, in schwingender Bewegung sein‘. Ai. kṣúbhyati, kṣóbhate ... av. xšaob- „in Aufregung geraten‘ (xšufsqṅ), npers. ā-šuftan, ā-šōftan „in Bewegung versetzen‘, ā-šōb „Verwirrung, Tumult‘ ... WP. I 502 f.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny I 502 f. s.v. qseubh- (WLD_Bd1_pages.txt leaf 511, printed p.502)",
+     "stance": "supports",
+     "note": "'qseubh- „schwanken, in schwingender Bewegung sein“. Ai. kṣubhyati ... av. xšaob- „in Aufregung geraten“ (xšufsqṅ), np. ā-šuftan, ā-šōftan „in Bewegung versetzen“, gu-šuftan „zerstreuen“, ā-šōb „Verwirrung, Tumult“'."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 appendix (AHD_watkins1985.txt, grep 'kseubh')",
+     "stance": "silent",
+     "note": "no entry: the appendix runs 'ksero- ... ksun ... ku- ... kus-', with no kseubh- between them, because the root has no English descendant."
+    },
+    {
+     "src": "CHEUNG",
+     "where": "Cheung 2007 s.v. *xšaub (CHEUNG.txt line 29360 ff.)",
+     "stance": "supports",
+     "note": "'*xšaub „to rustle, tremble‘ ... PIE *kʷseubʰ- „to rock, tremble‘ = LIV: 372 | Pok.: 625. IE COGNATES: Pol. chybać, Lith. skubti, Goth. af-skiuban, OE scufan, Engl. to shift.'"
+    },
+    {
+     "src": "ISS",
+     "where": "Bailey, Dictionary of Khotan Saka s.v. kṣautte (ISS_alt_DKS.txt line 1633)",
+     "stance": "supports",
+     "note": "'From xšaub-:xšub- „to disturb‘, Av. xšaob-, xšufsan, M.Pers.T. wšwb-, ’šwb-; Zor.P. višōpišn, višuft; N.Pers. āšuftan, āšūftan, āšōb, gušuftan. IE Pok. 625 kseubh- „swing‘.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "xšaob, xšufsan; xšaub; â-xšuf-ta; â-xšaub-a",
+     "verdict": "plausible",
+     "derivation": "Only the first pair is genuinely Avestan. Bartholomae (Altiran. Wb., c. col. 542) has a single lemma: 'j. xšaob- V., nur Praes. 14 (Inkoh.) xšufsa- „in Aufregung geraten‘', with the one attested form xšufsqṅ (3pl. subj., Yt 10.113, of horses shying) — so xšaob- is the root, xšufsan the inchoative present, and Nourai's glosses ('disturbance' / 'to shake') are attached to them the wrong way round. 'xšaub' with -b is only the Indo-Iranian shape of the same root (Skt. kṣubh-), not a separate Avestan word. 'ā-xšuf-ta' and 'ā-xšaub-a' are unattested reconstructions: they come from Abolghasemi (FFD p.26), where they are expressly labelled 'ایرانی باستان' (Old Iranian), i.e. the preverb *ā- plus the ta-participle and the a-stem noun that underlie MP āšuft / āšōb. The derivations are right; the language label 'Avestan' is too strong for three of the four items.",
+     "derivation_fa": "از میان چهار صورت این خانه تنها دوتای نخست واقعاً اوستایی‌اند: بارتولومه تنها یک مدخل دارد، xšaob- با ستاک حال الانفعالی xšufsa- «به هیجان آمدن» که تنها صورت گواهی‌شده‌اش xšufsqṅ در یشت ۱۰ است؛ پس معناهایی که نورایی داده جابه‌جا شده‌اند. «xšaub» صورت هندوایرانی همان ریشه است (سنسکریت kṣubh-) نه واژه‌ای جداگانه، و دو صورت *ā-xšufta و *ā-xšauba بازساخته‌اند و از کتاب ابوالقاسمی (ص ۲۶) گرفته شده‌اند که آنجا صریحاً «ایرانی باستان» نامیده شده‌اند نه اوستایی. پس اشتقاق درست است ولی برچسب زبانی دقیق نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/آشفتن"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:625",
+       "status": "supports",
+       "note": "Pokorny 625: 'av. xšaob- „in Aufregung geraten‘ (xšufsqṅ)' — exactly the two Avestan items of the box, but only those two."
+      },
+      {
+       "ref": "FFD:26",
+       "status": "supports",
+       "note": "Abolghasemi, Fe'lhā-ye Fārsi-ye Dari p.26 (FFD_pages.txt pdf page 31): 'آشفتن، آشوفتن — آشفت < فارسی میانه ... < ایرانی باستان *ā-xšuf-ta ... ریشهٔ xšaub به معنی «لرزیدن» است. «آشوفت» زیر نفوذ «آشوب» به‌وجود آمده است. آشوب < فارسی میانه āšōb < ایرانی باستان *ā-xšaub-a' — this is plainly Nourai's source for the two prefixed forms, and it labels them Old Iranian, not Avestan."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiranisches Wörterbuch, s.v. xšaob- (BRT.txt line 10710, c. col. 542)",
+       "stance": "partial",
+       "note": "'• j. xšaob- V., nur Praes. 14 (Inkoh.) xšufsa- „in Aufregung geraten‘, yat aspanqṁ sriša xšufsqṅ Yt.10.' — the only Avestan lemma of this root; no ā-xšufta, no ā-xšauba, no separate xšaub."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung 2007 s.v. *xšaub (CHEUNG.txt line 29362)",
+       "stance": "supports",
+       "note": "'AVESTAN: Y Av. *xšaob- (xšuf-) „to rustle, tremble‘ ... Pres. inch.: SUBJ. 3pl. YAv. xšufsan (Yt 10.113)' — and the *ā- prefixed forms he cites only from Middle Persian onwards."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian (KNT.txt)",
+       "stance": "silent",
+       "note": "no Old Persian reflex of this root is recorded, so the Old Iranian forms of the box remain reconstructions."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "âšŭp; âšŭptak",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian āšōb (Book Pahlavi ’šwp, Manichaean ’’šwb) 'confusion, tumult, sedition' is *ā- + the o-grade noun *xšaub-a-, with the regular Middle Iranian development of initial xš- to š- and of *au to ō; āšuftag (Nourai's 'āšŭptak', spelled ’šwptk’) is the ta-participle *ā-xšuf-ta- plus the adjectival suffix -ag, 'disturbed'. Nyberg's Manual glosses 'āšōp [’šwp’] confusion, tumult, sedition' and derives 'āšuft-kārēh [’šwptk’lyh] subversion, upheaval ... from āšuftan āšōp-'; MacKenzie's Pahlavi dictionary has āšōb 'turmoil'. Parthian shows the same word (’’šwb 'turmoil', ’šwb-gr 'instigator to rebellion'), so the noun is Middle Iranian, not a New Persian back-formation.",
+     "derivation_fa": "فارسی میانهٔ āšōb (پهلوی کتابی ’šwp، مانوی ’’šwb) «آشفتگی، آشوب، شورش» از پیشوند *ā- و نامِ از ستاک مشددِ *xšaub-a- ساخته شده، با دو دگرگونی قاعده‌مند: xš- آغازین ایرانی باستان در فارسی میانه به ش بدل شده و دوواکهٔ au به ō بدل شده است. «āšuftag» (آشفته) صفت مفعولی *ā-xšufta- با پسوند -ag است. نیبرگ و مکنزی هر دو این صورت‌ها را ثبت کرده‌اند و پارتی نیز همین واژه را دارد؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/آشوب"
+     ],
+     "ref_check": [
+      {
+       "ref": "ISS:11",
+       "status": "not_checked",
+       "note": "Bailey, Indo-Scythian Studies: Khotanese Texts VI, is not available online (refs_online.json: 'Khotanese Texts VI itself is not online'), so p.11 could not be read. Bailey's own treatment of the same material is however in his Dictionary of Khotan Saka s.v. kṣautte (ISS_alt_DKS.txt line 1633), which lists 'Zor.P. višōpišn, višuft ... N.Pers. āšuftan, āšōb' under xšaub-, and Nyberg (below) cites 'Bailey, BSOS VI, 1930, 73' for āšuft-kārēh — i.e. Bailey did say what the arrow says."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (Glossary) s.vv. āšōp / āšuft-kārēh (NYB_vol2_glossary.txt lines 752, 757)",
+       "stance": "supports",
+       "note": "'āšōp [’šwp’] confusion, tumult, sedition 38¹. 108¹. — MPrthPrs ’šwb, ’’šwb ... cf MPrth. ’’šwb-gr „instigator to rebellion‘' and 'āšuft-kārēh [’šwptk’lyh] subversion, upheaval 108¹. — From āšuftan āšōp-, v. āšōp and cf višuftan; MPrth ’šyft. Ghilain 95; Bailey, BSOS VI, 1930, 73.'"
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary, English index (PHD.txt line 4095)",
+       "stance": "supports",
+       "note": "'turmoil āšōb.' — MacKenzie's Pahlavi form for 'turmoil' is exactly Nourai's âšŭp."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung 2007 s.v. *xšaub, Middle Persian section (CHEUNG.txt line 29366)",
+       "stance": "supports",
+       "note": "'MIDDLE PERSIAN: (+ *a-) MMP ’’šwb, BMP ’šwp /āšob/ „turmoil, disturbance‘ || (+ *ui-) MMP w(y)swb-, BMP wswp- /wisōb-/ „to destroy, disturb‘ ... PARTHIAN: ’’šwb „turmoil‘'."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn 1893 no.32, p.8 (HRN.txt leaf 30)",
+       "stance": "supports",
+       "note": "'32. āšuften, āšōften „in Bewegung versetzen‘, Praes. āšōb-em ... aw. ā + xšufsqṅ; phlv. āšōftan (vd. 9.132, Gl.), āšōp (d.i. āšōw), āšōft-kārih (DK.); ai. √kṣubh-, kṣobhate.'"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "âšŭb; âšoftan; kašoftan, kašaftan",
+     "verdict": "plausible",
+     "derivation": "آشوب āšūb 'disturbance, tumult' and آشفتن/آشوفتن āšuftan (pres. āšūb-) continue MP āšōb and āšuftan without further change beyond the New Persian shortening of ō > ū; Horn no.32, Cheung, Mo'in's footnote in Borhan-e Qāte‘ and Wiktionary all agree, and Abolghasemi adds the detail that the by-form آشوفت (with -ō-) arose 'under the influence of آشوب'. The third word is where the node becomes doubtful. Abolghasemi (FFD p.26) says explicitly '«کشفتن» هم از ریشهٔ xšaub آمده است', i.e. kašuftan is the same root with a different (fossilised *vi-/*wi- > k- ?) prefix; but Mo'in's own Farhang-e Fārsi lemmatises 'کشفتن [= شگفتن = شکافتن] (مص ع.) شکافتن، گشودن', attaching it to the 'split, burst open' family (شکافتن), and Dehkhoda gives both sets of senses ('گشودن، شکافتن' and 'پراکنده شدن، پریشان شدن، پژمرده شدن'). The Vīs-o-Rāmīn line Nourai quotes turns on the very contrast kašufta / šokufta, which is what makes the two etymologies hard to separate. Two of the three words are certain; the third is genuinely contested.",
+     "derivation_fa": "«آشوب» و «آشفتن/آشوفتن» (مضارع آشوب-) دنبالهٔ مستقیم فارسی میانهٔ āšōb و āšuftan اند، با همان تحول معمول واکهٔ ō به ū در فارسی نو؛ هرن، چونگ، حاشیهٔ معین بر برهان قاطع و ویکی‌واژه همه همین را می‌گویند و ابوالقاسمی می‌افزاید که صورت «آشوفت» زیر نفوذ «آشوب» پدید آمده است. اما دربارهٔ «کَشُفتن» اختلاف هست: ابوالقاسمی صریحاً آن را از همین ریشهٔ xšaub می‌داند، ولی خودِ معین در فرهنگ فارسی آن را برابر «شگفتن/شکافتن» می‌گیرد و دهخدا هر دو دسته معنا را ثبت کرده است. پس دو واژهٔ نخست قطعی و سومی محل بحث است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/آشفتن",
+      "https://en.wiktionary.org/wiki/آشوب",
+      "https://abadis.ir/fatofa/کشفتن/"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:625",
+       "status": "supports",
+       "note": "Pokorny 625 names the New Persian words themselves: 'npers. ā-šuftan, ā-šōftan „in Bewegung versetzen‘, ā-šōb „Verwirrung, Tumult‘'."
+      },
+      {
+       "ref": "BQT:45",
+       "status": "supports",
+       "note": "Borhan-e Qāte‘ vol.1 p.45 (BQT_v1_pages.txt leaf 255, the آش... page), Mo'in's etymological footnote: 'آشفتن — مرکب از پیشوند ā و xšaub اوستائی بمعنی مضطرب شدن، تحریک شدن، در سانسکریت [kṣubh] «بارتولمه ۵۶۲»' — precisely the arrow Nourai draws, with Bartholomae cited."
+      },
+      {
+       "ref": "MON:2988",
+       "status": "partial",
+       "note": "The 6-volume Amir Kabir pagination is not on disk; in the two-volume Mo'in the entry stands at MON_part2.txt line 23535, on the leaf whose running foot reads '۱۳۹۴ فرهنگ فارسی معین کشفتن': 'کشفتن: [= شگفتن = شکافتن] (مص ع.) شکافتن، گشودن' and 'کشفت: (ص.) پراکنده، پریشان'. The word and the sense Nourai wants are there, but Mo'in's own bracket refers it to شکافتن, not to xšaub — so the reference supports the word but not the derivation."
+      },
+      {
+       "ref": "FFD:26",
+       "status": "supports",
+       "note": "FFD p.26 (pdf page 31): 'آشوب < فارسی میانه āšōb < ایرانی باستان *ā-xšaub-a ... «کشفتن» هم از ریشهٔ xšaub آمده است' — all three of Nourai's Persian words, including kašuftan, from this root."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "Horn 1893 no.32, p.8 (HRN.txt leaf 30)",
+       "stance": "supports",
+       "note": "'āšuften, āšōften „in Bewegung versetzen‘, Praes. āšōb-em ... aw. ā + xšufsqṅ; phlv. āšōftan ... ai. √kṣubh-'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung 2007 s.v. *xšaub, NWIR section (CHEUNG.txt line 29380 ff.)",
+       "stance": "supports",
+       "note": "'(+ *a-) NP āsuftan/āsub- „to agitate, disturb‘, Kurd. (Kurm.) (h)ažōtin ... || (+ *ui-) NP *gušuftan (lit., lex.) „to scatter, fade‘' — note that Cheung's second Persian verb with a prefix is gušuftan, not kašuftan."
+      },
+      {
+       "src": "MON",
+       "where": "Farhang-e Fārsi s.v. کشفتن (MON_part2.txt line 23535)",
+       "stance": "contradicts",
+       "note": "'کشفتن: [= شگفتن = شکافتن] (مص ع.) شکافتن، گشودن' — Mo'in refers kašuftan to the 'split/burst' family, not to xšaub."
+      },
+      {
+       "src": "BQT",
+       "where": "Dehkhoda's Loghatnāme s.v. کشفتن (via abadis.ir; the entry cites Borhan and Farhang-e Jahāngīri)",
+       "stance": "partial",
+       "note": "'کشفتن. (مص) گشودن. شکافتن. (از فرهنگ جهانگیری) (از برهان) ... || پراکنده شدن. پریشان شدن ... || پژمرده شدن ... || نابود و معدوم شدن' with the Vīs-o-Rāmīn and Manuchehri citations — both senses coexist, which is why the etymology is contested."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Rishe-hā, entry آشوب / آشفتن / آشوفتن (incoming/ARY/ARY_pages.txt line 1850, pdf page 65)",
+       "stance": "partial",
+       "note": "the headword 'آشوب آشفتن، آشوفتن' is there with Avestan, Pahlavi, Sanskrit, Old Slavic and Polish cognate columns and references to Borhan-e Qāte‘ and Dehkhoda, i.e. the same family as the chart; the Latin-script forms in this scan are too corrupt to quote."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Kseud, Qseud",
+   "verdict": "plausible",
+   "modern_form": "Two roots: PIE *kseud- 'to pound small, crush' (Pok. 625) and Indo-Iranian *kšaud- 'liquid; to wash' (WP I 502 'qseud- „Flüssigkeit“, nur arisch'; Cheung *xšaud 'to wash')",
+   "note": "Nourai's double headword 'Kseud, Qseud' is not a variant spelling: it reproduces two adjacent entries on the single page of Walde-Pokorny he cites (WP I 502), 'kseud- „klein stampfen“' and 'qseud- „Flüssigkeit“ (nur arisch)'. Pokorny's revision of 1959 keeps only kseud- 'klein stampfen' on p.625 and refers the Avestan 'liquid' words away to 'a 2. kseud-'. Nourai's composite gloss 'water, to clean by stamping in water' is his own fusion of the two — the 'water' half is qseud-, the 'stamping' half kseud- — and the fusion is also how the older literature explained Persian شستن (Fr. Müller derived it from Skt. kṣud 'to strike, pound', a derivation Hübschmann and Mo'in report with a caveat about the sense). Modern opinion is more cautious: Cheung (2007: 456) says 'The IE correspondences of the common Iranian root are unclear. The comparison to Slavic (OCS xudъ „small, bad“) by Pokorny is semantically difficult', preferring W. P. Schmidt's link to Lith. skudrus 'quick', skaudrus 'flowing quickly'. So the root box is a fair report of the two Walde-Pokorny entries, but the identification of the two roots with one another is not modern consensus.",
+   "note_fa": "سرواژهٔ دوگانهٔ «Kseud, Qseud» دو صورت یک واژه نیست: نورایی دو مدخل پیاپیِ همان صفحه‌ای را که به آن ارجاع داده (والده-پوکورنی، جلد ۱، ص ۵۰۲) کنار هم گذاشته است — kseud- «خرد کوبیدن» و qseud- «مایع» (تنها آریایی). پوکورنی در ویراست ۱۹۵۹ تنها kseud- «خرد کوبیدن» را در ص ۶۲۵ نگه داشته و واژه‌های اوستایی «مایع» را به مدخل دیگری حواله داده است. معنای ترکیبی «آب؛ پاک کردن با کوبیدن در آب» ساختهٔ خود نورایی از این دو است، و ریشه‌شناسی کهن «شستن» (فریدریش مولر از سنسکریت kṣud «کوبیدن») هم بر همین آمیزش استوار بود؛ اما هوبشمان و معین همان‌جا هشدار داده‌اند که معنای فارسی «پاک کردن» است. پژوهش امروزی (چونگ ۲۰۰۷) پیوند هندواروپایی این ریشه را نامعلوم می‌داند. پس ادعا با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/شستن"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:625",
+     "status": "partial",
+     "note": "POK_02.txt leaf 286 (p.625) has only one of the two: 'kseud- „klein stampfen‘. Ai. kṣódati „stampft, zermalmt‘, kṣóda- m. „Stoß, Stampfen, Zermalmen; Mehl, Pulver‘ ... WP. I 502.' The very last line of that entry is the cross-reference that shows the split: 'Verbindung von ai. kṣudrá- mit av. xšudra- „flüssig‘ (s. 2. kseud-) versucht Batakrishna Ghosh ... zu begründen.' So Pokorny p.625 does NOT give the gloss 'water' and does not merge the two roots."
+    },
+    {
+     "ref": "WLD1:502",
+     "status": "supports",
+     "note": "Walde-Pokorny I 502 (WLD_Bd1_pages.txt leaf 511, running head '502 qseu-, qsneu-, qneu-, sneu- — qseubh-') carries both roots on the one page: 'kseud- „klein stampfen“. Ai. kṣóduti „stampft, zermalmt“ ...' and immediately after 'qseud- „Flüssigkeit“ (nur arisch). Ai. kṣódas- n. „bewegtes Wasser, Flut, Wassermasse, Strom“ = av. xšaodah- n. „Fluß, Strömung, Wasserschwall“, xšudra-, xšūdra- „flüssig; n. Flüssigkeit“, xšusta- (*ksud-ta-) „flüssig, breiig, geschmolzen“, fra-xšuδra- n. „Vorwärtsfließen“.' This is exactly Nourai's 'Kseud, Qseud' and his gloss."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "POK",
+     "where": "Pokorny p.625 (POK_02.txt leaf 286)",
+     "stance": "partial",
+     "note": "gives kseud- 'klein stampfen' only, and treats the Avestan 'liquid' group as a separate root."
+    },
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny I 502 (leaf 511)",
+     "stance": "supports",
+     "note": "both kseud- and qseud- on the cited page, with the Avestan material under the latter."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 appendix (grep 'kseud')",
+     "stance": "silent",
+     "note": "no entry — the root has no English reflex."
+    },
+    {
+     "src": "CHEUNG",
+     "where": "Cheung 2007 s.v. *xšaud, PIE section (CHEUNG.txt line 29440 ff.)",
+     "stance": "partial",
+     "note": "'PIE: The IE correspondences of the common Iir. root are unclear. The comparison to Slavic (OCS xudъ „small, bad“, etc.), by Pokorny is semantically difficult. W. P. Schmidt (Gs Henning: 377 f.) suggests a connection with Lith. skudrus „quick“, skaudrus „flowing quickly“ ... = LIV: 372 | Pok.: 625.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "xšaod, xšaud; xšudra; xšâudra; xšvîd; svěstas",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "the Avestan box of the third chart on printed p.250 lists, one under the other: 'xšaod, xšaud : flow / xšudra : water, liquid, semen / xšâudra : male, husband / xšvîd : milk / svěstas : butter'",
+     "correct_form": "svěstas is Lithuanian svíestas 'butter', not an Avestan word (Walde-Pokorny I 502 quotes it as the Baltic comparison for Av. xšvīd-); and xšâudra- is not an attested Avestan lemma but Horn's reconstruction *xšaudra-/*xšaudraka- made to explain NP šōhar",
+     "derivation": "The extraction is faithful to the page (checked on the 300-dpi render, copied to data/verification/sources/refs/ocr/BOOK/280.png); the errors are the book's. Item by item: (1) xšaod-/xšaud- — Bartholomae has the noun xšaoδah- n. 'Fluß, Strömung, Wasserschwall' (Yt 10.14) and Cheung reconstructs OAv. *xšaod- 'to become liquid', so 'flow' is right. (2) xšudra-/xšuδra- — Bartholomae c. col. 555: '1) Adj. „flüssig“; 2) n. „Flüssigkeit“, a) alkoholische, „Wein“; b) „Samenflüssigkeit, semen virile“', so Nourai's 'water, liquid, semen' is an accurate summary. (3) xšâudra 'male, husband' — no such Avestan word exists; the form with long ā is Horn's reconstruction (Grundriss no.796, p.177: 'aw. *xšaudraka-, vergl. xšudra- „Same“, xšāudra-, np. šōi „Gatte“ ... setzen ein aw. *xšauda- voraus'), taken over by Mo'in in his Borhan footnote and by Nourai as if it were attested. (4) xšvīd- 'milk' is genuinely Avestan (Bartholomae: 'j., g. xšvīd- m. „Milch“'), but Walde-Pokorny expressly keep it OUT of this root: 'av. xšvīd „Milch“ zu lit. svíestas „Butter“, dessen Anlaut trotz Ch. nicht wohl aus ksv- herleitbar ist'. (5) svěstas 'butter' is precisely that Lithuanian svíestas, printed here as though it were Avestan — Nourai has copied Walde-Pokorny's comparandum into the wrong box.",
+     "derivation_fa": "استخراج با صفحهٔ چاپی مطابقت دارد (تصویر ۳۰۰ نقطه‌ای در data/verification/sources/refs/ocr/BOOK/280.png)، پس خطا از خود کتاب است. یک‌به‌یک: xšaoδah- «رود، جریان، خروش آب» در بارتولمه هست و چونگ ستاک *xšaod- «روان شدن» را بازمی‌سازد؛ xšudra-/xšuδra- در بارتولمه «مایع؛ مایع، شراب؛ نطفه» است، پس معنای نورایی درست است. اما «xšâudra» به معنی «مرد، شوهر» واژهٔ گواهی‌شدهٔ اوستایی نیست، بلکه بازساختهٔ هرن (بند ۷۹۶) است که برای توضیح «شوهر» فارسی ساخته شده و معین هم در حاشیهٔ برهان قاطع آن را نقل کرده است. xšvīd- «شیر» واقعاً اوستایی است ولی والده-پوکورنی آن را از این ریشه بیرون می‌گذارد. و «svěstas» اصلاً اوستایی نیست: لیتوانیایی svíestas «کره» است که در والده-پوکورنی تنها به عنوان هم‌سنجِ xšvīd آمده و نورایی آن را در خانهٔ اوستایی نشانده است — خطای چاپی و مفهومیِ خود کتاب.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/شستن"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:625",
+       "status": "partial",
+       "note": "Pokorny 625 s.v. kseud- mentions av. xšudra- 'flüssig' only in order to refer it elsewhere; the other four items of the box are not on that page at all."
+      },
+      {
+       "ref": "WLD1:502",
+       "status": "supports",
+       "note": "WP I 502 s.v. qseud- has three of the five: 'av. xšaodah- n. „Fluß, Strömung, Wasserschwall“, xšudra-, xšūdra- „flüssig; n. Flüssigkeit“, xšusta- (*ksud-ta-) ...'; and the same page has the sentence that exposes the last two: 'und av. xšvīd „Milch“ zu lit. svíestas „Butter“, dessen Anlaut trotz Ch. nicht wohl aus ksv- herleitbar ist' — svíestas is Lithuanian, and xšvīd is expressly excluded from qseud-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Bartholomae, Altiran. Wb., s.vv. xšaoδah-, xšudra-, xšusta-, xšvīd- (BRT.txt lines 10709, 10863, 10985; c. cols 542, 555, 561)",
+       "stance": "partial",
+       "note": "'• j. xšaoδah- n. „Fluss, Strömung, Wasserschwall“ ... Yt 10.14'; '• j. xšudra-, xšuδra- 1) Adj. „flüssig“ ... 2) n. „Flüssigkeit“ ... b) „Samenflüssigkeit, semen virile“'; 'xšusta- Adj. „flüssig“ ... PPfP. einer Basis (ar.) *ksaud-, wozu noch xšaoδah-, xšudra-'; '• j., g. xšvīd- m. „Milch“'. No lemma xšāudra-, and of course no svěstas."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung 2007 s.v. *xšaud, Avestan section (CHEUNG.txt line 29411 ff.)",
+       "stance": "partial",
+       "note": "'AVESTAN: OAv. *xšaod- „to become liquid‘, YAv. xšaodah- (n.) „gush, flush of water‘ (Yt 10.14), YAv. xšuδra- (Yt 19.58), YAv. xšudra- „liquid, fluid‘ ... Partic.: perf. pass. YAv. xšusta- „melted, liquid (of metals)‘' — the same three words, and no 'husband' word and no milk/butter."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian (KNT.txt)",
+       "stance": "silent",
+       "note": "no Old Persian form of this root."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "šostan; šǔy",
+     "verdict": "disputed",
+     "derivation": "The two Persian words the box joins are not one word. (a) شستن šostan 'to wash', pres. stem شوی šōy-, is beyond doubt from this root: MP šustan / šōy- (MacKenzie: 'šustan, šūy- [HLLWN-tn’] wash'), Parthian šw(w)d-, from Proto-Iranian *xšaud 'to wash' (Cheung 455-6), with initial xš- > š- and the past stem from *xšud-ta- (Abolghasemi's *xšud-ta, 'د پیش از t به s بدل شده'). Horn's no.782 on the very page Nourai cites (p.172) gives 'šusten „waschen“, Praes. šōy-em; phlv. šustan, šōyēnd, šōy(i)šn'. (b) شوی šūy 'husband' (with شوهر، شو، زناشویی) is a different word that merely fell together with the present stem of 'wash' in Middle Persian — MacKenzie lists them as two lemmas, 'šōy [šwd] husband' and 'šustan, šūy- wash'. Nourai follows Horn no.796 (p.177: 'šōher (*šōhr) „Gatte“. aw. *xšaudraka-, vergl. xšudra- „Same“ ... setzen ein aw. *xšauda- voraus'), i.e. 'husband' as 'the one with the seed', and Mo'in repeats it in his Borhan footnote. Modern Iranian etymology rejects this: the word goes back to Proto-Iranian *fšautar 'cattle-raiser, husbandman', to *fšau- 'to raise cattle' (PIE *peh₂- 'to protect, shepherd'), cf. Av. fšuiiaṇt- 'husbandman', Khotanese kṣondai 'husband', Yidgha šfuy, Baluchi šú — a source that yields Persian š- just as regularly as *xš- does. Cheung, who reconstructs *xšaud in full, does not list šōy 'husband' among its descendants at all.",
+     "derivation_fa": "این خانه دو واژهٔ جدا را یکی گرفته است. نخست «شستن» با ستاک حال «شوی-»: این یکی بی‌گمان از همین ریشه است — فارسی میانه šustan/šōy-، پارتی šw(w)d-، از ایرانی آغازین *xšaud «شستن» (چونگ ۴۵۵)، با تبدیل قاعده‌مند xš- آغازین به ش و ستاک گذشته از *xšud-ta که در آن د پیش از t به s بدل شده است؛ هرن در همان ص ۱۷۲ که نورایی ارجاع داده همین را آورده است. اما «شوی ۲» به معنی «شوهر» واژهٔ دیگری است که تنها در فارسی میانه با ستاک حالِ «شستن» هم‌آوا شده؛ مکنزی آن دو را دو مدخل جدا آورده است. نورایی از هرن (بند ۷۹۶) و معین پیروی کرده که «شوهر» را از *xšaudraka- (وابسته به xšudra «نطفه») می‌دانستند، اما ریشه‌شناسی امروزی این را رد می‌کند و «شوهر/شوی» را از ایرانی آغازین *fšautar «پرورندهٔ گله» (از *fšau-، هندواروپایی *peh₂- «پاسداری کردن») می‌گیرد، هم‌ریشه با اوستایی fšuiiaṇt- «گله‌دار»، ختنی kṣondai «شوهر» و بلوچی šú. پس نیمهٔ نخست ادعا درست و نیمهٔ دوم مردود است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/شستن",
+      "https://en.wiktionary.org/wiki/شوهر",
+      "https://en.wiktionary.org/wiki/شوی"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:172,177",
+       "status": "supports",
+       "note": "Both pages say what Nourai reports. Horn p.172 (HRN.txt leaf 194) no.782: 'šusten „waschen“, Praes. šōy-em; phlv. šustan, šōyēnd, šōy(i)šn; kurd. LW. šuštin ...'. Horn p.177 (leaf 199) no.796: 'šōher (*šōhr) „Gatte“. aw. *xšaudraka-, vergl. xšudra- „Same“, xšāudra-, np. šōi „Gatte“, phlv. šōi (vd. 15 (29) Gl.) setzen ein aw. *xšauda- voraus, das dieselbe Bedeutung wie *xšaudraka- hatte.' — this is the source of Nourai's 'xšâudra : male, husband' as well."
+      },
+      {
+       "ref": "BQT:1267",
+       "status": "supports",
+       "note": "Borhan-e Qāte‘ p.1267 = BQT_v3_pages.txt pdf page 58 (offset +1209), Mo'in's footnote: 'شستن — بضم اول و فتح سوم. پهلوی shustan، کردی shushtin (تطهیر)، بلوچی ... بقول Fr. Müller از سانسکریت kshud (زدن، خرد کردن). اما در فارسی به‌معنی تطهیر، پاک کردن (رخت آب زدن) آمده، قس: پازند shustan ... هویشمان ۷۸۲' — the Skt. kṣud connection Nourai's root box rests on, with Mo'in's own semantic caveat."
+      },
+      {
+       "ref": "BQT:1312",
+       "status": "supports",
+       "note": "Borhan-e Qāte‘ p.1312 = BQT_v3_pages.txt pdf page 103 (the next leaf carries the running head ۱۳۱۳), Mo'in's footnote: 'شوهر — بفتح اول و سوم؛ اوستا xshaudraka، ... xshudra (تخم، منی)، xshaudra ... «شوی» + هر ... در فارسی ساخته شده «هوبشمان»' — Mo'in reproduces Horn's derivation, exactly as Nourai charts it."
+      },
+      {
+       "ref": "FFD:63",
+       "status": "partial",
+       "note": "FFD p.63 (FFD_pages.txt pdf page 68): 'شست < فارسی میانه šust < ایرانی باستان *xšud-ta ... xšud صورت ضعیف ریشهٔ xšaud' and 'شوی < فارسی میانه šōy < ایرانی باستان *xšauda ... «شور» به جای «شوی» جدید است'. Abolghasemi's شوی here is the present stem of شستن 'wash' in a dictionary of verb stems, not the noun 'husband' — so the page supports the first Persian word only."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "CHEUNG",
+       "where": "Cheung 2007 s.v. *xšaud (CHEUNG.txt lines 29410-29440)",
+       "stance": "partial",
+       "note": "'MIDDLE PERSIAN: MMP šwy-, BMP šws- (HLLWN-) /šus-/ „to wash‘ ... Inf.: BMP šwstn /šustan/. PARTHIAN: šw(w)d- „to wash‘. NWIR: NP šustan/šōy-, Kurd. šuštin/šo- ...' — the wash-verb is fully covered; 'husband' is absent from the entry, and Cheung even rejects deriving the dialect present stems in -r- from šuhr 'sperm'."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie, Concise Pahlavi Dictionary pp.79-80 (PHD.txt lines 585, 589)",
+       "stance": "contradicts",
+       "note": "two separate lemmas: 'šōy-, v. šustan. šōy [šwd | N ~] husband.' and 'šustan, šūy- [HLLWN-tn’ < A √ḥll | M šwst, šwy-, N ~] wash.' — MacKenzie does not connect the noun 'husband' with the verb 'wash'."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien p.79 (note to Horn 782) and p.82 (HUB.txt lines 2795, 8311)",
+       "stance": "partial",
+       "note": "'782. Nach Fr. Müller, WZKM. 8, 96 zu skr. kṣud „schlagen, stampfen“. Aber die Bedeutung von np. šustan ist „waschen = reinigen“, pākīza kardan ...' and, in the list of NP š- from OIr. xš-, 'šustan „waschen“ H. 782, oben p.79; šuhar „Gatte“ H. 796, oben p.82' — Hübschmann accepts both as xš- words but flags the semantic difficulty of the 'pound' etymology."
+      },
+      {
+       "src": "MON",
+       "where": "Farhang-e Fārsi / Dehkhoda s.v. شوی، شوهر",
+       "stance": "partial",
+       "note": "Mo'in's Borhan footnote (BQT:1312, quoted above) gives the Horn derivation; the modern reference works no longer do."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Rishe-hā (incoming/ARY, grep 'شستن')",
+       "stance": "silent",
+       "note": "no usable entry located in the OCR for شستن or شوهر."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
