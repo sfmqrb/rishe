@@ -1,0 +1,510 @@
+{
+  "pdf_page": 387,
+  "book_page": 357,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Pek, Peku",
+      "verdict": "confirmed",
+      "modern_form": "PIE *peḱ- 'to pluck (wool, hair), shear' with its u-stem *péḱu 'livestock, movable wealth'",
+      "note": "Nourai's double root box is exactly Pokorny's lemma peḱ-2 on the cited page 797 ('to fleece; cattle'), which lumps both halves; Watkins/AHD splits the same material into pek-2 'to pluck the hair, fleece, comb' and peku- 'wealth, movable property', both tagged '[Pok. 2. pek- 797]'. Wiktionary likewise has *peḱ- 'to pluck (wool, hair)' with *péḱu 'livestock' derived from its u-stem. Language label ('Indo-European' = PIE) and both glosses are right; 'woolly animals, cattle, property' is the standard semantic ladder for *péḱu (Klein s.v. fee: I.-E. base *peku- 'the woolly animal', whence 'sheep, cattle, property, money'). The page is otherwise faithful: the printed chart (pdf p. 387, copied to data/verification/sources/refs/ocr/BOOK/387.png) matches the extracted JSON word for word, including the accentless French 'feodal' and the pointer '☞Pa' on fšu-pait.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *peḱ- به معنی «کندن پشم یا مو، چیدن» و ستاک -u آن *péḱu به معنی «دام، چهارپا، مال و دارایی». پوکورنی در همان صفحهٔ ۷۹۷ که نورایی ارجاع داده، هر دو معنی را زیر یک سرواژه (peḱ-2) آورده است؛ واتکینز در پیوست ریشه‌های هندواروپایی همین ماده را به دو مدخل pek-2 و peku- بخش کرده ولی هر دو را به همان صفحهٔ ۷۹۷ پوکورنی ارجاع داده است. برچسب زبانی و هر دو معنی درست است و تحول معنایی «جانور پشم‌دار ← گوسفند و گله ← مال و دارایی» همان چیزی است که کلاین نیز زیر fee آورده. ادعای نورایی دربارهٔ خودِ ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9%E1%B8%B1u",
+        "https://www.etymonline.com/word/feudal"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:797",
+          "status": "supports",
+          "note": "POK_full.txt, lemma printed 'Root/lemma: peR-2' (OCR for peḱ-2), 'Meaning: to fleece; cattle', 'Page(s): 797': 'Old Indic pasu-, pasu- n. … cattle; Avestan pasu- m. cattle (mostly still small cattle), in compound fsu-, -fsu- … = Latin pecū … = Gothic faihu property, fortune … = Lithuanian pekus, Old Prussian peckū cattle'. Both of Nourai's glosses ('wool, to pluck wool' / 'woolly animals, cattle, property') are on this one page."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II p. 16 (WLD_Bd2_pages.txt line 1051, page header '16 pek-, pek-, pōk-')",
+          "stance": "supports",
+          "note": "'2. pek- „Wolle oder Haare rupfen, zausen; Wolltier, Schaf (peku)“, dann …' — Walde-Pokorny states the double sense of the root exactly as Nourai's two boxes do; further down 'ahd. fihu „Vieh“; = lit. pekus, apr. pecku „Vieh“'."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. pek-2 and peku- (AHD_watkins1985.txt line 828)",
+          "stance": "supports",
+          "note": "'pek-2. To pluck the hair, fleece, comb. … [Pok. 2. pek- 797.]' and 'peku-. Wealth, movable property. … [In Pok. 2. pek- 797.]' — the split matches Nourai's Pek / Peku pair."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. peKos and peKu (IEC.txt lines 12607, 12617)",
+          "stance": "supports",
+          "note": "'peKos, us „fleece“ … Gk. pékos … Lat. cf. pecus' and 'peKu „small farm-animal for shearing, head of cattle“ … Skt. páśu; Av. pasuš m.; OLat. pecu; Go. faihu n. „money“; OE feoh „cattle, wealth“; ON fé'."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck §3.15 'cattle' (SYN.txt line 3927) and §11.41/11.48 (line 19547)",
+          "stance": "supports",
+          "note": "'Lat. (early) pecu … Goth. faihu only „property“, ON fé „cattle“ esp. „sheep“, and „property“ … Skt. paśu- „domestic creature“ …, Av. pasu- mostly „small cattle“' — the 'cattle ↔ property' polysemy Nourai puts in the root gloss."
+        },
+        {
+          "src": "KLN",
+          "where": "Klein 1966 p. 581 s.v. fee",
+          "stance": "supports",
+          "note": "'fr. I.-E. base *peku-, „the woolly animal“, whence „sheep, cattle, property, money“. This base is an enlargement of base *pek-, „to pluck (wool or hair); hairy, woolly“, whence OI. pákṣman …, Pers. pashm „wool“ … OE. feohtan „to fight“ (orig. „to pluck, pull, scuffle“)' — Klein's article is in effect this whole chart in prose."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "pasu, pašman; fšu; fšu-pait",
+          "verdict": "plausible",
+          "derivation": "Three separate items sit in this one box and only part of it survives checking. (a) Av. pasu- (m.) is 'cattle, domesticated quadruped', in practice mostly 'small cattle, sheep and goats' (Bartholomae, AiW ~col. 878 s.v. pasav-: 'Vieh, domestiziertes vierfüssiges Tier, Haustier'; Buck §3.15 'Av. pasu- mostly small cattle'; Pokorny 797 'Avestan pasu- m. cattle'). Nourai's gloss 'wool' for pasu is therefore wrong; the word means the animal, from *péḱu. (b) fšu- is correct: it is the compositional/zero-grade shape of the same stem (*pśu- < *pḱu-, Iranian p+ś > fš), listed by Bartholomae as 'fšav- m.: s. unter pasav-' (~col. 998) and seen in Av. fšuyant- 'cattle-breeder', Pokorny's 'in compound fsu-, -fsu-'. (c) 'pašman' is not an Avestan headword in Bartholomae, who has only Av. pašna- n. 'Augenlid' (~col. 886), where he compares 'ai. pákṣman- n. Augenwimpern; np. pašm Wolle'; Pokorny 797 does the same. The wool word is therefore a Proto-Iranian reconstruction *pašman- (< PIE *poḱ-s-mn̥), not an attested Avestan form — Wiktionary cites 'Avestan pašman' as a cognate but has no Avestan entry for it. (d) 'fšu-pait' = Av. *fšu-paiti- 'lord of cattle', which Horn (Grundriss p. 171) invokes only to explain the Armenian loan špet; the compound that actually yields Persian šabān/čupān is *fšu-pāna- 'cattle-protector' (fšu- + pā(y)- 'to protect'), which is what Nourai's own '☞Pa' cross-reference points at. So the gloss 'protector of cattle, shepherd' belongs to -pāna-, not to -paiti-.",
+          "derivation_fa": "این جعبه سه چیز جداگانه را در خود جای داده و همه‌شان درست نیست. یکم، اوستایی pasu- به معنی «دام، چهارپای اهلی» (به‌ویژه گوسفند و بز) است نه «پشم»؛ بارتولومه در فرهنگ ایرانی باستان (ستون ۸۷۸) آن را «Vieh, Haustier» معنی کرده و پوکورنی هم در همان صفحهٔ ۷۹۷ «cattle» آورده است؛ پس معنایی که نورایی داده نادرست است. دوم، صورت fšu- درست است: همان ستاک در ترکیب، از ایرانی باستان *pśu- که در آن خوشهٔ آغازین به fš بدل شده (بارتولومه: fšav- بنگرید به pasav-؛ نیز fšuyant- «دامدار»). سوم، pašman در اوستا شاهد ندارد؛ آنچه در اوستا هست pašna- «پلک» است و بارتولومه ذیل آن سنسکریت pakṣman و فارسی نو «پشم» را سنجیده است؛ بنابراین صورت *pašman- بازسازیِ ایرانی آغازین است نه واژهٔ اوستایی. چهارم، fšu-pait همان *fšu-paiti- «سرور دام» است که هرن (ص ۱۷۱) تنها برای توضیح وام‌واژهٔ ارمنی špet آورده؛ اما آنچه «شبان/چوپان» از آن آمده *fšu-pāna- «نگاهبان دام» است (fšu + پاییدن)، یعنی همان ریشه‌ای که خودِ نورایی با نشانهٔ ☞Pa به آن ارجاع داده است. حاصل: مسیر کلی درست است ولی صورت‌ها و معناها دقیق نیست؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B4%D9%85",
+            "https://en.wiktionary.org/wiki/%DA%86%D9%88%D9%BE%D8%A7%D9%86",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:797",
+              "status": "partial",
+              "note": "The cited page has 'Avestan pasu- m. „cattle“ (mostly still „small cattle“), in compound fsu-, -fsu-' (so fšu- is Nourai's, but pasu- is glossed 'cattle', not 'wool'), and at the end 'Avestan pašna- n. „eyelid“, compare in not so specified meaning np. pašm „wool“' — i.e. Pokorny gives pašna-, not an Avestan pašman-, and has no fšu-pait(i)- at all."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW ~cols. 878 (pasav-), 886 (pašna-), 998 (fšav-)",
+              "stance": "partial",
+              "note": "'j., g. pasav-, fšav- m. „Vieh, domestizirtes vierfüssiges Tier, Haustier“ … u. fśu- m.; sbal. fas „Kleinvieh“, oss. fos „Schaf“; np. šubān „Hirte“' (BRT.txt line 15856); 'j. pašna- n. „Augenlid“ … Vgl. ai. pákṣman- n. „Augenwimpern“; np. pašm „Wolle“' (line 15936); 'j., g. fšav- m.: s. unter pasav-' (line 18398). Bartholomae has pasu- and fšu-, but no Avestan pašman- and no fšu-paiti-."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (glossary) s.v. šupān",
+              "stance": "partial",
+              "note": "'šupān [špʾn] shepherd … — Av. (1029) fšu- „sheep“ = pasu-, v.s.v. pāh, + pāna-, v. pānak; MPrth šwbʾn; NP šubān, šabān' — Nyberg analyses the shepherd word as fšu- + pāna-, i.e. not -paiti- as printed here (but exactly Nourai's ☞Pa pointer)."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 776, p. 171",
+              "stance": "partial",
+              "note": "'šabān Hirte, šuwān, šubān … aw. fšu.pāna-; phlv. špān „Hirte“ (AV.), šupān (FP.); arm. LW. spat (aw. *fšu.paiti-)' — Horn has BOTH compounds: -pāna- for the Iranian shepherd word, *fšu-paiti- only for the Armenian loan."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck §3.15 'cattle' (SYN.txt line 3927)",
+              "stance": "contradicts",
+              "note": "'Av. pasu- mostly „small cattle“' — the animal, never 'wool'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "pašm «پشم»; šabân, čŭpân «شبان ، چوپان»",
+          "verdict": "confirmed",
+          "derivation": "Both Persian words descend from the Avestan/Old Iranian material of the parent box, through Middle Persian. (a) پشم: Proto-Iranian *pašman- (< PIE *poḱ-s-mn̥, the -mn̥ derivative of *peḱ- 'pluck') > MP pašm [pšm] 'wool', with loss of the -an of the n-stem as regularly in MP (MacKenzie, CPD p. 65: 'pašm [pšm | N ~] wool. ~ēn woollen') > NP pašm 'wool'; cognates Skt. pakṣman- 'eyelashes, hair', Gk. pókos 'fleece', Arm. asr, Lat. pectō. Pokorny cites 'np. pašm „wool“' on the very page Nourai gives. (b) شبان/چوپان: Old Iranian *fšu-pāna- 'cattle-protector' > MP šubān/šupān (written špʾn, Manichaean šwbʾn; Parthian šwbʾn) > NP šubān/šabān 'shepherd'; the initial cluster fš- was simplified to š- with an anaptyctic vowel (*fšupān > šupān > šubān), and intervocalic -p- softened to -b-. čupān is the later, originally dialectal by-form of the same word (Horn no. 776: 'die dialektischen čupān … sind jung'); from Persian it passed into Turkic (Ottoman çoban, Chaghatai čōpān, Azerbaijani çoban) and was reinforced from there in the Mongol/Ilkhanid period (whence the Chupanid dynasty, Amir Čupān). Mo'in's footnote in Borhān-e Qāṭeʿ, s.v. چوپان, states 'همریشهٔ شبان (پهلوی šubān) … از افادات استاد پورداود' and reports the Encyclopaedia of Islam's view that Ottoman çoban is a Turco-Persian word. Nourai's arrow and both glosses are right.",
+          "derivation_fa": "هر دو واژه از راه فارسی میانه به فارسی نو رسیده‌اند. «پشم» از ایرانی آغازین *pašman- (خود از هندواروپایی *poḱ-s-mn̥، مشتق ریشهٔ *peḱ- «کندن پشم») به فارسی میانهٔ pašm (نوشتهٔ pšm در فرهنگ مکنزی، ص ۶۵) و از آنجا به «پشم» فارسی نو؛ پایانهٔ -an ستاک نونی در فارسی میانه افتاده است. هم‌ریشه‌های آن سنسکریت pakṣman «مژه، مو»، یونانی pókos «پشمِ چیده» و لاتین pectō است، و پوکورنی هم در همان صفحهٔ ۷۹۷ «np. pašm Wolle» را آورده. «شبان» از ایرانی باستان *fšu-pāna- «نگاهبان دام» است که در فارسی میانه šubān/šupān شده (مکنزی ص ۷۹؛ نیبرگ، واژه‌نامه، ذیل šupān؛ پارتی šwbʾn): خوشهٔ آغازین fš- ساده و واکهٔ میانجی افزوده شده و p میان‌واکه‌ای به b نرم شده است. «چوپان» گونهٔ گویشی و متأخرترِ همان واژه است (هرن، شمارهٔ ۷۷۶: صورت‌های چوپان «جوان»‌اند)، که از فارسی به ترکی رفته (çoban عثمانی، چوپان جغتایی) و در دورهٔ ایلخانی دوباره رواج یافته است؛ معین نیز در حاشیهٔ برهان قاطع ذیل «چوپان» می‌نویسد «هم‌ریشهٔ شبان (پهلوی šubān)… از افادات استاد پورداود». ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B4%D9%85",
+            "https://en.wiktionary.org/wiki/%DA%86%D9%88%D9%BE%D8%A7%D9%86",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:797",
+              "status": "supports",
+              "note": "'compare in not so specified meaning np. pašm „wool“' — Pokorny p. 797 explicitly attaches New Persian pašm to this root (he says nothing about šabān/čupān, which are covered by Horn and Nyberg instead)."
+            },
+            {
+              "ref": "SNS:123,125",
+              "status": "partial",
+              "note": "Tavoosi's Shāyast nē Shāyast glossary is on disk only as very poor OCR with no readable printed page numbers (refs_online: 'page offset not determined'). The text does contain the Pahlavi material Nourai is citing — 'buz-pašm' (goat wool, SNS.txt line 7565), 'uštur pašm' (camel wool, line 17610), a headword ':pašmān:' (line 8273) — and its Avestan index has 'pašman- 123/10' (line 29385), which matches the '123' of the citation; but I could not pin the printed pages 123 and 125 to leaves of the scan, so this ref is only partially checked."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD pp. 65 and 79",
+              "stance": "supports",
+              "note": "'pašm [pšm | N ~] wool. ~ēn [-yn | N ~īn] woollen' and 'šubān [špʾn! | P šwbʾn, N ~] shepherd' — both Middle Persian links of the chain are attested."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary s.v. šupān",
+              "stance": "supports",
+              "note": "'šupān [špʾn] shepherd … — Av. (1029) fšu- „sheep“ = pasu-, + pāna-; MPrth šwbʾn; NP šubān, šabān'."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 776, p. 171",
+              "stance": "supports",
+              "note": "'776. šabān Hirte, šuwān, šubān … aw. fšu.pāna-; phlv. špān „Hirte“ (AV.), šupān … kurd. šiwan; afg. špūn „Hirt“ … Die dialektischen čupān (auch kurd. čuwān „Hirt“) sind jung.'"
+            },
+            {
+              "src": "HUB",
+              "where": "Hübschmann, Persische Studien p. 42 (note after no. 321)",
+              "stance": "supports",
+              "note": "'Hier fehlt: pašm „Wolle“, skr. pakṣman- „Augenwimpern, Haar“ …; ahd. fahs „Haarschopf“, gr. πόκος „Vliess“ … an. fær „Schaf“' — Hübschmann assigns NP pašm to exactly this word family."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhān-e Qāṭeʿ, Moʿin's footnote s.v. چوپان (BQT_v2_pages.txt line 7457)",
+              "stance": "supports",
+              "note": "'چوپان (بدو او معروف) - همریشهٔ شبان (پهلوی šubān) (ه.م.) از افادات استاد پورداود' — Moʿin, on Pourdavoud's authority, makes čupān and šabān the same word, with the Pahlavi form; he adds the Turkic spread (çoban, Chaghatai čōpān, the Chupanid amirs)."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e riše-hā-ye hend-o-orupāyi, s.v. شبان (ARY_pages.txt, pdf page 374) and s.v. پشم (pdf page 170)",
+              "stance": "supports",
+              "note": "s.v. شبان: 'واژهٔ \"شبان\" از دو واجریشه درست شده است: -FSHU به چم \"رم\" یا \"گوسفند\" (هندواروپایی: -PEK) و پسوند PANA به چم \"پاییدن\"'; note 2 'به احتمال زیاد واژهٔ \"چوپان\" هم از همین واجریشه است'; note 4 cross-refers to پشم — an independent modern Persian source giving Nourai's exact analysis."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "`ps",
+          "verdict": "confirmed",
+          "derivation": "Sogdian ʾps- (Gharib no. 1301, read ap(a)s / ʾps-) 'sheep, cattle', with the by-forms ps- (no. 7431, pas, acc. psw, nom. psy) and psw (no. 7453, pasu) — the ʾ- is the prosthetic aleph regular before an initial cluster in Sogdian orthography. All three continue Old Iranian *pasu- 'small cattle', the same stem as Avestan pasu-, so Nourai's arrow is right in substance; strictly, though, Sogdian is a sister Eastern Iranian language, not a descendant of Avestan — Gharib's own note is a comparison ('©<Av. pasu'), not a derivation. Nourai's transliteration '`ps' with a backtick for aleph reproduces Gharib's headword exactly, and 'sheep' is Gharib's first gloss.",
+          "derivation_fa": "سغدی ʾps- (قریب، شمارهٔ ۱۳۰۱) «گوسفند، دام» و گونه‌های ps- (شمارهٔ ۷۴۳۱، خوانش pas) و psw (شمارهٔ ۷۴۵۳، pasu) همگی دنبالهٔ ایرانی باستان *pasu- «دام کوچک»‌اند، یعنی همان ستاکی که در اوستایی pasu- دیده می‌شود؛ الف آغازین در ʾps- الف پروتتیک خط سغدی است. پس صورت و معنایی که نورایی آورده درست است. تنها نکتهٔ دقیق این است که سغدی فرزند اوستایی نیست بلکه زبانی ایرانی شرقی و هم‌عرض آن است؛ خودِ قریب هم در برابر مدخل «<Av. pasu» را همچون مقایسه آورده نه اشتقاق. ادعای نورایی پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9%E1%B8%B1u"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:51,298",
+              "status": "supports",
+              "note": "Gharib entry 1301 (SOD.txt line ~93585 area / entry block): '1301 ʾps-: B, S … ap(a)s ? (DAv. pasu) ©pred. inst. -, acc. -w … sheep, cattle | SCE 364; TSP 3.187; GMS 953, 1182 n 2' — at roughly p. 51 of the dictionary (≈25 entries a page); and entries '7431 ps-2 B, M, C … pas ©<Av. pasu ©acc. psw … sheep, cattle' and '7453 psw B, C … pasu … cattle, sheep' fall at roughly p. 298. Both cited pages carry exactly the word and gloss Nourai prints, and Gharib himself links them to Av. pasu."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib, Sogdian Dictionary nos. 1301, 7431, 7453",
+              "stance": "supports",
+              "note": "See ref_check; the dictionary gives 'sheep, cattle' and the Avestan comparison for all three forms."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW ~col. 878 s.v. pasav-",
+              "stance": "supports",
+              "note": "Bartholomae's own comparative tail for pasav- lists the Eastern-Iranian cognates 'sbal. fas „Kleinvieh“, oss. fos „Schaf“', the same *pasu- family the Sogdian form belongs to."
+            },
+            {
+              "src": "POK",
+              "where": "Pokorny p. 797",
+              "stance": "supports",
+              "note": "'Avestan pasu- m. „cattle“ (mostly still „small cattle“)' — the Iranian branch of the root, of which the Sogdian word is a member."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Germanic",
+          "words": "feht",
+          "verdict": "confirmed",
+          "derivation": "Two Germanic words of this root are packed into one box. The verb is Proto-Germanic *fehtaną 'to comb out, struggle' (OE feohtan, OS/OHG fehtan, Du. vechten, G. fechten), from the t-extension *peḱ-t- of the root; the noun is *fahtiz > OE feht 'fleece' (Du. vacht 'wool, fleece', OSw. fæt 'wool, fleece'), which is what Pokorny prints on p. 797 ('Old English feht „fleece“, Dutch vacht „wool, fleece“'). Nourai's spelling 'feht' is therefore the noun's shape carrying the verb's gloss; both belong here, and his double gloss 'to pluck out wool, fight' is precisely the semantic bridge the handbooks assume ('pulling roughly', 'tearing out one another's hair'). Etymonline is slightly more cautious — 'probably from PIE *pek- (2) … But perhaps it is from the source of Latin pugnus „fist“' — but Pokorny, Walde-Pokorny, Watkins and Klein all put the verb here.",
+          "derivation_fa": "در این جعبه دو واژهٔ ژرمنی با هم آمده‌اند: فعلِ ژرمنی آغازین *fehtaną «شانه‌کردن/کشمکش کردن» (انگلیسی کهن feohtan، آلمانی کهن fehtan، آلمانی امروز fechten) از گسترش t-دارِ ریشه، و نامِ *fahtiz > انگلیسی کهن feht «پشمِ چیده، پشمینه» (هلندی vacht) که پوکورنی در همان صفحهٔ ۷۹۷ آورده است. پس صورتی که نورایی نوشته صورت اسم است و معنایی که داده معنای فعل؛ ولی هر دو به همین ریشه بازمی‌گردند و همان پل معنایی «کندنِ خشن مو و پشم ← زدوخورد» را نشان می‌دهند که فرهنگ‌نویسان فرض می‌کنند. اتیمانلاین محتاط‌تر است و می‌گوید «احتمالاً» از این ریشه است و شاید هم با لاتین pugnus «مشت» پیوند داشته باشد، اما پوکورنی، والده-پوکورنی، واتکینز و کلاین همگی آن را همین‌جا می‌نهند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/fight",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. pek-2: '1. Extended form *pekt- in Germanic *fehtan, to fight, in Old English feohtan, to fight: FIGHT.' — exactly the node and the next one."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Pokorny p. 797 (peḱ-2)",
+              "stance": "supports",
+              "note": "'Old High German Old Saxon fehtan, Old English feohtan „fence“; … Old English feht „fleece“, Dutch vacht „wool, fleece“' — both the verb and the noun 'feht' of Nourai's box."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 581 s.v. fee",
+              "stance": "supports",
+              "note": "'… OE. feax, OS., OHG. fahs „hair“, ON. fax „mane“, OE. feohtan „to fight“ (orig. „to pluck, pull, scuffle“)'."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. II p. 16",
+              "stance": "supports",
+              "note": "The Germanic material stands under '2. pek- „Wolle oder Haare rupfen, zausen“' on the same page as the root."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "fight",
+          "verdict": "confirmed",
+          "derivation": "OE feohtan 'to combat, contend with weapons' (class III strong verb, pt. feaht, pp. fohten) > ME fighten > fight; the noun is OE feoht > ME fiht. The -gh- is a Middle English scribal spelling for the earlier hard h before -t- (late OE examples still write yogh). The word never left English; no borrowing is involved, so the single arrow from the Germanic box is right.",
+          "derivation_fa": "انگلیسی fight دنبالهٔ انگلیسی کهن feohtan «جنگیدن، نبرد کردن» (فعل قوی طبقهٔ سوم: گذشتهٔ feaht، اسم مفعول fohten) است که در انگلیسی میانه fighten شده؛ اسم آن نیز از feoht انگلیسی کهن می‌آید. نوشتنِ gh در املای انگلیسی میانه صرفاً جانشین همان «های سخت» پیش از t است. هیچ وام‌گیری در میان نیست و پیکان نمودار درست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/fight"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference of its own; it inherits AHD from the parent Germanic box, where Watkins names FIGHT as the English outcome of *fehtan."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 590 s.v. fight, n.",
+              "stance": "supports",
+              "note": "'fight, n. — ME. fiht, fr. OE. feoht, fr. feohtan, „to fight“'; the verb article cross-refers to fee, i.e. to the *pek- family."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. pek-2",
+              "stance": "supports",
+              "note": "'… in Old English feohtan, to fight: FIGHT.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/fight",
+              "stance": "partial",
+              "note": "Confirms OE feohtan > fight in full, but hedges the root: 'probably from PIE *pek- (2) „to comb, to pluck out“ wool or hair … But perhaps it is from the source of Latin pugnus „fist“.'"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Germanic",
+          "words": "fehu; fĕlag",
+          "verdict": "plausible",
+          "derivation": "The first word is right and central: Proto-Germanic *fehu 'cattle, livestock, property' < PIE *péḱu (Goth. faihu 'money, property', OHG fihu 'cattle', OS fehu, OE feoh 'cattle, money, property', ON fé) — Grimm's law gives p > f and ḱ > h. The second is not a Common Germanic word: félag is Old Norse, a compound noun 'partnership, joint ownership', literally 'a laying down of money', from fé (< *fehu) + lag 'a laying' (PIE *legʰ- 'to lie, lay'), first attested in the Viking-age North and productive in the Danelaw. So only its first element belongs to this root, and the box should be labelled Old Norse rather than Germanic for that word; Watkins likewise routes FELLOW through 'Old Norse fé' rather than through a Proto-Germanic *fēlag.",
+          "derivation_fa": "واژهٔ نخست درست و اصلی است: ژرمنی آغازین *fehu «دام، چهارپا، مال» از هندواروپایی *péḱu (گوتی faihu «مال، پول»، آلمانی کهن fihu «دام»، انگلیسی کهن feoh، اسکاندیناوی کهن fé)؛ بر پایهٔ قانون گریم p به f و ḱ به h بدل شده است. اما félag واژه‌ای ژرمنی مشترک نیست، بلکه ترکیبی است در نورس کهن (اسکاندیناوی کهن) به معنی «شراکت، مالِ روی‌هم‌گذاشته»، از fé «مال» و lag «نهادن» (از ریشهٔ هندواروپایی *legʰ- «خواباندن، نهادن»)؛ پس تنها جزء نخست آن به این ریشه بازمی‌گردد و برچسب درست برای آن «نورس کهن» است نه «ژرمنی». واتکینز نیز واژهٔ fellow را از «اسکاندیناوی کهن fé» می‌گیرد نه از صورتی ژرمنی. ادعای نورایی با این اصلاح پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/fehu",
+            "https://www.etymonline.com/word/fellow"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. peku-: 'Germanic *fehu- in: a. Old Norse fé, property, cattle: FELLOW; b. Old French fie, fief: FEE; c. Medieval Latin feudum, feudal estate: FEUD2' — *fehu is confirmed, but the appendix has no Germanic *fēlag; the compound is Old Norse."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 pp. 581 (fee) and 583 (fellow)",
+              "stance": "partial",
+              "note": "'fee, n., cattle; property; money — ME. feoh, fr. OE. feoh … Goth. faihu' supports *fehu; but 'fellow, n. — … fr. ON. felagi, „partner, companion“, from felag, „companionship“, lit. „laying down of money“, fr. fé, „cattle, money“, and lag, „a laying“' makes félag Old Norse and its second element a different root."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck §3.15 and §11.41 (SYN.txt lines 3927, 19547)",
+              "stance": "supports",
+              "note": "'Goth. faihu „property, money“, ON fé, OE feoh „cattle, property, money“ : OHG fihu „cattle“, Lat. pecu … Av. pasu- „cattle“ (3.15)'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann s.v. peKu",
+              "stance": "supports",
+              "note": "'Go. faihu n. „money“, OHG fëho, fihu, OS fehu n. „farm-animal“; OE feoh n. „cattle, wealth“; ON fé n. id.'"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "fellow",
+          "verdict": "confirmed",
+          "derivation": "OE feolaga 'partner, one who lays down money with another', a late-Old-English borrowing from Old Norse félagi (agent noun to félag) taken over in the Danelaw in the 10th–11th c.; ME felaghe, felawe > fellow (c. 1200 'companion, comrade'). The semantics run 'joint depositor of property' > 'partner, comrade' > 'any man' (mid-15c.) and, in the universities, 'member of a corporation paid from its revenues' (mid-15c.). Nourai's arrow from the fehu/félag box is exactly right.",
+          "derivation_fa": "انگلیسی fellow از انگلیسی کهن feolaga «شریک، آن‌که مال خود را با دیگری روی هم می‌گذارد» می‌آید که خود در سدهٔ دهم و یازدهم میلادی در ناحیهٔ دِین‌لا از نورس کهن félagi (اسم فاعل از félag) وام گرفته شده است؛ در انگلیسی میانه felawe و سپس fellow شده است. تحول معنایی آن چنین است: «هم‌سرمایه» ← «همراه، رفیق» ← «مرد، شخص» و در دانشگاه‌ها «عضو مستمری‌بگیر یک کالج». پیکان نمودار درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/fellow"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No reference printed on the node; the parent box's AHD covers it — Watkins names FELLOW as the English outcome of Germanic *fehu- via Old Norse fé."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 583 s.v. fellow",
+              "stance": "supports",
+              "note": "'fellow, n. — ME. felaghe, felawe, fr. OE. feolaga, fr. ON. felagi, „partner, companion“, from felag, „companionship“, lit. „laying down of money“, fr. fé, „cattle, money“, and lag, „a laying“.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/fellow",
+              "stance": "supports",
+              "note": "'from Old English feolaga „partner, one who shares with another“, from Old Norse felagi, from fe „money“ (see fee) + lag … The etymological sense of fellow seems to be „one who puts down money with another in a joint venture“.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. peku-",
+              "stance": "supports",
+              "note": "'a. Old Norse fé, property, cattle: FELLOW.'"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Latin",
+          "words": "feudum",
+          "verdict": "plausible",
+          "derivation": "feudum 'fief, feudal estate' is Medieval Latin, first in Frankish/Burgundian charters of the 10th–11th c., not Latin of the classical period; and it is not an independent Italic reflex of *péḱu (that reflex is pecū, pecus, pecūnia, pecūlium). It is a borrowing of Germanic/Frankish *fehu 'cattle, movable property' — most handbooks reconstruct *fehu-ōd 'property-estate' (fehu + ōd 'possession'), while Klein derives feudum from an earlier feum and explains the -d- as analogy with allodium. Either way the route is root > Germanic > Medieval Latin, so the chart's direct arrow from the Indo-European root to a 'Latin' box is misleading — Watkins, whom the node cites, himself lists 'Medieval Latin feudum' as a sub-item of Germanic *fehu-. The gloss 'property, feudal state' is otherwise fine.",
+          "derivation_fa": "واژهٔ feudum «تیول، ملکِ فئودالی» لاتینِ میانه (سده‌های دهم و یازدهم میلادی، در سندهای فرانکی) است نه لاتینِ کلاسیک، و بازماندهٔ مستقیم *péḱu در ایتالیایی-لاتین نیست؛ بازماندهٔ آن pecū و pecus و pecūnia است. feudum در حقیقت وام‌واژه‌ای است از ژرمنیِ فرانکی *fehu «دام، مالِ منقول»، که بیشتر پژوهشگران آن را ترکیب *fehu-ōd «دارایی-ملک» می‌دانند و کلاین آن را از صورت کهن‌ترِ feum می‌گیرد و دالِ آن را برآمده از قیاس با allodium می‌شمارد. پس مسیر درست «ریشه ← ژرمنی ← لاتین میانه» است و پیکانی که نورایی یکراست از ریشه به جعبهٔ «لاتین» کشیده گمراه‌کننده است؛ خودِ واتکینز هم که نورایی به او ارجاع داده feudum را زیرمجموعهٔ ژرمنیِ *fehu- آورده است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/feudal",
+            "https://en.wiktionary.org/wiki/feudum"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. peku-: '1. Germanic *fehu- in: … c. Medieval Latin feudum, feudal estate: FEUD2; INFEUDATION.' The word is in the appendix under this root, but as a Germanic loan into Medieval Latin, not as a Latin descendant — the chart's arrow bypasses the Germanic stage and drops 'Medieval'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 587 s.v. feud, n., a fief",
+              "stance": "partial",
+              "note": "'feud, n., a fief. — ML. feudum, fr. feum, a word of Teut. origin; cp. Goth. faihu, „property“, OHG. fihu, „cattle“, and see fee … The d in ML. feudum is prob. due to the influence of the word allodium.' — Medieval Latin, Germanic origin."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/feudal",
+              "stance": "partial",
+              "note": "'from Medieval Latin feudalis, from feudum „feudal estate, land granted to be held as a benefice“, of Germanic origin (cognates: Gothic faihu „property“, Old High German fihu „cattle“; see fee)'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet (LAT.txt), grep 'feudum'",
+              "stance": "silent",
+              "note": "No hit for feudum in the dictionary of classical Latin — only pecus/pecu articles; confirms the word is post-classical."
+            },
+            {
+              "src": "LEW",
+              "where": "Walde-Hofmann (LEW_1910.txt), grep 'feudum'",
+              "stance": "silent",
+              "note": "No hit; the classical Latin reflex of the root is pecū/pecūnia, not feudum."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "French",
+          "words": "feodal",
+          "verdict": "confirmed",
+          "derivation": "French féodal (the book prints it without the accent, as it does with other French forms) is the regular learned adjective to Medieval Latin feudālis (feudum + -ālis), taken into French in the late 15th–16th c. alongside the inherited noun fief (OF fieu, feu, feof < feudum). It is from this French adjective, not from Latin directly, that both the English and the Persian boxes below are fed.",
+          "derivation_fa": "صورت فرانسویِ féodal (که کتاب بدون نشانهٔ زیر-وزبر «feodal» چاپ کرده، چنان‌که با دیگر واژه‌های فرانسوی هم می‌کند) صفتِ عالمانه‌ای است ساخته‌شده از لاتینِ میانهٔ feudālis (از feudum + پسوند -ālis) که در سده‌های پانزدهم و شانزدهم وارد فرانسه شد؛ در کنار آن اسم موروثی fief (فرانسهٔ کهن fieu، feof) از همان feudum آمده است. هم انگلیسی feudal و هم «فئودال» فارسی از همین صفت فرانسوی گرفته شده‌اند نه یکراست از لاتین.",
+          "sources": [
+            "https://www.etymonline.com/word/feudal"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No reference on the node; the parent's AHD entry covers feudum, and Klein p. 587 supplies the French adjective."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 587 s.v. feudal, adj.",
+              "stance": "supports",
+              "note": "'feudal, adj., 1) pertaining to land held in feud … — OF., fr. ML. feudalis, fr. feudum.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/feudal",
+              "stance": "supports",
+              "note": "'from Medieval Latin feudalis, from feudum' — the same adjective, reaching English through French."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "feodâl «فئودال»",
+          "verdict": "confirmed",
+          "derivation": "Persian فئودال feodāl is a 20th-century loan from French féodal, taken over with the whole cluster of terms of European historiography and political economy (فئودالیسم، فئودالیته، نظام فئودالی), largely through translations of French and, later, Marxist historical writing. The spelling with hamza on a yāʾ seat (ئ) is the standard Persian rendering of the French hiatus é-o. In Persian the French adjective has been nominalised: Moʿin defines it as an adjective/noun 'مالک، دارندهٔ زمین‌های بسیار' — 'owner of large land', exactly Nourai's gloss. The arrow French > Persian is right; the word did not come through Arabic.",
+          "derivation_fa": "«فئودال» وام‌واژه‌ای است از فرانسویِ féodal که در سدهٔ چهاردهم خورشیدی همراه با دستهٔ اصطلاح‌های تاریخ‌نگاری و اقتصاد سیاسی اروپایی (فئودالیسم، فئودالیته، نظام فئودالی) و بیشتر از راه ترجمه‌های فرانسه و سپس نوشته‌های تاریخی مارکسیستی وارد فارسی شد. نوشتن همزه بر کرسی «ی» شیوهٔ معمول فارسی برای نمایاندن پیوند دو واکهٔ é-o در فرانسه است. در فارسی این صفتِ فرانسوی اسم شده است؛ معین آن را «مالک، دارندهٔ زمین‌های بسیار» معنی کرده که دقیقاً همان معنایی است که نورایی داده. مسیر «فرانسه ← فارسی» درست است و این واژه از راه عربی نیامده است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%81%D8%A6%D9%88%D8%AF%D8%A7%D9%84/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON",
+              "status": "supports",
+              "note": "Moʿin, Farhang-e Fārsi: 'فئودال (فِ ئُ) [فر.] (ص.) مالک، دارندهٔ زمین‌های بسیار' (abadis.ir, فرهنگ معین section) — the tag [فر.] = French, i.e. Moʿin gives exactly the French source Nourai's arrow draws. The Amir Kabir two-volume text on disk (MON_part2.txt line 4841) reads 'فئودال: (ص.) کسی که دارای ملک‌ها و رعایای بسیار باشد و بر آنان تسلط کامل داشته باشد؛ ملک بزرگ، عمده مالک، ملوک‌الطوایف', with 'فئودالیسم' following."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Moʿin, Farhang-e Fārsi s.v. فئودال (MON_part2.txt line 4841; abadis mirror)",
+              "stance": "supports",
+              "note": "See ref_check — French tag and the 'large landowner' definition."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/feudal",
+              "stance": "supports",
+              "note": "Supplies the French/Medieval Latin end of the chain that Persian borrows: 'Medieval Latin feudalis, from feudum'."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "English",
+          "words": "feudal",
+          "verdict": "confirmed",
+          "derivation": "English feudal is first recorded in the 1610s, 'pertaining to feuds (fiefs)', borrowed from Medieval Latin feudālis, in part through Old/Middle French féodal; the earlier native-legal family (feoffee, feodary 'one who holds lands of an overlord', late 14c.) shows the word already in Anglo-French legal use. It has nothing to do with feud 'quarrel' (a separate word from Old French faide, Germanic *faihitho). Nourai's arrow Latin > English is right in substance, given that his 'Latin feudum' is Medieval Latin.",
+          "derivation_fa": "انگلیسی feudal نخستین بار در دههٔ ۱۶۱۰ میلادی به معنی «مربوط به تیول» ثبت شده و وامی است از لاتینِ میانهٔ feudālis، تا اندازه‌ای از راه فرانسویِ féodal؛ خانوادهٔ حقوقیِ کهن‌ترِ آن (feodary «تیول‌دار»، اواخر سدهٔ چهاردهم) نشان می‌دهد واژه پیش‌تر در زبان حقوقی انگلیسی-فرانسوی به کار می‌رفته است. این واژه هیچ پیوندی با feud «کینه و ستیز» ندارد که از فرانسهٔ کهن faide و ژرمنی *faihiþō آمده. پیکان «لاتین ← انگلیسی» درست است، به شرط آنکه «لاتین» را لاتینِ میانه بدانیم.",
+          "sources": [
+            "https://www.etymonline.com/word/feudal"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No reference on the node; the parent Latin box cites AHD, where Watkins gives 'Medieval Latin feudum … : FEUD2; INFEUDATION' as the English outcome."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p. 587 s.v. feudal, adj.",
+              "stance": "supports",
+              "note": "'feudal, adj. … — OF., fr. ML. feudalis, fr. feudum. See feud, „fief“.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/feudal",
+              "stance": "supports",
+              "note": "'1610s, „pertaining to feuds“, estates of land granted by a superior … from Medieval Latin feudalis … Not related to feud.'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. peku-",
+              "stance": "supports",
+              "note": "'c. Medieval Latin feudum, feudal estate: FEUD2; INFEUDATION.'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
