@@ -1,0 +1,587 @@
+{
+ "pdf_page": 361,
+ "book_page": 331,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-07",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Ner 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₂nḗr 'man; power, force, vital energy' (Pokorny ner-1(t)-/aner-, p. 765; Watkins ner-2)",
+   "note": "Root, language label and gloss are all right: Pokorny 765 heads the entry 'ner-1(t)-, aner-' with the meaning 'vital energy; man' — word for word Nourai's 'vital energy, man' — and Watkins/AHD gives 'ner-2, Also aner-. Man; basic sense ‚vigorous, vital, strong‘ [Pok. 1. ner-(t)- 765]'. Modern reconstruction writes *h₂nḗr, the initial laryngeal being what surfaces as the a- of Greek ἀνήρ (and of Nourai's variant spelling 'a-ner'). Nourai's numbering 'Ner 1' matches Pokorny's, who has three homophonous roots ner- (1 'man', 2 'under/north', 3 'to conceal'). Two things to flag for the data owner rather than for scholarship: (a) the reference BQT:1796 in the Persian nar/Narīmān/nīrū box does not exist as cited — printed p. 1796 of the Moʿin edition is in the گرز… stretch of vol. 3; the other three page numbers (2126, 2132, 2225) are exactly right. (b) The printed page has a FOURTH box in the nāirī row — an entirely blank box, no language header and no words, joined by a line to the Pahlavi nâyrig box — which the extraction dropped; it carries no information, but the JSON has no node for it, so the chart in the repository is one (empty) box short of the page. Everything else on the page (words, glosses, scripts, refs, the Molavī quotation) matches the print.",
+   "note_fa": "ریشه، برچسب زبان و معنا هر سه درست است: پوکورنی در ص ۷۶۵ سرواژهٔ «ner-1(t)-, aner-» را با معنای «نیروی زندگی؛ مرد» آورده — همان «vital energy, man» نورایی — و واتکینز نیز «ner-2 … مرد؛ معنای پایه: پرتوان، زنده، نیرومند» می‌نویسد. بازسازی امروزی *h₂nḗr است و همان حنجریِ آغازین است که در یونانی ἀνήρ به «آ» بدل شده (و نورایی هم آن را «a-ner» نوشته است). شمارهٔ «Ner 1» با شمارگذاری پوکورنی می‌خواند، که سه ریشهٔ هم‌آوای ner- دارد. دو نکته برای صاحب داده، نه برای بحث علمی: نخست، ارجاع BQT:1796 در جعبهٔ «نر/نریمان/نیرو» نادرست است — صفحهٔ ۱۷۹۶ چاپ معین در بخش «گرز…» جلد سوم است — حال آنکه سه شمارهٔ دیگر (۲۱۲۶، ۲۱۳۲، ۲۲۲۵) دقیقاً درست‌اند. دوم، در صفحهٔ چاپی در ردیفِ nāirī جعبهٔ چهارمی هست که کاملاً تهی است (بی نام زبان و بی واژه) و با خطی به جعبهٔ «nâyrig» پهلوی پیوسته است؛ این جعبه در استخراج نیامده است. باقی صفحه (واژه‌ها، معناها، خط فارسی، ارجاع‌ها و بیت مولوی) با چاپ مطابق است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r",
+    "https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:765",
+     "status": "supports",
+     "note": "POK_full.txt line 62647: 'Root / lemma: ner-1(t)-, aner- … Meaning: vital energy; man … References: WP. II 332 f., WH. II 164 f., Trautmann 197 f. … Page(s): 765'. The page also carries ner-2 'under' (765-766), so 765 is the right page for Nourai's Ner 1."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. II 332-333",
+     "stance": "supports",
+     "note": "'1. ner-, aner- (aner-?) Mann' with the full Indo-Iranian, Greek, Italic, Celtic, Germanic and Baltic material — the source Pokorny himself cites as WP. II 332 f."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. ner-2",
+     "stance": "supports",
+     "note": "'ner-2, Also aner-. Man; basic sense ‚vigorous, vital, strong‘ … [Pok. 1. ner-(t)- 765.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "s.v. ner- (1), nertos",
+     "stance": "supports",
+     "note": "Mann: 'ner- (1) ‚man; male‘. WP II, 332' and 'nertos ‚manly; manliness, virtue, strength‘ … Oss. nart ‚hero‘' — the 'vital energy' half of the gloss is carried by these -to- derivatives."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 2.21 'MAN²', p. 81",
+     "stance": "supports",
+     "note": "'2. IE *ner-, nert- ‚strength, might‘ … Various cognates, as Ir. nert ‚strength, might‘, show that the notion of ‚strength‘ is dominant … Walde-P. 2.332f.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "nar, nairya; naire-manâw; nairyava",
+     "verdict": "plausible",
+     "derivation": "Av. nar- m. 'man' (nom. sg. nā, acc. narəm, oblique stem nar-/nr̥-) is the regular Iranian reflex of PIE *h₂nḗr; Bartholomae AiW col. 1049ff. gives 'nar- : nr̥- m. ‚Mann‘' explicitly opposed to the feminine nāirī- and to gənā-/jani- 'wife'. The adjective nairya- 'virilis, manly, of male sex' (AiW: 'nairya- Adj. (fem. °ryā-) ‚virilis‘') is *nar-ya- with the normal Avestan i-epenthesis before y (nar-ya > nairya). naire-manah- (Bartholomae's nairemanah- 'mannhaften Sinns', epithet of Kərəsāspa, Y.9.11, Yt.5.37, 15.27, 19.38f., Pahlavi gloss mart-mēnišn, Skt. nr̥mānas-) is nairya- + manah- 'mind'; Nourai's 'naire-manâw' is his transliteration of the nominative singular nairemanā̊ of that -manah- stem, not a different word. The third word is the weak link: nairyava- 'manliness, strength' is NOT attested in the extant Avesta — Horn (Grundriss no. 1064, p. 238) cites it as aw. *nairyava- with an asterisk, and current reconstruction is Proto-Iranian *naryawa-(ka)-; printing it as plain 'Avestan' overstates the evidence, hence the verdict 'plausible' for the box as a whole.",
+     "derivation_fa": "اوستایی nar- «مرد» (نهادی nā، رایی narəm) بازماندهٔ منظم *h₂nḗr هندواروپایی آغازین است و بارتولومه در «فرهنگ ایرانی باستان» (ستون ۱۰۴۹ به بعد) آن را در برابر مادهٔ مادینهٔ nāirī- آورده است. صفت nairya- «مردانه» از nar-ya- ساخته شده و «ای» آن حاصل هم‌گونی/میان‌جی i پیش از y در اوستایی است. naire-manah- «مردانه‌منش» (لقب کرساسپ، با برگردان پهلوی mart-mēnišn و همتای سنسکریت nr̥mānas-) از nairya- + manah- «اندیشه» است؛ آنچه نورایی «naire-manâw» نوشته همان صورت نهادی nairemanā̊ همین ستاک است، نه واژه‌ای دیگر. ولی nairyava- «مردانگی، نیرو» در متون اوستایی موجود گواه ندارد: هرن (بند ۱۰۶۴، ص ۲۳۸) آن را با ستاره *nairyava- می‌آورد و بازسازی امروزی ایرانی آغازین *naryawa- است؛ پس نامیدن آن «اوستایی» بی‌احتیاطی است و ادعای این جعبه «با احتیاط پذیرفتنی» است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r",
+      "https://en.wiktionary.org/wiki/%D9%86%D8%B1%DB%8C%D9%85%D8%A7%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:765",
+       "status": "supports",
+       "note": "POK_full.txt line 62647 'Root / lemma: ner-1(t)-, aner-' … 'Old Indic nar-(na) \"man, person\", Avestan nar-(na) ds. … Old Indic narya-, Avestan nairya- \"manly, virile\"'; Page(s): 765 — exactly the arrow's Avestan words."
+      },
+      {
+       "ref": "SYN:81",
+       "status": "supports",
+       "note": "Buck 2.21 'MAN² (vs. Woman)' begins on printed p. 81 (SYN.txt record 111): the language list has 'Skt. nar-, nara-, vīra-…  Av. nar-, vīra-, OPers. martiya-', and section '2. IE *ner-, nert- ‚strength, might‘ … Walde-P. 2.332f.'"
+      },
+      {
+       "ref": "HRN:238",
+       "status": "supports",
+       "note": "Horn no. 1064 on printed p. 238 (HRN.txt record 260): 'nīrō (*nērō) ‚Kraft, Macht‘. aw. *nairyava- ‚Mannhaftigkeit‘, vergl. nairya- ‚mannhaft‘; ai. narya-; phlv. nērōk.' — supports the derivation but writes *nairyava- with an asterisk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1049ff. s.v. nar-; col. 1053f. nairemanah-; nairya-",
+       "stance": "supports",
+       "note": "'j; g. nar- : nr̥- m. ‚Mann‘' with sub-sense (c) opposed to nāirī-; 'j. nairemanah- Adj. ‚mannhaften Sinns‘: … kərəsāspa Y.9.11, Yt.5.37 … Vgl. ai. nr̥mānas- … Pü.: mart mēnišn'; 'j. nairya- Adj. (fem. °ryā-) ‚virilis‘'. No entry nairyava- anywhere in BRT.txt (grep 'nairyava' → 0 hits)."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 332f. s.v. '1. ner-, aner-'",
+       "stance": "supports",
+       "note": "'Ai. nár- (nā) ‚Mann, Mensch‘, av. nar- (nā) ds. … ai. nárī, av. nāirī ‚Frau‘ … ai. narya-, av. nairya- ‚mannhaft, männlich‘' (WLD_Bd2_pages.txt line 21972ff.)."
+      },
+      {
+       "src": "IEC",
+       "where": "s.v. ner- (1) 'man; male'",
+       "stance": "supports",
+       "note": "Mann: 'ner- (1) ‚man; male‘. WP II, 332. … Av. nar, id. beside naro, id. and cons. stem nā, acc. narom … Per. nar, adj. ‚male‘' (IEC.txt line 11655)."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "nar «نر»; Narîmân «نریمان»; nîrŭ «نیرو»",
+     "verdict": "confirmed",
+     "derivation": "All three are genuine, but they reach New Persian through Middle Persian, not out of Avestan (Avestan is a sister dialect of the ancestor, not the ancestor). (1) NP nar 'male' < MP nar (Book Pahlavi nl, with the Aramaic ideogram ZKL) < Old Iranian *nar-, cognate with Av. nar-, Skt. nara-, Pashto nar, Ossetic næl. (2) Narīmān < MP Narēmān (Manichaean MP nrymʾn narēmān) < Av. nairemanā̊/nairyō.manah- 'of manly mind', with ē > ī in New Persian; in the Šāhnāme he is the father of Sām and great-grandfather of Rostam, which is exactly what Borhān-e Qāṭeʿ p. 2132 says. Nourai's gloss \"like a man\" is loose — the compound means 'manly-minded'. (3) nīrū 'strength' < MP nērōg [nylwk'] 'strength, power' (MacKenzie; Manichaean MP nyrwg) < Old Iranian *naryawa-ka-; the final -g/-k is lost after the long vowel and ō > ū: nērōg > nērō > nīrū, the very chain Horn no. 1064 prints (nīrō < *nērō, phlv. nērōk) and Moʿin's footnote in Borhān p. 2225 repeats with Hübschmann.",
+     "derivation_fa": "هر سه واژه اصیل‌اند، اما راهشان به فارسی نو از فارسی میانه است نه از اوستایی (اوستایی گونهٔ خواهرِ نیای فارسی است، نه نیای آن). ۱) «نر» از فارسی میانهٔ nar (پهلوی کتابی nl و نویسهٔ آرامی ZKL)، از ایرانی باستان *nar-، هم‌ریشه با اوستایی nar- و سنسکریت nara-. ۲) «نریمان» از فارسی میانهٔ Narēmān (مانوی nrymʾn)، از اوستایی naire.manaŋh- «مردانه‌منش»؛ ē فارسی میانه در فارسی نو به ī بدل شده است. در شاهنامه نریمان پدر سام و نیای رستم است و برهان قاطع (ص ۲۱۳۲) نیز همین را می‌گوید؛ معنای دقیق ترکیب «مردمنش» است نه «مانند مرد». ۳) «نیرو» از فارسی میانهٔ nērōg «زور، توان» (مکنزی؛ مانوی nyrwg)، از ایرانی باستان *naryawa-ka-؛ کافِ پایانی پس از واکهٔ بلند افتاده و ō به ū بدل شده: nērōg > nērō > nīrū — همان زنجیره‌ای که هرن (بند ۱۰۶۴) و حاشیهٔ معین بر برهان قاطع (ص ۲۲۲۵، با استناد به هوبشمان) می‌آورند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%86%D8%B1",
+      "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%B1%D9%88",
+      "https://en.wiktionary.org/wiki/%D9%86%D8%B1%DB%8C%D9%85%D8%A7%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2126",
+       "status": "supports",
+       "note": "Borhān vol. 4, printed p. 2126 (pdf 209 of BQT_v4): headword «نر … معروف است که نقیض ماده باشد» plus Moʿin's etymological footnote 'بتخفیف و تشدید راء، ایرانی باستان -nar «بارتولمه ۱۰۴۷»، پهلوی … «نیبرگ ۱۵۵»، اوستا nar- (هرد)، هندی باستان nara-, افغانی nar, استی…' — exactly Nourai's arrow."
+      },
+      {
+       "ref": "BQT:2132",
+       "status": "supports",
+       "note": "printed p. 2132 (pdf 215): «نریم … نام پدر سام است که جد رستم باشد» and «نریمان … بمعنی نریم است که جد رستم زال باشد» — confirms Narīmān as the male name."
+      },
+      {
+       "ref": "BQT:2225",
+       "status": "supports",
+       "note": "printed p. 2225 (pdf 308): «نیرو … بمعنی زور و قوت و توانایی باشد» with footnote 4: 'nērōk (زور، قوت). اوستا nairyava (رجولیت، مردانگی)، cf. nairya- (مردانه)؛ هندی باستان nārya-, پهلوی nērōk … و رك: هوبشمان' — the whole chain Av. nairyava- > Pahl. nērōk > NP nīrū."
+      },
+      {
+       "ref": "BQT:1796",
+       "status": "not_found",
+       "note": "printed p. 1796 of the Moʿin/Amir Kabir continuous pagination is in vol. 3 in the گرز… section (pdf 591; p. 1793 = «گرد/گرزن», p. 1797 = «گرست»); there is nothing about نر/نیرو there. Either a typo in the book or a citation belonging to another chart."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 57 s.v. nērōg; nar (in narig etc.)",
+       "stance": "supports",
+       "note": "MacKenzie: 'nērōg [nylwk' | M nyrwg, N nērō] strength, power. ~ōmand: strong, powerful' (PHD.txt line 510)."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 1064, p. 238",
+       "stance": "supports",
+       "note": "'nīrō (*nērō) ‚Kraft, Macht‘ … phlv. nērōk.'"
+      },
+      {
+       "src": "ARY",
+       "where": "printed p. 496 (ARY_pages pdf 495) s.v. نر، نره، نرینه",
+       "stance": "supports",
+       "note": "Aryanpur's independent entry lists Av. NAR-/NAIRYA-, OP, Pahlavi, Ossetic, Kurdish, Balochi, Pashto, Skt., Arm., Gk., Lat. and cross-refers «بازگشت به: نیرو، نر»; his note 'چم این واژه در زبان لاتین … نیرومند / در ولزی و برتونی: قهرمان' reproduces Pokorny 765's cognate set."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab/abadis (فرهنگ معین) for نیرو/نر",
+       "stance": "silent",
+       "note": "the online Moʿin viewers are JavaScript-rendered; the archived fetches returned only site chrome, so nothing usable."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Avestan",
+     "words": "nâirî",
+     "verdict": "confirmed",
+     "derivation": "Av. nāirī- f. 'woman, wife, lady' is the Indo-Iranian feminine built to nar- with vr̥ddhi of the first syllable (*nār-ī-), matching Skt. nārī 'woman'; Walde-Pokorny II 332 states it plainly ('ai. nárī, av. nāirī ‚Frau‘ (erst ar. Femininbildung)'), i.e. the formation is Indo-Iranian, not PIE. Bartholomae has nāirī- and its -ka- derivative nāirikā- 'woman, wife' throughout the Vīdēvdād and Nērangestān (e.g. 'yat nāirika ərəθrim jasāt ‚wenn eine Frau in die Schwangerschaft kommt‘' V.5.45), and notes that nar- and nāirī-/nāirikā- specifically designate 'der, die Gläubige', the adult male and female members of the Zoroastrian community (nāirinąm aṣ̌aoninąm 'of the pious women', Yt.13.143-145) — which is where the '(pious) woman' of the next box comes from.",
+     "derivation_fa": "اوستایی nāirī- «زن، بانو» صورت مادینهٔ nar- در دورهٔ هندوایرانی است که با کشش (وریدی) هجای نخست ساخته شده (*nār-ī-) و همتای سنسکریت nārī است؛ والده-پوکورنی (ج۲ ص۳۳۲) صریحاً می‌گوید این ساخت مادینه «تازه و هندوایرانی» است، نه هندواروپایی. بارتولومه هم nāirī- و مشتق آن nāirikā- «زن، همسر» را در وندیداد و نیرنگستان می‌آورد و یادآور می‌شود که nar- و nāirī- در متن‌های دینی به‌ویژه بر «مرد و زن مؤمن» جامعهٔ زردشتی دلالت دارند (nāirinąm aṣ̌aoninąm «زنان پارسا»)؛ همین نکته سرچشمهٔ معنای «زن پارسا» در جعبهٔ بعدی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:765",
+       "status": "supports",
+       "note": "POK_full.txt p. 765: 'Old Indic narī, Avestan nāirī ‚woman‘ (previously Aryan feminine formation)' (OCR 'Avestan nairfmie, woman')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1065 nāirī-, nāirikā- (cited from SNS); V.5.45, N.5, Yt.13.143",
+       "stance": "supports",
+       "note": "BRT.txt has 'yat … nairika ərəθrim jasāt ‚wenn eine Frau in die Schwangerschaft kommt‘ V.5.45' (line 8383) and 'insbes. mit nar- m. und nāirī-, nāirikā- f. ‚der, die Gläubige‘' (line 6271); also 'kū-nāiri- f. ‚Hurenweib‘' (line 9651)."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 332",
+       "stance": "supports",
+       "note": "'ai. nárī, av. nāirī ‚Frau‘ (erst ar. Femininbildung)'."
+      },
+      {
+       "src": "SYN",
+       "where": "2.22 WOMAN, p. 82",
+       "stance": "silent",
+       "note": "Buck's 'woman' list gives Av. only nāirikā- indirectly; the printed list on p. 82 does not cite nāirī- for Avestan, so no independent statement there."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Pahlavi",
+     "words": "nâyrig",
+     "verdict": "confirmed",
+     "derivation": "MP nāyrīg / nārīg [n(y)lyk'] 'woman, lady, wife' (MacKenzie, Concise Pahlavi Dictionary: 'nārīg … woman, lady, wife'; English-Pahlavi index 'wife nārīg, zan', 'woman nārīg, zan') continues not the bare Av. nāirī- but its -ka- derivative nāirikā-, Old Iranian *-ikā- giving the regular MP suffix -īg; the written -y- of nāyrīg still shows the Avestan diphthong ai. In Šāyest nē Šāyest, the text Tavoosi's glossary indexes, nāyrīg is the (married, ritually observant) woman of the community and the phrase nāyrīg zan also occurs — hence Nourai's '(pious) woman'. The step Av. nāirī(kā)- > MP nāyrīg is therefore right, with the small correction that the immediate base carries the -ka- suffix.",
+     "derivation_fa": "فارسی میانهٔ nāyrīg/nārīg «زن، بانو، همسر» (مکنزی: nārīg … woman, lady, wife) دنبالهٔ خودِ nāirī- اوستایی نیست، بلکه دنبالهٔ مشتق آن nāirikā- است؛ پسوند ایرانی باستان *-ikā- در فارسی میانه به -īg بدل می‌شود و «ی» در nāyrīg هنوز نشانهٔ دوگانه‌واکهٔ ai اوستایی است. در متن «شایست نه شایست» — که واژه‌نامهٔ طاوسی برای آن فراهم شده — nāyrīg زنِ (شوهردار و دین‌دارِ) جامعه است و ترکیب nāyrīg zan نیز به‌کار رفته؛ از این‌رو معنای «زن پارسا» در کتاب نورایی بی‌جا نیست. ادعا درست است، با این تصحیح کوچک که پایهٔ بی‌واسطه، صورت پسوندی nāirikā- است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "SNS:264",
+       "status": "supports",
+       "note": "Tavoosi's own index (SNS_pages.txt leaf 229) lists 'nāyrīg 264/19' and 'nāyrīg zan 264/24', i.e. exactly the cited page; the glossary entry itself (leaf 150) reads ':nāyrīg:' with the cross-references 'nairīk' and '(AiWb. 1065) nairī-', so Tavoosi derives it from Avestan nāirī-/nairikā- as Nourai's arrow does."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 57 s.v. nārīg; index s.v. wife, woman",
+       "stance": "supports",
+       "note": "'narig [n(y)lyk'] woman, lady, wife' (PHD.txt line 500); 'woman nārīg, zan' (line 4334)."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II, Glossary",
+       "stance": "silent",
+       "note": "grep of NYB_vol2_glossary.txt for nārīg/nāyrīg/nyryk gives no hit — the word does not occur in the texts Nyberg glosses."
+      },
+      {
+       "src": "BRT",
+       "where": "col. 1065 nāirikā-",
+       "stance": "supports",
+       "note": "the Avestan -kā- form on which MP nāyrīg is built is amply attested in BRT.txt (V.4.44 'upa vā nairikam vādayaδa ‚so möge man (ihnen) eine Frau zur Ehe geben‘', line 22391)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Avestan",
+     "words": "hu-nara",
+     "verdict": "confirmed",
+     "derivation": "Av. hunara- m./n. 'ability, art, skill' (Bartholomae: 'g. hunara- m. 1) ‚Können, Kunst‘', with the abstract hunaratāt- 'the sum of ability' and the compounds aṣ̌a-hunara- 'whose ability is great', haθa-hunara- 'skilful', draxtō.hunara- 'that knows learnt tricks' of the luxury dog V.13.8) is hu- 'good' (PIE *h₁su-, Nourai's cross-reference Su 1) + nara-, i.e. 'having the good quality of a man'. The Old Persian cognate is actually attested: huvnara- 'skill, accomplishment' in Darius' Naqš-e Rostam inscription DNb 45, 48, 51, which Kent analyses as 'adj. formation to pAr. *su- ‚good‘ + *nar- ‚man‘ = having the good quality of a man'. Walde-Pokorny II 332 lists av. hunara- 'Können, Kunst, Kunstfertigkeit, Tüchtigkeit' under ner- with the remark that it would originally be 'virtus', then 'virtuosité' — precisely Nourai's gloss 'good virtue, skill'.",
+     "derivation_fa": "اوستایی hunara- «توانایی، هنر، مهارت» (بارتولومه: hunara- m. «Können, Kunst»، با مشتق hunaratāt- و ترکیب‌هایی چون aṣ̌a-hunara- و draxtō.hunara- «سگِ آموخته‌کار» در وندیداد ۱۳/۸) از hu- «نیک» (هندواروپایی *h₁su-، همان ارجاع Su 1 نورایی) + nara- ساخته شده، یعنی «دارندهٔ خویِ نیکِ مردانه». همتای پارسی باستان آن گواه دارد: huvnara- «هنر، توانایی» در سنگ‌نوشتهٔ داریوش در نقش رستم (DNb بندهای ۴۵، ۴۸، ۵۱) که کنت آن را «*su- نیک + *nar- مرد» تحلیل می‌کند. والده-پوکورنی نیز آن را زیر ner- می‌آورد و معنای نخستینش را «virtus» و سپس «چیره‌دستی» می‌داند — دقیقاً همان «فضیلت نیک، مهارت» نورایی. ادعا درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%B1",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:765",
+       "status": "supports",
+       "note": "POK_full.txt p. 765: 'probably also Old Indic sunara- ‚full of vitality, juvenile‘, Avestan hunara- ‚miracle power‘' (i.e. Wunderkraft) under ner-1(t)-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1831 hunara-; also aṣ̌ahunara-, haθa.hunara-, draxtō.hunara-",
+       "stance": "supports",
+       "note": "BRT.txt line 30399 'j-, g. hunara- m. 1) ‚Können, Kunst‘ … a) ‚Kunstfertigkeit, Geschick…‘'; line 6346 'aṣ̌ahunara- Adj. ‚des Können (usw.) gross ist‘ Yt.10.25'; line 14059 'draxtō.hunara- Adj. ‚der gelernte Fertigkeiten besitzt, Kunststücke kann‘ vom Luxushund'."
+      },
+      {
+       "src": "KNT",
+       "where": "Lexicon s.v. huvnara- (DNb 45, 48, 51)",
+       "stance": "supports",
+       "note": "Kent: 'huvnara- sb. ‚skill, accomplishment‘: adj. formation to pAr. *su- ‚good‘ + *nar- ‚man‘ …, = ‚having the good quality of a man‘, Av. hunara- ‚ability, skill‘, Skt. sūnára-' (KNT.txt line 5218)."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 332",
+       "stance": "supports",
+       "note": "'av. hunara- m. ‚Können, Kunst, Kunstfertigkeit, Tüchtigkeit‘ (wäre ursprgl. ‚virtus‘, dann ‚virtuosité‘)', with the caution that Bartholomae AiW 1831 doubted the link with Skt. sunara-."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "honar «هنر»",
+     "verdict": "confirmed",
+     "derivation": "NP honar < MP hunar [hwnl], Manichaean MP and Parthian hwnr 'virtue, ability, skill' (MacKenzie: 'hunar … virtue, ability, skill', with hunarāwand, hunarōmand > NP hunarmand), continuing OP huvnara-/Av. hunara-: u is kept, the thematic -a falls, and the New Persian pronunciation shifts to honar. Nyberg's glossary gives the whole line in one place: 'hunar [hwnl] skill … Av. (1831) hunara-; MPrth hwnr ‚manliness, ability‘; Paz. xunar; NP hunar'. The semantic path is 'manly quality' > 'ability, craft, accomplishment' (so in Kalīla and Golestān: هنر ندیمان) > modern 'art' (هنرهای زیبا, a 20th-century calque of beaux-arts); Armenian hunar 'means, way' is an Iranian loan from the same word.",
+     "derivation_fa": "«هنر» از فارسی میانهٔ hunar (پهلوی hwnl؛ مانوی و پارتی hwnr) «فضیلت، توانایی، مهارت» است (مکنزی: hunar … virtue, ability, skill، با hunarāwand و hunarōmand که به «هنرمند» رسیده)، و آن دنبالهٔ huvnara- پارسی باستان و hunara- اوستایی است: u بر جای مانده، -a پایانی افتاده و تلفظ فارسی نو به honar گراییده. نیبرگ همهٔ این زنجیره را یک‌جا آورده است: «hunar … اوستایی (۱۸۳۱) hunara-؛ پارتی/مانوی hwnr «مردانگی، توانایی»؛ پازند xunar؛ فارسی نو hunar». تحول معنایی: «خویِ مردانه» > «توانایی، پیشه، فضیلت» (چنان‌که در گلستان: «هنر ندیمان») > «آرت/هنرهای زیبا» در دوران معاصر. «هنر» ارمنی (hunar) وام‌واژهٔ ایرانی از همین واژه است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2381",
+       "status": "supports",
+       "note": "Borhān vol. 4, printed p. 2381 (pdf 464): 'هنر - بضم اول و فتح دوم، اوستا hunara- عظمت، استعداد، قابلیت، هندی باستان sunara-، سانسکریت sundara (زیبا، قشنگ)، پهلوی hunar، ارمنی hunar، افغانی و بلوچی hunar «… ۱۱۸» و رك: نیبرگ ص ۱۱۱؛ کردی hunar (فن، معرفت) «ژابا ص ۴۵۳»' — the exact arrow Av. hunara- > NP هنر."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 45 s.v. hunar",
+       "stance": "supports",
+       "note": "'hunar [hwnr | M hwnr, N ~] virtue, ability, skill. hunarāwand … hunarōmand [… | N hunarmand]' (PHD.txt line 398); index 'skill … hunar', 'virtue hunar'."
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary p. ~85 s.v. hunar",
+       "stance": "supports",
+       "note": "'hunar [hwnl] skill 3?5, 158-9-20, 694, 845, — Av. (1831) hunara-; MPrth hwnr ‚manliness, ability‘; Paz. xunar; NP hunar' (NYB_vol2_glossary.txt line 2057); Avestan index 'hunara-: hunar' (line 5197)."
+      },
+      {
+       "src": "KNT",
+       "where": "Lexicon s.v. huvnara-",
+       "stance": "supports",
+       "note": "gives the attested Old Persian ancestor huvnara- 'skill, accomplishment' (DNb 45, 48, 51), which Wiktionary also puts in the direct line to NP honar."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Greek",
+     "words": "a-ner, andros; alex-andros; philo-anthrôpos",
+     "verdict": "plausible",
+     "derivation": "Gk. ἀνήρ, gen. ἀνδρός 'man' < Proto-Hellenic *anḗr < PIE *h₂nḗr: the word-initial a- is the vocalised laryngeal *h₂ (which is why Pokorny and Watkins set up the variant 'aner-' and why Nourai writes 'a-ner'), and the genitive comes from the zero grade *h₂n̥r-ós with the regular Greek epenthetic -d- in *-nr- > -ndr-. Ἀλέξανδρος is ἀλέξω 'ward off, defend' + ἀνδρ- = 'defender of men' (Klein, p. 47, s.v. Alexander: 'lit. ‚defender of men‘, fr. ἀλέξειν … and ἀνήρ, gen. ἀνδρός'); the name is already Mycenaean (a-re-ka-sa-da-ra). φιλάνθρωπος 'loving mankind' is where the box weakens: its second element ἄνθρωπος belongs here only on the old analysis *ἀνδρ-ωπός 'man-faced' (Walde-Pokorny II 332 cite the gloss ἀρ-ώψ = ἄνθρωπος, i.e. *n̥r-ōkʷ- 'having a man's face'), which Buck calls 'much disputed' and Watkins refers to the root only with the warning 'referred by some to this root … but more likely of unknown origin'; Beekes treats ἄνθρωπος as Pre-Greek. Hence 'plausible' for the box: two of the three words are certain, the third is a contested analysis.",
+     "derivation_fa": "یونانی ἀνήρ (اضافی ἀνδρός) «مرد» از هلنی آغازین *anḗr و آن از *h₂nḗr هندواروپایی است؛ «آ»ی آغازین بازماندهٔ حنجری *h₂ است (به همین سبب پوکورنی و واتکینز گونهٔ aner- را نیز می‌آورند و نورایی «a-ner» می‌نویسد)، و صورت اضافی از پایهٔ تهی *h₂n̥r-ós با میان‌جی معمولِ یونانی -d- در خوشهٔ nr > ndr پدید آمده است. Ἀλέξανδρος از ἀλέξω «دور کردن، پاسداشتن» + ἀνδρ- یعنی «پاسدارِ مردان» است (کلاین، ص ۴۷). اما دربارهٔ φιλάνθρωπος جای احتیاط است: پیوند ἄνθρωπος با ἀνήρ تنها بر پایهٔ تحلیل کهنِ *ἀνδρ-ωπός «مرد-روی» برجاست (والده-پوکورنی ج۲ ص۳۳۲ با گواهِ ἀρ-ώψ = ἄνθρωπος)، و باک آن را «سخت مورد اختلاف» می‌خواند و واتکینز تنها با قید «برخی آن را به این ریشه می‌برند، اما به احتمال بیشتر خاستگاهش ناشناخته است» می‌آورد؛ بیکس ἄνθρωπος را پیش‌یونانی می‌داند. پس دو واژهٔ نخست قطعی و واژهٔ سوم پذیرفتنی-با-احتیاط است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81",
+      "https://en.wiktionary.org/wiki/%CE%91%CE%BB%CE%AD%CE%BE%CE%B1%CE%BD%CE%B4%CF%81%CE%BF%CF%82",
+      "https://www.etymonline.com/word/philanthropy"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 (AHD_watkins1985.txt line 781): 'ner-2, Also aner-. Man; basic sense ‚vigorous, vital, strong‘. 1. Oldest root form *aner- (with prothetic vowel) in Greek anḗr (stem andr-, from zero-grade *anr-), man: ANDRO-, -ANDROUS, -ANDRY; PHILANDER. … 3. Referred by some to this root (as if ‚having human eyes‘) but more likely of unknown origin is Greek anthrōpos… PHILANTHROPY. [Pok. 1. ner-(t)- 765.]' — supports the box but flags anthrōpos."
+      },
+      {
+       "ref": "KLN:47",
+       "status": "supports",
+       "note": "Klein's 'Alexander' falls on printed p. 47 (KLN_1966.txt: page markers 46 at line 2142, 49 at line 2186, Alexander at line 2158): 'Alexander, masc. PN. — L. Alexander, fr. Gk. Ἀλέξανδρος, lit. ‚defender of men‘, fr. ἀλέξειν … and ἀνήρ, gen. ἀνδρός, ‚man‘. … For the 2nd element in Alexander see andro-.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 73 s.v. andro-",
+       "stance": "supports",
+       "note": "'andro-, before a vowel andr-, combining form meaning ‚man‘. — Gk. ἀνδρο-, ἀνδρ-, fr. ἀνήρ, gen. ἀνδρός … cogn. with OI. náram, náryaḥ ‚virile‘, Arm. ayr, Alb. njer, Umbr. nerus, Sabine-L. Nero, W. ner ‚hero‘, OIr. nert … Cp. also the first element in anthropo-.'"
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 332",
+       "stance": "partial",
+       "note": "'gr. ἀνήρ, ἄνδρα, ἀνδρός ‚Mann‘, ἠνορέη ‚Mannhaftigkeit‘, ἀνδρεῖος ‚mannhaft‘ … ἀρ-ώψ· ἄνθρωπος (*n̥r-ōkʷ- ‚Mannesantlitz habend‘)' — the anthrōpos link only as a hesitant gloss-based inference."
+      },
+      {
+       "src": "SYN",
+       "where": "2.1 MAN¹, p. 80 (record 110)",
+       "stance": "partial",
+       "note": "Buck: '3. Grk. ἄνθρωπος, etym. much disputed. But the old analysis ἀνδρ-ωπος ‚man-faced, man-like‘, fr. the stem…' — i.e. the derivation is possible but contested."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "android; Alexander, Andrew; philanthropy",
+     "verdict": "confirmed",
+     "derivation": "All four are Greek loans, as drawn. android: Modern Latin androides (in English 1727, then 1837 in the sense 'automaton resembling a human being', first of automated chess players), from Greek andro- 'man' + -eidēs 'having the form of'; popularised from c. 1950 by science-fiction writers (Etymonline). Alexander: Latin Alexander < Gk. Ἀλέξανδρος, in English through Latin and the Alexander romances. Andrew: Old French Andreu/Andrieu < Latin Andreas < Gk. Ἀνδρέας, a short form of a compound in ἀνδρ-, related to ἀνδρεῖος 'manly' (Klein s.v. Andrew). philanthropy: c. 1600, from Late Latin philanthropia < Gk. φιλανθρωπία 'kindliness, benevolence, love to mankind', from φιλάνθρωπος (Etymonline) — so the Greek > English step the arrow asserts is beyond doubt; only the further link of ἄνθρωπος to *h₂nḗr (see node 7) is contested.",
+     "derivation_fa": "هر چهار واژه — چنان‌که در نمودار آمده — وام‌واژهٔ یونانی‌اند. android از لاتین نو androides (در انگلیسی ۱۷۲۷، و از ۱۸۳۷ به معنی «آدم‌واره/ماشین آدم‌نما»، نخست دربارهٔ شطرنج‌بازهای خودکار)، از andro- «مرد» + -eidēs «به شکلِ»؛ Alexander از لاتین Alexander و آن از Ἀλέξανδρος؛ Andrew از فرانسهٔ کهن Andreu و لاتین Andreas و آن از Ἀνδρέας (کوتاه‌شدهٔ ترکیبی با ἀνδρ-، هم‌ریشه با ἀνδρεῖος «مردانه»، کلاین)؛ philanthropy از حدود ۱۶۰۰، از لاتین متأخر philanthropia و یونانی φιλανθρωπία. پس گامِ «یونانی > انگلیسی» بی‌گمان درست است؛ تنها پیوند ἄνθρωπος با ریشهٔ *h₂nḗr (بنگرید به جعبهٔ یونانی) محل اختلاف است.",
+     "sources": [
+      "https://www.etymonline.com/word/android",
+      "https://www.etymonline.com/word/philanthropy"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 index lists all of them under this root: 'ANDRO- ner-2', 'ANDROID' (via andro-), 'PHILANTHROPY ner-2', 'MISANTHROPE ner-2', 'LYCANTHROPE ner-2' (AHD_watkins1985.txt lines 1244-1247, 2084) — with the caveat on anthrōpos quoted at node 7."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 73 s.v. Andrew, Andrias, andro-",
+       "stance": "supports",
+       "note": "'Andrew, masc. PN. — OF. Andreu, Andrieu (F. André), fr. L. Andreas, fr. Gk. Ἀνδρέας, which is rel. to ἀνδρεῖος ‚manly‘, fr. ἀνήρ, gen. ἀνδρός, ‚man‘' (KLN_1966.txt line 2710)."
+      },
+      {
+       "src": "FSD",
+       "where": "vol. 1, s.v. android (running head 'android'), and vol. 3 s.v. philanthropist",
+       "stance": "supports",
+       "note": "Funk & Wagnalls has android as a headword in the andro- family (FSD_vol1.txt, running heads 'android … angelique' around the andro-gyny entries) and philanthropist in vol. 3; both are treated as Greek compounds of andr-/anthrōpos."
+      },
+      {
+       "src": "SKT",
+       "where": "Concise Skeat",
+       "stance": "silent",
+       "note": "Skeat's concise dictionary has no entries for android, philanthropy, Andrew or Alexander (grep of SKT.txt: only an unrelated 'St. Andrew's cross' under saltire)."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Syriac",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "The box is printed empty (no language-internal word given): it simply asserts that the Greek name reached Arabic through a Syriac/Aramaic intermediary. That is Nöldeke's proposal (ZA xvii, 84), reported by Jeffery, Foreign Vocabulary of the Qur'ān, pp. 51-52: 'None of these suggestions, however, comes as near as that put forward by Nöldeke … that it is the Arabic form of Ἀνδρέας filtered through a Syriac medium. In Syriac we find various forms of the name … this latter being the form in Christian-Palestinian, and from this by the coalescing of the n and d we get the Ar. إدريس.' So the intermediary is Syriac ʾAndrēʾā / ʾAndrēwos and above all the Christian-Palestinian Aramaic form ʾdrys. The step is a reconstruction of a transmission route rather than a documented equation, hence 'plausible'.",
+     "derivation_fa": "این جعبه در چاپ کتاب تهی است و هیچ صورت سریانی نمی‌آورد؛ تنها می‌گوید که نام یونانی از راه سریانی/آرامی به عربی رسیده است. این همان فرضیهٔ نولدکه (ZA ج۱۷ ص۸۴) است که جفری در «واژه‌های دخیل در قرآن» (ص ۵۱-۵۲) نقل می‌کند: هیچ‌یک از پیشنهادهای دیگر به‌اندازهٔ رأی نولدکه پذیرفتنی نیست که «إدريس» صورت عربیِ Ἀνδρέας است که از میانجی سریانی گذشته، و از صورت آرامیِ فلسطینی-مسیحی ʾdrys با درآمیختن n و d به «إدريس» رسیده است. پس میانجی، سریانی ʾAndrēʾā/ʾAndrēwos و بالاتر از همه صورت فلسطینی-مسیحی است. چون این بازسازیِ راهِ وام‌گیری است نه برابری مستند، حکم «با احتیاط پذیرفتنی» است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "VDQ:108",
+       "status": "supports",
+       "note": "VDQ (Badre'i's Persian translation of Jeffery) is only on noorlib, whose viewer is JavaScript-rendered, so the substance was checked in the original, FVQ pp. 51-52 (FVQ_pages.txt lines 2190-2260): Nöldeke's Ἀνδρέας-through-Syriac derivation, with the Syriac and Christian-Palestinian forms listed — exactly what the Syriac box asserts."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "pp. 51-52 s.v. Idrīs",
+       "stance": "supports",
+       "note": "'that it is the Arabic form of Ἀνδρέας filtered through a Syriac medium. In Syriac we find various forms of the name … this latter being the form in Christian-Palestinian, and from this by the coalescing of the n and d we get the Ar. إدريس' (Jeffery, note 2 there refers to Nöldeke ZDMG xii, 706 and ZA xvii)."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. Enoch, Andrew",
+       "stance": "silent",
+       "note": "Klein has 'Enoch … fr. Heb. Ḥanōkh' (line 13216) and 'Andrew … fr. Gk. Ἀνδρέας' but says nothing about Idrīs or a Syriac mediation, so no independent support there."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Arabic",
+     "words": "Edrîs",
+     "verdict": "plausible",
+     "derivation": "Arabic إدريس Idrīs is the Qur'ānic prophet (19:56-57; 21:85). Muslim tradition identifies him with Enoch and takes the name from the root د ر س 'to study' — an etymology already rejected by the philologists (Jeffery: 'The fallacy of this derivation was … pointed out by some of the philologers, as Zam. on xix, 57, shows, and that the name was of foreign origin was recognized by al-Jawālīqī, Muʿarrab, 8; Qāmūs, i, 215'), and impossible in form because the pattern ʾifʿīl was no longer productive. Nöldeke's derivation from Greek Ἀνδρέας through Syriac/Christian-Palestinian ʾdrys (loss of -n- by coalescence with d) is the one Jeffery prefers, and it is Nourai's. But it is not the only candidate: Ἔσδρας/Ezra (Casanova, Torrey), Ποιμάνδρης (Albright), Atrahasis (Montgomery) and Hebrew dōrēš are all still in the field, and Wiktionary heads the entry 'Uncertain, formally a borrowing'. So the arrow is the best-supported hypothesis but not established: 'plausible'.",
+     "derivation_fa": "«إدريس» نام پیامبری در قرآن است (مریم ۵۶-۵۷؛ انبیاء ۸۵). سنت اسلامی او را همان «اخنوخ» می‌داند و نام را از ریشهٔ «درس» می‌گیرد؛ اما همین ریشه‌شناسی عامیانه را زبان‌شناسان کهن رد کرده‌اند (زمخشری در تفسیر مریم ۵۷؛ جوالیقی، المعرّب ص۸؛ قاموس ج۱ ص۲۱۵ آن را واژهٔ بیگانه می‌شمارند) و از نظر ساخت هم وزن «إفعیل» در آن دوره زاینده نبوده است. رأی نولدکه — که جفری نیز آن را بهترین می‌داند و نورایی همان را آورده — این است که إدريس از Ἀνδρέας یونانی از راه سریانی/آرامی فلسطینی (ʾdrys، با افتادن n در برخورد با d) آمده است. با این همه پیشنهادهای دیگری هم زنده‌اند: Ἔσδρας (عزرا)، Ποιμάνδρης، اترحسیس، و عبری dōrēš؛ ویکی‌واژه نیز سرآغاز مقاله را «نامعلوم، صورتاً وام‌واژه» گذاشته است. پس ادعای نورایی محتمل‌ترین فرض است، نه قطعی.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "VDQ:108",
+       "status": "supports",
+       "note": "checked in the original FVQ pp. 51-52 (noorlib's VDQ viewer is JS-only): Jeffery's entry Idrīs sets out exactly the Greek Ἀνδρέας > Syriac > Arabic إدريس route as the best proposal, while listing the rivals."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "pp. 51-52 s.v. Idrīs",
+       "stance": "supports",
+       "note": "'Nöldeke has pointed out, ZA, xvii, 83, that we have no evidence that Jews or Christians ever called Enoch by any name derived from … Casanova … suggested that the reference was to Ἔσδρας … None of these suggestions, however, comes as near as that put forward by Nöldeke in ZA, xvii, 84, that it is the Arabic form of Ἀνδρέας filtered through a Syriac medium.'"
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. Enoch",
+       "stance": "silent",
+       "note": "no Idrīs entry in Klein; his Enoch is derived from Hebrew Ḥanōkh, which bears on the identification but not on the name's form."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir, al-Alfāẓ al-Fārisiyya al-Muʿarraba",
+       "stance": "silent",
+       "note": "grep of AFM_pages.txt for إدريس gives no hit — Addi Shir treats Persian loans in Arabic, and does not discuss this name."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Persian",
+     "words": "Edrîs «إدریس»",
+     "verdict": "confirmed",
+     "derivation": "The Persian word is a straightforward Arabic loan of Islamic religious vocabulary: Arabic إدريس > Persian Edrīs, kept in its Arabic spelling with hamza (the printed page shows إِدریس, so the JSON's «إدریس» is faithful), used both of the Qur'ānic prophet and as a man's name. The Molavī couplet the book quotes — «عیسی و ادریس بر گردون شدند / با ملایک چون که هم جنس آمدند» — alludes to Q 19:57, 'we raised him to a high place', the very verse that made Idrīs a figure of ascent in Persian poetry. The Arabic > Persian direction is certain; only the ultimate Greek origin upstream (nodes 9-10) is a hypothesis.",
+     "derivation_fa": "«ادریس» فارسی وام‌واژه‌ای عربی از گنجینهٔ واژگان دینی اسلامی است: عربی إدريس > فارسی Edrīs، که با همان املای عربی (با همزه) به کار می‌رود — صفحهٔ چاپی نیز «إِدریس» دارد، پس خوانش داده‌ها درست است — هم برای پیامبر قرآنی و هم به‌عنوان نام مردانه. بیت مولوی که کتاب می‌آورد («عیسی و ادریس بر گردون شدند...») اشاره به آیهٔ ۵۷ سورهٔ مریم («و رفعناه مکاناً علیّاً») دارد؛ همان آیه‌ای که ادریس را در شعر فارسی نمادِ فرارَوی کرده است. گامِ «عربی > فارسی» قطعی است و تنها خاستگاه یونانی در بالادست (جعبه‌های سریانی و عربی) فرضی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON5:109",
+       "status": "not_checked",
+       "note": "Moʿin's vol. 5 (اعلام) has no scan in the local library (refs_online.json lists no BQT-style scan for MON vols 5-6) and the online Moʿin at vajehyab/abadis serves only the lexicon volumes and is JavaScript-rendered — both archived fetches returned site chrome only. The page number is at least internally consistent: ادریس (a-d-r) at 109 precedes اسکندر (a-s-k) at 144."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "pp. 51-52",
+       "stance": "supports",
+       "note": "confirms the name's Qur'ānic status and Arabic form (Q 19:57 'God raised him to a high place'), which is what the Persian word continues."
+      },
+      {
+       "src": "MON",
+       "where": "MON_part1/part2 (lexicon volumes)",
+       "stance": "silent",
+       "note": "grep of the two local Moʿin text files for ادریس finds only the plant name شجر ادریس (s.v. محلب); the proper-name entry is in vol. 5, which is not on disk."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Arabic",
+     "words": "Eskander",
+     "verdict": "confirmed",
+     "derivation": "Arabic (al-)Iskandar 'Alexander' is a borrowing of Greek Ἀλέξανδρος in which the initial Ἀλ- was reanalysed as the Arabic definite article al-, leaving a stem Iskandar with prothetic i- before the cluster sk- (Wiktionary s.v. الإسكندر: 'Borrowed from Ancient Greek Ἀλέξανδρος. The initial Ἀλ- was reanalyzed by Arabic speakers as the Arabic definite article ال (al-)'); Lokotsch (no. 4182, s.v. serasker) notes the same thing as 'Metathesis von k und s wie in ar. Iskandar < Alexander'. The name was familiar in Arabia before Islam through the Syriac Alexander romance — Jeffery, FVQ 288-289 (s.v. Yājūj wa Mājūj): 'Both passages are reflections of Syriac legends concerning Alexander the Great' — so the Greek > (Syriac) > Arabic path Nourai draws is right. Nourai gives this box no reference of his own.",
+     "derivation_fa": "«(الـ)إسكندر» عربی وام‌گیریِ Ἀλέξανδρος یونانی است، با این ویژگی که «Ἀλ» آغازین را عرب‌زبانان حرف تعریف «ال» پنداشته‌اند و ستاکِ «إسكندر» با همزهٔ آغازین پیش از خوشهٔ «سک» بر جای مانده (ویکی‌واژه، ذیل الإسكندر). لوکوچ نیز (شمارهٔ ۴۱۸۲) از «قلبِ ک و س، چنان‌که در عربیِ Iskandar < Alexander» یاد می‌کند. این نام پیش از اسلام از راه «داستان اسکندر» سریانی در عربستان شناخته بود — جفری (ص ۲۸۸-۲۸۹، ذیل یأجوج و مأجوج): «هر دو آیه بازتاب افسانه‌های سریانی دربارهٔ اسکندر است». پس راهِ «یونانی > (سریانی) > عربی» که نورایی کشیده درست است. نورایی برای این جعبه هیچ مرجعی نداده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1",
+      "https://en.wiktionary.org/wiki/%CE%91%CE%BB%CE%AD%CE%BE%CE%B1%CE%BD%CE%B4%CF%81%CE%BF%CF%82"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none)",
+       "status": "not_checked",
+       "note": "the printed box carries no reference (the JSON's refs field is null), so there is nothing of Nourai's own to check; the claim was verified against Wiktionary, Lokotsch and Jeffery instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no. 4182 s.v. serasker",
+       "stance": "supports",
+       "note": "Lokotsch: '… mit vorgeschlagenem ʿain und Metathesis von k und s wie in ar. Iskandar < Alexander'."
+      },
+      {
+       "src": "FVQ",
+       "where": "pp. 288-289 s.v. Yājūj wa Mājūj",
+       "stance": "partial",
+       "note": "'Both passages are reflections of Syriac legends concerning Alexander the Great' — documents the Syriac-mediated route by which the Alexander material (and name) reached pre-Islamic Arabia, though Jeffery does not treat the name Iskandar itself."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir",
+       "stance": "silent",
+       "note": "no إسكندر entry (grep of AFM_pages.txt) — expected, since the name is a Greek and not a Persian loan in Arabic."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "Persian",
+     "words": "Eskandar «اسکندر»",
+     "verdict": "confirmed",
+     "derivation": "NP Eskandar/Sekandar «اسکندر» is the Arabic-shaped form of the name, as the arrow says: Wiktionary (s.v. اسکندر) has 'Inherited from Middle Persian (swkndl /Skandar ~ Sokandar/), from Arabic إِسْكَنْدَر, from Ancient Greek Ἀλέξανδρος', citing Nyberg and MacKenzie; Nyberg's glossary is explicit: 'Sokandar [swkndl] = Alaksandar … Probably the Arab. Iskandar with elision of ʾI- and inserting of an auxiliary vowel between s and k, cf. Sikandar < Iskandar'. The older, direct Greek loan also existed in Pahlavi (MacKenzie: 'Aleksandar [ʾlksndl | M ʾlxsyndr, N Iskandar] Alexander (of Macedon)', with '*Skandar [swkndl | N sikandar] = Aleksandar'), so Persian has both layers; the form with initial e-/i- that Nourai prints is the Arabic one, and the poetic doublet سکندر shows the aphaeresis of that vowel.",
+     "derivation_fa": "«اسکندر» فارسی همان صورتِ عربی‌شدهٔ نام است، چنان‌که نمودار می‌گوید: ویکی‌واژه (ذیل اسکندر) می‌نویسد از فارسی میانهٔ swkndl (Skandar/Sokandar)، از عربی إسْكَنْدَر، از یونانی Ἀλέξανδρος، و به نیبرگ و مکنزی استناد می‌کند. نیبرگ صریح است: «Sokandar [swkndl] = Alaksandar … احتمالاً همان Iskandar عربی است با افتادن ʾI- و افزودن واکهٔ میانجی میان s و k، مانند Sikandar < Iskandar». وام‌واژهٔ کهن‌تر و بی‌واسطهٔ یونانی نیز در پهلوی بود (مکنزی: Aleksandar «اسکندر مقدونی»، و *Skandar = Aleksandar)، پس فارسی هر دو لایه را دارد؛ صورتی که نورایی آورده همان صورت عربی است و گونهٔ شعری «سکندر» نشان افتادن واکهٔ آغازین است. ادعا درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%DA%A9%D9%86%D8%AF%D8%B1",
+      "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1",
+      "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON5:144",
+       "status": "not_checked",
+       "note": "same reason as MON5:109: Moʿin's vol. 5 (اعلام) is not in the local library and the online Moʿin (vajehyab/abadis, archived) is JS-rendered and lexicon-only. The local Moʿin lexicon files mention اسکندر only in compounds (سنای اسکندری، زندان سکندر، هتر «سواران اسکندر مقدونی»), not as a headword."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "NYB",
+       "where": "Glossary p. 177 s.v. Sokandar",
+       "stance": "supports",
+       "note": "'Sokandar [swkndl] = Alaksandar, 113ʹ, 114ʹ. — Probably the Arab. Iskandar with elision of ʾI- and inserting of an auxiliary vowel between s and k, cf. Sikandar < Iskandar' (NYB_vol2_glossary.txt line 3461)."
+      },
+      {
+       "src": "PHD",
+       "where": "pp. 8 and 75",
+       "stance": "supports",
+       "note": "MacKenzie: 'Aleksandar [ʾlksndl | M ʾlxsyndr, N Iskandar] Alexander (of Macedon)' and '*Skandar [swkndl | N sikandar] = Aleksandar'."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": null,
+     "words": "",
+     "verdict": "unverified",
+     "error_in": "extraction",
+     "derivation": "Blank, unlabelled box in the printed chart, arrowed from the Pahlavi box (nâyrig); it carries no language label and no words, so there is nothing to verify. The box was missing from the extraction and was added by the coordinator after checking the page image.",
+     "derivation_fa": "در نمودار چاپی، جعبه‌ای خالی و بی‌برچسب از جعبهٔ پهلوی (nâyrig) پیکان گرفته است؛ نه نام زبان دارد و نه واژه‌ای، پس چیزی برای بررسی نیست. این جعبه در استخراج از قلم افتاده بود و پس از دیدن تصویر صفحه افزوده شد.",
+     "sources": [],
+     "ref_check": [],
+     "consulted": []
+    }
+   ]
+  }
+ ]
+}
