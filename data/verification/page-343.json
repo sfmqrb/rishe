@@ -1,0 +1,800 @@
+{
+ "pdf_page": 343,
+ "book_page": 313,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-07",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "M.s.s, Massa",
+   "verdict": "confirmed",
+   "modern_form": "Arabic geminate root م س س (m-s-s), form I perfect مَسَّ massa 'he touched, felt', verbal noun مَسّ mass 'touching, contact'",
+   "note": "The root box is right on all three counts: م س س is a real Arabic (indeed common Semitic) root, massa is its 3rd sg. masc. perfect 'he touched', and mass is its maṣdar. Klein adds the Semitic comparanda (Heb. mašaš, Aram. maššeš, Eth. masasa, Akkad. mašāšu 'to smear over'). The whole chart, however, hangs on one contested claim: that French masser/massage comes from this Arabic verb. Nourai's two references say so (Pihan 1866 p.257; Klein p.944), and Klein even denies the rival Greek etymology outright; but Etymonline, Wiktionary and the French tradition leave the choice open between Arabic massa and Portuguese amassar 'to knead' (< Lat. massa), and Funk & Wagnalls (1913) derives masser straight from Greek μάσσω. Hence node #2 is only plausible, while the two modern loans below it (Persian ماساژ, English massage, both from French) are certain. FVA:381, the reference Nourai cites for the root and for node #1, has no digital copy and could not be checked.",
+   "note_fa": "جعبهٔ ریشه درست است: «م‌س‌س» ریشه‌ای عربی (و در اصل سامی) است، مَسَّ ماضی سوم‌شخص مفرد «لمس کرد» و مَسّ مصدر آن است؛ کلاین همریشه‌های سامی آن را می‌آورد (عبری mašaš، آرامی maššeš، حبشی masasa، اکدی mašāšu). ولی تمام این نمودار بر یک ادعای مورد اختلاف تکیه دارد: اینکه masser/massage فرانسوی از همین فعل عربی گرفته شده باشد. دو مرجع خودِ نورایی (پیان ۱۸۶۶ ص۲۵۷ و کلاین ص۹۴۴) همین را می‌گویند و کلاین حتی ریشهٔ یونانی μάσσειν «خمیر کردن» را به‌صراحت رد می‌کند؛ اما اتیمانلاین و ویکی‌واژه و سنّت فرانسوی میان «مسّ» عربی و amassar پرتغالی (از massa لاتینی) تردید دارند و فرهنگ فانک و واگنالز (۱۹۱۳) masser را یکسر از یونانی μάσσω می‌گیرد. پس گرهٔ ۲ تنها «با احتیاط پذیرفتنی» است، در حالی که دو وام‌واژهٔ نوی زیر آن (ماساژ فارسی و massage انگلیسی، هر دو از فرانسه) قطعی‌اند.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D9%85%D8%B3",
+    "https://en.wiktionary.org/wiki/massage",
+    "https://www.etymonline.com/word/massage"
+   ],
+   "ref_check": [
+    {
+     "ref": "FVA:381",
+     "status": "not_checked",
+     "note": "Nahvi, Farhang-e vāže-hā-ye ʿarabi dar fārsi (Tehran 1368/1989): refs_online.json records no digital copy (archive.org, ketabnak, noorlib and web searched); only the OpenLibrary catalogue record exists."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "KLN",
+     "where": "p. 944/945 s.v. massage",
+     "stance": "supports",
+     "note": "Klein, KLN_1966.txt line 23063 (printed pp. 944/945, page markers \"944\"/\"945\" at lines 23042-23043): \"massage, n. - F. massage, fr. masser, 'to massage', fr. Arab. massa, 'he felt, touched', which is rel. to Heb. mashash, 'he felt, touched', ... Aram. mashshesh, ... Ethiop. masasa, ... Akkad. mashashu... The practice of massage has come to Europe from the East... This word has nothing to do with Gk. massein, 'to knead', with which it is connected by most lexicographers.\""
+    },
+    {
+     "src": "FVQ",
+     "where": "grep of FVQ_pages.txt for 'mass'/'m-s-s'",
+     "stance": "silent",
+     "note": "Jeffery has no entry for مسّ — as expected, since it is native Arabic, not a foreign word of the Qur'an; his only nearby entries are (Misk) p.264 and (Miskin) p.264."
+    },
+    {
+     "src": "Wiktionary",
+     "where": "en.wiktionary.org/wiki/مس (Arabic section)",
+     "stance": "supports",
+     "note": "root م س س; verb مَسَّ (massa) 'to feel, to touch, to handle, to palpate'; noun مَسّ (mass) 'touching, touch, contact' = verbal noun of the verb — exactly the root box's glosses."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "mass",
+     "verdict": "confirmed",
+     "derivation": "Persian مَسّ mass 'touching, contact' is the Arabic maṣdar of م س س taken over unchanged (an Arabic loan, which is what the arrow means here); it lives in Persian mainly in learned and technical registers. The two words in the extra field are further stems of the same Arabic root borrowed with it: مُماس mumāss, form III active participle, 'touching, in contact', in geometry 'tangent'; تماس tamāss, form VI maṣdar, 'mutual contact'. Mo'in tags مماس explicitly as [ع.] 'Arabic'. No sound change is involved beyond the Persian reading of the gemination (mass), since Persian borrows Arabic orthography wholesale; the only Persian innovation is the semantic narrowing of تماس to everyday 'contact, touch (of persons), telephone contact'.",
+     "derivation_fa": "«مَسّ» فارسی همان مصدر عربیِ ریشهٔ م‌س‌س است که بی‌هیچ دگرگونی آوایی به فارسی وام گرفته شده (پیکان نمودار در اینجا به معنای وام‌گیری است) و بیشتر در کاربرد ادبی و علمی به کار می‌رود. دو واژهٔ افزودهٔ جعبه نیز از همان ریشه‌اند: «مُماس» اسم فاعلِ باب مفاعله («تماس‌یافته»، در هندسه: خطِ مماس) و «تماس» مصدر باب تفاعل («به هم رسیدن»). معین ذیل «مماس» نشانهٔ [ع.] می‌گذارد، یعنی معرّب/عربی بودن آن را تصریح می‌کند. تنها نوآوری فارسی، تحول معناییِ «تماس» به معنای امروزیِ «ارتباط، تماس تلفنی» است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%85%D8%B3",
+      "https://abadis.ir/fatofa/%D9%85%D9%85%D8%A7%D8%B3/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "Nourai gives no page for MON here. Mo'in via abadis.ir (فرهنگ معین section) s.v. مماس: «(مُ سّ) [ع.] (اِمف.) به هم ساییده شده، مالیده شده» — the [ع.] label confirms the Arabic origin of this family in Persian; without a page number the citation itself cannot be located in the printed Farhang."
+      },
+      {
+       "ref": "FVA:381",
+       "status": "not_checked",
+       "note": "no digital copy of Nahvi's dictionary (see root ref_check)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 944/945 s.v. massage",
+       "stance": "supports",
+       "note": "Klein, KLN_1966.txt line 23063 (printed pp. 944/945, page markers \"944\"/\"945\" at lines 23042-23043): \"massage, n. - F. massage, fr. masser, 'to massage', fr. Arab. massa, 'he felt, touched', which is rel. to Heb. mashash, 'he felt, touched', ... Aram. mashshesh, ... Ethiop. masasa, ... Akkad. mashashu... The practice of massage has come to Europe from the East... This word has nothing to do with Gk. massein, 'to knead', with which it is connected by most lexicographers.\" — Klein's Arab. massa 'he felt, touched' is the same form as the chart's Massa."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/مس",
+       "stance": "supports",
+       "note": "Arabic مَسّ (mass) 'touching, touch; contact', verbal noun of مَسَّ; Form III/VI derivatives of the root are the source of Persian مماس/تماس."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi 1988, grep for mass/mss",
+       "stance": "silent",
+       "note": "Asbaghi catalogues Persian loans IN Arabic, so a native Arabic word borrowed into Persian is outside his scope — no entry."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "French",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "An empty pass-through box standing for French masser 'to massage' / massage. Nourai's source, Pihan (1866) p.257 s.v. MASSER, marks the word '(a.)' = of Arabic origin and derives it from Arabic mass 'manier, toucher, palper', adding that the practice was 'très-usitée chez les peuples orientaux' and that Greek μάσσειν only happens to mean the same; Klein (p.944) agrees and states flatly that the word 'has nothing to do with Gk. massein, to knead'. Modern handbooks are more cautious: masser/massage are first attested in French only around 1779-1812, in travellers' reports from the East, and Etymonline and Wiktionary give two possibilities — Arabic massa (picked up in Egypt during the Napoleonic campaign) or Portuguese amassar 'to knead' (< Latin massa), picked up in colonial India — while Funk & Wagnalls (1913) derives masser from Greek μάσσω 'to knead'. The Arabic route is therefore accepted but not established: plausible.",
+     "derivation_fa": "این جعبهٔ تهی نمایندهٔ فعل فرانسویِ masser «مشت‌ومال دادن» و اسمِ massage است. مأخذ نورایی، پیان (۱۸۶۶) ص۲۵۷، این واژه را با نشانِ «(a.)» یعنی عربی‌تبار می‌آورد و از مسّ عربی («لمس کردن، مالیدن») می‌گیرد و می‌افزاید که این کار «در میان مردمان مشرق بسیار رایج» بوده؛ کلاین نیز همین را می‌گوید و پیوند آن با μάσσειν یونانی («خمیر کردن») را به‌صراحت رد می‌کند. اما پژوهش امروزی محتاط‌تر است: masser و massage در فرانسه تنها از حدود ۱۷۷۹ تا ۱۸۱۲ در سفرنامه‌های مشرق‌زمین دیده می‌شوند و اتیمانلاین و ویکی‌واژه دو راه را در برابر هم می‌نهند: وام‌گیری از «مسّ» عربی (در مصرِ دورهٔ ناپلئون) یا از amassar پرتغالی «خمیر کردن» (از massa لاتینی) در هندِ استعماری؛ فانک و واگنالز هم آن را از μάσσω یونانی می‌گیرد. پس ادعای نورایی با احتیاط پذیرفتنی است، نه قطعی.",
+     "sources": [
+      "https://www.etymonline.com/word/massage",
+      "https://en.wiktionary.org/wiki/massage"
+     ],
+     "ref_check": [
+      {
+       "ref": "PHN:257",
+       "status": "supports",
+       "note": "Pihan 1866, p. 257 s.v. MASSER, v.a. (a.) (PHN.txt lines 7217-7226): \"mass [Arabic مس] manier, toucher, palper. - L'operation du massage ou massement, tres-usitee chez les peuples orientaux, consiste a presser avec la main les diverses parties du corps... Comparez avec l'arabe le verbe grec massein dont le sens est le meme.\" - the '(a.)' tag marks the word as Nourai's claim: of Arabic origin"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 944/945 s.v. massage",
+       "stance": "supports",
+       "note": "Klein, KLN_1966.txt line 23063 (printed pp. 944/945, page markers \"944\"/\"945\" at lines 23042-23043): \"massage, n. - F. massage, fr. masser, 'to massage', fr. Arab. massa, 'he felt, touched', which is rel. to Heb. mashash, 'he felt, touched', ... Aram. mashshesh, ... Ethiop. masasa, ... Akkad. mashashu... The practice of massage has come to Europe from the East... This word has nothing to do with Gk. massein, 'to knead', with which it is connected by most lexicographers.\""
+      },
+      {
+       "src": "FSD",
+       "where": "vol. III s.v. massage (FSD_vol3.txt line 15169)",
+       "stance": "contradicts",
+       "note": "Funk & Wagnalls New Standard (FSD_vol3.txt line 15169, s.v. massage): \"(F., < masser (< Gr. masso), knead)\" - i.e. F&W derive French masser from Greek masso 'to knead', the etymology Klein explicitly rejects"
+      },
+      {
+       "src": "SKT",
+       "where": "grep of SKT.txt for massage/masser",
+       "stance": "silent",
+       "note": "Skeat's Concise Etymological Dictionary (1911) has no entry for massage — the word was still a recent medical borrowing."
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/massage",
+       "stance": "partial",
+       "note": "\"possibly from Arabic massa 'to touch, feel, handle'... if so, probably the word was picked up in Egypt during the Napoleonic campaign there. Another possibility is that French got it in colonial India from Portuguese amassar 'knead', a verb from Latin massa\" — the Arabic origin is offered as one of two."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "mâsâž",
+     "verdict": "confirmed",
+     "derivation": "Persian ماساژ māsāž is a straightforward 20th-century loan from French massage, taken in through medical and hygienic vocabulary; French -age is regularly rendered -âž in Persian (گاراژ garāž, ماساژ māsāž, پاساژ pāsāž), and the French nasal-free /a/ of mas- is lengthened to Persian ā in the open syllable. Mo'in labels the entry [فر.] 'French' and glosses it «مالش بدن کسی با سر انگشتان دست جهت رفع خستگی او، مشت و مال». If Nourai's Arabic etymology of masser is right, ماساژ is a round trip — Arabic مسّ → French → Persian — beside the directly borrowed Arabic مسّ of node #1; the immediate source is in any case French, not Arabic.",
+     "derivation_fa": "«ماساژ» وام‌واژه‌ای است از فرانسویِ massage که در سدهٔ چهاردهم خورشیدی همراه واژگان پزشکی و بهداشتی به فارسی آمده است؛ پایانهٔ -age فرانسوی در فارسی به‌گونهٔ «-اژ» درمی‌آید (گاراژ، پاساژ، ماساژ) و /a/ کوتاهِ فرانسوی در هجای باز به «آ» کشیده می‌شود. معین این واژه را با نشانِ [فر.] می‌آورد: «مالش بدن کسی با سر انگشتان دست جهت رفع خستگی او، مشت و مال». اگر ریشه‌شناسی نورایی برای masser درست باشد، «ماساژ» یک رفت‌وبرگشت است: مسّ عربی ← فرانسه ← فارسی، در برابر «مسّ» که یکسر از عربی وام گرفته شده؛ در هر حال مأخذ بی‌واسطهٔ آن فرانسه است. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/%D9%85%D8%A7%D8%B3%D8%A7%DA%98/",
+      "https://en.wiktionary.org/wiki/massage"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:3697",
+       "status": "supports",
+       "note": "Mo'in via abadis.ir (فرهنگ معین section) s.v. ماساژ: «[فر.] (اِ.) مالش بدن کسی با سر انگشتان دست جهت رفع خستگی او، مشت و مال» — the [فر.] (French) label is exactly what the chart's arrow claims. The printed page number 3697 cannot be verified in the online text, which carries no pagination."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "vajehyab/abadis فرهنگ معین s.v. ماساژ",
+       "stance": "supports",
+       "note": "«[فر.] (اِ.) ... مشت و مال»"
+      },
+      {
+       "src": "Dehkhoda",
+       "where": "abadis.ir/fatofa/ماساژ (لغت‌نامه دهخدا section)",
+       "stance": "supports",
+       "note": "Dehkhoda also marks ماساژ as French and glosses it 'مشت و مال', describing the therapeutic technique — no Arabic mediation claimed for the Persian word."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/massage",
+       "stance": "supports",
+       "note": "French massage 'from masser + -age' is the source of the international word borrowed by Persian and English alike."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "massage",
+     "verdict": "confirmed",
+     "derivation": "English massage is a French loan of the 1870s: the noun is first recorded in English in 1874 (in medical writing on Swedish and 'Oriental' rubbing techniques), with masseur/masseuse following in the same decade; the verb is back-formed in 1874-1876. French massage = masser + -age, and English keeps the French stress and the /ɑːʒ/ ending. Klein (Nourai's KLN:944) gives the whole chain 'F. massage, fr. masser, fr. Arab. massa' — so the English link itself is uncontroversial; only the ultimate Arabic step (node #2) is debated.",
+     "derivation_fa": "massage انگلیسی وام‌واژه‌ای فرانسوی از دههٔ ۱۸۷۰ است: اسم آن نخست در ۱۸۷۴ در نوشته‌های پزشکی دربارهٔ «مشت‌ومالِ سوئدی و شرقی» دیده می‌شود و masseur و masseuse در همان دهه از پی آن می‌آیند؛ فعل آن در ۱۸۷۴–۱۸۷۶ از اسم ساخته شده است. صورت فرانسوی از masser + -age است و انگلیسی همان تکیه و پایانهٔ /ɑːʒ/ فرانسوی را نگه داشته است. کلاین (همان KLN:944 که نورایی می‌آورد) تمام زنجیره را می‌آورد: «F. massage از masser از عربی massa»؛ پس این حلقه بی‌گفت‌وگو درست است و تنها حلقهٔ پایانی (گرهٔ ۲، عربی ← فرانسه) مورد اختلاف است.",
+     "sources": [
+      "https://www.etymonline.com/word/massage",
+      "https://en.wiktionary.org/wiki/massage"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:944",
+       "status": "supports",
+       "note": "Klein, KLN_1966.txt line 23063 (printed pp. 944/945, page markers \"944\"/\"945\" at lines 23042-23043): \"massage, n. - F. massage, fr. masser, 'to massage', fr. Arab. massa, 'he felt, touched', which is rel. to Heb. mashash, 'he felt, touched', ... Aram. mashshesh, ... Ethiop. masasa, ... Akkad. mashashu... The practice of massage has come to Europe from the East... This word has nothing to do with Gk. massein, 'to knead', with which it is connected by most lexicographers.\" The entry sits between the printed page markers 944 and 945 in the scan, so Nourai's page is right."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 944/945 s.v. massage, masseur, masseuse",
+       "stance": "supports",
+       "note": "\"massage, n. - F. massage, fr. masser...\"; \"masseur, n., a man who practices massage. - F., formed fr. masser\""
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/massage",
+       "stance": "supports",
+       "note": "massage n. 1874 from French; verb from the noun 1874; masseur from French masseur — the French→English step is agreed, the Arabic step only 'possibly'."
+      },
+      {
+       "src": "FSD",
+       "where": "vol. III s.v. massage",
+       "stance": "partial",
+       "note": "Funk & Wagnalls New Standard (FSD_vol3.txt line 15169, s.v. massage): \"(F., < masser (< Gr. masso), knead)\" - i.e. F&W derive French masser from Greek masso 'to knead', the etymology Klein explicitly rejects — F&W agree that English took the word from French, but not on the pre-French history."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Mu, Mus",
+   "verdict": "confirmed",
+   "modern_form": "PIE *múHs (*muh₂s) 'mouse', an s-stem root noun; the 'muscle' sense is a secondary transfer (Pokorny 752-753 mūs; Watkins mūs-)",
+   "note": "Language label, gloss and page are right: Pokorny's lemma is exactly 'mūs, meaning: mouse', pp. 752-753, and Watkins' entry reads verbatim \"mūs-. A mouse; also a muscle (from the resemblance of a flexing muscle to the movements of a mouse). [Pok. mūs 752.]\" — which is where Nourai's gloss comes from. One caveat about the headword: the 'Mu' half is not a mouse-root. Pokorny's neighbouring lemmas on the same pages are mū-1 'to murmur, moo' (751-752) and mū-2/mus- 'fly' (752, whence Lat. musca, Gk. muia) — unrelated roots that merely share the page — and modern reconstruction knows only *múHs (acc. *muh₂s-m̥), not a bare base *mu-. Structurally the chart is also a mixture: the Germanic and Latin branches are genuine descendants of the root, whereas 'Sanskrit' stands in for Indo-Iranian and is drawn as the ancestor of Persian موش, which is really its sibling; only مشک is truly borrowed out of Indic. The one form on the page that no source supports is the Latin box 'muskus' (see node #5): the printed page really has muskus, a misprint for Late Latin muscus.",
+   "note_fa": "برچسب زبان، معنی و شمارهٔ صفحه هر سه درست است: مدخل پوکورنی همان mūs «موش» در صفحه‌های ۷۵۲–۷۵۳ است و واتکینز نیز عیناً می‌نویسد: «mūs- موش؛ و نیز ماهیچه (از شباهت جنبش ماهیچه به دویدن موش). [پوکورنی ۷۵۲]» — یعنی معنیِ نمودار از همین‌جا آمده است. یک نکته دربارهٔ سرواژه: بخشِ «Mu» ریشه‌ای برای «موش» نیست؛ مدخل‌های همسایه در همان صفحه‌ها mū-1 «زمزمه کردن، بانگ گاو» و mū-2/mus- «مگس» (لاتین musca، یونانی muia) هستند که ریشه‌هایی جداگانه‌اند و تنها هم‌صفحه‌اند، و بازسازی امروزی تنها *múHs را می‌شناسد نه ستاکِ برهنهٔ *mu-. ساختار نمودار هم آمیخته است: شاخه‌های ژرمنی و لاتینی فرزندان راستین ریشه‌اند، اما «سانسکریت» جانشین شاخهٔ هندوایرانی شده و نیای «موش» فارسی نشان داده شده، در حالی که این دو خواهرند نه پدر و فرزند؛ تنها «مشک» است که به‌راستی وام‌واژه‌ای از هندی است. تنها صورتی که هیچ مأخذی آن را تأیید نمی‌کند، «muskus» در جعبهٔ لاتینی است (گرهٔ ۵): در صفحهٔ چاپی هم همین آمده، یعنی خطای چاپی کتاب به‌جای muscus لاتینی متأخر.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs",
+    "https://www.etymonline.com/word/musk",
+    "https://www.ahdictionary.com/word/search.html?q=musk"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:752",
+     "status": "supports",
+     "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\" — the lemma begins on p. 752 (running to 753), so Nourai's page is right."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "POK",
+     "where": "IEW 752-753 s.v. mūs",
+     "stance": "supports",
+     "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\""
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. mūs-",
+     "stance": "supports",
+     "note": "Watkins 1985 s.v. mus- (AHD_watkins1985.txt line ~763): \"mus-. A mouse; also a muscle (from the resemblance of a flexing muscle to the movements of a mouse). 1. Germanic *mus- (plural *musiz) in Old English mus (plural mys), mouse: MOUSE. 2. Latin mus, mouse: MURINE, MUSCLE, MUSTELINE. 3. Greek mus, mouse, muscle: MYELO-, MYO-... [Pok. mus 752.]\""
+    },
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny Bd. II 312-313 s.v. mūs",
+     "stance": "supports",
+     "note": "Walde-Pokorny Bd. II 312-313 s.v. mus 'Maus' (WLD_Bd2_pages.txt lines 20670-20700): \"Ai. mus- 'Maus, Ratte' (musa-, musaka-, muska- m. ds.), np. mus 'Maus'; arm. mu-kn 'Maus'; gr. mys 'Maus'; lat. mus 'Maus'; ahd. mhd. as. mnd. aisl. ags. mus 'Maus'... Vielfach auf Koerperteile angewendet, wegen der Aehnlichkeit zwischen dem Zucken der Muskeln unter der Haut und dem Laufen einer Maus: gr. mys 'Muskel', lat. musculus 'Muskel'... ai. muska- m. 'Hode, weibliche Scham'... np. mush 'Bibergeil' (aus dem Pers. stammt gr. moschos, nhd. Moschus)\""
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 3.68 'mouse'",
+     "stance": "supports",
+     "note": "Buck, Selected Synonyms (SYN.txt line 6667, section 4.49 'testicle'): \"Skt. muska-, apparently dim. to mus- 'mouse', from the shape (cf. Lat. musculus 'muscle', etc.). Walde-P. 2.313.\" and line 4894, section 3.68 MOUSE: \"Grk. mys, Lat. mus, OE mus, ME mous, NE mouse, Skt. mus-\""
+    },
+    {
+     "src": "IEC",
+     "where": "grep of IEC.txt for mūs/mouse",
+     "stance": "silent",
+     "note": "Mann's Indo-European Comparative Dictionary has muskos 'undergrowth, moss' and mūsos 'mould, moss' (cols. ~1146) but no 'mouse' lemma turned up in the OCR — it gives no support either way."
+    },
+    {
+     "src": "Wiktionary",
+     "where": "Reconstruction:Proto-Indo-European/múHs",
+     "stance": "supports",
+     "note": "\"*múHs — mouse\", descendants Proto-Albanian *mū-, Old Armenian մուկն (possibly < acc. *muh₂s-m̥), Proto-Balto-Slavic *mū́ˀšis, Proto-Germanic *mūs, Proto-Hellenic *mū́s > Gk. μῦς, Proto-Indo-Iranian *múHs, Proto-Italic *mūs > Lat. mūs — i.e. all four branches of this chart, but no bare base *mu-."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "mus; muska",
+     "verdict": "confirmed",
+     "derivation": "Skt. मूष् mūṣ- (f./m.) 'mouse, rat', with the thematic doublets mūṣa-, mūṣaka-, mūṣikā-, is the Indic continuation of PII *múHs < PIE *múHs, unchanged apart from the regular Indic retroflexion of s after ū (ruki). मुष्क muṣka- m. 'testicle, scrotum' (also 'vulva') is a -ka- derivative of the same base with the shape metaphor 'little mouse' — Buck: \"Skt. muska-, apparently dim. to mūs- 'mouse', from the shape\" — precisely the metaphor that gives Lat. mūsculus 'muscle' and Gk. μῦς 'mouse, muscle'. Nourai's undiacriticked 'mus' and 'muska' are his usual simplified transliteration of mūṣ and muṣka, not misprints. Note that this Sanskrit box functions in the chart as a stand-in for the whole Indo-Iranian branch: it is the real source only of the borrowed مشک below it (node #3), not of Persian موش (node #2).",
+     "derivation_fa": "«mūṣ» سانسکریت («موش، موشِ صحرایی»)، با گونه‌های mūṣa- و mūṣaka-، ادامهٔ هندیِ *múHs هندوایرانی و هندواروپاییِ آغازین است و تنها دگرگونیِ آوایی آن، تبدیل s به ṣ پس از ū است (قاعدهٔ ruki). «muṣka-» به معنای «خایه، کیسهٔ بیضه» ساختی است با پسوند -ka- از همان ستاک، بر پایهٔ تشبیهِ شکلی «موشکِ کوچک»؛ باک می‌نویسد: «muṣka- سانسکریت، بنا بر ظاهر مصغّرِ mūṣ- «موش»، از روی شکل آن» — همان استعاره‌ای که در لاتین mūsculus «ماهیچه» و در یونانی μῦς («موش» و «ماهیچه») را ساخته است. صورت‌های بی‌اعرابِ «mus» و «muska» در نمودار شیوهٔ همیشگیِ آوانویسیِ سادهٔ نورایی است، نه غلط چاپی. توجه: این جعبهٔ سانسکریت در نمودار جانشین کل شاخهٔ هندوایرانی شده و در واقع تنها مأخذ «مشک» (گرهٔ ۳) است، نه «موش» (گرهٔ ۲).",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%85%D8%B4%DA%A9",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no reference of its own in the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 752-753 s.v. mūs",
+       "stance": "supports",
+       "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\""
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 312-313",
+       "stance": "supports",
+       "note": "Walde-Pokorny Bd. II 312-313 s.v. mus 'Maus' (WLD_Bd2_pages.txt lines 20670-20700): \"Ai. mus- 'Maus, Ratte' (musa-, musaka-, muska- m. ds.), np. mus 'Maus'; arm. mu-kn 'Maus'; gr. mys 'Maus'; lat. mus 'Maus'; ahd. mhd. as. mnd. aisl. ags. mus 'Maus'... Vielfach auf Koerperteile angewendet, wegen der Aehnlichkeit zwischen dem Zucken der Muskeln unter der Haut und dem Laufen einer Maus: gr. mys 'Muskel', lat. musculus 'Muskel'... ai. muska- m. 'Hode, weibliche Scham'... np. mush 'Bibergeil' (aus dem Pers. stammt gr. moschos, nhd. Moschus)\" — WLD lists muṣka- both among the 'mouse' formations and separately as 'Hode, weibliche Scham'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 4.49 'testicle' and 3.68 'mouse'",
+       "stance": "supports",
+       "note": "Buck, Selected Synonyms (SYN.txt line 6667, section 4.49 'testicle'): \"Skt. muska-, apparently dim. to mus- 'mouse', from the shape (cf. Lat. musculus 'muscle', etc.). Walde-P. 2.313.\" and line 4894, section 3.68 MOUSE: \"Grk. mys, Lat. mus, OE mus, ME mous, NE mouse, Skt. mus-\""
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. mūs-",
+       "stance": "partial",
+       "note": "Watkins 1985 s.v. mus- (AHD_watkins1985.txt line ~763): \"mus-. A mouse; also a muscle (from the resemblance of a flexing muscle to the movements of a mouse). 1. Germanic *mus- (plural *musiz) in Old English mus (plural mys), mouse: MOUSE. 2. Latin mus, mouse: MURINE, MUSCLE, MUSTELINE. 3. Greek mus, mouse, muscle: MYELO-, MYO-... [Pok. mus 752.]\" — Watkins lists the Sanskrit branch only implicitly (the root gloss covers it); the muṣka- derivative appears in AHD's dictionary entry for musk, not in the root appendix."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "müš",
+     "verdict": "plausible",
+     "derivation": "The word is right but the arrow's direction is not: New Persian موش mūš 'mouse' is inherited, not taken from Sanskrit. It continues Middle Persian mušk / mūš (Pahlavi spelling mwšk', MacKenzie: \"2mušk [mwšk'] mouse, rat\") < Proto-Iranian *múHs < PII *múHs, so it is the sibling of Skt mūṣ-, not its descendant; the Pahlavi -k of mwšk' is the same suffixal extension seen in Baluchi mušk and Kurdish mišk, and New Persian simply drops it. Horn no. 995 sets out exactly this cognate set (\"mūš 'Maus'; ai. mūṣ-, skr. mūṣaka-; arm. mukn; kurd. mišik; oss. miste/mist; bal. mušk\"), and Mo'in's footnote to Borhān p. 2053 does the same, listing Old Indian, Armenian, Ossetic, Baluchi and Kurdish forms side by side rather than deriving Persian from Sanskrit. Verdict plausible: right word, right root, wrong genealogy (a cognate drawn as a descendant). Diacritic: the printed page has mŭš, while the JSON transliterates müš; the correct value is long ū (mūš).",
+     "derivation_fa": "واژه درست است اما جهت پیکان نه: «موش» فارسی نو واژه‌ای میراثی است و از سانسکریت وام گرفته نشده. این واژه ادامهٔ فارسی میانهٔ mušk / mūš است (نوشتار پهلوی mwšk'؛ مکنزی: «2mušk موش، موش صحرایی») که خود از ایرانی باستان *múHs و آن از هندوایرانیِ آغازین *múHs می‌آید؛ پس «موش» هم‌ریشهٔ mūṣ سانسکریت است، نه فرزند آن. «ک» پایانیِ پهلوی همان افزودهٔ پسوندی است که در بلوچی mušk و کردی mišk هم دیده می‌شود و فارسی نو آن را انداخته است. هرن در شمارهٔ ۹۹۵ همین مجموعهٔ هم‌ریشه‌ها را می‌آورد و حاشیهٔ معین بر برهان قاطع ص۲۰۵۳ نیز صورت‌های هندی باستان، ارمنی، اوستی، بلوچی و کردی را در کنار هم می‌نشاند و فارسی را از سانسکریت نمی‌گیرد. داوری: با احتیاط پذیرفتنی — واژه و ریشه درست، ولی نسب‌نامه نادرست (هم‌ریشه به‌جای فرزند). نکتهٔ آوانویسی: در صفحهٔ چاپی «mŭš» آمده و در داده‌های استخراج‌شده «müš»؛ صورت درست mūš با «او»ی کشیده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%B4",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs"
+     ],
+     "error_in": "extraction",
+     "book_prints": "mŭš",
+     "correct_form": "mūš (NP موش; the printed breve mŭš was read as ü in the JSON)",
+     "ref_check": [
+      {
+       "ref": "POK:752",
+       "status": "supports",
+       "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\" — 'np. mūš \"mouse\"' is listed directly under the root, i.e. Pokorny too treats Persian as a cognate of Old Indic, not as a borrowing from it."
+      },
+      {
+       "ref": "BQT:2053",
+       "status": "supports",
+       "note": "BQT vol. 4, printed p. 2053 (= pdf p. 136; data/verification/sources/refs/ocr/BQT/2053.png+.txt), footnote 1 on the موش entries: \"هندی باستان mus، سانسکریت musa-, musaka- (موش، موش صحرائی)، ارمنی mukn (موش)، افغانی ...، اوستی miste/mist، بلوچی musk، کردی mišik (موش)، ... ؛ جانوری پستاندار از چارپایان جونده، دارای دمی طویل\" — the page cited is indeed the موش page of Borhān (vol. 4), and Mo'in's footnote gives the cognates, not a Sanskrit source."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie p. 57 s.v. 2mušk",
+       "stance": "supports",
+       "note": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt line 493): \"1mušk [mwšk' | N ~] musk. 2mušk [mwšk' | (N muš)] mouse, rat\"; English index: \"mouse mušk\" (line 2861), \"musk mušk\" (line 2873), \"rat mušk\" (3325)"
+      },
+      {
+       "src": "HRN",
+       "where": "Horn no. 995 (p. ~220)",
+       "stance": "supports",
+       "note": "Horn, Grundriss no. 995 (HRN.txt lines 8650-8657, printed p. ~220): \"mush 'Maus'. g. mušk, ai. mus-, skr. musaka-, musika- 'Maus, Ratte'; arm. mukn 'Maus'. kurd. mišik, misk; oss. d. miste, t. mist; bel. mušk, n. mušk\""
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 312",
+       "stance": "supports",
+       "note": "\"Ai. mūs- 'Maus, Ratte' ..., np. mūš 'Maus'\" — Persian listed as a parallel to the Indic form."
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/موش",
+       "stance": "partial",
+       "note": "\"Inherited from Middle Persian mwšk' /mušk/ ('mouse, rat'), from Proto-Iranian *múHs, from Proto-Indo-Iranian *múHs, from Proto-Indo-European *múHs\" — inheritance, not borrowing from Sanskrit."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "mošk; mešk; meškî",
+     "verdict": "confirmed",
+     "derivation": "Persian مشک mušk/mošk 'musk' does come from the Indic muṣka- of the box above: the musk gland under the belly of the male musk deer (Moschus moschiferus, غزال المسک, Mo'in's آهوی خطایی) was seen as a scrotum, so 'testicle' became the name of the drug. The route is Skt muṣka- → Middle Persian mušk [mwšk'] (MacKenzie: \"1mušk musk\") → New Persian مشک; Mo'in's own etymological footnote on Borhān p. 2014 states the chain in these very terms: «سانسکریت muska مصغر mûs (موش)، یونانی moskos، لاتینی muscus، فرانسوی و انگلیسی musc، عربی مسك». From Middle Persian the word passed into Arabic as مسک misk (already in Qur'an 83:26; Jeffery: 'quite commonly recognized as a loan-word from the Persian... more likely to have come direct from Middle Persian into Arabic than through the Syriac'), and the Arabicized misk came back into Persian — which is exactly the doublet Nourai records in his parenthesis «مُشک ۱ ( مِسک )»; Hübschmann §24 files Persian misk 'Moschus' (< Arab. misk) among the cases of u > i before a sibilant, and Ghiyāth (quoted by Mo'in) already noted that the people of Fārs said mešk while Transoxianans said mošk — which is all the chart's mošk ~ mešk pair amounts to, not two different words. mešk in بیدمشک bīd-e mešk 'musk willow' (Salix aegyptiaca, whose blossom water smells of musk) is the same noun in compound; meškī/مشکین is the nisba adjective 'musk-coloured', i.e. jet black, the colour of dried musk — the sense of Ferdowsi's line quoted in the box, «... یکی تاج بر سر ز مُشک سیاه».",
+     "derivation_fa": "«مشک» فارسی به‌راستی از muṣka هندی (سانسکریت) می‌آید: کیسهٔ مشکِ زیر شکمِ آهوی نرِ ختایی (غزال المسک) را همچون کیسهٔ بیضه می‌دیدند و از همین رو نامِ «خایه» بر آن دارو نشست. راه آن چنین است: muṣka سانسکریت ← فارسی میانهٔ mušk (پهلوی mwšk'؛ مکنزی: «1mušk مشک») ← «مشک» فارسی نو؛ و حاشیهٔ ریشه‌شناسیِ خودِ معین بر برهان قاطع ص۲۰۱۴ همین زنجیره را می‌آورد: «سانسکریت muska مصغر mûs (موش)، یونانی moskos، لاتینی muscus، فرانسوی و انگلیسی musc، عربی مسك». از فارسی میانه به عربی رفت و «مسک» شد (که همان در قرآن ۸۳:۲۶ آمده؛ جفری: «به‌روشنی وام‌واژه‌ای از فارسی... به احتمال بیشتر یکسر از فارسی میانه به عربی رفته، نه از راه سریانی») و صورتِ معرّبِ «مسک» باز به فارسی برگشت — همان دوگانه‌ای که نورایی در کمانکِ «مُشک ۱ (مِسک)» ثبت کرده است. هوبشمان در بند ۲۴ «مسک» فارسی را در شمار موارد تبدیل u به i پیش از حرف صفیری می‌آورد، و غیاث (به نقل معین) گفته بود که «اهل فارس بکسر میم و اهل ماوراءالنهر بضم میم خوانند» — یعنی جفتِ mošk ~ mešk نمودار همین اختلاف تلفظ است، نه دو واژهٔ جدا. «مشک» در «بیدمشک» (بیدِ مُشک، Salix aegyptiaca که عرقِ گلش بوی مشک دارد) همان اسم است در ترکیب، و «مشکی/مشکین» صفتِ نسبی به معنای «به رنگ مشک»، یعنی سیاهِ پرکلاغی است — همان معنایی که در بیتِ فردوسیِ نقل‌شده در جعبه دیده می‌شود. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%85%D8%B4%DA%A9",
+      "https://abadis.ir/fatofa/%D9%85%D8%B4%DA%A9/",
+      "https://www.etymonline.com/word/musk",
+      "https://www.ahdictionary.com/word/search.html?q=musk"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:752",
+       "status": "supports",
+       "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\" — 'npers. mušk ... (from Pers. derives gr. moschos, NHG Moschus)' stands right beside 'Old Indic muska- m. \"testicle\"', i.e. Pokorny's page carries both ends of this node's claim."
+      },
+      {
+       "ref": "BQT:2053",
+       "status": "partial",
+       "note": "p. 2053 is the موش page (footnote quoted at node #2) and says nothing about مشک; the Borhān page that actually carries Mo'in's etymology of مشک is p. 2014 — BQT vol. 4, printed p. 2014 (= pdf p. 97), entry مشک, Mo'in's footnote 2 — read from the page image and saved verbatim to data/verification/sources/refs/ocr/BQT/2014.vision.txt: \"سانسکریت muska مصغر mûs (موش)، یونانی moskos، لاتینی muscus، فرانسوی و انگلیسی musc، عربی مسك (بکسر اول). غیاث گوید: اهل فارس بکسر میم و اهل ماوراءالنهر بضم میم خوانند... وآن ماده‌ایست مأخوذ از کیسه‌ای مشکین باندازهٔ تخم مرغی، مستقر در زیر پوست شکم آهوی ختائی (غزال المسك = musk deer) نر\" So the reference supports the claim, but Nourai's page number belongs to the mouse entry, not the musk entry."
+      },
+      {
+       "ref": "MON:4147",
+       "status": "supports",
+       "note": "Mo'in via abadis.ir (فرهنگ معین): مُشک «مادهٔ سیاه‌رنگ و خوشبویی که در نافِ آهوی مشک تولید می‌شود» with a Sanskrit origin label (سانسکریت); مَشک 'waterskin' is a separate entry, so Mo'in agrees with the chart in keeping the two apart. Page 4147 itself is not verifiable in the unpaginated online text."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie p. 57 s.v. 1mušk",
+       "stance": "supports",
+       "note": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt line 493): \"1mušk [mwšk' | N ~] musk. 2mušk [mwšk' | (N muš)] mouse, rat\"; English index: \"mouse mušk\" (line 2861), \"musk mušk\" (line 2873), \"rat mušk\" (3325) — MP mušk carries both senses, 'musk' and 'mouse', in the same spelling mwšk'."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien §24 (pp. 139-140)",
+       "stance": "supports",
+       "note": "Huebschmann, Persische Studien Sec. 24 (HUB.txt lines 4890-4893, printed p. 139-140): among the cases where inlautendes u becomes i - \"misk (arab. misk) 'Moschus' = mušk; hier folgt auf u entweder ein Zischlaut (s, š, z) oder ein i in der folgenden Silbe\""
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi 1988 p. 250 s.v. misk",
+       "stance": "supports",
+       "note": "Asbaghi, Persische Lehnwoerter im Arabischen p. 250 s.v. misk (PLA_asbaghi_1988_ia_djvu.txt lines 18171-18189): \"Zu misk 'Moschus' ... pers. mošk / MP. mušk ... pers. mušk > ar. misk, tk. misk, mlat. muscum, frz. musc, sp. musco, engl. musk, dtsch. Moschus. Moschus: skr. > pers. > ar. > lat.\""
+      },
+      {
+       "src": "FVQ",
+       "where": "Jeffery p. 264 s.v. (Misk)",
+       "stance": "supports",
+       "note": "Jeffery, Foreign Vocabulary of the Qur'an p. 264 s.v. (Misk), lxxxiii.26 'Musk' (FVQ_pages.txt lines 9501-9512): \"The word was widely used among the Arabs in the pre-Islamic period and was quite commonly recognized as a loan-word from the Persian. The Phlv. mushk seems to have come ultimately from the Skt., but it was from the Iranian, not the Indian form, that were borrowed the Arm. mushk; Gk. moschos; Aram.; Syr.; Eth. ... It is more likely to have come direct from Middle Persian into Arabic than through the Syriac.\""
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, ARY_pages.txt [pdf page 473] s.v. مشک",
+       "stance": "supports",
+       "note": "Aryanpur, Farhang-e riše-hā (ARY_pages.txt [pdf page 473], printed p. 474), headword مشک: Pahlavi, سانسکریت muska, یونانی moschos, لاتینی muscus, فرانسه musc, آلمانی Muskus/Moschus, انگلیسی musk, هلندی muskus, with the note \"چم این واژه در زبان سانسکریت: خایه\" ('the meaning of this word in Sanskrit: testicle') and a cross-reference to برهان قاطع"
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 1515a",
+       "stance": "supports",
+       "note": "Lokotsch no. 1515a (LKT.txt line 3496): \"Pers. musk: 'Moschus' [aus sskr. mushkas 'Hode' wegen der Aehnlichkeit einer solchen mit dem Beutel des Moschustieres], ar. musk, misk, tk. misk; hieraus mlat. muscum 'Bisam, Moschus', it. musco, muschio, prov. musc, frz. musc, ... engl. musk, dtsch. Muesch, spaeter Moschus; russ. muskus 'Moschus'.\""
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. musk",
+       "stance": "supports",
+       "note": "Klein s.v. musk (KLN_1966.txt line 24742, printed p. ~1021): \"musk, n., substance secreted by a gland near the testicles of the musk deer. - ME. muske, fr. OF. (= F.) musc, fr. L. muscus, fr. Gk. moschos, fr. Pers. mushk, 'musk', fr. OI. muskah, 'scrotum, testicle', lit. 'a little mouse', fr. mus-, 'mouse'.\""
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Greek",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "The empty box stands for Late/Byzantine Greek μόσχος 'musk' (homonymous with, but distinct from, classical μόσχος 'young shoot, calf'), borrowed from Middle Persian mušk in the aromatics and medical literature of late antiquity (Aetius, Paul of Aegina, 6th-7th c.): Iranian u is rendered by Greek o and the cluster -šk- by -σχ-, with the usual -ος nominative added. Jeffery states that it was 'from the Iranian, not the Indian form' that Armenian mušk, Greek μόσχος, Aramaic, Syriac and Ethiopic musk-words were all borrowed; Walde-Pokorny say the same in one clause ('aus dem Pers. stammt gr. μόσχος, nhd. Moschus'). Wiktionary's μόσχος (etymology 2) has 'From Middle Persian mwšk'..., itself from Sanskrit muṣká' with 'Late Latin muscus' as its descendant — exactly this node and the next.",
+     "derivation_fa": "این جعبهٔ تهی نمایندهٔ μόσχος یونانیِ متأخر/بیزانسی به معنای «مشک» است (هم‌آوا با μόσχος کلاسیک «جوانه، گوساله» ولی جدا از آن) که در ادبیات داروسازی و پزشکیِ اواخر دورهٔ باستان (اتیوس، پولس اجانیطی، سدهٔ ششم و هفتم میلادی) از فارسی میانهٔ mušk وام گرفته شده است: «او»ی ایرانی به o یونانی و خوشهٔ -šk- به -σχ- بدل شده و پایانهٔ نهادیِ -ος بر آن افزوده شده است. جفری تصریح می‌کند که ارمنی mušk، یونانی μόσχος و صورت‌های آرامی و سریانی و حبشی همه «از صورت ایرانی، نه هندی» وام گرفته شده‌اند؛ والده-پوکورنی نیز در یک عبارت همین را می‌گویند: «μόσχος یونانی از فارسی است». ویکی‌واژه ذیل μόσχος (ریشه‌شناسی ۲) می‌نویسد «از فارسی میانهٔ mwšk'، خود از سانسکریت muṣká» و muscus لاتینیِ متأخر را فرزند آن می‌شمارد — یعنی درست همین گره و گرهِ پس از آن. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%CE%BC%CF%8C%CF%83%CF%87%CE%BF%CF%82",
+      "https://www.etymonline.com/word/musk"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the Greek box carries no reference in the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FVQ",
+       "where": "Jeffery p. 264 s.v. (Misk)",
+       "stance": "supports",
+       "note": "Jeffery, Foreign Vocabulary of the Qur'an p. 264 s.v. (Misk), lxxxiii.26 'Musk' (FVQ_pages.txt lines 9501-9512): \"The word was widely used among the Arabs in the pre-Islamic period and was quite commonly recognized as a loan-word from the Persian. The Phlv. mushk seems to have come ultimately from the Skt., but it was from the Iranian, not the Indian form, that were borrowed the Arm. mushk; Gk. moschos; Aram.; Syr.; Eth. ... It is more likely to have come direct from Middle Persian into Arabic than through the Syriac.\""
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 313",
+       "stance": "supports",
+       "note": "\"np. mush 'Bibergeil' (aus dem Pers. stammt gr. moschos, nhd. Moschus)\""
+      },
+      {
+       "src": "Wiktionary",
+       "where": "en.wiktionary.org/wiki/μόσχος (etymology 2)",
+       "stance": "supports",
+       "note": "\"From Middle Persian mwšk' (*mušk), itself from Sanskrit मुष्क (muṣká, 'testicle')\"; descendants: \"→ Late Latin: muscus\"."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. musk",
+       "stance": "supports",
+       "note": "Klein s.v. musk (KLN_1966.txt line 24742, printed p. ~1021): \"musk, n., substance secreted by a gland near the testicles of the musk deer. - ME. muske, fr. OF. (= F.) musc, fr. L. muscus, fr. Gk. moschos, fr. Pers. mushk, 'musk', fr. OI. muskah, 'scrotum, testicle', lit. 'a little mouse', fr. mus-, 'mouse'.\" — Klein's chain has Gk. μόσχος between Persian and Latin, as here."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "muskus",
+     "verdict": "transcription_suspect",
+     "derivation": "The Greek → Latin step is right, but Latin never had a form *muskus: the word is Late Latin muscus 'musk' (Medieval Latin also muscum), which gave Old French musc, Italian musco/muschio, Medieval Latin muscatus > Muskat, and — through French — English musk. Klein: 'fr. OF. musc, fr. L. muscus, fr. Gk. μόσχος'; AHD: 'from Late Latin muscus'; Mo'in's own footnote on Borhān p. 2014 prints «لاتینی muscus»; Lokotsch has 'mlat. muscum'; Asbaghi 'mlat. muscum'. The printed page 313 of the book really does read 'muskus' (see the page image copied to data/verification/sources/refs/ocr/BOOK/343.png), so this is Nourai's own misprint and the extraction is faithful. A likely source of the slip: the k-spelling exists in the modern borrowings Dutch/Russian muskus 'musk' (Klein even has an entry \"muskus grass — fr. Du. muskus, 'musk', fr. L. muscus\"), which is not a Latin form.",
+     "derivation_fa": "گامِ یونانی ← لاتینی درست است، اما در لاتینی هرگز صورتِ *muskus نبوده: واژه muscus لاتینیِ متأخر است (در لاتینیِ میانه muscum نیز) که از آن musc فرانسویِ کهن، musco/muschio ایتالیایی، muscatus لاتینیِ میانه (نیای Muskat) و از راه فرانسه musk انگلیسی برآمده است. کلاین: «از OF musc، از muscus لاتینی، از μόσχος یونانی»؛ فرهنگ American Heritage: «از muscus لاتینیِ متأخر»؛ و حاشیهٔ خودِ معین بر برهان ص۲۰۱۴ می‌نویسد «لاتینی muscus»؛ لوکوچ و اصباغی نیز «mlat. muscum». در صفحهٔ ۳۱۳ چاپی همان «muskus» آمده است (تصویر صفحه در data/verification/sources/refs/ocr/BOOK/343.png)، پس این خطای چاپیِ کتاب است و خوانشِ اسکن درست بوده. سرچشمهٔ احتمالی لغزش: صورتِ با k تنها در وام‌واژه‌های نو، هلندی و روسیِ muskus، دیده می‌شود (کلاین حتی مدخلی دارد: «muskus grass از هلندیِ muskus، از muscus لاتینی») که صورتی لاتینی نیست.",
+     "sources": [
+      "https://www.etymonline.com/word/musk",
+      "https://www.ahdictionary.com/word/search.html?q=musk",
+      "https://en.wiktionary.org/wiki/%CE%BC%CF%8C%CF%83%CF%87%CE%BF%CF%82"
+     ],
+     "error_in": "book",
+     "book_prints": "muskus",
+     "correct_form": "muscus (Late Latin muscus, Medieval Latin muscum)",
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the Latin box carries no reference in the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. musk (and s.v. muscat, moschatel, muskus grass)",
+       "stance": "partial",
+       "note": "Klein s.v. musk (KLN_1966.txt line 24742, printed p. ~1021): \"musk, n., substance secreted by a gland near the testicles of the musk deer. - ME. muske, fr. OF. (= F.) musc, fr. L. muscus, fr. Gk. moschos, fr. Pers. mushk, 'musk', fr. OI. muskah, 'scrotum, testicle', lit. 'a little mouse', fr. mus-, 'mouse'.\" — Klein has the whole chain but the Latin form is muscus; his only muskus is Dutch."
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 1515a",
+       "stance": "partial",
+       "note": "Lokotsch no. 1515a (LKT.txt line 3496): \"Pers. musk: 'Moschus' [aus sskr. mushkas 'Hode' wegen der Aehnlichkeit einer solchen mit dem Beutel des Moschustieres], ar. musk, misk, tk. misk; hieraus mlat. muscum 'Bisam, Moschus', it. musco, muschio, prov. musc, frz. musc, ... engl. musk, dtsch. Muesch, spaeter Moschus; russ. muskus 'Moschus'.\" — 'mlat. muscum', with Russian muskus listed as a modern borrowing, not a Latin form."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur [pdf page 473] s.v. مشک",
+       "stance": "partial",
+       "note": "Aryanpur, Farhang-e riše-hā (ARY_pages.txt [pdf page 473], printed p. 474), headword مشک: Pahlavi, سانسکریت muska, یونانی moschos, لاتینی muscus, فرانسه musc, آلمانی Muskus/Moschus, انگلیسی musk, هلندی muskus, with the note \"چم این واژه در زبان سانسکریت: خایه\" ('the meaning of this word in Sanskrit: testicle') and a cross-reference to برهان قاطع — Aryanpur's Latin form is muscus."
+      },
+      {
+       "src": "AHD",
+       "where": "ahdictionary.com s.v. musk",
+       "stance": "partial",
+       "note": "\"[Middle English, from Old French musc, from Late Latin muscus, from Greek moskhos, from Persian mušk, probably from Sanskrit muṣkaḥ]\" — chain identical, Latin form muscus."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "The empty box is Old French musc (attested from the 12th-13th c. in medical and apothecary texts), taken from Late/Medieval Latin muscus/muscum with regular Old French loss of the Latin -us ending; it survives as modern French musc, and its derivatives spread widely — muscade/noix muscade 'nutmeg' (whence English nutmeg's second element), muguet 'lily of the valley', muscat, muscardin. Klein and Lokotsch both put French musc between Latin and English, exactly as drawn.",
+     "derivation_fa": "این جعبهٔ تهی همان musc فرانسویِ کهن است (از سدهٔ دوازدهم و سیزدهم میلادی در متون پزشکی و عطاری) که از muscus/muscum لاتینیِ متأخر و میانه گرفته شده و پایانهٔ -us لاتینی به قاعدهٔ فرانسویِ کهن افتاده است؛ همان است که در فرانسهٔ امروز musc مانده و مشتقات فراوانی از آن پراکنده شده: muscade و noix muscade («جوز هندی»)، muguet، muscat و muscardin. کلاین و لوکوچ هر دو musc فرانسوی را میان لاتین و انگلیسی می‌نشانند، درست همان‌گونه که در نمودار کشیده شده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/musk",
+      "https://en.wiktionary.org/wiki/%CE%BC%CF%8C%CF%83%CF%87%CE%BF%CF%82"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the French box carries no reference in the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. musk, muscat, mugget",
+       "stance": "supports",
+       "note": "Klein s.v. musk (KLN_1966.txt line 24742, printed p. ~1021): \"musk, n., substance secreted by a gland near the testicles of the musk deer. - ME. muske, fr. OF. (= F.) musc, fr. L. muscus, fr. Gk. moschos, fr. Pers. mushk, 'musk', fr. OI. muskah, 'scrotum, testicle', lit. 'a little mouse', fr. mus-, 'mouse'.\"; and s.v. mugget: \"F. muguet ... fr. (noix) muguette, alteration of (noix) muscade ... fr. musc, 'musk'\" — French musc as the pivot."
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 1515a",
+       "stance": "supports",
+       "note": "Lokotsch no. 1515a (LKT.txt line 3496): \"Pers. musk: 'Moschus' [aus sskr. mushkas 'Hode' wegen der Aehnlichkeit einer solchen mit dem Beutel des Moschustieres], ar. musk, misk, tk. misk; hieraus mlat. muscum 'Bisam, Moschus', it. musco, muschio, prov. musc, frz. musc, ... engl. musk, dtsch. Muesch, spaeter Moschus; russ. muskus 'Moschus'.\" — 'prov. musc, frz. musc' listed between Medieval Latin and English."
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/musk",
+       "stance": "supports",
+       "note": "\"late 14c., from Old French musc (13c.) and directly from Medieval Latin muscus\"."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "musk",
+     "verdict": "confirmed",
+     "derivation": "English musk appears in the late 14th c. as ME muske/musc, borrowed from Old French musc (and reinforced by Medieval Latin muscus in medical Latin); by the 16th-18th c. it had generated the compounds musk-melon (1570s), musk-deer (1680s) and musk-ox (1744), and the adjective musky. The chart's chain Sanskrit → Persian → Greek → Latin → French → English is precisely what AHD prints for the word, so Nourai's AHD:865 is the standard modern authority for this node, not merely his own reading.",
+     "derivation_fa": "musk انگلیسی در اواخر سدهٔ چهاردهم میلادی به‌صورت muske/musc در انگلیسیِ میانه پیدا می‌شود و وام‌واژه‌ای است از musc فرانسویِ کهن (با تقویتِ muscus لاتینیِ میانه در لاتینِ پزشکی)؛ از سدهٔ شانزدهم تا هجدهم ترکیب‌هایی چون musk-melon (۱۵۷۰م)، musk-deer (۱۶۸۰م) و musk-ox (۱۷۴۴م) و صفتِ musky از آن ساخته شد. زنجیرهٔ نمودار (سانسکریت ← فارسی ← یونانی ← لاتین ← فرانسه ← انگلیسی) همان است که فرهنگ American Heritage برای این واژه چاپ می‌کند؛ پس ارجاعِ AHD:865 نورایی خودْ مرجعِ معیارِ امروزی برای این گره است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/musk",
+      "https://www.ahdictionary.com/word/search.html?q=musk"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:865",
+       "status": "supports",
+       "note": "Nourai's page is in the body of the 1975/76 New College edition, which is not open online (refs_online: archive_restricted); the same dictionary's current entry (ahdictionary.com s.v. musk, archived) reads \"[Middle English, from Old French musc, from Late Latin muscus, from Greek moskhos, from Persian mušk, probably from Sanskrit muṣkaḥ]\" — the chart's chain verbatim (with muscus for the chart's muskus). Watkins' root appendix does not file MUSK under mūs-, since for AHD the English word is a loan, not an inherited derivative."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. musk",
+       "stance": "supports",
+       "note": "Klein s.v. musk (KLN_1966.txt line 24742, printed p. ~1021): \"musk, n., substance secreted by a gland near the testicles of the musk deer. - ME. muske, fr. OF. (= F.) musc, fr. L. muscus, fr. Gk. moschos, fr. Pers. mushk, 'musk', fr. OI. muskah, 'scrotum, testicle', lit. 'a little mouse', fr. mus-, 'mouse'.\""
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Musk",
+       "stance": "partial",
+       "note": "Skeat (SKT.txt lines 11949, 12051, 12076): \"Mouse. (E.) M.E. mous. A.S. mus (pl. mys)... L. mus, Gk. mys, Pers. mush, a mouse; Skt. muska, a rat, a mouse\"; \"Muscle (1)... F. muscle. - L. musculus, (1) a little mouse... Dimin. of L. mus, a mouse\"; \"Musk... behind the musk-deer's navel. Lit. 'thief'; from mush, to steal. See Mouse.\" — Skeat has the Persian-Sanskrit connection but adds the older 'lit. thief, from mush to steal' explanation of the Sanskrit base, which modern work does not follow."
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/musk",
+       "stance": "supports",
+       "note": "\"late 14c. ... from Late Greek moskhos, from Persian mushk, from Sanskrit muska-s 'testicle', from mus 'mouse'... The deer gland was thought to resemble a scrotum.\""
+      },
+      {
+       "src": "FSD",
+       "where": "vol. III s.v. musk",
+       "stance": "supports",
+       "note": "Funk & Wagnalls describes musk as the substance 'imported in the pod, a sac situated in front of the prepuce of the male musk-deer' — the same referent and the same anatomical metaphor behind the Sanskrit name."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Germanic",
+     "words": "mus",
+     "verdict": "confirmed",
+     "derivation": "Nourai's 'Germanic mus' is Proto-Germanic *mūs (a consonant/root stem, pl. *mūsiz), the regular reflex of PIE *múHs with the laryngeal lost and compensatory length: it gives OE mūs (pl. mȳs by i-mutation), OS/ON/OFris/MDu mūs, OHG-MHG mūs > German Maus, Dan./Swed. mus, Du. muis. Watkins states the step in the same words: '1. Germanic *mūs (plural *mūsiz) in Old English mūs (plural mȳs), mouse: MOUSE'. The German and Old English words also carry the transferred sense 'muscle (of the upper arm)' (Klein: OHG mūs 'mouse; muscle'), which is the same metaphor as Latin mūsculus.",
+     "derivation_fa": "«mus» ژرمنیِ نمودار همان *mūs ژرمنیِ آغازین است (ستاکی بی‌واسطه، جمعِ *mūsiz) که بازتابِ قاعده‌مندِ *múHs هندواروپایی است با افتادنِ حنجره‌ای و کشیدگیِ جبرانی؛ از آن mūs انگلیسیِ کهن (جمعِ mȳs با همگونیِ i)، mūs ساکسونیِ کهن و نورس و فریزی، mūs آلمانیِ علیایِ کهن > Maus آلمانی، mus دانمارکی و سوئدی و muis هلندی برآمده است. واتکینز همین گام را با همین واژه‌ها می‌آورد: «۱. ژرمنیِ *mūs (جمعِ *mūsiz) در mūs انگلیسیِ کهن (جمعِ mȳs)». صورت‌های آلمانی و انگلیسیِ کهن معنای انتقالیِ «ماهیچهٔ بازو» را نیز دارند (کلاین: mūs آلمانیِ علیایِ کهن «موش؛ ماهیچه») که همان استعارهٔ mūsculus لاتینی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. mus- (AHD_watkins1985.txt line ~763): \"mus-. A mouse; also a muscle (from the resemblance of a flexing muscle to the movements of a mouse). 1. Germanic *mus- (plural *musiz) in Old English mus (plural mys), mouse: MOUSE. 2. Latin mus, mouse: MURINE, MUSCLE, MUSTELINE. 3. Greek mus, mouse, muscle: MYELO-, MYO-... [Pok. mus 752.]\" — Nourai cites AHD without a page; the Watkins root entry gives exactly the Germanic *mūs > OE mūs > MOUSE step of this node and the next."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 752-753",
+       "stance": "supports",
+       "note": "\"Old High German Middle High German Old Saxon Middle Low German Old Icelandic Old English mūs 'mouse, muscle' (consonant-stem)\""
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 312-313",
+       "stance": "supports",
+       "note": "\"ahd. mhd. as. mnd. aisl. ags. mūs 'Maus' (Kons.-St.)\" and, for the transferred sense, \"ahd. usw. mūs 'Muskel, bes. des Oberarms'\""
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. mouse",
+       "stance": "supports",
+       "note": "Klein s.v. mouse (KLN_1966.txt line 24534): \"mouse, n. - ME. mous, fr. OE. mus, rel. to OS., ON., OFris., MLG., MDu., Dan., Swed. mus, Du. muis, OHG., MHG. mus, G. Maus, 'mouse; muscle', and cogn. with OI. mus-, 'mouse, rat', muskah, 'scrotum, testicle', lit. 'a little mouse', OPers. mush, 'mouse', Arm. mukn, Gk. mys, 'mouse; muscle', L. mus (gen. muris)...\""
+      },
+      {
+       "src": "Wiktionary",
+       "where": "Reconstruction:Proto-Indo-European/múHs",
+       "stance": "supports",
+       "note": "descendant list: \"*mūs (Proto-Germanic)\" directly under PIE *múHs."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "mouse",
+     "verdict": "confirmed",
+     "derivation": "Old English mūs (pl. mȳs) > Middle English mous/mus > Modern English mouse: the vowel is the inherited long ū, which was diphthongized to /aʊ/ in the Great Vowel Shift (15th-17th c.) while the spelling ou was imported from Anglo-Norman scribal practice; the irregular plural mice continues OE mȳs, i.e. *mūsiz with i-mutation and later unrounding of ȳ. Klein and Skeat both give the chain ME mous < OE mūs with the same Germanic and Indo-European cognates as the chart.",
+     "derivation_fa": "mūs انگلیسیِ کهن (جمعِ mȳs) > mous انگلیسیِ میانه > mouse انگلیسیِ نو: واکهٔ آن همان «او»ی کشیدهٔ میراثی است که در «چرخشِ بزرگِ واکه‌ها» (سدهٔ پانزدهم تا هفدهم) به /aʊ/ بدل شد، در حالی که نوشتارِ ou از شیوهٔ کاتبانِ انگلونورمان به وام گرفته شده بود؛ جمعِ بی‌قاعدهٔ mice نیز ادامهٔ mȳs انگلیسیِ کهن است، یعنی *mūsiz با همگونیِ i و سپس بی‌گردیِ ȳ. کلاین و اسکیت هر دو زنجیرهٔ mous انگلیسیِ میانه از mūs انگلیسیِ کهن را با همان هم‌ریشه‌های ژرمنی و هندواروپاییِ نمودار می‌آورند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no reference of its own; the parent box's AHD citation covers the step (Watkins: 'Old English mūs (plural mȳs), mouse: MOUSE')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. mouse",
+       "stance": "supports",
+       "note": "Klein s.v. mouse (KLN_1966.txt line 24534): \"mouse, n. - ME. mous, fr. OE. mus, rel. to OS., ON., OFris., MLG., MDu., Dan., Swed. mus, Du. muis, OHG., MHG. mus, G. Maus, 'mouse; muscle', and cogn. with OI. mus-, 'mouse, rat', muskah, 'scrotum, testicle', lit. 'a little mouse', OPers. mush, 'mouse', Arm. mukn, Gk. mys, 'mouse; muscle', L. mus (gen. muris)...\""
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Mouse",
+       "stance": "supports",
+       "note": "Skeat (SKT.txt lines 11949, 12051, 12076): \"Mouse. (E.) M.E. mous. A.S. mus (pl. mys)... L. mus, Gk. mys, Pers. mush, a mouse; Skt. muska, a rat, a mouse\"; \"Muscle (1)... F. muscle. - L. musculus, (1) a little mouse... Dimin. of L. mus, a mouse\"; \"Musk... behind the musk-deer's navel. Lit. 'thief'; from mush, to steal. See Mouse.\""
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 3.68 'mouse'",
+       "stance": "supports",
+       "note": "Buck, Selected Synonyms (SYN.txt line 6667, section 4.49 'testicle'): \"Skt. muska-, apparently dim. to mus- 'mouse', from the shape (cf. Lat. musculus 'muscle', etc.). Walde-P. 2.313.\" and line 4894, section 3.68 MOUSE: \"Grk. mys, Lat. mus, OE mus, ME mous, NE mouse, Skt. mus-\" — the table gives 'OE mūs, ME mous, NE mouse' in sequence."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Latin",
+     "words": "mus",
+     "verdict": "plausible",
+     "derivation": "Latin mūs (gen. mūris) 'mouse' is the correct Italic reflex of PIE *múHs (Proto-Italic *mūs), the oblique r being rhotacism of intervocalic s (*mūs-is > mūris). The gloss is what makes this node only plausible: classical Latin mūs means 'mouse' (and by extension some marine and other animals), never 'muscle'. The muscle sense belongs to the diminutive mūsculus 'little mouse', hence 'muscle' and also 'sea-mussel'; it is Greek μῦς, not Latin mūs, that carries both senses in one word (Pokorny lists 'gr. μῦς \"mouse\", also \"muscle\"' but for Latin only 'mūsculus ds., \"muscle\"'). Watkins compresses the same way ('2. Latin mūs, mouse: MURINE, MUSCLE, MUSTELINE'), which is probably where Nourai's double gloss comes from.",
+     "derivation_fa": "mūs لاتینی (اضافیِ mūris) «موش» بازتابِ درستِ *múHs هندواروپایی در شاخهٔ ایتالیایی است (*mūs ایتالیاییِ آغازین) و «ر»ِ ستاکِ غیرفاعلی از تبدیلِ s میان‌واکه‌ای به r (قاعدهٔ rhotacism: *mūs-is > mūris) پدید آمده است. آنچه این گره را تنها «با احتیاط پذیرفتنی» می‌کند معنیِ آن است: mūs در لاتینِ کلاسیک تنها «موش» است و هرگز «ماهیچه» نبوده؛ معنیِ «ماهیچه» از آنِ مصغّرِ mūsculus («موشکِ کوچک») است که هم «ماهیچه» و هم «صدفِ دریایی» را می‌رساند. این μῦς یونانی است، نه mūs لاتینی، که هر دو معنی را در یک واژه دارد (پوکورنی برای یونانی می‌نویسد «μῦς موش، و نیز ماهیچه» اما برای لاتین تنها «mūsculus ماهیچه»). واتکینز هم همین‌گونه فشرده می‌نویسد («۲. لاتینی mūs، موش: MURINE، MUSCLE، MUSTELINE») و شاید معنیِ دوگانهٔ نورایی از همین‌جا آمده باشد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs",
+      "https://www.etymonline.com/word/muscle"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins 1985 s.v. mus- (AHD_watkins1985.txt line ~763): \"mus-. A mouse; also a muscle (from the resemblance of a flexing muscle to the movements of a mouse). 1. Germanic *mus- (plural *musiz) in Old English mus (plural mys), mouse: MOUSE. 2. Latin mus, mouse: MURINE, MUSCLE, MUSTELINE. 3. Greek mus, mouse, muscle: MYELO-, MYO-... [Pok. mus 752.]\" — Watkins gives Latin mūs the gloss 'mouse' only, and files MUSCLE under it as a derivative; the chart's 'mouse, muscle' gloss for Latin mūs itself goes beyond the reference."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 752-753",
+       "stance": "partial",
+       "note": "POK_full.txt, block 'Root / lemma: mus / Meaning: mouse / Note: (older *mus, musos from *meus, musos)', Page(s): 752-753: \"Old Indic mus- m. 'mouse, rat', np. mus 'mouse'; Armenian mu-kn 'mouse, muscle'; gr. mys 'mouse', also 'muscle'; Latin mus m. 'mouse'; Old High German ... Old English mus 'mouse, muscle'... Often applied on body parts: ... Latin musculus ds., 'muscle' ... on the other hand Old Indic muska- m. 'testicle, vulva', npers. musk (from Pers. derives gr. moschos, Modern High German Moschus 'musk')\" — 'Latin mūs m. \"mouse\"' with the muscle sense given only for mūsculus."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II 312-313",
+       "stance": "partial",
+       "note": "Walde-Pokorny Bd. II 312-313 s.v. mus 'Maus' (WLD_Bd2_pages.txt lines 20670-20700): \"Ai. mus- 'Maus, Ratte' (musa-, musaka-, muska- m. ds.), np. mus 'Maus'; arm. mu-kn 'Maus'; gr. mys 'Maus'; lat. mus 'Maus'; ahd. mhd. as. mnd. aisl. ags. mus 'Maus'... Vielfach auf Koerperteile angewendet, wegen der Aehnlichkeit zwischen dem Zucken der Muskeln unter der Haut und dem Laufen einer Maus: gr. mys 'Muskel', lat. musculus 'Muskel'... ai. muska- m. 'Hode, weibliche Scham'... np. mush 'Bibergeil' (aus dem Pers. stammt gr. moschos, nhd. Moschus)\" — 'lat. mūs \"Maus\"' and separately 'lat. mūsculus \"Muskel\"'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck, 'muscle'",
+       "stance": "supports",
+       "note": "Buck (SYN.txt line 6133, 'muscle'): \"ChSl. mystica (SCr. misica 'arm' and 'muscle'), deriv. of ChSl. mysi 'mouse' in transferred sense 'muscle' (from the resemblance between the muscle of upper arm especially and a mouse). Cf. Lat. musculus 'little mouse, muscle', Grk. mys 'mouse' and 'muscle', etc. Walde-P. 1.312f.\""
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet (LAT.txt line 31792)",
+       "stance": "partial",
+       "note": "the entry refers to \"μῦς en grec et le rapport mus : musculus\" — i.e. the 'muscle' sense is carried by Greek μῦς and by the Latin diminutive, not by mūs itself."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "English",
+     "words": "muscle",
+     "verdict": "plausible",
+     "derivation": "The etymology is right in substance but the chart skips two steps: English muscle (late 14c. in anatomical translation, common from the 16th c.) comes from Middle French muscle, which comes from Latin mūsculus, the diminutive of mūs — 'little mouse', named for the way a flexing biceps moves under the skin (Buck and Aryanpur both spell out the metaphor). So the arrow should be mūs → mūsculus → (Old/Middle) French muscle → English muscle, not mūs → English. The same Latin diminutive also gave, by a separate route, English mussel (OE muscle/muxle, from Late Latin mūsculus 'sea-mussel'), so muscle and mussel are doublets.",
+     "derivation_fa": "ریشه‌شناسی در اصل درست است، اما نمودار دو گام را نادیده گرفته: muscle انگلیسی (از اواخر سدهٔ چهاردهم در ترجمه‌های کالبدشناسی و از سدهٔ شانزدهم رایج) از muscle فرانسویِ میانه آمده و آن از mūsculus لاتینی، مصغّرِ mūs، یعنی «موشِ کوچک» — نامی که از جنبیدنِ ماهیچهٔ دوسر زیر پوست گرفته شده است (باک و آریان‌پور هر دو همین استعاره را باز می‌کنند). پس پیکان باید mūs ← mūsculus ← muscle فرانسوی ← muscle انگلیسی باشد، نه یکسر mūs ← انگلیسی. همان مصغّرِ لاتینی از راهی دیگر mussel انگلیسی («صدف»، انگلیسیِ کهن muscle/muxle از mūsculus لاتینیِ متأخر) را هم داده است؛ پس muscle و mussel دوگانه‌اند.",
+     "sources": [
+      "https://www.etymonline.com/word/muscle",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%BAHs"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the node carries no reference of its own; its parent box cites AHD, whose index line reads 'MUSCLE mūs-' (AHD_watkins1985.txt line 1897) — i.e. Watkins too files the word under the root, with the mūsculus step given in the dictionary body."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. muscle",
+       "stance": "supports",
+       "note": "Klein s.v. mouse cross-refers to muscle, muscular, musk; the muscle entry derives it from L. mūsculus, dimin. of mūs (cp. his s.v. muscardine, muscat for the same base)."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Muscle (1)",
+       "stance": "supports",
+       "note": "Skeat (SKT.txt lines 11949, 12051, 12076): \"Mouse. (E.) M.E. mous. A.S. mus (pl. mys)... L. mus, Gk. mys, Pers. mush, a mouse; Skt. muska, a rat, a mouse\"; \"Muscle (1)... F. muscle. - L. musculus, (1) a little mouse... Dimin. of L. mus, a mouse\"; \"Musk... behind the musk-deer's navel. Lit. 'thief'; from mush, to steal. See Mouse.\" — \"Muscle (1), the fleshy part... F. muscle. - L. musculus, (1) a little mouse... Dimin. of L. mus, a mouse\" plus the note that muscle (2) 'mussel' is the same word."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur [pdf page 465], entry ماهیچه note 3",
+       "stance": "supports",
+       "note": "Aryanpur (ARY_pages.txt [pdf page 465], printed p. 466), entry ماهیچه, note 3: \"واژه‌ریشه‌شناسان معتقدند که واژهٔ «ماهیچه» با واژهٔ «موش» خویشی دارد و بهمین دلیل واژهٔ ماهیچه در لاتین (musculus) مصغر واژهٔ mus به معنی «موش» است. دلیل این خویشی، شباهت شکل ماهیچهٔ دوسر و «موش» است\""
+      },
+      {
+       "src": "Etymonline",
+       "where": "etymonline.com/word/muscle",
+       "stance": "supports",
+       "note": "\"from Latin musculus 'a muscle', literally 'a little mouse', diminutive of mus 'mouse'... muscles' 'shape and movement... were thought to resemble mice'\""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
