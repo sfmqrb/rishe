@@ -1,0 +1,345 @@
+{
+  "pdf_page": 318,
+  "book_page": 288,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Magh1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *magʰ- / *megʰ- 'to be able, have power' (derivative *magʰ-ti- 'power')",
+      "note": "Pokorny IEW 695 f. gives 'magh- : māgh- \"können, vermögen, helfen\"; magh-ti- \"Macht\"'; Watkins/AHD lemmatizes it as magh-1 'To be able, have power' with the same page reference ('[Pok. magh- 695.]'). Wiktionary lemmatizes the root as *megʰ- 'to be able' with *magʰ- as a variant. Nourai's language label (Indo-European), the root shape and the gloss 'might, power' are all correct, and every branch he draws off it (Iranian magu-, Greek mēkhanē, Germanic magan/mahti-) is in Pokorny's own entry. The one substantive problem on the page is node #13 (manjanīq), where Nourai's Greek source word is not the one modern scholarship uses; the page's own NOTE already flags the disagreement. Note also two data problems: the printed page draws the Greek magos box (#6) off the Avestan/Old Persian box, but the JSON records parent #0; and the Ferdowsī hemistich is printed نیاید, not نباید.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *magʰ- (در ویکی‌واژه *megʰ-) به معنی «توانستن، توانا بودن» است و مشتق *magʰ-ti- «توان، نیرو» از آن ساخته شده. پوکورنی در صفحهٔ ۶۹۵ کتاب خود آن را «magh- : māgh-، können, vermögen, helfen» آورده و در همان مدخل هم magu- ایرانی و mēkhanē یونانی و magan/mahts ژرمنی را زیر آن نشانده است؛ واتکینز (AHD) نیز با ارجاع به همین صفحه آن را magh-1 «توانا بودن» ثبت کرده است. پس برچسب زبانی، صورت ریشه و معنای «توان، نیرو» که نورایی داده درست است و ادعای اصلی او پذیرفتنی است. تنها گرهِ مسئله‌دار این صفحه «منجنیق» است که ریشه‌شناسی امروزی آن را از μαγγανικόν می‌گیرد نه از μηχανή، و خودِ نورایی هم در یادداشت صفحه به این اختلاف اشاره کرده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-",
+        "https://en.wiktionary.org/wiki/%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AE"
+      ],
+      "ref_check": [
+        {"ref": "POK:695", "status": "supports", "note": "POK_02.txt lines 5665-5673 (entry closing with the printed page numeral 696, i.e. it begins on p.695): 'magh- : māgh- ,können, vermögen, helfen'; magh-ti- ,Macht'. Ai. maghá- ,Macht, Kraft, Reichtum, Gabe' ... iran. magu-, apers. magus ,Magier, Zauberer' (daraus gr. μάγος, lat. magus) ... gr. μῆχος n. (dor. μᾶχος) ... μηχανή, dor. μαχανά (> lat. machina) ... got. ags. magan ... got. mahts f. ,Macht, Kraft''. Exactly the root, gloss and branches Nourai draws."}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Bd. II 227 (WLD_Bd2_pages.txt lines 14818-14884)", "stance": "partial", "note": "Running head 'magh- : magh- 227'; entry 'magh- magh- „können, vermögen, helfen“' with Gk. dor. μᾶχος / μαχανά, Goth. mag / magan, ags. mæg, aisl. magn / megin, ags. mægen, got. mahts / ahd. maht / ags. meaht 'might', OCS mogǫ. Same root and gloss, but the 1927 version lists NO Indic or Iranian material — the 'iran. magu-, apers. magus' line is Pokorny's 1959 addition."},
+        {"src": "AHD", "where": "Watkins 1985, s.v. magh-1 (AHD_watkins1985.txt line 710)", "stance": "supports", "note": "'magh-1. To be able, have power. 1. Germanic *mag- in: a. Old English magan, to be able: MAY ... 2. Germanic suffixed form *mah-ti-, power, in Old English miht: MIGHT. 3. Germanic suffixed form *mag-inam, power, in Old English mægen: MAIN. 4. Suffixed lengthened-grade form *magh-and-, \"that which enables,\" in Greek (Attic) mēkhanē, (Doric) mākhanā, device: MACHINE, MECHANIC ... 5. Possibly suffixed form *magh-u- in Old Persian magus, member of a priestly caste (< \"mighty one\"): MAGI, MAGIC, MAGUS. [Pok. magh- 695.]' — Nourai's whole chart in one paragraph."},
+        {"src": "IEC", "where": "Mann, s.v. mogh-, moghó/moghmi, moghtis (IEC.txt lines 10984, 11000, 11002)", "stance": "partial", "note": "Mann normalizes the root as 'mogh- (radical element ...) \"large, powerful, heavy\"' and 'moghó, moghmi \"am able, can\". WP II, 227' with 'moghtis \"power\" ... Go. mahts, f. \"might, power\"'. Same material (he cites WP II 227), but he sets it up under an o-grade lemma and merges it with the *meg- 'big' family."},
+        {"src": "SYN", "where": "Buck (SYN.txt)", "stance": "silent", "note": "Buck's synonym lists have no article for 'be able / power' under this root; grep for 'magh-' returns only an unrelated Celtic *mag-tio note (line 22513)."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "magus, maeg, megan,moghu; maguš",
+          "verdict": "transcription_suspect",
+          "derivation": "Old Persian maguš (nominative of the u-stem magu-) 'Magian, member of the Median priestly clan' is well attested in the Bīsotūn inscription of Darius I (DB I.36 'I martiya magus āha Gaumāta nāma', and I.44, 46, 50, 54, 64, 66, 101; 4.8), rendered Elam. ma-ku-iš, Akkad. ma-qu-šu; Avestan has the stem only once, in the Younger Avestan compound moγu.tbiš- 'hostile to the Magi' (Y. 65.7) — which is what Nourai's 'moghu' represents. Watkins derives it from a suffixed *magʰ-u- 'the mighty one', hence the placement under this root, though Kent flatly says 'uncertain material on meaning and etymology'. So 'magus/maguš' (OP) and 'moghu' (Av. moγu-) are right. But 'maeg' and 'megan' are NOT Iranian words at all: they are Old English mæg 'I can' (1sg pres. of magan) and magan 'to be able' — the Germanic reflexes that belong in box #10 ('mag, mahti'). The printed page (pdf 318, image saved to data/verification/sources/refs/ocr/BOOK/318.png) shows 'magus, maeg, megan,moghu : Zoroastrian priest' inside the Avestan/Old Persian box, so the JSON is a faithful reading and the misplacement is the book's own: Nourai has spilled two Germanic forms into the Iranian box, where they also acquire the impossible gloss 'Zoroastrian priest'.",
+          "derivation_fa": "پارسی باستان maguš (حالت فاعلی ستاک u-دار magu-) «مغ، عضو طبقهٔ روحانی ماد» در سنگ‌نوشتهٔ بیستون داریوش بارها آمده است (بند ۳۶ ستون یک: «یک مرد مغ بود، گئومات نام») و صورت ایلامی ma-ku-iš و اکدی ma-qu-šu آن را تأیید می‌کند؛ در اوستا این ستاک تنها یک بار و در ترکیب moγu.tbiš- «دشمن مغان» (یسنا ۶۵/۷) دیده می‌شود که همان «moghu» نورایی است. واتکینز آن را از *magʰ-u- «توانا» می‌گیرد، هرچند کنت ریشه‌شناسی آن را نامعلوم می‌داند. اما دو صورت «maeg» و «megan» به‌هیچ‌روی ایرانی نیستند: اینها انگلیسی کهن mæg «می‌توانم» و magan «توانستن» هستند و جای آنها در جعبهٔ ژرمنی (گرهٔ ۱۰) است. تصویر صفحهٔ چاپی نشان می‌دهد که خودِ کتاب این دو صورت را در جعبهٔ اوستایی/پارسی باستان چاپ کرده، پس خطای چاپی کتاب است نه خطای خوانش اسکن.",
+          "error_in": "book",
+          "book_prints": "magus, maeg, megan,moghu : Zoroastrian priest / maguš : magician",
+          "correct_form": "OP maguš (stem magu-), Av. moγu- (in moγu.tbiš-); the forms maeg and megan are Old English mæg / magan and belong in the Germanic box (#10)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-",
+            "https://en.wiktionary.org/wiki/%D9%85%D8%BA"
+          ],
+          "ref_check": [
+            {"ref": "POK:695", "status": "supports", "note": "POK_02.txt line 5666: 'iran. magu-, apers. magus ,Magier, Zauberer' (daraus gr. μάγος, lat. magus)' — supports the Iranian words and their being under this root; Pokorny lists no Iranian 'maeg/megan'."},
+            {"ref": "AHD", "status": "partial", "note": "AHD_watkins1985.txt line 710, magh-1 §5: 'Possibly suffixed form *magh-u- in Old Persian magus, member of a priestly caste (< \"mighty one\")'. Watkins hedges with 'Possibly'; and his OE mæg/magan appear in §1-3 under Germanic, not under Iranian."},
+            {"ref": "KLN:923", "status": "supports", "note": "KLN_1966.txt page marker 923 at line 22539; entry at line 22563: 'Magus, n., one of the Magi; (not cap.) a magician. — L., fr. Gk. μάγος, fr. OPers. magush, \"magician\", whence also Talmudic Heb. magosh, Aram. amgusha, \"magician\".' Nourai's gloss 'maguš : magician' is Klein's wording."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "Bartholomae AiW col. 1111 (BRT.txt line 19535)", "stance": "supports", "note": "'p. magav- (: j. moγu-) Adj., bezeichnet einen medischen Volksstamm, für den die Priesterwürde vorbehalten war, \"magisch, Magier\"'; cites Bh. (Bīsotūn) I.36, 14, 4.2 and the accusative 'gaumātam tyam magum'. Gives exactly the OP/Young Avestan pair, and nothing Germanic."},
+            {"src": "KNT", "where": "Kent, Old Persian, Lexicon s.v. magu- (KNT.txt line 5757)", "stance": "partial", "note": "'magu- sb. \"Magian\", member of the priestly order of Media: Elam. ma-ku-iš, Akk. ma-qu-šu, Gk. Μάγος (§153.1). Uncertain material on meaning and etymology, König, Klotho 4 chap. 12 ... magus nsm. DB 1.36, 44, 46, 64, 66, 101; 4.8; DBb 2. magum asm. DB 1.50, 54, 57, 73; 4.81.' Word and language confirmed; Kent declines to endorse the derivation from *magʰ- 'be able'."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II, glossary s.v. magū (NYB_vol2_glossary.txt line 2373)", "stance": "supports", "note": "'OP magu-, nom. magus, whence Syr. lw. mgūsā, Arab. majūs-; Av. only once in the compound (1176) moγu-tbiš- \"enemy of the Magi\".' Confirms both the OP nominative maguš and the single Avestan attestation."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "magu; magu-pat",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian inherits the Old Iranian u-stem directly: the word is written <mgw> and <mgwpt'>, i.e. historically magu, magu-pat, but was actually pronounced mōg (NW) / mow- (SW) by Sasanian times — Nyberg: 'magū [mgw, inscr.], magūk [mgwk], mōg [mwg FrP 13] a Magus, a Magian ... The authentic MIr forms are: 1. NW mōg, whence the Arm. lw. mog, NP mōγ ...; 2. SW mov-. The other forms are archaisms preserved as learned spellings', and 'magu-pat [mgwpt'] chief of the Magi ... the authentic MIr forms are: 1. NW mogpat, Arm. lw. mogpet; 2. SW movpat ...; NP mobad'. MacKenzie normalizes the same graphemes as *moy-mard [mgw-mlt'] 'magus' and *mowbed [mgwpt'] 'Mazdean priest'. magu-pat is a regular Old Iranian bahuvrīhi-type compound magu- 'magus' + pati- 'lord, chief' (Av. paiti-), so literally 'chief of the Magi' — Nourai's gloss 'head priest' is right.",
+          "derivation_fa": "در فارسی میانه همان ستاک ایرانی باستان به ارث رسیده است و به خطّ پهلوی <mgw> و <mgwpt> نوشته می‌شود، یعنی به‌صورت تاریخی magu و magu-pat؛ اما تلفظ روزگار ساسانی mōg (شمال‌غربی) و mow- (جنوب‌غربی) بوده و نیبرگ همین نگارش‌های کهن را «باستان‌گراییِ حفظ‌شده در املای عالمانه» می‌خواند. مکنزی نیز همین نگاره‌ها را *mowbed [mgwpt] «موبد مزدیسنی» و *mōy-mard [mgw-mlt] «مغ» می‌خواند. magu-pat ترکیبی است از magu «مغ» و pati- ایرانی باستان (اوستایی paiti-) «سرور، سرکرده»، پس معنای «موبدِ بزرگ» که نورایی داده درست است. ادعای نورایی در این گره پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%A8%D8%AF"],
+          "ref_check": [
+            {"ref": "MON:4248,4421", "status": "not_checked", "note": "Mo'in's Farhang-e Farsi is on disk only as the OCR of a 2-volume reprint (MON_part1/part2.txt) which carries no print pagination, and vajehyab/abadis give entry text without page numbers, so pages 4248 and 4421 of the 6-vol. Amir Kabir edition cannot be located. The substance (MP magu > NP moγ, magupat > mobad) is independently confirmed by Nyberg, MacKenzie, Horn and Hübschmann below."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie, CPD p. 57 (PHD.txt line 491; PHD_mackenzie.txt line 3588)", "stance": "supports", "note": "'*moy-mard [mgw-mlt', -gBRA | N mug] magus' and '*mowbed [mgwpt' | N mōbad] Mazdean priest' — the Pahlavi graphemes mgw / mgwpt' with the New Persian outcomes."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II, s.vv. magū and magu-pat (NYB_vol2_glossary.txt lines 2373-2374)", "stance": "supports", "note": "'magū [mgw, inscr.] ... a Magus, a Magian ... The authentic MIr forms are: 1. NW mōg ... 2. SW mov-. The other forms are archaisms preserved as learned spellings.' / 'magu-pat [mgwpt'] chief of the Magi, or: chief Magian, of the head of the Zoroastrian priesthood ... NP mobad.'"},
+            {"src": "HRN", "where": "Horn, Grundriss no. 984, p. 221 (HRN.txt lines 8553, 8564-8565)", "stance": "supports", "note": "'984. muγ, mōγ \"Magier, Feueranbeter\", mōbed, ap. magu-; aw. -moγu- in moγu.tbiš- ...; phlv. magu, magupat (arm. LW. mog, mogpet, movpetan movpet), daneben maupat' — Horn's chain is Nourai's chain."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "moğ «مُغ»; mobad, mobed «موبد»",
+          "verdict": "confirmed",
+          "derivation": "NP مُغ moγ 'Zoroastrian priest' is the direct continuation of MP mōg (written magu): Old Iranian magu- > MP mōg > NP mōγ/muγ, with the u-stem vowel coloured to ō and the final -u realized as the fricative γ in the Arabic-script spelling; Hübschmann states it flatly — 'für ap. a erscheint mp. o = np. u und ō in muγ = mōγ \"Magier\" ..., phl. geschrieben magu, gesprochen mōγ, gr. μάγος, ap. magu-'. NP موبد mōbad continues MP mowbed < *magupat < OP *magupatiš 'head of the Magi': the -u- of magu- and the p- of pati- coalesce as mow-, and intervocalic -p- of *-pat- lenites to -b-; Hübschmann's 'mōbad = phl. magupat' and the Syriac loan mwpt'/mwbd' show the same development. In later New Persian poetry مغ drifts to '(Christian) monk' and then 'tavern-keeper, wine-server' (Horn's footnote on Hāfez), while موبد keeps the technical sense. The chart's bracketed «مَغ ۱» is a cross-reference to the first (magus) entry of مغ, as against the homograph مَغ 'hole, deep'.",
+          "derivation_fa": "«مُغ» ادامهٔ مستقیم فارسی میانهٔ mōg (نگاشتهٔ magu) است: ایرانی باستان magu- > فارسی میانه mōg > فارسی نو مُغ/مۇغ؛ هوبشمان صریح می‌گوید «آنچه در پارسی باستان a است در فارسی میانه o و در فارسی نو u/ō نمایان می‌شود: muγ = mōγ «مغ»؛ در پهلوی magu نوشته و mōγ خوانده می‌شد». «موبد» نیز از فارسی میانهٔ mowbed و آن از *magupat و پارسی باستان *magupatiš «سرِ مغان» است؛ در این تحول -u-ی magu با p-ی pati- به mow- بدل شده و پ در میان دو واکه به ب نرم شده است (قس وام‌واژهٔ سریانی mwbd و ارمنی movpet). در فارسی دری متأخر «مغ» در شعر (به‌ویژه حافظ) به معنی «راهب» و سپس «می‌فروش» هم به کار رفته، اما «موبد» معنای فنی خود را نگه داشته است. عبارت «مَغ ۱» در نمودار ارجاع به مدخل نخست «مغ» است، در برابر همنگارهٔ «مَغ» به معنی «گودی، عمیق». ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D8%BA",
+            "https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%A8%D8%AF"
+          ],
+          "ref_check": [
+            {"ref": "MON", "status": "partial", "note": "No page is given, so nothing specific can be checked; the OCR of Mo'in (MON_part2.txt line 92705 ff.) does carry a هیربد/موبد article — 'پیشوای دینی؛ موبد موبدان. رئیس آتشگاه' with an etymological note breaking a compound into two elements — confirming Mo'in treats mōbad as a Pahlavi compound, but the reference is too vague to verify further."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "Hübschmann, Persische Studien pp. ~123 and ~232 (HUB.txt lines 4406-4410, 4292, 8868, 8880)", "stance": "supports", "note": "'muγ = mōγ \"Magier\", arm. mog und (später) mov ..., phl. geschrieben magu, gesprochen mōγ, gr. μάγος, hebr. מג, ap. magu- (davon phl. magupat = arm. mogpet = movpet = syr. mowed = np. mobad)'; also 'mōbad = phl. magupat' and 'ap. magu- \"Magier\" = phl. mag, np. muγ'; and p. 72 'gesprochen mōypet, ap. *magupati-'."},
+            {"src": "HRN", "where": "Horn, Grundriss no. 984, p. 221 (HRN.txt lines 8553, 8561, 8564)", "stance": "supports", "note": "'muγ, mōγ \"Magier, Feueranbeter\", mōbed, ap. magu-'; footnote: 'Im späteren Neupersisch ist der Magier zum \"(christl.) Mönch\" und besonders zum \"Kneipwirt, Zecher\" geworden (Hāfiẓ häufig), vergl. auch muγbeče, muγān'."},
+            {"src": "PHD", "where": "MacKenzie, CPD p. 57 (PHD.txt line 491)", "stance": "supports", "note": "'*mowbed [mgwpt' | N mōbad] Mazdean priest' — MacKenzie himself gives the New Persian outcome mōbad."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "majŭs",
+          "verdict": "plausible",
+          "derivation": "Arabic مَجُوس al-Majūs 'the Magians, Zoroastrians' is a Qur'anic hapax (Q 22:17, a late Medinan verse, where they are listed with Jews, Christians and Sabians); it is a collective with the nisba singular مَجُوسِيّ. The Arab lexicographers themselves knew it was foreign, and Ibn Sīda's folk-etymology from a big-eared man named مج (LA viii.99) is set aside in favour of the Iranian source. Jeffery: 'It is clearly the O.Pers. Magush, with the acc. form of which, magum, we can compare the Av. magav ... and Phlv. ma-γōi'. The one correction to Nourai's arrow is the route: all the sources put an Aramaic/Syriac stage in between rather than a direct Old Iranian → Arabic loan — Nyberg, 'OP magu-, nom. magus, whence Syr. lw. mgūsā, Arab. majūs-'; Jeffery, 'this appears in the Aram. אמגושא, Gk. μάγος, Syr. mgwšā and the מגוש of the Aramaic of the Behistun inscription'; Mo'in tags the Persian entry مجوس as |معر. آرا. مجوشا|, i.e. Arabicized from Aramaic magūšā; al-Unaysi (TAD), 'مجوس - في الآرامية مجوشا'. The -ū- of majūs answers to the Aramaic/Syriac -ū- of magūšā, and Arabic j renders the g of the Aramaic form. Hence plausible rather than confirmed: right ultimate origin, one missing intermediary.",
+          "derivation_fa": "واژهٔ عربی «مَجوس» (جمع/اسم جمع، مفردِ نسبی «مجوسی») تنها یک بار در قرآن آمده است (حج، آیهٔ ۱۷، از آیات مدنیِ متأخر) و در آن مجوس در کنار یهود و نصارا و صابئان نام برده شده‌اند. لغت‌نویسان عرب خود می‌دانستند که این کلمه بیگانه است و ریشه‌شناسی عامیانهٔ ابن‌سیده (مردی کوچک‌گوش به نام «مج») را کنار گذاشته و آن را از «مگوشِ» پارسی باستان دانسته‌اند؛ جفری نیز می‌گوید «به‌روشنی همان maguš پارسی باستان است». تنها اصلاحی که بر نمودار نورایی وارد است مسیر وام‌گیری است: منابع یکدست میان ایرانی باستان و عربی یک مرحلهٔ آرامی/سریانی می‌گذارند — نیبرگ: «magu- پارسی باستان، حالت فاعلی magus، که وام‌واژهٔ سریانی mgūsā و عربی majūs از آن است»؛ معین نیز در مدخل «مجوس» آن را «معرّبِ آرامیِ مجوشا» می‌داند. واکهٔ کشیدهٔ ū در «مجوس» بازتاب همان ū در magūšā آرامی است و «ج» عربی جانشین g شده است. پس ریشهٔ نهایی درست است اما یک حلقهٔ میانی از نمودار افتاده و ادعای نورایی «با احتیاط پذیرفتنی» است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%85%D8%BA"],
+          "ref_check": [
+            {"ref": "VDQ:374", "status": "partial", "note": "VDQ (Badreh'i's Persian translation of Jeffery) is only on noorlib in a JavaScript viewer, so p.374 itself could not be opened; per refs_online.json the substance is to be checked in the English original. FVQ pp. 259-260 s.v. المجوس (FVQ.txt lines 16149-16190) says: 'It is clearly the O.Pers. Magush ... Others, however, knew that it was derived from the Iranian Magush (LA, viii, 99) ... In Phlv. we also find a form magōšia, derived directly from the O.Pers., and this appears in the Aram. אמגושא, Gk. μάγος, Syr. mgwšā and the מגוש of the Aramaic of the Behistun inscription.' Supports the origin, adds the Aramaic/Syriac stage Nourai omits."}
+          ],
+          "consulted": [
+            {"src": "FVQ", "where": "Jeffery, Foreign Vocabulary of the Qur'an pp. 259-260 (FVQ.txt lines 16149-16190)", "stance": "partial", "note": "See ref_check: OP maguš is the source, but the transmission runs through Pahlavi magōšia and Aramaic/Syriac; Jeffery also records and rejects Lagarde's derivation of مجوس from Gk. μάγος (GA 159)."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II s.v. magū (NYB_vol2_glossary.txt line 2373)", "stance": "partial", "note": "'OP magu-, nom. magus, whence Syr. lw. mgūsā, Arab. majūs-' — same origin, explicit Syriac mediation."},
+            {"src": "MON", "where": "Mo'in, s.v. مجوس (MON_part2.txt line 48692)", "stance": "partial", "note": "'مجوس : Magus |معر. آرا. مجوشا| (ص.) فردی از فرقهٔ مجوس. مجوسی' — Mo'in labels it Arabicized from Aramaic مجوشا, not straight from Old Persian."},
+            {"src": "TAD", "where": "al-Unaysi, Tafsir al-alfaz al-dakhila (TAD_pages.txt line 2598)", "stance": "partial", "note": "'مجوس - في الآرامية «مجوشا»، وفي اليونانية magos وفي اللاتينية magus' — again Aramaic first."},
+            {"src": "ARB", "where": "al-Jawaliqi, al-Mu'arrab, s.v. مجوس (ARB_mo3rb.txt lines 22619-22623)", "stance": "supports", "note": "The Mu'arrab discusses مجوس among the arabized words, quoting al-Qamus' folk etymology ('رجل مصغّر الأذنين وضع دينا') and 'وأصله مِنْج كُوش' — i.e. the classical tradition already treated it as a Persian/Iranian loan."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "majŭs «مجوس»",
+          "verdict": "confirmed",
+          "derivation": "New Persian مجوس majūs is the Arabic word taken back into Persian — a complete round trip: Old Persian maguš → Aramaic/Syriac magūšā → Arabic majūs (Q 22:17) → New Persian majūs, where it stands beside the inherited native doublet مُغ moγ (node #3) with a narrower, often pejorative or legalistic sense ('Zoroastrian, fire-worshipper, non-Muslim') used in fiqh and in polemic. Mo'in flags the Persian entry with the Arabic-loan tag |معر. آرا. مجوشا| and glosses 'فردی از فرقهٔ مجوس؛ مجوسی', which is exactly Nourai's Arabic → Persian arrow; the pair مغ / مجوس is thus a textbook doublet, one inherited and one borrowed back through Arabic.",
+          "derivation_fa": "«مجوس» در فارسی نو همان واژهٔ عربی است که به فارسی بازگشته است، یعنی یک دورهٔ کامل وام‌گیری: پارسی باستان maguš ← آرامی/سریانی magūšā ← عربی مجوس (قرآن، حج ۱۷) ← فارسی نو مجوس. این صورت در فارسی در برابر دوگانهٔ بومی و موروثی «مُغ» می‌نشیند، اما معنایی تنگ‌تر و بیشتر فقهی یا جدلی دارد («زردشتی، آتش‌پرست، غیرمسلمان»). معین در مدخل فارسی «مجوس» برچسب |معر. آرا. مجوشا| گذاشته و آن را «فردی از فرقهٔ مجوس» معنی کرده است، و همین درست همان پیکانِ عربی ← فارسی نورایی است. جفتِ «مغ / مجوس» نمونهٔ آشکار دوگانه (doublet) در فارسی است: یکی موروثی و دیگری وام‌گرفته از راه عربی. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%85%D8%BA"],
+          "ref_check": [
+            {"ref": "MON:3884", "status": "partial", "note": "The print pagination of the 6-vol. Amir Kabir edition is not recoverable from the local OCR, but the entry itself is there: MON_part2.txt line 48692, 'مجوس : Magus |معر. آرا. مجوشا| (ص.) فردی از فرقهٔ مجوس. مجوسی. (ص.) ... مشرک'. Mo'in does derive the Persian word from Arabic (معرّب), as the arrow says."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, s.v. مجوس (MON_part2.txt line 48692)", "stance": "supports", "note": "Persian مجوس marked معرّب (Arabicized) from Aramaic مجوشا — an Arabic-mediated loan in Persian, as the chart draws."},
+            {"src": "FVQ", "where": "Jeffery p. 260 (FVQ.txt line 16180)", "stance": "supports", "note": "Jeffery cites 'the Mod. Pers. مغ' (Vullers, Lex ii 1197; BQ 863) as the native form alongside the Arabic مجوس, i.e. the two coexist as doublets."},
+            {"src": "TAD", "where": "al-Unaysi (TAD_pages.txt line 2598)", "stance": "supports", "note": "Lists مجوس among the words that entered Arabic from outside, with the Aramaic form — the same word Persian re-borrowed."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Greek",
+          "words": "mağos",
+          "verdict": "confirmed",
+          "derivation": "Greek μάγος magos, first in the 5th c. BCE (Herodotus' account of the Median Magi and the false Smerdis, and Aeschylus), is a straight borrowing of Old Persian maguš during the Achaemenid period, with the OP nominative ending -uš remodelled as the Greek o-stem -ος; from it Greek forms μαγικός 'of the Magi, magical' and μαγεία 'magic'. Pokorny states the loan explicitly ('apers. magus ... daraus gr. μάγος, lat. magus'), as do Klein p.923 and Kent's lexicon ('Gk. Μάγος'). Note on the data: the printed page (image at data/verification/sources/refs/ocr/BOOK/318.png) draws this Greek box off the descending stem of the Avestan/Old Persian box, together with Pahlavi (#2) and Arabic (#4) — i.e. its parent in the book is node #1, not the root; the JSON records parent 0, which is an extraction error. Substantively the book's arrow is the correct one.",
+          "derivation_fa": "یونانی μάγος (magos) نخست در سدهٔ پنجم پیش از میلاد دیده می‌شود (هرودوت در گزارش مغانِ ماد و ماجرای بردیای دروغین، و آیسخولوس) و وام‌واژهٔ مستقیمی است از maguš پارسی باستان در دورهٔ هخامنشی؛ پایانهٔ فاعلی -uš پارسی باستان در یونانی به ستاک o-دار (-ος) بازسازی شده است و از همین صورت μαγικός «مغانه، جادویی» و μαγεία «جادو» ساخته شده. پوکورنی این وام‌گیری را صریح می‌گوید («apers. magus ... daraus gr. μάγος، lat. magus») و کلاین و کنت نیز همین را تأیید می‌کنند. ادعای نورایی درست است. یک نکتهٔ فنی: در صفحهٔ چاپی این جعبهٔ یونانی از ساقهٔ جعبهٔ اوستایی/پارسی باستان منشعب می‌شود (همراه پهلوی و عربی)، پس پدرِ آن گرهٔ ۱ است نه ریشه؛ ثبتِ «parent 0» در فایل استخراج‌شده خطای خوانش اسکن است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "The Greek magos box carries no reference of its own; the parent box's POK:695 and KLN:923 cover it ('daraus gr. μάγος'; 'L., fr. Gk. μάγος, fr. OPers. magush')."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny IEW p.695 (POK_02.txt line 5666)", "stance": "supports", "note": "'iran. magu-, apers. magus ,Magier, Zauberer' (daraus gr. μάγος, lat. magus)'."},
+            {"src": "KLN", "where": "Klein p.923 s.v. Magus (KLN_1966.txt line 22563)", "stance": "supports", "note": "'L., fr. Gk. μάγος, fr. OPers. magush, \"magician\"' — Greek is the intermediary between Old Persian and Latin."},
+            {"src": "KNT", "where": "Kent, Lexicon s.v. magu- (KNT.txt line 5757)", "stance": "supports", "note": "Lists 'Gk. Μάγος' among the foreign renderings of OP magu-, beside Elamite ma-ku-iš and Akkadian ma-qu-šu."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "magus",
+          "verdict": "confirmed",
+          "derivation": "Latin magus 'a Magian, a magician' (pl. magi) is a learned borrowing of Greek μάγος in the late Republic and early Empire (Cicero, De divinatione; Pliny, NH xxx, on the magorum ars), with the adjective magicus taken from Greek μαγικός; the plural magi became the fixed designation of the wise men of Matthew 2 in the Vulgate, which is what carried the word through Christian Latin into the vernaculars. Pokorny gives 'lat. magus' as taken from Greek in the same breath as the Greek word; Klein s.v. Magus and s.v. mage/magic gives the same Latin link.",
+          "derivation_fa": "لاتینی magus «مغ، جادوگر» (جمع magi) وام‌واژه‌ای عالمانه از μάγος یونانی است که در اواخر جمهوری و آغاز امپراتوری روم به کار می‌رود (سیسرون در «دربارهٔ غیب‌گویی»، پلینی در «تاریخ طبیعی» دفتر سی‌ام دربارهٔ magorum ars)، و صفتِ magicus نیز از μαγικός یونانی گرفته شده است. جمعِ magi در ترجمهٔ ولگات برای «مغانِ» انجیل متّی (باب ۲) به کار رفت و همین کاربردِ مسیحی بود که واژه را از لاتینِ کلیسایی به زبان‌های اروپایی رساند. پوکورنی خود «lat. magus» را در پیِ μάγος یونانی می‌آورد و کلاین نیز همین زنجیره را ثبت کرده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "No reference in this box; covered by the root's POK:695 ('daraus gr. μάγος, lat. magus') and by Klein p.923."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny IEW p.695 (POK_02.txt line 5666)", "stance": "supports", "note": "'(daraus gr. μάγος, lat. magus)' — Latin from Greek."},
+            {"src": "KLN", "where": "Klein pp.921, 923 (KLN_1966.txt lines 22514, 22518, 22563)", "stance": "supports", "note": "'Magi, n. pl., a priestly caste in Media and Persia. — L. magi, pl. of magus'; 'mage, n., a magician. — F., fr. L. magus'; 'Magus ... — L., fr. Gk. μάγος'."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through box for the Old/Middle French stage: OF mage 'magus' and, more importantly for the chain drawn here, OF/MF magique (13th c.) 'magic (art)', from Latin magicus / Late Latin magicē. Klein makes both steps explicit ('mage, n., a magician. — F., fr. L. magus'; 'magic, n. — ME. magik, fr. MF. (= F.) magique, fr. Late L. magice'), so the French link Nourai interposes between Latin and English is real and not a filler.",
+          "derivation_fa": "این جعبه واسطهٔ خالی و نشان‌دهندهٔ مرحلهٔ فرانسهٔ کهن/میانه است: mage «مغ» و مهم‌تر برای این زنجیره magique (سدهٔ سیزدهم) «(هنرِ) جادو»، از magicus لاتینی و magicē لاتینِ متأخر. کلاین هر دو گام را صریح آورده است («mage از فرانسه، از magus لاتینی» و «magic از انگلیسی میانه magik، از magique فرانسهٔ میانه، از magice لاتینِ متأخر»)، پس حلقهٔ فرانسه‌ای که نورایی میان لاتین و انگلیسی گذاشته واقعی است و پُرکنندهٔ جای خالی نیست. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/mangonel"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "Empty box with no reference; verified from Klein's 'magic' and 'mage' entries (KLN_1966.txt line 22519)."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein p.921 s.vv. mage, magic (KLN_1966.txt lines 22514, 22519)", "stance": "supports", "note": "'magic, n. — ME. magik, fr. MF. (= F.) magique, fr. Late L. magice, fr. Gk. μαγική (scil. τέχνη), lit. \"magic art\", fem. of the adjective μαγικός'."},
+            {"src": "SKT", "where": "Skeat, s.v. mechanic and neighbouring French-mediated Greek words (SKT.txt line 10869)", "stance": "supports", "note": "Skeat routinely marks this class as '(F. — L. — Gk.)', e.g. 'mechanic ... (F. — L. — Gk.) M.E. mechanike ... — O.F. mechanique', i.e. French is the regular intermediary for Greco-Latin learned words entering English."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "magic",
+          "verdict": "confirmed",
+          "derivation": "English magic: Middle English magik (Chaucer, late 14th c.) from Old/Middle French magique, from Late Latin magicē (ars), from Greek μαγική (τέχνη) 'the art of the Magi', the feminine of μαγικός, from μάγος — so the word is, at four removes, Old Persian maguš. Klein s.v. magic (n. and adj.) gives precisely this chain, and Watkins files MAGIC, MAGI, MAGUS and ARCHIMAGE under magh-1 §5. The semantic route is 'belonging to the Median priestly caste' → 'Persian religious lore, astrology' → (with Greek and then Christian hostility) 'sorcery'.",
+          "derivation_fa": "انگلیسی magic از انگلیسی میانهٔ magik (چاسر، اواخر سدهٔ چهاردهم) و آن از magique فرانسهٔ کهن/میانه، از magicē (ars) لاتینِ متأخر، از μαγική (τέχνη) یونانی «هنرِ مغان» ــ مؤنثِ μαγικός ــ و در نهایت از μάγος و maguš پارسی باستان است. کلاین همین زنجیره را در مدخل magic آورده و واتکینز نیز MAGIC و MAGI و MAGUS را زیر ریشهٔ magh-1 نشانده است. تحولِ معنایی چنین بوده: «متعلق به طبقهٔ روحانیِ ماد» ← «دانش دینی و اخترشماریِ ایرانی» ← و سپس با نگاه خوارانگارانهٔ یونانی و آنگاه مسیحی «جادوگری». ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "No reference in this box; covered by Klein p.921 s.v. magic and Watkins magh-1 §5 ('MAGI, MAGIC, MAGUS; ARCHIMAGE')."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein p.921 s.vv. magic n./adj. (KLN_1966.txt lines 22519-22520)", "stance": "supports", "note": "'magic, adj. — ME. magik, fr. OF. (= F.) magique, fr. L. magicus, fr. μαγικός, \"Magian, magical\", fr. μάγος, \"Magus, magician\"'."},
+            {"src": "AHD", "where": "Watkins 1985 s.v. magh-1 §5 and index (AHD_watkins1985.txt lines 710, 1792-1794)", "stance": "supports", "note": "'MAGI magh-1', 'MAGIC magh-1', 'MAGUS magh-1' — the English word is filed under this root via Old Persian magus."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Germanic",
+          "words": "mag, mahti",
+          "verdict": "confirmed",
+          "derivation": "Nourai's 'mag' and 'mahti' are the two Germanic stems of this root: (a) the preterite-present verb Proto-Germanic *magan 'to be able' with 1/3sg present *mag (Gothic mag, OHG mag, OS mag, OE mæg, ON má) — a PIE perfect/optative formation, which is why it lacks the -s of the 3sg present; and (b) the ti-abstract *mahti- (< *magh-ti-) 'power, might', Gothic mahts, OHG/OS maht, OE meaht/miht, ON máttr, matched outside Germanic by OCS moštь 'Macht, Stärke'. Pokorny lists both with these very forms, and Watkins gives '*mag-' and 'suffixed form *mah-ti-, power'. To these Germanic also adds *maginam 'strength' (ON magn/megin, OE mægen, OHG magan/megin), the source of English main — see node #11.",
+          "derivation_fa": "دو صورتی که نورایی آورده («mag» و «mahti») همان دو ستاک ژرمنی این ریشه‌اند: نخست، فعلِ ماضی‌ـحالیِ ژرمنی آغازین *magan «توانستن» با صورتِ مفردِ حال *mag (گوتیک mag، آلمانی علیای کهن mag، انگلیسی کهن mæg، نورس کهن má) که چون در اصل صیغهٔ ماضی نقلیِ هندواروپایی بوده پایانهٔ -s شخصِ سوم را ندارد؛ دوم، اسم مصدرِ ti-دار *mahti- (از *magh-ti-) «توان، نیرو»: گوتیک mahts، آلمانی علیای کهن maht، انگلیسی کهن meaht/miht، نورس کهن máttr، که بیرون از ژرمنی با moštь اسلاوی کلیسایی کهن «قدرت» برابر است. پوکورنی هر دو را با همین صورت‌ها آورده و واتکینز نیز «*mag-» و «صورتِ پسوندیِ *mah-ti-، power» را ثبت کرده است. ژرمنی صورتِ سومی هم دارد، *maginam «نیرو» (نورس magn/megin، انگلیسی کهن mægen)، که خاستگاه main انگلیسی است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 710, magh-1 §1-3: '1. Germanic *mag- in: a. Old English magan, to be able: MAY ... 2. Germanic suffixed form *mah-ti-, power, in Old English miht, power: MIGHT. 3. Germanic suffixed form *mag-inam, power, in Old English mægen, power: MAIN.' Exactly Nourai's 'mag, mahti : power'."},
+            {"ref": "KLN", "status": "supports", "note": "KLN_1966.txt line 22460 (p.919, s.v. machine): '... fr. I.-E. base *magh-, *māgh-, \"to be able\", whence also OSlav. mogǫ, mošti, \"to be able\", OE. mæg, \"I can\". See may, auxil. v., and cp. main, \"might\", might.' Klein groups the Germanic forms under the same base."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny IEW p.695 f. (POK_02.txt lines 5669-5670)", "stance": "supports", "note": "'got. ags. magan, aisl. mega, maga, muga, afries. muga, mnd. mögen, ahd. magan, mugan ,mögen', 1. Sg. Präs. got. as. ahd. mag, aisl. má, ags. mæg, afries. mei; aisl. magn, meg(i)n n. ,Macht, Hauptsache', ags. mægen, ahd., as. magan, megin ds.; got. mahts f. ,Macht, Kraft', ahd. as. maht, ags. meaht, might, aisl. máttr ds.'"},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 227 (WLD_Bd2_pages.txt lines 14841-14846)", "stance": "supports", "note": "Same Germanic list a generation earlier: 'got. mag (Inf. magan, Praet. mahta) ,vermag, kann', ... ags. mæg ds. aisl. magn, megin ,Kraft, Macht', ags. mægen, as. megin, ahd. magan, megin ds.: got. mahts ,Kraft, Macht', ahd. as. maht, ags. meaht, might, aisl. máttr ds.'"},
+            {"src": "IEC", "where": "Mann s.vv. moghó/moghmi and moghtis (IEC.txt lines 11000, 11002)", "stance": "supports", "note": "'moghó, moghmi \"am able, can\". WP II, 227 ... Go. OHG mag \"I can, may\"'; 'moghtis \"power\" ... Go. mahts, f. \"might, power\"; OHG maht ...; ON máttr' — Mann's two lemmas correspond to Nourai's two Germanic stems."}
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "English",
+          "words": "main, might, may",
+          "verdict": "confirmed",
+          "derivation": "All three English words come from the Germanic stems of node #10. may < OE magan, 1sg/3sg pres. mæg (preterite-present), whence ME may; might (n.) < OE miht/meaht < PGmc *mahtiz, with the West Germanic -ht- reflex of *-gh-t-; main (n., 'strength', now only in the alliterative doublet 'might and main') < OE mægen < PGmc *maginam. Watkins files them under magh-1 §1a, §2 and §3 respectively, and Klein cross-refers them at s.v. machine ('See may, auxil. v., and cp. main, \"might\", might'). The verb might (past of may) belongs with may (OE meahte/mihte), so the box's three items exhaust the native English descendants of the root.",
+          "derivation_fa": "هر سه واژهٔ انگلیسی از دو ستاک ژرمنیِ گرهٔ پیشین برآمده‌اند: may از انگلیسی کهن magan و صورتِ حالِ mæg؛ might (اسم) از انگلیسی کهن miht/meaht و آن از ژرمنی آغازین *mahtiz، که در آن خوشهٔ *-gh-t- هندواروپایی در ژرمنی غربی به -ht- بدل شده است؛ و main (اسم، «نیرو»، که امروز تنها در ترکیبِ همحرفِ «might and main» مانده) از انگلیسی کهن mægen و ژرمنی آغازین *maginam. واتکینز این سه را به‌ترتیب زیر بندهای ۱الف و ۲ و ۳ ریشهٔ magh-1 نشانده و کلاین نیز در مدخل machine به همین سه ارجاع داده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mag%CA%B0-"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "No reference in this box; the parent box's AHD and KLN cover it — Watkins magh-1 §1a MAY, §2 MIGHT, §3 MAIN (AHD_watkins1985.txt line 710)."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins 1985, magh-1 and index (AHD_watkins1985.txt lines 710, 1801, 1831, 1869)", "stance": "supports", "note": "Index entries 'MAIN1 magh-1', 'MAY magh-1, meg-', 'MIGHT1 magh-1' — all three under this root."},
+            {"src": "KLN", "where": "Klein p.919 s.v. machine (KLN_1966.txt line 22460)", "stance": "supports", "note": "'... whence also OSlav. mogǫ, mošti, \"to be able\", OE. mæg, \"I can\". See may, auxil. v., and cp. main, \"might\", might.'"},
+            {"src": "POK", "where": "Pokorny IEW p.696 (POK_02.txt line 5669)", "stance": "supports", "note": "Pokorny himself prints the English glosses in the Germanic list: 'ags. mægen ... ags. meaht, might'."}
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Greek",
+          "words": "mexana, mâxanâ, mexos; maxanikon",
+          "verdict": "plausible",
+          "derivation": "The first three are right: Greek μῆχος mēkhos (n.) 'means, expedient, remedy', Doric μᾶχος, and the derived μηχανή mēkhanē 'device, contrivance, engine' with the Doric μαχανά mākhanā, all from *magʰ- 'be able' — Watkins reconstructs 'suffixed lengthened-grade form *magh-and-, \"that which enables\"', Pokorny prints 'gr. μῆχος n. (dor. μᾶχος), poet. μῆχαρ ,Hilfsmittel', μηχανή, dor. μαχανά (> lat. machina) ,Hilfsmittel, Werkzeug, List''. The fourth item is where the box goes wrong: μηχανικόν is simply the neuter of the adjective μηχανικός 'resourceful, inventive; mechanical' (Klein p.933 s.v. mechanic: 'Gk. μηχανικός, \"resourceful, inventive; mechanical\"'), not a noun 'a war machine'; the Greek word for the stone-throwing engine is μαγγανικόν manganikon, from μάγγανον 'engine, block, charm' — a different word (AHD meng- 731, Klein s.v. mangle/mangonel). Nourai needs the gloss 'a war machine' to get to منجنیق in node #13, so the mis-gloss and that node's disputed derivation are one and the same problem. A caveat in Nourai's favour: Beekes argues μηχανή is Pre-Greek and 'possibly a doublet of μάγγανον', which would blur the line between the two words.",
+          "derivation_fa": "سه صورت نخست درست است: یونانی μῆχος (mēkhos) «وسیله، چاره، درمان» و صورتِ دوریِ آن μᾶχος، و مشتقِ μηχανή (mēkhanē) «ابزار، دستگاه، ماشین» با صورتِ دوریِ μαχανά (mākhanā)، همه از ریشهٔ *magʰ- «توانستن»؛ واتکینز آن را از صورتِ پسوندیِ کشیده‌ٔ *magh-and- «آنچه توانا می‌کند» می‌گیرد و پوکورنی هم همین صورت‌ها را با ترجمهٔ «Hilfsmittel, Werkzeug, List» آورده است. اما چهارمین واژه نادرست معنی شده: μηχανικόν تنها صورتِ خنثای صفتِ μηχανικός «چاره‌گر، مبتکر، مکانیکی» است (کلاین، مدخل mechanic) و اسمی به معنی «منجنیق» نیست؛ نامِ یونانیِ آن دستگاهِ سنگ‌انداز μαγγανικόν (manganikon) از μάγγανον است که واژهٔ دیگری است. نورایی به این معنیِ نادرست نیاز دارد تا به «منجنیق» در گرهٔ بعد برسد، پس این لغزشِ معنایی و ریشه‌شناسیِ مورد اختلافِ گرهٔ ۱۳ یک مسئله‌اند. در دفاع از نورایی باید افزود که بیکس μηχανή را پیش‌یونانی و «احتمالاً دوگانهٔ μάγγανον» می‌داند که مرز میان این دو واژه را کم‌رنگ می‌کند. پس این گره «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AE",
+            "https://www.etymonline.com/word/mangonel"
+          ],
+          "ref_check": [
+            {"ref": "KLN:919", "status": "supports", "note": "KLN_1966.txt page marker 919 at line 22423; entry at line 22460: 'machine, n. — MF. (= F.), fr. L. māchina, \"machine, engine, fabric, frame, device, trick\", fr. Dor. μαχανά, corresponding to Att. μηχανή, \"machine, contrivance, artificial means, expedient\", fr. Dor. μᾶχος (Attic μῆχος), \"contrivance, means, expedient, remedy\", fr. I.-E. base *magh-, *māgh-, \"to be able\"'. The cited page is exactly right for mēkhanē / mākhanā / mēkhos."},
+            {"ref": "AHD:780", "status": "partial", "note": "Nourai's AHD page numbers on this page (780, 793) are pages of the 1975 New College main dictionary, which is not the volume on disk; the Indo-European appendix content is checkable and supports the first three words — AHD_watkins1985.txt line 710, magh-1 §4: 'Suffixed lengthened-grade form *magh-and-, \"that which enables,\" in Greek (Attic) mēkhanē, (Doric) mākhanā, device: MACHINE, MECHANIC, (MECHANISM), (MECHANO-)'. Watkins does not put any war-engine sense here."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny IEW p.695 (POK_02.txt line 5668)", "stance": "supports", "note": "'gr. μῆχος n. (dor. μᾶχος), poet. μῆχαρ ,Hilfsmittel', μηχανή, dor. μαχανά (> lat. machina) ,Hilfsmittel, Werkzeug, List''."},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 227 (WLD_Bd2_pages.txt lines 14839-14840)", "stance": "supports", "note": "'Gr., dor. μᾶχος „Hilfsmittel“, dor. μαχανά „Hilfsmittel, List; Werkzeug; Mittel, etwas zu erlangen“'."},
+            {"src": "KLN", "where": "Klein p.933 s.v. mechanic (KLN_1966.txt line 23250)", "stance": "contradicts", "note": "'mechanic, adj. — L. mechanicus, fr. Gk. μηχανικός, \"resourceful, inventive; mechanical\", fr. μηχανή, \"means, invention, machine\"' — μηχανικόν is an adjective, not the name of a war engine; Klein's war engine is at p.933 s.v. mangonel, from μάγγανον."},
+            {"src": "SKT", "where": "Skeat s.vv. mechanic and mangle/mangonel (SKT.txt lines 10869, 11037-11038)", "stance": "partial", "note": "'mechanic ... — Gk. μηχανική, science of machines'; but 'mangle (1) ... Low L. manganum, mangona, a military instrument for throwing stones ... — Gk. μάγγανον' and 'mangonel, a war-engine ... O.F. mangonel ... of manganum (above)' — the two Greek words are kept apart."}
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Persian",
+          "words": "manjanîk «منجنیک»",
+          "verdict": "disputed",
+          "derivation": "The word is real and old in Persian: منجنیک / منجنیق manjanīk/manjanīq 'mangonel, stone-throwing siege engine', used by Ferdowsī (the hemistich quoted on the page). Nourai derives it from Greek μηχανικόν, and he is not alone: Mo'in's own etymological footnote at Borhan-e Qate' p.2039 says the word is a mis-shapen (مصحّف) *mīxanīq 'from μηχανική (Liddell & Scott)', through Syriac into Arabic منجنیق/منجنیقه, and Noushin's Vazhe-namak p.311 glosses «منجنیق (معرب منجنیک؛ از یونانی مخانیک)». But modern scholarship prefers a different Greek source: Byzantine μαγγανικόν / pl. μαγγανικά (from μάγγανον 'engine, block; charm'), which passed through Syriac ܡܢܓܢܝܩܐ mangānīqā into Arabic مَنْجَنِيق and thence into Persian. That route accounts for the nasal in man-janīq, which μηχανικόν cannot supply, and it is the route of Wiktionary, Etymonline, Klein p.933, Watkins (meng-, Pok. 731) and Skeat; Addi Shir at the very page Nourai cites (AFM p.164) himself prints the Syriac ܡܝܓܢܝܩܐ form and only tentatively adds a Persian folk-etymology 'من چه نيك'. Asbaghi (PLA) likewise routes Arabic manǧanīq through Persian manǧanīk from Persian mangāne + Syriac. Two further wrinkles: (a) Wiktionary makes the Persian word a loan from Arabic, whereas Nourai draws Greek → Persian directly, though Borhan ('منجنیق معرب منجنیک باشد') and Asbaghi support a pre-Arabic Persian manjanīk; (b) Beekes' suggestion that μηχανή and μάγγανον are doublets would partly reconcile the two camps. The chart's own NOTE (AHD:793, KLN:933, root Meng) states the rival view accurately, and that rival view is the one modern scholarship takes.",
+          "derivation_fa": "واژه واقعی و کهن است: «منجنیک/منجنیق» به معنی دستگاهِ سنگ‌اندازِ محاصره، که فردوسی هم آن را در بیتِ نقل‌شده در همین صفحه به کار برده است. نورایی آن را از μηχανικόν یونانی می‌گیرد و در این کار تنها نیست: معین در حاشیهٔ ریشه‌شناسیِ برهان قاطع (ص ۲۰۳۹) می‌نویسد «اصل کلمه مصحّفِ مِیخَنیق از μηχανική (لیدل و اسکات)» و از راه سریانی به عربی منجنیق و منجنیقه رسیده، و نوشین در واژه‌نامک (ص ۳۱۱) می‌آورد «منجنیق (معرب منجنیک؛ از یونانی مخانیک)». اما ریشه‌شناسیِ امروزی سرچشمهٔ یونانیِ دیگری را ترجیح می‌دهد: μαγγανικόν بیزانسی (جمعِ μαγγανικά) از μάγγανον «دستگاه، افسون»، که از راهِ سریانی mangānīqā به عربی «مَنْجَنِيق» و از آن به فارسی رسیده است. این مسیر «ن»ِ من‌جنیق را توضیح می‌دهد که μηχανικόν از عهدهٔ آن برنمی‌آید، و همان مسیری است که ویکی‌واژه و اتیمونلاین و کلاین و واتکینز (ذیل ریشهٔ meng، پوکورنی ۷۳۱) و اسکیت برگزیده‌اند؛ حتی ادّی شیر در همان صفحهٔ ۱۶۴ که نورایی ارجاع می‌دهد صورتِ سریانی ܡܝܓܢܝܩܐ را می‌آورد و ریشهٔ فارسیِ «من چه نيك» را تنها به‌احتمال می‌افزاید. اصبغی نیز عربی manǧanīq را از فارسیِ manǧanīk و آن را از mangāne می‌گیرد. دو نکتهٔ دیگر: ویکی‌واژه واژهٔ فارسی را وام‌واژه‌ای از عربی می‌داند، در حالی که نورایی پیکان را یکسر از یونانی به فارسی می‌کشد (هرچند برهان قاطع «منجنیق معرب منجنیک باشد» و اصبغی جانب او را می‌گیرند)؛ و بیکس احتمال داده که μηχανή و μάγγανον دوگانهٔ یکدیگر باشند که تا اندازه‌ای دو دیدگاه را به هم نزدیک می‌کند. یادداشتِ خودِ کتاب دیدگاه رقیب را درست نقل کرده و پژوهش امروزی همان دیدگاه رقیب را می‌پذیرد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%AC%D9%86%DB%8C%D9%82",
+            "https://www.etymonline.com/word/mangonel"
+          ],
+          "ref_check": [
+            {"ref": "BQT:2039", "status": "supports", "note": "Fetched with tools/ref_page.py BQT:2039 (vol. 4 pdf page 122; OCR cached under data/verification/sources/refs/ocr/BQT/). Entry: «منجنياگ «با کاف» ... همان منجنیق است و منجنیق معرب منجنيك باشد» with Mo'in's footnote 9: «در قاموس آمده: منجنيك بمعنی «من چه ليك» ... اصل کلمه مصحف میخنیق از [μηχανική] «لیدل و اسکات» ... سریانی ...؛ عربی منجنیق، منجنیکه، عامیانه منجلق ...؛ قس: انگ mangonel (منجنیق)». This is precisely Nourai's claim, μηχανική included."},
+            {"ref": "FSF:311", "status": "supports", "note": "Noushin, Vazhe-namak (FSF_pages.txt line 20604, form-feed leaf 421 of 484 — the position matching printed p.311 of ~350): «منجنیق (معرب منجنیک؛ از یونانی مخانیک) افزاری که با آن سنگ آتش به سوی دشمن پرتاب می‌کردند: نیاید برو [کوه] منجنیق و نه تیر / بباید ترا دید آن ناگزیر». Both the Greek 'مخانیک' etymology and the Ferdowsī hemistich Nourai quotes."},
+            {"ref": "AFM:164", "status": "partial", "note": "Addi Shir, AFM_pages.txt form-feed leaf 147 (the م section; the leaf position matches printed p.164 given leaf+17 across the ي section and index). The entry «( المنجنيق ) آلة ...» is there, but the OCR (Syriac-script confusion) shows Addi Shir citing the SYRIAC ܡܝܓܢܝܩܐ (mangānīqā) form as the intermediary («بالواسطة») and only adding «ويحتمل ان يكون اصل الكلمة فارسيًا ... من چه نيك» as a possibility. So the cited page has the word but supports the manganikon/Syriac route, not μηχανή."},
+            {"ref": "MON:4384", "status": "partial", "note": "Print pagination of the 6-vol. edition is not recoverable from the local OCR; منجنیق does occur repeatedly in Mo'in's text (MON_part1.txt lines 24970, 32807, 95359 — e.g. 'کوچکتر از منجنیق که در جنگ‌های قدیم'), and Mo'in's etymology for the word is the Borhan footnote checked above, i.e. it supports Nourai."}
+          ],
+          "consulted": [
+            {"src": "PLA", "where": "Asbaghi, Persische Lehnwörter im Arabischen s.v. manǧanīq (PLA_pages.txt lines 14084-14089)", "stance": "partial", "note": "'manǧanīq: \"Kriegsmaschine\" aus pers. منجنیک manǧanīk ... aus pers. منگانه mangāne, syr. ...' — Asbaghi does posit a pre-Arabic Persian manǧanīk (supporting Nourai's arrow direction), but traces it to a mangāne/manganon type with Syriac mediation, not to μηχανή."},
+            {"src": "KLN", "where": "Klein p.933 s.vv. mangonel and mangle (KLN_1966.txt lines 22793, 22796)", "stance": "contradicts", "note": "'mangonel, n., military engine for hurling stones. — OF. (= F. mangonneau), dimin. of ML. mangonum, mangona, fr. VL. *manganum, \"machine\", fr. Gk. μάγγανον'; and s.v. mangle: 'Gk. μάγγανον, \"any means for tricking or bewitching, philter, drug\" ... fr. I.-E. base *mang-, \"to embellish, dress, trim\"'. Different root from magh-."},
+            {"src": "AHD", "where": "Watkins 1985 s.v. meng- (AHD_watkins1985.txt lines 747-751)", "stance": "contradicts", "note": "'meng-. To furbish. 1. Latin mango ... 2. Greek manganon, magic charm, contrivance, engine of war: MANGONEL. [Pok. meng- 731.]' — exactly the rival derivation the chart's own NOTE reports."},
+            {"src": "SKT", "where": "Skeat s.v. mangonel (SKT.txt line 11038)", "stance": "contradicts", "note": "'mangonel, a war-engine ... O.F. mangonel ... — Low L. ... of manganum (above)', i.e. from Gk. μάγγανον, 'a military instrument for throwing stones'."},
+            {"src": "AFA", "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (AFA.txt)", "stance": "silent", "note": "Grep for منجنيق / mangan- in AFA.txt returns nothing; Fraenkel's Aramaic loans do not cover this word in the OCR available."},
+            {"src": "LKT", "where": "Lokotsch (LKT.txt)", "stance": "silent", "note": "Grep for mangonel / manganon / Mandschanik in LKT.txt returns nothing."}
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Latin",
+          "words": "mâčina",
+          "verdict": "confirmed",
+          "derivation": "Latin māchina 'machine, engine, contrivance, frame, device, trick' is borrowed not from Attic μηχανή but from the DORIC μαχανά — the tell-tale ā shows the loan came through the Doric-speaking Greek colonies of southern Italy and Sicily (Magna Graecia), the usual channel for early Greek technical borrowings into Latin (cf. Latin machaera, mācellum). Pokorny prints the loan inside the Greek line, 'dor. μαχανά (> lat. machina)', and Klein p.919 spells it out: 'L. māchina ... fr. Dor. μαχανά, corresponding to Att. μηχανή'. From it Latin builds māchinārī 'to contrive', māchinātor, and (with Vulgar Latin *machinare specialized to 'grind') Italian macinare, Romanian măcina. Nourai's gloss 'engine' is one of the classical senses.",
+          "derivation_fa": "لاتینی māchina «دستگاه، ماشین، ابزار، چاره، نیرنگ» نه از μηχανή آتیکی بلکه از صورتِ دوریِ μαχανά وام گرفته شده است؛ همان واکهٔ ā نشان می‌دهد که وام‌گیری از راه شهرهای یونانی‌زبانِ دوریِ جنوب ایتالیا و سیسیل («یونانِ بزرگ») بوده، که مسیرِ معمولِ وام‌واژه‌های فنیِ کهنِ یونانی در لاتین است (قس machaera و macellum). پوکورنی همین را در دلِ سطرِ یونانی می‌آورد: «dor. μαχανά (> lat. machina)» و کلاین در صفحهٔ ۹۱۹ صریح می‌گوید «لاتینی māchina ... از μαχανά دوری، برابرِ μηχανή آتیکی». از این واژه در لاتین māchinārī «تدبیر کردن» و māchinātor ساخته شده و در لاتینِ عامیانه *machinare با تحول معناییِ «آسیا کردن» به macinare ایتالیایی رسیده است. معنیِ «engine» که نورایی داده یکی از معانی کلاسیک آن است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AE"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "No reference in this box; the parent's KLN:919 covers it verbatim ('L. māchina ... fr. Dor. μαχανά'), as does POK:695 ('dor. μαχανά (> lat. machina)')."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "Pokorny IEW p.695 (POK_02.txt line 5668)", "stance": "supports", "note": "'μηχανή, dor. μαχανά (> lat. machina) ,Hilfsmittel, Werkzeug, List''."},
+            {"src": "KLN", "where": "Klein p.919 s.v. machine (KLN_1966.txt line 22460)", "stance": "supports", "note": "'fr. L. māchina, \"machine, engine, fabric, frame, device, trick\", fr. Dor. μαχανά, corresponding to Att. μηχανή'."},
+            {"src": "SYN", "where": "Buck 9205", "stance": "partial", "note": "'It. macinare, Rum. măcina, fr. VLat. *machinare a new denom. of Lat. machina \"machine\", with specialization to \"grind\". REW 5206.' — confirms Latin machina and its Romance life, without discussing the Greek source."}
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through box for French: Middle French machine (attested from the 14th-15th c., from Latin māchina), plus the learned pair mécanique (adj./n., from Latin mechanicus/mechanica < Gk. μηχανικός) and mécanisme (18th c., from Modern Latin mechanismus). These are the exact three French words that feed the Persian box #16 (ماشین، مکانیک، مکانیزم) and that Klein names as the immediate source of English machine ('MF. (= F.)').",
+          "derivation_fa": "این جعبهٔ خالی نمایندهٔ مرحلهٔ فرانسه است: machine در فرانسهٔ میانه (از سدهٔ چهاردهم‌ـپانزدهم، از māchina لاتینی)، و همچنین جفتِ عالمانهٔ mécanique (از mechanicus/mechanica لاتینی و μηχανικός یونانی) و mécanisme (سدهٔ هجدهم، از mechanismus لاتینِ نو). همین سه واژهٔ فرانسوی‌اند که به جعبهٔ فارسیِ گرهٔ ۱۶ («ماشین، مکانیک، مکانیزم») می‌رسند، و کلاین نیز machine فرانسهٔ میانه را سرچشمهٔ بی‌واسطهٔ machine انگلیسی می‌داند. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B4%DB%8C%D9%86"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "Empty box, no reference; verified from Klein p.919 ('machine, n. — MF. (= F.), fr. L. māchina') and p.933 ('mechanism, n. — ModL. mechanismus')."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein pp.919, 933 (KLN_1966.txt lines 22460, 23251)", "stance": "supports", "note": "'machine, n. — MF. (= F.), fr. L. māchina'; 'mechanism, n. — ModL. mechanismus, fr. Gk. ...'."},
+            {"src": "SKT", "where": "Skeat s.v. mechanic (SKT.txt line 10869)", "stance": "supports", "note": "'mechanic, pertaining to machines. (F. — L. — Gk.) M.E. mechanike ... — O.F. mechanique, mechanical. — L. mechanica. — Gk. μηχανική' — the French stage is Skeat's too."}
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "Persian",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "The three Persian words in the box (ماشین māšin, مکانیک mekānik, مکانیزم mekānizm) are late, direct French loans of the Qajar/Pahlavi modernization period, taken in with the technical vocabulary that came with the Dār al-Fonūn, the military missions and French-medium schooling — Wiktionary: Persian ماشین 'Borrowed from French machine', with the chain PIE → Gk. μηχανή → Lat. māchina → Middle French → French → Persian; مکانیک < Fr. mécanique, مکانیزم < Fr. mécanisme (the -یزم suffix is the regular Persian rendering of French -isme). Mo'in marks this class of word with the origin tag [فر.] (French). So these are cognates-by-a-long-way of منجنیک in node #13 only if that node's etymology holds; on their own they are unproblematic and confirm Nourai's French → Persian arrow.",
+          "derivation_fa": "سه واژهٔ این جعبه («ماشین»، «مکانیک»، «مکانیزم») وام‌واژه‌هایی متأخر و بی‌واسطه از فرانسه‌اند که در دورهٔ نوسازیِ قاجاری و پهلوی، همراه با واژگان فنیِ دارالفنون و هیئت‌های نظامی و آموزشِ فرانسوی‌زبان، به فارسی درآمدند: ماشین از machine فرانسوی، مکانیک از mécanique و مکانیزم از mécanisme (پسوندِ «ـیزم» برگردانِ قاعده‌مندِ -isme فرانسوی در فارسی است). ویکی‌واژه زنجیرهٔ هندواروپایی ← μηχανή یونانی ← māchina لاتینی ← فرانسهٔ میانه ← فرانسه ← فارسی را برای «ماشین» می‌آورد، و معین این دسته واژه‌ها را با برچسبِ [فر.] نشان می‌دهد. پس پیکانِ «فرانسه ← فارسی» نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B4%DB%8C%D9%86"],
+          "ref_check": [
+            {"ref": "MON:3701,4312", "status": "not_checked", "note": "The print pagination of the 6-vol. edition cannot be located in the local OCR (MON_part1/part2 are an unpaginated 2-vol. reprint) and vajehyab/abadis give entry text without pages. ماشین does occur throughout the OCR (e.g. MON_part1.txt line 9654 'ماشین‌های خودکار'), and Mo'in's origin tag for such words is [فر.]; the claim itself is independently confirmed by Wiktionary."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, ماشین in the OCR of the reprint (MON_part1.txt lines 5890, 9654, 10696)", "stance": "supports", "note": "ماشین is treated as a modern loan and appears in compounds ('ماشین تحریر', 'ماشین‌های خودکار'); per refs_online.json Mo'in's origin tag for this class is [فر.] = French."},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e Rishe-ha (ARY_pages.txt)", "stance": "silent", "note": "Grep for ماشین/مکانیک in ARY_pages.txt returns nothing relevant (the OCR is thin; the only hit in the м range is an unrelated زوت/موبد line at 9693) — Aryanpur's book is about inherited Indo-European roots in Persian, not modern European loans."},
+            {"src": "KLN", "where": "Klein p.919 s.v. machine (KLN_1966.txt line 22460)", "stance": "supports", "note": "Confirms the French word that Persian borrowed: 'machine, n. — MF. (= F.), fr. L. māchina'."}
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "English",
+          "words": "machine, mechanic",
+          "verdict": "plausible",
+          "derivation": "Both English words descend from Latin māchina / mechanicus and ultimately from Doric μαχανά — that much is certain (machine is first attested in English in the 1540s, mechanic as a noun/adjective already in Middle English). The chart's arrow is only slightly too short: both words reached English through French, not straight from Latin. Klein: 'machine, n. — MF. (= F.), fr. L. māchina'; Skeat: 'mechanic ... (F. — L. — Gk.) M.E. mechanike ... — O.F. mechanique, mechanical. — L. mechanica. — Gk. μηχανική, science of machines'. Since Nourai already has a French box (#15) on this branch and does route English magic (#9) through French, drawing Latin → English directly here is a simplification rather than an error; Watkins likewise files MACHINE, MECHANIC, MECHANISM under magh-1 §4 without the intermediate stages. Verdict plausible: right root, right ultimate source, one intermediary skipped.",
+          "derivation_fa": "هر دو واژهٔ انگلیسی از māchina و mechanicus لاتینی و در نهایت از μαχανά دوری برآمده‌اند و در این تردیدی نیست (machine نخست در دههٔ ۱۵۴۰ در انگلیسی دیده می‌شود و mechanic پیش‌تر، در انگلیسی میانه). تنها اشکالِ پیکانِ نمودار کوتاه بودنِ آن است: هر دو واژه از راه فرانسه به انگلیسی رسیده‌اند، نه یکسر از لاتین؛ کلاین می‌گوید «machine از machine فرانسهٔ میانه، از māchina لاتینی» و اسکیت «mechanic (فرانسه ← لاتین ← یونانی)، انگلیسی میانه mechanike، از mechanique فرانسهٔ کهن». چون نورایی در همین شاخه جعبهٔ فرانسه (گرهٔ ۱۵) را دارد و در شاخهٔ magic هم انگلیسی را از فرانسه گذرانده، این‌جا کشیدن پیکانِ مستقیم از لاتین به انگلیسی ساده‌سازی است نه خطا؛ واتکینز هم MACHINE و MECHANIC و MECHANISM را بی‌ذکرِ مراحلِ میانی زیر magh-1 نشانده است. پس ادعای نورایی «با احتیاط پذیرفتنی» است.",
+          "sources": ["https://en.wiktionary.org/wiki/%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AE"],
+          "ref_check": [
+            {"ref": "(none cited)", "status": "not_checked", "note": "No reference in this box; checked against Klein p.919 s.v. machine and p.933 s.v. mechanic (KLN_1966.txt lines 22460, 23250), and Watkins magh-1 §4."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein pp.919, 933 (KLN_1966.txt lines 22460, 23250)", "stance": "partial", "note": "'machine, n. — MF. (= F.), fr. L. māchina' — French intermediary; 'mechanic, adj. — L. mechanicus, fr. Gk. μηχανικός' — Klein takes mechanic straight from Latin, so the chart's arrow is defensible for that word."},
+            {"src": "SKT", "where": "Skeat s.v. mechanic (SKT.txt line 10869)", "stance": "partial", "note": "'mechanic, pertaining to machines. (F. — L. — Gk.) M.E. mechanike, in the sense \"mechanic art\". — O.F. mechanique ... — L. mechanica. — Gk. μηχανική, science of machines' — French stage explicit."},
+            {"src": "AHD", "where": "Watkins 1985 magh-1 §4 and index (AHD_watkins1985.txt lines 710, 1788, 1841)", "stance": "supports", "note": "'MACHINE magh-1', 'MECHANIC magh-1', 'MECHANISM magh-1' — both English words under this root via Greek mēkhanē."},
+            {"src": "WEB", "where": "Webster's New Twentieth Century (WEB_vol1.txt line 112394)", "stance": "silent", "note": "Webster's entry checked in this range is 'mangonel, n. [OFr. mangonel, from LL. mangonellus, a mangonel.] a military apparatus formerly used for throwing stones' — relevant to node #13, not to machine/mechanic, for which no etymology was located in the OCR."}
+          ]
+        }
+      ]
+    }
+  ]
+}
