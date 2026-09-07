@@ -1,0 +1,657 @@
+{
+  "pdf_page": 314,
+  "book_page": 284,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-06",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Lithra",
+      "verdict": "plausible",
+      "modern_form": "AHD/Watkins [lithra] 'a scale' — a Mediterranean (non-Indo-European) etymon; modern reconstruction Proto-Italic *līðrā 'ingot' / Sicel *lītrā (Beekes 2010 s.v. λίτρα; Etymonline 'Proto-Italic *leithra-')",
+      "note": "Nourai's root box is a faithful copy of AHD:1527. Watkins' appendix reads: '[lithra. A scale. Mediterranean word. 1. Probably Latin libra, a pound, balance: LEVEL, LIBRA, LIRA, LIVRE; DELIBERATE, EQUILIBRIUM. 2. Probably Greek litra, unit of weight, pound: LITER.]' — even the two branches of the chart (Greek litra / Latin libra) and the chart's own note 'This is most likely a Mediterranean word' come from there. But in AHD/Watkins the square brackets mean precisely 'not an Indo-European root', so the box's language label 'Indo-European' is Nourai's own and is wrong. The modern account is compatible in substance: Ancient Greek λίτρα was borrowed from an Italic language of Sicily (Sicel *lītrā), from Proto-Italic *līðrā 'ingot', which also yielded Latin lībra; the Proto-Italic word itself has no IE etymology and is taken as a substrate word of Sicily / southern Italy. Pokorny has no entry at all for lithra/libra/litra (grep of POK_full.txt for 'lithra' and 'Latin libra' returns nothing), which is exactly what one expects of a non-IE word. Gloss 'a scale, balance' is right. Verdict plausible: the etymon and the two branches are real, the language label is not.",
+      "note_fa": "ریشهٔ فرضی «Lithra» در واقع ریشهٔ هندواروپایی نیست. واتکینز در پیوستِ AHD این صورت را در قلاب گذاشته است — و در آن کتاب قلاب نشانهٔ «غیرهندواروپایی» است — و خودِ او آن را «واژه‌ای مدیترانه‌ای» می‌خواند؛ نورایی همین یادداشت را آورده ولی برچسبِ «هندواروپایی» را هم بر جعبه نشانده که نادرست است. بر پایهٔ بیکس (۲۰۱۰) و ریشه‌شناسی امروزی، λίτρα یونانی وام‌واژه‌ای است از زبانی ایتالیک در سیسیل (سیکِل *lītrā) که از ایتالیکِ آغازین *līðrā «شمشِ فلز» می‌آید و همان واژه در لاتین lībra شده است؛ خودِ این صورت ایتالیک ریشه‌شناسی هندواروپایی ندارد و آن را واژه‌ای بومی (زیرلایه‌ای) در سیسیل و جنوب ایتالیا می‌دانند. پوکورنی هیچ ریشه‌ای برای libra/litra ندارد که همین گواهِ غیرهندواروپایی بودنِ آن است. پس: معنی و دو شاخهٔ نمودار درست است، ولی برچسب زبانی نادرست.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CF%84%CF%81%CE%B1",
+        "https://www.etymonline.com/word/liter"
+      ],
+      "ref_check": [
+        {
+          "ref": "AHD:1527",
+          "status": "supports",
+          "note": "Local proxy AHD_watkins1985.txt line 700 (Watkins 1985 = the same root list as the 1975/76 appendix pp.1505-1550, in which 1527 is the L-neighbourhood): '[lithra. A scale. Mediterranean word. 1. Probably Latin libra, a pound, balance: LEVEL, LIBRA, LIRA, LIVRE; DELIBERATE, EQUILIBRIUM. 2. Probably Greek litra, unit of weight, pound: LITER.]' — word for word Nourai's root box, gloss and both branches. The New College Edition itself is lending-only on archive.org, so the printed page 1527 could not be seen."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt line 700, s.v. lithra",
+          "stance": "supports",
+          "note": "'[lithra. A scale. Mediterranean word...]' — but the brackets in Watkins mark non-IE forms, so it does not support the label 'Indo-European'."
+        },
+        {
+          "src": "POK",
+          "where": "POK_full.txt, grep 'lithra' / 'Latin libra' — no hits",
+          "stance": "silent",
+          "note": "Pokorny's IEW has no root for libra/litra anywhere; consistent with a non-IE Mediterranean word."
+        },
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt leaf 476 = printed pp. 886-887, s.v. libra",
+          "stance": "partial",
+          "note": "'libra, n., a pound. — L. libra, ‘balance; Roman pound’, fr. earlier *lipra, whence also Gk. λίτρα (Dor. λίτρα is a later form), of s.m.' Klein posits a shared preform *lipra for both, i.e. the same common source Nourai draws, but does not call it Mediterranean/non-IE."
+        },
+        {
+          "src": "WLD",
+          "where": "only Band 3 (Register) on disk; grep of WLD_band3.txt — no hits",
+          "stance": "silent",
+          "note": "Walde-Pokorny Bd. I-II are not available locally, so the pre-Pokorny treatment could not be read."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Greek",
+          "words": "litra",
+          "verdict": "confirmed",
+          "derivation": "Ancient Greek λίτρα (lítra) is a western-Greek (Sicilian) word: a unit of weight equal to one third of a mina, the name of a Sicilian silver coin, and by extension a vessel holding one libra — exactly the chart's gloss 'a unit of weight, also a unit of liquid measure'. It is not inherited but borrowed, in the Greek colonies of Sicily, from the local Italic language: Sicel *lītrā < Proto-Italic *līðrā 'ingot' (Beekes, EDG 2010, followed by Wiktionary). Klein arrives at the same shared preform from the Latin side, '*lipra, whence also Gk. λίτρα', the Italic dental appearing in Greek as -τ-. So the arrow root→Greek is right in substance: Greek took the word from the Mediterranean/Italic source directly, not through Latin.",
+          "derivation_fa": "λίτρα در یونانی باستان واژه‌ای است ویژهٔ یونانیانِ باختر (سیسیل): یکایی برای وزن، برابرِ یک‌سومِ مینا، و نیز نامِ سکه‌ای سیمین در سیسیل و ظرفی به اندازهٔ یک libra — یعنی درست همان معنایی که نمودار می‌دهد. این واژه میراثِ هندواروپایی نیست بلکه وام‌گیری است: یونانیانِ مهاجرِ سیسیل آن را از زبانِ ایتالیکِ بومی (سیکِل *lītrā، از ایتالیکِ آغازین *līðrā «شمش») گرفتند (بیکس ۲۰۱۰). کلاین هم از سوی لاتین به همان صورتِ مشترک *lipra می‌رسد و می‌گوید λίτραی یونانی از همان است. پس پیکانِ ریشه→یونانی از نظرِ محتوا درست است: یونانی واژه را یکسر از سرچشمهٔ مدیترانه‌ای گرفته، نه از لاتین.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CF%84%CF%81%CE%B1",
+            "https://www.etymonline.com/word/liter"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:762",
+              "status": "not_checked",
+              "note": "p.762 is main-text of the 1975/76 New College Edition (s.v. liter), which exists on archive.org only as lending copies (djvu.txt 401). The local Watkins proxy does carry the matching claim, 'Probably Greek litra, unit of weight, pound: LITER' (AHD_watkins1985.txt line 700)."
+            },
+            {
+              "ref": "KLN:896",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 482, whose OCR'd page numbers are 896-897: 'liter, litre, n., a measure of capacity. F. litre, fr. earlier litron, ‘an old measure for grain’, fr. ML. litra, ‘a liquid measure’, fr. Gk. λίτρα, ‘a pound’. See litra.' The λίτρα entry itself is on the next leaf (pp.898-899): 'litra, n., name of a Greek weight and coin. — Gk. λίτρα (Dor. λίτρα), ‘pound’, fr. earlier *lipra, whence also L. libra.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 483 = pp. 898-899, s.v. litra",
+              "stance": "supports",
+              "note": "'name of a Greek weight and coin ... fr. earlier *lipra, whence also L. libra, ‘Roman pound’.'"
+            },
+            {
+              "src": "AHD",
+              "where": "AHD_watkins1985.txt line 700",
+              "stance": "supports",
+              "note": "'2. Probably Greek litra, unit of weight, pound: LITER.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep 'litra' / 'litre' — no hits",
+              "stance": "silent",
+              "note": "Skeat's concise dictionary has librate and equilibrium but no litra/litre entry."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Middle Latin",
+          "words": "litra",
+          "verdict": "confirmed",
+          "derivation": "Medieval Latin litra 'a liquid measure' is the medieval Latinisation of Greek λίτρα, re-borrowed into the Latin of the Byzantine-and-Italian Mediterranean trade beside the inherited Latin lībra (which stayed the weight). Nourai's label 'Middle Latin' and his gloss 'a liquid measure' are Klein's own words: KLN pp.896-897 s.v. liter, 'fr. ML. litra, ‘a liquid measure’, fr. Gk. λίτρα, ‘a pound’'. Etymonline gives the same link ('from Medieval Latin litra, from Greek litra “pound”'). The semantic step weight → measure of capacity happens here, in mercantile usage where a litra of wine or oil was reckoned by the pound.",
+          "derivation_fa": "litraی لاتینِ میانه (قرون وسطایی) به معنی «پیمانهٔ مایعات» همان λίτραی یونانی است که در لاتینِ بازرگانیِ مدیترانه — در کنارِ lībraی موروثی که همچنان واحدِ وزن ماند — از نو وام گرفته شد. برچسب و معنیِ نمودار عیناً از کلاین است: «از ML. litra ‘پیمانهٔ مایع’، از یونانی λίτρα ‘پوند’». تحولِ معنایی از «وزن» به «حجم» همین‌جا رخ داده، زیرا در بازار، شراب و روغن را به پوند می‌سنجیدند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/liter",
+            "https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CF%84%CF%81%CE%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:762",
+              "status": "not_checked",
+              "note": "main-text page of the New College Edition, lending-only; not readable."
+            },
+            {
+              "ref": "KLN:896",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 482 (OCR page numbers 896-897): 'fr. ML. litra, ‘a liquid measure’, fr. Gk. λίτρα, ‘a pound’' — Nourai's gloss verbatim."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 482 = pp. 896-897, s.v. liter, litre",
+              "stance": "supports",
+              "note": "as quoted: ML. litra 'a liquid measure' < Gk. λίτρα."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/liter",
+              "stance": "supports",
+              "note": "'from Medieval Latin litra, from Greek litra “pound” (unit of weight), which apparently is from the same Sicilian Italic source as Latin libra'."
+            },
+            {
+              "src": "AHD",
+              "where": "AHD_watkins1985.txt line 700",
+              "stance": "silent",
+              "note": "the appendix entry jumps straight from Greek litra to LITER without naming the Medieval Latin stage."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "litre",
+          "verdict": "plausible",
+          "derivation": "French litre is the metric unit named in 1793 by the commission of weights and measures and fixed by the loi du 18 germinal an III (1795) as the capacity of one cubic decimetre. It does not, however, come straight from Medieval Latin litra as the arrow draws: it was formed on litron, an obsolete French dry measure for grain (16th c.), and litron in turn goes back to ML litra. Klein pp.896-897: 'F. litre, fr. earlier litron, ‘an old measure for grain’, fr. ML. litra'; Etymonline: 'from French litre (1793), from litron, name of an obsolete French measure of capacity for grain (16c.), from Medieval Latin litra'. So the chain is right but one link (litron) is missing — hence plausible rather than confirmed.",
+          "derivation_fa": "litreی فرانسوی نامِ یکای متریِ حجم است که در ۱۷۹۳ کمیسیونِ اوزان و مقادیرِ فرانسه برگزید و در ۱۷۹۵ برابرِ یک دسی‌مترِ مکعب تعریف شد. اما — برخلافِ پیکانِ نمودار — یکسر از litraی لاتینِ میانه نیامده است: آن را بر پایهٔ litron ساخته‌اند، پیمانهٔ کهنِ فرانسوی برای غله (سدهٔ ۱۶م)، و litron خود از litraی لاتینِ میانه است (کلاین، اتیمانلاین). پس زنجیره درست است ولی یک حلقه (litron) از نمودار افتاده؛ به همین سبب «با احتیاط پذیرفتنی».",
+          "sources": [
+            "https://www.etymonline.com/word/liter"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:762",
+              "status": "not_checked",
+              "note": "New College Edition main text, lending-only on archive.org; the local Watkins proxy has only the appendix entry, which does not spell out the French stage."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 482 = pp. 896-897",
+              "stance": "partial",
+              "note": "'F. litre, fr. earlier litron, ‘an old measure for grain’, fr. ML. litra' — inserts litron between ML litra and F litre."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/liter",
+              "stance": "partial",
+              "note": "same: litre (1793) < litron (16c.) < Medieval Latin litra."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep 'litre' — no hits",
+              "stance": "silent",
+              "note": "Skeat has no litre entry."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "lîtr «لیتر»",
+          "verdict": "confirmed",
+          "derivation": "New Persian لیتر lītr is a modern loan from French litre, taken over with the metric system in the Qajar/Dār al-Fonūn era and through French-medium scientific teaching; French -tre is rendered -تر and the initial l- is kept unchanged. Dehkhoda marks the word plainly as French: 'لیتر. (فرانسوی، اِ) واحد حجم و اندازه گرفتن مایعات و آن معادل هزار گرم آب خالص چهار درجه حرارت است'; Mo'in glosses 'واحدی برای اندازه‌گیری آب برابر با یک کیلوگرم'. So the arrow French → Persian is right, and this is the box in which the Persian word for 'liter' belongs (see node #7, where Nourai puts a second, unattested Persian 'liter').",
+          "derivation_fa": "«لیتر» در فارسی نو وام‌واژه‌ای است نوین از litreی فرانسوی که همراه با نظام متری و آموزشِ علومِ فرانسوی‌زبان (روزگارِ قاجار و دارالفنون) به فارسی آمد؛ ‑tre فرانسوی به ‑تر بدل شده و l آغازی دست‌نخورده مانده است. دهخدا آشکارا آن را «(فرانسوی، اِ)» می‌داند و معین «واحدی برای اندازه‌گیری آب برابر با یک کیلوگرم» می‌آورد. پس پیکانِ فرانسوی→فارسی درست است و جای واژهٔ فارسیِ «لیتر» همین جعبه است (نگاه کنید به گرهِ ۷ که نورایی صورتِ ناموجودِ «لیطر» را هم آورده).",
+          "sources": [
+            "https://www.vajehyab.com/?q=%D9%84%DB%8C%D8%B7%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "VOP:318",
+              "status": "not_checked",
+              "note": "Moshiri, Farhang-e vāžehā-ye orupāyi dar fārsi (Alborz 1371) — exactly the right book for a French loan, but refs_online.json records that no digital copy exists (re-searched 2026-09: archive.org, ketabnak, noorlib, Google Books all negative)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vajehyab.com/?q=لیطر (Mo'in section, entry لیتر)",
+              "stance": "supports",
+              "note": "Mo'in has only لیتر: 'واحدی برای اندازه گیری آب برابر با یک کیلوگرم'; no لیطر."
+            },
+            {
+              "src": "DKH",
+              "where": "vajehyab.com/?q=لیطر (Dehkhoda section, entry لیتر)",
+              "stance": "supports",
+              "note": "'لیتر. (فرانسوی، اِ) واحد حجم و اندازه گرفتن مایعات...' — origin tag 'فرانسوی' confirms the French → Persian arrow."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v1/v2_pages.txt — no hits",
+              "stance": "silent",
+              "note": "Borhan-e Qate' (1652) obviously cannot contain a metric term; grep confirms."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "litre, liter",
+          "verdict": "confirmed",
+          "derivation": "English liter/litre is attested from 1797, borrowed from French litre; the British spelling keeps the French -re, the American -er follows Webster's respelling of the -re words. Klein pp.896-897: 'liter, litre, n., a measure of capacity. F. litre...' Etymonline: 'unit of capacity in the metric system, 1797, from French litre (1793)'. The word came in with the metric system itself, so it is a learned/technical borrowing, not a popular one.",
+          "derivation_fa": "liter/litre انگلیسی از ۱۷۹۷م گواهی شده و وام‌واژه‌ای است از litreی فرانسوی؛ املای بریتانیایی ‑re فرانسوی را نگه داشته و املای امریکایی ‑er پیروِ اصلاحِ املاییِ وبستر است. کلاین: «liter, litre ... از F. litre»؛ اتیمانلاین: «۱۷۹۷، از فرانسویِ litre (۱۷۹۳)». این واژه همراه با خودِ نظامِ متری وارد شده است، یعنی وام‌گیری‌ای علمی و کتابی است نه عامیانه. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/liter"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:762",
+              "status": "not_checked",
+              "note": "main text of the New College Edition, lending-only; the appendix entry in the local Watkins proxy does list 'LITER' as the English derivative of Greek litra, which supports the endpoint."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 482 = pp. 896-897, s.v. liter, litre",
+              "stance": "supports",
+              "note": "'liter, litre, n., a measure of capacity. F. litre, fr. earlier litron...'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/liter",
+              "stance": "supports",
+              "note": "'1797, from French litre (1793)'."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep 'litre' — no hits",
+              "stance": "silent",
+              "note": "not in Skeat's concise dictionary."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "lîtr; ratl",
+          "verdict": "plausible",
+          "derivation": "The box packs two words of very different date. (a) رطل raṭl / riṭl 'a weight of twelve ounces; a large vessel for drink' really is Greek λίτρα, but it reached Arabic through Aramaic, not directly: Gk λίτρα → Jewish Palestinian Aramaic / Classical Syriac līṭrā → Aramaic rīṭlā (dissimilation of the first l to r before the second liquid, with metathesis of the vowel) → Arabic raṭl/riṭl; Greek τ is regularly rendered by the emphatic ط in Aramaic-mediated Greek loans. Lokotsch no. 1708 states it flatly: 'Ar. raṭl: „Ein Gewicht“ [aus gr. λίτρα; ZDMG LI, 298; de Lagarde, Gesammelte Abhandlungen 33]', adding Fleischer's point that the Arabs themselves felt riṭl to be the better pronunciation, ratl prevailing under the influence of the first two consonants. Nourai's NOTE, '„ratl“ is a distorted form of „lîtr“', is therefore substantially right, though the 'distortion' is a regular Aramaic development rather than a corruption inside Arabic; and the intermediate Aramaic stage is missing from the chart. (b) Arabic لتر/ليتر lītr 'liter' is not this word at all: it is a nineteenth-century loan from French litre taken with the metric system, so putting it under Ancient Greek λίτρα is wrong — it belongs with node #4 under the French box. Worst verdict therefore governs: plausible.",
+          "derivation_fa": "این جعبه دو واژه با دو تاریخِ بسیار متفاوت را یکجا آورده است. (الف) «رطل» عربی به معنی وزنِ دوازده اوقیه و نیز ظرفِ بزرگِ نوشیدنی، به‌راستی همان λίτραی یونانی است، اما نه یکسر: از راهِ آرامی آمده — یونانی λίτρα ← آرامیِ فلسطینی/سریانیِ کلاسیک līṭrā ← آرامی rīṭlā (ابدالِ l نخست به r پیشِ روانِ دوم، همراه با قلبِ واکه) ← عربی raṭl/riṭl؛ و τ یونانی در وام‌واژه‌های آرامی‌واسطه به‌طور قاعده‌مند «ط» می‌شود. لوکوچ (شمارهٔ ۱۷۰۸) همین را می‌گوید و می‌افزاید که خودِ عرب‌ها تلفظِ riṭl را درست‌تر می‌دانستند. پس یادداشتِ نورایی که «رطل صورتِ تحریف‌شدهٔ لیتر است» در اصل درست است، ولی این «تحریف» دگرگونیِ قاعده‌مندِ آرامی است نه فسادِ درون‌عربی، و حلقهٔ آرامی از نمودار افتاده است. (ب) «لتر/ليتر» عربی به معنی لیتر، اصلاً این واژه نیست: وام‌واژه‌ای است از litreی فرانسوی در سدهٔ نوزدهم همراه با نظامِ متری؛ پس آوردنِ آن زیرِ λίτραی یونانی خطاست و جایش زیرِ جعبهٔ فرانسوی (گرهِ ۴) است. بنابراین حکمِ گره «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B7%D9%84",
+            "https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CF%84%CF%81%CE%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "VGH:65",
+              "status": "not_checked",
+              "note": "Khadiv Jam, Vāže-nāme-ye ghazalhā-ye Hāfez (Elmi 1371) — refs_online.json records only a login-walled ketabnak PDF (book/121989), not on archive.org; not readable."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "LKT.txt lines 3896-3897, no. 1708 'Ar. ratl'",
+              "stance": "supports",
+              "note": "'„Ein Gewicht“ [aus gr. λίτρα; ZDMG LI, 298; de Lagarde, Gesammelte Abhandlungen 33, Anm. ... ist die Aussprache riṭl nach den Arabern selbst die richtigere]' — Greek origin, plus the Italian/Sicilian/Spanish/Portuguese offspring rotolo, arrátel, arrelde."
+            },
+            {
+              "src": "AFM",
+              "where": "AFM_pages.txt line 1867, s.v. (الرطل)",
+              "stance": "partial",
+              "note": "Addi Shir defines it as ten (?) ounces, half the Tabriz man, and 'وعاء يوضع فيه الشراب ونحوه' (a vessel for drink), names a Greek form ('باليونانية'), then says 'لست أدري هل أصله يوناني أم فارسي' — he entertains the Greek origin but leaves it open between Greek and Persian."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 723 (pp. ~1422-1423), s.v. rotl",
+              "stance": "contradicts",
+              "note": "'rotl, n., a weight used in North Africa. — Arab. raṭl, rel. to raṭala, ‘he poised’, rattala, ‘he weighed’.' Klein gives an Arabic-internal derivation from a native root, against the Greek/Aramaic origin."
+            },
+            {
+              "src": "AFA",
+              "where": "AFA.txt line 2748 (Fraenkel, footnote)",
+              "stance": "partial",
+              "note": "Fraenkel discusses the same l~r interchange and explicitly cites the change 'von λίτρον zu litra' as a parallel; supports the phonetics of the Greek-to-Semitic route without giving raṭl a full entry."
+            },
+            {
+              "src": "FVQ",
+              "where": "FVQ_pages.txt, grep 'ratl'/'rotl' — no hits",
+              "stance": "silent",
+              "note": "raṭl is not a Qur'anic word, so Jeffery has no entry."
+            },
+            {
+              "src": "HJB",
+              "where": "HJB.txt line 2084",
+              "stance": "supports",
+              "note": "Hobson-Jobson quotes 1588: 'a churle is 27 rottles and a half of Aleppo' — the unit itself, in the Levant trade, as the chart's 'large liquid container' implies."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "lîtr «لیطر»; ratl «رطل»",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "لیطر",
+          "correct_form": "لیتر",
+          "derivation": "رطل is sound and well documented. Arabic raṭl was borrowed into Persian early and is common from the eleventh century on in exactly the sense the chart gives, 'a large cup/measure of wine': the chart's own Vis-o-Rāmin hemistich (Fakhr al-Din Asʿad Gorgāni, mid-11th c.), 'دل میخواره را باشد به می آز - بسی رطل و بسی ساغر خورد باز', is genuine, and Borhan-e Qateʿ quotes the same use with 'رطل گرانم ده ای مرید خرابات' (Hafez). Mo'in: 'رطل [ع.] (اِ) واحدی است برای وزن و آن برابر دوازده اوقیه و مساوی ۸۴ مثقال است. پیالهٔ شراب؛ ج. ارطال. رطل گران: پیمانهٔ بزرگ'. Since Arabic itself got raṭl from Greek λίτρα by way of Aramaic, رطل is in effect the Mediterranean weight-word returning to Persian through Aramaic and Arabic, which is what the chart draws — correct. — The other word in the box is not. «لیطر», with the emphatic ط, is unknown to Persian lexicography: Dehkhoda, Mo'in and Amid have only لیتر, tagged '(فرانسوی)'; no hit for لیطر or لیطره in either Mo'in text file or on vajehyab. The printed page 284 does show «لیطر» (see data/verification/sources/refs/ocr/BOOK/314.png), so the extraction is faithful and the error is Nourai's: he has re-spelt the modern French loan with the ط of رطل so that the two words in the box look like one word, and has thereby invented a form that is not Persian. The correct Persian spelling is لیتر, and it is already correctly placed under French at node #4.",
+          "derivation_fa": "«رطل» درست و مستند است: raṭl عربی زود به فارسی آمد و از سدهٔ پنجم هجری به همان معنایی که نمودار می‌دهد — «پیالهٔ بزرگِ شراب» — فراوان به کار رفته است؛ بیتِ ویس و رامین که خودِ نمودار آورده («بسی رطل و بسی ساغر خورد باز») اصیل است و برهان قاطع نیز بیتِ حافظ «رطل گرانم ده ای مرید خرابات» را گواه می‌آورد. معین: «رطل [ع.] (اِ) واحدی است برای وزن ... پیالهٔ شراب؛ ج. ارطال». چون خودِ عربی «رطل» را از راهِ آرامی از λίτραی یونانی گرفته است، «رطل» در واقع بازگشتِ همان واژهٔ مدیترانه‌ایِ وزن به فارسی از مسیرِ آرامی و عربی است — یعنی درست همان چیزی که نمودار می‌کشد. — اما واژهٔ دیگرِ این جعبه چنین نیست: «لیطر» با «ط» در فرهنگ‌های فارسی وجود ندارد؛ دهخدا و معین و عمید تنها «لیتر» را دارند با نشانِ «(فرانسوی)» و جست‌وجوی «لیطر/لیطره» در متنِ معین و در وجه‌یاب بی‌نتیجه است. صفحهٔ چاپیِ ۲۸۴ هم عیناً «لیطر» را نشان می‌دهد (تصویر: data/verification/sources/refs/ocr/BOOK/314.png)، پس خطای خوانشِ اسکن نیست بلکه خطای خودِ کتاب است: نورایی وام‌واژهٔ نوینِ فرانسوی را با «ط»ِ «رطل» نوشته تا دو واژهٔ جعبه یکی به نظر آیند و از این راه صورتی ساخته که فارسی نیست. املای درست «لیتر» است و در گرهِ ۴ (زیرِ فرانسوی) هم درست آمده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B7%D9%84",
+            "https://www.vajehyab.com/?q=%D9%84%DB%8C%D8%B7%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1660",
+              "status": "partial",
+              "note": "The 6-vol Amir Kabir edition Nourai cites is not digitised, so p.1660 cannot be checked; in the 2-vol Adena condensation (MON_part1.txt line 67785) the entry reads 'رطل: [ع.] (اِ) واحدی است برای وزن و آن برابر دوازده اوقیه و مساوی ۸۴ مثقال است. پیالهٔ شراب؛ ج. ارطال' — Mo'in supports the gloss and the Arabic origin of رطل, but has no لیطر at all."
+            },
+            {
+              "ref": "VGH:65",
+              "status": "not_checked",
+              "note": "Khadiv Jam's Hafez glossary: only a login-walled scan (ketabnak 121989); not readable."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "BQT_v2_pages.txt around line 24428 (ر section)",
+              "stance": "supports",
+              "note": "the Borhan material on رطل is illustrated with 'رطل گرانم ده ای مرید خرابات' (Hafez), attesting the 'large wine-cup' sense in Persian; the OCR of Mo'in's footnote apparatus on that page is too damaged to read the etymon he gives."
+            },
+            {
+              "src": "MON",
+              "where": "MON_part1.txt line 67785, s.v. رطل",
+              "stance": "supports",
+              "note": "'[ع.]' + 'پیالهٔ شراب' — Arabic loan, exactly the chart's gloss."
+            },
+            {
+              "src": "DKH",
+              "where": "vajehyab.com/?q=لیطر",
+              "stance": "contradicts",
+              "note": "no entry for لیطر or لیطره in Dehkhoda/Mo'in/Amid; only لیتر '(فرانسوی، اِ)'."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt no. 1708",
+              "stance": "supports",
+              "note": "confirms that the Arabic word behind Persian رطل is Greek λίτρα, i.e. the round trip the chart draws."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Latin",
+          "words": "Libra; Dě-lîberâre",
+          "verdict": "confirmed",
+          "derivation": "Latin lībra 'a balance, pair of scales' and 'the Roman pound' (12 unciae) goes back to Proto-Italic *līðrā (Etymonline: 'ultimately deriving from Proto-Italic *leithra-'), the same Mediterranean/Sicel etymon that Greek borrowed as λίτρα — so the chart's two parallel arrows out of the root, to Greek and to Latin, are correct and reproduce AHD:1527's two numbered branches. dēlīberāre 'to weigh well, consider carefully, consult' is denominal from lībra: de- (intensive, 'entirely') + *lībrāre, a by-form of librāre 'to balance, make level', hence literally 'to weigh thoroughly'; the -ī- and the medieval confusion with liber 'free' are secondary. Klein s.v. deliberate: 'derives fr. original *de-librare, which is formed fr. de- and libra, ‘scales; that which is weighed; a pound’ ... L. deliberare was influenced in form by liberare, ‘to make free’.' Etymonline says the same. Nourai's gloss 'to weight well, ponder' is Klein's/Etymonline's 'weigh well'.",
+          "derivation_fa": "lībraی لاتین به معنی «ترازو» و «پوندِ رومی» (دوازده اوقیه) به ایتالیکِ آغازینِ *līðrā می‌رسد (اتیمانلاین: *leithra-)، یعنی همان واژهٔ مدیترانه‌ای/سیکِلی که یونانی آن را λίτρα وام گرفت؛ پس دو پیکانِ موازیِ نمودار از ریشه به یونانی و به لاتین درست است و همان دو شاخهٔ شماره‌دارِ AHD:1527 را بازمی‌گوید. dēlīberāre «نیک سنجیدن، اندیشیدن» فعلی است ساخته از همین نام: پیشوندِ تأکیدیِ de- «به‌تمامی» + *lībrāre (گونه‌ای از librāre «سنجیدن، تراز کردن»)، یعنی تحتِ‌اللفظ «سنگ‌تمام سنجیدن». کلاین: «از *de-librare، ساخته از de- و libra ‘ترازو’ ... صورتِ deliberare زیرِ نفوذِ liberare ‘آزاد کردن’ دگرگون شده است». ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/deliberate",
+            "https://www.etymonline.com/word/liter"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:349",
+              "status": "not_checked",
+              "note": "p.349 is the New College Edition main text (s.v. deliberate), lending-only on archive.org. The local Watkins proxy supports the substance: '[lithra ...] 1. Probably Latin libra, a pound, balance: LEVEL, LIBRA, LIRA, LIVRE; DELIBERATE, EQUILIBRIUM.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 230, s.v. deliberate, adj.",
+              "stance": "supports",
+              "note": "'L. deliberatus, pp. of deliberare, ‘to think over, take counsel about’, which prob. means lit. ‘to weigh in one’s mind’, and derives fr. original *de-librare, which is formed fr. de- and libra, ‘scales...’'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/deliberate",
+              "stance": "supports",
+              "note": "'from Latin deliberatus ... de- (entirely) + -liberare, altered from librare “to balance, make level,” which derives from libra “pair of scales, a balance”'."
+            },
+            {
+              "src": "POK",
+              "where": "POK_full.txt, grep 'Latin libra' — no hits",
+              "stance": "silent",
+              "note": "Pokorny has no IE root for lībra, consistent with the non-IE origin of the Italic word."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt line 10274, s.v. Librate",
+              "stance": "supports",
+              "note": "'... weigh, from libra, a balance.'"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "English",
+          "words": "Libra, deliberate, equilibrium",
+          "verdict": "confirmed",
+          "derivation": "All three are learned Latinisms, borrowed in writing, not inherited. Libra is Latin lībra taken over unchanged as the name of the zodiacal Scales (in English astronomical use from Middle English on). deliberate is the Latin participle dēlīberātus, adjective from early 15c. ('done with careful consideration'), verb from the 1540s ('weigh in the mind'), with the sense 'consciously unhurried' from the 1590s. equilibrium is Latin aequilibrium 'even balance', aequus 'equal' + lībra. Klein's libra entry (p.886) cross-refers exactly this set — 'Cp. librate, deliberate, equilibrium' — and Skeat s.v. equilibrium: 'L. aequilibris, evenly balanced. — L. aequi- for aequus, even; libra, to balance; see Librate.' The same Latin word also underlies the abbreviations lb. and £, and It. lira and Fr. livre, which AHD lists under the same etymon.",
+          "derivation_fa": "هر سه واژه وام‌واژه‌هایی کتابی از لاتین‌اند، نه میراثِ ژرمنی. Libra همان lībraی لاتین است که بی‌تغییر نامِ برجِ «ترازو» شد. deliberate از اسمِ مفعولِ لاتینِ dēlīberātus است: صفت از آغازِ سدهٔ ۱۵م و فعل از دههٔ ۱۵۴۰م، و معنیِ «آهسته و سنجیده» از دههٔ ۱۵۹۰م. equilibrium از aequilibriumِ لاتین است، از aequus «برابر» + lībra «ترازو». کلاین در مدخلِ libra (ص ۸۸۶) درست همین سه را ارجاع می‌دهد («Cp. librate, deliberate, equilibrium») و اسکیت هم زیرِ equilibrium: «از L. aequilibris ... aequi- برای aequus ‘برابر’؛ libra ‘سنجیدن’». همین واژهٔ لاتین پشتِ نشانه‌های lb. و £ و نیز liraی ایتالیایی و livreی فرانسوی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/deliberate"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:886",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 476, whose OCR'd page numbers are 886-887: 'libra, n., a pound. — L. libra, ‘balance; Roman pound’, fr. earlier *lipra, whence also Gk. λίτρα ... Cp. librate, deliberate, equilibrium. Cp. also litra, litre, livre.' Nourai's three English words are Klein's own cross-reference list on that very page."
+            },
+            {
+              "ref": "AHD:349",
+              "status": "not_checked",
+              "note": "New College Edition main text (deliberate), lending-only; the local Watkins proxy lists 'LIBRA ... DELIBERATE, EQUILIBRIUM' under lithra, which supports the set."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 291 (equilibrium) and leaf 230 (deliberate)",
+              "stance": "supports",
+              "note": "'equilibrium, n., balance. — L., ‘even balance’, compounded of aequus, ‘equal’, and libra, ‘balance’.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt lines 5933, 10274",
+              "stance": "supports",
+              "note": "'equilibrium ... L. aequilibris, evenly balanced. — L. aequi- for aequus, even; libra, to balance; see Librate' and 'Librate ... weigh, from libra, a balance.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/deliberate",
+              "stance": "supports",
+              "note": "adjective early 15c., verb 1540s; 'consciously unhurried' by 1590s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Longos, Lenghô, Leng, Long",
+      "verdict": "plausible",
+      "modern_form": "PIE *(s)leh₁g- (Pokorny (s)leg-, (s)lag-, (s)lēg-, nasalized *(s)leng-) 'slack, weak, languid'; Indo-Iranian *langa- 'lame'",
+      "note": "The 'limp, lame, bent' half of the root box is real. Pokorny 959-960 sets up '(s)leg-, (s)lag- and (s)lēg-, Meaning: weak, feeble', with the express note 'nasalized (s)leng-' and, as his very first item of material, 'Old Indic laṅga- ‘lame’', beside Latin laxus 'slack', nasalized langueō, and Greek λήγω; Watkins' appendix has the same root as 'slēg-. To be slack, be languid ... Suffixed nasalized form *la-n-g-u- in Latin languēre'. Wiktionary's chain PIE *(s)leh₁g- > Proto-Indo-Iranian *langa- 'lame' > Skt laṅga- and Proto-Iranian *langa- > NP lang (citing Pokorny 1959 and Edelʹman, ESIJa 2015) is exactly the chart's Persian-Sanskrit pair. Nourai's four headword shapes are Mann's: lengho at IEC p.678 and longos at p.709, and the citation is exact — leaf 382 of the local IEC scan carries the printed page 678 ('lengho (3) ‘trail, lie limp, pine’ ... Per. langam, langidan, inf. ‘limp’ ... Skt. langami, id.; langah lame') and leaf 400 carries 709 ('longos “lame, bent, crooked; meadow, lowland” ... Skt. langah ‘lame’; Per. lang, id.; Mod. Gk. lóggos'). What is not established is the second half of the gloss, 'also a low land, meadow'. That comes from Mann's own decision to put the 'lame' words in one entry with Slavic *lǫgъ (OCS logŭ, Bulg. lǎg 'copse, meadow', Cz. luh, Pol. ług 'lowland, marsh') and Modern Greek lóggos. Modern handbooks keep the two apart: Slavic *lǫgъ 'meadow, marshy grove' has no accepted connection with *(s)leh₁g- 'slack', and Mann himself flags the Greek word as a Slavic loanword. Verdict plausible: correct root, over-wide gloss.",
+      "note_fa": "نیمهٔ نخستِ معنیِ جعبهٔ ریشه — «لنگیدن، لنگ، خمیده» — درست است. پوکورنی در صص ۹۵۹–۹۶۰ ریشهٔ «(s)leg-, (s)lag-, (s)lēg- به معنیِ سست و ناتوان» را با یادداشتِ «گونهٔ خیشومی‌شده (s)leng-» می‌آورد و نخستین گواهش «هندیِ باستان laṅga- ‘لنگ’» است، در کنارِ laxus و langueōی لاتین و λήγωی یونانی؛ واتکینز نیز همین ریشه را زیرِ slēg- «سست و بی‌رمق بودن» دارد. ویکی‌واژه زنجیرهٔ هندواروپاییِ آغازین *(s)leh₁g- ← هندوایرانیِ آغازین *langa- «لنگ» ← سنسکریت laṅga- و ایرانیِ آغازین *langa- ← فارسیِ نو «لنگ» را (به استنادِ پوکورنی ۱۹۵۹ و اِدِلمان ۲۰۱۵) می‌دهد که همان جفتِ فارسی–سنسکریتِ نمودار است. چهار صورتِ سرواژهٔ نورایی هم از مان (IEC) است و ارجاعش دقیق: برگِ ۳۸۲ نسخهٔ محلی صفحهٔ چاپیِ ۶۷۸ و برگِ ۴۰۰ صفحهٔ ۷۰۹ را دارد. اما نیمهٔ دومِ معنی، «و نیز زمینِ پست، چمنزار»، پذیرفتنی نیست: این از آنجاست که مان واژه‌های «لنگ» را با خانوادهٔ اسلاویِ *lǫgъ (چمنزار، بیشهٔ باتلاقی) و λόγγοςی یونانیِ نو در یک مدخل گذاشته است. ریشه‌شناسیِ امروزی این دو را جدا می‌داند و خودِ مان هم واژهٔ یونانی را وام‌واژهٔ اسلاوی می‌خواند. پس: ریشه درست، معنی گسترده‌تر از حق.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%84%D9%86%DA%AF",
+        "https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%99%E0%A5%8D%E0%A4%97",
+        "https://en.wiktionary.org/wiki/%CE%BB%CF%8C%CE%B3%CE%B3%CE%BF%CF%82"
+      ],
+      "ref_check": [
+        {
+          "ref": "IEC:678",
+          "status": "supports",
+          "note": "IEC.txt line 9662, leaf 382 (the leaf carries the printed page number 678): 'lengho (3) “trail, lie limp, pine” (?) (Variant: leng-, long-...) (Per. langam, langidan, inf. “limp” is from a variant of type *leng- in view of Skt. langami, id.; langah lame)'. Nourai's headwords Lenghô/Leng/Long are Mann's."
+        },
+        {
+          "ref": "IEC:709",
+          "status": "supports",
+          "note": "IEC.txt line 10042, leaf 400 (printed page 709): 'longos “lame, bent, crooked; meadow, lowland”. Skt. langah ‘lame’; Per. lang, id.; Mod. Gk. lóggos, m. (“wood, grove”. A Sl. LW for Andrioti); OCS logü, m., id.; Blg. lág ‘copse, meadow’...' — the source of Nourai's root name, of his double gloss, and of all three of his nodes."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "POK_full.txt lines 78238ff., pp. 959-960",
+          "stance": "supports",
+          "note": "'Root / lemma: (s)leg-, (s)lag- and (s)lēg-; Meaning: weak, feeble; Note: nasalized (s)leng- ... Material: Old Indic laṅga- “lame”; ... Latin laxus “slack, wide”, nasalized langueo, -ere ... References: WP. II 712 ff., WH. I 758 f.'"
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt line 953, s.v. slēg-",
+          "stance": "supports",
+          "note": "'slēg-. To be slack, be languid... Zero-grade form *(s)lag-... 2. Suffixed form *lag-so- in Latin laxus... 3. Suffixed nasalized form *la-n-g-u- in Latin languēre... 4. Compound *lag-ous- ... Greek lagōs, hare.' Same root, without the Indo-Iranian material."
+        },
+        {
+          "src": "IEC",
+          "where": "IEC.txt lines 9660-9662 (p.678) and 10042 (p.709)",
+          "stance": "supports",
+          "note": "Mann is the source of the chart, and his p.709 entry is verbatim Nourai's box."
+        },
+        {
+          "src": "SYN",
+          "where": "SYN.txt line 8131, §4.94 LAME",
+          "stance": "partial",
+          "note": "Buck's 'lame' list gives Grk. χωλός, Lat. claudus, Skt. śroṇa-, srāma-, paṅgu- and no Iranian form; he notes such words come 'from diverse notions such as ‘break, bend, twist’' — he does not use this root for 'lame'."
+        },
+        {
+          "src": "WLD",
+          "where": "only Band 3 (Register) on disk; no hits for laṅga / (s)leg-",
+          "stance": "silent",
+          "note": "Walde-Pokorny Bd. II 712 ff., which Pokorny cites for this root, is not available locally."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "lang «لَنگ»",
+          "verdict": "confirmed",
+          "derivation": "New Persian لنگ lang 'lame' continues Proto-Iranian *langa-, from Proto-Indo-Iranian *langa- 'lame' (= Sanskrit laṅga-), from PIE *(s)leh₁g- 'slack, weak' with the nasal infix (Wiktionary, citing Pokorny 1959 and Edelʹman, Etymological Dictionary of the Iranian Languages 2015). Phonetically nothing had to happen: Old Iranian *a stays a and the cluster -ng- is preserved through Middle Persian into New Persian, so lang is the direct continuant of the Middle Persian form; from the adjective are built langīdan 'to limp' and lang-lang, and Mann quotes precisely these forms at IEC p.678 ('Per. langam, langidan, inf. “limp”'). Cognates: Central Kurdish لەنگ leng, Pashto lang; Old Armenian լանկ lank is a borrowing from Iranian. The hemistich in the box, 'پای ما لنگ است و منزل بس دراز - دست ما کوتاه و خرما بر نخیل', is the familiar line traditionally attributed to Hafez and quoted proverbially. Note that Horn, Hübschmann and MacKenzie all happen to have no entry for this word, so Nourai's Mann citation is in fact the best available.",
+          "derivation_fa": "«لَنگ» در فارسی نو دنبالهٔ ایرانیِ آغازینِ *langa- است، از هندوایرانیِ آغازینِ *langa- «لنگ» (= laṅga- سنسکریت)، و آن از هندواروپاییِ آغازینِ *(s)leh₁g- «سست، ناتوان» با میان‌وندِ خیشومی (ویکی‌واژه، به استنادِ پوکورنی ۱۹۵۹ و اِدِلمان ۲۰۱۵). از نظرِ آوایی هیچ دگرگونیِ لازم نبوده است: aی ایرانیِ باستان a مانده و خوشهٔ ‑ng‑ از فارسیِ میانه تا فارسیِ نو پایدار بوده؛ پس «لنگ» بی‌واسطه دنبالهٔ صورتِ پهلوی است. از همین صفت «لنگیدن» و «لنگ‌لنگ» ساخته شده و مان هم در ص ۶۷۸ همین صورت‌ها را گواه می‌آورد. هم‌ریشه‌ها: «لەنگ» کردیِ سورانی و lang پشتو؛ լանկ (lank) ارمنیِ باستان وام‌واژه‌ای ایرانی است. بیتِ «پای ما لنگ است و منزل بس دراز...» بیتی است مشهور که به حافظ نسبت می‌دهند. نکته اینکه هرن و هوبشمان و مکنزی هیچ‌کدام مدخلی برای این واژه ندارند، پس ارجاعِ نورایی به مان در واقع بهترین گواهِ دردست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%84%D9%86%DA%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:678",
+              "status": "supports",
+              "note": "IEC.txt line 9662 (leaf 382 = printed p.678): '(Per. langam, langidan, inf. “limp” is from a variant of type *leng- in view of Skt. langami, id.; langah lame)'."
+            },
+            {
+              "ref": "IEC:709",
+              "status": "supports",
+              "note": "IEC.txt line 10042 (leaf 400 = printed p.709): 'longos “lame, bent, crooked...” Skt. langah ‘lame’; Per. lang, id.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "HRN.txt, grep 'lang' — only 'diräz ‘lang’' (German for 'long') and palang",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no entry for lang 'lame'."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt, grep 'lang' — only German 'lang', balang, palang, badrang",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien does not treat lang 'lame'."
+            },
+            {
+              "src": "PHD",
+              "where": "PHD.txt, grep 'lang [' — no MP entry",
+              "stance": "silent",
+              "note": "MacKenzie's Concise Pahlavi Dictionary as OCR'd here has palang, kulang, but no lang 'lame'; the MP form is inferred, not attested in his selection."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt, printed p. 453 (running head «لنگ لنگیدن»)",
+              "stance": "partial",
+              "note": "Aryanpur does have an entry for لنگ/لنگیدن with Sanskrit and Latin cognates glossed 'شل، لنگ' and references to برهان قاطع and فرهنگ معین, but the OCR of that page is too damaged to read the PIE root he assigns."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "CHEUNG.txt, grep 'lang' — only 'language(s)'",
+              "stance": "silent",
+              "note": "Cheung's Etymological Dictionary of the Iranian Verb has no *lang- root (it is denominal in Persian)."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/لنگ",
+              "stance": "supports",
+              "note": "'from Proto-Iranian *langa-, from Proto-Indo-Iranian *langa- (“lame”) ... ultimately from PIE *(s)leh₁g- (“feeble, weak”)', citing Pokorny 1959 and Edelʹman 2015."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Sanskrit",
+          "words": "langah",
+          "verdict": "confirmed",
+          "derivation": "Nourai's 'langah' is Mann's citation shape for Sanskrit लङ्ग laṅga-, nominative singular laṅgaḥ, adjective 'limping, lame', masculine noun 'limping, lameness' (Monier-Williams 1899 s.v.; Mayrhofer EWAia and Turner CDIAL are cited by Wiktionary for the Indo-Aryan continuations, e.g. Hindi laṅgṛā). Beside it stands the denominative laṅgati 'he limps'. It is the exact Indic match of Persian lang: both go back to Proto-Indo-Iranian *langa-, from PIE *(s)leh₁g- 'slack, weak' with a nasal infix, and Pokorny quotes it as his very first piece of material for that root ('Old Indic laṅga- ‘lame’', IEW 959). So the arrow root → Sanskrit is correct; only the transliteration is Mann's (nominative -aḥ written -ah, and no diacritic on the ṅ), not standard indological practice.",
+          "derivation_fa": "«langah»ِ نورایی همان صورتِ ارجاعیِ مان است برای लङ्ग (laṅga-) سنسکریت، فاعلیِ مفردِ laṅgaḥ، صفت به معنیِ «لنگ، لنگان» و اسمِ نریِ «لنگی» (مونیه‌ویلیامز ۱۸۹۹؛ ویکی‌واژه برای دنباله‌های هندوآریایی مانندِ laṅgṛāی هندی به مایرهوفر و ترنر ارجاع می‌دهد). در کنارِ آن فعلِ اسم‌بنیادِ laṅgati «می‌لنگد» هست. این واژه دقیقاً همتای هندیِ «لنگ» فارسی است: هر دو از هندوایرانیِ آغازینِ *langa-، از *(s)leh₁g- هندواروپایی با میان‌وندِ خیشومی؛ و پوکورنی نخستین گواهِ خود برای این ریشه را همین «laṅga- هندیِ باستان» می‌آورد (ص ۹۵۹). پس پیکانِ ریشه→سنسکریت درست است؛ تنها آوانگاریِ «langah» از مان است و شیوهٔ متعارفِ هندشناسی نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%99%E0%A5%8D%E0%A4%97"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:709",
+              "status": "supports",
+              "note": "IEC.txt line 10042 (leaf 400 = printed p.709): 'Skt. langah ‘lame’' is the first item of Mann's longos entry — Nourai's node verbatim."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "POK_full.txt line ~78243, IEW pp. 959-960",
+              "stance": "supports",
+              "note": "'Material: Old Indic laṅga- “lame”' — the first witness of Pokorny's (s)leg- root."
+            },
+            {
+              "src": "Wiktionary/Monier-Williams",
+              "where": "en.wiktionary.org/wiki/लङ्ग",
+              "stance": "supports",
+              "note": "'limping, lame' (adj.), 'limping, lameness' (n.), 'from Proto-Indo-European *(s)leh₁g- (weak, feeble)'; Monier-Williams 1899, Mayrhofer 2001, Turner 1969-85 cited."
+            },
+            {
+              "src": "AHD",
+              "where": "AHD_watkins1985.txt line 953, s.v. slēg-",
+              "stance": "silent",
+              "note": "Watkins lists only Germanic, Latin and Greek reflexes; no Sanskrit."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "loggos",
+          "verdict": "disputed",
+          "derivation": "There is no Ancient Greek *λόγγος. λόγγος 'dense and bushy wood, grove' is Byzantine and Modern Greek, and it is a Slavic loanword: Proto-Slavic *lǫ̑gъ 'depression, meadow, valley' → Byzantine Greek λόγγος → Modern Greek λόγγος (Wiktionary, following Andriotis' Etymological Dictionary of Standard Modern Greek and the Dictionary of Standard Modern Greek). Nourai's own cited reference says the same thing: Mann, IEC p.709, writes 'Mod. Gk. lóggos, m. (“wood, grove”. A Sl. LW for Andrioti)' — i.e. he labels it Modern Greek and a Slavic loanword, and lists it only because he wanted the Slavic 'meadow, lowland' family (OCS logŭ, Bulg. lǎg, Cz. luh, Pol. ług) in the same entry as 'lame'. The chart drops both qualifications, so there are two errors: the language label ('Greek' for a word first attested in Byzantine Greek), and the derivation (a Slavic borrowing, not a Greek inheritance — and the Slavic word itself has no accepted link to *(s)leh₁g- 'slack, lame'). This node is also the sole basis of the root box's extra gloss 'also a low land, meadow'.",
+          "derivation_fa": "در یونانیِ باستان *λόγγος وجود ندارد. λόγγος به معنیِ «بیشهٔ انبوه، جنگل» یونانیِ بیزانسی و نو است و وام‌واژه‌ای است اسلاوی: اسلاویِ آغازین *lǫ̑gъ «گودی، چمنزار، دره» ← یونانیِ بیزانسی λόγγος ← یونانیِ نو λόγγος (ویکی‌واژه، به پیرویِ آندریوتیس و «فرهنگِ یونانیِ نوِ معیار»). خودِ مرجعی که نورایی آورده همین را می‌گوید: مان در ص ۷۰۹ می‌نویسد «Mod. Gk. lóggos ... A Sl. LW for Andrioti» یعنی هم آن را یونانیِ نو می‌خواند و هم وام‌واژهٔ اسلاوی، و تنها از آن رو در این مدخل آورده است که می‌خواسته خانوادهٔ اسلاویِ «چمنزار/زمینِ پست» را با «لنگ» یکی کند. نمودار هر دو قید را انداخته است، پس دو خطا دارد: برچسبِ زبانی («یونانی» برای واژه‌ای که نخست در یونانیِ بیزانسی گواهی شده) و خودِ اشتقاق (وام‌گیری از اسلاوی، نه میراثِ یونانی؛ و آن واژهٔ اسلاوی هم پیوندِ پذیرفته‌شده‌ای با *(s)leh₁g- «سست، لنگ» ندارد). همین گره تنها تکیه‌گاهِ معنیِ افزودهٔ جعبهٔ ریشه («و نیز زمینِ پست، چمنزار») است. پژوهشِ امروزی این پیکان را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BB%CF%8C%CE%B3%CE%B3%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:709",
+              "status": "partial",
+              "note": "IEC.txt line 10042 (leaf 400 = printed p.709) does contain the word, but with the caveat the chart omits: 'Mod. Gk. lóggos, m. (“wood, grove”. A Sl. LW for Andrioti)' — Modern Greek, and a Slavic loanword."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/λόγγος",
+              "stance": "contradicts",
+              "note": "'Inherited from Byzantine Greek λόγγος (lóngos), from Proto-Slavic *lǫ̑gъ (“depression, meadow, valley”)' — a Slavic loan, not an IE inheritance in Greek."
+            },
+            {
+              "src": "POK",
+              "where": "POK_full.txt pp. 959-960, s.v. (s)leg-",
+              "stance": "silent",
+              "note": "Pokorny's material for this root contains no Greek λόγγος and no Slavic 'meadow' words; his Greek reflexes are λήγω, λαγαρός, λαγώς."
+            },
+            {
+              "src": "IEC",
+              "where": "IEC.txt line 10042",
+              "stance": "partial",
+              "note": "Mann's own 'A Sl. LW' note undercuts the arrow he is cited for."
+            },
+            {
+              "src": "SYN",
+              "where": "SYN.txt, §§ on 'meadow'/'grove' — no λόγγος",
+              "stance": "silent",
+              "note": "Buck does not use the word."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
