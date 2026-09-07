@@ -1,0 +1,405 @@
+{
+  "pdf_page": 367,
+  "book_page": 337,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Nitiru",
+      "verdict": "disputed",
+      "modern_form": "Egyptian nṯrj 'natron' (the Akkadian word nitiru is itself a borrowing of it, not the source of the family)",
+      "note": "The word Nourai puts at the head of the chart is real: Zimmern (AKD p.61, §15 'Mineralien') lists 'nitiru wohl Natron, nur vereinzelt zu belegen'. But Zimmern prints the whole entry in square brackets — his notation for a culture word that is NOT an Akkadian export — and says explicitly 'wohl, wie hebr. nāter, aram. nitrō, netrō, griech. νίτρον, λίτρον usw., Natron, < ägypt. ntrj'. That is, Akkadian nitiru is a sibling borrowing from Egyptian, not the ancestor of Hebrew nether. Every modern authority agrees: Ernout-Meillet ('nitrum … emprunt latinisé au gr. νίτρον, lui-même emprunt à l'égyptien'), Lokotsch no.1567, Etymonline ('Egyptian ntr'), Wiktionary (etymology tree Egyptian nṯr > nṯrj > Semitic > Gk νίτρον). So the root box should read Egyptian nṯrj (Coptic ⲛⲓⲧⲣⲟⲛ), with Akkadian nitiru and Hebrew néṯer as two independent Semitic-area borrowings of it. The chain below the root (Semitic > Greek > Latin/Arabic > French/Spanish > English/Persian) is otherwise sound, and the gloss 'natron; carbonate of soda' is right. Chart-internal error: the Greek node prints 'natron' where Greek in fact has νίτρον/λίτρον — see node #2.",
+      "note_fa": "سرریشهٔ این نمودار در واقع مصری باستان nṯrj «ناترون، کربنات سدیم» است، نه اکدی. تسیمرن در «وام‌واژه‌های اکدی» (ص ۶۱) واژهٔ اکدی nitiru را در قلاب گذاشته و خود می‌نویسد که این واژه، مانند عبری nāter و آرامی nitrō و یونانی νίτρον، از مصری nṯrj آمده است؛ پس اکدی nitiru هم‌سطح و هم‌وامِ عبری است و نیای آن نیست. ارنو-میه، لوکوچ (شمارهٔ ۱۵۶۷) و ویکی‌واژه نیز همین را می‌گویند. بنابراین ادعای نورایی در مورد سرریشه نادرست است و باید مصری باستان بنشیند؛ اما بقیهٔ زنجیره (سامی › یونانی › لاتینی و عربی › فرانسه و اسپانیایی › انگلیسی و فارسی) درست است. معنای «ناترون، کربنات سدیم» هم درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/natron",
+        "https://en.wiktionary.org/wiki/niter",
+        "https://www.etymonline.com/word/natron",
+        "https://www.etymonline.com/word/nitre"
+      ],
+      "ref_check": [
+        {"ref": "AKD:61", "status": "partial", "note": "AKD.txt, leaf 71 (the printed '61' stands immediately above the line): '[akk. nitiru wohl Natron, nur vereinzelt zu belegen, wohl, wie hebr. näter, aram. nitrō, netrō, griech. νίτρον, λίτρον usw., Natron, < ägypt. ntrj.]'. Page and word are exactly Nourai's, but Zimmern derives BOTH the Akkadian and the Hebrew from Egyptian nṯrj — he does not make Akkadian the source."}
+      ],
+      "consulted": [
+        {"src": "LKT", "where": "no. 1567, p. ~122 (leaf 148)", "stance": "contradicts", "note": "'1567. Hebr. neθer: Natron [Prov. 25,20; Jer 2,22; wohl wie aram. niṭrā aus äg. nṯrj], hieraus gr. νίτρον, lat. nitrum …' — Lokotsch heads the family with Hebrew and traces it to Egyptian; no Akkadian at all."},
+        {"src": "LAT", "where": "s.v. nitrum (Ernout-Meillet)", "stance": "contradicts", "note": "'nitrum, -ī n.: nitre. Emprunt latinisé au gr. νίτρον, lui-même emprunt à l'égyptien.' — the ultimate source is Egyptian."},
+        {"src": "KLN", "where": "p. 1049 s.v. niter", "stance": "partial", "note": "'fr. Gk. νίτρον … fr. Heb. nether, \"carbonate of soda, natron\" (stem nithr-; cp. Aram. nithra)' — Klein stops at Hebrew and knows no Akkadian stage."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Hebrew",
+          "words": "nither, nether",
+          "verdict": "confirmed",
+          "derivation": "Biblical Hebrew נֶתֶר néṯer 'washing soda, natron' (Prov. 25:20 'vinegar upon nitre'; Jer. 2:22), oblique stem niṯr-, beside Aramaic niṭrā/neṯrō. The word is a Late-Bronze-Age culture loan from Egyptian nṯrj 'natron' (nṯr 'divine' + adjectival -j, i.e. 'the divine/purifying salt' used in mummification), which reached Canaan through the Egyptian natron trade of the Wadi Naṭrūn lakes. Nourai's two spellings 'nither, nether' are simply the construct/oblique stem niṯr- and the absolute néṯer. What is wrong is only the arrow's source: Hebrew néṯer does not come from Akkadian nitiru — the two are parallel borrowings of the same Egyptian word (Zimmern AKD 61, Lokotsch 1567).",
+          "derivation_fa": "عبری کتاب مقدس נֶתֶר (néṯer) «ناترون، جوش‌شیرین طبیعی» (امثال ۲۵:۲۰ و ارمیا ۲:۲۲) با ستاک مایل niṯr-، در برابر آرامی niṭrā. این واژه وام‌واژه‌ای فرهنگی از مصری nṯrj «ناترون» است (از nṯr «خدایی» + پسوند صفتی ‎-j‎، یعنی «نمکِ پاک‌کنندهٔ خدایان» که در مومیایی به کار می‌رفت) و از راه بازرگانی ناترون دریاچه‌های وادی‌النطرون به کنعان رسیده است. دو نگارش نورایی (nither/nether) همان ستاک مایل و صورت مطلق‌اند. ادعای نورایی دربارهٔ خودِ واژه درست است، ولی وام‌گیری از اکدی نیست: عبری و اکدی هر دو مستقیماً از مصری وام گرفته‌اند.",
+          "sources": ["https://en.wiktionary.org/wiki/niter", "https://www.etymonline.com/word/nitre"],
+          "ref_check": [
+            {"ref": "AKD:61", "status": "partial", "note": "AKD.txt leaf 71: '… wohl, wie hebr. näter, aram. nitrō, netrō, griech. νίτρον … < ägypt. ntrj' — Zimmern names hebr. nāter on the cited page, but as a co-borrowing from Egyptian, not as a descendant of Akkadian."},
+            {"ref": "KLN:1031", "status": "partial", "note": "KLN_1966 line 25028 (p.1031) s.v. natron: 'Fr. Sp. natron, fr. Arab. natrun, fr. Gk. νίτρον. See niter.' The Hebrew stage is given on p.1049 s.v. niter ('fr. Heb. nether'), not on p.1031."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 1567", "stance": "supports", "note": "'Hebr. neθer: Natron [Prov. 25,20; Jer 2,22; wohl wie aram. niṭrā aus äg. nṯrj], hieraus gr. νίτρον, lat. nitrum' — Hebrew néṯer < Egyptian nṯrj, and Greek out of Hebrew."},
+            {"src": "KLN", "where": "p. 1049 s.v. niter", "stance": "supports", "note": "'fr. Heb. nether, \"carbonate of soda, natron\" (stem nithr-; cp. Aram. nithra)' — both of Nourai's spellings are Klein's."},
+            {"src": "SKT", "where": "s.v. Nitre (SKT.txt line 12318)", "stance": "partial", "note": "'F. nitre — L. nitrum — Gk. νίτρον — Arab. nitrun, natrun, natron' — Skeat wrongly routes Greek through Arabic and omits the Hebrew/Egyptian stage; superseded."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Greek",
+          "words": "natron",
+          "verdict": "transcription_suspect",
+          "derivation": "The Greek word is νίτρον nítron (also Doric/older λίτρον lítron), 'native soda, natron', attested from Herodotus and the Hippocratic corpus onward and used by Aristotle (Meteorologica IV.6); it was borrowed from a Semitic form of the Egyptian word (Hebrew néṯer / Aramaic niṭrā) in the archaic-classical period, Greek ι rendering the Semitic short e/i and the Semitic ṯ/ṭ being taken over as τ. There is no Greek *natron: that a-vocalism is the Arabic-Spanish reflex (naṭrūn > natrón), which is what the daughter boxes of this very node correctly show. The printed page 337 does show 'natron' in the Greek box, so the extraction is faithful and the slip is Nourai's own: he has back-projected the modern form 'natron' onto Greek. Read νίτρον (nitron) and the whole chart works: νίτρον > Lat. nitrum > Fr. nitre, and νίτρον > Arab. naṭrūn > Sp. natrón.",
+          "derivation_fa": "صورت یونانی این واژه νίτρον (nítron) و در گونهٔ دوری λίτρον است، به معنی «ناترونِ طبیعی»، که از هرودوت و بقراط به بعد گواهی دارد و ارسطو نیز در «هواشناسی» (۴:۶) آن را به کار برده است؛ یونانی آن را از صورتی سامی از واژهٔ مصری (عبری néṯer / آرامی niṭrā) وام گرفته و ι یونانی به‌جای e/i کوتاهِ سامی و τ به‌جای ṯ/ṭ نشسته است. یونانی هیچ‌گاه *natron نداشته؛ واکهٔ a از راه عربی نَطرون و اسپانیایی natrón پدید آمده که خودِ نورایی در خانه‌های پایین‌تر همان را آورده است. تصویر صفحهٔ ۳۳۷ نشان می‌دهد که در خانهٔ یونانی «natron» چاپ شده است، پس خوانش اسکن درست بوده و خطا از خودِ کتاب است (نورایی صورت نوین را به یونانی برگردانده). صحیح: νίτρον.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BD%CE%AF%CF%84%CF%81%CE%BF%CE%BD",
+            "https://en.wiktionary.org/wiki/natron",
+            "https://www.etymonline.com/word/nitre"
+          ],
+          "error_in": "book",
+          "book_prints": "natron",
+          "correct_form": "νίτρον (nítron), Doric λίτρον",
+          "ref_check": [
+            {"ref": "KLN:1049", "status": "contradicts", "note": "KLN_1966 line 25473 (between the page markers 1046 and 1054, i.e. p.~1049) s.v. niter: 'fr. L. nitrum, fr. Gk. νίτρον, \"native sodium carbonate, natron\", fr. Heb. nether'. Klein's Greek form is νίτρον, not natron — the reference Nourai cites gives the correct form, so the misprint is his."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 1567", "stance": "contradicts", "note": "'hieraus gr. νίτρον, lat. nitrum' — Lokotsch too has only νίτρον."},
+            {"src": "AKD", "where": "p. 61", "stance": "contradicts", "note": "Zimmern writes 'griech. νίτρον, λίτρον usw.' — the two attested Greek shapes, neither with a."},
+            {"src": "LAT", "where": "s.v. nitrum", "stance": "contradicts", "note": "'Emprunt latinisé au gr. νίτρον' (Ernout-Meillet)."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "natrŭn",
+          "verdict": "confirmed",
+          "derivation": "Arabic نَطْرُون naṭrūn 'natron, soda', a Hellenistic-period loan of Greek νίτρον taken over by the Egyptian-Arabic mineral and soap trade; the Greek short ι was heard as a, the emphatic ṭ substitutes for Greek τ next to r (as regularly in Arabic loans from Greek), and the noun was fitted to the Arabic faʿlūn/quTrūn shape with -ūn, exactly as qaṭrān 'tar' beside Greek κέδρος. The Wadi Naṭrūn ('Natron Valley') lakes west of Cairo, the classical source of the mineral, carry the same word. From Arabic it went on to Spanish (with and without the article: natrón, anatrón) and to French/English natron. Nourai's transliteration natrŭn with a breve is the book's way of writing the long ū of naṭrūn.",
+          "derivation_fa": "عربی نَطْرُون وام‌واژه‌ای از یونانی νίτρον است که در دورهٔ هلنیستی از راه تجارت مواد معدنی و صابون‌سازی مصر به عربی رسیده: ι کوتاه یونانی به a بدل شده، τ در همسایگی r به طای مفخّم (ط) تبدیل شده — چنان‌که در وام‌واژه‌های یونانی در عربی معمول است — و واژه به قالب فَعْلُون درآمده، درست مانند قَطران. نام «وادی‌النطرون» در غرب قاهره، که کانِ کلاسیک این مادّه است، از همین واژه است. از عربی به اسپانیایی (natrón و با حرف تعریف anatrón) و از آن‌جا به فرانسه و انگلیسی رفته است. آوانگاری «natrŭn» در کتاب همان نَطرون با ūی کشیده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%D8%B7%D8%B1%D9%88%D9%86",
+            "https://en.wiktionary.org/wiki/natron"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1031", "status": "supports", "note": "KLN_1966 line 25028 (p.1031) s.v. natron: 'Fr. Sp. natron, fr. Arab. natrun, fr. Gk. νίτρον' — Arabic naṭrūn out of Greek, exactly the arrow drawn."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 1567", "stance": "supports", "note": "'Aus ar. naṭrūn ergab sich frz. engl. natron, dtsch. Natron und mit ar. Art. sp. anatron.'"},
+            {"src": "AFM", "where": "AFM.txt line 834 s.v. (البورق)", "stance": "silent", "note": "Addi Shir mentions النطرون only inside the entry on بورق ('وهو النطرون معرب بوره') — he treats bawraq as arabized Persian būra and gives no etymology for naṭrūn itself; so no Persian claim on the word."},
+            {"src": "TAD", "where": "TAD.txt lines 590-592", "stance": "partial", "note": "al-Unaysi distinguishes بورق from النطرون and connects النطرون with 'وادي النطرون' in Egypt — Egyptian, not Persian or Akkadian, provenance."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "natrûn «نطرون» : sodium",
+          "verdict": "plausible",
+          "derivation": "New Persian نطرون naṭrūn is the Arabic word taken over unchanged (spelled with ط, the tell-tale Arabic orthography); Dehkhoda marks it معرب, i.e. an Arabic form, and glosses it 'بورهٔ ارمنی … بورق' with citations from Muntahā al-arab, the Ẕaḵīra-ye Ḵᵛārazmšāhī and the Persian Ṣaydana — that is, it entered Persian through the medieval Arabic pharmacological and alchemical literature (9th-12th c.), not through everyday speech. The route Greek > Arabic > Persian that Nourai draws is therefore right. Only the gloss is loose: نطرون means 'natron, native soda', not 'sodium' (سدیم/سدیوم is the modern element name; Latin natrium supplies only the chemical symbol Na). Nourai's MON:4745 is in Mo'in vol. 4 (foreign words), which is not in the local library, so the citation itself could not be opened.",
+          "derivation_fa": "«نطرون» در فارسی همان واژهٔ عربی است که بی‌تغییر گرفته شده و املای آن با «ط» نشانهٔ روشنِ معرّب بودن است. دهخدا آن را «(معرب، اِ)» می‌داند و «بورهٔ ارمنی … بورق» معنی می‌کند و از منتهی‌الارب، ذخیرهٔ خوارزمشاهی و ترجمهٔ صیدنه شاهد می‌آورد؛ یعنی این واژه از راه متون داروشناسی و کیمیای عربی سدهٔ سوم تا ششم به فارسی رسیده است. پس مسیر یونانی › عربی › فارسی که نورایی کشیده درست است. تنها معنی‌گذاری او دقیق نیست: نطرون «ناترون/کربنات سدیم طبیعی» است، نه «سدیم» (که در فارسی سدیم/سدیوم است و نشانِ شیمیایی Na آن از natrium لاتینی نو گرفته شده). صفحهٔ مورد استناد (معین ۴۷۴۵، جلد چهارم) در کتابخانهٔ محلی نیست.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%86%D8%B7%D8%B1%D9%88%D9%86/",
+            "https://en.wiktionary.org/wiki/%D9%86%D8%B7%D8%B1%D9%88%D9%86"
+          ],
+          "ref_check": [
+            {"ref": "MON:4745", "status": "not_checked", "note": "Mo'in vol. 4 (foreign words, pp. ~4300-5000) is not among the local scans (only the 2-vol. Adena abridgement, which has no نطرون: grep 'نطرون' MON_part1/2.txt → no hit) and page numbers cannot be mapped on vajehyab/abadis."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "abadis.ir/fatofa/نطرون (Dehkhoda + Mo'in section)", "stance": "supports", "note": "'نطرون. [ن َ] (معرب، اِ) بوره ارمنی. (منتهی الارب)… بورق. (المنجد)' — tagged معرب, i.e. from Arabic, with medieval pharmacological sources."},
+            {"src": "RCH", "where": "RCH.txt line 95706", "stance": "supports", "note": "Richardson's Persian-Arabic-English dictionary: 'A nitrun or natrun, ناطرون. Natron. Native alkaline salt.' — marked 'A' (Arabic) in a Persian dictionary."},
+            {"src": "BQT", "where": "grep 'نطرون' in BQT_v1..v5_pages.txt", "stance": "silent", "note": "Borhan-e Qateʿ has no نطرون entry at all — it is a learned Arabic technical word, not part of the Persian lexicon Borhan records."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Spanish",
+          "words": "natron",
+          "verdict": "plausible",
+          "derivation": "Spanish natrón 'natron' is an Arabic loan of naṭrūn from the Andalusi/medieval apothecary vocabulary; the doublet anatrón (Medieval Latin and Paracelsus anatron) shows the Arabic definite article agglutinated, an-naṭrūn, the standard sign of an Iberian Arabism. Klein makes Spanish the immediate source of the English word, which is why Nourai draws Spanish here. The caution: the older Iberian and French lexicographers (Lokotsch 1567, Devic, Pihan) record only anatrón for Spanish and let French/English take natron straight from Arabic, and Etymonline dates English natron to the 1680s from French natron (1660s). So the Spanish node is real but is one of two competing routes rather than the certain one.",
+          "derivation_fa": "اسپانیایی natrón وام‌واژه‌ای عربی از نَطرون است که از راه واژگان داروسازی اندلس و سپس اروپا رفته؛ گونهٔ دیگرش anatrón (در لاتینی میانه و در آثار پاراسلسوس anatron) با حرف تعریف عربی چسبیده است (an-naṭrūn) که نشانهٔ همیشگی عربی‌واژه‌های شبه‌جزیرهٔ ایبری است. کلاین اسپانیایی را سرچشمهٔ بی‌واسطهٔ واژهٔ انگلیسی می‌داند و نورایی نیز همین را کشیده است. با احتیاط پذیرفتنی است: لوکوچ (۱۵۶۷)، دِویک و پیان برای اسپانیایی تنها anatrón را ثبت کرده‌اند و فرانسه و انگلیسی را مستقیم از عربی می‌گیرند، و اتیمولاین natron انگلیسی را دههٔ ۱۶۸۰ از فرانسهٔ natron (۱۶۶۰) می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/natron",
+            "https://www.etymonline.com/word/natron"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1031", "status": "supports", "note": "KLN_1966 line 25028 (p.1031): 'natron, n., native sodium carbonate — Fr. Sp. natron, fr. Arab. natrun, fr. Gk. νίτρον' — Klein's 'Fr. Sp.' = 'from Spanish', so Spanish natron < Arabic naṭrūn, and English out of Spanish."}
+          ],
+          "consulted": [
+            {"src": "LKT", "where": "no. 1567", "stance": "partial", "note": "'Aus ar. naṭrūn ergab sich frz. engl. natron … und mit ar. Art. sp. anatron' — Lokotsch's Spanish form is anatrón, and he does not make Spanish the donor of the English word."},
+            {"src": "DEV", "where": "DEV.txt line 1834 s.v. Natron", "stance": "partial", "note": "'Natron. Esp. anatron. De l'arabe نطرون natroun' — Devic likewise gives Spanish anatrón only."},
+            {"src": "PHN", "where": "PHN.txt lines 7932-7939, p. 288", "stance": "partial", "note": "Pihan s.v. NATRON, s.m. (a.): '… Autrefois on écrivait également ANATRON, et cette variante représente le même mot arabe' with the article — a French Arabism, no Spanish intermediary."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "natron",
+          "verdict": "plausible",
+          "derivation": "English natron 'native sodium carbonate' is first recorded in the 1680s. Klein derives it from Spanish natron (hence Nourai's arrow), and Wiktionary keeps the Spanish stage but inserts French: Arabic naṭrūn > Spanish natrón > French natron (1660s) > English natron. Etymonline and Lokotsch skip Spanish and give French natron, itself 'said to be directly from Arabic natrun', as the donor. The word therefore certainly reaches English from a Romance intermediary of the Arabic form, but the immediate donor is more probably French than Spanish; Nourai's arrow is the minority (Klein's) analysis.",
+          "derivation_fa": "انگلیسی natron «کربنات سدیم طبیعی» از دههٔ ۱۶۸۰ گواهی دارد. کلاین آن را از اسپانیایی natron می‌گیرد و نورایی همین را آورده است؛ ویکی‌واژه مرحلهٔ اسپانیایی را نگه می‌دارد ولی فرانسه را نیز می‌افزاید: عربی نَطرون › اسپانیایی natrón › فرانسهٔ natron (۱۶۶۰) › انگلیسی. اتیمولاین و لوکوچ اسپانیایی را حذف می‌کنند و فرانسه را — که خود «بی‌واسطه از عربی» است — وام‌دهنده می‌دانند. پس واژه بی‌گمان از یک زبان رومی به انگلیسی رسیده، اما وام‌دهندهٔ بی‌واسطه بیشتر فرانسه است تا اسپانیایی؛ خوانش نورایی همان خوانش اقلیّتِ کلاین است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/natron",
+            "https://en.wiktionary.org/wiki/natron"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives this node no reference; it hangs on the KLN:1031 citation of its Spanish parent."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "p. 1031 s.v. natron", "stance": "supports", "note": "'Fr. Sp. natron, fr. Arab. natrun' — English straight from Spanish, as drawn."},
+            {"src": "LKT", "where": "no. 1567", "stance": "partial", "note": "'Aus ar. naṭrūn ergab sich frz. engl. natron' — French and English out of Arabic, no Spanish link."},
+            {"src": "SKT", "where": "SKT.txt line 12318 s.v. Nitre", "stance": "partial", "note": "'(Nitre and natron are doublets, but applied to different substances.)' — Skeat confirms the doublet relation of nitre/natron but routes both through Arabic."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "nitrum : natron ; natrium : sodium",
+          "verdict": "plausible",
+          "derivation": "Latin nitrum 'natron, native soda' (Pliny, Vitruvius) is a straight Latinization of Greek νίτρον — Ernout-Meillet: 'nitrum, -ī n.: nitre. Emprunt latinisé au gr. νίτρον, lui-même emprunt à l'égyptien' — with the Latin derivatives nitrāria, nitrātus, nitrōsus and, compounded with sal, the Romance sal nitri > It. salnitro, Sp. salitre 'saltpetre'. That word is correctly placed. natrium, however, is not Latin at all but Modern Latin: Klein, 'natrium, n., sodium (chem.) — ModL. See natron and chem. suff. -ium', i.e. it was coined in the early 19th century (Berzelius' Natrium, whence the symbol Na) on natron, the Arabic-Spanish branch, not on nitrum. Putting it in the Latin box under Greek is thus a conflation of a classical word with a 19th-century chemists' neologism from the other branch of the same chart.",
+          "derivation_fa": "لاتینی nitrum «ناترون» (در پلینیوس و ویتروویوس) صورت لاتینی‌شدهٔ یونانی νίτρον است؛ ارنو-میه: «وام‌واژهٔ لاتینی‌شده از νίτρον که خود از مصری است»، با مشتقات nitrāria، nitrātus، nitrōsus و ترکیب sal nitri که ایتالیایی salnitro و اسپانیایی salitre «شوره» از آن است. این بخش درست است. اما natrium هرگز لاتینی کلاسیک نیست، بلکه لاتینی نو است: کلاین می‌نویسد «natrium: سدیم (شیمی) — لاتینی نو، بنگرید به natron». این واژه را در آغاز سدهٔ نوزدهم (برتسلیوس) بر پایهٔ natron ساخته‌اند — یعنی از شاخهٔ عربی-اسپانیایی، نه از nitrum — و نشانِ شیمیایی Na از آن است. پس گذاشتن آن در خانهٔ لاتینی زیر یونانی، درهم‌آمیختنِ واژه‌ای کلاسیک با برساختهٔ شیمی‌دانان سدهٔ نوزدهم است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/natron",
+            "https://en.wiktionary.org/wiki/niter"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1049", "status": "partial", "note": "KLN_1966 line 25473 (p.~1049) s.v. niter: 'F. nitre, fr. L. nitrum, fr. Gk. νίτρον' — supports nitrum < νίτρον. But natrium is treated at p.1031 (line 25027): 'natrium, n., sodium (chem.) — ModL. See natron and chem. suff. -ium', so the cited page does not support natrium as Latin, and Klein derives it from natron, not nitrum."}
+          ],
+          "consulted": [
+            {"src": "LAT", "where": "LAT.txt line 41581 s.v. nitrum", "stance": "supports", "note": "'nitrum, -ī n.: nitre. Emprunt latinisé au gr. νίτρον, lui-même emprunt à l'égyptien. Dérivés latins: nitraria f.; nitratus, nitreus, nitrosus.'"},
+            {"src": "LKT", "where": "no. 1567", "stance": "supports", "note": "'hieraus gr. νίτρον, lat. nitrum und mit lat. sal zusammengesetzt: it. salnitro, pg. sp. salitre …'"},
+            {"src": "KLN", "where": "p. 1031 s.v. natrium", "stance": "contradicts", "note": "'ModL.' — natrium is a modern coinage from natron, not a Latin word inherited from nitrum."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "French",
+          "words": "nitre : nitrate of potassium",
+          "verdict": "confirmed",
+          "derivation": "Old French nitre is attested from the 13th century, a learned borrowing of Latin nitrum with the usual Latin -um > French -e; the word first meant 'native soda' and only from the late 16th century, through alchemical usage, settled on saltpetre = potassium nitrate, which is Nourai's gloss. On nitre the French chemists then built the whole modern vocabulary: nitrique (1787), nitrate, nitrifier, nitrification (Guyton de Morveau 1787) and nitrogène (coined 1790 by J. A. Chaptal, nitron + -gène 'producing'), which is how the family passes on to English and Persian in the two boxes below.",
+          "derivation_fa": "فرانسهٔ کهن nitre از سدهٔ سیزدهم گواهی دارد و وام‌واژه‌ای عالمانه از لاتینی nitrum است با تبدیل معمولِ ‎-um‎ لاتینی به ‎-e‎ فرانسوی. نخست به معنی «ناترون» بود و تنها از پایان سدهٔ شانزدهم، در کاربرد کیمیاگران، به معنی «شوره/نیترات پتاسیم» درآمد — همان معنایی که نورایی آورده است. شیمی‌دانان فرانسوی بر پایهٔ nitre همهٔ واژگان نوین را ساختند: nitrique (۱۷۸۷)، nitrate، nitrifier و nitrification (گیتون دو مورو، ۱۷۸۷) و nitrogène (ساختهٔ ژان‌آنتوان شاپتال در ۱۷۹۰ از nitron + گونهٔ ‎-gène‎ «زایا»). ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/nitre",
+            "https://www.etymonline.com/word/nitrogen"
+          ],
+          "ref_check": [
+            {"ref": "KLN", "status": "supports", "note": "KLN_1966 line 25473 s.v. niter/nitre: 'F. nitre, fr. L. nitrum'; line 25475 s.v. nitric: 'F. nitrique, fr. nitre'; nitrification 'F., coined by the French chemist Guyton de Morveau (1737-1816) in 1787'. Klein is cited without a page here and the pages found (1049-1050) say exactly this."}
+          ],
+          "consulted": [
+            {"src": "DEV", "where": "DEV.txt lines 283, 297, 307", "stance": "partial", "note": "Devic discusses only the Arabic words confused with nitre in French alchemy (algali, alaurat < al-bawraq) — he does not treat nitre itself, since it is a Latin-Greek word, not an Arabism: silent on the arrow but consistent with it."},
+            {"src": "SKT", "where": "SKT.txt line 12318", "stance": "supports", "note": "'Nitre. (F. – L. – Gk. – Arab.) F. nitre. — L. nitrum. — Gk. νίτρον' — French from Latin, as drawn (Skeat's further Arabic step is wrong)."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "nîtrîc «نیتریک اسید» : nitric ; nîtrât «نیترات» : nitrate ; nîtrogen «نیتروژن» : nitrogen",
+          "verdict": "confirmed",
+          "derivation": "All three are 20th-century French loans in Persian, taken over when Iranian secondary and medical education was built on French models (Dar al-Fonun and after), which is why they keep the French shapes nitrique/nitrate/nitrogène rather than the English ones and why the -ژ- of نیتروژن renders French [ʒ] in -gène. Dehkhoda/Mo'in tag them accordingly: 'نیتروژن. [رُ ژِ] (فرانسوی، اِ) ازت' and 'نیترات. (فرانسوی، اِ) … (فرهنگ فارسی معین)'. Note the doublet situation: alongside the French loans Persian also has the older Arabic-mediated ازت (French azote, Lavoisier's name for the same element) and the native شوره for saltpetre. اسید in نیتریک اسید is itself the French/English acide/acid.",
+          "derivation_fa": "این سه واژه وام‌واژه‌های فرانسوی سدهٔ چهاردهم/بیستم‌اند و در دورهٔ برپایی آموزش نوین ایران (دارالفنون و پس از آن) که الگوی آموزشی و اصطلاح‌شناسی آن فرانسوی بود به فارسی آمدند؛ به همین سبب صورت فرانسوی nitrique/nitrate/nitrogène را نگه داشته‌اند نه صورت انگلیسی را، و «ژ» در «نیتروژن» همان [ʒ] فرانسوی در ‎-gène‎ است. دهخدا و معین نیز همین را می‌گویند: «نیتروژن. [رُ ژِ] (فرانسوی، اِ) ازت» و «نیترات. (فرانسوی، اِ) … (فرهنگ فارسی معین)». نکته اینکه فارسی در برابر این‌ها «ازت» (از azote فرانسوی) و «شوره» را هم دارد که دوگانهٔ همان مفاهیم‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%86%DB%8C%D8%AA%D8%B1%D9%88%DA%98%D9%86/",
+            "https://abadis.ir/fatofa/%D9%86%DB%8C%D8%AA%D8%B1%D8%A7%D8%AA/",
+            "https://www.etymonline.com/word/nitrogen"
+          ],
+          "ref_check": [
+            {"ref": "MON:4880", "status": "partial", "note": "The print page (Mo'in vol. 4, foreign words) is not in the local library, but the online Mo'in/Dehkhoda text of both headwords is explicit and is quoted from Mo'in by name: 'نیترات. (فرانسوی، اِ) … ترکیبی که از اسید نیتریک با یک فلز یا یک باز نتیجه می‌شود. (فرهنگ فارسی معین)'; 'نیتروژن. [رُ ژِ] (فرانسوی، اِ) ازت'. So Mo'in does tag them French, as the arrow requires; only the page number is unverifiable."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "abadis.ir/fatofa/نیتروژن and /نیترات (فرهنگ معین section)", "stance": "supports", "note": "both tagged '(فرانسوی، اِ)', the نیترات gloss attributed to فرهنگ فارسی معین."},
+            {"src": "BQT", "where": "grep 'نیتر' in BQT_v1..v5_pages.txt", "stance": "silent", "note": "Borhan-e Qateʿ (17th c.) naturally has none of these; MON_part2.txt uses نیترات/اسید نیتریک freely in definitions (lines 7347, 25909, 79534) but as modern chemistry vocabulary without etymology."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "nitre, nitrate, nitric, nitrogen, nitroglycerine",
+          "verdict": "confirmed",
+          "derivation": "English niter/nitre appears c. 1400 in the sense 'native sodium carbonate' from Old French nitre (13th c.); the rest are 18th-19th century adoptions of the French chemical vocabulary built on it: nitric from F. nitrique (see Klein s.v. nitric, 'F. nitrique, fr. nitre'), nitrate from F. nitrate (or formed on niter with -ate), nitrogen 1794 from F. nitrogène (Chaptal 1790), and nitroglycerine 1857 from the combining form nitro- (Greek νιτρο-) + glycerine. All five therefore go back through French nitre to Latin nitrum and Greek νίτρον, as drawn.",
+          "derivation_fa": "انگلیسی nitre/niter در حدود ۱۴۰۰ م. به معنی «کربنات سدیم طبیعی» از فرانسهٔ کهن nitre (سدهٔ ۱۳) وارد شده است؛ باقی واژه‌ها وام‌گیری سدهٔ هجدهم و نوزدهم از واژگان شیمی فرانسه‌اند: nitric از nitrique فرانسوی (کلاین: «F. nitrique, fr. nitre»)، nitrate از nitrate فرانسوی، nitrogen در ۱۷۹۴ از nitrogène (ساختهٔ شاپتال در ۱۷۹۰) و nitroglycerine در ۱۸۵۷ از پیش‌وندِ nitro- (یونانی νιτρο-) + glycerine. پس هر پنج واژه از راه فرانسه به لاتینی nitrum و یونانی νίτρον می‌رسند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/nitre",
+            "https://www.etymonline.com/word/nitrogen",
+            "https://en.wiktionary.org/wiki/niter"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "not_checked", "note": "Nitre is a Semitic/Egyptian loanword, so it has no entry in the AHD Indo-European appendix (grep 'nitr' AHD_watkins1985.txt → nothing); Nourai's 'AHD' must point to the main dictionary body, which is not in the local library (the local AHD file is the Watkins 1985 IE-roots volume only)."},
+            {"ref": "KLN", "status": "supports", "note": "KLN_1966 lines 25473-25480 (pp.1049-1050): 'niter, nitre, n., nitrate of potassium — F. nitre, fr. L. nitrum'; 'nitrate — Formed fr. niter with chem. suff. -ate'; 'nitric — F. nitrique, fr. nitre'; 'nitro-, before a vowel nitr- … Gk. νιτρο-, fr. νίτρον'."
+            }
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "SKT.txt line 12318 s.v. Nitre", "stance": "supports", "note": "'Der. nitro-gen, that which produces nitre, from γεν-, base of γίγνομαι, to produce.'"},
+            {"src": "LKT", "where": "no. 1567 and the chronological word-list (LKT.txt lines 5852, 6105, 7440)", "stance": "supports", "note": "Lokotsch dates 'Natron 1567' and 'nitrum 1567' in the European loan-chronology and derives them from the Hebrew/Egyptian word via Greek and Latin."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Nobh, Ombh, Mbh",
+      "verdict": "confirmed",
+      "modern_form": "PIE *h₃nebʰ- 'navel, hub' (ablaut grades *h₃nobʰ-, *h₃embʰ-/*h₃m̥bʰ-)",
+      "note": "Pokorny IEW pp. 314-315 heads the entry '1. (enebh-), embh-, ombh-, nō̆bh- (nēbh-?), m̥bh- \"Nabel\", mehrfach mit l-Formantien' — Nourai's three shapes 'Nobh, Ombh, Mbh' are three of Pokorny's own ablaut grades, the language label 'Indo-European' is right, the gloss 'nave, hub' is Pokorny's 'Nabel' plus the derived wheel-hub sense, and POK:314 is the exact page (in POK_01.txt the entry begins at the foot of the page whose next marker is '315'). Walde-Pokorny I 130 has the identical heading; Watkins/AHD prints 'nobh-. Also ombh-. Navel; later also \"central knob\", boss of a shield, hub of a wheel. [Pok. 1. (enebh-) 314.]' Modern reconstruction adds the initial laryngeal — Wiktionary and Kölligan (2018) write *h₃nebʰ-, with *h₃nobʰ-eh₂ > PGmc *nabō, *h₃nóbʰ-i-s > Skt nābhi-, *h₃nṓbʰ-s ~ *h₃nebʰ-és > PIr. *Hnā́fah, *h₃émbʰ-ō > Lat. umbō — but that is a notational refinement of exactly this root, not a different one.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *h₃nebʰ- «ناف، توپیِ چرخ». پوکورنی (صفحه‌های ۳۱۴-۳۱۵) سرواژه را چنین می‌آورد: «(enebh-), embh-, ombh-, nō̆bh- (nēbh-?), m̥bh- «Nabel»» — یعنی سه صورتی که نورایی آورده (Nobh, Ombh, Mbh) همان گونه‌های آواگردیِ خودِ پوکورنی است، برچسب «هندواروپایی» درست است و معنای «ناف/توپی» نیز درست. والده-پوکورنی (جلد ۱، ص ۱۳۰) همین سرواژه را دارد و واتکینز در پیوستِ AHD می‌نویسد «nobh-، همچنین ombh-: ناف؛ سپس برجستگی میانی، ناف سپر، توپی چرخ». ریشه‌شناسی امروزی حنجریِ آغازی را می‌افزاید (*h₃nebʰ-) و گونه‌های آواگردی را چنین می‌دهد: *h₃nobʰ-eh₂ › ژرمنی *nabō، *h₃nóbʰ-i-s › سنسکریت nābhi-، *h₃nṓbʰ-s ~ *h₃nebʰ-és › ایرانی آغازین *Hnā́fah، *h₃émbʰ-ō › لاتینی umbō. این تنها اصلاحِ نگارشی همان ریشه است. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neb%CA%B0-",
+        "https://en.wiktionary.org/wiki/navel"
+      ],
+      "ref_check": [
+        {"ref": "POK:314", "status": "supports", "note": "POK_01.txt leaf 327 (the page marker '315' follows a few lines below, so the entry opens on p.314): '1. (enehh-), emhh-, ombh-, nobh- (nebh-?), m̥bh- ,Nabel', mehrfach mit i-[= l-]Formantien.' Nourai's page is exact."}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Bd. I p. 130 (WLD_Bd1_pages.txt leaf 138, header '130')", "stance": "supports", "note": "'1. (enebh-) ombh-, nobh- (nebh-?), mbh- \"Nabel\", mehrfach mit l-Formantien' — the same heading Pokorny later reprinted."},
+        {"src": "AHD", "where": "Watkins 1985 s.v. nobh-", "stance": "supports", "note": "'nobh-. Also ombh-. Navel; later also \"central knob,\" boss of a shield, hub of a wheel. … [Pok. 1. (enebh-) 314.]' — same root, same cross-reference to Pokorny 314."},
+        {"src": "IEC", "where": "IEC.txt line 11784", "stance": "supports", "note": "Mann: 'nobh- \"nave, navel, hub, centre\". WP I, 130. Skt. nábhyam n.; Av. nabis f. \"navel\"; Per. naf \"navel, middle\"; Oss. Dig. naffä; OHG naba f. \"hub, nave\"; OE nafu …'"},
+        {"src": "SYN", "where": "Buck, ch. 4.43 NAVEL (SYN.txt lines 3740, 6448)", "stance": "supports", "note": "'Av. nafa- \"navel\" and \"family, kindred\": Skt. nabhi- \"navel\" and \"relationship\", Grk. ὀμφαλός \"navel\", etc. Walde-P. 1.130. Barth. 1062.' — Buck's comparative table lists exactly Nourai's set (OE nafola, ME navele, NE navel, Lat. umbilicus, Av. nafa-, Skt. nabhi-)."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "nâf, nâfah, nafa, nâfô : nave",
+          "verdict": "plausible",
+          "derivation": "All four forms are Avestan, and Bartholomae's Altiranisches Wörterbuch col. 1062 has them together: 'j. nāfa- m. \"Nabel\"; g. a) \"Verwandtschaft, Familie\" … Vgl. nāfah- und nabānazdišta-: np. nāf \"Nabel\"'; 'j. nafah- n. \"Verwandtschaft, Familie\"' (Yt. 13.87); 'j. nāfya- Adj. \"familienangehörig\"'. nāfō is the nominative singular of the s-stem (Pokorny quotes 'av. nāfō'). The Iranian -f- where the cognates show -bh- (Skt nābhi-, Av. nabā-nazdišta-) puzzled Horn ('gehen auf indog. bh zurück, während die übrigen Formen auf ph weisen') and Ernout-Meillet ('L'iranien a une forme populaire à *-ph-'); the modern explanation is that -f- was generalized from the nominative *Hnā́fš < *h₃nṓbʰ-s, where *bʰ+s devoiced regularly, and the stem was then thematized as Proto-Iranian *Hnā́fah. The one thing to correct: the label 'Old Persian'. No Old Persian word for 'navel' is attested — Kent's lexicon has no nāfa- (the OP naf-/naθ- of DNb is 'to harm'); the forms are Avestan only, with the Old-Iranian stage reconstructed.",
+          "derivation_fa": "هر چهار صورت اوستایی‌اند و بارتولمه در «فرهنگ ایرانی باستان» ستون ۱۰۶۲ همه را کنار هم آورده است: «nāfa- (مذکر) «ناف»، در گاهانی «خویشاوندی، خاندان» … مقایسه کنید با nāfah- و nabā-nazdišta-؛ فارسی نو ناف»؛ «nafah- (خنثی) «خویشاوندی، خاندان»» (یشت ۱۳:۸۷)؛ «nāfya- «خویشاوند»». صورت nāfō همان نهادی مفردِ ستاکِ ‎-s‎ است که پوکورنی نیز «av. nāfō» می‌آورد. اینکه در ایرانی «ف» آمده در جایی که سنسکریت nābhi- و اوستایی nabā-nazdišta- «bh» دارند، هرن را به شگفت آورده بود («صورت‌های دیگر بر ph دلالت دارند») و ارنو-میه هم آن را «صورت عامیانه با *-ph-» خوانده؛ توضیح امروزی این است که «ف» از حالت نهادیِ *Hnā́fš ‹ *h₃nṓbʰ-s (که در آن bʰ+s قانوناً بی‌واک شده) به همهٔ صرف گسترش یافته و سپس ستاک به‌صورت ایرانی آغازین *Hnā́fah درآمده است. تنها نکتهٔ نادرست برچسبِ «پارسی باستان» است: هیچ واژهٔ پارسی باستان برای «ناف» گواهی ندارد و در واژه‌نامهٔ کنت چنین واژه‌ای نیست (naθ- در کتیبهٔ داریوش به معنی «آسیب رساندن» است).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/Hn%C4%81%CC%81fah",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neb%CA%B0-"
+          ],
+          "ref_check": [
+            {"ref": "POK:314", "status": "supports", "note": "POK_01.txt leaf 327: 'av. nabā-nazdišta- \"der verwandtschaftlich nächststehende\", daneben mit ar. ph: av. nāfō, npers. nāf \"Nabel\"' — Pokorny p.314/315 gives Av. nāfō and NP nāf under this root, exactly as drawn. He labels them Avestan and Modern Persian; he says nothing about Old Persian."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "col. 1062 (BRT.txt lines 18878-18893, the marker '1063 nāman-' follows)", "stance": "supports", "note": "'• j. nāfa- m. \"Nabel\": g. a) \"Verwandtschaft, Familie\" … Vgl. nāfah- und nabānazdišta-: — np. nāf \"Nabel\"; ai. vgl. nābhya- \"Nabel\"' and '• j. nafah- n. \"Verwandtschaft, Familie\" … Yt. 13.87'. All of Nourai's Avestan forms, on the column Mo'in also cites."},
+            {"src": "KNT", "where": "Kent, Old Persian lexicon (grep 'naf' KNT.txt)", "stance": "silent", "note": "No OP nāfa-/nāf 'navel'; the only naf-/naθ- in Kent is the verb of DNb 20 vināθayaiš 'you should do harm'. The 'Old Persian' half of the node label is unsupported."},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. umbilicus (LAT.txt lines 69515-69522)", "stance": "supports", "note": "'L'iranien a une forme populaire à *-ph-: av. nāfa \"nombril\" (pers. nāf), nāfya- \"de famille\"' — the same Avestan set, with the -f- noted as the Iranian peculiarity."},
+            {"src": "PHD", "where": "MacKenzie p. 57 s.v. nāf (PHD.txt line 494)", "stance": "supports", "note": "'nāf [w | M mp] family. ~ag [-g | N nāf(a)] navel' — the Middle Persian continuation of the Avestan word, with both the 'family' and the 'navel' senses, exactly the intermediate stage the arrow to Persian passes through."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "nâf «ناف» : nave ; nâfeh «نافه» : musk bag",
+          "verdict": "confirmed",
+          "derivation": "NP ناف nāf 'navel; hub of a wheel; middle, centre' continues Middle Persian nāf (Manichaean nʾp) 'family' / nāfag 'navel' — MacKenzie p.57: 'nāf … family. ~ag … navel' — from Proto-Iranian *Hnā́fah; the Old-Iranian long ā and final -ah were lost in the regular MP apocope (*Hnāfah > nāf), and NP inherits the Pahlavi form unchanged, while nāfag lost its -g in the usual NP way (MP -ag > NP -a/-e), giving نافه. The kinship sense of the Avestan and Pahlavi word survives in NP نواده/نبیره 'grandchild, descendant' (Mo'in's note in Borhan-e Qateʿ lists نواده، نبیر، نبیره beside ناف، نافه), and the 'centre' sense in the idioms ناف زمین/ناف عالم = Mecca. نافه is a straightforward semantic derivative: the musk pod of the Moschus deer sits under the belly skin at the navel — Borhan's footnote spells it out: 'کیسه‌ای مشکین به‌اندازهٔ تخم مرغی که در زیر پوست شکم آهوی خطا قرار دارد و در آن مشک وجود دارد (به همین مناسبت آن را نافه گویند)'. Cognate dialect forms confirm the whole set: Kurdish nāw/nāfik, Ossetic naffä, Baluchi napag/nafag/nafay, Armenian nafat 'musk pod' (borrowed from Persian).",
+          "derivation_fa": "«ناف» فارسی نو دنبالهٔ فارسی میانهٔ nāf (مانوی nʾp) «خاندان» و nāfag «ناف» است — مکنزی، ص ۵۷: «nāf … خاندان؛ nāfag … ناف» — و آن از ایرانی آغازین *Hnā́fah می‌آید؛ پایانهٔ ‎-ah‎ ایرانی باستان در فارسی میانه افتاده (*Hnāfah › nāf) و فارسی نو همان صورت پهلوی را نگه داشته است، و nāfag با فرسایش معمولِ ‎-ag‎ پهلوی به ‎-e‎ فارسی نو، «نافه» شده است. معنای «خویشاوندی» که در اوستایی و پهلوی بود، در «نواده، نبیر، نبیره» بازمانده است — حاشیهٔ معین بر برهان قاطع (ص ۲۱۰۰) همین‌ها را کنار «ناف» و «نافه» می‌آورد — و معنای «میان/مرکز» در «ناف زمین» و «ناف عالم» (کنایه از مکه). «نافه» گسترشِ معنایی سادهٔ «ناف» است: کیسهٔ مشک آهوی مشکی زیر پوست شکم و نزدیک ناف است؛ حاشیهٔ برهان قاطع می‌گوید «کیسه‌ای مشکین به‌اندازهٔ تخم‌مرغی که در زیر پوست شکم آهوی خطا قرار دارد و در آن مشک وجود دارد (به همین مناسبت آن را «نافه» گویند)». صورت‌های گویشی هم‌ریشه نیز این را تأیید می‌کنند: کردی nāw/nāfik، آسی naffä، بلوچی napag/nafag، ارمنی nafat (وام از فارسی). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81",
+            "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D9%87",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/Hn%C4%81%CC%81fah"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1032", "status": "supports", "note": "KLN_1966 lines 25057-25058: 'nave, n., the hub of a wheel' (p.1032) and 'navel, n. … fr. I.-E. base *ombh-, nābh-, *mbh-, whence also OI. nābhyam \"nave (hub)\", nābhih \"navel, nave, relationship\", … Avestic naba-nazdishta \"next of kin\", Avestic nafa, ModPers. nāf …' (the page marker 1033 stands at line 25059, so nave is p.1032). Klein lists ModPers. nāf under this root, as the arrow requires."},
+            {"ref": "HRN:228", "status": "supports", "note": "HRN.txt line 8853, on the page whose marker '— 228 —' stands at line 8824: '1020. nāf \"Nabel\", nāfe, — g. nafk. — aw. nafah- \"Geschlecht\", vergl. nāfya- \"Verwandtschaft\"; phlv. nafak, nāf \"Nabel\" … kurd. nāw \"Nabel\"; afgh. nūm; oss. d. naffā; bal. napag, nafag, n. nafay.' Horn's entry no. 1020 covers BOTH of Nourai's words (nāf and nāfe) on exactly p.228."},
+            {"ref": "BQT:2100", "status": "supports", "note": "BQT vol.4 pdf page 183 = printed p.2100 (page marker '- ۹۹' on pdf 182 and the arithmetic pdf+1917 both fix it): the ناف entry, with Mo'in's footnote 2: 'اوستا nāfa- «بارتولمه ۱۰۶۲»؛ سانسکریت nābhi- … پهلوی nāf (ناف) … کردی nāw (ناف، درون) … نیز در اوستا nāfah-، nāfya-؛ پارسی باستان و سانسکریت nābhi-، لاتینی umbo، آلمانی Nabel، انگلیسی navel. فارسی: ناف، نافه، نواده، نبیر، نبیره'. This single footnote is in effect Nourai's whole chart; the نافه footnote follows on p.2101."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie p.57 (PHD.txt line 494) and the English index (line 2893)", "stance": "supports", "note": "'nāf [w | M mp] family. ~ag [-g | N nāf(a)] navel'; index: 'navel nāfag'. The MP stage of both Persian words."},
+            {"src": "HUB", "where": "Hübschmann, Persische Studien, p.162 (HUB.txt lines 6509-6511) and p.~44 (line 3548)", "stance": "supports", "note": "'nāf, nāfa \"Nabel\", phl. nafak, bal. napag, nb. nafay, zd. nāfa \"Nabel\" ZPGl. p.10, \"Geschlecht\" yt. 13,87 (= arisch *naphas-) neben zd. nabānazdišta-, skr. nābhi- \"Nabel\"'; and 'np. nāfa \"Nabel, Moschus(beutel)\"' — Hübschmann has the musk-bag sense explicitly."},
+            {"src": "BQT", "where": "vol.4 printed p.2101 (pdf 184), footnote to نافه", "stance": "supports", "note": "'نافه - بفتح فاء (در لهجهٔ کنونی بکسر). پهلوی nāfa (ناف) … ارمنی nafat (کیسهٔ مشک)، افغانی nāfa (کیسهٔ مشک) «هوبشمان ۱۶۲» … کیسه‌ای مشکین … در زیر پوست شکم آهوی خطا … (بهمین مناسبت آنرا «نافه» گویند)' — nāfeh from nāf, with the musk-bag semantics spelled out."},
+            {"src": "NYB", "where": "grep 'nāf' NYB_vol2_glossary.txt", "stance": "silent", "note": "Nyberg's glossary (limited to his text selection) has no nāf entry — a silent result, not a contradiction."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sanskrit",
+          "words": "nâbh, nâbhi : nave, family, race",
+          "verdict": "confirmed",
+          "derivation": "Sanskrit नाभि nā́bhi- f. means both 'navel' and 'nave (hub) of a wheel' and, by the same metaphor of kinship radiating from a centre, 'relationship, family' (Pokorny: 'nābhi- f. \"Nabel, Nabe, Verwandtschaft\"'); beside it stand नभ्य nábhya- n. 'nave of a wheel' and the (unattested but reconstructed) nābhīla- n. 'pubic region, navel cavity'. Ernout-Meillet note that Skt nābhiḥ 'sert aussi à désigner la parenté', which is Nourai's 'family, race'. His 'nâbh' is the bare stem nābh- as cited in the comparative literature (Bartholomae 'ai. nabh- f.'), not a separate word. The forms preserve the inherited voiced aspirate *bʰ regularly (*h₃nóbʰ-i-s > Proto-Indo-Iranian *Hnā́bʰiš > Skt nā́bhi-), which is precisely why they differ from the Iranian -f- forms of node #1.",
+          "derivation_fa": "سنسکریت नाभि (nā́bhi-، مؤنث) هم «ناف» است و هم «توپیِ چرخ»، و با همان استعارهٔ خویشاوندی که از یک مرکز پراکنده می‌شود، «نسبت، خاندان» نیز معنی می‌دهد؛ پوکورنی می‌نویسد: «nābhi- (مؤنث) «ناف، توپی، خویشاوندی»»، و در کنارش नभ्य (nábhya-، خنثی) «توپی چرخ» و nābhīla- «ناحیهٔ زیر شکم، گودی ناف» را می‌آورد. ارنو-میه نیز یادآور می‌شود که nābhiḥ «برای نامیدن خویشاوندی هم به کار می‌رود» — همان «family, race» نورایی. صورت «nâbh» او همان ستاکِ برهنهٔ nābh- است که در ادبیات مقایسه‌ای نقل می‌شود (بارتولمه: «ai. nabh- f.»)، نه واژه‌ای جداگانه. در سنسکریت *bʰ هندواروپایی قانوناً نگه داشته شده (*h₃nóbʰ-i-s › هندوایرانی آغازین *Hnā́bʰiš › nā́bhi-) و همین سبب تفاوت آن با «ف» ایرانی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neb%CA%B0-",
+            "https://en.wiktionary.org/wiki/navel"
+          ],
+          "ref_check": [
+            {"ref": "POK:314", "status": "supports", "note": "POK_01.txt leaf 327: 'Ai. nābhya- n. \"Nabe\", nābhi- f. \"Nabel, Nabe, Verwandtschaft\", nābhīla- n. (unbelegt) \"Schamgegend, Nabelvertiefung\"' — all three of Nourai's glosses ('nave, family, race') on the cited page."},
+            {"ref": "SNS:258", "status": "not_found", "note": "SNS (Tavoosi's glossary of Shayast ne Shayast) does have the word — SNS_pages.txt line 10244 / SNS.txt line 14504: an entry 'nāfag' citing 'av. nafah-, nāf-' and 'Barth. 1062' — but the printed page cannot be mapped: refs_online.json says of SNS 'page offset not determined (OCR too poor to read printed numbers)', and the hit sits on 0-based leaf 145 of 243, so p.258 cannot be confirmed or refuted. Note also that a Pahlavi text-glossary is an odd authority for a Sanskrit form."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. I p. 130", "stance": "supports", "note": "'As.[= Ai.] nābhya- n. \"Nabe\", nābhi- f. \"Nabel, Nabe, Verwandtschaft\", nābhīla- n. (unbelegt) \"Schamgegend, Nabelvertiefung\"' — the same three senses."},
+            {"src": "KLN", "where": "p. 1033 s.v. navel", "stance": "supports", "note": "'OI. nābhyam \"nave (hub)\", nābhih \"navel, nave, relationship\", nābhilam \"umbilical depression\"'."},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. umbilicus", "stance": "supports", "note": "'La forme principale est indiquée par l'indo-iranien: skr. nabhiḥ \"nombril, moyeu\" … (réd. nabhiḥ sert aussi à désigner la parenté); le dérivé neutre nābhyam signifie seulement \"moyeu\".'"},
+            {"src": "SYN", "where": "Buck 4.43 (SYN.txt line 3740)", "stance": "supports", "note": "'Skt. nabhi- \"navel\" and \"relationship\" … Walde-P. 1.130. Barth. 1062.'"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Germanic",
+          "words": "nabo",
+          "verdict": "confirmed",
+          "derivation": "'Nabo' is the Proto-Germanic reconstruction *nabō f. 'hub of a wheel' (< PIE *h₃nobʰ-eh₂), the form Watkins prints as 'Germanic *nabo' — hence Nourai's spelling — and which appears in the daughters as OHG naba, OS naba, OE nafu/nafa, ON nöf, MDu. nave, Du. naaf, MHG/G Nabe, Dan./Swed. nav; the derivative *nabalō (PIE *h₃nobʰ-alo-) gives OHG nabalo, OE nafela, ON nafli, G Nabel 'navel'. Kroonen's Etymological Dictionary of Proto-Germanic (pp. 380-381) reconstructs *nabō- for the same set, and Finnish napa 'navel, hub' is an early loan from it. Note that Nourai's arrow makes the Germanic form a direct daughter of the root, which is correct: Germanic keeps the o-grade *nobh- with the *bʰ > b of Grimm's law and the ā-stem ending.",
+          "derivation_fa": "«nabo» همان بازسازیِ ژرمنی آغازین *nabō (مؤنث) «توپیِ چرخ» است (از *h₃nobʰ-eh₂ هندواروپایی) — واتکینز نیز «Germanic *nabo» می‌نویسد و نورایی همان را آورده — که در زبان‌های دختر چنین بازمانده است: آلمانی علیای باستان naba، انگلیسی باستان nafu/nafa، نورسی کهن nöf، هلندی naaf، آلمانی Nabe، دانمارکی و سوئدی nav؛ و مشتقِ *nabalō (از *h₃nobʰ-alo-) آلمانی علیای باستان nabalo، انگلیسی باستان nafela، نورسی nafli و آلمانی Nabel «ناف» را داده است. کرونن در «فرهنگ ریشه‌شناسی ژرمنی آغازین» (ص ۳۸۰-۳۸۱) همین *nabō- را بازمی‌سازد و napa فنلاندی وام‌واژه‌ای کهن از آن است. ژرمنی درجهٔ o ریشه (*nobh-) را نگه داشته و *bʰ بر پایهٔ قانون گریم به b بدل شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neb%CA%B0-",
+            "https://en.wiktionary.org/wiki/nave"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt s.v. nobh-: '1. Germanic *nabo in: a. Old English nafu, nafa, hub of a wheel: NAVE²; b. compound *nabō-gaizaz, tool for piercing wheel hubs …: AUGER. … 3. Suffixed form *nobh-alo- in Germanic *nabalō in Old English nafela, navel: NAVEL.' Watkins' 'Germanic *nabo' is verbatim Nourai's node."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 315", "stance": "supports", "note": "'ahd. naba, ags. nafu, aisl. nöf \"Radnabe\" (auch in ahd. naba-ger, ags. nafu-gār, aisl. nafarr \"grober Bohrer\"), ahd. nabalo, ags. nafela, aisl. nafli \"Nabel\"'."},
+            {"src": "IEC", "where": "IEC.txt line 11784", "stance": "supports", "note": "Mann s.v. nobh-: 'OHG naba, f. \"hub, nave\"; OE nafu, ON nöf, f. id. … Finn. LW napa \"navel, hub\"'."},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. umbilicus", "stance": "supports", "note": "'en germanique: v.h.a. nabo \"moyeu\" à côté de nabalo \"nombril\"' — the OHG form in the very shape Nourai prints."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "nave, navel, auger",
+          "verdict": "confirmed",
+          "derivation": "All three descend from the Germanic node. (1) nave 'hub of a wheel' < ME nave < OE nafu (Klein p.1032). (2) navel < ME navel < OE nafela, the *-alo- derivative (Klein p.1033). (3) auger is the interesting one: OE nafugār, a compound of nafu 'nave' + gār 'spear, piercing tool' (Watkins' *nabō-gaizaz, 'tool for piercing wheel hubs'), i.e. literally a hub-borer; ME nauger then lost its initial n- by false division of 'a nauger' as 'an auger' — the same metanalysis that produced adder from OE nǣdre and umpire from noumpere. Nourai is right to attach all three to the Germanic hub-word, and it is worth noting the English homograph nave 'central part of a church' is unrelated (< Latin nāvis 'ship').",
+          "derivation_fa": "هر سه واژه از خانهٔ ژرمنی می‌آیند. ۱) nave «توپی چرخ» از انگلیسی میانهٔ nave و آن از انگلیسی باستان nafu (کلاین، ص ۱۰۳۲). ۲) navel از انگلیسی میانهٔ navel و آن از انگلیسی باستان nafela، همان مشتقِ ‎*-alo-‎ (کلاین، ص ۱۰۳۳). ۳) auger شنیدنی‌ترین است: انگلیسی باستان nafugār، مرکب از nafu «توپی» و gār «نیزه، ابزار سوراخ‌کن» (بازسازیِ واتکینز: *nabō-gaizaz «ابزار سوراخ کردن توپیِ چرخ»)، یعنی «مته‌ای برای توپیِ چرخ»؛ سپس در انگلیسی میانه «a nauger» به‌غلط «an auger» بخش شد و «ن» آغازی افتاد — همان بخش‌بندیِ نادرستی که adder را از nǣdre و umpire را از noumpere ساخت. ادعای نورایی درست است. یادآوری: nave به معنی «شبستان کلیسا» واژهٔ دیگری است و از nāvis لاتینی «کشتی» می‌آید.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/nave",
+            "https://en.wiktionary.org/wiki/auger",
+            "https://en.wiktionary.org/wiki/navel"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives this node no reference; it rests on the AHD citation of its Germanic parent, which does list NAVE², NAVEL and AUGER under nobh-."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins 1985 s.v. nobh- and the index (lines 1266, 1902, 2432)", "stance": "supports", "note": "index entries 'AUGER nobh-', 'NAVE² nobh-', 'NAVEL nobh-, nau-²', 'UMBILICUS nobh-' — the same three English words, plus the note that NAVE¹ 'church' belongs to nau-²."},
+            {"src": "KLN", "where": "pp. 1032-1033 s.v. nave, navel; p. 82 s.v. auger", "stance": "supports", "note": "'nave, n., the hub of a wheel. — ME., fr. OE. nafu … The nave of the wheel was compared to the navel of the body'; 'auger, n. — ME. auger, earlier nauger, fr. OE. nafugar, which is compounded of nafu \"nave of a wheel\" and gar \"spear\" … The loss of the initial n is due to a misdivision of ME. a nauger into an auger.'"},
+            {"src": "SYN", "where": "Buck 4.43 NAVEL (SYN.txt line 6448)", "stance": "supports", "note": "the table lists 'OE nafola, ME navele, NE navel, Du. navel, OHG nabalo, NHG nabel' under one heading with 'Av. nafa-, Skt. nabhi-'."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Latin",
+          "words": "umbilicus : navel",
+          "verdict": "confirmed",
+          "derivation": "Latin umbilīcus 'navel' (and by analogy any small round boss: the knob of a book-roll, the gnomon of a sundial, umbilīcus Veneris the plant navelwort) is the *ombh-/*m̥bh- grade of the root with two suffixes, the -l- of ungula-type body-part words plus a thematic *-ko-, i.e. *h₃m̥bʰ-el-iko-; beside it stands the suffixless umbō, -ōnis 'boss of a shield' (< *h₃émbʰ-ō, so de Vaan 2008 p.639). Ernout-Meillet make the point Nourai's arrow needs: 'L'élément -l- de umbilicus se retrouve dans v.h.a. nabalo, v.irl. imbliu, gr. ὀμφαλός' and 'L'o prothétique de umbilicus, qui est exceptionnel, sans doute populaire, est comparable à celui de unguis' — that is, umbilīcus is a regular member of this root's family, and the initial u- is the prothetic vowel of the *ombh- grade (Nourai's second root shape). Greek ὀμφαλός is the exact cognate.",
+          "derivation_fa": "لاتینی umbilīcus «ناف» (و به قیاس، هر برجستگی گِردِ کوچک: سرِ چوبِ طومار، شاخصِ ساعت آفتابی، umbilīcus Veneris نامِ گیاهی) بر پایهٔ درجهٔ *ombh-/*m̥bʰ- ریشه ساخته شده، با دو پسوند: همان ‎-l-‎ی که در نام‌های اندام (مانند ungula) دیده می‌شود و پسوند ‎*-ko-‎، یعنی *h₃m̥bʰ-el-iko-؛ و در کنارش umbō, -ōnis «نافِ سپر» بی‌پسوند (از *h₃émbʰ-ō، بنا بر دِ فان ۲۰۰۸، ص ۶۳۹). ارنو-میه همان نکته‌ای را می‌گویند که این پیکان به آن نیاز دارد: «عنصر ‎-l-‎ در umbilicus در آلمانی علیای باستان nabalo، ایرلندی کهن imbliu و یونانی ὀμφαλός نیز هست» و «uی آغازی umbilicus حنجری‌زاد و عامیانه است، مانند unguis». پس umbilīcus عضو قانونیِ همین خانواده است و «او»ی آغازی همان درجهٔ ombh- است که نورایی در سرریشه آورده. یونانی ὀμφαλός هم‌ریشهٔ دقیق آن است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/umbilicus",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neb%CA%B0-"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt s.v. nobh-: '2. Variant form *ombh- in Latin umbō, boss of a shield: UMBO. … 4. Suffixed variant form *ombh-alo- in: a. Latin umbilicus, navel: UMBILICUS; NOMBRIL; b. Greek omphalos, navel: OMPHALOS.' Exactly the arrow drawn, and the reason Nourai's root box lists Ombh and Mbh."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p. 315", "stance": "supports", "note": "'lat. umbilīcus \"Nabel\", umbō, -ōnis \"Schildbuckel\"' listed directly under the root, with 'EM 1122' as the cross-reference."},
+            {"src": "LAT", "where": "LAT.txt lines 69495-69525 s.v. umbō/umbilicus", "stance": "supports", "note": "'umbilicus: v. le suivant … Dérivés: umbilicus: nombril … La forme principale est indiquée par l'indo-iranien: skr. nabhiḥ … L'élément -l- de umbilicus se retrouve dans v.h.a. nabalo, v.irl. imbliu, gr. ὀμφαλός … L'o prothétique de umbilicus … est comparable à celui de unguis'."},
+            {"src": "SYN", "where": "Buck 4.43 (SYN.txt line 6448)", "stance": "supports", "note": "'Lat. umbilicus' heads the Romance column (It. bellico, Fr. nombril, Sp. ombligo, Rum. buric) in the NAVEL table of this root."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "umbilicus",
+          "verdict": "confirmed",
+          "derivation": "English umbilicus is a learned 17th-century adoption of Latin umbilīcus, taken straight from the Latin with no change and used as an anatomical term for the navel (with the adjective umbilical, from Medieval Latin umbilīcālis, in 'umbilical cord'). Watkins' index confirms the descent by listing 'UMBILICUS nobh-'. The popular Romance descendant of the same Latin word came into English separately as the heraldic nombril 'centre point of a shield', through Old French nombril (Latin umbilīcus > *umbilīculus > OF lombril, nombril).",
+          "derivation_fa": "انگلیسی umbilicus وام‌واژه‌ای عالمانه از سدهٔ هفدهم است که بی‌هیچ تغییری از لاتینی umbilīcus گرفته شده و اصطلاحی کالبدشناختی برای «ناف» است (با صفتِ umbilical از لاتینی میانهٔ umbilīcālis در «بند ناف»). فهرست واتکینز نیز «UMBILICUS nobh-» را می‌آورد و همین تبار را تأیید می‌کند. دنبالهٔ عامیانهٔ همان واژهٔ لاتینی جداگانه و از راه فرانسهٔ کهن nombril به انگلیسی رسیده است (اصطلاح نشان‌شناسیِ nombril «نقطهٔ میانی سپر»). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/umbilicus",
+            "https://en.wiktionary.org/wiki/navel"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "No reference on this node; it depends on the AHD citation of its Latin parent, whose index entry 'UMBILICUS nobh-' covers the English word."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins 1985 index (line 2432) and s.v. nobh-", "stance": "supports", "note": "'UMBILICUS nobh-', 'UMBO nobh-', 'NOMBRIL nobh-' — the English words derived from the Latin branch."},
+            {"src": "KLN", "where": "p. 1033 s.v. navel (cross-references)", "stance": "supports", "note": "'Cp. also omphalo-, omphalos, umbilicus, umbo, nombril' — Klein groups the English learned borrowings with navel under the same base *ombh-, nābh-, *mbh-."}
+          ]
+        }
+      ]
+    }
+  ]
+}
