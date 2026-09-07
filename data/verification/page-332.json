@@ -1,0 +1,937 @@
+{
+  "pdf_page": 332,
+  "book_page": 302,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Men 1",
+      "verdict": "confirmed",
+      "modern_form": "PIE *men- 'to think, have in mind' (Pokorny 3. men- 726; Watkins/AHD men-1)",
+      "note": "The root, the language label and the gloss are all right: Pokorny p.726 heads the article \"3. men- 'denken, geistig erregt sein'\" and Watkins glosses men-1 \"To think; with derivatives referring to various qualities and states of mind and thought\", citing [Pok. 3. men- 726]. This is PART 2 of the chart; the page's own cross-cutting problem is that Nourai hangs several nodes on the wrong intermediate: Greek mousa is not derived from the bare root in any of his own sources (Pokorny puts it under 5. me-/mo- p.705 or under mendh- p.730, Klein under *men-dh-), and in node #8 monitor/monster/monument/demonstrate come from the causative monere (o-grade *mon-eye-), a sibling of mens, not from mens itself. Nourai's superscript-breve notation (mens, Dhe 2) stands for the long vowel of classical mens and of *dheh1-, so it is house style, not a misprint.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *men- «اندیشیدن، در ذهن داشتن» درست است؛ پوکورنی در صفحهٔ ۷۲۶ همین ریشه را با عنوان «men- ۳: اندیشیدن، برانگیخته‌شدن ذهن» آورده و واتکینز (AHD) نیز men-1 را «to think» معنی کرده و به همان صفحهٔ ۷۲۶ پوکورنی ارجاع داده است. برچسب زبانی «هندواروپایی» و معنای «to think» هر دو پذیرفتنی است. اشکال کلی این نمودار در جای‌گذاری چند گره است: mousa یونانی در هیچ‌یک از منابع خودِ نورایی مستقیماً از این ریشه گرفته نشده (پوکورنی آن را ذیل mē-/mō- ص ۷۰۵ یا mendh- ص ۷۳۰ می‌آورد و کلاین ذیل *men-dh-)، و در گرهٔ ۸ واژه‌های monitor/monster/monument/demonstrate از فعل سببیِ monere (درجهٔ o یعنی *mon-eye-) می‌آیند، نه از mēns. نشانهٔ «ě» در نگارش نورایی (مانند měns و Dhě) همان واکهٔ کشیدهٔ ē است و شیوهٔ خودِ کتاب است، نه غلط چاپی.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/men-",
+        "https://www.etymonline.com/word/music"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:726",
+          "status": "supports",
+          "note": "POK_02.txt leaf whose running head reads 727, entry head: \"3. men- ,denken, geistig erregt sein'; erweitert meng- : mna- und mne-, menei- : meni-; Nominalbildungen: men-men- n., menos- n., men-ti-, men-tu-, moni-, mn-ti-, mn-to- ,Sinn, Gedanke', men-ter- ,Denker'\" — the article opens on p.726 and runs to 728."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "Bd. I pp. 726-728 (POK_02.txt, grep '3.  men-')",
+          "stance": "supports",
+          "note": "\"3. men- ,denken, geistig erregt sein'\"; the article lists ai. manyate, av. mainyeite, gr. mainomai, lat. memini / mens, got. munan, etc."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny Bd. II 264 ff. (incoming/WLD/WLD_Bd2_pages.txt line 17322)",
+          "stance": "supports",
+          "note": "\"3. men- ,denken, geistig erregt sein'; Basen men-, mend-, mene(i)-\" — the same article Pokorny 1959 reprints."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. men-1 (AHD_watkins1985.txt line 745)",
+          "stance": "supports",
+          "note": "\"men-1. To think; with derivatives referring to various qualities and states of mind and thought ... [Pok. 3. men- 726, mendh- 730.]\""
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 17.11 MIND, pp. 1198-1199 (SYN.txt line 30152 ff.)",
+          "stance": "supports",
+          "note": "\"1. Derivs. of IE *men- in Skt. man- 'think', Lat. memini 'remember', etc. Walde-P. 2.264 ff. ... Lat. mens, mentis ...; Skt. manas-, Av. manah-.\""
+        },
+        {
+          "src": "IEC",
+          "where": "Mann s.v. manus (IEC.txt line 10322)",
+          "stance": "partial",
+          "note": "Mann keeps a type *monus 'thoughtful' distinct from *manus 'man', i.e. he recognises the *men- 'think' family but not the equation with 'man' that Nourai's second root box makes."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Greek",
+          "words": "mousa; matos; autos-matos",
+          "verdict": "plausible",
+          "derivation": "Three separate items. (a) Gk. Mousa 'Muse, patroness of the arts' (Ion. Mousa, Dor. Mosa, Aeol. Moisa): Watkins does put it here (men-1 III.2 'Suffixed o-grade form *mon-twa in Greek mousa, a muse: MOSAIC, MUSE, MUSEUM, MUSIC'), but that is the minority view. Pokorny does NOT list it on p.726: he mentions it twice elsewhere - p.705 under '5. me-, mo- heftigen und kraeftigen Willens sein' (\"Mousa ,Muse' hierher oder zu mendh-?\") and p.730 under mendh- (\"vielleicht Mousa (*mon-dh-ia) ,Muse'\"). Klein p.947, the very page Nourai cites, derives it from *men-dh- ('possibly also ... Gk. Mousa (if fr. *Monthia)'), i.e. from the enlarged root of entry 2, not from bare *men-. Beekes finds *Monthia (*men- + *dheh1-) the most appealing IE option, rejects *Montia 'mountain (nymph)', and allows a Pre-Greek *montia. So the arrow is defensible only through the *men-dh- enlargement. (b) 'matos: mind, will' is not a free Greek word: it is the bound second member -matos of automatos, from the verbal adjective *mn-to- 'thought' (= Skt. mata-, Lat. commentus); Watkins prints it as 'Greek -matos, \"willing\"'. (c) autos-matos = Gk. automatos 'acting of itself, self-willed' (autos 'self' + -matos), confirmed by Pokorny p.727 (\"auto-matos ,aus sich selber heraus denkend und handelnd'\"); it is the source of English automatic and Persian اتوماتیک.",
+          "derivation_fa": "سه چیزِ جداگانه در یک گره. الف) Mousa یونانی «موز، ربّةالنوع هنرها»: واتکینز آن را از درجهٔ o یعنی *mon-twa و زیر همین ریشه می‌آورد، ولی این دیدگاه اقلیت است. پوکورنی در صفحهٔ ۷۲۶ نامی از آن نمی‌برد و آن را دو جا دیگر می‌آورد: ص ۷۰۵ ذیل mē-/mō- «سخت خواستن» («Mousa اینجا یا به mendh-؟») و ص ۷۳۰ ذیل mendh- («شاید Mousa از *mon-dh-ia»). کلاین در همان صفحهٔ ۹۴۷ که نورایی ارجاع داده، آن را از *men-dh- می‌گیرد، یعنی از ریشهٔ گسترش‌یافته‌ای که مدخل سوم همین صفحه است، نه از *men- ساده. بیکس هم *Monthia (از *men- + *dʰeh₁-) را پذیرفتنی‌ترین گزینهٔ هندواروپایی می‌داند و احتمال وام‌واژهٔ پیش‌یونانی را نیز باز می‌گذارد. پس این پیکان تنها از راه گسترشِ *men-dh- توجیه‌پذیر است. ب) «matos: mind, will» واژهٔ آزاد یونانی نیست؛ جزء دومِ بستهٔ automatos است از صفتِ فعلیِ *mn̥-to- «اندیشیده» (هم‌ریشه با matá- سنسکریت و commentus لاتین)؛ واتکینز آن را به‌صورت «-matos, willing» می‌نویسد. پ) autos-matos همان automatos «خودکار، از خود برانگیخته» است که پوکورنی در ص ۷۲۷ آن را «از خود اندیشنده و کننده» معنی کرده و سرچشمهٔ automatic انگلیسی و «اتوماتیک» فارسی است. حکم: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%9C%CE%BF%E1%BF%A6%CF%83%CE%B1",
+            "https://www.etymonline.com/word/music"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:947",
+              "status": "partial",
+              "note": "KLN_1966.txt leaf NR=509 (= printed pp.947-948, fitted from the numerals on leaves 508=946 and 510=948), s.v. 'mathematical': \"fr. *mndh-, reduced form of I.-E. base *men-dh-, 'to have one's mind aroused, apply oneself to' ... and possibly also OI. medha 'wisdom, intelligence', Gk. Mousa (if fr. *Monthia), 'Muse'. Base *men-dh- is an enlargement of base *men-, 'to think'.\" Klein therefore supports the ultimate link to *men- but routes Mousa through *men-dh-, and says nothing about matos / autos-matos."
+            },
+            {
+              "ref": "AHD:864",
+              "status": "not_checked",
+              "note": "Nourai's AHD page numbers are pages of the 1975/76 New College Edition body text, which is not on disk (only Watkins 1985, the standalone IE-roots appendix). The corresponding root article, Watkins men-1, does list Greek mousa (*mon-twa) and Greek -matos (*mn-to-)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 705 and p. 730 (POK_02.txt lines 5825, 17841-equivalent)",
+              "stance": "partial",
+              "note": "p.705: \"Mousa ,Muse' hierher oder zu mendh-?\" (under 5. me-, mo-); p.730 under mendh-: \"vielleicht Mousa (*mon-dh-ia) ,Muse'\". Nowhere under men- p.726."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. II 271 (WLD_Bd2_pages.txt line 17841)",
+              "stance": "partial",
+              "note": "\"vielleicht Mousa (*mondhia; von Fick KZ. 46, 82 ... ) ... Wackernagel KZ. 33, 571 erklaerte es als *montia 'Bergnymphe'\" - three rival derivations, none of them the bare root men-."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins men-1 III.2 and I.2 (AHD_watkins1985.txt line 745)",
+              "stance": "supports",
+              "note": "\"2. Suffixed o-grade form *mon-twa in Greek mousa, a muse: MOSAIC, MUSE, MUSEUM, MUSIC\"; \"2. Suffixed form *mn-to- in Greek -matos, 'willing': AUTOMATIC\"."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~1017, s.v. 'Muse' (KLN_1966.txt leaf NR=546)",
+              "stance": "partial",
+              "note": "\"Muse ... fr. L. Musa, fr. Gk. Mousa, 'Muse; music, song', which stands perh. for *Monthia and is rel. to manthanein, 'to learn'. See mathematical and cp. amusia, mosaic, museum, music.\""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Latin",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box standing for the Latin borrowings of the Greek Muse-words: Musa (Ennius, Plautus, 3rd-2nd c. BCE), musica (< Gk. mousike techne 'art of the Muses'), museum/musaeum (< Gk. mouseion 'seat of the Muses', the Alexandrian Mouseion), musivum/musaicum opus 'mosaic work'; Late Latin also amnestia (< Gk. amnestia) and maniacus (< Gk. maniakos). Greek ou was regularly rendered by Latin u, and the Greek feminine adjective in -ike by -ica. All of these are simple literary borrowings, not inherited Latin words.",
+          "derivation_fa": "این جعبهٔ خالی نمایندهٔ وام‌واژه‌های لاتین از خانوادهٔ «موز» یونانی است: Musa (از سدهٔ سوم-دوم پیش از میلاد در انیوس و پلاوتوس)، musica از mousikē technē «هنر موزها»، museum/musaeum از mouseion «جایگاه موزها» (موزهٔ اسکندریه)، و musivum/musaicum opus «کار موزاییک»؛ در لاتینِ پسین نیز amnestia و maniacus از یونانی. دوواکهٔ ou یونانی در لاتین به u و پسوند مؤنثِ -ikē به -ica بدل شده است. همهٔ اینها وام‌گیریِ ادبی‌اند نه واژهٔ موروثی لاتین. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/music",
+            "https://www.etymonline.com/word/mosaic"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this pass-through box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~1017 s.v. Muse, museum (KLN_1966.txt leaf NR=546)",
+              "stance": "supports",
+              "note": "\"Muse ... fr. L. Musa, fr. Gk. Mousa\"; \"museum, n. - L. museum, 'library, academy, study, museum', fr. Gk. mouseion, lit. 'seat of the Muses', fr. Mousa, 'Muse'.\""
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. III s.v. mosaic (FSD_vol3.txt)",
+              "stance": "supports",
+              "note": "\"[< LL. mosaicus, < Gr. mos-aeios(?), < mousa, muse]\" - the Latin stage is explicit."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet (LAT.txt), grep 'Musa,'",
+              "stance": "silent",
+              "note": "No entry for Musa/musica: Ernout-Meillet treat only inherited Latin vocabulary, so the Greek loans are absent."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "musique",
+          "verdict": "confirmed",
+          "derivation": "Latin musica > Old French musique (attested c.1150-1200, first as musike/musique), a learned borrowing rather than a popular development (a popular outcome would have lost the medial -s- and shifted the stress). Old French musique gave Middle English musik (mid-13c.) and, in the 19th century, the Persian and Turkish forms. Mo'in states the chain himself in his footnote to Borhan-e Qate' p.2052: Gk. mousike > Lat. musica (cf. Fr. musique, Eng. music, Ger. Musik), all from Mousa.",
+          "derivation_fa": "musica لاتین در فرانسهٔ کهن به musique بدل شده (نخستین گواه‌ها حدود ۱۱۵۰-۱۲۰۰ م، به‌صورت musike/musique) و این وام‌گیری از راه زبان عالمانه است نه تحولِ عامیانه (در تحول عامیانه -s- میانی می‌افتاد و جای تکیه جابه‌جا می‌شد). از همین صورتِ فرانسهٔ کهن، musik انگلیسی میانه (میانهٔ سدهٔ سیزدهم) و در سدهٔ نوزدهم صورت‌های فارسی و ترکی گرفته شده است. خودِ معین در حاشیهٔ برهان قاطع ص ۲۰۵۲ همین زنجیره را آورده: از یونانی mousikē به لاتینی musica (قس فرانسه musique، انگلیسی music، آلمانی Musik) و همه مأخوذ از Mousa. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/music"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference given for the French box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Mo'in's footnote 9 on Borhan-e Qate' p.2052 (= BQT_v4_pages.txt [pdf page 135], printed = pdf+1917)",
+              "stance": "supports",
+              "note": "«موسیقی - بضم اول، از یونانی mousikē (موسیقی). لاتینی musica (قس: ف. musique، انگ. music، آلم. Musik) مأخوذ از Mousa (بمعنی Muse (فر) هریک از نه ربةالنوع اساطیری یونان که حامیان هنرهای زیبا بودند)»."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~1017 s.v. Muse / music (KLN_1966.txt leaf NR=546)",
+              "stance": "supports",
+              "note": "Klein's Muse article cross-refers to 'music' and gives the Latin > Old French route for the whole group."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "موزیک ، مزقان ، مزغان",
+          "verdict": "confirmed",
+          "derivation": "All three are one and the same French loan. (a) موزیک mūzīk < Fr. musique, taken in during the Qajar period with the European military band and the Dar al-Fonun (1851): Mo'in tags it «موزیک: [فر.] (اِ.) موسیقی». French [myzik] was heard as Persian mūzīk, the front rounded ü being replaced by the nearest Persian ū. (b) مزغان mazghān and (c) its variant مزقان mazqān 'military band; band music; the players' are the popular reshaping of the same word: Dehkhoda says so in as many words - «این لفظ محرف موزیک فرانسوی است که با الف و نون فارسی جمع بسته شده» ('this word is a distortion of French mūzīk pluralised with the Persian -ān'). Phonetically mūzīk > *mūzīk-ān > mazghān/mazqān, with the unstressed first syllable reduced and the -k- voiced to gh (and then, in the spelling مزقان, backed to q). Dehkhoda cross-refers مزقان to مزغان, i.e. treats them as one word. Note that the immediate donor is French musique, exactly as the chart draws it - not Persian موسیقی, which is the older Arabic-mediated borrowing of Greek mousike.",
+          "derivation_fa": "هر سه صورت، یک وام‌واژهٔ فرانسوی‌اند. الف) «موزیک» از musique فرانسوی، که در دورهٔ قاجار همراه با دستهٔ موزیکِ نظامی و دارالفنون (۱۲۳۰ ش/۱۸۵۱ م) به فارسی آمد؛ معین آن را «[فر.] (اِ.) موسیقی» ثبت کرده است. واکهٔ گردِ پیشینِ فرانسوی (ü) در فارسی به نزدیک‌ترین واکه یعنی «او» بدل شده. ب و پ) «مزغان» و گونهٔ آن «مزقان» به معنای «دستهٔ سازهای نظامی، نوازندگان، موسیقی» دگرگون‌شدهٔ همان واژه‌اند؛ دهخدا صریحاً می‌نویسد: «این لفظ محرف موزیک فرانسوی است که با الف و نون فارسی جمع بسته شده». از نظر آوایی: mūzīk ← *mūzīkān ← mazghān/mazqān، با کاهش هجای بی‌تکیهٔ آغازی و واک‌دار شدنِ k به «غ» و سپس ابدال آن به «ق» در املای «مزقان». دهخدا «مزقان» را به «مزغان» ارجاع می‌دهد، یعنی آن دو را یک واژه می‌شمارد. نکته آنکه وام‌دهِ بی‌واسطه همان musique فرانسوی است - چنان‌که نمودار رسم کرده - نه «موسیقی» فارسی که وام‌گیریِ کهن‌ترِ mousikē یونانی از راه عربی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%85%D8%B2%D8%BA%D8%A7%D9%86/",
+            "https://abadis.ir/fatofa/%D9%85%D8%B2%D9%82%D8%A7%D9%86/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:4063",
+              "status": "not_checked",
+              "note": "The 6-volume Amir Kabir Farhang-e Farsi is not available in any digitised form (see refs_online.json: only the 2-volume Adena condensation exists). In that condensation the entry reads «موزیک: [فر.] (اِ.) موسیقی» and «موزیکال: [فر.] (ص.) مربوط به موسیقی» (MON_part2.txt), which is what p.4063 would carry."
+            },
+            {
+              "ref": "MON:4433",
+              "status": "not_checked",
+              "note": "Same reason. The condensation has the مزغان entry as «[فر - فا.] (اِ.) ۱- ساز. ۲- آلت موسیقی» (i.e. Mo'in himself tags it French + Persian, exactly Dehkhoda's analysis)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt s.v. موزیک and s.v. مزغان (2-vol Adena condensation)",
+              "stance": "supports",
+              "note": "«موزیک: [فر.] (اِ.) موسیقی»; the مزغان gloss carries the tag [فر - فا.] 'French + Persian', i.e. a French stem with a Persian suffix."
+            },
+            {
+              "src": "BQT",
+              "where": "Mo'in's footnote 9 to Borhan-e Qate' p.2052 (BQT_v4_pages.txt [pdf page 135])",
+              "stance": "supports",
+              "note": "Gives the Greek > Latin > French chain and names French musique as the modern European form."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-ha-ye Hend-o-Orupayi (incoming/ARY/ARY_pages.txt)",
+              "stance": "silent",
+              "note": "Aryanpur only treats inherited Persian vocabulary; no entry for موزیک/مزغان."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss der neupersischen Etymologie (HRN.txt), grep 'musik', 'mazgan'",
+              "stance": "silent",
+              "note": "Horn (1893) and Huebschmann (1895) do not register these 19th-century Europeanisms; only the German word 'Musik' occurs, in Horn's own prose."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "موزه ۱ ، موزائیک ، اتوماتیک",
+          "verdict": "plausible",
+          "derivation": "Three French loans of the late Qajar / early Pahlavi period, but none of them comes from French musique: the arrow from node #3 is a chart shorthand for 'French'. (a) موزه mūze 'museum' < Fr. musée < Lat. museum < Gk. mouseion 'seat of the Muses'; French -ée was rendered by Persian -ه. The superscript ۱ is off: in Mo'in's Farhang the numbered homographs are موزه (۱) = 'boot' (tagged [په.], i.e. Pahlavi, from MP mozag 'shoe', Proto-Iranian *hmaw-, which has nothing to do with *men-) and موزه (۲) = the museum word, tagged [فر.]; the word the chart wants is موزه ۲. (b) موزائیک mūzā'īk < Fr. mosaïque < It. mosaico < Med.Lat. musaicum (opus) 'work of the Muses'. (c) اتوماتیک otomātīk < Fr. automatique < Gk. automatos + -ikos; Mo'in glosses it «دستگاهی که خود به خود کار می‌کند ... خودکار» with a French tag. So the words and the ultimate root are right; the intermediate (musique) and the homograph number are not.",
+          "derivation_fa": "هر سه وام‌واژهٔ فرانسوی پایان دورهٔ قاجار و آغاز پهلوی‌اند، ولی هیچ‌یک از musique نیامده‌اند؛ پیکانی که از گرهٔ ۳ کشیده شده در واقع کوتاه‌نوشتِ «از فرانسه» است. الف) «موزه» به معنای عتیقه‌خانه از musée فرانسوی، خود از museum لاتین و mouseion یونانی «جایگاه موزها»؛ پایانهٔ -ée فرانسوی در فارسی به «ه» بدل شده. شمارهٔ «۱» جابه‌جا افتاده است: در فرهنگ معین «موزه (۱)» همان چکمه است با برچسب [په.] از mōzag فارسی میانه (ایرانی آغازین *hmaw-) که هیچ پیوندی با *men- ندارد، و «موزه (۲)» واژهٔ فرانسویِ عتیقه‌خانه است؛ آنچه نمودار می‌خواهد «موزهٔ ۲» است. ب) «موزائیک» از mosaïque فرانسوی، از mosaico ایتالیایی، از musaicum لاتینِ میانه «کارِ موزها». پ) «اتوماتیک» از automatique فرانسوی، از automatos یونانی با پسوند -ikos؛ معین آن را «دستگاهی که خود به خود کار می‌کند... خودکار» معنی کرده و فرانسوی دانسته است. پس واژه‌ها و ریشهٔ نهایی درست است، ولی واسطه (musique) و شمارهٔ همنگاره نادرست است؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%B2%D9%87",
+            "https://abadis.ir/fatofa/%D9%85%D9%88%D8%B2%D9%87/",
+            "https://www.etymonline.com/word/mosaic"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2052",
+              "status": "supports",
+              "note": "BQT_v4_pages.txt [pdf page 135] = printed p.2052 (printed = pdf + 1917). The page carries Mo'in's footnote 9: «موسیقی ... از یونانی mousikē ... لاتینی musica ... مأخوذ از Mousa (بمعنی Muse ... هریک از نه ربةالنوع اساطیری یونان که حامیان هنرهای زیبا بودند)» - i.e. the page really is the etymological anchor for the whole Muse group. It does NOT contain موزه 'museum' (the Borhan's موزه there is the boot, and 'grief' and 'pool'), so the page supports the root claim, not the homograph number."
+            },
+            {
+              "ref": "MON:4432",
+              "status": "not_checked",
+              "note": "6-vol Mo'in not digitised; the 2-vol condensation has «اتوماتیک: (ص.) دستگاهی که خود به خود کار می‌کند و نیازی به بودن کارگر بر سر آن نیست؛ خودکار [فر.]» (MON_part1.txt) and, per abadis' rendering of Mo'in, موزه (۱) = چکمه [په.] vs موزه (۲) = museum [فر.]."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt s.v. اتوماتیک; abadis rendering of Mo'in s.v. موزه",
+              "stance": "partial",
+              "note": "Confirms the French origin of اتوماتیک and of the museum sense of موزه, but numbers the museum word موزه (۲), the boot موزه (۱)."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.v. mozag (PHD.txt)",
+              "stance": "contradicts",
+              "note": "The homograph موزه ۱ is MP mozag 'shoe, boot', an inherited Iranian word - not a member of the *men- family; hence the number in the chart cannot be right."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. III s.v. mosaic (FSD_vol3.txt)",
+              "stance": "supports",
+              "note": "\"[< LL. mosaicus, < Gr. ..., < mousa, muse]\" - the source of Fr. mosaïque > Pers. موزائیک."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "music, museum, mosaic, amnesty, maniac, automatic",
+          "verdict": "plausible",
+          "derivation": "Every one of the six is a descendant of PIE *men-, and Watkins lists all six under men-1, so the root is right; but only the first three descend through Mousa/Musa, so the Latin box #2 is not the parent of the last three. (a) music: Gk. mousike (techne) > Lat. musica > OFr. musique > ME musik, mid-13c. (b) museum: Lat. museum < Gk. mouseion, in English 1610s of a building for scholarly collections. (c) mosaic: Med.Lat. musaicum 'work of the Muses' > It. mosaico > OFr. mosaicq > E. 1580s (Etymonline notes medieval mosaics were dedicated to the Muses, and that Gk. mouseion in this sense is itself a loan back from Latin). (d) amnesty: Gk. amnestia 'forgetfulness (of wrong)' (a- privative + mnestis 'remembrance') > Lat. amnestia > Fr. amnistie > E. 1570s - from the extended base *mna-/*mne- (Watkins men-1 IV), not from mousa. (e) maniac: Gk. mania 'madness' (: mainesthai < *mn-yo-) > Late Lat. maniacus > Fr. maniaque > E. c.1600 (Watkins men-1 II.3.c). (f) automatic: Gk. automatos > automatikos, E. 1740s, from *mn-to- (Watkins men-1 I.2).",
+          "derivation_fa": "هر شش واژه بازماندهٔ *men- هندواروپایی‌اند و واتکینز همه را ذیل men-1 آورده است، پس ریشه درست است؛ اما تنها سه واژهٔ نخست از راه Mousa/Musa آمده‌اند و بنابراین جعبهٔ لاتینِ شمارهٔ ۲ پدرِ سه واژهٔ آخر نیست. الف) music: از mousikē technē یونانی به musica لاتین، musique فرانسهٔ کهن و musik انگلیسی میانه (میانهٔ سدهٔ سیزدهم). ب) museum: از museum لاتین و mouseion یونانی، در انگلیسی از دههٔ ۱۶۱۰. پ) mosaic: از musaicum لاتینِ میانه «کار موزها»، mosaico ایتالیایی، mosaicq فرانسهٔ کهن، انگلیسی دههٔ ۱۵۸۰. ت) amnesty: از amnestia یونانی «فراموشی (گناه)» (پیشوند نفیِ a- + mnestis «یادآوری») به amnestia لاتین، amnistie فرانسوی و انگلیسیِ دههٔ ۱۵۷۰ - از ستاکِ گسترش‌یافتهٔ *mnā-/*mnē-، نه از mousa. ث) maniac: از mania یونانی «دیوانگی» (هم‌ریشه با mainesthai از *mn̥-yo-) به maniacus لاتینِ پسین، maniaque فرانسوی و انگلیسیِ حدود ۱۶۰۰. ج) automatic: از automatos و automatikos یونانی، در انگلیسی دههٔ ۱۷۴۰، از *mn̥-to-. حکم: با احتیاط پذیرفتنی است، زیرا سه واژهٔ آخر خواهرِ گروهِ «موز»اند نه فرزندِ آن.",
+          "sources": [
+            "https://www.etymonline.com/word/music",
+            "https://www.etymonline.com/word/mosaic",
+            "https://www.etymonline.com/word/amnesty",
+            "https://www.etymonline.com/word/maniac"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 men-1 lists all six: 'MOSAIC, MUSE, MUSEUM, MUSIC' (III.2, *mon-twa), 'AMNESIA, AMNESTY, ANAMNESIS' (IV.1, mna-), 'MANIA, MANIAC' (II.3.c), 'AUTOMATIC' (I.2, *mn-to-). The index confirms MUSIC men-1, MOSAIC men-1, AMNESTY men-1, MANIAC men-1, AUTOMATIC men-1."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~1017 (Muse, museum), p. ~978 (maniac) (KLN_1966.txt leaves 546, 501)",
+              "stance": "supports",
+              "note": "\"museum, n. - L. museum ... fr. Gk. mouseion, lit. 'seat of the Muses'\"; \"maniac, adj. ... ML. maniacus (whence also F. maniaque), fr. L. mania, fr. Gk. mania\" - i.e. maniac comes through mania, not through Musa."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Mosaic (SKT.txt)",
+              "stance": "supports",
+              "note": "\"Mosaic; see Muse (2).\" - Skeat too groups mosaic with the Muse, and separately treats mental/monition."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. III s.v. mosaic (FSD_vol3.txt)",
+              "stance": "supports",
+              "note": "\"[< LL. mosaicus, < Gr. ..., < mousa, muse]\"."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "ment, měns",
+          "verdict": "confirmed",
+          "derivation": "Lat. mens, gen. mentis, f. 'mind, intellect, disposition' goes back to the *-ti- abstract *mn-ti- / *men-ti- 'thought' from *men-, the same formation as Skt. mati-, Av. -maiti-, Goth. ga-munds, OE gemynd (> English mind), Lith. mintis, OCS pa-metь. Pokorny p.727: \"lat. mens, -tis 'Sinnesart, Gemuet, Denkvermoegen, Vernunft' (aus *mnti-)\"; Ernout-Meillet add that mens, like mors, was extracted from the compounds (cf. Goth. ga-munds). The oblique stem ment- (whence Nourai's first form 'ment') is what all the derivatives are built on. Nourai prints měns with a breve; classical Latin has a long vowel, mens (< *ments < *mentis), but the breve is Nourai's own notation for that vowel (he writes Dhě 2 for *dheh1- likewise), so this is house style rather than an error, and the extraction is faithful to the printed page.",
+          "derivation_fa": "mēns لاتین با حالت اضافیِ mentis «ذهن، خرد، منش» از نامِ مجردِ پسوندی *mn̥-ti-/*men-ti- «اندیشه» از ریشهٔ *men- می‌آید؛ همان ساختی که در mati- سنسکریت، -maiti- اوستایی، ga-munds گوتی، gemynd انگلیسی کهن (که mind امروزی از آن است)، mintis لیتوانیایی و pa-mętь اسلاوی کهن دیده می‌شود. پوکورنی در ص ۷۲۷ می‌نویسد: «lat. mens, -tis «منش، ذهن، خرد» از *mn̥ti-»؛ ارنو-میه نیز می‌افزایند که mens مانند mors از ترکیب‌ها جدا شده است. ستاکِ مایلِ ment- (همان صورت نخستِ نورایی) پایهٔ همهٔ مشتق‌هاست. نورایی «měns» با نشانهٔ کوتاه می‌نویسد، در حالی که واکهٔ لاتینِ کلاسیک کشیده است؛ ولی «ě» در این کتاب همان واکهٔ کشیده را می‌رساند (چنان‌که «Dhě ۲» را برای *dʰeh₁- به کار می‌برد)، پس شیوهٔ نگارشِ خودِ نویسنده است نه خطای چاپی و خوانشِ اسکن هم درست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/mens"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins men-1 I.1.b: \"Suffixed form *mn-ti- in ... b. Latin mens (stem ment-), mind: MENTAL; AMENT, DEMENT; c. Latin mentio, remembrance, mention: MENTION.\""
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 727 (POK_02.txt, men- 3 article)",
+              "stance": "supports",
+              "note": "\"lat. meminī ,erinnere mich' ... mens, -tis ,Sinnesart, Gemuet, Denkvermoegen, Vernunft' (aus *mnti-, s. oben ai. mati- usw.), mentiō ,Erwaehnung'\"."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. mens (LAT.txt line 37334)",
+              "stance": "supports",
+              "note": "\"Il y a deux formes de theme en -ti-, l'une relativement ancienne, mens, cf. skr. matih 'pensee', l'autre, de type italo-celtique, mentio ... La forme mens a ete detachee, comme la forme mors, des formes composees; cf. got. ga-munds, lit. at-mintis, v.sl. pa-metь.\""
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 17.11 MIND (SYN.txt line 30152 ff.)",
+              "stance": "supports",
+              "note": "\"Lat. mens, mentis (> It., Sp. mente, Rum. minte) ... Skt. manas-, Av. manah-\" under 'Derivs. of IE *men-'."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "mental, mention, monitor, monster; monument, comment, demonstrate",
+          "verdict": "plausible",
+          "derivation": "All seven belong to *men-, but only two of them actually descend from mens (node #7); the rest come from two sibling Latin stems, so the single arrow is too coarse. From mens/ment-: mental (< Late Lat. mentalis, ME/OFr.) and mention (< Lat. mentio, -onis 'a calling to mind' > OFr. mention > ME mencioun). From the verb comminisci 'to devise by thought' (*com-men-iscor): comment (< Lat. commentum 'invention, fiction', neut. pp. of commentus) - Klein spells out \"which stands for *com-men-iscor and lit. means 'I ponder', fr. com- and mens, gen. mentis\". From the causative o-grade *mon-eye- > Lat. monere 'to remind, warn': monitor 'one who reminds', monumentum 'that which reminds', and monstrum 'divine portent, monster' (< *mone-strom), whence monstrare 'to point out' and de-monstrare > demonstrate (1550s). Skeat files monster and monument under 'Monition' (i.e. monere) and only mental under mens; Ernout-Meillet: \"A moneo se rattachent monstrum, Moneta\". So the words are right and the root is right, but four of the seven are cousins of mens, not its children.",
+          "derivation_fa": "همهٔ این هفت واژه به ریشهٔ *men- می‌رسند، ولی تنها دو تای آنها به‌راستی از mēns (گرهٔ ۷) گرفته شده‌اند و بقیه از دو ستاکِ خواهرِ لاتین می‌آیند؛ پس یک پیکان برای همه بسیار کلی است. از mēns/ment-: mental (از mentalis لاتینِ پسین) و mention (از mentiō «به یاد آوردن» ← mention فرانسهٔ کهن ← mencioun انگلیسی میانه). از فعل comminisci «با اندیشه پدید آوردن» (*com-men-iscor): comment از commentum «ساخته، پرداخته»؛ کلاین صریحاً می‌نویسد که این صورت *com-men-iscor است و «می‌اندیشم» معنی می‌دهد. از درجهٔ o و ساختِ سببیِ *mon-eye- ← monēre «یادآوری کردن، هشدار دادن»: monitor «یادآورنده»، monumentum «آنچه یاد را زنده می‌کند» و monstrum «نشانهٔ الهی، هیولا» (از *mone-strom) که monstrāre و de-monstrāre ← demonstrate از آن است. اسکیت هم monster و monument را ذیل «Monition» (یعنی monēre) آورده و تنها mental را ذیل mēns؛ ارنو-میه نیز می‌نویسد: «monstrum و Monēta به monēo بازمی‌گردند». پس واژه‌ها و ریشه درست است، اما چهار واژه از هفت واژه عموزادهٔ mēns‌اند نه فرزند آن؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/monster",
+            "https://en.wiktionary.org/wiki/mens"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins men-1: I.1.b-c gives MENTAL and MENTION from Latin mens/mentio; II.2.b gives COMMENT from comminisci; III.1 gives \"Suffixed (causative) form *mon-eyo- in Latin monere ... MONISH, MONITION, MONITOR, MONSTER, MONUMENT, MUSTER; ADMONISH, DEMONSTRATE, PREMONITION, SUMMON\" - which is exactly the split described above."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~334 s.v. comment, p. ~1048-1050 s.v. monster, monument (KLN_1966.txt leaves 179, 536-537)",
+              "stance": "supports",
+              "note": "\"comment ... fr. L. commentum ... fr. comminiscor ... which stands for *com-men-iscor and lit. means 'I ponder', fr. com- and mens, gen. mentis\"; \"monster ... fr. L. monstrum ... for *mone-strom, lit. 'that which serves as a warning', fr. monere\"; \"monument ... fr. L. monumentum ... lit. 'that which reminds', fr. monere\"."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Mental, Monster, Monument (SKT.txt)",
+              "stance": "supports",
+              "note": "\"Mental. (F.-L.) F. mental. - Low L. mentalis ... - L. ment-, stem of mens, mind\"; \"Monster; see Monition.\"; \"Monument; see Monition.\" - the same two-stem split."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. moneo / monstrum (LAT.txt)",
+              "stance": "supports",
+              "note": "\"A moneo se rattachent monstrum, Moneta, q.u.\"; \"monstrum, -i n.: ... a monendo dictum est, uelut monestrum\" (Aelius Stilo, Fest. 133,8)."
+            },
+            {
+              "src": "POK",
+              "where": "Bd. I p. 727 (POK_02.txt)",
+              "stance": "supports",
+              "note": "\"Kaus. moneo ,mahne' ..., monitor m. ,Mahner', monumentum ,Erinnerungszeichen', monstrum ,Mahnzeichen, Ungeheuer' (*mone-strom), mon-strare ,anzeigen'\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Manu, Manus",
+      "verdict": "plausible",
+      "modern_form": "PIE *manu-s / *monu-s 'man, human being' (Pokorny 700); the connection with *men- 'to think' is only a possibility",
+      "note": "Both of Nourai's references really do say what he writes, but they are the older layer of scholarship. Pokorny p.700 heads the entry \"manu-s oder monu-s 'Mann, Mensch'\" and closes \"WP. II 266, Trautmann 169; vielleicht zu 3. men- 'denken'\" - 'perhaps'. Klein p.930 s.v. man is more confident: 'All these words prob. meant orig. \"one who thinks\", fr. I.-E. base *men-, \"to think\"', which is verbatim Nourai's gloss 'one who thinks, man'. Current handbooks are more reserved: Mann (IEC) keeps *manus 'man' expressly distinct from the type *monus 'thoughtful'; Watkins gives man-1 the bare gloss 'Man' and does not cross-refer it to men-1; and Kroonen (after Berneker) prefers to derive Germanic *mann- from *(dh)ghmon- 'human, earthling'. Hence 'plausible': the root and its gloss 'man' are real, the added 'one who thinks' is a 19th/20th-century etymology no longer standard.",
+      "note_fa": "هر دو ارجاعِ نورایی به‌راستی همان را می‌گویند که او نوشته، اما هر دو لایهٔ کهن‌ترِ پژوهش‌اند. پوکورنی در ص ۷۰۰ مدخل را «manu-s یا monu-s: مرد، انسان» می‌نامد و در پایان می‌نویسد «شاید به men- ۳ «اندیشیدن» [مربوط باشد]» - یعنی با تردید. کلاین در ص ۹۳۰ ذیل man قاطع‌تر است: «این واژه‌ها احتمالاً در اصل «آن که می‌اندیشد» معنی می‌داده‌اند، از ستاک هندواروپایی *men- «اندیشیدن»» - که همان معنایی است که نورایی آورده. پژوهش امروزی محتاط‌تر است: مان (IEC) *manus «مرد» را از گونهٔ *monus «اندیشمند» جدا می‌داند؛ واتکینز man-1 را تنها «Man» معنی می‌کند و آن را به men-1 ارجاع نمی‌دهد؛ و کرونن (به پیروی از برنکر) ترجیح می‌دهد *mann- ژرمنی را از *(dʰ)ǵʰmon- «انسان، خاکی» بگیرد. پس: ریشه و معنای «مرد» درست است، ولی افزودهٔ «آن که می‌اندیشد» ریشه‌شناسی سدهٔ نوزدهم و بیستم است و امروز معیار نیست؛ با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mannaz"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:930",
+          "status": "supports",
+          "note": "KLN_1966.txt leaf NR=501, whose running head the OCR reads ۹۳۰/930, s.v. 'man': \"... and cogn. with OI. manuh, 'man; progenitor of mankind', Avestic manu-, 'man', OSlav. mozi, 'man'. All these words prob. meant orig. 'one who thinks', fr. I.-E. base *men-, 'to think', whence also OI. matih, 'thought', L. mens, gen. mentis, 'mind' ... See mind and cp. Manu, muzhik ...\" - word for word Nourai's root gloss."
+        },
+        {
+          "ref": "POK:700",
+          "status": "supports",
+          "note": "POK_02.txt, leaf whose running head reads 700: \"manu-s oder monu-s ,Mann, Mensch'. Ai. manu-, manus- ,Mensch, Mann' (auch ,Ahnherr der Menschen'), av. im PN Manus-cithra-, urgerm. *manwaz im PN Mannus (Tacitus), Stammvater der Deutschen, got. manna (Gen. mans) ... WP. II 266, Trautmann 169; vielleicht zu 3. men- ,denken'.\""
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. man-1 (AHD_watkins1985.txt line 722)",
+          "stance": "partial",
+          "note": "\"man-1. Also mon-. Man. 1. Extended forms *manu-, *manw- in Germanic *manna- (plural *manniz) ... [Pok. manu-s 700.]\" - the root is there, but Watkins gives no 'one who thinks' gloss and no cross-reference to men-1."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann s.v. manus (IEC.txt line 10322)",
+          "stance": "contradicts",
+          "note": "\"manus (man-, manustios) 'man, human being, husband'. (Prob. distinct from type monus 'thoughtful', q.v., and from type monuos 'single, individual'.) WP II, 266 Skt. manuh 'man'; Av. cf. Manus-Cithro (a name) ...\" - Mann explicitly separates 'man' from 'thoughtful'."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny Bd. II 266 (cited by Pokorny p.700; grep in WLD_Bd2_pages.txt found no separate headword)",
+          "stance": "silent",
+          "note": "The OCR of Walde-Pokorny Bd. II does not yield the manu-s headword (Pokorny's own reference is WP. II 266)."
+        },
+        {
+          "src": "ARY",
+          "where": "Aryanpur, Latin index (incoming/ARY/ARY_latin_index_pages.txt, pdf pp. 460-461)",
+          "stance": "supports",
+          "note": "The entry grouping MANUS (Avestan), MANU/MANUS (Sanskrit), MANNA (Gothic), MAN (Old English), MUZH (Russian) gives 'REFERENCES: POKORNY 700; BARNHART (MAN) 627; MACKENZIE (MAN) 122; ONIONS (MAN) 550; SKEAT (MAN) 358' - i.e. an independent modern Persian handbook that anchors the group at Pokorny 700."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 2.21 MAN (SYN.txt line 2281)",
+          "stance": "partial",
+          "note": "Buck's word-list for 'man' has Goth. wair, guma, manna; OE wer, ceorl, man; Skt. nar-, nara-, vira-, pumams-; Av. nar-, virad-, OPers. martiya- - note that the Iranian entries are nar-/martiya-, NOT manu-."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "manu, manuš, mainyuš; manuš-čitra",
+          "verdict": "disputed",
+          "derivation": "The compound is right, the glosses of the simple words are not. (a) There is no Avestan common noun manu-/manus- 'man': Bartholomae's Altiranisches Woerterbuch has only \"manus- m. EN. eines alten, vorzeitlichen Helden\" (proper name of an ancient hero) and \"manusa- m. Name eines Bergs\" (a mountain). Pokorny p.700 is careful for exactly this reason - he cites Avestan only 'im PN Manus-cithra-'. The Avestan words for 'man' are nar- and mas(y)a-/masya-. Klein p.930 does assert 'Avestic manu-, \"man\"', which is what Nourai followed, but that is an inference from Sanskrit manu-, not an attestation. (b) mainyus is the nom. sg. of Av. mainyu- 'spirit, mind' (< *mn-yo-, Watkins men-1 I.3.b 'Avestan mainyu, spirit: AHRIMAN'); every compound in Bartholomae glosses it 'Geist' (mainyu.tasta- 'von Geistern gefertigt', mainyu.suta- 'vom Geist angetrieben'). It therefore belongs to *men- 'think' but means 'spirit', not 'man(ly)', and it does not belong under this root box at all. (c) manus-cithra- is genuine: Bartholomae \"manus.cithra- m. EN. eines Glaeubigen ... Yt. 13.131\", i.e. 'having the seed/lineage of Manus' (cithra- 'seed, lineage, appearance' > MP cihr > NP چهر). The book's spelling manus-citra is Nourai's simplified transcription of cithra-. Nourai's first gloss 'with manly face' is the folk etymology (the Borhan's 'behesht-ruy' story) that Mo'in flags as قصةاللغة عامیانه; his alternative 'of \"Manush\" race' is the correct one.",
+          "derivation_fa": "ترکیب درست است، ولی معنای واژه‌های ساده نه. الف) در اوستایی نامِ عامِ manu-/manuš- به معنای «مرد» وجود ندارد؛ فرهنگ ایرانی باستانِ بارتولومه تنها «manuš- (مذکر) نام خاصِ پهلوانی کهن و پیش‌تاریخی» و «manuša- نام کوهی» را دارد. پوکورنی نیز از همین رو در ص ۷۰۰ تنها می‌نویسد «اوستایی: در نام خاصِ Manuš.čiθra-». واژهٔ اوستایی «مرد» nar- و maš(y)a- است. کلاین در ص ۹۳۰ «اوستایی manu- «مرد»» را می‌آورد و نورایی همان را پی گرفته، ولی این استنتاج از manu- سنسکریت است نه گواهِ متنی. ب) mainyuš حالت فاعلیِ مفردِ mainyu- اوستایی است به معنای «مینو، روان، گوهر مینوی» (از *mn̥-yo-؛ واتکینز ذیل men-1 می‌نویسد «اوستایی mainyu، spirit») و بارتولومه در همهٔ ترکیب‌ها آن را «Geist» معنی می‌کند. پس این واژه به ریشهٔ *men- «اندیشیدن» می‌رسد ولی معنای آن «مینو/روان» است نه «مردانه»، و جای آن در این جعبه نیست. پ) manuš.čiθra- درست است: بارتولومه «manuš.čiθra- نام خاصِ یکی از پیروان دین، فروردین یشت بند ۱۳۱». معنای آن «از تخمه و نژادِ منوش» است (čiθra- «تخمه، نژاد، چهره» ← čihr پهلوی ← «چهر» فارسی). املای «manuš-citra» در کتاب همان čiθra- است با نگارشِ ساده‌شدهٔ نورایی. معنای نخستِ او «با چهرهٔ مردانه» همان ریشه‌شناسی عامیانه‌ای است که معین آن را «قصةاللغة عامیانه» می‌نامد؛ معنای دومِ او «از نژادِ منوش» درست است. پژوهش امروزی گلوسِ «manu/manuš/mainyuš = مردانه» را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%88%DA%86%D9%87%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:700",
+              "status": "partial",
+              "note": "Pokorny p.700 supports only the compound: \"av. im PN Manus-cithra-\". He gives no Avestan simplex and nothing about mainyus."
+            },
+            {
+              "ref": "KLN:930",
+              "status": "supports",
+              "note": "Klein p.930 s.v. man does write \"Avestic manu-, 'man'\", so Nourai's gloss is faithfully taken from his source - but the form is unattested (see consulted: BRT)."
+            },
+            {
+              "ref": "BQT:2047",
+              "status": "supports",
+              "note": "BQT_v4_pages.txt [pdf page 130] = printed p.2047 (printed = pdf + 1917), Mo'in's footnote to منوچهر: «دراوستا Manuš.čiθra ... جزو دوم چیثره هم‌ریشهٔ «چهر» فارسی است که در اصل بمعنی نژاد بوده، این کلمهٔ مرکب بمعنی «از نژاد و پشت منوش» است. منوش محققاً یکی از ناموران قدیم بود که امروزه در اوستا اسمی ازو نیست ... اسم منوچهر و خاندان وی فقط یکبار در اوستا بند ۱۳۱ فروردین یشت یاد شده است.» Mo'in also marks the Borhan's 'behesht-ruy' explanation as folk etymology (قصةاللغة عامیانه)."
+            },
+            {
+              "ref": "SNS:241",
+              "status": "partial",
+              "note": "Tavoosi, Vazhe-name-ye Shayast ne Shayast: the Pahlavi word-index (SNS_pages.txt leaf 229, index page ٢٥) lists \"manuyscihr 240/20\", i.e. Manuščihr occurs at p.240 line 20 of the glossary - adjacent to Nourai's p.241. The Persian OCR of the glossary pages themselves is unusable (refs_online.json flags it 'POOR'), and no page offset is established for this scan, so the exact page could not be read."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, Altiranisches Woerterbuch s.vv. manus-, manusa-, manus.cithra-, mainyu- (BRT.txt)",
+              "stance": "contradicts",
+              "note": "\"manus- m. EN. eines alten, vor[zeit]lichen Helden\"; \"manusa- m. Name eines Bergs\"; \"manus.cithra- m. EN. eines Glaeubigen: ...thraie airyavahu asaono 'des M., Sohns des A.' Yt. 13.131\". mainyu- is glossed 'Geist' throughout (mainyu.tasta- 'von Geistern gefertigt'). So Av. manus- is a hero's name, not 'man', and mainyus is 'spirit', not 'man(ly)'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins men-1 I.3.b (AHD_watkins1985.txt line 745)",
+              "stance": "contradicts",
+              "note": "\"Suffixed form *mn-yo- in ... b. Avestan mainyu, spirit: AHRIMAN\" - mainyu is filed under men-1 'to think' with the meaning 'spirit', not under man-1 'man'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, Glossary s.v. Manucihr (NYB_vol2_glossary.txt line 2428)",
+              "stance": "supports",
+              "note": "\"Manucihr [mnwcyhl] 1131-18, and Manus-cihr [m'nwcyhl] 47-2, 1165, the son of Erec and the successor of Fredon. - Av. (1135) Manus.cithra-; NP Manucihr.\" Confirms the compound and its Avestan source."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon (KNT.txt), grep 'manu'",
+              "stance": "silent",
+              "note": "Old Persian has no manu-; the only 'manu' hits in Kent are the English word 'manuscript'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "Manŭčehr «منوچهر»",
+          "verdict": "confirmed",
+          "derivation": "Av. Manus.cithra- (Yasht 13.131) 'of the lineage of Manus' > Middle Persian Manuscihr / Manucihr (Pahlavi mnwcyhl and m'nwcyhl; the Bundahishn makes him the son of Manus-khwarnar and grandson of Erec/Iraj) > New Persian منوچهر Manučehr, the Kayanid king of the Shahnama. The sound history is regular: the Avestan cluster -sc- is simplified to -c- in Middle Persian, intervocalic Avestan -thr- gives MP -hr- (cithra- > cihr), and MP cihr becomes NP چهر/چهره 'face, appearance'. Because cihr had shifted from 'seed, lineage' to 'face', the name was re-etymologised in Persian as 'of the face of paradise' (mēnō 'paradise' + čehr 'face') - the explanation given in Borhan-e Qate' and rejected by Mo'in as folk etymology. Nourai's gloss 'from Manush family' is Mo'in's own («از نژاد و پشت منوش»), and his NOTE 'a male name' is correct.",
+          "derivation_fa": "«منوچهر» از اوستایی Manuš.čiθra- (فروردین یشت، بند ۱۳۱) به معنای «از نژادِ منوش»؛ در فارسی میانه Manuščihr / Manūčihr (به خطِ پهلوی mnwcyhl و m'nwcyhl؛ در بندهشن پسرِ منوش‌خورنر و از تبارِ ایرج) و در فارسی نو «منوچهر»، شاهِ کیانیِ شاهنامه. دگرگونی آوایی قاعده‌مند است: خوشهٔ -šč- اوستایی در فارسی میانه به -č- ساده شده، -θr- میان‌واکه‌ای اوستایی به -hr- بدل گشته (čiθra- ← čihr) و čihrِ پهلوی در فارسی نو «چهر/چهره» شده است. چون معنای «چهر» از «تخمه و نژاد» به «رخ» گرایید، این نام در فارسی از نو ریشه‌شناسی عامیانه شد به «چهرهٔ مینو» (مینو + چهر) - همان توضیحی که در برهان قاطع آمده و معین آن را ریشه‌شناسی عامیانه دانسته است. معنای «از خاندان منوش» که نورایی داده، عیناً گفتهٔ معین است («از نژاد و پشت منوش») و یادداشت او «نام مردانه» نیز درست است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%88%DA%86%D9%87%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:2047",
+              "status": "supports",
+              "note": "Printed p.2047 = BQT_v4_pages.txt [pdf page 130]: Mo'in's footnote «دراوستا Manuš.čiθra ... این کلمهٔ مرکب بمعنی «از نژاد و پشت منوش» است» and «اسم منوچهر و خاندان وی ... فقط یکبار در اوستا بند ۱۳۱ فروردین یشت یاد شده است»; the Borhan's own 'بهشت روی' derivation on the same page is footnoted قصةاللغة عامیانه (folk etymology)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, Glossary (NYB_vol2_glossary.txt lines 2428-2430)",
+              "stance": "supports",
+              "note": "\"Manucihr ... and Manus-cihr ..., the son of Erec and the successor of Fredon. - Av. (1135) Manus.cithra-; NP Manucihr.\" and \"Manus-khwarnar ... the son of the preceding and the father of Manus-cihr\" (BdJ)."
+            },
+            {
+              "src": "BRT",
+              "where": "Bartholomae s.v. manus.cithra- (BRT.txt)",
+              "stance": "supports",
+              "note": "\"manus.cithra- m. EN. eines Glaeubigen ... Yt. 13.131\" - the Avestan attestation Mo'in and Nyberg refer to."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vazhenamak (Farhang-e Shahnameh) (FSF_pages.txt)",
+              "stance": "partial",
+              "note": "Noushin discusses منوچهر/منوچهری only as Shahnama vocabulary and does not give the Avestan etymology; his اهورامزدا entry (see entry 2) is the etymological one."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary (PHD.txt), grep 'Manuscihr'",
+              "stance": "silent",
+              "note": "MacKenzie's dictionary excludes proper names, so Manuscihr is absent; the Pahlavi form comes from Nyberg."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Germanic",
+          "words": "manna",
+          "verdict": "confirmed",
+          "derivation": "Nourai's 'manna' is the Gothic form used to label Proto-Germanic *mann-/*mannaz (n-stem, gen. mans, pl. *manniz): Gothic manna, Old Norse maðr/mannr, Old English mann/man (pl. menn), Old Frisian monn, Old High German man > German Mann, Middle Dutch man. Pokorny p.700 derives it from *manu-s with the u/w-stem still visible in \"urgerm. *manwaz im PN Mannus (Tacitus, Germania 2), Stammvater der Deutschen\", and Watkins man-1 has \"Extended forms *manu-, *manw- in Germanic *manna- (plural *manniz)\". Modern Germanic etymology is divided: Kroonen, following Berneker, prefers to trace *mann- to PIE *(dh)ghmon- 'human, earthling' (the *dhghem- 'earth' family, cf. Lat. homo), with the initial cluster reduced in Germanic - which would sever it both from Skt. manu- and from *men- 'to think'.",
+          "derivation_fa": "«manna» در نمودار صورتِ گوتی است که نورایی برای نامیدنِ *mann-/*mannaz ژرمنیِ آغازین (ستاکِ n با حالت اضافیِ mans و جمعِ *manniz) به کار برده است: manna گوتی، maðr/mannr نورسِ کهن، mann/man انگلیسی کهن (جمع menn)، monn فریزی کهن، man آلمانی علیای کهن ← Mann آلمانی، man هلندی میانه. پوکورنی در ص ۷۰۰ آن را از *manu-s می‌گیرد و ستاکِ u/w را در «*manwaz ژرمنیِ آغازین در نام خاصِ Mannus (تاسیت، ژرمانیا ۲)، نیای آلمانیان» نشان می‌دهد، و واتکینز نیز می‌نویسد «صورت‌های گسترش‌یافتهٔ *manu-, *manw- در *manna- ژرمنی (جمع *manniz)». ریشه‌شناسیِ امروزیِ ژرمنی دو دسته است: کرونن به پیروی از برنکر ترجیح می‌دهد *mann- را از *(dʰ)ǵʰmon- «انسان، خاکی» بگیرد (از خانوادهٔ *dʰǵʰem- «زمین»، قس homo لاتین) با ساده‌شدنِ خوشهٔ آغازی در ژرمنی، که در آن صورت پیوندِ آن با manu- سنسکریت و با *men- «اندیشیدن» بریده می‌شود. صورت و معنای گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mannaz"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins man-1: \"1. Extended forms *manu-, *manw- in Germanic *manna- (plural *manniz), in: a. Old English man(n) (plural menn), man: MAN; NORMAN; b. Old High German man ...; c. Middle Dutch man, man: MANIKIN, (MANNEQUIN); d. Old Norse madhr, mannr, man: NORMAN, OMBUDSMAN.\""
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 700 (POK_02.txt)",
+              "stance": "supports",
+              "note": "\"urgerm. *manwaz im PN Mannus (Tacitus), Stammvater der Deutschen, got. manna (Gen. mans), aisl. madr, mannr, a[gs.] afries. ahd. mann ,Mann', got. manniskis ... 'menschlich'\"."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 930 s.v. man (KLN_1966.txt leaf NR=501)",
+              "stance": "supports",
+              "note": "\"... G. Mann, ON. madr (for *mannr), Dan. mand, Goth. manna, 'man' (cp. Mannus, a tribal deity, in Tacitus' Germania, chapt. 2), OS. mennisco, OFris. manniska, MDu. mensche, Du. mens, OHG. mannisco ...\""
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat (SKT.txt), grep 'Man,'",
+              "stance": "silent",
+              "note": "The OCR of Skeat's M pages is defective around this entry (neither 'Man' nor 'Music' can be retrieved); no reading obtained."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "mannequin",
+          "verdict": "confirmed",
+          "derivation": "French mannequin (15th c.) is a borrowing from Middle Dutch/Dutch manneken 'little man', the diminutive of man - so the arrow from the Germanic box is right, but the immediate donor is Dutch, not Gothic, and the -quin spelling is the French adaptation of the Dutch diminutive suffix -ken. In French the word first meant a jointed artist's figure, then (from 1853, in translations) an artificial figure for displaying clothes, then a live fashion model; the last sense went back into English in 1898. English manikin (1560s) is a separate, earlier borrowing of the same Dutch word, which is why Nourai can list manikin in node #6 and mannequin here.",
+          "derivation_fa": "mannequin فرانسوی (سدهٔ پانزدهم) وام‌واژه‌ای است از manneken هلندی/هلندیِ میانه به معنای «مردِ کوچک»، مصغّرِ man؛ پس پیکانِ آمده از جعبهٔ ژرمنی درست است، ولی وام‌دهِ بی‌واسطه هلندی است نه گوتی، و املای -quin برگردانِ فرانسویِ پسوندِ تصغیرِ هلندیِ -ken است. در فرانسه نخست به «پیکرکِ مفصل‌دارِ نقاشان»، سپس از ۱۸۵۳ م به «پیکرِ بدلی برای نمایشِ لباس» و آنگاه به «مانکنِ زنده» گفته شد؛ معنای آخر در ۱۸۹۸ م به انگلیسی بازگشت. manikin انگلیسی (دههٔ ۱۵۶۰) وام‌گیریِ جداگانه و کهن‌ترِ همان واژهٔ هلندی است، و از این‌رو نورایی manikin را در گرهٔ ۶ و mannequin را اینجا آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mannequin"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference given for the French box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. ~980 s.v. mannequin, manikin (KLN_1966.txt leaves 501-502)",
+              "stance": "supports",
+              "note": "\"manikin, n., 1) a little man; a dwarf; 2) a model of the human body; 3) a mannequin. - Du. manneken, 'little man', dimin. of man, 'man'.\"; \"mannequin, n., ... - F., fr. Du. manneken, 'little man'. See manikin.\""
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. III s.v. mannequin (FSD_vol3.txt)",
+              "stance": "supports",
+              "note": "\"4. A little man, pigmy; dwarf. [< F. mannequin, < MD. manneken, dim. of man, man]\""
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins man-1 1.c (AHD_watkins1985.txt line 722)",
+              "stance": "supports",
+              "note": "\"c. Middle Dutch man, man: MANIKIN, (MANNEQUIN)\" - the Dutch stage is explicit."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "mânkan «مانکن»",
+          "verdict": "confirmed",
+          "derivation": "French mannequin > Persian مانکن mânken/mânkan, a 20th-century loan that came in with European tailoring and the ready-made clothing trade. French [manəkɛ̃] was adapted by replacing the nasal vowel of the final syllable with -kan/-ken (Persian has no nasal vowels), and the geminate -nn- was simplified. Mo'in's Farhang defines it «پیکر بدلی به شکل انسان که از چوب، مقوا و غیره سازند و بر آن لباس پوشانند و در خیاطخانه‌ها و مغازه‌های لباس‌فروشی به معرض تماشا [گذارند]» with a French origin tag, i.e. exactly Nourai's 'manikin'. The word is thus, at the far end of the chart, a Germanic word (Dutch manneken) that reached Persian through French - a route Nourai draws correctly.",
+          "derivation_fa": "«مانکن» از mannequin فرانسوی، وام‌واژه‌ای از سدهٔ بیستم که همراه با خیاطیِ اروپایی و بازارِ لباسِ آماده به فارسی آمد. واکهٔ خیشومیِ هجای پایانیِ فرانسوی، چون فارسی واکهٔ خیشومی ندارد، به -کن/-کان بدل شده و همخوانِ مشدّدِ -nn- ساده گشته است. معین آن را «پیکر بدلی به شکل انسان که از چوب، مقوا و غیره سازند و بر آن لباس پوشانند و در خیاطخانه‌ها و مغازه‌های لباس‌فروشی به معرض تماشا [گذارند]» معنی کرده و برچسبِ [فر.] بر آن نهاده - همان «manikin» نورایی. پس این واژه در انتهای نمودار، واژه‌ای ژرمنی (manneken هلندی) است که از راه فرانسه به فارسی رسیده و نورایی این مسیر را درست کشیده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mannequin"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3721",
+              "status": "not_checked",
+              "note": "The 6-volume Farhang-e Farsi is not digitised (refs_online.json: only the 2-volume Adena condensation). That condensation carries the entry: «مانکن: [فر.] (اِ.) پیکر بدلی به شکل انسان که از چوب، مقوا و غیره سازند و بر آن لباس پوشانند و در خیاطخانه‌ها و مغازه‌های لباس‌فروشی به معرض تماشا ...» (MON_part2.txt), which is what p.3721 would carry."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part2.txt s.v. مانکن (2-vol Adena condensation)",
+              "stance": "supports",
+              "note": "«مانکن: [فر.] (اِ.) پیکر بدلی به شکل انسان که از چوب، مقوا و غیره سازند و بر آن لباس پوشانند ...» - French tag plus Nourai's meaning."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur (incoming/ARY/ARY_pages.txt), grep 'مانکن'",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of Indo-European roots of Persian covers only inherited vocabulary; no entry."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. s.v. mannequin (KLN_1966.txt leaf NR=502)",
+              "stance": "supports",
+              "note": "Gives the French > Dutch source of the word that Persian borrowed."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "man, Norman, Herman, manikin",
+          "verdict": "confirmed",
+          "derivation": "All four contain Germanic *mann-. man < OE mann/man (pl. menn) < PGmc *mannaz. Norman < Old French Normant (mod. Normand), literally 'North-man', i.e. Old Norse Nordhmadhr (nordhr + madhr < *mannaz), the name the Franks gave the Vikings who settled Normandy in the 10th c.; Klein s.v. Norman: \"OF. Normant, F. Normand, lit. 'Northman'. See Northman.\" Herman < Germanic *Hari-man 'army-man' (OHG Hariman/Heriman, hari 'army' + man), an ordinary Germanic dithematic name, borrowed into English through Dutch/German. manikin (1560s) < Dutch manneken 'little man'. Nourai's page reference is right: Klein's article 'man', with the whole Germanic list, stands on p.930 of the 1966 edition, and the Norman and manikin entries cross-refer to it.",
+          "derivation_fa": "هر چهار واژه *mann- ژرمنی را در خود دارند. man از mann/man انگلیسی کهن (جمع menn) از *mannaz ژرمنیِ آغازین. Norman از Normant فرانسهٔ کهن (Normand امروزی) به معنای تحت‌اللفظیِ «مردِ شمال»، یعنی Norðmaðr نورسِ کهن (norðr «شمال» + maðr از *mannaz)، نامی که فرانکان به وایکینگ‌های ساکنِ نورماندی در سدهٔ دهم دادند؛ کلاین ذیل Norman می‌نویسد: «فرانسهٔ کهن Normant، فرانسهٔ نو Normand، تحت‌اللفظی «مردِ شمال»». Herman از *Hari-man ژرمنی «مردِ سپاه» (Hariman/Heriman آلمانی علیای کهن، از hari «سپاه» + man)، نامی دوجزئیِ معمولِ ژرمنی که از راه هلندی/آلمانی به انگلیسی رسیده. manikin (دههٔ ۱۵۶۰) از manneken هلندی «مردِ کوچک». ارجاعِ صفحهٔ نورایی درست است: مقالهٔ «man» کلاین با همین فهرستِ ژرمنی در ص ۹۳۰ چاپ ۱۹۶۶ آمده و مدخل‌های Norman و manikin به آن ارجاع می‌دهند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mannequin",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mannaz"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:930",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf NR=501 = printed p.930 (running head read by the OCR as 930; leaves 500=929, 502=932 bracket it), s.v. 'man': the full Germanic cognate list plus 'All these words prob. meant orig. \"one who thinks\"'. Klein's 'Norman' (leaf 587 region: \"OF. Normant, F. Normand, lit. 'Northman'\") and 'manikin' (leaf 501: \"Du. manneken, 'little man'\") entries cross-refer to it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins man-1 and index (AHD_watkins1985.txt lines 722, 1810, 1813, 1935)",
+              "stance": "supports",
+              "note": "Index: 'MAN man-1', 'NORMAN man-1, ner-1', 'MANIKIN man-1', 'MANNEQUIN man-1' - all four of Nourai's items except Herman, which Watkins does not list."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. s.v. Norman, manikin (KLN_1966.txt leaves 587, 501)",
+              "stance": "supports",
+              "note": "\"Norman, n., 1) one of the Northmen who occupied Normandy in the 10th cent. ... - OF. Normant, F. Normand, lit. 'Northman'.\"; \"manikin ... Du. manneken, 'little man', dimin. of man\"."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. III s.v. mannequin/manikin (FSD_vol3.txt)",
+              "stance": "supports",
+              "note": "\"[< F. mannequin, < MD. manneken, dim. of man, man]\" for the manikin/mannequin pair."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Men-dh",
+      "verdict": "confirmed",
+      "modern_form": "PIE *mendh- (*men-dheh1-) 'to direct one's mind to, learn' (Pokorny 730; Watkins mendh-1 'To learn')",
+      "note": "Correct in every respect, and Nourai's hyphenated spelling 'Men-dh' is Pokorny's own analysis. Pokorny p.730: \"mendh- ,seinen Sinn worauf richten, lebhaft sein'\" and, at the end of the article, \"Idg. men-dh- durch Zusammenrueckung aus *men-dhe- ,den Sinn worauf setzen'\" - i.e. the root is a compound of *men- 'mind' with *dheh1- 'to put', which is exactly why Nourai cross-refers the Avestan node to his root Dhě 2. Watkins glosses mendh-1 simply 'To learn' [Pok. mendh- 730], which is Nourai's gloss verbatim. The one thing to keep in mind is that the same page of Pokorny also assigns Greek Mousa here - which is where entry 0 node #1 should have been hung.",
+      "note_fa": "این مدخل از هر نظر درست است و نگارشِ خط‌فاصله‌دارِ «Men-dh» همان تحلیلِ خودِ پوکورنی است. پوکورنی در ص ۷۳۰ می‌نویسد: «mendh-: ذهن را به چیزی گرداندن، سرزنده بودن» و در پایانِ مقاله: «men-dh هندواروپایی از به‌هم‌پیوستنِ *men-dhe- «ذهن را بر چیزی نهادن» پدید آمده است» - یعنی این ریشه ترکیبی است از *men- «ذهن» با *dʰeh₁- «نهادن»، و همین است که نورایی گرهٔ اوستایی را به ریشهٔ «Dhě ۲» ارجاع داده. واتکینز نیز mendh-1 را تنها «to learn» معنی کرده و به همان ص ۷۳۰ پوکورنی ارجاع داده است، که عیناً معنای نورایی است. تنها نکته آنکه همان صفحهٔ پوکورنی Mousa یونانی را نیز به همین ریشه نسبت می‌دهد - جایی که در واقع گرهٔ ۱ از مدخل نخست باید آویخته می‌شد. ادعای نورایی درست است.",
+      "sources": [
+        "https://www.etymonline.com/word/mathematics"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:730",
+          "status": "supports",
+          "note": "POK_02.txt, the leaf whose running head reads 730: \"mendh- ,seinen Sinn worauf richten, lebhaft sein'; m(o)ndh-ro- ,munter'. Ai. medha ,Weisheit, Einsicht, Verstand', av. mazda, mazdah- n. ,Gedaechtnis, Erinnerung', mazdah- m. Name des hoechsten Gottes (*mazdha aus *mndh-ta); gr. manthano ... ,lernen' ... vielleicht Mousa (*mon-dh-ia) ,Muse' ... Idg. men-dh- durch Zusammenrueckung aus *men-dhe- ,den Sinn worauf setzen' ... WP. II 270 f.\""
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny Bd. II 270-271 (WLD_Bd2_pages.txt lines 17832-17865)",
+          "stance": "supports",
+          "note": "\"mendh- ,seinen Sinn worauf richten, angeregt, lebhaft sein'. Ai. medha ,Weisheit ...', av. mazda, mazdah- n. ,Gedaechtnis, Erinnerung', mazdah- m. Name des hoechsten Gottes (*mazdha aus *mndh-ta) ... Idg. men-dh- ist Erw. von men- ,denken', genauer wohl Zsrueckung men-dhe- ,den Sinn worauf setzen'\"."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. mendh-1 (AHD_watkins1985.txt line 749)",
+          "stance": "supports",
+          "note": "\"mendh-1. To learn. Zero-grade form *mndh- in Greek manthanein (aorist stem math-), to learn: MATHEMATICAL, (MATHEMATICS); CHRESTOMATHY, POLYMATH. [Pok. mendh- 730.]\""
+        },
+        {
+          "src": "KLN",
+          "where": "1966 ed. p. 947 s.v. mathematical (KLN_1966.txt leaf NR=509)",
+          "stance": "supports",
+          "note": "\"fr. *mndh-, reduced form of I.-E. base *men-dh-, 'to have one's mind aroused, apply oneself to' ... Base *men-dh- is an enlargement of base *men-, 'to think'.\""
+        },
+        {
+          "src": "POK",
+          "where": "Bd. I p. 730 (POK_02.txt)",
+          "stance": "supports",
+          "note": "See ref_check above."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ma[n]dz-dha, mazdha : learned, wise; ahura-mazdha; mazda-yasna",
+          "verdict": "confirmed",
+          "derivation": "The odd-looking first form is not a misprint: it is copied straight from Klein p.1095 s.v. Ormazd, who writes 'Avestic ma(n)dzdha-, \"wise\"'. The standard transcription is Av. mazda- (stem mazdah-), from *mns-dheh1-/*mns-dheh2 'having set (one's) mind', i.e. the acc. *mns of manah- 'mind' compounded with *dheh1- 'to put' - which is precisely Nourai's cross-reference to Dhě 2, and which Watkins states as an 'Indo-European verb phrase *mens dhe-, \"to set mind\"'. Bartholomae's own glosses are worth keeping: mazdah- n. is 'memoria, Gedaechtnis' (memory) and mazdah- m. is 'Name des hoechsten Gottes'; the sense 'wise' is the one the word carries in the compound (Mo'in, summarising Bartholomae col. 1192: «چون با اهوره استعمال شود ازآن معنی هوشیار و دانا و آگاه اراده کنند»). ahura-mazda- is thus 'the Lord Wisdom / the wise Lord' (Old Persian Auramazda, attested about a hundred times in Kent's lexicon and abbreviated by the ideogram AM). mazda-yasna- / mazdayasna- is 'Mazda-worshipper', Bartholomae \"'der den Mazdah verehrt, anbetet; Anhaenger der Mazdah-religion'\". The extra -h- in Nourai's mazdha/ahura-mazdha is again Klein's notation of the aspirate *dh.",
+          "derivation_fa": "صورتِ عجیبِ نخست غلط چاپی نیست: عیناً از کلاین ص ۱۰۹۵ ذیل Ormazd گرفته شده که می‌نویسد «اوستایی ma(n)dzdha- «دانا»». نگارشِ معیار mazdā- اوستایی (ستاکِ mazdāh-) است، از *mn̥s-dʰeh₁-/*mn̥s-dʰéh₂ «آن که ذهن [خود را بر چیزی] نهاده»، یعنی حالتِ مفعولیِ *mn̥s از manah- «منش، ذهن» در ترکیب با *dʰeh₁- «نهادن» - و همین است ارجاعِ نورایی به ریشهٔ «Dhě ۲»؛ واتکینز نیز آن را «عبارتِ فعلیِ هندواروپاییِ *mens dhē- «ذهن نهادن»» می‌نامد. گلوسِ خودِ بارتولومه را باید در نظر داشت: mazdāh- در حالتِ خنثی «memoria، حافظه، یاد» و در حالتِ مذکر «نامِ خدای برین» است؛ معنای «دانا» معنایی است که واژه در ترکیب می‌گیرد (معین در خلاصهٔ سخنِ بارتولومه، ستون ۱۱۹۲: «چون با اهوره استعمال شود ازآن معنی هوشیار و دانا و آگاه اراده کنند»). پس ahura-mazdā- «سرورِ دانا / خداوندِ خرد» است (در پارسی باستان Auramazdā، با نزدیک به صد گواه در واژه‌نامهٔ کنت و نشانهٔ اختصاریِ AM). mazda-yasna- نیز «مزداپرست» است؛ بارتولومه: «آن که مزداه را می‌ستاید و می‌پرستد؛ پیروِ دینِ مزداه». افزودگیِ -h- در mazdha و ahura-mazdha نیز شیوهٔ نگارشِ کلاین برای واکِ دمیدهٔ *dʰ است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%F0%90%AC%A8%F0%90%AC%80%F0%90%AC%B0%F0%90%AC%9B%F0%90%AC%81",
+            "https://en.wiktionary.org/wiki/Ahura_Mazda"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins men-1 V: \"Indo-European verb phrase *mens dhe-, 'to set mind' (see dhe-1), underlying compound *mns-dhe- in Avestan mazda-, wise: AHURA MAZDA, ORMAZD. [Pok. 3. men- 726, mendh- 730.]\" - both the compound analysis and Nourai's Dhe cross-reference. The index has 'AHURA MAZDA ansu-, men-1' and 'ORMAZD ansu-, men-1'."
+            },
+            {
+              "ref": "KLN:1095",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf NR=587, which the leaf/page fit puts at printed p.1095 (leaf 536 = p.998 at ~1.915 pages per leaf), s.v. Ormazd: \"Pers., fr. OPers. Auramazda, fr. Avestic Ahuramazda, lit. 'wise lord', a compound of ahura-, 'a god, a good spirit' (see ahura), and ma(n)dzdha-, 'wise', which is a compound formed from the I.-E. bases *men-dh-, 'to apply oneself to', and *dhe-, 'to put, place'. From base *men-dh- derives also OI. medha, 'wisdom, intelligence'. For other derivatives of this base see mathematical. For base *dhe- see do ...\" This is verbatim the source of Nourai's 'ma[n]dz-dha' and of the Dhe cross-reference."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW s.vv. mazdah- (n. and m.), mazdatae-, mazdatha-, a(h)ura-mazdah-, mazda-yasna- (BRT.txt lines 20214-20222, 6879-6903, 20201)",
+              "stance": "partial",
+              "note": "\"mazdah- n. 'memoria, Gedaechtnis', nur AS. mazdam mit kar-\"; \"mazdah- m. Name des hoechsten Gottes\"; \"mazdatae(-ca) Inf. 'dem Gedaechtnis einzupraegen, im Gedaechtnis zu behalten'\"; \"a(h)ura-mazdah- m. Name des hoechsten Gottes\" (also as Old Persian); \"mazda-yasna- Adj. 'der den Mazdah verehrt, anbetet; Anhaenger der Mazdah-religion'\". Bartholomae's primary gloss is 'memory', not 'wise' - hence 'partial'."
+            },
+            {
+              "src": "POK",
+              "where": "Bd. I p. 730 (POK_02.txt)",
+              "stance": "supports",
+              "note": "\"av. mazda, mazdah- n. ,Gedaechtnis, Erinnerung', mazdah- m. Name des hoechsten Gottes (*mazdha aus *mndh-ta)\" - note that Pokorny's *mazdha is the very spelling Nourai and Klein use."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian (KNT.txt), grep 'Auramazda'",
+              "stance": "supports",
+              "note": "About 99 occurrences of Auramazda / Auramazdaha in the texts and in Kent's paradigms, plus the ideogram list §18: \"40 AM 'Ahuramazda'\" - the Old Persian form of the compound."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. II 270 (WLD_Bd2_pages.txt line 17832 ff.)",
+              "stance": "supports",
+              "note": "Same data as Pokorny plus \"ao. maz-da- ,dem Gedaechtnis einpraegen' (davon mazdra- ,verstaendig, weise')\"."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "Mazdâ «مزدا»; Ahŭrâmazdâ «اهورامزدا ( هرمز )»; mazdîsnâ «مزدیسنا»",
+          "verdict": "confirmed",
+          "derivation": "Three modern Persian forms of the same Avestan material. (a) مزدا and (b) اهورامزدا are learned re-borrowings of the Avestan name, made in the 19th-20th c. by Iranian scholars of Zoroastrianism (Purdavud and after) directly from the Avesta. (c) The inherited line, which Nourai gives in the parenthesis, runs Av. ahura- mazda- > Old Persian Auramazda > Middle Persian Ohrmazd/Ohrmizd (MacKenzie: \"Ohrmazd ['whrmzd | M 'whrm(y)zd, N Hormuzd] Ahura Mazda: astr. Jupiter\") > New Persian هرمز/هرمزد/اورمزد/هورمزد - the loss of the medial -a-, the contraction ahura- > ohr-, and the shift of the final -d are all regular; Mo'in sets them out in his note to Borhan-e Qate' s.v. ارمز, and adds that Hormozd is also the name of the first day of each solar month and, later, of the planet Jupiter (Biruni, al-Athar al-baqiya: Persian هرمزد, Sogdian خرمژد, Khwarezmian ریمژد). (d) مزدیسنا continues Av. mazdayasna- through MP mazdesn (MacKenzie: \"mazdesn ... Mazda-worshipping, Mazdean; -ih: Mazda-worship, Mazdaism\"; Nyberg: \"mazdesneh ... the state of being a Mazdayasnian\"), the modern Persian shape being a learned restitution of the Avestan -yasna-.",
+          "derivation_fa": "سه صورتِ فارسیِ نو از یک مادهٔ اوستایی. الف و ب) «مزدا» و «اهورامزدا» وام‌گیریِ عالمانه و دوباره‌ای است که ایران‌شناسان و اوستاپژوهانِ سدهٔ سیزدهم و چهاردهمِ خورشیدی (پورداود و پس از او) مستقیماً از اوستا کرده‌اند. پ) رشتهٔ موروثی که نورایی درونِ کمانک آورده چنین است: ahura- mazdā- اوستایی ← Auramazdā پارسی باستان ← Ōhrmazd/Ōhrmizd فارسی میانه (مکنزی: «Ōhrmazd [ʼwhrmzd، مانوی ʼwhrm(y)zd، فارسی نو Hōrmuzd]، اهورامزدا؛ در نجوم: مشتری») ← «هرمز، هرمزد، اورمزد، هورمزد» در فارسی نو؛ افتادنِ -a- میانی، فشرده‌شدنِ ahura- به ōhr- و دگرگونیِ -d پایانی همه قاعده‌مندند. معین در حاشیهٔ برهان قاطع ذیل «ارمز» همین را می‌آورد و می‌افزاید که هرمزد نامِ روزِ نخستِ هر ماهِ شمسی و سپس نامِ اخترِ مشتری است (بیرونی در آثارالباقیه: در فهرست روزهای ایرانی «هرمزد»، سغدی «خرمژد»، خوارزمی «ریمژد»). ت) «مزدیسنا» ادامهٔ māzdayasna- اوستایی است از راهِ māzdēsn فارسی میانه (مکنزی: «māzdēsn: مزداپرست، مزدیسنی؛ māzdēsnīh: مزداپرستی»؛ نیبرگ: «māzdēsnēh: مزدیسنی‌بودن») و صورتِ فارسیِ امروزی بازسازیِ عالمانهٔ -yasna- اوستایی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Ahura_Mazda",
+            "https://en.wiktionary.org/wiki/%F0%90%AC%A8%F0%90%AC%80%F0%90%AC%B0%F0%90%AC%9B%F0%90%AC%81"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:109",
+              "status": "supports",
+              "note": "The page is BQT_v1_pages.txt leaf 321, s.v. ارمز, whose running head the OCR reads as ۱۰۵; the leaf-to-page offset of this scan drifts between about 210 and 220 across the volume (refs_online.json), so leaf 321 sits within the 105-111 band and this is the page Nourai means - it is the only place in Borhan-e Qate' with the Ahura Mazda etymology. Mo'in's footnote: «اوستا Ahura Mazdā، پارسی باستان Auramazdā، پهلوی [Ōhrmazd]، در فارسی هرمزد (بفتح میم)، هرمزد (بضم میم)، اورمزد، هورمزد، هرمز هم آمده. نام خدای مزدیسنا، مرکب از اهوره در اوستا و Asura در سانسکریت از ریشهٔ asu سانسکریت و ahu اوستا بمعنی سرور و مولی ... مزدا در اوستا (یسنا ۴۰:۱) بمعنی حافظه آمده. در گاثاها (یسنا ۴۵:۱) بمعنی بخاطر سپردن و بیاد داشتن است. این کلمه در سانسکریت صورت medhas بمعنی دانش و هوش است، بنابراین چون با اهوره استعمال شود ازآن معنی هوشیار و دانا و آگاه اراده کنند «بارتولمه ۱۱۹۲» ... بنابر آنچه گفته شد اهورامزدا بمعنی سرور داناست.»"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary s.vv. Ohrmazd, mazdesn (PHD_mackenzie.txt line 3846; PHD.txt line 472)",
+              "stance": "supports",
+              "note": "\"Ohrmazd ['whrmzd | M 'whrm(y)zd, N Hormuzd] Ahura Mazda: astr. Jupiter\"; \"mazdesn [m'zd(y)sn' | M m'zdys] Mazda-worshipping, Mazdean. -ih: Mazda-worship, Mazdaism.\" Also the English-Pahlavi index: \"Ahuramazda Ohrmazd\", \"Mazdean mazdesn\", \"Jupiter (astr.) Ohrmazd\"."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, Glossary (NYB_vol2_glossary.txt lines 2522, 4343)",
+              "stance": "supports",
+              "note": "\"mazdesneh [m'zdysnyh] the state of being a Mazdayasnian 63H\"; and s.v. khwarrah: one swears 'pat khwarrah i Ohrmazd bag u den i mazdesnan'."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, s.v. اهورا هرمز اهورامزدا (incoming/ARY/ARY_pages.txt, pdf p. 98 = printed p. 99)",
+              "stance": "supports",
+              "note": "The entry lists Avestan Ahura/Ahurō, Old Persian Auramazdā, Pahlavi Ōhrmazd and Sanskrit asura/asu, and notes «ریشهٔ اوستایی این واژه دارای دو بخش است، بخش نخست آن در این فهرست پیگیری شده است، برای شناخت بخش دوم آن به «[آ]منش» بازگشت شود» - i.e. Aryanpur too analyses the name as ahura + a 'mind' element, citing Borhan-e Qate' and Farhang-e Mo'in."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vazhenamak / Farhang-e Shahnameh s.v. اورمزد، هرمز (FSF_pages.txt)",
+              "stance": "supports",
+              "note": "«همه اینها شکل‌های دیگری از «اهورامزدا»ی اوستایی است که نام ایزد است: اهورامزدا مرکب از دو واژه است ...» - the Shahnama forms اورمزد/هرمز are identified as the same Avestan name."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate', Mo'in's ed., s.v. اهورامزدا (BQT_v1_pages.txt leaf 411, printed p. ~191-194)",
+              "stance": "supports",
+              "note": "«اهورامزدا - بفتح اول و ششم، رك: ارمز» - the Borhan itself cross-refers اهورامزدا to the ارمز entry where the etymological footnote stands."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "manthanein",
+          "verdict": "confirmed",
+          "derivation": "Gk. manthano (inf. manthanein) 'to learn' is built on the zero grade *mndh- of *mendh- with the nasal-infix/-an- present formation, beside the aorist stem math- (emathon, inf. mathein) and the future mathesomai; Pokorny p.730 notes that the present is secondary to the aorist (\"gr. manthano (sekundaeres Praes. zu) mathesomai, mathein ,lernen'\") and adds the derivatives mathos n. and mathesis 'learning, instruction'. Watkins mendh-1: \"Zero-grade form *mndh- in Greek manthanein (aorist stem math-), to learn\". The gloss 'to learn' is exactly right.",
+          "derivation_fa": "manthánō یونانی (مصدرِ manthánein) «آموختن» بر پایهٔ درجهٔ صفرِ *mn̥dh- از *mendh- و با ساختِ حالِ میان‌افزودهٔ خیشومی/-an- ساخته شده، در برابرِ ستاکِ گذشتهٔ سادهٔ math- (émathon، مصدرِ mathein) و آیندهٔ mathḗsomai. پوکورنی در ص ۷۳۰ یادآور می‌شود که ستاکِ حال ثانوی و برساختهٔ از ستاکِ ماضی است («manthánō یونانی، حالِ ثانوی برای mathḗsomai، mathein «آموختن»») و مشتق‌های máthos و máthēsis «آموزش» را می‌افزاید. واتکینز نیز ذیل mendh-1 می‌نویسد: «درجهٔ صفرِ *mn̥dh- در manthánein یونانی (ستاکِ ماضیِ math-)، «آموختن»». معنایی که نورایی داده کاملاً درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mathematics"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins mendh-1: \"To learn. Zero-grade form *mndh- in Greek manthanein (aorist stem math-), to learn: MATHEMATICAL, (MATHEMATICS); CHRESTOMATHY, POLYMATH. [Pok. mendh- 730.]\""
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "Bd. I p. 730 (POK_02.txt)",
+              "stance": "supports",
+              "note": "\"gr. manthano (sekundaeres Praes. zu) mathesomai, mathein ,lernen', dor.-aeol. mathe, ion. mathos n., ion.-att. mathesis ,Lernen, Unterricht'\"."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny Bd. II 270 (WLD_Bd2_pages.txt line 17836 ff.)",
+              "stance": "supports",
+              "note": "Same wording, with the added reference to Curtius 311 f. and Meillet, De indoeur. rad. 41 f."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p. 947 s.v. mathematical (KLN_1966.txt leaf NR=509)",
+              "stance": "supports",
+              "note": "\"from the aorist mathein (whence the pres. manthanein), 'to learn', fr. *mndh-, reduced form of I.-E. base *men-dh-\"."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "mathematics",
+          "verdict": "confirmed",
+          "derivation": "Gk. mathema (gen. mathematos) 'that which is learnt, lesson, science', from the aorist stem math- of manthanein, gave the adjective mathematikos 'fond of learning, scientific, mathematical' and the substantivised feminine mathematike (techne) 'the mathematical art'; this became Lat. mathematica (pl. mathematica/mathematicae), Old French mathematique, Middle English mathematik (late 14th c.), and was remodelled with the plural -ics in the 1580s to give mathematics (whence math 1890 AmE, maths 1911 BrE). Klein's entry on p.947-948 covers the whole chain, and Watkins files MATHEMATICAL/MATHEMATICS under mendh-1.",
+          "derivation_fa": "máthēma یونانی (اضافی mathḗmatos) «آنچه آموخته می‌شود، درس، دانش» از ستاکِ ماضیِ math- در manthánein، صفتِ mathēmatikós «دانش‌دوست، علمی، ریاضی» و مؤنثِ اسم‌شدهٔ mathēmatikḗ (tékhnē) «هنرِ ریاضی» را پدید آورد؛ این صورت به mathematica لاتین، mathematique فرانسهٔ کهن و mathematik انگلیسیِ میانه (پایانِ سدهٔ چهاردهم) بدل شد و در دههٔ ۱۵۸۰ با پسوندِ جمعِ -ics به mathematics درآمد (و از آن math در انگلیسیِ آمریکایی ۱۸۹۰ و maths در انگلیسیِ بریتانیایی ۱۹۱۱). کلاین در ص ۹۴۷-۹۴۸ همین زنجیره را می‌آورد و واتکینز نیز MATHEMATICAL و MATHEMATICS را ذیل mendh-1 ثبت کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mathematics"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for the English box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "1966 ed. pp. 947-948 s.vv. mathematical, mathematics (KLN_1966.txt leaf NR=509)",
+              "stance": "supports",
+              "note": "\"mathematical, adj. - Formed with adj. suff. -al fr. F. mathematique, fr. Gk. mathematikos, 'scientific, mathematical', fr. mathema, 'that which is learned, learning, science', from the aorist mathein ... 'to learn'\"; \"mathematics, n. - F. mathematique, fr. L. mathematica, fr. Gk. mathematike (scil. techne), 'mathematical art'\"."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins mendh-1 and index (AHD_watkins1985.txt line 749)",
+              "stance": "supports",
+              "note": "\"MATHEMATICAL, (MATHEMATICS); CHRESTOMATHY, POLYMATH\" listed under mendh-1."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat (SKT.txt), grep 'Mathemat'",
+              "stance": "silent",
+              "note": "Not retrievable: the OCR of Skeat's M pages is defective in this stretch."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
