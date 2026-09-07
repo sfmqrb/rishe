@@ -1,0 +1,735 @@
+{
+  "pdf_page": 344,
+  "book_page": 314,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Mŭk",
+      "verdict": "plausible",
+      "modern_form": "PIE (marginal) *mūk- 'heap, lump' (Pokorny 752; Walde-Pokorny II 311 s.v. mūkeu-); Mann's *mūkō(n) / *mūkró- 'pike, spike, peak, pile' (IEC 814)",
+      "note": "The root box is a faithful merger of Nourai's two citations. Pokorny p.752 has 'Root/lemma: mūk-, Meaning: heap, etc.', built only on the Hesychian gloss Gr. μυκών · σωρός ἀχύρων 'heap of chaff' plus Germanic (ON mūgi/mūgr, OE mūga/mūha/mūwa, MLG mūke, Du. muik, MHG mūche/mocke, Norw. mukka, ON mūstr, OE mēagol) and a Gaulish place-name element *mukina 'cairn'; Pokorny ends 'after Hubschmid ZrPh. 66, 33 f. NOT Indo-Germanic'. Watkins/AHD nevertheless keeps it ('mūk-. A heap.'). The 'peak, spike' half of Nourai's gloss comes from Mann alone, who reconstructs *mūkō(n)/*mūkró- 'pike, spike, peak, pile' and adds Lat. mūcrō 'sword-point' and Persian mūk 'sting'. So: the root is real in the cited literature and the language label 'Indo-European' is what POK/AHD/IEC assert, but it is a lexically thin, chiefly Germanic root whose IE antiquity is expressly contested, and the semantic bridge 'heap' <-> 'spike' is Mann's own. Verdict plausible, not confirmed.",
+      "note_fa": "این ریشه در پوکورنی (ص ۷۵۲) به صورت *mūk- به معنای «توده، انبوه» آمده و تنها بر پایهٔ یک واژهٔ یونانی در فرهنگ هزیخیوس (μυκών «تودهٔ کاه») و چند واژهٔ جرمنی استوار شده است؛ خود پوکورنی در پایان می‌نویسد به نوشتهٔ هوبشمید این ریشه هندواروپایی نیست. معنایی که نورایی می‌دهد («توده، قله، نیش») دقیقاً از فرهنگ مقایسه‌ای من (IEC ۸۱۴) گرفته شده که ستاک *mūkō(n) را بازسازی می‌کند. پس: ادعای نورایی با احتیاط پذیرفتنی است؛ ریشه در منابع او وجود دارد ولی اعتبار هندواروپایی‌بودنش مورد تردید است.",
+      "sources": [],
+      "ref_check": [
+        {
+          "ref": "POK:752",
+          "status": "supports",
+          "note": "POK_full.txt (grep 'Root / lemma: muk-'): \"Root / lemma: muk- | Meaning: heap, etc.. Material: Gr. μυκών σωρός ἀχύρων Hes.; ... Old Icelandic mugi, mugr 'heap'... Old English muga m. '(corn, grain-) heap', muha ds. (also muwa) ... Middle High German mocke m. 'clump, gobbet' ... References: WP. II 311; after Hubschmid ZnPh. 66, 33 f. not Indo Germanic. Page(s): 752\". Page number exact; gloss is 'heap', not 'pile, peak, spike'."
+        },
+        {
+          "ref": "IEC:814",
+          "status": "supports",
+          "note": "IEC.txt printed p.814 (page marker line 11362): \"mūkóo(n) (mūkró-) 'pike, spike, peak, pile'. WP II, 311  Per. mūk 'sting'; Hes. mūkon 'pile'; Lat. cf. (variant) mūcro ... 'point of sword'; OE mūha, mūga, wm 'pile, rick'. (Not also R mys 'headland' if *-k- as in Per. mūk)\". This is verbatim the source of Nourai's root gloss AND of his Persian node."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II p.311 (WLD_Bd2_pages.txt leaf 315)",
+          "stance": "supports",
+          "note": "\"mūkeu- 'Haufe' und Zubehör. Gr. μυκών · σωρός ἀχύρων Hes. nach Persson Beitr. 221 f. = aisl. mūgi 'Haufen (Heu), große Menge (Menschen)', (auch mūgr), ags. mūga '(Korn-)Haufen', mūha ds. (auch mūwa) ... mnd. mūke, ndl. muik, mhd. mūche, nhd. Mauke ... mhd. mocke m. 'Klumpen, Brocken'\" — same material as Pokorny, gloss 'Haufe' (heap) only; no Persian and no 'spike'."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins appendix s.v. mūk- (AHD_watkins1985.txt line 763)",
+          "stance": "supports",
+          "note": "\"mūk-. A heap. Germanic *mūgōn-, *mūhōn- in: a. Old English mūga, mūha, mūwa, heap of grain: MOW1; b. Old Norse mūgi, heap, akin to the probable Scandinavian source of MOGUL1. [Pok. mūk- 752.]\" — keeps the root but glosses it only 'a heap'."
+        },
+        {
+          "src": "IEC",
+          "where": "p.814 s.v. mūkóo(n)",
+          "stance": "supports",
+          "note": "Mann is the only one of the four who gives the 'pike, spike, peak, pile' gloss and who puts Persian mūk in the group."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "mūk",
+          "verdict": "plausible",
+          "derivation": "Nourai's Persian موک mūk 'sting' is taken straight from Mann, IEC 814, who lists 'Per. mūk \"sting\"' beside OE mūha/mūga 'pile, rick' and Lat. mūcrō 'sword-point' under *mūkō(n)/*mūkró- 'pike, spike'. The Persian word itself is a lexicographers' word, not a textually secure one: Borhan-e Qate' (BQT p.2054) enters it as موکه mūka — 'بضم اول بروزن غوک، مطلق نیش را گویند خواه نیش عقرب باشد و خواه نیش چیزهای دیگر' (any sting, of a scorpion or of anything else) — and Mo'in's footnote to that very page says the reliable lexica read the word as میش 'ewe' (with mīm) and that Borhan has corrupted the meaning, and that the single shāhid, from ʿAjdi, 'does not look right'. Dehkhoda keeps 'sting' (citing Borhan and Nāẓem al-Aṭebbā), Mo'in's own Farhang gives 'میش'. Even if the word is genuine, no independent Iranist derives it from the Germanic 'heap' root; a New Persian mūk would have to go back to Old Iranian *mūka-, for which there is no Avestan/Old Persian or Middle Persian witness. So the arrow rests on Mann alone.",
+          "derivation_fa": "واژهٔ «موک» به معنای «نیش» تنها از راه فرهنگ‌نامه‌ها به ما رسیده است: برهان قاطع (ص ۲۰۵۴) سرمدخل را «موکه» می‌آورد و معنی می‌کند «مطلق نیش، خواه نیش عقرب باشد و خواه نیش چیزهای دیگر»؛ امّا معین در حاشیهٔ همان صفحه می‌نویسد در کتب معتبره این واژه به معنی «میش» (با میم) است و برهان در معنا تحریف کرده و شاهد عجدی هم درست نمی‌نماید. دهخدا معنی «نیش» را نگاه داشته و فرهنگ معین «میش» داده است. پیوند این واژه با ریشهٔ جرمنی «توده» تنها حدس من (IEC) است؛ نه صورتی اوستایی/پارسی باستان و نه فارسی میانه‌ای برای آن در دست است. بنابراین ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%85%D9%88%DA%A9/"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:814",
+              "status": "supports",
+              "note": "IEC p.814: \"mūkóo(n) (mūkró-) 'pike, spike, peak, pile'. WP II, 311  Per. mūk 'sting'\" — Nourai's node is Mann verbatim."
+            },
+            {
+              "ref": "MON:4445",
+              "status": "not_checked",
+              "note": "Mo'in's 6-volume Farhang-e Farsi is not online in any page-mappable form (refs_online.json MON: only the 2-vol Adena condensation, no page breaks), so p.4445 cannot be located. Grepping MON_part1/2.txt for موک returned only موکل/موکب/دموکراسی etc., no headword موک. abadis.ir reports Mo'in's gloss for موک as 'میش'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p.2054 headword موکه + Mo'in's footnote 4 on the same page (ref_page.py BQT:2054, pdf p.137)",
+              "stance": "partial",
+              "note": "Text: 'موکه بضم اول بروزن غوک، مطلق نیش را گویند خواه نیش عقرب باشد و خواه نیش چیزهای دیگر'. Mo'in's note: '«موکه. بواو معروف» در برهان نیش عقرب و امثال آن، لیکن در کتب معتبره بمعنی «میش» است بمیم که جانوری است معروف، درین صورت تحریف در معنی کرده ... «موکه» میش بود «لغت فرس ۳۰۳» و شاهدی از عجدی آورده که درست نمی‌نماید.' — i.e. the form is موکه and the 'sting' sense is judged a corruption of 'میش' (ewe)."
+            },
+            {
+              "src": "MON",
+              "where": "via abadis.ir/fatofa/موک (فرهنگ معین section) and Dehkhoda on the same page",
+              "stance": "partial",
+              "note": "Dehkhoda s.v. موک: 'نیش جانوران گزنده مانند کژدم' citing نازم الاطبا and برهان, with the note that the reading نیش vs میش is disputed; Farhang-e Mo'in there gives 'میش'. Confirms the word exists in the Persian lexica but not its meaning."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt, grep 'muk'/'mūk'",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no entry for a Persian mūk 'sting' (nos. 1000-1003 cover mihr, muhr, mihmān, mei); the word is absent from his New Persian etymological corpus."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt, grep موک",
+              "stance": "silent",
+              "note": "Aryanpur's Persian IE-roots dictionary has no موک headword (only the unrelated آدارموک line)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Germanic",
+          "words": "mūgôn, mūhôn",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *mūgōn- / *mūhōn- 'heap' is exactly the pair Watkins prints under mūk- in the AHD appendix, the -g- ~ -h- doublet being the regular Germanic outcome of intervocalic PIE *-k- after a long vowel by Verner's law variation (*mūkón- > *mūgôn-, unaccented, vs. *mūḳ-ón- > *mūhôn-). The forms are reconstructed from OE mūga / mūha / mūwa 'heap of corn', ON mūgi / mūgr 'heap of hay, crowd', Swedish dial. moa 'to pile up' (< *mūhōn), OHG mū-werf 'mole' (lit. 'heap-thrower').",
+          "derivation_fa": "صورت جرمنی آغازین *mūgōn-/*mūhōn- به معنی «توده» همان است که واتکینز در پیوست ریشه‌های هندواروپایی AHD زیر *mūk- می‌آورد؛ دوگانگی g ~ h پیامد قانون ورنر است. گواه‌ها: انگلیسی کهن mūga/mūha، نورسی کهن mūgi/mūgr و سوئدی گویشی moa. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:1530",
+              "status": "supports",
+              "note": "Watkins/AHD s.v. mūk-: \"Germanic *mūgōn-, *mūhōn- in: a. Old English mūga, mūha, mūwa, heap of grain: MOW1; b. Old Norse mūgi, heap...\" (AHD_watkins1985.txt line 763). p.1530 is the right neighbourhood of the m- roots in the New College Edition appendix (pp.1505-1550)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "p.752 s.v. mūk-",
+              "stance": "supports",
+              "note": "\"Old Icelandic mugi, mugr 'heap, bulk, mass'. Old English muga m. '(corn, grain-) heap', muha ds. (also muwa), compare further Swedish dial. moa 'pile up' (*mōhōn), Old High German mū-werf 'mole'\"."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II p.311 s.v. mūkeu-",
+              "stance": "supports",
+              "note": "\"aisl. mūgi 'Haufen (Heu), große Menge (Menschen)', (auch mūgr), ags. mūga '(Korn-)Haufen', mūha ds. (auch mūwa), vgl. weiter schwed. mdartl. moa 'zusammenhäufen' (*mūhōn)\"."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. mow 'a stack of hay' (KLN_1966.txt line 24545)",
+              "stance": "supports",
+              "note": "\"fr. OE. mūga, mūha, 'a heap, pile', rel. to ON. mūgi, mūgr, of s.m., ON. mūstr (for *mūhstr), 'crowd', Swed. moa, 'to crowd together'\"."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "mow",
+          "verdict": "confirmed",
+          "derivation": "English mow(2) 'heap of grain, hay stored in a barn' descends by straight inheritance from OE mūga (also mūha, mūwa) 'heap', Middle English mowe / mow; the -g-/-h- was lost between vowels in late OE and the vowel was later diphthongised to /ou/ in the Great Vowel Shift, giving modern /mou/. It is a homograph of, but unrelated to, mow 'to cut grass' (OE māwan, PIE *mē-) and mow 'grimace' (OF moe). Nourai's arrow Germanic > English is the standard one; only the intermediate step 'Old English mūga' is omitted from the chart.",
+          "derivation_fa": "واژهٔ انگلیسی mow به معنی «تودهٔ غلّه در انبار» مستقیماً از انگلیسی کهن mūga/mūha برجا مانده است: همخوان میان‌واکه‌ای افتاد و واکهٔ کشیده در تحول بزرگ واکه‌ها به /ou/ بدل شد. باید توجه داشت که این واژه با mow «درو کردن» (از ریشهٔ *mē-) هم‌ریشه نیست. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD appendix s.v. mūk-: \"Old English mūga, mūha, mūwa, heap of grain: MOW1\"; the AHD index line confirms \"mow! mūk-\" (AHD_watkins1985.txt line 1895)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. mow, n., 'a stack of hay'",
+              "stance": "supports",
+              "note": "\"ME. mowe, mow, fr. OE. mūga, mūha, 'a heap, pile' ... prob. cogn. with Gk. μυκῶν (Hesychius), 'heap'\"."
+            },
+            {
+              "src": "POK",
+              "where": "p.752",
+              "stance": "supports",
+              "note": "\"Old English muga m. '(corn, grain-) heap', muha ds. (also muwa)\" — the OE ancestor of mow."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Old Norse",
+          "words": "mūgi",
+          "verdict": "confirmed",
+          "derivation": "Old Norse mūgi m. 'swath, heap (of hay)', beside mūgr 'crowd, throng', is the West-Norse reflex of Proto-Germanic *mūgōn-, so a sister of OE mūga rather than a separate branch of the root; Nourai draws it straight from the root box, which AHD also does (it lists ON mūgi under mūk- alongside the Germanic forms). ON mūstr 'great crowd' (< *mūh-stra-) shows the -h- variant in the same paradigm.",
+          "derivation_fa": "نورسی کهن mūgi «تودهٔ کاه/گیاه» و mūgr «انبوه مردم» بازماندهٔ همان *mūgōn- جرمنی است؛ پس در حقیقت خواهرِ mūgaی انگلیسی کهن است نه شاخه‌ای جداگانه از ریشه. پوکورنی، والدهٔ-پوکورنی و AHD هر سه این صورت را اینجا می‌آورند. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:1530",
+              "status": "supports",
+              "note": "\"b. Old Norse mūgi, heap, akin to the probable Scandinavian source of MOGUL1. [Pok. mūk- 752.]\" — exactly Nourai's node and its child."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "p.752",
+              "stance": "supports",
+              "note": "\"Old Icelandic mugi, mugr 'heap, bulk, mass' ... Old Icelandic mūstr 'big, giant bulk, mass' (*muh-stra-)\"."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II p.311",
+              "stance": "supports",
+              "note": "\"aisl. mūgi 'Haufen (Heu), große Menge (Menschen)', (auch mūgr)\"."
+            },
+            {
+              "src": "IEC",
+              "where": "p.812 s.v. mūgh- (1)",
+              "stance": "partial",
+              "note": "Mann puts \"ON mūgr, m. 'crowd, mob'; mūgi, m. 'swath, crowd'; Norw. muge 'crowd'\" under a different root, *mūgh- 'press, squeeze, pound', not under his mūkóo(n) — so the Norse word's root assignment is not uniform even inside Nourai's own sources."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "mogul",
+          "verdict": "plausible",
+          "derivation": "English mogul 'a hard mound of snow on a ski slope' is first recorded in 1961 in American skiing jargon; it is generally taken from a Scandinavian or Bavarian dialect word for 'mound' — Norwegian dial. mugje f., muga 'a heap, a mound' (the modern continuation of ON mūgi) or South German dial. Mugel 'hillock'. Nourai's arrow Old Norse mūgi > English mogul is therefore right in substance but compressed: the transmission is not from Old Norse into English but from a living 20th-c. Norwegian (or Alpine German) dialect word into ski vocabulary, and AHD itself hedges — 'akin to the PROBABLE Scandinavian source of MOGUL1'. Homonymous mogul 'magnate' (< Pers./Ar. muḡal 'Mongol') is unrelated.",
+          "derivation_fa": "mogul در انگلیسی به معنی «پشتهٔ برف در پیستِ اسکی» نخستین بار در ۱۹۶۱ در زبان اسکی‌بازان امریکایی ثبت شده و معمولاً وام‌واژه‌ای از گویشِ نروژی mugje/muga «توده، پشته» (بازماندهٔ همان mūgi نورسی کهن) یا از آلمانی جنوبی Mugel دانسته می‌شود. پس پیکانِ نورایی در ماده درست است ولی مسیر وام‌گیری را خلاصه کرده؛ خود AHD هم «احتمالاً» می‌گوید. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/mogul"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "AHD appendix s.v. mūk-: \"Old Norse mūgi, heap, AKIN TO THE PROBABLE Scandinavian source of MOGUL1\"; index \"MOGUL! mūk-\". So AHD assigns the word to the root but marks the Scandinavian source as merely probable and does not derive it from ON directly."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "ETYMONLINE",
+              "where": "etymonline.com/word/mogul (mogul n.2)",
+              "stance": "partial",
+              "note": "\"'elevation on a ski slope,' 1961, probably from Scandinavian sources (compare dialectal Norwegian mugje, feminine muga, meaning 'a heap, a mound'), or from southern German dialect mugel with the same meaning.\""
+            },
+            {
+              "src": "POK",
+              "where": "p.752",
+              "stance": "silent",
+              "note": "Pokorny lists Norwegian dial. mukka 'heap, bulk, mass' and Swiss mauch 'unordentlicher Haufe' under the root, but of course says nothing about the English ski term."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Dutch",
+          "words": "mocke; male-mocke",
+          "verdict": "disputed",
+          "derivation": "The Dutch node as drawn cannot be sustained. (a) A Dutch/Middle High German mocke does belong to this root — Pokorny p.752 lists 'Middle Low German muke, Dutch muik, Middle High German mūche ... Middle High German mocke m. \"clump, gobbet\"' — but its meaning is 'lump, clod, excrescence', never the vague 'thing' Nourai prints. (b) The compound 'male-mocke = \"silly thing\", a bird' is not a Dutch word at all: the bird-name is Dutch mallemok, and every independent authority analyses it as mal 'foolish, silly' + mok 'gull, seamew', i.e. 'silly GULL', not 'silly thing'. Klein: \"Du. mallemok, compounded of mal, 'foolish', and mok, 'gull, seamew'; so called because it is easily caught\"; Webster's 2nd: \"[D. mallemok, from mal, foolish, and mok, a gull]\". (c) Watkins/AHD, Nourai's own cited authority, assigns MALLEMUCK not to mūk- but to root mel-7 'to miss, deceive' via Middle Dutch mal 'foolish'. The 'thing' gloss looks like a misreading of a dictionary entry in which mok was glossed separately.",
+          "derivation_fa": "این گره پذیرفتنی نیست. درست است که واژه‌ای هلندی/آلمانی میانه mocke/muik به معنی «گلوله، تکه، برآمدگی» زیر این ریشه در پوکورنی (ص ۷۵۲) آمده است، امّا معنای «چیز» برای آن در هیچ منبعی نیست. نام آن مرغ در هلندی mallemok است و همهٔ منابع مستقل (کلاین، وبستر، AHD) آن را mal «احمق» + mok «مرغ دریایی، کاکایی» تحلیل می‌کنند، یعنی «کاکاییِ احمق» نه «چیزِ احمق». پژوهش امروزی این ادعا را رد می‌کند.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:1530",
+              "status": "contradicts",
+              "note": "The AHD entry for mūk- on that page contains no Dutch word at all: \"mūk-. A heap. Germanic *mūgōn-, *mūhōn- in: a. Old English mūga ...: MOW1; b. Old Norse mūgi, heap, akin to the probable Scandinavian source of MOGUL1.\" Instead AHD prints \"mel-7. To miss, deceive. Germanic *mal- in Middle Dutch mal, foolish, silly: MALLEMUCK. [Pok. 2. mel- 719.]\" and its index reads \"MALLEMUCK mel-7\" (AHD_watkins1985.txt lines 763, 736, 1806)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "p.752 s.v. mūk-",
+              "stance": "partial",
+              "note": "\"Middle Low German muke, Dutch muik, Middle High German mūche, Modern High German Mauke ... Middle High German mocke m. 'clump, gobbet' (with it identical is Middle High German mocke 'Zuchtsau')\" — a Dutch/German mocke 'lump' exists here, but glossed 'clump', and no compound with mal."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. mallemuck (KLN_1966.txt line 22680, printed p.928)",
+              "stance": "contradicts",
+              "note": "\"mallemuck, mallemock, mallemoke, n., fulmar, petrel. — Du. mallemok, compounded of mal, 'foolish', and mok, 'gull, seamew'; so called because it is easily caught.\""
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century Dict., vol. 1 s.v. mallemuck",
+              "stance": "contradicts",
+              "note": "\"mal'le-muck, n. [D. mallemok, from mal, foolish, and mok, a gull] any one of several species of large ocean bird ... also written mallemock, mallemoke.\""
+            },
+            {
+              "src": "IEC",
+              "where": "p.815 s.v. muks- (1)",
+              "stance": "partial",
+              "note": "Mann puts German \"Mocke 'breeding sow'\" under muks- 'snout; pig' as a Celtic loanword — again not under his mūkóo(n), and again nothing about a bird."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "mallemuck",
+          "verdict": "disputed",
+          "derivation": "English mallemuck (also mallemock, mallemoke) 'fulmar, albatross' is a 17th-19th c. sailors' borrowing of Dutch mallemok, picked up in the Arctic whaling trade; the Dutch compound is mal 'foolish' + mok 'gull', the bird being called silly because it was so easily caught. The second element is therefore Dutch mok 'gull', which no source connects with the 'heap' root; Watkins assigns the English word to PIE mel-7 'to miss, deceive' on account of the FIRST element. Nourai's chain mūk- 'pile' > Dutch mocke 'thing' > mallemuck is thus wrong at both links, though the word itself and its Dutch source are correctly identified.",
+          "derivation_fa": "mallemuck در انگلیسی نام مرغی دریایی (فولمار/آلباتروس) و وام‌واژه‌ای از هلندی mallemok است که دریانوردان در شکار نهنگ در شمال فراگرفتند؛ این ترکیب از mal «احمق» و mok «کاکایی» ساخته شده، زیرا این مرغ به‌آسانی به دام می‌افتاد. واتکینز این واژه را به ریشهٔ mel-7 «فریب دادن» منسوب می‌کند، نه به *mūk-. پژوهش امروزی زنجیرهٔ نورایی را رد می‌کند.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "contradicts",
+              "note": "AHD index: \"MALLEMUCK mel-7\"; entry mel-7: \"To miss, deceive. Germanic *mal- in Middle Dutch mal, foolish, silly: MALLEMUCK. [Pok. 2. mel- 719.]\" — not under mūk-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. mallemuck",
+              "stance": "contradicts",
+              "note": "\"Du. mallemok, compounded of mal, 'foolish', and mok, 'gull, seamew'\" — the second element is 'gull', so the word has no link to a 'heap/pile' root."
+            },
+            {
+              "src": "WEB",
+              "where": "vol. 1 s.v. mallemuck",
+              "stance": "contradicts",
+              "note": "\"[D. mallemok, from mal, foolish, and mok, a gull]\"."
+            },
+            {
+              "src": "POK",
+              "where": "p.752",
+              "stance": "silent",
+              "note": "Pokorny's mūk- article knows no bird-name and no Dutch mallemok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Mŭm",
+      "verdict": "confirmed",
+      "modern_form": "New Persian موم mūm 'wax' < Middle Persian *mōm",
+      "note": "The root box is right: موم mūm is the ordinary Persian word for 'wax' (and for a wax candle), continued in Kurdish mūm, Mazandarani/Tabari and Gilaki mūm, and borrowed into Armenian (mom), Ottoman Turkish (mum 'candle') and Arabic (mūm 'yellow wax'). Mo'in's footnote to BQT p.2055 gives exactly this dossier. Its own ultimate origin is unsettled — Wiktionary derives it from Middle Persian *mōm and floats a Semitic source (Proto-Semitic *māy- 'water, liquid, sap', cf. Akkadian mū) — but that does not affect any arrow on this chart, which starts from Persian.",
+      "note_fa": "ریشهٔ این نمودار درست است: «موم» واژهٔ فارسی معمول برای شمع و موم است و در کردی، طبری و گیلکی نیز همین صورت را دارد؛ معین در حاشیهٔ برهان قاطع (ص ۲۰۵۵) همین شواهد را می‌آورد و می‌افزاید که در عربی نیز «موم هو الشمع الاصفر». از فارسی میانهٔ *mōm برجا مانده است؛ دربارهٔ خاستگاه دورترِ آن (احتمال وام‌گیری از سامی) اختلاف هست، ولی به پیکان‌های این نمودار ربطی ندارد. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%85%D9%88%D9%85"
+      ],
+      "ref_check": [
+        {
+          "ref": "BQT:2055",
+          "status": "supports",
+          "note": "ref_page.py BQT:2055 (BQT_v4 pdf p.138), Mo'in's footnote 2: 'موم - بضم اول، کردی mūm (شمع) «ژابا ص ۲۶۹»، طبری mūm (موم) «واژه‌نامه ۷۶۹»، گیلکی mūm (موم)؛ در عربی نیز موم: «موم هو الشمع الاصفر» ... مادهٔ نرمی که با عسل مخلوط است و بوسیلهٔ تصفیه آن را از عسل جدا کنند'. Page number exact and the sense 'wax' confirmed."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BQT",
+          "where": "p.2055 footnote 7 (مومیائی)",
+          "stance": "supports",
+          "note": "'و نام مومیا مشتق از «موم» (ه.م.) فارسی است «عقار ۲۴۴ ف»' — Mo'in himself derives mūmiyā from Persian mūm, i.e. the next arrow of the chart."
+        },
+        {
+          "src": "LKT",
+          "where": "no. 1510 (LKT.txt line 3473)",
+          "stance": "supports",
+          "note": "\"1510. Pers. mūm: 'Wachs', ebenso tk. mūm 'dass., Kerze', hieraus serb. mum 'Kerze' ... kat. sp. momia 'Pech und Asphalt'\"."
+        },
+        {
+          "src": "PLA",
+          "where": "p.254 (leaf 269 of PLA_pages.txt)",
+          "stance": "supports",
+          "note": "\"mūm: 'Wachs' pers. ...\" heads the entry immediately before mūmiyā, Asbaghi treating mūm as the Persian base."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "mŭmîya",
+          "verdict": "confirmed",
+          "derivation": "Persian مومیا mūmiyā (مومیایی mūmiyāʾī), a -iyā derivative of موم mūm 'wax', denoted the bituminous drug (pissasphalt, 'mineral pitch') believed to exude from corpses preserved in mountain caves and used as a wound-drug and embalming material; it was taken into Arabic as مومیا / مومیاء mūmiyā(ʾ) with the shifted sense 'embalmed corpse, mummy' and a by-form umiyya. Asbaghi's Persische Lehnwörter im Arabischen p.254 states it flatly: \"mūmiyā: 'Mumie' aus pers. mūm ... ar. mūmiyā < pers. mūm 'Wachs'\", with Mandaic mumia and Syriac cognate loans; the Arabic form is then the immediate source of Medieval Latin mumia. Mo'in (BQT p.2055 n.7) says the same and adds that in Arabic مومیا means 'داروی حنوط' and مومیائی 'al-mūmiya al-qubūriyya'.",
+          "derivation_fa": "«مومیا» و «مومیایی» در فارسی مشتقی از «موم» است و به قیرِ معدنی و دارویی گفته می‌شد که می‌پنداشتند از پیکرهای مانده در غارها می‌تراود؛ همین واژه به عربی راه یافت (مومیا / مومیاء) و در آن زبان تحول معنایی یافت و بر «جسد حنوط‌شده» دلالت کرد. اسباغی (ص ۲۵۴) و حاشیهٔ معین بر برهان قاطع (ص ۲۰۵۵) هر دو همین را می‌گویند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mummy"
+          ],
+          "ref_check": [
+            {
+              "ref": "PLA:254",
+              "status": "supports",
+              "note": "PLA_pages.txt leaf 269 = printed p.254 (header 'mūg ... 254 ... maybuhtag'): \"- umiyā: 'Mumie' aus pers. mūm 'eine durch Austrocknen od. Einbalsamieren vor der Verwesung geschützte Leiche' ... ar. mūmiya < pers. mūm 'Wachs'. Mumie: pers. > ar. > it.\" — page exact, claim exact."
+            },
+            {
+              "ref": "AFM:148",
+              "status": "not_found",
+              "note": "Addi Shir's al-Alfāẓ al-fārisiyya al-muʿarraba: searched AFM_pages.txt and AFM.txt for موم/مومیا/مومیاء — no hit; the Arabic OCR of this scan is heavily corrupted (Syriac glyph substitutions) and the leaves that correspond to printed p.148 (leaves 154-158) are in the نون section (نارمشک، نشادر، نیل، نیلوفر), so either the offset or the citation is off by a few pages. ref_page.py reports no scan covering AFM:148."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1510",
+              "stance": "supports",
+              "note": "\"Ar. mūmija 'einbalsamierter Leichnam' ist in dieser Bedeutung in alle europäischen Sprachen übergegangen: it. mummia, frz. momie, mumie, sp. momia, pg. mumia ... engl. mummy, ndl. mummie, dtsch. Mumie; russ. mumija.\""
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. mummy (KLN_1966.txt line 24656, printed p.1014)",
+              "stance": "supports",
+              "note": "\"mummy, n., an embalmed body. — ME. mummie, fr. OF. (= F.) momie, fr. ML. mumia, fr. Arab. mumiyah, 'mummy', fr. Pers. mum, 'wax'.\""
+            },
+            {
+              "src": "BQT",
+              "where": "p.2055 footnote 7",
+              "stance": "supports",
+              "note": "'و نام مومیا مشتق از «موم» فارسی است ... در عربی «مومیا» بمعنی داروی حنوط و نیز اجساد حنوط‌شده بکار رود'."
+            },
+            {
+              "src": "ETYMONLINE",
+              "where": "etymonline.com/word/mummy",
+              "stance": "supports",
+              "note": "\"from Medieval Latin mumia, which is perhaps from Greek moumia or directly from Arabic mumiyah 'embalmed body,' from Persian mumiya 'asphalt,' from mum 'wax.'\""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Latin",
+          "words": "mumia",
+          "verdict": "plausible",
+          "derivation": "The Latin link is real but it is MEDIEVAL Latin, not classical: the drug reached the West through Arabic medical writing (Ibn Sīnā, al-Rāzī) in the 11th-13th c. Latin translations, where mumia denotes the bituminous medicine; from it come Italian mummia, Old French mumie/momie, Middle English mummie 'medicinal substance prepared from mummy tissue' (late 14c.). Klein and Etymonline both route the word through ML mumia, so Nourai's [Latin] box is defensible; but his cited authority, Skeat, does not say Latin — Skeat goes 'O.F. mumie ... Ital. mummia ... Pers. mūmiyā ... Pers. mūm', i.e. via Italian. Hence plausible rather than confirmed, and the box should read 'Medieval Latin'.",
+          "derivation_fa": "حلقهٔ لاتین وجود دارد امّا لاتینِ قرون وسطاست نه لاتین کلاسیک: این دارو از راه ترجمهٔ لاتینیِ کتاب‌های پزشکی عربی (ابن‌سینا، رازی) در سدهٔ ۵-۷ قمری/۱۱-۱۳ میلادی به اروپا رفت و به صورت mumia درآمد؛ از آن ایتالیایی mummia و فرانسوی قدیم momie برآمده است. کلاین و اتیمولانلاین همین مسیر را می‌دهند، ولی اسکیت — منبعی که نورایی ارجاع داده — ایتالیایی می‌آورد نه لاتین. پس با احتیاط پذیرفتنی است و برچسب درستِ جعبه «لاتینیِ میانه» است.",
+          "sources": [
+            "https://www.etymonline.com/word/mummy"
+          ],
+          "ref_check": [
+            {
+              "ref": "SKT:340",
+              "status": "partial",
+              "note": "Skeat, s.v. Mummy (SKT.txt line 12023): \"Mummy. (F. - Ital. - Pers.) O.F. mumie, a mummy. — Ital. mummia. — Pers. mūmiyā, a mummy, embalmed body. — Pers. mūm, wax, much used in embalming.\" So Skeat supports the Persian > Arabic-mediated > Romance chain but inserts ITALIAN, not Latin. Note also that in the local scan (aconciseetymolo01skeagoog) this entry sits on the leaf whose running page number reads 198, not 340, so Nourai's page number belongs to a differently paginated impression of the Concise."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. mummy",
+              "stance": "supports",
+              "note": "\"fr. OF. (= F.) momie, fr. ML. mumia, fr. Arab. mumiyah\" — Medieval Latin mumia is exactly Nourai's box, one step above French."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1510",
+              "stance": "partial",
+              "note": "Lokotsch takes the Arabic word straight into the Romance languages (\"it. mummia, frz. momie ... engl. mummy\") without naming a Latin stage."
+            },
+            {
+              "src": "ETYMONLINE",
+              "where": "etymonline.com/word/mummy",
+              "stance": "supports",
+              "note": "\"late 14c., mummie ... from Medieval Latin mumia\"."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "A pass-through box with no word printed; the form intended is Old French mumie, later French momie 'mummy' (13c. as a drug name, 16c. of the Egyptian corpses), taken from Medieval Latin mumia. French momie is the immediate source of Middle English mummie.",
+          "derivation_fa": "این جعبه در کتاب بدون واژه است؛ صورت مورد نظر فرانسوی قدیم mumie و فرانسوی نو momie است که از لاتینیِ میانه mumia گرفته شده و خود منشأِ مستقیمِ mummie در انگلیسی میانه است. ادعا درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mummy"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no reference in the book (refs=None); nothing of Nourai's to check."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. mummy and mummify",
+              "stance": "supports",
+              "note": "\"ME. mummie, fr. OF. (= F.) momie\"; and s.v. mummify \"F. momifier, compounded of momie, 'mummy'\"."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1510",
+              "stance": "supports",
+              "note": "\"frz. momie, mumie\" listed among the Romance reflexes of Ar. mūmija."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "mummy, mummery",
+          "verdict": "disputed",
+          "derivation": "Two words, two different verdicts. MUMMY is confirmed: ME mummie (late 14c.) 'the bituminous drug', from OF/F momie, sense 'embalmed Egyptian corpse' from the 1610s — Klein p.1014 s.v. mummy gives precisely Nourai's chain back to Pers. mūm. MUMMERY is disputed and does not belong on this chart: it is MF/F momerie 'a dumb show, masquerade', from OF momeur 'mummer', from momer / mommer 'to mask oneself', of onomatopoeic origin (the nursery syllable mom/mum used to hush or frighten children) — the same family as mum, mumble, mummer. Klein treats it in a separate article on the SAME page ('mummery, n., a dumb show. — MF. (= F.) momerie, fr. OF. momeur. See prec. word', i.e. mum 'to act in dumb show'), and Etymonline likewise records no connection with mummy. The resemblance of mummy / mummery is accidental and Nourai's chart makes it a folk-etymological merger.",
+          "derivation_fa": "در این جعبه دو واژه گنجانده شده است. mummy درست است: انگلیسی میانه mummie (سدهٔ ۱۴م) از فرانسوی momie و از همان زنجیرهٔ فارسی>عربی>لاتینیِ میانه. امّا mummery ربطی به «موم» ندارد: از فرانسوی میانه momerie «نمایش بی‌زبان، نقاب‌بازی» از momer «نقاب بر چهره زدن» و از خانوادهٔ واژگانِ آواواره mum/mumble است. کلاین هم در همان صفحه دو مدخلِ جداگانه دارد. پژوهش امروزی پیوند mummery را با موم رد می‌کند و آن را ریشه‌شناسی عامیانه می‌داند.",
+          "sources": [
+            "https://www.etymonline.com/word/mummy",
+            "https://www.etymonline.com/word/mummery"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1014",
+              "status": "partial",
+              "note": "Klein p.1014 carries BOTH articles, and they are unrelated to each other: \"mummy, n., an embalmed body. — ME. mummie, fr. OF. (= F.) momie, fr. ML. mumia, fr. Arab. mumiyah, 'mummy', fr. Pers. mum, 'wax'\" — supports mummy; and \"mummery, n., a dumb show. — MF. (= F.) momerie, fr. OF. momeur. See prec. word\" (= mummer < momer 'to mask oneself'; Klein s.v. mum: \"prob. derives fr. the child's word momo, expressing astonishment\") — contradicts mummery. So the reference supports one word of the node and refutes the other."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "ETYMONLINE",
+              "where": "etymonline.com/word/mummery and /word/mummy",
+              "stance": "contradicts",
+              "note": "\"Mummery (noun, 1520s): 'a show or performance of mumming,' derived from Old French mommerie\"; the entry records no connection with mummy 'embalmed body'."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. Mummer / Mummy (SKT.txt lines 12016, 12023)",
+              "stance": "contradicts",
+              "note": "Skeat keeps them apart too: \"mummer, a masker, buffoon. (F. — Du.) O.F. mommeur ... Der. mummer-y, O.F. mommerie\" under Mum, while Mummy is a separate article of Persian origin."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1510",
+              "stance": "partial",
+              "note": "Lokotsch lists engl. mummy among the Arabic-Persian loans but not mummery."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Mŭrâ",
+      "verdict": "disputed",
+      "modern_form": "Old/Proto-Iranian *mudrā- 'seal'; Khotanese Saka mūrā- 'coin; jewel' is a DESCENDANT of it, not its source",
+      "note": "The word in the root box is genuine and Nourai's gloss matches Bailey almost word for word — Bailey, Dictionary of Khotan Saka (the accessible counterpart of Indo-Scythian Studies VI): \"mūrā- 1. 'name of a coin', and 2. 'jewel' ... corresponding to the Chinese small copper coin ts'ien\", and 'Indo-Schythian' is Bailey's own label for Khotanese Saka. What is wrong is the DIRECTION. Bailey continues in the same article: \"This mūra- is from mudrā- 'seal', Zor.P. mwdl, mwhlk *mudr, *muhrak, N.Pers. muhr, muhrah, M.Pers.T. mwhr 'seal'\". Khotanese regularly loses the stop in such clusters (Bailey's own parallels in the neighbouring articles: mūra- 'bird' < *mrga-, dāra- 'long' < *darga-, āra- 'price' < *arga-), so mūrā is the youngest, not the oldest, member of the family. The modern reconstruction is Old Iranian *mudrā- 'seal', whence MP mwdl/muhr, Skt. mudrā- (a loanword: Junker IF 35, 1915, 273-88; Weber, cited by Horn, already called Skt. mudrā 'Egyptian' and derived it from OP Mudrāya-), and Khotanese mūrā-; the ultimate source is probably not Indo-European at all but Akkadian mušarû 'object bearing a royal inscription' < Sumerian mu-sar. The chart should therefore be inverted, with an Old Iranian *mudrā- box at the top and Khotanese mūrā as one more branch.",
+      "note_fa": "واژهٔ جعبهٔ ریشه واقعی است: بیلی در فرهنگ ختنیِ سکایی می‌نویسد mūrā- ۱) نام سکّه، ۲) گوهر؛ و «هندوسکایی» هم نامی است که خود بیلی بر ختنی می‌نهاد. امّا سوی پیکان‌ها وارونه است: بیلی در همان مدخل می‌افزاید که این mūra- از mudrā- «مهر» آمده است، زیرا در ختنی خوشهٔ -dr- به -r- کاهش می‌یابد (مانند mūra- «مرغ» از *mrga- و dāra- «دراز» از *darga-). بازسازی امروزی ایرانی باستان *mudrā- است که فارسی میانهٔ muhr، سنسکریتِ mudrā (وام‌واژه) و ختنی mūrā- از آن برآمده‌اند؛ خاستگاه دورتر احتمالاً اکدی mušarû و سومری mu-sar است. پژوهش امروزی این جهت‌گذاری را رد می‌کند و نمودار باید وارونه شود.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%85%D9%87%D8%B1",
+        "https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%BE"
+      ],
+      "ref_check": [
+        {
+          "ref": "ISS:283",
+          "status": "partial",
+          "note": "Khotanese Texts VI itself is not online (refs_online.json ISS), so the exact page cannot be opened; the substance was checked in Bailey's own Dictionary of Khotan Saka (ISS_alt_DKS.txt line 6185): \"mūrā- 1. 'name of a coin', and 2. 'jewel', plural mūre, later mura, muri, murai, corresponding to the Chinese small copper coin ts'ien ... For mūra- 'jewel or precious thing', SuvO. 53r4 mūryau 'with jewels', BS maṇi- ... This mūra- is from mudrā- 'seal', Zor.P. mwdl, mwhlk *mudr, *muhrak, N.Pers. muhr, muhrah, M.Pers.T. mwhr 'seal'.\" The word and gloss are Bailey's; the claim that it is the SOURCE of the Iranian and Indian forms is not."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "ISS_alt_DKS",
+          "where": "Bailey, DKS s.v. mūrā- (and s.v. mūra- 'bird', dāra-, āra-)",
+          "stance": "contradicts",
+          "note": "Besides \"This mūra- is from mudrā- 'seal'\", Bailey's phonology in the surrounding entries makes the direction unmistakable: \"From *mrga- 'wild creature'\" (mūra- 'bird'), \"From darga- 'long', as āra- 'price' from arga-, but mūra- 'bird' from mrga-\" (dāra-). Khotanese simplifies the cluster; it does not create -dr-."
+        },
+        {
+          "src": "HRN",
+          "where": "no. 1001, pp.224-225",
+          "stance": "contradicts",
+          "note": "Horn puts Sanskrit and Pahlavi at the top and knows nothing of a Khotanese source: \"1001. muhr 'Siegel; Siegelring'. skr. mudrā- 'Siegel, Siegelring'; phlv. mutrōk d. i. mudrak 'Ring'(?) ... mudar, muhr 'Siegel' (PPGL)\"; and he adds \"Weber ... erklärt skr. mudrā für 'egyptisch', aus ap. Mudrāya- entlehnt.\""
+        },
+        {
+          "src": "NYB",
+          "where": "Nyberg, Manual of Pahlavi II, s.v. bahr and muhrak",
+          "stance": "partial",
+          "note": "\"cf Skr mudrā : muhr 'seal'\" (under bahr) — Nyberg treats Skt mudrā and MP muhr as the pair to be compared, again with no Khotanese intermediary."
+        },
+        {
+          "src": "MON",
+          "where": "Mo'in's footnote 6 to BQT p.2062",
+          "stance": "contradicts",
+          "note": "'مهر (بضم اول). سانسکریت mudrā (مهر، خاتم، حلقهٔ خاتم)، پهلوی mutrōk / mudrōk (حلقه؟)، mudar، muhr (مهر)، ارمنی murhak، آستی mysur ...' — the Iranian/Indian forms, no Khotanese ancestor."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "mutrâk, mudrâk; mudar, muhr",
+          "verdict": "plausible",
+          "derivation": "All four forms are real and Nourai has copied them, glosses included, from Horn no. 1001: 'phlv. mutrōk d. i. mudrak \"Ring\"(?), vd. 2 (18) Gl.; mudar, muhr \"Siegel\" (PPGL)'. In Book Pahlavi spelling MacKenzie prints muhr [mwdl] 'seal' — the graphic <d> beside the read /h/ is precisely the fossilised *mudr- — and muhrag [mwhlk'] 'bead, vertebra, piece (in backgammon)', Manichaean MP and Parthian mwhr. Phonetically OIr. *mudra- > MP *mudr > muhr by the well-known Middle Persian change of intervocalic/preconsonantal -d- to -h- before r (cf. MP māh < *mās-, and the doublet mudar ~ muhr which shows the two stages side by side); mudrak / muhrak is the same stem with the diminutive/nominal suffix -ak. What is not plausible is the arrow: these Pahlavi forms are the ancestors of, not the descendants of, Khotanese mūrā (see the root note). Horn himself flags 'Ring' with a question mark, and MacKenzie glosses muhrag 'bead, vertebra, draughtsman' rather than 'ring', so that gloss is the weakest part of the box.",
+          "derivation_fa": "هر چهار صورت واقعی اند و نورایی آن‌ها را عیناً از هرن (شمارهٔ ۱۰۰۱، ص ۲۲۴-۲۲۵) گرفته است. در خط پهلوی کتابی مکنزی muhr را <mwdl> می‌نویسد که همان بازماندهٔ نوشتاریِ *mudr- است، و muhrag <mwhlk'> «مهره، مهرهٔ پشت، مهرهٔ نرد». در فارسی میانه d در خوشهٔ -dr- به h بدل شده (دوگانهٔ mudar ~ muhr دو پلّهٔ این دگرگونی را کنار هم نشان می‌دهد) و -ak پسوند است. ولی جهتِ پیکان وارونه است: این صورت‌های پهلوی نیاکانِ mūrāی ختنی‌اند نه بازماندهٔ آن. معنی «حلقه» هم نامطمئن است: خود هرن پهلوی آن علامت سؤال گذاشته است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%87%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:993",
+              "status": "contradicts",
+              "note": "Klein p.993 s.v. mohur: \"Hind. muhur, muhr, fr. Pers. muhr, 'seal, coin', fr. OI. mudra, 'seal, coin'.\" Klein thus derives the Persian/Pahlavi word FROM Sanskrit mudrā, i.e. he makes Nourai's Pahlavi box a borrowing from Nourai's Sanskrit box, and he knows no Khotanese/'Indo-Scythian' root at all."
+            },
+            {
+              "ref": "ISS:284",
+              "status": "partial",
+              "note": "Khotanese Texts VI p.284 is not accessible; Bailey's DKS article on mūrā- cites exactly these Pahlavi forms — \"Zor.P. mwdl, mwhlk *mudr, *muhrak, N.Pers. muhr, muhrah, M.Pers.T. mwhr 'seal'\" — but as the SOURCE of Khotanese mūra-, not as its offspring."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 1001, pp.224-225 (HRN.txt line 8703, leaf 238)",
+              "stance": "supports",
+              "note": "\"1001. muhr 'Siegel; Siegelring'. skr. mudrā- 'Siegel, Siegelring'; phlv. mutrōk d. i. mudrak 'Ring'(?), vd. 2 (18) Gl.; mudar, muhr 'Siegel' (PPGL), chald. LW., arm. LW. murhak. LW. kurd. mōr; oss. mysur\" — the exact source of Nourai's four forms and their glosses."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p.56 s.v. muhr / muhrag",
+              "stance": "supports",
+              "note": "\"muhr [mwdl | M mwhr, N ~] seal.\" and \"muhrag [mwhlk' | P mwhrg, N ~a] bead, vertebra, piece (in backgammon, etc.).\" — confirms the forms; glosses muhrag as 'bead/vertebra/draughtsman', not 'ring'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, s.v. muhrak",
+              "stance": "supports",
+              "note": "\"muhrak [mwhlk'] draughtsman (in the tric-trac game) 120¸16, — NP muhrah\" (and in the index 'muhrah: muhrak')."
+            },
+            {
+              "src": "BQT",
+              "where": "Mo'in's footnote 6 to p.2062",
+              "stance": "supports",
+              "note": "'پهلوی mutrōk، mudrōk (حلقه؟)، mudar، muhr (مهر)' — Mo'in reproduces Horn's Pahlavi dossier, question mark and all."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "mohr",
+          "verdict": "confirmed",
+          "derivation": "New Persian مُهر mohr 'seal, signet; the impression it makes; (hence) a stamped gold coin' is the regular continuation of Middle Persian muhr [mwdl], with the Book-Pahlavi spelling still showing the older *mudr; the same stem with -ak gives MP muhrak > NP مهره mohreh 'bead, vertebra, draughtsman'. ممهور mamhūr 'sealed' is a genuine Arabic-Persian round trip: Arabic borrowed the Middle Persian word as مُهْر muhr 'seal' and built a denominal verb مهر mahara 'to stamp' on it, whose passive participle ممهور came back into Persian. The word must be kept apart from the homograph مهر mehr 'Mithra, sun, love' (< Av. miθra-) and from Arabic مهر mahr 'bride-price' (Semitic *mahara), with both of which Persian orthography and popular etymology have long confused it. The Hāfez couplet in the box uses mohr in the sense 'seal (on the tongue)', which is the primary meaning.",
+          "derivation_fa": "«مُهر» فارسی نو بازماندهٔ منطقیِ فارسی میانهٔ muhr است که در خط پهلوی <mwdl> نوشته می‌شد و همان *mudra- ایرانی باستان است؛ با پسوند -ak به «مهره» رسیده است. «ممهور» نمونهٔ روشنی از رفت‌وبرگشت از راه عربی است: عربی مُهْر را از فارسی میانه وام گرفت، فعل مهر را از آن ساخت و اسم مفعولِ ممهور باز به فارسی بازگشت. این واژه را باید از «مِهر» (میترا، خورشید، محبت؛ از اوستایی miθra-) و از مَهرِ عربی (کابین) جدا داشت؛ ریشه‌شناسی عامیانه همیشه این سه را به هم آمیخته است. ادعای نورایی دربارهٔ این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D9%87%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:224",
+              "status": "supports",
+              "note": "Horn no. 1001 straddles pp.224-225 (HRN.txt leaf 238 ends with the page break '- 225 -'): \"1001. muhr 'Siegel; Siegelring' ... phlv. ... mudar, muhr 'Siegel'\". Nourai's page number is right and the MP > NP step is Horn's own."
+            },
+            {
+              "ref": "BQT:2062,2068",
+              "status": "supports",
+              "note": "BQT p.2062 (ref_page.py, BQT_v4 pdf p.145) footnote 6: 'مهر (بضم اول). سانسکریت mudrā (مهر، خاتم، حلقهٔ خاتم)، پهلوی mutrōk، mudrōk (حلقه؟)، mudar، muhr (مهر)، ارمنی murhak، آستی mysur، قس: بلوچی murdān، murdānag (انگشت)، کردی muhr، mūr، mōr ... قطعهٔ سنگ یا فلز یا عقیق که برآن نام کسی یا نقشی وارونه کنده باشند'. BQT p.2068 (pdf p.151) footnote 1 to مهره: 'مهره ← مهر (ه.م.). قس: پهلوی muhrak، muhrag (حلقه)، ارمنی murhak ... کردی muhre (مهرهٔ پشت)'. Both page numbers are exact and both support the node, مهره included."
+            },
+            {
+              "ref": "ISS:284",
+              "status": "partial",
+              "note": "Not openable (Khotanese Texts VI is not online); Bailey's DKS mūrā- article does cite \"N.Pers. muhr, muhrah\", so the Persian forms are indeed in Bailey — but as cognates/ancestors of the Khotanese word."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. muhr",
+              "stance": "supports",
+              "note": "\"muhr [mwdl | M mwhr, N ~] seal\" — 'N ~' means New Persian has the same form; the Middle Persian > New Persian step is explicit."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in's footnote 6 to BQT p.2062",
+              "stance": "supports",
+              "note": "Gives the Kurdish, Ossetic, Armenian and Balochi cognates and defines mohr as the engraved stone/metal used to stamp — the sense in the chart."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt, grep muhr/mohr",
+              "stance": "silent",
+              "note": "Hübschmann's Persische Studien has no article on muhr; the word is treated by Horn instead."
+            },
+            {
+              "src": "WIKTIONARY",
+              "where": "en.wiktionary.org/wiki/مهر, Persian Etymology 3",
+              "stance": "supports",
+              "note": "\"From Middle Persian [Book Pahlavi needed] (mwdl), 𐣖𐣇𐣍𐣡 (mwhr /muhr/, 'seal') (compare Parthian mwhr 'seal', and Bactrian μολρο); possibly cognate with words above, otherwise from Akkadian mušarû 'object bearing a royal inscription', from Sumerian mu-sar.\" The Arabic section of the same page has \"Etymology 2: From Middle Persian (mwdl), mwhr 'seal', and denominal verb\" for مُهْر / مهر mahara 'to stamp' — confirming the ممهور round trip."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "mwhrg`n",
+          "verdict": "unverified",
+          "derivation": "A Sogdian reflex of *mudra- 'seal' certainly exists, but the exact form Nourai prints could not be confirmed. Gharib's Sogdian Dictionary, the standard lexicon, has entry 5523 mwhrδyb (Manichaean) muhr-δīp, indexed 'seal of letter', with the note '*mwdr', Parth. δb-', and entry 5610 myδr(y) (secular documents) 'seal'; a headword mwhrg'n / mwhrk'n is not in her dictionary (grep 'mwhr' returns only 5523). Nourai's form looks like a plural or -kān derivative *muhrakān 'seals', and his source is Bailey ISS:284, which is not available online, so it cannot be checked; the printed page of Nourai (verified against the PDF image) does read 'mwhrg`n', so the extraction is faithful. Whatever the form, the arrow's direction is wrong for the same reason as the other nodes: Sogdian mwhr- continues Old Iranian *mudra-, it does not come from Khotanese mūrā.",
+          "derivation_fa": "بازماندهٔ سغدیِ *mudra- قطعاً وجود دارد، امّا صورتی که نورایی می‌آورد تأیید نشد. در فرهنگ سغدیِ بدرالزمان قریب (مدخل ۵۵۲۳) mwhrδyb «مهرِ نامه» با یادداشتِ *mwdr' و (مدخل ۵۶۱۰) myδr(y) «مهر» آمده است، ولی مدخلی به شکل mwhrg'n در آن نیست؛ شاید جمع یا مشتقِ -kān باشد. منبع نورایی (بیلی، ISS ۲۸۴) در دسترس نیست. متن چاپی کتاب را با تصویر صفحه سنجیدم: در استخراج خطایی رخ نداده است. به هر حال جهتِ پیکان درست نیست: سغدی نیز از *mudra- ایرانی باستان می‌آید نه از ختنی.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "ISS:284",
+              "status": "not_checked",
+              "note": "Bailey, Indo-Scythian Studies VI is not online (refs_online.json ISS: Google Books partial preview only, HathiTrust search-only); p.284 could not be opened, and Bailey's DKS substitute article on mūrā- cites Middle Persian and Parthian but no Sogdian form."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib, Sogdian Dictionary, entries 5523 and 5610 (SOD.txt lines 44645, 45266; English index lines 93375, 93388)",
+              "stance": "partial",
+              "note": "\"5523 mwhrδyb M | muhr-δip ©*mwdr', Parth. ©δb. -yy\" indexed as 'seal of letter 5523'; \"5610 myδr(y) S | miδr? | seal\". A Sogdian 'seal' word from *mudra- is thus attested, but not in the shape mwhrg'n; grep 'mwhrg|mwhrk' in SOD.txt/SOD_pages.txt returns nothing."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, DKS s.v. mūrā-",
+              "stance": "silent",
+              "note": "Bailey's own dictionary article lists Zor. Pahlavi, Manichaean MP and New Persian reflexes of mudrā- but no Sogdian form, so it cannot corroborate mwhrg'n either."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Sanskrit",
+          "words": "mŭdrâ",
+          "verdict": "plausible",
+          "derivation": "Sanskrit मुद्रा mudrā- 'seal, signet, stamped coin' (later also 'ritual hand-gesture') is a real word with exactly Nourai's glosses, and the consensus since Weber (1887) and Junker (IF 35, 1915, 273-88) is that it is NOT inherited Indo-Aryan but a loan from Iranian — Weber, quoted by Horn ad no. 1001, called it 'Egyptian', borrowed from Old Persian Mudrāya- (the OP name of Egypt; cf. MP muzrāyik 'Egyptian' in Nyberg), while the current formulation (Wiktionary, following Mayrhofer/Lubotsky) is 'possibly an Iranian borrowing, from Proto-Iranian *mudrā, possibly ultimately from Akkadian mušarû \"object bearing a royal inscription\", from Sumerian mu-sar'. So an arrow into Sanskrit from an Iranian source is right in spirit; what is wrong is the particular donor, since the donor cannot be Khotanese mūrā (a much later form, and one that has already lost the -d-). Note also that Nourai's own reference goes the other way: Klein p.993 derives Persian muhr from Sanskrit mudrā.",
+          "derivation_fa": "مُدرا (mudrā-) در سنسکریت به معنی «مهر، خاتم، سکّهٔ مهرخورده» (و بعدها «حالت آیینی دست») واژه‌ای واقعی است، ولی از زمان وبر (۱۸۸۷) و یونکر (۱۹۱۵) می‌دانند که وام‌واژه‌ای ایرانی است نه میراثِ هندوآریایی؛ وبر آن را از پارسی باستان Mudrāya- (نام مصر) گرفته و بیانِ امروزیِ آن بازسازیِ ایرانی آغازین *mudrā و سرانجام اکدی mušarû / سومری mu-sar است. پس پیکان از یک سرچشمهٔ ایرانی به سنسکریت درست است، امّا آن سرچشمه ختنیِ mūrā نمی‌تواند بود. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%BE",
+            "https://en.wiktionary.org/wiki/%D9%85%D9%87%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:993",
+              "status": "contradicts",
+              "note": "Klein p.993 s.v. mohur: \"Hind. muhur, muhr, fr. Pers. muhr, 'seal, coin', fr. OI. mudra, 'seal, coin'.\" Klein has the word but makes Sanskrit the ULTIMATE source and Persian the borrower — the reverse of the arrow Nourai draws from his Indo-Scythian root into Sanskrit."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 1001, p.225",
+              "stance": "supports",
+              "note": "\"Weber, Sitzber. BAW. 1887, Pārasīprakāśa S. 5, erklärt skr. mudrā für 'egyptisch', aus ap. Mudrāya- entlehnt\" — Sanskrit mudrā as an Iranian loan."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II s.v. muzrāyik and bahr",
+              "stance": "supports",
+              "note": "\"muzrāyik [mwzl'dyk] Egyptian, of Alexander the Great, — OP mudrāya-\"; and under bahr \"cf Skr mudrā : muhr 'seal'\" — the Sanskrit/Iranian pairing and the OP Mudrāya- that Weber invoked."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, DKS s.v. mūrā-",
+              "stance": "supports",
+              "note": "\"For O.Ind. mudrā, see H. Junker, Indogermanische Forschungen 35, 1915, 273-88; H. Lüders, SBAW 1919, 734-766\" — Bailey refers the Sanskrit word to the loanword literature, not to Khotanese."
+            },
+            {
+              "src": "WIKTIONARY",
+              "where": "en.wiktionary.org/wiki/मुद्रा",
+              "stance": "supports",
+              "note": "\"Possibly an Iranian borrowing, from Proto-Iranian *mudrā, possibly ultimately from Akkadian mušarû ('object bearing a royal inscription'), from Sumerian mu-sar\" (further reading: Mayrhofer, EWAia; Turner, CDIAL)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
