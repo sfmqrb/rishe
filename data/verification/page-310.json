@@ -1,0 +1,588 @@
+{
+ "pdf_page": 310,
+ "book_page": 280,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-06",
+ "entries": [
+  {
+   "entry": 2,
+   "root": "Letro, Letros, Letrâ",
+   "verdict": "plausible",
+   "modern_form": "PIE *letro- 'leather' (Pokorny 681, flagged '??'); Mann IEC 681 letros / letrā / letró 'piece, strip, skin; to strip, flay, tear'. Modern handbooks rather reconstruct Proto-Celtic *ɱlitrom < PIE *pl̥tro- 'skin, hide' (to *pel- 'skin', Lat. pellis), with early Germanic borrowing.",
+   "note": "The reference numbers are right: Pokorny p. 681 does print \"letro- ,Leder??\" and Mann's column 681 does print \"letros, ā 'piece, strip, skin'; letró, io 'strip, flay, tear'\" with \"Per. latre 'part, fragment'\". But both of Nourai's own authorities are hedged: Pokorny gives the root a double question mark and asks whether the Germanic word is an old loan from Celtic *pl-e-tro, related to Lat. pellis 'skin'; Buck 6.29 repeats that doubt; Wiktionary/modern Celtic scholarship now derives OE leþar from Proto-Celtic *ɱlitrom < *pl̥tro-. If the preform had initial *p-, an Iranian cognate would show p-, so Persian latreh cannot belong here. GLOSS MISPRINT: the printed page prints \"skim, strip, piece\"; Mann, whom Nourai is copying, has \"piece, strip, skin\" — \"skim\" is Nourai's misreading of \"skin\" (the extraction is faithful to the page).",
+   "note_fa": "ریشهٔ هندواروپایی *letro- «چرم» در پوکورنی (ص ۶۸۱) آمده است، امّا خود پوکورنی در برابر آن دو علامت پرسش گذاشته و احتمال داده که واژهٔ ژرمنی وام‌واژه‌ای کهن از سلتی باشد از *pl-e-tro (هم‌ریشه با pellis لاتینی «پوست»). منّ (IEC ستون ۶۸۱) تنها کسی است که «لتره» فارسی را ذیل این ریشه آورده است. پس ادعای نورایی با احتیاط پذیرفتنی است. نکتهٔ دیگر: معنای چاپی کتاب «skim» خطای چاپی نورایی به جای «skin» (پوست) منّ است؛ خطای خوانش اسکن نیست.",
+   "error_in": "book",
+   "book_prints": "Letro, Letros, Letrâ : skim, strip, piece",
+   "correct_form": "Letro, Letros, Letrâ : skin, strip, piece (Mann IEC 681)",
+   "sources": [
+    "https://en.wiktionary.org/wiki/leather"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:681",
+     "status": "supports",
+     "note": "POK_02.txt (Pokorny IEW p. 681, printed page marker '681' immediately above): \"letro' ,Leder^??  Air. lethar, cymr. lledr, bret. lezr ,Leder' = ahd. leder, ags. leþer (engl. leather), aisl. leðr n. ,Leder'. Ist das germ. Wort alte Entlehnung aus dem kelt. und letzteres als *pl-e-tro mit lat. pellis usw. (s. pel- ,Haut') verwandt? S. Pedersen KG. II 45. WP. II 428.\" — the page and the form are exactly Nourai's, but Pokorny's gloss is 'Leder' and he flags the root '??'."
+    },
+    {
+     "ref": "IEC:681",
+     "status": "supports",
+     "note": "IEC.txt line 9695, on the leaf whose running column number is 681: \"letros, ā 'piece, strip, skin'; letró, io 'strip, flay, tēar'. WP II, 428  Per. latre 'part, fragment'; Gk. cf. ko-letráo; Ir. leathar, m. 'skin, hide'; W lledr; Br. ler, lezr; MIr. cf. letraim, v. 'mangle, tear'; MHG lêder, n.; OE -leðer 'leather'; MHG läderen, lideren, v. 'tan'.\" — this is the source of all three root spellings and of the Persian node."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "WP II 428 (cited by both Pokorny 681 and Mann 681)",
+     "stance": "supports",
+     "note": "Both POK p.681 and IEC col. 681 close the entry with \"WP. II 428\", i.e. Walde-Pokorny II 428 is the common source of the *letro- material."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. letro-",
+     "stance": "supports",
+     "note": "AHD_watkins1985.txt line 690: \"letro-. Leather. Germanic *lethram in Old English lether, leather: LEATHER. [Pok. letro- 681.]\" — Watkins keeps the root but knows no Iranian member."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 6.29 LEATHER, p. 408",
+     "stance": "partial",
+     "note": "SYN.txt: \"Ir. lethar, NIr. leathar, W. lledr, Br. ler beside ON leðr, OE leþer, OHG leder, etc., uncertain whether cognate groups (*letro-) or orig. Celtic (*letro- fr. *pletro- : Lat. pellis?) with early Gmc. borrowing. Pedersen 2.45.\" — no Iranian cognate anywhere in the article."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "latreh",
+     "verdict": "plausible",
+     "derivation": "NP latreh «لَتره» 'shred, torn piece (esp. of cloth)' belongs to the native family لت lat 'piece, slab, leaf (of a door), blow', لته late 'old rag', لت‌و‌پار lat-o-pār 'torn to shreds', with the common Persian diminutive/nominal suffix -a (-eh) on an r-extended stem. Mann (IEC 681) is the only etymologist who equates it with PIE *letros 'piece, strip, skin' and so with Ir. leathar / OE leþer; the equation is purely formal (latre : letro-) and Mann marks the whole set 'isophones, kinship uncertain' elsewhere in the same column. The difficulty is phonological: Pokorny 681 and, today, Matasović/Wiktionary derive the Celto-Germanic word from *pl̥tro- (Proto-Celtic *ɱlitrom, to *pel- 'skin', Lat. pellis), and an initial PIE *p- would survive as p- in Iranian, so a Persian reflex of that preform could not be latreh. Neither Horn, Hübschmann, Cheung nor Wiktionary records any etymology for لت/لتره at all; Nourai's own chart hedges with \"See 'Lěk' for another possible root\". The word and the gloss are correct; only the IE affiliation is uncertain.",
+     "derivation_fa": "«لَتره» در فارسی به معنی پاره، تکه (از جامه) است و با «لت»، «لته» و «لت‌و‌پار» یک خانواده است؛ پسوند ـه ی فارسی بر ستاکی با رِ افزوده شده است. تنها منّ (فرهنگ تطبیقی هندواروپایی، ستون ۶۸۱) این واژه را ذیل *letros «پاره، پوست» آورده و نورایی همین را نقل کرده است. اشکال آوایی آن این است که صورت کهن این ریشه در پژوهش امروزی *pl̥tro- (با پِ آغازین، هم‌ریشه با pellis «پوست») بازسازی می‌شود و پِ هندواروپایی در ایرانی پ می‌ماند و از میان نمی‌رود. پس خود واژه و معنایش درست است، امّا این هم‌ریشگی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%84%D8%AA",
+      "https://en.wiktionary.org/wiki/leather"
+     ],
+     "ref_check": [
+      {
+       "ref": "IEC:681",
+       "status": "supports",
+       "note": "IEC.txt line 9695 (column 681): \"letros, ā 'piece, strip, skin' ... WP II, 428  Per. latre 'part, fragment'\" — Mann does list the Persian word under this root, exactly as the arrow claims."
+      },
+      {
+       "ref": "MON:3563",
+       "status": "supports",
+       "note": "MON_part2.txt line ~38858 (Mo'in, letter ل): \"لتره: (ص.) پاره، دریده، کهنه\" and, in the same column, \"لت‌وپار: (ص مر.) پاره پاره، قطعه قطعه\" and \"لته: (ا.) پارچهٔ کهنه، ژنده\". Mo'in confirms word, script and gloss (his page numbers are not legible in this OCR, but the entry falls in the ل stretch where p. 3563 lies); Mo'in gives no etymology."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol. 1-2 (BQT_v1_pages.txt / BQT_v2_pages.txt)",
+       "stance": "silent",
+       "note": "grep 'لتره' in BQT_v1_pages.txt returns 0 hits (the ل letter is outside vol. 1); no Mo'in etymological footnote on لتره is available in the volumes we hold."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss (HRN.txt), index",
+       "stance": "silent",
+       "note": "no entry for lat/latre/latreh in Horn's numbered list or its index — Horn gives no etymology for this word."
+      },
+      {
+       "src": "POK",
+       "where": "IEW p. 681 s.v. letro-",
+       "stance": "silent",
+       "note": "Pokorny's letro- article (POK_02.txt, page 681) lists only Old Irish lethar, Welsh lledr, Breton lezr, OHG leder, OE leþer, ON leðr — no Iranian or Indo-Aryan cognate at all."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e rishe-hā (ARY_pages.txt / ARY_latin_index_pages.txt)",
+       "stance": "silent",
+       "note": "grep 'لتره' and 'LETRO' return nothing; Aryanpur has no entry for this word."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Germanic",
+     "words": "lethram",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *leþran (Watkins writes it *lethram; Wiktionary *leþrą), a neuter -o-stem, is the ancestor of OE leþer, OS lethar, OHG ledar, ON leðr, Du. leder/leer, G Leder. Its relation to the root box is exactly what Watkins prints (\"letro-. Leather. Germanic *lethram\"), so the arrow root → Germanic is Nourai's source verbatim. The one qualification, made already by Pokorny (p. 681) and Buck (6.29) and now standard, is that Germanic may have taken the word from Celtic (*ɱlitrom > OIr. lethar) rather than inherited it, and that the Celtic form goes back to *pl̥tro- 'skin' (Lat. pellis); this affects the root's IE pedigree, not the Germanic form or its meaning.",
+     "derivation_fa": "ژرمنی آغازین *leþrą (یا به نگارش واتکینز *lethram) «چرم»، نیای انگلیسی کهن leþer، آلمانی کهن ledar و نورسی کهن leðr است. واتکینز (پیوست ریشه‌های هندواروپایی AHD) دقیقاً همین را می‌نویسد، پس پیکان کتاب درست است. تنها نکته آن که پوکورنی و باک احتمال داده‌اند این واژه وام‌واژه‌ای کهن از سلتی باشد نه میراث مستقیم هندواروپایی.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/leather"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1526",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 690 (= the same article that stands on p. 1526 of the 1975 New College appendix): \"letro-. Leather. Germanic *lethram in Old English lether, leather: LEATHER. [Pok. letro- 681.]\" — the Germanic form, its gloss and the root are Nourai's, verbatim."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966, s.v. leather (KLN_1966.txt line 21354)",
+       "stance": "supports",
+       "note": "\"leather, n. — ME. lether, fr. OE. lether, rel. to OS. lethar, ON. leðr, Dan. læder, Swed. läder, OFris. lether, MDu. leder, Du. leder, leer, OHG. ledar, MHG., G. leder, and cogn. with OIr. lethar, W. lledr, Bret. lezr, 'leather'.\""
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 6.29, p. 408",
+       "stance": "partial",
+       "note": "\"uncertain whether cognate groups (*letro-) or orig. Celtic (*letro- fr. *pletro- : Lat. pellis?) with early Gmc. borrowing. Pedersen 2.45. Or as orig. 'smoothed skin' (*letro- fr. *leitro-) : Grk. λεῖος, Lat. lēvis 'smooth'? Kluge-G. 350.\""
+      },
+      {
+       "src": "POK",
+       "where": "IEW p. 681",
+       "stance": "supports",
+       "note": "\"letro' ,Leder??' ... ahd. leder, ags. leþer (engl. leather), aisl. leðr n. ,Leder'\" — the Germanic set is Pokorny's."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "English",
+     "words": "leather",
+     "verdict": "confirmed",
+     "derivation": "OE leþer (attested chiefly in compounds, e.g. leþer-hose, leþer-wyrhta 'leather-worker') > ME lether > NE leather; the medial þ/ð was regularly voiced between vowels and spelled th, and OE final -er stayed. A straight, uncontroversial Germanic inheritance from *leþrą; Watkins routes the English word through exactly this chain, and Nourai's arrow Germanic → English reproduces it.",
+     "derivation_fa": "leather انگلیسی از انگلیسی میانه lether و آن از انگلیسی کهن leþer است که خود بازماندهٔ ژرمنی آغازین *leþrą است؛ تحولی کاملاً قاعده‌مند و بی‌مناقشه. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/leather"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 690: \"Germanic *lethram in Old English lether, leather: LEATHER\"; the same file's word-index (line 1727 region) lists \"LEATHER letro-\"."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. leather",
+       "stance": "supports",
+       "note": "\"ME. lether, fr. OE. lether\" (KLN_1966.txt line 21354)."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 6.29 word list, p. 408",
+       "stance": "supports",
+       "note": "the table gives \"OE leþer / ME lether / NE leather\" in one column with OHG leder, ON leðr."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 4,
+   "root": "Leu, Lu",
+   "verdict": "confirmed",
+   "modern_form": "PIE *leu- / *lewǡ- : *lū- 'dirt, to make dirty'; *lu-to- 'mud' (Pokorny 1. leu- 681; Watkins leu-2 'Dirt; to make dirty')",
+   "note": "The root box itself is right: Pokorny p. 681 prints \"1. leu-, *leuǎ : lū- ,Schmutz, beschmutzen'; lu-to- ,Kot'\", and Watkins has \"leu-2. Dirt; to make dirty\" with the same page reference. The page number POK:681 is exact. TWO CROSS-CUTTING PROBLEMS. (a) Pokorny's article contains NO Indo-Iranian member at all — only Gk. λῦμα/λύθρον, Alb. lum, Lat. polluō/lutum/lustrum, OIr. loth, Lith. lutynas. The whole Iranian branch of this chart (nodes 1-3) rests on Horn no. 42 (1893), which Horn himself calls \"durchaus unsicher\"; today Cheung (EDIV 2007, s.v. *dauH2) and Wiktionary derive آلودن from Proto-Iranian *ā-dauH- 'to smear', and پالودن from something else again. (b) The Greek branch (nodes 4-7) belongs to the HOMONYMOUS root: Pokorny's \"2. leu- ,abschneiden, trennen, loslösen'\", which happens to begin on the very same page 681 — that is almost certainly how the two got merged. Watkins keeps them apart as leu-1 'To loosen, divide, cut apart' (→ Gk. luein → DIALYSIS) and leu-2 'Dirt' (→ Lat. polluere, lutum), and Etymonline does the same. So the root as drawn is correct but over-populated.",
+   "note_fa": "ریشهٔ هندواروپایی *leu-/*lū- «چرک، آلودن» در پوکورنی ص ۶۸۱ و در پیوست واتکینز (leu-2) آمده و خود ریشه درست است. امّا دو ایراد: نخست آنکه پوکورنی هیچ هم‌ریشهٔ هندوایرانی برای آن نمی‌آورد؛ پیوند «آلودن» و «پالودن» با این ریشه از هرن (۱۸۹۳) گرفته شده که خود آن را «کاملاً نامطمئن» خوانده، و چونگ (۲۰۰۷) و ویکی‌واژه آلودن را از ایرانی آغازین *ā-dauH- «مالیدن» می‌گیرند. دوم آنکه شاخهٔ یونانی (dia-luein › dialysis) از ریشهٔ همآوای دیگری است: *leu- «گسستن، رها کردن» (پوکورنی، همان صفحه، ذیل leu-2) که نورایی آن را با این یکی درهم آمیخته است.",
+   "sources": [
+    "https://www.etymonline.com/word/pollute",
+    "https://www.etymonline.com/word/dialysis"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:681",
+     "status": "supports",
+     "note": "POK_02.txt line 5435, on the leaf headed '681': \"1. leu-, *leuǎ : lū- ,Schmutz, beschmutzen'; lu-to- ,Kot'. Gr. λῦμα ,Schmutz, Schmach', ... lat. polluō ,beflecke', lustrum ,Pfütze', lutum ,Dreck, Kot' = air. loth f. ,Schmutz' ... lit. lutynas ,Pfuhl'. WP. II 406.\" The page is exact and the gloss 'to smear, make dirty' matches. Note that the immediately following article on the same page is \"2. leu- ,abschneiden, trennen, loslösen'\", which is where the Greek dia-luein branch of this chart really belongs."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.vv. leu-1, leu-2",
+     "stance": "partial",
+     "note": "AHD_watkins1985.txt line 691 ff.: \"leu-1. To loosen, divide, cut apart ... Zero-grade form *lu- in: a. Greek luein, to loosen, release, untie: LYSIS ... ANALYSIS, CATALYSIS, DIALYSIS ... [Pok. 2. leu- 681.]  leu-2. Dirt; to make dirty. 1. Latin polluere, to pollute (< *por-luere ...): POLLUTE. 2. Suffixed zero-grade form *lu-to- in Latin lutum, mud, mire, clay: LUTE. [Pok. 1. leu- 681.]\" — supports the root but explicitly separates the two homonyms Nourai merges."
+    },
+    {
+     "src": "WLD",
+     "where": "WP II 406 (cited at the foot of Pokorny's 1. leu-)",
+     "stance": "supports",
+     "note": "Pokorny closes the 'Schmutz' article with \"WP. II 406\", and the 'abschneiden' article with \"WP. II 407 f.\" — Walde-Pokorny too has them as two separate roots."
+    },
+    {
+     "src": "LAT",
+     "where": "Ernout-Meillet s.v. lutum (LAT.txt line 35197 region)",
+     "stance": "supports",
+     "note": "\"lūtum, -i n.: boue; argile de potier ... Cf. irl. loth 'boue', hom. λύθρον 'souillure', gr. λῦμα 'souillure, dommage', lat. luēs. Cf. aussi lustrum, et polluo.\""
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, columns 679-682",
+     "stance": "silent",
+     "note": "Mann's run of l-entries around col. 681 (leskos, leso, letos, letros, leubh ...) has no *leu- 'dirt' headword at all; IEC is silent on this root."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "rŭ, râu; â-rŭ-ta, â-râw, aya",
+     "verdict": "disputed",
+     "derivation": "These are not attested Avestan or Old Persian words. They are Abolghasemi's reconstructed Old-Iranian (ایرانی باستان) forms, printed with asterisks in Fe'l-hā-ye Fārsi-ye Dari p. 26 under آلودن: past stem آلود < MP ālūd < OIr. *ā-rū-ta-, present stem آلای < MP ālāy < OIr. *ā-rāw-aya- (Nourai's \"aya\" is simply the causative suffix -aya- split off the second form), from a root *rū- glossed \"آلوده بودن\". Nourai reproduces them faithfully but relabels them \"Avestan / Old Persian\", which they are not: Bartholomae's Altiranisches Wörterbuch has no Avestan root rū-/rav- 'to be dirty', and Kent's Old Persian lexicon has nothing either. Modern Iranian etymology reconstructs the same two Persian stems quite differently, with *d not *r: Cheung EDIV s.v. *dauH2 'to smear, rub (on)' gives YAv. fraδauu- 'to be rubbed off with' (Bartholomae ³dav-, col. 688, \"nur mit fra 'reinigend abreiben'\"), MMP *'rwdg 'pollution, dirt', Sogd. δʾaw 'to smear', Khwar. δʾaw-, Oss. dawyn, and NP ālūdan/ālāy- (+ *ā-) beside andūdan (+*ham-) and zadūdan (+*uz-), the -l- of ālūdan being secondary. The chart's forms are therefore a 19th/20th-century reconstruction that current scholarship rejects.",
+     "derivation_fa": "این صورت‌ها نه اوستایی‌اند نه پارسی باستان؛ بازسازی‌های ایرانی باستان از ابوالقاسمی در ماده‌های فعل‌های فارسی دری (ص ۲۶) هستند: «آلود < فارسی میانه ālūd < ایرانی باستان *ā-rū-ta» و «آلای < ālāy < *ā-rāw-aya». نورایی آن‌ها را درست نقل کرده ولی برچسب «اوستایی/پارسی باستان» زده است؛ در فرهنگ ایرانی باستان بارتولومه هیچ ریشهٔ اوستایی rū- به معنی «آلوده بودن» نیست. پژوهش امروزی (چونگ، فرهنگ ریشه‌شناختی فعل ایرانی، ذیل *dauH²) همین دو ستاک را از *ā-dauH- «مالیدن» می‌گیرد و اوستایی fraδauu-، سغدی δʾaw و آسی dawyn را هم‌ریشهٔ آن می‌داند. پس ادعای نورایی را پژوهش امروزی رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%88%D8%AF%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "FFD:26",
+       "status": "supports",
+       "note": "FFD_pages.txt, pdf page 31-32 (printed p. 26-27, the running head of the next page reads 'ماده‌های ماضی و مضارع فارسی دری ... ۲۷'), entry آلودن: \"آلود < فارسی میانه [ālūd] < ایرانی باستان *ā-rū-ta ... [ریشهٔ rū] به معنی «آلوده‌بودن» است. آلای < فارسی میانه [ālāy] < ایرانی باستان *ā-rāw-aya\". The page reference is exact and the forms are Abolghasemi's, but he prints them as Old IRANIAN reconstructions, not as Avestan/Old Persian."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Bartholomae, AiW (BRT.txt line 12810, col. 688)",
+       "stance": "contradicts",
+       "note": "\"j. ³dav- V., nur mit fra 'reinigend abreiben'. Praes. dava-.\" — the Avestan root that actually underlies آلودن is dav-, not rū-; a grep of BRT.txt for an Avestan rū-/rav- 'be dirty' finds nothing."
+      },
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian lexicon (KNT.txt)",
+       "stance": "silent",
+       "note": "no Old Persian root or word rū-/*ā-rū-ta- 'dirty' in Kent's lexicon (grep 'rū'/'dirty' → nothing relevant)."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "EDIV s.v. *dauH2 'to smear, rub (on)' (CHEUNG.txt lines 5482-5528)",
+       "stance": "contradicts",
+       "note": "\"*dauH² 'to smear, rub (on)'. AVESTAN: (+ *fra-) YAv. fraδauu- 'to be rubbed off with' ... MIDDLE PERSIAN: (+ *ā-) MMP *'rwdg 'pollution, dirt' ... NWIR: (+ *ā-) NP aludan/alay- 'to soil, pollute, stain' ... The original meaning of NP āludan/ālay- appears to be 'to smear', v. Horn 1893: 10.\" PIE: none; Pok.: 261 (not 681)."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "â-lutan; pâlutan (pat-lutan)",
+     "verdict": "disputed",
+     "derivation": "The Middle Persian words exist, but not in these shapes and not in this relationship. MacKenzie's Concise Pahlavi Dictionary has \"ālūdan, ālāy- [ʾltnʾ, ʾlʾd-] defile, pollute\" and \"ālūdag [ʾltkʾ] defiled, polluted\", and separately \"pālūdan, pālāy- [pʾlwtnʾ, pʾlʾd-] strain, filter, purify\" with \"pālūdag [pʾlwtkʾ] starch jelly, flummery\" — so ā- is part of the stem shape, not a separable prefix written \"â-lutan\", and \"pat-lutan\" is Nourai's (i.e. Horn's) ANALYSIS, never an attested Pahlavi spelling. Horn no. 278 is indeed the source: \"pālūden 'reinigen', Praes. pālay-em ... paiti + alūden (s. ālūden, No. 42); phlv. pālūt (Bund.)\". But Hübschmann, Persische Studien p. 36, demolishes it in the very passage Nourai's own NOTE points to — and every later authority agrees: Cheung derives pālūdan from Proto-Iranian *pari-harz- (YAv. pairi.harəz- 'to filter', MMP pʾrʾy- 'to purify', perf. pass. pʾrwd, Arm. LW parzel 'to filter'), Abolghasemi and Wiktionary from *pari-/pati-dauH- ~ *dāwati 'to run, flow' (whence also دویدن), Aryanpur from *peu(H)- 'to purify' (with پاک). Only ālūdan itself may be linked to the *leu- family (Horn no. 42, endorsed phonetically by Hübschmann p. 8), and even that is now replaced by *ā-dauH-.",
+     "derivation_fa": "صورت‌های پهلوی درست‌اند ولی نه به این نگارش: مکنزی «ālūdan، ālāy- [ʾltnʾ] آلودن» و جداگانه «pālūdan، pālāy- [pʾlwtnʾ] صاف کردن، پالودن» را ثبت کرده است؛ «pat-lutan» تحلیل هرن است نه صورت مضبوط. هرن (شمارهٔ ۲۷۸، ص ۶۲) پالودن را paiti + آلودن گرفته، ولی هوبشمان در پژوهش‌های فارسی ص ۳۶ صریحاً می‌گوید «پیوندی میان پالودن و آلودن در کار نیست و هر ریشه‌شناسی مبتنی بر آن نادرست است» — همان که خود نورایی در یادداشت آورده است. چونگ پالودن را از *pari-harz- (اوستایی pairi.harəz- «پالودن») می‌گیرد. پس این پیوند رد می‌شود.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%84%D9%88%D8%AF%D9%86",
+      "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%88%D8%AF%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:10",
+       "status": "supports",
+       "note": "HRN.txt leaf 32 = printed p. 10, no. 42: \"āluden 'beschmutzen', Praes. ālāy-em, phlv. lūtak (AV.). lat. lutum; air. loth 'Schmutz'; lit. lutynas, lutynė (fem.) 'Pfuhl, Lehmpfütze'. Durchaus unsicher, da np. ālāy-em dann die sekundäre Form und ū ursprünglich sein müsste. Auch scheint die Grundbedeutung von ālūden 'beschmieren' zu sein.\" — supports the ālūdan/*leu- link but with Horn's own strong reservation."
+      },
+      {
+       "ref": "HRN:62",
+       "status": "supports",
+       "note": "HRN.txt leaf 84 = printed p. 62, no. 278: \"pālūden 'reinigen', Praes. pālay-em, pālāyiden, paiti + alūden (s. ālūden, No. 42); phlv. pālūt (Bund.), pāz. pālīdan, pālaidan (West, Sik. gum.-Gl.). bel. LW. palayag, pālenay 'seihen, worfeln, reinigen'.\" — exactly Nourai's 'pat-lutan' analysis."
+      },
+      {
+       "ref": "HUB:8",
+       "status": "supports",
+       "note": "HUB.txt leaf 19 = printed p. 8, ad no. 42: \"Np. āludan 'beschmutzen, sich verunreinigen' kann trotz des pr. ālayam auf eine Wurzel lu zurückgehen ... Lautlich ist also gegen eine Zusammenstellung von aludan mit lat. lutum, lues, polluo, gr. λῦμα, air. loth etc. nichts einzuwenden.\""
+      },
+      {
+       "ref": "HUB:36",
+       "status": "contradicts",
+       "note": "HUB.txt leaf 47 = printed p. 36, ad no. 278: \"Np. pāludan 'reinigen' kann nicht = 'paiti + aludan' sein ... Nun heisst aber pālūdan vielmehr 'durchseihen, reinigen' ... so dass 'seihen' die ursprüngliche, 'reinigen' die abgeleitete Bedeutung ist. Also findet ein Zusammenhang mit aludan nicht statt und jede darauf gegründete Etymologie ist falsch.\" — the chart's own NOTE reports this correctly, and modern scholarship sides with Hübschmann."
+      },
+      {
+       "ref": "BQT:58",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt, the leaf whose own footnote ends '... در صفحهٔ ۵۹' (i.e. this is printed p. 58): Mo'in's etymological footnote s.v. آلودگی/آلودی: \"پهلوی ālūtakīh ... بمعنی لوث ـ آلایش ـ فسق و فجور ـ شوخ و وسخ «لغت نامه» ... [lutum] لاتینی و [loth] ایرلاندی باستانی (پلیدی، گل، مدفوع) هرن ۴۲\" — Mo'in cites Horn no. 42 and the Latin/Old Irish comparanda, i.e. exactly Nourai's claim for ālūdan."
+      },
+      {
+       "ref": "BQT:358",
+       "status": "not_found",
+       "note": "Calibrating the OCR leaves of BQT_v1_pages.txt against the two 'continued on p. N' footnotes gives offset 210 (leaf 268 = p. 58, leaf 569 = p. 359). Printed p. 358 (leaf 568) carries پادشاه/پادنگ, nothing about پالودن. The پالودن cluster stands ~11 pages later (leaves 579-580, printed ~369-370): \"پالودن: بر وزن آسودن، بمعنی صاف کردن و صافی و روشن شدن و پاک ساختن ...\", \"پالوده، پالونه\" — with no etymological footnote at all in this scan. So the second page number could not be confirmed."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie, CPD (PHD.txt lines 189 and 540)",
+       "stance": "partial",
+       "note": "\"ālūdag ['lwtk'] defiled, polluted. ~ih: defilement. ālūdan, ālāy- ['lwtn', 'l'd-] (M 'rwd), N ~] defile, pollute\" and \"pālūdag [p'lwtk' | N ~a] starch jelly, flummery. pālūdan, pālāy- [p'lwtn', p'l'd-] (M p'rwdn, p'r'y-), N ~] strain, filter, purify\" — both verbs exist, but MacKenzie lists them as unrelated entries and the Manichaean spellings ('rwd vs p'rwdn/p'r'y-) point to different roots."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II, Glossary",
+       "stance": "silent",
+       "note": "grep for lwtn'/p'lwtn'/ālūt/pālūt in NYB_vol2_glossary.txt finds no entry — neither verb occurs in Nyberg's text-based glossary."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "EDIV s.v. *harz 'to let go, release' (CHEUNG.txt lines ~9403-9460)",
+       "stance": "contradicts",
+       "note": "\"AVESTAN: YAv. haraz- ... || (+ *pari-) 'to filter' ... MIDDLE PERSIAN: (+ *pari-) MMP p'r'y- 'to purify' ... Partic.: perf. pass. MMP p'rwd ... NWIR: (+ *pari-) NP paludan, palidan/palay-, Kurd. palavtin/palév-, ... 'to filter, purify' ... Note also the rhyming antonym NP āludan 'to stain, soil', s.v. *dauH².\" — pālūdan is *pari-harəz-, and ālūdan a different root again."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, p. 153 s.v. پالیدن، پالودن، پالاییدن (read from the page image; transcription saved as ocr/ARY/0153.vision.txt)",
+       "stance": "contradicts",
+       "note": "\"PALIDAN, PALUDAN, PALAIDAN — PURIFY, FILTER — INDO-EUROPEAN: *PU-, *PEU-, *PEWE-, *PUNAML; PAHLAVI: PALUTAK, PALUTAN; SANSKRIT: PAVATE, PAVAYATI, PUNATI; LATIN: PURIFICARE; REFERENCES: POKORNY 826-7 ... برهان قاطع ۲۵۸; یادداشت: بازگشت به: پاک\" — Aryanpur assigns pālūdan to PIE *peu(H)- 'to purify' (Pokorny 826-7), with پاک, not to *leu- 681."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "âludan; pâludan; pâlâyeš; pâludeh; pâlŭneh; pâlân",
+     "verdict": "disputed",
+     "derivation": "All six words are real and correctly glossed, and the printed page shows the box hanging off the Pahlavi box (see the extraction note), which is right for the first five: MP ālūdan/ālāy- > NP آلودن (آلای) and MP pālūdan/pālāy- > NP پالودن (پالای، پالیدن), with پالایش the regular -š (< OIr. *-šn) verbal noun on the present stem, پالوده the past participle (whence the sweet, Arabized فالودج/فالوذج and back into Persian as فالوده), and پالونه an instrument noun in -ūna 'strainer' (Borhan-e Qate': \"پالونه ... مصفاة\"). What is disputed is the root: آلودن is now taken from Proto-Iranian *ā-dauH- 'to smear' (Cheung; Wiktionary: \"Cheung derives the verb from Proto-Iranian *ā- + *dauH- 'to smear, rub (on)', with a lambdacism of *d > l\"), the -l- being borrowed from its rhyming antonym pālūdan; and پالودن is not from آلودن at all (Hübschmann p. 36; Cheung *pari-harəz-; Wiktionary/Abolghasemi *para-dāwati 'to run, flow', cf. دویدن; Aryanpur *peu- 'purify', cf. پاک). پالان 'straw-stuffed packsaddle' does not belong to this family in ANY account: it is Proto-Iranian *pari-dāna- 'placed around' (*pari- + *dǓeh1- 'to put'), cf. Sogdian py rδn 'saddle', and was lent to Turkish as palan. So one word (آلودن) has a *leu- etymology only in the older literature, four belong to a different root, and one (پالان) is unrelated to all of them.",
+     "derivation_fa": "هر شش واژه واقعی و درست‌معنا هستند: «آلودن (آلای)» و «پالودن (پالای، پالیدن)» دنبالهٔ مستقیم فارسی میانهٔ ālūdan/ālāy- و pālūdan/pālāy-، «پالایش» اسم مصدر با پسوند ـش بر ستاک حال، «پالوده» صفت مفعولی (معرّب آن فالوذج که باز به صورت «فالوده» به فارسی بازگشته) و «پالونه» اسم ابزار به معنی صافی است. امّا ریشه محل اختلاف است: چونگ و ویکی‌واژه «آلودن» را از *ā-dauH- «مالیدن» می‌گیرند (با ابدال d > l به قیاس پالودن)، و «پالودن» را هیچ‌کدام از آلودن نمی‌گیرند. «پالان» نیز از ایرانی آغازین *pari-dāna- «آنچه گرداگرد نهاده شود» (هم‌ریشه با سغدی py rδn «زین») است و هیچ ربطی به پالودن ندارد. پس پژوهش امروزی این شاخه را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%A2%D9%84%D9%88%D8%AF%D9%86",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%84%D9%88%D8%AF%D9%86",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%84%D8%A7%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "FFD:26",
+       "status": "partial",
+       "note": "FFD_pages.txt pdf p. 31-32 (printed 26-27) gives آلودن exactly as Nourai reports it (*ā-rū-ta / *ā-rāw-aya). But Abolghasemi's own entry for پالودن is 14 pages later (pdf p. 45, printed ~40) and says something different: \"پالود < فارسی میانه [pālūd] < ایرانی باستان *pati-rau-ta ... [pati] پیشوند فعلی است. [rau] صورت ضعیف ریشهٔ *raw است، به معنی «دویدن». خود دویدن هم از ریشهٔ *raw آمده است\" — i.e. Nourai's own reference derives pālūdan from 'to run', not from 'to be dirty'."
+      },
+      {
+       "ref": "AEF:340",
+       "status": "not_checked",
+       "note": "Khaleqi Motlaq, Asās-e Ešteqāq-e Fārsi vol. I — refs_online.json marks it kind 'catalog' with no scan available; it is the Persian translation of Horn (HRN) with Hübschmann's notes, so the substance is covered by the HRN:10,62 and HUB:8,36 checks above."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate' vol. 1, leaves 579-580 (printed ~369-370)",
+       "stance": "partial",
+       "note": "\"پالودن: بر وزن آسودن، بمعنی صاف کردن و صافی و روشن شدن و پاک ساختن و صاف گردیدن از کدورت‌ها\", \"پالوده: بر وزن آلوده ... و معرّب آن فالوذج باشد\", \"پالاوان ... ظرفی باشد مانند کفگیر که چیزها را در آن صاف کنند\" — all the Persian words and glosses of the node are confirmed, with no etymology attached."
+      },
+      {
+       "src": "MON",
+       "where": "Mo'in via BQT footnote p. 58 (Mo'in is the editor of these footnotes)",
+       "stance": "partial",
+       "note": "Mo'in's note on آلودگی cites Pahlavi ālūtakīh, Latin lutum, Old Irish loth and \"هرن ۴۲\" — he endorses the *leu- etymology for آلودن only, and attaches nothing of the kind to پالودن."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "EDIV s.vv. *dauH2 and *harz",
+       "stance": "contradicts",
+       "note": "*dauH²: \"(+ *ā-) NP aludan/alay- 'to soil, pollute, stain' ... || (+ *uz-) NP zadudan/zaday- ... || (+ *ham-) NP andudan/anday- ... The formation is influenced by the antonym (M)MP p'rw-, NP palūdan 'to filter'.\" *harz: \"(+ *pari-) NP paludan, palidan/palay- ... 'to filter, purify'.\""
+      },
+      {
+       "src": "HRN",
+       "where": "Horn nos. 42 and 278, pp. 10 and 62",
+       "stance": "supports",
+       "note": "Horn is the one authority who states Nourai's chain (ālūden : lat. lutum, air. loth; pālūden = paiti + alūden), while calling the first \"durchaus unsicher\"."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Greek",
+     "words": "dia-luein; dia-lusis",
+     "verdict": "disputed",
+     "derivation": "The Greek words are right — διαλύω dialuō 'to loose one from another, part asunder, dissolve' (Herodotus, Thucydides; of disbanding troops, dissolving a marriage) and διάλυσις diálusis 'dissolution, separation', διά dia 'apart' + λύω luō. But λύω does NOT belong to *leu- 'dirt'. It is the zero grade of PIE *lewh₁- 'to cut off, separate, set free' — Pokorny's \"2. leu- ,abschneiden, trennen, loslösen'\" (IEW 681 f.), the article that immediately follows 'leu- Schmutz' on the same page, whence Skt. lunāti 'cuts', Lat. luere/solvere, Goth. fra-liusan, OE losian, ON lauss 'loose'. Watkins keeps the two apart as leu-1 and leu-2, and Etymonline routes dialysis through \"PIE root *leu- 'to loosen, divide, cut apart'\" while routing pollution through \"*leu- 'dirt; make dirty'\". Nourai has merged two homonymous roots that Pokorny numbered 1 and 2 on one page. The gloss 'filtering' for dia-lusis is also anachronistic: the sense is 'dissolution/separation', and the chemical sense dates only from Thomas Graham's coinage of 1861 (Klein s.v. dialysis).",
+     "derivation_fa": "واژه‌های یونانی درست‌اند: διαλύω «از هم گسستن، حل کردن» و διάλυσις «جدایی، تجزیه»، مرکب از διά «جدا» و λύω. امّا λύω از ریشهٔ «آلودن» نیست؛ از ریشهٔ همآوای *lewh₁- «بریدن، جدا کردن، رها کردن» است که پوکورنی در همان صفحهٔ ۶۸۱ زیر شمارهٔ ۲ آورده (سنسکریت lunāti، لاتین solvere، انگلیسی loose). واتکینز و اتیمانلاین این دو ریشه را از هم جدا می‌دانند؛ نورایی آن دو را یکی گرفته است. معنای «پالایش» برای dia-lusis نیز معنای شیمیایی سدهٔ نوزدهم است، نه یونانی. پژوهش امروزی این پیوند را رد می‌کند.",
+     "sources": [
+      "https://www.etymonline.com/word/dialysis",
+      "https://en.wiktionary.org/wiki/%CE%BB%CF%8D%CF%89"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:364",
+       "status": "contradicts",
+       "note": "AHD p. 364 is the dictionary entry 'dialysis', and the root cross-reference it carries in the New College edition is Watkins' leu-1, not leu-2. AHD_watkins1985.txt line 691: \"leu-1. To loosen, divide, cut apart ... 4. Zero-grade form *lu- in: a. Greek luein, to loosen, release, untie: LYSIS ... ANALYSIS, CATALYSIS, DIALYSIS ... [Pok. 2. leu- 681.]\", while \"leu-2. Dirt; to make dirty\" (the root of this chart) contains only Latin polluere and lutum. The index (line 1424) confirms: \"DIALYSIS leu-1\". Nourai's own reference therefore contradicts the arrow's placement."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW p. 681 f., '2. leu- ,abschneiden, trennen, loslösen''",
+       "stance": "contradicts",
+       "note": "\"gr. λύω ,löse, befreie; vertilge usw.', λύα f. ,Auflösung, Trennung', λύσις f. ,Lösung', λύτρον n. ,Lösegeld' ... ai. lunāti ,schneidet ab'\" — Greek luō/lusis stand under Pokorny's SECOND leu-, not the 'Schmutz' one."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. dialysis (KLN_1966.txt line 11248)",
+       "stance": "contradicts",
+       "note": "\"dialysis, n. ... fr. Gk. διάλυσις, 'separation, dissolution', fr. διαλύειν, 'to part asunder, break off, dissolve', fr. διά ... and λύειν, 'to loose, loosen'; see -lysis. The word dialysis was introduced into chemistry by the Scottish chemist Thomas Graham (1805-69) ... in 1861.\" Klein's pollute article, by contrast, links -luere only to lutum, λῦμα, OIr. loth."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.vv. lutum / polluo",
+       "stance": "contradicts",
+       "note": "Ernout-Meillet groups lutum with irl. loth and gr. λύθρον/λῦμα and, separately, treats luō 'to loose, expiate' with soluō — the two families are not joined."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "An empty pass-through box for French dialyse (f.), formed on Greek διάλυσις through Latin dialysis; the chemical/medical sense follows Graham's English coinage of 1861 and is the sense in which the word travelled onward. The Greek → French link as such is correct; it is only the box's ultimate ancestry (through node 4) that is misassigned to the 'dirt' root.",
+     "derivation_fa": "جعبهٔ خالی واسطه برای فرانسه dialyse است که از یونانی διάλυσις از راه لاتین علمی ساخته شده و معنای پزشکی آن پس از وضع گراهام (۱۸۶۱) رایج شده است. خود این حلقه (یونانی › فرانسه) درست است؛ ایراد تنها به ریشهٔ بالادستی بازمی‌گردد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D8%A7%D9%84%DB%8C%D8%B2",
+      "https://www.etymonline.com/word/dialysis"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the box carries no reference in the book (refs=None); its content is supplied by the neighbouring boxes."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. dialyse/dialysis",
+       "stance": "supports",
+       "note": "\"dialyse, v. — See dialyze\" and, s.v. dialysis, the Greek → Latin → modern-European chain; French dialyse is the regular Gallicization."
+      },
+      {
+       "src": "MON",
+       "where": "Wiktionary's Persian entry دیالیز, which names French as the donor",
+       "stance": "supports",
+       "note": "\"دیالیز (diyâliz) — Etymology: From French dialyse.\" This is the only evidence needed that the French box is a real link in the chain."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "dîyâlîz",
+     "verdict": "confirmed",
+     "derivation": "NP دیالیز diyāliz is a 20th-century medical loan straight from French dialyse (as with almost all Persian clinical vocabulary of the period, which came through French rather than English); the French final -yse is rendered ـیز with a voiced z, and the stress-final open syllable of dialyse is dropped. Wiktionary's Persian entry states the source explicitly: \"From French dialyse.\" The word is thus a late, learned return of the Greek term to Iran — not an inherited form, and Nourai's box correctly shows it hanging off French rather than off the Iranian branch.",
+     "derivation_fa": "«دیالیز» وام‌واژه‌ای پزشکی از فرانسه dialyse است که در سدهٔ چهاردهم خورشیدی به فارسی راه یافته؛ مانند بیشتر اصطلاحات پزشکی آن دوره که از راه فرانسه آمده‌اند. ویکی‌واژه نیز همین را می‌گوید. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D8%A7%D9%84%DB%8C%D8%B2"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "the box carries no reference in the book (refs=None)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Wiktionary Persian دیالیز (archived)",
+       "stance": "supports",
+       "note": "\"Etymology: From French dialyse. Noun: دیالیز (diyâliz)\"."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein s.v. dialysis",
+       "stance": "supports",
+       "note": "gives the Greek-to-modern-European chain and dates the technical sense to Graham 1861, which is the sense borrowed into Persian."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "dialyze, dialysis",
+     "verdict": "confirmed",
+     "derivation": "English dialysis is attested from the 1580s in logic and grammar ('division of one syllable into two'), taken from Latin dialysis < Greek διάλυσις; the chemical sense — separation of crystalloids from colloids through a membrane — was coined by the Scottish chemist Thomas Graham in 1861, and dialyze/dialyse is a back-formation from it. The Greek → English arrow is right; only its attachment to the 'dirt' root (node 4) is not.",
+     "derivation_fa": "انگلیسی dialysis از دههٔ ۱۵۸۰ میلادی در منطق و دستور زبان به کار می‌رفته و از لاتین dialysis و آن از یونانی διάλυσις گرفته شده است؛ معنای شیمیایی آن را توماس گراهام در ۱۸۶۱ وضع کرد و dialyze از آن ساخته شد. خود این حلقه درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/dialysis"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:364",
+       "status": "partial",
+       "note": "AHD's dictionary page 364 does carry dialysis/dialyze with the Greek etymology Nourai gives, but its root cross-reference is Watkins' leu-1 'to loosen', not the leu- 'dirt' of this chart (AHD_watkins1985.txt index line 1424: \"DIALYSIS leu-1\")."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.vv. dialysis, dialyze (KLN_1966.txt lines 11248-11249)",
+       "stance": "supports",
+       "note": "\"dialysis, n., separation of crystalloids from colloids (chem.) — L., 'separation', fr. Gk. διάλυσις ... The word dialysis was introduced into chemistry by the Scottish chemist Thomas Graham (1805-69) ... in 1861.\" \"dialyze, also dialyse, tr. v. (chem.) — Back formation fr. dialysis.\""
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. leu-1",
+       "stance": "partial",
+       "note": "\"Greek luein, to loosen, release, untie: LYSIS, LYSO-, -LYTE, -LYTIC; ANALYSIS, CATALYSIS, DIALYSIS ...\" — confirms the English word's Greek source while placing it under the other root."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Latin",
+     "words": "lutum; polluere",
+     "verdict": "confirmed",
+     "derivation": "Latin lutum n. 'mud, mire, potter's clay' is the *lu-to- of the root (Pokorny 681 \"lu-to- ,Kot'\"), matching OIr. loth f. 'Schmutz' exactly; and polluere 'to defile, pollute' is from *por-luēre, with por- an old variant of pro- 'forth' plus the same -lu- 'to smear' (so already Ernout-Meillet, \"De por-luo: v. lutum, lustrum\"). Both are Pokorny's own examples in the very article Nourai cites, and Watkins repeats them verbatim under leu-2. The lengthened-grade derivative lustrum 'puddle, filth' belongs here too. This node is the core of the root and is fully confirmed.",
+     "derivation_fa": "لاتین lutum «گِل، لجن، خاک رس‌گری» همان صورت *lu-to- ریشه است که پوکورنی در ص ۶۸۱ می‌آورد و با ایرلندی کهن loth دقیقاً مطابق است؛ polluere «آلودن» نیز از *por-luēre است (پیشوند por- گونه‌ای کهن از pro-) با همان ستاک -lu-. ارنو-میه و کلاین هم همین را می‌گویند. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/pollute"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 691 ff.: \"leu-2. Dirt; to make dirty. 1. Latin polluere, to pollute (< *por-luere; por- for prō-, forth, forward; see per) : POLLUTE. 2. Suffixed zero-grade form *lu-to- in Latin lutum, mud, mire, clay: LUTE. [Pok. 1. leu- 681.]\" — both Latin words, both glosses, exactly as drawn."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW p. 681, 1. leu-",
+       "stance": "supports",
+       "note": "\"lat. polluō ,beflecke', lustrum ,Pfütze', lutum ,Dreck, Kot' = air. loth f. ,Schmutz', gall. ON Luteva\"."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.vv. lutum, polluo (LAT.txt lines 35197, 48690)",
+       "stance": "supports",
+       "note": "\"lūtum, -i n.: boue; argile de potier ... Cf. irl. loth 'boue', hom. λύθρον, gr. λῦμα, lat. luēs\" and \"polluo, -is, -ui, -utum, -ere: souiller, salir ... De por-luo: v. lutum, lustrum.\""
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. pollute (KLN_1966.txt line 29422)",
+       "stance": "supports",
+       "note": "\"L. pollutus, pp. of polluere, 'to defile, pollute, contaminate', for *por-luere ... L. -luere in polluere is rel. to L. lutum, 'mud', and cogn. with Gk. λῦμα 'filth, dirt, disgrace', ... OIr. loth 'mud, dirt', W. lludedic 'muddy', Lith. lutynas 'pool, puddle'.\""
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "pollution",
+     "verdict": "confirmed",
+     "derivation": "English pollution appears mid-14c. as pollucioun, first in the narrow ecclesiastical sense 'discharge of semen other than during sex', then late 14c. 'desecration, defilement, ceremonial uncleanness'; from Late Latin pollutionem (nom. pollutiō) 'defilement', a noun of action on the past-participle stem of Latin polluere, reaching English through Old French. The verb pollute (late 14c.) is a back-formation from the noun or a direct adoption of Latin pollutus. The environmental sense is recorded from c. 1860 and only became common after c. 1955. The chain Latin polluere → English pollution in the chart is exactly right.",
+     "derivation_fa": "انگلیسی pollution از میانهٔ سدهٔ چهاردهم میلادی به صورت pollucioun دیده می‌شود و از لاتین پسین pollutiōnem «آلودگی» (از ستاک اسم مفعول polluere) از راه فرانسهٔ کهن وارد شده است؛ معنای زیست‌محیطی آن از حدود ۱۸۶۰ و رواج آن پس از ۱۹۵۵ است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/pollute"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt s.v. leu-2 routes POLLUTE (and with it pollution) to Latin polluere < *por-luere; the word index gives the same."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. pollution (KLN_1966.txt line 29422)",
+       "stance": "supports",
+       "note": "\"pollution, n. — Late L. pollutio, gen. -onis, fr. L. pollutus, pp. of polluere.\""
+      },
+      {
+       "src": "AHD",
+       "where": "Etymonline s.v. pollution (archived)",
+       "stance": "supports",
+       "note": "\"mid-14c., pollucioun ... from Late Latin pollutionem (nominative pollutio) 'defilement', noun of action from past-participle stem of Latin polluere 'to soil, defile, contaminate', probably from *por- 'before' ... + -luere 'smear', from PIE root *leu- 'dirt; make dirty'.\""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
