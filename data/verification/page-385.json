@@ -1,0 +1,922 @@
+{
+  "pdf_page": 385,
+  "book_page": 355,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Peg",
+      "verdict": "plausible",
+      "modern_form": "PIE *peg- / *pōg-, *pōk-s- 'armpit, hip, loin, side' (Pokorny 792); Watkins/AHD lists the same root as *peg- 'breast'",
+      "note": "Pokorny 792 prints the headword as '(peg-:) pog-: pōg-, pōk-s-' and glosses it 'Achsel, Hufte, Lende, Seite' (armpit, hip, loin, side) — the full-grade *peg- is only a bracketed, inferred variant. Nourai's headword 'Peg' with the gloss 'breast' is copied verbatim from the AHD (Watkins) appendix, which prints 'peg-. Breast.' The 'breast' sense in fact rests only on Latin pectus and Tocharian A pässäṃ / B pāścane 'the two breasts'; Sanskrit pakṣa- and Latvian paksis point to 'side, flank'. Modern scholarship (de Vaan via Wiktionary) further doubts that Lat. pectus and Skt. pakṣa- belong together at all. Root is real and the language label is right; the gloss is a one-sided simplification.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین که نورایی آن را Peg با معنای «سینه» آورده، در فرهنگ پوکورنی (ص ۷۹۲) با سرواژهٔ «(peg-:) pog-: pōg-, pōk-s-» و معنای «زیربغل، ران، پهلو» ثبت شده است؛ صورت *peg- تنها گونه‌ای بازسازی‌شده و درون‌کمانک است. معنای «سینه» را نورایی از پیوست ریشه‌های هندواروپایی فرهنگ AHD (واتکینز) گرفته که همان‌جا «Breast» نوشته است، ولی این معنا فقط بر پایهٔ pectus لاتین و pāścane تخاری است، حال آنکه pakṣa- سنسکریت و paksis لتونیایی بر معنای «پهلو، سو» دلالت دارند. افزون بر این، پژوهش امروزی (دِ ڤان، به نقل ویکی‌واژه) در پیوند pectus لاتین با pakṣa- سنسکریت تردید می‌کند. پس: ریشه واقعی است و برچسب زبانی درست، اما معنای داده‌شده یک‌سویه و ساده‌سازانه است — ادعای نورایی با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7",
+        "https://en.wiktionary.org/wiki/pectus"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:792",
+          "status": "partial",
+          "note": "Pokorny IEW p.792 (local POK_03.txt, form-feed leaf 25) reads: '(peg-:) pog-: pōg-, pŏk-s- \"Achsel, Hufte, Lende, Seite\". Ai. pákṣa- m. \"Schulter, Flugel\" und \"Seitenpfosten\", pákṣas- n. \"Seite\"; lat. pectus \"Brust\"; lett. paksis \"Hausecke\"; toch. A pässäṃ, B päścane \"die beiden Bruste\" ... WP. II 3 f., WH. II 270.' The page number is exact; the gloss is not 'breast'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. peg-",
+          "stance": "supports",
+          "note": "'peg-. Breast. 1. Suffixed variant form *pek-tos- in Latin pectus, breast: PECTORAL; EXPECTORATE, PARAPET. 2. Possibly suffixed variant form *pek-so- in Sanskrit paksah, wing: PUNKA. [Pok. (peg-), pog- 792.]' — this is verbatim Nourai's chart (grep '^peg-' AHD_watkins1985.txt line 820)."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 3-4 (WLD_Bd2_pages.txt leaf 8)",
+          "stance": "partial",
+          "note": "Entry headed 'pag-' (their spelling) with 'ai. pajasyá- n. Bauchgegend, Weichen, russ. pachu \"Leistengegend\", pacha \"Achselhohle\" ... ein io-St. *pagio- in cech. paze \"Arm\"' — again 'flank/armpit', no 'breast'."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, alphabetical",
+          "stance": "silent",
+          "note": "grep of IEC.txt for 'peg-', 'pokso-', 'pektos' returns no headword for this root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sanskrit",
+          "words": "pakša",
+          "verdict": "plausible",
+          "derivation": "Sanskrit पक्ष (pakṣá-) m. is real and old (RV), but its meanings are 'wing, feather; side, flank; half (of a month); party, faction' — not 'breast'. Monier-Williams and Wiktionary give no 'breast' sense; the chart's 'breast' is imported from Nourai's root gloss. Formally pakṣa- goes back to Proto-Indo-Iranian *pakšás 'side, flank' < PIE *peg-/*pok-s-, with the regular Indo-Aryan treatment of *-ks- > -kṣ-; the Iranian cognate is Ossetic fæxs 'side'. So the arrow root -> Sanskrit is sound; only the gloss 'breast' is wrong.",
+          "derivation_fa": "واژهٔ سنسکریت pakṣá- «بال، پر؛ پهلو، سو؛ نیمه (ماه)؛ دسته» از ریگ‌ودا به‌بعد گواهی شده است، اما معنای «سینه» برای آن ثبت نشده و نورایی آن را از معنای ریشه به این گره تسری داده است. از دید آوایی pakṣá- بازماندهٔ هندوایرانی آغازین *pakšás «پهلو، سو» است (خوشهٔ *-ks- در هندوآریایی به -kṣ- بدل می‌شود) و هم‌ریشهٔ آن در ایرانی، fæxs آسی به معنی «پهلو» است. بنابراین پیکان «ریشه ← سنسکریت» درست است و تنها معنای «سینه» نادرست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. peg-: '2. Possibly suffixed variant form *pek-so- in Sanskrit paksah, wing: PUNKA.' Watkins glosses the Sanskrit word 'wing' only, and marks the connection 'possibly'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 792 (POK_03 leaf 25)",
+              "stance": "partial",
+              "note": "'Ai. pákṣa- m. \"Schulter, Flugel\" und \"Seitenpfosten\", pákṣas- n. \"Seite\"' — shoulder/wing/side, not breast."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 ed. p.1272 s.v. punka (leaf 678)",
+              "stance": "partial",
+              "note": "'fr. OI. pakṣaḥ, pákṣas, \"wing, side, half\", which is possibly cogn. with Lett. paksis, \"corner of a house\", Russ. pach, \"flank\".' Klein too has no 'breast'."
+            },
+            {
+              "src": "WLD",
+              "where": "WP II 3-4",
+              "stance": "partial",
+              "note": "lists ai. pajasyá- 'Bauchgegend, Weichen' beside the pakṣa- family; gloss 'flank'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Hindustani",
+          "words": "pankâ",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "pankâ",
+          "correct_form": "pankhā",
+          "derivation": "The Hindustani word is पंखा / پنکھا paṅkhā 'fan', with an aspirated -kh-, not 'pankâ'. The printed page (pdf 385, image saved as data/verification/sources/refs/ocr/BOOK/385.png) does read 'pankâ', so this is Nourai's own misprint, not an extraction error: the JSON is faithful to the book. Klein, whom Nourai cites here, spells it 'pankha'. The history: Sanskrit pakṣá- 'wing' > pakṣaka- (with -ka- suffix) > Sauraseni Prakrit pakkha- > Hindi paṅkh 'feather, wing', whence paṅkhā 'fan' (the -kh- is the Middle Indo-Aryan reflex of -kṣ-, and the nasal is an anusvara developed before the cluster). Its basic sense is simply 'fan' (originally a palmyra-leaf hand fan); the 'curtain hung from the ceiling and pulled by a servant' that Nourai glosses is the Anglo-Indian specialisation of the word from the 17th c. on, not the Hindustani meaning.",
+          "derivation_fa": "صورت درست واژهٔ هندوستانی paṅkhā «بادبزن» است (با کاف دمیده -kh-)، نه «pankâ». تصویر صفحهٔ چاپی (pdf ۳۸۵) نشان می‌دهد که خودِ کتاب «pankâ» چاپ کرده است؛ پس این خطای چاپی نورایی است نه خطای خوانش اسکن. کلاین که نورایی به او ارجاع می‌دهد، «pankha» نوشته است. راه تحول چنین است: pakṣá- سنسکریت «بال» ← pakṣaka- (با پسوند -ka-) ← pakkha- در پراکریت شورسنی ← paṅkh هندی «پر، بال» و از آن paṅkhā «بادبزن»؛ خوشهٔ -kṣ- در هندوآریایی میانه به -kh- بدل می‌شود و پیش از آن غنّه (انوسوارَه) پدید می‌آید. معنای پایهٔ واژه همان «بادبزن» است؛ معنای «پردهٔ آویخته از سقف که خدمتکار می‌کشد» تخصیص انگلیسی‌ـ‌هندی واژه از سدهٔ هفدهم به بعد است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%82%E0%A4%96%E0%A4%BE",
+            "https://en.wiktionary.org/wiki/punkah"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1272",
+              "status": "partial",
+              "note": "Klein 1966 p.1272 (leaf 678): 'punka, punkah, n., a large curtain serving to fan a room. — Hind. pankha, \"a fan\", fr. pankh, \"feather, wing\", fr. OI. pakṣaḥ, pákṣas, \"wing, side, half\"...' — the derivation is Nourai's, but Klein spells the Hindi word pankha and glosses it 'a fan'."
+            },
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. peg- routes Sanskrit pakṣaḥ to English PUNKA, i.e. the same Sanskrit -> Hindustani -> English chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson p.742 s.v. PUNKAH",
+              "stance": "partial",
+              "note": "'PUNKAH, s. Hind. pankhā. a. In its original sense a portable fan, generally made from the leaf of the palmyra ... b. But the specific application in Anglo-Indian colloquial is to the large fixed and swinging fan, formed of cloth stretched on a rectangular frame, and suspended from the ceiling.' Confirms the aspirate and shows the 'curtain' sense is the Anglo-Indian one."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1622 (printed p.132)",
+              "stance": "supports",
+              "note": "'1622. Hind. pankha: \"Facher\"; hieraus angloind. engl. punkah \"Facher aus den Blattern der Facherpalme Borassus flabelliformis\"...'"
+            },
+            {
+              "src": "AID",
+              "where": "Whitworth, Anglo-Indian Dictionary",
+              "stance": "silent",
+              "note": "grep -i 'punkah|pankha' AID.txt returns no entry in the local OCR."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "pankeh",
+          "verdict": "confirmed",
+          "derivation": "New Persian پنکه pankeh / panke 'electric fan' is a modern (19th-20th c.) loan from Hindi-Urdu paṅkhā, taken over during the period of Indo-Persian contact and British India; Persian has no aspirated stops, so paṅkhā was rendered pank-, and the Indic final -ā was reshaped as the Persian final -e(h) spelt with silent ه, exactly as in other Indic loans. Mo'in tags the entry [هند.] 'Hindi'. Meaning 'fan' is right; the word only later came to mean 'electric fan'.",
+          "derivation_fa": "واژهٔ «پنکه» در فارسی نو وام‌واژه‌ای است از هندی‌ـ‌اردوی paṅkhā «بادبزن» که در دورهٔ نو (سدهٔ سیزدهم و چهاردهم هجری، همزمان با روابط ایران و هند بریتانیا) وارد فارسی شده است. چون فارسی واکهٔ دمیده (kh دمیده) ندارد، paṅkhā به pank- بدل شده و کشیدهٔ پایانی -ā به «ـه»ی پایانی فارسی (e) دگرگون شده است، همان‌گونه که در دیگر وام‌واژه‌های هندی. معین در فرهنگ خود این واژه را با نشان [هند.] آورده و «بادبزن برقی» معنی کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D9%86%DA%A9%D9%87",
+            "https://abadis.ir/fatofa/%D9%BE%D9%86%DA%A9%D9%87/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:824",
+              "status": "partial",
+              "note": "Mo'in's entry, read through abadis.ir (فرهنگ معین section): '(پَ کِ) [هند.] (اِ.) بادبزن برقی' — Mo'in expressly tags the word Hindi, which is Nourai's claim. The page number 824 could not be checked (Mo'in's lexicon volumes are not on disk with pagination), but it is consistent with the position of پنکه in the پ section."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir, فرهنگ معین s.v. پنکه",
+              "stance": "supports",
+              "note": "'(پَ کِ) [هند.] (اِ.) بادبزن برقی.' Also Farhang-e Amid: 'بادزن برقی'."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt",
+              "stance": "silent",
+              "note": "grep 'پنکه' in Aryanpur's IE-roots dictionary returns nothing — he treats only inherited vocabulary."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate'",
+              "stance": "silent",
+              "note": "grep 'پنکه' in BQT_v1_pages.txt / BQT_v2_pages.txt returns nothing; the word is later than Borhan (1062 AH)."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "punka",
+          "verdict": "confirmed",
+          "derivation": "English punkah (also punka) is an 18th-19th c. Anglo-Indian borrowing of Hindi paṅkhā. It is first recorded in Indian English contexts in the 17th c. (W. Finch 1610 'two Punkawes to gather wind', Bernier 1668 'their great Pankas, or Fans') and settles in the sense Nourai gives — the big cloth-on-frame fan slung from the ceiling and worked by a rope-pulling servant (the punkah-wallah) — during the Raj. The English spelling with -k- (no aspirate) reflects the usual anglicisation of Indic kh.",
+          "derivation_fa": "واژهٔ انگلیسی punkah/punka وام‌واژه‌ای انگلیسی‌ـ‌هندی از paṅkhā هندی است. نخستین کاربردهای آن در متون انگلیسیِ هند از سدهٔ هفدهم میلادی است (فینچ ۱۶۱۰، برنیه ۱۶۶۸) و در دورهٔ استعمار بریتانیا معنای ویژهٔ «بادبزن بزرگ پارچه‌ای آویخته از سقف که خدمتکار با ریسمان می‌کشد» یافته است. نبودِ «h» در املای انگلیسی، بازتاب عادیِ ساده‌شدن همخوان دمیدهٔ هندی در انگلیسی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/punkah"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1272",
+              "status": "supports",
+              "note": "Klein 1966 p.1272: 'punka, punkah, n., a large curtain serving to fan a room. — Hind. pankha...' — both the headword forms and the gloss are Nourai's, word for word."
+            },
+            {
+              "ref": "AHD:1060",
+              "status": "not_checked",
+              "note": "the 1975/76 AHD main dictionary is not open online; the Watkins appendix (on disk) lists PUNKA under peg-, which covers the same claim."
+            },
+            {
+              "ref": "FWE:233",
+              "status": "not_checked",
+              "note": "Bliss, A Dictionary of Foreign Words and Phrases in Current English (1966) is lending-only on archive.org; no copy on disk."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "Hobson-Jobson pp.742-743 s.v. PUNKAH",
+              "stance": "supports",
+              "note": "gives 'PUNKAH, s. Hind. pankhā' with the 1610, 1668, 1809 quotations for the ceiling fan."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 1622 (p.132)",
+              "stance": "supports",
+              "note": "'hieraus angloind. engl. punkah' — with the date 1622 in Lokotsch's English word-list ('punkah 1622')."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict.",
+              "stance": "silent",
+              "note": "grep '^PUNKAH' SKT.txt finds nothing; Skeat omits Anglo-Indian words of this class."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "pectus",
+          "verdict": "plausible",
+          "derivation": "Latin pectus, -oris n. 'chest, breast' (Ennius on) is correctly given. Its attachment to this root is the weak link: Pokorny 792 and Watkins put it here as a suffixed *pek-tos-, comparing Skt. pakṣas- 'side' and Toch. B pāścane 'the two breasts', but the *-k-/*-g- alternation is irregular and de Vaan (via Wiktionary) calls the PIE precursor uncertain, preferring a comparison with Old Irish ucht 'breast'. So the word and the gloss are right; the arrow from *peg- is one of several competing suggestions (*pekt-, *pek-, *peg-).",
+          "derivation_fa": "واژهٔ لاتین pectus (اضافی pectoris) «سینه» از قدیمی‌ترین متون لاتین (انیوس) گواهی شده و معنای داده‌شده درست است. حلقهٔ سست، خودِ پیوند آن با ریشهٔ *peg- است: پوکورنی (ص ۷۹۲) و واتکینز آن را صورت پسوندی *pek-tos- می‌دانند و با pakṣas- سنسکریت «پهلو» و pāścane تخاری «دو پستان» می‌سنجند، ولی جانشینی *g/*k در این ریشه بی‌قاعده است و دِ ڤان (به نقل ویکی‌واژه) ریشهٔ هندواروپایی آن را نامعلوم می‌داند و همسنجی با ucht ایرلندی کهن «سینه» را ترجیح می‌دهد. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/pectus"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. peg-: '1. Suffixed variant form *pek-tos- in Latin pectus, breast: PECTORAL; EXPECTORATE, PARAPET.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 792",
+              "stance": "supports",
+              "note": "'lat. pectus \"Brust\"' stands in the same entry, between ai. pákṣas- 'Seite' and toch. B päścane 'die beiden Bruste'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet, s.v. tergum (cross-reference)",
+              "stance": "silent",
+              "note": "grep '^pectus' in LAT.txt/LEW_1910.txt finds no headword block in the local OCR (only the cross-reference under tergus: 'Tergus, -oris, plus recent, est fait d'apres pectus'); Ernout-Meillet's own pectus entry is not in the scanned range."
+            },
+            {
+              "src": "KLN",
+              "where": "1966 s.v. pectoral",
+              "stance": "supports",
+              "note": "Klein takes pectoral from L. pectus, gen. pectoris, 'breast' (p.1146 area, leaf 615)."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "pectoral",
+          "verdict": "confirmed",
+          "derivation": "English pectoral is a learned borrowing (15th c.) of Latin pectorālis 'of the breast', adjective in -ālis to the oblique stem pector- of pectus; it entered English partly through Old French pectoral. The noun sense Klein records — 'something worn on the breast, specif. the breast-plate of the Jewish high priest' — is the Vulgate's pectorale. The chart leaves the gloss blank; the arrow Latin -> English is uncontroversial.",
+          "derivation_fa": "واژهٔ انگلیسی pectoral وام‌واژه‌ای دانشورانه از سدهٔ پانزدهم میلادی است: از لاتین pectorālis «مربوط به سینه»، صفتی با پسوند -ālis بر ستاک غیرفاعلی pector- از pectus، که تا اندازه‌ای از راه فرانسهٔ کهن pectoral به انگلیسی رسیده است. معنای اسمیِ آن نزد کلاین «چیزی که بر سینه می‌آویزند، به‌ویژه سینه‌بندِ کاهن بزرگ یهود» بازتاب pectorale در ترجمهٔ ولگات است. این حلقه (لاتین ← انگلیسی) بی‌مناقشه است و ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/pectus"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. peg-: Latin pectus yields 'PECTORAL; EXPECTORATE, PARAPET'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. pectoral (line 27810 of KLN_1966.txt)",
+              "stance": "supports",
+              "note": "'pectoral, n., something worn on the breast; specif. the breast plate of the Jewish high priest.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat",
+              "stance": "silent",
+              "note": "no '^PECTORAL' headword in the local Skeat OCR."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Peî",
+      "verdict": "confirmed",
+      "modern_form": "PIE *peyH- / *peyh₂- (Pokorny pei(ə)-, pī-) 'to be fat, swell (with milk); sap, fat'",
+      "note": "Pokorny 793 has exactly this root: 'pei(ə)-, pī- \"fett sein, strotzen\"; pei-tu-, poi-tu-, pī-tu- \"Fett, Saft, Trank\", pi-k- \"Pech\", pī-mo- \"fett\", pī-u-er-/-en- \"Fett, fett\", poi-uā \"(fette) Wiese\"; poi-men- \"Muttermilch\", pi-pi-us-ī \"Milch habend\".' Watkins prints 'peiə-. Also pei-. To be fat, swell. [Pok. pei(ə)- 793.]' Wiktionary's laryngealist form is *peyh₂- 'to swell (with milk); to be swollen, fat'. Nourai's page number, language label and gloss 'sap, fat' are all right. Remarkably, Pokorny's own entry on this page names two of the Persian words of the chart: 'av. payah- n. \"Milch\", av. paēman- n. \"Muttermilch\"; np. pīnū \"saure Milch, frischer Kase\"'. The one branch that is not Pokorny's is angubīn (node 7-9), and the *fra-/duš- compounds are Iranian-internal, not PIE.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *peyH- / *peyh₂- «چاق بودن، آماسیدن (از شیر)؛ شیره، پیه» — پوکورنی در صفحهٔ ۷۹۳ دقیقاً همین سرواژه را با صورت pei(ə)-, pī- «fett sein, strotzen» آورده و گونه‌های آن را نیز برشمرده است: *pī-tu- «پیه، شیره، نوشیدنی»، *pī-mo- «چرب»، *poi-men- «شیر مادر». واتکینز نیز «peiə-. To be fat, swell» نوشته و ویکی‌واژه صورت حنجره‌ای *peyh₂- را می‌آورد. شمارهٔ صفحه، برچسب زبانی و معنای «شیره، پیه» در نمودار نورایی هر سه درست است. نکتهٔ درخور توجه آنکه خودِ پوکورنی در همان صفحه payah- و paēman- اوستایی و «پینو»ی فارسی را در ذیل این ریشه آورده است. تنها شاخه‌ای که در پوکورنی نیست شاخهٔ «انگبین» است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-Iranian/p%C3%A1yHas"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:793",
+          "status": "supports",
+          "note": "IEW p.793 (POK_03.txt leaf 26): 'pei(ə)-, pī- \"fett sein, strotzen\" ... ai. páyas- n. \"Saft, Wasser, Milch\", av. payah- n. \"Milch\", av. paēman- n. \"Muttermilch\" (: ags. fǣmne); np. pīnū \"saure Milch, frischer Kase\" (: lit. pienas \"Milch\") ... WP. II 73 ff.' Exactly Nourai's root and page."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. peiə- (line 823)",
+          "stance": "supports",
+          "note": "'peiə-. Also pei-. To be fat, swell. 1. Extended o-grade form *poid- in Germanic *faitaz ... 3. Possibly suffixed zero-grade form *pi-nu- in Latin pinus, pine tree (yielding a resin): PINE. ... [Pok. pei()- 793.]'"
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 73-75 (WLD_Bd2_pages.txt leaves 77-79)",
+          "stance": "supports",
+          "note": "the full entry, incl. '*pīmo-s \"fett\" in gr. πῑμελή \"Fett\", lat. opīmus', '*pīuos- und *pīu-er-/-en- \"Fett, fett\": ai. pīvas- n., av. pīvah- n. \"Fett, Speck\"' and 'ai. pitú-ḥ m., av. pitú-š m. \"Saft, Trank, Nahrung, Speise\"'."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. pit- (1) 'food'",
+          "stance": "supports",
+          "note": "'pit- (1) \"food\": Skt. pituh, m. id.; Av. pitus, m. id.; Oss. fid \"meat\"; OIr. ith \"fat\"; OCS pista \"food\"; Li. pietus \"food\"; ON cf. (?) fita, f. \"fat\".'"
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 5.83 CHEESE / 5.89 BUTTER",
+          "stance": "silent",
+          "note": "Buck's cheese section lists Av. fšuta-, tūiri- but no Persian panīr and no discussion of this root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "pitu, pithwa; fra-pithwa; duš-pithwa",
+          "verdict": "plausible",
+          "derivation": "Av. pitu- (nom. pitu-š) m. 'food, victuals, esp. meat dish' is well attested (Y. 9.11) and is the exact cognate of Skt. pitú- 'juice, drink, nourishment', from PIE *pih₂-tu-. The stem piθwa- is its thematic by-form 'meal', seen in the attested compounds bi-piθwa- 'having two meals', θri-piθwa- 'having three meals', tarō.piθwa- 'ill-fed, lacking food' and rapiθwā- 'midday (meal-time)'. fra-piθwa- is likewise attested, but Bartholomae (col. 984) glosses it 'in Fulle, reichlich vorhanden, copiosus' (Vd. 2), i.e. 'abundant', not 'fat'; Horn no. 813 renders it 'gut genahrt, gedeihend' — the 'fat' sense belongs to the Persian descendant, not to the Avestan word. duš-piθwa- 'bad fat, abscess', by contrast, is NOT in Bartholomae at all; the attested privative compound of this stem is tarō.piθwa-. Nourai's duš-piθwa- is a back-projection of New Persian دژپیه; the gloss 'fat' on the node as a whole is therefore an over-reading.",
+          "derivation_fa": "در اوستا pitu- (فاعلی pitu-š) «خوراک، توشه، به‌ویژه خوراک گوشتی» به‌روشنی گواهی شده (یسنا ۹٫۱۱) و هم‌ریشهٔ دقیق pitú- سنسکریت «شیره، نوشابه، خوراک» و بازماندهٔ *pih₂-tu- هندواروپایی است. ستاک piθwa- گونهٔ ستاک‌داری همان واژه به معنی «وعدهٔ غذا» است و در ترکیب‌های گواهی‌شدهٔ bi-piθwa- «دارای دو وعده»، θri-piθwa- «دارای سه وعده»، tarō.piθwa- «کم‌خوراک» و rapiθwā- «نیم‌روز» دیده می‌شود. fra-piθwa- نیز گواهی شده، اما بارتولومه (ستون ۹۸۴) آن را «فراوان، بسیار، copiosus» و هرن (بند ۸۱۳) «خوب‌پرورده، بالنده» معنی می‌کند؛ معنای «چاق» از آنِ بازماندهٔ فارسی است نه واژهٔ اوستایی. اما duš-piθwa- در فرهنگ بارتولومه هیچ‌گاه نیامده است و بازسازیِ واپس‌نگرِ نورایی از «دژپیهِ» فارسی نو است. پس این گره با احتیاط پذیرفتنی است و معنای «پیه» برای واژهٔ اوستایی نادرست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-",
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A8%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:81",
+              "status": "supports",
+              "note": "Horn, Grundriss p.81 no.365 (HRN.txt leaf 102): 'pīh \"Talg, Fett\" ... ap. *piθu-; aw. pitu- \"Speise\"; phlv. pīh bezw. pih; ai. pitú-. Vergl. np. ferbih (No. 813). aw. pīvah- \"Fett\"' — exactly Nourai's Avestan pitu- and the link to pīh."
+            },
+            {
+              "ref": "HRN:181",
+              "status": "partial",
+              "note": "Horn p.181 no.813 (leaf 202): 'ferbih, ferbeh, ferbī \"fett\". Vergl. np. pīh (No. 365). aw. frapiθwa- \"Vorzug, first-rate\" (Geldner); phlv. frapīh bezw. farpīh; ai. prapitvá-.' Supports fra-piθwa- > farbeh, but glosses the Avestan word 'first-rate', not 'fat'; and Horn says nothing about duš-piθwa-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW cols. 826 (pitav-), 984 (fra-piθwa-), 731 (dāityō.piθwa-), 1300 (tarō.piθwa-)",
+              "stance": "partial",
+              "note": "'j. pitav- m. \"Speise\", insbes. feste, \"Fleischspeise\": yim ... pitūm pacata' ; 'j. fra-piθwa- Adj. \"in Fulle, reichlich vorhanden, copiosus\"' ; 'j. bi-piθwa- Adj. \"der zwei Mahlzeiten bekommt\"'. A grep of BRT.txt for du(š)/duz + piθwa returns nothing: duš-piθwa- is unattested."
+            },
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian lexicon",
+              "stance": "silent",
+              "note": "grep 'pitu' / 'piθu' in KNT.txt gives no Old Persian entry; Horn's *pi(θ)u- is a reconstruction."
+            },
+            {
+              "src": "HUB",
+              "where": "Hubschmann, Persische Studien §813 (HUB.txt line 2960, 7220)",
+              "stance": "supports",
+              "note": "'Gegensatz von zd. frapiθwa- \"gut genahrt, gedeihend\" = np. farbih \"pinguis, robustus, florens, copiosus\" ist zd. tarō.piθwa- Vd. 13, 20 = \"schlecht genahrt\". Np. farbī ... = phl. frapīh = zd. *fra-piθwa-?' — note Hubschmann's question mark."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "pîh; fra-pîh",
+          "verdict": "confirmed",
+          "derivation": "MacKenzie's Concise Pahlavi Dictionary has both words verbatim: 'pīh [TLBA = A trb; pyh | N ~] fat, tallow' (p.68, the Aramaic heterogram TLBA standing for Semitic trb 'fat'), and 'frabih [plpyh | (P frbyw), N farbih] fat, stout' (p.32) — where the Book-Pahlavi spelling plpyh is literally fra-pīh, Nourai's form. Phonetically Old Iranian *pitu- gave MP pīh by the regular loss of intervocalic -t- and its replacement by -h- after a long vowel (*pitu > *piθu > pīh), and *fra-piθwa- gave frabīh with fra- > far- and the voicing of the p after r; Manichaean Parthian has frbyw (Henning, BSOS IX 1, p.82). Nourai's chart is exactly MacKenzie's data.",
+          "derivation_fa": "هر دو صورت در فرهنگ کوچک پهلوی مکنزی آمده است: «pīh [TLBA؛ pyh] چربی، پیه» (ص ۶۸؛ هزوارش TLBA همان trb سامی «پیه» است) و «frabih [plpyh؛ فارسی نو farbih] چاق، فربه» (ص ۳۲) که املای پهلویِ plpyh دقیقاً همان fra-pīh نورایی است. از دید آوایی، *pitu- ایرانی باستان با سایش و افتادن -t- میان‌واکه‌ای و پیدایش -h- پس از واکهٔ بلند به pīh فارسی میانه رسیده (*pitu > *piθu > pīh) و *fra-piθwa- به frabīh بدل شده که در آن fra- به far- و «پ» پس از «ر» به «ب» نرم شده است؛ در پارتی مانوی frbyw ثبت شده است (هنینگ). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%D9%87",
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A8%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1450",
+              "status": "supports",
+              "note": "Borhan-e Qate' printed p.1450 = vol.3 pdf p.243 (BQT_v3_pages.txt leaf 242), the page carrying فربود/فربه; Mo'in's footnote 4 there reads 'فربی = ... اوستا frapithwa؟ ... = frapīh ... فی پازند padh = pih ... در اوراق مانوی به پارتی frhyw (Henning, A list of Middle Persian..., BSOS IX, 1, p.82)' — i.e. exactly Nourai's Av. fra-piθwa- > Pahl. frapīh chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 pp. 32 and 68",
+              "stance": "supports",
+              "note": "'frabih [plpyh | (P frbyw), N farbih] fat, stout.' and 'pīh [TLBA = A trb; pyh | N ~] fat, tallow.' (also 'pih [pyhw'] food, victuals', the direct continuation of Av. pitu- 'food')."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (glossary)",
+              "stance": "partial",
+              "note": "Nyberg has no pīh entry in the local OCR, but does give 'pēm [pym] milk 423.13.25 ... Av. (817) paēman-; Paz. pīm', showing the same root family in Pahlavi."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss no.365 / no.813",
+              "stance": "supports",
+              "note": "'phlv. pīh bezw. pih' and 'phlv. frapīh bezw. farpīh'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "pîh; farbeh",
+          "verdict": "confirmed",
+          "derivation": "NP پیه pīh 'fat, tallow' continues MP pīh unchanged; its alternative spelling په peh (the chart's 'په ۱' footnote) and پی pi are late shortenings. NP فربه farbeh / farbih 'fat, corpulent; copious' continues MP frabīh: Old Iranian *fra-piθwa- 'abundantly provided, well-fed' > MP frabīh > NP farbeh, with the usual Middle-to-New Persian anaptyxis fra- > far- and the raising of the final -īh to -eh in modern Iranian pronunciation (Dari and the classical reading keep farbih). Wiktionary reconstructs exactly Nourai's chain: MP plpyh /frabīh/ < Old Persian *frapīδwa- < Proto-Iranian *fra- + *piHtú, 'by surface analysis فرـ (far-) + پیه (pih)'. Both words and both glosses are right.",
+          "derivation_fa": "«پیه» در فارسی نو دنبالهٔ بی‌تغییر pīh فارسی میانه است؛ گونه‌های «په» (همان زیرنویس ۱ در نمودار) و «پی» کوتاه‌شدهٔ متأخر آن‌اند. «فربه/فربی» نیز دنبالهٔ frabīh فارسی میانه است: از ایرانی باستان *fra-piθwa- «برخوردار، خوب‌پرورده» ← frabīh پهلوی ← «فربه» فارسی نو، با پیدایش واکهٔ میانجی در fra- > far- و بدل شدن -īh پایانی به -eh در تلفظ ایرانیِ امروز (در فارسی دری و خوانش کلاسیک هنوز farbih است). ویکی‌واژه همین زنجیره را می‌آورد: فارسی میانه frabīh ← پارسی باستان *frapīδwa- ← ایرانی آغازین *fra- + *piHtú، و از دید تجزیهٔ سطحی «فرـ + پیه». هر دو واژه و هر دو معنا درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%D9%87",
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A8%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1450",
+              "status": "supports",
+              "note": "Borhan p.1450 (v3 leaf 242) carries the headword فربه ('بمعنی فربه باشد که در مقابل لاغر است') with Mo'in's etymological footnote deriving فربی from Av. *frapiθwa- via Pahl. frapīh, and comparing Sariqoli farbé, Manichaean Parthian frbyw."
+            },
+            {
+              "ref": "MON:844",
+              "status": "partial",
+              "note": "Mo'in's entries themselves support the words, but the page number looks wrong: Nourai cites MON:824 for پنکه and MON:969 for پینو, and in Mo'in's strict alphabetical order پیه follows پینو, so it must stand at c. p.970+, not 844. Probably a slip in the book (the printed page does read MON:844)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Grundriss nos. 365 and 813",
+              "stance": "supports",
+              "note": "'365. pīh \"Talg, Fett\" ... Vergl. np. ferbih (No. 813)' and '813. ferbih, ferbeh, ferbī (d.i. *ferbihi) \"fett\". Vergl. np. pīh (No. 365).'"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien §813",
+              "stance": "supports",
+              "note": "'np. farbih \"pinguis, robustus, florens, copiosus\" ... = phl. frapīh = zd. *fra-piθwa-?' — note also Hubschmann's remark that Judaeo-Persian farbī goes back to an OP *fra-pitu-."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-ha, s.v. پیه (ARY_pages.txt leaf 184, pdf p.185)",
+              "stance": "supports",
+              "note": "the entry پیه lists 'اوستایی pitu-/piθwa-, پارسی باستان *pitu-, پهلوی pīh, اوستی, کردی, بلوچی, سانسکریت pitu/pīvas, یونانی, لاتین' and English FAT / Old English FÆTT in the same family — an independent modern confirmation of the whole branch."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "došpîh",
+          "verdict": "plausible",
+          "derivation": "The word is real: Borhan-e Qate' (vol. 2, the 'باب دال با زای فارسی' section) has دژپیه, defined as 'گره‌پایی ... که در میان گوشت و پوست آدمی و حیوانات دیگر می‌باشد، و معرب آن غدود است' — a lump between flesh and skin, Arabic ghudūd 'gland'; Mo'in glosses it 'غده‌های زیرپوستی' (subcutaneous glands) and Wiktionary 'tumour, ganglion'. So Nourai's gloss 'abscess' is a shade off — it is a gland/nodule, not a suppuration. Morphologically it is transparently a NEW PERSIAN compound دژ dož- (< OIr. duš- 'bad, ill-') + پیه pih 'fat', of the same type as دژخیم, دژآگاه, and Borhan's own variants دشپل/دشپیل; the arrow should therefore start from the Persian pīh of node 3, not from an Avestan *duš-piθwa-, which is nowhere attested (Bartholomae has only tarō.piθwa- 'ill-fed'). The etymon is right, the route is drawn one step too early.",
+          "derivation_fa": "خودِ واژه واقعی است: برهان قاطع (جلد دوم، «باب دال بی‌نقطه با زای فارسی») مدخل «دژپیه» را چنین تعریف می‌کند: «گره‌پایی ... که در میان گوشت و پوست آدمی و حیوانات دیگر می‌باشد، و معرّب آن غُدود است»؛ معین نیز «غده‌های زیرپوستی» معنی کرده و ویکی‌واژه «غده، ورم». پس معنای «آبسه/دُمَل» که نورایی داده اندکی نادرست است. از دید ساخت‌واژه، «دژپیه» ترکیبی است روشن و متعلق به فارسی نو: «دژ» (از *duš- ایرانی باستان «بد») + «پیه»، از همان گونهٔ «دژخیم» و «دژآگاه»، و برهان گونه‌های «دشپل/دشپیل» را نیز آورده است. بنابراین پیکان باید از «پیه»ی فارسی (گرهٔ ۳) بیرون بیاید نه از *duš-piθwa- اوستایی که هیچ گواهی ندارد (بارتولومه تنها tarō.piθwa- «کم‌خوراک» را ثبت کرده است). ریشه درست است، ولی مسیر یک پله زودتر رسم شده.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%AF%DA%98%D9%BE%DB%8C%D9%87/",
+            "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:852",
+              "status": "supports",
+              "note": "found in BQT_v2_pages.txt leaf 312 (printed p. c.852-855; leaf 311 opens 'بیان هشتم: در دال بی‌نقطه با زای فارسی مشتمل بر سی و هفت لغت'): 'دژپیه ... گره‌پایی را گویند که در میان گوشت و پوست آدمی و حیوانات دیگر می‌باشد، و معرّب آن غدود است؛ و به فتح اول نیز گفته‌اند.'"
+            },
+            {
+              "ref": "MON:1523",
+              "status": "partial",
+              "note": "Mo'in's entry, read through abadis.ir (فرهنگ معین): '( ~. یِ ) (اِمر.) غده‌های زیرپوستی' — note the tag اِمر = اسم مرکب, i.e. Mo'in analyses it as a Persian COMPOUND, not an inherited word. Page 1523 could not be checked against a paginated copy."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan v2 leaf 312",
+              "stance": "supports",
+              "note": "see the quotation above; the same page also has دژپه as a by-form."
+            },
+            {
+              "src": "MON",
+              "where": "abadis.ir, فرهنگ معین / فرهنگ عمید s.v. دژپیه",
+              "stance": "partial",
+              "note": "Mo'in 'غده‌های زیرپوستی'; Amid 'غدهٔ سفت و سختی که زیر پوست بدن پیدا شود، دشپل، دشپیل' — gland, not abscess."
+            },
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW",
+              "stance": "contradicts",
+              "note": "no duš-piθwa- entry exists; the attested negative compound is 'j. tarō.piθwa- Adj. \"der ungenugende Nahrung hat, Mangel an Nahrung leidet\"' (V. 13.20)."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971",
+              "stance": "silent",
+              "note": "no MP *duš-pīh; grep 'dušpīh|dwšpyh' in PHD.txt finds nothing."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Avestan",
+          "words": "payah; paěman",
+          "verdict": "confirmed",
+          "derivation": "Both are genuine Avestan neuters and both are quoted by Pokorny on the very page Nourai cites. Av. payah- n. 'milk' (Y. 7.77, V. 5.52, N. 57) continues PIE *péyh₂-os ~ *peyh₂-es-os via Proto-Indo-Iranian *páyHas, the exact match of Skt. páyas- 'juice, water, milk' — an s-stem (Avestan -ah- < *-as-) to the verb pay- 'to swell, be full'. Av. paēman- n. 'mother's milk' (Y. 68.2, Yt. 5) is a men-stem *poyh₂-men- to the same verb, matched by Lith. pienas 'milk' and OE fǣmne 'young woman'. Bartholomae (col. 817-818) gives both; his paēman- is listed twice, as a neuter 'Muttermilch' and as a feminine adjective 'nursing'.",
+          "derivation_fa": "هر دو واژه اوستایی و خنثی‌اند و پوکورنی در همان صفحهٔ ۷۹۳ که نورایی به آن ارجاع می‌دهد هر دو را آورده است. payah- «شیر» (یسنا ۷٫۷۷، وندیداد ۵٫۵۲) بازماندهٔ *péyh₂-os هندواروپایی از راه *páyHas هندوایرانی است و برابر دقیق páyas- سنسکریت «شیره، آب، شیر»؛ ستاکی است سین‌دار (-ah- اوستایی از *-as-) بر پایهٔ فعل pay- «آماسیدن، پر شدن». paēman- «شیر مادر» نیز ستاکی است با پسوند -men- (*poyh₂-men-) از همان فعل، هم‌ریشه با pienas لیتوانیایی «شیر» و fǣmne انگلیسی کهن. بارتولومه (ستون ۸۱۷–۸۱۸) هر دو را ثبت کرده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-Iranian/p%C3%A1yHas"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:793",
+              "status": "supports",
+              "note": "IEW 793: 'ai. páyas- n. \"Saft, Wasser, Milch\", av. payah- n. \"Milch\", av. paēman- n. \"Muttermilch\" (: ags. fǣmne)' — the node is copied straight out of this line."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW cols. 817-818",
+              "stance": "supports",
+              "note": "'j. payah- n. \"Milch\", auch Plur.' (with Y. 7.77, N. 57) and 'j. paēman- n. \"Muttermilch\": ... daitīm raθwīm paēma ava.daraiti Y. 68.2'; also aspya-payah- 'Pferdemilch' and frā.uruzda-payah-."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II s.v. pēm",
+              "stance": "supports",
+              "note": "'pēm [pym] milk 423.13.25, 431, 533, 543.11. — Av. (817) paēman-; Paz. pīm' — Nyberg cites Bartholomae col. 817, confirming the column."
+            },
+            {
+              "src": "WLD",
+              "where": "WP II 74",
+              "stance": "supports",
+              "note": "'ags. fǣmne \"Jungfrau, junge Frau\", as. femea \"schwangere Frau\", aisl. feima \"Madchen\" (: av. paēman- \"Muttermilch\", J. Schmidt Krit. 104 f.)'."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "pînŭ; panîr",
+          "verdict": "plausible",
+          "derivation": "پینو pīnū 'dried sour whey, kashk, qara-qurut' is confirmed in the strongest possible way: Pokorny prints 'np. pīnū \"saure Milch, frischer Kase\" (: lit. pienas \"Milch\")' in the *pei(ə)- entry itself; it is a derivative in -nu- of the same *poyh₂-n- 'milk' stem as Av. paēman- and Lith. pienas. Mo'in glosses it 'کشک، قره‌قروت' and cites the identical Naser-Khosrow line that Nourai quotes. پنیر panīr 'cheese' is a different matter: it continues MP panīr (MacKenzie p.65 'panir [pnyl | N ~] cheese'), and the connection to *payah-/*payHa- is probable but not demonstrated — Wiktionary derives NP panīr from MP panīr and stops there, and Aryanpur, listing panīr in this root's entry, hedges it as 'به احتمال زیاد ... نیز از همین ریشه است' ('very probably also from this root'). Formally one has to assume *pay-nīra-/*panīra- with the same -n- extension. Hence: pīnū confirmed, panīr probable — node verdict plausible.",
+          "derivation_fa": "«پینو» به استوارترین شکل تأیید می‌شود: پوکورنی در همان مدخل *pei(ə)- می‌نویسد «np. pīnū \"شیر ترش، پنیر تازه\" (: lit. pienas \"شیر\")»؛ این واژه مشتقی است با -nu- از همان ستاک *poyh₂-n- «شیر» که paēman- اوستایی و pienas لیتوانیایی نیز از آن‌اند. معین آن را «کشک، قره‌قروت» معنی کرده و همان بیت ناصرخسرو را شاهد آورده که نورایی نقل کرده است. اما «پنیر» حکایت دیگری دارد: دنبالهٔ panīr فارسی میانه است (مکنزی ص ۶۵) و پیوند آن با *payah-/*payHa- محتمل است ولی اثبات نشده؛ ویکی‌واژه تنها تا فارسی میانه پیش می‌رود و آریان‌پور نیز آن را با قید احتیاط «به احتمال زیاد ... از همین ریشه» می‌آورد. از دید ساختواژی باید *pay-nīra-/*panīra- با همان افزودهٔ -n- را فرض کرد. پس: «پینو» قطعی و «پنیر» محتمل — داوری این گره «با احتیاط پذیرفتنی».",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%BE%DB%8C%D9%86%D9%88/",
+            "https://en.wiktionary.org/wiki/%D9%BE%D9%86%DB%8C%D8%B1",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:969",
+              "status": "supports",
+              "note": "Mo'in's پینو entry, read via abadis.ir: '(پِ) (اِ.) کشک، قره قروت' with the Naser-Khosrow line 'نیکی بگزین و بد بنادان ده / روغن بخر و جدا کن از پینو' — the very verse the chart quotes. The page number 969 is independently corroborated: Aryanpur's پینو entry cites 'فرهنگ معین: ۹۶۹'."
+            },
+            {
+              "ref": "BQT:449",
+              "status": "supports",
+              "note": "found at BQT_v1_pages.txt leaf 675 (printed c. p.447-455), the پینو/پیه stretch: 'پینو، با واو بر وزن گیسو ...' with a کشک/قروت definition; Aryanpur's پینو entry cites 'برهان قاطع ۳۴۹/۴۴۹' for the same word."
+            },
+            {
+              "ref": "SNS:141",
+              "status": "not_found",
+              "note": "greps of SNS.txt / SNS_pages.txt for panir, pēm, pīh return nothing relevant (only 'pihan/pihn 123/18' and 'spihr'); the Shayast ne Shayast glossary page 141 could not be located because its page offset is undetermined."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 793",
+              "stance": "supports",
+              "note": "'np. pīnū \"saure Milch, frischer Kase\" (: lit. pienas \"Milch\")' — Pokorny names the Persian word itself."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 p.65",
+              "stance": "supports",
+              "note": "'panir [pnyl | N ~] cheese' — the Middle Persian antecedent of پنیر."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, s.v. پینو/پینوک (ARY_pages.txt leaf 183, pdf p.184)",
+              "stance": "supports",
+              "note": "the entry gives Avestan pay-, Sanskrit pipyuṣī, Lithuanian 'milk' etc. and adds the footnote 'به احتمال زیاد واژهٔ \"پنیر\" (پهلوی panīr، کردی penîr) نیز از همین ریشه است', citing برهان قاطع and فرهنگ معین ۹۶۹."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 5.83 CHEESE",
+              "stance": "silent",
+              "note": "Buck's cheese article has no Persian panīr and derives no Iranian word here."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Avestan",
+          "words": "angu-paěna",
+          "verdict": "plausible",
+          "derivation": "The second element is real: Bartholomae (col. 817) has 'j. paēnaēna- Adj. \"aus Honig bestehend, bereitet\"' (N. 57) and derives it from an 'Ableit. aus *paēna- m. \"Honig\"', adding 'mp. angu-βīn, np. angubīn \"Bienenhonig\"'. But *paēna- itself is starred, and the COMPOUND angu-paēna- is not an Avestan word: it is the Proto-Iranian preform *angu-paina- that Gharib reconstructs for Sogdian 'nkwpyn angupēn 'honey' (entry 1066, printed p.42 — Nourai's SOD:42, where Gharib writes '<*angupaina-; Av. paēna'). Nourai has copied Gharib's reconstruction and labelled it 'Avestan'. Note also that Bartholomae is expressly sceptical about attaching *paēna- to this root: 'Ob zu lit. pienas \"Milch\"? ... Die Bedeutung \"Milch\" ist fur *paēna- nicht wahrscheinlich, obwohl sich ja np. angubīn allenfalls als \"Bienenmilch\" fassen liesse.' Wiktionary reconstructs the whole word as Proto-Iranian *Hangubáynah and relates it not to 'milk' but to angom 'resin'. So: the etymon is defensible, the language label and the root affiliation are not secure.",
+          "derivation_fa": "جزء دوم واقعی است: بارتولومه (ستون ۸۱۷) صفتِ اوستایی paēnaēna- «از عسل، عسلی» را ثبت کرده و آن را مشتق از *paēna- m. «عسل» می‌داند و می‌افزاید «فارسی میانه angu-βīn، فارسی نو angubīn \"عسل زنبور\"». اما خودِ *paēna- بازسازی‌شده (ستاره‌دار) است و ترکیب angu-paēna- هیچ‌گاه در اوستا نیامده: این صورت، بازسازیِ ایرانی آغازینِ *angu-paina- است که قریب برای واژهٔ سغدی 'nkwpyn (angupēn «عسل»، مدخل ۱۰۶۶، ص ۴۲ — همان SOD:42 نورایی) پیشنهاد کرده و همان‌جا نوشته است «<*angupaina-; Av. paēna». نورایی این بازسازی را برداشته و برچسب «اوستایی» بر آن زده است. افزون بر این، بارتولومه در پیوند *paēna- با همین ریشه به‌صراحت تردید می‌کند و معنای «شیر» را برای آن نامحتمل می‌داند؛ ویکی‌واژه نیز کل واژه را *Hangubáynah ایرانی آغازین بازسازی می‌کند و آن را نه با «شیر» بلکه با «انگم» (صمغ) مربوط می‌داند. پس ریشه‌یابی دفاع‌پذیر است اما برچسب زبانی و انتساب به این ریشه استوار نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%86%DA%AF%D8%A8%DB%8C%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:42",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary printed p.42 (SOD_pages.txt leaf 107), entry 1066: \"'nkwpyn B, S — angupēn ('ngwpyn) <*angupaina-; Av. paēna — honey — TSP 19.7, 16 n p232; BSTBL, Padm. 40; KG 368\". Exactly Nourai's *angu-paēna, though as a Proto-Iranian reconstruction, not an Avestan attestation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW col. 817 s.v. paēnaēna-",
+              "stance": "partial",
+              "note": "'j. paēnaēna- Adj. (fem. -nī-) \"aus Honig bestehend, bereitet\" ... Ableit. aus *paēna- m. \"Honig\"; mp. angu-βīn, np. angubīn \"Bienenhonig\". — Ob zu lit. pienas \"Milch\"? ... Die Bedeutung \"Milch\" ist fur *paēna- nicht wahrscheinlich.'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW 793",
+              "stance": "silent",
+              "note": "Pokorny's *pei(ə)- entry does not mention angubīn or *paēna- at all."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 p.11",
+              "stance": "partial",
+              "note": "'angubēn [DWBSYA < A dbš; 'ngpyn' | N angubin] honey' — the Middle Persian form, but MacKenzie gives no Avestan etymon."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Pahlavi",
+          "words": "angubin",
+          "verdict": "confirmed",
+          "derivation": "MacKenzie p.11: 'angubēn [DWBSYA < A dbš; ʾngpyn' | N angubin] honey' — the Book-Pahlavi spelling ʾngpyn is *angu-pēn, with the Aramaic heterogram DWBŠYA (Semitic dbš 'honey') beside it; the compound also survives in the standing phrase magas ī angubēn 'honey-bee'. The form goes back to *angu-paina- with the regular lenition of intervocalic -p- to -b- in Middle Persian and the monophthongisation of *ai to ē (*angupaina- > angubēn); the first element angu- is the same as in angom 'resin, gum'. Nourai spells the node 'angubin', which is really the New Persian reading of the Pahlavi spelling, but the form is right.",
+          "derivation_fa": "مکنزی (ص ۱۱): «angubēn [هزوارش DWBSYA از dbš سامی؛ املای پهلوی 'ngpyn؛ فارسی نو angubin] عسل»؛ همین ترکیب در عبارتِ ثابتِ magas ī angubēn «زنبور عسل» نیز به‌کار رفته است. این صورت از *angu-paina- بازمی‌گردد: «پ» میان‌واکه‌ای در فارسی میانه به «ب» نرم شده و دوواکهٔ *ai به ē تک‌واکه شده است (*angupaina- > angubēn)؛ جزء نخست همان angu- در «انگم» (صمغ) است. نورایی صورت را «angubin» نوشته که در واقع خوانش فارسی نوِ املای پهلوی است، ولی صورت درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%86%DA%AF%D8%A8%DB%8C%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:174",
+              "status": "partial",
+              "note": "Borhan-e Qate' printed p.174 = BQT_v1_pages.txt leaf 392 (identified by the footnote 'بقیه از صفحهٔ ۱۷۳' at the foot of that leaf): the headword انگبین is there, glossed 'عسل و شهد را گویند'. Mo'in's etymological footnote on that page is too degraded in the OCR to read, and the page is outside the scan range served by tools/ref_page.py ('no scan of BQT covers printed page 174'), so the Pahlavi form itself could not be read off Borhan; MacKenzie supplies it instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 p.11 (and p.23, magas ī angubēn)",
+              "stance": "supports",
+              "note": "'angubēn [DWBSYA < A dbš; \\'ngpyn\\' | N angubin] honey'; 'magas i angubēn: honey-bee'; also 'afrōšag ... a sweetmeat made of flour, butter, and honey'."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW col. 817",
+              "stance": "supports",
+              "note": "'mp. angu-βīn, np. angubīn \"Bienenhonig\"' — Bartholomae himself names the Middle Persian form."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II",
+              "stance": "silent",
+              "note": "grep 'angub' in NYB_vol2_glossary.txt finds no entry."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "angabîn",
+          "verdict": "confirmed",
+          "derivation": "NP انگبین angabīn/angubīn 'honey' continues MP angubēn directly, with the classical -ē- read as -ī- in New Persian (majhūl ē > ma'rūf ī) and the first-syllable vowel varying between -gu- and -ga-. It is well attested in classical verse (the chart's Attar line) and survives above all in the compounds the chart adds as extra script: سکنجبین sekanjabīn (< سرکه serke 'vinegar' + انگبین, the oxymel of the medical tradition, Arabicised as سكنجبين) and گزانگبین gaz-angabīn 'tamarisk manna', beside ترانگبین tar-angabīn 'Persian manna'. In modern Persian the plain word is archaic, عسل having replaced it.",
+          "derivation_fa": "«انگبین» در فارسی نو دنبالهٔ مستقیم angubēn فارسی میانه است؛ «ی» مجهولِ پهلوی در فارسی نو به «ی» معروف بدل شده و واکهٔ هجای نخست میان -gu- و -ga- نوسان دارد. این واژه در شعر کلاسیک فراوان به کار رفته (از جمله بیت عطار که در نمودار آمده) و بیش از همه در ترکیب‌هایی که نمودار افزوده زنده مانده است: «سکنجبین» (از «سرکه» + «انگبین»، همان oxymel طب سنتی که به عربی سكنجبين معرّب شده) و «گزانگبین» (شیرابهٔ درخت گز)، و نیز «ترانگبین». در فارسی امروز خودِ واژه کهنه شده و جای آن را «عسل» گرفته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D9%86%DA%AF%D8%A8%DB%8C%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:174",
+              "status": "supports",
+              "note": "Borhan p.174 (BQT_v1_pages.txt leaf 392): 'انگبین، با بای ابجد بر وزن عنبرین، عسل و شهد را گویند' — honey; the same page has انگبینه, a honey sweetmeat."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan v1 leaf 392 (printed 174)",
+              "stance": "supports",
+              "note": "see quotation above."
+            },
+            {
+              "src": "MON",
+              "where": "Wiktionary's Persian entry, citing the classical usage",
+              "stance": "supports",
+              "note": "'From Middle Persian (DWBŠYA, ʾngpyn' /angubēn/, \"honey\"), from Proto-Iranian *Hangubáynah ... Derived terms: ترانگبین, سرکنگبین, مگس انگبین, گزانگبین' — the last two are precisely the chart's extra forms."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss",
+              "stance": "silent",
+              "note": "grep 'angubin|angubîn' in HRN.txt gives no numbered entry for this word."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Sogdian",
+          "words": "`pt; `pt-xw`r; brpyğ",
+          "verdict": "confirmed",
+          "derivation": "All three are in Gharib exactly where Nourai says. SOD:53 (printed p.53, entry 1355) has \"ʾpt- B, M — op(a)t, (a)pat ? © Av. pitu — meat\", and entry 1358 \"ʾptywʾr B — opat-xwar — carnivorous, flesh-eater\", i.e. pat + xwar- 'to eat' — Nourai's `pt-xw`r. SOD:109 (printed p.109, entry 2770) has \"prpyγ S — farpix ? © Av. pīvah, Pahl. farbih — fat\": Nourai renders the initial as b- because Sogdian p- is here the fricative β-, so βarpēγ. Semantically Sogdian ʾpt shows the same 'nourishment' > 'meat' shift as Avestan pitu- 'esp. meat dish'; βrpyγ is the Sogdian counterpart of MP frabīh (node 2), a *fra- compound, so strictly it hangs under the Avestan branch rather than directly under the root.",
+          "derivation_fa": "هر سه صورت دقیقاً در همان جایی است که نورایی گفته. قریب در ص ۵۳ (مدخل ۱۳۵۵) می‌آورد: «ʾpt- در متون بودایی و مانوی، خوانش op(a)t/(a)pat؟، هم‌سنجِ pitu اوستایی، به معنی گوشت» و در مدخل ۱۳۵۸ «ʾptywʾr — opat-xwar — گوشت‌خوار» که همان `pt-xw`r نورایی است (pat + xwar- «خوردن»). در ص ۱۰۹ (مدخل ۲۷۷۰) نیز «prpyγ — farpix؟ — هم‌سنجِ pīvah اوستایی و farbih پهلوی — چاق» آمده است؛ نورایی حرف نخست را b نوشته چون «پ» در این املا همان سایشی β است، یعنی βarpēγ. از دید معنایی، ʾpt سغدی همان تحول «خوراک ← گوشت» را نشان می‌دهد که در pitu- اوستایی («به‌ویژه خوراک گوشتی») دیده می‌شود، و βrpyγ برابر سغدیِ frabīh فارسی میانه است، یعنی ترکیبی با *fra-؛ پس به‌دقت باید زیرِ شاخهٔ اوستایی بنشیند نه مستقیماً زیر ریشه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:53",
+              "status": "supports",
+              "note": "SOD_pages.txt leaf 118 (printed p.53): '1355 ʾpt- B, M | op(a)t, (a)pat ? ©Av. pitu ^ptywʾr | meat | GMS 170' and '1358 ʾptywʾr B | opat-xwar | carnivorous, flesh-eater'."
+            },
+            {
+              "ref": "SOD:109",
+              "status": "supports",
+              "note": "SOD_pages.txt leaf 174 (printed p.109): '2770 prpyγ S | farpix ? ©Av. pivah Pahl. farbih | fat | MDii p32 n 20'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "Gharib, entries 1355, 1358, 2770",
+              "stance": "supports",
+              "note": "quotations above; Gharib himself links ʾpt to Av. pitu and prpyγ to Av. pīvah / Pahl. farbih."
+            },
+            {
+              "src": "BRT",
+              "where": "AiW s.v. pitav-, pīvah-",
+              "stance": "supports",
+              "note": "'j. pitav- m. \"Speise\", insbes. feste, \"Fleischspeise\"' — the 'meat' sense that Sogdian generalised is already Avestan."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 p.32",
+              "stance": "supports",
+              "note": "'frabih [plpyh | (P frbyw), N farbih] fat, stout' — the Middle Persian match of Sogdian βrpyγ."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Germanic",
+          "words": "faitaz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *faitaz 'fat, plump' is the standard reconstruction and is put under this root by everyone: Watkins 'Extended o-grade form *poid- in Germanic *faitaz, plump, fat', Pokorny p.794 under the extension poi-d-/pi-d- ('germ. *faitian \"masten\" (ahd. feizen, ags. fǣtan, aisl. feita), *faita- \"fett\" (ahd. feiz, aisl. feitr)'), Wiktionary '*poyh₂d-o-s > Proto-Germanic *faitaz'. PIE *poyd-o- gives Gmc *faitaz by Grimm's law (*p > f, *d > t) with the o-grade diphthong *oi > Gmc ai. Descendants: ON feitr, OHG feiz, MDu. vet.",
+          "derivation_fa": "*faitaz ژرمنی آغازین «چاق، فربه» بازسازیِ استاندارد است و همهٔ مراجع آن را زیر همین ریشه می‌نهند: واتکینز «صورت گستردهٔ درجهٔ o یعنی *poid- در ژرمنی *faitaz»، پوکورنی در ص ۷۹۴ زیر گسترش poi-d-/pi-d- («ژرمنی *faitian \"پروار کردن\"، *faita- \"چاق\"»)، و ویکی‌واژه «*poyh₂d-o-s ← *faitaz ژرمنی آغازین». از دید آوایی *poyd-o- هندواروپایی بر پایهٔ قانون گریم به *faitaz ژرمنی می‌رسد (*p > f و *d > t) و دوواکهٔ *oi به ai ژرمنی بدل می‌شود. بازماندگان: feitr نورسی کهن، feiz آلمانی علیای کهن، vet هلندی میانه. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-",
+            "https://en.wiktionary.org/wiki/fat"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. peiə-: '1. Extended o-grade form *poid- in Germanic *faitaz, plump, fat, in derivative Germanic verb *faitjan, to fatten, whence Germanic past participle *faitidaz, fattened, in Old English fǣt(t), fat: FAT.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 794 (POK_03 leaf 27)",
+              "stance": "supports",
+              "note": "'Erweiterung poi-d-, pi-d- ... germ. *faitian \"masten\" (ahd. feizen, ags. fǣtan, aisl. feita), *faita- \"fett\" (ahd. feiz, aisl. feitr), Partiz. germ. *faitida-: ahd. feizzit, mhd. veiz(e)t, nhd. feist, ags. fǣted, engl. fat, mnd. vet \"fett\".'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. fat, adj.",
+              "stance": "supports",
+              "note": "'These adjectives are prop. pps. of Teut. *faitian, \"to feed, fatten\" ... fr. I.-E. base *poid-, *pīd-, \"to abound in water, milk, fat, etc.\" ... Base *poid-, *pīd-, is a -d-enlargement of base *poi-, *pī-, \"sap, juice\".'"
+            },
+            {
+              "src": "WLD",
+              "where": "WP II 75",
+              "stance": "supports",
+              "note": "'aisl. fita f. \"Fett\", fitna \"fett werden\" ... mhd. veiz \"fett\", ahd. feizzen \"nahren\", Ptc. ahd. feizzit, mhd. veizt, nhd. feist'."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "English",
+          "words": "fat",
+          "verdict": "confirmed",
+          "derivation": "English fat continues Old English fǣtt 'fatted, fat', originally the past participle of the weak verb fǣtan 'to fatten' (Proto-West-Germanic *faitid, from *faitijan, denominative of *fait < PGmc *faitaz). The ME form fatt gives NE fat; the participial origin explains the geminate -tt-. Klein: 'ME. fatt, fat, fr. OE. fǣtt, contraction of fǣtted, pp. of fǣttian, \"to fatten\"'. The chart leaves the gloss blank; the arrow Germanic -> English is standard.",
+          "derivation_fa": "واژهٔ انگلیسی fat دنبالهٔ fǣtt انگلیسی کهن «پروارشده، چاق» است که در اصل صفت مفعولی فعل ضعیف fǣtan «پروار کردن» بوده (ژرمنی غربی آغازین *faitid از *faitijan، فعل ساخته‌شده از نامِ *fait < *faitaz ژرمنی آغازین). صورت انگلیسی میانهٔ fatt به fat امروزی رسیده و همین خاستگاه وصفی، دوتایی شدن -tt- را توضیح می‌دهد. کلاین می‌نویسد: «ME fatt, fat، از OE fǣtt، کوتاه‌شدهٔ fǣtted، صفت مفعولی fǣttian \"پروار کردن\"». این حلقه (ژرمنی ← انگلیسی) استاندارد است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/fat",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the chart gives no reference for this node; the parent node's AHD citation covers the chain ('...in Old English fǣt(t), fat: FAT')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. fat, adj. (line 14432)",
+              "stance": "supports",
+              "note": "'fat, adj. — ME. fatt, fat, fr. OE. fǣtt, contraction of fǣtted, pp. of fǣttian, \"to fatten\", rel. to ON. feitr, OFris. fatt, fet, MLG., MDu., Du. vet, OHG. feizit, MHG. veiz(e)t, G. feist, \"fat\".'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. peiə-",
+              "stance": "supports",
+              "note": "'...whence Germanic past participle *faitidaz, fattened, in Old English fǣt(t), fat: FAT.'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW 794",
+              "stance": "supports",
+              "note": "'ags. fǣted, engl. fat, mnd. vet \"fett\"'."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Latin",
+          "words": "pinus",
+          "verdict": "plausible",
+          "derivation": "Latin pīnus, -ūs/-ī f. 'pine' is correctly glossed as the resinous tree. Its assignment to this root is the traditional one and rests on the 'resin' sense of the *pi-tu- family: Pokorny 794 'die Bedeutung \"Harz\" auch in der k-Ableitung *pi-k-: gr. πίσσα, lat. pix ... aber lat. pinus ... wegen alb. pishë \"Fichte\" (*pit-s-nu-s)', i.e. pīnus < *pit-s-no-s, with loss of the cluster and compensatory lengthening; Klein and Watkins say the same (*pi-nu-), comparing Skt. pītu-dāru- 'resin tree' and Gk. pítys. But Wiktionary/de Vaan call the origin disputed (Proto-Italic *pīnos, alternatively to be joined with Gk. pínax 'plank'), so the arrow is probable rather than secure.",
+          "derivation_fa": "واژهٔ لاتین pīnus «کاج» و معنای «درخت صمغ‌دار» درست است. انتساب آن به این ریشه سنتی است و بر معنای «صمغ/رزین» در خانوادهٔ *pi-tu- تکیه دارد: پوکورنی در ص ۷۹۴ می‌نویسد معنای «رزین» در مشتق کافی *pi-k- (یونانی πίσσα، لاتین pix «قیر») نیز هست و لاتین pinus را به سبب pishë آلبانیایی «کاج» از *pit-s-nu-s می‌داند، یعنی pīnus < *pit-s-no-s با ساده شدن خوشه و کشش جبرانی؛ کلاین و واتکینز نیز همین را می‌گویند (*pi-nu-) و pītu-dāru- سنسکریت «درخت صمغ» و pítys یونانی را هم‌سنگ می‌آورند. اما ویکی‌واژه به پیروی از دِ ڤان خاستگاه آن را «مورد اختلاف» می‌داند (ایتالیایی آغازین *pīnos، و شاید هم‌ریشه با pínax یونانی «تخته»). پس این پیکان محتمل است نه قطعی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/pinus",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peyH-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. peiə-: '3. Possibly suffixed zero-grade form *pi-nu- in Latin pinus, pine tree (yielding a resin): PINE, PINEAL, PINON, PINNACE; PINA CLOTH.' Note Watkins' own 'Possibly'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 794",
+              "stance": "supports",
+              "note": "'aber lat. pinus, -ūs und -ī \"Fichte, Fohre, Kiefer\" wegen alb. pishë \"Fichte, Kienfackel\" (*pit-s-(n)a) wohl aus *pit-s-nu-s'."
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. pinus",
+              "stance": "partial",
+              "note": "'On rapproche skr. pītu-dāru qui designe une sorte de \"pin\", c.-a-d. un arbre resineux: le premier terme semble se retrouver dans le derive lat. pituita et dans gr. πίτυς \"pin\" ... La formation en -nu- de pinus rappelle celle de πίτυς.' — same comparison, no certainty."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. pine, n.",
+              "stance": "supports",
+              "note": "'fr. L. pinus, \"pine\", which is cogn. with OI. pītuḥ, \"juice, sap, resin, food\", pītu-dāruḥ, \"a kind of pine\", lit. \"resiniferous tree\" ... These words are traceable to I.-E. base pī-, \"sap, juice\" ... See fat.'"
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.v. pit- (3) 'pine'",
+              "stance": "supports",
+              "note": "'pit- (pitus, piteu-) (3) \"pine\". Pamiri (alleged) pit, id.; Gk. pítus, f. id. ... Cf. Skt. pitu-daru. See pit- (2).'"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "English",
+          "words": "pine",
+          "verdict": "confirmed",
+          "derivation": "English pine (the tree) is an early borrowing of Latin pīnus: Old English pīn, reinforced in Middle English by Old French pin; the modern spelling with -e reflects the ME long vowel that later diphthongised in the Great Vowel Shift. It is unrelated to the verb pine 'to languish' (< L. poena). The chart's arrow Latin -> English is uncontroversial; the node carries no reference and needs none.",
+          "derivation_fa": "واژهٔ انگلیسی pine «کاج» وام‌واژه‌ای کهن از لاتین pīnus است: pīn در انگلیسی کهن، که در انگلیسی میانه با pin فرانسهٔ کهن تقویت شده است؛ املای امروزی با -e پایانی بازتاب واکهٔ بلند انگلیسی میانه است که بعدها در «جابه‌جایی بزرگ واکه‌ها» دوواکه شده است. این واژه با فعل pine «پژمردن» (از poena لاتین) هیچ پیوندی ندارد. حلقهٔ «لاتین ← انگلیسی» بی‌مناقشه است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/pinus"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference is printed for this node; the parent's AHD citation ('Latin pinus ... : PINE') covers it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. pine, n. (line 28856)",
+              "stance": "supports",
+              "note": "'pine, n., a tree of the genus Pinus (bot.) — ME., fr. OE. pin, (in ME. fr. F. pin), fr. L. pinus, \"pine\".'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. peiə-",
+              "stance": "supports",
+              "note": "'Latin pinus, pine tree ... : PINE'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
