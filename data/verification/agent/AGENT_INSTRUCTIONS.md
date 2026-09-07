@@ -223,6 +223,10 @@ which are where errors are likelier.
 
 Write `/home/sfmqrb/git/rishe/data/verification/page-<pdf>.json` (UTF-8, no BOM):
 
+Several agents run at the same time and share the scratchpad and `/tmp`, so every temporary
+file you create must carry your page number in its name (e.g. `e0-363.json`, `pg363.png`,
+`draft-363.json`), never a bare `e0.json` or `entry.json` — another agent will overwrite it.
+
 ```json
 {
   "pdf_page": 126,
