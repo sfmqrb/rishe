@@ -1,0 +1,247 @@
+{
+  "pdf_page": 371,
+  "book_page": 341,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-07",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "N.w.r",
+      "verdict": "confirmed",
+      "modern_form": "Proto-Semitic *n-w-r 'to shine, give light' (verb *nawāru), with the nouns *nūr- 'light' and *nār- 'fire'",
+      "note": "The root, the language label and the gloss are all right. Klein s.v. Menorah (KLN:963) states it explicitly: Heb. mᵉnōrāh 'candlestick', 'from stem n-w-r, \"to give light, shine\", whence also ner, \"lamp\"; rel. to Aram.-Syr. nur, \"fire\", Arab. nara, \"shone\", nur, \"light\", nar, \"fire\", Aram. mᵉnartā, \"candlestick\", Arab. manarah, \"candlestick; lighthouse; tower of a mosque\", Akkad. nuru, \"light\", nawaru, namaru, \"to give light, shine\"'. Two caveats. (a) Nourai cites KLN:982, which is the 'minaret' page; that page only says 'fr. nara, \"it lighted\", rel. to Heb. ner ... See Menorah' — the root statement itself stands at KLN:963, which he cites on the two branch boxes. (b) In Hebrew the root surfaces with y, not w (nēr < *nīr, mᵉnōrāh, root נ־י־ר per Wiktionary); the w/y doublet is old in this root and does not affect Nourai's arrows, but the strictly Hebrew forms are not from n-w-r as written.",
+      "note_fa": "ریشهٔ سامی ن‑و‑ر «تابیدن، روشنی دادن» ریشه‌ای است شناخته و پذیرفته؛ عربی نور و نار و منارة، عبری نֵر «چراغ» و مנورה، آرامی نورا و مנרתא، و اکدی nūru «روشنایی» و nawāru «تابیدن» همه از همین ریشه‌اند. برچسب «سامی» و معنای «تابیدن، روشنی دادن» درست است و کلاین (ص ۹۶۳، ذیل Menorah) دقیقاً همین را می‌گوید. تنها دو نکته: نخست آنکه ارجاع نورایی به KLN:982 صفحهٔ minaret است و گزارهٔ ریشه در ص ۹۶۳ آمده؛ دوم آنکه در عبری این ریشه با «ی» ظاهر می‌شود (ن‑ی‑ر)، و این دوگانگی و/ی در همین ریشه کهن است. در مجموع ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%86%D9%88%D8%B1",
+        "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%A7%D8%B1%D8%A9",
+        "https://en.wiktionary.org/wiki/%D7%9E%D7%A0%D7%95%D7%A8%D7%94"
+      ],
+      "ref_check": [
+        {"ref": "KLN:982", "status": "partial", "note": "KLN_1966.txt line 23949 (s.v. minaret, vol. II p.982): 'Arab. manarah, \"candlestick; tower of a mosque, lighthouse\", fr. nara, \"it lighted\", rel. to Heb. ner, \"lamp\", mᵉnōrāh, Aram. mᵉnartā, \"candlestick\". See Menorah.' The page supports the family but refers the root itself back to p.963."},
+        {"ref": "KLN:963", "status": "supports", "note": "not cited on the root box but on both branch boxes; KLN_1966.txt line 23475 (s.v. Menorah): 'from stem n-w-r, \"to give light, shine\" ... Akkad. nuru, \"light\", nawaru, namaru, \"to give light, shine\"' — verbatim Nourai's root and gloss."}
+      ],
+      "consulted": [
+        {"src": "KLN", "where": "vol. II p.963 s.v. Menorah; p.982 s.v. minaret; vol. I p.1 s.v. Abner", "stance": "supports", "note": "the three headwords together give exactly the chart: stem n-w-r > Heb. mᵉnōrāh / nēr, Arab. nūr / nār / manārah, Akkad. nūru / nawāru, and Abner 'my father is light'"},
+        {"src": "DEV", "where": "p. s.v. Minaret (DEV.txt line 1741)", "stance": "supports", "note": "'De l'arabe menâra ... signifiant lieu où il y a une lampe (de la racine nâr, brûler/briller), puis lampe, fanal, phare, et enfin minaret'"},
+        {"src": "LKT", "where": "no. 1463a (LKT.txt line 3380)", "stance": "supports", "note": "'Eigentlich manāra \"der Platz, wo Feuer oder Licht, ar. nār, ist\"'"},
+        {"src": "AKD", "where": "grep 'nawaru|namaru|nuru' in AKD.txt", "stance": "silent", "note": "Zimmern's Akkadische Fremdwörter has no entry for the light-root (it treats loans into Akkadian, not native roots)"},
+        {"src": "FVQ", "where": "grep 'nur|light' in FVQ_pages.txt", "stance": "silent", "note": "Jeffery does not list nūr among the foreign vocabulary of the Qur'ān — i.e. he treats it as native Arabic, which agrees with Nourai"}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "nŭr; nâr; manâreh",
+          "verdict": "confirmed",
+          "derivation": "All three are ordinary Arabic derivatives of the hollow root ن‑و‑ر. The verb نَارَ nāra (impf. yanūru) / أَنَارَ anāra means 'to shine, give light'; نُور nūr 'light' (pl. أَنْوَار anwār) is the direct continuation of Proto-Semitic *nūr- (so Wiktionary, comparing Akkad. nūru); نَار nār (fem., pl. نِيرَان nīrān) 'fire' is the same root with ā for the medial w; and مَنَارَة manāra(t) is the regular ism al-makān / instrument noun of the pattern maCCaCa(t), 'place where there is a light' — hence 'lampstand', then 'beacon, lighthouse', and from the Umayyad period the tower of a mosque from which the muʾadhdhin calls (whence also the shorter مَنَار manār). Klein p.963 lists precisely nūr, nār and manārah under the stem n-w-r; Lokotsch no. 1463a and Devic give the same analysis of manāra. Nourai's manâreh renders the pausal/Persianised form manāra(h); the Arabic citation form is manāratun.",
+          "derivation_fa": "هر سه واژه ساخته‌های عادی ریشهٔ عربی ن‑و‑ر («ناره / أنار» یعنی تابیدن و روشنی دادن) هستند: «نور» (جمع: انوار) بازماندهٔ مستقیم سامی آغازین *nūr- است و با اکدی nūru همریشه؛ «نار» (مؤنث، جمع: نیران) همان ریشه با «ا» به جای واو میانی است؛ و «منارة» اسم مکان بر وزن مَفعَلة است، یعنی «جای روشنایی» ← «چراغدان» ← «فانوس دریایی» ← از دورهٔ اموی به بعد «گلدستهٔ مسجد» (و صورت کوتاه‌تر «منار»). کلاین در ص ۹۶۳ همین سه واژه را زیر ریشهٔ n-w-r می‌آورد و لوکوچ و دویک نیز «منارة» را «جای آتش/نور» می‌دانند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%D9%88%D8%B1",
+            "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%A7%D8%B1%D8%A9"
+          ],
+          "ref_check": [
+            {"ref": "KLN:963", "status": "supports", "note": "KLN_1966.txt line 23475: '... Arab. nara, \"shone\", nur, \"light\", nar, \"fire\", ... Arab. manarah, \"candlestick; lighthouse; tower of a mosque\"' — the node's three words with the node's three glosses"},
+            {"ref": "KLN:982", "status": "supports", "note": "KLN_1966.txt line 23949: 'Arab. manarah, \"candlestick; tower of a mosque, lighthouse\", fr. nara, \"it lighted\"'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "vol. II pp.963, 982", "stance": "supports", "note": "as quoted in ref_check"},
+            {"src": "LKT", "where": "no. 1463a (line 3380)", "stance": "supports", "note": "'das mināra ist der Turm einer Moschee, von dessen Brüstung aus der Gebetrufer muʾaddin fünfmal täglich die Gläubigen zum Gebete aufruft'"},
+            {"src": "PHN", "where": "p.966 s.v. MINARET (PHN.txt lines 7453-7463)", "stance": "supports", "note": "Pihan derives the French word from Arab. manāra, 'qui signifie proprement un endroit élevé et sur lequel on [place une lumière]'"},
+            {"src": "FSD", "where": "vol. III s.v. minaret (FSD_vol3.txt line 39949)", "stance": "supports", "note": "'[< Sp. minarete, < Turk. mināre, < Ar. manāra, < manār, lighthouse, < nūr, shine]'"},
+            {"src": "PLA", "where": "grep in PLA_pages.txt", "stance": "silent", "note": "Asbaghi lists Persian loans IN Arabic; nūr/nār/manāra are not there, i.e. no one claims an Iranian origin for them"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "nŭr «نور (انوار ، انور)»; manâr «مَنار (مَناره)»; nâr «نار»",
+          "verdict": "confirmed",
+          "derivation": "All of these are Arabic loanwords in New Persian, taken over with the Arabic morphology intact from the earliest Islamic-Persian prose onward. نور nūr 'light' keeps the Arabic broken plural انوار anwār and the elative انور anwar; the further forms printed in the box are the Arabic derivational set of the same root borrowed as a block — نورانی nūrānī (Arabic relational adjective in -ānī), نیّره nayyira 'luminous' (fem. of nayyir, Form-II-type intensive), منیر munīr (Form IV active participle, *mu-nwir > munīr with the regular hollow-root contraction), منوّر munawwar (Form II passive participle 'illuminated') and تنویر tanwīr (Form II verbal noun 'illumination'). منار / مناره manār(a) is the Arabic word for the mosque tower, taken into Persian in both shapes. نار nār 'fire' survives in Persian mainly in the religious and literary register (نار جهنم, نار دوزخ). Mo'in marks نور as [ع.] = Arabic and gives 'روشنایی، فروغ ... ج. انوار', so Nourai's Arabic → Persian arrow is exactly Mo'in's. There is no Iranian element anywhere here and no round trip: Asbaghi does not list the root among Persian loans in Arabic.",
+          "derivation_fa": "همهٔ این صورت‌ها وام‌واژهٔ عربی در فارسی نو هستند و با ساخت صرفی عربی خود وام گرفته شده‌اند: «نور» با جمع مکسر «انوار» و صفت برتر «انور»؛ و مجموعهٔ مشتقات عربی همین ریشه که یکجا وارد فارسی شده است — «نورانی» (صفت نسبی عربی با ‑انی)، «نیّره» (مؤنث نیّر)، «منیر» (اسم فاعل باب افعال، mu-nwir* که بر اثر اعلال به munīr بدل شده)، «منوّر» (اسم مفعول باب تفعیل) و «تنویر» (مصدر باب تفعیل). «منار/مناره» نیز به هر دو صورت به فارسی آمده، و «نار» بیشتر در بافت دینی و ادبی («نار جهنم») به کار می‌رود. معین در فرهنگ فارسی «نور» را با نشانِ [ع.] می‌آورد: «روشنایی، فروغ؛ مق. تاریکی؛ ظلمت. شعاع؛ ج. انوار» — یعنی همان مسیر عربی ← فارسی که نورایی کشیده است. هیچ عنصر ایرانی در میان نیست و اصبغی هم این ریشه را در فهرست وام‌واژه‌های فارسی در عربی نیاورده. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {"ref": "MON", "status": "supports", "note": "Mo'in, Farhang-e Farsi, s.v. نور (MON_part2.txt line 80121): 'نور، nur [ع.] (.) روشنایی، فروغ؛ مق. تاریکی؛ ظلمت. شعاع؛ ج. انوار' — tagged [ع.], Arabic, with the plural انوار"},
+            {"ref": "SAP:1734", "status": "not_checked", "note": "Sayyah's Farhang (Persian al-Munjid) is sold only as a paid ebook (refs_online.json: kind 'purchase'); no accessible copy"},
+            {"ref": "FVA:418", "status": "not_checked", "note": "Nahvi, Farhang-e vazheha-ye arabi dar farsi (1368) — refs_online.json records that no digital copy exists on any permitted platform"}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part2.txt line 80121, s.v. نور", "stance": "supports", "note": "as quoted; the neighbouring entry نور۱ 'شکوفهٔ سپید' is also tagged [ع.]"},
+            {"src": "PLA", "where": "grep 'نور|منار' in PLA_pages.txt", "stance": "silent", "note": "Asbaghi has no entry — the root is not a Persian loan in Arabic, so the direction Nourai draws (Arabic → Persian) is the only one on offer"},
+            {"src": "AFM", "where": "AFM_pages.txt, grep 'نور'", "stance": "silent", "note": "Addi Shir's hits for نور are all inside other entries (e.g. نوروز, الکهرباء); he does not claim نور itself as Persian"},
+            {"src": "ARY", "where": "grep 'نورانی' in ARY_pages.txt (0 hits)", "stance": "silent", "note": "Aryanpur's dictionary covers only the Indo-European stock of Persian, so an Arabic loan is correctly absent"}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "minaret",
+          "verdict": "confirmed",
+          "derivation": "English minaret (first recorded in the 1680s, in travellers' accounts of the Ottoman lands) is from French minaret, which took the word from the Turkish pronunciation of Arabic مَنَارَة manāra(t) — Ottoman Turkish مناره minare, with the Turkish shift of the unstressed first vowel to i and the French -et ending; Spanish minarete is the parallel form and is what Klein and Skeat make the immediate source. So the English word is a descendant of the Semitic root through the Arabic noun of place, not directly out of the root: KLN:982 'Sp. minarete, fr. Turk. menaret, fr. Arab. manarah', Funk & Wagnalls 'Sp. minarete < Turk. mināre < Ar. manāra < manār, lighthouse, < nūr, shine', Lokotsch no. 1463a 'pers. und tk. minaret; hieraus frz. minaret ... engl. ndl. minaret'. NOTE ON THE ARROW: the JSON gives this box parent 0 (the root), but on the printed page (see data/verification/sources/refs/ocr/BOOK/371.png) the line that ends in this box leaves the bottom of the Arabic box and curves right, while the root's own left spine curves right into the Hebrew box below. The book therefore draws minaret out of Arabic manāreh (#1), which is also the historically correct parent — an extraction error in parent assignment, not a mistake of Nourai's.",
+          "derivation_fa": "واژهٔ انگلیسی minaret (نخستین کاربرد در دههٔ ۱۶۸۰ در سفرنامه‌های عثمانی) از فرانسویِ minaret آمده و آن از تلفظ ترکی «منارهٔ» عربی، یعنی ترکی عثمانی minare، با ابدال واکهٔ نخست به i و پسوند فرانسویِ ‑et؛ صورت اسپانیایی minarete نیز موازی آن است و کلاین و اسکیت آن را منبع بی‌واسطهٔ انگلیسی می‌دانند. پس این واژه از راه «منارة» عربی به اروپا رسیده، نه یکسر از ریشهٔ سامی. نکتهٔ مهم: در فایل JSON پدرِ این جعبه ریشه (شمارهٔ ۰) ثبت شده، اما در تصویر صفحهٔ چاپی خطِ ورودی به این جعبه از پایین جعبهٔ «عربی» بیرون می‌آید (و ستون خودِ ریشه به جعبهٔ «عبری» می‌رود)؛ یعنی کتاب آن را از «منارهٔ» عربی گرفته است — خطای خوانش اسکن در تعیین پدر، نه خطای نورایی. ریشه‌شناسی خودِ واژه تأیید می‌شود.",
+          "sources": [
+            "https://www.etymonline.com/word/minaret",
+            "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%A7%D8%B1%D8%A9"
+          ],
+          "ref_check": [
+            {"ref": "KLN:982", "status": "supports", "note": "KLN_1966.txt line 23949: 'minaret, n., a slender tower attached to a mosque. — Sp. minarete, fr. Turk. menaret, fr. Arab. manarah, \"candlestick; tower of a mosque, lighthouse\", fr. nara, \"it lighted\" ... See Menorah.'"}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "SKT.txt line 11580 s.v. Minaret", "stance": "supports", "note": "OCR is rough but legible: 'Minaret ... Span. minarete ... Arab. manārat, a minaret ... Arab. manār, candlestick/light-house. Allied to Arab. nūr, to shine'"},
+            {"src": "FSD", "where": "vol. III s.v. minaret (line 39949)", "stance": "supports", "note": "'[< Sp. minarete, < Turk. mināre, < Ar. manāra, < manār, lighthouse, < nūr, shine]'"},
+            {"src": "DEV", "where": "DEV.txt line 1741 s.v. Minaret", "stance": "supports", "note": "'Esp. minarete. De l'arabe menâra (prononcé à la turque)'; Devic adds Spanish almenara 'candélabre, fanal' from the same word"},
+            {"src": "LKT", "where": "no. 1463a", "stance": "partial", "note": "Lokotsch routes it 'pers. und tk. minaret; hieraus frz. minaret ... engl. ndl. minaret' — i.e. French from Turkish rather than English from Spanish; same origin, slightly different transmitting language"},
+            {"src": "WEB", "where": "WEB_vol1.txt line 14422 s.v. azan", "stance": "supports", "note": "only an incidental mention ('called five times a day by the muezzin, from a minaret on the mosque'); vol. II with the M entries is not available"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Hebrew",
+          "words": "měnôrâh; ab-ner",
+          "verdict": "confirmed",
+          "derivation": "Hebrew מְנוֹרָה mᵉnōrāh 'lampstand' is the instrument/place noun of the same light-root — in Hebrew the root appears with y (נֵר nēr 'lamp' < *nīr), and the noun is built with the m- prefix exactly like Aramaic מְנָרְתָא mᵉnārtā and Ugaritic mnrt, the direct cognate of Arabic manāra. Its classic referent is the seven-branched lampstand of the Tabernacle and the Temple (Ex 25:31-40). אַבְנֵר ʾAbnēr, Saul's cousin and commander of his army (1 Sam 14:50; 17:55; 2 Sam 2-3), is ʾābī 'my father' + nēr 'lamp, light' = 'my father is a lamp/light'; Klein compares the Babylonian personal name Abu-nūri built on the same two elements, which confirms the analysis and the Semitic root. Nourai's cross-reference ☞Ab 2 (to his root Ab 'father') is therefore right. Only nuance: the Hebrew forms strictly belong to the y-variant of the root (Wiktionary gives the root of mᵉnōrāh as נ־י־ר), so 'from N.w.r' is true at the Proto-Semitic level rather than within Hebrew.",
+          "derivation_fa": "عبری مנורה mᵉnōrāh «چراغدان» اسم آلت/مکانِ همان ریشهٔ روشنایی است؛ در عبری این ریشه با «ی» ظاهر می‌شود (נֵר nēr «چراغ» از *nīr) و واژه با پیشوند m‑ ساخته شده، درست مانند آرامی مנרתא mᵉnārtā و اوگاریتی mnrt، که همریشهٔ مستقیم «منارة» عربی‌اند؛ مصداق کلاسیک آن چراغدان هفت‌شاخهٔ خیمهٔ عبادت و معبد است (سفر خروج ۲۵:۳۱–۴۰). «ابنیر» (אַבְנֵר) نام پسرعمو و سردار سپاه شائول است و از ʾābī «پدرِ من» + nēr «چراغ» ساخته شده، یعنی «پدرم چراغ/نور است»؛ کلاین نام بابلی Abu-nūri را با همان دو جزء شاهد می‌آورد. بنابراین ارجاع نورایی به ریشهٔ «Ab ۲» درست است. تنها نکتهٔ باریک آنکه صورت‌های عبری به گونهٔ «ی»‌دارِ ریشه تعلق دارند، پس انتساب به ن‑و‑ر در سطح سامی آغازین درست است نه در درون عبری. ادعای نورایی پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D7%9E%D7%A0%D7%95%D7%A8%D7%94"
+          ],
+          "ref_check": [
+            {"ref": "KLN:963", "status": "supports", "note": "KLN_1966.txt line 23475 s.v. Menorah: 'the seven-branched candelabrum in the Tabernacle and in the Temple of Jerusalem. — Heb. mᵉnōrāh, \"candlestick\", from stem n-w-r ... Cp. the second element in Abner'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "vol. I p.1 s.v. Abner (KLN_1966.txt line 1190)", "stance": "supports", "note": "'Abner, n., masc. PN.; in the Bible, commander of Saul. — Heb. Abhnēr, lit. \"my father is light\", fr. abh, \"father\", and ner, \"light\"; cp. the Babylonian PN. Abunuri' — Nourai's gloss word for word"},
+            {"src": "AFA", "where": "grep 'menorah|mᵉnartā' in AFA.txt", "stance": "silent", "note": "Fraenkel's Aramaic loans in Arabic do not treat manāra/mᵉnōrāh, so he does not claim Arabic manāra is an Aramaic loan"},
+            {"src": "FVQ", "where": "grep in FVQ_pages.txt", "stance": "silent", "note": "no Hebrew-mediation claim for nūr in Jeffery"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "menorah, Abner",
+          "verdict": "confirmed",
+          "derivation": "Both English words come straight from Hebrew, by two different channels. Menorah is a 19th-century borrowing of Hebrew mᵉnōrāh into English through Jewish liturgical usage (German and Yiddish menoyre alongside), and is used both of the Temple lampstand and of the eight-branched Hanukkah lamp; Klein enters it as an English headword spelt Menorah. Abner reached English as a Bible name: Vulgate Abner, thence Wycliffe and the King James Version (1 Sam 14:50), and from the 17th century it was adopted as a Puritan given name in England and New England (Abner Doubleday). Neither shows any sound change beyond ordinary English adaptation of the stress and vowels.",
+          "derivation_fa": "هر دو واژه یکسر از عبری به انگلیسی رسیده‌اند، اما از دو راه. menorah وام‌واژه‌ای است از سدهٔ نوزدهم که از راه کاربرد دینی یهودیان (و همراهِ آلمانی/ییدیش menoyre) به انگلیسی درآمد و هم بر چراغدان هفت‌شاخهٔ معبد و هم بر چراغ هشت‌شاخهٔ حَنوکا اطلاق می‌شود؛ کلاین آن را با همین سرواژه Menorah آورده است. Abner از راه کتاب مقدس آمد: وولگاتای لاتین Abner، سپس ترجمهٔ ویکلیف و ترجمهٔ شاه جیمز (اول سموئیل ۱۴:۵۰)، و از سدهٔ هفدهم در انگلستان و نیوانگلند نامی پیوریتنی شد. هیچ دگرگونی آوایی ویژه‌ای جز سازگاری معمول انگلیسی در تکیه و واکه‌ها رخ نداده. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D7%9E%D7%A0%D7%95%D7%A8%D7%94"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "the box carries no reference in the book; the substance is covered by Klein's own English headwords Menorah (p.963) and Abner (p.1), quoted under consulted"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "vol. II p.963 s.v. Menorah; vol. I p.1 s.v. Abner", "stance": "supports", "note": "both are entered as English headwords, i.e. Klein treats them as English words borrowed from Hebrew — exactly this node"},
+            {"src": "FSD", "where": "grep 'menorah' in FSD_vol1-4", "stance": "silent", "note": "Funk & Wagnalls (1913 plates) has no menorah entry — the word was still rare in general English dictionaries"},
+            {"src": "WEB", "where": "WEB_vol1.txt (A-?), grep 'Abner|menorah'", "stance": "silent", "note": "no entry found in the available volume"},
+            {"src": "SKT", "where": "grep 'menorah|Abner' in SKT.txt", "stance": "silent", "note": "Skeat's Concise omits proper names and this Hebraism"}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Nyâka, Nyâkâ",
+      "verdict": "confirmed",
+      "modern_form": "Av. nyāka- m. 'grandfather', nyākā- f. 'grandmother'; OP niyāka- m. 'grandfather' (Old Iranian *nyāka-)",
+      "note": "The root box is right in every particular. Bartholomae's Altiranisches Wörterbuch has the double entry 'j., p. nyāka- m.; nyākā- f. \"Grossvater, Grossmutter\"' with Vidēvdād 12.9,11 for the Avestan and the Susa inscription of Artaxerxes II for the Old Persian ('Artaxšaçā nyākama' = 'A., my grandfather'); Old Persian spells it niyāka-, with the epenthetic i of the OP syllabary. Buck 2.46 (p.109-110) sets out the same pair. The one thing to add is that the family has NO known Indo-European ancestry: Buck ends 'etym.?', Kent §146.III files niyāka- and apa-niyāka- under 'Of somewhat uncertain analysis', and Pokorny, Walde-Pokorny, Watkins/AHD and Mann all lack the word (greps silent). Nourai does not claim a PIE root for it, and is right not to.",
+      "note_fa": "جعبهٔ ریشه در همهٔ اجزا درست است. بارتولمه در «فرهنگ ایرانی باستان» مدخل دوگانهٔ nyāka- (مذکر، «پدربزرگ») و nyākā- (مؤنث، «مادربزرگ») را با شاهد وندیداد ۱۲٫۹ و ۱۱ برای اوستایی و کتیبهٔ شوشِ اردشیر دوم برای پارسی باستان می‌آورد؛ در پارسی باستان با «ی» میانجی niyāka- نوشته می‌شود. باک نیز در بند ۲٫۴۶ (ص ۱۰۹–۱۱۰) همین جفت را می‌آورد. تنها نکتهٔ افزودنی این است که این خانواده ریشهٔ هندواروپایی شناخته‌ای ندارد: باک با علامت سؤال «etym.?» تمام می‌کند، کنت در بند ۱۴۶٫III آن را در شمار صورت‌های «با تجزیهٔ نامعلوم» می‌گذارد، و پوکورنی، والده‑پوکورنی، واتکینز و مان هیچ‌کدام این واژه را ندارند. نورایی هم ریشهٔ هندواروپایی برای آن ادعا نکرده و درست کرده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7"
+      ],
+      "ref_check": [
+        {"ref": "SYN:110", "status": "supports", "note": "Buck §2.46 GRANDFATHER; SYN.txt line 2972 (scan leaf 141 ≈ printed p.109-110): 'Av. nyāka-, nyākā- \"grandfather, grandmother\" (OPers. nyāka- \"grandfather\", apa-nyāka- \"ancestor\"), etym.? Delbrück, op. cit. 474' — Nourai's root box, gloss and both branch words in one line"},
+        {"ref": "KNT:194", "status": "supports", "note": "Kent, Lexicon (KNT.txt line 5611, scan leaf 217 ≈ printed p.194-195): 'niyāka- sb. \"grandfather\": Av. nyāka- (§146.III); cf. apaniyāka-. niyāka nom. DSl 13; n[iyā]kama asm. A²Sa 4.'"}
+      ],
+      "consulted": [
+        {"src": "BRT", "where": "s.v. nyāka- (BRT.txt line 19354, scan leaf 609; AiW n- section)", "stance": "supports", "note": "'j., p. nyāka- m.; nyākā- f. \"Grossvater, Grossmutter\": yat °kē para.irixyeiti °kē (NSf.) vā ... V.12.9; 11; — Artaxšaçā °kama \"A., mein Grossvater\" Am. I.'"},
+        {"src": "SYN", "where": "§2.46, p.109-110", "stance": "supports", "note": "as quoted in ref_check; Buck also notes the reciprocal-term pattern and gives Skt. pitāmaha- as the Indic replacement"},
+        {"src": "KNT", "where": "§146.III (KNT.txt line 1802) and Lexicon p.194", "stance": "partial", "note": "'III. Of somewhat uncertain analysis: niyāka-, apa-niyāka-, marīka- (see Lex. s.vv.)' — Kent accepts the word but not any deeper analysis"},
+        {"src": "HUB", "where": "Persische Studien p.152 (HUB.txt line 5334) and p.241 (line 8601)", "stance": "supports", "note": "'niyā \"Grossvater\" = ap. zd. nyāka-' (p.152) and 'niyā \"Ahne\" = ap. nyāka- \"Grossvater\" (np. plur. niyāgān)' (p.241)"},
+        {"src": "POK", "where": "grep 'nyaka|niyaka' in POK_full.txt", "stance": "silent", "note": "no entry — Pokorny reconstructs no PIE root for this word"},
+        {"src": "AHD", "where": "grep in AHD_watkins1985.txt", "stance": "silent", "note": "Watkins has no root covering Av. nyāka-"},
+        {"src": "IEC", "where": "grep in IEC.txt (only manyaka- 'neck' matched)", "stance": "silent", "note": "Mann gives no IE comparison for the grandfather word"},
+        {"src": "WLD", "where": "grep in WLD_band3.txt", "stance": "silent", "note": "not in the Walde-Pokorny index"}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "niyâk, niyâkân",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian nyʾk' — read niyāg by MacKenzie, niyāk in the older transliteration Nourai follows — is the regular continuation of Old Iranian *nyāka-, with the OP-style epenthesis in the initial cluster (ny- > niy-) and the post-vocalic stop written k but pronounced -g in later Middle Persian, as the Manichaean spelling nyʾg shows. The plural is niyāgān, formed with the ordinary MP animate plural -ān; because the -g- is now intervocalic it is preserved there, which is why New Persian has the pair niyā / niyāgān. Attestations: MacKenzie p.60 'niyāg [nyʾk' | M nyʾg, N niyā] grandfather, ancestor'; the Pahlavi Husrav ud Rēdag §4 (Unvala 1917 p.13) 'u šmāh niyāgān' = German 'und eurer Ahnen'; Nyberg's Kārnāmag glossary quotes 'Mānušcihr amāh niyāg' 'Manuščihr our forefather'. So both the singular and the plural form of the node are genuine Pahlavi words with exactly the sense 'grandparents, forefathers'.",
+          "derivation_fa": "فارسی میانهٔ nyʾk' — که مکنزی آن را niyāg می‌خواند و نورایی به شیوهٔ کهن‌تر niyāk آورده — بازماندهٔ منظمِ ایرانی باستان *nyāka- است: خوشهٔ آغازی ny- با واکهٔ میانجی به niy- بدل شده و همخوان پایانی که با k نوشته می‌شود در فارسی میانهٔ متأخر ‑g تلفظ می‌شده، چنانکه املای مانوی nyʾg نشان می‌دهد. جمع آن niyāgān است با پسوند جمع جاندارِ ‑ān؛ چون ‑g‑ در این صورت میان دو واکه قرار می‌گیرد حفظ شده، و همین است سرّ جفتِ فارسی نو «نیا / نیاکان». شواهد: مکنزی ص ۶۰ «niyāg [nyʾk'] پدربزرگ، جد»؛ متن پهلوی «خسرو و ریدگ» بند ۴ (اونوالا ۱۹۱۷، ص ۱۳): «اُ شماه نیاگان» یعنی «و نیاکان شما»؛ و واژه‌نامهٔ نیبرگ که «مانوشچیهر اَماه نیاگ» («مانوشچیهر نیای ما») را نقل می‌کند. پس هم صورت مفرد و هم جمعِ این جعبه واژهٔ اصیل پهلوی است با همان معنایی که نورایی داده. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7"
+          ],
+          "ref_check": [
+            {"ref": "BQT:2221", "status": "supports", "note": "Borhan-e Qate' vol. 4, printed p.2221 = BQT_v4_pages.txt [pdf page 304] (the running heads of the next two leaves read ۲۲۲۲ and ۲۲۲۳, confirming the offset). Mo'in's footnote 4 to نیا: «پهلوی nyāk (جد) [جمع: nyākān]، ایرانی باستان *ni(y)āka-، بارتولمه ۱۶۹۸ ... پارسی باستان و اوستا nyāka- (پدر بزرگ)» — precisely Nourai's Pahlavi box"},
+            {"ref": "UNV:52", "status": "partial", "note": "Unvala's 1963 Paris edition (the one Nourai cites) is not online; the 1917 Heidelberg dissertation, which is (UNV.txt), has the word in the text itself at §4, printed p.13: 'u šmāh niyāgān' rendered 'und eurer Ahnen'. So the substance is confirmed, the page number cannot be"}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie p.60 (PHD_mackenzie.txt line 3810)", "stance": "supports", "note": "'niyāg [nyʾk' | M nyʾg, N niyā] grandfather, ancestor'; English-Pahlavi part p.? 'grandfather niyāg', 'ancestor niyāg'"},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II, glossary s.v. kurušk (NYB_vol2_glossary.txt line 2347)", "stance": "partial", "note": "quotes the Bundahišn passage 'cigēn gōbēt kū Mānušcihr amāh niyāg kurušk-ē pat bārak dāšt' — the word is attested in Nyberg's texts with the sense 'forefather', though it is not a headword of his glossary"},
+            {"src": "HRN", "where": "Horn no. 1062, p.238 (HRN.txt leaf 259)", "stance": "supports", "note": "'ap. aw. nyāka- \"Grossvater\", vergl. ap. apanyāka- \"Ahne\"; phlv. nyōk' — Horn's Pahlavi reading is nyōk, an older reading of the same spelling nyʾk'"},
+            {"src": "HUB", "where": "Persische Studien p.241", "stance": "supports", "note": "cites the Pahlavi/OP form as the base from which NP niyā loses final -k"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "nîyâ «نیا ، نیاکان»",
+          "verdict": "confirmed",
+          "derivation": "New Persian نیا niyā 'forefather, ancestor; grandfather' is Middle Persian niyāg with the regular loss of the final stop after long ā. Hübschmann sets this out as a rule (Persische Studien p.241): after a the -k of Middle Persian normally drops — 'niyā \"Ahne\" = ap. nyāka- \"Grossvater\" (np. plur. niyāgān)' — and the plural keeps the consonant because there it is intervocalic, giving نیاگان niyāgān (often written نیاکان in the manuscripts and so printed by Nourai). Mo'in's dictionary states the derivation outright: «نیا [< نیاک] (ا.) جد (اعم از پدر پدر یا پدر مادر)؛ ج. نیاکان» — 'grandfather, whether father's father or mother's father'. The sense widened from 'grandfather' to 'forefather, ancestor' already in the Shāhnāme, which uses both (Ferdowsī's «نیا (فریدون) تخت زرین و گرز گران / بدو داد» has the narrow sense, Nourai's quoted line «چنین بود رسم نیاکان تو» the wide one). Wiktionary's entry agrees: 'From Middle Persian nyʾk' (niyāg, \"grandfather; ancestor\")', plural نیاکان.",
+          "derivation_fa": "فارسی نو «نیا» بازماندهٔ فارسی میانهٔ niyāg است با افتادنِ قاعده‌مندِ همخوان پایانی پس از «ای» کشیده؛ هوبشمان (پژوهش‌های فارسی، ص ۲۴۱) این را قاعده می‌شمارد: «ک» پس از ā در فارسی نو معمولاً می‌افتد — «niyā «جد» = پارسی باستان nyāka-، جمعِ فارسی نو niyāgān» — و در جمع، چون همخوان میان دو واکه است، نگه داشته می‌شود: «نیاگان» (که در نسخه‌ها و در کتاب نورایی «نیاکان» نوشته شده). معین نیز صریح می‌گوید: «نیا [< نیاک] (ا.) جد (اعم از پدر پدر یا پدر مادر)؛ ج. نیاکان». تحول معنایی از «پدربزرگ» به «جد، پیشین» از همان شاهنامه دیده می‌شود؛ در بیتِ «نیا (فریدون) تخت زرین و گرز گران بدو داد» معنای تنگ و در بیتِ نقل‌شدهٔ نورایی «چنین بود رسم نیاکان تو» معنای گسترده به کار رفته است. ویکی‌واژه هم همین را می‌گوید. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7"
+          ],
+          "ref_check": [
+            {"ref": "BQT:2221", "status": "supports", "note": "BQT_v4_pages.txt [pdf page 304] = printed p.2221: the headword نیا with the definition «بمعنی جد باشد مطلقاً خواه پدر پدر و خواه پدر مادر» and Mo'in's footnote 4 giving the Pahlavi and Old Iranian forms and citing «اشتقاق ۱۰۶۲» — i.e. Horn's no. 1062, the very entry Nourai cites as HRN:238. The نیاکان entry follows on printed p.2223 with footnote 6: «جمع «نیا»؛ پهلوی nyākān ... در فارسی niyāgān»"},
+            {"ref": "HRN:238", "status": "supports", "note": "HRN.txt leaf 259 = printed p.238, entry 1062: 'niyā \"Grossvater, Ahne (Plur. niyāgān)\", ap. aw. nyāka- \"Grossvater\", vergl. ap. apanyāka- \"Ahne\"; phlv. nyōk' — root, Pahlavi stage, New Persian word and plural, exactly as charted"}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, Farhang-e Farsi, s.v. نیا (MON_part2.txt line 81707)", "stance": "supports", "note": "«نیا [< نیاک] (ا.) جد (اعم از پدر پدر یا پدر مادر)؛ ج. نیاکان»"},
+            {"src": "BQT", "where": "vol. 4 printed pp.2221 and 2223 (pdf pages 304, 306)", "stance": "supports", "note": "as quoted in ref_check; Mo'in's footnote also gives Pashto nīka, Baluchi nākō and reports Horn's reading of the Persian plural as niyāgān"},
+            {"src": "HUB", "where": "Persische Studien p.241 (and p.152)", "stance": "supports", "note": "'ni[yā] \"Ahne\" = ap. nyākă- \"Grossvater\" (np. plur. niyāgān)', in the paragraph on the loss of final k after ā"},
+            {"src": "PHD", "where": "MacKenzie p.60 s.v. niyāg", "stance": "supports", "note": "the entry's bracket '[nyʾk' | M nyʾg, N niyā]' explicitly gives New Persian niyā as the descendant"},
+            {"src": "ARY", "where": "grep 'نیا' / 'NYAKA' in ARY_pages.txt and ARY_latin_index_pages.txt", "stance": "silent", "note": "no headword found in the OCR (the Persian hits are all دنیا/نیاز/اروپاییان); Aryanpur has no Indo-European root for the word either"}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Avestan / Old Persian",
+          "words": "apa-nyâka",
+          "verdict": "plausible",
+          "derivation": "The compound is genuine and the analysis is Nourai's: Old Persian apaniyāka- = apa- 'away, off' (PIE *apo-, cf. Skt. apa, Gk. apo, Lat. ab) + niyāka- 'grandfather', i.e. the generation removed beyond the grandfather. It is attested once, in Artaxerxes II's Susa inscription A²Sa 4: 'imam apadāna Dārayavauš apaniyākama akunauš' 'this apadāna Darius my ancestor built' (apaniyākama = the word plus enclitic -ma(iy) 'my'). Two corrections. (i) The gloss: Kent p.168 renders it 'great-great-grandfather', comparing Latin ab-avus, which is the same formation (ab- + avus); Bartholomae has 'Vorfahr des Grossvaters, Urältervater'. Nourai's 'great grandfather' is one generation short, though his second gloss 'ancestor' is what Tolman and Buck give and is how the inscription is normally translated. (ii) The label: apa-nyāka- is Old Persian only — Bartholomae marks it 'p.' (altpersisch) alone, not 'j., p.' as he does for nyāka- itself — so the box's 'Avestan / Old Persian' header overstates the attestation. Hence plausible rather than confirmed: the arrow root → apa-nyāka- is right, the gloss and language label are loose.",
+          "derivation_fa": "این ترکیب اصیل است و تجزیهٔ آن همان است که نورایی می‌گوید: پارسی باستان apaniyāka- از apa- «دور، آن‌سو» (هندواروپایی *apo-، سنسکریت apa، یونانی apo، لاتین ab) + niyāka- «پدربزرگ»، یعنی نسلی فراتر از پدربزرگ. تنها یک شاهد دارد، در کتیبهٔ شوشِ اردشیر دوم (A²Sa 4): «ایمَم اَپَدانا دارَیَوَئوش اَپَنیاکَمَ اَکوناوش» یعنی «این کاخ را داریوشِ نیایِ من ساخت». دو اصلاح لازم است: نخست معنا — کنت (ص ۱۶۸) آن را «پدرِ پدربزرگِ پدر» (great-great-grandfather) می‌گیرد و با لاتین ab-avus می‌سنجد که همان ساخت است، و بارتولمه «نیای پدربزرگ» می‌آورد؛ پس «جد» نورایی یک نسل کوتاه است، هرچند معنای دومش «نیا/جد» همان است که تولمن و باک داده‌اند. دوم برچسب زبان — این واژه تنها در پارسی باستان گواه دارد و بارتولمه آن را فقط با نشان «p.» می‌آورد، نه «j., p.»؛ پس عنوان «اوستایی / پارسی باستان» جعبه بیش از گواهی موجود است. به همین دو دلیل: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%86%DB%8C%D8%A7"
+          ],
+          "ref_check": [
+            {"ref": "KNT:168", "status": "partial", "note": "Kent, Lexicon (KNT.txt line 5000, scan leaf 190 = printed p.168, the offset confirmed by the lexicon's alphabetical run): 'apaniyāka- sb. \"great-great-grandfather\": from apa- + niyāka- \"grandfather\", cf. Lt. ab-avos'. The page is the right one and gives Nourai's morphology, but glosses the word one generation further back than Nourai's 'great grandfather'"}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "s.v. apa-nyāka- (BRT.txt line 3565, scan leaf 78)", "stance": "partial", "note": "'p. apa-nyāka- m. \"Vorfahr des Grossvaters, Urältervater\": dārayavaʾuš °kaʾmaʾ \"Darius mein Urältervater\" Am. I.' — Old Persian only, and 'Urältervater', not 'great grandfather'"},
+            {"src": "TLM", "where": "Tolman, Ancient Persian Lexicon s.v. apanyaka (TLM.txt line 1114, scan leaf 84)", "stance": "supports", "note": "'apanyaka, m. ancestor. Nom. sg. apanyaka ... imam apadana darayavaus apanyakama akunas. apa (q.v.) + nyaka (Phl. nyak).' — Nourai's second gloss and his morphology"},
+            {"src": "SYN", "where": "Buck §2.46, p.110", "stance": "supports", "note": "'OPers. ... apa-nyāka- \"ancestor\"' — again the loose gloss, and again Old Persian only"},
+            {"src": "HUB", "where": "Persische Studien p.104, addendum to Horn no. 1062 (HUB.txt line 3660)", "stance": "supports", "note": "'1062. Lies afgh. nīka (Raverty nīkceh) und ap. apanyaka-' — Hübschmann correcting Horn's spelling of exactly this compound"},
+            {"src": "KNT", "where": "§146.III (KNT.txt line 1802)", "stance": "partial", "note": "'Of somewhat uncertain analysis: niyāka-, apa-niyāka-, marīka-' — Kent flags the formation as not fully clear"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": null,
+          "words": "",
+          "verdict": "unverified",
+          "derivation": "There is nothing to verify. On the printed page (pdf 371 = book p.341; image saved at data/verification/sources/refs/ocr/BOOK/371.png) the box hanging to the right of the apa-nyāka box is a completely empty double-ruled rectangle: no language header, no reference, no word, and no arrow leaving it. It is a layout artefact of Nourai's chart software — the same blank filler box that appears on other pages (cf. the verified pages 121 and 137) — and the extraction is faithful in recording it with no language, no refs and no words. No claim is made, so none can be checked.",
+          "derivation_fa": "چیزی برای بررسی نیست. در صفحهٔ چاپی (صفحهٔ ۳۴۱ کتاب = برگ ۳۷۱ پی‌دی‌اف؛ تصویر در data/verification/sources/refs/ocr/BOOK/371.png ذخیره شده) جعبه‌ای که در سمت راستِ جعبهٔ apa-nyāka آویخته است مستطیلی است کاملاً خالی با دو خط حاشیه: نه نام زبان دارد، نه ارجاع، نه واژه، و نه پیکانی از آن بیرون می‌رود. این جعبه صرفاً بازماندهٔ صفحه‌آرایی نمودارهای نورایی است — همان جعبهٔ خالیِ پرکننده که در صفحه‌های دیگر (مانند صفحه‌های ۱۲۱ و ۱۳۷ که پیش‌تر بررسی شده‌اند) هم دیده می‌شود — و خوانش اسکن درست عمل کرده و آن را بدون زبان و بدون واژه ثبت کرده است. چون ادعایی در آن نیست، داوری‌ای هم نمی‌توان کرد.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "the box carries no reference; nothing to look up"}
+          ],
+          "consulted": [
+            {"src": "BOOK", "where": "printed page 341 (pdf 371), rendered at 200 and 400 dpi", "stance": "silent", "note": "the box is empty on the page itself — verified on the image copied to data/verification/sources/refs/ocr/BOOK/371.png"},
+            {"src": "KNT", "where": "Lexicon pp.168, 194", "stance": "silent", "note": "no further derivative of apa-niyāka- exists in Old Persian that the box could stand for"}
+          ]
+        }
+      ]
+    }
+  ]
+}
