@@ -44,7 +44,8 @@ ARY (Aryanpur) is alphabetical by Persian headword; grep the Persian word in ARY
 - **BRT** — C. Bartholomae, Altiranisches Wörterbuch, Strassburg 1904 (repr. de Gruyter 1979, same pagination)
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/BRT.txt`
 - **KNT** — R. G. Kent, Old Persian: Grammar, Texts, Lexicon, AOS 1950/1953
-  `/home/sfmqrb/git/rishe/data/verification/sources/refs/KNT.txt`
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/KNT.txt` (truncated before the lexicon's h–z section, ~p. 208 on)
+  `/home/sfmqrb/git/rishe/data/verification/sources/refs/KNT_full.txt` (complete archive.org djvu text — use this for lexicon pages 208–215: haumavarga-, siyamam, etc.)
 - **PHD** — D. N. MacKenzie, A Concise Pahlavi Dictionary, Oxford 1971
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/PHD.txt`
   `/home/sfmqrb/git/rishe/data/verification/sources/refs/PHD_mackenzie.txt`
