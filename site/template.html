@@ -412,7 +412,6 @@
   }
 
   /* ============ FLOWS VIEW ============ */
-  #view-flows { flex-direction: column; overflow: auto; }
   .flowpanel { max-width: 1020px; margin: 0 auto; padding: 30px 24px 160px; width: 100%; }
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 30px; }
   .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; box-shadow: var(--shadow); }
@@ -482,6 +481,19 @@
   .rsec .r-sub { color: var(--muted); font-style: italic; font-size: 13.5px; margin: 0 0 14px; }
   html[lang="fa"] .rsec .r-sub { font-style: normal; }
   .rsec p { margin: 8px 0; font-size: 15px; line-height: 1.6; max-width: 78ch; }
+  .rnav { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+  .rnav a { font-family: var(--sans); font-size: 12px; padding: 4px 11px; border: 1px solid var(--line);
+    border-radius: 999px; color: var(--muted); text-decoration: none; background: var(--panel); white-space: nowrap; }
+  .rnav a:hover { color: var(--ink); border-color: var(--accent); }
+  .rsec .r-more { display: none; }
+  .rsec.open .r-more { display: block; }
+  .rsec .r-glance > .rfinding { margin-top: 12px; }
+  .rmore-btn { font-family: var(--sans); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent);
+    background: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; margin: 12px 0 0; }
+  .rmore-btn:hover { border-color: var(--accent); }
+  html[lang="fa"] .rmore-btn { text-transform: none; letter-spacing: 0; }
+  .rsec .tiles { margin: 6px 0 14px; }
+  .rsec .sankeywrap { border: none; box-shadow: none; padding: 0; background: transparent; }
   .rfinding { border-inline-start: 4px solid var(--gold); background: var(--quote-bg);
     padding: 10px 16px; margin: 12px 0; border-radius: 0 8px 8px 0; font-size: 15.5px; }
   html[dir="rtl"] .rfinding { border-radius: 8px 0 0 8px; }
@@ -631,7 +643,6 @@
       <button data-v="map">Map</button>
       <button data-v="roots">Roots</button>
       <button data-v="path">Pathfinder</button>
-      <button data-v="flows">Flows</button>
       <button data-v="journey">Journey</button>
       <button data-v="research">Research</button>
       <button data-v="about">About</button>
@@ -680,20 +691,6 @@
       </div>
       <div class="famouspairs" id="famouspairs"></div>
       <div id="pathout"></div>
-    </div>
-  </section>
-
-  <section class="view" id="view-flows">
-    <div class="flowpanel">
-      <h1 class="path-title">Where Persian words come from</h1>
-      <p class="path-sub">Counted from the root charts extracted so far.</p>
-      <div class="tiles" id="tiles"></div>
-      <div class="sankeywrap">
-        <h2>Borrowing routes into Persian</h2>
-        <p class="chart-sub">Each ribbon is a group of Persian words: from the family of their ultimate root, through the route they travelled.</p>
-        <div id="sankey"></div>
-        <details class="flowtable"><summary>View as table</summary><div id="flowtablebody"></div></details>
-      </div>
     </div>
   </section>
 
@@ -1251,11 +1248,12 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
   }
 
   /* ---------------- view manager ---------------- */
-  const views = ["map", "roots", "path", "flows", "journey", "research", "about"];
+  const views = ["map", "roots", "path", "journey", "research", "about"];
   const tabs = document.querySelectorAll("nav.tabs button");
   let curView = "";
   const onShowView = {};
   function setView(v, skipHash) {
+    if (v === "flows") v = "research";
     if (!views.includes(v)) v = "map";
     curView = v;
     views.forEach(x => document.getElementById("view-" + x).classList.toggle("on", x === v));
@@ -3235,6 +3233,16 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
       "</div>",
       rr("A word counts as “modern Persian” when its chart box is labeled Persian — not Old or Middle Persian. Its route is read straight off the ancestor chain the book draws: a Semitic ancestor means “via Arabic”; failing that, a European ancestor means “via European”; then Turkic; and if none of these, the word is inherited.",
          "واژه‌ای «فارسی نو» به شمار می‌آید که کادرش در نمودار برچسب Persian داشته باشد — نه فارسی باستان و نه میانه. مسیر هر واژه مستقیم از زنجیرهٔ نیاکانی خوانده می‌شود که خود کتاب ترسیم کرده است: نیای سامی یعنی «از راه عربی»؛ وگرنه نیای اروپایی یعنی «از راه اروپایی»؛ سپس ترکی؛ و اگر هیچ‌کدام نبود، واژه موروثی است."));
+    /* ---- where Persian words come from (formerly the Flows tab) ---- */
+    h += rsec(
+      t("flowsH1"),
+      t("flowsSub"),
+      '<div class="tiles" id="tiles"></div>' +
+      '<div class="sankeywrap"><h2>' + esc(t("sankeyH2")) + '</h2><p class="chart-sub">' + esc(t("sankeySub")) + '</p>' +
+      '<div id="sankey"></div>' +
+      '<details class="flowtable"><summary>' + esc(t("viewTable")) + '</summary><div id="flowtablebody"></div></details></div>',
+      rr("Counts come straight from the charts: a Persian word is any box labeled Persian (not Old or Middle Persian); its route is the first foreign family met on the way up its ancestor chain — Semitic, European or Turkic — and otherwise the word is inherited. The ribbons group words by the family of their ultimate root and the route they travelled.",
+         "شمارش‌ها مستقیم از نمودارها می‌آیند: واژهٔ فارسی هر کادری است که برچسب Persian دارد (نه فارسی باستان و نه میانه)؛ مسیر آن نخستین تبار بیگانه‌ای است که در بالا رفتن از زنجیرهٔ نیاکانش دیده می‌شود — سامی، اروپایی یا ترکی — و در غیر این صورت واژه موروثی است. نوارها واژه‌ها را بر پایهٔ تبار ریشهٔ نهایی و مسیر سفرشان گروه می‌کنند."));
     /* ---- semantic fields ---- */
     if (R.domains) {
       const D = R.domains;
@@ -3475,6 +3483,36 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
         "خطِ تولید هم درزهای شناخته‌شده‌ای دارد: متن را مدل‌های بینایی از روی اسکن استخراج کرده‌اند (کفِ کوچکی از خطای نویسه‌گردانی می‌ماند)، ترجمه‌های فارسی و برچسب‌های میدان معنایی کارِ حاشیه‌نویس‌های مدل زبانی‌اند (برچسب‌ها با حاشیه‌نویسی دوگانه و فقط موارد هم‌رأی)، و پیوندهای ☞ «جزء مشترک» را با «نیز ببینید» در هم می‌آمیزند. دو گام از «گام‌های بعدیِ» پیشین اکنون در بالا نشسته‌اند — پیکرهٔ گنجور تاریخ نخستین گواهی شعری و آزمون تمام‌دیوانیِ شیب شاعران را فراهم کرد — و سومی همچنان باز است: سنجش خودِ زنجیره‌های اشتقاق با منابعی مانند ویکی‌واژه و OED.") + "</p>",
       "");
     box.innerHTML = h;
+    /* organise: section nav + glance/read-more split */
+    const secs = Array.from(box.querySelectorAll(".rsec"));
+    const GLANCE = el => el.matches(".rstats, .rchart, .rfinding, .tiles, .sankeywrap") || el.tagName === "SVG";
+    secs.forEach((sec, i) => {
+      sec.id = "rs" + i;
+      const kids = Array.from(sec.children).filter(el => !el.matches("h2, .r-sub"));
+      const glance = document.createElement("div"); glance.className = "r-glance";
+      const more = document.createElement("div"); more.className = "r-more";
+      let hasVisual = kids.some(GLANCE);
+      kids.forEach((el, n) => {
+        const toGlance = hasVisual ? GLANCE(el) : (n === 0);
+        (toGlance ? glance : more).appendChild(el);
+      });
+      sec.appendChild(glance);
+      if (more.children.length) {
+        const btn = document.createElement("button"); btn.type = "button"; btn.className = "rmore-btn";
+        const lbl = () => { btn.textContent = sec.classList.contains("open") ? rr("Show less ▴", "کمتر ▴") : rr("Read more ▾", "بیشتر بخوانید ▾"); };
+        btn.addEventListener("click", () => { sec.classList.toggle("open"); lbl(); if (!sec.classList.contains("open")) sec.scrollIntoView({ block: "nearest" }); });
+        lbl();
+        sec.appendChild(btn); sec.appendChild(more);
+      }
+    });
+    const nav = document.createElement("nav"); nav.className = "rnav";
+    nav.innerHTML = secs.map(sec => '<a href="#' + sec.id + '">' + esc(sec.querySelector("h2").textContent) + "</a>").join("");
+    nav.querySelectorAll("a").forEach(a => a.addEventListener("click", e => {
+      e.preventDefault(); const target = document.getElementById(a.getAttribute("href").slice(1));
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    box.insertBefore(nav, box.firstChild);
+    buildFlows();
   }
   document.getElementById("rpanel").addEventListener("click", ev => {
     const b = ev.target.closest(".seechip[data-goto]");
@@ -3671,7 +3709,7 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     const can = document.querySelector('link[rel="canonical"]');
     if (can) can.setAttribute("href", "https://sfmqrb.github.io/rishe/" + (fa ? "?lang=fa" : ""));
     document.querySelector(".tagline").textContent = t("tagline");
-    const tabT = { map: "tabMap", roots: "tabRoots", path: "tabPath", flows: "tabFlows", journey: "tabJourney", research: "tabResearch", about: "tabAbout" };
+    const tabT = { map: "tabMap", roots: "tabRoots", path: "tabPath", journey: "tabJourney", research: "tabResearch", about: "tabAbout" };
     tabs.forEach(b => { b.textContent = t(tabT[b.dataset.v]); });
     document.getElementById("rand").textContent = t("randRoot");
     $theme.title = t("themeTitle");
@@ -3695,11 +3733,6 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     document.querySelector("#pickB input").placeholder = t("phB");
     const swapBtn = document.getElementById("swapAB");
     swapBtn.textContent = t("swap"); swapBtn.title = t("swapTitle");
-    document.querySelector("#view-flows .path-title").textContent = t("flowsH1");
-    document.querySelector("#view-flows .path-sub").textContent = t("flowsSub");
-    document.querySelector(".sankeywrap h2").textContent = t("sankeyH2");
-    document.querySelector(".sankeywrap .chart-sub").textContent = t("sankeySub");
-    document.querySelector("#view-flows .flowtable summary").textContent = t("viewTable");
     document.querySelector("#view-journey .path-title").textContent = t("journeyH1");
     document.querySelector("#view-journey .path-sub").textContent = t("journeySub");
     document.querySelector("#pickJ label").textContent = t("wordLbl");
@@ -3720,7 +3753,6 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     renderList($q.value.trim());
     if (activeEi >= 0 && !$main.querySelector(".empty")) show(activeEi, undefined, true);
     flowsBuilt = false;
-    if (curView === "flows") buildFlows();
     researchBuilt = false;
     if (curView === "research") buildResearch();
     if (pA && pB) runPath();
