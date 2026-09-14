@@ -1,0 +1,590 @@
+{
+ "pdf_page": 420,
+ "book_page": 390,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-13",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Rek, Reg 2",
+   "verdict": "plausible",
+   "modern_form": "PIE *reḱ- / *reǵ- 'to bind, tie' (Pokorny 863 \"rek-, reg- ,binden'?\"); in practice reconstructable only as Proto-Indo-Iranian *rać- 'to bind, tie'",
+   "note": "Nourai's root box reproduces Pokorny p.863 exactly: \"rek-, reg- ,binden'?\" with the Sanskrit material raśanā / raśmi-. The language label (Indo-European) and the gloss ('to tie') are faithful. What Nourai drops is the question mark: Pokorny prints \"binden'?\" and Walde-Pokorny II 362 opens the entry with \"Unsicher\". Both split the material in two — the Indo-Iranian words point to a palatal *reḱ-, the Germanic ones (ON rakki, rekendi, OE racente, OHG rahhinza) to *reǵ- — so there is no secure single IE root; modern handbooks (Wiktionary, after Mayrhofer EWAia) reconstruct only PII *rać-. Hence 'plausible' rather than 'confirmed'. Note that the two neighbouring entries on the same page — \"2. rek- ,anordnen'\" (Skt. racayati, racana-) and \"rek-, reg- ,binden'?\" (Skt. raśanā) — are the source of the misprint in node #1.",
+   "note_fa": "ریشهٔ «Rek, Reg 2» با معنی «بستن» درست از پوکورنی (ص ۸۶۳) و والده‑پوکورنی (ج۲ ص۳۶۲) گرفته شده است؛ نام زبان (هندواروپایی آغازین) و معنی هم درست است. اما نورایی علامت پرسشِ پوکورنی را نیاورده: خودِ پوکورنی «binden?» می‌نویسد و والده‑پوکورنی مدخل را با واژهٔ «Unsicher» (نامطمئن) آغاز می‌کند، زیرا واژه‌های هندوایرانی (سنسکریت raśanā و raśmi-) به ریشهٔ کامی *reḱ- و واژه‌های ژرمنی به *reǵ- می‌رسند. ریشه‌شناسی امروزی تنها *rać- هندوایرانی آغازین را بازسازی می‌کند. بنابراین ادعای نورایی «با احتیاط پذیرفتنی» است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%B6%E0%A4%A8%E0%A4%BE",
+    "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%D9%86"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:863",
+     "status": "supports",
+     "note": "POK_03.txt (leaf 101-102, printed p.863, between the page marks '863' and '864'): \"rek-, reg- ,binden'? / Ai. rasanā f. ,Strick, Riemen, Gürtel', rasmi- m. ,Strang, Riemen, Zügel'; aschwed. hurraka (hurð-) ,Heck-Band', aisl. rakki m. ,Stropp zum Festhalten der Rahe', ags. racca m. ds., aisl. rekendi n. ... WP. II 362.\" Exactly Nourai's root, gloss and Sanskrit witness."
+    },
+    {
+     "ref": "WLD2:362",
+     "status": "supports",
+     "note": "WLD_Bd2_pages.txt leaf 366 (header '362  reḱ-, reǵ'): \"rek-, reg- ,binden'? Unsicher. Ai. raśanā f. ,Strick, Riemen, Gürtel', raśmi m. ,Strang, Riemen, Zügel', zu idg. reḱ?; aschw. hurraka ... ahd. rahhinza f. dass. zu idg. reǵ? (Fick III⁴ 332 f.)\". Page number exactly right (offset: leaf = printed + 4, checked against leaves 370 = p.366 and 375 = p.371)."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "POK",
+     "where": "IEW p.863 (POK_03.txt leaf 101)",
+     "stance": "supports",
+     "note": "\"rek-, reg- ,binden'? ... WP. II 362\" — with the question mark Nourai omits."
+    },
+    {
+     "src": "WLD",
+     "where": "Bd. II p.362 (leaf 366)",
+     "stance": "partial",
+     "note": "\"Unsicher\" — Walde-Pokorny treat the root as doubtful and split the evidence between idg. reḱ? (Indo-Iranian) and idg. reǵ? (Germanic)."
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, s.v. rek- (1) 'formulate, arrange, fix' (IEC.txt l.14488)",
+     "stance": "silent",
+     "note": "Mann has rek- (1) 'formulate, arrange, fix' (Skt. racayami) and rek- (2) 'utter, pronounce', but NO rek- 'bind'; grep for 'rasanā/raśanā' in IEC.txt returns nothing."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 (AHD_watkins1985.txt)",
+     "stance": "silent",
+     "note": "No *rek-/*reg- 'bind' entry; the appendix lists only roots with English reflexes and this root has none."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "račana, rašanâ",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "račana, rašanâ",
+     "correct_form": "rašana, rašanâ (Skt. raśana n. / raśanā́ f.)",
+     "derivation": "The second form is right: Skt. raśanā́ f. (also raśana n.) 'cord, rope, string, thong; girdle, rein', from PII *raćanáH, built with the -ana- suffix on the root *rać- 'to bind, tie'; the same root gives Skt. raśmán-, raśmí- 'strap, rein'. The FIRST form is wrong. Nourai prints 'račana', i.e. Skt. racanā́ / racana-, which is a real Sanskrit word but means 'arranging, ordering, composing' (from rac- 'to arrange, produce') and belongs to the neighbouring Pokorny entry \"2. rek- ,anordnen'\" printed a few lines above on the very same page 863 (and on WP II 362, immediately above \"rek-, reg- ,binden'?\"). Nourai evidently copied the headword of the adjacent root; the intended form was surely 'rašana' (raśana), the neuter by-form of raśanā, since in his typeface č and š differ only in the letter under the háček. The printed page 420 of the dictionary does read 'račana' (image at data/verification/sources/refs/ocr/BOOK/420.png), so the extraction is faithful and the error is the book's.",
+     "derivation_fa": "صورت دوم درست است: سنسکریت raśanā́ (مؤنث) و raśana (خنثی) به معنی «ریسمان، بند، کمربند، افسار»، از هندوایرانی آغازین *raćanáH، ساخته‌شده از ریشهٔ *rać- «بستن» با پسوند -ana-؛ هم‌ریشه با raśmi- «تسمه، مهار». اما صورت نخست نادرست است: «račana» همان racanā́ سنسکریت است که معنی آن «آراستن، ترتیب دادن، سرودن» است و به ریشهٔ دیگری (rek- «نظم دادن») تعلق دارد که پوکورنی چند سطر بالاتر در همان صفحهٔ ۸۶۳ آورده است. ظاهراً نورایی مدخل مجاور را به‌اشتباه رونویسی کرده و مقصودش «rašana» بوده است (در حروف‌چینیِ او č و š تنها در حرف زیر هاچک تفاوت دارند). تصویر صفحهٔ ۴۲۰ نشان می‌دهد که خودِ کتاب «račana» چاپ کرده؛ پس خطای چاپی کتاب است، نه خطای خوانش اسکن.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%B6%E0%A4%A8%E0%A4%BE",
+      "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "WLD2:362",
+       "status": "partial",
+       "note": "WLD Bd. II p.362 (leaf 366) gives under \"rek-, reg- ,binden'?\": \"Ai. raśanā f. ,Strick, Riemen, Gürtel'\" — the second of Nourai's two forms only. The first form 'račana' is in fact material of the entry printed immediately above on the same page: \"reḱ-, reǵ- ,anordnen'. Ai. racayati ,verfertigt, bildet', racana n. ,Ordnen, Betreiben'\" — a different root and a different meaning."
+      },
+      {
+       "ref": "POK:863",
+       "status": "partial",
+       "note": "Same situation in Pokorny p.863: \"2. rek- ,anordnen': Ai. racayati ,verfertigt, bildet', racana- n. ,Ordnen, Betreiben'\" stands a few lines above \"rek-, reg- ,binden'?: Ai. rasanā f. ,Strick, Riemen, Gürtel'\". Pokorny supports 'rašanā = rope', not 'račana = rope'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW p.863",
+       "stance": "partial",
+       "note": "Supports raśanā 'Strick, Riemen, Gürtel'; assigns racana- to the separate root 'anordnen'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. II p.362",
+       "stance": "partial",
+       "note": "\"Ai. raśanā f. ,Strick, Riemen, Gürtel', raśmi m. ... zu idg. reḱ?\" — but racana n. 'Ordnen, Betreiben' belongs to the preceding entry."
+      },
+      {
+       "src": "IEC",
+       "where": "Mann s.v. rek- (1) (IEC.txt l.14488)",
+       "stance": "contradicts",
+       "note": "\"rek- (1) 'formulate, arrange, fix' ... Skt. racayami, v. 'prepare, produce, form, adorn, set in motion'\" — Mann too puts the racana-material under 'arrange', not 'bind'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck (SYN.txt), grep 'raśanā/rasanā'",
+       "stance": "silent",
+       "note": "Buck's synonym sections have no entry for the Indo-Iranian word for 'rope'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "rasan",
+     "verdict": "plausible",
+     "derivation": "The word itself is beyond doubt: MacKenzie's Concise Pahlavi Dictionary has \"rasan [lsn' | N ~] rope\", i.e. MP rasan written <lsn'> (Pahlavi <l> = /r/), continuing Old Iranian *racana- with regular Middle Persian loss of the final vowel and the Iranian development *ć > s (whereas Indo-Aryan gives ś). What is drawn wrongly is the ROUTE: the chart makes Pahlavi rasan a descendant of the Sanskrit word, but MP rasan is its sister, not its child — Wiktionary (citing Parthian rasan) derives it from Proto-Iranian *racanáH beside Proto-Indo-Aryan *raśanáH, both from PII *raćanáH. The Armenian loan aṙasan (from an Iranian, not an Indian, source) shows the Iranian branch existed independently. This is Nourai's general chart convention (Sanskrit stands in for the Indo-Iranian parent), so the claim is acceptable with that caveat.",
+     "derivation_fa": "خودِ واژه قطعی است: مکنزی در فرهنگ کوچک پهلوی می‌آورد «rasan [lsn'] رسن، ریسمان». فارسی میانهٔ rasan از ایرانی باستان *racana- می‌آید؛ *ć هندوایرانی در شاخهٔ ایرانی به s و در شاخهٔ هندی به ś بدل شده است (از این‌روست که سنسکریت raśanā دارد و ایرانی rasan). اما مسیرِ رسم‌شده در نمودار درست نیست: پهلوی rasan فرزندِ واژهٔ سنسکریت نیست بلکه هم‌ریشه (خواهرِ) آن است؛ ویکی‌واژه آن را از ایرانی آغازین *racanáH (در کنار پارتی rasan) می‌گیرد و وام‌واژهٔ ارمنی aṙasan نیز از منبعی ایرانی گرفته شده نه هندی. چون نورایی معمولاً سنسکریت را به‌جای «نیایِ هندوایرانی» می‌نشاند، ادعا با همین قید پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%D9%86",
+      "https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%B6%E0%A4%A8%E0%A4%BE"
+     ],
+     "ref_check": [
+      {
+       "ref": "SNS:227",
+       "status": "supports",
+       "note": "Tavoosi, Vāže-nāme-ye Šāyast ne Šāyast: the word index (SNS_pages.txt l.15896) lists \"rasan 227/3\" — the text page/line the glossary entry cites; the glossary entry itself (SNS_pages.txt l.9047) carries the Latin transliteration 'rasan' beside a Persian gloss (the Persian OCR is unusable). So the citation points at a genuine Pahlavi attestation of rasan."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971, s.v. rasan (PHD.txt l.557; PHD_mackenzie.txt l.4344)",
+       "stance": "supports",
+       "note": "\"rasan [lsn' | N ~] rope\" — Pahlavi rasan 'rope', with the New Persian form identical."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II (NYB_vol2_glossary.txt)",
+       "stance": "silent",
+       "note": "The glossary has rāmišn, ramak, hu-ramak etc. but no entry for rasan (grep '^rasan' returns nothing)."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss no. 615, p.137",
+       "stance": "partial",
+       "note": "Horn takes NP \"resen 'Strick'\" straight from \"ai. raśanā 'Strick, Riemen, Zügel, Gurt'\" without citing a Pahlavi form — so he supports the word but not an explicit Pahlavi stage."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "rasan",
+     "verdict": "confirmed",
+     "derivation": "NP رَسَن rasan 'rope, cord' is the regular continuation of MP rasan (<lsn'>, MacKenzie p.70), itself from Proto-Iranian *racanáH < PII *raćanáH, root *rać- 'to bind' — the Iranian cognate of Skt. raśanā́. Horn, Grundriss no. 615 (p.137) sets NP resen 'Strick' beside Skt. raśanā, notes the Armenian loans erasan / apa-rasan 'Zügel', and states expressly \"arab. hebr. LW. rasan\", i.e. Arabic رَسَن and Hebrew רֶסֶן are loans FROM Iranian, not the reverse. The chart's own NOTE reports two contrary opinions, and modern scholarship settles them in Nourai's favour: (a) MON:1654 / AFM:72 make rasan an Arabicised form of Persian rīsmān — this is wrong, since rīsmān belongs to the verb rēs- 'to spin' (Horn no. 617: \"risten 'spinnen', Praes. res-em, riste, resmān, rismān\", root *raiś-), a different root, and an Arabic reshaping of rīsmān into rasan is phonetically impossible; (b) PLA:138 (Asbaghi) derives Arabic rasan from Pahlavi rasan — this is the accepted view, shared by Wiktionary ('Arabic رَسَن: borrowed from Middle Persian lsn' /rasan/ \"rope\"') and by Horn. The idiom رَسَن زدن 'to measure (land) with a rope' and the Ferdowsī line quoted are genuine classical usages of the noun.",
+     "derivation_fa": "«رَسَن» دنبالهٔ منظمِ فارسی میانهٔ rasan است که خود از ایرانی آغازین *racanáH و در نهایت از ریشهٔ هندوایرانی *rać- «بستن» می‌آید و هم‌ریشهٔ سنسکریت raśanā است. هرن (بند ۶۱۵، ص ۱۳۷) «رسن» فارسی را کنار raśanā سنسکریت می‌نهد و به‌صراحت می‌نویسد «رَسَنِ عربی و רסן عبری وام‌واژه‌اند»، یعنی جهتِ وام‌گیری از ایرانی به سامی است. یادداشتِ خودِ نمودار دو نظر متضاد را نقل می‌کند و پژوهش امروزی حق را به نورایی می‌دهد: ادعای معین و ادّی‌شیر که «رسن» تلفّظ عربیِ «ریسمان» باشد پذیرفتنی نیست، چون «ریسمان» از ستاک ریس‑/رشتن (ریشهٔ *raiś- «رشتن») است و ریشهٔ دیگری دارد (هرن، بند ۶۱۷)؛ در برابر، اسبغی («وام‌واژه‌های فارسی در عربی»، ص ۱۳۶) و ویکی‌واژه رَسَنِ عربی را معرَّبِ rasan پهلوی می‌دانند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B1%D8%B3%D9%86",
+      "https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%B6%E0%A4%A8%E0%A4%BE"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:137",
+       "status": "supports",
+       "note": "Horn, Grundriss der neupersischen Etymologie, p.137 (HRN.txt leaf 158), no. 615: \"resen 'Strick'. ai. raśanā́ 'Strick, Riemen, Zügel, Gurt'; arm. LW. apa|rasan 'zügellos', erasan, erasanak 'Zügel' (Hübschmann, No. 96). arab. hebr. LW. rasan, bezw. רסן.\" Exactly the chart's derivation, and it settles the note: Arabic and Hebrew have the word as a LOANWORD."
+      },
+      {
+       "ref": "SNS:227",
+       "status": "supports",
+       "note": "See node #2: Tavoosi's index (SNS_pages.txt l.15896) lists 'rasan 227/3'."
+      },
+      {
+       "ref": "MON:1654",
+       "status": "not_checked",
+       "note": "Moʿin's Farhang-e Fārsi is online only at vajehyab/abadis, where page numbers cannot be mapped, and the local files (MON_part1/part2 = the 2-vol Adena abridgement) have different pagination and no رسن headword (grep 'رسن' in MON_part2.txt yields only compounds such as رسن‌باز). The substance of the claim is refuted independently by Horn 137/617 and Asbaghi 136."
+      },
+      {
+       "ref": "AFM:72",
+       "status": "partial",
+       "note": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba, printed p. ٧٢ = 72 (AFM.pdf leaf 74; read from the page image, transcript saved at data/verification/sources/refs/ocr/AFM/72.vision.txt): \"(الرَسَن) الحبل والمَقوَد وهو חבל بالعبرانيّة ايضاً. وفرنكل يقول انّه مأخوذ من الفارسيّ رِيس المشتقّ هو ايضاً من رِيشتَن اي غزل (ص:١٠٠). او هو مشتقّ من رِيسيدن ومعناهُ غزل ايضاً او من رَسَان اي المُوصِّل.\" Addi Shir does report (after Fraenkel) a derivation from Persian rīs / rīštan / rīsīdan 'to spin' — the family of rīsmān — which is roughly what Nourai paraphrases; but he does not say 'rasan is the Arabic pronunciation of rīsmān', and he offers it as one of three alternatives. Page number exactly right."
+      },
+      {
+       "ref": "PLA:138",
+       "status": "supports",
+       "note": "Asbaghi, Persische Lehnwörter im Arabischen (1988), s.v.: \"رسن rasan: 'Strick' aus pers. رسن rasan ← mp. rasan (Mackenzie s.v.), mand. risn, syr. ...\" — exactly Nourai's report. NB the entry stands on printed p.136, not 138 (PLA_pages.txt leaf 151; printed = leaf − 15; the leaf's running head reads 'rasan 136 raff')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 615, p.137 and no. 617, p.137",
+       "stance": "supports",
+       "note": "no.615 \"resen 'Strick'\" from Skt raśanā, with Arabic/Hebrew marked as loanwords; no.617 \"risten 'spinnen', Praes. res-em, riste, resūden, resmān, rismān\" — proving rīsmān is a separate root, so rasan cannot be an Arabicisation of it."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 s.v. rasan",
+       "stance": "supports",
+       "note": "\"rasan [lsn' | N ~] rope\" — 'N ~' means the New Persian form is identical."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien (HUB.txt)",
+       "stance": "silent",
+       "note": "No note on rasan; his no. 96, cited by Horn, concerns the Armenian loan only."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "Cheung, Etymological Dictionary of the Iranian Verb (CHEUNG.txt)",
+       "stance": "silent",
+       "note": "rasan is a noun, not a verbal stem; no entry."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 3,
+   "root": "Rem",
+   "verdict": "confirmed",
+   "modern_form": "PIE *h₁rem- 'to rest, be(come) calm; to prop, support'",
+   "note": "Pokorny p.864 heads the entry \"rem-, rems- ,ruhen, sich aufstützen; stützen'\" and lists, among others, av. rāman- n. 'Ruhe, Friede', npers. rām 'Ruhe; fröhlich, heiter', Skt. rámate, Goth. rimis, Gk. ἠρέμα, Lith. rimti, Toch. AB räm-. Both the language label and the gloss of Nourai's root box are right; the modern notation is *h₁rem- (LIV *h₁remH-). One caveat matters for node #5: Pokorny adds in the very first line that the connection of rem- with erǝ-/rē- 'ruhen' (his pp. 338 f., the root to which Germanic *rastō 'rest' is usually attached) \"ist fraglich\" — so the Germanic branch of this chart is not Pokorny's.",
+   "note_fa": "پوکورنی در ص ۸۶۴ مدخل «rem-, rems-» به معنی «آرمیدن، تکیه دادن؛ نگاه داشتن» را می‌آورد و از جمله اوستایی rāman- «آرامش، صلح»، فارسی نو rām «آرامش؛ شاد»، سنسکریت rámate، گوتی rimis، یونانی ἠρέμα و لیتوانیایی rimti را زیر آن فهرست می‌کند؛ پس نام زبان و معنیِ جعبهٔ ریشه در کتاب نورایی درست است. صورت امروزی این ریشه *h₁rem- است. تنها نکته آنکه خودِ پوکورنی در همان سطرِ نخست می‌گوید پیوندِ rem- با ریشهٔ erǝ-/rē- «آرمیدن» (ص ۳۳۸ به بعد) «مشکوک» است — و شاخهٔ ژرمنیِ این نمودار (rasta و rest) دقیقاً به آن ریشهٔ دوم تعلق دارد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81rem-",
+    "https://en.wiktionary.org/wiki/%D8%A2%D8%B1%D8%A7%D9%85",
+    "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%85"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:864",
+     "status": "supports",
+     "note": "POK_03.txt (printed p.864, between the page marks '864' and '865'): \"rem-, rems- ,ruhen, sich aufstützen; stützen'; im Germ. ,Latte, Leiste'? rom-ti ,Stütze'; Beziehung zu erǝ-, rē- ,ruhen' (S. 338 f.) ist fraglich. Ai. rámate ,steht still, ruht ...'; av. ramya-, rāmōiδβǝm, rāmayeiti ,beruhigt'; ... av. rāman- n. ,Ruhe, Friede', npers. rām ,Ruhe; fröhlich, heiter' ... WP. II 371 f.\""
+    }
+   ],
+   "consulted": [
+    {
+     "src": "POK",
+     "where": "IEW p.864",
+     "stance": "supports",
+     "note": "Root, gloss and the whole Iranian branch (Av. rāman-, NP rām) are Pokorny's own."
+    },
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny Bd. II pp.371-372 (WLD_Bd2_pages.txt leaves 375-376)",
+     "stance": "supports",
+     "note": "Leaf headers read 'rebh- — rem-' (p.371) and '372 rem-' with \"ai. rāma- m. ,Lust, Freude'\" — the source Pokorny cites as 'WP. II 371 f.'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, s.v. rem- (IEC.txt l.14504)",
+     "stance": "partial",
+     "note": "\"rem- 'fit, join, strengthen'. Cf. rom-. WP II, 371. Skt. cf. ráme, mp. (1) 'stop'; ... Go. rimis, n. 'rest, peace'; MHG ram 'prop, support'; OE remian 'mend'; Li. remiu ...\" — same root and same WP reference, but Mann foregrounds 'prop, support' over 'rest'."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 12.19 QUIET, pp.840-841 (SYN.txt l.21442 ff.)",
+     "stance": "supports",
+     "note": "Buck's table for 'quiet' lists \"Av. rāman- (sb.)\" and \"Goth. rimis (sb.)\"; the discussion (§4) adds \"Skt. ram- 'rest, stay' ... also (with prefix) airime 'gently, quietly' ... Grk. ἠρέμα 'quiet, gentle'. Walde-P. 2.371 ff.\""
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 (AHD_watkins1985.txt)",
+     "stance": "silent",
+     "note": "No *rem- entry — the root has no English reflex in Watkins' list, and 'rest' is given no root either."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "râman; airime; hu-rama; paiti-râman",
+     "verdict": "plausible",
+     "derivation": "Two of the four forms are attested Avestan and exactly as glossed. (1) rāman- n. 'Ruhe, Friede' — Bartholomae, Altiranisches Wörterbuch col. 1523/24 (scan leaf 833, running head 'rāδinan- … rāmanivant-'): \"j., g. rāman- n. 'Ruhe, Friede'\", with the divine name Rāman xᵛāstra-; the verb rāmaiieiti 'calms' belongs with it. (2) airime Adv. 'quietly' — Bartholomae (scan leaf 137, col. ≈190): \"j. airime Adv. 'still, ruhig': airime gātūm hē nišhiδaiiata 'still soll er an seinem Ort sitzen bleiben' V.5.33, 16.6\", with the Pahlavi rendering armešt; the form is a prefixed *ǝ-rmi- (Gk. ἠρέμα is the exact match), which is why Klein and Buck quote it. (3) and (4) are NOT attested Avestan words but Old Iranian reconstructions: *hu-rāma- 'well at ease' is inferred from Pahlavi hu-rām (Horn no.604, pp.134-135: \"phlv. hu|rām, rām(i)šn, rāmēnītan\") and is the source of NP xorram, exactly as Hübschmann proposed (Persische Studien, note 479, p.55, after Fr. Müller WZKM 7, 373: \"so kann xurram mit Fr. Müller auf iran. *hu-rama- 'sich wohl freuend' zurückgeführt werden, vgl. skr. su-ramya-, su-ramaṇīya-\"); *pati-rāma- is inferred from Sogdian ptrʾm patrām 'calm, peace', which Gharib (Sogdian Dictionary no. 7813) analyses \"patrām (ptrʾm-) < *pati-rama\", and from NP pedrām. So the box is right in substance but over-labels two reconstructions as Avestan.",
+     "derivation_fa": "از چهار صورتِ این جعبه دو تا اوستاییِ گواهی‌شده‌اند و معنیشان هم درست است: rāman- (خنثی) «آرامش، صلح» در فرهنگ ایرانی باستانِ بارتولومه ستون ۱۵۲۳–۱۵۲۴، و قید airime «آهسته، آرام» («airime gātūm hē nišhiδaiiata»، وندیداد ۵٫۳۳ و ۱۶٫۶؛ ترجمهٔ پهلوی آن armešt است) که خود *ǝ-rmi- پیشوندی است و درست با ἠρέμα یونانی می‌خواند. اما دو صورت دیگر اوستایی نیستند بلکه بازساختِ ایرانی باستان‌اند: *hu-rāma- از روی پهلوی hu-rām (هرن، بند ۶۰۴) و فارسی «خرّم» بازسازی شده — همان که هوبشمان در «پژوهش‌های فارسی» یادداشت ۴۷۹ ص ۵۵ به پیروی از فریدریش مولر پیشنهاد کرده — و *pati-rāma- از روی سغدی ptrʾm (قریب، فرهنگ سغدی، شمارهٔ ۷۸۱۳: «patrām < *pati-rama») و فارسی «پدرام». پس محتوای جعبه درست است ولی برچسبِ «اوستایی» برای دو صورتِ بازسازی‌شده گشاده‌دستانه است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81rem-",
+      "https://en.wiktionary.org/wiki/%D8%AE%D8%B1%D9%85",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%AF%D8%B1%D8%A7%D9%85"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:864",
+       "status": "supports",
+       "note": "Pokorny p.864 s.v. rem-: \"av. ramya- ,er soll ruhen', rāmōiδβǝm ,ihr möget stehen bleiben', rāmayeiti ,beruhigt' ... av. rāman- n. ,Ruhe, Friede'\" — rāman- is Pokorny's; airime is not in his list but is in WP II 371, in Buck and in Klein."
+      },
+      {
+       "ref": "KLN:1335",
+       "status": "supports",
+       "note": "Klein, Comprehensive Etymological Dictionary, s.v. 'rest, n.' (KLN_1966.txt l.32546; scan leaf 710, printed pp. ~1334-1335, bracketed by '1330' on leaf 708 and '1336' on leaf 711): \"... fr. I.-E. base *erǝ-, *rē, 'to rest', whence also OE. rōw, ON. rā, MDu. roe, OHG. ruowa ..., 'rest', Avestic airime, 'quietly', Gk. ἐρωή, 'rest' ...\" — Klein does have airime, but under *erǝ-/*rē (Pokorny 338), not under rem-."
+      },
+      {
+       "ref": "SYN:841",
+       "status": "supports",
+       "note": "Buck 12.19 QUIET, pp.840-841: the word table gives \"Av. rāman- (sb.)\" for 'quiet', and §4 reads \"Goth. rimis ... : Skt. ram- 'rest, stay' ... also (with prefix) airime 'gently, quietly' ... Grk. ἠρέμα 'quiet, gentle'. Walde-P. 2.371 ff.\" Both of Nourai's attested forms, on exactly the cited page."
+      },
+      {
+       "ref": "AEF:351",
+       "status": "not_checked",
+       "note": "Khaleqi Motlaq's Asās-e Eštqāq-e Fārsi is the Persian translation of Horn (with Hübschmann's notes) and is not digitised anywhere (refs_online.json 'kind': 'catalog'). Checked against the German originals instead: Horn no. 604 (pp.134-135) and Hübschmann, Pers. Stud. note 479 (p.55) — see 'consulted'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch col. 1523-1524 (scan leaf 833) and col. ≈190 (leaf 137)",
+       "stance": "supports",
+       "note": "\"j., g. rāman- n. 'Ruhe, Friede'\" with the compound Rāman xᵛāstra-; and \"j. airime Adv. 'still, ruhig': airime gātūm hē nišhiδaiiata ... V.5.33, 16.6\". No entry for *hu-rāman- or *paiti-rāman- (grep returns nothing)."
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual of Pahlavi II, s.vv. rāmišn, hu-ramak (NYB_vol2_glossary.txt ll.3232, 2072)",
+       "stance": "partial",
+       "note": "\"rāmišn [l'mšn] pleasure, joy, peace ... — Av. (1511) ram- 'to repose', caus. rāmaya- 'to calm', (1524) rāman- 'peace'\" — independently confirms Bartholomae col. 1524. But Nyberg's \"hu-ramak [hwlmk'] having good herds of cattle ... Paz. hurama; translates Av. (1857) hvąθβa-\" is a different compound (from ramak 'herd') — a warning that Pahlavi hwlm- is ambiguous."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss no. 604, pp.134-135",
+       "stance": "supports",
+       "note": "\"604. rām 'Ruhe; fröhlich, heiter', rāmiš, rāmišt. ap. vergl. Ariya|ramna-, Ἀριαράμνης; aw. rāman- 'Ruhe'; phlv. hu|rām, rām(i)šn, rāmēnītan; ai. rāmi- 'Lust'.\" — Horn has both Av. rāman- and Pahlavi hu-rām."
+      },
+      {
+       "src": "SOD",
+       "where": "Gharib, Sogdian Dictionary nos. 7812-7813 (SOD.txt ll.60424, 60442-60443)",
+       "stance": "supports",
+       "note": "\"patrām (ptrʾm-) © < *pati-rama\" and \"7813 ptrʾm B ... patrām © MP padrām\" — Gharib reconstructs exactly Nourai's *paiti-rāma(n)."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien note 479, p.55 (HUB.txt ll.1879-1892)",
+       "stance": "supports",
+       "note": "\"Ist xurram aus (dem von Vullers angeführten) xuram entstanden wie narr aus nar, so kann xurram mit Fr. Müller (WZKM 7, 373) auf iran. *hu-rama- 'sich wohl freuend' zurückgeführt werden, vgl. skr. su-ramya-, su-ramaṇīya-, su-raman- 'ergötzlich'.\""
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "râm; ârâm; xorram; pedrâm",
+     "verdict": "confirmed",
+     "derivation": "All four are regular Iranian continuations of *ram-. (1) رام rām 'calm, tame' < MP rām (MacKenzie: \"rām [l'm | M r'm] peace; cal. 21st day\") < PIr *rāma- < PIE *h₁rem-; the parenthesised derivatives are correct too — رامش rāmiš < MP rāmišn (Moʿin's footnote in Borhān-e Qāṭeʿ: \"پهلوی rāmišn\"), رامین Rāmīn (the Parthian romance name), شهرام Šahrām 'king-of-peace', and رمه rama 'flock' < MP ramag (Moʿin's footnote: \"پهلوی ramak\"), semantically 'the resting/grazing herd'. (2) آرام ārām < MP ārām, ārāmītan, from PIr *ā-rāma- = preverb ā- + rām-; Horn no.12 (p.5): \"ārām 'Ruhe', ārāmīden, ārāmiš ... aw. āramayat 'er erfreute'; phlv. ārāmītan, ārām 'Ruhe'\", and Abolqāsemi FFD p.25: \"آرام < ایرانی باستان *ā-ram-a-, ā پیشوند فعلی است ... ریشهٔ ram «استراحت کردن» معنی می‌دهد. از ریشهٔ ram «آرمیدن» و «رامیدن» هم آمده‌اند\". (3) خرّم xorram < MP huram (Wiktionary: \"From Middle Persian hwlm /huram/\") < *hu-rāma- 'well at ease' (hu- 'good' + rām-); the geminate -rr- is a New Persian expressive doubling (Hübschmann compares narr from nar). (4) پدرام pedrām < *pati-rāma- (pad 'at, to' + rām), with the Sogdian cognate patrām; Wiktionary: \"An old compound. Akin to Sogdian ptrʾm /patrām/ 'calm, peace'. The first part is from Middle Persian pad ... The second part is from Proto-Indo-European *h₁rem-.\" The Vīs-o-Rāmīn couplet quoted uses both nā-padrām and the denominative bepadrāmad — a genuine 11th-century attestation.",
+     "derivation_fa": "هر چهار واژه دنبالهٔ منظمِ ستاک ram- ایرانی‌اند. «رام» از فارسی میانهٔ rām (مکنزی: «rām آرامش، صلح؛ روز بیست‌ویکم») از ایرانی باستان *rāma- و در نهایت *h₁rem- هندواروپایی است؛ مشتق‌های داخل پرانتز هم درست‌اند: «رامش» از rāmišn پهلوی (حاشیهٔ معین بر برهان قاطع)، «رامین»، «شهرام»، و «رمه» از ramag پهلوی (باز هم حاشیهٔ معین) که از همان ریشه به معنی گلّهٔ آرام‌گرفته/چرنده است. «آرام» از *ā-rāma- ایرانی باستان با پیشوند فعلی ā-؛ هرن (بند ۱۲، ص ۵) «ārām و ārāmītan پهلوی» را می‌آورد و ابوالقاسمی در «فعل‌های فارسی دری» ص ۲۵ همین تحلیل را دارد. «خرّم» از huram فارسی میانه و آن از *hu-rāma- «خوش‌آرام» (hu- «نیک» + rām)؛ مشدّد شدن «ر» در فارسی نو تأکیدی است (هوبشمان آن را با narr از nar می‌سنجد). «پدرام» از *pati-rāma- (pad + rām)، هم‌ریشه با ptrʾm سغدی. ادعای نورایی در هر چهار مورد درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%85",
+      "https://en.wiktionary.org/wiki/%D8%A2%D8%B1%D8%A7%D9%85",
+      "https://en.wiktionary.org/wiki/%D8%AE%D8%B1%D9%85",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%AF%D8%B1%D8%A7%D9%85",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81rem-"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:737,960",
+       "status": "supports",
+       "note": "Borhān-e Qāṭeʿ ed. Moʿin, vol. 2. (a) p.≈737 = BQT_v2_pages.txt leaf 195, the خُرّم cluster: headword \"خرّم ـ بضم اول و فتح ثانی با تشدید. بمعنی شادمان و خوشوقت باشد\" with Moʿin's footnote \"پهلوی xurram (شاد) ... سانسکریت *su-ramya- (دوست داشتن) هوبشمان ۹۷۴\" — precisely the *hu-ram- etymology. (b) p.≈960: the vol-2 offset (printed ≈ leaf + 540, fixed on leaves 431-433 = pp. 971-973) puts رام/رامش on leaves 391-392 and رمه on leaf 422, i.e. pp. ≈931-933 and ≈962; p.960 therefore falls in the رکـ/رمـ stretch rather than exactly on رام, but the relevant footnotes are there: leaf 391 \"پهلوی rāmišn (اسم مصدر)\" with \"رک: آرام، آرامیدن\", leaf 422 \"پهلوی ramak ... رک: رمه\". Substance supported; the page numeral may be off by a page or two (or Nourai's printing differs slightly)."
+      },
+      {
+       "ref": "HRN:5",
+       "status": "supports",
+       "note": "Horn, Grundriss p.5 (HRN.txt leaf 26), no. 12: \"ārām 'Ruhe', ārāmīden, ārāmiš, ארם (jüd.-pers. Bibelübs.). aw. āramayat 'er erfreute'; phlv. ārāmītan, ārām 'Ruhe'. afγ. bel. LW. ārām. Vergl. rām (No. 604).\" Exactly Nourai's آرام."
+      },
+      {
+       "ref": "AEF:351",
+       "status": "not_checked",
+       "note": "Not digitised (see the Avestan node); its content is Horn + Hübschmann, both checked directly."
+      },
+      {
+       "ref": "FAF:251",
+       "status": "not_checked",
+       "note": "Daneshgar, Farhang-e Aʿlām-e Fārsi: refs_online.json records 'kind': 'none' — nothing digitised on any platform. Presumably cited for the proper names Šahrām / Rāmīn / Pedrām."
+      },
+      {
+       "ref": "FFD:25",
+       "status": "supports",
+       "note": "Abolqāsemi, Feʿl-hā-ye Fārsi-ye Dari, printed p. ۲۵ = 25 (FFD_pages.txt, pdf page 30; printed = pdf − 5), s.v. آرامیدن. آرمیدن: \"«آرامید» مادهٔ ماضی جعلی است ... آرام < ایرانی باستان *ā-ram-a-, ā پیشوند فعلی است ... ram صورت بالانیدهٔ ریشهٔ ram است. ریشهٔ ram «استراحت کردن» معنی می‌دهد. از ریشهٔ ram «آرمیدن» و «رامیدن» هم آمده‌اند.\" Exactly the chart's ā-rām and rāmīdan."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 s.vv. rām, rām(ag), rāmēnīdan, rāmišn (PHD_mackenzie.txt ll.4326-4329)",
+       "stance": "supports",
+       "note": "\"rām [l'm | M r'm, N -] peace; cal. 21st day\"; \"rām(ag) [lm(h) | P rm, N rām(a)] herd, flock\"; \"rāmēnīdan ... give peace, pleasure\"; \"rāmišn [l'mšn' | M r'mšn, N rāmiš] peace, ease, pleasure\" — the Middle Persian stage of all Nourai's Persian words except xorram/pedrām."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 12 (p.5) and no. 604 (pp.134-135)",
+       "stance": "supports",
+       "note": "no.12 ārām; no.604 \"rām 'Ruhe; fröhlich, heiter' ... aw. rāman- 'Ruhe'; phlv. hu|rām, rām(i)šn, rāmēnītan\" — Horn himself pairs rām with hu-rām, i.e. with xorram."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien p.55, note 479",
+       "stance": "supports",
+       "note": "Derives xurram from iran. *hu-rama- 'sich wohl freuend' (after Fr. Müller), rejecting the older equation with Skt. su-śarman-."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhān-e Qāṭeʿ ed. Moʿin, vol. 2, leaves 195, 391, 422",
+       "stance": "supports",
+       "note": "Moʿin's etymological footnotes: xurram < Pahlavi xurram; rāmiš < Pahlavi rāmišn; rama < Pahlavi ramak."
+      },
+      {
+       "src": "MON",
+       "where": "Moʿin, Farhang-e Fārsi s.v. پدرام (MON_part1.txt ll.21597, 29645)",
+       "stance": "supports",
+       "note": "\"پدرام (ص.) خوش\" and \"پدرام (ص. مر.) آراسته، نیکو\" — Nourai's gloss 'pleasant / well arranged' is Moʿin's."
+      },
+      {
+       "src": "FRS",
+       "where": "Asadi Tusi, Loghat-e Fors (FRS_pages.txt ll.14322-14324)",
+       "stance": "supports",
+       "note": "\"پدرام جایی بود خرم و دلگشای ... جایی که خرّم بود آن را پدرام خوانند\" — the oldest Persian lexicographical gloss, and it explicitly equates pedrām with xorram."
+      },
+      {
+       "src": "FFD",
+       "where": "Abolqāsemi p.25 s.v. آرامیدن/آرمیدن",
+       "stance": "supports",
+       "note": "\"از ریشهٔ ram «آرمیدن» و «رامیدن» هم آمده‌اند\"; ā- analysed as a verbal preverb."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e Riše-hā (ARY_latin_index_pages.txt ll.1425-1427)",
+       "stance": "supports",
+       "note": "The Latin index groups \"RAMTIS, RIMTI, RAMDITI (LITHUANIAN) | ARAMITAN, PAHLAVI | RAMISHN, RAM, RAMENITAN | RAMS (LATVIAN) | RAM (TOKHARIAN A)\" under one Persian headword — the same comparative set."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Old Persian",
+     "words": "ram",
+     "verdict": "confirmed",
+     "derivation": "Kent's Old Persian lexicon does list the root, but only as a bound element: \"ram- vb. 'be at peace', with prefix ā, in Ariyāramna-, q.v.\" (KNT.txt l.5859). The cross-referenced entry reads: \"Ariyāramna- sb. 'Ariaramnes', great-grandfather of Darius: Elam. har-ri-ia-ra-um-na, Akk. ar-ia-ra-am-na-', Gk. Ἀριαράμνης. From ariya- + pass. ptc. of ā-ram- (§131; Av. Skt. ram- 'to be at peace, to pacify'): 'Having the Aryans at peace'.\" So OP ram- is real, means exactly 'be at peace', and is an inherited *h₁rem- verb beside Av. ram-/rāmaiieiti and Skt. rámate; the only nuance is that it is attested solely inside the royal name Ariyāramna- (and in the participle ā-ramna-), never as a free verb form in the inscriptions. Horn no. 604 also cites the name (\"ap. vergl. Ariya|ramna-, Ἀριαράμνης\") as the Old Persian witness for NP rām.",
+     "derivation_fa": "کنت در واژه‌نامهٔ پارسی باستان ستاک را می‌آورد اما تنها به‌صورت جزءِ بسته: «ram- (فعل) «در آرامش بودن»، با پیشوند ā، در Ariyāramna-». ذیل همان نام می‌نویسد: «Ariyāramna- «آریارمنه»، جدّ داریوش؛ از ariya- + اسم مفعولِ ā-ram- (اوستایی و سنسکریت ram- «آرام بودن، آرام کردن»): «آن‌که آریاییان را در آرامش دارد»». پس ram- پارسی باستان واقعی است و معنیِ داده‌شده در نمودار درست؛ تنها نکته آنکه این ستاک در کتیبه‌ها جز در همین نام شاهی گواهی نشده است. هرن نیز (بند ۶۰۴) همین نام را گواهِ پارسی‌باستانِ «رام» فارسی می‌گیرد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81rem-"
+     ],
+     "ref_check": [
+      {
+       "ref": "KNT:206",
+       "status": "supports",
+       "note": "Kent, Old Persian, Lexicon (KNT.txt l.5859; scan leaf 230, lexicon offset leaf = printed + ~15, so printed p. ≈206-215 — the 'r-' stretch of the Lexicon, which begins at p.164): \"ram- vb. 'be at peace', with prefix ā, in Ariyāramna-, q.v.\"; and at Ariyāramna- (l.5053): \"From ariya- + pass. ptc. of ā-ram- (§131; Av. Skt. ram- 'to be at peace, to pacify'): 'Having the Aryans at peace'.\" Nourai's gloss is Kent's, word for word."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KNT",
+       "where": "Kent, Old Persian, Lexicon s.vv. ram-, Ariyāramna-",
+       "stance": "supports",
+       "note": "As quoted; Kent also rejects the alternative analyses (Foy 'Ariyā pl. + ramna-', Herzfeld 'Ariya- + aramna- to ar-')."
+      },
+      {
+       "src": "BRT",
+       "where": "Bartholomae, AiW s.v. rāman- (col. 1523-24) and the verb ram- (col. 1511, per Nyberg's citation)",
+       "stance": "supports",
+       "note": "Bartholomae lemmatises Avestan ram- 'to repose' and rāman- 'peace' — the Avestan half of Kent's \"Av. Skt. ram-\"."
+      },
+      {
+       "src": "HRN",
+       "where": "Grundriss no. 604, p.134",
+       "stance": "supports",
+       "note": "\"ap. vergl. Ariya|ramna-, Ἀριαράμνης\" — Horn uses the same Old Persian evidence."
+      },
+      {
+       "src": "TLM",
+       "where": "Tolman, Ancient Persian Lexicon (TLM.txt)",
+       "stance": "silent",
+       "note": "Tolman lemmatises the name Ariyāramna- but has no separate root entry ram-."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": null,
+     "words": "",
+     "verdict": "unverified",
+     "derivation": "There is nothing to verify: the box drawn to the right of the Old Persian 'ram' box is completely empty on the printed page — an outlined rectangle with no language header, no word, no gloss and no reference (checked on the page image, copied to data/verification/sources/refs/ocr/BOOK/420.png). The extraction is faithful; this is a layout artefact of Nourai's chart (he draws a target box for the Old Persian branch and leaves it blank). Most probably the intended descendant was the Middle/New Persian rām already given in the Avestan branch, or the royal name Ariyāramna- he decided not to print. No claim is made, so no claim can be checked.",
+     "derivation_fa": "چیزی برای بررسی وجود ندارد: جعبه‌ای که در سمت راستِ جعبهٔ «ram» پارسی باستان کشیده شده در صفحهٔ چاپی کاملاً خالی است — کادری بی‌نامِ زبان، بی‌واژه، بی‌معنی و بی‌ارجاع (بر روی تصویر صفحه بررسی شد). پس خوانشِ اسکن درست عمل کرده و این نقصی در صفحه‌آراییِ خودِ کتاب است؛ احتمالاً نورایی می‌خواسته دنبالهٔ فارسی میانه/نوِ شاخهٔ پارسی باستان (یا نامِ آریارمنه) را بیاورد و آن را ناتمام گذاشته است. چون ادعایی مطرح نشده، نه می‌توان آن را تأیید کرد نه رد.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The box carries no reference in the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BOOK",
+       "where": "printed pdf page 420, image copied to data/verification/sources/refs/ocr/BOOK/420.png",
+       "stance": "silent",
+       "note": "The box is blank on the page itself — the JSON's note ('box is printed entirely blank in the source') is accurate."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Old High German",
+     "words": "rasta",
+     "verdict": "disputed",
+     "derivation": "OHG rasta is a real word, but the chart mis-states both its part of speech and its ancestry. (a) It is a feminine NOUN, not a verb: OHG rasta 'rest, repose', also 'a league of miles' (MHG raste, rast, NHG Rast), beside the verb OHG restēn 'to rest'; Klein groups it with Goth. rasta 'mile', ON rǫst 'league, distance after which one rests', OS resta 'resting place'. (b) The root: Germanic *rastō does NOT belong to *h₁rem-. Klein (p.1335, Nourai's own reference) derives the Teutonic base *ras- 'to rest, remain, dwell' \"fr. I.-E. base *erǝ-, *rē, 'to rest'\" — Pokorny p.338 f., a different entry from rem- (p.864); and Pokorny himself writes at the head of rem- that the connection with erǝ-/rē- \"ist fraglich\". Wiktionary derives Proto-West Germanic *rastu from Proto-Germanic *rastō with no PIE etymon given, and Etymonline calls PGmc *rasto- \"a word of uncertain origin\", noting the original sense may have been a measure of distance ('league') rather than 'repose'. The only support for Nourai's grouping is older comparative work: Skeat (s.v. Rest (1)) allies AS. rest to \"Skt. ra-ti, pleasure, Gk. ἐρωή, rest (√RA)\", and Skt. rāti-/rati- IS a rem- derivative in Pokorny p.864. So the chart follows a 19th-century view that modern scholarship does not accept.",
+     "derivation_fa": "rasta آلمانیِ علیای باستان واژه‌ای واقعی است، اما نمودار هم مقولهٔ دستوری و هم تبارِ آن را نادرست می‌دهد. نخست، rasta اسم مؤنث است («آسایش» و نیز «فرسنگ/مرحلهٔ راه»)، نه فعل «آرمیدن»؛ فعل آن restēn است. دوم و مهم‌تر، *rastō ژرمنی به ریشهٔ *h₁rem- تعلق ندارد: کلاین در همان صفحه‌ای که نورایی ارجاع می‌دهد (۱۳۳۵) ستاکِ ژرمنیِ *ras- را از ریشهٔ هندواروپاییِ *erǝ-/*rē- «آرمیدن» می‌گیرد که مدخلی جداگانه در پوکورنی (ص ۳۳۸ به بعد) است؛ و خودِ پوکورنی در آغازِ مدخل rem- می‌نویسد پیوند این دو «مشکوک» است. ویکی‌واژه و اتیمآنلاین نیز خاستگاه *rastō را «نامعلوم» می‌خوانند و احتمال می‌دهند معنیِ آغازینش «مسافت میان دو منزل» بوده باشد. تنها پشتوانهٔ نورایی دیدگاه کهنِ اسکیت است که rest را با rati- سنسکریت می‌سنجد. پژوهش امروزی این شاخه را از ریشهٔ Rem جدا می‌کند.",
+     "sources": [
+      "https://www.etymonline.com/word/rest",
+      "https://en.wiktionary.org/wiki/rest",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-West_Germanic/rastu"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1335",
+       "status": "contradicts",
+       "note": "Klein s.v. rest, n. (KLN_1966.txt ll.32546-32547, leaf 710 ≈ printed pp.1334-1335): \"ME. reste, fr. OE. rest, ræst, 'rest, resting-place; bed, grave', rel. to OS. rasta, 'resting-place, grave', ON. rǫst, 'distance, journey, mile', Goth. rasta, 'mile', OHG. rasta, MHG. raste, rast, G. Rast, 'rest, peace', fr. Teut. base *ras-, 'to rest, remain, dwell', ... fr. I.-E. base *erǝ-, *rē, 'to rest', whence also ... Avestic airime, 'quietly', Gk. ἐρωή, 'rest'.\" The cited reference does have OHG rasta, but assigns it to *erǝ-/*rē (Pokorny 338), not to rem- (Pokorny 864) — so it contradicts the arrow as drawn."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW p.864 (head of rem-) and pp.338 f. (erǝ-, rē-)",
+       "stance": "contradicts",
+       "note": "\"Beziehung zu erǝ-, rē- ,ruhen' (S. 338 f.) ist fraglich\" — and Pokorny lists no Germanic *rast- under rem- at all; his Germanic material there is rama, rant, rimis, rim."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. rest, n., p.≈1335",
+       "stance": "contradicts",
+       "note": "As quoted: Teut. *ras- < I.-E. *erǝ-, *rē."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etym. Dict. s.v. 'Rest (1), repose' (SKT.txt l.15989; leaf 424, printed ≈ p.404)",
+       "stance": "partial",
+       "note": "\"Rest (1), repose. (E.) A.S. rest, ræst, rest. + Du. rust, Dan. Swed. rast, Icel. röst (the distance between two resting-places), Goth. rasta (a stage), O.H.G. resta, rest. Allied to Skt. ra-ti, pleasure, Gk. ἐρωή, rest. (√RA.)\" — Skeat's Skt. rati- is a rem- word in Pokorny, so the older literature did make Nourai's connection; but Skeat's √RA is really Pokorny's erǝ-/rē-."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny Bd. II pp.371-372 (rem-)",
+       "stance": "silent",
+       "note": "The rem- entry contains no Germanic *rast- material."
+      },
+      {
+       "src": "WEB",
+       "where": "Webster (WEB_vol1.txt), grep 'rasta'",
+       "stance": "silent",
+       "note": "Nothing usable in the local OCR."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "rest",
+     "verdict": "plausible",
+     "derivation": "English rest (n.1 / v.1) is genuine and means what the chart implies, but it does not descend from Old High German rasta: it continues Old English ræst, rest 'rest; bed; intermission of labour; mental peace' (verb ræstan, restan), from Proto-West Germanic *rastu, Proto-Germanic *rastō — of which OHG rasta is the sister form, not the source (Etymonline: \"from Proto-Germanic *rasto- (source also of Old Saxon resta ..., Dutch rust, Old High German rasta, German Rast 'rest, peace, repose')\"). No borrowing from German into English is involved at any date; the arrow is Nourai's usual shorthand of letting the oldest attested Germanic form stand for the branch. ME reste > NE rest; the originally distinct rest (n.2) 'remainder' (< OF reste < L. restāre) was later confused with it. The ultimate root, as at node #5, is not *h₁rem-: PGmc *rastō is of disputed origin, usually attached to PIE *h₁res-/*erǝ- 'to rest'.",
+     "derivation_fa": "واژهٔ انگلیسی rest واقعی است، اما از rasta آلمانیِ علیای باستان نمی‌آید: دنبالهٔ انگلیسی باستانِ ræst/rest «آسایش؛ بستر؛ آرامش خاطر» (فعل ræstan/restan) است، از ژرمنی باستان *rastō، که rasta آلمانی هم‌ریشه (خواهرِ) آن است نه سرچشمه‌اش؛ اتیمآنلاین همین را می‌گوید. هیچ وام‌گیری‌ای از آلمانی به انگلیسی در کار نیست و پیکانِ نمودار همان شیوهٔ همیشگیِ نورایی است که کهن‌ترین صورتِ گواهی‌شدهٔ ژرمنی را نمایندهٔ کلِ شاخه می‌گیرد. ریشهٔ نهایی نیز — چنان‌که در گرهٔ ۵ گفته شد — *h₁rem- نیست؛ *rastō ژرمنی را معمولاً به *h₁res-/*erǝ- «آرمیدن» می‌بندند و خاستگاهش را نامطمئن می‌دانند.",
+     "sources": [
+      "https://www.etymonline.com/word/rest",
+      "https://en.wiktionary.org/wiki/rest",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-West_Germanic/rastu"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The English box carries no reference in the book; its parent box cites KLN:1335, checked at node #5."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein s.v. rest, n., p.≈1335",
+       "stance": "partial",
+       "note": "\"ME. reste, fr. OE. rest, ræst ... rel. to OS. rasta ... OHG. rasta\" — 'rel. to', i.e. cognate, not 'fr.'; Klein's own wording excludes descent from OHG."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. Rest (1), p.≈404",
+       "stance": "partial",
+       "note": "\"A.S. rest, ræst, rest. + Du. rust ... O.H.G. resta\" — the '+' is Skeat's cognate marker, again not descent."
+      },
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls Standard Dictionary (FSD_vol1-4.txt), grep 'rasta'",
+       "stance": "silent",
+       "note": "The OCR of the Standard Dictionary yields no usable 'rest' etymology (hits are noise such as 'contrasta', 'parastas')."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
