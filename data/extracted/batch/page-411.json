@@ -29,7 +29,7 @@
         },
         {
           "id": 2,
-          "parent": 0,
+          "parent": 1,
           "lang": "English",
           "refs": "WEB:272; KLN:238; AHD:202",
           "words": [
@@ -43,25 +43,14 @@
     {"root": {"name": "Qirrâbah", "redirect": "Qirbah"}, "nodes": []},
     {
       "root": {
-        "name": "Q.l.y",
+        "name": "Q.l.y; Qely, Qela",
         "lang": "Arabic",
         "refs": "SAP:93",
-        "gloss": "to cook or barbecue meat"
+        "gloss": "to cook or barbecue meat; alkaline material obtained from wood ash"
       },
       "nodes": [
         {
           "id": 1,
-          "parent": 0,
-          "lang": "Arabic",
-          "refs": null,
-          "words": [
-            {"translit": "Qely, Qela", "gloss": "alkaline material obtained from wood ash", "script": null}
-          ],
-          "note": null,
-          "quote": null
-        },
-        {
-          "id": 2,
           "parent": 0,
           "lang": "Persian",
           "refs": "SAP:94; MON:2724",
@@ -73,7 +62,7 @@
           "quote": null
         },
         {
-          "id": 3,
+          "id": 2,
           "parent": 0,
           "lang": "French",
           "refs": "KLN:50",
@@ -84,8 +73,8 @@
           "quote": null
         },
         {
-          "id": 4,
-          "parent": 3,
+          "id": 3,
+          "parent": 2,
           "lang": "English",
           "refs": "KLN:50",
           "words": [
