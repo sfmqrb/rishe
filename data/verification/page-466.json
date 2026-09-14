@@ -1,0 +1,759 @@
+{
+  "pdf_page": 466,
+  "book_page": 436,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Spek",
+      "verdict": "confirmed",
+      "modern_form": "PIE *speḱ- 'to look at, observe, spy' (Pokorny 984 spek- 'spähen, scharf hinsehen'; Walde-Pokorny II 659-660; Watkins/AHD spek- 'to observe'; LIV 575f.)",
+      "note": "Root, language label and gloss are all correct and the page reference is exact. Pokorny's IEW p. 984 has the headword 'spek- ,spähen, scharf hinsehen'; spek-s, spek-ōn-, spek-tor- ,Späher', spek-to- ,erspäht', spok-o-s ,Späher'' — Nourai's gloss 'to look, examine' is a fair English rendering. The chart's five primary branches (Avestan, Latin specere, Greek skopos, New Latin -scopium, Germanic *spehōn) reproduce Watkins's own arrangement of the root almost item for item. The one structural problem on this page is not the root but the reading of the arrows in the lower half: on the printed page the Arabic osqof box and the Latin micro-scopium box both hang off the GREEK box (a single line drops from the bottom-left corner of the Greek box and elbows into Old Persian skuba, Arabic osqof and Latin micro-scopium in turn), whereas the extracted JSON gives node #11 the parent #9 and node #13 the parent #0. See the per-node notes and the summary.",
+      "note_fa": "ریشهٔ هندواروپاییِ آغازین *speḱ- به معنی «نگریستن، پاییدن، دیده‌بانی کردن» ریشه‌ای است پذیرفته و استوار: پوکورنی در «فرهنگ ریشه‌شناختی هندواروپایی» صفحهٔ ۹۸۴ آن را با همین صورت و همین معنا («spähen, scharf hinsehen») آورده و والده-پوکورنی (جلد دوم، ص ۶۵۹-۶۶۰) و واتکینز در پیوست ریشه‌های AHD نیز همان را تکرار کرده‌اند. بنابراین نام ریشه، برچسب زبانی «هندواروپایی» و معنایی که نورایی داده هر سه درست است و ارجاع POK:984 دقیقاً بر همان صفحه می‌نشیند. پنج شاخهٔ اصلی نمودار (اوستایی spas-، لاتینی specere، یونانی skopos، لاتینی نو -scopium و ژرمنی *spehōn) نیز همان تقسیم‌بندی واتکینز است. تنها اشکال ساختاری این صفحه در خوانش پیکان‌ها در نیمهٔ پایین نمودار است: در متن چاپی، جعبهٔ «عربی osqof» و جعبهٔ «لاتینی micro-scopium» هر دو از جعبهٔ «یونانی» منشعب می‌شوند، نه از «فارسی باستان skuba» و نه مستقیماً از ریشه.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/spe%E1%B8%B1-"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:984",
+          "status": "supports",
+          "note": "Pokorny IEW p. 984 (POK_03.txt line 3040, between the printed page markers '984' and '985'): 'spek- ,spähen, scharf hinsehen'; spek-s, spek-ōn-, spek-tor- ,Späher', spek-to- ,erspäht', spok-o-s ,Späher'.' The page number Nourai gives is exact."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 659-660 (WLD_Bd2_pages.txt leaves 663-664)",
+          "stance": "supports",
+          "note": "'spek- ,spähen, scharf hinsehen'. Ai. spáçati (Dhatup.), paçyati ,sieht', ptc. spaṣṭá-ḥ (= av. spašta-, lat. spectus); spaṭ ,Späher' (= av. spas, lat. au-, haru-spex) ... av. spasyeiti ,späht' (= lat. specio, gr. skeptomai)' — the same material Pokorny 984 later condensed."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. spek- (AHD_watkins1985.txt line 979)",
+          "stance": "supports",
+          "note": "'spek-. To observe. I. Basic form *spek-. 1. Germanic *spehon ... 2. Suffixed form *spek-yo- in Latin specere ... II. Extended o-grade form *spoko- metathesized in Greek skopos ... [Pok. spek- 984.]' Watkins cites exactly Pokorny 984."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, IE Comparative Dictionary, s.v. spek- (1) (IEC.txt line 16774, p. ~1352)",
+          "stance": "supports",
+          "note": "'spek- (1) \"look, see, observe\". WP II, 659. Skt. spas, m. \"beholder\" ... Av. spas, m. \"spy\"; spasya, 1sg. \"wish to watch\"; Gk. cf. (metath.) sképtomai ...; Lat. specio, specére ...; OHG spéhon, MHG spëhen, wv. \"spy, watch\".'"
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 15.52 LOOK (vb.), paragraph 3 (SYN.txt line 26377, printed p. ~1096)",
+          "stance": "supports",
+          "note": "'3. IE *spek-. Walde-P. 2.659f. ... Lat. specere, spicere ...; Grk. sképtomai (for *spektomai) \"look carefully\" ...; OHG spehon \"look at carefully\", NHG spähen, etc. (NE spy through OFr. espier); Skt. paś- (spaś- in some forms) ...; Av. spas- \"look upon, observe, regard\".'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "spasyeiti; spas, spasânô",
+          "verdict": "confirmed",
+          "derivation": "All three Avestan forms are real and belong to one paradigm. The root is Av. spas- 'to spy out, watch, attend to' < PIIr. *spać- < PIE *speḱ-; the present stem is the *-ya- formation *spaś-ya-ti, whence 3sg. spasiieiti (Yt 10.82) — the chart's 'spasyeiti', a standard older transliteration. 'spas' is the root-noun spas- m. 'Späher, Wächter' (Yt 10.45, 46, 61), the exact counterpart of Skt. spaṭ and of the Latin second member in au-spex, haru-spex. 'spasânô' is not a separate lexeme but the nom. sg. masc. spasānō of the participial stem spasan- 'looking out for, watching over', best known from the Mihr Yašt epithet baēvarə.spasan- 'having ten thousand watchers' (Yt 10.24, 60, 82) — so the chart's gloss 'guard, watcher' fits both. The Old Avestan present spasiiā (Y 44.11) and the nu-stem spašnuθā (Y 53.6) show the same root in the Gathas, so the word is attested from the oldest layer of the language.",
+          "derivation_fa": "هر سه صورتی که نورایی در این گره آورده اوستایی و درست‌اند. ریشهٔ اوستایی spas- «پاییدن، دیده‌بانی کردن، در خدمت بودن» بازماندهٔ هندوایرانی آغازین *spać- و آن خود از *speḱ- هندواروپایی است. ستاک حالِ آن با پسوند *-ya- ساخته شده و صورت سوم‌شخص مفرد آن spasiieiti (یشت ۱۰ بند ۸۲) است که نورایی به شیوهٔ کهن‌تر spasyeiti نوشته است. «spas» نامِ ریشه‌ای spas- به معنی «دیده‌بان، پاسور» است (یشت ۱۰ بندهای ۴۵ و ۴۶ و ۶۱) و هم‌ارز دقیق spaṭ سنسکریت و جزء دوم au-spex و haru-spex لاتینی است. «spasânô» واژه‌ای جداگانه نیست، بلکه حالت فاعلی مفرد مذکرِ ستاک اسم فاعلی spasan- «نگرنده، پاینده» است که در ترکیب baēvarə.spasan- «دارندهٔ ده هزار دیده‌بان» (لقب میثره) بارها آمده است. چون این ریشه در گاهان نیز گواهی دارد (spasiiā در یسنا ۴۴ بند ۱۱)، کهنگی آن قطعی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/spe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:984",
+              "status": "supports",
+              "note": "Pokorny 984 lists precisely these forms: 'av. spasyeiti ,späht' (= lat. speciō, gr. sképtomai), spas ,Späher', spaštar- ds. (= lat. -spector, umbr. spetur-e), spasan- ,hinspähend auf' (= ahd. spehō ,Späher')' (POK_03.txt line 3040)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Bartholomae, AiW cols. 1613-1614 (BRT.txt lines 26860-26894; the column numeral '1612' stands at line 26825)",
+              "stance": "supports",
+              "note": "'j., g. spas- V. \"spähen\". Praes. ... spasya- ... PPfP. spasta-'; then 'j. spas- m. \"Späher, Wächter\": spas (NS.) ... Yt 10.46 ... spasō (NP.) ... Yt 10.45. Zum V. spas-. — ai. spáś- m.'; and 'j. spasan- Adj. \"hinspähend (auf —)\"'. Nyberg independently cites this passage as 'Av. (1614) spas-'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung, Etym. Dict. of the Iranian Verb, s.v. *spas, pp. 353-354",
+              "stance": "supports",
+              "note": "'*spas \"to attend to; to serve\". *AVESTAN: spas- (spas-, spōs-) ... Pres. {1} ia-: IND. 1sg. OAv. spasiiā (Y 44.11), 3sg. YAv. spasiieiti (Yt 10.82) ... «PIE *speḱ- \"to look around, take notice\" = LIV: 575f. | Pok.: 984'."
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny II 659 (WLD_Bd2_pages.txt leaf 663)",
+              "stance": "supports",
+              "note": "'av. spasyeiti ,späht' (= lat. specio, gr. skeptomai), spas ,Späher', spastar ds. ... spasan- ,hinspähend auf' (= ahd. spehō ,Späher')'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "spâs",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian spās [spʾs] is real and very well attested; MacKenzie's Concise Pahlavi Dictionary p. 76 has 'spās dāštan, ~ hangārdan: thank, give thanks. spās-dār [spʾsdʾl | N sip~] grateful, thankful.' Nyberg's glossary (II, p. 186) glosses it '1. thanks, gratitude ... 2. service' and derives it explicitly 'from Av. (1614) spas- \"to observe, to attend\"'. So the chart's arrow Avestan spas- → Pahlavi spās is what the Pahlavi lexicographers themselves draw. Formally MP spās continues an Old Iranian abstract *spāsa- (lengthened-grade *spās- to the root *spas-), and Cheung marks the Book-Pahlavi noun (LW), i.e. probably taken over from the Parthian ʾspʾs / spʾs 'service' of the north-west, which is why Manichaean MP also has ʾspʾs with the prothetic vowel that Nyberg calls 'the NW form'. One caveat on the chart's gloss: spās is a NOUN, 'service, gratitude' — 'to serve, wait on' belongs to the compound verb spās dāštan, and to the Armenian loan spasem 'I serve'.",
+          "derivation_fa": "واژهٔ فارسی میانهٔ spās (به خط پهلوی spʾs) واژه‌ای کاملاً گواهی‌شده است؛ مکنزی در «فرهنگ کوچک پهلوی» صفحهٔ ۷۶ ترکیب spās dāštan «سپاس داشتن، سپاسگزاری کردن» و مشتق spās-dār «سپاسگزار» را آورده و نیبرگ در واژه‌نامهٔ خود (بخش دوم، ص ۱۸۶) آن را «۱. سپاس، شکر ۲. خدمت» معنی کرده و صریحاً می‌نویسد که «از ریشهٔ اوستایی spas- (بارتولومه ستون ۱۶۱۴) \"پاییدن، در خدمت بودن\"» است. پس پیکانِ «اوستایی spas- ← پهلوی spās» همان چیزی است که پهلوی‌شناسان خود می‌کشند. از دید ساخت، spās بازماندهٔ نامی انتزاعی در ایرانی باستان به صورت *spāsa- (با واکهٔ کشیدهٔ ستاک) است؛ چونگ صورت پهلوی کتابی را «وام‌واژه» نشانه‌گذاری کرده، یعنی احتمالاً از پارتی ʾspʾs / spʾs «خدمت» به فارسی میانه راه یافته است، و از همین رو در فارسی میانهٔ مانوی نیز ʾspʾs با واکهٔ آغازینِ افزوده دیده می‌شود. یک نکتهٔ باریک: spās اسم است («خدمت، سپاس») و معنای «خدمت کردن» که نورایی نوشته، از آنِ فعل مرکب spās dāštan است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D8%A7%D8%B3"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:154",
+              "status": "partial",
+              "note": "Horn, Grundriss p. 154 (HRN.txt leaf 175) no. 698: 'sipās \"Dank\". phlv. spās, spāsdār; arm. spas-em \"aufwarten, dienen\", spas \"Dienst\".' The cited page therefore supports the Pahlavi form and its Armenian loan exactly. But Horn's continuation at the top of p. 155 is sceptical about the very arrow this node draws: 'Also zu aw. √spas, spasyeiti \"spähen\"? Sehr unsicher, Hübschmann, Armen. Stud., S. 50, No. 257.' Modern Iranian scholarship (Nyberg, Cheung, Wiktionary) has since settled on the connection Horn doubted."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 76 (PHD.txt leaf 97, running head 'spās dāštan 76 srōd')",
+              "stance": "supports",
+              "note": "'spās dāštan, ~ hangārdan: thank, give thanks. spās-dār [spʾsdʾl | N sip~] grateful, thankful. ~īh: gratitude.' The English-Pahlavi half adds 'thanks āzādīh, spās' and 'service paristagīh, paristišn, spās'."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (Glossary) p. 186 (NYB_vol2_glossary.txt leaf 194)",
+              "stance": "supports",
+              "note": "'spas [spʾs] 1. thanks, gratitude 127⁵ ... 2. service ... MPrth ʾspʾs \"service\", Arm. lw. spas id.; MPrs ʾspʾs \"service\" (S), ʾspʾs \"thanks\" (A-H II); ... NP sipās 1. \"grace, favour\", 2. \"praise, thanksgiving\"; from Av. (1614) spas- \"to observe, to attend\".'"
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *spas, p. 353",
+              "stance": "supports",
+              "note": "'*MIDDLE PERSIAN: MMP ʾsps- \"to serve\", MMP ʾspʾs, BMP spʾs /spās/ \"service, gratitude, thanks\" (LW)'; '*PARTHIAN: ʾsps- \"to serve\", ʾspʾs, spʾs \"service\"'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "sepâs",
+          "verdict": "confirmed",
+          "derivation": "New Persian سپاس sepās/sipās 'thanks, gratitude' continues Middle Persian spās without change of substance; the only development is the anaptyctic vowel that New Persian regularly inserts to break the inherited initial cluster sp-, exactly as in MP spāh > NP sipāh 'army', MP spihr > NP sipihr 'sky', MP spurdan > NP sipurdan. Semantically the Iranian word moved 'watching over, attendance' → 'service' → 'gratitude for service received', a shift already complete in Book Pahlavi (Nyberg glosses the MP noun 'thanks' first). The same Western Iranian word was borrowed into Armenian as spas 'service', spasem 'I serve, wait upon' — a loan Horn, Hübschmann and Mo'in all cite as proof of the Iranian pedigree. Wiktionary derives the modern word 'From Middle Persian spʾs (spās), from Proto-Iranian *spácati ... from Proto-Indo-European *speḱ-', which is the chart's chain.",
+          "derivation_fa": "«سپاس» فارسی نو دنبالهٔ بی‌واسطهٔ spās فارسی میانه است و تنها دگرگونی آوایی آن، افزوده شدن واکهٔ میانجی برای شکستن خوشهٔ آغازینِ sp- است؛ همان قاعده‌ای که spāh پهلوی را به «سپاه»، spihr را به «سپهر» و spurdan را به «سپردن» بدل کرده است. از نظر معنایی، راه واژه چنین بوده است: «پاییدن، در خدمت بودن» ← «خدمت» ← «شکرگزاری در برابر خدمت»، و این تحول در همان پهلوی کتابی به پایان رسیده بود، چنان‌که نیبرگ نخستین معنای spās را «سپاس، شکر» می‌آورد. همین واژهٔ ایرانی غربی به ارمنی نیز وام رفته است: spas «خدمت» و spasem «خدمت می‌کنم» — گواهی که هرن و هوبشمان و معین هر سه به آن استناد کرده‌اند. ویکی‌واژه نیز همین زنجیره را می‌دهد: فارسی نو ← فارسی میانهٔ spās ← ایرانی آغازین ← *speḱ- هندواروپایی. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D8%A7%D8%B3"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1086",
+              "status": "supports",
+              "note": "Borhan-e Qate' ed. Mo'in, vol. 2: the سپاس entry with Mo'in's etymological footnote is on BQT_v2_pages.txt leaf 548 (printed page ≈ 1088-1091 by the running-head formula; Nourai's 1086 is within the ±3 drift of this scan's offset plus the length of the entry). The footnote reads: '۴ - پهلوی spās، ارمنی spas-em (خدمت کردم، سپاس داشتم)، spas (خدمت)' — i.e. exactly the Pahlavi → Persian arrow Nourai draws, with the Armenian loan as corroboration."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 698, p. 154",
+              "stance": "supports",
+              "note": "'sipās \"Dank\". phlv. spās, spāsdār; arm. spas-em \"aufwarten, dienen\", spas \"Dienst\".'"
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 76",
+              "stance": "supports",
+              "note": "s.v. spās-dār the New Persian continuation is marked '| N sip~', i.e. MacKenzie equates MP spās-dār with NP sipās-dār and therefore MP spās with NP sipās."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Cheung s.v. *spas, p. 354",
+              "stance": "supports",
+              "note": "'*NWIR: NP sipas \"kindness, favour, thanksgiving\", NP sipasidan/sipas- (denomin.) \"to praise (God) for benefits received\"'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "pâsbân",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi word is genuine — MacKenzie p. 65: 'pās [pʾs | = M, N ~] guard, watch. ~ dāštan: keep watch, guard. pāsbān [pʾspʾn | M pʾsbʾn, N ~] guardian, watcher. ~īh: defence, protection.' It is pās 'watch' + the agent suffix -bān (< OIr. *-pāna- 'protecting'). What is disputed is the arrow: deriving pās/pāsbān from Avestan spas-. The standard Iranian handbooks derive pās from the root *peh₂- 'to protect' instead: Nyberg's glossary (II p. 159) states flatly 'pās [pʾs] watch, guard. — OP *pāça-, SW form of pāθra-, v. pahr. — MPrs pʾsbʾn \"watchman, guardian\"', i.e. MP pās goes back to an Old Persian *pāça- that is the south-western reflex of Avestan pāθra- 'protection'; Horn (no. 274, p. 62) has the same: 'pās \"Schutz\", pāsbān, pāsīden. aw. pāθra- \"Schutz\"; phlv. pās (Bund.), pāspān ... ai. pātra-.' Wiktionary follows them: 'From Middle Persian pʾs /pās/, from Old Persian *pāçah, from Proto-Iranian *páHθrah', ultimately PIE *peh₂- 'to protect'. On that view pās has nothing to do with spas- at all; the s of pās is from *-θr-, not the -s- of the spy-root, and the absence of initial s- is original, not a loss. Nourai is not alone, however: his source Tavoosi (SNS) does derive it from spas-, and Aryanpur's Persian IE dictionary (p. 151) files pās/pāsbān under Pokorny 984 while listing both PĀTHRA and SPASYEITI as Avestan comparanda — so a minority of Persian etymologists conflate the two roots. Modern scholarship prefers *pāθra-.",
+          "derivation_fa": "خودِ واژهٔ پهلوی جای تردید ندارد: مکنزی در صفحهٔ ۶۵ می‌آورد «pās [pʾs] پاس، نگهبانی؛ pāsbān [pʾspʾn] نگهبان، پاسدار»، و ساخت آن pās «پاس» + پسوند فاعلیِ -bān (از *-pāna- ایرانی باستان به معنی «نگاهدارنده») است. آنچه مورد اختلاف است، خودِ پیکان است، یعنی بازبردنِ pās و pāsbān به ریشهٔ اوستایی spas-. مرجع‌های معتبر ایرانی‌شناسی pās را نه از spas- بلکه از ریشهٔ *peh₂- «نگاه داشتن، پاییدن» می‌دانند: نیبرگ (بخش دوم، ص ۱۵۹) می‌نویسد «pās: پاس، نگهبانی — از *pāça- پارسی باستان، صورت جنوب‌غربیِ pāθra- اوستایی»، و هرن نیز در شمارهٔ ۲۷۴ (ص ۶۲) همین را دارد: «pās \"نگاهبانی\"، pāsbān، pāsīdan؛ اوستایی pāθra- \"پاسداری\"؛ پهلوی pās؛ سنسکریت pātra-». ویکی‌واژه هم همین زنجیره را می‌دهد: فارسی «پاس» ← پهلوی pās ← پارسی باستان *pāçah ← ایرانی آغازین *páHθrah ← *peh₂- هندواروپایی. بر این پایه، سینِ pās دنبالهٔ خوشهٔ *-θr- است نه سینِ ریشهٔ «پاییدن/جاسوسی»، و نبودِ s آغازین اصیل است نه حاصلِ افتادگی. البته نورایی تنها نیست: مأخذ خودش، یعنی واژه‌نامهٔ «شایست ناشایست» طاووسی، pāsbān را از spas- می‌گیرد و آریان‌پور نیز (ص ۱۵۱) پاس و پاسبان را ذیل پوکورنی ۹۸۴ آورده و هر دو صورت PĀTHRA و SPASYEITI را در کنار هم نشانده است. با این همه، پژوهش امروزی صورت *pāθra- را ترجیح می‌دهد و ادعای نورایی را در این گره رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:117",
+              "status": "supports",
+              "note": "Tavoosi, Vāženāme-ye Šāyast ne Šāyast, s.v. pāsbān (SNS_pages.txt leaf 74): 'pāsbān: ... pʾsbʾn ... (AiWb. 1614) spasānō, √spas' — the glossary does refer the Pahlavi word to Bartholomae col. 1614 spasān-/√spas, exactly as Nourai's arrow does. (The leaf's printed numeral is in Persian digits and OCRs badly, so I could not confirm that this is printed p. 117; the entry is where Nourai says it is in content.) Note that this is a specialised text-glossary, not a general etymological authority, and that Horn and Nyberg contradict it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II p. 159 (NYB_vol2_glossary.txt leaf 167)",
+              "stance": "contradicts",
+              "note": "'pās [pʾs] watch, guard 65⁹. — OP *pāça-, SW form of pāθra-, v. pahr. — MPrs pʾsbʾn \"watchman, guardian\".' Nyberg files pās under the *pā- 'protect' root and keeps it entirely separate from his spas entry on p. 186."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 274, p. 62 (HRN.txt leaf 83)",
+              "stance": "contradicts",
+              "note": "'274. pās \"Schutz\", pāsbān, pāsīden. aw. pāθra- \"Schutz\"; phlv. pās (Bund.), pāspān, vd. 13 (77); ai. pātra-.' No mention of spas-, which Horn treats 400 entries later (no. 698) as a different word."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 65 (PHD.txt leaf 86, running head 'pardāxtan 65 pāsbānīh')",
+              "stance": "partial",
+              "note": "'pās [pʾs | = M, N ~] guard, watch. ~ dāštan: keep watch, guard. pāsbān [pʾspʾn | M pʾsbʾn, N ~] guardian, watcher.' MacKenzie gives no etymology but lists pās/pāsbān under p- with no cross-reference to spās (p. 76), and his English-Pahlavi index keeps 'guard ... pās' and 'gratitude ... spās' apart."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e Riše-hā-ye Hend-o-Orupāyi, p. 151 (ARY_latin_index_pages.txt, entry after pdf page 150)",
+              "stance": "partial",
+              "note": "The entry lists together 'PATHRA, SPASYEITI (AVESTAN) | *PASA (OLD PERSIAN) | PAS, PASBAN (PAHLAVI) | PAS-, PASVAN (KURDISH) | SPASATI, PASYATI, SPAS-, PAS- (SANSKRIT) | SPASEM (ARMENIAN) | SKOPEIN, SKEPTOMAI (GREEK) | SPECIO, SPECERE (LATIN) | SPEHON (OHG) | ESPY, SPY (ENGLISH)' with 'POKORNY: 984' and 'MACKENZIE: (PAS, PASBAN) 65' — i.e. Aryanpur too runs pās/pāsbān into the *spek- root, but hedges by citing pāθra- alongside."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "pâsbân",
+          "verdict": "confirmed",
+          "derivation": "The step drawn here — Pahlavi pāsbān → New Persian پاسبان pāsbān — is beyond doubt: the word passes from Middle to New Persian unchanged (MacKenzie p. 65 marks the New Persian continuation with '| N ~', i.e. identical), and it is pās 'watch, guard' + -bān, the ordinary Persian agent/keeper suffix (bāġbān, darbān, sāyebān). Its classical sense is 'watchman, night-watchman', which is the sense in the Hāfez line the chart quotes (بیار باده که در بارگاه استغنا / چه پاسبان و چه سلطان چه هوشیار و چه مست); the gloss 'policeman' is the modern administrative sense the word acquired in the late Qajar period, when پاسبان became the official title of the ordinary constable of the نظمیه, and it survives in پاسگاه, پاسدار, پاسداری. What is disputed is not this arrow but its grandparent: see node #4 — Horn, Nyberg and Wiktionary take pās back to *pāθra- 'protection' (PIE *peh₂-), not to Avestan spas-.",
+          "derivation_fa": "گامی که در این گره کشیده شده — پهلوی pāsbān ← فارسی نو «پاسبان» — تردیدناپذیر است: واژه بی هیچ دگرگونی از فارسی میانه به فارسی نو رسیده (مکنزی در ص ۶۵ دنبالهٔ نوفارسی را با نشانهٔ «| N ~» یعنی «همان» می‌آورد) و ساخت آن «پاس» + پسوند «-بان» است، همان پسوندی که در «باغبان»، «دربان» و «سایبان» دیده می‌شود. معنای کلاسیک آن «نگهبان، شب‌نگهبان» است و بیت حافظ که در نمودار آمده («بیار باده که در بارگاه استغنا / چه پاسبان و چه سلطان چه هوشیار و چه مست») نیز همین معنا را دارد؛ معنای «پلیس» که نورایی نوشته، معنایی نو و اداری است که در اواخر دورهٔ قاجار، هنگامی که «پاسبان» عنوان رسمی مأمور نظمیه شد، پدید آمد و بازماندهٔ آن در «پاسگاه» و «پاسدار» هست. آنچه مورد اختلاف است این پیکان نیست، بلکه پیکانِ پیش از آن است (گرهٔ ۴): هرن و نیبرگ و ویکی‌واژه «پاس» را به *pāθra- «پاسداری» برمی‌گردانند نه به spas- اوستایی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:117",
+              "status": "partial",
+              "note": "Tavoosi's glossary (SNS_pages.txt leaf 74, s.v. pāsbān) documents the Pahlavi word and its Avestan referral ('(AiWb. 1614) spasānō, √spas') but, being a glossary of the Pahlavi text Šāyast ne Šāyast, says nothing at all about the New Persian continuation; that step has to be taken from MacKenzie and the Persian dictionaries instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 65",
+              "stance": "supports",
+              "note": "'pāsbān [pʾspʾn | M pʾsbʾn, N ~] guardian, watcher' — the '| N ~' means New Persian has the identical form."
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 274, p. 62",
+              "stance": "supports",
+              "note": "Horn's headword group is the New Persian one: 'pās \"Schutz\", pāsbān, pāsīden', with 'phlv. pās (Bund.), pāspān' as the Middle Persian antecedent — so the MP → NP step itself is Horn's too."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur p. 151",
+              "stance": "supports",
+              "note": "lists 'PAS, PASBAN (PAHLAVI)' as the direct antecedents of the Persian headword, with the Kurdish cognates 'PAS-, PASVAN'."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Latin",
+          "words": "specere",
+          "verdict": "confirmed",
+          "derivation": "Latin speciō, specere 'to look at' is the regular Italic reflex of the PIE *-ye/o- present *spéḱ-ye-ti: Proto-Italic *spekjō, with *-kj- > Latin -ci-, giving the same formation as Avestan spasiieiti and Greek sképtomai. In historical Latin the simplex is already archaic (Plautus, Ennius, and the grammarians) and the verb lives on almost entirely in prefixed compounds — aspicere, cōnspicere, dēspicere, īnspicere, perspicere, prōspicere, respicere, suspicere — plus the frequentative spectāre and the nominal family speciēs, specimen, spectrum, speculum, speculārī, and the -spex of auspex, haruspex. The chart's gloss is right and the form is the standard citation form.",
+          "derivation_fa": "فعل لاتینی speciō / specere «نگریستن» بازتابِ قاعده‌مندِ ستاک حالِ *spéḱ-ye-ti هندواروپایی در شاخهٔ ایتالیک است: ایتالیکِ آغازین *spekjō که در آن خوشهٔ *-kj- در لاتین به -ci- بدل شده؛ یعنی درست همان ساختی که در spasiieiti اوستایی و sképtomai یونانی می‌بینیم. در لاتینِ تاریخی، صورت ساده کهنه و کم‌کاربرد است (پلاوتوس، انیوس و دستورنویسان) و فعل تقریباً همیشه با پیشوند به کار می‌رود: aspicere، cōnspicere، dēspicere، īnspicere، perspicere، prōspicere، respicere، suspicere؛ و در کنار آن‌ها فعل تکراری spectāre و خانوادهٔ اسمیِ speciēs، specimen، spectrum، speculum و جزءِ -spex در auspex و haruspex. معنا و صورتی که نورایی آورده هر دو درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/specio"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. spek-: '2. Suffixed form *spek-yo- in Latin specere, to look at: SPECIMEN, SPECIOUS, SPECTACLE, SPECTRUM, SPECULATE, SPECULUM; ASPECT, AUSPICE, CIRCUMSPECT, CONSPICUOUS, DESPISE, EXPECT, FRONTISPIECE, INSPECT, INTROSPECT, PERSPECTIVE, PROSPECT, RESPECT, (RESPITE), RETROSPECT, SUSPECT.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 984 (POK_03.txt line 3040)",
+              "stance": "supports",
+              "note": "'lat. speciō, -ere, -xi, -ctum ,sehen' (con-spiciō usw.), spectō, -āre ,anschauen', speciēs ,Anblick, Ansehen, Aussehen, Erscheinung', au-, haru-spex; specus, -ūs ,Höhle'; speculum ,Spiegel'; speculor, -ārī ,spähen'; umbr. speture ,spectōrī'.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny II 660",
+              "stance": "supports",
+              "note": "'Lat. speciō, -ere, -xī, -ctum ,sehen' (con-spiciō usw.), spectō, -āre ,anschauen', speciēs ...; umbr. speture ,spectōrī'.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 15.52, paragraph 3 (p. ~1096)",
+              "stance": "supports",
+              "note": "'Lat. specere, spicere, mostly in cpds., of which for simple \"look\" esp. aspicere, whence aspectus ... as also speciēs.'"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "respect; suspect; expect; inspect; specimen; spectrum; special; species",
+          "verdict": "confirmed",
+          "derivation": "All eight are Latin words on Latin's own root specere, taken into English between the 14th and 17th centuries, some through Old French, most straight out of learned Latin. respect < L. respectus (respicere 'look back at'), through OF respect, in English from c.1300 in the sense 'relation, regard'; suspect < L. suspectus (suspicere 'look up at, mistrust'), ME suspect 14th c.; expect < L. exspectāre 'look out for' (1550s, with the sense 'await'); inspect < L. īnspectāre / īnspicere 'look into' (1620s); specimen < L. specimen 'mark, token, example' (1610s, 'pattern, model'; the scientific sense 1690s); spectrum < L. spectrum 'appearance, apparition' (1610s; Newton's optical sense 1670s); special < OF especial < L. speciālis 'of a particular kind', from speciēs; species < L. speciēs 'appearance, kind', in English as a logical term 1550s and as the biological rank from Ray and Linnaeus. Watkins lists this exact set (minus SPECIAL, under which he prints ESPECIAL) under spek-.",
+          "derivation_fa": "هر هشت واژه، واژه‌هایی لاتینی‌اند که بر پایهٔ همان ریشهٔ specere ساخته شده‌اند و میان سدهٔ چهاردهم تا هفدهم میلادی، گاه از راه فرانسهٔ کهن و بیشتر یکراست از لاتینِ دانشورانه، وارد انگلیسی شده‌اند. respect از respectus لاتین (از respicere «به پشت سر نگریستن») از راه فرانسهٔ کهن؛ suspect از suspectus (از suspicere «از پایین نگریستن، بدگمان شدن») در سدهٔ چهاردهم؛ expect از exspectāre «چشم به راه بودن» (حدود ۱۵۵۰م)؛ inspect از īnspicere «در چیزی نگریستن» (حدود ۱۶۲۰م)؛ specimen از specimen «نشانه، نمونه» (۱۶۱۰م، معنای علمی‌اش ۱۶۹۰م)؛ spectrum از spectrum «نمود، شبح» (۱۶۱۰م؛ معنای نوریِ آن از نیوتن، ۱۶۷۰م)؛ special از speciālis از راه especial فرانسهٔ کهن؛ و species از speciēs «نمود، گونه» که نخست اصطلاح منطق بود (۱۵۵۰م) و سپس با ری و لینه رتبهٔ زیست‌شناختیِ «گونه» شد. واتکینز نیز همین فهرست را ذیل ریشهٔ spek- آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/specio"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives this node no citation of his own. Checked instead against Watkins/AHD s.v. spek-, which lists RESPECT, SUSPECT, EXPECT, INSPECT, SPECIMEN, SPECTRUM, ESPECIAL and SPECIES among the English descendants of Latin specere/speciēs — see the consulted array."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. spek-, and the English index",
+              "stance": "supports",
+              "note": "The index lines confirm each item individually: 'RESPECT spek-', 'EXPECT spek-', 'INSPECT spek-', 'CIRCUMSPECT spek-', 'PERSPECTIVE spek-', 'ESPECIAL spek-', and the root entry lists SPECIMEN, SPECTRUM, SPECIES, SUSPECT."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966, s.v. conspecies / species (KLN_1966.txt line 8857)",
+              "stance": "supports",
+              "note": "Klein's species family is built on L. speciēs from specere; his cross-references ('See species and cp. words there referred to', quoted s.v. spy) tie the whole English set to the same Latin verb."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict., s.v. SPECIES (SKT.txt line 17959)",
+              "stance": "supports",
+              "note": "Skeat has SPECIES as a headword in the Latin (L.) class, i.e. a direct learned borrowing, consistent with the chart's Latin → English arrow."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Greek",
+          "words": "skopos; epi-skopos",
+          "verdict": "confirmed",
+          "derivation": "Greek is the branch in which *speḱ- underwent the well-known metathesis of the root-initial cluster: *spek- > *skep-, whence σκέπτομαι sképtomai 'I look about, examine' (for expected *σπέκτομαι), and the o-grade *spoḱ-ós > σκοπός skopós 'watcher, lookout, scout; mark, target, aim', with the denominative σκοπέω/σκοπεῖν 'to look at, consider' and σκοπιά 'watch-tower'. ἐπίσκοπος epískopos is ἐπί 'over, upon' + σκοπός, literally 'overseer' — in classical usage a title for inspectors and magistrates (Athenian officials sent to allied cities), then in the Septuagint and the New Testament the officer of a Christian congregation, whence the modern 'bishop'. Both glosses in the chart are accurate, and the cross-reference to the Epi root is correct.",
+          "derivation_fa": "یونانی همان شاخه‌ای است که در آن خوشهٔ آغازینِ ریشهٔ *speḱ- دچار قلب (metathesis) شده است: *spek- به *skep- بدل شده و از آن σκέπτομαι «می‌نگرم، وارسی می‌کنم» (به جای صورت مورد انتظار *σπέκτομαι) پدید آمده، و از درجهٔ o‌ی ریشه یعنی *spoḱ-ós صورت σκοπός «دیده‌بان، پاسور، پیشرو؛ و نیز نشانه و هدف» ساخته شده که فعل σκοπεῖν «نگریستن، سنجیدن» و σκοπιά «دیده‌بانگاه» از آن گرفته شده‌اند. ἐπίσκοπος نیز ترکیب ἐπί «بر، فراز» و σκοπός است، تحت‌اللفظ «فرانگرنده، ناظر»؛ در یونانیِ کلاسیک عنوان بازرسان و کارگزاران دولتی (از جمله مأموران آتن در شهرهای هم‌پیمان) بود و سپس در ترجمهٔ سبعینی و عهد جدید به معنی سرپرست جماعت مسیحی به کار رفت و «اسقف» امروزی از همان است. هر دو معنایی که نورایی داده درست است و ارجاع او به ریشهٔ Epi نیز به‌جاست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CF%8C%CF%82",
+            "https://en.wiktionary.org/wiki/%E1%BC%90%CF%80%CE%AF%CF%83%CE%BA%CE%BF%CF%80%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. spek-: 'II. Extended o-grade form *spoko- metathesized in Greek skopos, one who watches, also object of attention, goal, and its denominative skopein (< *skop-eyo-), to see: SCOPE, -SCOPE, -SCOPY; BISHOP, EPISCOPAL, HOROSCOPE, TELESCOPE.' Watkins also has '6. Suffixed metathetical form *skep-yo- in Greek skeptesthai, to examine, consider: SKEPTIC.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 984",
+              "stance": "supports",
+              "note": "'gr. sképtomai ,schaue' (skep- umgestellt aus *spek-); skopós ,Späher, Ziel', skopeîn ,beobachten, zielen, untersuchen', skopḗ, skopiá ,Warte', sképsis ,Betrachtung'.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny II 660",
+              "stance": "supports",
+              "note": "'Gr. sképtomai ,schaue' (skep- umgestellt aus spek-, s. zuletzt Hirt IF. 21, 172 ...), skopós ,Späher; Ziel', skopeîn ,beobachten, zielen, untersuchen', skopḗ, skopiá ,Warte'.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. bishop, p. ~182 (KLN_1966.txt leaf 103)",
+              "stance": "supports",
+              "note": "'bishop, n. — ME. biscop, bischop, fr. OE. bisceop, biscop, fr. L. episcopus, \"overseer, superintendant\", in Eccles. L., \"bishop\", fr. Gk. epískopos, \"overseer\", fr. epí, \"on, over\", and skopós, \"watcher\". See epi- and -scope and cp. episcopal.'"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Old Persian",
+          "words": "skuba",
+          "verdict": "disputed",
+          "derivation": "The word itself is real, but the language label makes this node impossible as drawn, and the printed page (checked at 300 dpi) shows that the label is the book's own, not a misreading: Nourai really does print 'Old Persian ... skuba: bishop, priest'. Old Persian is the language of the Achaemenid inscriptions, extinct as a written idiom by the late 4th century BCE — three centuries before there were any Christian ἐπίσκοποι to name. سکوبا is a Persian word of the Islamic period, known from the Shāhnāme (the very verse the chart quotes at node #10) and from the lexicographers; it is a borrowing of Greek ἐπίσκοπος, almost certainly through Syriac ܐܦܣܩܘܦܐ ʾep(p)isqōpā, the form in which the Church of the East carried the title into Iran, with loss of the unstressed first syllable(s) and Greek π rendered by Persian ب. Wiktionary's descendants list for ἐπίσκοπος accordingly files 'Persian: سُکوبَا (sukōbā)' as a direct borrowing from Greek, with no Old Persian stage. So node #9 and node #10 are the same New Persian word listed twice, once under a chronologically impossible label. (The gloss 'bishop, priest' is fine: Dehkhoda glosses سکوبا 'اسقف، مطران' and also records its use for a monk.)",
+          "derivation_fa": "خودِ واژه راست است، اما برچسب زبانیِ این گره آن را ناممکن می‌کند، و بررسی تصویر صفحهٔ چاپی (با تفکیک ۳۰۰ نقطه بر اینچ) نشان می‌دهد که این برچسب از خودِ کتاب است نه خطای خوانشِ اسکن: نورایی به‌راستی نوشته است «فارسی باستان ... skuba: اسقف، کشیش». فارسی باستان زبان سنگ‌نبشته‌های هخامنشی است و در پایان سدهٔ چهارم پیش از میلاد از نوشتار افتاد، یعنی سه سده پیش از آنکه اسقفی مسیحی در کار باشد. «سکوبا» واژه‌ای فارسیِ دورهٔ اسلامی است که از شاهنامه (همان بیتی که در گرهٔ ۱۰ آمده) و از فرهنگ‌ها می‌شناسیم و وام‌واژه‌ای است از ἐπίσκοπος یونانی، به احتمال بسیار زیاد با میانجیِ سریانیِ ʾep(p)isqōpā که کلیسای شرق این عنوان را با همان صورت به ایران آورد؛ هجای آغازینِ بی‌تکیه افتاده و پِ یونانی در فارسی به «ب» بدل شده است. ویکی‌واژه نیز در فهرست بازماندگان ἐπίσκοπος صورت «سُکوبا»ی فارسی را یکراست ذیل یونانی آورده و هیچ مرحلهٔ «فارسی باستان» نمی‌شناسد. پس گرهٔ ۹ و گرهٔ ۱۰ یک واژهٔ واحدِ فارسی نو‌اند که دو بار آمده، یک بار با برچسبی که از نظر تاریخی ناممکن است. خطا از کتاب است، نه از استخراج.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BC%90%CF%80%CE%AF%CF%83%CE%BA%CE%BF%CF%80%CE%BF%CF%82",
+            "https://abadis.ir/fatofa/%D8%B3%DA%A9%D9%88%D8%A8%D8%A7/"
+          ],
+          "error_in": "book",
+          "book_prints": "Old Persian | skuba : bishop, priest",
+          "correct_form": "(New) Persian سکوبا sekubā, a Syriac-mediated borrowing of Greek epískopos — there is no Old Persian stage",
+          "ref_check": [
+            {
+              "ref": "MON:1901",
+              "status": "partial",
+              "note": "Mo'in's entry for سکوبا (read via abadis.ir, which reproduces the Farhang-e Mo'in text) is simply '(سُ) (اِ.) اسقف' — 'bishop'. Mo'in gives the word and the meaning but attaches no origin tag at all here, and certainly no Old Persian claim; the Dehkhoda column on the same page adds 'رئیس اسقفیه' and a note that it may stand for سکوپا."
+            },
+            {
+              "ref": "FSF:228",
+              "status": "partial",
+              "note": "Noushin, Vāženāmak (FSF_pages.txt leaf 306, printed page numeral OCRs as ۳۰۳, not 228 — this scan is evidently a different printing from Nourai's): 'سکوبا (با پیش اول): پیشوای مذهبی در آیین مسیحی (معرب آن «اسقف»، لاتینی episcopo؛ به واژهٔ اسقف نگاه کنید)', followed by the same Ferdowsi couplet. Noushin therefore supports a Greek/Latin episcopus origin — but as a New Persian word of the Shāhnāme, not as Old Persian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KNT",
+              "where": "Kent, Old Persian, Lexicon pp. 164-215 (KNT.txt)",
+              "stance": "silent",
+              "note": "No headword skuba- or anything like it; the Old Persian lexicon contains no Christian vocabulary of any kind, as expected for a corpus that closes in the 4th c. BCE."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vāženāmak, leaf 306 s.v. سکوبا",
+              "stance": "partial",
+              "note": "'معرب آن «اسقف»، لاتینی episcopo' — Noushin treats سکوبا as the Persian form beside the Arabicised اسقف, i.e. as a New Persian word, and it is from him that Nourai's 'skuba → Arabic osqof' link evidently comes."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in via abadis.ir, s.v. سکوبا",
+              "stance": "partial",
+              "note": "'(سُ) (اِ.) اسقف'; the Dehkhoda section on the same page identifies it as 'اسقف، مطران' and as the name of a monk, with no Old Persian attribution."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "sekubâ",
+          "verdict": "confirmed",
+          "derivation": "New Persian سکوبا sekubā 'a Christian bishop' is genuine and is exactly where Nourai says it is: Ferdowsi, in the Christian episodes of the Shāhnāme, نوشتند نامه به هر کشوری / سکوبا و بطریق و هر مهتری, where it stands beside بطریق (< Gk. πατρίκιος / patriarch) in a list of Byzantine dignitaries. The source is Greek ἐπίσκοπος, and the shape of the Persian word shows that it did not come straight from Greek but through Aramaic/Syriac: Classical Syriac ܐܦܣܩܘܦܐ ʾep(p)isqōpā (also ʾesqōpā) lost its unstressed opening syllable in Iranian mouths, the Greek/Syriac π/p appears as Persian ب, and the Syriac emphatic-state ending -ā is kept as the final ا of سکوبا — the same ending that betrays Syriac mediation in many Persian church words. Wiktionary lists Persian سُکوبَا among the borrowings of ἐπίσκοπος alongside Aramaic אפיסקופא, Arabic أسقف and Armenian եպիսկոպոս. The arrow drawn to this node is therefore right in substance; only the intervening 'Old Persian' box (node #9) is a phantom.",
+          "derivation_fa": "«سکوبا» در فارسی نو به معنی «اسقف مسیحی» واژه‌ای راستین است و درست همان‌جاست که نورایی می‌گوید: فردوسی در بخش‌های مسیحیِ شاهنامه می‌سراید «نوشتند نامه به هر کشوری / سکوبا و بطریق و هر مهتری»، و در همین بیت در کنار «بطریق» (از πατρίκιος یونانی) در فهرست بزرگان رومی نشسته است. خاستگاه واژه ἐπίσκοπος یونانی است، اما ریختِ فارسیِ آن نشان می‌دهد که یکراست از یونانی نیامده بلکه از راه آرامی/سریانی رسیده است: صورت سریانیِ ʾep(p)isqōpā (و نیز ʾesqōpā) در دهان ایرانیان هجای آغازینِ بی‌تکیه را از دست داده، پِ یونانی-سریانی به «ب» بدل شده، و پایانهٔ «حالت مطلق» سریانی یعنی ā همچون الفِ پایانیِ «سکوبا» بر جای مانده است — همان پایانه‌ای که در بسیاری از واژه‌های کلیساییِ فارسی نشانهٔ میانجیگری سریانی است. ویکی‌واژه نیز «سُکوبا»ی فارسی را در کنار אפיסקופא آرامی، «أسقف» عربی و եպիսկոպոս ارمنی در شمار وام‌گرفتگان ἐπίσκοπος آورده است. بنابراین محتوای این پیکان درست است و تنها جعبهٔ میانیِ «فارسی باستان» (گرهٔ ۹) ساختگی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BC%90%CF%80%CE%AF%CF%83%CE%BA%CE%BF%CF%80%CE%BF%CF%82",
+            "https://abadis.ir/fatofa/%D8%B3%DA%A9%D9%88%D8%A8%D8%A7/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1901",
+              "status": "supports",
+              "note": "Farhang-e Mo'in s.v. سکوبا: '(سُ) (اِ.) اسقف' — the word and the gloss 'bishop' are Mo'in's, matching the chart's 'a Christian bishop'. (Read through abadis.ir, which carries the Mo'in text; the print volume's page 1901 could not be paged directly, so the page number itself is unverified.)"
+            },
+            {
+              "ref": "FSF:228",
+              "status": "supports",
+              "note": "Noushin, Vāženāmak (FSF_pages.txt leaf 306): 'سکوبا (با پیش اول): پیشوای مذهبی در آیین مسیحی (معرب آن «اسقف»، لاتینی episcopo؛ به واژهٔ اسقف نگاه کنید)' followed by the identical Ferdowsi couplet 'نوشتند نامه به هر کشوری / سکوبا و بطریق و هر مهتری'. Content matches exactly; the scan's printed page is ۳۰۳, so Nourai's 228 belongs to a different printing."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in and Dehkhoda via abadis.ir, s.v. سکوبا",
+              "stance": "supports",
+              "note": "Dehkhoda: 'رئیس اسقفیه'; also 'نام راهبی است که حضرت عیسی مسیح بدیر او رفته...', and the remark that the word may stand for سکوپا — i.e. an ecclesiastical title of foreign origin."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vāženāmak leaf 306",
+              "stance": "supports",
+              "note": "Explicitly refers the word to Greek/Latin episcopus and cross-refers to اسقف."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. bishop, p. ~182",
+              "stance": "supports",
+              "note": "Klein documents the Greek → Latin/ecclesiastical spread of epískopos that underlies every borrowed form of the title, Persian included."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "Arabic",
+          "words": "osqof",
+          "verdict": "plausible",
+          "derivation": "Arabic أُسْقُف usquf 'bishop' (pl. أساقفة asāqifa, أساقف asāqif) is certainly a form of Greek ἐπίσκοπος, but not a direct one and not one that came through Persian. The route recognised by Arabists is Greek ἐπίσκοπος > Classical Syriac ܐܦܣܩܘܦܐ ʾeppisqōpā (with variants ʾesqōpā) > Arabic usquf, the loss of the initial syllable and the u-u vocalism being characteristic of the Syriac-mediated Christian vocabulary of pre-Islamic Arabia (the bishops of al-Ḥīra and Najrān). Wiktionary: 'From Classical Syriac ܐܦܣܩܘܦܐ (ʾeppisqoppā) or a variant thereof ... a borrowing of Ancient Greek ἐπίσκοπος'. Two corrections to the chart as extracted: (a) on the printed page this box hangs off the GREEK box, not off 'Old Persian skuba' — a single line drops from the bottom-left corner of the Greek box and elbows into Old Persian, Arabic and Latin in turn, so the JSON's parent=9 is an extraction error; (b) even the printed Greek → Arabic arrow passes over the Syriac stage that actually shaped the Arabic word. Hence 'plausible': right ultimate source, compatible but incomplete route.",
+          "derivation_fa": "«أُسْقُف» عربی (جمع: أساقفة و أساقف) بی‌گمان صورتی از ἐπίσκοπος یونانی است، اما نه یکراست از یونانی و نه از راه فارسی. راهی که عربی‌دانان می‌پذیرند این است: ἐπίσκοπος یونانی ← سریانیِ کلاسیک ʾeppisqōpā (و گونهٔ ʾesqōpā) ← «أسقف» عربی؛ افتادن هجای آغازین و واکه‌آراییِ u-u از ویژگی‌های همان گنجینهٔ واژگان مسیحیِ سریانی‌تبار است که پیش از اسلام از راه حیره و نجران به عربی رسیده بود. ویکی‌واژه می‌نویسد: «از سریانی کلاسیک ʾeppisqoppā یا گونه‌ای از آن ... که خود وام‌گرفته از ἐπίσκοπος یونانی است». دو نکتهٔ اصلاحی دربارهٔ نمودار: نخست آنکه در صفحهٔ چاپی این جعبه از جعبهٔ «یونانی» منشعب می‌شود نه از «فارسی باستان skuba» (خطی از گوشهٔ پایینِ چپِ جعبهٔ یونانی فرود می‌آید و به ترتیب به «فارسی باستان»، «عربی» و «لاتینی» می‌رسد)، پس ثبتِ parent=9 در داده‌های استخراج‌شده خطای خوانش است؛ دوم آنکه حتی پیکانِ چاپیِ «یونانی ← عربی» نیز از مرحلهٔ سریانی که شکل واژهٔ عربی را ساخته چشم می‌پوشد. از این رو حکم «با احتیاط پذیرفتنی» است: خاستگاه نهایی درست، ولی مسیر ناتمام.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D9%82%D9%81",
+            "https://abadis.ir/fatofa/%D8%A7%D8%B3%D9%82%D9%81/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:270",
+              "status": "supports",
+              "note": "Farhang-e Mo'in s.v. اسقف (via abadis.ir) tags the word '[معر.]' (mu'arrab, arabicised) and glosses it 'از یونانی گرفته شده به معنای پیشوای عیسوی که مرتبه‌اش از کشیش بالاتر است' — 'taken from Greek, a Christian leader ranking above a priest'. Mo'in thus gives Greek as the source and Arabic as the mediating shape, which is what this node claims; he does not route it through Persian skuba."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. bishop, p. ~182",
+              "stance": "supports",
+              "note": "'fr. L. episcopus, \"overseer, superintendant\", in Eccles. L., \"bishop\", fr. Gk. epískopos' — the Greek etymon and the ecclesiastical sense-development that every borrowed form, Arabic included, presupposes."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'ān (FVQ_pages.txt, searched for usquf/asquf)",
+              "stance": "silent",
+              "note": "No entry: أسقف is not a Qur'ānic word, so Jeffery does not treat it, though he repeatedly mentions the Christian bishops of al-Ḥīra and Najrān (p. ~174 'Assemani ... mentions Monophysite Bishops of al-Hira'; 'Quss, Bishop of Najran'), the milieu in which the Syriac title entered Arabic."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfāẓ al-Fārisiyya al-Muʿarraba (AFM_pages.txt, searched أسقف/الأسقف)",
+              "stance": "silent",
+              "note": "No entry — Addi Shir's dictionary covers Persian words arabicised, and he does not claim أسقف among them, which is itself evidence against the chart's Persian → Arabic route."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch, Etym. Wb. der europäischen Wörter orientalischen Ursprungs (LKT.txt, searched usquf/Bischof/Episkopos)",
+              "stance": "silent",
+              "note": "No entry; Lokotsch catalogues Oriental words that entered European languages, and 'bishop' travelled the other way, so his silence is expected."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Persian",
+          "words": "osqof",
+          "verdict": "transcription_suspect",
+          "derivation": "The derivation is sound: Persian اسقف osqof 'bishop' is an Arabic loan (Arabic أسقف usquf), and since the Arabic word is itself Greek by way of Syriac, the Persian form is the Arabic-mediated doublet of the older, directly borrowed سکوبا of node #10 — a classic round trip in which the Greek title reaches Persian twice, once through Syriac (سکوبا) and once through Arabic (اسقف). Ferdowsi already uses it: به اسقف چنین گفت کای دستگیر / ز ایران یکی نام‌جویم دبیر. Mo'in marks it '[معر.]' and traces it to Greek; Dehkhoda quotes the lexicographers' 'اسقف النصاری، أعجمی معرّب' — 'the Christian bishop, a foreign word arabicised'. The flag is on the script, not the etymology: the JSON gives «اسقّف», with a shadda over the qāf, which would be read usqqof and is not a form any dictionary knows. The printed page (rendered at 300 dpi and read directly) shows a ḍamma, not a shadda: «اسقُف». This is an extraction error, not the author's.",
+          "derivation_fa": "ریشه‌شناسی این گره درست است: «اسقف» فارسی وام‌واژه‌ای از عربیِ «أسقف» است و چون واژهٔ عربی خود از یونانی و با میانجی سریانی آمده، صورت فارسیِ آن دوگانهٔ (doublet) واژهٔ کهن‌ترِ «سکوبا» در گرهٔ ۱۰ است؛ یعنی همان عنوان یونانی دو بار به فارسی رسیده، یک بار از راه سریانی («سکوبا») و یک بار از راه عربی («اسقف»). فردوسی نیز آن را به کار برده است: «به اسقف چنین گفت کای دستگیر / ز ایران یکی نام‌جویم دبیر». معین آن را «[معر.]» نشانه زده و به یونانی بازبرده، و دهخدا از فرهنگ‌نویسان نقل می‌کند: «اسقف النصاری، أعجمی معرّب». اما نکتهٔ نشانه‌گذاری‌شده در اینجا خطِ واژه است نه ریشهٔ آن: در داده‌های استخراج‌شده «اسقّف» با تشدید روی «ق» آمده که خوانشِ usqqof می‌دهد و در هیچ فرهنگی چنین صورتی نیست. تصویر صفحهٔ چاپی (با تفکیک ۳۰۰ نقطه بر اینچ و خوانش مستقیم) نشان می‌دهد که آنچه بر «ق» نشسته ضمه است نه تشدید: «اسقُف». پس این خطای خوانشِ اسکن است، نه خطای کتاب.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%A7%D8%B3%D9%82%D9%81/",
+            "https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D9%82%D9%81"
+          ],
+          "error_in": "extraction",
+          "book_prints": "اسقُف",
+          "correct_form": "اسقُف",
+          "ref_check": [
+            {
+              "ref": "MON:270",
+              "status": "supports",
+              "note": "Farhang-e Mo'in s.v. اسقف (abadis.ir): tagged '[معر.]', glossed 'از یونانی گرفته شده به معنای پیشوای عیسوی که مرتبه‌اش از کشیش بالاتر است'. The Dehkhoda column adds 'یونانی اپیسکوپوس' and 'اسقف النصاری، أعجمی معرّب'."
+            },
+            {
+              "ref": "FSF:44",
+              "status": "supports",
+              "note": "Noushin, Vāženāmak (FSF_pages.txt leaf 54, printed numeral ۵۱ in this scan — again a different printing from Nourai's 44): 'اسقف (با پیش اول و سوم و سکون دوم) ... (تازی) ... پارسی: سکوبا', immediately followed by the same Ferdowsi couplet 'به اسقف چنین گفت کای دستگیر / ز ایران یکی نام‌جویم دبیر' that the chart quotes. Noushin marks the word تازی (Arabic) and gives سکوبا as its Persian counterpart — exactly the pair of nodes #10 and #12."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in + Dehkhoda via abadis.ir, s.v. اسقف",
+              "stance": "supports",
+              "note": "'گویند این لغت عربی است' beside 'اسقف النصاری، أعجمی معرّب' — the Persian lexicographical tradition itself registers it as an Arabic-shaped foreign word."
+            },
+            {
+              "src": "FSF",
+              "where": "Noushin, Vāženāmak leaf 54",
+              "stance": "supports",
+              "note": "'(تازی) ... پارسی: سکوبا' — Arabic, with سکوبا named as the native-route equivalent."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir (AFM_pages.txt, searched أسقف)",
+              "stance": "silent",
+              "note": "Not listed among the Persian words arabicised — consistent with a Greek/Syriac, not Persian, source for the Arabic word."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "Latin",
+          "words": "micro-scopium; tele-scopium; peri-scopium",
+          "verdict": "plausible",
+          "derivation": "These three are not Latin but New Latin (Neo-Latin) coinages of the scientific revolution, built by European scholars out of Greek material: telescopium is Kepler's Latinisation (1613) of Italian telescopio, the name coined in 1611 in the Accademia dei Lincei — Prince Federico Cesi's circle, to which Galileo belonged — from Greek τηλεσκόπος 'far-seeing' (τῆλε 'far' + -σκοπος 'watcher'); microscopium was made on the same model by Giovanni Faber of the Lincei in 1625 for Galileo's compound lens instrument (Gk. μικρός 'small'); periscopium is a 19th-century formation (Gk. περί 'around'), the English periscope dating from 1899. Because the second element is Greek -σκόπιον / σκοπεῖν, the arrow the printed page actually draws — from the GREEK box, not from the root — is the right one. Two things to correct: the label should read 'New Latin', since Classical Latin had none of these words; and the JSON records this node's parent as #0 (the root), whereas on the page the line into it descends from the Greek box together with the lines into Old Persian and Arabic — an extraction error.",
+          "derivation_fa": "این سه واژه لاتینی به معنای کلاسیک نیستند، بلکه ساخته‌های «لاتینِ نو» در دورهٔ انقلاب علمی‌اند که دانشمندان اروپایی از مصالح یونانی برساخته‌اند: telescopium لاتینی‌کردهٔ کپلر (۱۶۱۳م) از telescopio ایتالیایی است، نامی که در ۱۶۱۱م در آکادمیای لینچئی — حلقهٔ شاهزاده فدریکو چزی که گالیله نیز عضو آن بود — از τηλεσκόπος یونانی «دوربین، دورنگر» (τῆλε «دور» + -σκοπος «نگرنده») ساخته شد؛ microscopium را جووانی فابرِ همان آکادمی در ۱۶۲۵م بر همین قیاس برای دستگاه عدسیِ مرکبِ گالیله ساخت (μικρός «خرد»)؛ و periscopium ساختهٔ سدهٔ نوزدهم است (περί «پیرامون») که صورت انگلیسیِ periscope آن به ۱۸۹۹م بازمی‌گردد. چون جزء دومِ هر سه، -σκόπιον / σκοπεῖν یونانی است، پیکانی که صفحهٔ چاپی در واقع می‌کشد — یعنی از جعبهٔ «یونانی» و نه از ریشه — درست است. دو اصلاح لازم است: برچسب باید «لاتین نو» باشد، زیرا لاتین کلاسیک هیچ‌یک از این واژه‌ها را نداشت؛ و در داده‌های استخراج‌شده پدرِ این گره ۰ (ریشه) ثبت شده، حال آنکه در صفحه خطِ ورودی آن همراه با خطوطِ «فارسی باستان» و «عربی» از جعبهٔ یونانی فرود می‌آید — خطای خوانشِ اسکن.",
+          "sources": [
+            "https://www.etymonline.com/word/telescope"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 s.v. spek- ends its Greek section 'SCOPE, -SCOPE, -SCOPY; BISHOP, EPISCOPAL, HOROSCOPE, TELESCOPE', and the index has 'HOROSCOPE spek-, yēr-'. So AHD confirms that telescope and the -scope words belong to this root and are Greek-based, but it posits no Latin telescopium/microscopium stage; that stage is real but is Neo-Latin, and is not what Nourai's 'AHD' reference documents."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966, the -scope compounds (e.g. baroscope, bioscope, chronoscope, KLN_1966.txt lines 4476, 5049, 7606)",
+              "stance": "supports",
+              "note": "Klein's formula for the whole family is 'Compounded of ... and Gk. -skópion, fr. skopeîn, \"to look at, examine\". See -scope.' — the second element is Greek, as this node assumes, and the compounds are modern coinages."
+            },
+            {
+              "src": "WEB",
+              "where": "etymonline s.v. telescope (archived)",
+              "stance": "supports",
+              "note": "'1640s, from Italian telescopio (Galileo, 1611) and Modern Latin telescopium (Kepler, 1613), both from Greek teleskopos \"far-seeing\" ... said to have been coined by Prince Cesi, founder and head of the Roman Academy of the Lincei.' Note 'Modern Latin', i.e. New Latin, not Latin."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "An empty pass-through box standing for the French instrument names that carried the Neo-Latin coinages into the modern European languages and thence into Persian: télescope (1611, in Peiresc's circle, from telescopium), microscope (1656), périscope (19th c.). French analysed them as télé- / micro- / péri- + the productive suffix -scope, which is how Wiktionary still parses télescope ('From télé- + -scope'), and it is in this French shape — with the stress-final, -scope ending — that the words reached Persian, Turkish and Russian in the 19th century. The box carries no words and no reference, so nothing in it can be wrong; the step it represents is well documented.",
+          "derivation_fa": "این جعبهٔ خالی، حلقهٔ واسطِ فرانسوی را نشان می‌دهد که نام‌های لاتینِ نو را به زبان‌های نوین اروپایی و از آنجا به فارسی رسانده است: télescope (۱۶۱۱م، در حلقهٔ پِیرِسک، از telescopium)، microscope (۱۶۵۶م) و périscope (سدهٔ نوزدهم). فرانسوی این واژه‌ها را به صورت télé- / micro- / péri- به‌علاوهٔ پسوند زایای -scope تحلیل می‌کرد، چنان‌که ویکی‌واژه هنوز هم télescope را «télé- + -scope» می‌شکافد؛ و واژه‌ها با همین ریختِ فرانسوی، یعنی با پایانهٔ -scope، در سدهٔ نوزدهم به فارسی و ترکی و روسی راه یافتند. چون این جعبه نه واژه‌ای دارد و نه ارجاعی، چیزی در آن نمی‌تواند نادرست باشد و گامی که نشان می‌دهد مستند است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/t%C3%A9lescope"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Empty pass-through node with no citation of Nourai's own; checked against Wiktionary's French entry and etymonline instead (see consulted)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "etymonline s.v. telescope (archived)",
+              "stance": "supports",
+              "note": "Traces telescope to Italian telescopio and Modern Latin telescopium; the French télescope is the same Neo-Latin word in French dress and is the form Persian took over."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. تلسکوپ via abadis.ir",
+              "stance": "supports",
+              "note": "Mo'in's origin tag is '[فر.]' — French — which is precisely the intermediary this empty box represents: '(تِ لِ) [فر.] (اِ.) دوربین بزرگ که با آن ستارگان را رصد می‌کنند.'"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "Persian",
+          "words": "تلسکوپ; میکروسکوپ",
+          "verdict": "confirmed",
+          "derivation": "تلسکوپ teleskop and میکروسکوپ mikroskop are modern European loans in Persian, taken over with the instruments themselves during the Qajar period (Dār al-Funūn, from 1851, taught astronomy and medicine from French textbooks and its staff were largely French-trained). Mo'in tags تلسکوپ '[فر.]', i.e. French, and defines it 'دوربین بزرگ که با آن ستارگان را رصد می‌کنند'; the Dehkhoda article likewise says the word entered Persian from French and distinguishes the refracting (منکسرکننده) from the reflecting (منعکس‌کننده) type. میکروسکوپ is the same story, beside the calque ریزبین and the Academy's coinage درشت‌نما. The Persian spelling with پ for the final -pe and the stress pattern point to French rather than English transmission, as does the whole Qajar scientific vocabulary (لوکوموتیو, تلگراف, ژنرال); Wiktionary's claim that تلسکوپ is 'Borrowed from English telescope' is the minority view and does not fit the chronology. Nourai's French route is right.",
+          "derivation_fa": "«تلسکوپ» و «میکروسکوپ» وام‌واژه‌های نوِ اروپایی در فارسی‌اند که همراه با خودِ ابزارها در دورهٔ قاجار وارد شدند؛ دارالفنون (از ۱۲۳۰ خورشیدی) نجوم و پزشکی را از روی کتاب‌های فرانسوی می‌آموخت و آموزگارانش بیشتر فرانسه‌دان بودند. معین «تلسکوپ» را با نشانهٔ «[فر.]» یعنی فرانسوی آورده و چنین تعریف کرده است: «(تِ لِ) [فر.] (اِ.) دوربین بزرگ که با آن ستارگان را رصد می‌کنند»؛ دهخدا نیز می‌نویسد واژه از فرانسه به فارسی آمده و میان گونهٔ «منکسرکننده» و «منعکس‌کننده» فرق می‌گذارد. سرگذشت «میکروسکوپ» نیز همین است، در کنار گرته‌برداریِ «ریزبین» و برساختهٔ فرهنگستان «درشت‌نما». نوشتنِ پایانهٔ واژه با «پ» و الگوی تکیهٔ آن، مانند دیگر واژگان علمیِ دورهٔ قاجار («لوکوموتیو»، «تلگراف»، «ژنرال»)، بر میانجیگری فرانسوی گواهی می‌دهد نه انگلیسی؛ آنچه ویکی‌واژه دربارهٔ وام‌گیری «تلسکوپ» از انگلیسی می‌گوید دیدگاهی اقلیتی است و با گاه‌شماری سازگار نیست. مسیر فرانسویِ نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%AA%D9%84%D8%B3%DA%A9%D9%88%D9%BE/",
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%84%D8%B3%DA%A9%D9%88%D9%BE"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON",
+              "status": "supports",
+              "note": "Farhang-e Mo'in s.v. تلسکوپ (abadis.ir): '(تِ لِ) [فر.] (اِ.) دوربین بزرگ که با آن ستارگان را رصد می‌کنند.' The bracketed [فر.] is Mo'in's origin tag for French — exactly the French → Persian arrow of this node. Nourai gives no volume/page, so only the entry itself could be checked."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in and Dehkhoda via abadis.ir, s.v. تلسکوپ",
+              "stance": "supports",
+              "note": "Mo'in '[فر.]'; Dehkhoda's long article likewise derives it from French and describes both telescope types."
+            },
+            {
+              "src": "WEB",
+              "where": "Wiktionary, Persian تلسکوپ (archived)",
+              "stance": "partial",
+              "note": "'Borrowed from English telescope' — a different intermediary from Mo'in's French. Given the Qajar transmission history and Mo'in's explicit tag, the French route is the better supported one; either way the Greek/Neo-Latin origin is untouched."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "English",
+          "words": "scope; microscope; telescope; periscope",
+          "verdict": "confirmed",
+          "derivation": "telescope (1640s) and microscope (1650s) come into English from the Neo-Latin/Italian names of the instruments — telescopium/telescopio, microscopium — and periscope is a 19th-century formation (1899 in the optical sense). All three therefore continue Greek -σκόπιον, from σκοπεῖν 'to look at', and the arrow from the Neo-Latin box is right. scope is the odd one out and deserves a note: English scope 'aim, purpose, extent' (1530s) is not from the instrument family at all but from Italian scopo 'aim, purpose', from Latin scopus, from Greek σκοπός 'mark to shoot at, target' — a different sense of the same Greek noun, and hence a doublet route rather than a derivative of -scopium. Since Greek σκοπός itself is the node's ultimate parent either way, the chart is not wrong, only compressed. Watkins lists 'SCOPE, -SCOPE, -SCOPY; BISHOP, EPISCOPAL, HOROSCOPE, TELESCOPE' together under spek- in the same way.",
+          "derivation_fa": "واژه‌های telescope (حدود ۱۶۴۰م) و microscope (حدود ۱۶۵۰م) از نام‌های لاتینِ نو و ایتالیاییِ همین ابزارها (telescopium/telescopio و microscopium) به انگلیسی رسیده‌اند و periscope ساختهٔ سدهٔ نوزدهم است (معنای نوریِ آن از ۱۸۹۹م). پس هر سه دنبالهٔ -σκόπιον یونانی از σκοπεῖν «نگریستن»اند و پیکانی که از جعبهٔ لاتینِ نو کشیده شده درست است. اما scope از این میان بیرون است و نیاز به توضیح دارد: scope انگلیسی به معنی «هدف، دامنه، گستره» (حدود ۱۵۳۰م) اصلاً از خانوادهٔ نام ابزارها نیست، بلکه از scopo ایتالیایی «هدف، غرض» و آن از scopus لاتین و σκοπός یونانی به معنی «نشانه، آماج» آمده است؛ یعنی معنایی دیگر از همان اسم یونانی و در نتیجه دوگانه‌ای (doublet) است نه مشتقی از -scopium. چون σκοπός یونانی در هر دو حال پدرِ نهاییِ این گره است، نمودار نادرست نیست و تنها فشرده است. واتکینز نیز «SCOPE, -SCOPE, -SCOPY; BISHOP, EPISCOPAL, HOROSCOPE, TELESCOPE» را به همین شیوه ذیل ریشهٔ spek- کنار هم آورده است.",
+          "sources": [
+            "https://www.etymonline.com/word/telescope"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. spek-, Greek section: 'skopos, one who watches ... and its denominative skopein (< *skop-eyo-), to see: SCOPE, -SCOPE, -SCOPY; BISHOP, EPISCOPAL, HOROSCOPE, TELESCOPE.' All four of this node's words (periscope under -SCOPE) are covered."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WEB",
+              "where": "etymonline s.v. telescope (archived)",
+              "stance": "supports",
+              "note": "'1640s, from Italian telescopio (Galileo, 1611) and Modern Latin telescopium (Kepler, 1613), both from Greek teleskopos \"far-seeing\", from tele- \"far\" + -skopos \"watcher\" (from PIE root *spek- \"to observe\").'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict., s.v. SCOPE (SKT.txt line 16645)",
+              "stance": "supports",
+              "note": "Skeat carries SCOPE as a headword in the Italian/Latin/Greek class, i.e. through Italian scopo from Gk. skopós — the doublet route noted in the derivation."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966, the -scope entries",
+              "stance": "supports",
+              "note": "'Gk. -skópion, fr. skopeîn, \"to look at, examine\". See -scope.' repeated across baroscope, bioscope, chromatoscope, chronoscope, ebullioscope, endoscope."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "Germanic",
+          "words": "spehôn",
+          "verdict": "confirmed",
+          "derivation": "The form Nourai prints is the Old High German verb spehōn 'to spy, watch closely' (MHG spehen, modern German spähen), which is conventionally used — as Watkins uses it — to stand for the Proto-West-Germanic *spehōn. Its kin are OHG speha f. 'attentive observation, reconnoitring', OHG/OS spāhi 'wise, skilful', ON spá 'prophecy' and spá 'to prophesy', MDu spien, MLG spēen 'to spy'. All continue PIE *speḱ-: Germanic *sp- is the regular outcome of PIE *sp- (Grimm's law does not affect a stop after s), and the *-ḱ- gives Germanic -h- by Grimm's law, so *speḱ-ōn > *spehōn exactly as expected. Only the label deserves a footnote: 'Germanic' here means the OHG citation form, not a reconstruction, and Nourai's circumflex ô renders the long ō of the weak-verb suffix.",
+          "derivation_fa": "صورتی که نورایی آورده، فعل آلمانیِ علیای کهن spehōn «پاییدن، به دقت نگریستن» است (در آلمانی میانه spehen و در آلمانی امروز spähen) که — چنان‌که واتکینز نیز می‌کند — معمولاً به نمایندگی از ژرمنیِ غربیِ آغازین *spehōn به کار می‌رود. خویشاوندان آن عبارت‌اند از speha «نگریستنِ دقیق، شناسایی» در همان زبان، spāhi «دانا، چیره‌دست» در آلمانی و ساکسونی کهن، و spá «پیشگویی» و فعل spá «پیشگویی کردن» در نورس کهن، و spien هلندی میانه. همهٔ این‌ها بازماندهٔ *speḱ- هندواروپایی‌اند: خوشهٔ آغازینِ *sp- در ژرمنی دست‌نخورده می‌ماند (قانون گریم بر انسدادیِ پس از s کارگر نیست) و *-ḱ- بر پایهٔ همان قانون به -h- بدل می‌شود؛ پس *speḱ-ōn به *spehōn می‌رسد، درست چنان‌که انتظار می‌رود. تنها نکته آن است که برچسب «ژرمنی» در اینجا صورتِ گواهی‌شدهٔ آلمانی علیای کهن است نه بازسازی، و «ô» در نوشتار نورایی همان ōی کشیدهٔ پسوندِ فعل ضعیف است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/spe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 s.v. spek-: 'I. Basic form *spek-. 1. Germanic *spehon in: a. Old French espier, to watch: ESPY, SPY; b. Germanic derivative *speh-on-, watcher, in Old Italian spione, spy: ESPIONAGE.' Watkins uses the identical citation form *spehon."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 984",
+              "stance": "supports",
+              "note": "'ahd. spehōn ,spähen', dazu speha f. ,aufmerksames Betrachten, Untersuchung, Auskundschaftung, Aufpassen'; aisl. spá ,Wahrsagung' ...; as. ahd. spāhi ,klug, geschickt'.'"
+            },
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny II 660",
+              "stance": "supports",
+              "note": "'Ahd. spehōn ,spähen' von speha f. ,prüfendes, aufmerksames Betrachten, Untersuchung, Auskundschaftung, Aufpassen'; aisl. spá ,Wahrsagung' (*spahō : gr. skopḗ), spá ,wahrsagen' ...; as. ahd. spāhi ,klug, geschickt'.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. spy, p. ~1566",
+              "stance": "supports",
+              "note": "'... Frankish *spehon, which is rel. to OHG. spehon, MHG. spehen, \"to examine closely\", G. spähen, \"to spy\", MLG. speen, MDu. spien, \"to spy\", ON. spá ... OHG. speho, \"spy\" ... fr. I.-E. base *spek-, \"to look at, examine, spy\".'"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "English",
+          "words": "spy; espionage",
+          "verdict": "plausible",
+          "derivation": "Both words do go back to the Germanic verb, but not down the straight Germanic line the arrow suggests: English received them back from Romance. spy is ME spien, espien, from Old French espier 'to watch' (modern épier), itself from Frankish *spehōn — i.e. a West Germanic verb borrowed into Gallo-Romance and then re-borrowed into English in the 13th century; the noun spy is ME spie from OF espie. espionage is later still and doubly Romance: French espionnage, from espion 'spy', which French took from Italian spione, an augmentative of spia, itself a Germanic loan in Italian. Buck states the route in one line — 'NE spy through OFr. espier' — and Watkins likewise files SPY and ESPY under 'Germanic *spehon in: a. Old French espier'. So the ultimate etymon in the chart's Germanic box is right, and both English words are genuinely from *speḱ-; what the single arrow hides is that the transmission is Frankish → Old French → English (and Germanic → Italian → French → English for espionage).",
+          "derivation_fa": "هر دو واژه به‌راستی به همان فعل ژرمنی بازمی‌گردند، اما نه از راه مستقیم ژرمنی که پیکان نشان می‌دهد؛ انگلیسی آن‌ها را از زبان‌های رومانس پس گرفته است. spy از انگلیسی میانهٔ spien / espien است و آن از espier فرانسهٔ کهن (امروز épier) «پاییدن»، و این خود از *spehōn فرانکی؛ یعنی فعلی ژرمنیِ غربی که نخست به رومانسِ گل وام رفته و سپس در سدهٔ سیزدهم به انگلیسی بازگشته است؛ اسمِ spy نیز از spie انگلیسی میانه و آن از espie فرانسهٔ کهن است. espionage دیرتر و دو بار رومانسی است: از espionnage فرانسوی، از espion «جاسوس»، که فرانسوی آن را از spione ایتالیایی — صورت بزرگ‌ساختِ spia — گرفته و spia خود وام‌واژه‌ای ژرمنی در ایتالیایی است. باک این مسیر را در یک سطر آورده است: «NE spy through OFr. espier»، و واتکینز نیز SPY و ESPY را ذیل «ژرمنی *spehon ← فرانسهٔ کهن espier» نشانده است. پس ریشهٔ نهایی در جعبهٔ ژرمنیِ نمودار درست است و هر دو واژهٔ انگلیسی به‌راستی از *speḱ- می‌آیند؛ آنچه این پیکانِ یگانه پنهان می‌کند، مسیر فرانکی ← فرانسهٔ کهن ← انگلیسی است (و برای espionage: ژرمنی ← ایتالیایی ← فرانسوی ← انگلیسی).",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/spe%E1%B8%B1-"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai cites nothing for this node; checked against Klein, Watkins and Buck instead (see consulted), all three of which insert Old French between Germanic and English."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.v. spy (v. and n.), p. ~1566 (KLN_1966.txt line 36462)",
+              "stance": "partial",
+              "note": "'spy, tr. and intr. v. — ME. spien, espien, fr. OF. espier (F. épier), fr. Frankish *spehon ...'; 'spy, n. — ME. spie, fr. OF. espie (whence F. épie), fr. espier'; and 'espionage, n. — F. espionnage, \"spying\", fr. espion, \"spy\", fr. It. spione. See espy and -age.' The Germanic etymon is confirmed, the route is Romance."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. spek-",
+              "stance": "partial",
+              "note": "'1. Germanic *spehon in: a. Old French espier, to watch: ESPY, SPY; b. Germanic derivative *speh-on-, watcher, in Old Italian spione, spy: ESPIONAGE.' Watkins too routes both English words through Romance."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 15.52, paragraph 3 (p. ~1096)",
+              "stance": "partial",
+              "note": "'OHG spehon \"look at carefully\", NHG spähen, etc. (NE spy through OFr. espier)' — the parenthesis is exactly the qualification this node needs."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

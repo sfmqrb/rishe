@@ -1,0 +1,876 @@
+{
+  "pdf_page": 470,
+  "book_page": 440,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Spher",
+      "verdict": "plausible",
+      "modern_form": "PIE *sp(h)er- / *sperH- 'to jerk, kick out with the foot, move rapidly' (Pokorny 992-993, lemma sp(h)er-1); the 'ankle' sense comes from Gk. sphyrón, the 'spread' sense from the adjacent lemma (s)p(h)er-2 'to sprinkle, scatter' (Pok. 993-995)",
+      "note": "The root is real and POK:992 is the right page, but the gloss merges two of Pokorny's lemmas. Pokorny 992-993 sp(h)er-1 = 'eine rasche Bewegung machen, wegstossen' (Skt. sphurati, Av. spar-, Gk. spairo, Lat. sperno, ON sperna, Lith. spirti); the 'ankle' meaning is carried by Gk. sphyron and OIr. seir, which is why Watkins' AHD appendix glosses the root simply 'spere-. Ankle. [Pok. 1. sp(h)er- 992]'. 'Spread/scatter' belongs to Pokorny's next lemma (s)p(h)er-2 (993-995), which Pokorny himself calls 'probably identical' with sp(h)er-1 and which Watkins keeps separate as spere- 'to strew'. LIV further splits the family into *sperH- 'to kick' (585f.) and *sper- 'to deliver, secure' (579) - a distinction that matters for node #2 below. Cross-cutting problem of this chart: Nourai runs three originally distinct things (the kick-root, the 'entrust' root, and the nasalized *sprengh- of 'spring') into one box, and hangs the Greek 'ball' word on it as well.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *sp(h)er- «با پا زدن، جستن، حرکت تند کردن» (پوکورنی، صص ۹۹۲–۹۹۳) واقعی است و ارجاع نورایی به صفحهٔ ۹۹۲ درست است؛ اما معنایی که او می‌دهد دو مدخل جداگانهٔ پوکورنی را در هم آمیخته: معنی «قوزک پا» از یونانی sphyrón و ایرلندی کهن seir می‌آید (واتکینز در پیوست AHD همین را تنها معنیِ ریشه می‌داند) و معنی «پراکندن/گستردن» به مدخل بعدی (s)p(h)er-2 «افشاندن» (صص ۹۹۳–۹۹۵) تعلق دارد، هرچند خود پوکورنی این دو را «احتمالاً یکی» می‌شمارد. فرهنگ LIV نیز *sperH- «لگد زدن» را از *sper- «سپردن، واگذاشتن» جدا می‌کند. پس ادعای نورایی دربارهٔ خودِ ریشه با احتیاط پذیرفتنی است، ولی سه خانوادهٔ جدا (ریشهٔ «لگد زدن»، ریشهٔ «سپردن»، و *sprengh- انگلیسی spring) در یک جعبه ادغام شده‌اند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sperH-",
+        "https://www.etymonline.com/word/sphere"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:992",
+          "status": "supports",
+          "note": "POK_full.txt, 'Root / lemma: sp(h)er-1, sp(h)era-', Page(s): 992-993: 'Meaning: to make a rash movement, to push away, to rush' ... 'Avestan spar(aiti) \"tritt, stoesst\" ... np. sipardan \"tread\"' ... 'aspiriert sphyron \"ankle, calcaneus\"'. The page number is exact; the 'spread' half of Nourai's gloss belongs to the following lemma (s)p(h)er-2 'to sprinkle, scatter', Page(s) 993-995."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "IEW 992-993, lemma sp(h)er-1",
+          "stance": "partial",
+          "note": "grep -n 'lemma: sp(h)er-1' POK_full.txt -> line 80093; 'to make a rash movement, to push away, to rush'; sphyron 'ankle' is inside this lemma, but 'spread' is the next lemma (993-995)."
+        },
+        {
+          "src": "WLD",
+          "where": "Bd. II 668ff., '1. sp(h)er-'",
+          "stance": "supports",
+          "note": "WLD_Bd2_1927_dli_106624_djvu.txt line ~43420: '1, sp(h)er- \"zucken, mit dem Fusse ausschlagen, zappeln, schnellen\" (im Anlaut wechselt sp- und sph-, s. Persson Beitr. 417)' - explicitly sanctions the sp-/sph- doublet of Nourai's root name."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. spere- and spere-",
+          "stance": "partial",
+          "note": "AHD_watkins1985.txt: 'spere-. Ankle. ... [Pok. 1. sp(h)er- 992.]' (derivatives SPUR, SPURN, SPOOR) and a separate 'spere-' ... 'Greek speirein, to scatter ... [Pok. 2. (s)p(h)er- 993.]'. Watkins keeps 'ankle' and 'strew' apart; Nourai merges them."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. spri, io (sphra, ie) 'ball'",
+          "stance": "partial",
+          "note": "IEC.txt line 16952: 'Spri, io (sphra, ie) \"ball\" WP II, 672 Gk. sphaira, f. id.; ... (For OE spure \"heel\", see sphur- in view of Gk. sphuron \"ankle\")' - Mann does attach both sphaira and the 'ankle/heel' words to this family."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "spar; apa-spar; us-spar",
+          "verdict": "plausible",
+          "derivation": "Young Avestan spar- 'to kick, tread, trample' is real: Bartholomae, AiW col. 1613, 'j. spar- V. \"schnellen, treten\"', with only two attested preverbs - fra- (fras ayanho frasparat, Y 9.11 'he shot forward from under the kettle') and vi- (vispara, V 2.31 'trample apart'); Bartholomae himself glosses 'ai. sphurati, np. sipardan'. Cheung 2007: 352 sets up Proto-Iranian *sparH 'to tread, kick' (< PIE *sperH-, LIV 585f.), with MP spar-/spurdan and NP sipardan. So 'spar : to walk' is right in substance (better 'tread, kick' than 'walk'). The two compounds Nourai adds are NOT attested Avestan words: neither apa-spar- nor us-spar- appears in Bartholomae. 'us-spar' comes from Horn, Grundriss p.154 no.697, where Horn analyses NP supurden 'anvertrauen, uebergeben' as 'aw. us- + 2. par-' (i.e. the root 'to carry across', cf. Lat. portare) - a de Lagarde conjecture Horn himself calls 'sehr unsicher', and not a form of spar-. The real ancestor of the 'entrust' sense is Middle Persian abespurdan/abespardan < Proto-Iranian *upa-spar-, which Cheung 2007: 351 keeps as a separate root *spar 'to hand over, entrust'. The glosses are also crossed: apa- is 'away' and us- is 'up/out', yet Nourai glosses apa-spar 'walk up to' and us-spar 'walk away'.",
+          "derivation_fa": "فعل اوستایی spar- «لگد زدن، پای کوفتن، پایمال کردن» واقعی است؛ بارتولومه در فرهنگ ایرانی باستان (ستون ۱۶۱۳) آن را «schnellen, treten» معنی می‌کند و تنها دو پیشوند برای آن گواه دارد: fra- (frasparat در یسنا ۹٫۱۱) و vi- (vīspara در وندیداد ۲٫۳۱)؛ خود او هم‌ریشه‌های سنسکریت sphuráti و فارسی نو «سپردن» را می‌آورد. چونگ (۲۰۰۷، ص ۳۵۲) ستاک ایرانی آغازین *sparH «پای کوفتن» را از هندواروپایی *sperH- بازسازی می‌کند که از راه فارسی میانهٔ spar-/spurdan به «سپردن» رسیده است. اما دو ترکیبِ apa-spar و us-spar در اوستا گواه ندارند و در بارتولومه نیست؛ «us-spar» برگرفته از تحلیل کهنهٔ هرن (ص ۱۵۴، شمارهٔ ۶۹۷) است که «سپردن» را us- + ریشهٔ par- «گذراندن» (هم‌ریشه با لاتینی portāre) می‌دانست و خودش آن را «بسیار نامطمئن» خوانده بود. سرچشمهٔ معنی «سپردن/امانت دادن» در واقع فارسی میانهٔ abespurdan از *upa-spar- ایرانی است. افزون بر این، معانی جابه‌جا شده‌اند: apa- یعنی «دور» و us- یعنی «بالا/بیرون»، ولی نورایی برعکس معنی کرده است. حکم: با احتیاط پذیرفتنی، با اصلاح دو ترکیب.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/sparH-",
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D8%B1%D8%AF%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:992",
+              "status": "supports",
+              "note": "POK_full.txt lemma sp(h)er-1 (pp.992-993): 'Avestan spar(aiti) \"tritt, stoesst\", with fra- \"rushes, hastes\", with vi- \"auseinandertreten, -stampfen\" ... np. sipardan \"tread\"'. Exactly the Avestan verb Nourai draws, but with fra-/vi-, not apa-/us-."
+            },
+            {
+              "ref": "BQT:1086",
+              "status": "partial",
+              "note": "Borhan-e Qate' vol.2, section 'bayan-e sevvom' (sin + pe), scan leaf 548 (printed p. ~1090-1091; Nourai's 1086 is a few pages early), s.v. سپاردن: Mo'in's footnote reads 'سپاردن - بکسر اول و فتح پنجم مخفف اسپاردن؛ پهلوی avspartan [رك: سپردن] و avspurtan؛ قی: ارمنی aps-par-em (تسلیم کردم، واگذار کردم) از spar ریشهٔ ایرانی ... افغانی sparal (تسلیم کردن)، کردی sipartin'. Mo'in gives the Iranian root spar and the Pahlavi av-/abe- prefix, but no Avestan apa-spar."
+            },
+            {
+              "ref": "HRN:154",
+              "status": "partial",
+              "note": "HRN.txt leaf 176 = printed p.154, no. 697: 'supaerden \"anvertrauen, uebergeben\" ... aw. us- + 2. par-; phlv. avspaertan, avspurtan (vd. 5), spurtitan (AV.); ai. ud + par- \"hinueberfuehren\" ... vergl. lat. portare. Die Etymologie stammt von de Lagarde, ist aber sehr unsicher.' Horn does write us- + par-, so the citation is faithful; but his root is par- 'to carry across', not spar-, and he flags the whole thing as very uncertain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "AiW col. 1613 s.v. spar-",
+              "stance": "partial",
+              "note": "BRT.txt line 26841ff.: 'j. spar- V. \"schnellen, treten\". Praes. 3: 1) \"treten, stossen\" ... mit fra- \"hervorschnellen\" ... mit vi- \"auseinandertreten, -stampfen\" ... ai. sphurati, np. sipardan'. No apa-spar-, no us-spar- anywhere in the entry."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 351-352, *spar and *sparH",
+              "stance": "partial",
+              "note": "CHEUNG.txt: '*sparH \"to tread, kick\": YAv. spar- ... (+ *fra-) ... (+ *ui-) ... BMP spl- /spar-/ ... NP sipardan/sipar- \"to trample\" ... PIE *sperH- (LIV 585f. | Pok. 992f.)' and separately '*spar \"to hand over, entrust\": (+ *upa-) BMP abespar- ... NP sipar-/sipurdan ... PIE *sper- \"to deliver, secure\" (LIV 579 | Pok. 992)'. Two roots, not one."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.v. spurdan, ospurdan, wispurdan, abespurdan",
+              "stance": "supports",
+              "note": "PHD.txt: 'spurdan, spar- [spwltn, spl- | N sip~] tread, trample'; 'ospurdan, ospar- tread, trample'; 'wispurdan, *wispar- tread, trample'; 'abespurdan, abespar- [ʾpsʼpwltnʼ | M ʾbyspwrd, ʾbyspʼr-, N sipurdan, sipar-] commit, entrust, consign'. The MP continuations of the Avestan verb are exactly as drawn."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II, s.v. spurtan and api-spartan",
+              "stance": "supports",
+              "note": "NYB_vol2_glossary.txt: 'spurtan [spwltn] spar-, ... to trample (to death) ... Av. (1613) spar-; NP sipurdan sipar-' and 'api-spartan [ʾpspʼltn], often with be: to hand over ... Olr *upa-spar- and apa-spar-, and then *upa- remodelled to api- ... Arm. lw. apspar-em ... NP only simplex supurdan sipar- \"to entrust\"'. Nyberg is the one source that does mention an Old Iranian *apa-spar-, which is probably where Nourai's 'apa-spar' comes from - but as a reconstructed Old Iranian preverb, not an attested Avestan word."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sepârdan; separî",
+          "verdict": "plausible",
+          "derivation": "NP سپردن covers two verbs that fell together. (a) separdan / separdan 'to tread, traverse, pass over' < MP spurdan, spar- 'tread, trample' (MacKenzie) < Av. spar-: the phonetic route is Av. spar- > MP spar-/spurd- (with the regular -rd- past stem) > NP sipar-/sipurd-, the infinitive sipardan being, as Huebschmann says (Persische Studien 697), 'vom Praesens neu gebildet', the older infinitive being supurdan beside the present sipaeram. (b) sepordan 'to entrust, commit, consign' < MP abespurdan, abespar- [ʾpspwltn] (Man. MP ʾbyspwrd, Parth. ʾbyspʼr-) < PIr *upa-spar-; the initial abe-/av- was lost in New Persian, leaving the simplex, and Armenian borrowed the full form as apsparem. Huebschmann corrects Horn here: 'Im Phl. ist apspurtan zu lesen, vgl. arm. ap-spar-em ... Als iranische Wurzel ist spar anzusetzen.' Cheung and Wiktionary treat (a) and (b) as two roots (*sperH- vs *sper-), so Nourai's single gloss 'walk, trust' straddles a boundary modern Iranian scholarship draws. separî 'past, elapsed, spent' belongs to the same stem family: cf. MP spurrig 'entire, complete, perfect' (MacKenzie), Paz. spur, whence NP سپری 'finished, gone by' and سپری شدن 'to come to an end'; Huebschmann 703 equates np. siparî with phl. *spurik. The script_extra سپردن ۱ is simply the modern spelling of the headword.",
+          "derivation_fa": "«سپردن» در فارسی نو دو فعل هم‌آواست که به هم رسیده‌اند. نخست «سپَردن» به معنی «پیمودن، پای کوفتن» از فارسی میانهٔ spurdan (ستاک حال spar-) و آن از اوستایی spar-؛ سیر آوایی: spar- اوستایی ← spar-/spurd- پهلوی (ستاک گذشته با -rd- قاعده‌مند) ← سِپَر-/سپُرد فارسی نو. هوبشمان (پژوهش‌های ایرانی، شمارهٔ ۶۹۷) یادآور می‌شود که مصدر «سپاردن» از ستاک حال ساخته شده و صورت کهن‌تر «سپردن/سُپُردن» بوده است. دوم «سپُردن» به معنی «واگذاشتن، به امانت دادن» از فارسی میانهٔ abespurdan (پارتی ʾbyspʾr-) و آن از *upa-spar- ایرانی باستان؛ پیشوند abe-/av- در فارسی نو افتاده و ارمنی آن را به صورت apsparem وام گرفته است. هوبشمان تصریح می‌کند «در پهلوی باید apspurtan خواند ... ریشهٔ ایرانی را باید spar گذاشت». چونگ و ویکی‌واژه این دو را دو ریشهٔ جداگانه می‌دانند، پس معنی یک‌جای «walk, trust» در نمودار نورایی مرز میان دو ریشه را نادیده می‌گیرد. «سپری» نیز از همین خانواده است: پهلوی spurrīg «تمام، کامل» و پازند spur، که «سپری شدن» فارسی از آن است. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D8%B1%D8%AF%D9%86",
+            "https://abadis.ir/fatofa/%D8%B3%D9%BE%D8%B1%D8%AF%D9%86/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1086",
+              "status": "supports",
+              "note": "Borhan-e Qate' vol.2, scan leaf 548 (printed p. ~1090-1091), Mo'in's footnote to سپاردن: 'مخفف اسپاردن؛ پهلوی avspartan [رك: سپردن] و avspurtan؛ قی: ارمنی aps-par-em (تسلیم کردم، واگذار کردم) از spar ریشهٔ ایرانی ... هوبشمان ۷۹۹ ... افغانی sparal، کردی sipartin'. Exactly the Persian-from-Iranian-*spar claim of the arrow."
+            },
+            {
+              "ref": "SNS:19",
+              "status": "supports",
+              "note": "Tavoosi, Vazhe-name-ye Shayast ne Shayast, SNS.txt s.v. abispardan: 'abispardan: ابسپردن ... (IrPfc.155?) sphurati; vispara- / spar-; be abispardan; abispurd; abisparend; awasparand: L (Ghilain 75) ʾbyspʼr'. The glossary derives the Pahlavi 'entrust' verb from spar- and cites Ghilain for the Parthian. The exact printed page could not be confirmed (refs_online records that SNS page offsets are undetermined), but the entry sits at the start of the alphabetical glossary, consistent with p.19."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971, s.vv. spurdan / abespurdan / spurrig",
+              "stance": "supports",
+              "note": "'spurdan, spar- [spwltn, spl- | N sip~] tread, trample'; 'abespurdan, abespar- ... commit, entrust, consign'; 'spurrig [spwlyk | (M ʾspwr), N sipari] entire, complete, perfect' - the last is the base of separî."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien 697 and 703",
+              "stance": "supports",
+              "note": "HUB.txt line 2554: '697. Im Phl. ist apspurtan zu lesen, vgl. arm. ap-spar-em \"uebergebe, ueberlasse, vertraue an\". Als iranische Wurzel ist spar anzusetzen. Der Infinitiv sipaerdan ... ist vom Praesens neu gebildet; urspruenglich steht nur der Infinitiv supurdan neben dem Praesens sipaeram.' And '703. Np. siparî = phl. *spurik' for separî."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss p.154 no. 697",
+              "stance": "partial",
+              "note": "'supaerden \"anvertrauen, uebergeben\" ... aw. us- + 2. par- ... Die Etymologie stammt von de Lagarde, ist aber sehr unsicher.' Horn has the word and an Avestan preverb but the wrong root, and says so."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "pp. 351-352",
+              "stance": "partial",
+              "note": "'*NWIR: NP sipar-/sipurdan' under *spar 'to hand over, entrust', and '*NWIR: NP sipardan/sipar- \"to trample; to be trampled\"' under *sparH 'to tread, kick' - the split Nourai does not make."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-ha, pdf pp. 339-341, s.v. سپاردن، اسپاردن، سپردن",
+              "stance": "supports",
+              "note": "ARY_pages.txt: entry heading '| سپاردن، اسپاردن، سپردن' with Avestan SPAR, Pahlavi SPURTAN, Sanskrit SPHUR, Latin SPERNO, Gothic/OE SPURNAN, English SPURN, German SPORN, with a note that English SPRING/SPRINGE and German SPRINGEN come from a closely related root; he cites 'برهان قاطع ۱۰۹۱' - which incidentally confirms the BQT page for سپاردن is ~1091, not 1086."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "spairen; sphaira",
+          "verdict": "disputed",
+          "derivation": "Two words, two fates. (a) spairein (sigma-pi: spairo, aspairo) 'to gasp, struggle, twitch, writhe' is securely from this root: Pokorny 992 lists 'gr. spairo, aspairo (a- vowel prothesis) \"twitch, wriggle\" (= Lith. spiriu)', and Klein s.v. Sphyraena gives 'sphyra \"hammer\", which is rel. to sphyron \"ankle\", spairein \"to move convulsively\", from I.-E. base *(s)p(h)er-, \"to move convulsively\"'. Nourai's gloss 'to walk in a bouncing manner' is loose but not wrong in spirit. (b) sphaira 'ball' (phi) is where the chart over-reaches. Pokorny mentions it only parenthetically and with a query - '(aspiriert sphaira \"Ball zum Spielen\"?)' - because the aspiration sp- > sph- is unexplained. Watkins' AHD appendix assigns no Indo-European root to SPHERE at all (its index lists SPHERE only inside the compounds ARMILLARY SPHERE, BARYSPHERE, ATMOSPHERE). Beekes, followed by Etymonline, calls sphaira 'a word of unknown origin' with 'no certain cognates outside Greek'. Wiktionary: 'Connections with spairo or PIE *sperH- have been suggested, but the aspiration of sp- to sph- is unexplained and the semantic development is dubious'; Nikolayev instead proposes Proto-Hellenic *skwhərra < PIE *sgwher- 'to be round' (cf. Av. zgərəsna- 'round'). Because the whole right-hand half of this chart (French, English, Pahlavi, Persian) hangs on sphaira, the verdict for the node is the worse of the two.",
+          "derivation_fa": "این جعبه دو واژه دارد که سرنوشتشان یکی نیست. نخست σπαίρω/ἀσπαίρω «تکان خوردن، به خود پیچیدن» که به‌روشنی از همین ریشه است؛ پوکورنی (ص ۹۹۲) آن را برابر spiriù لیتوانیایی می‌گذارد و کلاین نیز σπαίρειν را به ریشهٔ *(s)p(h)er- می‌بندد. معنایی که نورایی می‌دهد («راه رفتن جهشی») تقریبی است اما بی‌راه نیست. دوم σφαῖρα «گوی، توپ» که مشکل‌ساز است: پوکورنی آن را تنها در پرانتز و با علامت پرسش می‌آورد، زیرا تبدیل σπ- به σφ- توجیه آوایی ندارد؛ واتکینز در پیوست ریشه‌های هندواروپاییِ AHD هیچ ریشه‌ای برای sphere نمی‌آورد؛ بیکس و اتیمولوژی‌آنلاین آن را «واژه‌ای با خاستگاه ناشناخته و بدون هم‌ریشهٔ مطمئن بیرون از یونانی» می‌خوانند؛ و ویکی‌واژه پیشنهاد نیکولایف را نقل می‌کند که آن را از *sgʷʰer- «گرد بودن» (قس اوستایی zgərəsna- «گرد») می‌گیرد. چون همهٔ شاخهٔ راستِ این نمودار بر σφαῖρα استوار است، حکم گره همان حکم بدتر است: پژوهش امروزی این پیوند را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CF%83%CF%86%CE%B1%E1%BF%96%CF%81%CE%B1",
+            "https://www.etymonline.com/word/sphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:992",
+              "status": "partial",
+              "note": "POK_full.txt, lemma sp(h)er-1 (992-993): 'gr. spairo, aspairo (a- vowel suggestion) \"twitch, wriggle\" (= Lithuanian spiriu) ... (aspiriert sphaira \"Ball zum Spielen\"?)'. Pokorny supports spairein outright but puts sphaira in parentheses with a question mark."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 992-993",
+              "stance": "partial",
+              "note": "See ref_check: spairo yes, sphaira '?'."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985, index and s.v. spere-",
+              "stance": "contradicts",
+              "note": "grep of AHD_watkins1985.txt gives only 'SPHERE al-', 'SPHERE gWere-2', 'SPHERE wet-' - i.e. the word SPHERE appears in the index solely as part of ARMILLARY SPHERE, BARYSPHERE and ATMOSPHERE. Watkins gives Greek sphaira no Indo-European root, and does not list it under spere- 'Ankle'."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966, p.1489 s.v. Sphyraena",
+              "stance": "supports",
+              "note": "'Gk. sphyraina, \"hammer fish\", fr. sphyra, \"hammer\", which is rel. to sphyron, \"ankle\", spairein, \"to move convulsively\", from I.-E. base *(s)p(h)er-, \"to move convulsively\". See spurn' - Klein does connect the sph- words with the root, though under sphere itself he says only 'Gk. sphaira'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.v. spri, io (sphra, ie) 'ball'",
+              "stance": "supports",
+              "note": "IEC.txt line 16952: 'Spri, io (sphra, ie) \"ball\" WP II, 672 Gk. sphaira, f. id.; OE (?) spure, f. \"heel\"; Li. spiras \"little ball, pellet\"'. Mann is one of the few modern comparatists who still derives sphaira from this base."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II 668ff.",
+              "stance": "silent",
+              "note": "The '1. sp(h)er- \"zucken...\"' entry notes the sp-/sph- alternation in the anlaut (Persson Beitr. 417) but the local OCR of Bd. II does not show sphaira being adduced there."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "An empty pass-through box standing for French sphere / atmosphere. The uncontroversial part of the chain is Greek sphaira > Latin sphaera 'globe, ball, celestial sphere' (Medieval Latin spera) > Old French espere (13c.), Modern French sphere; atmosphere is not inherited but coined in Modern Latin as atmosphaera in the 1630s (Greek atmos 'vapour' + sphaira) and taken into French as atmosphere. Since it carries no words and no refs, the box can only be judged on the chain it implies, which is correct as far as the French side goes; what it cannot bear is the weight of the Greek etymology above it (node #3).",
+          "derivation_fa": "این جعبه تهی و صرفاً حلقهٔ واسط است و نمایندهٔ واژه‌های فرانسوی sphère و atmosphère. زنجیرهٔ بی‌مناقشه چنین است: یونانی σφαῖρα ← لاتینی sphaera «گوی، فلک» (لاتینی میانه spera) ← فرانسهٔ کهن espere (سدهٔ سیزدهم) ← فرانسهٔ نو sphère. اما atmosphère واژه‌ای موروثی نیست، بلکه در دههٔ ۱۶۳۰ در لاتینِ نو به صورت atmosphaera از ἀτμός «بخار» و σφαῖρα ساخته شد و از آنجا به فرانسه رفت. چون این جعبه نه واژه‌ای دارد و نه ارجاعی، تنها بر پایهٔ همین زنجیره می‌توان داوری کرد و در آن حد درست است؛ ضعف آن از جعبهٔ یونانی بالادست می‌آید. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/sphere",
+            "https://www.etymonline.com/word/atmosphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The box carries no reference of its own in the book."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966, p.1489 s.vv. sphere, spherical, spheroid",
+              "stance": "supports",
+              "note": "Klein's sphere family runs consistently 'Late L. sphaericus, fr. Gk. sphairikos, fr. sphaira' and 'Late L. sphaerula, dimin. of L. sphaera, fr. Gk. sphaira' - the Greek > Latin > Romance chain the empty French box stands for."
+            },
+            {
+              "src": "WEB",
+              "where": "Etymonline s.v. sphere (archived)",
+              "stance": "supports",
+              "note": "'a re-Latinized spelling ... of Middle English spere (c. 1300) ... from Anglo-French espiere, Old French espere (13c., Modern French sphere), from Latin sphaera ... from Greek sphaira'."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "âtmosfer",
+          "verdict": "confirmed",
+          "derivation": "آتمسفر (also اتمسفر) is a modern European loan in Persian, taken from French atmosphere in the late Qajar / early Pahlavi scientific vocabulary, alongside the Arabic جوّ and the modern calque هواسپهر. Mo'in's dictionary tags the entry '[فر.]' - i.e. French - and glosses it 'تودهٔ هوایی که اطراف کرهٔ زمین را فرا گرفته، جو' plus the figurative 'کنایه از اوضاع و احوال'. The Persian spelling with آ reflects French [a] in an open initial syllable; the -سفر renders -sphere with س for the French [s] and ف for [f], since Persian has no /θ/ or Greek phi. Nourai's gloss 'sphere of vapor' correctly unpacks the Modern Latin compound (Greek atmos 'vapour, steam' + sphaira), which was coined in 1630s Neo-Latin as atmosphaera.",
+          "derivation_fa": "«آتمسفر» (و صورت «اتمسفر») وام‌واژه‌ای اروپایی در فارسی است که در واژگان علمیِ اواخر قاجار و اوایل پهلوی از فرانسهٔ atmosphère گرفته شد، در کنار «جوّ» عربی و گَردهٔ فارسی «هواسپهر». فرهنگ معین این مدخل را با نشانِ «[فر.]» یعنی فرانسوی می‌آورد و چنین معنی می‌کند: «تودهٔ هوایی که اطراف کرهٔ زمین را فرا گرفته، جو» و نیز «کنایه از اوضاع و احوال». نگارش «آ» در آغاز، بازتاب مصوت باز فرانسوی است و «سفر» پایانی برابرنهادِ ‎-sphère است، زیرا فارسی واجِ یونانیِ φ ندارد. معنی‌ای که نورایی می‌دهد («کرهٔ بخار») ترکیب لاتینِ نو را درست می‌گشاید: ἀτμός «بخار» + σφαῖρα، که در دههٔ ۱۶۳۰ به صورت atmosphaera ساخته شد. حکم: ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%A2%D8%AA%D9%85%D8%B3%D9%81%D8%B1/",
+            "https://www.etymonline.com/word/atmosphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:32",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Farsi, s.v. آتمسفر, read via abadis.ir (the print page numbers are not mapped online): 'فرهنگ معین: (آتمسفر) (مُ فِ) [ فر. ] (اِ.) ۱- تودة هوایی که اطراف کرة زمین را فرا گرفته، جو. ۲- کنایه از: اوضاع و احوال.' The tag [فر.] = French is exactly the arrow Nourai draws."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. آتمسفر (abadis.ir)",
+              "stance": "supports",
+              "note": "'[ فر. ]' origin tag; see ref_check."
+            },
+            {
+              "src": "WEB",
+              "where": "Etymonline s.v. atmosphere (archived)",
+              "stance": "supports",
+              "note": "'1630s, atmosphaera (modern form from 1670s) ... from Modern Latin atmosphaera, from Greek atmos \"vapor, steam\" + sphaira \"sphere\"' - confirms the 'sphere of vapor' gloss."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "sphere; atmosphere",
+          "verdict": "plausible",
+          "derivation": "Both English words exist and both ultimately contain Greek sphaira, but neither came into English through Modern French as the arrow implies. SPHERE: Middle English spere (c.1300) 'cosmos, hollow globe about the world' from Anglo-French espiere / Old French espere (13c.), from Latin sphaera (ML spera); the spelling was re-Latinized to sphere from the mid-15c. So the donor is Anglo-Norman/Old French, three centuries before Modern French sphere existed. ATMOSPHERE: first attested in English in the 1630s as atmosphaera, from Modern Latin atmosphaera - a learned coinage (associated with Willebrord Snel's circle) - with the modern form from the 1670s; it is not a French loan. Nourai cites AHD, but Watkins' appendix files ATMOSPHERE under wet-1 (for Greek atmos) and gives sphere no root at all, so 'AHD' does not actually license the box as drawn.",
+          "derivation_fa": "هر دو واژهٔ انگلیسی واقعی‌اند و هر دو در نهایت σφαῖρα یونانی را در خود دارند، اما هیچ‌یک آن‌گونه که پیکان نمودار می‌گوید از راه فرانسهٔ نو وارد انگلیسی نشده‌اند. sphere: انگلیسی میانه spere (حدود ۱۳۰۰ م.) به معنی «فلک، گنبد تهی گرداگرد زمین» از انگلونرمن espiere / فرانسهٔ کهن espere (سدهٔ سیزدهم) و آن از لاتینی sphaera؛ املای امروزی از میانهٔ سدهٔ پانزدهم دوباره لاتینی‌مآب شد. پس وام‌دهنده فرانسهٔ کهن است، سه سده پیش از آنکه sphère فرانسهٔ نو پدید آید. atmosphere: نخستین کاربرد انگلیسی در دههٔ ۱۶۳۰ به صورت atmosphaera، مستقیماً از لاتینِ نو و نه از فرانسه. افزون بر این، ارجاع نورایی به AHD این جعبه را تأیید نمی‌کند: واتکینز ATMOSPHERE را ذیل ریشهٔ wet-1 (به سبب ἀτμός) می‌آورد و برای sphere هیچ ریشهٔ هندواروپایی قائل نیست. حکم: با احتیاط پذیرفتنی، با اصلاح مسیر وام‌گیری.",
+          "sources": [
+            "https://www.etymonline.com/word/sphere",
+            "https://www.etymonline.com/word/atmosphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "AHD_watkins1985.txt s.v. wet-1: '4. Oldest basic form *awet- becoming *awet- in suffixed form *awet-mo- in Greek atmos (< *aetmos), breath, vapor: ATMOSPHERE. [Pok. udē- 1113.]' - Watkins assigns ATMOSPHERE to the atmos half only, and the index shows no root entry for SPHERE. So AHD supports the existence of the words but not the French-to-English arrow."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966, p.1489, sphere family",
+              "stance": "supports",
+              "note": "Klein derives the whole sphere family from Gk. sphaira through Latin sphaera / Late L. sphaericus, sphaerula."
+            },
+            {
+              "src": "WEB",
+              "where": "Etymonline s.vv. sphere, atmosphere (archived)",
+              "stance": "partial",
+              "note": "sphere 'from Anglo-French espiere, Old French espere (13c., Modern French sphere), from Latin sphaera'; atmosphere '1630s, atmosphaera ... from Modern Latin atmosphaera' - i.e. Old French and Modern Latin, not Modern French."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 index",
+              "stance": "partial",
+              "note": "'ATMOSPHERE wet-' in the index; no SPHERE headword."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Pahlavi",
+          "words": "spihr",
+          "verdict": "disputed",
+          "derivation": "The Middle Persian word is real: MacKenzie 1971 'spihr [spy(y)hl | (M ʾspyr), N sipihr] sphere, sky, firmament, fate', with the adjective spihrig 'heavenly'. Its origin, however, is one of the classic unsettled questions of Iranian etymology, and the modern reference works do not take Nourai's side. (i) Henning (List 81; JRAS 1942, 239ff.) identified spihr with the Manichaean Middle Persian and Parthian form ʾspyr (esper), which he took to be a borrowing of Greek sphaira - the same Greek word being demonstrably borrowed into Syriac espera, Armenian spʿer, Georgian spero and Ethiopic spir (Beekes/Etymonline list exactly these). (ii) Against this, Nyberg, Manual of Pahlavi II s.v. spihr: 'I maintain the old etymology: OIr *spiθra- (Skr svitra-) \"brightly shimmering\" and then \"heaven\" (cf. n. pr. Spithridates). Henning identifies it with MPrth/MPrs ʾspyr (= esper) which according to him is borrowed from Gr. sphaira. However, in this case -h- in spihr would be an inorganic insertion, which is quite improbable. Of course, the sense of spihr may have been influenced by sphaira, but its formal independence is proved by NP sipihr which belongs to the living language.' Huebschmann 707, following Noeldeke, says the same, adducing the Achaemenid name Spithridates/Spithradates recorded by Ctesias, Xenophon and Arrian as direct evidence for an Old Iranian *spiθra-. Wiktionary follows this line. The honest reading is therefore: -h- in spihr is the obstacle, Man. MP ʾspyr is a genuine Greek loan but probably a separate word, and Nourai's single arrow Greek > Pahlavi states as fact what is a live dispute in which the majority of handbooks are on the other side.",
+          "derivation_fa": "واژهٔ فارسی میانه واقعی است: مکنزی (۱۹۷۱) می‌آورد «spihr: فلک، آسمان، سپهر، بخت» و صفتِ spihrīg «آسمانی». اما خاستگاه آن از پرسش‌های حل‌نشدهٔ ریشه‌شناسی ایرانی است و مرجع‌های امروزی جانب نورایی را نمی‌گیرند. هنینگ (JRAS ۱۹۴۲) spihr را همان ʾspyr (esper) فارسی میانهٔ مانوی و پارتی دانست و آن را وام‌واژهٔ σφαῖρα یونانی شمرد؛ همین واژهٔ یونانی به‌راستی در سریانی espērā، ارمنی spʿer، گرجی spero و حبشی spir وام گرفته شده است. در برابر، نیبرگ در «راهنمای پهلوی» (ج ۲، ذیل spihr) می‌نویسد: «من همان ریشه‌شناسی کهن را نگاه می‌دارم: ایرانی باستان *spiθra- (سنسکریت śvitra-) «سپیدفروغ» و سپس «آسمان» ... در فرض هنینگ، ـهـ در spihr درج نابه‌جا می‌بود که بسیار بعید است. البته معنای spihr ممکن است از σφαῖρα اثر پذیرفته باشد، ولی استقلال صوری آن را «سپهر» فارسی نو که واژه‌ای زنده است ثابت می‌کند.» هوبشمان (شمارهٔ ۷۰۷) به پیروی نولدکه همین را می‌گوید و نام هخامنشی Spithridates را که کتسیاس و گزنفون و آریان ضبط کرده‌اند گواه *spiθra- ایرانی باستان می‌گیرد؛ ویکی‌واژه نیز همین راه را می‌رود. نتیجه: ادعای نورایی یک‌سویه است و پژوهش امروزی بیشتر به ریشهٔ ایرانیِ «سپید» گرایش دارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D9%87%D8%B1",
+            "https://www.etymonline.com/word/sphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "ETM:68",
+              "status": "not_checked",
+              "note": "Abolghasemi, Risheh-shenasi (Etimoloji), Qoqnus 1374 - refs_online.json records 'kind: catalog ... Searched archive.org, ketabnak, noorlib, web: not found', no local copy and no online copy; the page cannot be checked."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.v. spihr",
+              "stance": "partial",
+              "note": "'spihr [spy(y)hl | (M ʾspyr), N sipihr] sphere, sky, firmament, fate'. MacKenzie puts the Manichaean form ʾspyr in the same entry (implying Henning's identification) but gives no etymology, so he neither states nor denies the Greek origin."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II, glossary s.v. spihr",
+              "stance": "contradicts",
+              "note": "'spihr ... the vault of heaven, the Celestial sphere. ... I maintain the old etymology: OIr *spiθra- (Skr svitra-) \"brightly shimmering\" and then \"heaven\" (cf n. pr. Spithridates). Henning identifies it (List 81; JRAS 1942, 239sq.) with MPrthPrs ʾspyr (= esper) which according to him is borrowed from Gr sphaira. However, in this case -h- in spihr would be an inorganic insertion, which is quite improbable.'"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien 707 (and p.~74 on -θr-)",
+              "stance": "contradicts",
+              "note": "HUB.txt: '707. Np. sipihr \"Himmel\" ist nach Noeldeke direkt = skr. svitra- \"weisslich, weiss\", dazu nach Geiger afgh. sper \"grau\"'; and in the sound-law section 'sipihr \"Himmel\", phl. spihr, ap. Spithridates, Spithradates (Ktesias, Xenoph. Anab., Arrian) Noeldeke, Pers. Stud. I, 36, skr. svitra-'."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.2, scan leaf 554, Mo'in's footnote to سپهر",
+              "stance": "contradicts",
+              "note": "'پارسی باستان Sp(a)ithradates (نام سردار پارسی ... به یونانی Spithridates و Spithradates بود. لفظاً یعنی سپهرداد، آسمان‌آفریده). پهلوی spihr ... «اسشق ۷۰۷» ... به قول نولدکه این کلمه مستقیماً از سانسکریت śvitra- (مایل به سفیدی، سفید) آمده و به قول گایگر کلمهٔ افغانی spira (خاکستری‌رنگ) از آنجا ناشی است، «هوبشمان ۷۰۷»'."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, pdf p.343, s.v. سپهر",
+              "stance": "partial",
+              "note": "Aryanpur lists Old Persian SPITHRA, Pahlavi SPIHR, Sanskrit SVITRA and Greek SPHAIRA, Latin SPHAERA/SPERA, French SPHERE, Spanish ESFERA, Italian SFERA together in one family, with footnote 1 'بازگشت به: سپید' ('see: sepid, white') - i.e. he treats sepehr and sphaira as cognates rather than as loan and source."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Persian",
+          "words": "sepehr",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi-to-Persian step itself is impeccable: MP spihr > Paz. spihr/spihar/spehir > NP سپهر sepehr 'firmament, heaven; fortune, fate', with the regular prothetic/anaptyctic vowel breaking the initial sp- cluster (as in سپاه < spah, سپاس < spas, سپید < sped). Mo'in tags the entry '[ په. ]' = Pahlavi and glosses '۱- آسمان. ۲- فلک.' The Hafez line Nourai quotes - سیر سپهر و دور قمر را چه اختیار / در گردشند در اثر اختیار دوست - uses it in precisely the 'wheeling heavens = fate' sense, and the 'fate' meaning is already in MacKenzie's Pahlavi gloss. What is disputed is the step above it (node #7): whether MP spihr is the Greek loan (Henning) or the inherited Old Persian *spiθra- 'shining, white' (Noeldeke, Huebschmann, Nyberg, Mo'in, Wiktionary). Wiktionary's entry is explicit: 'Inherited from Middle Persian spyhl ... from Old Persian *spiθrah'. It also notes a genuinely separate modern سپهر meaning 'sphere' in scientific compounds (هواسپهر, سنگ‌سپهر), which it calls 'Phono-semantic matching of French sphere and/or English sphere ... not originally related to etymology 1 above' - so the one place where Persian really does contain Greek sphaira is a 20th-century coinage, not the classical word. Nourai's own aside 'See Kuei for another possible root' shows he was aware the etymology is unsettled, but the root he points to is not the one modern Iranists propose.",
+          "derivation_fa": "پلهٔ پهلوی به فارسی بی‌عیب است: spihr فارسی میانه ← پازند spihr/spihar/spehir ← «سپهر» فارسی نو به معنی «آسمان، فلک؛ بخت و روزگار»، با همان مصوت میانجی که خوشهٔ آغازین sp- را می‌شکند (چنان‌که در «سپاه» از spāh، «سپاس» از spās و «سپید» از spēd). فرهنگ معین این مدخل را با نشانِ «[ په. ]» یعنی پهلوی می‌آورد: «۱- آسمان. ۲- فلک». بیت حافظ که نورایی نقل کرده — «سیر سپهر و دور قمر را چه اختیار / در گردشند در اثر اختیار دوست» — دقیقاً همان معنی «چرخ گردون = تقدیر» را دارد و معنی «بخت» پیشاپیش در گلچین پهلوی مکنزی هست. آنچه محل نزاع است پلهٔ بالاتر است: آیا spihr پهلوی وام‌واژهٔ یونانی است (هنینگ) یا بازماندهٔ *spiθra- «درخشان، سپید» ایرانی باستان (نولدکه، هوبشمان، نیبرگ، معین، ویکی‌واژه). ویکی‌واژه صریح است: «سپهر» از فارسی میانهٔ spihr و آن از پارسی باستان *spiθrah. همان مدخل یادآور می‌شود که «سپهر» در ترکیب‌های علمی امروزی (هواسپهر، سنگ‌سپهر) واژهٔ دیگری است که در سدهٔ بیستم بر پایهٔ sphère فرانسوی ساخته شده و با سپهرِ کلاسیک ربطی ندارد. حکم: پژوهش امروزی مسیر یونانی را رد می‌کند و ریشهٔ ایرانی «سپید» را ترجیح می‌دهد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D9%BE%D9%87%D8%B1",
+            "https://abadis.ir/fatofa/%D8%B3%D9%BE%D9%87%D8%B1/"
+          ],
+          "ref_check": [
+            {
+              "ref": "ETM:68",
+              "status": "not_checked",
+              "note": "Abolghasemi, Risheh-shenasi - no digital copy on any permitted platform (refs_online.json: 'Searched archive.org, ketabnak, noorlib, web: not found')."
+            },
+            {
+              "ref": "MON:1827",
+              "status": "supports",
+              "note": "Mo'in, Farhang-e Farsi s.v. سپهر, read via abadis.ir (print pagination not mapped online): 'فرهنگ معین: (س پِ) [ په. ] (اِ.) ۱- آسمان. ۲- فلک.' The tag [ په. ] = Pahlavi confirms the Pahlavi-to-Persian arrow; Mo'in says nothing about Greek."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. سپهر (abadis.ir)",
+              "stance": "supports",
+              "note": "'[ په. ]' Pahlavi origin tag - supports the lower arrow, silent on the Greek one."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.2, scan leaf 554, Mo'in's footnote",
+              "stance": "contradicts",
+              "note": "Mo'in's own footnote derives سپهر from Old Persian *spiθra- via the name Spithridates and cites Noeldeke's equation with Skt. svitra- 'white' - not from Greek."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II s.v. spihr",
+              "stance": "contradicts",
+              "note": "'its formal independence is proved by NP sipihr which belongs to the living language' - Nyberg uses New Persian sepehr itself as the argument against the Greek loan."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien 707",
+              "stance": "contradicts",
+              "note": "'Np. sipihr \"Himmel\" ist nach Noeldeke direkt = skr. svitra- \"weisslich, weiss\"'."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.v. spihr",
+              "stance": "partial",
+              "note": "'sphere, sky, firmament, fate' - the 'fate' sense Nourai's Hafez quotation illustrates is already Middle Persian."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Germanic",
+          "words": "springan",
+          "verdict": "plausible",
+          "derivation": "Proto-Germanic *springana 'to burst forth, leap' (OE springan, OS/OHG springan, ON springa, MDu. springhen) is regularly derived from PIE *spre(n)gǵh-, the nasalized variant of *spergǵh- 'to move quickly, hurry' - Pokorny 998, lemma 'spergh-, spregh-, nasalized sprengh-', whose material is Skt. spr̥hayati 'longs for', Av. a-spərəzata, Gk. sperchomai 'storm along, hurry', ON springa, OE/OS/OHG springan. That is a root of its own, not the root of this chart. But Pokorny's own note on the lemma is 'Erweit. from sper- \"zucken, schnellen\"', i.e. *spergh- is an extension of exactly the root in Nourai's box, so the arrow is defensible as an ultimate rather than direct descent - which is what Klein, the source cited here, actually says.",
+          "derivation_fa": "ژرمنی آغازین *springaną «جهیدن، ناگهان بیرون زدن» (انگلیسی کهن springan، ساکسونی کهن و آلمانی علیای کهن springan، نروژی کهن springa) به‌قاعده از هندواروپایی *spre(n)ǵʰ- می‌آید، یعنی صورت خیشومی‌شدهٔ *sperǵʰ- «شتافتن، تند حرکت کردن»؛ پوکورنی این را مدخل جداگانه‌ای در صفحهٔ ۹۹۸ می‌آورد با گواه‌هایی چون سنسکریت spṛhayati، اوستایی ā-spərəzata و یونانی σπέρχομαι. پس این ریشهٔ دیگری است، نه ریشهٔ همین نمودار. با این همه، خودِ پوکورنی در توضیح همان مدخل می‌نویسد که *spergh- «گسترشی از sper- ‹تکان خوردن، جستن›» است؛ بنابراین پیکان نورایی را می‌توان به‌عنوان تبارِ نهایی (نه مستقیم) پذیرفت — و کلاین که منبع مورد استناد همین جعبه است دقیقاً همین را می‌گوید. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/spring",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/springan%C4%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1497",
+              "status": "supports",
+              "note": "KLN_1966.txt, leaf 794 (the leaf carrying pp. ~1496-1499), s.v. spring: 'ME. springen, fr. OE. springan, rel. to ON., OFris., Swed. springa ... fr. I.-E. base *sprengh-, a nasalized variant of base *spergh-, \"to move quickly\" ... Base *spergh- itself seems to be an enlarged form of the primitive base *sper-, *spher-, \"to move convulsively; to scatter\", whence OI. sphurati, \"kicks with the foot\", Gk. spairein, \"to move convulsively\". See spurn'. This is precisely Nourai's claim, including the *sper-/*spher- ultimate base."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 998, lemma spergh-, spregh-, nasalized sprengh-",
+              "stance": "partial",
+              "note": "POK_full.txt line 79629: 'Meaning: to hurry, to spring. Note: Erweit. from sper- \"zucken, schnellen\". Material: Old Indie sprhayati ... Old Icelandic springa \"spring, burst out\" ... Old English Old Saxon Old High German springan ds.' - a separate lemma, but explicitly an extension of sper-."
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. spergh-",
+              "stance": "partial",
+              "note": "'spergh-. To move, hasten, spring. Nasalized root form *sprengh-. 1. Germanic *springan in: a. Old English springan, to spring: SPRING ... [Pok. spergh- 998.]' - Watkins files the Germanic verb under spergh-, not under spere- 'ankle'."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II 675 (cited by Pokorny as WP. II 675)",
+              "stance": "partial",
+              "note": "Pokorny's reference line for the spergh- lemma is 'WP. II 675, Trautmann 278 f.' - i.e. Walde-Pokorny treat it as its own Sippe, listed among the 'folgenden Gruppen' under 1. sp(h)er- in Bd. II 668ff."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, pdf p.341 footnote to سپاردن",
+              "stance": "partial",
+              "note": "'واژه‌های انگلیسی SPRING و SPRINGE و آلمانی SPRINGEN از یک واج‌ریشه‌ی نزدیک به این ...' - Aryanpur likewise says spring belongs to a root 'close to' the sepordan root, not the same one."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "spring",
+          "verdict": "plausible",
+          "derivation": "English spring (verb) is ME springen < OE springan, with the noun spring 'a leap; source of water; the season in which plants spring up' built on the same verb (OE spring 'springing, source of water', cf. MHG sprinc, OHG sprung). The chain Germanic > English is uncontroversial; what the chart gets only half-right is the attachment to *spher-. Nourai's own NOTE - 'AHD & POK:998 claim this is from root \"Spereg: to jump\"' - is essentially correct and modern scholarship sides with the note rather than with the arrow: Watkins files SPRING under spergh- [Pok. spergh- 998] and Wiktionary derives OE springan from PGmc *springana < PIE *spre(n)gǵh- < *spergǵh- 'to hurry'. Two small corrections to the note itself: p.998 of Pokorny is the lemma spergh-/sprengh-, not '(s)p(h)ereg-' (which is pp. 996-998, a different lemma meaning 'to twitch, burst, sprinkle'); and the two are in any case, on Pokorny's own statement, extensions of the sper- of this chart, so the arrow is not simply wrong, only indirect.",
+          "derivation_fa": "فعل انگلیسی spring از انگلیسی میانه springen و آن از انگلیسی کهن springan است؛ اسمِ spring به هر سه معنی «جهش، چشمه، بهار» بر همان فعل ساخته شده (انگلیسی کهن spring «جوشش، سرچشمه»، قس آلمانی علیای میانه sprinc). زنجیرهٔ ژرمنی ← انگلیسی بی‌مناقشه است؛ آنچه نیم‌درست است پیوند آن با ریشهٔ *spher- است. خودِ یادداشتِ نورایی — که AHD و پوکورنی ص ۹۹۸ این را از ریشهٔ دیگری می‌دانند — درست است و پژوهش امروزی جانب همان یادداشت را می‌گیرد نه جانب پیکان: واتکینز SPRING را ذیل spergh- می‌آورد و ویکی‌واژه springan را از *spre(n)ǵʰ- ‹ *sperǵʰ- می‌گیرد. دو تصحیح کوچک بر خود یادداشت: صفحهٔ ۹۹۸ پوکورنی مدخل spergh-/sprengh- است نه «(s)p(h)ereg-» (که صص ۹۹۶–۹۹۸ و معنایی دیگر دارد)؛ و به گفتهٔ خود پوکورنی هر دو گسترشی از همان sper- این نمودارند، پس پیکان نادرست نیست، تنها غیرمستقیم است. حکم: با احتیاط پذیرفتنی؛ یادداشت کتاب درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/spring",
+            "https://www.etymonline.com/word/sphere"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1497",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 794 s.v. spring: 'fr. I.-E. base *sprengh-, a nasalized variant of base *spergh- ... Base *spergh- itself seems to be an enlarged form of the primitive base *sper-, *spher-'; and s.v. spring, n.: 'ME., fr. OE. spring, \"springing; source of water\", fr. springan'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. spergh-; index 'SPRING spergh-'",
+              "stance": "partial",
+              "note": "'spergh-. To move, hasten, spring ... Old English springan, to spring: SPRING ... [Pok. spergh- 998.]'. The index line reads 'SPRING spergh-' (and 'SPRING pelo-' for the unrelated homonym). Watkins therefore confirms Nourai's NOTE, not his arrow."
+            },
+            {
+              "src": "POK",
+              "where": "IEW 998",
+              "stance": "partial",
+              "note": "The lemma on p.998 is 'spergh-, spregh-, nasalized sprengh-', not '(s)p(h)ereg-' (pp. 996-998); its Note reads 'Erweit. from sper- \"zucken, schnellen\"'."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 s.vv. spring v./n., springe",
+              "stance": "supports",
+              "note": "See ref_check; Klein explicitly routes spring back to *sper-, *spher- through *spergh-/*sprengh-."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Spinakion",
+      "verdict": "disputed",
+      "modern_form": "Byzantine Greek spinakion / spanakin 'spinach' - itself a borrowing; the ultimate source is Iranian *spinaka-/*spinaka- 'the thorny(-fruited) plant' (> NP اسپناخ/اسفناج), from *spin- 'thorn' < Proto-Iranian *spai-/*spi- < PIE *spey- 'sharp, pointed'",
+      "note": "The whole chart runs backwards. Spinach is an Iranian culture-word that travelled west with the Arab conquest, not a Greek word that travelled east. The modern account (Wiktionary, after Asatrian, A Comparative Vocabulary of Central Iranian Dialects 2011: 43-45, Lokotsch 126, Cabolov II 263, Abaev III 201-202) reconstructs two late Middle Iranian forms *ispanag / *ispanax, giving Arabic اسفناج isfanaj and اسفناخ isfanax; Andalusian Arabic isbinax passed into Ibero-Romance (Catalan espinac, Spanish espinaca, Aragonese espinai), thence into Medieval Latin spinacium / spinachium / spinarchia (assimilated to spina 'thorn'), and only from that Medieval Latin into Byzantine Greek spinakion / spanakin, whence Modern Greek spanaki and the Balkan forms spanak / spanac. Greek spinakion is not an ancient word: the plant itself is unknown to Dioscorides and Galen and reaches the Mediterranean only in the Islamic period. Nourai's own cited source undercuts him: Mo'in's etymological footnote in Borhan-e Qate' (vol.1, to the entry اسپناخ) quotes Dawud al-Antaki's Tadhkira - «اسفاناج معرّبٌ عن فارسیة هو اسباناخ», 'isfanaj is an Arabicization of the Persian, which is asbanax' - and mentions Greek spinakion only as one more member of the list, not as the source. Klein 1489 and Skeat 507, cited further down the chart, both stop at Persian aspanakh as the origin. The lower half of Nourai's chart (Persian > Arabic > Spanish > Medieval Latin > French > English) is right and is simply Klein's chain; the top three boxes reverse it.",
+      "note_fa": "کل این نمودار وارونه است. «اسفناج» واژه‌ای فرهنگی و ایرانی است که با فتوحات اسلامی رو به باختر رفت، نه واژه‌ای یونانی که رو به خاور آمده باشد. تبیین امروزی (ویکی‌واژه به پیروی از آساتریان ۲۰۱۱، لوکوچ ۱۲۶، چابولوف و آبایف) دو صورت ایرانی میانهٔ متأخر *ispanāg و *ispanāx را بازسازی می‌کند که «اسفناج» و «اسفناخ» عربی از آنها برآمده‌اند؛ صورت عربی اندلسی إسبناخ به زبان‌های ایبری رفت (کاتالان espinac، اسپانیایی espinaca)، از آنجا به لاتینِ سده‌های میانه spinacium/spinachium (با همگونی به spina «خار») و تنها از همان لاتین به یونانی بیزانسی σπινάκιον/σπανάκιν رسید که یونانی امروز σπανάκι و صورت‌های بالکانی از آن است. σπινάκιον واژه‌ای یونانی باستان نیست: دیوسکوریدس و جالینوس این گیاه را نمی‌شناسند و اسفناج تنها در دورهٔ اسلامی به مدیترانه می‌رسد. جالب آنکه منبعِ خودِ نورایی خلاف او را می‌گوید: حاشیهٔ ریشه‌شناختی معین در برهان قاطع (ذیل «اسپناخ») از تذکرهٔ داود ضریر انطاکی نقل می‌کند «اسفاناج معرّبٌ عن فارسیة هو اسباناخ» و σπινάκιον یونانی را تنها یکی از صورت‌های همان واژه می‌شمارد. کلاین (ص ۱۴۸۹) و اسکیت (ص ۵۰۷) نیز که در پایین همین نمودار نقل شده‌اند، هر دو «اسپناخ» فارسی را سرچشمه می‌دانند. نیمهٔ پایینی نمودار (فارسی ← عربی ← اسپانیایی ← لاتین میانه ← فرانسه ← انگلیسی) درست و همان زنجیرهٔ کلاین است؛ سه جعبهٔ بالایی آن را وارونه کرده‌اند. حکم: پژوهش امروزی ریشهٔ یونانی را رد می‌کند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC",
+        "https://www.etymonline.com/word/spinach"
+      ],
+      "ref_check": [
+        {
+          "ref": "MON:227",
+          "status": "contradicts",
+          "note": "Mo'in's etymological footnote in Borhan-e Qate' vol.1 (BQT_v1_pages.txt, scan leaf 332, footnote 3 to اسپناخ - the same material as his Farhang-e Farsi entry Nourai cites): 'به لغت علمی Spinacia، به انگلیسی spinach یا spinage، به فرانسه epinards، به آلمانی Spinat، به عربی اسفاناخ، و فارسی اسپناخ، اسپناج، اسپنانج، اسپاناج، اسپانج، اسباناج، اسباناخ و در طبری اسپینا ... همه از یک ریشه است. داود ضریر انطاکی در تذکرهٔ خود گوید: اسفاناج معرّب عن فارسیة هو اسباناخ. در یونانی spinakion ...'. Mo'in lists the Greek form but explicitly calls the Arabic an Arabicization of the Persian - the opposite of making Greek the root."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BQT",
+          "where": "Borhan-e Qate' vol.1, scan leaf 332, Mo'in's footnote to اسپناخ",
+          "stance": "contradicts",
+          "note": "See ref_check - 'اسفاناج معرّب عن فارسیة هو اسباناخ'."
+        },
+        {
+          "src": "KLN",
+          "where": "Klein 1966 p.1489 s.v. spinach",
+          "stance": "contradicts",
+          "note": "'fr. ML. spinachia, spinachium, which - prob. through the medium of Sp. espinaca and Andalusian Arab. isbinakh - derives fr. Arab. isbinakh, earlier isfanakh, isfanakh, fr. Pers. aspanakh, \"spinach\"'. No Greek anywhere in the entry; Persian is the terminus."
+        },
+        {
+          "src": "SKT",
+          "where": "Skeat, Concise Etym. Dict., p. ~506-507 s.v. Spinach, Spinage",
+          "stance": "contradicts",
+          "note": "SKT_dli_revised.txt: 'Spinach, Spinage, a vegetable. (F. - Span. - Arab. - Pers.) Spinage is a \"voiced\" form of spinach. O. F. espinache, espinage, espinace. - Span. espinaca. - Arab. aspanakh, isfanaj; of Pers. origin (Devic).' Skeat's language-chain header ends at Persian, with no Greek stage."
+        },
+        {
+          "src": "LKT",
+          "where": "Lokotsch, Etym. Wb. der europ. Woerter orient. Ursprungs, no. 126 (p.11)",
+          "stance": "partial",
+          "note": "The headword is '126. Pers. aspanah:' followed by 'ar. isfanag, isfinag \"Spinat\" [Vielleicht kommen diese Formen selbst aus dem Lateinischen, etwa spina \"Dorn\" oder besser *spinax ...]; hieraus zunaechst die romanischen Formen afrz. espinoche, espinard; frz. epinard, prov. espinar, kat. espinac, sp. espinaca, pg. espinafre, it. spinace, rum. spanac.' Lokotsch heads the article with the Persian word (supporting Persian priority) but floats a Latin spina alternative; he never proposes a Greek source."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "spânâj",
+          "verdict": "disputed",
+          "derivation": "Two problems. (i) Direction: Arabic did not get the word from Greek. The Arabic forms اسفاناج/اسفناج isfanaj, اسفاناخ/اسفناخ isfanax, سبانخ sabanix, سبانج sabanaj are borrowings from Middle Iranian *ispanag/*ispanax; the prosthetic ʾis- exists precisely to break the Iranian initial cluster sp-, and the ف/ب for Iranian p is the regular substitution in an alphabet with no p (cf. فیل < pil, برنامج < barnamag). Nourai's own reference (Mo'in) quotes al-Antaki calling the Arabic word 'muarrab' (Arabicized) from Persian asbanax. The Greek borrowing runs the other way and much later, from Medieval Latin into Byzantine Greek. (ii) Form: 'spanaj' is not a possible Arabic word - Arabic has no phoneme /p/ and no word-initial consonant cluster, so a form beginning sp- cannot be Arabic. What the book prints is an Iranian shape labelled Arabic.",
+          "derivation_fa": "دو اشکال دارد. نخست جهت وام‌گیری: عربی این واژه را از یونانی نگرفته است. صورت‌های «اسفاناج/اسفناج»، «اسفاناخ/اسفناخ»، «سبانخ» و «سبانج» وام از ایرانی میانهٔ *ispanāg/*ispanāx‌اند؛ همزهٔ آغازین (اِ-) درست برای شکستن خوشهٔ sp- ایرانی افزوده شده و ابدال «پ» ایرانی به «ف/ب» قاعدهٔ همیشگی معرّب‌سازی است (قس «پیل ← فیل»، «برنامگ ← برنامج»). خودِ منبع نورایی، یعنی معین، از انطاکی نقل می‌کند که «اسفاناج معرّبٌ عن فارسیة هو اسباناخ». وام‌گیری یونانی در جهت وارونه و بسیار دیرتر رخ داده: از لاتین سده‌های میانه به یونانی بیزانسی. دوم صورتِ واژه: «spânâj» اصلاً واژهٔ عربی ممکنی نیست، زیرا عربی نه واج /پ/ دارد و نه خوشهٔ همخوانی در آغاز کلمه. آنچه کتاب چاپ کرده صورتی ایرانی است با برچسب «عربی». حکم: پژوهش امروزی این گره را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC",
+            "https://www.etymonline.com/word/spinach"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:227",
+              "status": "contradicts",
+              "note": "Mo'in's footnote (BQT_v1_pages.txt leaf 332): 'داود ضریر انطاکی در تذکرهٔ خود گوید: اسفاناج معرّب عن فارسیة هو اسباناخ' - the Arabic word is an Arabicization of the Persian, not a reflex of Greek."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489 s.v. spinach",
+              "stance": "contradicts",
+              "note": "'fr. Arab. isbinakh, earlier isfanakh, isfanakh, fr. Pers. aspanakh' - Klein's Arabic forms all have the prosthetic i- and derive from Persian."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "partial",
+              "note": "'126. Pers. aspanah: ar. isfanag, isfinag \"Spinat\"' - Lokotsch's Arabic forms are isfanag/isfinag, again with prosthetic i-, and he heads the article with the Persian word."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.1 leaf 332, footnote 3",
+              "stance": "contradicts",
+              "note": "'به عربی اسفاناخ، و فارسی اسپناخ، اسپناج، اسپنانج، اسپاناج، اسپانج، اسباناج، اسباناخ' - the pe-forms are listed as the Persian ones, the fe/be-forms as Arabic."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery, Foreign Vocabulary of the Qur'an",
+              "stance": "silent",
+              "note": "grep -n -i 'spinach|isfanakh' FVQ.txt returns nothing - the word is not Qur'anic, so Jeffery has no entry."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "espenâx",
+          "verdict": "disputed",
+          "derivation": "The Persian word is real, old and well attested - اسپناخ/سپاناخ/اسفناج, with Rumi already writing من سپاناخ تو با هرچم پزی (Masnavi I, 1258) - and the Persian script and variants Nourai gives (اسفناج، اسپاناخ) are correct. What is wrong is that it is drawn as a borrowing FROM Arabic. Persian is the donor, not the recipient: the Old Iranian etymon is *spinaka-/*spinaka- 'the thorny one' (from the prickly fruit of prickly-seeded spinach), built on *spin- 'thorn' (Northwestern Iranian; Southwestern *sin-) < Proto-Iranian *spai-/*spi- < PIE *spey- 'sharp, pointed' - the same root as Latin spina, Ossetian synj 'thorn', Kurdish sping, Persian سنجد. Wiktionary (after Asatrian) posits two late Middle Iranian forms, *ispanag and dialectal *ispanax, which produced Arabic اسفناج and اسفناخ respectively; the Persian variants written with پ come straight down from Middle Iranian, while اسفناج with ف is a re-borrowing of the Arabized shape back into Persian (an Arabic-mediated round trip). Mo'in's footnote lists all of these as 'همه از یک ریشه' and quotes al-Antaki for the Persian origin.",
+          "derivation_fa": "واژهٔ فارسی واقعی و کهن و پرگواه است — «اسپناخ»، «سپاناخ»، «اسفناج» — و مولوی در مثنوی (دفتر یکم) می‌گوید «من سپاناخ تو، با هرچم پزی»؛ صورت‌های فارسی و گونه‌هایی که نورایی آورده نیز درست‌اند. اشکال در این است که این واژه وام‌واژه‌ای از عربی نشان داده شده، حال آنکه فارسی وام‌دهنده است نه وام‌گیرنده. صورت ایرانی باستان *spināka- «خاردار» است (به سبب دانهٔ خاردار اسفناجِ کهن)، ساخته بر *spin- «خار» (ایرانی شمال‌غربی؛ در جنوب‌غربی *sin-) از ایرانی آغازین *spai-/*spi- و آن از هندواروپایی *spey- «تیز، نوک‌دار» — همان ریشه‌ای که لاتینی spina، آسی synʒ «خار»، کردی sping و فارسی «سنجد» از آن‌اند. ویکی‌واژه به پیروی آساتریان دو صورت ایرانی میانهٔ متأخر *ispanāg و گویشی *ispanāx را بازسازی می‌کند که به‌ترتیب «اسفناج» و «اسفناخ» عربی از آنها برآمده‌اند؛ صورت‌های فارسیِ نوشته‌شده با «پ» مستقیماً از ایرانی میانه مانده‌اند و «اسفناج» با «ف» وام‌گیری دوبارهٔ صورتِ معرّب به فارسی است (رفت‌وبرگشت از راه عربی). حاشیهٔ معین همهٔ اینها را «همه از یک ریشه» می‌خواند و برای اصالت فارسی از انطاکی گواه می‌آورد. حکم: پژوهش امروزی جهت این پیکان را وارونه می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC",
+            "https://abadis.ir/fatofa/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:227",
+              "status": "contradicts",
+              "note": "Mo'in's footnote (BQT_v1_pages.txt leaf 332, footnote 3 to اسپناخ) makes Persian the source of the Arabic ('اسفاناج معرّب عن فارسیة هو اسباناخ') and treats the Greek spinakion as one more form of the same word, not its ancestor. His Farhang-e Farsi entry (abadis.ir) gives 'اسفناج = اسپناج. اسپناخ. سپاناخ. اسپاناج' with no foreign-origin tag at all - i.e. he does not mark it as a loanword in Persian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.1, leaves 329-332 (اسپانج, اسپناخ, اسپنانج)",
+              "stance": "contradicts",
+              "note": "The headwords themselves are Persian with پ: 'اسپانج - با بای فارسی بالف کشیده و فتح نون و سکون جیم، اسفناج باشد و آن سبزی ...' (leaf 329) and 'اسپنانج - باجیم بر وزن اصفهانک، بمعنی اسفناج ... سبزی آش باشد' (leaf 332). Mo'in's footnote derives the Arabic from these."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. اسفناج (abadis.ir)",
+              "stance": "silent",
+              "note": "'(اِ فَ یا فِ) (اِ.) = اسپناج. اسپناخ. سپاناخ. اسپاناج: گیاهی است یک ساله ...' - no origin tag (contrast [ع.] for Arabic loans, [فر.] for French ones), so Mo'in does not treat it as borrowed."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126, headword 'Pers. aspanah'",
+              "stance": "supports",
+              "note": "Lokotsch places the Persian word at the head of the whole European word-family, i.e. Persian is the source."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "supports",
+              "note": "'... fr. Pers. aspanakh, \"spinach\"' - Persian is the ultimate origin in Klein too."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "isbânâx",
+          "verdict": "confirmed",
+          "derivation": "This is the one arrow in the chart's Persian section that is right, and it is the link every western source records. Persian اسباناخ/اسپاناخ was Arabicized as إِسْبَانَاخ isbanax (also إسفاناخ isfanax, إسفناج isfanaj, سبانخ sabanix): Persian p has no Arabic counterpart and is rendered b or f, and a prosthetic ʾis- is prefixed because Arabic phonotactics forbid an initial cluster. The form that mattered historically is the Andalusian Arabic إسبناخ isbinax, since it is the Andalusian pronunciation that Ibero-Romance took over in the 12th-13th c. Klein (1489) and Skeat (507), both cited by Nourai at this box, say exactly this.",
+          "derivation_fa": "این تنها پیکانِ درستِ بخش فارسیِ نمودار است و همان حلقه‌ای است که همهٔ منابع غربی ضبط کرده‌اند. «اسباناخ/اسپاناخ» فارسی در عربی به صورت «إسباناخ» معرّب شد (و نیز «إسفاناخ»، «إسفناج»، «سبانخ»): واج «پ» فارسی در عربی برابر ندارد و به «ب» یا «ف» بدل می‌شود، و همزهٔ آغازین افزوده می‌شود چون عربی خوشهٔ همخوانی در آغاز واژه نمی‌پذیرد. صورتی که در تاریخ اهمیت یافت «إسبناخ» عربیِ اندلسی است، زیرا همین تلفظ اندلسی بود که در سده‌های دوازدهم و سیزدهم به زبان‌های ایبری راه یافت. کلاین (ص ۱۴۸۹) و اسکیت (ص ۵۰۷) — هر دو در همین جعبه مورد استناد نورایی — دقیقاً همین را می‌گویند. حکم: ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/spinach",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1489",
+              "status": "supports",
+              "note": "KLN_1966.txt, the leaf whose catchwords run 'sphaerometer ... spinach' and whose page markers read '1488 - 1489': 'spinach, n. - MF. espinache, espinage ... fr. ML. spinachia, spinachium, which - prob. through the medium of Sp. espinaca and Andalusian Arab. isbinakh - derives fr. Arab. isbinakh, earlier isfanakh, isfanakh, fr. Pers. aspanakh, \"spinach\".' Page 1489 is exact."
+            },
+            {
+              "ref": "SKT:507",
+              "status": "supports",
+              "note": "SKT_dli_revised.txt (the 1911 revised Concise; the running number 506 stands a few lines above the entry, so the entry falls on p.506-507): 'Spinach, Spinage, a vegetable. (F. - Span. - Arab. - Pers.) ... O. F. espinache, espinage, espinace. - Span. espinaca. - Arab. aspanakh, isfanaj; of Pers. origin (Devic).'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "supports",
+              "note": "See ref_check; Klein singles out the Andalusian Arabic isbinakh as the intermediary."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p.506-507",
+              "stance": "supports",
+              "note": "See ref_check; 'Arab. aspanakh, isfanaj; of Pers. origin'."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "supports",
+              "note": "'ar. isfanag, isfinag \"Spinat\" ... hieraus zunaechst die romanischen Formen' - the Arabic word is the immediate source of the Romance forms."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' vol.1 leaf 332 footnote",
+              "stance": "supports",
+              "note": "'داود ضریر انطاکی ... گوید: اسفاناج معرّب عن فارسیة هو اسباناخ' - Antaki names the very form isbanax as the Persian original of the Arabic."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Spanish",
+          "words": "espinacia",
+          "verdict": "transcription_suspect",
+          "derivation": "The Spanish word is espinaca (Old Spanish espinaca, from Andalusian Arabic isbinax, with popular assimilation to espina 'thorn'), and that is the form every source gives - including Klein, the reference printed in this very box: 'prob. through the medium of Sp. espinaca and Andalusian Arab. isbinakh'. Lokotsch: 'sp. espinaca'; Skeat: 'Span. espinaca'. There is no Spanish *espinacia. The printed page 440 of Nourai (rendered at 200 dpi from the PDF and archived as data/verification/sources/refs/ocr/BOOK/470.png) clearly shows 'espinacia' in the Spanish box, so the extraction is faithful and the error is the author's - most probably contamination from the Medieval Latin spinachia/spinacium in the box immediately below. Apart from the -ia, the derivation Arabic > Spanish is correct: Andalusian Arabic isbinax > Old Spanish espinaca, with es- for the Arabic prosthetic vowel and the Romance feminine -a.",
+          "derivation_fa": "واژهٔ اسپانیایی espinaca است (اسپانیایی کهن espinaca از عربی اندلسی إسبناخ، با همگونی عامیانه به espina «خار») و همهٔ منابع همین صورت را می‌دهند — از جمله کلاین که ارجاعِ چاپ‌شده در همین جعبه است: «احتمالاً از راه اسپانیایی espinaca و عربی اندلسی isbinakh». لوکوچ نیز «sp. espinaca» و اسکیت «Span. espinaca» دارد؛ صورتِ *espinacia در اسپانیایی وجود ندارد. تصویر صفحهٔ ۴۴۰ چاپ کتاب (رندر ۲۰۰ dpi و بایگانی‌شده در data/verification/sources/refs/ocr/BOOK/470.png) به‌روشنی «espinacia» را در جعبهٔ اسپانیایی نشان می‌دهد؛ پس خوانشِ داده درست بوده و خطا از خودِ کتاب است، به احتمال زیاد بر اثر آمیختگی با spinachia لاتینِ جعبهٔ پایین‌تر. جز همین «ـia»، سیر عربی ← اسپانیایی درست است: إسبناخ عربی اندلسی ← espinaca اسپانیایی کهن، با es- در برابر همزهٔ عربی و پایانهٔ مؤنث رومیایی ‎-a. حکم: خطای چاپی کتاب.",
+          "error_in": "book",
+          "book_prints": "espinacia",
+          "correct_form": "espinaca",
+          "sources": [
+            "https://www.etymonline.com/word/spinach",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1489",
+              "status": "partial",
+              "note": "Klein p.1489 s.v. spinach writes 'Sp. espinaca', not espinacia. The page supports the Arabic-to-Spanish step but not the form printed in Nourai's box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "partial",
+              "note": "'through the medium of Sp. espinaca and Andalusian Arab. isbinakh'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p.506-507",
+              "stance": "partial",
+              "note": "'Span. espinaca ... The Ital. spinace and Span. espinaca are referred, by popular etymology, to L. spina, a thorn'."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "partial",
+              "note": "'kat. espinac, sp. espinaca, pg. espinafre' - espinaca again."
+            },
+            {
+              "src": "WEB",
+              "where": "Etymonline s.v. spinach (archived)",
+              "stance": "partial",
+              "note": "'from Old Provencal espinarc, which perhaps is via Catalan espinac, from Andalusian Arabic isbinakh' - Etymonline routes the word through Catalan/Provencal rather than Castilian, but the Spanish form it presupposes is espinaca."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Middle Latin",
+          "words": "spinachia",
+          "verdict": "confirmed",
+          "derivation": "Medieval Latin spinachia / spinachium is the Latinization of the Ibero-Romance word in the medical and botanical Latin of the 12th-13th c. (the channel being the Salerno-Toledo translation movement, where Arabic dietetic and pharmacological works were put into Latin). Klein p.1489 gives exactly 'ML. spinachia, spinachium'; Wiktionary lists 'Medieval Latin: spinacium, spinachium, spinarchia (influenced by spina \"thorn\")'. The -ch- spelling is a device for the Arabic kha of isbinax, and the whole form was then reshaped under the influence of Latin spina 'thorn' - a folk etymology helped by the fact that the old prickly-seeded cultivar really does have spiny fruit. From this Medieval Latin come Italian spinace, Middle High German spinat (German Spinat), and - crucially for the root box of this entry - Byzantine Greek spinakion.",
+          "derivation_fa": "لاتینِ سده‌های میانه spinachia/spinacium لاتینی‌شدهٔ واژهٔ ایبری‌رومیایی است در متون پزشکی و گیاه‌شناسی سده‌های دوازدهم و سیزدهم، از رهگذر نهضت ترجمهٔ سالرنو و تولدو که آثار داروشناسی و تغذیهٔ عربی را به لاتین برگرداند. کلاین (ص ۱۴۸۹) دقیقاً «ML. spinachia, spinachium» می‌آورد و ویکی‌واژه صورت‌های spinacium، spinachium و spinarchia را با یادداشت «زیر تأثیر spina ‹خار›» فهرست می‌کند. نویسهٔ ‎-ch- تدبیری برای نمایاندن «خ» عربیِ إسبناخ است و سپس همهٔ واژه زیر نفوذ spina «خار» بازسازی شده — ریشه‌شناسی عامیانه‌ای که این واقعیت به آن یاری رسانده که گونهٔ کهن اسفناج به‌راستی دانهٔ خاردار دارد. از همین لاتین، ایتالیایی spinace و آلمانی علیای میانه spinat (آلمانی Spinat) و — که برای جعبهٔ ریشهٔ همین مدخل تعیین‌کننده است — یونانی بیزانسی σπινάκιον برآمده‌اند. حکم: ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC",
+            "https://www.etymonline.com/word/spinach"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1489",
+              "status": "supports",
+              "note": "KLN_1966.txt p.1489 s.v. spinach: 'fr. ML. spinachia, spinachium' and, at the end of the entry, 'Fr. ML. spinachia, spinachium derive also It. spinace and - with change of suff. - O Provenc. espinarc and MHG. spinat (G. Spinat).' Exactly the form and the parentage drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "supports",
+              "note": "See ref_check."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat s.v. Spinach",
+              "stance": "partial",
+              "note": "SKT.txt (older impression): 'Formed (as if from Late L. spinaceus), from spina, a thorn, because the fruit is sometimes very prickly; so also Span. espinaca' - Skeat records the Latin spina reshaping that Klein and Wiktionary also note."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "partial",
+              "note": "'Mit steter Anlehnung an lat. spina auch im Germanischen dtsch. Spinat, ndl. spinazie, engl. spinage' - the constant leaning on Latin spina."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "espinard; epinard",
+          "verdict": "plausible",
+          "derivation": "Both French forms are real and the Medieval-Latin-to-French step is Klein's own: 'MF. espinache, espinage (whence - with change of suff. - MF. espinarde, espinard, F. epinard), fr. ML. spinachia, spinachium'. Note what that says: the primary French form is espinache/espinage, and espinard is a secondary French re-suffixation of it (-ache replaced by the noun suffix -ard); modern epinard then shows the regular loss of preconsonantal s (espinard > epinard) marked by the acute accent, and is normally used in the plural, epinards. Nourai's box gives only the -ard branch and omits espinache, which matters because espinache, not espinard, is what English borrowed (see node #7). Wiktionary's descendant tree agrees: 'Old French: espinoche, espinache, espinarde > French epinard'.",
+          "derivation_fa": "هر دو صورت فرانسوی واقعی‌اند و پلهٔ لاتینِ میانه ← فرانسه همان است که کلاین می‌گوید: «MF espinache، espinage (و از آنجا، با تغییر پسوند، MF espinarde، espinard و فرانسهٔ نو épinard) از ML spinachia، spinachium». نکته همین‌جاست: صورت اصلی فرانسوی espinache/espinage است و espinard پسوندگردانیِ ثانویِ آن در خود فرانسه است (جایگزینی ‎-ache با پسوند اسم‌ساز ‎-ard)؛ épinard امروزی هم افتادن قاعده‌مندِ «s» پیش از همخوان را نشان می‌دهد که با همزهٔ تیز (é) جبران شده و معمولاً به صورت جمع épinards به کار می‌رود. نورایی تنها شاخهٔ ‎-ard را آورده و espinache را انداخته است، و این مهم است چون آنچه انگلیسی وام گرفت espinache بود نه espinard (نک. گره ۷). درخت بازماندگان در ویکی‌واژه نیز همین را می‌گوید. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/spinach",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1489",
+              "status": "supports",
+              "note": "KLN_1966.txt p.1489: 'spinach, n. - MF. espinache, espinage (whence - with change of suff. - MF. espinarde, espinard, F. epinard), fr. ML. spinachia, spinachium ...'. Klein gives both of Nourai's French forms and their Medieval Latin parent, but makes espinard secondary to espinache."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "supports",
+              "note": "See ref_check."
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "supports",
+              "note": "'hieraus zunaechst die romanischen Formen afrz. espinoche, espinard; frz. epinard' - the same two French forms, again with the -oche/-ache type listed first."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict. s.v. Spinach",
+              "stance": "partial",
+              "note": "SKT_dli_revised.txt: 'O. F. espinache, espinage, espinace' - Skeat's Old French forms are the -ache family; he does not use espinard for the English word."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "spinach",
+          "verdict": "plausible",
+          "derivation": "English spinach is genuinely a French loan, but not from the box above it. It comes from the -ache form: late 14c. spinache, spinage (already late 13c. as a surname), from Anglo-French spinache / Old French espinache, espinage, espinace - which is exactly why English has -ach(e) and not -ard. Skeat p.507, the reference Nourai prints here, says so: 'Spinach, Spinage ... O. F. espinache, espinage, espinace. - Span. espinaca. - Arab. aspanakh, isfanaj; of Pers. origin (Devic)', and calls spinage 'a \"voiced\" form of spinach'. Etymonline routes the Old French word further back through Old Provencal espinarc and perhaps Catalan espinac to Andalusian Arabic isbinakh and Persian aspanakh. So the derivation English < French < Medieval Latin < Spanish < Arabic < Persian is right in outline, and only the French link is drawn through the wrong French variant. Nourai's second reference, AHD, has nothing on the word: Watkins' Indo-European appendix has no SPINACH entry at all, the word not being inherited.",
+          "derivation_fa": "واژهٔ انگلیسی spinach به‌راستی وام‌واژه‌ای فرانسوی است، اما نه از جعبهٔ بالای خودش. این واژه از شاخهٔ ‎-ache آمده است: اواخر سدهٔ چهاردهم spinache و spinage (و پیش از آن در اواخر سدهٔ سیزدهم به عنوان نام خانوادگی)، از انگلونرمن spinache / فرانسهٔ کهن espinache، espinage، espinace — و دقیقاً به همین سبب است که انگلیسی ‎-ach(e) دارد نه ‎-ard. اسکیت در ص ۵۰۷ که ارجاع چاپ‌شدهٔ همین جعبه است می‌نویسد: «Spinach, Spinage ... O.F. espinache, espinage, espinace. — Span. espinaca. — Arab. aspanakh, isfanaj؛ فارسی‌الاصل (به نقل دِویک)» و spinage را صورت «واکدار‌شدهٔ» spinach می‌خواند. اتیمولوژی‌آنلاین فرانسهٔ کهن را از راه پرووانسی کهن espinarc و شاید کاتالان espinac به عربی اندلسی إسبناخ و فارسی «اسپناخ» می‌رساند. پس زنجیرهٔ انگلیسی ‹ فرانسه ‹ لاتین میانه ‹ اسپانیایی ‹ عربی ‹ فارسی در کلیات درست است و تنها حلقهٔ فرانسوی از گونهٔ نادرست کشیده شده. ارجاع دوم نورایی یعنی AHD در اینجا بی‌فایده است: پیوست ریشه‌های هندواروپایی واتکینز اصلاً مدخل SPINACH ندارد، چون این واژه موروثی نیست. حکم: با احتیاط پذیرفتنی.",
+          "sources": [
+            "https://www.etymonline.com/word/spinach",
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%81%D9%86%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "SKT:507",
+              "status": "supports",
+              "note": "SKT_dli_revised.txt, s.v. Spinach (the running page number 506 stands just above; the entry is on p.506-507): 'Spinach, Spinage, a vegetable. (F. - Span. - Arab. - Pers.) Spinage is a \"voiced\" form of spinach. O. F. espinache, espinage, espinace. - Span. espinaca. - Arab. aspanakh, isfanaj; of Pers. origin (Devic). The Ital. spinace and Span. espinaca are referred, by popular etymology, to L. spina, a thorn.'"
+            },
+            {
+              "ref": "AHD",
+              "status": "not_found",
+              "note": "grep -o 'SPINACH[ ]*[a-zA-Z0-9-]*' AHD_watkins1985.txt returns nothing: Watkins' Indo-European appendix has no entry for SPINACH, since the word is a Wanderwort and not an inherited IE formation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Skeat p.506-507",
+              "stance": "supports",
+              "note": "See ref_check."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein 1966 p.1489",
+              "stance": "partial",
+              "note": "'spinach, n. - MF. espinache, espinage (whence - with change of suff. - MF. espinarde, espinard, F. epinard)' - Klein too makes English spinach continue the -ache form, not espinard."
+            },
+            {
+              "src": "WEB",
+              "where": "Etymonline s.v. spinach (archived)",
+              "stance": "partial",
+              "note": "'late 14c., spinache, spinage ... from Anglo-French spinache, Old French espinache (14c., Modern French epinard, from a form with a different suffix), from Old Provencal espinarc, which perhaps is via Catalan espinac, from Andalusian Arabic isbinakh, from Arabic isbanakh, from Persian aspanakh \"spinach\".'"
+            },
+            {
+              "src": "LKT",
+              "where": "Lokotsch no. 126",
+              "stance": "partial",
+              "note": "'engl. spinage' listed among the forms leaning on Latin spina."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
