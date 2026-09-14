@@ -1,0 +1,884 @@
+{
+  "pdf_page": 425,
+  "book_page": 395,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Reuto, Routo, Rut",
+      "verdict": "confirmed",
+      "modern_form": "PIE *reuto-, *routo-, *rut- 'stomach, intestines (of an animal)'",
+      "note": "Pokorny's entry 'reuto-, routo- rut-, Meaning: stomach, intestines (of an animal)' runs over pp. 873-874, so Nourai's POK:873 for the root box and POK:874 for the nodes are both right. The root label 'Indo-European' is correct only in a weak sense: the root rests on an Iranian-Germanic isogloss (MP rot, NP ruda, Av. uruθwar-/-wan-; OE reada, Du. roode, Swed. dial. rudda), Pokorny's only authority being Liden, KZ 61, 14 f. It is absent from Walde-Pokorny (1927-32) and from Watkins/AHD, so it is a post-1932 addition rather than a classical IE root. The gloss Nourai gives ('intestines, bowels') matches Pokorny.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *reuto-/*routo-/*rut- به معنای «شکم، روده (جانور)» در فرهنگ پوکورنی (ص ۸۷۳–۸۷۴) آمده است و ادعای نورایی درست است. باید دانست که این ریشه فقط بر پایهٔ همسانی زبان‌های ایرانی و ژرمنی بازسازی شده و پوکورنی تنها به لیدن (KZ 61) استناد کرده است؛ در والده–پوکورنی و در فهرست واتکینز (AHD) این ریشه نیست.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AF%D9%87"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:873",
+          "status": "supports",
+          "note": "POK_full.txt (indo-european.info dump), block 'Root / lemma: reuto-, routo- rut- / Meaning: stomach, intestines (of an animal) ... Page(s): 873-874'; material: 'Middle Persian rot ‘intestines, entrails of Rindes’, npers. ruda, Pl. rudag-an ... jav. uruθwara, -wan- n. (*rut-uar-, -uan-) ‘intestines, entrails, belly’; Old English reada ... References: Liden KZ. 61, 14 f.' (grep -n 'lemma: reuto' POK_full.txt -> line 70898)."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "pp. 873-874 s.v. reuto-, routo- rut-",
+          "stance": "supports",
+          "note": "gloss and all four daughter branches (MP, NP, Av., Gmc.) as drawn by Nourai."
+        },
+        {
+          "src": "WLD",
+          "where": "Bd. II (1927)",
+          "stance": "silent",
+          "note": "Pokorny gives no 'WP.' cross-reference for this root (only 'Liden KZ. 61, 14 f.'), i.e. the root is not in Walde-Pokorny; grep of WLD_Bd2_pages.txt for 'reuto', 'routo', 'uruθwar' found nothing (OCR is also very poor)."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, IE roots R-",
+          "stance": "silent",
+          "note": "AHD_watkins1985.txt has reu-1, reu-2, reudh-1, reudh-2, reuə-, reug-, reugh-men-, reup-, rezg- but NO *reuto- 'intestines' — Watkins does not recognise the root."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann s.v. reut-",
+          "stance": "silent",
+          "note": "IEC.txt line 14581 'reut- (reuto, ið, rout-, rut-) ‘fling, dash’. Cf. routeio' — Mann's reut- is a different root ('fling'); he has no 'intestine' root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "uruthwara, uruthwan, uruthwasča",
+          "verdict": "confirmed",
+          "derivation": "Bartholomae's headword is 'j. uruθwan-, -θwar- n. ‘Eingeweide, Bauch’' (AiW col. 1530-33), an r/n-heteroclitic neuter of the archaic type *rut-uar- / *rut-uan- (Pokorny 874) built on the zero grade *rut- of *reuto-. Initial uru- is the regular Avestan prothetic/anaptyctic rendering of syllabic r (r̥ > ǝrǝu > uru-), and -θw- is *-tw- with the regular Avestan t > θ before w. The third form, uruθwąsca, is not a separate stem but the attested nom.-acc. plural uruθwą with the enclitic -ca 'and' (Yt 13.11 astica gaonaca ... uruθwąsca pasūsca), the -ąs- being the regular sandhi of -ą + ca; Nourai lists an inflected text-form beside two stems. The word is used of the entrails of 'Ahuric' (good) creatures, the daevic counterpart being maršu-. Meaning 'entrails, belly' is correct; V 4.48 yō gəuš uruθwarə ham.pafraιti and the figurative V 5.30 'the core (of the religion)' are Bartholomae's citations.",
+          "derivation_fa": "در اوستا ستاک uruθwan-/uruθwar- (خنثی) به معنای «روده، اندرونه، شکم» است (بارتولومه، ستون ۱۵۳۰–۳۳) که از نوع نام‌های دوگانه‌ستاک r/n است: *rut-uar-/*rut-uan-. اولِ uru- همان بازتابِ معمولِ rِ هجایی هندواروپایی در اوستایی است و -θw- دگرگونی آوایی *-tw- است. صورت سوم (uruθwąsca) ستاک جداگانه‌ای نیست، بلکه جمع uruθwą به افزودنِ پیوستهٔ -ca «و» است (یشت ۱۳،۱۱). ادعای نورایی درست است.",
+          "sources": [
+            "https://starlingdb.org/new100/irn.pdf"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:874",
+              "status": "supports",
+              "note": "POK_full.txt s.v. reuto-: 'jav. uruθwara, -wan- n. (*rut-uar-, -uan-) ‘intestines, entrails, belly’' — exactly the arrow drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 1530-33 s.v. uruθwan-, -θwar-",
+              "stance": "supports",
+              "note": "BRT.txt line 25521: '• j. uruθwan-, -θwar- n. ‘Eingeweide, Bauch’ ... auch Plur.: astica gaonaca ... uruθwąsca pasūsca fravāxšasca Yt 13.11'; and the closing note 'Vgl. np. rūda, nbal. rōδ ‘Eingeweide’; Bthl. IF. 5.228.' — Bartholomae himself links the Avestan word with NP rūda."
+            },
+            {
+              "src": "POK",
+              "where": "p. 874",
+              "stance": "supports",
+              "note": "as in ref_check."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 84 s.v. *uruspar",
+              "stance": "supports",
+              "note": "PHD.txt line 599: '*uruspar [ʾwlwspl = Av. uruθβar-] intestines, womb; core, essence' — MacKenzie knows an actual Pahlavi continuation of the Avestan word, and its senses ('intestines, womb; core') match Bartholomae's."
+            },
+            {
+              "src": "KNT",
+              "where": "Old Persian lexicon",
+              "stance": "silent",
+              "note": "no Old Persian cognate of uruθwar- is recorded."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "aškumb",
+          "verdict": "disputed",
+          "derivation": "Pahlavi aškamb / aškom(b) [ʾškmb, ʾskwm(b)] 'belly, womb' is real (MacKenzie p. 12; Nyberg II, s.v.), and it is indeed the word the Zand uses to render Avestan uruθwan-: Bartholomae notes at the end of the entry 'Pü. (ru F.): škamb', and Tavoosi's Šāyest-nē-Šāyest glossary (SNS p. 36) prints aškumb with the Avestan uruθwąsca beside it. But that is a TRANSLATION equivalence in the Pahlavi version, not a phonetic descent: uruθwan-/uruθwar- cannot yield aškamb by any Middle Persian sound law (there is no source for the šk- cluster or the -mb), and MacKenzie records the genuine Middle Persian continuant of Av. uruθβar- separately as *uruspar 'intestines, womb; core, essence'. aškamb is an independent Iranian word: cf. Manichaean MP škmb, Sogdian škmb, Pazand aškum/iškam, Yaghnobi šikampa/iškampá 'stomach', for which Morgenstierne-type reconstructions start from *(s)kamb-/*stamb-, not from *rut-. Nourai's arrow therefore mistakes a Zand gloss for an etymology.",
+          "derivation_fa": "واژهٔ فارسی میانهٔ aškamb/aškomb «شکم، زهدان» درست است (مکنزی ص‌۱۲؛ نیبرگ)، و در زند، همین واژه برابرِ اوستاییِ uruθwan- آورده شده است (بارتولومه: «Pü. škamb»؛ واژه‌نامهٔ شایست نه شایست ص‌۳۶). اما این فقط برابرنهادِ ترجمه‌ای است و نه تحولِ آوایی؛ از uruθwar- به هیچ روی نمی‌توان aškamb ساخت، و مکنزی بازماندهٔ راستینِ آن را جداگانه *uruspar «روده، زهدان» ثبت کرده است. aškamb واژه‌ای جداست (قیاس کنید سغدی و مانوی škmb، پازند aškum، یغنابی šikampa). بنابراین پژوهش امروزی پیکانِ نورایی را رد می‌کند: این یک «برابرِ زندی» است، نه ریشهٔ آوایی.",
+          "sources": [
+            "https://starlingdb.org/new100/irn.pdf",
+            "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:36",
+              "status": "partial",
+              "note": "SNS_pages.txt leaf 35 (≈ printed p. 36), line 2231: '... aškumb : ...' with 'uruθwasca' printed on the next line and 'aškum (Mir. Man. II, 63)' below — Tavoosi's glossary does put the Pahlavi word beside the Avestan one, which is Nourai's source; but the glossary is a word-list of the Pahlavi text Šāyest-nē-Šāyest with its Avestan correspondences, so it documents a translation equivalence, not a descent."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 12 s.v. aškamb; p. 84 s.v. *uruspar",
+              "stance": "contradicts",
+              "note": "PHD.txt line 221: 'aškamb [KLSE < A kršʾ; ʾškmb | M škmb, N šikam] belly, womb. ~ag [-k | N šikamba] = aškamb'; 'aškom(b) [ʾskwm(bʾ)] = aškamb' — no Avestan etymon given, while the separate lemma '*uruspar [ʾwlwspl = Av. uruθβar-] intestines, womb' shows what the Avestan word really became in Pahlavi."
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary (Manual of Pahlavi II) s.v. aškamb",
+              "stance": "contradicts",
+              "note": "NYB_vol2_glossary.txt line 737: 'aškamb [ʹškmbʹ], aškam [ʹškm], aškom [škwm] ... belly, stomach, womb ... — MPrs škmb (A-H II; Sogd. 3176); Paz. aškum (Mx), iškam (SGV); NP iškam, šikam.' Nyberg derives it from the MP/Sogdian škmb family, not from Avestan uruθwan-."
+            },
+            {
+              "src": "BRT",
+              "where": "col. 1530-33 s.v. uruθwan-",
+              "stance": "partial",
+              "note": "BRT.txt line 25523: 'Pü. (ru F.): škamb, (in V. 1): an dāšn ..., (sonst): transkr.' — Bartholomae records škamb only as the Pahlavi VERSION's rendering, and elsewhere the Zand simply transcribes the Avestan word."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien p. 226 (HUB.txt l. 9189)",
+              "stance": "contradicts",
+              "note": "'šikam (A. M. 78,6) = šikanb ‘Bauch’, phl. šk(u)mb ZPGl. 10,7' — Hübschmann sets up NP šikam/šikanb < Phl. šk(u)mb with no Avestan antecedent."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "eškam «اشکم ( شکم ، شکمبه )»",
+          "verdict": "confirmed",
+          "derivation": "NP اشکم / شکم (eškam, šekam) continues Middle Persian aškamb [ʾškmb] directly: the final -mb simplified to -m in New Persian (aškamb > aškam > šikam, with the usual loss of the prothetic a- before šC-), while the -mb is preserved in the by-forms شکنب šekanb and شکمبه šekambe 'rumen, paunch' (< MP aškambag). Hübschmann (Pers. Stud. p. 226) already gives 'šikam = šikanb ‘Bauch’, phl. šk(u)mb'; MacKenzie writes 'aškamb ... | N šikam' and 'aškambag | N šikamba'; Nyberg adds Pazand aškum / iškam. Rumi's line quoted in the book (شیر بی دم و سر و اشکم که دید؟) attests the older full form aškam in classical Persian. So the node itself is right — only its attachment through node 2 to the Avestan word fails.",
+          "derivation_fa": "«اشکم/شکم» مستقیماً از فارسی میانهٔ aškamb آمده است؛ خوشهٔ پایانی -mb در فارسی نو به -m ساده شده (aškamb > aškam > شکم) و همزهٔ آغازین نیز افتاده است؛ اما در صورت‌های «شکنب» و «شکمبه» (از aškambag) مانده است. هوبشمان و مکنزی و نیبرگ همین را می‌گویند، و بیت مولانا که در کتاب آمده گواه صورت کهنِ «اشکم» است. پس خودِ این پیوند درست است؛ ایراد تنها در پیوستنِ آن به ریشهٔ اوستاییِ uruθwan- است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "SNS:36",
+              "status": "partial",
+              "note": "SNS_pages.txt leaf 35 gives the Pahlavi aškumb of the Šāyest-nē-Šāyest and the Manichaean aškum; the New Persian outcome شکم is implicit rather than stated, and the Avestan link is a text-correspondence only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 12",
+              "stance": "supports",
+              "note": "'aškamb ... | M škmb, N šikam' and '~ag [-k | N šikamba]' — MacKenzie gives exactly NP شکم and شکمبه as the descendants."
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary s.v. aškamb (NYB_vol2_glossary.txt l. 737)",
+              "stance": "supports",
+              "note": "'Paz. aškum (Mx), iškam (SGV); NP iškam, šikam.'"
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt l. 9189",
+              "stance": "supports",
+              "note": "'šikam (A. M. 78,6) = šikanb ‘Bauch’, phl. šk(u)mb'."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss, R/Š section",
+              "stance": "silent",
+              "note": "grep of HRN.txt for 'šikam', 'kamb', 'Bauch' finds no numbered entry for شکم; Horn does not treat the word."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Pahlavi",
+          "words": "rôt 1",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian rōd [lwtʾ] 'intestine, gut', with its productive diminutive/derivative rōdīg [lwtykʾ] (pl. rōdīgān 'entrails, guts'), continues Proto-Iranian *rauta- < PIE *reuto- with the regular MP outcome of *au > ō and intervocalic *-t- written -t- but pronounced -d- in late MP. Pokorny prints it under the root: 'Middle Persian rōt ‘intestines, entrails of Rindes’'. Nourai's '1' is his homonym-number, distinguishing this rōd from rōd 'river' (< Proto-Iranian *hrautah-, OP rautah-) and rōd 'stringed instrument' — three homophones MacKenzie also keeps apart. Attaching the Pahlavi word directly to the root (not under the Avestan node) is correct: MP rōd continues the plain *reuto-, whereas Av. uruθwar- continues the r/n-stem extension *rut-uar-.",
+          "derivation_fa": "پهلوی rōd [lwtʾ] «روده» و صورت مشتقِ rōdīg (جمع: rōdīgān «امعاء و احشاء») از ایرانی باستان *rauta- و آن از هندواروپایی *reuto- است؛ دوگانهٔ au در فارسی میانه به ō بدل شده است. پوکورنی دقیقاً همین را می‌آورد. عدد ۱ در «rōt 1» شمارهٔ همآوایی است تا از rōd «رود، رودخانه» (از *hrautah-، پارسی باستان rautah-) بازشناخته شود. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:874",
+              "status": "supports",
+              "note": "POK_full.txt s.v. reuto-: 'Middle Persian rot ‘intestines, entrails of Rindes’' — the Pahlavi form is Pokorny's first witness for the root."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 72 s.v. rōdīg (PHD.txt l. 559)",
+              "stance": "supports",
+              "note": "'rōdīg [lwtykʾ | (N rōda)] intestine, gut; ~ān, (pl.) entrails, guts' — listed separately from '1rōd [lwtʾ | M rwd, N ~] river' and '*rōd [lwtʾ | N ~] stringed instrument'."
+            },
+            {
+              "src": "HRN",
+              "where": "no. 628, p. 139",
+              "stance": "supports",
+              "note": "HRN.txt leaf 161: '628. rūde (*rōde) ‘Eingeweide’. ... phlv. rōtīk ‘Eingeweide’ (AV.).'"
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary",
+              "stance": "silent",
+              "note": "grep of NYB_vol2_glossary.txt for 'rōtīk'/'rotik' yields no entry — the word does not occur in Nyberg's selected texts."
+            },
+            {
+              "src": "BQT",
+              "where": "Mo'in's footnote to روده (BQT_v2_pages.txt leaf 430)",
+              "stance": "supports",
+              "note": "'پهلوی rōt «اونوالا Unvala» (امعاء و احشاء)، کردی ...، بلوچی rōδ/rōs، سریکلی raud' — Mo'in gives the Pahlavi rōt with Unvala as source."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "rūdeh «روده»",
+          "verdict": "confirmed",
+          "derivation": "NP روده rōda / rūda 'intestine' is the regular New Persian reflex of MP rōdīg: MP -īg > NP -a (rōdīg > rōda, exactly as MP bālīg > NP bāla); the MP majhūl ō is preserved in the classical pronunciation rōda and only later raised to rūda in Iran. Horn (no. 628, p. 139) explicitly reconstructs the majhūl vowel — 'rūde (*rōde) ‘Eingeweide’ ... das neupersische Wort muss dem Bal. und Sar. zu Folge auch ursprünglich einen Majhūlvokal gehabt haben' — comparing Baluchi rōδ/rōs and Sariqoli raud. Pokorny derives the Persian form from a suffixed *reuto-ko- (= the MP -īg formation). Cognate outside Iranian: OE rēada, English reed 'abomasum of a ruminant', Swedish dial. rudda.",
+          "derivation_fa": "«روده» دنبالهٔ فارسی میانهٔ rōdīg است؛ پسوند -īg در فارسی نو به -ه (-a) بدل می‌شود و واکهٔ مجهولِ ō در تلفظ کهن مانده و سپس به ū تبدیل شده است. هرن (شمارهٔ ۶۲۸، ص ۱۳۹) بر پایهٔ بلوچی rōδ و سریکلی raud تأکید می‌کند که صورت اصلی *rōde بوده است، و معین در حاشیهٔ برهان قاطع همین را می‌آورد. هم‌ریشهٔ بیرون‌ایرانیِ آن انگلیسی کهن rēada است. ادعای نورایی درست است. (ویکی‌واژه بی مأخذ «روده» را به *Hrawtáh یعنی همان ریشهٔ «رود/رودخانه» برمی‌گرداند که با هرن و پوکورنی نمی‌خواند.)",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AF%D9%87",
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AF"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:874",
+              "status": "supports",
+              "note": "'npers. ruda, Pl. rudag-an ‘intestines, entrails’ (*reuto-ko-)'."
+            },
+            {
+              "ref": "HRN:139",
+              "status": "supports",
+              "note": "HRN.txt leaf 161 = printed p. 139, entry '628. rūde (*rōde) ‘Eingeweide’. Kās. rāvə, rūvə. phlv. rōtīk ‘Eingeweide’ (AV.). kurd. rūm; bel. rōδ, rōs (331); sar. raud.' — precisely Nourai's arrow."
+            },
+            {
+              "ref": "BQT:970",
+              "status": "supports",
+              "note": "the روده entry with Mo'in's etymological footnote stands at BQT_v2_pages.txt leaf 430 ('روده ... امعای گوسفند و غیره باشد'; footnote: 'پهلوی rōt «اونوالا» (امعاء و احشاء)، ... بلوچی rōδ/rōs، سریکلی raud، [پوکورنی] 874'). Our leaf-to-page mapping for vol. 2 is only approximate, but Aryanpur's independent entry for روده (ARY_pages.txt, pdf page 310) cites 'برهان قاطع: ۹۷۰' for the same word, confirming that BQT p. 970 is indeed روده."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 628, p. 139",
+              "stance": "supports",
+              "note": "see ref_check; Horn keeps rūde 'Eingeweide' (628) strictly apart from rōd 'Fluss' (627, < ap. rautah-)."
+            },
+            {
+              "src": "BQT",
+              "where": "leaf 430 (≈ printed 970)",
+              "stance": "supports",
+              "note": "Mo'in's footnote as quoted."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt pdf page 310 (روده)",
+              "stance": "supports",
+              "note": "Aryanpur's entry lists پهلوی rōt, rōtīk; بلوچی rōδ; انگلیسی کهن RĒADA, انگلیسی reed with the note 'چم این واژه در انگلیسی نوین: شکم جانور' — i.e. Pokorny's set exactly, and cites برهان قاطع ۹۷۰."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 72",
+              "stance": "supports",
+              "note": "'rōdīg [lwtykʾ | (N rōda)] intestine, gut' — MacKenzie writes the New Persian outcome with majhūl ō, as Horn requires."
+            },
+            {
+              "src": "BRT",
+              "where": "col. 1533",
+              "stance": "supports",
+              "note": "'Vgl. np. rūda, nbal. rōδ ‘Eingeweide’; Bthl. IF. 5.228.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Rewe, Rū 3",
+      "verdict": "confirmed",
+      "modern_form": "PIE *rewh₁- / *reuə- : *rū- 'to open; open space, wide'",
+      "note": "Pokorny p. 874: 'Root / lemma: reuə- : rū-, Meaning: to open; wide', with exactly Nourai's material — Av. ravah- and ravas-carət-, Lat. rūs, Gmc. *rū-ma- (Goth. rūms), plus MIr. róe, OCS ravĭnŭ, Toch. AB ru- 'open'. Watkins/AHD prints the root as 'reuə-. To open; space. [Pok. reuə-, rū- 874]', so Nourai's 'Rewe, Rū 3' (his spelling of reuə- : rū-, numbered 3 to distinguish his other Rū entries) and his gloss 'to open, open space' are both right. This entry is uncontroversial in all the standard handbooks; the modern laryngealist notation is *rewh₁-.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *reuə- : *rū- (در نگارش امروزی *rewh₁-) به معنای «گشودن؛ فضای باز» است؛ پوکورنی (ص ۸۷۴) و واتکینز (AHD) دقیقاً همین مواد را می‌آورند: اوستایی ravah-، لاتین rūs، ژرمنی *rūmaz. نام و زبان و معنای ریشه در جدول نورایی درست است و در هیچ منبعی مورد اختلاف نیست.",
+      "sources": [
+        "https://www.etymonline.com/word/room"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:874",
+          "status": "supports",
+          "note": "POK_full.txt line 70914: 'Root / lemma: reuə- : rū- / Meaning: to open; wide / Material: Avestan ravah- n. ‘Raum, Weite’, ravas-carat- ‘was sich in Freien bewegt’; Latin rus, ruris ‘land ... ’ (*reuos); ... Germanic rū-ma- in Gothic rūms ... / References: WP. II 356 f., WH. II 454, Trautmann 14. / Page(s): 874'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "p. 874",
+          "stance": "supports",
+          "note": "as quoted."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 s.v. reuə- (AHD_watkins1985.txt l. 897)",
+          "stance": "supports",
+          "note": "'reuə-. To open; space. 1. Suffixed variant form *rū-mo- (< *ruə-mo-) in Germanic *rūmaz ... 2. Suffixed form *reu(ə)-es- in Latin rūs, “open land”, the country: RURAL, RUSTIC. [Pok. reuə-, rū- 874.]'"
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 356 f.",
+          "stance": "supports",
+          "note": "cited as the authority by both Pokorny ('WP. II 356 f.') and Buck ('Walde-P. 2.356'); the local WLD_Bd2 OCR is too corrupt to quote the page directly."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck p. 464-465 (§7.24 'a room')",
+          "stance": "supports",
+          "note": "SYN.txt l. 11701, just before the page marker '465': 'Goth. ON, OE, OHG rūm ‘space, place’ (: Av. ravah- ‘space’, Lat. rus ‘country’, etc. Walde-P. 2.356), hence also ‘a room’ in ME rowme, NE room, Sw. rum.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ravah; ravas-čarât",
+          "verdict": "confirmed",
+          "derivation": "Av. ravah- n. 'free space, freedom' (Bartholomae, AiW col. 1514: 'j. ravah- n. ‘freier Raum, Freiheit’') is an s-stem *rew-os- from *reuh₁-, morphologically identical with Latin rūs (< *rewos, gen. *rewes-os > rūris). The compound ravas-carət- (nom. -carəδ?; attested acc. pl. ravascaratəmca Y 71.9, Vr 2.1, Yt 8.36 of wild beasts and birds) is 'moving in the open', a bahuvrīhi-type governing compound of ravah- with the root car- 'to move, graze' (→ Nourai's cross-reference to his root Kwel, PIE *kʷel- 'to turn, move about', which is indeed the source of Av./Skt. car-). Both words are correctly cited, correctly glossed and correctly attached to the root.",
+          "derivation_fa": "اوستایی ravah- (خنثی، ستاک s-دار) به معنای «فضای آزاد، گشادگی» از *rew-os- است و از نظر ساخت دقیقاً برابر لاتین rūs (مضاف‌الیه rūris) است؛ بارتولومه (ستون ۱۵۱۴) آن را «freier Raum» معنا کرده است. ترکیب ravas-carət- «آنکه در فضای باز می‌گردد» از همین نام و ریشهٔ car- «رفتن، چریدن» ساخته شده است. هر دو واژه درست و مستنداند.",
+          "sources": [
+            "https://www.etymonline.com/word/room"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:874",
+              "status": "supports",
+              "note": "'Avestan ravah- n. ‘Raum, Weite’, ravas-carat- ‘was sich in Freien bewegt’.'"
+            },
+            {
+              "ref": "SYN:465",
+              "status": "supports",
+              "note": "SYN.txt l. 11701 (the printed page-number '465' stands at l. 11706, so this is the top of Buck p. 465): '... (: Av. ravah- ‘space’, Lat. rus ‘country’, etc. Walde-P. 2.356) ...'."
+            },
+            {
+              "ref": "KLN:1356",
+              "status": "supports",
+              "note": "KLN_1966.txt l. 33094, immediately after the page marker '1356' (l. 33085) — s.v. 'room': 'fr. I.-E. base *rēu-, ‘wide, open’, whence Toch. AB ru-, ‘to open’, Avestic ravah-, ‘space’, L. rus, ‘open country’, OIr. roi, roe, ‘plain field’.' Nourai's page number is exact."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 1514 s.v. ravah-; col. ~1000 s.v. fra.ptərə-jāt- (ravascaratəmca)",
+              "stance": "supports",
+              "note": "BRT.txt l. 25202: '• j. ravah- n. ‘freier Raum, Freiheit’'; l. 17662 quotes the attested forms 'ravascaratəmca Y. 71.9 ... ravascarətqmca Vr. 2.1' and l. 26352 'auruna ... gairišācō sizdrača ravascaratō Yt. 8.36'."
+            },
+            {
+              "src": "POK",
+              "where": "p. 874",
+              "stance": "supports",
+              "note": "as in ref_check."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck p. 465, also §12.x (SYN.txt ll. 22804, 23254)",
+              "stance": "supports",
+              "note": "'ChSl. ravinŭ ... : Av. ravah- ‘open space’, Lat. rus ‘country’ vs. ‘town’, Goth. rūms ‘roomy, spacious’, OE rūm ‘space’ (NE room), etc. Walde-P. 2.356 f.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Germanic",
+          "words": "rumaz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *rūmaz adj. 'roomy, spacious' (and the substantivised neuter *rūma- 'space') goes back to a suffixed *rū-mo- < *ruə-mo-, the zero grade of *reuə- plus the adjectival *-mo-; the Germanic long ū is the regular outcome of *uə/*uH. Attested in Gothic rūms 'roomy' and n. rūm 'space', ON rūmr, OS/OFris./OE rūm, OHG/MHG rūm. Watkins spells it *rūmaz exactly as the chart does; Klein derives the nouns from the Teutonic adjective *rūma-. Correctly attached directly to the root rather than through Avestan.",
+          "derivation_fa": "ژرمنی آغازین *rūmaz «گشاد، جادار» از *rū-mo- (پایهٔ صفرِ ریشه به‌علاوهٔ پسوند صفت‌ساز *-mo-) است؛ ū کشیده بازتاب معمولِ *uə است. نمونه‌ها: گوتی rūms و rūm، انگلیسی کهن rūm. نگارش نورایی همان نگارش واتکینز است و ادعا درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/room"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt l. 897 s.v. reuə-: 'Suffixed variant form *rū-mo- (< *ruə-mo-) in Germanic *rūmaz in: a. Old English rūm, space: ROOM; b. Old French run, ship's hold, space: RUMMAGE.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1356 s.v. room",
+              "stance": "supports",
+              "note": "'These nouns are substantivations of the Teut. adj. *rūma- appearing in OE., MHG. rūm, OHG. rūmi, ON. rūmr, Dan., Swed. rum, Du. ruim, Goth. rūms, ‘roomy, spacious’.'"
+            },
+            {
+              "src": "POK",
+              "where": "p. 874",
+              "stance": "supports",
+              "note": "'Germanic rū-ma- in Gothic rūms ‘capacious, wide’, rūm n. ‘Raum’, Old Icelandic rūmr ... abgel. verb Germanic *rūmian.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt l. 16204 s.v. Room",
+              "stance": "supports",
+              "note": "'Room, space, a chamber. (E.) ... A.S. rūm ... Goth. rūms, adj. and sb., G. raum, sb. Allied to L. rus, open country.'"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "room; ream 2; reamer",
+          "verdict": "confirmed",
+          "derivation": "(a) ROOM: OE rūm n. 'space, extent' (substantivised from the adjective rūm) > ME roum/rum > room; the concrete sense 'chamber' is a late-ME nautical specialisation ('space in a ship'), first 14th c. (b) REAM v. 'to enlarge a hole' is Nourai's 'ream 2' (his 2 distinguishing it from ream 'twenty quires', which is Arabic rizma via Spanish resma — an unrelated homonym Klein lists just above). It is OE rȳman 'to make room, widen', a denominative *rūmjan from rūm with i-umlaut ū > ȳ, whence ME rumen/remen and the dialectal rime; so it belongs under the Germanic node, exactly as drawn. (c) REAMER is the English agent noun in -er from that verb (18th c., the tool). Watkins lists only ROOM and RUMMAGE under the root, but Klein covers ream/reamer explicitly.",
+          "derivation_fa": "سه واژهٔ انگلیسی از همان پایهٔ ژرمنی‌اند: room از انگلیسی کهن rūm «فضا» (معنای «اتاق» تحولی متأخر و نخست دریانوردی است)؛ ream «گشاد کردن سوراخ» از انگلیسی کهن rȳman «جا باز کردن»، فعلی برساخته از rūm با امالهٔ (i-umlaut) ū > ȳ؛ و reamer نام ابزار از همان فعل با پسوند -er. عدد ۲ در «ream 2» برای جدا کردن از ream «بستهٔ کاغذ» است که از عربی رِزمه آمده و بی‌ربط است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/room"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins (AHD_watkins1985.txt l. 897; index l. 2199 'ROOM reuə-') derives ROOM and RUMMAGE from the root but does not list REAM/REAMER; for those Klein has to be used."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1307 s.v. ream (v.), reamer; p. 1356 s.v. room",
+              "stance": "supports",
+              "note": "KLN_1966.txt l. 31829: 'ream, tr. v., to enlarge a hole. — Lit. ‘to make room’, fr. ME. remen, rumen, fr. OE. rȳman, ‘to make room, widen’, fr. rūm, ‘spacious, wide’ ... reamer, n., a tool for enlarging a hole. — Formed fr. prec. word with agential suff. -er.' l. 33094 s.v. room: 'ME. roum, rum, fr. OE. rūm, ‘space’ ... Cp. ream, ‘to enlarge a hole’.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt l. 16204 s.v. Room",
+              "stance": "supports",
+              "note": "'The old meaning is space, place. M.E. roum. A.S. rūm ... Allied to L. rus, open country.'"
+            },
+            {
+              "src": "FSD",
+              "where": "New Standard, R-section",
+              "stance": "silent",
+              "note": "not consulted for this uncontroversial English chain (Nourai cites only AHD here)."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Latin",
+          "words": "rūs",
+          "verdict": "confirmed",
+          "derivation": "Latin rūs, gen. rūris n. 'the country, open land (as opposed to the town), a farm' is an s-stem *rewos, gen. *rewes-os; intervocalic *-s- rhotacised to -r- in the oblique cases (*rewes-os > rūris) while the nominative kept -s, and *rewos contracted to rūs. It is thus the exact Latin match of Avestan ravah-. Pokorny prints 'Latin rus, ruris ‘land (in contrast to town, city), estate’ (*reuos)'; Watkins reconstructs 'Suffixed form *reu(ə)-es-'. Gloss 'open land' is right.",
+          "derivation_fa": "لاتین rūs (مضاف‌الیه rūris) «دشت، زمین باز، روستا (در برابر شهر)» از ستاک s-دارِ *rewos است؛ s میان‌دوواکه در لاتین به r بدل شده (قلب آوایی معروف به rhotacism) و از این‌رو rūris. این واژه برابرِ دقیقِ اوستایی ravah- است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/room"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:874",
+              "status": "supports",
+              "note": "'Latin rus, ruris ‘land (in contrast to town, city), estate’ (*reuos)' — POK_full.txt s.v. reuə- : rū-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "Watkins 1985 s.v. reuə-",
+              "stance": "supports",
+              "note": "'Suffixed form *reu(ə)-es- in Latin rūs, “open land,” the country: RURAL, RUSTIC.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck p. 465 and §12.x",
+              "stance": "supports",
+              "note": "'Lat. rus ‘country’ vs. ‘town’ ... : Goth. rūms, Av. ravah- ‘open space’. Walde-P. 2.356 f.'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. rus",
+              "stance": "silent",
+              "note": "grep of LAT.txt for '^rūs'/'^rus ' returns only unrelated lines (9995, 13473); the OCR of the rūs article could not be located."
+            },
+            {
+              "src": "LEW",
+              "where": "Walde 1910 s.v. rus",
+              "stance": "silent",
+              "note": "grep of LEW_1910.txt for 'rus'/'rūs' as a headword found no entry in the OCR."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "rural",
+          "verdict": "confirmed",
+          "derivation": "Latin rūrālis 'of the countryside' (adjective in -ālis from the oblique stem rūr- of rūs) > Old French rural > Middle English rural (15th c.). Watkins lists RURAL (and RUSTIC, from rūsticus) as the English continuations of Latin rūs under the root; Klein s.v. rural: 'ME., fr. L. rūrālis, ‘pertaining to the country’, fr. rūs, gen. rūris, ‘the country’ ... See room.' Nourai's edge Latin rūs → English rural is therefore right, the Old French stage being tacit.",
+          "derivation_fa": "انگلیسی rural از لاتین rūrālis (صفتِ -ālis از ستاک مایلِ rūr-) است که از راه فرانسهٔ کهن rural در سدهٔ پانزدهم میلادی وارد انگلیسی میانه شده است. کلاین و واتکینز هر دو همین را می‌گویند؛ نورایی مرحلهٔ فرانسه را نیاورده ولی پیکان نادرست نیست.",
+          "sources": [
+            "https://www.etymonline.com/word/room"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt index l. 2204: 'RURAL reuə-'; the root article has '... in Latin rūs, “open land,” the country: RURAL, RUSTIC.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1365 s.v. rural (KLN_1966.txt l. 33359)",
+              "stance": "supports",
+              "note": "'rural, adj., of the country. — ME., fr. L. rūrālis, ‘pertaining to the country’, fr. rūs, gen. rūris, ‘the country’, which is cogn. with OSlav. ravinŭ, ‘level’, OIr. roi, roe, ‘plain field’, OE. rūm, etc., ‘space’. See room.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt s.v. Room",
+              "stance": "partial",
+              "note": "Skeat has no separate 'rural' headword in the concise edition, but under Room he already states the connexion with 'L. rus, open country'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "R.f.a'",
+      "verdict": "confirmed",
+      "modern_form": "Proto-West-Semitic *rpʔ 'to heal, mend, restore'",
+      "note": "The triliteral رفأ / r-p-ʾ is a genuine Common/West-Semitic root: Hebrew רפא rāṗāʾ 'he healed', Aramaic/Syriac rəṗā 'he healed', Arabic rafaʾa 'he mended, darned, repaired', Ethiopic rafaʾa 'he stitched together, mended'. Klein p. 1301 (s.v. Raphael) states exactly this comparison, so Nourai's KLN:1301 is on the mark, and Wiktionary derives Arabic رفأ from Proto-West-Semitic *rpʾ 'to heal, protect' (citing SED). One nuance: the primary Semitic sense is 'heal/restore', of which Arabic's 'darn, mend (cloth)' and Ethiopic's 'stitch' are specialisations; Nourai's root gloss 'to repair' is therefore the Arabic-Ethiopic meaning generalised to the root, not its oldest sense. The language label 'Semitic' is right.",
+      "note_fa": "ریشهٔ سه‌حرفی ر–ف–أ ریشه‌ای سامی است: عبری رافا «شفا داد»، سریانی rəṗā، عربی رفأ «رفو کرد، به هم دوخت»، حبشی rafaʾa. کلاین (ص ۱۳۰۱) همین قیاس را می‌آورد و ویکی‌واژه آن را از سامی غربی آغازین *rpʾ «شفا دادن، نگاه داشتن» می‌گیرد. تنها نکته آنکه معنای کهن‌تر، «شفا دادن» است و «ترمیم کردن» تخصیص معنایی عربی–حبشی است؛ با این حال ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%A3",
+        "https://en.wiktionary.org/wiki/Raphael"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:1301",
+          "status": "supports",
+          "note": "KLN_1966.txt l. 31684-89, between the page markers 1300 (l. 31652) and 1307 (l. 31800), i.e. printed p. 1301: 'Raphael ... fr. Heb. Rəphaʾēl, lit. ‘God has healed’. Heb. raphā, ‘he healed’ (whence riphuʾah, ‘medicine, remedy’, marpē, ‘healing, cure’) ... is rel. to Syr. rəpha, ‘he healed’, Arab. rafaʾa, ‘he darned, mended, repaired’, Ethiop. rafaʾa, ‘he stitched together, mended’.' Nourai's page number is exact."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "p. 1301 s.v. Raphael",
+          "stance": "supports",
+          "note": "as quoted."
+        },
+        {
+          "src": "FVQ",
+          "where": "Jeffery, Foreign Vocabulary of the Qur'an",
+          "stance": "silent",
+          "note": "grep of FVQ_pages.txt for 'rafa'/'rafw' finds no entry — the root is native Arabic, so Jeffery has nothing to say."
+        },
+        {
+          "src": "TAD",
+          "where": "al-Unaysi, Tafsir al-alfaz al-dakhila (TAD_pages.txt l. 1226)",
+          "stance": "partial",
+          "note": "'رفأ / رفو ... في اليونانية ῥάπτω خاط' — al-Unaysi lists رفأ among 'foreign' words in Arabic and compares Greek rháptō 'to sew'; a minority view that would make the Arabic verb a loan rather than a Semitic inheritance."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "r.f.a', rafū",
+          "verdict": "confirmed",
+          "derivation": "Arabic رَفَأ rafaʾa (root ر ف ء), form I with verbal noun رَفْء / رَفْو rafw — 'to mend, darn (a torn garment) so that the repair does not show'; hence the agent noun رفّاء raffāʾ 'darner'. The hamzated root رفأ regularly develops an unhamzated by-form رفا/رفو (rafawā, maṣdar rafw), which is the shape Nourai cites as 'rafū' and the shape Persian borrowed. Wiktionary traces the root to Proto-West-Semitic *rpʾ 'to heal, protect' (SED 16327), and Klein 1301 aligns Arab. rafaʾa directly with Heb. rāṗāʾ. The gloss 'to repair (damaged cloth)' is Lane's.",
+          "derivation_fa": "عربی رَفَأ (ریشهٔ ر–ف–ء، باب اول، مصدر رَفْء/رَفْو) به معنای «دوختن پارگی جامه به گونه‌ای که پیدا نباشد» است و از آن «رفّاء» ساخته شده است. ریشهٔ مهموز رفأ به‌طور معمول صورت نامهموزِ رفا/رفو نیز دارد که همان صورتی است که فارسی وام گرفته. کلاین آن را هم‌ریشهٔ عبری رافا می‌داند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%A3",
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%88"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1301",
+              "status": "supports",
+              "note": "'... Arab. rafaʾa, ‘he darned, mended, repaired’' — Klein's wording is Nourai's gloss verbatim."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301 s.v. Raphael",
+              "stance": "supports",
+              "note": "as quoted."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, al-Alfaz al-Farisiyya al-Mu'arraba",
+              "stance": "silent",
+              "note": "grep of AFM_pages.txt for 'رفو' finds only an unrelated line (l. 97); Addi Shir does NOT list رفو among the Persian words arabicised — i.e. he treats it as Arabic."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep of PLA_pages.txt for 'rafw', 'rafu', 'رفو' finds nothing — Asbaghi does not count رفو as a Persian loan in Arabic, which tells against Mo'in's معرّب note (see node 2)."
+            },
+            {
+              "src": "TAD",
+              "where": "TAD_pages.txt l. 1226",
+              "stance": "partial",
+              "note": "al-Unaysi puts رفأ/رفو among foreign words and compares Greek ῥάπτω 'sewed' — an isolated claim not followed by Klein or the Semitists."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "rofū «رُفو»",
+          "verdict": "confirmed",
+          "derivation": "Persian رفو rafū / rofū 'darning, invisible mending' is the Arabic maṣdar رَفْو rafw taken over as a noun and then given the Persian light-verb constructions رفو کردن and the agent noun رفوگر; the Arabic sukun-cluster -fw is resolved by an epenthetic ū (rafw > rafū), and the first vowel is variously a- or o- in Persian usage. Dehkhoda states it flatly: 'از رَفْو عربی است، واو را بدل به او کنند ...', and Wiktionary marks it 'borrowed from Arabic رَفْو (rafw) “fine-drawing”'. A dissenting voice must be recorded: in his footnote to Borhan-e Qāteʿ s.v. رفو, Mo'in writes 'معرّب آن: رَفْو ... قس: یونانی ῥάπτω خیاطی کرد، دوخت', i.e. he takes Persian rafō (with majhūl wāw) to be the source and Arabic rafw its arabicisation. Asbaghi's Persische Lehnwörter im Arabischen and Addi Shir do not include the word, and the Semitic cognate set (Heb./Syr./Eth.) is decisive, so the standard direction — Arabic → Persian, as Nourai draws it — stands.",
+          "derivation_fa": "«رفو» در فارسی وام‌واژهٔ مصدر عربی رَفْو است؛ خوشهٔ پایانی -fw با واکهٔ کشیدهٔ ū گشوده شده (rafw > rafū) و از آن ترکیبِ «رفو کردن» و نامِ شغلِ «رفوگر» ساخته شده است. دهخدا صریحاً می‌نویسد «از رَفْو عربی است» و ویکی‌واژه نیز آن را وام‌واژهٔ عربی می‌داند. در برابر، معین در حاشیهٔ برهان قاطع آن را فارسی می‌گیرد («معرّب آن: رَفْو») و با یونانی ῥάπτω مقایسه می‌کند؛ اما ازباغی و ادی شیر این واژه را در فهرست معرّبات فارسی نیاورده‌اند و هم‌ریشه‌های عبری و سریانی و حبشی جای تردید نمی‌گذارند. پس ادعای نورایی (عربی ← فارسی) درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%88",
+            "https://abadis.ir/fatofa/%D8%B1%D9%81%D9%88/"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:167",
+              "status": "not_checked",
+              "note": "FVA = S.M. Nahvi, Farhang-e Vāžehā-ye ʿArabī dar Fārsī (1368/1989); refs_online.json records that no digital copy exists on any permitted platform. Note that Nourai's choosing a dictionary OF ARABIC WORDS IN PERSIAN for this node is itself evidence that he, like Dehkhoda, treats رفو as an Arabic loan."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' s.v. رفو with Mo'in's footnote 4 (BQT_v2_pages.txt ll. 24463, 24487; leaf 415 ≈ printed p. 955-965)",
+              "stance": "contradicts",
+              "note": "headword: 'رفو — بفتح اول و ثانی بواو مجهول ... پیوند شال و جامهٔ پاره و سوراخ‌دار باشد بنوعیکه معلوم نشود'; footnote: 'معرب آن، رفو (بفتح اول و سکون دوم). قس: یونانی ῥάπτω خیاطی کرد، دوخت' — Mo'in reverses the direction of borrowing."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in s.v. رفو (via abadis.ir)",
+              "stance": "partial",
+              "note": "'(رُ ) [ معر. ] (اِ. ) دوخت دررفتگی‌ها و پارگی‌های پارچه یا فرش ...' — the tag [معر.] marks the word as arabicised, keeping Mo'in's ambivalence; the Dehkhoda section on the same page is unambiguous: 'از رَفْو عربی است، «واو» را بدل به «او» کنند و فتحه (را) را نیز بدل به ضمه گردانند'."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi 1988",
+              "stance": "silent",
+              "note": "رفو is absent from the list of Persian loanwords in Arabic — evidence against the Persian-origin claim."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "supports",
+              "note": "Klein's Semitic cognate set (Heb. rāphā, Syr. rəphā, Eth. rafaʾa) shows the Arabic verb to be inherited, not borrowed from Persian."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Hebrew",
+          "words": "râphâ; râphâ-e'l",
+          "verdict": "confirmed",
+          "derivation": "Hebrew רָפָא rāṗāʾ 'he healed, cured' (whence רְפוּאָה rəṗūʾā 'medicine', מַרְפֵא marpē 'healing') is the Hebrew reflex of the Semitic root; the semantic difference from Arabic ('mend cloth' vs 'heal') is the same metaphor as Latin sarcio / English 'patch up'. The theophoric name רְפָאֵל Rəṗāʾēl is a sentence-name, perfect rāṗāʾ + אֵל ʾēl 'God' = 'God has healed' (so Klein; Nourai's alternative rendering 'God is a healer' is the participial reading and equally current). Nourai's ☞ cross-reference to his root 'Layh' is his entry for ʾēl/Allah, which is the right place for the second element. The name is first attested in the Book of Tobit (Tobit 12:15, 2nd c. BCE).",
+          "derivation_fa": "عبری רָפָא (rāṗāʾ) «شفا داد» بازتاب عبریِ همان ریشهٔ سامی است؛ اختلاف معنایی آن با عربی («دوختن پارگی») همان استعارهٔ آشنای «ترمیم کردن» است. نام רְפָאֵל نامی جمله‌ای است: فعلِ ماضی rāṗāʾ + אֵל «خدا»، یعنی «خدا شفا داده است» (یا در خوانش وصفی «خدا شفابخش است»). نخستین کاربرد آن در کتاب طوبیت (سدهٔ دوم پیش از میلاد) است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1301",
+              "status": "supports",
+              "note": "'fr. Heb. Rəphaʾēl, lit. ‘God has healed’. Heb. raphā, ‘he healed’ (whence riphuʾah, ‘medicine, remedy’, marpē, ‘healing, cure’) ... For the second element in Raphael see El.' — Klein's own 'see El' matches Nourai's ☞ Layh cross-reference."
+            },
+            {
+              "ref": "FSD:2051",
+              "status": "not_found",
+              "note": "FSD_vol3.txt carries the printed page number 2050 at l. 216580 (headwords rank/ransom) and the raph- run (raphanus, raphe, Raphia) at ll. 216905-216935, but the New Standard's main vocabulary has NO 'Raphael' entry between raphanus and Raphia; the proper name is in F&W's separate biographical/scriptural appendix, which this OCR does not paginate. Could not verify the citation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301 s.v. Raphael and p. 484 s.v. El",
+              "stance": "supports",
+              "note": "KLN_1966.txt l. 12751 s.v. El: 'Heb. El, ‘God’ ... Cp. ... the second element in Babel, bethel and in the PN.s Daniel, Emmanuel, Ezekiel, Gabriel, Gamaliel, Ishmael, Israel, Joel, Michael, Nathaniel, Raphael, Samuel.'"
+            },
+            {
+              "src": "FSD",
+              "where": "vol. III p. ~2050-2053",
+              "stance": "silent",
+              "note": "see ref_check — the raph- page range exists but contains no Raphael article."
+            },
+            {
+              "src": "FVQ",
+              "where": "Jeffery",
+              "stance": "silent",
+              "note": "grep for 'Raphael'/'rafa' in FVQ_pages.txt yields nothing; the Qur'an does not name Raphael (the Islamic إسرافيل is a different name), so Jeffery has no entry."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "Raphael",
+          "verdict": "confirmed",
+          "derivation": "Koine Greek Ῥαφαήλ (Rhaphaḗl), the Septuagint/Tobit transcription of Hebrew Rəṗāʾēl: Greek writes the Hebrew ר with rough breathing Ῥ-, renders ṗ (spirantised p) by φ, and drops the guttural א between the vowels, giving -αη-. The name reached Greek through the Jewish Greek Bible in Egypt in the 2nd–1st c. BCE (Tobit 12:15 'ἐγώ εἰμι Ῥαφαήλ, εἷς ἐκ τῶν ἑπτὰ ἁγίων ἀγγέλων'), whence it passed into Christian Latin.",
+          "derivation_fa": "یونانی کوینهٔ Ῥαφαήλ آوانویسیِ عبری רְפָאֵל در ترجمهٔ هفتادتنی (سبعینیه) و کتاب طوبیت است: راء عبری با دمِ سخت (Ῥ)، ـپـ سایشی با φ، و الفِ میانی افتاده است. این وام‌گیری در سدهٔ دوم–اول پیش از میلاد از راه عهد عتیقِ یونانی رخ داده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1301",
+              "status": "supports",
+              "note": "'Raphael ... — Late L., fr. Gk. Ῥαφαήλ, fr. Heb. Rəphaʾēl' (KLN_1966.txt l. 31684-86)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "supports",
+              "note": "as quoted."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. III",
+              "stance": "silent",
+              "note": "no Raphael article in the main vocabulary (see node 3)."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's New Twentieth Century, vol. 1 (A-?)",
+              "stance": "silent",
+              "note": "only volume 1 is available locally; R- is in the missing volume 2."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Pass-through node: Late/Ecclesiastical Latin Raphael, taken straight from the Greek of the Septuagint by the Vetus Latina and the Vulgate (Tobias 12:15 'ego enim sum Raphael angelus'); Latin kept the Greek spelling with ph and the final -el. From this Latin form descend both the French and the English names of nodes 6-8.",
+          "derivation_fa": "گرهٔ انتقالی: لاتینِ کلیسایی Raphael که مستقیماً از یونانیِ ترجمهٔ هفتادتنی گرفته شده و در وولگاتا (طوبیاس ۱۲:۱۵) آمده است؛ نگارش ph و پایانهٔ -el همان یونانی مانده است. فرانسه و انگلیسی هر دو از همین صورت لاتین برآمده‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the node carries no reference in the book; the Latin link is covered by Klein p. 1301 ('Late L., fr. Gk. Ῥαφαήλ'), the reference cited on the neighbouring nodes."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "supports",
+              "note": "'Late L., fr. Gk. Ῥαφαήλ.'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet",
+              "stance": "silent",
+              "note": "a biblical proper name is outside the scope of the Dictionnaire étymologique de la langue latine."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Pass-through node: French Raphaël (pronounced [ʁafaɛl]), the learned Church-Latin name adopted unchanged in spelling except for the diaeresis that keeps a-ë in hiatus; used both of the archangel and, from the 16th c., of the painter Raffaello Sanzio, whom French (and after it most of Europe) calls Raphaël. It is this French form, not the Latin or the Hebrew, that supplies the Persian of node 7.",
+          "derivation_fa": "گرهٔ انتقالی: فرانسه Raphaël که همان صورت لاتینی است با علامت ترما («) برای نگاه داشتنِ فاصلهٔ دو واکه؛ هم نام فرشته است و هم از سدهٔ شانزدهم نامِ نقاش ایتالیایی Raffaello. همین صورت فرانسوی منبع وام‌گیری فارسی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference given in the book for this pass-through node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "partial",
+              "note": "Klein gives Late L. > E. and, s.v. Pre-Raphaelitism (l. 30125), the Italian painter's name Raffaello Sanzio; he does not track the French form, which is however the obvious European intermediary for Persian."
+            },
+            {
+              "src": "DEV",
+              "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale",
+              "stance": "silent",
+              "note": "Devic covers Arabic/Persian/Turkish words in French, not Hebrew proper names; no entry."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "Râfâel «رافائل»",
+          "verdict": "plausible",
+          "derivation": "Modern Persian رافائل Rāfāʾel is a 19th-20th c. European loan, used for the archangel and above all for the painter (رافائل سانتسیو). The long ā of the first two syllables and the final -el without یـ reproduce French Raphaël [ʁafaɛl] / Italian Raffaele rather than Latin or Hebrew, so Nourai's route Latin → French → Persian is reasonable; Italian mediation for the painter's name is at least as likely, and the book gives no reference for the node. It should also be noted that Persian already had the name through the Arabic-Islamic tradition as روفائیل/رفائیل (Arabic رُفَائِيل), a Syriac-mediated form which is NOT the source of the modern رافائل. The gloss '“God is a healer”' is the meaning of the Hebrew original, not of the Persian word.",
+          "derivation_fa": "«رافائل» در فارسی وام‌واژه‌ای اروپایی از سدهٔ سیزدهم/چهاردهم هجری است که بیشتر برای نقاش ایتالیایی به کار می‌رود. صورت آوایی آن (دو الف کشیده و پایانهٔ ـئل بی یاء) با فرانسهٔ Raphaël یا ایتالیایی Raffaele می‌خواند و نه با عبری یا لاتین؛ پس مسیرِ نورایی پذیرفتنی است، هرچند واسطهٔ ایتالیایی نیز همان‌اندازه محتمل است و نورایی هیچ مأخذی نیاورده است. باید توجه داشت که صورت کهن‌تر و عربی‌میانجی، یعنی «روفائیل/رفائیل»، منبعِ این واژه نیست. حکم: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference is given in the book for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in, vols 5-6 (a'lam)",
+              "stance": "silent",
+              "note": "the proper-name volumes are not in the local library and vajehyab's Mo'in text covers only the lexicon volumes; no entry retrievable."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "partial",
+              "note": "Klein confirms the European name and its Latin/Greek/Hebrew ancestry but says nothing about Persian."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "Raphael, Raffael",
+          "verdict": "confirmed",
+          "derivation": "English Raphael comes from Late Latin Raphael (Klein: 'Late L., fr. Gk. Ῥαφαήλ'), entering with the Apocryphal Book of Tobit and used from Middle English onward as an angel name and a given name. The second spelling 'Raffael' is not an English form but the Italian/German spelling of the painter's name (It. Raffaello, Ger. Raffael); it survives in English only inside the doublet adjective that Klein records — 'Raphaelesque, Raffaelesque, adj., in the style of the painter Raphael. — Formed fr. the name of Raffaello Sanzio (1483-1520)'. So the node is right, with the qualification that 'Raffael' is a borrowed continental spelling and is attached, in English, to the painter rather than the archangel.",
+          "derivation_fa": "انگلیسی Raphael از لاتینِ متأخر Raphael است که از راه کتاب طوبیت وارد شده و از دورهٔ انگلیسی میانه هم نام فرشته و هم نام اشخاص است. صورت دوم، Raffael، انگلیسی نیست بلکه نگارش ایتالیایی–آلمانیِ نام نقاش است و در انگلیسی فقط در صفتِ Raffaelesque باقی مانده است (کلاین). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Raphael"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1301",
+              "status": "supports",
+              "note": "KLN_1966.txt l. 31684-90 (printed p. 1301): 'Raphael, 1) masc. PN. 2) an archangel mentioned in the Apocrypha. — Late L., fr. Gk. Ῥαφαήλ, fr. Heb. Rəphaʾēl ...'; immediately after: 'Raphaelesque, Raffaelesque, adj., in the style of the painter Raphael. — Formed fr. the name of Raffaello Sanzio (1483-1520) with suff. -esque.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1301",
+              "stance": "supports",
+              "note": "as quoted; also l. 30125 s.v. Pre-Raphaelitism, 'from the forename of Raphael Sanzio (1483-1520)'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise",
+              "stance": "silent",
+              "note": "grep of SKT.txt finds no 'Raphael' headword — Skeat excludes proper names."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. III p. ~2050-2053",
+              "stance": "silent",
+              "note": "no Raphael article in the main vocabulary (see node 3)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
