@@ -1,0 +1,605 @@
+{
+  "pdf_page": 412,
+  "book_page": 382,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Q.r.m",
+      "verdict": "plausible",
+      "modern_form": "Arabic root ق ر م q-r-m (qarama 'to gnaw, nibble'), with the textile nouns مِقْرَم miqram 'bedspread' and مِقْرَمَة miqrama 'embroidered veil, ornamental fringe'",
+      "note": "The consonantal root and the language label are right, but the gloss is that of the derived nouns, not of the root: Arabic قَرَمَ qarama means 'to gnaw, nibble, crop', and the fabric sense belongs to the instrument-noun miqram/miqrama (the AHD chain and Wiktionary both end at qarama 'to gnaw'). Wiktionary traces the root to Proto-Semitic *q-r-m. Nourai's own reference FVA (Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi) exists in no digital copy, so his p. 330 could not be opened; the substance of the chart, however, is exactly the etymology given by AHD (which he also cites) and by Wiktionary/Etymonline.",
+      "note_fa": "ریشهٔ عربی «ق‌ر‌م» واقعی است، اما معنای پایهٔ آن «جویدن، نرم‌نرم خوردن» (قَرَمَ) است و معنای پارچه‌ای تنها در اسم آلتِ مِقْرَم/مِقْرَمة دیده می‌شود؛ پس گلاسهٔ نورایی برای خودِ ریشه دقیق نیست ولی نادرست هم نیست. ویکی‌واژه این ریشه را به سامی آغازین *q-r-m می‌رساند. مأخذ خودِ نورایی (FVA، فرهنگ واژه‌های عربی در فارسیِ نحوی) نسخهٔ دیجیتالی ندارد و بررسی نشد، ولی همین زنجیره در فرهنگ American Heritage و ویکی‌واژه آمده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/macram%C3%A9",
+        "https://www.ahdictionary.com/word/search.html?q=macrame"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVA:330",
+          "status": "not_checked",
+          "note": "S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989) — refs_online.json records 'RE-SEARCH 2026-09: still no digital copy on any permitted platform'; catalogue record only, so p. 330 could not be read."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt, grep -n -i '^macram' and 'macram' — no hit",
+          "stance": "silent",
+          "note": "Klein 1966 has no entry for macrame/macramé at all (the word entered English only in 1865 and Klein omits it); he therefore neither supports nor contradicts the Arabic root."
+        },
+        {
+          "src": "AFM",
+          "where": "AFM_pages.txt, grep 'مقرمه' / 'قرام' — no hit",
+          "stance": "silent",
+          "note": "Addi Shir's Alfaz al-Farisiyya al-Mu'arraba lists Persian words Arabicised; miqrama is not in it, consistent with the word being native Arabic rather than a Persian loan."
+        },
+        {
+          "src": "LKT",
+          "where": "LKT.txt, grep -i 'makram|akram|Knüpfarbeit' — no hit",
+          "stance": "silent",
+          "note": "Lokotsch 1927 (European words of oriental origin) has no macramé entry, although he does carry the neighbouring Arabic textile/tar words (e.g. no. 1128 katran)."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "miqrameh",
+          "verdict": "confirmed",
+          "derivation": "Arabic مِقْرَمَة miqrama (pl. maqārim) 'embroidered veil, ornamental fringe, figured coverlet thrown over a bed or carpet' is the feminine instrument noun of the pattern miCCaC(a) built on the root ق ر م q-r-m, beside مِقْرَم miqram 'bedspread'. AHD's etymology of macramé ends exactly here: 'from Arabic miqrama, embroidered veil, from qarama, to gnaw, nibble'; Wiktionary gives the same, adding Proto-Semitic *q-r-m. Nourai's transliteration 'miqrameh' simply renders the Arabic tāʾ marbūṭa in its Persian pronunciation -eh.",
+          "derivation_fa": "واژهٔ عربی «مِقْرَمة» (جمع: مَقارِم) بر وزن مِفْعَلة، اسم آلت از ریشهٔ ق‌ر‌م است و به معنی «پردهٔ گلدوزی‌شده، پارچهٔ منقش که روی بستر یا فرش می‌کشند»؛ در کنار آن «مِقْرَم» به معنی روانداز هست. فرهنگ American Heritage دقیقاً همین را می‌آورد: macramé از عربی miqrama از فعل qarama «جویدن». آوانگاری نورایی (miqrameh) تنها تلفظ فارسیِ تاء مربوطه است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=macrame",
+            "https://en.wiktionary.org/wiki/macram%C3%A9"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:330",
+              "status": "not_checked",
+              "note": "Nahvi's dictionary of Arabic words in Persian has no digital copy (refs_online.json: 'no digital copy found'); page 330 unreadable."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "ahdictionary.com s.v. macramé",
+              "stance": "supports",
+              "note": "'[French, from Italian macramè, from Turkish makrama, towel, from Arabic miqrama, embroidered veil, from qarama, to gnaw, nibble]' — the Arabic link is exactly Nourai's."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt — grep 'macram' no hit",
+              "stance": "silent",
+              "note": "Klein has no macramé entry."
+            },
+            {
+              "src": "FVQ",
+              "where": "FVQ_pages.txt — grep 'miqram|qarama' no relevant hit",
+              "stance": "silent",
+              "note": "Jeffery's Foreign Vocabulary of the Qur'an does not treat miqrama (not a Qur'anic word), i.e. no evidence of a foreign source for the Arabic noun."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "meqrameh «مقرمه»",
+          "verdict": "confirmed",
+          "derivation": "Persian «مقرمه» meqrame is a straight literary borrowing of Arabic مِقْرَمَة, of the ordinary kind that entered Persian with Arabic textile vocabulary; the Arabic tāʾ marbūṭa is read -e(h) in Persian, and the vowelling mi- > me- follows the normal Persian treatment of Arabic i. Mo'in's own entry marks the origin explicitly: «(مِ رَ مَ) [ع. مقرمة] (اِ.) چادرشب، پارچهٔ رنگین و منقش», i.e. 'Arabic miqrama: a chādor-shab, a coloured figured cloth' — Nourai's gloss 'embroidered cloth' is accurate. Dehkhoda adds «بسترآهنگ، پارچهٔ منقشی که بر روی بستر کشند».",
+          "derivation_fa": "«مقرمه» وام‌واژه‌ای عربی در فارسی است؛ تاء مربوطهٔ عربی در فارسی ـه خوانده می‌شود و کسرهٔ آغازین عربی (mi-) در فارسی me- تلفظ می‌شود. معین خود در برابر آن نشانهٔ [ع. مقرمة] گذاشته و معنی کرده است: «چادرشب، پارچهٔ رنگین و منقش»؛ دهخدا نیز «بسترآهنگ، پارچهٔ منقشی که بر روی بستر کشند» آورده است. پس ادعای نورایی درست است. شمارهٔ صفحهٔ MON:4296 را نمی‌توان آزمود، چون متن معین تنها بدون صفحه‌شماری برخط است.",
+          "sources": [
+            "https://vajehyab.com/?q=%D9%85%D9%82%D8%B1%D9%85%D9%87",
+            "https://www.ahdictionary.com/word/search.html?q=macrame"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:330",
+              "status": "not_checked",
+              "note": "no digital copy of Nahvi exists (refs_online.json)."
+            },
+            {
+              "ref": "MON:4296",
+              "status": "partial",
+              "note": "The Mo'in entry itself was read on vajehyab: «(مِ رَ مَ) [ع.مقرمة] (اِ.) چادرشب، پارچة رنگین و منقش» — it confirms the word, the Arabic origin tag and the gloss. The printed page number could not be verified: refs_online.json notes that for Mo'in 'Page numbers cannot be mapped online' and only a differently paginated 2-vol abridgement (MON_part1/2.txt) is on disk; grep 'مقرمه' in both parts returns 0 hits."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vajehyab.com/?q=مقرمه, section فرهنگ معین",
+              "stance": "supports",
+              "note": "«[ع.مقرمة] (اِ.) چادرشب، پارچة رنگین و منقش» — Arabic loan, 'coloured figured cloth'."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt — grep 'مقرمه' no hit",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of Indo-European roots of Persian does not carry it, as expected for a Semitic loan."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v3_pages.txt / BQT_v4_pages.txt — grep 'مقرمه' no hit",
+              "stance": "silent",
+              "note": "Borhan-e Qate' (with Mo'in's footnotes) does not have the headword in the OCR of vols 3-4 (م falls in vol 4); it is a bookish Arabism rather than a Borhan word."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Turkish",
+          "words": "makrama",
+          "verdict": "confirmed",
+          "derivation": "Ottoman Turkish مقرمه makrame / makrama 'towel, napkin, fringed cloth' is the Arabic miqrama taken over with the usual Ottoman vocalisation of Arabic i > a in the first syllable and the tāʾ marbūṭa written ـه. Both the AHD ('from Turkish makrama, towel') and Wiktionary ('from Ottoman Turkish مقرمه (makrame), from Arabic مِقْرَمَة') put this stage between the Arabic noun and Italian, which is exactly the arrow Nourai draws. The Turkish word belongs to the same Ottoman bath/household textile field as mahrama 'handkerchief', with which it is often confused.",
+          "derivation_fa": "ترکی عثمانی «مقرمه» (makrame/makrama) به معنی «حوله، دستمال، پارچهٔ ریشه‌دار» همان مِقْرَمة عربی است که با تلفظ عثمانی (i آغازین به a) وام گرفته شده است. هم فرهنگ American Heritage («from Turkish makrama, towel») و هم ویکی‌واژه همین مرحله را میان عربی و ایتالیایی می‌گذارند؛ یعنی پیکان نورایی درست است. این واژه در ترکی با mahrama «دستمال» آمیخته شده است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=macrame",
+            "https://en.wiktionary.org/wiki/macram%C3%A9"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:781",
+              "status": "supports",
+              "note": "Nourai's p. 781 is in the 1975/76 New College edition, which is not open online; the same entry in the current AHD reads '[French, from Italian macramè, from Turkish makrama, towel, from Arabic miqrama, embroidered veil...]' — the Turkish stage and the gloss 'towel' are AHD's own words."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "TTS",
+              "where": "incoming/TTS/TTS_pages.txt — grep -i 'makram|mahrama' no hit",
+              "stance": "silent",
+              "note": "Vámbéry 1878 (Turko-Tatar etymological dictionary) has no entry: he collects Turkic stock, not Arabisms of Ottoman."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt — grep -i 'makram' no hit",
+              "stance": "silent",
+              "note": "Lokotsch omits macramé, although his no. 1128 katran shows the same Arabic>Turkish>Romance transmission route for another textile/tar word."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Italian",
+          "words": "macrame",
+          "verdict": "confirmed",
+          "derivation": "Italian macramè (stressed on the last syllable, the Italian rendering of Ottoman final -e) is the Genoese/Ligurian trade term for the knotted fringe of towels imported from the Ottoman Levant; Genoa was the channel through which the technique and the word reached Italy, and from Italy the word passed to France in the 19th century. Wiktionary: French macramé 'from Italian macramè, from Ottoman Turkish مقرمه (makrame)'; AHD: 'French, from Italian macramè, from Turkish makrama'. The node carries no reference of its own, but both modern authorities insert exactly this link.",
+          "derivation_fa": "«macramè» ایتالیایی (با تکیه بر هجای پایانی، که برابرنهادِ ـه پایانی عثمانی است) اصطلاح بازرگانان جنوا برای ریشه‌های گره‌بافتهٔ حوله‌های وارداتی از قلمرو عثمانی بود؛ از راه جنوا هم فن و هم واژه به ایتالیا و سپس در سدهٔ نوزدهم به فرانسه رسید. ویکی‌واژه و فرهنگ American Heritage هر دو همین حلقه را میان ترکی و فرانسه می‌گذارند، پس این پیکان نورایی—هرچند بی‌ارجاع—درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/macram%C3%A9",
+            "https://www.ahdictionary.com/word/search.html?q=macrame"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this node; the link was checked against Wiktionary and AHD instead, both of which have it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "ahdictionary.com s.v. macramé",
+              "stance": "supports",
+              "note": "'French, from Italian macramè, from Turkish makrama' — the Italian stage is explicit."
+            },
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt — grep 'macram' no hit",
+              "stance": "silent",
+              "note": "Klein has no entry for the word, so no Italian stage there either."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "French",
+          "words": "macrame",
+          "verdict": "confirmed",
+          "derivation": "French macramé is attested from the 1860s (Etymonline dates the English word to 1865, borrowed straight from French); the French acute accent simply fixes the Italian final stressed -è. Etymonline: 'from French macramé (19c.), from Turkish maqrama, \"towel, napkin,\" from Arabic miqramah \"embroidered veil\"', with the note that 'the thing is older in Europe than the word'. French is thus correctly placed by Nourai between Italian and English.",
+          "derivation_fa": "«macramé» فرانسوی از دههٔ ۱۸۶۰ به کار رفته است و علامت اکسان آن تنها تکیهٔ پایانی ایتالیایی (-è) را ثابت می‌کند. اتیمانلاین می‌نویسد که واژهٔ انگلیسی در ۱۸۶۵ از فرانسه گرفته شده و فرانسه آن را از ترکی maqrama و آن از عربی miqrama دارد. جای فرانسه در نمودار نورایی، میان ایتالیایی و انگلیسی، درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/macrame",
+            "https://en.wiktionary.org/wiki/macram%C3%A9"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "no reference cited on this node; checked against Etymonline and Wiktionary, which agree."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "DEV",
+              "where": "DEV.txt — grep -i 'macram' no hit",
+              "stance": "silent",
+              "note": "Devic 1876 (French words of oriental origin) does not yet list macramé, understandable for a word only a decade old when he wrote."
+            },
+            {
+              "src": "PHN",
+              "where": "PHN.txt — grep -i 'macram' no hit",
+              "stance": "silent",
+              "note": "Pihan 1866 likewise has no entry — the word had only just entered French."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Persian",
+          "words": "makromeh «مکرمه»",
+          "verdict": "plausible",
+          "derivation": "This is the return leg of a round trip: Arabic miqrama > Ottoman Turkish > Italian > French macramé > modern Persian, where the knotted lacework craft is known as mākrome/makrome. Nourai's arrow (French > Persian) is right for the route and the date (20th c., with the European handicraft), but the spelling he prints, «مکرمه», is an Arabising respelling that is homographic with the ordinary Arabic-Persian word مَکْرُمه makrome 'noble deed, honour' (as in «مکهٔ مکرمه»); current Persian usage writes the craft «ماکرومه» (also «مکرومه»), e.g. the trade name of the handicraft. So the word and the derivation are real, the orthography is Nourai's own. Note also that Persian thus has a doublet: the direct Arabic loan مقرمه (node #2) and this European re-import.",
+          "derivation_fa": "این گره همان «سفرِ رفت و برگشت» واژه است: مِقْرَمهٔ عربی ← عثمانی ← ایتالیایی ← فرانسوی macramé ← فارسی امروز. مسیر و زمان (سدهٔ بیستم، همراه با خودِ هنرِ گره‌بافی) درست است، ولی املایی که نورایی چاپ کرده، «مکرمه»، صورتی معرب‌نماست و با واژهٔ آشنای «مَکْرُمه» (بزرگواری؛ مانند «مکهٔ مکرمه») هم‌نویسه می‌شود؛ در فارسی امروز این هنر را «ماکرومه» یا «مکرومه» می‌نویسند. بدین‌سان فارسی دو صورت دوگانه (doublet) از یک واژه دارد: «مقرمه»ی وام‌گرفته از عربی و «ماکرومه»ی وام‌گرفته از فرانسه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/macram%C3%A9",
+            "https://www.etymonline.com/word/macrame"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai cites nothing for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "vajehyab.com / abadis.ir — no lexicon entry for ماکرومه; abadis.ir/fatofa/ماکرومه returns HTTP 410",
+              "stance": "silent",
+              "note": "Neither Mo'in nor Dehkhoda (compiled before the craft became popular in Iran) has the modern handicraft word; only مقرمه (the Arabic loan) is in them."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt — grep 'ماکرومه' no hit",
+              "stance": "silent",
+              "note": "Not in Aryanpur's Indo-European-roots dictionary, as expected for a Semitic-origin word."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "macrame",
+          "verdict": "confirmed",
+          "derivation": "English macramé 'ornamental trimming made by knotting fringes of thread in a geometrical pattern' is first recorded in 1865, borrowed from French macramé; Etymonline explicitly remarks that 'the thing is older in Europe than the word'. Wiktionary dates the borrowing to 1865 as well and gives the whole chain French < Italian macramè < Ottoman Turkish makrame < Arabic miqrama < qarama. Nourai's gloss 'coarse lacework used to trim furniture' matches the 19th-century sense (macramé was used for trimming towels, curtains and upholstery).",
+          "derivation_fa": "واژهٔ انگلیسی macramé «حاشیهٔ آذینیِ گره‌بافته» نخستین بار در ۱۸۶۵ ثبت شده و یکسره از فرانسوی گرفته شده است؛ اتیمانلاین می‌افزاید که خودِ این هنر در اروپا کهن‌تر از نامِ آن است. ویکی‌واژه همین تاریخ و همین زنجیره (فرانسوی ← ایتالیایی ← ترکی عثمانی ← عربی) را می‌دهد. معنایی که نورایی آورده («توری درشت برای حاشیهٔ اثاث») با کاربرد سدهٔ نوزدهم سازگار است.",
+          "sources": [
+            "https://www.etymonline.com/word/macrame",
+            "https://en.wiktionary.org/wiki/macram%C3%A9",
+            "https://www.ahdictionary.com/word/search.html?q=macrame"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:781",
+              "status": "supports",
+              "note": "The 1975/76 AHD page is not online, but the same AHD entry (current edition) gives '[French, from Italian macramè, from Turkish makrama, towel, from Arabic miqrama, embroidered veil, from qarama, to gnaw, nibble]' — precisely the chart's chain down to English."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt — grep 'macram' no hit",
+              "stance": "silent",
+              "note": "Klein omits the word."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt — grep -i 'macram' no hit",
+              "stance": "silent",
+              "note": "Skeat's Concise (1911) has no entry."
+            },
+            {
+              "src": "AHD",
+              "where": "ahdictionary.com s.v. macramé",
+              "stance": "supports",
+              "note": "Full chain as quoted above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 6,
+      "root": "Q.t.r",
+      "verdict": "confirmed",
+      "modern_form": "Semitic root q-ṭ-r 'to make smoke, burn incense; to rise as smoke' (Hebrew קָטַר qāṭar, Akkadian qatāru, Arabic قَطَرَ qaṭara / قَطْرَان qaṭrān 'tar')",
+      "note": "The root itself is real and correctly labelled: Hebrew קָטַר 'to make sacrifices smoke, burn incense' with the noun קְטֹרֶת qəṭōreth 'incense, smoke of sacrifice', Akkadian qatāru 'to smoke', Arabic qaṭrān 'tar, pitch' (from the same root, Lokotsch no. 1128: 'Teer, vom Vb. katara \"tropfenweise fließen\"'). Two caveats: (a) in Arabic the reflex has specialised to 'drip, trickle, distil' (qaṭara) and the 'smoke/roast-smell' sense sits rather in the neighbouring root ق ت ر qatara / قُتار quṭār, which is what Klein actually cites; (b) the whole point of the entry — that Greek kédros descends from this root — is Heinrich Lewy's (1895) proposal, adopted by Klein, but NOT the mainstream view today (Beekes, EDG 663: origin unknown, probably Pre-Greek).",
+      "note_fa": "ریشهٔ سامیِ ق‌ط‌ر «دود کردن، بخور سوزاندن» واقعی است: عبری קָטַר qāṭar «بخور سوزاندن» و اسمِ קְטֹרֶת qəṭōreth «بخور، دودِ قربانی»، اکدی qatāru «دود کردن»، و عربی قَطْران «قیر» (لوکوچ، شمارهٔ ۱۱۲۸). دو نکته: در عربی، صورتِ قَطَرَ بیشتر معنی «چکیدن، تقطیر کردن» گرفته و معنی «دود و بویِ کباب» در ریشهٔ همسایهٔ ق‌ت‌ر (قُتار) است — همان که کلاین نقل می‌کند؛ و دیگر آنکه بنیادِ کلِ مدخل، یعنی برگرفتنِ kédros یونانی از این ریشه، پیشنهاد هاینریش لِوی (۱۸۹۵) است که کلاین پذیرفته، اما ریشه‌شناسی امروزی (بیکس، فرهنگ ریشه‌شناختی یونانی، ص ۶۶۳) آن را «نامعلوم، احتمالاً پیش‌یونانی» می‌داند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%B4%CF%81%CE%BF%CF%82",
+        "https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B1"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:255",
+          "status": "supports",
+          "note": "Klein 1966, KLN_1966.txt leaf 145 (the following leaf 146 carries the running numerals 256/257, so leaf 145 = pp. 254-255 — Nourai's page is exact), s.v. cedar: 'Gk. κέδρος, \"cedar\", which prob. denoted orig. \"a tree whose wood was used for burning sacrifices\", and derives fr. Heb. qātar, \"it exhaled odor, smoked\"; see Heinrich Lewy, Die semitischen Fremdwörter im Griechischen, Berlin 1895, p. 35 … Heb. qātar [whence qᵉtōreth, \"odor (of burning sacrifice), smoke, incense\"] is rel. to Arab. qatara, \"it exhaled odor, smoked\", qutār, \"exhalation, smoke\"'. That is Nourai's whole entry, root gloss included."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "LKT",
+          "where": "LKT.txt line 2660 (no. 1128 katran)",
+          "stance": "partial",
+          "note": "'…\"Teer\" [vom Vb. katara \"tropfenweise fließen\", vgl. dazu aram. ʾatrānā \"Teer\" < ass. etrānu \"dass.\"]' — confirms the Semitic root and its resin/tar semantics, but knows nothing of a Greek kedros connection."
+        },
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt leaf 145 s.v. cedar",
+          "stance": "supports",
+          "note": "See ref_check quote."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "Q.t.r",
+          "verdict": "plausible",
+          "derivation": "Arabic has two neighbouring roots here and Nourai's 'Q.t.r: to smoke, smell' merges them. قَطَرَ qaṭara (root ق ط ر, with ṭāʾ, the regular cognate of Hebrew ט) means 'to drip, trickle', II qaṭṭara 'to distil, refine', with قَطْرَان qaṭrān 'tar, pitch' — this is the true cognate of Hebrew qāṭar and the form Wiktionary compares with Greek κέδρος. The sense 'to exhale odour, smoke', which Klein quotes as 'Arab. qatara … quṭār \"exhalation, smoke\"', belongs to ق ت ر with plain tāʾ (قُتار quṭār 'smell/smoke of roasting meat'). Since Nourai writes the root without diacritics as 'Q.t.r' the node is defensible, but the two Arabic roots should be kept apart.",
+          "derivation_fa": "در عربی دو ریشهٔ همسایه در کار است و نورایی آن‌ها را یکی گرفته است. «قَطَرَ» (با طاء، هم‌ارزِ ט عبری) یعنی «چکیدن»، باب دوم «قطَّرَ» یعنی «تقطیر کردن»، و از همین ریشه «قَطْران» (قیر) است؛ همین صورت است که ویکی‌واژه با κέδρος یونانی می‌سنجد. اما معنی «دود و بو دادن» که کلاین نقل می‌کند (qutār «بوی کباب») از ریشهٔ «ق‌ت‌ر» با تاء است. چون نورایی ریشه را بی‌نقطه‌گذاری «Q.t.r» نوشته، گره او پذیرفتنی است، ولی این دو ریشه را باید جدا نگه داشت.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B1",
+            "https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%B4%CF%81%CE%BF%CF%82"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:255",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 145 (= pp. 254-255): 'Heb. qātar … is rel. to Arab. qatara, \"it exhaled odor, smoked\", qutār, \"exhalation, smoke\", etc.' — Klein does place an Arabic verb of this shape beside the Hebrew one."
+            },
+            {
+              "ref": "SAP:1272",
+              "status": "not_checked",
+              "note": "Sayyah's Persian translation of al-Munjid is purchase-only (refs_online.json: kind 'purchase', no local file, no online copy), so p. 1272 could not be opened."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 145 s.v. cedar",
+              "stance": "supports",
+              "note": "As quoted."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt line 2660, entry no. 1128 katran",
+              "stance": "partial",
+              "note": "'ar. katrān \"Teer\" vom Vb. katara \"tropfenweise fließen\"' — Lokotsch gives the ق ط ر root the 'drip' meaning, not 'smoke'."
+            },
+            {
+              "src": "AFM",
+              "where": "AFM_pages.txt — grep 'قطر'/'قتر' no relevant headword",
+              "stance": "silent",
+              "note": "Addi Shir does not treat it as a Persian Arabicism, i.e. the Arabic verb is native Semitic."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Hebrew",
+          "words": "qâter",
+          "verdict": "plausible",
+          "derivation": "The Hebrew item is real but the citation form is loose: קָטַר qāṭar is a VERB, 'to make (a sacrifice) smoke, to burn incense' (usually in the pi'el קִטֵּר qiṭṭēr and hif'il הִקְטִיר hiqṭīr in the Priestly source of the Pentateuch); the noun that means 'smoke, incense' is קְטֹרֶת qəṭōreth, and Klein's entry spells out exactly that relation ('Heb. qātar [whence qᵉtōreth, \"odor (of burning sacrifice), smoke, incense\"]'). Nourai's 'qâter' with the gloss 'smoke, incense' therefore fuses the verb's form with the noun's meaning; the vowel of the second syllable (-er rather than -ar) is his own. The derivation of this Hebrew word from the common Semitic root is uncontroversial (cf. Akkadian qatāru 'to smoke').",
+          "derivation_fa": "واژهٔ عبری هست، اما صورتِ استنادی نورایی دقیق نیست: קָטַר qāṭar فعل است، «دود کردنِ قربانی، بخور سوزاندن» (بیشتر در باب پیعل قِطِّر و هیفعیل هِقطیر در بخش کاهنیِ تورات)؛ اسمی که معنی «دود، بخور» دارد קְטֹרֶת qəṭōreth است و کلاین همین نسبت را می‌نویسد. پس «qâter» با معنیِ «دود، بخور» آمیزه‌ای از صورتِ فعل و معنیِ اسم است و مصوت هجای دوم (-er به جای -ar) از خودِ نورایی است. بازگشتِ این واژه به ریشهٔ مشترک سامی (اکدی qatāru «دود کردن») بی‌چون‌وچراست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:255",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 145 s.v. cedar: 'derives fr. Heb. qātar, \"it exhaled odor, smoked\" … Heb. qātar [whence qᵉtōreth, \"odor (of burning sacrifice), smoke, incense\"]'. Klein's own citation form is the verb qātar, as here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 145 (pp. 254-255)",
+              "stance": "supports",
+              "note": "As quoted; Klein is himself the standard reference (his Comprehensive Etymological Dictionary of the Hebrew Language repeats it s.v. קטר)."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt no. 1128",
+              "stance": "partial",
+              "note": "Cites Aramaic ʾatrānā and Assyrian etrānu 'tar' beside Arabic katrān — Semitic material of the same root family, but no Hebrew/Greek link."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "Kedrus",
+          "verdict": "plausible",
+          "derivation": "The Greek word is κέδρος kédros (fem.) 'cedar, juniper', attested from Homer onwards; 'Kedrus' is Nourai's Latinised spelling of it, and his gloss ('a tree whose wood was used for burning sacrifices') is Klein's wording verbatim. The derivation from Hebrew qāṭar goes back to Heinrich Lewy, Die semitischen Fremdwörter im Griechischen (1895) 35, which Klein cites and Nourai follows: the argument is semantic (cedar/juniper wood burnt as incense) plus the consonant frame q-ṭ-r ~ k-d-r. Modern Greek etymology does not accept it: Beekes (EDG 663) marks κέδρος 'unknown, probably a Mediterranean/Pre-Greek word', and Wiktionary follows him — 'Unknown. Perhaps a Mediterranean Pre-Greek borrowing, maybe the same word as Arabic قَطْرَان (qaṭrān)'. So a Semitic connection is still floated, but as a loan from the same wandering Mediterranean word, not as a descent from the Hebrew verb; hence 'plausible' rather than 'confirmed'.",
+          "derivation_fa": "واژهٔ یونانی κέδρος kédros «سرو کوهی، اورس» است که از هومر به بعد گواهی دارد؛ «Kedrus» صورت لاتینی‌شدهٔ آن به قلم نورایی است و معنایی که آورده عیناً عبارت کلاین است. برگرفتن آن از קָטַר عبری به هاینریش لِوی (۱۸۹۵، ص ۳۵) بازمی‌گردد که کلاین نقل کرده و نورایی پی گرفته است؛ استدلال، معنایی است (سوزاندن چوب سرو به‌جای بخور) به‌علاوهٔ همانندیِ ق‌ط‌ر ~ k-d-r. اما ریشه‌شناسی امروزی آن را نمی‌پذیرد: بیکس (ص ۶۶۳) κέδρος را «نامعلوم، احتمالاً پیش‌یونانی/مدیترانه‌ای» می‌داند و ویکی‌واژه می‌افزاید شاید همان واژهٔ سرگردانی باشد که «قَطْران» عربی نیز از آن است — یعنی وام‌گیری از یک واژهٔ مشترکِ مدیترانه‌ای، نه فرزندِ فعل عبری. بنابراین ادعا «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%B4%CF%81%CE%BF%CF%82",
+            "https://en.wiktionary.org/wiki/cedar"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:255",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 145: 'fr. Gk. κέδρος, \"cedar\", which prob. denoted orig. \"a tree whose wood was used for burning sacrifices\", and derives fr. Heb. qātar … see Heinrich Lewy, Die semitischen Fremdwörter im Griechischen, Berlin, 1895, p. 35. For sense development cp. Gk. θυία, name of an African tree, prop. \"a tree whose wood was burnt for sacrificial purposes\", fr. θύω, \"to sacrifice\"'. Klein supports Nourai, but Klein's 'prob.' and his one 1895 authority are the whole basis."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 145 (pp. 254-255)",
+              "stance": "supports",
+              "note": "As quoted."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt leaf 316 s.v. cedar / cedrine / Cedrus",
+              "stance": "partial",
+              "note": "'[ME. cedar, ceder; OFr. cedre; L. cedrus; Gr. kedros, a cedar]' — Webster stops at Greek and offers no Semitic source."
+            },
+            {
+              "src": "FSD",
+              "where": "FSD_vol1.txt leaf 483 (printed pp. 428-429)",
+              "stance": "partial",
+              "note": "'[… cedre, < L. cedrus, < Gr. kedros, cedar-tree]' — likewise silent on any pre-Greek/Semitic origin."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Latin",
+          "words": "cedrus",
+          "verdict": "confirmed",
+          "derivation": "Latin cedrus 'cedar, juniper; cedar-oil' is a straightforward early borrowing of Greek κέδρος, with Greek -os regularly refashioned as Latin second-declension -us (feminine, like most Latin tree names). It is used by Vergil, Pliny and the Vulgate (cedrus Libani), and it is the Vulgate's word for Hebrew ʾerez that fixed 'cedar' in every European language. Klein (p. 255) and Funk & Wagnalls (p. 428) both give exactly L. cedrus < Gk. kedros.",
+          "derivation_fa": "لاتین cedrus «سرو آزاد/اورس، روغن سرو» وام‌گیری کهن از κέδρος یونانی است؛ پایانهٔ -os یونانی در لاتین به -us صرفِ دوم (مؤنث، مانند بیشترِ نام‌های درخت در لاتین) بدل شده است. ویرژیل و پلینیوس و ترجمهٔ ولگات (cedrus Libani) آن را به کار برده‌اند و همین کاربردِ ولگات در برابرِ אֶרֶז عبری، واژهٔ «سدر/cedar» را در زبان‌های اروپایی نشانده است. کلاین (ص ۲۵۵) و فانک و واگنالز (ص ۴۲۸) هر دو همین زنجیره را می‌دهند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/cedar",
+            "https://en.wiktionary.org/wiki/citrus"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:255",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 145 s.v. cedar: 'ME. cedre, fr. OF. cedre (F. cèdre), fr. L. cedrus, fr. Gk. κέδρος'; and s.v. Cedrus (leaf 145): 'L., \"cedar\". See cedar.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FSD",
+              "where": "FSD_vol1.txt leaf 483 (printed p. 428-429)",
+              "stance": "supports",
+              "note": "'< L. cedrus, < Gr. kedros, cedar-tree'."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt leaf 316",
+              "stance": "supports",
+              "note": "'Cedrus, n. [L., from Gr. kedros, cedar]'."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "sedr «سیدر»",
+          "verdict": "transcription_suspect",
+          "derivation": "Two separate problems. (1) TRANSCRIPTION: the JSON prints «سیدر», but the page does not. At 1200 dpi the Persian word in this box reads س + کسره + د + ر, i.e. «سِدر» sedr — the mark under the word is the slanted kasra stroke that this font also uses in «مِقْرَمه» two boxes above, not the two dots of a medial ی; the extraction turned that kasra into a yāʾ. The printed form is «سدر» and the extracted «سیدر» is an OCR artefact (Dehkhoda's only «سیدر» is an unrelated word, 'a drink made of apples and pears', i.e. English cider). (2) DERIVATION: even with the right spelling, the arrow Latin cedrus > Persian sedr is not supportable. Persian «سدر» is the Arabic loan سِدْر sidr, the lote/Christ's-thorn tree Ziziphus spina-christi (Persian کُنار), a native Semitic word with Qur'anic attestation (sidrat al-muntahā); Mo'in himself tags it [ع.] and defines it as 'a tropical, very tall tree … its fruit small, edible, resembling the jujube' — a Ziziphus, not a Cedrus. The modern botanical use of «سدر» for Cedrus (سدر لبنان) is a secondary, learned identification driven by Bible/Qur'an translation, not a phonetic descent from Latin.",
+          "derivation_fa": "دو اشکال جداگانه دارد. نخست، خطای خوانش اسکن: در متن استخراج‌شده «سیدر» آمده، ولی صفحهٔ چاپی با بزرگ‌نماییِ ۱۲۰۰ نقطه‌براینچ «سِدر» را نشان می‌دهد؛ نشانهٔ زیرِ واژه همان کسرهٔ کج است که در «مِقْرَمه» در بالای همان صفحه نیز دیده می‌شود، نه دو نقطهٔ «ی». پس املای کتاب «سدر» است و «سیدر» خطای استخراج است (تنها «سیدرِ» دهخدا واژه‌ای بی‌ربط است: «قسمی شراب از سیب و امرود»، یعنی cider). دوم، خودِ اشتقاق: «سدر» فارسی وام‌واژهٔ عربیِ سِدْر است، همان درخت کُنار (Ziziphus spina-christi) که در قرآن نیز آمده (سدرة‌المنتهی)؛ معین خود نشانهٔ [ع.] می‌گذارد و آن را «درختی گرمسیری و بسیار تناور با میوهٔ ریزِ خوردنیِ شبیه عناب» می‌داند، که کُنار است نه سرو آزاد. کاربرد گیاه‌شناسیِ امروزیِ «سدر» برای Cedrus («سدر لبنان») برخاسته از ترجمه‌های کتاب مقدس است، نه تحولِ آوایی از cedrus لاتین. پس: خطای خوانش اسکن، و افزون بر آن، پژوهش امروزی این پیکان را رد می‌کند.",
+          "error_in": "extraction",
+          "book_prints": "سدر",
+          "correct_form": "سدر",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B3%D8%AF%D8%B1/",
+            "https://vajehyab.com/?q=%D8%B3%DB%8C%D8%AF%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1846",
+              "status": "contradicts",
+              "note": "The Mo'in entry for سدر was read on abadis.ir (section فرهنگ معین): «درختی است گرمسیری و بسیار تناور … میوهٔ آن ریز و خوردنی و شبیه عناب», tagged [ع.] = Arabic. Mo'in thus gives an Arabic origin and a Ziziphus, not a borrowing of Latin cedrus. The printed page number could not be checked: refs_online.json says Mo'in's pagination 'cannot be mapped online' and only the differently paginated 2-vol abridgement is on disk (grep 'سیدر' in MON_part1/2.txt returns only unrelated OCR noise)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir/fatofa/سدر/ (فرهنگ معین) and vajehyab.com/?q=سیدر",
+              "stance": "contradicts",
+              "note": "سدر = [ع.] tropical tree with jujube-like fruit (= کُنار/Ziziphus); «سیدر» appears only in Dehkhoda as 'قسمی شراب است از سیب و امرود' (cider), never as cedar."
+            },
+            {
+              "src": "BQT",
+              "where": "Borhan-e Qate' (Mo'in ed.) s.v. سدر, via the same dictionary corpus",
+              "stance": "partial",
+              "note": "Borhan/Dehkhoda gloss سدر as «درخت کُنار» — the lote tree; no Latin or Greek source is suggested anywhere."
+            },
+            {
+              "src": "ARY",
+              "where": "incoming/ARY/ARY_pages.txt — grep 'سدر' gives no Indo-European headword entry",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary of the Indo-European roots of Persian does not claim سدر, consistent with it being a Semitic loan rather than an inherited or Latin-derived word."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "cedre",
+          "verdict": "confirmed",
+          "derivation": "French cèdre continues Old French cedre, a learned/semi-learned Latinism taken from L. cedrus (attested in French from the 12th c., largely through Bible translation: 'les cèdres du Liban'); the Latin -us was dropped and intervocalic -dr- kept unchanged because the word was borrowed from written Latin rather than inherited. Klein: 'ME. cedre, fr. OF. cedre (F. cèdre), fr. L. cedrus'. Funk & Wagnalls (the reference Nourai cites here) gives the same at p. 428.",
+          "derivation_fa": "فرانسوی cèdre دنبالهٔ cedre فرانسوی کهن است، وام‌واژه‌ای دانشورانه از لاتین cedrus (از سدهٔ دوازدهم در فرانسه، بیشتر از راه ترجمهٔ کتاب مقدس: «cèdres du Liban»)؛ پایانهٔ -us افتاده و خوشهٔ -dr- دست‌نخورده مانده، چون واژه از لاتینِ نوشتاری گرفته شده نه از راه تحولِ پیوستهٔ گفتاری. کلاین می‌نویسد: «ME. cedre، از فرانسوی کهن cedre (فرانسوی cèdre)، از لاتین cedrus». همان را فانک و واگنالز در ص ۴۲۸ — مأخذی که نورایی برای این گره آورده — دارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/cedar"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSD:428",
+              "status": "supports",
+              "note": "FSD_vol1.txt leaf 483, whose running numeral at the foot is '429', so the leaf covers printed pp. 428-429 — Nourai's page is right. The cedar entry ends '… cedre, < L. cedrus, < Gr. kedros, cedar-tree.', i.e. Funk & Wagnalls routes English cedar through the French/Old French form."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaf 145 (pp. 254-255) s.v. cedar",
+              "stance": "supports",
+              "note": "'ME. cedre, fr. OF. cedre (F. cèdre), fr. L. cedrus'."
+            },
+            {
+              "src": "DEV",
+              "where": "DEV.txt — grep -i 'cedre' no oriental entry",
+              "stance": "silent",
+              "note": "Devic's dictionary of French words of oriental origin does not claim cèdre, i.e. he does not regard it as a direct Semitic borrowing into French."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "cedar; citric; citrus",
+          "verdict": "plausible",
+          "derivation": "Three words, two different routes. (a) cedar: confirmed — Middle English cedre, from Old French cedre, from Latin cedrus; Wiktionary and Klein agree, the -ar spelling being a late (16th-c.) English refashioning after Latin cedrus. (b) citrus: the English/scientific word is taken directly from Latin citrus 'citron tree', NOT through French cèdre; Latin citrus is itself, per Wiktionary, 'probably via Etruscan from Ancient Greek κέδρος', a 'possible doublet of cedar' — Klein says the same and makes the Etruscan mediation explicit: 'The change of tr into dr shows that the word came from Greek into Latin through the medium of the Etruscans.' (c) citric: not a borrowing at all but an 18th-century chemical coinage (New Latin acidum citricum, Scheele 1784), formed from citrus + -ic; Klein: 'citric, adj. — Formed fr. prec. word [Citrus] with suff. -ic.' So the words are all ultimately from Greek kédros, but Nourai's drawing them all under French cèdre is wrong for citrus and citric; hence 'plausible' rather than 'confirmed' for the node.",
+          "derivation_fa": "سه واژه با دو مسیر جداگانه. ۱) cedar: تأیید می‌شود — انگلیسی میانه cedre از فرانسوی کهن cedre از لاتین cedrus؛ املای ـar بازسازیِ متأخرِ سدهٔ شانزدهم به تقلید از لاتین است. ۲) citrus: این واژه یکراست از لاتین citrus «درخت ترنج» گرفته شده، نه از راه cèdre فرانسوی؛ و خودِ citrus لاتین، به گفتهٔ ویکی‌واژه، «احتمالاً از راه اتروسکی از κέδρος یونانی» است و با cedar دوگانه (doublet) است. کلاین صریح‌تر می‌گوید: «تبدیل tr به dr نشان می‌دهد که واژه از یونانی به‌واسطهٔ اتروسک‌ها به لاتین رسیده است.» ۳) citric: اصلاً وام‌واژه نیست، بلکه ساختی شیمیایی از سدهٔ هجدهم است (لاتینِ نو acidum citricum، شِله ۱۷۸۴) از citrus + پسوند -ic. پس هر سه در نهایت به kédros یونانی می‌رسند، اما کشیدنِ هر سه زیرِ «cèdre فرانسوی» برای citrus و citric نادرست است؛ از این رو حکمِ این گره «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/cedar",
+            "https://en.wiktionary.org/wiki/citrus"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSD:428",
+              "status": "partial",
+              "note": "FSD_vol1.txt leaf 483 (printed pp. 428-429) s.v. cedar: '… cedre, < L. cedrus, < Gr. kedros, cedar-tree' — supports the cedar word on p. 428, but says nothing there about citrus/citric, which Funk & Wagnalls treats in vol. 2 under its own headword."
+            },
+            {
+              "ref": "KLN:255",
+              "status": "partial",
+              "note": "KLN_1966.txt leaf 145 (pp. 254-255) s.v. cedar supports cedar and closes 'Cp. also citron'; but Klein's citrus/citric material is on leaf 165 (≈ pp. 294-295), s.v. citron: 'fr. L. citrus, \"citron tree,\" fr. Gk. κέδρος, \"cedar\"; see cedar … The change of tr into dr shows that the word came from Greek into Latin through the medium of the Etruscans', and s.v. Citrus: 'L. citrus, \"citron tree\", fr. Gk. κέδρος', 'citric, adj. — Formed fr. prec. word with suff. -ic.' So Klein routes citrus from Latin directly, not through French."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt leaves 145 and 165",
+              "stance": "partial",
+              "note": "Supports cedar < OF cedre < L cedrus < Gk kedros; derives citrus straight from Latin (via Etruscan from Greek) and citric as an English suffixal formation."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt leaf 316",
+              "stance": "supports",
+              "note": "'[ME. cedar, ceder; OFr. cedre; L. cedrus; Gr. kedros, a cedar]' for cedar; 'Cedrus, n. [L., from Gr. kedros, cedar]'."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt — grep -i 'cedar' no hit (the Concise omits it); 'citron' appears only under lemon at lines 10148, 10448",
+              "stance": "silent",
+              "note": "Skeat's Concise has no cedar entry to compare."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
