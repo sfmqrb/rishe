@@ -105,12 +105,24 @@ coverage and verdicts. Where a flagged form turns out to be the book's own mispr
 a transcription slip, the record says so; where the extraction was wrong, the data is fixed.
 Coverage is still growing page by page; unverified charts say so under the root card.
 
-## Source & credit
+## Sources & credit
 
-All the scholarship belongs to **Ali Nourai**. The book is freely available at the
+The etymologies charted here are **Ali Nourai's**: the roots, the words, the arrows, the
+verse citations and the cross-references all come from his dictionary, and every chart links
+to a scan of its printed page. The book is freely available at the
 [Internet Archive](https://archive.org/details/AnEtymologicalDictionaryOfPersianEnglishAndOtherIndo-europeanLanguages).
 This project is a non-commercial homage; rights to the dictionary's content remain
 with its author.
+
+The verdicts on those etymologies rest on the reference library assembled to check them —
+Nourai's own bibliography of more than a hundred works (Pokorny, Walde-Pokorny, Mann, Buck,
+Watkins/AHD, Bartholomae, Kent, MacKenzie, Nyberg, Gharib, Bailey, Horn, Hübschmann, Klein,
+Skeat, Ernout-Meillet, Jeffery, Addi Shir, Asbaghi, Fraenkel, Zimmern, Borhān-e Qāṭeʿ with
+Moʿin's footnotes, Moʿin's *Farhang-e Fārsi*, Aryanpur, Abolghasemi, Noushin, Asadi Tusi and
+more; `data/verification/sources/refs_online.json` records each one and where it can be read)
+together with sources he could not use: Cheung's *Etymological Dictionary of the Iranian Verb*,
+the *Encyclopaedia Iranica*, Wiktionary with its citations, and Etymonline. The library is there
+to test his work, not to replace it.
 
 ## How the data was made
 
