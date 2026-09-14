@@ -1,0 +1,727 @@
+{
+  "pdf_page": 473,
+  "book_page": 443,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Srgâla, Črğâla",
+      "verdict": "confirmed",
+      "modern_form": "Sanskrit शृगाल (śṛgāla-) m. 'jackal, Canis aureus'",
+      "note": "The Sanskrit word is real and is the universally accepted ultimate source of the Persian/Turkish/European jackal-words. Nourai's two headforms are one word: 'Srgâla' is the s-transliteration and 'Črğâla' the palatal-ś transliteration of शृगाल. The gloss 'howler' is Klein's (KLN:823 'lit. the howler'), an old connection with a root for 'cry out'; modern Indo-Aryan scholarship treats śṛgāla- as of unclear, possibly non-IE (BMAC substrate) origin and does not endorse 'howler' as an etymology, so the GLOSS is folk-etymological even though the word and the descent chain are right. Nourai's own chart-note ('BQT:1270 indicates the root may be from Babylonia') reproduces Mo'in's footnote reporting Purdavud's opinion that šaġāl is a word of the land of Babylon; that is a minority view nobody follows today — the Indo-Aryan origin is standard.",
+      "note_fa": "ریشه در واقع واژهٔ سنسکریت शृगाल (śṛgāla-) «شغال» است؛ هر دو صورتی که نورایی آورده (Srgâla / Črğâla) یک واژه‌اند و تنها در آوانگاری سایشی س و ش‌گونهٔ سنسکریت تفاوت دارند. معنای «زوزه‌کش» که کلاین (KLN:823) داده ریشه‌شناسی عامیانه است؛ زبان‌شناسان امروز خاستگاه این واژهٔ هندوآریایی را ناروشن و شاید برگرفته از زیرلایهٔ پیشاهندواروپایی (BMAC) می‌دانند. یادداشت خود کتاب دربارهٔ «بابلی بودن» واژه، بازگفتِ حاشیهٔ معین در برهان قاطع (ص ۱۲۷۰) از نظر پورداود است که امروز پذیرفته نیست. در مجموع ادعای نورایی دربارهٔ خودِ ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D8%A7%D9%84",
+        "https://www.etymonline.com/word/jackal",
+        "https://abadis.ir/fatofa/%D8%B4%D8%BA%D8%A7%D9%84/"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:823",
+          "status": "supports",
+          "note": "Klein 1966 vol. I p. 822/823 (KLN_1966.txt leaf 444, printed number 822 on the leaf), s.v. jackal: 'jackal, n. — Turk. chagal, fr. Pers. shaghal, fr. OI. srgalah, lit. ‘the howler’.' Exactly Nourai's root, its gloss and its chain."
+        },
+        {
+          "ref": "MON:2050",
+          "status": "partial",
+          "note": "Mo'in's entry for شغال (read at abadis.ir/fatofa/شغال) tags it '(شَ) [په.] (اِ.)' i.e. Pahlavi, and describes the animal; Mo'in gives the Pahlavi tag but not the Sanskrit etymon, and the 6-vol page numbering cannot be checked online."
+        },
+        {
+          "ref": "BQT:1270",
+          "status": "supports",
+          "note": "Borhan-e Qate' p. 1270 (fetched with tools/ref_page.py BQT:1270 --image), Mo'in's footnote 1 under شغال: 'از سانسکریت śṛgāla (شغال)، پهلوی šagāl … ترکی چاقال … این کلمه از ترکی وارد زبانهای اروپایی شده: آلمانی Schakal، فرانسوی chacal، انگلیسی jackal. آقای پورداود کلمهٔ «شغال» را لغت سرزمین بابل دانسته‌اند، «هاب» ص ۲۱۸.' — both the chain and the Babylonia remark that Nourai's chart-note reports."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "LKT",
+          "where": "no. 1929, p. ~155 (LKT.txt leaf 181)",
+          "stance": "supports",
+          "note": "'1929. Sskr. srgäla: Canis aureus, Schakal', ebenso pers. šaγāl, tk. sakal, çakal; hieraus rum. ceacal, it. sciacallo, afrz. jachal, frz. chacal; engl. jackal, ndl. jakhals …, dtsch. Schakal'"
+        },
+        {
+          "src": "KLN",
+          "where": "vol. I p. 823 s.v. jackal",
+          "stance": "supports",
+          "note": "'Turk. chagal, fr. Pers. shaghal, fr. OI. srgalah, lit. ‘the howler’'"
+        },
+        {
+          "src": "BQT",
+          "where": "p. 1270, Mo'in's footnote 1 s.v. شغال",
+          "stance": "supports",
+          "note": "'از سانسکریت śṛgāla (شغال)، پهلوی šagāl' — same etymon, same route"
+        },
+        {
+          "src": "AID",
+          "where": "AID.txt, grep -i jackal",
+          "stance": "silent",
+          "note": "Whitworth's Anglo-Indian Dictionary has no jackal entry in the OCR"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "šağâl",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian šgʾl / šγʾl, read šaγāl 'jackal', is a Middle Iranian loan from Old Indo-Aryan śṛgāla- taken over in the Sasanian period through the Indo-Iranian frontier contact that also gave MP šatrang 'chess' and many animal names. Indic ś- is rendered by MP š-, and the Indic vocalic ṛ is resolved as a (śṛ- > ša-), exactly as in other Indic loans; the ending -āla is kept unchanged. Mo'in's footnote in Borhan p. 1270 states the Pahlavi form explicitly ('پهلوی šagāl'), and Wiktionary's Persian entry likewise derives the modern word 'from Middle Persian (šγal /šaγāl/), borrowed from Sanskrit (sṛgālá)'. The gloss 'coyote' is Nourai's Americanism for the jackal Canis aureus; no coyote exists in Iran.",
+          "derivation_fa": "فارسی میانه šaγāl (نوشتهٔ šgʾl) «شغال» وام‌واژه‌ای است از هندی باستان śṛgāla- که در دورهٔ ساسانی از راه داد و ستد با هند به ایران رسیده است؛ ش هندی به ش فارسی میانه بدل شده و ــرِ واکه‌ای سنسکریت (ṛ) به «شَـ» گشوده شده است. حاشیهٔ معین در برهان قاطع (ص ۱۲۷۰) همین صورت پهلوی را می‌آورد و ویکی‌واژه نیز آن را تأیید می‌کند. گزارش نورایی درست است؛ تنها «coyote» در ترجمهٔ او آمریکایی‌مآبانه است و منظور همان Canis aureus است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D8%A7%D9%84",
+            "https://abadis.ir/fatofa/%D8%B4%D8%BA%D8%A7%D9%84/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:2050",
+              "status": "supports",
+              "note": "Mo'in marks شغال '[په.]' = Pahlavi (abadis.ir/fatofa/شغال, فرهنگ معین section); that is precisely the Sanskrit→Pahlavi step Nourai draws, though Mo'in's own page number is unverifiable online."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p. 1270 fn. 1 (ref_page.py BQT:1270)",
+              "stance": "supports",
+              "note": "'از سانسکریت śṛgāla (شغال)، پهلوی šagāl'"
+            },
+            {
+              "src": "PHD",
+              "where": "PHD.txt, grep 'šagāl'/'sgl'",
+              "stance": "silent",
+              "note": "MacKenzie's Concise Pahlavi Dictionary has no entry for the jackal word (not attested in the Book Pahlavi corpus he excerpts)"
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt",
+              "stance": "silent",
+              "note": "Nyberg's glossary (Škand/KārNāmag texts) has no šagāl"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "šağâl, šoğâl «شغال»",
+          "verdict": "confirmed",
+          "derivation": "New Persian شغال šaġāl/šoġāl continues MP šaγāl unchanged apart from the ordinary NP raising of unstressed a to o in the first syllable (šaġāl > šoġāl, as in ثواب/خُدا-type variation); the by-forms Nourai prints, شکال šakāl and شگال šagāl, are the older spellings with unspirantized k/g and are attested in classical Persian (Dehkhoda lists شکال، شگال، شال). The form with غ is the one that spread. Persian is the immediate donor to Ottoman Turkish.",
+          "derivation_fa": "«شغال» در فارسی نو دنبالهٔ مستقیم فارسی میانهٔ šaγāl است؛ دگرگونی تنها در واکهٔ نخست است (šaγāl > šoγāl). صورت‌های کهن‌ترِ «شکال» و «شگال» که نورایی هم آورده در متون کلاسیک آمده‌اند و دهخدا آن‌ها را همراه «شال» ثبت کرده است؛ اینها همان واژه با کاف/گافِ سایشی‌نشده‌اند. فارسی خود وام‌دهندهٔ ترکی عثمانی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D8%A7%D9%84",
+            "https://abadis.ir/fatofa/%D8%B4%D8%BA%D8%A7%D9%84/"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:823",
+              "status": "supports",
+              "note": "Klein p. 823 s.v. jackal: 'Turk. chagal, fr. Pers. shaghal' — Persian is the source of the Turkish word, as drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "p. 1270 headword شغال + fn. 1",
+              "stance": "supports",
+              "note": "the Borhan entry 'شغال … جانوری است معروف' with Mo'in's note deriving it from Sanskrit via Pahlavi and passing it on to Turkish"
+            },
+            {
+              "src": "MON",
+              "where": "فرهنگ معین s.v. شغال (via abadis.ir)",
+              "stance": "supports",
+              "note": "'(شَ) [په.] (اِ.) جانوری است پستاندار از راستهٔ گوشت‌خواران شبیه به سگ' — Pahlavi origin tag"
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1929",
+              "stance": "supports",
+              "note": "'ebenso pers. šaγāl, tk. sakal, çakal'"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Turkish",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "The empty pass-through box stands for Ottoman Turkish چقال çakal (modern Turkish çakal) 'jackal', borrowed from Persian شغال. Turkish has no /ʃ/ ~ /tʃ/ constraint here, but the loan was re-shaped with initial č- and the Persian غ /ɣ/ was dropped between vowels (šaġāl > čaqal > çakal); Lokotsch no. 1929 lists the two Turkish variants 'tk. sakal, çakal' side by side, which shows the substitution in progress. Turkish, as the language of the Ottoman Mediterranean, is the donor to all the European forms.",
+          "derivation_fa": "این خانهٔ خالی نمایندهٔ ترکی عثمانی «چقال» (ترکی امروز çakal) است که از فارسی «شغال» وام گرفته شده. در گذر به ترکی، «ش» آغازین به «چ» بدل شده و «غ» میان‌واکه‌ای افتاده است (šaγāl > čaqal). لوکوچ (شمارهٔ ۱۹۲۹) هر دو صورت ترکی sakal و çakal را کنار هم آورده که همین جانشینی را نشان می‌دهد. ترکی عثمانی همان زبانی است که واژه را به اروپا رسانده. درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D8%A7%D9%84",
+            "https://www.etymonline.com/word/jackal"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this pass-through node; the claim is covered by KLN:823 on the neighbouring boxes."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1929, p. ~155",
+              "stance": "supports",
+              "note": "'pers. šaγāl, tk. sakal, çakal; hieraus rum. ceacal, it. sciacallo … frz. chacal; engl. jackal'"
+            },
+            {
+              "src": "TTS",
+              "where": "TTS_pages.txt, grep 'schakal/čakal'",
+              "stance": "silent",
+              "note": "Vámbéry's Turko-Tatar etymological dictionary has no jackal entry in the OCR (he excludes obvious Persian loans)"
+            },
+            {
+              "src": "KLN",
+              "where": "vol. I p. 823",
+              "stance": "supports",
+              "note": "'Turk. chagal, fr. Pers. shaghal'"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "jackal",
+          "verdict": "confirmed",
+          "derivation": "English jackal is first recorded c. 1600 and comes, as Etymonline sets out, from French chacal (16th-17th c., earlier jackal) < Turkish çakal; the English initial j- reflects the older French/travellers' spelling jackal rather than modern chacal, and the -al was later assimilated to the English name Jack (whence the Dutch folk-etymological jakhals 'jack-neck'). Klein telescopes the chain to 'Turk. chagal' without the French stage, which is what Nourai's Turkish → English arrow reproduces; the French intermediary is the only refinement modern sources add. The figurative 'skulking henchman' sense rests on the old belief that the jackal roused game for the lion.",
+          "derivation_fa": "انگلیسی jackal نخستین بار حدود سال ۱۶۰۰ میلادی ثبت شده و از فرانسوی chacal (صورت کهن‌تر jackal) گرفته شده که خود از ترکی çakal است؛ «ج» آغازینِ انگلیسی بازتاب املای کهن فرانسوی است. کلاین (ص ۸۲۳) میانجی فرانسوی را حذف کرده و یکراست از ترکی می‌آورد و نمودار نورایی هم همین را بازتاب می‌دهد؛ تنها افزودهٔ پژوهش امروزی همان مرحلهٔ فرانسوی است. پس ادعای نورایی درست، اما اندکی خلاصه‌شده است.",
+          "sources": [
+            "https://www.etymonline.com/word/jackal",
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D8%A7%D9%84"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:823",
+              "status": "supports",
+              "note": "Klein vol. I p. 823: 'jackal, n. — Turk. chagal, fr. Pers. shaghal, fr. OI. srgalah' — Turkish → English exactly as the arrow is drawn."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1929",
+              "stance": "partial",
+              "note": "'afrz. jachal, frz. chacal; engl. jackal' — Lokotsch inserts (Old) French between Turkish and English"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep '^JACKAL'",
+              "stance": "silent",
+              "note": "Skeat's Concise has no jackal headword in the OCR"
+            },
+            {
+              "src": "HJB",
+              "where": "HJB.txt",
+              "stance": "silent",
+              "note": "the OCR of Hobson-Jobson yields only a running-head 'JACKAL.' with jack-fruit text; no usable entry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Srîra",
+      "verdict": "disputed",
+      "modern_form": "Avestan srīra- adj. 'beautiful, fair to look on' (PIE *ḱrey- 'to appear, shine'); NOT 'satisfied'",
+      "note": "Two things are wrong here, and Nourai's own source says so. (1) The gloss: Avestan srīra- means 'beautiful', not 'satisfied'. Bartholomae, AiW (BRT.txt s.v. srira-) defines it 'Adj. (fem. -iiā-) 1) schön anzusehen, schön', with comparative sraiiah- and superlative sraēšta-; Pokorny puts it under Root/lemma *ḱrei- 'to appear, show oneself', Page(s): 618, with 'Avestan srira- ‘beautiful’, Kompar. … Avestan srayah-, Superl. … Avestan sraesta-' — which is exactly what Nourai's own chart-note records ('Avestan srîra was found in POK:618 with the meaning of pretty'), yet he kept 'satisfied' in the root box anyway. (2) The derivation: the single reference he cites, Bailey BLY:78, says the OPPOSITE of his arrow. Its first line reads 'sīra-, not to Av. srīra, since śr > Khotan ṣṣ. Cf. rather Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’.' Bailey is refusing to connect the 'satiated' word with Av. srīra- on a sound-law argument, and Nourai has read the sentence backwards. The real history of Persian سیر is MP sagr (Pāzand/NP sēr) < *sagra-, with the regular south-western change -agr- > -ēr- that Nyberg states in so many words; Av. srīra- is out of the picture.",
+      "note_fa": "این ریشه دو خطا دارد و منبعِ خود نورایی هر دو را آشکار می‌کند. نخست معنا: اوستایی srīra- به معنی «زیبا، خوش‌منظر» است نه «سیر»؛ بارتولومه در «فرهنگ ایرانی باستان» آن را 'schön anzusehen, schön' معنی کرده و پوکورنی (ص ۶۱۸) آن را زیر ریشهٔ *ḱrei- «نمایان شدن، درخشیدن» آورده است — همان که خودِ یادداشت نورایی در نمودار به آن اشاره می‌کند ولی در خانهٔ ریشه اصلاحش نکرده است. دوم خودِ اشتقاق: بیلی در «هواتانیکا ۲» ص ۷۸ سطر نخست می‌نویسد «sīra-, not to Av. srīra … Cf. rather Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’»، یعنی به صراحت پیوند این واژه را با srīra- اوستایی رد می‌کند. تاریخ درست «سیر» این است: فارسی میانه sagr (پازند/فارسی نو sēr) از ایرانی *sagra-، با دگرگونی آواییِ قاعده‌مندِ جنوب‌غربی -agr- > -ēr- که نیبرگ آن را «قانون عمومی جنوب‌غربی» می‌نامد. بنابراین پژوهش امروزی ادعای نورایی را رد می‌کند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D8%B1"
+      ],
+      "ref_check": [
+        {
+          "ref": "BLY:78",
+          "status": "contradicts",
+          "note": "Bailey, 'Hvatanica II', BSOS 9 (1937) p. 78, first line, read from the page image (saved as data/verification/sources/refs/ocr/BLY/78.png and 78.vision.txt): 'sīra-, not to Av. srīra, since śr > Khotan ṣṣ. Cf. rather Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’.' The page denies the very link the root box asserts."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BRT",
+          "where": "AiW s.v. srira- (BRT.txt line 27427, col. ~1647)",
+          "stance": "contradicts",
+          "note": "'j., g. srira- Adj. (fem. -iā-) 1) ‘schön anzusehen, schön’; a) vom schönen Äussern der Menschen und Götter …' — 'beautiful', never 'satisfied'"
+        },
+        {
+          "src": "POK",
+          "where": "IEW p. 618, Root/lemma *ḱrei- 'to appear, show oneself'",
+          "stance": "contradicts",
+          "note": "'Old Indie srī- ‘beauty, splendor’, Avestan srī- ‘beauty’, Old Indie srīla- ‘beautiful’ …, Avestan srīra- ‘beautiful’, Kompar. … Avestan srayah-, Superl. … Avestan sraesta-' (POK_full.txt, block ending 'Page(s):618')"
+        },
+        {
+          "src": "NYB",
+          "where": "Manual of Pahlavi II, glossary s.v. sagr",
+          "stance": "contradicts",
+          "note": "'sagr [sgl] (sēr) satiated, satisfied 86². — Ps. sgly; Paz. NP sēr; -ayr- > -ēr- according to the common SW law, cf. šēr.' The Persian word goes back to sagr, not to Av. srīra-"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "sěr",
+          "verdict": "disputed",
+          "derivation": "The Middle Persian word is real but its citation form and its ancestry are both misstated. MacKenzie gives 'sagr [sgl | N sēr] sated, satiate'; Nyberg gives 'sagr [sgl] (sēr) satiated, satisfied (Škand 86²) — Ps. sgly; Paz. NP sēr; -aγr- > -ēr- according to the common SW law, cf. šēr [‘lion’ < *šagr]'. So the Book-Pahlavi spelling is sgl, transcribed sagr, and sēr is the later (Pāzand/New Persian) pronunciation reached by the south-western development -agr- > -ēr-, the same change that turns *šagr into šēr 'lion'. Nourai's 'sěr' is therefore the Pāzand reading offered as the Pahlavi form. More seriously, the arrow from Avestan srīra- cannot stand: Bailey (the very page cited) rejects it because Indo-Iranian śr- would have to give Khotanese ṣṣ-, and Av. srīra- in any case means 'beautiful'. MP sagr goes back to an Iranian *sagra-, unconnected with srīra-.",
+          "derivation_fa": "واژهٔ فارسی میانه هست، اما هم صورتِ آن و هم نیای آن نادرست گزارش شده است. مکنزی می‌نویسد «sagr [sgl | فارسی نو sēr] سیر، سیراب» و نیبرگ نیز «sagr [sgl] (sēr)» را ثبت کرده و می‌افزاید که ــagrــ در فارسی میانهٔ جنوب‌غربی به ــērــ بدل می‌شود، همان‌گونه که *šagr به šēr «شیر» بدل شده است. پس نوشتار پهلوی sgl = sagr است و «سِر/sēr» تلفظ پازند و فارسی نو است، نه صورت اصلی پهلوی. مهم‌تر آنکه پیکانِ «از اوستایی srīra-» پذیرفتنی نیست: بیلی در همان صفحه‌ای که نورایی به آن ارجاع داده این پیوند را با استدلال آوایی رد کرده است. بنابراین: پژوهش امروزی این حلقه را رد می‌کند و sagr را از ایرانی *sagra- می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BLY:78",
+              "status": "contradicts",
+              "note": "p. 78 line 1: 'sīra-, not to Av. srīra, since śr > Khotan ṣṣ. Cf. rather Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’.' Bailey supports MP saγr/sēr ~ NPers. sīr but explicitly denies the Avestan srīra- parentage drawn here."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "A Concise Pahlavi Dictionary p. 74 s.v. sagr (PHD.txt leaf 562 block)",
+              "stance": "partial",
+              "note": "'sagr [sgl | N sēr] sated, satiate. ~ih: satiety.' — the word exists, but the head form is sagr and MacKenzie gives no Avestan antecedent"
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II s.v. sagr / sagrēh",
+              "stance": "contradicts",
+              "note": "'sagr [sgl] (sēr) satiated, satisfied 86². — Ps. sgly; Paz. NP sēr; -ayr- > -ēr- according to the common SW law, cf. šēr.' No srīra-"
+            },
+            {
+              "src": "BRT",
+              "where": "AiW s.v. srira-",
+              "stance": "contradicts",
+              "note": "Av. srira- is 'schön anzusehen, schön', with no 'sated' sense anywhere in the entry"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sîr «سیر»",
+          "verdict": "confirmed",
+          "derivation": "New Persian سیر sēr/sir 'sated, no longer hungry, full' is the regular continuation of MP sagr: the SW Iranian development -aγr-/-agr- > -ēr- (Nyberg's 'common SW law') gives Pāzand sēr, and classical NP ē merges with ī in the modern standard, whence today's sir. Bailey himself pairs 'Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’' in the line Nourai cites, so the Pahlavi → Persian arrow (unlike the one above it) is right. The extra form Nourai prints, سیراب sīr-āb, is the transparent compound sīr + āb 'sated with water, watered', and the 'dark (of colours)' sense of سیر is a later metaphorical extension ('saturated'). This سیر is homonymous with, but unrelated to, سیر 'garlic' and the Arabic loan سیر sayr 'journey'.",
+          "derivation_fa": "«سیر» فارسی نو دنبالهٔ قاعده‌مند sagr فارسی میانه است: ــagrــ در فارسی میانهٔ جنوب‌غربی به ــērــ بدل می‌شود (قانونی که نیبرگ آن را «قانون عمومی جنوب‌غربی» می‌خواند) و «ای کشیدهٔ» فارسی میانه در فارسی امروز به «ای» تبدیل شده است. بیلی در همان سطر، «فارسی میانه saγr (sēr)» و «فارسی نو sīr» را کنار هم آورده؛ پس این حلقه — برخلاف حلقهٔ بالای آن — درست است. «سیراب» که نورایی افزوده ترکیب روشنِ سیر + آب است، و معنی «تیره» برای رنگ‌ها گسترش استعاری همین «اشباع» است. این «سیر» با «سیرِ» خوراکی و «سَیرِ» عربی هم‌آواست ولی هم‌ریشه نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BLY:78",
+              "status": "supports",
+              "note": "p. 78 line 1: '… Cf. rather Mid. Pers. saγr (sēr), NPers. sīr ‘satiated’' — Bailey's own pairing of the Middle and New Persian forms, i.e. exactly this arrow."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p. 74 s.v. sagr",
+              "stance": "supports",
+              "note": "'sagr [sgl | N sēr] sated, satiate' — MacKenzie himself equates the MP word with NP sēr"
+            },
+            {
+              "src": "NYB",
+              "where": "glossary s.v. sagr",
+              "stance": "supports",
+              "note": "'Paz. NP sēr; -ayr- > -ēr- according to the common SW law' — the sound law that produces the New Persian form"
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss, grep 'sīr/satt'",
+              "stance": "silent",
+              "note": "Horn has no numbered entry for سیر 'sated' in the OCR (only an incidental 'satt wurde' in a Shahnama translation, p. XVI)"
+            },
+            {
+              "src": "MON",
+              "where": "Wiktionary's Persian entry (Etymology 1)",
+              "stance": "partial",
+              "note": "Wiktionary gives only 'Cognate with Northern Kurdish têr' and no Avestan antecedent — the Kurdish t- / Persian s- pair again points to *sagra-, not to srīra-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Srisâ, Srisnâ",
+      "verdict": "plausible",
+      "modern_form": "PIE *sers- 'to cut off' (de Vaan, EDL p. 558); Mann's *srisā-, *srisnā- 'file, saw' is his own reconstruction",
+      "note": "The root box is a faithful copy of Mann, IEC p. 1277 (verified: IEC.txt leaf 705 carries the printed page number 1277 and reads 'srisà, srisnà ‘file, saw’. (onomat.) Per. arrah, id.; Oss. xirx, Dig. xirxá, s. ‘saw’; Kurd. ere, id.; Gk. [rhinē] f. ‘file’; Lat. serra, f. ‘saw’'). The family is therefore Mann's, and Mann himself marks it '(onomat.)', i.e. he is not claiming a well-founded inherited root. Pokorny has no such root and Watkins/AHD has no such entry (grep of AHD_watkins1985.txt finds no *sers-; SAW is under *sek-, SERRIED under *ser-3, an unrelated word). Ernout-Meillet s.v. serra call it 'terme technique sans étymologie claire'. The one modern authority that does reconstruct a root is de Vaan, EDL p. 558: Latin serra < Proto-Italic *serzā < PIE *sers-eh₂, to a root *sers- 'to cut off' — which is compatible in substance with Nourai/Mann but differently shaped (*sers-, not *srisā-). Hence 'plausible': the word-family is genuine, the reconstructed root-form is not the standard one. NB a gloss slip that is the book's own, not the extraction's: the printed page (checked against the page image) glosses Latin serra as 'file' and Greek rhinē as 'file', but serra is 'saw' and only rhinē is 'file' — Mann's own line has 'Lat. serra, f. ‘saw’'.",
+      "note_fa": "خانهٔ ریشه رونوشت وفادارِ مان (IEC ص ۱۲۷۷) است؛ در همان صفحه آمده: «srisà, srisnà ‘file, saw’. (onomat.) Per. arrah … Oss. xirx … Kurd. ere … Gk. rhinē … Lat. serra». خودِ مان آن را «(onomat.)» یعنی آوایی/نام‌آوا نشان کرده و مدعی ریشه‌ای استوار نیست. پوکورنی چنین ریشه‌ای ندارد، واتکینز (AHD) نیز؛ و ارنو-مییه دربارهٔ serra می‌نویسد «اصطلاحی فنی بدون ریشه‌شناسی روشن». تنها منبع امروزی که ریشه‌ای بازسازی می‌کند دُ وان است (EDL ص ۵۵۸): لاتینی serra از ایتالیایی آغازین *serzā و آن از هندواروپایی *sers-eh₂ از ریشهٔ *sers- «بریدن». پس خانوادهٔ واژگانی راست است ولی صورتِ بازسازی‌شدهٔ نورایی/مان صورت پذیرفتهٔ امروزی نیست: «با احتیاط پذیرفتنی است». نکتهٔ دیگر، خطای معنایی در خودِ کتاب (نه در خوانش اسکن) است: serra لاتین «ارّه» است نه «سوهان»؛ تنها rhinē یونانی «سوهان» است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/serra",
+        "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%87",
+        "https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AF%CE%BD%CE%B7"
+      ],
+      "ref_check": [
+        {
+          "ref": "IEC:1277",
+          "status": "supports",
+          "note": "Mann, IEC p. 1277 (IEC.txt line 17092; the \\f-block containing it prints '1277'): 'srisà, srisnà ‘file, saw’. (onomat.) Per. arrah, id.; Oss. xirx, Dig. xirxá, s. ‘saw’; Kurd. ere, id.; Gk. [rhinē] f. ‘file’; Lat. serra, f. ‘saw’. (Phonol. of cerrus & Plautine terr ‘3 times’, cf. terni, cerno, etc.)' — the root, its gloss and all three daughter boxes come from this one line."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "POK_full.txt, grep 'serra'",
+          "stance": "silent",
+          "note": "Pokorny has no root for Latin serra; the only hit is 'Latin sarracum, serracum' (a wagon) under an unrelated lemma"
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, index and body",
+          "stance": "silent",
+          "note": "no *sers- root; 'SAW! sek-', 'SERRIED ser-3' (= Lat. sera 'bar') — Watkins gives serra no Indo-European root at all"
+        },
+        {
+          "src": "LAT",
+          "where": "Ernout-Meillet s.v. serra (LAT.txt line 57766 ff.)",
+          "stance": "partial",
+          "note": "'serra, -ae f.: 1° scie (outil) … Ancien, technique. … Terme technique sans étymologie claire. V. sarpō, et sera.'"
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 9.68 LEAD / 9.6x tools",
+          "stance": "silent",
+          "note": "Buck's synonym list has no 'saw' concept section, so nothing to compare"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "arreh «ارّه»",
+          "verdict": "plausible",
+          "derivation": "Persian ارّه arre 'saw' is genuinely the Iranian member of this family. The derivation runs PIE *sers- (de Vaan) > Proto-Iranian *harsa-/*harra- — PIE initial *s- regularly becomes Iranian h- — > *harra- > Middle Persian *arrag with the ordinary New Persian/late MP loss of initial h-, whence NP arre with its geminate -rr- (which is why the word is written with tašdīd, ارّه). The h- is still there in the neighbouring languages: Mazanderani هره hare, Baluchi ہرگ harrag (with the -ag suffix that MP *arrag also had), beside Kurdish ere and Ossetic xyrx / Digor xirxá cited by Mann. Two cautions keep this at 'plausible' rather than 'confirmed': Wiktionary's Persian entry, which gives this PIE derivation, cites Nourai p. 443 — this very chart — as its reference, so it is not an independent witness; and neither Horn nor Hübschmann nor MacKenzie has the word, so there is no Old/Middle Iranian attestation to anchor it. Mo'in and Dehkhoda record the word from Ferdowsi onward but give no etymology.",
+          "derivation_fa": "«ارّه» به‌راستی عضو ایرانیِ این خانواده است. مسیر چنین است: هندواروپایی *sers- «بریدن» > ایرانی باستان *harsa-/*harra- (زیرا «س» آغازینِ هندواروپایی در ایرانی به «ه» بدل می‌شود) > فارسی میانه *arrag با افتادن «ه» آغازین > فارسی نو «ارّه» با رای مشدد. «ه» آغازین هنوز در گویش‌های همسایه مانده است: مازندرانی «هره» hare و بلوچی harrag؛ کردی ere و آسی xyrx نیز که مان آورده هم‌ریشه‌اند. دو نکته سبب می‌شود حکم را «با احتیاط پذیرفتنی» بدانیم: نخست آنکه ویکی‌واژه که همین اشتقاق را می‌دهد، منبعش خودِ همین صفحهٔ نورایی (ص ۴۴۳) است و شاهد مستقلی نیست؛ دوم آنکه نه هرن، نه هوبشمان و نه مکنزی این واژه را ندارند و صورت ایرانی کهنی برای آن گواهی نشده است. معین و دهخدا واژه را از فردوسی به بعد ثبت کرده‌اند ولی ریشه‌ای نداده‌اند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%87",
+            "https://en.wiktionary.org/wiki/serra",
+            "https://abadis.ir/fatofa/%D8%A7%D8%B1%D9%87/"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:1277",
+              "status": "supports",
+              "note": "Mann p. 1277 lists 'Per. arrah, id.' as the first witness of *srisā, *srisnā 'file, saw' — exactly the arrow drawn."
+            },
+            {
+              "ref": "MON:209",
+              "status": "partial",
+              "note": "Mo'in's اره entry (read at abadis.ir/fatofa/اره, فرهنگ معین section) gives '(اَ رِ) (اِ.) ابزاری است برای بریدن چوب یا فلز …' — the word and gloss, but no etymological tag and no Indo-European root; the 6-vol page number cannot be checked online."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Grundriss der neupersischen Etymologie, grep 'arra/Säge'",
+              "stance": "silent",
+              "note": "Horn has no entry for arre 'saw'"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien, grep 'Säge'",
+              "stance": "silent",
+              "note": "Hübschmann has no entry for the word either"
+            },
+            {
+              "src": "PHD",
+              "where": "PHD.txt, grep 'arrag' and English index 'saw'",
+              "stance": "silent",
+              "note": "MacKenzie has no Middle Persian *arrag; the word is unattested in Book Pahlavi"
+            },
+            {
+              "src": "MON",
+              "where": "فرهنگ معین / لغت‌نامهٔ دهخدا s.v. اره (abadis.ir)",
+              "stance": "partial",
+              "note": "both record اره 'saw' with classical citations from Ferdowsi, neither gives an etymology"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Latin",
+          "words": "serra",
+          "verdict": "plausible",
+          "derivation": "Latin serra is 'a saw' (and by extension the sawfish, and a saw-toothed battle line) — Nourai's gloss 'file' is a slip of the book, since Mann's own line, from which the box is copied, reads 'Lat. serra, f. ‘saw’'. On the derivation, opinions split. Klein (p. 1424) says flatly 'L., ‘a saw’, of uncertain origin'; Ernout-Meillet call it a 'terme technique sans étymologie claire'; de Vaan (EDL p. 558) does give it a pedigree, Proto-Italic *serzā < PIE *sers-eh₂ to *sers- 'to cut off', with Schrijver's sarriō 'to hoe' as a zero-grade of the same root — the *-rs- > -rr- assimilation being the regular Latin outcome, which is what makes the geminate of serra and of Persian arre match. Nourai's root-shape *srisā-/*srisnā- is Mann's, not de Vaan's, so the Latin word belongs to the family but not quite by the route the chart draws. Celtic *serrā 'sickle' is kept separate by Wiktionary.",
+          "derivation_fa": "لاتینی serra «ارّه» است (و به گسترش، ماهی اره و آرایش دندانه‌دار جنگی)؛ معنیِ «سوهان» که نورایی نوشته لغزش خودِ کتاب است، زیرا سطر مان که خانه از آن رونویسی شده «Lat. serra, f. ‘saw’» دارد. دربارهٔ ریشه، دیدگاه‌ها یکسان نیست: کلاین (ص ۱۴۲۴) می‌نویسد «از لاتینی serra «ارّه»، با خاستگاه نامعلوم» و ارنو-مییه نیز آن را بی‌ریشه‌شناسی روشن می‌دانند؛ اما دُ وان (EDL ص ۵۵۸) آن را از ایتالیایی آغازین *serzā و هندواروپایی *sers-eh₂ از ریشهٔ *sers- «بریدن» می‌آورد؛ همگونیِ ــrsــ به ــrrــ در لاتین قاعده‌مند است و همین «رای مشدد» را در «ارّهٔ» فارسی نیز توضیح می‌دهد. پس این واژه به همین خانواده تعلق دارد ولی نه دقیقاً با صورتِ ریشه‌ای که نورایی (به پیروی مان) رسم کرده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/serra"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:1277",
+              "status": "partial",
+              "note": "Mann p. 1277 does list 'Lat. serra, f. ‘saw’' under srisà/srisnà — the arrow is Mann's — but Mann glosses it 'saw', not 'file' as the chart box does."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. serra",
+              "stance": "contradicts",
+              "note": "'serra, -ae f.: 1° scie (outil) … Terme technique sans étymologie claire.' — no IE root admitted"
+            },
+            {
+              "src": "KLN",
+              "where": "vol. II p. 1424 s.v. serra",
+              "stance": "partial",
+              "note": "'serra, n., a sawlike organ (zool.) — L., ‘a saw’, of uncertain origin. Cp. sierra. Cp. also cero.' — gives the Latin gloss 'a saw', refuses an etymology"
+            },
+            {
+              "src": "POK",
+              "where": "IEW, grep 'serra'",
+              "stance": "silent",
+              "note": "no root; the only occurrence of the string is Latin sarracum/serracum 'wagon' under a different lemma"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Greek",
+          "words": "rhině",
+          "verdict": "plausible",
+          "derivation": "Greek ῥῑ́νη rhī́nē is 'a file, rasp' (and, by the same metaphor as Latin serra, the angel-shark whose skin was used to polish wood and marble); Nourai's 'rhině' renders the eta. Mann's derivation from *srisnā- is internally coherent: PIE *sr- gives Greek initial ῥ- with rough breathing (as in ῥέω < *sreu-), and the cluster *-sn- is simplified with compensatory lengthening of the preceding vowel, which is exactly what the long ῑ of ῥῑ́νη requires. No standard Greek etymological dictionary accepts it, however: Wiktionary's entry carries an explicit 'etymology needed' tag and only asks whether it might belong with ῥῑ́ς 'nose' / ῥῑνός 'hide' (which is where Mann puts ῥῑνός, under a separate root srin- (sris-) 'nose; headland'). So the phonology works but the connection is unattested elsewhere — plausible, not confirmed.",
+          "derivation_fa": "یونانی ῥῑ́νη (rhī́nē) «سوهان، سوهانِ زبر» است — و به همان استعارهٔ serra، نام کوسه‌ای که پوستش را برای صیقل چوب و سنگ به کار می‌بردند؛ «rhině» نورایی همان آوانگاریِ اتای پایانی است. اشتقاقِ مان از *srisnā- از نظر آوایی سازگار است: *sr- هندواروپایی در یونانی به ῥ- با دم‌آواز درشت بدل می‌شود (مانند ῥέω از *sreu-)، و خوشهٔ *-sn- ساده می‌شود و واکهٔ پیشین را می‌کشد — که همان «ای» کشیدهٔ ῥῑ́νη را توضیح می‌دهد. با این همه هیچ فرهنگ ریشه‌شناسی معتبر یونانی این پیوند را نپذیرفته است؛ ویکی‌واژه آشکارا «ریشه‌شناسی لازم است» زده و تنها می‌پرسد آیا با ῥῑ́ς «بینی» پیوندی دارد یا نه. پس: با احتیاط پذیرفتنی، نه تأییدشده.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AF%CE%BD%CE%B7"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:1277",
+              "status": "supports",
+              "note": "Mann p. 1277 lists the Greek word (OCR mangles ῥίνη to 'hung') as 'Gk. [rhinē] f. ‘file’' under srisà, srisnà — the arrow from the root is Mann's own."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "IEC",
+              "where": "Mann p. 1277 (srin- (sris-) 'nose; headland', same page)",
+              "stance": "partial",
+              "note": "Mann keeps ῥίς/ῥινός 'nose' in a separate lemma 'srin- (sris-) ‘nose; headland’ … Gk. hus gs: rhinós, f. ‘nose’', i.e. he deliberately separates ῥίνη 'file' from ῥίς 'nose'"
+            },
+            {
+              "src": "POK",
+              "where": "IEW, grep 'rhine/serra'",
+              "stance": "silent",
+              "note": "Pokorny has no lemma covering ῥίνη 'file'"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. serra",
+              "stance": "silent",
+              "note": "the Latin dictionary cites no Greek cognate for serra, consistent with there being no accepted equation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "serra; serrate; serradela, serranoid, serriferous, serriform, serrulate",
+          "verdict": "confirmed",
+          "derivation": "All of these are learned formations on Latin serra 'saw' and are found together on Klein's pp. 1424-1425, the page Nourai cites. serra 'a saw-like organ (zool.)' is the Latin word taken over unchanged; serrate 'notched' is L. serrātus 'sawlike' with the adjective suffix -ate; serradella (Nourai prints 'serradela') is Portuguese serradela, a diminutive of serrado 'serrated' < L. serrātus, the name of a fodder clover with toothed leaflets; serranoid is a hybrid of Modern Latin Serrānus (the fish genus named from serra) with Greek -oeidēs 'like'; serriferous is serra + the stem of ferre 'to bear'; serriform is serra + forma; serrulate is from L. serrula, the diminutive 'a little saw', + -ate. The one caveat is the AHD citation: Watkins's Indo-European Roots appendix — the list Nourai's bare 'AHD' normally points to — has no root for serra at all, so that reference can only be to AHD's ordinary dictionary entries.",
+          "derivation_fa": "همهٔ این واژه‌ها ساخته‌های دانشورانه بر پایهٔ لاتینی serra «ارّه»اند و در همان دو صفحهٔ کلاین (۱۴۲۴–۱۴۲۵) که نورایی به آن ارجاع داده کنار هم آمده‌اند: serra خودِ واژهٔ لاتین است؛ serrate از serrātus «ارّه‌مانند» با پسوند صفت‌ساز -ate؛ serradella از پرتغالی serradela، مصغّر serrado «دندانه‌دار»؛ serranoid آمیزه‌ای دورگه از لاتینِ نو Serrānus (نام جنس ماهی، از serra) و یونانی -oeidēs «مانند»؛ serriferous از serra + ستاک ferre «بردن»؛ serriform از serra + forma؛ و serrulate از serrula «ارّهٔ کوچک». تنها نکته این است که پیوستِ ریشه‌های هندواروپاییِ واتکینز (AHD) اصلاً ریشه‌ای برای serra ندارد، پس ارجاع «AHD» در اینجا تنها می‌تواند به مدخل‌های عادی فرهنگ باشد. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/serra"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1424",
+              "status": "supports",
+              "note": "Klein 1966 vol. II pp. 1424-1425 (KLN_1966.txt leaf 756, the leaf itself prints '1424 1425'): 'serra, n., a sawlike organ (zool.) — L., ‘a saw’ …'; 'serradella, n., a kind of clover. — Port. serradela, a dimin. noun formed fr. serrado, ‘serrated’, fr. L. serrātus'; 'serranoid, adj., … A hybrid coined fr. ModL. Serranus and Gk. -oeidēs'; 'serrate, adj., notched … L. serrātus, ‘sawlike’, fr. serra'; 'serriferous … Compounded of L. serra, ‘saw’, and the stem of ferre'; 'serriform, adj., sawlike. — Compounded of L. serra … and forma'; 'serrulate, adj., finely toothed. — Fr. L. serrula, ‘a little saw’, dimin. of serra'. Every word in the box is on the cited page."
+            },
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins 1985 (AHD_watkins1985.txt) has no root for serra: the index gives 'SAW! sek-' and 'SERRIED ser-3' (Lat. sera 'bar', an unrelated word), and there is no *sers-/*srisā- entry. The AHD reference can therefore only be to the main dictionary entries, not to the Indo-European appendix Nourai usually means."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "vol. II pp. 1424-25",
+              "stance": "supports",
+              "note": "the whole serra- family with the Latin base, as quoted above"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt, grep '^SERRATED/^SIERRA'",
+              "stance": "silent",
+              "note": "Skeat's Concise does not carry these technical words"
+            },
+            {
+              "src": "LAT",
+              "where": "Ernout-Meillet s.v. serra",
+              "stance": "supports",
+              "note": "lists the Latin derivatives the English words are built on: 'serrula f.; serrārius m.; serrātus: en dents de scie; … serrātula, nom italique de la ‘bétoine’; … *serrānus ‘poisson-scie’'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Sru 3, Srva 2",
+      "verdict": "confirmed",
+      "modern_form": "Avestan srva- n. 'lead; a vessel of lead' (Bartholomae, AiW col. 1649)",
+      "note": "The root box is right and Nourai's homonym numbering is right too. Bartholomae has two separate entries: 'j. srū-, srvā- f. 1) ‘Nagel’ der Finger und Zehen … 2) ‘Horn’ der Tiere' (the 'nail/horn' word, PIE *ḱer-, which Pokorny cites as 'Avestan sru-, srva- ‘horn; nail in fingers and toes’'), and immediately after it 'j. srva- n. ‘Blei; Gefäss aus Blei’: ayaŋhaēnīm vā srvaēnīm vā rāδəm ‘in a vessel of iron or of lead’ V.16.6; 8.14' — the lead word, which is the one numbered here. Buck, in the very passage Nourai means, writes 'Av. srva- neut. (Barth. 1649), NPers. surb, etym.?' — confirming both the Avestan word and Bartholomae's column number, but flagging that the family has no further Indo-European pedigree. One citation is off by a few pages: the lead section of Buck is 9.68, printed pp. 613-614, not p. 617.",
+      "note_fa": "خانهٔ ریشه درست است و شماره‌گذاری هم‌آواها نیز درست. بارتولومه دو مدخل جدا دارد: «srū-, srvā- مؤنث: ۱) ناخنِ دست و پا ۲) شاخِ جانوران» (که از ریشهٔ هندواروپایی *ḱer- است و پوکورنی هم آن را زیر همان ریشه آورده) و بی‌درنگ پس از آن «srva- خنثی: سُرب؛ ظرفِ سربی»، با شاهدِ وندیداد ۱۶٫۶ و ۸٫۱۴ «در ظرفی از آهن یا از سرب». همین دومی است که نورایی شماره‌گذاری کرده. باک نیز در بخش ۹٫۶۸ می‌نویسد «Av. srva- neut. (Barth. 1649), NPers. surb, etym.?» که هم واژهٔ اوستایی و هم شمارهٔ ستون بارتولومه را تأیید می‌کند، اما یادآور می‌شود که این خانواده ریشهٔ هندواروپاییِ شناخته‌ای ندارد. تنها لغزش، شمارهٔ صفحهٔ باک است: بخش «سرب» در صفحات ۶۱۳–۶۱۴ است نه ۶۱۷. در مجموع ادعای نورایی دربارهٔ ریشه درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A8",
+        "https://abadis.ir/fatofa/%D8%B3%D8%B1%D8%A8/"
+      ],
+      "ref_check": [
+        {
+          "ref": "BRT:1649",
+          "status": "supports",
+          "note": "Bartholomae, AiW (BRT.txt line 27481, on the leaf that carries columns 1647-1650): 'j. srva- n. ‘Blei; Gefäss aus Blei’; ayaŋhaēnīm vā srvaēnīm vā rāδəm ‘in einem Gefäss aus Eisen oder aus Blei’ V.16.6; 8.14'. Column 1649 is exactly where the entry stands."
+        },
+        {
+          "ref": "SYN:617",
+          "status": "partial",
+          "note": "Buck's 'lead' entry is 9.68 on printed pp. 613-614 (SYN.txt: '9.68 LEAD … Av. srva-' with the running head '613' immediately before and '614' after), not on p. 617; content-wise it supports: 'Av. srva- neut. (Barth. 1649), NPers. surb, etym.?'. The page number in Nourai is wrong by three."
+        },
+        {
+          "ref": "BQT:1116",
+          "status": "supports",
+          "note": "Borhan-e Qate' s.v. سرب (BQT_v2_pages.txt \\f-block 579, i.e. printed p. ~1116-1121 by the vol. 2 offset), Mo'in's footnote 1: 'اوستا srva (سرب)، پهلوی srupēn (سربی)، کردی sirib، بلوچی surub/surup، افغانی surup. رك: هوبشمان …' plus 'رك: اسرب، معرب آن نیز «اسرب»'. The Avestan → Pahlavi → Persian chain is verbatim Nourai's."
+        },
+        {
+          "ref": "SNS:183",
+          "status": "supports",
+          "note": "Tavoosi's Šāyast nē Šāyast glossary: the index line 'srubēn 183/7-184/6' and the glossary entry 'srub + ēn:' — the Pahlavi adjective occurs at 183/7, i.e. on the cited page."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "SYN",
+          "where": "Buck 9.68 LEAD, pp. 613-614",
+          "stance": "partial",
+          "note": "'Av. srva- neut. (Barth. 1649), NPers. surb, etym.?' — the Avestan word is accepted, but Buck marks the family as etymologically opaque"
+        },
+        {
+          "src": "BRT",
+          "where": "AiW col. 1649 s.v. srva- n.",
+          "stance": "supports",
+          "note": "'srva- n. ‘Blei; Gefäss aus Blei’', with V.16.6 and V.8.14; distinct from srū-/srvā- f. 'Nagel, Horn' in the preceding column"
+        },
+        {
+          "src": "POK",
+          "where": "IEW, s.v. *ḱer- 'horn'",
+          "stance": "partial",
+          "note": "'from the ǝ-basis Avestan sru-, srva- ‘horn; nail in fingers and toes’, srvara ‘horned’' — Pokorny knows only the HOMONYM (nail/horn); he has no entry for the lead word, which confirms that Nourai was right to number them apart"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "srpîn, sruběn",
+          "verdict": "confirmed",
+          "derivation": "Both forms are genuine and are two spellings of one Middle Persian word. MacKenzie has 'srub [sl(w)p | N usrub] lead' with the derived adjective '~ēn [-yn'] leaden', i.e. srubēn 'made of lead' — the -ēn suffix is the ordinary MP material adjective (cf. zarrēn 'golden', arzīzēn 'of tin'). The spelling srpīn that Nourai prints first is Horn's transcription of the same Pahlavi word: Horn, Grundriss p. 161 no. 728 gives 'aw. srva ‘Blei’; phlv. srpīn ‘bleiern’', the p standing for the /b/ of Book-Pahlavi sl(w)p. Phonetically Av. srva- (an u̯-stem) yields MP srub by the resolution of the -rv- cluster into -rub-, and the Šāyast nē Šāyast glossary records srubēn at 183/7 and 184/6. So the Avestan → Pahlavi arrow is sound.",
+          "derivation_fa": "هر دو صورت راست‌اند و در واقع دو املای یک واژهٔ فارسی میانه‌اند. مکنزی «srub [sl(w)p] سرب» و صفت آن «srubēn سربی» را ثبت کرده است؛ پسوند ــēn همان پسوند جنس‌سازِ معمول فارسی میانه است (مانند zarrēn «زرین» و arzīzēn «ارزیزی»). صورت srpīn که نورایی نخست آورده آوانگاری هرن از همین واژه است: هرن در «مبانی ریشه‌شناسی فارسی نو» ص ۱۶۱ شمارهٔ ۷۲۸ می‌نویسد «aw. srva ‘Blei’; phlv. srpīn ‘bleiern’»، که در آن p همان ب است. از نظر آوایی، خوشهٔ ــrvــ اوستایی در فارسی میانه به ــrubــ گشوده شده است. واژه‌نامهٔ شایست نه شایست نیز srubēn را در ۱۸۳/۷ و ۱۸۴/۶ ثبت کرده است. پس این حلقه درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A8"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:161",
+              "status": "supports",
+              "note": "Horn, Grundriss der neupersischen Etymologie p. 161 (HRN.txt \\f-block 183, which opens '— 161 —'), no. 728: 'surb, usrub ‘Blei’ … aw. srva ‘Blei’; phlv. srpīn ‘bleiern’. kurd. sirib; bel. surup, suruf.' Nourai's Pahlavi form and its gloss come straight from here."
+            },
+            {
+              "ref": "BQT:1116",
+              "status": "supports",
+              "note": "Mo'in's footnote to سرب in Borhan: 'اوستا srva (سرب)، پهلوی srupēn (سربی)' — same Pahlavi adjective, same Avestan source."
+            },
+            {
+              "ref": "SNS:183",
+              "status": "supports",
+              "note": "Šāyast nē Šāyast glossary index: 'srubēn 183/7-184/6'; the glossary body has 'srub + ēn:'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "A Concise Pahlavi Dictionary p. 77 s.v. srub",
+              "stance": "supports",
+              "note": "'srub [sl(w)p | N usrub] lead. ~ēn [-yn'] leaden.' — note that MacKenzie's New Persian equivalent is usrub, the prothetic form"
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II glossary",
+              "stance": "silent",
+              "note": "Nyberg's glossary (grep 'srub') has no lead word; his texts do not use it"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien § 69, p. 177",
+              "stance": "supports",
+              "note": "'surb (für *surub) = usrub ‘Blei’, afgh. bal. surup, phl. sr(u)p' — Hübschmann confirms the Pahlavi form sr(u)p"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sorb «سرب»",
+          "verdict": "plausible",
+          "derivation": "New Persian سرب sorb/surb 'lead' continues MP srub directly, with the initial cluster sr- resolved by an anaptyctic vowel (srub > surb/sorb); the by-forms Nourai prints, أُسرُب usrub and أُسرُف usruf, are the same word with a prothetic u- before the cluster, and are the forms MacKenzie actually gives as the New Persian equivalent ('N usrub'). Mo'in's footnote in Borhan adds the cognates (Kurdish sirib, Baluchi surub/surup, Afghan surup, Gilaki surb) and notes that the Arabicised form is likewise أسرب. The reason this is 'plausible' rather than 'confirmed' is Hübschmann's objection at exactly this point. In Persische Studien p. 75, annotating Horn's no. 728, he writes: 'Ebenso führt Vullers neben usrub = surb die Formen usrup und usruf an. Alle stimmen nicht zu zd. sruva- ‘Blei’ (nur als accus. srum belegt)' — the -b/-p/-f variation and the u-vocalism do not fit Avestan srva-, which is attested only in the accusative srum. Buck records the same doubt with his bare 'etym.?'. So the Iranian word for lead is certainly one word from Avestan to New Persian, but the precise Avestan-to-Persian phonetic route the chart draws is not fully accounted for, and a Wanderwort/substrate source (as for Greek mólybdos and Latin plumbum, both loans from an unknown source) remains possible.",
+          "derivation_fa": "«سرب» فارسی نو دنبالهٔ مستقیم srub فارسی میانه است؛ خوشهٔ آغازینِ sr- با واکهٔ میانجی گشوده شده (srub > سُرب). صورت‌های «أُسرُب» و «أُسرُف» که نورایی افزوده همان واژه با واکهٔ پیشافزوده‌اند و مکنزی هم برابر فارسی نوِ srub را همین usrub می‌داند. حاشیهٔ معین در برهان قاطع هم‌ریشه‌ها را می‌افزاید: کردی sirib، بلوچی surub/surup، افغانی surup، گیلکی surb، و یادآور می‌شود که معرّب آن نیز «اسرب» است. اما حکم را «با احتیاط پذیرفتنی» گذاشته‌ایم، زیرا هوبشمان در «پژوهش‌های فارسی» ص ۷۵، در حاشیهٔ شمارهٔ ۷۲۸ هرن، صریحاً می‌نویسد که صورت‌های usrub/usrup/usruf «هیچ‌کدام با اوستایی sruva- ‘سرب’ سازگار نیستند» (که تنها در حالت مفعولی srum گواهی شده است)؛ باک نیز با نوشتن «etym.?» همین تردید را نشان می‌دهد. پس واژه از اوستایی تا فارسی نو یک واژه است، ولی مسیر آواییِ دقیقی که نمودار می‌کشد هنوز توضیح داده نشده و وام‌واژه بودنِ آن (مانند mólybdos یونانی و plumbum لاتینی که هر دو وام‌اند) رد نشده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A8",
+            "https://abadis.ir/fatofa/%D8%B3%D8%B1%D8%A8/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1116",
+              "status": "supports",
+              "note": "Borhan-e Qate' s.v. سرب with Mo'in's footnote 1: 'اوستا srva (سرب)، پهلوی srupēn (سربی)، کردی sirib، بلوچی surub/surup، افغانی surup. رك: هوبشمان' and 'رك: اسرب، معرب آن نیز «اسرب»' — the Persian word, its Pahlavi and Avestan antecedents and the أسرب by-form all as drawn (BQT_v2_pages.txt \\f-block 579)."
+            },
+            {
+              "ref": "MON:266,1854",
+              "status": "partial",
+              "note": "Mo'in's سرب entry (abadis.ir/fatofa/سرب): '(سُ) [اِ.] فلزی نرم و چکش‌خوار به رنگ خاکستری…' — the definition but no etymology on the online text; Dehkhoda on the same page carries the full chain 'اوستا سرو / پهلوی سرپین / کردی / بلوچی / افغانی / گیلکی', matching Nourai. The two Mo'in page numbers (presumably اسرب at 266 and سرب at 1854) cannot be checked, as the 6-vol pagination is not online."
+            },
+            {
+              "ref": "SNS:614",
+              "status": "not_found",
+              "note": "The Šāyast nē Šāyast glossary scan runs to 242 leaves and its word index cites text lines only up to the 330s; there is no p. 614. The lead word is at SNS:183 (index: 'srubēn 183/7-184/6'), which Nourai cites correctly on the root and Pahlavi boxes. '614' looks like a misprint."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "Grundriss p. 161 no. 728",
+              "stance": "supports",
+              "note": "'surb, usrub ‘Blei’ … aw. srva ‘Blei’; phlv. srpīn ‘bleiern’. kurd. sirib; bel. surup, suruf.'"
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien p. 75, note on Horn 728 (and § 69, p. 177)",
+              "stance": "contradicts",
+              "note": "'Ebenso führt Vullers neben usrub = surb die Formen usrup und usruf an. Alle stimmen nicht zu zd. sruva- ‘Blei’ (nur als accus. srum belegt).' — Hübschmann rejects the straight Avestan derivation of the New Persian forms"
+            },
+            {
+              "src": "PHD",
+              "where": "p. 77 s.v. srub",
+              "stance": "supports",
+              "note": "'srub [sl(w)p | N usrub] lead' — MacKenzie equates the MP word with NP usrub"
+            },
+            {
+              "src": "MON",
+              "where": "فرهنگ معین / لغت‌نامهٔ دهخدا s.v. سرب (abadis.ir)",
+              "stance": "supports",
+              "note": "Dehkhoda: 'اوستا «سرو»، پهلوی «سرپین»، کردی، بلوچی «سوروپ، سوروف»، افغانی «سوروپ»، گیلکی «سورب»؛ مخفف اسرب که معرب آن است'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 9.68 LEAD, p. 614",
+              "stance": "partial",
+              "note": "'Av. srva- neut. (Barth. 1649), NPers. surb, etym.?' — accepts the equation, leaves the etymology open, and notes that Greek mólybdos and Latin plumbum are themselves loans from an unknown source"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
