@@ -1,0 +1,395 @@
+{
+  "pdf_page": 497,
+  "book_page": 467,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Tata",
+      "verdict": "disputed",
+      "modern_form": "Old Turkic 𐱃𐱃𐰺 (tatar), ethnonym of a Mongolic-speaking tribal confederation; no shorter base *Tata is attested",
+      "note": "Nourai's box reproduces Klein p.1574 s.v. Tartar: 'ML. Tartarus, fr. Pers. Tatar, ult. fr. Tata, name of the Mongols, who coming from the Gobi desert invaded Russia in the 9th cent.' The Persian->English half of that is right, but the root box is not the modern view. (1) The form: the name is already tatar, with -r, in its earliest attestation, the Old Turkic Orkhon inscriptions of Kul Tegin (732 CE) and Bilge Qaghan (735 CE), otuz tatar 'Thirty Tatar' and toquz tatar 'Nine Tatar'; Sogdian tt'r is attested in the 9th-10th c. Turco-Sogdian documents of Dunhuang. None of the sources consulted (Wiktionary, AHD, Lokotsch no. 2045, Mo'in's footnote in Borhan p.452) knows a base *Tata. (2) The date: the Mongols reached Russia in 1223-1240, not the 9th century; the Latin Tartarus spelling and the word's spread through Europe belong to the 1240s. (3) The label: 'Turkish' is loose - the word is Old Turkic at best, and in the Orkhon texts it names Mongolic-speaking tribes who were the Turks' enemies; AHD says only 'of Turkic origin'. Nourai's own Persian authority contradicts him here: Mo'in's long footnote on تاتار in Borhan-e Qate' (p.452) cites Thomsen and the Orkhon inscriptions for the 8th-c. forms سی‌تاتار / نه‌تاتار and Barthold's EI article. Verdict: disputed as to the root form and gloss; the tree hanging from it is otherwise sound.",
+      "note_fa": "نورایی ریشه را «Tata» و ترکی دانسته و عیناً از کلاین (صفحهٔ ۱۵۷۴) گرفته است؛ اما پژوهش امروزی چنین ستاکی را نمی‌شناسد: کهن‌ترین گواهی این نام، در سنگ‌نوشته‌های ترکی ارخون (کول‌تگین ۷۳۲ میلادی و بیلگه‌خاقان ۷۳۵)، همان tatar است با رای پایانی: otuz tatar «سی تاتار» و toquz tatar «نه تاتار». جالب آنکه خود معین در حاشیهٔ برهان قاطع (ص ۴۵۲) به نقل از تامسن همین را می‌گوید. نیز یورش مغول به روسیه در سدهٔ هفتم هجری/سیزدهم میلادی رخ داد، نه سدهٔ نهم. پس ادعای نورایی دربارهٔ ریشه رد می‌شود، هرچند زنجیرهٔ ترکی ← فارسی ← انگلیسی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Tatar",
+        "https://en.wikipedia.org/wiki/Tatar_(term)",
+        "https://www.ahdictionary.com/word/search.html?q=Tatar"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:1574",
+          "status": "supports",
+          "note": "Verified in KLN_1966.txt, leaf 834 (page numerals 1574/1575 printed on that leaf): 'Tartar, n. and adj. — ML. Tartarus, fr. Pers. Tatar, ult. fr. Tata, name of the Mongols, who coming from the Gobi desert invaded Russia in the 9th cent. The first r in Tartar is due to a confusion with L. Tartarus, „hell“.' Klein does say 'Tata' — so the citation is accurate; it is Klein who is out of date."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "LKT",
+          "where": "no. 2045, p. 163",
+          "stance": "partial",
+          "note": "'2045. Tk. Tatar: N. pr., Name einer großen Verzweigung des Türkenstammes' — Lokotsch treats Tatar as the primary Turkic form and gives no *Tata (grep 'Tatar' in LKT.txt, line 4597)."
+        },
+        {
+          "src": "TTS",
+          "where": "Vámbéry 1878, whole text",
+          "stance": "silent",
+          "note": "grep -i 'tatar' in incoming/TTS/TTS_pages.txt returns only the title and the phrase 'turko-tatarische Sprachen' in the preface; Vámbéry has no headword for the ethnonym."
+        },
+        {
+          "src": "BQT",
+          "where": "vol. 1, p. 452 (leaf 680), Mo'in's footnote 4 on تاتار",
+          "stance": "contradicts",
+          "note": "'نام قومی است. بقول تامسن ... در قرن هشتم میلادی (دوم هجری) در کتیبه‌های ترکی ارخون نام دو طایفه از تاتار بنام «سی‌تاتار» و «نه‌تاتار» یاد شده ... مراد از نام مذکور مغول یا بخشی از مغول بود نه قومی ترک' (BQT_v1_pages.txt, leaf 680). Mo'in gives tatar as the oldest form and points to Mongolic, not to a base *Tata."
+        },
+        {
+          "src": "AHD",
+          "where": "online dictionary s.v. Tatar",
+          "stance": "partial",
+          "note": "'Tatar ... from Persian Tātār, of Turkic origin.' Supports the Persian>English link but gives no *Tata."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "tâtâr",
+          "verdict": "plausible",
+          "derivation": "Persian تاتار tātār is a borrowing of the Turkic/Mongolic ethnonym tatar. It entered Persian in the 7th/13th century with the Mongol campaigns — Ibn al-Athīr, Juwaynī and Rashīd al-Dīn all use it — and at once became the general Islamic-world name for the Mongols (Mo'in: 'نامی که در گذشته به مغول اطلاق می‌شد'), later extended to Turkic peoples generally. Hāfeẓ's line quoted in the box (nāfe-hā-ye tātārī 'Tatar musk-pods') shows its literary use for Inner Asia, the source of musk. The chart's variants تتار / تتر are the Arabic-script spellings without the long ā (tatār, tatar). The borrowing itself is certain; what is not supported is the specific arrow drawn, i.e. that Persian added an -r to a base *Tata: the -r is already there in Old Turkic tatar (732 CE) and in Sogdian tt'r (9th-10th c.), both older than any Persian attestation. So: right word, right route (Turkic > Persian), wrong starting form.",
+          "derivation_fa": "«تاتار» وام‌واژه‌ای است از نام قومی ترکی‌مغولی tatar که در سدهٔ هفتم هجری با لشکرکشی مغولان وارد فارسی شد (ابن‌الاثیر، جوینی، رشیدالدین) و زود بر همهٔ مغولان اطلاق گردید؛ معین آن را «نامی که در گذشته به مغول اطلاق می‌شد» معنی کرده است. گونه‌های «تتار» و «تتر» همان نام بدون الف کشیده است. وام‌گیری قطعی است، اما پیوند آن به ستاکی کوتاه‌تر به شکل *Tata پذیرفتنی نیست، زیرا رای پایانی در ترکی باستان و سغدی (tt'r) از آغاز هست. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%AA%D8%A7%D8%AA%D8%A7%D8%B1/",
+            "https://en.wiktionary.org/wiki/Tatar"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:994",
+              "status": "partial",
+              "note": "Mo'in's entry تاتار read online (abadis.ir, فرهنگ معین section): '(اِ.) نامی که در گذشته به مغول اطلاق می شد.' The gloss 'a Mongol tribe' is supported; Mo'in gives no etymology there, and the 6-vol print pagination is not reproducible online, so p.994 itself could not be verified."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 1, p. 452 (leaf 680), s.v. تاتار + Mo'in's footnote",
+              "stance": "partial",
+              "note": "headword 'تاتار بر وزن ناچار، ولایتی است که مشک خوب از آنجا آورند و ترکان آنجا را نیز گویند' — confirms the Persian word and the musk association behind Hāfeẓ's line; Mo'in's footnote derives it from Orkhon Turkic tatar, not from *Tata."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss, whole text",
+              "stance": "silent",
+              "note": "grep -i 'tatar' in HRN.txt gives only 'apr. tatarwis' (Old Prussian, unrelated); Horn has no entry for the ethnonym, as expected for a loanword of the Mongol period."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien, whole text",
+              "stance": "silent",
+              "note": "grep -i 'tatar' in HUB.txt returns nothing."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 2045, p. 163",
+              "stance": "supports",
+              "note": "'Tk. Tatar: N. pr., Name einer großen Verzweigung des Türkenstammes' — the Turkic ethnonym is the source of all the European and Slavic forms; Persian is one of the transmitting languages."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "English",
+          "words": "Tatar",
+          "verdict": "confirmed",
+          "derivation": "English Tartar/Tatar appears in the late 14th c. (Mandeville, Chaucer's Squire's Tale) from Old French Tartre and Medieval Latin Tartarus/Tartari, which render Persian تاتار Tātār — the form in which the Mongol invaders' name reached the Islamic world and, through it, Europe in the 1240s. The parasitic first -r- of 'Tartar' is contamination with Latin Tartarus 'the underworld', the pun famously attributed to Louis IX and recorded by Matthew Paris (1241): the invaders were demons loosed from Tartarus. English restored the etymologically correct Tatar in the 19th c., which is why Klein's headword is Tartar and 'Tatar, n. — See Tartar' stands separately (p.1576). AHD s.v. Tatar: 'from Persian Tātār, of Turkic origin' — precisely the arrow Nourai draws.",
+          "derivation_fa": "واژهٔ انگلیسی Tatar/Tartar در اواخر سدهٔ چهاردهم میلادی از فرانسهٔ کهن Tartre و لاتین میانه Tartarus وارد شد، و آن خود برگردان فارسی «تاتار» است که در دههٔ ۱۲۴۰ میلادی از جهان اسلام به اروپا رسید. رای افزوده در Tartar از رهگذر ریشه‌شناسی عامیانه و همانندسازی با Tartarus (دوزخ لاتینی) پدید آمد. فرهنگ میراث آمریکایی (AHD) نیز می‌نویسد: «from Persian Tātār, of Turkic origin». ادعای نورایی درست است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=Tatar",
+            "https://en.wiktionary.org/wiki/Tatar",
+            "https://en.wikipedia.org/wiki/Tatar_(term)"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "ahdictionary.com s.v. Tatar: '...from Persian Tātār, of Turkic origin.' (fetched and archived)"
+            },
+            {
+              "ref": "KLN:1574",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 834 (= pp. 1574/75): 'Tartar, n. and adj. — ML. Tartarus, fr. Pers. Tatar...'; and leaf 835 (p. 1576): 'Tatar, n. — See Tartar.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "Concise Etym. Dict., p. 498 s.v. Tartar (2)",
+              "stance": "supports",
+              "note": "'Tartar (2), a native of Tartary. A perverse spelling of Tatar, owing to popular etymology which regarded [them] as let loose out of Tartarus... From Tātar, a Tatar' (SKT.txt line 19216)."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 4, s.v. Tartar / Tatar",
+              "stance": "supports",
+              "note": "'Tar'tar², a & n. Same as Tatar, the usual spelling in...' and the note 'Ethnologists well know that the name of the so-called “Tartar” race is properly Tatar and they are now endeavouring to restore this correct orthography' (FSD_vol4.txt lines 30985, 31082)."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 2045, p. 163",
+              "stance": "supports",
+              "note": "Lokotsch lists the European reflexes (Ger. Taterkorn, Tatarennachricht, Fr. tartare, Cz./Russ. tatarka) all from Tk. Tatar."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "tt`r",
+          "verdict": "plausible",
+          "derivation": "Gharib's Sogdian Dictionary no. 9697, printed p. 392: 'tt'r S — tatar — Tatar', with the reference 'S W-Ham. CII 1990 p86' = Sims-Williams & Hamilton, Documents turco-sogdiens du IXe-Xe siècle de Touen-houang (Corpus Inscriptionum Iranicarum, 1990), p. 86. The word thus occurs in secular Sogdian-script documents from Dunhuang of the 9th-10th c., where Sogdian merchants and scribes wrote the name of their Turkic/Mongol neighbours; Sogdian orthography <tt'r> represents /tatar/ (unwritten short a in the first syllable, <'> for the second ā/a). It is a contemporaneous adoption of the same Inner Asian ethnonym, not a Sogdian derivative of a shorter *Tata — on the contrary, together with Old Turkic otuz tatar (732) it is one of the strongest arguments that the -r is original. The arrow is therefore right about the family but wrong about the direction of formation.",
+          "derivation_fa": "در فرهنگ سغدی بدرالزمان قریب (مدخل ۹۶۹۷، ص ۳۹۲) «tt'r» به صورت tatar آوانگاری شده و معنی‌اش «تاتار» است؛ مأخذ آن اسناد ترکی‌سغدی تون‌هوانگ (سدهٔ نهم–دهم میلادی، نشر سیمز-ویلیامز و همیلتون، CII ۱۹۹۰، ص ۸۶) است. در خط سغدی الف کوتاه نوشته نمی‌شود، پس <tt'r> همان /tatar/ است. این وام‌گیری مستقیم از نام قومی ترکی است و خود گواهی است بر اینکه رای پایانی اصلی است، نه افزوده بر *Tata. واژه درست است، ولی جهت پیکان در نمودار دقیق نیست.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Tatar",
+            "https://en.wikipedia.org/wiki/Tatar_(term)"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:392",
+              "status": "supports",
+              "note": "Verified in SOD_pages.txt: entry '9697 tt'r S / tatar / Tatar / S W-Ham. CII 1990 p86' falls in the \\f-block whose running page numeral is 392 (leaf 459; leaf 458 heads '391', leaf 460 heads '393'). The English index of the same volume also lists 'Tatar 9697'. Nourai's page is exactly right."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 2045, p. 163",
+              "stance": "silent",
+              "note": "Lokotsch gives only the Turkic form and its European descendants; no Sogdian material (grep 'Sogd' near line 4597 finds nothing)."
+            },
+            {
+              "src": "BQT",
+              "where": "vol. 1, p. 452, Mo'in's footnote on تاتار",
+              "stance": "supports",
+              "note": "Mo'in independently dates the ethnonym to the 8th c. Orkhon inscriptions, which is consistent with a 9th-10th c. Sogdian attestation of the same -r form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Taxl, Tâxlik",
+      "verdict": "confirmed",
+      "modern_form": "Middle Persian taxl <tlhk'> 'bitter' (Manichaean MP taxr <thr>), abstract taxlīh 'bitterness'; from Proto-Iranian *taxra-",
+      "note": "The root box is right in substance. MacKenzie, A Concise Pahlavi Dictionary p. 82: 'taxl [tlhk' | (M thr), P txl, N talx] bitter', continued on p. 83 '~īh: bitterness'. Nyberg's glossary p. 198 reads the same word tahl '[t'hl] bitter ... MPrth tal; MPrs thr; Paz. tahal (SGV); NP talx'. Hübschmann (Persische Studien p. 48, no. 391) gives 'np. talx bitter, paz. tahal = phl. taxr' and reconstructs Iranian *taxra-; Wiktionary derives NP تلخ from MP <t'hl'> taxl, from Proto-Indo-Iranian *takra- (Skt. takra- 'buttermilk'), citing Mayrhofer EWAia I 611-12. The only quibble is the second form: the abstract is taxlīh (suffix -īh, Book Pahlavi <-yh>), and the long ā of Nourai's 'Tâxlik' is not supported by any of them; it is an older-style reading of <tlhkyh> that Mo'in's print edition probably carries. Not enough to downgrade the root.",
+      "note_fa": "ریشهٔ پهلوی taxl «تلخ» درست است: مکنزی (ص ۸۲) آن را به صورت taxl [tlhk'] با گونهٔ مانوی taxr ضبط کرده و مصدر آن را taxlīh «تلخی» خوانده است؛ نیبرگ (ص ۱۹۸) tahl و هوبشمان (ص ۴۸) taxr می‌خوانند و صورت ایرانی باستان را *taxra- بازسازی می‌کنند. تنها ایراد آنکه صورت دوم، Tâxlik، باید taxlīh باشد (پسوند مصدری -īh) و الف کشیدهٔ آن مستند نیست. در کلیات، ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AA%D9%84%D8%AE",
+        "https://abadis.ir/fatofa/%D8%AA%D9%84%D8%AE/"
+      ],
+      "ref_check": [
+        {
+          "ref": "MON:1131",
+          "status": "partial",
+          "note": "Mo'in's entry تلخ read online (abadis.ir, فرهنگ معین): '(تَ) [په.] (ص.) ۱ - دارای مزة غیرمطبوع، بدمزه...' — the tag [په.] is Mo'in's mark for Pahlavi origin, i.e. he does derive تلخ from Pahlavi, as Nourai says. The Latin-script Pahlavi form of the print edition is not reproduced online and the 6-vol pagination cannot be checked, so p. 1131 itself is unverified."
+        },
+        {
+          "ref": "BQT:508",
+          "status": "partial",
+          "note": "Borhan-e Qate' (Mo'in ed.) p. 508 located in BQT_v1_pages.txt at leaf 736 (offset leaf-228; leaf 740 = p.512). The page carries the تلخ- headwords (تلخ چکوک، تلخ چولک، تلخ عیشی، تلخک، تلخی), so the citation points at the right place; Mo'in's Latin-script Pahlavi footnote is not legible in the archive.org OCR of that leaf, so the specific form taxl could not be read off it."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "PHD",
+          "where": "MacKenzie p. 82-83 s.v. taxl",
+          "stance": "supports",
+          "note": "'taxl [tlhk' | (M thr), P txl, N talx] bitter.' followed on the next page by '~īh: bitterness.' (PHD.txt line 593-595; the running head of the following block is 'taxlih 83'). Exactly Nourai's pair, except that MacKenzie's abstract is taxlīh, not tāxlīk."
+        },
+        {
+          "src": "NYB",
+          "where": "Nyberg, Manual of Pahlavi II, p. 198",
+          "stance": "partial",
+          "note": "'tahl [t'hl] bitter 6119. — MPrth tal; MPrs thr (List 88); Paz. tahal (SGV); NP talx.' Same word, same New Persian outcome, but Nyberg transcribes tahl (and Manichaean thr), not taxl."
+        },
+        {
+          "src": "HUB",
+          "where": "Persische Studien p. 48 (no. 391)",
+          "stance": "supports",
+          "note": "'Hierher: np. talx ‚bitter‘, paz. tahal = phl. taxr Shk. 268, afgh. trīx, f. tarxa ‚bitter‘ ... Die persischen Formen weisen auf iranisch *taxra-.'"
+        },
+        {
+          "src": "HRN",
+          "where": "Grundriss, whole text",
+          "stance": "silent",
+          "note": "grep -i 'talx|talh|taxl|bitter' in HRN.txt finds no entry for the word (Horn's numbering skips it; Hübschmann supplies it under his no. 391)."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "talx; talx-šakŭk",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "talx-šakŭk «تلخ شکوک ( تلخ جوک )»",
+          "correct_form": "talx-čakūk «تلخ چکوک» (Borhan's variant «تلخ چولک» talx-čūlak)",
+          "derivation": "(a) تلخ talx 'bitter' is the regular New Persian continuation of Middle Persian taxl <tlhk'> (Manichaean taxr), from Old Iranian *taxra-. The sound change is the one Hübschmann states as a rule (Pers. Studien p. 266): final Old-Persian/Pahlavi -xr yields New Persian -lx — r dissimilates to l and the cluster metathesises — exactly as Pahlavi Baxr / OP Bāxtri- gives Balx. That is precisely what Nourai's NOTE ('the change of the last two letters') describes, and his comparison with maġz / mazġ 'brain' is a genuine parallel metathesis. Pazand tahal and Pashto trīx / f. tarxa confirm the pre-metathesis shape. Mo'in tags تلخ '[په.]', Pahlavi. The derivatives in the box — تلخه، تلخک (diminutive -ak), تلخکام ('bitter-palated') — are all normal New Persian formations on talx. This half is confirmed. (b) The compound printed as talx-šakŭk «تلخ شکوک (تلخ جوک)» is not the form the sources know. Borhan-e Qate' p. 508 — the very page Nourai cites — prints 'تلخ چکوک ... نام کاسنی صحرایی است، و معرّب آن طرخشقوق باشد' and the variant 'تلخ چولک'; Klein p. 1573 writes 'Pers. talkh chakok'. The book prints ش for چ and جوک for چولک — an author's misreading (very likely back-formed from the Arabic طرخشقوق, which does have ش), not an extraction error: the printed page (pdf 497 / book 467, image saved as data/verification/sources/refs/ocr/BOOK/497.png) plainly reads 'talx-šakŭk' and «تلخ شکوک ( تلخ جوک )», which the JSON reproduces faithfully. The plant is wild chicory / dandelion, lit. 'bitter čakūk'.",
+          "derivation_fa": "الف) «تلخ» دنبالهٔ قاعده‌مند فارسی میانهٔ taxl (مانوی taxr) از ایرانی باستان *taxra- است. هوبشمان (ص ۲۶۶) قاعده را چنین می‌آورد: خوشهٔ پایانی -xr در فارسی نو به -lx بدل می‌شود؛ یعنی ر به ل ابدال می‌گردد و دو واج قلب می‌شوند — درست همان‌گونه که پهلوی Baxr به «بلخ» رسید. پس یادداشت نورایی دربارهٔ «تغییر دو حرف آخر» و قیاس آن با «مغز/مزغ» درست است. ب) اما ترکیبی که کتاب «تلخ شکوک (تلخ جوک)» چاپ کرده، در منابع به این شکل نیست: برهان قاطع در همان صفحهٔ ۵۰۸ «تلخ چکوک ... نام کاسنی صحرایی است، و معرّب آن طرخشقوق باشد» و گونهٔ «تلخ چولک» دارد، و کلاین هم talkh chakok می‌نویسد. بنابراین شکوک/جوک خطای خود نورایی است (احتمالاً از روی صورت عربی طرخشقوق ساخته شده)، نه خطای خوانش اسکن؛ تصویر صفحهٔ چاپی ۴۶۷ همین را نشان می‌دهد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%84%D8%AE",
+            "https://abadis.ir/fatofa/%D8%AA%D9%84%D8%AE/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1131",
+              "status": "supports",
+              "note": "Mo'in s.v. تلخ: '(تَ) [په.] (ص.) ۱ - دارای مزة غیرمطبوع، بدمزه. ۲ - زننده، سخت... ۳ - تندخو، بدخلق.' The [په.] tag = Pahlavi origin, supporting the arrow Pahlavi taxl > NP talx and the gloss 'bitter'."
+            },
+            {
+              "ref": "BQT:508",
+              "status": "supports",
+              "note": "BQT_v1_pages.txt leaf 736 (= printed p. 508): 'تلخ چکوک — با خای نقطه‌دار و جیم و کاف و واو و کاف دیگر ... نام کاسنی صحرایی است، و معرّب آن طرخشقوق باشد، و بعربی نید گویند' plus 'تلخ چولک ... بمعنی تلخ چکوک است که کاسنی صحرانی باشد'. The page supports the Persian>Arabic arrow exactly; it also shows that the Persian word is چکوک, not شکوک."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien p. 266 (§ ap. xr – np. lx) and p. 48 (no. 391)",
+              "stance": "supports",
+              "note": "'b) Ap. xr — np. lx: talx ‚bitter‘, paz. tahal (= tahl) = phl. taxr Shk. 268, Dīnkart VI Gl. p.2, afgh. trīx, fem. tarxa; Balx ... ap. Baxtri-' — the metathesis rule Nourai's NOTE alludes to, stated explicitly."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 82 s.v. taxl",
+              "stance": "supports",
+              "note": "'taxl [tlhk' | (M thr), P txl, N talx] bitter' — MacKenzie himself gives New Persian talx as the outcome."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg II p. 198 s.v. tahl",
+              "stance": "partial",
+              "note": "'tahl [t'hl] bitter ... NP talx' — same equation, different reading of the Pahlavi (tahl not taxl)."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein p. 1573 s.v. Taraxacum",
+              "stance": "partial",
+              "note": "'fr. Pers. talkh chakok, lit. ‚bitter herb‘' — supports the compound but with č, not š; relevant to word (b) of this node."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Persian headword index",
+              "stance": "silent",
+              "note": "grep 'تلخ' in incoming/ARY/ARY_pages.txt returns only incidental occurrences (ترخینه/تلخینه and glosses inside other entries); no headword تلخ."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "tarax-šaqŭq",
+          "verdict": "confirmed",
+          "derivation": "Arabic طَرَخْشَقُوق ṭaraxsaqūq (also طرخشقون ṭaraxsaqūn and the shortened طرشقون) 'wild chicory, dandelion' is the muʿarrab of Persian تلخ چکوک talx-čakūk 'bitter čakūk (wild chicory)'. Persian t- was rendered by the emphatic ط (the usual Arabization of Persian t in plant and drug names), the č of چکوک by ش, and the ending was reshaped as -qūq / -qūn. Borhan-e Qate' p. 508 says it in so many words: 'معرّب آن طرخشقوق باشد'. Klein p. 1573: 'Arab. tarakhshaqun, tarakhshaquq, fr. Pers. talkh chakok, lit. ‚bitter herb‘'; Skeat p. 497 and Lokotsch no. 2025 say the same. The word belongs to the Arabic-Persian pharmacological tradition (it is the plant of Ibn Sīnā's Qānūn), and from there it passed into Latin medicine. Nourai's transliteration drops the emphatic (ṭ) and writes the vowel as ŭ, otherwise the node is right; note that the Arabic form was then re-borrowed into Persian as طرخشقوق/طرشقون, a Persian>Arabic>Persian round trip that Dehkhoda records.",
+          "derivation_fa": "عربی طرخشقوق (و طرخشقون، طرشقون) معرّب «تلخ چکوک» فارسی است؛ ت فارسی در عربی به ط بدل شده (قاعده‌ای رایج در نام گیاهان و داروها)، چ به ش، و پایانهٔ واژه به قالب عربی -قوق/-قون درآمده است. برهان قاطع (ص ۵۰۸) صریحاً می‌گوید «معرّب آن طرخشقوق باشد» و کلاین و اسکیت و لوکوچ هم همین را می‌آورند. این واژه از راه طب اسلامی (قانون ابن‌سینا) به اروپا رسید و سپس خود به فارسی بازگشت (دور فارسی ← عربی ← فارسی). ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B7%D8%B1%D8%B4%D9%82%D9%88%D9%86/",
+            "https://en.wiktionary.org/wiki/Taraxacum"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:508",
+              "status": "supports",
+              "note": "'تلخ چکوک ... نام کاسنی صحرایی است، و معرّب آن طرخشقوق باشد' (BQT_v1_pages.txt leaf 736 = p. 508). This is exactly the Persian>Arabic arrow."
+            },
+            {
+              "ref": "KLN:1573",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 833 (page numeral 1573 printed on that leaf): 'Taraxacum, n., a genus of plants of the chicory family (bot.) — ModL., fr. Arab. tarakhshaqun, tarakhshaquq, fr. Pers. talkh chakok, lit. ‚bitter herb‘.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 2025, p. 162",
+              "stance": "supports",
+              "note": "'2025. Ar. tarahšakūn: ‚Wilde Zichorie‘; hieraus lat. taraxacum ‚Löwenzahn, Leontodon taraxacum‘, frz. taraxacon; engl. taraxacum. [Devic DEt 216/217. Lammens Rem 235.]' — Arabic confirmed as the source, though Lokotsch does not name the Persian original."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 497 s.v. Taraxacum",
+              "stance": "partial",
+              "note": "'From Arab. taraxacon, explained as a kind of succory. Pers. tarkhashqūn, wild endive; latinised as taraxacon in Avicenna. (Devic; supp. to Littré.)' — Skeat has the Persian form in its re-borrowed Arabic shape, not as talx-čakūk."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir, Alfaẓ al-Fārisiyya al-Muʿarraba",
+              "stance": "silent",
+              "note": "grep 'طرخش' / 'شقوق' in AFM_pages.txt finds only الطرخان and الطرخون (tarragon); Addi Shir has no entry for طرخشقوق."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep 'tarax|tarhaš|Zichorie|Wegwarte' in incoming/PLA/PLA_pages.txt returns only kāsnī ('Zichorie ... aus pers. کاسنی'); طرخشقوق is not among Asbaghi's lemmata."
+            },
+            {
+              "src": "MON",
+              "where": "Dehkhoda/abadis s.v. طرشقون",
+              "stance": "supports",
+              "note": "the Persian dictionaries gloss طرخشقوق/طرشقون as the dandelion, Taraxacum officinale, = گل قاصد، قاصدک، هندباء بری، کاسنی بری — the same plant as Borhan's کاسنی صحرایی."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "taraxacum",
+          "verdict": "confirmed",
+          "derivation": "Medieval Latin taraxacum / taraxacon is a straight transliteration of Arabic ṭaraxsaqūq / ṭaraxsaqūn, picked up by the 12th-13th c. Latin translators of Arabic medicine (Avicenna's Qānūn, Serapion); Weber took it in 1780 as the genus name Taraxacum for the dandelions. English taraxacum is the pharmacists' word for the dried root of Taraxacum officinale used as a bitter tonic — exactly the gloss 'a kind of chicory' in the box, the dandelion being reckoned to the chicory family (Cichoriaceae/Asteraceae). Klein p. 1573 and Lokotsch no. 2025 both give the Arabic source, Skeat p. 497 adds 'latinised as taraxacon in Avicenna', and Wiktionary derives the genus from Medieval Latin taraxacum from Arabic طرخشقون. The rival derivation from Greek τάραξις 'disturbance' + ἄκος 'remedy', still repeated in popular sources, is a learned folk etymology and is not accepted by any of the dictionaries consulted here.",
+          "derivation_fa": "لاتین میانه taraxacum/taraxacon آوانگاری مستقیم عربی طرخشقوق است که از راه ترجمهٔ لاتینی قانون ابن‌سینا و کتاب‌های سراپیون در سدهٔ ۱۲–۱۳ میلادی وارد طب اروپایی شد، و وبر در ۱۷۸۰ آن را نام جنس قاصدک قرار داد. در انگلیسی taraxacum نام دارویی ریشهٔ خشکیدهٔ قاصدک است. کلاین (ص ۱۵۷۳)، اسکیت (ص ۴۹۷) و لوکوچ (شمارهٔ ۲۰۲۵) همگی مأخذ عربی را تأیید می‌کنند. ریشه‌شناسی یونانی (τάραξις + ἄκος) ریشه‌شناسی عامیانه‌است و پذیرفته نیست. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Taraxacum"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1573",
+              "status": "supports",
+              "note": "KLN_1966.txt leaf 833 (= p. 1573): 'Taraxacum, n., a genus of plants of the chicory family (bot.) — ModL., fr. Arab. tarakhshaqun, tarakhshaquq, fr. Pers. talkh chakok, lit. ‚bitter herb‘.' Covers the whole Persian>Arabic>Latin>English chain of this entry."
+            },
+            {
+              "ref": "WEB:1865",
+              "status": "not_checked",
+              "note": "Only volume 1 (A–Mem) of Webster's New Twentieth Century Dictionary 2nd ed. is available on disk / open on archive.org (WEB_vol1.txt ends in the 'mem-' range); 'taraxacum' occurs there only inside the entries dandelion and horse gowan. Page 1865 is in the unavailable second half."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 2025, p. 162",
+              "stance": "supports",
+              "note": "'hieraus lat. taraxacum ‚Löwenzahn, Leontodon taraxacum‘, frz. taraxacon; engl. taraxacum.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat p. 497 s.v. Taraxacum",
+              "stance": "supports",
+              "note": "'Taraxacum, the dandelion. (Arab.) From Arab. taraxacon, explained as a kind of succory ... latinised as taraxacon in Avicenna.'"
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls vol. 4 s.v. Taraxacum",
+              "stance": "partial",
+              "note": "'Ta-rax'a-cum, n. Bot. A genus of stemless herbs of the family Cichoriaceae ... T. officinale or taraxacum is the common dandelion' — confirms the botanical sense and the chicory family, but the OCR of the entry shows no etymology bracket."
+            },
+            {
+              "src": "WEB",
+              "where": "Webster's 2nd ed. vol. 1, s.v. dandelion",
+              "stance": "partial",
+              "note": "'dandelion ... in botany, a common plant, Taraxacum officinale, having a milky, perennial root...' — the only accessible Webster material; the taraxacum headword is in the missing second half."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
