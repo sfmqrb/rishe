@@ -1,0 +1,709 @@
+{
+  "pdf_page": 493,
+  "book_page": 463,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "S.x.r",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root س-خ-ر (s-x-r), verb سَخِرَ saxira (min) 'to mock, deride'; maf‘ala-noun مَسْخَرَة masxara(t) 'laughing-stock, buffoonery'",
+      "note": "The root box is right: the Arabic triliteral س خ ر does mean 'to ridicule' in its Form I سَخِرَ saxira (min-) 'he scoffed at', and the noun of that base is مَسْخَرَة. (The homograph سَخَّرَ saxxara 'to press into service, subjugate' — Qur'an 13:2, 14:32 — is a second, non-mocking branch of the same consonantal root; Nourai's gloss picks the branch he needs and that is legitimate.) The weak joint on this page is not the Arabic root but the Arabic→Italian arrow (node #3): Klein, Skeat, Lokotsch, Devic (after Engelmann-Dozy) and Webster all derive It. maschera from masxarah, but since Meyer-Lübke and the DELI the standard Romance view starts from Late/Medieval Latin masca 'witch, spectre', attested in the Lombard Edictus Rothari §197 of 643 CE, i.e. two centuries before any Arab presence in Italy. Everything downstream of Italian (French masque, English mask/masque, Persian ماسک) is unaffected and solid.",
+      "note_fa": "ریشهٔ عربی «س‌خ‌ر» و معنای «ریشخند کردن» درست است: فعل «سَخِرَ (مِن)» یعنی «مسخره کرد، ریشخند زد» و اسم آن بر وزن مَفْعَلَة «مَسْخَرَة» است. (فعل دیگرِ همین ریشه، «سَخَّرَ» به معنی «رام کرد، به بیگاری گرفت»، شاخهٔ معنایی جداگانه‌ای است و در قرآن بارها آمده.) نقطهٔ سست این نمودار ریشهٔ عربی نیست، بلکه پیکانِ عربی ← ایتالیایی است: کلاین، اسکیت، لوکوچ و دِویک (به پیروی از دوزی) «maschera» ایتالیایی را از «مسخرة» می‌گیرند، اما ریشه‌شناسی امروزی زبان‌های رومی آن را از لاتینی متأخر masca «جادوگر، شبح» می‌داند که در «ادیکتوس روتاری» لومباردی به سال ۶۴۳ میلادی ــ دو قرن پیش از حضور عرب در ایتالیا ــ ثبت شده است. حلقه‌های پس از ایتالیایی (فرانسوی masque، انگلیسی mask، فارسی ماسک) به هر حال استوارند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AE%D8%B1%D8%A9",
+        "https://www.etymonline.com/word/mask",
+        "https://en.wiktionary.org/wiki/masca"
+      ],
+      "ref_check": [
+        {
+          "ref": "SAP:683",
+          "status": "not_checked",
+          "note": "SAP = Ahmad Sayyah, Farhang-e Sayyah (Persian rendering of al-Munjid); refs_online.json marks it kind='purchase' (fidibo only, no scan, no archive.org copy), so p.683 could not be opened. The Arabic-side claim is however independently secured by Klein, Skeat and Richardson (see consulted)."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt leaf 508 (printed ≈ p.990), s.v. mask",
+          "stance": "supports",
+          "note": "'mask, n. — MF. (= F.) masque, fr. ML. masca, fr. It. maschera, fr. Arab. maskharah, \"mockery; buffoon\", fr. sākhira, \"he mocked, ridiculed\".' (grep -n 'maskharah' KLN_1966.txt → line 23047)"
+        },
+        {
+          "src": "SKT",
+          "where": "SKT.txt leaf 297, s.v. Mask, Masque (printed ≈ p.297 of the I-M sequence)",
+          "stance": "supports",
+          "note": "'— Arab. maskharat, a buffoon, jester, man in masquerade, a pleasantry, anything ridiculous. — Arab. root sakhira, he ridiculed. ¶ Fully proved; other etymologies are worthless.'"
+        },
+        {
+          "src": "LKT",
+          "where": "LKT.txt no. 1436 (line 3304)",
+          "stance": "supports",
+          "note": "'Ar. mashara: \"Verspottung, Possenreifser\", hieraus it. maschera, sp. pg. mascara, mit rom. Endung sp. mascarada, frz. mascarade und hieraus durch Abfall der letzten Silben frz. masque; dtsch. Maske…'"
+        },
+        {
+          "src": "DEV",
+          "where": "DEV.txt line 1690, s.v. Mascarade",
+          "stance": "supports",
+          "note": "'Il a été surabondamment démontré … par MM. Malin et Dozy, que mascara et maschera ne sont rien autre que l'arabe maskhara signifiant bouffon, farceur, histrion; plaisanterie, drôlerie, moquerie.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "masxarah",
+          "verdict": "confirmed",
+          "derivation": "مَسْخَرَة masxara(t) is the regular maf‘ala-noun built on the Form I verb سَخِرَ saxira 'to deride' (pattern maf‘ala of abundance/instance, cf. مَهْلَكَة mahlaka from هَلَكَ). Classical Arabic lexica (Lisān al-‘Arab s.v. سخر) gloss it both abstractly, 'mockery, buffoonery', and concretely, 'a laughing-stock, one who is mocked, a buffoon'; plural مَساخِر masāxir 'antics, farces'. Nourai's spelling masxarah renders the pausal tā’ marbūṭa, exactly as Klein's maskharah and Skeat's maskharat. The step root→noun is purely morphological and is not in doubt.",
+          "derivation_fa": "«مَسْخَرَة» اسمِ ساخته‌شده بر وزن مَفْعَلَة از فعل «سَخِرَ» است (مانند «مَهْلَکَة» از «هَلَکَ») و در فرهنگ‌های کهن عربی هم به معنی «ریشخند، دلقک‌بازی» و هم به معنای شخص «مضحکه، دلقک» آمده است؛ جمع آن «مَساخِر». این پله صرفاً صرفی است و هیچ تردیدی در آن نیست. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AE%D8%B1%D8%A9"
+          ],
+          "ref_check": [
+            {
+              "ref": "SAP:683",
+              "status": "not_checked",
+              "note": "Sayyah/al-Munjid p.683 unavailable (purchase-only per refs_online.json); the Arabic entry itself is confirmed from Wiktionary (root س خ ر), Klein and Richardson."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt line 23047, s.v. mask",
+              "stance": "supports",
+              "note": "'fr. Arab. maskharah, \"mockery; buffoon\", fr. sākhira, \"he mocked, ridiculed\"'"
+            },
+            {
+              "src": "RCH",
+              "where": "RCH.txt lines 84476-84477, s.v. maskharah",
+              "stance": "supports",
+              "note": "'A maskharah: A buffoon, a fool, a jester, a droll, a wag; a facetious man. A man in masquerade. A pleasantry, anything ridiculous or mirthful, sport.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 297, s.v. Mask",
+              "stance": "supports",
+              "note": "'Arab. maskharat, a buffoon, jester … — Arab. root sakhira, he ridiculed.'"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "masxareh «مسخره»",
+          "verdict": "confirmed",
+          "derivation": "A straight Arabic loan taken into New Persian in the early Islamic centuries: Arab. masxara(t) → NP masxare, the tā’ marbūṭa written with final ه and pronounced -a/-e as in every Arabic فَعْلَة/مَفْعَلَة loan (جمعه jom‘e, مدرسه madrase). Persian narrowed the abstract noun to a person — 'clown, buffoon' — and used it adjectivally 'ridiculous', with the compound verb مسخره کردن 'to ridicule' (already in Richardson 1829). Persian in turn was the transmitter onward: Ottoman Turkish مسخره → Turkish maskara, Urdu/Hindi masxarā, Punjabi, Uzbek, Uyghur, Bengali moskorā, Armenian մասխարա, Georgian მასხარა (Wiktionary, Descendants s.v. مسخرة, explicitly routed 'via Persian').",
+          "derivation_fa": "«مسخره» وام‌واژه‌ای عربی است که در سده‌های نخست اسلامی به فارسی نو راه یافت؛ تاء مربوطهٔ عربی مانند همهٔ وام‌واژه‌های هم‌وزن (جمعه، مدرسه) به «ـه» بدل شد. معنا از «ریشخند» به «شخصِ مضحک، دلقک» و صفت «خنده‌آور» گسترش یافت و ترکیب «مسخره کردن» ساخته شد (ریچاردسون ۱۸۲۹ آن را ثبت کرده). فارسی خود واسطهٔ انتقال این واژه به ترکی عثمانی (maskara)، اردو، ازبکی، بنگالی، ارمنی و گرجی شده است. معین آن را با نشانِ [ع. مسخرة] می‌آورد؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AE%D8%B1%D8%A9",
+            "https://abadis.ir/fatofa/%D9%85%D8%B3%D8%AE%D8%B1%D9%87/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:4109",
+              "status": "supports",
+              "note": "Mo'in's entry read through abadis.ir (page numbers are not mapped online): 'مسخره (مَ خَ رِ) [ع. مسخرة] ریشخند، شوخی' — the bracketed [ع.] tag is exactly Nourai's claim of an Arabic source. The page number 4109 is consistent with Mo'in's continuous lexicon pagination (م-words in vol. 3; cf. MON:3699 for ماسک on the same page)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir فرهنگ معین s.v. مسخره",
+              "stance": "supports",
+              "note": "'[ ع . مسخرة ] ریشخند، شوخی' — Arabic origin tag."
+            },
+            {
+              "src": "RCH",
+              "where": "RCH.txt line 84477",
+              "stance": "supports",
+              "note": "'maskharah kardan: To ridicule or deride; to play the buffoon' — the Persian compound verb already in Richardson's Persian-Arabic-English dictionary."
+            },
+            {
+              "src": "BQT",
+              "where": "grep 'مسخره' over BQT_v1/v2/v3/v4_pages.txt",
+              "stance": "silent",
+              "note": "Borhan-e Qate' has no headword مسخره (it is a transparent Arabic loan, outside Borhan's Persian-word remit)."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Italian",
+          "words": "maschera",
+          "verdict": "disputed",
+          "derivation": "Two problems. (a) The gloss: It. maschera does not mean 'mockery'; from its first attestations it means 'mask, visor' (and 'masked figure'), the abstract being mascherata. (b) The arrow: the derivation It. maschera < Arab. masxarah is the 19th-century view of Engelmann-Dozy, taken over by Skeat ('fully proved; other etymologies are worthless'), Klein, Lokotsch (no. 1436) and Webster. Modern Romance etymology rejects it on chronology and phonology: the base word is Medieval Latin masca 'witch, spectre', first attested in the Lombard Edictus Rothari §197 (643 CE, 'striga quod est masca'), a century before Islam reached Sicily and two before any Arabic lexical influence in northern Italy; It. maschera reflects a suffixed *mascara/*mascra with anaptyxis. The source of masca itself is contested — Proto-West Germanic *maskā 'mesh, net' (> PIE *mesg- 'knot'), or a pre-Roman Mediterranean substrate word also behind Occitan masco 'witch' and Old French mascurer 'to blacken the face'. Etymonline records the Arabic explanation only as one of several 'perhaps' options; Wiktionary's It. maschera derives it from Late Latin masca with no Arabic step at all. The Arabic etymology is therefore not refuted outright (the semantic fit with Italian carnival buffoonery is good and Arabic masxarah did reach Spanish), but it is no longer the accepted account.",
+          "derivation_fa": "دو اشکال دارد. نخست معنا: «maschera» در ایتالیایی از نخستین کاربردها «نقاب، صورتک» است، نه «ریشخند» (معنای انتزاعی را با mascherata می‌رسانند). دوم خودِ پیکان: گرفتن maschera از «مسخرة» عربی رأی دوزی و انگلمان در سدهٔ نوزدهم است که اسکیت، کلاین و لوکوچ آن را پذیرفتند، ولی ریشه‌شناسی امروزی زبان‌های رومی آن را رد می‌کند؛ زیرا صورت پایه، masca لاتینیِ سده‌های میانه به معنی «جادوگر، شبح» است که در قانون‌نامهٔ روتاریِ لومباردی (بند ۱۹۷، سال ۶۴۳ م.) پیش از هرگونه تماس زبانی با عربی در ایتالیا ثبت شده است. خاستگاه خودِ masca مورد اختلاف است: یا ژرمنی غربی آغازین *maskā «تور، چشمهٔ تور»، یا واژه‌ای از زیرلایهٔ پیش‌رومی که در masco «جادوگر» اکسیتانی هم دیده می‌شود. بنابراین: پژوهش امروزی ادعای نورایی را در این حلقه نمی‌پذیرد، هرچند آن را یکسره ناممکن هم نمی‌شمارد.",
+          "sources": [
+            "https://www.etymonline.com/word/mask",
+            "https://en.wiktionary.org/wiki/maschera",
+            "https://en.wiktionary.org/wiki/masca"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:944",
+              "status": "supports",
+              "note": "Klein does say what Nourai's arrow says: s.v. mask (KLN_1966.txt line 23047, leaf 508) 'MF. masque, fr. ML. masca, fr. It. maschera, fr. Arab. maskharah'. Note (i) Klein interposes ML. masca between French and Italian, which Nourai omits, and (ii) the printed page could not be pinned: the local OCR has no page markers and leaf 508 works out to printed p. ≈990 rather than 944 — the page reference, not the content, is what I could not confirm."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 297, s.v. Mask, Masque",
+              "stance": "supports",
+              "note": "'— Span. mascara … — Arab. maskharat … ¶ Fully proved; other etymologies are worthless.' Skeat even routes it through Spanish rather than Italian."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt no. 1436",
+              "stance": "partial",
+              "note": "Supports the Arabic source but a different internal route: 'hieraus it. maschera, sp. pg. mascara, … frz. mascarade und hieraus durch Abfall der letzten Silben frz. masque' — Lokotsch gets Fr. masque from mascarade, not from It. maschera."
+            },
+            {
+              "src": "DEV",
+              "where": "DEV.txt line 1690, s.v. Mascarade",
+              "stance": "supports",
+              "note": "Engelmann-Dozy's demonstration, 'contrairement à l'opinion de Diez'; Devic already registers that Diez (the founder of Romance etymology) dissented — the dissent is what modern handbooks have followed."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113291, s.v. mask",
+              "stance": "supports",
+              "note": "'mask … [Fr. masque, a mask, visor, from Ar. maskharah, a buffoon.]'"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "masque",
+          "verdict": "confirmed",
+          "derivation": "Middle French masque 'covering for the face' is first recorded in 1514 and is agreed on all sides to be a borrowing of Italian maschera (with loss of the unstressed post-tonic syllable: maschera → masque), taken over during the Italianising fashion of the early 16th century, when the Venetian and Florentine carnival mascherata reached the French court. Etymonline: 'from French masque … from Italian maschera'; Klein: 'MF. (= F.) masque, fr. ML. masca, fr. It. maschera'. This link is independent of the dispute over the ultimate origin of maschera (node #3). Lokotsch alone prefers masque < mascarade by apocope, a minority view.",
+          "derivation_fa": "«masque» فرانسوی نخستین‌بار در ۱۵۱۴ م. ثبت شده و همهٔ منابع آن را وام‌گیری از «maschera» ایتالیایی می‌دانند (با افتادن هجای بی‌تکیهٔ پایانی: maschera > masque)، در دورهٔ رواج مد ایتالیایی در دربار فرانسه که کارناوال و «mascherata» ونیزی و فلورانسی به فرانسه رسید. این حلقه، مستقل از اختلاف بر سر خاستگاه نهایی maschera، پذیرفته است؛ تنها لوکوچ masque را از mascarade می‌گیرد که رأی اقلیت است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/mask",
+            "https://en.wiktionary.org/wiki/maschera"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:944",
+              "status": "supports",
+              "note": "KLN_1966.txt line 23047 s.v. mask: 'MF. (= F) masque, fr. ML. masca, fr. It. maschera' — the French←Italian arrow is Klein's own. (Page number unverifiable in the local scan; see node #3.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 297 s.v. Mask",
+              "stance": "partial",
+              "note": "'— F. masque, a mask, visor; a clipped form, due to F. vb. masquer … — Span. mascara' — Skeat has French from Spanish, not Italian."
+            },
+            {
+              "src": "PHN",
+              "where": "PHN.txt line 7186ff., s.v. MASCARADE (index p. 956)",
+              "stance": "supports",
+              "note": "Pihan's article treats fr. masque/mascarade/mascaron as one family of oriental origin passing through It./Sp. mascara."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113291",
+              "stance": "supports",
+              "note": "'[Fr. masque, a mask, visor …]' — English from French."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "mâsk «ماسک»",
+          "verdict": "confirmed",
+          "derivation": "ماسک mâsk is a modern European loan, taken into Persian in the 20th century together with the medical and theatrical vocabulary that came in through French; the spelling with ک and the vowel â reproduce French masque [mask] (not English mask, which would more naturally give مَسک). Mo'in tags it [فر.] = فرانسوی 'French' and glosses it نقاب، روبند، صورتک; Wiktionary gives 'possibly from French masque or English mask'. It coexists with the older native/Arabic synonyms نقاب neqâb and روبنده rubande, and is now the ordinary word for a surgical or face mask (ماسک صورت).",
+          "derivation_fa": "«ماسک» وام‌واژه‌ای اروپایی و نو است که در سدهٔ چهاردهم خورشیدی همراه با واژگان پزشکی و نمایشی از راه فرانسه به فارسی آمد؛ آوای «آ» و املای «ماسک» صورت فرانسویِ masque را بازمی‌تاباند نه انگلیسیِ mask را. معین آن را با نشانِ [فر.] (فرانسوی) و معنای «نقاب، روبند، صورتک» آورده است. این واژه در کنار «نقاب» و «روبنده» به کار می‌رود و امروز واژهٔ رایج برای «ماسک صورت» است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B3%DA%A9",
+            "https://abadis.ir/fatofa/%D9%85%D8%A7%D8%B3%DA%A9/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:3699",
+              "status": "supports",
+              "note": "Mo'in s.v. ماسک, read through abadis.ir: '[ فر . ] نقاب، روبند، صورتک' — the [فر.] tag is precisely Nourai's French→Persian arrow. (Print page numbers are not exposed online; 3699 is consistent with the position of ما- in Mo'in's continuous pagination, below مسخره at 4109.)"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "abadis.ir فرهنگ معین s.v. ماسک",
+              "stance": "supports",
+              "note": "'[ فر . ] نقاب ، روبند، صورتک'"
+            },
+            {
+              "src": "BQT",
+              "where": "grep 'ماسک' over BQT_v1-v5 pages files",
+              "stance": "silent",
+              "note": "Borhan-e Qate' (1062/1651) is three centuries older than the loan; no entry, as expected."
+            },
+            {
+              "src": "ARY",
+              "where": "grep 'ماسک' over ARY_pages.txt",
+              "stance": "silent",
+              "note": "Aryanpur's dictionary covers only words of Indo-European inheritance in Persian; a modern French loan is outside its scope."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "mask; masque; masquerade; mascara",
+          "verdict": "plausible",
+          "derivation": "mask (1530s) and masque are one word: ME had nothing, the noun came in from Middle French masque, the spelling masque being kept for the Elizabethan/Jacobean court entertainment (Ben Jonson's masques) and mask for the face-covering; Klein: 'masque, n. … — F. masque. See mask.' So far Nourai's arrow from French masque is exact. The other two words do not come from French masque itself: masquerade (1590s) is French mascarade borrowed from Spanish mascarada 'a ball at which masks are worn' (Klein, s.v. masquerade), and mascara (the cosmetic, 19th c.) is Spanish máscara 'a mask' (Klein: 'Sp. mascara, \"a mask\", fr. Arab. maskharah'), i.e. it re-enters English from the Iberian branch of the family, not through France. The node is therefore right for mask/masque and loose for masquerade/mascara, which need a Spanish box that the chart does not draw.",
+          "derivation_fa": "«mask» و «masque» یک واژه‌اند: در دههٔ ۱۵۳۰ از فرانسوی میانه masque وارد انگلیسی شد و املای masque برای نمایش‌های درباری (masqueهای بن جانسون) و mask برای «نقاب» تخصیص یافت؛ تا اینجا پیکان نورایی دقیق است. اما دو واژهٔ دیگر مستقیماً از masque فرانسوی نیامده‌اند: «masquerade» (۱۵۹۰م) از mascarade فرانسوی است که خود از mascarada اسپانیایی گرفته شده، و «mascara» (آرایشی، سدهٔ نوزدهم) از máscara اسپانیایی است. پس این گره برای mask/masque درست و برای masquerade/mascara تقریبی است؛ شاخهٔ اسپانیایی در نمودار رسم نشده است. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/mask",
+            "https://www.etymonline.com/word/masquerade"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no refs= in the book; the parent node's KLN:944 was checked instead and it covers mask, masque, masquerade and mascara in adjacent entries (KLN_1966.txt lines 23036, 23047, 23057)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt lines 23047 (mask), 23057 (masque, masquerade), 23036 (mascara)",
+              "stance": "partial",
+              "note": "'masquerade, n. — F. mascarade, fr. Sp. mascarada … fr. mascara, \"mask\"'; 'mascara, n. … — Sp. mascara, \"a mask\", fr. Arab. maskharah' — Spanish, not French, for these two."
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 297, s.v. Mask, Masque",
+              "stance": "partial",
+              "note": "'Der. masquerade, F. mascarade, from Span. mascarada' — same split."
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt line 113291, s.v. mask",
+              "stance": "supports",
+              "note": "'mask … [Fr. masque, a mask, visor, from Ar. maskharah, a buffoon.] 1. a covering for the face … to conceal or disguise the identity.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Syand\nSindhu",
+      "verdict": "plausible",
+      "modern_form": "Sanskrit सिन्धु síndhu- m. 'river, stream; the Indus; sea' (< Proto-Indo-Iranian *sindʰu-); Sanskrit √syand (syándate) 'to flow' is a real but probably unrelated root",
+      "note": "Both words in the root box are genuine Sanskrit: √syand 'to flow, run' (syándate, RV) and síndhu- 'river, flood, the Indus; ocean' (RV, and the river-goddess Sindhu). Nourai's gloss 'the sea' for sindhu is one of its attested senses (it is Hobson-Jobson's rendering, whence his HJB:433). What is not current is the derivation of síndhu- FROM syand-: that is the traditional Indian/19th-century etymology which Skeat repeats verbatim ('Skt. sindhu … — Skt. syand, to flow'), but it fails phonologically (a derivative of syand- should show *syandhu-/*syand-), and Mayrhofer's EWAia leaves síndhu- unexplained. Wiktionary's current Sanskrit entry offers instead a BMAC substrate loan or, alternatively, a connection to sedhati 'to go, move'. The rest of the box — that síndhu- is the etymon of Hind/India — is beyond doubt and is what the whole chart actually rests on; hence 'plausible' rather than 'disputed'.",
+      "note_fa": "هر دو واژهٔ جعبهٔ ریشه، سنسکریت اصیل‌اند: ریشهٔ «syand-» (syándate) «روان شدن» و «síndhu-» «رود، سیل، رودِ سند؛ دریا» (هر دو در ریگ‌ودا). معنای «دریا» که نورایی آورده یکی از معانی ثبت‌شدهٔ sindhu است (برگرفته از هابسن‌جابسن). آنچه امروزه پذیرفته نیست، اشتقاقِ síndhu- از syand- است: این ریشه‌شناسی سنتیِ دستورنویسان هند و سدهٔ نوزدهم (اسکیت) است، ولی از نظر آوایی درست درنمی‌آید (از syand- باید *syandhu- ساخته شود) و مایرهوفر síndhu- را «نامعلوم» می‌داند؛ ویکی‌واژه آن را وام‌واژه‌ای از زیرلایهٔ باختریِ BMAC یا مربوط به sedhati «رفتن» می‌شمارد. اما بخش دوم ادعا ــ اینکه síndhu- اصلِ «هند» و India است ــ قطعی است و ستون همین نمودار است؛ از این‌رو حکم «با احتیاط پذیرفتنی».",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%81",
+        "https://www.etymonline.com/word/indigo"
+      ],
+      "ref_check": [
+        {
+          "ref": "SKT:260",
+          "status": "supports",
+          "note": "Skeat s.v. Indigo (SKT.txt leaf 244, the I-section — the OCR carries no page digits, but Indigo falls where p.260 of the 1911 Concise would be): 'Indigo, a blue dye. (F. — Span. — L. — Gk. — Pers. — Skt.) … — Pers. Hind, India; a name due to the river Indus. — Skt. sindhu, the river Indus; a large river. — Skt. syand, to flow. ¶ The Persian changes s into h.' This is verbatim Nourai's root box, and the ¶ note is the source of his Avestan/Old Persian s→h remark."
+        },
+        {
+          "ref": "HJB:433",
+          "status": "supports",
+          "note": "Hobson-Jobson s.v. INDIA, INDIES (HJB.txt line 11477, leaf 484; the following leaf is headed 'INDIAN. 437 INDIGO,' so the article does begin at p.433): 'The origin of the name is without doubt (Skt.) Sindhu, \"the sea,\" and thence the Great River on the West … this name exchanged the initial sibilant for an aspirate, and became (eventually) in Persia Hindu, and so passed on to the Greeks and Latins, viz. Ἰνδοί for the people, Ἰνδός for the river.' Nourai's gloss 'the sea' is taken straight from here."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt line 19161, leaf 422, s.v. India",
+          "stance": "partial",
+          "note": "'India, n. — L., fr. Gk. Ἰνδία, fr. Ἰνδός, \"the river Indus\", fr. OPers. Hindu, fr. OI. sindhuh, \"river\", spec. \"the river Indus\"' — the whole chain, but Klein stops at sindhu- and says nothing about syand-."
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt, full-text grep for 'sindhu', 'syand', 'Indus'",
+          "stance": "silent",
+          "note": "Watkins' Indo-European Roots appendix has no entry covering sindhu-/Hindu-/India (the only hits are the word 'Hindus' in the introduction and 'INDIGENT/INDIGO'-type index lines under other roots). Nourai's bare 'AHD' on nodes #3 and #4 must therefore point at the main AHD dictionary, not the IE appendix."
+        },
+        {
+          "src": "HJB",
+          "where": "HJB.txt line 11477ff., s.v. INDIA, INDIES",
+          "stance": "supports",
+          "note": "As quoted above; also 'Sindh' as the surviving native name of the lower Indus country."
+        },
+        {
+          "src": "SYN",
+          "where": "SYN.txt (Buck), grep 'sindhu'",
+          "stance": "silent",
+          "note": "Buck's synonym dictionary treats 'river' and 'sea' but does not discuss Skt. sindhu-'s internal etymology."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "hend; hendî",
+          "verdict": "plausible",
+          "derivation": "The forms are real but Nourai's citation shape is New-Persian-ised. Avestan has hindu-/həndu- 'river; the land of the Indus, India' — Bartholomae's AiW s.v. hindav-, həndav- 'Name eines Lands, Indien', citing Vd 1.18 hapta həndu 'the seven rivers' (= Skt. saptá síndhavaḥ) and Yt 5(?) 'haca usastara həndva avi daošastarəm həndum' 'from the eastern Hindu to the western'. Old Persian has Hiⁿdu- (written h-i-du-u-š, DPe, DNa 25, DSe 24, DSm 10, XPh 25), Elamite hi-in-du-iš, the satrapy of Sind; Kent's lexicon s.v. Hiⁿdu- gives exactly 'Av. hindu-, Skt. sindhu- \"stream, the Indus, country around the Indus\"'. The sound law is the regular Proto-Iranian *s > h before a vowel (Skt. sáptá : Av. hapta, Skt. sóma : Av. haoma), which is what Skeat's '¶ The Persian changes s into h' means. Two reservations: (a) neither Avestan nor Old Persian has a form 'hend' with e — that vocalism is the later New Persian هند; (b) 'hendî' is NOT Avestan or Old Persian: the Old Persian gentilic is Hiⁿduya- (Hiduya, A?P 13), while hendī/hindī with the nisba -ī is an Arabic-Persian formation of the Islamic period (it is the Arabic form, as Hobson-Jobson notes s.v. HINDOO: 'The word in this form is Persian; Hindi is that used in Arabic'). The missing middle link, unmentioned by Nourai, is Middle Persian Hindūg/Hindūk (Hübschmann, Persische Studien: 'hindu = phl. hinduk', pl. 'hinduvān … phl. hindukān', Arm. Hndik-k' 'India').",
+          "derivation_fa": "صورت‌ها واقعی‌اند اما املای نورایی «هندی‌شده» است. در اوستا hindu-/həndu- «رود؛ سرزمین سند، هند» آمده است (بارتولومه، فرهنگ ایرانی باستان، ذیل hindav-: «نام سرزمینی، هند»، با شاهدِ وندیداد ۱٫۱۸ «hapta həndu» = سنسکریت saptá síndhavaḥ «هفت رود»)، و در پارسی باستان Hiⁿdu- (به خط میخی h-i-du-u-š در کتیبه‌های DNa و XPh) نام ساتراپیِ سند است؛ کنت نیز همین را با مقایسهٔ «اوستایی hindu-، سنسکریت sindhu-» می‌آورد. قانون آوایی، تبدیل منظم *s ایرانی آغازین به h در آغاز واژه است (سنسکریت sapta : اوستایی hapta). دو نکته: نخست آنکه صورت «hend» با «ـه‌ـ» نه اوستایی است نه پارسی باستان، بلکه تلفظ فارسی نو است؛ دوم آنکه «hendî» اصلاً اوستایی/پارسی باستان نیست ــ صفت پارسی باستان Hiⁿduya- است و «هندی» با یای نسبت ساختی عربی‑فارسی و متعلق به دورهٔ اسلامی است. حلقهٔ میانیِ ناگفته هم فارسی میانهٔ Hindūg/Hindūk است (هوبشمان: «hindu = phl. hinduk»). پس: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%81",
+            "https://www.etymonline.com/word/indigo"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:787",
+              "status": "supports",
+              "note": "Klein s.v. Hindu (KLN_1966.txt line 17822, leaf 395): 'Hindu, also Hindoo, n., one of the Hindu race. — Pers. Hindu, fr. Hind, \"India\", fr. OI. Sindhuh, \"the river Indus; the region of the river Indus\".' The h-section of Klein sits at leaf 395 ≈ printed p.767-787, so 787 is within reach; the local OCR has no page markers, so the exact page could not be confirmed. Note Klein labels the intermediary 'Pers.', not Avestan/Old Persian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "BRT.txt line 30076 (leaf 986), s.v. hindav-",
+              "stance": "supports",
+              "note": "'j. hindav-, həndav-, p. hiⁿdav- m. Name eines Lands, Indien: … haca usastara °dva avi daošastarəm °dum V.1.18 … mit hapta \"sieben\" dn.: … yō hapta °du' — Avestan and Old Persian forms side by side, exactly as the chart's language label has them."
+            },
+            {
+              "src": "KNT",
+              "where": "KNT_full.txt line 29835, lexicon s.v. Hiⁿdu-",
+              "stance": "supports",
+              "note": "'Hiⁿdu- sb. \"Sind\", a province of the Persian Empire, on the upper Indus River; Elam. hi-in-du-iš; Av. hindu-, Skt. sindhu- \"stream, the Indus, country around the Indus\". … Hiduš nsm. DPe; DNa 25; DSe 24; DSm 10; XPh 25.' Kent also has the separate adjective 'Hiⁿduya- adj. \"(man) of Sind\"', which is what 'hendî' should have been."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt lines 7615, 8640, 8696 (Persische Studien pp. ~214, 242-243)",
+              "stance": "partial",
+              "note": "'Hind = ap. Hindu- Indien; Hindu Inder = phl. Hinduk, arm. Hndik-k\\' \"Indien\"'; 'hindu = phl. hinduk'; 'hindu Inder, pl. hinduvān … phl. hindukān Phl. Ys. 56, 11, 6' — supports the chain but inserts the Middle Persian stage the chart skips."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "Hend «هند ( هندوستان )»; hendevâneh «هندوانه»",
+          "verdict": "confirmed",
+          "derivation": "NP هند Hend continues Old Persian Hiⁿdu- through Middle Persian Hindūg/Hind (Hübschmann: 'hindu = phl. hinduk'), the OP -u stem being reduced to a bare consonant stem; هندوستان Hendūstān is the same word with the productive place-suffix -stān (Av. stāna- 'place', from stā- 'to stand'), and هندو hendū 'an Indian, a Hindu' is the u-stem preserved. هندوانه hendevâne 'watermelon' is a transparent Persian derivative: هندو hendū 'Indian' + the relational suffix ـانه -āne, i.e. 'the Indian one', so Nourai's gloss \"from India\" is right. The naming is the same as Arabic بطّيخ هندي biṭṭīx hindī and Persian خربزهٔ هندو 'Indian melon' listed in Borhan-e Qate', which also records the older variant هندوبانه hendūbāne (Ibn al-Balkhi's Fārs-nāma, 12th c.) and quotes a Yemeni gloss 'a fruit that comes from India'. (Mo'in, in his Borhan footnote, adds the dialect forms: Dezfuli, Gilaki, Tabari, and Isfahani gazi sendū, 'attributed to Sind'.)",
+          "derivation_fa": "«هند» فارسی دنبالهٔ Hiⁿdu- پارسی باستان است که از راه فارسی میانهٔ Hindūg/Hind به فارسی نو رسیده (هوبشمان: «hindu = phl. hinduk»)؛ «هندوستان» همان واژه با پسوند جای‌نام‌سازِ «ـستان» (اوستایی stāna- «جای») است و «هندو» صورتِ ستاکِ ـu را نگاه داشته است. «هندوانه» ساختی سرراست فارسی است: «هندو» + پسوند نسبت «ـانه»، یعنی «(میوهٔ) هندی»؛ پس شرح نورایی «از هند» درست است. همین نام‌گذاری در عربی «بِطّیخ هندی» و در فارسی «خربزهٔ هندو» دیده می‌شود. برهان قاطع صورت کهن‌تر «هندوبانه» (فارس‌نامهٔ ابن‌البلخی) و شرح «لغت یمنی: میوه‌ای که از هند می‌آید» را آورده و معین در حاشیه گونه‌های گویشی (دزفولی، گیلکی، طبری و گزیِ اصفهان «سِندو») را افزوده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%AF%D9%88%D8%A7%D9%86%D9%87",
+            "https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%81"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The node carries no refs= in the book, so there is nothing of Nourai's to check here; the claim was tested against Borhan-e Qate', Hübschmann and Wiktionary instead (see consulted)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "BQT_v4_pages.txt line 18854, [pdf page 463], s.v. هندوانه",
+              "stance": "supports",
+              "note": "'هندوانه … * هندوبانه «فارسنامهٔ ابن‌البلخی ۱۲۷» از هندوان … لغت یمنی: میوه‌ای که از هند می‌آید … [قی: بطیخ‌الهندی] و قی: خربزهٔ هندو، بطیخ هندی … در لهجهٔ گزی اصفهان: سندو (منسوب به سند)' — 'the fruit that comes from India', with the Sind-based dialect form as a bonus."
+            },
+            {
+              "src": "HUB",
+              "where": "HUB.txt line 8696 (Persische Studien p. ~243)",
+              "stance": "supports",
+              "note": "'hindu Inder, pl. hinduvān (Indien A.M. 6, 10) — phl. hindukān Phl. Ys. 56, 11, 6' — the Persian word and its Pahlavi antecedent."
+            },
+            {
+              "src": "HJB",
+              "where": "HJB.txt line 11078, s.v. HINDOO",
+              "stance": "supports",
+              "note": "'This is a term derived from the use of the Mahommedan conquerors (see under INDIA). The word in this form is Persian; Hindi is that used in Arabic.'"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "Hindu; tamarind",
+          "verdict": "plausible",
+          "derivation": "Hindu is correctly drawn from Persian: English (from the 17th c., via Persian usage in Mughal India and the travellers' literature) Hindoo/Hindu < Pers. هندو Hindū 'an Indian' (Klein s.v. Hindu: 'Pers. Hindu, fr. Hind, \"India\"'), the word having been applied by the Muslim conquerors to the non-Muslim natives, whence the religious sense. tamarind, however, does not come from Persian directly: it is Arabic تمر هندي tamr hindī 'Indian date', latinised as Medieval Latin tamarindus, Old French tamarinde, Middle English tamarinde — the AHD entry gives exactly this chain and notes that 'medieval Arabian merchants imported it from India'. Persian is present only inside the Arabic compound (Arab. hindī is built on Hind, itself the Persian name, as AHD says: 'hindī, of India, from Persian Hind'); Hobson-Jobson adds that the name may 'perhaps rather [be] in Persian form, tamr-i-Hindī'. So the arrow is right about the ultimate Persian element but skips the Arabic and Romance mediation that actually carried the word.",
+          "derivation_fa": "«Hindu» به‌درستی از فارسی گرفته شده است: انگلیسی Hindoo/Hindu از سدهٔ هفدهم، از راه کاربرد فارسی در هندِ گورکانی، از «هندو»ی فارسی (کلاین: «Pers. Hindu, fr. Hind»)، واژه‌ای که فاتحان مسلمان به بومیان نامسلمان می‌دادند و از همین‌جا معنای دینی یافت. اما «tamarind» یکسره از فارسی نیامده است: از «تمر هندی» عربی («خرمای هندی») است که در لاتینیِ سده‌های میانه tamarindus و در فرانسوی کهن tamarinde شد و از آنجا به انگلیسی میانه رسید؛ فرهنگ American Heritage همین زنجیره را می‌دهد و می‌افزاید که «بازرگانان عرب آن را از هند می‌آوردند». سهم فارسی تنها در جزءِ «هندی» است. هابسن‌جابسن نیز می‌گوید شاید صورت اصلی فارسیِ «تمرِ هندی» بوده باشد. پس: با احتیاط پذیرفتنی است؛ واسطهٔ عربی و رومی در نمودار رسم نشده.",
+          "sources": [
+            "https://ahdictionary.com/word/search.html?q=tamarind"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Checked twice. (a) The local Watkins 1985 IE-roots appendix (AHD_watkins1985.txt) has no entry for sindhu-/Hindu-/tamarind — grep is silent, so the citation cannot mean the IE appendix. (b) The main AHD (ahdictionary.com, archived) s.v. tamarind does support it, but with the Arabic step Nourai leaves out: 'Middle English tamarinde, from Medieval Latin tamarindus, from Arabic tamr hindī, Indian dates: tamr, dates + hindī, of India, from Persian Hind, India.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt line 38089 (tamarind), line 17822 (Hindu)",
+              "stance": "partial",
+              "note": "'tamarind … — Sp. tamarinda (also Port. and It.), fr. Arab. tamr Hindī, \"Indian date\" … For the second element in tamarind see Hindu, India.' — Klein too routes tamarind through Arabic and Spanish, and only Hindu directly from Persian."
+            },
+            {
+              "src": "HJB",
+              "where": "HJB.txt line 11439ff., leaf 937, s.v. TAMARIND (printed ≈ p.890)",
+              "stance": "supports",
+              "note": "'The origin of the name is curious. It is Ar. tamar-u'l-Hind, \"date of India,\" or perhaps rather in Persian form, tamr-i-Hindī.'"
+            },
+            {
+              "src": "AID",
+              "where": "AID.txt, grep 'tamarind'/'Hindu'",
+              "stance": "silent",
+              "note": "Whitworth's Anglo-Indian Dictionary gives the plant but no etymological chain beyond 'Hind.'"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Greek",
+          "words": "Indos",
+          "verdict": "confirmed",
+          "derivation": "Greek Ἰνδός 'the river Indus' (and Ἰνδοί 'the Indians', Ἰνδία 'India') is a direct borrowing of Old Persian Hiⁿdu-, taken over in Ionian Asia Minor in the 6th-5th c. BCE — the Persians were the Greeks' informants about the eastern satrapies, and Hekataios and then Herodotos (3.94, 4.44) use Ἰνδοί of the people of the Achaemenid satrapy Hiⁿduš. The loss of the initial h- is the psilosis of the East Ionic dialect through which the word passed (the same dialect that gave ἵππος : Ion. ἴππος), so OPers. Hindu- → Ion. Ἰνδός, not *Ἵνδος. Klein states the chain without comment: 'Gk. Ἰνδία, fr. Ἰνδός, \"the river Indus\", fr. OPers. Hindu'.",
+          "derivation_fa": "«Ἰνδός» یونانی (نام رود سند) و «Ἰνδοί» (هندیان) و «Ἰνδία» وام‌گیریِ مستقیم از Hiⁿdu- پارسی باستان است که در سدهٔ ششم و پنجم پیش از میلاد در آسیای صغیر ایونی صورت گرفت؛ آگاهی یونانیان از ساتراپی‌های خاوری از راه هخامنشیان بود و هکاتایوس و سپس هرودوت (۳٫۹۴ و ۴٫۴۴) «Ἰνδοί» را برای مردم ساتراپیِ Hiⁿduš به کار می‌برند. افتادن «ه» آغازین پیامد «سایش‌زدایی» (psilosis) گویش ایونی خاوری است که واژه از آن گذر کرده؛ از این‌رو Ἰνδός و نه *Ἵνδος. کلاین همین زنجیره را بی‌چون‌وچرا می‌آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/indigo"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "not_found",
+              "note": "AHD_watkins1985.txt (the local Watkins IE-roots appendix, which is what Nourai's bare 'AHD' normally means) has no entry for Indos/Indus/sindhu-: grep for 'sindhu', 'syand', 'Indus' returns only unrelated index and preface lines. The main AHD dictionary does carry the etymology under India/Indus, but a page could not be cited."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt line 19161, s.v. India",
+              "stance": "supports",
+              "note": "'L., fr. Gk. Ἰνδία, fr. Ἰνδός, \"the river Indus\", fr. OPers. Hindu, fr. OI. sindhuh'"
+            },
+            {
+              "src": "HJB",
+              "where": "HJB.txt line 11477, s.v. INDIA, INDIES (p.433)",
+              "stance": "supports",
+              "note": "'…became (eventually) in Persia Hindu, and so passed on to the Greeks and Latins, viz. Ἰνδοί for the people, Ἰνδός for the river, Ἰνδική and India for the country on its banks.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 244, s.v. Indigo",
+              "stance": "supports",
+              "note": "'— Gk. Ἰνδικόν, indigo; neut. of Ἰνδικός, Indian. — Pers. Hind, India; a name due to the river Indus.'"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "Indus",
+          "verdict": "confirmed",
+          "derivation": "Latin Indus 'the river Indus; an Indian' and India 'India' are ordinary Hellenistic-period borrowings of Gk. Ἰνδός / Ἰνδία with the regular Latin substitution of -us/-a for Greek -ος/-ία; they enter Latin with the Alexander literature and the geographers (Pliny, NH 6.71ff., 'Indus incolis Sindus appellatus' — Pliny even knows the native s-form). The adjective Indicus (< Gk. Ἰνδικός) yields indicum 'indigo', the vehicle of node #6. Klein: 'India, n. — L., fr. Gk. Ἰνδία'.",
+          "derivation_fa": "«Indus» و «India» لاتینی وام‌گیری‌های عادیِ دورهٔ هلنیستی از Ἰνδός و Ἰνδία یونانی‌اند، با جایگزینی منظم پایانهٔ ‑us/‑a به‌جای ‑ος/‑ία؛ این واژه‌ها با ادبیات اسکندر و جغرافی‌نویسان وارد لاتین شدند (پلینی، تاریخ طبیعی ۶٫۷۱: «Indus incolis Sindus appellatus» ــ او حتی صورت بومی با «س» را می‌شناسد). صفت Indicus (از Ἰνδικός) واژهٔ indicum «نیل» را می‌دهد که پایهٔ گرهِ بعدی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/indigo"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No refs= on this node in the book; checked against Klein and Skeat instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt lines 19161, 19163 (India, Indic)",
+              "stance": "supports",
+              "note": "'India, n. — L., fr. Gk. Ἰνδία'; 'Indic, adj. … — L. Indicus, fr. Gk. Ἰνδικός, fr. Ἰνδία.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 244, s.v. Indigo",
+              "stance": "supports",
+              "note": "'— L. indicum, indigo; neut. of Indicus, Indian (hence Indian dye).'"
+            },
+            {
+              "src": "LAT",
+              "where": "LAT.txt (Ernout-Meillet), grep 'Indus'",
+              "stance": "silent",
+              "note": "Ernout-Meillet's dictionary of inherited Latin excludes Greek-derived proper names of this kind."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "India; Indian; indigo; indium",
+          "verdict": "confirmed",
+          "derivation": "India (OE India, re-borrowed in ME from Latin) and Indian (ME Indien, from Old French indien / Med. Latin indianus) are the Latin word naturalised. indigo is the same root by a commercial route: Gk. ἰνδικόν (φάρμακον) 'the Indian dye', neut. of Ἰνδικός → L. indicum → Sp. índico / Port. endego → Du. indigo → Fr./Eng. indigo, first in English 1550s as indico, the colour sense from the 1620s and Newton's spectral band in 1704. indium is a learned 19th-century coinage: Reich and Richter discovered the metal at Freiberg in 1863 and named it in 1864 from Modern Latin indicum 'indigo' + -ium, for the brilliant indigo-blue line in its spark spectrum. All four therefore descend from Latin Indus/Indicus as the chart draws them.",
+          "derivation_fa": "«India» و «Indian» همان واژهٔ لاتینی‌اند که از راه فرانسوی کهن و لاتینیِ سده‌های میانه در انگلیسی جا افتاده‌اند. «indigo» از همان ریشه اما از راه بازرگانی آمده است: یونانی ἰνδικόν (φάρμακον) «رنگِ هندی» ← لاتین indicum ← اسپانیایی índico ← هلندی indigo ← انگلیسی indigo (نخستین کاربرد ۱۵۵۰م به صورت indico؛ معنای «رنگ» از ۱۶۲۰م و نامِ نوار طیفی از نیوتن، ۱۷۰۴م). «indium» ساختی علمی است: رایش و ریشتر در ۱۸۶۳م این فلز را در فرایبرگ یافتند و در ۱۸۶۴م از indicum «نیل» به‌علاوهٔ پسوند ‑ium نامیدند، به سبب خطِ نیلی‌رنگِ درخشان در طیف آن. پس هر چهار واژه، چنان‌که نمودار می‌کشد، از Indus/Indicus لاتینی‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/indigo"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No refs= on this node; the parent chain's AHD/KLN citations were checked instead."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "KLN_1966.txt lines 19161, 19188, s.v. India / indigo",
+              "stance": "supports",
+              "note": "'indigo, n., a blue dye. — F., fr. Du. indigo, borrowed fr. Sp. indico, indigo, fr. L. indicum … fr. Gk. ἰνδικόν (short for Ἰνδικὸν φάρμακον, lit. \"Indian dye\"), neut. of Ἰνδικός, \"Indian\". See Indic.' Klein's India entry also cross-refers 'Cp. Hindu, indign, indium, sandia, sendal, sindon.'"
+            },
+            {
+              "src": "SKT",
+              "where": "SKT.txt leaf 244, s.v. Indigo",
+              "stance": "supports",
+              "note": "'Indigo, a blue dye. (F. — Span. — L. — Gk. — Pers. — Skt.) F. indigo. — Span. indico. — L. indicum … — Gk. ἰνδικόν … — Pers. Hind, India.'"
+            },
+            {
+              "src": "WEB",
+              "where": "WEB_vol1.txt, s.v. indium",
+              "stance": "supports",
+              "note": "Webster gives indium as named from the indigo-blue line of its spectrum, matching Etymonline's 1864 dating."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Šypwr",
+      "verdict": "confirmed",
+      "modern_form": "Syriac ܫܝܦܘܪܐ šīpūrā / Jewish Babylonian Aramaic שִׁיפּוּרָא šīppūrā 'horn, trumpet, shofar'",
+      "note": "The root box is right in language, form and gloss. Aramaic šīpūrā / Syriac šīpōrā 'trumpet' is the Aramaic counterpart of Hebrew שׁוֹפָר šōfār (the ram's-horn of the synagogue), the p being spirantised to [f] in Aramaic; the same word gave Arabic شَبُّور šabbūr 'trumpet', which Borhan-e Qate' registers as a mu‘arrab beside šeypūr. Nourai's 'Šypwr' is simply the consonantal skeleton š-y-p-w-r. The Aramaic→Persian borrowing is the standard explanation of شیپور in Persian lexicography (Mo'in's footnote in Borhan, Dehkhoda, Nöldeke's Persische Studien, Vullers) and is what Wiktionary now gives. The one weak link is the intermediate Pahlavi box (node #1), which no Middle Persian lexicon attests.",
+      "note_fa": "جعبهٔ ریشه از هر سه جهت ــ زبان، صورت و معنی ــ درست است. «شیپورا»ی آرامی/سریانی «بوق، کَرِنا» همتای آرامیِ «شوفار» عبری (شاخِ قوچِ کنیسه) است و «پ» در آرامی به [ف] سایشی بدل شده؛ همین واژه «شَبّور» عربی را هم داده که برهان قاطع آن را معرّب و هم‌ارز «شیپور» می‌آورد. نگارشِ «Šypwr» در کتاب صرفاً اسکلتِ همخوانیِ ش‑ی‑پ‑و‑ر است. وام‌گیری آرامی ← فارسی، تبیین معیار در فرهنگ‌نویسی فارسی است (حاشیهٔ معین بر برهان، دهخدا، نولدکه، ولرس) و ویکی‌واژه نیز همان را می‌آورد. تنها حلقهٔ سست، جعبهٔ فارسی میانه است (گرهِ ۱) که در هیچ واژه‌نامهٔ پهلوی شاهدی ندارد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B4%DB%8C%D9%BE%D9%88%D8%B1",
+        "https://abadis.ir/fatofa/%D8%B4%DB%8C%D9%BE%D9%88%D8%B1/"
+      ],
+      "ref_check": [
+        {
+          "ref": "TZF:77",
+          "status": "not_checked",
+          "note": "TZF = Abolghasemi, Tārīx-e Moxtaṣar-e Zabān-e Fārsī; refs_online.json has no downloadable copy (ketabnak.com login-only, not on archive.org), so p.77 could not be read. The Aramaic→Persian claim is independently confirmed by Mo'in's own footnote in Borhan-e Qate' and by Wiktionary (see consulted)."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BQT",
+          "where": "BQT_v3_pages.txt line 8496 ([pdf page 110-111] of the vol.3 scan ≈ printed p.1315-1319), s.v. شیپور",
+          "stance": "supports",
+          "note": "Mo'in's etymological footnote: 'شیپور از آرامی و سریانی گرفته شده «نقی‌زاده … یادگار، سال چهارم، شمارهٔ …»' — 'šeypūr is taken from Aramaic and Syriac'. The entry also equates it with شیبور ('۸ = شیبور. هر دو در شاهنامه آمده'), noting that Wolff's Shahnameh index renders both by Tuba/Trompete."
+        },
+        {
+          "src": "MON",
+          "where": "abadis.ir فرهنگ معین s.v. شیپور",
+          "stance": "partial",
+          "note": "'(شَ) (اِ.) = شبور: از سازهای بادی، دارای دهانه‌ای گشاد' — Mo'in equates šeypūr with شبور but gives no origin tag in the online text."
+        },
+        {
+          "src": "AFA",
+          "where": "AFA.txt (Fraenkel, Die aramäischen Fremdwörter im Arabischen), grep 'sipura', 'Schofar', 'Trompete'",
+          "stance": "silent",
+          "note": "No hit; Fraenkel treats Aramaic loans in Arabic and does not cover the Persian word."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "šayfur",
+          "verdict": "unverified",
+          "derivation": "A Sasanian-period borrowing of Aramaic šīpūrā into Middle Persian is entirely plausible in principle — Aramaic supplied Middle Persian with a whole stratum of vocabulary (and its writing system), and the -f- Nourai writes is in fact the right reflex: post-vocalic p in Aramaic is spirantised to [f] (šīp̄ūrā), so an MP *šēfūr/šayfūr is what one would expect. But I could find no attestation. MacKenzie's Concise Pahlavi Dictionary has no šēpūr/šayfūr (its word for 'trumpet' is gāw-dumb, lit. 'ox-tail', PHD.txt lines 2312, 4080); Nyberg's glossary is likewise silent; Wiktionary's شیپور entry records no Middle Persian form at all and derives the New Persian word straight from Aramaic/Syriac. Nourai's only authority is TZF:77, which I could not open. The Pahlavi box should be read as a reconstruction, not an attested form, and its vocalism (šay- rather than šē-) is Nourai's New-Persian-style transcription.",
+          "derivation_fa": "وام‌گیری «شیپورا»ی آرامی به فارسی میانه در دورهٔ ساسانی به‌خودی‌خود پذیرفتنی است ــ آرامی لایه‌ای بزرگ از واژگان (و خطِ) فارسی میانه را فراهم کرده ــ و حتی «ف»ی که نورایی می‌نویسد بازتاب درستی است، زیرا «پ» پس از واکه در آرامی سایشی و [ف] می‌شود (šīp̄ūrā). اما هیچ شاهدی نیافتم: در فرهنگ پهلویِ مکنزی چنین واژه‌ای نیست (واژهٔ پهلویِ «بوق» در آن gāw-dumb «دُمِ گاو» است) و واژه‌نامهٔ نیبرگ هم خاموش است؛ ویکی‌واژه نیز هیچ صورت فارسی میانه‌ای ثبت نکرده و واژهٔ فارسی نو را یکسره از آرامی/سریانی می‌گیرد. تنها مأخذ نورایی TZF:77 است که در دسترس نبود. پس این جعبه را باید بازسازی (با ستاره) دانست نه صورتی گواهی‌شده؛ آوانگاریِ šay- هم به سبک فارسی نو است نه فارسی میانه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%DB%8C%D9%BE%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "TZF:77",
+              "status": "not_checked",
+              "note": "Abolghasemi's Tārīx-e Moxtaṣar-e Zabān-e Fārsī is not available online (login-gated PDF at ketabnak.com; not on archive.org) — this is the only place Nourai's Pahlavi form could be sourced."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "PHD.txt / PHD_mackenzie.txt, grep 'šyp', 'šēpūr', 'šayfur', 'trumpet'",
+              "stance": "contradicts",
+              "note": "MacKenzie has no such headword. The š-section (PHD.txt line 583) runs šēb 'declivity', šēb- 'move quickly', šēdā, šēr, šēwan — no šēpūr. MacKenzie's English-Pahlavi index gives 'trumpet gawdumb' (line 4080) and 'horn srū; (trumpet) gāwdumb' (line 2312)."
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt, grep 'trumpet', 'šēpūr', 'šypwr'",
+              "stance": "silent",
+              "note": "Nyberg's Pahlavi glossary returns no hit for the word."
+            },
+            {
+              "src": "BQT",
+              "where": "BQT_v3_pages.txt, Mo'in's footnote s.v. شیپور",
+              "stance": "partial",
+              "note": "Mo'in names Aramaic and Syriac as the source but says nothing about a Pahlavi intermediary, i.e. he does not corroborate this box."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "šaypŭr «شیپور ( شیپور )»",
+          "verdict": "transcription_suspect",
+          "error_in": "extraction",
+          "book_prints": "شیپور ( شیبور )",
+          "correct_form": "شیپور ( شیبور )",
+          "derivation": "The etymology itself is confirmed: NP شیپور šeypūr 'trumpet, bugle' is a loan from Aramaic/Syriac šīpūrā (Hebrew šōfār), already fully naturalised in the 10th-11th c. — Ferdowsi uses it in the line the book quotes, «بفرمود تا برکشیدند نای / همان سنج و شیپور و هندی درای», and Nizami and Asadi have it too; Dehkhoda glosses it 'نفیر، کرنای کوچک' and lists the Hebrew/Aramaic/Syriac derivation (alongside a folk-etymological 'shāh-pūr' which should be rejected). Borhan-e Qate' records the doublet شیبور šeybūr with b for p, 'both occurring in the Shahnameh'. THE EXTRACTION IS AT FAULT IN THE SCRIPT FIELD: the printed page (pdf p.493, copied to data/verification/sources/refs/ocr/BOOK/493.png) shows «شیپور ( شیبور )» — the parenthetical variant is written with ب (one dot below), as a 400-dpi enlargement of the box makes plain, and as Borhan's entry independently predicts — whereas the JSON has «شیپور ( شیپور )», repeating the headword. The transliteration šaypŭr with a breve is Nourai's own rendering of the long ū and is faithful to the page (the book prints šaypŭr).",
+          "derivation_fa": "ریشه‌شناسی خودِ واژه تأیید می‌شود: «شیپور» فارسی وام‌واژه‌ای است از «شیپورا»ی آرامی/سریانی (هم‌ریشه با «شوفار» عبری) که تا سدهٔ چهارم و پنجم هجری کاملاً فارسی شده بود؛ فردوسی همان بیتی را دارد که کتاب نقل کرده («بفرمود تا برکشیدند نای / همان سنج و شیپور و هندی درای») و نظامی و اسدی نیز آن را به‌کار برده‌اند. دهخدا آن را «نفیر، کرنای کوچک» معنی می‌کند و اشتقاق عبری/آرامی/سریانی را می‌آورد (در کنار ریشه‌شناسی عامیانهٔ «شاه‌پور» که پذیرفتنی نیست). برهان قاطع گونهٔ «شیبور» را نیز ثبت کرده و می‌گوید «هر دو در شاهنامه آمده است». خطا از خوانشِ اسکن است: صفحهٔ چاپی «شیپور ( شیبور )» دارد ــ واژهٔ داخل پرانتز با «ب» (یک نقطه) نوشته شده، چنان‌که بزرگ‌نماییِ ۴۰۰ نقطه‌بر‌اینچ نشان می‌دهد و برهان قاطع نیز مستقلاً تأیید می‌کند ــ ولی در JSON هر دو «شیپور» آمده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%DB%8C%D9%BE%D9%88%D8%B1",
+            "https://abadis.ir/fatofa/%D8%B4%DB%8C%D9%BE%D9%88%D8%B1/"
+          ],
+          "ref_check": [
+            {
+              "ref": "TZF:77",
+              "status": "not_checked",
+              "note": "Abolghasemi's Tārīx-e Moxtaṣar-e Zabān-e Fārsī not obtainable (see root ref_check)."
+            },
+            {
+              "ref": "MON:2101",
+              "status": "supports",
+              "note": "Mo'in s.v. شیپور, read through abadis.ir: '(شَ) (اِ.) = شبور: از سازهای بادی، دارای دهانه‌ای گشاد' — the word and the equation with شبور are there; the page number cannot be checked online, but 2101 is consistent with the ش-section of Mo'in's continuous pagination."
+            },
+            {
+              "ref": "BQT:1319",
+              "status": "supports",
+              "note": "Found in the vol.3 scan text at BQT_v3_pages.txt line 8489-8496, tagged [pdf page 110-111]; with the tool's offset (printed = pdf + 1205) that is printed p.1315-1316, i.e. within four pages of Nourai's 1319 — the offset in ref_page.py is approximate for this volume. The entry carries the very Ferdowsi verse the book quotes ('همان سنج وشیپور وهندی درای، شاهنامه') and Mo'in's footnote 'شیپور از آرامی و سریانی گرفته شده', plus the cross-reference '# شیبور - رك: شیپور'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "BQT_v3_pages.txt lines 8489-8496 ([pdf page 110-111] ≈ printed 1315-1319)",
+              "stance": "supports",
+              "note": "'شیپور … ۸ = شیبور. هر دو در شاهنامه آمده… فهرست ولف آن دو را به Tuba, Trompete ترجمه کرده… «بفرمود تا برکشیدند نای / همان سنج وشیپور وهندی درای» شاهنامه … شیپور از آرامی و سریانی گرفته شده.' Also, at line 2764, the Arabic doublet: 'معرب … شبور … بوق … قس: شیپور'."
+            },
+            {
+              "src": "MON",
+              "where": "abadis.ir, فرهنگ معین and لغت‌نامهٔ دهخدا s.v. شیپور",
+              "stance": "supports",
+              "note": "Dehkhoda: 'نفیر … کرنای کوچک … بوق برنجین', with the etymology given as Hebrew שופר and Aramaic/Syriac (and a rejected 'شاه‌پور')."
+            },
+            {
+              "src": "PHD",
+              "where": "PHD.txt, grep 'trumpet'",
+              "stance": "contradicts",
+              "note": "MacKenzie's Pahlavi word for 'trumpet' is gāw-dumb, not a šēpūr — reinforcing that the Persian word's Semitic source reached Persian without an attested Middle Persian stage."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
