@@ -1,0 +1,646 @@
+{
+  "pdf_page": 472,
+  "book_page": 442,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Š.r.b",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ش ر ب š-r-b, verb شَرِبَ šariba 'he drank'",
+      "note": "The root box is right: Arabic ش ر ب, base verb شَرِبَ šariba 'to drink', with the nouns شَراب šarāb 'beverage, wine', شُرْب šurb 'drinking' and شَرْبة šarba 'a single draught'. Every Western authority consulted (Klein s.v. sherbet/sirup, Skeat, Lokotsch no. 1838, Devic s.v. Sirop, Etymonline) starts the sherbet/syrup/sorbet/shrub family from exactly this verb. Nourai's only citation, FVA:208, is a book with no digital copy, so it could not be checked. TWO CAVEATS ON THIS CHART: (a) the Latin box prints 'siripus', which is not a Latin form (Medieval Latin is sirupus / syrupus / siropus) — see node #5; (b) the printed chart draws the arrow into the Latin box from the Arabic šarâb box (node #1), not from the root box: the JSON's \"parent\": 0 on node #5 is an extraction error (see the page image in data/verification/sources/refs/ocr/BOOK/472.png).",
+      "note_fa": "ریشهٔ سه‌حرفی عربی «ش ر ب» با فعل شَرِبَ «نوشید» و اسم‌های شَراب، شُرْب و شَرْبة. همهٔ فرهنگ‌های ریشه‌شناسی غربی (کلاین، اسکیت، لوکوچ ش۱۸۳۸، دویک، اتیمانلاین) خانوادهٔ sherbet / syrup / sorbet را از همین فعل می‌گیرند؛ پس جعبهٔ ریشه درست است. مأخذ خودِ نورایی (FVA:208) نسخهٔ دیجیتال ندارد و بررسی‌پذیر نبود. دو نکته: صورت لاتینی «siripus» در کتاب غلط چاپی است (درستش sirupus/syrupus) و پیکانِ جعبهٔ لاتین در صفحهٔ چاپی از جعبهٔ عربیِ šarâb می‌آید نه از خود ریشه — که خطای استخراج داده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/sherbet",
+        "https://www.etymonline.com/word/syrup"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVA:208",
+          "status": "not_checked",
+          "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989); refs_online.json records that no digital copy exists on any permitted platform, so p.208 could not be read."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "p. 1434 s.v. sherbet",
+          "stance": "supports",
+          "note": "'sherbet, n., a drink made of diluted fruit juice and sugar. — Turk., Pers. sherbet, fr. Arab. shurbaⁿ, ‘one drink’, fr. sharab, ‘drink, beverage’, fr. shariba, ‘he drank’' (KLN_1966.txt line 34962)."
+        },
+        {
+          "src": "LKT",
+          "where": "no. 1838",
+          "stance": "supports",
+          "note": "Lokotsch: 'Ar. šarāb ‘Trank’ [Vb. šariba ‘trinken’], hieraus mlat. sirōpus, sirūpus, it. sciroppo, frz. sirop … engl. syrop, syrup; … Aus der gleichbedeutenden ar. Form šurba, šarba wurde … über tk. šerbet it. sorbetto … engl. sherbet, shrub' (LKT.txt line 4167)."
+        },
+        {
+          "src": "SKT",
+          "where": "s.v. Sherbet / syrup",
+          "stance": "supports",
+          "note": "Skeat: 'Sherbet, a drink. (Arab.) Arab. sharbat, a drink, draught, sherbet, syrup. — Arab. root shariba, he drank'; and 'syrup, sirup … Arab. sharab, shurab, wine, beverage, syrup. — Arab. root shariba' (SKT.txt line 17101)."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "šarâb",
+          "verdict": "confirmed",
+          "derivation": "Arabic شَراب šarāb is the ordinary noun of the base verb شَرِبَ šariba 'he drank' (form-I fa'āl noun of the root ش ر ب), meaning 'drink, beverage' and, in poetry and in later usage, 'wine'. It is a native Arabic formation, already Qur'anic (e.g. Q 16:69 fīhi šifāʾun lin-nās, of honey as a šarāb), and it is the etymon from which every European member of this family is drawn. Klein and Skeat both give the same one-step derivation šariba → šarāb; Lokotsch no. 1838 heads his article 'Ar. šarāb «Trank» [Vb. šariba «trinken»]'. Jeffery's Foreign Vocabulary of the Qur'an does not list it, which is itself confirmation: it is not a loanword in Arabic.",
+          "derivation_fa": "«شَراب» اسمِ فعلِ شَرِبَ از ریشهٔ عربیِ «ش ر ب» است (وزن فَعال) به معنی «نوشیدنی» و در کاربرد متأخر و شعری «می». واژه عربیِ اصیل است؛ جفری آن را در «واژگان دخیل در قرآن» نیاورده و همین نشان می‌دهد که وام‌واژه نیست. کلاین و اسکیت هر دو همین اشتقاق یک‌مرحله‌ای šariba ← šarāb را می‌دهند و لوکوچ (ش۱۸۳۸) نیز مقالهٔ خود را با همین صورت آغاز می‌کند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A7%D8%A8"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVA:208",
+              "status": "not_checked",
+              "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989); refs_online.json records that no digital copy exists on any permitted platform, so p.208 could not be read."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1434 s.v. sherbet; p. 1450 s.v. sirup",
+              "stance": "supports",
+              "note": "'… fr. sharab, ‘drink, beverage’, fr. shariba, ‘he drank’' (KLN_1966.txt line 34962); 'fr. Arab. sharab, ‘drink, beverage’, from the stem of shariba' (line 35355)."
+            },
+            {
+              "src": "FVQ",
+              "where": "grep 'شراب' / 'sharab' in FVQ_pages.txt",
+              "stance": "silent",
+              "note": "No entry: Jeffery does not treat شراب as a foreign word in the Qur'an, i.e. it is native Arabic."
+            },
+            {
+              "src": "DEV",
+              "where": "s.v. Sirop",
+              "stance": "supports",
+              "note": "Devic: 'De l’arabe شراب charâb, boisson, vin, café, venant du verbe شرب charib, boire' (DEV.txt line 2125)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "šarâb «شراب»; šarbat «شربت»",
+          "verdict": "plausible",
+          "derivation": "Both words are Arabic loans in New Persian, taken over after the Islamic conquest and fully naturalised by the 4th/10th century (Hāfez's line quoted in the box turns on šurb). شراب šarāb is a direct borrowing of Arabic šarāb, with the meaning narrowed in Persian usage to 'wine' — Wiktionary: 'Borrowed from Arabic شَرَاب (šarāb)'. The box's extra forms مشروب mašrūb (Ar. passive participle 'drunk' → 'beverage') and شُرب šurb (Ar. verbal noun 'drinking') are likewise straight Arabic borrowings from the same root. The one imprecision is شربت šarbat: its Arabic source is not šarāb but the nomen unitatis شَرْبة šarba(t) 'one draught' (فَعْلة of the same root), Persian keeping the tāʾ marbūṭa as -at; Mo'in's dictionary tags it exactly '[ع. شربة]' ('(شَ بَ) [ع. شربة] (اِ.) در فارسی: ۱- نوشیدنی'). So the node is right about language and direction but draws šarbat from the sister noun šarāb instead of from šarba — hence 'plausible' rather than 'confirmed'.",
+          "derivation_fa": "هر دو واژه معرّب نیستند بلکه وام‌واژهٔ عربی در فارسی نو‌اند: «شراب» گرتهٔ مستقیم عربی شَراب است که در فارسی معنایش به «می» تخصیص یافته، و «مشروب» (اسم مفعول) و «شُرب» (مصدر) نیز از همان ریشه به فارسی آمده‌اند. تنها نکتهٔ نادرست این است که مأخذ «شربت» در عربی شَراب نیست، بلکه شَرْبة (اسم مرّه بر وزن فَعْلة) است که تاء مربوطهٔ آن در فارسی به «ت» بدل شده؛ معین هم در ذیل «شربت» می‌نویسد «[ع. شربة]». پس ادعای نورایی در کلیت درست است ولی پیکانِ «شربت» باید از شَرْبة کشیده می‌شد نه از شَراب — با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A7%D8%A8",
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A8%D8%AA",
+            "https://abadis.ir/fatofa/%D8%B4%D8%B1%D8%A8%D8%AA/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON",
+              "status": "supports",
+              "note": "Mo'in's Farhang-e Farsi s.v. شربت (read via abadis.ir, section فرهنگ معین): '(شَ بَ ) [ ع . شربة ] (اِ. ) در فارسی : ۱ - نوشیدنی . ۲ - آب آمیخته با شکر یا عصارة میوه' — Arabic origin confirmed, but from شربة, not شراب."
+            },
+            {
+              "ref": "FVA:208",
+              "status": "not_checked",
+              "note": "FVA = S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989); refs_online.json records that no digital copy exists on any permitted platform, so p.208 could not be read."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "s.v. شربت (vajehyab/abadis text of Farhang-e Farsi)",
+              "stance": "partial",
+              "note": "'[ ع . شربة ]' — Mo'in derives Persian شربت from Arabic شربة, not from شراب."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1434 s.v. sherbet",
+              "stance": "supports",
+              "note": "Klein has the same chain through Persian: 'Turk., Pers. sherbet, fr. Arab. shurbaⁿ, ‘one drink’' — i.e. the Persian word comes from the Arabic unit-noun."
+            },
+            {
+              "src": "PLA",
+              "where": "grep 'sharab'/'sharba' in PLA_pages.txt",
+              "stance": "silent",
+              "note": "Asbaghi (Persian loanwords IN Arabic) has nothing here, as expected: the traffic is the other way round."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Turkish",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "A pass-through box with no word printed: the intended form is Ottoman Turkish شربت şerbet (modern Turkish şerbet) 'a sweet cold fruit drink'. Wiktionary classifies it under 'Ottoman Turkish terms borrowed from Classical Persian' and derives it from Classical Persian شَرْبَت šarbat, itself from Arabic شَرْبَة šarba — exactly the Persian → Turkish arrow drawn here. The Turkish form kept the Persian -at as -et by front-vowel harmony (šarbat → şerbet), and it is the Ottoman drink, not the Persian or Arabic one, that Europeans met and named in the 16th–17th centuries.",
+          "derivation_fa": "این جعبه تهی است و واژهٔ مقصود ترکی عثمانی «شربت» şerbet است. ویکی‌واژه آن را وام‌واژه از فارسیِ کلاسیک شَرْبَت می‌داند (و آن از عربی شَرْبة)؛ یعنی همان پیکانِ فارسی ← ترکی که نورایی کشیده است. تغییر آوایی روشن است: هماهنگی واکه‌ای ترکی، šarbat را به şerbet بدل کرده. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/sherbet",
+            "https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A8%D8%AA"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1838",
+              "stance": "supports",
+              "note": "'… wurde zur Bezeichnung eines kühlenden Trankes über tk. šerbet ‘Kühltrank’ it. sorbetto … engl. sherbet, shrub, dtsch. Sorbet, Scherbet' (LKT.txt line 4167)."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1434 s.v. sherbet",
+              "stance": "supports",
+              "note": "'Turk., Pers. sherbet, fr. Arab. shurbaⁿ' — Turkish is the immediate donor to English, Persian the donor to Turkish."
+            },
+            {
+              "src": "PHN",
+              "where": "s.v. SORBET",
+              "stance": "partial",
+              "note": "Pihan discusses the Turkish word behind sorbet and warns against the folk-etymological link with Latin sorbitio, 'que sorbet dérive du substantif latin sorbitio' being only an appearance (PHN.txt line 9286)."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "sherbet",
+          "verdict": "confirmed",
+          "derivation": "English sherbet is first recorded in the 1580s (early spellings zerbet, cherbet, sorbet; the intrusive-r form sherbert from the 1670s), brought back by travellers to the Ottoman lands as the name of a cooled drink of diluted fruit juice and sugar. Etymonline: 'from Turkish serbet, from Persian sharbat, from Arabic sharba(t) \"a drink,\" from shariba \"he drank\"'; Wiktionary gives the identical chain and notes that sherbet is a doublet of sorbet (the same Turkish word via Italian sorbetto and French) and related to syrup. Klein p.1434, the page Nourai cites, gives Turk. ← Pers. ← Arab. and cross-refers to sirup, shrub and sorbet — precisely this chart's two branches.",
+          "derivation_fa": "انگلیسی sherbet نخستین بار در دههٔ ۱۵۸۰ ثبت شده (به صورت‌های zerbet و cherbet) و از راه سفرنامه‌نویسان از قلمرو عثمانی به اروپا رفته است: ترکی şerbet ← فارسی شربت ← عربی شَرْبة ← شَرِبَ. اتیمانلاین و ویکی‌واژه هر دو همین زنجیره را می‌دهند و sherbet را دوگانهٔ (doublet) sorbet و هم‌ریشهٔ syrup می‌شمارند. کلاین در همان صفحهٔ ۱۴۳۴ که نورایی ارجاع داده همین را نوشته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/sherbet",
+            "https://www.etymonline.com/word/syrup"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1434",
+              "status": "supports",
+              "note": "Klein 1966 p.1434: 'sherbet, n., a drink made of diluted fruit juice and sugar. — Turk., Pers. sherbet, fr. Arab. shurbaⁿ, ‘one drink’, fr. sharab, ‘drink, beverage’, fr. shariba, ‘he drank’ … Cp. sirup, shrub, ‘a drink’, sorbet' (KLN_1966.txt line 34962, in the s-h-e-r run of headwords)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "s.v. Sherbet",
+              "stance": "partial",
+              "note": "'Sherbet, a drink. (Arab.) Arab. sharbat, a drink, draught, sherbet, syrup. — Arab. root shariba' (SKT.txt line 17101) — same origin, but Skeat skips the Turkish and Persian stages."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1838",
+              "stance": "supports",
+              "note": "'… über tk. šerbet … engl. sherbet, shrub' (LKT.txt line 4167)."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "siripus",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "siripus",
+          "correct_form": "sirupus / syrupus (also siropus), Medieval Latin",
+          "derivation": "The word is real and the derivation is right, but the form printed is not. There is no Latin *siripus: the pharmacists' Medieval Latin word, taken from Arabic شراب šarāb 'beverage' in the Salerno/Toledo translations of Arabic medicine (11th–13th c.), is sirupus, syrupus, siropus. Klein p.1450, the page Nourai cites, prints 'ML. sirupus, syrupus'; Lokotsch no. 1838 'mlat. sirōpus, sirūpus'; Devic s.v. Sirop 'bas lat. syrupus, siruppus, sciruppus'. Arabic -ā- was rendered by the Latin -u- of the second syllable through the Spanish/Italian intermediaries (Sp. jarabe/jarope, It. sciroppo). I checked the printed page (PDF p.472, book p.442, image saved as data/verification/sources/refs/ocr/BOOK/472.png): the box really does read 'siripus : a drink', so the extraction is faithful and the misprint is Nourai's. The label 'Latin' should also be 'Medieval Latin' — the word is unknown to classical Latin. SEPARATE POINT: on the printed page the arrow into this box comes down from the Arabic šarâb box (node #1), not from the root box; the JSON's \"parent\": 0 is an extraction error, and the derivation described here is Arabic šarāb → ML sirupus, which is also Klein's route.",
+          "derivation_fa": "اشتقاق درست است ولی صورتِ چاپ‌شده نادرست: در لاتینی صورتی به شکل *siripus وجود ندارد. واژهٔ لاتینیِ میانه (لاتینِ پزشکان) که از عربی «شراب» در ترجمه‌های طب عربی در سالرنو و طلیطله (سده‌های ۱۱ تا ۱۳ م.) گرفته شده sirupus / syrupus / siropus است؛ کلاین در همان ص۱۴۵۰ «ML. sirupus, syrupus» و لوکوچ «mlat. sirōpus, sirūpus» و دویک «bas lat. syrupus, siruppus» می‌نویسند. صفحهٔ چاپیِ کتاب را دیدم (تصویر در data/verification/sources/refs/ocr/BOOK/472.png): در خودِ کتاب «siripus» چاپ شده، پس خطا از نورایی است نه از خوانشِ اسکن. برچسب «Latin» هم باید «لاتینی میانه» می‌بود. افزون بر این، در صفحهٔ چاپی پیکان این جعبه از جعبهٔ عربیِ šarâb می‌آید نه از خود ریشه؛ «parent: 0» در داده خطای استخراج است.",
+          "sources": [
+            "https://www.etymonline.com/word/syrup"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1450",
+              "status": "partial",
+              "note": "Klein 1966 p.1450: 'sirup, syrup, n. — ME. sirop, sirup, fr. OF. (= F.) sirup, fr. ML. sirupus, syrupus, fr. Arab. sharab, ‘drink, beverage’, from the stem of shariba, ‘he drank’' (KLN_1966.txt line 35355). Supports the Arabic → Medieval Latin → French → English chain, but prints sirupus/syrupus — not Nourai's 'siripus'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1838",
+              "stance": "partial",
+              "note": "'hieraus mlat. sirōpus, sirūpus, it. sciroppo, siroppo, frz. sirop, syrop … engl. syrop, syrup' (LKT.txt line 4167) — no *siripus."
+            },
+            {
+              "src": "DEV",
+              "where": "s.v. Sirop",
+              "stance": "partial",
+              "note": "'ital. siroppo, sciroppo, bas lat. syrupus, siruppus, sciruppus. De l’arabe شراب charâb' (DEV.txt line 2125) — again no form with -i- in the second syllable."
+            },
+            {
+              "src": "PHN",
+              "where": "s.v. SIROP",
+              "stance": "supports",
+              "note": "Pihan has a full article SIROP, s. m. (a.) among the French words from Arabic (PHN.txt line 9200; index 'Sirop, s. m. (a.) 336')."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through box: the form meant is Old French sirop (13th c.), continued unchanged as modern French sirop. Etymonline derives English syrup 'from Old French sirop \"sugared drink\" (13c.), and perhaps from Italian siroppo, both from Arabic sharab'; Klein routes the French word through ML sirupus. The final -us of the Latin was dropped in the normal Gallo-Romance way and the word entered French as a medical/apothecary term, which is how it then reached English.",
+          "derivation_fa": "این جعبه تهی است و صورتِ مقصود فرانسویِ کهن sirop (سدهٔ ۱۳ م.) است که بی‌تغییر به فرانسویِ امروز رسیده. پایانهٔ -us لاتینی طبق قاعدهٔ گالو-رومی افتاده و واژه به عنوان اصطلاحی دارویی وارد فرانسه و از آنجا وارد انگلیسی شده است. اتیمانلاین و کلاین هر دو همین را می‌گویند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/syrup"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this box; the chain is covered by KLN:1450 on the parent box."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1450 s.v. sirup",
+              "stance": "supports",
+              "note": "'ME. sirop, sirup, fr. OF. (= F.) sirup, fr. ML. sirupus, syrupus' (KLN_1966.txt line 35355)."
+            },
+            {
+              "src": "DEV",
+              "where": "s.v. Sirop",
+              "stance": "supports",
+              "note": "Devic lists the French history: 'Vieux français essyrot (xiiiᵉ siècle), ysserop (xvᵉ siècle)' beside Prov. eissarop and Sp. jarabe (DEV.txt line 2125)."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "syrup",
+          "verdict": "confirmed",
+          "derivation": "English syrup is attested from the late 14th century, spelt sirup/sirop, in medical writing ('thick, sweet liquid'), borrowed from Old French sirop; the y- spelling follows the Medieval Latin syrupus. Etymonline and Klein agree, and both note that syrup and sherbet are doublets — the same Arabic root reaching English twice, once through the Latin-Romance pharmacy tradition and once through Ottoman Turkish. Skeat routes it through Spanish xarope instead of Latin, which is a variant but not an objection: all agree the source is Arabic šarāb.",
+          "derivation_fa": "انگلیسی syrup از اواخر سدهٔ ۱۴ م. به صورت sirup/sirop در متون پزشکی دیده می‌شود و از فرانسویِ کهن sirop وام گرفته شده؛ املای y از لاتینیِ میانهٔ syrupus آمده است. syrup و sherbet دوگانه‌اند: یک ریشهٔ عربی که دو بار به انگلیسی رسیده، یک‌بار از راه داروشناسیِ لاتینی-رومی و یک‌بار از راه ترکی عثمانی. اسکیت مسیر را از اسپانیایی xarope می‌گیرد که تفاوتی جزئی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/syrup"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "No reference on this box; KLN:1450 on node #5 covers the whole chain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1450 s.v. sirup, syrup",
+              "stance": "supports",
+              "note": "'ME. sirop, sirup, fr. OF. (= F.) sirup, fr. ML. sirupus, syrupus, fr. Arab. sharab … See sherbet' (KLN_1966.txt line 35355)."
+            },
+            {
+              "src": "SKT",
+              "where": "s.v. syrup, sirup",
+              "stance": "partial",
+              "note": "'syrup, sirup. (F.—Span.—Arab.) … Span. xarope, a drink. — Arab. sharab, shurab, wine, beverage, syrup' (SKT.txt line 17101) — Spanish rather than Latin as the intermediary."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 1838",
+              "stance": "supports",
+              "note": "'… dtsch. Sirup, engl. syrop, syrup' (LKT.txt line 4167)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Srěno",
+      "verdict": "confirmed",
+      "modern_form": "PIE *srēn-/*sreno- 's-, -ā 'hip, loin, (outer) thigh' (Wiktionary: *srḗn-s)",
+      "note": "Pokorny p.1002 has exactly this lemma: 'sreno-, -ā Körperteilbenennung, etwa ‚Oberschenkel, Lenden’', with Av. rāna- m., mp./np. rān and Lith. strėnos 'die Lenden, das Kreuz'. The language label (Indo-European) and the gloss ('thigh, hip') are both right; Nourai's page number is right. It is worth recording that the root is a narrow Irano-Baltic isogloss — Walde-Pokorny II 705 says 'Fick 339 zw.; sehr wahrscheinliche Verknüpfung' ('doubtful per Fick; a very probable connection'), and Watkins/AHD omits it altogether because it has no English reflex. Wiktionary reconstructs *srḗn-s > PII *srá̄nas > Proto-Iranian *hrā́nah.",
+      "note_fa": "پوکورنی در ص۱۰۰۲ همین ریشه را می‌آورد: «sreno-, -ā نام اندامی از تن، تقریباً ران و کمرگاه»، با شواهدِ اوستایی rāna-، فارسیِ میانه و نوِ rān، و لیتوانیایی strėnos «کمرگاه». برچسبِ زبانی (هندواروپایی) و معنای «ران، سرین» درست است و شمارهٔ صفحه هم درست. تنها باید افزود که این ریشه ایزوگلاسی تنگ میان ایرانی و بالتی است: والده-پوکورنی (ج۲ ص۷۰۵) آن را «پیوندی بسیار محتمل» می‌خواند و واتکینز در پیوستِ AHD اصلاً آن را نیاورده چون بازتابی در انگلیسی ندارد. ویکی‌واژه *srḗn-s را بازسازی می‌کند. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%86"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:1002",
+          "status": "supports",
+          "note": "Pokorny IEW p.1002: 'sreno-, -ä Körperteilbenennung, etwa ‚Oberschenkel, Lenden‘. Av. räna- m. ‚der äußere Teil des Oberschenkels, Oberschenkel‘, np. rän ‚Schenkel‘; lit. strėnos ‚die Lenden, das Kreuz‘. WP. II 705.' (POK_03.txt line 3324; POK_full.txt line 80924 gives the same lemma with 'Page(s): 1002')."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II 705",
+          "stance": "supports",
+          "note": "'sreno-, -ā Körperteilbenennung, etwa „Oberschenkel, Lenden“ — Av. rāna- m. … mp. np. rān „Schenkel“; lit. strėnos … Fick 339 zw.; sehr wahrscheinliche Verknüpfung' (WLD_Bd2 djvu line 45845)."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 appendix, s-r- run",
+          "stance": "silent",
+          "note": "grep 'sreno' in AHD_watkins1985.txt: nothing — the appendix has only srebh-, srenk- and sreu-, since *sreno- left no English descendant."
+        },
+        {
+          "src": "IEC",
+          "where": "grep 'sreno'/'srēno' in IEC.txt",
+          "stance": "silent",
+          "note": "Mann has no lemma for this root in the searchable text."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "râna 2",
+          "verdict": "confirmed",
+          "derivation": "Young Avestan rāna- m. 'the outer part of the thigh; the thigh (in general)', attested in the Vidēvdād (V.8.59–61, V.18.16, opposed to haxt- 'the inner part of the thigh'). Bartholomae, Altiranisches Wörterbuch col. 1513: 'j. rāna- m. «der äussere Teil des Oberschenkels; Oberschenkel (überhaupt)» … Nach Fick VglWb.⁴ I 339 aus *srān-. — mp. (Pü.), np. rān «Schenkel»'. The '2' in Nourai's 'râna 2' is a homonym number: Bartholomae has a second, Gathic ʾrana-/runa- 'combatant, contending party' (to the verb ar-), unrelated. Phonetically the Avestan form shows the regular Iranian treatment of initial *sr-: PIE *srē-n- > PII *srā́na- > Proto-Iranian *hrā́nah- > Av. rāna- (the *s- becomes h- before r and is then lost).",
+          "derivation_fa": "اوستاییِ متأخر rāna- «بخش بیرونی ران؛ ران» که در وندیداد (فرگرد ۸ و ۱۸) در برابر haxt- «بخش درونی ران» به کار رفته است. بارتولمه در «فرهنگ ایرانی باستان» ستون ۱۵۱۳ می‌نویسد: «j. rāna- m. der äussere Teil des Oberschenkels … nach Fick aus *srān-. — mp., np. rān». عددِ ۲ در «râna 2» شمارهٔ هم‌نام است؛ بارتولمه rana-/runa- گاهانی به معنی «رزمنده، طرف نزاع» را جدا آورده که بی‌ربط است. از نظر آوایی، *sr- آغازیِ هندواروپایی در ایرانی باستان به *hr- بدل شده و سپس h افتاده است: *srē-n- ← *srā́na- ← *hrā́nah- ← rāna-. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:1002",
+              "status": "supports",
+              "note": "Pokorny p.1002 s.v. sreno-: 'Av. räna- m. ‚der äußere Teil des Oberschenkels, Oberschenkel‘' (POK_03.txt line 3325)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 1513 s.v. rāna-",
+              "stance": "supports",
+              "note": "'• j. rāna- m. ‘der äussere Teil des Oberschenkels’; Oberschenkel (überhaupt)’ … Nach Fick VglWb.⁴ I 339 aus *srān-. — mp. (Pü.), np. rān ‘Schenkel’' (BRT.txt line 25363)."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II 705",
+              "stance": "supports",
+              "note": "'Av. rāna- m. „der äußere Teil des Oberschenkels, Oberschenkel“' (WLD_Bd2 djvu line 45850)."
+            },
+            {
+              "src": "KNT",
+              "where": "grep 'rana' in KNT_full.txt (Old Persian lexicon)",
+              "stance": "silent",
+              "note": "No Old Persian cognate is attested; Kent has no entry, as expected for a body-part word absent from the inscriptions."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "rân «ران»",
+          "verdict": "confirmed",
+          "derivation": "New Persian ران rān 'thigh' is the direct continuant of Middle Persian rān (Pahlavi <lʾn'>), itself from Old Iranian *hrāna- — so the true line is OIr. *hrāna- > MP rān > NP rān, with Avestan rāna- a sister form rather than the literal ancestor; Nourai's Avestan → Persian arrow is his usual shorthand for that. Horn, Grundriss no. 605 (p.135, the page cited) sets it out: 'rān «Schenkel». aw. rāna- «Schenkel»; phlv. rān, rānpān, arm. LW. eran'. Mo'in's footnote in Borhan-e Qate' p.932 gives the same list (Av. rāna-, Pahl. rān, Arm. eran, Kurd./Baluchi rān, Pashto wrūn, Mazandarani/Tabari rūn) and cites 'اشتقاق ۶۰۵' = Horn no. 605. Wiktionary: 'Inherited from Middle Persian rān «thigh», from Proto-Iranian *hrā́nah, from Proto-Indo-Iranian *srā́nas, from Proto-Indo-European *srḗn-s'. The long ā is unchanged; the colloquial Tehrani رون rūn shows the later raising of ā before a nasal.",
+          "derivation_fa": "«ران» در فارسی نو دنبالهٔ مستقیم فارسیِ میانهٔ rān (پهلوی ‹lʾn›) است و آن از ایرانیِ باستان *hrāna-؛ پس مسیرِ راستین ایرانی باستان ← فارسی میانه ← فارسی نو است و اوستاییِ rāna- خواهرِ آن است نه نیایش، هرچند نورایی طبق شیوهٔ همیشگی‌اش پیکان را از اوستایی کشیده است. هرن در «بنیاد ریشه‌شناسی فارسی نو» شمارهٔ ۶۰۵ (همان ص۱۳۵ که نورایی ارجاع داده) می‌نویسد: «rān «ران». اوستایی rāna-؛ پهلوی rān، ارمنی (وام‌واژه) eran». معین نیز در حاشیهٔ برهان قاطع ص۹۳۲ همین‌ها را می‌آورد و به «اشتقاق ۶۰۵» یعنی شمارهٔ هرن ارجاع می‌دهد. آ کشیده بی‌تغییر مانده و «رون» گفتاری تهرانی از برافراشتنِ متأخرِ آ پیش از خیشوم است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:135",
+              "status": "supports",
+              "note": "Horn, Grundriss p.135 no. 605 (HRN.txt leaf 157 = printed p.135): '605. rān ‘Schenkel’. aw. rāna- ‘Schenkel’; phlv. rān, rānpān, arm. LW. eran, meist pl. eranḳ (Hübschmann, No. 96). kurd. bel. LW. rān; afġ. vrūn.'"
+            },
+            {
+              "ref": "BQT:932",
+              "status": "supports",
+              "note": "Borhan-e Qate' ed. Mo'in, printed p.~932 (BQT_v2_pages.txt \\f-block 393): headword 'ران = بر وزن جان . معروف است و عربی فخذ گویند', with Mo'in's footnote 9: 'اوستا rāna- (ران) ، پهلوی rān ، ارمنی eran ، کردی و بلوچی rān ، افغانی wrūn ، اشتقاق ۶۰۵ ، طبری rūn' — 'اشتقاق ۶۰۵' is a reference to Horn no. 605."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HRN",
+              "where": "no. 605, p.135",
+              "stance": "supports",
+              "note": "See ref_check; Horn explicitly gives the Pahlavi stage phlv. rān between Avestan and New Persian."
+            },
+            {
+              "src": "PHD",
+              "where": "grep 'rān' in PHD.txt",
+              "stance": "partial",
+              "note": "MacKenzie's Concise Pahlavi Dictionary is not searchable for this short word in the OCR, but Horn, Mo'in and Nyberg's transcriptions all give MP rān; Wiktionary cites MP lʾ nʹ /rān/."
+            },
+            {
+              "src": "ARY",
+              "where": "grep 'ران' / 'RANA' in ARY_pages.txt and ARY_latin_index_pages.txt",
+              "stance": "silent",
+              "note": "No entry located in the OCR of Aryanpur's IE-roots dictionary."
+            },
+            {
+              "src": "BQT",
+              "where": "p. ~932, Mo'in's footnote 9",
+              "stance": "supports",
+              "note": "See ref_check."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sogdian",
+          "words": "r`n`",
+          "verdict": "confirmed",
+          "derivation": "Sogdian r'n' (Christian script) /rān/ 'belt', with the derivative r'n'kh ranak 'belt'. Gharib's Sogdian Dictionary entry 8435 (printed p.339, the page Nourai cites) reads: \"r'n' C — rāna ©<*Av. rāna-; Khot. rāna-; Oss. ron — belt\", with references to Gershevitch JRAS 1946, 180 and Bailey AO 1966, 34. The word is thus the same Old Iranian *hrāna- 'thigh, loin', the sense having moved from the body part to what girds it: 'loins' → 'what goes round the loins' → 'belt'. Ossetic ron 'belt' shows the identical shift, which is the strongest argument that the Sogdian sense is old and not a chance homonym. The arrow should strictly start from Old Iranian rather than from Avestan itself, but Gharib's own entry writes '<*Av. rāna-', so Nourai is following his source exactly.",
+          "derivation_fa": "سغدیِ r'n' (به خط مسیحی) /rān/ «کمربند» و مشتق آن r'n'kh «کمربند». قریب در «فرهنگ سغدی» مدخل ۸۴۳۵ (همان ص۳۳۹ که نورایی ارجاع داده) می‌نویسد: «r'n' rāna < اوستایی rāna-؛ ختنی rāna-؛ آسی ron — belt». پس همان *hrāna- ایرانی باستان است و تحول معنایی از اندام به آنچه بر آن اندام بسته می‌شود رخ داده: «ران/کمرگاه» ← «آنچه بر کمرگاه می‌بندند» ← «کمربند». آسیِ ron «کمربند» همین دگرگونی را نشان می‌دهد و بهترین گواه است که این معنا کهن است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "SOD:339",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary, entry 8435 on printed p.339 (SOD_pages.txt, \\f-block 405; printed ≈ leaf − 66): \"8435 r'n' C / rāna ©<*Av. rāna-; Khot. rāna-; Oss. ron / r'n'kh / belt / BSTi 278; Gersh. JRAS 1946, 180; Bailey, AO 1966, 34\"; entry 8436 \"r'n'kh B / ranak ⇒ r'n' / belt\". The cited page number is exactly right."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "entries 8435–8436, printed p.339",
+              "stance": "supports",
+              "note": "See ref_check."
+            },
+            {
+              "src": "ISS_alt_DKS",
+              "where": "Bailey, Khotanese; cited at second hand through Gharib",
+              "stance": "supports",
+              "note": "Gharib's entry cites Khotanese rāna- and Bailey, Asia Major/AO 1966, 34 for the same equation."
+            },
+            {
+              "src": "BRT",
+              "where": "col. 1513 s.v. rāna-",
+              "stance": "supports",
+              "note": "Bartholomae's *srān- base underlies the Sogdian form too; he lists the Middle and New Persian continuants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Sresk",
+      "verdict": "confirmed",
+      "modern_form": "PIE *sresk- 'to drip, trickle' (Pokorny prints the lemma with a query mark)",
+      "note": "Pokorny p.1002 has 'sresk- ‚tropfen’?' — a lemma of exactly this shape and meaning at exactly the cited page, so root, language label, gloss and page are all correct. Pokorny's own question mark, and Walde-Pokorny II 602f./705, record that the reconstruction rests on a narrow base: Avestan srask-, Armenian srskel 'to sprinkle' (which Hübschmann held to be an Iranian loan) and, only if the Armenian word is a loan, Lithuanian šlakas 'drop', šlakėti 'to trickle' from *ḱlek-skō-. Watkins/AHD omits it (no English reflex). So 'confirmed' for what the chart claims, with the caveat that this is one of Pokorny's weaker roots.",
+      "note_fa": "پوکورنی در ص۱۰۰۲ مدخل «sresk- «چکیدن»؟» را دارد؛ پس ریشه، برچسبِ زبانی، معنا و شمارهٔ صفحه همه درست است. علامت پرسشِ خودِ پوکورنی و یادداشت والده-پوکورنی (ج۲ ص۶۰۲ و ۷۰۵) نشان می‌دهد که بنیادِ این بازسازی تنگ است: اوستایی srask-، ارمنی srskel «افشاندن» (که هوبشمان آن را وام‌واژهٔ ایرانی می‌دانست) و — تنها اگر واژهٔ ارمنی وام باشد — لیتوانیایی šlakas «قطره». واتکینز در پیوستِ AHD آن را نیاورده چون بازتاب انگلیسی ندارد. ادعای نورایی درست است، با این احتیاط که این از ریشه‌های سست‌بنیادِ پوکورنی است.",
+      "sources": [
+        "https://abadis.ir/fatofa/%D8%B3%D8%B1%D8%B4%DA%A9/"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:1002",
+          "status": "supports",
+          "note": "Pokorny IEW p.1002: 'sresk- ‚tropfen‘? Av. srask- (srasca-) ‚triefen, abtriefen von; triefregnen‘, sraska- m. (np. sirisk) ‚Träne, Weinen‘, mp. srixt ‚dropped‘, arm. srskel … WP. II 602 f., 705.' (POK_03.txt line 3326; POK_full.txt line 80836 'Root / lemma: sresk-, Meaning: to drizzle, Page(s): 1002')."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II 705 (with II 602f.)",
+          "stance": "supports",
+          "note": "'sresq- „tropfen“. Av. srask- (srasca-) … sraska- m. (np. sirisk) „Träne, Weinen“, mp. srixt „dropped“, arm. srᵏkel … S. Bartholomae Airan. Wb. 1644f. … Entlehnung des arm. Wortes aus dem arischen bekämpft Hübschmann IA. 10, 28' (WLD_Bd2 djvu line 45888)."
+        },
+        {
+          "src": "AHD",
+          "where": "Watkins 1985 appendix",
+          "stance": "silent",
+          "note": "grep 'sresk' in AHD_watkins1985.txt: nothing — only srebh-, srenk-, sreu- appear, none of them this root."
+        },
+        {
+          "src": "IEC",
+          "where": "grep 'sresk' in IEC.txt",
+          "stance": "silent",
+          "note": "Mann has no such lemma in the searchable text."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "srask",
+          "verdict": "plausible",
+          "derivation": "The Avestan material is real, but the form and the gloss in the box belong to two different words. Bartholomae, Altiranisches Wörterbuch col. 1645, has 'j. srask- V. «triefen». Praes. srasca-' — a VERB 'to drip, to trickle down from, to rain in streams' (Vd. 3.29, 6.36, Yt. 5.120, 16.10) — and separately the noun '*sraska- m. «Träne, Weinen»' (Vd. 7.8, in the phrase ... «Weinen und Stöhnen»), to which he adds 'Zum V. srask-. — np. sirisk «Tropfen, Träne»'. Nourai prints the verb stem srask- but glosses it 'tear drop', which is the sense of the derived noun sraska-; and it is sraska-, not srask-, that is the etymon of the Pahlavi and Persian words in the boxes below. The root-to-node arrow is otherwise exactly Pokorny's. Hence 'plausible': the derivation is right, the citation form is one derivational step off.",
+          "derivation_fa": "مادّهٔ اوستایی درست است ولی صورت و معنای جعبه به دو واژهٔ جداگانه تعلق دارد. بارتولمه در ستون ۱۶۴۵ می‌آورد: «j. srask- فعل «چکیدن»، ستاکِ حال srasca-» — فعلی به معنی «چکیدن، فروچکیدن، باران تند باریدن» (وندیداد ۳٫۲۹ و ۶٫۳۶، یشت ۵٫۱۲۰) — و جداگانه اسمِ «*sraska- m. «اشک، گریه»» (وندیداد ۷٫۸) که ذیل آن نوشته «از فعل srask-؛ فارسی نو sirisk «قطره، اشک»». نورایی ستاکِ فعلی srask- را نوشته اما معنای اسمِ مشتق sraska- را به آن داده است؛ و نیایِ صورت‌های پهلوی و فارسیِ زیر همان sraska- است نه srask-. بنابراین اشتقاق درست است ولی صورتِ ذکرشده یک پله جابه‌جا است: با احتیاط پذیرفتنی است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "POK:1002",
+              "status": "partial",
+              "note": "Pokorny p.1002 supports the root → Avestan arrow but distinguishes the two forms: 'Av. srask- (srasca-) ‚triefen …‘, sraska- m. (np. sirisk) ‚Träne, Weinen‘' — the verb means 'to drip', the noun means 'tear'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "cols. 1645–1646 s.v. srask-, *sraska-",
+              "stance": "partial",
+              "note": "'• j. srask- V. ‘triefen’. Praes. srasca-, (Kaus.) srascaya- …' and '*sraska- m. ‘Träne, Weinen’ … Zum V. srask-. — np. sirisk ‘Tropfen, Träne’' (BRT.txt lines 27390, 27396). Verb and noun are separate entries."
+            },
+            {
+              "src": "WLD",
+              "where": "Bd. II 705",
+              "stance": "partial",
+              "note": "Same distinction: 'Av. srask- (srasca-) „triefen…“, sraska- m. (np. sirisk) „Träne, Weinen“'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "grep 'srask'/'sresk' in CHEUNG.txt",
+              "stance": "silent",
+              "note": "Cheung's Etymological Dictionary of the Iranian Verb has no hit for this verb in the local text."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "srešk",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian srešk (written <sl(y)šk'>, Psalter <srsk>) 'drop, tear' is the regular continuant of Old Iranian *sraska- (Av. sraska- 'tear'): the cluster sr- is kept in Middle Persian, and the Old Iranian -a- of the first syllable is reduced while the suffix vowel is fronted to give -ešk/-išk. MacKenzie, A Concise Pahlavi Dictionary, s.v.: 'srešk [sl(y)šk | (P srsk), N sirišk] drop, tear'. Nyberg, Manual of Pahlavi II, reads the same word as srišk: 'srišk [slyškʹ; slškʹ] drop … — Av. (1645) sraska- ‘tear’; MPrth srsk (List 87); NP sirišk', and quotes the idiom srišk ≈ srišk 'drop after drop' (Kārnāmag 21⁴). The two readings are the same consonantal skeleton; the chart's srešk is MacKenzie's.",
+          "derivation_fa": "فارسیِ میانهٔ srešk (به خط پهلوی ‹sl(y)šk›، در زبور ‹srsk›) «قطره، اشک» دنبالهٔ قاعده‌مندِ ایرانی باستان *sraska- (اوستایی sraska- «اشک») است: خوشهٔ آغازیِ sr- در فارسی میانه نگه داشته شده و واکهٔ پسوند به e/i بدل شده است. مکنزی در «فرهنگ کوچک پهلوی» می‌نویسد: «srešk [sl(y)šk | زبور srsk، فارسی نو sirišk] قطره، اشک». نیبرگ همان واژه را srišk می‌خواند و می‌افزاید «اوستایی (۱۶۴۵) sraska- ‹اشک›؛ پارتیِ مانوی srsk؛ فارسی نو sirišk» و اصطلاح «srišk pad srišk» یعنی «قطره‌قطره» را از کارنامه نقل می‌کند. هر دو خوانش از یک اسکلتِ همخوانی‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B3%D8%B1%D8%B4%DA%A9/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1124",
+              "status": "supports",
+              "note": "Borhan-e Qate' ed. Mo'in, the سرشک page (BQT_v2_pages.txt \\f-block 587, printed ≈ 1125/1126 by the leaf+540 offset, i.e. within a page or two of Nourai's 1124): Mo'in's footnote 4 reads 'اوستا sraska- … بارتولمه ۱۶۴۵ ، اشتقاق هویشمان ۲۳۷ ، سرشک فارسی شاید از پارتی srsk (قطره) باشد: Henning, A list of Middle Persian… BSOS … در پهلوی (srišk) (قطره) ، نیبرگ ۲۰۹'. The same footnote is reproduced by Dehkhoda (abadis.ir s.v. سرشک, 'حاشیه برهان قاطع چ معین')."
+            },
+            {
+              "ref": "SNS:183",
+              "status": "partial",
+              "note": "Tavoosi's Shayast ne Shayast glossary: the OCR (SNS_pages.txt) is too poor for Persian, but \\f-block 183 is exactly the s-r run — grep of that block yields 'srav', 'sravah', 'srab' and ':stadan:' — so the cited page is the right place for srešk; the entry itself could not be read, and no page scan of SNS is available to tools/ref_page.py."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 s.v. srešk",
+              "stance": "supports",
+              "note": "'srešk [sl(y)šk | (P srsk), N sirišk] drop, tear' (PHD.txt line 568, in the spa–srēd run); the English index has 'tear (n.) ars, srešk' (line 3944)."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II (Glossary) s.v. srišk",
+              "stance": "supports",
+              "note": "'srišk [slyškʹ; slškʹ] drop 211. 412°, 89²⁰. — Av. (1645) sraska- ‘tear’; MPrth srsk (List 87); NP sirišk' (NYB_vol2_glossary.txt line 3510); also 'srišk ~ srišk drop after drop 21⁴' (line 505)."
+            },
+            {
+              "src": "BQT",
+              "where": "Mo'in's footnote to سرشک",
+              "stance": "supports",
+              "note": "See ref_check — Mo'in gives Pahlavi srišk with Nyberg 209 as his authority."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "serešk «سرشک»",
+          "verdict": "confirmed",
+          "derivation": "New Persian سرشک serešk / sirišk 'tear, drop (of water)', in the poets from Rudaki and Ferdowsi on (Dehkhoda quotes Rūdakī 'و اندر نهان سرشک همی باری' and Ferdowsi 'ببارید پیران ز مژگان سرشک'), continues Middle Persian srešk/srišk with the regular New Persian resolution of the initial cluster sr- by an anaptyctic vowel (srišk > sirišk, whence the modern pronunciation serešk). Pokorny cites exactly this word in the root article ('sraska- m. (np. sirisk)'), as do Bartholomae col. 1646 ('np. sirisk ‘Tropfen, Träne’') and Hübschmann, Persische Studien p.237 ('sirisk ‘Tropfen’ = zd. sraska-'). One nuance Nourai's straight arrow hides: Mo'in, following Henning's List of Middle Persian Papyri, suggests the Persian word may be a borrowing from Parthian srsk rather than an inheritance through Middle Persian — 'سرشک فارسی شاید از پارتی «srsk» (قطره) باشد'. Either way the ultimate source is the same OIr. *sraska-.",
+          "derivation_fa": "«سرشک» در فارسی نو به معنی «اشک، قطره» از رودکی و فردوسی به بعد گواه دارد (دهخدا از رودکی «و اندر نهان سرشک همی باری» و از فردوسی «ببارید پیران ز مژگان سرشک» می‌آورد) و دنبالهٔ فارسیِ میانهٔ srešk/srišk است؛ خوشهٔ آغازیِ sr- در فارسی نو با واکهٔ میانجی شکسته شده (srišk ← sirišk ← سرشک). پوکورنی در همان مقالهٔ ریشه «np. sirisk» را آورده، بارتولمه (ستون ۱۶۴۶) «np. sirisk ‹قطره، اشک›» و هوبشمان در «پژوهش‌های فارسی» ص۲۳۷ «sirisk ‹قطره› = اوستایی sraska-». یک نکتهٔ ظریف که پیکانِ مستقیمِ نورایی می‌پوشاند: معین به پیروی از هنینگ احتمال می‌دهد «سرشک فارسی شاید از پارتی srsk (قطره) باشد» یعنی وام‌واژه از پارتی باشد نه میراثِ مستقیمِ فارسی میانه. در هر دو حال خاستگاهِ نهایی همان *sraska- ایرانی باستان است. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B3%D8%B1%D8%B4%DA%A9/"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:1002",
+              "status": "supports",
+              "note": "Pokorny p.1002 cites the New Persian word inside the root article: 'sraska- m. (np. sirisk) ‚Träne, Weinen‘' (POK_03.txt line 3327)."
+            },
+            {
+              "ref": "BQT:1124",
+              "status": "supports",
+              "note": "Mo'in's footnote to سرشک in Borhan-e Qate' (BQT_v2_pages.txt \\f-block 587) traces سرشک to Av. sraska- via Pahlavi srišk, citing Bartholomae 1645, Hübschmann 237, Nyberg 209 and Henning; Dehkhoda reproduces it verbatim: 'اوستا «سرسکا» (تگرگ). سرشک فارسی شاید از پارتی «سرسک» (قطره) باشد. در پهلوی «سریشک» (قطره). … (حاشیه برهان قاطع چ معین)'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien p.237 (and pp. 75, 80 cross-refs)",
+              "stance": "supports",
+              "note": "'sirisk ‘Tropfen’, paz. srisk, zd. srasc ‘besprengen’' (HUB.txt line 6073) and 'sirisk ‘Tropfen’ = zd. sraska-' (line 8489) — the page Mo'in cites as 'هویشمان ۲۳۷'."
+            },
+            {
+              "src": "BRT",
+              "where": "col. 1646 s.v. *sraska-",
+              "stance": "supports",
+              "note": "'Zum V. srask-. — np. sirisk ‘Tropfen, Träne’' (BRT.txt line 27396)."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, IE-roots dictionary, pdf p.355 s.v. سرشک",
+              "stance": "supports",
+              "note": "Entry 'سرشک (به چم اشک چشم ، قطره)' with Avestan and Pahlavi forms (OCR: 'srešk, srišk'), Lithuanian šlakas/šlakėti, and a cross-reference 'برهان قاطع ۱۱۳۴'; note 'چم این واژه در اوستایی: تگرگ' matches Bartholomae's Pahlavi gloss tatark 'Hagel' (ARY_pages.txt, [pdf page 355])."
+            },
+            {
+              "src": "HRN",
+              "where": "grep 'sirisk' in HRN.txt",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no numbered article for this word in the searchable text."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
