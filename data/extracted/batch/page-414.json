@@ -66,26 +66,14 @@
     {"root": {"name": "Rağâ", "redirect": "Ragâ"}, "nodes": []},
     {
       "root": {
-        "name": "Ragâmu",
+        "name": "Ragâmu; Targumânu",
         "lang": "Akkadian",
         "refs": "KLN:1573; AHD:396",
-        "gloss": "to call"
+        "gloss": "to call; interpreter"
       },
       "nodes": [
         {
           "id": 1,
-          "parent": 0,
-          "lang": "Akkadian",
-          "refs": "KLN:1573; AHD:396",
-          "words": [
-            {"translit": "Targumânu", "gloss": "interpreter", "script": null}
-          ],
-          "script_extra": null,
-          "note": null,
-          "quote": null
-        },
-        {
-          "id": 2,
           "parent": 0,
           "lang": "Aramaic",
           "refs": "AHD:396; KLN:1573",
@@ -97,8 +85,8 @@
           "quote": null
         },
         {
-          "id": 3,
-          "parent": 2,
+          "id": 2,
+          "parent": 1,
           "lang": "Arabic",
           "refs": "KLN:1573; DOZ:35",
           "words": [
@@ -109,8 +97,8 @@
           "quote": null
         },
         {
-          "id": 4,
-          "parent": 3,
+          "id": 3,
+          "parent": 2,
           "lang": "Middle Greek",
           "refs": "AHD:396",
           "words": [
@@ -121,8 +109,8 @@
           "quote": null
         },
         {
-          "id": 5,
-          "parent": 4,
+          "id": 4,
+          "parent": 3,
           "lang": "Latin",
           "refs": "AHD:396",
           "words": [
@@ -133,8 +121,8 @@
           "quote": null
         },
         {
-          "id": 6,
-          "parent": 5,
+          "id": 5,
+          "parent": 4,
           "lang": "Old French",
           "refs": "AHD:396",
           "words": [
@@ -145,8 +133,8 @@
           "quote": null
         },
         {
-          "id": 7,
-          "parent": 6,
+          "id": 6,
+          "parent": 5,
           "lang": "English",
           "refs": "AHD:396",
           "words": [
@@ -157,8 +145,8 @@
           "quote": null
         },
         {
-          "id": 8,
-          "parent": 3,
+          "id": 7,
+          "parent": 2,
           "lang": "Persian",
           "refs": "MON:1064; SOR:37",
           "words": [
@@ -174,8 +162,8 @@
           }
         },
         {
-          "id": 9,
-          "parent": 2,
+          "id": 8,
+          "parent": 1,
           "lang": "Hebrew",
           "refs": "KLN:1573",
           "words": [
@@ -186,8 +174,8 @@
           "quote": null
         },
         {
-          "id": 10,
-          "parent": 9,
+          "id": 9,
+          "parent": 8,
           "lang": "English",
           "refs": "KLN:1573; AHD:1316",
           "words": [
