@@ -1,0 +1,418 @@
+{
+  "pdf_page": 449,
+  "book_page": 419,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Š.f.f",
+      "verdict": "plausible",
+      "modern_form": "Arabic root ش ف ف (š-f-f) 'to be thin and let light through, be transparent'",
+      "note": "The root itself is real and correctly glossed: Arabic شَفَّ (šaffa) 'to be see-through', root ش ف ف, with شَفّ/شِفّ 'a thin diaphanous garment', شَفّاف 'transparent', شَفافيّة 'transparency'. The reservation is the language label: Nourai writes [Semitic], but his own authority Klein (KLN:275 s.v. chiffon) cites only 'Arab. shaffa'; no Hebrew/Aramaic/Akkadian cognate of a root *š-p-p 'be transparent' turned up in Klein, Fraenkel (AFA) or Wiktionary, so the root is securely Arabic but not demonstrably common Semitic. Everything inside the Arabic box is confirmed; the doubtful link is the French one (see node #4), and Nourai's own NOTE that AHD takes chiffon to a different origin is correct.",
+      "note_fa": "ریشهٔ عربی «ش‌ف‌ف» به معنی «نازک و نورگذر بودن» است: شَفَّ «نازک و روشن بود»، شِفّ «جامهٔ نازک»، شَفّاف «روشن، نورگذر». تا اینجا ادعای نورایی درست است، اما برچسب «سامی» بیش از آن چیزی است که منبع خودِ او (کلاین ۲۷۵) می‌گوید؛ کلاین تنها صورت عربی را می‌آورد و در فرانکل و ویکی‌واژه هم‌ریشهٔ عبری یا آرامی برای این ریشه یافت نشد. بنابراین ریشه را باید «عربی» دانست نه «سامی مشترک»؛ حلقهٔ سست این نمودار پیوند فرانسویِ chiffe است (بند ۴).",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B4%D9%81",
+        "https://en.wiktionary.org/wiki/%D8%B4%D9%81%D8%A7%D9%81"
+      ],
+      "ref_check": [
+        {"ref": "KLN:275", "status": "partial", "note": "Klein 1966 s.v. 'chiffon' (local KLN_1966.txt line 7396, leaf 156, printed page ~288 in this scan — Nourai's 275 is close but the scan carries no page numerals): 'F., fr. chiffe, \"rag\", pl. \"clothes\", fr. Arab. shiff, \"light garment\", fr. shaffa, \"it was fine and transparent\" (said of materials)'. Klein has the root and gloss exactly, but labels it Arabic, not Semitic."}
+      ],
+      "consulted": [
+        {"src": "KLN", "where": "KLN_1966.txt line 7396 (s.v. chiffon)", "stance": "partial", "note": "'fr. Arab. shiff, \"light garment\", fr. shaffa, \"it was fine and transparent\"' — root yes, 'Semitic' label no."},
+        {"src": "AFA", "where": "AFA.txt, grep 'transparent|Safran|schiff'", "stance": "silent", "note": "Fraenkel's Aramäische Fremdwörter has no entry for a root š-p-p 'be transparent' (grep found nothing usable), so no Aramaic cognate is documented there."},
+        {"src": "DEV", "where": "p. 94-95 s.v. Chiffon", "stance": "supports", "note": "'chiffe est l'arabe شف chiff, \"vestis tenuis et pellucida\"' — Devic knows the Arabic word with exactly this sense."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "šaffa",
+          "verdict": "confirmed",
+          "derivation": "Arabic شَفَّ (šaffa), a geminate Form-I verb of the root ش ف ف, 'to be thin/diaphanous, to let what is behind show through' (said of cloth). Wiktionary lists it as Form I geminate with the gloss 'to be seethrough'; Klein glosses it 'it was fine and transparent (said of materials)'. The verb is simply the root realised as fa'ala, so the arrow root → verb is a morphological identity, not a derivation across languages.",
+          "derivation_fa": "فعل عربی شَفَّ (باب فَعَلَ مضاعف) از ریشهٔ «ش‌ف‌ف» به معنی «نازک و نورگذر بودن» است؛ دربارهٔ پارچه به کار می‌رود، یعنی «آنچه پشتش پیداست». پیکان از ریشه به این فعل در واقع صورت‌بندی صرفی همان ریشه است، نه دگرگونی آوایی. ویکی‌واژه و کلاین (ص ۲۷۵) هر دو همین معنی را می‌دهند؛ ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B4%D9%81"],
+          "ref_check": [
+            {"ref": "KLN:275", "status": "supports", "note": "KLN_1966.txt line 7396: '...fr. shaffa, \"it was fine and transparent\" (said of materials)'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 7396 (also KLN_1971.txt line 45175, same wording)", "stance": "supports", "note": "'fr. Arab. shiff, \"light garment\", fr. shaffa'."},
+            {"src": "DEV", "where": "DEV.txt line 1131-1133, printed p. 94-95", "stance": "supports", "note": "'chiffe est l'arabe شف chiff, \"vestis tenuis et pellucida\"' — Devic cites the same Arabic material."},
+            {"src": "LAM", "where": "LAM.txt line 7630 s.v. Chiffe", "stance": "supports", "note": "'Chiffe et son dérivé Chiffon; de [شف], chiffe étoffe légère et transparente.'"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "šaffâf",
+          "verdict": "confirmed",
+          "derivation": "Persian شفّاف (šaffāf) is the Arabic intensive adjective فَعّال of the same root (šaffāf 'very transparent'), taken over unchanged as an Arabic loanword in New Persian; the abstract شفّافیّت (šaffāfiyyat, printed by Nourai as the second Persian form) is likewise the Arabic nisba-abstract شَفافيّة borrowed with the Persian pronunciation of -iyyat. Mo'in tags the entry '[ع.]' (= Arabic) and glosses it 'هرچیز لطیف و نازک که از پشت آن چیزهای دیگر دیده شود'. In modern Persian usage šaffāf has additionally acquired the political sense 'open, accountable' (شفافیت 'transparency'), a 20th-century calque on European usage.",
+          "derivation_fa": "«شفّاف» صفت مشبههٔ عربی بر وزن فَعّال از ریشهٔ «ش‌ف‌ف» است که بی‌هیچ دگرگونی آوایی وارد فارسی شده؛ «شفّافیّت» نیز مصدر صناعی عربی شَفافيّة است. معین در فرهنگ خود آن را با نشان «[ع.]» یعنی عربی آورده و چنین معنی کرده است: «هرچیز لطیف و نازک که از پشت آن چیزهای دیگر دیده شود». معنای امروزی «شفافیت» در سیاست و اداره، گرته‌برداری سدهٔ بیستم از transparency اروپایی است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%81%D8%A7%D9%81",
+            "https://abadis.ir/fatofa/%D8%B4%D9%81%D8%A7%D9%81/"
+          ],
+          "ref_check": [
+            {"ref": "MON", "status": "supports", "note": "Mo'in via abadis.ir: 'شفاف [ع.] (ص.) هرچیز لطیف و نازک که از پشت آن چیزهای دیگر دیده شود' — the bracket [ع.] is Mo'in's Arabic-origin tag. Nourai gives no page, so the page itself cannot be checked."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "abadis.ir فرهنگ معین s.v. شفاف", "stance": "supports", "note": "'[ع.] (ص.) هرچیز لطیف و نازک که از پشت آن چیزهای دیگر دیده شود'."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/شفاف", "stance": "supports", "note": "'Persian: borrowed from Arabic شَفَّاف (šaffāf), root ش ف ف'; Ottoman Turkish شفاف likewise from Arabic."},
+            {"src": "ARY", "where": "ARY_pages.txt, grep شفاف", "stance": "silent", "note": "Aryanpur's IE-root dictionary has no entry (as expected for an Arabic loan)."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "šiff",
+          "verdict": "confirmed",
+          "derivation": "Arabic شِفّ (šiff), also شَفّ (šaff), is the verbal noun / result-noun of šaffa: 'a thin, fine, diaphanous garment or veil' (Lane: 'a thin, fine garment through which what is behind shows'). Klein cites it in exactly this form and sense ('Arab. shiff, \"light garment\"'), and Devic renders it with the Latin gloss 'vestis tenuis et pellucida'. The step šaffa → šiff is internal Arabic derivation (fiʿl form of the geminate root), not a borrowing.",
+          "derivation_fa": "شِفّ (یا شَفّ) اسمِ برگرفته از همان فعل شَفَّ است به معنی «جامهٔ نازک و نورگذر»؛ لین آن را «جامهٔ نازکی که آنچه پشت آن است پیدا باشد» معنی کرده و دِویک آن را با عبارت لاتین «vestis tenuis et pellucida» آورده است. گذر از شَفَّ به شِفّ اشتقاق درون‌عربی است، نه وام‌گیری. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/chiffon"],
+          "ref_check": [
+            {"ref": "KLN:275", "status": "supports", "note": "KLN_1966.txt line 7396: 'fr. Arab. shiff, \"light garment\", fr. shaffa'."}
+          ],
+          "consulted": [
+            {"src": "DEV", "where": "DEV.txt line 1131-1133, printed p. 94-95 s.v. Chiffon", "stance": "supports", "note": "'chiffe est l'arabe شف chiff, \"vestis tenuis et pellucida\"'."},
+            {"src": "LAM", "where": "LAM.txt line 7630", "stance": "supports", "note": "'de [شف], chiffe étoffe légère et transparente'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 7396", "stance": "supports", "note": "same wording as the ref_check."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "chiffe",
+          "verdict": "plausible",
+          "derivation": "French chiffe (attested 16th c.) 'a poor, flimsy cloth; a rag'. The Arabic derivation drawn here is a real scholarly position, not Nourai's invention: Defrémery proposed it, Devic (1876, p. 94-95) endorsed it ('L'étymologie est bonne... chiffe est l'arabe shiff'), Lammens repeats it, and Klein (Nourai's source) adopts it. But it is a minority view today. AHD derives chiffon 'from chiffe, rag, alteration (influenced by Old French chifre \"zero, thing of little value\") of Old French chipe', itself from Middle English chip; Etymonline lists the Arabic proposal only as one of several ('perhaps a variant of English chip... an Arabic source [Klein]... origin unknown'), and Skeat's Concise (s.v. Chiffonier) simply says 'orig. unknown'. Phonetically Arabic šiff → OF chiffe is unobjectionable (Arabic š- regularly gives French ch-, as in chiffre < ṣifr), so the case rests on documentation of the borrowing route, which nobody has produced.",
+          "derivation_fa": "واژهٔ فرانسوی chiffe «پارچهٔ نازک و بی‌کیفیت، کهنه» از سدهٔ شانزدهم گواهی شده است. ریشه‌یابی عربی آن (از شِفّ) از دفرِمری آغاز شد، دِویک (۱۸۷۶، ص ۹۴–۹۵) آن را پذیرفت («این ریشه‌شناسی درست است… chiffe همان شِفّ عربی است»)، لامنس تکرارش کرد و کلاین — منبع خودِ نورایی — آن را برگزید. اما دیدگاه غالب امروز این نیست: فرهنگ AHD آن را دگرگون‌شدهٔ chipe فرانسوی کهن (از chip انگلیسی میانه) با اثرپذیری از chifre «صفر، چیز بی‌ارزش» می‌داند و اتیمانلاین فرضیهٔ عربی را تنها یکی از چند احتمال می‌شمارد. از نظر آوایی «ش» عربی در فرانسوی به ch بدل می‌شود (چنانکه صِفر ← chiffre)، پس اشکال آوایی در کار نیست؛ اشکال در نبودِ سند راهِ وام‌گیری است. پس: با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/chiffon",
+            "https://www.ahdictionary.com/word/search.html?q=chiffon"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "Nourai gives no reference for this node; the arrow is implicitly covered by KLN:275 on the neighbouring boxes, which does assert Arab. shiff > F. chiffe."}
+          ],
+          "consulted": [
+            {"src": "DEV", "where": "DEV.txt line 1131-1134, printed p. 94-95 s.v. Chiffon", "stance": "supports", "note": "'Chiffon. Ital. chiffone, arabe chiffoun... L'étymologie est bonne, mais il faut dire que chiffon vient de chiffe, vieux mot français... et chiffe est l'arabe shiff, \"vestis tenuis et pellucida\".'"},
+            {"src": "LAM", "where": "LAM.txt line 7630-7634", "stance": "supports", "note": "'Chiffe et son dérivé Chiffon; de [شف]... La terminaison on dans chiffon est pour le diminutif et non la nunnation.'"},
+            {"src": "AHD", "where": "ahdictionary.com s.v. chiffon", "stance": "contradicts", "note": "'[French, rag... from chiffe, rag, alteration (influenced by Old French chifre, zero, thing of little value) of Old French chipe]' < Middle English chip."},
+            {"src": "SKT", "where": "SKT.txt line 3378 s.v. Chiffonier", "stance": "contradicts", "note": "'(F. ...) rag-picker, also a cupboard. — F. ... orig. unknown.' Skeat records no Arabic source."},
+            {"src": "PHN", "where": "PHN.txt, grep 'chiffe|chiffon'", "stance": "silent", "note": "Pihan's dictionary of French orientalisms has no CHIFFE/CHIFFON headword."},
+            {"src": "DOZ", "where": "DOZ.txt, grep 'chiffe|chiffon'", "stance": "silent", "note": "Dozy's Oosterlingen has no corresponding entry."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "chiffon",
+          "verdict": "confirmed",
+          "derivation": "English chiffon is a straightforward 18th-century borrowing of French chiffon, the -on diminutive of chiffe ('rag' → 'scrap of finery'), first in English in 1765 in the sense 'feminine finery, ornamental trimmings' (usually plural 'chiffons'); the modern sense 'sheer silk gauze' is only from 1890, and the dessert sense from 1929. Lammens notes correctly that the -on is the French diminutive suffix and not, as had been claimed, the Arabic nunation of a form *šiffun. Nourai's own NOTE — 'AHD derives this word from a different root' — is accurate: AHD takes chiffe back to Old French chipe < Middle English chip, not to Arabic (see node #4). The French → English step itself is uncontested.",
+          "derivation_fa": "«chiffon» انگلیسی وام‌واژهٔ سدهٔ هجدهم از فرانسوی chiffon است که خود مصغّر chiffe («کهنه، پارچهٔ نازک») با پسوند -on است؛ نخستین کاربرد انگلیسی آن در ۱۷۶۵ به معنی «زیورهای زنانه» است و معنای امروزی «پارچهٔ ابریشمی نازک» تنها از ۱۸۹۰ دیده می‌شود. لامنس به‌درستی یادآور شده که -on پسوند تصغیر فرانسوی است نه تنوینِ عربیِ *šiffun. یادداشت خودِ نورایی که «AHD این واژه را از ریشه‌ای دیگر می‌گیرد» درست است. خودِ حلقهٔ فرانسوی ← انگلیسی بی‌چون‌وچرا پذیرفته است.",
+          "sources": [
+            "https://www.etymonline.com/word/chiffon",
+            "https://www.ahdictionary.com/word/search.html?q=chiffon"
+          ],
+          "ref_check": [
+            {"ref": "KLN:275", "status": "supports", "note": "KLN_1966.txt line 7396: 'chiffon, n., a sheer silk fabric used for women's dresses. — F., fr. chiffe, \"rag\", pl. \"clothes\"...' — the French→English step exactly as drawn."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "ahdictionary.com s.v. chiffon", "stance": "partial", "note": "confirms French chiffon > English, but takes chiffe to Old French chipe < ME chip — i.e. Nourai's NOTE about AHD is correct."},
+            {"src": "WEB", "where": "WEB_vol1.txt line 32197 s.v. chiffon", "stance": "partial", "note": "Webster's 2nd gives only '[Fr.]' — French source, no ulterior etymology."},
+            {"src": "SKT", "where": "SKT.txt line 3378", "stance": "partial", "note": "Skeat has only Chiffonier, 'orig. unknown'."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "S.f.r, Asfar",
+      "verdict": "confirmed",
+      "modern_form": "Arabic root ص ف ر (ṣ-f-r) 'to be yellow'; أَصْفَر (ʔaṣfar) 'yellow', fem. صَفْرَاء (ṣafrāʔ)",
+      "note": "The root box is right: ṣ-f-r is the ordinary Arabic colour root, with the elative-pattern colour adjective aṣfar / fem. ṣafrāʔ 'yellow' (Wiktionary s.v. صفراء: 'feminine singular of أَصْفَر (ʔaṣfar)', root ص ف ر), and the derivatives ṣufrah 'yellowness', ʿuṣfur 'safflower', iṣfirār 'turning yellow'. The right-hand branch of the chart (ṣafrāʔ 'yellow/bile' → Persian صفرا, Italian saffiore → safflower) is sound. The left branch is not: making زَعْفَران (zaʿfarān) a derivative of ṣ-f-r is not accepted by modern scholarship (see node #1), which is also why Nourai's own three marginal NOTEs contradict each other. Of those NOTEs: PLA:145 (Asbaghi) really does derive zaʿfarān from Persian zar-parān and that view is still current enough to be cited on Wiktionary; the two CEL6 claims are worthless — an Indo-European *kes- 'hair' source is phonetically impossible for a word with ز and ع, and the claim that the Arabs got saffron from Kashmir only in the 9th-10th century is refuted by the word's appearance in pre-Islamic Arabic poetry and by Akkadian azupīru.",
+      "note_fa": "جعبهٔ ریشه درست است: «ص‌ف‌ر» ریشهٔ رنگِ زرد در عربی است با صفت أَصْفَر (مؤنث صَفْراء) «زرد»، و مشتقاتی چون صُفرة، عُصفُر و اصفِرار. شاخهٔ راست نمودار (صفراء «زرد/صفرا» ← فارسی صفرا؛ ایتالیایی saffiore ← safflower) پذیرفتنی است، اما شاخهٔ چپ نه: گرفتن «زعفران» از ریشهٔ «ص‌ف‌ر» را ریشه‌شناسی امروزی نمی‌پذیرد (بند ۱). از سه یادداشت خودِ نورایی: ادعای اسبغی (PLA:145) دربارهٔ «زرپران» واقعاً در آن کتاب هست و هنوز نقل می‌شود؛ اما دو ادعای CEL۶ بی‌پایه است — ریشهٔ هندواروپایی *kes- «مو» با واژه‌ای که «ز» و «ع» دارد از نظر آوایی ناسازگار است، و اینکه عرب‌ها زعفران را تازه در سدهٔ نهم–دهم از کشمیر آورده باشند با کاربرد واژه در شعر جاهلی و با azupīru اکدی نقض می‌شود.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B5%D9%81%D8%B1%D8%A7%D8%A1",
+        "https://www.ahdictionary.com/word/search.html?q=saffron"
+      ],
+      "ref_check": [
+        {"ref": "FVA:232", "status": "not_checked", "note": "Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi: refs_online.json records no digital copy anywhere (archive.org, ketabnak, noorlib all searched), and there is no local file, so p. 232 cannot be read."}
+      ],
+      "consulted": [
+        {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/صفراء", "stance": "supports", "note": "'feminine singular of أَصْفَر (ʔaṣfar)' = yellow; noun 'bile'; root ص ف ر; borrowings listed: Persian صفرا, Turkish safra, Spanish zafra, Swahili safura."},
+        {"src": "KLN", "where": "KLN_1966.txt line 35938 s.v. Sophora", "stance": "supports", "note": "'fr. Arab. ṣufārah, \"yellow plants\", which is rel. to uṣfur, fem. ṣafrāʾ, \"yellow\"' — Klein's own statement of the root."},
+        {"src": "LKT", "where": "LKT.txt entry 2178 (printed p. ~250)", "stance": "partial", "note": "Lokotsch gives 'Ar. zaʿfarān: Safran' as the source of the European words but says nothing about its connection with ṣ-f-r."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "za`farân",
+          "verdict": "disputed",
+          "derivation": "Arabic زَعْفَران (zaʿfarān) 'saffron, Crocus sativus' is old and well attested (pre-Islamic poetry; Rāzī's medical manuscripts, cited by Devic), but deriving it from the root ṣ-f-r 'yellow' as this arrow does is rejected by modern scholarship: the initial ز (z) and medial ع (ʿ) cannot be reconciled with ص-ف-ر, and no Arabic grammarian derives it that way. AHD states flatly '[...] from Arabic zaʿfarān; akin to Akkadian azupīru, of unknown origin'; Etymonline likewise 'from Arabic az-zaʿfaran, of unknown origin'. Wiktionary offers three competing accounts — a borrowing from Aramaic ṣpr with an added -ān, an internal Arabic formation on the pattern of زعتر zaʿtar and عصفر ʿuṣfur (this is the only one that touches ṣ-f-r, and only obliquely), and a Middle Iranian borrowing. Nourai's own NOTE reports Asbaghi (PLA:145), which I read on the page: 'zaʿfarān: \"Safran\" pers., wahrscheinlich aus dem pers. زرپران zarparān \"mit goldenen Blättern\", mand. zaparania, syr. ...' — i.e. Asbaghi makes it a Persian loan, the opposite direction from the arrow drawn. Against that, Dehkhoda quotes al-Jawāliqī's al-Muʿarrab p.173, 'عربی صحیح است' ('it is genuine Arabic'). The honest verdict is 'origin uncertain, certainly not a transparent ṣ-f-r derivative'.",
+          "derivation_fa": "«زعفران» عربی واژه‌ای کهن و پرکاربرد است (در شعر جاهلی و در نسخه‌های پزشکی رازی)، اما گرفتن آن از ریشهٔ «ص‌ف‌ر» — چنانکه این پیکان می‌گوید — پذیرفتنی نیست: «ز» آغازین و «ع» میانی با ص‌ف‌ر سازگار نمی‌شود. فرهنگ AHD می‌نویسد «از عربی زعفران، هم‌ریشه با azupīru اکدی، با خاستگاه ناشناخته» و اتیمانلاین نیز «خاستگاه نامعلوم». ویکی‌واژه سه فرضیه می‌آورد: وام از آرامی ṣpr با پسوند ān؛ ساختی درون‌عربی بر قیاس «زعتر» و «عُصفُر»؛ و وام‌گیری از ایرانی میانه. یادداشت خودِ نورایی به اسبغی (PLA:145) ارجاع می‌دهد و متن آن صفحه را خواندم: «زعفران: “Safran”، فارسی، احتمالاً از فارسی زرپران “دارای برگ‌های زرین”، مندایی zaparania، سریانی …» — یعنی اسبغی جهت وام‌گیری را وارونهٔ نمودار می‌داند. در برابر، دهخدا از «المعرّب» جوالیقی (ص ۱۷۳) نقل می‌کند: «عربی صحیح است». نتیجه: پژوهش امروزی این پیکان را رد می‌کند و خاستگاه واژه را نامعلوم می‌داند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86",
+            "https://www.etymonline.com/word/saffron",
+            "https://www.ahdictionary.com/word/search.html?q=saffron",
+            "https://abadis.ir/fatofa/%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86/"
+          ],
+          "ref_check": [
+            {"ref": "FSD:2157", "status": "partial", "note": "Funk & Wagnalls New Standard, vol. IV leaf 9 (≈ printed pp. 2153-2157) carries saffron / safflower / safranin; the OCR of the saffron etymology bracket is broken, but the neighbouring safflower bracket reads '( < OF saflor, < O It saflore, < Ar ʿuṣfur, < ṣafrā, yellow )' and safranin '[< F safran, see SAFFRON]'. So F&W does tie the ṣ-f-r material together on this page, but for saffron itself no ṣ-f-r derivation could be read."}
+          ],
+          "consulted": [
+            {"src": "PLA", "where": "Asbaghi p. 145 (PLA_pages.txt lines 8279-8283; the running head 'zufāna 146 zanburak' sits at the top of the next page)", "stance": "contradicts", "note": "'zaʿfarān: \"Safran\" pers., wahrscheinlich aus dem pers. زرپران zarparān \"mit goldenen Blättern\", mand. zaparania, syr. ... → afrz. safran, mhd. Safran, dtsch. Safran' — Persian source, not an Arabic ṣ-f-r derivative. Confirms Nourai's NOTE verbatim."},
+            {"src": "AHD", "where": "ahdictionary.com s.v. saffron", "stance": "contradicts", "note": "'from Arabic zaʿfarān; akin to Akkadian azupīru, of unknown origin.'"},
+            {"src": "LKT", "where": "LKT.txt entry 2178", "stance": "partial", "note": "'Ar. zaʿfarān: \"Safran Memocylon tinctorium\"; hieraus it. zafferano, frz. Safran, sp. azafrán...' — Arabic as the source of the European words, silent on its own origin."},
+            {"src": "MON", "where": "Dehkhoda quoted on abadis.ir s.v. زعفران", "stance": "contradicts", "note": "'عربی صحیح است. (از المعرب جوالیقی ص ۱۷۳)' — Jawāliqī treats it as genuine Arabic, i.e. not analysable and not a loan."},
+            {"src": "AFM", "where": "AFM_pages.txt, grep زعفران", "stance": "silent", "note": "Addi Shir's list of Persian words arabicised has no زعفران headword (the three hits are inside other entries), so he did not count it a Persian loan."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "za`farân",
+          "verdict": "confirmed",
+          "derivation": "New Persian زعفران (zaʿfarān) is the Arabic word taken over unchanged, ʿayn and all — the surest sign of an Arabic-mediated loan in Persian. Mo'in's entry tags it '[ع.]' (Arabic) and defines it as the perennial of the iris family with long green leaves; Wiktionary's Persian entry likewise reads 'borrowed from Arabic زَعْفَرَان (zaʿfarān)', with کرکم as its synonym. If Asbaghi is right that the Arabic word itself began as Persian zar-parān (node #1), then the Persian word is a round trip: Middle Iranian → Arabic → New Persian, of which the present form preserves only the Arabic shape.",
+          "derivation_fa": "«زعفران» فارسی نو همان واژهٔ عربی است که دست‌نخورده — با «ع» و همه — وام گرفته شده، و همین «ع» مطمئن‌ترین نشانهٔ وام‌گیری از راه عربی است. معین آن را با نشان «[ع.]» می‌آورد و «گیاهی است پایا از تیرهٔ زنبقی‌ها با برگ‌های دراز و سبز» معنی می‌کند؛ ویکی‌واژه نیز می‌نویسد «وام‌گرفته از عربی زَعْفَرَان» و «کرکم» را هم‌معنی آن می‌شمارد. اگر نظر اسبغی (بند ۱) درست باشد که خودِ واژهٔ عربی از «زرپران» فارسی آمده، آنگاه این واژه یک «دوگردش» است: ایرانی میانه ← عربی ← فارسی نو، و صورت امروزی تنها قالب عربی را نگاه داشته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86",
+            "https://abadis.ir/fatofa/%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86/"
+          ],
+          "ref_check": [
+            {"ref": "MON:1739", "status": "supports", "note": "The 6-vol Mo'in is not online and its pages cannot be mapped, but the entry text via abadis.ir reads '(زَ فَ) [ع.] (اِ.) گیاهی است پایا از تیرة زنبقی‌ها با برگ‌های دراز و سبز' — Arabic-origin tag exactly as the arrow requires."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "abadis.ir فرهنگ معین s.v. زعفران", "stance": "supports", "note": "'[ع.]' = Arabic loan."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/زعفران (Persian section)", "stance": "supports", "note": "'Borrowed from Arabic زَعْفَرَان (zaʕfarān)'; etymology tree Aramaic → Arabic → Persian."},
+            {"src": "PLA", "where": "Asbaghi p. 145", "stance": "partial", "note": "would make the Persian form a re-borrowing of an originally Persian zar-parān, i.e. the same Arabic→Persian step but with a prior Persian→Arabic one."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Middle Latin",
+          "words": "safranum",
+          "verdict": "confirmed",
+          "derivation": "Medieval Latin safrānum, the apothecaries' and herbalists' Latin for saffron, is the Arabic zaʿfarān Latinised: the Arabic article az- is dropped in the Italian/French line (it is kept in Ibero-Romance: Spanish azafrán, Portuguese açafrão), the initial z- appears as s- in the French-Latin chain but as z- in Italian zafferano, the ʿayn is lost with compensatory lengthening, and the ending is fitted to the Latin second declension. It is the immediate source of Old French safran (12th c.) and the base of the whole Northern European set. Klein and AHD both give exactly this step.",
+          "derivation_fa": "safrānum لاتین میانه، همان واژهٔ عربی «زعفران» است که به قالب لاتین درآمده: حرف تعریف «ال» در شاخهٔ ایتالیایی–فرانسوی افتاده (ولی در اسپانیایی azafrán و پرتغالی açafrão مانده است)، «ع» از میان رفته، «ز» آغازین در این شاخه به s بدل شده (در ایتالیایی zafferano همان z مانده) و پایانهٔ -um صرفِ لاتین بدان افزوده شده است. این صورت، سرچشمهٔ بی‌واسطهٔ safran فرانسوی کهن (سدهٔ دوازدهم) و پایهٔ همهٔ صورت‌های شمال اروپاست. کلاین و AHD هر دو همین مرحله را می‌آورند؛ ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/saffron",
+            "https://www.ahdictionary.com/word/search.html?q=saffron"
+          ],
+          "ref_check": [
+            {"ref": "DEV:199", "status": "partial", "note": "Devic p. 199 exactly (the running heads 'DES MOTS D'ORIGINE ORIENTALE. 199' and '200 DICTIONNAIRE ÉTYMOLOGIQUE' bracket the entry in DEV.txt lines 2040-2048): 'Safran. Esp. azafrano, portug. açafrão, ital. zafferano. On trouve, en vieux français, safleur, saflor. De l'arabe-persan زعفران zaʿferān (avec l'article az-zaʿferān), même sens. Le mot est dans Razi.' Devic has the Arabic source and the Romance forms but does not name a Middle Latin safranum."},
+            {"ref": "KLN:1372", "status": "supports", "note": "KLN_1966.txt line 33478 (leaf 729): 'saffron, n. — ME. saffron, fr. OF. (= F.) safran, fr. ML. safranum, fr. Arab. zaʿfaran, whence also It. zafferano, Sp. azafran.' Exactly the chain. (The scan has no page numerals; by leaf arithmetic this sits near p. 1430, so Nourai's 1372 may follow a different printing.)"},
+            {"ref": "PRT:581", "status": "not_checked", "note": "Partridge, Origins: all archive.org copies are lending-only (originsshortetym00part etc.); no open text."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 33478", "stance": "supports", "note": "'fr. ML. safranum, fr. Arab. zaʿfaran'."},
+            {"src": "AHD", "where": "ahdictionary.com s.v. saffron", "stance": "supports", "note": "'from Old French safran, from Medieval Latin safrānum, from Arabic zaʿfarān'."},
+            {"src": "LKT", "where": "LKT.txt entry 2178", "stance": "partial", "note": "lists it. zafferano, frz. safran, sp. azafrán directly from Ar. zaʿfarān, with no Latin waystation named."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Old French",
+          "words": "safron",
+          "verdict": "confirmed",
+          "derivation": "Old French / Anglo-Norman safran, with the widely attested variant safron (and safroun, saffroun, saffran, saphron...), is the regular continuation of Medieval Latin safrānum — the Latin ending is dropped, giving safran, and the unstressed -a- rounds to -o- in the insular tradition. The Anglo-Norman Dictionary lists 'safron' and 'safroun' explicitly among the spellings of safran 'saffron, Crocus sativus', so Nourai's form (which the printed page really does show as 'safron') is an attested variant, not an error — and it is precisely the variant that explains English saffron rather than *saffran. AHD gives the same step but cites the base form: 'Middle English safroun, from Old French safran'.",
+          "derivation_fa": "صورت فرانسوی کهن/آنگلونورمن safran با گونهٔ پرکاربرد safron (و نیز safroun، saffroun، saphron…) دنبالهٔ قاعده‌مند safrānum لاتین میانه است: پایانهٔ لاتین می‌افتد و مصوت بی‌تکیهٔ a در سنت جزیره‌ای (انگلستان) به o گرد می‌شود. فرهنگ آنگلونورمن هر دو گونهٔ safron و safroun را ذیل safran ثبت کرده است، پس صورتی که نورایی آورده (و در چاپ کتاب هم همان «safron» است) گونه‌ای گواهی‌شده است نه خطا — و درست همین گونه است که saffron انگلیسی را توضیح می‌دهد. AHD همین مرحله را با صورت پایه می‌آورد: «انگلیسی میانه safroun، از فرانسوی کهن safran». ادعای نورایی درست است.",
+          "sources": [
+            "https://anglo-norman.net/entry/safran",
+            "https://www.ahdictionary.com/word/search.html?q=saffron"
+          ],
+          "ref_check": [
+            {"ref": "AHD:1142", "status": "supports", "note": "The 1976 New College page is not open online, but the same entry in the current AHD reads '[Middle English safroun, from Old French safran, from Medieval Latin safrānum, from Arabic zaʿfarān; akin to Akkadian azupīru, of unknown origin.]' — the Old French step is AHD's."}
+          ],
+          "consulted": [
+            {"src": "AND", "where": "anglo-norman.net/entry/safran", "stance": "supports", "note": "variants listed include 'safron' and 'safroun'; gloss 'saffron, Crocus sativus'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 33478", "stance": "supports", "note": "'ME. saffron, fr. OF. (= F.) safran'."},
+            {"src": "DEV", "where": "DEV.txt printed p. 199", "stance": "partial", "note": "gives the Romance forms and the Old French safleur/saflor but not safran/safron as a headword form."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "saffron, safranine",
+          "verdict": "confirmed",
+          "derivation": "English saffron is attested c.1200 (Middle English safroun) from the Anglo-Norman form; 'saffron' as a colour term follows in the late 14th c. and as the name of the crocus in the early 15th. Safranine (also safranin) is a quite separate, 19th-century chemical coinage: French safranine, from safran + the chemical suffix -ine, the name of a synthetic orange-red azonium dye — Klein says so explicitly, and Funk & Wagnalls likewise '[< F safran, see SAFFRON]'. So both words in the box descend from the Old French form, but by very different routes (medieval loan vs. modern learned formation), which the chart's single arrow does not distinguish.",
+          "derivation_fa": "«saffron» انگلیسی از حدود ۱۲۰۰ م. (انگلیسی میانه safroun) از صورت آنگلونورمن وام گرفته شده؛ کاربرد آن به‌عنوان نام رنگ از اواخر سدهٔ چهاردهم و نام گیاه زعفران از آغاز سدهٔ پانزدهم است. اما «safranine» واژه‌ای یکسره جداست: ساختهٔ سدهٔ نوزدهم در فرانسوی از safran + پسوند شیمیایی -ine، نام رنگ‌دانهٔ مصنوعی نارنجی‌ـ‌سرخ؛ کلاین و فانک‌ووگنالز هر دو همین را می‌گویند. پس هر دو واژه به صورت فرانسوی کهن بازمی‌گردند، ولی از دو راه بسیار متفاوت (وام‌واژهٔ قرون وسطایی در برابر ساختِ علمی نو) که نمودار با یک پیکان آن دو را یکی گرفته است.",
+          "sources": [
+            "https://www.etymonline.com/word/saffron",
+            "https://www.ahdictionary.com/word/search.html?q=saffron"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD s.v. saffron: '[Middle English safroun, from Old French safran...]'. AHD has no separate etymology for safranine in the free online edition, but the formation is standard."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt lines 33478-33480", "stance": "supports", "note": "'saffron, n. — ME. saffron, fr. OF. (= F.) safran'; 'safranine, n. — F., formed with chem. suff. -ine fr. safran, \"saffron\"'."},
+            {"src": "FSD", "where": "FSD_vol4.txt line 520 (≈ printed p. 2155)", "stance": "supports", "note": "'saf'ra-nin ... [< F safran (see SAFFRON) ...]'."},
+            {"src": "etymonline", "where": "etymonline.com/word/saffron", "stance": "supports", "note": "'c.1200, from Old French safran, from Medieval Latin safranum'; colour sense late 14c."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "safrâ",
+          "verdict": "confirmed",
+          "derivation": "Arabic صَفْرَاء (ṣafrāʔ) is the feminine of the colour adjective أَصْفَر (ʔaṣfar) 'yellow' on the aflaʿ/faʿlāʔ colour pattern, and is used substantivally for 'bile, yellow gall' — the yellow humour of Galenic medicine, one of the four اخلاط. The step root ṣ-f-r → aṣfar/ṣafrāʔ is plain Arabic morphology, and the semantic move 'the yellow (one)' → 'yellow bile' is the ordinary substantivisation of a colour adjective. Wiktionary gives both senses under one entry, with مِرَّة as the synonym for the bile sense.",
+          "derivation_fa": "«صَفْراء» مؤنثِ صفت رنگِ «أَصْفَر» (زرد) بر وزن أفعل/فَعلاء است و در کاربرد اسمی به معنی «صفرا، زردآب» به کار می‌رود؛ یکی از چهار خلط در طب جالینوسی. گذر از ریشهٔ ص‌ف‌ر به أصفر/صفراء صرفِ ساده عربی است و تحول معنایی «آنِ زرد» ← «زردآب» همان اسم‌شدنِ معمولِ صفتِ رنگ است. ویکی‌واژه هر دو معنی را ذیل یک مدخل می‌آورد و «مِرّة» را هم‌معنی آن می‌شمارد. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B5%D9%81%D8%B1%D8%A7%D8%A1"],
+          "ref_check": [
+            {"ref": "FSD:2157", "status": "partial", "note": "Funk & Wagnalls vol. IV leaf 9 (≈ pp. 2153-2157) s.v. safflower: '( < OF saflor, < O It saflore, < Ar ʿuṣfur, < ṣafrā, yellow )' — F&W states the Arabic ṣafrā 'yellow' on the page Nourai cites, though it puts ʿuṣfur between it and the Romance forms."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/صفراء", "stance": "supports", "note": "'feminine singular of أَصْفَر (ʔaṣfar)'; noun 'bile', synonym مِرَّة; root ص ف ر."},
+            {"src": "KLN", "where": "KLN_1966.txt lines 33477, 35938", "stance": "supports", "note": "'Arab. ṣafrāʾ, fem. of aṣfar, \"yellow\"' (s.v. safflower); 'rel. to uṣfur, fem. ṣafrāʾ, \"yellow\"' (s.v. Sophora)."},
+            {"src": "DEV", "where": "DEV.txt printed p. 200 s.v. Safre", "stance": "supports", "note": "'M. Dozy propose de rapprocher zafre de l'arabe صفر ṣofr, cuivre jaune (ṣofra, couleur jaune)'."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "safrâ",
+          "verdict": "confirmed",
+          "derivation": "Persian صفرا (safrā), also written صفراء in learned/medical orthography, is the Arabic ṣafrāʔ borrowed wholesale as the technical term for yellow bile in Perso-Islamic humoural medicine (Avicenna's Qānūn and after), alongside سودا (black bile), بلغم and دم. The final hamza is regularly dropped in Persian pronunciation (safrā, not safrāʔ), and the word has produced the Persian adjectives صفراوی and the idiom «صفرا بریدن». Both script forms that Nourai prints — صفرا and صفراء — are current in Persian. Wiktionary lists Persian صفرا expressly among the borrowings of Arabic صفراء.",
+          "derivation_fa": "«صفرا» (و در املای پزشکی و ادبی «صفراء») همان صَفْراء عربی است که یکسره به فارسی وام داده شده و در طب دورهٔ اسلامی نام یکی از چهار خلط است، در کنار سودا و بلغم و دم (قانون ابن‌سینا و پس از آن). همزهٔ پایانی در تلفظ فارسی می‌افتد و واژه صفتِ «صفراوی» و اصطلاح «صفرا بریدن» را ساخته است. هر دو صورتی که نورایی چاپ کرده — صفرا و صفراء — در فارسی رایج است. ویکی‌واژه فارسیِ «صفرا» را صریحاً در فهرست وام‌های صَفْراء عربی آورده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B5%D9%81%D8%B1%D8%A7%D8%A1"],
+          "ref_check": [
+            {"ref": "FVA:232", "status": "not_checked", "note": "Nahvi's Farhang-e Vazheha-ye Arabi dar Farsi has no digital copy (refs_online.json: searched archive.org, ketabnak, noorlib, web) and no local file; p. 232 is unreadable here."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/صفراء", "stance": "supports", "note": "borrowings listed: 'Persian صفرا, Turkish safra, Spanish zafra, Swahili safura'."},
+            {"src": "MON", "where": "MON_part2.txt lines 6680, 15813, 22339 (grep صفرا)", "stance": "supports", "note": "Mo'in's 2-vol abridgement uses صفرا / صفراوی throughout in the medical sense ('مفرق و زیادکنندهٔ ترشحات صفرا', 'کیسهٔ صفراوی'), confirming the Persian word and sense; the 6-vol page cannot be mapped."},
+            {"src": "ARY", "where": "ARY_pages.txt, grep صفرا", "stance": "silent", "note": "no entry — Aryanpur covers only Indo-European material."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Italian",
+          "words": "saf-fior",
+          "verdict": "plausible",
+          "derivation": "The Old Italian word is saffiore (also zaffiore, saflore) 'safflower, Carthamus tinctorius'. Klein — the reference Nourai cites — analyses it exactly as the chart does: 'It. saffiore, which is prob. a hybrid compounded of Arab. ṣafrāʾ, fem. of aṣfar, \"yellow\", and It. fiore, \"flower\"'. Modern scholarship keeps the fiore but changes the first element: AHD reads '[from Old Italian saffiore (influenced by Old Italian fiore, flower), from Arabic ʿuṣfur]', Wiktionary 'from Arabic أَصْفَر (ʔaṣfar) \"yellow\"... influenced by Middle French safran and fleur', and Funk & Wagnalls '< O It saflore, < Ar ʿuṣfur, < ṣafrā, yellow'. ʿuṣfur is the actual Arabic plant-name (the safflower), itself built on the same root ṣ-f-r, so Nourai is in the right root but one step off the attested etymon; his hyphenated 'saf-fior' is an analytical spelling, not an Italian citation form.",
+          "derivation_fa": "صورت ایتالیایی کهن saffiore (و نیز zaffiore، saflore) به معنی «گلرنگ، Carthamus tinctorius» است. کلاین — همان منبعی که نورایی به آن ارجاع می‌دهد — آن را دقیقاً مانند نمودار تحلیل می‌کند: «ترکیبی دورگه از صَفراء عربی و fiore ایتالیایی». اما پژوهش امروزی جزء نخست را عوض کرده است: AHD می‌نویسد «از ایتالیایی کهن saffiore (با اثرپذیری از fiore «گل») از عربی عُصفُر»، و ویکی‌واژه و فانک‌ووگنالز نیز عُصفُر را می‌آورند. «عُصفُر» خودْ نام عربیِ همین گیاه است و از همان ریشهٔ ص‌ف‌ر ساخته شده؛ پس نورایی ریشه را درست گرفته اما یک گام از صورت گواهی‌شده فاصله دارد. نگارشِ «saf-fior» هم تحلیلِ خودِ اوست نه صورت ضبط‌شدهٔ ایتالیایی. با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/safflower",
+            "https://www.ahdictionary.com/word/search.html?q=safflower"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1372", "status": "supports", "note": "KLN_1966.txt line 33477: 'safflower, n. — Either fr. Du. saffloer, or directly from OF. saflor, fr. earlier It. saffiore, which is prob. a hybrid compounded of Arab. ṣafrāʾ, fem. of aṣfar, \"yellow\", and It. fiore, \"flower\".' Note Klein's own 'prob.'."},
+            {"ref": "AHD:1142", "status": "contradicts", "note": "The current AHD entry reads '[Middle English saflour, from Old French safleur, from Old Italian saffiore (influenced by Old Italian fiore, flower), from Arabic ʿuṣfur.]' — Arabic ʿuṣfur, not ṣafrāʾ, is the etymon; fiore is only an influence."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 33477", "stance": "supports", "note": "as quoted above."},
+            {"src": "AHD", "where": "ahdictionary.com s.v. safflower", "stance": "contradicts", "note": "'from Old Italian saffiore (influenced by Old Italian fiore, flower), from Arabic ʿuṣfur'."},
+            {"src": "FSD", "where": "FSD_vol4.txt line 481 (≈ printed p. 2153)", "stance": "contradicts", "note": "'( < OF saflor, < O It saflore, < Ar ʿuṣfur, < ṣafrā, yellow )' — same root, but ʿuṣfur as the immediate source and no 'flower' element."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/safflower", "stance": "partial", "note": "'from Middle French safleur; originally from Arabic أَصْفَر (ʔaṣfar, \"yellow\"), influenced by Middle French safran and fleur'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 2097 s.v. alazor", "stance": "partial", "note": "'Sp., fr. Arab. al-uṣfur ... \"safflower\"' — Klein elsewhere records ʿuṣfur as the Arabic plant-name."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Old French",
+          "words": "saflor",
+          "verdict": "confirmed",
+          "derivation": "Old/Middle French saflor, beside safleur and safflour, is the borrowed Italian saffiore refashioned on French fleur 'flower' — the -fiore ending being reinterpreted, and the whole form additionally attracted to safran. Devic records the forms at first hand: 'On trouve, en vieux français, safleur, saflor' (s.v. Safran, p. 199); Klein cites 'OF. saflor', AHD 'Old French safleur', and F&W 'OF saflor'. The node carries no reference in the book, but the form is independently attested by all four.",
+          "derivation_fa": "صورت فرانسوی کهن/میانهٔ saflor (و نیز safleur و safflour) همان saffiore ایتالیایی است که پایانهٔ آن به قیاس fleur «گل» بازساخته شده و صورت کلی آن نیز زیر تأثیر safran قرار گرفته است. دِویک این صورت‌ها را دست‌اول ثبت کرده است: «در فرانسوی کهن safleur و saflor دیده می‌شود» (ذیل Safran، ص ۱۹۹)؛ کلاین «OF. saflor»، AHD «safleur» و فانک‌ووگنالز «OF saflor» می‌آورند. نورایی برای این جعبه ارجاعی نداده، اما صورت را هر چهار منبع گواهی می‌کنند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/safflower",
+            "https://www.ahdictionary.com/word/search.html?q=safflower"
+          ],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "no reference is printed on this box; the neighbouring boxes' KLN:1372 / AHD:1142 cover the step and both give the Old French form."}
+          ],
+          "consulted": [
+            {"src": "DEV", "where": "DEV.txt printed p. 199 s.v. Safran", "stance": "supports", "note": "'On trouve, en vieux français, safleur, saflor.'"},
+            {"src": "KLN", "where": "KLN_1966.txt line 33477", "stance": "supports", "note": "'or directly from OF. saflor, fr. earlier It. saffiore'."},
+            {"src": "FSD", "where": "FSD_vol4.txt line 481", "stance": "supports", "note": "'( < OF saflor, < O It saflore ... )'."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "English",
+          "words": "safflower",
+          "verdict": "confirmed",
+          "derivation": "English safflower (Middle English saflour) is the Old French saflor/safleur with its opaque second syllable remade by folk etymology into the familiar English 'flower' — a textbook case, since the plant really is grown for its orange flowers, whose dye gave the 'red tape' of English legal bundles. Klein allows either a direct French route or transmission through Dutch saffloer; AHD takes it straight from Old French safleur through Middle English saflour. The gloss on the chart, 'a plant with orange flowers', matches Carthamus tinctorius exactly.",
+          "derivation_fa": "«safflower» انگلیسی (انگلیسی میانه saflour) همان saflor/safleur فرانسوی کهن است که هجای دوم مبهم آن به ریشه‌شناسی عامیانه به واژهٔ آشنای flower «گل» بدل شده — نمونه‌ای کلاسیک، چون خودِ گیاه را برای گل‌های نارنجی‌اش می‌کارند و رنگ همان گل‌ها بود که نوار سرخِ پرونده‌های حقوقی انگلستان را رنگ می‌کرد. کلاین هم راه مستقیم فرانسوی و هم گذر از هلندی saffloer را ممکن می‌داند؛ AHD آن را یکراست از safleur فرانسوی کهن از راه انگلیسی میانهٔ saflour می‌گیرد. معنایی که نمودار می‌دهد («گیاهی با گل‌های نارنجی») دقیقاً بر Carthamus tinctorius منطبق است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/safflower",
+            "https://www.ahdictionary.com/word/search.html?q=safflower"
+          ],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "'[Middle English saflour, from Old French safleur, from Old Italian saffiore (influenced by Old Italian fiore, flower), from Arabic ʿuṣfur.]'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 33477", "stance": "supports", "note": "'Either fr. Du. saffloer, or directly from OF. saflor'."},
+            {"src": "FSD", "where": "FSD_vol4.txt line 481 (≈ printed p. 2153)", "stance": "supports", "note": "full entry for safflower, Carthamus tinctorius, 'with spiny heads of orange-red flowers ... for the dye obtained from its flowers', etymology '( < OF saflor ... )'."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/safflower", "stance": "supports", "note": "'from Middle French safleur ... influenced by Middle French safran and fleur'."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Šfšyr, Šypšyr, Šamšěr",
+      "verdict": "confirmed",
+      "modern_form": "Middle Persian šamšēr (Pahlavi ⟨šmšyl⟩), variant šafšēr (⟨špšyl⟩, Manichaean ⟨šfšyr / šypšyr⟩) 'sword'; Parthian safsēr",
+      "note": "All three forms in the root box are real and correctly labelled. MacKenzie's Concise Pahlavi Dictionary gives both 'šamšēr [smsyl | N ~] sword' and 'šafšēr [špšyl] = šamšēr'; Nyberg's glossary has 'šamšēr [šmšyl] sword 6.7, 21.18 etc. — NP šamšēr; cf. also šifšēr'; Wiktionary reconstructs Middle Persian šmšyl/špšyl with a Manichaean spelling šafšēr and a Parthian cognate safsēr. Nourai's two odd-looking spellings ⟨Šfšyr⟩ and ⟨Šypšyr⟩ are not misreadings: they are the consonantal transliterations of the Manichaean-Pahlavi spellings, and they come, letter for letter, from Mo'in's footnote 2 on Borhan-e Qate' p. 1294, which reads 'پهلوی Shamsher ... و در اوراق مانوی (پهلوی) Shfshyr و shypshyr — Henning, A list of Middle Persian..., BSOS., IX, 1, p. 82'. Only the ulterior origin of the Middle Persian word is open: it is not securely Indo-Iranian, it appears in Greek as σαμψήρα already in Josephus (1st c. AD) and in Aramaic/Syriac as sapsērā, and may be a Wanderwort of the ancient Near East.",
+      "note_fa": "هر سه صورتِ جعبهٔ ریشه واقعی و درست برچسب‌خورده‌اند. مکنزی در «فرهنگ کوچک پهلوی» هم šamšēr ⟨smsyl⟩ «شمشیر» را دارد و هم šafšēr ⟨špšyl⟩ = šamšēr؛ نیبرگ در واژه‌نامهٔ خود می‌نویسد «šamšēr ⟨šmšyl⟩ sword … NP šamšēr؛ نیز نک. šifšēr»؛ ویکی‌واژه صورت‌های فارسی میانهٔ šmšyl/špšyl و املای مانوی šafšēr و هم‌ریشهٔ پارتی safsēr را می‌آورد. دو املای عجیب‌نمای ⟨Šfšyr⟩ و ⟨Šypšyr⟩ نزد نورایی خطای خوانش نیست: نویسه‌گردانی املای پهلویِ مانوی است و حرف‌به‌حرف از حاشیهٔ ۲ معین بر برهان قاطع ص ۱۲۹۴ گرفته شده که می‌نویسد: «پهلوی Shamsher … و در اوراق مانوی (پهلوی) Shfshyr و shypshyr — Henning, A list of Middle Persian…, BSOS., IX, 1, p. 82». تنها نکتهٔ باز، خاستگاه دورترِ این واژهٔ فارسی میانه است: پیوند هندوایرانی آن مسلم نیست، در یونانی از همان سدهٔ یکم میلادی نزد یوسفوس به صورت σαμψήρα دیده می‌شود و در آرامی/سریانی sapsērā؛ چه‌بسا واژه‌ای سرگردان در خاور نزدیک باستان باشد.",
+      "sources": ["https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%B4%DB%8C%D8%B1"],
+      "ref_check": [
+        {"ref": "MPP:88", "status": "not_checked", "note": "Henning, 'A List of Middle-Persian and Parthian Words', BSOS IX (1937-39) 79-92, is not on disk (the local MPP.txt is Henning's 'Mitteliranisch', a different work). Indirect confirmation: Mo'in's footnote on BQT p. 1294 cites this very article for Shfshyr/shypshyr but gives p. 82, not 88."},
+        {"ref": "BQT:1294", "status": "supports", "note": "Borhan-e Qate' vol. 3, printed p. 1294 = BQT_v3_pages.txt [pdf page 89]: headword شمشیر, with Mo'in's footnote 2 'پهلوی Shamsher ... و در اوراق ماتوی (پهلوی) Shfshyr و shypshyr / Henning, A list of Middle Persian..., BSOS., IX,1.p.82.' — the exact source of Nourai's root box."},
+        {"ref": "NYB:186", "status": "supports", "note": "Nyberg, Manual of Pahlavi II (Glossary), NYB_vol2_glossary.txt leaf 200 (running head '178' four leaves earlier, so printed p. ~184-186): 'šamšēr [šmšyl] sword 6.7, 21.18 etc. — NP šamšēr; cf. also šifšēr.'"}
+      ],
+      "consulted": [
+        {"src": "PHD", "where": "PHD.txt line 579 and line 583", "stance": "supports", "note": "MacKenzie: 'šafšēr [špšyl] = šamšēr'; 'šamšēr [smsyl | N ~] sword'; and the English index line 3923 'sword snēh, šamšēr, (šafšēr)'."},
+        {"src": "NYB", "where": "NYB_vol2_glossary.txt leaf 200", "stance": "supports", "note": "'šamšēr [šmšyl] sword ... cf. also šifšēr'; the word also occurs in context at 22.20 and 25.4 ('ka šamšēr frāc zanēd')."},
+        {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/شمشیر", "stance": "supports", "note": "Middle Persian šmšyl /šamšēr/ and špšyl, Manichaean spelling /šafšēr/ 'sword'; Parthian safsēr; borrowings Old Armenian սուսեր, Syriac ܣܦܣܝܪܐ, JBA ספסרא, Ancient Greek σαμψήρα."},
+        {"src": "BQT", "where": "BQT_v3_pages.txt pdf page 89 = printed 1294", "stance": "supports", "note": "Mo'in's footnote giving the Pahlavi and Manichaean forms with the Henning reference."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "šamšîr",
+          "verdict": "confirmed",
+          "derivation": "New Persian شمشیر (šamšīr) continues Middle Persian šamšēr ⟨šmšyl⟩ directly: the Pahlavi ⟨l⟩ of the historical spelling is simply how MP wrote /r/, and MP ē regularly becomes NP ī (majhūl ē > maʿrūf ī in the classical-to-modern shift), giving šamšēr > šamšīr; the variant stem šafšēr/šifšēr of the Manichaean texts did not survive. Borhan-e Qate' (p. 1294) offers the popular analysis šam-šīr, 'because šam means both the tail and the claw of the lion' — the same etymology Skeat gives ('Lit. lion's claw. — Pers. sham, nail, claw; shīr, lion') — and quotes the punning verse of Asjadī Marvazī that Nourai reproduces: 'چون شاه بگیرد بکف اندر شمشیر / از بیم بیفکند ز کف‌ها شم شیر'. Mo'in's editorial footnote marks this explicitly as 'وجه اشتقاق عامیانه', a folk etymology, and gives the real Pahlavi forms instead — so Nourai's NOTE ('BQT rejects... by SKT:468') is correct in substance, though strictly it is Mo'in the editor, not Borhan's own text, that rejects it. Note also that the verse is a pun on a wholly separate word شم 'claw/tail', not evidence of the compound.",
+          "derivation_fa": "«شمشیر» فارسی نو بی‌واسطه دنبالهٔ فارسی میانهٔ šamšēr ⟨šmšyl⟩ است: حرف ⟨l⟩ در املای تاریخی پهلوی همان /r/ را می‌نمایاند و «ی مجهول» فارسی میانه (ē) در فارسی نو به «ی معروف» (ī) بدل شده است؛ گونهٔ šafšēr/šifšēr متن‌های مانوی به فارسی نو نرسیده است. برهان قاطع (ص ۱۲۹۴) تحلیل عامیانهٔ «شم‌شیر» را می‌آورد — «چه شم بمعنی دم و ناخن هردو آمده است» — و همان را اسکیت هم تکرار کرده است («تحت‌اللفظ: چنگال شیر»)، همراه با همان بیت جناس‌آمیز عسجدی مروزی که نورایی نقل کرده است: «چون شاه بگیرد بکف اندر شمشیر / از بیم بیفکند ز کف‌ها شم شیر». اما معین در حاشیه صریحاً آن را «وجه اشتقاق عامیانه» می‌خواند و به‌جایش صورت‌های راستین پهلوی را می‌آورد؛ پس یادداشت نورایی در اصلِ مطلب درست است، هرچند در دقت باید گفت ردکننده معینِ مصحح است نه متن برهان. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%B4%DB%8C%D8%B1"],
+          "ref_check": [
+            {"ref": "BQT:1294", "status": "supports", "note": "BQT_v3_pages.txt [pdf page 89] = printed 1294: 'شمشیر ... و وجه تسمیهٔ آن شم شیر است که دم شیر و ناخن شیر باشد چه شم بمعنی دم و ناخن هردو آمده است'; footnote marked 'وجه اشتقاق عامیانه'; footnote 2 'پهلوی Shamsher ... Shfshyr و shypshyr'. The Asjadi verse stands in the footnotes of printed p. 1291 ([pdf page 86]) s.v. شم: 'چون شاه بگیرد بکف اندر شمشیر از بیم بیفکند ز کفها شم شیر — عسجدی مروزی، جهانگیری'."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD.txt line 583", "stance": "supports", "note": "'šamšēr [smsyl | N ~] sword' — the '| N ~' notation means the New Persian form is identical, i.e. direct continuation."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt leaf 200 (printed ~186)", "stance": "supports", "note": "'šamšēr [šmšyl] sword ... — NP šamšēr'."},
+            {"src": "BQT", "where": "printed p. 1294, Mo'in's footnotes", "stance": "partial", "note": "Borhan's own text asserts the šam-šīr 'lion's claw/tail' analysis; Mo'in's footnote overrules it as a folk etymology and supplies the Pahlavi forms."},
+            {"src": "HRN", "where": "HRN.txt, grep 'šamšēr|schamschir'", "stance": "silent", "note": "Horn's Grundriss has no article on šamšīr (the only Schwert entries are no. 409 tēγ etc.)."},
+            {"src": "HUB", "where": "HUB.txt, grep 'šamšēr|schamschir|samser'", "stance": "silent", "note": "Hübschmann's Persische Studien does not treat the word."},
+            {"src": "Wiktionary", "where": "en.wiktionary.org/wiki/شمشیر", "stance": "supports", "note": "Persian شمشیر from Middle Persian šmšyl/šamšēr; descendants Ottoman Turkish şemşir/şimşir, Urdu شمشیر, Italian scimitarra."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "English",
+          "words": "scimitar, cimetar",
+          "verdict": "plausible",
+          "derivation": "English scimitar (1540s), earlier and variously cimeter, cimetar, scymitar, comes from Italian scimitarra or French cimeterre (15th c.), and the Italian word has been derived from Persian šamšīr since at least Devic. Klein states it flatly ('It. scimitarra (whence also F. cimeterre), fr. Pers. shimshir'); Lokotsch (no. 1910) does the same; Wiktionary lists Italian scimitarra among the borrowings of the Persian word. But the derivation is not secure: the OED's verdict, followed by Etymonline, is that Persian šamšīr is 'unsatisfactory as to form' and that no corresponding Turkish word — which the object's history would lead one to expect — is documented. Hobson-Jobson (p. 804) reaches the same position with an ingenious defence and an honest retreat: 'according to Marcel Devic originally from Pers. shamshīr... if we consider the constant clerical confusion in the Middle Ages between c and t, Scimecirra representing shimshir might easily thus become scimetirra. But we cannot prove this to have been the real origin.' Skeat too hedges: 'Prob. from Pers. shimshīr, shamshīr... Rich. Dict. p. 909.' So: the Persian etymology is the standard candidate, but the medial -t-/-tarra of the Italian form remains unexplained.",
+          "derivation_fa": "واژهٔ انگلیسی scimitar (از دههٔ ۱۵۴۰، با گونه‌های cimeter و cimetar و scymitar) از scimitarra ایتالیایی یا cimeterre فرانسوی (سدهٔ پانزدهم) آمده است، و واژهٔ ایتالیایی را دست‌کم از زمان دِویک از «شمشیر» فارسی گرفته‌اند. کلاین بی‌تردید می‌نویسد «ایتالیایی scimitarra از فارسی shimshir» و لوکوچ (شمارهٔ ۱۹۱۰) نیز همان را می‌گوید و ویکی‌واژه scimitarra را در فهرست وام‌های واژهٔ فارسی آورده است. اما این ریشه‌یابی قطعی نیست: داوری فرهنگ آکسفورد — که اتیمانلاین هم تکرارش می‌کند — این است که «شمشیر» از نظر صورت رضایت‌بخش نیست و هیچ واژهٔ ترکیِ متناظری که تاریخِ خودِ سلاح انتظارش را برمی‌انگیزد گواهی نشده است. «هابسن‌ـ‌جابسن» (ص ۸۰۴) با دفاعی هوشمندانه و عقب‌نشینی‌ای صادقانه به همین‌جا می‌رسد: «به گفتهٔ مارسل دِویک در اصل از فارسی shamshīr… اگر درهم‌آمیزی همیشگی c و t در دست‌نویس‌های سده‌های میانه را در نظر بگیریم، *Scimecirra به‌آسانی scimetirra می‌شود؛ اما نمی‌توانیم ثابت کنیم که خاستگاه واقعی همین بوده است». اسکیت نیز با «احتمالاً» سخن می‌گوید. پس: با احتیاط پذیرفتنی است؛ -t- میانیِ صورت ایتالیایی همچنان بی‌توضیح مانده است.",
+          "sources": [
+            "https://www.etymonline.com/word/scimitar",
+            "https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%B4%DB%8C%D8%B1"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1397", "status": "supports", "note": "KLN_1966.txt line 34071 (leaf 742): 'scimitar, n., a curved Oriental sword. — It. scimitarra (whence also F. cimeterre), fr. Pers. shimshir, \"scimitar, saber\".' (No page numerals in the scan; by leaf arithmetic this falls near p. 1460, so Nourai's 1397 probably follows a different printing.)"},
+            {"ref": "SKT:468", "status": "supports", "note": "SKT.txt line 16640 (leaf 444): 'Scimetar, Cimetar. (F. or Ital. — Pers.?) F. cimeterre, \"a scymitar\"; Cot. Cf. Ital. scimitarra ... Prob. from Pers. shimshīr, shamshīr, \"a cimeter.\" Rich. Dict. p. 909. Lit. lion's claw. — Pers. sham, nail, claw; shīr, lion.' This is exactly the 'lion's claw' derivation that Nourai's NOTE says BQT rejects. (Skeat's page numerals are not in the scan; by leaf arithmetic ≈ p. 424 in the 1911 Concise, so 468 is probably another printing.)"},
+            {"ref": "HJB:804", "status": "partial", "note": "Hobson-Jobson s.v. SCYMITAR, HJB.txt leaf 848 (printed ≈ 804): 'We get it through the French cimeterre, Ital. scimeterra, and according to Marcel Devic originally from Pers. shamshīr (chimchir as he writes it). This would be still very obscure unless we consider the constant clerical confusion in the Middle Ages between c and t... But we cannot prove this to have been the real origin.' Supports the route but declines to affirm it."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 34071", "stance": "supports", "note": "'It. scimitarra ... fr. Pers. shimshir'."},
+            {"src": "SKT", "where": "SKT.txt line 16640", "stance": "partial", "note": "'Prob. from Pers. shimshīr... Lit. lion's claw' — right source language, wrong (folk) internal analysis."},
+            {"src": "HJB", "where": "HJB.txt leaf 848, printed p. ~804", "stance": "partial", "note": "quotes σαμψηρά in Josephus (Antiqq. xx.ii.3, AD 93) and in Suidas, and Herbert 1630 'swords (shamshaers they call them) form'd like a cresent'; but 'we cannot prove this to have been the real origin'."},
+            {"src": "LKT", "where": "LKT.txt entry 1910", "stance": "supports", "note": "'Pers. šimšīr: \"Schwert\"; hieraus it. scimitarra, frz. cimeterre, cimiterre, sp. pg. cimitarra, engl. scymitar, cimetar.'"},
+            {"src": "etymonline", "where": "etymonline.com/word/scimitar", "stance": "partial", "note": "'1540s, from French cimeterre or Italian scimitarra. Origin unknown. Turkish would be the expected source, but no such word has been found there. Perhaps from Persian shimshir, but this is unsatisfactory as to form.'"}
+          ]
+        }
+      ]
+    }
+  ]
+}
