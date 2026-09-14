@@ -1,0 +1,305 @@
+{
+  "pdf_page": 421,
+  "book_page": 391,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Rěp",
+      "verdict": "confirmed",
+      "modern_form": "PIE *rēp- 'to creep, crawl, slink' (Pokorny 1. rēp- (rep-?), IEW 865; Walde-Pokorny II 370; Watkins rēp-¹)",
+      "note": "The root box is right on all three counts. Pokorny IEW p. 865 has 'Root/lemma: rep-1 (rēp-?), Meaning: to crawl, sneak', with Lat. repō, -ere, Lith. replióti, Latv. rāpât/rāptiês, OPruss. rīpaiti; Walde-Pokorny II 370 has the same article ('1. rēp- (rep-?) „kriechen, schleichen“'), and Watkins/AHD gives 'rēp-¹. To creep, slink. Latin rēpere … REPTILE. [Pok. 1. rēp- 865.]'. Nourai's 'Rěp' is his rendering of the long vowel of rēp- (the printed page shows Rěp with a breve; it is a typographic habit of the book, not a different root). Two cautions the chart does not show: (a) the root is thinly attested — Italic plus Baltic only — and LIV does not set up a separate *rēp-, Wiktionary reconstructing it as *h₁reh₁p- 'to move, crawl'; (b) it must be kept apart from the homophonous *rep- 'to snatch' (Lat. rapiō, Pok. 865 too), which is where Watkins puts rapere. The Iranian branch drawn under it (Av. rap-, NP raftan) is the doubtful part of this chart, not the root itself. NOTE on the drawing: on the printed page the arrow into the Arabic box leaves the bottom-left corner of the PERSIAN raftan box, not the root spine (the root's two arrows run down the left margin to Avestan and to Latin); the JSON records Arabic #3 with parent #0, which is an extraction error — see node #3.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *rēp- «خزیدن، آهسته رفتن» در پوکورنی (IEW ص ۸۶۵، «rep-1 (rēp-?) kriechen, schleichen») و والده‑پوکورنی (ج ۲ ص ۳۷۰) و واتکینز (AHD: rēp-¹ «to creep, slink») آمده است و برچسب زبانی و معنای آن در نمودار نورایی درست است؛ نگارش «Rěp» تنها شیوهٔ نشان دادن مصوت بلند ē در این کتاب است. دو نکتهٔ احتیاط: نخست آنکه گواه این ریشه تنها لاتینی و زبان‌های بالتیک است و در LIV اصلاً ریشهٔ جداگانه‌ای به این نام نیامده (ویکی‌واژه آن را *h₁reh₁p- بازسازی می‌کند)؛ دوم آنکه باید آن را از ریشهٔ هم‌آوای *rep- «ربودن» (لاتینی rapere) جدا داشت. بنابراین ادعای نورایی دربارهٔ خودِ ریشه درست است و مشکل در شاخهٔ ایرانی زیر آن است. یادآوری: در صفحهٔ چاپی، پیکان جعبهٔ عربی از گوشهٔ پایینِ جعبهٔ فارسی «رفتن» بیرون می‌آید نه از خود ریشه؛ در JSON به اشتباه parent=0 ثبت شده است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%AA%D9%86",
+        "https://www.etymonline.com/word/reptile"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:865",
+          "status": "supports",
+          "note": "POK_full.txt (grep 'Page(s): 865'): 'Root / lemma: rep-1 (rēp-?) — Meaning: to crawl, sneak — Material: Latin repo, -ere \"grovel, truckle, creep, slink\"; … Lithuanian replioti \"creep\", Latvian rāpat, rāptiês, Old Prussian rīpaiti … References: WP. II 370, WH. II 430 … Page(s): 865'. Exactly Nourai's root, language and gloss."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "WLD",
+          "where": "Bd. II p. 370 (WLD_Bd2_pages.txt, \\f-leaf 374, running head 'rep- — rebh-')",
+          "stance": "supports",
+          "note": "'1. rēp- (rep-?) „kriechen, schleichen“. Lat. repo, -ere „kriechen, schleichen“, lit. replioti „kriechen“, lett. rāpt ds., lit. replomis instr. pl. adv. „kriechend, auf allen vieren.“' — the article Pokorny 865 refers back to."
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt line 895",
+          "stance": "supports",
+          "note": "'rēp-¹. To creep, slink. Latin rēpere, to creep: REPENT², REPTILE; SUBREPTION. [Pok. 1. rēp- 865.]' — and, separately, 'rep-. To snatch. … Latin rapere' (the homonym that must not be confused with it)."
+        },
+        {
+          "src": "IEC",
+          "where": "IEC.txt, grep 'rēpō' / 'repo '",
+          "stance": "silent",
+          "note": "Mann's Indo-European Comparative Dictionary gives no hit for a lemma rēpō / rēp- in the local OCR; he does not treat this thinly attested root."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "rap",
+          "verdict": "disputed",
+          "derivation": "There is no Avestan verb rap- 'to go'. Bartholomae, Altiranisches Wörterbuch col. 1508 knows only 'j., g. rap- V. \"Unterstützung gewähren, — finden\", Praes. 3 rapa-, Inf. rafəδrāi' ('to grant / find support'), with the derivatives rafnah- 'support', rafəδra- 'support' and the verdict 'Et.?' — the etymology is unknown to him and he does not connect it with Lat. rēpō. The single passage that ever suggested a meaning 'go', Vidēvdād 13.45, Bartholomae strikes out at col. 1509: 'j. rafϑ V. 13.45: lies yaϑō' (read yaϑō). Horn, Grundriss no. 619 (p. 137), Nourai's own source, only writes 'aw. √rap- \"gehen\" in raptō-(?)' with a question mark and the footnote 'Vd. 13,45. Aber ganz unsicher'; Hübschmann, Persische Studien p. 67 (ad no. 619), Nourai's other source, then rejects it: Pahlavi lwbʾk = ravāk 'points to a present stem rav-, OP rab-, not rap-'. Cheung, Etymological Dictionary of the Iranian Verb (2007) 184 f. accordingly reconstructs Proto-Iranian *Hrab/f 'to go' with Middle Persian raw-/raft, Parthian rf-, Khotanese ā-rūh-, and lists NO Avestan reflex at all. So the Avestan box is a ghost: the form rap- exists in Avestan but means 'to support', and the Iranian etymon of raftan is *Hrab- / *Hraf-, with b/f, not p. (Because *rap- and *rab- would fall together in Middle Persian raft/raw-, the error is invisible from the Persian side, which is why Horn's guess survived into Mo'in's footnote and into Nourai.)",
+          "derivation_fa": "در اوستایی فعلی به معنای «رفتن» با ستاک rap- وجود ندارد. بارتولومه در فرهنگ ایرانی باستان (ستون ۱۵۰۸) تنها «rap- : پشتیبانی کردن، پشتیبانی یافتن» (ستاک حال rapa-، مصدر rafəδrāi) را می‌آورد با مشتقات rafnah- و rafəδra- «پشتیبانی»، و دربارهٔ ریشه‌شناسی‌اش می‌نویسد «Et.?»؛ افزون بر این، همان بندِ وندیداد ۱۳٫۴۵ را که تنها گواهِ معنای «رفتن» پنداشته می‌شد، در ستون ۱۵۰۹ تصحیح می‌کند: «rafϑ در وندیداد ۱۳٫۴۵ را yaϑō بخوانید». هرن نیز در بند ۶۱۹ (ص ۱۳۷) همین صورت را با علامت پرسش و با پانوشت «کاملاً نامطمئن» آورده، و هوبشمان در پژوهش‌های فارسی ص ۶۷ آن را رد می‌کند و می‌گوید صورت پهلوی lwbʾk = ravāk بر ستاک حالِ rav- و پارسی باستان rab- دلالت دارد نه rap-. چونگ (۲۰۰۷، ص ۱۸۴) نیز ریشهٔ ایرانی را *Hrab/f «رفتن» بازسازی می‌کند و هیچ شاهد اوستایی برای آن نمی‌آورد. پس این جعبه نادرست است: ادعای نورایی (به پیروی از هرن و حاشیهٔ معین بر برهان قاطع) را پژوهش امروزی رد می‌کند. چون *p و *b میان‌واکه‌ای هر دو در فارسی میانه به یک صورت می‌رسند، این خطا از سمت فارسی دیده نمی‌شود.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%AA%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HUB:67",
+              "status": "contradicts",
+              "note": "Hübschmann, Persische Studien p. 67 (HUB.txt, \\f-leaf 78 = printed 67), note to Horn 619: 'Zu lat. rēpo oder serpo? Im Phl. wird übrigens für np. ravā = paz. rawā etc. geschrieben ruhāk d. i. ravak, das auf einen Präsensstamm rav-, ap. rab-, nicht rap- weist.' — Hübschmann does toy with Lat. rēpō, but explicitly denies the stem rap- that Nourai puts in the Avestan box."
+            },
+            {
+              "ref": "HRN:137",
+              "status": "partial",
+              "note": "Horn, Grundriss no. 619 (HRN.txt, \\f-leaf 159 = printed 137): 'reften \"gehen, weggehen\" … aw. √rap- \"gehen\" in raptō-.(?)³)' with footnote 3 'Vd. 13, 45. Aber ganz unsicher.' — the source of Nourai's Avestan box, but Horn himself marks it twice as uncertain."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch coll. 1508-1509 (BRT.txt lines 25108 ff.)",
+              "stance": "contradicts",
+              "note": "'• j., g. rap- V. \"Unterstützung gewähren, — finden\", Praes. 3 rapa-, — Inf. rafəδrāi' … 'Et.?'; and 'j. rafϑ V. 13. 45: lies yaϑō.' No Avestan rap- 'to go' exists; the one alleged attestation is emended away."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "Etymological Dictionary of the Iranian Verb, s.v. *Hrab/f¹ 'to go', pp. 184-185",
+              "stance": "contradicts",
+              "note": "'*Hrab/f ʻto goʼ — MIDDLE PERSIAN: MMP rw-, BMP rwb-, lwb- /raw-/ … NWIR: NP raftan/rav-, Bal. rapt/ra(w)-' — no Avestan entry; 'An IE origin of this Ir. root is uncertain… Perhaps, *Hrab/f is rather a blend of similar roots of motion (notably *Hap/f and *Har), whose IE credentials cannot be established either. PIE? cf. LIV: 496 | Pok.: 853' (not Pok. 865)."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, Concise Pahlavi Dictionary p. 70 s.v. raftan (PHD.txt line 555)",
+              "stance": "partial",
+              "note": "'raftan, raw- [SGYTWN-tn' < A √sgʼ; lwb- | M rptn, rw-, N ~] go, move, proceed' — the Middle Persian verb has the b/w present stem Hübschmann pointed to, which is incompatible with an Avestan *rap-."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "raftan «رفتن»",
+          "verdict": "plausible",
+          "derivation": "NP رفتن raftan / rav- 'to go' continues Middle Persian raftan, raw- (Book Pahlavi ideogram SGYTWN-tn', phonetic lptn'; Manichaean MP rptn, rw-) — MacKenzie, CPD 70; Nyberg, Manual II 170 s.v. raftan 'to go, to walk, to proceed … MPrs rptn rw-; Paz., NP raftan rav-'. The whole family Nourai lists is built on the two stems: past raft- gives رفتار raftār 'gait, conduct' (MP raftār 'goer', PHD 70) and رفتن; the present stem raw- gives روا ravā 'current, admissible' (MP rawāg 'current', PHD 70, Nyberg s.v. ravāk), روش raviš 'way, manner' (MP rawišn 'going, motion; behaviour'), روان ravān¹ 'flowing, running' (pres. part.; Ferdowsi's line in the box puns on it against روان² 'soul' < MP ruwān), and the modern رَوَند ravand 'course, trend'. All of that is solid. What is only plausible is the arrow itself: the Iranian etymon is Proto-Iranian *Hrab-/*Hraf- (Cheung 2007:184), and its Indo-European affiliation is an open question — Wiktionary lists the derivation from PIE *h₁reh₁p- 'to move, crawl' (= Pokorny's rēp-, whence Lat. rēpō, Latv. rāpât, Engl. reptile) as the first of three options, Edelman prefers *rebʰ- 'to move, hurry', and Cheung doubts any IE origin and would rather see a blend of *Hap/f- and *Har-. Mo'in's footnote in Borhan-e Qateʿ p. 955 takes exactly Nourai's line, so the chart reproduces a respectable 19th-20th-c. Iranian-philology position, not a modern consensus.",
+          "derivation_fa": "«رفتن / رو-» از فارسی میانهٔ raftan, raw- (پهلوی کتابی با هزوارش SGYTWN-tn' و صورت آوایی lptn'، پهلوی مانوی rptn, rw-) است؛ مکنزی (فرهنگ کوچک پهلوی ص ۷۰) و نیبرگ (راهنمای پهلوی، ج ۲) هر دو همین را می‌آورند. همهٔ واژه‌های کنار جعبه بر همین دو ستاک ساخته شده‌اند: از ستاک گذشتهٔ raft-: «رفتار» (فارسی میانه raftār)؛ و از ستاک حالِ raw-: «روا» (فارسی میانه rawāg «رایج»)، «روش» (rawišn «رفتن، حرکت؛ سلوک»)، «روان ۱» (اسم فاعل، که در بیت فردوسی با «روان ۲» به معنی جان ــ از فارسی میانهٔ ruwān ــ جناس شده) و «روند». تا اینجا ادعا درست است. آنچه با احتیاط پذیرفتنی است خودِ پیکان است: نیای ایرانیِ این فعل *Hrab-/*Hraf- است (چونگ ۱۳۸۶: ۱۸۴) و پیوند آن با هندواروپایی قطعی نیست؛ ویکی‌واژه پیوند با *h₁reh₁p- (همان rēp- پوکورنی، خاستگاه لاتینی rēpō و انگلیسی reptile) را نخستین گزینه می‌شمارد، ادلمان *rebʰ- را ترجیح می‌دهد و چونگ در هرگونه خاستگاه هندواروپایی تردید می‌کند. مرحوم معین نیز در حاشیهٔ برهان قاطع (ص ۹۵۵) همین نظر نورایی را آورده است؛ پس این نمودار دیدگاهی کهن و آبرومند را بازمی‌تاباند، نه اجماع امروزی را.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%AA%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:955",
+              "status": "supports",
+              "note": "Borhan-e Qateʿ ed. Moʿin, p. 955 = BQT_v2_pages.txt \\f-leaf 415 (offset confirmed twice: the leaf carries the بیان پانزدهم section 'در رای بی نقطه با فا', and Aryanpur's رفتن entry cites 'برهان قاطع: ۹۵۵' for the very same footnote). Moʿin's addenda on that page read: '# رفتار - بفتح اول، حاصل مصدر رفتن (ه.م) روش، سیر، حرکت - سلوک، طرز عمل، شیوه' and '# رفتن - بفتح اول و سوم، پهلوی raftan از ریشهٔ rap … اوستا rap- (رفتن) … قس: لاتینی repere، لیتوانی replioti، لتویی rāpot (خزیدن)، کردی …، بلوچی raptin / rawtin …، وخی …، رک: هوبشمان' (OCR garbles the Latin letters as '… چهلوی 02627 از ربشة ۷2۲ … او“ستا ریعة - 08۲ (رفتن) … فی: لانینی ۵۳6۳. لیتوابی 14۵۱1۳6۲، لتویی ۷06۲ (خزبدن)'). This is precisely Nourai's chart — Av. rap-, NP raftan, Lat. repere — so the reference supports him, though it is itself dependent on Horn/Hübschmann."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD p. 70 (PHD.txt lines 555, 557)",
+              "stance": "supports",
+              "note": "'raftan, raw- … go, move, proceed'; 'raftār [lptʼl | N ~] goer'; 'rawāg [lwʼk' | N rawā] current. ~īh: currency'; 'rawišn [lwbšn', SGYTWNšn' | N rawiš] going, motion. ~īh: behaviour' — every Persian word in the box has its Middle Persian ancestor here."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary s.vv. raftan, ravāk (NYB_vol2_glossary.txt lines 3200, 3279)",
+              "stance": "supports",
+              "note": "'raftan [SGYTN-tn'; lptn'] rav- [SGYTN-; lwb-] … to go, to walk, to proceed, passim … MPrs rptn rw-; Paz., NP raftan rav-.' and 'ravāk [lwbʼk'] running, going on, current … From raftan; Paz. ravā … NP ravā.'"
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 619, p. 137 (HRN.txt \\f-leaf 159)",
+              "stance": "supports",
+              "note": "'619. reften \"gehen, weggehen\", Praes. rew-em, reftar, rewā (arab. LW. rawāj), rewān, rewāne, rewiš … phlv. raftan, rapet, rawad (3. Sing., geschr. rafd), rawāk, rawākīh' — Horn's list is verbatim Nourai's row of Persian derivatives."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e riše-hā-ye hend-o-orupāyi, printed p. 308 (ARY_pages.txt, [pdf page 307], headword رفتن)",
+              "stance": "partial",
+              "note": "'مرحوم معین در پانوشت برهان قاطع (و به پیروی از «نیبرگ» و «هوبشمان») واژه‌ی رفتن را از واج‌ریشه‌ی هند و اروپایی rap می‌داند و آن را با واژه‌ی لاتین rāpō هم‌ریشه می‌پندارد (برهان قاطع: ۹۵۵)' — Aryanpur reports the Avestan rap- / Latin comparison as Moʿin's opinion (a report, not an independent confirmation), and his citation fixes BQT p. 955 as the رفتن page."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "s.v. *Hrab/f¹ 'to go', pp. 184-185",
+              "stance": "partial",
+              "note": "gives the Persian chain (MP raw-, NP raftan/rav-) but files it under PIr *Hrab/f with 'PIE?' and 'Pok.: 853', not Pok. 865, and doubts the Latin comparison ('The Latin connection is declined by Schrijver 1991: 305')."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Arabic",
+          "words": "ravâj",
+          "verdict": "confirmed",
+          "derivation": "Arabic رَوَاج rawāj 'circulation, currency, ready sale' is a borrowing of Middle Persian rawāg (Book Pahlavi lwʼk') 'going, current, in circulation' — the present-stem noun of raftan/raw- that survives as NP روا ravā 'current, admissible'. Nyberg, Manual II s.v. ravāk says so in as many words: 'ravāk [lwbʼk'] running, going on, current … From raftan … NP ravā \"current (coin), lawful\"; Arab. lw. ravāj < ravāg \"current (money), vendible (goods); use, custom\"'; Asbaghi, Persische Lehnwörter im Arabischen s.v. rawāğ: '\"fließend, beweglich\", pers. << mp. rawāg \"fließend\", v. Verb raftan \"gehen\"'; Wiktionary: 'Borrowed from Middle Persian lwʼk' (/ravāg/, \"going\")'. Iranian -g was rendered by Arabic ج (ǧ/j), the regular substitution in Sasanian-era loans; Arabic then treated the loan as a verbal noun of a hollow root ر-و-ج and back-formed the verb rāja / yarūju 'to be current, sell well' with the participle رائج rāʾij and the form-II verbal noun ترویج tarwīj 'putting into circulation'. Two things to note about the drawing: (a) on the printed page the arrow into this box comes out of the PERSIAN raftan box, not out of the root — and that is the correct route, since Arabic borrowed the Iranian word, not the IE root (the JSON's parent #0 is an extraction error); (b) Nourai's own reference, Addi Shir p. 74, derives it from the Persian noun rather than the MP participle, which comes to the same thing.",
+          "derivation_fa": "«رَواج» عربی وام‌واژه‌ای است از فارسی میانهٔ rawāg (پهلوی کتابی lwʼk') «روان، رایج، در گردش» ــ همان اسمِ ساخته‌شده از ستاک حالِ raftan/raw- که در فارسی نو «روا» شده است. نیبرگ (ج ۲، ذیل ravāk) صریح می‌گوید: «Arab. lw. ravāj < ravāg»؛ آسبقی در «وام‌واژه‌های فارسی در عربی» ذیل rawāğ می‌نویسد «pers. << mp. rawāg، از فعل raftan»؛ ویکی‌واژه نیز آن را وام‌گیری از lwʼk'/ravāg می‌داند. گ ایرانی در معرّب‌سازی به «ج» بدل شده است (ابدال معمولِ وام‌واژه‌های دورهٔ ساسانی)، و سپس عرب‌ها آن را مصدرِ ریشه‌ای اجوف «ر-و-ج» انگاشتند و از آن فعل «راجَ یَروجُ»، اسم فاعل «رائج» و مصدر باب تفعیل «ترویج» را برساختند. ادعای نورایی درست است؛ تنها باید توجه داشت که در صفحهٔ چاپی پیکان این جعبه از جعبهٔ فارسی «رفتن» می‌آید نه از خود ریشه (ثبت parent=0 در JSON خطای خوانش است) و همین هم درست است، زیرا عربی واژهٔ ایرانی را وام گرفته نه ریشهٔ هندواروپایی را.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "AFM:74",
+              "status": "supports",
+              "note": "Addi Shir, al-Alfāẓ al-fārisiyya al-muʿarraba p. ٧٤ (= 74; verified on the page image, AFM.pdf leaf 76, running number ٧٤; transcription saved to data/verification/sources/refs/ocr/AFM/74.vision.txt): '( الرَوَاج ) ضدّ الكساد تعريب رَوَایی الذي بمعناهُ وهو مشتقّ من رفتن ومضارعهُ رَوْ واسم الفاعل منهُ رَوَا ومعناهُ مشى وسارَ. وقالت فيه العرب راجَ الأمرُ رَوْجاً ورَوَاجاً وراجت السلعة' — 'al-rawāj, the opposite of stagnation, is an arabization of Persian ravāyi of the same meaning, derived from raftan, present stem raw, agent noun ravā \"went, travelled\"; the Arabs then said rāja l-amru rawjan wa-rawājan.' Exactly Nourai's claim, including the back-formed Arabic verb."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II, glossary s.v. ravāk (NYB_vol2_glossary.txt line 3279)",
+              "stance": "supports",
+              "note": "'ravāk [lwbʼk'] running, going on, current: ~ kartan to put into circulation, to disseminate … From raftan (q.v.); Paz. ravā … NP ravā \"current (coin), lawful, admissible\"; Arab. lw. ravāj < ravāg \"current (money), vendible (goods); use, custom\".'"
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen, s.v. رواج rawāğ (PLA_pages.txt line 7836)",
+              "stance": "supports",
+              "note": "'rawāg: \"fließend, beweglich\" pers. << mp. rawāg \"fließend\", v. Verb raftan \"gehen\".'"
+            },
+            {
+              "src": "HRN",
+              "where": "Horn, Grundriss no. 619, p. 137",
+              "stance": "supports",
+              "note": "lists among the derivatives of reften: 'rewā (arab. LW. rawāj)' — i.e. Arabic rawāj is a loan from Persian ravā."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie, CPD p. 70 s.v. rawāg",
+              "stance": "supports",
+              "note": "'rawāg [lwʼk' | N rawā] current. ~īh: currency' — the Middle Persian source form with exactly the sense 'current/circulation' that Arabic rawāj has."
+            },
+            {
+              "src": "KLN",
+              "where": "Klein, Comprehensive Etymological Dictionary (KLN_1966.txt, grep rawaj/rawāj)",
+              "stance": "silent",
+              "note": "Klein has no entry for this Arabic word (it never entered English), so the Semitic-side reference recommended by the matrix contributes nothing here; AFM, PLA and NYB cover the loan instead."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "ravâj «رواج ( ترویج ، رائج ، رایج )»",
+          "verdict": "confirmed",
+          "derivation": "NP رواج ravāj 'currency, vogue, circulation' is the Arabic rawāj taken back into Persian — a classic Persian → Arabic → Persian round trip, and therefore a doublet of the inherited روا ravā (< MP rawāg). Wiktionary states it exactly so: 'Reborrowed from Arabic رَوَاج (rawāj), from Middle Persian lwʼk' (/ravāg/, \"going\"). Doublet of روا (rawâ)'. The three words Nourai puts in parentheses are the Arabic derivatives that came back with it: ترویج tarwīj (form II maṣdar, 'promotion, putting into circulation'), رائج rāʾij (active participle of rāja) and its Persian-spelt variant رایج rāyij 'current, prevalent' — the hamza of رائج being regularly written as ی in Persian orthography. The Persian words are in daily use (rawāj dādan 'to promote', rāyij 'current'), so the box is correct; Nourai's reference HRN:137 supports the first half of the trip (Persian → Arabic) and Wiktionary/Dehkhoda the return.",
+          "derivation_fa": "«رواج» فارسیِ امروز، معرّبِ همان واژه است که دوباره به فارسی بازگشته؛ یعنی نمونه‌ای روشن از وام‌واژهٔ دورگرد (فارسی ← عربی ← فارسی) و از این رو دوگانهٔ «روا» (از فارسی میانه rawāg). ویکی‌واژه می‌نویسد: «از عربی رَواج، از فارسی میانهٔ ravāg؛ دوگانهٔ روا». سه واژهٔ داخل کمانک نیز مشتقات عربی‌اند که همراه آن به فارسی آمده‌اند: «ترویج» (مصدر باب تفعیل)، «رائج» (اسم فاعلِ راجَ) و صورت فارسی‌نویسِ آن «رایج» ــ چون همزهٔ «رائج» در املای فارسی به «ی» بدل می‌شود. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%A7%D8%AC"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:137",
+              "status": "supports",
+              "note": "Horn, Grundriss no. 619 (HRN.txt \\f-leaf 159 = printed p. 137): 'reften … Praes. rew-em, reftar, rewā (arab. LW. rawāj), rewān …' — Horn documents the Persian→Arabic step that makes the Persian رواج a re-borrowing; he does not spell out the return trip, but that is what 'arab. LW.' beside a Persian word means in his notation."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Moʿin, Farhang-e Fārsi (MON_part1/2.txt, grep رواج)",
+              "stance": "partial",
+              "note": "the local OCR of Moʿin has no full headword article رواج (the ر section is incomplete in these two files), but the word appears throughout marked as Arabic, e.g. s.v. کاسد: '[ع.] (ص.) ناروا، نارایج، بی‌رونق؛ مق. رواء رواج' — Moʿin treats رواج/رایج as the Arabic pair opposite to کاسد, i.e. as Arabic-derived Persian vocabulary."
+            },
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual II s.v. ravāk",
+              "stance": "supports",
+              "note": "'Arab. lw. ravāj < ravāg' — the Arabic word whose Persian re-borrowing this node records."
+            },
+            {
+              "src": "AFM",
+              "where": "Addi Shir p. 74",
+              "stance": "supports",
+              "note": "'وقالت فيه العرب راجَ الأمرُ رَوْجاً ورَوَاجاً' — the Arabic verb and maṣdar from which Persian رواج، ترویج، رایج were re-imported."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "repere",
+          "verdict": "confirmed",
+          "derivation": "Latin rēpō, rēpere 'to creep, crawl' is the principal Italic reflex of the root and the basis for Pokorny's article: IEW 865 lists 'Latin repo, -ere \"grovel, truckle, creep, slink\"' first, beside Lith. replióti and Latv. rāptiês; Watkins/AHD has 'rēp-¹ … Latin rēpere, to creep'. The verb is thematic with no suffix (*rēp-e/o-), its participle stem rept- giving reptāre 'to crawl about' and the adjective rēpēns 'creeping'. Klein adds the standard caveat that L. rēpere 'is prob. not related to serpere \"to creep\"', i.e. the two Latin creep-verbs are separate roots — Nourai does not confuse them. Both of Nourai's references (AHD and POK:865) are the modern standard for this link, so the node is confirmed.",
+          "derivation_fa": "لاتینی rēpō / rēpere «خزیدن» بازتاب اصلی این ریشه در شاخهٔ ایتالیک است و در واقع پایهٔ مدخل پوکورنی: در IEW ص ۸۶۵ نخستین گواه همین «Latin repo, -ere kriechen, schleichen» است، در کنار لیتوانیایی replioti و لتونیایی rāptiês؛ واتکینز نیز ذیل rēp-¹ همین را می‌آورد. فعل، ستاک حالِ بی‌پسوند (*rēp-e/o-) دارد و از ستاک اسم مفعولی rept- واژه‌های reptāre و rēpēns «خزنده» ساخته شده است. کلاین یادآور می‌شود که rēpere را نباید با serpere «خزیدن» یکی گرفت؛ نورایی نیز این دو را درنیامیخته است. هر دو مرجع خودِ نورایی (AHD و POK:865) در این مورد همان معیار امروزی‌اند، پس ادعا درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/reptile"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins 1985 (AHD_watkins1985.txt line 895): 'rēp-¹. To creep, slink. Latin rēpere, to creep: REPENT², REPTILE; SUBREPTION. [Pok. 1. rēp- 865.]' — root, Latin verb and gloss as drawn."
+            },
+            {
+              "ref": "POK:865",
+              "status": "supports",
+              "note": "Pokorny IEW 865 s.v. rep-1 (rēp-?): 'Material: Latin repo, -ere \"grovel, truckle, creep, slink\"' — the Latin verb is the head of the article."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "WLD",
+              "where": "Walde-Pokorny II 370",
+              "stance": "supports",
+              "note": "'1. rēp- (rep-?) „kriechen, schleichen“. Lat. repo, -ere „kriechen, schleichen“, lit. replioti „kriechen“, lett. rāpt ds.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein, CEDEL s.vv. reptile, serpent (KLN_1966.txt lines 32426, 34702)",
+              "stance": "supports",
+              "note": "'… fr. L. rept-(um), pp. stem of repere, \"to creep\", which is cogn. with Lith. replióju, replióti, \"to creep\", Lett. rāpt, of s.m. L. repere is prob. not related to serpere, \"to creep\".'"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "reptile",
+          "verdict": "confirmed",
+          "derivation": "English reptile is first recorded late 14c. in the sense 'creeping or crawling animal', from Old French reptile (early 14c.) and directly from Late Latin reptile, the neuter of the adjective reptilis 'creeping', built on rept-, the past-participle stem of rēpere (Etymonline; Klein, CEDEL s.v. reptile: 'ME. reptil, from the Late L. noun reptile, prop. neut. of the adj. reptilis, \"creeping\", fr. L. rept-(um), pp. stem of repere'). Late Latin reptilia was the Vulgate's word for the 'creeping things' of Genesis, which is how the word reached the vernaculars. The narrow zoological sense is 18th-c.; the class Reptilia was separated from Amphibia only in the early 19th c. (1835), so the animals Nourai's readers think of are a late specialisation of 'crawler'. The box carries no reference of its own, but AHD/Watkins explicitly lists REPTILE under rēp-¹, which is the parent box's citation.",
+          "derivation_fa": "واژهٔ انگلیسی reptile نخستین بار در اواخر سدهٔ چهاردهم میلادی به معنای «جانور خزنده» ثبت شده، از فرانسهٔ کهن reptile و مستقیماً از لاتینی متأخر reptile، که صورت خنثای صفت reptilis «خزنده» است و بر ستاک اسم مفعولیِ rept- از فعل rēpere ساخته شده (اتیمانلاین؛ کلاین ذیل reptile). صورت جمع reptilia در ترجمهٔ لاتینی کتاب مقدس برابرِ «خزندگان» سفر پیدایش به کار رفت و از همان راه به زبان‌های اروپایی رسید. معنای جانورشناختیِ امروزی تازه است: ردهٔ Reptilia در ۱۸۳۵ از دوزیستان جدا شد. این جعبه در کتاب ارجاعی ندارد، ولی واتکینز خودِ REPTILE را ذیل rēp-¹ آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/reptile"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference for this box; the parent box's AHD citation covers it ('rēp-¹ … Latin rēpere, to creep: REPENT², REPTILE'), so nothing is left unsupported."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein, CEDEL s.v. reptile (KLN_1966.txt line 32426)",
+              "stance": "supports",
+              "note": "'reptile, n. and adj. — ME. reptil, from the Late L. noun reptile, prop. neut. of the adj. reptilis, \"creeping\", fr. L. rept-(um), pp. stem of repere, \"to creep\" …'"
+            },
+            {
+              "src": "AHD",
+              "where": "Watkins 1985, s.v. rēp-¹ and index entry 'REPTILE rēp-1'",
+              "stance": "supports",
+              "note": "'rēp-¹. To creep, slink. Latin rēpere, to creep: REPENT², REPTILE; SUBREPTION.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etymological Dictionary (SKT.txt, grep 'reptile')",
+              "stance": "silent",
+              "note": "Skeat's concise edition has no headword reptile (it appears only in passing under lizard, salamander), so it adds nothing here."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
