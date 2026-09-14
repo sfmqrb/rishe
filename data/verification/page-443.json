@@ -1,0 +1,681 @@
+{
+  "pdf_page": 443,
+  "book_page": 413,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Sem 2, Sam",
+      "verdict": "confirmed",
+      "modern_form": "PIE *sem- / *semh₂- 'summer' (gen. *sem-os); Watkins *sem-² / *semə-",
+      "note": "Pokorny's third homonym sem- 'Sommer' (IEW 905, gen. sem-os) is exactly Nourai's root box; Watkins in AHD lists it as sem-² 'Summer' with the explicit cross-reference '[Pok. 3. sem- 905]'. The variant 'Sam' in the head is the ā-grade seen in Old Irish sam, Welsh haf and in the Indo-Iranian *sama-. The current reconstruction writes the laryngeal: *semh₂- / oblique *sm̥-h₂-ór-o-, but the root, the language label ('Indo-European') and the gloss 'summer' are all correct. Note that this root is entirely distinct from the much better-known *sem- 'one, same' (Pokorny 902, Watkins sem-¹), with which it must not be confused.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *sem- / *semh₂- به معنی «تابستان» (حالت غیرفاعلی *sem-os) در فرهنگ پوکورنی زیر مدخل sem-3 در همان صفحهٔ ۹۰۵ آمده است و واتکینز نیز در پیوست ریشه‌های هندواروپایی فرهنگ American Heritage آن را با ارجاع صریح به «پوکورنی ۹۰۵» آورده. گونهٔ «Sam» همان ستاک با آی کشیده است که در ایرلندی کهن sam و ولزی haf دیده می‌شود. بازسازی امروزی حنجره‌ای را نیز می‌نویسد (*semh₂-)، ولی برچسب زبانی و معنای «تابستان» درست است. باید توجه داشت که این ریشه با ریشهٔ پرکاربردتر *sem- «یک، همان» (پوکورنی ۹۰۲) یکی نیست. ادعای نورایی درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sumaraz",
+        "https://en.wiktionary.org/wiki/summer",
+        "https://www.etymonline.com/word/summer"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:905",
+          "status": "supports",
+          "note": "POK_full.txt, block 'Page(s): 902-905': 'Root / lemma: sem-3 | Meaning: summer | Grammatical information: (Gen. sem-os) ... Old Indic samā f. \"Halbjahr, season, year\" (= Armenian am) ... Avestan ham- \"summer\" ... Old High German sumar, Old English sumor m., Old Icelandic sumar n. \"summer\". References: WP. II 492 f.' The whole chart is this one Pokorny entry; the printed IEW page for it is 905, as Nourai cites."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. sem-²",
+          "stance": "supports",
+          "note": "AHD_watkins1985.txt line 916: 'sem-2, Also semə-. Summer. Suffixed zero-grade form *sm̥ə-aro- in Germanic *sumaraz in Old English sumor, summer: SUMMER¹. [Pok. 3. sem- 905.]'"
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 14.76 'Summer'",
+          "stance": "supports",
+          "note": "SYN.txt line 25788: 'Ir. sam, W. haf, Br. hañv, Ir. samrad, NIr. samhradh ...; ON sumar, OE sumor, etc., general Gmc., except Goth.; Av. ham- (Skt. samā- \"season, year\" rarely also \"summer\")'"
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 492 f. (cited by Pokorny; only the Register Bd. III is on disk)",
+          "stance": "silent",
+          "note": "grep 'sem-' in WLD_band3.txt returns only the index line '2. sem- 488*' with no summer entry; Bd. II, where WP. II 492 f. stands, is not among the local files."
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. — not found",
+          "stance": "silent",
+          "note": "grep 'semos', 'sema ', \"'summer'\" in IEC.txt returns nothing; Mann has senos 'old' (see entry 2) but no separate summer lemma was located."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "ham 2, hama 2",
+          "verdict": "confirmed",
+          "derivation": "Avestan ham- (stem hama-) m. 'summer' is the regular Iranian outcome of PIE *sem-: PIE initial *s- becomes Indo-Iranian *s- and then, by the Iranian s > h shift, Av. h- (compare Av. hapta 'seven' : Skt. sapta). Bartholomae's Altiranisches Wörterbuch lemmatises it 'j. ʰham-, °ham- m. \"Sommer\"' with citations from Vendidad 5.4, 15.45-51, Nirangistan 46-51 and the Frahang, and the derived adjective hąmina- 'summer-' ('hapta hənti hąminō månha' = 'there are seven summer months', Vd. 1.3 Pahlavi gloss). The contrast pair is aiwi.gāma- 'winter', with which ham- is repeatedly juxtaposed. Nourai's double citation 'ham 2, hama 2' distinguishes this from the homonymous Av. hama- 'same, equal' (< *sem- 'one'), which is correct practice.",
+          "derivation_fa": "اوستایی ham- (ستاک hama-) به معنی «تابستان» بازماندهٔ منظم *sem- هندواروپایی در ایرانی باستان است؛ «س» آغازین هندواروپایی در ایرانی به «ه» بدل می‌شود (مانند اوستایی hapta در برابر سنسکریت sapta). بارتولومه در فرهنگ ایرانی باستان این واژه را با شاهدهایی از وندیداد و نیرنگستان آورده و صفت مشتق hąmina- «تابستانی» را نیز ثبت کرده است. نورایی به‌درستی آن را با شمارهٔ ۲ از هم‌آوای دیگر hama- «همانند، برابر» (از ریشهٔ *sem- «یک») جدا کرده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/summer"],
+          "ref_check": [
+            {
+              "ref": "POK:905",
+              "status": "supports",
+              "note": "POK_full.txt, sem-3 material: 'Avestan ham- \"summer\"' stands between Old Indic samā and Armenian am."
+            },
+            {
+              "ref": "KLN:1541",
+              "status": "supports",
+              "note": "KLN_1966.txt line 37437 (s.v. summer): '... cogn. with OI. sama, \"season, half-year, year\", Avestic hama, \"summer\", Arm. am, \"year\", amarn, \"summer\" ... All these words are traceable to I.-E. base *sem-, *sam-, \"summer; season\".' Klein's page for 'summer' in the 1966/67 two-volume set is 1541, as cited."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch, s.v. ham-",
+              "stance": "supports",
+              "note": "BRT.txt line 29390: '• j. ʰham-, °ham- m. \"Sommer\": ... hama .. aiwi.gāme F. 25 b; V.5.4a, 15.45 ... a) Plur. \"Sommerzeit\"'; cf. line 25870 'hapta hənti hąminō månha panca tayana' = 'es gibt (sonst) sieben Sommermonate'."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 14.76",
+              "stance": "supports",
+              "note": "'Av. ham-' listed among the IE words for 'summer' (SYN.txt line 25788)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "hamîn «همین»",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "hamîn «همین»",
+          "correct_form": "hāmīn «هامین»",
+          "derivation": "The derivation itself is right: Av. hąmina- / ham- 'summer' > Middle Persian hāmīn 'summer' (with the adjective hāmīnīg 'summery'), continued in the learned New Persian word هامین hāmīn 'summer'. But the FORM printed on p. 413 is wrong. Horn, the reference Nourai cites, prints it with a long ā: Grundriss p. 280, no. 106 'hāmīn \"Sommer\", hāmīnīk \"sommerlich\", häufig. aw. ham- \"Sommer\", hąmīn- \"sommerlich\"; ai. samā- \"Halbjahr, Jahreszeit, Wetter, Jahr\"; arm. am \"Jahr\", amaṙn \"Sommer\"; ahd. an. sumar \"Sommer\". kurd. havin'. Mo'in makes the point explicitly in his footnote to Borhan-e Qate' (p. 1212 ff. of vol. 4, s.v. همیز/همین): the Borhan headword is 'مصحف «هامین» hāmīn بمعنی تابستان' — a scribal corruption of hāmīn — and he cites Biruni's Āthār al-bāqiya p. 93 for هامین. Nourai has copied the corrupted Borhan spelling, which in Persian is the homograph of the everyday word همین hamin 'this very (same)'. The extraction is faithful to the printed page (the page image shows 'hamîn : summer (obsolete)' with همین). Two further caveats: Horn lists the word in his appendix 'Verlorenes Sprachgut', i.e. among Pahlavi words that did NOT survive into New Persian, and Dehkhoda's only هامین entry is a unit of weight (25 staters, from Farhang-e Nezām); the 'summer' sense is an archaic/Zoroastrian-tradition word, so Nourai's gloss '(obsolete)' is fair.",
+          "derivation_fa": "ریشه‌شناسی درست است: اوستایی hąmina-/ham- «تابستان» در فارسی میانه hāmīn (و صفت hāmīnīg «تابستانی») شده و در فارسی نو به‌صورت «هامین» بازمانده است. اما صورتی که کتاب چاپ کرده نادرست است: هرن در همان صفحهٔ ۲۸۰ که نورایی به آن ارجاع می‌دهد، شمارهٔ ۱۰۶، واژه را با الف کشیده «hāmīn» آورده است. معین نیز در حاشیهٔ برهان قاطع تصریح می‌کند که ضبط «همین/همیز» برهان «مصحّفِ هامین hāmīn بمعنی تابستان» است و به آثارالباقیهٔ بیرونی ص ۹۳ استناد می‌کند. نورایی همان ضبط مصحّف برهان را نقل کرده که در فارسی هم‌نگاشت واژهٔ رایج «همین» است. خطای چاپی (یا خطای خود مؤلف) کتاب است، نه خطای خوانش اسکن؛ تصویر صفحه همان «hamîn / همین» را نشان می‌دهد. افزون بر این، هرن این واژه را در بخش «سرمایهٔ زبانی از دست‌رفته» یعنی واژه‌های پهلوی‌ای که به فارسی نو نرسیده‌اند آورده، و دهخدا ذیل «هامین» تنها معنی واحد وزن را ثبت کرده است؛ پس قید «منسوخ» نورایی بجاست.",
+          "sources": [
+            "https://vajehyab.com/dehkhoda/%D9%87%D8%A7%D9%85%DB%8C%D9%86"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:280",
+              "status": "partial",
+              "note": "HRN.txt lines 10593-10600 (page header '- 280 -' immediately precedes): '106. hāmīn \"Sommer\", hāmīnīk \"sommerlich\", häufig. aw. ham- \"Sommer\", hąmīn- \"sommerlich\"; ai. samā- ...; ahd. an. sumar \"Sommer\".' Horn has the word and the derivation but prints hāmīn, not hamīn, and files it under 'VERLORENES SPRACHGUT' (Horn's appendix of Pahlavi words lost in New Persian, beginning p. 263), so he labels it Pahlavi rather than New Persian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 4, printed p. 2374 (BQT_v4_pages.txt, pdf page 457), Mo'in's footnote 4 to همیز/همین",
+              "stance": "partial",
+              "note": "'مصحف «هامین» hāmīn بمعنی تابستان، در اوستا hama (سانسکریت samā بمعنی سال) و نیز در اوستا hāminya بمعنی تابستانی و نیز تابستان آمده. پورداود، خرده اوستا ...؛ ابیرونی، آثارالباقیه ص ۹۳ «هامین»'. Mo'in confirms the etymology but flags the spelling Nourai used as a corruption."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II (glossary), s.v. hāmīn — not found",
+              "stance": "silent",
+              "note": "grep 'hāmīn', 'hamin' in NYB_vol2_glossary.txt returns no hit; Nyberg's glossary covers only the texts of Part I."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-hā, s.v. هامین — not found",
+              "stance": "silent",
+              "note": "grep 'هامین' in incoming/ARY/ARY_pages.txt returns nothing."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Sanskrit",
+          "words": "samâ",
+          "verdict": "confirmed",
+          "derivation": "Sanskrit samā́ f. is the Indic member of the same paradigm: PIE *semh₂- with the ā-stem, giving Indo-Iranian *samā, whence Skt. samā́ and (with s > h) Av. hama-. Pokorny glosses it 'Halbjahr, season, year' and Klein 'season, half-year, year'; Nourai's 'half-year' is one of these attested senses. Buck (14.76) notes that samā- means 'season, year' and only rarely 'summer' — the Indic branch generalised the term from the warm half of the year to the whole year, so the Vedic idiom a-sa-mā 'this year'. The same semantic widening produced Armenian am 'year' beside amaṙn 'summer'.",
+          "derivation_fa": "سنسکریت samā́ (مؤنث) عضو هندی همین خانواده است: *semh₂- هندواروپایی با ستاک ā، در هندوایرانی *samā، که در سنسکریت samā́ و در اوستایی (با تبدیل س به ه) hama- بازتاب یافته است. پوکورنی آن را «نیم‌سال، فصل، سال» و کلاین «فصل، نیم‌سال، سال» معنی کرده‌اند؛ ضبط «نیم‌سال» نورایی یکی از همین معانی است. باک یادآور می‌شود که در هندی معنی «سال» غالب شده و معنی «تابستان» کمیاب است — همان تحول معنایی که در ارمنی am «سال» در کنار amaṙn «تابستان» دیده می‌شود. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sumaraz"],
+          "ref_check": [
+            {
+              "ref": "KLN:1541",
+              "status": "supports",
+              "note": "KLN_1966.txt line 37437 (s.v. summer, p. 1541): 'cogn. with OI. sama, \"season, half-year, year\"'. Klein's 'half-year' is precisely Nourai's gloss."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "IEW 905 s.v. sem-3",
+              "stance": "supports",
+              "note": "'Material: Old Indic samā f. \"Halbjahr, season, year\" (= Armenian am), a-sa-mah \"this year\"' (POK_full.txt)."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 14.76",
+              "stance": "partial",
+              "note": "'Skt. samā- \"season, year\" rarely also \"summer\", cf. Macdonell-Keith 2.429 f.' — Buck stresses 'year/season' rather than 'half-year'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Germanic",
+          "words": "sumaraz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *sumaraz m. 'summer' is derived from the same root by an r-stem suffix. Watkins reconstructs a 'suffixed zero-grade form *sm̥ə-aro-' (in modern notation *sm̥-h₂-ór-o-, an oblique r-stem, the same formation as Old Armenian amaṙn 'summer'), which gives Gmc. *sumaraz with the regular development of the syllabic *m̥ to Gmc. -um-. Descendants: OHG sumar, OS/OFris. sumur, MDu. somer, ON sumar, OE sumor; Gothic, which lost the word, has asans instead.",
+          "derivation_fa": "ژرمنی آغازین *sumaraz «تابستان» با پسوند ستاکِ r از همین ریشه ساخته شده است. واتکینز آن را از صورت صفرپایهٔ پسونددار *sm̥ə-aro- (در نگارش امروزی *sm̥-h₂-ór-o-) می‌گیرد، همان ساختی که در ارمنی کهن amaṙn «تابستان» نیز دیده می‌شود؛ «م» هجایی هندواروپایی در ژرمنی به‌طور منظم به um بدل شده است. بازماندگان: آلمانی علیای باستان sumar، نورس باستان sumar، انگلیسی باستان sumor. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sumaraz"],
+          "ref_check": [
+            {
+              "ref": "POK:905",
+              "status": "supports",
+              "note": "POK_full.txt sem-3: 'Old High German sumar, Old English sumor m., Old Icelandic sumar n. \"summer\"'."
+            },
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt line 916: 'Suffixed zero-grade form *sm̥ə-aro- in Germanic *sumaraz in Old English sumor'. The starred Germanic form is literally Watkins'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1541 s.v. summer",
+              "stance": "supports",
+              "note": "'OE. sumor, rel. to OS., ON., Norw., OHG. sumar, Dan. sommer, Swed. sommar, OFris. sumur, MDu. somer, Du. zomer, MHG. sumer, G. Sommer'."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 14.76",
+              "stance": "supports",
+              "note": "'ON sumar, OE sumor, etc., general Gmc., except Goth.'"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "summer",
+          "verdict": "confirmed",
+          "derivation": "Old English sumor m. > Middle English sumer, somer > Modern English summer; the -or of the OE i-stem oblique was levelled to -er, and the geminate spelling -mm- is a Middle English orthographic marker of the preceding short vowel. The word is the direct inherited continuation of Gmc. *sumaraz — not a borrowing — and the one ancient English survivor of this root; the only other trace is the second element of gossamer ('goose-summer').",
+          "derivation_fa": "انگلیسی باستان sumor به انگلیسی میانه sumer/somer و سپس انگلیسی نو summer رسیده است؛ دو «م» در املا نشانهٔ کوتاهی واکهٔ پیشین در انگلیسی میانه است. این واژه بازماندهٔ مستقیم و ارثی *sumaraz ژرمنی است و وام‌واژه نیست؛ تنها نشان دیگر این ریشه در انگلیسی، جزء دوم gossamer است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/summer",
+            "https://en.wiktionary.org/wiki/summer"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt: 'in Old English sumor, summer: SUMMER¹'; and the index line 2325 'SUMMER! sem-2'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 1541 s.v. summer",
+              "stance": "supports",
+              "note": "'summer, n., a season. — ME. sumer, somer, fr. OE. sumor ... Cp. the second element in gossamer.'"
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, Concise Etym. Dict. — checked, no separate entry quoted",
+              "stance": "silent",
+              "note": "grep 'Summer, ' in SKT.txt returned no headword line (the OCR of that page is defective); Klein and Watkins cover the chain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Sěma, A-sěma",
+      "verdict": "plausible",
+      "modern_form": "Ancient Greek σῆμα (sêma) 'sign, mark, token'; ἄσημος (ásēmos) 'without mark, uncoined', neuter ἄσημον (ásēmon) '(unstamped) bullion, silverware'",
+      "note": "The root box is not an Indo-European root but a pair of Greek words, and the account is right in substance though loose in the glosses. σῆμα is a NOUN 'sign, mark, token' (Nourai's 'marked, stamped (coin)' is a paraphrase — he is following Mo'in, who glosses σῆμα in his Borhan footnote as «نشانه‌نهاده، علامت‌داشته»). ἄσημος is the adjective ἀ- (privative) + σῆμα + -ος, 'without mark or sign, uncoined (of a precious metal)', and the technical term that travelled east is the neuter ἄσημον (ἀργύριον) 'unstamped silver, bullion', already Attic (Liddell-Scott s.v.). The etymology of σῆμα itself is disputed in modern scholarship (often compared with Skt. dhyā́man, i.e. PIE *dʰyeh₂-mn̥, which Beekes regards as uncertain), but that lies outside the chart. The chart's single blank Old-Persian daughter box (to the right of 'siyaman' on the printed page) carries no text and is not in the extraction; nothing is lost.",
+      "note_fa": "جعبهٔ ریشه در اینجا یک ریشهٔ هندواروپایی نیست، بلکه دو واژهٔ یونانی است و مضمون آن درست، ولی معنی‌هایش تقریبی است. σῆμα اسم است به معنی «نشانه، علامت» (ترجمهٔ نورایی «سکه‌خورده، ضرب‌شده» برگرفته از حاشیهٔ معین بر برهان قاطع است که آن را «نشانه‌نهاده، علامت‌داشته» معنی کرده). ἄσημος صفت است از ἀ- نفی + σῆμα، یعنی «بی‌نشان، ضرب‌ناشده»، و اصطلاحی که به شرق راه یافت صورت خنثای ἄσημον (ἀργύριον) «نقرهٔ سکه‌ناخورده» بود که در یونانی آتیک کاربرد داشت. ریشهٔ خودِ σῆμα نزد پژوهشگران امروزی مورد اختلاف است. روی‌هم‌رفته ادعای نورایی با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CE%B7%CE%BC%CE%BF%CF%82",
+        "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D9%85"
+      ],
+      "ref_check": [
+        {
+          "ref": "KNT:209",
+          "status": "supports",
+          "note": "Kent, Old Persian, Lexicon p. 209 s.v. siyamam (archive.org 'oldpers' djvu text, the block immediately before the running number 210): 'siyamam adj., asm. for nsm., \"made of silver\", A¹I; characters clear, but word dubious ... Apparently for NPers. sīm \"silver\", from Phl. asēm, borrowed from Gk. ἄσημον \"(unstamped) silver\", NGk. ἀσήμι \"silver\"; but this seems anachronistic.' Kent names the Greek word and the whole chain."
+        },
+        {
+          "ref": "MON:1982",
+          "status": "not_checked",
+          "note": "The six-volume Amir Kabir Farhang-e Farsi is not online (refs_online.json note); vajehyab/abadis give Mo'in's entry text without page numbers. Mo'in's online entry tags سیم only as [په.] (Pahlavi) and does not repeat the Greek step, so the page could not be verified."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BQT",
+          "where": "vol. 2, printed p. 1212 (BQT_v2_pages.txt leaf 673), Mo'in's footnote 6 to سیم",
+          "stance": "supports",
+          "note": "'برخی از محققان معاصر اصل «سیم» را یونانی دانند (مجلهٔ دادگستری ... تقی‌زاده) و آن را مرکب از: ἀ علامت نفی و σῆμα (:نشانه نهاده، علامت داشته) (رک: فرهنگ یونانی-انگلیسی لیدل و اسکات) جمعاً بمعنی (زر) نامسکوکه (از افادات شفاهی استاد بنونیست)'. This is Nourai's root box almost word for word, on the very page he cites."
+        },
+        {
+          "src": "NYB",
+          "where": "Manual of Pahlavi II, glossary s.v. asēm",
+          "stance": "supports",
+          "note": "NYB_vol2_glossary.txt line 682: 'asēm [sym] silver 118⁸. — Borrowed from Gr ἄσημον; MPrs ʾsym (A-H II); NP sim.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "asěm, sîm; sîměn",
+          "verdict": "confirmed",
+          "derivation": "Greek ἄσημον '(unstamped) silver' was taken into Middle Persian in the Parthian/Sasanian period as asēm, written ʾsym; the Greek accusative/neuter -on was dropped and the long ē of Greek η was rendered by MP ē. MacKenzie's Concise Pahlavi Dictionary gives 'asēm [ʾsym | = M, N sīm] silver' and separately 'sēm [sym | N ~] = asēm', i.e. the aphaeretic variant already existed in Book Pahlavi; the English-Pahlavi index has 'silver (a)sēm; (a.) asēmēn'. Nyberg's glossary (Bundahišn 118⁸) says outright 'Borrowed from Gr. ἄσημον; MPrs ʾsym; NP sīm'. Parthian has hasēm and Bactrian σιμινο 'made of silver'. ONE CAVEAT on the second word: the Pahlavi adjective is asēmēn (so MacKenzie and Nyberg, who lists asēmēn); the form sīmēn with ī is the New Persian adjective سیمین, not the Pahlavi one, so Nourai has put a New Persian word in the Pahlavi box.",
+          "derivation_fa": "یونانی ἄσημον «نقرهٔ سکه‌ناخورده» در دورهٔ اشکانی/ساسانی به فارسی میانه راه یافت و به‌صورت asēm (نوشتاری ʾsym) درآمد؛ پایانهٔ خنثای یونانی -on افتاد و «ای» بلند یونانی (η) با ē فارسی میانه نمایانده شد. مکنزی در فرهنگ کوچک پهلوی هر دو صورت asēm و sēm را ثبت کرده است، یعنی حذف «اَ»ی آغازین از همان پهلوی کتابی آغاز شده بود؛ نیبرگ نیز تصریح می‌کند که وام‌واژه‌ای است از یونانی. در پارتی hasēm و در بلخی σιμινο «سیمین» دیده می‌شود. یک نکته: صفتِ پهلوی asēmēn است (مکنزی و نیبرگ)، و «سیمین» صورت فارسی نو است؛ بنابراین نورایی واژه‌ای فارسی نو را در جعبهٔ پهلوی نشانده است. در مجموع ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D9%85"],
+          "ref_check": [
+            {
+              "ref": "KNT:209",
+              "status": "supports",
+              "note": "Kent p. 209 s.v. siyamam: 'Apparently for NPers. sīm \"silver\", from Phl. asēm, borrowed from Gk. ἄσημον \"(unstamped) silver\"'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971, s.vv. asēm, sēm, and English-Pahlavi index 'silver'",
+              "stance": "supports",
+              "note": "PHD_mackenzie.txt line 1216 'asem [ʾsym | = M, N sim] silver'; line 4540 'sem [sym | N -] = asem'; line 7582 'silver (a)sem; (a.) asemen.' The adjective is asēmēn, not sīmēn."
+            },
+            {
+              "src": "NYB",
+              "where": "Manual of Pahlavi II, glossary",
+              "stance": "supports",
+              "note": "NYB_vol2_glossary.txt line 682 'asēm [sym] silver 118⁸. — Borrowed from Gr ἄσημον; MPrs ʾsym (A-H II); NP sim.'; line 668 also lists 'asēmēn'; the index lines 5811 and 7393 map 'ʾsym: asem' and 'sim: asem'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sîm 2 «سیم ۲»; sîm 3 «سیم ۳»; sîm 4 «سیم ۴ ( سیماب )»",
+          "verdict": "confirmed",
+          "derivation": "New Persian سیم sīm continues Middle Persian (a)sēm by loss of the unstressed initial a- (aphaeresis) and the regular MP ē > NP ī: asēm > sēm > sīm. Hübschmann lists it among exactly this class of New Persian words in Persische Studien (p. 119 f.): 'sīm \"Silber\" = phl. asīm, gr. ἄσημος (Nöldeke, Pers. Stud. II, 45)'. The three senses of the chart are all documented on the Borhan page Nourai cites: sīm 2 'silver' is the original sense (Borhan: «نقره را گویند»; Mo'in's Farhang tags سیم '[په.] ۱- نقره ۲- پول'); sīm 3 'wire' is Mo'in's footnote 7 on the same page — «و نیز رشته‌های باریک فلزی را «سیم» گویند، مفتول، و این معنی در زمان مؤلف معمول بوده» — a metonymy from silver thread to any drawn metal filament, now the dominant modern sense (سیم برق, سیم‌کشی, بی‌سیم, سیم‌پیچ, exactly the compounds in the chart's extra line); sīm 4 'mercury' is Mo'in's footnote 8 to سیماب — «از: سیم + آب؛ و سیم خود بمعنی جیوه آمده» — i.e. quicksilver as 'silver-water', named for its white shine. The Ṭāher Vahīd couplet in the box is the one printed on Borhan p. 1212.",
+          "derivation_fa": "«سیم» فارسی نو دنبالهٔ (a)sēm فارسی میانه است با حذف «اَ»ی آغازینِ بی‌تکیه و تبدیل منظم ēِ فارسی میانه به ī در فارسی نو: asēm > sēm > sīm. هوبشمان در «پژوهش‌های فارسی» (ص ۱۱۹ به بعد) آن را در همین دستهٔ واژه‌های افتاده‌آغاز آورده است. هر سه معنی جدول در همان صفحهٔ برهان که نورایی ارجاع داده مستند است: «سیم ۲» نقره (معین: «[په.] ۱- نقره ۲- پول»)؛ «سیم ۳» مفتول و رشتهٔ باریک فلزی، که در حاشیهٔ ۷ معین آمده و امروز معنی غالب است (سیم برق، سیم‌کشی، بی‌سیم، سیم‌پیچ — همان ترکیب‌هایی که در جدول آمده)، و از راه مجاز از «رشتهٔ نقره» به هر رشتهٔ فلزی گسترش یافته است؛ «سیم ۴» جیوه، که حاشیهٔ ۸ معین ذیل «سیماب» آن را توضیح می‌دهد: «از: سیم + آب؛ و سیم خود بمعنی جیوه آمده». ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D9%85",
+            "https://abadis.ir/fatofa/%D8%B3%DB%8C%D9%85/"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1212",
+              "status": "supports",
+              "note": "BQT_v2_pages.txt leaf 673 (printed 1212) carries the headword سیم, the Ṭāher Vahīd couplet Nourai quotes — «سیم و زر دنیا پرستان را منافق میکند / پشت و رو باشد مگر آیینهٔ بی‌سیم را. طاهر وحید» — and Mo'in's footnotes 6 (Greek origin), 7 (سیم = مفتول) and 8 (سیماب = سیم + آب)."
+            },
+            {
+              "ref": "KNT:209",
+              "status": "supports",
+              "note": "Kent p. 209: 'Apparently for NPers. sīm \"silver\", from Phl. asēm'."
+            },
+            {
+              "ref": "MON:1982",
+              "status": "not_checked",
+              "note": "6-volume Mo'in not available; the online Mo'in text (abadis) reads '[په.] (اِ.) ۱- نقره. ۲- پول، وجه ... ۴- مفتول، رشتهٔ باریک فلزی', which matches senses 2 and 3 but is not page-verifiable."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien, printed p. 119 f. (HUB.txt line 4215, after the '- 119 -' page mark)",
+              "stance": "supports",
+              "note": "'sīm \"Silber\" = phl. asīm, gr. ἄσημος (Nöldeke, Pers. Stud. II, 45)' — in Hübschmann's list of NP words that lost an initial vowel, beside sāgird = paz. asāgard and vērān = paz. avīrān."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in online (abadis.ir/fatofa/سیم)",
+              "stance": "partial",
+              "note": "'[ په . ] (اِ. ) ۱ - نقره . ۲ - پول ، وجه ... ۴ - مفتول ، رشتة باریک فلزی' — Mo'in tags the word Pahlavi and gives senses 2 and 3, but the online text omits the Greek step."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-hā — no etymological entry found",
+              "stance": "silent",
+              "note": "grep 'سیم' in incoming/ARY/ARY_pages.txt hits only unrelated strings (تقسیم, ترسیم) and 'سیم موم' at line 6867; no headword سیم."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Old Persian",
+          "words": "siyaman",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "siyaman",
+          "correct_form": "siyamam",
+          "derivation": "The form is misprinted. Kent's lexicon (p. 209, the page Nourai cites) reads 'siyamam adj., asm. for nsm., \"made of silver\"' — with final -m, the accusative-singular ending of the a-stem, used for the nominative in the text A¹I ('hya imam bātugara siyamam vidiya karta' = 'in whose royal house this silver saucer was made'). Nourai's 'siyaman' with -n is not a possible Old Persian form here, and the page image confirms the book itself prints 'siyaman', so the extraction is faithful and the error is the author's. Substance: Kent supports the derivation Nourai draws (Greek ἄσημον > the Iranian word) but attaches two heavy warnings on the same page — 'characters clear, but word dubious', 'but this seems anachronistic', and 'against authenticity of the inscription, cf. Schaeder, SbPAW 1935.489-96'. The A¹I silver dishes of Artaxerxes I are widely suspected of being modern forgeries, precisely because a Greek loanword for silver is out of place in an Achaemenid royal inscription; Herzfeld read the word as saiymam instead. Wiktionary, by contrast, accepts OP siyamam and even makes it the intermediary (Greek > OP siyamam > MP asēm). So the node's derivation is defensible but the word is not securely attested Old Persian.",
+          "derivation_fa": "صورت واژه در کتاب نادرست چاپ شده است. کنت در همان صفحهٔ ۲۰۹ که نورایی ارجاع می‌دهد «siyamam» را ثبت کرده — با «م» پایانی، یعنی پایانهٔ حالت مفعولیِ مفرد که در کتیبهٔ A¹I به‌جای فاعلی به کار رفته است («hya imam bātugara siyamam vidiya karta»: «که در کاخ او این جام سیمین ساخته شد»). «siyaman» با «ن» پایانی در فارسی باستان ممکن نیست، و تصویر صفحهٔ چاپی نشان می‌دهد خودِ کتاب همین را چاپ کرده است؛ پس خطای چاپی کتاب است، نه خطای خوانش اسکن. اما در محتوا: کنت همان‌جا دو هشدار جدی می‌دهد — «حروف روشن‌اند اما خود واژه مشکوک است» و «این امر زمان‌پریشانه می‌نماید» — و به مقالهٔ شدر (۱۹۳۵) در ردّ اصالت کتیبه ارجاع می‌دهد؛ بشقاب‌های سیمین منسوب به اردشیر یکم را بسیاری جعلی می‌دانند، چون وجود یک وام‌واژهٔ یونانی برای نقره در کتیبه‌ای هخامنشی بعید است. در مقابل، ویکی‌واژه siyamam را می‌پذیرد و آن را حلقهٔ واسط یونانی به فارسی میانه می‌شمارد. پس ریشه‌شناسی پذیرفتنی است ولی خود واژه سند استواری در فارسی باستان ندارد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D9%85"
+          ],
+          "ref_check": [
+            {
+              "ref": "KNT:209",
+              "status": "partial",
+              "note": "Kent, Old Persian, Lexicon p. 209: 'siyamam adj., asm. for nsm., \"made of silver\", A¹I; characters clear, but word dubious (§55.II, §56.V, §116, §149.I). Apparently for NPers. sīm \"silver\", from Phl. asēm, borrowed from Gk. ἄσημον \"(unstamped) silver\", NGk. ἀσήμι \"silver\"; but this seems anachronistic. Hz. ApI 296-9 ... normalizes saiymam: against authenticity of the inscription, cf. Schaeder, SbPAW 1935.489-96.' Supports the etymology, contradicts both the spelling and the confidence."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KNT",
+              "where": "Kent §117 and the translation of A¹I",
+              "stance": "partial",
+              "note": "Kent §117 (KNT.txt line 1438) lists 'the 3 dubious siyamam' among the words with initial s; the translation of A¹I (line 4677) reads 'in whose royal house this silver saucer was made'. Kent's own page-209 warning about the dubious status is not reflected in Nourai's chart."
+            },
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch — no entry",
+              "stance": "silent",
+              "note": "grep 'siyam' in BRT.txt returns nothing; Bartholomae (1904) predates the A¹I dishes (published by Herzfeld from 1935), so the word is necessarily absent."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. asēm",
+              "stance": "partial",
+              "note": "PHD_mackenzie.txt 'asem [ʾsym | = M, N sim] silver' gives the Middle Persian word with no Old Persian antecedent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Sen 1, Seno",
+      "verdict": "confirmed",
+      "modern_form": "PIE *sen- / *sen(o)- 'old'",
+      "note": "Pokorny 907 has exactly 'Root / lemma: sen(o)- (*heno) | Meaning: old, *old moon', with Old Indic sana-, Avestan hana- 'old', Latin senex/senior/senatus, Old Irish sen, Gothic sineigs, Lithuanian senas. Watkins gives 'sen-¹. Old ... [Pok. sen(o)- 907]'. Nourai's numbering 'Sen 1' correctly separates it from Pokorny's seni-/senu- 'apart, separated' (IEW 906-7, Watkins sen-²), the source of Latin sine and English sunder — a distinction the chart keeps. Root, language label and gloss are all right.",
+      "note_fa": "پوکورنی در صفحهٔ ۹۰۷ دقیقاً مدخل sen(o)- «کهن، پیر» را با شواهد سنسکریت sana-، اوستایی hana-، لاتین senex/senior/senatus، ایرلندی کهن sen، گوتیک sineigs و لیتوانیایی senas آورده است، و واتکینز نیز sen-1 «old» را با ارجاع به همان صفحه ثبت کرده. شمارهٔ «Sen 1» نورایی به‌درستی این ریشه را از seni-/senu- «جدا، سوا» (پوکورنی ۹۰۶–۹۰۷، خاستگاه sine لاتین و sunder انگلیسی) جدا می‌کند. ریشه، برچسب زبانی و معنی، هر سه درست است.",
+      "sources": [
+        "https://www.etymonline.com/word/senate",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sen-"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:907",
+          "status": "supports",
+          "note": "POK_full.txt block 'Page(s): 907': 'Root / lemma: sen(o)- (*heno) | Meaning: old, *old moon | Material: Old Indic sana-, Avestan hana- \"old\" ... Latin senex, Gen. senis, Kompar. senior \"old, aged\" ... senatus, -us (Oscan Gen. senateis) \"Senat\" ... Lithuanian senas \"old\". References: WP. II 494 f.'"
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins 1985, s.v. sen-¹",
+          "stance": "supports",
+          "note": "AHD_watkins1985.txt line 916: 'sen-¹. Old. 1. Latin senex, old, an elder: SEIGNIOR, SENATE, SENECTITUDE, SENESCENT, SENILE, SENIOR, SENOPIA, (SIGNORY), (SIR), SIRE, (SURLY). ... [Pok. sen(o)- 907.]'"
+        },
+        {
+          "src": "IEC",
+          "where": "Mann, s.v. senos",
+          "stance": "supports",
+          "note": "IEC.txt line 15213: 'senos \"old\": senis, -ios \"elderly; old man\". WP II, 494. Skt. sánaḥ, id.; Av. hanō, m. \"old man\"; Arm. hin ...; Gk. hénos \"last year's, old\"; Lat. cf. senex ...; Olr. sen ...; Li. sénas.' Line 15196 adds 'senát- \"age\" ... Lat. senātus'."
+        },
+        {
+          "src": "SYN",
+          "where": "Buck 14.15 'Old'",
+          "stance": "supports",
+          "note": "SYN.txt line 24433 ff.: '1. IE *sen-. Walde-P. 2.494 ... Lat. senex ...; Lith. senas, Skt. (Ved.) sana- (opp. to nava- and yuvan-), sanaya-, Av. hana- (quotable only for old persons); Arm. hin.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "hana, hanâ",
+          "verdict": "confirmed",
+          "derivation": "Avestan hana- 'old, aged' is the direct Iranian reflex of PIE *sen-o-, with the regular Iranian shift of initial *s- to h- (as in ham- 'summer' above). Bartholomae's entry reads 'j. hana- Adj. (fem. hanā-) \"greis, alt\"', with Vendidad 3.19 (hanō vā zaurvō vā 'be he aged or decrepit') and, in the feminine, the pejorative use 'Alte, Vettel' at Vd. 15.13-14. So Nourai's second form hanâ is not an independent lemma but the FEMININE of the same adjective; that is a minor imprecision, not an error. The Old Persian cognate is hanatā- 'old age' (Bh. 1.11 etc.).",
+          "derivation_fa": "اوستایی hana- «پیر، سالخورده» بازتاب مستقیم *sen-o- هندواروپایی در ایرانی است، با همان تبدیل منظم «س» آغازین به «ه». بارتولومه آن را چنین ثبت کرده است: «hana- صفت (مؤنث hanā-) پیر، کهنسال»، با شاهد وندیداد ۳٫۱۹ و کاربرد تحقیرآمیز مؤنث آن («پیرزن») در وندیداد ۱۵. پس صورت دوم نورایی، hanâ، مدخلی جداگانه نیست بلکه مؤنث همان صفت است؛ این بی‌دقتی کوچکی است، نه خطا. هم‌ریشهٔ فارسی باستان آن hanatā- «پیری» است. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/senate"],
+          "ref_check": [
+            {
+              "ref": "POK:907",
+              "status": "supports",
+              "note": "POK_full.txt sen(o)-: 'Old Indic sana-, Avestan hana- \"old\"' is the opening line of the Material section."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch, s.v. hana-",
+              "stance": "supports",
+              "note": "BRT.txt line 29325: '• j. hana- Adj. (fem. °nā-) \"greis, alt\": yat hanō vā zaururō vā pairistā.xšudrō vā bavāt V.3.19. a) fem. °nā- als Subst. \"Alte (in verächtlichem Sinn), Vettel\": V.15.13, 14.'"
+            },
+            {
+              "src": "SYN",
+              "where": "Buck 14.15",
+              "stance": "supports",
+              "note": "'Av. hana- (quotable only for old persons)' (SYN.txt line 24433 ff.)."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.v. senos",
+              "stance": "supports",
+              "note": "'Av. hanō, m. \"old man\"' (IEC.txt line 15213)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "hân «هان»",
+          "verdict": "disputed",
+          "derivation": "The etymology of the word is fine, but the language label is wrong and the Persian script is misleading. Horn's page 280, which Nourai cites, is in his appendix 'VERLORENES SPRACHGUT' (Grundriss, from p. 263) — a list of PAHLAVI words that did NOT survive into New Persian — and entry no. 108 reads 'hān 1) \"alt\" (vd. 15 (42) mit Awesta-, sonst mit Pehlevībuchstaben). aw. hanā- \"alt\"; ai. sána-; arm. hin.' Horn even notes that the word is written in Avestan characters at that Vendidad passage, i.e. it is barely more than a transcription of the Avestan adjective; and in the introduction to that very section he complains that 'der BQ und durch diesen der PS enthalten eine Menge niemals im Neupersischen vorhanden gewesener Pehlevī- und Pāzendworte'. There is no New Persian هان 'old': Borhan-e Qate' (vol. 4, printed p. 2312) has only «هان — بروزن کان، کلمهٔ تنبیه است، بمعنی در محل آگاهانیدن و تأکید در کاری و امری بکار برند» — the attention particle hān 'lo! beware!', a different word, with no 'old' sense at all; Dehkhoda and Mo'in agree. Modern scholarship therefore places hān 'old' in Middle Persian, not in Persian, and the chart's arrow Avestan > Persian should read Avestan > Pahlavi.",
+          "derivation_fa": "ریشه‌شناسی خودِ واژه ایرادی ندارد، ولی برچسب زبانی نادرست است. صفحهٔ ۲۸۰ هرن که نورایی به آن ارجاع داده در پیوستِ «سرمایهٔ زبانیِ از دست‌رفته» (از ص ۲۶۳) است، یعنی فهرست واژه‌های پهلوی‌ای که به فارسی نو نرسیده‌اند؛ مدخل ۱۰۸ چنین است: «hān ۱) پیر (وندیداد ۱۵٫۴۲، با حروف اوستایی)؛ اوستایی hanā-؛ سنسکریت sána-؛ ارمنی hin». هرن خود در آغاز همین بخش گله می‌کند که برهان قاطع و از راه آن فرهنگ‌های پس از آن، انبوهی واژهٔ پهلوی و پازند را که هرگز در فارسی نو نبوده‌اند ثبت کرده‌اند. در فارسی نو «هان» به معنی «پیر» وجود ندارد: برهان قاطع (ج ۴، ص ۲۳۱۲) تنها «هان: کلمهٔ تنبیه است، در محل آگاهانیدن و تأکید» را آورده است، و دهخدا و معین نیز همین. پس پژوهش امروزی این واژه را فارسی میانه می‌داند و پیکان نمودار باید «اوستایی ← پهلوی» باشد، نه «اوستایی ← فارسی».",
+          "sources": ["https://www.etymonline.com/word/senate"],
+          "ref_check": [
+            {
+              "ref": "HRN:280",
+              "status": "partial",
+              "note": "HRN.txt lines 10607-10612: '108. hān 1) \"alt\" (vd. 15 (42) mit Awesta-, sonst mit Pehlevībuchstaben). aw. hanā \"alt\"; ai. sána-; arm. hin (H. No. 168). 2) \"anderer\" (pāz. han).' The page supports the etymology but labels the word Pahlavi and files it under words lost in New Persian (section header 'VERLORENES SPRACHGUT', HRN.txt line ~10047)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 4, printed p. 2312 (BQT_v4_pages.txt, pdf page 395), s.v. هان",
+              "stance": "contradicts",
+              "note": "«هان — بروزن کان، کلمهٔ تنبیه است بمعنی در محل آگاهانیدن و تأکید در کاری و امری بکار برند، خواه بطریق امر باشد و خواه بعنوان نهی ...» — no 'old' sense; the neighbouring entry «هانی: بزبان پهلوی امر به نشستن باشد یعنی بنشین» is likewise unrelated."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie 1971 — no entry hān 'old'",
+              "stance": "silent",
+              "note": "grep 'hān' in PHD.txt/PHD_mackenzie.txt gives only hān 'that' and unrelated forms; MacKenzie's word for 'old' is pīr (English-Pahlavi index line 5908 'aged pīr')."
+            },
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in / Dehkhoda online",
+              "stance": "contradicts",
+              "note": "Persian هان is uniformly an interjection of warning ('آگاه باش'); no dictionary of New Persian gives it the sense 'old'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "senex; senior",
+          "verdict": "confirmed",
+          "derivation": "Latin senex, gen. senis 'old, old man' continues the PIE root *sen- with a -k- extension (*sen-eks); senior is its regular comparative 'older', formed with the Latin comparative suffix -ior. From the same stem Latin built senēre 'to be old', senēscere 'to grow old', senium 'senility', senīlis 'senile', senectūs 'old age', and — the form that matters for the rest of the chart — senātus, -ūs 'council of the elders' (Oscan gen. senateis), with senātor. Pokorny prints exactly this list on p. 907, and Watkins gives senex as the sole Latin representative of sen-¹.",
+          "derivation_fa": "لاتین senex (حالت اضافه senis) «پیر، پیرمرد» دنبالهٔ ریشهٔ *sen- هندواروپایی با گسترشِ -k- است (*sen-eks)، و senior صفت تفضیلی منظم آن «پیرتر» با پسوند -ior لاتینی. از همین ستاک واژه‌های senēre «پیر بودن»، senēscere «پیر شدن»، senium، senīlis، senectūs و — که برای ادامهٔ نمودار مهم است — senātus «شورای پیران» (با صورت اوسکیِ senateis) و senātor ساخته شده‌اند. پوکورنی همین فهرست را در صفحهٔ ۹۰۷ آورده و واتکینز نیز senex را تنها نمایندهٔ لاتینی این ریشه می‌شمارد. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/senate", "https://www.etymonline.com/word/senior"],
+          "ref_check": [
+            {
+              "ref": "POK:907",
+              "status": "supports",
+              "note": "POK_full.txt sen(o)-: 'Latin senex, Gen. senis, Kompar. senior \"old, aged\"; seneo, -ere \"old, weak sein\", senesco, -ere ..., senium ..., senatus, -us (Oscan Gen. senateis) \"Senat\", senectus \"age\", senecio ds.'"
+            },
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt: 'sen-¹. Old. 1. Latin senex, old, an elder'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein, s.vv. senile, senior",
+              "stance": "supports",
+              "note": "KLN_1966.txt line 34556 'senile, adj. — L. senilis, \"pertaining to old people, senile\", formed with suff. -ile fr. senex, gen. senis, \"old\", which is cogn. with OI. sánaḥ, \"old\"'; line 34559 'senior, adj. — L., \"older\", compar. of senex'."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.vv. senos, senát-, seneió",
+              "stance": "supports",
+              "note": "IEC.txt lines 15196-15213: 'senát- \"age\" ... Lat. senātus, gs: -ūs, m. \"senate\"'; 'seneió (sen(e)sko) \"grow old\" ... Lat. seneo, -ere beside senesco'; 'senos \"old\" ... Lat. cf. senex, gs: senis, m. \"old man\"'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "monsieur; seinat; senateur",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "seinat",
+          "correct_form": "sénat",
+          "derivation": "Two of the three French words are misspelt on the printed page, and the page image shows the misspelling is the book's own, not the extraction's. (1) monsieur is right: it is literally 'my lord', mon 'my' (< L. meum) + sieur, a reduced form of seigneur (< L. seniōrem, acc. of senior) — so Klein s.v. monsieur; the same senior gives Old French sire > sir. (2) 'seinat' is a misprint for sénat 'senate', Old French senat borrowed from Latin senātus in the 13th century; there has never been a French form with -ei-. Nourai's gloss 'an assembly of old wise men' is the literal Latin sense 'council of elders', not a French dictionary definition. (3) 'senateur' lacks its accent: the French word is sénateur, Old French senatour, from Latin senātōrem. All three are learned borrowings of the Latin words rather than inherited developments — except monsieur, whose second element sieur/seigneur IS the inherited outcome of senior (with -ni- > -gn- palatalisation in seigneur).",
+          "derivation_fa": "از سه واژهٔ فرانسوی این جعبه، دو تا در صفحهٔ چاپی غلط ضبط شده‌اند و تصویر صفحه نشان می‌دهد غلط از خودِ کتاب است نه از خوانش اسکن. یکم، monsieur درست است: به‌معنای تحت‌اللفظی «سرور من»، از mon «من» (لاتین meum) و sieur، صورت کوتاه‌شدهٔ seigneur (از seniōrem لاتین)؛ همین senior در فرانسهٔ کهن sire و سپس sir انگلیسی را داده است. دوم، «seinat» غلط چاپی «sénat» است؛ فرانسهٔ کهن senat وام‌گرفته از senātus لاتین در سدهٔ سیزدهم، و هرگز صورتی با -ei- نداشته است؛ معنی‌ای که نورایی داده («انجمن پیران فرزانه») ترجمهٔ تحت‌اللفظی لاتینی است نه تعریف فرهنگ فرانسوی. سوم، «senateur» بدون علامت است و صورت درست sénateur (فرانسهٔ کهن senatour، از senātōrem لاتین) است. این‌ها همه وام‌واژه‌های عالمانه از لاتین‌اند، جز جزء دوم monsieur که بازماندهٔ ارثی senior است (با کامی‌شدن -ni- به -gn- در seigneur). خطای چاپی کتاب است.",
+          "sources": ["https://www.etymonline.com/word/sir", "https://www.etymonline.com/word/senate"],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "AHD_watkins1985.txt s.v. sen-¹ lists the English descendants (SEIGNIOR, SENATE, SENIOR, SIR, SIRE) with their Latin source but gives no French forms, so it cannot confirm the spellings; Watkins does confirm that the French intermediaries go back to Latin senex/senior."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein, s.vv. monsieur, monseigneur, sire, senate, senator",
+              "stance": "partial",
+              "note": "KLN_1966.txt line 24341: 'monsieur, n., the French equivalent of English Mr. — F., lit. \"my lord\", compounded of mon, \"my\", and sieur, \"lord\", a shortened form of seigneur' (and 'F. seigneur comes fr. L. seniorem, acc. of senior'); line 34543 'senate ... fr. OF. senat (F. sénat)'; line 34544 'senator ... fr. OF. senatour (F. senateur)'. Klein prints sénat/senateur — never 'seinat'."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, s.v. Senate",
+              "stance": "supports",
+              "note": "SKT.txt line 16854: 'Senate, a council of elders. (F. – L.) F. senat. — L. senatum, acc. of senatus, council of elders. — L. senex, old ... Cf. Gk. ἕνος, old, Goth. sineigs, W. hen, O. Skt. sana, old.' Skeat's gloss 'council of elders' is the source of Nourai's paraphrase."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "mosyo «مُسیو»; senâ «سنا»; senâtor «سناتور»",
+          "verdict": "confirmed",
+          "derivation": "All three are modern French loans, taken into Persian in the Qajar and Pahlavi periods through the francophone administrative and diplomatic vocabulary. مسیو mosyo < French monsieur, used in Persian as a form of address to Europeans (Mo'in: '[فر.] (اِ.) آقا (در خطاب به فرنگیان گفته می‌شود)'; Dehkhoda notes its colloquial extension to Armenians and Assyrians). سنا senā < French sénat, the name of the upper chamber created by the 1906 constitution and actually convened 1949-1979 (Mo'in: '(س) [فر.] (اِ.) مجلسی که اعضای آن از بزرگان و اعیان کشور برگزیده شوند'; Dehkhoda: 'سنا. [س ِ] (فرانسوی، اِ) مجلس سالخوردگان'). سناتور senātor < French sénateur (Mo'in: '(س) [فر.] (اِ.) عضو مجلس سنا، نمایندهٔ مجلس اعیان'; Dehkhoda: 'سناتور. [س ِ ت ُ] (فرانسوی، اِ)'). The French -eur was regularly rendered in Persian by -or, as in دکتر/امپراتور-type loans. Note that senā 'senate' is a homograph of the much older Arabic loans سنا 'senna (the plant)' and سنا 'radiance', which Persian dictionaries list separately; Nourai's box is unambiguous because he glosses it 'senate'.",
+          "derivation_fa": "هر سه وام‌واژهٔ فرانسوی‌اند که در دورهٔ قاجار و پهلوی از راه واژگان اداری و دیپلماتیک فرانسوی‌زبان وارد فارسی شده‌اند. «مسیو» از monsieur فرانسوی که در فارسی خطاب به فرنگیان به کار می‌رفت (معین: «[فر.] آقا؛ در خطاب به فرنگیان»). «سنا» از sénat فرانسوی، نام مجلس اعیانی که در قانون اساسی مشروطه پیش‌بینی و از ۱۳۲۸ تا ۱۳۵۷ برپا بود (دهخدا: «سنا. (فرانسوی، اِ) مجلس سالخوردگان»). «سناتور» از sénateur فرانسوی (معین: «[فر.] عضو مجلس سنا، نمایندهٔ مجلس اعیان»). پایانهٔ -eur فرانسوی در فارسی به‌طور منظم -ور/-ور شده است. یادآوری: «سنا»ی مجلس هم‌نگاشتِ دو وام‌واژهٔ کهن‌ترِ عربی «سنا» (گیاه سنا) و «سنا» (روشنایی) است که فرهنگ‌ها جداگانه آورده‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D9%85%D8%B3%DB%8C%D9%88/",
+            "https://abadis.ir/fatofa/%D8%B3%D9%86%D8%A7/",
+            "https://abadis.ir/fatofa/%D8%B3%D9%86%D8%A7%D8%AA%D9%88%D8%B1/"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:1925,4125",
+              "status": "partial",
+              "note": "The 6-volume Farhang-e Farsi is not online, so the two page numbers could not be checked; but Mo'in's entry text (abadis.ir) tags each of the three words '[فر.]' = French, exactly as the chart's arrow requires: مسیو '(مُ یُ) [فر.] (اِ.) آقا (در خطاب به فرنگیان گفته می‌شود.)', سنا '(س) [فر.] (اِ.) مجلسی که اعضای آن از بزرگان و اعیان کشور برگزیده شوند.', سناتور '(س) [فر.] (اِ.) عضو مجلس سنا، نمایندهٔ مجلس اعیان.' The two page numbers are consistent with the six-volume pagination (1925 in the lexicon volume for س, 4125 in vol. 4 of foreign words for م)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Farhang-e Mo'in online (abadis.ir), s.vv. مسیو، سنا، سناتور",
+              "stance": "supports",
+              "note": "All three carry the origin tag [فر.] (French). Quoted in ref_check above."
+            },
+            {
+              "src": "ARY",
+              "where": "Aryanpur, Farhang-e rishe-hā — no entries",
+              "stance": "silent",
+              "note": "grep for سنا/سناتور/مسیو in incoming/ARY/ARY_pages.txt returns no headwords; Aryanpur covers inherited Indo-European vocabulary, not 20th-century French loans."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "sir, senior, senile, senate, senator",
+          "verdict": "plausible",
+          "derivation": "The root is right for all five, but the single arrow from French is right for only three. sir: Old French sire (from Vulgar Latin *seior, a reduced form of Latin senior) gave Middle English sire, and sir is its unstressed variant, attested c. 1300 as a knight's title (Etymonline: 'a variant of sire ... It is not an acronym of anything'). senate: ME senat, from Old French senat (Klein), c. 1200 of the Roman body, from Latin senātus. senator: ME senatour, from Old French senatour, from Latin senātōrem. But senior is a direct Latin borrowing — Klein: 'senior, adj. — L., \"older\", compar. of senex' — entering English in the 15th century as a school/academic term and never passing through French; and senile is from Latin senīlis (Klein: 'senile, adj. — L. senilis'), 1660s, a learned coinage of the scientific register. So for those two the chart should have an arrow straight from the Latin box.",
+          "derivation_fa": "ریشه برای هر پنج واژه درست است، ولی پیکانِ یگانهٔ «از فرانسوی» تنها برای سه‌تای آن‌ها درست است. sir: فرانسهٔ کهن sire (از *seior در لاتین عامیانه، صورت کوتاه‌شدهٔ senior) به انگلیسی میانه sire رسید و sir گونهٔ بی‌تکیهٔ آن است که از حدود ۱۳۰۰ م. عنوان شوالیه بوده (اتیمآنلاین تصریح می‌کند که sir سرواژه نیست). senate: انگلیسی میانه senat از فرانسهٔ کهن senat، از senātus لاتین. senator: انگلیسی میانه senatour از فرانسهٔ کهن senatour. اما senior وام مستقیم از لاتین است — کلاین: «senior، از لاتین، صفت تفضیلی senex» — و در سدهٔ پانزدهم به انگلیسی راه یافته و از فرانسوی نگذشته است؛ senile نیز از senīlis لاتین (کلاین) در دههٔ ۱۶۶۰ ساخته شده است. پس برای این دو واژه باید پیکانی مستقیم از جعبهٔ لاتین کشیده می‌شد. ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/sir",
+            "https://www.etymonline.com/word/senate",
+            "https://www.etymonline.com/word/senior"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "AHD_watkins1985.txt s.v. sen-¹ lists exactly SENATE, SENILE, SENIOR, (SIR), SIRE among the English words from Latin senex, confirming the root membership of all five (without specifying the French vs. direct-Latin route)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "Klein, s.vv. senate, senator, senile, senior, sir, sire",
+              "stance": "partial",
+              "note": "KLN_1966.txt 34543 'senate ... ME. senat, fr. OF. senat'; 34544 'senator ... ME. senatour, fr. OF. senatour'; 35333 'sir, n. — Reduced form of sire'; 35336 'sire, n. — ME., fr. OF. sire, fr. *seior, vulgar form of L. senior'; but 34556 'senile ... L. senilis' and 34559 'senior, adj. — L., \"older\"' — both straight from Latin, not from French."
+            },
+            {
+              "src": "SKT",
+              "where": "Skeat, s.vv. Senate, Sir",
+              "stance": "supports",
+              "note": "SKT.txt line 16854 'Senate, a council of elders. (F. – L.) F. senat. — L. senatum'; line 17320 'Sir, Sire; see Senate' — Skeat too routes senate and sir through French."
+            },
+            {
+              "src": "FSD",
+              "where": "Funk & Wagnalls — not consulted for this node",
+              "stance": "silent",
+              "note": "Klein, Skeat and Etymonline already agree on the chain; no further English dictionary was needed."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Sanskrit",
+          "words": "sana",
+          "verdict": "confirmed",
+          "derivation": "Vedic sána- 'old, of long standing' is the Indic reflex of PIE *sen-o-, preserving the *s- that Iranian turned into h- (Skt. sána- : Av. hana-). Pokorny lists it first among the Material for sen(o)-, alongside the derivatives sanaká- 'former, old' (which he equates directly with Latin senex), sánā 'of old', sanát/sanátā 'from of old, always' and sanátana- 'eternal, perennial'. Buck adds that the word is Vedic and stands opposed both to náva- 'new' and to yúvan- 'young'.",
+          "derivation_fa": "سنسکریت ودایی sána- «کهن، دیرینه» بازتاب هندی *sen-o- هندواروپایی است و «س» آغازین را نگه داشته، همان که در ایرانی به «ه» بدل شده است (sána- سنسکریت در برابر hana- اوستایی). پوکورنی آن را نخستین شاهد مدخل sen(o)- آورده و مشتقات sanaká- «پیشین، کهن» (که آن را مستقیماً با senex لاتین برابر می‌نهد)، sánā «از دیرباز»، sanát/sanátā و sanátana- «جاودان» را نیز ثبت کرده است. باک می‌افزاید که این واژه ودایی است و هم در برابر náva- «نو» و هم در برابر yúvan- «جوان» می‌نشیند. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/senate"],
+          "ref_check": [
+            {
+              "ref": "POK:907",
+              "status": "supports",
+              "note": "POK_full.txt sen(o)-: 'Material: Old Indic sana-, Avestan hana- \"old\", Old Indic sanaká- \"ehemalig, old\" (: Latin senex, Franconian Sinigus, gall. Seneca), sánā \"vor alters\", sanā, sanát, sanátā \"from alters her, from jeher, stets\", sanátana- \"eternal, immortal, perennial\"'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SYN",
+              "where": "Buck 14.15",
+              "stance": "supports",
+              "note": "'Skt. (Ved.) sana- (opp. to nava- and yuvan-), sanaya-' (SYN.txt line 24433 ff.)."
+            },
+            {
+              "src": "IEC",
+              "where": "Mann, s.v. senos",
+              "stance": "supports",
+              "note": "IEC.txt line 15213: 'senos \"old\" ... Skt. sánaḥ, id.'"
+            },
+            {
+              "src": "KLN",
+              "where": "Klein, s.v. senile",
+              "stance": "supports",
+              "note": "KLN_1966.txt line 34556: 'senex, gen. senis, \"old\", which is cogn. with OI. sánaḥ, \"old\".'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
