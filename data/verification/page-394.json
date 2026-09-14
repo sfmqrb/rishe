@@ -1,0 +1,940 @@
+{
+ "pdf_page": 394,
+ "book_page": 364,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-13",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Per 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *per- / *peri, *pro, *prē, *prai- 'forward, through, around, before' (Pokorny IEW 810-816, '2. per: das Hinausführen über'; Watkins/AHD per¹ 'around')",
+   "note": "The root box is accurate. Pokorny's article '2. per' runs pp.810-816 and opens exactly on the page Nourai cites; its sections cover per/peri 'around, through' (a), peros 'farther' (b), prai/prei (c), peres/peros (d), pr- (e), perā (f), pro/prō (g) and preti/proti (h) — i.e. precisely the double gloss 'around, forward'. Watkins's AHD appendix prints 'per¹. “Around.” ... [Pok. 2. A. per 810]' and closes with 'Other possibly related forms are grouped under per-², per-³, per-⁴, per-⁵, and per-⁶', which is the source of Nourai's cross-references to 'Per 2', 'Per 3' and 'Per 4'. PART 2 of the chart carries the Iranian, Germanic, Latin, Greek and modern-loan branches. Two nodes print forms that do not exist in that shape (node 12 'prô-tahere' for Latin prōtrahere; node 16 'proto-inin' for Greek prōteios) — both are on the printed page, so they are the author's misprints, not extraction errors. One real extraction discrepancy: node 18 prints پُرتُکل and پرتئین on the page but the JSON has the normalised پروتکل and پروتئین. The one substantive etymological objection on the page is node 21 (Persian فرفر), which rests on Mann alone and is almost certainly onomatopoeic.",
+   "note_fa": "جعبهٔ ریشه درست است. مقالهٔ «2. per» در فرهنگ پوکورنی از صفحهٔ ۸۱۰ تا ۸۱۶ امتداد دارد و دقیقاً از همان صفحه‌ای آغاز می‌شود که نورایی آورده است؛ بخش‌های آن (per/peri، peros، prai/prei، parā، pro/prō، preti) همان دو معنای «پیرامون، به پیش» را پوشش می‌دهد. واتکینز در پیوست AHD می‌نویسد «per¹. Around ... [Pok. 2. A. per 810]» و همانجا به per² تا per⁶ ارجاع می‌دهد، که منبع ارجاعات نورایی به «Per 2» تا «Per 4» است. دو گره صورت‌های ناموجود چاپ کرده‌اند (prô-tahere به جای prōtrahere و proto-inin به جای prōteios) که هر دو خطای چاپی خود کتاب است. تنها ایراد جدی ریشه‌شناختی این صفحه، گره ۲۱ («فرفر») است که تنها بر گفتهٔ من تکیه دارد و به حتم نام‌آواست.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%DB%8C"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:810",
+     "status": "supports",
+     "note": "Pokorny IEW 810 (POK_03.txt leaf 43 end / leaf 44 start): the article opens '2. per ‚das Hinausführen über‘. A. Dient als Präposition, Präverb und Adverb: a. per, peri (Lokative des Wurzelnomens) ‚vorwärts, im Hinausgehen, Hinübergehen über, im Durchdringen, im Übermaß‘ ...' and runs to p.816 ('WP. II 29ff., EM.² 754f. ...')."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 pp.49-50 s.v. per¹ (AHD_watkins1985.txt line 836)",
+     "stance": "supports",
+     "note": "'per¹. “Around.” I. Basic form *per and extended form *peri ... [Pok. 2. A. per 810.]' plus the closing 'Other possibly related forms are grouped under per-², per-³, per-⁴, per-⁵, and per-⁶' — the exact source of the chart's cross-references."
+    },
+    {
+     "src": "WLD",
+     "where": "Walde-Pokorny II 29 ff.",
+     "stance": "supports",
+     "note": "Pokorny's own closing reference for the article is 'WP. II 29ff.' (POK_03.txt leaf 49); WLD_band3 (the index volume) is all that is on disk, and it confirms the volume/page assignment."
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, IECD pp.925-930 (per-, pern-, pēros, perperos)",
+     "stance": "supports",
+     "note": "Mann has a dense series of per- headwords on these pages ('pern- ‚beyond, away, far‘', 'pēros (1) ‚side, end‘', 'perperos ‚flighty, giddy‘'), confirming the root's existence and shape."
+    },
+    {
+     "src": "SYN",
+     "where": "Buck, Dict. of Selected Synonyms",
+     "stance": "silent",
+     "note": "grep of SYN.txt for 'perusi', 'parut' and the per- prepositions returns nothing usable; Buck's concept sections do not treat prepositions."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Old Persian",
+     "words": "fra; frava, fravata; fra-bar",
+     "verdict": "confirmed",
+     "derivation": "All three are genuine Old Persian. (a) fra- is the OP preverb/prefix 'before, forth' < PIE *pro, the o-grade/lengthened extension of *per- (Pokorny IEW 813-814 'g. pro, prō ... ai. prá-, av. frā, fra-, ap. fra- Präf. ‚vorwärts, voran; fort, weg‘'); Iranian regularly turns PIE *p before *r into f (*pro > fra), so OP fra- : Skt. prá- : Gk. pró : Lat. pro-. (b) fravata is the OP adverb 'forward, downward', attested at DSf 23f, 28; Kent analyses it as *frava- (an extension of fra- exactly like Gk. prōtos < *prowo-) plus the adverbial suffix -ta as in amata; Nourai's bare 'frava' is that extracted stem, not a separately attested word. (c) fra-bar is the compound fra- + bar- 'bear' > frābara 'he proffered, granted', the formula of the royal inscriptions (Auramazdā-maiy xšaçam frābara 'Ahuramazda granted me the kingship', DB 1.12, 25, 60 etc.); Nourai's cross-reference to root Bher 1 (PIE *bher- 'carry') is correct.",
+     "derivation_fa": "پیشوند fra- در پارسی باستان به معنی «پیش، به جلو» از هندواروپایی آغازین *pro می‌آید؛ در ایرانی پ؛ پیش از r به f بدل می‌شود (*pra- > fra-)، از این‌رو fra- هم‌ریشهٔ pra- سانسکریت، pró یونانی و pro- لاتین است (پوکورنی صفحهٔ ۸۱۳–۸۱۴). قید fravata «رو به جلو، رو به پایین» در سنگ‌نبشتهٔ داریوش در شوش (DSf) آمده و کنت آن را *frava- (گستردهٔ fra-) + پسوند قیدی -ta می‌داند. فعل مرکّب fra-bar ، یعنی frābara «بخشید، ارزانی داشت»، فرمول همیشگی کتیبه‌هاست. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "POK:813",
+       "status": "supports",
+       "note": "Pokorny IEW 813 (local POK_03.txt, form-feed leaf 47) 'g. pro, prō ‚vorwärts, vorn, voran‘ ... Ai. prá- Präf. ‚vor, vorwärts, fort‘ ..., av. frā, fra-, ap. fra- Präf. ‚vorwärts, voran; fort, weg‘'."
+      },
+      {
+       "ref": "KNT:198",
+       "status": "supports",
+       "note": "Kent, Old Persian, Lexicon p.198 (KNT.txt leaf 222): 'fravata adv. ‘forward, downward’: Phl. frōt, NPers. fārōd; from *frava-, extension of fra- as in Gk. πρῶτος ‘first’ from *prowos, + -tos as in amata ... DSf 23f, 28.' The prefix fra- itself is treated one page earlier (p.197)."
+      },
+      {
+       "ref": "KNT:200",
+       "status": "supports",
+       "note": "Kent, Lexicon p.200 s.v. bar-: 'fra- + bar- ‘proffer, grant’: frābara imf. AmH 7; AsH 9; DB 1.12, 25, 60; DPd 3f, 7f; DNa 33; DSf 11 ...' — exactly Nourai's fra-bar 'offer, grant'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. per¹, section V",
+       "stance": "supports",
+       "note": "'V. Extended form *prē ... 4. Latin prē, pro-, before, for, instead of' and I.7 'Avestan pairi, around'; the AHD treats Iranian fra-/pairi- as part of the same root [Pok. 2. A. per 810]."
+      },
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch, cols. 974 ff. (fra-)",
+       "stance": "silent",
+       "note": "BRT.txt OCR of the Avestan transliteration is too corrupt to quote the fra- article; grep of 'fra-bar', 'fravata' returned only garbled fragments."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 s.v. frōd",
+       "stance": "supports",
+       "note": "'frōd [plwt’ | M prwd, N furō(d)] down' (PHD_mackenzie.txt line 2398) — the Middle Persian continuation of OP fravata, confirming the OP form is the ancestor of the Persian branch."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "frôt",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian frōd / frōt 'down, downward', written <plwt'> in Book Pahlavi and <prwd> in Manichaean Middle Persian, continues OP fravata: the OP adverbial ending -ta is lost, and the sequence *frava- contracts to frō- (regular MP monophthongisation of *-awa- > -ō-). Kent states the equation outright at Lexicon p.198 ('fravata ... Phl. frōt, NPers. fārōd'); MacKenzie prints the voiced reading frōd (Book Pahlavi <t'> is ambiguous for final -d), so Nourai's 'frôt' is simply Kent's 1950 transliteration, not an error.",
+     "derivation_fa": "صورت فارسی میانهٔ frōd/frōt «فرو، پایین» (پهلوی کتابی <plwt'>، مانوی <prwd>) دنبالهٔ fravata ی پارسی باستان است؛ پسوند قیدی -ta افتاده و خوشهٔ *-awa- به واکهٔ کشیدهٔ ō بدل شده است. کنت خود همین زنجیره را می‌آورد و مکنزی صورت frōd را می‌نویسد؛ پس «frôt» نورایی همان آوانگاری کنت است و خطا نیست. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "KNT:198",
+       "status": "supports",
+       "note": "Kent p.198 s.v. fravata: 'Phl. frōt, NPers. fārōd' — the Pahlavi form and the arrow OP > Pahlavi are Kent's own (KNT.txt leaf 222)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 p.33-34 s.v. frōd (PHD_mackenzie.txt line 2398 / PHD.txt line 370)",
+       "stance": "supports",
+       "note": "'frōd [plwt’ | M prwd, N furō(d)] down. -mānd [-m?nd] deficiency, shortcoming.'"
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss p.183 no. 825 (HRN.txt leaf 204)",
+       "stance": "supports",
+       "note": "'firōd, furōd, firō, furō ‚hinunter, unten‘, furōdīn ‚unterer‘ ... phlv. frōt.'"
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual II (glossary)",
+       "stance": "silent",
+       "note": "grep of NYB_vol2_glossary.txt for 'frōt'/'frōd' returns nothing usable (OCR only yields 'farzanaa: frazānak' at line 6560)."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "forŭ «فرو»; forŭtan «فروتن» (+ فرود)",
+     "verdict": "confirmed",
+     "derivation": "New Persian فرود furūd / فرو furū 'down, below' is the direct continuation of MP frōd: MP ō > NP ū, and the anaptyctic vowel of the initial cluster gives fu-rōd > furūd, with the final -d lost in the shortened adverb/preverb فرو. Horn (Grundriss p.183 no. 825) lists exactly the set 'firōd, furōd, firō, furō' and adds furōdīn 'lower' (whence the month-name فروردین is NOT derived — that is Av. fravaši-). فروتن furūtan 'humble, down-to-earth' is a transparent NP compound فرو 'down' + تن 'body' ('with body lowered'), first common in classical NP prose and poetry, so it is a New Persian formation on the inherited adverb rather than an inherited word itself.",
+     "derivation_fa": "«فرود» و صورت کوتاه‌شدهٔ آن «فرو» بازماندهٔ فارسی میانهٔ frōd است؛ ō ی فارسی میانه در فارسی نو به ū بدل شده و برای شکستن خوشهٔ آغازین واکه‌ای میانجی افزوده شده است (fr- > fu-r-). هرن در صفحهٔ ۱۸۳ همین زنجیره را می‌آورد. «فروتن» نیز ترکیبی است فارسی‌نو از «فرو» + «تن» یعنی «تن‌فروآورده، افتاده‌حال». ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "HRN:183",
+       "status": "supports",
+       "note": "Horn p.183 no. 825 (HRN.txt leaf 204): 'firōd, furōd, firō, furō ‚hinunter, unten‘, furōdīn ‚unterer‘ ... phlv. frōt. ai. pravát- ‚abschüssige Bahn‘, pravátā ‚bergab, abwärts‘; firōd setzt ein *pravát (schw. St.) voraus (Bartholomae, brieflich).' Exactly Nourai's arrow."
+      },
+      {
+       "ref": "KNT:198",
+       "status": "supports",
+       "note": "Kent p.198: 'fravata ... Phl. frōt, NPers. fārōd' — the NP form is named in the same entry."
+      },
+      {
+       "ref": "BQT:1473",
+       "status": "not_checked",
+       "note": "Borhan-e Qate’ p.1473 falls in vol. 3; the entry فرو/فرود was not located in the rough OCR of incoming/BQT/BQT_v3_pages.txt (greps for فرود return only unrelated verse lines). The neighbouring page 1459 (فرزانه) was found and checked, so the page range Nourai cites is the right part of the book."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 s.v. frōd",
+       "stance": "supports",
+       "note": "'frōd ... N furō(d)] down' — MacKenzie himself gives the New Persian outcome furō(d)."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien",
+       "stance": "silent",
+       "note": "grep of HUB.txt for 'furōd'/'firōd'/'vorgestern' finds no separate article; Hübschmann follows Horn's numbering and adds nothing here."
+      },
+      {
+       "src": "ARY",
+       "where": "Aryanpur, Farhang-e rishe-hā",
+       "stance": "silent",
+       "note": "grep of incoming/ARY/ARY_pages.txt for فرود returns only German-glossary lines (13466-13474), no headword."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Avestan",
+     "words": "paurva, parô, para 4, parâ 4; parô-ayare",
+     "verdict": "confirmed",
+     "derivation": "All four are genuine Avestan words of this root, and Nourai's 'para 4 / parâ 4' are Bartholomae's numbered homonyms. (a) paurva- (also pourva-) 'former, first' < PIE *perə-uo- (Pokorny 815: 'idg. perə-uo- in: ai. pūrva-, av. paurva-, pourva-, ap. paruva- ‚der vordere, frühere‘'). (b) parō 'before, in front of; except' is the ablative-genitive form of the stem *per- (Pokorny 813: 'av. parō Adv. ‚vorn, vor‘, Präp. ‚vor‘', beside Skt. puráḥ and Gk. páros). (c) para- 'ulterior, later, further' and the instrumental adverb parā 'before, forth' (Pokorny 814: 'av. para, ap. parā Adv. ‚zuvor‘, Präp. ‚vor‘'). (d) parō.ayara- 'the preceding day' is parō + ayar-/ayan- 'day' (PIE *h₂ey-er-), the exact Old Iranian prototype of Persian پریر (see node 5); Nourai's cross-reference to root Ayer is right, though 'last day' is better rendered 'the day before'.",
+     "derivation_fa": "هر چهار صورت اوستایی اند. paurva-/pourva- «پیشین، نخستین» از *perə-uo- هندواروپایی و هم‌ریشهٔ pūrva- سانسکریت و paruva- پارسی باستان است (پوکورنی صفحهٔ ۸۱۵). parō «پیش، جلو» برابر puráḥ سانسکریت و páros یونانی است (پوکورنی ۸۱۳)، و para-/parā «بعدی، پیش‌از» (پوکورنی ۸۱۴). ترکیب parō.ayara- یعنی «روز پیش» (parō + ayar- «روز») همان سرچشمهٔ «پریر» فارسی است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%DB%8C"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:815",
+       "status": "supports",
+       "note": "Pokorny IEW 815 (POK_03.txt leaf 49): 'idg. perə-uo- in: ai. pūrva-, av. paurva-, pourva-, ap. paruva- ‚der vordere, frühere‘ (ai. pūrvyá-, av. paouruya- paoirya-, ap. paruviya ‚prior‘, dann ‚primus‘).'"
+      },
+      {
+       "ref": "POK:813",
+       "status": "supports",
+       "note": "Pokorny 813 (leaf 46): 'd. Peres, peros ... Ai. puráḥ Adv. und Präf. ‚voran, vorn‘, Präp. ‚vor‘, av. parō Adv. ‚vorn, vor‘, Präp. ‚vor‘, gr. πάρος.'"
+      },
+      {
+       "ref": "POK:810",
+       "status": "supports",
+       "note": "Pokorny 810 is where the article '2. per ‚das Hinausführen über‘' begins (leaf 43/44) — the root box itself."
+      },
+      {
+       "ref": "HRN:61",
+       "status": "partial",
+       "note": "Horn p.61 no. 270 (HRN.txt leaf 82) is about NP pār, not about the Avestan words, and it warns: 'Ap. paruva- ‚früher‘ (aw. paurva-) ist schon im Pehlevi aufgegeben worden' — i.e. Horn denies that paurva- survived into Persian (see node 5)."
+      },
+      {
+       "ref": "AEF:376",
+       "status": "not_checked",
+       "note": "Khaleqi-Motlaq's Asās-e Eshteqāq-e Fārsi is not available online (refs_online.json: 'Not online'); it is the Persian rendering of Horn, whose corresponding article (no. 270, p.61) was checked instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "Altiranisches Wörterbuch, cols. 846-870 (para-, parō, paurva-)",
+       "stance": "silent",
+       "note": "BRT.txt OCR is unusable for these headwords; searches for 'paurva' return only running text fragments ('āhva paurvaṭāhva', 'paurva.naēmāṭ') which at least attest the stem in the Avesta but give no article text."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny II 29 ff. (per-)",
+       "stance": "supports",
+       "note": "Pokorny's own closing reference for this article is 'WP. II 29ff.' (POK_03.txt leaf 49), i.e. Walde-Pokorny treats the same Avestan material under the same root."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. per¹ I.7",
+       "stance": "supports",
+       "note": "'7. Avestan pairi, around: PARADISE.' The AHD assigns the Avestan preverbs of this family to per¹ [Pok. 2. A. per 810]."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "(script only) پار ، پارسال ، پارینه ، پَرَن ، پَرَندوش ، پَریر ، پریروز ، پیرار ، پیرارسال",
+     "verdict": "plausible",
+     "derivation": "The set is genuine and all of it belongs to PIE *per-, but it has two different Old Iranian sources and Nourai hangs all of it on paurva-. (i) The parā/parō- compounds are exactly as charted: پریر parīr 'the day before yesterday' < MP parīr < Proto-Iranian *parā-yarah = *para- + *ayarah 'day' (= Av. parō.ayara-), with پریروز = پری(ر) + روز; پیرار pīrār 'two years ago' and پیرارسال are the parallel formation with *yār-/sāl 'year'; پَرَندوش 'the night before last' is para- + دوش 'last night'; پَرَن, which Borhan-e Qate’ glosses 'و به معنی دیروز هم گفته‌اند که روز گذشته باشد', belongs here too. (ii) پار pār 'last year' (with پارسال, پارینه) is contested: Horn (p.61 no.270) compares Skt. parút, Gk. πέρυσι, Kurd. par, Oss. faru, i.e. *par-ut = per- + *wet- 'year' (Pokorny 811 puts these 'in zeitlicher Verwendung' under per-), and expressly says OP paruva-/Av. paurva- 'was already given up in Pahlavi'; Wiktionary and Mo'in's own footnote in Borhan, on the other hand, do derive پار from Proto-Iranian *pṛHwo- (= paurva-), listing both sets of cognates. So Nourai follows one of two live opinions for پار, and is unambiguously right for the rest.",
+     "derivation_fa": "این خوشه همگی از ریشهٔ *per- است ولی دو سرچشمهٔ ایرانی باستان دارد. «پریر» از فارسی میانهٔ parīr و آن از ایرانی آغازین *parā-yarah (یعنی *para- «پیش» + *ayarah «روز»، برابر parō.ayara- ی اوستایی)؛ «پریروز»، «پیرار»، «پیرارسال» و «پرندوش» (para- + دوش) همان ساختارند و «پَرَن» را نیز برهان قاطع به معنی «دیروز» آورده است. امّا دربارهٔ «پار، پارسال، پارینه» دو نظر هست: هرن (ص ۶۱) آن را با parút سانسکریت و πέρυσι یونانی (یعنی *par-ut «در سال پیش») می‌سنجد و تصریح می‌کند که paruva- در پهلوی از میان رفته بوده؛ معین (حاشیهٔ برهان) و ویکی‌واژه آن را از *pṛHwa- (همان paurva-) می‌گیرند. پس نمودار نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%DB%8C",
+      "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%84"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:349",
+       "status": "supports",
+       "note": "Borhan-e Qate’ vol. 1, s.v. پار (BQT_v1_pages.txt leaf ≈564, printed ≈p.345-349; the footnote itself says بقیه در صفحهٔ ۳۵۰): Mo’in's note 7 reads 'در: پارسال، پارینه؛ قس سانسکریت parūt (در سال گذشته)؛ ارمنی heru (سال گذشته)، کردی par، افغانی parōs، آسی faru/farun، وخی pəray، سریکلی parwis (قس یونانی πέρυσι) پارسی باستان paruva (سابقاً)، اوستا paurva'. So BQT does connect پار with Av. paurva-, as Nourai's arrow requires — while also listing the parūt-type cognates."
+      },
+      {
+       "ref": "BQT:397",
+       "status": "not_found",
+       "note": "The page-397 entry (presumably پریر/پرندوش) could not be isolated: greps of BQT_v1_pages.txt for پریر, پرندوش, پیرار return nothing (the OCR of this volume drops many headwords). The entry پَرَن was found (leaf ≈593) with the gloss 'و به معنی دیروز هم گفته‌اند که روز گذشته باشد'."
+      },
+      {
+       "ref": "AEF:331,368,376",
+       "status": "not_checked",
+       "note": "Asās-e Eshteqāq-e Fārsi is not available online or on disk (refs_online.json)."
+      },
+      {
+       "ref": "ZMA:55",
+       "status": "not_checked",
+       "note": "Jonaydi, Zendegi va Mohājerat-e Āryāiān: refs_online.json records 'purchase only; no open copy found'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "Horn p.61 no. 270 (HRN.txt leaf 82)",
+       "stance": "contradicts",
+       "note": "'pār ‚das vergangene Jahr‘, pārsāl, pārīn. skr. vergl. parút ‚im vergangenen Jahre‘ ... Ap. paruva- ‚früher‘ (aw. paurva-) ist schon im Pehlevi aufgegeben worden.' Horn derives پار from *par-ut, not from paurva-."
+      },
+      {
+       "src": "POK",
+       "where": "IEW 811 (POK_03.txt leaf 44)",
+       "stance": "partial",
+       "note": "'in zeitlicher Verwendung: ai. par-ūt, gr. πέρυσι usw. (s. unter uet- ‚Jahr‘)' — Pokorny places the 'last year' words under per- but as a compound with *wet- 'year', a different formation from perə-uo-."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate’ vol. 1, s.v. پَرَن (BQT_v1_pages.txt line 24957 ff.)",
+       "stance": "supports",
+       "note": "'پرن – بر وزن چمن، پروین را گویند ... و به معنی دیروز هم گفته‌اند که روز گذشته باشد' — confirms the temporal sense of پَرَن that the chart presupposes."
+      },
+      {
+       "src": "IEC",
+       "where": "Mann, IECD p.927 s.v. pēros (1)",
+       "stance": "partial",
+       "note": "'pēros, ā, om (1) ‚side, end‘ ... Av. parō, m. ‚end, edge, shore‘; Per. cf. pār ‚over, across‘' — Mann attaches Persian pār to the parō-family, but with the spatial, not the temporal, meaning."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Old Persian",
+     "words": "paruva; pariy; para; parâ",
+     "verdict": "confirmed",
+     "derivation": "All four are Kent's Old Persian lexicon headwords and both cited pages are exact. p.195: 'para prep. with acc. “beyond” (Av. parā “before”, Skt. purás, Gk. παρά)'; '²parā postpos. with acc. “along”, and verbal prefix “forth”'; 'pariy prep. and prefix “around, about”: Av. pairi, Skt. pári, Gk. περί, Lt. per, pIE *peri'. p.196: 'paruva- adj. “being before in time or place”: Av. paurva-, Skt. pūrva-, pIE *pruos', attested paruvā 'former' DB 4.51 and paruvam 'formerly' DB 1.9. Nourai's glosses ('early', 'around', 'later, beyond', 'along') reproduce Kent's almost word for word; only 'later' for para is Kent's separate entry '¹para- adj. “later”'.",
+     "derivation_fa": "هر چهار واژه سرواژهٔ فرهنگ پارسی باستان کنت اند و هر دو صفحهٔ مورد استناد نورایی درست است: در ص ۱۹۵ para «فراتر از»، parā «الونگ، به سوی جلو» و pariy «پیرامون» (هم‌ریشهٔ pairi اوستایی، pári سانسکریت، περί یونانی)؛ در ص ۱۹۶ paruva- «پیشین، نخستین» که در کتیبهٔ بیستون (paruvam «پیش‌از این») آمده است. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "KNT:195",
+       "status": "supports",
+       "note": "Kent, Lexicon p.195 (KNT.txt leaves 218-219): '¹para- adj. “later” ... Av. para- “farther”, Skt. pára- “distant”, Gk. πέραν “beyond”'; '²para prep. with acc. “beyond”'; '²parā postpos. with acc. “along”, and verbal prefix “forth”'; 'pariy prep. and prefix “around, about”: Av. pairi, Skt. pári, Gk. περί, Lt. per, pIE *peri'."
+      },
+      {
+       "ref": "KNT:196",
+       "status": "supports",
+       "note": "Kent p.196 (KNT.txt leaf 219): 'paruva- adj. “being before in time or place”: Av. paurva-, Skt. pūrva-, pIE *pruos ... paruvā npm. “former” DB 4.51. paruvam asn. as adv. “formerly” DB 1.9.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 810-815",
+       "stance": "supports",
+       "note": "p.810-811 'a. per, peri ... ai. pari, av. pairi, apers. pariy'; p.815 'ap. paruva- ‚der vordere, frühere‘'; p.814 'av. para, ap. parā Adv. ‚zuvor‘'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. per¹ I",
+       "stance": "supports",
+       "note": "'I. Basic form *per and extended form *peri ... 5. Greek peri, around, near, beyond ... 6. Sanskrit pari ... 7. Avestan pairi, around.'"
+      },
+      {
+       "src": "IEC",
+       "where": "Mann, IECD p.927 s.v. pern-",
+       "stance": "partial",
+       "note": "'pern- (pernt-) ‚beyond, away, far‘ ... OPer. cf. parana-, adj. ‚former‘' — Mann lists the related OP adverb parana-, which Kent also derives from ²para/parā."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Sanskrit",
+     "words": "pra-jan",
+     "verdict": "plausible",
+     "derivation": "The underlying word is real: Sanskrit pra-jñā- (prajānāti 'discerns, understands beforehand', prajñā f. 'discernment, wisdom', prajñāna- n. 'knowledge'), from pra- 'fore-' (< PIE *pro, this root) + jñā- 'to know' (< PIE *ǵneh₃-, whence Nourai's cross-reference to root Gnô). The printed form 'pra-jan' is the book's own shorthand for the verb stem (Horn writes 'ai. pra + √jñā-, jānāti'), not an attested Sanskrit citation form; and Pokorny p.813, which Nourai cites, does not contain this word at all — p.813-814 is where av./ap. fra- and Skt. prá- are treated, so the citation supports only the pra- element.",
+     "derivation_fa": "واژهٔ واقعی سانسکریت prajñā- / prajānāti «پیشاپیش دانستن، دریافتن» است، مرکّب از پیشوند pra- (از همین ریشهٔ *per-/*pro) و ستاک jñā- «دانستن» (از *ǵneh₃- هندواروپایی، همان ریشهٔ Gnô که نورایی ارجاع می‌دهد). صورت «pra-jan» که در کتاب چاپ شده صورتی استنادی سانسکریت نیست بلکه کوتاه‌نوشتی نورایی از pra + √jñā است (هرن نیز همین را می‌نویسد). افزون بر آن صفحهٔ ۸۱۳ پوکورنی فقط پیشوند pra- را پوشش می‌دهد. پس ادعا با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B2%D8%A7%D9%86%D9%87"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:813",
+       "status": "partial",
+       "note": "Pokorny 813-814 (POK_03.txt leaf 47) has 'g. pro, prō ... Ai. prá- Präf. ‚vor, vorwärts, fort‘ (vor Subst. und Verben)' but no compound with jñā-; the jñā- element is under Pokorny's ǵenə- (IEW 376 ff.)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "Horn p.181 no. 815 (HRN.txt leaf 202)",
+       "stance": "supports",
+       "note": "'ferzāne ‚weise, gelehrt‘, ferzānegī. ai. pra + √jñā-, jānāti- ‚erkennen, verstehen‘; phlv. frazānak bezw. farzānak.' Horn uses the same pra + jñā analysis Nourai charts."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. gnō-",
+       "stance": "supports",
+       "note": "the AHD appendix root gnō- 'to know' supplies the second element; Watkins lists Sanskrit jānāti under it."
+      },
+      {
+       "src": "BQT",
+       "where": "Borhan-e Qate’ vol.3 p.≈1459, Mo’in's footnote 3 to فرزانه",
+       "stance": "supports",
+       "note": "'پهلوی frazānak ... هندی/سانسکریت pra (پیشوند بمعنی پیش) + jñā/jānāti (شناختن، فهمیدن)، قس: دانستن، اسشق ۸۱۵' (i.e. Horn no. 815)."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Pahlavi",
+     "words": "farzânak",
+     "verdict": "plausible",
+     "derivation": "Middle Persian frazānag (Book Pahlavi <plc’nk’>, Parthian frz’ng) 'wise, intelligent' is real and is indeed *fra-jñā-na-ka-, the Iranian match of the Sanskrit formation: Iranian *fra- for Indic pra-, Iranian *zan-/*zān- for Indic jñā-/jān- (Proto-Indo-Iranian *ǵ(h)nā- > Indic jñā-, Iranian zān-), plus the participial -āna- and the adjectival -ak/-ag. What the chart draws as descent (Sanskrit → Pahlavi) is in fact cognacy: Middle Persian did not borrow from Sanskrit but inherited the same Indo-Iranian compound. Wiktionary flags the Sanskrit link accordingly as 'perhaps related to Sanskrit प्रज्ञान'. Nourai's gloss 'smart' and the reading 'farzānak' (the later, an-anaptyctic pronunciation) are both defensible.",
+     "derivation_fa": "فارسی میانهٔ frazānag (پهلوی کتابی plc’nk’، پارتی frz’ng) «دانا، خردمند» بازماندهٔ *fra-jñā-na-ka- است: در ایرانی *fra- برابر pra- ی هندی و ستاک zān-/zan- برابر jñā- ی هندی است (هندوایرانی *ǵnā- در هندی j و در ایرانی z می‌دهد). نکتهٔ مهم آنکه پیکان نورایی (سانسکریت ← پهلوی) وام‌گیری نیست بلکه هم‌ریشگی است؛ فارسی میانه این واژه را از سانسکریت نگرفته بلکه هر دو از هندوایرانی آغازین به ارث برده‌اند. پس با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B2%D8%A7%D9%86%D9%87"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT",
+       "status": "supports",
+       "note": "Borhan-e Qate’ (Mo’in ed.) vol. 3, footnote 3 on the page carrying فرزانه (incoming/BQT/BQT_v3_pages.txt line 18205 area, pdf leaf 252 ≈ printed p.1459): 'پهلوی frazānak ... از: فرزانک (= فرزانه)'. Nourai's bare 'BQT' citation is therefore accurate."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 p.33 s.v. frazānag (PHD.txt line 354)",
+       "stance": "supports",
+       "note": "'frazānag [plc’nk’ | P frz’ng, N farzāna] wise, intelligent. ~īh: wisdom, intelligence.'"
+      },
+      {
+       "src": "NYB",
+       "where": "Nyberg, Manual II glossary (NYB_vol2_glossary.txt line 6560)",
+       "stance": "supports",
+       "note": "'farzanaa: frazānak' — the OCR preserves the headword equation MP frazānak = NP farzāna."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn p.181 no. 815",
+       "stance": "supports",
+       "note": "'phlv. frazānak bezw. farzānak' — Horn gives both readings, which is exactly Nourai's 'farzânak'."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Persian",
+     "words": "Farzâneh «فرزانه» (+ فرزین)",
+     "verdict": "plausible",
+     "derivation": "فرزانه farzāna 'wise, sage' is the straightforward New Persian continuation of MP frazānag: intervocalic -g is lost and the final vowel written -h/-e appears (MP -ag > NP -a), and the initial cluster fr- is broken by anaptyxis (fra- > far-). Wiktionary derives it from MP frazānag citing MacKenzie 1971 p.33; Horn no. 815 and Mo’in's footnote in Borhan (p.≈1459) give the same chain. The bracketed extra فرزین farzīn 'queen (chess piece)' is another matter: MacKenzie lists it as a separate headword, 'frazēn [plcyn’ | N farzīn] (chess) queen (lit. “guard”)', and Wiktionary follows him — so its link to farzāna/pra-jñā- is folk-etymological rather than established, even though Persian tradition has long associated the chess 'counsellor' with the 'wise man'.",
+     "derivation_fa": "«فرزانه» بی‌هیچ واسطه‌ای دنبالهٔ frazānag ی فارسی میانه است: پسوند -ag در فارسی نو به -a (هٔ بیان) بدل شده و خوشهٔ آغازین fr- با واکهٔ میانجی شکسته شده است (fra- > far-). مکنزی (ص ۳۳)، هرن (شمارهٔ ۸۱۵) و حاشیهٔ معین بر برهان قاطع همین زنجیره را می‌آورند. امّا افزودن «فرزین» به این خوشه پذیرفتنی نیست: مکنزی آن را سرواژه‌ای جداگانه می‌آورد: frazēn «نگهبان؛ (در شطرنج) وزیر»، و پیوند آن با «فرزانه» بیشتر ریشه‌شناسی عامیانه است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B2%D8%A7%D9%86%D9%87",
+      "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B2%DB%8C%D9%86"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1459",
+       "status": "supports",
+       "note": "Borhan-e Qate’ vol. 3, printed p.≈1459 (incoming/BQT/BQT_v3_pages.txt, pdf leaf 252, tag [pdf page 253] follows): footnote 3 'فرزان (ه.م.). پهلوی frazānak ... هندی pra (پیشوند بمعنی پیش) + jñā/jānāti (شناختن، فهمیدن) ... اسشق ۸۱۵'. With the volume-3 offset (printed = pdf + ≈1207) the page Nourai cites is exact."
+      },
+      {
+       "ref": "HRN:181",
+       "status": "supports",
+       "note": "Horn p.181 no. 815 (HRN.txt leaf 202): 'ferzāne ‚weise, gelehrt‘, ferzānegī. ai. pra + √jñā-, jānāti- ‚erkennen, verstehen‘; phlv. frazānak bezw. farzānak.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971 p.33 (PHD.txt lines 354, 358)",
+       "stance": "partial",
+       "note": "'frazānag ... N farzāna] wise, intelligent' supports فرزانه; but two lines later 'frazēn [plcyn’ | N farzīn] (chess) queen (lit. “guard”)' keeps فرزین apart from it."
+      },
+      {
+       "src": "MON",
+       "where": "Mo’in's footnote in BQT (above) and Farhang-e Fārsi s.v. فرزانه",
+       "stance": "supports",
+       "note": "Mo’in's Borhan note is the same text used in the Farhang; the entry فرزین is cross-referenced there only as 'ورک: فرز' — not to فرزانه."
+      },
+      {
+       "src": "HUB",
+       "where": "Hübschmann, Persische Studien",
+       "stance": "silent",
+       "note": "no separate article; Hübschmann's Part I follows Horn's numbering and adds nothing to no. 815."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Germanic",
+     "words": "fer, fruma, furista",
+     "verdict": "confirmed",
+     "derivation": "Three genuine Proto-Germanic stems of this root, exactly as Watkins sets them out: *fer(e)ra- (from the suffixed comparative *per-ero- 'farther away'), *fruma-/*furma- 'first, foremost' (from the superlative *pro-mo- / *pr-mo-), and *furista- 'foremost' (from *pro-isto-). Germanic f- for PIE *p- is Grimm's Law; the zero-grade *pr- gives *fur- (Old English for, forth, further), the e-grade *per- gives *fer- (Old English feor(r)). Nourai's citation is AHD without a page, and the AHD appendix entry per¹ contains all three.",
+     "derivation_fa": "هر سه ستاک ژرمنی آغازین‌اند: *fer(e)ra- «دورتر» (از صورت برتری *per-ero-)، *fruma-/*furma- «نخستین» (از *pro-mo-/*pr-mo-) و *furista- «نخستین، پیشاپیش» (از *pro-isto-). تبدیل p ی هندواروپایی به f در ژرمنی همان قانون گریم است. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. per¹ (AHD_watkins1985.txt line 836): 'I.2. Suffixed (comparative) form *per-ero-, farther away, in Germanic *fer(e)ra- in Old English feor(r), far: FAR'; 'III.1.a. Germanic *fruma-, *furma- in Old English forma, first, foremost: FOREMOST, FORMER²'; 'III.2. Suffixed (superlative) form *pro-isto- in Germanic *furista-, foremost, in Old English fyrst, fyrest, first: FIRST.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 813-815",
+       "stance": "supports",
+       "note": "p.813 'ahd. as. furi ‚vor, für, vorbei‘ ... Superl. furist, mhd. vürst ‚erster, vornehmster‘, as. furist, ags. fyr(e)st, engl. first'; p.815 'got. fruma ‚erster‘ (Sup. frumists)' and 'as. formo, ags. forma ‚erster‘'."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. far (KLN_1966.txt line 14378)",
+       "stance": "supports",
+       "note": "'far ... fr. OE. feorr ... Goth. fairra, adv., fr. I.-E. base *per-, ‚through, across, beyond‘ ... Cp. also para-, ‚beside‘, per, Perean, peri-, pro-.'"
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny II 29 ff.",
+       "stance": "supports",
+       "note": "Pokorny's article closes 'WP. II 29ff.' — the same Germanic material is gathered under per- there."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "English",
+     "words": "far, for, former, first",
+     "verdict": "confirmed",
+     "derivation": "All four come down from the Germanic stems of node 10 with no complication: OE feor(r) > ME fer > far; OE for (preposition, and the pejorative prefix for-) from zero-grade *fur; OE forma 'first' + the comparative -er (a double comparative) > former; OE fyrst/fyrest > first. Watkins's per¹ entry names each English outcome in capitals (FAR; FOR, FOR-; FOREMOST, FORMER²; FIRST), so Nourai's node is a direct transcription of the AHD appendix.",
+     "derivation_fa": "هر چهار واژهٔ انگلیسی بی‌هیچ پیچیدگی از همان ستاک‌های ژرمنی می‌آیند: feor(r) ی انگلیسی کهن > far؛ for از صورت صفرمرتبهٔ *fur؛ former از forma «نخستین» + پسوند برتری -er؛ و first از fyrst/fyrest. واتکینز در پیوست AHD همین چهار را ذیل per¹ می‌آورد. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. per¹: 'FAR' (I.2), 'II.1.a. Old English for, before, instead of, on account of: FOR; b. Old English for-, prefix ...: FOR-', 'FOREMOST, FORMER²' (III.1.a), 'FIRST' (III.2)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. far",
+       "stance": "supports",
+       "note": "'far ... fr. I.-E. base *per- ‚through, across, beyond‘ ... See fare, ‚to prosper‘, and cp. fore, adv.'"
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat, Concise Etym. Dict.",
+       "stance": "silent",
+       "note": "grep of SKT.txt for the headwords returns the entries but with no root-level statement beyond 'AS. feor'; nothing that bears on the arrow."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Latin",
+     "words": "per, pro; prô-tahere; primo-capus; para-meter",
+     "verdict": "transcription_suspect",
+     "derivation": "per and pro are impeccable (Pokorny 810-811 'lat. per (*per oder *peri)', 814 'lat. pro-, prō- in Kompositis, prō Präp.'), although Nourai's gloss 'first, forward, along' conflates the senses of per, pro and the superlative prīmus. The other three items are problems. (a) 'prô-tahere' is not a Latin word: the source of portrait is prō-trahere 'to draw forth' (> Old French portraire 'to draw, paint' > Middle English portraien, and the noun portrait 1560s). The -r- is simply missing; the printed page (pdf 394) shows the same 'prô-tahere', so this is Nourai's own misprint and the extraction is faithful. (b) 'primo-capus' is Nourai's rendering of the standard analysis of princeps < *prīmo-caps '(he) who takes first place', prīmus + the root of capere — the sense is right, the reconstructed shape is not a form any dictionary prints. (c) para-meter is placed under Latin, but it is a 1630s Modern Latin coinage from Greek para- 'beside' + metron 'measure', not an inherited Latin word.",
+     "derivation_fa": "per و pro ی لاتین کاملاً درست‌اند (پوکورنی ۸۱۰–۸۱۴). امّا صورت «prô-tahere» واژه‌ای لاتین نیست؛ درست آن prō-trahere «پیش کشیدن، نگاریدن» است که از راه portraire ی فرانسوی کهن به portrait رسیده است؛ حرف r افتاده و چون همین صورت در صفحهٔ چاپی کتاب هم هست، خطای چاپی کتاب است نه خطای خوانش اسکن. «primo-capus» نیز بازسازی شخصی نورایی از princeps < *prīmo-caps («آنکه جایگاه نخست را می‌گیرد») است؛ معنا درست و صورت نادرست است. سرانجام para-meter واژه‌ای لاتینی نو (سدهٔ ۱۷م) از یونانی para + metron است و جایاش شاخهٔ یونانی است.",
+     "error_in": "book",
+     "book_prints": "prô-tahere : to draw forward ; primo-capus : first in rank, prince",
+     "correct_form": "prō-trahere 'to draw forth'; princeps < *prīmo-caps",
+     "sources": [
+      "https://www.etymonline.com/word/portrait",
+      "https://www.etymonline.com/word/prince",
+      "https://www.etymonline.com/word/parameter"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins 1985 s.v. per¹ has 'I.4. Latin per, through, for, by: PER, PER-' and 'V.4. Latin prē, pro-, before, for, instead of: PRO¹, PRO-¹' and 'VI.4.a.ii Latin compound princeps, “he who takes first place” (-ceps, “-taker”; see kap-), leader, chief, emperor: PRINCE' — but the AHD nowhere prints 'prōtahere', 'primo-capus' or 'para-meter' as Latin forms."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 810-811, 814",
+       "stance": "supports",
+       "note": "p.811 'lat. per (*per oder *peri)'; p.814 'lat. pro-, prō- in Kompositis, prō Präp. ‚vor, für‘'; p.815-816 'lat. prīmus (aus *pr-is-mos)' and 'Latin compound princeps' material under *preis-mo-."
+      },
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. per, prō",
+       "stance": "supports",
+       "note": "LAT.txt carries the per/prō articles with the same IE analysis; the file also confirms that no lemma 'protahere' exists (grep returns nothing)."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. portrait, prince",
+       "stance": "supports",
+       "note": "Klein derives portrait from OF portraire < VL *protrahere and prince from L. princeps < *prīmo-caps — i.e. the corrected forms."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "French",
+     "words": "(no words given)",
+     "verdict": "confirmed",
+     "derivation": "An empty pass-through box: the Latin words of node 12 reached English (node 15) and modern Persian (node 14) through French. That is historically right for portrait (OF portret, noun use of the past participle of portraire, 13c.) and prince (OF prince 'prince, noble lord', 12c., into Middle English c.1200); per, perimeter and parameter came into English more from Latin/Modern Latin than from French, and the modern Persian words of node 14 are 19th-20th c. French loans.",
+     "derivation_fa": "این جعبه تهی است و تنها نقش واسطه دارد: واژه‌های لاتین از راه فرانسه به انگلیسی و به فارسی نو رسیده‌اند. این مسیر برای portrait (از portret ی فرانسوی کهن، سدهٔ ۱۳م) و prince (سدهٔ ۱۲م) کاملاً درست است؛ امّا per و perimeter و parameter بیشتر از لاتین (و لاتینی نو) به انگلیسی راه یافته‌اند.",
+     "sources": [
+      "https://www.etymonline.com/word/portrait",
+      "https://www.etymonline.com/word/prince"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins marks the English outcomes but not the French intermediary; the AHD appendix never states the route, so this box rests on Nourai's own arrangement."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. portrait, prince",
+       "stance": "supports",
+       "note": "Klein: 'portrait, n. — F., prop. pp. of portraire, “to portray”'; 'prince, n. — F., fr. L. princeps'."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. portrait, prince",
+       "stance": "supports",
+       "note": "Skeat tags both '(F.-L.)', i.e. French from Latin — the route this box draws."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "Persian",
+     "words": "(script only) پارامتر ، پُرتره ، پرنسس",
+     "verdict": "confirmed",
+     "derivation": "Three modern French loans in Persian, all borrowed in the late Qajar/Pahlavi period through French as the language of Iranian higher education: پارامتر < paramètre, پُرتره < portrait (the Persian spelling with final ه reflects the French pronunciation [pɔʁtʁɛ], not the English), پرنسس < princesse. The chart's route French → Persian is right; the words did not come through Arabic or English. Mo’in marks such items with the tag [فر.] 'French' in the Farhang-e Fārsi, which is what Nourai's bare 'MON' citation refers to.",
+     "derivation_fa": "هر سه وام‌واژهٔ فرانسوی اند که در دورهٔ قاجار و پهلوی، از رهگذر آموزش عالی فرانسه‌زبان، وارد فارسی شده‌اند: «پارامتر» از paramètre، «پُرتره» از portrait (هٔ پایانی نشانهٔ تلفّظ فرانسوی است نه انگلیسی) و «پرنسس» از princesse. معین این‌گونه واژه‌ها را با نشانهٔ [فر.] می‌آورد. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/portrait",
+      "https://www.etymonline.com/word/prince",
+      "https://www.etymonline.com/word/parameter"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "partial",
+       "note": "Mo’in's Farhang-e Fārsi vol. 4 collects the foreign words; the local OCR (MON_part1/2.txt) covers the lexicon volumes and does not carry پارامتر/پرنسس as headwords, so the citation could only be checked for the style of tagging ([فر.]) and not for these three items."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Farhang-e Fārsi (vajehyab text, MON_part2.txt)",
+       "stance": "silent",
+       "note": "grep for پارامتر / پرنسس / پرتره in the local Mo’in OCR returns nothing — these belong to the separate volume of foreign compounds."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. princess, portrait, parameter",
+       "stance": "supports",
+       "note": "Klein confirms the French forms princesse and portrait and the Modern Latin parameter that Persian borrowed."
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "lang": "English",
+     "words": "per, perimeter, parameter, portrait, prince",
+     "verdict": "plausible",
+     "derivation": "portrait (1560s, from French portrait, noun use of the past participle of portraire < VL *protraire < Lat. prōtrahere) and prince (c.1200, OF prince < Lat. princeps 'first person, chief') are exactly as charted; per is the Latin preposition taken over directly. But perimeter (early 15c.) is Latin perimetros from Greek περίμετρος = peri 'around' + metron 'measure', and parameter (Modern Latin, 1630s) is Greek para- + metron: both belong under the Greek node 16, not under the Latin → French chain, and neither reached English through French. The root is the same throughout, so the verdict is 'plausible' only because of the misrouting.",
+     "derivation_fa": "portrait (سدهٔ ۱۶م، از فرانسه، و آن از prōtrahere ی لاتین) و prince (حدود ۱۲۰۰ م.، از princeps ی لاتین) دقیقاً همان‌اند که نمودار می‌گوید. امّا perimeter از περίμετρος ی یونانی (peri + metron) و parameter از para + metron ی یونانی (از راه لاتینی نو، سدهٔ ۱۷م) است و هیچ‌کدام از راه فرانسه نیامده‌اند؛ جایای درستشان شاخهٔ یونانی است. پس ادعا در کلیّات درست و در مسیر نادقیق است.",
+     "sources": [
+      "https://www.etymonline.com/word/portrait",
+      "https://www.etymonline.com/word/prince",
+      "https://www.etymonline.com/word/parameter"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins per¹ has 'I.4 Latin per ...: PER, PER-' and 'VI.4.a.ii ... PRINCE', but lists PERIMETER/PARAMETER under the Greek sections (I.5 'Greek peri, around, near, beyond: PERI-') rather than under Latin."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. perimeter, parameter, portrait, prince",
+       "stance": "partial",
+       "note": "Klein sends perimeter to Gk. περίμετρος and parameter to Gk. παρά + μέτρον, confirming the misrouting; portrait and prince agree with the chart."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat",
+       "stance": "silent",
+       "note": "Skeat's entries add nothing beyond the Latin/French chain."
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "lang": "Greek",
+     "words": "proto-; para; para-bolâre; proto-inin; proto-kolla; para-sitos",
+     "verdict": "transcription_suspect",
+     "derivation": "para (παρά 'beside, along with', Pokorny 814 'gr. παρά, πάρα'), proto- (πρῶτος 'first' < *prōw-ato-, Pokorny 815), πρωτόκολλον 'the first sheet glued to a papyrus roll' (prōtos + kolla 'glue') and παράσιτος 'one who eats at another's table' (para + sitos 'grain, food') are all genuine and correctly glossed. Two entries are not Greek as printed: (a) 'para-bolâre' is Late/Vulgar Latin parabolāre 'to speak (in parables)', built on Latin parabola < Greek παραβολή (para + bállein 'to throw'); it is the ancestor of French parler and so of parliament, and Nourai's cross-reference to root Gwel 1 (*gʷelԥ- 'to throw') is right, but the form belongs to Latin. (b) 'proto-inin' is not a Greek word at all: protein was coined in 1838 by G. J. Mulder (on Berzelius's suggestion) as French protéine from Greek πρωτεῖος prōteios 'of the first quality' + the chemical suffix -ine. The printed page (pdf 394) shows 'proto-inin' exactly as the JSON has it, so the fault is the book's.",
+     "derivation_fa": "παρά، πρῶτος، πρωτόκολλον («نخستین برگ چسبانده‌شده») و παράσιτος («هم‌خوراک، مهمان ناخوانده») همگی واژه‌های راستین یونانی‌اند. امّا دو مورد نادرست چاپ شده‌اند: «para-bolâre» لاتینی پسین است (parabolāre «سخن گفتن»، از parabola و آن از παραβολή ی یونانی)، نه یونانی؛ و «proto-inin» هیچ صورت یونانی نیست، بلکه protein در ۱۸۳۸ توسط مولدر از فرانسهٔ protéine و آن از πρωτεῖος «از مرتبهٔ نخست» ساخته شده است. چون همین صورت‌ها در صفحهٔ چاپی کتاب هم هست، خطای چاپی کتاب است نه خطای خوانش اسکن.",
+     "error_in": "book",
+     "book_prints": "para-bolâre : to throw (talk) around ; proto-inin : of prime value",
+     "correct_form": "Late Latin parabolāre (< Gk. παραβολή); Gk. πρωτεῖος prōteios 'of the first quality'",
+     "sources": [
+      "https://www.etymonline.com/word/protein",
+      "https://www.etymonline.com/word/parliament"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins 1985 s.v. per¹: 'III.3.b suffixed (superlative) Greek form *prōw-ato- in Greek prōtos, first, foremost: PROTEIN, PROTIST, PROTO-, PROTON' and 'IV.2. Greek para, beside, alongside of, beyond: PARA-¹; PALFREY' — so the AHD supplies prōtos and para but prints neither 'proto-inin' nor 'para-bolâre'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 814-815 (POK_03.txt leaves 47-48)",
+       "stance": "supports",
+       "note": "p.814 'gr. παρά, πάρα Verbalpräf. ... Präp. ‚an etwas hin, entlang, neben‘'; p.815 'aber gr. πρῶτος ds. aus *pṛ-to- (umgebildet aus *pṛ-mo- ds.)'."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. protein, protocol, parasite, parabola",
+       "stance": "supports",
+       "note": "Klein derives protein from Gk. πρωτεῖος 'of the first quality', protocol from πρωτόκολλον 'first leaf glued to a manuscript', parasite from παράσιτος 'eating at the table of another'."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck, Dict. of Selected Synonyms",
+       "stance": "silent",
+       "note": "grep of SYN.txt for these items returns nothing relevant; Buck treats concepts, not these technical loans."
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "lang": "French",
+     "words": "(no words given)",
+     "verdict": "confirmed",
+     "derivation": "Another empty transit box. It is historically accurate for parliament (OF parlement 11c., from parler < Late Latin parabolāre), for protocol (French protocole, 16c., from Medieval Latin protocollum), for protein (French protéine, 1838) and for the Persian loans of node 18, all of which are French-mediated. parasite, parabola, paragraph and parallel came into English at least as much from Latin as from French, so the box is a simplification rather than an error.",
+     "derivation_fa": "این نیز جعبه‌ای تهی و واسطه است. مسیر فرانسه برای parliament (از parlement ی فرانسوی کهن، سدهٔ ۱۱م)، protocol، protein (protéine، ۱۸۳۸) و همهٔ وام‌واژه‌های فارسی گره ۱۸ درست است؛ ولی parasite و parabola و paragraph بیشتر از لاتین به انگلیسی راه یافته‌اند؛ پس این جعبه ساده‌سازی است نه خطا.",
+     "sources": [
+      "https://www.etymonline.com/word/parliament",
+      "https://www.etymonline.com/word/protein"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "The AHD appendix lists the English words but never names French as the intermediary, so the box reflects Nourai's own arrangement."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. parliament, protocol",
+       "stance": "supports",
+       "note": "Klein: 'parliament ... fr. OF. parlement, fr. parler, “to speak”'; 'protocol ... fr. F. protocole, fr. ML. protocollum'."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. parliament",
+       "stance": "supports",
+       "note": "Skeat marks parliament '(F.-L.-Gk.)', the same three-stage route."
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "lang": "Persian",
+     "words": "(script only) پارازیت ، پُرتُکل ، پارلمان ، پرتئین (JSON: پروتکل ، پروتئین)",
+     "verdict": "confirmed",
+     "derivation": "Four French loanwords of the Constitutional/Pahlavi era: پارازیت < parasite (in Persian mainly in the radio sense 'interference', a French technical use), پروتکل < protocole, پارلمان < parlement (used beside the native-Arabic مجلس), پروتئین < protéine. All four go back through French to the Greek forms of node 16, so the chain drawn is right. Note a discrepancy between page and data: the printed page prints پُرتُکل and پرتئین (without و), while the JSON gives the standard modern spellings پروتکل and پروتئین — the extraction has silently normalised Nourai's spelling.",
+     "derivation_fa": "هر چهار وام‌واژهٔ فرانسوی عصر مشروطه و پهلوی اند: «پارازیت» از parasite (در فارسی بیشتر به معنی پارازیت رادیویی)، «پروتکل» از protocole، «پارلمان» از parlement و «پروتئین» از protéine. مسیر یونانی ← لاتین/فرانسه ← فارسی درست است. یک نکته: در صفحهٔ چاپی «پُرتُکل» و «پرتئین» (بی‌واو) آمده، در حالی که دادهٔ استخراج‌شده صورت معیار امروزی را آورده است — یعنی خطای خوانش اسکن (نه خطای کتاب).",
+     "sources": [
+      "https://www.etymonline.com/word/protein",
+      "https://www.etymonline.com/word/parliament"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "partial",
+       "note": "Mo’in tags such items [فر.] in the Farhang; the four words are in vol. 4 (foreign compounds), which is not in the local OCR, so the specific entries could not be read."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part2.txt (lexicon volumes)",
+       "stance": "silent",
+       "note": "grep for پارازیت / پروتکل / پارلمان / پروتئین returns nothing — these are in the separate foreign-words volume."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. protein, protocol, parliament, parasite",
+       "stance": "supports",
+       "note": "Klein gives the French forms protéine, protocole, parlement, parasite that Persian borrowed."
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "lang": "English",
+     "words": "parasite, parallel, protein, parabola, parliament, protocol, paragraph",
+     "verdict": "confirmed",
+     "derivation": "All seven are Greek-based and all contain para-/pro-/prōtos of this root: parasite (παράσιτος), parallel (παράλληλος 'beside one another'), parabola (παραβολή), paragraph (παράγραφος 'a mark written alongside'), protocol (πρωτόκολλον), protein (πρωτεῖος + -ine, Mulder 1838) and parliament (OF parlement < parler < Late Latin parabolāre < parabola < παραβολή) — a doublet chain in which parabola and parliament go back to the same Greek word by learned and popular routes respectively. Watkins lists PARA-¹ and PROTEIN, PROTO- under per¹.",
+     "derivation_fa": "هر هفت واژه یونانی‌تبارند و پیشوند para-/pro-/prōtos را در خود دارند. نکتهٔ جالب آنکه parabola و parliament دوگانهٔ (doublet) یک واژه‌اند: اوّلی راه عالمانه و دومی راه مردمی را از παραβολή به لاتینی پسین parabolāre و از آنجا به parler و parlement پیموده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/parliament",
+      "https://www.etymonline.com/word/protein"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 s.v. per¹: 'IV.2. Greek para, beside, alongside of, beyond: PARA-¹; PALFREY' and 'III.3.b ... Greek prōtos, first, foremost: PROTEIN, PROTIST, PROTO-, PROTON.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. parallel, paragraph, parabola, parliament",
+       "stance": "supports",
+       "note": "Klein derives all of them from παρά compounds and notes parliament's chain OF parlement < parler < VL. *paraulāre/parabolāre."
+      },
+      {
+       "src": "SKT",
+       "where": "Skeat s.v. parable, parliament, parasite",
+       "stance": "supports",
+       "note": "Skeat tags parable '(F.-L.-Gk.)' and parliament '(F.-L.-Gk.)', i.e. the doublet relationship the chart implies."
+      }
+     ]
+    },
+    {
+     "id": 20,
+     "lang": "Indo-European",
+     "words": "Per-per-os",
+     "verdict": "plausible",
+     "derivation": "The form is taken verbatim from Mann's Indo-European Comparative Dictionary p.927, where it is a headword: 'perperos ‚flighty, giddy‘. Cf. peros (2) Gk. pærperos, adj. ‚fickle, rash, vain‘; Lat. perperus, id., cf. also perperam, adv. ‚rashly, vainly‘; Per. farfar, s. “hurry”' — so gloss, language label and even the Persian attachment are Mann's, not Nourai's invention. Pokorny, however, sets up no such Indo-European lexeme: at IEW 811 he merely lists 'lat. per-peram ‚verkehrt‘, per-perus ‚falsch‘, woraus gr. πέρπερος ‚Geck‘' under the adjective *peros, i.e. he treats the Greek word as a loan from Latin. Ernout-Meillet go further: for them the second element of perperus is 'peu clair' and the late attestation of πέρπερος (Polybius, Sextus, Arrian) makes it probably a borrowing. A reduplicated PIE *per-per-os is therefore a reconstruction only Mann defends.",
+     "derivation_fa": "این سرواژه عیناً از فرهنگ تطبیقی من (Mann) صفحهٔ ۹۲۷ گرفته شده است، که همانجا فارسی «فرفر» را هم ذیل آن می‌آورد. امّا پوکورنی چنین واژهٔ هندواروپایی‌ای بازنمی‌سازد و در صفحهٔ ۸۱۱ تنها می‌نویسد که πέρπερος ی یونانی از perperus ی لاتین گرفته شده است؛ ارنو-میه‌یه نیز جزء دوم perperus را «ناروشن» می‌خواند. پس بازسازی *per-per-os را تنها من می‌پذیرد و ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "IEC:927",
+       "status": "supports",
+       "note": "Mann, IECD p.927 (IEC.txt line 12771, form-feed leaf 511, on which the printed number '927' appears): 'perperos ‚flighty, giddy‘. Cf. peros (2) Gk. pærperos, adj. ‚fickle, rash, vain‘; Lat. perperus, id. cf. also perperam, adv. ‚rashly, vainly‘; Per. farfar, s. “hurry”'. The page number is exact."
+      },
+      {
+       "ref": "POK:811",
+       "status": "partial",
+       "note": "Pokorny 811 (POK_03.txt leaf 45) has 'lat. per-peram ‚verkehrt‘, per-perus ‚falsch‘, woraus gr. πέρπερος ‚Geck‘' but no IE headword *per-per-os."
+      },
+      {
+       "ref": "POK:810",
+       "status": "supports",
+       "note": "p.810 is where the article '2. per' opens — the Latin/Greek perper- words are treated inside it."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. perperus (LAT.txt line 46831, leaf 902)",
+       "stance": "contradicts",
+       "note": "'perperus, -a, -um: de travers; et perperam adv. ... De per- et d’un second élément peu clair, cf. properus ... Le grec a également πέρπερος mais seulement à basse époque (Polybe, Sextus, Arrien) ... Emprunt?' — i.e. no inherited IE *perperos."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. far",
+       "stance": "partial",
+       "note": "'and prob. L. perperam, ‚wrongly, falsely‘ (for *per-peram, ‚beyond‘)' — Klein accepts the root but analyses per-peram as per- + a second element, not as a reduplication."
+      },
+      {
+       "src": "WLD",
+       "where": "Walde-Pokorny II 29 ff.",
+       "stance": "silent",
+       "note": "Pokorny's 'WP. II 29ff.' reference covers the per- article; no separate *perperos lemma is set up there either."
+      }
+     ]
+    },
+    {
+     "id": 21,
+     "lang": "Persian",
+     "words": "farfar «فَرفَر»",
+     "verdict": "disputed",
+     "derivation": "The word is real — Mo’in's Farhang-e Fārsi has 'فرفر: (ق.) به تندی، به شتاب' (adverb 'quickly, in haste'), which is exactly Nourai's 'in hurry', and the Anvari verse quoted on the chart is genuine — but the derivation is not. Mo’in supplies no etymology and no bracketed origin tag; the immediately following entries فرفره 'a leather disc whirled on a string by children, so that a فرفر sound comes from it; بادفر' and فرفره 'paper whirligig' show the family to be echoic — the whirring noise itself is called فرفر. A reduplicated onomatopoeia of this shape is productive in Persian (جلز و ولز, تلو تلو, زرزر) and needs no PIE ancestor; there is also no Middle Persian antecedent. The only authority for the arrow is Mann (IECD 927), whose Persian comparanda are notoriously freehand. Modern scholarship would call فرفر onomatopoeic, not an inherited reflex of *per-per-os.",
+     "derivation_fa": "واژه واقعی است و معین آن را چنین آورده: «فرفر: (ق.) به تندی، به شتاب» — یعنی همان معنایی که نورایی می‌دهد. امّا معین هیچ ریشه‌ای برای آن نمی‌آورد و هیچ نشانهٔ خاستگاه نمی‌گذارد؛ مدخل‌های پس از آن («فرفره» چرمی مدوّر که کودکان می‌چرخانند تا «صدای فرفر» برآید) نشان می‌دهد که این خانواده نام‌آوایی (محاکات صدا) است و مانند «تلوتلو» و «زرزر» ساختهٔ خود فارسی است؛ صورت فارسی میانه‌ای هم برای آن گواهی نشده است. تنها منبع این پیکان، من (Mann) است. پژوهش امروزی آن را رد می‌کند و فرفر را نام‌آوا می‌داند.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "IEC:927",
+       "status": "supports",
+       "note": "Mann p.927 s.v. perperos ends 'Per. farfar, s. “hurry”' — Nourai's arrow is Mann's, verbatim."
+      },
+      {
+       "ref": "MON:2521",
+       "status": "partial",
+       "note": "Mo’in, Farhang-e Fārsi (MON_part2.txt line 6403): 'فرفر: (ق.) به تندی، به شتاب.' The word and gloss are confirmed; but Mo’in gives no etymology at all, so the reference supports the meaning, not the descent from an IE root."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part2.txt lines 6403-6412",
+       "stance": "contradicts",
+       "note": "The neighbouring entries make the family echoic: 'فرفر: [= فرفره] (اسم.) چرمی مدور که کودکان ریسمانی در آن گذارند و در کشاکش آورند تا از آن صدای فرفر ظاهر شود؛ بادفر' and 'فرفره: (اس.) کاغذ پاره‌ای که بر سر چوبی تعبیه کنند ... تا باد آن را به گردش در آورد'."
+      },
+      {
+       "src": "PHD",
+       "where": "MacKenzie 1971",
+       "stance": "silent",
+       "note": "no Middle Persian *farfar / *frafr; grep of PHD.txt and PHD_mackenzie.txt returns nothing."
+      },
+      {
+       "src": "HRN",
+       "where": "Horn, Grundriss",
+       "stance": "silent",
+       "note": "no entry; grep of HRN.txt for 'ferfer'/'farfar' finds nothing — Horn did not regard it as an inherited word."
+      }
+     ]
+    },
+    {
+     "id": 22,
+     "lang": "Latin",
+     "words": "perperus",
+     "verdict": "confirmed",
+     "derivation": "Latin perperus is genuine but very rare (one attestation, Accius ap. Nonius 150,11); the common word of the family is the adverb perperam 'wrongly, amiss', which is old and colloquial. Pokorny prints both on the page Nourai cites (811) and glosses perperus 'falsch' (false, wrong), perperam 'verkehrt'; Nourai's gloss 'rashly' is Mann's rendering of perperam ('rashly, vainly'), so both glosses are defensible but they are not the same sense. The first element is per- 'through, beyond' with pejorative force (cf. perdō, pereō); Ernout-Meillet leave the second element unexplained.",
+     "derivation_fa": "واژهٔ لاتین perperus واقعی ولی بسیار کمیاب است (تنها یک شاهد از آکیوس)؛ صورت رایج‌تر قید perperam «نادرست، واژگونه» است. پوکورنی در همان صفحهٔ ۸۱۱ که نورایی یاد کرده هر دو را می‌آورد، امّا معنای «نادرست» می‌دهد نه «شتابزده»؛ معنای نورایی از من گرفته شده است. جزء نخست per- با بار معنایی منفی است (مانند perdō، pereō)، و جزء دوم ناروشن است. ادعای نورایی درست است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "POK:811",
+       "status": "supports",
+       "note": "Pokorny IEW 811 (POK_03.txt leaf 45): 'lat. per-peram ‚verkehrt‘, per-perus ‚falsch‘, woraus gr. πέρπερος ‚Geck‘'. Page number exact; gloss 'falsch', not 'rashly'."
+      },
+      {
+       "ref": "IEC:927",
+       "status": "supports",
+       "note": "Mann p.927: 'Lat. perperus, id. cf. also perperam, adv. ‚rashly, vainly‘' — the source of Nourai's gloss."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet s.v. perperus (LAT.txt line 46831)",
+       "stance": "partial",
+       "note": "'perperus, -a, -um: de travers ... L’adjectif est très rare (un ex. d’Accius ap. Non.150,11); l’adverbe ... est ancien et appartient plutôt à la l. familière. De per- et d’un second élément peu clair.' Confirms the word and the per- element, doubts the analysis."
+      },
+      {
+       "src": "LEW",
+       "where": "Walde, Lateinisches etym. Wörterbuch",
+       "stance": "silent",
+       "note": "grep of LEW_1910.txt for 'perperus'/'perperam' returns no hit in the OCR."
+      },
+      {
+       "src": "KLN",
+       "where": "Klein 1966 s.v. far",
+       "stance": "partial",
+       "note": "'prob. L. perperam, ‚wrongly, falsely‘ (for *per-peram, ‚beyond‘)' — Klein attaches it to *per-, hedged with 'prob.'"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

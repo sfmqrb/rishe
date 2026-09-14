@@ -1,0 +1,915 @@
+{
+  "pdf_page": 391,
+  "book_page": 361,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Pele, Pelt, Paita",
+      "verdict": "plausible",
+      "modern_form": "PIE *pelə-2 / *plā- 'wide and flat; to spread' (Pokorny 805-807; Watkins pelə-2), with the extension *plat- 'wide, flat' (Pokorny 833-834)",
+      "note": "The root box is three claims in one, and they do not fare equally. (a) 'Pele' = Pokorny's pelə-, plā- 'wide and flat', pp.805-807 — correct in form, language label and gloss, and every Greek, Latin and Germanic branch drawn from it (planasthai, plassein, planus, palma, *felþuz, *flōruz) is in that very entry. (b) 'Pelt' is Mann's headword: IEC p.918 has pelt- (1) 'wrap, cloak, cover, screen' (Skt paṭah, Per. parde, ON feldr) and pelt- (2) 'space, patch, flat surface' (Gk peltē, Gmc feld), with Mann's own parenthesis '(Same as (1)?)'. Nourai has turned that question mark into an identity and hung the whole 'curtain' branch on the 'flat' root. Current handbooks keep them apart: Wiktionary derives MP pardag / Skt paṭa- from *pel- 'to cover, wrap; hide, cloth' (Pokorny's pel- 3b, p.803 = Watkins pel-4 'skin, hide'), and Etymonline analyses parda as OP *pari-dā- 'to place around'. (c) 'Paita' has no counterpart in Pokorny, Walde-Pokorny, Watkins or Mann that I could find; its only support is CEL2:3 (Gupta's Comparative Etymologic Lexicon), which is not digitised anywhere. So: the root is real and the Indo-European half of the chart is sound; the Iranian/Indic 'curtain, cloth' half is filed under the wrong homonym. The gloss 'to spread, make flat' is Watkins's wording for the root and is fine. Note also two internal misplacements (airplane under Greek; plan under Latin plānus) and one structural discrepancy between the printed page and the JSON, described under nodes #2 and #4.",
+      "note_fa": "جعبهٔ ریشه سه ادعای جداگانه دارد. نخست، Pele همان pelə-/plā- پوکورنی (ص ۸۰۵–۸۰۷) «پهن و صاف» است و همهٔ شاخه‌های یونانی، لاتین و ژرمنی نمودار (planasthai، plassein، planus، palma، feld، flōr) دقیقاً در همان مدخل پوکورنی آمده‌اند. دوم، Pelt سرمدخل من (IEC ص ۹۱۸) است، اما من خود دو مدخل pelt- «پوشاندن، پرده» و pelt- «سطح صاف» را جدا آورده و یکی بودنشان را فقط با پرسش مطرح کرده است؛ نورایی آن پرسش را به اثبات بدل کرده و شاخهٔ «پرده» را زیر ریشهٔ «پهنی» آورده است؛ پژوهش امروزی این دو را جدا می‌دارد (ریشهٔ *pel- «پوشاندن»، پوکورنی ص ۸۰۳؛ یا تحلیل *pari-dā-). سوم، Paita در هیچ یک از پوکورنی، والده-پوکورنی، واتکینز یا من یافت نشد و تنها مستندش CEL2:3 است که نسخهٔ دیجیتالی ندارد. نتیجه: ریشه واقعی است و نیمهٔ هندواروپایی نمودار درست است، اما نیمهٔ ایرانی–هندی (پرده، paṭa-) ذیل هم‌آوای نادرست قرار گرفته است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-",
+        "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AF%D9%87",
+        "https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%9F",
+        "https://www.etymonline.com/word/purdah"
+      ],
+      "ref_check": [
+        {
+          "ref": "POK:805",
+          "status": "supports",
+          "note": "POK_full.txt: 'Root / lemma: pelə- plā- / Meaning: wide and flat / Material: Armenian hol „earth, dust ...“; Latin palam ...; Hittite palhi- „broad“; gr. πλάσσω ...; Latin plānus ...; Latin palma ...; Old English flōr ...; OHG/OS feld ... / References: WP. II 61 ff. / Page(s): 805-807'. Page and gloss are exactly as cited."
+        },
+        {
+          "ref": "IEC:918",
+          "status": "partial",
+          "note": "Mann p.918 (leaf 510) does have the material Nourai draws on, but under two separate headwords — pelt- (1) 'wrap, cloak, cover, screen' (Skt paṭah, Per. parde, ON feldr) and pelt- (2) 'space, patch, flat surface' (Gk peltē, MHG vëlt, OE feld) — with the identification left as a question: '(Same as (1)?)'. Mann's p.918 is NOT a page about 'to spread, make flat', and it has no Iranian *partaka- and no Greek plan-/plass- forms."
+        },
+        {
+          "ref": "CEL2:3",
+          "status": "not_checked",
+          "note": "S. K. Gupta, A Comparative Etymologic Lexicon of Common Indo-European Words, vol. 2 p.3 — refs_online.json: catalogue records only, no digitisation found (HathiTrust search-only). This is the sole reference behind the 'Paita' element of the root name."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "AHD",
+          "where": "Watkins appendix s.vv. pelə-2, plat-, pel-4",
+          "stance": "partial",
+          "note": "'pelə-2. Flat; to spread. Variant *plā-, contracted from *pləə-. ... [Pok. pelə- 805.]' and 'plat-. To spread. Extension of pelə-2. ... [Pok. plat- 833.]' — both of Nourai's root boxes and their mutual relation are Watkins's. But Watkins keeps 'pel-4. Skin, hide ... Greek peltē, a shield (made of hide) ... [Pok. 3 b. pel- 803]' strictly apart, and no cloth/curtain word appears under pelə-2."
+        },
+        {
+          "src": "POK",
+          "where": "pel- 3b p.803; pelə- p.805; plat- p.833",
+          "stance": "partial",
+          "note": "Pokorny runs three distinct entries: the 'Haut, Fell / cover' pel- (p.803, source of Lat. pellis, Gk peltē), the 'wide and flat' pelə-/plā- (p.805) and its extension plat- (p.833). Nourai's chart merges the first into the second."
+        },
+        {
+          "src": "WLD",
+          "where": "Walde-Pokorny II 61 ff. (via Pokorny's own reference line)",
+          "stance": "supports",
+          "note": "Pokorny's entry closes 'References: WP. II 61 ff., WH. II 237, 240 f.' — Walde-Pokorny Bd. II p.61 ff. is the older treatment of the same 'wide and flat' root; only Bd. III (the index) is on disk locally, so the page itself could not be read."
+        },
+        {
+          "src": "LAT",
+          "where": "p.853 s.v. parada",
+          "stance": "contradicts",
+          "note": "Ernout-Meillet, on the page Nourai cites for the Persian word, say the primary sense of Iranian *partaka- 'devant être „division“' — i.e. not a 'flat surface' word at all."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Iranian",
+          "words": "partaka",
+          "verdict": "disputed",
+          "derivation": "The Old/Middle Iranian *partaka- 'curtain' is real and well attested indirectly: Ernout-Meillet, the very page Nourai cites for the Persian box (LAT p.853 s.v. parada), writes \"l'iranien *partaka- 'rideau', pers. parda, emprunté par l'arménien (partak) et le syriaque\" — i.e. Iran. *partaka- gave NP parda and was borrowed into Armenian partak and Syriac pardəqā. What is disputed is the parent drawn here. Nourai hangs *partaka- on PIE *pelə-/*plā- 'wide and flat' (Pokorny 805). Modern handbooks do not: Wiktionary derives MP pardag < PIE *pel- 'to cover, wrap; hide, cloth' (Pokorny's pel- 3b, p.803 = AHD pel-4 'skin, hide'), a homonymous but distinct root; Etymonline instead analyses the word as Old Persian *pari-dā- 'to place around' (*per- + *dheh1-); and Ernout-Meillet say outright that the primary sense of the Iranian word \"devant être 'division'\", not 'flat surface'. Nourai's authority is Mann (IEC 918), who files Skt paṭaḥ and Per. parde under *pelt- (1) 'wrap, cloak, cover, screen' and then asks, of his *pelt- (2) 'flat surface', \"(Same as (1)?)\" — a query Nourai has silently turned into an identity. The form itself: *part-aka-, a -ka- derivative, gives MP pardag by the regular Middle Iranian voicing of intervocalic/post-r *-t- > -d- and of *-ka > -ag.",
+          "derivation_fa": "صورت ایرانی باستان/میانهٔ *partaka- «پرده» خود واقعی است؛ ارنوـمیـه در همان صفحهٔ ۸۵۳ که نورایی ارجاع داده، می‌نویسد «ایرانی *partaka- به معنی پرده، فارسی parda، وام‌گرفته در ارمنی partak و سریانی». اما انتساب آن به ریشهٔ هندواروپایی آغازین *pelə-/*plā- «پهن و صاف» (پوکورنی ۸۰۵) پذیرفته نیست: ویکی‌واژه آن را از ریشهٔ هم‌آوای دیگری *pel- «پوشاندن، پیچیدن؛ پوست، پارچه» (پوکورنی ۸۰۳) می‌گیرد و اتیمون‌لاین آن را مرکب پارسی باستان *pari-dā- «پیرامون نهادن» می‌داند؛ ارنو-میه نیز معنای نخستین آن را «جداسازی/بخش‌کردن» می‌داند نه «پهنی». مأخذ خود نورایی (من، ص ۹۱۸) پرده را ذیل *pelt- «پوشش، پرده» آورده و یکی بودن آن را با *pelt- «سطح صاف» فقط با علامت پرسش مطرح کرده است. از نظر آوایی، *part-aka- با نرم‌شدن t پس از r و تبدیل *-ka > -ag به فارسی میانهٔ pardag می‌رسد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AF%D9%87",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-",
+            "https://www.etymonline.com/word/purdah"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:918",
+              "status": "partial",
+              "note": "Mann, IEC p.918 (leaf 510 of IEC.txt): 'pelt- (1) „wrap, cloak, cover, screen“. (Indo-Iran. ambig. Cf. prtos) Skt. paṭaḥ, m. „cloth, garment, screen, canvas“ ...; Per. parde „veil, curtain“; ON feldr ... See next' — followed by 'pelt- (2) (Same as (1)?) „space, patch, flat surface“'. Mann has the word, but under a 'cover/screen' root and with the identification with the 'flat' root marked as a question. He gives no Iranian *partaka- form."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LAT",
+              "where": "p.853 s.v. parada (LAT.txt leaf 871)",
+              "stance": "supports",
+              "note": "'Semble sans rapport avec l'iranien *partaka- „rideau“, pers. parda, emprunté par l'arménien (partak) et le syriaque, dans lequel le sens de „rideau“ doit être le résultat d'une spécialisation secondaire, le sens premier devant être „division“.' — confirms the Iranian form *partaka- and the Armenian/Syriac loans, but assigns it a 'division' not a 'flat/spread' semantics."
+            },
+            {
+              "src": "POK",
+              "where": "pp.805-807 pelə-, plā- (POK_full.txt 'Page(s): 805-807')",
+              "stance": "silent",
+              "note": "Pokorny's pelə-/plā- 'wide and flat' lists Armenian hol, Lat. palam, Gk. plāssō, Germanic feld/flōr, Slavic polje — no Iranian 'curtain' word at all; *partaka- is absent from the entry Nourai cites for the root."
+            },
+            {
+              "src": "HRN",
+              "where": "Grundriss, no entry",
+              "stance": "silent",
+              "note": "grep 'parda|perde' in HRN.txt returns only bergj. perdele 'Häutchen' (no. 929 Anm.); Horn has no headword for parda."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "pardeh «پرده»",
+          "verdict": "confirmed",
+          "derivation": "NP پرده pardeh 'curtain, veil, screen' continues MP pardag [pltk'] without complication: MP final -ag > NP -a/-e (pardag > parda > mod. Tehrani parde), exactly as خانه < xānag. The word is Ferdowsi-old (the chart's own شاهنامه line طلایه ز هر سو برون تاختند / به هر پرده‌ای پاسبان ساختند) and productive: the extras پرده‌دار 'chamberlain', سراپرده 'royal pavilion', پردگی 'one behind the curtain, harem woman' are regular Persian compounds/derivatives. The chart's NOTE ('LKT:131 claims this has reached Europe through Arabic') is a fair, if compressed, summary of Lokotsch: his no. 1630 routes Pers. pärdä into Europe through Turkish perde (Bulg. perde, Serb. perde, Rum. perdea) and then adds 'Hieraus wurde auch ar. barda'a', and his no. 228 takes Ar. bardaʿa 'saddle-cloth' (after I. I. Hess, from Pers. pärdä with infixed ʿayn) into It. barda, Fr. barde, Sp./Pg. albarda. So the Arabic route is real but delivers barde/albarda, not purdah; the Balkan perde came via Turkish; and Lokotsch himself allows that the Arabic word may instead be Turkic (Azeri burunduk). Caution: the printed chart connects this box by a plain line to the Pahlavi box, i.e. NP pardeh < MP pardag; the JSON records parent #1 (Iranian).",
+          "derivation_fa": "«پرده» در فارسی نو دنبالهٔ بی‌واسطهٔ فارسی میانهٔ pardag [pltk'] است؛ پسوند پایانی -ag فارسی میانه در فارسی نو به -ه بدل می‌شود (مانند xānag > خانه). واژه از روزگار فردوسی گواهی دارد و مشتقات آن (پرده‌دار، سراپرده، پردگی) ساخت‌های قاعده‌مند فارسی‌اند. دربارهٔ یادداشت کتاب («لوکوچ می‌گوید از راه عربی به اروپا رسیده»): لوکوچ در شمارهٔ ۱۶۳۰ راه اصلی را از طریق ترکی perde به زبان‌های بالکان می‌داند و تنها می‌افزاید که عربی bardaʿa «زیرانداز زین» نیز از همین واژه است (شمارهٔ ۲۲۸) که ایتالیایی barda و اسپانیایی albarda از آن برآمده‌اند. پس راه عربی وجود دارد اما به صورت barde/albarda و نه purdah. ادعای نورایی دربارهٔ خود واژه درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AF%D9%87",
+            "https://www.etymonline.com/word/purdah"
+          ],
+          "ref_check": [
+            {
+              "ref": "LAT:853",
+              "status": "supports",
+              "note": "Ernout-Meillet p.853, s.v. parada 'rideau, tente d'un vaisseau': '... Semble sans rapport avec l'iranien *partaka- „rideau“, pers. parda, emprunté par l'arménien (partak) et le syriaque ...' — the page does carry Pers. parda and its Iranian etymon, exactly as Nourai's citation implies (the Latin word parada itself is ruled out as a relative)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "LKT",
+              "where": "no. 1630 (printed p.132, LKT.txt leaf 159) and no. 228 (leaf 46)",
+              "stance": "partial",
+              "note": "1630: 'Pers. pärdä: „Vorhang“, tk. ebenso perde; hieraus bulg. perde ..., serb. perde ..., rum. perdea ... Hieraus wurde auch ar. barda'a, s. hier Nr. 228.' 228: 'Ar. barda'a: [Nach I. I. Hess aus pers. pärdä „Teppich“ mit infigiertem 'Ain] ... hieraus ... it. barda ..., frz. barde ..., sp. pg. albarda.' Lokotsch's European route is via Turkish; the Arabic route yields barda/albarda only, and he concedes the Arabic word may be Turkic instead. Printed p.131 (leaf 158) ends with no. 1628, so Nourai's 'LKT:131' is one page early."
+            },
+            {
+              "src": "RCH",
+              "where": "Richardson-Johnson s.v. pardah",
+              "stance": "supports",
+              "note": "'pardah, A veil, curtain, tapestry, cawl, film, membrane. A partition between two rooms. ... A musical tone or sound ... Modesty.' — the full classical range of the Persian word, incl. the 'partition/division' sense Ernout-Meillet call primary."
+            },
+            {
+              "src": "HUB",
+              "where": "Persische Studien, no entry",
+              "stance": "silent",
+              "note": "grep 'parda|perde' in HUB.txt gives only no. 297 pardaxtan and Pahlav/Pardava-; Hübschmann does not treat parda."
+            },
+            {
+              "src": "PLA",
+              "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+              "stance": "silent",
+              "note": "grep 'barda|پرده' in PLA_asbaghi_1988_ia_djvu.txt returns only bardaq/بردق (< pers. garde) and zabardag — Asbaghi has no entry deriving an Arabic word from پرده, so Lokotsch's bardaʿa is not corroborated there."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "pardag",
+          "verdict": "confirmed",
+          "derivation": "MacKenzie's Concise Pahlavi Dictionary p.64 has exactly 'pardag [pltk' | N parda] veil, curtain' — Book Pahlavi spelling pltk', reading pardag, with the New Persian continuation explicitly given. The form is the expected Middle Iranian reflex of *part-aka-: post-consonantal *-t- voiced to -d- after r, and the productive adjective/noun suffix *-aka > -ag. Its antiquity outside Persian is guaranteed by the Middle Iranian loans into Armenian (partak) and Syriac (pardəqā) recorded by Ernout-Meillet and Wiktionary, which preserve the -t-.",
+          "derivation_fa": "مکنزی در فرهنگ کوچک پهلوی، ص ۶۴، عیناً می‌آورد: pardag [pltk' | N parda] «پرده، حجاب». این صورت بازتاب قاعده‌مند ایرانی باستان *part-aka- است: ت پس از ر نرم شده و پسوند *-aka به -ag بدل شده است. وام‌واژه‌های ارمنی partak و سریانی pardəqā که ت را نگاه داشته‌اند، کهنگی صورت ایرانی میانه را تأیید می‌کنند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AF%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "PHD:64",
+              "status": "supports",
+              "note": "MacKenzie 1971 p.64: 'pardag [pltk' | N parda] veil, curtain' (PHD.txt line 540; PHD_mackenzie.txt line 4022 'pardag [pltk I N parda] veil, curtain'). The page also has the neighbouring pardaštan/pardāxtan entries, so p.64 is right."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "NYB",
+              "where": "Nyberg, Manual of Pahlavi II (glossary)",
+              "stance": "silent",
+              "note": "grep 'pardag|pltk' in NYB_vol2_glossary.txt yields only nipartak [npltk'] 'brave, excellent'; Nyberg's glossary (limited to his selected texts) has no pardag entry, so it neither confirms nor contradicts."
+            },
+            {
+              "src": "LAT",
+              "where": "p.853 s.v. parada",
+              "stance": "supports",
+              "note": "'pers. parda, emprunté par l'arménien (partak) et le syriaque' — independent evidence for a Middle Iranian *partak/pardag already in the Sasanian period."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Hindustani",
+          "words": "pardah",
+          "verdict": "plausible",
+          "derivation": "Hindustani/Urdu पर्दा ٹردہ pardā 'curtain, veil; the seclusion of women' is certainly the Persian word, but it is a New Persian loan of the Delhi-Sultanate/Mughal period, not an inheritance from Pahlavi as the chart's arrow (parent #3) shows. Hobson-Jobson p.744 states it flatly: 'PURDAH, s. Hind. from Pers. parda, „a curtain“; ... whence a woman of position who observes such rules of seclusion is termed parda-nishīn'; Whitworth p.242 likewise tags 'Pardah. [Persian.]'. Persian -a was taken over as Hindi -ā, and the institution (parda-nishīn, gosha-nishīn) is a Persianate court usage carried into India. So: right word, right donor language, wrong stage — read #3 → #2 → #4.",
+          "derivation_fa": "«پرده» در اردو/هندوستانی (pardā) وام‌واژه‌ای از فارسی نو است که در دوران سلاطین دهلی و گورکانیان وارد شده، نه مستقیماً از فارسی میانه چنان‌که نمودار کتاب نشان می‌دهد. هابسن-جابسن (ص ۷۴۴) می‌نویسد: «PURDAH, هندی از فارسی parda» و ویتوورث (ص ۲۴۲) نیز آن را «[فارسی]» برچسب می‌زند. هٔ پایانی فارسی در هندی به آی بلند بدل شده است. پس ادعای نورایی دربارهٔ زبان وام‌دهنده درست است ولی مرحلهٔ زبانی را یک پله بالاتر گرفته است.",
+          "sources": [
+            "https://www.etymonline.com/word/purdah"
+          ],
+          "ref_check": [
+            {
+              "ref": "HJB:744",
+              "status": "partial",
+              "note": "Hobson-Jobson p.744 (HJB.txt leaf 790, running head 'PUNSAREE. 744 PUTCHOCK.'): 'PURDAH, s. Hind. from Pers. parda, „a curtain“; a portière; and especially a curtain screening women from the sight of men; whence ... parda-nishīn' — supports the word but derives it from New Persian, not from Pahlavi."
+            },
+            {
+              "ref": "AID:242",
+              "status": "partial",
+              "note": "Whitworth, Anglo-Indian Dictionary p.242 (AID.txt leaf 261, running head 'PARG *43 PARS'): 'Pardah. [Persian.] A veil, a screen, a curtain, especially one used to exclude women from public view.' plus 'Pardahnishin. [Persian nīshīn, who sits.]' — same: Persian, not Pahlavi."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HJB",
+              "where": "p.744 s.v. PURDAH, and p.399 s.v. GOSHA",
+              "stance": "supports",
+              "note": "GOSHA: 'much the same as parda-nishīn (see PURDAH)' — the Indian institution is described throughout as Persian-derived court usage."
+            },
+            {
+              "src": "AID",
+              "where": "p.242",
+              "stance": "supports",
+              "note": "'Pardah. [Persian.]' — Whitworth's square-bracket tag is his source-language label."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "pardah, purdah",
+          "verdict": "confirmed",
+          "derivation": "English purdah (also spelt pardah, purda) 'curtain screening women; the system of female seclusion' is an Anglo-Indian borrowing of Hindustani pardā, first recorded 1800 (Etymonline; Hobson-Jobson's earliest quotation is Valentia 1809, 'On the fourth (side) a purdah was stretched across'). Klein p.1273: 'purdah, n., curtain guarding women from public view in India. — Hind. and Pers. pardah, „veil“.' The u-spelling reflects the Anglo-Indian rendering of the short a of Hindi pardā (cf. punkah, pundit); the sense generalised from the physical curtain to the social institution during the 19th c.",
+          "derivation_fa": "انگلیسی purdah وام‌واژه‌ای آنگلوهندی از هندوستانی pardā است که نخستین کاربرد آن به سال ۱۸۰۰ میلادی بازمی‌گردد. کلاین (ص ۱۲۷۳) می‌نویسد: «purdah — هندی و فارسی pardah پرده». نوشتن u به جای a شیوهٔ معمول انگلیسی‌هندی است (قیاس کنید punkah، pundit) و معنا در سدهٔ نوزدهم از «پردهٔ مادی» به «نهاد پرده‌نشینی» گسترش یافته است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/purdah"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1273",
+              "status": "supports",
+              "note": "Klein 1966 p.1273 (KLN_1966.txt leaf 678, which carries the running number 1273): 'purdah, n., curtain guarding women from public view in India. — Hind. and Pers. pardah, „veil“.'"
+            },
+            {
+              "ref": "AHD:1061",
+              "status": "not_checked",
+              "note": "AHD New College Edition main-dictionary page; only the Watkins IE-roots appendix (pp.1505-1550) is available locally/openly, the A-Z pages are on lending-only scans."
+            },
+            {
+              "ref": "FWE:233",
+              "status": "not_checked",
+              "note": "Bliss, A Dictionary of Foreign Words and Phrases in Current English (1966) — refs_online records it as borrowable-only on archive.org, no open copy."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p.1273 s.v. purdah",
+              "stance": "supports",
+              "note": "'Hind. and Pers. pardah, „veil“'."
+            },
+            {
+              "src": "HJB",
+              "where": "p.744 s.v. PURDAH",
+              "stance": "supports",
+              "note": "Quotations 1809 (Ld. Valentia i.100), 1810 (Williamson), 1813 (Forbes 'its purdoe or chintz covering'), 1878, 1900 — documents the English currency of the word."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Sanskrit",
+          "words": "patah",
+          "verdict": "disputed",
+          "derivation": "Sanskrit पट paṭa- m. 'woven cloth, garment, screen, canvas' is real (the chart's 'patah' is the nominative paṭaḥ), but it is NOT a descendant of Iranian *partaka- as the arrow draws it. No handbook derives an Old Indic word from an Old Iranian one here: at most the two are collateral. Mann himself (IEC 918), Nourai's own reference, lists Skt paṭaḥ and Per. parde side by side as co-descendants of *pelt-, flagging 'Indo-Iran. ambig.' Wiktionary's current view: paṭa- is of uncertain origin, 'usually derived from Proto-Indo-Aryan *paḷtas, undergoing Fortunatov's law (*-lt- > retroflex -ṭ-) from Proto-Indo-Iranian *paltas, from PIE *pol-to-s, from *pel- „to cover, wrap; hide, cloth“' — again the 'cover' root, not the 'flat' root — 'alternatively, borrowed from a presumably Southeast Asian substrate'. The retroflex -ṭ- is in fact the strongest argument against a loan from Iranian, where the cluster stayed -rt-/-rd-.",
+          "derivation_fa": "سنسکریت paṭa- «پارچه، جامه، پرده» واژه‌ای واقعی است، اما برخلاف نمودار کتاب برگرفته از ایرانی *partaka- نیست؛ هیچ مرجعی وام‌گیری هندی باستان از ایرانی باستان را در این‌جا نمی‌پذیرد. خود من (مأخذ نورایی) این دو را هم‌ردیف و هم‌ریشه می‌آورد نه پدر و فرزند. ویکی‌واژه ریشهٔ آن را نامطمئن می‌داند: یا از هندوآریایی آغازین *paḷtas با قانون فورتوناتوف (تبدیل lt- به طـ جزری) از ریشهٔ *pel- «پوشاندن»، یا وام‌واژه‌ای از لایهٔ زیرین غیرهندواروپایی. همان طـی جزری بهترین دلیل علیه وام‌گیری از ایرانی است. پژوهش امروزی این پیکان را رد می‌کند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%9F",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-"
+          ],
+          "ref_check": [
+            {
+              "ref": "IEC:918",
+              "status": "partial",
+              "note": "Mann p.918 s.v. pelt- (1): 'Skt. paṭah, m. „cloth, garment, screen, canvas“ beside paṭalam, n. „cover, basket, hive, cataract on the eye“; Per. parde „veil, curtain“; ON feldr ...' — the two are coordinate members of one root family, and Mann marks the Indo-Iranian evidence 'ambig.'; he nowhere derives the Sanskrit word from Iranian."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pelə-, plā- pp.805-807; pel- 3b p.803",
+              "stance": "silent",
+              "note": "The pelə-/plā- entry has no Old Indic 'cloth' word; Pokorny keeps the 'Haut, Fell, decken' family at p.803 separate."
+            },
+            {
+              "src": "SYN",
+              "where": "Buck, Dict. of Selected Synonyms",
+              "stance": "silent",
+              "note": "grep for paṭa/pata in SYN.txt does not turn up a discussion of the Sanskrit cloth word under 'cloth' (6.21); no support for an Iranian source."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Sogdian",
+          "words": "prd`nk, prd`nkh, prthynq",
+          "verdict": "plausible",
+          "derivation": "The forms are copied correctly from Gharib: SOD p.284 = entry 7084 'prδ'nk(h) B, parδang, cf. prδ'ync-, prδynq, „curtain“ (TSP 3.159, 156)' and entry 7254 'prδynq C, parδing, pl. -t, cf. prδynk(h), „curtain“'; Nourai renders Gharib's δ once as 'd' and once as 'th', which is why his third form looks unlike the first two. The Sogdian word is certainly the same lexical family as Persian parda (Sogd. -δ- is the regular post-vocalic/post-r outcome of Old Iranian *-d-/-θ-). But Gharib does not attach it to *partaka-: she cross-refers the nouns to the verb prδ'ync- 'to stretch, spread' (entry 7086), which she derives '< *pari/θa-θanjaya-', i.e. *pari-θanj- 'to draw around'. So the Sogdian evidence is compatible with, but does not prove, the Iranian preform Nourai draws — and if Gharib is right it points to a *pari- compound, which is the analysis Etymonline gives for parda too.",
+          "derivation_fa": "صورت‌های سغدی درست از قریب نقل شده‌اند: ص ۲۸۴، مدخل ۷۰۸۴ prδ'nk(h) = parδang «پرده» و مدخل ۷۲۵۴ prδynq = parδing. نورایی دال توک‌دار (δ) را یک‌جا d و جای دیگر th آورده و از همین رو فهرست ناهماهنگ می‌نماید. واژهٔ سغدی بی‌گمان هم‌خانوادهٔ «پرده» است، اما قریب آن را به فعل prδ'ync- «گستردن، کشیدن» از *pari-θanjaya- بازمی‌گرداند نه به *partaka-. پس این پیکان با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%AF%D9%87"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:284",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary, printed p.284 = SOD_pages.txt leaf 350 (leaf − 66), where entry 7084 'prδ'nk(u) B / parδang / ⇒prδ'ync-, prδynq / curtain / TSP 3.159, 156' stands; the companion entry 7254 'prδynq C / parδing / pl. -t / curtain' is p.483. All three forms Nourai prints are on or keyed to p.284."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "entries 7084, 7086, 7254",
+              "stance": "partial",
+              "note": "7086 'prδ'ync- B parδenc ©<*pari/θa-θanjaya- ©inf.' — Gharib's own etymology for the family is a *pari- compound of θanj- 'draw', not *part-aka-."
+            },
+            {
+              "src": "LAT",
+              "where": "p.853 s.v. parada",
+              "stance": "partial",
+              "note": "Ernout-Meillet give only Iranian *partaka- with Armenian/Syriac loans; the Sogdian branch is not discussed there."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Greek",
+          "words": "plan-asthai; plas-sein",
+          "verdict": "confirmed",
+          "derivation": "Both Greek verbs are standard members of PIE *pelə-2/*plā- 'flat; to spread'. Watkins (AHD appendix, the 'AHD:1533' Nourai cites): '5. Possibly extended variant form *plan- in: a. Greek planasthai, to wander (< „to spread out“): PLANET; APLANATIC ... 6. Suffixed zero-grade form *pl̥-dh- in Greek plassein (< *plath-yein), to mold, „spread out“: -PLASIA, PLASMA, -PLAST, PLASTER, PLASTIC, PLASTID, -PLASTY.' Pokorny 805-807 has the same two: 'πλάσσω (*πλαθιω) ... „shape from soft mass, spread“' as a dh-present, and 'πλάνος „irrend, wandering“ ... perhaps of the aimless spreading of grazing herds'. planāsthai is the middle of planáō; plássein is Attic for *plath-yein with the regular -θj- > -σσ-.",
+          "derivation_fa": "هر دو فعل یونانی از اعضای پذیرفته‌شدهٔ ریشهٔ هندواروپایی *pelə-/*plā- «پهن؛ گستردن»‌اند. واتکینز (پیوست‌نامهٔ AHD) می‌نویسد: «گونهٔ گستردهٔ *plan- در یونانی planasthai «سرگردان شدن» (< گستردن) ← planet» و «صورت درجهٔ صفر *pl̥-dh- در plassein (< *plath-yein) «قالب زدن» ← plasma, plastic». پوکورنی (ص ۸۰۵–۸۰۷) نیز همین دو را ذیل همین ریشه می‌آورد. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/plastic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1533",
+              "status": "supports",
+              "note": "The Watkins appendix entry pelə-2 (AHD_watkins1985.txt lines 829-834, reprint of the same list that occupies AHD New College pp.1505-1550) has both planasthai (§5a) and plassein (§6) — p.1533 falls inside the appendix at 'pel-'."
+            },
+            {
+              "ref": "IEC:918",
+              "status": "not_found",
+              "note": "IEC p.918 (leaf 510) runs peln- ... peluos / pendo and contains no Greek plan-/plass- material; Mann's Greek forms for this root are elsewhere in the volume."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pelə-, plā- pp.805-807",
+              "stance": "supports",
+              "note": "'as dʰ-present probably here gr. πλάσσω (*πλαθιω) ... „shape from soft mass, form“ ... πλάσμα n. „thing“ ... ἐμπλαστρον > Latin emplastrum'; and 'here - perhaps of ziellosen sich Ausbreiten weidender Herden - gr. πλάνος „irrend, wandering“'."
+            },
+            {
+              "src": "KLN",
+              "where": "p. s.v. plasma",
+              "stance": "supports",
+              "note": "'plasma ... Late L., fr. Gk. πλάσμα, „something molded“, fr. πλάσσειν, „to mold, form, model“.'"
+            },
+            {
+              "src": "AHD",
+              "where": "index, PLANET/PLASMA/PLASTER/PLASTIC → pelə-2",
+              "stance": "supports",
+              "note": "Watkins index lines 2099-2100: 'PLANET pele-2 ... PLASMA pele-2 ... PLASTER pele-2 PLASTIC pele-2'."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "French",
+          "words": "plasma; plastique",
+          "verdict": "confirmed",
+          "derivation": "French plasma and plastique are learned formations on the Greek stem, taken in through Latin rather than straight from Greek: plastique (adj. 1548, subst. f. 'art of modelling', then 20th-c. 'synthetic mouldable material') < Latin plasticus < Gk plastikós 'fit for moulding', from plastós, verbal adjective of plássein; plasma (1846 in the blood sense, 1928 in the physics sense) < Late Latin plasma < Gk plásma 'something moulded'. The chart's Greek → French arrow is therefore right in substance, with Latin as the unnamed relay.",
+          "derivation_fa": "فرانسه‌ی plasma و plastique واژه‌هایی عالمانه‌اند که از راه لاتین از یونانی گرفته شده‌اند: plastique < لاتین plasticus < یونانی plastikós «قابل قالب‌گیری»، و plasma < لاتین متأخر plasma < یونانی plásma «چیز قالب‌زده». پس پیکان یونانی ← فرانسه درست است، فقط حلقهٔ لاتین نام‌برده نشده است.",
+          "sources": [
+            "https://www.etymonline.com/word/plastic"
+          ],
+          "ref_check": [
+            {
+              "ref": "VOP:120",
+              "status": "not_checked",
+              "note": "Moshiri, Farhang-e Vâžehâ-ye Orupâyi dar Fârsi (1371/1992) — refs_online.json records 'kind: none': no scan or ebook found anywhere (archive.org, ketabnak, noorlib), purchase second-hand only."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. plasma; plastic",
+              "stance": "supports",
+              "note": "'plasma ... Late L., fr. Gk. πλάσμα ... fr. πλάσσειν' — Klein routes both through Latin, as French does."
+            },
+            {
+              "src": "AHD",
+              "where": "appendix pelə-2 §6",
+              "stance": "supports",
+              "note": "'Greek plassein ... : -PLASIA, PLASMA, -PLAST, PLASTER, PLASTIC, PLASTID, -PLASTY'."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Persian",
+          "words": "plâsmâ «پلاسما»; plâstîk «پلاستیک»",
+          "verdict": "confirmed",
+          "derivation": "Both are 20th-century European loans in Persian. پلاستیک plâstîk reproduces French plastique (the final -یک = Fr. -ique, not English -ic which would have given *پلاستیک with short i; the long ī and the stress pattern point to French, the usual channel for Iranian technical vocabulary before 1941). پلاسما plâsmâ with final آ likewise renders French plasma [plasma] rather than English [ˈplæzmə]. Neither is a native Persian formation; they enter medicine and industry in Iran from the Dar al-Fonun / Franco-Persian scientific tradition. The chart's French → Persian arrow is thus correct; the ultimate Greek ancestry it displays is a genuine, if very long, chain.",
+          "derivation_fa": "«پلاستیک» و «پلاسما» هر دو وام‌واژهٔ سدهٔ چهاردهم هجری از فرانسه‌اند. پایانهٔ «–یک» در پلاستیک برگردان –ique فرانسه است و «آ» پایانی پلاسما نیز تلفظ فرانسوی را بازمی‌تاباند نه انگلیسی را. این واژه‌ها از راه سنت علمی فرانسه‌زبان دارالفنون وارد فارسی شده‌اند. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/plastic"
+          ],
+          "ref_check": [
+            {
+              "ref": "VOP:120",
+              "status": "not_checked",
+              "note": "Moshiri 1992 has no digital copy (refs_online.json 'kind': 'none'); this is Nourai's only reference for the modern European loans on this page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "Mo'in, Farhang-e Farsi, vol. 4 (foreign compounds)",
+              "stance": "silent",
+              "note": "The local OCR files MON_part1/part2.txt do not contain the پلاستیک / پلاسما headwords (grep of the Persian script returns only unrelated running text), so Mo'in could not be quoted here."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. plastic, plasma",
+              "stance": "supports",
+              "note": "Klein confirms the Greek>Latin>modern-European chain that the Persian loans sit at the end of."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "English",
+          "words": "planet, plasma, plaster, airplane, plastic",
+          "verdict": "plausible",
+          "derivation": "Four of the five are correct as drawn. Watkins files PLANET under Gk planasthai and PLASMA, PLASTER, PLASTIC under Gk plassein (AHD index: 'PLANET pele-2 ... PLASMA pele-2 PLASTER pele-2 PLASTIC pele-2'); planet is Gk planḗtēs (astḗr) 'wandering star' > L planeta > OF planete > ME planete, and plaster is Gk émplastron > L emplastrum > OE plaster. AIRPLANE, however, is not Greek: Watkins puts it under the Latin branch of the same root (*plā-no- > Latin planus), 'LLANO, PIANO, PLAIN ... PLANO-, PLANULA; AIRPLANE, EXPLAIN' — English airplane is a reshaping of French aéroplane, whose second element is Latin planus 'flat (surface)'. So the node belongs partly in box #14/#15, not here.",
+          "derivation_fa": "چهار واژه از پنج واژه درست است: planet از یونانی planḗtēs «ستارهٔ سرگردان»، و plasma، plaster، plastic از plassein. اما airplane یونانی نیست: واتکینز آن را ذیل شاخهٔ لاتین همین ریشه (planus) می‌آورد؛ این واژه بازساختهٔ فرانسه‌ی aéroplane است که جزء دومش لاتین planus «صاف» است. پس این یک واژه جابه‌جا افتاده و باید در جعبهٔ لاتین می‌آمد.",
+          "sources": [
+            "https://www.etymonline.com/word/plastic"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins index (AHD_watkins1985.txt lines 2099-2100 and the pelə-2 entry): PLANET, PLASMA, PLASTER, PLASTIC all → pelə-2 via Greek; but AIRPLANE is listed in the entry under the Latin planus branch, not the Greek one."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "appendix pelə-2 §3b, §5a, §6",
+              "stance": "partial",
+              "note": "'*plā-no- in Latin planus ...: LLANO, PIANO, PLAIN ...; AIRPLANE, EXPLAIN' vs '*plan- in Greek planasthai ...: PLANET' and '*pl̥-dh- in Greek plassein ...: PLASMA, PLASTER, PLASTIC'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. plasma",
+              "stance": "supports",
+              "note": "'plasma ... fr. Gk. πλάσμα ... Cp. also plasson, plaster, plastic, plastid, plastron.'"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Germanic",
+          "words": "fel-thus; flô-ruz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *felþuz/*felþa- 'field, flat land' and *flōruz 'floor' are both in Pokorny's pelə-/plā- entry, the page Nourai cites: 'with r-formants: Old Icelandic flórr m. „floorboard of cattle shed“, Old English flōr, Middle Low German vlor, MHG vluor, NHG Flur, Old Irish lár, Welsh llawr (*plā-ro-) „solum, pavimentum“' and 'with dental forms *pel-tos n., *pel-tu- m., *pel-tā „surface, plain“: OHG/OS feld n., OE feld (u-stem), ON fold f. „earth, land“, OE folde, OS folda'. Germanic *p- > *f- by Grimm's law; *-t- of *pel-tu- stays voiceless after the stressed root syllable (no Verner voicing). Pokorny does add that the feld-words 'belong actually to extension plet-', which is only a question of which sub-root you file them under.",
+          "derivation_fa": "ژرمنی آغازین *felþuz «دشت، کشتزار» و *flōruz «کف، زمین» هر دو در همان مدخل پوکورنی (ص ۸۰۵–۸۰۷) آمده‌اند: «با پسوند r: ایسلندی کهن flórr، انگلیسی کهن flōr ... (*plā-ro-)» و «با پسوند دندانی *pel-tos/*pel-tu- «سطح، دشت»: آلمانی علیای کهن feld، انگلیسی کهن feld». پ‌ی هندواروپایی برپایهٔ قانون گریم در ژرمنی به f بدل شده است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "POK:805",
+              "status": "supports",
+              "note": "POK_full.txt block 'Root / lemma: pelə- plā- / Meaning: wide and flat / ... Page(s): 805-807': 'with r-formants: Old Icelandic flórr m. „floorboard of cattle shed“, Old English flōr ...' and 'with dentalem forms *pel-tos n., *pel-tu- m., *pel-tā „surface, plain, area“: Old High German Old Saxon feld n. „field, bottom, plain“, Old English feld (u-stem) ds.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "index FIELD → pelə-2; entry §3a *plā-ru- > Gmc *flōruz",
+              "stance": "supports",
+              "note": "'FIELD pele-2' (index line 1509) and '*plā-ru- in Germanic *flōruz, floor, in Old English flōr, floor: FLOOR'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. floor",
+              "stance": "supports",
+              "note": "'floor, n. — ME. flor, fr. OE. flōr, rel. to MDu. vloer, ON. flór ... fr. I.-E. base *plāros, *plārā ... This base is an enlargement of base *p(e)lā-, „spread out, broad, flat“, whence L. planus.'"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "English",
+          "words": "field; floor",
+          "verdict": "confirmed",
+          "derivation": "English field < OE feld (u-stem) < PGmc *felþuz, and floor < OE flōr < PGmc *flōruz; both are inherited, not borrowed, and both are placed under this root by Watkins ('FIELD pele-2', and '*plā-ru- in Germanic *flōruz ... in Old English flōr, floor: FLOOR'). The OE ēo/e of feld is regular for West Germanic *e before l + consonant; OE flōr keeps the inherited long ō (< *ā), whence ME flor > NE floor.",
+          "derivation_fa": "انگلیسی field از انگلیسی کهن feld و floor از انگلیسی کهن flōr است؛ هر دو میراثی‌اند نه وام‌واژه، و واتکینز هر دو را ذیل همین ریشه می‌آورد. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins index line 1509 'FIELD pele-2'; index line 1521 'FLOOR' under the same root via the entry's §3a; neither is assigned elsewhere."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pp.805-807",
+              "stance": "supports",
+              "note": "'Old English feld (u-stem) ds.'; 'Old English flōr „floorboard“'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. floor",
+              "stance": "supports",
+              "note": "'For a dental enlargement of base *p(e)lā- see field.' — Klein cross-refers floor and field to the same base."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Latin",
+          "words": "plâ-nus; pal-ma",
+          "verdict": "confirmed",
+          "derivation": "Latin plānus 'flat, level' is *plā-no-s, the suffixed full grade of the root (Pokorny: 'Latin plānus „platt, even, flat“ (Indo Germanic *plā-no-s) = gall. Mediolanum ... Lithuanian plónas „thin“, Latvian plāns, Old Prussian plonis „threshing floor“'). Latin palma 'palm of the hand' is the zero-grade *pḷ-ma < *palama (Watkins '§4. Suffixed zero-grade form *pl̥-mā in Latin palma (< *palama), palm of the hand'), with the same 'flat surface' semantics; Pokorny sets it beside Gk palámē, OIr. lám, OHG folma, OE folm and Av. pərənā 'hollow hand'. Both are exactly where Nourai puts them.",
+          "derivation_fa": "لاتین plānus «صاف، هموار» از *plā-no-s است (پوکورنی ص ۸۰۵)، و palma «کف دست» از درجهٔ صفر *pḷ-mā (< *palama) که هم‌ریشهٔ یونانی palámē، ایرلندی کهن lám و اوستایی pərənā «کف دست» است. هر دو دقیقاً همان‌جایی اند که نورایی نشانده است. ادعا درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD:1533",
+              "status": "supports",
+              "note": "Watkins pelə-2: '§3b. suffixed form *plā-no- in Latin planus, flat, level, even, plain, clear' and '§4. Suffixed zero-grade form *pl̥-mā in Latin palma (< *palama), palm of the hand: PALM1, PALM2'. The appendix occupies AHD New College pp.1505-1550, so p.1533 is inside it at 'pel-'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pp.805-807",
+              "stance": "supports",
+              "note": "'Latin plānus „platt, even, flat“ (Indo Germanic *plā-no-s)'; 'Latin palma „flat hand ...“, palmus, palmes'."
+            },
+            {
+              "src": "KLN",
+              "where": "s.v. plain, adj.; palm, n.",
+              "stance": "supports",
+              "note": "'plain, adj. ... fr. L. planus ... fr. I.-E. base *p(e)lā-, „broad, flat, spread out“'; 'palm ... fr. L. palma, „palm tree“, orig. identical with palma, „palm of the hand“; so called from the flatness of its leaves.'"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "English",
+          "words": "plane, plain, plan, explain; palm",
+          "verdict": "plausible",
+          "derivation": "plain (ME, fr. OF plain < L plānus), plane (in all its senses, via OF/L plānus, plānum, plāna), explain (L explānāre 'to flatten out, make clear') and palm (OE palm, ME paume, fr. L palma) are all correctly filed under the Latin box. The odd one out is plan: Watkins assigns PLAN not to plānus but to plat- — English plan < French plan 'ground-plan', from Latin planta 'sole of the foot' (plat- §5 'Nasalized form *pla-n-t- in Latin planta ... CLAN, PLAN, PLANT, PLANTAIN, PLANTAR'), with later contamination from plan 'flat' (< plānus). So four of the five English words are confirmed, one belongs under the Plat sub-root drawn lower on the same chart.",
+          "derivation_fa": "plain، plane، explain و palm همگی به درستی از لاتین plānus/palma آمده‌اند. اما plan را واتکینز ذیل ریشهٔ plat- می‌آورد: از فرانسه plan «نقشهٔ زمین» از لاتین planta «کف پا» (با آمیزش معنایی بعدی با plan «صاف»). پس چهار واژه از پنج واژه درست‌اند و یکی باید به شاخهٔ Plat منتقل شود.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "partial",
+              "note": "Watkins index line 2099-2100: 'PLAIN pelə-2 ... PLANE1 pelə-2 PLANE2 pelə-2 PLANE3 pelə-2 PLANE4 plat- ... PLAN plat-'; PALM1/PALM2 and EXPLAIN are under pelə-2. So PLAN (and PLANE4 'plane tree') sit under plat-, not under Latin plānus."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. plain, adj.",
+              "stance": "supports",
+              "note": "'plain, adj., flat; clear, distinct. — ME., fr. OF. (= F.) plain, fr. L. planus ... Cp. plain „level country“, plane „even, level“, plane, the tree, plane „tool for smoothing“, piano, llano, esplanade, explain, explanation.'"
+            },
+            {
+              "src": "AHD",
+              "where": "appendix pelə-2 §3b",
+              "stance": "partial",
+              "note": "'LLANO, PIANO, PLAIN, PLANARIAN, PLANE1, PLANE2, PLANE3, PLANISH, PLANO-, PLANULA; AIRPLANE, EXPLAIN' — no PLAN."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "Indo-European",
+          "words": "Plat",
+          "verdict": "confirmed",
+          "derivation": "Pokorny's page 833 is exactly 'plat- (plad-), plet-, plot-, plət-, Meaning: wide, flat', with the note 'extension to pelə- : plā- ds.' — i.e. Pokorny himself makes *plat- an extension of the *pelə-/*plā- of p.805, which is precisely the relation Nourai's chart draws (Plat hanging off Pele). Watkins says the same in one line: 'plat-. To spread. Extension of pelə-2 ... [Pok. plat- 833.]'. Nourai's gloss 'to spread' is Watkins's; Pokorny's is 'wide, flat'; they are the same root.",
+          "derivation_fa": "صفحهٔ ۸۳۳ پوکورنی دقیقاً مدخل plat-/plet-/plot-/plət- «پهن، صاف» است با این یادداشت که «گسترشی از pelə-/plā-» است — همان رابطه‌ای که نمودار نورایی نشان می‌دهد. واتکینز نیز می‌نویسد: «plat- «گستردن». گسترشی از pelə-2». ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "POK:833",
+              "status": "supports",
+              "note": "POK_full.txt: 'Root / lemma: plat- (plad-), plet- plot-, plət- / Meaning: wide, flat / Note: extension to pelə- : plā- ds., see there ... References: WP. II 99 f., WH. II 316 ff. ... Page(s): 833-834'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "appendix s.v. plat-",
+              "stance": "supports",
+              "note": "'plat-. To spread. Extension of pelə-2. ... [Pok. plat- 833.]'"
+            },
+            {
+              "src": "KLN",
+              "where": "p.1192 s.v. place",
+              "stance": "supports",
+              "note": "'All these words are derivatives of I.-E. base *plāt-, *plət-, *plet-, *plot-, „spread out, broad, flat“.'"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "Avestan",
+          "words": "frathah",
+          "verdict": "confirmed",
+          "derivation": "Avestan fraθah- is genuine: Bartholomae, Altiranisches Wörterbuch, has 'j. fraθah- n. „Breite“' (attested Y. 19.7, of the earth's extent). It is the Iranian reflex of the s-stem *pl̥th2-es- (PII *prátʰas), matching Old Indic práthas- n. 'breadth' exactly — PIE *pl̥- > Indo-Iranian *pr̥- > Av. fra- with the regular Avestan *p > f before r, and the aspirate *tʰ > θ. One caveat on the gloss: fraθah- is a neuter noun 'breadth, width', not the adjective 'wide'; the Avestan adjective is pərəθu- (= Skt pṛthú-, Gk platús), which is the form Klein cites on the page Nourai gives.",
+          "derivation_fa": "اوستایی fraθah- واقعی است: بارتولومه در فرهنگ ایرانی باستان می‌آورد: «fraθah- خنثی «پهنا»» (یسنا ۱۹،۷). این صورت بازتاب ستاک s‌دار *pl̥tʰ-es- است که دقیقاً با سنسکریت práthas- «پهنا» برابر است؛ پ ایرانی پیش از r به f بدل شده است. تنها نکته: fraθah- اسم است («پهنا») نه صفت («پهن»)؛ صفت اوستایی pərəθu- است که کلاین در همان صفحهٔ ۱۱۹۲ ذکر کرده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A7%D8%AE"
+          ],
+          "ref_check": [
+            {
+              "ref": "POK:833",
+              "status": "supports",
+              "note": "POK p.833 s.v. plat-: 'Aryan *pleth-: Old Indic práthati „breitet aus“ ... práthas- n. = Avestan fraθah- n. „Breite“, Old Indic pṛthú-, Avestan pərəθu- „wide, breit“.'"
+            },
+            {
+              "ref": "KLN:1192",
+              "status": "partial",
+              "note": "Klein 1966 p.1192 (leaf 636, the leaf after the one carrying '1190') s.v. place: Gk. πλατύς 'is cogn. with OI. prathati „spreads out“, pṛthúḥ „broad, wide, spacious“, Avestic pərəθuš, of s.m. ... All these words are derivatives of I.-E. base *plāt-, *plət-, *plet-, *plot-'. Klein gives the root correctly but the Avestan form he prints is the adjective pərəθu-, not fraθah-."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "Altiranisches Wörterbuch s.v. fraθah- (BRT.txt line 17648)",
+              "stance": "supports",
+              "note": "'j. fraθah- n. „Breite“: avavaḟitya ... Y.19.7.' Bartholomae also has the compounds yavō.fraθah- 'of a barleycorn's breadth', spā.fraθah- 'of a dog's breadth', zəm.fraθah- 'as broad as the earth' — an entirely regular s-stem."
+            },
+            {
+              "src": "POK",
+              "where": "p.833",
+              "stance": "supports",
+              "note": "as above; the Avestan word is quoted by Pokorny in the very entry Nourai cites."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "Persian",
+          "words": "farâx «فراخ»",
+          "verdict": "confirmed",
+          "derivation": "NP فراخ farāx 'wide, spacious, ample' goes back to MP frāx [plʾh(w)], and behind that to the Old Iranian s-stem/u-stem of this root. Horn, Grundriss no. 810 (p.180), the page Nourai cites, has it verbatim: 'ferāx „weit, breit“, ferāxī ... aw. fraθah- „Breite“; phlv. frāh bezw. frāh[ē] ... ai. práthas-; kurd. LW (?) fereh „weit“; bel. LW prāh „weit, breit“'. Hübschmann no. 810 adds the alternative that NP farāx reflects a u-stem, 'np. farax = phl. frāxv, geschrieben fraxv scheint ein ap. *fra(k)uva- vorauszusetzen', i.e. *fraθu-/*fraxu- rather than the s-stem; Mo'in's footnote in Borhan-e Qate' p.1444 reports both. Wiktionary's current entry has MP plʾhũ /frāx/ < Proto-Iranian *fráθah < PII *prátʰas < PIE *pléth₂os — the same chain Nourai draws. The x of farāx is the Middle Persian outcome of the cluster *θu/*θw (whence also the Pāzand doublet frāh).",
+          "derivation_fa": "«فراخ» از فارسی میانهٔ frāx است و آن از ایرانی باستان *fráθah (اوستایی fraθah- «پهنا»). هرن در شمارهٔ ۸۱۰ (ص ۱۸۰) همین را می‌آورد؛ هوبشمان در همان شماره صورت پارسی باستان *fra(θ)uva- را پیشنهاد می‌کند؛ و معین در حاشیهٔ برهان قاطع (ص ۱۴۴۴) هر دو را نقل کرده است. خـی فارسی حاصل خوشهٔ *θw است (در برابر گونهٔ پازند frāh). ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A7%D8%AE"
+          ],
+          "ref_check": [
+            {
+              "ref": "HRN:180",
+              "status": "supports",
+              "note": "Horn, Grundriss der neupersischen Etymologie p.180 (HRN.txt leaf 202, running head '— 180 —'), no. 810: 'ferāḵ „weit, breit“, ferāḵī ... aw. fraθah- „Breite“; phlv. frāh bezw. frāh[ē] ... ai. práthas-.'"
+            },
+            {
+              "ref": "BQT:1444",
+              "status": "supports",
+              "note": "Borhan-e Qate' ed. Mo'in p.1444 (rendered with tools/ref_page.py BQT:1444 --image) carries the headword فراخ and Mo'in's footnote: 'اوستا fraθah- (عرض، پهنا). پهلوی [frāh]؛ هندی باستان práthas-، کردی فرا (گشاد)، بلوچی ... «هرن ۸۱۰». در پهلوی frāx که frāhw نوشته شود، از پارسی باستان *fra(θ)uva- مأخوذ است «هوبشمان ۸۱۰». پازند frāh, ferāx «نیبرگ ۷۱».'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "HUB",
+              "where": "Persische Studien no. 810 (HUB.txt line 2951)",
+              "stance": "partial",
+              "note": "'Np. farax = phl. frāḵv, geschrieben fraxv scheint ein ap. *fra(k)uva- vorauszusetzen. Ebenso Fr. Müller, WZKM. 7, 378.' — same root, but Hübschmann prefers a u-stem preform to the s-stem fraθah-."
+            },
+            {
+              "src": "PHD",
+              "where": "MacKenzie s.v. frāx, frāxīh, frāxēnīdan",
+              "stance": "supports",
+              "note": "PHD.txt: 'frāxīh: plenty, prosperity. frāxēnīdan, frāxēn- [plʾh(w)yn-ytn'] enlarge, make prosper' — the Middle Persian link in the chain is on record."
+            },
+            {
+              "src": "BQT",
+              "where": "p.1444 (Mo'in's حاشیه)",
+              "stance": "supports",
+              "note": "as quoted above; Mo'in cites Horn 810, Hübschmann 810 and Nyberg 71."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "lang": "Germanic",
+          "words": "flataz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *flataz 'flat' is the regular Germanic form of the *plad- variant of the root: Watkins, s.v. plat-, '1. Variant form *plad- in Germanic *flataz, flat, in: a. Old Norse flatr, flat: FLAT1; b. Old French flater, to flatter: FLATTER1.' Pokorny p.833-834 has the same series 'With final sound voiced-nonaspirated: Old Icelandic flatr, Old High German flaz „even, flat“, Old Saxon flat, Old Icelandic/Old English flet, Old Saxon flet, fletti „floor in the house“'. PIE *d gives Germanic *t by Grimm's law, and initial *p > *f.",
+          "derivation_fa": "ژرمنی آغازین *flataz «صاف، پهن» بازتاب قاعده‌مند گونهٔ *plad- است: د هندواروپایی بر پایهٔ قانون گریم در ژرمنی t می‌شود و پ آغازین f. واتکینز و پوکورنی (ص ۸۳۳–۸۳۴) هر دو همین را می‌گویند. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins s.v. plat-: '1. Variant form *plad- in Germanic *flataz, flat, in: a. Old Norse flatr, flat: FLAT1.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "pp.833-834 s.v. plat-",
+              "stance": "supports",
+              "note": "'With final sound voiced-nonaspirated: Old Icelandic flatr, Old High German flaz „even, flat“, Old Saxon flat ... Old High German flazza „palm“.'"
+            },
+            {
+              "src": "KLN",
+              "where": "p.1192 s.v. place",
+              "stance": "supports",
+              "note": "Klein lists 'flat, „level“, flat, „floor“' among the derivatives of the base *plāt-/*plet-."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "lang": "English",
+          "words": "flat",
+          "verdict": "confirmed",
+          "derivation": "English flat (adj., c.1300) is not inherited from Old English but borrowed from Old Norse flatr 'flat' during the Scandinavian settlement — Watkins says so explicitly under plat- §1a ('Old Norse flatr, flat: FLAT1'); the homograph flat 'apartment, storey' (§2) is the native OE flet(t) 'floor, dwelling' from the *plad-yo- variant. Either way the node's parent (#19 Germanic *flataz) is correct.",
+          "derivation_fa": "انگلیسی flat میراث انگلیسی کهن نیست بلکه وام‌واژه‌ای از نورسی کهن flatr است که در دوران اسکان اسکاندیناویایی‌ها (حدود ۱۳۰۰ میلادی در متون) وارد شده است؛ هم‌نگاشتِ flat «آپارتمان» از انگلیسی کهن flett «کف خانه» است. به هر حال پیوند آن با *flataz درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "The chart gives no reference for this node; verified independently against Watkins (AHD appendix s.v. plat-) and Pokorny 833-834."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AHD",
+              "where": "appendix s.v. plat- §1a, §2; index line 1517 'FLAT1 plat- FLAT2 plat-'",
+              "stance": "supports",
+              "note": "'a. Old Norse flatr, flat: FLAT1' and '2. Suffixed variant form *plad-yo- in Germanic *flatjam in Old English flet(t), floor, dwelling: FLAT2.'"
+            },
+            {
+              "src": "POK",
+              "where": "pp.833-834",
+              "stance": "supports",
+              "note": "'Old Icelandic flatr ... Old Icelandic-Old English flett n., Old Saxon flet, fletti „floor in Haus“.'"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "lang": "Greek",
+          "words": "platus",
+          "verdict": "confirmed",
+          "derivation": "Greek πλατύς platús 'flat, broad' is the u-stem adjective of the root, the exact match of Old Indic pṛthú- and Avestan pərəθu-: PIE *pl̥tʰ-ú- > Gk platus (with the regular Greek *l̥ > λα). Pokorny p.833: 'gr. πλατύς „platt, breit“ (= Old Indic pṛthú-), πλάτος n. „Breite“ ... πλατεῖα „broad way“'. Watkins: 'plat- ... 6. Suffixed form *plat-u- in Greek platus (feminine plateia), flat, broad: PIAZZA, PLACE, PLAICE, PLANE4, PLATE, PLATEAU, PLATITUDE, PLATY-, PLAZA.'",
+          "derivation_fa": "یونانی platús «پهن، صاف» صفت u‌ستاک همین ریشه است و دقیقاً برابر سنسکریت pṛthú- و اوستایی pərəθu- است: *pl̥tʰ-ú- با تبدیل قاعده‌مند l̥ به λα در یونانی. پوکورنی و واتکینز هر دو همین را تأیید می‌کنند. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins s.v. plat-, §6: 'Suffixed form *plat-u- in Greek platus (feminine plateia), flat, broad: PIAZZA, PLACE, PLAICE, PLANE4, (PLANE TREE), PLATE, (PLATEAU), (PLATITUDE), (PLATY2), PLATY-, (PLAZA).'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "POK",
+              "where": "p.833",
+              "stance": "supports",
+              "note": "'gr. πλατύς „platt, breit“ (= Old Indic pṛthú-), πλάτος n. „Breite“ ... πλάτανος „sycamore“ („breitastig“).'"
+            },
+            {
+              "src": "KLN",
+              "where": "p.1192 s.v. place",
+              "stance": "supports",
+              "note": "'πλατεῖα (ὁδός), „street“, lit. „broad way“, fem. of πλατύς, „flat, wide, broad“.'"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "lang": "Latin",
+          "words": "plattus",
+          "verdict": "confirmed",
+          "derivation": "Late/Vulgar Latin plattus 'flat' is a borrowing of Greek platús, not an inherited Latin cognate — the geminate -tt- and the a-vocalism give it away (inherited *pl̥t- would have yielded Latin lat-/plat- as in latus, planta). It is the source of Italian piatto, Old French plat, Old Provençal plat, Spanish plato/plata, and hence of the whole modern 'flat/plate' family. Klein sets out the parallel case on p.1192: 'VL. *plattea (whence also It. piazza, OProvenç. plasa, Catal. plassa, Sp. plaza, Port. praça), fr. L. platea, „open space, street“, fr. Gk. πλατεῖα (ὁδός)'. Nourai's box is therefore correct, though 'Latin' here means the spoken Latin of the Empire, not Classical Latin.",
+          "derivation_fa": "لاتین متأخر/عامیانهٔ plattus «صاف» وام‌واژه‌ای از یونانی platús است نه هم‌ریشهٔ میراثی آن؛ تشدید -tt- و الف آن گواه وام‌گیری است. از همین صورت، ایتالیایی piatto، فرانسهٔ کهن plat و اسپانیایی plato/plata برآمده‌اند. کلاین در ص ۱۱۹۲ نمونهٔ موازی *plattea > piazza/plaza را می‌آورد. ادعای نورایی درست است؛ تنها باید دانست که مراد لاتین گفتاری است نه لاتین کلاسیک.",
+          "sources": [
+            "https://www.etymonline.com/word/platinum"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1004",
+              "status": "not_checked",
+              "note": "An AHD New College main-dictionary page (probably s.v. plate/platinum); the A-Z pages of the 1975/76 edition are only on lending-only archive.org scans. The IE appendix, which is available, confirms the Greek>Romance route under plat- §6."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p.1192 s.v. place; s.v. plaice; s.v. platinum",
+              "stance": "supports",
+              "note": "'plaice ... fr. Late L. platessa, „plaice, flatfish“, which prob. derives fr. Gk. πλατύς, „flat“'; 'Sp. plata comes either fr. OProvenç. plata or fr. OF. plate, which mean „sheet of metal“, and ult. derive fr. Gk. πλατύς.'"
+            },
+            {
+              "src": "AHD",
+              "where": "appendix plat- §6",
+              "stance": "supports",
+              "note": "All of PIAZZA, PLACE, PLATE, PLATEAU, PLAZA are traced to Greek platus, i.e. through the Romance plattus/platea forms."
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "lang": "French",
+          "words": "platine",
+          "verdict": "plausible",
+          "derivation": "French platine 'platinum' (f., 1752) is real, but it does not come from Latin plattus directly as the arrow implies: it is a borrowing of Spanish platina, the diminutive of plata 'silver', the name the Spanish gave the metal found in New Granada from 1735 ('platina del Pinto', 'little silver of the Río Pinto'). Spanish plata itself is the Romance reflex of the plattus/plata 'sheet of metal' family that does descend from Greek platus. So the chain is Gk platus > VL plattus/plata > Sp. plata > Sp. platina > Fr. platine; Nourai has compressed two Romance steps into one and omitted the decisive Spanish colonial link. (French also has an unrelated homonym platine 'metal plate, turntable', directly from plat.)",
+          "derivation_fa": "فرانسه‌ی platine «پلاتین» (۱۷۵۲ م.) وام‌واژه‌ای از اسپانیایی platina، مصغر plata «نقره»، است که اسپانیایی‌ها بر فلز یافته‌شده در گرانادای نو (۱۷۳۵ م.) نهادند. خود plata بازماندهٔ خانوادهٔ plattus/plata «ورقهٔ فلز» است که از یونانی platys می‌آید. پس زنجیره درست است ولی نورایی حلقهٔ اسپانیایی را حذف کرده است؛ با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.etymonline.com/word/platinum"
+          ],
+          "ref_check": [
+            {
+              "ref": "VOP:120",
+              "status": "not_checked",
+              "note": "Moshiri 1992 is undigitised (refs_online.json 'kind': 'none')."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. platinum",
+              "stance": "partial",
+              "note": "'platinum, n. — ModL., fr. earlier platina, fr. Sp. platina in platina del Pinto, i.e. „little silver of the River Pinto“ ... Sp. plata comes either fr. OProvenç. plata or fr. OF. plate, which mean „sheet of metal“, and ult. derive fr. Gk. πλατύς, „flat, wide, broad“.' — Spanish, not Latin, is the immediate donor."
+            },
+            {
+              "src": "AHD",
+              "where": "index 'PLATINUM plat-'",
+              "stance": "supports",
+              "note": "The root assignment is right even though the intermediate steps are not spelled out."
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "lang": "Persian",
+          "words": "pelâtîn «پلاتین»",
+          "verdict": "confirmed",
+          "derivation": "Persian پلاتین pelātīn is the French chemical name platine [platʲin] taken over whole, with the French final nasal vowel rendered by –ین; had the word come from English platinum or Russian платина the Persian would be *پلاتینوم / *پلاتینا. Like پلاستیک and پلاسما above, it belongs to the layer of French scientific vocabulary that entered Persian through the Dar al-Fonun and the 20th-century school system. The chart's French → Persian arrow is right.",
+          "derivation_fa": "«پلاتین» دقیقاً برگردان فرانسه‌ی platine است؛ واکهٔ خیشومی پایانی فرانسه در فارسی به «–ین» بدل شده است. اگر وام از انگلیسی platinum یا روسی پلاتینا می‌بود صورت دیگری می‌داشت. این واژه هم‌ردیف پلاستیک و پلاسما از راه سنت علمی فرانسه‌زبان وارد فارسی شده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/platinum"
+          ],
+          "ref_check": [
+            {
+              "ref": "VOP:120",
+              "status": "not_checked",
+              "note": "Moshiri, Farhang-e Vâžehâ-ye Orupâyi dar Fârsi — no copy exists online; this is the only reference Nourai gives for the three modern Persian loans on the page."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "s.v. platinum",
+              "stance": "supports",
+              "note": "Klein's chain ModL platinum < Sp. platina < plata < Gk πλατύς is the one the Persian word sits at the end of."
+            },
+            {
+              "src": "MON",
+              "where": "Mo'in vol. 4 (foreign words)",
+              "stance": "silent",
+              "note": "The local MON OCR files do not carry the پلاتین headword, so Mo'in's own tag ([فر.] = French) could not be quoted from the files on disk."
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "lang": "English",
+          "words": "plate, place, plaza, plateau, platinum",
+          "verdict": "confirmed",
+          "derivation": "All five are Watkins's own list under plat- §6 ('PIAZZA, PLACE, PLAICE, PLANE4, PLATE, PLATEAU, PLATITUDE, PLATY-, PLAZA' — plus PLATINUM in the index). Routes: plate < OF plate 'flat sheet of metal' (< VL *plattus); place < OF place < VL *plattea < L platea < Gk plateia (hodós) 'broad way'; plaza is the same word borrowed a second time, from Spanish plaza; plateau < French plateau (OF platel, dim. of plat); platinum < ModL platinum < Sp. platina. All ultimately Greek platús, exactly as drawn.",
+          "derivation_fa": "هر پنج واژه در فهرست واتکینز ذیل plat- آمده‌اند: plate از فرانسهٔ کهن plate؛ place از لاتین عامیانهٔ *plattea از لاتین platea از یونانی plateia «راه پهن»؛ plaza وام دوبارهٔ همین واژه از اسپانیایی؛ plateau از فرانسه؛ platinum از لاتین نو از اسپانیایی platina. همه در نهایت از یونانی platús، دقیقاً همان که نورایی رسم کرده است.",
+          "sources": [
+            "https://www.etymonline.com/word/platinum"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD",
+              "status": "supports",
+              "note": "Watkins index lines 2099-2100: 'PLACE plat- ... PLATE plat- PLATEAU plat- ... PLAZA plat-'; and 'PLATINUM plat-' in the same block."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p.1192 s.v. place; s.v. platinum",
+              "stance": "supports",
+              "note": "'place, n. — ME., fr. OF. (= F.), fr. VL. *plattea (whence also It. piazza, ... Sp. plaza ...), fr. L. platea ... fr. Gk. πλατεῖα (ὁδός) ... Cp. piazza and plaza, which are doublets of place. Cp. also ... plateau, plate, platinum, platter, platy-.'"
+            },
+            {
+              "src": "POK",
+              "where": "pp.833-834",
+              "stance": "supports",
+              "note": "The Greek platus family is the head of the entry; the Romance and English words are its late descendants."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
