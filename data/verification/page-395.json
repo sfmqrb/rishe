@@ -253,15 +253,15 @@
             },
             {
               "src": "FVQ",
-              "where": "Jeffery, Foreign Vocabulary of the Qurʾān",
-              "stance": "silent",
-              "note": "grep 'Furat'/'furat'/'Euphrat' in FVQ.txt and FVQ_pages.txt returns no entry — Jeffery does not treat فرات among the Qurʾānic foreign words, so no support for an Iranian source from that side either."
+              "where": "Jeffery, Foreign Vocabulary of the Qurʾān, p.223, s.v. فرات (Furāt)",
+              "stance": "contradicts",
+              "note": "Jeffery's entry فرات (Furāt), Q xxv.55, xxxv.13, lxxvii.27 'Sweet river water': \"In any case the word فرات is derived from the river Euphrates (Horovitz, KU, 130), which from the Sumerian Pura-nun, 'great water,' appears in Akk. as Purattu, or Purāt, and in O.Pers. as Ufrātu.\" So the Semitic/Sumerian name is primary and the Arabic (hence Persian) word comes from it — not from an Iranian *hu-parəθβa-."
             },
             {
               "src": "BQT",
               "where": "Borhān-e Qāṭeʿ (Moʿin ed.)",
               "stance": "silent",
-              "note": "فرات is an Arabic proper name and is not treated with a Persian etymology in the پ/ف material consulted; Moʿin's footnotes give no Iranian origin for it."
+              "note": "فرات is an Arabic proper name and gets no Persian etymology in the Borhān material consulted (grep of the پ/ف leaves); Moʿin's footnotes give no Iranian origin for it."
             }
           ]
         },
@@ -325,7 +325,7 @@
               "src": "LAT",
               "where": "Ernout-Meillet",
               "stance": "silent",
-              "note": "grep 'Euphrat' in LAT.txt returns nothing; Ernout-Meillet treats only Latin appellatives, not Greek river names."
+              "note": "grep -ci 'euphrat' LAT.txt returns 0 — Ernout-Meillet treat only Latin appellatives, not the Greek-mediated river name."
             }
           ]
         },
@@ -355,9 +355,9 @@
             },
             {
               "src": "WEB",
-              "where": "Webster's New Twentieth Century Dict.",
+              "where": "Webster's New Twentieth Century Dict., 2nd ed.",
               "stance": "silent",
-              "note": "grep 'Euphrat' in WEB_vol1.txt returns no etymological entry for the proper name."
+              "note": "grep -i 'euphrat' in WEB_vol1.txt gives a single incidental mention (s.v. Kufic, 'town on the Euphrates'); Webster has no etymological entry for the river name itself."
             }
           ]
         },
@@ -469,9 +469,9 @@
             },
             {
               "src": "MON",
-              "where": "Moʿin, Farhang-e Fārsi",
-              "stance": "silent",
-              "note": "grep of رودبار / جویبار in MON_part1/2 returned no etymological bracket for the suffix itself; Moʿin treats them as place names."
+              "where": "Moʿin, Farhang-e Fārsi, s.v. بار (4th homonym)",
+              "stance": "supports",
+              "note": "MON_part1.txt line ~20089: 'بار: (پس.) پسوند مکان. به معنی ساحل و کنار؛ هندوبار، دریابار. گاه این پسوند زاید باشد: جویبار (= جوی)، رودبار (= رود).' — Moʿin registers -bār as a place-forming suffix meaning 'shore, edge', with Nourai's own examples."
             }
           ]
         },
@@ -647,9 +647,9 @@
             },
             {
               "src": "SKT",
-              "where": "Skeat, Concise Etym. Dict.",
+              "where": "Skeat, s.v. port (3)",
               "stance": "supports",
-              "note": "Skeat s.v. port likewise routes English port/porter/portal through Old French from Latin portus/porta/portāre."
+              "note": "SKT.txt line 14491: 'port (3), a gate, entrance. (F.-L.) F. porte. — L. porta, a gate ... Der. port-er, F. portier, L. portarius; port-al, O.F. portal, Low L. portale' — the Latin→French→English route for the whole set."
             }
           ]
         },
@@ -712,15 +712,15 @@
             },
             {
               "src": "SKT",
-              "where": "Skeat",
+              "where": "Skeat, Concise Etym. Dict., s.v. Disport, passport, port (3)",
               "stance": "supports",
-              "note": "Skeat likewise derives sport from disport (OF desporter) and passport from F. passeport."
+              "note": "SKT.txt line 5183 'Disport; see Port (1)' (so sport is aphetic for disport); line 13443 'passport. (F.-L.) F. passeport, written permission to pass ... F. passer, to pass; L. porta; see Port (3)'; line 14491 'port (3), a gate, entrance. (F.-L.) F. porte. — L. porta, a gate. Allied to Gk. πόρος, a ford, way, and to E. Fare.'"
             },
             {
               "src": "FSD",
-              "where": "Funk & Wagnalls New Standard Dictionary",
+              "where": "Funk & Wagnalls New Standard Dict., vol. 3",
               "stance": "supports",
-              "note": "F&W gives the same Latin portāre base for port, report, support, transport."
+              "note": "FSD_vol3.txt line 125490 s.v. passport: '< F. passeport, < passer (see pass) + port (< L. portus), harbor'; line 97739 s.v. opportune: '< L. opportunus, < ob, before, + portus, harbor'."
             }
           ]
         }
