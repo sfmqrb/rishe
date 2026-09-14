@@ -1,0 +1,148 @@
+{
+  "pdf_page": 427,
+  "book_page": 397,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "R.z.m",
+      "verdict": "confirmed",
+      "modern_form": "Arabic triliteral root ر-ز-م (r-z-m), verb رَزَمَ razama 'to tie up in a bundle, wrap (clothes) together in one cloth'",
+      "note": "The root box is right: this is a genuine Semitic/Arabic triliteral root, not a Persian or Indo-European one. Note that it is NOT the same word as Persian رزم razm 'battle' (< Middle Persian razm, whence Old Armenian ṙazm), which is an Iranian homonym; Nourai correctly keeps them apart. AHD5 s.v. ream: 'from Arabic rizma, bundle, from razama, to bundle; see rzm in Semitic roots'; Etymonline s.v. ream (n.1): 'from Arabic rizmah \"bundle\" (of paper), from rasama [sic, read razama] \"collect into a bundle\"'. Dozy, Oosterlingen (leaf 84 ≈ pp. 73–75), devotes two pages to the root: 'Het Arab. wortelwerkwoord razama (in den eersten en in den tweeden vorm) wordt van kleederen of stoffen gebruikt, die te samen in één kleed of in één stuk stof worden gebonden'. Wiktionary files رِزْمَة under 'Arabic terms belonging to the root ر ز م'. The whole chart (Arabic rizma → Persian رزمه; Arabic rizma → Sp. resma → OFr. rayme → Eng. ream) is the standard textbook etymology of 'ream'; the only point on which modern scholarship differs from Nourai is whether the Romance intermediary that gave French rame was Castilian resma or Old Catalan raima.",
+      "note_fa": "ریشهٔ سه‌واکی عربی «ر-ز-م» (فعل رَزَمَ «بستن و در یک جامه پیچیدن») ریشه‌ای سامی و اصیل است و ادعای نورایی دربارهٔ آن درست است. باید توجه داشت که این واژه هیچ پیوندی با «رزم» فارسی به معنی «جنگ» ندارد؛ آن یکی از فارسی میانهٔ razm می‌آید و هم‌ریشه با رازم ارمنی است، و نورایی نیز آن دو را درست از هم جدا کرده است. فرهنگ AHD و اتیمانلاین و دوزی (در Oosterlingen) همگی رِزمهٔ عربی را برساختهٔ همین ریشه می‌دانند. کل زنجیرهٔ نمودار — عربی rizma ← فارسی «رزمه»، و عربی rizma ← اسپانیایی resma ← فرانسهٔ کهن rayme ← انگلیسی ream — ریشه‌شناسی پذیرفته‌شدهٔ امروزی است؛ تنها اختلاف بر سر آن است که واسطهٔ رومیاییِ واژهٔ فرانسوی، اسپانیاییِ قشتالی بوده است یا کاتالانیِ کهن.",
+      "sources": [
+        "https://www.ahdictionary.com/word/search.html?q=ream",
+        "https://www.etymonline.com/word/ream",
+        "https://en.wiktionary.org/wiki/%D8%B1%D8%B2%D9%85%D8%A9"
+      ],
+      "ref_check": [
+        {"ref": "FVA:161", "status": "not_checked", "note": "S.M. Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi (1368/1989) — refs_online.json records that no digital copy exists on any permitted platform (re-searched 2026-09); only the OpenLibrary catalogue record (OL2012991M) is available, so p. 161 cannot be read."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "online 5th ed., s.v. ream¹ (= the main-body entry Nourai cites as AHD:1086)", "stance": "supports", "note": "'[Middle English rem, from Old French rayme, reme, ultimately (perhaps via Old Catalan raima, from Andalusian colloquial Arabic *razma) from Arabic rizma, bundle, from razama, to bundle; see rzm in Semitic roots.]' — the root, its gloss and the Arabic derivative are exactly Nourai's."},
+        {"src": "DOZ", "where": "Oosterlingen, form-feed leaf 84 (printed ≈ pp. 73–75), s.v. Riem", "stance": "supports", "note": "'Het Arab. wortelwerkwoord razama (in den eersten en in den tweeden vorm) wordt van kleederen of stoffen gebruikt, die te samen in één kleed of in één stuk stof worden gebonden. Hiervan komt het substantief rizma, bij Freytag een bundel kleederen' (grep -n 'rizmay bg Freytag' DOZ.txt)."},
+        {"src": "LKT", "where": "Lokotsch no. 1723 (form-feed leaf 165 ≈ printed p. 139)", "stance": "supports", "note": "'1723. Ar. rizma: \"Bündel oder Pack Kleider, Papierstoß\"' — Lokotsch treats rizma as Arabic, with no foreign source."},
+        {"src": "PLA", "where": "Asbaghi, Persische Lehnwörter im Arabischen (PLA_asbaghi_1988_ia_djvu.txt, PLA_pages.txt)", "stance": "silent", "note": "grep -i 'rizma' finds nothing: Asbaghi does not list rizma among the Persian loans in Arabic, i.e. no support for a reverse (Persian → Arabic) origin of the root."},
+        {"src": "AFA", "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (AFA.txt)", "stance": "silent", "note": "grep -i 'rizma|razama' finds nothing — Fraenkel does not claim an Aramaic source for the root either."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "rezmeh",
+          "verdict": "confirmed",
+          "derivation": "Arabic رِزْمَة rizma(h) is the regular fiʿla-type nomen vicis/nomen rei built on the root r-z-m: from the verb رَزَمَ razama 'to tie (clothes, cloth) up together in one wrapper' comes the noun 'that which is bound up in one cloth' = 'bundle, bale, packet', pl. رِزَم rizam. Lane's and Freytag's sources, quoted by Dozy, show it used of a bundle of clothes (Zamakhsharī, Asās al-balāgha: 'ʿindahu rizmatun min al-thiyāb, wa-hiya mā shudda minhā fī thawbin wāḥidin'), of bales of Angora wool, satin, velvet and cloth in the 1001 Nights (ed. Macnaghten II 116), and from the paper trade of the ʿAbbāsid and Andalusi periods onwards specifically of a bale/ream of paper (Bocthor: 'paquet enveloppé dans du papier'). Nourai's transliteration 'rezmeh' is the Persian-style reading of the Arabic word (Classical rizma, Maghribi/dialectal rezma — Dozy notes the Dictionnaire berbère spelling 'rezma'), not a separate form. The node is exactly right.",
+          "derivation_fa": "«رِزمة» عربی (rizma) اسمی است بر وزن فِعْلَة از ریشهٔ ر-ز-م و از فعل رَزَمَ «بستن و در یک جامه پیچیدن» ساخته شده است؛ معنای آن «آنچه در یک جامه بسته و فراهم شود» یعنی «بقچه، بسته، لنگهٔ بار» است و جمع آن رِزَم می‌آید. زمخشری در اساس البلاغة می‌نویسد «عنده رزمةٌ من الثیاب، و هی ما شُدَّ منها فی ثوبٍ واحدٍ»، و از دورهٔ رونق کاغذسازی در بغداد و اندلس به بعد این واژه به معنی «بستهٔ کاغذ» نیز به کار رفته است. آوانگاشت نورایی «rezmeh» تلفظ فارسی‌شدهٔ همان واژه است، نه صورتی جداگانه (دوزی صورت گویشی rezma را از فرهنگ بربری نقل می‌کند). ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B2%D9%85%D8%A9",
+            "https://www.ahdictionary.com/word/search.html?q=ream"
+          ],
+          "ref_check": [
+            {"ref": "FVA:161", "status": "not_checked", "note": "Nahvi's Farhang-e Vazheha-ye Arabi dar Farsi has no digital copy (refs_online.json: 'Searched archive.org, ketabnak, noorlib, web: no digital copy found'), so p. 161 could not be read."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966, s.v. ream (KLN_1966.txt leaf 696; the printed running numeral '1307' stands a few lines above the entry)", "stance": "supports", "note": "'ream, n., 20 quires of paper. — ME. reme, fr. OF. rayme (F. rame), fr. Sp. resma, fr. Arab. rizmah, \"bundle, bundle of paper\".'"},
+            {"src": "DOZ", "where": "Oosterlingen leaf 84 (≈ pp. 73–75)", "stance": "supports", "note": "'Het Arab. rizma is bij Bocthor ook paquet enveloppé dans du papier … In het bijzonder is het een baal papier, een riem'; and the semantic history 'Dit is de oorspronkelijke beteekenis van 't woord, die evenwel uitgebreid is, zoodat het in 't algemeen bundel beduidt.'"},
+            {"src": "LKT", "where": "Lokotsch no. 1723 (leaf 165 ≈ p. 139)", "stance": "supports", "note": "'Ar. rizma: \"Bündel oder Pack Kleider, Papierstoß\"; hieraus it. risma \"ein Ries Papier\", sp. pg. resma, razma, kat. raima, frz. rame; engl. ream, ndl. riem, dtsch. Ries … dän. riis, schwed. ris.'"},
+            {"src": "AFM", "where": "Addi Shir, al-Alfaz al-Farisiyya al-Muʿarraba (AFM.txt, AFM_pages.txt)", "stance": "silent", "note": "grep 'رزمة' and 'rizma' return nothing — Addi Shir does not list rizma among the Persian words arabicised, confirming it is treated as native Arabic."},
+            {"src": "FVQ", "where": "Jeffery, Foreign Vocabulary of the Qur'an (FVQ.txt)", "stance": "silent", "note": "grep -i 'rizma|razama' finds nothing; the word is not Qurʾānic and Jeffery has no foreign-origin claim for it."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "rezmeh «رزمه»",
+          "verdict": "confirmed",
+          "derivation": "Persian رزمه razme/rezme 'bundle of clothes, bale of cloth' is a straightforward Arabic loan of رِزْمَة rizma, taken over with the usual Persian treatment of the Arabic tāʾ marbūṭa as -a/-e (ه). Mo'in tags the entry '[ع. رزمة]' (i.e. 'Arabic رزمة') and glosses it 'بقچهٔ لباس' ('bundle of clothes'); Dehkhoda gives 'رزمه [رَ مَ / مِ] (از ع، اِ) رزمة. بقچه بزرگ … بقچهٔ رخت … بستهٔ قماش'. It is old in New Persian: Dehkhoda cites Farrokhi Sistani (d. c. 1037) 'زایر کز آنجا بازگردد برد / دیبا به تخت و رزمه و زر به من', and Nizami 'رزمه روم داد و بزمه زنگ'. Borhan-e Qateʿ confirms Persian speakers' own sense of the word's foreignness: s.v. پرونده/پلونده it defines the native word as 'بستهٔ قماش و اسباب' and adds 'و آن را به عربی رزمه خوانند' ('and in Arabic it is called rezma'). Nourai's script, gloss and direction of borrowing are all correct; this is not a Persian→Arabic round-trip.",
+          "derivation_fa": "«رزمه» در فارسی وام‌واژه‌ای است از «رِزمة» عربی، با تبدیل معمول تاء مربوطهٔ عربی به «ـه» فارسی. معین در فرهنگ خود آن را با نشان «[ع. رزمة]» آورده و «بقچهٔ لباس» معنی کرده است، و دهخدا می‌نویسد «رزمه [رَ مَ / مِ] (از ع، اِ) رزمة. بقچهٔ بزرگ … بقچهٔ رخت … بستهٔ قماش». این واژه در فارسی دری کهن است؛ دهخدا بیت فرخی سیستانی «زایر کز آنجا بازگردد برد / دیبا به تخت و رزمه و زر به من» و بیت نظامی «رزمه روم داد و بزمه زنگ» را شاهد آورده است. برهان قاطع نیز ذیل «پرونده/پلونده» می‌نویسد «بستهٔ قماش و اسباب را گویند و آن را به عربی رزمه خوانند»، که نشان می‌دهد خودِ فارسی‌زبانان آن را واژه‌ای عربی می‌دانسته‌اند. پس جهت وام‌گیری در نمودار نورایی درست است و این واژه وام‌گیری دوسویه (فارسی ← عربی ← فارسی) نیست.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B1%D8%B2%D9%85%D9%87/",
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B2%D9%85%D8%A9"
+          ],
+          "ref_check": [
+            {"ref": "FVA:161", "status": "not_checked", "note": "no digital copy of Nahvi 1368/1989 exists (refs_online.json)."},
+            {"ref": "MON:1649", "status": "supports", "note": "Mo'in's entry located in MON_part1.txt line 67171 (OCR 'ررمه' for رزمه): 'رزمه: [ع. رزمه] (ا.) بقچهٔ رخت؛ بستهٔ لباس. لنگِ بار قماش و اثاثه، پشتواره' — Mo'in marks it Arabic, exactly the arrow Nourai draws. The same text is reproduced under 'فرهنگ معین' at abadis.ir: '(رَ مِ) [ع. رزمة] (اِ.) بقچة لباس'. The printed page number 1649 could not be confirmed: the local MON OCR has no page markers (grep -c '\\f' MON_part1.txt = 0) and vajehyab/abadis do not print pagination; but ر falls in Mo'in vol. 2, where p. 1649 is the right region."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "Mo'in, Farhang-e Farsi s.v. رزمه (MON_part1.txt line 67171)", "stance": "supports", "note": "'[ع. رزمه] (ا.) بقچة رخت؛ بستة لباس. لنگ بار قماش و اثاثه، پشتواره.'"},
+            {"src": "BQT", "where": "Borhan-e Qateʿ, BQT_v1_pages.txt leaves 488, 618 and 643 (s.v. پرونده and پلونده, printed pp. ≈ 270, 395, 418)", "stance": "supports", "note": "'پرونده … بمعنی سله و سبد و بنهٔ قماش باشد و آن را بعربی رزمه خوانند' (leaf 488); 'پرونده … بستهٔ قماش و اسباب را گویند و بعربی رزمه خوانند' (leaf 618); 'پلونده … بستهٔ قماش را گویند و بعربی رزمه خوانند' (leaf 643). Borhan has no independent Persian etymology for رزمه and explicitly calls it the Arabic equivalent."},
+            {"src": "HRN", "where": "Horn, Grundriss der neupersischen Etymologie (HRN.txt)", "stance": "silent", "note": "grep -i 'rizma|rezma|razme' returns only 'gerezman' (Armenian, no. 906) — Horn does not treat رزمه, as expected for a book that excludes Arabic loans."},
+            {"src": "HUB", "where": "Hübschmann, Persische Studien (HUB.txt)", "stance": "silent", "note": "grep -i 'rizma|rezma' returns only the unrelated Armenian 'gerezman'; Hübschmann has no entry, again consistent with an Arabic loan rather than an inherited Iranian word."},
+            {"src": "ARY", "where": "Aryanpur, Farhang-e Rishe-ha-ye Hend-o-Orupayi (ARY_pages.txt)", "stance": "silent", "note": "grep 'رزمه' finds nothing — Aryanpur lists only inherited Indo-European vocabulary, so the absence of رزمه is a (weak) confirmation that it is not Iranian."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Spanish",
+          "words": "resma",
+          "verdict": "confirmed",
+          "derivation": "Spanish resma 'ream (of paper)' is a direct Andalusi-Arabic loan: Andalusi rízma/rázma (< Classical rizma) gave Old Spanish rezma, later spelled resma with the ordinary Castilian devoicing/graphic shift of intervocalic -z- before a consonant. The Real Academia's DLE states it plainly: 'Del ár. hisp. rízma, y este del ár. clás. rizmah \"paquete\"'; Wiktionary likewise: 'Borrowed from Arabic رِزْمَة (rizma)'. The route is a concrete historical one — as Etymonline notes, 'The Moors brought manufacture of cotton paper to Spain' (Játiva/Xàtiva was the great Islamic paper mill of al-Andalus from the 11th c.), so the trade term travelled with the commodity. Dozy documents the earliest Iberian attestations: 'rezma (Alcalá, Victor, Cobarruvias, die ook reeds wist, dat het woord Arab. is)', with the variant reismo in a Navarrese document of 1397. Nourai's arrow (Arabic → Spanish) is exactly right; only its continuation to French is debated (see node #4).",
+          "derivation_fa": "resma اسپانیایی «رِیم کاغذ» وام‌واژه‌ای مستقیم از عربیِ اندلسی rízma/rázma (از رِزمهٔ فصیح) است؛ صورت کهن‌تر اسپانیایی rezma بوده که بعدها به resma نوشته شده است. فرهنگستان زبان اسپانیا (DLE) می‌نویسد «Del ár. hisp. rízma, y este del ár. clás. rizmah» و ویکی‌واژه نیز آن را وام از «رِزمة» می‌داند. مسیر وام‌گیری مسیری تاریخی و ملموس است: مسلمانان صنعت کاغذسازی را به اندلس بردند (کارگاه‌های شاطبه از سدهٔ پنجم هجری) و اصطلاح بازرگانی «رزمه» همراه خود کالا به اسپانیایی رفت. دوزی کهن‌ترین شواهد را نقل می‌کند و صورت reismo را در سندی از سال ۱۳۹۷ میلادی در ناوار یافته است. پس این گره از نمودار نورایی تأیید می‌شود.",
+          "sources": [
+            "https://dle.rae.es/resma",
+            "https://en.wiktionary.org/wiki/resma",
+            "https://www.etymonline.com/word/ream"
+          ],
+          "ref_check": [
+            {"ref": "KLN:1307", "status": "supports", "note": "Klein 1966 (KLN_1966.txt form-feed leaf 696; the printed running numeral '1307' occurs 5,851 characters before the entry, i.e. on the same/opposite page of the same leaf): 'ream, n., 20 quires of paper. — ME. reme, fr. OF. rayme (F. rame), fr. Sp. resma, fr. Arab. rizmah, \"bundle, bundle of paper\".' The page number checks out."},
+            {"ref": "FSD:2060", "status": "supports", "note": "Funk & Wagnalls New Standard, vol. 3 (FSD_vol3.txt, form-feed leaf 602), s.v. ream⁴: 'Twenty quires of paper, properly, 480 sheets (a short ream), but often 500 sheets or more (a long r.). [< F rame, < Sp resma, < Ar rizma, bundle of paper]'. The recorded vol.-3 offset (printed = leaf + 1466) puts it at p. ≈ 2068 rather than 2060; no printed numeral survives in the OCR near the entry, so the 8-page difference is most likely scan-offset drift, and the content is exactly what Nourai cites it for."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966, leaf 696 (p. 1307/1308), s.v. ream", "stance": "supports", "note": "'fr. Sp. resma, fr. Arab. rizmah'."},
+            {"src": "DOZ", "where": "Oosterlingen, leaf 84 (≈ p. 74)", "stance": "supports", "note": "'Den vorm rezma (zooals de Dict. berb. heeft) vindt men in 't Sp., rezma (Alcala, Victor, Cobarruvias, die ook reeds wist, dat het woord Arab. is), of, zooals men tegenwoordig minder goed schrijft, resma (zoo ook Port.); den vorm reismo vind ik bij Yanguas … in een stuk van 1397.'"},
+            {"src": "LKT", "where": "Lokotsch no. 1723 (leaf 165 ≈ p. 139)", "stance": "supports", "note": "'hieraus … sp. pg. resma, razma, kat. raima' — Lokotsch derives Spanish resma straight from Arabic rizma, as Nourai does."},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict., form-feed leaf 419 (≈ printed p. 399), s.v. Ream (OCR reads 'Beam')", "stance": "supports", "note": "'Ream (F. – Span. – Arab.) M.E. reeme. – O.F. raime (F. rame), a ream or bundle of paper. – Span. resma, a ream. – Arab. rizmat (pl. rizam), a bundle.'"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "French",
+          "words": "rame, rayme",
+          "verdict": "plausible",
+          "derivation": "Old French rayme/raime (modern French rame 'ream of paper', a paper-trade term distinct from the homonyms rame 'oar' < Lat. remus and rame 'branch' < ramus) certainly goes back to Arabic rizma; what is debated is the Romance intermediary. Nourai follows the older school — Klein ('OF. rayme (F. rame), fr. Sp. resma'), Skeat, Lammens, Devic and Dozy — for whom the French word comes from Ibero-Romance resma/rezma with loss of the sibilant: Dozy, 'Het Fr. rame is ontstaan uit rasme, razme, razma', and Devic, 'Rizma est devenu par la chute du z (comme dans rayme, rame) …'. Modern lexicography prefers a Catalan link: AHD5 has 'from Old French rayme, reme, ultimately (perhaps via Old Catalan raima, from Andalusian colloquial Arabic *razma) from Arabic rizma', and Wiktionary routes Andalusi rázma → Catalan raima → Old French raime → French rame, since Catalan raima explains the diphthong -ai-/-ay- of the oldest French spellings better than Castilian resma does. Both routes start from the same Arabic word and run through Iberia in the same period (the paper trade, 13th–14th c.), so the node is substantially right but the specific Spanish→French arrow is one of two competing reconstructions.",
+          "derivation_fa": "rayme/raime در فرانسهٔ کهن (rame در فرانسهٔ امروز، به معنی «رزمهٔ کاغذ» و جدا از هم‌آواهای rame «پارو» و rame «شاخه») بی‌گمان به «رِزمة» عربی بازمی‌گردد، ولی بر سر واسطهٔ رومیایی آن اختلاف هست. نورایی از مکتب کهن‌تر پیروی می‌کند — کلاین، اسکیت، لامنس، دویک و دوزی — که واژهٔ فرانسوی را از resma/rezma اسپانیایی با افتادن «ز» می‌دانند؛ دوزی می‌نویسد «Het Fr. rame is ontstaan uit rasme, razme, razma» و دویک «Rizma est devenu par la chute du z (comme dans rayme, rame)». اما فرهنگ‌های امروزی واسطهٔ کاتالانی را ترجیح می‌دهند: AHD می‌نویسد «شاید از راه کاتالانیِ کهن raima، از عربیِ عامیانهٔ اندلسی razma*»، و ویکی‌واژه نیز همین مسیر را می‌آورد، زیرا raima کاتالانی دوواکهٔ ـai/ـay در کهن‌ترین املاهای فرانسوی را بهتر توضیح می‌دهد. هر دو مسیر از یک واژهٔ عربی و از راه شبه‌جزیرهٔ ایبری و تجارت کاغذ (سده‌های ۷–۸ هجری) می‌گذرد؛ پس گره در کل درست است، ولی پیکان «اسپانیایی ← فرانسوی» با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://www.ahdictionary.com/word/search.html?q=ream",
+            "https://en.wiktionary.org/wiki/%D8%B1%D8%B2%D9%85%D8%A9",
+            "https://en.wiktionary.org/wiki/ream"
+          ],
+          "ref_check": [
+            {"ref": "LAM:199", "status": "supports", "note": "Lammens, Remarques sur les mots français dérivés de l'arabe (LAM.txt form-feed leaf 256 = printed p. 199, offset leaf = printed + 57), s.v. Rame: 'Rame. Esp : resma. Cat : raima. It : risma, Vieux fr. : rayme; de رزمة riẓma, paquet de hardes … et vulgairement … rame de papier. (Bocthor et Dozy, Supp.)'. The page is exactly right and it gives both the Spanish and the Catalan forms."}
+          ],
+          "consulted": [
+            {"src": "LAM", "where": "Lammens p. 199 (leaf 256), s.v. Rame", "stance": "supports", "note": "'Esp : resma. Cat : raima. It : risma, Vieux fr. : rayme; de riẓma, paquet de hardes.'"},
+            {"src": "DEV", "where": "Devic, Dict. étym. des mots français d'origine orientale, leaf 223 (printed ≈ p. 193), s.v. Rame", "stance": "partial", "note": "'Rame. Vieux français rayme, esp. et portug. rezma, ital. risma. De l'arabe رزمة rizma, qui a signifié paquet de hardes, ballot, puis rame de papier (dans Bocthor). Cette étymologie, proposée par Sousa, combattue par Diez qui préfère la dérivation ἀριθμός … a été appuyée et mise hors de doute par M. Dozy.' Devic derives the French word from Arabic directly (noting 'Rizma est devenu par la chute du z (comme dans rayme, rame) le portugais rima'), without insisting on a Spanish intermediary."},
+            {"src": "PHN", "where": "Pihan, Dict. étym. … dérivés de l'arabe, du persan ou du turc, leaf 342 (printed p. 311), s.v. RAME (terme de papeterie)", "stance": "partial", "note": "'RAME (terme de papeterie), s.f. (a.) رزمة [rizma], assemblage, paquet, ballot de marchandises; dérivé de … [le z] ne se retrouve pas dans le mot français rame, on le retrouve transcrit par s dans l'espagnol et le portugais resma, ainsi que dans l'italien [risma]' — Pihan too takes French straight from Arabic and treats Spanish resma as a parallel, not an ancestor."},
+            {"src": "DOZ", "where": "Oosterlingen leaf 84 (≈ p. 75)", "stance": "partial", "note": "'Het Fr. rame is ontstaan uit rasme, razme, razma; razma wordt in 't Arab. met dezelfde vokaal (de fatha) geschreven als rezma, en de uitspraak hangt van willekeur of van het dialect af' — Dozy derives French from an Arabic razma variant rather than from Castilian resma."},
+            {"src": "LKT", "where": "Lokotsch no. 1723 (leaf 165 ≈ p. 139)", "stance": "partial", "note": "'hieraus it. risma, sp. pg. resma, razma, kat. raima, frz. rame' — Lokotsch lists French rame as a sister of Spanish resma under Arabic rizma, not as its descendant."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "ream 3",
+          "verdict": "confirmed",
+          "derivation": "English ream 'a quantity of paper' (Nourai's 'ream 3' is a homonym index: this is the paper word, as against ream 'cream' < OE rēam and ream 'to enlarge a hole' < OE rȳman) is Middle English rem/reme, first recorded mid-14th c., borrowed from Old French rayme/reme (mod. rame), ultimately Arabic rizma. The Arabic 'bundle' narrowed in the Iberian and French paper trade to the standard commercial unit, and English inherited that trade sense: 20 quires of 24 sheets = 480 sheets (a 'short ream'), later 500, and 516 in a printer's ream — so Nourai's gloss '500 sheets' is the modern count, while the historical one was 480 (Funk & Wagnalls: 'properly, 480 sheets … but often 500 sheets or more'). Klein, Skeat, Funk & Wagnalls, Etymonline and AHD all give the same chain; the only footnote is Etymonline's observation that an early variant rym (late 15th c.) and Middle Dutch rieme/Du. riem suggest the word may have entered English from more than one direction.",
+          "derivation_fa": "واژهٔ انگلیسی ream «رزمهٔ کاغذ» (شمارهٔ ۳ نزد نورایی برای جدا کردن آن از دو هم‌آوای دیگر: ream «سرشیر» از انگلیسی کهن rēam و ream «گشاد کردن سوراخ» از rȳman) در انگلیسی میانه به صورت reme/rem از میانهٔ سدهٔ چهاردهم میلادی گواهی شده و وام‌واژه‌ای است از rayme فرانسهٔ کهن، و در نهایت از «رِزمة» عربی. معنی عمومی «بسته» در تجارت کاغذِ ایبری و فرانسوی به واحد شمارش کاغذ تخصیص یافت و انگلیسی همین معنی بازرگانی را گرفت: ۲۰ دسته × ۲۴ برگ = ۴۸۰ برگ (رزمهٔ کوتاه) و سپس ۵۰۰ برگ و در چاپخانه ۵۱۶ برگ؛ بنابراین معنی «۵۰۰ برگ» که نورایی آورده شمارِ امروزی است و شمار تاریخی ۴۸۰ بوده است. کلاین، اسکیت، فانک‌واگنالز، اتیمانلاین و AHD همگی همین زنجیره را می‌آورند و ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/ream",
+            "https://en.wiktionary.org/wiki/ream",
+            "https://www.ahdictionary.com/word/search.html?q=ream"
+          ],
+          "ref_check": [
+            {"ref": "AHD:1086", "status": "supports", "note": "Nourai cites the main body of the AHD New College ed. (1975/76), which is not openly available, so the page number itself could not be verified (the local AHD file is only Watkins's Indo-European appendix, which has no 'ream' because the word is Semitic). The AHD entry text, unchanged in substance across editions, is on ahdictionary.com s.v. ream¹: '[Middle English rem, from Old French rayme, reme, ultimately (perhaps via Old Catalan raima, from Andalusian colloquial Arabic *razma) from Arabic rizma, bundle, from razama, to bundle; see rzm in Semitic roots.]' — it supports the arrow, with the Catalan qualification discussed at node #4."},
+            {"ref": "KLN:1307", "status": "supports", "note": "KLN_1966.txt leaf 696 (running numeral '1307' printed just above): 'ream, n., 20 quires of paper. — ME. reme, fr. OF. rayme (F. rame), fr. Sp. resma, fr. Arab. rizmah, \"bundle, bundle of paper\".'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "Klein 1966 p. 1307/1308 (leaf 696), s.v. ream 'n., 20 quires of paper'", "stance": "supports", "note": "'ME. reme, fr. OF. rayme (F. rame), fr. Sp. resma, fr. Arab. rizmah'; the same leaf shows Klein's two other 'ream' entries (OE rēam 'cream'; OE rȳman 'to make room'), which is why Nourai numbers his 'ream 3'."},
+            {"src": "SKT", "where": "Skeat, Concise Etym. Dict., leaf 419 (≈ printed p. 399), s.v. Ream", "stance": "supports", "note": "'Ream (F. – Span. – Arab.) M.E. reeme. – O.F. raime (F. rame), a ream or bundle of paper. – Span. resma, a ream. – Arab. rizmat (pl. rizam), a bundle.' — Skeat's language chain is letter-for-letter Nourai's."},
+            {"src": "FSD", "where": "Funk & Wagnalls New Standard, vol. 3 leaf 602 (printed ≈ 2068; Nourai cites 2060), s.v. ream⁴", "stance": "supports", "note": "'Twenty quires of paper, properly, 480 sheets (a short ream), but often 500 sheets or more (a long r.). [< F rame, < Sp resma, < Ar rizma, bundle of paper] … printers' ream, 20½ quires (516 sheets), the surplus to make up for waste.'"},
+            {"src": "LKT", "where": "Lokotsch no. 1723 (leaf 165 ≈ p. 139)", "stance": "supports", "note": "'engl. ream, ndl. riem, dtsch. Ries [mit Abfall der letzten Silbe des it. Grundworts], dän. riis, schwed. ris' — the whole European family under Ar. rizma."},
+            {"src": "WEB", "where": "Webster's New Twentieth Century, 2nd ed. (WEB_vol1.txt)", "stance": "silent", "note": "grep -i 'resma' finds nothing: only volume 1 (A–…) is available locally, so the R section could not be consulted."}
+          ]
+        }
+      ]
+    }
+  ]
+}
