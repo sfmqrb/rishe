@@ -1,0 +1,779 @@
+{
+ "pdf_page": 431,
+ "book_page": 401,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-09-13",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Saus, Sus",
+   "verdict": "confirmed",
+   "modern_form": "PIE *saus- / *sus- 'dry' (laryngealist notation *h₂sews-; adj. *sus-ko-)",
+   "note": "Pokorny IEW 880–881 heads the entry exactly 'saus-, sus- ‚trocken, dürr‘; sauso-, sus-ko ds.' and gathers there Skt. śuṣyati, śuṣka-, Av. haos-/huška-, Gk. aὖos / auštērós, Lat. sūdus, OE sēar, Lith. sausas, OCS suchŭ. The language label 'Indo-European' and the gloss 'dry' are both right; the page number 881 is the second page of Pokorny's entry (the page break '881' falls in the middle of the Indo-Iranian material, right beside av. haos- and huska-), so Nourai's citation is precise. Modern notation makes the root *h₂sews- 'to be dry' with a *-ko- adjective *h₂sus-ko-. One cosmetic point on the chart itself: on the printed page the box to the right of 'Old Persian uška' is an EMPTY box (no language, no word) and the Greek→English arrow runs through a second arrowhead with no intermediate box; the extraction correctly ignores both, so nothing is missing from the JSON.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *saus- / *sus- «خشک» (در نگارش حنجره‌گرایانهٔ امروز *h₂sews-) در فرهنگ پوکورنی در صفحهٔ ۸۸۰–۸۸۱ به همین صورت آمده است. صورت صفتی آن با پسوند *-ko- یعنی *h₂sus-ko- بنیاد سنسکریت śuṣka-، اوستایی huška-، پارسی باستان uška- و فارسی «خشک» است. نام زبان، معنی و شمارهٔ صفحهٔ نورایی هر سه درست است؛ ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82sews-",
+    "https://www.etymonline.com/word/austere"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:881",
+     "status": "supports",
+     "note": "POK_03.txt leaf 115 (= IEW pp. 880–881): 'saus-, sus- ,trocken, dürr‘; sauso-, sus-ko ds. ... av. haos- ‘exarescere’, aŋhao-səmna- ‘nicht trocknend’; ai. śuṣka-, av. huska- ‘trocken’; gr. aὖoς ... aὐστηρός ‘herb, streng’'. The printed page-break marker '881' stands inside this entry, immediately before the Avestan material Nourai uses. Grep: grep -n 'saus-' POK_03.txt"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "WP. II 447 (cited by Pokorny at the foot of the entry)",
+     "stance": "supports",
+     "note": "Pokorny closes the entry 'WP. II 447, WH. II 624, Trautmann 250 f., Frisk 188 f., 192 f.' — i.e. Walde-Pokorny II 447 is the earlier statement of the same root; POK_03.txt leaf 115."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985, s.v. saus-",
+     "stance": "supports",
+     "note": "AHD_watkins1985.txt line 904: 'saus-. Dry. 1. Extended form *sauso- in Germanic *sausaz ... 2. Suffixed form *saus-t- in Greek austéros, harsh: AUSTERE. [Pok. saus- 880.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "Mann, s.v. sausos / sus / susó",
+     "stance": "supports",
+     "note": "IEC.txt line 15033: 'sausos ‘dry, withered, mature’ ... WP II, 447 Skt. (variant) śoṣaḥ ... Av. cf. hao-šəmna- ... OP cf. huška- ... Per. xušk, id.; Gk. aūos'"
+    },
+    {
+     "src": "SYN",
+     "where": "Buck 15.84 DRY, p. 1085",
+     "stance": "supports",
+     "note": "SYN.txt line 27228: 'Grk. (Hom.) aūos, Att. aûos; OE sēar, ME (NE) sere ...; Skt. çuṣka- (for *sus-ka-), Av. huška-, OPers. uška-.'"
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "hauš : to dry ; hauš-a, huška : dry",
+     "verdict": "confirmed",
+     "derivation": "Nourai's 'hauš' is his usual Latin rendering of Avestan haoš- (Av. ao = his au). Bartholomae lists the verbal root under a-ŋhaošəmna- 'nicht ver-, austrocknend' (Y 5.4, Yt 19.32), a present participle passive to *haoša-, and glosses the root 'vertrocknen' (Lat. exarescere in Pokorny's wording); the starred *haoša- is exactly Nourai's second form 'hauš-a', i.e. a reconstructed thematic present stem, not an attested lemma. The adjective huška- 'trocken, ausgetrocknet' is well attested (Y 71.8, V 7.29–35, Yt 8.77–78) and continues *h₂sus-ko-, the zero grade *sus- of the root plus the *-ko- suffix, with Iranian *s > h before *u and the regular Indo-Iranian ruki-retroflexion *-sk- > -šk- (Skt. śuṣka- shows the same with an added initial assimilation ś- for *s-). The only looseness is the box label: hauš/haoša- and huška- are Avestan, while the Old Persian cognate is uška- and has its own box (#4); Bartholomae himself heads the entry 'j. huška-, p. uška-', which is presumably why Nourai merged the two labels.",
+     "derivation_fa": "«hauš» در نگارش نورایی همان ریشهٔ اوستایی haoš- «خشکیدن» است (او ao اوستایی را همواره au می‌نویسد)؛ بارتولومه آن را زیر a-ŋhaošəmna- «خشک‌نشونده» آورده و ستاک حال آن را *haoša- بازسازی کرده است که همان «hauš-a» نورایی است (پس صورتی بازساخته‌شده است نه شاهددار). صفت huška- «خشک» از صورت صفر ریشه (*sus-) با پسوند *-ko- ساخته شده؛ س«» ایرانی باستان پیش از u به h بدل شده و خوشهٔ -sk- بر اثر قاعدهٔ ruki به -šk- دگرگون شده است. تنها نکته آن که هر سه صورت اوستایی‌اند و صورت پارسی باستان (uška-) جعبهٔ جداگانه دارد؛ با این همه خود بارتولومه مدخل را «j. huška-, p. uška-» عنوان کرده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82sews-",
+      "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%DA%A9"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:881",
+       "status": "supports",
+       "note": "POK_03.txt leaf 115: 'av. haos- ‘exarescere’, aŋhao-səmna- ‘nicht trocknend’; ai. śuṣka- (aus *suṣka-), av. huska- ‘trocken’' — both of Nourai's Avestan forms, on the very page cited."
+      },
+      {
+       "ref": "SOD:373",
+       "status": "partial",
+       "note": "Gharib's Sogdian dictionary is cited on this box only because the Sogdian descendant hangs from it; the Avestan forms are not in SOD. The Sogdian entry itself (no. 9238 skw, 'dry', '<Av. hiška') is on printed p. ~374 of SOD_pages.txt (leaf 440), i.e. within a page of the citation."
+      },
+      {
+       "ref": "ETM:64",
+       "status": "not_checked",
+       "note": "Abolghasemi, Risheh-shenasi (Qoqnus 1374) — refs_online.json records no scan online (searched archive.org, ketabnak, noorlib); no copy on disk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. ~1839–1840 s.v. huška-, and s.v. a-ŋhaošəmna- (col. ~106)",
+       "stance": "supports",
+       "note": "BRT.txt line 30531 ff.: '• j. huška-, p. uška- 1) Adj. ‘trocken, ausgetrocknet’'; and line 4127 s.v. a-ŋhaošəmna-: '*haosəmna-, PPM. zu *haosa; ... Vgl. ai. śuṣyati ‘er vertrocknet’, np. xušīdan ‘verdorrt sein’, gr. aὖos. — Vgl. huska-.'"
+      },
+      {
+       "src": "KNT",
+       "where": "p. 178 s.v. uška-",
+       "stance": "supports",
+       "note": "KNT.txt: 'uška- adj. ‘dry’; nt. as sb., ‘land, mainland’: Av. huška- ‘dry’, NPers. xusk, Skt. śuṣka-, śuṣyati ‘dries’...'"
+      },
+      {
+       "src": "ARY",
+       "where": "pdf p. 242 (printed 243) s.v. خشک",
+       "stance": "supports",
+       "note": "ARY_latin_index_pages.txt lines around 6990: 'HAOS-, HUSHKA-, HUSH- (AVESTAN) ... USHKA- (OLD PERSIAN) ... HUSHK, XUSHK (PAHLAVI) ... HISHK (KURDISH)' — an independent modern Persian handbook giving exactly Nourai's Avestan/OP/Pahlavi set."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "xošk «خشک» : dry",
+     "verdict": "confirmed",
+     "derivation": "NP خشک xošk (classical xušk) is the direct continuation of MP hušk (Book Pahlavi <hwšk'>), itself from Old Iranian *huška- = Av. huška-; the initial Iranian h- before u was reinterpreted as x- already in late Middle Persian / early New Persian (MacKenzie writes the Pahlavi as hušk and notes the NP outcome xušk), whence the modern spelling with خ. Wiktionary traces the same line: Proto-Iranian *Hhúškah < Proto-Indo-Iranian *Hsúškas < PIE *h₂sews- + *-kos, cognate with Skt. śuṣka-. The denominal verbs in the extra box are equally regular: خشکیدن xoškīdan 'to dry up' and its participle خشکیده are built on the adjective, while خوشیدن xušīdan / خوشیده continue the inherited verb itself — Bartholomae expressly cites 'np. xušīdan ‘verdorrt sein’' beside Av. haoš- and Skt. śuṣyati, which is why the -k- is absent in that pair. Sa'dī's line بخوشید سرچشمه‌های قدیم quoted in the box is a genuine attestation of that older verb.",
+     "derivation_fa": "«خشک» از فارسی میانهٔ hušk [hwšk']، از ایرانی باستان *huška- (اوستایی huška-، پارسی باستان uška-) است؛ h آغازین پیش از u در گذار به فارسی نو به خ بدل شده است. معین در حاشیهٔ برهان قاطع (ص ۷۵۰) همین زنجیره را با گونه‌های گیلکی، سمنانی، سنگسری و فریزندی آورده است. از میان صورت‌های جعبه، «خشکیدن/خشکیده» از خود صفت ساخته شده، اما «خوشیدن/خوشیده» دنبالهٔ مستقیم فعل اوستایی haoš- است که بارتولومه نیز صریحاً «np. xušīdan» را در کنار سنسکریت śuṣyati نقل می‌کند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%DA%A9",
+      "https://abadis.ir/fatofa/%D8%AE%D8%B4%DA%A9/"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:752",
+       "status": "supports",
+       "note": "Mo'in's etymological footnote to خشک in Borhan-e Qate‘ is on the printed page reached at leaf 210 of BQT_v2_pages.txt; the Latin-script part survives in the OCR mirror-reversed — 'khsuh' = hušk (پهلوی), 'akhsuh' = huška- (اوستا) beside پارس باستان uška-, then 'khsuxx' = xušk for Semnani and the Gilaki/Sangesari/ Farizandi/Natanzi dialect forms. Content is exactly Nourai's chart. The page offset for vol. 2 is uncertain by 2–3 (leaf+540 vs leaf+543), so the footnote sits on printed p. 750–753 and Nourai's 752 is inside that band."
+      },
+      {
+       "ref": "MON:1461",
+       "status": "not_checked",
+       "note": "Mo'in's 6-vol. Farhang-e Farsi is not online with its pagination (refs_online.json: only the 2-vol. Adena condensation exists). Content cross-check via abadis' Mo'in text: 'خُشک (خُ) [په.] (ص.) ۱ - بدون رطوبت و نم' — the tag [په.] = Pahlavi, agreeing with the chart's route."
+      },
+      {
+       "ref": "ETM:64",
+       "status": "not_checked",
+       "note": "Abolghasemi's Risheh-shenasi is not available in any scan (see refs_online.json)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 46 s.v. hušk",
+       "stance": "supports",
+       "note": "PHD.txt: 'hušk [hwšk' | = M, N xušk] dry' — MacKenzie gives the Pahlavi form and the NP outcome in one line."
+      },
+      {
+       "src": "BRT",
+       "where": "col. ~106 s.v. a-ŋhaošəmna-",
+       "stance": "supports",
+       "note": "'Vgl. ai. śuṣyati ‘er vertrocknet’, np. xušīdan ‘verdorrt sein’' — Bartholomae explicitly attaches NP خوشیدن (Nourai's extra word) to this root."
+      },
+      {
+       "src": "HUB",
+       "where": "Persische Studien",
+       "stance": "silent",
+       "note": "grep -n 'hušk\\|xušk\\|chusk' HUB.txt returns nothing — Hübschmann does not treat this word."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab/abadis text of Mo'in s.v. خشک",
+       "stance": "supports",
+       "note": "'(خُ) [په.] (ص.) ۱ - بدون رطوبت و نم ...' — Pahlavi origin tag, no Arabic or foreign tag."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Sogdian",
+     "words": "škw : dry",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "škw",
+     "correct_form": "skw / ʾskw (Sogd. sku, Manichaean skw, Buddhist Sogdian ʾskw)",
+     "derivation": "The Sogdian word for 'dry' does descend from the same Old Iranian *huška-/*hiška- as Avestan huška-: Gharib's Sogdian dictionary has no. 1752 ʾskw (Buddhist/Manichaean) '(ə)sku ©<*hišku' 'dry' and no. 9238 skw (Manichaean) '(ə)sku ©<Av. hiška' 'dry', with the by-forms swk- / swkcʾ / skwy(y) 'dry'. Sogdian lost the initial h-, kept šk as sk in the transliteration, and prothesised ʾ- in the Sogdian script; that is the whole derivation, and the arrow is right. What is wrong is only the shape of the word in the box: the printed page (pdf p. 431, see data/verification/sources/refs/ocr/BOOK/431.png) really does show 'škw', with š, and no Sogdian form škw is known to Gharib (grep of SOD.txt for 'škw' finds nothing; every attested spelling has plain s). So the book prints an erroneous š for s — Nourai's own misprint, faithfully extracted — and the form that should stand is skw / ʾskw.",
+     "derivation_fa": "واژهٔ سغدی به معنی «خشک» در فرهنگ بدرالزمان قریب به صورت‌های ʾskw (شمارهٔ ۱۷۵۲) و skw (شمارهٔ ۹۲۳۸) و swk- آمده که همه از ایرانی باستان *hiška-/*huška- بازمانده‌اند؛ سغدی h آغازین را انداخته و در خط سغدی الف پروتتیک گرفته است. پس پیوند درست است، اما صورت مندرج در کتاب یعنی «škw» با شین، در هیچ منبعی شاهد ندارد. تصویر صفحهٔ چاپی نشان می‌دهد که خود کتاب چنین نوشته است؛ پس خطای چاپی کتاب است نه خطای خوانش اسکن، و صورت درست skw / ʾskw است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%AE%D8%B4%DA%A9"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:373",
+       "status": "partial",
+       "note": "Gharib no. 9238 'skw M (ə)sku ©<Av. hiška — dry — GMS 96, 397; BBB p53.486' sits at leaf 440 of SOD_pages.txt ≈ printed p. 374, one page off Nourai's 373 (the file's offset is leaf−66 ±1); no. 1752 'ʾskw B, M (ə)sku ©<*hišku — dry' is at p. ~68. The meaning and the etymology are as charted; the spelling škw is not in the dictionary."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "nos. 1752, 9238, 9248, 9356, 9359",
+       "stance": "partial",
+       "note": "'1752 ʾskw ... (ə)sku ©<*hišku — dry'; '9248 skwy(y) M skawe? ©<*(hi)škuwaka — dry'; '9356 swk- M suk (swq-) — dry'; '9359 swkcʾ M sukca ©*(hi)škwaka — dry'. Every spelling begins with s, never š."
+      },
+      {
+       "src": "BRT",
+       "where": "col. ~1839 s.v. huška-",
+       "stance": "supports",
+       "note": "'j. huška-, p. uška- Adj. ‘trocken, ausgetrocknet’' — the Old Iranian base from which Gharib derives the Sogdian word."
+      },
+      {
+       "src": "PHD",
+       "where": "p. 46 s.v. hušk",
+       "stance": "supports",
+       "note": "'hušk [hwšk' | = M, N xušk] dry' — the Middle Persian sister form of the Sogdian word."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Old Persian",
+     "words": "uška : dry",
+     "verdict": "confirmed",
+     "derivation": "OP uška- 'dry', attested in the neuter used as a substantive 'dry land, mainland' in the genitive uškahyā of Darius' Susa inscription DPe 13, is the Old Persian counterpart of Av. huška- from Old Iranian *huška- < PIE *h₂sus-ko-. The only difference from Avestan is the loss of the initial h- before u in Old Persian, a regular OP development that Kent treats under §146.1; the -šk- again reflects ruki. Because uška- is a sister of Av. huška- and not its descendant, Nourai correctly hangs it from the root box and not from node #1.",
+     "derivation_fa": "پارسی باستان uška- «خشک»، در کتیبهٔ داریوش در شوش (DPe ۱۳) به صورت uškahyā به معنی «خشکی، خشکی زمین» آمده است. این صورت هم‌ارز اوستایی huška- است و تفاوتش تنها افتادن h آغازین پیش از u است که در پارسی باستان قاعده‌مند است (کنت §۱۴۶). ادعای نورایی درست است؛ و چون uška- خواهر huška- است نه بازماندهٔ آن، جای گرفتنش زیر خود ریشه درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/austere"
+     ],
+     "ref_check": [
+      {
+       "ref": "KNT:178",
+       "status": "supports",
+       "note": "KNT.txt, Lexicon: 'uška- adj. ‘dry’; nt. as sb., ‘land, mainland’: Av. huška- ‘dry’, NPers. xusk, Skt. śuṣka-, śuṣyati ‘dries’, Lith. saūsa-s ‘dry’, NEng. sere, sear (§146.1). uškahyā gsn. DPe 13.' The entry falls on the leaf 13 leaves after the one carrying the printed numeral 166, i.e. printed p. ~178—179."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. ~1839 s.v. huška-",
+       "stance": "supports",
+       "note": "Bartholomae heads the entry '• j. huška-, p. uška-', explicitly pairing the Avestan and Old Persian forms."
+      },
+      {
+       "src": "SYN",
+       "where": "Buck 15.84 DRY",
+       "stance": "supports",
+       "note": "SYN.txt line 27228: 'Skt. çuṣka- (for *sus-ka-), Av. huška-, OPers. uška-.'"
+      },
+      {
+       "src": "KNT",
+       "where": "§117 (phonology)",
+       "stance": "supports",
+       "note": "KNT.txt line 1438: 'OP uška- ‘dry’, Av. huska-, Lith. sausa-s' — cited among the examples of pIE s remaining unchanged in OP."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Greek",
+     "words": "austěros : harsh",
+     "verdict": "confirmed",
+     "derivation": "Gk. αὐστηρός austērós, originally of fruit and wine 'making the tongue dry, rough, tart', hence metaphorically 'harsh, severe', is a -ηρός derivative of the same root as αὖος aûos 'dry' and αὝω haúō 'to dry'. Greek lost the initial *s- of *saus- to h- and then to nothing in αὖος < *sauso-; Watkins formalises the adjective as a suffixed *saus-t- > austēros. Nourai attaches it to the root box rather than to the Iranian node, which is right: it is a cognate, not a borrowing from Iranian.",
+     "derivation_fa": "واژهٔ یونانی αὐστηρός (austērós) نخست دربارهٔ میوه و شراب «گس، دهان‌خشک‌کن» بود و سپس معنی «سخت، درشت» یافت؛ از همان ریشهٔ αὖος «خشک» و αὝω «خشکاندن» ساخته شده است. در یونانی s آغازین *saus- نخست به h و سپس به صفر رسیده؛ واتکینز صورت پسوندی *saus-t- را برای آن بازسازی می‌کند. پس این واژه هم‌ریشهٔ «خشک» است نه وام‌واژهٔ آن؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/austere",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82sews-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 904 s.v. saus-: '2. Suffixed form *saus-t- in Greek austéros, harsh: AUSTERE. [Pok. saus- 880.]' — exactly the arrow drawn."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "IEW 881",
+       "stance": "supports",
+       "note": "POK_03.txt leaf 115: 'gr. aὖoς (Hom.), aὖoς (att.) ‘dürr, trocken’, aὐσταλέος ‘struppig, schmutzig’, aὐστηρός ‘herb, streng’'."
+      },
+      {
+       "src": "KLN",
+       "where": "p. 1432 s.v. austere / s.v. auantic",
+       "stance": "supports",
+       "note": "KLN_1966.txt leaf 4011: 'austere, adj. ... fr. L. austerus, ‘dry, harsh, sour, tart’, fr. Gk. aὐστηρός, ‘harsh, rough, bitter’, fr. aὐειν, ‘to dry’, fr. aὖoς, ‘dry’' (and s.v. auantic: aὖoς '... stands for *sauso-s and derives fr. I.-E. base *saus-, *sus-, ‘dry’')."
+      },
+      {
+       "src": "IEC",
+       "where": "Mann s.v. sausos",
+       "stance": "supports",
+       "note": "IEC.txt line 15033 lists 'Gk. aūos, adj. id.; aūō, v. ‘parch’' under sausos."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "English",
+     "words": "austerity",
+     "verdict": "confirmed",
+     "derivation": "The box has no reference because the chain is the standard Graeco-Latin one, and the printed chart even draws it through a second (empty) arrowhead: Gk. austērós → Lat. austērus 'dry, harsh, sour' → Late Latin abstract austēritās (acc. austeritatem) → Old French austerité 'harshness, cruelty' (14th c.) → Middle English austerite, mid-14th c., 'sternness, harshness'. The sense 'severe self-discipline, ascetic practice' is from the 1580s and the modern economic sense ('policy limiting non-essentials') dates from the Second World War. The adjective austere had entered English a little earlier, in the early 14th c., by the same route.",
+     "derivation_fa": "واژهٔ انگلیسی austerity از راه لاتین و فرانسه به یونانی می‌رسد: austērós یونانی > لاتین austērus > لاتین پسین austēritās > فرانسهٔ باستان austerité > انگلیسی میانه (نیمهٔ سدهٔ چهاردهم میلادی) به معنی «سختگی، درشتی». معنی «ریاضت‌کشی» از دههٔ ۱۵۸۰ م و معنی اقتصادی امروزین از جنگ جهانی دوم است. جعبه در کتاب ارجاع ندارد و نیازی هم ندارد؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/austere"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node carries no reference in the book; the chain is verified from Etymonline and Klein instead."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "p. 1432 s.v. austere",
+       "stance": "supports",
+       "note": "'austere, adj., stern, severe; very simple. — OF. austere (F. austère), fr. L. austerus ... fr. Gk. aὐστηρός'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Austere",
+       "stance": "supports",
+       "note": "SKT.txt line 1187: 'Austere. (F.-L.-Gk.)' — Skeat's formula for French < Latin < Greek."
+      },
+      {
+       "src": "WEB",
+       "where": "vol. I s.v. austere / austerity",
+       "stance": "supports",
+       "note": "WEB_vol1.txt line 13582: 'aus-tere’, a. [ME. austere, OFr. austere; L. austerus, harsh; Gr. austēros, dry, harsh.]' with 'austerity' as the next headword."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Sav 1, Savah 1",
+   "verdict": "confirmed",
+   "modern_form": "Av. sav- / sū- 'to benefit, be of use' and savah- n. 'benefit, (eternal) welfare' (Proto-Iranian *sauH-, PIE *ḱewh₁- 'to swell, increase')",
+   "note": "Both root forms are real Avestan lemmas with the glosses Nourai gives. Bartholomae has '• j. (1 g) sav- V. ‘nützen’, Praes. 17 (Fut.) saošya-, 25 (Pass.) suya-, 30 (Iter.) sāvaya-' and, separately, '• j., g. savah- n. ‘Nutzen, Vorteil’' (in the Gathas specifically the eternal benefit of the next life). The 'Sav 1 / Savah 1' numbering is Nourai's device to separate this root from the homonymous Av. sav- 'to move' and savah- 'the eastern continent' (Bartholomae has both). One addition modern scholarship makes: Cheung (2007) shows that this Iranian *sauH is the Iranian form of PIE *ḱeuh₁- 'to bulge, swell up, increase' (LIV 339 f.; Pok. 592 ff.), so the 'benefit' sense is secondary to 'increase, prosper' — Nourai simply stops one layer short, he does not err.",
+   "note_fa": "هر دو صورت ریشه اوستایی و شاهددارند: بارتولومه sav- را «nützen» (سود رساندن) و savah- را «Nutzen, Vorteil» (سود، بهره) معنی کرده است؛ در گاثاها ویژه به معنی «سود جاودانی» است. شمارهٔ ۱ در «Sav 1» از آن روست که ریشهٔ هم‌نویسهٔ دیگری (sav- «حرکت کردن» و savah- نام کشور خاوری) هم هست. افزودنی امروزین: چونگ (۲۰۰۷) این ریشه را ایرانی *sauH و ادامهٔ هندواروپایی *ḱeuh₁- «ورم کردن، افزودن» می‌داند؛ پس معنی «سود» ثانوی است. ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AF"
+   ],
+   "ref_check": [
+    {
+     "ref": "HRN:166",
+     "status": "supports",
+     "note": "HRN.txt leaf 187 = printed p. 166, no. 751: 'sūd ‘Nutzen, Vorteil’. ... aw. √sav- ‘nützen’; phlv. sūt, sūtīh, sūtōmand, sūtīnītan.' Horn's line is precisely the chart's Avestan→Pahlavi→Persian sequence."
+    },
+    {
+     "ref": "NYB:181",
+     "status": "supports",
+     "note": "NYB_vol2_glossary.txt, page marker '181 sūtēh' on the same leaf: 'sūt [swt'] use, advantage, benefit ... MPrs swd; Paz. sud, NP sūd, from Av. (1561) sav- ‘to benefit’, savā- savah- ‘(eternal) welfare’, cf Sošans.' — both of Nourai's root forms with both of his glosses, on the cited page."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "BRT",
+     "where": "col. ~1561 s.v. sav-, and s.v. savah-",
+     "stance": "supports",
+     "note": "BRT.txt line 26010: '• j. (1 g) sav- V. ‘nützen’ ... Vgl. ... np. sūd ‘Nutzen’'; and the following column: '• j., g. savah- n. ‘Nutzen, Vorteil’ ... a) gĀw. nur vom ‘ewigen Nutzen’ im andern Leben'."
+    },
+    {
+     "src": "CHEUNG",
+     "where": "s.v. *sauH ‘to bulge, swell up, increase’, p. 341",
+     "stance": "partial",
+     "note": "'*AVESTAN: su- (sāuu-) ... *MIDDLE PERSIAN: MMP swd, swwd, BMP swt /sud/ ‘profit, use, advantage’ ... *NWIR: ... NP sūd ‘gain, profit’ ... «PIE *ḱeuH₁- ‘to bulge, swell up’'. Same chain, but Cheung glosses the Avestan root ‘swell, increase’ and takes it a layer deeper than Nourai."
+    },
+    {
+     "src": "PHD",
+     "where": "p. 79 s.v. sūd",
+     "stance": "supports",
+     "note": "PHD.txt: 'sūd [swt' | M swd, N ~] use, profit, advantage'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Pahlavi",
+     "words": "sŭt : benefit, interest",
+     "verdict": "confirmed",
+     "derivation": "Middle Persian sūd, spelt <swt'> in Book Pahlavi (hence Nourai's and Horn's Latinisation 'sūt': the Pahlavi <t> is the historical spelling of a sound already pronounced d) and <swd>/<swwd> in Manichaean Middle Persian, where the pronunciation is unambiguous. It continues Old Iranian *sūta- / *sauta-, a verbal noun to Av. sav-/sū- 'to benefit', with Old Iranian intervocalic *-t- preserved in the spelling but voiced to -d- in speech. MacKenzie's entry writes it 'sūd [swt' | M swd, N ~]', i.e. Book Pahlavi swt', Manichaean swd, New Persian identical; Nyberg (p. 181) glosses 'sūt [swt'] use, advantage, benefit', citing Dēnkard 62.19, 63.13.24.",
+     "derivation_fa": "فارسی میانهٔ sūd که در خط پهلوی کتابی <swt'> نوشته می‌شده (و از همین رو نورایی و هرن آن را sūt آورده‌اند) و در فارسی میانهٔ مانوی <swd> و <swwd> ضبط شده، ادامهٔ ایرانی باستان *sūta- اسم مفعولی از ریشهٔ sav-/sū- است. تیٔ میان‌واکه‌ای در نوشتار پهلوی تاریخی مانده اما در گفتار به دال نرم شده بود. مکنزی و نیبرگ هر دو همین را می‌گویند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AF"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:166",
+       "status": "supports",
+       "note": "Horn no. 751 (printed p. 166): 'aw. √sav- ‘nützen’; phlv. sūt, sūtīh, sūtōmand, sūtīnītan' — the Pahlavi form and its family, exactly as charted."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 79 s.v. sūd",
+       "stance": "supports",
+       "note": "'sūd [swt' | M swd, N ~] use, profit, advantage'; MacKenzie also has 'sūd(ō)mand [swt(ʾww)mnd | N sūdmand] useful'."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II p. 181",
+       "stance": "supports",
+       "note": "'sūt [swt'] use, advantage, benefit 62¹⁹. 63¹³·²⁴ etc. — MPrs swd; Paz. sud, NP sūd, from Av. (1561) sav- ‘to benefit’'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *sauH, p. 341",
+       "stance": "supports",
+       "note": "'*MIDDLE PERSIAN: MMP swd, swwd, BMP swt /sud/ ‘profit, use, advantage’ => DMMPP: 310a'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "sŭd «سود» : interest, benefit, advantage",
+     "verdict": "confirmed",
+     "derivation": "NP سود sūd continues MP sūd unchanged — the ū is the inherited long vowel and the final -d simply makes explicit the value of Book Pahlavi <-t'>; Wiktionary's Persian entry is exactly 'From Middle Persian <swt'>, 𐣘𐣇𐣅 (swd), 𐣘𐣇𐣇𐣅 (swwd /sūd/)'. The extra word سودمند sūdmand 'useful' is likewise a direct continuation of MP sūd(ō)mand (the Pahlavi suffix -ōmand > NP -mand), and Horn lists it among the Pahlavi family of the word. The commercial sense 'interest (on money)' is a New Persian specialisation of the inherited 'benefit', already visible in Horn's Judaeo-Persian citation 'sīd ‘Zinsen’'. The Khāqānī couplet in the box uses the word in the older sense 'be of benefit to all'.",
+     "derivation_fa": "«سود» دنبالهٔ بی‌دگرگونی فارسی میانهٔ sūd است؛ دال پایانی همان ارزش آوایی است که در خط پهلوی کتابی زیر <t'> پنهان بوده و در فارسی میانهٔ مانوی آشکارا swd نوشته شده است. «سودمند» نیز ادامهٔ sūd(ō)mand پهلوی است (پسوند -ōmand > -مند). معنی «بهرهٔ پولی» تحول معنایی متأخر از «سود، بهره» است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AF"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:166",
+       "status": "supports",
+       "note": "Horn no. 751 heads the entry with the New Persian word itself: 'sūd ‘Nutzen, Vorteil’. g. sīd ‘Zinsen’. aw. √sav- ‘nützen’; phlv. sūt, sūtīh, sūtōmand, sūtīnītan. bel. sāt, sīt (357); sonst allgemein entlehnt.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 79 s.v. sūd, sūd(ō)mand",
+       "stance": "supports",
+       "note": "'sūd [swt' | M swd, N ~] use, profit, advantage'; 'sūd(ō)mand [swt(ʾww)mnd | N sūdmand] useful' — covering Nourai's extra word سودمند too."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II p. 181",
+       "stance": "supports",
+       "note": "'... MPrs swd; Paz. sud, NP sūd, from Av. (1561) sav- ‘to benefit’'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *sauH, p. 341",
+       "stance": "supports",
+       "note": "'*NWIR: Bal. sitʾ, siθ/si- ‘to swell’, NP sūd ‘gain, profit’'."
+      },
+      {
+       "src": "ARY",
+       "where": "latin index",
+       "stance": "silent",
+       "note": "grep of ARY_latin_index_pages.txt for SUD / SAVAH as an Iranian headword returns only an unrelated Sanskrit *SAVAH entry; Aryanpur has no سود article."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Sogdian",
+     "words": "swt : interest, benefit",
+     "verdict": "confirmed",
+     "derivation": "Gharib no. 9078 'swt B — sōt — benefit — Frag. Len. 60.3': a Buddhist Sogdian noun sōt 'benefit', the exact Sogdian counterpart of MP sūd < Old Iranian *sūta- to the root sav-/sū-. Sogdian writes the historical -t, like Book Pahlavi, and Gharib reads the vowel as ō. Nourai hangs it directly from the Avestan root rather than from Pahlavi, which is correct: Sogdian is an East Iranian sister of Persian, not its descendant.",
+     "derivation_fa": "قریب در فرهنگ سغدی شمارهٔ ۹۰۷۸ را چنین آورده است: 'swt B — sōt — benefit' (از متن بودایی Frag. Len. ۶۰،۳). این واژه هم‌ارز فارسی میانهٔ sūd و بازماندهٔ ایرانی باستان *sūta- از ریشهٔ sav-/sū- است؛ تیٔ پایانی مانند پهلوی کتابی تاریخی نوشته شده است. چون سغدی زبان ایرانی خاوری و خواهر فارسی است نه فرزند آن، وصل کردن آن به خود ریشه درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AF"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:366",
+       "status": "supports",
+       "note": "SOD.txt entry '9078 swt B — sōt — benefit — Frag. Len. 60.3'; it sits at leaf 433 of SOD_pages.txt ≈ printed p. 367, i.e. Nourai's 366 within the file's ±1 offset."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "no. 9078",
+       "stance": "supports",
+       "note": "'9078 swt B / sōt / benefit / Frag. Len. 60.3' — form, language and gloss as charted."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *sauH, p. 341",
+       "stance": "partial",
+       "note": "Cheung lists Avestan, MP, Khotanese, Bactrian, Balochi and Ossetic continuants of *sauH but no Sogdian noun; he neither confirms nor contradicts Gharib's swt."
+      },
+      {
+       "src": "NYB",
+       "where": "Manual of Pahlavi II p. 181 s.v. sūt",
+       "stance": "supports",
+       "note": "Nyberg derives the whole Middle Iranian family from 'Av. (1561) sav- ‘to benefit’, savā- savah-', the same source Gharib's Sogdian word requires."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 3,
+   "root": "Šavala",
+   "verdict": "disputed",
+   "modern_form": "Skt. śabala / śavala 'variegated, brindled, dappled' is a real word, but it is not the accepted source of Persian شال; modern dictionaries derive شال from Skt. śāṭī 'cloth, sari' (via an Indo-Aryan intermediary), with the Chaliyam/Šāliyāt toponym as the rival suggestion",
+   "note": "The headword itself checks out as Sanskrit: Monier-Williams s.v. śabala '(also written śavala; cf. śabara) variegated, brindled, dappled, spotted (in RV. x, 14, 10 applied to the two four-eyed watch-dogs of Yama), RV. &c.' — but the gloss printed in the chart, '(a fabric) marked with colors', adds the 'fabric' out of nothing: no dictionary gives śavala a textile sense. The derivation of Persian شال from it comes straight from Nourai's own source, Hobson-Jobson p. 824 ('The Persian word is perhaps of Indian origin, from Skt. savala, ‘variegated’') — a guess Yule himself hedges with 'perhaps'. Modern reference works reject it: the current American Heritage Dictionary has '[Persian shāl, ultimately from Sanskrit śāṭī, cloth, sari]' and Wiktionary 'Borrowed from an Indo-Aryan language. Compare Hindi दुशाला (duśālā), from Sanskrit शाटी (śāṭī) ... Sometimes said to be from or influenced by Chāliāt, a Persian pronunciation of Chaliyam in India'. The second of those two views is the one Nourai himself records in the chart NOTE from Klein, and Lokotsch no. 1802 backs it with Ibn Baṭṭūṭa IV, 109 on the town of Šāliāt. So the root box as drawn is the weakest link on the page: the Persian word and every arrow below it are sound, the Sanskrit ancestor is not.",
+   "note_fa": "سنسکریت śabala / śavala واژه‌ای واقعی است و مونیر ویلیامز آن را «رنگارنگ، ابلق، خالدار» معنی کرده است؛ اما هیچ فرهنگی برای آن معنی «پارچه» نیاورده و این افزودهٔ نورایی است. خاستگاه «شال» از این واژه تنها حدس یول در هابسن‌جابسن (ص ۸۲۴) است که خود با «شاید» همراه شده. پژوهش امروزی آن را رد می‌کند و «شال» را وام‌واژه‌ای از زبان‌های هندوآریایی و در نهایت از سنسکریت śāṭī «جامه، ساری» می‌داند (فرهنگ میراث آمریکایی، ویکی‌واژه)؛ احتمال دیگر همان است که خود نورایی از کلاین نقل کرده: نام شهر «شالیات» در هند (به گواهی ابن‌بطوطه ۴،۱۰۹ و لوکوچ شمارهٔ ۱۸۰۲). خلاصه: ریشهٔ سنسکریت پیشنهادی نورایی پذیرفته نیست، هرچند بقیهٔ زنجیره درست است.",
+   "sources": [
+    "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/web/webtc/getword.php?key=Sabala",
+    "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%84",
+    "https://ahdictionary.com/word/search.html?q=shawl",
+    "https://www.etymonline.com/word/shawl"
+   ],
+   "ref_check": [
+    {
+     "ref": "HJB:824",
+     "status": "supports",
+     "note": "HJB.txt leaf 868 (= printed p. 824, offset leaf−44): 'SHAWL, s. Pers. and Hind. shāl, also doshāla, ‘a pair of shawls.’ The Persian word is perhaps of Indian origin, from Skt. savala, ‘variegated.’' The page cited says what Nourai draws — including the hedging 'perhaps', which the chart drops."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "current online edition, s.v. shawl",
+     "stance": "contradicts",
+     "note": "'[Persian shāl, ultimately from Sanskrit śāṭī, cloth, sari.]' — śāṭī, not śavala."
+    },
+    {
+     "src": "LKT",
+     "where": "Lokotsch no. 1802",
+     "stance": "contradicts",
+     "note": "'Pers. šāl ‘Umschlagetuch’ [ursprünglich wohl ein Eigenname, denn IBN BAṬṬŪTA spricht IV, 109 von einer Stadt Šāliāt in Indien ...]' — a toponym, with no Sanskrit śavala anywhere."
+    },
+    {
+     "src": "KLN",
+     "where": "p. 1432 s.v. shawl",
+     "stance": "contradicts",
+     "note": "'shawl, n. — Pers. shāl, named after Shaliat, a town in India, where it was first manufactured.' — the alternative Nourai himself notes on the chart."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Persian",
+     "words": "šâl 1 «شال ۱» : scarf ; šâl 2, šâlang «شال ۲ ، شالنگ» : a thin rough and inexpensive rug",
+     "verdict": "disputed",
+     "derivation": "Both Persian words are real and both are old. شال šāl in the sense 'coarse woollen cloth, wrap' is attested from the 11th century: Asadi's Loghat-e Fors quotes 'Onṣorī (Balkhī): زآن مثل حال من بگشت و بتافت / که کسی شال جست و دیبا یافت' with the explanation 'شال گلیمی بود کوچک پشمین' — 'a small woollen rug' — which is Nourai's šāl 2, and Mo'in repeats that gloss in his note to Borhan p. 1228. شالنگ šālang is the same word with the Persian suffix -ang and is glossed there as a rug/coarse woollen piece too. Meninski (1680), quoted by Yule, still defines šāl as the humble 'panni viliores ... ex lana et pilis caprinis' thrown over the shoulders by dervishes; the luxury 'Kashmir shawl' sense is the later specialisation. What is disputed is only the arrow from the root box: the word is not derivable from Skt. śavala 'variegated' — -v-a- would not vanish and the sense 'variegated' is not that of the Persian word — and modern dictionaries take it either from Skt. śāṭī 'cloth' through an Indo-Aryan intermediary (AHD, Wiktionary) or from the Malabar town Chaliyam / Šāliāt (Klein, Lokotsch, after Ibn Baṭṭūṭa IV, 109), which is the view Nourai records in his own NOTE.",
+     "derivation_fa": "هر دو واژهٔ فارسی اصیل‌اند و کهن. «شال» در لغت فرس اسدی با شاهد عنصری بلخی آمده و معنیش «گلیمی بود کوچک پشمین» یعنی همان «شال ۲» نورایی؛ معین نیز در حاشیهٔ برهان (ص ۱۲۲۸) همین را می‌آورد. «شالنگ» همان واژه با پسوند -نگ است. اما پیوند آن به سنسکریت śavala «رنگارنگ» از نظر آوایی و معنایی نااستوار است؛ پژوهش امروزی یا آن را از سنسکریت śāṭī «جامه» از راه زبان‌های هندوآریایی می‌داند یا از نام شهر «شالیات» در مالابار. پس خود واژه‌ها درست‌اند و این پیکان (سنسکریت ← فارسی) است که پذیرفته نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%84",
+      "https://ahdictionary.com/word/search.html?q=shawl",
+      "https://abadis.ir/fatofa/%D8%B4%D8%A7%D9%84/",
+      "https://www.etymonline.com/word/shawl"
+     ],
+     "ref_check": [
+      {
+       "ref": "HJB:824",
+       "status": "partial",
+       "note": "Hobson-Jobson p. 824 gives Pers./Hind. shāl and the Sanskrit savala guess, but marks it 'perhaps'; it does not assert the derivation the chart draws as a firm arrow."
+      },
+      {
+       "ref": "KLN:1432",
+       "status": "contradicts",
+       "note": "KLN_1966.txt leaf 760 (printed pp. 1432–1433, fixed by the page numerals 1428 on leaf 758 and 1438 on leaf 763): 'shawl, n. — Pers. shāl, named after Shaliat, a town in India, where it was first manufactured. Cp. F. châle, Du. sjaal, G. Schal.' No Sanskrit śavala; Nourai's own NOTE reports this correctly."
+      },
+      {
+       "ref": "MON:2000",
+       "status": "not_checked",
+       "note": "Mo'in's 6-vol. Farhang-e Farsi is not online with its pagination. Content cross-check via abadis' Mo'in text: 'شال (اِ.) نوعی پارچهٔ ساده یا گلدار که از پشم یا کرک بافند' — no foreign-origin tag at all, i.e. Mo'in treats شال as Persian."
+      },
+      {
+       "ref": "FRS:171",
+       "status": "supports",
+       "note": "The Loghat-e Fors entry exists and carries exactly the Onṣorī verse printed in the chart: FRS.txt line 12377 'زآن مثل حال من بگشت و بتافت / که کسی شال ...' with the note 'شال گلیم کوچک بود'; index 'شال ۳۱۷'. The page number differs because the copy on disk is Eqbal's 1319/1940 edition, not the Kharazmi 1365 edition Nourai cites (refs_online.json flags this: 'pagination differs — verify the entry, not the page')."
+      },
+      {
+       "ref": "BQT:1228",
+       "status": "supports",
+       "note": "BQT_v3_pages.txt, pdf page 19 = printed p. 1228 (fixed by the numeral ٫۱۲۳۷٫ on pdf p. 28). Mo'in's footnote: '# شال - از فارسی وارد عربی شده «شال» (معرّب) و از عربی وارد فرانسوی châle ...' followed by 'گلیمی بود کوچک پشمین. عنصری (بلخی) گوید: زآن مثل حال من بگشت و بتافت ... «لغت فرس ۳۱۷»' — the source of the chart's Arabic and French boxes and of the verse."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 3 p. 1228, Mo'in's footnote to شال / شالنگ",
+       "stance": "supports",
+       "note": "'شال - از فارسی وارد عربی شده ... گلیمی بود کوچک پشمین' — the 'thin rough rug' sense and the Persian→Arabic direction; Mo'in gives no Sanskrit source."
+      },
+      {
+       "src": "FRS",
+       "where": "Loghat-e Fors, p. 317 of the Eqbal ed.",
+       "stance": "supports",
+       "note": "The Onṣorī verse plus 'شال گلیم کوچک بود' — an 11th-c. attestation of šāl 2."
+      },
+      {
+       "src": "HJB",
+       "where": "p. 824 s.v. SHAWL",
+       "stance": "partial",
+       "note": "Yule has the Persian word and the Meninski definition, but offers the Sanskrit savala only as 'perhaps'."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab/abadis text of Mo'in s.v. شال",
+       "stance": "partial",
+       "note": "'(اِ.) نوعی پارچهٔ ساده یا گلدار که از پشم یا کرک بافند' — the word is there with no origin tag, so Mo'in claims no Indian ancestry."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi, Persische Lehnwörter im Arabischen",
+       "stance": "silent",
+       "note": "grep of PLA_pages.txt for شال returns nothing — Asbaghi does not list it among the Persian loans in Arabic."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Hindustani",
+     "words": "šawl : shawl",
+     "verdict": "plausible",
+     "derivation": "The route is right and is the standard one: Persian شال šāl was taken into the Indo-Aryan languages of north India — Hindi शाल / Urdu شال śāl, with the compound dushālā 'a pair of shawls' recorded by Yule — and it is from there, not straight from Persian, that the European word was taken in the 17th century; the chart's note 'Through Urdu language' is exactly Wiktionary's 'Borrowed from Hindustani (Hindi शाल / Urdu شال), from Classical Persian شال'. What is not right is the SHAPE of the word in the box: the Hindustani form is śāl with a long ā, never *šawl — 'shawl' with -aw- is simply the English spelling of that same ā (compare 'Lahore', 'Mahratta'), which Nourai has copied back into the Hindustani box from the AHD headword. The extraction is faithful to the printed page, and the derivational claim is unaffected, so this is a wording slip rather than a wrong etymology.",
+     "derivation_fa": "مسیر درست است: «شال» فارسی به زبان‌های هندوآریایی شمال هند (هندی शाल، اردوی شال) وارد شده و از آنجا در سدهٔ ۱۷م میلادی به انگلیسی رفته است؛ یادداشت کتاب («از راه اردو») درست است. اما صورت مندرج در جعبه یعنی «šawl» صورت هندوستانی نیست؛ صورت هندی/اردو śāl با الف کشیده است و -aw- تنها رسم‌الخط انگلیسی همان آواست. پس این لغزش نگارشی خود کتاب است نه خطای ریشه‌شناختی، و ادعا با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/shawl",
+      "https://www.etymonline.com/word/shawl",
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%84"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1192",
+       "status": "not_checked",
+       "note": "p. 1192 is in the main A–Z text of the 1975/76 AHD New College edition, which is not open online (only Watkins' IE-roots appendix is on disk). Cross-checked against the current AHD online, which gives '[Persian shāl, ultimately from Sanskrit śāṭī, cloth, sari]' — it keeps Persian but omits both the Hindustani step and śavala."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HJB",
+       "where": "p. 824 s.v. SHAWL",
+       "stance": "supports",
+       "note": "'SHAWL, s. Pers. and Hind. shāl, also doshāla, ‘a pair of shawls’' — Yule's Hindustani form is shāl, not *shawl."
+      },
+      {
+       "src": "AID",
+       "where": "Whitworth, An Anglo-Indian Dictionary",
+       "stance": "silent",
+       "note": "grep -n -i 'shawl' AID.txt finds the word only inside the definitions of Chadar and Kamarband; Whitworth has no headword shawl/shāl."
+      },
+      {
+       "src": "KLN",
+       "where": "p. 1432 s.v. shawl",
+       "stance": "partial",
+       "note": "Klein goes straight from Persian to English and does not mention an Indo-Aryan intermediary."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "English",
+     "words": "shawl",
+     "verdict": "confirmed",
+     "derivation": "English shawl is first recorded in the 1660s, of an article of Asian dress, and reaches English through the India trade: 'from Urdu and other Indian languages, from Persian shal' (Etymonline), 'Borrowed from Hindustani (Hindi शाल / Urdu شال), from Classical Persian شال' (Wiktionary). Yule documents the earlier English trade spellings from the East India Company records — 'Carmania shawools' (1686), 'Chawools' (1704) — which show the -aw- spelling settling in before the word became the name of a Western woman's garment in 1767. English is in turn the source of German Schal and, in part, of the other European forms, so this box is the hinge of the whole European family.",
+     "derivation_fa": "انگلیسی shawl از دههٔ ۱۶۶۰ م شاهد دارد و از راه تجارت هند، از اردو/هندی śāl و سرانجام از «شال» فارسی گرفته شده است. یول صورت‌های کهن بازرگانی «Carmania shawools» (۱۶۸۶) و «Chawools» (۱۷۰۴) را از اسناد کمپانی هند شرقی نقل می‌کند. ادعای نورایی درست است.",
+     "sources": [
+      "https://www.etymonline.com/word/shawl",
+      "https://en.wiktionary.org/wiki/shawl"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1192",
+       "status": "not_checked",
+       "note": "Main-text page of the 1975/76 AHD, not open online; the current AHD online s.v. shawl was consulted instead."
+      },
+      {
+       "ref": "KLN",
+       "status": "supports",
+       "note": "KLN_1966.txt leaf 760 (printed p. 1432): 'shawl, n. — Pers. shāl, named after Shaliat ... Cp. F. châle, Du. sjaal, G. Schal.'"
+      },
+      {
+       "ref": "SKT",
+       "status": "supports",
+       "note": "SKT.txt line 17058: 'Shawl. (Pers.) Pers. shāl (pron. shawl), a shawl, mantle.' — Skeat even notes that the English spelling represents the Persian ā."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FSD",
+       "where": "Funk & Wagnalls, vol. IV s.v. shawl",
+       "stance": "supports",
+       "note": "FSD_vol4.txt line 8712 ends the article '[< Per. shāl, shawl]', with the note that 'the embroidered shawls of Cashmere were the first worn in Europe'."
+      },
+      {
+       "src": "HJB",
+       "where": "p. 824 s.v. SHAWL",
+       "stance": "supports",
+       "note": "Yule's Anglo-Indian record: 'Shawles Garmania' (1686), 'Chawools' (1704), and the 17th-c. French travellers' Chal / chalas."
+      },
+      {
+       "src": "LKT",
+       "where": "no. 1802",
+       "stance": "supports",
+       "note": "'hieraus engl. shawl, ndl. sjaal, dtsch. Schal; russ. šalʹ ... frz. châle ... it. scialle' — all from Pers. šāl."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Arabic",
+     "words": "šal : a rough rug or thick cloth",
+     "verdict": "confirmed",
+     "derivation": "Arabic شال šāl is a mu‘arrab, a straight borrowing of the Persian word with no change of shape (Arabic has no separate č/ž problem here and š is native, so the loan passes through untouched); it is not built on any Arabic root and Lane/Wiktionary treat it as foreign. Mo'in states the direction explicitly in his footnote to Borhan p. 1228 — 'شال از فارسی وارد عربی شده «شال» (معرّب)' — and Tobia al-Unaysi's dictionary of foreign words in Arabic has 'شال - في الفارسية شال، وهو مطرف ينسج في كشمير الهند' — 'in Persian šāl, a mantle woven in Kashmir in India'. Wiktionary likewise marks Arabic شال 'Borrowed from Persian شال'. The gloss Nourai gives it, 'a rough rug or thick cloth', matches the older Persian sense that Meninski and Asadi record, so the semantics of the loan are right too. The borrowing is late — it is not a Qur'ānic or early-‘Abbāsid word, which is why Asbaghi does not list it.",
+     "derivation_fa": "عربی «شال» معرّب همان واژهٔ فارسی است و هیچ دگرگونی آوایی نیافته؛ ریشهٔ سه‌والفی عربی ندارد. معین در حاشیهٔ برهان قاطع صریحاً می‌نویسد «شال از فارسی وارد عربی شده»، و طوبیا العنیسی در تفسیر الألفاظ الدخیله آورده است: «شال – في الفارسية شال، وهو مطرف ينسج في كشمير الهند». این وام‌گیری متأخر است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%84"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1228",
+       "status": "supports",
+       "note": "Mo'in's footnote on the printed page: '# شال - از فارسی وارد عربی شده «شال» (معرّب) و از عربی وارد فرانسوی châle' (BQT_v3_pages.txt pdf p. 19)."
+      },
+      {
+       "ref": "FVF:391",
+       "status": "not_checked",
+       "note": "Emam Shushtari, Farhang-e Vazheha-ye Farsi dar Zaban-e Arabi — refs_online.json records no downloadable copy (noorlib needs a browser, ketabnak needs a login); nothing on disk."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "TAD",
+       "where": "al-Unaysi, Tafsir al-alfaz al-dakhila, s.v. شال",
+       "stance": "supports",
+       "note": "TAD.txt line 1576: 'شال - في الفارسية شال، وهو مطرف ينسج في كشمير الهند'."
+      },
+      {
+       "src": "PLA",
+       "where": "Asbaghi 1988",
+       "stance": "silent",
+       "note": "No شال in PLA_pages.txt — the loan is too late for Asbaghi's corpus of classical Arabic Persianisms."
+      },
+      {
+       "src": "AFM",
+       "where": "Addi Shir, Kitab al-Alfaz al-Farisiyya al-Mu‘arraba",
+       "stance": "silent",
+       "note": "grep of AFM.txt shows شال only inside other entries and a stray 'دو شال'; Addi Shir has no headword شال."
+      },
+      {
+       "src": "HJB",
+       "where": "p. 824",
+       "stance": "partial",
+       "note": "Yule gives 'Pers. and Hind. shāl' but does not discuss the Arabic form."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "French",
+     "words": "châle",
+     "verdict": "disputed",
+     "derivation": "French châle is a real 18th–19th-century word for the Kashmir wrap (the fashion for foreign châles reached France 'vers le commencement de ce siècle' according to Pihan, i.e. c. 1800), and it does ultimately go back to Persian شال, so the box is right about the word. The disputed part is the arrow: Nourai routes it through Arabic, following Mo'in's footnote in Borhan ('و از عربی وارد فرانسوی châle'), but the specialist dictionaries of French orientalisms deny exactly that. Devic s.v. Châle: 'Bien que le mot se trouve dans la langue arabe moderne (شال châl ... dans Bocthor), ce n'est pas là que nous l'avons pris. D'introduction peu ancienne en Europe, il a été apporté de l'Orient par le commerce anglais. C'est le persan شال châl ...' — i.e. French got it through the English East India trade, from Persian/Indian, not from Arabic. Pihan heads his article 'CHÂLE, s. m. (p.)' — (p.) = Persian, not (a.) = Arabic — and Lokotsch no. 1802 derives frz. châle directly from Pers. šāl alongside engl. shawl. Wiktionary lists châle among the direct descendants of Persian شال. Modern scholarship therefore keeps the box but re-draws its parent as Persian (through English/Indian trade), not Arabic.",
+     "derivation_fa": "فرانسهٔ châle واژه‌ای واقعی است و سرانجام به «شال» فارسی می‌رسد؛ اما میانجی‌گری عربی که نورایی (به پیروی از حاشیهٔ معین) رسم کرده پذیرفته نیست. دویک می‌نویسد هرچند این واژه در عربی امروزین هست، فرانسه آن را از عربی نگرفته بلکه از راه تجارت انگلیسی از مشرق‌زمین آورده‌اند؛ پیهان هم مدخل را با نشانهٔ (p.) یعنی فارسی آورده و لوکوچ نیز châle را یکسره از فارسی می‌گیرد. پس جعبه درست است ولی پیکان آن باید از «فارسی» کشیده شود نه از «عربی».",
+     "sources": [
+      "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%84",
+      "https://www.etymonline.com/word/shawl"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1228",
+       "status": "supports",
+       "note": "Mo'in does say it: 'و از عربی وارد فرانسوی châle' (BQT_v3_pages.txt pdf p. 19 = printed 1228). Nourai reproduces his source accurately; it is the source itself that the French Arabists contradict."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "DEV",
+       "where": "Devic, Dictionnaire étymologique des mots français d'origine orientale, s.v. Châle",
+       "stance": "contradicts",
+       "note": "'Bien que le mot se trouve dans la langue arabe moderne (شال châl ... dans Bocthor), ce n'est pas là que nous l'avons pris ... il a été apporté de l'Orient par le commerce anglais. C'est le persan شال châl.'"
+      },
+      {
+       "src": "PHN",
+       "where": "Pihan, s.v. CHÂLE",
+       "stance": "contradicts",
+       "note": "The headword is tagged '(p.)' = persan, not '(a.)' = arabe, and the article closes 'Schall ... ne peut exactement représenter le mot persan.'"
+      },
+      {
+       "src": "LKT",
+       "where": "Lokotsch no. 1802",
+       "stance": "contradicts",
+       "note": "'Pers. šāl ... hieraus engl. shawl ... frz. châle, kat. xal, sp. chal ... it. scialle' — all straight from Persian, with no Arabic stage."
+      },
+      {
+       "src": "LAM",
+       "where": "Lammens, Remarques sur les mots français dérivés de l'arabe",
+       "stance": "silent",
+       "note": "Lammens has no article on châle (the single hit in LAM.txt is 'chale de Lisbonne' inside another entry), i.e. he does not count it as an Arabism."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
