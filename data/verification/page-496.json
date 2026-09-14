@@ -1,0 +1,787 @@
+{
+  "pdf_page": 496,
+  "book_page": 466,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Tanŭr, Tannŭr",
+      "verdict": "disputed",
+      "modern_form": "Akkadian tinūru 'oven' → an ancient Near-Eastern culture word (Aram. tannūrā, Heb. tannūr, Arab. tannūr; Av. tanūra-, MP tanūr, NP تنور). Not an Indo-European root.",
+      "note": "The forms collected in the box are all real, but the language label 'Indo-European' is wrong: there is no PIE root *tanur- (Pokorny has nothing, and Watkins' appendix puts 'oven' under *aukʷ- 'cooking pot', unrelated). The oldest attestation is Akkadian tinūru 'oven' (cuneiform 𒋾𒂟, 2nd millennium BC); from Akkadian/Aramaic the word spread west (Heb. tannūr, Arab. tannūr) and east into Iranian (Av. tanūra-, which Bartholomae marks expressly as a Semitic loanword, MP tanūr, Sogd. tnʾwr, NP tanūr). Nourai's own note reproduces Jeffery's 1938 compromise ('a word belonging to the pre-Semitic and pre-Indo-European population of the area'), which is a defensible historical guess but not a licence to label the root Indo-European; Bartholomae, Fraenkel, Mo'in's footnote in Borhan-e Qate' and today's dictionaries all make the Iranian forms borrowings, i.e. the arrows into Avestan run the wrong way round for an IE root. The tree itself (Semitic branch + Iranian branch + Akkadian) is otherwise sound.",
+      "note_fa": "واژهٔ «تنور» ریشهٔ هندواروپایی ندارد و برچسب «هندواروپایی» در کتاب نادرست است؛ پوکورنی چنین ریشه‌ای ندارد و واتکینز واژه‌های «تنور/اجاق» را زیر *aukʷ- «دیگ» می‌آورد که بی‌ربط است. کهن‌ترین گواه، اکدی tinūru «تنور» است که از آنجا به آرامی «تنورا»، عبری tannūr و عربی «تنّور» و نیز به ایرانی (اوستایی tanūra-، فارسی میانه tanūr، سغدی tnʾwr، فارسی نو «تنور») راه یافته است. بارتولومه در فرهنگ ایرانی باستان (ستون ۶۳۸) صورت اوستایی را صریحاً «وام‌واژه از سامی» می‌خواند و معین نیز در حاشیهٔ برهان قاطع (ص ۵۲۳) همین را می‌آورد. پس ادعای نورایی دربارهٔ وجود واژه در این زبان‌ها درست است، اما هندواروپایی‌دانستن ریشه را پژوهش امروزی رد می‌کند و آن را واژه‌ای فرهنگی و وام‌گرفته از خاور نزدیک باستان می‌داند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1",
+        "https://en.wiktionary.org/wiki/athanor"
+      ],
+      "ref_check": [
+        {
+          "ref": "FVQ:92-94",
+          "status": "supports",
+          "note": "Jeffery, Foreign Vocabulary, pp. 93-95 (FVQ_pages.txt ll. 3610-3690): 'In Avestic we find the word tanura (cf. Vendidad, viii, 254), and in Phlv. it is ... meaning baking oven'; 'It also occurs as tinuru in Akkadian'; and his conclusion, 'The truth would seem to be that it is a word belonging to the pre-Semitic and pre-Indo-European population of the area' — exactly Nourai's note. Jeffery does NOT call it Indo-European; he says 'The word, however, is no more Iranian than it is Semitic ... the Iranian scholars treat it as a loan-word from Semitic.'"
+        }
+      ],
+      "consulted": [
+        {
+          "src": "POK",
+          "where": "grep -ic 'tannur|tanur' POK_full.txt = 0",
+          "stance": "silent",
+          "note": "Pokorny's IEW has no root or entry for tanūr/tannūr in any spelling; no IE reconstruction exists."
+        },
+        {
+          "src": "AHD",
+          "where": "AHD_watkins1985.txt s.v. aukʷ-",
+          "stance": "contradicts",
+          "note": "Watkins derives the IE words for 'oven' from 'aukʷ-, Cooking pot ... Old English ofen, furnace, oven: OVEN' — the IE family for 'oven' is quite separate from tanūr."
+        },
+        {
+          "src": "BRT",
+          "where": "col. 637/638 s.v. tanūra-",
+          "stance": "partial",
+          "note": "'tanūra- n. \"Backofen\" ... LW. aus dem s[emitischen], np. تنور' — the Avestan word exists, but Bartholomae marks it a Semitic loanword, not an inherited IE form."
+        },
+        {
+          "src": "Wiktionary",
+          "where": "en.wiktionary.org/wiki/تنور",
+          "stance": "contradicts",
+          "note": "Persian tanūr 'from Middle Persian tnwr /tanūr/, compare Sogdian tnʾwr, ultimately from Akkadian 𒋾𒂟 (tinūru)'; Arabic tannūr 'borrowed from Aramaic tannūrā ... ultimately from Akkadian tinūru'. No Indo-European ancestry."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "tanŭra",
+          "verdict": "plausible",
+          "derivation": "Avestan tanūra- n. 'baking oven' is genuinely attested (Vendidad 8.254, of the oven in which impure matter is burnt) and stands in Bartholomae's Altiranisches Wörterbuch col. 638. But it is not an inherited Iranian word: Bartholomae writes 'LW. aus dem sem.' ('loanword from Semitic') and links it directly to NP تنور. The source is the Akkadian/Aramaic culture word (Akk. tinūru, Aram. tannūrā) which reached Iran with the Mesopotamian bread-oven itself, probably already in the Achaemenid period; Avestan simply renders the foreign word with -ū- and an -a- stem ending. So as a node it is correct, but only as a loan from the Semitic word, not as a daughter of an Indo-European root.",
+          "derivation_fa": "صورت اوستایی tanūra- «تنور، اجاق نان‌پزی» واقعاً گواهی شده است (وندیداد ۸، ۲۵۴) و بارتولومه آن را در ستون ۶۳۸ فرهنگ ایرانی باستان آورده است؛ اما همانجا می‌نویسد «وام‌واژه از سامی» و آن را با «تنور» فارسی نو پیوند می‌دهد. یعنی این واژه از اکدی tinūru / آرامی tannūrā همراه با خودِ تنورِ میان‌رودانی به ایران آمده و در اوستایی با ستاک -a پذیرفته شده است. بنابراین گرهِ اوستایی درست است، اما نه به عنوان فرزندِ یک ریشهٔ هندواروپایی، بلکه به عنوان وام‌واژه‌ای سامی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVQ:94",
+              "status": "supports",
+              "note": "Jeffery p. 94: 'In Avestic we find the word tanura (cf. Vendidad, viii, 254), and in Phlv. it is ... meaning baking oven' (FVQ_pages.txt l. 3654), with the footnote 'Cf. Bartholomae, AiW, 638'."
+            },
+            {
+              "ref": "BQT:523",
+              "status": "supports",
+              "note": "Mo'in's etymological footnote (BQT_v1_pages.txt ll. 31345-31355, the note continuing از صفحهٔ ۵۲۳): 'دراوستا کلمهٔ tanūra آمده (رک: وندیداد ۸، ۲۵۴)، ودر پهلوی صورت tanūr بمعنی اجاق ...'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BRT",
+              "where": "col. 638, s.v. tanūra-",
+              "stance": "supports",
+              "note": "'tanūra- n. \"Backofen\" ... LW. aus dem s(em.), np. تنور' — the form and gloss are exactly Nourai's; the Semitic-loan label is his omission."
+            },
+            {
+              "src": "SOD",
+              "where": "no. 9609 (tnʾwr)",
+              "stance": "supports",
+              "note": "Gharib glosses Sogd. tnʾwr 'tanūr, furnace, oven' and marks it '©<Av. tanura, MP tnwr', i.e. she too works with an Avestan tanūra-."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "silent",
+              "note": "The Persian entry goes back only to Middle Persian tanūr and thence to Akkadian; the Avestan form is not mentioned, so the Avestan link is not part of the standard modern chain."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "tanŭr",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian tanūr (Book Pahlavi tnwl/tnwr) 'oven' is the regular continuation of the Old Iranian form of the borrowed word; MacKenzie's Concise Pahlavi Dictionary lists 'tanūr' between tanuk and tantūhmag. The word passes to New Persian unchanged (tanūr), since MP -ū- and final -r are stable. Nourai's added note that Henning (MPP:88) gives 'tnwr' as a Parthian form is plausible — the word is equally at home in Parthian, and Sogdian tnʾwr shows the same shape — but could not be checked here: the local MPP file is Henning's 1958 'Mitteliranisch' survey, not the 1937 BSOS word-list Nourai cites.",
+          "derivation_fa": "فارسی میانهٔ tanūr (به خط پهلوی tnwl/tnwr) «تنور» دنبالهٔ منظمِ همان وام‌واژه است و مکنزی در فرهنگ کوچک پهلوی آن را ثبت کرده است. چون در فارسی میانه «او»ی کشیده و «ر» پایانی پایدارند، واژه بی‌دگرگونی به فارسی نو «تنور» رسیده است. یادداشت نورایی دربارهٔ صورت پارتی tnwr به نقل از هنینگ پذیرفتنی می‌نماید (سغدی tnʾwr نیز همین ساخت را دارد)، ولی نسخهٔ در دسترس از هنینگ، مقالهٔ ۱۹۵۸ «ایرانی میانه» است نه فهرست واژگان ۱۹۳۷، و از این رو راستی‌آزمایی نشد.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVQ:94",
+              "status": "supports",
+              "note": "Jeffery p. 94: '... and in Phlv. it is [tnwl] meaning baking oven', footnote 5 'West, Glossary, 121' (FVQ_pages.txt l. 3654)."
+            },
+            {
+              "ref": "MPP:88",
+              "status": "not_checked",
+              "note": "Nourai's note cites Henning, 'A List of Middle-Persian and Parthian Words', BSOS IX, p. 88 for Parthian tnwr. The local MPP.txt is Henning's 1958 'Mitteliranisch' (Handbuch der Orientalistik) instead; grep -i 'tnwr|tanur' returns nothing there."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "MacKenzie p. 81 / PHD.txt l. 4481 and PHD_mackenzie.txt l. 8226",
+              "stance": "supports",
+              "note": "'tanūr' is listed as a headword, and the English index has 'oven tanur'."
+            },
+            {
+              "src": "NYB",
+              "where": "grep 'tanur|tnwr' NYB_vol2_glossary.txt = 0",
+              "stance": "silent",
+              "note": "Nyberg's glossary (which covers only the texts of his Manual) has no entry for the word."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "supports",
+              "note": "'Persian تنور (tanūr) ... from Middle Persian tnwr /tanūr/, \"oven\"'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "tanŭr «تنور»",
+          "verdict": "confirmed",
+          "derivation": "New Persian تنور tanūr 'oven, clay bread-oven' continues Middle Persian tanūr without change; the same word gives Turkish/Urdu tandūr (whence English tandoor, a doublet of athanor). Mo'in's footnote to Borhan-e Qate' (p. 523) sets out precisely this history: the Arabic tannūr is borrowed from Aramaic tannūrā, Fraenkel thought the Aramaic word itself Iranian, the Avestan tanūra- and Pahlavi tanūr exist, and the word is 'neither Iranian nor Semitic' in ultimate origin (he is quoting Jeffery 92-95).",
+          "derivation_fa": "«تنور» فارسی نو دنبالهٔ بی‌واسطهٔ tanūr فارسی میانه است و هیچ دگرگونی آوایی چشمگیری نیافته است؛ همین واژه از راه ترکی به صورت «تندیر/tandoor» به زبان‌های دیگر رفته است. معین در حاشیهٔ برهان قاطع (ص ۵۲۳) همین تاریخچه را می‌آورد: «لغت عربی تنور از آرامی به عاریت گرفته شده... در اوستا کلمهٔ tanūra آمده... و در پهلوی صورت tanūr به معنی اجاق». ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:523",
+              "status": "supports",
+              "note": "Borhan-e Qate' with Mo'in's footnote (BQT_v1_pages.txt ll. 31344-31356): 'برآنست که لغت عربی «تنور» ازآرامی بعاریت گرفته شده. در آرامی «تنورا» و در عبری «تنور» ... فرانکل گوید لغت آرامی خود منشعباً ایرانی است. در اوستا کلمهٔ tanūra آمده (رک: وندیداد ۸، ۲۵۴) و در پهلوی صورت tanūr بمعنی اجاق ... با این حال لغت مزبور بنظر می‌رسد نه ایرانی باشد و نه سامی ... «جفری ۹۲-۹۵»'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 1 p. 523 + footnote continued on p. 524",
+              "stance": "supports",
+              "note": "See the quotation above; Mo'in's note is itself a summary of Jeffery and Fraenkel."
+            },
+            {
+              "src": "HRN",
+              "where": "grep 'tanur|tanūr' HRN.txt = 0",
+              "stance": "silent",
+              "note": "Horn's Grundriss has no number for tanūr (he confines himself to inherited Iranian vocabulary; 'Ofen' appears only s.v. dāš no. 526)."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "supports",
+              "note": "Persian تنور from MP tanūr, 'ultimately from Akkadian tinūru'."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Sogdian",
+          "words": "tn`wr",
+          "verdict": "confirmed",
+          "derivation": "Buddhist Sogdian tnʾwr /tanūr/ 'furnace, oven' is entry 9609 of Gharib's Sogdian Dictionary, attested in the Sūtra of the Causes and Effects (SCE 206). Gharib herself derives it exactly as Nourai draws it, '< Av. tanūra, MP tnwr', i.e. the same Near-Eastern word taken over into Eastern Iranian, with ʾ marking the long ū. The Sogdian form shows no specifically Sogdian sound change, which is itself evidence of a loan rather than an inherited word.",
+          "derivation_fa": "سغدی بودایی tnʾwr /tanūr/ «کوره، تنور» در فرهنگ سغدی قریب، مدخل ۹۶۰۹، آمده و گواه آن متن «علل و معلولات» (SCE 206) است. قریب خود همان مسیری را می‌آورد که نورایی رسم کرده است: «< اوستایی tanūra، فارسی میانه tnwr». نبودِ دگرگونی آوایی ویژهٔ سغدی در این صورت، خود نشانهٔ وام‌بودن واژه است. ادعای نورایی در این گره درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "SOD:388",
+              "status": "supports",
+              "note": "Gharib, Sogdian Dictionary, entry no. 9609 (SOD_pages.txt l. 31442-31443): '9609 tnʾwr B ... tanur ©<Av. tanura, MP tnwr | furnace, oven | SCE 206'. Nourai's '388' is the printed page carrying that entry (the entry numbering runs to ~10,800, so 388 cannot be an entry number here)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SOD",
+              "where": "no. 9609",
+              "stance": "supports",
+              "note": "See quotation above; gloss 'furnace, oven' matches Nourai's 'oven'."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "supports",
+              "note": "'compare Sogdian tnʾwr /tanūr/, \"furnace, oven\"' cited under Persian تنور."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Hebrew",
+          "words": "tannŭr",
+          "verdict": "confirmed",
+          "derivation": "Biblical Hebrew תַּנּוּר tannūr 'oven, furnace' is frequent in the Old Testament (Gen. 15:17, Lev. 2:4, Hos. 7:4) and is rendered κλίβανος in the Septuagint. Klein (p. 121) states it is 'rel. to Akkad. tinnuru, \"oven\"'; modern Semitists (Zimmern, Akkadische Fremdwörter 32; CAD s.v. tinūru) treat Hebrew and Aramaic tannūrā alike as borrowings from Akkadian tinūru with the doubling of -n- characteristic of the West Semitic shape. Placing Hebrew directly under the culture-word 'root' is therefore right, though it is a sister of Aramaic rather than the fountainhead.",
+          "derivation_fa": "عبری کتاب‌مقدسی תַּנּוּר (tannūr) «تنور، کوره» بارها در عهد عتیق آمده است (پیدایش ۱۵:۱۷، لاویان ۲:۴، هوشع ۷:۴) و در ترجمهٔ سبعینیه κλίβανος برگردانده شده است. کلاین (ص ۱۲۱) آن را «هم‌ریشه با اکدی tinnuru» می‌داند و سامی‌شناسان امروز (تسیمرن، فرهنگ آشوری شیکاگو) عبری tannūr و آرامی tannūrā را هر دو وام‌گرفته از اکدی tinūru می‌شمارند که در سامی غربی با مشدّدشدن «ن» پذیرفته شده است. پس گره درست است، هرچند عبری خواهرِ آرامی است نه سرچشمهٔ واژه.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:121",
+              "status": "supports",
+              "note": "Klein 1966 p. 121 s.v. athanor: '... and tannūr, \"oven\", borrowed fr. Heb. tannūr, which is rel. to Akkad. tinnuru, \"oven\"' (KLN_1966.txt l. 3811, after the page marker 121 at l. 3788)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 121 s.v. athanor",
+              "stance": "supports",
+              "note": "See quotation; Klein makes Hebrew the immediate donor of the Arabic word, as Nourai's arrow does."
+            },
+            {
+              "src": "FVQ",
+              "where": "p. 94",
+              "stance": "partial",
+              "note": "Jeffery: 'In the O.T. תנור occurs frequently for furnace or oven, i.e. the Gk. κλίβανος, and the form in the Aram. Targums is תנורא, corresponding with the Syr. ... It also occurs as tinuru in Akkadian' — Hebrew is one member of the Semitic set, not its head."
+            },
+            {
+              "src": "AFA",
+              "where": "Fraenkel, Aram. Fremdwörter, p. 26 (AFA.txt ll. 1493-1500)",
+              "stance": "partial",
+              "note": "'Schon die Araber (Mu'arrab 111) kennen den fremden Ursprung dieses Wortes ... \"Backofen\", das schon Sachau zum Mu'arr. richtig mit Vermittelung von [Aram. תנורא] erklärt hat' — Fraenkel routes the Arabic word through Aramaic, not Hebrew."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Arabic",
+          "words": "at-tannŭr",
+          "verdict": "plausible",
+          "derivation": "Arabic التَّنُّور at-tannūr 'the oven' (al- + tannūr, with the assimilation of l to the 'sun letter' t) is the form that the medieval alchemists' vocabulary carried into Europe. The word itself, however, entered Arabic from Aramaic tannūrā, not from Hebrew: this is Fraenkel's conclusion (Aram. Fremdwörter 26, following Sachau on the Muʿarrab), Jeffery's (FVQ 93-94) and Wiktionary's ('borrowed from Aramaic tannūrā ... ultimately from Akkadian tinūru'). Klein's 'borrowed fr. Heb. tannūr', which Nourai follows, is the older and looser formulation. The alchemical sense 'self-feeding digesting furnace' is a specialisation of the ordinary 'bread oven' inside 8th-10th c. Arabic alchemy (Jābir, al-Rāzī).",
+          "derivation_fa": "عربی «التَّنّور» (al- + تنّور، با همگونیِ لامِ تعریف پیش از «ت» که از حروف شمسی است) همان صورتی است که واژگان کیمیاگریِ سده‌های میانه به اروپا رساند. اما خودِ واژه از آرامی «تنورا» به عربی رفته است، نه از عبری: فرانکل (ص ۲۶)، جفری (ص ۹۳-۹۴) و ویکی‌واژه همین را می‌گویند و سرانجام آن را به اکدی tinūru بازمی‌گردانند. گفتهٔ کلاین که نورایی از او گرفته («وام‌گرفته از عبری») صورت‌بندیِ کهنه‌تر و سست‌تری است. معنای کیمیاییِ «کورهٔ خودسوز» نیز تخصیصِ معنایی همان «تنور نان‌پزی» در کیمیای عربی سده‌های دوم تا چهارم هجری است. پس ادعای نورایی با احتیاط پذیرفتنی است، با تصحیحِ واسطهٔ آرامی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1",
+            "https://en.wiktionary.org/wiki/athanor"
+          ],
+          "ref_check": [
+            {
+              "ref": "TAD:18",
+              "status": "supports",
+              "note": "Tobia al-Unaysi, Tafsīr al-alfāẓ al-dakhīla (TAD_pages.txt l. 749): 'التنور - في العبرانية «تنور»، في الارامية «تنورا» وهو منحوت من ...' — he lists tannūr among the loanwords in Arabic and names Hebrew and Aramaic, which is what Nourai's arrow and his root note ('TAD:18 ... derive it from root N.w.r') reflect."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AFA",
+              "where": "Fraenkel p. 26",
+              "stance": "partial",
+              "note": "'Schon die Araber (Muʿarrab 111) kennen den fremden Ursprung dieses Wortes ... das schon Sachau zum Muʿarr. richtig mit Vermittelung von [Aramaic] erklärt hat'; he even allows 'Es ist vielleicht auch wieder persischer Herkunft'."
+            },
+            {
+              "src": "FVQ",
+              "where": "pp. 93-94",
+              "stance": "partial",
+              "note": "'Fraenkel, Fremdw, 26, suggested that the word came into Arabic from the Aram.' — Aramaic, not Hebrew."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 2019 'Ar. tannūr'",
+              "stance": "supports",
+              "note": "Lokotsch: 'Ar. tannūr: \"Ofen, und zwar beweglicher Ofen\" [vgl. Assyr. tinūru, Del HWB 711b] ... hieraus mit ar. Art. sp. atanor im MA \"Ofen der Alchemisten\", frz. athanor \"Alchemistenofen\"'."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "partial",
+              "note": "Arabic تنّور 'borrowed from Aramaic tannūrā ... ultimately from Akkadian tinūru' — Hebrew is not the donor."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "French",
+          "words": "",
+          "verdict": "plausible",
+          "derivation": "Pass-through node: French athanor 'four des alchimistes', the furnace kept at a constant heat by a self-feeding hopper, attested in French alchemical writing from the late Middle Ages and still in Bescherelle's dictionary. It is the Arabic at-tannūr taken over with the article agglutinated, but the route was through Spain: Lokotsch (no. 2019) and Devic give Spanish atanor (medieval 'alchemists' furnace', later 'water pipe') as the intermediary, French athanor (also altered to acanor, anthonor, athonor in the alchemical lexica) following it. Nourai leaves the node wordless, so only the language step can be judged; it is right in substance, with Spanish deserving a place in the chain.",
+          "derivation_fa": "این گره تهی است و تنها زبان را نشان می‌دهد: فرانسوی athanor «کورهٔ کیمیاگران»، همان کوره‌ای که با قیفِ خودخوراک گرمای یکنواخت نگاه می‌دارد. این واژه همان «التنّور» عربی است که با حرف تعریفِ چسبیده وام گرفته شده، اما راهِ آن اسپانیا بوده است: لوکوچ (شمارهٔ ۲۰۱۹) و دویک صورت اسپانیایی atanor را واسطه می‌دانند و صورت‌های دگرگونِ acanor، anthonor و athonor نیز در فرهنگ‌های کیمیایی دیده می‌شود. بنابراین گامِ زبانیِ نورایی درست است، اما جای اسپانیایی در زنجیره خالی مانده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/athanor"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "Nourai gives no reference on this node; checked independently against Devic, Lammens and Lokotsch (below)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "DEV",
+              "where": "p. 216 s.v. Athanor (DEV.txt l. 627)",
+              "stance": "supports",
+              "note": "'Athanor. Four des alchimistes ... Esp. atanor, qui a pris un sens très-différent, tuyau de fontaine' — and l. 632: 'Acanor ... est une altération de athanor ... on trouve encore: athonor, anthonor, furnus, atanor, olla perforata'."
+            },
+            {
+              "src": "LAM",
+              "where": "p. 52 s.v. Athanor (LAM.txt l. 1876)",
+              "stance": "supports",
+              "note": "'Athanor. Four des alchimistes, [ar.] attannoûr, foyer.'"
+            },
+            {
+              "src": "LKT",
+              "where": "no. 2019",
+              "stance": "supports",
+              "note": "'hieraus mit ar. Art. sp. atanor im MA \"Ofen der Alchemisten\" ... frz. athanor \"Alchemistenofen\"' — Spanish mediating."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "athanor",
+          "verdict": "confirmed",
+          "derivation": "English athanor 'a self-feeding digesting furnace used by alchemists' is borrowed from French athanor (Chaucer's age onward in alchemical texts, and standard in 17th c. chemical writing); Klein p. 121 gives exactly this chain: 'F., fr. Arab. at-tannūr, \"the oven\", fr. at-, assimilated form of al-, \"the\", and tannūr, \"oven\"'. English thus keeps the Arabic article as part of the stem, like alcohol, alembic, alkali — the tell-tale sign of the alchemists' Arabic vocabulary. It is a doublet of tandoor, which reached English from the same word through Persian/Urdu.",
+          "derivation_fa": "انگلیسی athanor «کورهٔ خودخوراکِ کیمیاگران» از فرانسوی athanor وام گرفته شده و کلاین (ص ۱۲۱) همین زنجیره را می‌آورد: «از فرانسوی، از عربی at-tannūr، از at- صورتِ همگون‌شدهٔ al- و tannūr». مانند alcohol و alembic و alkali، حرف تعریف عربی در این واژه بخشی از ستاک شده است ــ نشانهٔ آشکارِ واژگان کیمیای عربی. این واژه دوگانهٔ (doublet) واژهٔ tandoor است که از همین «تنور» ولی از راه فارسی و اردو به انگلیسی رسیده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/athanor"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSD:178",
+              "status": "supports",
+              "note": "Funk & Wagnalls vol. I (FSD_vol1.txt l. 27992) carries the headword 'athenor ... Same as athanor', i.e. the word is in F&W at the place Nourai cites (p. 178, letter A)."
+            },
+            {
+              "ref": "KLN:121",
+              "status": "supports",
+              "note": "Klein 1966 p. 121: 'athanor, n., the self feeding furnace of the alchemists. — F., fr. Arab. at-tannūr, \"the oven\" ...' (KLN_1966.txt l. 3811)."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 121",
+              "stance": "supports",
+              "note": "See quotation above."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/athanor",
+              "stance": "supports",
+              "note": "'From Arabic التَنُّور (at-tannūr, \"the baker's oven\") ... Doublet of tandoor.'"
+            },
+            {
+              "src": "DEV",
+              "where": "p. 216",
+              "stance": "supports",
+              "note": "French athanor is documented as the alchemists' furnace, the immediate source of the English word."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Arabic",
+          "words": "tannŭr",
+          "verdict": "plausible",
+          "derivation": "Arabic تَنُّور tannūr 'oven' is a Qur'anic word (XI:40 and XXIII:27, of the oven that 'boiled over' at the Flood) and is the entry Jeffery discusses on FVQ 92-95; old Arabic poetry (Ḥamāsa 792, 'a loaf which a Nabataean woman bakes in her oven') shows it in the plain sense. The Arab philologists themselves tried to derive it from nūr 'light, fire' with an augmented t-, which Jeffery and the Lisān reject ('taffūl is not a genuine Arabic form at all'). Drawing it straight from the culture-word is therefore right in substance, but the transmission ran through Aramaic tannūrā, so this node duplicates #6 rather than representing a second, independent borrowing.",
+          "derivation_fa": "«تَنّور» عربی واژه‌ای قرآنی است (هود ۴۰ و مؤمنون ۲۷، دربارهٔ تنوری که به هنگام توفان «فار») و جفری در صفحات ۹۲ تا ۹۵ همان را بررسی می‌کند؛ شعر کهن عربی (حماسه ۷۹۲) نیز آن را در معنای ساده به کار برده است. لغویان عرب کوشیده‌اند آن را از «نور» با «ت» زائد بگیرند، اما جفری و لسان‌العرب این را رد می‌کنند («وزن تَفعول در عربی اصیل نیست»). پس پیوند این گره به واژهٔ فرهنگیِ کهن درست است، ولی راهِ ورود آن آرامی «تنورا» بوده و این گره در عمل همان گرهٔ شمارهٔ ۶ است، نه وام‌گیریِ جداگانه‌ای.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "FVQ:92",
+              "status": "supports",
+              "note": "Jeffery's entry begins at p. 92 and the discussion quoted at pp. 93-94 (FVQ_pages.txt ll. 3610-3690) shows the Qur'anic word, its old-poetry attestations and the philologists' failed derivation from نور: 'This judgment of the philologers is vindicated by the fact that [taffūl] is not a genuine Arabic form at all.'"
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AFA",
+              "where": "Fraenkel p. 26",
+              "stance": "partial",
+              "note": "Fraenkel derives the Arabic word from Aramaic (with Sachau), i.e. not directly from the primitive culture word."
+            },
+            {
+              "src": "AFM",
+              "where": "grep 'تنور' AFM_pages.txt = 0",
+              "stance": "silent",
+              "note": "Addi Shir does not list تنور among the Persian loanwords in Arabic — consistent with an Aramaic, not Persian, source."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "partial",
+              "note": "Arabic تنّور 'borrowed from Aramaic tannūrā ... ultimately from Akkadian tinūru'."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Akkadian",
+          "words": "tinnŭra",
+          "verdict": "transcription_suspect",
+          "derivation": "The Akkadian word is real and is in fact the oldest member of the whole family — tinūru (logographic 𒋾𒂟, Old Babylonian onward), 'oven, kiln', the ancestor (directly or through Aramaic) of Hebrew tannūr, Aramaic tannūrā, Arabic tannūr and of the Iranian forms. But the shape printed here, 'tinnŭra', is not an Akkadian form: the nominative is tinūru (so CAD and Wiktionary), Klein writes 'tinnuru' and Jeffery 'tinuru'; the final -a belongs to the Aramaic emphatic state tannūrā and to the hypothetical 'older form tannura' that D. H. Müller posited and Jeffery quotes at p. 94 n. 3. The page image (pdf p. 496) shows the book itself printing 'tinnŭra', so the extraction is faithful and the odd form is Nourai's own conflation of the Akkadian with the Aramaic form.",
+          "derivation_fa": "واژهٔ اکدی راست است و در حقیقت کهن‌ترین عضو این خانواده است: tinūru «تنور، کوره» (از بابلی کهن به بعد)، که نیای عبری tannūr، آرامی tannūrā، عربی تنّور و صورت‌های ایرانی است. اما شکلی که در کتاب آمده، «tinnŭra»، صورت اکدی نیست: حالت فاعلی tinūru است (فرهنگ آشوری شیکاگو و ویکی‌واژه)، کلاین «tinnuru» و جفری «tinuru» می‌نویسند؛ «ـا»ی پایانی از آنِ حالت مؤکدِ آرامی «تنورا» و صورت فرضیِ tannura (د. ه. مولر، به نقل جفری ص ۹۴ پانوشت ۳) است. تصویر صفحهٔ ۴۹۶ نشان می‌دهد که خودِ کتاب «tinnŭra» چاپ کرده است؛ پس خطا از خوانشِ اسکن نیست، بلکه آمیختنِ صورت اکدی و آرامی به دست نورایی است.",
+          "error_in": "book",
+          "book_prints": "tinnŭra",
+          "correct_form": "tinūru",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AA%D9%86%D9%88%D8%B1"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:121",
+              "status": "partial",
+              "note": "Klein p. 121 has 'rel. to Akkad. tinnuru, \"oven\"' — double n but final -u, not -a."
+            },
+            {
+              "ref": "FVQ:94",
+              "status": "partial",
+              "note": "Jeffery p. 94: 'It also occurs as tinuru in Akkadian' (footnote: Zimmern, Akkad. Fremdw, 32); the form with -a appears only in his n. 3, 'D. H. Müller ... suggesting that [Heb.] תנור is a borrowing from Mesopotamia from an older form tannura'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "KLN",
+              "where": "p. 121",
+              "stance": "partial",
+              "note": "'Akkad. tinnuru' — supports the etymon but not the final -a."
+            },
+            {
+              "src": "LKT",
+              "where": "no. 2019",
+              "stance": "partial",
+              "note": "Lokotsch cites 'Assyr. tinūru, Del[itzsch] HWB 711b' — Delitzsch's Assyrisches Handwörterbuch has tinūru."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/تنور",
+              "stance": "partial",
+              "note": "'ultimately from Akkadian 𒋾𒂟 (tinūru)' — the standard citation form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "root": "Tartaros",
+      "verdict": "disputed",
+      "modern_form": "Two different Greek words: Τάρταρος 'the underworld' (Pre-Greek, Beekes EDG 1455) and Byzantine Greek τάρταρον 'deposit crusting wine casks' (> ML tartarum), the latter probably from Arabic durdī < Persian dord.",
+      "note": "The root box itself is a real Greek word with the right gloss — Τάρταρος, the abyss below Hades in Hesiod's Theogony — but it is the wrong root for this tree, and its own etymology is no longer explained as Klein explains it. (a) Modern scholarship (Beekes, Etymological Dictionary of Greek, s.v. Τάρταρος) treats the mythological word as a Pre-Greek substrate word of reduplicated shape; Wiktionary records only Strabo's guess (from Ταρτησσός) and Klein's 'word of imitative origin', both antiquarian. (b) The chemical word is a separate lexeme: Medieval/Byzantine Greek τάρταρον 'tartar of wine casks', which Wiktionary, Skeat, Devic and Funk & Wagnalls all derive from Arabic durdī 'dregs', itself from Persian dord; Etymonline is the dissenting modern voice ('a Semitic source has been proposed ... Arabic is unlikely because of the early date of the word in Latin'). (c) Nourai's arrows therefore run backwards at the top of the tree: Persian dord and Arabic durdī are not descendants of Greek Tartaros; dord is inherited Iranian (Proto-Iranian *dr̥ti-, PIE *dʰreyd- 'to have diarrhoea', a cognate of English dirt) and is the ultimate SOURCE of the European word, if the Arabic etymology is right at all. The lower half of the tree (Arabic/Latin > French tartre > English tartar, plus the modern Arabic/Persian back-loans) is sound. EXTRACTION NOTE: on the printed page the Latin box (#3) hangs from the root's own spine, not from the Arabic box; and the Ferdowsī hemistich is printed «از این آشتی جنگ بهر منست» (آشتی), while the JSON reads آتشی.",
+      "note_fa": "جعبهٔ ریشه واژه‌ای یونانی و واقعی است ــ Τάρταρος، ژرفنای زیرِ هادس در «تئوگونی» هزیود ــ اما ریشهٔ درستِ این درخت نیست و ریشه‌شناسیِ خودش نیز امروز آن‌گونه که کلاین می‌گفت توضیح داده نمی‌شود: بیکس آن را واژه‌ای از بستر پیش‌یونانی می‌داند، نه «تقلید آوایی». افزون بر این، واژهٔ شیمیایی، لفظِ دیگری است: یونانیِ بیزانسی τάρταρον «دُردِ بسته بر جدار خمره»، که ویکی‌واژه، اسکیت، دویک و فانک‌واگنالز آن را از عربی «دُردی» و آن را از فارسی «دُرد» می‌گیرند (اتیمآنلاین مخالف است و می‌گوید کهن‌بودنِ صورتِ لاتینی با وام‌گیری از عربی نمی‌خواند). بنابراین جهت پیکان‌ها در بالای درخت وارونه است: «دُرد» فارسی از یونانی نیامده، بلکه واژه‌ای ایرانی و ارثی است (ایرانی آغازین *dr̥ti-، هندواروپایی *dʰreyd-، هم‌ریشه با dirt انگلیسی) و خودْ سرچشمهٔ واژهٔ اروپایی است. نیمهٔ پایینِ درخت (لاتین ← فرانسه ← انگلیسی و وام‌های بازگشتیِ عربی و فارسی) درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%CE%A4%CE%AC%CF%81%CF%84%CE%B1%CF%81%CE%BF%CF%82",
+        "https://en.wiktionary.org/wiki/tartar",
+        "https://www.etymonline.com/word/tartar",
+        "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D8%AF"
+      ],
+      "ref_check": [
+        {
+          "ref": "KLN:1574",
+          "status": "supports",
+          "note": "Klein 1966 p. 1574 (KLN_1966.txt ll. 38247-38248, between the page markers 1572 and 1577): 'Tartarus, n., the abyss below Hades ... L., fr. Gk. Τάρταρος, prob. a word of imitative origin, suggestive of something frightful. Cp. tartar.' Klein is quoted correctly by Nourai; but Klein derives the chemical word from Greek, not from Arabic."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "SKT",
+          "where": "p. 543, entries 'Tartar (1)' and 'Tartar (3)'",
+          "stance": "contradicts",
+          "note": "Skeat keeps the two words apart: 'Tartar (1), an acid salt in casks ... A term due to the alchemists; called tartre in Chaucer. — F. tartre ... Low L. tartarum. — Arab. durd, sediment, tartar of wine: durdiy' vs 'Tartar (3), Tartarus, hell ... L. Tartarus. — Gk. Τάρταρος, the infernal regions; conceived as a place of extreme cold; cf. Gk. ταρταρίζειν, to shiver with cold.' So SKT:543 does NOT support making the mythological word the source of the chemical one."
+        },
+        {
+          "src": "Etymonline",
+          "where": "etymonline.com/word/tartar",
+          "stance": "contradicts",
+          "note": "'from Medieval Latin tartarum, from late Greek tartaron \"tartar encrusting the sides of wine casks\" ... perhaps of Semitic origin, but Arabic is unlikely because of the early date of the word in Latin'; the mythological Tartarus is treated as a separate word."
+        },
+        {
+          "src": "Wiktionary",
+          "where": "en.wiktionary.org/wiki/Τάρταρος",
+          "stance": "partial",
+          "note": "Gives only Strabo's derivation from Ταρτησσός and Klein's 'prob. word of imitative origin' — no support for a Semitic/Iranian origin of the mythological word."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "dord «دُرد»",
+          "verdict": "disputed",
+          "derivation": "Persian دُرد dord 'lees, sediment in wine, vinegar or oil' is a genuine, well-attested word — Noushin's Shahnameh glossary has it with the very verse Nourai quotes — but it is not a descendant of Greek Tartaros. It is inherited Iranian: Proto-Iranian *dr̥ti- 'dung, refuse', from PIE *dʰṛ-to- < *dʰreyd- 'to have diarrhoea' (ESIJa II 356), which also gives English dirt and Old Norse dríta; the syllabic *r̥ yields Persian -or-/-ur-, whence dord, with the by-form دردی dordī. If anything the traffic goes the other way: Aramaic durdā and Arabic دُرْدِيّ durdiyy are listed by Wiktionary as Iranian borrowings, and it is through Arabic that the word reached Byzantine Greek τάρταρον and Latin tartarum. Extraction note: the JSON's Ferdowsī hemistich reads «از این آتشی جنگ بهر منست», but both the printed page and Noushin (FSF) have آشتی, 'out of this peace, war is my lot'.",
+          "derivation_fa": "«دُرد» فارسی به معنی ته‌نشینِ شراب و سرکه و روغن واژه‌ای اصیل و پرگواه است ــ نوشین در «واژه‌نامک» همان بیتی را می‌آورد که نورایی نقل کرده ــ اما فرزندِ Τάρταρος یونانی نیست. این واژه ارثی و ایرانی است: از ایرانی آغازین *dr̥ti- «سرگین، پس‌مانده»، از هندواروپایی *dʰṛ-to- و ریشهٔ *dʰreyd- «اسهال داشتن» (فرهنگ ریشه‌شناختی زبان‌های ایرانی، ج۲ ص۳۵۶)، که dirt انگلیسی نیز از همان است؛ *r̥ هجایی در فارسی به -ur-/-or- بدل شده و «دُرد» و گونهٔ «دردی» را داده است. برعکسِ نمودار، آرامی durdā و عربی «دُردیّ» وام‌واژه‌های ایرانی‌اند و واژه از همین راه به یونانیِ بیزانسی τάρταρον و لاتینِ tartarum رسیده است. نکتهٔ خوانش: در استخراج، مصراع فردوسی «از این آتشی جنگ بهر منست» ثبت شده، حال آنکه چاپ کتاب و نوشین هر دو «از این آشتی جنگ بهر منست» دارند.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D8%AF",
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "FSF:175",
+              "status": "supports",
+              "note": "Noushin, Vazhe-namak (FSF_pages.txt ll. 11477-11484): headword «درد (با پیش اول)» glossed «ته‌نشین شراب و سرکه و مانند آن», illustrated with «ازین آشتی جنگ بهر منست / همه نوش تو دُرد و زهر منست» — Nourai's word, gloss and quotation. The glossary gives no etymology, so it cannot support a Greek source."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/درد (Etymology 2)",
+              "stance": "contradicts",
+              "note": "'From Proto-Iranian *dr̥ti- (\"manure, feces\"), from PIE *dʰṛ-to-, from *dʰreyd- (\"to have diarrhea\"), whence also English dirt ... Compare the Iranian borrowings: Aramaic durdā ... Arabic دُرْدِيّ.'"
+            },
+            {
+              "src": "FSF",
+              "where": "p. 175 s.v. درد",
+              "stance": "supports",
+              "note": "See the quotation above (word and Ferdowsī verse)."
+            },
+            {
+              "src": "HRN",
+              "where": "grep 'durd|dord' HRN.txt = 0; HUB likewise",
+              "stance": "silent",
+              "note": "Neither Horn's Grundriss nor Hübschmann's Persische Studien has a number for dord."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "durdi",
+          "verdict": "disputed",
+          "derivation": "Arabic دُرْدِيّ durdī 'lees, sediment (of oil or wine), amurca' is real and old, but it is a loan from Persian dord, not a descendant of Greek Tartaros. Addi Shir lists it among the Persian words Arabicised (AFM s.v. دردي, with تعريب), Wiktionary calls Arabic durdiyy and Aramaic durdā 'Iranian borrowings' of Persian dord, and Tobia al-Unaysi — Nourai's own TAD — puts durdī in his dictionary of foreign words in Arabic. Arabic gave the word the nisba ending -ī on the pattern of substance nouns. Nourai's arrow (Greek > Arabic) inverts the accepted direction and also crosses language families without a route.",
+          "derivation_fa": "عربی «دُردیّ» به معنی ته‌نشینِ روغن و شراب واژه‌ای کهن و واقعی است، اما وام‌گرفته از فارسی «دُرد» است، نه فرزندِ Τάρταρος یونانی. ادّی شیر آن را در «الألفاظ الفارسیة المعرّبة» با نشانِ «تعریب» آورده، ویکی‌واژه عربی durdiyy و آرامی durdā را «وام‌واژه‌های ایرانی» می‌خواند، و طوبیا العنیسی (همان TAD که نورایی به آن ارجاع می‌دهد) نیز آن را در فرهنگ واژه‌های دخیل در عربی ثبت کرده است؛ پسوندِ نسبتِ «ـیّ» افزودهٔ عربی است. پس جهتِ پیکانِ نورایی وارونه است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D8%AF",
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "TAD:27",
+              "status": "supports",
+              "note": "Tobia al-Unaysi (TAD_pages.txt l. 1064): headword «دردي» glossed «وهو الراسب من الزيت ...» ('the sediment of oil'), listed as a dakhīl (foreign) word — which is Nourai's gloss 'sediment, an acid salt in casks'. TAD's inclusion of the word marks it as non-Arabic in origin, but says nothing about Greek."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "AFM",
+              "where": "Addi Shir s.v. (دُرْدِي) (AFM_pages.txt l. 1572)",
+              "stance": "contradicts",
+              "note": "'(درْدِي) ... ما يقع في اسفله من الكدر تعريب ...' — Addi Shir files durdī among Arabicised Persian words, i.e. Arabic < Persian, not < Greek."
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/درد",
+              "stance": "contradicts",
+              "note": "Arabic دُرْدِيّ listed under 'the Iranian borrowings' from Persian dord."
+            },
+            {
+              "src": "AFA",
+              "where": "grep 'durd' AFA.txt = 0",
+              "stance": "silent",
+              "note": "Fraenkel does not treat durdī among the Aramaic loanwords in Arabic."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Latin",
+          "words": "tartarum",
+          "verdict": "plausible",
+          "derivation": "Medieval Latin tartarum 'potassium bitartrate, the crust deposited by wine in the cask' is certainly the source of the Romance and English words, and Nourai's chart follows the older etymology — Skeat, Devic, Funk & Wagnalls and today's Wiktionary all derive it ultimately from Arabic durdī (through Byzantine Greek τάρταρον, which Wiktionary makes the immediate Latin etymon). Two qualifications: (i) the immediate Latin etymon is the Byzantine Greek chemical word τάρταρον, not the mythological Τάρταρος, and Klein's story that it was 'so called by Paracelsus with regard to the burning effect' is anachronistic — Chaucer already has tartre c. 1390, over a century before Paracelsus, who only supplied the hellish rationalisation; (ii) Etymonline objects that 'Arabic is unlikely because of the early date of the word in Latin'. The node is therefore acceptable but not settled, and the chart's own NOTE (FSD:2468 & SKT:543 derive it from Arabic durdi) is a fair report of the split. EXTRACTION ERROR: on the printed page this Latin box branches from the root's spine, like the Persian and Arabic boxes; the JSON gives it parent #2 (Arabic).",
+          "derivation_fa": "لاتینِ سده‌های میانه tartarum «دُردِ خمره، بی‌تارتراتِ پتاسیم» بی‌گمان سرچشمهٔ واژه‌های رومی و انگلیسی است و نمودارِ نورایی همان ریشه‌شناسی کهن‌تر را دنبال می‌کند: اسکیت، دویک، فانک‌واگنالز و ویکی‌واژهٔ امروزی همگی آن را در نهایت از عربی «دُردی» می‌گیرند، با واسطهٔ یونانیِ بیزانسی τάρταρον. دو نکته: نخست آنکه واسطهٔ بی‌میانجیِ لاتین همان واژهٔ شیمیاییِ بیزانسی است نه Τάρταρος اساطیری، و توضیح کلاین که «پاراسلسوس به سببِ اثرِ سوزانندگی چنین نامیدش» با تاریخ نمی‌خواند، زیرا چاسر نزدیک ۱۳۹۰م صورت tartre را به کار برده است، بیش از یک سده پیش از پاراسلسوس. دوم آنکه اتیمآنلاین وام‌گیری از عربی را به سببِ کهن‌بودنِ صورت لاتینی بعید می‌شمارد. پس این گره «با احتیاط پذیرفتنی» است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/tartar",
+            "https://www.etymonline.com/word/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "KLN:1574",
+              "status": "contradicts",
+              "note": "Klein p. 1574 s.v. tartar: 'ME. tartre, tartar, fr. OF. tartre, fr. ML. tartarum, fr. Gk. Τάρταρος (see Tartarus); so called by Paracelsus with regard to the burning effect of this compound' — Klein derives the Latin word from Greek, NOT from Arabic durdī as Nourai's arrow does."
+            },
+            {
+              "ref": "SKT:543",
+              "status": "supports",
+              "note": "Skeat p. 543: 'Tartar (1) ... F. tartre ... Low L. tartarum. — Arab. durd, sediment, tartar of wine: durdiy' — exactly the Arabic derivation, as Nourai's own NOTE says."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "FSD",
+              "where": "vol. IV p. 2468 s.v. tartar (FSD_vol4.txt l. 30985)",
+              "stance": "supports",
+              "note": "'[< F tartre < LL tartarum < Ar durd, dregs]'."
+            },
+            {
+              "src": "DEV",
+              "where": "p. 218 s.v. Tartre (DEV.txt l. 2201)",
+              "stance": "supports",
+              "note": "'Tartre. Esp. portug. ital. tartaro, lat. des alchim. tartarum; de l'arabe-persan dourd, dourdi, sédiment, dépôt, lie de l'huile, lie du vin, tartre ... Le mot nous est venu par les alchimistes, ce qui explique son altération.'"
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/tartar",
+              "stance": "contradicts",
+              "note": "'from late Greek tartaron \"tartar encrusting the sides of wine casks\" ... Arabic is unlikely because of the early date of the word in Latin.'"
+            },
+            {
+              "src": "Wiktionary",
+              "where": "en.wiktionary.org/wiki/tartar",
+              "stance": "supports",
+              "note": "'From Old French tartre, from Medieval Latin tartarum, from Byzantine Greek τάρταρον, from Arabic دُرْدِيّ (durdiyy, \"dreg\"), from Persian درد (dord)' — Nourai's chain, with Byzantine Greek inserted."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "tarteer",
+          "verdict": "plausible",
+          "derivation": "Modern Arabic طَرْطِير ṭarṭīr 'tartar, tartaric acid' is a 19th-20th c. chemical term taken back from the European (Latin/Italian/French) word, the Arabic script rendering the Romance t with emphatic ṭ as usual in scientific loans (cf. طرخون, طرطوفة). Tobia al-Unaysi lists it in his dictionary of foreign words and refers the reader to durdī — i.e. he recognises it as the same substance and, in effect, as the word that went out and came back. A genuine Arabic-internal derivation from the root ṭ-r-r is not available.",
+          "derivation_fa": "«طَرطیر» در عربی نو اصطلاحی شیمیایی از سدهٔ نوزدهم و بیستم است که از صورتِ اروپایی (لاتینی/ایتالیایی/فرانسوی) بازپس گرفته شده و «ت» رومی در آن مانند دیگر وام‌واژه‌های علمی با «ط» نوشته شده است (قس طرخون، طرطوفه). طوبیا العنیسی آن را در فرهنگ واژه‌های دخیل آورده و خواننده را به «دردی» ارجاع می‌دهد، یعنی آن را همان مادّه و در واقع همان واژهٔ رفته‌وبازگشته می‌شناسد. اشتقاق درون‌عربی از ریشهٔ «ط‌ر‌ر» ممکن نیست. پس ادعای نورایی پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "TAD:46",
+              "status": "supports",
+              "note": "Tobia al-Unaysi (TAD_pages.txt l. 1770): «طرطير ... راجع دردي» — 'ṭarṭīr ... see durdī', i.e. the loanword is registered and tied to durdī, as Nourai's chart has it."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "TAD",
+              "where": "s.v. طرطير",
+              "stance": "supports",
+              "note": "See quotation above."
+            },
+            {
+              "src": "AFM",
+              "where": "grep 'طرطير' AFM_pages.txt = 0",
+              "stance": "silent",
+              "note": "Addi Shir (1908) does not list ṭarṭīr — expected, since it is a European chemical term, not an old Persian loan."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "tartîr «طرطیر ، ترتیر»",
+          "verdict": "plausible",
+          "derivation": "Persian طرطیر / ترتیر ṭarṭīr 'tartar, tartaric acid' is the same modern chemical term, reaching Persian through Arabic-mediated scientific vocabulary in the Qajar period (the spelling with ط is the give-away of the Arabic route; the simplified ترتیر reflects the Persian pronunciation, since ط and ت are homophonous in Persian). Mo'in's dictionary uses the compound اسید طرطیر 'tartaric acid' in defining mineral waters, which shows the term established in Persian lexicography. So this is a Persian → Arabic → Europe → Arabic → Persian round trip of the original dord.",
+          "derivation_fa": "«طرطیر / ترتیر» در فارسی همان اصطلاح شیمیاییِ نو است که در دورهٔ قاجار از راهِ واژگان علمیِ عربی به فارسی رسیده است؛ نگارش با «ط» نشانهٔ همین واسطهٔ عربی است و صورت سادهٔ «ترتیر» بازتابِ تلفظ فارسی است، چون «ط» و «ت» در فارسی هم‌آوایند. معین در تعریف آب معدنی ترکیبِ «اسید طرطیر» را به کار برده است که نشان می‌دهد این اصطلاح در فرهنگ‌نویسی فارسی جا افتاده است. بدین‌سان واژهٔ «دُرد» سفری رفت‌وبرگشتی داشته است: فارسی ← عربی ← اروپا ← عربی ← فارسی.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "MON:2221",
+              "status": "partial",
+              "note": "Mo'in's page 2221 (vol. 2, letter ط) is not reachable in the local two-volume Adena reprint, which has its own pagination; but Mo'in's text does use the term: MON_part1.txt l. 1149 (s.v. آب معدنی) 'بی‌کربنات سود و اسید طرطیر کنند و مانند گوارشی بیاشامند'. The word is thus in Mo'in, as Nourai claims; the exact page could not be confirmed."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "MON",
+              "where": "MON_part1.txt l. 1149 (s.v. آب معدنی)",
+              "stance": "supports",
+              "note": "«اسید طرطیر» used in Mo'in's own definition — the Persian chemical term is attested."
+            },
+            {
+              "src": "TAD",
+              "where": "s.v. طرطير",
+              "stance": "supports",
+              "note": "The Arabic intermediary from which the Persian spelling with ط is taken."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "French",
+          "words": "tartre",
+          "verdict": "confirmed",
+          "derivation": "French tartre 'tartar of wine, later dental calculus' is the regular Old French treatment of Medieval Latin tartarum: loss of the unstressed medial syllable and of the final -um gives tart(a)r- > tartre, with the usual French epenthetic -re for a final consonant group (cf. ML *cancrum > chancre). It is attested from the 14th c. in the language of the alchemists and apothecaries and is the direct source of English tartar; Devic's Dictionnaire étymologique des mots français d'origine orientale treats it at p. 218.",
+          "derivation_fa": "فرانسوی tartre «دُردِ شراب» و سپس «جرمِ دندان» برآیندِ منظمِ tartarum لاتینِ میانه است: هجای میانیِ بی‌تکیه و پایانهٔ -um می‌افتد و خوشهٔ پایانی، مانندِ chancre از cancrum، با «ـre» تلفظ‌پذیر می‌شود. این واژه از سدهٔ چهاردهم میلادی در زبان کیمیاگران و داروسازان گواهی شده و سرچشمهٔ بی‌واسطهٔ tartar انگلیسی است؛ دویک در ص ۲۱۸ فرهنگ خود آن را آورده است. ادعای نورایی درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/tartar",
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1317",
+              "status": "not_checked",
+              "note": "The main lexicon of the 1975 American Heritage Dictionary is not available locally (only Watkins' IE appendix, which has no 'tartar'); p. 1317 would be the AHD entry for tartar."
+            },
+            {
+              "ref": "DEV:218",
+              "status": "supports",
+              "note": "Devic p. 218 s.v. Tartre (DEV.txt l. 2201): 'Tartre. Esp. portug. ital. tartaro, lat. des alchim. tartarum; de l'arabe-persan dourd, dourdi ...' — the French word from ML tartarum."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "DEV",
+              "where": "p. 218",
+              "stance": "supports",
+              "note": "See quotation above."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/tartar",
+              "stance": "supports",
+              "note": "'from Old French tartre, from Medieval Latin tartarum'."
+            },
+            {
+              "src": "KLN",
+              "where": "p. 1574 s.v. tartar",
+              "stance": "supports",
+              "note": "'ME. tartre, tartar, fr. OF. tartre, fr. ML. tartarum' — the French link is uncontested."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "English",
+          "words": "tartar",
+          "verdict": "confirmed",
+          "derivation": "English tartar, first as tartre (Chaucer, Canon's Yeoman's Tale, c. 1390, among the alchemists' materials), is borrowed from Old French tartre; the modern spelling tartar is a Latinising respelling after ML tartarum and was helped by confusion with Tartar 'Tatar'. Sense 1 is the bitartrate of potash deposited by wine (whence cream of tartar, tartaric acid); the dental sense, 'a hard deposit on the teeth', is first recorded 1806 and is a transferred use of the same crust. Nourai's word, gloss and the French source are all correct.",
+          "derivation_fa": "انگلیسی tartar نخست به صورت tartre نزد چاسر (نزدیک ۱۳۹۰م، در «حکایت خدمتکار کشیش کیمیاگر») در فهرست مواد کیمیاگران دیده می‌شود و وام‌گرفته از tartre فرانسوی است؛ املای امروزی با -ar بازنویسیِ لاتینی‌مآبانه بر پایهٔ tartarum است و آمیختگی با Tartar «تاتار» نیز در آن بی‌تأثیر نبوده است. معنای نخست همان بی‌تارتراتِ پتاسیمِ ته‌نشستهٔ شراب است (و از همین‌جا cream of tartar و اسید تارتاریک) و معنای «جرمِ دندان» از ۱۸۰۶م به بعد، کاربردی مجازی از همان پوسته است. واژه، معنا و خاستگاه فرانسویِ آن در نمودار درست است.",
+          "sources": [
+            "https://www.etymonline.com/word/tartar",
+            "https://en.wiktionary.org/wiki/tartar"
+          ],
+          "ref_check": [
+            {
+              "ref": "AHD:1317",
+              "status": "not_checked",
+              "note": "AHD's main lexicon is not available locally (only the Watkins IE appendix)."
+            },
+            {
+              "ref": "SKT:543",
+              "status": "supports",
+              "note": "Skeat p. 543: 'Tartar (1), an acid salt in casks ... A term due to the alchemists; called tartre in Chaucer. — F. tartre ... Low L. tartarum.'"
+            },
+            {
+              "ref": "FSD:2468",
+              "status": "supports",
+              "note": "Funk & Wagnalls vol. IV (FSD_vol4.txt l. 30985): 'tartar ... 1. The roughly purified crust of argol ... 2. A yellowish incrustation that forms on the teeth, consisting chiefly of calcium phosphate. [< F tartre < LL tartarum < Ar durd, dregs]' — Nourai's gloss verbatim."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "SKT",
+              "where": "p. 543",
+              "stance": "supports",
+              "note": "See quotation above."
+            },
+            {
+              "src": "FSD",
+              "where": "vol. IV p. 2468",
+              "stance": "supports",
+              "note": "See quotation above."
+            },
+            {
+              "src": "Etymonline",
+              "where": "etymonline.com/word/tartar",
+              "stance": "supports",
+              "note": "'Late 14c., \"bitartrate of potash\" ... By 1806, the term specifically referred to dental encrustation.'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
