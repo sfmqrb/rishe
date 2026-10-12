@@ -1,0 +1,314 @@
+{
+  "pdf_page": 488,
+  "book_page": 458,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Sukurna, Skarna",
+      "verdict": "transcription_suspect",
+      "modern_form": "Avestan sukurəna- m. 'porcupine' (listed among the kinds of 'dog' in Vidēvdād 5.31 and 13.16)",
+      "note": "The first form is right: Av. sukurəna- is a genuine Avestan word, attested in the Vidēvdād list of dog-kinds (spā sukurunō V.5.31-33; V.13.16), and Bartholomae glosses it exactly 'Stachelschwein' = porcupine, so the language label and the gloss are correct. The second form 'Skarna' is not an Avestan word and is not known to any source. What the sources have is Hübschmann's Iranian reconstruction *skurna-, set up (Persische Studien p. 259) to explain Pashto skūn, skuṛ beside NP sugur: 'sugurna = sugur Stachelschwein, zd. sukurena- (var. sukuruna-), afg. skūn, skuṛ = *skurna-, phl. sukur H. 744'. The printed page 458 does read 'Skarna' (see data/verification/sources/refs/ocr/BOOK/488.png), so the extraction is faithful and the odd form is the book's own: Nourai misprinted (and mislabelled as Avestan) Hübschmann's *skurna-. Apart from that the root box is sound.",
+      "note_fa": "واژهٔ اوستایی sukurəna- («خارپشت») واقعی است و در وندیداد (۵/۳۱ و ۱۳/۱۶) در فهرست گونه‌های «سگ» آمده و بارتولومه آن را Stachelschwein یعنی خارپشت معنی کرده است؛ پس برچسب زبانی و معنای جعبهٔ ریشه درست است. اما صورت دوم، Skarna، هیچ پایه‌ای ندارد و در هیچ منبعی صورت اوستایی نیست؛ آنچه هوبشمان (پژوهش‌های پارسی، ص ۲۵۹) به‌دست داده صورت بازسازیدهٔ ایرانی *skurna- است که برای توضیح پشتوی skūn / skuṛ ساخته شده. تصویر صفحهٔ چاپی نشان می‌دهد که خودِ کتاب «Skarna» چاپ کرده است، پس خطا از کتاب است نه از خوانش اسکن: نورایی *skurna- را هم غلط نوشته و هم به‌نادرست اوستایی خوانده است.",
+      "error_in": "book",
+      "book_prints": "Sukurna, Skarna : porcupine",
+      "correct_form": "Sukurna (= Av. sukurəna-); the second form should be the reconstruction *skurna- (Iranian, not Avestan)",
+      "sources": ["https://abadis.ir/fatofa/%D8%B3%DA%AF%D8%B1/"],
+      "ref_check": [
+        {"ref": "HRN:164", "status": "supports", "note": "Horn, Grundriss p. 164 (local HRN.txt leaf 185) no. 744: 'sugur, sugurne, suγur Stachelschwein … aw. sukuruna- (zu den Hundearten gezählt); phlv. sukur (Thonnelier)'. Horn's headword and the Avestan and Pahlavi forms are exactly Nourai's chart; Horn has no form 'Skarna'."}
+      ],
+      "consulted": [
+        {"src": "BRT", "where": "s.v. sukurəna- (grep 'sukurana-' in BRT.txt line 26366)", "stance": "supports", "note": "'sukurəna- m. (auch mit ϑpan- m.) Name einer Art des Hunde-geschlechts, Stachelschwein: … V.7.16; — spā °nō V.5.31' — real Avestan word, meaning 'porcupine', counted among the dogs."},
+        {"src": "HUB", "where": "Persische Studien p. 259 (HUB.txt leaf 269) and p. 238 (leaf 248)", "stance": "partial", "note": "'sugurna = sugur Stachelschwein, zd. sukurena- (var. sukuruna-), afg. skūn, skuṛ = *skurna-, phl. sukur H. 744'. Supports the whole chain but shows the second form is *skurna-, a reconstruction, not Avestan 'Skarna'."},
+        {"src": "BQT", "where": "vol. 2, printed p. ~1157-1159 (BQT_v2_pages.txt leaf 621), s.v. سگر, Mo'in's footnote 4", "stance": "supports", "note": "'= سغر (هم.) «رشیدی» = سگرله (هم.) … اوستا sukurəna- (از انواع سگ محسوب شده)، پهلوی sukurr، … بلوچی sikun (جوجه‌تیغی) … «هوبشمان ۶۴۷»' — Avestan, Pahlavi and Persian forms as in the chart."},
+        {"src": "PHD", "where": "MacKenzie 1971, grep 'sukur' in PHD.txt / PHD_mackenzie.txt", "stance": "silent", "note": "No entry sukur(r) in the Concise Pahlavi Dictionary; the Pahlavi form comes from Horn/Mo'in (Thonnelier's glossary), not from MacKenzie."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "sukur",
+          "verdict": "confirmed",
+          "derivation": "Av. sukurəna- lost its -na- suffix (or rather: the Middle Persian form continues the suffixless stem *sukura-) and gave MP sukur 'porcupine'. The word is not in MacKenzie's Concise Pahlavi Dictionary; Horn (Grundriss §744, p. 164) cites it from Thonnelier's Pahlavi glossary, and Mo'in repeats it in his footnote to Borhan-e Qate' s.v. سگر as پهلوی sukurr. The Avestan -k- stayed a stop in Middle Persian (it is only in New Persian that post-vocalic -k- became -g-, §134 of Hübschmann's Persische Studien), which is why the Pahlavi form has -k- and the New Persian one -g-.",
+          "derivation_fa": "صورت فارسی میانهٔ sukur («خارپشت») دنبالهٔ ستاک اوستایی sukurəna- است که پسوند -na- را از دست داده است. این واژه در فرهنگ پهلوی مکنزی نیامده؛ هرن (ص ۱۶۴، بند ۷۴۴) آن را از واژه‌نامهٔ پهلوی تونلیه نقل کرده و معین نیز در حاشیهٔ برهان قاطع ذیل «سگر» صورت پهلوی sukurr را آورده است. ک ایرانی در فارسی میانه همچنان بی‌واک مانده و تنها در فارسی نو پس از واکه به گ نرم شده است (هوبشمان، بند ۱۳۴)؛ از همین‌روست که در پهلوی sukur و در فارسی سگر داریم. ادعای نورایی درست است.",
+          "sources": ["https://abadis.ir/fatofa/%D8%B3%DA%AF%D8%B1/"],
+          "ref_check": [
+            {"ref": "MON:1905", "status": "partial", "note": "Mo'in's Farhang-e Farsi vol. 2 p. 1905 is not in the local OCR (MON_part1/2 have no clean سگر entry); on abadis.ir the فرهنگ فارسی text for سگر reads 'خار پشت بزرگ تیر انداز' — same word and meaning as the chart, but the online text does not show a Pahlavi form, so only the gloss could be checked."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "p. 164, no. 744 (HRN.txt leaf 185)", "stance": "supports", "note": "'aw. sukuruna- (zu den Hundearten gezählt); phlv. sukur (Thonnelier)' — the Pahlavi form and its source are stated."},
+            {"src": "HUB", "where": "p. 259 (HUB.txt leaf 269)", "stance": "supports", "note": "'… afg. skūn, skuṛ = *skurna-, phl. sukur H. 744' — Hübschmann repeats phl. sukur."},
+            {"src": "BQT", "where": "vol. 2 p. ~1157-1159, footnote to سگر", "stance": "supports", "note": "'… اوستا sukurəna- … پهلوی sukurr …' (Mo'in's etymological footnote)."},
+            {"src": "PHD", "where": "grep 'sukur' — no hit", "stance": "silent", "note": "MacKenzie 1971 does not record the word; its only Pahlavi authority is Thonnelier via Horn."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "sogor",
+          "verdict": "confirmed",
+          "derivation": "MP sukur > NP sugur / sogor سُگُر 'large porcupine', with the regular New Persian voicing of post-vocalic -k- to -g- (Hübschmann, Persische Studien §134: 'Ap. k nach Vokalen, r und n wird im Np. zu g'; cf. tak > tag, paik > paig). The chart's variants are the ones the sources actually list: سُگُرنه sugurna keeps the old -na- suffix of Av. sukurəna- (Hübschmann p. 259 'sugurna = sugur'), and سُغُر suγur shows the common NP g/γ fluctuation (Borhan: 'و با زای نقطه‌دار هم گفته‌اند'; Mo'in's footnote '= سغر (هم.) «رشیدی»'). Borhan-e Qate' defines سگر as 'چکاسه است که خارپشت بزرگ تیرانداز باشد' — the big porcupine believed to shoot its quills — which is exactly the 'large porcupine' of the chart; the verse quoted in the chart is Abu Shakur Balkhi's (4th c. AH / 10th c. CE) and is found s.v. in Asadi's Loghat-e Fors ('بسغر مانم کز باز پس اندازم تیر'), with the spelling سغر.",
+          "derivation_fa": "«سُگُر» از فارسی میانهٔ sukur است؛ ک میان دو واکه در فارسی نو به گ نرم شده (هوبشمان، بند ۱۳۴: ak > ag، مانند tak > tag و paik > paig). گونه‌های دیگرِ ثبت‌شده در کتاب نیز درست‌اند: «سُگُرنه» پسوند کهن ‑na- اوستایی (sukurəna-) را نگاه داشته است (هوبشمان ص ۲۵۹: sugurna = sugur) و «سُغُر» نمونهٔ ابدال گ/غ در فارسی است (حاشیهٔ معین: «= سغر (هم.) رشیدی»). برهان قاطع سگر را «چکاسه است که خارپشت بزرگ تیرانداز باشد» تعریف کرده و بیت شاهدِ کتاب از ابوشکور بلخی (سدهٔ چهارم هجری) در لغت فرس اسدی نیز با املای «سغر» آمده است. ادعای نورایی درست است.",
+          "sources": ["https://abadis.ir/fatofa/%D8%B3%DA%AF%D8%B1/"],
+          "ref_check": [
+            {"ref": "BQT:1157", "status": "supports", "note": "Borhan-e Qate' vol. 2: printed p. 1157 opens the سگ chapter ('بیان هیجدهم در سین بی‌نقطه با کاف فارسی…', BQT_v2_pages.txt leaf 619) and the entry سگر stands two pages on (leaf 621): 'سگر — بضم اول و ثانی و سکون رای … یعنی چکاسه است که خارپشت بزرگ تیرانداز باشد؛ و با زای نقطه‌دار هم گفته‌اند', with Mo'in's footnote giving Av. sukurəna-, Phl. sukurr, Balochi sikun."},
+            {"ref": "HRN:164", "status": "supports", "note": "Horn p. 164 no. 744 heads the article 'sugur, sugurne, suγur Stachelschwein' — all three of the chart's Persian variants."},
+            {"ref": "MON:1905", "status": "partial", "note": "Mo'in vol. 2 p. 1905 not available locally; abadis.ir's فرهنگ فارسی text s.v. سگر gives 'خار پشت بزرگ تیر انداز', i.e. the gloss, without the etymology line."},
+            {"ref": "FRS:100", "status": "supports", "note": "Asadi Tusi, Loghat-e Fors: the Abu Shakur verse quoted in the chart is in FRS_pages.txt leaf 156 — 'بسغر مانم کز باز پس اندازم تیر' — so the word and this very shāhed are in Loghat-e Fors; the page number differs because the local scan is Eqbal's 1319/1940 edition, not the Kharazmi 1365 edition Nourai cites."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "p. 164 no. 744", "stance": "supports", "note": "'sugur, sugurne, suγur Stachelschwein … kurd. LW. siγūr; afγ. skūr, skōn; bal. sikun, n. siγun Stachelschwein'."},
+            {"src": "HUB", "where": "p. 238 (§134) and p. 259 (§156)", "stance": "supports", "note": "p. 238: 'sugur, sugurna etc. Stachelschwein — zd. sukurena-' cited as an example of ap. k > np. g; p. 259: 'sugurna = sugur Stachelschwein'."},
+            {"src": "BQT", "where": "vol. 2 p. ~1157-1159 s.v. سگر, سگرنه", "stance": "supports", "note": "Both سگر and سگرنه are entries ('سگرنه … بمعنی سگر است که خارپشت بزرگ تیرانداز باشد')."},
+            {"src": "MON", "where": "abadis.ir s.v. سگر (فرهنگ فارسی + لغت‌نامه دهخدا)", "stance": "supports", "note": "Dehkhoda: 'چکاسه است که خارپشت بزرگ تیرانداز باشد'; Amid: '= سیخول'."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Šŭlaka",
+      "verdict": "confirmed",
+      "modern_form": "Sanskrit śūlaka- m. 'a restive horse' (Monier-Williams 1899, p. 1086)",
+      "note": "The Sanskrit word exists with the meaning the chart gives: Monier-Williams p. 1086 prints 'Śūlaka, m. (cf. śūkala) a restive horse, L.' — I read this off the Cologne page scan (mw1086-zUdravarga.pdf, reached through servepdf.php?dict=MW&page=1086). The 'L.' is important: it means the sense is known only from the native Sanskrit lexicographers, not from a text, so the word is a dictionary word rather than a word of living Sanskrit. Note also that this is śūlaka, not the common śulka 'toll, tax' (Wiktionary/Apte), which has no equine sense — the two must not be confused. Nourai's gloss 'wild horse' is a loose rendering of 'restive horse'. The root box is therefore right; the doubt is about the borrowing (node #1).",
+      "note_fa": "واژهٔ سانسکریت śūlaka- به معنای «اسب چموش/سرکش» واقعاً وجود دارد: مونیر ویلیامز (چاپ ۱۸۹۹) در ص ۱۰۸۶ می‌آورد: «Śūlaka, m. (cf. śūkala) a restive horse, L.». نشانهٔ L. یعنی این معنی تنها در فرهنگ‌های سنتی سانسکریت آمده و در متنی گواه ندارد، پس واژه‌ای فرهنگ‌نامه‌ای است. باید آن را از śulka («باج، عوارض») که معنای اسب ندارد جدا دانست. ترجمهٔ نورایی («اسب وحشی») تقریبی از همان «اسب چموش» است. بنابراین جعبهٔ ریشه درست است و تردید تنها در بارهٔ وام‌گیری فارسی از آن است.",
+      "sources": [
+        "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&page=1086",
+        "https://www.wisdomlib.org/definition/shulka",
+        "https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95"
+      ],
+      "ref_check": [
+        {"ref": "BQT:1310", "status": "supports", "note": "Borhan-e Qate' vol. 3 p. 1310 (rendered with tools/ref_page.py BQT:1310 = pdf page 101 of BQT_v3_picofile.pdf): entry 'شولک — بانانی مجهول بروزن کوچک … اسب جلد و تند … و نام اسفندیار هم بوده است', with Mo'in's footnote 7: 'سانسکریت ŚULKA (اسب چموش) «ویلیامز ۱۰۸۶»' — i.e. exactly Nourai's Sanskrit etymon and gloss, taken from Monier-Williams."}
+      ],
+      "consulted": [
+        {"src": "MW (Monier-Williams 1899, Cologne scan)", "where": "p. 1086", "stance": "supports", "note": "'Śūlaka, m. (cf. śūkala) a restive horse, L.' — OCR of the Cologne page PDF; the page's first headword is śūdra-varga, and p. 1087 begins śūlākṛ, so the entry sits where it should."},
+        {"src": "Wiktionary/Apte", "where": "शुल्क (śulka) and wisdomlib s.v. shulka", "stance": "partial", "note": "The homophone-like śulka has only 'price, toll, tax, nuptial gift, wages of prostitution' (MW/Apte) and is probably a Dravidian loan (cf. Tamil cuṅkam) — no horse sense; this confirms that the chart's word must be the separate lexicographers' word śūlaka."},
+        {"src": "MON", "where": "Farhang-e Farsi s.v. شولک (via abadis.ir)", "stance": "supports", "note": "'(لَ) [سنس.] (اِ.) اسب، اسب تندرو' — Mo'in tags the word سنسکریت, i.e. the same Sanskrit source."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "šŭlak",
+          "verdict": "plausible",
+          "derivation": "NP شولک šulak/šōlak is well attested: Ferdowsi uses it of Esfandiyār's mount (the chart's verse 'نشست از بر شولک اسفندیار'), Asadi and the Jahāngīrī gloss it 'اسب جلد و تند' and Borhan-e Qate' (p. 1310) adds 'و نام [اسب] اسفندیار هم بوده است'; Mo'in's Farhang-e Farsi tags it [سنس.] 'اسب، اسب تندرو'. The Sanskrit source is Mo'in's own conjecture in his footnote to Borhan ('سانسکریت ŚULKA (اسب چموش) ویلیامز'), which Nourai takes over: Skt. śūlaka- 'restive horse' would give NP šūlak with the regular Indic ś > Iranian š and the retention of -aka > -ak (rather than the usual NP -a), i.e. a late loan preserving the unweakened suffix. The match of form and sense is close, but nothing else supports it: there is no Middle Persian or Sogdian intermediary, no Indian loanword layer this word belongs to, and Skt. śūlaka- is itself only a lexicographers' entry. Borhan's own neighbourhood suggests an Iranian alternative — the same page has شول 'پریشان' and شولیدن, and lists شوکل / شنگرک as variants — so a native formation cannot be excluded. Hence plausible, not confirmed.",
+          "derivation_fa": "«شولک» در فارسی به‌خوبی گواه دارد: فردوسی آن را برای اسب اسفندیار به کار برده («نشست از بر شولک اسفندیار»)، اسدی و جهانگیری آن را «اسب جلد و تند» معنی کرده‌اند و برهان قاطع (ص ۱۳۱۰) می‌افزاید «و نام [اسب] اسفندیار هم بوده است»؛ معین نیز در فرهنگ فارسی آن را با برچسب [سنس.] آورده است. خاستگاه سانسکریت حدس خودِ معین در حاشیهٔ برهان است («سانسکریت ŚULKA (اسب چموش)، ویلیامز») که نورایی آن را پذیرفته: از śūlaka- سانسکریت با تبدیل ش هندی به ش ایرانی و نگاه‌داشتِ پسوند ‑aka به‌صورت ‑ak، شولکِ فارسی به‌دست می‌آید، یعنی وام‌واژه‌ای دیرهنگام. هم‌سانی صورت و معنا نزدیک است، اما هیچ حلقهٔ میانی (فارسی میانه یا سغدی) در کار نیست و خودِ واژهٔ سانسکریت هم تنها فرهنگ‌نامه‌ای است؛ از سوی دیگر در همان صفحهٔ برهان «شول» (پریشان) و «شولیدن» و گونه‌های «شوکل/شنگرک» آمده که احتمال ساختِ ایرانی را باز می‌گذارد. پس این ریشه‌شناسی با احتیاط پذیرفتنی است، نه قطعی.",
+          "sources": [
+            "https://abadis.ir/fatofa/%D8%B4%D9%88%D9%84%DA%A9/",
+            "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&page=1086"
+          ],
+          "ref_check": [
+            {"ref": "MON:2092", "status": "supports", "note": "Mo'in's Farhang-e Farsi s.v. شولک (text on abadis.ir): '(لَ) [سنس.] (اِ.) اسب، اسب تندرو' — the Sanskrit tag and the 'fast horse' gloss are Nourai's node exactly; the printed page could not be checked (vol. 2 not in the local OCR), only the entry text."},
+            {"ref": "BQT:1310", "status": "supports", "note": "BQT vol. 3 p. 1310 (ref_page.py, pdf page 101): 'شولک … اسب جلد و تند ونیز رفتار را گویند … و نام اسفندیار هم بوده است', footnote 7 'سانسکریت ŚULKA (اسب چموش) «ویلیامز»', plus a shāhed from Farrokhi ('بنعل سم شولک و خنگ اشقر')."},
+            {"ref": "FSF:242", "status": "supports", "note": "Noushin's Vazhe-namak has the entry 'شولک (با زبر سوم)' with Shahnameh and Asadi citations ('به شبرنگ شولک درآورد پای'); in the archive.org scan on disk it stands on printed p. 333 (FSF_pages.txt leaf 326), not p. 242 — a different printing from the Donya 1363 edition Nourai cites."}
+          ],
+          "consulted": [
+            {"src": "BQT", "where": "vol. 3 p. 1310", "stance": "supports", "note": "entry + Mo'in's Sanskrit footnote, as quoted above; the same page also has شول 'پریشان'/شولیدن and cross-refers شوکل، شنگرک."},
+            {"src": "MON", "where": "abadis.ir, فرهنگ معین and لغت‌نامه دهخدا s.v. شولک", "stance": "supports", "note": "Mo'in '[سنس.] اسب تندرو'; Dehkhoda 'اسب جلد و تند و تیز رفتار. (برهان)(جهانگیری). اسب تیزرو' with Ferdowsi shāheds."},
+            {"src": "FSF", "where": "Vazhe-namak p. 333 of the scan (leaf 326)", "stance": "partial", "note": "Confirms the Shahnameh usage and the meaning but gives no etymology."},
+            {"src": "MW (Monier-Williams, Cologne scan)", "where": "p. 1086", "stance": "supports", "note": "'Śūlaka, m. … a restive horse, L.' — the etymon exists, but marked as a lexicographers' word only."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Summâq",
+      "verdict": "confirmed",
+      "modern_form": "Classical Syriac ܣܘܡܩܐ summāqā 'red; sumac' (root s-m-q 'to be red')",
+      "note": "Klein, Etymonline and Wiktionary all give the same root: the Syriac adjective summāq(ā) 'red', from the Aramaic root s-m-q 'to be red', is the source of Arabic summāq, the plant being named from its dark-red drupes. Language label and gloss are right. The only competing view is Lokotsch's, who offers a choice between an Aramaic origin and a native Arabic derivation from the verb samaka; the Syriac derivation is the one modern dictionaries keep.",
+      "note_fa": "ریشهٔ این خانواده صفت سریانی summāqā «سرخ» است (از ریشهٔ سامی s-m-q «سرخ بودن»)، و درخت سماق به سبب میوهٔ سرخ تیره‌اش چنین نام گرفته است؛ کلاین، اتیمانلاین و ویکی‌واژه همگی همین را می‌گویند و برچسب زبانی و معنای جعبهٔ ریشه درست است. تنها دیدگاه رقیب از لوکوچ است که میان خاستگاه آرامی و اشتقاق عربیِ درون‌زبانی از فعل «سمک» تردید می‌کند، ولی فرهنگ‌های امروزی همان اصل سریانی را می‌پذیرند. ادعای نورایی درست است.",
+      "sources": [
+        "https://www.etymonline.com/word/sumac",
+        "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%A7%D9%82"
+      ],
+      "ref_check": [
+        {"ref": "KLN:1541", "status": "supports", "note": "Klein, Comprehensive Etymological Dictionary p. 1541 (KLN_1966.txt leaf 817, the page marker 1541 stands just above the article): 'sumac, sumach, n. … — ME. sumac, fr. MF. (= F.), fr. OF. sumac, fr. ML. sumach, fr. Arab. summāq, “the sumac tree”, fr. Syr. summāq, “red”.' — the whole chart, root and all four nodes, is this one Klein article."}
+      ],
+      "consulted": [
+        {"src": "LKT", "where": "Lokotsch no. 1946, p. 165 (LKT.txt leaf 182)", "stance": "partial", "note": "'Ar. summāk: eine Staude Rhus coriaria L. “Essigbaum” [vom Vb. samaka “einen schönen Wuchs haben” oder aus dem Aram.]' — Aramaic origin admitted as one of two possibilities."},
+        {"src": "SKT", "where": "Skeat, Concise Etym. Dict. s.v. Sumach", "stance": "partial", "note": "'Sumach, a tree. (F.–Span.–Arab.) F. sumac … Span. zumaque, Arab. summāq, a species of shrub, sumach' — same Arabic etymon, but Skeat routes the French word through Spanish and stops at Arabic."},
+        {"src": "Wiktionary", "where": "en.wiktionary.org s.v. سماق (Arabic section)", "stance": "supports", "note": "'From Classical Syriac ܣܘܡܩܐ (summāqā, “red; sumac”)'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Arabic",
+          "words": "summâq",
+          "verdict": "confirmed",
+          "derivation": "Syriac summāqā 'red' was taken into Arabic as سُمَّاق summāq, the name of Rhus coriaria, whose dried crimson fruit is ground into the souring spice; the intensive faʿʿāl pattern of the Aramaic adjective was simply kept, so the loan is formally invisible and native lexicographers could attach it to a root s-m-q. Both Klein (p. 1541) and Wiktionary derive it straight from Syriac; Lokotsch (no. 1946) mentions the alternative of an inner-Arabic derivation from samaka, which is a classic Arab-grammarian etymology rather than a historical one. The chart's parenthetical gloss ('has red fruit that is dried and used as a spice') is the correct motivation of the name.",
+          "derivation_fa": "صفت سریانی summāqā «سرخ» به عربی سُمّاق راه یافت و نام درخت Rhus coriaria شد؛ میوهٔ سرخِ خشک‌شدهٔ آن را می‌سایند و چاشنی ترش می‌سازند. چون وزن فَعّال در هر دو زبان یکی است، وام‌واژه از نظر ساختاری ناپیدا مانده و لغویان عرب توانسته‌اند آن را به ریشهٔ «س‌م‌ق» ببندند. کلاین (ص ۱۵۴۱) و ویکی‌واژه هر دو آن را یکراست از سریانی می‌گیرند؛ لوکوچ (شمارهٔ ۱۹۴۶) اشتقاق درون‌عربی از فعل «سمک» را هم یاد می‌کند که بیشتر ریشه‌شناسی سنتیِ نحویان است تا تاریخی. توضیح داخل پرانتزِ کتاب دربارهٔ میوهٔ سرخ، انگیزهٔ درستِ نام‌گذاری است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%A7%D9%82", "https://www.etymonline.com/word/sumac"],
+          "ref_check": [
+            {"ref": "KLN:1541", "status": "supports", "note": "'…fr. Arab. summāq, “the sumac tree”, fr. Syr. summāq, “red”' — precisely this arrow."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "s.v. سماق, Arabic", "stance": "supports", "note": "'From Classical Syriac ܣܘܡܩܐ (summāqā, “red; sumac”)'; sense 'sumac (plant of the genus Rhus)'."},
+            {"src": "LKT", "where": "no. 1946", "stance": "partial", "note": "'[vom Vb. samaka … oder aus dem Aram.]' — allows, but does not insist on, the Aramaic source."},
+            {"src": "KLN", "where": "p. 1541", "stance": "supports", "note": "see ref_check."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "somâq; somâk; somâq-pâlâ",
+          "verdict": "confirmed",
+          "derivation": "Persian سماق somāq is a straight Arabic loan (Wiktionary: 'Borrowed from Arabic سُمَّاق (summāq)'; Mo'in tags the entry [معر.] 'arabicized'), taken over with the spice-trade in the Islamic period; the Persian pronunciation reduces the Arabic geminate to somāq. سُماک somāk is the same word with k for q, a regular Persian substitution in colloquial Arabisms; Dehkhoda even turns the relation round and claims 'سماق معرب سماک فارسی است' (that Arabic summāq is the arabicized form of a Persian somāk), which is a folk etymology — the Syriac source settles the direction. سماقیل / سماکیل are the diminutive-looking secondary forms Borhan lists beside the headword (BQT vol. 2 p. ~1167 '# سماق ‏ سماقیل ‏ سمالک … Rhus'). سماق‌پالا 'sumac shaker' is a transparent Persian compound: somāq + pālā, present stem of پالودن pālūdan 'to sift, strain'.",
+          "derivation_fa": "«سماق» در فارسی وام‌واژه‌ای است یکراست از عربی سُمّاق (ویکی‌واژه؛ معین آن را با برچسب [معر.] آورده) که با بازرگانی چاشنی در دورهٔ اسلامی وارد شده و تشدید عربی در تلفظ فارسی ساده شده است. «سُماک» همان واژه است با ابدال ق به ک که در معرّب‌های گفتاری فارسی معمول است؛ دهخدا حتی عکس آن را می‌گوید («سماق معرب سماک فارسی است») که ریشه‌شناسی عامیانه است، زیرا اصل سریانی جهت وام‌گیری را روشن می‌کند. «سماقیل» و «سماکیل» گونه‌های فرعی‌اند که برهان قاطع (ج ۲، ص ۱۱۶۷ تقریبی) کنار سرواژه آورده است. «سماق‌پالا» ترکیبی سرراست فارسی است: سماق + پالا، ستاک حال «پالودن».",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%A7%D9%82", "https://abadis.ir/fatofa/%D8%B3%D9%85%D8%A7%D9%82/"],
+          "ref_check": [
+            {"ref": "MON:1917", "status": "supports", "note": "Mo'in's Farhang-e Farsi s.v. سماق (text on abadis.ir) marks it [معر.] and defines 'گیاهی است از ردهٔ دولپه‌ای‌ها … میوه‌اش کوچک و ترش‌مزه است' — the Arabic origin and the meaning of Nourai's node; the printed page 1917 itself is not in the local OCR."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "s.v. سماق, Persian", "stance": "supports", "note": "'Borrowed from Arabic سُمَّاق (summāq)'."},
+            {"src": "BQT", "where": "vol. 2, printed p. ~1167 (BQT_v2_pages.txt leaf 629)", "stance": "supports", "note": "'# سماق ‏ سماقیل ‏ سمالک … Rhus … گیاهی از تیرهٔ سماقیان' — the headword with the سماقیل variant of the chart."},
+            {"src": "MON", "where": "abadis.ir, دهخدا s.v. سماق", "stance": "partial", "note": "Dehkhoda knows the Syriac root ('ریشهٔ واژه، سُمّاق سریانی است') but also repeats the claim that سماق is the arabicized form of a Persian سماک — a folk etymology."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Middle Latin",
+          "words": "sumach",
+          "verdict": "confirmed",
+          "derivation": "Arabic summāq entered Latin as the Medieval Latin pharmacists' and tanners' word sumach, through the translation of Arabic medical and botanical works in Italy and Spain (Salerno, Toledo) in the 11th-12th centuries; Arabic q was rendered by Latin ch. The plant reached Europe as a tanning and dyeing drug — Lokotsch stresses that the powdered twigs and leaves were used 'zum Gerben von Häuten und zum Schwarzfärben' — which is why the word travelled through the pharmacopoeia rather than the kitchen.",
+          "derivation_fa": "سُمّاقِ عربی از راه ترجمهٔ کتاب‌های پزشکی و گیاه‌شناسی عربی در ایتالیا و اسپانیا (سالرنو، طلیطله) در سده‌های یازدهم و دوازدهم میلادی به لاتینی میانه رسید و به‌صورت sumach درآمد؛ قافِ عربی با ch لاتینی نشان داده شده است. این گیاه در اروپا نخست مادهٔ دباغی و رنگرزی بود — لوکوچ تأکید می‌کند که گَرد شاخه و برگ آن برای دباغی پوست و سیاه‌رنگ کردن به کار می‌رفت — و به همین سبب واژه از راه داروشناسی سفر کرده است نه آشپزی.",
+          "sources": ["https://www.etymonline.com/word/sumac"],
+          "ref_check": [
+            {"ref": "KLN:1541", "status": "supports", "note": "'…fr. ML. sumach, fr. Arab. summāq' — the Medieval Latin link is Klein's."}
+          ],
+          "consulted": [
+            {"src": "Etymonline", "where": "s.v. sumac", "stance": "supports", "note": "'from Medieval Latin sumach, from Arabic summaq, from Syrian summaq “red”'."},
+            {"src": "LKT", "where": "no. 1946", "stance": "supports", "note": "Lists the Romance continuations it. sommaco, prov./frz. sumac, sp. zumaque, pg. sumagre and notes the tanning/dyeing use."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Old French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Pass-through node: ML sumach > Old French sumac, attested from the 13th century (Etymonline), continued as Modern French sumac; the Spanish form zumaque, with z- for the Arabic article-less s-, comes from the same Arabic word by a separate, direct route (whence Skeat's F.–Span.–Arab. chain).",
+          "derivation_fa": "گره واسطه: از لاتینی میانهٔ sumach به فرانسهٔ باستان sumac که از سدهٔ سیزدهم میلادی گواه دارد (اتیمانلاین) و در فرانسهٔ امروز نیز همان sumac است؛ صورت اسپانیایی zumaque با ز آغازین، وام‌گیری جداگانه و مستقیم از عربی است (از همین‌رو اسکیت زنجیره را فرانسه ← اسپانیایی ← عربی می‌داند).",
+          "sources": ["https://www.etymonline.com/word/sumac"],
+          "ref_check": [
+            {"ref": "KLN:1541", "status": "supports", "note": "'…fr. MF. (= F.), fr. OF. sumac, fr. ML. sumach' — Klein has the Old French stage."}
+          ],
+          "consulted": [
+            {"src": "Etymonline", "where": "s.v. sumac", "stance": "supports", "note": "'from Old French sumac (13c.)'."},
+            {"src": "SKT", "where": "s.v. Sumach", "stance": "partial", "note": "'F. sumac, also sumach. — Span. zumaque — Arab. summāq' — French via Spanish, no Old French/ML stage named."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "sumac, sumach",
+          "verdict": "confirmed",
+          "derivation": "Middle English sumac, borrowed from Old/Middle French about 1300, first in the sense 'preparation of dried, chopped leaves of a Rhus used in tanning and dyeing'; the transfer to the tree or shrub itself is only from the 1540s, and the application to the North American species (poison sumac and the rest) is later still. The doublet spelling sumach keeps the Medieval Latin -ch.",
+          "derivation_fa": "انگلیسی میانه sumac را حدود سال ۱۳۰۰ میلادی از فرانسهٔ باستان/میانه گرفت، نخست به معنای فرآوردهٔ برگ خشک و خردشدهٔ سماق برای دباغی و رنگرزی؛ کاربرد آن برای خودِ درخت تنها از دههٔ ۱۵۴۰ و برای گونه‌های آمریکای شمالی دیرتر است. املای دوگانهٔ sumach همان ch لاتینی میانه را نگاه داشته است.",
+          "sources": ["https://www.etymonline.com/word/sumac"],
+          "ref_check": [
+            {"ref": "KLN:1541", "status": "supports", "note": "'sumac, sumach, n., any of the plants of the genera Rhus and Toxicodendron. — ME. sumac…' — both spellings, as in the chart."}
+          ],
+          "consulted": [
+            {"src": "Etymonline", "where": "s.v. sumac", "stance": "supports", "note": "'c. 1300, “preparation of dried, chopped leaves of a plant of the genus Rhus” … of the tree or shrub itself, 1540s'."},
+            {"src": "LKT", "where": "no. 1946", "stance": "supports", "note": "'engl. sumac, sumach, shumach' listed among the European continuations."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Šurmĕnu",
+      "verdict": "confirmed",
+      "modern_form": "Akkadian šurmēnu 'cypress' (itself from Sumerian šu-ur₂-me šurmen)",
+      "note": "The root box is right and its two references really say so. Zimmern p. 53 (Nourai's AKD:53) has 'akk. šurmēnu eine Zypressenart : > wohl aram. šurbīnā u. šarwainā (> wohl arab.-pers. sarw)', and Mo'in's footnote in Borhan-e Qate' p. 1130 concludes 'اصل کلمه اکدی است'. Wiktionary adds the further step back to Sumerian šurmen. The problem with this entry is not the root but the shape of the chain: Nourai routes the Persian word through Arabic into Pahlavi (node #3), which reverses the chronology and the direction every modern source gives — Middle Persian srw is a Zoroastrian-book word centuries older than Arabic influence on Iran, and it is Arabic that borrowed sarw from Middle Persian, while the direct Arabic reflex of Aramaic šurbīnā is شربين šarbīn 'cedar/cypress'.",
+      "note_fa": "جعبهٔ ریشه درست است و هر دو ارجاع نورایی همین را می‌گویند: تسیمرن در ص ۵۳ می‌نویسد «akk. šurmēnu گونه‌ای سرو: > احتمالاً آرامی šurbīnā و šarwainā (> احتمالاً عربی‑فارسی sarw)» و معین در حاشیهٔ برهان قاطع (ص ۱۱۳۰) می‌آورد «اصل کلمه اکدی است»؛ ویکی‌واژه یک گام پیش‌تر می‌رود و اکدی را از سومری šurmen می‌گیرد. اشکال این مدخل در ریشه نیست، در شکل زنجیره است: نورایی واژهٔ فارسی را از راه عربی به پهلوی می‌رساند، حال آنکه srw فارسی میانه در کتاب‌های پهلوی چند سده پیش از نفوذ عربی گواه دارد و بنا بر همهٔ منابع امروزی این عربی است که sarw را از فارسی میانه گرفته؛ بازتاب مستقیم آرامی šurbīnā در عربی «شربین» است نه «سرو».",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D9%88",
+        "https://abadis.ir/fatofa/%D8%B3%D8%B1%D9%88/"
+      ],
+      "ref_check": [
+        {"ref": "BQT:1130", "status": "supports", "note": "Borhan-e Qate' vol. 2, printed p. 1130 (BQT_v2_pages.txt leaf 592, entry سرو 'نام درختی است مشهور و معروف'), Mo'in's footnote 2: 'پهلوی srw «فرهنگ وندیداد ۹۹۲»، srās «بندهش ۹۱۱»، طبری sarū «واژه‌نامه ۸۴۴»، عربی «سرو»، سریانی «شربینا» (ضم اول)، اکدی … اصل کلمه اکدی است «معجمیات عربیة سامیة ص ۱۲۲»' — Akkadian origin, Syriac šurbīnā, Arabic sarv and Pahlavi srw all named, but listed in parallel, not in Nourai's Arabic→Pahlavi order."},
+        {"ref": "AKD:53", "status": "supports", "note": "Zimmern, Akkadische Fremdwörter p. 53 (AKD.txt leaf 62, section '14. Pflanzen', the page number 53 is printed just above): 'akk. šurmēnu eine Zypressenart : > wohl aram. šurbīnā u. šarwainā (> wohl arab.-pers. sarw)' — root, Aramaic forms and the Arabic/Persian outcome exactly as in the chart (both steps hedged with 'wohl')."}
+      ],
+      "consulted": [
+        {"src": "Wiktionary", "where": "s.v. سرو (Persian and Arabic)", "stance": "partial", "note": "Persian سرو 'from Middle Persian srw /sarw/, a Near Eastern Wanderwort', via Classical Syriac šurbīnā, Akkadian šurmēnu, Sumerian šurmen; Arabic سَرْو is derived there 'from Middle Persian srw' — same ultimate root, opposite direction at the Arabic/Persian link."},
+        {"src": "TAD", "where": "al-Unaysi, Tafsir al-alfaz al-dakhila, TAD_pages.txt line 1393", "stance": "supports", "note": "'سرو - أرامي «شروينا» تعرّب شربين' — the Aramaic šarwīnā is arabicized as šarbīn, i.e. the Aramaic word did reach Arabic, but as شربين."},
+        {"src": "MON", "where": "abadis.ir, فرهنگ معین and دهخدا s.v. سرو", "stance": "supports", "note": "Mo'in tags سرو [په.] (Pahlavi); Dehkhoda's note lists Pahlavi srw and srb, Syriac shurbina and Akkadian shurmnu 'considered the original source'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Aramaic",
+          "words": "šurbîna, šarwainâ",
+          "verdict": "confirmed",
+          "derivation": "Akkadian šurmēnu was taken over by Aramaic in two shapes, šurbīnā (Jewish Babylonian Aramaic שׁוּרְבִּינָא, Classical Syriac ܫܘܪܒܝܢܐ) and šarwainā; both keep the Akkadian stem šurm-/šurw- with the Aramaic determinate ending -ā, the -m- appearing as -b- in one line (a normal Akkadian-Aramaic m/b correspondence in loanwords, cf. the dissimilation before -n-) and as -w- in the other. Zimmern p. 53 sets out exactly these two forms; Wiktionary cites the same Syriac šurbīnā from Brockelmann's Lexicon Syriacum. The word is a cultivated-plant term of the Mesopotamian world, the cypress being a temple and building timber imported from the mountains.",
+          "derivation_fa": "واژهٔ اکدی šurmēnu به دو صورت وارد آرامی شد: šurbīnā (آرامی بابلی یهودی و سریانی کلاسیک) و šarwainā؛ هر دو ستاک اکدی šurm-/šurw- را با پایانهٔ معرفهٔ آرامی ‑ā نگاه داشته‌اند، با این تفاوت که میمِ اکدی در یکی به ب و در دیگری به و بدل شده است (ابدال م/ب و م/و در وام‌واژه‌های اکدی‑آرامی معمول است). تسیمرن در ص ۵۳ همین دو صورت را آورده و ویکی‌واژه نیز سریانی šurbīnā را از فرهنگ سریانی بروکلمان نقل می‌کند. این واژه اصطلاحی از جهان کشاورزی و معماری بین‌النهرین است، چون چوب سرو را از کوهستان برای ساخت معبد و بنا می‌آوردند. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D9%88"],
+          "ref_check": [
+            {"ref": "AKD:53", "status": "supports", "note": "'akk. šurmēnu eine Zypressenart : > wohl aram. šurbīnā u. šarwainā' — both Aramaic forms of the node, in this order, on the cited page."},
+            {"ref": "BQT:1130", "status": "supports", "note": "Mo'in's footnote names 'سریانی «شربینا» (ضم اول)' beside the Akkadian etymon."}
+          ],
+          "consulted": [
+            {"src": "Wiktionary", "where": "s.v. سرو, etymology tree", "stance": "supports", "note": "'Jewish Babylonian Aramaic / Classical Syriac שׁוּרְבִּינָא / ܫܘܽܪܒܻܝܢܳܐ (šurbinnā) ← Akkadian 𒋗𒌫𒎙 (šurmēnu) ← Sumerian šurmen', citing Brockelmann."},
+            {"src": "TAD", "where": "line 1393", "stance": "supports", "note": "'أرامي «شروينا»' — the šarwainā variant is known to the Arabic tradition too."},
+            {"src": "AFA", "where": "Fraenkel, Die aramäischen Fremdwörter im Arabischen (grep 'urbin', 'Zypresse', 'Cypresse')", "stance": "silent", "note": "No hit in the local OCR; Fraenkel's treatment of the word could not be located in this text."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Arabic",
+          "words": "sarv",
+          "verdict": "plausible",
+          "derivation": "Arabic سَرْو sarw 'cypress' does go back, one way or another, to the Aramaic šarwainā/šurbīnā family, and Zimmern — the reference Nourai cites — states the arrow as drawn: 'aram. šurbīnā u. šarwainā (> wohl arab.-pers. sarw)', with šarwainā supplying the sarw- shape once the Aramaic ending is dropped. But two things qualify it. First, the direct, unmediated Arabic reflex of Aramaic šurbīnā is شربين šarbīn 'cedar, a kind of cypress' (al-Unaysi: 'سرو - أرامي شروينا تعرّب شربين'; Asbaghi lists Arabic šarbīn separately), so سرو is not simply the Arabic continuation of that word. Second, Asbaghi (Persische Lehnwörter im Arabischen p. 156) enters sarw among the Persian loanwords, glossed 'Cupressus', with a question mark, and explains it as the Middle Persian form of the Aramaic/Syriac word; Wiktionary likewise derives Arabic سَرْو from Middle Persian srw. So the Aramaic origin is safe, but whether Arabic took it straight from Aramaic (Zimmern, Nourai) or through Middle Persian (Asbaghi, Wiktionary) is open.",
+          "derivation_fa": "«سرو» عربی سرانجام به خانوادهٔ آرامی šarwainā / šurbīnā می‌رسد و تسیمرن — همان منبعی که نورایی به آن ارجاع می‌دهد — پیکان را چنان‌که در نمودار آمده می‌کشد: «آرامی šurbīnā و šarwainā (> احتمالاً عربی‑فارسی sarw)»؛ با افتادن پایانهٔ آرامی، از šarwainā ستاک sarw به‌دست می‌آید. اما دو نکته آن را محتاطانه می‌کند: نخست آنکه بازتاب مستقیم و بی‌واسطهٔ šurbīnā در عربی «شربین» است (العنیسی: «سرو ـ أرامي شروينا تعرّب شربين») نه «سرو»؛ دوم آنکه اصباغی در «وام‌واژه‌های فارسی در عربی» sarw را در شمار وام‌های فارسی آورده (با علامت پرسش) و آن را صورت فارسی میانهٔ همان واژهٔ آرامی می‌داند، و ویکی‌واژه نیز سَرْوِ عربی را از srw فارسی میانه می‌گیرد. پس اصل آرامی قطعی است، ولی اینکه عربی آن را یکراست از آرامی گرفته یا از راه فارسی میانه، هنوز محل بحث است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D9%88"],
+          "ref_check": [
+            {"ref": "BQT:1130", "status": "partial", "note": "Mo'in's footnote does list 'عربی «سرو»' next to 'سریانی «شربینا»' and says the word is ultimately Akkadian, but it does not state that Arabic took it from Aramaic — the forms are simply enumerated, with Pahlavi srw first."}
+          ],
+          "consulted": [
+            {"src": "AKD", "where": "Zimmern p. 53", "stance": "supports", "note": "'> wohl aram. šurbīnā u. šarwainā (> wohl arab.-pers. sarw)' — Aramaic to Arabic-and-Persian sarw, both steps marked 'wohl'."},
+            {"src": "PLA", "where": "Asbaghi 1988, s.v. sarw (PLA_asbaghi_1988_ia_djvu.txt line 12018)", "stance": "contradicts", "note": "'sarw: “Cupressus” 2 ?, mand. sarua (ar. = MP. Form v. aram., syr. …)' — Asbaghi files Arabic sarw as a Persian loanword, i.e. Arabic ← Middle Persian ← Aramaic, not Aramaic → Arabic; and s.v. šarbīn (line 13182) he keeps 'Zeder, eine Art Zypresse' apart."},
+            {"src": "TAD", "where": "line 1393", "stance": "partial", "note": "'سرو - أرامي «شروينا» تعرّب شربين' — treats شربين as the arabicization, discussing سرو under the Aramaic etymon."},
+            {"src": "Wiktionary", "where": "s.v. سرو, Arabic", "stance": "contradicts", "note": "Arabic سَرْو is derived 'from Middle Persian srw /sarw/', with the Aramaic-Akkadian chain behind the Persian word."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Pahlavi",
+          "words": "sarv, sarb",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi forms themselves are right: MacKenzie's Concise Pahlavi Dictionary p. 74 has 'sarw [slw(b)' | M srw, N ~] cypress', where the (b) is just the cursive Book-Pahlavi shape of final w — which is also why Dehkhoda's note can cite the Pahlavi word as both srw and srb, and why Nourai prints 'sarv, sarb'. What is wrong is the arrow: Nourai makes Middle Persian borrow the word from Arabic. Middle Persian srw is attested in Zoroastrian Pahlavi books and in Manichaean Middle Persian (MacKenzie marks 'M srw'), i.e. from the Sasanian period, centuries before Arabic could influence Iranian; Pahlavi loans run the other way. Every modern source reverses the arrow: Wiktionary derives Arabic سَرْو from Middle Persian srw, and Asbaghi lists Arabic sarw among the Persian loanwords. Nourai's own reference, Zimmern p. 53, does not say Arabic → Pahlavi either; it writes 'arab.-pers. sarw' as a single, joint outcome of Aramaic. The historically defensible picture is Aramaic šarwainā/šurbīnā → Middle Persian sarw (a Mesopotamian culture-word taken in under the Parthians/Sasanians, as with many Aramaic plant and building terms) → Arabic sarw and New Persian sarv.",
+          "derivation_fa": "خودِ صورت‌های پهلوی درست‌اند: مکنزی (ص ۷۴) می‌آورد «sarw [slw(b)' | M srw, N ~] سرو»، و آن (b) تنها شکل شکستهٔ واو پایانی در خط پهلوی کتابی است؛ از همین‌روست که دهخدا هم srw و هم srb را نقل کرده و نورایی «sarv, sarb» نوشته است. آنچه نادرست است جهت پیکان است: نورایی فارسی میانه را وام‌گیرندهٔ عربی نشان داده، حال آنکه srw در کتاب‌های پهلوی زردشتی و در فارسی میانهٔ مانوی گواه دارد، یعنی از دورهٔ ساسانی و چند سده پیش از آنکه عربی بتواند بر زبان‌های ایرانی اثر بگذارد؛ وام‌گیری در این دوره در جهت وارونه است. پژوهش امروزی همین را می‌گوید: ویکی‌واژه سَرْوِ عربی را از srw فارسی میانه می‌گیرد و اصباغی آن را در فهرست وام‌واژه‌های فارسی در عربی آورده است. حتی خودِ مأخذ نورایی، تسیمرن ص ۵۳، از «عربی‑فارسی sarw» همچون برآیندی یگانه از آرامی سخن می‌گوید، نه از عربی به پهلوی. تصویر پذیرفتنی چنین است: آرامی šarwainā/šurbīnā ← فارسی میانه sarw (وام‌واژه‌ای فرهنگی از بین‌النهرین در دورهٔ اشکانی‑ساسانی، مانند بسیاری از نام‌های گیاه و اصطلاحات ساختمانی آرامی) ← عربی sarw و فارسی نو «سرو». پس این حلقه از زنجیرهٔ نورایی را پژوهش امروزی رد می‌کند.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D9%88", "https://abadis.ir/fatofa/%D8%B3%D8%B1%D9%88/"],
+          "ref_check": [
+            {"ref": "BQT:1130", "status": "contradicts", "note": "Mo'in's footnote opens with the Pahlavi form and its textual sources — 'پهلوی srw «فرهنگ وندیداد ۹۹۲»، srās «بندهش ۹۱۱»' — and only then lists Tabari, Arabic, Syriac and Akkadian; nothing there makes Pahlavi srw a borrowing from Arabic, and the Pahlavi attestations cited (Vidēvdād glossary, Bundahišn) are pre-Islamic."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie 1971 p. 74 (PHD_mackenzie.txt line 4504)", "stance": "contradicts", "note": "'sarw [slw(b) | M srw, N ~] cypress' — Middle Persian, including Manichaean MP srw, i.e. attested before Arabic contact; MacKenzie gives no Arabic source."},
+            {"src": "NYB", "where": "Nyberg, Manual of Pahlavi II (grep 'sarw', 'srw')", "stance": "silent", "note": "The glossary has srōš, srōt, sraw etc. but no cypress word; no evidence either way."},
+            {"src": "Wiktionary", "where": "s.v. سرو", "stance": "contradicts", "note": "Persian سرو 'From Middle Persian srw /sarw/ … a Near Eastern Wanderwort' and Arabic سَرْو 'from Middle Persian' — the opposite of the chart's Arabic → Pahlavi step."},
+            {"src": "PLA", "where": "Asbaghi 1988 s.v. sarw", "stance": "contradicts", "note": "Arabic sarw treated as the Middle Persian form of the Aramaic word, entered among Persian loanwords in Arabic."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Persian",
+          "words": "sarv; sarvestân",
+          "verdict": "confirmed",
+          "derivation": "NP سَرو sarv continues Middle Persian sarw unchanged (MacKenzie 'N ~'; Mo'in tags the entry [په.]); the form has been stable since the Sasanian period because the syllable -arw needed no adjustment in New Persian. The figurative use the chart records — the cypress as the image of a tall, straight, well-built beloved — is the standard trope of classical Persian poetry, as in the Hafez line quoted (سرو چمان من چرا میل چمن نمی‌کند), where سرو چمان is the 'swaying cypress' = the beloved; Borhan-e Qate' p. 1130 explains the tree's three kinds (سرو آزاد، سرو سهی، سرو ناز) and the 'آزاد' epithet as 'free' because it bears no fruit. سروستان is a transparent Persian derivative, sarv + the place-suffix -estān (< OIr. *-stāna-, from the root stā- 'to stand'), formed like گلستان and نخلستان; it is also a town name in Fars.",
+          "derivation_fa": "«سَرو» فارسی نو دنبالهٔ بی‌تغییرِ sarw فارسی میانه است (مکنزی: N ~؛ معین آن را با برچسب [په.] آورده)؛ هجای ‑arw در گذر به فارسی نو نیازی به دگرگونی نداشت و صورت واژه از دورهٔ ساسانی ثابت مانده است. کاربرد استعاری‌ای که کتاب یاد کرده — سرو همچون تصویر معشوق بلندبالا و راست‌قامت — از بن‌مایه‌های معیار شعر کلاسیک فارسی است، چنان‌که در بیت حافظ («سرو چمان من چرا میل چمن نمی‌کند») «سرو چمان» همان معشوق خرامان است؛ برهان قاطع در ص ۱۱۳۰ سه گونهٔ سرو (آزاد، سهی، ناز) را برمی‌شمارد و وجه تسمیهٔ «آزاد» را بی‌بر بودن آن می‌داند. «سروستان» ساختی سرراست فارسی است: سرو + پسوند مکان ‑ستان (از ایرانی باستان *‑stāna-، از ریشهٔ stā- «ایستادن») مانند گلستان و نخلستان، و نام شهری در فارس نیز هست. ادعای نورایی در این گره درست است.",
+          "sources": ["https://abadis.ir/fatofa/%D8%B3%D8%B1%D9%88/", "https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D9%88"],
+          "ref_check": [
+            {"ref": "BQT:1130", "status": "supports", "note": "Borhan-e Qate' vol. 2 p. 1130 (leaf 592-593): 'سرو … نام درختی است مشهور و معروف و آن سه قسم می‌باشد: یکی سرو آزاد و دیگری سرو سهی و سیم سرو ناز … و عربان سرو را شجرة الحیه خوانند', with Mo'in's Pahlavi/Syriac/Akkadian footnote; the Hafez verse quoted in the chart is the standard shāhed for سرو چمان."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "MacKenzie p. 74", "stance": "supports", "note": "'sarw [slw(b) | M srw, N ~] cypress' — the New Persian word is explicitly the unchanged continuation."},
+            {"src": "MON", "where": "abadis.ir, فرهنگ معین s.v. سرو", "stance": "supports", "note": "Tagged [په.] (Pahlavi), 'درختی مخروطی‌شکل و همیشه‌سبز …'; Dehkhoda's note: Pahlavi srw, srb."},
+            {"src": "BQT", "where": "vol. 2 pp. 1130-1131", "stance": "supports", "note": "The سرو article and the following column on سرو آزاد; سروستان is the regular -stān derivative (cf. the chart's own cross-reference ☞ Stâ)."}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "pdf_page": 489,
+  "book_page": 459,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-09-13",
+  "entries": [
+    {
+      "entry": 1,
+      "root": "Svas",
+      "verdict": "plausible",
+      "modern_form": "Proto-Indo-Iranian *su̯as- / Proto-Iranian *hu̯ah- 'to strike, thresh, trample' (Cheung, EDIV 141 f.); no such root in Pokorny",
+      "note": "The root box is lifted straight out of Buck's synonym dictionary: SYN 510 (§8.34 THRESH) writes 'Av. xʳasta- “threshed”, axʳasta- “unthreshed” (cf. NPers. pai-xʳasta “trodden by foot”), fr. xʳah- “press”. Otherwise Barth. 874 f. (“Et.?”), Suppl. 246 (fr. root ending in dental), but the deriv. fr. xʳah- (Aryan *svas-) seems perfect in form and sense.' Buck's asterisked form is therefore ARYAN, i.e. Indo-Iranian, not Indo-European, and Nourai's language label 'Indo-European' overstates it: greps of POK_full.txt, POK_01-03 and AHD_watkins1985.txt find no PIE root *su̯as-/*su̯es- 'thresh' (Pokorny has no entry; Watkins none). Cheung 2007 reconstructs Proto-Iranian *huah 'to strike, thresh; [inch.] to become tired' on a wide Iranian base (Av., MP, Parthian, Khotanese, Sogdian, Choresmian, Bactrian, Kurdish, Balochi) but offers no IE etymology and no PIE preform. Bartholomae himself marked the Avestan verb 'Et.?'. So: the Iranian root is real and the gloss 'thresh, beat grain' is right; only its projection back to PIE is unsupported.",
+      "note_fa": "ریشهٔ که نورایی «Svas» می‌نامد عیناً از باک (Buck, ص ۵۱۰) گرفته شده است؛ اما باک خود آن را «آریایی» (یعنی هندوایرانی) می‌خواند نه هندواروپایی آغازین. در پوکورنی و والده‌پوکورنی و واتکینز هیچ ریشهٔ *su̯as- به معنی «خرمن‌کوبی» دیده نمی‌شود. چونگ (Cheung) ریشهٔ ایرانی آغازین *hu̯ah «زدن، کوبیدن، خرمن کوبیدن» را بازسازی می‌کند ولی برای آن ریشهٔ هندواروپایی قائل نیست؛ بارتولومه نیز ریشه‌شناسی فعل اوستایی را ناشناخته دانسته است. پس معنی و ریشهٔ ایرانی درست است، اما برچسب «هندواروپایی» با احتیاط پذیرفتنی است.",
+      "sources": [],
+      "ref_check": [
+        {"ref": "SYN:510", "status": "supports", "note": "SYN.txt, §8.34 THRESH, printed p. 510 (grep -n 'THRESH' SYN.txt → line 12819 ff.): 'Av. x*asta- “threshed”, ax'asta- “unthreshed” (cf. NPers. pai-xvastg “trodden by foot”), fr. xah- “press” ... but the deriv. fr. xʳah- (Aryan *svas-) seems perfect in form and sense.' Exactly Nourai's root, gloss and reconstruction — but as an Aryan (Indo-Iranian), not IE, form."}
+      ],
+      "consulted": [
+        {"src": "POK", "where": "POK_full.txt, roots su-/suard-/suad-/sueid- (lines 83246-83400)", "stance": "silent", "note": "no root *su̯as-/*su̯es- 'dreschen, thresh' anywhere in Pokorny; grep 'thresh' in POK_full.txt returns only 'threshing floor' passages under other roots."},
+        {"src": "AHD", "where": "AHD_watkins1985.txt", "stance": "silent", "note": "Watkins' appendix has swad-, swei-1, swei-2, sweid-1/2 but no root for 'thresh'."},
+        {"src": "CHEUNG", "where": "CHEUNG.txt lines 9981-10045, s.v. *huah", "stance": "partial", "note": "'*huah “to strike, thresh; [inch., intr.] to become tired” ... Y Av. paiti x'aŋh- “to thresh” ... Partic. perf. pass. YAv. x'asta- (V 7.35) ... BMP hws- /xwas-/ ... hwst /xwast/'. Supports the Iranian root and its meaning; no PIE preform is given, so the IE label is not supported."},
+        {"src": "WLD", "where": "WLD_Bd2_pages.txt", "stance": "silent", "note": "greps for 'suad'/'sueib' hit only the 'sweet' and 'bend' roots; Walde-Pokorny has no *su̯as- 'dreschen'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "xvasta; a-xvasta",
+          "verdict": "confirmed",
+          "derivation": "Young Avestan xʳasta- is the perfect passive participle of the verb xʳaŋh-/xʳah- 'to thresh, trample' (present paiti xʳaŋhaiieiti, Y 57.10), formed with the ordinary Iranian -ta- participle on a root-final sibilant: *hu̯ah-ta- > xʳas-ta-. Bartholomae AiW col. 300 lists the privative compound a-xʳasta- 'nicht gedroschen' from Vd 7.35, where the context is unthreshed grain (yavanẹm) — precisely Nourai's 'unthreshed' with the IE privative prefix *n̥- > Av. a-. Cheung (EDIV s.v. *huah) cites the same participle (V 7.35) and the same present. Beware the exact homonym printed immediately below it in Bartholomae, a-xʳasta- 'ungekocht' (N 57), which belongs to the 'sweet' root of the next chart on this page; Nourai keeps the two apart correctly. The cross-reference to root 'Ne 1' for the a- privative is right.",
+          "derivation_fa": "صورت اوستایی xʳasta- اسم مفعول (صفت مفعولی با پسوند -ta-) از ریشهٔ xʳaŋh-/xʳah- «کوبیدن، خرمن کوبیدن» است (مضارع: paiti xʳaŋhaiieiti در یسنا ۵۷،۱۰)؛ از *hu̯ah-ta- با تبدیل h به s پیش از t. بارتولومه (ستون ۳۰۰) صورت منفی a-xʳasta- «خرمن‌نکوبیده» را از وندیداد ۷،۳۵ دربارهٔ غلهٔ خرمن‌نکوبیده می‌آورد؛ پیشوند a- همان پیشوند نفی هندواروپایی *n̥- است. توجه شود که همانجا هم‌آوای دیگری a-xʳasta- «نپخته» هست که به ریشهٔ دیگر (شیرین/پختن) می‌رسد و نورایی آن دو را درست جدا کرده است. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "SYN:510", "status": "supports", "note": "SYN.txt p. 510: 'Av. x*asta- “threshed”, ax'asta- “unthreshed” ... fr. xʳah- “press”' — both words of the node, with Nourai's glosses."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt line 7213, col. ~300", "stance": "supports", "note": "'j. a-x'asta- Adj. “nicht gedroschen”: ašavai xʳastanam (sd.) ašavat tanam (yavanẹm) V.7.35' — and four lines below, the distinct homonym 'j. a-x'asta- Adj. “ungekocht”: ... N.57'."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt lines 9981-9990, s.v. *huah", "stance": "supports", "note": "'*AVESTAN: (+ *pati-) Y Av. paiti x'aŋh- “to thresh” ... Partic.: perf. pass. Y Av. x'asta- (V 7.35)'."},
+            {"src": "POK", "where": "POK_full.txt", "stance": "silent", "note": "Pokorny has no entry covering Av. xʳasta- 'threshed' (his xʳasto under suad- p.1039 is the 'cooked' homonym)."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "xost",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian xwastan, present xwah- [hwstn' | J xwh-] 'tread, trample; thresh' (MacKenzie, CPD p. 95) continues Av. xʳah-; its past stem xwast is inherited directly as New Persian خوست xost 'crushed, trodden, mashed'. The vowel a > o is the usual rounding after the labiovelar xʷ- before the cluster -st, and the xʷ- itself was simplified to x- in later New Persian. The simplex survives chiefly in the compounds Nourai lists: آبخوست āb-xost 'island' (land 'pounded together' by water — Mo'in glosses it 'خشکی میان دریا'), پای‌خوست pā-xost 'trodden underfoot' (= Buck's NPers. pai-xʳasta), and چنگال‌خوست čangāl-xost, the dish of bread crumbled and mashed with butter and sugar. Cheung records the same word under *huah: '(orig. ppp.) NP x'ast “beaten road; rubbed”'. The variant خست xast printed in parentheses in the chart is the same stem with the unrounded vowel (cf. Mo'in's پای‌خست = پای‌خوست).",
+          "derivation_fa": "«خوست» بازماندهٔ مادهٔ ماضی فارسی میانهٔ xwast از مصدر xwastan (مضارع xwah-) به معنی «لگدکوب کردن، خرمن کوبیدن» است (مکنزی، فرهنگ کوچک پهلوی، ص ۹۵) و آن هم از ریشهٔ اوستایی xʳah-. واکهٔ a در پی خوان دولبی xʷ- به o گراییده است. این واژه در فارسی نو بیشتر در ترکیب‌ها مانده است: «آبخوست» (جزیره)، «پای‌خوست/پای‌خست» (لگدکوب) و «چنگال‌خوست». حاشیهٔ معین بر برهان قاطع (ص ۷۸۳) نیز «خوست» را به معنی «مالیده و کوفته» می‌آورد و از لغت فرس گواه می‌آورد. ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "SYN:510", "status": "supports", "note": "SYN.txt p. 510: '(cf. NPers. pai-xvastg “trodden by foot”)' — Buck cites exactly the compound پای‌خوست that Nourai puts in the extras box."},
+            {"src": null, "ref": "MON:1455", "status": "supports", "note": "Mo'in's text confirms the words — MON_part1.txt line 29102: 'پای‌خست: [= پای‌خاسته - پای‌خسته - پای‌خوست] (امف.) هر چیز که در زیر پای کوفته شده باشد، لگدکوب، لگدمال'; line 51522 'چنگالی، چنگال‌خوست'; line 2334 'آبخوست' s.v. آداک/جزیره. The local MON OCR carries no page tags, so the page number 1455 itself could not be checked."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD.txt p. 95 (leaf 116), s.v. xwastan", "stance": "supports", "note": "'xwastan, !xwāh- [(Y)PLHWN-tn! ...; hwstn!, hw'd- | J xwh-, N xwast] tread, trample; thresh. ~išn: trampling.' MacKenzie's 'N xwast' is precisely this New Persian word, and he keeps it apart from xwāstan 'seek, want'."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt line ~10040, *huah, *NWIR section", "stance": "supports", "note": "'(orig. ppp.) NP x'ast “beaten road; rubbed”, Tt. xwah- “to thresh”'."},
+            {"src": "BQT", "where": "BQT_v2_pages.txt leaf 240-241 = printed pp. 783-784, Mo'in's footnotes", "stance": "supports", "note": "footnote: 'لغتی در «خوست» بمعنی مالیده و کوفته ... آبخوست و پای خوست ... در لغت فرس آمده: پای‌خوست آن باشد که بپای گرفته (کوفته) ... آبخوست آن باشد که به آب درهم گرفته (کوفته)'."},
+            {"src": "MON", "where": "MON_part1.txt lines 2334, 29102-29105, 51522", "stance": "supports", "note": "آبخوست / پای‌خست، پای‌خوست 'کوفته شده زیر پا' / چنگال‌خوست — all three compounds of the extras box are in Mo'in with the sense 'crushed, pounded'."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Swâd",
+      "verdict": "confirmed",
+      "modern_form": "PIE *sweh₂d- (older notation *su̯ād-) 'sweet; to make/become savoury'",
+      "note": "Pokorny 1039-1040 s.v. su̯ād- 'suß' is exactly this root, with su̯ādu-s 'sweet' (OInd. svādú-, Gr. ἡδύς, Lat. suāvis, OE swēte), su̯ādos- n., verbs svadate / ἥδομαι / Lat. suādeo. Watkins (AHD) 'swad-. Sweet, pleasant. [Pok. suad- 1039]'; Cheung EDIV s.v. *huad cites 'PIE *sueH₂d- “to make, become savoury” = LIV 606 f. | Pok.: 1039 f.'. Root name, language label and gloss are all correct; the only quarrel on this chart is whether New Persian خواستن belongs here (see nodes 2 and 3).",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *sweh₂d- (در نوشتار کهن‌تر *su̯ād-) به معنی «شیرین، خوش‌مزه کردن» است؛ پوکورنی ص ۱۰۳۹–۱۰۴۰، واتکینز (swad-) و چونگ (*huad) همه همین را می‌گویند. بازمانده‌های آن سنسکریت svādú-، یونانی hēdýs، لاتین suāvis/suādēre و انگلیسی sweet است. نام ریشه، برچسب زبانی و معنای آن درست است؛ تنها بحث‌انگیز در این نمودار پیوستن «خواستن» فارسی به این ریشه است.",
+      "sources": ["https://www.etymonline.com/word/sweet"],
+      "ref_check": [
+        {"ref": "POK:1039", "status": "supports", "note": "POK_full.txt line 83287 ff.: 'Root / lemma: suad- — Meaning: sweet ... 1. suadu-s “sweet”: Old Indic svadu-, f. svadvi ... Latin suavis (*suaduīs) ... Old English swete ... Page(s): 1039-1040.'"}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Walde-Pokorny Bd. II 516 f. (WLD_Bd2_pages.txt, the su̯ād- entry running into p. 517)", "stance": "supports", "note": "'Kaus. bzw. Intensivum svadáyati (= lat. suādeo, s. u.) und svādáyati „schmackhaft, genießbar, annehmbar machen“ ... av. xʳandra-kara- „angenehmes tuend = gefällig“, afgh. xʳand „Wohlgeschmack, Vergnügen“'."},
+        {"src": "AHD", "where": "AHD_watkins1985.txt line 1036, s.v. swad-", "stance": "supports", "note": "'swad-. Sweet, pleasant. 1. Germanic *swōtja- in Old English swēte, sweet: SWEET. 2. Suffixed form *swād-ē- in Latin suādēre ... PERSUADE ... [Pok. suad- 1039.]'"},
+        {"src": "CHEUNG", "where": "CHEUNG.txt lines 9954-9975, s.v. *huad", "stance": "supports", "note": "'*huad “to become, make savoury, pleasant” ... «PIE *sueH₂d- “to make, become savoury” = LIV: 606 f. | Pok.: 1039 f.'"},
+        {"src": "KLN", "where": "KLN_1966.txt leaf 823 (printed pp. 1550/51), s.v. sweet", "stance": "supports", "note": "'fr. I.-E. base *swad-, “sweet, pleasing to the taste”, whence also OI. svādaḥ ... Gk. ἡδύς ... L. suavis (for *suadvis), suadere, “to advise” (lit. “to make tasteful”)'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "xwâs, xwâd; xvâsto; xvand; xvandra-kara",
+          "verdict": "plausible",
+          "derivation": "Two of the four items are straight Avestan and confirmed; two are not. (a) xʳasta- (Nourai's 'xvâsto') 'made savoury by cooking, cooked' is Pokorny's 'Avestan xʳasto „durch Kochen (schmackhaft) gemacht“ = Old Indic svādita-'; Bartholomae AiW col. 300 has the privative a-xʳasta- 'ungekocht' (N 57). It is the exact homonym of the 'threshed' participle of the previous chart, from a different root. (b) xʳandra-kara- 'doing what is pleasing, compliant' is Avestan and nasalised (*su̯ad-n-ro-), as Pokorny and Walde-Pokorny II 517 say; Nourai's cross-reference to root Kwer for the second member (-kara- 'making') is correct. (c) 'xvand “sweet taste”' is NOT Avestan: both Pokorny ('afgh. xʳand „Wohlgeschmack, pleasure“') and Walde-Pokorny and Cheung ('Pash. xwand (m.) “taste, pleasure”') label it Pashto/Afghan; Nourai has silently promoted it into the Avestan box. (d) 'xwâs, xwâd “to desire”' is no attested Avestan verb either: it is Abolghasemi's reconstructed Old Iranian root *xwād- with its pre-dental allomorph xwās-, posited precisely to yield MP xwāst/xwāh (FFD 51), and Nourai's second cited reference is that page.",
+          "derivation_fa": "از چهار صورت این خانه، دو تا اوستایی اند و دو تا نیستند. xʳasta- «پخته و خوش‌مزه‌شده» (پوکورنی ۱۰۳۹) و xʳandra-kara- «دلپسند، خوشایند» (همانجا و والده‌پوکورنی جلد ۲ ص ۵۱۷) هر دو درست‌اند؛ اما xvand «مزهٔ شیرین» در همان منابع صریحاً پشتو (افغانی) دانسته شده، نه اوستایی، و xwās/xwād نیز فعل اوستایی نیست بلکه ریشهٔ بازساختهٔ «ایرانی باستان» است که ابوالقاسمی در «فعل‌های فارسی دری» ص ۵۱ برای توجیه xwāst/xwāh آورده است. پس خانه در کل پذیرفتنی است ولی برچسب «اوستایی» برای دو صورت آخر نادرست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "POK:1040", "status": "partial", "note": "POK_full.txt, suad- (pages 1039-1040): supports xʳasto 'through cooking (schmackhaft) gemacht' and 'nasalized Avestan x'andra-kara- „angenehmes machend = compliant“', but the very next words are 'afgh. x'and „Wohlgeschmack, pleasure“' — Pokorny calls xvand Afghan (Pashto), contradicting the Avestan label; and he has no Avestan verb 'xwās/xwād to desire'."},
+            {"ref": "FFD:51", "status": "supports", "note": "Abolghasemi, Fe'l-hā-ye Fārsi-ye Dari p. 51 (PDF p. 56, read from the page image, saved to data/verification/sources/refs/ocr/FFD/51.vision.txt): 'خواست ← فارسی میانه xwāst ← ایرانی باستان *xwās-ta. ... xwād صورت اصلی xwās است، d پیش از t به s بدل شده است. xwād به معنی «خواستن» است.' — the source of Nourai's pair xwâs, xwâd 'to desire', though Abolghasemi calls it Old Iranian, not Avestan."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 517", "stance": "partial", "note": "'av. xʳandra-kara- „angenehmes tuend = gefällig“, afgh. xʳand „Wohlgeschmack, Vergnügen“' — supports xʳandra-kara- as Avestan, contradicts the Avestan labelling of xvand."},
+            {"src": "BRT", "where": "BRT.txt line 7217, col. ~300", "stance": "supports", "note": "'j. a-x'asta- Adj. “ungekocht”: ... N. 57' — the negated form guarantees the Avestan participle xʳasta- 'cooked'."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt lines 9954-9962, s.v. *huad", "stance": "partial", "note": "'Y Av. x'asta- (ppp.) “cooked, well done” (Y 11.1, V 5.52, V 19.40) ... *NEIR: Pash. xwand (m.) “taste, pleasure”' — confirms xʳasta- as Avestan and xwand as Pashto; Cheung lists no Avestan verb 'to desire' under this root."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "xvâstan",
+          "verdict": "plausible",
+          "derivation": "Middle Persian xwāstan, present xwāh- [BOYHWN-stn' / hw'stn', hw'd- | Man. MP xw'stn, xw'h-] 'to seek, want, desire; to attract, acquire' is a real and common word (MacKenzie, CPD p. 95), and MacKenzie keeps it rigorously apart from xwastan/xwah- 'tread, thresh' of the previous chart. The derivation Nourai draws — from the 'sweet' root — is the classical one: Horn, Grundriss no. 497 (p. 110) puts NP xʳāsten 'wünschen, wollen' with 'ai. √svad-, svādati „sich schmecken lassen, Gefallen finden“; gr. ἥδομαι' and cites 'phlv. xʳāstan „wollen, wünschen“'; Hübschmann, Persische Studien §92 (p. 198), lists 'xʳāham „wünsche“, skr. svad' among the words showing Old Persian d > h; Abolghasemi (FFD 51) formalises it as OIr *xwād-a- > MP xwāh-, *xwās-ta- > MP xwāst. Against it stands the Parthian evidence: Nyberg (Manual II, s.v. xʳāstan) gives 'OIr *hvāz-, MPrth wx'št, pres. wx'z-; MPrs xw'stn, xwh-', and a Parthian present in -z- cannot come from *-d-; accordingly Cheung's EDIV puts Av. xʳasta- 'cooked' under *huad but does not list xwāstan there at all, and Wiktionary gives Proto-Iranian *xwaz- 'to want', 'of uncertain origin. Perhaps ultimately from Proto-Indo-European *sweh₂d- “sweet”'. So: an old, respectable, still-possible derivation, not the modern consensus.",
+          "derivation_fa": "فارسی میانه xwāstan (مادهٔ مضارع xwāh-) «خواستن، طلبیدن» واژه‌ای مسلم است (مکنزی ص ۹۵) و مکنزی آن را به‌دقت از xwastan «خرمن کوبیدن» جدا می‌کند. ریشه‌شناسی‌ای که نورایی می‌آورد همان رأی کهن است: هرن (بند ۴۹۷، ص ۱۱۰) «خواستن» را با سنسکریت svad و یونانی hḗdomai می‌سنجد، هوبشمان (مطالعات فارسی، بند ۹۲، ص ۱۹۸) xʳāham را در شمار واژه‌هایی می‌آورد که d پارسی باستان در آنها به h بدل شده، و ابوالقاسمی هم *xwād-a- > xwāh می‌نویسد. در برابر، نیبرگ صورت ایرانی باستان *hvāz- و مادهٔ مضارع پارتی wxʾāz- را گواه می‌آورد که از *-d- برنمی‌آید؛ چونگ نیز «خواستن» را زیر *huad نیاورده است و ویکی‌واژه ایرانی آغازین *xwaz- می‌دهد و پیوند با *sweh₂d- را تنها «شاید» می‌داند. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D9%86"],
+          "ref_check": [
+            {"ref": "HRN:110", "status": "supports", "note": "HRN.txt leaf 131 = printed p. 110, no. 497: 'xʳāsten „wünschen, wollen“, Praes. xʳāhem ... ai. √svad-, svādati „sich schmecken lassen, Gefallen finden“, svādate; gr. ἥδομαι ... phlv. xʳāstan „wollen, wünschen“, xʳāh(i)šn, xʳāstār, xʳāstak „Besitztum“' — exactly Nourai's Pahlavi-from-*swād- arrow."},
+            {"ref": "BQT:783", "status": "partial", "note": "BQT_v2_pages.txt leaf 240/241 = printed pp. 783-784 carries the خواس/خواستار/خواسته entries, and Mo'in's footnote gives the Pahlavi: 'پهلوی xvāstak (مال) «مینوی ۲:۹۳۱» ... ارمنی ... هوبشمان ۴۹۷'. It documents the Pahlavi stem but offers no root etymology, so it supports the MP form, not the arrow from Avestan."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD.txt p. 95 (leaf 116)", "stance": "partial", "note": "'xwāstan, *xwāh- [BOYHWN-stn! < A √b'y; hw'stn!', hw'd- | M xw'stn, xw'h-, N ~] seek, want, desire; attract, acquire.' Confirms the form and meaning; MacKenzie gives no etymology, and lists xwastan 'thresh' as a separate lemma."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 4360, s.v. xʳāstan", "stance": "contradicts", "note": "'— OIr *hvāz-, MPrth wx'št, pres. wx'z-; MPrs xw'stn, xwh-; Paz. NP xʳāstan ... Verbum 187; Ghilain 69; Bailey, BSOS VI' — Nyberg reconstructs a root in *-z-, not the *-d- of the 'sweet' root."},
+            {"src": "ARY", "where": "ARY_pages.txt, pdf p. 247, entry 'خواستن، خواست'", "stance": "supports", "note": "Aryanpur groups خواستن with Avestan, Pahlavi, Sanskrit svad-, Latin SUADEO/SUADERE, Old English SWETE and adds the cross-reference 'بازگشت به: شیرین' — the same family Nourai draws."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "xâstan",
+          "verdict": "plausible",
+          "derivation": "New Persian خواستن, classically xʷāstan, is the direct continuation of MP xwāstan with no change beyond the loss of the labial glide of xʷ- (the so-called vāv-e ma'dūla, still written خوا- but silent from about the 16th-17th c., hence modern xāstan); the present stem خواه xāh continues MP xwāh-. The extras of the box are the regular derivatives: خواست (past stem used as a noun, 'will'), خواستار (agent in -ār, MP xwāstār), خواهش (verbal noun in -išn, MP xwāhišn), خواه (present stem as an independent word); to these Mo'in's footnote at Borhan 783 adds خواسته 'property' = MP xwāstag. The step from MP to NP is beyond doubt; what remains 'plausible' rather than 'confirmed' is only the further step back to the 'sweet' root (see node 2): Horn 110, Hübschmann §92 and Aryanpur take it, Nyberg's *hvāz- and Wiktionary's Proto-Iranian *xwaz- ('of uncertain origin, perhaps ultimately from PIE *sweh₂d-') do not. Note also that the Wiktionary page's only bibliographical reference for this family is Nourai 2011 p. 459 — this very page — so it is no independent witness.",
+          "derivation_fa": "«خواستن» فارسی نو دنبالهٔ بی‌واسطهٔ xwāstan فارسی میانه است؛ تنها دگرگونی، افتادن «و» معدوله در تلفظ است (در نوشتار هنوز می‌ماند). مادهٔ مضارع «خواه» از xwāh- و مشتقات «خواست، خواستار، خواهش، خواسته» همه از همین ستاک‌ها ساخته شده‌اند (حاشیهٔ معین در برهان قاطع ص ۷۸۳: «خواسته ـ پهلوی xvāstak (مال)»). تا اینجا مسلم است؛ آنچه قطعی نیست رساندن این ستاک به ریشهٔ «شیرین» است که هرن و هوبشمان و آریان‌پور می‌پذیرند و نیبرگ و ویکی‌واژه نمی‌پذیرند. در ضمن تنها مأخذ ویکی‌واژه برای همین خانواده، خود نورایی ص ۴۵۹ است؛ پس گواه مستقل نیست.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D9%86"],
+          "ref_check": [
+            {"ref": "BQT:783", "status": "supports", "note": "BQT_v2_pages.txt leaf 240-241 (running head ۷۸۳) carries خواس، خواستار 'طلبکار و خواهنده', خواسته 'زر و مال و اسباب', with Mo'in's footnotes 'مصدر مرخم «خواستن»', 'از: خواست + ار (پسوند فاعلی)', 'پهلوی xvāstak (مال)' — the Persian word family of the box, on the cited page."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "HRN.txt p. 110, no. 497", "stance": "supports", "note": "'xʳāsten „wünschen, wollen“ ... ai. √svad- ... phlv. xʳāstan' — Horn's chain is Nourai's chain."},
+            {"src": "HUB", "where": "HUB.txt leaf 208 = printed p. 198, Kapitel 16 §92", "stance": "supports", "note": "'xʳāham „wünsche“, skr. svad' (listed among ap. d > np. h); cf. p. 199 'xʳai (xʳā) „Wohlgeschmack“ = skr. svāda-'."},
+            {"src": "MON", "where": "Mo'in / Borhan footnote, BQT p. 783", "stance": "supports", "note": "'پهلوی xvāstak (مال)' and 'از: خواست' for the derivatives — the Persian family is traced to the Pahlavi stem, with no rival etymology proposed."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt, root list *hu-/*Hua-", "stance": "silent", "note": "Cheung's EDIV has *huad 'to become, make savoury' and *huah 'to strike, thresh' but no entry containing NP خواستن 'to want'; a grep for xwāstan returns only index lines. His silence is why the arrow is only 'plausible'."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Sanskrit",
+          "words": "svad; svâdati",
+          "verdict": "confirmed",
+          "derivation": "Vedic svad-/svād- is the Indic reflex of *sweh₂d-, with the expected Indo-Iranian *sw- > Skt. sv-: svadate 'is pleased, enjoys, tastes good' (= Gr. ἥδομαι), causative/intensive svādáyati 'to make savoury, season, relish' (formally = Lat. suādeo), adjective svādú- 'sweet' (= Gr. ἡδύς, Lat. suāvis < *suāduīs), noun svādá- 'taste, good flavour'. Nourai's two entries are slightly loose: 'svad' is the root/verb (not the adjective 'sweet' — that is svādú-), and the gloss 'to desire, want' for svādati is stretched to fit the Persian branch; Klein and Pokorny gloss svadati 'makes savoury' and svadate 'tastes, is savoury'. The forms and the descent are nevertheless entirely correct.",
+          "derivation_fa": "در سنسکریت ریشهٔ svad-/svād- بازتاب همان *sweh₂d- است (در هندوایرانی *sw- در هندی به sv- می‌ماند): svadate «خوش می‌آید، خوش‌مزه است»، svādáyati «خوش‌مزه کردن» (هم‌ساخت با suādeo لاتین)، صفت svādú- «شیرین» (= hēdýs یونانی، suāvis لاتین). دو نکتهٔ جزئی: «شیرین» معنای svādú- است نه ریشهٔ svad، و معنی «خواستن» که نورایی برای svādati آورده در منابع نیست و برای پیوستن به شاخهٔ فارسی کشیده شده است. در کل، ادعای نورایی درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "POK:1039", "status": "supports", "note": "POK_full.txt, suad-: 'Old Indic svadu-, f. svadvi “sweet, mellifluous” ... Old Indic ved. svadate “is pleased, enjoys” = gr. ἥδομαι ... svadayati (= Latin suadeo) ... Old Indic svada- m. “taste, Wohlgeschmack”.'"},
+            {"ref": "KLN:1552", "status": "supports", "note": "Klein 1966, s.v. sweet (KLN_1966.txt leaf 823, which carries printed pp. 1550/51, i.e. within a page of Nourai's citation): 'fr. I.-E. base *swad- ... whence also OI. svādaḥ “agreeable taste, flavor”, svadati “makes savory”, svadate “tastes, is savory”, svaduḥ “sweet”.'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 812, s.v. suave", "stance": "supports", "note": "'L. suavis ... stands for *swadwis, and is cogn. with OI. svaduḥ “sweet”, Gk. ἡδύς ... OS. swoti, OE. swete.'"},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 516 f.", "stance": "supports", "note": "'Kaus. bzw. Intensivum svadáyati (= lat. suādeo) und svādáyati „schmackhaft, genießbar, annehmbar machen; kosten, genießen“ ... svadati „macht schmackhaft, angenehm, würzt“, svadate „schmeckt, ist schmackhaft“'."},
+            {"src": "CHEUNG", "where": "CHEUNG.txt line 9968, *huad", "stance": "supports", "note": "'*SANSKRIT: svad “to make, become savoury, taste” (RV+) ⇒ EWAia II: 788'."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Germanic",
+          "words": "swôtja",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *swōtja- (also *swōtuz) 'sweet' is the regular Germanic outcome of *sweh₂d-u-/-i-: IE ā (< *eh₂) gives Germanic ō, and the IE *-d- becomes Germanic *-t- by Grimm's law, with the i-stem/ja-stem suffix causing i-umlaut in the West Germanic daughters. Hence OE swēte, OS swōti, OHG suoʒi/swuoʒi (> G süß), ON sœtr, Du. zoet. Watkins gives the form letter for letter: 'Germanic *swōtja- in Old English swēte, sweet'.",
+          "derivation_fa": "صورت ژرمنی آغازین *swōtja- «شیرین» برآیند قاعده‌مند *sweh₂d-u- است: آی درازِ هندواروپایی در ژرمنی به «او» (ō) بدل می‌شود و d بنا بر قانون گریم به t. پسوند -ja- موجب امالهٔ واکه در ژرمنی غربی شده است: انگلیسی کهن swēte، آلمانی کهن suoʒi (آلمانی süß). واتکینز دقیقاً همین صورت را می‌آورد؛ ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/sweet"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 1036: 'swad-. Sweet, pleasant. 1. Germanic *swōtja- in Old English swēte, sweet: SWEET.'"},
+            {"ref": "KLN:1552", "status": "supports", "note": "Klein s.v. sweet (leaf 823, pp. 1550/51): 'ME. swete, swote, fr. OE. swete “sweet, pleasant”, rel. to OS. swoti, ON. sœtr, Swed. söt ... OHG. swuoʒi, suoʒi, MHG. süeʒe, G. süß, fr. I.-E. base *swad-'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 823, s.v. sweet", "stance": "supports", "note": "full West/North Germanic cognate list, as quoted."},
+            {"src": "WEB", "where": "etymonline (archived), s.v. sweet", "stance": "supports", "note": "'From Old English swete ... from Proto-Germanic *swotja- ... ultimately from PIE root *swad- “sweet, pleasant”.'"},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 516", "stance": "supports", "note": "the su̯ādu-s section lists 'Old Saxon swōti, Old High German suozi, Old English swēte, Old Icelandic sœtr “sweet”'."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "sweet",
+          "verdict": "confirmed",
+          "derivation": "Old English swēte (Mercian swōete) 'pleasing to the senses, mind or feelings' > Middle English swete/swote > Modern English sweet; the OE ē (i-umlaut of ō) gives ME long close e, raised to /iː/ by the Great Vowel Shift, whence the modern pronunciation with the inherited <ee> spelling. The semantic range 'pleasing to the taste' > 'pleasing to the ear' (already OE), 'beautiful, desirable' (mid-14c.), 'gracious, kind' of persons, is entirely native.",
+          "derivation_fa": "انگلیسی کهن swēte > انگلیسی میانه swete > sweet امروزی؛ واکهٔ بلندِ آن در چرخش بزرگ واکه‌ها به /iː/ بدل شده و املای کهن ee مانده است. گسترش معنایی از «خوش‌مزه» به «خوش‌آهنگ» و «دلپذیر» درون‌زبانی است. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/sweet"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "the chart cites no reference for this node; the chain is covered by the AHD and KLN citations of its parent."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 823, s.v. sweet", "stance": "supports", "note": "'sweet, adj. — ME. swete, swote, fr. OE. swete, “sweet, pleasant”.'"},
+            {"src": "AHD", "where": "AHD_watkins1985.txt line 1036 and index line 2328 'SWEET swad-'", "stance": "supports", "note": "'Germanic *swōtja- in Old English swēte, sweet: SWEET.'"}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Latin",
+          "words": "suâdĕre; per-suâdere",
+          "verdict": "confirmed",
+          "derivation": "Latin suādēre 'to advise, urge' is a stative/causative in *-eh₁- built on the root: Watkins 'Suffixed form *swād-ē- in Latin suādēre, to advise, urge (< “recommend as good”)', formally the twin of Vedic svādáyati; Klein glosses it literally 'to make tasteful'. Its adjective partner is suāvis 'sweet, pleasant' < *suāduīs, with regular loss of intervocalic -d- before -u-. per-suādēre prefixes per- 'thoroughly, to the end' (an intensive, as Nourai says), hence 'to make a thing thoroughly agreeable to someone' > 'to convince'. The Latin family also gives suasion, dissuade, assuage, and (through Italian) soave.",
+          "derivation_fa": "لاتین suādēre «پند دادن، ترغیب کردن» فعلی است با پسوند *-eh₁- بر همان ریشه، هم‌ساخت با svādáyati سنسکریت؛ معنای تحت‌اللفظی آن «چیزی را خوش‌مزه/دلپذیر کردن» است (کلاین). صفت هم‌ریشهٔ آن suāvis < *suāduīs است با افتادن قاعده‌مند d میان‌واکه‌ای. per- پیشوند تأکیدی «کاملاً» است، پس per-suādēre = «کاملاً متقاعد کردن». ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/persuade"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 1036: '2. Suffixed form *swād-ē- in Latin suādēre, to advise, urge (< “recommend as good”): SUASION; (ASSUASIVE), DISSUADE, PERSUADE.'"}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 812 s.v. suave; leaf 621 s.v. persuade", "stance": "supports", "note": "'L. suavis ... stands for *swadwis'; 'persuade ... F. persuader, fr. L. persuadere, “to persuade, convince”, fr. per- and suadere, “to advise”. See suave.'"},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 517", "stance": "supports", "note": "'Kaus. bzw. Intensivum svadáyati (= lat. suādeo)'."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "English",
+          "words": "persuade",
+          "verdict": "confirmed",
+          "derivation": "English persuade is a 1510s borrowing, either directly from Latin persuādēre or through Old/Middle French persuader, in the sense 'lead to the opinion or conclusion, make (one) believe'. The -uādēre stem shows up in the English family as -suade/-suasion (dissuade, suasion, persuasion < L. persuāsiōnem).",
+          "derivation_fa": "واژهٔ انگلیسی persuade در حدود سال ۱۵۱۰ میلادی از لاتین persuādēre (یا از راه فرانسهٔ persuader) وام گرفته شده است؛ وام‌واژه‌ای کتابی است نه میراثی. هم‌خانواده‌های آن dissuade و persuasion اند. ادعای نورایی درست است.",
+          "sources": ["https://www.etymonline.com/word/persuade"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "no reference cited on this node; covered by the AHD citation of the Latin parent."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 621, s.v. persuade", "stance": "supports", "note": "'persuade, tr. v., — F. persuader, fr. L. persuadere, “to persuade, convince”, fr. per- and suadere, “to advise”.'"},
+            {"src": "WEB", "where": "etymonline (archived), s.v. persuade", "stance": "supports", "note": "'from Latin persuadere “bring over by talking” ... per- “thoroughly, strongly” + suadere “to urge, persuade”, from PIE root *swad- “sweet, pleasant”; entered English 1510s via Old French persuader.'"}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Swei; Sweib",
+      "verdict": "plausible",
+      "modern_form": "PIE *su̯ē(i)- 'to bend, turn, swing', with the extension *su̯eib-/*su̯eip- (Pokorny 1041-1042; Watkins swei-2)",
+      "note": "Pokorny's entry on the cited page is 'Root/lemma: su̯ē(i)-, Meaning: to bend, turn, swing ... Page(s): 1041-1042', and it contains precisely the sub-root 'su̯eib-: Avestan xšvaewayat-astra- „die Peitsche schwingend“, xšvi(b)wa- „agile“; Gothic midja-sweipains; Old English swāpan “swing, sweep” ...' as well as su̯eip- (OE swīfan, engl. swift). Watkins: 'swei-2. To bend, turn. [Pok. swei- 1041.]'. So root name, page and the pairing Swei/Sweib are right. Two reservations: (a) the second gloss 'move swiftly like a snake' is not in Pokorny — Nourai has read it back out of the Avestan phrase azayō xšvaewaŋhō 'swiftly darting snakes' (Vd 18.65), which is indeed where Persian شیبا comes from, but it is a Nourai gloss, not a reconstructed meaning; (b) Pokorny has a homonymous su̯ei- 'to whistle, hiss' on pp. 1040-41 (Watkins swei-1, Lat. sibilare) which is a different root and must not be confused with this one.",
+      "note_fa": "ریشهٔ پوکورنی در صفحهٔ ۱۰۴۱–۱۰۴۲ همان su̯ē(i)- «خم کردن، گرداندن، جنباندن» است با گسترش‌های su̯eib- و su̯eip-؛ پس نام و شمارهٔ صفحهٔ نورایی درست است. دو نکته: نخست آنکه معنای دوم «تند خزیدن مانند مار» در پوکورنی نیست و نورایی آن را از عبارت اوستایی azayō xšvaewaŋhō «مارهای تندجهنده» (وندیداد ۱۸،۶۵) بیرون کشیده است؛ دوم آنکه پوکورنی ریشهٔ هم‌نگار دیگری su̯ei- «سوت زدن، فیش کردن» در ص ۱۰۴۰–۴۱ دارد که ربطی به این ریشه ندارد. در مجموع ریشه با احتیاط پذیرفتنی است.",
+      "sources": ["https://www.etymonline.com/word/sweep"],
+      "ref_check": [
+        {"ref": "POK:1041", "status": "supports", "note": "POK_full.txt lines 84355-84430: 'Root / lemma: su̯ē(i)- — Meaning: to bend, turn, swing ... su̯eib-: Avestan xšvaewayat-astra- „die Peitsche schwingend“, xšvi(b)wa- „agile“; Gothic midja-sweipains ... Old English swāpan “swing, sweep, wash away, drive, push” ... su̯eip-: Old Icelandic svīfa ... Old English swīfan “turn, sweep” (engl. swift “quick, fast”) ... Page(s): 1041-1042.'"}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Walde-Pokorny Bd. II 520", "stance": "supports", "note": "'su̯eip: aisl. svīfa „schwingen, drehen, umherschweifen“, ags. swīfan (engl. swift „schnell“) ... su̯eib-: got. midjasweipains „Sintflut“ (eig. „Fegung der Mitte“) ... ags. swāpan „schwingen, fegen“ ... av. xšvaewayat-astra- „die Peitsche schwingend“.'"},
+        {"src": "AHD", "where": "AHD_watkins1985.txt line 1043", "stance": "supports", "note": "'swei-2. To bend, turn. 1. Germanic o-grade form *swaip- in Old English swāpan, to sweep, drive, swing: SWOOP ... [Pok. swei- 1041.]'"}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "xšvira; xšvaewa",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "xšvira",
+          "correct_form": "xšviwra-",
+          "derivation": "The second word is right, the first is a misprint. (a) Av. xšvaewa- is exactly what Bartholomae (AiW col. 860) gives: 'j. xšvaewa- 1) Adj. „sich rasch schwingend, schnellend“: azayō xšvaewaŋhō „sich rasch (im Bogen) schnellende Schlangen“ V.18.65; — tištrim .. yō avavat xšvaewa vataite .. yaθa tiγriš “.. der ebenso rasch dahinfliegt .. wie der Pfeil” Yt 8.6. 2) m. „rascher Schwung“. Pü.: šēpāk.' It is a *-u̯o- adjective of the su̯eib- extension (*su̯eib-u̯o- > Ir. xšvaiwa- with the regular Av. treatment of *su̯- as xšv-). (b) 'xšvira' is not an attested Avestan word. What is meant is xšviwra- (Bartholomae col. 864): 'j. xšviwra- Adj. „schnell, flink, geläufig“: dāiia mē .. mastīm spānō xšviwrəm hizụụẹm uruụē uši “gib mir .. eine flinke Zunge, der Seele Auffassungskraft” Y 62.4. Pü.: šēpāk.' The -w- has simply dropped out of Nourai's transliteration; this is important because xšviwra- of the 'nimble tongue' is the direct semantic ancestor of Persian شیوا 'eloquent', while xšvaewa- of the darting snakes is that of شیبا 'viper'. The printed page 459 itself reads 'xšvira', so the extraction is faithful and the error is the book's.",
+          "derivation_fa": "از دو صورت این خانه، دومی درست است و اولی غلط چاپی. xšvaewa- «تندجهنده، چالاک» در بارتولومه (ستون ۸۶۰) آمده است، از جمله در azayō xšvaewaŋhō «مارهای تندجهنده» (وندیداد ۱۸،۶۵)؛ این صفت از گسترش su̯eib- ساخته شده و *su̯- هندواروپایی در اوستایی قاعده‌مند به xšv- بدل می‌شود. اما «xšvira» صورتی اوستایی نیست؛ مقصود xšviwra- «تند، چالاک، روان» (بارتولومه ستون ۸۶۴، یسنا ۶۲،۴: «زبانی چالاک به من بخش») است که در ترجمه‌نویسی «w» آن افتاده است. این نکته مهم است زیرا xšviwra- (زبان چالاک) پیشینهٔ معنایی «شیوا» است و xšvaewa- (مار جهنده) پیشینهٔ «شیبا». در صفحهٔ چاپی کتاب (ص ۴۵۹) هم «xšvira» چاپ شده؛ پس خطا از خود کتاب است نه از خوانش اسکن.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "POK:1041", "status": "partial", "note": "POK_full.txt, su̯eib- section: 'Avestan xšvaewayat-astra- „die Peitsche schwingend“, xšvi(b)wa- „agile“' — supports xšvaewa- (via its compound) and knows xšviwra- only in the form xšvi(b)wa-; there is no 'xšvira' anywhere in Pokorny."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt line 10945 (col. 860) and line 11000 (col. 864)", "stance": "supports", "note": "col. 860 'j. xšvaewa- 1) Adj. „sich rasch schwingend, schnellend“: azayō xšvaewaŋhō ... V.18.65 ... Pü.: šēpāk'; col. 864 'j. xšviwra- Adj. „schnell, flink, geläufig“: dāiia mē .. mastīm spānō xšviwrəm hizụẹm uruụē uši ... Y.62.4 ... Pü.: šēpāk' — the correct form, with the same Pahlavi gloss."},
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 520", "stance": "partial", "note": "under su̯eib- only 'av. xšāewayat-astra- „die Peitsche schwingend“ u. dgl. (s. u. u̯eip-)'; no xšvira."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "šĕpâk",
+          "verdict": "plausible",
+          "derivation": "Šēpāk is a Zand gloss word, not a word of the ordinary Pahlavi lexicon (MacKenzie's CPD has no šēb-/šēw- entry). It is the Pahlavi rendering that the Zand puts on BOTH Avestan adjectives of the parent node: Bartholomae notes 'Pü.: šēpāk' under xšvaewa- (col. 860) and again under xšviwra- (col. 864). Written <šypʾk>, the letter transliterated p regularly stands for /w/ between vowels in Book Pahlavi, so Horn reads it šēvak / šēvāk (Grundriss nos. 800, 804: 'phlv. š(e)pāk d. i. š(e)vak'), and it is that reading, not the graphic šēpāk, which yields NP شیبا/شیوا. The suffix -āk/-ak is the ordinary MP adjectival formant on an Avestan stem *šēw- < xšvaiw-. Nourai's gloss 'fast, easy to understand' is a conflation: the Pahlavi word means only 'swift, darting/nimble'; 'easy to understand' is the later Persian sense of شیوا read back into it.",
+          "derivation_fa": "«شــــــــــــــــــــــــــیپاک» (شِیوک/شیواک) واژه‌ای است از زند، نه از فرهنگ معمول پهلوی (در مکنزی نیست). بارتولومه ذیل هر دو صفت اوستایی xšvaewa- و xšviwra- می‌نویسد «Pü.: šēpāk». در خط پهلوی حرف p میان دو واکه قاعده‌مند به /w/ خوانده می‌شود؛ پس هرن آن را شیوک/شیواک می‌خواند و همین خوانش است که به «شیبا/شیوا» می‌رسد. پسوند -ak/-āk پسوند صفتساز معمول فارسی میانه است. معنای «زودفهم» که نورایی آورده از آن پهلوی نیست بلکه معنای متأخرِ «شیوا» در فارسی است. در مجموع با احتیاط پذیرفتنی است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "BQT:1319,1329", "status": "supports", "note": "BQT_v3_pages.txt pdf p. 110 = printed p. 1319, Mo'in's footnote 1 to شیبا: 'اوستا xšvaewa، پهلوی شیپاک (šēpāk)، شیوک (šēvak) ... قس بلوچی شیپ‌مار (نوعی مار) ... رک: هوبشمان ۸۰۰' — the Pahlavi form and both readings, exactly as in the chart."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "BRT.txt col. 860 (xšvaewa-) and col. 864 (xšviwra-)", "stance": "supports", "note": "both entries close with 'Pü.: šēpāk' (col. 864 adds the note that 'šēpāk xāirvān' is explained elsewhere) — the Pahlavi word is the Zand gloss of both Avestan adjectives."},
+            {"src": "HRN", "where": "HRN.txt pp. 178 and 179, nos. 800 and 804", "stance": "supports", "note": "no. 800 'šēbā “Viper”. aw. xšvaewa- (vd. 18, 65); phlv. š(e)pāk d. i. š(e)vak'; no. 804 'šēvā „beredt“. aw. xšvaewa- „schnell, schnellend“; phlv. šepāk d. i. ševāk'."},
+            {"src": "PHD", "where": "PHD.txt / PHD_mackenzie.txt", "stance": "silent", "note": "grep '^šēb|^šēw|^šyb' finds nothing: the word is not in MacKenzie's Concise Pahlavi Dictionary, which is expected for a Zand gloss."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "šîbâ; šîvâ",
+          "verdict": "plausible",
+          "derivation": "Both Persian words continue Pahlavi šēwāk/šēvak (written šēpāk) with the ordinary loss of the MP -k/-g ending, and they differ only in the spelling of the medial glide, ب vs و, both standing for /w/ ~ /v/. (a) شیبا 'viper, big snake' — Horn no. 800 (p. 178) 'šēbā “Viper”, aw. xšvaewa- (vd. 18, 65)'; the Avestan passage cited is exactly azayō xšvaewaŋhō 'swiftly darting snakes', so the noun is an elliptical use of the adjective ('the darting one' = the viper), paralleled by Balochi šēp-mar 'a kind of snake' (Mo'in's footnote, Borhan p. 1319), and attested in Gorgāni's Vīs o Rāmīn: 'سر دیوار او پر مار شیبا'. (b) شیوا 'eloquent, clear' — Horn no. 804 (p. 179) 'šēvā „beredt“, aw. xšvaewa- „schnell, schnellend“; phlv. šepāk d. i. ševāk'; the semantic bridge is the Avestan xšviwrəm hizu̯ẹm 'nimble tongue' of Y 62.4, i.e. 'quick-tongued' > 'fluent' > 'clear, easy to follow'. Mo'in's dictionary glosses شیوا 'فصیح، بلیغ'. The reservation: Wiktionary derives شیوا instead from the native stem شیو (šiv) + the adjectival ـا, i.e. from شیفتن/شیویدن 'to stir up, disturb' — and Borhan indeed prints شیوا 'فصیح بلیغ' right beside شیوانیدن 'آمیختن، برهم زدن' and شیوان 'آمیخته', a homonym cluster that makes a folk-etymological pull on the word likely. So Nourai follows Horn, Hübschmann and Mo'in, which is respectable, but the derivation of شیوا is not uncontested; شیبا is the safer of the two.",
+          "derivation_fa": "هر دو واژه دنبالهٔ پهلوی شیواک/شیوک اند با افتادن قاعده‌مند پایانهٔ -ک فارسی میانه؛ تفاوت «ب» و «و» تنها دو نگارش از یک همخوان /w/ است. «شیبا» به معنی مار و افعی، به گواهی هرن (بند ۸۰۰) و حاشیهٔ معین بر برهان قاطع (ص ۱۳۱۹)، از همان صفت اوستایی xšvaewa- است که در وندیداد ۱۸،۶۵ وصف مارهاست (قس: بلوچی شیپ‌مار)؛ شاهد فارسی آن بیت فخرالدین گرگانی است: «سر دیوار او پر مار شیبا». «شیوا» به معنی فصیح و بلیغ را هرن (بند ۸۰۴) از همین خانواده می‌داند و پل معنایی آن ترکیب اوستایی xšviwrəm hizu̯ẹm «زبان چالاک» (یسنا ۶۲،۴) است. با این همه، ویکی‌واژه «شیوا» را از ستاک بومی «شیو» (از شیفتن/شیویدن) + «ـا» می‌داند، و در برهان قاطع نیز همین صفحه «شیوان، شیوانیدن» به معنی «آمیختن، برهم زدن» آمده است؛ پس احتمال ریشه‌شناسی عامیانه هست. در مجموع، «شیبا» استوارتر است و «شیوا» با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/%D8%B4%DB%8C%D9%88%D8%A7"],
+          "ref_check": [
+            {"ref": "BQT:1319,1329", "status": "supports", "note": "printed p. 1319 (BQT_v3_pages.txt pdf p. 110): 'شیبا ... مار افعی را گویند' with Mo'in's footnote 'اوستا xšvaewa، پهلوی شیپاک/شیوک ... خشوئو در اوستا صفت است بمعنی زودخزنده، تندرونده، چست و چالاک' + the Vīs o Rāmīn verse. شیوا with Horn's etymology stands on pdf p. 122 of the same scan (≈ printed 1331, two pages past Nourai's 1329 — the v3 scan has some mis-ordered leaves): 'شیوا ... بمعنی فصیح بلیغ باشد' with the footnote 'بقول هرن اوستا xšvaewa (تند، سریع)؛ پهلوی شیپاک و شیوک ... و بقول هوبشمان ...'."},
+            {"ref": "HRN:178,179", "status": "supports", "note": "HRN.txt leaves 199-200 = printed pp. 178-179: no. 800 'šēbā „Viper“. aw. xšvaewa- (vd. 18, 65); phlv. š(e)pāk d. i. š(e)vak' and no. 804 'šēvā „beredt“. aw. xšvaewa- „schnell, schnellend“; phlv. šepāk d. i. ševāk' — both words, both pages, exactly as cited."},
+            {"ref": "MON:2115", "status": "supports", "note": "Mo'in, Farhang-e Fārsi s.v. شیوا (MON_part1.txt line 88347): 'شیوا (ص.) فصیح، بلیغ' — the gloss of the chart. The local MON OCR has no page tags, so the page number 2115 itself could not be verified."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "HRN.txt pp. 178-179, nos. 800, 804", "stance": "supports", "note": "as quoted; Horn is the ultimate source of Mo'in's footnote and of Nourai's arrow."},
+            {"src": "BQT", "where": "BQT_v3_pages.txt pdf pp. 110 and 122", "stance": "supports", "note": "both headwords with Mo'in's Avestan/Pahlavi footnotes, plus the Balochi comparison شیپ‌مار."},
+            {"src": "MON", "where": "MON_part1.txt lines 88347-88351", "stance": "partial", "note": "'شیوا (ص.) فصیح، بلیغ' is followed immediately by 'شیوانیدن (مص م.) آمیختن، برهم زدن ... لرزانیدن' — the homonym cluster that gives Wiktionary its alternative derivation."},
+            {"src": "WEB", "where": "en.wiktionary.org s.v. شیوا (archived)", "stance": "partial", "note": "'From شیو (šiv) + ـا (-ā), adjective form of the verb شیفتن (šiftan) “to disturb, to disorder, to confuse”' — a native derivation, competing with Horn's Avestan one."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Germanic",
+          "words": "swîp; swîf",
+          "verdict": "confirmed",
+          "derivation": "These are the two Germanic ablaut grades of the su̯eib-/su̯eip- extension. Watkins states them explicitly under swei-2: 'Germanic o-grade form *swaip- in Old English swāpan, to sweep, drive, swing: SWOOP. 2. Germanic zero-grade form *swip- in Old English swift, swift, quick (< “turning quickly”). 3. Germanic full-grade form *swif- in Middle English swyvel, a swivel.' Walde-Pokorny II 520 lists the same material under su̯eip- (aisl. svīfa, ags. swīfan, engl. swift, ahd. sweibōn) and su̯eib- (got. midja-sweipains 'deluge', lit. 'sweeping of the middle', ags. swāpan, ahd. sweif 'Umschwung, Schwanz'). Nourai's *swīp 'sweep' and *swīf 'fast move' are these; the only inexactness is the vowel — the 'sweep' grade is o-grade *swaip- (OE swāpan), not *swīp-.",
+          "derivation_fa": "این دو صورت، دو پایهٔ آوایی (ablaut) گسترش su̯eib-/su̯eip- در ژرمنی اند: واتکینز صریحاً *swaip- (> انگلیسی کهن swāpan «روفتن، چرخاندن»)، *swip- (> swift) و *swif- (> swivel) را می‌آورد و والده‌پوکورنی (جلد ۲ ص ۵۲۰) همین ماده را. تنها نادقتی نورایی در واکه است: پایهٔ «روفتن» درواقع *swaip- است نه *swīp-. در کل ادعا درست است.",
+          "sources": ["https://www.etymonline.com/word/sweep"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "AHD_watkins1985.txt line 1043, s.v. swei-2, as quoted: *swaip-, *swip-, *swif- with sweep/swoop, swift and swivel."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Walde-Pokorny Bd. II 520", "stance": "supports", "note": "'su̯eip: aisl. svīfa „schwingen, drehen“, ags. swīfan „bewegen, fegen“ (engl. swift „schnell“) ... su̯eib-: got. midjasweipains ... ags. swāpan „schwingen, fegen, streichen (vom Winde)“ ... ahd. sweif „Umschwung, Schwanz“'."},
+            {"src": "KLN", "where": "KLN_1966.txt leaf 823 s.v. sweep; leaf 823 s.v. swivel", "stance": "supports", "note": "'sweep ... ME. swepen ... rel. to OE. swāpan, “to swoop”'; 'swivel, n. — ME. swivell, rel. to OE. swifan, “to move in a course, sweep”.'"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "English",
+          "words": "sweep; swift, swap, sway, swivel",
+          "verdict": "plausible",
+          "derivation": "Three of the five are secure, two are looser. sweep: ME swepen (early 14c.), a weak verb beside/replacing OE swāpan (past swēop); Skeat calls it 'the regular causal form of A.S. swāpan, to swoop', Klein 'rel. to OE. swāpan'. swift: OE swift 'moving quickly', from the zero grade *swip- 'turning quickly' (Watkins). swivel: ME swivell, from OE swīfan 'to move in a course, sweep' + the instrumental -el suffix (Klein), Germanic *swif-. swap: Watkins does list SWAP under swei-2 ('German schwappen, to flap, splash, akin to the source of Middle English swappen, to splash'), but the word's early sense in English is 'to strike, to hit' (c. 1200) and Etymonline and most modern accounts treat it as imitative, the trading sense coming from 'striking hands' on a bargain — so the connection is possible, not certain. sway: this one does not come from Nourai's Germanic *swīp/*swīf at all; ME sweyen (early 14c.) is from a Scandinavian source, cf. Old Norse sveigja 'to bend, swing, give way', i.e. Pokorny's su̯eig-/su̯eik- extension on pp. 1041-42. It belongs in the same root box but on a different branch, so the arrow as drawn is wrong for that word.",
+          "derivation_fa": "از پنج واژه، سه تا قطعی اند: sweep از انگلیسی میانه swepen در کنار انگلیسی کهن swāpan، swift از پایهٔ صفر *swip- «تندچرخنده»، و swivel از swīfan «گردیدن، روفتن». دربارهٔ swap واتکینز آن را زیر همین ریشه می‌آورد ولی ریشه‌شناسی امروزی آن را آوابند (تقلید صدای ضربه) می‌داند. اما sway از شاخهٔ *swīp/*swīf نیست؛ آن وام‌واژه‌ای اسکاندیناویایی است از نورس کهن sveigja «خم کردن، جنباندن»، یعنی از گسترش su̯eig-/su̯eik- همان ریشه. پس خانه در کل درست است ولی دو واژهٔ آخر با احتیاط.",
+          "sources": ["https://www.etymonline.com/word/sweep", "https://www.etymonline.com/word/sway"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "no reference is cited on this node; its parent carries 'AHD', whose swei-2 entry covers sweep/swoop, swift, swivel and swap but not sway."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt leaf 823, s.vv. sweep, swift, swivel", "stance": "supports", "note": "'sweep ... ME. swepen, “to sweep, move quickly”, rel. to OE. swāpan, “to swoop”'; 'swift, n. ... fr. swift, adj.'; 'swivel ... rel. to OE. swifan, “to move in a course, sweep”. See sweep, v.'"},
+            {"src": "SKT", "where": "SKT.txt line 19006, s.v. sweep", "stance": "supports", "note": "'sweep, verb. (E) M.E. swipen. A weak verb ... the regular causal form of A.S. swāpan, to swoop (above).'"},
+            {"src": "AHD", "where": "AHD_watkins1985.txt line 1043 and index line 2328", "stance": "partial", "note": "swei-2 yields SWOOP, SWIFT, SWIVEL, SWITCH, SWAP; SWAY is indexed at 'SWAG sweng(w)-'-adjacent entries and is not listed under swei-2."},
+            {"src": "WEB", "where": "etymonline (archived), s.vv. sweep, sway", "stance": "partial", "note": "sweep: 'from Old English swāpan'; sway: 'probably from a Scandinavian source, cf. Old Norse sveigja “to bend, swing, give way”' — a different Germanic stem from *swīp/*swīf."}
+          ]
+        }
+      ]
+    }
+  ]
+}
