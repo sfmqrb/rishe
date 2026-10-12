@@ -13,7 +13,7 @@ chart against modern scholarship and against the exact pages Nourai cites, and t
 results on the site. Check progress and the next unverified page before doing anything:
 
 ```
-for n in $(seq 300 560); do [ -f data/verification/page-$n.json ] || echo "$n TODO"; done | head
+for n in $(seq 300 571); do [ -f data/verification/page-$n.json ] || echo "$n TODO"; done | head
 ```
 
 Order is simply ascending PDF page. Pages 146 and 163 are redirect-only with empty verification
@@ -35,7 +35,12 @@ Deploy the site (GitHub Pages builds from `main`) every two to three pages by fa
 git merge-base --is-ancestor main verified && git push -q origin verified:main && git push -q private verified:main && git branch -f main verified
 ```
 
-**Concurrency.** Max 6 verification subagents at once (`subagent_type: general-purpose`,
+**Full methodology.** Read `data/verification/COORDINATOR.md` first: it is the complete
+coordinator playbook (privacy rules, launching, post-processing, extraction-error checks, failure
+modes). What follows is the short version.
+
+**Concurrency.** Ask-before-each-batch; recent rule is batches of 20 pages with up to 20
+verification subagents at once (`subagent_type: general-purpose`,
 `model: opus`; Sonnet only as fallback). Session rate limits (HTTP 429) have killed whole batches;
 killed agents often leave complete JSON, which can be published after `verify_check.py` confirms
 the node count, or the agent can be resumed with SendMessage. If the user says "don't start new
@@ -64,7 +69,8 @@ must look at the printed page and set `error_in` (book or extraction), `book_pri
 **Coordinator routine after each agent finishes.** Its transcript is at
 `~/.claude/projects/-home-sfmqrb-git-rishe/<current-session-id>/subagents/agent-<id>.jsonl`
 (find the directory with `ls -t ~/.claude/projects/-home-sfmqrb-git-rishe/*/subagents | head`).
-Keep a page-to-agent-id map in the scratchpad. Run, in order:
+Keep a page-to-agent-id map in the scratchpad. Run `sh tools/verify_finish_page.sh N <transcript>`, then commit and deploy with
+`sh tools/verify_commit_deploy.sh <message-file>`. Those two scripts wrap these steps:
 
 ```
 python3 tools/verify_export_process.py <transcript> verify-page-N
