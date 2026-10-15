@@ -1,0 +1,409 @@
+{
+  "pdf_page": 502,
+  "book_page": 472,
+  "verified_by": "claude-opus-5",
+  "verified_on": "2026-10-14",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Ten 1, Tengh, Temp",
+      "verdict": "confirmed",
+      "modern_form": "PIE *ten- (*tenh₂-) 'to stretch' (Pokorny 1. ten-, tend- 1065-1066), with extensions *temp- (1064-1065) and *tengh- (1067); adjective *ténh₂us 'thin' (Pokorny tenu-s 1069)",
+      "note": "Root, label and gloss are correct: Pokorny heads 'ten-1, tend-' 'to extend, stretch, span' (pp.1065-1066), and lists temp- 'to extend, stretch, span. Note: extension from *ten-' (1064-1065) and tengh- 'yet probably nevertheless extension from ten-1' (1067); Nourai's POK:1064,1067 point to those two extensions. Watkins (AHD) ten- 'To stretch' covers tendere, tenere, tonos, Germanic *thunw- 'thin'. Problems are local: (1) 'ana-tempa' is not attested Latin but Klein's/Pokorny's tentative reconstruction *an(a)-temp-na behind Latin antemna/antenna, whose origin Ernout-Meillet consider unknown (probably a loan); (2) temperature belongs to temperare, connected with *temp- only tentatively; (3) the Persian box hangs tanīdan 'to spin' (a verb from *ten- itself, Cheung *tan-) under Avestan tanū- 'body', and âbestan's analysis as *ā-puθra-tanu- (Nyberg, Hübschmann) is not the one Wiktionary gives (*āpuθra-); (4) Persian tonok is inherited (MP tanuk), a cognate of Sanskrit tanuka-, not a derivative of it. No extraction errors: the JSON matches the printed page (checked against the page image).",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *ten- (*tenh₂-) «کشیدن، گستردن» است و پوکورنی (ص۱۰۶۵–۱۰۶۶) آن را با همین معنا آورده و temp- (ص۱۰۶۴) و tengh- (ص۱۰۶۷) را گسترش‌یافتهٔ همان ریشه می‌داند؛ صفت *ténh₂us «نازک» (پوکورنی ۱۰۶۹) نیز از همین ریشه است. پس ریشه، برچسب و معنای نورایی درست است. اشکال‌ها جزئی‌اند: «ana-tempa» واژهٔ لاتین گواهی‌شده نیست بلکه بازسازی گمانیِ کلاین و پوکورنی برای antemna (دکل بادبان) است؛ «تنیدن» فعلی مستقیم از ریشهٔ *tan- است نه از «تن»؛ و «تُنُک» هم‌ریشهٔ سنسکریت tanuka- است نه برگرفته از آن. خطای استخراج دیده نشد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ténh₂us",
+        "https://en.wiktionary.org/wiki/antenna",
+        "https://en.wiktionary.org/wiki/تنیدن"
+      ],
+      "ref_check": [
+        {"ref": "POK:1064", "status": "supports", "note": "POK_full.txt line 85453 'Root / lemma: temp-' 'Meaning: to extend, stretch, span' 'Note: extension from *ten- ds.'; includes 'Latin tempus ... temperare' and 'perhaps antemna f. \"sprit\" (\"die Aufgespannte\") from *an(a)-temp-na'; Page(s): 1064-1065."},
+        {"ref": "POK:1067", "status": "supports", "note": "POK_full.txt line 85516 'Root / lemma: tengh-' 'Meaning: to extend, stretch, span' 'Note: ... probably nevertheless extension from ten-1'; Page(s): 1067. Same page has 'tend-: see below tem-1'. The main root '1. ten-, tend-' is on pp.1065-1066 (line 85648)."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "Watkins 1985 s.v. ten- (line 1079)", "stance": "supports", "note": "'ten-. To stretch. ... Latin tendere ... TENT1 ... Latin tenere, to hold, keep ... CONTAIN ... II. Derivatives meaning \"stretched,\" hence \"thin.\" 1. ... *tn-u- in Germanic *thunw- ... THIN ... III. ... *ton-o- in Greek tonos, string, hence sound, pitch: TONE. [Pok. 1. ten- 1065.]'"},
+        {"src": "WLD", "where": "Bd. I p.722 (WLD_Bd1_pages.txt leaf 731)", "stance": "supports", "note": "'ten- „dehnen, ziehen, spannen“ (z. T. auch von der Weberei, Spinnen ...)' with 'av. pairi-tanava', 'np. tanīdan', 'lat. tene-re'."},
+        {"src": "IEC", "where": "line 18351 s.v. ten- (2)", "stance": "supports", "note": "'ten- (2) radical: ‘stretch; spread; thin’. Cf. teneuos, tend (1), ton-, tnu-'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Latin",
+          "words": "tendere; tenere; ana-tempa",
+          "verdict": "plausible",
+          "derivation": "Latin tendere 'to stretch' continues an o-grade-less *ten-d- present (Pokorny 'Latin tendo ... originally d-present'), and tenēre 'to hold' the stative *ten-ē- ('to cause to endure, hold on to', Watkins) — both confirmed. 'ana-tempa' is not a Latin word: the attested word is antemna/antenna 'sail-yard', which Klein and Pokorny tentatively analyse as *an(a)-temp-na 'the stretched-up (yard)' from *temp-, with *-mpn- > -mn-; Wiktionary repeats this as 'may be from Proto-Italic *antitempnā', while Ernout-Meillet regard antemna as an unexplained (probably borrowed) nautical term. Nourai has dropped both the asterisk and the -n- of the reconstruction.",
+          "derivation_fa": "لاتین tendere «کشیدن» و tenēre «نگه داشتن» هر دو از ریشهٔ *ten- «کشیدن»اند و این بخش درست است. اما «ana-tempa» واژهٔ لاتین نیست: واژهٔ گواهی‌شده antemna/antenna «چوب افقی بادبان» است که کلاین و پوکورنی آن را با تردید از *an(a)-temp-na «آنچه بالا کشیده شده» از ریشهٔ گسترش‌یافتهٔ *temp- دانسته‌اند؛ ارنو و میه آن را وام‌واژه‌ای دریانوردی با ریشهٔ نامعلوم می‌شمارند. نورایی ستارهٔ بازسازی و -n- آن را انداخته است؛ پس این خانه با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/antenna"],
+          "ref_check": [
+            {"ref": "AHD", "status": "partial", "note": "Watkins s.v. ten-: 'Latin tendere, to stretch, extend' and 'Latin tenere, to hold, keep, maintain' — supported; antenna is not listed under ten- or temp- (temp- gives only tempus 'temple' and Persian taftan)."},
+            {"ref": "POK", "status": "supports", "note": "POK_full.txt temp- (pp.1064-1065): 'perhaps antemna f. \"sprit\" (\"die Aufgespannte\") from *an(a)-temp-na'; ten- (1065-1066): 'Latin tendo, -ere ... teneo, -ere'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1971.txt line 16099 s.v. antenna", "stance": "supports", "note": "'fr. L. antemna, antenna, ‘sail yard’, which is of uncertain origin. It is perh. a contraction of *an(a)tempna, ‘that which is stretched, extended’, fr. I.-E. base *temp-'."},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. antenna (line 4199)", "stance": "contradicts", "note": "'antenna, -ae f. ... vergue(s) ... Mot sans doute emprunt, comme la plupart des termes nautiques du latin.'"},
+            {"src": "WLD", "where": "Bd. I p.722", "stance": "supports", "note": "'ten- „dehnen, ziehen, spannen“' with 'lat. tene-re'."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Pass-through French box: French antenne (from Latin antenna, in the 'aerial' sense from the 1900s after the insect 'feeler' sense) and tennis (English game name built on Old/Anglo-French tenez 'hold!', imperative of tenir < Latin tenēre, re-borrowed into French as tennis in the 19th c.) are the forms Persian took over.",
+          "derivation_fa": "خانهٔ فرانسوی خالی است و فقط گذرگاه است: فرانسوی antenne (از لاتین antenna) و tennis (از تعبیر tenez «بگیر!»، امرِ tenir از لاتین tenēre، که از راه انگلیسی دوباره به فرانسه بازگشت) واژه‌هایی‌اند که فارسی وام گرفته است. این مسیر درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/tennis"],
+          "ref_check": [
+            {"ref": "KLN:1587", "status": "supports", "note": "Klein 1966 (KLN_1966.txt line 38548) s.v. tennis, on the cited page range: 'ME. teneis, fr. AF. tenetz, fr. OF. (= F.) tenez, ‘hold!’, pl. imper. of tenir, ‘to hold’ ... so called from the word used by the server'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1971.txt line 16099 s.v. antenna", "stance": "supports", "note": "'antenna ... fr. L. antemna, antenna, ‘sail yard’'."},
+            {"src": "SKT", "where": "SKT.txt (grep 'Tennis', 'Antenna')", "stance": "silent", "note": "No separate entries found in the OCR."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "ânten; tenîs",
+          "verdict": "confirmed",
+          "derivation": "Persian ânten آنتن 'aerial' is a 20th-century loan of French antenne (Latin antenna 'sail-yard'); the gloss 'stretched out (sail)' is Nourai's etymological gloss of the Latin, not a Persian meaning. tenis تنیس is the game name borrowed (via French tennis / English tennis) in the Pahlavi era, ultimately from Anglo-French tenetz 'hold!' < tenir < Latin tenēre.",
+          "derivation_fa": "«آنتن» وام‌واژهٔ سدهٔ بیستمی از فرانسوی antenne است که خود از لاتین antenna «چوب بادبان» آمده؛ معنای «(بادبانِ) کشیده‌شده» توضیح ریشه‌شناختی نورایی است نه معنای فارسی. «تنیس» نام بازی است که از فرانسوی/انگلیسی tennis وام گرفته شده و آن از tenez «بگیر!» از فعل tenir (لاتین tenēre «نگه داشتن») است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/tennis", "https://en.wiktionary.org/wiki/antenna"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "The Persian box carries no reference of its own; the French parent cites KLN:1587 (tennis), which supports the Romance chain."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt (grep آنتن / تنیس)", "stance": "silent", "note": "The 2-vol Mo'in abridgement OCR gave no clean hit for either loanword."},
+            {"src": "KLN", "where": "KLN_1966.txt line 38548 s.v. tennis", "stance": "supports", "note": "'fr. OF. (= F.) tenez, ‘hold!’, pl. imper. of tenir'."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "tent, contain, tennis, antenna, temperature, tension",
+          "verdict": "plausible",
+          "derivation": "tent < Old French tente < Late Latin tenta 'stretched (cloth)', pp. of tendere; contain < Old French contenir < Latin continēre (con- + tenēre); tennis < Anglo-French tenetz 'hold!' (tenir < tenēre); tension < Latin tensio < tendere — all secure (Watkins lists TENT, CONTAIN, TENSE under ten-). antenna < Latin antemna (only tentatively *an(a)-temp-na, see #1). temperature < Latin temperātūra < temperāre 'to mix in due measure', which Pokorny attaches to tempus 'stretch of time' < *temp- with a 'perhaps', and Watkins does not list under ten-/temp-; so the last two are only plausible.",
+          "derivation_fa": "tent (چادر، از لاتین tenta «کشیده‌شده» از tendere)، contain (از continēre)، tennis (از tenir/tenēre) و tension (از tendere) بی‌گمان از ریشهٔ *ten- «کشیدن»اند. اما antenna تنها به گمان از *temp- است (ر.ک. خانهٔ ۱) و temperature از temperāre «به‌اندازه آمیختن» است که پیوندش با tempus و *temp- «کشیدن» را پوکورنی با «شاید» آورده است؛ پس این خانه در مجموع پذیرفتنی ولی نه قطعی است.",
+          "sources": ["https://en.wiktionary.org/wiki/tennis", "https://en.wiktionary.org/wiki/antenna"],
+          "ref_check": [
+            {"ref": "None", "status": "not_checked", "note": "No reference printed on this box; checked against AHD/Klein instead (see consulted)."}
+          ],
+          "consulted": [
+            {"src": "AHD", "where": "Watkins s.v. ten-", "stance": "partial", "note": "'Latin tendere ... TENSE1, TENT1 ... Latin tenere ... CONTAIN' — tent, contain, tension supported; antenna and temperature not listed under ten- or temp-."},
+            {"src": "KLN", "where": "KLN_1966.txt line 38494 s.v. temperature", "stance": "partial", "note": "'L. temperātūra, ‘due measure, proportion ...’, fr. temperātus, pp. of temperāre. See temperate' — no direct link to *ten-."},
+            {"src": "POK", "where": "temp- pp.1064-1065", "stance": "partial", "note": "'Latin tempus \"Zeitspanne\", in addition temperare \"measure halten\" ... perhaps antemna'."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Indo-European",
+          "words": "Tenu",
+          "verdict": "confirmed",
+          "derivation": "PIE *ténh₂-u-s 'thin' (Pokorny tenu-s 1069, 'to ten-1 \"dehnen\"'), a u-adjective of *tenh₂- 'stretch': literally 'stretched out', hence 'thin'. Reflexes: Sanskrit tanú-, Latin tenuis, Old English þynne, Old Church Slavonic tĭnŭkŭ.",
+          "derivation_fa": "هندواروپایی آغازین *ténh₂us «نازک» صفتی با پسوند -u از ریشهٔ *tenh₂- «کشیدن» است، یعنی «کشیده‌شده»، و از آن سنسکریت tanú-، لاتین tenuis، انگلیسی thin و اسلاوی کهن tĭnŭkŭ آمده‌اند. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ténh₂us"],
+          "ref_check": [
+            {"ref": "POK", "status": "supports", "note": "POK_full.txt line 85789 'Root / lemma: tenu-s' 'Meaning: thin' 'Note: to ten-1 \"dehnen\"' ... 'Page(s): 1069'."},
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. ten- II: 'Derivatives meaning \"stretched,\" hence \"thin.\" 1. ... *tn-u- in Germanic *thunw- ... 2. ... *ten-u- in Latin tenuis'."}
+          ],
+          "consulted": [
+            {"src": "SYN", "where": "12.65 THIN (line 22696)", "stance": "supports", "note": "Buck: 'Lat. tenuis ... OE þynne ... Skt. tanu-' — 'Skt. tanu-; but Grk. ταναός ‘slender, long’'."},
+            {"src": "IEC", "where": "line 18351 ten- (2)", "stance": "supports", "note": "'stretch; spread; thin'."},
+            {"src": "WLD", "where": "Bd. I p.722 ff.", "stance": "supports", "note": "ten- entry with 'das Adj. tenu-s „tenuis“'."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Avestan",
+          "words": "tanu; a-puthra-tanu; taxma-tanu; pešô-tanu",
+          "verdict": "plausible",
+          "derivation": "Avestan tanū- f. 'body, person, self' is real (Bartholomae col. 634 'Leib'); Pokorny lists it both as 'substantivized' tanū- under tenu-s 1069 and as 'perhaps here tanū- \"body\"' under ten- (after Mayrhofer), so the 'stretched' body is an accepted but uncertain etymology. pəšō.tanu- 'whose body is forfeit, liable to punishment' is attested (Bartholomae col. c.897 'des Leib verwirkt, dem Gericht verfallen ist'). taxma- 'brave, strong' is attested (Bartholomae), but a compound *taxma-tanu- is not; it is the reconstructed source of NP tahamtan. 'a-puthra-tanu' is not attested: Avestan a-puθra- would mean 'sonless'; Nyberg reconstructs OP *ā-puça-tanu- 'having a son in the body' for MP ābustan, so the hyphenated form is a misleading reconstruction.",
+          "derivation_fa": "اوستایی tanū- «تن، پیکر، خود» گواهی شده است (بارتولومه، ستون ۶۳۴) و پیوندش با *ten- «کشیدن» را پوکورنی و مایرهوفر با احتیاط پذیرفته‌اند. pəšō.tanu- «کسی که تنش (به سبب گناه) در گرو است» نیز در اوستا هست. اما taxma-tanu «تهمتن» ترکیبی بازسازی‌شده است و در اوستا نیامده، و «a-puthra-tanu» هم گواهی نشده است؛ نیبرگ برای آبستن صورت پارسی باستان *ā-puça-tanu- «پسر در تن دارنده» را بازسازی می‌کند، حال آنکه a-puθra- در اوستایی «بی‌پسر» معنی می‌دهد. پس این خانه پذیرفتنی است ولی دو صورتش بازسازی است نه واژهٔ اوستایی.",
+          "sources": ["https://en.wiktionary.org/wiki/آبستن"],
+          "ref_check": [
+            {"ref": "POK:1069", "status": "supports", "note": "POK_full.txt tenu-s (p.1069): 'substantivized Old Indie tanū- f., tanūs- n., Avestan tanū- f., tanus- n., np. tan \"body\"'."},
+            {"ref": "BQT:411", "status": "not_found", "note": "BQT_v1_pages.txt leaves 636-637 (≈ pp.410-411, entries پشکم ... پشول): no headword پشوتن in the OCR; the neighbouring entries are there, so the name is apparently not a Borhan headword."},
+            {"ref": "BQT:515", "status": "partial", "note": "BQT_v1_pages.txt leaf 752 (≈ p.515-524 region): headword 'تن - معروف است ... و بمعنی اجسام نیز آمده است' with footnote '۷ - پهلوی' — confirms tan but the OCR footnote does not show the Avestan form."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "col. 634 s.v. tanū- (BRT.txt line 11941); col. c.897 s.v. pəšō.tanu- (line 16186); s.v. taxma- (line 11841)", "stance": "partial", "note": "'tanū- f. ... „Leib“ 1) der Menschen ... auch sva. „Person“'; 'pəšō.tanū- Adj. „des Leib verwirkt, dem Gericht verfallen ist“'; 'taxma- Adj. „fortis, tapfer, tüchtig“' — no compound taxma.tanu- or a-puθra-tanu-."},
+            {"src": "NYB", "where": "Glossary s.v. āpustan (line 611)", "stance": "partial", "note": "'āpustan [ʾpwstn'] pregnant ... — < OP *ā-puça-tanu-, SW form of' — Nyberg's OP reconstruction, not an Avestan word."},
+            {"src": "KNT", "where": "KNT_full.txt (grep taxma)", "stance": "silent", "note": "KNT_full.txt line 1821 'taxma- ‘brave’, with x retained before m'; OP taxma- occurs in the names Taxmaspāda- and Čiçantaxma- (lines 5072, 6354); no tanu compound."}
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "Persian",
+          "words": "tanîdan; tan; âbestan; Tahamtan; Pašŭtan",
+          "verdict": "plausible",
+          "derivation": "tan تن 'body' < MP tan < Av./OIr. tanū- — confirmed (Horn no. 393). tanīdan تنیدن 'to spin, weave' < MP tadan, pres. tan- 'to spin (thread)' < PIr. *tan- 'to stretch' (Cheung) < PIE *ten-: right root, but it is a verb from the root, not a derivative of Avestan tanū- 'body' as the arrow implies. âbestan آبستن 'pregnant' < MP ābus/ābustan [ʾpwstn']; Nyberg derives it from OP *ā-puça-tanu- 'with a son in the body' and Hübschmann notes it was felt as a compound with tan, but Wiktionary gives *āpuθra- 'pregnant' (< *puθra- 'son') without tanu, so the tan element is disputed. Tahamtan تهمتن, Rostam's epithet, = tahm/taham 'strong' (MP tahm < Av. taxma-) + tan 'body' — confirmed by Hübschmann. Pašūtan پشوتن (Pahlavi Pišyōtan), son of Goštāsp, is generally analysed as Av. pəšō.tanu- 'whose body is forfeit' (here as an epithet of the immortal); the Qāʾānī verse quoted on the page names Zāl, Tahamtan, Esfandiyār and Pašūtan.",
+          "derivation_fa": "«تن» از فارسی میانهٔ tan و اوستایی tanū- است و درست است. «تنیدن» از فارسی میانهٔ tadan/tan- «رشتن» و ایرانی باستان *tan- «کشیدن» (چونگ) است؛ ریشه یکی است ولی این فعل مستقیماً از ریشه آمده نه از «تن». «آبستن» از فارسی میانهٔ ābus/ābustan است؛ نیبرگ آن را از پارسی باستان *ā-puça-tanu- «پسر در تن» و هوبشمان آن را ترکیبی با «تن» دانسته‌اند، ولی ویکی‌واژه آن را از *āpuθra- «باردار» (از *puθra- «پسر») و بی‌جزء «تن» می‌داند. «تهمتن» لقب رستم از «تهم» (اوستایی taxma- «دلیر، نیرومند») + «تن» است و درست است. «پشوتن» (پهلوی Pišyōtan) پسر گشتاسپ را معمولاً با اوستایی pəšō.tanu- یکی می‌دانند. در مجموع با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/تنیدن", "https://en.wiktionary.org/wiki/آبستن"],
+          "ref_check": [
+            {"ref": "HRN:88", "status": "supports", "note": "Horn p.88 no. 393 (HRN.txt leaf ~109): 'ten „Körper, Leib“ ... aw. tanū- „Körper, Leib“; phlv. tan; ai. tanū-'; p.89 no. 399 'tenīden „drehen, spinnen“ ... aw. √tan-; ai. √tan-, tanoti „dehnen, spannen“' (Horn keeps the verb under the root, not under tanū-)."},
+            {"ref": "BQT:524", "status": "supports", "note": "BQT_v1_pages.txt leaf 752: 'تنیدن بر وزن رمیدن، معروف' with Mo'in's footnote '٩ - از اوستا [tan] ؛ پهلوی ...' (Latin letters lost in OCR)."},
+            {"ref": "VSF:16", "status": "not_checked", "note": "VSF not identified / no copy available (refs_online.json: 'Not found')."}
+          ],
+          "consulted": [
+            {"src": "HUB", "where": "HUB.txt lines 6668-6672 and 8993", "stance": "supports", "note": "'-tan als 2. Glied von Komp. ... die noch als Komp. mit tan (vgl. xᵛēštan „selbst“, ābistan „schwanger“) gefühlt wurden'; 'tahm — taham „stark“ (auch in Tahamtan „von starkem Körper“, Rustem's Beiname) zd. taxma-'."},
+            {"src": "CHEUNG", "where": "s.v. *tan 'to extend, stretch' (CHEUNG.txt line 24582)", "stance": "partial", "note": "'MIDDLE PERSIAN: BMP tn- /tan-/, (pret. stem) tt- /tad-/ ‘to spin (thread)’ ... NP tanidan/tan- ‘to turn, spin’ ... PIE *ten- ‘to draw, stretch’' — the verb is from the root, not from tanū-."},
+            {"src": "PHD", "where": "PHD_mackenzie.txt lines 833, 4876, 4900", "stance": "supports", "note": "'ābus, -tan [ʾpws, -tn' | M ʾbwws, v. ābestan] pregnant'; 'tadan, tan- [ttn', tn- | N tan-] spin (thread)'; 'tan [tn' | = M, N ~] body, person'."},
+            {"src": "NYB", "where": "Glossary s.v. tan (line 3711), āpustan (611)", "stance": "supports", "note": "'tan [tn'] body ... — Av. tanū-'; 'āpustan ... < OP *ā-puça-tanu-'."},
+            {"src": "ARY", "where": "pdf page 200 (printed 201), Latin index", "stance": "supports", "note": "تن entry: 'TANŪ (AVESTAN) ... TAN (PAHLAVI) ... TANU (SANSKRIT) ... TEINŌ (GREEK)', refs Pokorny, MacKenzie 'tan (body) 104', Buck 198-199."}
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "Sanskrit",
+          "words": "tanuka",
+          "verdict": "confirmed",
+          "derivation": "Sanskrit tanuka- 'thin, small' is the -ka- extension of tanú- 'thin' < PIE *tn̥h₂-ú- / *tn̥h₂-u-kos (Wiktionary *tn̥h₂ukos ~ ténh₂ukos, the same formation as Old Church Slavonic tĭnŭkŭ). Pokorny 1069 cites 'tanuka- ds. = Slavic tĭnŭkŭ'.",
+          "derivation_fa": "سنسکریت tanuka- «نازک، کوچک» گونهٔ پسونددار tanú- «نازک» است و به هندواروپایی *tn̥h₂u-kos بازمی‌گردد، همان ساختی که در اسلاوی کهن tĭnŭkŭ هست. پوکورنی (ص۱۰۶۹) آن را آورده است؛ ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ténh₂us"],
+          "ref_check": [
+            {"ref": "POK:1069", "status": "supports", "note": "POK_full.txt tenu-s: 'Old Indie tanu-, fem. tanvī \"thin, tender, fragile, flimsy, insignificant\" (tanuka- ds. = Slavic tĭnŭkŭ)'; Page(s): 1069."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "KLN_1966.txt line 39038 s.v. thin", "stance": "supports", "note": "'whence also OI. tanuh (fem. tanvi), tanukah, ‘thin, tender’, lit. ‘stretched out’'."},
+            {"src": "SYN", "where": "12.65 THIN", "stance": "supports", "note": "'Skt. tanu-'."}
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "Persian",
+          "words": "tonok; tonekeh",
+          "verdict": "plausible",
+          "derivation": "tonok تُنُک 'thin, sparse' < MP tanuk [tnwk'] 'thin, shallow' < PIr. *tanuka- (Wiktionary *tanúkakah) < PIE *tn̥h₂u-kos; it is inherited, a cognate of Sanskrit tanuka-, not derived from it as the arrow suggests (the vowel u of the first syllable is a later NP assimilation tanuk > tunuk). tonekeh تنکه 'wrestler's shorts, short drawers' is tonok + -e (Wiktionary), i.e. a garment of thin cloth; the chart's NOTE pointing to root 'Kitu' (Semitic kittān 'linen' / Greek chitōn) is not supported by any source consulted. (A homonymous تنکه 'coin' in Mo'in is Turkic tanga/tenge, unrelated.)",
+          "derivation_fa": "«تُنُک» از فارسی میانهٔ tanuk «نازک، کم‌عمق» و ایرانی باستان *tanuka- است؛ یعنی واژه‌ای موروثی و هم‌ریشهٔ سنسکریت tanuka- است، نه برگرفته از سنسکریت (فلش نورایی را باید به معنای هم‌ریشگی گرفت). «تُنُکه» (شلوارک کشتی‌گیران، زیرپوش) از «تنک» + «ـه» است، یعنی جامه‌ای از پارچهٔ نازک؛ پیوند احتمالی آن با ریشهٔ «Kitu» (کتان/خیتون) که در یادداشت کتاب آمده در منابع امروزی تأیید نمی‌شود. در مجموع پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/تنک", "https://en.wiktionary.org/wiki/تنکه"],
+          "ref_check": [
+            {"ref": "HRN:89", "status": "supports", "note": "Horn p.89 no. 397: 'tenuk „dünn, zart, fein“. ai. tanu-, tánuka- „dünn, fein“; kurd. tenik; oss. ...; bal. tanak'."},
+            {"ref": "BQT:519", "status": "supports", "note": "BQT_v1_pages.txt leaf 747, Mo'in's footnote: 'بضم اول و دوم، هندی باستان [tanu], [tanuka] (نازک، لطیف)، کردی ... بلوچی ... «اسشق ۳۹۷»؛ طبری ... (روان، ضد غلیظ)'."},
+            {"ref": "MON:1154", "status": "partial", "note": "Only the 2-vol abridgement is on disk (MON_part1.txt line 44296): 'تنکه: ... تنبان چرمی که تا سر زانو باشد و کشتی‌گیران وقت کشتی گرفتن پوشند. شلوار کوتاه زنانه. زیرشلواری کوتاه مردانه' — meaning confirmed; page 1154 of the 6-vol edition cannot be mapped."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 4920", "stance": "supports", "note": "'tanuk [tnwk' | N ~] thin, shallow.'"},
+            {"src": "NYB", "where": "Glossary line 3725", "stance": "supports", "note": "'tanūk [tnwk'] scarce, rare — NP tanuk ‘slender, thin’; Skr tanu-, Lat tenuis.'"},
+            {"src": "HUB", "where": "HUB.txt (grep tunuk)", "stance": "silent", "note": "No remark on Horn no. 397."}
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "Greek",
+          "words": "tonos",
+          "verdict": "confirmed",
+          "derivation": "Greek tónos 'cord, rope; tension; pitch, tone' is the o-grade action noun *ton-o- of teínō 'stretch' (< *ten-yō): 'that which is stretched', hence a stretched string and the pitch it produces. 'string' is the base meaning given by Watkins.",
+          "derivation_fa": "یونانی tónos «ریسمان، کشش، زیر و بمی صدا» اسمِ با درجهٔ o از فعل teínō «کشیدن» است: «آنچه کشیده شده»، یعنی زه، و سپس صدای آن. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ténh₂us"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. ten- III.2: 'Suffixed o-grade form *ton-o- in Greek tonos, string, hence sound, pitch: TONE'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "1. ten- pp.1065-1066", "stance": "supports", "note": "'Old Indie tāna- m. \"clay, filament\" (compare gr. τόνος)'."},
+            {"src": "WLD", "where": "Bd. I p.722 ff. (line 68224)", "stance": "supports", "note": "'„Ton“ (wie gr. τόνος ...)' under ten- „dehnen“."}
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "French",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Pass-through box: Greek tónos > Latin tonus 'sound, tone' > Old French ton (12th c.), the source of both Persian ton and Middle English tone.",
+          "derivation_fa": "خانهٔ گذرگاه: یونانی tónos به لاتین tonus و از آنجا به فرانسوی ton رسید که هم منشأ «تُن» فارسی است و هم tone انگلیسی. درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins lists TONE under Greek tonos (ten- III.2); the French step is the standard route of the English word."}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "SKT.txt (grep '^Tone')", "stance": "silent", "note": "Entry not found by grep in the OCR."},
+            {"src": "KLN", "where": "KLN_1966.txt (grep '^tone,')", "stance": "silent", "note": "Entry not located by grep (OCR line start differs)."}
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "Persian",
+          "words": "ton",
+          "verdict": "confirmed",
+          "derivation": "Persian ton تُن 'pitch of a sound, tone' is a modern loan of French ton (< Latin tonus < Greek tónos); Mo'in records it with the French tag.",
+          "derivation_fa": "«تُن» به معنای «درجهٔ زیر و بمی صدا» وام‌واژهٔ نو از فرانسوی ton است که از لاتین tonus و یونانی tónos آمده؛ معین آن را با همین معنا آورده است. درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "MON:1145", "status": "partial", "note": "2-vol abridgement MON_part1.txt line 43772: 'تن: [ton] (اِ.) درجهٔ بلندی و پستی صدا و آواز؛ مایه' — meaning confirmed; 6-vol page 1145 cannot be mapped."}
+          ],
+          "consulted": [
+            {"src": "MON", "where": "MON_part1.txt line 43772", "stance": "supports", "note": "'درجهٔ بلندی و پستی صدا و آواز؛ مایه.'"},
+            {"src": "AHD", "where": "Watkins s.v. ten- III.2", "stance": "supports", "note": "'Greek tonos, string, hence sound, pitch: TONE'."}
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "English",
+          "words": "tone",
+          "verdict": "confirmed",
+          "derivation": "English tone (ME ton, tone, 14th c.) < Old French ton / Latin tonus < Greek tónos 'stretching, pitch' (from teínō 'stretch').",
+          "derivation_fa": "انگلیسی tone (انگلیسی میانه ton) از فرانسوی کهن ton و لاتین tonus از یونانی tónos «کشش، زیر و بمی» است. درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. ten- III.2: '... Greek tonos, string, hence sound, pitch: TONE'."}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. I p.722 ff.", "stance": "supports", "note": "τόνος under ten- „dehnen“."},
+            {"src": "POK", "where": "1. ten- 1065-1066", "stance": "supports", "note": "Greek τόνος cited under ten-."}
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "Germanic",
+          "words": "thunw",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *þunnuz (Watkins *thunw-, whence *thunniz) < zero-grade *tn̥h₂-ú-: syllabic *n̥ > Germanic un, *t > þ (Grimm's law), *-nw- > -nn-. Continued in OHG dunni, ON þunnr, OE þynne.",
+          "derivation_fa": "ژرمنی آغازین *þunnuz (به نگارش واتکینز *thunw-) از درجهٔ صفرِ *tn̥h₂ú- است: n هجایی به un، t به þ (قانون گریم) و -nw- به -nn- بدل شده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ténh₂us"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. ten- II.1: 'Suffixed zero-grade form *tn-u- in Germanic *thunw-, whence *thunniz in Old English thynne, thin: THIN'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "tenu-s 1069", "stance": "supports", "note": "'Old High German dunni, Old Saxon thunni, Old Icelandic þunnr \"thin\" (nn from nu)'."},
+            {"src": "KLN", "where": "KLN_1966.txt line 39038 s.v. thin", "stance": "supports", "note": "'OE. þynne, rel. to OS. thunni, ON. þunnr ... orig. ‘stretched out’ ... fr. I.-E. base *ten-'."}
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "English",
+          "words": "thin",
+          "verdict": "confirmed",
+          "derivation": "English thin < ME thinne < OE þynne < PGmc *þunnuz (i-umlaut of u > y > i in the ja-/i-stem *þunniz) < PIE *tn̥h₂ú- 'stretched, thin'.",
+          "derivation_fa": "انگلیسی thin از انگلیسی کهن þynne و ژرمنی *þunnuz است که از *tn̥h₂ú- «کشیده، نازک» آمده است. درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. ten-: '*thunniz in Old English thynne, thin: THIN'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "line 39038", "stance": "supports", "note": "'thin ... ME. thinne, fr. OE. þynne ... fr. I.-E. base *ten-, ‘to stretch, extend’'."},
+            {"src": "SKT", "where": "SKT.txt line 19584 s.v. Thin", "stance": "supports", "note": "'Thin. (E.) M.E. thinne, A.S. þynne ... Skt. tanu ... lit. stretched out (√TAN)'."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 1,
+      "root": "Ten 2, Stena",
+      "verdict": "confirmed",
+      "modern_form": "PIE *(s)tenh₂- 'to thunder' (Pokorny 1. (s)ten- 1021; Watkins (s)tenə-; LIV² 597)",
+      "note": "Pokorny 1021 heads '(s)ten-1' with the meaning 'to groan, etc.' but the material is largely 'thunder' (Skt. stanayati 'donnert', tanyatu- 'thunder', 'np. tundar', Latin tonō, OE þunor); Watkins gives '(s)tenə-. To thunder'; modern *(s)tenh₂-. Nourai's root, label and gloss are correct. Note that Pokorny does not cite a Parthian form; the Parthian tndwr (Manichaean /tandur/) is real (Wiktionary lists it as a cognate of tondar). Persian tondar is inherited from PIr. *tánHtā, a cognate of the Parthian word, not a derivative of it. No extraction errors.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *(s)tenh₂- «غریدن (تندر)» است؛ پوکورنی (ص۱۰۲۱) آن را با سنسکریت stanayati «می‌غرد»، tanyatu «تندر»، فارسی «تندر»، لاتین tonāre و انگلیسی کهن þunor آورده و واتکینز نیز «(s)tenə- غریدن» نوشته است. پس ریشه و معنای نورایی درست است. واژهٔ پارتی tndwr (تَندور) واقعی است، ولی «تندر» فارسی از ایرانی باستان *tánHtā به ارث رسیده و هم‌ریشهٔ واژهٔ پارتی است نه برگرفته از آن. خطای استخراج دیده نشد.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)tenh₂-",
+        "https://en.wiktionary.org/wiki/تندر"
+      ],
+      "ref_check": [
+        {"ref": "POK:1021", "status": "supports", "note": "POK_full.txt line 81943 'Root / lemma: (s)ten-1' 'Meaning: to groan, etc.' ... 'stanayati \"donnert, dröhnt ...\", tanayitnú- \"dröhnend, donnernd\" ... tanyatú- \"thunder\"; afghan. tana \"thunder\"; np. tundar ds.' ... 'Latin tono, -are \"thunder\"' ... 'Old English þunor'; Page(s): 1021."}
+      ],
+      "consulted": [
+        {"src": "AHD", "where": "Watkins s.v. (s)tenə-", "stance": "supports", "note": "'(s)tenə-. To thunder. 1. Zero-grade form *stnə- in Germanic *thunaraz in: a. Old English thunor ... THUNDER ... 2. O-grade form *tonə- in Latin tonāre, to thunder: TORNADO; ASTONISH, DETONATE, STUN. [Pok. 1. (s)ten- 1021.]'"},
+        {"src": "WLD", "where": "Bd. II p.626 (WLD_Bd2_pages.txt leaf 631)", "stance": "supports", "note": "'1. sten-, ten- von lauten Geräuschen; „donnern, rauschen, brausen, dröhnen“ ... afghan. tana „Donner“, np. tundar ds.'"},
+        {"src": "SYN", "where": "1.56 THUNDER (line 1746)", "stance": "supports", "note": "'Lat. tonitrus ... OE þunor ... Skt. stanita-'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Parthian",
+          "words": "tndwr",
+          "verdict": "confirmed",
+          "derivation": "Manichaean Parthian tndwr /tandur/ 'thunder' is attested (Wiktionary lists it, with Sogdian tundar, as a cognate of Persian tondar); it continues PIr. *tánHtā / *tanHtar- 'thunderer', an agent noun of *(s)tenh₂- (cf. Sanskrit tanyatú-, Latin tonitrus from *(s)ténh₂-tr̥).",
+          "derivation_fa": "پارتی مانوی tndwr (خوانش tandur) «تندر» گواهی شده است و ویکی‌واژه آن را همراه سغدی tundar هم‌ریشهٔ «تندر» فارسی می‌آورد. هر دو از ایرانی باستان *tánHtā «غرّنده» از ریشهٔ *(s)tenh₂- «غریدن» آمده‌اند. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/تندر"],
+          "ref_check": [
+            {"ref": "POK:1021", "status": "partial", "note": "Pokorny 1021 has the root and 'np. tundar' but no Parthian form."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt (grep thunder)", "stance": "silent", "note": "MacKenzie's Pahlavi gives only γarrānag 'thunder'; Parthian is outside its scope."},
+            {"src": "NYB", "where": "Glossary (grep thunder/tndwr)", "stance": "silent", "note": "No entry."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "tondar",
+          "verdict": "plausible",
+          "derivation": "Persian tondar/tondor تندر 'thunder' (also تندور in Borhan) < PIr. *tánHtā (Wiktionary: inherited, from PIE *ténh₂-tōr or *tónh₂-tōr), with the vowel later rounded (tandar > tundar, cf. Afghan tandar). The word and root are certain, but it is inherited in Persian alongside the Parthian form, not taken from Parthian as the arrow suggests (unless one assumes a Parthian loan, which no source claims).",
+          "derivation_fa": "«تُندر» (در برهان «تندور» نیز) از ایرانی باستان *tánHtā «غرّنده» است و با پارتی tandur، سغدی tundar، سنسکریت tanyatú- و لاتین tonitrus هم‌ریشه است. خود واژه و ریشه قطعی است، ولی در فارسی واژه‌ای موروثی است و منبعی آن را وام از پارتی ندانسته است؛ پس فلش پارتی ← فارسی را باید هم‌ریشگی خواند و ادعا با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/تندر"],
+          "ref_check": [
+            {"ref": "BQT:517", "status": "supports", "note": "BQT_v1_pages.txt leaf 746 (≈ p.517): 'تندور بضم اول و ثالث بروزن پرزور، بمعنی رعد باشد، و بفتح ثالث هم باین معنی آمده است'; leaf 745 footnote '۴ - قس: ریشهٔ هندی باستان [stan], [tan] (صدا پیچیدن، صدا دادن)'."},
+            {"ref": "KLN:1613", "status": "supports", "note": "Klein 1966 line 39175 s.v. thunder: 'from the I.-E. imitative base *ten-, whence also OI. tanayitnuh, ‘thundering’, tanyati, ‘it thunders’, Pers. tundar, ‘thunder’ ... L. tonare'."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "p.89 no. 396", "stance": "supports", "note": "'tunder, tundur „Donner“. Vergl. ai. √tan-, tányati „erschallen, laut tönen, rauschen“, tanayitnú- „donnernd“, tanyatú- „Donner“; lat. tonare, tonitrus; ags. þunor'."},
+            {"src": "HUB", "where": "no. 396 (HUB.txt line 1653)", "stance": "supports", "note": "'Zu tundar „Donner“ ... gehört afgh. LW. tandar „Donner“, echt afgh. tana „Donner“ (Geiger).'"},
+            {"src": "ARY", "where": "pdf page 200 (Latin index)", "stance": "supports", "note": "'STANATI, STANITI, TANYATI, TANAYITU (SANSKRIT) ... TANDAR, TANA, TALANDA (AFGHAN)' under تندر."},
+            {"src": "PHD", "where": "English index 'thunder'", "stance": "silent", "note": "Only 'thunder (n.) γarrānag'."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Germanic",
+          "words": "thunaraz",
+          "verdict": "confirmed",
+          "derivation": "Proto-Germanic *þunraz / *þun(a)raz 'thunder, thunder-god' < zero-grade *(s)tn̥h₂-r-ós (Wiktionary after Matasović), *t > þ by Grimm's law; Watkins writes *thunaraz. Continued in OE þunor, OHG donar, ON Þórr (older Þunarr).",
+          "derivation_fa": "ژرمنی آغازین *þunraz / *þunaraz «تندر، خدای تندر» از درجهٔ صفرِ *(s)tn̥h₂-r-ós است و t طبق قانون گریم به þ بدل شده است؛ از آن انگلیسی کهن þunor، آلمانی کهن donar و نام خدای نورس Þórr آمده‌اند. درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)tenh₂-"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. (s)tenə- 1: 'Zero-grade form *stnə- in Germanic *thunaraz in: a. Old English thunor ... c. Old Norse Thorr (older form Thunarr)'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "(s)ten-1 p.1021", "stance": "supports", "note": "'Old High German donar ... Old English þunor, Old Icelandic Þórr \"Thunder God\"'."},
+            {"src": "KLN", "where": "line 39175 s.v. thunder", "stance": "supports", "note": "'OE. þunor, rel. to ON. Þórr, OFris. thuner ... OHG. donar'."}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "English",
+          "words": "thunder",
+          "verdict": "confirmed",
+          "derivation": "English thunder < ME thuner, later thunder (with excrescent d between n and r, 13th c.) < OE þunor < PGmc *þunraz.",
+          "derivation_fa": "انگلیسی thunder از انگلیسی میانه thuner (با d افزوده میان n و r) و انگلیسی کهن þunor از ژرمنی *þunraz است. درست است.",
+          "sources": [],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins: 'Old English thunor (genitive thunres), thunder, Thor: THUNDER; THURSDAY'."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "line 39175", "stance": "supports", "note": "'thunder, n. — ME. thuner, later thunder, fr. OE. þunor'."},
+            {"src": "SKT", "where": "SKT.txt line 19662 s.v. Thunder", "stance": "supports", "note": "'Thunder, sb. (E.) For thuner; the d is excrescent. M.E. thoner. A.S. þunor ... L. tonare, to thunder, Skt. tan, to sound'."}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Latin",
+          "words": "tonâre",
+          "verdict": "confirmed",
+          "derivation": "Latin tonāre 'to thunder' < Proto-Italic *tonāō, from the o-grade iterative *(s)tonh₂-éye- (de Vaan; Wiktionary), cf. Sanskrit stanáyati; tonitrus 'thunder' belongs to the same root.",
+          "derivation_fa": "لاتین tonāre «غریدن، تندر زدن» از ایتالیک آغازین *tonāō و صورت تکراریِ با درجهٔ o *(s)tonh₂-éye- است و با سنسکریت stanáyati هم‌ریشه است. درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)tenh₂-"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. (s)tenə- 2: 'O-grade form *tonə- in Latin tonāre, to thunder'."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "p.1021", "stance": "supports", "note": "'Latin tono, -are \"thunder; also from other lauten Schalleindrücken\", tonitru, tonitrus \"thunder\"'."},
+            {"src": "WLD", "where": "Bd. II p.626", "stance": "supports", "note": "sten-, ten- „donnern“ with Latin tonāre."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "English",
+          "words": "tornado, detonate, astonish",
+          "verdict": "confirmed",
+          "derivation": "detonate < Latin dētonāre 'to thunder down/out' (18th c.); astonish < ME astonien / OF estoner < Vulgar Latin *extonāre 'to strike with thunder, stun' (with -ish from verbs like abolish); tornado (1550s ternado, a nautical word for a thunderstorm) < Spanish tronada 'thunderstorm' < tronar 'to thunder' < Latin tonāre, with metathesis tron- > torn- under the influence of Spanish tornar 'to turn'. Watkins and Wiktionary derive tornado this way; Skeat instead put it under turn (tornar), but the thunderstorm sense of the earliest English uses favours tronada.",
+          "derivation_fa": "detonate از لاتین dētonāre «غرّیدن»، astonish از فرانسوی کهن estoner و لاتین عامیانهٔ *extonāre «با تندر گیج کردن»، و tornado (نخست ternado، اصطلاح دریانوردی برای طوفان تندری) از اسپانیایی tronada «طوفان تندری» از tronar (لاتین tonāre) است که زیر تأثیر tornar «چرخیدن» جابه‌جایی (قلب) حروف یافته است. اسکیت آن را از tornar می‌دانست، ولی واتکینز و ویکی‌واژه همان دیدگاه نورایی را دارند. درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/tornado"],
+          "ref_check": [
+            {"ref": "AHD", "status": "supports", "note": "Watkins s.v. (s)tenə- 2: 'Latin tonāre, to thunder: TORNADO; ASTONISH, DETONATE, STUN'."}
+          ],
+          "consulted": [
+            {"src": "SKT", "where": "SKT.txt line 19916 'Tornado; see Turn'", "stance": "partial", "note": "Skeat derives tornado from Spanish tornar 'turn' (under Turn), not from tronada."},
+            {"src": "KLN", "where": "KLN_1966.txt (grep '^tornado', '^astonish')", "stance": "silent", "note": "Entries not located by grep in the OCR."}
+          ]
+        }
+      ]
+    }
+  ]
+}
