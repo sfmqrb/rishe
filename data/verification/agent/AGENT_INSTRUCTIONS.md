@@ -2,9 +2,9 @@
 
 You are verifying the etymological derivations from Ali Nourai's *An Etymological
 Dictionary of Persian, English and other Indo-European Languages* (1999), which this
-repository (`/home/sfmqrb/git/rishe`) turned into JSON (`data/extracted/batch/page-<pdf>.json`).
+repository (`/home/sfmqrb/git/rishe-private`) turned into JSON (`data/extracted/batch/page-<pdf>.json`).
 Compact text renderings of the charts are in
-`/home/sfmqrb/git/rishe/data/verification/agent/charts/page-<pdf>.txt`.
+`/home/sfmqrb/git/rishe-private/data/verification/agent/charts/page-<pdf>.txt`.
 
 Each chart is a tree: a ROOT box, then nodes `#id (parent #p) [Language] refs=… | word «script» : gloss`.
 An arrow parent→child in the book means "child derives from parent". `parent #0` = derives from the root.
@@ -49,10 +49,10 @@ Every node carries `refs=` — Nourai's citations, e.g. `KLN:164; FVQ:75` (abbre
 You must check them:
 
 - The bibliography key (abbreviation → book), where each reference can be read, page
-  offsets and lookup hints: `/home/sfmqrb/git/rishe/data/verification/sources/refs_online.json`
+  offsets and lookup hints: `/home/sfmqrb/git/rishe-private/data/verification/sources/refs_online.json`
   (keys = abbreviations; `kind`, `url`, `lookup_hint`, `local_file`, `page_offset`, `scans`, `cites`).
 - If `local_file` is set, the OCR text of that book is on disk under
-  `/home/sfmqrb/git/rishe/data/verification/sources/refs/`: grep it for the headword (try
+  `/home/sfmqrb/git/rishe-private/data/verification/sources/refs/`: grep it for the headword (try
   several spellings — OCR of diacritics is noisy; e.g. `grep -n -i 'barak' …`) and, if a page
   offset is given, locate the cited page (pages are separated by form-feeds; `_pages.txt`
   files also carry `[pdf page N]` tags; use `awk 'BEGIN{RS="\f"} NR==<n>' file` to print one
@@ -60,7 +60,7 @@ You must check them:
 - **Scanned references without full OCR text** (Borhan-e Qate' vols 3–5 = BQT pages
   ~1208–2475, Farahvashi's Iranvij = IRN, Aryanpur = ARY, any entry with a `scans` list): do
   NOT OCR whole books. Fetch only the cited page:
-  `python3 /home/sfmqrb/git/rishe/tools/ref_page.py BQT:918 --image`
+  `python3 /home/sfmqrb/git/rishe-private/tools/ref_page.py BQT:918 --image`
   It renders that one page to PNG, OCRs it (Persian OCR is rough), caches both under
   `data/verification/sources/refs/ocr/`, and prints the text plus the PNG path. If the OCR
   is unreadable, Read the PNG (you can read Persian print directly), and then SAVE what you
@@ -100,7 +100,7 @@ Also add to each entry a root-level `ref_check` for the root's own refs (e.g. `P
 Checking only the reference Nourai cites is not enough. For every node, also consult the
 other books in the local library that could speak to that claim, and record what each says.
 The list of which books cover which kind of node, with file paths, is
-`/home/sfmqrb/git/rishe/data/verification/sources/SOURCE_MATRIX.md`. Minimum per node:
+`/home/sfmqrb/git/rishe-private/data/verification/sources/SOURCE_MATRIX.md`. Minimum per node:
 
 - an Indo-European node or root box: Pokorny (POK) AND Walde-Pokorny (WLD) AND Watkins/AHD,
   plus Mann (IEC) or Buck (SYN) when the word is a common noun;
@@ -137,7 +137,7 @@ entries from different books whenever the matrix lists two or more books for its
 ## Transcription flags: say WHERE the error is (required)
 
 For every node you mark `transcription_suspect`, look at the printed page itself — render it
-with `pdftoppm -f <pdf page> -l <pdf page> -r 300 -png -singlefile /home/sfmqrb/git/rishe/EtymologicalDictionary-persian-english.pdf /tmp/pg<pdf page>`
+with `pdftoppm -f <pdf page> -l <pdf page> -r 300 -png -singlefile /home/sfmqrb/git/rishe-private/EtymologicalDictionary-persian-english.pdf /tmp/pg<pdf page>`
 (or open `site/pages/<pdf page>.jpg`) and Read the image — and add to the node:
 
 ```json
@@ -184,7 +184,7 @@ The owner wants to be able to audit every step later. Therefore:
 
 - **Every web page you rely on must be archived**: after you read a page (WebFetch or
   curl), run
-  `python3 /home/sfmqrb/git/rishe/tools/fetch_source.py '<URL>' --note '<page N, root X, what you used it for>'`
+  `python3 /home/sfmqrb/git/rishe-private/tools/fetch_source.py '<URL>' --note '<page N, root X, what you used it for>'`
   This stores the page as text under `data/verification/sources/web/` and indexes it. Only
   URLs that were archived this way may appear in a `sources` array. (Batch several calls in
   one Bash command to save time.)
@@ -221,7 +221,7 @@ which are where errors are likelier.
 
 ## Output — write ONE file per page
 
-Write `/home/sfmqrb/git/rishe/data/verification/page-<pdf>.json` (UTF-8, no BOM):
+Write `/home/sfmqrb/git/rishe-private/data/verification/page-<pdf>.json` (UTF-8, no BOM):
 
 Several agents run at the same time and share the scratchpad and `/tmp`, so every temporary
 file you create must carry your page number in its name (e.g. `e0-363.json`, `pg363.png`,
@@ -276,7 +276,7 @@ Rules:
 - Every node has `ref_check` (array, may contain a single `not_checked` item) AND `consulted`
   (array) AND `derivation_fa` (string); every entry has `note_fa`.
 - Valid JSON only. Test it with `python3 -m json.tool` before finishing, then run
-  `python3 /home/sfmqrb/git/rishe/tools/verify_check.py <pdf page>` — it must show 0 PROBLEM lines.
+  `python3 /home/sfmqrb/git/rishe-private/tools/verify_check.py <pdf page>` — it must show 0 PROBLEM lines.
 - When done, reply with a SHORT summary (≤ 15 lines): counts of verdicts per page, and a
   bullet per `disputed` / `transcription_suspect` item (root, word, one-line reason), plus
   any extraction errors (JSON differs from the printed page) the owner must fix.

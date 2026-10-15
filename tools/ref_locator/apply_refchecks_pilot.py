@@ -2,7 +2,7 @@
 """Add ref_check arrays (and archived web URLs to sources) to pages 101, 126, 311, 345."""
 import json, collections
 
-VER = "/home/sfmqrb/git/rishe/data/verification/page-%d.json"
+VER = "/home/sfmqrb/git/rishe-private/data/verification/page-%d.json"
 
 def rc(ref, status, note):
     return {"ref": ref, "status": status, "note": note}

@@ -56,17 +56,17 @@ verification files by design.
   `agent/charts/page-N.txt`.
 - Use this prompt verbatim, with N substituted:
 
-  > Read the instructions in /home/sfmqrb/git/rishe/data/verification/agent/AGENT_INSTRUCTIONS.md
+  > Read the instructions in /home/sfmqrb/git/rishe-private/data/verification/agent/AGENT_INSTRUCTIONS.md
   > and follow them exactly for PDF page N only. Chart text:
-  > /home/sfmqrb/git/rishe/data/verification/agent/charts/page-N.txt; source JSON:
-  > /home/sfmqrb/git/rishe/data/extracted/batch/page-N.json. Write
-  > /home/sfmqrb/git/rishe/data/verification/page-N.json, run
-  > `python3 /home/sfmqrb/git/rishe/tools/verify_check.py N` (fix any PROBLEM lines), and reply
+  > /home/sfmqrb/git/rishe-private/data/verification/agent/charts/page-N.txt; source JSON:
+  > /home/sfmqrb/git/rishe-private/data/extracted/batch/page-N.json. Write
+  > /home/sfmqrb/git/rishe-private/data/verification/page-N.json, run
+  > `python3 /home/sfmqrb/git/rishe-private/tools/verify_check.py N` (fix any PROBLEM lines), and reply
   > with the short summary described in the instructions.
 
 - Write a page-to-agent-id map to the scratchpad immediately (`N <agentId>` per line). The
   scratchpad can disappear between sessions. If it does, rebuild the map from the transcripts:
-  `grep -l "page-N.json" ~/.claude/projects/-home-sfmqrb-git-rishe/<session>/subagents/agent-*.jsonl`.
+  `grep -l "page-N.json" ~/.claude-work/projects/-home-sfmqrb-git-rishe-private/<session>/subagents/agent-*.jsonl`.
 - Agents share the scratchpad, so AGENT_INSTRUCTIONS requires page-suffixed temp filenames.
   Two agents once overwrote each other's `e0.json`.
 

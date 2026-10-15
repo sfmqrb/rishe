@@ -5,7 +5,7 @@ Paste everything below this line into a fresh Claude Code session (start it insi
 
 ---
 
-**Project.** Repo `/home/sfmqrb/git/rishe` (owner Sajad) renders Ali Nourai's *Etymological
+**Project.** Repo `/home/sfmqrb/git/rishe-private` (owner Sajad) renders Ali Nourai's *Etymological
 Dictionary of Persian, English and other Indo-European Languages* as a website. The book's charts
 were extracted to JSON in `data/extracted/batch/page-<pdf>.json` (541 files, 537 with chart
 content, 1,790 entries, ~7,895 nodes). The task is to re-verify every derivation arrow in every
@@ -48,12 +48,12 @@ agents", stop launching and just finish/publish the running ones.
 
 **Per-page verification.** One subagent per page, always with this prompt:
 
-> Read the instructions in /home/sfmqrb/git/rishe/data/verification/agent/AGENT_INSTRUCTIONS.md
+> Read the instructions in /home/sfmqrb/git/rishe-private/data/verification/agent/AGENT_INSTRUCTIONS.md
 > and follow them exactly for PDF page N only. Chart text:
-> /home/sfmqrb/git/rishe/data/verification/agent/charts/page-N.txt; source JSON:
-> /home/sfmqrb/git/rishe/data/extracted/batch/page-N.json. Write
-> /home/sfmqrb/git/rishe/data/verification/page-N.json, run
-> `python3 /home/sfmqrb/git/rishe/tools/verify_check.py N` (fix any PROBLEM lines), and reply
+> /home/sfmqrb/git/rishe-private/data/verification/agent/charts/page-N.txt; source JSON:
+> /home/sfmqrb/git/rishe-private/data/extracted/batch/page-N.json. Write
+> /home/sfmqrb/git/rishe-private/data/verification/page-N.json, run
+> `python3 /home/sfmqrb/git/rishe-private/tools/verify_check.py N` (fix any PROBLEM lines), and reply
 > with the short summary described in the instructions.
 
 `AGENT_INSTRUCTIONS.md` defines the methodology: verify the root and every node; give a concrete
@@ -67,8 +67,8 @@ must look at the printed page and set `error_in` (book or extraction), `book_pri
 `correct_form`, and copy the page image to `sources/refs/ocr/BOOK/<page>.png`.
 
 **Coordinator routine after each agent finishes.** Its transcript is at
-`~/.claude/projects/-home-sfmqrb-git-rishe/<current-session-id>/subagents/agent-<id>.jsonl`
-(find the directory with `ls -t ~/.claude/projects/-home-sfmqrb-git-rishe/*/subagents | head`).
+`~/.claude-work/projects/-home-sfmqrb-git-rishe-private/<current-session-id>/subagents/agent-<id>.jsonl`
+(find the directory with `ls -t ~/.claude-work/projects/-home-sfmqrb-git-rishe-private/*/subagents | head`).
 Keep a page-to-agent-id map in the scratchpad. Run `sh tools/verify_finish_page.sh N <transcript>`, then commit and deploy with
 `sh tools/verify_commit_deploy.sh <message-file>`. Those two scripts wrap these steps:
 
@@ -105,5 +105,5 @@ Klein page numbers refer to the 1971 one-volume edition; the 1966 set on disk is
 numbers for volume 4 run 2 lower than the scan; agents note the corrected PDF page in
 `ref_check`. Wiktionary sometimes cites Nourai himself, so it is not independent there.
 
-**Memory.** `~/.claude/projects/-home-sfmqrb-git-rishe/memory/` holds the pacing rules, model
+**Memory.** `~/.claude-work/projects/-home-sfmqrb-git-rishe-private/memory/` holds the pacing rules, model
 choice, and private-repo notes; keep them updated when the user changes the rules.
