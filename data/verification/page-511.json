@@ -1,0 +1,1030 @@
+{
+ "pdf_page": 511,
+ "book_page": 481,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-10-14",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Tôkei, Tôgei",
+   "verdict": "plausible",
+   "modern_form": "Tamil tōkai (தோகை) 'peacock's tail; peacock' - a proposed, not proven, eastern source of Greek ταώς",
+   "note": "Tamil tōkai 'tail of a peacock; peacock' is a real word (Wiktionary தோகை), and Klein (KLN:1143) and Skeat (SKT:378) both name 'Tamil tokei, tōgei' as the ultimate source of the peacock words, so Nourai's root box faithfully reports his references; Wiktionary today calls Greek ταώς 'of Pre-Greek origin; possibly ... perhaps from Dravidian (compare Tamil tōkai)', i.e. only a possibility. The internal chart, however, is wrong in its routing: (1) there is no Sanskrit intermediary (Sanskrit has mayūra-, śikhin-); (2) Arabic ṭāwūs comes from Aramaic ṭawsā, which comes from Greek ταώς, not from Sanskrit; (3) Greek ταώς (5th c. BCE) and Latin pāvō cannot derive from medieval Persian ṭāvūs - the arrows from the Persian box to Greek and Latin reproduce Skeat's 1911 chain and are reversed. Persian ṭāvūs < Arabic, OE pēa < Latin pāvō and English peacock are correct. The book's root note prints 'Tanil' for Tamil (misprint in the book, faithfully extracted). No extraction errors: JSON matches the printed page.",
+   "note_fa": "تامیلی tōkai «دم طاووس؛ طاووس» واژه‌ای واقعی است و کلاین (۱۱۴۳) و اسکیت (۳۷۸) هر دو «tokei/tōgei» تامیلی را سرچشمهٔ نهایی نام طاووس در زبان‌های اروپایی دانسته‌اند؛ ویکی‌واژهٔ امروز یونانی ταώς را پیش‌یونانی و تنها «شاید» از دراویدی می‌داند. پس ریشه با احتیاط پذیرفتنی است. اما مسیرهای درون نمودار نادرست است: گذر از سنسکریت گواهی ندارد؛ «طاووس» عربی از آرامی ṭawsā و آن از یونانی ταώς است؛ و یونانی ταώς و لاتین pāvō که بسیار کهن‌ترند نمی‌توانند از «طاووس» فارسی (که خود معرّب است) آمده باشند - پیکان‌ها وارونه‌اند و از اسکیت (۱۹۱۱) گرفته شده‌اند. «طاووس» فارسی از عربی، pēa انگلیسی کهن از لاتین و peacock انگلیسی درست است. «Tanil» در یادداشت کتاب خطای چاپی به جای Tamil است؛ خطای استخراج دیده نشد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/தோகை",
+    "https://en.wiktionary.org/wiki/ταώς",
+    "https://en.wiktionary.org/wiki/طاووس",
+    "https://en.wiktionary.org/wiki/pavo",
+    "https://en.wiktionary.org/wiki/peacock"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:1143",
+     "status": "partial",
+     "note": "Klein 1966 s.v. peacock (KLN_1966.txt line 27770): 'OE. pāwa, pēa ... fr. L. pāvo, gen. pāvonis, 'peacock' ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim, 'peacocks'). The initial p- in L. pavo is due to imitative influence'. Klein supports the Tamil root and the Latin/OE/English chain, but routes Latin and Greek directly from the eastern source, not through Persian/Arabic, and has no Sanskrit link."
+    },
+    {
+     "ref": "SKT:378",
+     "status": "supports",
+     "note": "Skeat, Concise Etym. Dict. s.v. Peacock (SKT_dli_revised.txt line 55507): '(L. - Pers. - Tamil; and E.) M.E. pecok ... AS. pea, pāwa; all from L. pāuo ... The same as Gk. ταώς, for ταϝώς, a peacock; the change from τ to p being due to the fact that the word was foreign both to L. and Gk. - Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei, a peacock'. This is exactly Nourai's chain (Tamil > Persian > Greek/Latin > OE > E.); it is Skeat's 1911 view, now abandoned."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "MON",
+     "where": "vol.2 s.v. طاوس (MON_part1.txt line 91933)",
+     "stance": "supports",
+     "note": "'[دراویدی هندی]' - Mo'in also gives a Dravidian/Indian origin."
+    },
+    {
+     "src": "BQT",
+     "where": "p.1346, Mo'in fn. s.v. طاوس (ocr/BQT/1346.vision.txt)",
+     "stance": "partial",
+     "note": "'(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ ... اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته' (after Pourdavoud)."
+    },
+    {
+     "src": "HJB",
+     "where": "grep tokei/togai/tukki",
+     "stance": "silent",
+     "note": "Hobson-Jobson OCR yields no Tamil peacock entry."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "",
+     "verdict": "disputed",
+     "derivation": "Empty pass-through box: Nourai (following Pourdavoud via Mo'in's Borhan footnote) routes the Tamil word through Sanskrit before it reaches Aramaic and Arabic. No Sanskrit form of the tōkai/ṭāwūs type is attested: the Sanskrit words for 'peacock' are mayūra-, śikhin-, barhin-, kalāpin-. Modern scholarship (Wiktionary s.v. ταώς, Klein s.v. peacock) derives the Mediterranean/Semitic words either from Pre-Greek ταώς or directly from a Dravidian (Tamil tōkai) or other eastern source by sea trade, with no Sanskrit intermediary.",
+     "derivation_fa": "این خانهٔ خالی «سنسکریت» را نورایی به پیروی از پورداوود (در حاشیهٔ معین بر برهان قاطع) میان تامیلی و آرامی/عربی گذاشته است. اما در سنسکریت واژه‌ای از گونهٔ tōkai یا ṭāwūs برای طاووس دیده نمی‌شود؛ نام‌های سنسکریت طاووس mayūra، śikhin و barhin است. پژوهش امروزی (کلاین، ویکی‌واژه) واژهٔ یونانی ταώς را پیش‌یونانی می‌داند یا آن را مستقیم به منبعی شرقی مانند تامیلی tōkai می‌رساند، و گذر از سنسکریت را تأیید نمی‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ταώς",
+      "https://en.wiktionary.org/wiki/தோகை"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1346",
+       "status": "partial",
+       "note": "Borhan-e Qate' p.1346 (BQT_v3_picofile.pdf page 139; the tool's default offset lands on pdf 141, use --pdf-page 139; transcription saved in ocr/BQT/1346.vision.txt), Mo'in's footnote s.v. طاوس: '(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ «تسیمرن. لغات دخیل اکدی ص۵۲» طبق تحقیق استاد پور داود اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته'. Source of Nourai's Dravidian > Sanskrit > Arabic/Aramaic chart (after Pourdavoud); Mo'in himself lists the Greek and Aramaic forms side by side without making Greek a daughter of Persian."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Peacock (SKT_dli_revised.txt line 55507)",
+       "stance": "contradicts",
+       "note": "Skeat's chain is 'Pers. tāwus ... - Tamil tōkei' with no Sanskrit stage."
+      },
+      {
+       "src": "MON",
+       "where": "vol.2 s.v. طاوس (MON_part1.txt line 91933)",
+       "stance": "partial",
+       "note": "Only the tag '[دراویدی هندی]' - Dravidian/Indian, no Sanskrit form given."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Arabic",
+     "words": "tawoos",
+     "verdict": "disputed",
+     "derivation": "Arabic ṭāwūs (طاووس, also طاؤوس) 'peacock' is real, but it is not taken from Sanskrit: it is borrowed from Aramaic ṭawsā (טַוסָא), itself borrowed from Greek ταώς (Wiktionary s.v. طاووس: 'Borrowed from Aramaic ṭawsā, borrowed from Ancient Greek ταώς, borrowed from Pre-Greek'). The emphatic ṭ- reflects the Aramaic spelling of Greek t-, and the long ū the Greek long ō. Arab lexicographers (Ibn Durayd in al-Jawālīqī's al-Mu'arrab) already call it a foreign word (أعجمي).",
+     "derivation_fa": "«طاووس» عربی (طاؤوس) به معنای طاووس واژه‌ای واقعی است، اما از سنسکریت گرفته نشده است؛ ویکی‌واژه آن را وام‌واژه از آرامی ṭawsā و آن را از یونانی ταώς می‌داند. ط عربی برابر t یونانی در نوشتار آرامی است و ū بلند برابر ō بلند یونانی. ابن درید (در المعرّب جوالیقی) نیز آن را «أعجمی» شمرده است. پس اصل واژه درست است ولی مسیر «سنسکریت ← عربی» را پژوهش امروزی نمی‌پذیرد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/طاووس",
+      "https://en.wiktionary.org/wiki/ταώς"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1346",
+       "status": "partial",
+       "note": "Borhan-e Qate' p.1346 (BQT_v3_picofile.pdf page 139; the tool's default offset lands on pdf 141, use --pdf-page 139; transcription saved in ocr/BQT/1346.vision.txt), Mo'in's footnote s.v. طاوس: '(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ «تسیمرن. لغات دخیل اکدی ص۵۲» طبق تحقیق استاد پور داود اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته'. Source of Nourai's Dravidian > Sanskrit > Arabic/Aramaic chart (after Pourdavoud); Mo'in himself lists the Greek and Aramaic forms side by side without making Greek a daughter of Persian."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "ARB",
+       "where": "al-Mu'arrab (ARB_mo3rb.txt lines 16707-16712)",
+       "stance": "partial",
+       "note": "'(م) «طاؤوس» بالهمزة وأصلها الواو ... وقال [ابن دريد]: وطاؤوس أعجمي ... وقد تكلمت به العرب' - the Arab philologists already treated ṭāwūs as a foreign word, without naming the source."
+      },
+      {
+       "src": "BQT",
+       "where": "p.1346, Mo'in fn. s.v. طاوس (ocr/BQT/1346.vision.txt)",
+       "stance": "partial",
+       "note": "'(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ ... اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته' (after Pourdavoud)."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Aramaic",
+     "words": "tausâ",
+     "verdict": "disputed",
+     "derivation": "Aramaic ṭawsā / ṭāwsā (טַוסָא) 'peacock' is attested and Mo'in quotes it as tausâ (after Zimmern, Akkadische Fremdwörter p.52). Wiktionary derives it from Greek ταώς (5th c. BCE Attic), the definite ending -ā being the Aramaic emphatic state; it was the channel through which the word reached Arabic. Nourai's derivation of the Aramaic word from (an unattested) Sanskrit form is not supported; the Hebrew tukkiyyim (1 Kings 10:22), which Klein ties to Tamil tōkai, is a different word.",
+     "derivation_fa": "آرامی ṭawsā (طاوسا، tausâ) «طاووس» در منابع هست و معین آن را از تسیمرن (واژه‌های دخیل اکدی، ص۵۲) نقل کرده است. ویکی‌واژه آن را از یونانی ταώς (یونانی آتیکی سدهٔ پنجم پیش از میلاد) می‌داند؛ ā پایانی نشانهٔ حالت معرفهٔ آرامی است، و همین واژه راه رسیدن طاووس به عربی بوده است. اشتقاق آن از سنسکریت پذیرفته نیست؛ واژهٔ عبری tukkiyyim (کتاب پادشاهان) که کلاین آن را با تامیلی tōkai می‌سنجد واژهٔ دیگری است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/طاووس",
+      "https://en.wiktionary.org/wiki/ταώς"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:2203",
+       "status": "not_found",
+       "note": "Mo'in's Farhang s.v. طاوس (MON_part1.txt line 91933) gives only '[دراویدی هندی]'; the Aramaic form tausâ is in his Borhan footnote p.1346 ('آرامی طاوسا tausâ «تسیمرن. لغات دخیل اکدی ص۵۲»'), not in the Farhang entry."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "p.1346, Mo'in fn. s.v. طاوس (ocr/BQT/1346.vision.txt)",
+       "stance": "partial",
+       "note": "'(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ ... اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته' (after Pourdavoud)."
+      },
+      {
+       "src": "ARB",
+       "where": "al-Mu'arrab (ARB_mo3rb.txt lines 16707-16712)",
+       "stance": "partial",
+       "note": "'(م) «طاؤوس» بالهمزة وأصلها الواو ... وقال [ابن دريد]: وطاؤوس أعجمي ... وقد تكلمت به العرب' - the Arab philologists already treated ṭāwūs as a foreign word, without naming the source."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "silent",
+       "note": "No Aramaic form; mentions only 'Heb. tukkiyyim' from Tamil."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Persian",
+     "words": "tâvŭs; tâvosî",
+     "verdict": "confirmed",
+     "derivation": "Persian ṭāvūs / ṭāvus (طاووس، طاوس) 'peacock' is the Arabic ṭāwūs taken over with its Arabic spelling (ط), which is why Mo'in tags it [معر.] 'Arabicized' (abadis/Mo'in s.v. طاووس) and Wiktionary 'borrowed from Arabic'; the Arabic → Persian arrow is therefore right. ṭāvūsī (طاوسی) is the Persian relational adjective in -ī 'peacock-like, peacock-coloured', and as a noun the name of a plant: Mo'in s.v. طاوسی '(گیا.) گیاهی است از تیرهٔ پروانه‌واران ... گل‌هایش بزرگ و به رنگ زرد طلایی' (a broom-like shrub of the pea family). The Hafez couplet quoted in the box uses طاووس.",
+     "derivation_fa": "«طاووس/طاوس» فارسی همان ṭāwūs عربی است که با املای عربی (ط) به فارسی آمده؛ از این رو معین آن را [معر.] نشان داده و ویکی‌واژه آن را وام‌واژه از عربی می‌داند؛ پس پیکان عربی ← فارسی درست است. «طاوسی» صفت نسبی با پسوند ـی (به رنگ طاووس) است و در گیاه‌شناسی نام درختچه‌ای از تیرهٔ پروانه‌واران با گل‌های زرد طلایی (معین). ادعای نورایی در این خانه درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/طاووس",
+      "https://abadis.ir/fatofa/طاووس/"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1346",
+       "status": "partial",
+       "note": "Borhan-e Qate' p.1346 (BQT_v3_picofile.pdf page 139; the tool's default offset lands on pdf 141, use --pdf-page 139; transcription saved in ocr/BQT/1346.vision.txt), Mo'in's footnote s.v. طاوس: '(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ «تسیمرن. لغات دخیل اکدی ص۵۲» طبق تحقیق استاد پور داود اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته'. Source of Nourai's Dravidian > Sanskrit > Arabic/Aramaic chart (after Pourdavoud); Mo'in himself lists the Greek and Aramaic forms side by side without making Greek a daughter of Persian."
+      },
+      {
+       "ref": "MON:2203",
+       "status": "partial",
+       "note": "Mo'in, Farhang-e Farsi vol.2 s.v. طاوس (MON_part1.txt line 91933): 'طاوس (طاووس) [دراویدی هندی] (اِ.) (جان.) پرنده‌ای است از راستهٔ ماکیان‌ها که اصلش از هندوستان و مالزی است'; abadis (Mo'in) s.v. طاووس: '[معر.] = طاوس'. Supports the Indian origin and the Arabic-mediated Persian form; the Aramaic tausâ is from the Borhan footnote, not this entry."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "vol.2 s.v. طاوس (MON_part1.txt line 91933); abadis s.v. طاووس",
+       "stance": "partial",
+       "note": "'طاوس (طاووس) [دراویدی هندی] ... اصلش از هندوستان و مالزی است'; abadis/Mo'in s.v. طاووس '[معر.] = طاوس' (Arabicized)."
+      },
+      {
+       "src": "MON",
+       "where": "vol.2 s.v. طاوسی (MON_part1.txt lines 91967-91992)",
+       "stance": "supports",
+       "note": "'طاوسی [معر. ف.] منسوب به طاوس ... (گیا.) گیاهی است از تیرهٔ پروانه‌واران که بصورت درختچه‌ای است ... گل‌هایش بزرگ و به رنگ زرد طلایی است'."
+      },
+      {
+       "src": "BQT",
+       "where": "p.1346, Mo'in fn. s.v. طاوس (ocr/BQT/1346.vision.txt)",
+       "stance": "partial",
+       "note": "'(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ ... اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته' (after Pourdavoud)."
+      },
+      {
+       "src": "HRN",
+       "where": "grep طاوس / tāvūs",
+       "stance": "silent",
+       "note": "Horn does not treat Arabic loanwords; no entry."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Latin",
+     "words": "pâuo, pâvô; pâvonîs",
+     "verdict": "disputed",
+     "derivation": "Latin pāvō, genitive pāvōnis (also pāvus; written pauo in inscriptions) 'peacock' is correct (Ennius, Varro, Ovid). It cannot come from Persian ṭāvūs, which is a medieval Arabic loan, far later than Latin pāvō. Wiktionary: 'Likely borrowed from Ancient Greek ταώς, or possibly imitative (compare paupulō, to call like a peacock)'; Klein: Latin and Greek share an eastern source, 'the initial p- in L. pavo is due to imitative influence'. Nourai's arrow follows Skeat (1911), who wrote 'L. pāuo ... Gk. ταώς ... Pers. tāwus'.",
+     "derivation_fa": "لاتین pāvō (حالت اضافی pāvōnis) «طاووس» درست است، اما نمی‌تواند از «طاووس» فارسی باشد که خود وام‌واژهٔ عربیِ دورهٔ اسلامی و بسیار جوان‌تر از واژهٔ لاتین است. ویکی‌واژه pāvō را به احتمال از یونانی ταώς یا نام‌آوا (مقایسه با paupulō «بانگ طاووس») می‌داند و کلاین p آغازی را اثر نام‌آوایی می‌شمارد. نورایی از اسکیت (۱۹۱۱) پیروی کرده؛ این مسیر را پژوهش امروزی رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/pavo",
+      "https://en.wiktionary.org/wiki/ταώς"
+     ],
+     "ref_check": [
+      {
+       "ref": "SKT:378",
+       "status": "supports",
+       "note": "Skeat, Concise Etym. Dict. s.v. Peacock (SKT_dli_revised.txt line 55507): '(L. - Pers. - Tamil; and E.) M.E. pecok ... AS. pea, pāwa; all from L. pāuo ... The same as Gk. ταώς, for ταϝώς, a peacock; the change from τ to p being due to the fact that the word was foreign both to L. and Gk. - Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei, a peacock'. This is exactly Nourai's chain (Tamil > Persian > Greek/Latin > OE > E.); it is Skeat's 1911 view, now abandoned."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Peacock (SKT_dli_revised.txt line 55507)",
+       "stance": "supports",
+       "note": "'from L. pāuo ... The same as Gk. ταώς, for ταϝώς ... Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei' (Skeat's Tamil > Persian > Greek > Latin chain)."
+      },
+      {
+       "src": "LAT",
+       "where": "index 'pavo' (LAT.txt line 74746, p.720)",
+       "stance": "silent",
+       "note": "Ernout-Meillet has pāuō at p.720; only the index line is legible in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Greek",
+     "words": "taws, taos",
+     "verdict": "disputed",
+     "derivation": "Greek ταώς (taṓs, older *ταϝώς; Attic ταῶς) 'peacock' is attested from the 5th c. BCE (Aristophanes), centuries before any Persian ṭāvūs, so it cannot derive from the Persian word. Wiktionary: 'of Pre-Greek origin; possibly from an eastern source, perhaps from Dravidian (compare Tamil tōkai)'; the Aramaic and Arabic words are in fact borrowed from the Greek. The chart's direction Persian → Greek is reversed; Klein (KLN:1143) himself only says Greek and Latin 'prob. come ult. fr. Tamil'.",
+     "derivation_fa": "یونانی ταώς (taōs، کهن‌تر *tawōs) «طاووس» از سدهٔ پنجم پیش از میلاد (آریستوفانس) گواهی دارد، یعنی سده‌ها پیش از «طاووس» فارسی؛ پس نمی‌تواند از فارسی گرفته شده باشد. ویکی‌واژه آن را پیش‌یونانی و شاید از منبعی شرقی (تامیلی tōkai) می‌داند و واژه‌های آرامی و عربی را وام از یونانی. جهت پیکان «فارسی ← یونانی» وارونه است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ταώς",
+      "https://en.wiktionary.org/wiki/طاووس"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1143",
+       "status": "contradicts",
+       "note": "Klein 1966 s.v. peacock (KLN_1966.txt line 27770): 'OE. pāwa, pēa ... fr. L. pāvo, gen. pāvonis, 'peacock' ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim, 'peacocks'). The initial p- in L. pavo is due to imitative influence'. Klein supports the Tamil root and the Latin/OE/English chain, but routes Latin and Greek directly from the eastern source, not through Persian/Arabic, and has no Sanskrit link. For this node: Klein derives Gk. ταώς from Tamil, not from Persian."
+      },
+      {
+       "ref": "SKT:378",
+       "status": "supports",
+       "note": "Skeat, Concise Etym. Dict. s.v. Peacock (SKT_dli_revised.txt line 55507): '(L. - Pers. - Tamil; and E.) M.E. pecok ... AS. pea, pāwa; all from L. pāuo ... The same as Gk. ταώς, for ταϝώς, a peacock; the change from τ to p being due to the fact that the word was foreign both to L. and Gk. - Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei, a peacock'. This is exactly Nourai's chain (Tamil > Persian > Greek/Latin > OE > E.); it is Skeat's 1911 view, now abandoned."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "s.v. Peacock (SKT_dli_revised.txt line 55507)",
+       "stance": "supports",
+       "note": "'from L. pāuo ... The same as Gk. ταώς, for ταϝώς ... Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei' (Skeat's Tamil > Persian > Greek > Latin chain)."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      },
+      {
+       "src": "BQT",
+       "where": "p.1346, Mo'in fn. s.v. طاوس (ocr/BQT/1346.vision.txt)",
+       "stance": "partial",
+       "note": "'(عر) معرب آن طویس، یونانی Taôs، آرامی طاوسا tausâ ... اصل کلمه از زبان دراویدی وارد سانسکریت شده و از آنجا بزبانهای دیگر رفته' (after Pourdavoud)."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Old English",
+     "words": "pea",
+     "verdict": "confirmed",
+     "derivation": "Old English pēa, pāwa (pāwe) 'peacock' is an early West Germanic borrowing of Latin pāvō (Proto-Germanic *pāwô, cf. OHG pfāwo, German Pfau, Dutch pauw), the Latin -v- surviving as -w-. Klein: 'OE. pāwa, pēa, 'peacock' ... fr. L. pavo'; Skeat: 'AS. pea, pāwa; all from L. pāuo'; Wiktionary s.v. peacock agrees.",
+     "derivation_fa": "انگلیسی کهن pēa و pāwa «طاووس» وام‌واژهٔ کهن ژرمنی غربی از لاتین pāvō است (ژرمنی آغازین *pāwô؛ آلمانی Pfau، هلندی pauw)؛ v لاتین در اینجا به w بدل شده است. کلاین، اسکیت و ویکی‌واژه همه همین را می‌گویند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/peacock"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "not_found",
+       "note": "Watkins' IE-roots appendix (AHD_watkins1985.txt) has no entry for peacock/pea (a non-IE loanword); grep 'PEACOCK' finds nothing."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Peacock (SKT_dli_revised.txt line 55507)",
+       "stance": "supports",
+       "note": "'from L. pāuo ... The same as Gk. ταώς, for ταϝώς ... Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei' (Skeat's Tamil > Persian > Greek > Latin chain)."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "peacock; peafowl",
+     "verdict": "confirmed",
+     "derivation": "English peacock < Middle English pecok, pocok = OE pēa 'peafowl' + cock 'male bird'; peafowl (pea + fowl) and peahen are later parallel compounds. Wiktionary s.v. peacock: 'From Middle English pecok ... first component from Old English pēa, pāwa (peacock, peafowl), ultimately from Latin pāvō; equivalent to pea + cock'; Skeat and Klein the same.",
+     "derivation_fa": "انگلیسی peacock از انگلیسی میانه pecok، ترکیبی از pēa انگلیسی کهن (طاووس) و cock «پرندهٔ نر» است؛ peafowl و peahen ترکیب‌های همانندِ بعدی‌اند. ویکی‌واژه، اسکیت و کلاین این را تأیید می‌کنند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/peacock"
+     ],
+     "ref_check": [
+      {
+       "ref": "SKT:378",
+       "status": "supports",
+       "note": "Skeat, Concise Etym. Dict. s.v. Peacock (SKT_dli_revised.txt line 55507): '(L. - Pers. - Tamil; and E.) M.E. pecok ... AS. pea, pāwa; all from L. pāuo ... The same as Gk. ταώς, for ταϝώς, a peacock; the change from τ to p being due to the fact that the word was foreign both to L. and Gk. - Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei, a peacock'. This is exactly Nourai's chain (Tamil > Persian > Greek/Latin > OE > E.); it is Skeat's 1911 view, now abandoned."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. peacock (KLN_1966.txt line 27770)",
+       "stance": "partial",
+       "note": "'L. pavo ... which, together with Gk. ταώς, prob. comes ult. fr. Tamil tokei, tōgei (whence also Heb. tukkiyyim) ... initial p- in L. pavo is due to imitative influence; cp. L. paupulo, 'the natural sound of the peacock''."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Peacock (SKT_dli_revised.txt line 55507)",
+       "stance": "supports",
+       "note": "'from L. pāuo ... The same as Gk. ταώς, for ταϝώς ... Pers. tāwus, tāus, a peacock. - Tamil tōkei, tōgei' (Skeat's Tamil > Persian > Greek > Latin chain)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Trei",
+   "verdict": "confirmed",
+   "modern_form": "PIE *tréyes (nom. pl. m.), stem *tri- 'three' (Pokorny trei- 1090-1092; Watkins trei-)",
+   "note": "Pokorny pp.1090-1092 'trei- three', Watkins/AHD 'trei-. Three', Walde-Pokorny I 753, Buck 13.41 and Mann 'treies' all agree; root, label and gloss correct. Nearly all branches are standard. Problems: (1) the Avestan/Old Persian box mixes genuine Avestan θrāyō, θri, θrisat-, θridasa- ('thirteenth') with the unattested θri-θatra 'three-stringed instrument' (Nourai's reconstruction) and labels Platts's forms 'O.P.' though Old Persian has ç < θr; (2) Greek κιθάρα is not from Persian se-tār (Klein's old view, which Nourai follows; modern: Pre-Greek, cf. kinnōr) - the guitar line (Arabic qīthāra > Spanish > French > Persian/English) is itself correct but belongs to κιθάρα, not to 'three'; (3) Latin 'teri' is not a Latin form and the gloss of tribus as 'third class citizens' is a misreading of 'a third part of the people'. No extraction errors: the JSON matches the printed page.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *tréyes «سه» (ستاک *tri-) را پوکورنی (ص۱۰۹۰–۱۰۹۲)، واتکینز، والده‌ـپوکورنی (۱/۷۵۳)، باک و مان تأیید می‌کنند؛ ریشه، برچسب و معنا درست است و بیشتر شاخه‌ها پذیرفته‌اند. اشکال‌ها: در خانهٔ اوستایی «thri-thatra» (ساز سه‌سیم) گواهی ندارد و بازسازی خود نورایی است و صورت‌ها به پیروی از پلتس «پارسی باستان» نامیده شده‌اند، حال آنکه در پارسی باستان θr به ç بدل می‌شود؛ یونانی κιθάρα از «سه‌تار» فارسی نیست (دیدگاه کهنهٔ کلاین؛ امروز آن را پیش‌یونانی می‌دانند)، هرچند زنجیرهٔ قیثاره ← guitarra ← guitare ← گیتار/guitar درست است ولی به «سه» ربطی ندارد؛ و «teri» لاتین نیست و tribus «یک‌سوم مردم» است نه «شهروندان طبقهٔ سوم». خطای استخراج دیده نشد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/þrīz",
+    "https://en.wiktionary.org/wiki/سه"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:1090",
+     "status": "supports",
+     "note": "Pokorny IEW pp.1090-1092 (POK_full.txt line 87142 'Root / lemma: trei-', 'Meaning: three'): 'Avestan θrāyō, θrayasm., θri n.' ... 'dreißig: Old Indie triṃśat-, Avestan θrisat-, gr. τριάκοντα, Latin trīginta' ... 'Latin tertius' ... 'Old Irish tress ... compare Latin testis witness' ... 'perhaps Latin tribus ... Umbrian trifu ... from *tri-bhu-'; 'Gothic þreis, Old English ...'. References 'WP. I 753 f.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p.753 (WLD_Bd1_pages.txt line 71389)",
+     "stance": "supports",
+     "note": "'trei- „drei“ Nom. m. trejes, n. tri, f. tis(o)res ... Ai. tráyaḥ m., trī (ved.), trīṇi n., tisráḥ f.; av. θrāyō m., θri n., tisrō f.; arm. erek; gr. τρεῖς ... lat. trēs, tria'."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins, AHD IE Roots s.v. trei- (AHD_watkins1985.txt lines 1094-1096)",
+     "stance": "supports",
+     "note": "'trei-. Three. I. Nominative plural form *treyes. 1. Germanic *thrijiz in Old English thrīe, thrēo, thrī, three ... thritig, thirty, and thrēotīne, thirteen ... II. Zero-grade form *tri- ... b. Latin tertius ... TERTIARY ... 11. Compound form *tri-st-i-, \"third person standing by\" ..., in Latin testis, a witness: TESTAMENT, (TESTIMONY); ATTEST, CONTEST, DETEST, OBTEST, PROTEST, TESTIFY. 12. Persian sih, three: SITAR. [Pok. trei- 1090.]'"
+    },
+    {
+     "src": "IEC",
+     "where": "s.v. treies (IEC.txt line 18884)",
+     "stance": "supports",
+     "note": "'treies, m. 'three'. Cf. tri-, tosrio. WP I, 753 Skt. trayaḥ ... Av. θrāyō, m. id.; Per. si; Oss. ärtä; Pamiri arrai ... Lat. trēs ... Go. *þreis; OE þrēo, þrīe'."
+    },
+    {
+     "src": "SYN",
+     "where": "13.41 THREE, p.941 (SYN.txt lines 23956, 24060)",
+     "stance": "supports",
+     "note": "'13.41. IE stem *tri-, nom. pl. *treyes. Walde-P. 1.753 ... Here belong all the words listed'; table lists 'Av. θrāyō'."
+    },
+    {
+     "src": "BRT",
+     "where": "col. 800-806 s.vv. θray-, θridasa-, θrisant- (BRT.txt lines 14500, 14631, ~14670)",
+     "stance": "partial",
+     "note": "'θray- Zw., fem. tisr- 'drei'' (θrayō, θrāyō, θri); 'θridasa- Adj. 'der dreizehnte'' (ordinal, not cardinal 13); 'θri-sant- fem. Zw. 'dreissig''; no entry *θri-θatra- or any word for a three-stringed instrument among the θri- compounds (θri-afsman-, θri-gāmya-, θri-pada- ... θri-zantav-)."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan / Old Persian",
+     "words": "thri, thrâyô; thrisat; thri-dasa; thri-thatra",
+     "verdict": "plausible",
+     "derivation": "Avestan θrāyō (nom. pl. masc.), θri (neut., and compound stem θri-) continue PIE *tréyes / *tri- with the regular Iranian change of *t before *r to θ (Proto-Iranian *θráyah). Avestan θrisant-/θrisatəm 'thirty' (PIE *tri-ḱomt-, cf. Skt. triṃśat-) and θridasa- (Bartholomae: 'der dreizehnte', the ordinal 'thirteenth'; the cardinal is not separately attested) are correct apart from the 13th/13 gloss. Old Persian proper turns *θr into ç (çitiya- 'third', *çayah 'three'), so 'thri' is not the Old Persian shape; Nourai took the forms 'O.P. thri, thridasa, thrisat' from Platts's grammar (GPL:41). thri-thatra 'three-stringed instrument' is not attested in Avestan (absent from Bartholomae's θri- compounds); it is Nourai's reconstruction (θri- + *tāθra-/tār 'string', root Ten 1) to explain Persian se-tār.",
+     "derivation_fa": "اوستایی θrāyō (نهادی جمع مذکر) و θri (خنثی و ستاک ترکیبی) از هندواروپایی آغازین *tréyes / *tri- است و t پیش از r در ایرانی به θ بدل شده (ایرانی آغازین *θráyah). θrisant-/θrisatəm «سی» و θridasa- (به گفتهٔ بارتولومه «سیزدهم»، عدد ترتیبی) نیز درست است. در پارسی باستان θr به ç می‌گراید (çitiya «سوم»)، پس «thri» صورت پارسی باستان نیست؛ نورایی این صورت‌ها را از دستور پلتس (ص۴۱) گرفته است. «thri-thatra» (ساز سه‌سیم) در اوستا گواهی ندارد و در فرهنگ بارتولومه نیست؛ بازسازی خود نورایی برای توضیح «سه‌تار» است. بنابراین خانه در کل با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes",
+      "https://en.wiktionary.org/wiki/سه"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1090",
+       "status": "supports",
+       "note": "Pokorny IEW pp.1090-1092 (POK_full.txt line 87142 'Root / lemma: trei-', 'Meaning: three'): 'Avestan θrāyō, θrayasm., θri n.' ... 'dreißig: Old Indie triṃśat-, Avestan θrisat-, gr. τριάκοντα, Latin trīginta' ... 'Latin tertius' ... 'Old Irish tress ... compare Latin testis witness' ... 'perhaps Latin tribus ... Umbrian trifu ... from *tri-bhu-'; 'Gothic þreis, Old English ...'. References 'WP. I 753 f.'"
+      },
+      {
+       "ref": "SYN:941",
+       "status": "supports",
+       "note": "Buck 13.41 THREE p.941 (SYN.txt lines 23956-24064): 'IE stem *tri-, nom. pl. *treyes. Walde-P. 1.753'; Avestan θrāyō in the table."
+      },
+      {
+       "ref": "KLN:1611",
+       "status": "supports",
+       "note": "Klein 1966 s.v. three (KLN_1966.txt line 39127): 'fr. I.-E. base *treyes, whence also OI. tráyaḥ (masc.), tisráḥ (fem.), trī (neut.), Avestic θrāyō (masc.) ... L. trēs ... Cp. third, thirteen, thirty ... tertiary ... tribe ... Cp. also the first element in testament, testicle, testify'."
+      },
+      {
+       "ref": "GPL:41",
+       "status": "supports",
+       "note": "Platts & Ranking, Grammar of the Persian Language p.41 §46 (GPL.txt lines 520-537): '3. ۳ سه (O.P. thri)' ... '13. ۱۳ سیزده (O.P. thridasa)' ... '30. سی (Phl. sih; O.P. thrisat)'. This is the source of Nourai's forms thri, thri-dasa, thrisat; Platts labels them 'O.P.' although they are Avestan/reconstructed (Old Persian has θr > ç)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 800-806 s.vv. θray-, θridasa-, θrisant- (BRT.txt lines 14500, 14631, ~14670)",
+       "stance": "partial",
+       "note": "'θray- Zw., fem. tisr- 'drei'' (θrayō, θrāyō, θri); 'θridasa- Adj. 'der dreizehnte'' (ordinal, not cardinal 13); 'θri-sant- fem. Zw. 'dreissig''; no entry *θri-θatra- or any word for a three-stringed instrument among the θri- compounds (θri-afsman-, θri-gāmya-, θri-pada- ... θri-zantav-)."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.753 (WLD_Bd1_pages.txt line 71389)",
+       "stance": "supports",
+       "note": "'trei- „drei“ Nom. m. trejes, n. tri, f. tis(o)res ... Ai. tráyaḥ m., trī (ved.), trīṇi n., tisráḥ f.; av. θrāyō m., θri n., tisrō f.; arm. erek; gr. τρεῖς ... lat. trēs, tria'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins, AHD IE Roots s.v. trei- (AHD_watkins1985.txt lines 1094-1096)",
+       "stance": "supports",
+       "note": "'trei-. Three. I. Nominative plural form *treyes. 1. Germanic *thrijiz in Old English thrīe, thrēo, thrī, three ... thritig, thirty, and thrēotīne, thirteen ... II. Zero-grade form *tri- ... b. Latin tertius ... TERTIARY ... 11. Compound form *tri-st-i-, \"third person standing by\" ..., in Latin testis, a witness: TESTAMENT, (TESTIMONY); ATTEST, CONTEST, DETEST, OBTEST, PROTEST, TESTIFY. 12. Persian sih, three: SITAR. [Pok. trei- 1090.]'"
+      },
+      {
+       "src": "IEC",
+       "where": "s.v. treies (IEC.txt line 18884)",
+       "stance": "supports",
+       "note": "'treies, m. 'three'. Cf. tri-, tosrio. WP I, 753 Skt. trayaḥ ... Av. θrāyō, m. id.; Per. si; Oss. ärtä; Pamiri arrai ... Lat. trēs ... Go. *þreis; OE þrēo, þrīe'."
+      },
+      {
+       "src": "KNT",
+       "where": "lexicon s.v. çitiya- (KNT_full.txt line 26313)",
+       "stance": "partial",
+       "note": "'çitiya- adj. 'third': Av. θritya-, Skt. tṛtīya-' - Old Persian attests only the ordinal, with ç < θr; no cardinal *θri, *θrisat or *θridasa in Old Persian."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "seh",
+     "verdict": "confirmed",
+     "derivation": "New Persian se (سه, older written sih) 'three' < Middle Persian sē [3; Manichaean sh] (MacKenzie) < Old Persian *çayah < Proto-Iranian *θráyah (Wiktionary s.v. سه): the Old Persian/South-West Iranian change θr > ç > s gives the initial s- (Hübschmann §96: 'Ap. θr wird im Np. zu s ... si, später se 'drei''), so the Persian word is the cognate of Avestan θrāyō rather than its direct descendant. The extra forms in the box: sī (سی) 'thirty' < MP sīh < OP *çisat- (Av. θrisat-), and sīzdah (سیزده) 'thirteen' < MP sēzdah (Horn 763: 'np. sīzdeh ist eine Analogiebildung').",
+     "derivation_fa": "«سه» فارسی (در نوشتار کهن «سه/سِه») از فارسی میانه sē (مکنزی)، از پارسی باستان *çayah و ایرانی آغازین *θráyah است؛ در پارسی باستان و گویش‌های جنوب غربی θr به ç و سپس به s بدل شده (هوبشمان §۹۶)، پس «سه» هم‌ریشهٔ اوستایی θrāyō است، نه فرزند مستقیم آن. «سی» از فارسی میانه sīh (اوستایی θrisat-) و «سیزده» از فارسی میانه sēzdah است که هرن آن را ساختهٔ قیاسی می‌داند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/سه",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1194",
+       "status": "supports",
+       "note": "Borhan-e Qate' p.1194 (archive.org borhan-ghate-v2 leaf n658; transcription ocr/BQT/1194.vision.txt), Mo'in's footnote s.v. سه: 'سه - بکسر اول se، پهلوی sê «نیبرگ ۲۰۳»، ایرانی باستان çaya، پارسی باستان th(r)itîya (سوم)، اوستا thri، هندی باستان trî «اشتق ۷۵۹» ... کهن‌تر sai = اوستایی در حالت جمع اضافه thrayâm'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "s.v. sē, sēzdah, sīh (PHD_mackenzie.txt lines 4535, 4549, 4553)",
+       "stance": "supports",
+       "note": "'sē [3; TLTA < A tlt' | M sh, N si] three'; 'sēzdah [syzdh | M syzdh] thirteen'; 'sīh [30 | M syh, N si] thirty'."
+      },
+      {
+       "src": "HRN",
+       "where": "nos. 759, 760, 763 (HRN.txt lines 6614-6641)",
+       "stance": "supports",
+       "note": "'759. si (geschrieben sih) 'drei' ... ap. θritiya- 'dritter'; aw. θri- 'drei'; phlv. s(i)tīgar'; '760. sī 'dreissig'. aw. θrisatəm'; '763. sizdeh 'dreizehn'. aw. θridasa 'dreizehnter' ... np. sizdeh ist eine Analogiebildung'."
+      },
+      {
+       "src": "HUB",
+       "where": "§96 (HUB.txt line 7248)",
+       "stance": "supports",
+       "note": "'Ap. θr wird im Np. zu s oder hr: a) zu s in: si, später se 'drei' = zd. g. pl. θrayąm, vgl. ap. θritiya- 'der dritte'; sī 'dreissig' = ap. *θrisat-, zd. θrisat-'."
+      },
+      {
+       "src": "ARY",
+       "where": "s.v. سه, pdf page 367-368 (ARY_latin_index_pages.txt line 10640ff.)",
+       "stance": "supports",
+       "note": "Aryanpur lists 'THRAYO, THRI- (AVESTAN)', 'ÇAYA, THRAYAM (OLD PERSIAN)', 'SE (PAHLAVI)', with a citation 'برهان قاطع ۱۱۹۴'."
+      },
+      {
+       "src": "NYB",
+       "where": "Mo'in cites Nyberg p.203 for Pahlavi sē",
+       "stance": "supports",
+       "note": "Cited via Borhan 1194 fn. ('پهلوی sê «نیبرگ ۲۰۳»'); not re-checked in NYB OCR."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "se-târ",
+     "verdict": "confirmed",
+     "derivation": "Persian se-tār (سه‌تار) 'a lute, originally with three strings' = se 'three' + tār 'string, thread' (Wiktionary s.v. سه‌تار: 'From سه (three) + تار (string)'). tār goes back to Middle Persian tār 'thread', from the root *tan- 'stretch' (Nourai's 'Ten 1'). Borhan-e Qate' (p.1096) records the instrument names سِتار 'ساز طنبور' and سِتاره 'طنبوره و سازی که سه تار داشته باشد', and Mo'in notes 'در زبان کنونی نیز se târ (آلت موسیقی که دارای سه سیم است)'. The arrow from Avestan θri- is right only in the sense that the first element is the numeral 'three'; the compound itself is New Persian, not Avestan.",
+     "derivation_fa": "«سه‌تار» از «سه» و «تار» (رشته، سیم) ساخته شده است (ویکی‌واژه). «تار» از فارسی میانه tār «رشته» و از ریشهٔ *tan- «کشیدن، تنیدن» است (ریشهٔ Ten 1 نورایی). برهان قاطع (ص۱۰۹۶) «سِتار» را «ساز طنبور» و «سِتاره» را «طنبوره و سازی که سه تار داشته باشد» آورده و معین در حاشیه نوشته است: «در زبان کنونی نیز se târ، آلت موسیقی که دارای سه سیم است». ترکیب، فارسی نو است نه اوستایی، ولی پیوند جزء نخست با عدد سه درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/سه‌تار",
+      "https://en.wiktionary.org/wiki/sitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1096",
+       "status": "supports",
+       "note": "Borhan-e Qate' p.1096 (archive.org borhan-ghate-v2 leaf n558; transcription ocr/BQT/1096.vision.txt): 'ستار ... و ساز طنبور را هم میگویند(۲)'; 'ستاره ... وبکسر اول طنبوره و سازیرا گویند که سه تار داشته باشد(۴)'; Mo'in fn. 2: 'در زبان کنونی نیز se târ ( آلت موسیقی که دارای سه سیم است)'; fn. 4: 'از: سه + تار + ه (نسبت): دارای سه سیم'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "s.v. سه‌تار (MON_part1.txt line 75495; MON_2vol_Adena_v1 line 81543)",
+       "stance": "supports",
+       "note": "'سه‌تار (امر.) (مس.) سازی که در قدیم دارای سه سیم بود'; 'سه تار: [= ستار = سه تا] (امر.) (مس.)'."
+      },
+      {
+       "src": "BQT",
+       "where": "p.1194 s.v. سه تا (leaf n658)",
+       "stance": "supports",
+       "note": "'سه تا - ... طنبوری را گویند که بر آن سه تار بسته باشند'."
+      },
+      {
+       "src": "AHD",
+       "where": "IE Roots s.v. trei- II.12 (AHD_watkins1985.txt line 1096)",
+       "stance": "supports",
+       "note": "'12. Persian sih, three: SITAR'; index 'SITAR ten-, trei-' - Watkins also derives the second element from *ten- 'stretch'."
+      },
+      {
+       "src": "HRN",
+       "where": "grep sitār/setār",
+       "stance": "silent",
+       "note": "Horn has no entry for the instrument (line 11035 only 'np. sitāre' 'star')."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Hindustani",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Empty pass-through box: Hindi सितार / Urdu ستار sitār, borrowed from Classical Persian si-tār 'three strings' (Classical Persian kept the vowel i, si/sih, which the Indian form preserves), names the long-necked North Indian lute developed in the 18th century; English took the word from Hindustani (Wiktionary s.v. sitar: 'From Hindi सितार (sitār) / Urdu ستار (sitār), from Classical Persian سه‌تار (si-tār, literally three strings)').",
+     "derivation_fa": "این خانهٔ خالی هندوستانی است: هندی/اردو «سِتار» (sitār) وام‌واژه از فارسی کلاسیک «سه‌تار» (si-tār) است که تلفظ کهن si را نگه داشته؛ نام سازی زهی و دسته‌بلند در شمال هند (سدهٔ هجدهم). انگلیسی این واژه را از هندوستانی گرفته است. ادعای نورایی درست است (ویکی‌واژه).",
+     "sources": [
+      "https://en.wiktionary.org/wiki/sitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "IE Roots index 'SITAR ten-, trei-' (AHD_watkins1985.txt line 2265)",
+       "stance": "supports",
+       "note": "Watkins assigns SITAR to Persian sih 'three' (trei-) + *ten- 'stretch'."
+      },
+      {
+       "src": "HJB",
+       "where": "grep sitar/setar (HJB.txt)",
+       "stance": "silent",
+       "note": "Hobson-Jobson has no sitar entry (only 'setar fruit' s.v. mangosteen, line 14064, unrelated)."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "sitar",
+     "verdict": "confirmed",
+     "derivation": "English sitar (attested from the 1840s) is borrowed from Hindi/Urdu sitār < Persian si-tār 'three-stringed' (Wiktionary s.v. sitar; 'Doublet of setar'). Watkins (AHD) lists SITAR under trei- ('Persian sih, three') and ten- (tār 'string').",
+     "derivation_fa": "انگلیسی sitar (از دههٔ ۱۸۴۰) از هندی/اردو sitār و آن از فارسی «سه‌تار» گرفته شده است؛ واتکینز (AHD) آن را زیر ریشهٔ trei- («سه» فارسی) و ten- («تار») آورده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/sitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1210",
+       "status": "partial",
+       "note": "AHD:1210 is a page of the main dictionary (s.v. sitar), not on disk; the IE-roots appendix (Watkins, AHD_watkins1985.txt line 1096) says '12. Persian sih, three: SITAR', and the index line 2265 'SITAR ten-, trei-' - same derivation."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1971 grep 'sitar'",
+       "stance": "silent",
+       "note": "No sitar entry found in the Klein OCR."
+      },
+      {
+       "src": "SKT",
+       "where": "grep Sitar (SKT_dli_revised.txt)",
+       "stance": "silent",
+       "note": "Skeat has no entry."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Greek",
+     "words": "kithara",
+     "verdict": "disputed",
+     "derivation": "Greek κιθάρα (kithára) 'lyre-like stringed instrument' is attested from Homer's era onward (κίθαρις in the Iliad/Odyssey, 8th c. BCE), long before any Persian se-tār (a New Persian compound of se 'three' + tār). The resemblance is chance. Modern view (Wiktionary, after Beekes): 'acquired from Pre-Greek', possibly related to Hurro-Urartian *kinnar 'lyre' (cf. Hebrew kinnōr). Klein's 'fr. Pers. sihtar' (s.v. cither/guitar) is the old view that Nourai followed; Skeat stops at Greek.",
+     "derivation_fa": "یونانی κιθάρα (کیثارا، سازی زهی چون چنگ کوچک) از روزگار هومر (κίθαρις، سدهٔ هشتم پیش از میلاد) گواهی دارد، یعنی بسیار پیش از «سه‌تار» که ترکیبی فارسی نو است؛ همانندی این دو واژه تصادفی است. پژوهش امروزی (بیکس، ویکی‌واژه) آن را پیش‌یونانی و شاید با هوری‌ـاورارتویی *kinnar «چنگ» (عبری kinnōr) مرتبط می‌داند. سخن کلاین «از فارسی sihtar» دیدگاه کهنه‌ای است که نورایی از آن پیروی کرده؛ پژوهش امروزی آن را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/κιθάρα",
+      "https://en.wiktionary.org/wiki/guitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:687",
+       "status": "supports",
+       "note": "Klein 1971 s.v. guitar (KLN_1971.txt line 107243): 'F. guitare, fr. Sp. guitarra, fr. Arab. qītāra, fr. Gk. κιθάρα, fr. Pers. sihtar'; s.v. cither (line 47828): 'fr. Gk. κιθάρα, fr. Pers. sihtar'. Klein does state Nourai's claim; it is rejected by modern scholarship (see derivation)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "s.v. Guitar (SKT_dli_revised.txt line 33736)",
+       "stance": "partial",
+       "note": "'Guitar. (F.-L.-Gk.) F. guitare - L. cithara - Gk. κιθάρα, a lyre' - no Persian source."
+      },
+      {
+       "src": "KLN",
+       "where": "1971 s.v. cithara (KLN_1971.txt line 47824)",
+       "stance": "supports",
+       "note": "'cither ... fr. L. cithara, fr. Gk. κιθάρα, fr. Pers. sihtar'."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Arabic",
+     "words": "qîtâr; qeetarah",
+     "verdict": "confirmed",
+     "derivation": "Arabic qīthār / qīthāra (قيثار، قيثارة) 'lyre, lute' is borrowed from Greek κιθάρα through Aramaic qīthārā (קיתרא) (Wiktionary s.v. guitarra: 'borrowed from Arabic قِيثَارَة (qīṯāra), borrowed from Aramaic קיתרא (qīṯārā), borrowed from Ancient Greek κιθάρα'). Greek k- > Arabic q- and th > ṯ (often pronounced t, hence Nourai's qîtâr) are the regular renderings. Nourai's transliterations stand for qīthār and qīthāra.",
+     "derivation_fa": "عربی «قیثار/قیثارة» (qīṯāra) «گونه‌ای چنگ و عود» از یونانی κιθάρα و از راه آرامی qīṯārā گرفته شده است (ویکی‌واژه). k یونانی در عربی ق و th به ث (که اغلب t تلفظ می‌شود) بدل شده است؛ «qîtâr» و «qeetarah» نورایی همان قیثار و قیثاره است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/guitarra",
+      "https://en.wiktionary.org/wiki/guitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "SAP:1381",
+       "status": "not_checked",
+       "note": "Sayyah's Persian al-Munjid is not accessible (refs_online: purchase only)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1971 s.v. guitar (KLN_1971.txt line 107243)",
+       "stance": "supports",
+       "note": "'fr. Sp. guitarra, fr. Arab. qītāra, fr. Gk. κιθάρα'."
+      },
+      {
+       "src": "Dehkhoda (web)",
+       "where": "abadis.ir/fatofa/گیتار/ (Dehkhoda section)",
+       "stance": "supports",
+       "note": "'گیتار. (فرانسوی، اِ) آلتی است از آلات موسیقی ... قیتار. قیثار. (از المنجد)' - the Arabic forms equated with the guitar."
+      },
+      {
+       "src": "PHN",
+       "where": "PHN.txt line 9737",
+       "stance": "silent",
+       "note": "Pihan speaks of 'une espèce de guitare' among Orientals but gives no qīthāra etymology."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Spanish",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Empty pass-through box: Spanish guitarra (Old Spanish guitarra, 13th c.) is borrowed from Andalusian Arabic qīthāra (Wiktionary s.v. guitarra: 'Inherited from Old Spanish guitarra, borrowed from Arabic قِيثَارَة (qīṯāra) ... Doublet of cítara'), with the Arabic q- rendered by Romance gu- [g].",
+     "derivation_fa": "این خانهٔ خالی اسپانیایی است: guitarra اسپانیایی (سدهٔ سیزدهم) وام‌واژه از عربی اندلسی «قیثارة» است و ق عربی در اسپانیایی به gu (گ) بدل شده است (ویکی‌واژه). ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/guitarra"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1971 s.v. guitar",
+       "stance": "supports",
+       "note": "'F. guitare, fr. Sp. guitarra, fr. Arab. qītāra'."
+      },
+      {
+       "src": "DEV",
+       "where": "grep guitar (DEV.txt)",
+       "stance": "silent",
+       "note": "Devic has no guitare entry in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "French",
+     "words": "guitare",
+     "verdict": "confirmed",
+     "derivation": "French guitare (17th c.; earlier guiterne) is borrowed from Spanish guitarra. Klein: 'F. guitare, fr. Sp. guitarra'; Skeat: 'F. guitare'.",
+     "derivation_fa": "فرانسوی guitare (سدهٔ هفدهم؛ پیش‌تر guiterne) از اسپانیایی guitarra گرفته شده است (کلاین، اسکیت). ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/guitar",
+      "https://en.wiktionary.org/wiki/guitarra"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:687",
+       "status": "supports",
+       "note": "Klein 1971 s.v. guitar (KLN_1971.txt line 107243): 'F. guitare, fr. Sp. guitarra'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "s.v. Guitar (SKT_dli_revised.txt line 33736)",
+       "stance": "supports",
+       "note": "'Guitar. (F.-L.-Gk.) F. guitare'."
+      },
+      {
+       "src": "KLN",
+       "where": "1971 s.v. guitar",
+       "stance": "supports",
+       "note": "as above."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Persian",
+     "words": "gîtâr",
+     "verdict": "confirmed",
+     "derivation": "Persian gītār (گیتار) is a modern borrowing of French guitare (the usual route of European musical terms into Persian in the 19th-20th c.); Mo'in tags it [فر.] 'French': 'از سازهای زهی که دارای شش سیم می‌باشد'.",
+     "derivation_fa": "«گیتار» فارسی وام‌واژه‌ای نو از فرانسوی guitare است و معین آن را [فر.] نشان داده و «از سازهای زهی که دارای شش سیم می‌باشد» تعریف کرده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/گیتار/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:3502",
+       "status": "supports",
+       "note": "Mo'in, Farhang-e Farsi vol.3 s.v. گیتار (abadis.ir/fatofa/گیتار/, Mo'in section): '[ فر. ] (اِ.) از سازهای زهی که دارای شش سیم می باشد'; Adena 2-vol ed. (MON_2vol_Adena_v2_djvu.txt line 37256): 'گیتار ... (مو.) سازی است خوش‌آهنگ که شش سیم دارد'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "Adena ed. s.v. گیتار (line 37256)",
+       "stance": "supports",
+       "note": "'سازی است خوش‌آهنگ که شش سیم دارد و ... با مضراب نوازند'."
+      },
+      {
+       "src": "ARY",
+       "where": "grep گیتار (ARY_pages.txt)",
+       "stance": "silent",
+       "note": "Aryanpur (IE roots of Persian) has no entry for the loanword."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "English",
+     "words": "guitar",
+     "verdict": "confirmed",
+     "derivation": "English guitar (1620s; earlier gittern from Old French guiterne) is from French guitare / Spanish guitarra < Arabic qīthāra < Greek κιθάρα (Wiktionary s.v. guitar: 'From Spanish guitarra, from Arabic قِيثَارَة (qīṯāra), from Ancient Greek κιθάρα. Doublet of cithara, cither, and zither, but not related to sitar'). The chain French → English is as drawn; note Wiktionary's explicit 'not related to sitar', which contradicts the Persian start of this branch (node #6).",
+     "derivation_fa": "انگلیسی guitar (دههٔ ۱۶۲۰) از فرانسوی guitare و اسپانیایی guitarra، از عربی قیثاره و یونانی κιθάρα است؛ ویکی‌واژه آن را دوگانهٔ cithara و zither می‌داند و صریحاً می‌گوید با sitar هم‌ریشه نیست. خود این پیکان (فرانسوی ← انگلیسی) درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/guitar"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:687",
+       "status": "supports",
+       "note": "Klein 1971 s.v. guitar (KLN_1971.txt line 107243): 'guitar, n., a stringed musical instrument. — F. guitare, fr. Sp. guitarra, fr. Arab. qītāra, fr. Gk. κιθάρα'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "s.v. Guitar (SKT_dli_revised.txt line 33736)",
+       "stance": "supports",
+       "note": "'Guitar. (F.-L.-Gk.) F. guitare - L. cithara - Gk. κιθάρα'."
+      },
+      {
+       "src": "KLN",
+       "where": "1971 s.v. guitar",
+       "stance": "supports",
+       "note": "as above."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Sogdian",
+     "words": "dry",
+     "verdict": "confirmed",
+     "derivation": "Sogdian δry /θrē, šē/ 'three' (Buddhist script δry, Manichaean 'dry, Christian šy) continues Old Iranian *θraya- < PIE *tréyes; Gharib entry 3618: 'δry B ... θre, se < *θraya-; Khwar. sy; Yaghn. tiray; Parth. hry ... three'. Nourai's 'dry' is the transliteration δry with δ rendered d.",
+     "derivation_fa": "سغدی δry (θrē، با املای مانوی 'dry و مسیحی šy) «سه» از ایرانی باستان *θraya- و هندواروپایی آغازین *tréyes است؛ قریب (مدخل ۳۶۱۸) آن را با خوارزمی sy، یغنابی tiray و پارتی hry سنجیده است. «dry» نورایی همان δry است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:143",
+       "status": "supports",
+       "note": "Gharib, Sogdian Dictionary p.142-143 (SOD_pages.txt 0-based leaf 208), entry 3618: 'δry B ... θre, se < *θraya-; Khwar. sy; Yaghn. tiray; Parth. hry ... three. GMS 1316; EGS ii 100'. Also intro (leaf 54): '/se/ B δry, sy ... three Av. θraya-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "intro table, leaf 54",
+       "stance": "supports",
+       "note": "'/se/ B δry, sy, M 'dry ... three Av. θraya-'."
+      },
+      {
+       "src": "POK",
+       "where": "p.1090 (POK_full.txt line 87142)",
+       "stance": "silent",
+       "note": "Pokorny lists Avestan, not Sogdian, forms."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "Germanic",
+     "words": "thrijiz",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *þrijiz (Watkins' *thrijiz; Wiktionary *þrīz 'from earlier *þreiz, from earlier *þrejiz, from PIE *tréyes') shows Grimm's law *t > þ and the nominative plural ending *-es > *-iz; it underlies Gothic þreis, Old Norse þrír, OHG drī, Old English þrīe, þrēo.",
+     "derivation_fa": "ژرمنی آغازین *þrijiz (ویکی‌واژه: *þrīz از *þrejiz کهن‌تر) از هندواروپایی *tréyes است؛ بر پایهٔ قانون گریم t به þ (ث) بدل شده و پایانهٔ جمع *-es به *-iz. گوتی þreis، نورس کهن þrír و انگلیسی کهن þrēo از آن است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/þrīz",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. trei- (AHD_watkins1985.txt line 1094): 'I. Nominative plural form *treyes. 1. Germanic *thrijiz in Old English thrīe, thrēo, thrī, three'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.753 (WLD_Bd1_pages.txt line 71389)",
+       "stance": "supports",
+       "note": "'trei- „drei“ Nom. m. trejes, n. tri, f. tis(o)res ... Ai. tráyaḥ m., trī (ved.), trīṇi n., tisráḥ f.; av. θrāyō m., θri n., tisrō f.; arm. erek; gr. τρεῖς ... lat. trēs, tria'."
+      },
+      {
+       "src": "IEC",
+       "where": "s.v. treies (IEC.txt line 18884)",
+       "stance": "supports",
+       "note": "'treies, m. 'three'. Cf. tri-, tosrio. WP I, 753 Skt. trayaḥ ... Av. θrāyō, m. id.; Per. si; Oss. ärtä; Pamiri arrai ... Lat. trēs ... Go. *þreis; OE þrēo, þrīe'."
+      },
+      {
+       "src": "POK",
+       "where": "p.1090",
+       "stance": "supports",
+       "note": "'Gothic þreis, Akk. þrins, n. þrija, Old Icelandic þrír, Old High German drī'."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "English",
+     "words": "three, thirty, thirteen",
+     "verdict": "confirmed",
+     "derivation": "English three < OE þrīe/þrēo < PGmc *þrīz; thirty < OE þrītig (*þrī- + -tig 'ten', with metathesis þri- > thir- in Middle English); thirteen < OE þrēotīne (þrēo + tīene 'ten'), likewise metathesized. Watkins: 'thrītig, thirty, and thrēotīne, thirteen: THREE, THRICE, THIRTY, THIRTEEN'; Klein s.v. three.",
+     "derivation_fa": "انگلیسی three از انگلیسی کهن þrēo/þrīe است؛ thirty از þrītig (سه + ‑tig «ده») و thirteen از þrēotīne (سه + «ده») که در انگلیسی میانه با قلب thri به thir بدل شده‌اند. واتکینز و کلاین این را تأیید می‌کنند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/þrīz"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited for this box."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins, AHD IE Roots s.v. trei- (AHD_watkins1985.txt lines 1094-1096)",
+       "stance": "supports",
+       "note": "'trei-. Three. I. Nominative plural form *treyes. 1. Germanic *thrijiz in Old English thrīe, thrēo, thrī, three ... thritig, thirty, and thrēotīne, thirteen ... II. Zero-grade form *tri- ... b. Latin tertius ... TERTIARY ... 11. Compound form *tri-st-i-, \"third person standing by\" ..., in Latin testis, a witness: TESTAMENT, (TESTIMONY); ATTEST, CONTEST, DETEST, OBTEST, PROTEST, TESTIFY. 12. Persian sih, three: SITAR. [Pok. trei- 1090.]'"
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. three (KLN_1966.txt line 39127)",
+       "stance": "supports",
+       "note": "'three ... ME. thre, threo, thri, fr. OE. þrī, þrīe (masc.), þrēo ... Cp. third, thirteen, thirty, thrice'."
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "lang": "Latin",
+     "words": "teri, tri; tes-tis; tribus",
+     "verdict": "plausible",
+     "derivation": "Latin has trēs, tria 'three', the combining form tri- (tripēs) and ter 'thrice', tertius 'third' (< *tritios, Wiktionary s.v. tertius); 'teri' is not a Latin word - it looks like Nourai's abstraction of the ter- of ter/tertius (Hittite has teri-). testis 'witness' < *terstis < Proto-Italic *tristos < PIE *tri-sth₂-i- 'third party standing by' (Wiktionary s.v. testis; Watkins *tri-st-i-; Oscan trstus) - confirmed. tribus 'tribe, one of the three original divisions of the Roman people (Ramnes, Tities, Luceres)' is traditionally *tri- + *bʰuH- 'be' (Pokorny 'perhaps', Klein) or *tri-dʰh₁-o- (Wiktionary gives both); the link with 'three' is accepted, but Nourai's gloss 'third class citizens' is a misunderstanding of 'a third part (of the people)'.",
+     "derivation_fa": "در لاتین «سه» trēs/tria است، با جزء ترکیبی tri-، ter «سه بار» و tertius «سوم» (از *tritios)؛ «teri» واژهٔ لاتین نیست و گویا برداشت نورایی از ter/tertius است. testis «گواه» از *terstis و هندواروپایی *tri-sth₂-i- «سومین کسی که (کنار دو طرف دعوا) می‌ایستد» است و درست است. tribus «قبیله، یکی از سه بخش نخستین مردم روم» را از *tri- و ریشهٔ *bʰuH- «بودن» (یا *dʰeh₁- «نهادن») می‌دانند؛ پیوند با «سه» پذیرفته است ولی معنای «شهروندان طبقهٔ سوم» در کتاب نادرست است (یعنی «یک‌سوم مردم»). در کل با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/testis",
+      "https://en.wiktionary.org/wiki/tribus",
+      "https://en.wiktionary.org/wiki/tertius",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tréyes"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited for this box; Pokorny p.1090-1092 (root ref) covers it: 'Latin tertius ... compare Latin testis witness ... perhaps Latin tribus ... Umbrian trifu ... from *tri-bhu-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "pp.1090-1092 (POK_full.txt lines 87142-87210)",
+       "stance": "supports",
+       "note": "'Latin trēs (Akk. also trīs), tria ... Latin tertius ... (from *tritio-)' ; 'compare Latin testis witness, testifier (also testicle)'; 'perhaps Latin tribus dividing off of people, administrative district, Umbrian trifu ... from *tri-bhu-'."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. tribe (KLN_1966.txt line 40044)",
+       "stance": "supports",
+       "note": "'L. tribus, 'tribe', prob. meaning orig. 'the third part of the Roman people', rel. to Umbr. trifu, fr. Italic *tribhu-, 'a third', which is compounded of *tri-, 'three' and I.-E. *bhu-, *bheu-, 'to be''."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins, AHD IE Roots s.v. trei- (AHD_watkins1985.txt lines 1094-1096)",
+       "stance": "supports",
+       "note": "'trei-. Three. I. Nominative plural form *treyes. 1. Germanic *thrijiz in Old English thrīe, thrēo, thrī, three ... thritig, thirty, and thrēotīne, thirteen ... II. Zero-grade form *tri- ... b. Latin tertius ... TERTIARY ... 11. Compound form *tri-st-i-, \"third person standing by\" ..., in Latin testis, a witness: TESTAMENT, (TESTIMONY); ATTEST, CONTEST, DETEST, OBTEST, PROTEST, TESTIFY. 12. Persian sih, three: SITAR. [Pok. trei- 1090.]'"
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "lang": "English",
+     "words": "tertiary, tricycle; testimony, contest, protest; tribe, tribune, tribute",
+     "verdict": "confirmed",
+     "derivation": "tertiary < Latin tertiārius 'of the third' (tertius); tricycle is a 19th-c. hybrid of Latin/Greek tri- + Greek kyklos (via French tricycle); testimony < Late Latin testimōnium, contest < contestārī 'call to witness', protest < prōtestārī 'declare publicly', all from testis 'witness' (Watkins: 'TESTAMENT, (TESTIMONY); ATTEST, CONTEST ... PROTEST'); tribe < Latin tribus, tribune < tribūnus 'head of a tribe', tribute < tribūtum 'tax levied by tribes' (Klein: 'cp. tribunal, tribune, tribute').",
+     "derivation_fa": "tertiary از لاتین tertiārius (از tertius «سوم»)؛ tricycle ترکیبی دورگه از tri- و یونانی kyklos (سدهٔ نوزدهم)؛ testimony، contest و protest از ستاک testis «گواه»؛ و tribe، tribune (سرکردهٔ قبیله) و tribute (باج گرفته‌شده بر پایهٔ قبیله‌ها) از tribus لاتین‌اند. واتکینز و کلاین همه را تأیید می‌کنند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/testis",
+      "https://en.wiktionary.org/wiki/tribus",
+      "https://en.wiktionary.org/wiki/tertius"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. trei- (AHD_watkins1985.txt lines 1094-1096): 'Latin tertius ... TERCEL, TERCET, TERTIAN, TERTIARY'; '2. Latin tri-, three: TRI-'; '*tri-st-i- ... in Latin testis, a witness: TESTAMENT, (TESTIMONY); ATTEST, CONTEST, DETEST, OBTEST, PROTEST, TESTIFY'. Watkins does not list TRIBE under trei-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. tribe (line 40044), three (line 39127)",
+       "stance": "supports",
+       "note": "'See be, future, and cp. tribunal, tribune, tribute'; s.v. three: 'tertiary ... tribe ... Cp. also the first element in testament, testicle, testify'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Tribe (SKT_dli_revised.txt line 82890)",
+       "stance": "supports",
+       "note": "'Tribe, a race. (F. - L.) F. tribu ... L. tribus'."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
