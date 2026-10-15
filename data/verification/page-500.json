@@ -1,0 +1,665 @@
+{
+ "pdf_page": 500,
+ "book_page": 470,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-10-14",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Tem",
+   "verdict": "confirmed",
+   "modern_form": "PIE *temH- 'dark' (Pokorny tem(ə)- 1063-1064; Watkins temə-; *témHos 'darkness')",
+   "note": "Root, label and gloss correct (Pokorny 1063 'tem(ə)- dark'; Watkins temə- 'dark'). The Iranian, Sogdian, Sanskrit and tombac branches are standard. Problems: the Latin box prints 'temĕre : to fear' — temere is the adverb 'blindly, rashly'; 'to fear' is timēre (book error, extraction faithful); English timid (< timēre) is only uncertainly linked to this root; 'tethra' is Nourai's rendering of Av. tąθra- (after Mo'in's 'tathra'); Portuguese form is tambaca, and 'tambaga' is not really English. No extraction errors: the JSON matches the printed page.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *temH- «تاریک» (پوکورنی ۱۰۶۳: tem(ə)-؛ واتکینز temə-) است و برچسب و معنای نورایی درست است. شاخه‌های اوستایی، فارسی (تم، تار، تاریک)، سغدی، سنسکریت و زنجیرهٔ «تمباک» پذیرفته‌اند. اشکال‌ها: در خانهٔ لاتین معنای temere «ترسیدن» چاپ شده، حال آنکه temere قیدی به معنای «کورکورانه» است و «ترسیدن» timēre است (خطای چاپی کتاب)؛ پیوند timid با این ریشه قطعی نیست؛ «tethra» همان tąθra- اوستایی است؛ صورت پرتغالی tambaca است و tambaga واژهٔ انگلیسی نیست. خطای استخراج دیده نشد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/temH-",
+    "https://en.wiktionary.org/wiki/temere",
+    "https://en.wiktionary.org/wiki/ताम्र"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:1063",
+     "status": "supports",
+     "note": "Pokorny IEW pp.1063-1064 (POK_full.txt line 85335 'Root / lemma: tem(ə)-', 'Meaning: dark', Page(s): 1063-1064): 'Old Indic tamas- n. darkness = Avestan tamah- ..., npers. tam ...; tāmra- 'kupferrot' ...; Avestan tąθra- Nom.Pl. 'darkness', np. tār 'dim' = *tam-sra-'; 'Latin tenebrae ..., temere 'blindlings, aufs Geratewohl' (Lok. *temesi 'im Dunkeln [tappend]')'."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I pp.720-721 (WLD_Bd1_pages.txt leaves 729-730)",
+     "stance": "supports",
+     "note": "'tem(ə)- „dunkel“, *temos n. „Dunkel“: Ai. tamas- n. „Dunkel, Finsternis“ = av. təmah- ds. ...; tāmra-h „dunkelrot, kupferrot“ ...; av. tąθra- n. Pl. „Dunkelheit“'; 'lat. tenebrae ... temere „blindlings, planlos, aufs Geratewohl“ (Loc. *temesi „im dunkeln [tappend]“)'."
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. temə- (AHD_watkins1985.txt line 1078)",
+     "stance": "supports",
+     "note": "'temə-. Dark. Suffixed form *teməs-. 1. Latin temere, blindly, rashly: TEMERARIOUS, TEMERITY. 2. Suffixed form *teməs-rā- in Latin tenebrae (plural), darkness ... [Pok. tem(ə)- 1063.]' — timid is NOT listed."
+    },
+    {
+     "src": "IEC",
+     "where": "IEC.txt line 18325 s.v. tem- (1)",
+     "stance": "supports",
+     "note": "Mann: 'tem- (1) radical element 'dark', in Skt. tamiḥ 'night'; Lat. temere 'rashly'; Li. temstù ... WP I, 720.'"
+    },
+    {
+     "src": "KLN",
+     "where": "1966 s.v. temerity (KLN_1966.txt line 38479)",
+     "stance": "supports",
+     "note": "'L. temere, 'rashly, at random', prop. 'in the dark', fr. I.-E. base *temes- 'dark', whence also L. tenebrae ..., OI. tamas- 'darkness', tamsrah 'dark', tāmrah 'dark-red, coppery', Avestic təmah 'darkness' ... Cp. tenebrae, temulent, timid. Cp. also tombac'."
+    },
+    {
+     "src": "SYN",
+     "where": "§1.62 DARKNESS, p.61 (SYN.txt line 1839)",
+     "stance": "supports",
+     "note": "Buck: 'Skt. tamas-, tamisra-, timira-, Av. təmah-, tąθra-; Lat. tenebrae (fr. *temes-rā-, cf. Skt. tamisra-) ... Ir. temel ... Lith. tamsa, Lett. tumsa; ChSl. tĭma'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "temah; tethra",
+     "verdict": "plausible",
+     "derivation": "Avestan təmah- n. 'darkness' (Bartholomae) is the exact cognate of Sanskrit tamas-, from PIE *témHos 'darkness' (o-stem neuter in -es/-os), with Indo-Iranian *a > Av. ə before m. The second word is Avestan tąθra- (Bartholomae col. 650: n. pl. 'darkness'; the adjective 'dark' is tąθrya-), from Proto-Iranian *tamHsra- (cf. Skt. tamisra-, Latin tenebrae < *temasrā), with *-ms- > nasalised ą + θr. Both words are correct; 'tethra' is not a standard transliteration (it follows Mo'in's 'tathra' in Borhan p.456, with e for ą), and the gloss 'dark' really belongs to tąθrya-.",
+     "derivation_fa": "اوستایی təmah- «تاریکی» هم‌ریشه با سنسکریت tamas- و از هندواروپایی آغازین *témHos «تاریکی» از ریشهٔ *temH- است. واژهٔ دوم در اوستا tąθra- است (بارتولومه: اسم جمع «تاریکی»؛ صفت «تاریک» tąθrya- است) که از ایرانی باستان *tamHsra- آمده و با سنسکریت tamisra- و لاتین tenebrae هم‌ریشه است؛ خوشهٔ -ms- در اوستایی به واکهٔ خیشومی ą و θr بدل شده. هر دو واژه درست‌اند، ولی صورت «tethra» نورایی نویسه‌گردانی نامعمولی است (برگرفته از tathra در حاشیهٔ معین) و معنای «تاریک» در اصل از آنِ tąθrya- است؛ ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/temH-",
+      "https://en.wiktionary.org/wiki/تار"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1063",
+       "status": "supports",
+       "note": "Pokorny IEW pp.1063-1064 (POK_full.txt line 85335 'Root / lemma: tem(ə)-', 'Meaning: dark', Page(s): 1063-1064): 'Old Indic tamas- n. darkness = Avestan tamah- ..., npers. tam ...; tāmra- 'kupferrot' ...; Avestan tąθra- Nom.Pl. 'darkness', np. tār 'dim' = *tam-sra-'; 'Latin tenebrae ..., temere 'blindlings, aufs Geratewohl' (Lok. *temesi 'im Dunkeln [tappend]')'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 650 s.v. tąθra-, and s.v. təmah- (BRT.txt lines 12207, 12231)",
+       "stance": "supports",
+       "note": "'təmah- n. 'Finsternis, Dunkel''; 'tąθra- n., Plur. 'Dunkelheit' ... Aus ar. *tamsra- ... np. tār; Pü.: tārīk'; adj. 'tąθrya- 'dunkel, finster''. Note: Bartholomae has tąθra- as a noun 'darkness'; the adjective 'dark' is tąθrya-."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I pp.720-721 (WLD_Bd1_pages.txt leaves 729-730)",
+       "stance": "supports",
+       "note": "'tem(ə)- „dunkel“, *temos n. „Dunkel“: Ai. tamas- n. „Dunkel, Finsternis“ = av. təmah- ds. ...; tāmra-h „dunkelrot, kupferrot“ ...; av. tąθra- n. Pl. „Dunkelheit“'; 'lat. tenebrae ... temere „blindlings, planlos, aufs Geratewohl“ (Loc. *temesi „im dunkeln [tappend]“)'."
+      },
+      {
+       "src": "NYB",
+       "where": "vol.2 glossary p.191 s.v. tārīk (NYB_vol2_glossary.txt line 3745)",
+       "stance": "supports",
+       "note": "'tārīk [tʾlyk] dark ... derived from Av. (650) tąθra- 'darkness', MPrthPrs tʾr; NP tār 'dark, obscure'; tārīk < *tąθriya-ka-, Av. tąθrya- 'dark'.'"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "tam",
+     "verdict": "plausible",
+     "derivation": "NP tam تَم 'darkness; a film/cataract over the eye' (Borhan p.511: آفتی است که در چشم پیدا میشود مانند پرده = Ar. ghishāwa) continues MP tom/tam 'darkness' (MacKenzie: tom [twm] darkness), from Proto-Iranian *támHah = Av. təmah-; the eye-disease sense is a semantic specialisation of 'darkness (of sight)'. Of the extra words, tār 'dark' < MP tār < *tamHsra- (Av. tąθra-) and tārīk < MP tārīg < *tąθriya-ka- (Nyberg) are confirmed; tīre 'dark' < MP tērag is attested, and Mo'in (Borhan p.544, after Nyberg 225) derives it from *tąθrya-ka-, which is less certain phonetically (Wiktionary goes back only to MP tērag). Hence 'plausible' for the box as a whole.",
+     "derivation_fa": "«تَم» (تاریکی؛ پرده‌ای که بر چشم می‌افتد، به عربی غشاوه) از فارسی میانهٔ tom/tam «تاریکی»، از ایرانی باستان *támHah- (اوستایی təmah-) است؛ معنای «آفت چشم» تخصیص معنایی «تاریکیِ دید» است. «تار» (تاریک) از پهلوی tār، از *tamHsra- (اوستایی tąθra-) و «تاریک» از پهلوی tārīg از *tąθriya-ka- است که هر دو قطعی‌اند. «تیره» از پهلوی tērag است؛ معین به پیروی از نیبرگ آن را از *tąθrya-ka- می‌داند، ولی این پیوند از نظر آوایی کمتر روشن است. بنابراین ادعای نورایی برای «تم، تار، تاریک» درست و برای «تیره» با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/تم",
+      "https://en.wiktionary.org/wiki/تار",
+      "https://en.wiktionary.org/wiki/تیره"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:456",
+       "status": "supports",
+       "note": "Borhan vol.1 p.456 (archive.org borhan-ghate-v1 leaf n682; read from image, saved ocr/BQT/0456.vision.txt): 'تار ... و تیره و تاریک را نیز گویند'; Mo'in fn.2: 'اوستا tathra (تاریک) (از *tamsra، *tansra): هندی باستان támisra (تاریک)، پهلوی târ، کردی târî، افغانی tôr، استی taling ...' — Nourai's 'tethra' reflects Mo'in's 'tathra'."
+      },
+      {
+       "ref": "BQT:511",
+       "status": "supports",
+       "note": "Borhan vol.1 p.511 (leaf n739; ocr/BQT/0511.vision.txt): 'تم - بفتح اول و سکون ثانی، آفتی است که در چشم پیدا میشود مانند پرده، و آنرا بعربی غشاوه گویند'; Mo'in fn.1: 'اوستا temah (تاریکی)؛ پهلوی tum ...، tumīk؛ هندی باستان támas (تاریکی)، افغانی tôr [tam] (تاریکی)'."
+      },
+      {
+       "ref": "BQT:544",
+       "status": "supports",
+       "note": "Borhan vol.1 p.544 (leaf n772; ocr/BQT/0544.vision.txt): 'تیره - بروزن خیره، تاریک و سیاه فام را گویند'; Mo'in fn.1: 'ایرانی باستان *tathrya-ka از اوستا tathrya «بارتولومه ۶۵۰» «نیبرگ ۲۲۵» قس: تار، تاریک؛ پهلوی têrak ...'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 370 (HRN.txt line 3471)",
+       "stance": "supports",
+       "note": "'370. (2) tār 'finster', tārīk ... aw. tąθra- 'finster' (aus *tamsra-, *tansra-, Brugmann) ; ai. tāmisra- 'finster' ... phlv. tār, tār[tum] (Bund.), tārīk, tārīkīh.'"
+      },
+      {
+       "src": "HUB",
+       "where": "HUB.txt line 4922",
+       "stance": "partial",
+       "note": "Hübschmann only cites 'tīra 'dunkel' gegen bal. tēray' as an example of ī/ē alternation; no derivation from Av. tąθra-."
+      },
+      {
+       "src": "PHD",
+       "where": "s.v. tom, tār, tārīg (PHD_mackenzie.txt lines 5007, 4925, 4931)",
+       "stance": "supports",
+       "note": "'tom [t(w)m I M tm, N tam] darkness'; 'tār [tʾl M tʾr] darkness'; 'tārīg/k [tʾlyk ...] dark'."
+      },
+      {
+       "src": "ARY",
+       "where": "p.189 s.v. تار، تاریک (ocr/ARY/0189.png)",
+       "stance": "supports",
+       "note": "Aryanpur: 'AVESTAN TATHRA, TEMAH; PAHLAVI TAR, TARAG, TARIG, TUM, TUMIK; ... SANSKRIT TAMSRAS, TAMRAS, TAMISRA, TAMAS; LATIN TENEBRAE ... POKORNY 1063-1064 ... برهان قاطع ۴۵۶، ۵۱۱'; note: 'واژه‌ی فارسی «تم» (پردهٔ چشم یا آب مروارید) نیز از همین واجریشه است (POKORNY:1063)'."
+      },
+      {
+       "src": "MON",
+       "where": "vajehyab Mo'in s.v. تم",
+       "stance": "silent",
+       "note": "vajehyab's Mo'in entry for تم gives only the French loan تم 'theme' [فر.]; the native تم 'darkness, cataract' is not shown online."
+      },
+      {
+       "src": "NYB",
+       "where": "vol.2 p.191 s.v. tārīk",
+       "stance": "supports",
+       "note": "'tārīk < *tąθriya-ka-, Av. tąθrya- 'dark'; NP tār'."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Sogdian",
+     "words": "tm",
+     "verdict": "confirmed",
+     "derivation": "Sogdian tm /tam/ 'hell' (Buddhist, Manichaean and Christian texts) is the regular Sogdian continuant of Old Iranian *tamah- 'darkness' (Av. təmah-): final -ah lost, giving tam; the meaning narrowed from 'darkness' to 'the dark place, hell', exactly as Avestan uses təmah- for the abode of the wicked. Gharib entry 9588 glosses it 'hell' and derives it from Av. təmah-.",
+     "derivation_fa": "سغدی tm (تلفظ tam) «دوزخ» دنبالهٔ منظم ایرانی باستان *tamah- «تاریکی» (اوستایی təmah-) است که پایانهٔ -ah در آن افتاده است؛ معنا از «تاریکی» به «جای تاریک، دوزخ» تخصیص یافته، چنان‌که در اوستا نیز təmah- جایگاه بدکاران است. قریب در فرهنگ سغدی (مدخل ۹۵۸۸، ص۳۸۷) همین معنا و همین ریشه را آورده است؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/temH-"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:387",
+       "status": "supports",
+       "note": "Gharib p.387 (SOD_pages.txt leaf 454, line 31378), entry 9588: 'tm- B, M, C  tam <Av. təmah-  ... hell'; also intro p.xxxi: '/tam/ tm- hell Av. təmah-, Skt. tamas'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 650 s.v. tąθra-, and s.v. təmah- (BRT.txt lines 12207, 12231)",
+       "stance": "supports",
+       "note": "'təmah- n. 'Finsternis, Dunkel''; 'tąθra- n., Plur. 'Dunkelheit' ... Aus ar. *tamsra- ... np. tār; Pü.: tārīk'; adj. 'tąθrya- 'dunkel, finster''. Note: Bartholomae has tąθra- as a noun 'darkness'; the adjective 'dark' is tąθrya-."
+      },
+      {
+       "src": "SOD",
+       "where": "intro p.xxxi (SOD_pages.txt line 3135)",
+       "stance": "supports",
+       "note": "'/tam/ tm- hell  Av. təmah-, Skt. tamas' (as an example of Sogdian t < Olr. *t)."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Latin",
+     "words": "temĕre",
+     "verdict": "transcription_suspect",
+     "error_in": "book",
+     "book_prints": "temĕre : to fear",
+     "correct_form": "temere (adv.) 'blindly, rashly, at random'; 'to fear' = timēre",
+     "derivation": "Latin temere is an adverb 'blindly, at random, rashly', a fossilised locative *temesi 'in the dark' from PIE *témHos 'darkness' (Pokorny, Walde-Pokorny, Watkins, Ernout-Meillet, Wiktionary); it is correctly placed under *temH-. But the book prints the gloss 'to fear', which belongs to the different verb timēre (Italian temere 'to fear' < Latin timēre may have caused the confusion). The extraction is faithful; this is Nourai's error in the book.",
+     "derivation_fa": "لاتین temere قیدی است به معنای «کورکورانه، بی‌پروا، به‌تصادف»، که حالت دری (locative) سنگ‌شدهٔ *temesi «در تاریکی» از هندواروپایی آغازین *témHos «تاریکی» است و جایش زیر ریشهٔ *temH- درست است. اما کتاب معنای آن را «ترسیدن» چاپ کرده که معنای فعل دیگری، timēre، است (شاید به سبب ایتالیایی temere «ترسیدن» که خود از timēre است). خطا از خود کتاب است، نه از استخراج.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/temere",
+      "https://en.wiktionary.org/wiki/timeo"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins s.v. temə-: '1. Latin temere, blindly, rashly: TEMERARIOUS, TEMERITY. [Pok. tem(ə)- 1063.]' — supports temere under this root, with the gloss 'blindly, rashly', not 'to fear'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p.1063",
+       "stance": "supports",
+       "note": "'temere 'blindlings, aufs Geratewohl' (Lok. *temesi 'im Dunkeln [tappend]')'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I pp.720-721 (WLD_Bd1_pages.txt leaves 729-730)",
+       "stance": "supports",
+       "note": "'tem(ə)- „dunkel“, *temos n. „Dunkel“: Ai. tamas- n. „Dunkel, Finsternis“ = av. təmah- ds. ...; tāmra-h „dunkelrot, kupferrot“ ...; av. tąθra- n. Pl. „Dunkelheit“'; 'lat. tenebrae ... temere „blindlings, planlos, aufs Geratewohl“ (Loc. *temesi „im dunkeln [tappend]“)'."
+      },
+      {
+       "src": "LAT",
+       "where": "s.v. temere (LAT.txt line 63323)",
+       "stance": "supports",
+       "note": "Ernout-Meillet: 'temere adv.: à l'aveuglette, par suite inconsidérément, au hasard ... proprement ablatif-instrumental d'un subst. *temus, -eris obscurité, cf. tenebrae'."
+      },
+      {
+       "src": "IEC",
+       "where": "IEC.txt line 18325 s.v. tem- (1)",
+       "stance": "supports",
+       "note": "Mann: 'tem- (1) radical element 'dark', in Skt. tamiḥ 'night'; Lat. temere 'rashly'; Li. temstù ... WP I, 720.'"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "English",
+     "words": "timid, temerity",
+     "verdict": "plausible",
+     "derivation": "temerity (ME temeryte, c.1450) < Latin temeritās 'rashness' < temere 'blindly, rashly' < *temH- 'dark' — confirmed (Watkins, Klein, Skeat). timid (1540s) < French timide < Latin timidus < timēre 'to fear'; timēre has no secure etymology: Klein and Skeat link it to the 'dark' root ('to grope in the dark'), but Watkins does not list it under temə-, Ernout-Meillet give no etymology, and Wiktionary calls the *temH- link 'semantically reasonable, but phonetically difficult'.",
+     "derivation_fa": "انگلیسی temerity «بی‌باکی، گستاخی» از لاتین temeritās، از temere «کورکورانه» و سرانجام از ریشهٔ هندواروپایی *temH- «تاریک» است و ادعای نورایی دربارهٔ آن درست است. اما timid «ترسو» از فرانسوی timide و لاتین timidus از فعل timēre «ترسیدن» است که ریشه‌اش روشن نیست؛ کلاین و اسکیت آن را به همین ریشهٔ «تاریکی» پیوند می‌دهند، ولی واتکینز آن را نیاورده و ویکی‌واژه این پیوند را از نظر آوایی دشوار می‌داند. پس برای timid ادعا تنها با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/timeo",
+      "https://en.wiktionary.org/wiki/temere"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins s.v. temə- lists TEMERARIOUS, TEMERITY only; timid is not derived from this root."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "1966 s.v. temerity (KLN_1966.txt line 38479)",
+       "stance": "supports",
+       "note": "'L. temere, 'rashly, at random', prop. 'in the dark', fr. I.-E. base *temes- 'dark', whence also L. tenebrae ..., OI. tamas- 'darkness', tamsrah 'dark', tāmrah 'dark-red, coppery', Avestic təmah 'darkness' ... Cp. tenebrae, temulent, timid. Cp. also tombac'."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. timid (KLN_1966.txt line 39284)",
+       "stance": "supports",
+       "note": "'timid ... L. timidus ... fr. timere 'to fear', which prob. meant orig. 'to be in the dark, to grope about in the dark', and is rel. to tenebrae ... temere'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Temerity (SKT_dli_revised.txt line 79505); s.v. Timid (SKT.txt line 19736)",
+       "stance": "partial",
+       "note": "'Temerity ... L. adv. temere, rashly. The orig. sense of temere was 'in the dark'; cf. Skt. tamas, gloom'; 'Timid ... L. timere, to fear. Al. tam, to choke' (Skeat connects timere with Skt. tam- 'choke', not with 'dark')."
+      },
+      {
+       "src": "LAT",
+       "where": "s.v. timeo (LAT.txt line 64505)",
+       "stance": "contradicts",
+       "note": "Ernout-Meillet give no etymology for timeo ('Les mots indo-européens signifiant craindre n'ont qu'une aire peu étendue ...')."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Sanskrit",
+     "words": "tâm-rah",
+     "verdict": "confirmed",
+     "derivation": "Sanskrit tāmrá- adj. 'dark red, coppery', n. 'copper' (the hyphen in the book's tâm-rah is only a syllable break) is related to tamas- 'darkness', copper being a dark-coloured metal; Wiktionary reconstructs *tm̥H-ró- with ā perhaps analogical from tam-; Pokorny and Walde-Pokorny list tāmra- 'kupferrot' under tem(ə)-.",
+     "derivation_fa": "سنسکریت tāmra- «سرخ تیره، مسی» و «مس» (خط تیرهٔ «tâm-rah» در کتاب تنها مرز هجاست) با tamas- «تاریکی» هم‌ریشه است، چون مس فلزی تیره‌رنگ است؛ ویکی‌واژه صورت *tm̥H-ró- را بازسازی می‌کند و واکهٔ بلند ā را احتمالاً قیاسی می‌داند. پوکورنی و والده‌ـپوکورنی نیز tāmra- را زیر ریشهٔ *tem(ə)- آورده‌اند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ताम्र",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/temH-"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1626",
+       "status": "supports",
+       "note": "Klein s.v. tombac: 'OI. tāmrakah ... fr. tāmráh, 'dark-red, coppery', which is rel. to tamas-, 'darkness'.' (entry found; exact page number not confirmed by leaf offset)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p.1063",
+       "stance": "supports",
+       "note": "'tāmra- 'oxblood, indigo, kupferrot''."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I pp.720-721 (WLD_Bd1_pages.txt leaves 729-730)",
+       "stance": "supports",
+       "note": "'tem(ə)- „dunkel“, *temos n. „Dunkel“: Ai. tamas- n. „Dunkel, Finsternis“ = av. təmah- ds. ...; tāmra-h „dunkelrot, kupferrot“ ...; av. tąθra- n. Pl. „Dunkelheit“'; 'lat. tenebrae ... temere „blindlings, planlos, aufs Geratewohl“ (Loc. *temesi „im dunkeln [tappend]“)'."
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. temerity (KLN_1966.txt line 38479)",
+       "stance": "supports",
+       "note": "'L. temere, 'rashly, at random', prop. 'in the dark', fr. I.-E. base *temes- 'dark', whence also L. tenebrae ..., OI. tamas- 'darkness', tamsrah 'dark', tāmrah 'dark-red, coppery', Avestic təmah 'darkness' ... Cp. tenebrae, temulent, timid. Cp. also tombac'."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Malaysian",
+     "words": "tambaga",
+     "verdict": "confirmed",
+     "derivation": "Malay tembaga (older/dialectal tambaga) 'copper, brass' was borrowed, via a Prakrit *taṃbaga, from Sanskrit tāmraka- 'copper' (tāmra + -ka); the cluster -mr- became -mb- in Middle Indic. The word spread with Indian trade into Javanese (Old Javanese tambaga), Malay and the Philippines.",
+     "derivation_fa": "مالایی tembaga (کهن‌تر tambaga) «مس، برنج» از راه پراکریت *taṃbaga از سنسکریت tāmraka- «مس» وام گرفته شده است؛ خوشهٔ -mr- در هندی میانه به -mb- بدل شده. این واژه با بازرگانی هندی به جاوه‌ای کهن و مالایی رسید. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/tembaga"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1626",
+       "status": "supports",
+       "note": "Klein 1966 s.v. tombac (KLN_1966.txt line 39481, leaf 861; the leaf-offset rule gives c. p.1698, so the exact page 1626 is not confirmed, but the entry is the one meant): 'tombac, n., an alloy of copper and zinc. F. tombac, fr. Port. tombac, fr. Malay tambaga, 'copper', fr. OI. tāmrakah, of s.m., fr. tāmráh, 'dark-red, coppery', which is rel. to tamas-, 'darkness'.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HJB",
+       "where": "s.v. TOMBACK (HJB.txt line 22251)",
+       "stance": "supports",
+       "note": "'TOMBACK, s. An alloy of copper and zinc ... Port. tambaca, from Malay tāmbaga and tāmbāga, 'copper', which is again from Skt. tāmrika and tāmra.'"
+      },
+      {
+       "src": "KLN",
+       "where": "1966 s.v. temerity (KLN_1966.txt line 38479)",
+       "stance": "supports",
+       "note": "'L. temere, 'rashly, at random', prop. 'in the dark', fr. I.-E. base *temes- 'dark', whence also L. tenebrae ..., OI. tamas- 'darkness', tamsrah 'dark', tāmrah 'dark-red, coppery', Avestic təmah 'darkness' ... Cp. tenebrae, temulent, timid. Cp. also tombac'."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Portuguese",
+     "words": "tombac",
+     "verdict": "plausible",
+     "derivation": "The Portuguese, trading in the Malay world from the early 16th c., took Malay tambaga as tambaca / tambaque 'copper alloy' (Hobson-Jobson: 'Port. tambaca'); modern Portuguese has tombaque. Klein's 'Port. tombac' is a simplified citation; the route is right but the Portuguese form is tambaca, not tombac.",
+     "derivation_fa": "پرتغالی‌ها که از آغاز سدهٔ شانزدهم در جهان مالایی بازرگانی می‌کردند، مالایی tambaga را به صورت tambaca / tambaque «آلیاژ مس» گرفتند (هابسن‌جابسن: Port. tambaca)؛ صورت امروزی پرتغالی tombaque است. مسیر وام‌گیری که نورایی به پیروی از کلاین آورده درست است، ولی صورت پرتغالی tombac نیست؛ پس ادعا با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/tembaga"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1626",
+       "status": "supports",
+       "note": "Klein 1966 s.v. tombac (KLN_1966.txt line 39481, leaf 861; the leaf-offset rule gives c. p.1698, so the exact page 1626 is not confirmed, but the entry is the one meant): 'tombac, n., an alloy of copper and zinc. F. tombac, fr. Port. tombac, fr. Malay tambaga, 'copper', fr. OI. tāmrakah, of s.m., fr. tāmráh, 'dark-red, coppery', which is rel. to tamas-, 'darkness'.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HJB",
+       "where": "s.v. TOMBACK (HJB.txt line 22251)",
+       "stance": "supports",
+       "note": "'TOMBACK, s. An alloy of copper and zinc ... Port. tambaca, from Malay tāmbaga and tāmbāga, 'copper', which is again from Skt. tāmrika and tāmra.'"
+      },
+      {
+       "src": "LKT",
+       "where": "no. 2012 (LKT.txt line 4530)",
+       "stance": "supports",
+       "note": "'Mal. tambāga 'Kupfer' [aus sskr. tāmraka, eigentlich 'das dunkle Metall' ...]; hieraus zur Bezeichnung einer Legierung von Kupfer und Zink pg. tambaque, tambaca, sp. tumbaga, frz. tombac, it. tombacco; engl. tomback' — Portuguese form tambaque/tambaca."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "French",
+     "words": "tombac",
+     "verdict": "confirmed",
+     "derivation": "French tombac (attested from the early 17th c.) 'tombac, a copper-zinc alloy' was taken from Portuguese tambaca/tombaque, with the Malay final -a dropped and the first vowel rounded; it is the source of the English word.",
+     "derivation_fa": "فرانسوی tombac «تمباک، آلیاژ مس و روی» (از آغاز سدهٔ هفدهم) از پرتغالی tambaca/tombaque گرفته شده است؛ واکهٔ پایانی افتاده و واکهٔ نخست گرد شده است. انگلیسی tombac نیز از همین واژهٔ فرانسوی است؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/tombac"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1626",
+       "status": "supports",
+       "note": "Klein 1966 s.v. tombac (KLN_1966.txt line 39481, leaf 861; the leaf-offset rule gives c. p.1698, so the exact page 1626 is not confirmed, but the entry is the one meant): 'tombac, n., an alloy of copper and zinc. F. tombac, fr. Port. tombac, fr. Malay tambaga, 'copper', fr. OI. tāmrakah, of s.m., fr. tāmráh, 'dark-red, coppery', which is rel. to tamas-, 'darkness'.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HJB",
+       "where": "s.v. TOMBACK (HJB.txt line 22251)",
+       "stance": "supports",
+       "note": "'TOMBACK, s. An alloy of copper and zinc ... Port. tambaca, from Malay tāmbaga and tāmbāga, 'copper', which is again from Skt. tāmrika and tāmra.'"
+      },
+      {
+       "src": "FSD",
+       "where": "vol.4 s.v. tambac (FSD_vol4.txt line 30358)",
+       "stance": "partial",
+       "note": "'tam'bac ... n. 1. Same as tombac. 2. Agalochum or aloes-wood [Var. of tombac]' — confirms the English variant spellings tambac/tombac; no etymology in this snippet."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "English",
+     "words": "tombac, tambaga",
+     "verdict": "plausible",
+     "derivation": "English tombac (also tombak, tambac, 17th c.) is borrowed from French tombac (Wiktionary: 'Borrowed from French tombac'; Klein). 'tambaga' is not an established English word: it is the Malay/Philippine word cited in English dictionaries (Hobson-Jobson, Klein) as the etymon, so listing it as an English derivative is loose.",
+     "derivation_fa": "انگلیسی tombac (و گونه‌های tombak و tambac، از سدهٔ هفدهم) از فرانسوی tombac وام گرفته شده و این بخش درست است. ولی tambaga واژهٔ رایج انگلیسی نیست؛ واژه‌ای مالایی است که فرهنگ‌های انگلیسی (هابسن‌جابسن، کلاین) تنها به عنوان ریشه آورده‌اند. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/tombac"
+     ],
+     "ref_check": [
+      {
+       "ref": "OXF:435",
+       "status": "not_checked",
+       "note": "Oxford Dictionary of Foreign Words and Phrases is lending-only on archive.org; not readable."
+      },
+      {
+       "ref": "KLN:1626",
+       "status": "supports",
+       "note": "Klein 1966 s.v. tombac (KLN_1966.txt line 39481, leaf 861; the leaf-offset rule gives c. p.1698, so the exact page 1626 is not confirmed, but the entry is the one meant): 'tombac, n., an alloy of copper and zinc. F. tombac, fr. Port. tombac, fr. Malay tambaga, 'copper', fr. OI. tāmrakah, of s.m., fr. tāmráh, 'dark-red, coppery', which is rel. to tamas-, 'darkness'.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HJB",
+       "where": "s.v. TOMBACK (HJB.txt line 22251)",
+       "stance": "supports",
+       "note": "'TOMBACK, s. An alloy of copper and zinc ... Port. tambaca, from Malay tāmbaga and tāmbāga, 'copper', which is again from Skt. tāmrika and tāmra.'"
+      },
+      {
+       "src": "FSD",
+       "where": "vol.4 s.v. tambac (FSD_vol4.txt line 30358)",
+       "stance": "partial",
+       "note": "'tam'bac ... n. 1. Same as tombac. 2. Agalochum or aloes-wood [Var. of tombac]' — confirms the English variant spellings tambac/tombac; no etymology in this snippet."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Temar",
+   "verdict": "confirmed",
+   "modern_form": "Aramaic/Syriac ṭ(ə)mar 'to bury, hide' (Semitic root ṭ-m-r; cf. Akkadian ṭamāru, Hebrew ṭāman)",
+   "note": "Klein (s.v. mattamore, citing Fraenkel p.137) gives exactly this root: Aram. ṭ'mar 'he hid, concealed' > Arabic ṭamara / maṭmūra. Fraenkel and Wiktionary hold that the 'underground store' sense of Arabic maṭmūra was borrowed from Syriac maṭmūrtā. The root's emphatic ṭ is not marked in 'Temar'. The French gloss 'a dwelling place' is loose (silo/dungeon). No extraction errors.",
+   "note_fa": "ریشهٔ آرامی/سریانی ṭmar «دفن کردن، پنهان کردن» (ریشهٔ سامی ط م ر؛ قس: اکدی ṭamāru، عبری ṭāman) است و کلاین به نقل از فرانکل (ص۱۳۷) همین را آورده است: آرامی ṭ'mar ← عربی طمر و مطمورة. فرانکل و ویکی‌واژه معنای «انبار زیرزمینی» مطمورة را وام از سریانی maṭmūrtā می‌دانند. ادعای نورایی درست است؛ تنها معنای «جای سکونت» برای فرانسوی matamore دقیق نیست و خطای استخراج دیده نشد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/مطمورة"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:948",
+     "status": "supports",
+     "note": "Klein 1966 s.v. mattamore (KLN_1966.txt line 23149, leaf 509): 'mattamore, n., a subterranean dwelling or storehouse. — F. matamore, fr. Arab. maṭmūra, 'something hidden', prop. fem. pass. part. of ṭámara, 'he hid, concealed', fr. Aram. ṭ'mar, of s.m. See Siegmund Fraenkel, Die aramäischen Fremdwörter im Arabischen, p.137. Aram. ṭ'mar is rel. to Heb. ṭāman ... Akkad. ṭamāru 'to cover with earth''."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AFA",
+     "where": "p.137 (AFA.txt line 5013)",
+     "stance": "supports",
+     "note": "Fraenkel: 'Eine unterirdische Grube zum Aufbewahren des Getreides ist [maṭmūra] ... Da [ṭamara] im Altarabischen in der Bedeutung »aufbewahren« nicht existiert, so ist schon von vornherein die Entlehnung wahrscheinlich ... findet sich [maṭmūrā] wirklich in dieser Bedeutung im Syrischen.'"
+    },
+    {
+     "src": "FVQ",
+     "where": "grep matmur/طمر",
+     "stance": "silent",
+     "note": "not a Qur'anic word; Jeffery silent."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "temara, t.m.r; matmŭrah",
+     "verdict": "confirmed",
+     "derivation": "Arabic ṭamara (root ṭ-m-r, with emphatic ṭ) 'to bury, hide, fill up (a pit)', and maṭmūra, the feminine passive participle (maf'ūl pattern) 'something hidden', used for an underground silo/granary and later a subterranean dungeon. Fraenkel (p.137) argues the 'store underground' sense is borrowed from Syriac maṭmūrtā/maṭmōrā 'pit for hiding treasures' (from ṭmar 'to bury, hide'), since Old Arabic lacks that meaning; Wiktionary follows him. Nourai's 'temara' is a loose transliteration of ṭamara.",
+     "derivation_fa": "عربی «طَمَرَ» (ریشهٔ ط م ر) «دفن کردن، نهان کردن» و «مَطمورة» اسم مفعول مؤنث (بر وزن مفعول) به معنای «چیز نهان‌شده»، سپس «انبار زیرزمینی غله» و بعدها «سیاه‌چال». فرانکل (ص۱۳۷) معنای «انبار زیرزمینی» را وام از سریانی maṭmūrtā (از ṭmar «دفن کردن، پنهان کردن») می‌داند، چون این معنا در عربی کهن نیست؛ ویکی‌واژه نیز همین را می‌گوید. ادعای نورایی درست است؛ «temara» تنها نویسه‌گردانی آزادِ ṭamara است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/مطمورة"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:948",
+       "status": "supports",
+       "note": "Klein 1966 s.v. mattamore (KLN_1966.txt line 23149, leaf 509): 'mattamore, n., a subterranean dwelling or storehouse. — F. matamore, fr. Arab. maṭmūra, 'something hidden', prop. fem. pass. part. of ṭámara, 'he hid, concealed', fr. Aram. ṭ'mar, of s.m. See Siegmund Fraenkel, Die aramäischen Fremdwörter im Arabischen, p.137. Aram. ṭ'mar is rel. to Heb. ṭāman ... Akkad. ṭamāru 'to cover with earth''."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AFA",
+       "where": "p.137 (AFA.txt line 5013)",
+       "stance": "supports",
+       "note": "Fraenkel: 'Eine unterirdische Grube zum Aufbewahren des Getreides ist [maṭmūra] ... Da [ṭamara] im Altarabischen in der Bedeutung »aufbewahren« nicht existiert, so ist schon von vornherein die Entlehnung wahrscheinlich ... findet sich [maṭmūrā] wirklich in dieser Bedeutung im Syrischen.'"
+      },
+      {
+       "src": "DEV",
+       "where": "s.v. Matamore (DEV.txt line 1697)",
+       "stance": "supports",
+       "note": "'Matamore. Silo pour le grain ... magasins souterrains ... C'est l'arabe maṭmōra, fosse souterraine, silo. De ce mot vient l'espagnol mazmorra, cachot, fosse, prison.'"
+      },
+      {
+       "src": "PHN",
+       "where": "s.v. MATAMORE (PHN.txt line 7236)",
+       "stance": "supports",
+       "note": "'MATAMORE, s. f. ... maṭmoûrat, caveau, nom de lieu dérivé de ṭamar, cacher sous terre. Cellier souterrain, silo ... aussi le nom d'une sorte de prison ... ne confondez pas ... avec matamore, subst. masc., qui vient de l'espagnol et se dit pour fanfaron'."
+      },
+      {
+       "src": "LAM",
+       "where": "s.v. Matamore (LAM.txt line 5182)",
+       "stance": "supports",
+       "note": "'Matamore. Esp. Ptg: mazmorra ... maṭmoûra, fosse souterraine, silo; et aussi prison, de ṭamar, cacher.'"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "matmŭreh",
+     "verdict": "confirmed",
+     "derivation": "Persian maṭmūre مطموره 'underground store, hidden chamber' is the Arabic maṭmūra borrowed with the Arabic tā' marbūṭa rendered as -e; Mo'in marks it [ع.] 'نهان خانه'. Its use by Manūchehrī (11th c.), quoted on the page, shows it was current in early New Persian.",
+     "derivation_fa": "«مطموره» در فارسی (نهان‌خانه، انبار زیرزمینی) همان عربی «مطمورة» است که تای مدوّر آن در فارسی به «ـه» بدل شده؛ معین آن را با نشان [ع.] و معنای «نهان خانه» آورده است. کاربرد آن در شعر منوچهری (سدهٔ پنجم هجری) نشان می‌دهد که در فارسی دری کهن رایج بوده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://vajehyab.com/moein/مطموره",
+      "https://en.wiktionary.org/wiki/مطمورة"
+     ],
+     "ref_check": [
+      {
+       "ref": "FVA:251",
+       "status": "not_checked",
+       "note": "Nahvi, Farhang-e Vazheha-ye Arabi dar Farsi: no digital copy (refs_online.json)."
+      },
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "vajehyab Mo'in s.v. مطموره: '(مَ رِ) [ع.] (اِ.) نهان خانه.'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AFA",
+       "where": "p.137 (AFA.txt line 5013)",
+       "stance": "supports",
+       "note": "Fraenkel: 'Eine unterirdische Grube zum Aufbewahren des Getreides ist [maṭmūra] ... Da [ṭamara] im Altarabischen in der Bedeutung »aufbewahren« nicht existiert, so ist schon von vornherein die Entlehnung wahrscheinlich ... findet sich [maṭmūrā] wirklich in dieser Bedeutung im Syrischen.'"
+      },
+      {
+       "src": "MON",
+       "where": "MON_part1/part2 local OCR",
+       "stance": "silent",
+       "note": "grep 'مطمور' in the local 2-vol Mo'in abridgement finds nothing; online Mo'in (vajehyab) has it as [ع.] 'نهان خانه'."
+      },
+      {
+       "src": "AFM",
+       "where": "grep مطمور / طمر",
+       "stance": "silent",
+       "note": "Addi Shir does not list it (not a Persian loan into Arabic)."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "French",
+     "words": "matamore",
+     "verdict": "plausible",
+     "derivation": "French matamore (fem.) 'underground silo for grain, used by the Moors; also a subterranean prison for captives' comes from Arabic maṭmūra (North African pronunciation maṭmōra), via Spanish/Portuguese mazmorra, masmorra, matamorra (Devic, Pihan, Lammens). Nourai's gloss 'a dwelling place' is loose: the sources give 'silo, underground storehouse, dungeon'. It is a homonym of matamore (masc.) 'braggart' from Spanish Matamoros 'Moor-killer', which Pihan warns not to confuse.",
+     "derivation_fa": "فرانسوی matamore (مؤنث) «انبار زیرزمینی غله نزد مغربیان؛ نیز سیاه‌چال اسیران» از عربی مطمورة (به تلفظ مغربی maṭmōra) و از راه اسپانیایی و پرتغالی mazmorra / masmorra آمده است (دویک، پیهان، لامنس). معنای «جای سکونت» که نورایی آورده دقیق نیست؛ منابع «انبار زیرزمینی، سیاه‌چال» می‌گویند. این واژه را نباید با matamore (مذکر) «لاف‌زن» از اسپانیایی Matamoros یکی گرفت. ادعای نورایی دربارهٔ اصل واژه درست ولی معنایش با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/mazmorra",
+      "https://en.wiktionary.org/wiki/مطمورة"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:948",
+       "status": "supports",
+       "note": "Klein 1966 s.v. mattamore (KLN_1966.txt line 23149, leaf 509): 'mattamore, n., a subterranean dwelling or storehouse. — F. matamore, fr. Arab. maṭmūra, 'something hidden', prop. fem. pass. part. of ṭámara, 'he hid, concealed', fr. Aram. ṭ'mar, of s.m. See Siegmund Fraenkel, Die aramäischen Fremdwörter im Arabischen, p.137. Aram. ṭ'mar is rel. to Heb. ṭāman ... Akkad. ṭamāru 'to cover with earth''."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "DEV",
+       "where": "s.v. Matamore (DEV.txt line 1697)",
+       "stance": "supports",
+       "note": "'Matamore. Silo pour le grain ... magasins souterrains ... C'est l'arabe maṭmōra, fosse souterraine, silo. De ce mot vient l'espagnol mazmorra, cachot, fosse, prison.'"
+      },
+      {
+       "src": "PHN",
+       "where": "s.v. MATAMORE (PHN.txt line 7236)",
+       "stance": "supports",
+       "note": "'MATAMORE, s. f. ... maṭmoûrat, caveau, nom de lieu dérivé de ṭamar, cacher sous terre. Cellier souterrain, silo ... aussi le nom d'une sorte de prison ... ne confondez pas ... avec matamore, subst. masc., qui vient de l'espagnol et se dit pour fanfaron'."
+      },
+      {
+       "src": "LAM",
+       "where": "s.v. Matamore (LAM.txt line 5182)",
+       "stance": "supports",
+       "note": "'Matamore. Esp. Ptg: mazmorra ... maṭmoûra, fosse souterraine, silo; et aussi prison, de ṭamar, cacher.'"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "English",
+     "words": "mattamore",
+     "verdict": "confirmed",
+     "derivation": "English mattamore (17th c., travellers' accounts of North Africa and the Levant) 'a subterranean dwelling, storehouse or dungeon' is borrowed from French matamore, itself from Arabic maṭmūra; Klein and Funk & Wagnalls give exactly this chain.",
+     "derivation_fa": "انگلیسی mattamore (از سدهٔ هفدهم، در سفرنامه‌های شمال آفریقا و شام) «جایگاه یا انبار یا زندان زیرزمینی» از فرانسوی matamore و آن از عربی «مطمورة» است؛ کلاین و فانک‌ووگنالز همین زنجیره را آورده‌اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/مطمورة"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:948",
+       "status": "supports",
+       "note": "Klein 1966 s.v. mattamore (KLN_1966.txt line 23149, leaf 509): 'mattamore, n., a subterranean dwelling or storehouse. — F. matamore, fr. Arab. maṭmūra, 'something hidden', prop. fem. pass. part. of ṭámara, 'he hid, concealed', fr. Aram. ṭ'mar, of s.m. See Siegmund Fraenkel, Die aramäischen Fremdwörter im Arabischen, p.137. Aram. ṭ'mar is rel. to Heb. ṭāman ... Akkad. ṭamāru 'to cover with earth''."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "FSD",
+       "where": "vol.3 s.v. mattamore (FSD_vol3.txt line 17074)",
+       "stance": "supports",
+       "note": "'mat'ta-more ... n. In Eastern countries, a cavern or other underground place for storing grain [< F matamore, < Ar. maṭmūr, cavern for storing corn]'."
+      },
+      {
+       "src": "SKT",
+       "where": "grep mattamore",
+       "stance": "silent",
+       "note": "not in Skeat."
+      },
+      {
+       "src": "HJB",
+       "where": "grep mattamore",
+       "stance": "silent",
+       "note": "not in Hobson-Jobson."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

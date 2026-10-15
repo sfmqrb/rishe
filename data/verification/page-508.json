@@ -1,0 +1,235 @@
+{
+  "pdf_page": 508,
+  "book_page": 478,
+  "verified_by": "claude-opus-5.5",
+  "verified_on": "2026-10-14",
+  "entries": [
+    {
+      "entry": 1,
+      "root": "Teub, Tebh, Tebhos",
+      "verdict": "unverified",
+      "modern_form": "Mann's *tebh-, *tebhus (?) 'side' (not in Pokorny, Walde-Pokorny or Watkins/AHD)",
+      "note": "The root is taken from Mann alone. IEC p.1371 (local IEC.txt line 18248-18250): 'tebh-, us (?) side. Cf. Supt. tueb-, toib- ... Per. tav, tū, s. fold, plait; Hitt. tapus, s. side. (The phonol. is obscure, as also that of Arm. kʿov side; Per. sū, suy, id.; Ir. taobh, id.; W tu, id.)'. Mann queries the root himself and says the phonology of the Armenian and Persian 'side' words is obscure. The comparison rests on Hittite tapuš 'side' and Old Irish tóeb / Irish taobh 'side'. Pokorny, Walde-Pokorny and Watkins have no such root. Mann's supplement page 1676 lies beyond the end of the local IEC OCR (it stops near p.1554). None of the four daughter nodes holds up: Pahlavi sōg and Armenian kʿov are phonologically impossible from *t-, Persian tū has no recorded etymology, and Arabic sūq is a Semitic word (Aramaic šūqā < Akkadian sūqu 'street'), not a borrowing from Persian sū.",
+      "note_fa": "ریشهٔ *tebh- «پهلو» را تنها مان (Mann) آورده، آن هم با نشانهٔ پرسش. او خودش نوشته که پیوند واژه‌های فارسی و ارمنی با آن از نظر آوایی «مبهم» است. پوکورنی، والده-پوکورنی و واتکینز چنین ریشه‌ای ندارند. پایهٔ این مقایسه فقط هیتی tapuš و ایرلندی taobh «پهلو» است. شاخه‌های نمودار هم پذیرفتنی نیستند: «سو» از پهلوی sōg است و آغازه‌اش با t- هندواروپایی نمی‌خواند؛ ریشهٔ «تو» دانسته نیست؛ و «سوق» عربی واژه‌ای سامی است. پس خودِ ریشه نامطمئن است و شاخه‌هایش بیشتر رد می‌شوند.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/سو",
+        "https://en.wiktionary.org/wiki/تو",
+        "https://en.wiktionary.org/wiki/քով",
+        "https://en.wiktionary.org/wiki/سوق"
+      ],
+      "ref_check": [
+        {"ref": "IEC:1371", "status": "partial", "note": "IEC.txt line 18248-18250 (p.1371): 'tebh-, us (?) side ... Per. tav, tū, s. fold, plait; Hitt. tapus, s. side. (The phonol. is obscure, as also that of Arm. Kov side; Per. sü, suy, id.; Ir. taobh, id.)'. Mann has the root and the Persian/Armenian words, but queries the root and calls the Persian sū and Armenian kʿov comparisons phonologically obscure."},
+        {"ref": "IEC:1676", "status": "not_found", "note": "Supplement page (the 'Supt. tueb-, toib-' cross-reference). The local IEC.txt ends at about p.1554 (858 leaves), so the supplement is not on disk."}
+      ],
+      "consulted": [
+        {"src": "POK", "where": "POK_full/POK_01-03 grep 'tapus', 'taobh', 'tebh'", "stance": "silent", "note": "no root *tebh- 'side'; Hitt. tapuš and Ir. taobh are not cited"},
+        {"src": "WLD", "where": "WLD_Bd1_pages.txt grep 'taobh', 'tapus'", "stance": "silent", "note": "no such root"},
+        {"src": "AHD", "where": "AHD_watkins1985.txt grep 'tebh', 'taobh'", "stance": "silent", "note": "no root *tebh- 'side' in Watkins"}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "tŭ",
+          "verdict": "unverified",
+          "derivation": "Persian tū / tōy (تو، توی، توه) 'fold, layer; inside', as in tū-be-tū 'fold upon fold' in the Tāherī Qazvīnī verse. The word exists in this sense. Its only link to *tebh- 'side' is Mann's list (IEC 1371: 'Per. tav, tū, s. fold, plait'), and Mann himself queries the root. An inherited *t- would survive in Persian, and *-bh- could in principle give -v- (tav), but no Middle Persian or Old Iranian ancestor of tū 'fold/inside' is attested. Wiktionary marks the etymology of the 'fold' and 'inside' senses as missing. No independent source either confirms or rejects the derivation.",
+          "derivation_fa": "«تو» (توی، توه) به معنی «لا، چین» و «درون» در فارسی هست؛ در بیت طاهری قزوینی هم «تو به تو» به معنی لا به لا آمده است. تنها مان آن را در کنار ریشهٔ پرسش‌دار *tebh- «پهلو» آورده است. صورت فارسی میانه یا ایرانی باستانی برای این «تو» دیده نشده و ویکی‌واژه هم ریشه‌اش را نامعلوم می‌داند. پیوند آن با این ریشه نه تأیید می‌شود و نه رد؛ ادعای نورایی اثبات‌نشده است.",
+          "sources": ["https://en.wiktionary.org/wiki/تو"],
+          "ref_check": [
+            {"ref": "IEC:1371", "status": "partial", "note": "IEC.txt line 18250: 'Per. tav, tū, s. fold, plait', listed under 'tebh-, us (?) side' with the remark '(The phonol. is obscure ...)'"},
+            {"ref": "IEC:1676", "status": "not_found", "note": "supplement page beyond the end of the local IEC OCR"},
+            {"ref": "MON:1158", "status": "not_checked", "note": "Mo'in print page; vajehyab's تو entries returned only unrelated senses (e.g. 'لب تو رفتن') and could not be mapped to p.1158"}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "HRN.txt grep 'Falte', entries tü/tö", "stance": "silent", "note": "Horn has no entry for tū 'Falte/innen'; only no. 455 np. cīn 'Falte' turns up"},
+            {"src": "POK", "where": "POK_full grep 'tebh'", "stance": "silent", "note": "no root; the Persian tū is not cited anywhere"},
+            {"src": "ARY", "where": "ARY_latin_index_pages.txt grep TAV / TU", "stance": "silent", "note": "no entry for تو 'fold' found"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "sŭk, sôk",
+          "verdict": "disputed",
+          "derivation": "The word is real: Pahlavi sōg / sōk [swkʾ] 'side, direction' (MacKenzie: 'sōg [swk] side, direction; N sō(y)'; Nyberg: 'sōk [swk'] side; 4 ~ 4 gētē the four cardinal points ... NP sū, sūy'). Its derivation from IE *tebh- 'side' is impossible. Old Iranian *t- stays t- in Middle Persian and does not become s-, and *-bh- does not yield -k/-g. Horn (no. 748) states that no older form exists. Mann himself (IEC 1371) calls the Persian comparison phonologically obscure. The word has no accepted IE etymology.",
+          "derivation_fa": "پهلوی sōg / sōk «سو، جهت» در مکنزی و نیبرگ آمده و نیبرگ آن را ریشهٔ «سو» و «سوی» فارسی می‌داند. ولی برگرداندنش به *tebh- از نظر آوایی ناشدنی است: t- ایرانی باستان در فارسی میانه s- نمی‌شود و bh- هم به k/g نمی‌رسد. هرن (شمارهٔ ۷۴۸) می‌گوید صورت کهن‌تری از این واژه در دست نیست. پس واژهٔ پهلوی درست است، ولی پیوندش با این ریشه را پژوهش امروزی نمی‌پذیرد.",
+          "sources": ["https://en.wiktionary.org/wiki/سو"],
+          "ref_check": [
+            {"ref": "HRN:165", "status": "contradicts", "note": "HRN.txt leaf 187 (p.165) no. 748: 'sū, sūi Richtung, Seite ... phlv. sūk Seite, Richtung. Eine ältere Form ist nicht vorhanden'. This supports the Pahlavi form but gives no IE root, so it does not support the arrow from *tebh-."},
+            {"ref": "MON:1942", "status": "not_checked", "note": "Mo'in print page not mappable online; vajehyab سو returned only the 'manner' and Turkish 'water' senses"}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 4568", "stance": "partial", "note": "'sōg [swk] side, direction' with NP sō(y). Confirms the word; gives no etymology."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 3456", "stance": "partial", "note": "'sōk [swk'] side 321; 4 ~ 4 gētē the four cardinal points of the world ... NP sū, sūy'. Confirms the word; gives no IE etymon."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "sŭ",
+          "verdict": "confirmed",
+          "derivation": "Persian sū / sūy (سو، سوی) 'side, direction' continues Middle Persian sōg [swkʾ] 'side, direction'. Two regular changes produce it: Middle Persian ō became ū in New Persian, and the final -g of the -ōg ending was lost, as in MP dārūg > NP dārū. The variant sūy keeps a glide. The compound čahārsū 'four-sided crossroads, covered bazaar' is old: Jāḥiẓ records al-jahārsūj, and Pahlavi has the *čahār-sōk form. This edge Pahlavi → Persian is uncontroversial. Only the higher link to *tebh- fails (see #2).",
+          "derivation_fa": "«سو» و «سوی» به معنی «جهت، طرف» از پهلوی sōg / sōk آمده است. ō فارسی میانه در فارسی نو به ū بدل شده و -g پایانی افتاده است، همان‌گونه که dārūg پهلوی «دارو» شده است. «چهارسو» (چهارسوک) به معنی چهارراه و بازار سرپوشیده نیز از همین واژه است. این گام از پهلوی به فارسی را هرن، نیبرگ و معین در حاشیهٔ برهان قاطع تأیید می‌کنند و ادعای نورایی در این گام درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/سو"],
+          "ref_check": [
+            {"ref": "BQT:1182", "status": "supports", "note": "BQT_v2_pages.txt leaf 644 (≈ p.1182-1187), entry سو with Mo'in's footnote; OCR line 38927 reads '(sôk ...) معرب آن سوق در «چهارسوق»'. Mo'in gives Pahlavi sōk and adds that its Arabicized form -sūq appears only in čahārsūq. Also leaf 131 (line 7711): 'چهارسو ... = چهارسوک = چارسوق، پهلوی ...'."},
+            {"ref": "MON:1942", "status": "not_checked", "note": "Mo'in Farhang page not mappable online"},
+            {"ref": "IEC:1371", "status": "partial", "note": "'Per. sū, suy, id.' cited under tebh-, but Mann says 'the phonol. is obscure'"}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "no. 748, p.165 (leaf 187)", "stance": "supports", "note": "'sū, sūi Richtung, Seite ... phlv. sūk Seite, Richtung'. The footnote names Arab. LW čahārsūj 'Markt' (orig. 'Vierseit')."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 3456", "stance": "supports", "note": "'sōk [swk'] side ... NP sū, sūy'"},
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 4568", "stance": "supports", "note": "'sōg [swk] side, direction' → N sō(y)"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Arabic",
+          "words": "sôq",
+          "verdict": "disputed",
+          "derivation": "Arabic sūq (سوق) means 'market, street'. It is not a borrowing of Persian sū 'side'. It comes from Aramaic šūqā 'street, market', which goes back to Akkadian sūqu(m) 'street, alley' (from siāqum 'to be narrow'). The word was already present in North Arabia, since Palmyrene šwqʾ is attested. Fraenkel (p.187) treats the Arabic word as a loan from Aramaic: it has no proper Arabic derivation, because the verb is denominative. Jeffery (p.183) notes that the Qurʾānic aswāq (pl.) means 'streets', matching the Old Testament and Targum šūq. He adds that the word passed from Mesopotamia into Iranian as the Pahlavi Aramaic heterogram ŠWKʾ 'market', so the borrowing ran the other way. The only real Persian → Arabic link is čahārsūq, the Arabicized form of čahārsū(k), whose last syllable was assimilated to Arabic sūq. Note also that the chart's gloss 'path' is secondary; the core meaning is 'street, market'.",
+          "derivation_fa": "«سوق» عربی به معنی «بازار، کوچه» از «سو»ی فارسی گرفته نشده است. این واژه از آرامی šūqā آمده و آن هم از اکدی sūqu «کوچه، گذر» است. فرنکل آن را وام‌واژهٔ آرامی در عربی می‌داند و جفری در «واژگان بیگانهٔ قرآن» می‌گوید راه وام‌گیری وارونه بوده است: واژهٔ آرامی به صورت هزوارش ŠWKʾ «بازار» به پهلوی رسیده است. تنها «چهارسوق» معرّبِ «چهارسو(ک)» فارسی است که پایانش با «سوق» عربی همسان شده. پژوهش امروزی ادعای نورایی را رد می‌کند.",
+          "sources": ["https://en.wiktionary.org/wiki/سوق"],
+          "ref_check": [
+            {"ref": "FVF:380", "status": "not_checked", "note": "Emam Shushtari's Farhang-e Vazheha-ye Farsi dar Zaban-e Arabi is not accessible here (noorlib/ketabnak need a browser or login)"}
+          ],
+          "consulted": [
+            {"src": "FVQ", "where": "FVQ.txt lines 11479-11505, p.183 s.v. Sūq", "stance": "contradicts", "note": "'A street ... used as the שוק of the O.T. and the Targums for street ... Fraenkel, Fremdw, 187, is doubtless right in thinking that it is a word taken over by the Arabs from more settled peoples. The Aram. שוקא; Syr. ... From some early Mesopotamian source the word passed into Iranian, for we find the Phlv. ideogram ... shoka meaning market'"},
+            {"src": "AFA", "where": "AFA.txt lines 6646-6657, pp.187-188", "stance": "contradicts", "note": "'das alte Wort [sūq] wahrscheinlich nicht arabischer Herkunft, sondern erst aus [Aram. šūqā], Palmyr. ... entlehnt. Im Arabischen hat es keine rechte Ableitung'"},
+            {"src": "HRN", "where": "p.165 no. 748, footnote 2", "stance": "partial", "note": "Horn tentatively wonders whether 'die mit s beginnenden' words collected by Hübschmann (ZDMG 46, 247) belong with sū, ending with a question mark. This is the only old hint in Nourai's direction."},
+            {"src": "AFM", "where": "AFM.txt line 635", "stance": "silent", "note": "Addi Shir uses السوق only to gloss البازار (Persian bāzār); he does not list sūq itself as Persian"}
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "Persian",
+          "words": "sŭq; sŭqî",
+          "verdict": "confirmed",
+          "derivation": "Persian sūq (سوق) 'market, bazaar street', plural aswāq, is a loan from Arabic sūq, and Mo'in tags it [ع.]. Persian sūqī 'man of the bazaar, tradesman' (pl. sūqiyya 'common people') is the Arabic nisba adjective sūqī. Čahārsūq is the Arabicized spelling of Persian čahārsū(k) 'crossroads bazaar', its final syllable assimilated to Arabic sūq. The edge Arabic → Persian is correct. The upstream claim that the Arabic word comes from Persian sū is not (see #4).",
+          "derivation_fa": "«سوق» به معنی «بازار» (جمعش «اسواق») و «سوقی» به معنی «بازاری» (جمعش «سوقیّه») از عربی وارد فارسی شده‌اند؛ معین هم «سوق» را با نشان [ع.] آورده است. «چهارسوق» معرّبِ «چهارسو(ک)» فارسی است که با «سوق» عربی درآمیخته. پس این گام از عربی به فارسی درست است، ولی خودِ واژهٔ عربی ریشه در آرامی و اکدی دارد و از «سو»ی فارسی نیست.",
+          "sources": ["https://vajehyab.com/moein/سوق", "https://en.wiktionary.org/wiki/سوق"],
+          "ref_check": [
+            {"ref": "MON:1955", "status": "supports", "note": "Mo'in via vajehyab (archived): 'سوق [ع.] (اِ.) بازار؛ ج. اسواق'. Arabic origin and the meaning 'bazaar' are as charted; the print page number could not be mapped online."},
+            {"ref": "BQT:1182", "status": "partial", "note": "BQT_v2_pages.txt leaf 644, footnote to سو: 'معرب آن سوق در «چهارسوق»'. Mo'in treats only the -sūq of čahārsūq as an Arabicization of Persian sōk; he does not make independent sūq Persian."}
+          ],
+          "consulted": [
+            {"src": "FVQ", "where": "p.183 s.v. Sūq", "stance": "supports", "note": "the Arabic word is Aramaic-derived; in later Arabic it 'normally means a market place', which is the source of the Persian loan"},
+            {"src": "HRN", "where": "p.165 no. 748 fn. 2", "stance": "partial", "note": "'Arab. LW čahārsūj Markt ... (ursprünglich Vierseit, Viereck)'. The compound is Persian; simple sūq is not discussed."}
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "Armenian",
+          "words": "kov",
+          "verdict": "disputed",
+          "derivation": "Armenian kʿov (քով) 'side, flank; beside' is a real word. It cannot continue PIE *tebh-, because PIE *t- gives Armenian tʿ-, never kʿ-. Mann himself (IEC 1371) calls the phonology of 'Arm. kʿov side' obscure. Ačaṙean (Armenian Etymological Dictionary IV 588b) takes 'side, flank' as the original meaning and leaves the origin unknown. In his Provincial Dictionary (1913, pp.1121-1122) he derives it from koł 'side, rib', which probably explains the chart's gloss 'rib'. Another view takes Middle Armenian kʿov 'near' from the instrumental of kʿo 'thy'.",
+          "derivation_fa": "واژهٔ ارمنی kʿov «پهلو، کنار» وجود دارد، ولی از *tebh- نمی‌تواند آمده باشد، چون t- هندواروپایی در ارمنی tʿ- می‌شود، نه kʿ-. خودِ مان آوای آن را «مبهم» می‌خواند. آچاریان ریشه‌اش را نمی‌داند و در جای دیگر آن را از koł «پهلو، دنده» می‌گیرد؛ گزارهٔ «دنده» در نمودار احتمالاً از همین‌جا آمده است. پژوهش امروزی ادعای نورایی را نمی‌پذیرد.",
+          "sources": ["https://en.wiktionary.org/wiki/քով"],
+          "ref_check": [
+            {"ref": "IEC:1371", "status": "contradicts", "note": "IEC.txt line 18250: '(The phonol. is obscure, as also that of Arm. Kov side ...)'. Mann lists kʿov only as a doubtful parallel, not as a regular reflex."},
+            {"ref": "IEC:1676", "status": "not_found", "note": "supplement page beyond the end of the local IEC OCR"}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "POK_full grep 'kʿov', 'tebh'", "stance": "silent", "note": "Armenian kʿov is not cited"},
+            {"src": "WLD", "where": "WLD_Bd1_pages.txt grep", "stance": "silent", "note": "no such root or Armenian word"},
+            {"src": "IEC", "where": "line 18463 teubh- (2)", "stance": "partial", "note": "Mann lists a different Arm. (ambig.) 'Éov' 'tuft' under teubh- 'tuft, clump'. The kʿov 'side' comparison is not his main analysis."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Teus",
+      "verdict": "confirmed",
+      "modern_form": "PIE *tews- 'to be empty, to empty, drain'; *tus-sk(i̯)o- 'empty'",
+      "note": "Pokorny IEW 1085: 'teus- leeren; tus-sko-, -sk-io- leer. Av. Kaus. taošayeiti macht los ..., Inchoativ (*tus-skō) av. tusən sie verlieren die Fassung ...; ai. tuccha-, tucchya- leer, öde, nichtig; afghan. taš leer; lat. tesqua n. pl. Einöden ...' (POK_03.txt line 4659). Walde-Pokorny I 714 and Buck 13.22 (via Lith. tuščias) agree; Wiktionary has *tews- 'to be empty; to drain'. The root, its label and its gloss are all correct. A separate homonym *tews- 'be calm, content' (Skt. tuṣyati) should not be confused with it.",
+      "note_fa": "ریشهٔ هندواروپایی آغازین *tews- «تهی کردن، تهی بودن» با صورت بالیدهٔ *tus-sk(i̯)o- «تهی» در پوکورنی (ص ۱۰۸۵)، والده-پوکورنی و ویکی‌واژه آمده است. شاخه‌های آن اوستایی tusən، سنسکریت tucchya-، پهلوی tuhīg و فارسی «تهی» است. ریشه، برچسب زبان و معنای آن درست است و ادعای نورایی پذیرفته است. نباید آن را با ریشهٔ هم‌آوای *tews- «آرام و خشنود بودن» یکی گرفت.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tews-",
+        "https://en.wiktionary.org/wiki/تهی"
+      ],
+      "ref_check": [
+        {"ref": "POK:1085", "status": "supports", "note": "POK_03.txt lines 4658-4659: 'teus- leeren; tus-sko-, -sk-io- leer. Av. Kaus. taosayeiti macht los ... av. tusən ... ai. tuccha-, tucchya- leer, öde, nichtig ... lat. tesqua n. Pl. Einöden'"}
+      ],
+      "consulted": [
+        {"src": "WLD", "where": "Bd. I p.714 (WLD_Bd1_pages.txt lines 67380-67410)", "stance": "supports", "note": "'1. teus- leeren, tus-sko-, -sk-io- leer. Av. Kaus. taošayeiti ... av. tusən ... ai. tuccha-, tucchya- leer, öde, nichtig'. WLD rejects tesqua, however (see node #4)."},
+        {"src": "SYN", "where": "13.22 EMPTY (SYN.txt line 23759)", "stance": "supports", "note": "'Lith. tuščias ... : ChSl. tŭštĭ, Skt. tuccha-, tucchya- empty, vain, Av. tuš- in caus. taošaya- let loose, free ... Walde-P. 1.714'"},
+        {"src": "AHD", "where": "AHD_watkins1985.txt", "stance": "silent", "note": "Watkins has no entry for *teus- 'empty' (no English reflex)"}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "taoš, tuš, tusen, tussya",
+          "verdict": "plausible",
+          "derivation": "Avestan taoš- / tuš- 'to be empty, loose' is well attested (Bartholomae col. 624). Its inchoative present tusa- appears in tusən 'they lose composure, grow weak' (V. 3.32), and its causative taošaya- means 'let loose, let fall' (Yt. 10.48). All of these continue PIE *tews- / *tus-sḱé-. 'tussya' is not an attested Avestan word. It mirrors the reconstruction *tus-sk-io- (Skt. tucchya-) behind Middle Persian tuhīg, Proto-Iranian *tušyá-. The label 'Old Persian' is also unsupported, since this root is not attested in the Old Persian inscriptions. The Avestan forms are confirmed; the OP label and 'tussya' as an attested form are not.",
+          "derivation_fa": "در اوستایی ستاک taoš- / tuš- «تهی و رها بودن» آمده است (بارتولومه، ستون ۶۲۴). صورت آغازی آن tusən «سست شدند، از خود رفتند» است و صورت سببی‌اش taošaya- «رها کردن». این‌ها از *tews- / *tus-sḱé- هندواروپایی‌اند. اما «tussya» در اوستا دیده نشده و بازسازیِ *tus-sk-io- (سنسکریت tucchya-) است. در کتیبه‌های پارسی باستان هم این ریشه نیامده است. پس صورت‌های اوستایی درست‌اند، ولی برچسب «پارسی باستان» و «tussya» با احتیاط پذیرفتنی‌اند.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tews-"],
+          "ref_check": [
+            {"ref": "POK:1085", "status": "supports", "note": "'Av. Kaus. taošayeiti macht los, läßt los (*touseiō), Inchoativ (*tus-skō) av. tusən sie verlieren die Fassung' (POK_03.txt line 4659)"},
+            {"ref": "SYN:933", "status": "supports", "note": "Buck 13.22 EMPTY (SYN.txt line 23759): 'Av. tuš- in caus. taošaya- let loose, free'. The page number 933 is consistent with section 13.22."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "col. 624 (BRT.txt line 11797-11800)", "stance": "supports", "note": "'taoš- V. leer, los sein. Praes. 14 (Inkoh.) tusa-, 30 (Kaus.) taošaya-. 1) Inkoh. leer sva. schwach werden, die Fassung verlieren: ... dasvā tusən V.3.32 ... Vgl. afγ. taš leer ... ai. tucchya- Adj. leer ... np. tihī leer'"},
+            {"src": "HRN", "where": "no. 404 (HRN.txt line 3774-3776)", "stance": "supports", "note": "'tihī leer ... aw. tusən sie entleeren sich (Bartholomae); phlv. tuhīk leer; ai. tucchyá-'"},
+            {"src": "KNT", "where": "KNT_full.txt grep 'taus', 'tuš'", "stance": "silent", "note": "no Old Persian form of this root in Kent's lexicon"}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "tihîk, tuhîk",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian tuhīg [twhyk] 'empty, vain' goes back to Proto-Iranian *tušyá- (Proto-Indo-Iranian *tušćyá-, PIE *tus-sk-yó-, cognate with Vedic tucchyá-). Old Iranian intervocalic -š- weakened to -h-, and the suffix *-ya- was extended with -ka-, giving -īg/-īk. The variant tihīk shows u > i assimilation to the following ī, and it surfaces in New Persian tihī.",
+          "derivation_fa": "پهلوی tuhīg / tuhīk «تهی، بیهوده» از ایرانی آغازین *tušyá- (هندوایرانی *tušćyá-) است و با سنسکریت ودایی tucchyá- هم‌ریشه است. ش میانی ایرانی باستان در فارسی میانه به ه بدل شده و پسوند -ya- با -ka- بالیده و به -īg رسیده است. صورت tihīk همگونیِ u با ī را نشان می‌دهد. مکنزی و نیبرگ هر دو این واژه را دارند و ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/تهی"],
+          "ref_check": [
+            {"ref": "BQT:539", "status": "partial", "note": "BQT_v1_pages.txt leaf 767 (p.539, continued from p.538): headword تهی 'بمعنی خالی ۷ هم هست که در مقابل پر است'. The word and meaning are present, but footnote 7 with Mo'in's Pahlavi form is not legible in the OCR, and no scan of p.539 is available (ref_page.py: 'No scan of BQT covers printed page 539')."},
+            {"ref": "SNS:151", "status": "not_checked", "note": "SNS OCR has no page mapping; grep 'tuhīk|tuhik' in SNS.txt/SNS_pages.txt found nothing legible"}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "PHD_mackenzie.txt line 5019", "stance": "supports", "note": "'tuhīg [twhyk | M twhyg, N tuhī] empty, vain'"},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt line 3803", "stance": "supports", "note": "'tuhīkēh emptiness ... From tuhīk empty, from Av. taoš-, pres. tusa-; MPrs twhyg; Paz. tuhī; J.-Prs. twhy; NP tuhī, tihī, tahī'"},
+            {"src": "HUB", "where": "§24 (HUB.txt line 4882)", "stance": "supports", "note": "'tihī leer = päz. tihī, phl. tuhīk' (u > i)"}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "tah; tahî",
+          "verdict": "plausible",
+          "derivation": "tahī / tuhī / tihī (تهی) 'empty' is the regular continuation of MP tuhīg: the final -g was lost and the vowel varies between tu-, ti- and ta-. This is confirmed by Horn no. 404, Hübschmann §24, Nyberg and Wiktionary. tah (ته) 'bottom' is less certain. Wiktionary derives it from MP tah, 'possibly' from *tews-, and compares tak 'bottom'. The semantic step 'empty' → 'bottom' is not secured, and Horn, MacKenzie and Nyberg do not link tah to tahī. So tahī is confirmed and tah only plausible.",
+          "derivation_fa": "«تهی» (تُهی، تِهی) دنبالهٔ منظم پهلوی tuhīg است: -g پایانی افتاده و واکهٔ نخست میان u، i و a در نوسان است. هرن، هوبشمان، نیبرگ و ویکی‌واژه این را تأیید می‌کنند. «ته» به معنی «بن» نامطمئن‌تر است: ویکی‌واژه آن را «شاید» از همین ریشه می‌داند و با «تک» می‌سنجد، ولی هرن و مکنزی پیوندی میان «ته» و «تهی» نمی‌گذارند. پس «تهی» درست است و «ته» با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/تهی", "https://en.wiktionary.org/wiki/ته"],
+          "ref_check": [
+            {"ref": "HRN:90", "status": "supports", "note": "HRN.txt line 3774 (no. 404, p.90): 'tihī leer, tihī, tehī ... aw. tusən sie entleeren sich; phlv. tuhīk leer; ai. tucchyá-'. This covers tahī; tah 'bottom' is not mentioned."},
+            {"ref": "BQT:539", "status": "partial", "note": "BQT_v1_pages.txt leaf 767: 'تهی ... بمعنی خالی ... که در مقابل پر است' and, in a neighbouring entry whose headword is not legible in the OCR, 'مخفف تهی است که خالی باشد' (a short form of tahī). The etymological footnote is illegible."},
+            {"ref": "BQT:537", "status": "not_checked", "note": "page with ته 'bottom' (leaf ≈765); its OCR shows only 'ولای و ته را نیز گویند', with no footnote legible"}
+          ],
+          "consulted": [
+            {"src": "NYB", "where": "line 3803", "stance": "supports", "note": "'NP tuhī, tihī, tahī' from MP tuhīk"},
+            {"src": "ARY", "where": "ARY_latin_index_pages.txt [pdf page 207] / ARY_pages.txt entry ۸ تهی", "stance": "supports", "note": "the تهی entry groups 'TAOSH, TAOSHAEITI ... TUTHYA, TUSSYA ... TUHIK, TIHIK, TUHIG ... TESCA' and cites 'برهان قاطع ۲ و ۵۳۵'"},
+            {"src": "PHD", "where": "line 5019", "stance": "supports", "note": "'tuhīg ... N tuhī'"}
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "Latin",
+          "words": "tesqua",
+          "verdict": "plausible",
+          "derivation": "Latin tesca / tesqua (n. pl.) means 'wild, desolate places', an old augural and Sabine word (Varro, LL 7.8-10; Accius 'deserta et tesca loca'). Pokorny (1085) puts it under *teus- from *tu̯eskua (*tus-sk-), giving the sense 'emptied, deserted lands'. Walde-Pokorny (I 714) rejects this and prefers *tersk- from *(s)ters- 'to dry'. Ernout-Meillet call the etymology 'douteuse' and compare Irish terc 'rare, sterile'. Nourai follows Pokorny, which is a defensible but contested view.",
+          "derivation_fa": "واژهٔ لاتینی tesca / tesqua (جمع خنثی) به معنی «جاهای وحشی و بیابانی» واژه‌ای کهن، دینی و سابینی است. پوکورنی آن را از *teus- با صورت *tu̯eskua می‌گیرد، یعنی «زمین تهی». ولی والده-پوکورنی این را رد می‌کند و آن را از *ters- «خشکیدن» می‌داند؛ ارنو و میه هم ریشهٔ آن را «مشکوک» خوانده‌اند. نورایی پیرو پوکورنی است، و این پیوند با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tews-"],
+          "ref_check": [
+            {"ref": "POK:1085", "status": "supports", "note": "POK_03.txt line 4659: 'lat. tesqua n. Pl. Einöden (*tueskua)'"}
+          ],
+          "consulted": [
+            {"src": "WLD", "where": "Bd. I 714 (WLD_Bd1_pages.txt lines 67406-67409)", "stance": "contradicts", "note": "'desgleichen die von lat. tesqua etwa Einöden, düstere und rauhe Gegenden (wäre diss. aus *tuesqua; eher aus tersku-o-, s-ters- trocknen)'"},
+            {"src": "LAT", "where": "Ernout-Meillet s.v. tescum (LAT.txt line 64190-64200)", "stance": "contradicts", "note": "'tesca (tesqua) ... loca deserta et difficilia lingua Sabinorum ... Étymologie douteuse. On a rapproché irl. terc rare, stérile (de *tersko-?)'"},
+            {"src": "SYN", "where": "SYN.txt line 23607", "stance": "partial", "note": "Ir. terc 'scarce' 'perh. : Lat. tesca, tesqua waste, uncultivated regions'. Buck follows the *ters- connection, not *teus-."}
+          ]
+        }
+      ]
+    }
+  ]
+}
