@@ -1,0 +1,545 @@
+{
+ "pdf_page": 510,
+ "book_page": 480,
+ "verified_by": "claude-opus-5",
+ "verified_on": "2026-10-14",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Tien",
+   "verdict": "confirmed",
+   "modern_form": "Middle Chinese 店 temH 'shop, inn' (Mandarin diàn; Old Chinese *tˤem-s, Baxter-Sagart)",
+   "note": "Nourai's 'Tien' is a Wade-Giles-style spelling of Mandarin diàn 店 'shop, store; inn'. Wiktionary (s.v. 店 and Persian تیم) gives exactly Nourai's chain: Middle Chinese temH → Sogdian tym /tēm/ 'inn' → Classical Persian tīm/tēm 'caravanserai' → timče. Gharib's Sogdian dictionary (SOD p.394, entry 9747) has tym 'inn, resting place' with a reference to Henning's loanword study. The Sogdian box prints only the gloss 'bazaar, inn' (no Sogdian word); the extraction copied that faithfully into the translit field. ETM (Nourai's source) is not accessible.",
+   "note_fa": "ریشه واژهٔ چینی 店 (چینی میانه temH، ماندارین diàn) به معنای «دکان، مسافرخانه» است و «Tien» نورایی صورت لاتینی کهنهٔ همین واژه است. ویکی‌واژه و فرهنگ سغدی قریب زنجیرهٔ نورایی را تأیید می‌کنند: چینی temH ← سغدی tym (tēm) «مسافرخانه» ← فارسی «تیم» «کاروانسرای بزرگ» و «تیمچه». ادعای نورایی درست است؛ تنها در خانهٔ سغدی خود واژه چاپ نشده و فقط معنا آمده است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/店",
+    "https://en.wiktionary.org/wiki/تیم"
+   ],
+   "ref_check": [
+    {
+     "ref": "ETM:63",
+     "status": "not_checked",
+     "note": "ETM not available (refs_online.json: 'Searched archive.org, ketabnak, noorlib, web: not found')."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "SOD",
+     "where": "p.394 (SOD_pages.txt leaf 461, running head '394'), entries 9747, 9750",
+     "stance": "supports",
+     "note": "'9747 tym ... inn, resting place ... STi 36.2; pl. tymu STii 3.27; Hen. LW' (Henning, loanword) and '9750 tymp'y ... tem-pase ... inn-keeper' — Sogdian tēm 'inn' as a loanword."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sogdian",
+     "words": "bazaar, inn",
+     "verdict": "confirmed",
+     "derivation": "The box gives no Sogdian form, only the gloss 'bazaar, inn'; the word meant is Sogdian tym /tēm/ 'inn, resting place' (Gharib no. 9747; also tympʾy 'inn-keeper'), borrowed from Middle Chinese 店 temH along the Silk Road where Sogdian merchants ran the caravan trade (Tang period, 7th–8th c.). Chinese -e- was rendered by Sogdian ē (written -y-). The gloss 'bazaar' is looser than the attested 'inn'.",
+     "derivation_fa": "در این خانه واژهٔ سغدی چاپ نشده و تنها معنا آمده است؛ واژهٔ مورد نظر سغدی tym (tēm) «مسافرخانه، منزلگاه» است (قریب، شمارهٔ ۹۷۴۷) که بازرگانان سغدی در راه ابریشم از چینی میانه 店 temH وام گرفتند. معنای «بازار» در کتاب گشاده‌تر از معنای ثبت‌شده («مسافرخانه») است، ولی وام‌گیری از چینی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/店"
+     ],
+     "ref_check": [
+      {
+       "ref": "ETM:63",
+       "status": "not_checked",
+       "note": "ETM not accessible."
+      },
+      {
+       "ref": "SOD:394",
+       "status": "supports",
+       "note": "SOD_pages.txt leaf 461 has running head '394'; entry 9747 'tym ... inn, resting place ... Hen. LW'. Page reference correct."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "p.394, entry 9750",
+       "stance": "supports",
+       "note": "'tymp'y C ... tem-pase ... inn-keeper' (tēm + pāse 'keeper') confirms tēm 'inn'."
+      },
+      {
+       "src": "PHD",
+       "where": "grep 'tym'",
+       "stance": "silent",
+       "note": "MacKenzie has only tēmār [tymʾl] 'sorrow, care'; no Pahlavi *tēm 'inn' — consistent with the word entering Persian via Sogdian, not Middle Persian."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "words": "tîm",
+     "verdict": "confirmed",
+     "derivation": "Classical Persian tīm (older tēm) 'large caravanserai' (attested in Nāṣir-i Khusraw's Safarnāma, c.1050, and in the Lughat-i Furs verse quoted by Nourai) is a Sogdian loan (tym tēm 'inn') entering Persian in Transoxiana in the early New Persian period; Sogdian ē > Persian ī with the general merger of majhūl ē into ī. The diminutive timče (tīm + -če) 'small caravanserai, covered arcade of shops' is the living word ('bazaar' sense).",
+     "derivation_fa": "«تیم» در فارسی کهن به معنای «کاروانسرای بزرگ» است (سفرنامهٔ ناصرخسرو؛ بیت لغت فرس) و از سغدی tēm «مسافرخانه» وام گرفته شده که خود از چینی 店 است؛ یای مجهول ē در فارسی امروز به ī بدل شده. «تیمچه» (تیم + چه) کاروانسرای کوچک و راستهٔ دکان‌های سرپوشیده است. برهان قاطع و معین همین معنا را می‌آورند؛ ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/تیم",
+      "https://en.wiktionary.org/wiki/تیمچه"
+     ],
+     "ref_check": [
+      {
+       "ref": "ETM:63",
+       "status": "not_checked",
+       "note": "ETM not accessible."
+      },
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "Mo'in (2-vol abridgement, MON_part1.txt line 45690) 'تیم: ... کاروان‌سرای' and line 45711 'تیمچه ... کاروانسرای کوچک، سرایی دارای چند دکان که تاجران در آن داد و ستد کنند'."
+      },
+      {
+       "ref": "BQT:547",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 775 (last page of vol.1, continuation note to p.548): 'تیم - بر وزن میم، کاروان سرای بزرگ را گویند و تیمچه کاروان سرای کوچک است' with footnote verse 'من ز تیم تو بتیمار گرفتار شدم / تو بتیمار مهل باز بتیم آر مرا (لغت فرس ۳۵۱)' — the verse Nourai quotes. Mo'in's etymological footnote is illegible in the OCR."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "grep 'tim'",
+       "stance": "silent",
+       "note": "Horn has no entry tīm."
+      },
+      {
+       "src": "HUB",
+       "where": "grep 'tim'",
+       "stance": "silent",
+       "note": "No entry."
+      },
+      {
+       "src": "PHD",
+       "where": "grep 'tym'",
+       "stance": "silent",
+       "note": "Only tēmār 'care' (→ NP tīmār); no *tēm 'inn' in Pahlavi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": "Titi, Titil",
+   "verdict": "plausible",
+   "modern_form": "onomatopoeic ti-ti-, (ti)til- 'imitation of bird calls' (Pokorny 1086: 'kaum ursprachlich')",
+   "note": "Pokorny p.1086 lists 'ti-ti-, (ti)til- Nachahmung von Vogelrufen; kaum ursprachlich' — a recurrent sound-imitative element, not a true PIE root (Walde-Pokorny I 742: 'ursprachliches Alter nicht erweislich'). Nourai's root and gloss match Pokorny, but the label 'Indo-European' overstates it. Sanskrit ṭiṭṭibha is real; the Persian tītū/ṭīṭū is indeed borrowed from it via Burzoy's Pahlavi Kalīla wa Dimna (Mo'in). The Latin gloss is wrong: titiō, -āre is a verb 'to twitter (of the sparrow)' (Pokorny; Ernout-Meillet: 'pépier'), not a noun 'sparrow'.",
+   "note_fa": "پوکورنی (ص ۱۰۸۶) «ti-ti-, (ti)til-» را «تقلید آواز پرندگان» و «به‌سختی هندواروپایی آغازین» می‌داند؛ پس این یک عنصر نام‌آوا (onomatopoeia) است نه ریشهٔ واقعی. واژهٔ سنسکریت ṭiṭṭibha درست است و «تیتو/طیطو»ی فارسی، به گفتهٔ معین، از همین واژه از راه ترجمهٔ پهلوی کلیله و دمنه به دست برزویه آمده است. معنای «گنجشک» برای لاتین titiō نادرست است: titiō فعلی است به معنای «جیک‌جیک کردن (گنجشک)». ادعای نورایی با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/टिट्टिभ",
+    "https://en.wiktionary.org/wiki/titio"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:1086",
+     "status": "supports",
+     "note": "POK_03.txt line ~4667 (page 1086): 'ti-ti-, (ti)til- Nachahmung von Vogelrufen; kaum ursprachlich. Ai. tittibha- m. Parra jacana; lett. titilbis ... Wasserläufer; ... lat. titiō, -āre zwitschern vom Sperling; lett. titēt singen. WP. I 742, WH. II 686, Mayrhofer 1, 457.'"
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p.742 (WLD_Bd1_pages.txt leaf 751)",
+     "stance": "supports",
+     "note": "'ti-ti-, (ti)til- „Nachahmung von Vogelrufen“; ursprachliches Alter nicht erweislich. Ar. tittibha-h „Parra jacana“; lett. titilbis ... lat. titio, -are „zwitschern, vom Sperling“'."
+    },
+    {
+     "src": "IEC",
+     "where": "line 18618 s.v. titt- (tit-)",
+     "stance": "supports",
+     "note": "'titt- (tit-) element in bird-names. Cf. WP I, 718. Onomat. ... Lat. titus ‘woodpigeon’ ... Skt. tittibhah ‘jacana, a water-bird’. Cf. also WP I, 742.'"
+    },
+    {
+     "src": "AHD",
+     "where": "grep 'titi'",
+     "stance": "silent",
+     "note": "Watkins has no titi- root (not a reconstructable root)."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "tittibha",
+     "verdict": "plausible",
+     "derivation": "Sanskrit ṭiṭṭibha- m. 'Parra jacana / red-wattled lapwing' (the 'ṭiṭṭibha and the ocean' fable of the Pañcatantra) is a reduplicated imitation of the bird's cry; Pokorny and Walde-Pokorny list it under ti-ti-, but its retroflex ṭ-ṭṭ- point to a Middle-Indic/substrate formation (Wiktionary: 'from substrate'; Mayrhofer onomatopoeic). The word and gloss are correct; 'descends from PIE' is only true in the loose sense of a shared sound-imitation.",
+     "derivation_fa": "سنسکریت ṭiṭṭibha «مرغ آبی، دیتار/کاکایی» (در داستان پنچه‌تنتره) واژه‌ای نام‌آوا با تکرار هجاست. پوکورنی آن را زیر ti-ti- آورده، ولی واج‌های برگشتی ṭ آن نشان از ساخت هندیِ میانه یا زبان زیرین دارد (ویکی‌واژه: «از زبان زیرین»). واژه و معنا درست است، اما پیوند آن با هندواروپایی آغازین تنها از راه تقلید آواست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/टिट्टिभ"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1086",
+       "status": "supports",
+       "note": "'Ai. tittibha- m. Parra jacana' under ti-ti-, with 'kaum ursprachlich'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "Bd. I p.742",
+       "stance": "supports",
+       "note": "'Ar. tittibha-h „Parra jacana“'."
+      },
+      {
+       "src": "IEC",
+       "where": "line 18621",
+       "stance": "supports",
+       "note": "'Skt. tittibhah ‘jacana, a water-bird’' under titt- 'element in bird-names ... Onomat.'"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "words": "tîtŭ",
+     "verdict": "confirmed",
+     "derivation": "Persian tītū / ṭīṭū (also ṭīṭawī, ṭīṭāw) 'a water bird, sandpiper/lapwing' comes from Sanskrit ṭiṭṭibha through the Pañcatantra: Burzoy's 6th-c. Pahlavi translation (Kalīlag ud Damanag) carried the bird of the fable, Ibn al-Muqaffaʿ's Arabic Kalīla wa Dimna has ṭīṭawā/ṭīṭawī, and Rudaki's verse version already has tītū (Lughat-i Furs 418). The variant spelling with ط (طیطو) reflects the Arabic-mediated form; Mo'in states the whole route on the cited page.",
+     "derivation_fa": "«تیتو» یا «طیطو/طیطوی» نام مرغی آبی است. معین در حاشیهٔ برهان قاطع (ص ۱۳۶۴) می‌گوید از سنسکریت tittibha است و به دست برزویه، مترجم کلیله و دمنه به پهلوی، به آن زبان راه یافت و در فارسی به صورت «تیتو» درآمد (بیت رودکی: «پادشا سیمرغ دریا را ببرد / خایه و بچه بدان تیتو سپرد»)؛ در کلیلهٔ ابن مقفع و ترجمهٔ نصرالله منشی «طیطوی» آمده است. صورت با «ط» معرّب است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/टिट्टिभ"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1364",
+       "status": "supports",
+       "note": "BQT vol.3 pdf page 157, printed 1364 (read from image; saved to ocr/BQT/1364.vision.txt): 'طیطاو - ... نوعی از مرغابی باشد؛ وطیتو نیز گفته‌اند'; fn.2 'طیطوی = تیتو، از سانسکریت tittibha (مرغی است) ... این کلمه توسط برزویه مترجم کلیله ودمنه بپهلوی، وارد زبان مزبور شد ودرفارسی بصورت تیتو درآمد'. Note: ref_page.py's default offset lands on pdf p.159 (start of ع); the correct pdf page is 157."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part2.txt line 87190 s.v. وکیل دریا",
+       "stance": "partial",
+       "note": "'وکیل دریا: مرغی است افسانه‌ای که آن را طیطو هم گویند (هرچند طیطو به دو نوع مرغ موجود اطلاق شده)' — confirms the bird name, no etymology in the abridgement."
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'tit'",
+       "stance": "silent",
+       "note": "No entry tītū in Horn."
+      },
+      {
+       "src": "HUB",
+       "where": "grep 'tit'",
+       "stance": "silent",
+       "note": "No entry."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "parent": 0,
+     "lang": "Latin",
+     "words": "titiô",
+     "verdict": "plausible",
+     "derivation": "Latin titiō, -āre is a rare verb 'to twitter, cheep' used of the sparrow (Pokorny: 'zwitschern vom Sperling'; Ernout-Meillet: 'titio, -ās: pépier. Autre forme de pipio'), an imitative formation parallel to pipiō 'to peep'. It belongs with ti-ti- only as onomatopoeia. Nourai's gloss 'sparrow' misreads Pokorny's 'vom Sperling'; the homonymous noun titiō, -ōnis 'firebrand' (Wiktionary) is unrelated. The closest Latin bird noun is titus 'wood-pigeon' (Mann).",
+     "derivation_fa": "لاتین titiō, -āre فعلی کم‌کاربرد به معنای «جیک‌جیک کردن» است که دربارهٔ گنجشک به کار رفته (پوکورنی؛ ارنو-میه: «جیک‌جیک کردن، صورت دیگر pipio»). این واژه نیز نام‌آواست. معنای «گنجشک» که نورایی داده برداشت نادرست از عبارت پوکورنی «از گنجشک» است؛ اسم titiō به معنای «هیزم نیم‌سوخته» هم‌آوای بی‌ارتباط است. پیوند با ti-ti- پذیرفتنی است ولی معنا اصلاح می‌خواهد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/titio"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1086",
+       "status": "partial",
+       "note": "Pokorny p.1086: 'lat. titiō, -āre zwitschern vom Sperling' — the word is there, but as a verb 'to twitter (of the sparrow)', not a noun 'sparrow'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LAT",
+       "where": "Ernout-Meillet p.~1334 (LAT.txt line 64604)",
+       "stance": "partial",
+       "note": "'titio, -ās: pépier. Autre forme de pipio.' and separately 'titio, -onis m.: tison' — verb 'to chirp', not 'sparrow'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p.742",
+       "stance": "partial",
+       "note": "'lat. titio, -are „zwitschern, vom Sperling“'."
+      },
+      {
+       "src": "IEC",
+       "where": "line 18616/18619",
+       "stance": "partial",
+       "note": "Lists 'Lat. titio ... ‘firebrand’' under a different root and 'Lat. titus ‘woodpigeon’' under titt- bird-names; no titio 'sparrow'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 3,
+   "root": "Tkaeša",
+   "verdict": "plausible",
+   "modern_form": "Avestan tkaēša- m. 'doctrine, (religious) teaching; teacher; legal ruling' (Bartholomae col. 812-813)",
+   "note": "Avestan tkaēša- is real (Bartholomae col. 812-813: 1) 'Lehre, Glaubenslehre', in the Gāthās especially 'false doctrine'; 2) 'Lehrer'; also 'Rechtsentscheid, Richter'). Nourai's gloss 'agreement, commitment' follows Horn no. 880 ('Bekenntniss, Gelöbniss') and Mo'in in Borhan ('اعتراف، عهد'), an older interpretation; modern lexica give 'doctrine, teaching'. The line Av. tkaēša- → MP kēš 'faith, dogma (esp. non-Mazdean)' → NP kēš 'religion' is standard (Horn, Nyberg, MacKenzie, Mo'in). Wiktionary instead reconstructs MP kēš < Proto-Iranian *kayšás (PIE *kʷoys-ó-s) without the t-, which is a minority/alternative statement of the same connection (the Avestan tk- would be simplified to k- in Western Iranian either way).",
+   "note_fa": "اوستایی tkaēša- واژه‌ای واقعی است و بارتولومه آن را «آموزه، آموزهٔ دینی» (در گاهان بیشتر «آموزهٔ دروغین»)، «آموزگار» و «حکم دینی» معنا کرده است. معنای «پیمان، تعهد» نورایی از هرن (Bekenntnis, Gelöbnis) و معین در حاشیهٔ برهان («اعتراف، عهد») گرفته شده که برداشتی کهنه‌تر است. زنجیرهٔ اوستایی tkaēša- ← پهلوی kēš ← فارسی «کیش» را هرن، نیبرگ، مکنزی و معین می‌پذیرند؛ پس ریشه درست است ولی معنای آن با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/کیش",
+    "https://en.wiktionary.org/wiki/𐭪𐭩𐭱"
+   ],
+   "ref_check": [
+    {
+     "ref": "BQT:1755",
+     "status": "supports",
+     "note": "BQT p.1755 (ocr/BQT/1755.txt) s.v. کیش fn.2: 'اوستا tkaēša (اعتراف، عهد). پهلوی kēš ... ارمنی ... در اوستا «تکئشه» در مورد آیین اهریمنی استعمال شده در مقابل «دئنا» (دین) ولی در فارسی کیش بمعنی مطلق آیین ودین آمده: لب یاقوت رنگ ونالهٔ چنگ ... کیش زرتهشتی. دقیقی طوسی' — Nourai's gloss, chain and verse all come from here."
+    },
+    {
+     "ref": "HRN:196",
+     "status": "supports",
+     "note": "HRN.txt leaf 217 = p.196, no. 880: 'kēš Religion. aw. tkaēša- Bekenntniss, Gelöbniss ...; phlv. kēš, vergl. pōryōtkēš; arm. LW. k'ēš'."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "BRT",
+     "where": "col. 812-813 s.v. tkaēša-",
+     "stance": "partial",
+     "note": "'tkaēša- m. 1) Lehre bes. auf religiösem Gebiet, Glaubenslehre; a) im gAw. spez. von der Lehre des falschen Glaubens Irr-, Afterlehre' ... 'tkaēša- m. 1) Lehrer ... 2) ... Richter' — same word, but 'doctrine/teacher', not 'agreement'."
+    },
+    {
+     "src": "NYB",
+     "where": "Part II p.~123 (leaf 131) s.v. kēš",
+     "stance": "supports",
+     "note": "'kēš [kyš] faith, religion, both of the Zoroastrian religion and of others ... — Av. (812 sq.) tkaēša-; MPrs kyš doctrine, dogma; NP kēš'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Pahlavi",
+     "words": "kěš",
+     "verdict": "confirmed",
+     "derivation": "Pahlavi (Zoroastrian Middle Persian) kēš [kyš], Manichaean MP kyš 'faith, dogma, (esp. non-Mazdean) creed', with kēšdār 'sectary'; it continues Old Iranian *tkaiša- (Av. tkaēša-) with the initial cluster tk- simplified to k- and OIr. ai monophthongised to ē; the compound pōryōtkēš 'of the first teaching' is a learned borrowing of Av. paoiryō.tkaēša- that preserves the t-. Armenian borrowed it as k'ēš 'religion'.",
+     "derivation_fa": "پهلوی kēš «دین، آیین (به‌ویژه آیین غیرزرتشتی)»، و در مانوی kyš «اصول عقیده»؛ از ایرانی باستان *tkaiša- (اوستایی tkaēša-) با افتادن t آغازین از خوشهٔ tk- و تبدیل ai به ē. واژهٔ عالمانهٔ pōryōtkēš «پیرو آموزهٔ نخستین» t کهن را نگه داشته است. ارمنی k'ēš را از همین وام گرفته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/𐭪𐭩𐭱"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:3153",
+       "status": "not_checked",
+       "note": "6-vol Mo'in page 3153 not accessible; the 2-vol abridgement (MON_part2.txt line 28881) has 'کیش: ... دین، آیین' without the Pahlavi form."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "s.v. kēš (PHD.txt line 428)",
+       "stance": "supports",
+       "note": "'kēš [kyš | = M, N ~] dogma, faith (especially non-Mazdean). ~-dār sectary, non-Mazdean'; also 'pōryōtkēš = Av. paoiryō.tkaēša-'."
+      },
+      {
+       "src": "NYB",
+       "where": "Part II s.v. kēš and pūryōtkēš",
+       "stance": "supports",
+       "note": "'kēš [kyš] faith, religion ... — Av. (812 sq.) tkaēša-'; 'pūryōtkēš ... Borrowed from Av. paoiryō.tkaēša-, cf. kēš'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "words": "kîš 3",
+     "verdict": "confirmed",
+     "derivation": "New Persian kēš > kīš 'religion, creed' continues Pahlavi kēš unchanged except for the later merger of majhūl ē into ī; in Avestan the word mostly meant the doctrine of the false faith, but in Persian it became a neutral word for 'religion', as in Daqīqī's 'mey-e la'l-gun o kīš-e zartoshtī' (quoted by Nourai from Borhan). Homonyms kīš 'quiver' and the island Kīš are unrelated (Mo'in lists them separately, hence Nourai's index 3).",
+     "derivation_fa": "«کیش» فارسی (kēš ← kīš) دنبالهٔ پهلوی kēš است و تنها یای مجهول آن در فارسی امروز به یای معروف بدل شده. در اوستا بیشتر دربارهٔ آیین اهریمنی به کار می‌رفت ولی در فارسی معنای عام «دین و آیین» یافت، چنان‌که در بیت دقیقی «می لعلگون و کیش زرتهشتی». «کیش» به معنای ترکش و جزیرهٔ کیش هم‌آوای بی‌ارتباط‌اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/کیش"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:196",
+       "status": "supports",
+       "note": "Horn no. 880 p.196 'kēš Religion. aw. tkaēša- ...; phlv. kēš'."
+      },
+      {
+       "ref": "BQT:1755",
+       "status": "supports",
+       "note": "Borhan p.1755 'کیش ... دین و آیین' fn.2 'اوستا tkaēša ... پهلوی kēš ... در فارسی کیش بمعنی مطلق آیین ودین آمده' with Daqīqī's verse."
+      },
+      {
+       "ref": "MON:3153",
+       "status": "not_checked",
+       "note": "6-vol page not accessible; abridgement line 28881 'کیش: ... دین، آیین'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HUB",
+       "where": "pp.89-90 (notes on Horn 873-881)",
+       "stance": "silent",
+       "note": "Hübschmann comments on Horn 873, 874, 875, 881 but makes no correction to no. 880 kēš — tacit acceptance."
+      },
+      {
+       "src": "PHD",
+       "where": "s.v. kēš",
+       "stance": "supports",
+       "note": "'kēš [kyš | = M, N ~] dogma, faith' — N(ew Persian) same form."
+      },
+      {
+       "src": "ARY",
+       "where": "grep 'کیش' / KESH",
+       "stance": "silent",
+       "note": "Aryanpur has KESHIDAN (kašīdan) but no entry for kīš 'religion'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 4,
+   "root": "T.L.S",
+   "verdict": "confirmed",
+   "modern_form": "Arabic root ṭ-l-s (ط ل س): ṭalasa 'to efface, wipe out (writing)'; aṭlas 'smooth, worn; dusky; satin'",
+   "note": "Klein s.v. atlas 'silk-satin': 'Arab. aṭlas, lit. wiped smooth, fr. ṭalasa, he wiped, smoothed away' — exactly Nourai's root and gloss. Wiktionary lists aṭlas 'satin' under root ṭ-l-s and notes the Persian loan اطلس. Lokotsch no.131 explains the semantic route: aṭlas 'smooth, fine' (also 'worthless') applied to silk, then the adjective alone named silk-satin, whence Turkish/Russian/German Atlas. SAP (Sayyah) not accessible.",
+   "note_fa": "ریشهٔ عربی ط‌ل‌س (طَلَسَ «پاک کردن، زدودن نوشته») است و «أطلس» یعنی «صاف، ساییده، بی‌نقش» و سپس «پارچهٔ ابریشمی صاف». کلاین می‌گوید: «عربی aṭlas به معنای لفظی صاف‌شده، از ṭalasa: پاک کرد، صاف کرد». لوکوتش نیز نشان می‌دهد که این صفت نخست دربارهٔ ابریشم ساده به کار رفت و سپس خود نام پارچه شد. ادعای نورایی درست است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/أطلس"
+   ],
+   "ref_check": [
+    {
+     "ref": "KLN:122",
+     "status": "supports",
+     "note": "KLN_1966.txt leaf 76 (≈pp.122-127): 'atlas, n., silk-satin. — Arab. atlas, lit. ‘wiped smooth’, fr. talasa, ‘he wiped, smoothed away’.'"
+    },
+    {
+     "ref": "SAP:964",
+     "status": "not_checked",
+     "note": "Sayyah's dictionary not available (refs_online.json: kind 'purchase')."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "LKT",
+     "where": "p.12 (LKT.txt leaf 38), no.131",
+     "stance": "supports",
+     "note": "'131. Ar. aṭlas: Glatt, fein. ... ebenso von Seide, sie sei aṭlas ... schließlich blieb das Adjektiv allein zur Bezeichnung des Stoffes ... des sog. Seidensatins. Rum. atlas ... russ. atlas ... Dtsch. Atlas'."
+    },
+    {
+     "src": "HJB",
+     "where": "s.v. ATLAS (HJB.txt line 2276)",
+     "stance": "supports",
+     "note": "'ATLAS, s. An obsolete word for satin, from the Ar. aṭlas used in that sense, literally bare or bald'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Arabic",
+     "words": "atlas",
+     "verdict": "confirmed",
+     "derivation": "Arabic aṭlas is an afʿal adjective of ṭ-l-s: 'effaced, worn smooth, plain (without design); dusky-coloured', used of a plain, unfigured silk; as a noun aṭlas (pl. ṭuls) came to mean 'satin'. Nourai's 'a wiped, clean silk cloth' paraphrases the 'smoothed/effaced' sense correctly. The same adjective in falak al-aṭlas 'the plain (starless) ninth sphere' explains Persian falak-e atlas.",
+     "derivation_fa": "«أطلس» صفتی بر وزن أفعل از ریشهٔ ط‌ل‌س است به معنای «زدوده، ساییده و صاف، بی‌نقش؛ تیره‌رنگ»، و دربارهٔ ابریشم ساده و بی‌نقش به کار رفت تا خود نام «اطلس/ساتن» شد (جمع: طُلْس). «فلک اطلس» (فلک نهم بی‌ستاره) نیز از همین معنای «بی‌نقش» است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/أطلس"
+     ],
+     "ref_check": [
+      {
+       "ref": "SAP:964",
+       "status": "not_checked",
+       "note": "Sayyah not accessible."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "leaf 76 s.v. atlas (silk-satin)",
+       "stance": "supports",
+       "note": "'Arab. atlas, lit. wiped smooth, fr. talasa, he wiped, smoothed away'."
+      },
+      {
+       "src": "LKT",
+       "where": "no.131",
+       "stance": "supports",
+       "note": "'Ar. aṭlas: Glatt, fein ... von Seide, sie sei aṭlas'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "words": "atlas",
+     "verdict": "confirmed",
+     "derivation": "Persian atlas (اطلس) 'satin, plain silk cloth' is a direct loan of Arabic aṭlas (Mo'in tags it [معر.] and glosses 'پرنیان، دیبا، پارچهٔ ابریشمی ساده، بی‌پرز'); Persian ṭ is merely orthographic (pronounced t). From Persian/Arabic the word spread to Ottoman Turkish atlas, Hindustani atlas and Russian atlas.",
+     "derivation_fa": "«اطلس» فارسی به معنای «پارچهٔ ابریشمی صاف، دیبا» وام‌واژهٔ مستقیم از عربی «أطلس» است؛ معین آن را معرّب و «پرنیان، دیبا، پارچهٔ ابریشمی ساده، بی‌پرز» معنا کرده است. «ط» در فارسی تنها نشانهٔ املای عربی است. از فارسی و عربی به ترکی، اردو و روسی نیز رفته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/أطلس"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "Mo'in abridgement (MON_part1.txt line 14117): 'اطلس: [معر.] پرنیان، دیبا، پارچهٔ ابریشمی ساده، بی‌پرز' (followed by the anatomical, cartographic and astronomical senses)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "LKT",
+       "where": "no.131",
+       "stance": "supports",
+       "note": "Arabic aṭlas → Turkish atlas → Rum., Russ., Bulg., Germ. Atlas 'Satin'."
+      },
+      {
+       "src": "HJB",
+       "where": "s.v. ATLAS",
+       "stance": "supports",
+       "note": "'from the Ar. aṭlas ... 1678 Fryer: Damask'd Gold Atlas Coats' — the word in Persianate India."
+      },
+      {
+       "src": "HRN",
+       "where": "grep 'atlas'",
+       "stance": "silent",
+       "note": "Horn treats only native Persian words; no entry."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "parent": 1,
+     "lang": "English",
+     "words": "atlas 2",
+     "verdict": "confirmed",
+     "derivation": "English atlas 'a silk-satin fabric of the East' (17th c., Fryer 1678, Hedges 1683) was taken by East India Company traders from Persian/Hindustani atlas < Arabic aṭlas; it is a homonym of Atlas the Titan and atlas 'book of maps' (Greek), hence Nourai's index 2. Now obsolete in English but still German Atlas 'satin'.",
+     "derivation_fa": "انگلیسی atlas به معنای «پارچهٔ ساتن ابریشمی شرقی» در سدهٔ هفدهم از راه بازرگانان کمپانی هند شرقی از فارسی/هندوستانی atlas و آن از عربی «أطلس» وام گرفته شد؛ با Atlas تیتان یونانی و atlas «کتاب نقشه» هم‌آوای بی‌ارتباط است. امروز در انگلیسی کهنه شده ولی در آلمانی Atlas «ساتن» زنده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/أطلس"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:122",
+       "status": "supports",
+       "note": "Klein 'atlas, n., silk-satin. — Arab. atlas, lit. wiped smooth, fr. talasa, he wiped, smoothed away'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WEB",
+       "where": "WEB_vol1.txt line ~12899 s.v. atlas",
+       "stance": "supports",
+       "note": "'atlas, n. [Ar., smooth, bare, satin.] a fine fabric of silk and satin, manufactured in the East Indies.'"
+      },
+      {
+       "src": "HJB",
+       "where": "s.v. ATLAS",
+       "stance": "supports",
+       "note": "'An obsolete word for satin, from the Ar. aṭlas ... literally bare or bald'; citations 1678 Fryer, 1683 Hedges, 1689 Ovington."
+      },
+      {
+       "src": "SKT",
+       "where": "grep 'atlas'",
+       "stance": "silent",
+       "note": "Skeat has only Atlas (Gk.) 'book of maps'."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
