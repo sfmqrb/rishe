@@ -1,0 +1,213 @@
+{
+  "pdf_page": 558,
+  "book_page": 528,
+  "verified_by": "claude-opus-5.5",
+  "verified_on": "2026-10-16",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Xac 1",
+      "verdict": "plausible",
+      "modern_form": "Skt. khac- 'shine through' (?) (Buck, after Uhlenbeck); modern view: Skt. kāca- probably a Nuristani loan, cognate with Skt. kāś- 'to shine'",
+      "note": "The book files this chart under X because Nourai writes Skt. kh as X ('Xac' = Skt. khac-). The root and gloss come straight from Buck SYN 620, who gives it with a question mark: 'Skt. kāca- : khac- shine through (?). Uhlenbeck 51.' Wiktionary (after Mayrhofer) calls kāca- 'likely borrowed from a Nuristani language (*kāt's'a), cognate with Sanskrit kāś- to shine brightly'. Either way, a 'shining' root sits behind the glass word, so the chart is defensible, but the specific root khac- is uncertain. The extraction matches the printed page.",
+      "note_fa": "نورایی ریشه را سنسکریت khac- «از درون درخشیدن» می‌گیرد (او kh سنسکریت را X می‌نویسد، از همین رو این مدخل زیر حرف X آمده). این ریشه را باک (SYN ص ۶۲۰) به پیروی از اولنبک، و خودش با علامت پرسش، آورده است. ویکی‌واژه به نقل از مایرهوفر سنسکریت kāca- «شیشه» را احتمالاً وام‌واژه‌ای از زبان‌های نورستانی (*kāt's'a) و هم‌ریشه با kāś- «درخشیدن» می‌داند. پس پیوند «شیشه» با ریشه‌ای به معنای درخشیدن پذیرفتنی است، اما خودِ ریشهٔ khac- قطعی نیست و ادعای نورایی را باید با احتیاط پذیرفت.",
+      "sources": ["https://en.wiktionary.org/wiki/काच"],
+      "ref_check": [
+        {"ref": "SYN:620", "status": "supports", "note": "SYN.txt (printed p. 620, section 9.74 GLASS), para 7: 'Skt. kāca- : khac- shine through (?). Uhlenbeck 51.' This is exactly Nourai's root and gloss, including Buck's hesitation."}
+      ],
+      "consulted": [
+        {"src": "POK", "where": "POK_full.txt grep 'kāca|kāś-|kāçat'", "stance": "silent", "note": "no Pokorny entry for Skt. kāca- or kāś-."},
+        {"src": "WLD", "where": "WLD_Bd1/Bd2_pages.txt, WLD_band3.txt grep 'kāca'", "stance": "silent", "note": "no hit."},
+        {"src": "AHD", "where": "AHD_watkins1985.txt", "stance": "silent", "note": "no IE root for Skt. kāca- (an Indo-Aryan word with no European cognates)."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Sanskrit",
+          "words": "kâca",
+          "verdict": "confirmed",
+          "derivation": "Skt. kāca- m. 'glass, crystal, quartz' (classical, post-Vedic). Buck lists it as the Sanskrit word for GLASS and tentatively links it to khac- 'shine through'. Wiktionary instead suggests a Nuristani loan cognate with kāś- 'shine'. It continues in Pali kāca, Hindi kā̃c, Bengali kāc, Malay kaca. The gloss 'pearl' comes from Mo'in's BQT footnote, which cites Monier-Williams for 'شیشه، آبگینه، مروارید' (glass bead). The word and its sense 'glass' are secure.",
+          "derivation_fa": "سنسکریت kāca- به معنای «شیشه، بلور، کوارتز» در سنسکریت کلاسیک به‌خوبی گواهی شده و در پالی kāca و هندی kā̃c (کانچ) و بنگالی kāc بازمانده است. باک آن را با تردید به ریشهٔ khac- «درخشیدن» می‌پیوندد و ویکی‌واژه آن را وامی از نورستانی می‌داند. معنای «مروارید» را معین در حاشیهٔ برهان قاطع به نقل از فرهنگ مونیر-ویلیامز آورده است (مهرهٔ شیشه‌ای). وجود واژه و معنای «شیشه» درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/काच"],
+          "ref_check": [
+            {"ref": "SYN:620", "status": "supports", "note": "SYN p.620 GLASS table: 'Skt. kāca-'; para 7 'Skt. kāca- : khac- shine through (?)'."},
+            {"ref": "BQT:1556", "status": "supports", "note": "BQT vol 3 p.1556 (pdf 349; vision file ocr/BQT/1556.vision.txt), footnote 9 to کاچ: 'قس: سانسکریت kâcá (شیشه، آبگینه، مروارید) «ویلیامز ۲:۲۶۸»'. Mo'in gives the Sanskrit word with these meanings."}
+          ],
+          "consulted": [
+            {"src": "POK", "where": "POK_full.txt grep 'kāca'", "stance": "silent", "note": "not in Pokorny."},
+            {"src": "WLD", "where": "WLD Bd1/Bd2 grep 'kāca'", "stance": "silent", "note": "not in Walde-Pokorny."},
+            {"src": "SYN", "where": "p.620 §9.74", "stance": "supports", "note": "'Skt. kāca-' as the Sanskrit word for 'glass'."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "kâč; kâčî",
+          "verdict": "plausible",
+          "derivation": "NP kāč 'glass, ground glass' is a lexicographers' word. Jahangiri, quoted by Mo'in at BQT 1556, has 'کاچ آبگینه را گویند', and Borhan glosses it 'شیشهٔ صلایه کرده' (ground glass rubbed on pottery). Mo'in only compares it with Skt. kāca (قس), and Wiktionary treats the variant kāš 'glass' as 'likely borrowed from an Indo-Aryan language, probably Hindustani kā̃c, ultimately from Sanskrit kāca'. So kāč is a loan from Indic (with Indic c > Persian č), not an inherited word. kāčī 'thin glazed tile' (Jahangiri: 'brick or clay vessel on which glass has been poured') is equated by Mo'in with kāšī (Farhang: 'کاشی: کاچی، آجر لعاب‌دار'), and Wiktionary says kāšī is 'related to kāš glass'. The more usual explanation derives kāšī 'tile' from the city of Kāšān (Arabicised qāšānī; Mo'in's note at BQT 1568, after Qazvini). The book itself puts کاشی in parentheses beside kāčī, so the kāčī/kāšī identification is possible but not certain.",
+          "derivation_fa": "«کاچ» به معنای «آبگینه، شیشهٔ ساییده» واژه‌ای فرهنگ‌نامه‌ای است (جهانگیری، برهان). معین در حاشیهٔ برهان (ص ۱۵۵۶) آن را تنها با سنسکریت kāca سنجیده است (قس)، و ویکی‌واژه گونهٔ «کاش» (شیشه) را وام‌واژه از هندوستانی kā̃c و در نهایت از سنسکریت kāca می‌داند. پس «کاچ» وام‌واژه‌ای هندی است، نه بازماندهٔ ایرانی باستان. «کاچی» (خشت لعاب‌دار) را معین با «کاشی» یکی دانسته، ولی توضیح رایج‌تر «کاشی» را منسوب به شهر کاشان می‌گیرد (معرب آن «قاشانی»؛ حاشیهٔ برهان ص ۱۵۶۸ به نقل از علامه قزوینی). پس پیوند «کاچی» و «کاشی» با «کاچ» با احتیاط پذیرفتنی است.",
+          "sources": ["https://en.wiktionary.org/wiki/کاش", "https://en.wiktionary.org/wiki/کاشی", "https://vajehyab.com/moein/کاشی"],
+          "ref_check": [
+            {"ref": "BQT:1556", "status": "supports", "note": "BQT p.1556 (pdf 349) کاچ sense 8 'شیشهٔ صلایه کرده را نیز گویند که کاسه‌گران بر روی طبق و کاسهٔ ناپخته مالند'; fn 9 'قس: سانسکریت kâcá ... «کاچ، آبگینه را گویند - و خشت و ظرف گلی را که بر زبر آن آبگینه ریخته باشند کاچی نامند» «جهانگیری»'. Both kāč 'glass' and kāčī 'glazed tile' are here, with a Sanskrit comparison but no explicit derivation."},
+            {"ref": "BQT:1568", "status": "partial", "note": "BQT p.1568 (pdf 361; ocr/BQT/1568.vision.txt) کاشی 'نوعی از خشت تنك باشد که نقاشی کنند و آبگینهٔ ساییده بر روی آن بمالند'; fn 6 'رك: کاچی. ... بعدها «قاشانی» (معرب کاشانی) گفتند'. Mo'in cross-refers to کاچی but also gives the Kashan (qāšānī) explanation."},
+            {"ref": "MON:2834", "status": "partial", "note": "Mo'in Farhang (online, vajehyab) s.v. کاشی: 'کاچی، آجر لعاب دار ساده یا نقاشی شده' and 2. 'منسوب به کاشان'. It equates kāšī with kāčī but gives no etymology. Mo'in's online کاچ entry has only 'تارک سر'. Printed page 2834 not checked."}
+          ],
+          "consulted": [
+            {"src": "HRN", "where": "HRN.txt grep 'kāč|kāšī'", "stance": "silent", "note": "Horn has no entry for kāč/kāšī."},
+            {"src": "HUB", "where": "HUB.txt grep", "stance": "silent", "note": "no entry."},
+            {"src": "ARY", "where": "ARY_pages.txt grep 'کاچ|کاشی'", "stance": "silent", "note": "no entry (not an inherited IE word)."},
+            {"src": "BQT", "where": "pp. 1556, 1568", "stance": "partial", "note": "see ref_check: Sanskrit kāca compared (قس), and kāšī cross-referred to kāčī and to Kāšān."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "root": "Xad, Xasta",
+      "verdict": "plausible",
+      "modern_form": "Proto-Iranian *xad- 'to beat, strike, inflict a wound' (Cheung 2007: 439); Khotanese khad-, khasta- 'beaten, pained'",
+      "note": "'Indo-Schythian' (sic, as printed) is Nourai's label for Khotanese (Bailey, Indo-Scythian Studies). Khotanese khad- 'to wound', ppp. khasta- 'beaten, pained' is real (Bailey DKS s.v. khasta-). It is a cognate, though, not the ancestor of the Avestan and Persian forms. Strictly, the root is Proto-Iranian *xad- (Cheung 439), and the chart's Khotanese → Avestan arrow is chronologically wrong. Cheung finds no certain IE etymology (Skt. kadana- doubtful). Aryanpur instead puts xastan under PIE *swer- 'wound' (sword), which Cheung's data do not support.",
+      "note_fa": "«Indo-Schythian» (با همین املای کتاب) نام نورایی برای ختنی (سکایی) است. ختنی khad- «زخمی کردن» و صفت مفعولی khasta- «زده، دردمند» در فرهنگ بیلی آمده است. اما این صورت‌ها هم‌ریشهٔ اوستایی و فارسی‌اند، نه نیای آن‌ها. ریشهٔ درست ایرانی آغازین *xad- «زدن، زخم زدن» است (چونگ، ص ۴۳۹)، و ریشهٔ هندواروپایی آن روشن نیست. ریشهٔ کلی درست است، اما نشان دادنِ ختنی به عنوان سرچشمه دقیق نیست.",
+      "sources": ["https://en.wiktionary.org/wiki/خستن"],
+      "ref_check": [
+        {"ref": "ISS:60", "status": "not_checked", "note": "Indo-Scythian Studies (Khotanese Texts VI) not online. The substitute DKS (ISS_alt_DKS.txt) has 'khasta- beaten, pained, participle to xad-' and 'kamma- wound ... beside khad- to beat ... M.Parth.T. xdm, base xad-'. This supports the substance."}
+      ],
+      "consulted": [
+        {"src": "CHEUNG", "where": "p.439 *xad", "stance": "supports", "note": "'*xad to beat, strike, inflict a wound, hurt'; Av. vixad-, MMP xst 'wounded', Parth. xd-, Khot. khad-, NP xastan, xastah. 'Ir. *xad has no certain IE cognate forms.'"},
+        {"src": "ISS_alt_DKS", "where": "s.v. khasta-", "stance": "supports", "note": "'khasta- beaten, pained, participle to xad-'."},
+        {"src": "POK", "where": "POK_full.txt grep 'khasta|xasta'", "stance": "silent", "note": "no entry."},
+        {"src": "ARY", "where": "ARY_latin_index_pages pdf 239 'XAST, XASTAN'", "stance": "contradicts", "note": "Aryanpur lists XASTAN, XVASTAN (Pahlavi) with Av. XVARA and OE sweord, i.e. under PIE *swer- 'wound'."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan",
+          "words": "vi-xada; xad 2, xas",
+          "verdict": "plausible",
+          "derivation": "YAv. xad- occurs only with vi-: vixadat (inj. 3sg.) and vixada (impv. 2sg.), Vidēvdād 2.31-32, 'to beat/squeeze (the earth) apart'. Bartholomae col. 531 has 'xad- V., nur mit vi auseinander quetschen'. vixada is therefore an imperative, not a participle 'beaten' as the chart glosses it. 'xas' is the pre-dental variant seen in the participle *xas-ta- (Ir. d + t > st). It is not a separate Avestan root. The verb is the Avestan reflex of Ir. *xad- (Cheung 439), so the arrow is right but the glosses are loose.",
+          "derivation_fa": "در اوستای نو، فعل xad- تنها با پیشوند vi- آمده است: vixadat و vixada در وندیداد ۲.۳۱–۳۲ به معنای «از هم کوفتن/فشردن (زمین)». بارتولومه (ستون ۵۳۱) آن را «auseinander quetschen» معنی کرده است. پس vixada فعل امر است، نه صفت مفعولی «کوفته». «xas» گونهٔ پیش از t همین ریشه است (*xad-ta- > xasta-، با دگرگونی آوایی d+t به st)، نه ریشه‌ای جداگانه. پیوند اوستایی با ریشهٔ *xad- درست است، اما معنی‌هایی که نورایی داده دقیق نیست.",
+          "sources": ["https://en.wiktionary.org/wiki/خستن"],
+          "ref_check": [
+            {"ref": "FFD:50", "status": "supports", "note": "FFD pdf 55 = p.50 (FFD_pages.txt l.1395): 'خست < فارسی میانه xast < ایرانی باستان *xad-ta- ... صورت اصلی xad است. d پیش از t به s بدل شده است. ریشهٔ xad به معنی «پاره کردن» است'. This matches Nourai's xad/xas 'to tear'."},
+            {"ref": "ISS:60", "status": "not_checked", "note": "book not online; DKS s.v. khasta- 'participle to xad-'."}
+          ],
+          "consulted": [
+            {"src": "BRT", "where": "col. 531 (BRT.txt l.10531)", "stance": "supports", "note": "'xad- V., nur mit vi auseinander quetschen. Praes. 2 xada-. ... vixada V. 2.31; 32'."},
+            {"src": "CHEUNG", "where": "p.439", "stance": "supports", "note": "'(+ *ui-) ? YAv. vixad- to beat (the earth) apart ... IMPV. 2sg. YAv. vixada (V 2.31)'."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "xvastan; xastak",
+          "verdict": "disputed",
+          "derivation": "The Pahlavi reflex of *xad- is xastan [hstn'] 'to wound, injure' (MacKenzie p.93; Manichaean MP ppp. xst 'wounded'), from *xad-ta- with d + t > st. Its participle xastag 'wounded' (NP xasta) fits the chart. The chart's verb xvastan, however, is MacKenzie's xwastan, pres. xwah- [hwstn'] 'tread, trample; thresh', which belongs to a different root, Ir. *huah 'to strike, thresh' (Cheung p.141). Nourai has merged two verbs, xastan and xwastan. Mo'in's footnote to خستن at BQT ~747 also seems to give a Pahlavi form glossed 'کوفتن، کتک زدن', which may be the source of the mix-up.",
+          "derivation_fa": "بازماندهٔ پهلوی ریشهٔ *xad- فعل xastan [hstn'] «زخمی کردن، آزردن» است (مکنزی، ص ۹۳؛ فارسی میانهٔ مانوی xst «زخمی»). صفت مفعولی آن xastag در فارسی «خسته» شده است. اما xvastan که نورایی آورده، همان xwastan (مضارع xwah-) «لگدکوب کردن، خرمن کوفتن» در فرهنگ مکنزی است و به ریشهٔ دیگری، ایرانی *huah «کوفتن، خرمن کوبیدن»، تعلق دارد (چونگ، ص ۱۴۱). پس نورایی دو فعل جداگانه را یکی گرفته است: xastak درست است، ولی xvastan از این ریشه نیست.",
+          "sources": ["https://en.wiktionary.org/wiki/خستن"],
+          "ref_check": [
+            {"ref": "ISS:60", "status": "not_checked", "note": "Indo-Scythian Studies not online. DKS s.v. kamma- cites 'M.Parth.T. xdm, base xad-' but has no Pahlavi xvastan."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "p.93 (PHD_mackenzie.txt l.5547, 5651)", "stance": "contradicts", "note": "'xastan [hstn' | M xst] wound, injure' is a separate entry from 'xwastan, xwah- [hwstn'] tread, trample; thresh'. This supports xastan but not xvastan."},
+            {"src": "NYB", "where": "NYB_vol2_glossary.txt grep '^xast|^xvast|^xwast'", "stance": "silent", "note": "no entry found in OCR."},
+            {"src": "CHEUNG", "where": "pp.439 and 141", "stance": "contradicts", "note": "*xad: 'MMP xst (ppp.) wounded'; *huah 'to strike, thresh; [inch., intr.] to become tired': 'BMP hwst /xwast/', 'NP x'ast beaten road'. These are two distinct roots."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "xastan; xasteh",
+          "verdict": "confirmed",
+          "derivation": "NP xastan (obsolete) 'to wound' continues MP xastan from Ir. *xad-ta- (d + t > st). xasta(h) is its past participle: 'wounded' → 'hurt, afflicted' → modern 'tired'. Cheung lists 'NP xastan (obs.) to wound, xastah [obs.] wounded, sad; tired', borrowed into Kurdish xistin 'to strike'. Cheung's *huah has an inchoative sense 'to become tired', which may have helped the 'tired' meaning, but the formal derivation of xasta from *xad- is standard (Wiktionary, after MacKenzie and Cheung). Mo'in tags خستن [په.] 'مجروح کردن'.",
+          "derivation_fa": "«خستن» (کهن) به معنای «زخمی کردن» از فارسی میانهٔ xastan و آن از ایرانی آغازین *xad-ta- است. در اینجا d پیش از t به s بدل شده است. «خسته» صفت مفعولی آن است و معنایش از «زخمی» به «آزرده» و سپس به «مانده و بی‌تاب» رسیده است. چونگ و مکنزی و ویکی‌واژه همین را می‌گویند و معین «خستن» را پهلوی و به معنای «مجروح کردن» آورده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/خستن", "https://vajehyab.com/moein/خستن"],
+          "ref_check": [
+            {"ref": "BQT:747", "status": "partial", "note": "ref_page.py has no scan for p.747. BQT_v2_pages.txt leaf 205 (\\f-block 206 ≈ p.747) has 'خست ... ماضی خستن و آزرده ساختن باشد بمعنی مجروح کرد' and 'خستن ... بمعنی مجروح کردن - و مجروح شدن باشد'. The footnote OCR shows 'پهلوی ... (کوفتن، کتک زدن)' with the Latin form unreadable. Entry and sense confirmed; the etymology is not legible."},
+            {"ref": "ISS:60", "status": "not_checked", "note": "not online."}
+          ],
+          "consulted": [
+            {"src": "CHEUNG", "where": "p.439", "stance": "supports", "note": "'NP xastan (obs.) to wound, xastah [obs.] wounded, sad; tired, bored'."},
+            {"src": "HUB", "where": "HUB.txt grep 'xastan|xasta'", "stance": "silent", "note": "only 'xastu Kern = xasta' (a different word, 'kernel'). No entry for xastan 'wound'."},
+            {"src": "HRN", "where": "HRN.txt grep 'xastan|xasta'", "stance": "silent", "note": "no entry found."},
+            {"src": "MON", "where": "vajehyab s.v. خستن", "stance": "supports", "note": "'خستن [په.] ۱- مجروح کردن ۲- آزرده شدن'."},
+            {"src": "ARY", "where": "ARY_pages pdf 239", "stance": "partial", "note": "'خست (به چم «زخم»)، خستن (به چم «آزردن، مجروح کردن»)'. The words are listed, but under PIE *swer-, not *xad-."}
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Xâk",
+      "verdict": "confirmed",
+      "modern_form": "MP xāk [hʾk'] 'earth, dust' (MacKenzie p.93); further etymology uncertain",
+      "note": "Pahlavi xāk 'earth, dust' is well attested (MacKenzie: 'xāk [APLA < A ʿpr; hʾk' | N xāk] earth, dust'). Nourai roots the chart here and goes no further back. Wiktionary's link to PIE *h₂eHs- and Aryanpur's link to xāya 'egg' are speculative. The Hindustani and English khaki chain is textbook.",
+      "note_fa": "«خاک» در پهلوی به صورت xāk (هزوارش APLA، از آرامی ʿafrā) به معنای «خاک، گَرد» به‌خوبی گواهی شده است (مکنزی، ص ۹۳). نورایی ریشه را از همین پهلوی آغاز می‌کند و فراتر نمی‌رود. پیوند آن با هندواروپایی *h₂eHs- (ویکی‌واژه) یا با «خایه» (آریان‌پور) گمانی است. ادعای نورایی درست است.",
+      "sources": ["https://en.wiktionary.org/wiki/خاک"],
+      "ref_check": [
+        {"ref": "BQT:701", "status": "not_found", "note": "ref_page.py has no scan for p.701. BQT_v2_pages.txt \\f-blocks 157-160 (≈ pp.700-702, header 'خاکبیز') were checked, but the OCR shows no legible footnote for خاک."}
+      ],
+      "consulted": [
+        {"src": "PHD", "where": "p.93 (PHD_mackenzie.txt l.5528)", "stance": "supports", "note": "'xāk [APLA < A ʿpr; hʾk' | N --] earth, dust.'"},
+        {"src": "NYB", "where": "NYB_vol2_glossary.txt grep '^xāk'", "stance": "silent", "note": "only 'xākān' (Turkish title) found."},
+        {"src": "HRN", "where": "HRN.txt grep", "stance": "silent", "note": "no entry for xāk."},
+        {"src": "ARY", "where": "ARY_pages.txt l.6886 (note under خایه)", "stance": "partial", "note": "'واژه‌های «خاویار» و «خاک» و «خاگینه» نیز هم‌ریشهٔ واژهٔ «خایه» هستند'. This goes beyond the Pahlavi root but does not contradict it."}
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Persian",
+          "words": "xâk",
+          "verdict": "confirmed",
+          "derivation": "NP xāk 'earth, dust; land, country; grave' continues MP xāk unchanged (Book Pahlavi spelled with the Aramaeogram APLA 'dust', phonetic hʾk'). The derivatives in the box (xākī, xākandāz, xākbīz, xākdān, xāksār, xākestar) are NP compounds and suffixations on it. Mo'in tags خاک [په.]. The Nezami quotation shows the sense 'earthly world'.",
+          "derivation_fa": "«خاک» در فارسی نو بی‌دگرگونی از فارسی میانهٔ xāk آمده است (در پهلوی کتابی با هزوارش APLA «خاک» نوشته می‌شد). واژه‌های «خاکی»، «خاک‌انداز»، «خاک‌بیز»، «خاکدان»، «خاکسار» و «خاکستر» ساخته‌های فارسی بر پایهٔ آن‌اند. معین آن را پهلوی دانسته و مکنزی صورت xāk «خاک، گرد» را آورده است. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/خاک", "https://vajehyab.com/moein/خاک"],
+          "ref_check": [
+            {"ref": "MON:1390", "status": "supports", "note": "Mo'in Farhang (vajehyab) s.v. خاک: '[په.] (اِ.) ۱- رویهٔ زمین که باعث رویاندن نباتات می‌شود، تراب' plus senses 'territory', 'grave'. Printed page not seen."}
+          ],
+          "consulted": [
+            {"src": "PHD", "where": "p.93", "stance": "supports", "note": "'xāk ... earth, dust'."},
+            {"src": "HRN", "where": "HRN.txt grep 'xāk|xâk|khak'", "stance": "silent", "note": "no entry."},
+            {"src": "HUB", "where": "HUB.txt grep", "stance": "silent", "note": "no entry."},
+            {"src": "ARY", "where": "ARY_pages l.6886", "stance": "partial", "note": "lists خاک as cognate of خایه (speculative)."}
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Hindustani",
+          "words": "xâkî, khaki",
+          "verdict": "confirmed",
+          "derivation": "Persian xākī 'dusty, earthy, earth-coloured' (xāk + adjectival -ī) was taken into Hindustani (Urdu خاکی, Hindi ख़ाकी/खाकी khākī) with the Persian lexicon of the Mughal period. In British India it named the drab cloth first adopted by Punjab regiments (Lumsden's Guides) and used widely in 1857-58 (Hobson-Jobson).",
+          "derivation_fa": "صفت فارسی «خاکی» (خاک + پسوند نسبت ـی) به معنای «خاک‌رنگ، گردآلود» در دورهٔ گورکانیان همراه با واژگان فارسی وارد هندوستانی شد (اردو خاکی، هندی khākī). در هند بریتانیایی نام پارچه‌ای خاک‌رنگ شد که هنگ‌های پنجاب در سال‌های ۱۸۵۷–۱۸۵۸ برای یونیفورم برگزیدند (هابسون-جابسون). ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/خاکی", "https://en.wiktionary.org/wiki/khaki"],
+          "ref_check": [
+            {"ref": "KLN:844", "status": "supports", "note": "KLN_1966.txt l.20645: 'khaki, adj., dust-colored ... Hind. khaki, dusty, dust-colored, fr. Pers. khak, dust'."},
+            {"ref": "AHD:719", "status": "not_checked", "note": "AHD 1976 main dictionary p.719 is not on disk or online."}
+          ],
+          "consulted": [
+            {"src": "HJB", "where": "HJB.txt l.12444 s.v. KHAKEE", "stance": "supports", "note": "'KHAKEE ... Hind. khākī, dusty or dust-coloured, from Pers. khāk, earth or dust; applied to a light drab ... cloth ... worn by some of the Punjab regiments at the siege of Delhi'."},
+            {"src": "AID", "where": "AID.txt grep 'khaki|khakee'", "stance": "silent", "note": "no hit in OCR."},
+            {"src": "KLN", "where": "p.844", "stance": "supports", "note": "as in ref_check."}
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "English",
+          "words": "khaki",
+          "verdict": "confirmed",
+          "derivation": "English khaki (1850s, Anglo-Indian 'khakee', e.g. the 'Khakee Ressalah' book of 1858 and a Madras Govt. order of 1859) comes from Hindustani khākī 'dust-coloured', from Persian xākī. It first named the drab uniform cloth, then the colour. After the Second Boer War (1899-1902), when khaki became general British service dress, it also became a noun for soldiers. From English it spread to French kaki, Spanish caqui and others.",
+          "derivation_fa": "انگلیسی khaki در دههٔ ۱۸۵۰ به صورت انگلیسی-هندی khakee از هندوستانی khākī «خاک‌رنگ» و آن از فارسی «خاکی» گرفته شد. نخست نام پارچهٔ یونیفورم بود و سپس نام رنگ شد. پس از جنگ بوئر دوم (۱۸۹۹–۱۹۰۲) یونیفورم عمومی ارتش بریتانیا شد و از انگلیسی به فرانسوی kaki و اسپانیایی caqui و زبان‌های دیگر رسید. ادعای نورایی درست است.",
+          "sources": ["https://en.wiktionary.org/wiki/khaki"],
+          "ref_check": [
+            {"ref": "KLN:844", "status": "supports", "note": "KLN p.844: 'khaki ... a dust-colored cloth used for military uniforms. Hind. khaki ... fr. Pers. khak, dust'."},
+            {"ref": "AHD:719", "status": "not_checked", "note": "AHD 1976 main dictionary not available."}
+          ],
+          "consulted": [
+            {"src": "KLN", "where": "p.844 (KLN_1966.txt l.20645)", "stance": "supports", "note": "as above."},
+            {"src": "HJB", "where": "s.v. KHAKEE", "stance": "supports", "note": "quotations from 1858 ('Khakee Ressalah') and 1859 ('undress clothing will be entirely of Khakee')."},
+            {"src": "SKT", "where": "SKT.txt grep 'khaki'", "stance": "silent", "note": "not in Skeat's Concise Dictionary."}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+ "pdf_page": 549,
+ "book_page": 519,
+ "verified_by": "claude-opus-5.5",
+ "verified_on": "2026-10-16",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Werg 1",
+   "verdict": "confirmed",
+   "modern_form": "PIE *werǵ- 'to work, do' (Pokorny 1168-1169 2. u̯erĝ- 'wirken, tun'; WP I 290 f.; Watkins werg-; thematic noun *wérǵom 'work')",
+   "note": "Root, label and gloss are correct. Pokorny 1168 groups exactly Nourai's material: Av. varəz- / varəza- 'work' (with 'npers. varz, barz Feldarbeit, Ackerbau'), Gk. érgon, órganon, Germanic *werka- (OE weorc, OHG werc). Watkins (AHD) lists work, bulwark, (boulevard), ergon (allergy, argon, energy, metallurgy, surgery, georgic) and organ/organon under werg-. Cheung 2007 (*u̯arz 'to do, work, till the land') notes NP varzidan and barz are not regular SW Persian forms (inherited SW Persian has d < PIr *ź, as in OP vard-); they come from a NW Iranian (Parthian-type) source. Weak spots on the chart: the gloss 'strong cow' for varzāv (it is the plough-ox), the label 'Middle German' for bolwerk (the French word comes from Middle Dutch, or possibly Middle High German, bolwerc), and the claim that argon and allergy came through French (they are modern coinages from Greek). The extraction matches the printed page (checked against site/pages/549.jpg). The page also has an empty, unlabelled box to the right of the Old Persian node that the JSON leaves out; it holds no word.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *werǵ- «کار کردن، انجام دادن» در پوکورنی (ص ۱۱۶۸-۱۱۶۹)، والده-پوکورنی (ج ۱، ص ۲۹۰) و واتکینز آمده است. اوستایی varəz- و varəza- «کار»، یونانی érgon و órganon، ژرمنی *werka- (انگلیسی work) و فارسی «ورز، برز، ورزیدن» از همین ریشه‌اند. پس ریشه و معنایی که نورایی داده درست است. نکتهٔ مهم آن است که «ورز» و «ورزیدن» با z گونهٔ شمال‌غربی (پارتی) است. گونهٔ بومی جنوب‌غربی باید d می‌داشت، چنان‌که در پارسی باستان vard- دیده می‌شود. معنای «گاو نیرومند» برای «ورزاو» هم دقیق نیست و معنای درست آن «گاو شخم» است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wérǵom",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wr̥jyáti"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:1168",
+     "status": "supports",
+     "note": "POK_full.txt lemma block ending 'Page(s): 1168-1169' (lines ~91150-91215): 'Avestan ... varaza- m. work, Verrichten ... (npers. varz, barz Feldarbeit, Ackerbau) ... gr. ergon, Fergon work (= German Werk) ... organon tool ... Old English weorc ... Old High German werc'. The root, gloss and the Avestan, Persian, Greek and Germanic reflexes are all there."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "WLD",
+     "where": "Bd. I p. 290 (WLD_Bd1_pages.txt leaf 299)",
+     "stance": "supports",
+     "note": "'2. uerg- „wirken, tun“ ... Av. varəz- (varəzyeiti) ... npers. varz, barz „Feldarbeit, Ackerbau“ ... Gr. ergon „Werk, Arbeit“ (= dt. Werk)'"
+    },
+    {
+     "src": "AHD",
+     "where": "AHD_watkins1985.txt line 1151-1152, s.v. werg-",
+     "stance": "supports",
+     "note": "'werg-. To do. I. Suffixed form *werg-o-. 1. Germanic *werkam, work ... WORK; b. Old High German werc: (BOULEVARD), BULWARK. 2. Greek ergon ... ALLERGY, ARGON, ENERGY, ... METALLURGY, SURGERY ... III. O-grade *worg- in Greek organon, tool: ORGAN, ORGANON. [Pok. 2. werg- 1168.]'"
+    },
+    {
+     "src": "SYN",
+     "where": "§9.12-9.13 WORK (SYN.txt lines 13593-13640)",
+     "stance": "supports",
+     "note": "'1. From IE *werg- in Grk. erdō, rhezō ‘do’, Av. varəz- ‘work, do’, etc. Walde-P. 1.290 ff.'"
+    },
+    {
+     "src": "IEC",
+     "where": "IEC.txt, grep '^uerg'",
+     "stance": "silent",
+     "note": "Only uergh- 'annoy', uergho 'come', uergo 'twist' found; no entry for *uerĝ- 'work' located in the OCR."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "vareza",
+     "verdict": "confirmed",
+     "derivation": "Av. varəza- m. 'working, performance of; activity' (Bartholomae col. 1378) is the thematic action noun of the verb varəz- 'to work, do' (pres. varəziia-) < PIr. *warj- < PIE *werǵ-, with PIE palatal *ǵ > Av. z. It appears in compounds such as gavāstrya-varəza- 'performing agricultural work', which already shows the farming sense later found in NP barz/varz.",
+     "derivation_fa": "اوستایی varəza- «کار، انجام دادن، کوشش» نام‌واژه‌ای از ستاک فعلی varəz- «کار کردن» است. این ستاک از ایرانی باستان *warj- و هندواروپایی آغازین *werǵ- است و ǵ کامی هندواروپایی در اوستایی به z بدل شده است. ترکیب gavāstrya-varəza- «کار کشاورزی» در اوستا معنای کشاورزیِ «برز و ورز» فارسی را از پیش نشان می‌دهد. ادعای نورایی درست است (بارتولومه، ستون ۱۳۷۸؛ پوکورنی).",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wr̥jyáti"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1168",
+       "status": "supports",
+       "note": "'Avestan varəz- ... participle varšta-, varəza- m. work, Verrichten, occupation (npers. varz, barz)' (POK_full.txt ~line 91170)."
+      },
+      {
+       "ref": "KLN:1751",
+       "status": "supports",
+       "note": "Klein s.v. work (KLN_1971.txt line 268288): 'fr. I.-E. base *werg-, work, to work, whence also Avestic varəza, work, activity, vərəzyeiti, he works, does ... Gk. ergon'."
+      },
+      {
+       "ref": "SYN:537",
+       "status": "supports",
+       "note": "Buck §9.12-9.13 WORK: 'Av. varəz- work, do', listed under IE *werg-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1376-1378 (BRT.txt lines 23003-23036)",
+       "stance": "supports",
+       "note": "'varəz- V. wirken' and 'varəza- m. Wirken, Verrichten von —; Tätigkeit'; also line 10181 'gavāstrya-varəza- n. Verrichten landwirtschaftlicher Arbeit'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "pp. 425-426 *u̯arz",
+       "stance": "supports",
+       "note": "'*u̯arz to do, work, till the land. AVESTAN: varəz- to do, work ... (+ *abi-) to cultivate'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p. 290",
+       "stance": "supports",
+       "note": "'Av. varəz- (varəzyeiti) ... varəza-'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "varzîdan; barz, varz; barz-gar; varzâv; varzeš 1",
+     "verdict": "plausible",
+     "derivation": "The Persian words belong to the same Iranian root as Av. varəz-, but they do not descend from Avestan. They continue MP warz 'farming, tillage', warzīdan / warz- 'to work, practise, till', warzīgar 'worker, peasant', warzišn 'work, tillage' and warzāw / warzag 'ploughing ox' (MacKenzie p. 88). Their -z- is the NW Iranian (Parthian-type) reflex of PIr *ź. Inherited SW Persian would have d (OP vard-, cf. Nyberg's *abi-varda- 'SW form of *abi-varza-'), so Cheung marks NP varzidan and barz as loans from that dialect. Initial w- > b- gives the doublets barz / varz and barzgar / varzgar. varzāv (varzā, varzu) means 'plough-ox' (Horn: 'Pflugstier'; Wiktionary: varz + gāv, 'tilling-cow'), not 'strong cow'. Aryanpur instead puts varzā with Skt. vṛṣabha 'bull' (PIE *wers- 'male'), but MP warzāw/warzag 'ploughing ox' supports Nourai's root. varzeš 'exercise, practice' < MP warzišn; the meaning 'sport' is a 20th-century specialisation.",
+     "derivation_fa": "«ورزیدن، ورز، برز، برزگر، ورزش» از فارسی میانهٔ warzīdan / warz-، warz «کشاورزی»، warzīgar «برزگر» و warzišn «کار، کشت» آمده‌اند. این واژه‌ها هم‌ریشهٔ اوستایی varəz- هستند ولی از خود اوستایی نیامده‌اند. z در آن‌ها گونهٔ شمال‌غربی (پارتی) است، زیرا گونهٔ بومی جنوب‌غربی d می‌داشت (پارسی باستان vard-). به همین دلیل چونگ و نیبرگ این صورت‌ها را وام‌واژهٔ گویشی می‌دانند. ابدال w به b در آغاز واژه دوگانه‌های «ورز/برز» و «ورزگر/برزگر» را ساخته است. «ورزاو» (ورزا، ورزو) از «ورز + گاو» و به معنی «گاو شخم» است، نه «گاو نیرومند» (هرن، مکنزی، برهان قاطع). آریان‌پور آن را با سنسکریت vṛṣabha «گاو نر» هم‌ریشه گرفته، ولی فارسی میانهٔ warzāw این را تأیید نمی‌کند. معنای «ورزش» به‌عنوان sport ساختهٔ سدهٔ بیستم است. پس ادعای نورایی در کل با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ورزیدن",
+      "https://en.wiktionary.org/wiki/ورز",
+      "https://en.wiktionary.org/wiki/ورزا",
+      "https://vajehyab.com/moein/ورزش",
+      "https://vajehyab.com/moein/برزگر",
+      "https://vajehyab.com/dehkhoda/ورزاو"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:254",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 474 (p. 254): 'برز ... بمعنی کشت و زراعت و کشاورزی باشد' with Mo'in's note 1: 'در پهلوی varz (کار کردن، اجرا کردن؛ کار، عمل) از اوستایی varəz (کار کردن) «بارتولمه ۱۳۷۸» در فارسی برز و ورز'. The same page has 'برزگر ... زراعت کننده' and 'برزه گاو، گاو زراعت را گویند'."
+      },
+      {
+       "ref": "BQT:2268",
+       "status": "supports",
+       "note": "ref_page.py BQT:2268 (vol. 4 pdf p. 351, OCR): 'ورز ... بمعنی حاصل کردن باشد - وکشت و زراعت را نیز گویند' and Mo'in's note: 'پهلوی varz (کار کردن، عمل؛ کار؛ شغل)؛ از اوستا varəz (کار کردن) «بارتولمه ۱۳۷۸». قس: فارسی برز، رک: ورزیدن'."
+      },
+      {
+       "ref": "MON:5002",
+       "status": "partial",
+       "note": "The 6-volume page cannot be opened. On vajehyab, Mo'in s.v. ورزش has '1- تمرین، کار پیاپی و مرتب. 2- انجام حرکات بدنی خاص برای تقویت عضلات' and s.v. برزگر 'زارع، کشاورز. برزیگر هم گویند'. These confirm the meanings but give no etymology online."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 88 (PHD.txt lines 608-614)",
+       "stance": "supports",
+       "note": "'warzag (N warzāw) ploughing (ox)'; 'warzīdan, warz- work, act, practise; till; beget. ~išn: work, tillage'; 'warzīgar ... worker, peasant (N barzīgar)'."
+      },
+      {
+       "src": "NYB",
+       "where": "Part II p. ~204-205 (NYB_vol2_glossary.txt line 3993)",
+       "stance": "supports",
+       "note": "'varz farming ... Av. (1378) varəza-; MPrs wrz farming; NP varz a sown field, agriculture'. Line 1477: '*abi-varda- SW form of *abi-varza-', which confirms the SW/NW split."
+      },
+      {
+       "src": "HRN",
+       "where": "no. 197, p. 46 (HRN.txt leaf 67)",
+       "stance": "supports",
+       "note": "'197. berz, verz Feldarbeit, verzīden, berzīden; verzgāv, verzāv Pflugstier. aw. varz- schaffen, tun; phlv. varz Feldarbeit'."
+      },
+      {
+       "src": "HUB",
+       "where": "p. ~155 (HUB.txt leaf 165)",
+       "stance": "supports",
+       "note": "'barz = varz Feldarbeit, phl. varz, zd. Wzl. varez'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "p. 426 *u̯arz",
+       "stance": "partial",
+       "note": "'NP varzidan/varz- to sow a field (LW), barz a sown field; agriculture (LW)'. Same root, but Cheung marks the NP forms as dialect loanwords, not inherited SW forms."
+      },
+      {
+       "src": "ARY",
+       "where": "pdf p. 519-520 (printed 520-521), ARY_latin_index_pages.txt",
+       "stance": "partial",
+       "note": "ورزیدن entry: 'AVESTAN VAREZA, VARƏZYEITI; PAHLAVI VARZ, VARZISHN, WARZIDAN ... POKORNY 1168; MACKENZIE (WARZ-) 88', which supports. But the ورزا entry lists 'VARZA, WARZAG (PAHLAVI) ... VRSABHA (SANSKRIT), VACCA (LATIN) ... MACKENZIE (PLOUGHING OX) 127'. That puts varzā under the 'bull' root and contradicts Nourai for that word."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Old Persian",
+     "words": "vard",
+     "verdict": "plausible",
+     "derivation": "OP vard- 'to work' is the regular SW reflex of PIr *warj- (PIE *ǵ > PIr *ź > OP d). Kent lists it (p. 206-207: 'vard- vb. work: Av. varəz-, Gk. rhezō, Gm. Werk, pIE *u̯erĝ-; in Artavardiya-'), but it is attested only in the personal name Artavardiya- 'doing right', not as a free verb. Cheung reads the only possible verbal form (DB 4.44 vrdiyaiy) differently ('?vrd- to take'). The form is linguistically right, but the attestation is indirect.",
+     "derivation_fa": "پارسی باستان vard- «کار کردن» صورت قاعده‌مند جنوب‌غربیِ ریشهٔ ایرانی باستان *warj- است، چون ź ایرانی در پارسی باستان به d بدل می‌شود. کنت (ص ۲۰۶-۲۰۷) آن را آورده است، ولی تنها در نام خاص Artavardiya- «درست‌کردار» دیده می‌شود و فعل مستقلی از آن در کتیبه‌ها نیامده است. چونگ تنها صورت فعلی احتمالی (DB 4.44) را به گونهٔ دیگری می‌خواند. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wr̥jyáti"
+     ],
+     "ref_check": [
+      {
+       "ref": "KNT:207",
+       "status": "supports",
+       "note": "KNT_full.txt line 28834, between the page markers 206 and 207: 'vard- vb. ‘work’: Av. varəz-, Gk. ῥέζω ‘work’, Gm. Werk, pIE *u̯erĝ-; in Artavardiya-'. Kent marks it as occurring only inside the name."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "CHEUNG",
+       "where": "p. 426 *u̯arz",
+       "stance": "partial",
+       "note": "'OLD PERSIAN: (?) vrd- to take (differently Kent, l.c., ...) = Kent: 207a'. Cheung doubts a verbal attestation."
+      },
+      {
+       "src": "BRT",
+       "where": "col. 1376-1378",
+       "stance": "supports",
+       "note": "Gives Av. varəz- 'wirken' as the Avestan counterpart. BRT treats OP vardana- under a separate lemma (col. 1424 f.)."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Greek",
+     "words": "organon",
+     "verdict": "confirmed",
+     "derivation": "Gk. órganon 'tool, instrument; bodily organ; musical instrument' is formed from the o-grade *worǵ- with the suffix -ano- (Watkins: *worg-ano-). Digamma *w- was lost in Attic-Ionic. It is ablaut-related to érgon 'work' (Wiktionary: 'formed similarly to xóanon, compare érgon').",
+     "derivation_fa": "یونانی órganon «ابزار، اندام، ساز» از بالاگونهٔ o ریشه، یعنی *worǵ-، با پسوند -ano- ساخته شده است. w آغازی (دیگاما) در یونانی آتیکی افتاده است. این واژه با érgon «کار» در رابطهٔ دگرگونی واکه‌ای است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ὄργανον"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 1152: 'III. O-grade form *worg- in: a. Greek organon (with suffix -ano-), tool: ORGAN, ORGANON'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p. 1168",
+       "stance": "supports",
+       "note": "'organon tool' listed under u̯erĝ-."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. organ (KLN_1971.txt line 168586)",
+       "stance": "supports",
+       "note": "'Gk. organon, instrument; bodily organ; musical instrument ... in gradational relationship to ergon (for *Fergon), work'."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Arabic",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "Empty pass-through node for Arabic arġanūn / urġun 'organ'. Classical Arabic took the Greek word órganon, through Syriac ʾorganon, in the ʿAbbāsid translation period: Greek o- became a-/u-, Greek g became ġ, and the ending -on became -ūn. Mo'in marks ارغنون '[معر - یو.]', i.e. an Arabicised Greek word. No independent Arabic etymological dictionary on disk has the word, so the Syriac step is not confirmed from the library.",
+     "derivation_fa": "این خانهٔ تهی نمایندهٔ عربی «ارغنون / اُرغُن» است. عربی در دورهٔ ترجمه (عباسی) واژهٔ یونانی órganon را احتمالاً از راه سریانی گرفته است. o یونانی به a/u، g به غ و پایانهٔ -on به -ūn بدل شده است. معین آن را «معرّب از یونانی» می‌داند. پس ادعای نورایی پذیرفتنی است، ولی گام سریانی در منابع موجود تأیید نشد.",
+     "sources": [
+      "https://vajehyab.com/moein/ارغنون"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:203",
+       "status": "supports",
+       "note": "vajehyab Mo'in s.v. ارغنون: '(اَ غَ) [معر - یو.] (اِ.) نوعی ساز که از تعداد زیادی لوله تشکیل شده ...' (معرّب from Greek)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AFM",
+       "where": "AFM.txt / AFM_pages.txt grep 'رغن'",
+       "stance": "silent",
+       "note": "Not found (Addi Shir covers Persian loans in Arabic)."
+      },
+      {
+       "src": "LKT",
+       "where": "LKT.txt grep 'organ'",
+       "stance": "silent",
+       "note": "No arġanūn entry; only unrelated hits (jorgan, mergan)."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 1 p. ~106 (BQT_v1_pages.txt leaf 318)",
+       "stance": "supports",
+       "note": "Mo'in's note on ارغنون: 'از یونانی organon'."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "arghanŭn",
+     "verdict": "confirmed",
+     "derivation": "NP arġanūn 'a (pipe-)organ; a concert of many voices' is the Arabicised Greek órganon (see #5). It entered Persian with Arabic learning and is common in classical poetry. Borhan also records the short forms arġan and arġun. The book prints 'arghanŭn' with a breve; the usual transliteration is arġanūn.",
+     "derivation_fa": "«ارغنون» در فارسی به معنی سازی بادی با لوله‌های بسیار و نیز هم‌آوایی چند آواز است. این واژه معرّبِ یونانی órganon است و از راه عربی به فارسی آمده و در شعر کلاسیک فراوان است. برهان قاطع صورت‌های کوتاه «ارغن» و «ارغون» را هم آورده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ارغنون",
+      "https://vajehyab.com/moein/ارغنون"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:106",
+       "status": "supports",
+       "note": "BQT_v1_pages.txt leaf 318-319: 'ارغنون ... سازیست ... افلاطون وضع کرده' and 'ارغن ... مخفف ارغنون است. و آن سازی باشد که رومیان نوازند', with Mo'in's note 'از یونانی organon'."
+      },
+      {
+       "ref": "MON:203",
+       "status": "supports",
+       "note": "vajehyab Mo'in: 'ارغنون [معر - یو.] نوعی ساز ...'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "HRN.txt grep 'arghan|argan[uū]n|organon'",
+       "stance": "silent",
+       "note": "0 hits."
+      },
+      {
+       "src": "HUB",
+       "where": "HUB.txt same grep",
+       "stance": "silent",
+       "note": "0 hits."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "French",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "Pass-through node for French orgue / organe < Latin organum < Gk. órganon. The chart leaves out Latin. French is the right source for Persian org (#8), but English organ came partly from OE organa / ME organe (direct from Latin organum, partly via Old French organe), and organon came straight from Greek.",
+     "derivation_fa": "خانهٔ تهی برای فرانسوی orgue / organe است که از لاتینی organum و یونانی órganon آمده است. نورایی گام لاتینی را حذف کرده است. فرانسوی برای «ارگ» فارسی درست است، ولی انگلیسی organ بخشی از لاتینی و فرانسوی کهن آمده و organon مستقیم از یونانی است. پس با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/organ"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:296",
+       "status": "partial",
+       "note": "The 1976 page cannot be opened. The 1985 Watkins text (s.v. werg-) gives only 'Greek organon ...: ORGAN, ORGANON' with no French stage."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. organ",
+       "stance": "partial",
+       "note": "'ME. organe, a musical instrument, fr. L. organum, fr. Gk. organon'. Latin is the immediate source."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt line 12862 'ORGAN.'",
+       "stance": "silent",
+       "note": "Headword found, but the etymology text is not legible in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "org",
+     "verdict": "confirmed",
+     "derivation": "NP org 'organ (instrument); harmonium' is a 19th/20th-century loan from French orgue, which continues Latin organum (Old French orgene / orgue). Mo'in marks it [فر.] and glosses it 'ارغنون'. So Persian has the same Greek word twice: arġanūn (old, via Arabic) and org (modern, via French).",
+     "derivation_fa": "«اُرگ» وام‌واژهٔ نوین (سدهٔ ۱۹-۲۰) از فرانسوی orgue است که از لاتینی organum آمده است. معین آن را [فر.] و هم‌معنی «ارغنون» آورده است. پس فارسی این واژهٔ یونانی را دو بار گرفته است: یک بار «ارغنون» (کهن، از راه عربی) و یک بار «ارگ» (نو، از راه فرانسوی). ادعای نورایی درست است.",
+     "sources": [
+      "https://vajehyab.com/moein/ارگ"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:205",
+       "status": "supports",
+       "note": "vajehyab Mo'in s.v. ارگ: '( اُ ) [فر.] (اِ.) 1 - ارغنون. 2 - نوعی ساز شبیه به پیانو اما کوچکتر از آن'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "-",
+       "stance": "silent",
+       "note": "A modern French loan, not in Borhan (BQT ارگ is 'citadel', a different word)."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. organ",
+       "stance": "supports",
+       "note": "Gives the Greek > Latin > French chain."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "organ, organon",
+     "verdict": "plausible",
+     "derivation": "English organ: OE organa / ME organe 'musical instrument' < Latin organum (partly via Old French organe) < Gk. órganon. organon 'instrument of thought, logical system' (16th c., after Aristotle's Organon) is borrowed straight from Greek. Both are correctly derived from órganon, but neither came through French in the simple way the chart shows.",
+     "derivation_fa": "انگلیسی organ از انگلیسی کهن organa / میانه organe آمده که از لاتینی organum (بخشی از راه فرانسوی کهن) و یونانی órganon است. organon «ابزار اندیشه» (سدهٔ ۱۶، به پیروی از ارغنون ارسطو) مستقیم از یونانی گرفته شده است. ریشه درست است، ولی راه فرانسوی ساده‌سازی است. پس با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/organ"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:926",
+       "status": "supports",
+       "note": "Watkins s.v. werg-: 'Greek organon ... ORGAN, ORGANON'. The 1976 page cannot be opened."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. organ, organon (KLN_1971.txt 168586; KLN_1966.txt 26545)",
+       "stance": "supports",
+       "note": "'organ, n. — ME. organe ... fr. L. organum, fr. Gk. organon'; 'organon ... Gk. organon, instrument, organ (often used as the title of works on logic)'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt 'ORGAN.'",
+       "stance": "silent",
+       "note": "Entry not legible in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Middle German",
+     "words": "bolwerk",
+     "verdict": "plausible",
+     "derivation": "bolwerc 'bulwark, rampart', literally 'plank-work' (bole 'tree trunk, plank', PIE *bʰel- 'swell', + werc 'work' < Gmc *werka-), is Middle Dutch / Middle Low German (also MHG bolwerc). Klein derives French boulevard from MDu. bolwerc. Wiktionary gives MHG bolwerc or MDu bolwerk. Nourai's label 'Middle German' fits only if read broadly, and only the second element belongs to this root.",
+     "derivation_fa": "bolwerc «بارو، استحکامات» در هلندی میانه و آلمانی میانه به معنای لفظی «کارِ تیر و الوار» است. جزء نخست bol «تنهٔ درخت، الوار» است و جزء دوم werc «کار» از ژرمنی *werka-. کلاین واژهٔ فرانسوی boulevard را از هلندی میانه می‌گیرد و ویکی‌واژه هر دو احتمال را آورده است. برچسب «آلمانی میانه» تنها با تسامح درست است. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/boulevard"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:209",
+       "status": "supports",
+       "note": "Klein s.v. bulwark (KLN_1971.txt 35193): 'ME. bulwerk, fr. MLG. (= Du.) bolwerk, which is rel. to MHG. bolwerk, G. Bollwerk ... lit. mean bole work. See bole ... and work and cp. boulevard'."
+      },
+      {
+       "ref": "AHD:155",
+       "status": "supports",
+       "note": "Watkins s.v. werg-: 'Old High German werc, work: (BOULEVARD), BULWARK'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SKT",
+       "where": "SKT_dli_revised.txt line 10257",
+       "stance": "supports",
+       "note": "'Bulwark ... Du. bolwerk, G. bollwerk (whence F. boulevard). Compounded of ... bol, trunk of a tree ... and ... værk, a work'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. boulevard (KLN_1971.txt 32365)",
+       "stance": "partial",
+       "note": "'F., earlier boloart, boulevert ... orig. meaning work of fortification, fr. MDu. bolwerc'. Middle Dutch, not Middle German."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "French",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "Pass-through node for French boulevard < 15th-century boloart, boulevert 'rampart' < MDu. bolwerc. Folk reshaping changed -werc to -vard / -vert. The sense moved from 'rampart' to 'broad tree-lined promenade on a razed rampart', after the Paris walls were levelled under Louis XIV (1670s).",
+     "derivation_fa": "خانهٔ تهی برای فرانسوی boulevard است، از boloart / boulevert سدهٔ ۱۵ به معنی «بارو» و آن از هلندی میانه bolwerc. -werc در فرانسوی به -vard دگرگون شده است. معنا پس از ویران شدن باروهای پاریس در روزگار لویی چهاردهم از «بارو» به «خیابان پهنِ درخت‌کاری‌شده بر جای بارو» تغییر کرد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/boulevard"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node has no reference of its own."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. boulevard",
+       "stance": "supports",
+       "note": "'F., earlier boloart, boulevert, balouart ... orig. meaning work of fortification, fr. MDu. bolwerc'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Bulwark",
+       "stance": "supports",
+       "note": "'(whence F. boulevard)'."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Persian",
+     "words": "bolvâr",
+     "verdict": "confirmed",
+     "derivation": "NP bolvār / bulvār 'boulevard, wide avenue' is a modern (Pahlavi-era urban planning, 20th c.) loan from French boulevard. The final -d was dropped and the vowel shortened. Mo'in marks it French.",
+     "derivation_fa": "«بلوار / بولوار» وام‌واژهٔ نوین سدهٔ بیستم (همراه با شهرسازی دورهٔ پهلوی) از فرانسوی boulevard است. d پایانی افتاده و واکه کوتاه شده است. معین آن را فرانسوی دانسته است. ادعای نورایی درست است.",
+     "sources": [
+      "https://vajehyab.com/dehkhoda/بلوار"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "Dehkhoda (vajehyab) s.v. بلوار: '(فرانسوی، اِ) بولوار. (فرهنگ فارسی معین)'. Mo'in's own page could not be opened (vajehyab/moein/بلوار fetch failed)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "grep 'bulvar|bolvar|boulevard'",
+       "stance": "silent",
+       "note": "0 hits (19th-c. work, before the loan)."
+      },
+      {
+       "src": "HUB",
+       "where": "same grep",
+       "stance": "silent",
+       "note": "0 hits."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "English",
+     "words": "boulevard",
+     "verdict": "confirmed",
+     "derivation": "English boulevard (1769) is borrowed from French boulevard 'promenade on a former rampart' (< MDu. bolwerc). It is a doublet of bulwark, which English took earlier (ME bulwerk) directly from Low German / Dutch.",
+     "derivation_fa": "انگلیسی boulevard (۱۷۶۹) از فرانسوی boulevard گرفته شده است. این واژه با bulwark دوگانه است، که انگلیسی میانه آن را زودتر مستقیم از آلمانی پست یا هلندی گرفته بود. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/boulevard"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:155",
+       "status": "supports",
+       "note": "Watkins s.v. werg-: '(BOULEVARD), BULWARK'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. boulevard",
+       "stance": "supports",
+       "note": "'boulevard, n. — F., earlier boloart ... fr. MDu. bolwerc. See bulwark'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Bulwark",
+       "stance": "supports",
+       "note": "'G. bollwerk (whence F. boulevard)'."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "Germanic",
+     "words": "werkam",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *werką 'work, deed' (Watkins *werkam) < PIE *wérǵom, a thematic neuter of the e-grade, with Grimm's law *ǵ > *k. It is the exact equivalent of Gk. (w)érgon. Reflexes: OE weorc, OS/OFris. werk, OHG werah/werc, ON verk.",
+     "derivation_fa": "ژرمنی آغازین *werką «کار» از هندواروپایی آغازین *wérǵom است، با دگرگونی ǵ به k بر پایهٔ قانون گریم. این صورت درست برابر یونانی (w)érgon است. بازمانده‌های آن انگلیسی کهن weorc، آلمانی کهن werc و نوردی کهن verk هستند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wérǵom"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "'Suffixed form *werg-o-. 1. Germanic *werkam, work'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p. 1168",
+       "stance": "supports",
+       "note": "'Old High German werc, werah, Old Saxon werk, Old Icelandic verk (= ergon) work'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I p. 290",
+       "stance": "supports",
+       "note": "'Gr. ergon Werk, Arbeit (= dt. Werk)'."
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "lang": "English",
+     "words": "work",
+     "verdict": "confirmed",
+     "derivation": "English work < ME werk < OE weorc / werc 'work, deed' (with OE breaking e > eo before r + consonant; later wo- > wu- rounding) < PGmc *werką.",
+     "derivation_fa": "انگلیسی work از انگلیسی میانه werk و انگلیسی کهن weorc / werc «کار، کردار» آمده و آن از ژرمنی *werką است. e در انگلیسی کهن پیش از r به eo بدل شده و سپس پس از w گرد شده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/work"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node has no reference of its own."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. work (KLN_1971.txt 268288)",
+       "stance": "supports",
+       "note": "'work, n. — ME. werk, fr. OE. weorc, ... fr. I.-E. base *werg-'."
+      },
+      {
+       "src": "AHD",
+       "where": "s.v. werg-",
+       "stance": "supports",
+       "note": "'Old English weorc, werc, work: WORK'."
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "lang": "Greek",
+     "words": "ergon",
+     "verdict": "confirmed",
+     "derivation": "Gk. érgon 'work, deed' (dialectal wérgon, with digamma, in Elean / Boeotian inscriptions) < PIE *wérǵom. Attic-Ionic lost *w-. Its derivatives include energeia 'activity', -ourgos 'worker' (kheirourgos, geōrgos, metallourgos) and argos 'idle' < *a-ergos.",
+     "derivation_fa": "یونانی érgon «کار، کردار» از هندواروپایی آغازین *wérǵom است. صورت wérgon با دیگاما در کتیبه‌های گویشی آمده و w در آتیکی-ایونی افتاده است. energeia «کنش‌وری»، پسوند -ourgos «کارگر» (در kheirourgos «جراح» و geōrgos «کشاورز») و argos «بیکار» (از *a-ergos) از آن ساخته شده‌اند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wérǵom"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "'2. Greek ergon, work, action: ERG, -URGY; ALLERGY, ARGON, ... ENERGY ... METALLURGY, SURGERY'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p. 1168",
+       "stance": "supports",
+       "note": "'gr. ergon, Fergon work (= German Werk), ergazomai arbeite'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. ergon (KLN_1971.txt 84788)",
+       "stance": "supports",
+       "note": "'Gk. ergon (dial. Fergon), work. See work ... Cp. also allergy, argon ... energy ... George'."
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "lang": "French",
+     "words": "",
+     "verdict": "plausible",
+     "derivation": "Pass-through node for French énergie, métallurgie, allergie, chirurgie. It is right as the source of the Persian words (#18) and of energy and surgery, which came through Old/Middle French. It is not the route for argon (coined in English by Ramsay and Travers, 1894) or allergy (German Allergie, coined by von Pirquet, 1906).",
+     "derivation_fa": "خانهٔ تهی برای فرانسوی énergie، métallurgie، allergie و chirurgie است. این برای واژه‌های فارسی (#۱۸) و برای energy و surgery درست است. ولی argon در انگلیسی (رمزی و تراورس، ۱۸۹۴) و allergy در آلمانی (فون پیرکه، ۱۹۰۶) ساخته شده‌اند و از راه فرانسوی نیامده‌اند. پس با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://vajehyab.com/moein/انرژی"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node has no reference of its own."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. allergy (KLN_1966.txt 2264), argon (3404)",
+       "stance": "partial",
+       "note": "'allergy ... ModL. allergia, coined about 1905 by Clemens von Pirquet'; 'argon ... ModL., fr. Gk. argon, neut. of argos, idle ... discovered by ... Ramsay ... and Travers in 1894'. Neither goes through French."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT_dli_revised.txt 25013",
+       "stance": "supports",
+       "note": "'Energy. (F. — L. — Gk.) O.F. energie — Late L. energia — Gk. energeia'."
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "lang": "Persian",
+     "words": "",
+     "verdict": "confirmed",
+     "derivation": "The node has no transliteration; the script gives انرژی، متالورژی، آلرژی (enerži, metālurži, āleržī). All three are 20th-century loans from French énergie, métallurgie, allergie. The French -gie [ʒi] is rendered -ži, which shows the French route. Mo'in marks انرژی [فر.]. Each contains Gk. ergon (en-ergeia, metall-ourgia, all-ergia).",
+     "derivation_fa": "«انرژی، متالورژی، آلرژی» وام‌واژه‌های سدهٔ بیستم از فرانسوی énergie، métallurgie و allergie هستند. «ژ» در پایان آن‌ها برابر -gie فرانسوی [ʒi] است و راه فرانسوی را نشان می‌دهد. معین «انرژی» را [فر.] آورده است. هر سه جزء یونانی ergon «کار» را دارند. ادعای نورایی درست است.",
+     "sources": [
+      "https://vajehyab.com/moein/انرژی"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON",
+       "status": "supports",
+       "note": "vajehyab Mo'in s.v. انرژی: '(اِ نِ) [فر.] (اِ.) نیرو، قدرت، توانایی انجام کار، کارمایه'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. allergy, metallurgy, energy",
+       "stance": "supports",
+       "note": "'metallurgy — ModL. metallurgia, fr. Gk. metallourgos, worker in metal ... and ergon, work'; 'energy, n. — Late L. energia, fr. Gk. energeia'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Energy",
+       "stance": "supports",
+       "note": "'(F. — L. — Gk.) O.F. energie'."
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "lang": "English",
+     "words": "argon, energy, allergy, metallurgy, surgery, George",
+     "verdict": "plausible",
+     "derivation": "All six contain Gk. ergon, but they reached English by different routes. energy: MF énergie < LL energia < Gk. energeia. surgery: ME surgerie < OF surgerie, cirurgerie < L chirurgia < Gk. kheirourgia 'hand-work'. George: OF George < L Georgius < Gk. Geōrgios < geōrgos 'earth-worker, farmer'. metallurgy: ModL metallurgia < Gk. metallourgos (via French or directly). allergy: German Allergie (von Pirquet 1906) < Gk. allos + ergon. argon: coined in English in 1894 by Ramsay and Travers from Gk. argon, neuter of argos 'idle' < *a-ergos 'not working'. So the root is right for all six, but the 'via French' route holds only for some.",
+     "derivation_fa": "هر شش واژه جزء یونانی ergon را دارند، ولی از راه‌های گوناگون به انگلیسی رسیده‌اند. energy از فرانسوی میانه، لاتینی و یونانی energeia آمده است. surgery از فرانسوی کهن cirurgerie، لاتینی chirurgia و یونانی kheirourgia «کار دست» است. George از یونانی geōrgos «کشاورز» و از راه فرانسوی آمده است. metallurgy از لاتینی نو metallurgia است. allergy را فون پیرکه در ۱۹۰۶ در آلمانی ساخت. argon را رمزی و تراورس در ۱۸۹۴ از argos «بیکار» (*a-ergos) ساختند. پس ریشه درست است، ولی راه فرانسوی تنها برای برخی صدق می‌کند و ادعا با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wérǵom"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "The node has no reference of its own. AHD (Watkins, s.v. werg-) lists ALLERGY, ARGON, ENERGY, GEORGIC, METALLURGY, SURGERY under Greek ergon."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. argon (KLN_1966 3404), allergy (2264), George (16039), metallurgy (23674), surgery (KLN_1971 237552)",
+       "stance": "supports",
+       "note": "'argon ... fr. Gk. argon, neut. of argos, idle, contraction of aergos, lit. not active'; 'George ... Gk. geōrgos, husbandman ... ge, earth, and the base of ergon'; 'surgery — ME. surgerie, fr. OF. surgerie, contracted fr. serurgerie, cirurgerie, fr. Late L. chirurgia'."
+      },
+      {
+       "src": "SKT",
+       "where": "s.v. Energy; Surgeon (SKT_dli_revised.txt 25013, 77588)",
+       "stance": "supports",
+       "note": "'Energy. (F. — L. — Gk.)'; 'Surgeon, contracted form of chirurgeon'."
+      },
+      {
+       "src": "AHD",
+       "where": "s.v. werg-",
+       "stance": "supports",
+       "note": "Lists all of these under Greek ergon."
+      }
+     ]
+    },
+    {
+     "id": 20,
+     "lang": null,
+     "words": "",
+     "verdict": "unverified",
+     "error_in": "extraction",
+     "derivation": "The printed chart draws an arrow from the Old Persian box (vard 'work', #3) to a double-bordered box on the right, the frame used for Persian, which is printed empty. Nourai evidently meant a New Persian reflex but left the box blank, so there is nothing to verify. The box was missing from the original extraction and has been added as an empty node.",
+     "derivation_fa": "در چاپ کتاب از جعبهٔ پارسی باستان vard «کار» (گرهٔ ۳) پیکانی به جعبه‌ای دوخطی (قاب ویژهٔ واژه‌های فارسی) کشیده شده که خالی مانده است. پیداست نورایی می‌خواست بازماندهٔ فارسی نو را بیاورد ولی آن را ننوشته، پس چیزی برای بررسی نیست. این جعبه در استخراج نخستین جا افتاده بود و اکنون به صورت گرهٔ خالی افزوده شده است.",
+     "ref_check": [
+      {
+       "ref": "none",
+       "status": "not_checked",
+       "note": "the box is printed empty and carries no reference"
+      }
+     ],
+     "consulted": []
+    }
+   ]
+  }
+ ]
+}

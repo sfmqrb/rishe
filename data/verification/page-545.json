@@ -1,0 +1,801 @@
+{
+ "pdf_page": 545,
+ "book_page": 515,
+ "verified_by": "claude-opus-5.5",
+ "verified_on": "2026-10-16",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Wer 2, Werb, Werg 3, Wermi, Kwermi, Werp, Wert, Wrei",
+   "verdict": "plausible",
+   "modern_form": "PIE *wer- (3) 'to turn, bend' (Pokorny 1152-1160 u̯er-3, with extensions *werb-, *werǵ-/*h₂werg-, *wergʰ-, *werp-, *wert-, *wreyk-; Watkins wer-3), plus the separate 'worm' word *kʷŕ̥mis (Pokorny 649)",
+   "note": "The root box is right for wer-3 'to turn, bend' and its enlargements: Pokorny 1152-1158 and Watkins (wer-3, sections I-IX) list *wert- (Lat. vertere), *werg- (Skt. vṛṇákti/várjati, Lat. vergere), *werb-, *werp- (Gk. rhopalon under 1156), *wreyk- (Av. urvisyeiti) and *wr̥mi- 'worm' (Lat. vermis). 'Kwermi' (*kʷŕ̥mis, Skt. kṛmi, NP kirm) is a different root. Pokorny 649 and Watkins call it only a 'rhyme word' to *wr̥mi-, and Wiktionary gives its root as unknown. So nodes 8-14 hang under the wrong root. Problems in the nodes: Latin 'vetere' is the book's misprint for vertere (node 4); English 'vermouth' is Germanic (German Wermut), not from Latin (node 7); Persian kopāl/gopāl is an areal Caucasian-Iranian word and cannot come from the ancestor of Greek rhopalon (node 16). Extraction check against the printed page (site/pages/545.jpg, re-rendered at 300 dpi): all words match the print, but the JSON makes Arabic qermez (#13) a child of Sogdian kyrm (#12). On the page both Sogdian and Arabic hang from one trunk that drops from the Sanskrit krmi box (#10), so the parent of #13 should be 10.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *wer- «گرداندن، خم کردن» با گسترش‌های *wert- و *werg- و *werp- و *wreyk- و نام‌واژهٔ *wr̥mi- «کرم» در پوکورنی (ص ۱۱۵۲-۱۱۵۸)، والده-پوکورنی و واتکینز آمده است. تا اینجا ادعای نورایی درست است. ولی «Kwermi» یعنی *kʷŕ̥mis (سنسکریت kṛmi و فارسی «کرم») ریشهٔ جداگانه‌ای است. پوکورنی (ص ۶۴۹) و واتکینز آن را فقط «هم‌قافیه» با *wr̥mi- می‌دانند، پس شاخهٔ «کرم» و «قرمز» زیر ریشهٔ نادرستی آمده است. در این صفحه vetere خطای چاپی کتاب به جای vertere است. vermouth از آلمانی Wermut آمده و لاتینی نیست. «کوپال» هم با یونانی rhopalon پیوندی ندارد. در استخراج داده، پدرِ گرهٔ عربی «قرمز» باید سنسکریت (#10) باشد نه سغدی.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wer-",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wert-",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wr̥mis",
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kʷŕ̥mis"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:1142-1157",
+     "status": "supports",
+     "note": "POK_full.txt l.91474 'Root / lemma: uer-3 ... Meaning: to turn, bend ... Page(s):1152'; sub-entries D (l.91578, 1154), G (l.91713, 1156), H (l.91760, 1156-1158), I δ ureik- (l.91929, 1158) cover the extensions named in the box. Kwermi is not here; it is a separate lemma on p. 649."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. wer-3 (AHD_watkins1985.txt l.1146)",
+     "stance": "supports",
+     "note": "'wer-3. Conventional base of various Indo-European roots; to turn, bend. I. Root *wert- ... Latin vertere ... ANNIVERSARY ... UNIVERSE ... IV. Root *werg- ... Latin vergere ... IX. Root *wrmi-, worm; rhyme word to kʷrmi- ... Latin vermis: VERMICELLI ... [Pok. 3. wer- 1152.]'"
+    },
+    {
+     "src": "AHD",
+     "where": "Watkins 1985 s.v. kʷrmi- (l.657)",
+     "stance": "partial",
+     "note": "'kʷrmi-. Mite, worm. Rhyme word to *wrmi-, worm (see wer-3) ... [Pok. kʷrmi- 649.]', a separate root, not part of wer-3."
+    },
+    {
+     "src": "WLD",
+     "where": "Bd. I 274 (WLD_Bd1_pages.txt l.25882, leaf 283)",
+     "stance": "supports",
+     "note": "under uert-: 'lat. verto, versus, vorsus „kehren, wenden, drehen“'."
+    },
+    {
+     "src": "WLD",
+     "where": "Bd. I 523 (l.49508, leaf 532)",
+     "stance": "partial",
+     "note": "'qʷr̥mi- „Wurm, Made“. Ai. kr̥mi- „Wurm, Made“; np. kirm „Wurm“'. A separate lemma."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Sanskrit",
+     "words": "varj",
+     "verdict": "confirmed",
+     "derivation": "Sanskrit vṛj- (present vṛṇákti, várjati) means 'to turn, twist, turn aside, ward off'. It continues PIE *werg- / *h₂werg- 'to turn' (Pokorny 1154 u̯er-g-), the same root as Latin vergere and Hittite ḫurkis 'wheel'. 'varj' is the guṇa grade of the root and the gloss 'to turn around' is correct.",
+     "derivation_fa": "ریشهٔ سنسکریت vṛj- (vṛṇákti و várjati) «گرداندن، پیچاندن، بازگرداندن» است. از هندواروپایی آغازین *werg- (یا *h₂werg-) «گرداندن» آمده و با لاتینی vergere و هیتی ḫurkis «چرخ» هم‌ریشه است. پوکورنی (ص ۱۱۵۴) و ویکی‌واژه همین را می‌گویند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/वृज्",
+      "https://en.wiktionary.org/wiki/vergo"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1154",
+       "status": "supports",
+       "note": "POK_full.txt l.91578ff. 'uer-3. D. uer-g- ... Meaning: to turn / Material: Old Indic vr̥nakti, varjati wendet, dreht ...; Latin vergō, -ere sich neigen'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "via POK references 'WP. I 271 f.'",
+       "stance": "supports",
+       "note": "Pokorny's entry cites Walde-Pokorny I 271f. for the same equation ai. vr̥nákti : lat. vergere (not re-read separately)."
+      },
+      {
+       "src": "KLN",
+       "where": "KLN_1971.txt l.260631 s.v. verge (v.)",
+       "stance": "supports",
+       "note": "'L. vergere, to bend, incline, turn, prob. cogn. with OI. vṛnakti, varjati, he turns, twists, fr. I.-E. base *wereg-, *werg-'."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 wer-3 IV",
+       "stance": "supports",
+       "note": "'IV. Root *werg-, to turn ... 2. Latin vergere, to turn, tend toward: VERGE'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "varğ",
+     "verdict": "plausible",
+     "derivation": "NP varğ / barğ means 'weir, dam of brushwood, earth and mud set across a stream' (Borhan) and is attested in Farrokhi's verse quoted on the chart. Horn no. 1080 (p. 242), following Nöldeke, compares Skt. várga- 'remover, averter' from √varj- / várjati, and Mo'in's footnote to Borhan repeats this. So the word would be the Iranian cognate *warga- 'that which turns (water) away' of the Sanskrit root. It is not a descendant of the Sanskrit word, as the arrow implies. The link is only a comparison: no Middle Persian or Old Iranian intermediate is attested, and the fricative ğ for expected g is unexplained. Treat it as possible but unproven.",
+     "derivation_fa": "«ورغ» یا «برغ» به معنی بندی است که از چوب و علف و خاک و گل پیش رودخانه می‌بندند و در شعر فرخی آمده است. هرن (شمارهٔ ۱۰۸۰) به پیروی از نلدکه آن را با سنسکریت várga- «برگرداننده» از ریشهٔ varj- سنجیده و معین هم در حاشیهٔ برهان همین را آورده است. بنابراین «ورغ» در بهترین حالت هم‌ریشهٔ ایرانی واژهٔ سنسکریت است، نه بازماندهٔ آن. صورت فارسی میانه یا ایرانی باستانِ آن گواهی ندارد و «غ» به جای «گ» هم توضیح داده نشده است. پس ادعای نورایی با احتیاط پذیرفتنی است.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "HRN:242",
+       "status": "supports",
+       "note": "HRN.txt leaf 263 (p. 242): '1080. verγ „Wasserwehr“, berγ. skr. vārga- „Abwender“, also zu √varj-, várjati (Nöldeke, mündliche Mitteilung)'."
+      },
+      {
+       "ref": "BQT:2273",
+       "status": "supports",
+       "note": "BQT p. 2273 (read from image, saved as ocr/BQT/2273.vision.txt): 'ورغ ... بندی را گویند که از چوب و علف وخاک وگل درپیش رودخانه‌ها بندند'; footnote 8: 'برغ (ﻫ.م.)؛ سانسکریت várga (برگرداننده)، نیز ازریشهٔ várjati, varj (بقول نلدکه) «اسشق ۱۰۸۰»' with Farrokhi's verse."
+      },
+      {
+       "ref": "BQT:258",
+       "status": "not_checked",
+       "note": "tools/ref_page.py: 'no scan of BQT covers printed page 258'; BQT_v1_pages.txt OCR has no readable برغ entry."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HUB",
+       "where": "HUB.txt (Horn-number index)",
+       "stance": "silent",
+       "note": "grep for '1080.' finds no Hübschmann comment on Horn 1080."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 4 p. 2273 + BQT_v4_pages.txt l.13236",
+       "stance": "supports",
+       "note": "another entry: 'بمعنی برغ است وآن بندی باشد که درپیش آب ...', which confirms the meaning 'dam'."
+      },
+      {
+       "src": "ARY",
+       "where": "ARY_pages.txt l.10934",
+       "stance": "silent",
+       "note": "only '(به چم آبخشی از برغ)' in passing; no etymology of برغ found."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Avestan",
+     "words": "urvisyeiti; varep; a-vareta",
+     "verdict": "plausible",
+     "derivation": "(1) urvisyeiti 'turns (himself)' is the present of Av. urvaēs- 'to turn' (causative urvaēsaya-, noun urvaēsa- 'turning-point'), from Indo-Iranian *wrayš- / PIE *wreyk- (Pokorny 1158 ureik-; cf. Gk. rhoikós 'crooked', OE wrigian > wry). This is confirmed. (2) 'varep' is Av. varəp-, attested only with aiwi- in the sense 'to mark, put a sign on' (Bartholomae). Bartholomae marks its etymology and meaning as uncertain, so a link to *werp- 'turn, wind' is possible but unproven. (3) a-varəta- (Bartholomae avarətā- f. 'Wertgegenstand, Besitztum', a valuable object or possession) is linked by Klein, s.v. worth, 'probably' to Germanic *werþa- 'worth' and so to *wert- 'turn'. The prefix a- and the formation are unclear and this is not standard. Worst verdict for the node: plausible.",
+     "derivation_fa": "urvisyeiti «می‌گردد، برمی‌گردد» از ستاک اوستایی urvaēs- «گشتن» است (سببی urvaēsaya- و نام‌واژهٔ urvaēsa- «پیچ، نقطهٔ بازگشت») و از هندواروپایی *wreyk- می‌آید (پوکورنی ص ۱۱۵۸، کلاین ذیل wry). این بخش درست است. varəp- در اوستایی تنها با پیشوند aiwi- به معنی «نشان گذاشتن» آمده و بارتولومه ریشه‌شناسی آن را نامعلوم می‌داند. avarətā- «چیز گران‌بها، دارایی» نزد بارتولومه آمده و کلاین آن را «احتمالاً» با worth انگلیسی هم‌ریشه می‌داند. این دو پیوند پذیرفتنی‌اند ولی ثابت نشده‌اند.",
+     "sources": [],
+     "ref_check": [
+      {
+       "ref": "KLN:1752",
+       "status": "supports",
+       "note": "KLN_1971.txt l.268840ff. s.v. wry: '... cogn. with Avestic urvisyeiti, turns, revolves, Gk. rhoikós (for *wroikos), crooked ... derivatives of I.-E. *wreik-, *wrik-, to turn, twist, bind'."
+      },
+      {
+       "ref": "KLN:1755",
+       "status": "partial",
+       "note": "KLN_1971.txt l.268449ff. s.v. worth: '... prob. cogn. with Avestic avarəta-, a valuable object, W. gwerth, price'. Klein says only 'probably'. No 'varep' found in Klein."
+      },
+      {
+       "ref": "POK",
+       "status": "supports",
+       "note": "POK_full.txt l.91929ff. 'uer-3. I. ur-ei- δ) ureik- ... to turn, bind / Material: Avestan urvisyeiti (*vrisyati) wendet sich, dreht sich, Kaus. urvaēsayeiti wendet, dreht, urvaēsa- m. gyration (= gr. rhoikós ...)' (p. 1158)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1544ff. s.v. urvaēs- (BRT.txt l.25553)",
+       "stance": "supports",
+       "note": "'urvaēs- V. (sich) drehen, wenden. Praes. urvisya-, Kaus. urvaēsaya- ... 1) sich drehen, kreisen ... 2) sich wenden, umkehren'."
+      },
+      {
+       "src": "BRT",
+       "where": "varəp- (BRT.txt l.22925)",
+       "stance": "partial",
+       "note": "'varəp- V., nur mit aiwi „mit einem Zeichen versehen“ ... etwas (Akk.) zeichnen, signiren ... Et. und Bed.?' — the word exists; its etymology is left open."
+      },
+      {
+       "src": "BRT",
+       "where": "col. 176 s.v. a-varətā- (BRT.txt l.5129)",
+       "stance": "partial",
+       "note": "'a-varətā- f. „Wertgegenstand, Besitztum“ (Yt 11.7; V. 5.39 ...)'. The meaning matches Nourai's gloss. No link to *wert- is given."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I (WLD_Bd1_pages.txt)",
+       "stance": "silent",
+       "note": "grep 'urvisy|urvaes' finds nothing in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Latin",
+     "words": "vetere; vergere; vermis",
+     "verdict": "transcription_suspect",
+     "derivation": "'vetere : to turn' is a misprint for Latin vertere 'to turn' (PIE *wert-, Proto-Italic *wertō; Pokorny 1156-1158). The book itself prints 'vetere' (checked on site/pages/545.jpg and a 300-dpi render), so the extraction is faithful and the r is missing in Nourai's print. vergere 'to bend, incline, turn' < Proto-Italic *wergō < PIE *h₂werg- (Pokorny 1154; Watkins wer-3 IV) is confirmed. vermis 'worm' < Proto-Italic *wormis < PIE *wr̥mis (Pokorny 1152 'uer-3. A. ur̥mi-s'; Watkins wer-3 IX) is confirmed, and Wiktionary calls the link to *wer- 'turn' only possible.",
+     "derivation_fa": "«vetere» خطای چاپی خود کتاب به جای لاتینی vertere «گرداندن» است، که از هندواروپایی *wert- می‌آید. در صفحهٔ چاپی هم vetere آمده و استخراج داده درست است. vergere «خم شدن، گراییدن» از *h₂werg- است (پوکورنی ص ۱۱۵۴). vermis «کرم» از *wr̥mis است، که پوکورنی و واتکینز آن را زیر *wer- آورده‌اند و ویکی‌واژه این پیوند را «ممکن» می‌داند. بنابراین دو واژهٔ دیگر درست‌اند و تنها خطا، خطای چاپی کتاب است.",
+     "error_in": "book",
+     "book_prints": "vetere",
+     "correct_form": "vertere",
+     "sources": [
+      "https://en.wiktionary.org/wiki/verto",
+      "https://en.wiktionary.org/wiki/vergo",
+      "https://en.wiktionary.org/wiki/vermis",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wr̥mis",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wert-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "Watkins 1985 wer-3: 'I. Root *wert- ... 4. Latin vertere, to turn ...'; 'IV. Root *werg- ... Latin vergere'; 'IX. Root *wrmi-, worm ... Latin vermis, worm'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "pp. 1152, 1154, 1156-1158",
+       "stance": "supports",
+       "note": "l.91488 'Latin vermis (from *vormis, *urmis)'; l.91583 'Latin vergō, -ere sich neigen'; l.91793 'Latin vertō ..., versum kehren, turn'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 274",
+       "stance": "supports",
+       "note": "'lat. verto, versus, vorsus „kehren, wenden, drehen“, vertex'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. verge v.; worm",
+       "stance": "supports",
+       "note": "'L. vergere, to bend, incline, turn ... I.-E. base *werg-'; s.v. worm: 'L. vermis (for *wormis, *wr̥mis), worm ... fr. I.-E. base *wer- to bend, turn, twist'."
+      },
+      {
+       "src": "LAT",
+       "where": "not opened",
+       "stance": "silent",
+       "note": "not consulted further: the Latin forms are uncontroversial."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "French",
+     "words": "vermicelle",
+     "verdict": "confirmed",
+     "derivation": "French vermicelle is a borrowing of Italian vermicelli, the plural of vermicello 'little worm'. This continues Vulgar Latin *vermicellus, a diminutive of Latin vermiculus / vermis 'worm'. The pasta is named for its worm-like threads. The French word is a learned or culinary loan and not inherited; it is a doublet of vermisseau. The chain Latin vermis → (Italian) → French is correct, although the chart skips the Italian step.",
+     "derivation_fa": "فرانسوی vermicelle از ایتالیایی vermicelli «کرمک‌ها» وام گرفته شده است. vermicelli جمع vermicello، تصغیرِ لاتینی vermis «کرم» است و این خوراکی را از شکل رشته‌های کرم‌مانندش چنین نامیده‌اند. نورایی میانجی ایتالیایی را نیاورده، ولی پیوند با لاتینی vermis درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/vermicelle"
+     ],
+     "ref_check": [
+      {
+       "ref": "(none)",
+       "status": "not_checked",
+       "note": "node has no reference (refs=None)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "KLN_1971.txt l.260743 s.v. vermicelli",
+       "stance": "supports",
+       "note": "'It., pl. of vermicello, little worm, fr. VL. *vermicellus, dimin. of L. vermiculus, itself dimin. of vermis, worm'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt l.20757",
+       "stance": "supports",
+       "note": "'vermicelli. (Ital. - L.) Ital. vermicelli, lit. little worms; from the shape. Pl. of vermicello, dimin. of verme, a worm. - L. vermem, acc. of vermis'."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "vermîšel",
+     "verdict": "confirmed",
+     "derivation": "NP vermišel 'vermicelli, very thin noodles for soup' is a modern (19th-20th c.) loan from French vermicelle, with French -c- /s/ rendered as š. Mo'in labels it [فر.] (French). The route is Latin vermis → Italian vermicelli → French vermicelle → Persian.",
+     "derivation_fa": "«ورمیشل» نوعی ماکارونی بسیار نازک برای سوپ است و وام‌واژه‌ای نو از فرانسوی vermicelle است. معین آن را [فر.] نشان داده است. این واژه از لاتینی vermis «کرم» از راه ایتالیایی vermicelli و فرانسوی vermicelle به فارسی رسیده و ادعای نورایی درست است.",
+     "sources": [
+      "https://vajehyab.com/moein/ورمیشل"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:5011",
+       "status": "supports",
+       "note": "vajehyab Mo'in: 'ورمیشل (وِ شِ) [ فر. ] (اِ.) نوعی ماکارونی خیلی نازک که در سوپ می ریزند'. The page number cannot be checked online."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "2-vol abridgement, MON_part2.txt l.85607",
+       "stance": "supports",
+       "note": "'ورمیشل: [فر.] (اِ.) نوعی رشته فرنگی که به شکل رشته‌هایی باریکتر از اسپاگتی تهیه شود'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. vermicelli",
+       "stance": "supports",
+       "note": "Italian/Latin source of the French word (see node 5)."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "English",
+     "words": "adverse, anniversary, convert, divert, invert, version, versus, universe, university, vertebra, vice-versa, vertical, transverse, verse, verge, vermicelli, vermouth",
+     "verdict": "disputed",
+     "derivation": "Most of the list is right. adverse, anniversary, convert, divert, invert, version, versus, universe, university, vertebra, vice versa, vertical (via vertex), transverse and verse all go back to Latin vertere / versus 'to turn, turned' (PIE *wert-), through Old French or directly from Latin (Watkins wer-3 I.4; Klein s.v. version). verge 'to incline' is from Latin vergere. Note that the noun verge 'rod, edge' is a separate word from Latin virga. vermicelli is from Italian, from Latin vermis. vermouth is the error: it comes through French vermout from German Wermut 'wormwood' (OHG werimuota, Proto-West Germanic *warjamōdā), a doublet of English wormwood. It does not come from Latin. Its Germanic etymology is obscure and it is not usually referred to *wer- 'turn'. Because of vermouth the node is marked disputed.",
+     "derivation_fa": "بیشتر این واژه‌های انگلیسی (adverse، anniversary، convert، divert، invert، version، versus، universe، university، vertebra، vice versa، vertical، transverse، verse) از لاتینی vertere/versus «گرداندن، گردانده» و ریشهٔ *wert- آمده‌اند. verge (فعل) از vergere و vermicelli از ایتالیایی و در اصل از vermis است. ولی vermouth از راه فرانسوی vermout از آلمانی Wermut «افسنتین» آمده و هم‌زاد wormwood انگلیسی است. لاتینی نیست و ریشهٔ ژرمنی آن هم روشن نیست. پس این یک واژه نادرست در این شاخه آمده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/vermouth",
+      "https://en.wiktionary.org/wiki/Wermut",
+      "https://en.wiktionary.org/wiki/verto"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "partial",
+       "note": "Watkins 1985 wer-3 I.4 lists 'VERSATILE, VERSE, VERSION, VERSUS, VERTEBRA, VERTEX, ... ADVERSE, ANNIVERSARY, ... CONVERT, DIVERT, ... INVERT, ... TRANSVERSE, UNIVERSE'; IV.2 'VERGE, CONVERGE, DIVERGE'; IX.2 'VERMICELLI'. VERMOUTH is not under wer-3 (not in the index list VERMEIL ... VERMIN ... VERSE)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "KLN_1971.txt l.260831 s.v. vermouth; l.268354 s.v. wormwood",
+       "stance": "contradicts",
+       "note": "'vermouth ... F. vermout, fr. G. Wermut, which is rel. to wormwood'; 'wormwood ... OE. wermod ... OHG werimuota ... G. Wermut'. Germanic, not Latin."
+      },
+      {
+       "src": "KLN",
+       "where": "l.261020ff. s.v. version; l.260618 s.v. verge n.",
+       "stance": "supports",
+       "note": "version entry lists 'adverse ... anniversary ... convert ... divert ... invert ... transverse, universe, university, verse ... versus, vertebra ... vertical ... vice versa' under I.-E. *wert-. Separately, 'verge, n. ... fr. L. virga, twig, rod'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt l.20748ff.",
+       "stance": "supports",
+       "note": "'Verge (1)' (rod) is kept apart from 'converge ... verge (2)'; vermicelli 'Ital. - L.'."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Avestan / Old Persian",
+     "words": "kermi, kerma, karem",
+     "verdict": "plausible",
+     "derivation": "The Iranian 'worm' word is Proto-Iranian *kŕ̥miš (PIE *kʷŕ̥mis). Avestan has kərəma- only in stārō.kərəma- 'shooting star' (literally 'star-worm'). Horn and Mann gloss Av. kərəma- as 'worm', but Hübschmann notes 'the meaning of Av. kərəma- is quite uncertain' and Buck says it is 'probably' the same word. No Old Persian form is attested. 'kermi' is not an Iranian form at all: it is the Sanskrit-like stem. The node therefore mixes the Avestan form, a reconstruction and an unattested Old Persian label. Its parent is also *kʷŕ̥mis, not *wer- 'turn'. The worm word itself is real.",
+     "derivation_fa": "واژهٔ ایرانی برای «کرم» از ایرانی آغازین *kŕ̥miš و هندواروپایی *kʷŕ̥mis است. در اوستایی kərəma- تنها در ترکیب stārō.kərəma- «شهاب» (به معنای لفظی «ستاره-کرم») آمده است. هوبشمان معنای kərəma- را «بسیار نامطمئن» می‌داند. در پارسی باستان هیچ صورتی گواهی نشده و «kermi» صورت سنسکریت‌گونه است، نه ایرانی. این واژه از ریشهٔ جداگانهٔ *kʷŕ̥mis است، نه از *wer- «گرداندن». پس ادعای نورایی تنها با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kʷŕ̥mis",
+      "https://en.wiktionary.org/wiki/کرم"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:649",
+       "status": "supports",
+       "note": "POK_full.txt l.53510ff. 'kʷr̥mi- ... Meaning: worm, grub ... Material: Old Indic kr̥mi- worm, maggot; np. kirm worm; alb. krimp ...; Old Irish cruim ...; Lithuanian kirmis'. Pokorny gives no Avestan or Old Persian form here."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 850 (HRN.txt l.7412)",
+       "stance": "supports",
+       "note": "'850. kirm „Wurm“. aw. kərəma- „Wurm“; phlv. karm; ai. kr̥mi- (krimi-) „Wurm“'."
+      },
+      {
+       "src": "HUB",
+       "where": "no. 850 (HUB.txt l.3072)",
+       "stance": "contradicts",
+       "note": "'850. Die Bedeutung von zd. kərəma- ist ganz unsicher.'"
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary s.v. kirm (NYB_vol2_glossary.txt l.2297)",
+       "stance": "partial",
+       "note": "'kirm [klm] dragon ... Skr kr̥mi- „snake“, cf Av. stārō.kərəma- „shooting star“; MPrth krm „comet“; NP kirm „worm“'."
+      },
+      {
+       "src": "SYN",
+       "where": "3.84 WORM (SYN.txt l.5155)",
+       "stance": "partial",
+       "note": "'Skt. kr̥mi-, NPers. kirm (here prob. Av. kərəma- used with star- of a shooting star)'."
+      },
+      {
+       "src": "IEC",
+       "where": "s.v. qʷrmis (IEC.txt l.14262)",
+       "stance": "supports",
+       "note": "'qʷrmis ... worm, grub. WP I, 523 ... Skt. kr̥mih; Av. (variant) kərəma, f. id.; Per. kirm, id.'."
+      },
+      {
+       "src": "BRT",
+       "where": "BRT.txt l.9574",
+       "stance": "partial",
+       "note": "only 'kərəma- Adj., mit star- m. „Sternschnuppe“' found in the OCR; no separate 'worm' noun."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "Persian",
+     "words": "kerm",
+     "verdict": "confirmed",
+     "derivation": "NP kerm/kirm 'worm' < MP kirm [klm] 'worm, serpent' (Manichaean krm) < Proto-Iranian *kŕ̥miš < PIE *kʷŕ̥mis. The Old Iranian syllabic *r̥ became ir/ar in Middle Persian (MP spellings kirm/karm). Cognates are Skt. kṛmi-, Kurdish kurm, Ossetic kalm 'snake', Lith. kirmis and Old Irish cruim. The word is real and the arrow from the Iranian worm word is right. Only the higher attachment to *wer- is wrong (see the root note).",
+     "derivation_fa": "«کرم» از فارسی میانهٔ kirm «کرم، مار» (مانوی krm) و ایرانی آغازین *kŕ̥miš، از هندواروپایی *kʷŕ̥mis آمده است. r هجایی ایرانی باستان در فارسی میانه به ir یا ar بدل شده است. سنسکریت kṛmi-، کردی kurm، آسی kalm «مار» و لیتوانیایی kirmis هم‌ریشهٔ آن‌اند. هرن و مکنزی و برهان (حاشیهٔ معین) همین را می‌گویند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/کرم",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kʷŕ̥mis"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1625",
+       "status": "supports",
+       "note": "BQT p. 1625 (ref_page OCR): 'کرم - بکسر اول، پهلوی karm (kirm). سانسکریت kr̥mi (کرم)، کردی ...، استی ... (مار) ... بلوچی ... هوبشمان ۸۵۰'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "no. 850",
+       "stance": "supports",
+       "note": "'kirm „Wurm“. aw. kərəma-; phlv. karm; ai. kr̥mi-; kurd. kurm; oss. t. kalm „Schlange“'."
+      },
+      {
+       "src": "PHD",
+       "where": "p. 51 (PHD.txt l.428)",
+       "stance": "supports",
+       "note": "'kirm [klm | M krm, N ~] worm, serpent'."
+      },
+      {
+       "src": "NYB",
+       "where": "s.v. kirm",
+       "stance": "supports",
+       "note": "'NP kirm „worm“' < MP kirm."
+      },
+      {
+       "src": "ARY",
+       "where": "pdf page 402 (ARY_pages.txt l.11940ff.)",
+       "stance": "supports",
+       "note": "entry کرم with Pahlavi karm, kirm (Latin index l.11704 'KARM, KIRM (PAHLAVI)'), and the note that «قرمز» comes from the same root."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Sanskrit",
+     "words": "krmi; krmi-ja",
+     "verdict": "confirmed",
+     "derivation": "Sanskrit kṛ́mi- 'worm, maggot' < PIE *kʷŕ̥mis (Pokorny 649). kṛmi-ja- 'produced by worms', i.e. the red dye from the kermes or lac insect, is kṛmi- + -ja- 'born of' (from jan- 'to be born', PIE *ǵenh₁-; hence the chart's cross-reference to Gene 1). Both words and glosses are correct. As in the root note, the worm word belongs to *kʷŕ̥mis and not to *wer- 'turn'.",
+     "derivation_fa": "سنسکریت kṛ́mi- «کرم» از هندواروپایی *kʷŕ̥mis است (پوکورنی ص ۶۴۹). kṛmi-ja- «زاده از کرم» نام رنگ سرخی است که از حشرهٔ قرمزدانه به دست می‌آید و از kṛmi- و -ja- «زاده» (از ریشهٔ jan- «زادن») ساخته شده است. هر دو واژه و معنایشان درست است، ولی ریشهٔ آن‌ها *kʷŕ̥mis است، نه *wer-.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kʷŕ̥mis",
+      "https://en.wiktionary.org/wiki/crimson"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:649",
+       "status": "supports",
+       "note": "POK_full.txt l.53510ff. 'kʷr̥mi- ... Meaning: worm, grub ... Material: Old Indic kr̥mi- worm, maggot; np. kirm worm; alb. krimp ...; Old Irish cruim ...; Lithuanian kirmis'. Pokorny gives no Avestan or Old Persian form here."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 s.v. kʷrmi- (l.657)",
+       "stance": "supports",
+       "note": "'Sanskrit kr̥mi-, worm, in compound kr̥mi-ja-, „(red dye) produced by worms“ (ja-, produced; see gene-), borrowed into Arabic as qirmiz, kermes: CRIMSON, KERMES'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 523",
+       "stance": "supports",
+       "note": "'Ai. kr̥mi- „Wurm, Made“'."
+      },
+      {
+       "src": "KLN",
+       "where": "KLN_1966.txt s.v. kermes",
+       "stance": "supports",
+       "note": "'Arab. qirmiz, ult. fr. OI. kr̥mi-ja-, produced by a worm'."
+      },
+      {
+       "src": "IEC",
+       "where": "s.v. qʷrmis",
+       "stance": "supports",
+       "note": "'Skt. kr̥mih, m. id.'."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "Persian",
+     "words": "qermez",
+     "verdict": "plausible",
+     "derivation": "NP qermez 'red, crimson' is written with Arabic q and z and is a loan back from Arabic qirmiz 'kermes, crimson'. Arabic took that word from an Iranian form, MP/early NP *kirmist / kirmiz 'worm(-dye)', from *kŕ̥mi- 'worm' plus a suffix (Wiktionary; cf. Armenian karmir, MP karmīr 'red'). So it is an Arabic-mediated round trip of the Iranian worm word. Mo'in (Borhan footnote, citing Jaba; vajehyab tag [سنس.]) and Klein give the older view that it comes straight from Skt. kṛmija. The ultimate root is right. The direct Sanskrit-to-Persian arrow is not supported by modern sources, which route the word through Iranian and Arabic.",
+     "derivation_fa": "«قرمز» با «ق» و «ز» نوشته می‌شود و وام‌واژه‌ای از عربی قِرْمِز است. عربی آن را از صورتی ایرانی مانند *kirmist یا *kirmiz «رنگِ کرمی» گرفته است، که از *kŕ̥mi- «کرم» با پسوند ساخته شده است (سنجیده با ارمنی karmir و پهلوی karmīr «سرخ»). پس «قرمز» واژه‌ای است که از فارسی به عربی رفته و دوباره معرّب به فارسی بازگشته است. معین (به پیروی از ژابا) و کلاین آن را مستقیماً از سنسکریت kṛmija می‌دانند و نورایی هم همین را آورده است. ریشهٔ نهایی درست است، ولی راه مستقیم سنسکریت به فارسی را پژوهش امروزی تأیید نمی‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/قرمز",
+      "https://vajehyab.com/moein/قرمز",
+      "https://en.wiktionary.org/wiki/crimson"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:2663",
+       "status": "partial",
+       "note": "vajehyab Mo'in: 'قرمز (قِ مِ) [ سنس . ] (ص .) سرخ ، یکی از رنگ های سه گانة اصلی'. Mo'in tags it Sanskrit, which agrees with Nourai; modern sources go via Arabic."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "p. 1527 fn. 1 (ocr/BQT/1527.vision.txt)",
+       "stance": "partial",
+       "note": "'قرمز «المعجم ...» ازسانسکریت «ژابا ۳۰۹» و از عربی وارد فرانسوی شده kermès'."
+      },
+      {
+       "src": "ARY",
+       "where": "pdf page 402 (l.11980)",
+       "stance": "supports",
+       "note": "'واژهٔ «قرمز» نیز از همین واجریشه است' (same root as کرم), with English crimson etc. from the Sanskrit or Iranian root."
+      },
+      {
+       "src": "SOD",
+       "where": "no. 4834 krm'yr",
+       "stance": "partial",
+       "note": "Sogd. krm'yr 'red' '©Pahl. karmir; Arm. karmir'. This shows the Iranian red-dye derivative of *kŕ̥mi-."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. crimson, kermes",
+       "stance": "partial",
+       "note": "'Arab. qirmiz, ult. fr. OI. kr̥mi-ja-'."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "lang": "Sogdian",
+     "words": "kyrm",
+     "verdict": "confirmed",
+     "derivation": "Sogdian kyrm- /kirm/ 'snake, worm' (Buddhist, Manichaean and Christian texts; plural qyrmyšt) continues Proto-Iranian *kŕ̥miš. Gharib compares Skt. kṛmi. The word and gloss are right. It is a cognate of the Sanskrit word inherited through Iranian, not a descendant of it, so the arrow should be read as 'cognate'.",
+     "derivation_fa": "سغدی kyrm- (خوانش kirm) «مار، کرم» در متن‌های بودایی و مانوی و مسیحی آمده (جمع qyrmyšt) و بازماندهٔ ایرانی آغازین *kŕ̥miš است. قریب آن را با سنسکریت kṛmi سنجیده است. واژه و معنا درست است. تنها باید دانست که این واژه هم‌ریشهٔ سنسکریت است و از راه ایرانی به ارث رسیده، نه اینکه از سنسکریت آمده باشد.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kʷŕ̥mis"
+     ],
+     "ref_check": [
+      {
+       "ref": "SOD:203",
+       "status": "supports",
+       "note": "SOD.txt l.41490ff. entry 5112: 'kyrm- B, M, S ... kirm, kirm (qyrm) <Skt. kr̥mi ... pl. qyrmyst / snake, worm / GMS 140, 512; TSP ...'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "SOD",
+       "where": "l.6187 (Persian index)",
+       "stance": "supports",
+       "note": "'/kirm/ kyrm- snake Pers. کرم (worm)'."
+      },
+      {
+       "src": "NYB",
+       "where": "s.v. kirm",
+       "stance": "supports",
+       "note": "'Skr kr̥mi- snake ... MPrth krm comet'. This gives the 'snake/dragon' sense in Iranian."
+      },
+      {
+       "src": "HENNING_selected_papers",
+       "where": "not searched",
+       "stance": "silent",
+       "note": "not needed: Gharib cites the primary texts."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "lang": "Arabic",
+     "words": "qermez",
+     "verdict": "plausible",
+     "derivation": "Arabic qirmiz 'kermes insect; crimson dye' (attested from the 8th c.) is a loan from an Iranian form, Persian *kirmist / *kirmiz 'worm-dye' < *kŕ̥mi- 'worm'. Wiktionary and the 'carmine' entry follow this. Klein and Watkins (AHD) derive it directly from Skt. kṛmi-ja-. Either way it goes back to the Indo-Iranian worm word. The chart's parent is ambiguous. The extracted JSON makes it a child of Sogdian kyrm (#12), but the printed page draws it from the Sanskrit box (#10). This is an extraction error and the parent should be 10. Modern sources favour an Iranian (Persian) source over direct Sanskrit. (Coordinator note: in print the Arabic box hangs from the trunk below the Sanskrit krmi box (#10), like the Sogdian box, not from the Sogdian box; the extraction's parent has been corrected.)",
+     "derivation_fa": "عربی قِرْمِز «حشرهٔ قرمزدانه، رنگ سرخ» از سدهٔ دوم هجری گواهی دارد و وام‌واژه‌ای ایرانی است، از صورتی مانند *kirmist یا *kirmiz «رنگِ کرمی» از *kŕ̥mi- «کرم». کلاین و واتکینز آن را مستقیماً از سنسکریت kṛmi-ja- می‌دانند، ولی ویکی‌واژه و پژوهش تازه‌تر منبع ایرانی را ترجیح می‌دهند. در نمودار چاپی این گره از سنسکریت (#10) منشعب شده، ولی در داده‌های استخراج‌شده زیر سغدی (#12) آمده است. این خطای خوانش داده است و باید اصلاح شود. (یادداشت هماهنگ‌کننده: در چاپ کتاب جعبهٔ عربی مانند جعبهٔ سغدی از شاخه‌ای آویخته که از زیر جعبهٔ سنسکریت krmi (گرهٔ ۱۰) پایین می‌آید، نه از جعبهٔ سغدی؛ والدِ این گره در داده‌ها درست شد.)",
+     "sources": [
+      "https://en.wiktionary.org/wiki/قرمز",
+      "https://en.wiktionary.org/wiki/carmine",
+      "https://en.wiktionary.org/wiki/crimson"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:1527",
+       "status": "partial",
+       "note": "BQT p. 1527 (read from image, ocr/BQT/1527.vision.txt): 'قرمز - بکسر اول ... چیزی است که بدان چیزها رنگ کنند ... جانوری است کوچك ... وبعربی دودالصباغین خوانند'; fn. 1: 'ازسانسکریت «ژابا ۳۰۹» و از عربی وارد فرانسوی شده kermès'. This supports the Sanskrit-ultimate origin and the Arabic → French route, but names no Sogdian link."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "KLN_1966.txt s.v. kermes; KLN_1971 l.59986 s.v. crimson",
+       "stance": "supports",
+       "note": "'F. kermès, fr. Arab. qirmiz, ult. fr. OI. kr̥mi-ja-, produced by a worm'; 'crimson ... Sp. cremesín, fr. Arab. qirmiz, ult. fr. OI.'."
+      },
+      {
+       "src": "AHD",
+       "where": "s.v. kʷrmi-",
+       "stance": "supports",
+       "note": "'kr̥mi-ja- ... borrowed into Arabic as qirmiz, kermes'."
+      },
+      {
+       "src": "FVQ",
+       "where": "FVQ_pages.txt",
+       "stance": "silent",
+       "note": "qirmiz is not a Qur'anic word; no entry in Jeffery."
+      },
+      {
+       "src": "LKT",
+       "where": "LKT.txt",
+       "stance": "silent",
+       "note": "not located by grep in the OCR (spelling variants qirmiz/kirmiz tried)."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "lang": "English",
+     "words": "kermes, carmine, crimson",
+     "verdict": "confirmed",
+     "derivation": "kermes (c. 1600) comes from French kermès, from Arabic qirmiz. crimson (late ME cremesyn) comes from Old Spanish cremesín / Medieval Latin cremesinus, from Arabic qirmizī 'kermes-red'. carmine comes from French carmin, from Medieval Latin carminium, a blend of Arabic qirmiz with Latin minium 'red lead'. All three are doublets going back through Arabic to the Indo-Iranian *kŕ̥mi- 'worm'.",
+     "derivation_fa": "انگلیسی kermes از فرانسوی kermès و آن از عربی قرمز آمده است. crimson از اسپانیایی کهن cremesín و لاتینی میانه cremesinus، از عربی قرمزی است. carmine از فرانسوی carmin و لاتینی میانه carminium است، آمیزه‌ای از عربی قرمز و لاتینی minium «سرنج». هر سه هم‌زادند و از راه عربی به واژهٔ هندوایرانی *kŕ̥mi- «کرم» می‌رسند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/kermes",
+      "https://en.wiktionary.org/wiki/crimson",
+      "https://en.wiktionary.org/wiki/carmine"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:205,303",
+       "status": "supports",
+       "note": "The 1976 page numbers cannot be checked; Watkins 1985 s.v. kʷrmi- gives '(CRIMSON), KERMES' and the index has 'CRIMSON kʷrmi-', 'KERMES kʷrmi-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "KLN_1971.txt l.39964 carmine; l.59986 crimson; KLN_1966 kermes",
+       "stance": "supports",
+       "note": "'carmine ... F. carmin, fr. ML. carminium, a blend of Arab. qirmiz, worm and L. minium'; 'crimson ... Sp. cremesín, fr. Arab. qirmiz'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt l.3626 (s.v. cochineal)",
+       "stance": "partial",
+       "note": "mentions 'kermes' only in passing; no separate etymology found in the OCR."
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "lang": "Indo-European",
+     "words": "Wropal",
+     "verdict": "plausible",
+     "derivation": "'Wropal' is not a standard PIE reconstruction. It is Nourai's (or Mann's) back-projection of Greek rhópalon 'club', which Homeric metrics and Aeolic spellings show had initial ϝρ- (*wr-). Pokorny 1156 puts rhópalon 'Wurfstab, Keule' and rhóptron 'club' under the extension *werp- / *wrep- 'to turn, wind' (also rhépō 'to incline'). So a *wrop-alo- built on wer-3 is defensible. Wiktionary (after Beekes) says only 'traditionally derived from rhépō, but perhaps not related', so the link is not certain. Mann's entry could not be found in the local OCR.",
+     "derivation_fa": "«Wropal» ریشهٔ پذیرفته‌شده‌ای در هندواروپایی نیست. نورایی یا مان آن را از روی یونانی rhópalon «چماق» که در آغاز ϝρ- (*wr-) داشته بازسازی کرده‌اند. پوکورنی (ص ۱۱۵۶) rhópalon و rhóptron را زیر *werp- «گرداندن، پیچیدن» آورده است. ویکی‌واژه به پیروی از بیکس می‌گوید: «به‌طور سنتی از rhépō، ولی شاید بی‌پیوند». پس این پیوند با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ῥόπαλον"
+     ],
+     "ref_check": [
+      {
+       "ref": "IEC:1596",
+       "status": "not_found",
+       "note": "IEC.txt leaves 813-815 (≈ pp. 1594-1600: uper, ursis, uruos ...) and full-file grep for 'ropal|rhop|wrop|uropal|club' found no Wropal/rhópalon entry; the OCR may have missed it."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p. 1156 (POK_full.txt l.91713ff.)",
+       "stance": "supports",
+       "note": "'uer-3. G. uer-p-, ur-ep- ... to turn, wind ... gr. ... rhópalon „Wurfstab, cudgel, club“, rhóptron „club, mace ...“'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 276f. (cited by Pokorny 'WP. I 276 f.')",
+       "stance": "supports",
+       "note": "the same Greek material is cited at WP I 276f.; the club word was not separately found in the WLD OCR (grep 'Keule' gives other roots)."
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "lang": "Persian",
+     "words": "kŭpâl",
+     "verdict": "disputed",
+     "derivation": "NP kopāl / gopāl 'iron mace, club' (Ferdowsi) belongs to an areal word family: Kurdish gopal/kopal 'shepherd's staff', Armenian kopal, Georgian ḳombali/ḳobali, Laz ḳoṗali, Ossetic k'obala, Pontic Greek kopáli, Turkish gobal/kopal. Wiktionary calls its origin uncertain. The suggestions are a native formation from kōb- 'to beat' (kōftan) + -āl (as in čangāl), a loan from Greek kópanon 'pestle', or a Kartvelian *ḳaṗ-. Mo'in's footnote to Borhan gives only the Kurdish parallel. It cannot come from the ancestor of Greek rhópalon. Initial ϝρ-/wr- does not give Persian k-/g-, and an inherited Iranian *wrāp- would give NP *ra- or *gura-. Nourai's link rests only on the formal resemblance -pal.",
+     "derivation_fa": "«کوپال» یا «گوپال» به معنی «گرز آهنین» (فردوسی) جزو گروهی از واژه‌های منطقه‌ای است: کردی gopal/kopal «چوبدست چوپان»، ارمنی kopal، گرجی ḳombali، آسی k'obala، یونانی پونتی kopáli و ترکی gobal. ویکی‌واژه ریشهٔ آن را نامعلوم می‌داند و احتمال می‌دهد از «کوب» (کوفتن) با پسوند -āl (مانند «چنگال») یا از یونانی kópanon «دسته‌هاون» باشد. معین در حاشیهٔ برهان تنها صورت کردی را آورده است. واج آغازین wr- در rhópalon هرگز در فارسی به ک یا گ بدل نمی‌شود. پس پیوند «کوپال» با rhopalon را پژوهش امروزی نمی‌پذیرد و این تنها شباهت ظاهری است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/گوپال",
+      "https://vajehyab.com/moein/کوپال"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:3109",
+       "status": "partial",
+       "note": "vajehyab Mo'in: 'کوپال (اِ.) عمود، گرز آهنین'. The meaning is confirmed; no etymology and no Greek link."
+      },
+      {
+       "ref": "IEC:1596",
+       "status": "not_found",
+       "note": "no Persian kopāl/gopāl found in IEC.txt (grep 'k[uū]p[aā]l|gopal|kopal')."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BQT",
+       "where": "vol. 3 s.v. کوپال (BQT_v3_pages.txt l.37659-37679)",
+       "stance": "contradicts",
+       "note": "'کوپال ... عمود و گرز آهنین را گویند'; footnote: 'کوپال کردی kopāl (عصا، چوبدست چوپان) ... «ژابا ص ۳۵۵»' with Ferdowsi's verses. Mo'in gives a Kurdish parallel and no IE etymology."
+      },
+      {
+       "src": "MON",
+       "where": "2-vol abridgement MON_part2.txt l.27644",
+       "stance": "partial",
+       "note": "'کوپال: (قد.) [= گوپال] (اِ.) گرز آهنین'."
+      },
+      {
+       "src": "HRN",
+       "where": "HRN.txt",
+       "stance": "silent",
+       "note": "grep 'kūpāl|gūpāl|kopal|gopal' finds nothing."
+      },
+      {
+       "src": "HUB",
+       "where": "HUB.txt",
+       "stance": "silent",
+       "note": "same grep, nothing."
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "lang": "Greek",
+     "words": "rhopalon",
+     "verdict": "plausible",
+     "derivation": "Ancient Greek rhópalon 'club, cudgel' is old (Homeric). Its initial ϝ- is shown by the metre and by the related rhóptron. Pokorny 1156 sets it under *werp- / *wrep- 'to turn, wind' beside rhépō 'to incline, sink (of a scale)'. Beekes, followed by Wiktionary, says 'traditionally derived from rhépō, but perhaps not related', so the IE etymology is possible but not secure. The word and gloss are correct.",
+     "derivation_fa": "یونانی باستان rhópalon «چماق، گرز» واژه‌ای کهن (هومری) است که در آغاز ϝ- داشته است. پوکورنی (ص ۱۱۵۶) آن را زیر *werp- «گرداندن، پیچیدن» در کنار rhépō «خم شدن، سنگینی کردنِ کفهٔ ترازو» آورده است. بیکس و ویکی‌واژه این پیوند را سنتی ولی نامطمئن می‌دانند. پس واژه و معنا درست است و ریشه‌شناسی آن پذیرفتنی ولی قطعی نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ῥόπαλον"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:1156",
+       "status": "supports",
+       "note": "POK_full.txt l.91721ff. 'Gr. ... rhópalon „Wurfstab, cudgel, club“, rhóptron „club, mace, joint, Türklopfer ...“ ... Page(s):1156'."
+      },
+      {
+       "ref": "IEC:1596",
+       "status": "not_found",
+       "note": "see node 15."
+      },
+      {
+       "ref": "DEW:435",
+       "status": "not_checked",
+       "note": "DEW has no local file or online pointer in refs_online.json."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "WLD",
+       "where": "WP I 276f. (via Pokorny)",
+       "stance": "supports",
+       "note": "Pokorny's references 'WP. I 276 f.' for the uer-p- material including rhópalon."
+      },
+      {
+       "src": "AHD",
+       "where": "Watkins 1985 wer-3 VIII",
+       "stance": "partial",
+       "note": "'VIII. Root *werp-, to turn, wind ... Zero-grade form *wrp- in Greek rhaptein, to sew'. rhopalon is not listed (no English derivative)."
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "lang": null,
+     "words": "",
+     "verdict": "unverified",
+     "error_in": "extraction",
+     "derivation": "The printed chart draws an arrow from the Avestan box (urvisyeiti, varep, a-vareta, #3) to a double-bordered box on the right, the frame used for Persian, which is printed empty. Nourai evidently meant a New Persian reflex but left the box blank, so there is nothing to verify. The box was missing from the original extraction and has been added as an empty node.",
+     "derivation_fa": "در چاپ کتاب از جعبهٔ اوستایی (urvisyeiti، varep، a-vareta؛ گرهٔ ۳) پیکانی به جعبه‌ای دوخطی (قاب ویژهٔ واژه‌های فارسی) کشیده شده که خالی مانده است. پیداست نورایی می‌خواست بازماندهٔ فارسی نو را بیاورد ولی آن را ننوشته، پس چیزی برای بررسی نیست. این جعبه در استخراج نخستین جا افتاده بود و اکنون به صورت گرهٔ خالی افزوده شده است.",
+     "ref_check": [
+      {
+       "ref": "none",
+       "status": "not_checked",
+       "note": "the box is printed empty and carries no reference"
+      }
+     ],
+     "consulted": []
+    }
+   ]
+  }
+ ]
+}

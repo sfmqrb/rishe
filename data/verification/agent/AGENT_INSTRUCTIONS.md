@@ -227,6 +227,9 @@ Several agents run at the same time and share the scratchpad and `/tmp`, so ever
 file you create must carry your page number in its name (e.g. `e0-363.json`, `pg363.png`,
 `draft-363.json`), never a bare `e0.json` or `entry.json` — another agent will overwrite it.
 
+In the shell, `ls` is aliased to `eza`, which can hang without a terminal and leave your
+command stuck. List files with `command ls` or `find` instead.
+
 ```json
 {
   "pdf_page": 126,
