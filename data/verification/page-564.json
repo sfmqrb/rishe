@@ -1,0 +1,854 @@
+{
+ "pdf_page": 564,
+ "book_page": 534,
+ "verified_by": "claude-opus-5.5",
+ "verified_on": "2026-10-16",
+ "entries": [
+  {
+   "entry": 0,
+   "root": "Yem",
+   "verdict": "plausible",
+   "modern_form": "PIE *yem- 'to hold, restrain' (LIV) and, separately, *yemHós 'twin' (Wiktionary); Pokorny 505 treats both under one lemma jem-",
+   "note": "Pokorny 505 has a single lemma jem- 'to hold' that includes Skt. yamati 'reins in', Av. yata- 'held', and also Skt. yama-, Av. yə̄ma- 'twin', Yama/Yima and Latin geminus. Nourai's gloss 'restrain, hold together (pair)' follows Pokorny. Watkins (AHD yem- 'to pair') and Wiktionary keep *yemHós 'twin' apart, and LIV keeps *yem- 'hold' apart. The twin branch (Yima > Jam/Jamšid; geminus > Gemini) is well founded. The yād branch is not: NP yād < MP ayād < *abi-yāta- from *HiaH 'go' (Cheung). Horn and Mo'in connected yād with Av. yāta-, but no one derives it from *yem-. The extraction matches the chart text; no transcription problems.",
+   "note_fa": "نورایی ریشه را هندواروپایی *yem- «نگه داشتن، به هم بستن (جفت)» گرفته است. این پیروی از پوکورنی (ص ۵۰۵) است که معنای «نگه داشتن» و «همزاد» را زیر یک ریشه آورده است. پژوهش امروزی (واتکینز، ویکی‌واژه، LIV) این دو را از هم جدا می‌کند: *yem- «نگه داشتن» یک ریشه است و *yemHós «همزاد» ریشه‌ای دیگر. شاخهٔ «همزاد» (جم و جمشید، geminus و Gemini) استوار است. اما «یاد» به گفتهٔ چونگ از *abi-yāta- و ریشهٔ «رفتن» است و ربطی به این ریشه ندارد. پس ادعای نورایی دربارهٔ خود ریشه با احتیاط پذیرفتنی است.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yemHós",
+    "https://en.wiktionary.org/wiki/جمشید",
+    "https://en.wiktionary.org/wiki/یاد"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:505",
+     "status": "supports",
+     "note": "POK_full.txt (lemma jem- 'to hold', Page(s): 505): 'Old Indic yamati reins, steers ... yata-h kept, held, yama-h rein ... Avestan yam-, ... participle Avestan yata- hold, stop, yata- assigned allotment, possession ... Old Indic yama-h, Avestan yama- twin; Old Indic GN Yama-h = Avestan Yima; Latin geminus ... twin'."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "AHD_watkins1985.txt line 1191",
+     "stance": "partial",
+     "note": "'yem-. To pair. Perhaps altered into Latin geminus ... [Pok. iem- 505.]' — 'pair' only, no 'hold' sense."
+    },
+    {
+     "src": "WLD",
+     "where": "WP I 572 (cited by POK)",
+     "stance": "silent",
+     "note": "not re-read; Pokorny's references 'WP. I 572, WH. I 587'."
+    },
+    {
+     "src": "IEC",
+     "where": "IEC.txt grep '^yem-|^jem'",
+     "stance": "silent",
+     "note": "no headword found in OCR."
+    },
+    {
+     "src": "KLN",
+     "where": "s.v. Yama / Gemini",
+     "stance": "partial",
+     "note": "Yama 'perh. lit. the restrainer, fr. OI. yamah, rein'; Gemini 'prob. cogn. with OI. yamah, Avestic yema, twin'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "yemô, yemâ, yîma; yima-xšaetem",
+     "verdict": "confirmed",
+     "derivation": "Av. Yima- (YAv., Bartholomae col. 1300 f.: 'EN. eines sagenhaften Königs von Iran', son of Vīvaŋhvant) = Vedic Yama-, son of Vivasvant. Both continue Proto-Indo-Iranian *yamá- 'twin', from PIE *yemHós (Wiktionary). The common noun 'twin' survives in Gathic dual yə̄mā 'the twin (spirits)' (Y. 30.3); Nourai's 'yemô, yemâ' are this word, written with e for ə. The epithet yima- xšaēta- 'radiant Yima' is frequent ('yō yimō xšaētō hvąθwō', Y. 9.4; Bartholomae s.v. xšaēta- 'bes. von Yima'). xšaēta- 'shining' is from the root *xšay- 'shine' (chart's Ksei 2). Nourai glosses Yima as 'king', but that is not the word's meaning. The twin sister in the NOTE is the Pahlavi Yimag/Jamag of the Bundahišn, matching Vedic Yamī, Yama's twin in RV 10.10. That sister is the reason the name is read as 'twin'.",
+     "derivation_fa": "«جم» در اوستا Yima- نام پادشاه افسانه‌ای و پسر ویونگهونت است و با یمهٔ ودایی، پسر ویوسونت، یکی است. هر دو از هندوایرانی *yamá- «همزاد، توأمان» و هندواروپایی آغازین *yemHós می‌آیند. صورت گاهانی yə̄mā «دو همزاد» (یسنا ۳۰، بند ۳) همان است که نورایی yemâ نوشته است. لقب yima- xšaēta- «جمِ درخشان» از xšaēta- «تابان» ساخته شده است. خواهر همزادِ جم در بندهش «جمگ» (یمگ) نام دارد و با یمیِ ودایی برابر است. ادعای نورایی درست است، اما معنای «پادشاه» برای Yima در اوستا دقیق نیست و این واژه نام خاص است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/جمشید",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yemHós",
+      "https://abadis.ir/fatofa/جمشید/"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1763",
+       "status": "partial",
+       "note": "KLN_1971.txt s.v. Yima: 'the Avestic equivalent of Yama (Persian mythol.) — Avestic Yima-, rel. to OI. Yamah. See Yama.' Klein's Yama entry: 'of uncertain origin. It means perh. lit. the restrainer, fr. OI. yamah, rein, bridle'. Under Gemini he gives 'OI. yamah, Avestic yema, twin'. Klein supports the Yima = Yama equation and the link to the root, but he prefers the meaning 'restrainer' over 'twin' for the name."
+      },
+      {
+       "ref": "BRT:1301",
+       "status": "supports",
+       "note": "BRT.txt line 21827 (cols. 1300-1301): 'yima- m. EN. eines sagenhaften Königs von Iran: yō yimō xšaētō hvąθwō ... Y.9.4 ... ai. yamá- m. EN., np. jam(šēd). Eig. Bed.?'. The name, the Yima xšaēta formula and the NP outcome are all there. Bartholomae leaves the original meaning open."
+      },
+      {
+       "ref": "IRN:5",
+       "status": "supports",
+       "note": "IRN pdf p.16 = printed p.5 (tools/ref_page.py IRN:5, OCR): 'جمشید yima xšaēta بمعنی توأم درخشان که با خواهرش ... همزاد بود'. This is exactly Nourai's 'twin' reading and the twin-sister note."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "col. 1300 s.v. yima-; s.v. xšaēta- (line 10698)",
+       "stance": "supports",
+       "note": "'yima- m. EN. eines sagenhaften Königs von Iran ... ai. yamá-, np. jam(šēd)'; xšaēta- 'licht, strahlend ... bes. von Yima: yō yimō xšaētō'."
+      },
+      {
+       "src": "POK",
+       "where": "p. 505 lemma jem-",
+       "stance": "supports",
+       "note": "'Old Indic yama-h m., Avestan yama- m. twin; Old Indic GN Yama-h ... = Avestan Yima'."
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary s.v. Yam",
+       "stance": "supports",
+       "note": "'Yam [ym] one of the primeval heroes, son of Vivanghan ... ~ i šēt = NP Jamšed ... Av. (1300 sq.) Yima (OInd Yama-); Paz. Jim; NP Jam'."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Pahlavi",
+     "words": "yam; yam-šît",
+     "verdict": "plausible",
+     "derivation": "Book Pahlavi Yam [ym] 'Yima', and Yam ī šēd [ym šyt'] 'radiant Yam' (NYB s.v. Yam: '~ i šēt = NP Jamšed'), continue Av. Yima- and Yima xšaēta-. Avestan -i- in the open first syllable became MP -a-, and xšaēta- became MP šēd: initial xš- was simplified to š-, OIr. ai became ē, and intervocalic -t- was voiced to -d-. The same development gives xwaršēd 'sun' < hvarə xšaēta-. Wiktionary also cites MP ymšyt' /jamšēd/, read with j-, as in Pazand Jim. The words and the derivation are right, but the gloss 'king' for yam is not: in Pahlavi Yam is only a proper name.",
+     "derivation_fa": "در پهلوی Yam (ym) نام همان جم است و «Yam ī šēd» (ym šyt') یعنی «جمِ درخشان». این صورت‌ها از اوستایی Yima- و yima- xšaēta- آمده‌اند: xš- آغازین به š- ساده شده، ai باستان به ē بدل شده و t میان دو واکه به d نرم شده است، همان‌گونه که در «خورشید» (xwaršēd از hvarə xšaēta-) می‌بینیم. نیبرگ و ویکی‌واژه این روند را تأیید می‌کنند. اما معنای «پادشاه» که نورایی به yam داده در پهلوی دیده نمی‌شود، چون yam در پهلوی تنها نام خاص است. پس ادعای او با احتیاط پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/جمشید",
+      "https://en.wiktionary.org/wiki/جم"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:587",
+       "status": "supports",
+       "note": "BQT_v2_pages.txt leaf 45 (printed p. ~587-588), footnote 1 to جمشید (OCR): 'از: جم (اوستا yima، سانسکریت (ودا) yama، پهلوی yam «بارتولمه ...») + شید ... یعنی جم درخشان'. Mo'in gives the Pahlavi yam and the meaning 'radiant Jam'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "NYB",
+       "where": "Glossary s.v. Yam, Yam-kart",
+       "stance": "supports",
+       "note": "'Yam [ym] ... ~ i šēt = NP Jamšed ... Av. Yima'."
+      },
+      {
+       "src": "PHD",
+       "where": "PHD.txt grep '^yam\\b|jamšēd'",
+       "stance": "silent",
+       "note": "MacKenzie's headword list (proper names are mostly omitted) gives no entry for Yam/Jamšēd in the OCR."
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary s.v. x'ar-xšēt",
+       "stance": "supports",
+       "note": "'Av. hvaro.xšaēta- ... + ašaēta- splendent; ... NP xuaršed' gives the parallel xšaēta- > šēd development."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Persian",
+     "words": "jam; Jamšîd",
+     "verdict": "confirmed",
+     "derivation": "NP Jam / Jamšēd (Classical Jamšēd, modern Jamšid) < MP Yam / Yam-šēd (Wiktionary: 'Inherited from Middle Persian ymšyt' /jamšēd/ ... from Avestan yima.xšaēta'). OIr. initial y- becomes NP j- (compare yuga- > joft, yav- > jow). Majhul ē became i in Iranian Persian, so šēd > šid. Lexicographers took jam secondarily as an appellative 'great king' (Borhan: 'جم نام داشت یعنی سلطان و پادشاه بزرگ'), which explains Nourai's gloss 'king'. The Farrokhi line pairs Jamšid and Jam as two names of one king.",
+     "derivation_fa": "«جم» و «جمشید» از پهلوی Yam و Yam-šēd آمده‌اند. y- آغازین ایرانی باستان در فارسی نو به ج بدل شده است (همچنان که در «جفت» و «جو») و یای مجهول ē در فارسی امروز ایران به ی (šid) گراییده است. معنای «پادشاه بزرگ» برای «جم» را فرهنگ‌نویسان، از جمله برهان قاطع، بعدها از روی نام جمشید ساخته‌اند. معین در حاشیهٔ برهان قاطع این واژه را از اوستایی yima، سنسکریت yama و پهلوی yam می‌داند و جمشید را «جمِ درخشان» معنی می‌کند. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/جمشید",
+      "https://en.wiktionary.org/wiki/جم",
+      "https://abadis.ir/fatofa/جمشید/"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:587",
+       "status": "supports",
+       "note": "BQT_v2_pages.txt leaf 45, s.v. جمشید: 'واو در اول جم نام داشت یعنی سلطان و پادشاه بزرگ'; footnote: 'از: جم (اوستا yima ...، پهلوی yam ...) ... یعنی جم درخشان'."
+      },
+      {
+       "ref": "MON5:433",
+       "status": "not_checked",
+       "note": "Mo'in vol. 5 (proper names) is not on disk. Online Dehkhoda/Mo'in at abadis.ir s.v. جمشید quotes the same Borhan text and the Vedic/Avestan Yama/Yima."
+      },
+      {
+       "ref": "TZF:28",
+       "status": "not_checked",
+       "note": "Tafazzoli's book is not accessible (refs_online: no copy)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "HRN.txt grep 'jam'",
+       "stance": "silent",
+       "note": "no Horn entry for Jam/Jamšēd (proper names are outside the Grundriss)."
+      },
+      {
+       "src": "BQT",
+       "where": "vol. 2 leaf 45",
+       "stance": "supports",
+       "note": "as in ref_check."
+      },
+      {
+       "src": "NYB",
+       "where": "s.v. Yam",
+       "stance": "supports",
+       "note": "'NP Jam', 'NP Jamšed'."
+      },
+      {
+       "src": "ARY",
+       "where": "ARY_pages.txt grep 'جمشید'",
+       "stance": "silent",
+       "note": "no entry."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "Avestan",
+     "words": "yata, yâta, ya 2",
+     "verdict": "plausible",
+     "derivation": "Av. yam- 'hold, restrain' (Bartholomae: 'yam- V. halten; fassen', past participle yata-) is a genuine descendant of PIE *yem- 'hold' (Pokorny 505: 'Avestan yata- hold, stop, yata- assigned allotment, possession'). Bartholomae's yāta- n. means 'der Jemandem zugewiesene Anteil; Besitz' (allotted share, possession), not 'remember'. The sense 'memory' for yāta- comes from Geldner (Studien I 10 n. 2, cited by Horn No. 1119), and Bartholomae does not accept it. So 'hold, keep' is right, while 'remember' rests only on Geldner's rejected reading.",
+     "derivation_fa": "در اوستا ریشهٔ yam- «نگه داشتن، گرفتن» و صفت مفعولی آن yata- به‌راستی از هندواروپایی *yem- «نگه داشتن» است، و پوکورنی (ص ۵۰۵) همین yata- را «نگه‌داشته» معنی می‌کند. اما yāta- در فرهنگ بارتولومه به معنای «بهرهٔ واگذارشده، دارایی» است، نه «یاد». معنای «حافظه» را گلدنر پیشنهاد کرده و هرن از او نقل کرده است، ولی بارتولومه آن را نپذیرفته است. پس بخش «نگه داشتن» درست است و بخش «به یاد داشتن» سست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yemHós"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:505",
+       "status": "partial",
+       "note": "POK_full.txt (lemma jem- 'to hold', Page(s): 505): 'Old Indic yamati reins, steers ... yata-h kept, held, yama-h rein ... Avestan yam-, ... participle Avestan yata- hold, stop, yata- assigned allotment, possession ... Old Indic yama-h, Avestan yama- twin; Old Indic GN Yama-h = Avestan Yima; Latin geminus ... twin'. Pokorny has yata- 'hold, stop' and yāta- 'allotment', but no 'remember' sense."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "line 21269 s.v. yam-; line 21540 s.v. yāta-",
+       "stance": "partial",
+       "note": "'yam- V. halten; fassen ... PPfP. yata-'; 'yāta- n. der Jemandem zugewiesene Anteil; Besitz' — no meaning 'memory'."
+      },
+      {
+       "src": "HRN",
+       "where": "No. 1119 (p. 250)",
+       "stance": "supports",
+       "note": "'aw. yāta- Gedächtniss (Geldner, Studien I, 10, Note 2)'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *Hi̯aH 'to remember' (p. 175)",
+       "stance": "contradicts",
+       "note": "the 'remember' root is *HiaH (only with *abi-), not *yam."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Pahlavi",
+     "words": "yât, âyât",
+     "verdict": "disputed",
+     "derivation": "The Pahlavi word is real: MacKenzie p. 15 'ayād [ʾdyʾt' | M ʾyʾd, N yād] memory', with the verb ayāsīdan 'remember'. Horn's 'āyāt / yāt' is the older reading of the same spelling ʾ(d)yʾt; the -d- written in Pahlavi is a historical spelling of *abi-. Modern analysis derives ayād from *abi-yāta-, the past participle of *HiaH- 'to go, come' with the preverb abi-, giving 'come to mind' > 'remembered'. Cheung gives *abi-yāta- (Khotanese byāta- 'memory', Sogdian ʾβyʾtw), and Tavoosi (SNS) gives 'ayyād / ayād < abi+yāta-'. Abi- became ay(y)- by the usual lenition of b to y. The word therefore does not come from Av. yāta-/*yem- 'hold' as the chart draws it.",
+     "derivation_fa": "پهلوی «ayād» (با نگارش ʾdyʾt) به معنای «یاد، حافظه» در فرهنگ مکنزی آمده است و «āyāt / yāt» در کتاب هرن خوانش کهنه‌تر همین واژه است. پژوهش امروزی (چونگ، و طاووسی در واژه‌نامهٔ شایست نشایست) آن را از ایرانی باستان *abi-yāta- می‌داند، یعنی پیشوند abi- و صفت مفعولی ریشهٔ *yā- «رفتن، آمدن»، با تحول معنایی «به ذهن آمده» به «به یاد آمده». در این واژه b پیشوند abi- به y بدل شده است. پس پیوند آن با yāta- اوستایی و ریشهٔ *yem- «نگه داشتن»، چنان‌که نورایی کشیده، پذیرفته نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/یاد"
+     ],
+     "ref_check": [
+      {
+       "ref": "HRN:250",
+       "status": "partial",
+       "note": "HRN p. 250 No. 1119: '(1) yād Erinnerung, Gedächtniss ... aw. yāta- Gedächtniss (Geldner ...); phlv. yāt (vd. 19 (96)), sonst āyāt'. Horn gives the Pahlavi forms and the yāta- link, but no tie to *yem-."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "PHD",
+       "where": "p. 15 s.v. ayād",
+       "stance": "partial",
+       "note": "'ayād [ʾdyʾt | M ʾyd, N yād] memory. ~ kardan: remember' (word confirmed, no etymology)."
+      },
+      {
+       "src": "NYB",
+       "where": "Glossary grep 'ayād|āyāt'",
+       "stance": "silent",
+       "note": "no headword found in the OCR."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *HiaH",
+       "stance": "contradicts",
+       "note": "'(+ *abi-) NP yād memory ... This root with the meaning to remember is solely attested with the preverb *abi-. It is probably originally identical to *HiaH to go, drive to'."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Persian",
+     "words": "yâd; došyâd",
+     "verdict": "disputed",
+     "derivation": "NP yād 'memory, remembrance' < MP ayād [ʾdyʾt]. The initial a- was lost by aphaeresis, as in ayār > yār and ayāftan > yāftan. MP ayād continues *abi-yāta- from *HiaH- 'go' (Cheung; Wiktionary: 'from Proto-Iranian *Habí- + *yáH-, probably from PIE *yeh₂- to go ... with Iranian semantic shift to enter [the mind] > to remember'). Horn (No. 1119) and Mo'in (BQT 2412) linked it instead to Av. yāta-. Nobody connects it with *yem- 'hold', so the chart's root is not accepted. došyād (دشیاد) 'backbiting' = duš- 'bad, ill' (Av. duš-, MP duš-) + yād, a rare, purist-style compound glossed by Dehkhoda as 'از کسی بد یاد کردن ... غیبت'. Its parts are sound, but it inherits the same problem with the root.",
+     "derivation_fa": "«یاد» در فارسی نو از پهلوی ayād آمده و واکهٔ آغازین آن افتاده است، همان‌گونه که «یار» از ayār و «یافتن» از ayāftan آمده است. ریشهٔ پهلوی، به گفتهٔ چونگ و ویکی‌واژه، ایرانی باستان *abi-yāta- از ریشهٔ *yā- «رفتن» است که معنای «به یاد آمدن» گرفته است. هرن و معین (در حاشیهٔ برهان قاطع، ص ۲۴۱۲) آن را به yāta- اوستایی پیوند داده‌اند، ولی هیچ منبعی آن را از *yem- نمی‌داند. پس پیوند نورایی با این ریشه را پژوهش امروزی رد می‌کند. «دُشیاد» یعنی «بدگویی پشت سر کسی، غیبت» و از «دُش-» (بد) و «یاد» ساخته شده است. این ترکیب درست است، اما در اشکالِ ریشهٔ «یاد» شریک است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/یاد",
+      "https://abadis.ir/fatofa/دشیاد/"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:2412",
+       "status": "supports",
+       "note": "BQT vol. 4 p. ۲۴۱۲ (pdf 495; vision file ocr/BQT/2412.vision.txt), footnote 7 to یاد: 'اوستا yâta (حافظه)، پهلوی yât، âyât «اسشق ۱۱۱۹»'. This is the source of Nourai's chain Av. yāta → Pahl. yāt/āyāt → yād. Mo'in does not mention *yem- either."
+      },
+      {
+       "ref": "SNS:85",
+       "status": "partial",
+       "note": "SNS_pages.txt line 4108 (page offset undetermined): 'ayyād / ayād ... abi+yāta-'. Tavoosi derives the Pahlavi word from *abi-yāta-, which supports the Pahlavi-to-Persian step but not the *yem- root."
+      },
+      {
+       "ref": "TZF:22",
+       "status": "not_checked",
+       "note": "Tafazzoli not accessible."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "No. 1119",
+       "stance": "partial",
+       "note": "'yād Erinnerung ... aw. yāta- Gedächtniss ... phlv. yāt, sonst āyāt'."
+      },
+      {
+       "src": "HUB",
+       "where": "HUB.txt grep 'yād'",
+       "stance": "silent",
+       "note": "no remark on No. 1119 found."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *HiaH",
+       "stance": "contradicts",
+       "note": "NP yād < *abi- + *HiaH; PIE *h1yeh2- 'go' (Pok. 293 ff.)."
+      },
+      {
+       "src": "PHD",
+       "where": "p. 15",
+       "stance": "supports",
+       "note": "'ayād ... N yād memory'."
+      },
+      {
+       "src": "ARY",
+       "where": "ARY_pages.txt grep 'یاد'",
+       "stance": "silent",
+       "note": "no headword entry."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "Latin",
+     "words": "geminus",
+     "verdict": "plausible",
+     "derivation": "Lat. geminus 'twin, twin-born; double' (plural geminī, the Twins Castor and Pollux). Pokorny, AHD ('Perhaps altered into Latin geminus') and Wiktionary all connect it with *yem(H)- 'twin' (Skt. yamá-, Av. yə̄ma-, OIr. emon 'twins'). Wiktionary: 'Presumably from Proto-Italic *yemanos, from PIE *yemH- twin ... If this is true, the g- must have been analogically introduced from gignō, genus'. Pokorny prefers to explain g- from *gem- 'press together' (or as an Illyrian substrate); Klein mentions a base *gem- 'to press'. The connection is widely accepted but depends on that ad hoc explanation of g-.",
+     "derivation_fa": "لاتینی geminus «همزاد، دوقلو» را پوکورنی، فرهنگ امریکن هریتیج و ویکی‌واژه با *yem(H)- «همزاد» (سنسکریت yamá-، اوستایی yə̄ma-، ایرلندی کهن emon) هم‌ریشه می‌دانند. g- آغازین آن قاعده‌مند نیست و آن را نتیجهٔ قیاس با gignō «زادن» و genus «تبار» می‌شمارند. پوکورنی خود این g- را از ریشهٔ *gem- «فشردن» یا از زبانی زیرلایه‌ای (ایلیری) می‌داند. پس هم‌ریشگی پذیرفتنی است، ولی قطعی نیست.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/geminus"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 1191: 'yem-. To pair. Perhaps altered into Latin geminus, twin, paired: GEMINATE, GEMINI ... [Pok. iem- 505.]'"
+      },
+      {
+       "ref": "POK:505",
+       "status": "partial",
+       "note": "POK p. 505: 'Latin geminus born at the same time, twin-born, twin probably g- is attributed to the root gem- grasp, press together ... (an Illyrian substrate because Latin would have produced je- > ie-)'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. Gemini",
+       "stance": "partial",
+       "note": "'L., twins ... prob. cogn. with OI. yamah, Avestic yema, twin, MIr. emon ... These words possibly derive fr. I.-E. base *gem-, to press'."
+      },
+      {
+       "src": "WLD",
+       "where": "Bd. I 207 / via POK reference 'WP. I 572'",
+       "stance": "silent",
+       "note": "not re-read; Pokorny's entry cites WP I 572 for jem-."
+      },
+      {
+       "src": "AHD",
+       "where": "yem-",
+       "stance": "supports",
+       "note": "as in ref_check."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "English",
+     "words": "Gemini",
+     "verdict": "confirmed",
+     "derivation": "English Gemini (late 14th c., the constellation and zodiac sign) is borrowed from Latin Geminī, plural of geminus 'twin'. The Latin name is a calque of Greek Δίδυμοι 'the Twins', itself after Babylonian māšu (MUL.MAŠ.TAB.BA 'the great twins') (Wiktionary).",
+     "derivation_fa": "انگلیسی Gemini «جوزا، دوپیکر» از لاتینی Geminī، جمع geminus «همزاد»، وام گرفته شده است. خودِ این نام لاتینی گرته‌برداری از یونانی Δίδυμοι «همزادان» است که آن هم از نام بابلی صورت فلکی «همزادان بزرگ» گرفته شده است. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Gemini"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited by Nourai for this node."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. Gemini",
+       "stance": "supports",
+       "note": "'Gemini, n. pl., 1) the constellation of Castor and Pollux; 2) the third sign of the Zodiac. — L., twins'."
+      },
+      {
+       "src": "AHD",
+       "where": "yem-",
+       "stance": "supports",
+       "note": "'GEMINATE, GEMINI'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "entry": 2,
+   "root": "Yes",
+   "verdict": "confirmed",
+   "modern_form": "PIE *yes- 'to boil, foam'",
+   "note": "Pokorny 506 jes- 'to foam, boil'; AHD yes- 'to boil, foam, bubble'; Wiktionary *yes-. Root, label and gloss are correct, and the Avestan, Greek, Germanic and Western loan branches are all standard. The one weak point is NP jastan/jahīdan 'jump'. Horn derived it from Av. yah- 'boil', Hübschmann doubted this, and Cheung (2007) rejects it in favour of a tentative *zgad- 'gallop, mount'. The extraction matches the chart text.",
+   "note_fa": "ریشهٔ هندواروپایی آغازین *yes- «جوشیدن، کف کردن» در پوکورنی (ص ۵۰۶)، فرهنگ امریکن هریتیج و ویکی‌واژه آمده است. ریشه، زبان و معنا درست است و شاخه‌های اوستایی (yah-)، یونانی (zéō، اگزما، زئولیت) و ژرمنی (yeast) همه پذیرفته‌اند. تنها «جستن / جهیدن» به معنای «پریدن» محل تردید است. این پیوند پیشنهاد هرن بود که هوبشمان در آن تردید کرد و چونگ آن را رد می‌کند و آن را از *zgad- «تاختن» می‌گیرد.",
+   "sources": [
+    "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yes-"
+   ],
+   "ref_check": [
+    {
+     "ref": "POK:506",
+     "status": "supports",
+     "note": "POK_full.txt 'Root / lemma: jes- Meaning: to foam, boil ... Page(s): 506'."
+    }
+   ],
+   "consulted": [
+    {
+     "src": "AHD",
+     "where": "AHD_watkins1985.txt line 1193",
+     "stance": "supports",
+     "note": "'yes-. To boil, foam, bubble. 1. Germanic *jest- ... YEAST. 2. Greek zeein, zein ... ECZEMA, ZEOLITE. [Pok. jes- 506.]'"
+    },
+    {
+     "src": "KLN",
+     "where": "s.v. yeast",
+     "stance": "supports",
+     "note": "'All these words derive fr. I.-E. base *yes-, to boil, seethe'."
+    },
+    {
+     "src": "WLD",
+     "where": "WP I 208 (cited by POK)",
+     "stance": "silent",
+     "note": "not re-read."
+    },
+    {
+     "src": "BRT",
+     "where": "s.v. yah-",
+     "stance": "supports",
+     "note": "'yah- V. sieden (intrans.)'."
+    }
+   ],
+   "nodes": [
+    {
+     "id": 1,
+     "lang": "Avestan",
+     "words": "yah 3; yaešyaiti",
+     "verdict": "confirmed",
+     "derivation": "Av. yah- 'to boil, seethe (intr.)', present yaēšiia- (yaēšyeiti, participle yaēšyantīm āpəm 'boiling water', Y. 9.11). It continues PIE *yes- 'boil, foam'. The present is built on the weak stem *ys- with -ya- (*ye-ys-ye-), and Indo-Iranian *ay before š gives Avestan aē. Cognates are Skt. yásyati, yeṣati and Greek zéō (Pokorny 506; Wiktionary). The '3' marks Bartholomae's third homonymous root yah-.",
+     "derivation_fa": "در اوستا ریشهٔ yah- به معنای «جوشیدن» و ستاک حال yaēšiia- (yaēšyeiti «می‌جوشد») به کار رفته است، چنان‌که در یسنا ۹، بند ۱۱، از «آب جوشان» (yaēšyantīm āpəm) سخن می‌رود. این ریشه از هندواروپایی آغازین *yes- «جوشیدن، کف کردن» است و با سنسکریت yásyati و yeṣati و یونانی zéō هم‌ریشه است. پوکورنی، بارتولومه و ویکی‌واژه این را تأیید می‌کنند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yes-"
+     ],
+     "ref_check": [
+      {
+       "ref": "POK:506",
+       "status": "supports",
+       "note": "POK_full.txt lemma jes- 'to foam, boil', Page(s): 506: '... redupl. yesati ... Avestan yaesyeiti boils (intr.)'."
+      },
+      {
+       "ref": "KLN:1761",
+       "status": "supports",
+       "note": "KLN_1971.txt s.v. yeast: '... cogn. with OI. yasyati, it boils, seethes, Avestic yaeshyeiti, boils, seethes (intr.) ... All these words derive fr. I.-E. base *yes-'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "BRT",
+       "where": "line 21503 s.v. yah-",
+       "stance": "supports",
+       "note": "'yah- V. sieden (intrans.). Praes. ... yaēšya- ... yaēšyantīm āpəm .. das siedende Wasser'."
+      },
+      {
+       "src": "AHD",
+       "where": "yes-",
+       "stance": "supports",
+       "note": "'yes-. To boil, foam, bubble ... [Pok. jes- 506.]'"
+      },
+      {
+       "src": "WLD",
+       "where": "via POK 'WP. I 208'",
+       "stance": "silent",
+       "note": "Pokorny's entry refers to WP I 208; not re-read."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "lang": "Persian",
+     "words": "jastan; jahîdan",
+     "verdict": "disputed",
+     "derivation": "NP jastan / jah- 'to jump, leap; escape' (and jahīdan, built on the present stem jah-) continues BMP jastan / jah- 'to jump; arise, happen' (Cheung). Horn (No. 420) derived it from Av. yah- 'to boil' ('Die Grundbedeutung ... sprudeln, kochen, sieden'), and Nourai follows him. Hübschmann (Pers. Stud. 50) already called this 'unsicher' because of the meaning: 'springen' = 'sieden'? Cheung calls it 'semantically implausible' and, after Bailey, tentatively derives the verb from Proto-Iranian *zgad- 'to go on, gallop, mount', with j- < *dj- < *zj-, comparing Pashto zğaledəl 'run' and Baluchi jihag 'flee'. Wiktionary follows Cheung. The modern view is therefore that jastan is not from *yes- 'boil'.",
+     "derivation_fa": "«جَستن / جهیدن» به معنای «پریدن، جهش کردن» از پهلوی jastan / jah- آمده است. هرن آن را از اوستایی yah- «جوشیدن» دانسته بود و نورایی از او پیروی کرده است. هوبشمان همان زمان این پیوند را به سبب ناسازگاری معنایی («پریدن» با «جوشیدن») نامطمئن خواند. چونگ نیز آن را از نظر معنا ناپذیرفتنی می‌داند و به پیروی از بیلی آن را با تردید از ایرانی باستان *zgad- «تاختن، برنشستن» می‌گیرد، با هم‌ریشه‌هایی چون پشتو zğaledəl «دویدن» و بلوچی jihag «گریختن». معین در حاشیهٔ برهان قاطع هم سخن هرن و هم ردّ آن را آورده است. پژوهش امروزی پیوند «جستن» با *yes- را رد می‌کند.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/جستن"
+     ],
+     "ref_check": [
+      {
+       "ref": "BQT:571",
+       "status": "partial",
+       "note": "BQT_v2_pages.txt leaf 29 (printed p. ~571-572), footnote 7 to جَستن (OCR): 'بقول هرن از ریشهٔ هندی باستان yas (جوشیدن، فوران)، اوستا yah (جوشیدن) «اسشق ۴۲۰». ... این اشتقاق را نپذیرفته آنرا از ... (انداختن) مشتق داند ... بلوچی jihag (فرار کردن)'. Mo'in gives Horn's derivation and also records that it was rejected."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "HRN",
+       "where": "No. 420 (p. 94)",
+       "stance": "supports",
+       "note": "'jastan ... skr. yas-, yasyati sprudeln ... aw. yah- sieden ... phlv. jastan, jahet ... bel. LW. jihag entkommen ... Die Grundbedeutung der yes- ist sprudeln, kochen, sieden'."
+      },
+      {
+       "src": "HUB",
+       "where": "p. 50",
+       "stance": "contradicts",
+       "note": "'419-420 sind wegen der Bedeutung (suchen = kämpfen, springen = sieden) unsicher'."
+      },
+      {
+       "src": "CHEUNG",
+       "where": "s.v. *zgad (p. 473 f.)",
+       "stance": "contradicts",
+       "note": "'? NP jastan/jah- ... The old connection cited by Horn 1893: 94 for NP jastan/jah- is semantically implausible, cf. Hübschmann 1895: 50. Bailey suggested a connection with Av. zgad-'."
+      },
+      {
+       "src": "ARY",
+       "where": "ARY_pages.txt grep 'جستن|جهیدن'",
+       "stance": "silent",
+       "note": "no entry."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "lang": "Greek",
+     "words": "zein, zeein; ek-zema",
+     "verdict": "confirmed",
+     "derivation": "Ancient Greek zéō (infinitive zeîn, uncontracted Epic/Ionic zéein) 'to boil, seethe' < *yes-ō. PIE initial *y- gives Greek z- (Pokorny: 'gr. zéō (= yasati) cook, boil'; Wiktionary ζέω: 'From PIE *yes-'). ékzema 'a boiling out; cutaneous eruption' is ek- 'out' + zéma 'that which is boiled' (-ma noun suffix), from ekzéō 'boil out, break out'. It was used by the physician Aëtius of Amida (6th c.).",
+     "derivation_fa": "یونانی zéō (مصدر zeîn و صورت کهن‌تر zéein) به معنای «جوشیدن» از هندواروپایی *yes- است، و y- آغازین هندواروپایی در یونانی به z- بدل شده است. ékzema یعنی «بیرون‌جوشی، جوش پوستی» و از ek- «بیرون» و zéma «جوشیده» ساخته شده است. پوکورنی، کلاین و ویکی‌واژه این را تأیید می‌کنند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/ζέω",
+      "https://en.wiktionary.org/wiki/eczema"
+     ],
+     "ref_check": [
+      {
+       "ref": "KLN:1761",
+       "status": "supports",
+       "note": "KLN_1971.txt s.v. yeast: 'Gk. zein, to boil, zesis, foam ... All these words derive fr. I.-E. base *yes-'; s.v. eczema (KLN_1966 leaf 272): 'fr. Gk. ekzema, prop. something thrown out by heat, fr. ek and zema, that which is boiled, fr. I.-E. base *yes-'."
+      },
+      {
+       "ref": "POK:506",
+       "status": "supports",
+       "note": "POK p. 506: 'gr. zéō (= yasati) cook, boil, simmer, seethe ... zéma and zéra decoction'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "AHD",
+       "where": "yes-",
+       "stance": "supports",
+       "note": "'2. Greek zeein, zein, to boil: ECZEMA, ZEOLITE'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. eczema",
+       "stance": "supports",
+       "note": "as above."
+      },
+      {
+       "src": "WLD",
+       "where": "WP I 208 (via POK)",
+       "stance": "silent",
+       "note": "not re-read."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "lang": "French",
+     "words": "eczema",
+     "verdict": "confirmed",
+     "derivation": "Greek ékzema went into Modern (medical) Latin eczema (18th c.; English 1753). French eczéma is attested in medical French from the late 18th or early 19th century. The chart's French link is right as the intermediary for Persian, although strictly the word went Greek > New Latin > French.",
+     "derivation_fa": "یونانی ékzema نخست در سدهٔ هجدهم به لاتینی نوین پزشکی (eczema) راه یافت و از آنجا به فرانسوی eczéma رسید. فرانسوی میانجی ورود این واژه به فارسی است. ادعای نورایی درست است و تنها حلقهٔ لاتینی نوین در نمودار نیامده است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/eczema"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited by Nourai for this node."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. eczema",
+       "stance": "supports",
+       "note": "'Medical L., fr. Gk. ekzema'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt grep '^ECZEMA'",
+       "stance": "silent",
+       "note": "not in Skeat's concise dictionary OCR."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "lang": "Persian",
+     "words": "ekzemâ",
+     "verdict": "confirmed",
+     "derivation": "NP egzemā / ekzemā (اگزما / اکزما) 'eczema' is a modern medical loan from French eczéma (Mo'in: '[فر.] نوعی بیماری جلدی'). It came in with French-language medical teaching at the Dār al-Fonun and the Tehran medical school, late 19th to 20th century. Mo'in spells it with گ (اِ زِ), the book with ک; both spellings occur.",
+     "derivation_fa": "«اگزما / اکزما» وام‌واژه‌ای پزشکی از فرانسوی eczéma است. فرهنگ معین آن را با نشان [فر.] «نوعی بیماری جلدی» معنی کرده است. این واژه با آموزش پزشکی به زبان فرانسه در دوران قاجار و پهلوی به فارسی آمد. معین آن را با «گ» نوشته و کتاب با «ک»، و هر دو صورت رایج است. ادعای نورایی درست است.",
+     "sources": [
+      "https://abadis.ir/fatofa/اگزما/"
+     ],
+     "ref_check": [
+      {
+       "ref": "MON:331",
+       "status": "supports",
+       "note": "Mo'in's printed page cannot be mapped online. abadis.ir (فرهنگ معین) s.v. اگزما: '(اِ زِ) [فر.] (اِ.) نوعی بیماری جلدی ...' confirms the French origin."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1/2.txt grep 'اکزما|اگزما'",
+       "stance": "silent",
+       "note": "not found in the 2-vol abridgement OCR; online Mo'in (abadis) supports."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. eczema",
+       "stance": "supports",
+       "note": "source-language chain Gk. > Medical L."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "lang": "Swedish",
+     "words": "zeolit",
+     "verdict": "confirmed",
+     "derivation": "The Swedish mineralogist Axel Fredrik Cronstedt coined zeolit (New Latin zeolites) in 1756, from Greek zéō 'boil' + líthos 'stone'. He named it 'boiling stone' because the mineral froths and gives off steam when heated in a blowpipe flame, releasing its water of crystallisation. Zeolites are hydrated aluminosilicates, matching the chart's gloss.",
+     "derivation_fa": "زئولیت را کانی‌شناس سوئدی، آکسل فردریک کرونستِت، در سال ۱۷۵۶ با نام سوئدی zeolit (لاتینی نوین zeolites) نام‌گذاری کرد. این نام از یونانی zéō «جوشیدن» و líthos «سنگ» ساخته شده و به معنای «سنگ جوشان» است، چون این کانی هنگام گرم شدن آب درون خود را بیرون می‌دهد و گویی می‌جوشد. کلاین و ویکی‌واژه این را تأیید می‌کنند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/zeolite"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD:1488",
+       "status": "supports",
+       "note": "AHD 1976 p. 1488 is not online. The same root entry in AHD_watkins1985.txt line 1193: 'yes-. ... 2. Greek zeein, zein, to boil: ECZEMA, ZEOLITE. [Pok. jes- 506.]'"
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "KLN_1971.txt s.v. zeolite",
+       "stance": "supports",
+       "note": "'ModL. zeolites, lit. boiling stone, coined by the Swedish mineralogist Axel Fredric Cronstedt (1722-65) fr. Gk. zein, to boil, and lithos, stone ... so called by him because it swells up when heated'."
+      },
+      {
+       "src": "AHD",
+       "where": "yes-",
+       "stance": "supports",
+       "note": "'ZEOLITE'."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "lang": "French",
+     "words": "zeolite",
+     "verdict": "confirmed",
+     "derivation": "French zéolithe / zéolite was borrowed from Cronstedt's Swedish/New Latin term in 18th-century mineralogy (Wiktionary records Dutch and other borrowings 'from French zéolit(h)e').",
+     "derivation_fa": "فرانسوی zéolithe (zéolite) در کانی‌شناسی سدهٔ هجدهم از اصطلاح سوئدی و لاتینی نوین کرونستت گرفته شد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/zeolit",
+      "https://en.wiktionary.org/wiki/zeolite"
+     ],
+     "ref_check": [
+      {
+       "ref": "VOP:197",
+       "status": "not_checked",
+       "note": "VOP not accessible (refs_online: kind none)."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. zeolite",
+       "stance": "supports",
+       "note": "origin in Cronstedt's coinage."
+      },
+      {
+       "src": "DEV",
+       "where": "not applicable",
+       "stance": "silent",
+       "note": "French/Arabic sources are irrelevant (not an Arabism)."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "lang": "Persian",
+     "words": "zeolyt",
+     "verdict": "plausible",
+     "derivation": "NP zeolit (زئولیت) is a technical loan from French zéolite, the usual source of Persian mineral names in -it (compare grānit, bāzālt). The book's 'zeolyt' is Nourai's way of writing -it. I found no dictionary entry to check against, because Nourai's VOP is unavailable and Mo'in has no entry. The form is plausible and the term is in current use in Persian chemistry and geology.",
+     "derivation_fa": "«زئولیت» وام‌واژه‌ای علمی از فرانسوی zéolite است، همانند بسیاری از نام‌های کانی‌ها در فارسی که به «-یت» ختم می‌شوند (مانند «گرانیت»). منبع نورایی (VOP) در دسترس نیست و فرهنگ معین هم این واژه را ندارد. با این حال کاربرد آن در زمین‌شناسی و شیمی فارسی رایج است، پس ادعا پذیرفتنی است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/zeolite"
+     ],
+     "ref_check": [
+      {
+       "ref": "VOP:197",
+       "status": "not_checked",
+       "note": "VOP not accessible."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "MON",
+       "where": "MON_part1/2.txt grep 'زئولیت'",
+       "stance": "silent",
+       "note": "no entry."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. zeolite",
+       "stance": "supports",
+       "note": "the European source term."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "lang": "English",
+     "words": "zeolite",
+     "verdict": "confirmed",
+     "derivation": "English zeolite (1777) is borrowed from Swedish zeolit / New Latin zeolites (Wiktionary: 'From Swedish zeolit, and its source, New Latin zeolites, from Ancient Greek ζέω + -lite').",
+     "derivation_fa": "انگلیسی zeolite در سال ۱۷۷۷ از سوئدی zeolit و لاتینی نوین zeolites وام گرفته شد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/zeolite"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt yes-: 'Greek zeein, zein, to boil: ECZEMA, ZEOLITE'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. zeolite",
+       "stance": "supports",
+       "note": "'coined by ... Cronstedt'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt grep '^ZEOLITE'",
+       "stance": "silent",
+       "note": "not in Skeat."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "lang": "Germanic",
+     "words": "jest",
+     "verdict": "confirmed",
+     "derivation": "Proto-Germanic *jestuz / *jest- 'foam, yeast' (AHD: 'Germanic *jest- in Old English gist, yeast') is the s-stem noun from *yes- 'boil, ferment'. PIE *y- is kept as Germanic j-. Cognates are OHG jesan 'ferment', MHG jest/gest 'foam', German Gischt 'spray', ON jastr 'yeast' and Dutch gist. The chart's 'jest' is the Germanic stem, not an attested word.",
+     "derivation_fa": "ژرمنی آغازین *jestuz (*jest-) به معنای «کف، مایه» از ریشهٔ *yes- «جوشیدن، تخمیر شدن» است و y- هندواروپایی در ژرمنی به صورت j- مانده است. هم‌ریشه‌های آن آلمانی کهن jesan «تخمیر شدن»، آلمانی Gischt «کف موج» و هلندی gist «مایه» است. پوکورنی، فرهنگ امریکن هریتیج و کلاین این را تأیید می‌کنند و ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/yeast",
+      "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yes-"
+     ],
+     "ref_check": [
+      {
+       "ref": "AHD",
+       "status": "supports",
+       "note": "AHD_watkins1985.txt line 1193: 'yes-. To boil, foam, bubble. 1. Germanic *jest- in Old English gist, yeast: YEAST'."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "POK",
+       "where": "p. 506",
+       "stance": "supports",
+       "note": "'Old High German jesan ferment ... Old English gist (engl. yeast) scum, froth, foam, slobber, yeast. Middle Low German gest yeast'."
+      },
+      {
+       "src": "KLN",
+       "where": "s.v. yeast",
+       "stance": "supports",
+       "note": "'rel. to ON. jastr, Swed. jäst, Du. gist ... OHG. jesan'."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "lang": "English",
+     "words": "yeast",
+     "verdict": "confirmed",
+     "derivation": "English yeast < Middle English yest, yeest < Old English ġist / ġyst 'yeast, froth' < Proto-West Germanic *jestu < Proto-Germanic *jestuz (Wiktionary). OE ġ- before a front vowel was pronounced /j/, spelled y- from Middle English onward.",
+     "derivation_fa": "انگلیسی yeast «مایهٔ خمیر» از انگلیسی میانه yest و انگلیسی کهن ġist «کف، مایه» آمده است و آن از ژرمنی آغازین *jestuz. ġ- در انگلیسی کهن پیش از واکه‌های پیشین «ی» تلفظ می‌شد و بعدها y- نوشته شد. ادعای نورایی درست است.",
+     "sources": [
+      "https://en.wiktionary.org/wiki/yeast"
+     ],
+     "ref_check": [
+      {
+       "ref": "None",
+       "status": "not_checked",
+       "note": "No reference cited by Nourai for this node."
+      }
+     ],
+     "consulted": [
+      {
+       "src": "KLN",
+       "where": "s.v. yeast",
+       "stance": "supports",
+       "note": "'ME. yest, fr. OE. gist, giest ... fr. I.-E. base *yes-, to boil, seethe'."
+      },
+      {
+       "src": "SKT",
+       "where": "SKT.txt grep '^YEAST'",
+       "stance": "silent",
+       "note": "no hit in the OCR."
+      },
+      {
+       "src": "AHD",
+       "where": "yes-",
+       "stance": "supports",
+       "note": "'YEAST'."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

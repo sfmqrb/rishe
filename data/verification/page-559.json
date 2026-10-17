@@ -1,0 +1,504 @@
+{
+  "pdf_page": 559,
+  "book_page": 529,
+  "verified_by": "claude-opus-5.5",
+  "verified_on": "2026-10-16",
+  "entries": [
+    {
+      "entry": 0,
+      "root": "Xalen",
+      "verdict": "disputed",
+      "modern_form": "Arabic xalanj/xalen (خلنج) 'birch (wood)' as cited by Antaki; Chinese name is hua 樺; Persian xadang < Turkic (Proto-Turkic *kadïŋ 'birch')",
+      "note": "Nourai labels 'Xalen' as Chinese, citing Laufer (SIN 552). Laufer calls xalen the ARABIC name (from Antaki and Ibn al-Kabir) and gives the Chinese name as hwa (hua 樺). So the language label is wrong. Laufer does not derive the Altaic birch word from Chinese. He says that both the Arabic and the Persian words come from Altaic. The arrow Chinese -> Altaic therefore has no support. The gloss 'birch' and the cultural note (north China, Tabarestan, wood exported) do match Laufer. The extraction matches the printed page.",
+      "note_fa": "نورایی «Xalen» را واژه‌ای چینی به معنای «درخت غان (توس)» گرفته و به لاوفر (Sino-Iranica ص ۵۵۲) ارجاع داده است. لاوفر xalen (خلنج) را نام عربی این درخت می‌داند، به نقل از انطاکی، و نام چینی آن را hwa (樺) می‌نویسد. به گفتهٔ او واژهٔ عربی و واژهٔ فارسی «خدنگ» هر دو از زبان‌های آلتایی آمده‌اند. پس برچسب «چینی» نادرست است و پیکان چینی ← آلتایی در منبع خود نورایی پشتوانه‌ای ندارد. معنا و یادداشت فرهنگی (رواج درخت در شمال چین و طبرستان) درست است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/خدنگ",
+        "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/kadïŋ"
+      ],
+      "ref_check": [
+        {
+          "ref": "SIN:552",
+          "status": "contradicts",
+          "note": "SIN.txt leaves 380-381 (pp. 552-553), §16 'Birch': 'Antaki notes the xalen tree (\"birch\") in India and China ... The Arabic xalen, Persian xadan or xadanj, is of Altaic origin: Uigur qadan, Koibal, Soyot and Karagas kaden, Cuwas xoran, Yakut xatyn ... all referring to the birch (Betula alba). It is a common tree in the mountains of northern China (hwa ...)'. Laufer gives xalen as Arabic, not Chinese. The Chinese word is hwa."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "KLN",
+          "where": "KLN_1966.txt s.v. galingale (grep 'khalanj')",
+          "stance": "silent",
+          "note": "only Arab. khalanjān 'galingale' < Chin. 'Ko-leung-keung'. That is a different word; nothing on xalen 'birch'."
+        },
+        {
+          "src": "BQT",
+          "where": "BQT_v2_pages.txt line ~10316/10337 s.v. خدنگ",
+          "stance": "silent",
+          "note": "'نام درختی است بسیار سخت که از چوب آن نیزه و تیر و زین...'; Mo'in fn: 'معرب آن خدنك = peuplier blanc (فر.) دزی ج۱ ص۵۵۳'. No Chinese source word."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Altaic",
+          "words": "",
+          "verdict": "confirmed",
+          "derivation": "Empty pass-through node for the Altaic (Turkic) birch word. Laufer lists Uighur qadan, Koibal/Soyot/Karagas kaden, Chuvash xoran and Yakut xatyn. Modern reconstruction is Proto-Turkic *kadïŋ 'birch tree' (Wiktionary). The Altaic source itself is well founded, but it does not derive from a Chinese 'xalen' as the chart's arrow implies.",
+          "derivation_fa": "این گره بی‌واژه، صورت آلتایی (ترکی) نام درخت غان را نشان می‌دهد: اویغوری qadan، یاقوتی xatyn، چوواشی xoran. ترکی آغازین آن را *kadïŋ «درخت غان» بازسازی کرده‌اند. خاستگاه آلتایی درست است، ولی این واژه از «Xalen» چینی نیامده است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/kadïŋ"
+          ],
+          "ref_check": [
+            {
+              "ref": "SIN:553",
+              "status": "supports",
+              "note": "SIN.txt leaves 380-381 (pp. 552-553), §16 'Birch': 'Antaki notes the xalen tree (\"birch\") in India and China ... The Arabic xalen, Persian xadan or xadanj, is of Altaic origin: Uigur qadan, Koibal, Soyot and Karagas kaden, Cuwas xoran, Yakut xatyn ... all referring to the birch (Betula alba). It is a common tree in the mountains of northern China (hwa ...)'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "TTS",
+              "where": "incoming/TTS (grep qadin/kadin)",
+              "stance": "silent",
+              "note": "grep for qadin/kadin/qadıŋ found no usable entry in the OCR."
+            },
+            {
+              "src": "LKT",
+              "where": "LKT.txt (grep xadang/chadeng)",
+              "stance": "silent",
+              "note": "no entry for the birch word."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "xadang",
+          "verdict": "plausible",
+          "derivation": "Persian xadang خدنگ means 'a very hard wood (birch/white poplar); arrow made of it'. Laufer records the variants xadan/xadanj. Wiktionary (Etymology 2) says it is 'possibly borrowed from Turkic, ultimately from Proto-Turkic *kadïŋ birch'. Turkic initial q-/k- was rendered by Persian x-, and final -ŋ by -ng. The word is well attested in classical poetry, e.g. Ferdowsi's 'به پیکان پولاد و تیر خدنگ' (the chart's quote). The Turkic loan is accepted with a 'possibly', and Mo'in gives no etymology, so the verdict is plausible.",
+          "derivation_fa": "«خدنگ» (xadang) در فارسی نام چوبی بسیار سخت است که از آن تیر و نیزه و زین می‌ساختند، و به خود تیر نیز گفته می‌شود. معین آن را «سپیدار» (peuplier blanc) معنا کرده است. لاوفر صورت‌های xadan و xadanj را آورده و آن را آلتایی دانسته است. ویکی‌واژه نیز آن را «احتمالاً» وام‌واژه‌ای از ترکی می‌داند، از ترکی آغازین *kadïŋ «غان». در این وام‌گیری q/k آغازی ترکی به «خ» و ŋ پایانی به «نگ» بدل شده است. این ریشه‌شناسی با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/خدنگ"
+          ],
+          "ref_check": [
+            {
+              "ref": "SIN:553",
+              "status": "supports",
+              "note": "SIN.txt leaves 380-381 (pp. 552-553), §16 'Birch': 'Antaki notes the xalen tree (\"birch\") in India and China ... The Arabic xalen, Persian xadan or xadanj, is of Altaic origin: Uigur qadan, Koibal, Soyot and Karagas kaden, Cuwas xoran, Yakut xatyn ... all referring to the birch (Betula alba). It is a common tree in the mountains of northern China (hwa ...)'."
+            },
+            {
+              "ref": "BQT:719",
+              "status": "partial",
+              "note": "BQT_v2_pages.txt ~line 10316: 'خدنگ ... نام درختی است بسیار سخت که از چوب آن نیزه و تیر و زین...'; fn 1: 'معرب آن خدنك = peuplier blanc (فر.) دزی ج۱ ص۵۵۳'. Confirms the meaning; gives no Altaic etymology. (ref_page.py: no scan mapped for printed p.719; located through the OCR text.)"
+            },
+            {
+              "ref": "FSF:158",
+              "status": "partial",
+              "note": "FSF_pages.txt line ~10310: 'خدنگ (با زبر اول و دوم) ۱- نوعی چوب گز بسیار سخت و هموار که از آن تیر و نیزه و زین اسب سازند'. Gloss only, no etymology."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 2 s.v. خدنگ (BQT_v2_pages.txt ~10316)",
+              "stance": "partial",
+              "note": "'درختی است بسیار سخت'. Mo'in: Arabicized خدنك, Dozy 'peuplier blanc'."
+            },
+            {
+              "src": "FSF",
+              "where": "FSF_pages.txt ~10310",
+              "stance": "partial",
+              "note": "'نوعی چوب گز بسیار سخت'."
+            },
+            {
+              "src": "HRN",
+              "where": "HRN.txt (grep xadang)",
+              "stance": "silent",
+              "note": "no entry."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt (grep خدنگ)",
+              "stance": "silent",
+              "note": "not listed. The word is not Indo-European."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "root": "Xšad",
+      "verdict": "plausible",
+      "modern_form": "Proto-Iranian *xšad- 'to have mercy, forgive' (Cheung 2007), with preverb *apa-",
+      "note": "Cheung reconstructs *xšad 'to have mercy, grace, forgive (< to cleanse, clear of ?)', MP abaxšāy-, Parth. ʾxšd 'mercy', ʾbxšʾh-, and says 'the root appears to be exclusively Iranian'. It is not attested as a verb in Avestan or Old Persian, so the label 'Avestan / Old Persian' presents a reconstruction as attested. Abolghasemi (FFD 35) calls the root hypothetical (فرضی). Cheung and FFD also explain the chart's NOTE: NP baxšūdan 'forgive' and baxšīdan 'give' (< *baxš-, PIE *bʰeh₂g-) were contaminated with each other. Modern scholarship sides with Nourai's note. The extraction matches the page; the note's 'baxšŭdan' is baxšūdan بخشودن.",
+      "note_fa": "ریشهٔ *xšad- «بخشودن، رحم کردن» را چونگ برای ایرانی آغازین بازسازی کرده است. او پهلوی abaxšāy- و پارتی ʾbxšʾh- را از آن، با پیشوند apa-، می‌داند و می‌گوید این ریشه تنها در زبان‌های ایرانی دیده می‌شود. ابوالقاسمی نیز آن را «فرضی» می‌خواند. این ریشه در اوستا و پارسی باستان به صورت فعل گواهی نشده است، پس برچسب «اوستایی/پارسی باستان» دقیق نیست. ادعای نورایی در کلیت با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/بخشودن",
+        "https://en.wiktionary.org/wiki/بخشیدن"
+      ],
+      "ref_check": [
+        {
+          "ref": "FFD:35",
+          "status": "supports",
+          "note": "FFD_pages.txt pdf page 40 (= p.35) s.v. بخشودن: 'بخشای < فارسی میانه abaxšāy < ایرانی باستان *apa-xšād-... apa پیشوند فعلی است. ریشهٔ xšād فرضی است' (Latin OCR garbled). Root and prefix as in the chart."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "CHEUNG",
+          "where": "CHEUNG.txt line 29091",
+          "stance": "supports",
+          "note": "'*xšad ‘to have mercy, grace, forgive (< to cleanse, clear of ?)’ ... (+ *apa-) MMP ’bxš’y-, BMP ’phš’d- /abaxšāy-/ ... The root appears to be exclusively Iranian.'"
+        },
+        {
+          "src": "BRT",
+          "where": "BRT.txt (grep xšad)",
+          "stance": "silent",
+          "note": "no Avestan verb xšad- 'forgive' found."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Avestan / Old Persian",
+          "words": "apa-xšad-a",
+          "verdict": "plausible",
+          "derivation": "apa-xšad-a is the reconstructed Old Iranian present stem *apa-xšāda- (preverb apa- 'away' + *xšad 'clear, forgive'). It underlies MP abaxšāy- and Parthian ʾbxšʾh-, and the Armenian loan apašxarem 'I repent' is linked to it (Wiktionary; Nyberg disputes the Armenian link). The form is not attested in any Avestan or Old Persian text, so it should carry an asterisk.",
+          "derivation_fa": "apa-xšad-a صورتی بازسازی‌شده است (*apa-xšāda-)، از پیشوند apa- «دور، باز» و ریشهٔ *xšad «بخشودن». پهلوی abaxšāy- و پارتی ʾbxšʾh- از همین صورت آمده‌اند. ولی این صورت در متن‌های اوستایی و پارسی باستان دیده نمی‌شود و باید ستاره‌دار نوشته شود. ادعا با احتیاط پذیرفتنی است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/بخشودن"
+          ],
+          "ref_check": [
+            {
+              "ref": "FFD:35",
+              "status": "supports",
+              "note": "FFD p.35 s.v. بخشودن: 'ایرانی باستان *apa-xšād- ... apa پیشوند فعلی است. ریشهٔ ... فرضی است'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "line 29091-29110",
+              "stance": "supports",
+              "note": "'(+ *apa-) ... /abaxšāy-/ ‘to forgive, have pity, mercy’'. Lists no Avestan form."
+            },
+            {
+              "src": "BRT",
+              "where": "BRT.txt (grep apaxš/xšad)",
+              "stance": "silent",
+              "note": "no Avestan apa-xšad- found."
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt line 601 s.v. apoxšāyišn",
+              "stance": "partial",
+              "note": "'apo- < apa- ... [Arm. lw. apasxar-em < *apa-xšād- is not akin]'. Assumes apa- + xšāy-."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Pahlavi",
+          "words": "abaxšay, abaxšâyîd",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian abaxšāy- (present stem) and abaxšāyīdan 'to forgive, have mercy on' (Book Pahlavi ʾp̄hšʾd-, Manichaean ʾbxšʾy-) come from *apa-xšāya-. Intervocalic -p- voiced to -b-, and *-xš- was kept. abaxšāyīdan is a secondary past stem built on the present stem with -īd-. The chart's 'abaxšâyîd' is that past stem.",
+          "derivation_fa": "پهلوی abaxšāy- (ستاک حال) و abaxšāyīdan «بخشودن، رحم آوردن» از *apa-xšāya- آمده‌اند. «پ» میان دو واکه به «ب» بدل شده است. abaxšāyīd ستاک ماضی ساختگی است که از ستاک حال ساخته شده. مکنزی و نیبرگ هر دو این صورت را آورده‌اند و ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/بخشودن"
+          ],
+          "ref_check": [
+            {
+              "ref": "FFD:35",
+              "status": "supports",
+              "note": "FFD p.35: 'در فارسی میانه به جای «بخشود» abaxšāyīd آمده است ... مادهٔ ماضی جعلی ... بخشای < فارسی میانه abaxšāy'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.5 (PHD.txt line 164)",
+              "stance": "supports",
+              "note": "'abaxšāyīdan, abaxšāy- ['phšʾd-ytn' | M ʾbxšʾy-, N baxšūdan, baxšāy-] forgive, have mercy on. ~išn: mercy, forgiveness.'"
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary, line 601 s.v. apoxšāyišn",
+              "stance": "supports",
+              "note": "'apoxšāyišn ['pwhšʾdšn'] compassion, mercy ... Ps. pres. ʾphšʾd- ... NP baxšūdan, baxšā'īdan, baxšāy-, baxšāyiš'."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "line 29093",
+              "stance": "supports",
+              "note": "'BMP ’phš’d- /abaxšāy-/ ‘to forgive, have pity, mercy’'."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "Persian",
+          "words": "baxšîdan",
+          "verdict": "plausible",
+          "derivation": "The regular New Persian reflex of MP abaxšāy-/abaxšāyīdan is baxšāy-/baxšāyīdan, with loss of the initial a-. A newer past stem baxšūdan arose by analogy with farmūdan/farmāy- (FFD; Wiktionary). The extras بخشای، بخشاینده، بخشایش belong to this verb. baxšīdan 'to give, divide' and baxšande 'giver' come from the different root *baxš- (PIE *bʰeh₂g-, cf. baxt), which was later used in the sense 'forgive' through contamination (Cheung; FFD 36). The chart's headword baxšīdan 'to forgive' is therefore secondary. Its NOTE about the confusion matches modern scholarship.",
+          "derivation_fa": "بازماندهٔ درست پهلوی abaxšāy- در فارسی دری «بخشای-» و «بخشاییدن» است. آغازه a- در آن افتاده است. «بخشود(ن)» ستاک ماضی تازه‌ای است که به قیاس «فرمود/فرمای» ساخته شده. «بخشای، بخشاینده، بخشایش» از همین فعل‌اند. ولی «بخشیدن» به معنای «دادن، تقسیم کردن» و «بخشنده» از ریشهٔ دیگری‌اند (*baxš-، هندواروپایی *bʰeh₂g-، هم‌ریشه با «بخت»). این دو فعل از راه همانندی آوایی با هم آمیخته‌اند، چنان‌که چونگ و ابوالقاسمی گفته‌اند. پس «بخشیدن» در معنای «عفو کردن» کاربردی ثانوی است و یادداشت خود نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/بخشودن",
+            "https://en.wiktionary.org/wiki/بخشیدن"
+          ],
+          "ref_check": [
+            {
+              "ref": "FFD:35",
+              "status": "partial",
+              "note": "FFD p.35 treats this under بخشودن, not بخشیدن: '«بخشود» در فارسی دری به قیاس ... به وجود آمده است'. p.36 s.v. بخشیدن: 'بخش < فارسی میانه baxš < ایرانی باستان *bag-s- ... به سبب شباهت لفظی که میان «بخشودن» به معنی «عفو کردن» و «بخشیدن» به معنی «تقسیم کردن» هست، «بخشیدن» در معنی «بخشودن» به کار رفته است'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "line 29102-29106",
+              "stance": "partial",
+              "note": "'NP baxšūdan, baxšīdan/baxš- ... is contaminated with the root *baHxš, cf. ... Horn 1893: 43 f.'"
+            },
+            {
+              "src": "HRN",
+              "where": "nos. 186 / 186bis (HRN.txt line 2032-2038)",
+              "stance": "partial",
+              "note": "186 'baxšīden schenken' < aw. baxš-; 186bis 'baxšūden (*buxšūden) gnädig sein, verzeihen, Praes. baxšāy-em'. Horn keeps the two verbs apart."
+            },
+            {
+              "src": "ARY",
+              "where": "pdf page 114 (p.115) 'بخش، بخشیدن، بخشش'",
+              "stance": "partial",
+              "note": "puts بخشیدن under PIE *bhag- ('بازگشت به \"بخت\"'), i.e. the 'give' verb, not the xšad root."
+            },
+            {
+              "src": "PHD",
+              "where": "p.5 s.v. abaxšāyīdan",
+              "stance": "partial",
+              "note": "'N baxšūdan, baxšāy-'. Gives baxšūdan, not baxšīdan, as the NP reflex."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "root": "Xšarta",
+      "verdict": "disputed",
+      "modern_form": "Iranian *fšar- 'to press (out)' with preverb *apa- (Cheung 2007); IE origin unknown",
+      "note": "The root *xšarta- 'press' comes from Bailey's 1937 Khotanese note (BLY 75; the OCR is garbled). Cheung files MP apšār-/afsārdan, NP afšurdan/afšār-, fišurdan, afšure under *fšar(?) 'to press', + *apa-. Hübschmann says the etymology of afšurdan 'auspressen' is unknown. The chart's root is also hard to square with the sounds: *apa-xšar- would give MP *abaxšār- (compare abaxšāy- in the preceding chart), not afšār-. The f of afšār- points to *apa-fšar- (pf > f). Modern scholarship therefore prefers *fšar-.",
+      "note_fa": "نورایی ریشهٔ «افشردن» را ایرانی باستان *xšarta- «فشردن» می‌گیرد، به پیروی از بیلی (۱۹۳۷). چونگ این خانواده (پهلوی apšār-، فارسی افشردن/افشار-، فشردن، افشره) را زیر ریشهٔ ایرانی *fšar- «فشردن» با پیشوند apa- آورده است. هوبشمان ریشهٔ «افشردن» را ناشناخته می‌داند. از نظر آوایی هم *apa-xšar- در پهلوی به *abaxšār- می‌انجامید، همان‌گونه که از apa-xšāy- صورت abaxšāy- پدید آمد، نه به afšār-. پس پژوهش امروزی ریشهٔ *fšar- را ترجیح می‌دهد.",
+      "sources": [],
+      "ref_check": [
+        {
+          "ref": "BLY:75",
+          "status": "supports",
+          "note": "incoming/BLY/BLY_pages.txt ~line 398-406 (p.75, s.v. kṣ...): garbled OCR '*Xšarta- ... Mid. Pers. afšart ... NPers. afšurd shows umlaut ... press'. Bailey posits *xšart- 'press' with MP/NP afšurd-."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "CHEUNG",
+          "where": "CHEUNG.txt line 6985-7005, s.v. *fšar",
+          "stance": "contradicts",
+          "note": "'*fšar ? ‘to prepare and press an intoxicating drink ?’ ... (+ *apa-) BMP ’psʾr- /apšār-/ ‘to press (out)’ ... NP fišurdan/fišar-, afšurdan/afšar- ... NP afšurah ‘pressed (fruit) juice’ ... An IE origin is unknown'."
+        },
+        {
+          "src": "HUB",
+          "where": "HUB.txt line 5125",
+          "stance": "contradicts",
+          "note": "'Ob afšurdan ‘auspressen’ : pr. afšāram Muster oder Analogiebildung ist, lässt sich nicht bestimmen, da die Etymologie unbekannt ist.'"
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "afsârtan, aššârdan",
+          "verdict": "transcription_suspect",
+          "error_in": "book",
+          "book_prints": "afsârtan, aššârdan",
+          "correct_form": "afšurdan, afšār- / afšārdan",
+          "derivation": "MacKenzie (PHD 5) gives MP afšurdan, afšār- 'press, compress, crush' and afšārdan (= afšurdan), from *apa-(f)šar-. The chart's 'afsârtan' matches MacKenzie's afsārdan, which means 'cool, freeze' (Hübschmann: Pahl. afsart 'frozen', from the root of sard 'cold'). Cheung, however, reads the ambiguous Book Pahlavi spelling ʾpsʾr- as /apšār-/ 'press', so this first word is defensible as a reading. 'aššârdan' is not a known form. The printed page shows it exactly so (the extraction is faithful), and it is evidently Nourai's misprint for afšārdan.",
+          "derivation_fa": "مکنزی در پهلوی afšurdan، afšār- «فشردن، له کردن» و afšārdan را آورده است، از *apa-(f)šar-. «afsârtan» در نمودار به afsārdan در فرهنگ مکنزی می‌ماند که به معنای «سرد کردن، فسردن» است. البته چونگ همین نگارش پهلوی (ʾpsʾr-) را apšār- «فشردن» خوانده است. ولی «aššârdan» صورتی ناشناخته است. در صفحهٔ چاپی هم همین آمده، پس خطای چاپی کتاب است، به جای afšārdan، نه خطای خوانش اسکن.",
+          "sources": [],
+          "ref_check": [
+            {
+              "ref": "PHD:5",
+              "status": "partial",
+              "note": "PHD.txt line 164 (p.5): 'afšārdan ['pšʾlšn'] = afšurdan. afšurdan, afšār- [ʾpšwltn',ʾpšʾl- | N ~] press, compress, crush'. Also 'afsārdan, afsār- [ʾpsʾl-tn'] cool, freeze, extinguish'. MacKenzie has afšārdan/afšurdan, not 'aššârdan', and his afsārdan means 'freeze'."
+            },
+            {
+              "ref": "BLY:75",
+              "status": "partial",
+              "note": "BLY_pages.txt ~line 402-406: 'Mid. Pers. afšart ... NPers. afšurd ... press' (garbled). Bailey's MP form is afšart, not aššârdan."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "p.5",
+              "stance": "partial",
+              "note": "'afšurdan, afšār- press, compress, crush'; 'afsārdan ... cool, freeze'."
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt (grep afš/apš)",
+              "stance": "silent",
+              "note": "no entry for afšurdan found."
+            },
+            {
+              "src": "CHEUNG",
+              "where": "line 6989-6991",
+              "stance": "supports",
+              "note": "'BMP ’psʾr- /apšār-/ ‘to press (out)’ ... Inf.: BMP ’psʾltn /afsārdan/'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "afšârdan; fešâr; afšoreh",
+          "verdict": "confirmed",
+          "derivation": "NP afšordan/afšārdan (present stem afšār-) continues MP afšurdan/afšār-. fešordan is the form with the initial a- lost (aphaeresis), and fešār 'pressure' is the bare present stem used as a noun. afšore 'pressed juice' is the past stem + -a. Cheung lists exactly 'NP fišurdan/fišar-, afšurdan/afšar- ... NP afšurah ‘pressed (fruit) juice’', with the Arabic loan afšaraj 'juice'. The MP -> NP step is secure; only the deeper root (see entry note) is disputed.",
+          "derivation_fa": "«افشردن/افشاردن» (ستاک حال «افشار») بازماندهٔ پهلوی afšurdan/afšār- است. «فشردن» همان واژه است که واکهٔ آغازی‌اش افتاده. «فشار» ستاک حال است که به جای اسم به کار رفته، و «افشره» از ستاک ماضی و پسوند «-ه» ساخته شده است. چونگ همهٔ این صورت‌ها را آورده است. گذر پهلوی ← فارسی درست است و تنها ریشهٔ کهن‌تر محل بحث است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/فشار",
+            "https://en.wiktionary.org/wiki/افشردن"
+          ],
+          "ref_check": [
+            {
+              "ref": "BLY:75",
+              "status": "partial",
+              "note": "BLY_pages.txt ~line 404: 'NPers. afšurd ... press' (garbled OCR). Mentions only the verb, not fešār/afšore."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "CHEUNG",
+              "where": "line 6996-6999",
+              "stance": "supports",
+              "note": "'NP fišurdan/fišar-, afšurdan/afšar- ... NP afšurah ‘pressed (fruit) juice’ ... Arab. (LW) afšaraj ‘juice’'."
+            },
+            {
+              "src": "HUB",
+              "where": "line 5125",
+              "stance": "partial",
+              "note": "'afšurdan ‘auspressen’ ... Etymologie unbekannt'."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt (grep افشرد/فشرد)",
+              "stance": "silent",
+              "note": "no headword entry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry": 6,
+      "root": "Xšî 1, Xšaivan",
+      "verdict": "plausible",
+      "modern_form": "Avestan xšī- f. 'distress, misery' (Bartholomae 554); Proto-Iranian *xšai- 'to lament, weep' (Wiktionary); *xšaivana- reconstructed",
+      "note": "Avestan xšī- 'Not, Elend' is real (Y.31.20, Y.71.17; Bartholomae col. 554). 'Xšaivan' is a reconstruction (Mo'in: 'ایرانی باستان *xshaivan'), not an attested Avestan or Old Persian word. Wiktionary derives MP šēwan from Proto-Iranian *xšai- 'lament, weep' and adds 'further connections unclear'. The chart follows Mo'in's footnote in BQT 1329 exactly.",
+      "note_fa": "اوستایی xšī- «تنگی، بدبختی» واژه‌ای گواهی‌شده است (بارتولومه، ستون ۵۵۴، یسنا ۳۱.۲۰). ولی xšaivan صورتی بازسازی‌شده است که معین در حاشیهٔ برهان آورده، نه واژه‌ای اوستایی یا پارسی باستان. ویکی‌واژه «شیون» را از پهلوی šēwan و ایرانی آغازین *xšai- «زاری کردن» می‌داند و پیوندهای دورتر را روشن نمی‌داند. ادعای نورایی با احتیاط پذیرفتنی است.",
+      "sources": [
+        "https://en.wiktionary.org/wiki/شیون"
+      ],
+      "ref_check": [
+        {
+          "ref": "BQT:1329",
+          "status": "supports",
+          "note": "incoming/BQT/BQT_v3_pages.txt line ~9354 ([pdf page 122]; ref_page.py's offset guess of pdf 124 lands on ص, off by 2), fn 2 to شیون: 'پهلوی shivan (shévan، باروچا) ، ایرانی باستان *xshaivan ، اوستا xšī (بدبختی، فقر، احتیاج) «بارتولمه» ...'."
+        }
+      ],
+      "consulted": [
+        {
+          "src": "BRT",
+          "where": "col. 554 (BRT.txt line 10855)",
+          "stance": "supports",
+          "note": "'xšī- f. ‘Not, Elend’: ... Y.31.20; ... xšayasča Y.71.17 ... Pü.: ... ‘Jammern’'."
+        },
+        {
+          "src": "HUB",
+          "where": "HUB.txt (grep šēvan)",
+          "stance": "silent",
+          "note": "not found."
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "lang": "Pahlavi",
+          "words": "šěvan",
+          "verdict": "confirmed",
+          "derivation": "Middle Persian šēwan [šywn'] 'lament, lamentation' comes from *xšaiwana- (root *xšai- plus the action-noun suffix -ana-). Old Iranian xš- became š- in Middle Persian, and the diphthong *ai became ē. Pazand šīna < *šēvanak is a related form.",
+          "derivation_fa": "پهلوی šēwan «شیون، زاری» از *xšaiwana- آمده است (ریشهٔ *xšai- و پسوند اسم‌ساز -ana-). در فارسی میانه xš- آغازی ایرانی باستان به š- و واکهٔ مرکب ai به ē بدل شده است. مکنزی و نیبرگ هر دو این واژه را آورده‌اند و ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/شیون"
+          ],
+          "ref_check": [
+            {
+              "ref": "None",
+              "status": "not_checked",
+              "note": "the chart gives no reference for this node."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "PHD",
+              "where": "PHD.txt line 583 (s.v. šēwan)",
+              "stance": "supports",
+              "note": "'šēwan [šywn' | N ~] lament.'"
+            },
+            {
+              "src": "NYB",
+              "where": "NYB_vol2_glossary.txt line 3634",
+              "stance": "supports",
+              "note": "'šēvan [šywn'] lamentation 86²⁰. — Paz. šīna < *šēvanak; NP šīvan'."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "Persian",
+          "words": "šîvan",
+          "verdict": "confirmed",
+          "derivation": "NP šīvan شیون 'wailing, lament' continues MP šēwan. Classical Persian had šēwan with majhul ē (BQT: 'با یای مجهول'), which merged with ī in Iranian Persian, giving šīvan. Intervocalic w became v.",
+          "derivation_fa": "«شیون» در فارسی نو بازماندهٔ پهلوی šēwan است. در فارسی کلاسیک با «یای مجهول» (ē) تلفظ می‌شد، چنان‌که برهان می‌گوید، و در فارسی امروز ایران ē به ī بدل شده است. برهان قاطع آن را «ناله و افغانی که در هنگام محنت و مصیبت کنند» معنا می‌کند. ادعای نورایی درست است.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/شیون"
+          ],
+          "ref_check": [
+            {
+              "ref": "BQT:1329",
+              "status": "supports",
+              "note": "BQT_v3_pages.txt line 9325-9327 ([pdf page 122]): 'شیون - با یای مجهول بر وزن ... ناله و افغان را گویند که در هنگام محنت و مصیبت کنند'; fn: 'پهلوی shivan (shévan) ... ایرانی باستان *xshaivan ...'."
+            }
+          ],
+          "consulted": [
+            {
+              "src": "BQT",
+              "where": "vol. 3 p.1329",
+              "stance": "supports",
+              "note": "headword + Mo'in footnote as above."
+            },
+            {
+              "src": "NYB",
+              "where": "Glossary line 3634",
+              "stance": "supports",
+              "note": "'NP šīvan'."
+            },
+            {
+              "src": "ARY",
+              "where": "ARY_pages.txt (grep شیون)",
+              "stance": "silent",
+              "note": "no entry."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
