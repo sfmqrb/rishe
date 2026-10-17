@@ -1,0 +1,252 @@
+{
+ "pdf_page": 36,
+ "book_page": 6,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "agāru",
+    "lang": "Akkadian",
+    "gloss": "to hire",
+    "change": "kept",
+    "why": "",
+    "why_fa": ""
+   },
+   "summary": "The Semitic branch (Akkadian agāru > Syriac ʾegar > Arabic ʾajara > Persian ejâre, ojrat, ajr) stands; the Arabic verb is respelled with hamza. The Greek angelos/evangelion branch is detached: modern scholarship (Beekes, Tavernier) does not derive it from agāru 'to hire'.",
+   "summary_fa": "شاخهٔ سامیِ نمودار (اکدی agāru ← سریانی ʾegar ← عربی أجَرَ ← فارسی اجاره، اجرت، اجر) درست است و تنها فعل عربی با همزه نوشته شده است. شاخهٔ یونانیِ ἄγγελος و εὐαγγέλιον جدا شده، چون پژوهش امروزی (بیکس، تاورنیه) آن را از agāru «اجیر گرفتن» نمی‌داند.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Syriac",
+     "from_node": 1,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ʾegar",
+       "gloss": "to hire",
+       "script": null
+      },
+      {
+       "translit": "ʾăgīrā",
+       "gloss": "hireling",
+       "script": null
+      },
+      {
+       "translit": "ʾagrā",
+       "gloss": "wage, reward",
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty Syriac box is filled with the forms modern sources name: Syriac ʾegar 'to hire', ʾăgīrā 'hireling' and ʾagrā 'wage'. Jeffery and Zimmern make Syriac/Aramaic the donor to Arabic.",
+     "why_fa": "جعبهٔ تهیِ سریانیِ نورایی با صورت‌هایی پر شده که در بررسی آمده‌اند: سریانی ʾegar «اجیر گرفتن»، ʾăgīrā «مزدور» و ʾagrā «مزد». جفری و تسیمرن همین سریانی/آرامی را وام‌دهنده به عربی می‌دانند."
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Arabic",
+     "from_node": 2,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ʾajara",
+       "gloss": "he hired, he paid wages",
+       "script": "أَجَرَ"
+      }
+     ],
+     "why": "The verb is ʾajara with hamza (root ʾ-j-r), not ʿayn; the printed 'a`jara' confuses the two. Zimmern and Klein both write it with hamza.",
+     "why_fa": "فعل أَجَرَ با همزه است (ریشهٔ ء‑ج‑ر) نه با عین؛ صورت «a`jara» این دو را با هم درآمیخته است. تسیمرن و کلاین هر دو آن را با همزه می‌نویسند."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ejâre",
+       "gloss": "rent",
+       "script": "اجاره"
+      },
+      {
+       "translit": "ojrat",
+       "gloss": "wage",
+       "script": "اجرت"
+      },
+      {
+       "translit": "ajr",
+       "gloss": "reward",
+       "script": "اجر"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 4,
+     "words": "angelos, eu-angelos, evangelion",
+     "belongs_to": "an Oriental loan in Greek: Beekes and Tavernier take ἄγγαρος/ἄγγελος from Old Persian *angara- 'missive' < Aramaic *ʾiggartā < Akkadian egirtu 'letter'; Watkins says unknown source",
+     "why": "The link to agāru 'to hire' comes from Zimmern, Jeffery and Klein and is now largely abandoned. Current scholarship derives the word from a different Akkadian word, egirtu 'tablet, letter', by way of Old Persian. The gloss 'hired messenger' is a reconstruction; no Greek text has that sense.",
+     "why_fa": "پیوند با agāru «اجیر گرفتن» از تسیمرن و جفری و کلاین است و امروز تقریباً کنار گذاشته شده؛ پژوهش امروزی واژه را از واژهٔ اکدیِ دیگری، egirtu «لوح، نامه»، و از راه پارسی باستان می‌گیرد. معنای «پیک مزدور» نیز بازسازی است و در یونانی گواهی ندارد."
+    },
+    {
+     "from_node": 5,
+     "under": 4,
+     "words": "Angelyŭn «انگلیون»",
+     "belongs_to": "Greek εὐαγγέλιον via Syriac ʾewwangelyōn",
+     "why": "Same origin as its parent. The word came into Persian through Syriac ʾewwangelyōn (Manichaean and Christian usage), not straight from Greek; the -yūn ending shows this.",
+     "why_fa": "هم‌خاستگاه پدرش است؛ از راه سریانی ʾewwangelyōn (کاربرد مانوی و مسیحی) به فارسی رسیده نه مستقیم از یونانی، و پایانهٔ -یون گواه آن است."
+    },
+    {
+     "from_node": 6,
+     "under": 4,
+     "words": "enjîl",
+     "belongs_to": "Greek εὐαγγέλιον, probably via Ethiopic wangēl (Nöldeke) or Syriac",
+     "why": "Same origin as its parent. Nöldeke takes Arabic ʾinjīl from Ethiopic wangēl, because the word has lost the -ion ending.",
+     "why_fa": "هم‌خاستگاه پدرش است؛ نُلدکه إنجیل عربی را، چون پایانهٔ -ion را از دست داده، از حبشی wangēl می‌داند."
+    },
+    {
+     "from_node": 7,
+     "under": 6,
+     "words": "enjîl «انجیل»",
+     "belongs_to": "Arabic ʾinjīl",
+     "why": "Same origin as its parent; Mo'in marks it as arabicized.",
+     "why_fa": "هم‌خاستگاه پدرش است؛ معین آن را معرّب می‌داند."
+    },
+    {
+     "from_node": 8,
+     "under": 4,
+     "words": "angel, Los Angeles, Evangelical",
+     "belongs_to": "Greek ἄγγελος / εὐαγγελικός via Latin angelus, evangelicus",
+     "why": "Same origin as its parent; the words do come from the Greek node, through Latin.",
+     "why_fa": "هم‌خاستگاه پدرش است؛ این واژه‌ها به‌راستی از راه لاتینی از گرهٔ یونانی می‌آیند."
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": {
+    "name": "agaru- / aguru-",
+    "lang": "Sanskrit",
+    "gloss": "agarwood, aloeswood (probably from Dravidian, cf. Old Tamil akil)",
+    "change": "corrected",
+    "why": "Nourai's 'Agaruh' is the nominative agaruḥ; the stem is agaru-/aguru-. Klein already calls it probably Dravidian, and current work traces it to Old Tamil akil.",
+    "why_fa": "«Agaruh» نورایی صورت نهادیِ agaruḥ است و ستاک آن agaru-/aguru- است. کلاین خود آن را احتمالاً دراویدی می‌داند و پژوهش امروزی آن را به تامیلی کهن akil می‌رساند."
+   },
+   "summary": "The chart merges two families. The real agaru family runs Hebrew ʾăhālōt > Greek aloē > Latin aloē > English aloe, so the Hebrew node now hangs straight from the root. The Arabic al-ʿūd/lute branch is detached because ʿūd is a native Semitic word for 'wood'.",
+   "summary_fa": "نمودار دو خانوادهٔ جدا را درهم آمیخته است. خانوادهٔ راستینِ agaru چنین است: عبری ʾăhālōt ← یونانی ἀλόη ← لاتینی aloē ← انگلیسی aloe؛ پس گرهٔ عبری اکنون یکراست از ریشه آویخته است. شاخهٔ عربیِ العود و lute جدا شده، چون «عود» واژه‌ای بومیِ سامی به معنی «چوب» است.",
+   "nodes": [
+    {
+     "id": 6,
+     "parent": 0,
+     "lang": "Hebrew",
+     "from_node": 6,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "ʾăhālōt / ʾăhālīm",
+       "gloss": "aloes, aloeswood",
+       "script": null
+      }
+     ],
+     "why": "The Biblical Hebrew word is pre-exilic, older than any Arabic step, and Klein and Hobson-Jobson derive it straight from the Indian word. It therefore hangs from the root, not from Arabic al-ʿūd. The form is also corrected from 'alôth' to ʾăhālōt.",
+     "why_fa": "واژهٔ عبریِ کتاب مقدس پیش از تبعید گواهی شده و از هر مرحلهٔ عربی کهن‌تر است؛ کلاین و هابسن‑جابسن آن را یکراست از واژهٔ هندی می‌گیرند. پس از خودِ ریشه آویخته می‌شود نه از العود عربی. صورت «alôth» نیز به ʾăhālōt اصلاح شده است."
+    },
+    {
+     "id": 7,
+     "parent": 6,
+     "lang": "Greek",
+     "from_node": 7,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "aloē",
+       "gloss": "aloe",
+       "script": "ἀλόη"
+      }
+     ],
+     "why": "Nourai's empty Greek box is filled with ἀλόη, first found in Dioscorides. Klein takes it from Hebrew, while Beekes prefers an Aramaic donor.",
+     "why_fa": "جعبهٔ تهیِ یونانی با ἀλόη پر شده که نخست نزد دیوسکوریدس آمده است؛ کلاین آن را از عبری می‌گیرد و بیکس وام‌دهندهٔ آرامی را ترجیح می‌دهد."
+    },
+    {
+     "id": 8,
+     "parent": 7,
+     "lang": "Latin",
+     "from_node": 8,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "aloē",
+       "gloss": "aloe",
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty Latin box is filled with aloē, borrowed from Greek; Pliny and the Vulgate use it.",
+     "why_fa": "جعبهٔ تهیِ لاتینی با aloē پر شده که از یونانی وام گرفته شده و در پلینیوس و وولگات آمده است."
+    },
+    {
+     "id": 9,
+     "parent": 8,
+     "lang": "English",
+     "from_node": 9,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "aloe",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 1,
+     "words": "al-oud (al-ʿūd)",
+     "belongs_to": "native Arabic ʿūd 'wood, stick', root ʿ-w-d (Ugaritic ʿd 'lute')",
+     "why": "Arabic ʿūd is a native Semitic noun. Sanskrit agaru- could not give the ʿayn and does not have its g-r skeleton. Klein, whom Nourai cites, derives al-ʿūd from al- + ʿūd 'wood' with no Indian element, as do Skeat and Etymonline.",
+     "why_fa": "عُود عربی اسمی بومی و سامی از ریشهٔ ع‑و‑د است؛ agaru- سنسکریت نه عین را می‌دهد و نه استخوان‌بندی گ‑ر در آن مانده است. کلاین، که نورایی به او ارجاع می‌دهد، العود را تنها «ال + عود (چوب)» می‌داند، بی‌هیچ عنصر هندی، و اسکیت و اتیمانلاین نیز چنین می‌گویند."
+    },
+    {
+     "from_node": 2,
+     "under": 1,
+     "words": "ŭd «عود»",
+     "belongs_to": "Arabic ʿūd",
+     "why": "Same origin as its parent; the Arabic-to-Persian arrow is right (Mo'in marks it Arabic).",
+     "why_fa": "هم‌خاستگاه پدرش است؛ پیکان عربی ← فارسی درست است و معین آن را عربی می‌داند."
+    },
+    {
+     "from_node": 3,
+     "under": 1,
+     "words": "luth; flute",
+     "belongs_to": "luth < Old Provençal laüt < Arabic al-ʿūd; flute < Old Provençal flaüt (imitative or Latin flāre, blended with laüt)",
+     "why": "luth comes from al-ʿūd (Pihan, Klein). flute is not a descendant of it: Klein calls Old Provençal flaüt a blend of flaujol and laüt.",
+     "why_fa": "luth از العود است (پیان، کلاین)؛ اما flute فرزند آن نیست و کلاین flaüt پرووانسی را آمیزه‌ای از flaujol و laüt می‌داند."
+    },
+    {
+     "from_node": 4,
+     "under": 3,
+     "words": "folŭt «فلوت»",
+     "belongs_to": "French flûte",
+     "why": "A modern loan from French flûte; it shares flute's separate origin.",
+     "why_fa": "وامی امروزی از flûte فرانسوی است و خاستگاه جداگانهٔ flute را دارد."
+    },
+    {
+     "from_node": 5,
+     "under": 3,
+     "words": "lute, flute",
+     "belongs_to": "Old French lut and flaüte",
+     "why": "Same origin as its parent: lute from Old French lut, flute from Old French flaüte.",
+     "why_fa": "هم‌خاستگاه پدرش است: lute از lut و flute از flaüte فرانسهٔ کهن."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "pdf_page": 35,
+ "book_page": 5,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "ʾăḏāmāh",
+    "lang": "Hebrew",
+    "gloss": "ground, earth, (red) soil",
+    "change": "kept",
+    "why": "",
+    "why_fa": ""
+   },
+   "summary": "The family is right; only the routes change. Latin Adam now comes from Hebrew through the Greek Ἀδάμ of the Septuagint, not from Arabic, and Persian آدم hangs from Arabic آدم, not straight from Hebrew.",
+   "summary_fa": "خاستگاه عبری درست است و تنها راه‌ها دگرگون شده‌اند: Adam لاتینی از راه Ἀδάμ یونانیِ ترجمهٔ سبعینی از عبری آمده است نه از عربی، و «آدم» فارسی از «آدم» عربی گرفته شده است نه یکراست از عبری.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Hebrew",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʾāḏām",
+       "gloss": "man, mankind; 'the one formed from the ground'",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Arabic",
+     "from_node": 2,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʾĀdam",
+       "gloss": "Adam (proper name)",
+       "script": "آدم"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 101,
+     "parent": 1,
+     "lang": "Greek",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Adám",
+       "gloss": "Adam (Septuagint, New Testament)",
+       "script": "Ἀδάμ"
+      }
+     ],
+     "why": "Modern sources name the Greek Ἀδάμ of the Septuagint and New Testament, transliterated straight from Hebrew, as the source of Latin Adam.",
+     "why_fa": "ترجمهٔ سبعینی و عهد جدید این نام را مستقیماً از عبری به صورت Ἀδάμ آوردند و لاتینی آن را از همین صورت یونانی گرفت."
+    },
+    {
+     "id": 3,
+     "parent": 101,
+     "lang": "Latin",
+     "from_node": 3,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "Adam",
+       "gloss": "the biblical name (Vulgate)",
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty Latin box is filled with Vulgate Adam and moved from under Arabic to under Greek: Latin had the name some four centuries before Arabic Ādam is attested, and Klein and Etymonline route no European form through Arabic.",
+     "why_fa": "جعبهٔ تهیِ لاتینی با Adam وولگات پر شده و از زیر عربی به زیر یونانی رفته است، زیرا لاتینی این نام را نزدیک چهار سده پیش از نخستین گواهی «آدم» عربی داشت و کلاین و اتیم‌آنلاین هیچ صورت اروپایی را از راه عربی نمی‌گیرند."
+    },
+    {
+     "id": 4,
+     "parent": 3,
+     "lang": "English",
+     "from_node": 4,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Adam",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "Adams",
+       "gloss": "surname 'son of Adam'; Thomas Adams, chewing-gum maker",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 5,
+     "parent": 4,
+     "lang": "Persian",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ādāms",
+       "gloss": "chewing gum",
+       "script": "آدامس"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 6,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 6,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "ādam",
+       "gloss": "Adam; man, human being",
+       "script": "آدم"
+      }
+     ],
+     "why": "Persian borrowed آدم from Arabic after the conquest (Wiktionary; Jeffery establishes the Arabic stage), so the arrow now runs from the Arabic node, not from Hebrew.",
+     "why_fa": "فارسی «آدم» را پس از فتح اسلامی از عربی گرفت (ویکی‌واژه؛ جفری مرحلهٔ عربی را نشان می‌دهد)، پس پیکان اکنون از گرهٔ عربی می‌آید نه از عبری؛ «آدمک» و «آدمیزاد» نیز ساخت‌های فارسی بر همین وام‌واژه‌اند.",
+     "script_extra": "آدمک ، آدمیزاد"
+    }
+   ],
+   "detached": []
+  },
+  {
+   "entry": 1,
+   "root": {
+    "name": "*h₂eǵ-, *h₂éǵ-ro-",
+    "lang": "Indo-European",
+    "gloss": "to drive, lead; field, pasture (where cattle is driven)",
+    "change": "corrected",
+    "why": "Same root as Pokorny's aǵ- and aǵ-ro-s, written in laryngeal notation.",
+    "why_fa": "همان ریشهٔ aǵ- و aǵ-ro-s پوکورنی است که به نگارش حنجره‌ایِ امروزی *h₂eǵ- نوشته شده است."
+   },
+   "summary": "Nourai's chart is unusually accurate. Sanskrit ájra- is taken out of the Avestan box, ašaya is reglossed 'of the two shoulders', agriculture moves under Latin, Persian āštar is marked doubtful, and the misprint ambractus becomes ambactus, a Gaulish loan meaning 'retainer'.",
+   "summary_fa": "نمودار نورایی به‌گونه‌ای غیرمعمول دقیق است. ájra- سنسکریت از جعبهٔ اوستایی بیرون آمده، ašaya «از آنِ دو شانه» معنی شده، agriculture به زیر لاتینی رفته، «آشتر» فارسی تردیدآمیز نشان داده شده و خطای چاپی ambractus به ambactus، وام‌واژه‌ای گُلی به معنای «ملازم»، تصحیح شده است.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Avestan",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "az-",
+       "gloss": "to drive, lead",
+       "script": null
+      },
+      {
+       "translit": "azaiti",
+       "gloss": "drives",
+       "script": null
+      },
+      {
+       "translit": "tara.azu-",
+       "gloss": "balance, scales (lit. 'that which carries across')",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "tarāz",
+       "gloss": "level, balanced, well shaped",
+       "script": "تراز ، طراز"
+      },
+      {
+       "translit": "tarāzū",
+       "gloss": "balance, scale",
+       "script": "ترازو"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 102,
+     "parent": 0,
+     "lang": "Sanskrit",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "ájra-",
+       "gloss": "plain, field, open country",
+       "script": null
+      }
+     ],
+     "why": "Nourai listed ajras in the Avestan box, but Pokorny (p. 6) files it as Old Indic ájra-, beside Greek agrós and Latin ager; it gets its own Sanskrit node.",
+     "why_fa": "نورایی ajras را در جعبهٔ اوستایی آورده است، اما پوکورنی (ص ۶) آن را ájra- هندی باستان در کنار ἀγρός یونانی و ager لاتینی می‌آورد؛ پس گرهٔ سنسکریتِ جداگانه‌ای گرفته است."
+    },
+    {
+     "id": 3,
+     "parent": 0,
+     "lang": "Avestan",
+     "from_node": 3,
+     "change": "split",
+     "words": [
+      {
+       "translit": "aštrā-",
+       "gloss": "whip, goad",
+       "script": null
+      },
+      {
+       "translit": "ašaya",
+       "gloss": "of the two shoulders (gen. dual of aša-)",
+       "script": null
+      }
+     ],
+     "why": "ajras went to a separate Sanskrit node. ašaya is also reglossed: Pokorny gives 'der beiden Achseln', and the 'wing' sense belongs to Latin āla.",
+     "why_fa": "ajras به گرهٔ سنسکریتِ جداگانه رفته است، و معنای ašaya نیز اصلاح شده: پوکورنی آن را «از آنِ هر دو شانه» می‌داند و معنای «بال» از آنِ āla لاتینی است."
+    },
+    {
+     "id": 4,
+     "parent": 3,
+     "lang": "Pahlavi",
+     "from_node": 4,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "astar, aštar",
+       "gloss": "whip",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 5,
+     "parent": 4,
+     "lang": "Persian",
+     "from_node": 5,
+     "change": "uncertain",
+     "words": [
+      {
+       "translit": "āštar",
+       "gloss": "whip (obsolete?)",
+       "script": "آشتَر"
+      }
+     ],
+     "why": "No independent evidence for this New Persian word: it is absent from Moʿin, Borhān and Richardson, and SNS:35 is a Pahlavi glossary whose Persian column only translates the lemma.",
+     "why_fa": "هیچ گواه مستقلی برای این واژهٔ فارسی نو یافت نشد: در معین، برهان و ریچاردسون نیست، و «شایست نشایست» واژه‌نامه‌ای پهلوی است که ستون فارسی‌اش تنها برگردان سرواژه است."
+    },
+    {
+     "id": 6,
+     "parent": 0,
+     "lang": "Greek",
+     "from_node": 6,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ágein",
+       "gloss": "to drive, lead",
+       "script": "ἄγειν"
+      },
+      {
+       "translit": "stratēgós",
+       "gloss": "general (stratós 'army' + agós 'leader')",
+       "script": "στρατηγός"
+      }
+     ],
+     "why": "Nourai's 'stratos-agein' is shorthand for the compound stratēgós 'general', whence stratēgía; Pokorny prints στρατηγός on p. 4.",
+     "why_fa": "«stratos-agein» نورایی کوتاه‌نوشتِ ترکیبِ στρατηγός «سردار» است که στρατηγία از آن آمده؛ پوکورنی خودِ στρατηγός را در ص ۴ آورده است."
+    },
+    {
+     "id": 7,
+     "parent": 6,
+     "lang": "French",
+     "from_node": 7,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "stratégie",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 8,
+     "parent": 7,
+     "lang": "Persian",
+     "from_node": 8,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "esterātežī",
+       "gloss": null,
+       "script": "استراتژی"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 9,
+     "parent": 7,
+     "lang": "English",
+     "from_node": 9,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "strategy",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 10,
+     "parent": 6,
+     "lang": "English",
+     "from_node": 10,
+     "change": "split",
+     "words": [
+      {
+       "translit": "agony",
+       "gloss": "via Greek agṓn, agōnía",
+       "script": null
+      }
+     ],
+     "why": "Only agony comes through Greek (agṓn > agōnía > Latin agōnia > French). agriculture is Latin agrī cultūra, from ager, so it moved under the Latin node.",
+     "why_fa": "تنها agony از راه یونانی آمده است (ἀγών ← ἀγωνία ← لاتینی ← فرانسوی)؛ agriculture از agrī cultūra لاتینی و از ager است و به زیر گرهٔ لاتینی رفته است."
+    },
+    {
+     "id": 11,
+     "parent": 0,
+     "lang": "Latin",
+     "from_node": 11,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "agere",
+       "gloss": "to drive, do, act",
+       "script": null
+      },
+      {
+       "translit": "agēns",
+       "gloss": "acting, agent",
+       "script": null
+      },
+      {
+       "translit": "āla < *agslā",
+       "gloss": "shoulder, wing",
+       "script": null
+      },
+      {
+       "translit": "ambactus",
+       "gloss": "servant, retainer (a Gaulish loan)",
+       "script": null
+      }
+     ],
+     "why": "'ambractus' is a misprint in the book for ambactus. That word is a Gaulish loan (*ambi-ag-to- 'one sent around') meaning 'retainer'; 'envoy' is a later Romance sense. ag-sla is the preform of āla.",
+     "why_fa": "«ambractus» خطای چاپی کتاب برای ambactus است. این واژه وام‌واژه‌ای گُلی (*ambi-ag-to- «آنکه گرداگرد فرستاده می‌شود») به معنای «ملازم» است و معنای «فرستاده» پسین است. ag-sla نیز صورت پیشینِ āla است."
+    },
+    {
+     "id": 103,
+     "parent": 11,
+     "lang": "English",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "agriculture",
+       "gloss": "from Latin agrī cultūra 'cultivation of the field'",
+       "script": null
+      }
+     ],
+     "why": "agriculture was under Greek in Nourai's agony node. It comes from Latin ager 'field' (< *h₂éǵ-ro-), as Watkins and Klein say, so it now hangs from the Latin node.",
+     "why_fa": "agriculture در گرهٔ agony زیر یونانی آمده بود، اما چنان‌که واتکینز و کلاین می‌گویند از ager لاتینی «کشتزار» است و اکنون زیر گرهٔ لاتینی نشسته است."
+    },
+    {
+     "id": 12,
+     "parent": 11,
+     "lang": "French",
+     "from_node": 12,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "agence, agent",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 13,
+     "parent": 12,
+     "lang": "Persian",
+     "from_node": 13,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "āžāns",
+       "gloss": "agency",
+       "script": "آژانس"
+      },
+      {
+       "translit": "āžān",
+       "gloss": "agent, policeman",
+       "script": "آژان"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 14,
+     "parent": 11,
+     "lang": "English",
+     "from_node": 14,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "act, acre, exact, -gate, navigate",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "agent, agency",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "axle, axis, ambassador, embassy",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": []
+  }
+ ]
+}

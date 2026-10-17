@@ -1,0 +1,556 @@
+{
+ "pdf_page": 47,
+ "book_page": 17,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "al-",
+    "lang": "Arabic",
+    "gloss": "definite article \"the\", used as a prefix (assimilated before sun letters)",
+    "change": "kept",
+    "why": "",
+    "why_fa": ""
+   },
+   "summary": "Nourai's chart of European and Persian words carrying the Arabic article mostly stands. Arsenic is taken out (it came from Iranian through Syriac and Greek, not Arabic az-zarnīkh), flute and aloe are dropped from al-ʿūd, amīr al-baḥr is marked doubtful, English algorithm is rerouted through French, and the empty Latin and French boxes are filled.",
+   "summary_fa": "نمودار نورایی از واژه‌های اروپایی و فارسی با حرف تعریف عربی بیشتر درست است. arsenic بیرون رفت (از ایرانی و از راه سریانی و یونانی آمده نه از «الزرنیخ» عربی)، flute و aloe از شاخهٔ «العود» جدا شدند، «امیرالبحر» مشکوک علامت خورد، algorithm انگلیسی از راه فرانسه برده شد و خانه‌های تهی لاتین و فرانسه پر شدند.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Persian",
+     "from_node": 1,
+     "change": "kept",
+     "words": [],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "الله ، الکل ، المثنّی"
+    },
+    {
+     "id": 2,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 2,
+     "change": "uncertain",
+     "words": [
+      {
+       "translit": "amīr al-baḥr",
+       "gloss": "commander of the sea (doubtful as the source of admiral)",
+       "script": null
+      },
+      {
+       "translit": "al-fiṣfiṣa",
+       "gloss": "lucerne, green fodder ('horse food')",
+       "script": null
+      }
+     ],
+     "why": "Klein prefers amīr-ar-raḥl, Devic and Lokotsch reject amīr al-baḥr, and the OED accepts only the generic title amīr-al-, so Nourai's phrase is kept but marked doubtful. al-fiṣfiṣa is right, itself a loan from Middle Persian aspast 'horse food'.",
+     "why_fa": "«امیرالبحر» به‌عنوان خاستگاه admiral را کلاین (که «امیر الرحل» را ترجیح می‌دهد)، دویک و لوکوچ نمی‌پذیرند و آکسفورد تنها «امیرِ ال‌» عام را می‌پذیرد؛ پس پیکان نورایی نگه داشته شده اما مشکوک است. «الفصفصة» (یونجه) درست است و خود از «اسپست» فارسی میانه آمده است."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "English",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "admiral",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "alfalfa",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 4,
+     "parent": 3,
+     "lang": "Persian",
+     "from_node": 4,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "âdmirâl",
+       "gloss": "admiral",
+       "script": "آدمیرال"
+      },
+      {
+       "translit": "âlfâlfâ",
+       "gloss": "alfalfa",
+       "script": "آلفالفا"
+      }
+     ],
+     "why": "The book prints alfalfa as two words «آلفا آلفا», which matches neither its own transliteration âlfâlfâ nor the normal Persian spelling آلفالفا; modern sources flag this.",
+     "why_fa": "کتاب «آلفا آلفا» را دو کلمه چاپ کرده است که نه با آوانویسی خودش (âlfâlfâ) می‌خواند و نه با املای معمول فارسی «آلفالفا»؛ املا یکپارچه شد."
+    },
+    {
+     "id": 5,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "al-kuḥl",
+       "gloss": "kohl, antimony powder; later 'highly purified spirits'",
+       "script": null
+      },
+      {
+       "translit": "al-Khwārizmī",
+       "gloss": "the 9th-century mathematician from Khwārazm",
+       "script": null
+      },
+      {
+       "translit": "al-ithmid",
+       "gloss": "antimony",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 6,
+     "parent": 5,
+     "lang": "Latin",
+     "from_node": 6,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "alcohol, alcofol",
+       "gloss": "powdered ore of antimony",
+       "script": null
+      },
+      {
+       "translit": "algorismus",
+       "gloss": "reckoning with Arabic numerals",
+       "script": null
+      },
+      {
+       "translit": "antimonium",
+       "gloss": "antimony",
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty box is the Medieval Latin stage; Klein and Lokotsch name the three Latin forms.",
+     "why_fa": "خانهٔ تهی نورایی همان لاتینِ سده‌های میانه است که هر سه واژه از آن به اروپا رسیدند؛ کلاین و لوکوچ صورت‌های لاتینی را به دست می‌دهند."
+    },
+    {
+     "id": 7,
+     "parent": 6,
+     "lang": "French",
+     "from_node": 7,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "alcool",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "algorithme",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "antimoine",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty box is the French stage, filled with the forms modern sources name; French reshaped algorisme into algorithme after Greek arithmos.",
+     "why_fa": "خانهٔ تهی فرانسه با صورت‌هایی که پرونده نام می‌برد پر شد؛ فرانسه algorisme را به کشش arithmos یونانی به algorithme بازساخت."
+    },
+    {
+     "id": 8,
+     "parent": 7,
+     "lang": "Persian",
+     "from_node": 8,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "alkol",
+       "gloss": "alcohol",
+       "script": "الکل"
+      },
+      {
+       "translit": "âlgoritm",
+       "gloss": "algorithm",
+       "script": "آلگوریتم"
+      },
+      {
+       "translit": "ântimoân",
+       "gloss": "antimony",
+       "script": "آنتیموان"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 9,
+     "parent": 6,
+     "lang": "English",
+     "from_node": 9,
+     "change": "split",
+     "words": [
+      {
+       "translit": "alcohol",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "antimony",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "alcohol is a direct Medieval Latin borrowing and antimony came from Medieval Latin (and Old French); algorithm, however, is a 1690s borrowing of French algorithme, so it now hangs under French.",
+     "why_fa": "alcohol مستقیماً از لاتین میانه و antimony از لاتین میانه (و فرانسهٔ باستان) آمده است؛ اما algorithm در دههٔ ۱۶۹۰ از algorithme فرانسه گرفته شده، پس به گرهٔ ۱۰۱ زیر فرانسه رفت."
+    },
+    {
+     "id": 101,
+     "parent": 7,
+     "lang": "English",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "algorithm",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "Moved here: Etymonline and Klein derive English algorithm (earlier algorism, from Old French algorisme) from French algorithme, not straight from Latin.",
+     "why_fa": "از گرهٔ ۹ به اینجا آمد: به گفتهٔ اتیمونلاین و کلاین، algorithm انگلیسی (پیش‌تر algorism از فرانسهٔ باستان) از algorithme فرانسه است نه مستقیماً از لاتین."
+    },
+    {
+     "id": 10,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 10,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "al-qilī",
+       "gloss": "calcined ashes of the saltwort, soda ash",
+       "script": null
+      },
+      {
+       "translit": "az-zarnīkh",
+       "gloss": "orpiment, arsenic",
+       "script": null
+      },
+      {
+       "translit": "al-malgham",
+       "gloss": "soft mass, emollient poultice",
+       "script": null
+      }
+     ],
+     "why": "Forms tidied to Klein's al-qilī and al-malgham. az-zarnīkh is a genuine Arabic al- word of Iranian origin, but Klein and Watkins (AHD) say it is a sibling, not the source, of European arsenic, so arsenic is detached below.",
+     "why_fa": "صورت‌ها به «القِلی» و «المَلغَم» به روایت کلاین درست شد. «الزرنیخ» واژه‌ای عربی با «ال» و ایرانی‌تبار است، اما به گفتهٔ کلاین و واتکینز خواهرِ arsenic اروپایی است نه نیای آن؛ از این‌رو arsenic از این شاخه جدا شد."
+    },
+    {
+     "id": 11,
+     "parent": 10,
+     "lang": "French",
+     "from_node": 11,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "alcali",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "amalgame",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "Nourai's empty box filled with the French forms modern sources name; French arsenic is left out because it continues Latin arsenicum from Greek, not the Arabic box above.",
+     "why_fa": "خانهٔ تهی فرانسه با صورت‌هایی که پرونده نام می‌برد پر شد؛ arsenic فرانسه کنار گذاشته شد چون از arsenicum لاتین و یونانی می‌آید نه از عربی."
+    },
+    {
+     "id": 12,
+     "parent": 11,
+     "lang": "Persian",
+     "from_node": 12,
+     "change": "split",
+     "words": [
+      {
+       "translit": "âlkâlî",
+       "gloss": "alkaline",
+       "script": "آلکالی"
+      }
+     ],
+     "why": "âlkâlî is French alcali; ârsenîk is detached because French arsenic does not descend from Arabic az-zarnīkh.",
+     "why_fa": "«آلکالی» از alcali فرانسه است؛ «آرسنیک» جدا شد، زیرا arsenic فرانسه از «الزرنیخ» عربی نمی‌آید."
+    },
+    {
+     "id": 13,
+     "parent": 11,
+     "lang": "English",
+     "from_node": 13,
+     "change": "split",
+     "words": [
+      {
+       "translit": "alkali, alkaline, amalgam",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "alkali and amalgam are confirmed al- words; arsenic is detached (Old French arsenic < Latin arsenicum < Greek arsenikon < Syriac zarnīkā, never through Arabic).",
+     "why_fa": "alkali و amalgam واژه‌های «ال»‌دار تأییدشده‌اند؛ arsenic جدا شد، زیرا از فرانسهٔ باستان و لاتین و یونانی و سریانی آمده و هرگز از عربی نگذشته است."
+    },
+    {
+     "id": 14,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 14,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Allāh",
+       "gloss": "the God",
+       "script": null
+      },
+      {
+       "translit": "al-qādūs",
+       "gloss": "water-wheel bucket; pelican, 'water carrier'",
+       "script": null
+      },
+      {
+       "translit": "al-anbīq",
+       "gloss": "the still, distilling apparatus",
+       "script": null
+      },
+      {
+       "translit": "al-bādhinjān",
+       "gloss": "aubergine",
+       "script": null
+      },
+      {
+       "translit": "an-nīl",
+       "gloss": "the indigo",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 15,
+     "parent": 14,
+     "lang": "English",
+     "from_node": 15,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Allah",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "albatross",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "alembic",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "aubergine",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "anil, aniline",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 16,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 16,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "al-iksīr",
+       "gloss": "dry medicine, elixir",
+       "script": null
+      },
+      {
+       "translit": "al-ʿaṣāra",
+       "gloss": "the pressed-out juice, dye",
+       "script": null
+      },
+      {
+       "translit": "al-jabr wa-l-muqābala",
+       "gloss": "restoration and balancing, algebra",
+       "script": null
+      },
+      {
+       "translit": "al-kīmiyāʾ",
+       "gloss": "the art of transmutation",
+       "script": null
+      },
+      {
+       "translit": "al-ʿūd",
+       "gloss": "the wood, lute",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 17,
+     "parent": 16,
+     "lang": "English",
+     "from_node": 17,
+     "change": "split",
+     "words": [
+      {
+       "translit": "elixir",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "alizarin",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "algebra",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "alchemy, chemistry",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "lute",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "flute and aloe are detached: flute is of uncertain origin (at most blended with laüt 'lute', per Klein) and aloe is Greek aloē, not an al- word.",
+     "why_fa": "flute و aloe جدا شدند: flute خاستگاهی نامعلوم دارد (به گفتهٔ کلاین حداکثر آمیخته با laüt «عود») و aloe همان ἀλόη یونانی است، نه واژه‌ای با «ال»."
+    },
+    {
+     "id": 18,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 18,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "al-birqūq",
+       "gloss": "early-ripening fruit (plum)",
+       "script": null
+      },
+      {
+       "translit": "dār aṣ-ṣināʿa",
+       "gloss": "house of manufacture",
+       "script": null
+      },
+      {
+       "translit": "as-sumūt",
+       "gloss": "the directions",
+       "script": null
+      },
+      {
+       "translit": "Jabal Ṭāriq",
+       "gloss": "'mountain of Ṭāriq', who landed in Spain in 711",
+       "script": null
+      },
+      {
+       "translit": "al-qubba",
+       "gloss": "the vault, alcove",
+       "script": null
+      }
+     ],
+     "why": "Modern sources note that the received Arabic name is Jabal Ṭāriq with no article between the words; Nourai's 'Jabal-al-Târiq' is a citation form. dr-as-sanâ is written out as dār aṣ-ṣināʿa.",
+     "why_fa": "به گفتهٔ پرونده نام عربی رایج «جبل طارق» است و میان دو واژه «ال» ندارد؛ «جبل الطارق» نورایی صورت نقل‌شده است. «dr-as-sanâ» نیز به «دار الصناعة» کامل شد."
+    },
+    {
+     "id": 19,
+     "parent": 18,
+     "lang": "English",
+     "from_node": 19,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "apricot",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "arsenal",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "azimuth",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "Gibraltar",
+       "gloss": null,
+       "script": null
+      },
+      {
+       "translit": "alcove",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 12,
+     "words": "ârsenîk «آرسنیک»",
+     "belongs_to": "French arsenic < Latin arsenicum < Greek arsenikon < Syriac zarnīkā < Middle Persian zarnīk 'golden'",
+     "why": "Persian ârsenîk is from French arsenic, which never passed through Arabic; it is a cousin of az-zarnīkh, not a descendant of the Arabic article.",
+     "why_fa": "«آرسنیک» از arsenic فرانسه است که هرگز از عربی نگذشته؛ با «زرنیخ» هم‌ریشه است اما از حرف تعریف عربی نمی‌آید."
+    },
+    {
+     "from_node": 13,
+     "words": "arsenic",
+     "belongs_to": "Old French arsenic < Latin arsenicum < Greek arsenikon < Syriac zarnīkā < Middle Persian zarnīk 'golden'",
+     "why": "Klein and Watkins (AHD, *ghel-2) route arsenic from Iranian through Syriac into Greek centuries before Arabic; the az- is not the Arabic article.",
+     "why_fa": "کلاین و واتکینز arsenic را از ایرانی و از راه سریانی به یونانی می‌برند، سده‌ها پیش از عربی؛ «از-» حرف تعریف عربی نیست."
+    },
+    {
+     "from_node": 17,
+     "words": "flute; aloe",
+     "belongs_to": "flute: uncertain (perhaps imitative or Latin flare, blended with laüt); aloe: Greek aloē, of uncertain Oriental origin",
+     "why": "Neither descends from al-ʿūd: Klein calls flute a probable blend of flaujol and laüt, and aloe is Greek ἀλόη, which Nourai's own ☞Agaruth (Sanskrit agaru) points to.",
+     "why_fa": "هیچ‌یک از «العود» نمی‌آید: کلاین flute را احتمالاً آمیزه‌ای از flaujol و laüt می‌داند، و aloe همان ἀλόη یونانی است که ارجاع خود نورایی به agaru سنسکریت به آن اشاره دارد."
+    }
+   ]
+  }
+ ]
+}

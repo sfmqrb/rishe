@@ -1,0 +1,257 @@
+{
+ "pdf_page": 37,
+ "book_page": 7,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*h₂egʰ-, *h₂egʰ-lo-",
+    "lang": "Indo-European",
+    "gloss": "to be depressed, to be afraid; (l-extension) disagreeable, troublesome",
+    "change": "corrected",
+    "why": "Same root as Nourai's Agh/Aghlo (Pokorny agh- p.7 and agh-(lo-) p.8), written in modern laryngeal notation.",
+    "why_fa": "همان ریشهٔ agh/aghlo نورایی است (پوکورنی ص ۷ و ۸)، تنها به نگارش امروزی با همخوان حنجره‌ای *h₂ که در بررسی آمده است."
+   },
+   "summary": "The family stands as Nourai drew it; only glosses and the Pahlavi spelling are tidied (Avestan aγa- 'bad, evil', not 'ugly'; MacKenzie's ak; ON agi is a noun 'fear'). Persian âx 'ah!' is an interjection with -x that cannot come from Pahlavi ak, so it is detached.",
+   "summary_fa": "خانوادهٔ واژه همان است که نورایی کشیده؛ تنها معناها و املای پهلوی پیراسته شده است (اوستایی aγa- «بد، شریر» است نه «زشت»؛ صورت پهلوی نزد مکنزی ak است؛ agi نرس کهن اسم است به معنی «ترس»). «آخ» فارسی صوت است و خِ آن از کافِ ak پهلوی برنمی‌آید، پس از این خانواده جدا شده است.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Avestan",
+     "from_node": 1,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "aγa- (aγō, aγā)",
+       "gloss": "bad, evil",
+       "script": null
+      }
+     ],
+     "why": "Bartholomae gives aγa- 'schlecht, böse, schlimm' and Pokorny 'böse'; 'ugly' is not an Avestan sense. Pokorny hedges the link with 'möglicherweise', but Wiktionary and Mann keep it.",
+     "why_fa": "بارتولومه aγa- را «بد، شریر، ناگوار» و پوکورنی «بد» معنا می‌کنند؛ «زشت» از معناهای اوستایی نیست. پیوند با این ریشه را پوکورنی با «شاید» آورده، ولی ویکی‌واژه و مان آن را می‌پذیرند."
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Pahlavi",
+     "from_node": 2,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ak ⟨ʾk⟩",
+       "gloss": "evil, harm",
+       "script": null
+      }
+     ],
+     "why": "MacKenzie reads ak [ʾk | N āk] 'evil, harm' with short a; Nourai's long â is the New Persian spelling read back, and his gloss paraphrases Borhan-e Qate'.",
+     "why_fa": "مکنزی این واژه را ak با a کوتاه و به معنی «بد، آسیب» می‌خواند؛ الف کشیدهٔ نورایی املای فارسی نو است که به پهلوی بازگردانده شده، و معنای او برگرفته از برهان قاطع است."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âk, ak",
+       "gloss": "defect, harm, calamity",
+       "script": "آک ، اک"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 5,
+     "parent": 0,
+     "lang": "Old English",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "eglan",
+       "gloss": "to trouble, afflict",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 6,
+     "parent": 5,
+     "lang": "English",
+     "from_node": 6,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ail, ailment",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 7,
+     "parent": 0,
+     "lang": "Old Norse",
+     "from_node": 7,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "agi",
+       "gloss": "fear, awe",
+       "script": null
+      }
+     ],
+     "why": "Pokorny, Klein and Buck make ON agi a masculine noun 'fear, terror'; the adjectival gloss 'frightened' is a slip copied from Watkins/AHD.",
+     "why_fa": "پوکورنی و کلاین و باک agi نرس کهن را اسم مذکر به معنی «ترس، هراس» می‌دانند؛ معنای صفتیِ «ترسیده» لغزشی است که نورایی از واتکینز گرفته است."
+    },
+    {
+     "id": 8,
+     "parent": 7,
+     "lang": "English",
+     "from_node": 8,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "awe, awesome",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 4,
+     "words": "âx, ax «آخ ، اخ»",
+     "belongs_to": "an expressive interjection (cf. Turkish ah, German ach), not an inherited word",
+     "why": "Pahlavi ak gives Persian âk with -k, never -x; Mo'in tags آخ as an interjection (صت.) with no Pahlavi origin, and Borhan-e Qate' p.90 gives no Iranian etymology.",
+     "why_fa": "ak پهلوی در فارسی «آک» با کاف می‌دهد، نه خ؛ معین «آخ» را صوت (صت.) می‌داند و هیچ تبار پهلوی برایش نمی‌آورد، و برهان قاطع نیز در ص ۹۰ ریشه‌ای ایرانی برای آن نمی‌دهد. این گونه صوت‌ها در زبان‌ها از نو ساخته می‌شوند."
+    }
+   ]
+  },
+  {
+   "entry": 4,
+   "root": {
+    "name": "agurru (a-gur-ru)",
+    "lang": "Akkadian",
+    "gloss": "kiln-fired brick",
+    "change": "kept",
+    "why": "",
+    "why_fa": ""
+   },
+   "summary": "Arabic ʾājurr is moved under Aramaic ʾāgūrā, its lender according to Fraenkel, Zimmern, Addi Shir and Wiktionary (only Asbaghi derives it from Persian). Old Persian aguru- (restored by König from the Akkadian text) and Pahlavi āgur (unattested) are starred.",
+   "summary_fa": "آجُرّ عربی اکنون زیر ʾāgūrā آرامی آمده است که به گفتهٔ فرنکل، تسیمرن، ادی شیر و ویکی‌واژه وام‌دهندهٔ آن است (تنها اصباغی آن را از فارسی می‌گیرد). aguru- پارسی باستان (بازسازیِ کونیگ از روی متن اکدی) و āgur پهلوی (بی‌گواه) ستاره‌دار شده‌اند.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Old Persian",
+     "from_node": 1,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "*aguru-",
+       "gloss": "baked brick",
+       "script": null
+      }
+     ],
+     "why": "Not attested: Kent prints [agurum] DSf 53 in brackets as a word König restored from the Akkadian version, and calls it a 'restored loan-word'.",
+     "why_fa": "این واژه در پارسی باستان گواهی نشده است: کنت «[agurum]» را در قلاب می‌آورد، چون کونیگ آن را از روی متن اکدیِ کتیبه بازسازی کرده، و آن را «وام‌واژهٔ بازسازی‌شده» می‌نامد."
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Pahlavi",
+     "from_node": 2,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "*āgur",
+       "gloss": "brick",
+       "script": null
+      }
+     ],
+     "why": "No Pahlavi text attests āgur (MacKenzie and Nyberg have only xišt for 'brick'); the step is phonologically plausible, so it is kept but starred.",
+     "why_fa": "هیچ متن پهلوی āgur را گواهی نمی‌کند (مکنزی و نیبرگ برای «آجر» تنها xišt دارند)؛ این حلقه از نظر آوایی پذیرفتنی است، پس با ستاره نگاه داشته شده است."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âgur",
+       "gloss": "baked brick",
+       "script": "آگور"
+      }
+     ],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "آگورگر ، آگورگری"
+    },
+    {
+     "id": 101,
+     "parent": 0,
+     "lang": "Aramaic (Classical Syriac)",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "ʾāgūrā (ʾăḡurrā)",
+       "gloss": "baked brick",
+       "script": "ܐܓܘܪܐ"
+      }
+     ],
+     "why": "Zimmern (AKD:31) and Fraenkel (AFA:5) name Aramaic ʾāgūrā, from Akkadian agurru, as the direct source of the Arabic word; Wiktionary gives Classical Syriac ʾăḡurrā.",
+     "why_fa": "تسیمرن و فرنکل ʾāgūrā آرامی را، که خود از agurru اکدی است، سرچشمهٔ بی‌واسطهٔ واژهٔ عربی می‌دانند؛ ویکی‌واژه نیز صورت سریانی ʾăḡurrā را می‌آورد."
+    },
+    {
+     "id": 4,
+     "parent": 101,
+     "lang": "Arabic",
+     "from_node": 4,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "ʾājurr, ʾājur",
+       "gloss": "baked brick",
+       "script": "آجُرّ"
+      }
+     ],
+     "why": "Fraenkel says outright that an Arabic borrowing from Persian is improbable and that the word came from Aramaic; Zimmern and Addi Shir agree, and the long ā and doubled -rr fit Aramaic ʾāgūrā. Nourai's own note admits this route.",
+     "why_fa": "فرنکل صریحاً می‌نویسد که گرفتن عرب‌ها از فارسی محتمل نیست و واژه از آرامی آمده است؛ تسیمرن و ادی شیر نیز همین را می‌گویند، و الف کشیده و تشدید -رّ با ʾāgūrā آرامی می‌خواند. یادداشت خود نورایی هم این راه را پذیرفته است."
+    },
+    {
+     "id": 5,
+     "parent": 4,
+     "lang": "Persian",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âjor",
+       "gloss": "brick",
+       "script": "آجر"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": []
+  }
+ ]
+}

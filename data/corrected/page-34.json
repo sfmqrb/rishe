@@ -1,0 +1,465 @@
+{
+ "pdf_page": 34,
+ "book_page": 4,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*wahā-čaraṇa-",
+    "lang": "Old Iranian (reconstructed)",
+    "gloss": "place of sale, trade-traffic",
+    "change": "replaced",
+    "why": "Nourai's root repeats Darmesteter's 1883 abā = Skt sabhā 'assembly' idea, which Horn (no. 166) calls impossible because of the Pahlavi č; the accepted source is *wahā- 'price, sale' (Av. vahā-, NP bahā; PIE *wes-) + *čaraṇa- 'going about' (PIE *kʷel-, Nourai's own 'Kwel' cross-reference).",
+    "why_fa": "ریشهٔ نورایی همان پیشنهاد دارمستتر (۱۸۸۳م) است که abā را با sabhā سنسکریت «انجمن‌گاه» یکی می‌گرفت؛ هرن به سبب «چ» پهلوی آن را ناممکن می‌داند. ریشهٔ پذیرفته *wahā-čaraṇa- «جای خرید و فروش» است: *wahā- «بها» (اوستایی vahā-، فارسی بها) + *čaraṇa- «گردیدن» از *kʷel-، همان ارجاعی که خود نورایی به Kwel داده است."
+   },
+   "summary": "The Sanskrit sabhā / Old Persian abācari- root is replaced by Old Iranian *wahā-čaraṇa- 'trade-traffic', and the Old Persian hapax (really abičariš 'pastures') is detached. Middle Persian wāzār now hangs from the true root, bāzargān comes from MP wāzāraġān, and the empty Turkish and Italian boxes are filled.",
+   "summary_fa": "ریشهٔ «سنسکریت sabhā / پارسی باستان abācari-» جای خود را به ریشهٔ ایرانی باستان *wahā-čaraṇa- «داد و ستد» می‌دهد و واژهٔ پارسی باستانِ بیستون (که درواقع abičariš «چراگاه‌ها» است) از خانواده جدا می‌شود. واژهٔ پهلوی wāzār اکنون مستقیماً از ریشهٔ درست می‌آید، بازرگان از پهلوی wāzāraġān، و جعبه‌های خالی ترکی و ایتالیایی پر شده‌اند.",
+   "nodes": [
+    {
+     "id": 2,
+     "parent": 0,
+     "lang": "Middle Persian (Pahlavi)",
+     "from_node": 2,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "wāzār",
+       "gloss": "market, trade center",
+       "script": null
+      }
+     ],
+     "why": "MacKenzie reads the Pahlavi word wāzār (wʾCʾl); it continues *wahā-čaraṇa- directly, not Old Persian abācari-, which Horn rules out because of the Pahlavi č.",
+     "why_fa": "مکنزی واژهٔ پهلوی را wāzār (واچار) می‌خواند؛ این واژه مستقیماً از *wahā-čaraṇa- آمده است، نه از abācari- پارسی باستان که هرن به سبب «چ» پهلوی پیوندش را ناممکن می‌داند."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "bâzâr",
+       "gloss": "bazaar, market",
+       "script": "بازار"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 101,
+     "parent": 2,
+     "lang": "Middle Persian (Pahlavi)",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "wāzāraġān",
+       "gloss": "merchant",
+       "script": null
+      }
+     ],
+     "why": "MacKenzie records MP wāzāraġān 'merchant' (Manichaean wʾCʾrgʾn), so the merchant word already existed in Middle Persian.",
+     "why_fa": "مکنزی واژهٔ پهلوی wāzāraġān «بازرگان» را ثبت کرده است؛ پس واژهٔ بازرگان از پیش در پارسی میانه بوده است."
+    },
+    {
+     "id": 4,
+     "parent": 101,
+     "lang": "Persian",
+     "from_node": 4,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "bâzargân",
+       "gloss": "merchant",
+       "script": "بازرگان"
+      }
+     ],
+     "why": "Bāzargān is inherited from MP wāzāraġān alongside bāzār rather than coined from bāzār in New Persian (MacKenzie; Darmesteter Ét. ir. I §217 calls the bāzār > bāzargān link only apparent).",
+     "why_fa": "بازرگان از پهلوی wāzāraġān به ارث رسیده، نه آنکه در فارسی نو از «بازار» ساخته شده باشد؛ دارمستتر نیز این پیوند را تنها ظاهری می‌داند."
+    },
+    {
+     "id": 5,
+     "parent": 3,
+     "lang": "Turkish",
+     "from_node": 5,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "pazar",
+       "gloss": "market",
+       "script": "بازار"
+      }
+     ],
+     "why": "Nourai's empty Turkish box filled with the form modern sources name: Ottoman bāzār, popular pazar (Buck: NG pazari 'fr. Turk. pazar, this fr. Pers. bazar').",
+     "why_fa": "جعبهٔ خالی ترکی با صورتی که پرونده نام می‌برد پر شد: ترکی عثمانی بازار، در زبان مردم pazar."
+    },
+    {
+     "id": 6,
+     "parent": 5,
+     "lang": "Italian",
+     "from_node": 6,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "bazarra",
+       "gloss": "market-place",
+       "script": null
+      }
+     ],
+     "why": "Empty Italian box filled with bazarra / bazzarro, attested in Pegolotti c.1340 (Hobson-Jobson).",
+     "why_fa": "جعبهٔ خالی ایتالیایی با bazarra / bazzarro پر شد که در دفتر بازرگانی پگولوتی (حدود ۱۳۴۰م) آمده است."
+    },
+    {
+     "id": 7,
+     "parent": 6,
+     "lang": "English",
+     "from_node": 7,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "bazaar",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 1,
+     "words": "abâ-cari 'place of assembly'",
+     "belongs_to": "Old Persian abičariš 'pasture lands' (abi- + čar- 'to graze'), a hapax of Bisotun DB I.64",
+     "why": "Kent reads the word abičariš 'pastures', not abācari- 'place of assembly'; Horn says connecting it with Pahlavi wāzār is impossible, so it is not an ancestor of bāzār.",
+     "why_fa": "کنت این واژهٔ بیستون را abičariš «چراگاه‌ها» می‌خواند، نه abācari- «جای گردهمایی»؛ هرن نیز پیوند آن با واچار پهلوی را ناممکن می‌داند، پس نیای «بازار» نیست."
+    }
+   ]
+  },
+  {
+   "entry": 1,
+   "root": {
+    "name": "ʕ-b-r",
+    "lang": "Semitic",
+    "gloss": "to cross, pass over",
+    "change": "kept",
+    "why": "",
+    "why_fa": ""
+   },
+   "summary": "The ʕ-b-r root and its Hebrew branch stand; the derivation of ʕ-r-b 'Arab' from a metathesised ʕ-b-r is marked uncertain (Klein derives ʕarab from 'desert'). Missing Latin (Arabs) and Old French / Middle English (Ebreu) stages are added, and empty boxes are filled.",
+   "summary_fa": "ریشهٔ ع‌ب‌ر و شاخهٔ عبری آن درست است؛ اما برآمدن ع‌ر‌ب («عرب») از قلبِ ع‌ب‌ر نامطمئن نشان داده شده است (کلاین عرب را از معنی «بیابان» می‌گیرد). مرحله‌های جاافتادهٔ لاتینی (Arabs) و فرانسهٔ کهن و انگلیسی میانه (Ebreu) افزوده و جعبه‌های خالی پر شده‌اند.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʕ-b-r",
+       "gloss": "to pass, cross",
+       "script": "عبر"
+      },
+      {
+       "translit": "ʕabara",
+       "gloss": "he crossed",
+       "script": "عَبَرَ"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "obur",
+       "gloss": "passing, crossing",
+       "script": "عبور"
+      }
+     ],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "عابر ، معبر ، معابر"
+    },
+    {
+     "id": 3,
+     "parent": 1,
+     "lang": "Arabic",
+     "from_node": 3,
+     "change": "uncertain",
+     "words": [
+      {
+       "translit": "ʕ-r-b",
+       "gloss": "said to be a metathesis of ʕ-b-r: to cross (dwell in) deserts",
+       "script": "عرب"
+      }
+     ],
+     "why": "Bahar reports the ʕ-b-r > ʕ-r-b metathesis, but Klein (p.98) relates ʕarab to Hebrew ʕărāḇāh 'desert' and modern works list the metathesis as only one of several hypotheses.",
+     "why_fa": "بهار قلبِ ع‌ب‌ر به ع‌ر‌ب را رأی «علمای معاصر» می‌خواند، اما کلاین عرب را با «عَرابا»ی عبری به معنی «بیابان» می‌سنجد و کتاب‌های امروزی این قلب را تنها یکی از چند فرضیه می‌شمارند."
+    },
+    {
+     "id": 4,
+     "parent": 3,
+     "lang": "Arabic",
+     "from_node": 4,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʕarab, aʕrāb",
+       "gloss": "Arabs; desert dwellers, Bedouin",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 5,
+     "parent": 4,
+     "lang": "Persian",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "arab",
+       "gloss": null,
+       "script": "عرب"
+      }
+     ],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "إعراب ، أعرابی ، معرّب"
+    },
+    {
+     "id": 6,
+     "parent": 4,
+     "lang": "Greek",
+     "from_node": 6,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "Áraps, gen. Árabos",
+       "gloss": "Arab",
+       "script": null
+      }
+     ],
+     "why": "Empty Greek box filled with Ἄραψ, gen. Ἄραβος, as in Klein p.98.",
+     "why_fa": "جعبهٔ خالی یونانی با Ἄραψ (اضافی Ἄραβος) پر شد، چنان‌که در کلاین آمده است."
+    },
+    {
+     "id": 102,
+     "parent": 6,
+     "lang": "Latin",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Arabs, acc. Arabem",
+       "gloss": "Arab",
+       "script": null
+      }
+     ],
+     "why": "Klein and Etymonline put Latin Arabs (acc. Arabem) between Greek and French; Greek could not give French directly.",
+     "why_fa": "کلاین و اتیمولاین میان یونانی و فرانسوی مرحلهٔ لاتینی Arabs (رایی Arabem) را می‌آورند؛ فرانسوی نمی‌توانست مستقیماً از یونانی بگیرد."
+    },
+    {
+     "id": 7,
+     "parent": 102,
+     "lang": "French",
+     "from_node": 7,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "Arabi, Arabe",
+       "gloss": "Arab",
+       "script": null
+      }
+     ],
+     "why": "The French box now hangs from Latin Arabem and is filled with Old French Arabi / French Arabe (Klein, Etymonline).",
+     "why_fa": "جعبهٔ فرانسوی اکنون زیر لاتینی Arabem است و با فرانسهٔ کهن Arabi / فرانسوی Arabe پر شده است."
+    },
+    {
+     "id": 8,
+     "parent": 7,
+     "lang": "English",
+     "from_node": 8,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Arab",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 9,
+     "parent": 0,
+     "lang": "Hebrew",
+     "from_node": 9,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʕāḇar",
+       "gloss": "he passed across",
+       "script": "עָבַר"
+      },
+      {
+       "translit": "ʕiḇrī",
+       "gloss": "Hebrew, 'he who came from across (the River)'",
+       "script": "עִבְרִי"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 10,
+     "parent": 9,
+     "lang": "Aramaic",
+     "from_node": 10,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʕiḇray, ʕeḇray",
+       "gloss": "Hebrew",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 11,
+     "parent": 10,
+     "lang": "Arabic",
+     "from_node": 11,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ʕibrī, ʕibrānī",
+       "gloss": "Hebrew",
+       "script": "عبری، عبرانی"
+      }
+     ],
+     "why": "Empty Arabic box filled with ʕibrī / ʕibrānī; modern sources find the Aramaic > Arabic route likely (the -ān- points to Syriac ʕeḇrāyā) but undocumented.",
+     "why_fa": "جعبهٔ خالی عربی با عِبری / عِبرانی پر شد؛ گذر از آرامی به عربی محتمل است (پسوند -ān- به سریانی ʕeḇrāyā اشاره دارد) ولی در منابع ثبت نشده است."
+    },
+    {
+     "id": 12,
+     "parent": 11,
+     "lang": "Persian",
+     "from_node": 12,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ebri",
+       "gloss": "Hebrew",
+       "script": "عبری"
+      },
+      {
+       "translit": "ebrâni",
+       "gloss": "Hebrew",
+       "script": "عبرانی"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 13,
+     "parent": 10,
+     "lang": "Greek",
+     "from_node": 13,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Hebraîos",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 14,
+     "parent": 13,
+     "lang": "Latin",
+     "from_node": 14,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Hebraeus",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 103,
+     "parent": 14,
+     "lang": "Old French",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Ebreu, Ebrieu",
+       "gloss": "Hebrew",
+       "script": null
+      }
+     ],
+     "why": "Klein p.712 and Etymonline give Old French Ebreu between Latin Hebraeus and English.",
+     "why_fa": "کلاین (ص ۷۱۲) و اتیمولاین میان لاتینی Hebraeus و انگلیسی، فرانسهٔ کهن Ebreu را می‌آورند."
+    },
+    {
+     "id": 104,
+     "parent": 103,
+     "lang": "Middle English",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Ebreu",
+       "gloss": "Hebrew",
+       "script": null
+      }
+     ],
+     "why": "Middle English Ebreu is the stage before modern Hebrew; the H- was restored from Latin only in the 16th century (Klein, Etymonline).",
+     "why_fa": "انگلیسی میانه Ebreu مرحلهٔ پیش از Hebrew است؛ H- آغازین تنها در سدهٔ ۱۶م به پیروی از لاتینی بازگردانده شد."
+    },
+    {
+     "id": 15,
+     "parent": 104,
+     "lang": "English",
+     "from_node": 15,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "Hebrew",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "English Hebrew comes from Middle English Ebreu < Old French Ebreu, not straight from Latin (Klein p.712).",
+     "why_fa": "Hebrew انگلیسی از انگلیسی میانه Ebreu و فرانسهٔ کهن Ebreu آمده، نه مستقیماً از لاتینی."
+    }
+   ],
+   "detached": []
+  }
+ ]
+}

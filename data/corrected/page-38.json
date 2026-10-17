@@ -1,0 +1,237 @@
+{
+ "pdf_page": 38,
+ "book_page": 8,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*āhu-",
+    "lang": "Avestan (unattested)",
+    "gloss": "defect, fault",
+    "change": "corrected",
+    "why": "Mo'in (BQT:72) posits an Avestan ahu 'defect', but Bartholomae has no such headword; the attested family is āhita- 'defiled' / āhiti- 'blemish', and the vowel is long throughout, so the apex is starred as unattested.",
+    "why_fa": "معین (برهان قاطع، ص ۷۲) اسمی اوستایی به شکل ahu «عیب» فرض کرده، اما بارتولومه چنین سرواژه‌ای ندارد؛ آنچه گواهی شده خانوادهٔ āhita- «آلوده» و āhiti- «آلودگی، لکه» است و واکه در همه کشیده است، پس رأس با ستاره و به‌عنوان صورت ناگواهی‌شده آمده است."
+   },
+   "summary": "Bartholomae derives Pahlavi āhōg and Persian āhū directly from Avestan āhita-, so Nourai's two branches become one, and the root box is starred as an unattested form. Nāhīd now goes through Middle Persian Anāhīd; Ānāhitā is a modern learned borrowing taken straight from Avestan.",
+   "summary_fa": "بارتولومه āhōg پهلوی و «آهو»ی فارسی را یکراست از āhita- اوستایی می‌گیرد، پس دو شاخهٔ نمودار نورایی یکی می‌شوند و جعبهٔ ریشه صورتی ناگواهی‌شده (ستاره‌دار) است. «ناهید» از راه Anāhīd فارسی میانه رسیده و «آناهیتا» وام‌گیری عالمانهٔ امروزی مستقیم از اوستایی است.",
+   "nodes": [
+    {
+     "id": 3,
+     "parent": 0,
+     "lang": "Avestan",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "āhita-",
+       "gloss": "dirty, faulty, defiled",
+       "script": null
+      },
+      {
+       "translit": "an-āhita-",
+       "gloss": "not dirty, clean, innocent, spotless",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 1,
+     "parent": 3,
+     "lang": "Pahlavi",
+     "from_node": 1,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "āhōg",
+       "gloss": "fault, blemish",
+       "script": null
+      }
+     ],
+     "why": "Bartholomae (AiW col. 345) puts Pahlavi āhōk under Avestan āhita- itself, so the node hangs from āhita-, not from the root box; the form is written with MacKenzie's long ā- and -g (CPD āhōg).",
+     "why_fa": "بارتولومه āhōk پهلوی را زیر خودِ āhita- اوستایی می‌آورد، پس این گره از āhita- آویخته است نه از جعبهٔ ریشه؛ صورت نیز به شیوهٔ مکنزی با الف کشیده و -g (āhōg) نوشته شده است."
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "āhū 2",
+       "gloss": "defect, fault",
+       "script": "آهو۲"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 101,
+     "parent": 3,
+     "lang": "Middle Persian",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Anāhīd",
+       "gloss": "immaculate; a goddess; the planet Venus",
+       "script": null
+      }
+     ],
+     "why": "MacKenzie (CPD p.9) and Nyberg give Middle Persian anāhīd (ʾnʾhyt') as the step between Avestan anāhitā- and New Persian Nāhīd.",
+     "why_fa": "مکنزی و نیبرگ Anāhīd فارسی میانه را میان anāhitā- اوستایی و «ناهید» فارسی نو می‌آورند."
+    },
+    {
+     "id": 4,
+     "parent": 3,
+     "lang": "Persian",
+     "from_node": 4,
+     "change": "split",
+     "words": [
+      {
+       "translit": "Ānāhitā",
+       "gloss": "\"innocent, clean\", a female name",
+       "script": "آناهیتا"
+      }
+     ],
+     "why": "Ānāhitā stays directly under Avestan anāhitā- because it is a modern learned borrowing of the Avestan form; Nāhīd, the inherited form, moved to the new node under Middle Persian Anāhīd.",
+     "why_fa": "«آناهیتا» زیر anāhitā- اوستایی می‌ماند، زیرا وام‌گیری عالمانهٔ امروزی از صورت اوستایی است؛ «ناهید» که صورت ارثی است به گرهٔ تازه زیر Anāhīd فارسی میانه رفته است."
+    },
+    {
+     "id": 102,
+     "parent": 101,
+     "lang": "Persian",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "Nāhīd",
+       "gloss": "\"innocent, clean\", a female name; the planet Venus",
+       "script": "ناهید"
+      }
+     ],
+     "why": "Split off from Nourai's box: Nāhīd continues Middle Persian Anāhīd with loss of the initial a- (Hübschmann, Persische Studien §19; MacKenzie 'N nāhīd').",
+     "why_fa": "از گرهٔ ۴ نورایی جدا شده است: «ناهید» دنبالهٔ Anāhīd فارسی میانه است که الفِ آغازینش افتاده (هوبشمان، مطالعات فارسی §۱۹؛ مکنزی)."
+    }
+   ],
+   "detached": []
+  },
+  {
+   "entry": 1,
+   "root": {
+    "name": "*h₂ey-",
+    "lang": "Indo-European",
+    "gloss": "to give, allot",
+    "change": "corrected",
+    "why": "Pokorny's 3. ai- 'geben, zuteilen' is written today with an initial laryngeal, *h₂ey- (Hittite pa-i, Tocharian B ai-).",
+    "why_fa": "ریشهٔ ai- پوکورنی «دادن، بخش کردن» امروز با حنجره‌ای آغازین به صورت *h₂ey- نوشته می‌شود (گواه: pa-i هیتی و ai- تخاری)."
+   },
+   "summary": "The root is written with its modern laryngeal (*h₂ey-), and the Greek verb is corrected to diaitân. English diet now comes down through Greek díaita, Latin diaeta and Old French diete.",
+   "summary_fa": "ریشه با حنجرهٔ امروزی (*h₂ey-) نوشته شده و فعل یونانی به diaitân درست شده است؛ diet انگلیسی اکنون از راه δίαιτا یونانی، diaeta لاتینی و diete فرانسهٔ کهن می‌رسد.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Avestan",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "aēta-",
+       "gloss": "due share, portion",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 0,
+     "lang": "Greek",
+     "from_node": 2,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "diaitân",
+       "gloss": "to arbitrate; to decide on, lead one's life",
+       "script": "διαιτᾶν"
+      }
+     ],
+     "why": "'dia-ithan' is a misprint in the book: Watkins, Nourai's source, writes diaitan (διαιτᾶν), and Pokorny and Klein spell it the same way, with no θ.",
+     "why_fa": "«dia-ithan» غلط چاپی کتاب است: واتکینز که مأخذ نورایی است diaitan (διαιτᾶν) می‌نویسد و پوکورنی و کلاین نیز همین را دارند؛ در واژه θ نیست."
+    },
+    {
+     "id": 101,
+     "parent": 2,
+     "lang": "Greek",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "díaita",
+       "gloss": "way of living, regimen",
+       "script": "δίαιτα"
+      }
+     ],
+     "why": "The noun δίαιτα, derived from the verb, is the word that actually passed into Latin (Pokorny, Klein, Skeat).",
+     "why_fa": "اسمِ δίαιτα که از این فعل ساخته شده، همان واژه‌ای است که به لاتینی رفته است (پوکورنی، کلاین، اسکیت)."
+    },
+    {
+     "id": 102,
+     "parent": 101,
+     "lang": "Latin",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "diaeta",
+       "gloss": "prescribed way of life, regimen",
+       "script": null
+      }
+     ],
+     "why": "Latin diaeta, Medieval Latin dieta, is the borrowing of Greek δίαιτα (Klein, Skeat, Funk & Wagnalls).",
+     "why_fa": "diaeta لاتینی (در لاتینی میانه dieta) وام‌گرفتهٔ δίαιτα یونانی است (کلاین، اسکیت، فانک و واگنالز)."
+    },
+    {
+     "id": 103,
+     "parent": 102,
+     "lang": "Old French",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "diete",
+       "gloss": "food, fare, regimen",
+       "script": null
+      }
+     ],
+     "why": "Old French diete (13th c.) is the source of Middle English diete (Klein, Skeat, Etymonline).",
+     "why_fa": "diete فرانسهٔ کهن (سدهٔ ۱۳م) سرچشمهٔ diete انگلیسی میانه است (کلاین، اسکیت، اتیم‌آنلاین)."
+    },
+    {
+     "id": 3,
+     "parent": 103,
+     "lang": "English",
+     "from_node": 3,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "diet",
+       "gloss": "fare, food, regimen",
+       "script": null
+      }
+     ],
+     "why": "English diet came through Latin diaeta and Old French diete, not straight from the Greek verb; only diet 'food' belongs here, since diet 'assembly' comes from Latin dies 'day'.",
+     "why_fa": "diet انگلیسی از راه diaeta لاتینی و diete فرانسهٔ کهن رسیده است نه مستقیم از فعل یونانی؛ تنها diet «خوراک» از این ریشه است و diet «مجلس» از dies لاتینی «روز» می‌آید."
+    }
+   ],
+   "detached": []
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "pdf_page": 46,
+ "book_page": 16,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*h₂elh₁-",
+    "lang": "Indo-European",
+    "gloss": "to grind",
+    "change": "corrected",
+    "why": "Nourai's 'Al 2' is Pokorny's '5. al-' (Watkins al-⁴); the modern reconstruction is *h₂elh₁- (LIV 277, Cheung).",
+    "why_fa": "«Al 2» شمارهٔ خودِ نورایی برای ریشهٔ «۵. al-» پوکورنی (al-⁴ واتکینز) است؛ نگارش امروزی این ریشه *h₂elh₁- است."
+   },
+   "summary": "The etymology stands; the modern tree only inserts the Proto-Iranian participle *ārta- 'ground' as the common source of Avestan aša-, Sogdian ʾrtk and Persian ârd (via Middle Persian ārd), since ârd cannot descend from Avestan aša-, and fixes the Sogdian gloss 'flower' to 'flour'.",
+   "summary_fa": "ریشه‌شناسی درست است؛ در نمودار امروزی تنها صفت فعلی ایرانی آغازین *ārta- «آسیاشده» به‌عنوان سرچشمهٔ مشترک aša- اوستایی، ʾrtk سغدی و «آرد» فارسی (از راه ārd فارسی میانه) افزوده شده، زیرا «آرد» نمی‌تواند از aša- اوستایی آمده باشد؛ و معنای خانهٔ سغدی از «flower» به «flour» (آرد) درست شده است.",
+   "nodes": [
+    {
+     "id": 101,
+     "parent": 0,
+     "lang": "Old Iranian (reconstructed)",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "*ārta-",
+       "gloss": "ground (of grain)",
+       "script": null
+      }
+     ],
+     "why": "Nourai's 'arta' is Bartholomae's pre-form 'aus ir. *ārta-', not a second Avestan word; this verbal adjective (< PIE *h₂l̥h₁-tós) is the common source of the Avestan, Sogdian and Persian forms.",
+     "why_fa": "«arta» در خانهٔ اوستایی نورایی همان صورت پیشین بارتولومه («از ایرانی *ārta-») است نه واژه‌ای دوم در اوستا؛ این صفت فعلی (از *h₂l̥h₁-tós) سرچشمهٔ مشترک صورت‌های اوستایی، سغدی و فارسی است."
+    },
+    {
+     "id": 1,
+     "parent": 101,
+     "lang": "Avestan",
+     "from_node": 1,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "aša-",
+       "gloss": "ground (of grain)",
+       "script": null
+      }
+     ],
+     "why": "Avestan aša- continues Ir. *ārta- (Avestan *rt > š), so it hangs from the new *ārta- node; 'arta' moved to that node, and the gloss is corrected from 'to grind' to 'ground', since aša- is the participle (Bartholomae, Cheung).",
+     "why_fa": "aša- اوستایی دنبالهٔ *ārta- ایرانی است (*rt در اوستایی š می‌شود)، پس زیر گرهٔ تازهٔ *ārta- آمده است؛ «arta» به همان گره رفته و معنا نیز از «آسیا کردن» به «آسیاشده» اصلاح شده، چون aša- صفت مفعولی است نه فعل (بارتولومه، چونگ)."
+    },
+    {
+     "id": 102,
+     "parent": 101,
+     "lang": "Middle Persian",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "ārd",
+       "gloss": "flour",
+       "script": null
+      }
+     ],
+     "why": "MacKenzie (CPD p.11) gives Middle Persian ard 'flour' (ʾlt, ideogram KHMA); Mo'in's note on Borhān gives Pahlavi ārt. Nourai skips this stage.",
+     "why_fa": "مکنزی (ص ۱۱) ārd «آرد» فارسی میانه را (به خط ʾlt و هزوارش KHMA) آورده و معین نیز در حاشیهٔ برهان پهلوی ārt را یاد کرده است؛ نورایی این مرحله را نیاورده است."
+    },
+    {
+     "id": 2,
+     "parent": 102,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "ârd",
+       "gloss": "flour",
+       "script": "آرد"
+      }
+     ],
+     "why": "NP ârd is a sister of Avestan aša-, not its descendant: Persian keeps -rt- > -rd, while š is an Avestan-only change. It continues Middle Persian ārd < Ir. *ārta-.",
+     "why_fa": "«آرد» خواهرِ aša- اوستایی است نه فرزند آن: فارسی -rt- را نگاه داشته و به -rd رسانده، در حالی که تبدیل به š ویژهٔ اوستاست. «آرد» دنبالهٔ ārd فارسی میانه و آن از *ārta- ایرانی است."
+    },
+    {
+     "id": 3,
+     "parent": 101,
+     "lang": "Sogdian",
+     "from_node": 3,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "ʾrtk",
+       "gloss": "flour",
+       "script": null
+      }
+     ],
+     "why": "Sogdian ʾrtk (artē) is *ārta- plus the suffix -k, so it hangs from the *ārta- node; the gloss is also corrected: the book's 'flower' is a misprint for 'flour' (Gharib SOD p.59 no.1498).",
+     "why_fa": "سغدی ʾrtk (artē) همان *ārta- با پسوند -k است، پس زیر گرهٔ *ārta- آمده؛ معنا نیز درست شده است: «flower» در کتاب غلط چاپی «flour» (آرد) است (قریب، ص ۵۹، شمارهٔ ۱۴۹۸)."
+    },
+    {
+     "id": 4,
+     "parent": 0,
+     "lang": "Greek",
+     "from_node": 4,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "alein",
+       "gloss": "to grind",
+       "script": null
+      },
+      {
+       "translit": "al-euron",
+       "gloss": "wheat flour",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 5,
+     "parent": 4,
+     "lang": "English",
+     "from_node": 5,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "aleurone",
+       "gloss": "protein layer of cereal grains",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": []
+  }
+ ]
+}

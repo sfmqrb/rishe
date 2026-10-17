@@ -1,0 +1,333 @@
+{
+ "pdf_page": 31,
+ "book_page": 1,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*h₂ep-",
+    "lang": "Indo-European",
+    "gloss": "water, river",
+    "change": "corrected",
+    "why": "Nourai's 'Ab 1, Ap 1' joins Pokorny's two lemmas ab- and 2. ap-, which modern scholarship (NIL, ESIJa) treats as one laryngeal root *h₂ep-.",
+    "why_fa": "«Ab 1, Ap 1» نورایی دو سرواژهٔ پوکورنی (ab- و ap- ۲) را یکجا می‌آورد؛ پژوهش امروزی این دو را یک ریشه با همخوان حلقی، *h₂ep-، می‌داند."
+   },
+   "summary": "The water family stays, but three of the four Pahlavi compounds (āftāb, ābādān, āxwarr) and the whole âbnîk > anbīq > alembic branch are detached, since anbīq comes from Greek ámbix. Julep gains its Arabic, Latin and French steps, and Panjāb is moved under Persian āb.",
+   "summary_fa": "خانوادهٔ آب برجاست، اما سه ترکیب از چهار ترکیب پهلوی (آفتاب، آبادان، آخور) و سراسر شاخهٔ آبنیک ← انبیق ← alembic جدا شده‌اند، چون انبیق از یونانی ámbix است. julep میانجی‌های عربی، لاتینی و فرانسوی را بازیافته و پنجاب، که ترکیبی فارسی است نه سنسکریت، زیر آبِ فارسی نشسته است.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Avestan / Middle Persian",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "āp",
+       "gloss": "water",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Middle Persian",
+     "from_node": 2,
+     "change": "split",
+     "words": [
+      {
+       "translit": "zahābag",
+       "gloss": "spring, source",
+       "script": null
+      }
+     ],
+     "why": "Only zahābag (zah 'spring' + āb, MacKenzie) really contains āb 'water'; āftāb, ābādān and āxwarr are other formations and are detached.",
+     "why_fa": "از چهار ترکیب این گره تنها «زهابگ» (زه «چشمه» + آب، به گواهی مکنزی) به‌راستی آبِ «water» دارد؛ آفتاب، آبادان و آخور ساخت دیگری دارند و از این خانواده جدا شده‌اند."
+    },
+    {
+     "id": 3,
+     "parent": 2,
+     "lang": "Persian",
+     "from_node": 3,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âb",
+       "gloss": "water",
+       "script": "آب"
+      },
+      {
+       "translit": "zahâb",
+       "gloss": "spring, river",
+       "script": "زهاب ( زاب )"
+      }
+     ],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "آبان ، گلاب ، آبشار ، آسیاب"
+    },
+    {
+     "id": 101,
+     "parent": 3,
+     "lang": "Persian",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "golâb",
+       "gloss": "rose water",
+       "script": "گلاب"
+      }
+     ],
+     "why": "Klein, AHD and Etymonline trace julep to Persian gulāb = gul 'rose' + āb 'water'; the chart lists گلاب only among the extra words.",
+     "why_fa": "کلاین، فرهنگ هریتیج و اتیم‌آنلاین julep را به «گلاب» فارسی (گل + آب) می‌رسانند؛ نمودار نورایی گلاب را تنها در فهرست واژه‌های افزوده آورده است."
+    },
+    {
+     "id": 102,
+     "parent": 101,
+     "lang": "Arabic",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "julāb",
+       "gloss": "rose water, syrup",
+       "script": "جلاب"
+      }
+     ],
+     "why": "Modern sources name Arabic julāb, with g replaced by j, as the step between Persian gulāb and the European forms.",
+     "why_fa": "عربی «جُلاب»، معرّب گلاب با تبدیل گ به ج، میانجی میان فارسی و زبان‌های اروپایی است."
+    },
+    {
+     "id": 103,
+     "parent": 102,
+     "lang": "Medieval Latin",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "julapium",
+       "gloss": "syrup",
+       "script": null
+      }
+     ],
+     "why": "Medieval Latin julapium carried the Arabic word into Romance.",
+     "why_fa": "لاتینی میانه julapium واژهٔ عربی را به زبان‌های رومی رساند."
+    },
+    {
+     "id": 104,
+     "parent": 103,
+     "lang": "Old French",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "julep",
+       "gloss": "syrupy drink",
+       "script": null
+      }
+     ],
+     "why": "English took the word from Old French julep (late 14th c.).",
+     "why_fa": "انگلیسی واژه را در اواخر سدهٔ ۱۴م از فرانسهٔ کهن julep گرفت."
+    },
+    {
+     "id": 4,
+     "parent": 104,
+     "lang": "English",
+     "from_node": 4,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "julep",
+       "gloss": "syrupy (medicinal) drink",
+       "script": null
+      }
+     ],
+     "why": "The ultimate source (Persian gulāb) is right, but the word reached English via Arabic julāb, Medieval Latin julapium and Old French julep, not directly from Persian.",
+     "why_fa": "سرچشمهٔ نهایی (گلاب فارسی) درست است، اما واژه از راه عربی جلاب، لاتینی میانه و فرانسهٔ کهن به انگلیسی رسیده است، نه مستقیم از فارسی."
+    },
+    {
+     "id": 11,
+     "parent": 0,
+     "lang": "Middle Persian",
+     "from_node": 11,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "*ābrēz, *ābrēk",
+       "gloss": "water-pourer",
+       "script": null
+      },
+      {
+       "translit": "*anāb",
+       "gloss": "without water, undiluted (wine), pure",
+       "script": null
+      }
+     ],
+     "why": "Both are reconstructed, not attested Pahlavi lemmas (Jeffery: āp + rēz; Horn no. 1015: an- privative + āp), so they are starred.",
+     "why_fa": "هر دو صورت بازسازی‌شده‌اند نه گواهی‌شده (جفری: آب + ریز؛ هرن، ش ۱۰۱۵: an- نفی + آب)، پس با ستاره نشان داده شده‌اند."
+    },
+    {
+     "id": 12,
+     "parent": 11,
+     "lang": "Persian",
+     "from_node": 12,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âbrîz",
+       "gloss": "ewer, urn",
+       "script": "آبریز"
+      },
+      {
+       "translit": "nâb",
+       "gloss": "pure",
+       "script": "ناب"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 13,
+     "parent": 11,
+     "lang": "Arabic",
+     "from_node": 13,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ibrīq",
+       "gloss": "ewer, water-jug",
+       "script": "إبريق"
+      }
+     ],
+     "why": "Nourai's empty Arabic box is the pre-Islamic loan ibrīq (Qur'ān 56:18 abārīq) from Middle Persian/Parthian *ābrēk (Jeffery pp. 46-47).",
+     "why_fa": "جعبهٔ خالی عربی در نمودار همان «إبریق» است، وام‌واژه‌ای پیش از اسلام از فارسی میانه یا پارتی *ābrēk که در قرآن (واقعه، ۱۸) به صورت أباریق آمده است (جفری)."
+    },
+    {
+     "id": 14,
+     "parent": 13,
+     "lang": "Persian",
+     "from_node": 14,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ebrîq",
+       "gloss": "a water container",
+       "script": "إبریق"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 15,
+     "parent": 3,
+     "lang": "Persian",
+     "from_node": 15,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "panjâb",
+       "gloss": "five waters / rivers",
+       "script": "پنجاب"
+      }
+     ],
+     "why": "Panjāb is a Persian compound panj 'five' + āb 'water' coined in the Perso-Islamic period (a calque of Sanskrit Pañcanada); there is no Sanskrit *pañc-āp, so it hangs from Persian āb.",
+     "why_fa": "پنجاب ترکیبی فارسی از پنج + آب است که در دورهٔ فارسی‑اسلامی و به گرته‌برداری از نام سنسکریت پَنچَنَده ساخته شد؛ در سنسکریت ترکیبی چون *pañc-āp نیست، پس زیر «آب» فارسی می‌نشیند."
+    },
+    {
+     "id": 16,
+     "parent": 15,
+     "lang": "English",
+     "from_node": 16,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Punjab",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 2,
+     "words": "âp-tab (MP āftāb)",
+     "belongs_to": "Proto-Iranian *abi-tāpah 'shining upon': preverb abi- + tāp- 'shine'",
+     "why": "Cheung and Wiktionary derive āftāb from abi- + tāp-; Horn separated this āb 'lustre' from āb 'water'.",
+     "why_fa": "چونگ و ویکی‌واژه آفتاب را از پیشوند abi- + ستاک tāp- «تابیدن» می‌دانند و هرن نیز آب «فروغ» را از آب «water» جدا کرده است."
+    },
+    {
+     "from_node": 2,
+     "words": "ô-pât-ân (ābādān)",
+     "belongs_to": "*ā-pāta- 'protected, cultivated' (root pā- 'protect') + -ān",
+     "why": "Nyberg and Horn derive ābādān from *ā-pāta- with no water element; the āb + pā- reading is Farahvashi's own hypothesis, and the city was Arabic ʿAbbādān until 1935.",
+     "why_fa": "نیبرگ و هرن آبادان را از *ā-pāta- «پاسبانی‌شده، آبادکرده» می‌دانند، بی هیچ جزء «آب»؛ خوانش آب + پاییدن نظر شخصی فرهوشی است و نام شهر تا ۱۳۱۴ عبّادان بود."
+    },
+    {
+     "from_node": 2,
+     "words": "av-xur (āxwarr)",
+     "belongs_to": "preverb ā- + xwar- 'eat': 'eating-place'",
+     "why": "MacKenzie and Wiktionary analyse āxwarr as ā- + xwar- 'eat'; the 'drinking' sense via āb is a folk etymology.",
+     "why_fa": "مکنزی و ویکی‌واژه آخور را از پیشوند ā- + xwar- «خوردن» یعنی «خورگاه» می‌دانند؛ پیوند آن با آب ریشه‌شناسی عامیانه است."
+    },
+    {
+     "from_node": 5,
+     "words": "âbnîk «آبنیک»",
+     "belongs_to": "Greek ámbix 'spouted cup, cap of a still' (via Syriac ʾambīqā > Arabic al-anbīq); not *h₂ep-",
+     "why": "Asbaghi's lone 'probably āb-nīk' is against every modern source; no dictionary has āb-nīk as a common noun (Dehkhoda: only a village name).",
+     "why_fa": "«آبنیک» تنها حدس اصباغی است و همهٔ منابع نو با آن مخالف‌اند؛ هیچ فرهنگی آن را واژه‌ای عام ثبت نکرده و در دهخدا تنها نام دهی است."
+    },
+    {
+     "from_node": 6,
+     "words": "al-anbîq, al-ambîq",
+     "belongs_to": "Greek ámbix 'spouted cup, cap of a still' (via Syriac ʾambīqā > Arabic al-anbīq); not *h₂ep-",
+     "why": "Arabic al-anbīq is the Greek ámbix borrowed via Syriac (Klein, Webster's, Mo'in); Nourai's own note gives this view.",
+     "why_fa": "انبیق عربی همان ámbix یونانی است که از راه سریانی وام گرفته شده؛ یادداشت خود نورایی نیز همین را می‌گوید.",
+     "under": 5
+    },
+    {
+     "from_node": 7,
+     "words": "anbîq «انبیق»",
+     "belongs_to": "Arabic anbīq, ultimately Greek ámbix",
+     "why": "Same origin as its parent: a loan from Arabic anbīq.",
+     "why_fa": "هم‌ریشه با گرهٔ بالایی: وام از انبیق عربی.",
+     "under": 6
+    },
+    {
+     "from_node": 8,
+     "words": "alambique",
+     "belongs_to": "Arabic al-anbīq < Greek ámbix",
+     "why": "Same origin as its parent: Spanish took al-anbīq with the article.",
+     "why_fa": "هم‌ریشه با گرهٔ بالایی: اسپانیایی الأنبیق را با حرف تعریف گرفت.",
+     "under": 6
+    },
+    {
+     "from_node": 9,
+     "words": "alambic",
+     "belongs_to": "Old Spanish alambique or Medieval Latin alembicus < Arabic al-anbīq < Greek ámbix",
+     "why": "Same origin as its parent.",
+     "why_fa": "هم‌ریشه با گرهٔ بالایی.",
+     "under": 8
+    },
+    {
+     "from_node": 10,
+     "words": "alembic",
+     "belongs_to": "Old French alambic < Arabic al-anbīq < Greek ámbix",
+     "why": "Same origin as its parent.",
+     "why_fa": "هم‌ریشه با گرهٔ بالایی.",
+     "under": 9
+    }
+   ]
+  }
+ ]
+}

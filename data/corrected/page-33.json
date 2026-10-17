@@ -1,0 +1,296 @@
+{
+ "pdf_page": 33,
+ "book_page": 3,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*ʾab- / *ʾabw-",
+    "lang": "Proto-Semitic",
+    "gloss": "father",
+    "change": "corrected",
+    "why": "Nourai's 'Ab 2' is right; modern sources give the Proto-Semitic reconstruction *ʾabw- (Klein: possibly a child's word *ab(a)).",
+    "why_fa": "ریشهٔ «Ab 2» درست است؛ صورت بازسازی‌شدهٔ سامی آغازین آن *ʾabw- است که کلاین آن را واژه‌ای از زبان کودکانه می‌داند."
+   },
+   "summary": "The gibbon branch is removed: Persian būzīna is an inherited Iranian word, Hindustani bojīna is unattested and French gibbon is of unknown origin. Arabic Ibrāhīm now comes via Aramaic, and misprints borrâco and Jaob are fixed; the abū ʿaraq > borage link stays but is disputed.",
+   "summary_fa": "شاخهٔ گیبون حذف شد: «بوزینه» واژه‌ای ارثی ایرانی است، bojīna هندوستانی گواهی نشده و gibbon فرانسوی خاستگاه نامعلوم دارد. «ابراهیم» عربی اکنون از راه آرامی آمده و خطاهای چاپی borrâco و Jaob درست شده‌اند؛ پیوند «أبو عرق» با borage مانده ولی محل اختلاف است.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Arabic",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ab, abū (root ʾ-b-w)",
+       "gloss": "father",
+       "script": "أب، أبو"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "abu",
+       "gloss": "father",
+       "script": "ابو ( ابوی )"
+      }
+     ],
+     "why": "",
+     "why_fa": "",
+     "script_extra": "ابوعلی سینا ، ابوالفضل ، ابوالقاسم ، ابوالحسن ، ابوالفتح ، بوالهوس"
+    },
+    {
+     "id": 3,
+     "parent": 1,
+     "lang": "Arabic",
+     "from_node": 3,
+     "change": "split",
+     "words": [
+      {
+       "translit": "abū ʿaraq",
+       "gloss": "\"father of sweat\", Arab physicians' name for borage",
+       "script": "أبو عرق"
+      }
+     ],
+     "why": "abū ʿaraq stays (Klein, AHD, Lokotsch no. 13, Pihan); abū-zīnā is detached, since no Arabic lexicon lists it and it was invoked only to explain Persian būzīna, which is not an Arabic loan.",
+     "why_fa": "«أبو عرق» نام عربی گاوزبان نزد پزشکان بوده و در این خانواده می‌ماند؛ اما «أبو زنا» در هیچ فرهنگ عربی نیامده و تنها برای توضیح «بوزینه» ساخته شده، پس از این گره جدا شد."
+    },
+    {
+     "id": 8,
+     "parent": 3,
+     "lang": "Medieval Latin",
+     "from_node": 8,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "borrāgō",
+       "gloss": "borage",
+       "script": null
+      }
+     ],
+     "why": "'borrâco' is a misprint in the book for borrāgō. The Arabic source is itself disputed: Klein, AHD and Lokotsch accept abū ʿaraq, but Skeat, Webster and the OED derive borrāgō from Latin borra 'rough hair' + -āgō.",
+     "why_fa": "«borrâco» خطای چاپی کتاب است و صورت درست borrāgō است. خودِ پیوند با عربی نیز محل اختلاف است: کلاین و لوکوچ و فرهنگ میراث امریکایی آن را از «أبو عرق» می‌دانند، ولی اسکیت و وبستر و آکسفورد آن را از لاتینی borra «موی زبر» می‌گیرند."
+    },
+    {
+     "id": 9,
+     "parent": 8,
+     "lang": "Old French",
+     "from_node": 9,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "borrace, bourrache",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 10,
+     "parent": 9,
+     "lang": "English",
+     "from_node": 10,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "borage",
+       "gloss": "a herb used in salads",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 11,
+     "parent": 0,
+     "lang": "Hebrew",
+     "from_node": 11,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "ʾāḇ (abh)",
+       "gloss": "father",
+       "script": "אָב"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 12,
+     "parent": 11,
+     "lang": "English",
+     "from_node": 12,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Abot, Aboth",
+       "gloss": "'fathers', Mishnah tractate",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 13,
+     "parent": 11,
+     "lang": "Hebrew",
+     "from_node": 13,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "ʾAḇrāhām",
+       "gloss": "traditionally 'father of the multitude' (Gen. 17:5), probably a byform of Abram",
+       "script": null
+      },
+      {
+       "translit": "ʾAḇrām",
+       "gloss": "the father is exalted (Abram)",
+       "script": null
+      },
+      {
+       "translit": "ʾAḇnēr",
+       "gloss": "my father is light (Abner)",
+       "script": null
+      },
+      {
+       "translit": "ʾAḇšālōm",
+       "gloss": "father is peace (Absalom)",
+       "script": null
+      },
+      {
+       "translit": "ʾĂḇīgayil",
+       "gloss": "my father is rejoicing (Abigail)",
+       "script": null
+      },
+      {
+       "translit": "Yōʾāḇ",
+       "gloss": "the Lord is his father (Joab)",
+       "script": null
+      }
+     ],
+     "why": "Glosses tidied per modern sources: Abram is 'the father is exalted', not 'high father', and 'father of the multitude' for Abraham is the folk etymology of Genesis 17:5; modern scholarship treats Abraham as an expanded byform of Abram.",
+     "why_fa": "معنای «ابرام» درست‌تر «پدر برافراشته است» است، و «پدرِ انبوه» برای ابراهیم ریشه‌شناسی عامیانهٔ سفر پیدایش است؛ پژوهش امروزی ابراهیم را گونهٔ گسترش‌یافتهٔ ابرام می‌داند."
+    },
+    {
+     "id": 101,
+     "parent": 13,
+     "lang": "Aramaic (Syriac)",
+     "from_node": null,
+     "change": "added",
+     "words": [
+      {
+       "translit": "ʾAḇrāhām",
+       "gloss": "Abraham",
+       "script": null
+      }
+     ],
+     "why": "Jeffery argues, and Wiktionary agrees, that Arabic Ibrāhīm was borrowed from Christian Aramaic/Syriac, not directly from Hebrew; a direct Hebrew loan would have given *Abrāhām.",
+     "why_fa": "جفری، که مرجع خود نورایی است، و ویکی‌واژه نشان می‌دهند که «ابراهیم» عربی از آرامی/سریانی مسیحی گرفته شده نه مستقیم از عبری؛ وام مستقیم از عبری صورت *ابراهام را می‌داد."
+    },
+    {
+     "id": 14,
+     "parent": 101,
+     "lang": "Arabic",
+     "from_node": 14,
+     "change": "moved",
+     "words": [
+      {
+       "translit": "Ibrāhīm",
+       "gloss": "Abraham",
+       "script": "إبراهيم"
+      }
+     ],
+     "why": "Now hangs from the Aramaic step modern sources name; also respelled from Nourai's 'Abrahim' to the Qurʾānic Ibrāhīm.",
+     "why_fa": "اکنون زیر حلقهٔ آرامی آمده است؛ صورت «Abrahim» نیز به صورت قرآنی إبراهيم درست شد."
+    },
+    {
+     "id": 15,
+     "parent": 14,
+     "lang": "Persian",
+     "from_node": 15,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "Ebrâhîm",
+       "gloss": null,
+       "script": "ابراهیم"
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 16,
+     "parent": 13,
+     "lang": "English",
+     "from_node": 16,
+     "change": "corrected",
+     "words": [
+      {
+       "translit": "Abraham, Abram, Abner, Absalom, Abigail, Joab",
+       "gloss": null,
+       "script": null
+      }
+     ],
+     "why": "'Jaob' is a misprint in the book for Joab, as the parent node itself spells it.",
+     "why_fa": "«Jaob» خطای چاپی کتاب است و درست آن Joab است، چنان‌که در گرهٔ بالاتر هم درست آمده."
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 3,
+     "words": "abŭ-zînâ",
+     "belongs_to": "no such Arabic gibbon-name is attested",
+     "why": "No Arabic lexicon consulted lists abū zinā for the gibbon; it was invoked only to explain Persian būzīna, and phonetically would give *abuzenā.",
+     "why_fa": "«أبو زنا» به معنای بوزینه در هیچ فرهنگ عربی نیامده و از نظر آوایی هم به «بوزینه» نمی‌رسد."
+    },
+    {
+     "from_node": 4,
+     "words": "bŭzîneh «بوزینه ( بوزنه )»",
+     "belongs_to": "inherited Iranian word, cf. Pashto bīzo 'monkey'",
+     "why": "Hübschmann and Wiktionary treat būzīna as an inherited Iranian word attested early (pl. būzīnagān); Moʿin gives it no Arabic tag and the -īna suffix is Iranian.",
+     "why_fa": "بوزینه واژه‌ای ارثی ایرانی است (هم‌ریشه با پشتوِ bīzo) که زود گواهی شده؛ معین نشانهٔ عربی به آن نمی‌دهد و پسوند -ینه ایرانی است."
+    },
+    {
+     "from_node": 5,
+     "under": 4,
+     "words": "bojîna",
+     "belongs_to": "unattested; the Indian name of the gibbon is hūlak (hoolock)",
+     "why": "No Hindustani word bojīna can be documented; Hobson-Jobson records hoolock, and the OED says gibbon's supposed Indian source is found in no language there.",
+     "why_fa": "واژهٔ هندوستانی bojīna گواهی نشده است؛ نام هندی گیبون «هولک» است و آکسفورد می‌گوید خاستگاه هندیِ ادعایی gibbon در هیچ زبانی یافت نشده."
+    },
+    {
+     "from_node": 6,
+     "words": "French gibbon (empty box)",
+     "belongs_to": "unknown origin; perhaps a Northern Aslian language of Malaya (cf. Batek kəboɲ)",
+     "why": "The French word (brought by Dupleix, per Klein) is of unknown origin per the OED; Wiktionary's current proposal is a Northern Aslian source, not bojīna.",
+     "why_fa": "واژهٔ فرانسوی gibbon به گفتهٔ آکسفورد خاستگاه نامعلوم دارد و پیشنهاد ویکی‌واژه زبانی اصلی از شبه‌جزیرهٔ مالایاست، نه bojīna."
+    },
+    {
+     "from_node": 7,
+     "under": 6,
+     "words": "gibbon",
+     "belongs_to": "from French gibbon",
+     "why": "Same origin as its parent: English borrowed the French word in 1770.",
+     "why_fa": "از همان فرانسوی gibbon وام گرفته شده است."
+    }
+   ]
+  }
+ ]
+}

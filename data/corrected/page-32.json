@@ -1,0 +1,84 @@
+{
+ "pdf_page": 32,
+ "book_page": 2,
+ "made_by": "claude-opus-5",
+ "made_on": "2026-10-17",
+ "entries": [
+  {
+   "entry": 0,
+   "root": {
+    "name": "*h₂ep-",
+    "lang": "Indo-European",
+    "gloss": "water, river",
+    "change": "corrected",
+    "why": "Pokorny's two headwords ab- (IEW 1) and 2. āp- (IEW 51-52) are now reconstructed as one root *h₂ep-; Latin amnis and Old Irish ab come from an n-stem of the same root.",
+    "why_fa": "دو سرواژهٔ پوکورنی (ab- و ap-) امروز یک ریشهٔ واحد *h₂ep- شمرده می‌شوند و amnis لاتینی از ستاک نون‌دار همین ریشه است، نه از ریشه‌ای جداگانه."
+   },
+   "summary": "The water root and its Iranian line āp → āb stand, with āb 'lustre' and ābrū read as figurative uses of āb 'water'. āftāb 'sun' is detached (preverb *abi- + *tap- 'shine'), and the Arabic ubbaha with Persian obbahat is detached as a native Arabic word that Addi Shir wrongly derived from Persian āb-bahā.",
+   "summary_fa": "ریشهٔ «آب» و زنجیرهٔ ایرانی آن درست است و «آب» به معنی فروغ و «آبرو» کاربرد استعاری همان آب‌اند. «آفتاب» از پیشوند *abi- و ریشهٔ *tap- «تابیدن» است و از این خانواده جدا می‌شود؛ «أبهة» عربی و «ابهت» فارسی نیز از ریشهٔ بومی عربی ء‑ب‑ه‌اند و ادعای ادی شیر دربارهٔ «آب بها» پذیرفته نیست.",
+   "nodes": [
+    {
+     "id": 1,
+     "parent": 0,
+     "lang": "Avestan / Pahlavi",
+     "from_node": 1,
+     "change": "kept",
+     "words": [
+      {
+       "translit": "âp",
+       "gloss": "water",
+       "script": null
+      }
+     ],
+     "why": "",
+     "why_fa": ""
+    },
+    {
+     "id": 2,
+     "parent": 1,
+     "lang": "Persian",
+     "from_node": 2,
+     "change": "split",
+     "words": [
+      {
+       "translit": "âb",
+       "gloss": "lustre, sheen, honour (figurative use of âb 'water')",
+       "script": "آب"
+      },
+      {
+       "translit": "âberŭ",
+       "gloss": "\"water (sweat) of the face\", good reputation",
+       "script": "آبرو"
+      }
+     ],
+     "why": "âb 'lustre' and âbrū stay as figurative uses of âb 'water' (Horn's own footnote and Hübschmann doubt a separate âb 'Glanz'; Mo'in reads âbrū literally as 'sweat of the face', not 'facial shine'); âftâb goes to detached.",
+     "why_fa": "«آب» به معنی فروغ و «آبرو» همان آبِ «water» در کاربرد استعاری‌اند (هرن خود و هوبشمان واژهٔ جداگانهٔ «آب ۲» را نامطمئن می‌دانند، و معین معنای تحت‌اللفظی آبرو را «عرق رخسار» می‌گیرد نه «فروغ چهره»)؛ «آفتاب» از این گره جدا شد."
+    }
+   ],
+   "detached": [
+    {
+     "from_node": 2,
+     "words": "âftâb «آفتاب»",
+     "belongs_to": "Proto-Iranian *abi-tāpah (preverb *abi- 'upon' + *tap- 'to shine, heat'), MP āftāb, Parthian ābdāb 'sunshine'",
+     "why": "Cheung (2007, s.v. *tap) and Parthian ʾbdʾb show the first syllable is the preverb *abi- (as in āfarin), not âb 'water'; Horn's and Mo'in's âb + tâb analysis is rejected.",
+     "why_fa": "به گواهی چونگ و صورت پارتی ʾbdʾb، «آف» در آفتاب همان پیشوند *abi- است (چنان‌که در آفرین)، نه «آب»؛ تحلیل «آب + تاب» هرن و معین پذیرفته نیست."
+    },
+    {
+     "from_node": 3,
+     "words": "âb-bahâ; abboha (ubbaha أُبَّهَة)",
+     "belongs_to": "native Arabic root ʔ-b-h (abiha 'to take notice, be mindful'); âb-bahâ is only Addi Shir's proposed etymon",
+     "why": "Addi Shir (1908) called ubbaha Arabicised Persian âb bahâ, but Asbaghi (1988), al-Jawālīqī and al-ʿUnaysī do not list it as a loan, and a phrase âb bahâ would not give the geminated fuʿʿala shape.",
+     "why_fa": "ادی شیر «أبهة» را معرّب «آب بها» دانست، اما اصباغی، جوالیقی و العنیسی آن را دخیل نمی‌شمارند و واژه از ریشهٔ بومی ء‑ب‑ه است؛ «آب بها» هم با ساخت مشدد فُعَّلَة نمی‌خواند."
+    },
+    {
+     "from_node": 4,
+     "words": "obbohat «ابهت»",
+     "under": 3,
+     "belongs_to": "Persian loan from Arabic ubbaha 'grandeur, majesty' (root ʔ-b-h)",
+     "why": "A real Arabic loan in Persian (Mo'in tags it [ع.], 'greatness, splendour'), but since ubbaha is not from âb, it leaves the family with its parent; its sense is grandeur rather than 'elegance'.",
+     "why_fa": "وام‌واژهٔ عربی در فارسی است (معین: [ع.] بزرگی، شکوه، عظمت)؛ چون أبهة از «آب» نیست، همراه گرهٔ مادرش از این خانواده بیرون می‌رود."
+    }
+   ]
+  }
+ ]
+}
