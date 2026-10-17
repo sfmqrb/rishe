@@ -11,7 +11,6 @@ TEMPLATE = ROOT / "site" / "template.html"
 FA_TRANSLATIONS = ROOT / "data" / "translations" / "fa.json"
 VERIFICATION = ROOT / "data" / "verification"
 REFS_TABLE = VERIFICATION / "sources" / "refs_online.json"
-CORRECTED = ROOT / "data" / "corrected"
 
 VERDICTS = ("confirmed", "plausible", "disputed", "unverified", "transcription_suspect")
 
@@ -45,26 +44,6 @@ def attach_verification(pg, summary):
         summary["pages"].add(pg["pdf_page"])
 
 
-def attach_modern(pg, summary):
-    """Attach data/corrected/page-<pdf>.json (the modern tree of each chart, built from
-    the verification record) to the page's entries as e["modern"]."""
-    cf = CORRECTED / f"page-{pg['pdf_page']}.json"
-    if not cf.exists():
-        return
-    try:
-        c = json.loads(cf.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as e:
-        print(f"  ! skipping {cf}: {e}", file=sys.stderr)
-        return
-    centries = {ce.get("entry"): ce for ce in c.get("entries", [])}
-    for i, e in enumerate(pg.get("entries", [])):
-        ce = centries.get(i)
-        if not ce or e.get("root", {}).get("redirect"):
-            continue
-        e["modern"] = {k: ce.get(k) for k in ("root", "summary", "summary_fa", "nodes", "detached") if ce.get(k)}
-        summary["modern"] = summary.get("modern", 0) + 1
-
-
 def splice_empty(entry):
     """Remove content-free connector nodes, reparenting their children."""
     nodes = entry.get("nodes", [])
@@ -92,7 +71,6 @@ def load_pages(dirs, summary=None):
                 continue
             if summary is not None:
                 attach_verification(pg, summary)
-                attach_modern(pg, summary)
             for e in pg.get("entries", []):
                 splice_empty(e)
             pages[pg["pdf_page"]] = pg
@@ -147,7 +125,7 @@ def main(argv):
     out.write_text(html, encoding="utf-8")
     nv = sum(summary["nodes"].values())
     print(f"{out}: {len(pages)} pages, {n_entries} entries, {n_fa} fa strings, "
-          f"{nv}/{n_nodes} nodes verified on {summary['pages']} pages, {summary.get('modern', 0)} modern trees, {out.stat().st_size/1024:.0f} KB")
+          f"{nv}/{n_nodes} nodes verified on {summary['pages']} pages, {out.stat().st_size/1024:.0f} KB")
 
 
 if __name__ == "__main__":

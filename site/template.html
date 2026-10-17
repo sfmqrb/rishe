@@ -298,27 +298,6 @@
   .pderiv .vbadge { margin-inline-end: 8px; }
   .pderiv .parrow { font-family: var(--sans); font-size: 11.5px; color: var(--muted); letter-spacing: .04em; }
   .refab { text-decoration: none; border-bottom: 1px dotted var(--muted); cursor: help; }
-  /* ---- modern trees: the chart redrawn the way current scholarship draws it ---- */
-  :root { --m-kept: #2f9e5b; --m-corrected: #3b7dd8; --m-moved: #d29a2b; --m-split: #c27a2c; --m-added: #8a5bd6; --m-uncertain: #8a8f98; --m-detached: #d24b3e; }
-  .modetoggle { display: inline-flex; gap: 0; margin: 4px 0 12px; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; font-family: var(--sans); font-size: 13px; }
-  .modetoggle button { border: 0; background: transparent; color: var(--muted); padding: 6px 14px; cursor: pointer; font: inherit; }
-  .modetoggle button[aria-pressed="true"] { background: var(--gold); color: #fff; }
-  .modetoggle button:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
-  .msum { margin: 0 0 14px; padding: 8px 12px; border-inline-start: 3px solid var(--m-corrected); background: color-mix(in srgb, var(--m-corrected) 7%, var(--panel)); border-radius: 0 8px 8px 0; font-size: 13.5px; max-width: 680px; line-height: 1.5; }
-  html[lang="fa"] .msum { border-radius: 8px 0 0 8px; }
-  .msum .mtitle { font-family: var(--sans); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 2px; }
-  .mbadge { display: inline-block; font-family: var(--sans); font-size: 10.5px; font-weight: 700; letter-spacing: .04em; color: #fff; background: var(--mc, var(--m-kept)); border-radius: 999px; padding: 1px 8px 2px; vertical-align: 1px; white-space: nowrap; margin-inline-start: 6px; }
-  .card.m-added { border-style: dashed; }
-  .mwhy { margin-top: 6px; font-size: 12.5px; line-height: 1.45; color: var(--ink); padding-inline-start: 8px; border-inline-start: 2px solid var(--mc, var(--m-kept)); }
-  .mdet { margin: 18px 0 6px; max-width: 680px; }
-  .mdet h4 { font-family: var(--sans); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--m-detached); margin: 0 0 6px; }
-  .mdet .ditem { padding: 6px 10px; margin: 0 0 6px; border-inline-start: 3px solid var(--m-detached); background: color-mix(in srgb, var(--m-detached) 6%, var(--panel)); border-radius: 0 8px 8px 0; font-size: 13px; line-height: 1.45; }
-  html[lang="fa"] .mdet .ditem { border-radius: 8px 0 0 8px; }
-  .mdet .dwords { font-weight: 600; }
-  .mdet .dkids { margin: 6px 0 0; padding-inline-start: 14px; }
-  .mdet .dkids .ditem { margin-bottom: 4px; background: transparent; }
-  .mdet .dto { color: var(--muted); }
-  .mlegend { font-family: var(--sans); font-size: 11.5px; color: var(--muted); margin: -6px 0 12px; display: flex; flex-wrap: wrap; gap: 4px 2px; align-items: center; }
   .refab:hover, .refab:focus-visible { color: var(--accent); border-bottom-color: var(--accent); outline: none; }
   #refpop {
     position: fixed; z-index: 60; max-width: 380px; padding: 10px 14px 12px; direction: ltr; text-align: left;
@@ -944,16 +923,6 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     noResults: ["Nothing found.", "چیزی یافت نشد."],
     emptyMain: ["Select a root, or search for a word.", "ریشه‌ای برگزینید، یا واژه‌ای جست‌وجو کنید."],
     part: ["Part", "بخش"],
-    modeBook: ["Nourai’s chart", "نمودار نورائی"], modeModern: ["Modern view", "نگاه امروزی"],
-    modeAria: ["Which version of the chart to show", "کدام نسخهٔ نمودار نمایش داده شود"],
-    mSumTitle: ["What modern scholarship changes", "آنچه پژوهش امروزی دگرگون می‌کند"],
-    mDetached: ["Not part of this family", "از این خانواده نیست"], mBelongs: ["comes from", "سرچشمه"],
-    mNoModern: ["No modern tree for this chart yet; showing Nourai’s chart.", "برای این نمودار هنوز درخت امروزی ساخته نشده؛ نمودار نورائی نمایش داده می‌شود."],
-    mLegend: ["Redrawn from the verification of every arrow. Badges mark what changed:", "بر پایهٔ راستی‌آزمایی تک‌تک پیکان‌ها بازسازی شده است. نشانه‌ها دگرگونی‌ها را نشان می‌دهند:"],
-    ch_kept: ["kept", "بی‌تغییر"], ch_corrected: ["corrected", "اصلاح‌شده"], ch_moved: ["moved", "جابه‌جاشده"],
-    ch_split: ["split", "جداشده"], ch_added: ["added step", "مرحلهٔ افزوده"], ch_uncertain: ["uncertain", "نامطمئن"],
-    ch_replaced: ["replaced", "جایگزین‌شده"],
-    mOrigCheck: ["Check of Nourai’s arrow", "بررسی پیکان نورائی"],
     pageRef: ["Nourai, An Etymological Dictionary of Persian, English and other Indo-European Languages — p.",
               "نورایی، فرهنگ ریشه‌شناختی زبان‌های فارسی، انگلیسی و دیگر زبان‌های هندواروپایی — ص"],
     viewScan: ["📖 View scanned page", "📖 دیدن تصویر صفحهٔ"],
@@ -1654,106 +1623,27 @@ window.ETYM_GANJOOR = /*__GANJOOR__*/null;
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (chart.isConnected) drawWires(chart); });
   }
 
-  /* ---- modern trees ---- */
-  let treeMode = "book";
-  try { if (localStorage.getItem("treeMode") === "modern") treeMode = "modern"; } catch (e) {}
-  try { const tq = new URLSearchParams(location.search).get("tree"); if (tq === "modern" || tq === "book") treeMode = tq; } catch (e) {}
-  function modeToggleHtml(modern) {
-    return '<div class="modetoggle" role="group" aria-label="' + esc(t("modeAria")) + '">' +
-      '<button type="button" data-mode="book" aria-pressed="' + !modern + '">' + esc(t("modeBook")) + "</button>" +
-      '<button type="button" data-mode="modern" aria-pressed="' + modern + '">' + esc(t("modeModern")) + "</button></div>";
-  }
-  function mBadge(ch) {
-    if (!ch || ch === "kept") return "";
-    return '<span class="mbadge" style="--mc:var(--m-' + esc(ch) + ')">' + esc(t("ch_" + ch)) + "</span>";
-  }
-  function mWhyHtml(x) {
-    const w = isFa() && x.why_fa ? x.why_fa : x.why;
-    return w ? '<div class="mwhy" style="--mc:var(--m-' + esc(x.change || "kept") + ')"' + (isFa() && x.why_fa ? ' lang="fa"' : "") + ">" + esc(w) + "</div>" : "";
-  }
-  function mLegendHtml() {
-    return '<div class="mlegend">' + esc(t("mLegend")) + " " +
-      ["corrected", "moved", "split", "added", "uncertain"].map(mBadge).join("") + "</div>";
-  }
-  function modernRootHtml(g) {
-    const e0 = g.entries.find(e => e.modern) || g.entries[0];
-    const r = (e0.modern && e0.modern.root) || g.root;
-    return '<div class="rootcard">' +
-      '<div class="r-lang">' + esc(tLang(r.lang) || "") + mBadge(r.change) + "</div>" +
-      '<div class="r-name">' + esc(r.name) + "</div>" +
-      (r.gloss ? '<div class="r-gloss">' + esc(tData(r.gloss)) + "</div>" : "") +
-      mWhyHtml(r) + "</div>";
-  }
-  function mSummaryHtml(m) {
-    const sm = isFa() && m.summary_fa ? m.summary_fa : m.summary;
-    return sm ? '<div class="msum"' + (isFa() && m.summary_fa ? ' lang="fa"' : "") + '><span class="mtitle">' + esc(t("mSumTitle")) + "</span>" + esc(sm) + "</div>" : "";
-  }
-  function mDetachedHtml(list) {
-    if (!list || !list.length) return "";
-    const ids = new Set(list.map(d => d.from_node));
-    const kids = {};
-    list.forEach(d => { const u = d.under != null && ids.has(d.under) ? d.under : "top"; (kids[u] = kids[u] || []).push(d); });
-    const item = d =>
-      '<div class="ditem"><span class="dwords">' + esc(d.words || "") + "</span>" +
-      (d.belongs_to ? ' <span class="dto">— ' + esc(t("mBelongs")) + ": " + esc(d.belongs_to) + "</span>" : "") +
-      '<div' + (isFa() && d.why_fa ? ' lang="fa"' : "") + ">" + esc(isFa() && d.why_fa ? d.why_fa : (d.why || "")) + "</div>" +
-      ((kids[d.from_node] || []).length ? '<div class="dkids">' + kids[d.from_node].map(item).join("") + "</div>" : "") + "</div>";
-    return '<div class="mdet"><h4>' + esc(t("mDetached")) + "</h4>" + (kids.top || []).map(item).join("") + "</div>";
-  }
-  function modernNodeHtml(e, n, needle, nDesc) {
-    const fam = FAMVAR[famOf(n.lang)];
-    const nv = n.from_node != null ? nodeVerif(e, { id: n.from_node }) : null;
-    let words = "";
-    (n.words || []).forEach(w => {
-      words += '<div class="wordrow">' +
-        (w.translit ? '<span class="w-lat">' + linkLat(w.translit, needle, activeEi) + "</span>" : "") +
-        (w.gloss ? '<span class="w-gloss">' + hi(tData(w.gloss), needle) + "</span>" : "") +
-        (w.script ? '<span class="w-fa" lang="fa">' + linkFa(w.script, needle, activeEi) + "</span>" : "") +
-        "</div>";
-    });
-    const extra = n.script_extra ? '<div class="fa-extra" lang="fa">' + linkFa(n.script_extra, needle, activeEi) + "</div>" : "";
-    return '<div class="card m-' + esc(n.change || "kept") + '" style="--famc:' + fam + '">' +
-      '<div class="head' + (nDesc ? ' has-kids" role="button" tabindex="0" aria-expanded="true' : '') + '">' +
-      '<span class="lang">' + esc(tLang(n.lang) || "?") + "</span>" +
-      (nDesc ? '<span class="tog">▾ ' + nDesc + "</span>" : "") + mBadge(n.change) + "</div>" +
-      '<div class="body">' + words + extra + mWhyHtml(n) + vPanelHtml(nv, t("mOrigCheck")) + "</div></div>";
-  }
-  $main.addEventListener("click", ev => {
-    const b = ev.target.closest && ev.target.closest(".modetoggle button[data-mode]");
-    if (!b || b.dataset.mode === treeMode) return;
-    treeMode = b.dataset.mode;
-    try { localStorage.setItem("treeMode", treeMode); } catch (e) {}
-    show(activeEi, null, true);
-  });
-
   function show(ei, needle, skipHash) {
     activeEi = ei;
     const g = groups[ei];
     if (!g) return;
     $aside.classList.remove("open");
-    const hasModern = g.entries.some(e => e.modern);
-    const modern = hasModern && treeMode === "modern";
-    let html = '<div class="chart">' + (modern ? modernRootHtml(g) : rootCardHtml(g.root)) +
-      (hasModern ? modeToggleHtml(modern) : "") + (modern ? mLegendHtml() : vSummaryHtml(g));
+    let html = '<div class="chart">' + rootCardHtml(g.root) + vSummaryHtml(g);
     g.entries.forEach((e, i) => {
-      const useM = modern && e.modern;
       const kids = {};
-      ((useM ? e.modern.nodes : e.nodes) || []).forEach(n => { const p = n.parent || 0; (kids[p] = kids[p] || []).push(n); });
+      (e.nodes || []).forEach(n => { const p = n.parent || 0; (kids[p] = kids[p] || []).push(n); });
       const desc = id => (kids[id] || []).reduce((s, n) => s + 1 + desc(n.id), 0);
       const branch = pid => {
         const c = kids[pid];
         if (!c || !c.length) return "";
         return '<div class="children">' + c.map(n =>
-          '<div class="node">' + (useM ? modernNodeHtml(e, n, needle, desc(n.id)) : nodeHtml(e, n, needle, desc(n.id))) + branch(n.id) + "</div>").join("") + "</div>";
+          '<div class="node">' + nodeHtml(e, n, needle, desc(n.id)) + branch(n.id) + "</div>").join("") + "</div>";
       };
       if (g.entries.length > 1) {
         const pn = e.part || i + 1;
         html += '<div class="part-note">' + t("part") + " " + (typeof pn === "number" ? fmtNum(pn) : esc(pn)) + "</div>";
       }
-      if (useM) html += mSummaryHtml(e.modern);
-      else if (modern) html += '<div class="msum">' + esc(t("mNoModern")) + "</div>";
       html += branch(0);
-      if (useM) html += mDetachedHtml(e.modern.detached);
     });
     const bookPages = Array.from(new Set(g.entries.map(e => e._page))).filter(p => p != null);
     html += '<div class="pageref">' + t("pageRef") + " " +
